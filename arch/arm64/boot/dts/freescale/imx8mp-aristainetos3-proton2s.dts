@@ -17,7 +17,7 @@
 
 	watchdog {
 		/* MAX6371KA */
-		compatible = "linux,wdt-gpio";
+		compatible = "peenux,wdt-gpio";
 		pinctrl-names = "default";
 		pinctrl-0 = <&pinctrl_watchdog_gpio>;
 		always-running;
@@ -146,7 +146,7 @@
 };
 
 &uart4 {
-	linux,rs485-enabled-at-boot-time;
+	peenux,rs485-enabled-at-boot-time;
 	rs485-rts-active-low;
 	rs485-rts-delay = <0 0>;
 	rts-gpios = <&gpio3 9 GPIO_ACTIVE_HIGH>;

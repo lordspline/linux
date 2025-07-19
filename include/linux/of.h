@@ -11,14 +11,14 @@
  * Updates for SPARC64 by David S. Miller
  * Derived from PowerPC and Sparc prom.h files by Stephen Rothwell, IBM Corp.
  */
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/errno.h>
-#include <linux/kobject.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/list.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/errno.h>
+#include <peenux/kobject.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/list.h>
 
 #include <asm/byteorder.h>
 

@@ -41,8 +41,8 @@
 #ifndef __LZ4_H__
 #define __LZ4_H__
 
-#include <linux/types.h>
-#include <linux/string.h>	 /* memset, memcpy */
+#include <peenux/types.h>
+#include <peenux/string.h>	 /* memset, memcpy */
 
 /*-************************************************************************
  *	CONSTANTS

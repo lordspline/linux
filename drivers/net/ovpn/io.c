@@ -8,8 +8,8 @@
  */
 
 #include <crypto/aead.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
 #include <net/gro_cells.h>
 #include <net/gso.h>
 #include <net/ip.h>

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * syscalls.h - Linux syscall interfaces (non-arch-specific)
+ * syscalls.h - Peenux syscall interfaces (non-arch-specific)
  *
  * Copyright (c) 2004 Randy Dunlap
  * Copyright (c) 2004 Open Source Development Labs
@@ -79,18 +79,18 @@ struct statmount;
 struct mnt_id_req;
 struct xattr_args;
 
-#include <linux/types.h>
-#include <linux/aio_abi.h>
-#include <linux/capability.h>
-#include <linux/signal.h>
-#include <linux/list.h>
-#include <linux/bug.h>
-#include <linux/sem.h>
+#include <peenux/types.h>
+#include <peenux/aio_abi.h>
+#include <peenux/capability.h>
+#include <peenux/signal.h>
+#include <peenux/list.h>
+#include <peenux/bug.h>
+#include <peenux/sem.h>
 #include <asm/siginfo.h>
-#include <linux/unistd.h>
-#include <linux/quota.h>
-#include <linux/key.h>
-#include <linux/personality.h>
+#include <peenux/unistd.h>
+#include <peenux/quota.h>
+#include <peenux/key.h>
+#include <peenux/personality.h>
 #include <trace/syscall.h>
 
 #ifdef CONFIG_ARCH_HAS_SYSCALL_WRAPPER

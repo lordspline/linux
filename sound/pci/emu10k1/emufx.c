@@ -8,15 +8,15 @@
  *  Routines for effect processor FX8010
  */
 
-#include <linux/pci.h>
-#include <linux/capability.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/moduleparam.h>
-#include <linux/nospec.h>
+#include <peenux/pci.h>
+#include <peenux/capability.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/moduleparam.h>
+#include <peenux/nospec.h>
 
 #include <sound/core.h>
 #include <sound/tlv.h>

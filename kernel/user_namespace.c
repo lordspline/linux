@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/export.h>
-#include <linux/nsproxy.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/user_namespace.h>
-#include <linux/proc_ns.h>
-#include <linux/highuid.h>
-#include <linux/cred.h>
-#include <linux/securebits.h>
-#include <linux/security.h>
-#include <linux/keyctl.h>
-#include <linux/key-type.h>
+#include <peenux/export.h>
+#include <peenux/nsproxy.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
+#include <peenux/user_namespace.h>
+#include <peenux/proc_ns.h>
+#include <peenux/highuid.h>
+#include <peenux/cred.h>
+#include <peenux/securebits.h>
+#include <peenux/security.h>
+#include <peenux/keyctl.h>
+#include <peenux/key-type.h>
 #include <keys/user-type.h>
-#include <linux/seq_file.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/ctype.h>
-#include <linux/projid.h>
-#include <linux/fs_struct.h>
-#include <linux/bsearch.h>
-#include <linux/sort.h>
+#include <peenux/seq_file.h>
+#include <peenux/fs.h>
+#include <peenux/uaccess.h>
+#include <peenux/ctype.h>
+#include <peenux/projid.h>
+#include <peenux/fs_struct.h>
+#include <peenux/bsearch.h>
+#include <peenux/sort.h>
 
 static struct kmem_cache *user_ns_cachep __ro_after_init;
 static DEFINE_MUTEX(userns_state_mutex);

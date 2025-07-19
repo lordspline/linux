@@ -9,16 +9,16 @@
 
 #define pr_fmt(fmt)	"spi-nand: " fmt
 
-#include <linux/device.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mtd/spinand.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <peenux/device.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mtd/spinand.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
 
 static int spinand_read_reg_op(struct spinand_device *spinand, u8 reg, u8 *val)
 {

@@ -6,20 +6,20 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/cache.h>
-#include <linux/compat.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/freezer.h>
-#include <linux/stddef.h>
-#include <linux/uaccess.h>
-#include <linux/sizes.h>
-#include <linux/string.h>
-#include <linux/ratelimit.h>
-#include <linux/rseq.h>
-#include <linux/syscalls.h>
-#include <linux/pkeys.h>
+#include <peenux/cache.h>
+#include <peenux/compat.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/freezer.h>
+#include <peenux/stddef.h>
+#include <peenux/uaccess.h>
+#include <peenux/sizes.h>
+#include <peenux/string.h>
+#include <peenux/ratelimit.h>
+#include <peenux/rseq.h>
+#include <peenux/syscalls.h>
+#include <peenux/pkeys.h>
 
 #include <asm/daifflags.h>
 #include <asm/debug-monitors.h>

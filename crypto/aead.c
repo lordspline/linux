@@ -8,15 +8,15 @@
  */
 
 #include <crypto/internal/aead.h>
-#include <linux/cryptouser.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
+#include <peenux/cryptouser.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
 #include <net/netlink.h>
 
 #include "internal.h"

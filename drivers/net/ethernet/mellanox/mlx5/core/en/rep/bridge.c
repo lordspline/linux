@@ -1,8 +1,8 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /* Copyright (c) 2021 Mellanox Technologies. */
 
-#include <linux/netdevice.h>
-#include <linux/if_bridge.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_bridge.h>
 #include <net/netevent.h>
 #include <net/switchdev.h>
 #include "bridge.h"

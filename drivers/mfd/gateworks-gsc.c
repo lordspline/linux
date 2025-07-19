@@ -9,18 +9,18 @@
  * Copyright (C) 2020 Gateworks Corporation
  */
 
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/gsc.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/gsc.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /*
  * The GSC suffers from an errata where occasionally during

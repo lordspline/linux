@@ -10,19 +10,19 @@
  * Alex Bounine <alexandre.bounine@idt.com>
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/rio.h>
-#include <linux/rio_drv.h>
-#include <linux/rio_ids.h>
-#include <linux/rio_regs.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/rio.h>
+#include <peenux/rio_drv.h>
+#include <peenux/rio_ids.h>
+#include <peenux/rio_regs.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
 
 #include "rio.h"
 

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/*-*-linux-c-*-*/
+/*-*-peenux-c-*-*/
 
 /*
   Copyright (C) 2008 Cezary Jackiewicz <cezary.jackiewicz (at) gmail.com>
@@ -17,7 +17,7 @@
  *   wake_up_XXX   Whether or not we listen to such wake up events (rw)
  *
  * In addition to these platform device attributes the driver
- * registers itself in the Linux backlight control, power_supply, rfkill
+ * registers itself in the Peenux backlight control, power_supply, rfkill
  * and hwmon subsystem and is available to userspace under:
  *
  *   /sys/class/backlight/compal-laptop/
@@ -48,7 +48,7 @@
  * power, wake_on_XXX, a hwmon and power_supply interface.
  *
  * In case this gets merged into the kernel source: I want to dedicate this
- * to Kasper Meerts, the awesome guy who showed me Linux and C!
+ * to Kasper Meerts, the awesome guy who showed me Peenux and C!
  */
 
 /* NOTE: currently the wake_on_XXX, hwmon and power_supply interfaces are
@@ -57,18 +57,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/backlight.h>
-#include <linux/platform_device.h>
-#include <linux/rfkill.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/power_supply.h>
-#include <linux/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/backlight.h>
+#include <peenux/platform_device.h>
+#include <peenux/rfkill.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/power_supply.h>
+#include <peenux/sysfs.h>
 #include <acpi/video.h>
 
 /* ======= */

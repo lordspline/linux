@@ -5,17 +5,17 @@
  * Copyright 2020 Google LLC
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_data/cros_ec_sensorhub.h>
-#include <linux/platform_device.h>
-#include <linux/sort.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/iio/iio.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_data/cros_ec_sensorhub.h>
+#include <peenux/platform_device.h>
+#include <peenux/sort.h>
+#include <peenux/slab.h>
 
 #define CREATE_TRACE_POINTS
 #include "cros_ec_sensorhub_trace.h"

@@ -3,12 +3,12 @@
  * Coherent per-device memory handling.
  * Borrowed from i386
  */
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/dma-direct.h>
-#include <linux/dma-map-ops.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/dma-direct.h>
+#include <peenux/dma-map-ops.h>
 
 struct dma_coherent_mem {
 	void		*virt_base;
@@ -325,9 +325,9 @@ int dma_init_global_coherent(phys_addr_t phys_addr, size_t size)
  * Support for reserved memory regions defined in device tree
  */
 #ifdef CONFIG_OF_RESERVED_MEM
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_reserved_mem.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_reserved_mem.h>
 
 #ifdef CONFIG_DMA_GLOBAL_POOL
 static phys_addr_t dma_reserved_default_memory_base __initdata;
@@ -382,7 +382,7 @@ static int __init rmem_dma_setup(struct reserved_mem *rmem)
 #endif
 
 #ifdef CONFIG_DMA_GLOBAL_POOL
-	if (of_get_flat_dt_prop(node, "linux,dma-default", NULL)) {
+	if (of_get_flat_dt_prop(node, "peenux,dma-default", NULL)) {
 		WARN(dma_reserved_default_memory_size,
 		     "Reserved memory: region for default DMA coherent area is redefined\n");
 		dma_reserved_default_memory_base = rmem->base;

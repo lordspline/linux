@@ -8,10 +8,10 @@
 
 #include <asm/isa-rev.h>
 
-#include <linux/elfnote.h>
-#include <linux/version.h>
+#include <peenux/elfnote.h>
+#include <peenux/version.h>
 
-ELFNOTE_START(Linux, 0, "a")
+ELFNOTE_START(Peenux, 0, "a")
 	.long LINUX_VERSION_CODE
 ELFNOTE_END
 

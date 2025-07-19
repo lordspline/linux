@@ -4,18 +4,18 @@
  * Copyright 2014 Linaro Limited
  */
 
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irqchip/irq-bcm2836.h>
-#include <linux/jiffies.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/smp.h>
+#include <peenux/cpumask.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/irqchip/irq-bcm2836.h>
+#include <peenux/jiffies.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/smp.h>
 
 #include <asm/cacheflush.h>
 #include <asm/smp.h>

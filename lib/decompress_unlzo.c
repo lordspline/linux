@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * LZO decompressor for the Linux kernel. Code borrowed from the lzo
+ * LZO decompressor for the Peenux kernel. Code borrowed from the lzo
  * implementation by Markus Franz Xaver Johannes Oberhumer.
  *
- * Linux kernel adaptation:
+ * Peenux kernel adaptation:
  * Copyright (C) 2009
  * Albin Tonnerre, Free Electrons <albin.tonnerre@free-electrons.com>
  *
@@ -20,15 +20,15 @@
 #define PREBOOT
 #include "lzo/lzo1x_decompress_safe.c"
 #else
-#include <linux/decompress/unlzo.h>
+#include <peenux/decompress/unlzo.h>
 #endif
 
-#include <linux/types.h>
-#include <linux/lzo.h>
-#include <linux/decompress/mm.h>
+#include <peenux/types.h>
+#include <peenux/lzo.h>
+#include <peenux/decompress/mm.h>
 
-#include <linux/compiler.h>
-#include <linux/unaligned.h>
+#include <peenux/compiler.h>
+#include <peenux/unaligned.h>
 
 static const unsigned char lzop_magic[] = {
 	0x89, 0x4c, 0x5a, 0x4f, 0x00, 0x0d, 0x0a, 0x1a, 0x0a };

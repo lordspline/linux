@@ -6,10 +6,10 @@
  *
  * Copyright (c) 2017 Andrew Lunn <andrew@lunn.ch>
  */
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/mii.h>
-#include <linux/string_choices.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mii.h>
+#include <peenux/string_choices.h>
 
 #include "chip.h"
 #include "global2.h"

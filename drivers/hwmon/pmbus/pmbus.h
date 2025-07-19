@@ -9,8 +9,8 @@
 #ifndef PMBUS_H
 #define PMBUS_H
 
-#include <linux/bitops.h>
-#include <linux/regulator/driver.h>
+#include <peenux/bitops.h>
+#include <peenux/regulator/driver.h>
 
 /*
  * Registers

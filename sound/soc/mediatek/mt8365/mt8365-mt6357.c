@@ -6,14 +6,14 @@
  * Authors: Nicolas Belin <nbelin@baylibre.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/dev_printk.h>
+#include <peenux/err.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 #include <sound/soc.h>
 #include <sound/pcm_params.h>

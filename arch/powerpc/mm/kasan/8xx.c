@@ -2,9 +2,9 @@
 
 #define DISABLE_BRANCH_PROFILING
 
-#include <linux/kasan.h>
-#include <linux/memblock.h>
-#include <linux/hugetlb.h>
+#include <peenux/kasan.h>
+#include <peenux/memblock.h>
+#include <peenux/hugetlb.h>
 
 #include <asm/pgalloc.h>
 

@@ -7,27 +7,27 @@
  * Author: Eugeniy Paltsev <Eugeniy.Paltsev@synopsys.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dmapool.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "dw-axi-dmac.h"
 #include "../dmaengine.h"

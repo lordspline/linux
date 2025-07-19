@@ -11,9 +11,9 @@
 #endif
 #define rva(x)          ((x) - pvh_start_xen)
 
-#include <linux/elfnote.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <peenux/elfnote.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
 #include <asm/desc_defs.h>
 #include <asm/segment.h>
 #include <asm/asm.h>

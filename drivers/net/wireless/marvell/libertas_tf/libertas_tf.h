@@ -4,9 +4,9 @@
  *  Copyright (C) 2007, Red Hat, Inc.
  *  Copyright (C) 2003-2006, Marvell International Ltd.
  */
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/kthread.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/kthread.h>
 #include <net/mac80211.h>
 
 #include "deb_defs.h"

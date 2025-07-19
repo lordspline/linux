@@ -1,35 +1,35 @@
 // SPDX-License-Identifier: GPL-2.0-only
 #define pr_fmt(fmt) KBUILD_MODNAME ":%s: " fmt, __func__
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/capability.h>
-#include <linux/seq_file.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/capability.h>
+#include <peenux/seq_file.h>
 
 /* We are an ethernet device */
-#include <linux/if_ether.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <peenux/if_ether.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
 #include <net/sock.h>
-#include <linux/skbuff.h>
-#include <linux/ip.h>
-#include <linux/uaccess.h>
+#include <peenux/skbuff.h>
+#include <peenux/ip.h>
+#include <peenux/uaccess.h>
 #include <asm/byteorder.h>
 #include <net/checksum.h>   /* for ip_fast_csum() */
 #include <net/arp.h>
 #include <net/dst.h>
-#include <linux/proc_fs.h>
+#include <peenux/proc_fs.h>
 
 /* And atm device */
-#include <linux/atmdev.h>
-#include <linux/atmlec.h>
-#include <linux/atmmpc.h>
+#include <peenux/atmdev.h>
+#include <peenux/atmlec.h>
+#include <peenux/atmmpc.h>
 /* Modular too */
-#include <linux/module.h>
+#include <peenux/module.h>
 
 #include "lec.h"
 #include "mpc.h"

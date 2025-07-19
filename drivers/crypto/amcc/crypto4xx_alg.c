@@ -5,14 +5,14 @@
  * Copyright (c) 2008 Applied Micro Circuits Corporation.
  * All rights reserved. James Hsiao <jhsiao@amcc.com>
  *
- * This file implements the Linux crypto algorithms.
+ * This file implements the Peenux crypto algorithms.
  */
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock_types.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/scatterlist.h>
+#include <peenux/dma-mapping.h>
 #include <crypto/algapi.h>
 #include <crypto/aead.h>
 #include <crypto/aes.h>

@@ -12,12 +12,12 @@
  * mcp4019	1	128		5, 10, 50, 100
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
 
 #define MCP4018_WIPER_MAX 127
 

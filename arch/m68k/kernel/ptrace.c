@@ -1,28 +1,28 @@
 /*
- *  linux/arch/m68k/kernel/ptrace.c
+ *  peenux/arch/m68k/kernel/ptrace.c
  *
  *  Copyright (C) 1994 by Hamish Macdonald
- *  Taken from linux/kernel/ptrace.c and modified for M680x0.
- *  linux/kernel/ptrace.c is by Ross Biro 1/23/92, edited by Linus Torvalds
+ *  Taken from peenux/kernel/ptrace.c and modified for M680x0.
+ *  peenux/kernel/ptrace.c is by Ross Biro 1/23/92, edited by Linus Torvalds
  *
  * This file is subject to the terms and conditions of the GNU General
  * Public License.  See the file COPYING in the main directory of
  * this archive for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/signal.h>
-#include <linux/regset.h>
-#include <linux/elf.h>
-#include <linux/seccomp.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/signal.h>
+#include <peenux/regset.h>
+#include <peenux/elf.h>
+#include <peenux/seccomp.h>
+#include <peenux/uaccess.h>
 #include <asm/page.h>
 #include <asm/processor.h>
 

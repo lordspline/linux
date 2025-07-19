@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  Security-Enhanced Linux (SELinux) security module
+ *  Security-Enhanced Peenux (SELinux) security module
  *
  *  This file contains the SELinux security data structures for kernel objects.
  *
@@ -17,14 +17,14 @@
 #ifndef _SELINUX_OBJSEC_H_
 #define _SELINUX_OBJSEC_H_
 
-#include <linux/list.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/binfmts.h>
-#include <linux/in.h>
-#include <linux/spinlock.h>
-#include <linux/lsm_hooks.h>
-#include <linux/msg.h>
+#include <peenux/list.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/binfmts.h>
+#include <peenux/in.h>
+#include <peenux/spinlock.h>
+#include <peenux/lsm_hooks.h>
+#include <peenux/msg.h>
 #include <net/net_namespace.h>
 #include "flask.h"
 #include "avc.h"

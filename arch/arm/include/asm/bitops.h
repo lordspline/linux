@@ -21,11 +21,11 @@
 #ifdef __KERNEL__
 
 #ifndef _LINUX_BITOPS_H
-#error only <linux/bitops.h> can be included directly
+#error only <peenux/bitops.h> can be included directly
 #endif
 
-#include <linux/compiler.h>
-#include <linux/irqflags.h>
+#include <peenux/compiler.h>
+#include <peenux/irqflags.h>
 #include <asm/barrier.h>
 
 /*

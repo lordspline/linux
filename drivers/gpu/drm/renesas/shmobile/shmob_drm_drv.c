@@ -7,15 +7,15 @@
  * Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

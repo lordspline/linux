@@ -10,14 +10,14 @@
  * Copyright (C) 2004-2010   Dominik Brodowski
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/device.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
 
 #include <asm/irq.h>
 

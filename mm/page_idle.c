@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/fs.h>
-#include <linux/sysfs.h>
-#include <linux/kobject.h>
-#include <linux/memory_hotplug.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/pagemap.h>
-#include <linux/rmap.h>
-#include <linux/mmu_notifier.h>
-#include <linux/page_ext.h>
-#include <linux/page_idle.h>
+#include <peenux/init.h>
+#include <peenux/memblock.h>
+#include <peenux/fs.h>
+#include <peenux/sysfs.h>
+#include <peenux/kobject.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/mm.h>
+#include <peenux/mmzone.h>
+#include <peenux/pagemap.h>
+#include <peenux/rmap.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/page_ext.h>
+#include <peenux/page_idle.h>
 
 #include "internal.h"
 

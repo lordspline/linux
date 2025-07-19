@@ -7,9 +7,9 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/icmpv6.h>
-#include <linux/skbuff_ref.h>
+#include <peenux/kernel.h>
+#include <peenux/icmpv6.h>
+#include <peenux/skbuff_ref.h>
 #include <net/gro.h>
 #include <net/icmp.h>
 #include <net/ip6_route.h>

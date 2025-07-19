@@ -2,7 +2,7 @@
 #ifndef __LINUX_DMA_QCOM_ADM_H
 #define __LINUX_DMA_QCOM_ADM_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct qcom_adm_peripheral_config {
 	u32 crci;

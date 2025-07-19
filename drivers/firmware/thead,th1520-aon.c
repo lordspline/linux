@@ -5,11 +5,11 @@
  * Author: Michal Wilczynski <m.wilczynski@samsung.com>
  */
 
-#include <linux/device.h>
-#include <linux/firmware/thead/thead,th1520-aon.h>
-#include <linux/mailbox_client.h>
-#include <linux/mailbox_controller.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/firmware/thead/thead,th1520-aon.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/slab.h>
 
 #define MAX_RX_TIMEOUT (msecs_to_jiffies(3000))
 #define MAX_TX_TIMEOUT 500

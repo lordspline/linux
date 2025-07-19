@@ -30,19 +30,19 @@
  * SOFTWARE.
  */
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
-#include <linux/pid.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/vmalloc.h>
-#include <linux/hugetlb.h>
-#include <linux/interval_tree.h>
-#include <linux/hmm.h>
-#include <linux/hmm-dma.h>
-#include <linux/pagemap.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task.h>
+#include <peenux/pid.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/vmalloc.h>
+#include <peenux/hugetlb.h>
+#include <peenux/interval_tree.h>
+#include <peenux/hmm.h>
+#include <peenux/hmm-dma.h>
+#include <peenux/pagemap.h>
 
 #include <rdma/ib_umem_odp.h>
 

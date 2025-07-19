@@ -2,17 +2,17 @@
 /*
  * Copyright 2016 Broadcom
  */
-#include <linux/align.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/mdio-mux.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
+#include <peenux/align.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/iopoll.h>
+#include <peenux/mdio-mux.h>
+#include <peenux/module.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
 
 #define MDIO_RATE_ADJ_EXT_OFFSET	0x000
 #define MDIO_RATE_ADJ_INT_OFFSET	0x004

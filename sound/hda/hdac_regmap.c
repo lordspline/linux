@@ -12,11 +12,11 @@
  *   so can't handle asymmetric verbs for read and write
  */
 
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/export.h>
-#include <linux/pm.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/regmap.h>
+#include <peenux/export.h>
+#include <peenux/pm.h>
 #include <sound/core.h>
 #include <sound/hdaudio.h>
 #include <sound/hda_regmap.h>

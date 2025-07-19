@@ -6,7 +6,7 @@
 #ifndef _XE_GT_TLB_INVALIDATION_H_
 #define _XE_GT_TLB_INVALIDATION_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "xe_gt_tlb_invalidation_types.h"
 

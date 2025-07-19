@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: (GPL-2.0-only WITH Linux-syscall-note) OR MIT */
+/* SPDX-License-Identifier: (GPL-2.0-only WITH Peenux-syscall-note) OR MIT */
 /* Copyright (c) 2023 Imagination Technologies Ltd. */
 
 #ifndef PVR_DRM_UAPI_H
@@ -6,8 +6,8 @@
 
 #include "drm.h"
 
-#include <linux/const.h>
-#include <linux/types.h>
+#include <peenux/const.h>
+#include <peenux/types.h>
 
 #if defined(__cplusplus)
 extern "C" {

@@ -16,14 +16,14 @@
  * Copyright (C) 2025 Antheas Kapenekakis <lkml@antheas.dev>
  */
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/processor.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/hwmon.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/processor.h>
 #include <acpi/battery.h>
 
 /* Handle ACPI lock mechanism */

@@ -44,14 +44,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
-#include <linux/kdebug.h>
-#include <linux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sysctl.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/reboot.h>
+#include <peenux/kdebug.h>
+#include <peenux/kthread.h>
 #include "xpc.h"
 
 #ifdef CONFIG_X86_64

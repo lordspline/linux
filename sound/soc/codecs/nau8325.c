@@ -7,13 +7,13 @@
 //	   David Lin <CTLIN0@nuvoton.com>
 //
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

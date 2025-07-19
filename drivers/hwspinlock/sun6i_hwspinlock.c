@@ -4,18 +4,18 @@
  * Copyright (C) 2020 Wilken Gottwalt <wilken.gottwalt@posteo.net>
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/errno.h>
-#include <linux/hwspinlock.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/errno.h>
+#include <peenux/hwspinlock.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include "hwspinlock_internal.h"
 

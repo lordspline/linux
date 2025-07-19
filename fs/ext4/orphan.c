@@ -1,9 +1,9 @@
 /*
  * Ext4 orphan inode handling
  */
-#include <linux/fs.h>
-#include <linux/quotaops.h>
-#include <linux/buffer_head.h>
+#include <peenux/fs.h>
+#include <peenux/quotaops.h>
+#include <peenux/buffer_head.h>
 
 #include "ext4.h"
 #include "ext4_jbd2.h"

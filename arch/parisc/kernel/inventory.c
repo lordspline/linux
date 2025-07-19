@@ -14,12 +14,12 @@
  * problems, but...
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/platform_device.h>
 #include <asm/hardware.h>
 #include <asm/io.h>
 #include <asm/mmzone.h>

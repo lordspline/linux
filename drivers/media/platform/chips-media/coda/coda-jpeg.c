@@ -5,13 +5,13 @@
  * Copyright (C) 2014 Philipp Zabel, Pengutronix
  */
 
-#include <linux/unaligned.h>
-#include <linux/irqreturn.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/slab.h>
-#include <linux/swab.h>
-#include <linux/videodev2.h>
+#include <peenux/unaligned.h>
+#include <peenux/irqreturn.h>
+#include <peenux/kernel.h>
+#include <peenux/ktime.h>
+#include <peenux/slab.h>
+#include <peenux/swab.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-fh.h>

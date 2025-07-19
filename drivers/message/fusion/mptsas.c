@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptsas.c
+ *  peenux/drivers/message/fusion/mptsas.c
  *      For use with LSI PCI chip/adapter(s)
  *      running LSI Fusion MPT (Message Passing Technology) firmware.
  *
@@ -43,14 +43,14 @@
 */
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/jiffies.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>	/* for mdelay */
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/jiffies.h>
+#include <peenux/workqueue.h>
+#include <peenux/delay.h>	/* for mdelay */
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

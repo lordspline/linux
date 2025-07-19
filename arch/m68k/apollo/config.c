@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/rtc.h>
-#include <linux/vt_kern.h>
-#include <linux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/tty.h>
+#include <peenux/rtc.h>
+#include <peenux/vt_kern.h>
+#include <peenux/interrupt.h>
 
 #include <asm/setup.h>
 #include <asm/bootinfo.h>

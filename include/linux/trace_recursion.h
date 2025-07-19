@@ -2,8 +2,8 @@
 #ifndef _LINUX_TRACE_RECURSION_H
 #define _LINUX_TRACE_RECURSION_H
 
-#include <linux/interrupt.h>
-#include <linux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
 
 #ifdef CONFIG_TRACING
 

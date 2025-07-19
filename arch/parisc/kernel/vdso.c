@@ -7,15 +7,15 @@
  *  Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/elf.h>
-#include <linux/timekeeper_internal.h>
-#include <linux/compat.h>
-#include <linux/nsproxy.h>
-#include <linux/time_namespace.h>
-#include <linux/random.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/elf.h>
+#include <peenux/timekeeper_internal.h>
+#include <peenux/compat.h>
+#include <peenux/nsproxy.h>
+#include <peenux/time_namespace.h>
+#include <peenux/random.h>
 
 #include <asm/pgtable.h>
 #include <asm/page.h>

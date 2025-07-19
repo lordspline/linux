@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2015 - 2023 Beijing WangXun Technology Co., Ltd. */
 
-#include <linux/pci.h>
-#include <linux/phylink.h>
-#include <linux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/phylink.h>
+#include <peenux/netdevice.h>
 
 #include "../libwx/wx_ethtool.h"
 #include "../libwx/wx_type.h"

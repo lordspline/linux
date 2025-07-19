@@ -5,16 +5,16 @@
  *    Bjorn Andersson
  *    Dmitry Baryshkov
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/power_supply.h>
-#include <linux/platform_data/lenovo-yoga-c630.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/power_supply.h>
+#include <peenux/platform_data/lenovo-yoga-c630.h>
 
 struct yoga_c630_psy {
 	struct yoga_c630_ec *ec;

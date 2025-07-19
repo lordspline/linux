@@ -2,18 +2,18 @@
 #ifndef __FS_CEPH_MESSENGER_H
 #define __FS_CEPH_MESSENGER_H
 
-#include <linux/bvec.h>
-#include <linux/crypto.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/net.h>
-#include <linux/radix-tree.h>
-#include <linux/uio.h>
-#include <linux/workqueue.h>
+#include <peenux/bvec.h>
+#include <peenux/crypto.h>
+#include <peenux/kref.h>
+#include <peenux/mutex.h>
+#include <peenux/net.h>
+#include <peenux/radix-tree.h>
+#include <peenux/uio.h>
+#include <peenux/workqueue.h>
 #include <net/net_namespace.h>
 
-#include <linux/ceph/types.h>
-#include <linux/ceph/buffer.h>
+#include <peenux/ceph/types.h>
+#include <peenux/ceph/buffer.h>
 
 struct ceph_msg;
 struct ceph_connection;

@@ -3,8 +3,8 @@
 #define __ASM_BUG_H
 
 #include <asm/break.h>
-#include <linux/stringify.h>
-#include <linux/objtool.h>
+#include <peenux/stringify.h>
+#include <peenux/objtool.h>
 
 #ifndef CONFIG_DEBUG_BUGVERBOSE
 #define _BUGVERBOSE_LOCATION(file, line)

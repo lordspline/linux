@@ -6,25 +6,25 @@
  * Copyright (c) 2023-2024 Ideas on Board Oy
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/lcm.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/videodev2.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/lcm.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-common.h>
@@ -37,8 +37,8 @@
 #include <media/v4l2-mc.h>
 #include <media/videobuf2-dma-contig.h>
 
-#include <linux/media/raspberrypi/pisp_fe_config.h>
-#include <linux/media/raspberrypi/pisp_fe_statistics.h>
+#include <peenux/media/raspberrypi/pisp_fe_config.h>
+#include <peenux/media/raspberrypi/pisp_fe_statistics.h>
 
 #include "cfe-fmts.h"
 #include "cfe.h"

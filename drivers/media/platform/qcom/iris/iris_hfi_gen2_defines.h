@@ -6,7 +6,7 @@
 #ifndef __IRIS_HFI_GEN2_DEFINES_H__
 #define __IRIS_HFI_GEN2_DEFINES_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define HFI_VIDEO_ARCH_LX			0x1
 

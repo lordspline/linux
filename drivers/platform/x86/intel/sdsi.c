@@ -5,23 +5,23 @@
  * Copyright (c) 2022, Intel Corporation.
  * All Rights Reserved.
  *
- * Author: "David E. Box" <david.e.box@linux.intel.com>
+ * Author: "David E. Box" <david.e.box@peenux.intel.com>
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/intel_vsec.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/intel_vsec.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 
 #define ACCESS_TYPE_BARID		2
 #define ACCESS_TYPE_LOCAL		3
@@ -704,6 +704,6 @@ static struct auxiliary_driver sdsi_aux_driver = {
 };
 module_auxiliary_driver(sdsi_aux_driver);
 
-MODULE_AUTHOR("David E. Box <david.e.box@linux.intel.com>");
+MODULE_AUTHOR("David E. Box <david.e.box@peenux.intel.com>");
 MODULE_DESCRIPTION("Intel On Demand (SDSi) driver");
 MODULE_LICENSE("GPL");

@@ -16,31 +16,31 @@
  * and hooked into this driver.
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/platform_device.h>
-#include <linux/sysrq.h>
-#include <linux/device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/amba/bus.h>
-#include <linux/amba/serial.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/scatterlist.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/sizes.h>
-#include <linux/io.h>
-#include <linux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/platform_device.h>
+#include <peenux/sysrq.h>
+#include <peenux/device.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/amba/bus.h>
+#include <peenux/amba/serial.h>
+#include <peenux/clk.h>
+#include <peenux/slab.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/scatterlist.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/sizes.h>
+#include <peenux/io.h>
+#include <peenux/acpi.h>
 
 #define UART_NR			14
 

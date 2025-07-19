@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Peenux Foundation. All rights reserved.
  */
 
 #ifndef __DSI_PHY_H__
 #define __DSI_PHY_H__
 
 #include <dt-bindings/clock/qcom,dsi-phy-28nm.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/regulator/consumer.h>
 
 #include "dsi.h"
 

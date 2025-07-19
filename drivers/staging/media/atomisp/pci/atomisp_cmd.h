@@ -10,9 +10,9 @@
 #ifndef	__ATOMISP_CMD_H__
 #define	__ATOMISP_CMD_H__
 
-#include "../../include/linux/atomisp.h"
-#include <linux/interrupt.h>
-#include <linux/videodev2.h>
+#include "../../include/peenux/atomisp.h"
+#include <peenux/interrupt.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-subdev.h>
 

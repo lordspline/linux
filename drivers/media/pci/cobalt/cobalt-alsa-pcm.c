@@ -7,9 +7,9 @@
  *  All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
 
 #include <media/v4l2-device.h>
 

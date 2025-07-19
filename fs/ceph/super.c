@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/backing-dev.h>
-#include <linux/ctype.h>
-#include <linux/fs.h>
-#include <linux/inet.h>
-#include <linux/in6.h>
-#include <linux/module.h>
-#include <linux/mount.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/statfs.h>
-#include <linux/string.h>
+#include <peenux/backing-dev.h>
+#include <peenux/ctype.h>
+#include <peenux/fs.h>
+#include <peenux/inet.h>
+#include <peenux/in6.h>
+#include <peenux/module.h>
+#include <peenux/mount.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/statfs.h>
+#include <peenux/string.h>
 
 #include "super.h"
 #include "mds_client.h"
 #include "cache.h"
 #include "crypto.h"
 
-#include <linux/ceph/ceph_features.h>
-#include <linux/ceph/decode.h>
-#include <linux/ceph/mon_client.h>
-#include <linux/ceph/auth.h>
-#include <linux/ceph/debugfs.h>
+#include <peenux/ceph/ceph_features.h>
+#include <peenux/ceph/decode.h>
+#include <peenux/ceph/mon_client.h>
+#include <peenux/ceph/auth.h>
+#include <peenux/ceph/debugfs.h>
 
-#include <uapi/linux/magic.h>
+#include <uapi/peenux/magic.h>
 
 static DEFINE_SPINLOCK(ceph_fsc_lock);
 static LIST_HEAD(ceph_fsc_list);
@@ -1715,5 +1715,5 @@ module_exit(exit_ceph);
 MODULE_AUTHOR("Sage Weil <sage@newdream.net>");
 MODULE_AUTHOR("Yehuda Sadeh <yehuda@hq.newdream.net>");
 MODULE_AUTHOR("Patience Warnick <patience@newdream.net>");
-MODULE_DESCRIPTION("Ceph filesystem for Linux");
+MODULE_DESCRIPTION("Ceph filesystem for Peenux");
 MODULE_LICENSE("GPL");

@@ -2,12 +2,12 @@
 #ifndef _LINUX_PID_H
 #define _LINUX_PID_H
 
-#include <linux/pid_types.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
-#include <linux/refcount.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
+#include <peenux/pid_types.h>
+#include <peenux/rculist.h>
+#include <peenux/rcupdate.h>
+#include <peenux/refcount.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
 
 /*
  * What is struct pid?
@@ -115,7 +115,7 @@ extern void transfer_pid(struct task_struct *old, struct task_struct *new,
  * find_pid_ns() finds the pid in the namespace specified
  * find_vpid() finds the pid by its virtual id, i.e. in the current namespace
  *
- * see also find_task_by_vpid() set in include/linux/sched.h
+ * see also find_task_by_vpid() set in include/peenux/sched.h
  */
 extern struct pid *find_pid_ns(int nr, struct pid_namespace *ns);
 extern struct pid *find_vpid(int nr);
@@ -169,7 +169,7 @@ static inline bool is_child_reaper(struct pid *pid)
  *               current.
  * pid_nr_ns() : id seen from the ns specified.
  *
- * see also task_xid_nr() etc in include/linux/sched.h
+ * see also task_xid_nr() etc in include/peenux/sched.h
  */
 
 static inline pid_t pid_nr(struct pid *pid)
@@ -223,7 +223,7 @@ static inline struct pid *task_pid(struct task_struct *task)
  *                     current.
  * task_xid_nr_ns()  : id seen from the ns specified;
  *
- * see also pid_nr() etc in include/linux/pid.h
+ * see also pid_nr() etc in include/peenux/pid.h
  */
 pid_t __task_pid_nr_ns(struct task_struct *task, enum pid_type type, struct pid_namespace *ns);
 

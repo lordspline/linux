@@ -16,24 +16,24 @@
 #define UDC_MOD_DESCRIPTION		"Synopsys USB Device Controller"
 #define UDC_DRIVER_VERSION_STRING	"01.00.0206"
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/fs.h>
-#include <linux/dmapool.h>
-#include <linux/prefetch.h>
-#include <linux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/timer.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioctl.h>
+#include <peenux/fs.h>
+#include <peenux/dmapool.h>
+#include <peenux/prefetch.h>
+#include <peenux/moduleparam.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include "amd5536udc.h"
 
 static void udc_setup_endpoints(struct udc *dev);
@@ -2965,7 +2965,7 @@ __acquires(dev->lock)
 	return ret_val;
 }
 
-/* Interrupt Service Routine, see Linux Kernel Doc for parameters */
+/* Interrupt Service Routine, see Peenux Kernel Doc for parameters */
 irqreturn_t udc_irq(int irq, void *pdev)
 {
 	struct udc *dev = pdev;

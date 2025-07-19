@@ -3,15 +3,15 @@
  * Intel Emmitsburg PCH pinctrl/GPIO driver
  *
  * Copyright (C) 2020, Intel Corporation
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
 
-#include <linux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinctrl.h>
 
 #include "pinctrl-intel.h"
 
@@ -369,7 +369,7 @@ static struct platform_driver ebg_pinctrl_driver = {
 };
 module_platform_driver(ebg_pinctrl_driver);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@peenux.intel.com>");
 MODULE_DESCRIPTION("Intel Emmitsburg PCH pinctrl/GPIO driver");
 MODULE_LICENSE("GPL v2");
 MODULE_IMPORT_NS("PINCTRL_INTEL");

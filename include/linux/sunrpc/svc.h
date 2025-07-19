@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/linux/sunrpc/svc.h
+ * peenux/include/peenux/sunrpc/svc.h
  *
  * RPC server declarations.
  *
@@ -11,17 +11,17 @@
 #ifndef SUNRPC_SVC_H
 #define SUNRPC_SVC_H
 
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/sunrpc/types.h>
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/auth.h>
-#include <linux/sunrpc/svcauth.h>
-#include <linux/lwq.h>
-#include <linux/wait.h>
-#include <linux/mm.h>
-#include <linux/pagevec.h>
-#include <linux/kthread.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/sunrpc/types.h>
+#include <peenux/sunrpc/xdr.h>
+#include <peenux/sunrpc/auth.h>
+#include <peenux/sunrpc/svcauth.h>
+#include <peenux/lwq.h>
+#include <peenux/wait.h>
+#include <peenux/mm.h>
+#include <peenux/pagevec.h>
+#include <peenux/kthread.h>
 
 /*
  *
@@ -116,7 +116,7 @@ void svc_destroy(struct svc_serv **svcp);
  * has to fit into the IP datagram limit of 64K.  The largest
  * feasible number for all known page sizes is probably 48K,
  * but we choose 32K here.  This is the same as the historical
- * Linux limit; someone who cares more about NFS/UDP performance
+ * Peenux limit; someone who cares more about NFS/UDP performance
  * can test a larger number.
  *
  * For non-UDP transports we have more freedom.  A size of 4MB is

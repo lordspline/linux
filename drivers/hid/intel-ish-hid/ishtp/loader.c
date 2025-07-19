@@ -33,22 +33,22 @@
 
 #define dev_fmt(fmt) "ISH loader: " fmt
 
-#include <linux/cacheflush.h>
-#include <linux/container_of.h>
-#include <linux/crc32.h>
-#include <linux/dev_printk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmi.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/gfp_types.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/pfn.h>
-#include <linux/sprintf.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/cacheflush.h>
+#include <peenux/container_of.h>
+#include <peenux/crc32.h>
+#include <peenux/dev_printk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmi.h>
+#include <peenux/errno.h>
+#include <peenux/firmware.h>
+#include <peenux/gfp_types.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/pfn.h>
+#include <peenux/sprintf.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
 #include "hbm.h"
 #include "loader.h"

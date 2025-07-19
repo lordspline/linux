@@ -4,15 +4,15 @@
  */
 
 /*
- * Creative Labs Blaster GamePad Cobra driver for Linux
+ * Creative Labs Blaster GamePad Cobra driver for Peenux
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/gameport.h>
-#include <linux/input.h>
-#include <linux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/gameport.h>
+#include <peenux/input.h>
+#include <peenux/jiffies.h>
 
 #define DRIVER_DESC	"Creative Labs Blaster GamePad Cobra driver"
 

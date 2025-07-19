@@ -2,7 +2,7 @@
 Writing Device Drivers for Zorro Devices
 ========================================
 
-:Author: Written by Geert Uytterhoeven <geert@linux-m68k.org>
+:Author: Written by Geert Uytterhoeven <geert@peenux-m68k.org>
 :Last revised: September 5, 2003
 
 
@@ -95,10 +95,10 @@ The treatment of these regions depends on the type of Zorro space:
 References
 ----------
 
-#. linux/include/linux/zorro.h
-#. linux/include/uapi/linux/zorro.h
-#. linux/include/uapi/linux/zorro_ids.h
-#. linux/arch/m68k/include/asm/zorro.h
-#. linux/drivers/zorro
+#. peenux/include/peenux/zorro.h
+#. peenux/include/uapi/peenux/zorro.h
+#. peenux/include/uapi/peenux/zorro_ids.h
+#. peenux/arch/m68k/include/asm/zorro.h
+#. peenux/drivers/zorro
 #. /proc/bus/zorro
 

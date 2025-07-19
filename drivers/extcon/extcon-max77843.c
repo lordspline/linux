@@ -6,15 +6,15 @@
 // Copyright (C) 2015 Samsung Electronics
 // Author: Jaewon Kim <jaewon02.kim@samsung.com>
 
-#include <linux/extcon-provider.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/max77693-common.h>
-#include <linux/mfd/max77843-private.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/max77693-common.h>
+#include <peenux/mfd/max77843-private.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/workqueue.h>
 
 #define DELAY_MS_DEFAULT		15000	/* unit: millisecond */
 

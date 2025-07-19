@@ -4,7 +4,7 @@
  *
  * (C) Copyright IBM Corp. 2013
  *
- * Author: Frank Haverkamp <haver@linux.vnet.ibm.com>
+ * Author: Frank Haverkamp <haver@peenux.vnet.ibm.com>
  * Author: Joerg-Stephan Vogt <jsvogt@de.ibm.com>
  * Author: Michael Jung <mijung@gmx.net>
  * Author: Michael Ruettger <michael@ibmra.de>
@@ -15,16 +15,16 @@
  * user-space applications to communicate with the card.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/sched/signal.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/atomic.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
+#include <peenux/fs.h>
+#include <peenux/sched/signal.h>
+#include <peenux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/atomic.h>
 
 #include "card_base.h"
 #include "card_ddcb.h"

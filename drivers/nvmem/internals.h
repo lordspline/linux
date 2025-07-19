@@ -3,9 +3,9 @@
 #ifndef _LINUX_NVMEM_INTERNALS_H
 #define _LINUX_NVMEM_INTERNALS_H
 
-#include <linux/device.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
+#include <peenux/device.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/nvmem-provider.h>
 
 struct nvmem_device {
 	struct module		*owner;

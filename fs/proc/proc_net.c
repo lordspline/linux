@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/proc/net.c
+ *  peenux/fs/proc/net.c
  *
  *  Copyright (C) 2007
  *
@@ -8,21 +8,21 @@
  *
  *  proc net directory handling functions
  */
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/mount.h>
-#include <linux/nsproxy.h>
-#include <linux/uidgid.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/mount.h>
+#include <peenux/nsproxy.h>
+#include <peenux/uidgid.h>
 #include <net/net_namespace.h>
-#include <linux/seq_file.h>
+#include <peenux/seq_file.h>
 
 #include "internal.h"
 

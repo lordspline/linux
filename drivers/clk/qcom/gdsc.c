@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2015, 2017-2018, 2022, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, 2017-2018, 2022, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/pm_domain.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/ktime.h>
+#include <peenux/pm_domain.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset-controller.h>
+#include <peenux/slab.h>
 #include "gdsc.h"
 
 #define PWR_ON_MASK		BIT(31)

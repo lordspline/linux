@@ -31,15 +31,15 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/mlx4/driver.h>
-#include <linux/mlx4/device.h>
-#include <linux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/mlx4/driver.h>
+#include <peenux/mlx4/device.h>
+#include <peenux/in.h>
 #include <net/ip.h>
-#include <linux/bitmap.h>
-#include <linux/mii.h>
+#include <peenux/bitmap.h>
+#include <peenux/mii.h>
 
 #include "mlx4_en.h"
 #include "en_port.h"

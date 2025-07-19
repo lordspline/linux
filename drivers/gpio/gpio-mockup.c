@@ -9,22 +9,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irq_sim.h>
-#include <linux/irqdomain.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
-#include <linux/uaccess.h>
+#include <peenux/cleanup.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irq_sim.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
+#include <peenux/uaccess.h>
 
 #define GPIO_MOCKUP_MAX_GC	10
 /*

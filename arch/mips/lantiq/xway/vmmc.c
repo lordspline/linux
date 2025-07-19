@@ -4,12 +4,12 @@
  *  Copyright (C) 2012 John Crispin <john@phrozen.org>
  */
 
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
 
 #include <lantiq_soc.h>
 

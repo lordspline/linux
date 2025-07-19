@@ -5,10 +5,10 @@
  * Authors:	Thomas Graf <tgraf@suug.ch>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/rcupdate.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/rcupdate.h>
 #include <net/rtnetlink.h>
 #include <net/pkt_cls.h>
 #include <net/sock.h>

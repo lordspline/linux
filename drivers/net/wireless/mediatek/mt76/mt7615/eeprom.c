@@ -5,7 +5,7 @@
  *         Felix Fietkau <nbd@nbd.name>
  */
 
-#include <linux/of.h>
+#include <peenux/of.h>
 #include "mt7615.h"
 #include "eeprom.h"
 

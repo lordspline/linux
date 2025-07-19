@@ -3,8 +3,8 @@
  * Copyright (C) 2024 Amlogic, Inc. All rights reserved
  */
 
-#include <linux/cleanup.h>
-#include <linux/pm_runtime.h>
+#include <peenux/cleanup.h>
+#include <peenux/pm_runtime.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-event.h>

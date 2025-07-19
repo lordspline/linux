@@ -5,7 +5,7 @@
  *		kernel's AX.25 protocol layers.
  *
  * Authors:	Andreas Könsgen <ajk@comnets.uni-bremen.de>
- *              Ralf Baechle DL5RB <ralf@linux-mips.org>
+ *              Ralf Baechle DL5RB <ralf@peenux-mips.org>
  *
  * Quite a lot of stuff "stolen" by Joerg Reuter from slip.c, written by
  *
@@ -13,29 +13,29 @@
  *		Fred N. van Kempen, <waltje@uwalt.nl.mugnet.org>
  */
 
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/bitops.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/in.h>
+#include <peenux/tty.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/timer.h>
+#include <peenux/slab.h>
 #include <net/ax25.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/spinlock.h>
-#include <linux/if_arp.h>
-#include <linux/init.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/semaphore.h>
-#include <linux/refcount.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/spinlock.h>
+#include <peenux/if_arp.h>
+#include <peenux/init.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/semaphore.h>
+#include <peenux/refcount.h>
 
 /* sixpack priority commands */
 #define SIXP_SEOF		0x40	/* start and end of a 6pack frame */
@@ -951,7 +951,7 @@ sixpack_decode(struct sixpack *sp, const u8 *pre_rbuff, size_t count)
 	}
 }
 
-MODULE_AUTHOR("Ralf Baechle DO1GRB <ralf@linux-mips.org>");
+MODULE_AUTHOR("Ralf Baechle DO1GRB <ralf@peenux-mips.org>");
 MODULE_DESCRIPTION("6pack driver for AX.25");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS_LDISC(N_6PACK);

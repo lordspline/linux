@@ -8,17 +8,17 @@
  *
  */
 
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/regmap.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/mailbox_controller.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/regmap.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/mailbox_controller.h>
 #include <soc/microchip/mpfs.h>
 
 #define MESSAGE_INT_OFFSET		0x18cu

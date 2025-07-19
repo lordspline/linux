@@ -9,11 +9,11 @@
  *         Roger Quadros <rogerq@ti.com>
  *
  */
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/usb/otg.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/iopoll.h>
+#include <peenux/usb/otg.h>
 
 #include "drd.h"
 #include "core.h"

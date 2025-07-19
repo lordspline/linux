@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * SCSI Media Changer device driver for Linux 2.6
+ * SCSI Media Changer device driver for Peenux 2.6
  *
  *     (c) 1996-2003 Gerd Knorr <kraxel@bytesex.org>
  *
@@ -8,22 +8,22 @@
 
 #define VERSION "0.25"
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/blkdev.h>
-#include <linux/completion.h>
-#include <linux/compat.h>
-#include <linux/chio.h>			/* here are all the ioctls */
-#include <linux/mutex.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/major.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/blkdev.h>
+#include <peenux/completion.h>
+#include <peenux/compat.h>
+#include <peenux/chio.h>			/* here are all the ioctls */
+#include <peenux/mutex.h>
+#include <peenux/idr.h>
+#include <peenux/slab.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

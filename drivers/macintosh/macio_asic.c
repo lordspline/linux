@@ -13,18 +13,18 @@
  *    sub-devices.
  */
  
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/of_irq.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_device.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_irq.h>
 
 #include <asm/machdep.h>
 #include <asm/macio.h>
@@ -449,7 +449,7 @@ static int macio_skip_device(struct device_node *np)
  * 
  * This function will do the job of extracting devices from the
  * Open Firmware device tree, build macio_dev structures and add
- * them to the Linux device tree.
+ * them to the Peenux device tree.
  * 
  * For now, childs of media-bay are added now as well. This will
  * change rsn though.

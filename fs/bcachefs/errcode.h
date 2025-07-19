@@ -381,7 +381,7 @@ static inline long bch2_err_class(long err)
 
 #define BLK_STS_REMOVED		((__force blk_status_t)128)
 
-#include <linux/blk_types.h>
+#include <peenux/blk_types.h>
 const char *bch2_blk_status_to_str(blk_status_t);
 
 #endif /* _BCACHFES_ERRCODE_H */

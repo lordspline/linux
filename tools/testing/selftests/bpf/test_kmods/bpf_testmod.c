@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2020 Facebook */
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
-#include <linux/delay.h>
-#include <linux/error-injection.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/percpu-defs.h>
-#include <linux/sysfs.h>
-#include <linux/tracepoint.h>
-#include <linux/net.h>
-#include <linux/socket.h>
-#include <linux/nsproxy.h>
-#include <linux/inet.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/un.h>
-#include <linux/filter.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/btf_ids.h>
+#include <peenux/delay.h>
+#include <peenux/error-injection.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/sysfs.h>
+#include <peenux/tracepoint.h>
+#include <peenux/net.h>
+#include <peenux/socket.h>
+#include <peenux/nsproxy.h>
+#include <peenux/inet.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/un.h>
+#include <peenux/filter.h>
 #include <net/sock.h>
-#include <linux/namei.h>
+#include <peenux/namei.h>
 #include "bpf_testmod.h"
 #include "bpf_testmod_kfunc.h"
 

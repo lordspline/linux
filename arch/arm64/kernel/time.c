@@ -7,25 +7,25 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/clockchips.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/time.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/timex.h>
-#include <linux/errno.h>
-#include <linux/profile.h>
-#include <linux/stacktrace.h>
-#include <linux/syscore_ops.h>
-#include <linux/timer.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/clocksource.h>
-#include <linux/of_clk.h>
-#include <linux/acpi.h>
+#include <peenux/clockchips.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/time.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
+#include <peenux/timex.h>
+#include <peenux/errno.h>
+#include <peenux/profile.h>
+#include <peenux/stacktrace.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/timer.h>
+#include <peenux/irq.h>
+#include <peenux/delay.h>
+#include <peenux/clocksource.h>
+#include <peenux/of_clk.h>
+#include <peenux/acpi.h>
 
 #include <clocksource/arm_arch_timer.h>
 

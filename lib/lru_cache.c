@@ -11,12 +11,12 @@
 
  */
 
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/string.h> /* for memset */
-#include <linux/seq_file.h> /* for seq_printf */
-#include <linux/lru_cache.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/string.h> /* for memset */
+#include <peenux/seq_file.h> /* for seq_printf */
+#include <peenux/lru_cache.h>
 
 MODULE_AUTHOR("Philipp Reisner <phil@linbit.com>, "
 	      "Lars Ellenberg <lars@linbit.com>");

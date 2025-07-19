@@ -4,9 +4,9 @@
  * Copyright (C) Jaya Kumar
  */
 
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/initval.h>

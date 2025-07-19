@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2015-2017 Broadcom
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/string_choices.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/string_choices.h>
 
 enum gio_reg_index {
 	GIO_REG_ODEN = 0,

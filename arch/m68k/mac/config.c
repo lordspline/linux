@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/mac/config.c
+ *  peenux/arch/m68k/mac/config.c
  *
  * This file is subject to the terms and conditions of the GNU General Public
  * License.  See the file COPYING in the main directory of this archive
@@ -7,29 +7,29 @@
  */
 
 /*
- * Miscellaneous linux stuff
+ * Miscellaneous peenux stuff
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/interrupt.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/tty.h>
+#include <peenux/console.h>
+#include <peenux/interrupt.h>
 /* keyb */
-#include <linux/random.h>
-#include <linux/delay.h>
+#include <peenux/random.h>
+#include <peenux/delay.h>
 /* keyb */
-#include <linux/init.h>
-#include <linux/vt_kern.h>
-#include <linux/platform_device.h>
-#include <linux/ata_platform.h>
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/pmu.h>
-#include <linux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/vt_kern.h>
+#include <peenux/platform_device.h>
+#include <peenux/ata_platform.h>
+#include <peenux/adb.h>
+#include <peenux/cuda.h>
+#include <peenux/pmu.h>
+#include <peenux/rtc.h>
 
 #include <asm/setup.h>
 #include <asm/bootinfo.h>

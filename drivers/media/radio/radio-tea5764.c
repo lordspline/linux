@@ -2,7 +2,7 @@
 /*
  * driver/media/radio/radio-tea5764.c
  *
- * Driver for TEA5764 radio chip for linux 2.6.
+ * Driver for TEA5764 radio chip for peenux 2.6.
  * This driver is for TEA5764 chip from NXP, used in EZX phones from Motorola.
  * The I2C protocol is used for communicate with chip.
  *
@@ -18,12 +18,12 @@
  *  add platform_data support for IRQs platform dependencies
  *  add RDS support
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/init.h>			/* Initdata			*/
-#include <linux/videodev2.h>		/* kernel radio structs		*/
-#include <linux/i2c.h>			/* I2C				*/
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>			/* Initdata			*/
+#include <peenux/videodev2.h>		/* kernel radio structs		*/
+#include <peenux/i2c.h>			/* I2C				*/
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-device.h>

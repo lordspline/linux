@@ -1,7 +1,7 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /* Copyright (c) 2025 NVIDIA Corporation & Affiliates */
 
-#include <linux/mlx5/vport.h>
+#include <peenux/mlx5/vport.h>
 #include <mlx5_core.h>
 #include <fs_core.h>
 #include <fs_cmd.h>

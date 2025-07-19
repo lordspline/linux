@@ -12,16 +12,16 @@
 #define _ASM_POWERPC_QE_H
 #ifdef __KERNEL__
 
-#include <linux/compiler.h>
-#include <linux/genalloc.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/err.h>
+#include <peenux/compiler.h>
+#include <peenux/genalloc.h>
+#include <peenux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
 #include <soc/fsl/cpm.h>
 #include <soc/fsl/qe/immap_qe.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/types.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/types.h>
 
 struct device;
 

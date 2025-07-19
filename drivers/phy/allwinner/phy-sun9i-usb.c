@@ -11,14 +11,14 @@
  * Allwinner Technology Co., Ltd. <www.allwinnertech.com>
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/phy/phy.h>
-#include <linux/usb/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/phy/phy.h>
+#include <peenux/usb/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 
 #define SUNXI_AHB_INCR16_BURST_EN	BIT(11)
 #define SUNXI_AHB_INCR8_BURST_EN	BIT(10)

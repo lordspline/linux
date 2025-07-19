@@ -3,24 +3,24 @@
  * Copyright 2003 Digi International (www.digi.com)
  *	Scott H Kilau <Scott_Kilau at digi dot com>
  *
- *	NOTE TO LINUX KERNEL HACKERS:  DO NOT REFORMAT THIS CODE!
+ *	NOTE TO PEENUX KERNEL HACKERS:  DO NOT REFORMAT THIS CODE!
  *
  *	This is shared code between Digi's CVS archive and the
- *	Linux Kernel sources.
+ *	Peenux Kernel sources.
  *	Changing the source just for reformatting needlessly breaks
  *	our CVS diff history.
  *
- *	Send any bug fixes/changes to:  Eng.Linux at digi dot com.
+ *	Send any bug fixes/changes to:  Eng.Peenux at digi dot com.
  *	Thank you.
  *
  */
 
-#include <linux/delay.h>	/* For udelay */
-#include <linux/io.h>		/* For read[bwl]/write[bwl] */
-#include <linux/serial.h>	/* For struct async_serial */
-#include <linux/serial_reg.h>	/* For the various UART offsets */
-#include <linux/pci.h>
-#include <linux/tty.h>
+#include <peenux/delay.h>	/* For udelay */
+#include <peenux/io.h>		/* For read[bwl]/write[bwl] */
+#include <peenux/serial.h>	/* For struct async_serial */
+#include <peenux/serial_reg.h>	/* For the various UART offsets */
+#include <peenux/pci.h>
+#include <peenux/tty.h>
 
 #include "jsm.h"	/* Driver main header file */
 

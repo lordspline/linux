@@ -7,8 +7,8 @@
 #ifndef CS_AMP_LIB_H
 #define CS_AMP_LIB_H
 
-#include <linux/efi.h>
-#include <linux/types.h>
+#include <peenux/efi.h>
+#include <peenux/types.h>
 
 struct cs_dsp;
 

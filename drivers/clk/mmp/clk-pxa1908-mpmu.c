@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/clk-provider.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/units.h>
 
 #include <dt-bindings/clock/marvell,pxa1908.h>
 

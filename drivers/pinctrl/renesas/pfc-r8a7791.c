@@ -6,8 +6,8 @@
  * Copyright (C) 2014-2017 Cogent Embedded, Inc.
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
 
 #include "sh_pfc.h"
 

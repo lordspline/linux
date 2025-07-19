@@ -12,9 +12,9 @@
 #ifndef	__ISP_MMU_H__
 #define	__ISP_MMU_H__
 
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
 
 /*
  * do not change these values, the page size for ISP must be the

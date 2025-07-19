@@ -2,11 +2,11 @@
 #ifndef _EYTZINGER_H
 #define _EYTZINGER_H
 
-#include <linux/bitops.h>
-#include <linux/log2.h>
+#include <peenux/bitops.h>
+#include <peenux/log2.h>
 
 #ifdef EYTZINGER_DEBUG
-#include <linux/bug.h>
+#include <peenux/bug.h>
 #define EYTZINGER_BUG_ON(cond)		BUG_ON(cond)
 #else
 #define EYTZINGER_BUG_ON(cond)

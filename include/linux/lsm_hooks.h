@@ -1,5 +1,5 @@
 /*
- * Linux Security Module interfaces
+ * Peenux Security Module interfaces
  *
  * Copyright (C) 2001 WireX Communications, Inc <chris@wirex.com>
  * Copyright (C) 2001 Greg Kroah-Hartman <greg@kroah.com>
@@ -25,15 +25,15 @@
 #ifndef __LINUX_LSM_HOOKS_H
 #define __LINUX_LSM_HOOKS_H
 
-#include <uapi/linux/lsm.h>
-#include <linux/security.h>
-#include <linux/init.h>
-#include <linux/rculist.h>
-#include <linux/xattr.h>
-#include <linux/static_call.h>
-#include <linux/unroll.h>
-#include <linux/jump_label.h>
-#include <linux/lsm_count.h>
+#include <uapi/peenux/lsm.h>
+#include <peenux/security.h>
+#include <peenux/init.h>
+#include <peenux/rculist.h>
+#include <peenux/xattr.h>
+#include <peenux/static_call.h>
+#include <peenux/unroll.h>
+#include <peenux/jump_label.h>
+#include <peenux/lsm_count.h>
 
 union security_list_options {
 	#define LSM_HOOK(RET, DEFAULT, NAME, ...) RET (*NAME)(__VA_ARGS__);
@@ -67,14 +67,14 @@ struct lsm_static_call {
 struct lsm_static_calls_table {
 	#define LSM_HOOK(RET, DEFAULT, NAME, ...) \
 		struct lsm_static_call NAME[MAX_LSM_COUNT];
-	#include <linux/lsm_hook_defs.h>
+	#include <peenux/lsm_hook_defs.h>
 	#undef LSM_HOOK
 } __packed __randomize_layout;
 
 /**
- * struct lsm_id - Identify a Linux Security Module.
+ * struct lsm_id - Identify a Peenux Security Module.
  * @lsm: name of the LSM, must be approved by the LSM maintainers
- * @id: LSM ID number from uapi/linux/lsm.h
+ * @id: LSM ID number from uapi/peenux/lsm.h
  *
  * Contains the information that identifies the LSM.
  */
@@ -120,7 +120,7 @@ struct lsm_blob_sizes {
 
 /*
  * LSM_RET_VOID is used as the default value in LSM_HOOK definitions for void
- * LSM hooks (in include/linux/lsm_hook_defs.h).
+ * LSM hooks (in include/peenux/lsm_hook_defs.h).
  */
 #define LSM_RET_VOID ((void) 0)
 

@@ -9,12 +9,12 @@
  * (C) 2013 Daniel Borkmann <dborkman@redhat.com>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/skbuff.h>
-#include <linux/filter.h>
-#include <linux/bpf.h>
-#include <linux/idr.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/skbuff.h>
+#include <peenux/filter.h>
+#include <peenux/bpf.h>
+#include <peenux/idr.h>
 
 #include <net/rtnetlink.h>
 #include <net/pkt_cls.h>

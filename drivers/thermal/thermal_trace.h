@@ -5,9 +5,9 @@
 #if !defined(_TRACE_THERMAL_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_THERMAL_H
 
-#include <linux/devfreq.h>
-#include <linux/thermal.h>
-#include <linux/tracepoint.h>
+#include <peenux/devfreq.h>
+#include <peenux/thermal.h>
+#include <peenux/tracepoint.h>
 
 #include "thermal_core.h"
 

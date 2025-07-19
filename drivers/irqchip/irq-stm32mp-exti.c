@@ -5,19 +5,19 @@
  * Author:  Maxime Coquelin <mcoquelin.stm32@gmail.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/hwspinlock.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
+#include <peenux/bitops.h>
+#include <peenux/hwspinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
 
 #include <dt-bindings/interrupt-controller/arm-gic.h>
 

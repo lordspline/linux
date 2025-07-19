@@ -2,7 +2,7 @@
 #ifndef _ASM_LOONGARCH_QSPINLOCK_H
 #define _ASM_LOONGARCH_QSPINLOCK_H
 
-#include <linux/jump_label.h>
+#include <peenux/jump_label.h>
 
 #ifdef CONFIG_PARAVIRT
 

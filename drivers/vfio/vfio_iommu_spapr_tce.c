@@ -11,16 +11,16 @@
  *     Author: Alex Williamson <alex.williamson@redhat.com>
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/err.h>
-#include <linux/vfio.h>
-#include <linux/vmalloc.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/mm.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/err.h>
+#include <peenux/vfio.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/mm.h>
 #include "vfio.h"
 
 #include <asm/iommu.h>

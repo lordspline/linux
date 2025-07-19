@@ -5,7 +5,7 @@
 
 #include "xe_exec_queue.h"
 
-#include <linux/nospec.h>
+#include <peenux/nospec.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_drv.h>

@@ -3,12 +3,12 @@
  *  Copyright (c) 2016 Masaki Ota <masaki.ota@jp.alps.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/hid.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/module.h>
+#include <peenux/unaligned.h>
 #include "hid-ids.h"
 
 /* ALPS Device Product ID */

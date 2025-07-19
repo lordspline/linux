@@ -8,18 +8,18 @@
 // TODO: add support for TDM mode.
 //
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/jack.h>

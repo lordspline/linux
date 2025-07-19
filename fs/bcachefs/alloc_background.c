@@ -23,14 +23,14 @@
 #include "recovery.h"
 #include "varint.h"
 
-#include <linux/kthread.h>
-#include <linux/math64.h>
-#include <linux/random.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
-#include <linux/sched/task.h>
-#include <linux/sort.h>
-#include <linux/jiffies.h>
+#include <peenux/kthread.h>
+#include <peenux/math64.h>
+#include <peenux/random.h>
+#include <peenux/rculist.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched/task.h>
+#include <peenux/sort.h>
+#include <peenux/jiffies.h>
 
 static void bch2_discard_one_bucket_fast(struct bch_dev *, u64);
 

@@ -1,15 +1,15 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Copyright (c) 2021-2022, Microsoft Corporation.
  *
  * Authors:
- *   Beau Belgrave <beaub@linux.microsoft.com>
+ *   Beau Belgrave <beaub@peenux.microsoft.com>
  */
 #ifndef _UAPI_LINUX_USER_EVENTS_H
 #define _UAPI_LINUX_USER_EVENTS_H
 
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <peenux/types.h>
+#include <peenux/ioctl.h>
 
 #define USER_EVENTS_SYSTEM "user_events"
 #define USER_EVENTS_MULTI_SYSTEM "user_events_multi"

@@ -4,8 +4,8 @@
  * for more details.
  */
 
-#include <linux/dma-map-ops.h>
-#include <linux/kernel.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/kernel.h>
 #include <asm/cacheflush.h>
 
 #ifndef CONFIG_COLDFIRE

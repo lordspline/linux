@@ -4,13 +4,13 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #define REG_MEMC_CNTRLR_CONFIG		0x00
 #define  CNTRLR_CONFIG_LPDDR4_SHIFT	5

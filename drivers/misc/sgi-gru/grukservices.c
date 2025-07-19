@@ -7,19 +7,19 @@
  *  Copyright (c) 2008 Silicon Graphics, Inc.  All Rights Reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/proc_fs.h>
-#include <linux/interrupt.h>
-#include <linux/sync_core.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/miscdevice.h>
+#include <peenux/proc_fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/sync_core.h>
+#include <peenux/uaccess.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
 #include <asm/io_apic.h>
 #include "gru.h"
 #include "grulib.h"

@@ -5,20 +5,20 @@
  *    Copyright IBM Corp. 2007, 2020
  *    Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  *		 David Hildenbrand <david@redhat.com>
- *		 Janosch Frank <frankja@linux.vnet.ibm.com>
+ *		 Janosch Frank <frankja@peenux.vnet.ibm.com>
  */
 
-#include <linux/cpufeature.h>
-#include <linux/kernel.h>
-#include <linux/pagewalk.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/swapops.h>
-#include <linux/ksm.h>
-#include <linux/mman.h>
-#include <linux/pgtable.h>
+#include <peenux/cpufeature.h>
+#include <peenux/kernel.h>
+#include <peenux/pagewalk.h>
+#include <peenux/swap.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/swapops.h>
+#include <peenux/ksm.h>
+#include <peenux/mman.h>
+#include <peenux/pgtable.h>
 #include <asm/page-states.h>
 #include <asm/pgalloc.h>
 #include <asm/machine.h>

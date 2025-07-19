@@ -6,12 +6,12 @@
  * Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/math64.h>
-#include <linux/overflow.h>
-#include <linux/rtc.h>
-#include <linux/time64.h>
+#include <peenux/math64.h>
+#include <peenux/overflow.h>
+#include <peenux/rtc.h>
+#include <peenux/time64.h>
 
-#include <uapi/linux/virtio_rtc.h>
+#include <uapi/peenux/virtio_rtc.h>
 
 #include "virtio_rtc_internal.h"
 

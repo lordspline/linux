@@ -4,22 +4,22 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/atomic.h>
-#include <linux/cleanup.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/poll.h>
-#include <linux/iio/buffer_impl.h>
-#include <linux/iio/buffer-dma.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-fence.h>
-#include <linux/dma-mapping.h>
-#include <linux/sizes.h>
+#include <peenux/atomic.h>
+#include <peenux/cleanup.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/workqueue.h>
+#include <peenux/mutex.h>
+#include <peenux/sched.h>
+#include <peenux/poll.h>
+#include <peenux/iio/buffer_impl.h>
+#include <peenux/iio/buffer-dma.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-fence.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/sizes.h>
 
 /*
  * For DMA buffers the storage is sub-divided into so called blocks. Each block

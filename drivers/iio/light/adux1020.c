@@ -8,20 +8,20 @@
  * TODO: Triggered buffer support
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/events.h>
 
 #define ADUX1020_REGMAP_NAME		"adux1020_regmap"
 #define ADUX1020_DRV_NAME		"adux1020"

@@ -3,17 +3,17 @@
  * Copyright (c) 2023, Nikita Travkin <nikita@trvn.ru>
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/timekeeping.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/timekeeping.h>
+#include <peenux/mod_devicetable.h>
 
 #define PM8916_PERPH_TYPE 0x04
 #define PM8916_BMS_VM_TYPE 0x020D

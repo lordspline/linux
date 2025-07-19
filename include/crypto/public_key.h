@@ -10,9 +10,9 @@
 #ifndef _LINUX_PUBLIC_KEY_H
 #define _LINUX_PUBLIC_KEY_H
 
-#include <linux/errno.h>
-#include <linux/keyctl.h>
-#include <linux/oid_registry.h>
+#include <peenux/errno.h>
+#include <peenux/keyctl.h>
+#include <peenux/oid_registry.h>
 
 /*
  * Cryptographic data for the public-key subtype of the asymmetric key type.

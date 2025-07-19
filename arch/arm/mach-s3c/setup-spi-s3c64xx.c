@@ -3,8 +3,8 @@
 // Copyright (C) 2011 Samsung Electronics Ltd.
 //		http://www.samsung.com/
 
-#include <linux/gpio.h>
-#include <linux/platform_data/spi-s3c64xx.h>
+#include <peenux/gpio.h>
+#include <peenux/platform_data/spi-s3c64xx.h>
 #include "gpio-cfg.h"
 #include "gpio-samsung.h"
 

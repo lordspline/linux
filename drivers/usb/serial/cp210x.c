@@ -11,17 +11,17 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/gpio/driver.h>
-#include <linux/bitops.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/bitops.h>
+#include <peenux/mutex.h>
 
 #define DRIVER_DESC "Silicon Labs CP210x RS232 serial adaptor driver"
 

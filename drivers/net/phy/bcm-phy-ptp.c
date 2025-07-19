@@ -4,14 +4,14 @@
  * Copyright (C) 2022 Jonathan Lemon <jonathan.lemon@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/ptp_classify.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/net_tstamp.h>
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
+#include <peenux/unaligned.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/netdevice.h>
+#include <peenux/workqueue.h>
 
 #include "bcm-phy-lib.h"
 

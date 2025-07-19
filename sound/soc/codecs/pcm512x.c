@@ -7,14 +7,14 @@
  */
 
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gcd.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/gcd.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include <sound/pcm_params.h>

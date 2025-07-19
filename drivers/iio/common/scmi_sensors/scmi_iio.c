@@ -6,20 +6,20 @@
  * Copyright (C) 2021 Google LLC
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/sysfs.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/scmi_protocol.h>
-#include <linux/time.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/kfifo_buf.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #define SCMI_IIO_NUM_OF_AXIS 3
 

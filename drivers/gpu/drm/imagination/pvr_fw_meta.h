@@ -4,7 +4,7 @@
 #ifndef PVR_FW_META_H
 #define PVR_FW_META_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* Forward declaration from pvr_device.h */
 struct pvr_device;

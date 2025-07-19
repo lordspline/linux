@@ -7,12 +7,12 @@
  * Copyright 2009-2011 Freescale Semiconductor Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/pgtable.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/kdev_t.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/pgtable.h>
 
 #include <asm/time.h>
 #include <asm/machdep.h>
@@ -24,7 +24,7 @@
 #include <asm/ehv_pic.h>
 #include <asm/swiotlb.h>
 
-#include <linux/of_platform.h>
+#include <peenux/of_platform.h>
 #include <sysdev/fsl_soc.h>
 #include <sysdev/fsl_pci.h>
 #include "smp.h"

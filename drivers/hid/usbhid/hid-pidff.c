@@ -9,17 +9,17 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include "hid-pidff.h"
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/hid.h>
-#include <linux/minmax.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/hid.h>
+#include <peenux/minmax.h>
 
 
 #define	PID_EFFECTS_MAX		64
 #define	PID_INFINITE		U16_MAX
 
-/* Linux Force Feedback API uses miliseconds as time unit */
+/* Peenux Force Feedback API uses miliseconds as time unit */
 #define FF_TIME_EXPONENT	-3
 #define FF_INFINITE		0
 
@@ -235,7 +235,7 @@ static int pidff_rescale_signed(int i, struct hid_field *field)
 }
 
 /*
- * Scale time value from Linux default (ms) to field units
+ * Scale time value from Peenux default (ms) to field units
  */
 static u32 pidff_rescale_time(u16 time, struct hid_field *field)
 {
@@ -281,7 +281,7 @@ static void pidff_set_time(struct pidff_usage *usage, u16 time)
 
 static void pidff_set_duration(struct pidff_usage *usage, u16 duration)
 {
-	/* Infinite value conversion from Linux API -> PID */
+	/* Infinite value conversion from Peenux API -> PID */
 	if (duration == FF_INFINITE)
 		duration = PID_INFINITE;
 
@@ -1027,7 +1027,7 @@ static void pidff_find_reports(struct hid_device *hid, int report_type,
 		/*
 		 * Sometimes logical collections are stacked to indicate
 		 * different usages for the report and the field, in which
-		 * case we want the usage of the parent. However, Linux HID
+		 * case we want the usage of the parent. However, Peenux HID
 		 * implementation hides this fact, so we have to dig it up
 		 * ourselves
 		 */

@@ -7,31 +7,31 @@
  * Based upon code written by Ross Biro, Linus Torvalds, Bob Manson,
  * and David Mosberger.
  *
- * Added Linux support -miguel (weird, eh?, the original code was meant
+ * Added Peenux support -miguel (weird, eh?, the original code was meant
  * to emulate SunOS).
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/smp.h>
-#include <linux/security.h>
-#include <linux/seccomp.h>
-#include <linux/audit.h>
-#include <linux/signal.h>
-#include <linux/regset.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/smp.h>
+#include <peenux/security.h>
+#include <peenux/seccomp.h>
+#include <peenux/audit.h>
+#include <peenux/signal.h>
+#include <peenux/regset.h>
 #include <trace/syscall.h>
-#include <linux/compat.h>
-#include <linux/elf.h>
-#include <linux/context_tracking.h>
+#include <peenux/compat.h>
+#include <peenux/elf.h>
+#include <peenux/context_tracking.h>
 
 #include <asm/asi.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/psrcompat.h>
 #include <asm/visasm.h>
 #include <asm/spitfire.h>

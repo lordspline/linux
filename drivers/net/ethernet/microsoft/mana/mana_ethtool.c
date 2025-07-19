@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
 /* Copyright (c) 2021, Microsoft Corporation. */
 
-#include <linux/inetdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
+#include <peenux/inetdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
 
 #include <net/mana/mana.h>
 

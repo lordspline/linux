@@ -5,12 +5,12 @@
  * Copyright (C) 2010 Digital Devices GmbH
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
 #include <asm/div64.h>
 
 #include <media/dvb_frontend.h>

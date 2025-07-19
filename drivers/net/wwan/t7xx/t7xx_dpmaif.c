@@ -7,23 +7,23 @@
  *  Amir Hanania <amir.hanania@intel.com>
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *
  * Contributors:
- *  Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ *  Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
  *  Eliot Lee <eliot.lee@intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/dev_printk.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/types.h>
 
 #include "t7xx_dpmaif.h"
 #include "t7xx_reg.h"

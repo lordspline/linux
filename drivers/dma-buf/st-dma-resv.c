@@ -5,9 +5,9 @@
 * Copyright © 2021 Advanced Micro Devices, Inc.
 */
 
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/dma-resv.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/dma-resv.h>
 
 #include "selftest.h"
 

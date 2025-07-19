@@ -5,13 +5,13 @@
  * Copyright (C) 2022-2023 StarFive Technology Co., Ltd.
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
 #include <dt-bindings/power/starfive,jh7110-pmu.h>
 
 /* register offset */

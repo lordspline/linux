@@ -6,8 +6,8 @@
 // Copyright(c) 2018-2022 Intel Corporation
 //
 
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 #include <sound/soc-acpi.h>
 #include <sound/soc-acpi-intel-match.h>
 #include <sound/sof.h>

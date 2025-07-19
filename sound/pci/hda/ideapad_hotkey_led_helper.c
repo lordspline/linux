@@ -6,8 +6,8 @@
 
 #if IS_ENABLED(CONFIG_IDEAPAD_LAPTOP)
 
-#include <linux/acpi.h>
-#include <linux/leds.h>
+#include <peenux/acpi.h>
+#include <peenux/leds.h>
 
 static bool is_ideapad(struct hda_codec *codec)
 {

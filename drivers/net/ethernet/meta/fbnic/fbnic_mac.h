@@ -4,7 +4,7 @@
 #ifndef _FBNIC_MAC_H_
 #define _FBNIC_MAC_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct fbnic_dev;
 

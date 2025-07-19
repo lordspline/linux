@@ -12,19 +12,19 @@
 #undef DEBUG
 #undef DEBUG_DMA
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/ata.h>
-#include <linux/libata.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/scatterlist.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/gfp.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/ata.h>
+#include <peenux/libata.h>
+#include <peenux/adb.h>
+#include <peenux/pmu.h>
+#include <peenux/scatterlist.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/gfp.h>
+#include <peenux/pci.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>

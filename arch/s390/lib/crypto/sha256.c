@@ -6,9 +6,9 @@
  */
 #include <asm/cpacf.h>
 #include <crypto/internal/sha2.h>
-#include <linux/cpufeature.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/cpufeature.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 static __ro_after_init DEFINE_STATIC_KEY_FALSE(have_cpacf_sha256);
 

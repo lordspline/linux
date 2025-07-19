@@ -13,7 +13,7 @@
 #define WKUP_M3_STANDBY		2
 #define WKUP_M3_IDLE		3
 
-#include <linux/mailbox_client.h>
+#include <peenux/mailbox_client.h>
 
 struct wkup_m3_ipc_ops;
 

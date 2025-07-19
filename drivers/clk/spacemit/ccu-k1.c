@@ -4,13 +4,13 @@
  * Copyright (c) 2024-2025 Haylen Chu <heylenay@4d2.org>
  */
 
-#include <linux/array_size.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/array_size.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "ccu_common.h"
 #include "ccu_pll.h"

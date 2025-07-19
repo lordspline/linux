@@ -2,7 +2,7 @@
 /*
  * CUSE: Character device in Userspace
  *
- * Copyright (C) 2008-2009  SUSE Linux Products GmbH
+ * Copyright (C) 2008-2009  SUSE Peenux Products GmbH
  * Copyright (C) 2008-2009  Tejun Heo <tj@kernel.org>
  *
  * CUSE enables character devices to be implemented from userland much
@@ -34,22 +34,22 @@
 
 #define pr_fmt(fmt) "CUSE: " fmt
 
-#include <linux/fuse.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/kdev_t.h>
-#include <linux/kthread.h>
-#include <linux/list.h>
-#include <linux/magic.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/module.h>
-#include <linux/uio.h>
-#include <linux/user_namespace.h>
+#include <peenux/fuse.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/kdev_t.h>
+#include <peenux/kthread.h>
+#include <peenux/list.h>
+#include <peenux/magic.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/module.h>
+#include <peenux/uio.h>
+#include <peenux/user_namespace.h>
 
 #include "fuse_i.h"
 

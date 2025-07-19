@@ -3,8 +3,8 @@
  * Copyright 2021 NXP
  *
  */
-#include <linux/kernel.h>
-#include <linux/fsl/mc.h>
+#include <peenux/kernel.h>
+#include <peenux/fsl/mc.h>
 
 #include "fsl-mc-private.h"
 

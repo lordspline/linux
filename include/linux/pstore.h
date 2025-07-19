@@ -10,13 +10,13 @@
 #ifndef _LINUX_PSTORE_H
 #define _LINUX_PSTORE_H
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/kmsg_dump.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/time.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/errno.h>
+#include <peenux/kmsg_dump.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
 
 struct module;
 

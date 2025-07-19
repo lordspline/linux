@@ -6,10 +6,10 @@
 // Copyright 2008 Jon Smirl, Digispeaker
 // Author: Jon Smirl <jonsmirl@gmail.com>
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/of.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
 
 #include <sound/soc.h>
 

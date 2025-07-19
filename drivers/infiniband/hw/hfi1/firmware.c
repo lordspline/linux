@@ -3,10 +3,10 @@
  * Copyright(c) 2015 - 2017 Intel Corporation.
  */
 
-#include <linux/firmware.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/crc32.h>
+#include <peenux/firmware.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/crc32.h>
 
 #include "hfi.h"
 #include "trace.h"
@@ -104,7 +104,7 @@ struct augmented_firmware_file {
 						sizeof(struct firmware_file))
 
 struct firmware_details {
-	/* Linux core piece */
+	/* Peenux core piece */
 	const struct firmware *fw;
 
 	struct css_header *css_header;

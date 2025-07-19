@@ -8,11 +8,11 @@
  * Copyright (c) 2018 Amlogic, inc.
  * Author: Qiufang Dai <qiufang.dai@amlogic.com>
  */
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
+#include <peenux/clk-provider.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
 #include "meson-aoclk.h"
 
 #include "clk-regmap.h"

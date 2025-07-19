@@ -4,11 +4,11 @@
  * Copyright (c) 2016, Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <peenux/bitfield.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
 #include "../pci.h"
 
 /*

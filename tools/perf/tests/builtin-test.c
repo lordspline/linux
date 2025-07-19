@@ -28,10 +28,10 @@
 #include "symbol.h"
 #include "util/rlimit.h"
 #include "util/strbuf.h"
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 #include <subcmd/exec-cmd.h>
-#include <linux/zalloc.h>
+#include <peenux/zalloc.h>
 
 #include "tests-scripts.h"
 

@@ -9,17 +9,17 @@
  *
  * Copyright (C) 2008-2014 Mathieu Desnoyers <mathieu.desnoyers@efficios.com>
  *
- * Heavily inspired from the Linux Kernel Markers.
+ * Heavily inspired from the Peenux Kernel Markers.
  */
 
-#include <linux/smp.h>
-#include <linux/srcu.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/rcupdate_trace.h>
-#include <linux/tracepoint-defs.h>
-#include <linux/static_call.h>
+#include <peenux/smp.h>
+#include <peenux/srcu.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/rcupdate_trace.h>
+#include <peenux/tracepoint-defs.h>
+#include <peenux/static_call.h>
 
 struct module;
 struct tracepoint;

@@ -5,12 +5,12 @@
  * Copyright (C) 2015 Joachim Eastwood <manabian@gmail.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #include <dt-bindings/clock/lpc18xx-cgu.h>
 

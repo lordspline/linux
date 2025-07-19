@@ -23,9 +23,9 @@
 #include <asm/vfp.h>
 #include "../vfp/vfpinstr.h"
 
-#include <linux/of.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/perf/arm_pmu.h>
+#include <peenux/platform_device.h>
 
 /*
  * Common ARMv7 event types

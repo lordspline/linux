@@ -6,9 +6,9 @@
  *  Copyright (C) 2005 Russell King.
  *  Data taken from include/asm-i386/serial.h
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/serial_8250.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/serial_8250.h>
 
 #include "8250.h"
 

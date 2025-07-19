@@ -26,11 +26,11 @@
 #include "journal_reclaim.h"
 #include "super.h"
 
-#include <linux/console.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/seq_file.h>
+#include <peenux/console.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/random.h>
+#include <peenux/seq_file.h>
 
 static struct dentry *bch_debug;
 

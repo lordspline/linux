@@ -8,10 +8,10 @@
 #ifndef _NET_FLOW_H
 #define _NET_FLOW_H
 
-#include <linux/in6.h>
-#include <linux/atomic.h>
-#include <linux/container_of.h>
-#include <linux/uidgid.h>
+#include <peenux/in6.h>
+#include <peenux/atomic.h>
+#include <peenux/container_of.h>
+#include <peenux/uidgid.h>
 
 struct flow_keys;
 

@@ -2,7 +2,7 @@
 /*
  * Copyright IBM Corp. 2020
  *
- * Author(s): Alexandra Winter <wintera@linux.ibm.com>
+ * Author(s): Alexandra Winter <wintera@peenux.ibm.com>
  *
  * Interface for Channel Subsystem Call
  */
@@ -11,7 +11,7 @@
 
 #include <uapi/asm/chsc.h>
 
-/* struct from linux/notifier.h */
+/* struct from peenux/notifier.h */
 struct notifier_block;
 
 /**

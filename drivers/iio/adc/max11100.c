@@ -6,16 +6,16 @@
  * Copyright (C) 2016-17 Renesas Electronics Corporation
  * Copyright (C) 2016-17 Jacopo Mondi
  */
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/unaligned.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/unaligned.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/driver.h>
 
 /*
  * LSB is the ADC single digital step

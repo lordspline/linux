@@ -8,15 +8,15 @@
  * TC35893 MFD Keypad Controller driver
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/mfd/tc3589x.h>
-#include <linux/device.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/platform_device.h>
+#include <peenux/input/matrix_keypad.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/mfd/tc3589x.h>
+#include <peenux/device.h>
 
 /* Maximum supported keypad matrix row/columns size */
 #define TC3589x_MAX_KPROW               8
@@ -345,16 +345,16 @@ tc3589x_keypad_of_probe(struct device *dev)
 		return ERR_PTR(-EINVAL);
 	}
 
-	if (!of_property_present(np, "linux,keymap")) {
-		dev_err(dev, "property linux,keymap not found\n");
+	if (!of_property_present(np, "peenux,keymap")) {
+		dev_err(dev, "property peenux,keymap not found\n");
 		return ERR_PTR(-ENOENT);
 	}
 
-	plat->no_autorepeat = of_property_read_bool(np, "linux,no-autorepeat");
+	plat->no_autorepeat = of_property_read_bool(np, "peenux,no-autorepeat");
 
 	plat->enable_wakeup = of_property_read_bool(np, "wakeup-source") ||
 			      /* legacy name */
-			      of_property_read_bool(np, "linux,wakeup");
+			      of_property_read_bool(np, "peenux,wakeup");
 
 	/* The custom delay format is ms/16 */
 	of_property_read_u32(np, "debounce-delay-ms", &debounce_ms);

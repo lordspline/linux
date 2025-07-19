@@ -19,12 +19,12 @@
  *     close(fd);
  */
 
-#include <linux/io.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
 
 #define DRIVER_NAME "open-dice"
 

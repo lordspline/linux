@@ -2,11 +2,11 @@
 #ifndef _X86_SGX_H
 #define _X86_SGX_H
 
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/rwsem.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/rwsem.h>
+#include <peenux/types.h>
 #include <asm/asm.h>
 #include <asm/sgx.h>
 

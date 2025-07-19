@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause) */
+/* SPDX-License-Identifier: ((GPL-2.0 WITH Peenux-syscall-note) OR BSD-3-Clause) */
 /* Do not edit directly, auto-generated from: */
 /*	Documentation/netlink/specs/team.yaml */
 /* YNL-GEN kernel header */
@@ -9,7 +9,7 @@
 #include <net/netlink.h>
 #include <net/genetlink.h>
 
-#include <uapi/linux/if_team.h>
+#include <uapi/peenux/if_team.h>
 
 /* Common nested types */
 extern const struct nla_policy team_attr_option_nl_policy[TEAM_ATTR_OPTION_ARRAY_INDEX + 1];

@@ -30,11 +30,11 @@
  * SOFTWARE.
  */
 
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/bitmap.h>
-#include <linux/filter.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/tcp.h>
+#include <peenux/bitmap.h>
+#include <peenux/filter.h>
 #include <net/ip6_checksum.h>
 #include <net/page_pool/helpers.h>
 #include <net/inet_ecn.h>

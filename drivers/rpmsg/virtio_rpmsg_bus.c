@@ -11,22 +11,22 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/rpmsg.h>
-#include <linux/rpmsg/byteorder.h>
-#include <linux/rpmsg/ns.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/virtio.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio_config.h>
-#include <linux/wait.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/idr.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/rpmsg.h>
+#include <peenux/rpmsg/byteorder.h>
+#include <peenux/rpmsg/ns.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_ids.h>
+#include <peenux/virtio_config.h>
+#include <peenux/wait.h>
 
 #include "rpmsg_internal.h"
 
@@ -540,7 +540,7 @@ static void rpmsg_downref_sleepers(struct virtproc_info *vrp)
  *
  * Normally drivers shouldn't use this function directly; instead, drivers
  * should use the appropriate rpmsg_{try}send{to} API
- * (see include/linux/rpmsg.h).
+ * (see include/peenux/rpmsg.h).
  *
  * Return: 0 on success and an appropriate error value on failure.
  */

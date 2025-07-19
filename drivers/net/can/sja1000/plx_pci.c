@@ -8,15 +8,15 @@
  *	Copyright (C) 2008 Sebastian Haas <haas@ems-wuensche.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/can/dev.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/can/dev.h>
+#include <peenux/io.h>
 
 #include "sja1000.h"
 

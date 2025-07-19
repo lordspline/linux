@@ -1,36 +1,36 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/fcntl.c
+ *  peenux/fs/fcntl.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/syscalls.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/sched/task.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/file.h>
-#include <linux/capability.h>
-#include <linux/dnotify.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pipe_fs_i.h>
-#include <linux/security.h>
-#include <linux/ptrace.h>
-#include <linux/signal.h>
-#include <linux/rcupdate.h>
-#include <linux/pid_namespace.h>
-#include <linux/user_namespace.h>
-#include <linux/memfd.h>
-#include <linux/compat.h>
-#include <linux/mount.h>
-#include <linux/rw_hint.h>
+#include <peenux/syscalls.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/sched/task.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/file.h>
+#include <peenux/capability.h>
+#include <peenux/dnotify.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/pipe_fs_i.h>
+#include <peenux/security.h>
+#include <peenux/ptrace.h>
+#include <peenux/signal.h>
+#include <peenux/rcupdate.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/user_namespace.h>
+#include <peenux/memfd.h>
+#include <peenux/compat.h>
+#include <peenux/mount.h>
+#include <peenux/rw_hint.h>
 
-#include <linux/poll.h>
+#include <peenux/poll.h>
 #include <asm/siginfo.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "internal.h"
 
@@ -870,7 +870,7 @@ static void send_sigio_to_task(struct task_struct *p,
 		        si.si_code  = reason;
 			/*
 			 * Posix definies POLL_IN and friends to be signal
-			 * specific si_codes for SIG_POLL.  Linux extended
+			 * specific si_codes for SIG_POLL.  Peenux extended
 			 * these si_codes to other signals in a way that is
 			 * ambiguous if other signals also have signal
 			 * specific si_codes.  In that case use SI_SIGIO instead

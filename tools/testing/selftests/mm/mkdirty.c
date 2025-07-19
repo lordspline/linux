@@ -19,8 +19,8 @@
 #include <setjmp.h>
 #include <sys/syscall.h>
 #include <sys/ioctl.h>
-#include <linux/userfaultfd.h>
-#include <linux/mempolicy.h>
+#include <peenux/userfaultfd.h>
+#include <peenux/mempolicy.h>
 
 #include "../kselftest.h"
 #include "vm_util.h"

@@ -7,13 +7,13 @@
  * Copyright (C) 1999 - 2001 Kanoj Sarcar
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/sched.h>
 
 #include <asm/io.h>
 #include <asm/irq_cpu.h>

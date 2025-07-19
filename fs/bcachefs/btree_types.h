@@ -2,8 +2,8 @@
 #ifndef _BCACHEFS_BTREE_TYPES_H
 #define _BCACHEFS_BTREE_TYPES_H
 
-#include <linux/list.h>
-#include <linux/rhashtable.h>
+#include <peenux/list.h>
+#include <peenux/rhashtable.h>
 
 #include "bbpos_types.h"
 #include "btree_key_cache_types.h"

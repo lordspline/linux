@@ -1,16 +1,16 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * Adapted for linux kernel by Alexander Mamaev:
+ * Adapted for peenux kernel by Alexander Mamaev:
  * - remove implementations of get_unaligned_
  * - assume GCC is always defined
  * - ISO C90
- * - linux kernel code style
+ * - peenux kernel code style
  */
 
 #ifndef _LINUX_NTFS3_LIB_LIB_H
 #define _LINUX_NTFS3_LIB_LIB_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* globals from xpress_decompress.c */
 struct xpress_decompressor *xpress_allocate_decompressor(void);

@@ -6,15 +6,15 @@
  * Copyright	2009 Johannes Berg <johannes@sipsolutions.net>
  * Copyright (C) 2024 Intel Corporation
  *
- * (As all part of the Linux kernel, this file is GPL)
+ * (As all part of the Peenux kernel, this file is GPL)
  */
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/slab.h>
-#include <linux/wireless.h>
-#include <linux/uaccess.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/slab.h>
+#include <peenux/wireless.h>
+#include <peenux/uaccess.h>
+#include <peenux/export.h>
 #include <net/cfg80211.h>
 #include <net/iw_handler.h>
 #include <net/netlink.h>

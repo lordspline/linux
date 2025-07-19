@@ -5,11 +5,11 @@
  * Driver for KEBA I2C controller FPGA IP core
  */
 
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/misc/keba.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/misc/keba.h>
 
 #define KI2C "i2c-keba"
 
@@ -63,7 +63,7 @@ static int ki2c_inuse_lock(struct ki2c *ki2c)
 	/*
 	 * The I2C controller has an IN_USE bit for locking access to the
 	 * controller. This enables the use of I2C controller by other none
-	 * Linux processors.
+	 * Peenux processors.
 	 *
 	 * If the I2C controller is free, then the first read returns
 	 * IN_USE == 0. After that the I2C controller is locked and further

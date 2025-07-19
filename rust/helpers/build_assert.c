@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/build_bug.h>
+#include <peenux/build_bug.h>
 
 /*
  * `bindgen` binds the C `size_t` type as the Rust `usize` type, so we can

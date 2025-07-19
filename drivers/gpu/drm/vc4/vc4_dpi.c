@@ -19,11 +19,11 @@
 #include <drm/drm_panel.h>
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_simple_kms_helper.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/media-bus-format.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 #include "vc4_drv.h"
 #include "vc4_regs.h"
 

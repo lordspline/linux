@@ -6,15 +6,15 @@
 //
 // Based on draft driver from Arnaud Patard <arnaud.patard@rtp-net.org>
 
-#include <linux/mfd/mc13892.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/driver.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <peenux/mfd/mc13892.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
 #include "mc13xxx.h"
 
 #define MC13892_REVISION			7

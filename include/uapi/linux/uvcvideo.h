@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef __LINUX_UVCVIDEO_H_
 #define __LINUX_UVCVIDEO_H_
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <peenux/ioctl.h>
+#include <peenux/types.h>
 
 /*
  * Dynamic controls
@@ -77,7 +77,7 @@ struct uvc_xu_control_query {
 	__u8 unit;
 	__u8 selector;
 	__u8 query;		/* Video Class-Specific Request Code, */
-				/* defined in linux/usb/video.h A.8.  */
+				/* defined in peenux/usb/video.h A.8.  */
 	__u16 size;
 	__u8 __user *data;
 };

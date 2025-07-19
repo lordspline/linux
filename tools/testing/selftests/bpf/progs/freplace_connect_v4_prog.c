@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2020 Facebook
 
-#include <linux/stddef.h>
-#include <linux/ipv6.h>
-#include <linux/bpf.h>
-#include <linux/in.h>
+#include <peenux/stddef.h>
+#include <peenux/ipv6.h>
+#include <peenux/bpf.h>
+#include <peenux/in.h>
 #include <sys/socket.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_endian.h>

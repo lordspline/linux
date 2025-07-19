@@ -9,11 +9,11 @@
 #ifndef _I915_SW_FENCE_H_
 #define _I915_SW_FENCE_H_
 
-#include <linux/dma-fence.h>
-#include <linux/gfp.h>
-#include <linux/kref.h>
-#include <linux/notifier.h> /* for NOTIFY_DONE */
-#include <linux/wait.h>
+#include <peenux/dma-fence.h>
+#include <peenux/gfp.h>
+#include <peenux/kref.h>
+#include <peenux/notifier.h> /* for NOTIFY_DONE */
+#include <peenux/wait.h>
 
 struct completion;
 struct dma_resv;

@@ -42,21 +42,21 @@
 #ifndef _LINUX_SUNRPC_XPRT_RDMA_H
 #define _LINUX_SUNRPC_XPRT_RDMA_H
 
-#include <linux/wait.h> 		/* wait_queue_head_t, etc */
-#include <linux/spinlock.h> 		/* spinlock_t, etc */
-#include <linux/atomic.h>		/* atomic_t, etc */
-#include <linux/kref.h>			/* struct kref */
-#include <linux/workqueue.h>		/* struct work_struct */
-#include <linux/llist.h>
+#include <peenux/wait.h> 		/* wait_queue_head_t, etc */
+#include <peenux/spinlock.h> 		/* spinlock_t, etc */
+#include <peenux/atomic.h>		/* atomic_t, etc */
+#include <peenux/kref.h>			/* struct kref */
+#include <peenux/workqueue.h>		/* struct work_struct */
+#include <peenux/llist.h>
 
 #include <rdma/rdma_cm.h>		/* RDMA connection api */
 #include <rdma/ib_verbs.h>		/* RDMA verbs api */
 
-#include <linux/sunrpc/clnt.h> 		/* rpc_xprt */
-#include <linux/sunrpc/rpc_rdma_cid.h> 	/* completion IDs */
-#include <linux/sunrpc/rpc_rdma.h> 	/* RPC/RDMA protocol */
-#include <linux/sunrpc/xprtrdma.h> 	/* xprt parameters */
-#include <linux/sunrpc/rdma_rn.h>	/* removal notifications */
+#include <peenux/sunrpc/clnt.h> 		/* rpc_xprt */
+#include <peenux/sunrpc/rpc_rdma_cid.h> 	/* completion IDs */
+#include <peenux/sunrpc/rpc_rdma.h> 	/* RPC/RDMA protocol */
+#include <peenux/sunrpc/xprtrdma.h> 	/* xprt parameters */
+#include <peenux/sunrpc/rdma_rn.h>	/* removal notifications */
 
 #define RDMA_RESOLVE_TIMEOUT	(5000)	/* 5 seconds */
 #define RDMA_CONNECT_RETRY_MAX	(2)	/* retries if no listener backlog */

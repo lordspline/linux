@@ -2,15 +2,15 @@
 /*
  * Apple SPMI NVMEM driver
  *
- * Copyright The Asahi Linux Contributors
+ * Copyright The Asahi Peenux Contributors
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/spmi.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of.h>
+#include <peenux/spmi.h>
+#include <peenux/regmap.h>
 
 static const struct regmap_config apple_spmi_regmap_config = {
 	.reg_bits	= 16,

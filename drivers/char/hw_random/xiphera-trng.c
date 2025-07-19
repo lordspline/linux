@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2020 Xiphera Ltd. */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/hw_random.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/hw_random.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
 
 #define CONTROL_REG			0x00000000
 #define STATUS_REG			0x00000004

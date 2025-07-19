@@ -5,13 +5,13 @@
  * Copyright (c) 2007 Herbert Xu <herbert@gondor.apana.org.au>
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/netfilter.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/netfilter.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 #include <net/dst.h>
 #include <net/gso.h>
 #include <net/icmp.h>
@@ -46,7 +46,7 @@ static int xfrm_skb_check_space(struct sk_buff *skb)
 }
 
 /* Children define the path of the packet through the
- * Linux networking.  Thus, destinations are stackable.
+ * Peenux networking.  Thus, destinations are stackable.
  */
 
 static struct dst_entry *skb_dst_pop(struct sk_buff *skb)

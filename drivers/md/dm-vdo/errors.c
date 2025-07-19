@@ -5,8 +5,8 @@
 
 #include "errors.h"
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
+#include <peenux/compiler.h>
+#include <peenux/errno.h>
 
 #include "logger.h"
 #include "permassert.h"

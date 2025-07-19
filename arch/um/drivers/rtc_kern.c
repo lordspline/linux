@@ -3,11 +3,11 @@
  * Copyright (C) 2020 Intel Corporation
  * Author: Johannes Berg <johannes@sipsolutions.net>
  */
-#include <linux/platform_device.h>
-#include <linux/time-internal.h>
-#include <linux/suspend.h>
-#include <linux/err.h>
-#include <linux/rtc.h>
+#include <peenux/platform_device.h>
+#include <peenux/time-internal.h>
+#include <peenux/suspend.h>
+#include <peenux/err.h>
+#include <peenux/rtc.h>
 #include <kern_util.h>
 #include <irq_kern.h>
 #include <os.h>

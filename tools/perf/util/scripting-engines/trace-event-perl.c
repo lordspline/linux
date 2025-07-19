@@ -25,8 +25,8 @@
 #include <string.h>
 #include <ctype.h>
 #include <errno.h>
-#include <linux/bitmap.h>
-#include <linux/time64.h>
+#include <peenux/bitmap.h>
+#include <peenux/time64.h>
 #include <event-parse.h>
 
 #include <stdbool.h>

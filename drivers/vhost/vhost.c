@@ -10,26 +10,26 @@
  * Generic code for virtio server in host kernel.
  */
 
-#include <linux/eventfd.h>
-#include <linux/vhost.h>
-#include <linux/uio.h>
-#include <linux/mm.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/file.h>
-#include <linux/highmem.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/sort.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/vhost_task.h>
-#include <linux/interval_tree_generic.h>
-#include <linux/nospec.h>
-#include <linux/kcov.h>
+#include <peenux/eventfd.h>
+#include <peenux/vhost.h>
+#include <peenux/uio.h>
+#include <peenux/mm.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <peenux/file.h>
+#include <peenux/highmem.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/sort.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/vhost_task.h>
+#include <peenux/interval_tree_generic.h>
+#include <peenux/nospec.h>
+#include <peenux/kcov.h>
 
 #include "vhost.h"
 

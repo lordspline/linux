@@ -6,8 +6,8 @@
  * Basic signal handling related data type definitions:
  */
 
-#include <linux/types.h>
-#include <uapi/linux/signal.h>
+#include <peenux/types.h>
+#include <uapi/peenux/signal.h>
 
 typedef struct kernel_siginfo {
 	__SIGINFO;

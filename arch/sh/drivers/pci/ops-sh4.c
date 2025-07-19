@@ -4,9 +4,9 @@
  *
  * Copyright (C) 2002 - 2009  Paul Mundt
  */
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
 #include <asm/addrspace.h>
 #include "pci-sh4.h"
 

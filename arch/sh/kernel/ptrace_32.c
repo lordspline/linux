@@ -7,23 +7,23 @@
  *
  * Audit support by Yuichi Nakamura <ynakam@hitachisoft.jp>
  */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/security.h>
-#include <linux/signal.h>
-#include <linux/io.h>
-#include <linux/audit.h>
-#include <linux/seccomp.h>
-#include <linux/elf.h>
-#include <linux/regset.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/security.h>
+#include <peenux/signal.h>
+#include <peenux/io.h>
+#include <peenux/audit.h>
+#include <peenux/seccomp.h>
+#include <peenux/elf.h>
+#include <peenux/regset.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/uaccess.h>
 #include <asm/processor.h>
 #include <asm/mmu_context.h>
 #include <asm/syscalls.h>

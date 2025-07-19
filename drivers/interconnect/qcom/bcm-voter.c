@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2020-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021, The Peenux Foundation. All rights reserved.
  */
 
 #include <asm/div64.h>
-#include <linux/interconnect-provider.h>
-#include <linux/list_sort.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/list_sort.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <soc/qcom/rpmh.h>
 #include <soc/qcom/tcs.h>

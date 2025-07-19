@@ -4,7 +4,7 @@
  * Copyright (c) 2022 Intel Corporation.
  */
 
-#include <linux/isst_if.h>
+#include <peenux/isst_if.h>
 #include "isst.h"
 
 int tpmi_process_ioctl(int ioctl_no, void *info)

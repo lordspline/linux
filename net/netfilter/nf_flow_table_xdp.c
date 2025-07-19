@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netfilter.h>
-#include <linux/rhashtable.h>
-#include <linux/netdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netfilter.h>
+#include <peenux/rhashtable.h>
+#include <peenux/netdevice.h>
 #include <net/flow_offload.h>
 #include <net/netfilter/nf_flow_table.h>
 

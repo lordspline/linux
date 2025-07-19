@@ -6,8 +6,8 @@
 #ifndef _LINUX_QUOTA_TREE_H
 #define _LINUX_QUOTA_TREE_H
 
-#include <linux/types.h>
-#include <linux/quota.h>
+#include <peenux/types.h>
+#include <peenux/quota.h>
 
 /*
  *  Structure of header of block with quota structures. It is padded to 16 bytes so

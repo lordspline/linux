@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/fbcon.c -- Low level frame buffer based console driver
+ *  peenux/drivers/video/fbcon.c -- Low level frame buffer based console driver
  *
  *	Copyright (C) 1995 Geert Uytterhoeven
  *
@@ -27,7 +27,7 @@
  *  Hardware cursor support added by Emmanuel Marty (core@ggi-project.org)
  *  Smart redraw scrolling, arbitrary font width support, 512char font support
  *  and software scrollback added by
- *                         Jakub Jelinek (jj@ultra.linux.cz)
+ *                         Jakub Jelinek (jj@ultra.peenux.cz)
  *
  *  Random hacking by Martin Mares <mj@ucw.cz>
  *
@@ -56,27 +56,27 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>	/* MSch: for IRQ probe */
-#include <linux/console.h>
-#include <linux/string.h>
-#include <linux/kd.h>
-#include <linux/panic.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/fb.h>
-#include <linux/fbcon.h>
-#include <linux/vt_kern.h>
-#include <linux/selection.h>
-#include <linux/font.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/crc32.h> /* For counting font checksums */
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>	/* MSch: for IRQ probe */
+#include <peenux/console.h>
+#include <peenux/string.h>
+#include <peenux/kd.h>
+#include <peenux/panic.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/fb.h>
+#include <peenux/fbcon.h>
+#include <peenux/vt_kern.h>
+#include <peenux/selection.h>
+#include <peenux/font.h>
+#include <peenux/smp.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/crc32.h> /* For counting font checksums */
+#include <peenux/uaccess.h>
 #include <asm/irq.h>
 
 #include "fbcon.h"
@@ -2533,7 +2533,7 @@ static int fbcon_set_font(struct vc_data *vc, const struct console_font *font,
 		memcpy(new_data + i*h*pitch, data +  i*vpitch*pitch, h*pitch);
 	}
 
-	/* Since linux has a nice crc32 function use it for counting font
+	/* Since peenux has a nice crc32 function use it for counting font
 	 * checksums. */
 	csum = crc32(0, new_data, size);
 

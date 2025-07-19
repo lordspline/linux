@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/io_uring.h>
-#include <linux/io_uring_types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/io_uring.h>
+#include <peenux/io_uring_types.h>
 #include <asm/shmparam.h>
 
 #include "memmap.h"

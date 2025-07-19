@@ -12,16 +12,16 @@
  */
 
 #include <kunit/test.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/kfence.h>
-#include <linux/mm.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/tracepoint.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/kfence.h>
+#include <peenux/mm.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
+#include <peenux/tracepoint.h>
 #include <trace/events/printk.h>
 
 #include <asm/kfence.h>

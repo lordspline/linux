@@ -7,21 +7,21 @@
 
 #define pr_fmt(fmt)			KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/set_memory.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/sockptr.h>
-#include <linux/tsm.h>
-#include <linux/tsm-mr.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
+#include <peenux/set_memory.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/sockptr.h>
+#include <peenux/tsm.h>
+#include <peenux/tsm-mr.h>
 
-#include <uapi/linux/tdx-guest.h>
+#include <uapi/peenux/tdx-guest.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/tdx.h>
@@ -436,6 +436,6 @@ static void __exit tdx_guest_exit(void)
 }
 module_exit(tdx_guest_exit);
 
-MODULE_AUTHOR("Kuppuswamy Sathyanarayanan <sathyanarayanan.kuppuswamy@linux.intel.com>");
+MODULE_AUTHOR("Kuppuswamy Sathyanarayanan <sathyanarayanan.kuppuswamy@peenux.intel.com>");
 MODULE_DESCRIPTION("TDX Guest Driver");
 MODULE_LICENSE("GPL");

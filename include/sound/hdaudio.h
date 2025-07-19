@@ -6,14 +6,14 @@
 #ifndef __SOUND_HDAUDIO_H
 #define __SOUND_HDAUDIO_H
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/iopoll.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/timecounter.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/iopoll.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/timecounter.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/memalloc.h>

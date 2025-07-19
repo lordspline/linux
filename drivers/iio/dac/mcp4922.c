@@ -8,13 +8,13 @@
  * Copyright (c) 2014 EMAC Inc.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/spi/spi.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/regulator/consumer.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/spi/spi.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/bitops.h>
 
 #define MCP4922_NUM_CHANNELS	2
 #define MCP4921_NUM_CHANNELS	1

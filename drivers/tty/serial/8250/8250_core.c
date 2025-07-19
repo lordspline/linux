@@ -12,27 +12,27 @@
  *	      serial8250_register_8250_port() ports
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/tty.h>
-#include <linux/ratelimit.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
-#include <linux/nmi.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <peenux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/tty.h>
+#include <peenux/ratelimit.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial.h>
+#include <peenux/serial_8250.h>
+#include <peenux/nmi.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
 
 #include <asm/irq.h>
 

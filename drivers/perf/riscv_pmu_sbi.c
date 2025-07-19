@@ -10,17 +10,17 @@
 
 #define pr_fmt(fmt) "riscv-pmu-sbi: " fmt
 
-#include <linux/mod_devicetable.h>
-#include <linux/perf/riscv_pmu.h>
-#include <linux/platform_device.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of_irq.h>
-#include <linux/of.h>
-#include <linux/cpu_pm.h>
-#include <linux/sched/clock.h>
-#include <linux/soc/andes/irq.h>
-#include <linux/workqueue.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/perf/riscv_pmu.h>
+#include <peenux/platform_device.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of_irq.h>
+#include <peenux/of.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/sched/clock.h>
+#include <peenux/soc/andes/irq.h>
+#include <peenux/workqueue.h>
 
 #include <asm/errata_list.h>
 #include <asm/sbi.h>

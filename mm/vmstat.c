@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/mm/vmstat.c
+ *  peenux/mm/vmstat.c
  *
  *  Manages VM statistics
  *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
@@ -10,24 +10,24 @@
  *		Christoph Lameter <cl@gentwo.org>
  *  Copyright (C) 2008-2014 Christoph Lameter
  */
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/vmstat.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/sched.h>
-#include <linux/math64.h>
-#include <linux/writeback.h>
-#include <linux/compaction.h>
-#include <linux/mm_inline.h>
-#include <linux/page_owner.h>
-#include <linux/sched/isolation.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/vmstat.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/sched.h>
+#include <peenux/math64.h>
+#include <peenux/writeback.h>
+#include <peenux/compaction.h>
+#include <peenux/mm_inline.h>
+#include <peenux/page_owner.h>
+#include <peenux/sched/isolation.h>
 
 #include "internal.h"
 

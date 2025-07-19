@@ -3,9 +3,9 @@
  * Copyright (C) 2020-2024 Microsoft Corporation. All rights reserved.
  */
 
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/list.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
 #include <kunit/test.h>
 #include "policy.h"
 struct policy_case {

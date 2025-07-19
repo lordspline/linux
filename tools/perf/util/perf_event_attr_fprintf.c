@@ -3,9 +3,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/perf_event.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/perf_event.h>
 #include "util/evsel_fprintf.h"
 #include "util/pmu.h"
 #include "util/pmus.h"

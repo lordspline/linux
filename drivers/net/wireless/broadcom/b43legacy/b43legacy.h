@@ -2,19 +2,19 @@
 #ifndef B43legacy_H_
 #define B43legacy_H_
 
-#include <linux/hw_random.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/stringify.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/atomic.h>
-#include <linux/io.h>
+#include <peenux/hw_random.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/stringify.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/atomic.h>
+#include <peenux/io.h>
 
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_driver_chipcommon.h>
-#include <linux/completion.h>
+#include <peenux/ssb/ssb.h>
+#include <peenux/ssb/ssb_driver_chipcommon.h>
+#include <peenux/completion.h>
 
 #include <net/mac80211.h>
 

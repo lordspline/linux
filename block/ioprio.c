@@ -20,15 +20,15 @@
  * See also Documentation/block/ioprio.rst
  *
  */
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/ioprio.h>
-#include <linux/cred.h>
-#include <linux/blkdev.h>
-#include <linux/capability.h>
-#include <linux/syscalls.h>
-#include <linux/security.h>
-#include <linux/pid_namespace.h>
+#include <peenux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/ioprio.h>
+#include <peenux/cred.h>
+#include <peenux/blkdev.h>
+#include <peenux/capability.h>
+#include <peenux/syscalls.h>
+#include <peenux/security.h>
+#include <peenux/pid_namespace.h>
 
 int ioprio_check_cap(int ioprio)
 {

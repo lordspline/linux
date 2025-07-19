@@ -7,15 +7,15 @@
  * Copyright (c) 2016 Microsemi Corporation
  */
 
-#include <linux/firmware.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mdio.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/of.h>
-#include <linux/netdevice.h>
+#include <peenux/firmware.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mdio.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
+#include <peenux/of.h>
+#include <peenux/netdevice.h>
 #include <dt-bindings/net/mscc-phy-vsc8531.h>
 
 #include "../phylib.h"

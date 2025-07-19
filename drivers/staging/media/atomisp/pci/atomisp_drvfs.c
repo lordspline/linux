@@ -5,9 +5,9 @@
  * Copyright (c) 2014 Intel Corporation. All Rights Reserved.
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
 
 #include "atomisp_compat.h"
 #include "atomisp_internal.h"

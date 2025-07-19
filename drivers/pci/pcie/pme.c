@@ -9,15 +9,15 @@
 
 #define dev_fmt(fmt) "PME: " fmt
 
-#include <linux/bitfield.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/bitfield.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/pm_runtime.h>
 
 #include "../pci.h"
 #include "portdrv.h"

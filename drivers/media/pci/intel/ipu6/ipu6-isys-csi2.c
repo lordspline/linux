@@ -3,15 +3,15 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/minmax.h>
-#include <linux/sprintf.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/minmax.h>
+#include <peenux/sprintf.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-ctrls.h>

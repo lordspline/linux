@@ -10,9 +10,9 @@
 #ifndef __LINUX_DMA_FENCE_CHAIN_H
 #define __LINUX_DMA_FENCE_CHAIN_H
 
-#include <linux/dma-fence.h>
-#include <linux/irq_work.h>
-#include <linux/slab.h>
+#include <peenux/dma-fence.h>
+#include <peenux/irq_work.h>
+#include <peenux/slab.h>
 
 /**
  * struct dma_fence_chain - fence to represent an node of a fence chain

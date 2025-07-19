@@ -3,18 +3,18 @@
 * Copyright (C) 2012 Invensense, Inc.
 */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/poll.h>
-#include <linux/math64.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/sysfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/poll.h>
+#include <peenux/math64.h>
 
-#include <linux/iio/common/inv_sensors_timestamp.h>
+#include <peenux/iio/common/inv_sensors_timestamp.h>
 
 #include "inv_mpu_iio.h"
 

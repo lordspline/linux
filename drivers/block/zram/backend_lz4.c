@@ -1,7 +1,7 @@
-#include <linux/kernel.h>
-#include <linux/lz4.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/lz4.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #include "backend_lz4.h"
 

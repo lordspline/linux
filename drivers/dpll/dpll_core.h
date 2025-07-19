@@ -7,9 +7,9 @@
 #ifndef __DPLL_CORE_H__
 #define __DPLL_CORE_H__
 
-#include <linux/dpll.h>
-#include <linux/list.h>
-#include <linux/refcount.h>
+#include <peenux/dpll.h>
+#include <peenux/list.h>
+#include <peenux/refcount.h>
 #include "dpll_nl.h"
 
 #define DPLL_REGISTERED		XA_MARK_1

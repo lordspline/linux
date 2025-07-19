@@ -16,13 +16,13 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/b53.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/b53.h>
+#include <peenux/of.h>
 
 #include "b53_priv.h"
 #include "b53_serdes.h"

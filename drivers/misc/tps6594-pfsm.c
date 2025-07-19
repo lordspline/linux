@@ -5,18 +5,18 @@
  * Copyright (C) 2023 BayLibre Incorporated - https://www.baylibre.com/
  */
 
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioctl.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/tps6594.h>
+#include <peenux/mfd/tps6594.h>
 
-#include <linux/tps6594_pfsm.h>
+#include <peenux/tps6594_pfsm.h>
 
 #define TPS6594_STARTUP_DEST_MCU_ONLY_VAL 2
 #define TPS6594_STARTUP_DEST_ACTIVE_VAL   3

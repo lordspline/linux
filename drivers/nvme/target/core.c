@@ -4,11 +4,11 @@
  * Copyright (c) 2015-2016 HGST, a Western Digital Company.
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/rculist.h>
-#include <linux/pci-p2pdma.h>
-#include <linux/scatterlist.h>
+#include <peenux/module.h>
+#include <peenux/random.h>
+#include <peenux/rculist.h>
+#include <peenux/pci-p2pdma.h>
+#include <peenux/scatterlist.h>
 
 #include <generated/utsrelease.h>
 

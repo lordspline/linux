@@ -5,15 +5,15 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+// Author: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
 //
 // Generic debug routines used to export DSP MMIO and memories to userspace
 // for firmware debugging.
 //
 
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
+#include <peenux/debugfs.h>
+#include <peenux/io.h>
+#include <peenux/pm_runtime.h>
 #include <sound/sof/ext_manifest.h>
 #include <sound/sof/debug.h>
 #include "sof-priv.h"

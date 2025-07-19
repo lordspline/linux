@@ -3,16 +3,16 @@
  *
  * Copyright (C) 2007 David S. Miller (davem@davemloft.net)
  */
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/msi.h>
-#include <linux/export.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/numa.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/msi.h>
+#include <peenux/export.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/numa.h>
 
 #include <asm/prom.h>
 #include <asm/irq.h>

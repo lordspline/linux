@@ -14,18 +14,18 @@
  * from scratch.
  */
 
-#include <linux/bug.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/hex.h>
-#include <linux/minmax.h>
-#include <linux/printk.h>
-#include <linux/seq_buf.h>
-#include <linux/seq_file.h>
-#include <linux/sprintf.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/bug.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/hex.h>
+#include <peenux/minmax.h>
+#include <peenux/printk.h>
+#include <peenux/seq_buf.h>
+#include <peenux/seq_file.h>
+#include <peenux/sprintf.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 
 /**
  * seq_buf_can_fit - can the new data fit in the current buffer?

@@ -6,7 +6,7 @@
  * Copyright (C) 1999  Niibe Yutaka
  */
 
-#include <linux/const.h>
+#include <peenux/const.h>
 
 #include <vdso/page.h>
 

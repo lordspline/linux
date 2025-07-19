@@ -25,7 +25,7 @@
 	        led-0 {
 	                function = LED_FUNCTION_POWER;
 	                gpios = <&pca9534 0 GPIO_ACTIVE_HIGH>;
-	                linux,default-trigger = "heartbeat";
+	                peenux,default-trigger = "heartbeat";
 	        };
 	};
 

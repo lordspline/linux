@@ -6,8 +6,8 @@
 #ifndef	_MTD_NAND_OMAP2_H
 #define	_MTD_NAND_OMAP2_H
 
-#include <linux/mtd/partitions.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mod_devicetable.h>
 
 #define	GPMC_BCH_NUM_REMAINDER	8
 

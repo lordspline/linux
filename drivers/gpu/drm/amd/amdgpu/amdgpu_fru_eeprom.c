@@ -20,7 +20,7 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#include <linux/pci.h>
+#include <peenux/pci.h>
 
 #include "amdgpu.h"
 #include "amdgpu_i2c.h"

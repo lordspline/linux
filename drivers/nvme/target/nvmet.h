@@ -6,21 +6,21 @@
 #ifndef _NVMET_H
 #define _NVMET_H
 
-#include <linux/dma-mapping.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/kref.h>
-#include <linux/percpu-refcount.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/uuid.h>
-#include <linux/nvme.h>
-#include <linux/configfs.h>
-#include <linux/rcupdate.h>
-#include <linux/blkdev.h>
-#include <linux/radix-tree.h>
-#include <linux/t10-pi.h>
-#include <linux/kfifo.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/kref.h>
+#include <peenux/percpu-refcount.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/uuid.h>
+#include <peenux/nvme.h>
+#include <peenux/configfs.h>
+#include <peenux/rcupdate.h>
+#include <peenux/blkdev.h>
+#include <peenux/radix-tree.h>
+#include <peenux/t10-pi.h>
+#include <peenux/kfifo.h>
 
 #define NVMET_DEFAULT_VS		NVME_VS(2, 1, 0)
 
@@ -28,7 +28,7 @@
 #define NVMET_ASYNC_EVENTS		4
 #define NVMET_ERROR_LOG_SLOTS		128
 #define NVMET_NO_ERROR_LOC		((u16)-1)
-#define NVMET_DEFAULT_CTRL_MODEL	"Linux"
+#define NVMET_DEFAULT_CTRL_MODEL	"Peenux"
 #define NVMET_MN_MAX_SIZE		40
 #define NVMET_SN_MAX_SIZE		20
 #define NVMET_FR_MAX_SIZE		8

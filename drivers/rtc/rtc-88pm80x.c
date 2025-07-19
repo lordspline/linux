@@ -7,13 +7,13 @@
  *  Qiao Zhou <zhouqiao@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/88pm80x.h>
-#include <linux/rtc.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/88pm80x.h>
+#include <peenux/rtc.h>
 
 #define PM800_RTC_COUNTER1		(0xD1)
 #define PM800_RTC_COUNTER2		(0xD2)

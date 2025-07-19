@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright 2011 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
- * Copyright (C) 2009. SUSE Linux Products GmbH. All rights reserved.
+ * Copyright (C) 2009. SUSE Peenux Products GmbH. All rights reserved.
  *
  * Authors:
  *    Paul Mackerras <paulus@au1.ibm.com>
@@ -15,35 +15,35 @@
  * by Alexander Graf <agraf@suse.de>.
  */
 
-#include <linux/kvm_host.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/preempt.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/stat.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/anon_inodes.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/spinlock.h>
-#include <linux/page-flags.h>
-#include <linux/srcu.h>
-#include <linux/miscdevice.h>
-#include <linux/debugfs.h>
-#include <linux/gfp.h>
-#include <linux/vmalloc.h>
-#include <linux/highmem.h>
-#include <linux/hugetlb.h>
-#include <linux/kvm_irqfd.h>
-#include <linux/irqbypass.h>
-#include <linux/module.h>
-#include <linux/compiler.h>
-#include <linux/of.h>
-#include <linux/irqdomain.h>
-#include <linux/smp.h>
+#include <peenux/kvm_host.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/preempt.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/stat.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/spinlock.h>
+#include <peenux/page-flags.h>
+#include <peenux/srcu.h>
+#include <peenux/miscdevice.h>
+#include <peenux/debugfs.h>
+#include <peenux/gfp.h>
+#include <peenux/vmalloc.h>
+#include <peenux/highmem.h>
+#include <peenux/hugetlb.h>
+#include <peenux/kvm_irqfd.h>
+#include <peenux/irqbypass.h>
+#include <peenux/module.h>
+#include <peenux/compiler.h>
+#include <peenux/of.h>
+#include <peenux/irqdomain.h>
+#include <peenux/smp.h>
 
 #include <asm/ftrace.h>
 #include <asm/reg.h>
@@ -54,7 +54,7 @@
 #include <asm/disassemble.h>
 #include <asm/cputable.h>
 #include <asm/cacheflush.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/interrupt.h>
 #include <asm/io.h>
 #include <asm/kvm_ppc.h>

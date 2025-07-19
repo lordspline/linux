@@ -2,17 +2,17 @@
 /*
  * Copyright (C) 2009 Felix Fietkau <nbd@nbd.name>
  * Copyright (C) 2011-2012 Gabor Juhos <juhosg@openwrt.org>
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Peenux Foundation. All rights reserved.
  */
 
 #ifndef __QCA8K_H
 #define __QCA8K_H
 
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/gpio.h>
-#include <linux/leds.h>
-#include <linux/dsa/tag_qca.h>
+#include <peenux/delay.h>
+#include <peenux/regmap.h>
+#include <peenux/gpio.h>
+#include <peenux/leds.h>
+#include <peenux/dsa/tag_qca.h>
 
 #define QCA8K_ETHERNET_MDIO_PRIORITY			7
 #define QCA8K_ETHERNET_PHY_PRIORITY			6

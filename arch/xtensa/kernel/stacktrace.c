@@ -8,15 +8,15 @@
  * Copyright (C) 2001 - 2013 Tensilica Inc.
  * Copyright (C) 2015 Cadence Design Systems Inc.
  */
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/stacktrace.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/stacktrace.h>
 
 #include <asm/ftrace.h>
 #include <asm/sections.h>
 #include <asm/stacktrace.h>
 #include <asm/traps.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #if IS_ENABLED(CONFIG_PERF_EVENTS)
 

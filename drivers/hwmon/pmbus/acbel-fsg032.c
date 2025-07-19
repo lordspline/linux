@@ -3,14 +3,14 @@
  * Copyright 2023 IBM Corp.
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/i2c.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/pmbus.h>
-#include <linux/hwmon-sysfs.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/i2c.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/pmbus.h>
+#include <peenux/hwmon-sysfs.h>
 #include "pmbus.h"
 
 #define ACBEL_MFR_FW_REVISION	0xd9

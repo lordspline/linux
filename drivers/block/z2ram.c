@@ -27,20 +27,20 @@
 
 #define DEVICE_NAME "Z2RAM"
 
-#include <linux/major.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/blk-mq.h>
-#include <linux/bitops.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/pgtable.h>
+#include <peenux/major.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/blk-mq.h>
+#include <peenux/bitops.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/pgtable.h>
 
 #include <asm/setup.h>
 #include <asm/amigahw.h>
 
-#include <linux/zorro.h>
+#include <peenux/zorro.h>
 
 #define Z2MINOR_COMBINED      (0)
 #define Z2MINOR_Z2ONLY        (1)

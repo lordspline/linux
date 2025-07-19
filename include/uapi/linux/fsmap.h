@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * FS_IOC_GETFSMAP ioctl infrastructure.
  *
@@ -9,7 +9,7 @@
 #ifndef _LINUX_FSMAP_H
 #define _LINUX_FSMAP_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /*
  *	Structure for FS_IOC_GETFSMAP.

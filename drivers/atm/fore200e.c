@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
-  A FORE Systems 200E-series driver for ATM on Linux.
+  A FORE Systems 200E-series driver for ATM on Peenux.
   Christophe Lizzi (lizzi@cnam.fr), October 1999-March 2003.
 
   Based on the PCA-200E driver from Uwe Dannowski (Uwe.Dannowski@inf.tu-dresden.de).
@@ -11,32 +11,32 @@
 */
 
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/capability.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/atmdev.h>
-#include <linux/sonet.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/pgtable.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/capability.h>
+#include <peenux/interrupt.h>
+#include <peenux/bitops.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
+#include <peenux/atmdev.h>
+#include <peenux/sonet.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/pgtable.h>
 #include <asm/io.h>
 #include <asm/string.h>
 #include <asm/page.h>
 #include <asm/irq.h>
 #include <asm/dma.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
+#include <peenux/uaccess.h>
+#include <peenux/atomic.h>
 
 #ifdef CONFIG_SBUS
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 #include <asm/idprom.h>
 #include <asm/openprom.h>
 #include <asm/oplib.h>

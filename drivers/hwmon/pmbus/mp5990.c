@@ -3,9 +3,9 @@
  * Driver for MPS MP5990 Hot-Swap Controller
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
 #include "pmbus.h"
 
 #define MP5990_EFUSE_CFG	(0xC4)

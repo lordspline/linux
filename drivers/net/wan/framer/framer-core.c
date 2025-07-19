@@ -7,16 +7,16 @@
  * Author: Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/device.h>
-#include <linux/framer/framer.h>
-#include <linux/framer/framer-provider.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/framer/framer.h>
+#include <peenux/framer/framer-provider.h>
+#include <peenux/idr.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 static void framer_release(struct device *dev);
 static const struct class framer_class = {

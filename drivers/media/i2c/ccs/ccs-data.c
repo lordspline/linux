@@ -5,12 +5,12 @@
  * Copyright 2019--2020 Intel Corporation
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/limits.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/limits.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include "ccs-data-defs.h"
 

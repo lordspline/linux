@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 #define pr_fmt(fmt) "SMP alternatives: " fmt
 
-#include <linux/mmu_context.h>
-#include <linux/perf_event.h>
-#include <linux/vmalloc.h>
-#include <linux/memory.h>
-#include <linux/execmem.h>
+#include <peenux/mmu_context.h>
+#include <peenux/perf_event.h>
+#include <peenux/vmalloc.h>
+#include <peenux/memory.h>
+#include <peenux/execmem.h>
 
 #include <asm/text-patching.h>
 #include <asm/insn.h>

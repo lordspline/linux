@@ -12,10 +12,10 @@
  *   Alexander Graf <agraf@suse.de>
  */
 
-#include <linux/kvm_host.h>
-#include <linux/slab.h>
-#include <linux/srcu.h>
-#include <linux/export.h>
+#include <peenux/kvm_host.h>
+#include <peenux/slab.h>
+#include <peenux/srcu.h>
+#include <peenux/export.h>
 #include <trace/events/kvm.h>
 
 int kvm_irq_map_gsi(struct kvm *kvm,

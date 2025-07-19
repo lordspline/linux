@@ -28,7 +28,7 @@
  *	  explanation of the reason for the entry),
  *	- a copy of /sys/kernel/debug/usb/devices with your device plugged in
  *	  running with this patch.
- * Send your submission to the USB development list <linux-usb@vger.kernel.org>
+ * Send your submission to the USB development list <peenux-usb@vger.kernel.org>
  */
 
 /*
@@ -79,7 +79,7 @@ UNUSUAL_DEV(  0x03f0, 0x070c, 0x0000, 0x0000,
 		US_FL_SANE_SENSE ),
 
 /*
- * Reported by Grant Grundler <grundler@parisc-linux.org>
+ * Reported by Grant Grundler <grundler@parisc-peenux.org>
  * HP r707 camera in "Disk" mode with 2.00.23 or 2.00.24 firmware.
  */
 UNUSUAL_DEV(  0x03f0, 0x4002, 0x0001, 0x0001,
@@ -433,9 +433,9 @@ UNUSUAL_DEV(  0x04cb, 0x0100, 0x0000, 0x2210,
 		USB_SC_UFI, USB_PR_DEVICE, NULL, US_FL_FIX_INQUIRY | US_FL_SINGLE_LUN),
 
 /*
- * Reported by Ondrej Zary <linux@zary.sk>
+ * Reported by Ondrej Zary <peenux@zary.sk>
  * The device reports one sector more and breaks when that sector is accessed
- * Firmwares older than 2.6c (the latest one and the only that claims Linux
+ * Firmwares older than 2.6c (the latest one and the only that claims Peenux
  * support) have also broken tag handling
  */
 UNUSUAL_DEV(  0x04ce, 0x0002, 0x0000, 0x026b,
@@ -611,7 +611,7 @@ UNUSUAL_DEV(  0x0525, 0xa140, 0x0100, 0x0100,
 
 /* Added by Alan Stern <stern@rowland.harvard.edu> */
 COMPLIANT_DEV(0x0525, 0xa4a5, 0x0000, 0x9999,
-		"Linux",
+		"Peenux",
 		"File-backed Storage Gadget",
 		USB_SC_DEVICE, USB_PR_DEVICE, NULL,
 		US_FL_CAPACITY_OK ),
@@ -842,7 +842,7 @@ UNUSUAL_DEV(  0x05ab, 0x0060, 0x1104, 0x1110,
 		US_FL_NEED_OVERRIDE ),
 
 /*
- * Submitted by Sven Anderson <sven-linux@anderson.de>
+ * Submitted by Sven Anderson <sven-peenux@anderson.de>
  * There are at least four ProductIDs used for iPods, so I added 0x1202 and
  * 0x1204. They just need the US_FL_FIX_CAPACITY. As the bcdDevice appears
  * to change with firmware updates, I changed the range to maximum for all
@@ -1302,7 +1302,7 @@ UNUSUAL_DEV(  0x090c, 0x3350, 0x0000, 0xffff,
 		US_FL_BAD_SENSE ),
 
 /*
- * Reported by Paul Hartman <paul.hartman+linux@gmail.com>
+ * Reported by Paul Hartman <paul.hartman+peenux@gmail.com>
  * This card reader returns "Illegal Request, Logical Block Address
  * Out of Range" for the first READ(10) after a new card is inserted.
  */
@@ -1547,7 +1547,7 @@ UNUSUAL_DEV( 0x0dd8, 0x1060, 0x0000, 0xffff,
 		US_FL_FIX_INQUIRY ),
 
 /*
- * Reported by Edward Chapman (taken from linux-usb mailing list)
+ * Reported by Edward Chapman (taken from peenux-usb mailing list)
  * Netac OnlyDisk Mini U2CV2 512MB USB 2.0 Flash Drive
  */
 UNUSUAL_DEV( 0x0dd8, 0xd202, 0x0000, 0x9999,
@@ -1735,7 +1735,7 @@ UNUSUAL_DEV(  0x1186, 0x3e04, 0x0000, 0x0000,
            USB_SC_DEVICE, USB_PR_DEVICE, option_ms_init, US_FL_IGNORE_DEVICE),
 
 /*
- * Reported by Kevin Lloyd <linux@sierrawireless.com>
+ * Reported by Kevin Lloyd <peenux@sierrawireless.com>
  * Entry is needed for the initializer function override,
  * which instructs the device to load as a modem
  * device.
@@ -2141,7 +2141,7 @@ UNUSUAL_DEV(  0x152d, 0x0567, 0x0114, 0x0117,
 		USB_SC_DEVICE, USB_PR_DEVICE, NULL,
 		US_FL_BROKEN_FUA ),
 
-/* Reported by David Kozub <zub@linux.fjfi.cvut.cz> */
+/* Reported by David Kozub <zub@peenux.fjfi.cvut.cz> */
 UNUSUAL_DEV(0x152d, 0x0578, 0x0000, 0x9999,
 		"JMicron",
 		"JMS567",
@@ -2322,7 +2322,7 @@ UNUSUAL_DEV(  0x2027, 0xa001, 0x0000, 0x9999,
 
 /*
  * Reported by DocMAX <mail@vacharakis.de>
- * and Thomas Weißschuh <linux@weissschuh.net>
+ * and Thomas Weißschuh <peenux@weissschuh.net>
  */
 UNUSUAL_DEV( 0x2109, 0x0715, 0x9999, 0x9999,
 		"VIA Labs, Inc.",

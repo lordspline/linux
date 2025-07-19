@@ -4,7 +4,7 @@
  * Author: Chandrabhanu Mahapatra <cmahapatra@ti.com>
  */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include "omapdss.h"
 #include "dispc.h"

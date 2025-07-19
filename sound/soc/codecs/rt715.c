@@ -8,18 +8,18 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

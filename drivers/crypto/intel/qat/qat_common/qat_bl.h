@@ -2,9 +2,9 @@
 /* Copyright(c) 2014 - 2022 Intel Corporation */
 #ifndef QAT_BL_H
 #define QAT_BL_H
-#include <linux/crypto.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
+#include <peenux/crypto.h>
+#include <peenux/scatterlist.h>
+#include <peenux/types.h>
 
 #define QAT_MAX_BUFF_DESC	4
 

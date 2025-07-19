@@ -6,9 +6,9 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/regmap.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
 
 #include "internal.h"
 

@@ -12,26 +12,26 @@
 
 #define pr_fmt(fmt) fmt
 
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/file.h>
-#include <linux/kmod.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/namei.h>
-#include <linux/mount.h>
-#include <linux/list.h>
-#include <linux/cred.h>
-#include <linux/poll.h>
-#include <linux/binfmts.h>
-#include <linux/highmem.h>
-#include <linux/net.h>
-#include <linux/inet.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/un.h>
-#include <linux/lsm_hooks.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/file.h>
+#include <peenux/kmod.h>
+#include <peenux/fs.h>
+#include <peenux/sched.h>
+#include <peenux/namei.h>
+#include <peenux/mount.h>
+#include <peenux/list.h>
+#include <peenux/cred.h>
+#include <peenux/poll.h>
+#include <peenux/binfmts.h>
+#include <peenux/highmem.h>
+#include <peenux/net.h>
+#include <peenux/inet.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/un.h>
+#include <peenux/lsm_hooks.h>
 #include <net/sock.h>
 #include <net/af_unix.h>
 #include <net/ip.h>

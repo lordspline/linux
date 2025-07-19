@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0 OR MIT
 /* Copyright (C) 2024 Pawel Dembicki <paweldembicki@gmail.com>
  */
-#include <linux/dsa/8021q.h>
+#include <peenux/dsa/8021q.h>
 
 #include "tag.h"
 #include "tag_8021q.h"

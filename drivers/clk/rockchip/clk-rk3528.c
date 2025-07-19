@@ -5,14 +5,14 @@
  * Author: Joseph Chen <chenjh@rock-chips.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/minmax.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/minmax.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/clock/rockchip,rk3528-cru.h>
 

@@ -3,21 +3,21 @@
 * Copyright (C) 2015 Broadcom Corporation
 *
 */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/keyboard.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/keyboard.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 #include <asm/irq.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/serio.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/serio.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
 
 #define IPROC_TS_NAME "iproc-ts"
 

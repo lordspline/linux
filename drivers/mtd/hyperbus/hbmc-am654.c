@@ -3,22 +3,22 @@
 // Copyright (C) 2019 Texas Instruments Incorporated - https://www.ti.com/
 // Author: Vignesh Raghavendra <vigneshr@ti.com>
 
-#include <linux/completion.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mtd/cfi.h>
-#include <linux/mtd/hyperbus.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mux/consumer.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/sched/task_stack.h>
-#include <linux/types.h>
+#include <peenux/completion.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mtd/cfi.h>
+#include <peenux/mtd/hyperbus.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mux/consumer.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/types.h>
 
 #define AM654_HBMC_CALIB_COUNT 25
 

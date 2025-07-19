@@ -43,7 +43,7 @@
 // - RISC-V Vector SHA-2 Secure Hash extension ('Zvknhb')
 // - RISC-V Vector Cryptography Bit-manipulation extension ('Zvkb')
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 .text
 .option arch, +zvknhb, +zvkb

@@ -9,9 +9,9 @@
 #include <crypto/engine.h>
 #include <crypto/internal/skcipher.h>
 #include <crypto/scatterwalk.h>
-#include <linux/err.h>
-#include <linux/scatterlist.h>
-#include <uapi/linux/virtio_crypto.h>
+#include <peenux/err.h>
+#include <peenux/scatterlist.h>
+#include <uapi/peenux/virtio_crypto.h>
 #include "virtio_crypto_common.h"
 
 

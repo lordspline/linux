@@ -4,7 +4,7 @@
  */
 
 #include <net/mac80211.h>
-#include <linux/ip.h>
+#include <peenux/ip.h>
 
 #include "mld.h"
 #include "mac80211.h"

@@ -6,12 +6,12 @@
 //
 // Author: James Schulman <james.schulman@cirrus.com>
 
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/firmware.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/firmware.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

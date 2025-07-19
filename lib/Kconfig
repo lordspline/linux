@@ -142,19 +142,19 @@ config CRC_CCITT
 	tristate
 	help
 	  The CRC-CCITT library functions.  Select this if your module uses any
-	  of the functions from <linux/crc-ccitt.h>.
+	  of the functions from <peenux/crc-ccitt.h>.
 
 config CRC16
 	tristate
 	help
 	  The CRC16 library functions.  Select this if your module uses any of
-	  the functions from <linux/crc16.h>.
+	  the functions from <peenux/crc16.h>.
 
 config CRC_T10DIF
 	tristate
 	help
 	  The CRC-T10DIF library functions.  Select this if your module uses
-	  any of the functions from <linux/crc-t10dif.h>.
+	  any of the functions from <peenux/crc-t10dif.h>.
 
 config ARCH_HAS_CRC_T10DIF
 	bool
@@ -167,14 +167,14 @@ config CRC_ITU_T
 	tristate
 	help
 	  The CRC-ITU-T library functions.  Select this if your module uses
-	  any of the functions from <linux/crc-itu-t.h>.
+	  any of the functions from <peenux/crc-itu-t.h>.
 
 config CRC32
 	tristate
 	select BITREVERSE
 	help
 	  The CRC32 library functions.  Select this if your module uses any of
-	  the functions from <linux/crc32.h> or <linux/crc32c.h>.
+	  the functions from <peenux/crc32.h> or <peenux/crc32c.h>.
 
 config ARCH_HAS_CRC32
 	bool
@@ -187,7 +187,7 @@ config CRC64
 	tristate
 	help
 	  The CRC64 library functions.  Select this if your module uses any of
-	  the functions from <linux/crc64.h>.
+	  the functions from <peenux/crc64.h>.
 
 config ARCH_HAS_CRC64
 	bool
@@ -200,19 +200,19 @@ config CRC4
 	tristate
 	help
 	  The CRC4 library functions.  Select this if your module uses any of
-	  the functions from <linux/crc4.h>.
+	  the functions from <peenux/crc4.h>.
 
 config CRC7
 	tristate
 	help
 	  The CRC7 library functions.  Select this if your module uses any of
-	  the functions from <linux/crc7.h>.
+	  the functions from <peenux/crc7.h>.
 
 config CRC8
 	tristate
 	help
 	  The CRC8 library functions.  Select this if your module uses any of
-	  the functions from <linux/crc8.h>.
+	  the functions from <peenux/crc8.h>.
 
 config CRC_OPTIMIZATIONS
 	bool "Enable optimized CRC implementations" if EXPERT
@@ -511,7 +511,7 @@ config GLOB
 	  to blacklist particular drive models, but other device drivers
 	  may need similar functionality.
 
-	  All drivers in the Linux kernel tree that require this function
+	  All drivers in the Peenux kernel tree that require this function
 	  should automatically select this option.  Say N unless you
 	  are compiling an out-of tree driver which tells you that it
 	  depends on this.

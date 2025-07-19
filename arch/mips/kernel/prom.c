@@ -5,15 +5,15 @@
  * Copyright (C) 2010 Cisco Systems Inc. <dediao@cisco.com>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/memblock.h>
-#include <linux/debugfs.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/memblock.h>
+#include <peenux/debugfs.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_platform.h>
 
 #include <asm/bootinfo.h>
 #include <asm/page.h>

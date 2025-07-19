@@ -3,14 +3,14 @@
  * Copyright (c) 2017 Sebastian Reichel <sre@kernel.org>
  */
 
-#include <linux/leds.h>
-#include <linux/mfd/motorola-cpcap.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/leds.h>
+#include <peenux/mfd/motorola-cpcap.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
 #define CPCAP_LED_NO_CURRENT 0x0001
 

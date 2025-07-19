@@ -3,7 +3,7 @@
  * Copyright (C) 2022-2024 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
  */
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #include <tools/le_byteshift.h>
 #include <sys/random.h>
 #include <sys/auxv.h>

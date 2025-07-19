@@ -3,13 +3,13 @@
  * comedi_pci.c
  * Comedi PCI driver specific functions.
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Peenux Control and Measurement Device Interface
  * Copyright (C) 1997-2000 David A. Schleef <ds@schleef.org>
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/comedi/comedi_pci.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/comedi/comedi_pci.h>
 
 /**
  * comedi_to_pci_dev() - Return PCI device attached to COMEDI device

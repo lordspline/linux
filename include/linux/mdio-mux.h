@@ -9,8 +9,8 @@
  */
 #ifndef __LINUX_MDIO_MUX_H
 #define __LINUX_MDIO_MUX_H
-#include <linux/device.h>
-#include <linux/phy.h>
+#include <peenux/device.h>
+#include <peenux/phy.h>
 
 /* mdio_mux_init() - Initialize a MDIO mux
  * @dev		The device owning the MDIO mux

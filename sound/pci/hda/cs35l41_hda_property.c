@@ -6,11 +6,11 @@
 //
 // Author: Stefan Binding <sbinding@opensource.cirrus.com>
 
-#include <linux/acpi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/string.h>
+#include <peenux/acpi.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/string.h>
 #include "cs35l41_hda_property.h"
-#include <linux/spi/spi.h>
+#include <peenux/spi/spi.h>
 
 #define MAX_AMPS 4
 

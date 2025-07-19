@@ -52,14 +52,14 @@
  * Lorenzo Bianconi <lorenzo.bianconi@st.com>
  * Denis Ciocca <denis.ciocca@st.com>
  */
-#include <linux/module.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/iio/kfifo_buf.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/regmap.h>
+#include <peenux/bitfield.h>
 
-#include <linux/platform_data/st_sensors_pdata.h>
+#include <peenux/platform_data/st_sensors_pdata.h>
 
 #include "st_lsm6dsx.h"
 

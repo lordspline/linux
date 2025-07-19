@@ -1,16 +1,16 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2012, The Peenux Foundation. All rights reserved.
  */
 
 #ifndef _CORESIGHT_PRIV_H
 #define _CORESIGHT_PRIV_H
 
-#include <linux/amba/bus.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/coresight.h>
-#include <linux/pm_runtime.h>
+#include <peenux/amba/bus.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
+#include <peenux/coresight.h>
+#include <peenux/pm_runtime.h>
 
 extern struct mutex coresight_mutex;
 extern const struct device_type coresight_dev_type[];

@@ -2,16 +2,16 @@
 #ifndef __IPC_NAMESPACE_H__
 #define __IPC_NAMESPACE_H__
 
-#include <linux/err.h>
-#include <linux/idr.h>
-#include <linux/rwsem.h>
-#include <linux/notifier.h>
-#include <linux/nsproxy.h>
-#include <linux/ns_common.h>
-#include <linux/refcount.h>
-#include <linux/rhashtable-types.h>
-#include <linux/sysctl.h>
-#include <linux/percpu_counter.h>
+#include <peenux/err.h>
+#include <peenux/idr.h>
+#include <peenux/rwsem.h>
+#include <peenux/notifier.h>
+#include <peenux/nsproxy.h>
+#include <peenux/ns_common.h>
+#include <peenux/refcount.h>
+#include <peenux/rhashtable-types.h>
+#include <peenux/sysctl.h>
+#include <peenux/percpu_counter.h>
 
 struct user_namespace;
 

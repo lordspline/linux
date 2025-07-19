@@ -6,13 +6,13 @@
  * This file is released under the GPLv2.
  */
 
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/device-mapper.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/moduleparam.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/device-mapper.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/moduleparam.h>
 
 #define DM_MSG_PREFIX "init"
 #define DM_MAX_DEVICES 256

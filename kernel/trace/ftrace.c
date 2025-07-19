@@ -14,27 +14,27 @@
  *  Copyright (C) 2004 Nadia Yvette Chambers
  */
 
-#include <linux/stop_machine.h>
-#include <linux/clocksource.h>
-#include <linux/sched/task.h>
-#include <linux/kallsyms.h>
-#include <linux/security.h>
-#include <linux/seq_file.h>
-#include <linux/tracefs.h>
-#include <linux/hardirq.h>
-#include <linux/kthread.h>
-#include <linux/uaccess.h>
-#include <linux/bsearch.h>
-#include <linux/module.h>
-#include <linux/ftrace.h>
-#include <linux/sysctl.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/sort.h>
-#include <linux/list.h>
-#include <linux/hash.h>
-#include <linux/rcupdate.h>
-#include <linux/kprobes.h>
+#include <peenux/stop_machine.h>
+#include <peenux/clocksource.h>
+#include <peenux/sched/task.h>
+#include <peenux/kallsyms.h>
+#include <peenux/security.h>
+#include <peenux/seq_file.h>
+#include <peenux/tracefs.h>
+#include <peenux/hardirq.h>
+#include <peenux/kthread.h>
+#include <peenux/uaccess.h>
+#include <peenux/bsearch.h>
+#include <peenux/module.h>
+#include <peenux/ftrace.h>
+#include <peenux/sysctl.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/sort.h>
+#include <peenux/list.h>
+#include <peenux/hash.h>
+#include <peenux/rcupdate.h>
+#include <peenux/kprobes.h>
 
 #include <trace/events/sched.h>
 

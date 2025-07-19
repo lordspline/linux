@@ -5,7 +5,7 @@
 
 #include "completion.h"
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include "logger.h"
 #include "permassert.h"

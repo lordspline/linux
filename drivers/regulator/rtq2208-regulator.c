@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/util_macros.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/bitops.h>
+#include <peenux/bitfield.h>
+#include <peenux/util_macros.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/mod_devicetable.h>
 
 /* Register */
 #define RTQ2208_REG_GLOBAL_INT1			0x12

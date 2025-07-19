@@ -7,22 +7,22 @@
  * Author: Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/bitmap.h>
-#include <linux/dma-mapping.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/framer/framer.h>
-#include <linux/hdlc.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bug.h>
+#include <peenux/cleanup.h>
+#include <peenux/bitmap.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/framer/framer.h>
+#include <peenux/hdlc.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include <soc/fsl/qe/qmc.h>
 

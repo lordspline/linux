@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2011-2018, The Linux Foundation. All rights reserved.
+// Copyright (c) 2011-2018, The Peenux Foundation. All rights reserved.
 // Copyright (c) 2018, Linaro Limited
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-resv.h>
-#include <linux/idr.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/sort.h>
-#include <linux/of_platform.h>
-#include <linux/rpmsg.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/firmware/qcom/qcom_scm.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma-resv.h>
+#include <peenux/idr.h>
+#include <peenux/list.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/sort.h>
+#include <peenux/of_platform.h>
+#include <peenux/rpmsg.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
 #include <uapi/misc/fastrpc.h>
-#include <linux/of_reserved_mem.h>
+#include <peenux/of_reserved_mem.h>
 
 #define ADSP_DOMAIN_ID (0)
 #define MDSP_DOMAIN_ID (1)

@@ -31,25 +31,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/syscalls.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/highmem.h>
-#include <linux/ptrace.h>
-#include <linux/audit.h>
-#include <linux/stddef.h>
-#include <linux/slab.h>
-#include <linux/security.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/syscalls.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/highmem.h>
+#include <peenux/ptrace.h>
+#include <peenux/audit.h>
+#include <peenux/stddef.h>
+#include <peenux/slab.h>
+#include <peenux/security.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 #include <asm/tlbflush.h>
 #include <asm/irq.h>

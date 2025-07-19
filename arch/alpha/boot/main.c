@@ -4,18 +4,18 @@
  *
  * Copyright (C) 1994, 1995 Linus Torvalds
  *
- * This file is the bootloader for the Linux/AXP kernel
+ * This file is the bootloader for the Peenux/AXP kernel
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include <generated/utsrelease.h>
-#include <linux/mm.h>
+#include <peenux/mm.h>
 
 #include <asm/console.h>
 #include <asm/hwrpb.h>
 
-#include <linux/stdarg.h>
+#include <peenux/stdarg.h>
 
 #include "ksize.h"
 
@@ -155,7 +155,7 @@ void start_kernel(void)
 	int nbytes;
 	char envval[256];
 
-	srm_printk("Linux/AXP bootloader for Linux " UTS_RELEASE "\n");
+	srm_printk("Peenux/AXP bootloader for Peenux " UTS_RELEASE "\n");
 	if (INIT_HWRPB->pagesize != 8192) {
 		srm_printk("Expected 8kB pages, got %ldkB\n", INIT_HWRPB->pagesize >> 10);
 		return;

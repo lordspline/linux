@@ -5,7 +5,7 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/swap.h>
+#include <peenux/swap.h>
 #include "internal.h"
 
 /**

@@ -10,7 +10,7 @@
 #ifndef __RZG2L_DU_KMS_H__
 #define __RZG2L_DU_KMS_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct dma_buf_attachment;
 struct drm_file;

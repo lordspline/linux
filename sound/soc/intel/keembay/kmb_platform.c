@@ -5,12 +5,12 @@
 // Intel KeemBay Platform driver.
 //
 
-#include <linux/bitrev.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/bitrev.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

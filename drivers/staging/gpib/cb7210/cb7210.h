@@ -8,8 +8,8 @@
 #include "gpibP.h"
 #include "amccs5933.h"
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
 
 enum {
 	PCI_DEVICE_ID_CBOARDS_PCI_GPIB = 0x6,

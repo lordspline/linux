@@ -3,7 +3,7 @@
  * Copyright © 2024 Intel Corporation
  */
 
-#include <linux/cleanup.h>
+#include <peenux/cleanup.h>
 #include <drm/drm_managed.h>
 
 #include "xe_assert.h"

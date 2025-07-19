@@ -11,9 +11,9 @@
 #define _LINUX_MUX_DRIVER_H
 
 #include <dt-bindings/mux/mux.h>
-#include <linux/device.h>
-#include <linux/ktime.h>
-#include <linux/semaphore.h>
+#include <peenux/device.h>
+#include <peenux/ktime.h>
+#include <peenux/semaphore.h>
 
 struct mux_chip;
 struct mux_control;

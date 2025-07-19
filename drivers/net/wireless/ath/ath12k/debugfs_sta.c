@@ -3,7 +3,7 @@
  * Copyright (c) 2024-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/vmalloc.h>
+#include <peenux/vmalloc.h>
 
 #include "debugfs_sta.h"
 #include "core.h"

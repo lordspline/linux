@@ -14,8 +14,8 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
+#include <peenux/unaligned.h>
+#include <peenux/kernel.h>
 #include "hw.h"
 #include "ar9003_phy.h"
 #include "ar9003_eeprom.h"

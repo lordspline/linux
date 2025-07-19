@@ -4,11 +4,11 @@
  * Author: Christoffer Dall <christoffer.dall@linaro.org>
  */
 
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/kvm_host.h>
-#include <linux/seq_file.h>
+#include <peenux/cpu.h>
+#include <peenux/debugfs.h>
+#include <peenux/interrupt.h>
+#include <peenux/kvm_host.h>
+#include <peenux/seq_file.h>
 #include <kvm/arm_vgic.h>
 #include <asm/kvm_mmu.h>
 #include "vgic.h"

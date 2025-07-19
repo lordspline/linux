@@ -7,8 +7,8 @@
  * Copyright 2011-2012 Freescale Semiconductor Inc.
  */
 
-#include <linux/of.h>
-#include <linux/pci.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
 #include <asm/mpic.h>
 #include <sysdev/fsl_soc.h>
 #include <asm/udbg.h>

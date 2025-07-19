@@ -69,27 +69,27 @@
 
 		power-key {
 			label = "Power";
-			linux,code = <KEY_POWER>;
+			peenux,code = <KEY_POWER>;
 			gpios = <&gpa2 4 GPIO_ACTIVE_LOW>;
 			wakeup-source;
 		};
 
 		voldown-key {
 			label = "Volume Down";
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 			gpios = <&gpa0 4 GPIO_ACTIVE_LOW>;
 		};
 
 		volup-key {
 			label = "Volume Up";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			gpios = <&gpa0 3 GPIO_ACTIVE_LOW>;
 		};
 
 		/* Typically used for Bixby. Map it as a camera button for now */
 		wink-key {
 			label = "Camera";
-			linux,code = <KEY_CAMERA>;
+			peenux,code = <KEY_CAMERA>;
 			gpios = <&gpa0 6 GPIO_ACTIVE_LOW>;
 			wakeup-source;
 		};

@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2016 Linaro Ltd
  * Copyright (C) 2015 Sony Mobile Communications Inc
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/elf.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/mdt_loader.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/elf.h>
+#include <peenux/firmware.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/soc/qcom/mdt_loader.h>
 
 static bool mdt_phdr_valid(const struct elf32_phdr *phdr)
 {

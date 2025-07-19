@@ -4,17 +4,17 @@
  */
 
 /*
- * Sun keyboard driver for Linux
+ * Sun keyboard driver for Peenux
  */
 
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/serio.h>
+#include <peenux/workqueue.h>
 
 #define DRIVER_DESC	"Sun keyboard driver"
 

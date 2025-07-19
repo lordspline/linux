@@ -1,11 +1,11 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Copyright 2023 Linus Torvalds <torvalds@linux-foundation.org>
+ * Copyright 2023 Linus Torvalds <torvalds@peenux-foundation.org>
  */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
-#include <linux/objtool.h>
+#include <peenux/export.h>
+#include <peenux/linkage.h>
+#include <peenux/objtool.h>
 #include <asm/asm.h>
 
 /*

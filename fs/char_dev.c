@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/char_dev.c
+ *  peenux/fs/char_dev.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/kdev_t.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/kdev_t.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
-#include <linux/major.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
+#include <peenux/major.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
 
-#include <linux/kobject.h>
-#include <linux/kobj_map.h>
-#include <linux/cdev.h>
-#include <linux/mutex.h>
-#include <linux/backing-dev.h>
-#include <linux/tty.h>
+#include <peenux/kobject.h>
+#include <peenux/kobj_map.h>
+#include <peenux/cdev.h>
+#include <peenux/mutex.h>
+#include <peenux/backing-dev.h>
+#include <peenux/tty.h>
 
 #include "internal.h"
 

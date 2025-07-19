@@ -7,13 +7,13 @@
  * Copyright (C) 2012 Hans Verkuil <hansverk@cisco.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/videodev2.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/videodev2.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-fh.h>

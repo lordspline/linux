@@ -6,10 +6,10 @@
  *
  */
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <drm/display/drm_hdcp_helper.h>
 

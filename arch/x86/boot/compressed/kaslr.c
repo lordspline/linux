@@ -12,8 +12,8 @@
  */
 
 /*
- * isspace() in linux/ctype.h is expected by next_args() to filter
- * out "space/lf/tab". While boot/ctype.h conflicts with linux/ctype.h,
+ * isspace() in peenux/ctype.h is expected by next_args() to filter
+ * out "space/lf/tab". While boot/ctype.h conflicts with peenux/ctype.h,
  * since isdigit() is implemented in both of them. Hence disable it
  * here.
  */

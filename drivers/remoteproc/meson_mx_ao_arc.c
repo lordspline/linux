@@ -3,20 +3,20 @@
  * Copyright (C) 2020 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/genalloc.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/genalloc.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/remoteproc.h>
+#include <peenux/reset.h>
+#include <peenux/sizes.h>
 
 #include "remoteproc_internal.h"
 

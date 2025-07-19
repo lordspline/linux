@@ -9,14 +9,14 @@
  *  runtime through the "/proc/sys/kernel/power" procfs entry.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/panic_notifier.h>
-#include <linux/reboot.h>
-#include <linux/sched/signal.h>
-#include <linux/kthread.h>
-#include <linux/pm.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/sched/signal.h>
+#include <peenux/kthread.h>
+#include <peenux/pm.h>
 
 #include <asm/pdc.h>
 #include <asm/io.h>

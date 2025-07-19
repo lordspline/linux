@@ -5,20 +5,20 @@
  *  Copyright (C) 2002 by Ron Minnich <rminnich@lanl.gov>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/pagemap.h>
-#include <linux/mount.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/statfs.h>
-#include <linux/magic.h>
-#include <linux/fscache.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/stat.h>
+#include <peenux/string.h>
+#include <peenux/pagemap.h>
+#include <peenux/mount.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/statfs.h>
+#include <peenux/magic.h>
+#include <peenux/fscache.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 

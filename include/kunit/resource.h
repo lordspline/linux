@@ -11,10 +11,10 @@
 
 #include <kunit/test.h>
 
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 struct kunit_resource;
 

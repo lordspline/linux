@@ -4,12 +4,12 @@
  * Author: Cosmin Tanislav <cosmin.tanislav@analog.com>
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #include "adxl367.h"
 

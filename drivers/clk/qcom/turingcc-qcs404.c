@@ -3,15 +3,15 @@
  * Copyright (c) 2019, Linaro Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/qcom,turingcc-qcs404.h>
 

@@ -2,7 +2,7 @@
 #ifndef __NET_NETDEV_NETLINK_H
 #define __NET_NETDEV_NETLINK_H
 
-#include <linux/list.h>
+#include <peenux/list.h>
 
 struct netdev_nl_sock {
 	struct mutex lock;

@@ -5,19 +5,19 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/map_benchmark.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/timekeeping.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/map_benchmark.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/timekeeping.h>
 
 struct map_benchmark_data {
 	struct map_benchmark bparam;

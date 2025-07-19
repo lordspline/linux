@@ -6,17 +6,17 @@
  * Copyright (c) 2003 Open Source Development Lab
  */
 
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/pm-trace.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/suspend.h>
-#include <linux/syscalls.h>
-#include <linux/pm_runtime.h>
+#include <peenux/acpi.h>
+#include <peenux/export.h>
+#include <peenux/kobject.h>
+#include <peenux/string.h>
+#include <peenux/pm-trace.h>
+#include <peenux/workqueue.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/suspend.h>
+#include <peenux/syscalls.h>
+#include <peenux/pm_runtime.h>
 
 #include "power.h"
 

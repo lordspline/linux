@@ -6,17 +6,17 @@
  * Based on a rewrite of arch/arm/mach-ep93xx/timer.c:
  */
 
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
+#include <peenux/clockchips.h>
+#include <peenux/clocksource.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/sched_clock.h>
 
 #include <asm/mach/time.h>
 

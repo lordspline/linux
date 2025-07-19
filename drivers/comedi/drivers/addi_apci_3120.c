@@ -12,9 +12,9 @@
  *	info@addi-data.com
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/comedi/comedi_pci.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/comedi/comedi_pci.h>
 
 #include "amcc_s5933.h"
 

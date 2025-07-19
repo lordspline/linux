@@ -8,16 +8,16 @@
  * Steffen Klassert <steffen.klassert@secunet.com>
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 #include <net/dst.h>
 #include <net/gso.h>
 #include <net/xfrm.h>
-#include <linux/notifier.h>
+#include <peenux/notifier.h>
 
 #ifdef CONFIG_XFRM_OFFLOAD
 static void __xfrm_transport_prep(struct xfrm_state *x, struct sk_buff *skb,

@@ -21,8 +21,8 @@
 #include <sys/time.h>
 #include <sys/eventfd.h>
 #include <asm/unistd.h>
-#include <linux/perf_event.h>
-#include <linux/compiler.h>
+#include <peenux/perf_event.h>
+#include <peenux/compiler.h>
 #include "../kselftest.h"
 
 #define MB			(1024 * 1024)

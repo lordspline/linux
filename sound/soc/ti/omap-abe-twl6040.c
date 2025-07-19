@@ -6,11 +6,11 @@
  * Author: Misael Lopez Cruz <misael.lopez@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/twl6040.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/twl6040.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

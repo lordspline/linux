@@ -11,13 +11,13 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/fips.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/random.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/fips.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/random.h>
 #include "cifs_fs_sb.h"
 #include "cifs_unicode.h"
 #include "cifspdu.h"

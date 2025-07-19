@@ -6,22 +6,22 @@
  *	Tero Kristo <t-kristo@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_domain.h>
-#include <linux/reset-controller.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_domain.h>
+#include <peenux/reset-controller.h>
+#include <peenux/delay.h>
 #if IS_ENABLED(CONFIG_SUSPEND)
-#include <linux/suspend.h>
+#include <peenux/suspend.h>
 #endif
-#include <linux/platform_data/ti-prm.h>
+#include <peenux/platform_data/ti-prm.h>
 
 enum omap_prm_domain_mode {
 	OMAP_PRMD_OFF,

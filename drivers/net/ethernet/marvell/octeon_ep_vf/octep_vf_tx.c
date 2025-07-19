@@ -5,9 +5,9 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
-#include <linux/vmalloc.h>
+#include <peenux/pci.h>
+#include <peenux/etherdevice.h>
+#include <peenux/vmalloc.h>
 #include <net/netdev_queues.h>
 
 #include "octep_vf_config.h"

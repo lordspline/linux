@@ -7,9 +7,9 @@
  * Status accumulation and basic sense functions.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 
 #include <asm/ccwdev.h>
 #include <asm/cio.h>

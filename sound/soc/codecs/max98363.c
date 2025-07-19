@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (c) 2022, Analog Devices Inc.
 
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw_type.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/soundwire/sdw_type.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

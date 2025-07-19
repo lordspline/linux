@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2024 Intel Corporation */
 
-#include <linux/anon_inodes.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/file.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/vfio_pci_core.h>
-#include <linux/qat/qat_mig_dev.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/file.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/vfio_pci_core.h>
+#include <peenux/qat/qat_mig_dev.h>
 
 /*
  * The migration data of each Intel QAT VF device is encapsulated into a

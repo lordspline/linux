@@ -12,8 +12,8 @@
  * should return to the previous cred if it has not been modified.
  */
 
-#include <linux/gfp.h>
-#include <linux/ptrace.h>
+#include <peenux/gfp.h>
+#include <peenux/ptrace.h>
 
 #include "include/audit.h"
 #include "include/cred.h"

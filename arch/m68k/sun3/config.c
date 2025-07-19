@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/sun3/config.c
+ *  peenux/arch/m68k/sun3/config.c
  *
  *  Copyright (C) 1996,1997 Pekka Pietik{inen
  *
@@ -8,16 +8,16 @@
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/platform_device.h>
-#include <linux/linkage.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/seq_file.h>
+#include <peenux/tty.h>
+#include <peenux/console.h>
+#include <peenux/init.h>
+#include <peenux/memblock.h>
+#include <peenux/platform_device.h>
+#include <peenux/linkage.h>
 
 #include <asm/oplib.h>
 #include <asm/setup.h>

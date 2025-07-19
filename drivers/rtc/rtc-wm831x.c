@@ -8,19 +8,19 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/bcd.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/completion.h>
-#include <linux/mfd/wm831x/core.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/time.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
+#include <peenux/bcd.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioctl.h>
+#include <peenux/completion.h>
+#include <peenux/mfd/wm831x/core.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/random.h>
 
 /*
  * R16416 (0x4020) - RTC Write Counter

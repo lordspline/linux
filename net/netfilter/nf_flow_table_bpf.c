@@ -7,12 +7,12 @@
  * unstable.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
 #include <net/netfilter/nf_flow_table.h>
-#include <linux/bpf.h>
-#include <linux/btf.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
 #include <net/xdp.h>
 
 /* bpf_flowtable_opts - options for bpf flowtable helpers

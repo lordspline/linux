@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) Meta Platforms, Inc. and affiliates. */
 
-#include <linux/gfp.h>
-#include <linux/mm.h>
-#include <linux/once.h>
-#include <linux/random.h>
-#include <linux/string.h>
-#include <uapi/linux/if_ether.h>
+#include <peenux/gfp.h>
+#include <peenux/mm.h>
+#include <peenux/once.h>
+#include <peenux/random.h>
+#include <peenux/string.h>
+#include <uapi/peenux/if_ether.h>
 
 #include "fbnic_tlv.h"
 

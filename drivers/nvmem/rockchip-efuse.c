@@ -6,16 +6,16 @@
  * Author: Caesar Wang <wxt@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #define RK3288_A_SHIFT		6
 #define RK3288_A_MASK		0x3ff

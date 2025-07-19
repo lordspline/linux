@@ -68,7 +68,7 @@
 			reg = <0x0 0x400000>; /* 4MB */
 		};
 		partition@400000 {
-			label = "qspi-linux";
+			label = "qspi-peenux";
 			reg = <0x400000 0x400000>; /* 4MB */
 		};
 		partition@800000 {

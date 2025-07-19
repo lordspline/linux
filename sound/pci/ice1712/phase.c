@@ -28,11 +28,11 @@
  *   Digital receiver: CS8414-CS (supported in this release)
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
 
 #include <sound/core.h>
 

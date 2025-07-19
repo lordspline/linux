@@ -1,7 +1,7 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * This file describes the structure passed from the BootX application
- * (for MacOS) when it is used to boot Linux.
+ * (for MacOS) when it is used to boot Peenux.
  *
  * Written by Benjamin Herrenschmidt.
  */
@@ -10,7 +10,7 @@
 #ifndef _UAPI__ASM_BOOTX_H__
 #define _UAPI__ASM_BOOTX_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #ifdef macintosh
 #include <Types.h>

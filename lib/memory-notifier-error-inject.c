@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/memory.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/memory.h>
 
 #include "notifier-error-inject.h"
 

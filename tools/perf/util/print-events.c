@@ -10,9 +10,9 @@
 
 #include <api/fs/tracing_path.h>
 #include <api/io.h>
-#include <linux/stddef.h>
-#include <linux/perf_event.h>
-#include <linux/zalloc.h>
+#include <peenux/stddef.h>
+#include <peenux/perf_event.h>
+#include <peenux/zalloc.h>
 #include <subcmd/pager.h>
 
 #include "build-id.h"

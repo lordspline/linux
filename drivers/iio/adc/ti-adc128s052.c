@@ -9,14 +9,14 @@
  * https://www.ti.com/lit/ds/symlink/adc124s021.pdf
  */
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/iio/iio.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
 struct adc128_configuration {
 	const struct iio_chan_spec	*channels;

@@ -30,15 +30,15 @@
  * SOFTWARE.
  */
 
-#include <linux/dim.h>
+#include <peenux/dim.h>
 #include <net/tc_act/tc_gact.h>
-#include <linux/mlx5/fs.h>
+#include <peenux/mlx5/fs.h>
 #include <net/vxlan.h>
 #include <net/geneve.h>
-#include <linux/bpf.h>
-#include <linux/debugfs.h>
-#include <linux/if_bridge.h>
-#include <linux/filter.h>
+#include <peenux/bpf.h>
+#include <peenux/debugfs.h>
+#include <peenux/if_bridge.h>
+#include <peenux/filter.h>
 #include <net/netdev_lock.h>
 #include <net/netdev_queues.h>
 #include <net/page_pool/types.h>

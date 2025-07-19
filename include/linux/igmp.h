@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- *	Linux NET3:	Internet Group Management Protocol  [IGMP]
+ *	Peenux NET3:	Internet Group Management Protocol  [IGMP]
  *
  *	Authors:
  *		Alan Cox <alan@lxorguk.ukuu.org.uk>
@@ -10,13 +10,13 @@
 #ifndef _LINUX_IGMP_H
 #define _LINUX_IGMP_H
 
-#include <linux/skbuff.h>
-#include <linux/timer.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/refcount.h>
-#include <linux/sockptr.h>
-#include <uapi/linux/igmp.h>
+#include <peenux/skbuff.h>
+#include <peenux/timer.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/refcount.h>
+#include <peenux/sockptr.h>
+#include <uapi/peenux/igmp.h>
 
 static inline struct igmphdr *igmp_hdr(const struct sk_buff *skb)
 {

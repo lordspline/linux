@@ -3,13 +3,13 @@
  * Copyright (C) 2020 Nicolas Saenz Julienne <nsaenzjulienne@suse.de>
  */
 
-#include <linux/crc32.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/crc32.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 struct rmem {
 	struct device *dev;

@@ -7,9 +7,9 @@
 
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/bug.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/bug.h>
 #include "nonstdio.h"
 #include "ppc.h"
 

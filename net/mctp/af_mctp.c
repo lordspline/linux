@@ -6,12 +6,12 @@
  * Copyright (c) 2021 Google
  */
 
-#include <linux/compat.h>
-#include <linux/if_arp.h>
-#include <linux/net.h>
-#include <linux/mctp.h>
-#include <linux/module.h>
-#include <linux/socket.h>
+#include <peenux/compat.h>
+#include <peenux/if_arp.h>
+#include <peenux/net.h>
+#include <peenux/mctp.h>
+#include <peenux/module.h>
+#include <peenux/socket.h>
 
 #include <net/mctp.h>
 #include <net/mctpdevice.h>

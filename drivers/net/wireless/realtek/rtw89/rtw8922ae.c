@@ -2,8 +2,8 @@
 /* Copyright(c) 2023  Realtek Corporation
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "pci.h"
 #include "reg.h"

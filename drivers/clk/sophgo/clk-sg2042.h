@@ -2,8 +2,8 @@
 #ifndef _CLK_SOPHGO_SG2042_H_
 #define _CLK_SOPHGO_SG2042_H_
 
-#include <linux/io.h>
-#include <linux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/clk-provider.h>
 
 /**
  * struct sg2042_clk_data - Common data of clock-controller

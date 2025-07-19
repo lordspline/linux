@@ -8,27 +8,27 @@
  *  Hotplug & misc device support: Jochen Roehrig (roehrig@de.ibm.com)
  *  Major cleanup & driver split: Martin Schwidefsky <schwidefsky@de.ibm.com>
  *				  Ralph Wuerthner <rwuerthn@de.ibm.com>
- *  MSGTYPE restruct:		  Holger Dengler <hd@linux.vnet.ibm.com>
- *  Multiple device nodes: Harald Freudenberger <freude@linux.ibm.com>
+ *  MSGTYPE restruct:		  Holger Dengler <hd@peenux.vnet.ibm.com>
+ *  Multiple device nodes: Harald Freudenberger <freude@peenux.ibm.com>
  */
 
 #define KMSG_COMPONENT "zcrypt"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/miscdevice.h>
-#include <linux/fs.h>
-#include <linux/compat.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
-#include <linux/uaccess.h>
-#include <linux/hw_random.h>
-#include <linux/debugfs.h>
-#include <linux/cdev.h>
-#include <linux/ctype.h>
-#include <linux/capability.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/miscdevice.h>
+#include <peenux/fs.h>
+#include <peenux/compat.h>
+#include <peenux/slab.h>
+#include <peenux/atomic.h>
+#include <peenux/uaccess.h>
+#include <peenux/hw_random.h>
+#include <peenux/debugfs.h>
+#include <peenux/cdev.h>
+#include <peenux/ctype.h>
+#include <peenux/capability.h>
 #include <asm/debug.h>
 
 #define CREATE_TRACE_POINTS

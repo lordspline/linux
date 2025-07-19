@@ -11,12 +11,12 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/sun3x.h>
 #include <asm/dvma.h>

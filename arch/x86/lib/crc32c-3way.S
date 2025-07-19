@@ -13,7 +13,7 @@
  *	Wajdi Feghali <wajdi.k.feghali@intel.com>
  *	James Guilford <james.guilford@intel.com>
  *	David Cote <david.m.cote@intel.com>
- *	Tim Chen <tim.c.chen@linux.intel.com>
+ *	Tim Chen <tim.c.chen@peenux.intel.com>
  *
  * This software is available to you under a choice of one of two
  * licenses.  You may choose to be licensed under the terms of the GNU
@@ -44,7 +44,7 @@
  * SOFTWARE.
  */
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 ## ISCSI CRC 32 Implementation with crc32 and pclmulqdq Instruction
 

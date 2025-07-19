@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/net/sunrpc/sysctl.c
+ * peenux/net/sunrpc/sysctl.c
  *
  * Sysctl interface to sunrpc module.
  *
@@ -8,18 +8,18 @@
  * impossible at the moment.
  */
 
-#include <linux/types.h>
-#include <linux/linkage.h>
-#include <linux/ctype.h>
-#include <linux/fs.h>
-#include <linux/sysctl.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/linkage.h>
+#include <peenux/ctype.h>
+#include <peenux/fs.h>
+#include <peenux/sysctl.h>
+#include <peenux/module.h>
 
-#include <linux/uaccess.h>
-#include <linux/sunrpc/types.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/stats.h>
-#include <linux/sunrpc/svc_xprt.h>
+#include <peenux/uaccess.h>
+#include <peenux/sunrpc/types.h>
+#include <peenux/sunrpc/sched.h>
+#include <peenux/sunrpc/stats.h>
+#include <peenux/sunrpc/svc_xprt.h>
 
 #include "netns.h"
 

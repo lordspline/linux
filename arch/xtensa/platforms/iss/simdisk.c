@@ -9,16 +9,16 @@
  *   Authors	Victor Prupis
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/blkdev.h>
-#include <linux/bio.h>
-#include <linux/proc_fs.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
+#include <peenux/blkdev.h>
+#include <peenux/bio.h>
+#include <peenux/proc_fs.h>
+#include <peenux/uaccess.h>
 #include <platform/simcall.h>
 
 #define SIMDISK_MAJOR 240

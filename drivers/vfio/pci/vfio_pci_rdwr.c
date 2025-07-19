@@ -10,13 +10,13 @@
  * Author: Tom Lyon, pugs@cisco.com
  */
 
-#include <linux/fs.h>
-#include <linux/pci.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/vfio.h>
-#include <linux/vgaarb.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/fs.h>
+#include <peenux/pci.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/vfio.h>
+#include <peenux/vgaarb.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 
 #include "vfio_pci_priv.h"
 

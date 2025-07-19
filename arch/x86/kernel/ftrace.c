@@ -12,20 +12,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/spinlock.h>
-#include <linux/hardirq.h>
-#include <linux/uaccess.h>
-#include <linux/ftrace.h>
-#include <linux/percpu.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/memory.h>
-#include <linux/vmalloc.h>
-#include <linux/set_memory.h>
-#include <linux/execmem.h>
+#include <peenux/spinlock.h>
+#include <peenux/hardirq.h>
+#include <peenux/uaccess.h>
+#include <peenux/ftrace.h>
+#include <peenux/percpu.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/memory.h>
+#include <peenux/vmalloc.h>
+#include <peenux/set_memory.h>
+#include <peenux/execmem.h>
 
 #include <trace/syscall.h>
 

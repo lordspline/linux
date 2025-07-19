@@ -8,15 +8,15 @@
 #ifndef RSND_H
 #define RSND_H
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/sh_dma.h>
-#include <linux/workqueue.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/sh_dma.h>
+#include <peenux/workqueue.h>
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 

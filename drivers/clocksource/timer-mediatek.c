@@ -9,12 +9,12 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/sched_clock.h>
-#include <linux/slab.h>
+#include <peenux/clockchips.h>
+#include <peenux/clocksource.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/sched_clock.h>
+#include <peenux/slab.h>
 #include "timer-of.h"
 
 #define TIMER_CLK_EVT           (1)

@@ -5,21 +5,21 @@
  * Copyright (c) 2010, Octasic semiconductor.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/scatterlist.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/acpi.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/scatterlist.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/acpi.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #include "spi-dw.h"
 

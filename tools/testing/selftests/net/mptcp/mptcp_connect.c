@@ -30,9 +30,9 @@
 #include <netdb.h>
 #include <netinet/in.h>
 
-#include <linux/tcp.h>
-#include <linux/time_types.h>
-#include <linux/sockios.h>
+#include <peenux/tcp.h>
+#include <peenux/time_types.h>
+#include <peenux/sockios.h>
 
 extern int optind;
 

@@ -5,9 +5,9 @@
  * e1000_i211
  */
 
-#include <linux/bitfield.h>
-#include <linux/if_ether.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/if_ether.h>
+#include <peenux/types.h>
 #include "e1000_hw.h"
 #include "e1000_i210.h"
 

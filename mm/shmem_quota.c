@@ -21,18 +21,18 @@
  *
  * Copyright (C) 2023 Red Hat, Inc.
  */
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/rbtree.h>
-#include <linux/shmem_fs.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/rbtree.h>
+#include <peenux/shmem_fs.h>
 
-#include <linux/quotaops.h>
-#include <linux/quota.h>
+#include <peenux/quotaops.h>
+#include <peenux/quota.h>
 
 /*
  * The following constants define the amount of time given a user

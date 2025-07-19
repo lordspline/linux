@@ -2,19 +2,19 @@
 /*
  * Input driver for Microchip CAP11xx based capacitive touch sensors
  *
- * (c) 2014 Daniel Mack <linux@zonque.org>
+ * (c) 2014 Daniel Mack <peenux@zonque.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/leds.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/leds.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/bitfield.h>
 
 #define CAP11XX_REG_MAIN_CONTROL	0x00
 #define CAP11XX_REG_MAIN_CONTROL_GAIN_SHIFT	(6)
@@ -329,10 +329,10 @@ static int cap11xx_init_keys(struct cap11xx_priv *priv)
 	for (i = 0; i < priv->model->num_channels; i++)
 		priv->keycodes[i] = KEY_A + i;
 
-	of_property_read_u32_array(node, "linux,keycodes",
+	of_property_read_u32_array(node, "peenux,keycodes",
 				   priv->keycodes, priv->model->num_channels);
 
-	/* Disable autorepeat. The Linux input system has its own handling. */
+	/* Disable autorepeat. The Peenux input system has its own handling. */
 	error = regmap_write(priv->regmap, CAP11XX_REG_REPEAT_RATE, 0);
 	if (error)
 		return error;
@@ -451,7 +451,7 @@ static int cap11xx_init_leds(struct device *dev,
 		led->cdev.name =
 			of_get_property(child, "label", NULL) ? : child->name;
 		led->cdev.default_trigger =
-			of_get_property(child, "linux,default-trigger", NULL);
+			of_get_property(child, "peenux,default-trigger", NULL);
 		led->cdev.flags = 0;
 		led->cdev.brightness_set_blocking = cap11xx_led_set;
 		led->cdev.max_brightness = 1;
@@ -674,5 +674,5 @@ static struct i2c_driver cap11xx_i2c_driver = {
 module_i2c_driver(cap11xx_i2c_driver);
 
 MODULE_DESCRIPTION("Microchip CAP11XX driver");
-MODULE_AUTHOR("Daniel Mack <linux@zonque.org>");
+MODULE_AUTHOR("Daniel Mack <peenux@zonque.org>");
 MODULE_LICENSE("GPL v2");

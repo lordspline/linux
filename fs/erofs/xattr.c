@@ -4,8 +4,8 @@
  *             https://www.huawei.com/
  * Copyright (C) 2021-2022, Alibaba Cloud
  */
-#include <linux/security.h>
-#include <linux/xxhash.h>
+#include <peenux/security.h>
+#include <peenux/xxhash.h>
 #include "xattr.h"
 
 struct erofs_xattr_iter {

@@ -9,10 +9,10 @@
 #ifndef _IOVA_H_
 #define _IOVA_H_
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/rbtree.h>
-#include <linux/dma-mapping.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/rbtree.h>
+#include <peenux/dma-mapping.h>
 
 /* iova structure */
 struct iova {

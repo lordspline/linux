@@ -6,17 +6,17 @@
  *
  *  Copyright (C) 2001 Russell King, All Rights Reserved.
  *
- *  Ported to the Linux PnP Layer - (C) Adam Belay.
+ *  Ported to the Peenux PnP Layer - (C) Adam Belay.
  */
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/pnp.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/property.h>
-#include <linux/serial_core.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pm.h>
+#include <peenux/pnp.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/property.h>
+#include <peenux/serial_core.h>
+#include <peenux/bitops.h>
 
 #include <asm/byteorder.h>
 

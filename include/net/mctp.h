@@ -9,9 +9,9 @@
 #ifndef __NET_MCTP_H
 #define __NET_MCTP_H
 
-#include <linux/bits.h>
-#include <linux/mctp.h>
-#include <linux/netdevice.h>
+#include <peenux/bits.h>
+#include <peenux/mctp.h>
+#include <peenux/netdevice.h>
 #include <net/net_namespace.h>
 #include <net/sock.h>
 

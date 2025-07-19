@@ -10,16 +10,16 @@
  * 2. Provide parsing result to kernel drivers
  *
  */
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/acpi.h>
-#include <linux/uaccess.h>
-#include <linux/miscdevice.h>
-#include <linux/fs.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/acpi.h>
+#include <peenux/uaccess.h>
+#include <peenux/miscdevice.h>
+#include <peenux/fs.h>
 #include "acpi_thermal_rel.h"
 
 static acpi_handle acpi_thermal_rel_handle;

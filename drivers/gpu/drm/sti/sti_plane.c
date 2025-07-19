@@ -6,7 +6,7 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include <drm/drm_blend.h>
 #include <drm/drm_fourcc.h>

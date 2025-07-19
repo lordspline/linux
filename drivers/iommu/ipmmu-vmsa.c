@@ -6,24 +6,24 @@
  * Copyright (C) 2014-2020 Renesas Electronics Corporation
  */
 
-#include <linux/bitmap.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/io-pgtable.h>
-#include <linux/iommu.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <peenux/bitmap.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/io-pgtable.h>
+#include <peenux/iommu.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
 
 #if defined(CONFIG_ARM) && !defined(CONFIG_IOMMU_DMA)
 #include <asm/dma-iommu.h>

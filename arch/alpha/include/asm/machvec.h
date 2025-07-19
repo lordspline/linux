@@ -2,7 +2,7 @@
 #ifndef __ALPHA_MACHVEC_H
 #define __ALPHA_MACHVEC_H 1
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /*
  *	This file gets pulled in by asm/io.h from user space. We don't

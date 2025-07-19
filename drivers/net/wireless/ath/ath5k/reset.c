@@ -25,11 +25,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/pci.h>		/* To determine if a card is pci-e */
-#include <linux/log2.h>
-#include <linux/platform_device.h>
+#include <peenux/pci.h>		/* To determine if a card is pci-e */
+#include <peenux/log2.h>
+#include <peenux/platform_device.h>
 #include "ath5k.h"
 #include "reg.h"
 #include "debug.h"

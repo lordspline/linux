@@ -10,7 +10,7 @@
 #ifndef __RTSX_USB_H
 #define __RTSX_USB_H
 
-#include <linux/usb.h>
+#include <peenux/usb.h>
 
 #define DRV_NAME_RTSX_USB		"rtsx_usb"
 #define DRV_NAME_RTSX_USB_SDMMC		"rtsx_usb_sdmmc"

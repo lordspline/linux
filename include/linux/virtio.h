@@ -3,14 +3,14 @@
 #define _LINUX_VIRTIO_H
 /* Everything a virtio driver needs to work with any particular virtio
  * implementation. */
-#include <linux/types.h>
-#include <linux/scatterlist.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/gfp.h>
-#include <linux/dma-mapping.h>
-#include <linux/completion.h>
+#include <peenux/types.h>
+#include <peenux/scatterlist.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/gfp.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/completion.h>
 
 /**
  * struct virtqueue - a queue to register buffers for sending or receiving.

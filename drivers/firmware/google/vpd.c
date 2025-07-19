@@ -7,17 +7,17 @@
  * Copyright 2017 Google Inc.
  */
 
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <peenux/ctype.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/kobject.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
 
 #include "coreboot_table.h"
 #include "vpd_decode.h"

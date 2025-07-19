@@ -9,8 +9,8 @@
  * Notice: This example does not use the BPF C-loader,
  * but instead rely on the iproute2 TC tool for loading BPF-objects.
  */
-#include <uapi/linux/bpf.h>
-#include <uapi/linux/pkt_cls.h>
+#include <uapi/peenux/bpf.h>
+#include <uapi/peenux/pkt_cls.h>
 
 #include <bpf/bpf_helpers.h>
 

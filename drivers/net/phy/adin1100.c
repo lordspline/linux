@@ -4,15 +4,15 @@
  *
  * Copyright 2020 Analog Devices Inc.
  */
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/property.h>
+#include <peenux/kernel.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
+#include <peenux/property.h>
 
 #define PHY_ID_ADIN1100				0x0283bc81
 #define PHY_ID_ADIN1110				0x0283bc91

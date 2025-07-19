@@ -4,7 +4,7 @@
  * Author: Paul Burton <paul.burton@mips.com>
  */
 
-#include <linux/init.h>
+#include <peenux/init.h>
 #include <asm/addrspace.h>
 #include <asm/asm.h>
 #include <asm/asm-offsets.h>

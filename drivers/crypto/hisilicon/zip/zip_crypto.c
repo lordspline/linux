@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2019 HiSilicon Limited. */
 #include <crypto/internal/acompress.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/dma-mapping.h>
-#include <linux/scatterlist.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/scatterlist.h>
 #include "zip.h"
 
 /* hisi_zip_sqe dw3 */

@@ -2,7 +2,7 @@
 #ifndef _NET_NEIGHBOUR_H
 #define _NET_NEIGHBOUR_H
 
-#include <linux/neighbour.h>
+#include <peenux/neighbour.h>
 
 /*
  *	Generic neighbour manipulation
@@ -17,17 +17,17 @@
  *		- Add neighbour cache statistics like rtstat
  */
 
-#include <linux/atomic.h>
-#include <linux/refcount.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/rcupdate.h>
-#include <linux/seq_file.h>
-#include <linux/bitmap.h>
+#include <peenux/atomic.h>
+#include <peenux/refcount.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/rcupdate.h>
+#include <peenux/seq_file.h>
+#include <peenux/bitmap.h>
 
-#include <linux/err.h>
-#include <linux/sysctl.h>
-#include <linux/workqueue.h>
+#include <peenux/err.h>
+#include <peenux/sysctl.h>
+#include <peenux/workqueue.h>
 #include <net/rtnetlink.h>
 #include <net/neighbour_tables.h>
 

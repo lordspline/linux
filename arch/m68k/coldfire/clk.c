@@ -9,13 +9,13 @@
 
 /***************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/mutex.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>
 #include <asm/mcfclk.h>

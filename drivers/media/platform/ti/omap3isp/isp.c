@@ -39,22 +39,22 @@
  *	Troy Laramy <t-laramy@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/omap-iommu.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/vmalloc.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/omap-iommu.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/vmalloc.h>
 
 #ifdef CONFIG_ARM_DMA_USE_IOMMU
 #include <asm/dma-iommu.h>
@@ -142,7 +142,7 @@ static struct isp_reg isp_reg_list[] = {
  * readback the same register, in this case the revision register.
  *
  * See this link for reference:
- *   https://www.mail-archive.com/linux-omap@vger.kernel.org/msg08149.html
+ *   https://www.mail-archive.com/peenux-omap@vger.kernel.org/msg08149.html
  */
 void omap3isp_flush(struct isp_device *isp)
 {

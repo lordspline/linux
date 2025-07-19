@@ -3,10 +3,10 @@
  * Copyright 2019-2020 NXP
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/types.h>
 
 #include "imx8-isi-core.h"
 #include "imx8-isi-regs.h"

@@ -11,13 +11,13 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
+#include <peenux/regulator/consumer.h>
 
 #include "isp.h"
 #include "ispreg.h"

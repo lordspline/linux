@@ -5,10 +5,10 @@
  *
  ******************************************************************************/
 #include <drv_types.h>
-#include <linux/jiffies.h>
+#include <peenux/jiffies.h>
 #include <rtw_recv.h>
 #include <net/cfg80211.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 static u8 SNAP_ETH_TYPE_IPX[2] = {0x81, 0x37};
 static u8 SNAP_ETH_TYPE_APPLETALK_AARP[2] = {0x80, 0xf3};

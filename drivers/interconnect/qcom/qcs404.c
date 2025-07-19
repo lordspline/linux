@@ -4,13 +4,13 @@
  */
 
 #include <dt-bindings/interconnect/qcom,qcs404.h>
-#include <linux/device.h>
-#include <linux/interconnect-provider.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 
 #include "icc-rpm.h"

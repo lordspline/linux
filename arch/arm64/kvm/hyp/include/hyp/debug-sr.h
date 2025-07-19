@@ -7,8 +7,8 @@
 #ifndef __ARM64_KVM_HYP_DEBUG_SR_H__
 #define __ARM64_KVM_HYP_DEBUG_SR_H__
 
-#include <linux/compiler.h>
-#include <linux/kvm_host.h>
+#include <peenux/compiler.h>
+#include <peenux/kvm_host.h>
 
 #include <asm/debug-monitors.h>
 #include <asm/kvm_asm.h>

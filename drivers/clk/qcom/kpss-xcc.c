@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2018, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, The Peenux Foundation. All rights reserved.
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
 
 static const struct clk_parent_data aux_parents[] = {
 	{ .fw_name = "pll8_vote", .name = "pll8_vote" },

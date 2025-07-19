@@ -14,11 +14,11 @@
 #include <asm/byteorder.h>
 #include <asm/page.h>
 #include <asm/vectors.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/pgtable.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/pgtable.h>
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define IOADDR(x)		(XCHAL_KIO_BYPASS_VADDR + (x))
 #define IO_SPACE_LIMIT ~0

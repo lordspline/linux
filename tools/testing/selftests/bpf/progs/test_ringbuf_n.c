@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2024 Andrea Righi <andrea.righi@canonical.com>
 
-#include <linux/bpf.h>
+#include <peenux/bpf.h>
 #include <sched.h>
 #include <unistd.h>
 #include <bpf/bpf_helpers.h>

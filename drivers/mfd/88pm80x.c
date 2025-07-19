@@ -7,13 +7,13 @@
  * Joseph(Yossi) Hanin <yhanin@marvell.com>
  * Qiao Zhou <zhouqiao@marvell.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/mfd/88pm80x.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/88pm80x.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/err.h>
 
 /* 88pm80x chips have same definition for chip id register. */
 #define PM80X_CHIP_ID			(0x00)

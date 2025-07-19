@@ -17,19 +17,19 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/power_supply.h>
+#include <peenux/slab.h>
 
-#include <linux/power/bq24735-charger.h>
+#include <peenux/power/bq24735-charger.h>
 
 /* BQ24735 available commands and their respective masks */
 #define BQ24735_CHARGE_OPT		0x12

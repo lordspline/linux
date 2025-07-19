@@ -6,16 +6,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/crc-ccitt.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of_irq.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/nfc.h>
-#include <linux/firmware.h>
+#include <peenux/crc-ccitt.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of_irq.h>
+#include <peenux/acpi.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/nfc.h>
+#include <peenux/firmware.h>
 
 #include <net/nfc/hci.h>
 #include <net/nfc/llc.h>

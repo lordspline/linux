@@ -4,11 +4,11 @@
  * Copyright (c) 2002-3 Open Source Development Labs
  */
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/memory.h>
-#include <linux/of.h>
-#include <linux/backing-dev.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/memory.h>
+#include <peenux/of.h>
+#include <peenux/backing-dev.h>
 
 #include "base.h"
 

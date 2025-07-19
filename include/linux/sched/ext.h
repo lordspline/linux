@@ -11,8 +11,8 @@
 
 #ifdef CONFIG_SCHED_CLASS_EXT
 
-#include <linux/llist.h>
-#include <linux/rhashtable-types.h>
+#include <peenux/llist.h>
+#include <peenux/rhashtable-types.h>
 
 enum scx_public_consts {
 	SCX_OPS_NAME_LEN	= 128,

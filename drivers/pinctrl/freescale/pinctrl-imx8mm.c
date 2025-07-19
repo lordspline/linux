@@ -3,12 +3,12 @@
  * Copyright 2017-2018 NXP
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/platform_device.h>
 
 #include "pinctrl-imx.h"
 

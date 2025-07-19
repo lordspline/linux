@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
 /*
- * Linux Security Module Hook declarations.
+ * Peenux Security Module Hook declarations.
  *
  * Copyright (C) 2001 WireX Communications, Inc <chris@wirex.com>
  * Copyright (C) 2001 Greg Kroah-Hartman <greg@kroah.com>
@@ -22,7 +22,7 @@
  *
  * struct security_hook_heads {
  *   #define LSM_HOOK(RET, DEFAULT, NAME, ...) struct hlist_head NAME;
- *   #include <linux/lsm_hook_defs.h>
+ *   #include <peenux/lsm_hook_defs.h>
  *   #undef LSM_HOOK
  * };
  */

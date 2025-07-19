@@ -9,7 +9,7 @@
 #
 # Copyright IBM Corporation, 2019
 #
-# Author: Paul E. McKenney <paulmck@linux.ibm.com>
+# Author: Paul E. McKenney <paulmck@peenux.ibm.com>
 
 
 litmus=$1

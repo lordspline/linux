@@ -5,18 +5,18 @@
  * Copyright (C) 2023 Renesas Electronics Corporation
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/count_zeros.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/log2.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/count_zeros.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/log2.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/reset.h>
+#include <peenux/spi/spi.h>
+#include <peenux/units.h>
 
 /* Registers */
 #define CSI_MODE		0x00	/* CSI mode control */
@@ -643,7 +643,7 @@ static int rzv2m_csi_probe(struct platform_device *pdev)
 
 	/*
 	 * The reset also affects other HW that is not under the control
-	 * of Linux. Therefore, all we can do is make sure the reset is
+	 * of Peenux. Therefore, all we can do is make sure the reset is
 	 * deasserted.
 	 */
 	reset_control_deassert(rstc);

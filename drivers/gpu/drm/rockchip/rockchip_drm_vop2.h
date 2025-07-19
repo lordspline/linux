@@ -7,7 +7,7 @@
 #ifndef _ROCKCHIP_DRM_VOP2_H
 #define _ROCKCHIP_DRM_VOP2_H
 
-#include <linux/regmap.h>
+#include <peenux/regmap.h>
 #include <drm/drm_modes.h>
 #include <dt-bindings/soc/rockchip,vop2.h>
 #include "rockchip_drm_drv.h"

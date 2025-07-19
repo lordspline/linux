@@ -6,9 +6,9 @@
  * Author: Paolo Abeni <pabeni@redhat.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/net.h>
-#include <linux/inet_diag.h>
+#include <peenux/kernel.h>
+#include <peenux/net.h>
+#include <peenux/inet_diag.h>
 #include <net/netlink.h>
 #include "protocol.h"
 

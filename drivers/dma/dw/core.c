@@ -7,20 +7,20 @@
  * Copyright (C) 2013 Intel Corporation
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/log2.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
 
 #include "../dmaengine.h"
 #include "internal.h"

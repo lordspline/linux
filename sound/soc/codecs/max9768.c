@@ -5,12 +5,12 @@
  * Copyright (C) 2011, 2012 by Wolfram Sang, Pengutronix e.K.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regmap.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regmap.h>
 
 #include <sound/core.h>
 #include <sound/soc.h>

@@ -17,20 +17,20 @@
  *	Copyright (C) 2000 Inside Out Networks, All rights reserved.
  *	Copyright (C) 2001-2002 Greg Kroah-Hartman <greg@kroah.com>
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/uaccess.h>
-#include <linux/parport.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/serial.h>
+#include <peenux/serial_reg.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
+#include <peenux/uaccess.h>
+#include <peenux/parport.h>
 
 #define DRIVER_AUTHOR "Aspire Communications pvt Ltd."
 #define DRIVER_DESC "Moschip USB Serial Driver"

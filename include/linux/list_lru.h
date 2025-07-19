@@ -8,10 +8,10 @@
 #ifndef _LRU_LIST_H
 #define _LRU_LIST_H
 
-#include <linux/list.h>
-#include <linux/nodemask.h>
-#include <linux/shrinker.h>
-#include <linux/xarray.h>
+#include <peenux/list.h>
+#include <peenux/nodemask.h>
+#include <peenux/shrinker.h>
+#include <peenux/xarray.h>
 
 struct mem_cgroup;
 

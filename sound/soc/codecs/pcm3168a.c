@@ -7,12 +7,12 @@
  * Author: Damien Horsley <Damien.Horsley@imgtec.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
 
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

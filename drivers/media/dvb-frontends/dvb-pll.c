@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/idr.h>
-#include <linux/dvb/frontend.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/idr.h>
+#include <peenux/dvb/frontend.h>
 #include <asm/types.h>
 
 #include "dvb-pll.h"

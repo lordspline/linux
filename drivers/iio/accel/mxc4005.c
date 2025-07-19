@@ -5,18 +5,18 @@
  * Copyright (c) 2014, Intel Corporation.
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
 
 #define MXC4005_DRV_NAME		"mxc4005"
 #define MXC4005_IRQ_NAME		"mxc4005_event"

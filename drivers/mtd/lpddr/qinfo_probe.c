@@ -4,18 +4,18 @@
  * (C) 2008 Korolev Alexey <akorolev@infradead.org>
  * (C) 2008 Vasiliy Leonenko <vasiliy.leonenko@gmail.com>
  */
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
 
-#include <linux/mtd/xip.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/pfow.h>
-#include <linux/mtd/qinfo.h>
+#include <peenux/mtd/xip.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/pfow.h>
+#include <peenux/mtd/qinfo.h>
 
 static int lpddr_chip_setup(struct map_info *map, struct lpddr_private *lpddr);
 struct mtd_info *lpddr_probe(struct map_info *map);

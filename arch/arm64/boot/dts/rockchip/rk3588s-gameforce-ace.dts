@@ -3,7 +3,7 @@
 /dts-v1/;
 
 #include <dt-bindings/gpio/gpio.h>
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/peenux-event-codes.h>
 #include <dt-bindings/leds/common.h>
 #include <dt-bindings/pinctrl/rockchip.h>
 #include <dt-bindings/pwm/pwm.h>
@@ -35,13 +35,13 @@
 
 		button-vol-up {
 			label = "VOLUMEUP";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			press-threshold-microvolt = <17000>;
 		};
 
 		button-vol-down {
 			label = "VOLUMEDOWN";
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 			press-threshold-microvolt = <417000>;
 		};
 	};
@@ -60,7 +60,7 @@
 			abs-flat = <40>;
 			abs-fuzz = <30>;
 			abs-range = <0 4095>;
-			linux,code = <ABS_RX>;
+			peenux,code = <ABS_RX>;
 		};
 
 		axis@1 {
@@ -68,7 +68,7 @@
 			abs-flat = <40>;
 			abs-fuzz = <30>;
 			abs-range = <0 4095>;
-			linux,code = <ABS_RY>;
+			peenux,code = <ABS_RY>;
 		};
 
 		axis@2 {
@@ -76,7 +76,7 @@
 			abs-flat = <40>;
 			abs-fuzz = <30>;
 			abs-range = <0 4095>;
-			linux,code = <ABS_Y>;
+			peenux,code = <ABS_Y>;
 		};
 
 		axis@3 {
@@ -84,7 +84,7 @@
 			abs-flat = <40>;
 			abs-fuzz = <30>;
 			abs-range = <0 4095>;
-			linux,code = <ABS_X>;
+			peenux,code = <ABS_X>;
 		};
 	};
 
@@ -102,7 +102,7 @@
 			abs-flat = <15>;
 			abs-fuzz = <15>;
 			abs-range = <890 1530>;
-			linux,code = <ABS_HAT2X>;
+			peenux,code = <ABS_HAT2X>;
 		};
 
 		axis@1 {
@@ -110,7 +110,7 @@
 			abs-flat = <15>;
 			abs-fuzz = <15>;
 			abs-range = <1010 1550>;
-			linux,code = <ABS_HAT2Y>;
+			peenux,code = <ABS_HAT2Y>;
 		};
 	};
 
@@ -179,97 +179,97 @@
 		button-a {
 			gpios = <&gpio1 RK_PC6 GPIO_ACTIVE_LOW>;
 			label = "EAST";
-			linux,code = <BTN_EAST>;
+			peenux,code = <BTN_EAST>;
 		};
 
 		button-b {
 			gpios = <&gpio1 RK_PA5 GPIO_ACTIVE_LOW>;
 			label = "SOUTH";
-			linux,code = <BTN_SOUTH>;
+			peenux,code = <BTN_SOUTH>;
 		};
 
 		button-down {
 			gpios = <&gpio1 RK_PB1 GPIO_ACTIVE_LOW>;
 			label = "DPAD-DOWN";
-			linux,code = <BTN_DPAD_DOWN>;
+			peenux,code = <BTN_DPAD_DOWN>;
 		};
 
 		button-home {
 			gpios = <&gpio1 RK_PA0 GPIO_ACTIVE_LOW>;
 			label = "FUNCTION";
-			linux,code = <BTN_MODE>;
+			peenux,code = <BTN_MODE>;
 		};
 
 		button-l1 {
 			gpios = <&gpio1 RK_PB5 GPIO_ACTIVE_LOW>;
 			label = "L1";
-			linux,code = <BTN_TL>;
+			peenux,code = <BTN_TL>;
 		};
 
 		button-left {
 			gpios = <&gpio1 RK_PD7 GPIO_ACTIVE_LOW>;
 			label = "DPAD-LEFT";
-			linux,code = <BTN_DPAD_LEFT>;
+			peenux,code = <BTN_DPAD_LEFT>;
 		};
 
 		button-menu {
 			gpios = <&gpio1 RK_PB0 GPIO_ACTIVE_LOW>;
 			label = "HOME";
-			linux,code = <KEY_HOME>;
+			peenux,code = <KEY_HOME>;
 		};
 
 		button-r1 {
 			gpios = <&gpio1 RK_PB2 GPIO_ACTIVE_LOW>;
 			label = "R1";
-			linux,code = <BTN_TR>;
+			peenux,code = <BTN_TR>;
 		};
 
 		button-right {
 			gpios = <&gpio1 RK_PB7 GPIO_ACTIVE_LOW>;
 			label = "DPAD-RIGHT";
-			linux,code = <BTN_DPAD_RIGHT>;
+			peenux,code = <BTN_DPAD_RIGHT>;
 		};
 
 		button-select {
 			gpios = <&gpio1 RK_PA3 GPIO_ACTIVE_LOW>;
 			label = "SELECT";
-			linux,code = <BTN_SELECT>;
+			peenux,code = <BTN_SELECT>;
 		};
 
 		button-start {
 			gpios = <&gpio1 RK_PB6 GPIO_ACTIVE_LOW>;
 			label = "START";
-			linux,code = <BTN_START>;
+			peenux,code = <BTN_START>;
 		};
 
 		button-thumbl {
 			gpios = <&gpio1 RK_PA4 GPIO_ACTIVE_LOW>;
 			label = "THUMBL";
-			linux,code = <BTN_THUMBL>;
+			peenux,code = <BTN_THUMBL>;
 		};
 
 		button-thumbr {
 			gpios = <&gpio1 RK_PD6 GPIO_ACTIVE_LOW>;
 			label = "THUMBR";
-			linux,code = <BTN_THUMBR>;
+			peenux,code = <BTN_THUMBR>;
 		};
 
 		button-up {
 			gpios = <&gpio1 RK_PA2 GPIO_ACTIVE_LOW>;
 			label = "DPAD-UP";
-			linux,code = <BTN_DPAD_UP>;
+			peenux,code = <BTN_DPAD_UP>;
 		};
 
 		button-x {
 			gpios = <&gpio1 RK_PB4 GPIO_ACTIVE_LOW>;
 			label = "NORTH";
-			linux,code = <BTN_NORTH>;
+			peenux,code = <BTN_NORTH>;
 		};
 
 		button-y {
 			gpios = <&gpio1 RK_PB3 GPIO_ACTIVE_LOW>;
 			label = "WEST";
-			linux,code = <BTN_WEST>;
+			peenux,code = <BTN_WEST>;
 		};
 	};
 

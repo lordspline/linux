@@ -10,22 +10,22 @@
  * Author: Roy Zang <tie-fei.zang@freescale.com>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/compiler.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/syscore_ops.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/compiler.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/syscore_ops.h>
 #include <asm/fsl_lbc.h>
 
 static DEFINE_SPINLOCK(fsl_lbc_lock);

@@ -11,9 +11,9 @@
  *   Document ID MV-S105190-00, Rev 0.7, March 14 2008.
  */
 
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 #include <asm/cacheflush.h>
 #include <asm/cp15.h>
 #include <asm/cputype.h>
@@ -56,9 +56,9 @@ static inline void tauros2_inv_pa(unsigned long addr)
 
 
 /*
- * Linux primitives.
+ * Peenux primitives.
  *
- * Note that the end addresses passed to Linux primitives are
+ * Note that the end addresses passed to Peenux primitives are
  * noninclusive.
  */
 #define CACHE_LINE_SIZE		32

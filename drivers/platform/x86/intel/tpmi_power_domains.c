@@ -5,19 +5,19 @@
  * Copyright (c) 2024, Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/hashtable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/topology.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/cpumask.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/hashtable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/overflow.h>
+#include <peenux/slab.h>
+#include <peenux/topology.h>
+#include <peenux/types.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
@@ -47,13 +47,13 @@
 /**
  * struct tpmi_cpu_info - Mapping information for a CPU
  * @hnode: Used to add mapping information to hash list
- * @linux_cpu:	Linux CPU number
+ * @linux_cpu:	Peenux CPU number
  * @pkg_id: Package ID of this CPU
  * @punit_thread_id: Punit thread id of this CPU
  * @punit_core_id: Punit core id
  * @punit_domain_id: Power domain id from Punit
  *
- * Structure to store mapping information for a Linux CPU
+ * Structure to store mapping information for a Peenux CPU
  * to a Punit core, thread and power domain.
  */
 struct tpmi_cpu_info {

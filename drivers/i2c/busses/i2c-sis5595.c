@@ -41,15 +41,15 @@
  * Add adapter resets
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
 
 static int blacklist[] = {
 	PCI_DEVICE_ID_SI_540,

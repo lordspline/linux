@@ -8,8 +8,8 @@
  */
 #include "testmode.h"
 
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 #include <net/genetlink.h>
 
 #include "wlcore.h"

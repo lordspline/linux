@@ -3,26 +3,26 @@
 * Copyright (C) 2012 Invensense, Inc.
 */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/math64.h>
-#include <linux/minmax.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/sysfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/acpi.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/math64.h>
+#include <peenux/minmax.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
 
-#include <linux/iio/common/inv_sensors_timestamp.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/common/inv_sensors_timestamp.h>
+#include <peenux/iio/iio.h>
 
 #include "inv_mpu_iio.h"
 #include "inv_mpu_magn.h"

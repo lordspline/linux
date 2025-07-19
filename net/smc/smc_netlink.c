@@ -6,15 +6,15 @@
  *
  *  Copyright IBM Corp. 2020
  *
- *  Author(s):	Guvenc Gulce <guvenc@linux.ibm.com>
+ *  Author(s):	Guvenc Gulce <guvenc@peenux.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/ctype.h>
-#include <linux/mutex.h>
-#include <linux/if.h>
-#include <linux/smc.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/ctype.h>
+#include <peenux/mutex.h>
+#include <peenux/if.h>
+#include <peenux/smc.h>
 
 #include "smc_core.h"
 #include "smc_ism.h"

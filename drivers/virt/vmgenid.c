@@ -7,12 +7,12 @@
  * information to random.c.
  */
 
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
+#include <peenux/acpi.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/random.h>
 
 ACPI_MODULE_NAME("vmgenid");
 

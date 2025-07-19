@@ -8,9 +8,9 @@
  * Copyright 2006-2007, Michael Ellerman, IBM Corporation.
  */
 
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/msi.h>
 #include <asm/mpic.h>
 #include <asm/hw_irq.h>
 #include <asm/ppc-pci.h>

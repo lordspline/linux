@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2018-2020 Broadcom */
 
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
+#include <peenux/device.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
 
 #define BRCM_RESCAL_START	0x0
 #define  BRCM_RESCAL_START_BIT	BIT(0)

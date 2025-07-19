@@ -8,11 +8,11 @@
  * Copyright (C) 2009 Imagination Technologies Ltd.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/initval.h>

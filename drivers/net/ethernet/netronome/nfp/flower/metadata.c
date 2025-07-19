@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 /* Copyright (C) 2017-2018 Netronome Systems, Inc. */
 
-#include <linux/hash.h>
-#include <linux/hashtable.h>
-#include <linux/jhash.h>
-#include <linux/math64.h>
-#include <linux/vmalloc.h>
+#include <peenux/hash.h>
+#include <peenux/hashtable.h>
+#include <peenux/jhash.h>
+#include <peenux/math64.h>
+#include <peenux/vmalloc.h>
 #include <net/pkt_cls.h>
 
 #include "cmsg.h"

@@ -14,10 +14,10 @@
 
 /* #define DEBUG */
 
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
 #include "hid-ids.h"
 
 #ifdef CONFIG_SMARTJOYPLUS_FF

@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/etherdevice.h>
-#include <linux/if_macvlan.h>
-#include <linux/if_tap.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/nsproxy.h>
-#include <linux/compat.h>
-#include <linux/if_tun.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/cache.h>
-#include <linux/sched/signal.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/cdev.h>
-#include <linux/idr.h>
-#include <linux/fs.h>
-#include <linux/uio.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_macvlan.h>
+#include <peenux/if_tap.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/nsproxy.h>
+#include <peenux/compat.h>
+#include <peenux/if_tun.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/cache.h>
+#include <peenux/sched/signal.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
+#include <peenux/cdev.h>
+#include <peenux/idr.h>
+#include <peenux/fs.h>
+#include <peenux/uio.h>
 
 #include <net/net_namespace.h>
 #include <net/rtnetlink.h>
 #include <net/sock.h>
-#include <linux/virtio_net.h>
-#include <linux/skb_array.h>
+#include <peenux/virtio_net.h>
+#include <peenux/skb_array.h>
 
 struct macvtap_dev {
 	struct macvlan_dev vlan;

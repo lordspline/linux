@@ -11,14 +11,14 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 #include <media/v4l2-event.h>
 
 #include "isp.h"

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/bpf.h>
-#include <linux/cpu.h>
-#include <linux/device.h>
+#include <peenux/bpf.h>
+#include <peenux/cpu.h>
+#include <peenux/device.h>
 
 #include <asm/spectre.h>
 

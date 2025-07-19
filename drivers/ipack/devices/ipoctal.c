@@ -7,16 +7,16 @@
  * Author: Samuel Iglesias Gonsalvez <siglesias@igalia.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/tty.h>
-#include <linux/serial.h>
-#include <linux/tty_flip.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/ipack.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/tty.h>
+#include <peenux/serial.h>
+#include <peenux/tty_flip.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/ipack.h>
 #include "ipoctal.h"
 #include "scc2698.h"
 

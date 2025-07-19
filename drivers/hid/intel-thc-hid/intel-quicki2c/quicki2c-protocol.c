@@ -1,10 +1,10 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /* Copyright (c) 2024 Intel Corporation */
 
-#include <linux/bitfield.h>
-#include <linux/hid.h>
-#include <linux/hid-over-i2c.h>
-#include <linux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/hid.h>
+#include <peenux/hid-over-i2c.h>
+#include <peenux/unaligned.h>
 
 #include "intel-thc-dev.h"
 #include "intel-thc-dma.h"

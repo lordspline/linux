@@ -9,17 +9,17 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
+#include <peenux/init.h>
 #include <asm/io.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>
 
-#include <linux/mtd/map.h>
-#include <linux/mtd/mtd.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/mtd.h>
 
 #define info(format, arg...) printk(KERN_INFO "pcmciamtd: " format "\n" , ## arg)
 

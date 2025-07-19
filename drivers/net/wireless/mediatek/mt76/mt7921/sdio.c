@@ -3,13 +3,13 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/mmc/sdio_func.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/sdio_ids.h>
+#include <peenux/mmc/sdio_func.h>
 
 #include "mt7921.h"
 #include "../sdio.h"

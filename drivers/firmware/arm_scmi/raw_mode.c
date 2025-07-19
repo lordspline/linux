@@ -106,20 +106,20 @@
  * be reported as messages under "errors" for later analysis.
  */
 
-#include <linux/bitmap.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
+#include <peenux/bitmap.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/poll.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/xarray.h>
 
 #include "common.h"
 

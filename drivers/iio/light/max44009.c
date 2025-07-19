@@ -12,16 +12,16 @@
  * Default I2C address: 0x4a
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/util_macros.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/bits.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/util_macros.h>
 
 #define MAX44009_DRV_NAME "max44009"
 

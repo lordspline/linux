@@ -21,20 +21,20 @@
  * - CPU core voltage
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/dev_printk.h>
-#include <linux/dmi.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sort.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/dev_printk.h>
+#include <peenux/dmi.h>
+#include <peenux/hwmon.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/sort.h>
+#include <peenux/units.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 static char *mutex_path_override;
 

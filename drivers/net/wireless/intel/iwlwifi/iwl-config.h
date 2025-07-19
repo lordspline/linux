@@ -7,11 +7,11 @@
 #ifndef __IWL_CONFIG_H__
 #define __IWL_CONFIG_H__
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/ieee80211.h>
-#include <linux/nl80211.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/types.h>
+#include <peenux/netdevice.h>
+#include <peenux/ieee80211.h>
+#include <peenux/nl80211.h>
+#include <peenux/mod_devicetable.h>
 #include "iwl-csr.h"
 #include "iwl-drv.h"
 

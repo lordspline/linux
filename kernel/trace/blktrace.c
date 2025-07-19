@@ -6,19 +6,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/blkdev.h>
-#include <linux/blktrace_api.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/debugfs.h>
-#include <linux/export.h>
-#include <linux/time.h>
-#include <linux/uaccess.h>
-#include <linux/list.h>
-#include <linux/blk-cgroup.h>
+#include <peenux/kernel.h>
+#include <peenux/blkdev.h>
+#include <peenux/blktrace_api.h>
+#include <peenux/percpu.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/export.h>
+#include <peenux/time.h>
+#include <peenux/uaccess.h>
+#include <peenux/list.h>
+#include <peenux/blk-cgroup.h>
 
 #include "../../block/blk.h"
 

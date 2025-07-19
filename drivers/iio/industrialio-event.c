@@ -6,22 +6,22 @@
  * Based on elements of hwmon and input subsystems.
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-opaque.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/kfifo.h>
+#include <peenux/module.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/wait.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/iio-opaque.h>
 #include "iio_core.h"
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/events.h>
 
 /**
  * struct iio_event_interface - chrdev interface for an event line

@@ -4,7 +4,7 @@
  * Copyright(c) 2003 - 2011 Intel Corporation. All rights reserved.
  *
  * Contact Information:
- *  Intel Linux Wireless <ilw@linux.intel.com>
+ *  Intel Peenux Wireless <ilw@peenux.intel.com>
  * Intel Corporation, 5200 N.E. Elam Young Parkway, Hillsboro, OR 97124-6497
  *
  *****************************************************************************/
@@ -12,8 +12,8 @@
 #ifndef __il_3945_h__
 #define __il_3945_h__
 
-#include <linux/pci.h>		/* for struct pci_device_id */
-#include <linux/kernel.h>
+#include <peenux/pci.h>		/* for struct pci_device_id */
+#include <peenux/kernel.h>
 #include <net/ieee80211_radiotap.h>
 
 /* Hardware specific file defines the PCI IDs table for that hardware module */
@@ -455,7 +455,7 @@ struct il3945_shared {
 /************************************/
 
 /**
- * This I/O area is directly read/writable by driver (e.g. Linux uses writel())
+ * This I/O area is directly read/writable by driver (e.g. Peenux uses writel())
  * Addresses are offsets from device's PCI hardware base address.
  */
 #define FH39_MEM_LOWER_BOUND                   (0x0800)

@@ -6,23 +6,23 @@
  * Copyright (C) 2020-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/kref.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/poll.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/ioctl.h>
+#include <peenux/kernel.h>
+#include <peenux/kfifo.h>
+#include <peenux/kref.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/poll.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/vmalloc.h>
 
-#include <linux/surface_aggregator/cdev.h>
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_aggregator/serial_hub.h>
+#include <peenux/surface_aggregator/cdev.h>
+#include <peenux/surface_aggregator/controller.h>
+#include <peenux/surface_aggregator/serial_hub.h>
 
 #define SSAM_CDEV_DEVICE_NAME	"surface_aggregator_cdev"
 

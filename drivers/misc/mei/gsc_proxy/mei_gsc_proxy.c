@@ -10,12 +10,12 @@
  * proxy user (I915) and ME FW by proxying messages to ME FW
  */
 
-#include <linux/component.h>
-#include <linux/mei_cl_bus.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
+#include <peenux/component.h>
+#include <peenux/mei_cl_bus.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/uuid.h>
 #include <drm/drm_connector.h>
 #include <drm/intel/i915_component.h>
 #include <drm/intel/i915_gsc_proxy_mei_interface.h>

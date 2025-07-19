@@ -13,20 +13,20 @@
  *
  * Contributors: Daniel Hellstrom <daniel@gaisler.com>
  */
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/serio.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
 
 struct apbps2_regs {
 	u32 __iomem data;	/* 0x00 */

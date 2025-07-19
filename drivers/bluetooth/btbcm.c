@@ -6,13 +6,13 @@
  *  Copyright (C) 2015  Intel Corporation
  */
 
-#include <linux/efi.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/dmi.h>
-#include <linux/of.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <peenux/efi.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/dmi.h>
+#include <peenux/of.h>
+#include <peenux/string.h>
+#include <peenux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

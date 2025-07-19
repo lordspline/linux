@@ -11,7 +11,7 @@
  *	Cisco 5500
  *	Sun Trunking (Solaris)
  *	Alteon AceDirector Trunks
- *	Linux Bonding
+ *	Peenux Bonding
  *	and probably many L2 switches ...
  *
  * How it works:
@@ -32,55 +32,55 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/filter.h>
-#include <linux/interrupt.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/filter.h>
+#include <peenux/interrupt.h>
+#include <peenux/ptrace.h>
+#include <peenux/ioport.h>
+#include <peenux/in.h>
 #include <net/ip.h>
-#include <linux/ip.h>
-#include <linux/icmp.h>
-#include <linux/icmpv6.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/timer.h>
-#include <linux/socket.h>
-#include <linux/ctype.h>
-#include <linux/inet.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
+#include <peenux/ip.h>
+#include <peenux/icmp.h>
+#include <peenux/icmpv6.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/timer.h>
+#include <peenux/socket.h>
+#include <peenux/ctype.h>
+#include <peenux/inet.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
 #include <asm/dma.h>
-#include <linux/uaccess.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
-#include <linux/igmp.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/inetdevice.h>
+#include <peenux/igmp.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
-#include <linux/rtnetlink.h>
-#include <linux/smp.h>
-#include <linux/if_ether.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/smp.h>
+#include <peenux/if_ether.h>
 #include <net/arp.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/if_bonding.h>
-#include <linux/phy.h>
-#include <linux/jiffies.h>
-#include <linux/preempt.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_vlan.h>
+#include <peenux/if_bonding.h>
+#include <peenux/phy.h>
+#include <peenux/jiffies.h>
+#include <peenux/preempt.h>
 #include <net/route.h>
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
 #include <net/pkt_sched.h>
-#include <linux/rculist.h>
+#include <peenux/rculist.h>
 #include <net/flow_dissector.h>
 #include <net/xfrm.h>
 #include <net/bonding.h>

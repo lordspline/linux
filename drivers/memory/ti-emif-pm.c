@@ -6,16 +6,16 @@
  *	Dave Gerlach
  */
 
-#include <linux/err.h>
-#include <linux/genalloc.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/sram.h>
-#include <linux/ti-emif-sram.h>
+#include <peenux/err.h>
+#include <peenux/genalloc.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/sram.h>
+#include <peenux/ti-emif-sram.h>
 
 #include "emif.h"
 

@@ -12,7 +12,7 @@
  * @mr_value: buffer containing the current value of the MR
  * @mr_size: size of the MR - typically the digest size of @mr_hash
  * @mr_flags: bitwise OR of one or more flags, detailed below
- * @mr_hash: optional hash identifier defined in include/uapi/linux/hash_info.h.
+ * @mr_hash: optional hash identifier defined in include/uapi/peenux/hash_info.h.
  *
  * A CC guest driver encloses an array of this structure in struct
  * tsm_measurements to detail the measurement facility supported by the

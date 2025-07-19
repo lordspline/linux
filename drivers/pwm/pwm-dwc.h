@@ -5,7 +5,7 @@
  * Copyright (C) 2018-2020 Intel Corporation
  *
  * Author: Felipe Balbi (Intel)
- * Author: Jarkko Nikula <jarkko.nikula@linux.intel.com>
+ * Author: Jarkko Nikula <jarkko.nikula@peenux.intel.com>
  * Author: Raymond Tan <raymond.tan@intel.com>
  */
 

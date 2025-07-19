@@ -4,25 +4,25 @@
  *
  * Copyright 2019 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/imu/adis.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/irq.h>
-#include <linux/lcm.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/imu/adis.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/irq.h>
+#include <peenux/lcm.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/spi/spi.h>
 
 #define ADIS16475_REG_DIAG_STAT		0x02
 #define ADIS16475_REG_X_GYRO_L		0x04

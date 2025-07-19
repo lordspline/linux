@@ -7,12 +7,12 @@
  *              Bhavin Sharma <bhavin.sharma@siliconsignals.io>
  */
 
-#include <linux/crc8.h>
-#include <linux/devm-helpers.h>
-#include <linux/i2c.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/workqueue.h>
+#include <peenux/crc8.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/i2c.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/workqueue.h>
 
 #define STC3117_ADDR_MODE                      0x00
 #define STC3117_ADDR_CTRL                      0x01

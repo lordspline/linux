@@ -8,18 +8,18 @@
  * 	   Add pci interrupt router host
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/interrupt.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_address.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/machdep.h>
 #include <asm/pci-bridge.h>
 #include <asm/tsi108.h>
@@ -325,7 +325,7 @@ static inline unsigned int get_pci_source(void)
 
 
 /*
- * Linux descriptor level callbacks
+ * Peenux descriptor level callbacks
  */
 
 static void tsi108_pci_irq_unmask(struct irq_data *d)

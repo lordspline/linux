@@ -12,24 +12,24 @@
  *	Author: Imre Sunyi <imre.sunyi@sonymobile.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/component.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/completion.h>
-#include <linux/workqueue.h>
-#include <linux/kobject.h>
-#include <linux/of.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/abx500.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/notifier.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/component.h>
+#include <peenux/hrtimer.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/completion.h>
+#include <peenux/workqueue.h>
+#include <peenux/kobject.h>
+#include <peenux/of.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/abx500.h>
+#include <peenux/mfd/abx500/ab8500.h>
+#include <peenux/notifier.h>
 
 #include "ab8500-bm.h"
 #include "ab8500-chargalg.h"

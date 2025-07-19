@@ -6,7 +6,7 @@
 #include <stddef.h>
 #include <stdio.h>
 #include <sys/types.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #ifdef HAVE_ZSTD_SUPPORT
 #include <zstd.h>
 #endif

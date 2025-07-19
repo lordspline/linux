@@ -9,7 +9,7 @@
  *  Copyright (c) 2012 Bernhard Seibold
  *  Copyright (c) 2014 Jamie Lentin <jm@lentin.co.uk>
  *
- * Linux IBM/Lenovo Scrollpoint mouse driver:
+ * Peenux IBM/Lenovo Scrollpoint mouse driver:
  * - IBM Scrollpoint III
  * - IBM Scrollpoint Pro
  * - IBM Scrollpoint Optical
@@ -24,15 +24,15 @@
 /*
  */
 
-#include <linux/module.h>
-#include <linux/sysfs.h>
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/leds.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/sysfs.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/input.h>
+#include <peenux/leds.h>
+#include <peenux/workqueue.h>
 
-#include <linux/platform_profile.h>
+#include <peenux/platform_profile.h>
 
 #include "hid-ids.h"
 

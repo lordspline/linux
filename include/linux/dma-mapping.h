@@ -2,11 +2,11 @@
 #ifndef _LINUX_DMA_MAPPING_H
 #define _LINUX_DMA_MAPPING_H
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/dma-direction.h>
-#include <linux/scatterlist.h>
-#include <linux/bug.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/dma-direction.h>
+#include <peenux/scatterlist.h>
+#include <peenux/bug.h>
 
 /**
  * List of possible attributes associated with a DMA mapping. The semantics

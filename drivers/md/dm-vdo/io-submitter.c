@@ -5,9 +5,9 @@
 
 #include "io-submitter.h"
 
-#include <linux/bio.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
+#include <peenux/bio.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
 
 #include "memory-alloc.h"
 #include "permassert.h"

@@ -22,15 +22,15 @@
  * Authors: Ben Skeggs
  */
 
-#include <linux/aperture.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/vga_switcheroo.h>
-#include <linux/mmu_notifier.h>
-#include <linux/dynamic_debug.h>
-#include <linux/debugfs.h>
+#include <peenux/aperture.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/vga_switcheroo.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/dynamic_debug.h>
+#include <peenux/debugfs.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_drv.h>

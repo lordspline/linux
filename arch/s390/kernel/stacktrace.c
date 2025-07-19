@@ -5,10 +5,10 @@
  *  Copyright IBM Corp. 2006
  */
 
-#include <linux/perf_event.h>
-#include <linux/stacktrace.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
+#include <peenux/perf_event.h>
+#include <peenux/stacktrace.h>
+#include <peenux/uaccess.h>
+#include <peenux/compat.h>
 #include <asm/asm-offsets.h>
 #include <asm/stacktrace.h>
 #include <asm/unwind.h>

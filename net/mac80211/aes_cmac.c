@@ -5,11 +5,11 @@
  * Copyright (C) 2020 Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/crypto.h>
-#include <linux/export.h>
-#include <linux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/crypto.h>
+#include <peenux/export.h>
+#include <peenux/err.h>
 #include <crypto/aes.h>
 
 #include <net/mac80211.h>

@@ -65,15 +65,15 @@
 #include "thread_with_file.h"
 #include "trace.h"
 
-#include <linux/backing-dev.h>
-#include <linux/blkdev.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/percpu.h>
-#include <linux/random.h>
-#include <linux/sysfs.h>
+#include <peenux/backing-dev.h>
+#include <peenux/blkdev.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/module.h>
+#include <peenux/percpu.h>
+#include <peenux/random.h>
+#include <peenux/sysfs.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Kent Overstreet <kent.overstreet@gmail.com>");

@@ -6,11 +6,11 @@
 #ifndef __DPAA2_ETH_H
 #define __DPAA2_ETH_H
 
-#include <linux/dcbnl.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/fsl/mc.h>
-#include <linux/net_tstamp.h>
+#include <peenux/dcbnl.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/fsl/mc.h>
+#include <peenux/net_tstamp.h>
 #include <net/devlink.h>
 #include <net/xdp.h>
 

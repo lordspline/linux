@@ -5,13 +5,13 @@
 #include "ixgbe_common.h"
 #include "ixgbe_type.h"
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/sysfs.h>
-#include <linux/kobject.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/hwmon.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/sysfs.h>
+#include <peenux/kobject.h>
+#include <peenux/device.h>
+#include <peenux/netdevice.h>
+#include <peenux/hwmon.h>
 
 /* hwmon callback functions */
 static ssize_t ixgbe_hwmon_show_location(struct device *dev,

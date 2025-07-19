@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/arm/mm/extable.c
+ *  peenux/arch/arm/mm/extable.c
  */
-#include <linux/extable.h>
-#include <linux/uaccess.h>
+#include <peenux/extable.h>
+#include <peenux/uaccess.h>
 
 int fixup_exception(struct pt_regs *regs)
 {

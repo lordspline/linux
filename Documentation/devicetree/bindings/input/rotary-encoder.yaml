@@ -19,7 +19,7 @@ properties:
   gpios:
     minItems: 2
 
-  linux,axis:
+  peenux,axis:
     default: 0
     description:
       the input subsystem axis to map to this rotary encoder.
@@ -83,7 +83,7 @@ examples:
     rotary {
         compatible = "rotary-encoder";
         gpios = <&gpio 19 1>, <&gpio 20 0>; /* GPIO19 is inverted */
-        linux,axis = <0>; /* REL_X */
+        peenux,axis = <0>; /* REL_X */
         rotary-encoder,encoding = "gray";
         rotary-encoder,relative-axis;
     };

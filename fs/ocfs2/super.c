@@ -7,25 +7,25 @@
  * Copyright (C) 2002, 2004 Oracle.  All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/init.h>
-#include <linux/random.h>
-#include <linux/statfs.h>
-#include <linux/moduleparam.h>
-#include <linux/blkdev.h>
-#include <linux/socket.h>
-#include <linux/inet.h>
-#include <linux/fs_parser.h>
-#include <linux/fs_context.h>
-#include <linux/crc32.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/quotaops.h>
-#include <linux/signal.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/init.h>
+#include <peenux/random.h>
+#include <peenux/statfs.h>
+#include <peenux/moduleparam.h>
+#include <peenux/blkdev.h>
+#include <peenux/socket.h>
+#include <peenux/inet.h>
+#include <peenux/fs_parser.h>
+#include <peenux/fs_context.h>
+#include <peenux/crc32.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/quotaops.h>
+#include <peenux/signal.h>
 
 #define CREATE_TRACE_POINTS
 #include "ocfs2_trace.h"

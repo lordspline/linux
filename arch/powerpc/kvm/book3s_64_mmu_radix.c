@@ -4,14 +4,14 @@
  * Copyright 2016 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
  */
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/anon_inodes.h>
-#include <linux/file.h>
-#include <linux/debugfs.h>
-#include <linux/pgtable.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/file.h>
+#include <peenux/debugfs.h>
+#include <peenux/pgtable.h>
 
 #include <asm/kvm_ppc.h>
 #include <asm/kvm_book3s.h>

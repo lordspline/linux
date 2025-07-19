@@ -9,10 +9,10 @@
  * Maintainer: Lorenzo Pieralisi <lorenzo.pieralisi@arm.com>
  * Maintainer: Daniel Lezcano <daniel.lezcano@linaro.org>
  */
-#include <linux/cpuidle.h>
-#include <linux/cpu_pm.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/cpuidle.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
 #include <asm/cpu.h>
 #include <asm/cputype.h>

@@ -7,14 +7,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/list.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/wmi.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/list.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/wmi.h>
 
 #include "dell-wmi-privacy.h"
 

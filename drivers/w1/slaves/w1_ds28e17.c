@@ -5,20 +5,20 @@
  * Copyright (c) 2016 Jan Kandziora <jjj@gmx.de>
  */
 
-#include <linux/crc16.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/crc16.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 
 #define CRC16_INIT 0
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 
 #define W1_FAMILY_DS28E17 0x19
 

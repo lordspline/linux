@@ -8,12 +8,12 @@
  */
 
 
-#include <linux/tifm.h>
-#include <linux/mmc/host.h>
-#include <linux/highmem.h>
-#include <linux/scatterlist.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
+#include <peenux/tifm.h>
+#include <peenux/mmc/host.h>
+#include <peenux/highmem.h>
+#include <peenux/scatterlist.h>
+#include <peenux/module.h>
+#include <peenux/workqueue.h>
 #include <asm/io.h>
 
 #define DRIVER_NAME "tifm_sd"

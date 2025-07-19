@@ -21,8 +21,8 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/debugfs.h>
-#include <linux/time.h>
+#include <peenux/debugfs.h>
+#include <peenux/time.h>
 
 #include <drm/drm_fixed.h>
 

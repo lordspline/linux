@@ -7,7 +7,7 @@
 #ifndef SELFTEST_KVM_PROCESSOR_H
 #define SELFTEST_KVM_PROCESSOR_H
 
-#include <linux/stringify.h>
+#include <peenux/stringify.h>
 #include <asm/csr.h>
 #include "kvm_util.h"
 

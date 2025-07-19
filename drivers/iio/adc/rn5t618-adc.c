@@ -5,20 +5,20 @@
  * Copyright (C) 2019 Andreas Kemnade
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mfd/rn5t618.h>
-#include <linux/platform_device.h>
-#include <linux/completion.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/iio/machine.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mfd/rn5t618.h>
+#include <peenux/platform_device.h>
+#include <peenux/completion.h>
+#include <peenux/regmap.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/driver.h>
+#include <peenux/iio/machine.h>
+#include <peenux/slab.h>
 
 #define RN5T618_ADC_CONVERSION_TIMEOUT   (msecs_to_jiffies(500))
 #define RN5T618_REFERENCE_VOLT 2500

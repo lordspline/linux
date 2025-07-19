@@ -10,22 +10,22 @@
  * Copyright (C) 2019-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/atomic.h>
-#include <linux/completion.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/serdev.h>
-#include <linux/sysfs.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/atomic.h>
+#include <peenux/completion.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/kref.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/serdev.h>
+#include <peenux/sysfs.h>
+#include <peenux/units.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_aggregator/device.h>
+#include <peenux/surface_aggregator/controller.h>
+#include <peenux/surface_aggregator/device.h>
 
 #include "bus.h"
 #include "controller.h"

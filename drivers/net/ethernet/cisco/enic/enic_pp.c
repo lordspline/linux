@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright 2011 Cisco Systems, Inc.  All rights reserved.
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/rtnetlink.h>
 #include <net/ip.h>
 
 #include "vnic_vic.h"

@@ -9,30 +9,30 @@
  * - Better memory allocation techniques?
  * - Alternative access techniques?
  */
-#include <linux/atomic.h>
-#include <linux/anon_inodes.h>
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/device.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-fence.h>
-#include <linux/dma-resv.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/cdev.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/poll.h>
-#include <linux/sched/signal.h>
+#include <peenux/atomic.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/cleanup.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/device.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-fence.h>
+#include <peenux/dma-resv.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/cdev.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/poll.h>
+#include <peenux/sched/signal.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-opaque.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/iio-opaque.h>
 #include "iio_core.h"
 #include "iio_core_trigger.h"
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/buffer_impl.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/buffer_impl.h>
 
 #define DMABUF_ENQUEUE_TIMEOUT_MS 5000
 

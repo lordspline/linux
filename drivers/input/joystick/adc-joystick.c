@@ -3,15 +3,15 @@
  * Input driver for joysticks connected over ADC.
  * Copyright (c) 2019-2020 Artur Rojek <contact@artur-rojek.eu>
  */
-#include <linux/ctype.h>
-#include <linux/input.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/consumer.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/ctype.h>
+#include <peenux/input.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 struct adc_joystick_axis {
 	u32 code;
@@ -160,10 +160,10 @@ static int adc_joystick_set_axes(struct device *dev, struct adc_joystick *joy)
 			return -EINVAL;
 		}
 
-		error = fwnode_property_read_u32(child, "linux,code",
+		error = fwnode_property_read_u32(child, "peenux,code",
 						 &axes[i].code);
 		if (error) {
-			dev_err(dev, "linux,code invalid or missing\n");
+			dev_err(dev, "peenux,code invalid or missing\n");
 			return error;
 		}
 

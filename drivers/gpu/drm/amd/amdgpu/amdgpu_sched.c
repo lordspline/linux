@@ -22,8 +22,8 @@
  * Authors: Andres Rodriguez <andresx7@gmail.com>
  */
 
-#include <linux/file.h>
-#include <linux/pid.h>
+#include <peenux/file.h>
+#include <peenux/pid.h>
 
 #include <drm/amdgpu_drm.h>
 

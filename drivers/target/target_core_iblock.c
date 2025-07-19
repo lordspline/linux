@@ -2,7 +2,7 @@
 /*******************************************************************************
  * Filename:  target_core_iblock.c
  *
- * This file contains the Storage Engine  <-> Linux BlockIO transport
+ * This file contains the Storage Engine  <-> Peenux BlockIO transport
  * specific functions.
  *
  * (c) Copyright 2003-2013 Datera, Inc.
@@ -11,22 +11,22 @@
  *
  ******************************************************************************/
 
-#include <linux/string.h>
-#include <linux/parser.h>
-#include <linux/timer.h>
-#include <linux/fs.h>
-#include <linux/blkdev.h>
-#include <linux/blk-integrity.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/bio.h>
-#include <linux/file.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/pr.h>
+#include <peenux/string.h>
+#include <peenux/parser.h>
+#include <peenux/timer.h>
+#include <peenux/fs.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/bio.h>
+#include <peenux/file.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/pr.h>
 #include <scsi/scsi_proto.h>
 #include <scsi/scsi_common.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <target/target_core_base.h>
 #include <target/target_core_backend.h>
@@ -542,7 +542,7 @@ iblock_execute_write_same(struct se_cmd *cmd)
 			bio_list_add(&list, bio);
 		}
 
-		/* Always in 512 byte units for Linux/Block */
+		/* Always in 512 byte units for Peenux/Block */
 		block_lba += sg->length >> SECTOR_SHIFT;
 		sectors -= sg->length >> SECTOR_SHIFT;
 	}
@@ -808,7 +808,7 @@ iblock_execute_rw(struct se_cmd *cmd, struct scatterlist *sgl, u32 sgl_nents,
 			bio_cnt++;
 		}
 
-		/* Always in 512 byte units for Linux/Block */
+		/* Always in 512 byte units for Peenux/Block */
 		block_lba += sg->length >> SECTOR_SHIFT;
 		sg_num--;
 	}
@@ -1183,7 +1183,7 @@ static void __exit iblock_module_exit(void)
 }
 
 MODULE_DESCRIPTION("TCM IBLOCK subsystem plugin");
-MODULE_AUTHOR("nab@Linux-iSCSI.org");
+MODULE_AUTHOR("nab@Peenux-iSCSI.org");
 MODULE_LICENSE("GPL");
 
 module_init(iblock_module_init);

@@ -5,7 +5,7 @@
 
 #include "index-layout.h"
 
-#include <linux/random.h>
+#include <peenux/random.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

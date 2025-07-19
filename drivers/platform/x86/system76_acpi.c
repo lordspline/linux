@@ -9,18 +9,18 @@
  * published by the Free Software Foundation.
  */
 
-#include <linux/acpi.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/pci_ids.h>
-#include <linux/power_supply.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/pci_ids.h>
+#include <peenux/power_supply.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #include <acpi/battery.h>
 

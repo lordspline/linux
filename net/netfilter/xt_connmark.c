@@ -8,12 +8,12 @@
  *	Jan Engelhardt <jengelh@medozas.de>
  */
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
 #include <net/netfilter/nf_conntrack.h>
 #include <net/netfilter/nf_conntrack_ecache.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_connmark.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_connmark.h>
 
 MODULE_AUTHOR("Henrik Nordstrom <hno@marasystems.com>");
 MODULE_DESCRIPTION("Xtables: connection mark operations");

@@ -21,14 +21,14 @@
  * Copyright (C) 2025 Caleb James DeLisle <cjd@cjdns.fr>
  */
 
-#include <linux/cleanup.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
+#include <peenux/cleanup.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
 
 #define IRQ_COUNT		40
 

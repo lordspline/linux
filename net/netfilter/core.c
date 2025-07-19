@@ -6,22 +6,22 @@
  *
  * This code is GPL.
  */
-#include <linux/kernel.h>
-#include <linux/netfilter.h>
+#include <peenux/kernel.h>
+#include <peenux/netfilter.h>
 #include <net/protocol.h>
-#include <linux/init.h>
-#include <linux/skbuff.h>
-#include <linux/wait.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/if.h>
-#include <linux/netdevice.h>
-#include <linux/netfilter_ipv6.h>
-#include <linux/inetdevice.h>
-#include <linux/proc_fs.h>
-#include <linux/mutex.h>
-#include <linux/mm.h>
-#include <linux/rcupdate.h>
+#include <peenux/init.h>
+#include <peenux/skbuff.h>
+#include <peenux/wait.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/if.h>
+#include <peenux/netdevice.h>
+#include <peenux/netfilter_ipv6.h>
+#include <peenux/inetdevice.h>
+#include <peenux/proc_fs.h>
+#include <peenux/mutex.h>
+#include <peenux/mm.h>
+#include <peenux/rcupdate.h>
 #include <net/net_namespace.h>
 #include <net/netfilter/nf_queue.h>
 #include <net/sock.h>

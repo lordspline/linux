@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2015,2019 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2015,2019 The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/cleanup.h>
-#include <linux/io.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/firmware/qcom/qcom_tzmem.h>
-#include <linux/arm-smccc.h>
-#include <linux/dma-mapping.h>
+#include <peenux/cleanup.h>
+#include <peenux/io.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/firmware/qcom/qcom_tzmem.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/dma-mapping.h>
 
 #include "qcom_scm.h"
 

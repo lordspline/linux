@@ -24,16 +24,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/kdev_t.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/kdev_t.h>
 #include "bttvp.h"
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
@@ -41,7 +41,7 @@
 #include <media/i2c/tvaudio.h>
 #include <media/drv-intf/msp3400.h>
 
-#include <linux/dma-mapping.h>
+#include <peenux/dma-mapping.h>
 
 #include <asm/io.h>
 #include <asm/byteorder.h>

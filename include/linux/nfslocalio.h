@@ -8,12 +8,12 @@
 
 #if IS_ENABLED(CONFIG_NFS_LOCALIO)
 
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/uuid.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/svcauth.h>
-#include <linux/nfs.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/uuid.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/svcauth.h>
+#include <peenux/nfs.h>
 #include <net/net_namespace.h>
 
 struct nfs_client;

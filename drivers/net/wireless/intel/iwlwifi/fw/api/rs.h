@@ -5,9 +5,9 @@
  */
 #ifndef __iwl_fw_api_rs_h__
 #define __iwl_fw_api_rs_h__
-#include <linux/bitfield.h>
-#include <linux/types.h>
-#include <linux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/types.h>
+#include <peenux/bits.h>
 #include "mac.h"
 
 /**

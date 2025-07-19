@@ -4,16 +4,16 @@
  *
  * Copyright (C) 2023 Intel Corporation
  *
- * Author: Lu Baolu <baolu.lu@linux.intel.com>
- *         Jacob Pan <jacob.jun.pan@linux.intel.com>
+ * Author: Lu Baolu <baolu.lu@peenux.intel.com>
+ *         Jacob Pan <jacob.jun.pan@peenux.intel.com>
  *         Yi Liu <yi.l.liu@intel.com>
  */
 
 #define pr_fmt(fmt)	"DMAR: " fmt
 
-#include <linux/iommu.h>
-#include <linux/pci.h>
-#include <linux/pci-ats.h>
+#include <peenux/iommu.h>
+#include <peenux/pci.h>
+#include <peenux/pci-ats.h>
 
 #include "iommu.h"
 #include "pasid.h"

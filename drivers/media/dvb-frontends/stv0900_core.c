@@ -9,11 +9,11 @@
  * Copyright (C) 2009 Igor M. Liplianin <liplianin@netup.ru>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
 
 #include "stv0900.h"
 #include "stv0900_reg.h"

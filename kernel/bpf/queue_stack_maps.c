@@ -4,10 +4,10 @@
  *
  * Copyright (c) 2018 Politecnico di Torino
  */
-#include <linux/bpf.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/btf_ids.h>
+#include <peenux/bpf.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/btf_ids.h>
 #include "percpu_freelist.h"
 #include <asm/rqspinlock.h>
 

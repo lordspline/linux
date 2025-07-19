@@ -6,15 +6,15 @@
  * Christian Marangi <ansuelsmth@gmail.com
  */
 
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 #include <crypto/aes.h>
 #include <crypto/ctr.h>
 

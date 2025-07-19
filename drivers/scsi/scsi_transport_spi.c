@@ -5,15 +5,15 @@
  *  Copyright (c) 2003 Silicon Graphics, Inc.  All rights reserved.
  *  Copyright (c) 2004, 2005 James Bottomley <James.Bottomley@SteelEye.com>
  */
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
-#include <linux/blkdev.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
+#include <peenux/ctype.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/workqueue.h>
+#include <peenux/blkdev.h>
+#include <peenux/mutex.h>
+#include <peenux/sysfs.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
 #include <scsi/scsi.h>
 #include "scsi_priv.h"
 #include <scsi/scsi_device.h>

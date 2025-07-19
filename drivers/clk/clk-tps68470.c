@@ -14,14 +14,14 @@
  *	Antti Laakso <antti.laakso@intel.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/kernel.h>
-#include <linux/mfd/tps68470.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/tps68470.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/tps68470.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/tps68470.h>
+#include <peenux/regmap.h>
 
 #define TPS68470_CLK_NAME "tps68470-clk"
 

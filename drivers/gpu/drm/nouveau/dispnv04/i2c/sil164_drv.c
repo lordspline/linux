@@ -24,7 +24,7 @@
  *
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_print.h>

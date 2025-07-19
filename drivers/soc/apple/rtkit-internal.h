@@ -1,22 +1,22 @@
 /* SPDX-License-Identifier: GPL-2.0-only OR MIT */
 /*
  * Apple RTKit IPC library
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Peenux Contributors
  */
 
 #ifndef _APPLE_RTKIT_INTERAL_H
 #define _APPLE_RTKIT_INTERAL_H
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/soc/apple/rtkit.h>
-#include <linux/workqueue.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/completion.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/soc/apple/rtkit.h>
+#include <peenux/workqueue.h>
 #include "mailbox.h"
 
 #define APPLE_RTKIT_APP_ENDPOINT_START 0x20

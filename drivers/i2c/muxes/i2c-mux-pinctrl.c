@@ -5,13 +5,13 @@
  * Copyright (c) 2012, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 #include "../../pinctrl/core.h"
 
 struct i2c_mux_pinctrl {

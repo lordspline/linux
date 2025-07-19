@@ -7,11 +7,11 @@
 #include <asm/arch_timer.h>
 #endif
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pagemap.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pagemap.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 #include <drm/panfrost_drm.h>
 #include <drm/drm_drv.h>
 #include <drm/drm_ioctl.h>

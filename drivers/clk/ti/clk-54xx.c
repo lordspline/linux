@@ -7,12 +7,12 @@
  * Tero Kristo (t-kristo@ti.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/io.h>
-#include <linux/clk/ti.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/io.h>
+#include <peenux/clk/ti.h>
 #include <dt-bindings/clock/omap5.h>
 
 #include "clock.h"

@@ -14,18 +14,18 @@
   - auto idle mode support
 */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/irq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/bitops.h>
-#include <linux/input/mt.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/irq.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/bitops.h>
+#include <peenux/input/mt.h>
 
 /*
  * Mouse Mode: some panel may configure the controller to mouse mode,

@@ -2,16 +2,16 @@
 #ifndef _LINUX_SCHED_SIGNAL_H
 #define _LINUX_SCHED_SIGNAL_H
 
-#include <linux/rculist.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/sched/jobctl.h>
-#include <linux/sched/task.h>
-#include <linux/cred.h>
-#include <linux/refcount.h>
-#include <linux/pid.h>
-#include <linux/posix-timers.h>
-#include <linux/mm_types.h>
+#include <peenux/rculist.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/sched/jobctl.h>
+#include <peenux/sched/task.h>
+#include <peenux/cred.h>
+#include <peenux/refcount.h>
+#include <peenux/pid.h>
+#include <peenux/posix-timers.h>
+#include <peenux/mm_types.h>
 #include <asm/ptrace.h>
 
 /*

@@ -13,17 +13,17 @@
  * from Florian Echtler, Henrik Bjerregaard Pedersen, and others.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/usb.h>
-#include <linux/uaccess.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/usb.h>
+#include <peenux/uaccess.h>
+#include <peenux/mm.h>
+#include <peenux/fb.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/unaligned.h>
 #include <video/udlfb.h>
 #include "edid.h"
 

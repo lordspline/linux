@@ -3,12 +3,12 @@
  * Copyright (C) 2014 Intel Corporation
  *
  * Authors:
- *	Chen, Gong <gong.chen@linux.intel.com>
+ *	Chen, Gong <gong.chen@peenux.intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/ras.h>
-#include <linux/uuid.h>
+#include <peenux/init.h>
+#include <peenux/ras.h>
+#include <peenux/uuid.h>
 
 #if IS_ENABLED(CONFIG_AMD_ATL)
 /*

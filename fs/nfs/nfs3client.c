@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/nfs_fs.h>
-#include <linux/nfs_mount.h>
-#include <linux/sunrpc/addr.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_mount.h>
+#include <peenux/sunrpc/addr.h>
 #include "internal.h"
 #include "nfs3_fs.h"
 #include "netns.h"

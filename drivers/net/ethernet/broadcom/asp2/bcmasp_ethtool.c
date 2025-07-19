@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 #define pr_fmt(fmt)				"bcmasp_ethtool: " fmt
 
-#include <linux/unaligned.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
+#include <peenux/unaligned.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/platform_device.h>
 
 #include "bcmasp.h"
 #include "bcmasp_intf_defs.h"

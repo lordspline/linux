@@ -30,12 +30,12 @@
  *	If the kernel uses 300 Hz, steps of about 26 samples are possible.
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/mISDNhw.h>
-#include <linux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/mISDNhw.h>
+#include <peenux/slab.h>
 
 #include "hfc_pci.h"
 

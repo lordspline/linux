@@ -5,9 +5,9 @@
  * Zhu Yixin <yzhu@maxlinear.com>
  * Rahul Tanwar <rtanwar@maxlinear.com>
  */
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/of.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
 
 #include "clk-cgu.h"
 

@@ -114,7 +114,7 @@ UCLAMP
 It is possible to set effective u_min and u_max clamps on each CFS or RT task;
 the runqueue keeps an max aggregate of these clamps for all running tasks.
 
-For more detail see: include/uapi/linux/sched/types.h
+For more detail see: include/uapi/peenux/sched/types.h
 
 
 Schedutil / DVFS

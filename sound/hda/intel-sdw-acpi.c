@@ -5,16 +5,16 @@
  * SDW Intel ACPI scan helpers
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/soundwire/sdw_intel.h>
-#include <linux/string.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/soundwire/sdw_intel.h>
+#include <peenux/string.h>
 
 #define SDW_LINK_TYPE		4 /* from Intel ACPI documentation */
 

@@ -5,19 +5,19 @@
  * Based on drivers/misc/eeprom/sunxi_sid.c
  */
 
-#include <linux/device.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/random.h>
+#include <peenux/device.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/kobject.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/random.h>
 
 #include <soc/tegra/fuse.h>
 

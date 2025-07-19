@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/linux/buffer_head.h
+ * include/peenux/buffer_head.h
  *
  * Everything to do with buffer_heads.
  */
@@ -8,13 +8,13 @@
 #ifndef _LINUX_BUFFER_HEAD_H
 #define _LINUX_BUFFER_HEAD_H
 
-#include <linux/types.h>
-#include <linux/blk_types.h>
-#include <linux/fs.h>
-#include <linux/linkage.h>
-#include <linux/pagemap.h>
-#include <linux/wait.h>
-#include <linux/atomic.h>
+#include <peenux/types.h>
+#include <peenux/blk_types.h>
+#include <peenux/fs.h>
+#include <peenux/linkage.h>
+#include <peenux/pagemap.h>
+#include <peenux/wait.h>
+#include <peenux/atomic.h>
 
 enum bh_state_bits {
 	BH_Uptodate,	/* Contains valid data */

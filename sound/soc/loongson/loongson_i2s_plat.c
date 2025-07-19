@@ -7,12 +7,12 @@
 // Author: Yingkun Meng <mengyingkun@loongson.cn>
 //         Binbin Zhou <zhoubinbin@loongson.cn>
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

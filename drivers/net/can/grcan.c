@@ -22,20 +22,20 @@
  * Contributors: Andreas Larsson <andreas@gaisler.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/io.h>
-#include <linux/can/dev.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/io.h>
+#include <peenux/can/dev.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
 
-#include <linux/dma-mapping.h>
+#include <peenux/dma-mapping.h>
 
 #define DRV_NAME	"grcan"
 

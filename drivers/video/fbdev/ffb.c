@@ -2,22 +2,22 @@
 /* ffb.c: Creator/Elite3D frame buffer driver
  *
  * Copyright (C) 2003, 2006 David S. Miller (davem@davemloft.net)
- * Copyright (C) 1997,1998,1999 Jakub Jelinek (jj@ultra.linux.cz)
+ * Copyright (C) 1997,1998,1999 Jakub Jelinek (jj@ultra.peenux.cz)
  *
  * Driver layout based loosely on tgafb.c, see that file for credits.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/fb.h>
-#include <linux/mm.h>
-#include <linux/timer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/fb.h>
+#include <peenux/mm.h>
+#include <peenux/timer.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/upa.h>

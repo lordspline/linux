@@ -7,19 +7,19 @@
  *                         Marcus Metzler <mocm@metzlerbros.de>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/io.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/timer.h>
-#include <linux/i2c.h>
-#include <linux/swab.h>
-#include <linux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/poll.h>
+#include <peenux/io.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/timer.h>
+#include <peenux/i2c.h>
+#include <peenux/swab.h>
+#include <peenux/vmalloc.h>
 
 #include "ddbridge.h"
 #include "ddbridge-i2c.h"

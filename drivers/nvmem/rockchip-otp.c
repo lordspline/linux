@@ -6,18 +6,18 @@
  * Author: Finley Xiao <finley.xiao@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 /* OTP Register Offsets */
 #define OTPC_SBPI_CTRL			0x0020

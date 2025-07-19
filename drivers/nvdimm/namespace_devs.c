@@ -2,13 +2,13 @@
 /*
  * Copyright(c) 2013-2015 Intel Corporation. All rights reserved.
  */
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/sort.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/nd.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/sort.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/nd.h>
 #include "nd-core.h"
 #include "pmem.h"
 #include "pfn.h"

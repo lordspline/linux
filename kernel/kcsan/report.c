@@ -5,17 +5,17 @@
  * Copyright (C) 2019, Google LLC.
  */
 
-#include <linux/debug_locks.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/kallsyms.h>
-#include <linux/kernel.h>
-#include <linux/lockdep.h>
-#include <linux/preempt.h>
-#include <linux/printk.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/stacktrace.h>
+#include <peenux/debug_locks.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kernel.h>
+#include <peenux/lockdep.h>
+#include <peenux/preempt.h>
+#include <peenux/printk.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/stacktrace.h>
 
 #include "kcsan.h"
 #include "encoding.h"

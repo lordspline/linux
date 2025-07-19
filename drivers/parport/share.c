@@ -17,22 +17,22 @@
 
 #undef PARPORT_DEBUG_SHARING		/* undef for production */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/threads.h>
-#include <linux/parport.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/kmod.h>
-#include <linux/device.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/threads.h>
+#include <peenux/parport.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
+#include <peenux/kmod.h>
+#include <peenux/device.h>
 
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
 #include <asm/irq.h>
 
 #undef PARPORT_PARANOID

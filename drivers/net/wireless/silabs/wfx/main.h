@@ -10,8 +10,8 @@
 #ifndef WFX_MAIN_H
 #define WFX_MAIN_H
 
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
 
 #include "hif_api_general.h"
 

@@ -45,16 +45,16 @@
  * therefore delaying the throughput loss caused by using SMP threads.
  */
 
-#include <linux/cpufeature.h>
-#include <linux/cpumask.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/kernel_stat.h>
-#include <linux/kstrtox.h>
-#include <linux/ktime.h>
-#include <linux/sysctl.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/cpufeature.h>
+#include <peenux/cpumask.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/kstrtox.h>
+#include <peenux/ktime.h>
+#include <peenux/sysctl.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 #include <asm/hiperdispatch.h>
 #include <asm/setup.h>
 #include <asm/smp.h>

@@ -6,18 +6,18 @@
  * Maxime Ripard <maxime.ripard@bootlin.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/crc-ccitt.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/phy/phy-mipi-dphy.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/crc-ccitt.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/phy/phy-mipi-dphy.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_mipi_dsi.h>

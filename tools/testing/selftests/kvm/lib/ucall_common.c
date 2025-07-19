@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include "linux/types.h"
-#include "linux/bitmap.h"
-#include "linux/atomic.h"
+#include "peenux/types.h"
+#include "peenux/bitmap.h"
+#include "peenux/atomic.h"
 
 #include "kvm_util.h"
 #include "ucall_common.h"

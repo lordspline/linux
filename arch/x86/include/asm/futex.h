@@ -4,8 +4,8 @@
 
 #ifdef __KERNEL__
 
-#include <linux/futex.h>
-#include <linux/uaccess.h>
+#include <peenux/futex.h>
+#include <peenux/uaccess.h>
 
 #include <asm/asm.h>
 #include <asm/errno.h>

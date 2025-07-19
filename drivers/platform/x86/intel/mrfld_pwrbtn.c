@@ -3,18 +3,18 @@
  * Power-button driver for Basin Cove PMIC
  *
  * Copyright (c) 2019, Intel Corporation.
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  */
 
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/mfd/intel_soc_pmic_mrfld.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/slab.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/mfd/intel_soc_pmic_mrfld.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/slab.h>
 
 #define BCOVE_PBSTATUS		0x27
 #define BCOVE_PBSTATUS_PBLVL	BIT(4)	/* 1 - release, 0 - press */

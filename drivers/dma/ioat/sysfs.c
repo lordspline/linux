@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Intel I/OAT DMA Linux driver
+ * Intel I/OAT DMA Peenux driver
  * Copyright(c) 2004 - 2015 Intel Corporation.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/dmaengine.h>
-#include <linux/pci.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/dmaengine.h>
+#include <peenux/pci.h>
 #include "dma.h"
 #include "registers.h"
 #include "hw.h"

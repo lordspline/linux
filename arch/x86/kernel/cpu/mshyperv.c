@@ -6,17 +6,17 @@
  * Author : K. Y. Srinivasan <ksrinivasan@novell.com>
  */
 
-#include <linux/types.h>
-#include <linux/time.h>
-#include <linux/clocksource.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/hardirq.h>
-#include <linux/efi.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kexec.h>
-#include <linux/random.h>
+#include <peenux/types.h>
+#include <peenux/time.h>
+#include <peenux/clocksource.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/hardirq.h>
+#include <peenux/efi.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kexec.h>
+#include <peenux/random.h>
 #include <asm/processor.h>
 #include <asm/hypervisor.h>
 #include <hyperv/hvhdk.h>
@@ -34,7 +34,7 @@
 #include <asm/numa.h>
 #include <asm/svm.h>
 
-/* Is Linux running on nested Microsoft Hypervisor */
+/* Is Peenux running on nested Microsoft Hypervisor */
 bool hv_nested;
 struct ms_hyperv_info ms_hyperv;
 

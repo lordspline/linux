@@ -9,13 +9,13 @@
 #ifndef _LINUX_KFENCE_H
 #define _LINUX_KFENCE_H
 
-#include <linux/mm.h>
-#include <linux/types.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_KFENCE
 
-#include <linux/atomic.h>
-#include <linux/static_key.h>
+#include <peenux/atomic.h>
+#include <peenux/static_key.h>
 
 extern unsigned long kfence_sample_interval;
 

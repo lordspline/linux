@@ -8,12 +8,12 @@
 #ifndef _HP_BIOSCFG_H_
 #define _HP_BIOSCFG_H_
 
-#include <linux/wmi.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/nls.h>
+#include <peenux/wmi.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/nls.h>
 
 #define DRIVER_NAME		"hp-bioscfg"
 

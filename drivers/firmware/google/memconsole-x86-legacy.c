@@ -7,12 +7,12 @@
  * Copyright 2017 Google Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/dmi.h>
-#include <linux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/dmi.h>
+#include <peenux/mm.h>
 #include <asm/bios_ebda.h>
-#include <linux/acpi.h>
+#include <peenux/acpi.h>
 
 #include "memconsole.h"
 

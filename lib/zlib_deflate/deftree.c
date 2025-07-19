@@ -34,8 +34,8 @@
 
 /* #include "deflate.h" */
 
-#include <linux/zutil.h>
-#include <linux/bitrev.h>
+#include <peenux/zutil.h>
+#include <peenux/bitrev.h>
 #include "defutil.h"
 
 #ifdef DEBUG_ZLIB

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Converted from tools/testing/selftests/bpf/verifier/search_pruning.c */
 
-#include <linux/bpf.h>
-#include <../../../include/linux/filter.h>
+#include <peenux/bpf.h>
+#include <../../../include/peenux/filter.h>
 #include <bpf/bpf_helpers.h>
 #include "bpf_misc.h"
 

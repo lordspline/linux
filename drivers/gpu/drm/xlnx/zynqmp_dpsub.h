@@ -12,7 +12,7 @@
 #ifndef _ZYNQMP_DPSUB_H_
 #define _ZYNQMP_DPSUB_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct clk;
 struct device;

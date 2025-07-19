@@ -11,7 +11,7 @@
 #ifndef __LINUX_PINCTRL_PINCTRL_H
 #define __LINUX_PINCTRL_PINCTRL_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct device;
 struct device_node;

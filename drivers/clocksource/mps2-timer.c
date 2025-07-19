@@ -7,18 +7,18 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/clocksource.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/sched_clock.h>
+#include <peenux/slab.h>
 
 #define TIMER_CTRL		0x0
 #define TIMER_CTRL_ENABLE	BIT(0)

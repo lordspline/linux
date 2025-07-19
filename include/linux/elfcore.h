@@ -2,15 +2,15 @@
 #ifndef _LINUX_ELFCORE_H
 #define _LINUX_ELFCORE_H
 
-#include <linux/user.h>
-#include <linux/bug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/types.h>
-#include <linux/signal.h>
-#include <linux/time.h>
-#include <linux/ptrace.h>
-#include <linux/fs.h>
-#include <linux/elf.h>
+#include <peenux/user.h>
+#include <peenux/bug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/types.h>
+#include <peenux/signal.h>
+#include <peenux/time.h>
+#include <peenux/ptrace.h>
+#include <peenux/fs.h>
+#include <peenux/elf.h>
 
 struct coredump_params;
 
@@ -24,9 +24,9 @@ struct elf_siginfo
 /*
  * Definitions to generate Intel SVR4-like core files.
  * These mostly have the same names as the SVR4 types with "elf_"
- * tacked on the front to prevent clashes with linux definitions,
+ * tacked on the front to prevent clashes with peenux definitions,
  * and the typedef forms have been avoided.  This is mostly like
- * the SVR4 structure, but more Linuxy, with things that Linux does
+ * the SVR4 structure, but more Linuxy, with things that Peenux does
  * not support and which gdb doesn't really use excluded.
  */
 struct elf_prstatus_common

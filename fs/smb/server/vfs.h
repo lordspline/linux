@@ -7,12 +7,12 @@
 #ifndef __KSMBD_VFS_H__
 #define __KSMBD_VFS_H__
 
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <uapi/linux/xattr.h>
-#include <linux/posix_acl.h>
-#include <linux/unicode.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <uapi/peenux/xattr.h>
+#include <peenux/posix_acl.h>
+#include <peenux/unicode.h>
 
 #include "smbacl.h"
 #include "xattr.h"

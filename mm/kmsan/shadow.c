@@ -9,12 +9,12 @@
 
 #include <asm/kmsan.h>
 #include <asm/tlbflush.h>
-#include <linux/cacheflush.h>
-#include <linux/memblock.h>
-#include <linux/mm_types.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
+#include <peenux/cacheflush.h>
+#include <peenux/memblock.h>
+#include <peenux/mm_types.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
 
 #include "../internal.h"
 #include "kmsan.h"

@@ -12,11 +12,11 @@
 #ifndef _MEDIA_VIDEOBUF2_CORE_H
 #define _MEDIA_VIDEOBUF2_CORE_H
 
-#include <linux/mm_types.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/dma-buf.h>
-#include <linux/bitops.h>
+#include <peenux/mm_types.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <peenux/dma-buf.h>
+#include <peenux/bitops.h>
 #include <media/media-request.h>
 #include <media/frame_vector.h>
 
@@ -1143,7 +1143,7 @@ typedef int (*vb2_thread_fnc)(struct vb2_buffer *vb, void *priv);
  *
  *   This function should not be used for anything else but the videobuf2-dvb
  *   support. If you think you have another good use-case for this, then please
- *   contact the linux-media mailing list first.
+ *   contact the peenux-media mailing list first.
  */
 int vb2_thread_start(struct vb2_queue *q, vb2_thread_fnc fnc, void *priv,
 		     const char *thread_name);

@@ -4,12 +4,12 @@
  * Copyright (c) 2022, Ampere Computing LLC
  */
 
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/regmap.h>
 
 /* Identification Registers */
 #define MANUFACTURER_ID_REG     0x02

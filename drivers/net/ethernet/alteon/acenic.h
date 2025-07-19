@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef _ACENIC_H_
 #define _ACENIC_H_
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
 
 /*
  * Generate TX index update each time, when TX ring is closed.

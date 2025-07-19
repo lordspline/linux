@@ -5,9 +5,9 @@
 #ifndef _ASM_LOONGARCH_H
 #define _ASM_LOONGARCH_H
 
-#include <linux/bits.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/linkage.h>
+#include <peenux/types.h>
 
 #ifndef __ASSEMBLER__
 #include <larchintrin.h>

@@ -5,16 +5,16 @@
  *  Copyright (c) 2012, Jeff Layton <jlayton@redhat.com>
  */
 
-#include <linux/pagemap.h>
-#include <linux/vfs.h>
-#include <linux/falloc.h>
-#include <linux/scatterlist.h>
-#include <linux/uuid.h>
-#include <linux/sort.h>
+#include <peenux/pagemap.h>
+#include <peenux/vfs.h>
+#include <peenux/falloc.h>
+#include <peenux/scatterlist.h>
+#include <peenux/uuid.h>
+#include <peenux/sort.h>
 #include <crypto/aead.h>
-#include <linux/fiemap.h>
-#include <linux/folio_queue.h>
-#include <uapi/linux/magic.h>
+#include <peenux/fiemap.h>
+#include <peenux/folio_queue.h>
+#include <uapi/peenux/magic.h>
 #include "cifsfs.h"
 #include "cifsglob.h"
 #include "smb2pdu.h"
@@ -2034,7 +2034,7 @@ smb2_set_file_size(const unsigned int xid, struct cifs_tcon *tcon,
 	struct inode *inode;
 
 	/*
-	 * If extending file more than one page make sparse. Many Linux fs
+	 * If extending file more than one page make sparse. Many Peenux fs
 	 * make files sparse by default when extending via ftruncate
 	 */
 	inode = d_inode(cfile->dentry);

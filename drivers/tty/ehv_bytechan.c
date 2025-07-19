@@ -20,21 +20,21 @@
  * byte channel used for the console is designated as the default tty.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/fs.h>
+#include <peenux/poll.h>
 #include <asm/epapr_hcalls.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/cdev.h>
-#include <linux/console.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/circ_buf.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/cdev.h>
+#include <peenux/console.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/circ_buf.h>
 #include <asm/udbg.h>
 
 /* The size of the transmit circular buffer.  This must be a power of two. */

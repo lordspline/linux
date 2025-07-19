@@ -7,14 +7,14 @@
  */
 
 #include <dt-bindings/phy/phy.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "phy-mtk-io.h"
 #include "phy-mtk-mipi-csi-0-5-rx-reg.h"

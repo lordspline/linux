@@ -8,9 +8,9 @@
 #ifndef __PINCTRL_MA35_H
 #define __PINCTRL_MA35_H
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/platform_device.h>
 
 struct ma35_mux_desc {
 	const char *name;

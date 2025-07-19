@@ -3,17 +3,17 @@
  * Copyright (c) 2022, Microsoft Corporation.
  *
  * Authors:
- *   Beau Belgrave <beaub@linux.microsoft.com>
+ *   Beau Belgrave <beaub@peenux.microsoft.com>
  */
 
 #ifndef _LINUX_USER_EVENTS_H
 #define _LINUX_USER_EVENTS_H
 
-#include <linux/list.h>
-#include <linux/refcount.h>
-#include <linux/mm_types.h>
-#include <linux/workqueue.h>
-#include <uapi/linux/user_events.h>
+#include <peenux/list.h>
+#include <peenux/refcount.h>
+#include <peenux/mm_types.h>
+#include <peenux/workqueue.h>
+#include <uapi/peenux/user_events.h>
 
 #ifdef CONFIG_USER_EVENTS
 struct user_event_mm {

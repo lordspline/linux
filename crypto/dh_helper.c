@@ -3,10 +3,10 @@
  * Copyright (c) 2016, Intel Corporation
  * Authors: Salvatore Benedetto <salvatore.benedetto@intel.com>
  */
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
 #include <crypto/dh.h>
 #include <crypto/kpp.h>
 

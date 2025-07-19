@@ -8,14 +8,14 @@
  *   Copyright (C) Andrew Tridgell 2001
  */
 
-#include <linux/net.h>
-#include <linux/string.h>
-#include <linux/in.h>
-#include <linux/ctype.h>
-#include <linux/fs.h>
+#include <peenux/net.h>
+#include <peenux/string.h>
+#include <peenux/in.h>
+#include <peenux/ctype.h>
+#include <peenux/fs.h>
 #include <asm/div64.h>
 #include <asm/byteorder.h>
-#include <linux/inet.h>
+#include <peenux/inet.h>
 #include "cifsfs.h"
 #include "cifspdu.h"
 #include "cifsglob.h"

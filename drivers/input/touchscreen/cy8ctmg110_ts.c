@@ -4,16 +4,16 @@
  *
  * Copyright (c) 2009 Aava Mobile
  *
- * Some cleanups by Alan Cox <alan@linux.intel.com>
+ * Some cleanups by Alan Cox <alan@peenux.intel.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <asm/byteorder.h>
 
 #define CY8CTMG110_DRIVER_NAME      "cy8ctmg110"

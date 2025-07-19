@@ -8,29 +8,29 @@
  * EFI SMI interface for Google platforms
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/spinlock.h>
-#include <linux/dma-mapping.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/panic_notifier.h>
-#include <linux/ioctl.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/dmi.h>
-#include <linux/kdebug.h>
-#include <linux/reboot.h>
-#include <linux/efi.h>
-#include <linux/module.h>
-#include <linux/ucs2_string.h>
-#include <linux/suspend.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/spinlock.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/ioctl.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/dmi.h>
+#include <peenux/kdebug.h>
+#include <peenux/reboot.h>
+#include <peenux/efi.h>
+#include <peenux/module.h>
+#include <peenux/ucs2_string.h>
+#include <peenux/suspend.h>
 
 #define GSMI_SHUTDOWN_CLEAN	0	/* Clean Shutdown */
 /* TODO(mikew@google.com): Tie in HARDLOCKUP_DETECTOR with NMIWDT */
@@ -700,7 +700,7 @@ static struct notifier_block gsmi_panic_notifier = {
 };
 
 /*
- * This hash function was blatantly copied from include/linux/hash.h.
+ * This hash function was blatantly copied from include/peenux/hash.h.
  * It is used by this driver to obfuscate a board name that requires a
  * quirk within this driver.
  *

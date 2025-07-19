@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2019-2020 Linaro Limited */
 
-#include <linux/acpi.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/acpi.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #include "xhci.h"
 #include "xhci-trace.h"

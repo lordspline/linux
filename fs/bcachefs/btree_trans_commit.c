@@ -20,8 +20,8 @@
 #include "replicas.h"
 #include "snapshot.h"
 
-#include <linux/prefetch.h>
-#include <linux/string_helpers.h>
+#include <peenux/prefetch.h>
+#include <peenux/string_helpers.h>
 
 static const char * const trans_commit_flags_strs[] = {
 #define x(n, ...) #n,

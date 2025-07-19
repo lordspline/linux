@@ -3,10 +3,10 @@
  * Hardware monitoring driver for MPS Multi-phase Digital VR Controllers(MP2891)
  */
 
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
 #include "pmbus.h"
 
 /*

@@ -7,14 +7,14 @@
  *	Srikar Dronamraju
  *	Jim Keniston
  */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/uprobes.h>
-#include <linux/uaccess.h>
-#include <linux/syscalls.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/ptrace.h>
+#include <peenux/uprobes.h>
+#include <peenux/uaccess.h>
+#include <peenux/syscalls.h>
 
-#include <linux/kdebug.h>
+#include <peenux/kdebug.h>
 #include <asm/processor.h>
 #include <asm/insn.h>
 #include <asm/mmu_context.h>

@@ -5,17 +5,17 @@
  * whether to proceed with probing the host or the peripheral
  * driver.
  */
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
-#include <linux/usb.h>
-#include <linux/usb/otg.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/string_choices.h>
+#include <peenux/usb.h>
+#include <peenux/usb/otg.h>
 
 #include "fotg210.h"
 

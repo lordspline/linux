@@ -3,24 +3,24 @@
  * Intel Low Power Subsystem PWM controller driver
  *
  * Copyright (C) 2014, Intel Corporation
- * Author: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Author: Mika Westerberg <mika.westerberg@peenux.intel.com>
  * Author: Chew Kean Ho <kean.ho.chew@intel.com>
  * Author: Chang Rebecca Swee Fun <rebecca.swee.fun.chang@intel.com>
  * Author: Chew Chiau Ee <chiau.ee.chew@intel.com>
- * Author: Alan Cox <alan@linux.intel.com>
+ * Author: Alan Cox <alan@peenux.intel.com>
  */
 
 #define DEFAULT_SYMBOL_NAMESPACE "PWM_LPSS"
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
-#include <linux/time.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pwm.h>
+#include <peenux/time.h>
 
 #include "pwm-lpss.h"
 
@@ -289,5 +289,5 @@ struct pwm_chip *devm_pwm_lpss_probe(struct device *dev, void __iomem *base,
 EXPORT_SYMBOL_GPL(devm_pwm_lpss_probe);
 
 MODULE_DESCRIPTION("PWM driver for Intel LPSS");
-MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com>");
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@peenux.intel.com>");
 MODULE_LICENSE("GPL v2");

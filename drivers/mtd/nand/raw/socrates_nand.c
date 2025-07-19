@@ -3,15 +3,15 @@
  *  Copyright © 2008 Ilya Yanok, Emcraft Systems
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
 
 #define FPGA_NAND_CMD_MASK		(0x7 << 28)
 #define FPGA_NAND_CMD_COMMAND		(0x0 << 28)

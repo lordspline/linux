@@ -5,20 +5,20 @@
  * Copyright (c) 2020 Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
-#include <linux/uaccess.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/sizes.h>
+#include <peenux/uaccess.h>
 
 #define SSO_DEV_NAME			"lgm-sso"
 
@@ -645,7 +645,7 @@ __sso_led_dt_parse(struct sso_led_priv *priv, struct fwnode_handle *fw_ssoled)
 		}
 
 		fwnode_property_read_string(fwnode_child,
-					    "linux,default-trigger",
+					    "peenux,default-trigger",
 					    &desc->default_trigger);
 
 		if (fwnode_property_present(fwnode_child,

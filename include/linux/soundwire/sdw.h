@@ -4,17 +4,17 @@
 #ifndef __SOUNDWIRE_H
 #define __SOUNDWIRE_H
 
-#include <linux/bitfield.h>
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/lockdep_types.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bug.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/lockdep_types.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 #include <sound/sdca.h>
 
 struct dentry;
@@ -631,7 +631,7 @@ struct sdw_slave_ops {
 /**
  * struct sdw_slave - SoundWire Slave
  * @id: MIPI device ID
- * @dev: Linux device
+ * @dev: Peenux device
  * @index: internal ID for this slave
  * @irq: IRQ number
  * @status: Status reported by the Slave
@@ -691,7 +691,7 @@ struct sdw_slave {
 
 /**
  * struct sdw_master_device - SoundWire 'Master Device' representation
- * @dev: Linux device for this Master
+ * @dev: Peenux device for this Master
  * @bus: Bus handle shortcut
  */
 struct sdw_master_device {

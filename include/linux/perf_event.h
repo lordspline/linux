@@ -14,8 +14,8 @@
 #ifndef _LINUX_PERF_EVENT_H
 #define _LINUX_PERF_EVENT_H
 
-#include <uapi/linux/perf_event.h>
-#include <uapi/linux/bpf_perf_event.h>
+#include <uapi/peenux/perf_event.h>
+#include <uapi/peenux/bpf_perf_event.h>
 
 /*
  * Kernel-internal data types and definitions:
@@ -27,32 +27,32 @@
 #endif
 
 #ifdef CONFIG_HAVE_HW_BREAKPOINT
-# include <linux/rhashtable-types.h>
+# include <peenux/rhashtable-types.h>
 # include <asm/hw_breakpoint.h>
 #endif
 
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
-#include <linux/spinlock.h>
-#include <linux/hrtimer.h>
-#include <linux/fs.h>
-#include <linux/pid_namespace.h>
-#include <linux/workqueue.h>
-#include <linux/ftrace.h>
-#include <linux/cpu.h>
-#include <linux/irq_work.h>
-#include <linux/static_key.h>
-#include <linux/jump_label_ratelimit.h>
-#include <linux/atomic.h>
-#include <linux/sysfs.h>
-#include <linux/perf_regs.h>
-#include <linux/cgroup.h>
-#include <linux/refcount.h>
-#include <linux/security.h>
-#include <linux/static_call.h>
-#include <linux/lockdep.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/rculist.h>
+#include <peenux/rcupdate.h>
+#include <peenux/spinlock.h>
+#include <peenux/hrtimer.h>
+#include <peenux/fs.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/workqueue.h>
+#include <peenux/ftrace.h>
+#include <peenux/cpu.h>
+#include <peenux/irq_work.h>
+#include <peenux/static_key.h>
+#include <peenux/jump_label_ratelimit.h>
+#include <peenux/atomic.h>
+#include <peenux/sysfs.h>
+#include <peenux/perf_regs.h>
+#include <peenux/cgroup.h>
+#include <peenux/refcount.h>
+#include <peenux/security.h>
+#include <peenux/static_call.h>
+#include <peenux/lockdep.h>
 
 #include <asm/local.h>
 

@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
-**  linux/amiga/chipram.c
+**  peenux/amiga/chipram.c
 **
-**      Modified 03-May-94 by Geert Uytterhoeven <geert@linux-m68k.org>
+**      Modified 03-May-94 by Geert Uytterhoeven <geert@peenux-m68k.org>
 **          - 64-bit aligned allocations for full AGA compatibility
 **
 **	Rewritten 15/9/2000 by Geert to use resource management
 */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
 
 #include <asm/atomic.h>
 #include <asm/page.h>

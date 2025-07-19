@@ -4,25 +4,25 @@
 /* Written 1995-2000 by Werner Almesberger, EPFL LRC/ICA */
  
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/atm.h>
-#include <linux/atmdev.h>
-#include <linux/sonet.h>
-#include <linux/skbuff.h>
-#include <linux/time.h>
-#include <linux/delay.h>
-#include <linux/uio.h>
-#include <linux/init.h>
-#include <linux/atm_eni.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/pci.h>
+#include <peenux/errno.h>
+#include <peenux/atm.h>
+#include <peenux/atmdev.h>
+#include <peenux/sonet.h>
+#include <peenux/skbuff.h>
+#include <peenux/time.h>
+#include <peenux/delay.h>
+#include <peenux/uio.h>
+#include <peenux/init.h>
+#include <peenux/atm_eni.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
 #include <asm/io.h>
-#include <linux/atomic.h>
-#include <linux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/uaccess.h>
 #include <asm/string.h>
 #include <asm/byteorder.h>
 

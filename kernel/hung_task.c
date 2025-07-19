@@ -6,23 +6,23 @@
  *
  */
 
-#include <linux/mm.h>
-#include <linux/cpu.h>
-#include <linux/nmi.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/lockdep.h>
-#include <linux/export.h>
-#include <linux/panic_notifier.h>
-#include <linux/sysctl.h>
-#include <linux/suspend.h>
-#include <linux/utsname.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/sysctl.h>
-#include <linux/hung_task.h>
+#include <peenux/mm.h>
+#include <peenux/cpu.h>
+#include <peenux/nmi.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/freezer.h>
+#include <peenux/kthread.h>
+#include <peenux/lockdep.h>
+#include <peenux/export.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/sysctl.h>
+#include <peenux/suspend.h>
+#include <peenux/utsname.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/sysctl.h>
+#include <peenux/hung_task.h>
 
 #include <trace/events/sched.h>
 

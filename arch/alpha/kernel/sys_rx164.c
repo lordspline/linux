@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/sys_rx164.c
+ *	peenux/arch/alpha/kernel/sys_rx164.c
  *
  *	Copyright (C) 1995 David A Rusling
  *	Copyright (C) 1996 Jay A Estabrook
@@ -9,13 +9,13 @@
  * Code supporting the RX164 (PCA56+POLARIS).
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
 
 #include <asm/ptrace.h>
 #include <asm/dma.h>

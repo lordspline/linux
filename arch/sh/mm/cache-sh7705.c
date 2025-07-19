@@ -9,18 +9,18 @@
  * for more details.
  *
  */
-#include <linux/init.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/threads.h>
+#include <peenux/init.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/threads.h>
 #include <asm/addrspace.h>
 #include <asm/page.h>
 #include <asm/processor.h>
 #include <asm/cache.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/cacheflush.h>
 

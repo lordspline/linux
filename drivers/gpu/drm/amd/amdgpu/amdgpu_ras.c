@@ -21,14 +21,14 @@
  *
  *
  */
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/reboot.h>
-#include <linux/syscalls.h>
-#include <linux/pm_runtime.h>
-#include <linux/list_sort.h>
+#include <peenux/debugfs.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/reboot.h>
+#include <peenux/syscalls.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/list_sort.h>
 
 #include "amdgpu.h"
 #include "amdgpu_ras.h"

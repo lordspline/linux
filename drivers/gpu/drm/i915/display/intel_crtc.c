@@ -2,9 +2,9 @@
 /*
  * Copyright © 2020 Intel Corporation
  */
-#include <linux/kernel.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/pm_qos.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_fourcc.h>

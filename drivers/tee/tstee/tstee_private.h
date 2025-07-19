@@ -6,12 +6,12 @@
 #ifndef TSTEE_PRIVATE_H
 #define TSTEE_PRIVATE_H
 
-#include <linux/arm_ffa.h>
-#include <linux/bitops.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
-#include <linux/xarray.h>
+#include <peenux/arm_ffa.h>
+#include <peenux/bitops.h>
+#include <peenux/tee_core.h>
+#include <peenux/types.h>
+#include <peenux/uuid.h>
+#include <peenux/xarray.h>
 
 /*
  * The description of the ABI implemented in this file is available at

@@ -3,14 +3,14 @@
  * Copyright(c) 2015 - 2019 Intel Corporation. All rights reserved.
  * Copyright(c) 2021 - 2024 Linaro Ltd.
  */
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/rpmb.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/rpmb.h>
+#include <peenux/slab.h>
 
 static DEFINE_IDA(rpmb_ida);
 

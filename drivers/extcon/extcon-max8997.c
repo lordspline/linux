@@ -5,19 +5,19 @@
 //  Copyright (C) 2012 Samsung Electronics
 //  Donggeun Kim <dg77.kim@samsung.com>
 
-#include <linux/devm-helpers.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/kobject.h>
-#include <linux/mfd/max8997.h>
-#include <linux/mfd/max8997-private.h>
-#include <linux/extcon-provider.h>
-#include <linux/irqdomain.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/kobject.h>
+#include <peenux/mfd/max8997.h>
+#include <peenux/mfd/max8997-private.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/irqdomain.h>
 
 #define	DEV_NAME			"max8997-muic"
 #define	DELAY_MS_DEFAULT		20000		/* unit: millisecond */

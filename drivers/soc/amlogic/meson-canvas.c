@@ -5,15 +5,15 @@
  * Copyright (C) 2014 Endless Mobile
  */
 
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/soc/amlogic/meson-canvas.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/soc/amlogic/meson-canvas.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/io.h>
 
 #define NUM_CANVAS 256
 

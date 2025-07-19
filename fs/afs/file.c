@@ -5,17 +5,17 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/writeback.h>
-#include <linux/gfp.h>
-#include <linux/task_io_accounting_ops.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/netfs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/writeback.h>
+#include <peenux/gfp.h>
+#include <peenux/task_io_accounting_ops.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/netfs.h>
 #include <trace/events/netfs.h>
 #include "internal.h"
 

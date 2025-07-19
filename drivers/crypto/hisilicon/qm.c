@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2019 HiSilicon Limited. */
 #include <asm/page.h>
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/io.h>
-#include <linux/irqreturn.h>
-#include <linux/log2.h>
-#include <linux/pm_runtime.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/uacce.h>
-#include <linux/uaccess.h>
+#include <peenux/acpi.h>
+#include <peenux/bitmap.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/idr.h>
+#include <peenux/io.h>
+#include <peenux/irqreturn.h>
+#include <peenux/log2.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/uacce.h>
+#include <peenux/uaccess.h>
 #include <uapi/misc/uacce/hisi_qm.h>
-#include <linux/hisi_acc_qm.h>
+#include <peenux/hisi_acc_qm.h>
 #include "qm_common.h"
 
 /* eq/aeq irq enable */

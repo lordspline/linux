@@ -2,10 +2,10 @@
 #ifndef _LINUX_BINFMTS_H
 #define _LINUX_BINFMTS_H
 
-#include <linux/sched.h>
-#include <linux/unistd.h>
+#include <peenux/sched.h>
+#include <peenux/unistd.h>
 #include <asm/exec.h>
-#include <uapi/linux/binfmts.h>
+#include <uapi/peenux/binfmts.h>
 
 struct filename;
 struct coredump_params;
@@ -84,7 +84,7 @@ struct linux_binprm {
 
 /*
  * This structure defines the functions that are used to load the binary formats that
- * linux accepts.
+ * peenux accepts.
  */
 struct linux_binfmt {
 	struct list_head lh;

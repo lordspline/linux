@@ -13,8 +13,8 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 #include <soc/tegra/fuse.h>
 
 #include <dt-bindings/thermal/tegra124-soctherm.h>

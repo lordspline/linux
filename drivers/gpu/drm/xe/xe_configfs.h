@@ -5,7 +5,7 @@
 #ifndef _XE_CONFIGFS_H_
 #define _XE_CONFIGFS_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct pci_dev;
 

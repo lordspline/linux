@@ -7,13 +7,13 @@
  * Author: Baruch Siach <baruch@tkos.co.il>
  */
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/of.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/of.h>
 
 #define DC_RTC_CONTROL		0x0
 #define DC_RTC_TIME		0x8

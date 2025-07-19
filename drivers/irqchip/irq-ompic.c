@@ -58,15 +58,15 @@
  *
  */
 
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/smp.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/smp.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
 
-#include <linux/irqchip.h>
+#include <peenux/irqchip.h>
 
 #define OMPIC_CPUBYTES		8
 #define OMPIC_CTRL(cpu)		(0x0 + (cpu * OMPIC_CPUBYTES))

@@ -6,12 +6,12 @@
 
 #include <errno.h>
 #include <stdbool.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/log2.h>
-#include <linux/zalloc.h>
-#include <linux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/log2.h>
+#include <peenux/zalloc.h>
+#include <peenux/err.h>
 #include <cpuid.h>
 
 #include "../../../util/session.h"

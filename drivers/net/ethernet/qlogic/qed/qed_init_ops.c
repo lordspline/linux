@@ -4,13 +4,13 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/types.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include "qed.h"
 #include "qed_hsi.h"
 #include "qed_hw.h"

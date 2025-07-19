@@ -12,7 +12,7 @@
 # more details.
 #
 # Authors:
-#	 Todd Brandt <todd.e.brandt@linux.intel.com>
+#	 Todd Brandt <todd.e.brandt@peenux.intel.com>
 
 # Prefix to the directories we're installing to
 DESTDIR ?=

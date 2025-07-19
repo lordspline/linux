@@ -6,8 +6,8 @@
 
 #include <hyp/sysreg-sr.h>
 
-#include <linux/compiler.h>
-#include <linux/kvm_host.h>
+#include <peenux/compiler.h>
+#include <peenux/kvm_host.h>
 
 #include <asm/kprobes.h>
 #include <asm/kvm_asm.h>

@@ -1,18 +1,18 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * VFIO Region definitions for ZPCI devices
  *
  * Copyright IBM Corp. 2020
  *
- * Author(s): Pierre Morel <pmorel@linux.ibm.com>
- *            Matthew Rosato <mjrosato@linux.ibm.com>
+ * Author(s): Pierre Morel <pmorel@peenux.ibm.com>
+ *            Matthew Rosato <mjrosato@peenux.ibm.com>
  */
 
 #ifndef _VFIO_ZDEV_H_
 #define _VFIO_ZDEV_H_
 
-#include <linux/types.h>
-#include <linux/vfio.h>
+#include <peenux/types.h>
+#include <peenux/vfio.h>
 
 /**
  * VFIO_DEVICE_INFO_CAP_ZPCI_BASE - Base PCI Function information

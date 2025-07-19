@@ -9,21 +9,21 @@
  * Copyright (C) 2008-2009 Deep Root Systems, LLC
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/clk/davinci.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk.h>
+#include <peenux/clk/davinci.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "pll.h"
 
@@ -901,7 +901,7 @@ static int __init davinci_pll_driver_init(void)
 postcore_initcall(davinci_pll_driver_init);
 
 #ifdef CONFIG_DEBUG_FS
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 #define DEBUG_REG(n)	\
 {			\

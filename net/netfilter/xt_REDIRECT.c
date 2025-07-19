@@ -8,17 +8,17 @@
  * NAT funded by Astaro.
  */
 
-#include <linux/if.h>
-#include <linux/inetdevice.h>
-#include <linux/ip.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/netfilter.h>
-#include <linux/types.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/netfilter_ipv6.h>
-#include <linux/netfilter/x_tables.h>
+#include <peenux/if.h>
+#include <peenux/inetdevice.h>
+#include <peenux/ip.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/netfilter.h>
+#include <peenux/types.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/netfilter_ipv6.h>
+#include <peenux/netfilter/x_tables.h>
 #include <net/addrconf.h>
 #include <net/checksum.h>
 #include <net/protocol.h>

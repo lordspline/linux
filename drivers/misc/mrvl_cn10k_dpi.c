@@ -5,14 +5,14 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/compat.h>
-#include <linux/delay.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
+#include <peenux/bitfield.h>
+#include <peenux/compat.h>
+#include <peenux/delay.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
 
 #include <uapi/misc/mrvl_cn10k_dpi.h>
 

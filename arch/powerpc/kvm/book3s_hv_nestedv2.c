@@ -10,13 +10,13 @@
  *
  */
 
-#include "linux/blk-mq.h"
-#include "linux/console.h"
-#include "linux/gfp_types.h"
-#include "linux/signal.h"
-#include <linux/kernel.h>
-#include <linux/kvm_host.h>
-#include <linux/pgtable.h>
+#include "peenux/blk-mq.h"
+#include "peenux/console.h"
+#include "peenux/gfp_types.h"
+#include "peenux/signal.h"
+#include <peenux/kernel.h>
+#include <peenux/kvm_host.h>
+#include <peenux/pgtable.h>
 
 #include <asm/kvm_ppc.h>
 #include <asm/kvm_book3s.h>

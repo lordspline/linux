@@ -8,30 +8,30 @@
  *
  *  DMA support added by Chip Coldwell.
  */
-#include <linux/circ_buf.h>
-#include <linux/tty.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/tty_flip.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/atmel_pdc.h>
-#include <linux/uaccess.h>
-#include <linux/platform_data/atmel.h>
-#include <linux/timer.h>
-#include <linux/err.h>
-#include <linux/irq.h>
-#include <linux/suspend.h>
-#include <linux/mm.h>
-#include <linux/io.h>
+#include <peenux/circ_buf.h>
+#include <peenux/tty.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/tty_flip.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/atmel_pdc.h>
+#include <peenux/uaccess.h>
+#include <peenux/platform_data/atmel.h>
+#include <peenux/timer.h>
+#include <peenux/err.h>
+#include <peenux/irq.h>
+#include <peenux/suspend.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
 
 #include <asm/div64.h>
 #include <asm/ioctls.h>
@@ -49,7 +49,7 @@
 #define ATMEL_RTS_HIGH_OFFSET	16
 #define ATMEL_RTS_LOW_OFFSET	20
 
-#include <linux/serial_core.h>
+#include <peenux/serial_core.h>
 
 #include "serial_mctrl_gpio.h"
 #include "atmel_serial.h"

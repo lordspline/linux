@@ -2,13 +2,13 @@
 /*
  * Copyright (c) 2015-2021, 2023 Linaro Limited
  */
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/tee_core.h>
+#include <peenux/types.h>
 #include "optee_private.h"
 
 #define MAX_ARG_PARAM_COUNT	6

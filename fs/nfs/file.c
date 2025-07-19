@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/nfs/file.c
+ *  peenux/fs/nfs/file.c
  *
  *  Copyright (C) 1992  Rick Sladkey
  *
@@ -17,22 +17,22 @@
  *  nfs regular file handling functions
  */
 
-#include <linux/module.h>
-#include <linux/time.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fcntl.h>
-#include <linux/stat.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_mount.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/gfp.h>
-#include <linux/swap.h>
-#include <linux/compaction.h>
+#include <peenux/module.h>
+#include <peenux/time.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/fcntl.h>
+#include <peenux/stat.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_mount.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/gfp.h>
+#include <peenux/swap.h>
+#include <peenux/compaction.h>
 
-#include <linux/uaccess.h>
-#include <linux/filelock.h>
+#include <peenux/uaccess.h>
+#include <peenux/filelock.h>
 
 #include "delegation.h"
 #include "internal.h"

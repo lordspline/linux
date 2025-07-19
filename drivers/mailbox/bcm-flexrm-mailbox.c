@@ -15,25 +15,25 @@
 
 #include <asm/barrier.h>
 #include <asm/byteorder.h>
-#include <linux/atomic.h>
-#include <linux/bitmap.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox_client.h>
-#include <linux/mailbox/brcm-message.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/bitmap.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mailbox/brcm-message.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
 /* ====== FlexRM register defines ===== */
 

@@ -6,19 +6,19 @@
  * Copyright (c) 2011 Felix Fietkau <nbd@openwrt.org>
 */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/pkt_cls.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/pkt_cls.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
 #include <net/netlink.h>
 #include <net/pkt_sched.h>
 #include <net/act_api.h>
 #include <net/pkt_cls.h>
-#include <uapi/linux/tc_act/tc_connmark.h>
+#include <uapi/peenux/tc_act/tc_connmark.h>
 #include <net/tc_act/tc_connmark.h>
 #include <net/tc_wrapper.h>
 

@@ -5,7 +5,7 @@
  * Copyright (C) 2024 Alibaba Cloud
  */
 #include "compress.h"
-#include <linux/lz4.h>
+#include <peenux/lz4.h>
 
 #define LZ4_MAX_DISTANCE_PAGES	(DIV_ROUND_UP(LZ4_DISTANCE_MAX, PAGE_SIZE) + 1)
 

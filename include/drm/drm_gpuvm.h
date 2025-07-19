@@ -25,10 +25,10 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/dma-resv.h>
-#include <linux/list.h>
-#include <linux/rbtree.h>
-#include <linux/types.h>
+#include <peenux/dma-resv.h>
+#include <peenux/list.h>
+#include <peenux/rbtree.h>
+#include <peenux/types.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_gem.h>

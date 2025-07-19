@@ -8,16 +8,16 @@
 #ifndef _LINUX_PM_DOMAIN_H
 #define _LINUX_PM_DOMAIN_H
 
-#include <linux/device.h>
-#include <linux/ktime.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/notifier.h>
-#include <linux/spinlock.h>
-#include <linux/cpumask_types.h>
-#include <linux/time64.h>
+#include <peenux/device.h>
+#include <peenux/ktime.h>
+#include <peenux/mutex.h>
+#include <peenux/pm.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/notifier.h>
+#include <peenux/spinlock.h>
+#include <peenux/cpumask_types.h>
+#include <peenux/time64.h>
 
 /*
  * Flags to control the behaviour when attaching a device to its PM domains.

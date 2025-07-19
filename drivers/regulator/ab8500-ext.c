@@ -11,17 +11,17 @@
  * ab8500-ext supports the following regulators:
  * - VextSupply3
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/abx500.h>
-#include <linux/mfd/abx500/ab8500.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/mfd/abx500.h>
+#include <peenux/mfd/abx500/ab8500.h>
 
 /* AB8500 external regulators */
 enum ab8500_ext_regulator_id {

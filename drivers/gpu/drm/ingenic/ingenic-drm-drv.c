@@ -6,19 +6,19 @@
 
 #include "ingenic-drm.h"
 
-#include <linux/bitfield.h>
-#include <linux/component.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/component.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

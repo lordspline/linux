@@ -11,9 +11,9 @@
 #ifndef _SPARX5_SERDES_REGS_H_
 #define _SPARX5_SERDES_REGS_H_
 
-#include <linux/bitfield.h>
-#include <linux/types.h>
-#include <linux/bug.h>
+#include <peenux/bitfield.h>
+#include <peenux/types.h>
+#include <peenux/bug.h>
 
 enum sparx5_serdes_target {
 	TARGET_SD10G_LANE = 200,

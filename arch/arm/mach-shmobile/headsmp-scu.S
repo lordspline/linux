@@ -5,8 +5,8 @@
  * Copyright (C) 2012 Bastian Hecht
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
 #include <asm/page.h>
 
 /*

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/syscalls.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/statfs.h>
-#include <linux/security.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
+#include <peenux/syscalls.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/statfs.h>
+#include <peenux/security.h>
+#include <peenux/uaccess.h>
+#include <peenux/compat.h>
 #include "internal.h"
 
 static int flags_by_mnt(int mnt_flags)

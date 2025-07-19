@@ -7,22 +7,22 @@
 
 #define pr_fmt(fmt)	"DMA-API: " fmt
 
-#include <linux/sched/task_stack.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-map-ops.h>
-#include <linux/sched/task.h>
-#include <linux/stacktrace.h>
-#include <linux/spinlock.h>
-#include <linux/vmalloc.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/ctype.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/scatterlist.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/sched/task.h>
+#include <peenux/stacktrace.h>
+#include <peenux/spinlock.h>
+#include <peenux/vmalloc.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/export.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/ctype.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 #include <asm/sections.h>
 #include "debug.h"
 

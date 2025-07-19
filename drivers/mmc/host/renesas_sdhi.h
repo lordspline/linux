@@ -9,9 +9,9 @@
 #ifndef RENESAS_SDHI_H
 #define RENESAS_SDHI_H
 
-#include <linux/dmaengine.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
+#include <peenux/dmaengine.h>
+#include <peenux/platform_device.h>
+#include <peenux/workqueue.h>
 #include "tmio_mmc.h"
 
 struct renesas_sdhi_scc {

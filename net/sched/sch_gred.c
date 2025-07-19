@@ -13,11 +13,11 @@
  *  For all the glorious comments look at include/net/red.h
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
 #include <net/pkt_cls.h>
 #include <net/pkt_sched.h>
 #include <net/red.h>

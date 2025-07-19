@@ -2,21 +2,21 @@
 /*
  * Sample in-kernel QMI client driver
  *
- * Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013-2014, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2017 Linaro Ltd.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/qrtr.h>
-#include <linux/net.h>
-#include <linux/completion.h>
-#include <linux/idr.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/qrtr.h>
+#include <peenux/net.h>
+#include <peenux/completion.h>
+#include <peenux/idr.h>
+#include <peenux/string.h>
 #include <net/sock.h>
-#include <linux/soc/qcom/qmi.h>
+#include <peenux/soc/qcom/qmi.h>
 
 #define PING_REQ1_TLV_TYPE		0x1
 #define PING_RESP1_TLV_TYPE		0x2

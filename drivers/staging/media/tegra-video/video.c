@@ -3,9 +3,9 @@
  * Copyright (C) 2020 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/host1x.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/host1x.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include <media/v4l2-event.h>
 

@@ -26,20 +26,20 @@
  * <zaitcev> Sounds reasonable
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/pci.h>		/* struct pci_dev */
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-map-ops.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/ioport.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>		/* struct pci_dev */
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/scatterlist.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/of.h>
 
 #include <asm/io.h>
 #include <asm/vaddrs.h>

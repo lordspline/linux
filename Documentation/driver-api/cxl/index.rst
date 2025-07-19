@@ -32,14 +32,14 @@ that have impacts on each other.  The docs here break up configurations steps.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Linux Kernel Configuration
+   :caption: Peenux Kernel Configuration
 
-   linux/overview
-   linux/early-boot
-   linux/cxl-driver
-   linux/dax-driver
-   linux/memory-hotplug
-   linux/access-coordinates
+   peenux/overview
+   peenux/early-boot
+   peenux/cxl-driver
+   peenux/dax-driver
+   peenux/memory-hotplug
+   peenux/access-coordinates
 
 .. toctree::
    :maxdepth: 2

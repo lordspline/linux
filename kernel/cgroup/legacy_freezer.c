@@ -14,15 +14,15 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  */
 
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/cgroup.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/freezer.h>
-#include <linux/seq_file.h>
-#include <linux/mutex.h>
-#include <linux/cpu.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/cgroup.h>
+#include <peenux/fs.h>
+#include <peenux/uaccess.h>
+#include <peenux/freezer.h>
+#include <peenux/seq_file.h>
+#include <peenux/mutex.h>
+#include <peenux/cpu.h>
 
 /*
  * A cgroup is freezing if any FREEZING flags are set.  FREEZING_SELF is

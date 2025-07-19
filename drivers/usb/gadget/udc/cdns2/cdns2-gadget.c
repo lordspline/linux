@@ -25,13 +25,13 @@
  *
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/interrupt.h>
-#include <linux/property.h>
-#include <linux/string_choices.h>
-#include <linux/dmapool.h>
-#include <linux/iopoll.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/interrupt.h>
+#include <peenux/property.h>
+#include <peenux/string_choices.h>
+#include <peenux/dmapool.h>
+#include <peenux/iopoll.h>
 
 #include "cdns2-gadget.h"
 #include "cdns2-trace.h"

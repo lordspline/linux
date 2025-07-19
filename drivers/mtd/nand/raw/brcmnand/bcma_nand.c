@@ -2,11 +2,11 @@
 /*
  * Copyright © 2021 Broadcom
  */
-#include <linux/bcma/bcma.h>
-#include <linux/bcma/bcma_driver_chipcommon.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/bcma/bcma.h>
+#include <peenux/bcma/bcma_driver_chipcommon.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "brcmnand.h"
 

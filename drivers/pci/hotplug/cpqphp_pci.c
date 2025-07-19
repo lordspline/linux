@@ -14,15 +14,15 @@
 
 #define pr_fmt(fmt) "cpqphp: " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/proc_fs.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/printk.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/proc_fs.h>
+#include <peenux/pci.h>
+#include <peenux/pci_hotplug.h>
 #include "../pci.h"
 #include "cpqphp.h"
 #include "cpqphp_nvram.h"

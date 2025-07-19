@@ -4,9 +4,9 @@
  *   friendly supported by NI.
  */
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/usb.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/usb.h>
 #include <sound/control.h>
 #include <sound/core.h>
 #include <sound/pcm.h>

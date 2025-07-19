@@ -2,12 +2,12 @@
 #ifndef _LINUX_RCUREF_H
 #define _LINUX_RCUREF_H
 
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/limits.h>
-#include <linux/lockdep.h>
-#include <linux/preempt.h>
-#include <linux/rcupdate.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/limits.h>
+#include <peenux/lockdep.h>
+#include <peenux/preempt.h>
+#include <peenux/rcupdate.h>
 
 #define RCUREF_ONEREF		0x00000000U
 #define RCUREF_MAXREF		0x7FFFFFFFU

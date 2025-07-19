@@ -3,7 +3,7 @@
 // XDR specification file: ../../Documentation/sunrpc/xdr/nfs4_1.x
 // XDR specification modification time: Mon Oct 14 09:10:13 2024
 
-#include <linux/sunrpc/svc.h>
+#include <peenux/sunrpc/svc.h>
 
 #include "nfs4xdr_gen.h"
 

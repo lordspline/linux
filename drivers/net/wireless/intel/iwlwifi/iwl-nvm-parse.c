@@ -4,12 +4,12 @@
  * Copyright (C) 2013-2015 Intel Mobile Communications GmbH
  * Copyright (C) 2016-2017 Intel Deutschland GmbH
  */
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/etherdevice.h>
-#include <linux/pci.h>
-#include <linux/firmware.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/etherdevice.h>
+#include <peenux/pci.h>
+#include <peenux/firmware.h>
 
 #include "iwl-drv.h"
 #include "iwl-modparams.h"

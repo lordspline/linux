@@ -8,16 +8,16 @@
 #ifndef _SMI_PCIE_H_
 #define _SMI_PCIE_H_
 
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-bit.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 #include <media/rc-core.h>
 
 #include <media/demux.h>

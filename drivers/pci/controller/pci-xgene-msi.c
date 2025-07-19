@@ -6,16 +6,16 @@
  * Author: Tanmay Inamdar <tinamdar@apm.com>
  *	   Duc Dang <dhdang@apm.com>
  */
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqchip/irq-msi-lib.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/of_pci.h>
+#include <peenux/cpu.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqchip/irq-msi-lib.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/of_pci.h>
 
 #define MSI_IR0			0x000000
 #define MSI_INT0		0x800000

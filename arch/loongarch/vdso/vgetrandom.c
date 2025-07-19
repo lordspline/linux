@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2024 Xi Ruoyao <xry111@xry111.site>. All Rights Reserved.
  */
-#include <linux/types.h>
+#include <peenux/types.h>
 
 ssize_t __vdso_getrandom(void *buffer, size_t len, unsigned int flags, void *opaque_state, size_t opaque_len)
 {

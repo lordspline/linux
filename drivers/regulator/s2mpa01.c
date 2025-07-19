@@ -3,18 +3,18 @@
 // Copyright (c) 2013 Samsung Electronics Co., Ltd
 //		http://www.samsung.com
 
-#include <linux/bug.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/samsung/core.h>
-#include <linux/mfd/samsung/s2mpa01.h>
+#include <peenux/bug.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/mfd/samsung/core.h>
+#include <peenux/mfd/samsung/s2mpa01.h>
 
 struct s2mpa01_info {
 	int ramp_delay24;

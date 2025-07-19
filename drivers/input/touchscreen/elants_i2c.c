@@ -19,28 +19,28 @@
  */
 
 
-#include <linux/bits.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/platform_device.h>
-#include <linux/async.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/buffer_head.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/uuid.h>
-#include <linux/unaligned.h>
+#include <peenux/bits.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/async.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
+#include <peenux/buffer_head.h>
+#include <peenux/slab.h>
+#include <peenux/firmware.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/acpi.h>
+#include <peenux/of.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/uuid.h>
+#include <peenux/unaligned.h>
 
 /* Device, Driver information */
 #define DEVICE_NAME	"elants_i2c"

@@ -8,17 +8,17 @@
  *	      Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/panic_notifier.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/reboot.h>
-#include <linux/jiffies.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/reboot.h>
+#include <peenux/jiffies.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
 #include <asm/types.h>
 #include <asm/irq.h>
 #include <asm/debug.h>

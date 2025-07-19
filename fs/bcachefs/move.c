@@ -28,8 +28,8 @@
 #include "super-io.h"
 #include "trace.h"
 
-#include <linux/ioprio.h>
-#include <linux/kthread.h>
+#include <peenux/ioprio.h>
+#include <peenux/kthread.h>
 
 const char * const bch2_data_ops_strs[] = {
 #define x(t, n, ...) [n] = #t,

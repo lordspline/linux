@@ -3,24 +3,24 @@
  *
  * Copyright (C) Jonathan Naylor G4KLX (g4klx@g4klx.demon.co.uk)
  */
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/timer.h>
+#include <peenux/string.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
 #include <net/ax25.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
-#include <linux/uaccess.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
+#include <peenux/uaccess.h>
+#include <peenux/fcntl.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
 
 /*
  * The following routines are taken from page 170 of the 7th ARRL Computer

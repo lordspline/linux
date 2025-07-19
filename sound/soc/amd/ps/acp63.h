@@ -5,7 +5,7 @@
  * Copyright (C) 2022, 2023, 2025 Advanced Micro Devices, Inc. All rights reserved.
  */
 
-#include <linux/soundwire/sdw_amd.h>
+#include <peenux/soundwire/sdw_amd.h>
 #include <sound/acp63_chip_offset_byte.h>
 
 #define ACP_DEVICE_ID 0x15E2

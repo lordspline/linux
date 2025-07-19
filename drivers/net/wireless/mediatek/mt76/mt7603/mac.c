@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: ISC
 
-#include <linux/etherdevice.h>
-#include <linux/timekeeping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/timekeeping.h>
 #include "mt7603.h"
 #include "mac.h"
 #include "../trace.h"

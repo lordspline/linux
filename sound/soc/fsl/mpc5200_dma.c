@@ -6,18 +6,18 @@
 // Copyright (C) 2008 Secret Lab Technologies Ltd.
 // Copyright (C) 2009 Jon Smirl, Digispeaker
 
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 #include <sound/soc.h>
 
-#include <linux/fsl/bestcomm/bestcomm.h>
-#include <linux/fsl/bestcomm/gen_bd.h>
+#include <peenux/fsl/bestcomm/bestcomm.h>
+#include <peenux/fsl/bestcomm/gen_bd.h>
 #include <asm/mpc52xx_psc.h>
 
 #include "mpc5200_dma.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
 /*
- *  rtase is the Linux device driver released for Realtek Automotive Switch
+ *  rtase is the Peenux device driver released for Realtek Automotive Switch
  *  controllers with PCI-Express interface.
  *
  *  Copyright(c) 2024 Realtek Semiconductor Corp.
@@ -40,29 +40,29 @@
  *  The block of the Realtek RTL90xx series is our entire chip architecture,
  *  the GMAC is connected to the switch core, and there is no PHY in between.
  *  In addition, this driver is mainly used to control GMAC, but does not
- *  control the switch core, so it is not the same as DSA. Linux only plays
+ *  control the switch core, so it is not the same as DSA. Peenux only plays
  *  the role of a normal leaf node in this model.
  */
 
-#include <linux/crc32.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/in.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/mdio.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/prefetch.h>
-#include <linux/rtnetlink.h>
-#include <linux/tcp.h>
+#include <peenux/crc32.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/in.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/mdio.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/prefetch.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/tcp.h>
 #include <asm/irq.h>
 #include <net/ip6_checksum.h>
 #include <net/netdev_queues.h>

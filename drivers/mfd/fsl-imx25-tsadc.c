@@ -3,18 +3,18 @@
  * Copyright (C) 2014-2015 Pengutronix, Markus Pargmann <mpa@pengutronix.de>
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdesc.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/mfd/imx25-tsadc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdesc.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irq.h>
+#include <peenux/mfd/imx25-tsadc.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 static const struct regmap_config mx25_tsadc_regmap_config = {
 	.fast_io = true,

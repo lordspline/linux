@@ -8,8 +8,8 @@
 #ifndef _IMG_IR_H_
 #define _IMG_IR_H_
 
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
 
 #include "img-ir-raw.h"
 #include "img-ir-hw.h"

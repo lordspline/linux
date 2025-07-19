@@ -5,15 +5,15 @@
  *                    AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/soc/mediatek/dvfsrc.h>
-#include <linux/soc/mediatek/mtk_sip_svc.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/bitfield.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/mediatek/dvfsrc.h>
+#include <peenux/soc/mediatek/mtk_sip_svc.h>
 
 /* DVFSRC_LEVEL */
 #define DVFSRC_V1_LEVEL_TARGET_LEVEL	GENMASK(15, 0)

@@ -6,13 +6,13 @@
  */
 
 /* File aq_ptp.c:
- * Definition of functions for Linux PTP support.
+ * Definition of functions for Peenux PTP support.
  */
 
-#include <linux/ptp_clock_kernel.h>
-#include <linux/ptp_classify.h>
-#include <linux/interrupt.h>
-#include <linux/clocksource.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/interrupt.h>
+#include <peenux/clocksource.h>
 
 #include "aq_nic.h"
 #include "aq_ptp.h"

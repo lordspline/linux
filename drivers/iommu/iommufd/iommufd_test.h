@@ -4,8 +4,8 @@
 #ifndef _UAPI_IOMMUFD_TEST_H
 #define _UAPI_IOMMUFD_TEST_H
 
-#include <linux/iommufd.h>
-#include <linux/types.h>
+#include <peenux/iommufd.h>
+#include <peenux/types.h>
 
 enum {
 	IOMMU_TEST_OP_ADD_RESERVED = 1,

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Copyright (c) 2024-2025, NVIDIA CORPORATION & AFFILIATES
  *
@@ -18,7 +18,7 @@
 #ifndef _UAPI_FWCTL_MLX5_H
 #define _UAPI_FWCTL_MLX5_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /**
  * struct fwctl_info_mlx5 - ioctl(FWCTL_INFO) out_device_data

@@ -25,7 +25,7 @@
  *          Alex Deucher
  *          Jerome Glisse
  */
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include "radeon.h"
 #include "radeon_asic.h"

@@ -12,7 +12,7 @@
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License version 2
  * as published by the Free Software Foundation; or, when distributed
- * separately from the Linux kernel or incorporated into other
+ * separately from the Peenux kernel or incorporated into other
  * software packages, subject to the following license:
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -36,12 +36,12 @@
 
 #define pr_fmt(fmt) "xen-blkback: " fmt
 
-#include <linux/spinlock.h>
-#include <linux/kthread.h>
-#include <linux/list.h>
-#include <linux/delay.h>
-#include <linux/freezer.h>
-#include <linux/bitmap.h>
+#include <peenux/spinlock.h>
+#include <peenux/kthread.h>
+#include <peenux/list.h>
+#include <peenux/delay.h>
+#include <peenux/freezer.h>
+#include <peenux/bitmap.h>
 
 #include <xen/events.h>
 #include <xen/page.h>

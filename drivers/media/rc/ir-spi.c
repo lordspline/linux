@@ -4,17 +4,17 @@
 // Copyright (c) 2016 Samsung Electronics Co., Ltd.
 // Copyright (c) Andi Shyti <andi@etezian.org>
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/math.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/math.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include <media/rc-core.h>
 

@@ -21,9 +21,9 @@
  * SOFTWARE.
  */
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
 
 #include <drm/drm_mode.h>
 #include <drm/drm_print.h>

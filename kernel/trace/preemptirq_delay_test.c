@@ -5,18 +5,18 @@
  * Copyright (C) 2018 Joel Fernandes (Google) <joel@joelfernandes.org>
  */
 
-#include <linux/trace_clock.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/completion.h>
+#include <peenux/trace_clock.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/kobject.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/completion.h>
 
 static ulong delay = 100;
 static char test_mode[12] = "irq";

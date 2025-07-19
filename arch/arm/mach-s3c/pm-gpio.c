@@ -7,11 +7,11 @@
 //
 // S3C series GPIO PM code
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/gpio.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/gpio.h>
 
 #include "gpio-samsung.h"
 

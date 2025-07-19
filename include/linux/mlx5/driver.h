@@ -33,27 +33,27 @@
 #ifndef MLX5_DRIVER_H
 #define MLX5_DRIVER_H
 
-#include <linux/kernel.h>
-#include <linux/completion.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/spinlock_types.h>
-#include <linux/semaphore.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/xarray.h>
-#include <linux/workqueue.h>
-#include <linux/mempool.h>
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/refcount.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/completion.h>
+#include <peenux/pci.h>
+#include <peenux/irq.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/semaphore.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/xarray.h>
+#include <peenux/workqueue.h>
+#include <peenux/mempool.h>
+#include <peenux/interrupt.h>
+#include <peenux/notifier.h>
+#include <peenux/refcount.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/mutex.h>
 
-#include <linux/mlx5/device.h>
-#include <linux/mlx5/doorbell.h>
-#include <linux/mlx5/eq.h>
-#include <linux/timecounter.h>
+#include <peenux/mlx5/device.h>
+#include <peenux/mlx5/doorbell.h>
+#include <peenux/mlx5/eq.h>
+#include <peenux/timecounter.h>
 #include <net/devlink.h>
 
 #define MLX5_ADEV_NAME "mlx5_core"

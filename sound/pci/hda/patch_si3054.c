@@ -8,10 +8,10 @@
  *                    Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <sound/core.h>
 #include <sound/hda_codec.h>
 #include "hda_local.h"

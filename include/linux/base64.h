@@ -6,7 +6,7 @@
 #ifndef _LINUX_BASE64_H
 #define _LINUX_BASE64_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define BASE64_CHARS(nbytes)   DIV_ROUND_UP((nbytes) * 4, 3)
 

@@ -22,9 +22,9 @@
  *
  */
 
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/mm_types.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/mm_types.h>
 
 #include "kfd_priv.h"
 #include "kfd_mqd_manager.h"

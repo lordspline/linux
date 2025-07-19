@@ -5,23 +5,23 @@
  * Author: Vitor Soares <vitor.soares@synopsys.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/i3c/master.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/iopoll.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/i3c/master.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/iopoll.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #include "dw-i3c-master.h"
 

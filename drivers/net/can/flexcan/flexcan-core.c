@@ -10,27 +10,27 @@
 // Based on code originally by Andrey Volkov <avolkov@varma-el.com>
 
 #include <dt-bindings/firmware/imx/rsrc.h>
-#include <linux/bitfield.h>
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/can/platform/flexcan.h>
-#include <linux/phy/phy.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitfield.h>
+#include <peenux/can.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/firmware/imx/sci.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/can/platform/flexcan.h>
+#include <peenux/phy/phy.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
 #include "flexcan.h"
 
@@ -565,7 +565,7 @@ static inline int flexcan_enter_stop_mode(struct flexcan_priv *priv)
 				   1 << priv->stm.req_bit, 1 << priv->stm.req_bit);
 	} else if (priv->devtype_data.quirks & FLEXCAN_QUIRK_SETUP_STOP_MODE_SCMI) {
 		/* For the SCMI mode, driver do nothing, ATF will send request to
-		 * SM(system manager, M33 core) through SCMI protocol after linux
+		 * SM(system manager, M33 core) through SCMI protocol after peenux
 		 * suspend. Once SM get this request, it will send IPG_STOP signal
 		 * to Flex_CAN, let CAN in STOP mode.
 		 */
@@ -583,7 +583,7 @@ static inline int flexcan_exit_stop_mode(struct flexcan_priv *priv)
 
 	/* Remove stop request, for FLEXCAN_QUIRK_SETUP_STOP_MODE_SCMI,
 	 * do nothing here, because ATF already send request to SM before
-	 * linux resume. Once SM get this request, it will deassert the
+	 * peenux resume. Once SM get this request, it will deassert the
 	 * IPG_STOP signal to Flex_CAN.
 	 */
 	if (priv->devtype_data.quirks & FLEXCAN_QUIRK_SETUP_STOP_MODE_SCFW) {

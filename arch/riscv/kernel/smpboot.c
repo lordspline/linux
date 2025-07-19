@@ -8,23 +8,23 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/acpi.h>
-#include <linux/arch_topology.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/kernel_stat.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/percpu.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/mm.h>
+#include <peenux/acpi.h>
+#include <peenux/arch_topology.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/notifier.h>
+#include <peenux/cpu.h>
+#include <peenux/percpu.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/sched/mm.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cpu_ops.h>

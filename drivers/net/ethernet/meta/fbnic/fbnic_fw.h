@@ -4,8 +4,8 @@
 #ifndef _FBNIC_FW_H_
 #define _FBNIC_FW_H_
 
-#include <linux/if_ether.h>
-#include <linux/types.h>
+#include <peenux/if_ether.h>
+#include <peenux/types.h>
 
 struct fbnic_dev;
 struct fbnic_tlv_msg;

@@ -16,26 +16,26 @@
  * this driver as required for the omap-platform.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/serial_core.h>
-#include <linux/irq.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_data/serial-omap.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/serial.h>
+#include <peenux/serial_reg.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/serial_core.h>
+#include <peenux/irq.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/platform_data/serial-omap.h>
 
 #define OMAP_MAX_HSUART_PORTS	10
 

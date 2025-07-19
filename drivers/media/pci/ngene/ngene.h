@@ -8,15 +8,15 @@
 #ifndef _NGENE_H_
 #define _NGENE_H_
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
 #include <asm/dma.h>
-#include <linux/scatterlist.h>
+#include <peenux/scatterlist.h>
 
-#include <linux/dvb/frontend.h>
-#include <linux/workqueue.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/workqueue.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

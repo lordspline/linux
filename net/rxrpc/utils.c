@@ -5,9 +5,9 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/udp.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/udp.h>
 #include "ar-internal.h"
 
 /*

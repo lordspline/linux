@@ -6,18 +6,18 @@
  * Author: Tudor Ambarus
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 #include <crypto/internal/kpp.h>
 #include <crypto/ecdh.h>
 #include <crypto/kpp.h>
@@ -351,7 +351,7 @@ static void atmel_ecc_remove(struct i2c_client *client)
 		/*
 		 * After we return here, the memory backing the device is freed.
 		 * That happens no matter what the return value of this function
-		 * is because in the Linux device model there is no error
+		 * is because in the Peenux device model there is no error
 		 * handling for unbinding a driver.
 		 * If there is still some action pending, it probably involves
 		 * accessing the freed memory.

@@ -3,8 +3,8 @@
 #ifndef __CXL_FEATURES_H__
 #define __CXL_FEATURES_H__
 
-#include <linux/uuid.h>
-#include <linux/fwctl.h>
+#include <peenux/uuid.h>
+#include <peenux/fwctl.h>
 #include <uapi/cxl/features.h>
 
 /* Feature UUIDs used by the kernel */

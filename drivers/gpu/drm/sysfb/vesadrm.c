@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/aperture.h>
-#include <linux/ioport.h>
-#include <linux/limits.h>
-#include <linux/platform_device.h>
-#include <linux/screen_info.h>
+#include <peenux/aperture.h>
+#include <peenux/ioport.h>
+#include <peenux/limits.h>
+#include <peenux/platform_device.h>
+#include <peenux/screen_info.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

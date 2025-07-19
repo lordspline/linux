@@ -7,12 +7,12 @@
 //
 // S3C64XX CPU PM support.
 
-#include <linux/init.h>
-#include <linux/suspend.h>
-#include <linux/serial_core.h>
-#include <linux/io.h>
-#include <linux/gpio.h>
-#include <linux/pm_domain.h>
+#include <peenux/init.h>
+#include <peenux/suspend.h>
+#include <peenux/serial_core.h>
+#include <peenux/io.h>
+#include <peenux/gpio.h>
+#include <peenux/pm_domain.h>
 
 #include "map.h"
 #include "irqs.h"

@@ -7,7 +7,7 @@
 #ifndef _LINUX_CORESIGHT_PMU_H
 #define _LINUX_CORESIGHT_PMU_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 #define CORESIGHT_ETM_PMU_NAME "cs_etm"
 

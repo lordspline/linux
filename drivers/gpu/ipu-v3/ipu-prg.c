@@ -4,16 +4,16 @@
  */
 
 #include <drm/drm_fourcc.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/iopoll.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 #include <video/imx-ipu-v3.h>
 
 #include "ipu-prv.h"

@@ -10,18 +10,18 @@
  * or implied.
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/completion.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/completion.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
 #define I2C_PNX_TIMEOUT_DEFAULT		10 /* msec */
 #define I2C_PNX_SPEED_KHZ_DEFAULT	100

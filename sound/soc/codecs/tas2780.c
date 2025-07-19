@@ -3,13 +3,13 @@
 //		Audio amplifier
 // Copyright (C) 2022 Texas Instruments Inc.
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/pm.h>
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/pm.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/of.h>
 #include <sound/soc.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

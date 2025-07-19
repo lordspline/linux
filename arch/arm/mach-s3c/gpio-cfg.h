@@ -20,7 +20,7 @@
 #ifndef __PLAT_GPIO_CFG_H
 #define __PLAT_GPIO_CFG_H __FILE__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 typedef unsigned int __bitwise samsung_gpio_pull_t;
 

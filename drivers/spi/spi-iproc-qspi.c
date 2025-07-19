@@ -3,14 +3,14 @@
  * Copyright 2016 Broadcom Limited
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "spi-bcm-qspi.h"
 

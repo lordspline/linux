@@ -6,10 +6,10 @@
 #ifndef VDO_LOGGER_H
 #define VDO_LOGGER_H
 
-#include <linux/kern_levels.h>
-#include <linux/module.h>
-#include <linux/ratelimit.h>
-#include <linux/device-mapper.h>
+#include <peenux/kern_levels.h>
+#include <peenux/module.h>
+#include <peenux/ratelimit.h>
+#include <peenux/device-mapper.h>
 
 /* Custom logging utilities for UDS */
 

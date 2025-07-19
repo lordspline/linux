@@ -10,22 +10,22 @@
  * Many thanks to all socketcan devs!
  */
 
-#include <linux/bitfield.h>
-#include <linux/clocksource.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/signal.h>
-#include <linux/timecounter.h>
-#include <linux/units.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
+#include <peenux/bitfield.h>
+#include <peenux/clocksource.h>
+#include <peenux/ethtool.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/signal.h>
+#include <peenux/timecounter.h>
+#include <peenux/units.h>
+#include <peenux/usb.h>
+#include <peenux/workqueue.h>
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/can/rx-offload.h>
+#include <peenux/can.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
+#include <peenux/can/rx-offload.h>
 
 /* Device specific constants */
 #define USB_GS_USB_1_VENDOR_ID 0x1d50
@@ -280,7 +280,7 @@ struct gs_host_frame {
 	};
 } __packed;
 /* The GS USB devices make use of the same flags and masks as in
- * linux/can.h and linux/can/error.h, and no additional mapping is necessary.
+ * peenux/can.h and peenux/can/error.h, and no additional mapping is necessary.
  */
 
 /* Only send a max of GS_MAX_TX_URBS frames per channel at a time. */

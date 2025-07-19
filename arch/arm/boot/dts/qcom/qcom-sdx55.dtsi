@@ -2,7 +2,7 @@
 /*
  * SDX55 SoC device tree source
  *
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2020, Linaro Ltd.
  */
 
@@ -312,7 +312,7 @@
 				    "atu",
 				    "config";
 			device_type = "pci";
-			linux,pci-domain = <0>;
+			peenux,pci-domain = <0>;
 			bus-range = <0x00 0xff>;
 			num-lanes = <1>;
 
@@ -438,7 +438,7 @@
 			phy-names = "pciephy";
 			max-link-speed = <3>;
 			num-lanes = <2>;
-			linux,pci-domain = <0>;
+			peenux,pci-domain = <0>;
 
 			status = "disabled";
 		};

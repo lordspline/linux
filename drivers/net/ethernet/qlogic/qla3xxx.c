@@ -6,34 +6,34 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/dmapool.h>
-#include <linux/mempool.h>
-#include <linux/spinlock.h>
-#include <linux/kthread.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/ip.h>
-#include <linux/in.h>
-#include <linux/if_arp.h>
-#include <linux/if_ether.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/if_vlan.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/prefetch.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/dmapool.h>
+#include <peenux/mempool.h>
+#include <peenux/spinlock.h>
+#include <peenux/kthread.h>
+#include <peenux/interrupt.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/ip.h>
+#include <peenux/in.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_ether.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/if_vlan.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/prefetch.h>
 
 #include "qla3xxx.h"
 

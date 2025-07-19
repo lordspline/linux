@@ -3,9 +3,9 @@
  * Copyright 2024 IBM Corp.
  */
 
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/pmbus.h>
+#include <peenux/i2c.h>
+#include <peenux/of.h>
+#include <peenux/pmbus.h>
 
 #include "pmbus.h"
 

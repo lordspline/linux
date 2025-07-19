@@ -9,18 +9,18 @@
 #define dev_fmt pr_fmt
 
 #include "ibsys.h"
-#include <linux/module.h>
-#include <linux/wait.h>
-#include <linux/list.h>
-#include <linux/fs.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
-#include <linux/fcntl.h>
-#include <linux/kmod.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/wait.h>
+#include <peenux/list.h>
+#include <peenux/fs.h>
+#include <peenux/pci.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fcntl.h>
+#include <peenux/kmod.h>
+#include <peenux/uaccess.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("GPIB base support");

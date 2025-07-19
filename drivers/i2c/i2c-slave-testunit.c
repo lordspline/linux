@@ -7,15 +7,15 @@
  */
 
 #include <generated/utsrelease.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h> /* FIXME: is system_long_wq the best choice? */
+#include <peenux/bitops.h>
+#include <peenux/completion.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h> /* FIXME: is system_long_wq the best choice? */
 
 #define TU_VERSION_MAX_LENGTH 128
 

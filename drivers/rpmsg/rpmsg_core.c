@@ -11,12 +11,12 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/rpmsg.h>
-#include <linux/of_device.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/rpmsg.h>
+#include <peenux/of_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/slab.h>
 
 #include "rpmsg_internal.h"
 

@@ -64,16 +64,16 @@
  *
  * Copyright (C) 2018 Josef Bacik
  */
-#include <linux/kernel.h>
-#include <linux/blk_types.h>
-#include <linux/backing-dev.h>
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/memcontrol.h>
-#include <linux/sched/loadavg.h>
-#include <linux/sched/signal.h>
+#include <peenux/kernel.h>
+#include <peenux/blk_types.h>
+#include <peenux/backing-dev.h>
+#include <peenux/module.h>
+#include <peenux/timer.h>
+#include <peenux/memcontrol.h>
+#include <peenux/sched/loadavg.h>
+#include <peenux/sched/signal.h>
 #include <trace/events/block.h>
-#include <linux/blk-mq.h>
+#include <peenux/blk-mq.h>
 #include "blk-rq-qos.h"
 #include "blk-stat.h"
 #include "blk-cgroup.h"

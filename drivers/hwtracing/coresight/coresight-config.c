@@ -4,7 +4,7 @@
  * Author: Mike Leach <mike.leach@linaro.org>
  */
 
-#include <linux/sysfs.h>
+#include <peenux/sysfs.h>
 #include "coresight-config.h"
 #include "coresight-priv.h"
 

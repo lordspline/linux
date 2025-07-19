@@ -7,19 +7,19 @@
 
 #undef DEBUG
 
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
 
 #include <asm/sgi/hpc3.h>
 #include <asm/sgi/ip22.h>
@@ -841,6 +841,6 @@ static struct platform_driver sgiseeq_driver = {
 module_platform_driver(sgiseeq_driver);
 
 MODULE_DESCRIPTION("SGI Seeq 8003 driver");
-MODULE_AUTHOR("Linux/MIPS Mailing List <linux-mips@linux-mips.org>");
+MODULE_AUTHOR("Peenux/MIPS Mailing List <peenux-mips@peenux-mips.org>");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS("platform:sgiseeq");

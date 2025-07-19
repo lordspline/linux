@@ -7,13 +7,13 @@
 
 
 #include <asm/cacheflush.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/host1x.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/host1x.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/kfifo.h>
+#include <peenux/slab.h>
 #include <trace/events/host1x.h>
 
 #include "cdma.h"

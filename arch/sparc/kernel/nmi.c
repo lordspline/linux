@@ -6,19 +6,19 @@
  * The NMI watchdog support and infrastructure is based almost
  * entirely upon the x86 NMI support code.
  */
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/init.h>
-#include <linux/percpu.h>
-#include <linux/nmi.h>
-#include <linux/export.h>
-#include <linux/kprobes.h>
-#include <linux/kernel_stat.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/kdebug.h>
-#include <linux/delay.h>
-#include <linux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/init.h>
+#include <peenux/percpu.h>
+#include <peenux/nmi.h>
+#include <peenux/export.h>
+#include <peenux/kprobes.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/kdebug.h>
+#include <peenux/delay.h>
+#include <peenux/smp.h>
 
 #include <asm/perf_event.h>
 #include <asm/ptrace.h>

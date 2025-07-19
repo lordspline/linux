@@ -7,20 +7,20 @@
  * Copyright (C) 2005 Sylvain Munaut <tnt@246tNt.com>
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/ioport.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #include <asm/io.h>
 #include <asm/mmu.h>
 
-#include <linux/fsl/bestcomm/sram.h>
+#include <peenux/fsl/bestcomm/sram.h>
 
 
 /* Struct keeping our 'state' */

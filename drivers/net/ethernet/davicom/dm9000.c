@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *      Davicom DM9000 Fast Ethernet driver for Linux.
+ *      Davicom DM9000 Fast Ethernet driver for Peenux.
  * 	Copyright (C) 1997  Sten Wang
  *
  * (C) Copyright 1997-1998 DAVICOM Semiconductor,Inc. All Rights Reserved.
@@ -10,25 +10,25 @@
  *	Sascha Hauer <s.hauer@pengutronix.de>
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/ethtool.h>
-#include <linux/dm9000.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/crc32.h>
+#include <peenux/mii.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/ethtool.h>
+#include <peenux/dm9000.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/irq.h>
+#include <peenux/slab.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
 
 #include <asm/delay.h>
 #include <asm/irq.h>

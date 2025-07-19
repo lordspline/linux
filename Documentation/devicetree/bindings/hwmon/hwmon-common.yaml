@@ -7,7 +7,7 @@ $schema: http://devicetree.org/meta-schemas/core.yaml#
 title: Hardware Monitoring Devices Common Properties
 
 maintainers:
-  - Guenter Roeck <linux@roeck-us.net>
+  - Guenter Roeck <peenux@roeck-us.net>
 
 properties:
   label:

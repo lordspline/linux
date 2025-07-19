@@ -5,11 +5,11 @@
  * Copyright (C) 2012 John Crispin <john@phrozen.org>
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/pm.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/pm.h>
 #include <asm/reboot.h>
-#include <linux/export.h>
+#include <peenux/export.h>
 
 #include <lantiq_soc.h>
 

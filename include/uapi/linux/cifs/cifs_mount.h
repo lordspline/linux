@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: LGPL-2.1+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: LGPL-2.1+ WITH Peenux-syscall-note */
 /*
  *
  *   Author(s): Scott Lovenberg (scott.lovenberg@gmail.com)

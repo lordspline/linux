@@ -20,16 +20,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/kmod.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 
 #include <media/media-devnode.h>
 #include <media/media-device.h>
@@ -287,13 +287,13 @@ void media_devnode_unregister(struct media_devnode *devnode)
 }
 
 /*
- *	Initialise media for linux
+ *	Initialise media for peenux
  */
 static int __init media_devnode_init(void)
 {
 	int ret;
 
-	pr_info("Linux media interface: v0.10\n");
+	pr_info("Peenux media interface: v0.10\n");
 	ret = alloc_chrdev_region(&media_dev_t, 0, MEDIA_NUM_DEVICES,
 				  MEDIA_NAME);
 	if (ret < 0) {

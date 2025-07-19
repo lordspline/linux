@@ -5,15 +5,15 @@
  * All rights reserved
  */
 
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/tcp.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/if_ether.h>
-#include <linux/net_tstamp.h>
-#include <linux/phy.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/tcp.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/if_ether.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/phy.h>
 #include <net/vxlan.h>
 
 #include "xgbe.h"

@@ -4,9 +4,9 @@
  * Author: Catalin Marinas <catalin.marinas@arm.com>
  */
 
-#include <linux/gfp.h>
-#include <linux/cache.h>
-#include <linux/dma-map-ops.h>
+#include <peenux/gfp.h>
+#include <peenux/cache.h>
+#include <peenux/dma-map-ops.h>
 #include <xen/xen.h>
 
 #include <asm/cacheflush.h>

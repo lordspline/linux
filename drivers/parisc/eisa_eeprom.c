@@ -2,17 +2,17 @@
 /* 
  *    EISA "eeprom" support routines
  *
- *    Copyright (C) 2001 Thomas Bogendoerfer <tsbogend at parisc-linux.org>
+ *    Copyright (C) 2001 Thomas Bogendoerfer <tsbogend at parisc-peenux.org>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/eisa_eeprom.h>
 
 #define 	EISA_EEPROM_MINOR 241

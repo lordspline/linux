@@ -6,9 +6,9 @@
  * Copyright (c) 2009 Dmitry Artamonow <mad_soft@inbox.ru>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/gpio.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/gpio.h>
 
 #include <video/sa1100fb.h>
 

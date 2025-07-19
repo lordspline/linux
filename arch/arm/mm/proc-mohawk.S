@@ -1,16 +1,16 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- *  linux/arch/arm/mm/proc-mohawk.S: MMU functions for Marvell PJ1 core
+ *  peenux/arch/arm/mm/proc-mohawk.S: MMU functions for Marvell PJ1 core
  *
  *  PJ1 (codename Mohawk) is a hybrid of the xscale3 and Marvell's own core.
  *
  *  Heavily based on proc-arm926.S and proc-xsc3.S
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/cfi_types.h>
-#include <linux/pgtable.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/cfi_types.h>
+#include <peenux/pgtable.h>
 #include <asm/assembler.h>
 #include <asm/hwcap.h>
 #include <asm/pgtable-hwdef.h>

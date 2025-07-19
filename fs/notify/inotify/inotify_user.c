@@ -13,24 +13,24 @@
  * inotify was largely rewriten to make use of the fsnotify infrastructure
  */
 
-#include <linux/file.h>
-#include <linux/fs.h> /* struct inode */
-#include <linux/fsnotify_backend.h>
-#include <linux/idr.h>
-#include <linux/init.h> /* fs_initcall */
-#include <linux/inotify.h>
-#include <linux/kernel.h> /* roundup() */
-#include <linux/namei.h> /* LOOKUP_FOLLOW */
-#include <linux/sched/signal.h>
-#include <linux/slab.h> /* struct kmem_cache */
-#include <linux/syscalls.h>
-#include <linux/types.h>
-#include <linux/anon_inodes.h>
-#include <linux/uaccess.h>
-#include <linux/poll.h>
-#include <linux/wait.h>
-#include <linux/memcontrol.h>
-#include <linux/security.h>
+#include <peenux/file.h>
+#include <peenux/fs.h> /* struct inode */
+#include <peenux/fsnotify_backend.h>
+#include <peenux/idr.h>
+#include <peenux/init.h> /* fs_initcall */
+#include <peenux/inotify.h>
+#include <peenux/kernel.h> /* roundup() */
+#include <peenux/namei.h> /* LOOKUP_FOLLOW */
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h> /* struct kmem_cache */
+#include <peenux/syscalls.h>
+#include <peenux/types.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/uaccess.h>
+#include <peenux/poll.h>
+#include <peenux/wait.h>
+#include <peenux/memcontrol.h>
+#include <peenux/security.h>
 
 #include "inotify.h"
 #include "../fdinfo.h"
@@ -53,7 +53,7 @@ struct kmem_cache *inotify_inode_mark_cachep __ro_after_init;
 
 #ifdef CONFIG_SYSCTL
 
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 
 static long it_zero = 0;
 static long it_int_max = INT_MAX;

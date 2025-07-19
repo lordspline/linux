@@ -13,8 +13,8 @@
  *	info@addi-data.com
  */
 
-#include <linux/module.h>
-#include <linux/comedi/comedi_pci.h>
+#include <peenux/module.h>
+#include <peenux/comedi/comedi_pci.h>
 
 /*
  * Register I/O map

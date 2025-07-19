@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/m68knommu/kernel/setup.c
+ *  peenux/arch/m68knommu/kernel/setup.c
  *
  *  Copyright (C) 1999-2007  Greg Ungerer (gerg@snapgear.com)
  *  Copyright (C) 1998,1999  D. Jeff Dionne <jeff@uClinux.org>
@@ -17,21 +17,21 @@
  * This file handles the architecture-dependent parts of system setup
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/console.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/memblock.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/initrd.h>
-#include <linux/root_dev.h>
-#include <linux/rtc.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/console.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/memblock.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/initrd.h>
+#include <peenux/root_dev.h>
+#include <peenux/rtc.h>
 
 #include <asm/setup.h>
 #include <asm/bootinfo.h>

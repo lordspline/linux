@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 #define IN_BOOT_STRING_C 1
-#include <linux/ctype.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
+#include <peenux/ctype.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
 #undef CONFIG_KASAN
 #undef CONFIG_KASAN_GENERIC
 #undef CONFIG_KMSAN

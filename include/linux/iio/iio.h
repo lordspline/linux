@@ -7,13 +7,13 @@
 #ifndef _INDUSTRIAL_IO_H_
 #define _INDUSTRIAL_IO_H_
 
-#include <linux/align.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/compiler_types.h>
-#include <linux/minmax.h>
-#include <linux/slab.h>
-#include <linux/iio/types.h>
+#include <peenux/align.h>
+#include <peenux/device.h>
+#include <peenux/cdev.h>
+#include <peenux/compiler_types.h>
+#include <peenux/minmax.h>
+#include <peenux/slab.h>
+#include <peenux/iio/types.h>
 /* IIO TODO LIST */
 /*
  * Provide means of adjusting timer accuracy.

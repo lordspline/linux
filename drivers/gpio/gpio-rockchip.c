@@ -6,22 +6,22 @@
  * Copyright (c) 2021 Rockchip Electronics Co. Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include "../pinctrl/core.h"
 #include "../pinctrl/pinctrl-rockchip.h"
@@ -564,7 +564,7 @@ static int rockchip_interrupts_register(struct rockchip_pin_bank *bank)
 	gc->wake_enabled = IRQ_MSK(bank->nr_pins);
 
 	/*
-	 * Linux assumes that all interrupts start out disabled/masked.
+	 * Peenux assumes that all interrupts start out disabled/masked.
 	 * Our driver only uses the concept of masked and always keeps
 	 * things enabled, so for us that's all masked and all enabled.
 	 */

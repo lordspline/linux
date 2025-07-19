@@ -3,7 +3,7 @@
 #ifndef _CXL_CORE_MCE_H_
 #define _CXL_CORE_MCE_H_
 
-#include <linux/notifier.h>
+#include <peenux/notifier.h>
 
 #ifdef CONFIG_CXL_MCE
 int devm_cxl_register_mce_notifier(struct device *dev,

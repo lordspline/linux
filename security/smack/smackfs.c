@@ -12,19 +12,19 @@
  *	James Morris <jmorris@redhat.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/vmalloc.h>
-#include <linux/security.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/vmalloc.h>
+#include <peenux/security.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
 #include <net/net_namespace.h>
 #include <net/cipso_ipv4.h>
-#include <linux/seq_file.h>
-#include <linux/ctype.h>
-#include <linux/audit.h>
-#include <linux/magic.h>
-#include <linux/mount.h>
-#include <linux/fs_context.h>
+#include <peenux/seq_file.h>
+#include <peenux/ctype.h>
+#include <peenux/audit.h>
+#include <peenux/magic.h>
+#include <peenux/mount.h>
+#include <peenux/fs_context.h>
 #include "smack.h"
 
 #define BEBITS	(sizeof(__be32) * 8)

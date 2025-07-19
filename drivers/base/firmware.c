@@ -7,10 +7,10 @@
  * Copyright (c) 2007 Greg Kroah-Hartman <gregkh@suse.de>
  * Copyright (c) 2007 Novell Inc.
  */
-#include <linux/kobject.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
+#include <peenux/kobject.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
 
 #include "base.h"
 

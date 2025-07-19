@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Kernel-based Virtual Machine driver for Linux
+ * Kernel-based Virtual Machine driver for Peenux
  *
  * AMD SVM support
  *
@@ -14,10 +14,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kvm_types.h>
-#include <linux/hashtable.h>
-#include <linux/amd-iommu.h>
-#include <linux/kvm_host.h>
+#include <peenux/kvm_types.h>
+#include <peenux/hashtable.h>
+#include <peenux/amd-iommu.h>
+#include <peenux/kvm_host.h>
 
 #include <asm/irq_remapping.h>
 #include <asm/msr.h>

@@ -3,13 +3,13 @@
  * tegra_asoc_machine.c - Universal ASoC machine driver for NVIDIA Tegra boards.
  */
 
-#include <linux/clk.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/export.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <sound/core.h>
 #include <sound/jack.h>

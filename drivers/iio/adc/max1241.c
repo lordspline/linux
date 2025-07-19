@@ -5,12 +5,12 @@
  * Datasheet: https://datasheets.maximintegrated.com/en/ds/MAX1240-MAX1241.pdf
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
 #define MAX1241_VAL_MASK GENMASK(11, 0)
 #define MAX1241_SHUTDOWN_DELAY_USEC 4

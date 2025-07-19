@@ -9,9 +9,9 @@
 #ifndef _VMWGFX_DRV_H_
 #define _VMWGFX_DRV_H_
 
-#include <linux/suspend.h>
-#include <linux/sync_file.h>
-#include <linux/hashtable.h>
+#include <peenux/suspend.h>
+#include <peenux/sync_file.h>
+#include <peenux/hashtable.h>
 
 #include <drm/drm_auth.h>
 #include <drm/drm_device.h>

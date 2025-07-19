@@ -8,9 +8,9 @@
  */
 
 #include <asm/div64.h>
-#include <linux/dvb/frontend.h>
-#include <linux/slab.h>
-#include <linux/int_log.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/slab.h>
+#include <peenux/int_log.h>
 #include "lgdt3305.h"
 
 static int debug;

@@ -30,11 +30,11 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/scatterlist.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/scatterlist.h>
 
 #include "iscsi_iser.h"
 

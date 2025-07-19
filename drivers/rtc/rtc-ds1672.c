@@ -6,9 +6,9 @@
  * Author: Alessandro Zummo <a.zummo@towertech.it>
  */
 
-#include <linux/i2c.h>
-#include <linux/rtc.h>
-#include <linux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/rtc.h>
+#include <peenux/module.h>
 
 /* Registers */
 

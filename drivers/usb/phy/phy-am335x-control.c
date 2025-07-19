@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/usb/otg.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/usb/otg.h>
 #include "phy-am335x-control.h"
 
 struct am335x_control_usb {

@@ -14,21 +14,21 @@
  * - Dynamic OTG switching with ID change interrupt
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/reset.h>
-#include <linux/phy/phy.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/role.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/reset.h>
+#include <peenux/phy/phy.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/role.h>
+#include <peenux/regulator/consumer.h>
 
 /* USB2 Ports Control Registers, offsets are per-port */
 

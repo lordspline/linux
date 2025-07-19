@@ -12,7 +12,7 @@
 #ifndef __SMIAPP_REG_DEFS_H__
 #define __SMIAPP_REG_DEFS_H__
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 #include <media/v4l2-cci.h>
 
 /* Register addresses */

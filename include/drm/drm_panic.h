@@ -8,9 +8,9 @@
 #ifndef __DRM_PANIC_H__
 #define __DRM_PANIC_H__
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/iosys-map.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/iosys-map.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_fourcc.h>

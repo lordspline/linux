@@ -5,10 +5,10 @@
  *  Copyright (C) 2008  Magnus Damm
  */
 
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
+#include <peenux/bug.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/ioport.h>
 #include <cpu/pfc.h>
 
 static struct resource sh7720_pfc_resources[] = {

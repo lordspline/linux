@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/irq.c
+ *  peenux/arch/arm/kernel/irq.c
  *
  *  Copyright (C) 1992 Linus Torvalds
  *  Modifications for ARM processor Copyright (C) 1995-2000 Russell King.
@@ -18,21 +18,21 @@
  *  IRQ's are in fact implemented a bit like signal handlers for the kernel.
  *  Naturally it's not a 1:1 relation, but there are similarities.
  */
-#include <linux/signal.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/random.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/kallsyms.h>
-#include <linux/proc_fs.h>
-#include <linux/export.h>
-#include <linux/vmalloc.h>
+#include <peenux/signal.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/random.h>
+#include <peenux/smp.h>
+#include <peenux/init.h>
+#include <peenux/seq_file.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/kallsyms.h>
+#include <peenux/proc_fs.h>
+#include <peenux/export.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/hardware/cache-l2x0.h>
 #include <asm/hardware/cache-uniphier.h>

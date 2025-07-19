@@ -19,10 +19,10 @@
  * Copyright (C) 2020 Daniel W. S. Almeida
  */
 
-#include <linux/dev_printk.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/dev_printk.h>
+#include <peenux/ratelimit.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "vidtv_channel.h"
 #include "vidtv_common.h"

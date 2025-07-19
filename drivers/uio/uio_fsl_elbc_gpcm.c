@@ -39,14 +39,14 @@
    devices as needed.
 */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/uio_driver.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/uio_driver.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
 #include <asm/fsl_lbc.h>
 

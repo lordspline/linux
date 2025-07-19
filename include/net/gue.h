@@ -31,7 +31,7 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct guehdr {
 	union {

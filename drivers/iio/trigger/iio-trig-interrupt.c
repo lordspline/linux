@@ -5,14 +5,14 @@
  * Copyright (c) 2008-2013 Jonathan Cameron
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger.h>
 
 
 struct iio_interrupt_trigger_info {

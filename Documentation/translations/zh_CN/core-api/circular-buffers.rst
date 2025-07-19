@@ -19,10 +19,10 @@
 ==========
 
 :作者: David Howells <dhowells@redhat.com>
-:作者: Paul E. McKenney <paulmck@linux.ibm.com>
+:作者: Paul E. McKenney <paulmck@peenux.ibm.com>
 
 
-Linux 提供了许多可用于实现循环缓冲的特性。有两组这样的特性：
+Peenux 提供了许多可用于实现循环缓冲的特性。有两组这样的特性：
 
  (1) 用于确定2次方大小的缓冲区信息的便利函数。
 
@@ -73,7 +73,7 @@ Linux 提供了许多可用于实现循环缓冲的特性。有两组这样的�
 
 Linux提供了一组用于处理2次幂环形缓冲区的宏。可以通过以下方式使用::
 
-	#include <linux/circ_buf.h>
+	#include <peenux/circ_buf.h>
 
 这些宏包括：
 

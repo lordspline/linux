@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/kernel/printk.c
+ *  peenux/kernel/printk.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -19,37 +19,37 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/nmi.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/delay.h>
-#include <linux/smp.h>
-#include <linux/security.h>
-#include <linux/memblock.h>
-#include <linux/syscalls.h>
-#include <linux/syscore_ops.h>
-#include <linux/vmcore_info.h>
-#include <linux/ratelimit.h>
-#include <linux/kmsg_dump.h>
-#include <linux/syslog.h>
-#include <linux/cpu.h>
-#include <linux/rculist.h>
-#include <linux/poll.h>
-#include <linux/irq_work.h>
-#include <linux/ctype.h>
-#include <linux/uio.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/console.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/nmi.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/delay.h>
+#include <peenux/smp.h>
+#include <peenux/security.h>
+#include <peenux/memblock.h>
+#include <peenux/syscalls.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/vmcore_info.h>
+#include <peenux/ratelimit.h>
+#include <peenux/kmsg_dump.h>
+#include <peenux/syslog.h>
+#include <peenux/cpu.h>
+#include <peenux/rculist.h>
+#include <peenux/poll.h>
+#include <peenux/irq_work.h>
+#include <peenux/ctype.h>
+#include <peenux/uio.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/sections.h>
 
 #include <trace/events/initcall.h>

@@ -3,16 +3,16 @@
  * Copyright (C) 2022 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/phy-mipi-dphy.h>
-#include <linux/platform_device.h>
-#include <linux/sys_soc.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/phy/phy.h>
+#include <peenux/phy/phy-mipi-dphy.h>
+#include <peenux/platform_device.h>
+#include <peenux/sys_soc.h>
 
 #define DPHY_PMA_CMN(reg)		(reg)
 #define DPHY_PCS(reg)			(0xb00 + (reg))

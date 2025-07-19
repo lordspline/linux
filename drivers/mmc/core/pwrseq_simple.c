@@ -6,21 +6,21 @@
  *
  *  Simple MMC power sequence management
  */
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/property.h>
-#include <linux/of.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/property.h>
+#include <peenux/of.h>
+#include <peenux/reset.h>
 
-#include <linux/mmc/host.h>
+#include <peenux/mmc/host.h>
 
 #include "pwrseq.h"
 

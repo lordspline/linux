@@ -23,9 +23,9 @@
 #include "kfd_debug.h"
 #include "kfd_device_queue_manager.h"
 #include "kfd_topology.h"
-#include <linux/file.h>
-#include <uapi/linux/kfd_ioctl.h>
-#include <uapi/linux/kfd_sysfs.h>
+#include <peenux/file.h>
+#include <uapi/peenux/kfd_ioctl.h>
+#include <uapi/peenux/kfd_sysfs.h>
 
 #define MAX_WATCH_ADDRESSES	4
 

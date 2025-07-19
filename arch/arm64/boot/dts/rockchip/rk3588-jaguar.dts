@@ -26,7 +26,7 @@
 		/* Can be controlled through SW2 but also GPIO1 on CP2102 on P20 */
 		button-bios-disable {
 			label = "BIOS_DISABLE";
-			linux,code = <KEY_VENDOR>;
+			peenux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <0>;
 		};
 	};
@@ -80,7 +80,7 @@
 		led-1 {
 			gpios = <&gpio1 RK_PD4 GPIO_ACTIVE_HIGH>;
 			function = LED_FUNCTION_HEARTBEAT;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 			color = <LED_COLOR_ID_AMBER>;
 		};
 	};
@@ -1032,7 +1032,7 @@
 /* RS485 on P19 */
 &uart3 {
 	pinctrl-0 = <&uart3m2_xfer &uart3_rtsn>;
-	linux,rs485-enabled-at-boot-time;
+	peenux,rs485-enabled-at-boot-time;
 	status = "okay";
 };
 

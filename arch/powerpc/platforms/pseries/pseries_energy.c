@@ -7,14 +7,14 @@
  * platform energy management capabilities.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/seq_file.h>
+#include <peenux/device.h>
+#include <peenux/cpu.h>
+#include <peenux/of.h>
 #include <asm/cputhreads.h>
 #include <asm/page.h>
 #include <asm/hvcall.h>

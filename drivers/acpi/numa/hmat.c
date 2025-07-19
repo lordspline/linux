@@ -10,21 +10,21 @@
 
 #define pr_fmt(fmt) "acpi/hmat: " fmt
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/platform_device.h>
-#include <linux/list_sort.h>
-#include <linux/memregion.h>
-#include <linux/memory.h>
-#include <linux/mutex.h>
-#include <linux/node.h>
-#include <linux/sysfs.h>
-#include <linux/dax.h>
-#include <linux/memory-tiers.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/platform_device.h>
+#include <peenux/list_sort.h>
+#include <peenux/memregion.h>
+#include <peenux/memory.h>
+#include <peenux/mutex.h>
+#include <peenux/node.h>
+#include <peenux/sysfs.h>
+#include <peenux/dax.h>
+#include <peenux/memory-tiers.h>
 
 static u8 hmat_revision;
 static int hmat_disable __initdata;

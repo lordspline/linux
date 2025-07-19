@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/fs/fat/cache.c
+ *  peenux/fs/fat/cache.c
  *
  *  Written 1992,1993 by Werner Almesberger
  *
@@ -10,9 +10,9 @@
  *  Copyright (C) 2012-2013 Samsung Electronics Co., Ltd.
  */
 
-#include <linux/slab.h>
-#include <linux/unaligned.h>
-#include <linux/buffer_head.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
+#include <peenux/buffer_head.h>
 
 #include "exfat_raw.h"
 #include "exfat_fs.h"

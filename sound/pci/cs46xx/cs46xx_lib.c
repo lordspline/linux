@@ -31,19 +31,19 @@
  *           Benny <benny@hostmobility.com>
  */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/gameport.h>
-#include <linux/mutex.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/vmalloc.h>
-#include <linux/io.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/pm.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/gameport.h>
+#include <peenux/mutex.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/vmalloc.h>
+#include <peenux/io.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

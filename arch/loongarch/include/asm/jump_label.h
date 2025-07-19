@@ -9,7 +9,7 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define JUMP_LABEL_NOP_SIZE	4
 

@@ -4,10 +4,10 @@
  *
  * Copyright (C) 2012 Russell King
  */
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
 
 #include "virt-dma.h"
 

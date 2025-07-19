@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/prandom.h>
-#include <linux/debugfs.h>
-#include <linux/sched.h>
-#include <linux/stat.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/stacktrace.h>
-#include <linux/fault-inject.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/prandom.h>
+#include <peenux/debugfs.h>
+#include <peenux/sched.h>
+#include <peenux/stat.h>
+#include <peenux/types.h>
+#include <peenux/fs.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/stacktrace.h>
+#include <peenux/fault-inject.h>
 
 /*
- * The should_fail() functions use prandom instead of the normal Linux RNG
+ * The should_fail() functions use prandom instead of the normal Peenux RNG
  * since they don't need cryptographically secure random numbers.
  */
 static DEFINE_PER_CPU(struct rnd_state, fault_rnd_state);

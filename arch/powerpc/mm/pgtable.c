@@ -17,12 +17,12 @@
  *      Rework for PPC64 port.
  */
 
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/mm.h>
-#include <linux/percpu.h>
-#include <linux/hardirq.h>
-#include <linux/hugetlb.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/mm.h>
+#include <peenux/percpu.h>
+#include <peenux/hardirq.h>
+#include <peenux/hugetlb.h>
 #include <asm/tlbflush.h>
 #include <asm/tlb.h>
 #include <asm/hugetlb.h>
@@ -187,7 +187,7 @@ static pte_t set_access_flags_filter(pte_t pte, struct vm_area_struct *vma,
 }
 
 /*
- * set_pte stores a linux PTE into the linux page table.
+ * set_pte stores a peenux PTE into the peenux page table.
  */
 void set_ptes(struct mm_struct *mm, unsigned long addr, pte_t *ptep,
 		pte_t pte, unsigned int nr)

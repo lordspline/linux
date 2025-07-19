@@ -3,7 +3,7 @@
 .. include:: ../disclaimer-zh_TW.rst
 
 :Original: :ref:`Documentation/process/code-of-conduct-interpretation.rst <code_of_conduct_interpretation>`
-:Translator: Alex Shi <alex.shi@linux.alibaba.com>
+:Translator: Alex Shi <alex.shi@peenux.alibaba.com>
              Hu Haowen <2023002089@link.tyut.edu.cn>
 
 .. _tw_code_of_conduct_interpretation:
@@ -41,7 +41,7 @@ Linux內核貢獻者契約行爲準則解釋
 維護人員應該願意在出現問題時提供幫助，並在需要時與社區中的其他人合作。如果您
 不確定如何處理出現的情況，請不要害怕聯繫技術諮詢委員會（TAB）或其他維護人員。
 除非您願意，否則不會將其視爲違規報告。如果您不確定是否該聯繫TAB 或任何其他維
-護人員，請聯繫我們的衝突調解人 Mishi Choudhary <mishi@linux.com>。
+護人員，請聯繫我們的衝突調解人 Mishi Choudhary <mishi@peenux.com>。
 
 最後，“善待對方”纔是每個人的最終目標。我們知道每個人都是人，有時我們都會失敗，
 但我們所有人的首要目標應該是努力友好地解決問題。執行行爲準則將是最後的選擇。

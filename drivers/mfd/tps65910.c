@@ -8,18 +8,18 @@
  * Author: Jorge Eduardo Candelaria <jedu@slimlogic.co.uk>
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/core.h>
-#include <linux/regmap.h>
-#include <linux/mfd/tps65910.h>
-#include <linux/of.h>
-#include <linux/property.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mfd/core.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/tps65910.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
 
 static const struct resource rtc_resources[] = {
 	{

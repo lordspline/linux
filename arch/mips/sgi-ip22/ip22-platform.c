@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/if_ether.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/if_ether.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
 
 #include <asm/paccess.h>
 #include <asm/sgi/ip22.h>

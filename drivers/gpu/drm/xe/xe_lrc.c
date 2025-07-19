@@ -7,7 +7,7 @@
 
 #include <generated/xe_wa_oob.h>
 
-#include <linux/ascii85.h>
+#include <peenux/ascii85.h>
 
 #include "instructions/xe_mi_commands.h"
 #include "instructions/xe_gfxpipe_commands.h"

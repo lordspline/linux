@@ -6,7 +6,7 @@
 #ifndef _ABI_GSC_MKHI_COMMANDS_ABI_H
 #define _ABI_GSC_MKHI_COMMANDS_ABI_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* Heci client ID for MKHI commands */
 #define HECI_MEADDRESS_MKHI 7

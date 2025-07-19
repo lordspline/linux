@@ -6,18 +6,18 @@
  *  Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <linux/binfmts.h>
-#include <linux/compat.h>
-#include <linux/elf.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/random.h>
-#include <linux/vdso_datastore.h>
+#include <peenux/binfmts.h>
+#include <peenux/compat.h>
+#include <peenux/elf.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/random.h>
+#include <peenux/vdso_datastore.h>
 #include <vdso/datapage.h>
 #include <asm/vdso/vsyscall.h>
 #include <asm/alternative.h>

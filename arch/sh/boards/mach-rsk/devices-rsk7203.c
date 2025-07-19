@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2008 - 2010  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/smsc911x.h>
-#include <linux/input.h>
-#include <linux/gpio.h>
-#include <linux/gpio_keys.h>
-#include <linux/leds.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/smsc911x.h>
+#include <peenux/input.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/leds.h>
 #include <asm/machvec.h>
 #include <asm/io.h>
 #include <cpu/sh7203.h>

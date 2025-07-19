@@ -36,7 +36,7 @@
 #define _PAGE_PSIZE_SHIFT		7
 #define _PAGE_PSIZE_SHIFT_OFFSET	10
 
-/* "Higher level" linux bit combinations */
+/* "Higher level" peenux bit combinations */
 #define _PAGE_EXEC		(_PAGE_BAP_SX | _PAGE_BAP_UX) /* .. and was cache cleaned */
 #define _PAGE_READ		(_PAGE_BAP_SR | _PAGE_BAP_UR) /* User read permission */
 #define _PAGE_WRITE		(_PAGE_BAP_SW | _PAGE_BAP_UW) /* User write permission */

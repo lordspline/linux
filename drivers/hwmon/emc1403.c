@@ -9,17 +9,17 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/sysfs.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/util_macros.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/sysfs.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/util_macros.h>
 
 #define THERMAL_PID_REG		0xfd
 #define THERMAL_SMSC_ID_REG	0xfe

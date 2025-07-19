@@ -29,12 +29,12 @@
 #include <signal.h>
 #include <pthread.h>
 #include <sys/ioctl.h>
-#include <linux/userfaultfd.h>
+#include <peenux/userfaultfd.h>
 #include <setjmp.h>
 #include <sys/ptrace.h>
 #include <sys/signal.h>
-#include <linux/elf.h>
-#include <linux/perf_event.h>
+#include <peenux/elf.h>
+#include <peenux/perf_event.h>
 
 /*
  * Define the ABI defines if needed, so people can run the tests

@@ -11,12 +11,12 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <crypto/skcipher.h>
-#include <linux/module.h>
-#include <linux/net.h>
-#include <linux/skbuff.h>
-#include <linux/key-type.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/net.h>
+#include <peenux/skbuff.h>
+#include <peenux/key-type.h>
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
 #include <net/sock.h>
 #include <net/af_rxrpc.h>
 #include <keys/rxrpc-type.h>

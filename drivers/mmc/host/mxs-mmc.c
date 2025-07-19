@@ -7,28 +7,28 @@
  * Copyright 2009-2011 Freescale Semiconductor, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/dma/mxs-dma.h>
-#include <linux/highmem.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/completion.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/regulator/consumer.h>
-#include <linux/module.h>
-#include <linux/stmp_device.h>
-#include <linux/spi/mxs-spi.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma/mxs-dma.h>
+#include <peenux/highmem.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/completion.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/stmp_device.h>
+#include <peenux/spi/mxs-spi.h>
 
 #define DRIVER_NAME	"mxs-mmc"
 

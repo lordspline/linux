@@ -14,19 +14,19 @@
  *      3) V4L2_CID_JPEG_ACTIVE_MARKER
  */
 
-#include <linux/unaligned.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/videodev2.h>
+#include <peenux/unaligned.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/videodev2.h>
 #include <media/jpeg.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

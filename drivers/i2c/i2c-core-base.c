@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Linux I2C core
+ * Peenux I2C core
  *
  * Copyright (C) 1995-99 Simon G. Vogl
  *   With some changes from Kyösti Mälkki <kmalkki@cc.hut.fi>
@@ -13,35 +13,35 @@
 #define pr_fmt(fmt) "i2c-core: " fmt
 
 #include <dt-bindings/i2c/i2c.h>
-#include <linux/acpi.h>
-#include <linux/clk/clk-conf.h>
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_device.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/devinfo.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/property.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <peenux/acpi.h>
+#include <peenux/clk/clk-conf.h>
+#include <peenux/completion.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-smbus.h>
+#include <peenux/idr.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_device.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/devinfo.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/property.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
 
 #include "i2c-core.h"
 

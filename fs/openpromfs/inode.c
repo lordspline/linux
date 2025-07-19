@@ -5,20 +5,20 @@
  * Copyright (C) 1998      Eddie C. Dost  (ecd@skynet.be)
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/magic.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/magic.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>
 #include <asm/prom.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 static DEFINE_MUTEX(op_mutex);
 

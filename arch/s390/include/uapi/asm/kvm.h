@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef __LINUX_KVM_S390_H
 #define __LINUX_KVM_S390_H
 /*
@@ -9,7 +9,7 @@
  *    Author(s): Carsten Otte <cotte@de.ibm.com>
  *               Christian Borntraeger <borntraeger@de.ibm.com>
  */
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define __KVM_S390
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/hfsplus/bnode.c
+ *  peenux/fs/hfsplus/bnode.c
  *
  * Copyright (C) 2001
  * Brad Boyer (flar@allandria.com)
@@ -9,11 +9,11 @@
  * Handle basic btree node operations
  */
 
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/fs.h>
-#include <linux/swap.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/pagemap.h>
+#include <peenux/fs.h>
+#include <peenux/swap.h>
 
 #include "hfsplus_fs.h"
 #include "hfsplus_raw.h"

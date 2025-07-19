@@ -4,17 +4,17 @@
  */
 
 /*
- * Driver for Amiga joysticks for Linux/m68k
+ * Driver for Amiga joysticks for Peenux/m68k
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
 
 #include <asm/amigahw.h>
 #include <asm/amigaints.h>

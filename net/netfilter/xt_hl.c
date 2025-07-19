@@ -7,14 +7,14 @@
  * (C) 2001-2002 Maciej Soltysiak <solt@dns.toxicfilms.tv>
  */
 
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
 
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_ipv4/ipt_ttl.h>
-#include <linux/netfilter_ipv6/ip6t_hl.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter_ipv4/ipt_ttl.h>
+#include <peenux/netfilter_ipv6/ip6t_hl.h>
 
 MODULE_AUTHOR("Maciej Soltysiak <solt@dns.toxicfilms.tv>");
 MODULE_DESCRIPTION("Xtables: Hoplimit/TTL field match");

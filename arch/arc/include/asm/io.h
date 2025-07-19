@@ -6,10 +6,10 @@
 #ifndef _ASM_ARC_IO_H
 #define _ASM_ARC_IO_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
 #include <asm/page.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #ifdef CONFIG_ISA_ARCV2
 #include <asm/barrier.h>

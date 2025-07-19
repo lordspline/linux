@@ -8,17 +8,17 @@
  *	    Ankur Srivastava <sankurece@gmail.com> : DS1343 Nvram Support
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/pm.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/pm.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/slab.h>
 
 #define DALLAS_MAXIM_DS1343	0
 #define DALLAS_MAXIM_DS1344	1

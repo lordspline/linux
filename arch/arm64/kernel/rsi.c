@@ -3,12 +3,12 @@
  * Copyright (C) 2023 ARM Ltd.
  */
 
-#include <linux/jump_label.h>
-#include <linux/memblock.h>
-#include <linux/psci.h>
-#include <linux/swiotlb.h>
-#include <linux/cc_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/jump_label.h>
+#include <peenux/memblock.h>
+#include <peenux/psci.h>
+#include <peenux/swiotlb.h>
+#include <peenux/cc_platform.h>
+#include <peenux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/mem_encrypt.h>

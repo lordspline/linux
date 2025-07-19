@@ -4,12 +4,12 @@
  *
  * Copyright (c) 2006 Andriy Skulysh <askulsyh@gmail.com>
  */
-#include <linux/init.h>
-#include <linux/suspend.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
+#include <peenux/init.h>
+#include <peenux/suspend.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/delay.h>
+#include <peenux/gfp.h>
 #include <asm/io.h>
 #include <asm/hd64461.h>
 #include <asm/bl_bit.h>

@@ -2,7 +2,7 @@
 /*
  * Copyright © 2020 Intel Corporation
  */
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_atomic_uapi.h>

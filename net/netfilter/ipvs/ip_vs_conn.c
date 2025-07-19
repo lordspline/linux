@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * IPVS         An implementation of the IP virtual server support for the
- *              LINUX operating system.  IPVS is now implemented as a module
+ *              PEENUX operating system.  IPVS is now implemented as a module
  *              over the Netfilter framework. IPVS can be used to build a
  *              high-performance and highly available server based on a
  *              cluster of servers.
@@ -20,18 +20,18 @@
 #define KMSG_COMPONENT "IPVS"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/net.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>		/* for proc_net_* */
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/jhash.h>
-#include <linux/random.h>
-#include <linux/rcupdate_wait.h>
+#include <peenux/interrupt.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/net.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>		/* for proc_net_* */
+#include <peenux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/jhash.h>
+#include <peenux/random.h>
+#include <peenux/rcupdate_wait.h>
 
 #include <net/net_namespace.h>
 #include <net/ip_vs.h>

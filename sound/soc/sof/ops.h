@@ -5,16 +5,16 @@
  *
  * Copyright(c) 2018 Intel Corporation
  *
- * Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+ * Author: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
  */
 
 #ifndef __SOUND_SOC_SOF_IO_H
 #define __SOUND_SOC_SOF_IO_H
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
 #include <sound/pcm.h>
 #include "sof-priv.h"
 
@@ -606,7 +606,7 @@ snd_sof_is_chain_dma_supported(struct snd_sof_dev *sdev, u32 dai_type)
  * case, the last read value at @addr is stored in @val. Must not
  * be called from atomic context if sleep_us or timeout_us are used.
  *
- * This is modelled after the readx_poll_timeout macros in linux/iopoll.h.
+ * This is modelled after the readx_poll_timeout macros in peenux/iopoll.h.
  */
 #define snd_sof_dsp_read_poll_timeout(sdev, bar, offset, val, cond, sleep_us, timeout_us) \
 ({ \

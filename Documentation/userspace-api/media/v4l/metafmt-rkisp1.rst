@@ -86,4 +86,4 @@ important tuning tools using software control loop.
 rkisp1 uAPI data types
 ======================
 
-.. kernel-doc:: include/uapi/linux/rkisp1-config.h
+.. kernel-doc:: include/uapi/peenux/rkisp1-config.h

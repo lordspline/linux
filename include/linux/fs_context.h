@@ -8,11 +8,11 @@
 #ifndef _LINUX_FS_CONTEXT_H
 #define _LINUX_FS_CONTEXT_H
 
-#include <linux/kernel.h>
-#include <linux/refcount.h>
-#include <linux/errno.h>
-#include <linux/security.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/refcount.h>
+#include <peenux/errno.h>
+#include <peenux/security.h>
+#include <peenux/mutex.h>
 
 struct cred;
 struct dentry;

@@ -8,16 +8,16 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/msi.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <peenux/irqchip/irq-msi-lib.h>
 
 #include <dt-bindings/interrupt-controller/arm-gic.h>
 

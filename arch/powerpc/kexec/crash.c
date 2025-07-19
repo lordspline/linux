@@ -7,17 +7,17 @@
  * Created by: Haren Myneni
  */
 
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/reboot.h>
-#include <linux/kexec.h>
-#include <linux/export.h>
-#include <linux/crash_dump.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/types.h>
-#include <linux/libfdt.h>
-#include <linux/memory.h>
+#include <peenux/kernel.h>
+#include <peenux/smp.h>
+#include <peenux/reboot.h>
+#include <peenux/kexec.h>
+#include <peenux/export.h>
+#include <peenux/crash_dump.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/types.h>
+#include <peenux/libfdt.h>
+#include <peenux/memory.h>
 
 #include <asm/processor.h>
 #include <asm/machdep.h>

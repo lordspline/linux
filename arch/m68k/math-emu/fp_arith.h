@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
 
-   fp_arith.h: floating-point math routines for the Linux-m68k
+   fp_arith.h: floating-point math routines for the Peenux-m68k
    floating point emulator.
 
    Copyright (c) 1998 David Huggins-Daines.

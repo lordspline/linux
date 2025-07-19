@@ -6,7 +6,7 @@
 #ifndef _INTEL_DISPLAY_PARAMS_H_
 #define _INTEL_DISPLAY_PARAMS_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct drm_printer;
 

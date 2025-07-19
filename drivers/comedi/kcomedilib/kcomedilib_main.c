@@ -3,22 +3,22 @@
  * kcomedilib/kcomedilib.c
  * a comedlib interface for kernel modules
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Peenux Control and Measurement Device Interface
  * Copyright (C) 1997-2000 David A. Schleef <ds@schleef.org>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/io.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/fcntl.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
 
-#include <linux/comedi.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedilib.h>
+#include <peenux/comedi.h>
+#include <peenux/comedi/comedidev.h>
+#include <peenux/comedi/comedilib.h>
 
 MODULE_AUTHOR("David Schleef <ds@schleef.org>");
 MODULE_DESCRIPTION("Comedi kernel library");

@@ -4,10 +4,10 @@
  *
  * Author:  Daniel De Graaf <dgdegra@tycho.nsa.gov>
  */
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/freezer.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/freezer.h>
 #include <xen/xen.h>
 #include <xen/events.h>
 #include <xen/interface/io/tpmif.h>

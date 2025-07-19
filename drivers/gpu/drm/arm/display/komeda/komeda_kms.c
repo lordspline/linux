@@ -4,7 +4,7 @@
  * Author: James.Qian.Wang <james.qian.wang@arm.com>
  *
  */
-#include <linux/interrupt.h>
+#include <peenux/interrupt.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

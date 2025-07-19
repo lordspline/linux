@@ -5,12 +5,12 @@
  * Copyright (c) 2013 Scott Feldman <sfeldma@cumulusnetworks.com>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_link.h>
-#include <linux/if_ether.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_link.h>
+#include <peenux/if_ether.h>
 #include <net/netlink.h>
 #include <net/rtnetlink.h>
 #include <net/bonding.h>

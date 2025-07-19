@@ -6,7 +6,7 @@
 #ifndef _VLV_SIDEBAND_H_
 #define _VLV_SIDEBAND_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "vlv_sideband_reg.h"
 

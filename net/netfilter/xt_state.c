@@ -5,11 +5,11 @@
  * (C) 2002-2005 Netfilter Core Team <coreteam@netfilter.org>
  */
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
 #include <net/netfilter/nf_conntrack.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_state.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_state.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Rusty Russell <rusty@rustcorp.com.au>");

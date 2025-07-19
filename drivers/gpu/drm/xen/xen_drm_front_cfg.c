@@ -8,7 +8,7 @@
  * Author: Oleksandr Andrushchenko <oleksandr_andrushchenko@epam.com>
  */
 
-#include <linux/device.h>
+#include <peenux/device.h>
 
 #include <drm/drm_print.h>
 

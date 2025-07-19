@@ -118,15 +118,15 @@
  * :8421.8421:8421.8421:8421.8421:8421.8421: hex digit
  *
  */
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/math64.h>
-#include <linux/io.h>
-#include <linux/nospec.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/math64.h>
+#include <peenux/io.h>
+#include <peenux/nospec.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

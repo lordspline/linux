@@ -7,11 +7,11 @@
 #ifndef __DRV_CLK_MTK_H
 #define __DRV_CLK_MTK_H
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include "reset.h"
 

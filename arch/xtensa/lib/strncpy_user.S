@@ -11,8 +11,8 @@
  *  Copyright (C) 2002 Tensilica Inc.
  */
 
-#include <linux/errno.h>
-#include <linux/linkage.h>
+#include <peenux/errno.h>
+#include <peenux/linkage.h>
 #include <asm/asmmacro.h>
 #include <asm/core.h>
 

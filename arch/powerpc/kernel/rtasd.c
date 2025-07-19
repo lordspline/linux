@@ -5,26 +5,26 @@
  * Communication to userspace based on kernel/printk.c
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/poll.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
-#include <linux/vmalloc.h>
-#include <linux/spinlock.h>
-#include <linux/cpu.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/topology.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/poll.h>
+#include <peenux/proc_fs.h>
+#include <peenux/init.h>
+#include <peenux/vmalloc.h>
+#include <peenux/spinlock.h>
+#include <peenux/cpu.h>
+#include <peenux/workqueue.h>
+#include <peenux/slab.h>
+#include <peenux/topology.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 #include <asm/rtas.h>
 #include <asm/nvram.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/machdep.h>
 #include <asm/topology.h>
 

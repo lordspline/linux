@@ -6,18 +6,18 @@
  */
 
 #include <drm/bridge/aux-bridge.h>
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/typec_altmode.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/usb/typec_retimer.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/usb/typec_altmode.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_mux.h>
+#include <peenux/usb/typec_retimer.h>
 
 #define REG_USB_PORT_CONN_STATUS_0		0x00
 

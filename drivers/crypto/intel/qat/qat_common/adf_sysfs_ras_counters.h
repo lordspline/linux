@@ -4,8 +4,8 @@
 #ifndef ADF_RAS_H
 #define ADF_RAS_H
 
-#include <linux/bitops.h>
-#include <linux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/atomic.h>
 
 struct adf_accel_dev;
 

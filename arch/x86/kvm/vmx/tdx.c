@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/cleanup.h>
-#include <linux/cpu.h>
+#include <peenux/cleanup.h>
+#include <peenux/cpu.h>
 #include <asm/cpufeature.h>
 #include <asm/fpu/xcr.h>
-#include <linux/misc_cgroup.h>
-#include <linux/mmu_context.h>
+#include <peenux/misc_cgroup.h>
+#include <peenux/mmu_context.h>
 #include <asm/tdx.h>
 #include "capabilities.h"
 #include "mmu.h"

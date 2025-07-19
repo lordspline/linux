@@ -3,14 +3,14 @@
  * Copyright (C) 2012 Avionic Design GmbH
  */
 
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/of.h>
-#include <linux/pm_wakeirq.h>
+#include <peenux/bcd.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
+#include <peenux/of.h>
+#include <peenux/pm_wakeirq.h>
 
 #define PCF8523_REG_CONTROL1 0x00
 #define PCF8523_CONTROL1_CAP_SEL BIT(7)

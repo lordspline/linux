@@ -10,25 +10,25 @@
  *              names to make it usable in general net subsystem.
  */
 
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/in.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/seqlock.h>
+#include <peenux/uaccess.h>
+#include <peenux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/in.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/seqlock.h>
 #include <net/sock.h>
 #include <net/gen_stats.h>
 

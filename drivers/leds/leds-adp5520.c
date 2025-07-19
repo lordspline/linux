@@ -12,12 +12,12 @@
  *	Eric Miao <eric.miao@marvell.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/leds.h>
-#include <linux/mfd/adp5520.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/leds.h>
+#include <peenux/mfd/adp5520.h>
+#include <peenux/slab.h>
 
 struct adp5520_led {
 	struct led_classdev	cdev;

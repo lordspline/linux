@@ -5,13 +5,13 @@
  *  Copyright (C) 2025 Dzmitry Sankouski <dsankouski@gmail.com>
  */
 
-#include <linux/err.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/kernel.h>
-#include <linux/mfd/max77705-private.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/err.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/max77705-private.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 struct channel_desc {
 	u8 reg;

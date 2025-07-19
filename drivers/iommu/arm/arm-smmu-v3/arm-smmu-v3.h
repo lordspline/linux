@@ -8,12 +8,12 @@
 #ifndef _ARM_SMMU_V3_H
 #define _ARM_SMMU_V3_H
 
-#include <linux/bitfield.h>
-#include <linux/iommu.h>
-#include <linux/iommufd.h>
-#include <linux/kernel.h>
-#include <linux/mmzone.h>
-#include <linux/sizes.h>
+#include <peenux/bitfield.h>
+#include <peenux/iommu.h>
+#include <peenux/iommufd.h>
+#include <peenux/kernel.h>
+#include <peenux/mmzone.h>
+#include <peenux/sizes.h>
 
 struct arm_smmu_device;
 

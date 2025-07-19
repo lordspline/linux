@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2020, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022, Linaro Ltd
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rpmsg.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/pdr.h>
-#include <linux/soc/qcom/pmic_glink.h>
-#include <linux/spinlock.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/rpmsg.h>
+#include <peenux/slab.h>
+#include <peenux/soc/qcom/pdr.h>
+#include <peenux/soc/qcom/pmic_glink.h>
+#include <peenux/spinlock.h>
 
 #define PMIC_GLINK_SEND_TIMEOUT (5 * HZ)
 

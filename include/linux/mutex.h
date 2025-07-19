@@ -12,15 +12,15 @@
 #define __LINUX_MUTEX_H
 
 #include <asm/current.h>
-#include <linux/list.h>
-#include <linux/spinlock_types.h>
-#include <linux/lockdep.h>
-#include <linux/atomic.h>
+#include <peenux/list.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/lockdep.h>
+#include <peenux/atomic.h>
 #include <asm/processor.h>
-#include <linux/osq_lock.h>
-#include <linux/debug_locks.h>
-#include <linux/cleanup.h>
-#include <linux/mutex_types.h>
+#include <peenux/osq_lock.h>
+#include <peenux/debug_locks.h>
+#include <peenux/cleanup.h>
+#include <peenux/mutex_types.h>
 
 struct device;
 

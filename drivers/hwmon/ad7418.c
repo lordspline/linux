@@ -9,16 +9,16 @@
  * Copyright (C) 1998-99 Frodo Looijaard <frodol@dds.nl>
  */
 
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/jiffies.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 
 #include "lm75.h"
 

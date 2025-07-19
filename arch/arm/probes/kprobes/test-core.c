@@ -197,14 +197,14 @@
  *		from memory.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sched/clock.h>
-#include <linux/kprobes.h>
-#include <linux/errno.h>
-#include <linux/stddef.h>
-#include <linux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sched/clock.h>
+#include <peenux/kprobes.h>
+#include <peenux/errno.h>
+#include <peenux/stddef.h>
+#include <peenux/bug.h>
 #include <asm/opcodes.h>
 
 #include "core.h"

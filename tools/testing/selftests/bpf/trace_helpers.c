@@ -9,12 +9,12 @@
 #include <poll.h>
 #include <pthread.h>
 #include <unistd.h>
-#include <linux/perf_event.h>
-#include <linux/fs.h>
+#include <peenux/perf_event.h>
+#include <peenux/fs.h>
 #include <sys/ioctl.h>
 #include <sys/mman.h>
 #include "trace_helpers.h"
-#include <linux/limits.h>
+#include <peenux/limits.h>
 #include <libelf.h>
 #include <gelf.h>
 #include "bpf/libbpf_internal.h"

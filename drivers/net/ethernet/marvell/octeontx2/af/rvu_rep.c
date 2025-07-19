@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/bitfield.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "rvu.h"
 #include "rvu_reg.h"

@@ -13,13 +13,13 @@
  * Pawel Osciak, <pawel@osciak.com>
  * Marek Szyprowski, <m.szyprowski@samsung.com>
  */
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
-#include <linux/platform_device.h>
+#include <peenux/platform_device.h>
 #include <media/v4l2-mem2mem.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>

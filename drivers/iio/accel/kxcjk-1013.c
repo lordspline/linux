@@ -4,27 +4,27 @@
  * Copyright (c) 2014, Intel Corporation.
  */
 
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/acpi.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/events.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/accel/kxcjk_1013.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/accel/kxcjk_1013.h>
 
 #define KXCJK1013_DRV_NAME "kxcjk1013"
 #define KXCJK1013_IRQ_NAME "kxcjk1013_event"
@@ -1685,6 +1685,6 @@ static struct i2c_driver kxcjk1013_driver = {
 };
 module_i2c_driver(kxcjk1013_driver);
 
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>");
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("KXCJK1013 accelerometer driver");

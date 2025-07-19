@@ -9,18 +9,18 @@
 #ifndef _HISI_PTT_H
 #define _HISI_PTT_H
 
-#include <linux/bits.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/kfifo.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/pci.h>
-#include <linux/perf_event.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/bits.h>
+#include <peenux/cpumask.h>
+#include <peenux/device.h>
+#include <peenux/kfifo.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/pci.h>
+#include <peenux/perf_event.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #define DRV_NAME "hisi_ptt"
 

@@ -4,15 +4,15 @@
  *
  * Copyright (C) 1997, 1998, 1999, 2000, 2009 Ingo Molnar, Hajnalka Szabo
  *	Moved from arch/x86/kernel/apic/io_apic.c.
- * Jiang Liu <jiang.liu@linux.intel.com>
+ * Jiang Liu <jiang.liu@peenux.intel.com>
  *	Enable support of hierarchical irqdomains
  */
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/compiler.h>
-#include <linux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/compiler.h>
+#include <peenux/slab.h>
 #include <asm/irqdomain.h>
 #include <asm/hw_irq.h>
 #include <asm/traps.h>

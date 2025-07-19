@@ -9,33 +9,33 @@
  * pinctrl-tegra.c, please see original file for copyright information
  */
 
-#include <linux/bitmap.h>
-#include <linux/bug.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdesc.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <peenux/bitmap.h>
+#include <peenux/bug.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqdesc.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
 #include <dt-bindings/pinctrl/bcm2835.h>
 
 #define MODULE_NAME "pinctrl-bcm2835"

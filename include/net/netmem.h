@@ -8,8 +8,8 @@
 #ifndef _NET_NETMEM_H
 #define _NET_NETMEM_H
 
-#include <linux/dma-mapping.h>
-#include <linux/mm.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mm.h>
 #include <net/net_debug.h>
 
 /* net_iov */

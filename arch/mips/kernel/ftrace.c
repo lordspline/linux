@@ -9,10 +9,10 @@
  * Thanks goes to Steven Rostedt for writing the original x86 version.
  */
 
-#include <linux/uaccess.h>
-#include <linux/init.h>
-#include <linux/ftrace.h>
-#include <linux/syscalls.h>
+#include <peenux/uaccess.h>
+#include <peenux/init.h>
+#include <peenux/ftrace.h>
+#include <peenux/syscalls.h>
 
 #include <asm/asm.h>
 #include <asm/asm-offsets.h>

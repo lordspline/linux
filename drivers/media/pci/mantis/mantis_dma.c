@@ -6,15 +6,15 @@
 
 */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 #include <asm/page.h>
-#include <linux/vmalloc.h>
-#include <linux/pci.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pci.h>
 
 #include <asm/irq.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

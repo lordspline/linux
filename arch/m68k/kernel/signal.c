@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/kernel/signal.c
+ *  peenux/arch/m68k/kernel/signal.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -9,7 +9,7 @@
  */
 
 /*
- * Linux/m68k support by Hamish Macdonald
+ * Peenux/m68k support by Hamish Macdonald
  *
  * 68060 fixes by Jesper Skov
  *
@@ -28,25 +28,25 @@
  * signal handlers!
  */
 
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/syscalls.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/highuid.h>
-#include <linux/personality.h>
-#include <linux/tty.h>
-#include <linux/binfmts.h>
-#include <linux/extable.h>
-#include <linux/resume_user_mode.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/syscalls.h>
+#include <peenux/errno.h>
+#include <peenux/wait.h>
+#include <peenux/ptrace.h>
+#include <peenux/unistd.h>
+#include <peenux/stddef.h>
+#include <peenux/highuid.h>
+#include <peenux/personality.h>
+#include <peenux/tty.h>
+#include <peenux/binfmts.h>
+#include <peenux/extable.h>
+#include <peenux/resume_user_mode.h>
 
 #include <asm/setup.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/traps.h>
 #include <asm/ucontext.h>
 #include <asm/cacheflush.h>

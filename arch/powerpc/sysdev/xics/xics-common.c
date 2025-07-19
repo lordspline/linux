@@ -2,21 +2,21 @@
 /*
  * Copyright 2011 IBM Corporation.
  */
-#include <linux/types.h>
-#include <linux/threads.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/debugfs.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
+#include <peenux/types.h>
+#include <peenux/threads.h>
+#include <peenux/kernel.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/debugfs.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
 
 #include <asm/io.h>
 #include <asm/smp.h>

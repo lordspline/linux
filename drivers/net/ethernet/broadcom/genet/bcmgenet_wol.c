@@ -7,30 +7,30 @@
 
 #define pr_fmt(fmt)				"bcmgenet_wol: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
 #include <net/arp.h>
 
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/phy.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/inetdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/phy.h>
 
 #include "bcmgenet.h"
 

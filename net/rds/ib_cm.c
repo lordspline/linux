@@ -30,11 +30,11 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/in.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/ratelimit.h>
+#include <peenux/kernel.h>
+#include <peenux/in.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/ratelimit.h>
 #include <net/addrconf.h>
 #include <rdma/ib_cm.h>
 

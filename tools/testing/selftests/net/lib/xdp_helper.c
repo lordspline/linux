@@ -6,8 +6,8 @@
 #include <unistd.h>
 #include <sys/mman.h>
 #include <sys/socket.h>
-#include <linux/if_xdp.h>
-#include <linux/if_link.h>
+#include <peenux/if_xdp.h>
+#include <peenux/if_link.h>
 #include <net/if.h>
 #include <inttypes.h>
 

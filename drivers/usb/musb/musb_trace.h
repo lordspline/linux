@@ -13,9 +13,9 @@
 #if !defined(__MUSB_TRACE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define __MUSB_TRACE_H
 
-#include <linux/types.h>
-#include <linux/tracepoint.h>
-#include <linux/usb.h>
+#include <peenux/types.h>
+#include <peenux/tracepoint.h>
+#include <peenux/usb.h>
 #include "musb_core.h"
 #ifdef CONFIG_USB_TI_CPPI41_DMA
 #include "cppi_dma.h"

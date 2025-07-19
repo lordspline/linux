@@ -6,9 +6,9 @@
  *
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/xarray.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/xarray.h>
 
 #include <drm/drm_accel.h>
 #include <drm/drm_auth.h>

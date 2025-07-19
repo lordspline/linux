@@ -2,19 +2,19 @@
 /*
  * Ptrace support for Hexagon
  *
- * Copyright (c) 2010-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/regset.h>
-#include <linux/user.h>
-#include <linux/elf.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/regset.h>
+#include <peenux/user.h>
+#include <peenux/elf.h>
 
 #include <asm/user.h>
 

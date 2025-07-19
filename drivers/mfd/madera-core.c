@@ -5,24 +5,24 @@
  * Copyright (C) 2015-2018 Cirrus Logic
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
 
-#include <linux/mfd/madera/core.h>
-#include <linux/mfd/madera/registers.h>
+#include <peenux/mfd/madera/core.h>
+#include <peenux/mfd/madera/registers.h>
 
 #include "madera.h"
 

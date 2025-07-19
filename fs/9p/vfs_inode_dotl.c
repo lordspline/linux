@@ -6,18 +6,18 @@
  *  Copyright (C) 2002 by Ron Minnich <rminnich@lanl.gov>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/pagemap.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/namei.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/xattr.h>
-#include <linux/posix_acl.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/pagemap.h>
+#include <peenux/stat.h>
+#include <peenux/string.h>
+#include <peenux/namei.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/xattr.h>
+#include <peenux/posix_acl.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 
@@ -189,7 +189,7 @@ static int v9fs_mapped_dotl_flags(int flags)
 }
 
 /**
- * v9fs_open_to_dotl_flags- convert Linux specific open flags to
+ * v9fs_open_to_dotl_flags- convert Peenux specific open flags to
  * plan 9 open flag.
  * @flags: flags to convert
  */

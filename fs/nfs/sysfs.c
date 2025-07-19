@@ -3,16 +3,16 @@
  * Copyright (c) 2019 Hammerspace Inc
  */
 
-#include <linux/module.h>
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/netdevice.h>
-#include <linux/string.h>
-#include <linux/nfs_fs.h>
-#include <linux/rcupdate.h>
-#include <linux/lockd/lockd.h>
+#include <peenux/module.h>
+#include <peenux/kobject.h>
+#include <peenux/sysfs.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/netdevice.h>
+#include <peenux/string.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/rcupdate.h>
+#include <peenux/lockd/lockd.h>
 
 #include "internal.h"
 #include "nfs4_fs.h"

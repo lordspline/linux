@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
- * Front panel driver for Linux
+ * Front panel driver for Peenux
  * Copyright (C) 2000-2008, Willy Tarreau <w@1wt.eu>
  * Copyright (C) 2016-2017 Glider bvba
  *
@@ -33,27 +33,27 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/miscdevice.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/fcntl.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/parport.h>
-#include <linux/list.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/miscdevice.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/fcntl.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/parport.h>
+#include <peenux/list.h>
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 
 #include "charlcd.h"
 #include "hd44780_common.h"

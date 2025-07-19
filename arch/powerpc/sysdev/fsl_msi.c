@@ -7,18 +7,18 @@
  *
  * The hwirq alloc and free code reuse from sysdev/mpic_msi.c
  */
-#include <linux/irq.h>
-#include <linux/msi.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/seq_file.h>
+#include <peenux/irq.h>
+#include <peenux/msi.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/seq_file.h>
 #include <sysdev/fsl_soc.h>
 #include <asm/hw_irq.h>
 #include <asm/ppc-pci.h>

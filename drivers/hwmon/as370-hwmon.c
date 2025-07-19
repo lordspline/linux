@@ -6,13 +6,13 @@
  * Author: Jisheng Zhang <jszhang@kernel.org>
  */
 
-#include <linux/bitops.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/bitops.h>
+#include <peenux/hwmon.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 
 #define CTRL		0x0
 #define  PD		BIT(0)

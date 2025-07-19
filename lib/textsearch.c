@@ -97,15 +97,15 @@
  */
 /* ========================================================================== */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
-#include <linux/err.h>
-#include <linux/textsearch.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/rculist.h>
+#include <peenux/rcupdate.h>
+#include <peenux/err.h>
+#include <peenux/textsearch.h>
+#include <peenux/slab.h>
 
 static LIST_HEAD(ts_ops);
 static DEFINE_SPINLOCK(ts_mod_lock);

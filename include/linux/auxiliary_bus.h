@@ -8,8 +8,8 @@
 #ifndef _AUXILIARY_BUS_H_
 #define _AUXILIARY_BUS_H_
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
 
 /**
  * DOC: DEVICE_LIFESPAN

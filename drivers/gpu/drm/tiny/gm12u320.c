@@ -3,9 +3,9 @@
  * Copyright 2019 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/usb.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/usb.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

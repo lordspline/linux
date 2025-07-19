@@ -5,22 +5,22 @@
  * Copyright 2010-2011 Analog Devices Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/list.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/list.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
 #include <asm/div64.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 #include "dds.h"
 
 #include "ad9834.h"

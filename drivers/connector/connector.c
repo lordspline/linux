@@ -6,18 +6,18 @@
  * All rights reserved.
  */
 
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/skbuff.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/skbuff.h>
 #include <net/netlink.h>
-#include <linux/moduleparam.h>
-#include <linux/connector.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/proc_fs.h>
-#include <linux/spinlock.h>
+#include <peenux/moduleparam.h>
+#include <peenux/connector.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/proc_fs.h>
+#include <peenux/spinlock.h>
 
 #include <net/sock.h>
 

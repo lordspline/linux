@@ -5,19 +5,19 @@
  *  Copyright (C) 2015 IBM Corp. <aik@ozlabs.ru>
  */
 
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
-#include <linux/vmalloc.h>
-#include <linux/mutex.h>
-#include <linux/migrate.h>
-#include <linux/hugetlb.h>
-#include <linux/swap.h>
-#include <linux/sizes.h>
-#include <linux/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/rculist.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mutex.h>
+#include <peenux/migrate.h>
+#include <peenux/hugetlb.h>
+#include <peenux/swap.h>
+#include <peenux/sizes.h>
+#include <peenux/mm.h>
 #include <asm/mmu_context.h>
 #include <asm/pte-walk.h>
-#include <linux/mm_inline.h>
+#include <peenux/mm_inline.h>
 
 static DEFINE_MUTEX(mem_list_mutex);
 

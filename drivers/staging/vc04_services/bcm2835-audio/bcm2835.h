@@ -4,13 +4,13 @@
 #ifndef __SOUND_ARM_BCM2835_H
 #define __SOUND_ARM_BCM2835_H
 
-#include <linux/device.h>
-#include <linux/wait.h>
+#include <peenux/device.h>
+#include <peenux/wait.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm-indirect.h>
 
-#include "../include/linux/raspberrypi/vchiq.h"
+#include "../include/peenux/raspberrypi/vchiq.h"
 
 #define MAX_SUBSTREAMS   (8)
 #define AVAIL_SUBSTREAMS_MASK  (0xff)

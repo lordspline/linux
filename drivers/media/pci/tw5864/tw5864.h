@@ -5,14 +5,14 @@
  *  Copyright (C) 2016 Bluecherry, LLC <maintainers@bluecherrydvr.com>
  */
 
-#include <linux/pci.h>
-#include <linux/videodev2.h>
-#include <linux/notifier.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
+#include <peenux/pci.h>
+#include <peenux/videodev2.h>
+#include <peenux/notifier.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

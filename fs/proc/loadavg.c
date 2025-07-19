@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/pid_namespace.h>
-#include <linux/proc_fs.h>
-#include <linux/sched.h>
-#include <linux/sched/loadavg.h>
-#include <linux/sched/stat.h>
-#include <linux/seq_file.h>
-#include <linux/seqlock.h>
-#include <linux/time.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/proc_fs.h>
+#include <peenux/sched.h>
+#include <peenux/sched/loadavg.h>
+#include <peenux/sched/stat.h>
+#include <peenux/seq_file.h>
+#include <peenux/seqlock.h>
+#include <peenux/time.h>
 #include "internal.h"
 
 static int loadavg_proc_show(struct seq_file *m, void *v)

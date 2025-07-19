@@ -39,20 +39,20 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/uio.h>
-#include <linux/net.h>
-#include <linux/slab.h>
-#include <linux/netdevice.h>
-#include <linux/socket.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <linux/can.h>
-#include <linux/can/core.h>
-#include <linux/can/dev.h> /* for can_is_canxl_dev_mtu() */
-#include <linux/can/skb.h>
-#include <linux/can/raw.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/uio.h>
+#include <peenux/net.h>
+#include <peenux/slab.h>
+#include <peenux/netdevice.h>
+#include <peenux/socket.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
+#include <peenux/can.h>
+#include <peenux/can/core.h>
+#include <peenux/can/dev.h> /* for can_is_canxl_dev_mtu() */
+#include <peenux/can/skb.h>
+#include <peenux/can/raw.h>
 #include <net/sock.h>
 #include <net/net_namespace.h>
 

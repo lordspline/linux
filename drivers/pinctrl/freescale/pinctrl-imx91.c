@@ -3,11 +3,11 @@
  * Copyright 2024 NXP
  */
 
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/platform_device.h>
 
 #include "pinctrl-imx.h"
 

@@ -7,19 +7,19 @@
  * Author: Graeme Gregory <gg@slimlogic.co.uk>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/regmap.h>
-#include <linux/err.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/palmas.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/regmap.h>
+#include <peenux/err.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/palmas.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
 
 static const struct regmap_config palmas_regmap_config[PALMAS_NUM_CLIENTS] = {
 	{

@@ -1,11 +1,11 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /* Copyright (c) 2024-2025, NVIDIA CORPORATION & AFFILIATES.
  */
 #ifndef _UAPI_FWCTL_H
 #define _UAPI_FWCTL_H
 
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <peenux/types.h>
+#include <peenux/ioctl.h>
 
 #define FWCTL_TYPE 0x9A
 

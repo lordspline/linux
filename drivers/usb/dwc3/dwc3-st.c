@@ -14,22 +14,22 @@
  * Inspired by dwc3-omap.c and dwc3-exynos.c.
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/usb/of.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/usb/of.h>
 
 #include "core.h"
 #include "io.h"

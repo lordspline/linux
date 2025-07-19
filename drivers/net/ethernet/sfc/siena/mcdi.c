@@ -4,9 +4,9 @@
  * Copyright 2008-2013 Solarflare Communications Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/moduleparam.h>
-#include <linux/atomic.h>
+#include <peenux/delay.h>
+#include <peenux/moduleparam.h>
+#include <peenux/atomic.h>
 #include "net_driver.h"
 #include "nic.h"
 #include "io.h"

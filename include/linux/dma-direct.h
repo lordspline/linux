@@ -6,11 +6,11 @@
 #ifndef _LINUX_DMA_DIRECT_H
 #define _LINUX_DMA_DIRECT_H 1
 
-#include <linux/dma-mapping.h>
-#include <linux/dma-map-ops.h>
-#include <linux/memblock.h> /* for min_low_pfn */
-#include <linux/mem_encrypt.h>
-#include <linux/swiotlb.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/memblock.h> /* for min_low_pfn */
+#include <peenux/mem_encrypt.h>
+#include <peenux/swiotlb.h>
 
 extern u64 zone_dma_limit;
 

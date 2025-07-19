@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
+#include <peenux/bits.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
 
 #include "clk.h"
 

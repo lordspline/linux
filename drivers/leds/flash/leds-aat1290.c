@@ -7,17 +7,17 @@
  *	Author: Jacek Anaszewski <j.anaszewski@samsung.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/led-class-flash.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/led-class-flash.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include <media/v4l2-flash-led-class.h>
 
 #define AAT1290_MOVIE_MODE_CURRENT_ADDR	17

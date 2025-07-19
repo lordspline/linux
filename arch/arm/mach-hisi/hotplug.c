@@ -4,10 +4,10 @@
  * Copyright (c) 2013 HiSilicon Limited.
  */
 
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
 #include <asm/cacheflush.h>
 #include <asm/smp_plat.h>
 #include "core.h"

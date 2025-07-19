@@ -10,7 +10,7 @@
 #include <crypto/internal/hash.h>
 #include <crypto/sha2.h>
 #include <crypto/hkdf.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 
 /*
  * HKDF consists of two steps:

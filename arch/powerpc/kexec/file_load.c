@@ -11,13 +11,13 @@
  *
  * Based on kexec-tools' kexec-elf-ppc64.c, fs2dt.c.
  * Heavily modified for the kernel by
- * Thiago Jung Bauermann <bauerman@linux.vnet.ibm.com>.
+ * Thiago Jung Bauermann <bauerman@peenux.vnet.ibm.com>.
  */
 
-#include <linux/slab.h>
-#include <linux/kexec.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
+#include <peenux/slab.h>
+#include <peenux/kexec.h>
+#include <peenux/of_fdt.h>
+#include <peenux/libfdt.h>
 #include <asm/setup.h>
 
 #define SLAVE_CODE_SIZE		256	/* First 0x100 bytes */

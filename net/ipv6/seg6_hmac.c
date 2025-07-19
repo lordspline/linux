@@ -6,21 +6,21 @@
  *  David Lebrun <david.lebrun@uclouvain.be>
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/in6.h>
-#include <linux/icmpv6.h>
-#include <linux/mroute6.h>
-#include <linux/slab.h>
-#include <linux/rhashtable.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/in6.h>
+#include <peenux/icmpv6.h>
+#include <peenux/mroute6.h>
+#include <peenux/slab.h>
+#include <peenux/rhashtable.h>
 
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv6.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv6.h>
 
 #include <net/sock.h>
 #include <net/snmp.h>
@@ -38,7 +38,7 @@
 #include <net/seg6.h>
 #include <net/genetlink.h>
 #include <net/seg6_hmac.h>
-#include <linux/random.h>
+#include <peenux/random.h>
 
 struct hmac_storage {
 	local_lock_t bh_lock;

@@ -5,19 +5,19 @@
  * Copyright (C) 2017 Imagination Technologies Ltd.
  */
 
-#include <linux/console.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/goldfish.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/serial_core.h>
+#include <peenux/console.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/goldfish.h>
+#include <peenux/mm.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/serial_core.h>
 
 /* Goldfish tty register's offsets */
 #define	GOLDFISH_TTY_REG_BYTES_READY	0x04

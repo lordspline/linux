@@ -6,10 +6,10 @@
 //
 // Author: Mark Brown <broonie@kernel.org>
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/maple_tree.h>
-#include <linux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/maple_tree.h>
+#include <peenux/slab.h>
 
 #include "internal.h"
 

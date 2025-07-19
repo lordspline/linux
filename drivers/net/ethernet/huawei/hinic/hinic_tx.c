@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Huawei HiNIC PCI Express Linux driver
+ * Huawei HiNIC PCI Express Peenux driver
  * Copyright(c) 2017 Huawei Technologies Co., Ltd
  */
 
-#include <linux/if_vlan.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/skbuff.h>
-#include <linux/smp.h>
+#include <peenux/if_vlan.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/u64_stats_sync.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/skbuff.h>
+#include <peenux/smp.h>
 #include <asm/byteorder.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/sctp.h>
-#include <linux/ipv6.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/sctp.h>
+#include <peenux/ipv6.h>
 #include <net/ipv6.h>
 #include <net/checksum.h>
 #include <net/ip6_checksum.h>

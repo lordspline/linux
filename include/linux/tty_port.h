@@ -2,11 +2,11 @@
 #ifndef _LINUX_TTY_PORT_H
 #define _LINUX_TTY_PORT_H
 
-#include <linux/kfifo.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/tty_buffer.h>
-#include <linux/wait.h>
+#include <peenux/kfifo.h>
+#include <peenux/kref.h>
+#include <peenux/mutex.h>
+#include <peenux/tty_buffer.h>
+#include <peenux/wait.h>
 
 struct attribute_group;
 struct tty_driver;

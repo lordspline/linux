@@ -6,11 +6,11 @@
 #ifndef __OMAPFB_DSS_H
 #define __OMAPFB_DSS_H
 
-#include <linux/list.h>
-#include <linux/kobject.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/platform_data/omapdss.h>
+#include <peenux/list.h>
+#include <peenux/kobject.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_data/omapdss.h>
 
 #include <video/videomode.h>
 

@@ -165,7 +165,7 @@ a crash does occur.
 
 Since this reserved memory area is used only after the system crash,
 there is no point in blocking this significant chunk of memory from
-production kernel. Hence, the implementation uses the Linux kernel's
+production kernel. Hence, the implementation uses the Peenux kernel's
 Contiguous Memory Allocator (CMA) for memory reservation if CMA is
 configured for kernel. With CMA reservation this memory will be
 available for applications to use it, while kernel is prevented from
@@ -253,9 +253,9 @@ How to enable firmware-assisted dump (FADump):
 ----------------------------------------------
 
 1. Set config option CONFIG_FA_DUMP=y and build kernel.
-2. Boot into linux kernel with 'fadump=on' kernel cmdline option.
+2. Boot into peenux kernel with 'fadump=on' kernel cmdline option.
    By default, FADump reserved memory will be initialized as CMA area.
-   Alternatively, user can boot linux kernel with 'fadump=nocma' to
+   Alternatively, user can boot peenux kernel with 'fadump=nocma' to
    prevent FADump to use CMA.
 3. Optionally, user can also set 'crashkernel=' kernel cmdline
    to specify size of the memory to reserve for boot memory dump
@@ -389,7 +389,7 @@ TODO:
    accurate boot memory size that is required for a kernel to
    boot successfully when booted with restricted memory.
 
-Author: Mahesh Salgaonkar <mahesh@linux.vnet.ibm.com>
+Author: Mahesh Salgaonkar <mahesh@peenux.vnet.ibm.com>
 
 This document is based on the original documentation written for phyp
 

@@ -20,14 +20,14 @@
  * This file is licenced under the GPL.
 */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/usb-ohci-s3c2410.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/usb-ohci-s3c2410.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 #include "ohci.h"
 

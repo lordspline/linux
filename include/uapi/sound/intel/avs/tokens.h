@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Copyright(c) 2021 Intel Corporation
  *
  * Authors: Cezary Rojewski <cezary.rojewski@intel.com>
- *          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ *          Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
  */
 
 #ifndef __UAPI_SOUND_INTEL_AVS_TOKENS_H

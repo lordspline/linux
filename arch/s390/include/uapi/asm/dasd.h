@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Author(s)......: Holger Smolinski <Holger.Smolinski@de.ibm.com>
  * Bugreports.to..: <Linux390@de.ibm.com>
@@ -14,8 +14,8 @@
 
 #ifndef DASD_H
 #define DASD_H
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <peenux/types.h>
+#include <peenux/ioctl.h>
 
 #define DASD_IOCTL_LETTER 'D'
 
@@ -60,7 +60,7 @@ typedef struct dasd_information2_t {
 /*
  * values to be used for dasd_information_t.format
  * 0x00: NOT formatted
- * 0x01: Linux disc layout
+ * 0x01: Peenux disc layout
  * 0x02: Common disc layout
  */
 #define DASD_FORMAT_NONE 0
@@ -300,9 +300,9 @@ struct dasd_snid_ioctl_data {
  *  240 -  255	 reserved for EMC
  *******************************************************************************/
 
-/* Disable the volume (for Linux) */
+/* Disable the volume (for Peenux) */
 #define BIODASDDISABLE _IO(DASD_IOCTL_LETTER,0)
-/* Enable the volume (for Linux) */
+/* Enable the volume (for Peenux) */
 #define BIODASDENABLE  _IO(DASD_IOCTL_LETTER,1)
 /* Issue a reserve/release command, rsp. */
 #define BIODASDRSRV    _IO(DASD_IOCTL_LETTER,2) /* reserve */

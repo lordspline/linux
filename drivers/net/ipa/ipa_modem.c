@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 
-/* Copyright (c) 2014-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2014-2018, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2018-2024 Linaro Ltd.
  */
 
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
-#include <linux/if_rmnet.h>
-#include <linux/netdevice.h>
-#include <linux/pm_runtime.h>
-#include <linux/skbuff.h>
+#include <peenux/errno.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_rmnet.h>
+#include <peenux/netdevice.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/skbuff.h>
 #include <net/pkt_sched.h>
 
-#include <linux/remoteproc/qcom_rproc.h>
+#include <peenux/remoteproc/qcom_rproc.h>
 
 #include "ipa.h"
 #include "ipa_endpoint.h"

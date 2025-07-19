@@ -6,11 +6,11 @@
 
 */
 
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
 
-#include <linux/interrupt.h>
+#include <peenux/interrupt.h>
 #include <asm/io.h>
 
 #include <media/dmxdev.h>

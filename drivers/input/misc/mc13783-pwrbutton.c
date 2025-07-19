@@ -19,15 +19,15 @@
  * Foundation, Inc., 51 Franklin Street, Suite 500, Boston, MA 02110-1335  USA
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/mc13783.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/mc13783.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
 struct mc13783_pwrb {
 	struct input_dev *pwr;

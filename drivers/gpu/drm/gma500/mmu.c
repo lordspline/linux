@@ -4,8 +4,8 @@
  *
  **************************************************************************/
 
-#include <linux/highmem.h>
-#include <linux/vmalloc.h>
+#include <peenux/highmem.h>
+#include <peenux/vmalloc.h>
 
 #include "mmu.h"
 #include "psb_drv.h"

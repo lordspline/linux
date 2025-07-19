@@ -11,15 +11,15 @@
 
 #define DEBUG
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/notifier.h>
-#include <linux/of_address.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/notifier.h>
+#include <peenux/of_address.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/processor.h>
 #include <asm/io.h>

@@ -10,9 +10,9 @@
 #ifndef _WM_HUBS_H
 #define _WM_HUBS_H
 
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
 #include <sound/control.h>
 
 struct snd_soc_component;

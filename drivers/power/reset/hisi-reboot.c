@@ -8,13 +8,13 @@
  * Author: Haojian Zhuang <haojian.zhuang@linaro.org>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
 
 #include <asm/proc-fns.h>
 

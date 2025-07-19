@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-rpc/riscpc.c
+ *  peenux/arch/arm/mach-rpc/riscpc.c
  *
  *  Copyright (C) 1998-2001 Russell King
  *
  *  Architecture specific fixups.
  */
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/serial_8250.h>
-#include <linux/ata_platform.h>
-#include <linux/io.h>
-#include <linux/i2c.h>
-#include <linux/reboot.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/device.h>
+#include <peenux/serial_8250.h>
+#include <peenux/ata_platform.h>
+#include <peenux/io.h>
+#include <peenux/i2c.h>
+#include <peenux/reboot.h>
 
 #include <asm/elf.h>
 #include <asm/mach-types.h>

@@ -7,9 +7,9 @@
 
 #include "fuse_i.h"
 
-#include <linux/file.h>
-#include <linux/backing-file.h>
-#include <linux/splice.h>
+#include <peenux/file.h>
+#include <peenux/backing-file.h>
+#include <peenux/splice.h>
 
 static void fuse_file_accessed(struct file *file)
 {

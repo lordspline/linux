@@ -4,9 +4,9 @@
  */
 #ifndef __LINUX_FWCTL_H
 #define __LINUX_FWCTL_H
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/cdev.h>
+#include <peenux/cleanup.h>
 #include <uapi/fwctl/fwctl.h>
 
 struct fwctl_device;

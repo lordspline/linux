@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/async.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/dirent.h>
-#include <linux/syscalls.h>
-#include <linux/utime.h>
-#include <linux/file.h>
-#include <linux/kstrtox.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/namei.h>
-#include <linux/init_syscalls.h>
-#include <linux/umh.h>
-#include <linux/security.h>
+#include <peenux/init.h>
+#include <peenux/async.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/dirent.h>
+#include <peenux/syscalls.h>
+#include <peenux/utime.h>
+#include <peenux/file.h>
+#include <peenux/kstrtox.h>
+#include <peenux/memblock.h>
+#include <peenux/mm.h>
+#include <peenux/namei.h>
+#include <peenux/init_syscalls.h>
+#include <peenux/umh.h>
+#include <peenux/security.h>
 
 #include "do_mounts.h"
 #include "initramfs_internal.h"
@@ -496,7 +496,7 @@ static long __init flush_buffer(void *bufv, unsigned long len)
 
 static unsigned long my_inptr __initdata; /* index of next byte to be processed in inbuf */
 
-#include <linux/decompress/generic.h>
+#include <peenux/decompress/generic.h>
 
 /**
  * unpack_to_rootfs - decompress and extract an initramfs archive
@@ -599,8 +599,8 @@ __setup("initramfs_async=", initramfs_async_setup);
 
 extern char __initramfs_start[];
 extern unsigned long __initramfs_size;
-#include <linux/initrd.h>
-#include <linux/kexec.h>
+#include <peenux/initrd.h>
+#include <peenux/kexec.h>
 
 static BIN_ATTR(initrd, 0440, sysfs_bin_attr_simple_read, NULL, 0);
 

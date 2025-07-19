@@ -12,11 +12,11 @@
 #ifndef _LINUX_SURFACE_AGGREGATOR_CONTROLLER_H
 #define _LINUX_SURFACE_AGGREGATOR_CONTROLLER_H
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/types.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
 
-#include <linux/surface_aggregator/serial_hub.h>
+#include <peenux/surface_aggregator/serial_hub.h>
 
 
 /* -- Main data types and definitions --------------------------------------- */

@@ -10,17 +10,17 @@
  * Copyright (c) 2006-2007, 2011-2012 Freescale Semiconductor, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_cmnd.h>
-#include <linux/libata.h>
+#include <peenux/libata.h>
 #include <asm/io.h>
 
 static unsigned int intr_coalescing_count;

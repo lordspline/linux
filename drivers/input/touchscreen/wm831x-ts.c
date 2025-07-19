@@ -6,20 +6,20 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/pm.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/irq.h>
-#include <linux/mfd/wm831x/pdata.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/pm.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mfd/wm831x/core.h>
+#include <peenux/mfd/wm831x/irq.h>
+#include <peenux/mfd/wm831x/pdata.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 /*
  * R16424 (0x4028) - Touch Control 1

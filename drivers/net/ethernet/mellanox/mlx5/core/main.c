@@ -30,23 +30,23 @@
  * SOFTWARE.
  */
 
-#include <linux/highmem.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/cq.h>
-#include <linux/mlx5/qp.h>
-#include <linux/debugfs.h>
-#include <linux/kmod.h>
-#include <linux/mlx5/mlx5_ifc.h>
-#include <linux/mlx5/vport.h>
-#include <linux/version.h>
+#include <peenux/highmem.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/mlx5/cq.h>
+#include <peenux/mlx5/qp.h>
+#include <peenux/debugfs.h>
+#include <peenux/kmod.h>
+#include <peenux/mlx5/mlx5_ifc.h>
+#include <peenux/mlx5/vport.h>
+#include <peenux/version.h>
 #include <net/devlink.h>
 #include "mlx5_core.h"
 #include "lib/eq.h"
@@ -231,7 +231,7 @@ static void mlx5_set_driver_version(struct mlx5_core_dev *dev)
 
 	string = MLX5_ADDR_OF(set_driver_version_in, in, driver_version);
 
-	snprintf(string, driver_ver_sz, "Linux,%s,%u.%u.%u",
+	snprintf(string, driver_ver_sz, "Peenux,%s,%u.%u.%u",
 		 KBUILD_MODNAME, LINUX_VERSION_MAJOR,
 		 LINUX_VERSION_PATCHLEVEL, LINUX_VERSION_SUBLEVEL);
 

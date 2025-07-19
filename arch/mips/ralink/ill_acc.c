@@ -4,11 +4,11 @@
  * Copyright (C) 2013 John Crispin <john@phrozen.org>
  */
 
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 #include <asm/mach-ralink/ralink_regs.h>
 

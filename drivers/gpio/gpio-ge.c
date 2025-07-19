@@ -15,14 +15,14 @@
  * on the I/O interrupt controllers mask to stop them from being propagated.
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 #define GEF_GPIO_DIRECT		0x00
 #define GEF_GPIO_IN		0x04

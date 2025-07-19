@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/ethtool.h>
-#include <linux/firmware.h>
-#include <linux/sfp.h>
+#include <peenux/ethtool.h>
+#include <peenux/firmware.h>
+#include <peenux/sfp.h>
 #include <net/devlink.h>
 #include <net/netdev_lock.h>
 

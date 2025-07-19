@@ -7,9 +7,9 @@
  * Author: Bo Shen <voice.shen@atmel.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
 #include <sound/soc.h>
 

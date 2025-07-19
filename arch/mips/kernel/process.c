@@ -4,23 +4,23 @@
  * for more details.
  *
  * Copyright (C) 1994 - 1999, 2000 by Ralf Baechle and others.
- * Copyright (C) 2005, 2006 by Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2005, 2006 by Ralf Baechle (ralf@peenux-mips.org)
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  * Copyright (C) 2004 Thiemo Seufer
  * Copyright (C) 2013  Imagination Technologies Ltd.
  */
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kallsyms.h>
-#include <linux/kernel.h>
-#include <linux/nmi.h>
-#include <linux/personality.h>
-#include <linux/prctl.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/cpu.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kernel.h>
+#include <peenux/nmi.h>
+#include <peenux/personality.h>
+#include <peenux/prctl.h>
+#include <peenux/random.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/abi.h>
 #include <asm/asm.h>
@@ -175,7 +175,7 @@ int copy_thread(struct task_struct *p, const struct kernel_clone_args *args)
 }
 
 #ifdef CONFIG_STACKPROTECTOR
-#include <linux/stackprotector.h>
+#include <peenux/stackprotector.h>
 unsigned long __stack_chk_guard __read_mostly;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

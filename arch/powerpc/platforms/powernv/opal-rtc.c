@@ -6,14 +6,14 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/bcd.h>
-#include <linux/rtc.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/time.h>
+#include <peenux/bcd.h>
+#include <peenux/rtc.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <asm/opal.h>
 #include <asm/firmware.h>

@@ -13,13 +13,13 @@
  * THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
  */
 
-#include <linux/debugfs.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
 #include <net/netdev_queues.h>
 #include <net/netdev_rx_queue.h>
 #include <net/page_pool/helpers.h>

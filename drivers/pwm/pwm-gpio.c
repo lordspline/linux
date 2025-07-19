@@ -8,21 +8,21 @@
  * Copyright (C) 2024 Linus Walleij
  */
 
-#include <linux/cleanup.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hrtimer.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/spinlock.h>
-#include <linux/time.h>
-#include <linux/types.h>
+#include <peenux/cleanup.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/hrtimer.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/pwm.h>
+#include <peenux/spinlock.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
 
 struct pwm_gpio {
 	struct hrtimer gpio_timer;

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/plist.h>
-#include <linux/sched/task.h>
-#include <linux/sched/signal.h>
-#include <linux/freezer.h>
+#include <peenux/plist.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/signal.h>
+#include <peenux/freezer.h>
 
 #include "futex.h"
 

@@ -7,12 +7,12 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 #include "class.h"
 #include "retimer.h"

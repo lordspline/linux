@@ -27,36 +27,36 @@
 
 #define pr_fmt(fmt) "KGDB: " fmt
 
-#include <linux/pid_namespace.h>
-#include <linux/clocksource.h>
-#include <linux/serial_core.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/console.h>
-#include <linux/threads.h>
-#include <linux/uaccess.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/sysrq.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/kgdb.h>
-#include <linux/kdb.h>
-#include <linux/nmi.h>
-#include <linux/pid.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/rcupdate.h>
-#include <linux/irq.h>
-#include <linux/security.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/clocksource.h>
+#include <peenux/serial_core.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/console.h>
+#include <peenux/threads.h>
+#include <peenux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/ptrace.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/sysrq.h>
+#include <peenux/reboot.h>
+#include <peenux/init.h>
+#include <peenux/kgdb.h>
+#include <peenux/kdb.h>
+#include <peenux/nmi.h>
+#include <peenux/pid.h>
+#include <peenux/smp.h>
+#include <peenux/mm.h>
+#include <peenux/rcupdate.h>
+#include <peenux/irq.h>
+#include <peenux/security.h>
 
 #include <asm/cacheflush.h>
 #include <asm/byteorder.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include "debug_core.h"
 
@@ -469,7 +469,7 @@ void kdb_dump_stack_on_cpu(int cpu)
 	/*
 	 * In general, architectures don't support dumping the stack of a
 	 * "running" process that's not the current one.  From the point of
-	 * view of the Linux, kernel processes that are looping in the kgdb
+	 * view of the Peenux, kernel processes that are looping in the kgdb
 	 * slave loop are still "running".  There's also no API (that actually
 	 * works across all architectures) that can do a stack crawl based
 	 * on registers passed as a parameter.

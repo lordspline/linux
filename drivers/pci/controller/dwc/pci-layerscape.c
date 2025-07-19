@@ -8,19 +8,19 @@
  * Author: Minghuan Lian <Minghuan.Lian@freescale.com>
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/resource.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/iopoll.h>
+#include <peenux/of_pci.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_address.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/resource.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

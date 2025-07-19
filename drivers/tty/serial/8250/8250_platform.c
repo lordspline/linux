@@ -8,18 +8,18 @@
  *	      PNP 8250/16550 ports
  *	      "serial8250" platform devices
  */
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/once.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/once.h>
+#include <peenux/platform_device.h>
 
-#include <linux/serial_8250.h>
+#include <peenux/serial_8250.h>
 
 #ifdef CONFIG_SPARC
-#include <linux/sunserialcore.h>
+#include <peenux/sunserialcore.h>
 #endif
 
 #include "8250.h"

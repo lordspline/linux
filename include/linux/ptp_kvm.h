@@ -8,8 +8,8 @@
 #ifndef _PTP_KVM_H_
 #define _PTP_KVM_H_
 
-#include <linux/clocksource_ids.h>
-#include <linux/types.h>
+#include <peenux/clocksource_ids.h>
+#include <peenux/types.h>
 
 struct timespec64;
 

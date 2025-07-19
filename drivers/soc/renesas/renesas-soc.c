@@ -5,12 +5,12 @@
  * Copyright (C) 2014-2016 Glider bvba
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/sys_soc.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/sys_soc.h>
 
 struct renesas_family {
 	const char name[16];

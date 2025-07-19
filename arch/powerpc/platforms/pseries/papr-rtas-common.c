@@ -2,14 +2,14 @@
 
 #define pr_fmt(fmt) "papr-common: " fmt
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/anon_inodes.h>
-#include <linux/sched/signal.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/sched/signal.h>
 #include "papr-rtas-common.h"
 
 /*

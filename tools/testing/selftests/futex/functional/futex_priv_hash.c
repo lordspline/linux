@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#include <linux/prctl.h>
+#include <peenux/prctl.h>
 #include <sys/prctl.h>
 
 #include "logging.h"

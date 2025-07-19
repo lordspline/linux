@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/atari/config.c
+ *  peenux/arch/m68k/atari/config.c
  *
  *  Copyright (C) 1994 Bjoern Brauel
  *
@@ -24,17 +24,17 @@
  * Miscellaneous atari stuff
  */
 
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/usb/isp116x.h>
-#include <linux/vt_kern.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/seq_file.h>
+#include <peenux/console.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/isp116x.h>
+#include <peenux/vt_kern.h>
+#include <peenux/module.h>
 
 #include <asm/bootinfo.h>
 #include <asm/bootinfo-atari.h>

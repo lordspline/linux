@@ -11,11 +11,11 @@
 #ifndef _LINUX_FSVERITY_H
 #define _LINUX_FSVERITY_H
 
-#include <linux/fs.h>
-#include <linux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
 #include <crypto/hash_info.h>
 #include <crypto/sha2.h>
-#include <uapi/linux/fsverity.h>
+#include <uapi/peenux/fsverity.h>
 
 /*
  * Largest digest size among all hash algorithms supported by fs-verity.

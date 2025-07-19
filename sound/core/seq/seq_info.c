@@ -4,8 +4,8 @@
  *   Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
 #include <sound/core.h>
 
 #include "seq_info.h"

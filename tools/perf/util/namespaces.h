@@ -9,10 +9,10 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <linux/stddef.h>
-#include <linux/perf_event.h>
-#include <linux/refcount.h>
-#include <linux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/perf_event.h>
+#include <peenux/refcount.h>
+#include <peenux/types.h>
 #include <internal/rc_check.h>
 
 #ifndef HAVE_SETNS_SUPPORT

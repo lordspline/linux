@@ -3,11 +3,11 @@
 
 #ifndef __HCLGE_MAIN_H
 #define __HCLGE_MAIN_H
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/phy.h>
-#include <linux/if_vlan.h>
-#include <linux/kfifo.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/phy.h>
+#include <peenux/if_vlan.h>
+#include <peenux/kfifo.h>
 
 #include <net/devlink.h>
 #include <net/ipv6.h>

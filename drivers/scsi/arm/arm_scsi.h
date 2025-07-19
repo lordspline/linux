@@ -5,7 +5,7 @@
  *  Commonly used functions by the ARM SCSI-II drivers.
  */
 
-#include <linux/scatterlist.h>
+#include <peenux/scatterlist.h>
 
 #define BELT_AND_BRACES
 

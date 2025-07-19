@@ -8,18 +8,18 @@
  * Copyright (c) 2016-2017 Andreas Färber
  */
 
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <peenux/clk.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
 
 #define OWL_UART_PORT_NUM 7
 #define OWL_UART_DEV_NAME "ttyOWL"

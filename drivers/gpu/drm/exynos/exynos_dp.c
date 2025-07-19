@@ -6,14 +6,14 @@
  * Author: Jingoo Han <jg1.han@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 #include <video/of_display_timing.h>
 #include <video/of_videomode.h>
 #include <video/videomode.h>

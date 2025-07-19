@@ -17,8 +17,8 @@
  * Czech Technical University        (http://www.cvut.cz/)
  ******************************************************************************/
 
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "ctucanfd.h"
 

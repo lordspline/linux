@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/console.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pagemap.h>
+#include <peenux/console.h>
 #ifdef CONFIG_MTRR
 #include <asm/mtrr.h>
 #endif
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
 
 #include "sm750.h"
 #include "ddk750.h"

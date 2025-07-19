@@ -4,12 +4,12 @@
  * Copyright 2007 Nuova Systems, Inc.  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 
 #include "vnic_dev.h"
 #include "vnic_wq.h"

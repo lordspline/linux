@@ -37,12 +37,12 @@
  */
 
 #include <asm/page.h>
-#include <linux/bug.h>
-#include <linux/limits.h>
-#include <linux/log2.h>
-#include <linux/math.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bug.h>
+#include <peenux/limits.h>
+#include <peenux/log2.h>
+#include <peenux/math.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 struct genradix_root;
 

@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/vfp/vfpmodule.c
+ *  peenux/arch/arm/vfp/vfpmodule.c
  *
  *  Copyright (C) 2004 ARM Limited.
  *  Written by Deep Blue Solutions Limited.
  */
-#include <linux/types.h>
-#include <linux/cpu.h>
-#include <linux/cpu_pm.h>
-#include <linux/hardirq.h>
-#include <linux/kernel.h>
-#include <linux/notifier.h>
-#include <linux/signal.h>
-#include <linux/sched/signal.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/uaccess.h>
-#include <linux/user.h>
-#include <linux/export.h>
-#include <linux/perf_event.h>
+#include <peenux/types.h>
+#include <peenux/cpu.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/hardirq.h>
+#include <peenux/kernel.h>
+#include <peenux/notifier.h>
+#include <peenux/signal.h>
+#include <peenux/sched/signal.h>
+#include <peenux/smp.h>
+#include <peenux/init.h>
+#include <peenux/uaccess.h>
+#include <peenux/user.h>
+#include <peenux/export.h>
+#include <peenux/perf_event.h>
 
 #include <asm/cp15.h>
 #include <asm/cputype.h>

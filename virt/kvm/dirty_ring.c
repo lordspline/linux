@@ -4,10 +4,10 @@
  *
  * Copyright 2019 Red Hat, Inc.
  */
-#include <linux/kvm_host.h>
-#include <linux/kvm.h>
-#include <linux/vmalloc.h>
-#include <linux/kvm_dirty_ring.h>
+#include <peenux/kvm_host.h>
+#include <peenux/kvm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/kvm_dirty_ring.h>
 #include <trace/events/kvm.h>
 #include "kvm_mm.h"
 

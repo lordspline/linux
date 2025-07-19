@@ -17,27 +17,27 @@
 		button-home {
 			label = "Home Button";
 			gpios = <&pinctrl_ap 96 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_HOMEPAGE>;
+			peenux,code = <KEY_HOMEPAGE>;
 			wakeup-source;
 		};
 
 		button-power {
 			label = "Power Button";
 			gpios = <&pinctrl_ap 97 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_POWER>;
+			peenux,code = <KEY_POWER>;
 			wakeup-source;
 		};
 
 		button-voldown {
 			label = "Volume Down";
 			gpios = <&pinctrl_ap 143 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 		};
 
 		button-volup {
 			label = "Volume Up";
 			gpios = <&pinctrl_ap 144 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 		};
 	};
 };

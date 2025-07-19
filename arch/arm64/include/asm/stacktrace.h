@@ -5,10 +5,10 @@
 #ifndef __ASM_STACKTRACE_H
 #define __ASM_STACKTRACE_H
 
-#include <linux/percpu.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/llist.h>
+#include <peenux/percpu.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/llist.h>
 
 #include <asm/memory.h>
 #include <asm/pointer_auth.h>

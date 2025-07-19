@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _UAPI_LINUX_BINFMTS_H
 #define _UAPI_LINUX_BINFMTS_H
 
-#include <linux/capability.h>
+#include <peenux/capability.h>
 
 struct pt_regs;
 

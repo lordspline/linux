@@ -39,7 +39,7 @@
 #include <asm/ppc_asm.h>
 #include <asm/asm-offsets.h>
 #include <asm/asm-compat.h>
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 .machine	"any"
 .text

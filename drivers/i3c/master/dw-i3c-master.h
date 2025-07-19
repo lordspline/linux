@@ -5,10 +5,10 @@
  * Author: Jeremy Kerr <jk@codeconstruct.com.au>
  */
 
-#include <linux/clk.h>
-#include <linux/i3c/master.h>
-#include <linux/reset.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/i3c/master.h>
+#include <peenux/reset.h>
+#include <peenux/types.h>
 
 #define DW_I3C_MAX_DEVS 32
 

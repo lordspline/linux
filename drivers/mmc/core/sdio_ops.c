@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/mmc/sdio_ops.c
+ *  peenux/drivers/mmc/sdio_ops.c
  *
  *  Copyright 2006-2007 Pierre Ossman
  */
 
-#include <linux/scatterlist.h>
+#include <peenux/scatterlist.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sdio.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sdio.h>
 
 #include "core.h"
 #include "sdio_ops.h"

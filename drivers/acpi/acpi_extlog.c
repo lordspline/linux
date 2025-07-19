@@ -6,12 +6,12 @@
  * Author: Chen, Gong <gong.chen@intel.com>
  */
 
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/cper.h>
-#include <linux/ratelimit.h>
-#include <linux/edac.h>
-#include <linux/ras.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/cper.h>
+#include <peenux/ratelimit.h>
+#include <peenux/edac.h>
+#include <peenux/ras.h>
 #include <acpi/ghes.h>
 #include <asm/cpu.h>
 #include <asm/mce.h>

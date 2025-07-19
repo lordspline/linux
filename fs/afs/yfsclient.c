@@ -5,11 +5,11 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/circ_buf.h>
-#include <linux/iversion.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/circ_buf.h>
+#include <peenux/iversion.h>
 #include "internal.h"
 #include "afs_fs.h"
 #include "xdr_fs.h"

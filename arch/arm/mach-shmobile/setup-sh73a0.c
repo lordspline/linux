@@ -6,13 +6,13 @@
  * Copyright (C) 2010  Magnus Damm
  * Copyright (C) 2008  Yoshihiro Shimoda
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/delay.h>
+#include <peenux/input.h>
+#include <peenux/io.h>
 
 #include <asm/hardware/cache-l2x0.h>
 #include <asm/mach/map.h>

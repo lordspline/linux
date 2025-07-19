@@ -3,11 +3,11 @@
  * Copyright(c) 2015 - 2020 Intel Corporation.
  */
 
-#include <linux/err.h>
-#include <linux/vmalloc.h>
-#include <linux/hash.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
+#include <peenux/err.h>
+#include <peenux/vmalloc.h>
+#include <peenux/hash.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
 #include <rdma/rdma_vt.h>
 #include <rdma/rdmavt_qp.h>
 #include <rdma/ib_verbs.h>

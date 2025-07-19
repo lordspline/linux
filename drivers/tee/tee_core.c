@@ -5,15 +5,15 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/cdev.h>
-#include <linux/cred.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/tee_core.h>
-#include <linux/uaccess.h>
+#include <peenux/cdev.h>
+#include <peenux/cred.h>
+#include <peenux/fs.h>
+#include <peenux/idr.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/slab.h>
+#include <peenux/tee_core.h>
+#include <peenux/uaccess.h>
 #include <crypto/hash.h>
 #include <crypto/sha1.h>
 #include "tee_private.h"
@@ -213,7 +213,7 @@ int tee_session_calc_client_uuid(uuid_t *uuid, u32 connection_method,
 	}
 
 	/*
-	 * In Linux environment client UUID is based on UUIDv5.
+	 * In Peenux environment client UUID is based on UUIDv5.
 	 *
 	 * Determine client UUID with following semantics for 'name':
 	 *

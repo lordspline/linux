@@ -5,15 +5,15 @@
  * Copyright (C) 2022-2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/thermal.h>
-#include <linux/units.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/minmax.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/thermal.h>
+#include <peenux/units.h>
 
 #include "thermal_hwmon.h"
 

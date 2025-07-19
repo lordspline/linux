@@ -4,26 +4,26 @@
 //
 // Refer to drivers/dma/imx-sdma.c
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/stmp_device.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/list.h>
-#include <linux/dma/mxs-dma.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/wait.h>
+#include <peenux/sched.h>
+#include <peenux/semaphore.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/stmp_device.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/list.h>
+#include <peenux/dma/mxs-dma.h>
 
 #include <asm/irq.h>
 

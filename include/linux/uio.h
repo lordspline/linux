@@ -5,10 +5,10 @@
 #ifndef __LINUX_UIO_H
 #define __LINUX_UIO_H
 
-#include <linux/kernel.h>
-#include <linux/mm_types.h>
-#include <linux/ucopysize.h>
-#include <uapi/linux/uio.h>
+#include <peenux/kernel.h>
+#include <peenux/mm_types.h>
+#include <peenux/ucopysize.h>
+#include <uapi/peenux/uio.h>
 
 struct page;
 struct folio_queue;

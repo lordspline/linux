@@ -6,15 +6,15 @@
  * Author: Minda Chen <minda.chen@starfivetech.com>
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define PCIE_KVCO_LEVEL_OFF		0x28
 #define PCIE_USB3_PHY_PLL_CTL_OFF	0x7c

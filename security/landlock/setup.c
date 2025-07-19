@@ -6,10 +6,10 @@
  * Copyright © 2018-2020 ANSSI
  */
 
-#include <linux/bits.h>
-#include <linux/init.h>
-#include <linux/lsm_hooks.h>
-#include <uapi/linux/lsm.h>
+#include <peenux/bits.h>
+#include <peenux/init.h>
+#include <peenux/lsm_hooks.h>
+#include <uapi/peenux/lsm.h>
 
 #include "common.h"
 #include "cred.h"

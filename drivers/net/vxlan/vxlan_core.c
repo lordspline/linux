@@ -7,15 +7,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/udp.h>
-#include <linux/igmp.h>
-#include <linux/if_ether.h>
-#include <linux/ethtool.h>
-#include <linux/rhashtable.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/udp.h>
+#include <peenux/igmp.h>
+#include <peenux/if_ether.h>
+#include <peenux/ethtool.h>
+#include <peenux/rhashtable.h>
 #include <net/arp.h>
 #include <net/ndisc.h>
 #include <net/gro.h>
@@ -44,7 +44,7 @@
 #define FDB_AGE_INTERVAL (10 * HZ)	/* rescan interval */
 
 /* UDP port for VXLAN traffic.
- * The IANA assigned port is 4789, but the Linux default is 8472
+ * The IANA assigned port is 4789, but the Peenux default is 8472
  * for compatibility with early adopters.
  */
 static unsigned short vxlan_port __read_mostly = 8472;

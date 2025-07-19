@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- *  linux/include/linux/sunrpc/xprt.h
+ *  peenux/include/peenux/sunrpc/xprt.h
  *
  *  Declarations for the RPC transport interface.
  *
@@ -10,14 +10,14 @@
 #ifndef _LINUX_SUNRPC_XPRT_H
 #define _LINUX_SUNRPC_XPRT_H
 
-#include <linux/uio.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/ktime.h>
-#include <linux/kref.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/msg_prot.h>
+#include <peenux/uio.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/ktime.h>
+#include <peenux/kref.h>
+#include <peenux/sunrpc/sched.h>
+#include <peenux/sunrpc/xdr.h>
+#include <peenux/sunrpc/msg_prot.h>
 
 #define RPC_MIN_SLOT_TABLE	(2U)
 #define RPC_DEF_SLOT_TABLE	(16U)
@@ -48,7 +48,7 @@ struct xprt_class;
 struct seq_file;
 struct svc_serv;
 struct net;
-#include <linux/lwq.h>
+#include <peenux/lwq.h>
 
 /*
  * This describes a complete RPC request

@@ -8,9 +8,9 @@
 #ifndef _LINUX_MCB_H
 #define _LINUX_MCB_H
 
-#include <linux/mod_devicetable.h>
-#include <linux/device.h>
-#include <linux/irqreturn.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/device.h>
+#include <peenux/irqreturn.h>
 
 #define CHAMELEON_FILENAME_LEN 12
 

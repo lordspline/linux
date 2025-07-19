@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/dma-map-ops.h>
-#include <linux/mm.h>
-#include <linux/nospec.h>
-#include <linux/io_uring.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/skbuff_ref.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/mm.h>
+#include <peenux/nospec.h>
+#include <peenux/io_uring.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/skbuff_ref.h>
 
 #include <net/page_pool/helpers.h>
 #include <net/page_pool/memory_provider.h>
@@ -18,7 +18,7 @@
 
 #include <trace/events/page_pool.h>
 
-#include <uapi/linux/io_uring.h>
+#include <uapi/peenux/io_uring.h>
 
 #include "io_uring.h"
 #include "kbuf.h"

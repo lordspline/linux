@@ -5,22 +5,22 @@
  * (C) 2011 DENX Software Engineering, Anatolij Gustschin <agust@denx.de>
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kstrtox.h>
-#include <linux/log2.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/string_choices.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kstrtox.h>
+#include <peenux/log2.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/string_choices.h>
 
-#include <linux/nvmem-provider.h>
+#include <peenux/nvmem-provider.h>
 
 struct eeprom_93xx46_platform_data {
 	unsigned char	flags;

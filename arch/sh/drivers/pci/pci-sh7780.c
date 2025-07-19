@@ -4,19 +4,19 @@
  *
  *  Copyright (C) 2005 - 2010  Paul Mundt
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/irq.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/log2.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/irq.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/log2.h>
 #include "pci-sh4.h"
 #include <asm/mmu.h>
-#include <linux/sizes.h>
+#include <peenux/sizes.h>
 
 #if defined(CONFIG_CPU_BIG_ENDIAN)
 # define PCICR_ENDIANNESS SH4_PCICR_BSWP

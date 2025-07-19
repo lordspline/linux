@@ -7,14 +7,14 @@
  *
  * Based on PPC64 eBPF JIT compiler by Naveen N. Rao
  */
-#include <linux/moduleloader.h>
+#include <peenux/moduleloader.h>
 #include <asm/cacheflush.h>
 #include <asm/asm-compat.h>
-#include <linux/netdevice.h>
-#include <linux/filter.h>
-#include <linux/if_vlan.h>
+#include <peenux/netdevice.h>
+#include <peenux/filter.h>
+#include <peenux/if_vlan.h>
 #include <asm/kprobes.h>
-#include <linux/bpf.h>
+#include <peenux/bpf.h>
 
 #include "bpf_jit.h"
 
@@ -908,7 +908,7 @@ int bpf_jit_build_body(struct bpf_prog *fp, u32 *image, u32 *fimage, struct code
 			 * Enforce full ordering for operations with BPF_FETCH by emitting a 'sync'
 			 * before and after the operation.
 			 *
-			 * This is a requirement in the Linux Kernel Memory Model.
+			 * This is a requirement in the Peenux Kernel Memory Model.
 			 * See __cmpxchg_u32() in asm/cmpxchg.h as an example.
 			 */
 			if ((imm & BPF_FETCH) && IS_ENABLED(CONFIG_SMP))

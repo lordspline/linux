@@ -9,15 +9,15 @@
  *          Christoffer Dall <c.dall@virtualopensystems.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bsearch.h>
-#include <linux/cacheinfo.h>
-#include <linux/debugfs.h>
-#include <linux/kvm_host.h>
-#include <linux/mm.h>
-#include <linux/printk.h>
-#include <linux/uaccess.h>
-#include <linux/irqchip/arm-gic-v3.h>
+#include <peenux/bitfield.h>
+#include <peenux/bsearch.h>
+#include <peenux/cacheinfo.h>
+#include <peenux/debugfs.h>
+#include <peenux/kvm_host.h>
+#include <peenux/mm.h>
+#include <peenux/printk.h>
+#include <peenux/uaccess.h>
+#include <peenux/irqchip/arm-gic-v3.h>
 
 #include <asm/arm_pmuv3.h>
 #include <asm/cacheflush.h>

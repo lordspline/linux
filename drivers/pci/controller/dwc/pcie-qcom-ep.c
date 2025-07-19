@@ -2,26 +2,26 @@
 /*
  * Qualcomm PCIe Endpoint controller driver
  *
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020, The Peenux Foundation. All rights reserved.
  * Author: Siddartha Mohanadoss <smohanad@codeaurora.org
  *
  * Copyright (c) 2021, Linaro Ltd.
  * Author: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interconnect.h>
-#include <linux/mfd/syscon.h>
-#include <linux/phy/pcie.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/module.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interconnect.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/phy/pcie.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/module.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

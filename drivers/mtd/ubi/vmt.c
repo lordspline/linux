@@ -10,10 +10,10 @@
  * resizing.
  */
 
-#include <linux/err.h>
-#include <linux/math64.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/err.h>
+#include <peenux/math64.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 #include "ubi.h"
 
 static int self_check_volumes(struct ubi_device *ubi);

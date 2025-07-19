@@ -14,7 +14,7 @@
  * yet.
  */
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 #include <asm/desc_defs.h>
 #include <asm/msr.h>
 #include <asm/page_types.h>

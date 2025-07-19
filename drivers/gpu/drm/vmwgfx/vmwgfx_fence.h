@@ -27,8 +27,8 @@
 
 #ifndef _VMWGFX_FENCE_H_
 
-#include <linux/dma-fence.h>
-#include <linux/dma-fence-array.h>
+#include <peenux/dma-fence.h>
+#include <peenux/dma-fence-array.h>
 
 #define VMW_FENCE_WAIT_TIMEOUT (5*HZ)
 

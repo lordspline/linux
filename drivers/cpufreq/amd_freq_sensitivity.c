@@ -8,13 +8,13 @@
  * Author: Jacob Shin <jacob.shin@amd.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/percpu-defs.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
 
 #include <asm/msr.h>
 #include <asm/cpufeature.h>

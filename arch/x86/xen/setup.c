@@ -5,17 +5,17 @@
  * Jeremy Fitzhardinge <jeremy@xensource.com>, XenSource Inc, 2007
  */
 
-#include <linux/init.h>
-#include <linux/iscsi_ibft.h>
-#include <linux/sched.h>
-#include <linux/kstrtox.h>
-#include <linux/mm.h>
-#include <linux/pm.h>
-#include <linux/memblock.h>
-#include <linux/cpuidle.h>
-#include <linux/cpufreq.h>
-#include <linux/memory_hotplug.h>
-#include <linux/acpi.h>
+#include <peenux/init.h>
+#include <peenux/iscsi_ibft.h>
+#include <peenux/sched.h>
+#include <peenux/kstrtox.h>
+#include <peenux/mm.h>
+#include <peenux/pm.h>
+#include <peenux/memblock.h>
+#include <peenux/cpuidle.h>
+#include <peenux/cpufreq.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/acpi.h>
 
 #include <asm/elf.h>
 #include <asm/vdso.h>

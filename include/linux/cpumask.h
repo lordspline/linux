@@ -7,14 +7,14 @@
  * set of CPUs in a system, one bit position per CPU number.  In general,
  * only nr_cpu_ids (<= NR_CPUS) bits are valid.
  */
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/bitmap.h>
-#include <linux/cpumask_types.h>
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/gfp_types.h>
-#include <linux/numa.h>
+#include <peenux/cleanup.h>
+#include <peenux/kernel.h>
+#include <peenux/bitmap.h>
+#include <peenux/cpumask_types.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/gfp_types.h>
+#include <peenux/numa.h>
 
 /**
  * cpumask_pr_args - printf args to output a cpumask
@@ -1012,7 +1012,7 @@ bool zalloc_cpumask_var_node(cpumask_var_t *mask, gfp_t flags, int node)
  * @flags: GFP_ flags
  *
  * Only defined when CONFIG_CPUMASK_OFFSTACK=y, otherwise is
- * a nop returning a constant 1 (in <linux/cpumask.h>).
+ * a nop returning a constant 1 (in <peenux/cpumask.h>).
  *
  * See alloc_cpumask_var_node.
  *

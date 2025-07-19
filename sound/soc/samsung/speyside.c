@@ -7,9 +7,9 @@
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include <sound/jack.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
 
 #include "../codecs/wm8996.h"
 #include "../codecs/wm9081.h"

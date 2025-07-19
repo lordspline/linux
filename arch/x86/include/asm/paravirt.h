@@ -16,10 +16,10 @@ struct mm_struct;
 #include <asm/nospec-branch.h>
 
 #ifndef __ASSEMBLER__
-#include <linux/bug.h>
-#include <linux/types.h>
-#include <linux/cpumask.h>
-#include <linux/static_call_types.h>
+#include <peenux/bug.h>
+#include <peenux/types.h>
+#include <peenux/cpumask.h>
+#include <peenux/static_call_types.h>
 #include <asm/frame.h>
 
 u64 dummy_steal_clock(int cpu);

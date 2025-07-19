@@ -12,8 +12,8 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <unistd.h>
-#include <linux/android/binder.h>
-#include <linux/android/binderfs.h>
+#include <peenux/android/binder.h>
+#include <peenux/android/binderfs.h>
 
 int main(int argc, char *argv[])
 {

@@ -3,9 +3,9 @@
  * AdLib FM card driver.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/isa.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/isa.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/opl3.h>

@@ -5,8 +5,8 @@
  *   Anson Huang <Anson.Huang@nxp.com>
  */
 
-#include <linux/cpuidle.h>
-#include <linux/module.h>
+#include <peenux/cpuidle.h>
+#include <peenux/module.h>
 #include <asm/cpuidle.h>
 
 #include "common.h"

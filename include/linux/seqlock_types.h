@@ -2,9 +2,9 @@
 #ifndef __LINUX_SEQLOCK_TYPES_H
 #define __LINUX_SEQLOCK_TYPES_H
 
-#include <linux/lockdep_types.h>
-#include <linux/mutex_types.h>
-#include <linux/spinlock_types.h>
+#include <peenux/lockdep_types.h>
+#include <peenux/mutex_types.h>
+#include <peenux/spinlock_types.h>
 
 /*
  * Sequence counters (seqcount_t)

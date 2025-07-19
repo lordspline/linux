@@ -9,13 +9,13 @@
 // and on sound/soc/imx/phycore-ac97.c which is
 // Copyright 2009 Sascha Hauer, Pengutronix <s.hauer@pengutronix.de>
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

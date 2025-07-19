@@ -21,10 +21,10 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/backlight.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
 #include <drm/drm_crtc.h>
 #include <drm/drm_panel.h>

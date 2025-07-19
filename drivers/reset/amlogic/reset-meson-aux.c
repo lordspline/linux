@@ -6,11 +6,11 @@
  * Author: Jerome Brunet <jbrunet@baylibre.com>
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
 
 #include "reset-meson.h"
 

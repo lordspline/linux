@@ -6,12 +6,12 @@
  * Author: Beomho Seo <beomho.seo@samsung.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/mfd/rt5033-private.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/rt5033-private.h>
 
 struct rt5033_battery {
 	struct i2c_client	*client;

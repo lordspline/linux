@@ -5,18 +5,18 @@
  *	Hyungwon Hwang <human.hwang@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/delay.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #include <video/of_videomode.h>
 #include <video/videomode.h>

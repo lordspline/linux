@@ -4,7 +4,7 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <limits.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <poll.h>
 #include <pthread.h>
 #include <sched.h>
@@ -17,7 +17,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <sys/socket.h>
-#include <linux/kcmp.h>
+#include <peenux/kcmp.h>
 #include <sys/stat.h>
 
 #include "pidfd.h"

@@ -9,13 +9,13 @@
 *******************************************************************************
 ******************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/configfs.h>
-#include <linux/slab.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/dlmconstants.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/configfs.h>
+#include <peenux/slab.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/dlmconstants.h>
 #include <net/ipv6.h>
 #include <net/sock.h>
 

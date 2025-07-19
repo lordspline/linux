@@ -10,7 +10,7 @@
 #ifndef _LINUX_KMSAN_CHECKS_H
 #define _LINUX_KMSAN_CHECKS_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_KMSAN
 

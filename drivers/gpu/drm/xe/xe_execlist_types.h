@@ -6,9 +6,9 @@
 #ifndef _XE_EXECLIST_TYPES_H_
 #define _XE_EXECLIST_TYPES_H_
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 #include "xe_exec_queue_types.h"
 

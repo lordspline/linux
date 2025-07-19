@@ -9,14 +9,14 @@
  *
  * Author: Conor Dooley <conor.dooley@microchip.com>
  */
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/firmware.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
+#include <peenux/cleanup.h>
+#include <peenux/debugfs.h>
+#include <peenux/firmware.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
 
 #include <soc/microchip/mpfs.h>
 

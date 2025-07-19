@@ -6,8 +6,8 @@
 #ifndef _XE_GUC_TYPES_H_
 #define _XE_GUC_TYPES_H_
 
-#include <linux/idr.h>
-#include <linux/xarray.h>
+#include <peenux/idr.h>
+#include <peenux/xarray.h>
 
 #include "regs/xe_reg_defs.h"
 #include "xe_guc_ads_types.h"

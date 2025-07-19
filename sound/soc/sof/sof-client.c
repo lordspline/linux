@@ -2,16 +2,16 @@
 //
 // Copyright(c) 2022 Intel Corporation
 //
-// Authors: Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
-//	    Peter Ujfalusi <peter.ujfalusi@linux.intel.com>
+// Authors: Ranjani Sridharan <ranjani.sridharan@peenux.intel.com>
+//	    Peter Ujfalusi <peter.ujfalusi@peenux.intel.com>
 //
 
-#include <linux/debugfs.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
 #include <sound/sof/ipc4/header.h>
 #include "ops.h"
 #include "sof-client.h"

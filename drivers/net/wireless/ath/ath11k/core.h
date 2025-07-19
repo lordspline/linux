@@ -1,22 +1,22 @@
 /* SPDX-License-Identifier: BSD-3-Clause-Clear */
 /*
- * Copyright (c) 2018-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #ifndef ATH11K_CORE_H
 #define ATH11K_CORE_H
 
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/bitfield.h>
-#include <linux/dmi.h>
-#include <linux/ctype.h>
-#include <linux/rhashtable.h>
-#include <linux/average.h>
-#include <linux/firmware.h>
-#include <linux/suspend.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/bitfield.h>
+#include <peenux/dmi.h>
+#include <peenux/ctype.h>
+#include <peenux/rhashtable.h>
+#include <peenux/average.h>
+#include <peenux/firmware.h>
+#include <peenux/suspend.h>
 
 #include "qmi.h"
 #include "htc.h"

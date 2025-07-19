@@ -5,12 +5,12 @@
  *	(C) Copyright Steven King <sfking@fdwdc.com>
  */
 
-#include <linux/clkdev.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
 #include <asm/machdep.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>

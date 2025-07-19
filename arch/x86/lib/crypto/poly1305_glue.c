@@ -6,11 +6,11 @@
 #include <asm/cpu_device_id.h>
 #include <asm/fpu/api.h>
 #include <crypto/internal/poly1305.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
-#include <linux/unaligned.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sizes.h>
+#include <peenux/unaligned.h>
 
 struct poly1305_arch_internal {
 	union {

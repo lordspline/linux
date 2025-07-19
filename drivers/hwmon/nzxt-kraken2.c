@@ -9,11 +9,11 @@
  * Copyright 2019-2021  Jonas Malaco <jonas@protocubo.io>
  */
 
-#include <linux/unaligned.h>
-#include <linux/hid.h>
-#include <linux/hwmon.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
+#include <peenux/unaligned.h>
+#include <peenux/hid.h>
+#include <peenux/hwmon.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
 
 #define STATUS_REPORT_ID	0x04
 #define STATUS_VALIDITY		2 /* seconds; equivalent to 4 missed updates */

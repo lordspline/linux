@@ -6,13 +6,13 @@
  * Gated clock implementation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/string.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
 
 /**
  * DOC: basic gatable clock which can gate and ungate its output

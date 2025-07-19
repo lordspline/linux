@@ -7,15 +7,15 @@
  * Copyright 2009 Pengutronix, Sascha Hauer <s.hauer@pengutronix.de>
  */
 
-#include <linux/slab.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mc13xxx.h>
-#include <linux/err.h>
-#include <linux/spi/spi.h>
+#include <peenux/slab.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/mc13xxx.h>
+#include <peenux/err.h>
+#include <peenux/spi/spi.h>
 
 #include "mc13xxx.h"
 

@@ -4,18 +4,18 @@
 #ifndef VCHIQ_CORE_H
 #define VCHIQ_CORE_H
 
-#include <linux/mutex.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/dev_printk.h>
-#include <linux/kthread.h>
-#include <linux/kref.h>
-#include <linux/rcupdate.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock_types.h>
-#include <linux/wait.h>
+#include <peenux/mutex.h>
+#include <peenux/completion.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dev_printk.h>
+#include <peenux/kthread.h>
+#include <peenux/kref.h>
+#include <peenux/rcupdate.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/wait.h>
 
-#include "../../include/linux/raspberrypi/vchiq.h"
+#include "../../include/peenux/raspberrypi/vchiq.h"
 #include "vchiq_cfg.h"
 
 /* Do this so that we can test-build the code on non-rpi systems */

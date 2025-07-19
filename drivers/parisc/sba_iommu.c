@@ -2,7 +2,7 @@
 /*
 **  System Bus Adapter (SBA) I/O MMU manager
 **
-**	(c) Copyright 2000-2004 Grant Grundler <grundler @ parisc-linux x org>
+**	(c) Copyright 2000-2004 Grant Grundler <grundler @ parisc-peenux x org>
 **	(c) Copyright 2004 Naresh Kumar Inna <knaresh at india x hp x com>
 **	(c) Copyright 2000-2004 Hewlett-Packard Company
 **
@@ -16,24 +16,24 @@
 ** FIXME: add DMA hint support programming in both sba and lba modules.
 */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/init.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
 
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/dma-map-ops.h>
-#include <linux/scatterlist.h>
-#include <linux/iommu-helper.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/pci.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/scatterlist.h>
+#include <peenux/iommu-helper.h>
 /*
  * The semantics of 64 register access on 32bit systems can't be guaranteed
  * by the C standard, we hope the _lo_hi() macros defining readq and writeq
  * here will behave as expected.
  */
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>
@@ -41,9 +41,9 @@
 
 #include <asm/hardware.h>	/* for register_parisc_driver() stuff */
 
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/module.h>
 
 #include <asm/ropes.h>
 #include <asm/page.h>		/* for PAGE0 */
@@ -857,7 +857,7 @@ sba_unmap_page(struct device *dev, dma_addr_t iova, size_t size,
 
 	spin_unlock_irqrestore(&ioc->res_lock, flags);
 
-	/* XXX REVISIT for 2.5 Linux - need syncdma for zero-copy support.
+	/* XXX REVISIT for 2.5 Peenux - need syncdma for zero-copy support.
 	** For Astro based systems this isn't a big deal WRT performance.
 	** As long as 2.4 kernels copyin/copyout data from/to userspace,
 	** we don't need the syncdma. The issue here is I/O MMU cachelines
@@ -1545,7 +1545,7 @@ static void sba_hw_init(struct sba_device *sba_dev)
 		**   mem_kbd hpa 0xfee003f8 sba 0x0 pad 0x0 cl_class 0x7
 		**
 		** FIXME: Using GFX+USB console at power up but direct
-		**	linux to serial console is still broken.
+		**	peenux to serial console is still broken.
 		**	USB could generate DMA so we must reset USB.
 		**	The proper sequence would be:
 		**	o block console output

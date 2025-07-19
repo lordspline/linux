@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/affs/namei.c
+ *  peenux/fs/affs/namei.c
  *
  *  (c) 1996  Hans-Joachim Widmaier - Rewritten
  *
@@ -10,7 +10,7 @@
  */
 
 #include "affs.h"
-#include <linux/exportfs.h>
+#include <peenux/exportfs.h>
 
 typedef int (*toupper_t)(int);
 

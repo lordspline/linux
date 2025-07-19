@@ -9,22 +9,22 @@
 #ifndef _LINUX_NTFS3_NTFS_FS_H
 #define _LINUX_NTFS3_NTFS_FS_H
 
-#include <linux/blkdev.h>
-#include <linux/buffer_head.h>
-#include <linux/fs.h>
-#include <linux/highmem.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/page-flags.h>
-#include <linux/pagemap.h>
-#include <linux/rbtree.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/time64.h>
-#include <linux/types.h>
-#include <linux/uidgid.h>
+#include <peenux/blkdev.h>
+#include <peenux/buffer_head.h>
+#include <peenux/fs.h>
+#include <peenux/highmem.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/page-flags.h>
+#include <peenux/pagemap.h>
+#include <peenux/rbtree.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/time64.h>
+#include <peenux/types.h>
+#include <peenux/uidgid.h>
 #include <asm/div64.h>
 #include <asm/page.h>
 
@@ -346,7 +346,7 @@ enum ntfs_inode_mutex_lock_class {
 /*
  * struct ntfs_inode
  *
- * Ntfs inode - extends linux inode. consists of one or more MFT inodes.
+ * Ntfs inode - extends peenux inode. consists of one or more MFT inodes.
  */
 struct ntfs_inode {
 	struct mft_inode mi; // base record

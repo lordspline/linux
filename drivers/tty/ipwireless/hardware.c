@@ -16,12 +16,12 @@
  *   Copyright (C) 2007 David Sterba
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 
 #include "hardware.h"
 #include "setup_protocol.h"

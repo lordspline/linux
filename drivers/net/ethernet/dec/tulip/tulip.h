@@ -1,7 +1,7 @@
 /*
 	drivers/net/ethernet/dec/tulip/tulip.h
 
-	Copyright 2000,2001  The Linux Kernel Team
+	Copyright 2000,2001  The Peenux Kernel Team
 	Written/copyright 1994-2001 by Donald Becker.
 
 	This software may be used and distributed according to the terms
@@ -13,17 +13,17 @@
 #ifndef __NET_TULIP_H__
 #define __NET_TULIP_H__
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 
 

@@ -5,19 +5,19 @@
  * (c) 2011 Manuel Lauss <manuel.lauss@googlemail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/gpio.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/platnand.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/flash.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/gpio.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/platnand.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/flash.h>
 #include <asm/bootinfo.h>
 #include <asm/mach-au1x00/au1000.h>
 #include <asm/mach-au1x00/gpio-au1000.h>

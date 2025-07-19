@@ -5,19 +5,19 @@
  * Copyright (c) 2007, 2008 Patrick McHardy <kaber@trash.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/jhash.h>
-#include <linux/random.h>
-#include <linux/pkt_cls.h>
-#include <linux/skbuff.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/if_vlan.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/jhash.h>
+#include <peenux/random.h>
+#include <peenux/pkt_cls.h>
+#include <peenux/skbuff.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/if_vlan.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <net/inet_sock.h>
 
 #include <net/pkt_cls.h>

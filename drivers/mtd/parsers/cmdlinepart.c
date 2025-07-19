@@ -11,10 +11,10 @@
  * <mtddef>  := <mtd-id>:<partdef>[,<partdef>]
  * <partdef> := <size>[@<offset>][<name>][ro][lk][slc]
  * <mtd-id>  := unique name used in mapping driver/device (mtd->name)
- * <size>    := standard linux memsize OR "-" to denote all remaining space
+ * <size>    := standard peenux memsize OR "-" to denote all remaining space
  *              size is automatically truncated at end of device
  *              if specified or truncated size is 0 the part is skipped
- * <offset>  := standard linux memsize
+ * <offset>  := standard peenux memsize
  *              if omitted the part will immediately follow the previous part
  *              or 0 if the first part
  * <name>    := '(' NAME ')'
@@ -37,12 +37,12 @@
 
 #define pr_fmt(fmt)	"mtd: " fmt
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/module.h>
-#include <linux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
 
 /* special size referring to all the remaining space in a partition */
 #define SIZE_REMAINING ULLONG_MAX

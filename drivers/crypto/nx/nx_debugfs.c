@@ -7,13 +7,13 @@
  * Author: Kent Yoder <yoder1@us.ibm.com>
  */
 
-#include <linux/device.h>
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/crypto.h>
+#include <peenux/device.h>
+#include <peenux/kobject.h>
+#include <peenux/string.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/crypto.h>
 #include <crypto/hash.h>
 #include <asm/vio.h>
 

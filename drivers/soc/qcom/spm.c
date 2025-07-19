@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2011-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2014, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2014,2015, Linaro Ltd.
  *
  * SAW power controller driver
  */
 
-#include <linux/bitfield.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/linear_range.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
+#include <peenux/bitfield.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/linear_range.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
 
-#include <linux/regulator/driver.h>
+#include <peenux/regulator/driver.h>
 
 #include <soc/qcom/spm.h>
 

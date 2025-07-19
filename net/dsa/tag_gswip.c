@@ -5,9 +5,9 @@
  * Copyright (C) 2017 - 2018 Hauke Mehrtens <hauke@hauke-m.de>
  */
 
-#include <linux/bitops.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/bitops.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
 #include <net/dsa.h>
 
 #include "tag.h"

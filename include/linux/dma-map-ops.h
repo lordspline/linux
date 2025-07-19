@@ -6,9 +6,9 @@
 #ifndef _LINUX_DMA_MAP_OPS_H
 #define _LINUX_DMA_MAP_OPS_H
 
-#include <linux/dma-mapping.h>
-#include <linux/pgtable.h>
-#include <linux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pgtable.h>
+#include <peenux/slab.h>
 
 struct cma;
 struct iommu_ops;

@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/mdacon.c -- Low level MDA based console driver
+ *  peenux/drivers/video/mdacon.c -- Low level MDA based console driver
  *
  *	(c) 1998 Andrew Apted <ajapted@netspace.net.au>
  *
@@ -26,20 +26,20 @@
  *  Paul G. (03/2001) Fix mdacon= boot prompt to use __setup().
  */
 
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/console.h>
-#include <linux/string.h>
-#include <linux/kd.h>
-#include <linux/vt_kern.h>
-#include <linux/vt_buffer.h>
-#include <linux/selection.h>
-#include <linux/spinlock.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/init.h>
+#include <peenux/types.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/console.h>
+#include <peenux/string.h>
+#include <peenux/kd.h>
+#include <peenux/vt_kern.h>
+#include <peenux/vt_buffer.h>
+#include <peenux/selection.h>
+#include <peenux/spinlock.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
 
 #include <asm/io.h>
 #include <asm/vga.h>

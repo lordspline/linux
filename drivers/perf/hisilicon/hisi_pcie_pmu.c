@@ -6,18 +6,18 @@
  * Copyright (C) 2021 HiSilicon Limited
  * Author: Qi Liu <liuqi115@huawei.com>
  */
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/perf_event.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/perf_event.h>
 
 #define DRV_NAME "hisi_pcie_pmu"
 /* Define registers */

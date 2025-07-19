@@ -33,14 +33,14 @@
 #ifndef __MLX5_CORE_H__
 #define __MLX5_CORE_H__
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/if_link.h>
-#include <linux/firmware.h>
-#include <linux/mlx5/cq.h>
-#include <linux/mlx5/fs.h>
-#include <linux/mlx5/driver.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/if_link.h>
+#include <peenux/firmware.h>
+#include <peenux/mlx5/cq.h>
+#include <peenux/mlx5/fs.h>
+#include <peenux/mlx5/driver.h>
 #include "lib/devcom.h"
 
 extern uint mlx5_core_debug_mask;

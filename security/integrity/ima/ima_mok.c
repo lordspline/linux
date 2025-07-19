@@ -6,13 +6,13 @@
  * Petko Manolov <petko.manolov@konsulko.com>
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 #include <keys/system_keyring.h>
 
 

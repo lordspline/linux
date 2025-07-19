@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/stdarg.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
+#include <peenux/kernel.h>
+#include <peenux/stdarg.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
 #include <asm/stacktrace.h>
 #include <asm/boot_data.h>
 #include <asm/lowcore.h>
@@ -64,7 +64,7 @@ void do_pgm_check(struct pt_regs *regs)
 		return;
 	if (bootdebug)
 		boot_rb_dump();
-	boot_emerg("Linux version %s\n", kernel_version);
+	boot_emerg("Peenux version %s\n", kernel_version);
 	if (!is_prot_virt_guest() && early_command_line[0])
 		boot_emerg("Kernel command line: %s\n", early_command_line);
 	boot_emerg("Kernel fault: interruption code %04x ilc:%d\n",

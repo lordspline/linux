@@ -7,18 +7,18 @@
 #ifndef __LINUX_NET_DSA_H
 #define __LINUX_NET_DSA_H
 
-#include <linux/if.h>
-#include <linux/if_ether.h>
-#include <linux/list.h>
-#include <linux/notifier.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
-#include <linux/of.h>
-#include <linux/ethtool.h>
-#include <linux/net_tstamp.h>
-#include <linux/phy.h>
-#include <linux/platform_data/dsa.h>
-#include <linux/phylink.h>
+#include <peenux/if.h>
+#include <peenux/if_ether.h>
+#include <peenux/list.h>
+#include <peenux/notifier.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
+#include <peenux/of.h>
+#include <peenux/ethtool.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/phy.h>
+#include <peenux/platform_data/dsa.h>
+#include <peenux/phylink.h>
 #include <net/devlink.h>
 #include <net/switchdev.h>
 

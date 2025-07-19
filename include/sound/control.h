@@ -7,8 +7,8 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/wait.h>
-#include <linux/nospec.h>
+#include <peenux/wait.h>
+#include <peenux/nospec.h>
 #include <sound/asound.h>
 
 #define snd_kcontrol_chip(kcontrol) ((kcontrol)->private_data)

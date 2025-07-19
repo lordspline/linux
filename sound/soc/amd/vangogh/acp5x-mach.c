@@ -6,12 +6,12 @@
  * Copyright 2021 Advanced Micro Devices, Inc.
  */
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input-event-codes.h>
-#include <linux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/input-event-codes.h>
+#include <peenux/module.h>
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

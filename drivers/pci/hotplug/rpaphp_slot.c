@@ -8,13 +8,13 @@
  * Send feedback to <lxie@us.ibm.com>
  *
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sysfs.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sysfs.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
 
 #include <asm/rtas.h>
 #include "rpaphp.h"

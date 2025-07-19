@@ -4,8 +4,8 @@
 /*
  * Architecture specific compatibility types
  */
-#include <linux/thread_info.h>
-#include <linux/types.h>
+#include <peenux/thread_info.h>
+#include <peenux/types.h>
 #include <asm/page.h>
 #include <asm/ptrace.h>
 

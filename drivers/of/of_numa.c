@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) "OF: NUMA: " fmt
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/nodemask.h>
-#include <linux/numa_memblks.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/nodemask.h>
+#include <peenux/numa_memblks.h>
 
 #include <asm/numa.h>
 

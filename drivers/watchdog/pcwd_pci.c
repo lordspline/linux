@@ -18,7 +18,7 @@
 
 /*
  *	A bells and whistles driver is available from:
- *	http://www.kernel.org/pub/linux/kernel/people/wim/pcwd/pcwd_pci/
+ *	http://www.kernel.org/pub/peenux/kernel/people/wim/pcwd/pcwd_pci/
  *
  *	More info available at
  *	http://www.berkprod.com/ or http://www.pcwatchdog.com/
@@ -30,23 +30,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>	/* For module specific items */
-#include <linux/moduleparam.h>	/* For new moduleparam's */
-#include <linux/types.h>	/* For standard types (like size_t) */
-#include <linux/errno.h>	/* For the -ENODEV/... values */
-#include <linux/kernel.h>	/* For printk/panic/... */
-#include <linux/delay.h>	/* For mdelay function */
-#include <linux/miscdevice.h>	/* For struct miscdevice */
-#include <linux/watchdog.h>	/* For the watchdog specific items */
-#include <linux/notifier.h>	/* For notifier support */
-#include <linux/reboot.h>	/* For reboot_notifier stuff */
-#include <linux/init.h>		/* For __init/__exit/... */
-#include <linux/fs.h>		/* For file operations */
-#include <linux/pci.h>		/* For pci functions */
-#include <linux/ioport.h>	/* For io-port access */
-#include <linux/spinlock.h>	/* For spin_lock/spin_unlock/... */
-#include <linux/uaccess.h>	/* For copy_to_user/put_user/... */
-#include <linux/io.h>		/* For inb/outb/... */
+#include <peenux/module.h>	/* For module specific items */
+#include <peenux/moduleparam.h>	/* For new moduleparam's */
+#include <peenux/types.h>	/* For standard types (like size_t) */
+#include <peenux/errno.h>	/* For the -ENODEV/... values */
+#include <peenux/kernel.h>	/* For printk/panic/... */
+#include <peenux/delay.h>	/* For mdelay function */
+#include <peenux/miscdevice.h>	/* For struct miscdevice */
+#include <peenux/watchdog.h>	/* For the watchdog specific items */
+#include <peenux/notifier.h>	/* For notifier support */
+#include <peenux/reboot.h>	/* For reboot_notifier stuff */
+#include <peenux/init.h>		/* For __init/__exit/... */
+#include <peenux/fs.h>		/* For file operations */
+#include <peenux/pci.h>		/* For pci functions */
+#include <peenux/ioport.h>	/* For io-port access */
+#include <peenux/spinlock.h>	/* For spin_lock/spin_unlock/... */
+#include <peenux/uaccess.h>	/* For copy_to_user/put_user/... */
+#include <peenux/io.h>		/* For inb/outb/... */
 
 /* Module and version information */
 #define WATCHDOG_VERSION "1.03"

@@ -6,18 +6,18 @@
  * Description: Altera PCIe host controller driver
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_pci.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "../pci.h"
 

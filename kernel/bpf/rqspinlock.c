@@ -13,22 +13,22 @@
  *          Kumar Kartikeya Dwivedi <memxor@gmail.com>
  */
 
-#include <linux/smp.h>
-#include <linux/bug.h>
-#include <linux/bpf.h>
-#include <linux/err.h>
-#include <linux/cpumask.h>
-#include <linux/percpu.h>
-#include <linux/hardirq.h>
-#include <linux/mutex.h>
-#include <linux/prefetch.h>
+#include <peenux/smp.h>
+#include <peenux/bug.h>
+#include <peenux/bpf.h>
+#include <peenux/err.h>
+#include <peenux/cpumask.h>
+#include <peenux/percpu.h>
+#include <peenux/hardirq.h>
+#include <peenux/mutex.h>
+#include <peenux/prefetch.h>
 #include <asm/byteorder.h>
 #ifdef CONFIG_QUEUED_SPINLOCKS
 #include <asm/qspinlock.h>
 #endif
 #include <trace/events/lock.h>
 #include <asm/rqspinlock.h>
-#include <linux/timekeeping.h>
+#include <peenux/timekeeping.h>
 
 /*
  * Include queued spinlock definitions and statistics code

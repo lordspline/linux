@@ -10,7 +10,7 @@
  *
  * Also uses information and code from:
  *
- * The original macfb.c from Linux/mac68k 2.0, by Alan Cox, Juergen
+ * The original macfb.c from Peenux/mac68k 2.0, by Alan Cox, Juergen
  * Mellinger, Mikael Forselius, Michael Schmitz, and others.
  *
  * valkyriefb.c, by Martin Costabel, Kevin Schoedel, Barry Nathan, Dan
@@ -20,15 +20,15 @@
  * http://rajsky.psych.nyu.edu/Tips/VideoBugs.html
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/nubus.h>
-#include <linux/init.h>
-#include <linux/fb.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/nubus.h>
+#include <peenux/init.h>
+#include <peenux/fb.h>
 
 #include <asm/setup.h>
 #include <asm/macintosh.h>

@@ -3,11 +3,11 @@
  * Copyright (C) 2016 Thomas Gleixner.
  * Copyright (C) 2016-2017 Christoph Hellwig.
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/sort.h>
-#include <linux/group_cpus.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/sort.h>
+#include <peenux/group_cpus.h>
 
 #ifdef CONFIG_SMP
 

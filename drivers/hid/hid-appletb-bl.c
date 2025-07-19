@@ -8,9 +8,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/hid.h>
-#include <linux/backlight.h>
-#include <linux/device.h>
+#include <peenux/hid.h>
+#include <peenux/backlight.h>
+#include <peenux/device.h>
 
 #include "hid-ids.h"
 

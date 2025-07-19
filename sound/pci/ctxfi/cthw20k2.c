@@ -11,14 +11,14 @@
  * @Date 	May 14 2008
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
 #include "cthw20k2.h"
 #include "ct20k2reg.h"
 

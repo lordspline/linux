@@ -5,12 +5,12 @@
  * All rights reserved
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/kmod.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/kmod.h>
+#include <peenux/delay.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

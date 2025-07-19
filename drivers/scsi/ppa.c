@@ -8,15 +8,15 @@
  * 
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/parport.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/parport.h>
+#include <peenux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
 #include <asm/io.h>
 
 #include <scsi/scsi.h>

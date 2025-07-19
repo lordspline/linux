@@ -6,8 +6,8 @@
 #ifndef BTRFS_TREE_CHECKER_H
 #define BTRFS_TREE_CHECKER_H
 
-#include <linux/types.h>
-#include <uapi/linux/btrfs_tree.h>
+#include <peenux/types.h>
+#include <uapi/peenux/btrfs_tree.h>
 
 struct extent_buffer;
 struct btrfs_fs_info;

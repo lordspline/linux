@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
  *  IPv6 IOAM implementation
  *
@@ -10,7 +10,7 @@
 #define _UAPI_LINUX_IOAM6_H
 
 #include <asm/byteorder.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define IOAM6_U16_UNAVAILABLE U16_MAX
 #define IOAM6_U32_UNAVAILABLE U32_MAX

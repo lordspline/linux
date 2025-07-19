@@ -6,15 +6,15 @@
 // This code is based on code copyrighted by Freescale,
 // Liam Girdwood, Javier Martin and probably others.
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <sound/core.h>
 #include <sound/dmaengine_pcm.h>
@@ -25,7 +25,7 @@
 
 #include <asm/fiq.h>
 
-#include <linux/platform_data/asoc-imx-ssi.h>
+#include <peenux/platform_data/asoc-imx-ssi.h>
 
 #include "imx-ssi.h"
 #include "imx-pcm.h"

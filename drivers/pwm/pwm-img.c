@@ -7,18 +7,18 @@
  * Based on drivers/pwm/pwm-tegra.c, Copyright (c) 2010, NVIDIA Corporation
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/pwm.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 /* PWM registers */
 #define PWM_CTRL_CFG				0x0000

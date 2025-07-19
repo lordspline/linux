@@ -3,13 +3,13 @@
  * Copyright (C) 2015, 2016 Cavium, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/of_pci.h>
-#include <linux/of.h>
-#include <linux/pci-ecam.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/of_pci.h>
+#include <peenux/of.h>
+#include <peenux/pci-ecam.h>
+#include <peenux/platform_device.h>
 
 #include "pci-host-common.h"
 

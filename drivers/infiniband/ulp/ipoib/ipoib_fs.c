@@ -30,14 +30,14 @@
  * SOFTWARE.
  */
 
-#include <linux/err.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 struct file_operations;
 
-#include <linux/debugfs.h>
-#include <linux/export.h>
+#include <peenux/debugfs.h>
+#include <peenux/export.h>
 
 #include "ipoib.h"
 

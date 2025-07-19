@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2023, Intel Corporation.
- * Intel Visual Sensing Controller Interface Linux driver
+ * Intel Visual Sensing Controller Interface Peenux driver
  */
 
-#include <linux/align.h>
-#include <linux/cache.h>
-#include <linux/cleanup.h>
-#include <linux/iopoll.h>
-#include <linux/list.h>
-#include <linux/mei.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/timekeeping.h>
-#include <linux/types.h>
+#include <peenux/align.h>
+#include <peenux/cache.h>
+#include <peenux/cleanup.h>
+#include <peenux/iopoll.h>
+#include <peenux/list.h>
+#include <peenux/mei.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/overflow.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/timekeeping.h>
+#include <peenux/types.h>
 
 #include <asm-generic/bug.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "mei_dev.h"
 #include "vsc-tp.h"

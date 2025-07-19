@@ -17,13 +17,13 @@
  * this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <linux/init.h>
-#include <linux/edac.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/edac.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_address.h>
+#include <peenux/of_device.h>
+#include <peenux/module.h>
 
 #include "edac_module.h"
 

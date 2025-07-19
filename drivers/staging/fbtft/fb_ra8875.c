@@ -4,12 +4,12 @@
  * Copyright by Pf@nne & NOTRO
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
 
-#include <linux/gpio/consumer.h>
+#include <peenux/gpio/consumer.h>
 #include "fbtft.h"
 
 #define DRVNAME "fb_ra8875"

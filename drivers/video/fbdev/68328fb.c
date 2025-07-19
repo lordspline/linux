@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/68328fb.c -- Low level implementation of the
+ *  peenux/drivers/video/68328fb.c -- Low level implementation of the
  *                                   mc68x328 LCD frame buffer device
  *
  *	Copyright (C) 2003 Georges Menie
@@ -16,7 +16,7 @@
  *
  *  this version is based on :
  *
- *  linux/drivers/video/vfb.c -- Virtual frame buffer device
+ *  peenux/drivers/video/vfb.c -- Virtual frame buffer device
  *
  *      Copyright (C) 2002 James Simmons
  *
@@ -27,17 +27,17 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/uaccess.h>
-#include <linux/fb.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/uaccess.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
 
 #if defined(CONFIG_M68VZ328)
 #include <asm/MC68VZ328.h>

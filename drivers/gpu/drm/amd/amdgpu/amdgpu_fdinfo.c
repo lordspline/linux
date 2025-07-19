@@ -23,12 +23,12 @@
  *          Roy Sun
  */
 
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/reboot.h>
-#include <linux/syscalls.h>
+#include <peenux/debugfs.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/reboot.h>
+#include <peenux/syscalls.h>
 
 #include <drm/amdgpu_drm.h>
 #include <drm/drm_debugfs.h>

@@ -6,11 +6,11 @@
  * Copyright (C) 2001, 2003 Keith M Wesolowski
  * Copyright (C) 2005 Ilya A. Volynets <ilya@total-knowledge.com>
  */
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/export.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/export.h>
 #include <asm/bootinfo.h>
 #include <asm/io.h>
 #include <asm/mipsregs.h>

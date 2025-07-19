@@ -7,19 +7,19 @@
  * Lorenzo Bianconi <lorenzo.bianconi83@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/iio/sysfs.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/buffer.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/regmap.h>
 
 #include "st_uvis25.h"
 

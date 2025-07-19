@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/bits.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #include "../clk-fractional-divider.h"
 #include "clk.h"

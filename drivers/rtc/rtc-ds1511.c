@@ -11,16 +11,16 @@
  * bit, but not a full watchdog driver.
  */
 
-#include <linux/bcd.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <peenux/bcd.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/rtc.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
 
 #define DS1511_SEC		0x0
 #define DS1511_MIN		0x1

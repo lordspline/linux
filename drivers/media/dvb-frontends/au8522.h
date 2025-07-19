@@ -10,7 +10,7 @@
 #ifndef __AU8522_H__
 #define __AU8522_H__
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 
 enum au8522_if_freq {
 	AU8522_IF_6MHZ = 0,

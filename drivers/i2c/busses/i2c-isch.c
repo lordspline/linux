@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  Linux kernel driver for Intel SCH chipset SMBus
+ *  Peenux kernel driver for Intel SCH chipset SMBus
  *  - Based on i2c-piix4.c
  *  Copyright (c) 1998 - 2002 Frodo Looijaard <frodol@dds.nl> and
  *  Philip Edelbrock <phil@netroedge.com>
@@ -10,20 +10,20 @@
 
 /* Supports: Intel SCH chipsets (AF82US15W, AF82US15L, AF82UL11L) */
 
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gfp_types.h>
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sprintf.h>
-#include <linux/stddef.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <peenux/container_of.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/gfp_types.h>
+#include <peenux/i2c.h>
+#include <peenux/iopoll.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/sprintf.h>
+#include <peenux/stddef.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
 
 /* SCH SMBus address offsets */
 #define SMBHSTCNT	0x00

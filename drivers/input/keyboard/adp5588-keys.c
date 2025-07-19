@@ -8,25 +8,25 @@
  * Copyright (C) 2008-2010 Analog Devices Inc.
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/timekeeping.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/matrix_keypad.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/ktime.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/timekeeping.h>
 
 #define DEV_ID 0x00		/* Device ID */
 #define CFG 0x01		/* Configuration Register1 */

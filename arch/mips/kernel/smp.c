@@ -6,27 +6,27 @@
  * Copyright (C) 2000, 2001 Silicon Graphics, Inc.
  * Copyright (C) 2000, 2001, 2003 Broadcom Corporation
  */
-#include <linux/cache.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/profile.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/threads.h>
-#include <linux/export.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/sched/mm.h>
-#include <linux/cpumask.h>
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/ftrace.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <peenux/cache.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/profile.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/threads.h>
+#include <peenux/export.h>
+#include <peenux/time.h>
+#include <peenux/timex.h>
+#include <peenux/sched/mm.h>
+#include <peenux/cpumask.h>
+#include <peenux/cpu.h>
+#include <peenux/err.h>
+#include <peenux/ftrace.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/cpu.h>
 #include <asm/ginvt.h>
 #include <asm/processor.h>

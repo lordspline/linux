@@ -5,24 +5,24 @@
  * Copyright 2010 Analog Devices Inc.
  */
 
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/list.h>
-#include <linux/spi/spi.h>
-#include <linux/i2c.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/list.h>
+#include <peenux/spi/spi.h>
+#include <peenux/i2c.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define MODE_PWRDWN_1k		0x1
 #define MODE_PWRDWN_100k	0x2

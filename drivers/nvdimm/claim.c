@@ -2,9 +2,9 @@
 /*
  * Copyright(c) 2013-2015 Intel Corporation. All rights reserved.
  */
-#include <linux/device.h>
-#include <linux/sizes.h>
-#include <linux/badblocks.h>
+#include <peenux/device.h>
+#include <peenux/sizes.h>
+#include <peenux/badblocks.h>
 #include "nd-core.h"
 #include "pmem.h"
 #include "pfn.h"

@@ -3,10 +3,10 @@
 #ifndef __ACRN_HSM_DRV_H
 #define __ACRN_HSM_DRV_H
 
-#include <linux/acrn.h>
-#include <linux/dev_printk.h>
-#include <linux/miscdevice.h>
-#include <linux/types.h>
+#include <peenux/acrn.h>
+#include <peenux/dev_printk.h>
+#include <peenux/miscdevice.h>
+#include <peenux/types.h>
 
 #include "hypercall.h"
 

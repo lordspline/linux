@@ -3,10 +3,10 @@
 #define _ASM_POWERPC_MACHDEP_H
 #ifdef __KERNEL__
 
-#include <linux/compiler.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/time64.h>
+#include <peenux/compiler.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/time64.h>
 
 #include <asm/page.h>
 

@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Sysfs attributes of bridge
- *	Linux ethernet bridge
+ *	Peenux ethernet bridge
  *
  *	Authors:
  *	Stephen Hemminger		<shemminger@osdl.org>
  */
 
-#include <linux/capability.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/rtnetlink.h>
-#include <linux/spinlock.h>
-#include <linux/times.h>
-#include <linux/sched/signal.h>
+#include <peenux/capability.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/spinlock.h>
+#include <peenux/times.h>
+#include <peenux/sched/signal.h>
 
 #include "br_private.h"
 

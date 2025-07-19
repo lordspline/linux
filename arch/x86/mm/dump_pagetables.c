@@ -5,18 +5,18 @@
  *
  * (C) Copyright 2008 Intel Corporation
  *
- * Author: Arjan van de Ven <arjan@linux.intel.com>
+ * Author: Arjan van de Ven <arjan@peenux.intel.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/kasan.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/highmem.h>
-#include <linux/pci.h>
-#include <linux/ptdump.h>
+#include <peenux/debugfs.h>
+#include <peenux/kasan.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/highmem.h>
+#include <peenux/pci.h>
+#include <peenux/ptdump.h>
 
 #include <asm/e820/types.h>
 

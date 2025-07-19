@@ -3,23 +3,23 @@
 
 /* (C) 1999-2001 Paul `Rusty' Russell
  * (C) 2002-2006 Netfilter Core Team <coreteam@netfilter.org>
- * (C) 2003,2004 USAGI/WIDE Project <http://www.linux-ipv6.org>
+ * (C) 2003,2004 USAGI/WIDE Project <http://www.peenux-ipv6.org>
  * (c) 2005-2012 Patrick McHardy <kaber@trash.net>
  */
 
-#include <linux/types.h>
-#include <linux/netfilter.h>
-#include <linux/skbuff.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/stddef.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/percpu.h>
-#include <linux/kernel.h>
-#include <linux/siphash.h>
-#include <linux/moduleparam.h>
-#include <linux/export.h>
+#include <peenux/types.h>
+#include <peenux/netfilter.h>
+#include <peenux/skbuff.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/stddef.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/percpu.h>
+#include <peenux/kernel.h>
+#include <peenux/siphash.h>
+#include <peenux/moduleparam.h>
+#include <peenux/export.h>
 #include <net/net_namespace.h>
 #include <net/netns/hash.h>
 

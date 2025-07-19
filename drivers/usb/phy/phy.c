@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2004-2013 Texas Instruments
  */
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
-#include <linux/usb/phy.h>
+#include <peenux/usb/phy.h>
 
 /* Default current range by charger type. */
 #define DEFAULT_SDP_CUR_MIN	2

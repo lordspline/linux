@@ -5,21 +5,21 @@
  * Copyright (C) 2021-2023 Alibaba Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/pcie-dwc.h>
-#include <linux/perf_event.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/smp.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/cpumask.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/pcie-dwc.h>
+#include <peenux/perf_event.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/smp.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #define DWC_PCIE_EVENT_CNT_CTL			0x8
 
@@ -786,5 +786,5 @@ module_init(dwc_pcie_pmu_init);
 module_exit(dwc_pcie_pmu_exit);
 
 MODULE_DESCRIPTION("PMU driver for DesignWare Cores PCI Express Controller");
-MODULE_AUTHOR("Shuai Xue <xueshuai@linux.alibaba.com>");
+MODULE_AUTHOR("Shuai Xue <xueshuai@peenux.alibaba.com>");
 MODULE_LICENSE("GPL v2");

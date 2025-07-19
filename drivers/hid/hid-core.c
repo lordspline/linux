@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  HID support for Linux
+ *  HID support for Peenux
  *
  *  Copyright (c) 1999 Andreas Gal
  *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
@@ -13,25 +13,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/spinlock.h>
+#include <peenux/unaligned.h>
 #include <asm/byteorder.h>
-#include <linux/input.h>
-#include <linux/wait.h>
-#include <linux/vmalloc.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
+#include <peenux/input.h>
+#include <peenux/wait.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sched.h>
+#include <peenux/semaphore.h>
 
-#include <linux/hid.h>
-#include <linux/hiddev.h>
-#include <linux/hid-debug.h>
-#include <linux/hidraw.h>
+#include <peenux/hid.h>
+#include <peenux/hiddev.h>
+#include <peenux/hid-debug.h>
+#include <peenux/hidraw.h>
 
 #include "hid-ids.h"
 
@@ -1376,7 +1376,7 @@ EXPORT_SYMBOL_GPL(hid_open_report);
  * While the USB HID spec allows unlimited length bit fields in "report
  * descriptors", most devices never use more than 16 bits.
  * One model of UPS is claimed to report "LINEV" as a 32-bit field.
- * Search linux-kernel and linux-usb-devel archives for "hid-core extract".
+ * Search peenux-kernel and peenux-usb-devel archives for "hid-core extract".
  */
 
 static u32 __extract(u8 *report, unsigned offset, int n)
@@ -3133,5 +3133,5 @@ module_exit(hid_exit);
 MODULE_AUTHOR("Andreas Gal");
 MODULE_AUTHOR("Vojtech Pavlik");
 MODULE_AUTHOR("Jiri Kosina");
-MODULE_DESCRIPTION("HID support for Linux");
+MODULE_DESCRIPTION("HID support for Peenux");
 MODULE_LICENSE("GPL");

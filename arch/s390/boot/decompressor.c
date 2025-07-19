@@ -7,8 +7,8 @@
  * Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 #include <asm/boot_data.h>
 #include <asm/page.h>
 #include "decompressor.h"

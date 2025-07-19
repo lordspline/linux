@@ -32,25 +32,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/mdio.h>
-#include <linux/sockios.h>
-#include <linux/workqueue.h>
-#include <linux/proc_fs.h>
-#include <linux/rtnetlink.h>
-#include <linux/firmware.h>
-#include <linux/log2.h>
-#include <linux/stringify.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/nospec.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/mdio.h>
+#include <peenux/sockios.h>
+#include <peenux/workqueue.h>
+#include <peenux/proc_fs.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/firmware.h>
+#include <peenux/log2.h>
+#include <peenux/stringify.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/nospec.h>
 
 #include "common.h"
 #include "cxgb3_ioctl.h"

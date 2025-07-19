@@ -5,7 +5,7 @@
  * Hardware support for the Sega Dreamcast.
  *
  * Copyright (c) 2001, 2002 M. R. Brown <mrbrown@linuxdc.org>
- * Copyright (c) 2002, 2003, 2004 Paul Mundt <lethal@linux-sh.org>
+ * Copyright (c) 2002, 2003, 2004 Paul Mundt <lethal@peenux-sh.org>
  *
  * This file is part of the LinuxDC project (www.linuxdc.org)
  *
@@ -14,13 +14,13 @@
  *	SEGA Dreamcast support
  */
 
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/device.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/device.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/rtc.h>

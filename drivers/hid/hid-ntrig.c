@@ -9,12 +9,12 @@
 /*
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/usb.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/usb.h>
 #include "usbhid/usbhid.h"
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include "hid-ids.h"
 

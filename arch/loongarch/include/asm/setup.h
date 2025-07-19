@@ -6,7 +6,7 @@
 #ifndef _LOONGARCH_SETUP_H
 #define _LOONGARCH_SETUP_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/sections.h>
 #include <uapi/asm/setup.h>
 

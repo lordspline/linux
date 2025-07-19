@@ -7,10 +7,10 @@
  * it under the terms of the GNU General Public License version 2 as
  * published by the Free Software Foundation.
  *
- * Based on linux/drivers/iio/adc/ad7291.c
+ * Based on peenux/drivers/iio/adc/ad7291.c
  * Copyright 2010-2011 Analog Devices Inc.
  *
- * Based on linux/drivers/hwmon/ina2xx.c
+ * Based on peenux/drivers/hwmon/ina2xx.c
  * Copyright 2012 Lothar Felten <l-felten@ti.com>
  *
  * Licensed under the GPL-2 or later.
@@ -20,20 +20,20 @@
  * Configurable 7-bit I2C slave address from 0x40 to 0x4F
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/sysfs.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/sched/task.h>
-#include <linux/util_macros.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/kfifo_buf.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/sched/task.h>
+#include <peenux/util_macros.h>
 
-#include <linux/platform_data/ina2xx.h>
+#include <peenux/platform_data/ina2xx.h>
 
 /* INA2XX registers definition */
 #define INA2XX_CONFIG                   0x00

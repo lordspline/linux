@@ -4,13 +4,13 @@
  *
  * Copyright (C) 2017 Intel Corporation
  *
- * Author: Lu Baolu <baolu.lu@linux.intel.com>
+ * Author: Lu Baolu <baolu.lu@peenux.intel.com>
  */
 
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/idr.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/idr.h>
 
 #include "xhci.h"
 #include "xhci-dbgcap.h"

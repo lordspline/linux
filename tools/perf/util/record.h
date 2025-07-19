@@ -4,9 +4,9 @@
 
 #include <time.h>
 #include <stdbool.h>
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/perf_event.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/perf_event.h>
 #include "util/target.h"
 
 struct option;

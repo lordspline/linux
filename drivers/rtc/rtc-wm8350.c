@@ -5,21 +5,21 @@
  *	Copyright (C) 2007, 2008 Wolfson Microelectronics PLC.
  *
  *  Author: Liam Girdwood
- *          linux@wolfsonmicro.com
+ *          peenux@wolfsonmicro.com
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/completion.h>
-#include <linux/mfd/wm8350/rtc.h>
-#include <linux/mfd/wm8350/core.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/time.h>
+#include <peenux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioctl.h>
+#include <peenux/completion.h>
+#include <peenux/mfd/wm8350/rtc.h>
+#include <peenux/mfd/wm8350/core.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
 
 #define WM8350_SET_ALM_RETRIES	5
 #define WM8350_SET_TIME_RETRIES	5

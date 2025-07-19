@@ -2,18 +2,18 @@
 /*
 
   Sun3 Lance ethernet driver, by Sam Creasey (sammy@users.qual.net).
-  This driver is a part of the linux kernel, and is thus distributed
+  This driver is a part of the peenux kernel, and is thus distributed
   under the GNU General Public License.
 
   The values used in LANCE_OBIO and LANCE_IRQ seem to be empirically
   true for the correct IRQ and address of the lance registers.  They
   have not been widely tested, however.  What we probably need is a
   "proper" way to search for a device in the sun3's prom, but, alas,
-  linux has no such thing.
+  peenux has no such thing.
 
   This driver is largely based on atarilance.c, by Roman Hodek.  Other
   sources of inspiration were the NetBSD sun3 am7990 driver, and the
-  linux sparc lance driver (sunlance.c).
+  peenux sparc lance driver (sunlance.c).
 
   There are more assumptions made throughout this driver, it almost
   certainly still needs work, but it does work at least for RARP/BOOTP and
@@ -24,20 +24,20 @@
 static const char version[] =
 "sun3lance.c: v1.2 1/12/2001  Sam Creasey (sammy@sammy.net)\n";
 
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/bitops.h>
-#include <linux/pgtable.h>
+#include <peenux/module.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/bitops.h>
+#include <peenux/pgtable.h>
 
 #include <asm/cacheflush.h>
 #include <asm/setup.h>

@@ -14,15 +14,15 @@
 #include <drm/drm_framebuffer.h>
 #include <drm/drm_plane.h>
 
-#include <linux/clk.h>
-#include <linux/dma/xilinx_dpdma.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/dma/xilinx_dpdma.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "zynqmp_disp.h"
 #include "zynqmp_disp_regs.h"

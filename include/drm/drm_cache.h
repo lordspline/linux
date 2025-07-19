@@ -33,7 +33,7 @@
 #ifndef _DRM_CACHE_H_
 #define _DRM_CACHE_H_
 
-#include <linux/scatterlist.h>
+#include <peenux/scatterlist.h>
 
 struct iosys_map;
 

@@ -7,12 +7,12 @@
 #ifndef _GVE_H_
 #define _GVE_H_
 
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/u64_stats_sync.h>
 #include <net/page_pool/helpers.h>
 #include <net/xdp.h>
 

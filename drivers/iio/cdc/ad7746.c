@@ -5,21 +5,21 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/sysfs.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/sysfs.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 /* AD7746 Register Definition */
 

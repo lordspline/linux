@@ -7,14 +7,14 @@
  *                         ( by Dale Farnsworth <dfarnsworth@mvista.com> )
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 #include <asm/io.h>
 
-#include <linux/fsl/bestcomm/bestcomm.h>
-#include <linux/fsl/bestcomm/bestcomm_priv.h>
-#include <linux/fsl/bestcomm/fec.h>
+#include <peenux/fsl/bestcomm/bestcomm.h>
+#include <peenux/fsl/bestcomm/bestcomm_priv.h>
+#include <peenux/fsl/bestcomm/fec.h>
 
 
 /* ======================================================================== */

@@ -5,31 +5,31 @@
  * Copyright 2023-2024 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/clk.h>
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/clk.h>
+#include <peenux/crc8.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
+#include <peenux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
 
 #define AD7779_SPI_READ_CMD			BIT(7)
 

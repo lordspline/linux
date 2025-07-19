@@ -8,10 +8,10 @@
  * Copyright (C) 2021-2023 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <peenux/dmi.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
 
 #include "x86-android-tablets.h"
 

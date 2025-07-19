@@ -40,31 +40,31 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/tcp.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/dca.h>
-#include <linux/ip.h>
-#include <linux/inet.h>
-#include <linux/in.h>
-#include <linux/ethtool.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/vmalloc.h>
-#include <linux/crc32.h>
-#include <linux/moduleparam.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/slab.h>
-#include <linux/prefetch.h>
+#include <peenux/tcp.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/dca.h>
+#include <peenux/ip.h>
+#include <peenux/inet.h>
+#include <peenux/in.h>
+#include <peenux/ethtool.h>
+#include <peenux/firmware.h>
+#include <peenux/delay.h>
+#include <peenux/timer.h>
+#include <peenux/vmalloc.h>
+#include <peenux/crc32.h>
+#include <peenux/moduleparam.h>
+#include <peenux/io.h>
+#include <peenux/log2.h>
+#include <peenux/slab.h>
+#include <peenux/prefetch.h>
 #include <net/checksum.h>
 #include <net/gso.h>
 #include <net/ip.h>
@@ -2427,8 +2427,8 @@ static int myri10ge_open(struct net_device *dev)
 	}
 
 	/*
-	 * Set Linux style TSO mode; this is needed only on newer
-	 *  firmware versions.  Older versions default to Linux
+	 * Set Peenux style TSO mode; this is needed only on newer
+	 *  firmware versions.  Older versions default to Peenux
 	 *  style TSO
 	 */
 	cmd.data0 = 0;

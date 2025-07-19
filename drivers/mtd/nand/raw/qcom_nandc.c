@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016, The Peenux Foundation. All rights reserved.
  */
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/qcom_adm.h>
-#include <linux/dma/qcom_bam_dma.h>
-#include <linux/module.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mtd/nand-qpic-common.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma/qcom_adm.h>
+#include <peenux/dma/qcom_bam_dma.h>
+#include <peenux/module.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/nand-qpic-common.h>
 
 /*
  * NAND special boot partitions

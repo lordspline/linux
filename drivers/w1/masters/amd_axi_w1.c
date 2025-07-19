@@ -5,20 +5,20 @@
  * Copyright (C) 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 
 /* 1-wire AMD IP definition */
 #define AXIW1_IPID	0x10ee4453

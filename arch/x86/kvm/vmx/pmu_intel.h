@@ -2,7 +2,7 @@
 #ifndef __KVM_X86_VMX_PMU_INTEL_H
 #define  __KVM_X86_VMX_PMU_INTEL_H
 
-#include <linux/kvm_host.h>
+#include <peenux/kvm_host.h>
 
 bool intel_pmu_lbr_is_enabled(struct kvm_vcpu *vcpu);
 int intel_pmu_create_guest_lbr_event(struct kvm_vcpu *vcpu);

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* linux/drivers/video/s3c-fb.c
+/* peenux/drivers/video/s3c-fb.c
  *
  * Copyright 2008 Openmoko Inc.
  * Copyright 2008-2010 Simtec Electronics
@@ -9,19 +9,19 @@
  * Samsung SoC Framebuffer driver
 */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/fb.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/video_s3c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/clk.h>
+#include <peenux/fb.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_data/video_s3c.h>
 
 #include <video/samsung_fimd.h>
 

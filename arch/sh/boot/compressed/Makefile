@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 #
-# linux/arch/sh/boot/compressed/Makefile
+# peenux/arch/sh/boot/compressed/Makefile
 #
 # create a compressed vmlinux image from the original vmlinux
 #

@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/stifb.c -
+ * peenux/drivers/video/stifb.c -
  * Low level Frame buffer driver for HP workstations with
  * STI (standard text interface) video firmware.
  *
@@ -7,7 +7,7 @@
  * Portions Copyright (C) 2001 Thomas Bogendoerfer <tsbogend@alpha.franken.de>
  *
  * Based on:
- * - linux/drivers/video/artistfb.c -- Artist frame buffer driver
+ * - peenux/drivers/video/artistfb.c -- Artist frame buffer driver
  *	Copyright (C) 2000 Philipp Rumpf <prumpf@tux.org>
  *   - based on skeletonfb, which was
  *	Created 28 Dec 1997 by Geert Uytterhoeven
@@ -54,20 +54,20 @@
 #undef DEBUG_STIFB_REGS		/* debug sti register accesses */
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
 
 #include <asm/grfioctl.h>	/* for HP-UX compatibility */
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <video/sticore.h>
 

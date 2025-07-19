@@ -3,25 +3,25 @@
  * Common prep/pmac/chrp boot and setup code.
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
-#include <linux/initrd.h>
-#include <linux/tty.h>
-#include <linux/seq_file.h>
-#include <linux/root_dev.h>
-#include <linux/cpu.h>
-#include <linux/console.h>
-#include <linux/memblock.h>
-#include <linux/export.h>
-#include <linux/nvram.h>
-#include <linux/pgtable.h>
-#include <linux/of_fdt.h>
-#include <linux/irq.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/reboot.h>
+#include <peenux/delay.h>
+#include <peenux/initrd.h>
+#include <peenux/tty.h>
+#include <peenux/seq_file.h>
+#include <peenux/root_dev.h>
+#include <peenux/cpu.h>
+#include <peenux/console.h>
+#include <peenux/memblock.h>
+#include <peenux/export.h>
+#include <peenux/nvram.h>
+#include <peenux/pgtable.h>
+#include <peenux/of_fdt.h>
+#include <peenux/irq.h>
 
 #include <asm/io.h>
 #include <asm/processor.h>
@@ -32,7 +32,7 @@
 #include <asm/bootx.h>
 #include <asm/btext.h>
 #include <asm/machdep.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/pmac_feature.h>
 #include <asm/sections.h>
 #include <asm/nvram.h>

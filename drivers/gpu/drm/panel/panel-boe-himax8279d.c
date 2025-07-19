@@ -6,13 +6,13 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_mipi_dsi.h>

@@ -3,17 +3,17 @@
  * A FSI master controller, using a simple GPIO bit-banging interface
  */
 
-#include <linux/crc4.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fsi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/irqflags.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/crc4.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/fsi.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/irqflags.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "fsi-master.h"
 

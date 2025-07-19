@@ -2,14 +2,14 @@
 #ifndef _FSM_H_
 #define _FSM_H_
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/timer.h>
-#include <linux/time.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/atomic.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/timer.h>
+#include <peenux/time.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/atomic.h>
 
 /**
  * Define this to get debugging messages.

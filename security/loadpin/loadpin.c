@@ -9,18 +9,18 @@
 
 #define pr_fmt(fmt) "LoadPin: " fmt
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/kernel_read_file.h>
-#include <linux/lsm_hooks.h>
-#include <linux/mount.h>
-#include <linux/blkdev.h>
-#include <linux/path.h>
-#include <linux/sched.h>	/* current */
-#include <linux/string_helpers.h>
-#include <linux/dm-verity-loadpin.h>
-#include <uapi/linux/loadpin.h>
-#include <uapi/linux/lsm.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/lsm_hooks.h>
+#include <peenux/mount.h>
+#include <peenux/blkdev.h>
+#include <peenux/path.h>
+#include <peenux/sched.h>	/* current */
+#include <peenux/string_helpers.h>
+#include <peenux/dm-verity-loadpin.h>
+#include <uapi/peenux/loadpin.h>
+#include <uapi/peenux/lsm.h>
 
 #define VERITY_DIGEST_FILE_HEADER "# LOADPIN_TRUSTED_VERITY_ROOT_DIGESTS"
 

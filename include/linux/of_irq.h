@@ -2,12 +2,12 @@
 #ifndef __OF_IRQ_H
 #define __OF_IRQ_H
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/ioport.h>
+#include <peenux/of.h>
 
 typedef int (*of_irq_init_cb_t)(struct device_node *, struct device_node *);
 

@@ -5,14 +5,14 @@
  * Author: Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/dmi.h>
-#include <linux/kstrtox.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/dmi.h>
+#include <peenux/kstrtox.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/printk.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "gpiolib-acpi.h"
 

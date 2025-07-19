@@ -3,15 +3,15 @@
  * OS info memory interface
  *
  * Copyright IBM Corp. 2012
- * Author(s): Michael Holzheu <holzheu@linux.vnet.ibm.com>
+ * Author(s): Michael Holzheu <holzheu@peenux.vnet.ibm.com>
  */
 
 #define KMSG_COMPONENT "os_info"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/crash_dump.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <peenux/crash_dump.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
 #include <asm/checksum.h>
 #include <asm/abs_lowcore.h>
 #include <asm/os_info.h>

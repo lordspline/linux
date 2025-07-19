@@ -5,10 +5,10 @@
  *  Written by Emard <emard@softhome.net>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
 
 #include <media/dvb_frontend.h>
 #include "dvb_dummy_fe.h"

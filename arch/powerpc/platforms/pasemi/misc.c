@@ -7,12 +7,12 @@
  * 2006 (c) MontaVista Software, Inc.
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/i2c.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/i2c.h>
 
 #ifdef CONFIG_I2C_BOARDINFO
 /* The below is from fsl_soc.c.  It's copied because since there are no

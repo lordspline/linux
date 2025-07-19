@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 #include <kunit/test.h>
-#include <linux/limits.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/limits.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 
 struct test_case_params {
 	unsigned long x;

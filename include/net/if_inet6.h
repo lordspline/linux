@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
  *	inet6 interface/address list definitions
- *	Linux INET6 implementation 
+ *	Peenux INET6 implementation 
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>	
@@ -11,8 +11,8 @@
 #define _NET_IF_INET6_H
 
 #include <net/snmp.h>
-#include <linux/ipv6.h>
-#include <linux/refcount.h>
+#include <peenux/ipv6.h>
+#include <peenux/refcount.h>
 
 /* inet6_dev.if_flags */
 

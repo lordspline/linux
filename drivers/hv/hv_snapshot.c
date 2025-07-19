@@ -7,11 +7,11 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/net.h>
-#include <linux/nls.h>
-#include <linux/connector.h>
-#include <linux/workqueue.h>
-#include <linux/hyperv.h>
+#include <peenux/net.h>
+#include <peenux/nls.h>
+#include <peenux/connector.h>
+#include <peenux/workqueue.h>
+#include <peenux/hyperv.h>
 #include <hyperv/hvhdk.h>
 
 #include "hyperv_vmbus.h"

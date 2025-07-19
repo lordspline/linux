@@ -5,8 +5,8 @@
 
 #ifdef CONFIG_ARM_PTDUMP_CORE
 
-#include <linux/mm_types.h>
-#include <linux/seq_file.h>
+#include <peenux/mm_types.h>
+#include <peenux/seq_file.h>
 
 struct addr_marker {
 	unsigned long start_address;

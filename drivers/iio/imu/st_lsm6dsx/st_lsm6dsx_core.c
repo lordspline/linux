@@ -71,24 +71,24 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/minmax.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/minmax.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/bitfield.h>
 
-#include <linux/platform_data/st_sensors_pdata.h>
+#include <peenux/platform_data/st_sensors_pdata.h>
 
 #include "st_lsm6dsx.h"
 

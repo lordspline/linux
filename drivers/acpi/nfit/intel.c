@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2018 Intel Corporation. All rights reserved. */
-#include <linux/libnvdimm.h>
-#include <linux/ndctl.h>
-#include <linux/acpi.h>
-#include <linux/memregion.h>
+#include <peenux/libnvdimm.h>
+#include <peenux/ndctl.h>
+#include <peenux/acpi.h>
+#include <peenux/memregion.h>
 #include <asm/smp.h>
 #include "intel.h"
 #include "nfit.h"

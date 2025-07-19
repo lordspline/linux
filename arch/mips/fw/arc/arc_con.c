@@ -7,11 +7,11 @@
  * Copyright (c) 2001 Ralf Baechle
  * Copyright (c) 2002 Thiemo Seufer
  */
-#include <linux/tty.h>
-#include <linux/major.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/fs.h>
+#include <peenux/tty.h>
+#include <peenux/major.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/fs.h>
 #include <asm/setup.h>
 #include <asm/sgialib.h>
 

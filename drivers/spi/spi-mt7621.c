@@ -10,15 +10,15 @@
 //   Author: Shadi Ammouri <shadi@marvell.com>
 //   Copyright (C) 2007-2008 Marvell Ltd.
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/spi/spi.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/spi/spi.h>
 
 #define DRIVER_NAME		"spi-mt7621"
 

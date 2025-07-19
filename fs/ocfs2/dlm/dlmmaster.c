@@ -8,20 +8,20 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/init.h>
-#include <linux/sysctl.h>
-#include <linux/random.h>
-#include <linux/blkdev.h>
-#include <linux/socket.h>
-#include <linux/inet.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/string_choices.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/init.h>
+#include <peenux/sysctl.h>
+#include <peenux/random.h>
+#include <peenux/blkdev.h>
+#include <peenux/socket.h>
+#include <peenux/inet.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/string_choices.h>
 
 #include "../cluster/heartbeat.h"
 #include "../cluster/nodemanager.h"

@@ -2,16 +2,16 @@
 /*
  * Copyright (C) 2016 Linaro Ltd
  */
-#include <linux/module.h>
-#include <linux/ulpi/driver.h>
-#include <linux/ulpi/regs.h>
-#include <linux/clk.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/reset.h>
-#include <linux/extcon.h>
-#include <linux/notifier.h>
+#include <peenux/module.h>
+#include <peenux/ulpi/driver.h>
+#include <peenux/ulpi/regs.h>
+#include <peenux/clk.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/reset.h>
+#include <peenux/extcon.h>
+#include <peenux/notifier.h>
 
 #define ULPI_PWR_CLK_MNG_REG		0x88
 # define ULPI_PWR_OTG_COMP_DISABLE	BIT(0)

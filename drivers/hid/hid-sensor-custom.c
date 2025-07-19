@@ -4,19 +4,19 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/ctype.h>
-#include <linux/dmi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/miscdevice.h>
-#include <linux/kfifo.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/poll.h>
-#include <linux/bsearch.h>
-#include <linux/platform_device.h>
-#include <linux/hid-sensor-hub.h>
+#include <peenux/ctype.h>
+#include <peenux/dmi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/miscdevice.h>
+#include <peenux/kfifo.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/poll.h>
+#include <peenux/bsearch.h>
+#include <peenux/platform_device.h>
+#include <peenux/hid-sensor-hub.h>
 
 #define HID_CUSTOM_NAME_LENGTH		64
 #define HID_CUSTOM_MAX_CORE_ATTRS	10
@@ -1070,5 +1070,5 @@ static struct platform_driver hid_sensor_custom_platform_driver = {
 module_platform_driver(hid_sensor_custom_platform_driver);
 
 MODULE_DESCRIPTION("HID Sensor Custom and Generic sensor Driver");
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>");
 MODULE_LICENSE("GPL");

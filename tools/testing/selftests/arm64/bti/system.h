@@ -7,14 +7,14 @@
 #ifndef SYSTEM_H
 #define SYSTEM_H
 
-#include <linux/types.h>
-#include <linux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
 
 typedef __kernel_size_t size_t;
 typedef __kernel_ssize_t ssize_t;
 
-#include <linux/errno.h>
-#include <linux/compiler.h>
+#include <peenux/errno.h>
+#include <peenux/compiler.h>
 
 #include <asm/hwcap.h>
 #include <asm/ptrace.h>

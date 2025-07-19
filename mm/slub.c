@@ -7,44 +7,44 @@
  * and only uses a centralized lock to manage a pool of partial slabs.
  *
  * (C) 2007 SGI, Christoph Lameter
- * (C) 2011 Linux Foundation, Christoph Lameter
+ * (C) 2011 Peenux Foundation, Christoph Lameter
  */
 
-#include <linux/mm.h>
-#include <linux/swap.h> /* mm_account_reclaimed_pages() */
-#include <linux/module.h>
-#include <linux/bit_spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/swab.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h> /* mm_account_reclaimed_pages() */
+#include <peenux/module.h>
+#include <peenux/bit_spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/swab.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
 #include "slab.h"
-#include <linux/vmalloc.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/kasan.h>
-#include <linux/kmsan.h>
-#include <linux/cpu.h>
-#include <linux/cpuset.h>
-#include <linux/mempolicy.h>
-#include <linux/ctype.h>
-#include <linux/stackdepot.h>
-#include <linux/debugobjects.h>
-#include <linux/kallsyms.h>
-#include <linux/kfence.h>
-#include <linux/memory.h>
-#include <linux/math64.h>
-#include <linux/fault-inject.h>
-#include <linux/kmemleak.h>
-#include <linux/stacktrace.h>
-#include <linux/prefetch.h>
-#include <linux/memcontrol.h>
-#include <linux/random.h>
+#include <peenux/vmalloc.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/kasan.h>
+#include <peenux/kmsan.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuset.h>
+#include <peenux/mempolicy.h>
+#include <peenux/ctype.h>
+#include <peenux/stackdepot.h>
+#include <peenux/debugobjects.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kfence.h>
+#include <peenux/memory.h>
+#include <peenux/math64.h>
+#include <peenux/fault-inject.h>
+#include <peenux/kmemleak.h>
+#include <peenux/stacktrace.h>
+#include <peenux/prefetch.h>
+#include <peenux/memcontrol.h>
+#include <peenux/random.h>
 #include <kunit/test.h>
 #include <kunit/test-bug.h>
-#include <linux/sort.h>
+#include <peenux/sort.h>
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 #include <trace/events/kmem.h>
 
 #include "internal.h"

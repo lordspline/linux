@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _LINUX_VHOST_H
 #define _LINUX_VHOST_H
 /* Userspace interface for in-kernel virtio accelerators. */
@@ -11,9 +11,9 @@
  * device configuration.
  */
 
-#include <linux/vhost_types.h>
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <peenux/vhost_types.h>
+#include <peenux/types.h>
+#include <peenux/ioctl.h>
 
 #define VHOST_FILE_UNBIND -1
 

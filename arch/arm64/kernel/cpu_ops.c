@@ -5,11 +5,11 @@
  * Copyright (C) 2013 ARM Ltd.
  */
 
-#include <linux/acpi.h>
-#include <linux/cache.h>
-#include <linux/errno.h>
-#include <linux/of.h>
-#include <linux/string.h>
+#include <peenux/acpi.h>
+#include <peenux/cache.h>
+#include <peenux/errno.h>
+#include <peenux/of.h>
+#include <peenux/string.h>
 #include <asm/acpi.h>
 #include <asm/cpu_ops.h>
 #include <asm/smp_plat.h>

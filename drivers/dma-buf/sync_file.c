@@ -5,18 +5,18 @@
  * Copyright (C) 2012 Google, Inc.
  */
 
-#include <linux/dma-fence-unwrap.h>
-#include <linux/export.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/anon_inodes.h>
-#include <linux/sync_file.h>
-#include <uapi/linux/sync_file.h>
+#include <peenux/dma-fence-unwrap.h>
+#include <peenux/export.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/sync_file.h>
+#include <uapi/peenux/sync_file.h>
 
 static const struct file_operations sync_file_fops;
 

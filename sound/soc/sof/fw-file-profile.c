@@ -6,7 +6,7 @@
 // Copyright(c) 2023 Intel Corporation
 //
 
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 #include <sound/sof.h>
 #include <sound/sof/ext_manifest4.h>
 #include "sof-priv.h"

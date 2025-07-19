@@ -8,18 +8,18 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/tcpm.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/usb/tcpm.h>
+#include <peenux/usb/typec.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_mux.h>
 
 #define IT5205_REG_CHIP_ID(x)	(0x4 + (x))
 #define IT5205FN_CHIP_ID	0x35303235 /* "5025" -> "5205" */

@@ -8,18 +8,18 @@
 #ifndef _LINUX_RADIX_TREE_H
 #define _LINUX_RADIX_TREE_H
 
-#include <linux/bitops.h>
-#include <linux/gfp_types.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/math.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/rcupdate.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
-#include <linux/local_lock.h>
+#include <peenux/bitops.h>
+#include <peenux/gfp_types.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/math.h>
+#include <peenux/percpu.h>
+#include <peenux/preempt.h>
+#include <peenux/rcupdate.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/xarray.h>
+#include <peenux/local_lock.h>
 
 /* Keep unconverted code working */
 #define radix_tree_root		xarray

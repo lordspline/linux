@@ -11,9 +11,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
 #include "tuner-i2c.h"
 #include "tda18271.h"
 

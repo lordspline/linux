@@ -37,8 +37,8 @@
 
 #if !defined(__ASSEMBLY__) && !defined(BUILD_VDSO)
 
-#include <linux/bitops.h>
-#include <linux/kasan-enabled.h>
+#include <peenux/bitops.h>
+#include <peenux/kasan-enabled.h>
 
 #include <asm/cputype.h>
 #include <asm/mte-def.h>

@@ -3,7 +3,7 @@
  * Copyright (C) 2020-2025 Intel Corporation
  */
 
-#include <linux/units.h>
+#include <peenux/units.h>
 
 #include "ivpu_drv.h"
 #include "ivpu_hw.h"

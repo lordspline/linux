@@ -5,15 +5,15 @@
  * Copyright 2021 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/units.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* ADMV4420 Register Map */
 #define ADMV4420_SPI_CONFIG_1			0x00

@@ -3,7 +3,7 @@
 #ifndef __LINUX_USB_ROLE_H
 #define __LINUX_USB_ROLE_H
 
-#include <linux/device.h>
+#include <peenux/device.h>
 
 struct usb_role_switch;
 

@@ -6,12 +6,12 @@
  * Copyright (C) 2024 Chen Wang <unicorn_wang@outlook.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
 #include <asm/div64.h>
 
 #include <dt-bindings/clock/sophgo,sg2042-clkgen.h>

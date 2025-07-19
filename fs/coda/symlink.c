@@ -2,21 +2,21 @@
 /*
  * Symlink inode operations for Coda filesystem
  * Original version: (C) 1996 P. Braam and M. Callahan
- * Rewritten for Linux 2.1. (C) 1997 Carnegie Mellon University
+ * Rewritten for Peenux 2.1. (C) 1997 Carnegie Mellon University
  * 
  * Carnegie Mellon encourages users to contribute improvements to
  * the Coda project. Contact Peter Braam (coda@cs.cmu.edu).
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/pagemap.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/time.h>
+#include <peenux/fs.h>
+#include <peenux/stat.h>
+#include <peenux/errno.h>
+#include <peenux/pagemap.h>
 
-#include <linux/coda.h>
+#include <peenux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 

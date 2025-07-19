@@ -7,12 +7,12 @@
 #ifndef SPI_PXA2XX_H
 #define SPI_PXA2XX_H
 
-#include <linux/dmaengine.h>
-#include <linux/irqreturn.h>
-#include <linux/types.h>
-#include <linux/sizes.h>
+#include <peenux/dmaengine.h>
+#include <peenux/irqreturn.h>
+#include <peenux/types.h>
+#include <peenux/sizes.h>
 
-#include <linux/pxa2xx_ssp.h>
+#include <peenux/pxa2xx_ssp.h>
 
 struct device;
 struct gpio_desc;

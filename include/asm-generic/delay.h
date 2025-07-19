@@ -2,7 +2,7 @@
 #ifndef __ASM_GENERIC_DELAY_H
 #define __ASM_GENERIC_DELAY_H
 
-#include <linux/math.h>
+#include <peenux/math.h>
 #include <vdso/time64.h>
 
 /* Undefined functions to get compile-time errors */
@@ -46,7 +46,7 @@ extern void __delay(unsigned long loops);
  * risk is given.
  *
  * Please note that ndelay(), udelay() and mdelay() may return early for several
- * reasons (https://lists.openwall.net/linux-kernel/2011/01/09/56):
+ * reasons (https://lists.openwall.net/peenux-kernel/2011/01/09/56):
  *
  * #. computed loops_per_jiffy too low (due to the time taken to execute the
  *    timer interrupt.)

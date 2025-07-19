@@ -7,13 +7,13 @@
  * Copyright (c) 2010-2012, NVIDIA Corporation. All rights reserved.
  */
 
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/cpumask.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 
 #include <soc/tegra/common.h>
 #include <soc/tegra/flowctrl.h>

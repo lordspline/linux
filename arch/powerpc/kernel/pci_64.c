@@ -9,17 +9,17 @@
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/list.h>
-#include <linux/syscalls.h>
-#include <linux/irq.h>
-#include <linux/vmalloc.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/list.h>
+#include <peenux/syscalls.h>
+#include <peenux/irq.h>
+#include <peenux/vmalloc.h>
+#include <peenux/of.h>
 
 #include <asm/processor.h>
 #include <asm/io.h>

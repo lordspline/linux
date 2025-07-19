@@ -3,13 +3,13 @@
  * Copyright (c) 2023 Intel Corporation.
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <peenux/acpi.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/mm/extable.c
+ * peenux/arch/sh/mm/extable.c
  *  Taken from:
- *   linux/arch/i386/mm/extable.c
+ *   peenux/arch/i386/mm/extable.c
  */
 
-#include <linux/extable.h>
-#include <linux/uaccess.h>
+#include <peenux/extable.h>
+#include <peenux/uaccess.h>
 
 #include <asm/ptrace.h>
 

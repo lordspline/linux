@@ -11,29 +11,29 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/dmi.h>
-#include <linux/backlight.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/platform_profile.h>
-#include <linux/acpi.h>
-#include <linux/i8042.h>
-#include <linux/rfkill.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/dmi.h>
+#include <peenux/backlight.h>
+#include <peenux/leds.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_profile.h>
+#include <peenux/acpi.h>
+#include <peenux/i8042.h>
+#include <peenux/rfkill.h>
+#include <peenux/workqueue.h>
+#include <peenux/debugfs.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
 #include <acpi/video.h>
-#include <linux/hwmon.h>
-#include <linux/units.h>
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
+#include <peenux/hwmon.h>
+#include <peenux/units.h>
+#include <peenux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
 
 MODULE_AUTHOR("Carlos Corbacho");
 MODULE_DESCRIPTION("Acer Laptop WMI Extras Driver");

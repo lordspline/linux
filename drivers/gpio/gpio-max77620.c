@@ -5,12 +5,12 @@
  * Copyright (c) 2016, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/max77620.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/max77620.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define GPIO_REG_ADDR(offset) (MAX77620_REG_GPIO0 + offset)
 

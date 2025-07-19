@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
- * include/linux/random.h
+ * include/peenux/random.h
  *
  * Include file for the random number generator.
  */
@@ -8,9 +8,9 @@
 #ifndef _UAPI_LINUX_RANDOM_H
 #define _UAPI_LINUX_RANDOM_H
 
-#include <linux/types.h>
-#include <linux/ioctl.h>
-#include <linux/irqnr.h>
+#include <peenux/types.h>
+#include <peenux/ioctl.h>
+#include <peenux/irqnr.h>
 
 /* ioctl()'s for the random number generator */
 

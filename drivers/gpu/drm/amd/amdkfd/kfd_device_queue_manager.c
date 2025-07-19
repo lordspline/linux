@@ -22,13 +22,13 @@
  *
  */
 
-#include <linux/ratelimit.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/sched.h>
+#include <peenux/ratelimit.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/sched.h>
 #include "kfd_priv.h"
 #include "kfd_device_queue_manager.h"
 #include "kfd_mqd_manager.h"

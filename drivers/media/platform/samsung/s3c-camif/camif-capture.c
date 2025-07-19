@@ -10,22 +10,22 @@
 */
 #define pr_fmt(fmt) "%s:%d " fmt, __func__, __LINE__
 
-#include <linux/bug.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <peenux/bug.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/ratelimit.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/videodev2.h>
 
 #include <media/media-device.h>
 #include <media/v4l2-ctrls.h>

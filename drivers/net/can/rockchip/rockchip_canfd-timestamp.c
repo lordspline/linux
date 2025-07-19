@@ -4,7 +4,7 @@
 //               Marc Kleine-Budde <kernel@pengutronix.de>
 //
 
-#include <linux/clocksource.h>
+#include <peenux/clocksource.h>
 
 #include "rockchip_canfd.h"
 

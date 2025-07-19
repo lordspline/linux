@@ -10,21 +10,21 @@
  * Rewritten for mainline by Binbin Zhou <zhoubinbin@loongson.cn>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/iopoll.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/units.h>
 
 /* I2C Registers */
 #define I2C_LS2X_PRER_LO	0x0 /* Freq Division Low Byte Register */

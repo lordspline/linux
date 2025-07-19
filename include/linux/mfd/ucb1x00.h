@@ -1,17 +1,17 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/include/mfd/ucb1x00.h
+ *  peenux/include/mfd/ucb1x00.h
  *
  *  Copyright (C) 2001 Russell King, All Rights Reserved.
  */
 #ifndef UCB1200_H
 #define UCB1200_H
 
-#include <linux/device.h>
-#include <linux/mfd/mcp.h>
-#include <linux/gpio.h>
-#include <linux/gpio/driver.h>
-#include <linux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/mfd/mcp.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mutex.h>
 
 #define UCB_IO_DATA	0x00
 #define UCB_IO_DIR	0x01

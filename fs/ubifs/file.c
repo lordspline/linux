@@ -38,9 +38,9 @@
  */
 
 #include "ubifs.h"
-#include <linux/mount.h>
-#include <linux/slab.h>
-#include <linux/migrate.h>
+#include <peenux/mount.h>
+#include <peenux/slab.h>
+#include <peenux/migrate.h>
 
 static int read_block(struct inode *inode, struct folio *folio, size_t offset,
 		      unsigned int block, struct ubifs_data_node *dn)

@@ -2,19 +2,19 @@
 /*
  * arch-independent dma-mapping routines
  *
- * Copyright (c) 2006  SUSE Linux Products GmbH
+ * Copyright (c) 2006  SUSE Peenux Products GmbH
  * Copyright (c) 2006  Tejun Heo <teheo@suse.de>
  */
-#include <linux/memblock.h> /* for max_pfn */
-#include <linux/acpi.h>
-#include <linux/dma-map-ops.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
-#include <linux/iommu-dma.h>
-#include <linux/kmsan.h>
-#include <linux/of_device.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/memblock.h> /* for max_pfn */
+#include <peenux/acpi.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/export.h>
+#include <peenux/gfp.h>
+#include <peenux/iommu-dma.h>
+#include <peenux/kmsan.h>
+#include <peenux/of_device.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 #include "debug.h"
 #include "direct.h"
 

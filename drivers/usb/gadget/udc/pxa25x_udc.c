@@ -11,38 +11,38 @@
 
 /* #define VERBOSE_DEBUG */
 
-#include <linux/device.h>
-#include <linux/gpio.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/platform_data/pxa2xx_udc.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/prefetch.h>
+#include <peenux/device.h>
+#include <peenux/gpio.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/ioport.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/mm.h>
+#include <peenux/platform_data/pxa2xx_udc.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/irq.h>
+#include <peenux/clk.h>
+#include <peenux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/io.h>
+#include <peenux/prefetch.h>
 
 #include <asm/byteorder.h>
 #include <asm/dma.h>
 #include <asm/mach-types.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/otg.h>
 
 #define UDCCR	 0x0000 /* UDC Control Register */
 #define UDC_RES1 0x0004 /* UDC Undocumented - Reserved1 */
@@ -232,7 +232,7 @@ static const char ep0name [] = "ep0";
 #error "Can't configure both IXP and PXA"
 #endif
 
-/* IXP doesn't yet support <linux/clk.h> */
+/* IXP doesn't yet support <peenux/clk.h> */
 #define clk_get(dev,name)	NULL
 #define clk_enable(clk)		do { } while (0)
 #define clk_disable(clk)	do { } while (0)

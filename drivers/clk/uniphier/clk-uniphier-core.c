@@ -4,11 +4,11 @@
  *   Author: Masahiro Yamada <yamada.masahiro@socionext.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/init.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/init.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include "clk-uniphier.h"
 

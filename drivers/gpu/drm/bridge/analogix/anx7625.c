@@ -3,22 +3,22 @@
  * Copyright(c) 2020, Analogix Semiconductor. All rights reserved.
  *
  */
-#include <linux/gcd.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/gcd.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
+#include <peenux/of_graph.h>
+#include <peenux/of_platform.h>
 
 #include <drm/display/drm_dp_aux_bus.h>
 #include <drm/display/drm_dp_helper.h>

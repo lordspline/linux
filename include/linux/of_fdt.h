@@ -9,9 +9,9 @@
 #ifndef _LINUX_OF_FDT_H
 #define _LINUX_OF_FDT_H
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/errno.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
 
 /* Definitions used by the flattened device tree */
 #define OF_DT_HEADER		0xd00dfeed	/* marker */

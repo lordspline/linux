@@ -4,9 +4,9 @@
  * Copyright (C) 2018 Marvell.
  *
  */
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "rvu_struct.h"
 #include "rvu_reg.h"

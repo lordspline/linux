@@ -9,14 +9,14 @@
  * Copyright 2012 Free Electrons
  */
 
-#include <linux/backlight.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/backlight.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/property.h>
+#include <peenux/pwm.h>
+#include <peenux/regulator/consumer.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

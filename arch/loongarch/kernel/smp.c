@@ -8,23 +8,23 @@
  * Copyright (C) 2000, 2001 Silicon Graphics, Inc.
  * Copyright (C) 2000, 2001, 2003 Broadcom Corporation
  */
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq_work.h>
-#include <linux/profile.h>
-#include <linux/seq_file.h>
-#include <linux/smp.h>
-#include <linux/threads.h>
-#include <linux/export.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/time.h>
-#include <linux/tracepoint.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/acpi.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq_work.h>
+#include <peenux/profile.h>
+#include <peenux/seq_file.h>
+#include <peenux/smp.h>
+#include <peenux/threads.h>
+#include <peenux/export.h>
+#include <peenux/suspend.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/time.h>
+#include <peenux/tracepoint.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/cpu.h>
 #include <asm/idle.h>

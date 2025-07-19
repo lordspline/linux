@@ -3,18 +3,18 @@
  * Copyright (C) 2005-2006 Micronas USA Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/i2c.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/initval.h>

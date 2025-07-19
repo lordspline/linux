@@ -5,10 +5,10 @@
 #ifndef _LINUX_USB_LJCA_H_
 #define _LINUX_USB_LJCA_H_
 
-#include <linux/auxiliary_bus.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #define LJCA_MAX_GPIO_NUM 64
 

@@ -1,12 +1,12 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* 
- * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  */
 
 #ifndef __ARCH_UM_MMU_H
 #define __ARCH_UM_MMU_H
 
-#include "linux/types.h"
+#include "peenux/types.h"
 #include <mm_id.h>
 
 typedef struct mm_context {

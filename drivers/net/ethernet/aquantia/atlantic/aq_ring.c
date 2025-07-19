@@ -15,10 +15,10 @@
 #include "aq_main.h"
 
 #include <net/xdp.h>
-#include <linux/filter.h>
-#include <linux/bpf_trace.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <peenux/filter.h>
+#include <peenux/bpf_trace.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
 
 static void aq_get_rxpages_xdp(struct aq_ring_buff_s *buff,
 			       struct xdp_buff *xdp)

@@ -9,14 +9,14 @@
  * Copyright (C) 2001 MIPS Technologies, Inc.
  * Copyright (C) 2007 by Thomas Bogendoerfer
  */
-#include <linux/eisa.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/console.h>
-#include <linux/platform_device.h>
-#include <linux/serial_8250.h>
-#include <linux/dma-mapping.h>
-#include <linux/pgtable.h>
+#include <peenux/eisa.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/console.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial_8250.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pgtable.h>
 
 #include <asm/jazz.h>
 #include <asm/jazzdma.h>

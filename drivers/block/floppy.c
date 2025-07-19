@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/block/floppy.c
+ *  peenux/drivers/block/floppy.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *  Copyright (C) 1993, 1994  Alain Knaff
@@ -163,35 +163,35 @@
 
 /* do print messages for unexpected interrupts */
 static int print_unex = 1;
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
-#include <linux/fdreg.h>
-#include <linux/fd.h>
-#include <linux/hdreg.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/bio.h>
-#include <linux/string.h>
-#include <linux/jiffies.h>
-#include <linux/fcntl.h>
-#include <linux/delay.h>
-#include <linux/mc146818rtc.h>	/* CMOS defines */
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/major.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/async.h>
-#include <linux/compat.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
+#include <peenux/fdreg.h>
+#include <peenux/fd.h>
+#include <peenux/hdreg.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/bio.h>
+#include <peenux/string.h>
+#include <peenux/jiffies.h>
+#include <peenux/fcntl.h>
+#include <peenux/delay.h>
+#include <peenux/mc146818rtc.h>	/* CMOS defines */
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/major.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/async.h>
+#include <peenux/compat.h>
 
 /*
  * PS/2 floppies have much slower step rates than regular floppies.
@@ -251,10 +251,10 @@ static int allowed_drive_mask = 0x33;
 
 static int irqdma_allocated;
 
-#include <linux/blk-mq.h>
-#include <linux/blkpg.h>
-#include <linux/cdrom.h>	/* for the compatibility eject ioctl */
-#include <linux/completion.h>
+#include <peenux/blk-mq.h>
+#include <peenux/blkpg.h>
+#include <peenux/cdrom.h>	/* for the compatibility eject ioctl */
+#include <peenux/completion.h>
 
 static LIST_HEAD(floppy_reqs);
 static struct request *current_req;

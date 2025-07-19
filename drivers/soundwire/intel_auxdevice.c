@@ -5,19 +5,19 @@
  * Soundwire Intel Manager Driver
  */
 
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/auxiliary_bus.h>
+#include <peenux/acpi.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/auxiliary_bus.h>
 #include <sound/pcm_params.h>
-#include <linux/pm_runtime.h>
+#include <peenux/pm_runtime.h>
 #include <sound/soc.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_intel.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_intel.h>
 #include "cadence_master.h"
 #include "bus.h"
 #include "intel.h"
@@ -528,7 +528,7 @@ int intel_link_process_wakeen_event(struct auxiliary_device *auxdev)
 	 * resume the Master, which will generate a bus reset and result in
 	 * Slaves re-attaching and be re-enumerated. The SoundWire physical
 	 * device which generated the wake will trigger an interrupt, which
-	 * will in turn cause the corresponding Linux Slave device to be
+	 * will in turn cause the corresponding Peenux Slave device to be
 	 * resumed and the Slave codec driver to check the status.
 	 */
 	pm_request_resume(dev);

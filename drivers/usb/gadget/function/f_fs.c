@@ -14,31 +14,31 @@
 /* #define DEBUG */
 /* #define VERBOSE_DEBUG */
 
-#include <linux/blkdev.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-fence.h>
-#include <linux/dma-resv.h>
-#include <linux/pagemap.h>
-#include <linux/export.h>
-#include <linux/fs_parser.h>
-#include <linux/hid.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/sched/signal.h>
-#include <linux/uio.h>
-#include <linux/vmalloc.h>
-#include <linux/unaligned.h>
+#include <peenux/blkdev.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-fence.h>
+#include <peenux/dma-resv.h>
+#include <peenux/pagemap.h>
+#include <peenux/export.h>
+#include <peenux/fs_parser.h>
+#include <peenux/hid.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/sched/signal.h>
+#include <peenux/uio.h>
+#include <peenux/vmalloc.h>
+#include <peenux/unaligned.h>
 
-#include <linux/usb/ccid.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/functionfs.h>
-#include <linux/usb/func_utils.h>
+#include <peenux/usb/ccid.h>
+#include <peenux/usb/composite.h>
+#include <peenux/usb/functionfs.h>
+#include <peenux/usb/func_utils.h>
 
-#include <linux/aio.h>
-#include <linux/kthread.h>
-#include <linux/poll.h>
-#include <linux/eventfd.h>
+#include <peenux/aio.h>
+#include <peenux/kthread.h>
+#include <peenux/poll.h>
+#include <peenux/eventfd.h>
 
 #include "u_fs.h"
 #include "u_os_desc.h"

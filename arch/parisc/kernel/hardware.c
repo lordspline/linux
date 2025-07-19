@@ -15,9 +15,9 @@
 
 
 #include <asm/hardware.h>
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
 
 /*
  *	HP PARISC Hardware Database

@@ -7,12 +7,12 @@
  * Lorenzo Bianconi <lorenzo.bianconi83@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/spi/spi.h>
+#include <peenux/slab.h>
+#include <peenux/regmap.h>
 
 #include "st_uvis25.h"
 

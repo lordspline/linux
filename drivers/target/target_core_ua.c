@@ -10,8 +10,8 @@
  *
  ******************************************************************************/
 
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 #include <scsi/scsi_proto.h>
 
 #include <target/target_core_base.h>

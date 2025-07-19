@@ -8,15 +8,15 @@
  */
 #define pr_fmt(fmt) "iommufd: " fmt
 
-#include <linux/bug.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/iommufd.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <uapi/linux/iommufd.h>
+#include <peenux/bug.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/iommufd.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <uapi/peenux/iommufd.h>
 
 #include "io_pagetable.h"
 #include "iommufd_private.h"

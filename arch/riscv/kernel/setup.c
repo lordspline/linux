@@ -8,19 +8,19 @@
  *  Nick Kossifidis <mick@ics.forth.gr>
  */
 
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/sched.h>
-#include <linux/console.h>
-#include <linux/of_fdt.h>
-#include <linux/sched/task.h>
-#include <linux/smp.h>
-#include <linux/efi.h>
-#include <linux/crash_dump.h>
-#include <linux/panic_notifier.h>
+#include <peenux/acpi.h>
+#include <peenux/cpu.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/sched.h>
+#include <peenux/console.h>
+#include <peenux/of_fdt.h>
+#include <peenux/sched/task.h>
+#include <peenux/smp.h>
+#include <peenux/efi.h>
+#include <peenux/crash_dump.h>
+#include <peenux/panic_notifier.h>
 
 #include <asm/acpi.h>
 #include <asm/alternative.h>

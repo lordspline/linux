@@ -6,13 +6,13 @@
  *
  * PCI manipulation via device_nodes.
  */
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/gfp.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/gfp.h>
+#include <peenux/of.h>
 
 #include <asm/io.h>
 #include <asm/pci-bridge.h>

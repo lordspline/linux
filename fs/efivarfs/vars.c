@@ -6,19 +6,19 @@
  * Copyright (C) 2004 Intel Corporation <matthew.e.tolentino@intel.com>
  */
 
-#include <linux/capability.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/smp.h>
-#include <linux/efi.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/ucs2_string.h>
+#include <peenux/capability.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/smp.h>
+#include <peenux/efi.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/ucs2_string.h>
 
 #include "internal.h"
 

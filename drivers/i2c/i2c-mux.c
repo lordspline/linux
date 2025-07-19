@@ -1,7 +1,7 @@
 /*
  * Multiplexed I2C bus driver.
  *
- * Copyright (c) 2008-2009 Rodolfo Giometti <giometti@linux.it>
+ * Copyright (c) 2008-2009 Rodolfo Giometti <giometti@peenux.it>
  * Copyright (c) 2008-2009 Eurotech S.p.A. <info@eurotech.it>
  * Copyright (c) 2009-2010 NSN GmbH & Co KG <michael.lawnick.ext@nsn.com>
  *
@@ -19,14 +19,14 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/acpi.h>
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <peenux/acpi.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
 
 /* multiplexer per channel data */
 struct i2c_mux_priv {
@@ -439,6 +439,6 @@ void i2c_mux_del_adapters(struct i2c_mux_core *muxc)
 }
 EXPORT_SYMBOL_GPL(i2c_mux_del_adapters);
 
-MODULE_AUTHOR("Rodolfo Giometti <giometti@linux.it>");
+MODULE_AUTHOR("Rodolfo Giometti <giometti@peenux.it>");
 MODULE_DESCRIPTION("I2C driver for multiplexed I2C busses");
 MODULE_LICENSE("GPL v2");

@@ -31,21 +31,21 @@
  */
 #define dev_fmt(fmt) "iio-backend: " fmt
 
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/stringify.h>
-#include <linux/types.h>
+#include <peenux/cleanup.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/stringify.h>
+#include <peenux/types.h>
 
-#include <linux/iio/backend.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/iio.h>
 
 struct iio_backend {
 	struct list_head entry;

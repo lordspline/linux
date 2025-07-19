@@ -6,15 +6,15 @@
  *
  * Copyright (C) 2002 - 2009 Paul Mundt
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
 
 #include <asm/cacheflush.h>
 #include <asm/tlbflush.h>
 #include <asm/page.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /*
  * Nothing too terribly exciting here ..

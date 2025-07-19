@@ -20,11 +20,11 @@
  * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  */
-#include <linux/types.h>
-#include <linux/hmm.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/migrate.h>
+#include <peenux/types.h>
+#include <peenux/hmm.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/migrate.h>
 #include "amdgpu_sync.h"
 #include "amdgpu_object.h"
 #include "amdgpu_vm.h"

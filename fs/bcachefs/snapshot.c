@@ -14,7 +14,7 @@
 #include "recovery_passes.h"
 #include "snapshot.h"
 
-#include <linux/random.h>
+#include <peenux/random.h>
 
 /*
  * Snapshot trees:

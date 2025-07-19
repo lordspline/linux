@@ -5,14 +5,14 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+// Author: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
 //
 
 /*
  * Hardware interface for audio DSP on Baytrail, Braswell and Cherrytrail.
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <sound/sof.h>
 #include <sound/sof/xtensa.h>
 #include <sound/soc-acpi.h>

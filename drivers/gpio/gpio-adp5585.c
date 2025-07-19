@@ -6,13 +6,13 @@
  * Copyright 2024 Ideas on Board Oy
  */
 
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/mfd/adp5585.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mfd/adp5585.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 #define ADP5585_GPIO_MAX	11
 

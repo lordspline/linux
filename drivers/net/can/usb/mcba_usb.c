@@ -6,16 +6,16 @@
  * This driver is inspired by the 4.6.2 version of net/can/usb/usb_8dev.c
  */
 
-#include <linux/unaligned.h>
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <peenux/unaligned.h>
+#include <peenux/can.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
+#include <peenux/ethtool.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/signal.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
 
 /* vendor and product id */
 #define MCBA_MODULE_NAME "mcba_usb"

@@ -5,8 +5,8 @@
 #include <asm-generic/pgtable-nopmd.h>
 
 #ifndef __ASSEMBLY__
-#include <linux/sched.h>
-#include <linux/threads.h>
+#include <peenux/sched.h>
+#include <peenux/threads.h>
 #include <asm/mmu.h>			/* For sub-arch specific PPC_PIN_SIZE */
 
 #endif /* __ASSEMBLY__ */
@@ -114,7 +114,7 @@
 #endif
 
 /*
- * Bits in a linux-style PTE.  These match the bits in the
+ * Bits in a peenux-style PTE.  These match the bits in the
  * (hardware-defined) PowerPC PTE as closely as possible.
  */
 

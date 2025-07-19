@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/platform_device.h>
+#include <peenux/platform_device.h>
 
 void *rust_helper_platform_get_drvdata(const struct platform_device *pdev)
 {

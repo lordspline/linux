@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitops.h>
-#include <linux/math.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <peenux/bitops.h>
+#include <peenux/math.h>
+#include <peenux/string.h>
+#include <peenux/unaligned.h>
 
 #ifdef CONFIG_VALGRIND
 #include <valgrind/memcheck.h>

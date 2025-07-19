@@ -6,13 +6,13 @@
  * to control the PIN resources on SCU domain.
  */
 
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/firmware/imx/svc/rm.h>
+#include <peenux/cleanup.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/platform_device.h>
+#include <peenux/firmware/imx/svc/rm.h>
 #include <dt-bindings/firmware/imx/rsrc.h>
 
 struct scu_gpio_priv {

@@ -11,9 +11,9 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/dio.h>
-#include <linux/stat.h>
+#include <peenux/kernel.h>
+#include <peenux/dio.h>
+#include <peenux/stat.h>
 
 /* show configuration fields */
 

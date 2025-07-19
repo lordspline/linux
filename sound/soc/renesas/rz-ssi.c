@@ -6,13 +6,13 @@
 // Copyright (C) 2019 Chris Brandt.
 //
 
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/dmaengine.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
 #include <sound/soc.h>
 
 /* REGISTER OFFSET */

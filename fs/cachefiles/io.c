@@ -5,13 +5,13 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/mount.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/uio.h>
-#include <linux/bio.h>
-#include <linux/falloc.h>
-#include <linux/sched/mm.h>
+#include <peenux/mount.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/uio.h>
+#include <peenux/bio.h>
+#include <peenux/falloc.h>
+#include <peenux/sched/mm.h>
 #include <trace/events/fscache.h>
 #include <trace/events/netfs.h>
 #include "internal.h"

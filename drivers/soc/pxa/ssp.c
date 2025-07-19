@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-pxa/ssp.c
+ *  peenux/arch/arm/mach-pxa/ssp.c
  *
- *  based on linux/arch/arm/mach-sa1100/ssp.c by Russell King
+ *  based on peenux/arch/arm/mach-sa1100/ssp.c by Russell King
  *
  *  Copyright (C) 2003 Russell King.
  *  Copyright (C) 2003 Wolfson Microelectronics PLC
@@ -13,22 +13,22 @@
  *  Author: Liam Girdwood <liam.girdwood@wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/pxa2xx_ssp.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/pxa2xx_ssp.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
 
 #include <asm/irq.h>
 

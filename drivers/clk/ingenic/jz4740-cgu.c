@@ -6,10 +6,10 @@
  * Author: Paul Burton <paul.burton@mips.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
 
 #include <dt-bindings/clock/ingenic,jz4740-cgu.h>
 

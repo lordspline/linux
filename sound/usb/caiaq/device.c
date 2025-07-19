@@ -6,13 +6,13 @@
  *                      Karsten Wiese <fzu@wemgehoertderstaat.de>
 */
 
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/gfp.h>
-#include <linux/usb.h>
+#include <peenux/moduleparam.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/gfp.h>
+#include <peenux/usb.h>
 #include <sound/initval.h>
 #include <sound/core.h>
 #include <sound/pcm.h>

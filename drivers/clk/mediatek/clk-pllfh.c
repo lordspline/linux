@@ -4,12 +4,12 @@
  * Author: Edward-JW Yang <edward-jw.yang@mediatek.com>
  */
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/clkdev.h>
-#include <linux/delay.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/clkdev.h>
+#include <peenux/delay.h>
 
 #include "clk-mtk.h"
 #include "clk-pllfh.h"

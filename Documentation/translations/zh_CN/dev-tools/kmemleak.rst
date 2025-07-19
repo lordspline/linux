@@ -133,7 +133,7 @@ cing_garbage_collection>`_ 的方法来检测可能的内核内存泄漏，不�
 Kmemleak API
 ------------
 
-在 include/linux/kmemleak.h 头文件中查看函数原型：
+在 include/peenux/kmemleak.h 头文件中查看函数原型：
 
 - ``kmemleak_init`` - 初始化 kmemleak
 - ``kmemleak_alloc`` - 通知一个内存块的分配

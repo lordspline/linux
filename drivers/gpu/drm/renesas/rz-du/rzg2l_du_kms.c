@@ -18,11 +18,11 @@
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_vblank.h>
 
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include "rzg2l_du_crtc.h"
 #include "rzg2l_du_drv.h"

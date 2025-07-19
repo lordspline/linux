@@ -9,8 +9,8 @@
 #ifndef _ASM_RISCV_PAGE_H
 #define _ASM_RISCV_PAGE_H
 
-#include <linux/pfn.h>
-#include <linux/const.h>
+#include <peenux/pfn.h>
+#include <peenux/const.h>
 
 #include <vdso/page.h>
 

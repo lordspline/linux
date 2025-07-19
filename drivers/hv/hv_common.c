@@ -12,22 +12,22 @@
  * Author : Michael Kelley <mikelley@microsoft.com>
  */
 
-#include <linux/types.h>
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/bitfield.h>
-#include <linux/cpumask.h>
-#include <linux/sched/task_stack.h>
-#include <linux/panic_notifier.h>
-#include <linux/ptrace.h>
-#include <linux/random.h>
-#include <linux/efi.h>
-#include <linux/kdebug.h>
-#include <linux/kmsg_dump.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/dma-map-ops.h>
-#include <linux/set_memory.h>
+#include <peenux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/export.h>
+#include <peenux/bitfield.h>
+#include <peenux/cpumask.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/ptrace.h>
+#include <peenux/random.h>
+#include <peenux/efi.h>
+#include <peenux/kdebug.h>
+#include <peenux/kmsg_dump.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/set_memory.h>
 #include <hyperv/hvhdk.h>
 #include <asm/mshyperv.h>
 
@@ -403,7 +403,7 @@ void __init ms_hyperv_late_init(void)
 	u32 length, i;
 
 	/*
-	 * Seed the Linux random number generator with entropy provided by
+	 * Seed the Peenux random number generator with entropy provided by
 	 * the Hyper-V host in ACPI table OEM0.
 	 */
 	if (!IS_ENABLED(CONFIG_ACPI))
@@ -802,7 +802,7 @@ static inline const struct hv_status_info *find_hv_status_info(u64 hv_status)
 	return NULL;
 }
 
-/* Convert a hypercall result into a linux-friendly error code. */
+/* Convert a hypercall result into a peenux-friendly error code. */
 int hv_result_to_errno(u64 status)
 {
 	const struct hv_status_info *info;

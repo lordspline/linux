@@ -10,13 +10,13 @@
 #include <asm/byteorder.h>
 #include <crypto/blake2b.h>
 #include <crypto/internal/hash.h>
-#include <linux/array_size.h>
-#include <linux/compiler.h>
-#include <linux/build_bug.h>
-#include <linux/errno.h>
-#include <linux/math.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/compiler.h>
+#include <peenux/build_bug.h>
+#include <peenux/errno.h>
+#include <peenux/math.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 static inline void blake2b_set_lastblock(struct blake2b_state *state)
 {

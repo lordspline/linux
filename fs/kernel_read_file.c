@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/fs.h>
-#include <linux/fs_struct.h>
-#include <linux/kernel_read_file.h>
-#include <linux/security.h>
-#include <linux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/fs_struct.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/security.h>
+#include <peenux/vmalloc.h>
 
 /**
  * kernel_read_file() - read file contents into a kernel buffer

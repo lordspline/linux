@@ -5,8 +5,8 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/export.h>
-#include <linux/security.h>
+#include <peenux/export.h>
+#include <peenux/security.h>
 #include "internal.h"
 
 /**

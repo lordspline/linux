@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/arm/mach-sa1100/neponset.c
+ * peenux/arch/arm/mach-sa1100/neponset.c
  */
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/gpio-reg.h>
-#include <linux/gpio/machine.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/smc91x.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/gpio-reg.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/smc91x.h>
 
 #include <asm/mach-types.h>
 #include <asm/mach/map.h>
 #include <asm/hardware/sa1111.h>
-#include <linux/sizes.h>
+#include <peenux/sizes.h>
 
 #include <mach/hardware.h>
 #include <mach/assabet.h>

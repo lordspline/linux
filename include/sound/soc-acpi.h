@@ -6,10 +6,10 @@
 #ifndef __LINUX_SND_SOC_ACPI_H
 #define __LINUX_SND_SOC_ACPI_H
 
-#include <linux/stddef.h>
-#include <linux/acpi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/soundwire/sdw.h>
+#include <peenux/stddef.h>
+#include <peenux/acpi.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/soundwire/sdw.h>
 #include <sound/soc.h>
 
 struct snd_soc_acpi_package_context {

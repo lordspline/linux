@@ -3,13 +3,13 @@
  * Copyright (c) 2016, Fuzhou Rockchip Electronics Co., Ltd
  */
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/reboot.h>
-#include <linux/reboot-mode.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/reboot.h>
+#include <peenux/reboot-mode.h>
 
 #define PREFIX "mode-"
 

@@ -6,7 +6,7 @@
 #ifndef _ASM_RISCV_CMPXCHG_H
 #define _ASM_RISCV_CMPXCHG_H
 
-#include <linux/bug.h>
+#include <peenux/bug.h>
 
 #include <asm/alternative-macros.h>
 #include <asm/fence.h>

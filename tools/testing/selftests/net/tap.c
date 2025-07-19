@@ -9,12 +9,12 @@
 #include <string.h>
 #include <unistd.h>
 #include <net/if.h>
-#include <linux/if_tun.h>
-#include <linux/netlink.h>
-#include <linux/rtnetlink.h>
+#include <peenux/if_tun.h>
+#include <peenux/netlink.h>
+#include <peenux/rtnetlink.h>
 #include <sys/ioctl.h>
 #include <sys/socket.h>
-#include <linux/virtio_net.h>
+#include <peenux/virtio_net.h>
 #include <netinet/ip.h>
 #include <netinet/udp.h>
 #include "../kselftest_harness.h"

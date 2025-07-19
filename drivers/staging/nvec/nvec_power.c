@@ -8,13 +8,13 @@
  *           Marc Dietrich <marvin24@gmx.de>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/power_supply.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/delay.h>
 
 #include "nvec.h"
 

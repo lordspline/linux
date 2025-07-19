@@ -7,20 +7,20 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME	": " fmt
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
 
 struct brcmstb_intc_init_params {
 	irq_flow_handler_t handler;

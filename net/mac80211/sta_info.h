@@ -9,15 +9,15 @@
 #ifndef STA_INFO_H
 #define STA_INFO_H
 
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/if_ether.h>
-#include <linux/workqueue.h>
-#include <linux/average.h>
-#include <linux/bitfield.h>
-#include <linux/etherdevice.h>
-#include <linux/rhashtable.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/if_ether.h>
+#include <peenux/workqueue.h>
+#include <peenux/average.h>
+#include <peenux/bitfield.h>
+#include <peenux/etherdevice.h>
+#include <peenux/rhashtable.h>
+#include <peenux/u64_stats_sync.h>
 #include "key.h"
 
 /**

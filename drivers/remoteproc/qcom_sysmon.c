@@ -2,16 +2,16 @@
 /*
  * Copyright (c) 2017, Linaro Ltd.
  */
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc/qcom_rproc.h>
-#include <linux/rpmsg.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/remoteproc/qcom_rproc.h>
+#include <peenux/rpmsg.h>
 
 #include "qcom_common.h"
 

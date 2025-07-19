@@ -9,7 +9,7 @@
 #include "io_write_types.h"
 #include "sb-members.h"
 
-#include <linux/hash.h>
+#include <peenux/hash.h>
 
 struct bkey;
 struct bch_dev;

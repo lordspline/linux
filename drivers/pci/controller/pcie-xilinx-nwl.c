@@ -6,22 +6,22 @@
  * (C) Copyright 2014 - 2015, Xilinx, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/irqchip/chained_irq.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/msi.h>
+#include <peenux/of_address.h>
+#include <peenux/of_pci.h>
+#include <peenux/of_platform.h>
+#include <peenux/pci.h>
+#include <peenux/pci-ecam.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/irqchip/chained_irq.h>
 
 #include "../pci.h"
 

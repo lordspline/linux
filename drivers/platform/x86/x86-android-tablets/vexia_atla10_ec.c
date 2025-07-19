@@ -11,14 +11,14 @@
  * Copyright (c) 2024 Hans de Goede <hansg@kernel.org>
  */
 
-#include <linux/bits.h>
-#include <linux/devm-helpers.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/bits.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/power_supply.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #include <asm/byteorder.h>
 

@@ -13,11 +13,11 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <net/rsi_91x.h>
 
 #define RSI_DMA_ALIGN	8

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Linux Security Module infrastructure tests
+ * Peenux Security Module infrastructure tests
  * Tests for the lsm_get_self_attr system call
  *
  * Copyright © 2022 Casey Schaufler <casey@schaufler-ca.com>
  */
 
 #define _GNU_SOURCE
-#include <linux/lsm.h>
+#include <peenux/lsm.h>
 #include <fcntl.h>
 #include <string.h>
 #include <stdio.h>

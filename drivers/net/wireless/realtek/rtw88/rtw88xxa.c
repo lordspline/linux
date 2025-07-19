@@ -2,7 +2,7 @@
 /* Copyright(c) 2024  Realtek Corporation
  */
 
-#include <linux/usb.h>
+#include <peenux/usb.h>
 #include "main.h"
 #include "coex.h"
 #include "phy.h"

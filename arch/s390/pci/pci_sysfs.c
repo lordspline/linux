@@ -3,15 +3,15 @@
  * Copyright IBM Corp. 2012
  *
  * Author(s):
- *   Jan Glauber <jang@linux.vnet.ibm.com>
+ *   Jan Glauber <jang@peenux.vnet.ibm.com>
  */
 
 #define KMSG_COMPONENT "zpci"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/stat.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/stat.h>
+#include <peenux/pci.h>
 
 #include "../../../drivers/pci/pci.h"
 

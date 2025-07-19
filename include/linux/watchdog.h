@@ -10,12 +10,12 @@
 #define _LINUX_WATCHDOG_H
 
 
-#include <linux/bitops.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/notifier.h>
-#include <uapi/linux/watchdog.h>
+#include <peenux/bitops.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/notifier.h>
+#include <uapi/peenux/watchdog.h>
 
 struct watchdog_ops;
 struct watchdog_device;

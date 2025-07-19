@@ -10,13 +10,13 @@
  * Copyright (C) 2020 Daniel W. S. Almeida
  */
 
-#include <linux/dev_printk.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/time.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/dev_printk.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 #include <media/dvbdev.h>
 #include <media/media-device.h>
 

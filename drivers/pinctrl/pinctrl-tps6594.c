@@ -5,14 +5,14 @@
  * Copyright (C) 2023 BayLibre Incorporated - https://www.baylibre.com/
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/gpio/regmap.h>
-#include <linux/module.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/regmap.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
 
-#include <linux/mfd/tps6594.h>
+#include <peenux/mfd/tps6594.h>
 
 #define TPS6594_PINCTRL_GPIO_FUNCTION 0
 #define TPS6594_PINCTRL_SCL_I2C2_CS_SPI_FUNCTION 1

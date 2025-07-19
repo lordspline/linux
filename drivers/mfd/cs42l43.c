@@ -6,24 +6,24 @@
  *                         Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/array_size.h>
-#include <linux/bitops.h>
-#include <linux/build_bug.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/jiffies.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/cs42l43.h>
-#include <linux/mfd/cs42l43-regs.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bitops.h>
+#include <peenux/build_bug.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/jiffies.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/cs42l43.h>
+#include <peenux/mfd/cs42l43-regs.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/types.h>
 
 #include "cs42l43.h"
 

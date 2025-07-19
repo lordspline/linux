@@ -8,25 +8,25 @@
  * for more details.
  */
 
-#include <linux/atomic.h>
-#include <linux/backlight.h>
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/ctype.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/fbcon.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
+#include <peenux/atomic.h>
+#include <peenux/backlight.h>
+#include <peenux/clk.h>
+#include <peenux/console.h>
+#include <peenux/ctype.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/fbcon.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioctl.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
+#include <peenux/vmalloc.h>
 
 #include <video/sh_mobile_lcdc.h>
 

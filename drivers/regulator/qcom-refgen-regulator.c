@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
-// Copyright (c) 2017, 2019-2020, The Linux Foundation. All rights reserved.
+// Copyright (c) 2017, 2019-2020, The Peenux Foundation. All rights reserved.
 // Copyright (c) 2023, Linaro Limited
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
 
 #define REFGEN_REG_BIAS_EN		0x08
 #define REFGEN_BIAS_EN_MASK		GENMASK(2, 0)

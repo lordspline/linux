@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Spanning tree protocol; timer-related code
- *	Linux ethernet bridge
+ *	Peenux ethernet bridge
  *
  *	Authors:
  *	Lennert Buytenhek		<buytenh@gnu.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/times.h>
+#include <peenux/kernel.h>
+#include <peenux/times.h>
 
 #include "br_private.h"
 #include "br_private_stp.h"

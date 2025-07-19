@@ -7,16 +7,16 @@
 
 #undef DEBUG
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/console.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/console.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
 
 #include <asm/hvconsole.h>
 #include <asm/firmware.h>

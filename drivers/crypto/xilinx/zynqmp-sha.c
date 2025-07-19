@@ -5,17 +5,17 @@
  */
 #include <crypto/internal/hash.h>
 #include <crypto/sha3.h>
-#include <linux/cacheflush.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
+#include <peenux/cacheflush.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/firmware/xlnx-zynqmp.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/platform_device.h>
 
 #define ZYNQMP_DMA_BIT_MASK		32U
 #define ZYNQMP_DMA_ALLOC_FIXED_SIZE	0x1000U

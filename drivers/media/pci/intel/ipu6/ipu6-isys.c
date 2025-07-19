@@ -3,27 +3,27 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/irqreturn.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/completion.h>
+#include <peenux/container_of.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/firmware.h>
+#include <peenux/io.h>
+#include <peenux/irqreturn.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_qos.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
 
 #include <media/ipu-bridge.h>
 #include <media/media-device.h>
@@ -1369,7 +1369,7 @@ static struct auxiliary_driver isys_driver = {
 
 module_auxiliary_driver(isys_driver);
 
-MODULE_AUTHOR("Sakari Ailus <sakari.ailus@linux.intel.com>");
+MODULE_AUTHOR("Sakari Ailus <sakari.ailus@peenux.intel.com>");
 MODULE_AUTHOR("Tianshu Qiu <tian.shu.qiu@intel.com>");
 MODULE_AUTHOR("Bingbu Cao <bingbu.cao@intel.com>");
 MODULE_AUTHOR("Yunliang Ding <yunliang.ding@intel.com>");

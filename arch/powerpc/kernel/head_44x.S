@@ -24,8 +24,8 @@
  *      PowerPC 44x support, Matt Porter <mporter@kernel.crashing.org>
  */
 
-#include <linux/init.h>
-#include <linux/pgtable.h>
+#include <peenux/init.h>
+#include <peenux/pgtable.h>
 #include <asm/processor.h>
 #include <asm/page.h>
 #include <asm/mmu.h>

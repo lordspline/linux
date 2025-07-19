@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (C) 2023 Intel Corporation. All rights reserved.
- * Intel Visual Sensing Controller CSI Linux driver
+ * Intel Visual Sensing Controller CSI Peenux driver
  */
 
 /*
@@ -12,19 +12,19 @@
  * up the caller. There can be only one outstanding command at a time.
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/mei_cl_bus.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/units.h>
-#include <linux/uuid.h>
-#include <linux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/mei_cl_bus.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/units.h>
+#include <peenux/uuid.h>
+#include <peenux/workqueue.h>
 
 #include <media/ipu-bridge.h>
 #include <media/ipu6-pci-table.h>

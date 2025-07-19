@@ -2,9 +2,9 @@
 #ifndef _ASM_X86_ALTERNATIVE_H
 #define _ASM_X86_ALTERNATIVE_H
 
-#include <linux/types.h>
-#include <linux/stringify.h>
-#include <linux/objtool.h>
+#include <peenux/types.h>
+#include <peenux/stringify.h>
+#include <peenux/objtool.h>
 #include <asm/asm.h>
 #include <asm/bug.h>
 
@@ -18,7 +18,7 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/stddef.h>
+#include <peenux/stddef.h>
 
 /*
  * Alternative inline assembly for SMP.

@@ -6,15 +6,15 @@
  * (C) Copyright 1995 1996 Linus Torvalds
  * (C) Copyright 2001, 2002 Ralf Baechle
  */
-#include <linux/export.h>
+#include <peenux/export.h>
 #include <asm/addrspace.h>
 #include <asm/byteorder.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mm_types.h>
-#include <linux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mm_types.h>
+#include <peenux/io.h>
 #include <asm/cacheflush.h>
 #include <asm/tlbflush.h>
 #include <ioremap.h>

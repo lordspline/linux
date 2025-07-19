@@ -4,13 +4,13 @@
  * Sylwester Nawrocki <s.nawrocki@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/clk-conf.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk/clk-conf.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
 
 static int __set_clk_parents(struct device_node *node, bool clk_supplier)
 {

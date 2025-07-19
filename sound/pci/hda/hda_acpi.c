@@ -3,9 +3,9 @@
  * ALSA driver for ACPI-based HDA Controllers.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/acpi.h>
 
 #include <sound/hda_codec.h>
 

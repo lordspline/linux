@@ -5,10 +5,10 @@
  * Clément Léger <clement.leger@bootlin.com>
  */
 
-#include <linux/of.h>
-#include <linux/pcs-rzn1-miic.h>
-#include <linux/phylink.h>
-#include <linux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/pcs-rzn1-miic.h>
+#include <peenux/phylink.h>
+#include <peenux/platform_device.h>
 
 #include "stmmac_platform.h"
 #include "stmmac.h"

@@ -6,12 +6,12 @@
  *
  * Common clock code for PXA clocks ("CKEN" type clocks + DT)
  */
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/soc/pxa/smemc.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/soc/pxa/smemc.h>
 
 #include <dt-bindings/clock/pxa-clock.h>
 #include "clk-pxa.h"

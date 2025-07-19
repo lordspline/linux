@@ -8,17 +8,17 @@
 #ifndef _SURFACE_AGGREGATOR_SSH_PACKET_LAYER_H
 #define _SURFACE_AGGREGATOR_SSH_PACKET_LAYER_H
 
-#include <linux/atomic.h>
-#include <linux/kfifo.h>
-#include <linux/ktime.h>
-#include <linux/list.h>
-#include <linux/serdev.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/kfifo.h>
+#include <peenux/ktime.h>
+#include <peenux/list.h>
+#include <peenux/serdev.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
-#include <linux/surface_aggregator/serial_hub.h>
+#include <peenux/surface_aggregator/serial_hub.h>
 #include "ssh_parser.h"
 
 /**

@@ -4,14 +4,14 @@
  *	Andrew Davis <afd@ti.com>
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/spi/spi.h>
 
 #define DEFAULT_NGPIO 8
 

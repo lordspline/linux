@@ -7,13 +7,13 @@
  */
 
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mutex.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mutex.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

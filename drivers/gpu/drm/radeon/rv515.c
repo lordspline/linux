@@ -26,9 +26,9 @@
  *          Jerome Glisse
  */
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>

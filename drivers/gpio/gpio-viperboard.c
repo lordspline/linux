@@ -7,17 +7,17 @@
  *  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/usb.h>
-#include <linux/gpio/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb.h>
+#include <peenux/gpio/driver.h>
 
-#include <linux/mfd/viperboard.h>
+#include <peenux/mfd/viperboard.h>
 
 #define VPRBRD_GPIOA_CLK_1MHZ		0
 #define VPRBRD_GPIOA_CLK_100KHZ		1

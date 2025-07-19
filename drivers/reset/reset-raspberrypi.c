@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2020 Nicolas Saenz Julienne <nsaenzjulienne@suse.de>
  */
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
 #include <soc/bcm2835/raspberrypi-firmware.h>
 #include <dt-bindings/reset/raspberrypi,firmware-reset.h>
 

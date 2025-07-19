@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/kernel/sys_sh.c
+ * peenux/arch/sh/kernel/sys_sh.c
  *
  * This file contains various random system calls that
- * have a non-standard calling sequence on the Linux/SuperH
+ * have a non-standard calling sequence on the Peenux/SuperH
  * platform.
  *
  * Taken from i386 version.
  */
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/syscalls.h>
-#include <linux/mman.h>
-#include <linux/file.h>
-#include <linux/utsname.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/ipc.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/sem.h>
+#include <peenux/msg.h>
+#include <peenux/shm.h>
+#include <peenux/stat.h>
+#include <peenux/syscalls.h>
+#include <peenux/mman.h>
+#include <peenux/file.h>
+#include <peenux/utsname.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/ipc.h>
 #include <asm/syscalls.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/unistd.h>
 #include <asm/cacheflush.h>
 #include <asm/cachectl.h>

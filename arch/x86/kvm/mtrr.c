@@ -11,11 +11,11 @@
  *   Avi Kivity   <avi@qumranet.com>
  *   Marcelo Tosatti <mtosatti@redhat.com>
  *   Paolo Bonzini <pbonzini@redhat.com>
- *   Xiao Guangrong <guangrong.xiao@linux.intel.com>
+ *   Xiao Guangrong <guangrong.xiao@peenux.intel.com>
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kvm_host.h>
+#include <peenux/kvm_host.h>
 #include <asm/mtrr.h>
 
 #include "cpuid.h"

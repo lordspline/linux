@@ -12,16 +12,16 @@
  * which are suitable for UP and SMP based clocksources respectively
  */
 
-#include <linux/interrupt.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
+#include <peenux/interrupt.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/cpu.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/sched_clock.h>
 
 #include <soc/arc/timers.h>
 #include <soc/arc/mcip.h>

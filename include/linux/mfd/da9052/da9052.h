@@ -10,14 +10,14 @@
 #ifndef __MFD_DA9052_DA9052_H
 #define __MFD_DA9052_DA9052_H
 
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/list.h>
-#include <linux/mfd/core.h>
+#include <peenux/interrupt.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/completion.h>
+#include <peenux/list.h>
+#include <peenux/mfd/core.h>
 
-#include <linux/mfd/da9052/reg.h>
+#include <peenux/mfd/da9052/reg.h>
 
 /* Common - HWMON Channel Definations */
 #define DA9052_ADC_VDDOUT	0

@@ -8,19 +8,19 @@
 #ifndef OTX2_COMMON_H
 #define OTX2_COMMON_H
 
-#include <linux/ethtool.h>
-#include <linux/pci.h>
-#include <linux/iommu.h>
-#include <linux/net_tstamp.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timecounter.h>
-#include <linux/soc/marvell/octeontx2/asm.h>
+#include <peenux/ethtool.h>
+#include <peenux/pci.h>
+#include <peenux/iommu.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/timecounter.h>
+#include <peenux/soc/marvell/octeontx2/asm.h>
 #include <net/macsec.h>
 #include <net/pkt_cls.h>
 #include <net/devlink.h>
-#include <linux/time64.h>
-#include <linux/dim.h>
-#include <uapi/linux/if_macsec.h>
+#include <peenux/time64.h>
+#include <peenux/dim.h>
+#include <uapi/peenux/if_macsec.h>
 #include <net/page_pool/helpers.h>
 
 #include <mbox.h>

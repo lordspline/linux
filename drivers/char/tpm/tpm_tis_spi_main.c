@@ -20,17 +20,17 @@
  * Dorn and Kyleen Hall and Jarko Sakkinnen.
  */
 
-#include <linux/acpi.h>
-#include <linux/completion.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/completion.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
-#include <linux/of.h>
-#include <linux/spi/spi.h>
-#include <linux/tpm.h>
+#include <peenux/of.h>
+#include <peenux/spi/spi.h>
+#include <peenux/tpm.h>
 
 #include "tpm.h"
 #include "tpm_tis_core.h"

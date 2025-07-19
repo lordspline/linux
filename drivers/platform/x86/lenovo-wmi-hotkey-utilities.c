@@ -5,12 +5,12 @@
  *  Copyright (C) 2025	Lenovo
  */
 
-#include <linux/cleanup.h>
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/wmi.h>
+#include <peenux/cleanup.h>
+#include <peenux/dev_printk.h>
+#include <peenux/device.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/wmi.h>
 
 /* Lenovo Super Hotkey WMI GUIDs */
 #define LUD_WMI_METHOD_GUID	"CE6C0974-0407-4F50-88BA-4FC3B6559AD8"

@@ -5,9 +5,9 @@
  * Authors:	Mike Shaver.
  */
 
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/sysctl.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/sysctl.h>
 #include <net/af_unix.h>
 #include <net/net_namespace.h>
 

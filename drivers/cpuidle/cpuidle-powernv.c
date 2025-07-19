@@ -5,16 +5,16 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/cpuidle.h>
-#include <linux/cpu.h>
-#include <linux/notifier.h>
-#include <linux/clockchips.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/moduleparam.h>
+#include <peenux/cpuidle.h>
+#include <peenux/cpu.h>
+#include <peenux/notifier.h>
+#include <peenux/clockchips.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 
 #include <asm/machdep.h>
 #include <asm/firmware.h>

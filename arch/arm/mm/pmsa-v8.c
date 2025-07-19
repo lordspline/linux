@@ -1,11 +1,11 @@
 /*
- * Based on linux/arch/arm/pmsa-v7.c
+ * Based on peenux/arch/arm/pmsa-v7.c
  *
  * ARM PMSAv8 supporting functions.
  */
 
-#include <linux/memblock.h>
-#include <linux/range.h>
+#include <peenux/memblock.h>
+#include <peenux/range.h>
 
 #include <asm/cp15.h>
 #include <asm/cputype.h>

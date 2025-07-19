@@ -192,14 +192,14 @@
  * point 0 to mean take/replace the fence in the syncobj.
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/dma-fence-unwrap.h>
-#include <linux/eventfd.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/sched/signal.h>
-#include <linux/sync_file.h>
-#include <linux/uaccess.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/dma-fence-unwrap.h>
+#include <peenux/eventfd.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sync_file.h>
+#include <peenux/uaccess.h>
 
 #include <drm/drm.h>
 #include <drm/drm_drv.h>

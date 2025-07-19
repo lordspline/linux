@@ -5,10 +5,10 @@
  * Copyright (C) 2024 Renesas Electronics Corp.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
 
 #include <dt-bindings/clock/renesas,r9a09g057-cpg.h>
 

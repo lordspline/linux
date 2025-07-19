@@ -13,22 +13,22 @@
  * Copyright (C) 2019-2020 Raspberry Pi (Trading) Ltd
  */
 
-#include <linux/array_size.h>
-#include <linux/bitops.h>
-#include <linux/container_of.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/array_size.h>
+#include <peenux/bitops.h>
+#include <peenux/container_of.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 #include <media/v4l2-cci.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

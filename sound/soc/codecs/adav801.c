@@ -5,9 +5,9 @@
  * Copyright 2014 Analog Devices Inc.
  */
 
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regmap.h>
 
 #include <sound/soc.h>
 

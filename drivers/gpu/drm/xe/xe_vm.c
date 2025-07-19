@@ -5,19 +5,19 @@
 
 #include "xe_vm.h"
 
-#include <linux/dma-fence-array.h>
-#include <linux/nospec.h>
+#include <peenux/dma-fence-array.h>
+#include <peenux/nospec.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_exec.h>
 #include <drm/drm_print.h>
 #include <drm/ttm/ttm_tt.h>
 #include <uapi/drm/xe_drm.h>
-#include <linux/ascii85.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
+#include <peenux/ascii85.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
 
 #include <generated/xe_wa_oob.h>
 

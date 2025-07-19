@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <peenux/init.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
-#include <linux/syscore_ops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/sched_clock.h>
+#include <peenux/syscore_ops.h>
 #include <soc/at91/atmel_tcb.h>
 
 

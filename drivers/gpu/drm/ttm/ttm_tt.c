@@ -31,12 +31,12 @@
 
 #define pr_fmt(fmt) "[TTM] " fmt
 
-#include <linux/cc_platform.h>
-#include <linux/debugfs.h>
-#include <linux/file.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/shmem_fs.h>
+#include <peenux/cc_platform.h>
+#include <peenux/debugfs.h>
+#include <peenux/file.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/shmem_fs.h>
 #include <drm/drm_cache.h>
 #include <drm/drm_device.h>
 #include <drm/drm_util.h>

@@ -8,10 +8,10 @@
 #define _NEC7210_H
 
 #include "gpib_state_machines.h"
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
+#include <peenux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/interrupt.h>
 
 #include "gpib_types.h"
 #include "nec7210_registers.h"

@@ -12,11 +12,11 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/fprobe.h>
-#include <linux/sched/debug.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/fprobe.h>
+#include <peenux/sched/debug.h>
+#include <peenux/slab.h>
 
 #define BACKTRACE_DEPTH 16
 #define MAX_SYMBOL_LEN 4096

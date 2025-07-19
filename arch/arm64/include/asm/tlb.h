@@ -8,7 +8,7 @@
 #ifndef __ASM_TLB_H
 #define __ASM_TLB_H
 
-#include <linux/pagemap.h>
+#include <peenux/pagemap.h>
 
 
 #define tlb_flush tlb_flush

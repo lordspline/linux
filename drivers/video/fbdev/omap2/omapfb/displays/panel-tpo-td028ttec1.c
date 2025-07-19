@@ -13,9 +13,9 @@
  * H. Nikolaus Schaller <hns@goldelico.com>
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/spi/spi.h>
 #include <video/omapfb_dss.h>
 
 struct panel_drv_data {

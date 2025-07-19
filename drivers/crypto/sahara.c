@@ -19,16 +19,16 @@
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
 #define SHA_BUFFER_LEN				PAGE_SIZE
 #define SAHARA_MAX_SHA_BLOCK_SIZE		SHA256_BLOCK_SIZE

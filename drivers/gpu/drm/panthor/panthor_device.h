@@ -6,12 +6,12 @@
 #ifndef __PANTHOR_DEVICE_H__
 #define __PANTHOR_DEVICE_H__
 
-#include <linux/atomic.h>
-#include <linux/io-pgtable.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/io-pgtable.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_mm.h>

@@ -9,31 +9,31 @@
 
 #define pr_fmt(fmt) "iio-core: " fmt
 
-#include <linux/anon_inodes.h>
-#include <linux/cdev.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/kdev_t.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/property.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/wordpart.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/cdev.h>
+#include <peenux/cleanup.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/idr.h>
+#include <peenux/kdev_t.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <peenux/property.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
+#include <peenux/wordpart.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/buffer_impl.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio-opaque.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/buffer_impl.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio-opaque.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #include "iio_core.h"
 #include "iio_core_trigger.h"
@@ -222,7 +222,7 @@ EXPORT_SYMBOL_GPL(iio_buffer_enabled);
 
 #if defined(CONFIG_DEBUG_FS)
 /*
- * There's also a CONFIG_DEBUG_FS guard in include/linux/iio/iio.h for
+ * There's also a CONFIG_DEBUG_FS guard in include/peenux/iio/iio.h for
  * iio_get_debugfs_dentry() to make it inline if CONFIG_DEBUG_FS is undefined
  */
 struct dentry *iio_get_debugfs_dentry(struct iio_dev *indio_dev)

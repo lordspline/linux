@@ -8,11 +8,11 @@
 #include <drm/drm_mipi_dsi.h>
 #include <drm/drm_panel.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
 
 struct s6d16d0 {
 	struct device *dev;

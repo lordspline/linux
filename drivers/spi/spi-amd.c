@@ -6,16 +6,16 @@
 //
 // Author: Sanjay R Mehta <sanju.mehta@amd.com>
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
 
 #include "spi-amd.h"
 

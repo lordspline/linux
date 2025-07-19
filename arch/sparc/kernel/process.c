@@ -4,14 +4,14 @@
  * This file handles the architecture independent parts of process handling..
  */
 
-#include <linux/compat.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/signal.h>
+#include <peenux/compat.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/signal.h>
 
 #include "kernel.h"
 

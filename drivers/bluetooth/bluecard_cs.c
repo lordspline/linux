@@ -20,24 +20,24 @@
  *
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/spinlock.h>
-#include <linux/moduleparam.h>
-#include <linux/wait.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/timer.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/ioport.h>
+#include <peenux/spinlock.h>
+#include <peenux/moduleparam.h>
+#include <peenux/wait.h>
 
-#include <linux/skbuff.h>
-#include <linux/io.h>
+#include <peenux/skbuff.h>
+#include <peenux/io.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ciscode.h>

@@ -7,12 +7,12 @@
  */
 
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/nvram.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include "pmac.h"
 

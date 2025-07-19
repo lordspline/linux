@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef _NET_DST_OPS_H
 #define _NET_DST_OPS_H
-#include <linux/types.h>
-#include <linux/percpu_counter.h>
-#include <linux/cache.h>
+#include <peenux/types.h>
+#include <peenux/percpu_counter.h>
+#include <peenux/cache.h>
 
 struct dst_entry;
 struct kmem_cachep;

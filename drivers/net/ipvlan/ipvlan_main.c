@@ -2,7 +2,7 @@
 /* Copyright (c) 2014 Mahesh Bandewar <maheshb@google.com>
  */
 
-#include <linux/ethtool.h>
+#include <peenux/ethtool.h>
 #include <net/netdev_lock.h>
 
 #include "ipvlan.h"

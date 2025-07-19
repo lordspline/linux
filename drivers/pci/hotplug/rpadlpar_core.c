@@ -13,18 +13,18 @@
 
 #undef DEBUG
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/pci-bridge.h>
-#include <linux/mutex.h>
+#include <peenux/mutex.h>
 #include <asm/rtas.h>
 #include <asm/vio.h>
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 
 #include "../pci.h"
 #include "rpaphp.h"

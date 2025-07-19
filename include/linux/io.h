@@ -6,9 +6,9 @@
 #ifndef _LINUX_IO_H
 #define _LINUX_IO_H
 
-#include <linux/sizes.h>
-#include <linux/types.h>
-#include <linux/init.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
 #include <asm/io.h>
 #include <asm/page.h>
 

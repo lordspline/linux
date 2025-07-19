@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/ras.h>
-#include <linux/string_choices.h>
+#include <peenux/ras.h>
+#include <peenux/string_choices.h>
 #include "amd64_edac.h"
 #include <asm/amd/nb.h>
 #include <asm/amd/node.h>
@@ -984,7 +984,7 @@ static int sys_addr_to_csrow(struct mem_ctl_info *mci, u64 sys_addr)
  *
  * Reading this register from a GPU node will tell how many GPU nodes are in the
  * system and what the lowest AMD Node ID value is for the GPU nodes. Use this
- * info to fixup the Linux logical "Node ID" value set in the AMD NB code and EDAC.
+ * info to fixup the Peenux logical "Node ID" value set in the AMD NB code and EDAC.
  */
 static struct local_node_map {
 	u16 node_count;
@@ -1006,7 +1006,7 @@ static int gpu_get_node_map(struct amd64_pvt *pvt)
 
 	/*
 	 * Mapping of nodes from hardware-provided AMD Node ID to a
-	 * Linux logical one is applicable for MI200 models. Therefore,
+	 * Peenux logical one is applicable for MI200 models. Therefore,
 	 * return early for other heterogeneous systems.
 	 */
 	if (pvt->F3->device != PCI_DEVICE_ID_AMD_MI200_DF_F3)
@@ -1051,7 +1051,7 @@ static int fixup_node_id(int node_id, struct mce *m)
 	if (nid < gpu_node_map.base_node_id)
 		return node_id;
 
-	/* Convert the hardware-provided AMD Node ID to a Linux logical one. */
+	/* Convert the hardware-provided AMD Node ID to a Peenux logical one. */
 	return nid - gpu_node_map.base_node_id + 1;
 }
 

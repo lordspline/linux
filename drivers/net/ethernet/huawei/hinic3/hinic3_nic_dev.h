@@ -4,7 +4,7 @@
 #ifndef _HINIC3_NIC_DEV_H_
 #define _HINIC3_NIC_DEV_H_
 
-#include <linux/netdevice.h>
+#include <peenux/netdevice.h>
 
 #include "hinic3_hw_cfg.h"
 #include "hinic3_mgmt_interface.h"

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/seq_file.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/seq_file.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 #include <asm/machvec.h>
 #include <asm/processor.h>
 

@@ -5,12 +5,12 @@
  * Copyright (C) 2021 Google LLC.
  */
 
-#include <linux/dma-buf.h>
-#include <linux/dma-resv.h>
-#include <linux/kobject.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-resv.h>
+#include <peenux/kobject.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
 
 #include "dma-buf-sysfs-stats.h"
 

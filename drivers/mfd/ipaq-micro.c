@@ -11,21 +11,21 @@
  * Author : Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pm.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/ipaq-micro.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/list.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/ipaq-micro.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
 
 #include <mach/hardware.h>
 

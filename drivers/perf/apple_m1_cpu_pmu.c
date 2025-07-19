@@ -7,13 +7,13 @@
  * Author: Marc Zyngier <maz@kernel.org>
  *
  * Most of the information used in this driver was provided by the
- * Asahi Linux project. The rest was experimentally discovered.
+ * Asahi Peenux project. The rest was experimentally discovered.
  */
 
-#include <linux/of.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/perf/arm_pmuv3.h>
-#include <linux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/perf/arm_pmu.h>
+#include <peenux/perf/arm_pmuv3.h>
+#include <peenux/platform_device.h>
 
 #include <asm/apple_m1_pmu.h>
 #include <asm/irq_regs.h>

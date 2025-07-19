@@ -6,18 +6,18 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/dma-buf.h>
-#include <linux/genalloc.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/clk.h>
+#include <peenux/dma-buf.h>
+#include <peenux/genalloc.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 #include <soc/tegra/common.h>
 #include <soc/tegra/pmc.h>

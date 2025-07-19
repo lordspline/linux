@@ -3,11 +3,11 @@
  * Copyright (C) 2021 Sifive.
  */
 
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/memory.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/bug.h>
 #include <asm/text-patching.h>
 #include <asm/alternative.h>
 #include <asm/vendorid_list.h>

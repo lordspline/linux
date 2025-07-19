@@ -2,14 +2,14 @@
 #ifndef _linux_POSIX_TIMERS_H
 #define _linux_POSIX_TIMERS_H
 
-#include <linux/alarmtimer.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pid.h>
-#include <linux/posix-timers_types.h>
-#include <linux/rcuref.h>
-#include <linux/spinlock.h>
-#include <linux/timerqueue.h>
+#include <peenux/alarmtimer.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/pid.h>
+#include <peenux/posix-timers_types.h>
+#include <peenux/rcuref.h>
+#include <peenux/spinlock.h>
+#include <peenux/timerqueue.h>
 
 struct kernel_siginfo;
 struct task_struct;
@@ -39,7 +39,7 @@ static inline int clockid_to_fd(const clockid_t clk)
 
 #ifdef CONFIG_POSIX_TIMERS
 
-#include <linux/signal_types.h>
+#include <peenux/signal_types.h>
 
 /**
  * cpu_timer - Posix CPU timer representation for k_itimer

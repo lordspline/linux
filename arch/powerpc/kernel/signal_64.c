@@ -8,24 +8,24 @@
  *    1997-11-28  Modified for POSIX.1b signals by Richard Henderson
  */
 
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/elf.h>
-#include <linux/ptrace.h>
-#include <linux/ratelimit.h>
-#include <linux/syscalls.h>
-#include <linux/pagemap.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/errno.h>
+#include <peenux/wait.h>
+#include <peenux/unistd.h>
+#include <peenux/stddef.h>
+#include <peenux/elf.h>
+#include <peenux/ptrace.h>
+#include <peenux/ratelimit.h>
+#include <peenux/syscalls.h>
+#include <peenux/pagemap.h>
 
 #include <asm/sigcontext.h>
 #include <asm/ucontext.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/unistd.h>
 #include <asm/cacheflush.h>
 #include <asm/syscalls.h>

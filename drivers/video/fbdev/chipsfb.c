@@ -14,21 +14,21 @@
  *  more details.
  */
 
-#include <linux/aperture.h>
-#include <linux/backlight.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/fb.h>
-#include <linux/pm.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/console.h>
+#include <peenux/aperture.h>
+#include <peenux/backlight.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/fb.h>
+#include <peenux/pm.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/console.h>
 
 #ifdef CONFIG_PMAC_BACKLIGHT
 #include <asm/backlight.h>

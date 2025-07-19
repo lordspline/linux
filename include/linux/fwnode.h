@@ -14,10 +14,10 @@
 #ifndef _LINUX_FWNODE_H_
 #define _LINUX_FWNODE_H_
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
 
 enum dev_dma_attr {
 	DEV_DMA_NOT_SUPPORTED,

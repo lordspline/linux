@@ -4,28 +4,28 @@
  * Copyright (C) 2002-2007 Kristian Høgsberg
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/poll.h>
-#include <linux/sched.h> /* required for linux/wait.h */
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/time64.h>
-#include <linux/timex.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
-#include <linux/dma-mapping.h>
-#include <linux/atomic.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/kref.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h> /* required for peenux/wait.h */
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/time64.h>
+#include <peenux/timex.h>
+#include <peenux/uaccess.h>
+#include <peenux/wait.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/atomic.h>
 #include <asm/byteorder.h>
 
 #include "nosy.h"

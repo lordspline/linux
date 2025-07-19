@@ -4,8 +4,8 @@
  *            generic strncmp routine.
  */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
+#include <peenux/export.h>
+#include <peenux/linkage.h>
 
 	.text
 ENTRY(strncmp)

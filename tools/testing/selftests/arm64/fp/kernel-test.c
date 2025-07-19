@@ -16,8 +16,8 @@
 
 #include <sys/socket.h>
 
-#include <linux/kernel.h>
-#include <linux/if_alg.h>
+#include <peenux/kernel.h>
+#include <peenux/if_alg.h>
 
 #define DATA_SIZE (16 * 4096)
 

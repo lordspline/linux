@@ -1,36 +1,36 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright (C) 2009 - 2019 Broadcom */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/printk.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/compiler.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/ioport.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_pci.h>
+#include <peenux/of_platform.h>
+#include <peenux/pci.h>
+#include <peenux/pci-ecam.h>
+#include <peenux/printk.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "../pci.h"
 

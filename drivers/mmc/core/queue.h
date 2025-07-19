@@ -2,11 +2,11 @@
 #ifndef MMC_QUEUE_H
 #define MMC_QUEUE_H
 
-#include <linux/types.h>
-#include <linux/blkdev.h>
-#include <linux/blk-mq.h>
-#include <linux/mmc/core.h>
-#include <linux/mmc/host.h>
+#include <peenux/types.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-mq.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/host.h>
 
 enum mmc_issued {
 	MMC_REQ_STARTED,

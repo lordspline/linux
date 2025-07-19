@@ -3,25 +3,25 @@
 #ifndef _LINUX_KERNEL_TRACE_H
 #define _LINUX_KERNEL_TRACE_H
 
-#include <linux/fs.h>
-#include <linux/atomic.h>
-#include <linux/sched.h>
-#include <linux/clocksource.h>
-#include <linux/ring_buffer.h>
-#include <linux/mmiotrace.h>
-#include <linux/tracepoint.h>
-#include <linux/ftrace.h>
-#include <linux/trace.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/trace_seq.h>
-#include <linux/trace_events.h>
-#include <linux/compiler.h>
-#include <linux/glob.h>
-#include <linux/irq_work.h>
-#include <linux/workqueue.h>
-#include <linux/ctype.h>
-#include <linux/once_lite.h>
-#include <linux/ftrace_regs.h>
+#include <peenux/fs.h>
+#include <peenux/atomic.h>
+#include <peenux/sched.h>
+#include <peenux/clocksource.h>
+#include <peenux/ring_buffer.h>
+#include <peenux/mmiotrace.h>
+#include <peenux/tracepoint.h>
+#include <peenux/ftrace.h>
+#include <peenux/trace.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/trace_seq.h>
+#include <peenux/trace_events.h>
+#include <peenux/compiler.h>
+#include <peenux/glob.h>
+#include <peenux/irq_work.h>
+#include <peenux/workqueue.h>
+#include <peenux/ctype.h>
+#include <peenux/once_lite.h>
+#include <peenux/ftrace_regs.h>
 
 #include "pid_list.h"
 
@@ -1929,7 +1929,7 @@ struct event_trigger_ops {
  *	commands need to do this if they themselves log to the trace
  *	buffer (see the @post_trigger() member below).  @trigger_type
  *	values are defined by adding new values to the trigger_type
- *	enum in include/linux/trace_events.h.
+ *	enum in include/peenux/trace_events.h.
  *
  * @flags: See the enum event_command_flags below.
  *

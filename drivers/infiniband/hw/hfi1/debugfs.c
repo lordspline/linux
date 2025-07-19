@@ -3,14 +3,14 @@
  * Copyright(c) 2015-2018 Intel Corporation.
  */
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ratelimit.h>
-#include <linux/fault-inject.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ratelimit.h>
+#include <peenux/fault-inject.h>
 
 #include "hfi.h"
 #include "trace.h"

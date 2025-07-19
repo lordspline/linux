@@ -5,14 +5,14 @@
  * Copyright (C) 2021 Integrated Device Technology, Inc., a Renesas Company.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/rsmu.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/rsmu.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include "rsmu.h"
 

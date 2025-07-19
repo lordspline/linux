@@ -7,17 +7,17 @@
  * Trond Myklebust <trond.myklebust@primarydata.com>
  *
  */
-#include <linux/atomic.h>
-#include <linux/types.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/rcupdate.h>
-#include <linux/rculist.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/sunrpc/xprt.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/xprtmultipath.h>
+#include <peenux/atomic.h>
+#include <peenux/types.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/rcupdate.h>
+#include <peenux/rculist.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/sunrpc/xprt.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/sunrpc/xprtmultipath.h>
 
 #include "sysfs.h"
 

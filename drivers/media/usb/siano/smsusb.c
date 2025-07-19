@@ -10,12 +10,12 @@ Copyright (C) 2005-2009, Uri Shkolnik, Anatoly Greenblat
 
 #include "smscoreapi.h"
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/usb.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/usb.h>
+#include <peenux/firmware.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <media/media-device.h>
 
 #include "sms-cards.h"

@@ -3,10 +3,10 @@
  * Copyright (c) 2021, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/kobject.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
+#include <peenux/acpi.h>
+#include <peenux/kobject.h>
+#include <peenux/platform_device.h>
+#include <peenux/sysfs.h>
 #include "intel_sar.h"
 
 /**

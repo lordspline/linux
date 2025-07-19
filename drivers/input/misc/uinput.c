@@ -18,16 +18,16 @@
  *	0.1	20/06/2002
  *		- first public version
  */
-#include <uapi/linux/uinput.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/overflow.h>
-#include <linux/input/mt.h>
+#include <uapi/peenux/uinput.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/overflow.h>
+#include <peenux/input/mt.h>
 #include "../input-compat.h"
 
 #define UINPUT_NAME		"uinput"

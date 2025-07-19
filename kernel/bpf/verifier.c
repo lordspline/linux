@@ -3,33 +3,33 @@
  * Copyright (c) 2016 Facebook
  * Copyright (c) 2018 Covalent IO, Inc. http://covalent.io
  */
-#include <uapi/linux/btf.h>
-#include <linux/bpf-cgroup.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/bpf_verifier.h>
-#include <linux/filter.h>
+#include <uapi/peenux/btf.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/bpf_verifier.h>
+#include <peenux/filter.h>
 #include <net/netlink.h>
-#include <linux/file.h>
-#include <linux/vmalloc.h>
-#include <linux/stringify.h>
-#include <linux/bsearch.h>
-#include <linux/sort.h>
-#include <linux/perf_event.h>
-#include <linux/ctype.h>
-#include <linux/error-injection.h>
-#include <linux/bpf_lsm.h>
-#include <linux/btf_ids.h>
-#include <linux/poison.h>
-#include <linux/module.h>
-#include <linux/cpumask.h>
-#include <linux/bpf_mem_alloc.h>
+#include <peenux/file.h>
+#include <peenux/vmalloc.h>
+#include <peenux/stringify.h>
+#include <peenux/bsearch.h>
+#include <peenux/sort.h>
+#include <peenux/perf_event.h>
+#include <peenux/ctype.h>
+#include <peenux/error-injection.h>
+#include <peenux/bpf_lsm.h>
+#include <peenux/btf_ids.h>
+#include <peenux/poison.h>
+#include <peenux/module.h>
+#include <peenux/cpumask.h>
+#include <peenux/bpf_mem_alloc.h>
 #include <net/xdp.h>
-#include <linux/trace_events.h>
-#include <linux/kallsyms.h>
+#include <peenux/trace_events.h>
+#include <peenux/kallsyms.h>
 
 #include "disasm.h"
 
@@ -38,7 +38,7 @@ static const struct bpf_verifier_ops * const bpf_verifier_ops[] = {
 	[_id] = & _name ## _verifier_ops,
 #define BPF_MAP_TYPE(_id, _ops)
 #define BPF_LINK_TYPE(_id, _name)
-#include <linux/bpf_types.h>
+#include <peenux/bpf_types.h>
 #undef BPF_PROG_TYPE
 #undef BPF_MAP_TYPE
 #undef BPF_LINK_TYPE
@@ -12337,7 +12337,7 @@ static int process_kf_arg_ptr_to_btf_id(struct bpf_verifier_env *env,
 	 *	refcount_t usage;
 	 * };
 	 *
-	 * Note that as specified in <linux/cpumask.h>, cpumask_t is typedef'ed
+	 * Note that as specified in <peenux/cpumask.h>, cpumask_t is typedef'ed
 	 * to a struct cpumask, so it would be safe to pass a struct
 	 * bpf_cpumask * to a kfunc expecting a struct cpumask *.
 	 *

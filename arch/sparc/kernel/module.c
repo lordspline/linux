@@ -5,15 +5,15 @@
  * Copyright (C) 2002 David S. Miller.
  */
 
-#include <linux/moduleloader.h>
-#include <linux/kernel.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/mm.h>
+#include <peenux/moduleloader.h>
+#include <peenux/kernel.h>
+#include <peenux/elf.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/gfp.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/mm.h>
 
 #include <asm/processor.h>
 #include <asm/spitfire.h>

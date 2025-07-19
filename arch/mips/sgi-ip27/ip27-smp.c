@@ -6,11 +6,11 @@
  * Copyright (C) 2000 - 2001 by Kanoj Sarcar (kanoj@sgi.com)
  * Copyright (C) 2000 - 2001 by Silicon Graphics, Inc.
  */
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/topology.h>
-#include <linux/nodemask.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/topology.h>
+#include <peenux/nodemask.h>
 
 #include <asm/page.h>
 #include <asm/processor.h>

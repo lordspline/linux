@@ -7,12 +7,12 @@
  * Gregory Clement <gregory.clement@free-electrons.com>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
 
 #define RTC_STATUS	    0x0
 #define RTC_STATUS_ALARM1	    BIT(0)

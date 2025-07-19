@@ -3,21 +3,21 @@
  *
  * Copyright (c) 2011 Jonathan Cameron
  */
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/minmax.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/minmax.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-opaque.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/iio-opaque.h>
 #include "iio_core.h"
-#include <linux/iio/machine.h>
-#include <linux/iio/driver.h>
-#include <linux/iio/consumer.h>
+#include <peenux/iio/machine.h>
+#include <peenux/iio/driver.h>
+#include <peenux/iio/consumer.h>
 
 struct iio_map_internal {
 	struct iio_dev *indio_dev;

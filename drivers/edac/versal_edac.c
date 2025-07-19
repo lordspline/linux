@@ -3,17 +3,17 @@
  * Xilinx Versal memory controller driver
  * Copyright (C) 2023 Advanced Micro Devices, Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/edac.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/firmware/xlnx-event-manager.h>
+#include <peenux/bitfield.h>
+#include <peenux/edac.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
+#include <peenux/firmware/xlnx-zynqmp.h>
+#include <peenux/firmware/xlnx-event-manager.h>
 
 #include "edac_module.h"
 

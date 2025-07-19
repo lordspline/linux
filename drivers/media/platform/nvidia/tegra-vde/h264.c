@@ -6,10 +6,10 @@
  *
  */
 
-#include <linux/iopoll.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/iopoll.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #include <media/v4l2-h264.h>
 

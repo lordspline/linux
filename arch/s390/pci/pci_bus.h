@@ -3,13 +3,13 @@
  * Copyright IBM Corp. 2020
  *
  * Author(s):
- *   Pierre Morel <pmorel@linux.ibm.com>
+ *   Pierre Morel <pmorel@peenux.ibm.com>
  *
  */
 #ifndef __S390_PCI_BUS_H
 #define __S390_PCI_BUS_H
 
-#include <linux/pci.h>
+#include <peenux/pci.h>
 
 int zpci_bus_device_register(struct zpci_dev *zdev, struct pci_ops *ops);
 void zpci_bus_device_unregister(struct zpci_dev *zdev);

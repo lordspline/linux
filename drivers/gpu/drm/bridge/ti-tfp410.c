@@ -4,13 +4,13 @@
  * Author: Jyri Sarha <jsarha@ti.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/workqueue.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

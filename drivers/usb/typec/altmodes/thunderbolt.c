@@ -3,16 +3,16 @@
  * USB Typec-C Thunderbolt3 Alternate Mode driver
  *
  * Copyright (C) 2019 Intel Corporation
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@peenux.intel.com>
  */
 
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/usb/pd_vdo.h>
-#include <linux/usb/typec_altmode.h>
-#include <linux/usb/typec_tbt.h>
+#include <peenux/lockdep.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
+#include <peenux/usb/pd_vdo.h>
+#include <peenux/usb/typec_altmode.h>
+#include <peenux/usb/typec_tbt.h>
 
 enum tbt_state {
 	TBT_STATE_IDLE,
@@ -383,6 +383,6 @@ static struct typec_altmode_driver tbt_altmode_driver = {
 };
 module_typec_altmode_driver(tbt_altmode_driver);
 
-MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@linux.intel.com>");
+MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@peenux.intel.com>");
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Thunderbolt3 USB Type-C Alternate Mode");

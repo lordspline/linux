@@ -7,10 +7,10 @@
  * addresses lists.
  */
 
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/export.h>
-#include <linux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/export.h>
+#include <peenux/list.h>
 
 #include "dev.h"
 

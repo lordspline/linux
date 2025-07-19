@@ -8,14 +8,14 @@
  *      Dave Young <dyoung@redhat.com>
  */
 
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/init.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/io.h>
+#include <peenux/kobject.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/init.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
 
 #include <asm/setup.h>
 

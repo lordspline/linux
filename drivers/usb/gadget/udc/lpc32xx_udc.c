@@ -15,25 +15,25 @@
  *       the LPC3180.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/prefetch.h>
-#include <linux/proc_fs.h>
-#include <linux/slab.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/isp1301.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/prefetch.h>
+#include <peenux/proc_fs.h>
+#include <peenux/slab.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/isp1301.h>
 
 #ifdef CONFIG_USB_GADGET_DEBUG_FILES
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
 #endif
 
 /*

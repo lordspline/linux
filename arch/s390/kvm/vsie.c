@@ -4,16 +4,16 @@
  *
  * Copyright IBM Corp. 2016, 2018
  *
- *    Author(s): David Hildenbrand <dahi@linux.vnet.ibm.com>
+ *    Author(s): David Hildenbrand <dahi@peenux.vnet.ibm.com>
  */
-#include <linux/vmalloc.h>
-#include <linux/kvm_host.h>
-#include <linux/bug.h>
-#include <linux/list.h>
-#include <linux/bitmap.h>
-#include <linux/sched/signal.h>
-#include <linux/io.h>
-#include <linux/mman.h>
+#include <peenux/vmalloc.h>
+#include <peenux/kvm_host.h>
+#include <peenux/bug.h>
+#include <peenux/list.h>
+#include <peenux/bitmap.h>
+#include <peenux/sched/signal.h>
+#include <peenux/io.h>
+#include <peenux/mman.h>
 
 #include <asm/gmap.h>
 #include <asm/mmu_context.h>

@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2018-2019 HiSilicon Limited. */
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/topology.h>
-#include <linux/uacce.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/debugfs.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/topology.h>
+#include <peenux/uacce.h>
 #include "hpre.h"
 
 #define CAP_FILE_PERMISSION		0444

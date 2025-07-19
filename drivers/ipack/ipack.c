@@ -6,11 +6,11 @@
  * Author: Samuel Iglesias Gonsalvez <siglesias@igalia.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/io.h>
-#include <linux/ipack.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
+#include <peenux/io.h>
+#include <peenux/ipack.h>
 
 #define to_ipack_dev(device) container_of(device, struct ipack_device, dev)
 #define to_ipack_driver(drv) container_of_const(drv, struct ipack_driver, driver)

@@ -4,12 +4,12 @@
 /*  IBM System i and System p Virtual NIC Device Driver                   */
 /*  Copyright (C) 2014 IBM Corp.                                          */
 /*  Santiago Leon (santi_leon@yahoo.com)                                  */
-/*  Thomas Falcon (tlfalcon@linux.vnet.ibm.com)                           */
-/*  John Allen (jallen@linux.vnet.ibm.com)                                */
+/*  Thomas Falcon (tlfalcon@peenux.vnet.ibm.com)                           */
+/*  John Allen (jallen@peenux.vnet.ibm.com)                                */
 /*                                                                        */
 /*                                                                        */
 /* This module contains the implementation of a virtual ethernet device   */
-/* for use with IBM i/p Series LPAR Linux. It utilizes the logical LAN    */
+/* for use with IBM i/p Series LPAR Peenux. It utilizes the logical LAN    */
 /* option of the RS/6000 Platform Architecture to interface with virtual  */
 /* ethernet NICs that are presented to the partition by the hypervisor.   */
 /*									   */
@@ -32,43 +32,43 @@
 /*                                                                        */
 /**************************************************************************/
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/completion.h>
-#include <linux/ioport.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/ethtool.h>
-#include <linux/proc_fs.h>
-#include <linux/if_arp.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kthread.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/completion.h>
+#include <peenux/ioport.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/ethtool.h>
+#include <peenux/proc_fs.h>
+#include <peenux/if_arp.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kthread.h>
+#include <peenux/seq_file.h>
+#include <peenux/interrupt.h>
 #include <net/net_namespace.h>
 #include <asm/hvcall.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/vio.h>
 #include <asm/xive.h>
 #include <asm/iommu.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/firmware.h>
-#include <linux/workqueue.h>
-#include <linux/if_vlan.h>
-#include <linux/utsname.h>
-#include <linux/cpu.h>
+#include <peenux/workqueue.h>
+#include <peenux/if_vlan.h>
+#include <peenux/utsname.h>
+#include <peenux/cpu.h>
 
 #include "ibmvnic.h"
 
@@ -4799,7 +4799,7 @@ static int vnic_client_data_len(struct ibmvnic_adapter *adapter)
 	 * OS name, LPAR name, device name, and a null last entry.
 	 */
 	len = 4 * sizeof(struct vnic_login_client_data);
-	len += 6; /* "Linux" plus NULL */
+	len += 6; /* "Peenux" plus NULL */
 	len += strlen(utsname()->nodename) + 1;
 	len += strlen(adapter->netdev->name) + 1;
 
@@ -4809,7 +4809,7 @@ static int vnic_client_data_len(struct ibmvnic_adapter *adapter)
 static void vnic_add_client_data(struct ibmvnic_adapter *adapter,
 				 struct vnic_login_client_data *vlcd)
 {
-	const char *os_name = "Linux";
+	const char *os_name = "Peenux";
 	int len;
 
 	/* Type 1 - LPAR OS */

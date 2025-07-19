@@ -8,12 +8,12 @@
  *          Dacai Zhu <zhudacai@hisilicon.com>
  *          Gabriele Paoloni <gabriele.paoloni@huawei.com>
  */
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/pci-acpi.h>
-#include <linux/pci-ecam.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci.h>
+#include <peenux/pci-acpi.h>
+#include <peenux/pci-ecam.h>
 #include "../../pci.h"
 #include "../pci-host-common.h"
 

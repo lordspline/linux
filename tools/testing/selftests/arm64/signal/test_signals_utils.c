@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <assert.h>
 #include <sys/auxv.h>
-#include <linux/auxvec.h>
+#include <peenux/auxvec.h>
 #include <ucontext.h>
 
 #include <asm/unistd.h>

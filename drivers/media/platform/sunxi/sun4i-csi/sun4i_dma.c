@@ -6,11 +6,11 @@
  * Author: Maxime Ripard <maxime.ripard@bootlin.com>
  */
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
 #include <media/videobuf2-dma-contig.h>
 #include <media/videobuf2-v4l2.h>
 

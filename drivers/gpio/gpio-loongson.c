@@ -8,14 +8,14 @@
  *  Copyright (c) 2014 Huacai Chen <chenhc@lemote.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/platform_device.h>
+#include <peenux/bitops.h>
 #include <asm/types.h>
 #include <loongson.h>
 

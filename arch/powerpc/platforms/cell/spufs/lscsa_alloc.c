@@ -7,10 +7,10 @@
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/spu.h>
 #include <asm/spu_csa.h>

@@ -10,11 +10,11 @@
 #include <crypto/scatterwalk.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 
 #ifdef CONFIG_CRYPTO_DEV_ASPEED_DEBUG
 #define AHASH_DBG(h, fmt, ...)	\

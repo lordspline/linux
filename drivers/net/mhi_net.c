@@ -4,13 +4,13 @@
  * Copyright (C) 2020 Linaro Ltd <loic.poulain@linaro.org>
  */
 
-#include <linux/if_arp.h>
-#include <linux/mhi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/if_arp.h>
+#include <peenux/mhi.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/u64_stats_sync.h>
 
 #define MHI_NET_MIN_MTU		ETH_MIN_MTU
 #define MHI_NET_MAX_MTU		0xffff

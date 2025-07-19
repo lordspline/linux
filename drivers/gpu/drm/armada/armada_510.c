@@ -4,9 +4,9 @@
  *
  * Armada 510 (aka Dove) variant support
  */
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
 #include <drm/drm_probe_helper.h>
 #include "armada_crtc.h"
 #include "armada_drm.h"

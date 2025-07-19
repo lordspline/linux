@@ -8,13 +8,13 @@
  * Copyright (C) 2008 Lineo Solutions, Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gpio.h>
 #include <video/sh_mobile_lcdc.h>
 #include <mach/kfr2r09.h>
 #include <cpu/sh7724.h>

@@ -3,9 +3,9 @@
  * Copyright (c) 2023 Neil Armstrong <neil.armstrong@linaro.org>
  */
 
-#include <linux/of_device.h>
-#include <linux/clk-provider.h>
-#include <linux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/module.h>
 #include "meson-clkc-utils.h"
 
 struct clk_hw *meson_clk_hw_get(struct of_phandle_args *clkspec, void *clk_hw_data)

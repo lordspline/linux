@@ -5,9 +5,9 @@
  * All rights reserved
  */
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

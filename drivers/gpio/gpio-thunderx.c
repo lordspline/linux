@@ -6,16 +6,16 @@
  * Copyright (C) 2016, 2017 Cavium Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/property.h>
-#include <linux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/property.h>
+#include <peenux/spinlock.h>
 
 #define GPIO_RX_DAT	0x0
 #define GPIO_TX_SET	0x8

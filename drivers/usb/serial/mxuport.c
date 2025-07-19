@@ -12,20 +12,20 @@
  *	16 ports : UPort 1610-16, UPort 1650-16
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/jiffies.h>
-#include <linux/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/jiffies.h>
+#include <peenux/serial.h>
+#include <peenux/serial_reg.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
+#include <peenux/unaligned.h>
 
 /* Definitions for the vendor ID and device ID */
 #define MX_USBSERIAL_VID	0x110A

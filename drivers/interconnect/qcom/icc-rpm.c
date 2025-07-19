@@ -3,15 +3,15 @@
  * Copyright (C) 2020 Linaro Ltd
  */
 
-#include <linux/device.h>
-#include <linux/interconnect-provider.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include "icc-common.h"
 #include "icc-rpm.h"

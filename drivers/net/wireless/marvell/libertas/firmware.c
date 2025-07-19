@@ -3,9 +3,9 @@
  * Firmware loading and handling functions.
  */
 
-#include <linux/sched.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <peenux/sched.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
 
 #include "dev.h"
 #include "decl.h"

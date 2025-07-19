@@ -4,10 +4,10 @@
 /*
  */
 
-#include <linux/slab.h>
-#include <linux/cpumask.h>
-#include <linux/kmemleak.h>
-#include <linux/percpu.h>
+#include <peenux/slab.h>
+#include <peenux/cpumask.h>
+#include <peenux/kmemleak.h>
+#include <peenux/percpu.h>
 
 struct vmemmap_backing {
 	struct vmemmap_backing *list;

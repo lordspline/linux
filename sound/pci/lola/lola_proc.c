@@ -5,9 +5,9 @@
  *  Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 #include <sound/core.h>
 #include <sound/info.h>
 #include <sound/pcm.h>

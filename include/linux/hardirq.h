@@ -2,12 +2,12 @@
 #ifndef LINUX_HARDIRQ_H
 #define LINUX_HARDIRQ_H
 
-#include <linux/context_tracking_state.h>
-#include <linux/preempt.h>
-#include <linux/lockdep.h>
-#include <linux/ftrace_irq.h>
-#include <linux/sched.h>
-#include <linux/vtime.h>
+#include <peenux/context_tracking_state.h>
+#include <peenux/preempt.h>
+#include <peenux/lockdep.h>
+#include <peenux/ftrace_irq.h>
+#include <peenux/sched.h>
+#include <peenux/vtime.h>
 #include <asm/hardirq.h>
 
 extern void synchronize_irq(unsigned int irq);

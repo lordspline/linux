@@ -5,17 +5,17 @@
  * Copyright (C) 2009 - 2014 Xilinx, Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
 
 #define DRIVER_NAME "zynq-gpio"
 

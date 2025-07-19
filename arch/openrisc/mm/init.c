@@ -2,7 +2,7 @@
 /*
  * OpenRISC idle.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Peenux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -11,21 +11,21 @@
  * Copyright (C) 2010-2011 Jonas Bonn <jonas@southpole.se>
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/memblock.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pagemap.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/smp.h>
+#include <peenux/memblock.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pagemap.h>
 
 #include <asm/pgalloc.h>
 #include <asm/dma.h>

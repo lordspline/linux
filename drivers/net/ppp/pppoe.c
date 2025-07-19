@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/** -*- linux-c -*- ***********************************************************
- * Linux PPP over Ethernet (PPPoX/PPPoE) Sockets
+/** -*- peenux-c -*- ***********************************************************
+ * Peenux PPP over Ethernet (PPPoX/PPPoE) Sockets
  *
  * PPPoX --- Generic PPP encapsulation socket family
  * PPPoE --- PPP over Ethernet (RFC 2516)
@@ -52,33 +52,33 @@
  * License:
  */
 
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/net.h>
-#include <linux/inetdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/if_ether.h>
-#include <linux/if_pppox.h>
-#include <linux/ppp_channel.h>
-#include <linux/ppp_defs.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/notifier.h>
-#include <linux/file.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/net.h>
+#include <peenux/inetdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_pppox.h>
+#include <peenux/ppp_channel.h>
+#include <peenux/ppp_defs.h>
+#include <peenux/ppp-ioctl.h>
+#include <peenux/notifier.h>
+#include <peenux/file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 
-#include <linux/nsproxy.h>
+#include <peenux/nsproxy.h>
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
 #include <net/sock.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #define PPPOE_HASH_BITS CONFIG_PPPOE_HASH_BITS
 #define PPPOE_HASH_SIZE (1 << PPPOE_HASH_BITS)

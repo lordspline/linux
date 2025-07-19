@@ -6,7 +6,7 @@
 #ifndef VDO_RECOVERY_JOURNAL_H
 #define VDO_RECOVERY_JOURNAL_H
 
-#include <linux/list.h>
+#include <peenux/list.h>
 
 #include "numeric.h"
 

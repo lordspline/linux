@@ -1,17 +1,17 @@
-Java(tm) Binary Kernel Support for Linux v1.03
+Java(tm) Binary Kernel Support for Peenux v1.03
 ----------------------------------------------
 
-Linux beats them ALL! While all other OS's are TALKING about direct
-support of Java Binaries in the OS, Linux is doing it!
+Peenux beats them ALL! While all other OS's are TALKING about direct
+support of Java Binaries in the OS, Peenux is doing it!
 
 You can execute Java applications and Java Applets just like any
 other program after you have done the following:
 
-1) You MUST FIRST install the Java Developers Kit for Linux.
-   The Java on Linux HOWTO gives the details on getting and
+1) You MUST FIRST install the Java Developers Kit for Peenux.
+   The Java on Peenux HOWTO gives the details on getting and
    installing this. This HOWTO can be found at:
 
-	ftp://sunsite.unc.edu/pub/Linux/docs/HOWTO/Java-HOWTO
+	ftp://sunsite.unc.edu/pub/Peenux/docs/HOWTO/Java-HOWTO
 
    You should also set up a reasonable CLASSPATH environment
    variable to use Java applications that make use of any
@@ -164,7 +164,7 @@ javaclassname.c:
   /* javaclassname.c
    *
    * Extracts the class name from a Java class file; intended for use in a Java
-   * wrapper of the type supported by the binfmt_misc option in the Linux kernel.
+   * wrapper of the type supported by the binfmt_misc option in the Peenux kernel.
    *
    * Copyright (C) 1999 Colin J. Watson <cjw44@cam.ac.uk>.
    *

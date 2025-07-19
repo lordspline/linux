@@ -8,16 +8,16 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/clocksource.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/sched.h> /* for spin_unlock_irq() using preempt_count() m68k */
-#include <linux/tick.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
-#include <linux/prandom.h>
-#include <linux/cpu.h>
+#include <peenux/device.h>
+#include <peenux/clocksource.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/sched.h> /* for spin_unlock_irq() using preempt_count() m68k */
+#include <peenux/tick.h>
+#include <peenux/kthread.h>
+#include <peenux/delay.h>
+#include <peenux/prandom.h>
+#include <peenux/cpu.h>
 
 #include "tick-internal.h"
 

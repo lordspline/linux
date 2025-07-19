@@ -40,26 +40,26 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/uaccess.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/socket.h>
-#include <linux/if_ether.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <linux/can.h>
-#include <linux/can/core.h>
-#include <linux/can/skb.h>
-#include <linux/can/can-ml.h>
-#include <linux/ratelimit.h>
+#include <peenux/module.h>
+#include <peenux/stddef.h>
+#include <peenux/init.h>
+#include <peenux/kmod.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/rcupdate.h>
+#include <peenux/uaccess.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/socket.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
+#include <peenux/can.h>
+#include <peenux/can/core.h>
+#include <peenux/can/skb.h>
+#include <peenux/can/can-ml.h>
+#include <peenux/ratelimit.h>
 #include <net/net_namespace.h>
 #include <net/sock.h>
 

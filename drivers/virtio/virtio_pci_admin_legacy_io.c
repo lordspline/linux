@@ -3,7 +3,7 @@
  * Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved
  */
 
-#include <linux/virtio_pci_admin.h>
+#include <peenux/virtio_pci_admin.h>
 #include "virtio_pci_common.h"
 
 /*

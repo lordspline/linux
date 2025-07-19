@@ -31,8 +31,8 @@
  *
  */
 
-#include <linux/mlx4/device.h>
-#include <linux/clocksource.h>
+#include <peenux/mlx4/device.h>
+#include <peenux/clocksource.h>
 
 #include "mlx4_en.h"
 

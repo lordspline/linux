@@ -3,11 +3,11 @@
  * Copyright (c) 2016 Maxime Ripard. All rights reserved.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include "ccu_common.h"
 #include "ccu_reset.h"

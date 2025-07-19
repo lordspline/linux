@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/usb/input.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/usb/input.h>
+#include <peenux/unaligned.h>
 
 /*
  * Pressure-threshold modules param code from Alex Perry <alex.perry@ieee.org>

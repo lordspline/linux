@@ -7,7 +7,7 @@
  *
  * (c) Copyright 2010-2013 Datera, Inc.
  *
- * Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Nicholas A. Bellinger <nab@peenux-iscsi.org>
  *
  ******************************************************************************/
 
@@ -16,12 +16,12 @@
  * on the formats implemented in this file.
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/spinlock.h>
+#include <peenux/export.h>
+#include <peenux/unaligned.h>
 
 #include <scsi/scsi_proto.h>
 

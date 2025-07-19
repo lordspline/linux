@@ -7,10 +7,10 @@
  *		 Frank Blaschka <frank.blaschka@de.ibm.com>
  */
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 #include <asm/ebcdic.h>
-#include <linux/hashtable.h>
-#include <linux/inet.h>
+#include <peenux/hashtable.h>
+#include <peenux/inet.h>
 #include "qeth_l3.h"
 
 #define QETH_DEVICE_ATTR(_id, _name, _mode, _show, _store) \

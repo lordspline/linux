@@ -4,23 +4,23 @@
  *
  * (c) Copyright 2013 Datera, Inc.
  *
- * Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Nicholas A. Bellinger <nab@peenux-iscsi.org>
  *
  ****************************************************************************/
 
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/in6.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_cm.h>
 #include <rdma/rdma_cm.h>
 #include <target/target_core_base.h>
 #include <target/target_core_fabric.h>
 #include <target/iscsi/iscsi_transport.h>
-#include <linux/semaphore.h>
+#include <peenux/semaphore.h>
 
 #include "ib_isert.h"
 
@@ -2657,7 +2657,7 @@ static void __exit isert_exit(void)
 }
 
 MODULE_DESCRIPTION("iSER-Target for mainline target infrastructure");
-MODULE_AUTHOR("nab@Linux-iSCSI.org");
+MODULE_AUTHOR("nab@Peenux-iSCSI.org");
 MODULE_LICENSE("GPL");
 
 module_init(isert_init);

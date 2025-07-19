@@ -12,17 +12,17 @@
  *  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/viperboard.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/viperboard.h>
 
-#include <linux/usb.h>
+#include <peenux/usb.h>
 
 
 static const struct usb_device_id vprbrd_table[] = {

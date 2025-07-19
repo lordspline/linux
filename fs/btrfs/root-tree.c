@@ -3,8 +3,8 @@
  * Copyright (C) 2007 Oracle.  All rights reserved.
  */
 
-#include <linux/err.h>
-#include <linux/uuid.h>
+#include <peenux/err.h>
+#include <peenux/uuid.h>
 #include "ctree.h"
 #include "fs.h"
 #include "messages.h"

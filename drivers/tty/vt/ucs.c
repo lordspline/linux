@@ -3,10 +3,10 @@
  * ucs.c - Universal Character Set processing
  */
 
-#include <linux/array_size.h>
-#include <linux/bsearch.h>
-#include <linux/consolemap.h>
-#include <linux/minmax.h>
+#include <peenux/array_size.h>
+#include <peenux/bsearch.h>
+#include <peenux/consolemap.h>
+#include <peenux/minmax.h>
 
 struct ucs_interval16 {
 	u16 first;

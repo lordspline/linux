@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	IPv6 Address [auto]configuration
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
@@ -36,32 +36,32 @@
 
 #define pr_fmt(fmt) "IPv6: " fmt
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/inet.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/if_addr.h>
-#include <linux/if_arp.h>
-#include <linux/if_arcnet.h>
-#include <linux/if_infiniband.h>
-#include <linux/route.h>
-#include <linux/inetdevice.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/inet.h>
+#include <peenux/in6.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_addr.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_arcnet.h>
+#include <peenux/if_infiniband.h>
+#include <peenux/route.h>
+#include <peenux/inetdevice.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 #ifdef CONFIG_SYSCTL
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 #endif
-#include <linux/capability.h>
-#include <linux/delay.h>
-#include <linux/notifier.h>
-#include <linux/string.h>
-#include <linux/hash.h>
+#include <peenux/capability.h>
+#include <peenux/delay.h>
+#include <peenux/notifier.h>
+#include <peenux/string.h>
+#include <peenux/hash.h>
 
 #include <net/ip_tunnels.h>
 #include <net/net_namespace.h>
@@ -81,17 +81,17 @@
 #include <net/pkt_sched.h>
 #include <net/l3mdev.h>
 #include <net/netdev_lock.h>
-#include <linux/if_tunnel.h>
-#include <linux/rtnetlink.h>
-#include <linux/netconf.h>
-#include <linux/random.h>
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
+#include <peenux/if_tunnel.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/netconf.h>
+#include <peenux/random.h>
+#include <peenux/uaccess.h>
+#include <peenux/unaligned.h>
 
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/export.h>
-#include <linux/ioam6.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/export.h>
+#include <peenux/ioam6.h>
 
 #define IPV6_MAX_STRLEN \
 	sizeof("ffff:ffff:ffff:ffff:ffff:ffff:255.255.255.255")

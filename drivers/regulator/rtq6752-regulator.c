@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
 
 enum {
 	RTQ6752_IDX_PAVDD = 0,

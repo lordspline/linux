@@ -12,11 +12,11 @@
 #ifndef _DEBUGFS_H_
 #define _DEBUGFS_H_
 
-#include <linux/fs.h>
-#include <linux/seq_file.h>
+#include <peenux/fs.h>
+#include <peenux/seq_file.h>
 
-#include <linux/types.h>
-#include <linux/compiler.h>
+#include <peenux/types.h>
+#include <peenux/compiler.h>
 
 struct device;
 struct file_operations;
@@ -255,7 +255,7 @@ debugfs_leave_cancellation(struct file *file,
 
 #else
 
-#include <linux/err.h>
+#include <peenux/err.h>
 
 /*
  * We do not return NULL from these functions if CONFIG_DEBUG_FS is not enabled

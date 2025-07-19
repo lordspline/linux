@@ -3,12 +3,12 @@
  * Copyright (C) 2014-2017 Linaro Ltd. <ard.biesheuvel@linaro.org>
  */
 
-#include <linux/elf.h>
-#include <linux/ftrace.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleloader.h>
-#include <linux/sort.h>
+#include <peenux/elf.h>
+#include <peenux/ftrace.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleloader.h>
+#include <peenux/sort.h>
 
 static struct plt_entry __get_adrp_add_pair(u64 dst, u64 pc,
 					    enum aarch64_insn_register reg)

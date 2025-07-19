@@ -4,11 +4,11 @@
  *
  * Copyright(C) 2022 linutronix GmbH
  */
-#include <linux/cpuhotplug.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/timerqueue.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/timerqueue.h>
 #include <trace/events/ipi.h>
 
 #include "timer_migration.h"

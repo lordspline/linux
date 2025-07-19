@@ -18,18 +18,18 @@
  *
  * Also see Documentation/locking/mutex-design.rst.
  */
-#include <linux/mutex.h>
-#include <linux/ww_mutex.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/rt.h>
-#include <linux/sched/wake_q.h>
-#include <linux/sched/debug.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/debug_locks.h>
-#include <linux/osq_lock.h>
-#include <linux/hung_task.h>
+#include <peenux/mutex.h>
+#include <peenux/ww_mutex.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/rt.h>
+#include <peenux/sched/wake_q.h>
+#include <peenux/sched/debug.h>
+#include <peenux/export.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/debug_locks.h>
+#include <peenux/osq_lock.h>
+#include <peenux/hung_task.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/lock.h>

@@ -7,10 +7,10 @@
  * Copyright (C) 2025 Linaro Ltd.
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
 
 #include "camss.h"
 #include "camss-vfe.h"

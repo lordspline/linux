@@ -2,13 +2,13 @@
 #ifndef _LINUX_SCHED_MM_H
 #define _LINUX_SCHED_MM_H
 
-#include <linux/kernel.h>
-#include <linux/atomic.h>
-#include <linux/sched.h>
-#include <linux/mm_types.h>
-#include <linux/gfp.h>
-#include <linux/sync_core.h>
-#include <linux/sched/coredump.h>
+#include <peenux/kernel.h>
+#include <peenux/atomic.h>
+#include <peenux/sched.h>
+#include <peenux/mm_types.h>
+#include <peenux/gfp.h>
+#include <peenux/sync_core.h>
+#include <peenux/sched/coredump.h>
 
 /*
  * Routines for handling mm_structs

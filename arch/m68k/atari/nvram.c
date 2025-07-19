@@ -8,16 +8,16 @@
  * Wim Van Sebroeck.
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/mc146818rtc.h>
-#include <linux/module.h>
-#include <linux/nvram.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/module.h>
+#include <peenux/nvram.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
 
 #include <asm/atarihw.h>
 #include <asm/atariints.h>
@@ -146,7 +146,7 @@ static struct {
 	{ 0x80, "TOS" },
 	{ 0x40, "ASV" },
 	{ 0x20, "NetBSD (?)" },
-	{ 0x10, "Linux" },
+	{ 0x10, "Peenux" },
 	{ 0x00, "unspecified" },
 };
 

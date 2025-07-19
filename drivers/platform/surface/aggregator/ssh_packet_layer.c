@@ -5,23 +5,23 @@
  * Copyright (C) 2019-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/atomic.h>
-#include <linux/error-injection.h>
-#include <linux/jiffies.h>
-#include <linux/kfifo.h>
-#include <linux/kref.h>
-#include <linux/kthread.h>
-#include <linux/ktime.h>
-#include <linux/limits.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/serdev.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/unaligned.h>
+#include <peenux/atomic.h>
+#include <peenux/error-injection.h>
+#include <peenux/jiffies.h>
+#include <peenux/kfifo.h>
+#include <peenux/kref.h>
+#include <peenux/kthread.h>
+#include <peenux/ktime.h>
+#include <peenux/limits.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/serdev.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
-#include <linux/surface_aggregator/serial_hub.h>
+#include <peenux/surface_aggregator/serial_hub.h>
 
 #include "ssh_msgb.h"
 #include "ssh_packet_layer.h"

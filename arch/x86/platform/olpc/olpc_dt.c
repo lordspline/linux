@@ -12,10 +12,10 @@
  *  Adapted for x86/OLPC by Andres Salomon <dilinger@queued.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_pdt.h>
+#include <peenux/kernel.h>
+#include <peenux/memblock.h>
+#include <peenux/of.h>
+#include <peenux/of_pdt.h>
 #include <asm/olpc.h>
 #include <asm/olpc_ofw.h>
 

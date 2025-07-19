@@ -33,7 +33,7 @@
 实现
 ----
 
-互斥锁由“struct mutex”表示，在include/linux/mutex.h中定义，并在
+互斥锁由“struct mutex”表示，在include/peenux/mutex.h中定义，并在
 kernel/locking/mutex.c中实现。这些锁使用一个原子变量（->owner）来跟踪
 它们生命周期内的锁状态。字段owner实际上包含的是指向当前锁所有者的
 `struct task_struct *` 指针，因此如果无人持有锁，则它的值为空（NULL）。

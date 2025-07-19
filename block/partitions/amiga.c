@@ -10,10 +10,10 @@
 
 #define pr_fmt(fmt) fmt
 
-#include <linux/types.h>
-#include <linux/mm_types.h>
-#include <linux/overflow.h>
-#include <linux/affs_hardblocks.h>
+#include <peenux/types.h>
+#include <peenux/mm_types.h>
+#include <peenux/overflow.h>
+#include <peenux/affs_hardblocks.h>
 
 #include "check.h"
 

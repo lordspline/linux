@@ -8,27 +8,27 @@
  * Copyright (C) 2007 MontaVista Software Inc.
  * Copyright (C) 2009 Provigent Ltd.
  */
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/units.h>
 
 #include "i2c-designware-core.h"
 

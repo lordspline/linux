@@ -7,10 +7,10 @@
  * Copyright 2017 Google Inc.
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "memconsole.h"
 #include "coreboot_table.h"

@@ -4,14 +4,14 @@
  * Author: James Liao <jamesjj.liao@mediatek.com>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/soc/mediatek/mtk-mmsys.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/soc/mediatek/mtk-mmsys.h>
 
 #include "mtk-mmsys.h"
 #include "mt8167-mmsys.h"

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2013,2018,2020-2021 Intel Corporation
 
-#include <linux/bitops.h>
-#include <linux/dmaengine.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/dmaengine.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "internal.h"
 

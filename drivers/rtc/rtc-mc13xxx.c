@@ -6,13 +6,13 @@
  * (C) 2009 Uwe Kleine-Koenig, Pengutronix
  */
 
-#include <linux/mfd/mc13xxx.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/rtc.h>
+#include <peenux/mfd/mc13xxx.h>
+#include <peenux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/slab.h>
+#include <peenux/rtc.h>
 
 #define DRIVER_NAME "mc13xxx-rtc"
 

@@ -30,17 +30,17 @@
  * SOFTWARE.
  */
 
-#include <linux/clocksource.h>
-#include <linux/highmem.h>
-#include <linux/log2.h>
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/clocksource.h>
+#include <peenux/highmem.h>
+#include <peenux/log2.h>
+#include <peenux/ptp_clock_kernel.h>
 #include <rdma/mlx5-abi.h>
 #include "lib/eq.h"
 #include "en.h"
 #include "clock.h"
 #ifdef CONFIG_X86
-#include <linux/timekeeping.h>
-#include <linux/cpufeature.h>
+#include <peenux/timekeeping.h>
+#include <peenux/cpufeature.h>
 #endif /* CONFIG_X86 */
 
 #define MLX5_RT_CLOCK_IDENTITY_SIZE MLX5_FLD_SZ_BYTES(mrtcq_reg, rt_clock_identity)

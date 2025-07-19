@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/net/ethernet/ibm/ehea/ehea_qmr.c
+ *  peenux/drivers/net/ethernet/ibm/ehea/ehea_qmr.c
  *
  *  eHEA ethernet device driver for IBM eServer System p
  *
@@ -14,8 +14,8 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 #include "ehea.h"
 #include "ehea_phyp.h"
 #include "ehea_qmr.h"

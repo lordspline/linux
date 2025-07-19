@@ -9,22 +9,22 @@
  * Copyright (C) 2011 Renesas Solutions Corp.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/sh_dma.h>
-#include <linux/spi/spi.h>
-#include <linux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/sh_dma.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spinlock.h>
 
 #define RSPI_SPCR		0x00	/* Control Register */
 #define RSPI_SSLP		0x01	/* Slave Select Polarity Register */

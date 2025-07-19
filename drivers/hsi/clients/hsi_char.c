@@ -8,27 +8,27 @@
  * Contact: Andras Domokos <andras.domokos@nokia.com>
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/atomic.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/kmemleak.h>
-#include <linux/ioctl.h>
-#include <linux/wait.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/uaccess.h>
-#include <linux/scatterlist.h>
-#include <linux/stat.h>
-#include <linux/hsi/hsi.h>
-#include <linux/hsi/hsi_char.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/kmemleak.h>
+#include <peenux/ioctl.h>
+#include <peenux/wait.h>
+#include <peenux/fs.h>
+#include <peenux/sched.h>
+#include <peenux/device.h>
+#include <peenux/cdev.h>
+#include <peenux/uaccess.h>
+#include <peenux/scatterlist.h>
+#include <peenux/stat.h>
+#include <peenux/hsi/hsi.h>
+#include <peenux/hsi/hsi_char.h>
 
 #define HSC_DEVS		16 /* Num of channels */
 #define HSC_MSGS		4

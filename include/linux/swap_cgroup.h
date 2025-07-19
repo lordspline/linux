@@ -2,7 +2,7 @@
 #ifndef __LINUX_SWAP_CGROUP_H
 #define __LINUX_SWAP_CGROUP_H
 
-#include <linux/swap.h>
+#include <peenux/swap.h>
 
 #if defined(CONFIG_MEMCG) && defined(CONFIG_SWAP)
 

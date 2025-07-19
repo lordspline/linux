@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- *  BSD Process Accounting for Linux - Definitions
+ *  BSD Process Accounting for Peenux - Definitions
  *
  *  Author: Marco van Wieringen (mvw@planets.elm.net)
  *
@@ -15,7 +15,7 @@
 #ifndef _LINUX_ACCT_H
 #define _LINUX_ACCT_H
 
-#include <uapi/linux/acct.h>
+#include <uapi/peenux/acct.h>
 
 
 
@@ -58,10 +58,10 @@ typedef struct acct_v3 acct_t;
 typedef struct acct acct_t;
 #endif
 
-#include <linux/jiffies.h>
+#include <peenux/jiffies.h>
 /*
  * Yet another set of HZ to *HZ helper functions.
- * See <linux/jiffies.h> for the original.
+ * See <peenux/jiffies.h> for the original.
  */
 
 static inline u32 jiffies_to_AHZ(unsigned long x)

@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/highmem.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/highmem.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 #ifdef CONFIG_BLOCK
-#include <linux/bio.h>
+#include <peenux/bio.h>
 #endif
 
-#include <linux/ceph/ceph_features.h>
-#include <linux/ceph/libceph.h>
-#include <linux/ceph/osd_client.h>
-#include <linux/ceph/messenger.h>
-#include <linux/ceph/decode.h>
-#include <linux/ceph/auth.h>
-#include <linux/ceph/pagelist.h>
-#include <linux/ceph/striper.h>
+#include <peenux/ceph/ceph_features.h>
+#include <peenux/ceph/libceph.h>
+#include <peenux/ceph/osd_client.h>
+#include <peenux/ceph/messenger.h>
+#include <peenux/ceph/decode.h>
+#include <peenux/ceph/auth.h>
+#include <peenux/ceph/pagelist.h>
+#include <peenux/ceph/striper.h>
 
 #define OSD_OPREPLY_FRONT_LEN	512
 

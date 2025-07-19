@@ -8,9 +8,9 @@
 #ifndef PTP_H
 #define PTP_H
 
-#include <linux/timecounter.h>
-#include <linux/time64.h>
-#include <linux/spinlock.h>
+#include <peenux/timecounter.h>
+#include <peenux/time64.h>
+#include <peenux/spinlock.h>
 
 struct ptp {
 	struct pci_dev *pdev;

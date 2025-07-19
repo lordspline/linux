@@ -3,7 +3,7 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/align.h>
+#include <peenux/align.h>
 
 #include <drm/drm_managed.h>
 

@@ -10,12 +10,12 @@
 #define _ASM_X86_PROM_H
 #ifndef __ASSEMBLER__
 
-#include <linux/of.h>
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <peenux/of.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
 
 #include <asm/irq.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/setup.h>
 
 #ifdef CONFIG_OF

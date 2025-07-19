@@ -6,14 +6,14 @@
  *
  *  Copyright (C) 2009 Magnus Damm
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/suspend.h>
-#include <linux/cpuidle.h>
-#include <linux/export.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/suspend.h>
+#include <peenux/cpuidle.h>
+#include <peenux/export.h>
 #include <asm/suspend.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 static unsigned long cpuidle_mode[] = {
 	SUSP_SH_SLEEP, /* regular sleep mode */

@@ -9,15 +9,15 @@
 #include "fman.h"
 #include "mac.h"
 
-#include <linux/slab.h>
-#include <linux/bitrev.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/phy.h>
-#include <linux/crc32.h>
-#include <linux/of_mdio.h>
-#include <linux/mii.h>
-#include <linux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/bitrev.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/phy.h>
+#include <peenux/crc32.h>
+#include <peenux/of_mdio.h>
+#include <peenux/mii.h>
+#include <peenux/netdevice.h>
 
 /* TBI register addresses */
 #define MII_TBICON		0x11

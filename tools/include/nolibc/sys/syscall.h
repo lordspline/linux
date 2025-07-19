@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: LGPL-2.1 OR MIT */
 /*
  * syscall() definition for NOLIBC
- * Copyright (C) 2024 Thomas Weißschuh <linux@weissschuh.net>
+ * Copyright (C) 2024 Thomas Weißschuh <peenux@weissschuh.net>
  */
 
 /* make sure to include all global symbols */

@@ -6,12 +6,12 @@
 //
 // Author: Jisheng Zhang <jszhang@kernel.org>
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
 
 #define SY8824C_BUCK_EN		(1 << 7)
 #define SY8824C_MODE		(1 << 6)

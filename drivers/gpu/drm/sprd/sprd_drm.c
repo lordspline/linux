@@ -3,13 +3,13 @@
  * Copyright (C) 2020 Unisoc Inc.
  */
 
-#include <linux/component.h>
-#include <linux/dma-mapping.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
+#include <peenux/component.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_drv.h>

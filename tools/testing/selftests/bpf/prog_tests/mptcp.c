@@ -2,7 +2,7 @@
 /* Copyright (c) 2020, Tessares SA. */
 /* Copyright (c) 2022, SUSE. */
 
-#include <linux/const.h>
+#include <peenux/const.h>
 #include <netinet/in.h>
 #include <test_progs.h>
 #include <unistd.h>

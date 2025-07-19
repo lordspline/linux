@@ -6,15 +6,15 @@
  */
 #define pr_fmt(fmt) "PM: " fmt
 
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/capability.h>
-#include <linux/export.h>
-#include <linux/suspend.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/pm_wakeirq.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
+#include <peenux/capability.h>
+#include <peenux/export.h>
+#include <peenux/suspend.h>
+#include <peenux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/pm_wakeirq.h>
 #include <trace/events/power.h>
 
 #include "power.h"

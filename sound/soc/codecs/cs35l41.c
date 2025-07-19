@@ -6,15 +6,15 @@
 //
 // Author: David Rhodes <david.rhodes@cirrus.com>
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

@@ -4,21 +4,21 @@
  *
  * Since these may be in userspace, we use (inline) accessors.
  */
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/vringh.h>
-#include <linux/virtio_ring.h>
-#include <linux/kernel.h>
-#include <linux/ratelimit.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/compiler.h>
+#include <peenux/module.h>
+#include <peenux/vringh.h>
+#include <peenux/virtio_ring.h>
+#include <peenux/kernel.h>
+#include <peenux/ratelimit.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 #if IS_REACHABLE(CONFIG_VHOST_IOTLB)
-#include <linux/bvec.h>
-#include <linux/highmem.h>
-#include <linux/vhost_iotlb.h>
+#include <peenux/bvec.h>
+#include <peenux/highmem.h>
+#include <peenux/vhost_iotlb.h>
 #endif
-#include <uapi/linux/virtio_config.h>
+#include <uapi/peenux/virtio_config.h>
 
 static __printf(1,2) __cold void vringh_bad(const char *fmt, ...)
 {

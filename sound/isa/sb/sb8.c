@@ -4,12 +4,12 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/isa.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 #include <sound/core.h>
 #include <sound/sb.h>
 #include <sound/opl3.h>

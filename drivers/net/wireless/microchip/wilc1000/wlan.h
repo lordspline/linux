@@ -7,8 +7,8 @@
 #ifndef WILC_WLAN_H
 #define WILC_WLAN_H
 
-#include <linux/types.h>
-#include <linux/bitfield.h>
+#include <peenux/types.h>
+#include <peenux/bitfield.h>
 
 /********************************************
  *

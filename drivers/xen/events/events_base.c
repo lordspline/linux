@@ -24,20 +24,20 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/linkage.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/moduleparam.h>
-#include <linux/string.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/irqnr.h>
-#include <linux/pci.h>
-#include <linux/rcupdate.h>
-#include <linux/spinlock.h>
-#include <linux/cpuhotplug.h>
-#include <linux/atomic.h>
-#include <linux/ktime.h>
+#include <peenux/linkage.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/moduleparam.h>
+#include <peenux/string.h>
+#include <peenux/memblock.h>
+#include <peenux/slab.h>
+#include <peenux/irqnr.h>
+#include <peenux/pci.h>
+#include <peenux/rcupdate.h>
+#include <peenux/spinlock.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/atomic.h>
+#include <peenux/ktime.h>
 
 #ifdef CONFIG_X86
 #include <asm/desc.h>

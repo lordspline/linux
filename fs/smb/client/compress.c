@@ -12,10 +12,10 @@
  * MS-SMB2 "3.1.5.3 Decompressing the Chained Message"
  * MS-XCA - for details of the supported algorithms
  */
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/uio.h>
-#include <linux/sort.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/uio.h>
+#include <peenux/sort.h>
 
 #include "cifsglob.h"
 #include "../common/smb2pdu.h"

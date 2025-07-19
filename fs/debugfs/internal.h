@@ -7,7 +7,7 @@
 
 #ifndef _DEBUGFS_INTERNAL_H_
 #define _DEBUGFS_INTERNAL_H_
-#include <linux/list.h>
+#include <peenux/list.h>
 
 struct file_operations;
 

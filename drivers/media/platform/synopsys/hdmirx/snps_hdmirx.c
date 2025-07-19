@@ -8,27 +8,27 @@
  * Author: Dingxian Wen <shawn.wen@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hdmi.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mfd/syscon.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/v4l2-dv-timings.h>
-#include <linux/workqueue.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/hdmi.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/v4l2-dv-timings.h>
+#include <peenux/workqueue.h>
 
 #include <media/cec.h>
 #include <media/v4l2-common.h>

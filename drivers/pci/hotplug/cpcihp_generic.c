@@ -15,11 +15,11 @@
  * Send feedback to <scottm@somanetworks.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
 #include "cpci_hotplug.h"
 
 #define DRIVER_VERSION	"0.1"

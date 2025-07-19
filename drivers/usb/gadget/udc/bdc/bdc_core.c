@@ -6,25 +6,25 @@
  *
  * Author: Ashwini Pahuja
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/moduleparam.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/clk.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/moduleparam.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/clk.h>
 
 #include "bdc.h"
 #include "bdc_dbg.h"
@@ -652,6 +652,6 @@ static struct platform_driver bdc_driver = {
 };
 
 module_platform_driver(bdc_driver);
-MODULE_AUTHOR("Ashwini Pahuja <ashwini.linux@gmail.com>");
+MODULE_AUTHOR("Ashwini Pahuja <ashwini.peenux@gmail.com>");
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION(BRCM_BDC_DESC);

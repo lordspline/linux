@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * amc6821.c - Part of lm_sensors, Linux kernel modules for hardware
+ * amc6821.c - Part of lm_sensors, Peenux kernel modules for hardware
  *	       monitoring
  * Copyright (C) 2009 T. Mertelj <tomaz.mertelj@guest.arnes.si>
  *
@@ -8,24 +8,24 @@
  * Copyright (C) 2007 Hans J. Koch <hjk@hansjkoch.de>
  *
  * Conversion to regmap and with_info API:
- * Copyright (C) 2024 Guenter Roeck <linux@roeck-us.net>
+ * Copyright (C) 2024 Guenter Roeck <peenux@roeck-us.net>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_platform.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_platform.h>
+#include <peenux/pwm.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/pwm/pwm.h>
 

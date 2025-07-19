@@ -2,8 +2,8 @@
 #ifndef __MFD_88PM886_H
 #define __MFD_88PM886_H
 
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 
 #define PM886_A1_CHIP_ID		0xa1
 

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* -*- linux-c -*-
+/* -*- peenux-c -*-
  * INET		802.1Q VLAN
  *		Ethernet-type device handling.
  *
@@ -17,22 +17,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/net_tstamp.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/phy.h>
 #include <net/arp.h>
 #include <net/macsec.h>
 #include <net/netdev_lock.h>
 
 #include "vlan.h"
 #include "vlanproc.h"
-#include <linux/if_vlan.h>
-#include <linux/netpoll.h>
+#include <peenux/if_vlan.h>
+#include <peenux/netpoll.h>
 
 /*
  *	Create the VLAN header for an arbitrary protocol layer
@@ -211,7 +211,7 @@ int vlan_dev_set_egress_priority(const struct net_device *dev,
 }
 
 /* Flags are defined in the vlan_flags enum in
- * include/uapi/linux/if_vlan.h file.
+ * include/uapi/peenux/if_vlan.h file.
  */
 int vlan_dev_change_flags(const struct net_device *dev, u32 flags, u32 mask)
 {

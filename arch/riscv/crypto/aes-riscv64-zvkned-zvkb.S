@@ -42,7 +42,7 @@
 // - RISC-V Vector AES block cipher extension ('Zvkned')
 // - RISC-V Vector Cryptography Bit-manipulation extension ('Zvkb')
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 .text
 .option arch, +zvkned, +zvkb

@@ -5,34 +5,34 @@
  * Copyright (c) 2012, Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/compiler.h>
-#include <linux/stddef.h>
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/acpi.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
+#include <peenux/bitfield.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/platform_device.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/compiler.h>
+#include <peenux/stddef.h>
+#include <peenux/bitops.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/acpi.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/pm.h>
-#include <linux/mmc/slot-gpio.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/pm.h>
+#include <peenux/mmc/slot-gpio.h>
 
 #ifdef CONFIG_X86
-#include <linux/platform_data/x86/soc.h>
+#include <peenux/platform_data/x86/soc.h>
 #include <asm/iosf_mbi.h>
 #endif
 

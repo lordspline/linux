@@ -13,15 +13,15 @@
 
 #include "cx231xx.h"
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-event.h>

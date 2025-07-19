@@ -8,7 +8,7 @@ title: Lantiq SoC ASC serial controller
 
 maintainers:
   - John Crispin <john@phrozen.org>
-  - Songjun Wu <songjun.wu@linux.intel.com>
+  - Songjun Wu <songjun.wu@peenux.intel.com>
 
 allOf:
   - $ref: /schemas/serial/serial.yaml#

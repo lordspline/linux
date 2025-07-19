@@ -34,8 +34,8 @@
 			label = "Volume Up";
 			debounce-interval = <15>;
 			gpios = <&pm8550_gpios 6 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
-			linux,can-disable;
+			peenux,code = <KEY_VOLUMEUP>;
+			peenux,can-disable;
 			wakeup-source;
 		};
 	};
@@ -236,7 +236,7 @@
 };
 
 &pon_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	peenux,code = <KEY_VOLUMEDOWN>;
 
 	status = "okay";
 };

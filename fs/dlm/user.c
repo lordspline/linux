@@ -3,18 +3,18 @@
  * Copyright (C) 2006-2010 Red Hat, Inc.  All rights reserved.
  */
 
-#include <linux/miscdevice.h>
-#include <linux/init.h>
-#include <linux/wait.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/signal.h>
-#include <linux/spinlock.h>
-#include <linux/dlm.h>
-#include <linux/dlm_device.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
+#include <peenux/miscdevice.h>
+#include <peenux/init.h>
+#include <peenux/wait.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/poll.h>
+#include <peenux/signal.h>
+#include <peenux/spinlock.h>
+#include <peenux/dlm.h>
+#include <peenux/dlm_device.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
 
 #include <trace/events/dlm.h>
 

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/seq_file.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/proc_fs.h>
+#include <peenux/slab.h>
 #include <xen/interface/platform.h>
 #include <asm/xen/hypercall.h>
 #include <xen/xen-ops.h>

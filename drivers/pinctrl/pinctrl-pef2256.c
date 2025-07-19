@@ -7,16 +7,16 @@
  * Author: Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/framer/pef2256.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/framer/pef2256.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 /* Port Configuration 1..4 */
 #define PEF2256_PC1		  0x80

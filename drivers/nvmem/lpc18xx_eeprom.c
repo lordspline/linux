@@ -5,16 +5,16 @@
  * Copyright (c) 2015 Ariel D'Alessandro <ariel@vanguardiasur.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/nvmem-provider.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 
 /* Registers */
 #define LPC18XX_EEPROM_AUTOPROG			0x00c

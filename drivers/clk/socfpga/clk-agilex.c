@@ -2,10 +2,10 @@
 /*
  * Copyright (C) 2019, Intel Corporation
  */
-#include <linux/slab.h>
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <dt-bindings/clock/agilex-clock.h>
 

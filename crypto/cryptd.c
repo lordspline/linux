@@ -16,16 +16,16 @@
 #include <crypto/internal/aead.h>
 #include <crypto/internal/skcipher.h>
 #include <crypto/cryptd.h>
-#include <linux/refcount.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/refcount.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 static unsigned int cryptd_max_cpu_qlen = 1000;
 module_param(cryptd_max_cpu_qlen, uint, 0);

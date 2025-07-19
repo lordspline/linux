@@ -6,9 +6,9 @@
  *
  * Generic x86 APIC driver probe layer.
  */
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/smp.h>
+#include <peenux/export.h>
+#include <peenux/errno.h>
+#include <peenux/smp.h>
 
 #include <xen/xen.h>
 

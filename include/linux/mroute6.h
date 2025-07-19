@@ -3,12 +3,12 @@
 #define __LINUX_MROUTE6_H
 
 
-#include <linux/pim.h>
-#include <linux/skbuff.h>	/* for struct sk_buff_head */
+#include <peenux/pim.h>
+#include <peenux/skbuff.h>	/* for struct sk_buff_head */
 #include <net/net_namespace.h>
-#include <uapi/linux/mroute6.h>
-#include <linux/mroute_base.h>
-#include <linux/sockptr.h>
+#include <uapi/peenux/mroute6.h>
+#include <peenux/mroute_base.h>
+#include <peenux/sockptr.h>
 #include <net/fib_rules.h>
 
 #ifdef CONFIG_IPV6_MROUTE

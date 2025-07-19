@@ -8,24 +8,24 @@
 
 #include <asm/head.h>
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/threads.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
-#include <linux/cache.h>
-#include <linux/delay.h>
-#include <linux/profile.h>
-#include <linux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/threads.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/cache.h>
+#include <peenux/delay.h>
+#include <peenux/profile.h>
+#include <peenux/cpu.h>
 
 #include <asm/ptrace.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include <asm/irq.h>
 #include <asm/page.h>

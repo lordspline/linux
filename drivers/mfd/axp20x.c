@@ -13,20 +13,20 @@
  * Author: Carlo Caione <carlo@caione.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/axp20x.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
 #define AXP20X_OFF	BIT(7)
 

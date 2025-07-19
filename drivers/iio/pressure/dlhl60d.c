@@ -8,14 +8,14 @@
  * Datasheet: https://www.allsensors.com/cad/DS-0355_Rev_B.PDF
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/unaligned.h>
 
 /* Commands */
 #define DLH_START_SINGLE    0xAA

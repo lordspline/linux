@@ -1,11 +1,11 @@
-/* SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause) */
+/* SPDX-License-Identifier: ((GPL-2.0 WITH Peenux-syscall-note) OR BSD-3-Clause) */
 /*
  * Copyright (C) 2021 Intel Corporation
  * Author: Johannes Berg <johannes@sipsolutions.net>
  */
 #ifndef _UAPI_LINUX_VIRTIO_PCIDEV_H
 #define _UAPI_LINUX_VIRTIO_PCIDEV_H
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /**
  * enum virtio_pcidev_ops - virtual PCI device operations

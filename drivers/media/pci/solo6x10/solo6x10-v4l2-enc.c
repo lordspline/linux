@@ -9,10 +9,10 @@
  * John Brooks <john.brooks@bluecherry.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
 
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-common.h>

@@ -5,12 +5,12 @@
  *  Copyright (C) 2013 Boris BREZILLON <b.brezillon@overkiz.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/io.h>
 
 #include <dt-bindings/clock/at91.h>
 

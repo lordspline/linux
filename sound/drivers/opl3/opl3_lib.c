@@ -10,12 +10,12 @@
  */
 
 #include <sound/opl3.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
 #include <sound/minors.h>
 #include "opl3_voice.h"
 

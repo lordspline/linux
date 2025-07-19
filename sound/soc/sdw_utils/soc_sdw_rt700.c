@@ -7,9 +7,9 @@
  *  soc_sdw_rt700 - Helpers to handle RT700 from generic machine driver
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/input.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/input.h>
 #include <sound/control.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>

@@ -4,29 +4,29 @@
  * Copyright (C) 2004-2006 Red Hat, Inc.  All rights reserved.
  */
 
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/compat.h>
-#include <linux/completion.h>
-#include <linux/buffer_head.h>
-#include <linux/pagemap.h>
-#include <linux/uio.h>
-#include <linux/blkdev.h>
-#include <linux/mm.h>
-#include <linux/mount.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/gfs2_ondisk.h>
-#include <linux/falloc.h>
-#include <linux/swap.h>
-#include <linux/crc32.h>
-#include <linux/writeback.h>
-#include <linux/uaccess.h>
-#include <linux/dlm.h>
-#include <linux/dlm_plock.h>
-#include <linux/delay.h>
-#include <linux/backing-dev.h>
-#include <linux/fileattr.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/compat.h>
+#include <peenux/completion.h>
+#include <peenux/buffer_head.h>
+#include <peenux/pagemap.h>
+#include <peenux/uio.h>
+#include <peenux/blkdev.h>
+#include <peenux/mm.h>
+#include <peenux/mount.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/gfs2_ondisk.h>
+#include <peenux/falloc.h>
+#include <peenux/swap.h>
+#include <peenux/crc32.h>
+#include <peenux/writeback.h>
+#include <peenux/uaccess.h>
+#include <peenux/dlm.h>
+#include <peenux/dlm_plock.h>
+#include <peenux/delay.h>
+#include <peenux/backing-dev.h>
+#include <peenux/fileattr.h>
 
 #include "gfs2.h"
 #include "incore.h"

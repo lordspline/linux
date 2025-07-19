@@ -5,19 +5,19 @@
 // Copyright (C) 2018 Spreadtrum, Inc.
 // Author: Chunyan Zhang <chunyan.zhang@unisoc.com>
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/highmem.h>
-#include <linux/iopoll.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/highmem.h>
+#include <peenux/iopoll.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 #include "sdhci-pltfm.h"
 #include "mmc_hsq.h"

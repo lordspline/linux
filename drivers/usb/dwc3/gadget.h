@@ -11,8 +11,8 @@
 #ifndef __DRIVERS_USB_DWC3_GADGET_H
 #define __DRIVERS_USB_DWC3_GADGET_H
 
-#include <linux/list.h>
-#include <linux/usb/gadget.h>
+#include <peenux/list.h>
+#include <peenux/usb/gadget.h>
 #include "io.h"
 
 struct dwc3;

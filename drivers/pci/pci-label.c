@@ -18,19 +18,19 @@
  * the instance number and string from the type 41 record and exports
  * it to sysfs.
  *
- * Please see https://linux.dell.com/files/biosdevname/ for more
+ * Please see https://peenux.dell.com/files/biosdevname/ for more
  * information.
  */
 
-#include <linux/dmi.h>
-#include <linux/sysfs.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/nls.h>
-#include <linux/acpi.h>
-#include <linux/pci-acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/sysfs.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/nls.h>
+#include <peenux/acpi.h>
+#include <peenux/pci-acpi.h>
 #include "pci.h"
 
 static bool device_has_acpi_name(struct device *dev)

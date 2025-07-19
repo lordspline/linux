@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/kernel/xscale-cp0.c
+ * peenux/arch/arm/kernel/xscale-cp0.c
  *
  * XScale DSP and iWMMXt coprocessor context switching and handling
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 #include <asm/thread_notify.h>
 #include <asm/cputype.h>
 

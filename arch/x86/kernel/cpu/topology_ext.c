@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/cpu.h>
+#include <peenux/cpu.h>
 
 #include <asm/apic.h>
 #include <asm/memtype.h>

@@ -5,19 +5,19 @@
  * Copyright (c) 2015 Jiri Pirko <jiri@resnulli.us>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/rhashtable.h>
-#include <linux/workqueue.h>
-#include <linux/refcount.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/rhashtable.h>
+#include <peenux/workqueue.h>
+#include <peenux/refcount.h>
+#include <peenux/bitfield.h>
 
-#include <linux/if_ether.h>
-#include <linux/in6.h>
-#include <linux/ip.h>
-#include <linux/mpls.h>
-#include <linux/ppp_defs.h>
+#include <peenux/if_ether.h>
+#include <peenux/in6.h>
+#include <peenux/ip.h>
+#include <peenux/mpls.h>
+#include <peenux/ppp_defs.h>
 
 #include <net/sch_generic.h>
 #include <net/pkt_cls.h>
@@ -34,7 +34,7 @@
 #include <net/dst.h>
 #include <net/dst_metadata.h>
 
-#include <uapi/linux/netfilter/nf_conntrack_common.h>
+#include <uapi/peenux/netfilter/nf_conntrack_common.h>
 
 #define TCA_FLOWER_KEY_CT_FLAGS_MAX \
 		((__TCA_FLOWER_KEY_CT_FLAGS_MAX - 1) << 1)

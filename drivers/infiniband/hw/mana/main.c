@@ -4,7 +4,7 @@
  */
 
 #include "mana_ib.h"
-#include "linux/pci.h"
+#include "peenux/pci.h"
 
 void mana_ib_uncfg_vport(struct mana_ib_dev *dev, struct mana_ib_pd *pd,
 			 u32 port)

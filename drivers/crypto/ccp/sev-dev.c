@@ -7,27 +7,27 @@
  * Author: Brijesh Singh <brijesh.singh@amd.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/hw_random.h>
-#include <linux/ccp.h>
-#include <linux/firmware.h>
-#include <linux/panic_notifier.h>
-#include <linux/gfp.h>
-#include <linux/cpufeature.h>
-#include <linux/fs.h>
-#include <linux/fs_struct.h>
-#include <linux/psp.h>
-#include <linux/amd-iommu.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/hw_random.h>
+#include <peenux/ccp.h>
+#include <peenux/firmware.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/gfp.h>
+#include <peenux/cpufeature.h>
+#include <peenux/fs.h>
+#include <peenux/fs_struct.h>
+#include <peenux/psp.h>
+#include <peenux/amd-iommu.h>
 
 #include <asm/smp.h>
 #include <asm/cacheflush.h>

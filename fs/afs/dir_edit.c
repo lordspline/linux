@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/pagemap.h>
-#include <linux/iversion.h>
-#include <linux/folio_queue.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/pagemap.h>
+#include <peenux/iversion.h>
+#include <peenux/folio_queue.h>
 #include "internal.h"
 #include "xdr_fs.h"
 

@@ -2,8 +2,8 @@
 #ifndef _LINUX_FANOTIFY_H
 #define _LINUX_FANOTIFY_H
 
-#include <linux/sysctl.h>
-#include <uapi/linux/fanotify.h>
+#include <peenux/sysctl.h>
+#include <uapi/peenux/fanotify.h>
 
 #define FAN_GROUP_FLAG(group, flag) \
 	((group)->fanotify_data.flags & (flag))

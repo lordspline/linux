@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2015 International Business Machines Inc.
  *
- * Author: Leonidas S. Barbosa <leosilva@linux.vnet.ibm.com>
+ * Author: Leonidas S. Barbosa <leosilva@peenux.vnet.ibm.com>
  */
 
 #include <asm/simd.h>
@@ -13,10 +13,10 @@
 #include <crypto/internal/simd.h>
 #include <crypto/internal/skcipher.h>
 #include <crypto/xts.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
 
 #include "aesp8-ppc.h"
 

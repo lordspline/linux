@@ -7,13 +7,13 @@
  * Copyright (C) 2010-2012 Hauke Mehrtens <hauke@hauke-m.de>
  */
 
-#include <linux/io.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/mtd/mtd.h>
-#include <linux/bcm47xx_nvram.h>
+#include <peenux/io.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/bcm47xx_nvram.h>
 
 #define NVRAM_MAGIC			0x48534C46	/* 'FLSH' */
 #define NVRAM_SPACE			0x10000

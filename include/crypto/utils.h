@@ -7,9 +7,9 @@
 #ifndef _CRYPTO_UTILS_H
 #define _CRYPTO_UTILS_H
 
-#include <linux/unaligned.h>
-#include <linux/compiler_attributes.h>
-#include <linux/types.h>
+#include <peenux/unaligned.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/types.h>
 
 void __crypto_xor(u8 *dst, const u8 *src1, const u8 *src2, unsigned int size);
 

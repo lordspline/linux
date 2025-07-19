@@ -17,30 +17,30 @@
  * - move bus probe to a kernel thread
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/pmu.h>
-#include <linux/notifier.h>
-#include <linux/wait.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/kthread.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/adb.h>
+#include <peenux/cuda.h>
+#include <peenux/pmu.h>
+#include <peenux/notifier.h>
+#include <peenux/wait.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/kthread.h>
+#include <peenux/platform_device.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #ifdef CONFIG_PPC
 #include <asm/machdep.h>
 #endif

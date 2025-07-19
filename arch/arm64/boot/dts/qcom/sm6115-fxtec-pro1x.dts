@@ -63,8 +63,8 @@
 
 		hall-switch {
 			label = "Hall Switch";
-			linux,input-type = <EV_SW>;
-			linux,code = <SW_KEYPAD_SLIDE>;
+			peenux,input-type = <EV_SW>;
+			peenux,code = <SW_KEYPAD_SLIDE>;
 			gpios = <&tlmm 96 GPIO_ACTIVE_HIGH>;
 			debounce-interval = <90>;
 			wakeup-source;
@@ -72,17 +72,17 @@
 
 		key-camera {
 			label = "Camera Button";
-			linux,code = <KEY_CAMERA>;
+			peenux,code = <KEY_CAMERA>;
 			gpios = <&tlmm 18 GPIO_ACTIVE_LOW>;
 			debounce-interval = <15>;
 		};
 
 		key-volume-up {
 			label = "Volume Up";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			gpios = <&pm6125_gpios 5 GPIO_ACTIVE_LOW>;
 			debounce-interval = <15>;
-			linux,can-disable;
+			peenux,can-disable;
 			wakeup-source;
 		};
 	};
@@ -95,7 +95,7 @@
 			function = LED_FUNCTION_CAPSLOCK;
 			color = <LED_COLOR_ID_GREEN>;
 			gpios = <&pca9534 1 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "kbd-capslock";
+			peenux,default-trigger = "kbd-capslock";
 			default-state = "off";
 		};
 	};
@@ -283,7 +283,7 @@
 };
 
 &pon_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	peenux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

@@ -7,13 +7,13 @@
  *
  */
 
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include <keys/user-type.h>
-#include <linux/key-type.h>
-#include <linux/keyctl.h>
-#include <linux/inet.h>
+#include <peenux/key-type.h>
+#include <peenux/keyctl.h>
+#include <peenux/inet.h>
 #include "cifsglob.h"
 #include "cifs_spnego.h"
 #include "cifs_debug.h"

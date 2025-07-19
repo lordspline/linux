@@ -5,18 +5,18 @@
  * Copyright 2022, 2025 Advanced Micro Devices, Inc.
  */
 
-#include <linux/pci.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/interrupt.h>
 #include <sound/pcm_params.h>
-#include <linux/pm_runtime.h>
-#include <linux/iopoll.h>
-#include <linux/soundwire/sdw_amd.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/iopoll.h>
+#include <peenux/soundwire/sdw_amd.h>
 #include "../mach-config.h"
 
 #include "acp63.h"

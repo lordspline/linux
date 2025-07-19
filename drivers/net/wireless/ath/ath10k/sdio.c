@@ -6,15 +6,15 @@
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/sd.h>
-#include <linux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/sdio_func.h>
+#include <peenux/mmc/sdio_ids.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/sd.h>
+#include <peenux/bitfield.h>
 #include "core.h"
 #include "bmi.h"
 #include "debug.h"

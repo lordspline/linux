@@ -7,8 +7,8 @@
 #ifndef _QED_INT_H
 #define _QED_INT_H
 
-#include <linux/types.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
 #include "qed.h"
 
 /* Fields of IGU PF CONFIGURATION REGISTER */

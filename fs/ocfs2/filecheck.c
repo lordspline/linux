@@ -7,15 +7,15 @@
  * Copyright (C) 2016 SuSE.  All rights reserved.
  */
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/kmod.h>
-#include <linux/fs.h>
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
-#include <linux/sysctl.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/kmod.h>
+#include <peenux/fs.h>
+#include <peenux/kobject.h>
+#include <peenux/sysfs.h>
+#include <peenux/sysctl.h>
 #include <cluster/masklog.h>
 
 #include "ocfs2.h"

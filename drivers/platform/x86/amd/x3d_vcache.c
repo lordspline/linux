@@ -12,16 +12,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/sysfs.h>
-#include <linux/uuid.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/sysfs.h>
+#include <peenux/uuid.h>
 
 static char *x3d_mode = "frequency";
 module_param(x3d_mode, charp, 0);

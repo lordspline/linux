@@ -12,21 +12,21 @@
  * Chris Zankel <chris@zankel.net>
  */
 
-#include <linux/clk.h>
-#include <linux/of_clk.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/time.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/profile.h>
-#include <linux/delay.h>
-#include <linux/irqdomain.h>
-#include <linux/sched_clock.h>
+#include <peenux/clk.h>
+#include <peenux/of_clk.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/time.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/profile.h>
+#include <peenux/delay.h>
+#include <peenux/irqdomain.h>
+#include <peenux/sched_clock.h>
 
 #include <asm/timex.h>
 #include <asm/platform.h>

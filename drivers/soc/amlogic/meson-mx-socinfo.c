@@ -4,16 +4,16 @@
  * SPDX-License-Identifier: GPL-2.0+
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/bitfield.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
+#include <peenux/bitfield.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 
 #define MESON_SOCINFO_MAJOR_VER_MESON6		0x16
 #define MESON_SOCINFO_MAJOR_VER_MESON8		0x19

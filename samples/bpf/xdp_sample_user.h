@@ -3,7 +3,7 @@
 #define XDP_SAMPLE_USER_H
 
 #include <bpf/libbpf.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 #include "xdp_sample_shared.h"
 

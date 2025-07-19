@@ -7,12 +7,12 @@
  *
  * Based on goodix_ts_berlin driver.
  */
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/input.h>
+#include <peenux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/input.h>
 
 #include "goodix_berlin.h"
 

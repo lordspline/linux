@@ -22,12 +22,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/fs.h>
-#include <linux/cleanup.h>
+#include <peenux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/fs.h>
+#include <peenux/cleanup.h>
 
 #include <acpi/cppc_acpi.h>
 

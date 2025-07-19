@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/workqueue.h>
-#include <linux/netdevice.h>
-#include <linux/filter.h>
-#include <linux/cache.h>
-#include <linux/if_vlan.h>
-#include <linux/execmem.h>
+#include <peenux/workqueue.h>
+#include <peenux/netdevice.h>
+#include <peenux/filter.h>
+#include <peenux/cache.h>
+#include <peenux/if_vlan.h>
+#include <peenux/execmem.h>
 
 #include <asm/cacheflush.h>
 #include <asm/ptrace.h>

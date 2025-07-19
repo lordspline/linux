@@ -8,12 +8,12 @@
  *  Copyright (C) 1993 Hamish Macdonald
  */
 
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
 
 
 enum {
@@ -270,7 +270,7 @@ static struct platform_driver rp5c01_rtc_driver = {
 
 module_platform_driver_probe(rp5c01_rtc_driver, rp5c01_rtc_probe);
 
-MODULE_AUTHOR("Geert Uytterhoeven <geert@linux-m68k.org>");
+MODULE_AUTHOR("Geert Uytterhoeven <geert@peenux-m68k.org>");
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Ricoh RP5C01 RTC driver");
 MODULE_ALIAS("platform:rtc-rp5c01");

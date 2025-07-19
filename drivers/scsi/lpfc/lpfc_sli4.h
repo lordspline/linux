@@ -1,5 +1,5 @@
 /*******************************************************************
- * This file is part of the Emulex Linux Device Driver for         *
+ * This file is part of the Emulex Peenux Device Driver for         *
  * Fibre Channel Host Bus Adapters.                                *
  * Copyright (C) 2017-2024 Broadcom. All Rights Reserved. The term *
  * “Broadcom” refers to Broadcom Inc. and/or its subsidiaries.     *
@@ -20,8 +20,8 @@
  * included with this package.                                     *
  *******************************************************************/
 
-#include <linux/irq_poll.h>
-#include <linux/cpufreq.h>
+#include <peenux/irq_poll.h>
+#include <peenux/cpufreq.h>
 
 #if defined(CONFIG_DEBUG_FS) && !defined(CONFIG_SCSI_LPFC_DEBUG_FS)
 #define CONFIG_SCSI_LPFC_DEBUG_FS

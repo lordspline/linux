@@ -5,10 +5,10 @@
  * Copyright 2019, Michael Neuling, IBM Corporation.
  */
 
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/debugfs.h>
+#include <peenux/types.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/debugfs.h>
 #include <asm/machdep.h>
 #include <asm/hvcall.h>
 #include <asm/firmware.h>

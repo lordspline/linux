@@ -3,14 +3,14 @@
  * Copyright (C) 2007 Red Hat.  All rights reserved.
  */
 
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/xattr.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/posix_acl.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
+#include <peenux/xattr.h>
+#include <peenux/posix_acl_xattr.h>
+#include <peenux/posix_acl.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/slab.h>
 #include "ctree.h"
 #include "xattr.h"
 #include "acl.h"

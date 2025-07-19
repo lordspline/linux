@@ -6,20 +6,20 @@
  * Copyright 2021 Jonathan Cameron <Jonathan.Cameron@huawei.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/events.h>
 
 #define AD7150_STATUS_REG		0
 #define   AD7150_STATUS_OUT1		BIT(3)

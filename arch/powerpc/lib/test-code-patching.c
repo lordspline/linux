@@ -3,8 +3,8 @@
  *  Copyright 2008 Michael Ellerman, IBM Corporation.
  */
 
-#include <linux/vmalloc.h>
-#include <linux/init.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
 
 #include <asm/text-patching.h>
 

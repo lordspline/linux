@@ -12,14 +12,14 @@
  * This driver only supports the asynchronous serial interface.
  */
 
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/serial.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
+#include <peenux/serial.h>
+#include <peenux/unaligned.h>
 
 #define DEFAULT_BAUD_RATE 9600
 #define DEFAULT_TIMEOUT   1000

@@ -19,9 +19,9 @@
  * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  */
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/firmware.h>
 #include "amdgpu.h"
 #include "amdgpu_amdkfd.h"
 #include "amdgpu_amdkfd_arcturus.h"

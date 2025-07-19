@@ -5,12 +5,12 @@
 
 #define DSS_SUBSYS_NAME "PLL"
 
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/sched.h>
 
 #include "omapdss.h"
 #include "dss.h"

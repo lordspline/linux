@@ -55,17 +55,17 @@
 
 #include "gpibP.h"
 #include "gpib_state_machines.h"
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio.h>
-#include <linux/irq.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio.h>
+#include <peenux/irq.h>
 
 static int sn7516x_used = 1, sn7516x;
 module_param(sn7516x_used, int, 0660);

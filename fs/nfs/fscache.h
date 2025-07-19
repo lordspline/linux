@@ -8,12 +8,12 @@
 #ifndef _NFS_FSCACHE_H
 #define _NFS_FSCACHE_H
 
-#include <linux/swap.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_mount.h>
-#include <linux/nfs4_mount.h>
-#include <linux/fscache.h>
-#include <linux/iversion.h>
+#include <peenux/swap.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_mount.h>
+#include <peenux/nfs4_mount.h>
+#include <peenux/fscache.h>
+#include <peenux/iversion.h>
 
 #ifdef CONFIG_NFS_FSCACHE
 

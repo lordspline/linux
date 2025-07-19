@@ -7,18 +7,18 @@
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/completion.h>
 
-#include <linux/mfd/da9055/core.h>
-#include <linux/mfd/da9055/reg.h>
+#include <peenux/mfd/da9055/core.h>
+#include <peenux/mfd/da9055/reg.h>
 
 #define DA9055_ADCIN_DIV	102
 #define DA9055_VSYS_DIV	85

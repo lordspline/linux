@@ -4,12 +4,12 @@
 #ifndef _WX_TYPE_H_
 #define _WX_TYPE_H_
 
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timecounter.h>
-#include <linux/bitfield.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/phylink.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/timecounter.h>
+#include <peenux/bitfield.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/phylink.h>
 #include <net/ip.h>
 
 #define WX_NCSI_SUP                             0x8000

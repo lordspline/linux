@@ -10,9 +10,9 @@
 #ifndef	_MWIFIEX_PCIE_H
 #define	_MWIFIEX_PCIE_H
 
-#include    <linux/completion.h>
-#include    <linux/pci.h>
-#include    <linux/interrupt.h>
+#include    <peenux/completion.h>
+#include    <peenux/pci.h>
+#include    <peenux/interrupt.h>
 
 #include    "decl.h"
 #include    "main.h"

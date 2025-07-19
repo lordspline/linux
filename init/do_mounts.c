@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/ctype.h>
-#include <linux/fd.h>
-#include <linux/tty.h>
-#include <linux/suspend.h>
-#include <linux/root_dev.h>
-#include <linux/security.h>
-#include <linux/delay.h>
-#include <linux/mount.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/initrd.h>
-#include <linux/async.h>
-#include <linux/fs_struct.h>
-#include <linux/slab.h>
-#include <linux/ramfs.h>
-#include <linux/shmem_fs.h>
-#include <linux/ktime.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/ctype.h>
+#include <peenux/fd.h>
+#include <peenux/tty.h>
+#include <peenux/suspend.h>
+#include <peenux/root_dev.h>
+#include <peenux/security.h>
+#include <peenux/delay.h>
+#include <peenux/mount.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/initrd.h>
+#include <peenux/async.h>
+#include <peenux/fs_struct.h>
+#include <peenux/slab.h>
+#include <peenux/ramfs.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/ktime.h>
 
-#include <linux/nfs_fs.h>
-#include <linux/nfs_fs_sb.h>
-#include <linux/nfs_mount.h>
-#include <linux/raid/detect.h>
-#include <uapi/linux/mount.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_fs_sb.h>
+#include <peenux/nfs_mount.h>
+#include <peenux/raid/detect.h>
+#include <uapi/peenux/mount.h>
 
 #include "do_mounts.h"
 

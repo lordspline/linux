@@ -6,12 +6,12 @@
  * Author: Li Yang
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/io.h>
 
 #include <sysdev/fsl_soc.h>
 

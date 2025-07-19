@@ -31,18 +31,18 @@
  *
  */
 
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
-#include <linux/mlx4/cq.h>
-#include <linux/slab.h>
-#include <linux/mlx4/qp.h>
-#include <linux/skbuff.h>
-#include <linux/rculist.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/vmalloc.h>
-#include <linux/irq.h>
-#include <linux/skbuff_ref.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_trace.h>
+#include <peenux/mlx4/cq.h>
+#include <peenux/slab.h>
+#include <peenux/mlx4/qp.h>
+#include <peenux/skbuff.h>
+#include <peenux/rculist.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/vmalloc.h>
+#include <peenux/irq.h>
+#include <peenux/skbuff_ref.h>
 
 #include <net/ip.h>
 #if IS_ENABLED(CONFIG_IPV6)

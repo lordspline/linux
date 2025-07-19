@@ -5,11 +5,11 @@
 
 #define pr_fmt(fmt) "llcp: %s: " fmt, __func__
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/nfc.h>
-#include <linux/sched/signal.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/nfc.h>
+#include <peenux/sched/signal.h>
 
 #include "nfc.h"
 #include "llcp.h"

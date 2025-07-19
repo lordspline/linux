@@ -8,9 +8,9 @@
 #ifndef OTX2_TXRX_H
 #define OTX2_TXRX_H
 
-#include <linux/etherdevice.h>
-#include <linux/iommu.h>
-#include <linux/if_vlan.h>
+#include <peenux/etherdevice.h>
+#include <peenux/iommu.h>
+#include <peenux/if_vlan.h>
 #include <net/xdp.h>
 #include <net/xdp_sock_drv.h>
 

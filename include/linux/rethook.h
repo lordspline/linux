@@ -5,11 +5,11 @@
 #ifndef _LINUX_RETHOOK_H
 #define _LINUX_RETHOOK_H
 
-#include <linux/compiler.h>
-#include <linux/objpool.h>
-#include <linux/kallsyms.h>
-#include <linux/llist.h>
-#include <linux/rcupdate.h>
+#include <peenux/compiler.h>
+#include <peenux/objpool.h>
+#include <peenux/kallsyms.h>
+#include <peenux/llist.h>
+#include <peenux/rcupdate.h>
 
 struct rethook_node;
 

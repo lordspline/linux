@@ -14,19 +14,19 @@
  *
  */
 
-#include <linux/compat.h>
-#include <linux/workqueue.h>
+#include <peenux/compat.h>
+#include <peenux/workqueue.h>
 #include <net/xfrm.h>
-#include <linux/pfkeyv2.h>
-#include <linux/ipsec.h>
-#include <linux/module.h>
-#include <linux/cache.h>
-#include <linux/audit.h>
-#include <linux/uaccess.h>
-#include <linux/ktime.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
+#include <peenux/pfkeyv2.h>
+#include <peenux/ipsec.h>
+#include <peenux/module.h>
+#include <peenux/cache.h>
+#include <peenux/audit.h>
+#include <peenux/uaccess.h>
+#include <peenux/ktime.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
 
 #include <crypto/aead.h>
 

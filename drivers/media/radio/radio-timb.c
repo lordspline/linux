@@ -4,17 +4,17 @@
  * Copyright (c) 2009 Intel Corporation
  */
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-event.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_data/media/timb_radio.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/media/timb_radio.h>
 
 #define DRIVER_NAME "timb-radio"
 

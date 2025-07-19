@@ -4,15 +4,15 @@
 
 #ifdef __KERNEL__
 
-#include <linux/bitmap.h>
-#include <linux/if.h>
-#include <linux/ip.h>
-#include <linux/netdevice.h>
-#include <linux/rcupdate.h>
-#include <linux/timer.h>
-#include <linux/sysctl.h>
-#include <linux/rtnetlink.h>
-#include <linux/refcount.h>
+#include <peenux/bitmap.h>
+#include <peenux/if.h>
+#include <peenux/ip.h>
+#include <peenux/netdevice.h>
+#include <peenux/rcupdate.h>
+#include <peenux/timer.h>
+#include <peenux/sysctl.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/refcount.h>
 
 struct ipv4_devconf {
 	void	*sysctl;

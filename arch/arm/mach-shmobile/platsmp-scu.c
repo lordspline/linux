@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2013  Magnus Damm
  */
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/smp.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/smp.h>
 #include <asm/cacheflush.h>
 #include <asm/smp_plat.h>
 #include <asm/smp_scu.h>

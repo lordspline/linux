@@ -5,14 +5,14 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/module.h>
-#include <linux/net.h>
-#include <linux/skbuff.h>
-#include <linux/errqueue.h>
-#include <linux/udp.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/icmp.h>
+#include <peenux/module.h>
+#include <peenux/net.h>
+#include <peenux/skbuff.h>
+#include <peenux/errqueue.h>
+#include <peenux/udp.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/icmp.h>
 #include <net/sock.h>
 #include <net/af_rxrpc.h>
 #include <net/ip.h>

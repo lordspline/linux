@@ -7,7 +7,7 @@
 #ifndef __UM_PAGE_H
 #define __UM_PAGE_H
 
-#include <linux/const.h>
+#include <peenux/const.h>
 
 #include <vdso/page.h>
 
@@ -15,8 +15,8 @@
 
 struct page;
 
-#include <linux/pfn.h>
-#include <linux/types.h>
+#include <peenux/pfn.h>
+#include <peenux/types.h>
 #include <asm/vm-flags.h>
 
 /*

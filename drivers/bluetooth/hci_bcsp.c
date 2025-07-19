@@ -7,25 +7,25 @@
  *  Copyright (C) 2004-2005  Marcel Holtmann <marcel@holtmann.org>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ptrace.h>
-#include <linux/poll.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ptrace.h>
+#include <peenux/poll.h>
 
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/signal.h>
-#include <linux/ioctl.h>
-#include <linux/skbuff.h>
-#include <linux/bitrev.h>
-#include <linux/unaligned.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/signal.h>
+#include <peenux/ioctl.h>
+#include <peenux/skbuff.h>
+#include <peenux/bitrev.h>
+#include <peenux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

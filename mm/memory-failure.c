@@ -36,30 +36,30 @@
 
 #define pr_fmt(fmt) "Memory failure: " fmt
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/page-flags.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
-#include <linux/dax.h>
-#include <linux/ksm.h>
-#include <linux/rmap.h>
-#include <linux/export.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/backing-dev.h>
-#include <linux/migrate.h>
-#include <linux/slab.h>
-#include <linux/swapops.h>
-#include <linux/hugetlb.h>
-#include <linux/memory_hotplug.h>
-#include <linux/mm_inline.h>
-#include <linux/memremap.h>
-#include <linux/kfifo.h>
-#include <linux/ratelimit.h>
-#include <linux/pagewalk.h>
-#include <linux/shmem_fs.h>
-#include <linux/sysctl.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/page-flags.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task.h>
+#include <peenux/dax.h>
+#include <peenux/ksm.h>
+#include <peenux/rmap.h>
+#include <peenux/export.h>
+#include <peenux/pagemap.h>
+#include <peenux/swap.h>
+#include <peenux/backing-dev.h>
+#include <peenux/migrate.h>
+#include <peenux/slab.h>
+#include <peenux/swapops.h>
+#include <peenux/hugetlb.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/mm_inline.h>
+#include <peenux/memremap.h>
+#include <peenux/kfifo.h>
+#include <peenux/ratelimit.h>
+#include <peenux/pagewalk.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/sysctl.h>
 #include "swap.h"
 #include "internal.h"
 #include "ras/ras_event.h"
@@ -2550,7 +2550,7 @@ core_initcall(memory_failure_init);
  * memory_failure() earlier.
  *
  * This is only done on the software-level, so it only works
- * for linux injected failures, not real hardware failures
+ * for peenux injected failures, not real hardware failures
  *
  * Returns 0 for success, otherwise -errno.
  */

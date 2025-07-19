@@ -8,8 +8,8 @@
 #ifndef _PCI_H_
 #define _PCI_H_
 
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
 
 #include "hw.h"
 #include "ce.h"

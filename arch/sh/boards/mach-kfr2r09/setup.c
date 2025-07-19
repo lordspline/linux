@@ -12,27 +12,27 @@
 
 #include <cpu/sh7724.h>
 
-#include <linux/clkdev.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sh_keysc.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/mmc/host.h>
-#include <linux/mtd/physmap.h>
-#include <linux/platform_data/lv5207lp.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/sh_intc.h>
-#include <linux/usb/r8a66597.h>
-#include <linux/videodev2.h>
-#include <linux/dma-map-ops.h>
+#include <peenux/clkdev.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/input/sh_keysc.h>
+#include <peenux/interrupt.h>
+#include <peenux/memblock.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/platform_data/lv5207lp.h>
+#include <peenux/platform_data/tmio.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/fixed.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/sh_intc.h>
+#include <peenux/usb/r8a66597.h>
+#include <peenux/videodev2.h>
+#include <peenux/dma-map-ops.h>
 
 #include <mach/kfr2r09.h>
 

@@ -11,14 +11,14 @@
  *   Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/userspace-consumer.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regulator/userspace-consumer.h>
+#include <peenux/slab.h>
 
 struct userspace_consumer_data {
 	const char *name;

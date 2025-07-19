@@ -6,18 +6,18 @@
  * Author: Michael Auchter <michael.auchter@ni.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/extcon-provider.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/typec_altmode.h>
-#include <linux/usb/role.h>
-#include <linux/irq.h>
+#include <peenux/bitfield.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/usb/typec.h>
+#include <peenux/usb/typec_altmode.h>
+#include <peenux/usb/role.h>
+#include <peenux/irq.h>
 
 #define TUSB320_REG8				0x8
 #define TUSB320_REG8_CURRENT_MODE_ADVERTISE	GENMASK(7, 6)

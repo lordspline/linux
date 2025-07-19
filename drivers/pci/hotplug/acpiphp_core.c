@@ -19,16 +19,16 @@
 
 #define pr_fmt(fmt) "acpiphp: " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci-acpi.h>
-#include <linux/pci_hotplug.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/pci-acpi.h>
+#include <peenux/pci_hotplug.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
 #include "acpiphp.h"
 
 /* name size which is used for entries in pcihpfs */

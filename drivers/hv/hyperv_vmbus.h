@@ -12,12 +12,12 @@
 #ifndef _HYPERV_VMBUS_H
 #define _HYPERV_VMBUS_H
 
-#include <linux/list.h>
-#include <linux/bitops.h>
+#include <peenux/list.h>
+#include <peenux/bitops.h>
 #include <asm/sync_bitops.h>
-#include <linux/atomic.h>
-#include <linux/hyperv.h>
-#include <linux/interrupt.h>
+#include <peenux/atomic.h>
+#include <peenux/hyperv.h>
+#include <peenux/interrupt.h>
 #include <hyperv/hvhdk.h>
 
 #include "hv_trace.h"

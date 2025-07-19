@@ -3,9 +3,9 @@
  * Copyright (C) 2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/cpu.h>
-#include <linux/export.h>
-#include <linux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
 #include <asm/fpu.h>
 #include <asm/smp.h>
 

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/amba/bus.h>
-#include <linux/coresight.h>
-#include <linux/cpumask.h>
+#include <peenux/acpi.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/amba/bus.h>
+#include <peenux/coresight.h>
+#include <peenux/cpumask.h>
 #include <asm/smp_plat.h>
 
 #include "coresight-priv.h"

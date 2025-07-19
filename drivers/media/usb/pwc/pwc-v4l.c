@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* Linux driver for Philips webcam
+/* Peenux driver for Philips webcam
    USB and Video4Linux interface part.
    (C) 1999-2004 Nemosoft Unv.
    (C) 2004-2006 Luc Saillard (luc@saillard.org)
@@ -14,13 +14,13 @@
 
 */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/vmalloc.h>
-#include <linux/jiffies.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/poll.h>
+#include <peenux/vmalloc.h>
+#include <peenux/jiffies.h>
 #include <asm/io.h>
 
 #include "pwc.h"

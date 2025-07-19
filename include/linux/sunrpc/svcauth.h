@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/linux/sunrpc/svcauth.h
+ * peenux/include/peenux/sunrpc/svcauth.h
  *
  * RPC server-side authentication stuff.
  *
@@ -10,14 +10,14 @@
 #ifndef _LINUX_SUNRPC_SVCAUTH_H_
 #define _LINUX_SUNRPC_SVCAUTH_H_
 
-#include <linux/string.h>
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/sunrpc/cache.h>
-#include <linux/sunrpc/gss_api.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/hash.h>
-#include <linux/stringhash.h>
-#include <linux/cred.h>
+#include <peenux/string.h>
+#include <peenux/sunrpc/msg_prot.h>
+#include <peenux/sunrpc/cache.h>
+#include <peenux/sunrpc/gss_api.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/hash.h>
+#include <peenux/stringhash.h>
+#include <peenux/cred.h>
 
 struct svc_cred {
 	kuid_t			cr_uid;

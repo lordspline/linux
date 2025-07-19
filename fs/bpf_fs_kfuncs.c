@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2024 Google LLC. */
 
-#include <linux/bpf.h>
-#include <linux/bpf_lsm.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
-#include <linux/dcache.h>
-#include <linux/fs.h>
-#include <linux/fsnotify.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/xattr.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_lsm.h>
+#include <peenux/btf.h>
+#include <peenux/btf_ids.h>
+#include <peenux/dcache.h>
+#include <peenux/fs.h>
+#include <peenux/fsnotify.h>
+#include <peenux/file.h>
+#include <peenux/mm.h>
+#include <peenux/xattr.h>
 
 __bpf_kfunc_start_defs();
 

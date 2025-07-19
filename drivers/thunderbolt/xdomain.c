@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2017, Intel Corporation
  * Authors: Michael Jamet <michael.jamet@intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ *          Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/kmod.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/prandom.h>
-#include <linux/string_helpers.h>
-#include <linux/utsname.h>
-#include <linux/uuid.h>
-#include <linux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/kmod.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/prandom.h>
+#include <peenux/string_helpers.h>
+#include <peenux/utsname.h>
+#include <peenux/uuid.h>
+#include <peenux/workqueue.h>
 
 #include "tb.h"
 

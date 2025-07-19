@@ -6,20 +6,20 @@
  *          ChiYuan Huang <cy_huang@richtek.com>
  */
 
-#include <linux/bits.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kstrtox.h>
-#include <linux/linear_range.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/sysfs.h>
+#include <peenux/bits.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kstrtox.h>
+#include <peenux/linear_range.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/sysfs.h>
 
 #define RT9471_REG_OTGCFG	0x00
 #define RT9471_REG_TOP		0x01

@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/pxa168fb.c -- Marvell PXA168 LCD Controller
+ * peenux/drivers/video/pxa168fb.c -- Marvell PXA168 LCD Controller
  *
  *  Copyright (C) 2008 Marvell International Ltd.
  *  All rights reserved.
@@ -12,22 +12,22 @@
  * more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/fb.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/fb.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/uaccess.h>
 #include <video/pxa168fb.h>
 
 #include "pxa168fb.h"
@@ -246,7 +246,7 @@ static void set_clock_divider(struct pxa168fb_info *fbi,
 	u32 x = 0;
 
 	/*
-	 * Notice: The field pixclock is used by linux fb
+	 * Notice: The field pixclock is used by peenux fb
 	 * is in pixel second. E.g. struct fb_videomode &
 	 * struct fb_var_screeninfo
 	 */

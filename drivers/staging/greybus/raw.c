@@ -5,15 +5,15 @@
  * Copyright 2015 Google Inc.
  * Copyright 2015 Linaro Ltd.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sizes.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/uaccess.h>
-#include <linux/greybus.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sizes.h>
+#include <peenux/cdev.h>
+#include <peenux/fs.h>
+#include <peenux/idr.h>
+#include <peenux/uaccess.h>
+#include <peenux/greybus.h>
 
 struct gb_raw {
 	struct gb_connection *connection;

@@ -5,8 +5,8 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/clk.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/clk.h>
+#include <peenux/mfd/syscon.h>
 
 #include <sound/asoundef.h>
 #include <sound/soc.h>

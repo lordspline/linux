@@ -10,21 +10,21 @@
 
 #define pr_fmt(fmt) "ACPI: battery: " fmt
 
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
+#include <peenux/types.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/acpi.h>
-#include <linux/power_supply.h>
+#include <peenux/acpi.h>
+#include <peenux/power_supply.h>
 
 #include <acpi/battery.h>
 

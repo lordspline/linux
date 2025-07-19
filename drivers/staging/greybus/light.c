@@ -6,12 +6,12 @@
  * Copyright 2015 Linaro Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/led-class-flash.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/greybus.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/led-class-flash.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/greybus.h>
 #include <media/v4l2-flash-led-class.h>
 
 #define NAMES_MAX	32

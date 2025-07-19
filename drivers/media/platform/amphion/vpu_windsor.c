@@ -3,14 +3,14 @@
  * Copyright 2020-2021 NXP
  */
 
-#include <linux/init.h>
-#include <linux/interconnect.h>
-#include <linux/ioctl.h>
-#include <linux/list.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/time64.h>
+#include <peenux/init.h>
+#include <peenux/interconnect.h>
+#include <peenux/ioctl.h>
+#include <peenux/list.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/time64.h>
 #include <media/videobuf2-v4l2.h>
 #include <media/videobuf2-dma-contig.h>
 #include "vpu.h"

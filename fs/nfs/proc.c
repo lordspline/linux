@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/nfs/proc.c
+ *  peenux/fs/nfs/proc.c
  *
  *  Copyright (C) 1992, 1993, 1994  Rick Sladkey
  *
@@ -28,21 +28,21 @@
  *  incomplete struct).
  */
 
-#include <linux/types.h>
-#include <linux/param.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/in.h>
-#include <linux/pagemap.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/nfs.h>
-#include <linux/nfs2.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_page.h>
-#include <linux/lockd/bind.h>
-#include <linux/freezer.h>
+#include <peenux/types.h>
+#include <peenux/param.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/in.h>
+#include <peenux/pagemap.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs2.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_page.h>
+#include <peenux/lockd/bind.h>
+#include <peenux/freezer.h>
 #include "internal.h"
 
 #define NFSDBG_FACILITY		NFSDBG_PROC

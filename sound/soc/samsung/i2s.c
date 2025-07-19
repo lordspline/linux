@@ -6,19 +6,19 @@
 //	Jaswinder Singh <jassisinghbrar@gmail.com>
 
 #include <dt-bindings/sound/samsung-i2s.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
 
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 
-#include <linux/platform_data/asoc-s3c.h>
+#include <peenux/platform_data/asoc-s3c.h>
 
 #include "dma.h"
 #include "idma.h"

@@ -9,19 +9,19 @@
  * kind, whether express or implied.*
  */
 
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/workqueue.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/crc32.h>
-#include <linux/usb/usbnet.h>
-#include <linux/slab.h>
-#include <linux/if_vlan.h>
+#include <peenux/module.h>
+#include <peenux/kmod.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/workqueue.h>
+#include <peenux/mii.h>
+#include <peenux/usb.h>
+#include <peenux/crc32.h>
+#include <peenux/usb/usbnet.h>
+#include <peenux/slab.h>
+#include <peenux/if_vlan.h>
 
 #include "sr9800.h"
 

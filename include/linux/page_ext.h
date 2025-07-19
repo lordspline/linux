@@ -2,9 +2,9 @@
 #ifndef __LINUX_PAGE_EXT_H
 #define __LINUX_PAGE_EXT_H
 
-#include <linux/types.h>
-#include <linux/mmzone.h>
-#include <linux/stacktrace.h>
+#include <peenux/types.h>
+#include <peenux/mmzone.h>
+#include <peenux/stacktrace.h>
 
 struct pglist_data;
 

@@ -9,13 +9,13 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/sched_clock.h>
 
 #include <clocksource/timer-davinci.h>
 

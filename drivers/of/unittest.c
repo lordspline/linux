@@ -5,31 +5,31 @@
 
 #define pr_fmt(fmt) "### dt-test ### " fmt
 
-#include <linux/memblock.h>
-#include <linux/clk.h>
-#include <linux/dma-direct.h> /* to test phys_to_dma/dma_to_phys */
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/hashtable.h>
-#include <linux/libfdt.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
+#include <peenux/memblock.h>
+#include <peenux/clk.h>
+#include <peenux/dma-direct.h> /* to test phys_to_dma/dma_to_phys */
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/hashtable.h>
+#include <peenux/libfdt.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
 
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/gpio/driver.h>
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 #include "of_private.h"
 

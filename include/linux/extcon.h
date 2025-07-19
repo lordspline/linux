@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
  * External Connector (extcon) framework
- * - linux/include/linux/extcon.h for extcon consumer device driver.
+ * - peenux/include/peenux/extcon.h for extcon consumer device driver.
  *
  * Copyright (C) 2015 Samsung Electronics
  * Author: Chanwoo Choi <cw00.choi@samsung.com>
@@ -18,7 +18,7 @@
 #ifndef __LINUX_EXTCON_H__
 #define __LINUX_EXTCON_H__
 
-#include <linux/device.h>
+#include <peenux/device.h>
 
 /*
  * Define the type of supported external connectors

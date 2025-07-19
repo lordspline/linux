@@ -8,14 +8,14 @@
 #include <kunit/device.h>
 #include <kunit/resource.h>
 #include <kunit/test.h>
-#include <linux/build_bug.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/cs_dsp_test_utils.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/firmware.h>
-#include <linux/math.h>
-#include <linux/random.h>
-#include <linux/regmap.h>
+#include <peenux/build_bug.h>
+#include <peenux/firmware/cirrus/cs_dsp.h>
+#include <peenux/firmware/cirrus/cs_dsp_test_utils.h>
+#include <peenux/firmware/cirrus/wmfw.h>
+#include <peenux/firmware.h>
+#include <peenux/math.h>
+#include <peenux/random.h>
+#include <peenux/regmap.h>
 
 /*
  * Test method is:

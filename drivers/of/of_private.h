@@ -212,7 +212,7 @@ static inline bool is_pseudo_property(const char *prop_name)
 {
 	return !of_prop_cmp(prop_name, "name") ||
 		!of_prop_cmp(prop_name, "phandle") ||
-		!of_prop_cmp(prop_name, "linux,phandle");
+		!of_prop_cmp(prop_name, "peenux,phandle");
 }
 
 #if IS_ENABLED(CONFIG_KUNIT)

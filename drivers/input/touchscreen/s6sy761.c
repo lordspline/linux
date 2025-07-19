@@ -4,16 +4,16 @@
 // Copyright (c) 2017 Samsung Electronics Co., Ltd.
 // Copyright (c) 2017 Andi Shyti <andi@etezian.org>
 
-#include <linux/unaligned.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/unaligned.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
 
 /* commands */
 #define S6SY761_SENSE_ON		0x10

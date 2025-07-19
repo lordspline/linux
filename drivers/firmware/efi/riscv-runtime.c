@@ -9,18 +9,18 @@
  *
  */
 
-#include <linux/dmi.h>
-#include <linux/efi.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/mm_types.h>
-#include <linux/preempt.h>
-#include <linux/rbtree.h>
-#include <linux/rwsem.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/pgtable.h>
+#include <peenux/dmi.h>
+#include <peenux/efi.h>
+#include <peenux/io.h>
+#include <peenux/memblock.h>
+#include <peenux/mm_types.h>
+#include <peenux/preempt.h>
+#include <peenux/rbtree.h>
+#include <peenux/rwsem.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/pgtable.h>
 
 #include <asm/cacheflush.h>
 #include <asm/efi.h>

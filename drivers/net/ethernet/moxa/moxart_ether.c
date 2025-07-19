@@ -12,20 +12,20 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/dma-mapping.h>
-#include <linux/ethtool.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/crc32.h>
-#include <linux/crc32c.h>
-#include <linux/circ_buf.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/ethtool.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/crc32.h>
+#include <peenux/crc32c.h>
+#include <peenux/circ_buf.h>
 
 #include "moxart_ether.h"
 

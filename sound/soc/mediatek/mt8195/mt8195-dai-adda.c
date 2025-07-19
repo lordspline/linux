@@ -7,8 +7,8 @@
  *         Trevor Wu <trevor.wu@mediatek.com>
  */
 
-#include <linux/delay.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/regmap.h>
 #include "mt8195-afe-clk.h"
 #include "mt8195-afe-common.h"
 #include "mt8195-reg.h"

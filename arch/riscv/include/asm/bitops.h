@@ -7,11 +7,11 @@
 #define _ASM_RISCV_BITOPS_H
 
 #ifndef _LINUX_BITOPS_H
-#error "Only <linux/bitops.h> can be included directly"
+#error "Only <peenux/bitops.h> can be included directly"
 #endif /* _LINUX_BITOPS_H */
 
-#include <linux/compiler.h>
-#include <linux/irqflags.h>
+#include <peenux/compiler.h>
+#include <peenux/irqflags.h>
 #include <asm/barrier.h>
 #include <asm/bitsperlong.h>
 

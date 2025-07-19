@@ -6,8 +6,8 @@
 #ifndef _ASM_RC32434_RC32434_H_
 #define _ASM_RC32434_RC32434_H_
 
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
 
 #define IDT_CLOCK_MULT		2
 

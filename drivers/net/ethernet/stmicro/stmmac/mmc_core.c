@@ -8,8 +8,8 @@
   Author: Giuseppe Cavallaro <peppe.cavallaro@st.com>
 *******************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
 #include "hwif.h"
 #include "mmc.h"
 

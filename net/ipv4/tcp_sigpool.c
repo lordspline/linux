@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include <crypto/hash.h>
-#include <linux/cpu.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/percpu.h>
-#include <linux/workqueue.h>
+#include <peenux/cpu.h>
+#include <peenux/kref.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/percpu.h>
+#include <peenux/workqueue.h>
 #include <net/tcp.h>
 
 static size_t __scratch_size;

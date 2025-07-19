@@ -5,9 +5,9 @@
  * Copyright (C) 2018-2022 ARM Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/limits.h>
-#include <linux/sort.h>
+#include <peenux/module.h>
+#include <peenux/limits.h>
+#include <peenux/sort.h>
 
 #include "protocols.h"
 #include "notify.h"

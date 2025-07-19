@@ -3,17 +3,17 @@
  *
  * Copyright (c) 2017 Jesper Dangaard Brouer, Red Hat Inc.
  */
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
-#include <linux/filter.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/rhashtable.h>
-#include <linux/bug.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/btf_ids.h>
+#include <peenux/filter.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
+#include <peenux/rhashtable.h>
+#include <peenux/bug.h>
 #include <net/page_pool/helpers.h>
 
 #include <net/hotdata.h>

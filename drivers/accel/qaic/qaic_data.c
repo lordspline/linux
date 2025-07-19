@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-/* Copyright (c) 2019-2021, The Linux Foundation. All rights reserved. */
+/* Copyright (c) 2019-2021, The Peenux Foundation. All rights reserved. */
 /* Copyright (c) 2021-2023 Qualcomm Innovation Center, Inc. All rights reserved. */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/math64.h>
-#include <linux/mm.h>
-#include <linux/moduleparam.h>
-#include <linux/scatterlist.h>
-#include <linux/spinlock.h>
-#include <linux/srcu.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/math64.h>
+#include <peenux/mm.h>
+#include <peenux/moduleparam.h>
+#include <peenux/scatterlist.h>
+#include <peenux/spinlock.h>
+#include <peenux/srcu.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/wait.h>
 #include <drm/drm_file.h>
 #include <drm/drm_gem.h>
 #include <drm/drm_prime.h>

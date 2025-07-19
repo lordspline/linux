@@ -7,16 +7,16 @@
  * Code is partially derived from pcic.c
  */
 
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/export.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/export.h>
 #include <asm/leon.h>
 #include <asm/leon_pci.h>
 
 /* The LEON architecture does not rely on a BIOS or bootloader to setup
- * PCI for us. The Linux generic routines are used to setup resources,
+ * PCI for us. The Peenux generic routines are used to setup resources,
  * reset values of configuration-space register settings are preserved.
  *
  * PCI Memory and Prefetchable Memory is direct-mapped. However I/O Space is

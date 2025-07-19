@@ -6,28 +6,28 @@
 #ifndef _CAN_M_CAN_H_
 #define _CAN_M_CAN_H_
 
-#include <linux/can/core.h>
-#include <linux/can/dev.h>
-#include <linux/can/rx-offload.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/freezer.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/can/core.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/rx-offload.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/freezer.h>
+#include <peenux/hrtimer.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 /* m_can lec values */
 enum m_can_lec_type {

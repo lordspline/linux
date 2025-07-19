@@ -44,17 +44,17 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/pm_runtime.h>
 
 #define CHANIER(n)	(0x10 + (0x40 * n))
 #define CHANIPR(n)	(0x20 + (0x40 * n))

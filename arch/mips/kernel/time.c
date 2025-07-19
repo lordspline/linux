@@ -6,20 +6,20 @@
  *
  * Common time service routines for MIPS machines.
  */
-#include <linux/bug.h>
-#include <linux/clockchips.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/param.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
+#include <peenux/bug.h>
+#include <peenux/clockchips.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/param.h>
+#include <peenux/time.h>
+#include <peenux/timex.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/export.h>
+#include <peenux/cpufreq.h>
+#include <peenux/delay.h>
 
 #include <asm/cpu-features.h>
 #include <asm/cpu-type.h>

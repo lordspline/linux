@@ -13,7 +13,7 @@
 
 #include "test_util.h"
 
-#define MAX_NR_GENS 16 /* MAX_NR_GENS in include/linux/mmzone.h */
+#define MAX_NR_GENS 16 /* MAX_NR_GENS in include/peenux/mmzone.h */
 #define MAX_NR_NODES 4 /* Maximum number of nodes supported by the test */
 
 #define LRU_GEN_DEBUGFS "/sys/kernel/debug/lru_gen"

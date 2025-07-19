@@ -6,19 +6,19 @@
  * Built from gxfb (which is Copyright (C) 2006 Arcom Control Systems Ltd.)
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/console.h>
-#include <linux/mm.h>
-#include <linux/suspend.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/uaccess.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/console.h>
+#include <peenux/mm.h>
+#include <peenux/suspend.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/uaccess.h>
 
 #include <asm/olpc.h>
 

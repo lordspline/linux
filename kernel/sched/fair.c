@@ -12,7 +12,7 @@
  *
  *  Group scheduling enhancements by Srivatsa Vaddagiri
  *  Copyright IBM Corporation, 2007
- *  Author: Srivatsa Vaddagiri <vatsa@linux.vnet.ibm.com>
+ *  Author: Srivatsa Vaddagiri <vatsa@peenux.vnet.ibm.com>
  *
  *  Scaled math optimizations by Thomas Gleixner
  *  Copyright (C) 2007, Thomas Gleixner <tglx@linutronix.de>
@@ -20,39 +20,39 @@
  *  Adaptive scheduling granularity, math enhancements by Peter Zijlstra
  *  Copyright (C) 2007 Red Hat, Inc., Peter Zijlstra
  */
-#include <linux/energy_model.h>
-#include <linux/mmap_lock.h>
-#include <linux/hugetlb_inline.h>
-#include <linux/jiffies.h>
-#include <linux/mm_api.h>
-#include <linux/highmem.h>
-#include <linux/spinlock_api.h>
-#include <linux/cpumask_api.h>
-#include <linux/lockdep_api.h>
-#include <linux/softirq.h>
-#include <linux/refcount_api.h>
-#include <linux/topology.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/cond_resched.h>
-#include <linux/sched/cputime.h>
-#include <linux/sched/isolation.h>
-#include <linux/sched/nohz.h>
-#include <linux/sched/prio.h>
+#include <peenux/energy_model.h>
+#include <peenux/mmap_lock.h>
+#include <peenux/hugetlb_inline.h>
+#include <peenux/jiffies.h>
+#include <peenux/mm_api.h>
+#include <peenux/highmem.h>
+#include <peenux/spinlock_api.h>
+#include <peenux/cpumask_api.h>
+#include <peenux/lockdep_api.h>
+#include <peenux/softirq.h>
+#include <peenux/refcount_api.h>
+#include <peenux/topology.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/cond_resched.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/sched/nohz.h>
+#include <peenux/sched/prio.h>
 
-#include <linux/cpuidle.h>
-#include <linux/interrupt.h>
-#include <linux/memory-tiers.h>
-#include <linux/mempolicy.h>
-#include <linux/mutex_api.h>
-#include <linux/profile.h>
-#include <linux/psi.h>
-#include <linux/ratelimit.h>
-#include <linux/task_work.h>
-#include <linux/rbtree_augmented.h>
+#include <peenux/cpuidle.h>
+#include <peenux/interrupt.h>
+#include <peenux/memory-tiers.h>
+#include <peenux/mempolicy.h>
+#include <peenux/mutex_api.h>
+#include <peenux/profile.h>
+#include <peenux/psi.h>
+#include <peenux/ratelimit.h>
+#include <peenux/task_work.h>
+#include <peenux/rbtree_augmented.h>
 
 #include <asm/switch_to.h>
 
-#include <uapi/linux/sched/types.h>
+#include <uapi/peenux/sched/types.h>
 
 #include "sched.h"
 #include "stats.h"

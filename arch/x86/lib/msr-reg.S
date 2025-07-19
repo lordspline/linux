@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/linkage.h>
-#include <linux/errno.h>
-#include <linux/cfi_types.h>
+#include <peenux/linkage.h>
+#include <peenux/errno.h>
+#include <peenux/cfi_types.h>
 #include <asm/asm.h>
 #include <asm/msr.h>
 

@@ -15,8 +15,8 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/debugfs.h>
-#include <linux/export.h>
+#include <peenux/debugfs.h>
+#include <peenux/export.h>
 
 #include "ath9k.h"
 #include "dfs_debug.h"

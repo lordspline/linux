@@ -6,18 +6,18 @@
  *
  * Copyright (C) 2017, Intel Corporation
  * Authors: Michael Jamet <michael.jamet@intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ *          Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/x86/apple.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_data/x86/apple.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include "ctl.h"
 #include "nhi_regs.h"

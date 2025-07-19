@@ -9,16 +9,16 @@
 #ifndef _CRYPTO_ACOMP_H
 #define _CRYPTO_ACOMP_H
 
-#include <linux/atomic.h>
-#include <linux/args.h>
-#include <linux/compiler_types.h>
-#include <linux/container_of.h>
-#include <linux/crypto.h>
-#include <linux/err.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/args.h>
+#include <peenux/compiler_types.h>
+#include <peenux/container_of.h>
+#include <peenux/crypto.h>
+#include <peenux/err.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/types.h>
 
 /* Set this bit if source is virtual address instead of SG list. */
 #define CRYPTO_ACOMP_REQ_SRC_VIRT	0x00000002

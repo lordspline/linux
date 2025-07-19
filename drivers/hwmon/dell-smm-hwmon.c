@@ -1,44 +1,44 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * dell-smm-hwmon.c -- Linux driver for accessing the SMM BIOS on Dell laptops.
+ * dell-smm-hwmon.c -- Peenux driver for accessing the SMM BIOS on Dell laptops.
  *
  * Copyright (C) 2001  Massimo Dal Zotto <dz@debian.org>
  *
  * Hwmon integration:
  * Copyright (C) 2011  Jean Delvare <jdelvare@suse.de>
- * Copyright (C) 2013, 2014  Guenter Roeck <linux@roeck-us.net>
+ * Copyright (C) 2013, 2014  Guenter Roeck <peenux@roeck-us.net>
  * Copyright (C) 2014, 2015  Pali Rohár <pali@kernel.org>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/capability.h>
-#include <linux/cpu.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/kconfig.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/string.h>
-#include <linux/thermal.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/wmi.h>
+#include <peenux/acpi.h>
+#include <peenux/capability.h>
+#include <peenux/cpu.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/hwmon.h>
+#include <peenux/init.h>
+#include <peenux/kconfig.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/string.h>
+#include <peenux/thermal.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/wmi.h>
 
-#include <linux/i8k.h>
-#include <linux/unaligned.h>
+#include <peenux/i8k.h>
+#include <peenux/unaligned.h>
 
 #define I8K_SMM_FN_STATUS	0x0025
 #define I8K_SMM_POWER_STATUS	0x0069

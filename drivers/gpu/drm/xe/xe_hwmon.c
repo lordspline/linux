@@ -3,11 +3,11 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/jiffies.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/jiffies.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #include <drm/drm_managed.h>
 #include "regs/xe_gt_regs.h"

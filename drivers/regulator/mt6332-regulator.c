@@ -7,16 +7,16 @@
 //     Copyright (c) 2016 MediaTek Inc.
 //
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/mt6397/core.h>
-#include <linux/mfd/mt6332/registers.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/mt6332-regulator.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/mt6397/core.h>
+#include <peenux/mfd/mt6332/registers.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/mt6332-regulator.h>
+#include <peenux/regulator/of_regulator.h>
 
 #define MT6332_LDO_MODE_NORMAL	0
 #define MT6332_LDO_MODE_LP	1

@@ -5,11 +5,11 @@
  *      (c) 2005 Patrick McHardy <kaber@trash.net>
  */
 
-#include <linux/module.h>
-#include <linux/ip.h>
+#include <peenux/module.h>
+#include <peenux/ip.h>
 #include <net/route.h>
-#include <linux/inetdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/inetdevice.h>
+#include <peenux/skbuff.h>
 
 #include <net/netfilter/nf_conntrack.h>
 #include <net/netfilter/nf_conntrack_helper.h>

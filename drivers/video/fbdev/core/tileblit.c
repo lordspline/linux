@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/console/tileblit.c -- Tile Blitting Operation
+ *  peenux/drivers/video/console/tileblit.c -- Tile Blitting Operation
  *
  *      Copyright (C) 2004 Antonino Daplas <adaplas @pol.net>
  *
@@ -8,11 +8,11 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/fb.h>
-#include <linux/vt_kern.h>
-#include <linux/console.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/fb.h>
+#include <peenux/vt_kern.h>
+#include <peenux/console.h>
 #include <asm/types.h>
 #include "fbcon.h"
 

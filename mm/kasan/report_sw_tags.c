@@ -9,21 +9,21 @@
  *        Andrey Konovalov <andreyknvl@gmail.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/ftrace.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/printk.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/slab.h>
-#include <linux/stackdepot.h>
-#include <linux/stacktrace.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/kasan.h>
-#include <linux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/ftrace.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/printk.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/slab.h>
+#include <peenux/stackdepot.h>
+#include <peenux/stacktrace.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/kasan.h>
+#include <peenux/module.h>
 
 #include <asm/sections.h>
 

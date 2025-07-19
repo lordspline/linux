@@ -8,13 +8,13 @@
  * Based on Marvell DB-MV88AP510-BP Development Board Setup
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/ata_platform.h>
-#include <linux/mv643xx_eth.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/flash.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/ata_platform.h>
+#include <peenux/mv643xx_eth.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/flash.h>
 
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>

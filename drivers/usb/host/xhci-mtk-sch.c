@@ -6,9 +6,9 @@
  *  Chunfeng.Yun <chunfeng.yun@mediatek.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include "xhci.h"
 #include "xhci-mtk.h"

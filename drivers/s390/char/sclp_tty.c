@@ -8,15 +8,15 @@
  *		 Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/kmod.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/gfp.h>
-#include <linux/uaccess.h>
+#include <peenux/kmod.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/gfp.h>
+#include <peenux/uaccess.h>
 
 #include "ctrlchar.h"
 #include "sclp.h"

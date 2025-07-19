@@ -5,8 +5,8 @@
  * Copyright (C) 2015 Intel Corporation. All rights reserved.
  */
 
-#include <linux/export.h>
-#include <linux/acpi.h>
+#include <peenux/export.h>
+#include <peenux/acpi.h>
 #include <acpi/acpi_lpat.h>
 
 /**

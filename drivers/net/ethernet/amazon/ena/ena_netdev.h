@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB */
 /*
  * Copyright 2015-2020 Amazon.com, Inc. or its affiliates. All rights reserved.
  */
@@ -6,16 +6,16 @@
 #ifndef ENA_H
 #define ENA_H
 
-#include <linux/bitops.h>
-#include <linux/dim.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/inetdevice.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/bitops.h>
+#include <peenux/dim.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/inetdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
 #include <net/xdp.h>
-#include <uapi/linux/bpf.h>
+#include <uapi/peenux/bpf.h>
 
 #include "ena_com.h"
 #include "ena_eth_com.h"

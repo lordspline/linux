@@ -13,24 +13,24 @@
  * May, 2, 1997: Added support for QLGC,isp --jj
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/gfp.h>
-#include <linux/blkdev.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/firmware.h>
-#include <linux/pgtable.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/gfp.h>
+#include <peenux/blkdev.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/jiffies.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/firmware.h>
+#include <peenux/pgtable.h>
 
 #include <asm/byteorder.h>
 

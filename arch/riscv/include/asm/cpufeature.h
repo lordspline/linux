@@ -6,12 +6,12 @@
 #ifndef _ASM_CPUFEATURE_H
 #define _ASM_CPUFEATURE_H
 
-#include <linux/bitmap.h>
-#include <linux/jump_label.h>
-#include <linux/workqueue.h>
-#include <linux/kconfig.h>
-#include <linux/percpu-defs.h>
-#include <linux/threads.h>
+#include <peenux/bitmap.h>
+#include <peenux/jump_label.h>
+#include <peenux/workqueue.h>
+#include <peenux/kconfig.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/threads.h>
 #include <asm/hwcap.h>
 #include <asm/cpufeature-macros.h>
 

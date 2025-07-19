@@ -7,10 +7,10 @@
  *		Antonio Quartulli <antonio@openvpn.net>
  */
 
-#include <linux/types.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <uapi/linux/ovpn.h>
+#include <peenux/types.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <uapi/peenux/ovpn.h>
 
 #include "ovpnpriv.h"
 #include "main.h"

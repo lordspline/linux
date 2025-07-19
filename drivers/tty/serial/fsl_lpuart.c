@@ -5,27 +5,27 @@
  *  Copyright 2012-2014 Freescale Semiconductor, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/circ_buf.h>
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty_flip.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/circ_buf.h>
+#include <peenux/clk.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dmapool.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/tty_flip.h>
 
 /* All registers are 8-bit width */
 #define UARTBDH			0x00

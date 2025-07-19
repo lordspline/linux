@@ -2,20 +2,20 @@
 /*
  * Process creation support for Hexagon
  *
- * Copyright (c) 2010-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2012, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/cpu.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/tick.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/resume_user_mode.h>
+#include <peenux/cpu.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/tick.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/resume_user_mode.h>
 
 /*
  * Program thread launch.  Often defined as a macro in processor.h,

@@ -5,9 +5,9 @@
  *
  * This file contains the dummy interrupt chip implementation
  */
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/export.h>
 
 #include "internals.h"
 

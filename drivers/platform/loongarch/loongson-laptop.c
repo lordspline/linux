@@ -10,17 +10,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/backlight.h>
+#include <peenux/device.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 #include <acpi/video.h>
 
 /* 1. Driver-wide structs and misc. variables */

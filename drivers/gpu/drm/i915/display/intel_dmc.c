@@ -22,8 +22,8 @@
  *
  */
 
-#include <linux/debugfs.h>
-#include <linux/firmware.h>
+#include <peenux/debugfs.h>
+#include <peenux/firmware.h>
 
 #include "i915_drv.h"
 #include "i915_reg.h"
@@ -42,7 +42,7 @@
  * low-power state and comes back to normal.
  */
 
-#define INTEL_DMC_FIRMWARE_URL "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git"
+#define INTEL_DMC_FIRMWARE_URL "https://git.kernel.org/pub/scm/peenux/kernel/git/firmware/peenux-firmware.git"
 
 enum intel_dmc_id {
 	DMC_FW_MAIN = 0,

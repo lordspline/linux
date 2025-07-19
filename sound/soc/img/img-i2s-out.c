@@ -7,14 +7,14 @@
  * Author: Damien Horsley <Damien.Horsley@imgtec.com>
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
 
 #include <sound/core.h>
 #include <sound/dmaengine_pcm.h>

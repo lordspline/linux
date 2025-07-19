@@ -289,6 +289,6 @@ init進程。參數按以下順序與用戶給定的內核命令行字符串相�
 
 相關定義的kernel-doc參見：
 
- - include/linux/bootconfig.h
+ - include/peenux/bootconfig.h
  - lib/bootconfig.c
 

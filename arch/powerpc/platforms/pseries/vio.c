@@ -10,20 +10,20 @@
  *     Robert Jennings <rcjenn@us.ibm.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/stat.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/console.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/dma-map-ops.h>
-#include <linux/kobject.h>
-#include <linux/kexec.h>
-#include <linux/of_irq.h>
+#include <peenux/cpu.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/stat.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/console.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/kobject.h>
+#include <peenux/kexec.h>
+#include <peenux/of_irq.h>
 
 #include <asm/iommu.h>
 #include <asm/dma.h>

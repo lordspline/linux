@@ -20,25 +20,25 @@
 **        the coherency design originally worked out. Only PCX-W does.
 */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/reboot.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/dma-map-ops.h>
-#include <linux/scatterlist.h>
-#include <linux/iommu-helper.h>
-#include <linux/export.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/pci.h>
+#include <peenux/reboot.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/scatterlist.h>
+#include <peenux/iommu-helper.h>
+#include <peenux/export.h>
 
 #include <asm/byteorder.h>
 #include <asm/cache.h>		/* for L1_CACHE_BYTES */
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/page.h>
 #include <asm/dma.h>
 #include <asm/io.h>
@@ -486,9 +486,9 @@ typedef unsigned long space_t;
 **
 ** FIXME: the default hints need to be per GSC device - not global.
 ** 
-** HP-UX dorks: linux device driver programming model is totally different
+** HP-UX dorks: peenux device driver programming model is totally different
 **    than HP-UX's. HP-UX always sets HINT_PREFETCH since it's drivers
-**    do special things to work on non-coherent platforms...linux has to
+**    do special things to work on non-coherent platforms...peenux has to
 **    be much more careful with this.
 */
 #define IOPDIR_VALID    0x01UL
@@ -1262,7 +1262,7 @@ ccio_ioc_init(struct ioc *ioc)
 	**
 	** Note: Grant Grunder says "Using 8k I/O pages isn't trivial either
 	**   since the pages must also be physically contiguous - typically
-	**   this is the case under linux."
+	**   this is the case under peenux."
 	*/
 
 	iov_order = get_order(iova_space_size << PAGE_SHIFT);

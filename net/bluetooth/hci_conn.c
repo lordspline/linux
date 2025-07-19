@@ -1,5 +1,5 @@
 /*
-   BlueZ - Bluetooth protocol stack for Linux
+   BlueZ - Bluetooth protocol stack for Peenux
    Copyright (c) 2000-2001, 2010, Code Aurora Forum. All rights reserved.
    Copyright 2023-2024 NXP
 
@@ -25,9 +25,9 @@
 
 /* Bluetooth HCI connection handling. */
 
-#include <linux/export.h>
-#include <linux/debugfs.h>
-#include <linux/errqueue.h>
+#include <peenux/export.h>
+#include <peenux/debugfs.h>
+#include <peenux/errqueue.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

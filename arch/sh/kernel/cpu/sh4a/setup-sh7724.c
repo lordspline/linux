@@ -9,17 +9,17 @@
  * Based on SH7723 Setup
  * Copyright (C) 2008  Paul Mundt
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/mm.h>
-#include <linux/serial_sci.h>
-#include <linux/uio_driver.h>
-#include <linux/sh_dma.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_intc.h>
-#include <linux/io.h>
-#include <linux/notifier.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/mm.h>
+#include <peenux/serial_sci.h>
+#include <peenux/uio_driver.h>
+#include <peenux/sh_dma.h>
+#include <peenux/sh_timer.h>
+#include <peenux/sh_intc.h>
+#include <peenux/io.h>
+#include <peenux/notifier.h>
 
 #include <asm/cacheflush.h>
 #include <asm/suspend.h>

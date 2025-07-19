@@ -8,12 +8,12 @@
  * This file contains shared functions used by some arm64 Exynos SoCs,
  * such as Exynos7885 or Exynos850 to register and init CMUs.
  */
-#include <linux/clk.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include "clk-exynos-arm64.h"
 

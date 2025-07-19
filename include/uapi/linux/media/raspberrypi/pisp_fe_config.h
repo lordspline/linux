@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Peenux-syscall-note */
 /*
  * RP1 PiSP Front End Driver Configuration structures
  *
@@ -8,7 +8,7 @@
 #ifndef _UAPI_PISP_FE_CONFIG_
 #define _UAPI_PISP_FE_CONFIG_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "pisp_common.h"
 #include "pisp_fe_statistics.h"

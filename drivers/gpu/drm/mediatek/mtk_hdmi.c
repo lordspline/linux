@@ -4,22 +4,22 @@
  * Author: Jie Qiu <jie.qiu@mediatek.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_platform.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/hdmi.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_platform.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <sound/hdmi-codec.h>
 

@@ -11,18 +11,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/kgdb.h>
-#include <linux/kdb.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/vt_kern.h>
-#include <linux/input.h>
-#include <linux/irq_work.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/serial_core.h>
+#include <peenux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/kgdb.h>
+#include <peenux/kdb.h>
+#include <peenux/tty.h>
+#include <peenux/console.h>
+#include <peenux/vt_kern.h>
+#include <peenux/input.h>
+#include <peenux/irq_work.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial_core.h>
 
 #define MAX_CONFIG_LEN		40
 

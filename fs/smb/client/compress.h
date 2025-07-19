@@ -15,8 +15,8 @@
 #ifndef _SMB_COMPRESS_H
 #define _SMB_COMPRESS_H
 
-#include <linux/uio.h>
-#include <linux/kernel.h>
+#include <peenux/uio.h>
+#include <peenux/kernel.h>
 #include "../common/smb2pdu.h"
 #include "cifsglob.h"
 

@@ -5,12 +5,12 @@
  * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <sound/ac97_codec.h>
 #include <sound/asoundef.h>
 #include <sound/core.h>

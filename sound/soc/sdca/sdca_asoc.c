@@ -7,15 +7,15 @@
  * https://www.mipi.org/mipi-sdca-v1-0-download
  */
 
-#include <linux/bitmap.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/string_helpers.h>
+#include <peenux/bitmap.h>
+#include <peenux/delay.h>
+#include <peenux/dev_printk.h>
+#include <peenux/device.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/string_helpers.h>
 #include <sound/control.h>
 #include <sound/sdca.h>
 #include <sound/sdca_asoc.h>

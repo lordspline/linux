@@ -4,11 +4,11 @@
  *
  *  Copyright (C) 2006 Atsushi Nemoto <anemo@mba.ocn.ne.jp>
  */
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
-#include <linux/export.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/stacktrace.h>
+#include <peenux/export.h>
 #include <asm/stacktrace.h>
 
 /*

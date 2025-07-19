@@ -2,12 +2,12 @@
 #ifndef __TARGET_USB_GADGET_H__
 #define __TARGET_USB_GADGET_H__
 
-#include <linux/kref.h>
-/* #include <linux/usb/uas.h> */
-#include <linux/hashtable.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/uas.h>
-#include <linux/usb/storage.h>
+#include <peenux/kref.h>
+/* #include <peenux/usb/uas.h> */
+#include <peenux/hashtable.h>
+#include <peenux/usb/composite.h>
+#include <peenux/usb/uas.h>
+#include <peenux/usb/storage.h>
 #include <target/target_core_base.h>
 #include <target/target_core_fabric.h>
 

@@ -4,15 +4,15 @@
  * Copyright (C) Shailabh Nagar, IBM Corp. 2006
  */
 
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/sched/cputime.h>
-#include <linux/sched/clock.h>
-#include <linux/slab.h>
-#include <linux/taskstats.h>
-#include <linux/sysctl.h>
-#include <linux/delayacct.h>
-#include <linux/module.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/sched/clock.h>
+#include <peenux/slab.h>
+#include <peenux/taskstats.h>
+#include <peenux/sysctl.h>
+#include <peenux/delayacct.h>
+#include <peenux/module.h>
 
 #define UPDATE_DELAY(type) \
 do { \

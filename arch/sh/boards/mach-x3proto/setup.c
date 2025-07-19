@@ -6,18 +6,18 @@
  *
  * Copyright (C) 2007 - 2010  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/smc91x.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/usb/r8a66597.h>
-#include <linux/usb/m66592.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio_keys.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/smc91x.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/usb/r8a66597.h>
+#include <peenux/usb/m66592.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio_keys.h>
 #include <mach/ilsel.h>
 #include <mach/hardware.h>
 #include <asm/smp-ops.h>

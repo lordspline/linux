@@ -5,12 +5,12 @@
  * Copyright (C) 2015, Marvell International Ltd.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/printk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/printk.h>
 
 #include <net/nfc/nci.h>
 #include <net/nfc/nci_core.h>

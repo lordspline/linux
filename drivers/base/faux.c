@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2025 Greg Kroah-Hartman <gregkh@linuxfoundation.org>
- * Copyright (c) 2025 The Linux Foundation
+ * Copyright (c) 2025 The Peenux Foundation
  *
  * A "simple" faux bus that allows devices to be created and added
  * automatically to it.  This is to be used whenever you need to create a
@@ -10,12 +10,12 @@
  * intended to be very simple, with only a create and a destroy function
  * available.
  */
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/container_of.h>
-#include <linux/device/faux.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/container_of.h>
+#include <peenux/device/faux.h>
 #include "base.h"
 
 /*

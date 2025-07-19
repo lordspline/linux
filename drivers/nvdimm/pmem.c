@@ -7,25 +7,25 @@
  * Copyright (c) 2015, Boaz Harrosh <boaz@plexistor.com>.
  */
 
-#include <linux/blkdev.h>
-#include <linux/pagemap.h>
-#include <linux/hdreg.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/set_memory.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/badblocks.h>
-#include <linux/memremap.h>
-#include <linux/kstrtox.h>
-#include <linux/vmalloc.h>
-#include <linux/blk-mq.h>
-#include <linux/pfn_t.h>
-#include <linux/slab.h>
-#include <linux/uio.h>
-#include <linux/dax.h>
-#include <linux/nd.h>
-#include <linux/mm.h>
+#include <peenux/blkdev.h>
+#include <peenux/pagemap.h>
+#include <peenux/hdreg.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/set_memory.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/badblocks.h>
+#include <peenux/memremap.h>
+#include <peenux/kstrtox.h>
+#include <peenux/vmalloc.h>
+#include <peenux/blk-mq.h>
+#include <peenux/pfn_t.h>
+#include <peenux/slab.h>
+#include <peenux/uio.h>
+#include <peenux/dax.h>
+#include <peenux/nd.h>
+#include <peenux/mm.h>
 #include <asm/cacheflush.h>
 #include "pmem.h"
 #include "btt.h"
@@ -763,6 +763,6 @@ static struct nd_device_driver nd_pmem_driver = {
 
 module_nd_driver(nd_pmem_driver);
 
-MODULE_AUTHOR("Ross Zwisler <ross.zwisler@linux.intel.com>");
+MODULE_AUTHOR("Ross Zwisler <ross.zwisler@peenux.intel.com>");
 MODULE_DESCRIPTION("NVDIMM Persistent Memory Driver");
 MODULE_LICENSE("GPL v2");

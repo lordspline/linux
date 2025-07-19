@@ -9,16 +9,16 @@
  * Copyright 2014 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/videodev2.h>
-#include <linux/v4l2-dv-timings.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kmod.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/videodev2.h>
+#include <peenux/v4l2-dv-timings.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-ioctl.h>

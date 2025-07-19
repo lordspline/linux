@@ -7,28 +7,28 @@
  * Author: Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_gpio.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_gpio.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/machine.h>
 
 #include "gpiolib.h"
 #include "gpiolib-of.h"
 
 /*
- * This is Linux-specific flags. By default controllers' and Linux' mapping
+ * This is Peenux-specific flags. By default controllers' and Peenux' mapping
  * match, but GPIO controllers are free to translate their own flags to
- * Linux-specific in their .xlate callback. Though, 1:1 mapping is recommended.
+ * Peenux-specific in their .xlate callback. Though, 1:1 mapping is recommended.
  */
 enum of_gpio_flags {
 	OF_GPIO_ACTIVE_LOW = 0x1,
@@ -402,7 +402,7 @@ static void of_gpio_flags_quirks(const struct device_node *np,
  * @flags:	a flags pointer to fill in
  *
  * Returns:
- * GPIO descriptor to use with Linux GPIO API, or one of the errno
+ * GPIO descriptor to use with Peenux GPIO API, or one of the errno
  * value on the error condition. If @flags is not NULL the function also fills
  * in flags for the GPIO.
  */
@@ -455,7 +455,7 @@ out:
  * **DEPRECATED** This function is deprecated and must not be used in new code.
  *
  * Returns:
- * GPIO number to use with Linux generic GPIO API, or one of the errno
+ * GPIO number to use with Peenux generic GPIO API, or one of the errno
  * value on the error condition.
  */
 int of_get_named_gpio(const struct device_node *np, const char *propname,
@@ -742,7 +742,7 @@ struct gpio_desc *of_find_gpio(struct device_node *np, const char *con_id,
  * @dflags:	gpiod_flags - optional GPIO initialization flags
  *
  * Returns:
- * GPIO descriptor to use with Linux GPIO API, or one of the errno
+ * GPIO descriptor to use with Peenux GPIO API, or one of the errno
  * value on the error condition.
  */
 static struct gpio_desc *of_parse_own_gpio(struct device_node *np,
@@ -1032,7 +1032,7 @@ static int of_gpio_threecell_xlate(struct gpio_chip *gc,
 }
 
 #if IS_ENABLED(CONFIG_OF_GPIO_MM_GPIOCHIP)
-#include <linux/gpio/legacy-of-mm-gpiochip.h>
+#include <peenux/gpio/legacy-of-mm-gpiochip.h>
 /**
  * of_mm_gpiochip_add_data - Add memory mapped GPIO chip (bank)
  * @np:		device node of the GPIO chip

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/anon_inodes.h>
-#include <linux/uio.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/uio.h>
 #include "internal.h"
 
 struct ondemand_anon_file {

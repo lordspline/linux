@@ -7,8 +7,8 @@
  *  Based on the hid-macally driver
  */
 
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
 
 #include "hid-ids.h"
 

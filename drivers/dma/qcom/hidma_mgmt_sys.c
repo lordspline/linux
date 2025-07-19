@@ -2,11 +2,11 @@
 /*
  * Qualcomm Technologies HIDMA Management SYS interface
  *
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/sysfs.h>
-#include <linux/platform_device.h>
+#include <peenux/sysfs.h>
+#include <peenux/platform_device.h>
 
 #include "hidma_mgmt.h"
 

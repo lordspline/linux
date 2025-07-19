@@ -7,13 +7,13 @@
 #include <asm/arch_timer.h>
 #endif
 
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/pagemap.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/time64.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/pagemap.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/time64.h>
 
 #include <drm/drm_auth.h>
 #include <drm/drm_debugfs.h>

@@ -5,13 +5,13 @@
  * Copyright (C) 2015 Renesas Electronics Corporation
  * Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
  */
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #define CH_MAX 4
 #define RATIO_REG_SIZE 4

@@ -5,24 +5,24 @@
  * Author: Hongzhou.Yang <hongzhou.yang@mediatek.com>
  */
 
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/pm.h>
+#include <peenux/io.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm.h>
 #include <dt-bindings/pinctrl/mt65xx.h>
 
 #include "../core.h"

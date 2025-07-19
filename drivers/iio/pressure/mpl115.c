@@ -7,10 +7,10 @@
  * TODO: synchronization with system suspend
  */
 
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/iio/iio.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
 
 #include "mpl115.h"
 

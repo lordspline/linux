@@ -4,11 +4,11 @@
  * Author: Paul Burton <paul.burton@mips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clocksource.h>
-#include <linux/init.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clocksource.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
 
 #include <asm/irq.h>
 #include <asm/mips-cps.h>

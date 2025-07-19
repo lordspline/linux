@@ -34,9 +34,9 @@
 
 */
 
-#include <linux/vmalloc.h>
-#include <linux/mISDNif.h>
-#include <linux/in.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mISDNif.h>
+#include <peenux/in.h>
 #include "core.h"
 #include "l1oip.h"
 

@@ -6,16 +6,16 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/blkdev.h>
-#include <linux/hdreg.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/blkdev.h>
+#include <peenux/hdreg.h>
+#include <peenux/slab.h>
 
 #include <asm/natfeat.h>
 

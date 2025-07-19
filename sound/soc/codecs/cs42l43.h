@@ -9,10 +9,10 @@
 #ifndef CS42L43_ASOC_INT_H
 #define CS42L43_ASOC_INT_H
 
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 #include <sound/pcm.h>
 
 #define CS42L43_INTERNAL_SYSCLK		24576000

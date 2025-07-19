@@ -6,10 +6,10 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <kunit/test.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #define STRCMP_LARGE_BUF_LEN 2048
 #define STRCMP_CHANGE_POINT 1337

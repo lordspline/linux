@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/net/sunrpc/svc.c
+ * peenux/net/sunrpc/svc.c
  *
  * High-level RPC service routines
  *
@@ -11,23 +11,23 @@
  * by Greg Banks <gnb@melbourne.sgi.com>
  */
 
-#include <linux/linkage.h>
-#include <linux/sched/signal.h>
-#include <linux/errno.h>
-#include <linux/net.h>
-#include <linux/in.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
+#include <peenux/linkage.h>
+#include <peenux/sched/signal.h>
+#include <peenux/errno.h>
+#include <peenux/net.h>
+#include <peenux/in.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
 
-#include <linux/sunrpc/types.h>
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/stats.h>
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/bc_xprt.h>
+#include <peenux/sunrpc/types.h>
+#include <peenux/sunrpc/xdr.h>
+#include <peenux/sunrpc/stats.h>
+#include <peenux/sunrpc/svcsock.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/bc_xprt.h>
 
 #include <trace/events/sunrpc.h>
 
@@ -1747,7 +1747,7 @@ char *svc_fill_symlink_pathname(struct svc_rqst *rqstp, struct kvec *first,
 
 	*dst = '\0';
 
-	/* Sanity check: Linux doesn't allow the pathname argument to
+	/* Sanity check: Peenux doesn't allow the pathname argument to
 	 * contain a NUL byte.
 	 */
 	if (strlen(result) != total) {

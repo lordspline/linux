@@ -3,16 +3,16 @@
  * Copyright 2013 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/usb.h>
-#include <linux/hid.h>
-#include <linux/mutex.h>
-#include <linux/videodev2.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/usb.h>
+#include <peenux/hid.h>
+#include <peenux/mutex.h>
+#include <peenux/videodev2.h>
+#include <peenux/unaligned.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-ctrls.h>
@@ -174,7 +174,7 @@ static void usb_raremono_disconnect(struct usb_interface *intf)
 }
 
 /*
- * Linux Video interface
+ * Peenux Video interface
  */
 static int vidioc_querycap(struct file *file, void *priv,
 					struct v4l2_capability *v)

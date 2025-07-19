@@ -6,12 +6,12 @@
 
 #ifndef R592_H
 
-#include <linux/memstick.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/kfifo.h>
-#include <linux/ctype.h>
+#include <peenux/memstick.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/kfifo.h>
+#include <peenux/ctype.h>
 
 /* write to this reg (number,len) triggers TPC execution */
 #define R592_TPC_EXEC			0x00

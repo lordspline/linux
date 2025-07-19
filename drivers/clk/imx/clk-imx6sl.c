@@ -3,14 +3,14 @@
  * Copyright 2013-2014 Freescale Semiconductor, Inc.
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk/imx.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk/imx.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 #include <dt-bindings/clock/imx6sl-clock.h>
 
 #include "clk.h"

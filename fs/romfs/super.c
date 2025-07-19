@@ -3,7 +3,7 @@
  * Copyright © 2007 Red Hat, Inc. All Rights Reserved.
  * Written by David Howells (dhowells@redhat.com)
  *
- * Derived from: ROMFS file system, Linux implementation
+ * Derived from: ROMFS file system, Peenux implementation
  *
  * Copyright © 1997-1999  Janos Farkas <chexum@shadow.banki.hu>
  *
@@ -58,23 +58,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/time.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/fs_context.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/statfs.h>
-#include <linux/mtd/super.h>
-#include <linux/ctype.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/uaccess.h>
-#include <linux/major.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/fs.h>
+#include <peenux/time.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/fs_context.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/statfs.h>
+#include <peenux/mtd/super.h>
+#include <peenux/ctype.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/uaccess.h>
+#include <peenux/major.h>
 #include "internal.h"
 
 static struct kmem_cache *romfs_inode_cachep;

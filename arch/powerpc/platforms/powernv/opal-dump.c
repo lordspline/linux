@@ -5,13 +5,13 @@
  * Copyright 2013,2014 IBM Corp.
  */
 
-#include <linux/kobject.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
+#include <peenux/kobject.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pagemap.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
 
 #include <asm/opal.h>
 

@@ -75,16 +75,16 @@
  * (i.e. _enter_* function).
  */
 
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #include <scsi/fc/fc_gs.h>
 
 #include <scsi/libfc.h>
-#include <linux/scatterlist.h>
+#include <peenux/scatterlist.h>
 
 #include "fc_encode.h"
 #include "fc_libfc.h"

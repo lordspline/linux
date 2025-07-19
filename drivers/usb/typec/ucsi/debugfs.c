@@ -7,11 +7,11 @@
  * Authors: Rajaram Regupathy <rajaram.regupathy@intel.com>
  *	    Gopal Saranya <saranya.gopal@intel.com>
  */
-#include <linux/debugfs.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/usb.h>
+#include <peenux/debugfs.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/usb.h>
 
 #include <asm/errno.h>
 

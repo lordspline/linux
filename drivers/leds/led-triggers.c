@@ -7,16 +7,16 @@
  * Author: Richard Purdie <rpurdie@openedhand.com>
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/timer.h>
-#include <linux/rwsem.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/timer.h>
+#include <peenux/rwsem.h>
+#include <peenux/leds.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
 #include "leds.h"
 
 /*

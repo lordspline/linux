@@ -5,12 +5,12 @@
  * Copyright (C) 2024 Marvell.
  */
 
-#include <linux/acpi.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
 
 /*
  * Each of these events maps to a free running 64 bit counter

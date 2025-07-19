@@ -1,15 +1,15 @@
 /* drivers/video/s1d13xxxfb.c
  *
  * (c) 2004 Simtec Electronics
- * (c) 2005 Thibaut VARENE <varenet@parisc-linux.org>
+ * (c) 2005 Thibaut VARENE <varenet@parisc-peenux.org>
  * (c) 2009 Kristoffer Ericson <kristoffer.ericson@gmail.com>
  *
  * Driver for Epson S1D13xxx series framebuffer chips
  *
  * Adapted from
- *  linux/drivers/video/skeletonfb.c
- *  linux/drivers/video/epson1355fb.c
- *  linux/drivers/video/epson/s1d13xxxfb.c (2.4 driver by Epson)
+ *  peenux/drivers/video/skeletonfb.c
+ *  peenux/drivers/video/epson1355fb.c
+ *  peenux/drivers/video/epson/s1d13xxxfb.c (2.4 driver by Epson)
  *
  * TODO: - handle dual screen display (CRT and LCD at the same time).
  *	 - check_var(), mode change, etc.
@@ -21,18 +21,18 @@
  * more details.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/fb.h>
-#include <linux/spinlock_types.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/fb.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
 #include <video/s1d13xxxfb.h>
 
@@ -1037,4 +1037,4 @@ module_exit(s1d13xxxfb_exit);
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Framebuffer driver for S1D13xxx devices");
-MODULE_AUTHOR("Ben Dooks <ben@simtec.co.uk>, Thibaut VARENE <varenet@parisc-linux.org>");
+MODULE_AUTHOR("Ben Dooks <ben@simtec.co.uk>, Thibaut VARENE <varenet@parisc-peenux.org>");

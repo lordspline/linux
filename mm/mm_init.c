@@ -6,32 +6,32 @@
  * Author Mel Gorman <mel@csn.ul.ie>
  *
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/kobject.h>
-#include <linux/export.h>
-#include <linux/memory.h>
-#include <linux/notifier.h>
-#include <linux/sched.h>
-#include <linux/mman.h>
-#include <linux/memblock.h>
-#include <linux/page-isolation.h>
-#include <linux/padata.h>
-#include <linux/nmi.h>
-#include <linux/buffer_head.h>
-#include <linux/kmemleak.h>
-#include <linux/kfence.h>
-#include <linux/page_ext.h>
-#include <linux/pti.h>
-#include <linux/pgtable.h>
-#include <linux/stackdepot.h>
-#include <linux/swap.h>
-#include <linux/cma.h>
-#include <linux/crash_dump.h>
-#include <linux/execmem.h>
-#include <linux/vmstat.h>
-#include <linux/kexec_handover.h>
-#include <linux/hugetlb.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/kobject.h>
+#include <peenux/export.h>
+#include <peenux/memory.h>
+#include <peenux/notifier.h>
+#include <peenux/sched.h>
+#include <peenux/mman.h>
+#include <peenux/memblock.h>
+#include <peenux/page-isolation.h>
+#include <peenux/padata.h>
+#include <peenux/nmi.h>
+#include <peenux/buffer_head.h>
+#include <peenux/kmemleak.h>
+#include <peenux/kfence.h>
+#include <peenux/page_ext.h>
+#include <peenux/pti.h>
+#include <peenux/pgtable.h>
+#include <peenux/stackdepot.h>
+#include <peenux/swap.h>
+#include <peenux/cma.h>
+#include <peenux/crash_dump.h>
+#include <peenux/execmem.h>
+#include <peenux/vmstat.h>
+#include <peenux/kexec_handover.h>
+#include <peenux/hugetlb.h>
 #include "internal.h"
 #include "slab.h"
 #include "shuffle.h"
@@ -1530,7 +1530,7 @@ void __init set_pageblock_order(void)
 /*
  * When CONFIG_HUGETLB_PAGE_SIZE_VARIABLE is not set, set_pageblock_order()
  * is unused as pageblock_order is set at compile-time. See
- * include/linux/pageblock-flags.h for the values of pageblock_order based on
+ * include/peenux/pageblock-flags.h for the values of pageblock_order based on
  * the kernel config
  */
 void __init set_pageblock_order(void)

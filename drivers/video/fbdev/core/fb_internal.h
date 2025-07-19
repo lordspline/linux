@@ -3,9 +3,9 @@
 #ifndef _FB_INTERNAL_H
 #define _FB_INTERNAL_H
 
-#include <linux/device.h>
-#include <linux/fb.h>
-#include <linux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/fb.h>
+#include <peenux/mutex.h>
 
 /* fb_devfs.c */
 #if defined(CONFIG_FB_DEVICE)

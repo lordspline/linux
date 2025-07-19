@@ -4,7 +4,7 @@
  * Copyright (C) 2018-2024 Intel Corporation
  */
 #include <net/cfg80211.h>
-#include <linux/etherdevice.h>
+#include <peenux/etherdevice.h>
 #include "mvm.h"
 #include "constants.h"
 

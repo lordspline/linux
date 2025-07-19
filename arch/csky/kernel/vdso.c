@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/binfmts.h>
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/binfmts.h>
+#include <peenux/elf.h>
+#include <peenux/err.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 
 #include <asm/page.h>
 

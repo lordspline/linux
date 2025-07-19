@@ -5,12 +5,12 @@
  * Written by Ferdinand Blomqvist
  * Based on previous work by Phil Karn, KA9Q
  */
-#include <linux/rslib.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/random.h>
-#include <linux/slab.h>
+#include <peenux/rslib.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
 
 enum verbosity {
 	V_SILENT,

@@ -2,17 +2,17 @@
 // Copyright (C) STMicroelectronics 2018
 // Author: Pascal Paillet <p.paillet@st.com>
 
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/stpmic1.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/stpmic1.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/mfd/st,stpmic1.h>
 

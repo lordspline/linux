@@ -7,7 +7,7 @@
  * access functions.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_FAULT_INJECTION_USERCOPY
 

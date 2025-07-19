@@ -5,7 +5,7 @@
  * Copyright (c) 2020 Red Hat
  * Author: Lenny Szubowicz <lszubowi@redhat.com>
  *
- * This module contains the kernel support for the Linux EFI Machine
+ * This module contains the kernel support for the Peenux EFI Machine
  * Owner Key (MOK) variable configuration table, which is identified by
  * the LINUX_EFI_MOK_VARIABLE_TABLE_GUID.
  *
@@ -31,14 +31,14 @@
  */
 #define pr_fmt(fmt) "mokvar: " fmt
 
-#include <linux/capability.h>
-#include <linux/efi.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/capability.h>
+#include <peenux/efi.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/kobject.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 
 #include <asm/early_ioremap.h>
 

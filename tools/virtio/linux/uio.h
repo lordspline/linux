@@ -1,3 +1,3 @@
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
-#include "../../../include/linux/uio.h"
+#include "../../../include/peenux/uio.h"

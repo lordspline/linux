@@ -10,10 +10,10 @@
  * Copyright (C) 2012  Intel Corporation. All rights reserved.
  */
 
-#include <linux/completion.h>
-#include <linux/firmware.h>
-#include <linux/nfc.h>
-#include <linux/unaligned.h>
+#include <peenux/completion.h>
+#include <peenux/firmware.h>
+#include <peenux/nfc.h>
+#include <peenux/unaligned.h>
 
 #include "nxp-nci.h"
 

@@ -8,13 +8,13 @@
  */
 
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>

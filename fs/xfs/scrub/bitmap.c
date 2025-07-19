@@ -14,7 +14,7 @@
 #include "scrub/scrub.h"
 #include "scrub/bitmap.h"
 
-#include <linux/interval_tree_generic.h>
+#include <peenux/interval_tree_generic.h>
 
 /* u64 bitmap */
 

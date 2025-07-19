@@ -5,11 +5,11 @@
 // Copyright (C) 2020 Renesas Electronics Corporation
 // Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
 
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/module.h>
+#include <peenux/workqueue.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 

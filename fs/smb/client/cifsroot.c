@@ -4,15 +4,15 @@
  *
  * Copyright (c) 2019 Paulo Alcantara <palcantara@suse.de>
  */
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/root_dev.h>
-#include <linux/kernel.h>
-#include <linux/in.h>
-#include <linux/inet.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/root_dev.h>
+#include <peenux/kernel.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
 #include <net/ipconfig.h>
 
 #define DEFAULT_MNT_OPTS \

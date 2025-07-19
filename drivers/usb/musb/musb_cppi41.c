@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/sizes.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/sizes.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
 
 #include "cppi_dma.h"
 #include "musb_core.h"

@@ -1,11 +1,11 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /* industrial I/O buffer definitions needed both in and out of kernel
  */
 
 #ifndef _UAPI_IIO_BUFFER_H_
 #define _UAPI_IIO_BUFFER_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* Flags for iio_dmabuf.flags */
 #define IIO_BUFFER_DMABUF_CYCLIC		(1 << 0)

@@ -7,14 +7,14 @@
  * Author: Kavyasree Kotagiri <kavyasree.kotagiri@microchip.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/clock/microchip,lan966x.h>
 

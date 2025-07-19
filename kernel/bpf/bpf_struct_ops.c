@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2019 Facebook */
 
-#include <linux/bpf.h>
-#include <linux/bpf_verifier.h>
-#include <linux/btf.h>
-#include <linux/filter.h>
-#include <linux/slab.h>
-#include <linux/numa.h>
-#include <linux/seq_file.h>
-#include <linux/refcount.h>
-#include <linux/mutex.h>
-#include <linux/btf_ids.h>
-#include <linux/rcupdate_wait.h>
-#include <linux/poll.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_verifier.h>
+#include <peenux/btf.h>
+#include <peenux/filter.h>
+#include <peenux/slab.h>
+#include <peenux/numa.h>
+#include <peenux/seq_file.h>
+#include <peenux/refcount.h>
+#include <peenux/mutex.h>
+#include <peenux/btf_ids.h>
+#include <peenux/rcupdate_wait.h>
+#include <peenux/poll.h>
 
 struct bpf_struct_ops_value {
 	struct bpf_struct_ops_common_value common;

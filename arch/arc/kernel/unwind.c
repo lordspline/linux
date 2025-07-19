@@ -10,16 +10,16 @@
  * is not much point in implementing the full Dwarf2 unwind API.
  */
 
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/memblock.h>
-#include <linux/sort.h>
-#include <linux/slab.h>
-#include <linux/stop_machine.h>
-#include <linux/uaccess.h>
-#include <linux/ptrace.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/memblock.h>
+#include <peenux/sort.h>
+#include <peenux/slab.h>
+#include <peenux/stop_machine.h>
+#include <peenux/uaccess.h>
+#include <peenux/ptrace.h>
 #include <asm/sections.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/unwind.h>
 
 extern char __start_unwind[], __end_unwind[];

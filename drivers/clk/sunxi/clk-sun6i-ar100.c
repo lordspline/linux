@@ -7,12 +7,12 @@
  * Allwinner A31 AR100 clock driver
  */
 
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/clk-provider.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
 #include "clk-factors.h"
 

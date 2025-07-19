@@ -7,8 +7,8 @@
 #ifndef __PINCTRL_STM32_H
 #define __PINCTRL_STM32_H
 
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinconf-generic.h>
 
 #define STM32_PIN_NO(x) ((x) << 8)
 #define STM32_GET_PIN_NO(x) ((x) >> 8)

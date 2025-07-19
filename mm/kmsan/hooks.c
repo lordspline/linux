@@ -9,16 +9,16 @@
  *
  */
 
-#include <linux/cacheflush.h>
-#include <linux/dma-direction.h>
-#include <linux/gfp.h>
-#include <linux/kmsan.h>
-#include <linux/mm.h>
-#include <linux/mm_types.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
+#include <peenux/cacheflush.h>
+#include <peenux/dma-direction.h>
+#include <peenux/gfp.h>
+#include <peenux/kmsan.h>
+#include <peenux/mm.h>
+#include <peenux/mm_types.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
 
 #include "../internal.h"
 #include "../slab.h"

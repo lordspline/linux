@@ -7,8 +7,8 @@
  * Copyright (c) 2023, Oracle and/or its affiliates.
  */
 
-#include <linux/types.h>
-#include <linux/ipv6.h>
+#include <peenux/types.h>
+#include <peenux/ipv6.h>
 
 #include <net/sock.h>
 #include <net/inet_sock.h>

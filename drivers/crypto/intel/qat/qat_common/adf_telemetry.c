@@ -3,16 +3,16 @@
 #define dev_fmt(fmt) "Telemetry: " fmt
 
 #include <asm/errno.h>
-#include <linux/atomic.h>
-#include <linux/device.h>
-#include <linux/dev_printk.h>
-#include <linux/dma-mapping.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/device.h>
+#include <peenux/dev_printk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
 
 #include "adf_admin.h"
 #include "adf_accel_devices.h"

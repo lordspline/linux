@@ -22,8 +22,8 @@
 #define __INLINE_STREAM2MMIO__
 #endif
 
-#include <linux/args.h>
-#include <linux/string.h> /* for strscpy() */
+#include <peenux/args.h>
+#include <peenux/string.h> /* for strscpy() */
 
 #include "ia_css_debug.h"
 #include "ia_css_debug_pipe.h"

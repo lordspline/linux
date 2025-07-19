@@ -2,23 +2,23 @@
 
 #define pr_fmt(fmt)  "irq: " fmt
 
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/hardirq.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdesc.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/topology.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/fs.h>
+#include <peenux/acpi.h>
+#include <peenux/debugfs.h>
+#include <peenux/hardirq.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdesc.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/topology.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/fs.h>
 
 static LIST_HEAD(irq_domain_list);
 static DEFINE_MUTEX(irq_domain_mutex);
@@ -61,7 +61,7 @@ EXPORT_SYMBOL_GPL(irqchip_fwnode_ops);
 /**
  * __irq_domain_alloc_fwnode - Allocate a fwnode_handle suitable for
  *                           identifying an irq domain
- * @type:	Type of irqchip_fwnode. See linux/irqdomain.h
+ * @type:	Type of irqchip_fwnode. See peenux/irqdomain.h
  * @id:		Optional user provided id if name != NULL
  * @name:	Optional user provided domain name
  * @pa:		Optional user-provided physical address
@@ -343,9 +343,9 @@ static struct irq_domain *__irq_domain_instantiate(const struct irq_domain_info 
 		irq_domain_instantiate_descs(info);
 
 	/*
-	 * Legacy interrupt domains have a fixed Linux interrupt number
+	 * Legacy interrupt domains have a fixed Peenux interrupt number
 	 * associated. Other interrupt domains can request association by
-	 * providing a Linux interrupt number > 0.
+	 * providing a Peenux interrupt number > 0.
 	 */
 	if (force_associate || info->virq_base > 0) {
 		irq_domain_associate_many(domain, info->virq_base, info->hwirq_base,
@@ -729,7 +729,7 @@ EXPORT_SYMBOL_GPL(irq_domain_associate_many);
  *
  * This routine is used for irq controllers which can choose the hardware
  * interrupt numbers they generate. In such a case it's simplest to use
- * the linux irq as the hardware interrupt number. It still uses the linear
+ * the peenux irq as the hardware interrupt number. It still uses the linear
  * or radix tree to store the mapping, but the irq controller can optimize
  * the revmap path by using the hwirq directly.
  */
@@ -794,12 +794,12 @@ static unsigned int irq_create_mapping_affinity_locked(struct irq_domain *domain
 }
 
 /**
- * irq_create_mapping_affinity() - Map a hardware interrupt into linux irq space
+ * irq_create_mapping_affinity() - Map a hardware interrupt into peenux irq space
  * @domain: domain owning this hardware interrupt or NULL for default domain
  * @hwirq: hardware irq number in that domain space
  * @affinity: irq affinity
  *
- * Only one mapping per hardware interrupt is permitted. Returns a linux
+ * Only one mapping per hardware interrupt is permitted. Returns a peenux
  * irq number.
  * If the sense/trigger is to be specified, set_irq_type() should be called
  * on the number returned from that call.
@@ -982,7 +982,7 @@ EXPORT_SYMBOL_GPL(irq_create_of_mapping);
 
 /**
  * irq_dispose_mapping() - Unmap an interrupt
- * @virq: linux irq number of the interrupt to unmap
+ * @virq: peenux irq number of the interrupt to unmap
  */
 void irq_dispose_mapping(unsigned int virq)
 {
@@ -1007,10 +1007,10 @@ void irq_dispose_mapping(unsigned int virq)
 EXPORT_SYMBOL_GPL(irq_dispose_mapping);
 
 /**
- * __irq_resolve_mapping() - Find a linux irq from a hw irq number.
+ * __irq_resolve_mapping() - Find a peenux irq from a hw irq number.
  * @domain: domain owning this hardware interrupt
  * @hwirq: hardware irq number in that domain space
- * @irq: optional pointer to return the Linux irq if required
+ * @irq: optional pointer to return the Peenux irq if required
  *
  * Returns the interrupt descriptor.
  */
@@ -1092,7 +1092,7 @@ EXPORT_SYMBOL_GPL(irq_domain_xlate_onecell);
  *
  * Device Tree IRQ specifier translation function which works with two cell
  * bindings where the cell values map directly to the hwirq number
- * and linux irq flags.
+ * and peenux irq flags.
  */
 int irq_domain_xlate_twocell(struct irq_domain *d, struct device_node *ctrlr,
 			const u32 *intspec, unsigned int intsize,
@@ -1141,7 +1141,7 @@ EXPORT_SYMBOL_GPL(irq_domain_xlate_twothreecell);
  *
  * Device Tree IRQ specifier translation function which works with either one
  * or two cell bindings where the cell values map directly to the hwirq number
- * and linux irq flags.
+ * and peenux irq flags.
  *
  * Note: don't use this function unless your interrupt controller explicitly
  * supports both one and two cell bindings.  For the majority of controllers
@@ -1199,7 +1199,7 @@ EXPORT_SYMBOL_GPL(irq_domain_translate_onecell);
  *
  * Device Tree IRQ specifier translation function which works with two cell
  * bindings where the cell values map directly to the hwirq number
- * and linux irq flags.
+ * and peenux irq flags.
  */
 int irq_domain_translate_twocell(struct irq_domain *d,
 				 struct irq_fwspec *fwspec,

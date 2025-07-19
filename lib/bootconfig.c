@@ -11,15 +11,15 @@
  * However, if you change this file, please make sure the tools/bootconfig
  * has no issue on building and running.
  */
-#include <linux/bootconfig.h>
+#include <peenux/bootconfig.h>
 
 #ifdef __KERNEL__
-#include <linux/bug.h>
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/string.h>
+#include <peenux/bug.h>
+#include <peenux/ctype.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/memblock.h>
+#include <peenux/string.h>
 
 #ifdef CONFIG_BOOT_CONFIG_EMBED
 /* embedded_bootconfig_data is defined in bootconfig-data.S */

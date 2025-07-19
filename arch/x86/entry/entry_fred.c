@@ -3,9 +3,9 @@
  * The FRED specific kernel/user entry functions which are invoked from
  * assembly code and dispatch to the associated handlers.
  */
-#include <linux/kernel.h>
-#include <linux/kdebug.h>
-#include <linux/nospec.h>
+#include <peenux/kernel.h>
+#include <peenux/kdebug.h>
+#include <peenux/nospec.h>
 
 #include <asm/desc.h>
 #include <asm/fred.h>

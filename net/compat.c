@@ -2,7 +2,7 @@
 /*
  * 32bit Socket syscall emulation. Based on arch/sparc64/kernel/sys_sparc32.c.
  *
- * Copyright (C) 2000		VA Linux Co
+ * Copyright (C) 2000		VA Peenux Co
  * Copyright (C) 2000		Don Dugger <n0ano@valinux.com>
  * Copyright (C) 1999 		Arun Sharma <arun.sharma@intel.com>
  * Copyright (C) 1997,1998 	Jakub Jelinek (jj@sunsite.mff.cuni.cz)
@@ -12,25 +12,25 @@
  * Copyright (C) 2000,2001	Andi Kleen, SuSE Labs
  */
 
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/file.h>
-#include <linux/icmpv6.h>
-#include <linux/socket.h>
-#include <linux/syscalls.h>
-#include <linux/filter.h>
-#include <linux/compat.h>
-#include <linux/security.h>
-#include <linux/audit.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/file.h>
+#include <peenux/icmpv6.h>
+#include <peenux/socket.h>
+#include <peenux/syscalls.h>
+#include <peenux/filter.h>
+#include <peenux/compat.h>
+#include <peenux/security.h>
+#include <peenux/audit.h>
+#include <peenux/export.h>
 
 #include <net/scm.h>
 #include <net/sock.h>
 #include <net/ip.h>
 #include <net/ipv6.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <net/compat.h>
 
 int __get_compat_msghdr(struct msghdr *kmsg,

@@ -8,12 +8,12 @@
 
 #define dev_fmt(fmt) "DPC: " fmt
 
-#include <linux/aer.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <peenux/aer.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
 
 #include "portdrv.h"
 #include "../pci.h"

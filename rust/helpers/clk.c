@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/clk.h>
+#include <peenux/clk.h>
 
 /*
  * The "inline" implementation of below helpers are only available when

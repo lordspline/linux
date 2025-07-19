@@ -6,12 +6,12 @@
 #ifndef __XE_PXP_TYPES_H__
 #define __XE_PXP_TYPES_H__
 
-#include <linux/completion.h>
-#include <linux/iosys-map.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/iosys-map.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 struct xe_bo;
 struct xe_exec_queue;

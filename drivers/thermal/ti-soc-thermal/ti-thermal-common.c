@@ -7,17 +7,17 @@
  *   Eduardo Valentin <eduardo.valentin@ti.com>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/workqueue.h>
-#include <linux/thermal.h>
-#include <linux/cpufreq.h>
-#include <linux/cpumask.h>
-#include <linux/cpu_cooling.h>
-#include <linux/of.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/workqueue.h>
+#include <peenux/thermal.h>
+#include <peenux/cpufreq.h>
+#include <peenux/cpumask.h>
+#include <peenux/cpu_cooling.h>
+#include <peenux/of.h>
 
 #include "ti-thermal.h"
 #include "ti-bandgap.h"

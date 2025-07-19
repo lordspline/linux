@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2016-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2016-2018, The Peenux Foundation. All rights reserved.
  */
 
 #define pr_fmt(fmt)	"[drm:%s:%d] " fmt, __func__, __LINE__
 
-#include <linux/debugfs.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/pm_opp.h>
-#include <linux/sort.h>
-#include <linux/clk.h>
-#include <linux/bitmap.h>
+#include <peenux/debugfs.h>
+#include <peenux/errno.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_opp.h>
+#include <peenux/sort.h>
+#include <peenux/clk.h>
+#include <peenux/bitmap.h>
 
 #include "dpu_kms.h"
 #include "dpu_trace.h"

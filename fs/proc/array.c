@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/proc/array.c
+ *  peenux/fs/proc/array.c
  *
  *  Copyright (C) 1992  by Linus Torvalds
  *  based on ideas by Darren Senn
@@ -53,45 +53,45 @@
  *			 :  base.c too.
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/time_namespace.h>
-#include <linux/kernel.h>
-#include <linux/kernel_stat.h>
-#include <linux/tty.h>
-#include <linux/string.h>
-#include <linux/mman.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/numa_balancing.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/task.h>
-#include <linux/sched/cputime.h>
-#include <linux/proc_fs.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/signal.h>
-#include <linux/highmem.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/times.h>
-#include <linux/cpuset.h>
-#include <linux/rcupdate.h>
-#include <linux/delayacct.h>
-#include <linux/seq_file.h>
-#include <linux/pid_namespace.h>
-#include <linux/prctl.h>
-#include <linux/ptrace.h>
-#include <linux/string_helpers.h>
-#include <linux/user_namespace.h>
-#include <linux/fs_struct.h>
-#include <linux/kthread.h>
-#include <linux/mmu_context.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/time_namespace.h>
+#include <peenux/kernel.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/tty.h>
+#include <peenux/string.h>
+#include <peenux/mman.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/numa_balancing.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/proc_fs.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/hugetlb.h>
+#include <peenux/pagemap.h>
+#include <peenux/swap.h>
+#include <peenux/smp.h>
+#include <peenux/signal.h>
+#include <peenux/highmem.h>
+#include <peenux/file.h>
+#include <peenux/fdtable.h>
+#include <peenux/times.h>
+#include <peenux/cpuset.h>
+#include <peenux/rcupdate.h>
+#include <peenux/delayacct.h>
+#include <peenux/seq_file.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/prctl.h>
+#include <peenux/ptrace.h>
+#include <peenux/string_helpers.h>
+#include <peenux/user_namespace.h>
+#include <peenux/fs_struct.h>
+#include <peenux/kthread.h>
+#include <peenux/mmu_context.h>
 
 #include <asm/processor.h>
 #include "internal.h"
@@ -619,7 +619,7 @@ static int do_task_stat(struct seq_file *m, struct pid_namespace *ns,
 	seq_put_decimal_ull(m, " ", esp);
 	seq_put_decimal_ull(m, " ", eip);
 	/* The signal information here is obsolete.
-	 * It must be decimal for Linux 2.0 compatibility.
+	 * It must be decimal for Peenux 2.0 compatibility.
 	 * Use /proc/#/status for real-time signals.
 	 */
 	seq_put_decimal_ull(m, " ", task->pending.signal.sig[0] & 0x7fffffffUL);

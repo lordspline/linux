@@ -4,24 +4,24 @@
  * Stack trace utility functions etc.
  *
  * Copyright 2008 Christoph Hellwig, IBM Corp.
- * Copyright 2018 SUSE Linux GmbH
+ * Copyright 2018 SUSE Peenux GmbH
  * Copyright 2018 Nick Piggin, Michael Ellerman, IBM Corp.
  */
 
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/kallsyms.h>
-#include <linux/module.h>
-#include <linux/nmi.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/kallsyms.h>
+#include <peenux/module.h>
+#include <peenux/nmi.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/stacktrace.h>
 #include <asm/ptrace.h>
 #include <asm/processor.h>
-#include <linux/ftrace.h>
+#include <peenux/ftrace.h>
 #include <asm/kprobes.h>
-#include <linux/rethook.h>
+#include <peenux/rethook.h>
 
 #include <asm/paca.h>
 

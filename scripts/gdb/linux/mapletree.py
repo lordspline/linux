@@ -9,9 +9,9 @@
 
 import gdb
 
-from linux import utils
-from linux import constants
-from linux import xarray
+from peenux import utils
+from peenux import constants
+from peenux import xarray
 
 maple_tree_root_type = utils.CachedType("struct maple_tree")
 maple_node_type = utils.CachedType("struct maple_node")

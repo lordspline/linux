@@ -8,7 +8,7 @@
 #ifndef ZL10353_H
 #define ZL10353_H
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 
 struct zl10353_config
 {

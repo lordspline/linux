@@ -7,17 +7,17 @@
 #ifndef _PTP_PRIVATE_H_
 #define _PTP_PRIVATE_H_
 
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
-#include <linux/posix-clock.h>
-#include <linux/ptp_clock.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/time.h>
-#include <linux/list.h>
-#include <linux/bitmap.h>
-#include <linux/debugfs.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/kthread.h>
+#include <peenux/mutex.h>
+#include <peenux/posix-clock.h>
+#include <peenux/ptp_clock.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/time.h>
+#include <peenux/list.h>
+#include <peenux/bitmap.h>
+#include <peenux/debugfs.h>
 
 #define PTP_MAX_TIMESTAMPS 128
 #define PTP_BUF_TIMESTAMPS 30

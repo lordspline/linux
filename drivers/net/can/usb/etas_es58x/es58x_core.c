@@ -10,12 +10,12 @@
  * Copyright (c) 2020-2022 Vincent Mailhol <mailhol.vincent@wanadoo.fr>
  */
 
-#include <linux/unaligned.h>
-#include <linux/crc16.h>
-#include <linux/ethtool.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <peenux/unaligned.h>
+#include <peenux/crc16.h>
+#include <peenux/ethtool.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
 #include <net/devlink.h>
 
 #include "es58x_core.h"

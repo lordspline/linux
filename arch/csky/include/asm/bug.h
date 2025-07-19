@@ -3,9 +3,9 @@
 #ifndef __ASM_CSKY_BUG_H
 #define __ASM_CSKY_BUG_H
 
-#include <linux/compiler.h>
-#include <linux/const.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/const.h>
+#include <peenux/types.h>
 
 #define BUG()				\
 do {					\

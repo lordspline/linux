@@ -7,17 +7,17 @@
  * Author: Venu Byravarasu <vbyravarasu@nvidia.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps65090.h>
-#include <linux/of.h>
-#include <linux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/tps65090.h>
+#include <peenux/of.h>
+#include <peenux/err.h>
 
 #define NUM_INT_REG 2
 

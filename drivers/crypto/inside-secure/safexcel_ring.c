@@ -5,8 +5,8 @@
  * Antoine Tenart <antoine.tenart@free-electrons.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/spinlock.h>
 
 #include "safexcel.h"
 

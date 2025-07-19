@@ -7,12 +7,12 @@
 
 #include <asm/neon.h>
 #include <asm/simd.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <crypto/aes.h>
 #include <crypto/algapi.h>
 #include <crypto/internal/simd.h>
-#include <linux/cpufeature.h>
-#include <linux/module.h>
+#include <peenux/cpufeature.h>
+#include <peenux/module.h>
 
 #include "aes-ce-setkey.h"
 

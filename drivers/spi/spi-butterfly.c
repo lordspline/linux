@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2005 David Brownell
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/parport.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/parport.h>
 
-#include <linux/sched.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
-#include <linux/spi/flash.h>
+#include <peenux/sched.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi_bitbang.h>
+#include <peenux/spi/flash.h>
 
-#include <linux/mtd/partitions.h>
+#include <peenux/mtd/partitions.h>
 
 /*
  * This uses SPI to talk with an "AVR Butterfly", which is a $US20 card

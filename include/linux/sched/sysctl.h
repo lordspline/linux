@@ -2,7 +2,7 @@
 #ifndef _LINUX_SCHED_SYSCTL_H
 #define _LINUX_SCHED_SYSCTL_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_DETECT_HUNG_TASK
 /* used for hung_task and block/ */

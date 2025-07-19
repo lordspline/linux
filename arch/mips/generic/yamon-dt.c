@@ -6,11 +6,11 @@
 
 #define pr_fmt(fmt) "yamon-dt: " fmt
 
-#include <linux/bug.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/libfdt.h>
-#include <linux/printk.h>
+#include <peenux/bug.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/libfdt.h>
+#include <peenux/printk.h>
 
 #include <asm/fw/fw.h>
 #include <asm/yamon-dt.h>
@@ -144,10 +144,10 @@ __init int yamon_dt_append_memory(void *fdt,
 
 	mem_entries = gen_fdt_mem_array(regions, mem_array,
 					MAX_MEM_ARRAY_ENTRIES, memsize);
-	err = fdt_setprop(fdt, mem_off, "linux,usable-memory",
+	err = fdt_setprop(fdt, mem_off, "peenux,usable-memory",
 			  mem_array, mem_entries * 2 * sizeof(mem_array[0]));
 	if (err) {
-		pr_err("Unable to set linux,usable-memory property: %d\n", err);
+		pr_err("Unable to set peenux,usable-memory property: %d\n", err);
 		return err;
 	}
 

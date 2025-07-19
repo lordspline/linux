@@ -2,8 +2,8 @@
 /* Copyright(c) 2021-2023  Realtek Corporation
  */
 
-#include <linux/acpi.h>
-#include <linux/uuid.h>
+#include <peenux/acpi.h>
+#include <peenux/uuid.h>
 
 #include "acpi.h"
 #include "debug.h"

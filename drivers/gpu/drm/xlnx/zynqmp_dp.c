@@ -18,19 +18,19 @@
 #include <drm/drm_modes.h>
 #include <drm/drm_of.h>
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/phy/phy.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/phy/phy.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #include "zynqmp_disp.h"
 #include "zynqmp_dp.h"

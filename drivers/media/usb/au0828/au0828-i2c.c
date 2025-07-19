@@ -7,11 +7,11 @@
 
 #include "au0828.h"
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
 
 #include "media/tuner.h"
 #include <media/v4l2-common.h>

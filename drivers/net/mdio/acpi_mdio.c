@@ -6,13 +6,13 @@
  * out of the ACPI ASL and using it to populate an mii_bus.
  */
 
-#include <linux/acpi.h>
-#include <linux/acpi_mdio.h>
-#include <linux/bits.h>
-#include <linux/dev_printk.h>
-#include <linux/fwnode_mdio.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/acpi_mdio.h>
+#include <peenux/bits.h>
+#include <peenux/dev_printk.h>
+#include <peenux/fwnode_mdio.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 MODULE_AUTHOR("Calvin Johnson <calvin.johnson@oss.nxp.com>");
 MODULE_LICENSE("GPL");

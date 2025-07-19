@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/video/omap2/dss/dsi.c
+ * peenux/drivers/video/omap2/dss/dsi.c
  *
  * Copyright (C) 2009 Nokia Corporation
  * Author: Tomi Valkeinen <tomi.valkeinen@nokia.com>
@@ -8,29 +8,29 @@
 
 #define DSS_SUBSYS_NAME "DSI"
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/semaphore.h>
-#include <linux/seq_file.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/debugfs.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
-#include <linux/component.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/semaphore.h>
+#include <peenux/seq_file.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/of_platform.h>
+#include <peenux/component.h>
 
 #include <video/omapfb_dss.h>
 #include <video/mipi_display.h>

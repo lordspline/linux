@@ -15,12 +15,12 @@
 #ifndef LINUX_IEEE80211_H
 #define LINUX_IEEE80211_H
 
-#include <linux/types.h>
-#include <linux/if_ether.h>
-#include <linux/etherdevice.h>
-#include <linux/bitfield.h>
+#include <peenux/types.h>
+#include <peenux/if_ether.h>
+#include <peenux/etherdevice.h>
+#include <peenux/bitfield.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /*
  * DS bit usage

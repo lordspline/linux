@@ -8,15 +8,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/audit.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/if_arp.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_AUDIT.h>
-#include <linux/netfilter_bridge/ebtables.h>
+#include <peenux/audit.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/if_arp.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_AUDIT.h>
+#include <peenux/netfilter_bridge/ebtables.h>
 #include <net/ipv6.h>
 #include <net/ip.h>
 

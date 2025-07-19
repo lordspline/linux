@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/pm.h>
-#include <linux/kexec.h>
-#include <linux/kernel.h>
-#include <linux/reboot.h>
-#include <linux/module.h>
+#include <peenux/pm.h>
+#include <peenux/kexec.h>
+#include <peenux/kernel.h>
+#include <peenux/reboot.h>
+#include <peenux/module.h>
 #include <asm/watchdog.h>
 #include <asm/addrspace.h>
 #include <asm/reboot.h>

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/mm.h>
-#include <linux/gfp.h>
-#include <linux/hugetlb.h>
+#include <peenux/mm.h>
+#include <peenux/gfp.h>
+#include <peenux/hugetlb.h>
 #include <asm/pgalloc.h>
 #include <asm/tlb.h>
 #include <asm/fixmap.h>

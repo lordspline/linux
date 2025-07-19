@@ -16,9 +16,9 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/hardirq.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/hardirq.h>
+#include <peenux/slab.h>
 #include "xpc.h"
 #include <asm/uv/uv_hub.h>
 

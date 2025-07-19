@@ -2,9 +2,9 @@
 #ifndef __DMI_H__
 #define __DMI_H__
 
-#include <linux/list.h>
-#include <linux/kobject.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/list.h>
+#include <peenux/kobject.h>
+#include <peenux/mod_devicetable.h>
 
 /* enum dmi_field is in mod_devicetable.h */
 

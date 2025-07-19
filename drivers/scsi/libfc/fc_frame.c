@@ -8,11 +8,11 @@
 /*
  * Frame allocation.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/crc32.h>
-#include <linux/gfp.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/crc32.h>
+#include <peenux/gfp.h>
 
 #include <scsi/fc_frame.h>
 

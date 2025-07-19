@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2017, Linaro Ltd.
 
-#include <linux/regmap.h>
-#include <linux/slimbus.h>
-#include <linux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slimbus.h>
+#include <peenux/module.h>
 
 #include "internal.h"
 

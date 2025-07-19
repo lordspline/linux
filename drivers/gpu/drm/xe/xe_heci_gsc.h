@@ -5,7 +5,7 @@
 #ifndef __XE_HECI_GSC_DEV_H__
 #define __XE_HECI_GSC_DEV_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct xe_device;
 struct mei_aux_device;

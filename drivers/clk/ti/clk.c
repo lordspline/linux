@@ -7,20 +7,20 @@
  * Tero Kristo <t-kristo@ti.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/clk/ti.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/list.h>
-#include <linux/minmax.h>
-#include <linux/regmap.h>
-#include <linux/string_helpers.h>
-#include <linux/memblock.h>
-#include <linux/device.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk/ti.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/list.h>
+#include <peenux/minmax.h>
+#include <peenux/regmap.h>
+#include <peenux/string_helpers.h>
+#include <peenux/memblock.h>
+#include <peenux/device.h>
 
 #include "clock.h"
 

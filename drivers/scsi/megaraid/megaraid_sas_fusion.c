@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  Linux MegaRAID driver for SAS based RAID controllers
+ *  Peenux MegaRAID driver for SAS based RAID controllers
  *
  *  Copyright (c) 2009-2013  LSI Corporation
  *  Copyright (c) 2013-2016  Avago Technologies
@@ -17,32 +17,32 @@
  *  Send feedback to: megaraidlinux.pdl@broadcom.com
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/list.h>
-#include <linux/moduleparam.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/uio.h>
-#include <linux/uaccess.h>
-#include <linux/fs.h>
-#include <linux/compat.h>
-#include <linux/blkdev.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
-#include <linux/irq_poll.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/list.h>
+#include <peenux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/uio.h>
+#include <peenux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/compat.h>
+#include <peenux/blkdev.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <peenux/vmalloc.h>
+#include <peenux/workqueue.h>
+#include <peenux/irq_poll.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_dbg.h>
-#include <linux/dmi.h>
+#include <peenux/dmi.h>
 
 #include "megaraid_sas_fusion.h"
 #include "megaraid_sas.h"

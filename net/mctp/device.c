@@ -6,12 +6,12 @@
  * Copyright (c) 2021 Google
  */
 
-#include <linux/if_arp.h>
-#include <linux/if_link.h>
-#include <linux/mctp.h>
-#include <linux/netdevice.h>
-#include <linux/rcupdate.h>
-#include <linux/rtnetlink.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_link.h>
+#include <peenux/mctp.h>
+#include <peenux/netdevice.h>
+#include <peenux/rcupdate.h>
+#include <peenux/rtnetlink.h>
 
 #include <net/addrconf.h>
 #include <net/netlink.h>

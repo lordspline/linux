@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * Parse RedBoot-style Flash Image System (FIS) tables and
- * produce a Linux partition array to match.
+ * produce a Peenux partition array to match.
  *
  * Copyright © 2001      Red Hat UK Limited
  * Copyright © 2001-2010 David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/vmalloc.h>
-#include <linux/of.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/vmalloc.h>
+#include <peenux/of.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/module.h>
 
 struct fis_image_desc {
 	unsigned char name[16];      // Null terminated name

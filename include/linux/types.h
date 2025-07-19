@@ -3,7 +3,7 @@
 #define _LINUX_TYPES_H
 
 #define __EXPORTED_HEADERS__
-#include <uapi/linux/types.h>
+#include <uapi/peenux/types.h>
 
 #ifndef __ASSEMBLY__
 
@@ -128,7 +128,7 @@ typedef s64	ktime_t;
 /**
  * The type used for indexing onto a disc or disc partition.
  *
- * Linux always considers sectors to be 512 bytes long independently
+ * Peenux always considers sectors to be 512 bytes long independently
  * of the devices real block size.
  *
  * blkcnt_t is the type of the inode's block count.

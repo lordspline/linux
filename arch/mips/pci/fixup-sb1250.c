@@ -5,8 +5,8 @@
  *	Copyright (C) 2018  Maciej W. Rozycki
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pci.h>
 
 /*
  * Set the BCM1250, etc. PCI host bridge's TRDY timeout

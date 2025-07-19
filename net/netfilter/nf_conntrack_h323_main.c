@@ -11,19 +11,19 @@
  * For more information, please see http://nath323.sourceforge.net/
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/ctype.h>
-#include <linux/inet.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/slab.h>
-#include <linux/udp.h>
-#include <linux/tcp.h>
-#include <linux/skbuff.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/ctype.h>
+#include <peenux/inet.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/slab.h>
+#include <peenux/udp.h>
+#include <peenux/tcp.h>
+#include <peenux/skbuff.h>
 #include <net/route.h>
 #include <net/ip6_route.h>
-#include <linux/netfilter_ipv6.h>
+#include <peenux/netfilter_ipv6.h>
 
 #include <net/netfilter/nf_conntrack.h>
 #include <net/netfilter/nf_conntrack_core.h>
@@ -32,7 +32,7 @@
 #include <net/netfilter/nf_conntrack_ecache.h>
 #include <net/netfilter/nf_conntrack_helper.h>
 #include <net/netfilter/nf_conntrack_zones.h>
-#include <linux/netfilter/nf_conntrack_h323.h>
+#include <peenux/netfilter/nf_conntrack_h323.h>
 
 #define H323_MAX_SIZE 65535
 

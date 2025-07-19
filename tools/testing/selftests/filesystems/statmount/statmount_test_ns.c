@@ -10,8 +10,8 @@
 #include <sys/mount.h>
 #include <sys/stat.h>
 #include <sys/wait.h>
-#include <linux/nsfs.h>
-#include <linux/stat.h>
+#include <peenux/nsfs.h>
+#include <peenux/stat.h>
 
 #include "statmount.h"
 #include "../utils.h"

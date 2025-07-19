@@ -6,22 +6,22 @@
  * Copyright (c) 2023 Marc Ferland <marc.ferland@sonatest.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 #ifdef CONFIG_W1_SLAVE_DS2433_CRC
-#include <linux/crc16.h>
+#include <peenux/crc16.h>
 
 #define CRC16_INIT		0
 #define CRC16_VALID		0xb001
 
 #endif
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 
 #define W1_EEPROM_DS2433	0x23
 #define W1_EEPROM_DS28EC20	0x43

@@ -14,31 +14,31 @@
 	https://bugzilla.stlinux.com/
 *******************************************************************************/
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/skbuff.h>
-#include <linux/ethtool.h>
-#include <linux/if_ether.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
-#include <linux/if.h>
-#include <linux/if_vlan.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/prefetch.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/skbuff.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_ether.h>
+#include <peenux/crc32.h>
+#include <peenux/mii.h>
+#include <peenux/if.h>
+#include <peenux/if_vlan.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/prefetch.h>
+#include <peenux/pinctrl/consumer.h>
 #ifdef CONFIG_DEBUG_FS
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
 #endif /* CONFIG_DEBUG_FS */
-#include <linux/net_tstamp.h>
-#include <linux/phylink.h>
-#include <linux/udp.h>
-#include <linux/bpf_trace.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/phylink.h>
+#include <peenux/udp.h>
+#include <peenux/bpf_trace.h>
 #include <net/page_pool/helpers.h>
 #include <net/pkt_cls.h>
 #include <net/xdp_sock_drv.h>
@@ -46,8 +46,8 @@
 #include "stmmac_fpe.h"
 #include "stmmac.h"
 #include "stmmac_xdp.h"
-#include <linux/reset.h>
-#include <linux/of_mdio.h>
+#include <peenux/reset.h>
+#include <peenux/of_mdio.h>
 #include "dwmac1000.h"
 #include "dwxgmac2.h"
 #include "hwif.h"

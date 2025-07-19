@@ -4,13 +4,13 @@
  * Author: Benjamin Gaignard <benjamin.gaignard@st.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/mfd/stm32-timers.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/mfd/stm32-timers.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/reset.h>
 
 #define STM32_TIMERS_MAX_REGISTERS	0x3fc
 

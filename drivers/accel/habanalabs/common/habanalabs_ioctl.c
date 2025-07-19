@@ -10,12 +10,12 @@
 #include <uapi/drm/habanalabs_accel.h>
 #include "habanalabs.h"
 
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/vmalloc.h>
 
 /* make sure there is space for all the signed info */
 static_assert(sizeof(struct cpucp_info) <= SEC_DEV_INFO_BUF_SZ);

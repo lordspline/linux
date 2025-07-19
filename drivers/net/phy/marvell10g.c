@@ -22,14 +22,14 @@
  * If both the fiber and copper ports are connected, the first to gain
  * link takes priority and the other port is completely locked out.
  */
-#include <linux/bitfield.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/marvell_phy.h>
-#include <linux/phy.h>
-#include <linux/sfp.h>
-#include <linux/netdevice.h>
+#include <peenux/bitfield.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/hwmon.h>
+#include <peenux/marvell_phy.h>
+#include <peenux/phy.h>
+#include <peenux/sfp.h>
+#include <peenux/netdevice.h>
 
 #define MV_PHY_ALASKA_NBT_QUIRK_MASK	0xfffffffe
 #define MV_PHY_ALASKA_NBT_QUIRK_REV	(MARVELL_PHY_ID_88X3310 | 0xa)

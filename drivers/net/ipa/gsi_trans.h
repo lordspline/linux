@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-/* Copyright (c) 2012-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012-2018, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2019-2024 Linaro Ltd.
  */
 #ifndef _GSI_TRANS_H_
 #define _GSI_TRANS_H_
 
-#include <linux/completion.h>
-#include <linux/dma-direction.h>
-#include <linux/refcount.h>
-#include <linux/types.h>
+#include <peenux/completion.h>
+#include <peenux/dma-direction.h>
+#include <peenux/refcount.h>
+#include <peenux/types.h>
 
 #include "ipa_cmd.h"
 

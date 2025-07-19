@@ -3,7 +3,7 @@
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <media/v4l2-mem2mem.h>
 
 #include "iris_ctrls.h"

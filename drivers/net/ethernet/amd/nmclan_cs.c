@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------------------
-Linux PCMCIA ethernet adapter driver for the New Media Ethernet LAN.
+Peenux PCMCIA ethernet adapter driver for the New Media Ethernet LAN.
   nmclan_cs.c,v 0.16 1995/07/01 06:42:17 rpao Exp rpao
 
   The Ethernet LAN uses the Advanced Micro Devices (AMD) Am79C940 Media
@@ -8,12 +8,12 @@ Linux PCMCIA ethernet adapter driver for the New Media Ethernet LAN.
 
 Written by Roger C. Pao <rpao@paonet.org>
   Copyright 1995 Roger C. Pao
-  Linux 2.5 cleanups Copyright Red Hat 2003
+  Peenux 2.5 cleanups Copyright Red Hat 2003
 
   This software may be used and distributed according to the terms of
   the GNU General Public License.
 
-Ported to Linux 1.3.* network driver environment by
+Ported to Peenux 1.3.* network driver environment by
   Matti Aarnio <mea@utu.fi>
 
 References
@@ -21,8 +21,8 @@ References
   Am2150 Technical Reference Manual, Revision 1.0, August 17, 1993
   Am79C940 (MACE) Data Sheet, 1994
   Am79C90 (C-LANCE) Data Sheet, 1994
-  Linux PCMCIA Programmer's Guide v1.17
-  /usr/src/linux/net/inet/dev.c, Linux kernel 1.2.8
+  Peenux PCMCIA Programmer's Guide v1.17
+  /usr/src/peenux/net/inet/dev.c, Peenux kernel 1.2.8
 
   Eric Mears, New Media Corporation
   Tom Pollard, New Media Corporation
@@ -31,10 +31,10 @@ References
   Donald Becker <becker@scyld.com>
   David Hinds <dahinds@users.sourceforge.net>
 
-  The Linux client driver is based on the 3c589_cs.c client driver by
+  The Peenux client driver is based on the 3c589_cs.c client driver by
   David Hinds.
 
-  The Linux network driver outline is based on the 3c589_cs.c driver,
+  The Peenux network driver outline is based on the 3c589_cs.c driver,
   the 8390.c driver, and the example skeleton.c kernel code, which are
   by Donald Becker.
 
@@ -50,7 +50,7 @@ Driver Notes and Issues
 
 1. Developed on a Dell 320SLi
    PCMCIA Card Services 2.6.2
-   Linux dell 1.2.10 #1 Thu Jun 29 20:23:41 PDT 1995 i386
+   Peenux dell 1.2.10 #1 Thu Jun 29 20:23:41 PDT 1995 i386
 
 2. rc.pcmcia may require loading pcmcia_core with io_speed=300:
    'insmod pcmcia_core.o io_speed=300'.
@@ -128,28 +128,28 @@ Conditional Compilation Options
 Include Files
 ---------------------------------------------------------------------------- */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_arp.h>
-#include <linux/ioport.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/in.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_arp.h>
+#include <peenux/ioport.h>
+#include <peenux/bitops.h>
 
 #include <pcmcia/cisreg.h>
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 
 /* ----------------------------------------------------------------------------
@@ -829,7 +829,7 @@ mace_start_xmit
 	This routine begins the packet transmit function.  When completed,
 	it will generate a transmit interrupt.
 
-	According to /usr/src/linux/net/inet/dev.c, if _start_xmit
+	According to /usr/src/peenux/net/inet/dev.c, if _start_xmit
 	returns 0, the "packet is now solely the responsibility of the
 	driver."  If _start_xmit returns non-zero, the "transmission
 	failed, put skb back into a list."

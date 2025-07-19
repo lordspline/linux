@@ -6,17 +6,17 @@
  * Clock driver for Exynos clock output
  */
 
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
 
 #define DRV_NAME			"exynos-clkout"
 

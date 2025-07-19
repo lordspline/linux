@@ -1158,7 +1158,7 @@
 		power-off-time-sec = <0>;
 
 		power-key {
-			linux,keycodes = <KEY_POWER>;
+			peenux,keycodes = <KEY_POWER>;
 			wakeup-source;
 		};
 	};

@@ -3,12 +3,12 @@
  * Copyright (C) 2013 Red Hat, Inc., Dave Young <dyoung@redhat.com>
  */
 
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/efi.h>
-#include <linux/slab.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/efi.h>
+#include <peenux/slab.h>
 
 #include <asm/efi.h>
 #include <asm/setup.h>

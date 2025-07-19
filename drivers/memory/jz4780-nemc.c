@@ -6,18 +6,18 @@
  * Author: Alex Smith <alex@alex-smith.me.uk>
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/math64.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/math64.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
-#include <linux/jz4780-nemc.h>
+#include <peenux/jz4780-nemc.h>
 
 #define NEMC_SMCRn(n)		(0x14 + (((n) - 1) * 4))
 #define NEMC_NFCSR		0x50

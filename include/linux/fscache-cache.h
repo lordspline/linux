@@ -14,7 +14,7 @@
 #ifndef _LINUX_FSCACHE_CACHE_H
 #define _LINUX_FSCACHE_CACHE_H
 
-#include <linux/fscache.h>
+#include <peenux/fscache.h>
 
 enum fscache_cache_trace;
 enum fscache_cookie_trace;

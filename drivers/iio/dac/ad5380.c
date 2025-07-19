@@ -6,19 +6,19 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define AD5380_REG_DATA(x)	(((x) << 2) | 3)
 #define AD5380_REG_OFFSET(x)	(((x) << 2) | 2)

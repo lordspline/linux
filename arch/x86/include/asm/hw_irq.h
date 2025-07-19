@@ -18,11 +18,11 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/percpu.h>
-#include <linux/profile.h>
-#include <linux/smp.h>
+#include <peenux/percpu.h>
+#include <peenux/profile.h>
+#include <peenux/smp.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/irq.h>
 #include <asm/sections.h>
 

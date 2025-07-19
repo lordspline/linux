@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Driver for the EP93xx pin controller
- * based on linux/drivers/pinctrl/pinmux-gemini.c
+ * based on peenux/drivers/pinctrl/pinmux-gemini.c
  *
  * Copyright (C) 2022 Nikita Shubin <nikita.shubin@maquefel.me>
  *
  * This is a group-only pin controller.
  */
-#include <linux/array_size.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/array_size.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
-#include <linux/soc/cirrus/ep93xx.h>
+#include <peenux/soc/cirrus/ep93xx.h>
 
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "pinctrl-utils.h"
 

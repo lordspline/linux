@@ -5,7 +5,7 @@
 #include "bpf_misc.h"
 #include "bpf_experimental.h"
 
-/* From include/linux/filter.h */
+/* From include/peenux/filter.h */
 #define MAX_BPF_STACK    512
 
 #if defined(__TARGET_ARCH_x86)

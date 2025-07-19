@@ -2,9 +2,9 @@
 /*
  * Private data and functions for adjunct processor VFIO matrix driver.
  *
- * Author(s): Tony Krowiak <akrowiak@linux.ibm.com>
- *	      Halil Pasic <pasic@linux.ibm.com>
- *	      Pierre Morel <pmorel@linux.ibm.com>
+ * Author(s): Tony Krowiak <akrowiak@peenux.ibm.com>
+ *	      Halil Pasic <pasic@peenux.ibm.com>
+ *	      Pierre Morel <pmorel@peenux.ibm.com>
  *
  * Copyright IBM Corp. 2018
  */
@@ -12,14 +12,14 @@
 #ifndef _VFIO_AP_PRIVATE_H_
 #define _VFIO_AP_PRIVATE_H_
 
-#include <linux/types.h>
-#include <linux/mdev.h>
-#include <linux/delay.h>
-#include <linux/eventfd.h>
-#include <linux/mutex.h>
-#include <linux/kvm_host.h>
-#include <linux/vfio.h>
-#include <linux/hashtable.h>
+#include <peenux/types.h>
+#include <peenux/mdev.h>
+#include <peenux/delay.h>
+#include <peenux/eventfd.h>
+#include <peenux/mutex.h>
+#include <peenux/kvm_host.h>
+#include <peenux/vfio.h>
+#include <peenux/hashtable.h>
 
 #include "ap_bus.h"
 

@@ -23,8 +23,8 @@
  *
  */
 
-#include <linux/firmware.h>
-#include <linux/pm_runtime.h>
+#include <peenux/firmware.h>
+#include <peenux/pm_runtime.h>
 
 #include "amdgpu.h"
 #include "amdgpu_gfx.h"

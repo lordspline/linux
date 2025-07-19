@@ -3,7 +3,7 @@
  * Copyright IBM Corp. 2024
  *
  * Authors:
- *  Hariharan Mari <hari55@linux.ibm.com>
+ *  Hariharan Mari <hari55@peenux.ibm.com>
  *
  * Get the facility bits with the STFLE instruction
  */
@@ -11,7 +11,7 @@
 #ifndef SELFTEST_KVM_FACILITY_H
 #define SELFTEST_KVM_FACILITY_H
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 /* alt_stfle_fac_list[16] + stfle_fac_list[16] */
 #define NB_STFL_DOUBLEWORDS 32

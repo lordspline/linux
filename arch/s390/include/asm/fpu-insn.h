@@ -11,7 +11,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/instrumented.h>
+#include <peenux/instrumented.h>
 #include <asm/asm-extable.h>
 
 asm(".include \"asm/fpu-insn-asm.h\"\n");

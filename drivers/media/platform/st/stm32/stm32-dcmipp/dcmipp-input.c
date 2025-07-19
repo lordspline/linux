@@ -8,7 +8,7 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/v4l2-mediabus.h>
+#include <peenux/v4l2-mediabus.h>
 #include <media/mipi-csi2.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-subdev.h>

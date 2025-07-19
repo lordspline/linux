@@ -6,16 +6,16 @@
  * Copyright (c) 2025 Collabora Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/delay.h>
-#include <linux/of_gpio.h>
-#include <linux/of_device.h>
-#include <linux/clk.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/delay.h>
+#include <peenux/of_gpio.h>
+#include <peenux/of_device.h>
+#include <peenux/clk.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
 #include <sound/pcm_params.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/tlv.h>

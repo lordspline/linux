@@ -11,12 +11,12 @@
  * Adapted from DA9052
  */
 
-#include <linux/mfd/altera-a10sr.h>
-#include <linux/mfd/core.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/spi/spi.h>
+#include <peenux/mfd/altera-a10sr.h>
+#include <peenux/mfd/core.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/spi/spi.h>
 
 static const struct mfd_cell altr_a10sr_subdev_info[] = {
 	{

@@ -2,8 +2,8 @@
 #ifndef _LINUX_STACKLEAK_H
 #define _LINUX_STACKLEAK_H
 
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
 
 /*
  * Check that the poison value points to the unused hole in the
@@ -14,7 +14,7 @@
 
 #ifdef CONFIG_GCC_PLUGIN_STACKLEAK
 #include <asm/stacktrace.h>
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 /*
  * The lowest address on tsk's stack which we can plausibly erase.

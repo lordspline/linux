@@ -7,15 +7,15 @@
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
 
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/efi-bgrt.h>
-#include <linux/export.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
-#include <linux/serial_core.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
+#include <peenux/efi-bgrt.h>
+#include <peenux/export.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/memblock.h>
+#include <peenux/of_fdt.h>
+#include <peenux/serial_core.h>
 #include <asm/io.h>
 #include <asm/numa.h>
 #include <asm/loongson.h>

@@ -7,9 +7,9 @@
 // Author: Weidong Wang <wangweidong.a@awinic.com>
 //
 
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include "aw88081.h"
 #include "aw88395/aw88395_device.h"

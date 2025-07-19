@@ -8,12 +8,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/dmi.h>
-#include <linux/leds.h>
+#include <peenux/acpi.h>
+#include <peenux/cleanup.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/dmi.h>
+#include <peenux/leds.h>
 #include "alienware-wmi.h"
 
 MODULE_AUTHOR("Mario Limonciello <mario.limonciello@outlook.com>");

@@ -12,46 +12,46 @@
  *  Copyright (C) 2004-2006 Ingo Molnar
  *  Copyright (C) 2004 Nadia Yvette Chambers
  */
-#include <linux/ring_buffer.h>
-#include <linux/utsname.h>
-#include <linux/stacktrace.h>
-#include <linux/writeback.h>
-#include <linux/kallsyms.h>
-#include <linux/security.h>
-#include <linux/seq_file.h>
-#include <linux/irqflags.h>
-#include <linux/debugfs.h>
-#include <linux/tracefs.h>
-#include <linux/pagemap.h>
-#include <linux/hardirq.h>
-#include <linux/linkage.h>
-#include <linux/uaccess.h>
-#include <linux/cleanup.h>
-#include <linux/vmalloc.h>
-#include <linux/ftrace.h>
-#include <linux/module.h>
-#include <linux/percpu.h>
-#include <linux/splice.h>
-#include <linux/kdebug.h>
-#include <linux/string.h>
-#include <linux/mount.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/panic_notifier.h>
-#include <linux/poll.h>
-#include <linux/nmi.h>
-#include <linux/fs.h>
-#include <linux/trace.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/rt.h>
-#include <linux/fsnotify.h>
-#include <linux/irq_work.h>
-#include <linux/workqueue.h>
-#include <linux/sort.h>
-#include <linux/io.h> /* vmap_page_range() */
-#include <linux/fs_context.h>
+#include <peenux/ring_buffer.h>
+#include <peenux/utsname.h>
+#include <peenux/stacktrace.h>
+#include <peenux/writeback.h>
+#include <peenux/kallsyms.h>
+#include <peenux/security.h>
+#include <peenux/seq_file.h>
+#include <peenux/irqflags.h>
+#include <peenux/debugfs.h>
+#include <peenux/tracefs.h>
+#include <peenux/pagemap.h>
+#include <peenux/hardirq.h>
+#include <peenux/linkage.h>
+#include <peenux/uaccess.h>
+#include <peenux/cleanup.h>
+#include <peenux/vmalloc.h>
+#include <peenux/ftrace.h>
+#include <peenux/module.h>
+#include <peenux/percpu.h>
+#include <peenux/splice.h>
+#include <peenux/kdebug.h>
+#include <peenux/string.h>
+#include <peenux/mount.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/init.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/poll.h>
+#include <peenux/nmi.h>
+#include <peenux/fs.h>
+#include <peenux/trace.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/rt.h>
+#include <peenux/fsnotify.h>
+#include <peenux/irq_work.h>
+#include <peenux/workqueue.h>
+#include <peenux/sort.h>
+#include <peenux/io.h> /* vmap_page_range() */
+#include <peenux/fs_context.h>
 
 #include <asm/setup.h> /* COMMAND_LINE_SIZE */
 
@@ -2788,7 +2788,7 @@ trace_event_buffer_lock_reserve(struct trace_buffer **current_rb,
 		 * This buffer will simulate a ring_buffer_event,
 		 * where the type_len is zero and the array[0] will
 		 * hold the full length.
-		 * (see include/linux/ring-buffer.h for details on
+		 * (see include/peenux/ring-buffer.h for details on
 		 *  how the ring_buffer_event is structured).
 		 *
 		 * Using a temp buffer during filtering and copying it

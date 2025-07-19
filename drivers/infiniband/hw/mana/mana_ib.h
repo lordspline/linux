@@ -11,7 +11,7 @@
 #include <rdma/ib_umem.h>
 #include <rdma/mana-abi.h>
 #include <rdma/uverbs_ioctl.h>
-#include <linux/dmapool.h>
+#include <peenux/dmapool.h>
 
 #include <net/mana/mana.h>
 #include "shadow_queue.h"

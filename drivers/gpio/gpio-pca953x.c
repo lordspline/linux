@@ -8,30 +8,30 @@
  *  Derived from drivers/i2c/chips/pca9539.c
  */
 
-#include <linux/atomic.h>
-#include <linux/bitmap.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/atomic.h>
+#include <peenux/bitmap.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf-generic.h>
 
-#include <linux/platform_data/pca953x.h>
+#include <peenux/platform_data/pca953x.h>
 
 #define PCA953X_INPUT		0x00
 #define PCA953X_OUTPUT		0x01
@@ -126,8 +126,8 @@ MODULE_DEVICE_TABLE(i2c, pca953x_id);
 
 #ifdef CONFIG_GPIO_PCA953X_IRQ
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
 
 static const struct acpi_gpio_params pca953x_irq_gpios = { 0, 0, true };
 

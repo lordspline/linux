@@ -33,12 +33,12 @@
  * SOFTWARE.
  */
 
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <rdma/uverbs_types.h>
 #include <rdma/uverbs_std_types.h>

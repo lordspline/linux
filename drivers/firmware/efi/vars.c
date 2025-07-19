@@ -8,15 +8,15 @@
 
 #define pr_fmt(fmt) "efivars: " fmt
 
-#include <linux/types.h>
-#include <linux/sizes.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/smp.h>
-#include <linux/efi.h>
-#include <linux/ucs2_string.h>
+#include <peenux/types.h>
+#include <peenux/sizes.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/smp.h>
+#include <peenux/efi.h>
+#include <peenux/ucs2_string.h>
 
 /* Private pointer to registered efivars */
 static struct efivars *__efivars;

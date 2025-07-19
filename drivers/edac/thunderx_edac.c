@@ -9,17 +9,17 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/edac.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/stop_machine.h>
-#include <linux/delay.h>
-#include <linux/sizes.h>
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/circ_buf.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/edac.h>
+#include <peenux/interrupt.h>
+#include <peenux/string.h>
+#include <peenux/stop_machine.h>
+#include <peenux/delay.h>
+#include <peenux/sizes.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/circ_buf.h>
 
 #include <asm/page.h>
 

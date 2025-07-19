@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 
 __bpf_kfunc_start_defs();
 

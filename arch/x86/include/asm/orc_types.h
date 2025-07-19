@@ -6,8 +6,8 @@
 #ifndef _ORC_TYPES_H
 #define _ORC_TYPES_H
 
-#include <linux/types.h>
-#include <linux/compiler.h>
+#include <peenux/types.h>
+#include <peenux/compiler.h>
 
 /*
  * The ORC_REG_* registers are base registers which are used to find other

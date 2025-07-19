@@ -18,15 +18,15 @@
  * with CSI-2 connections.
  */
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/limits.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/limits.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include <media/v4l2-fwnode.h>
 

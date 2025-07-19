@@ -9,27 +9,27 @@
  *  Chandrashekar Devegowda <chandrashekar.devegowda@intel.com>
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *
  * Contributors:
- *  Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ *  Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
  *  Eliot Lee <eliot.lee@intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  *  Jinjian Song <jinjian.song@fibocom.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/minmax.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/wwan.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/dev_printk.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/minmax.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/wwan.h>
 
 #include "t7xx_port.h"
 #include "t7xx_port_proxy.h"

@@ -10,11 +10,11 @@
 #ifndef __DRIVERS_INTERCONNECT_IMX_H
 #define __DRIVERS_INTERCONNECT_IMX_H
 
-#include <linux/args.h>
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <peenux/args.h>
+#include <peenux/bits.h>
+#include <peenux/types.h>
 
-#include <linux/interconnect-provider.h>
+#include <peenux/interconnect-provider.h>
 
 struct platform_device;
 

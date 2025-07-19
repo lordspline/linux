@@ -9,8 +9,8 @@
 #define _GNU_SOURCE
 #define __SANE_USERSPACE_TYPES__
 #include <errno.h>
-#include <linux/prctl.h>
-#include <linux/securebits.h>
+#include <peenux/prctl.h>
+#include <peenux/securebits.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>

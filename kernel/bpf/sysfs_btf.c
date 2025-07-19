@@ -2,14 +2,14 @@
 /*
  * Provide kernel BTF information for introspection and use by eBPF tools.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/kobject.h>
-#include <linux/init.h>
-#include <linux/sysfs.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/btf.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kobject.h>
+#include <peenux/init.h>
+#include <peenux/sysfs.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
+#include <peenux/btf.h>
 
 /* See scripts/link-vmlinux.sh, gen_btf() func for details */
 extern char __start_BTF[];

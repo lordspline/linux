@@ -11,14 +11,14 @@
  * Copyright (C) 2002 David S. Miller (davem@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/serial_core.h>
-#include <linux/sunserialcore.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/console.h>
+#include <peenux/tty.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/serial_core.h>
+#include <peenux/sunserialcore.h>
+#include <peenux/init.h>
 
 #include <asm/prom.h>
 

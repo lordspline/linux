@@ -6,22 +6,22 @@
  * Written by: Juri Lelli, ARM Ltd.
  */
 
-#include <linux/acpi.h>
-#include <linux/cacheinfo.h>
-#include <linux/cleanup.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpu_smt.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/sched/topology.h>
-#include <linux/cpuset.h>
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/rcupdate.h>
-#include <linux/sched.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/cacheinfo.h>
+#include <peenux/cleanup.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/cpu_smt.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/sched/topology.h>
+#include <peenux/cpuset.h>
+#include <peenux/cpumask.h>
+#include <peenux/init.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched.h>
+#include <peenux/units.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/hw_pressure.h>

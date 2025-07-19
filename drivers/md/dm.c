@@ -11,27 +11,27 @@
 #include "dm-uevent.h"
 #include "dm-ima.h"
 
-#include <linux/bio-integrity.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/blkpg.h>
-#include <linux/bio.h>
-#include <linux/mempool.h>
-#include <linux/dax.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/uio.h>
-#include <linux/hdreg.h>
-#include <linux/delay.h>
-#include <linux/wait.h>
-#include <linux/pr.h>
-#include <linux/refcount.h>
-#include <linux/part_stat.h>
-#include <linux/blk-crypto.h>
-#include <linux/blk-crypto-profile.h>
+#include <peenux/bio-integrity.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/blkpg.h>
+#include <peenux/bio.h>
+#include <peenux/mempool.h>
+#include <peenux/dax.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
+#include <peenux/uio.h>
+#include <peenux/hdreg.h>
+#include <peenux/delay.h>
+#include <peenux/wait.h>
+#include <peenux/pr.h>
+#include <peenux/refcount.h>
+#include <peenux/part_stat.h>
+#include <peenux/blk-crypto.h>
+#include <peenux/blk-crypto-profile.h>
 
 #define DM_MSG_PREFIX "core"
 
@@ -3773,5 +3773,5 @@ module_param(swap_bios, int, 0644);
 MODULE_PARM_DESC(swap_bios, "Maximum allowed inflight swap IOs");
 
 MODULE_DESCRIPTION(DM_NAME " driver");
-MODULE_AUTHOR("Joe Thornber <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Joe Thornber <dm-devel@lists.peenux.dev>");
 MODULE_LICENSE("GPL");

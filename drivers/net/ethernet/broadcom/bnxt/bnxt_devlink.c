@@ -7,9 +7,9 @@
  * the Free Software Foundation.
  */
 
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/vmalloc.h>
 #include <net/devlink.h>
 #include <net/netdev_lock.h>
 #include "bnxt_hsi.h"

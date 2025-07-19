@@ -8,7 +8,7 @@
 #ifndef _ASM_S390_APPLDATA_H
 #define _ASM_S390_APPLDATA_H
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/machine.h>
 #include <asm/diag.h>
 

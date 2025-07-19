@@ -6,11 +6,11 @@
 #include <limits.h>
 #include <stdbool.h>
 
-#include <linux/prctl.h>
+#include <peenux/prctl.h>
 
 #include <sys/mman.h>
 #include <asm/mman.h>
-#include <linux/sched.h>
+#include <peenux/sched.h>
 
 #include "kselftest.h"
 #include "gcs-util.h"

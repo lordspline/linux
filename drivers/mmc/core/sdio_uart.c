@@ -22,24 +22,24 @@
  * concurrent access to the same port.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/circ_buf.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/kfifo.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/mutex.h>
+#include <peenux/seq_file.h>
+#include <peenux/serial.h>
+#include <peenux/serial_reg.h>
+#include <peenux/circ_buf.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/kfifo.h>
+#include <peenux/slab.h>
 
-#include <linux/mmc/core.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio_ids.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/sdio_func.h>
+#include <peenux/mmc/sdio_ids.h>
 
 
 #define UART_NR		8	/* Number of UARTs this driver can handle */

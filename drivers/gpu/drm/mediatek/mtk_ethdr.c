@@ -6,14 +6,14 @@
 #include <drm/drm_blend.h>
 #include <drm/drm_fourcc.h>
 #include <drm/drm_framebuffer.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
-#include <linux/soc/mediatek/mtk-mmsys.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/soc/mediatek/mtk-cmdq.h>
+#include <peenux/soc/mediatek/mtk-mmsys.h>
 
 #include "mtk_crtc.h"
 #include "mtk_ddp_comp.h"

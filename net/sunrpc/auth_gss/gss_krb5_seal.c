@@ -1,5 +1,5 @@
 /*
- *  linux/net/sunrpc/gss_krb5_seal.c
+ *  peenux/net/sunrpc/gss_krb5_seal.c
  *
  *  Adapted from MIT Kerberos 5-1.2.1 lib/gssapi/krb5/k5seal.c
  *
@@ -58,12 +58,12 @@
  * WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
  */
 
-#include <linux/types.h>
-#include <linux/jiffies.h>
-#include <linux/sunrpc/gss_krb5.h>
-#include <linux/random.h>
-#include <linux/crypto.h>
-#include <linux/atomic.h>
+#include <peenux/types.h>
+#include <peenux/jiffies.h>
+#include <peenux/sunrpc/gss_krb5.h>
+#include <peenux/random.h>
+#include <peenux/crypto.h>
+#include <peenux/atomic.h>
 
 #include "gss_krb5_internal.h"
 

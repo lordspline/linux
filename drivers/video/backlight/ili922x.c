@@ -8,16 +8,16 @@
  * memory is cyclically updated over the RGB interface.
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/string.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/lcd.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/string.h>
 
 /* Register offset, see manual section 8.2 */
 #define REG_START_OSCILLATION			0x00

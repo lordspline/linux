@@ -6,8 +6,8 @@
 
 #ifdef CONFIG_DEBUG_FS
 
-#include <linux/debugfs.h>
-#include <linux/fault-inject.h>
+#include <peenux/debugfs.h>
+#include <peenux/fault-inject.h>
 
 #include <drm/drm_debugfs.h>
 #include <drm/drm_fb_helper.h>

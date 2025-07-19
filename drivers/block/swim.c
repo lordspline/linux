@@ -12,16 +12,16 @@
  * 2008-10-30 (lv) - Port to 2.6
  */
 
-#include <linux/module.h>
-#include <linux/fd.h>
-#include <linux/slab.h>
-#include <linux/blk-mq.h>
-#include <linux/major.h>
-#include <linux/mutex.h>
-#include <linux/hdreg.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/fd.h>
+#include <peenux/slab.h>
+#include <peenux/blk-mq.h>
+#include <peenux/major.h>
+#include <peenux/mutex.h>
+#include <peenux/hdreg.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
 
 #include <asm/mac_via.h>
 

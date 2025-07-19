@@ -4,24 +4,24 @@
  */
 /* ****************** SDIO CARD Interface Functions **************************/
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/sched.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/scatterlist.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/core.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/pm_runtime.h>
-#include <linux/suspend.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
+#include <peenux/types.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/sched.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/scatterlist.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/sdio_func.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/suspend.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
 #include <net/cfg80211.h>
 
 #include <defs.h>

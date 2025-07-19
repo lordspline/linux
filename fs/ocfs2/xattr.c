@@ -5,27 +5,27 @@
  * Copyright (C) 2004, 2008 Oracle.  All rights reserved.
  *
  * CREDITS:
- * Lots of code in this file is copy from linux/fs/ext3/xattr.c.
+ * Lots of code in this file is copy from peenux/fs/ext3/xattr.c.
  * Copyright (C) 2001-2003 Andreas Gruenbacher, <agruen@suse.de>
  */
 
-#include <linux/capability.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/uio.h>
-#include <linux/sched.h>
-#include <linux/splice.h>
-#include <linux/mount.h>
-#include <linux/writeback.h>
-#include <linux/falloc.h>
-#include <linux/sort.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/security.h>
+#include <peenux/capability.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/uio.h>
+#include <peenux/sched.h>
+#include <peenux/splice.h>
+#include <peenux/mount.h>
+#include <peenux/writeback.h>
+#include <peenux/falloc.h>
+#include <peenux/sort.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/security.h>
 
 #include <cluster/masklog.h>
 

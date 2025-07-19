@@ -3,13 +3,13 @@
  * Copyright (C) 2023 SiFive
  * Author: Andy Chiu <andy.chiu@sifive.com>
  */
-#include <linux/export.h>
-#include <linux/sched/signal.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/prctl.h>
+#include <peenux/export.h>
+#include <peenux/sched/signal.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/uaccess.h>
+#include <peenux/prctl.h>
 
 #include <asm/thread_info.h>
 #include <asm/processor.h>

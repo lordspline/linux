@@ -9,8 +9,8 @@
 
 import gdb
 
-from linux import utils
-from linux import constants
+from peenux import utils
+from peenux import constants
 
 def xa_is_internal(entry):
     ulong_type = utils.get_ulong_type()

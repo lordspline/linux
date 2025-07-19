@@ -6,15 +6,15 @@
 
 #define DSS_SUBSYS_NAME "SDI"
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/string.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/string.h>
 
 #include <drm/drm_bridge.h>
 

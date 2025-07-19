@@ -9,10 +9,10 @@
 #ifndef _CRYPTO_KPP_
 #define _CRYPTO_KPP_
 
-#include <linux/atomic.h>
-#include <linux/container_of.h>
-#include <linux/crypto.h>
-#include <linux/slab.h>
+#include <peenux/atomic.h>
+#include <peenux/container_of.h>
+#include <peenux/crypto.h>
+#include <peenux/slab.h>
 
 /**
  * struct kpp_request

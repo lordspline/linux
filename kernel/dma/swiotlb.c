@@ -20,33 +20,33 @@
 
 #define pr_fmt(fmt) "software IO TLB: " fmt
 
-#include <linux/cache.h>
-#include <linux/cc_platform.h>
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/dma-direct.h>
-#include <linux/dma-map-ops.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
-#include <linux/highmem.h>
-#include <linux/io.h>
-#include <linux/iommu-helper.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/pfn.h>
-#include <linux/rculist.h>
-#include <linux/scatterlist.h>
-#include <linux/set_memory.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/swiotlb.h>
-#include <linux/types.h>
+#include <peenux/cache.h>
+#include <peenux/cc_platform.h>
+#include <peenux/ctype.h>
+#include <peenux/debugfs.h>
+#include <peenux/dma-direct.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/export.h>
+#include <peenux/gfp.h>
+#include <peenux/highmem.h>
+#include <peenux/io.h>
+#include <peenux/iommu-helper.h>
+#include <peenux/init.h>
+#include <peenux/memblock.h>
+#include <peenux/mm.h>
+#include <peenux/pfn.h>
+#include <peenux/rculist.h>
+#include <peenux/scatterlist.h>
+#include <peenux/set_memory.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/swiotlb.h>
+#include <peenux/types.h>
 #ifdef CONFIG_DMA_RESTRICTED_POOL
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/slab.h>
 #endif
 
 #define CREATE_TRACE_POINTS
@@ -1868,8 +1868,8 @@ static int __init rmem_swiotlb_setup(struct reserved_mem *rmem)
 	unsigned long node = rmem->fdt_node;
 
 	if (of_get_flat_dt_prop(node, "reusable", NULL) ||
-	    of_get_flat_dt_prop(node, "linux,cma-default", NULL) ||
-	    of_get_flat_dt_prop(node, "linux,dma-default", NULL) ||
+	    of_get_flat_dt_prop(node, "peenux,cma-default", NULL) ||
+	    of_get_flat_dt_prop(node, "peenux,dma-default", NULL) ||
 	    of_get_flat_dt_prop(node, "no-map", NULL))
 		return -EINVAL;
 

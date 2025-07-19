@@ -2,11 +2,11 @@
 /*
  * Copyright (C) 2000,2001,2002,2003,2004 Broadcom Corporation
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/reboot.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/reboot.h>
+#include <peenux/string.h>
 
 #include <asm/bootinfo.h>
 #include <asm/cpu.h>

@@ -4,8 +4,8 @@
 #ifndef _ICE_PTP_H_
 #define _ICE_PTP_H_
 
-#include <linux/ptp_clock_kernel.h>
-#include <linux/kthread.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/kthread.h>
 
 #include "ice_ptp_hw.h"
 

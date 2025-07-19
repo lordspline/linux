@@ -6,16 +6,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/capability.h>
-#include <linux/mm.h>
-#include <linux/file.h>
-#include <linux/security.h>
-#include <linux/kexec.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/syscalls.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
+#include <peenux/capability.h>
+#include <peenux/mm.h>
+#include <peenux/file.h>
+#include <peenux/security.h>
+#include <peenux/kexec.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/syscalls.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
 
 #include "kexec_internal.h"
 

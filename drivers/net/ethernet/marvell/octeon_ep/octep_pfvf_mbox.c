@@ -5,17 +5,17 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mutex.h>
-#include <linux/jiffies.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/io.h>
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
-#include <linux/vmalloc.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mutex.h>
+#include <peenux/jiffies.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/io.h>
+#include <peenux/pci.h>
+#include <peenux/etherdevice.h>
+#include <peenux/vmalloc.h>
 
 #include "octep_config.h"
 #include "octep_main.h"

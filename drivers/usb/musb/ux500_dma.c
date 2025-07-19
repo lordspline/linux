@@ -12,14 +12,14 @@
  *	Rajaram Regupathy <ragupathy.rajaram@stericsson.com>
  */
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/pfn.h>
-#include <linux/sizes.h>
-#include <linux/platform_data/usb-musb-ux500.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/pfn.h>
+#include <peenux/sizes.h>
+#include <peenux/platform_data/usb-musb-ux500.h>
 #include "musb_core.h"
 
 static const char *iep_chan_names[] = { "iep_1_9", "iep_2_10", "iep_3_11", "iep_4_12",

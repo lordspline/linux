@@ -5,19 +5,19 @@
  * Copyright (C) 2010, Guennadi Liakhovetski <g.liakhovetski@gmx.de>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/module.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
+#include <peenux/module.h>
 
 #include <media/drv-intf/sh_vou.h>
 #include <media/v4l2-common.h>

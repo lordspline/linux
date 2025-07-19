@@ -5,23 +5,23 @@
  * Copyright (c) 2013 Intel Corporation. All Rights Reserved.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kmod.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/moduleparam.h>
 #include <media/v4l2-device.h>
-#include "../include/linux/atomisp_gmin_platform.h"
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include "../include/peenux/atomisp_gmin_platform.h"
+#include <peenux/acpi.h>
+#include <peenux/io.h>
 
 #include "ov2722.h"
 

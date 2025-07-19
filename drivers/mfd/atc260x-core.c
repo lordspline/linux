@@ -6,12 +6,12 @@
  * Copyright (C) 2020 Cristian Ciocaltea <cristian.ciocaltea@gmail.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/mfd/atc260x/core.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/atc260x/core.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 #define ATC260X_CHIP_REV_MAX	31
 

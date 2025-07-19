@@ -11,23 +11,23 @@
  * creates the device files accordingly.
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
 #include <asm/byteorder.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/crc32.h>
-#include <linux/poll.h>
-#include <linux/delay.h>
-#include <linux/usb.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
+#include <peenux/crc32.h>
+#include <peenux/poll.h>
+#include <peenux/delay.h>
+#include <peenux/usb.h>
 
 #include "xillybus_class.h"
 

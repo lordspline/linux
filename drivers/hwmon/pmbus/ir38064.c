@@ -11,13 +11,13 @@
  * this driver does not currently support them.
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/driver.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regulator/driver.h>
 #include "pmbus.h"
 
 #if IS_ENABLED(CONFIG_SENSORS_IR38064_REGULATOR)

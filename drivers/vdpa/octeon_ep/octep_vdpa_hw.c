@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (C) 2024 Marvell. */
 
-#include <linux/iopoll.h>
-#include <linux/build_bug.h>
+#include <peenux/iopoll.h>
+#include <peenux/build_bug.h>
 
 #include "octep_vdpa.h"
 

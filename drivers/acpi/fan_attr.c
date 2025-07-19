@@ -7,10 +7,10 @@
  *  Copyright (C) 2022 Intel Corporation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
 
 #include "fan.h"
 

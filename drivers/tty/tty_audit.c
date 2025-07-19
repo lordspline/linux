@@ -7,9 +7,9 @@
  * Authors: Miloslav Trmac <mitr@redhat.com>
  */
 
-#include <linux/audit.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
+#include <peenux/audit.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
 #include "tty.h"
 
 #define TTY_AUDIT_BUF_SIZE	4096

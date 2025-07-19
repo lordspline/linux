@@ -1,4 +1,4 @@
-/* i915_drv.c -- i830,i845,i855,i865,i915 driver -*- linux-c -*-
+/* i915_drv.c -- i830,i845,i855,i865,i915 driver -*- peenux-c -*-
  */
 /*
  *
@@ -27,18 +27,18 @@
  *
  */
 
-#include <linux/aperture.h>
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/oom.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
-#include <linux/vga_switcheroo.h>
-#include <linux/vt.h>
+#include <peenux/aperture.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/oom.h>
+#include <peenux/pci.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
+#include <peenux/vga_switcheroo.h>
+#include <peenux/vt.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_client.h>

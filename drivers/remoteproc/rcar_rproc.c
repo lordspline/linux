@@ -3,15 +3,15 @@
  * Copyright (C) IoT.bzh 2021
  */
 
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/soc/renesas/rcar-rst.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/remoteproc.h>
+#include <peenux/reset.h>
+#include <peenux/soc/renesas/rcar-rst.h>
 
 #include "remoteproc_internal.h"
 

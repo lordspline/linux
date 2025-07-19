@@ -8,11 +8,11 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/slab.h>
+#include <peenux/regmap.h>
 
 #include "st_lsm6dsx.h"
 

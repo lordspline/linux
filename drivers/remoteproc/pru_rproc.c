@@ -12,16 +12,16 @@
  *	Md Danish Anwar <danishanwar@ti.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc/pruss.h>
-#include <linux/pruss_driver.h>
-#include <linux/remoteproc.h>
+#include <peenux/bitops.h>
+#include <peenux/debugfs.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/remoteproc/pruss.h>
+#include <peenux/pruss_driver.h>
+#include <peenux/remoteproc.h>
 
 #include "remoteproc_internal.h"
 #include "remoteproc_elf_helpers.h"

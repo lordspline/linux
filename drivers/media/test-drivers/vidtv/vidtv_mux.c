@@ -12,15 +12,15 @@
  * Copyright (C) 2020 Daniel W. S. Almeida
  */
 
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/dev_printk.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/ratelimit.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/vmalloc.h>
 
 #include "vidtv_channel.h"
 #include "vidtv_common.h"

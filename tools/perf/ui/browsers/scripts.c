@@ -9,9 +9,9 @@
 #include "../browser.h"
 #include "../libslang.h"
 #include "config.h"
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
 #include <subcmd/exec-cmd.h>
 #include <stdlib.h>
 

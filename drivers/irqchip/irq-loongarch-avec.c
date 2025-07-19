@@ -3,22 +3,22 @@
  * Copyright (C) 2020-2024 Loongson Technologies, Inc.
  */
 
-#include <linux/cpuhotplug.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/msi.h>
-#include <linux/radix-tree.h>
-#include <linux/spinlock.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/msi.h>
+#include <peenux/radix-tree.h>
+#include <peenux/spinlock.h>
 
 #include <asm/loongarch.h>
 #include <asm/setup.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <peenux/irqchip/irq-msi-lib.h>
 #include "irq-loongson.h"
 
 #define VECTORS_PER_REG		64

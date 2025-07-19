@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2010-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2014, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
 #include <crypto/internal/hash.h>
 
 #include "common.h"

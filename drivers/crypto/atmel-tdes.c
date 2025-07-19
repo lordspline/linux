@@ -11,26 +11,26 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/hw_random.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/hw_random.h>
+#include <peenux/platform_device.h>
 
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-mapping.h>
-#include <linux/mod_devicetable.h>
-#include <linux/delay.h>
-#include <linux/crypto.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/scatterlist.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/delay.h>
+#include <peenux/crypto.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/algapi.h>
 #include <crypto/internal/des.h>

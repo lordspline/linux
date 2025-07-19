@@ -5,34 +5,34 @@
  *
  * Derived from MIPS:
  * Copyright (C) 1994 - 1999, 2000 by Ralf Baechle and others.
- * Copyright (C) 2005, 2006 by Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2005, 2006 by Ralf Baechle (ralf@peenux-mips.org)
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  * Copyright (C) 2004 Thiemo Seufer
  * Copyright (C) 2013  Imagination Technologies Ltd.
  */
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/entry-common.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/export.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/personality.h>
-#include <linux/sys.h>
-#include <linux/completion.h>
-#include <linux/kallsyms.h>
-#include <linux/random.h>
-#include <linux/prctl.h>
-#include <linux/nmi.h>
+#include <peenux/cpu.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/entry-common.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/mm.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/export.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/personality.h>
+#include <peenux/sys.h>
+#include <peenux/completion.h>
+#include <peenux/kallsyms.h>
+#include <peenux/random.h>
+#include <peenux/prctl.h>
+#include <peenux/nmi.h>
 
 #include <asm/asm.h>
 #include <asm/asm-prototypes.h>
@@ -54,7 +54,7 @@
 #include <asm/vdso.h>
 
 #ifdef CONFIG_STACKPROTECTOR
-#include <linux/stackprotector.h>
+#include <peenux/stackprotector.h>
 unsigned long __stack_chk_guard __read_mostly;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

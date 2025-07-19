@@ -8,27 +8,27 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/bitmap.h>
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_qos.h>
-#include <linux/property.h>
-#include <linux/semaphore.h>
-#include <linux/slab.h>
-#include <linux/soc/ti/ti-msgmgr.h>
-#include <linux/soc/ti/ti_sci_protocol.h>
-#include <linux/suspend.h>
-#include <linux/sys_soc.h>
-#include <linux/reboot.h>
+#include <peenux/bitmap.h>
+#include <peenux/cpu.h>
+#include <peenux/debugfs.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_qos.h>
+#include <peenux/property.h>
+#include <peenux/semaphore.h>
+#include <peenux/slab.h>
+#include <peenux/soc/ti/ti-msgmgr.h>
+#include <peenux/soc/ti/ti_sci_protocol.h>
+#include <peenux/suspend.h>
+#include <peenux/sys_soc.h>
+#include <peenux/reboot.h>
 
 #include "ti_sci.h"
 
@@ -3637,7 +3637,7 @@ static int tisci_reboot_handler(struct sys_off_data *data)
 static int ti_sci_prepare_system_suspend(struct ti_sci_info *info)
 {
 	/*
-	 * Map and validate the target Linux suspend state to TISCI LPM.
+	 * Map and validate the target Peenux suspend state to TISCI LPM.
 	 * Default is to let Device Manager select the low power mode.
 	 */
 	switch (pm_suspend_target_state) {

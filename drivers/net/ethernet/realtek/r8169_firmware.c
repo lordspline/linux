@@ -8,8 +8,8 @@
  * See MAINTAINERS file for support contact information.
  */
 
-#include <linux/delay.h>
-#include <linux/firmware.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
 
 #include "r8169_firmware.h"
 

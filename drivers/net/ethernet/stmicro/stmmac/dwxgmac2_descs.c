@@ -4,8 +4,8 @@
  * stmmac XGMAC support.
  */
 
-#include <linux/bitfield.h>
-#include <linux/stmmac.h>
+#include <peenux/bitfield.h>
+#include <peenux/stmmac.h>
 #include "common.h"
 #include "dwxgmac2.h"
 

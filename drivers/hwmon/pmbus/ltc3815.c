@@ -6,12 +6,12 @@
  * Copyright (c) 2015 Guenter Roeck
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 #include "pmbus.h"
 
 #define LTC3815_MFR_IOUT_PEAK	0xd7

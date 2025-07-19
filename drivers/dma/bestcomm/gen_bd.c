@@ -7,19 +7,19 @@
  *                    Jeff Gibbons <jeff.gibbons@appspec.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 #include <asm/errno.h>
 #include <asm/io.h>
 
 #include <asm/mpc52xx.h>
 #include <asm/mpc52xx_psc.h>
 
-#include <linux/fsl/bestcomm/bestcomm.h>
-#include <linux/fsl/bestcomm/bestcomm_priv.h>
-#include <linux/fsl/bestcomm/gen_bd.h>
+#include <peenux/fsl/bestcomm/bestcomm.h>
+#include <peenux/fsl/bestcomm/bestcomm_priv.h>
+#include <peenux/fsl/bestcomm/gen_bd.h>
 
 
 /* ======================================================================== */

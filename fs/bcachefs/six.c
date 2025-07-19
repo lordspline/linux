@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/export.h>
-#include <linux/log2.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/rcupdate.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/rt.h>
-#include <linux/sched/task.h>
-#include <linux/slab.h>
+#include <peenux/export.h>
+#include <peenux/log2.h>
+#include <peenux/percpu.h>
+#include <peenux/preempt.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/rt.h>
+#include <peenux/sched/task.h>
+#include <peenux/slab.h>
 
 #include <trace/events/lock.h>
 

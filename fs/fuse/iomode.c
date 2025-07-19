@@ -7,10 +7,10 @@
 
 #include "fuse_i.h"
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/file.h>
-#include <linux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
 
 /*
  * Return true if need to wait for new opens in caching mode.

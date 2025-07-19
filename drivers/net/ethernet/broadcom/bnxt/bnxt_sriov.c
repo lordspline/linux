@@ -8,13 +8,13 @@
  * the Free Software Foundation.
  */
 
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/etherdevice.h>
 #include <net/dcbnl.h>
 #include "bnxt_hsi.h"
 #include "bnxt.h"

@@ -6,13 +6,13 @@
  * Author(s): Neil Armstrong <narmstrong@baylibre.com>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/khadas-mcu.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/khadas-mcu.h>
+#include <peenux/regmap.h>
+#include <peenux/sysfs.h>
+#include <peenux/thermal.h>
 
 #define MAX_LEVEL 3
 

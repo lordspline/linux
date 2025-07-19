@@ -46,7 +46,7 @@
 			function = LED_FUNCTION_WLAN;
 			gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;
 			default-state = "off";
-			linux,default-trigger = "phy0tx";
+			peenux,default-trigger = "phy0tx";
 		};
 	};
 
@@ -56,7 +56,7 @@
 		poll-interval = <100>;
 
 		button-reset {
-			linux,code = <KEY_RESTART>;
+			peenux,code = <KEY_RESTART>;
 			label = "reset";
 			gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
 		};

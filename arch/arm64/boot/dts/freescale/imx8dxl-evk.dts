@@ -57,12 +57,12 @@
 		 */
 
 		/* global autoconfigured region for contiguous allocations */
-		linux,cma {
+		peenux,cma {
 			compatible = "shared-dma-pool";
 			reusable;
 			size = <0 0x14000000>;
 			alloc-ranges = <0 0x98000000 0 0x14000000>;
-			linux,cma-default;
+			peenux,cma-default;
 		};
 
 		vdev0vring0: memory0@90000000 {
@@ -219,7 +219,7 @@
 	};
 
 	bt_sco_codec: audio-codec-bt {
-		compatible = "linux,bt-sco";
+		compatible = "peenux,bt-sco";
 		#sound-dai-cells = <1>;
 	};
 

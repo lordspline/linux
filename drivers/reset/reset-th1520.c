@@ -4,10 +4,10 @@
  * Author: Michal Wilczynski <m.wilczynski@samsung.com>
  */
 
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/regmap.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/reset/thead,th1520-reset.h>
 

@@ -12,12 +12,12 @@
 
 #include <stddef.h>
 #include <string.h>
-#include <linux/bpf.h>
-#include <linux/if_ether.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/in.h>
+#include <peenux/bpf.h>
+#include <peenux/if_ether.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/tcp.h>
+#include <peenux/in.h>
 #include <bpf/bpf_endian.h>
 #include <bpf/bpf_helpers.h>
 

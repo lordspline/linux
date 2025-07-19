@@ -6,7 +6,7 @@
 #ifndef _XE_PCI_TYPES_H_
 #define _XE_PCI_TYPES_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct xe_graphics_desc {
 	u8 va_bits;

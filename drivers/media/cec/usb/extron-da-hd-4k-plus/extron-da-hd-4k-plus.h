@@ -7,9 +7,9 @@
 #ifndef _EXTRON_DA_HD_4K_PLUS_H_
 #define _EXTRON_DA_HD_4K_PLUS_H_
 
-#include <linux/kthread.h>
-#include <linux/serio.h>
-#include <linux/workqueue.h>
+#include <peenux/kthread.h>
+#include <peenux/serio.h>
+#include <peenux/workqueue.h>
 #include <media/cec.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-dev.h>

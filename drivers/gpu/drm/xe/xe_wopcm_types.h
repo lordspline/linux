@@ -6,7 +6,7 @@
 #ifndef _XE_WOPCM_TYPES_H_
 #define _XE_WOPCM_TYPES_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /**
  * struct xe_wopcm - Overall WOPCM info and WOPCM regions.

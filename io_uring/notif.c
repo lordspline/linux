@@ -1,9 +1,9 @@
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/file.h>
-#include <linux/slab.h>
-#include <linux/net.h>
-#include <linux/io_uring.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/file.h>
+#include <peenux/slab.h>
+#include <peenux/net.h>
+#include <peenux/io_uring.h>
 
 #include "io_uring.h"
 #include "notif.h"

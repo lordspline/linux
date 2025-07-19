@@ -17,8 +17,8 @@
 #ifndef _DVB_CA_EN50221_H_
 #define _DVB_CA_EN50221_H_
 
-#include <linux/list.h>
-#include <linux/dvb/ca.h>
+#include <peenux/list.h>
+#include <peenux/dvb/ca.h>
 
 #include <media/dvbdev.h>
 

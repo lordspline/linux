@@ -12,7 +12,7 @@
 // Slight changes for video timing and attachment output by
 // Wolfgang Scherr <scherr@net4you.net>
 //
-// Moved over to the linux >= 2.4.x i2c protocol (1/1/2003)
+// Moved over to the peenux >= 2.4.x i2c protocol (1/1/2003)
 // by Ronald Bultje <rbultje@ronald.bitfreak.net>
 //
 // Added saa7115 support by Kevin Thayer <nufan_wfk at yahoo.com>
@@ -25,11 +25,11 @@
 
 #include "saa711x_regs.h"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-mc.h>

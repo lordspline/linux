@@ -5,7 +5,7 @@
 
 #include "priority-table.h"
 
-#include <linux/log2.h>
+#include <peenux/log2.h>
 
 #include "errors.h"
 #include "memory-alloc.h"

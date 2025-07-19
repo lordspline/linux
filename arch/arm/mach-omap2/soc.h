@@ -21,8 +21,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/bitops.h>
-#include <linux/of.h>
+#include <peenux/bitops.h>
+#include <peenux/of.h>
 
 /*
  * OMAP2+ is always defined as ARCH_MULTIPLATFORM in Kconfig

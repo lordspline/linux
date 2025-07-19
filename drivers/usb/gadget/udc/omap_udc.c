@@ -11,41 +11,41 @@
 #undef	DEBUG
 #undef	VERBOSE
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/mm.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/prefetch.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/ioport.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/timer.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/proc_fs.h>
+#include <peenux/mm.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/otg.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/prefetch.h>
+#include <peenux/io.h>
 
 #include <asm/byteorder.h>
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/mach-types.h>
 
-#include <linux/omap-dma.h>
-#include <linux/platform_data/usb-omap1.h>
+#include <peenux/omap-dma.h>
+#include <peenux/platform_data/usb-omap1.h>
 
-#include <linux/soc/ti/omap1-usb.h>
-#include <linux/soc/ti/omap1-soc.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <peenux/soc/ti/omap1-usb.h>
+#include <peenux/soc/ti/omap1-soc.h>
+#include <peenux/soc/ti/omap1-io.h>
 
 #include "omap_udc.h"
 
@@ -2130,7 +2130,7 @@ static int omap_udc_stop(struct usb_gadget *g)
 
 #ifdef CONFIG_USB_GADGET_DEBUG_FILES
 
-#include <linux/seq_file.h>
+#include <peenux/seq_file.h>
 
 static const char proc_filename[] = "driver/udc";
 

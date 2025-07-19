@@ -589,11 +589,11 @@
 
 #ifndef _LANGUAGE_ASSEMBLY
 
-#include <linux/delay.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
 
-#include <linux/io.h>
-#include <linux/irq.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
 
 #include <asm/cpu.h>
 

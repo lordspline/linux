@@ -4,16 +4,16 @@
  *
  * Copyright (c) 2015-2016 HiSilicon Technologies Co., Ltd.
  */
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/spi-nor.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/spi-nor.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 /* Hardware register offsets and field definitions */
 #define FMC_CFG				0x00

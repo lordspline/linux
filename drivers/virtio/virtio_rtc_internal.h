@@ -9,10 +9,10 @@
 #ifndef _VIRTIO_RTC_INTERNAL_H_
 #define _VIRTIO_RTC_INTERNAL_H_
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/types.h>
 
 /* driver core IFs */
 

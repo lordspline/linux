@@ -11,8 +11,8 @@
  * Copyright (C) 2016 Imagination Technologies Ltd.
  */
 
-#include <linux/kvm_host.h>
-#include <linux/log2.h>
+#include <peenux/kvm_host.h>
+#include <peenux/log2.h>
 #include <asm/mipsregs.h>
 #include <asm/mmu_context.h>
 #include <asm/msa.h>
@@ -246,7 +246,7 @@ static void *kvm_mips_build_enter_guest(void *addr)
 	UASM_i_LW(&p, GPR_T0, offsetof(struct kvm_vcpu_arch, pc), GPR_K1);
 	UASM_i_MTC0(&p, GPR_T0, C0_EPC);
 
-	/* Save normal linux process pgd (VZ guarantees pgd_reg is set) */
+	/* Save normal peenux process pgd (VZ guarantees pgd_reg is set) */
 	if (cpu_has_ldpte)
 		UASM_i_MFC0(&p, GPR_K0, C0_PWBASE);
 	else
@@ -417,7 +417,7 @@ void *kvm_mips_build_tlb_refill_exception(void *addr, void *handler)
 #else
 	/*
 	 * Now for the actual refill bit. A lot of this can be common with the
-	 * Linux TLB refill handler, however we don't need to handle so many
+	 * Peenux TLB refill handler, however we don't need to handle so many
 	 * cases. We only need to handle user mode refills, and user mode runs
 	 * with 32-bit addressing.
 	 *
@@ -584,7 +584,7 @@ void *kvm_mips_build_exit(void *addr)
 
 	/* Now restore the host state just enough to run the handlers */
 
-	/* Switch EBASE to the one used by Linux */
+	/* Switch EBASE to the one used by Peenux */
 	/* load up the host EBASE */
 	uasm_i_mfc0(&p, GPR_V0, C0_STATUS);
 
@@ -638,7 +638,7 @@ void *kvm_mips_build_exit(void *addr)
 	}
 
 	/*
-	 * Set up normal Linux process pgd.
+	 * Set up normal Peenux process pgd.
 	 * This does roughly the same as TLBMISS_HANDLER_SETUP_PGD():
 	 * - call tlbmiss_handler_setup_pgd(mm->pgd)
 	 * - write mm->pgd into CP0_PWBase
@@ -830,7 +830,7 @@ static void *kvm_mips_build_ret_to_host(void *addr)
 	u32 *p = addr;
 	unsigned int i;
 
-	/* EBASE is already pointing to Linux */
+	/* EBASE is already pointing to Peenux */
 	UASM_i_LW(&p, GPR_K1, offsetof(struct kvm_vcpu_arch, host_stack), GPR_K1);
 	UASM_i_ADDIU(&p, GPR_K1, GPR_K1, -(int)sizeof(struct pt_regs));
 

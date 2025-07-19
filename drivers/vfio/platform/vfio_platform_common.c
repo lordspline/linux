@@ -6,16 +6,16 @@
 
 #define dev_fmt(fmt)	"VFIO: " fmt
 
-#include <linux/device.h>
-#include <linux/acpi.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/vfio.h>
+#include <peenux/device.h>
+#include <peenux/acpi.h>
+#include <peenux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/vfio.h>
 
 #include "vfio_platform_private.h"
 

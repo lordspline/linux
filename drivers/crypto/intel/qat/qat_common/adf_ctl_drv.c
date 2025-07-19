@@ -2,14 +2,14 @@
 /* Copyright(c) 2014 - 2020 Intel Corporation */
 
 #include <crypto/algapi.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/bitops.h>
-#include <linux/pci.h>
-#include <linux/cdev.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/bitops.h>
+#include <peenux/pci.h>
+#include <peenux/cdev.h>
+#include <peenux/uaccess.h>
 
 #include "adf_accel_devices.h"
 #include "adf_common_drv.h"

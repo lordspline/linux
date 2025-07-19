@@ -8,12 +8,12 @@
  * for more details.
  */
 
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/xtensa-mx.h>
-#include <linux/of.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/xtensa-mx.h>
+#include <peenux/of.h>
 
 #include <asm/mxregs.h>
 

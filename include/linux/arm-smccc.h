@@ -5,14 +5,14 @@
 #ifndef __LINUX_ARM_SMCCC_H
 #define __LINUX_ARM_SMCCC_H
 
-#include <linux/args.h>
-#include <linux/init.h>
+#include <peenux/args.h>
+#include <peenux/init.h>
 
 #ifndef __ASSEMBLY__
-#include <linux/uuid.h>
+#include <peenux/uuid.h>
 #endif
 
-#include <uapi/linux/const.h>
+#include <uapi/peenux/const.h>
 
 /*
  * This file provides common defines for ARM SMC Calling Convention as
@@ -304,8 +304,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/linkage.h>
-#include <linux/types.h>
+#include <peenux/linkage.h>
+#include <peenux/types.h>
 
 enum arm_smccc_conduit {
 	SMCCC_CONDUIT_NONE,

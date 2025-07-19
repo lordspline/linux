@@ -5,25 +5,25 @@
  * Copyright (c) 2024, Intel Corporation.
  */
 
-#include <linux/array_size.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gfp_types.h>
-#include <linux/intel_tpmi.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kstrtox.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/sprintf.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gfp_types.h>
+#include <peenux/intel_tpmi.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kstrtox.h>
+#include <peenux/lockdep.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/seq_file.h>
+#include <peenux/sprintf.h>
+#include <peenux/types.h>
 
 #include "tpmi_power_domains.h"
 

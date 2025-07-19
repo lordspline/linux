@@ -21,17 +21,17 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/acpi.h>
-#include <linux/hash.h>
-#include <linux/cpufreq.h>
-#include <linux/log2.h>
-#include <linux/dmi.h>
-#include <linux/atomic.h>
-#include <linux/crc16.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/errno.h>
+#include <peenux/acpi.h>
+#include <peenux/hash.h>
+#include <peenux/cpufreq.h>
+#include <peenux/log2.h>
+#include <peenux/dmi.h>
+#include <peenux/atomic.h>
+#include <peenux/crc16.h>
 
 #include "kfd_priv.h"
 #include "kfd_crat.h"

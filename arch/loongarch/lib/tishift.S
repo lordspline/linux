@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 
 #include <asm/asmmacro.h>
-#include <linux/export.h>
-#include <linux/linkage.h>
+#include <peenux/export.h>
+#include <peenux/linkage.h>
 
 SYM_FUNC_START(__ashlti3)
 	srli.d	t2, a0, 1

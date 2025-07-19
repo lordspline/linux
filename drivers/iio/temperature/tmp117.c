@@ -9,18 +9,18 @@
  * Note: This driver assumes that the sensor has been calibrated beforehand.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/limits.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #define TMP117_REG_TEMP			0x0
 #define TMP117_REG_CFGR			0x1

@@ -8,8 +8,8 @@
  *	https://cdrdv2.intel.com/v1/dl/getContent/603354
  */
 
-#include <linux/acpi.h>
-#include <linux/adxl.h>
+#include <peenux/acpi.h>
+#include <peenux/adxl.h>
 
 #define ADXL_REVISION			0x1
 #define ADXL_IDX_GET_ADDR_PARAMS	0x1

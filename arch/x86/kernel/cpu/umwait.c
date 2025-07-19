@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/syscore_ops.h>
-#include <linux/suspend.h>
-#include <linux/cpu.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/suspend.h>
+#include <peenux/cpu.h>
 
 #include <asm/msr.h>
 #include <asm/mwait.h>

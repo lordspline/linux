@@ -5,18 +5,18 @@
 // Copyright 2011 Wolfson Microelectronics plc
 //	Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/spi/spi.h>
-#include <linux/gpio/machine.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/spi/spi.h>
+#include <peenux/gpio/machine.h>
 
-#include <linux/mfd/wm831x/irq.h>
-#include <linux/mfd/wm831x/gpio.h>
-#include <linux/mfd/wm8994/pdata.h>
-#include <linux/mfd/arizona/pdata.h>
+#include <peenux/mfd/wm831x/irq.h>
+#include <peenux/mfd/wm831x/gpio.h>
+#include <peenux/mfd/wm8994/pdata.h>
+#include <peenux/mfd/arizona/pdata.h>
 
-#include <linux/regulator/machine.h>
+#include <peenux/regulator/machine.h>
 
 #include <sound/wm0010.h>
 #include <sound/wm2200.h>
@@ -25,7 +25,7 @@
 #include <sound/wm8962.h>
 #include <sound/wm9081.h>
 
-#include <linux/platform_data/spi-s3c64xx.h>
+#include <peenux/platform_data/spi-s3c64xx.h>
 
 #include "cpu.h"
 #include "irqs.h"

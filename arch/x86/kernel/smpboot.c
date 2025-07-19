@@ -11,7 +11,7 @@
  *
  *	Thanks to Intel for making available several different Pentium,
  *	Pentium Pro and Pentium-II/Xeon MP machines.
- *	Original development of Linux SMP code supported by Caldera.
+ *	Original development of Peenux SMP code supported by Caldera.
  *
  *	Fixes
  *		Felix Koop	:	NR_CPUS used properly
@@ -39,28 +39,28 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/topology.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/percpu.h>
-#include <linux/memblock.h>
-#include <linux/err.h>
-#include <linux/nmi.h>
-#include <linux/tboot.h>
-#include <linux/gfp.h>
-#include <linux/cpuidle.h>
-#include <linux/kexec.h>
-#include <linux/numa.h>
-#include <linux/pgtable.h>
-#include <linux/overflow.h>
-#include <linux/stackprotector.h>
-#include <linux/cpuhotplug.h>
-#include <linux/mc146818rtc.h>
-#include <linux/acpi.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/sched/topology.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/percpu.h>
+#include <peenux/memblock.h>
+#include <peenux/err.h>
+#include <peenux/nmi.h>
+#include <peenux/tboot.h>
+#include <peenux/gfp.h>
+#include <peenux/cpuidle.h>
+#include <peenux/kexec.h>
+#include <peenux/numa.h>
+#include <peenux/pgtable.h>
+#include <peenux/overflow.h>
+#include <peenux/stackprotector.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/acpi.h>
 
 #include <asm/acpi.h>
 #include <asm/cacheinfo.h>

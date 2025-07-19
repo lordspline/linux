@@ -10,8 +10,8 @@
 #ifndef _ASM_ADDRSPACE_H
 #define _ASM_ADDRSPACE_H
 
-#include <linux/const.h>
-#include <linux/sizes.h>
+#include <peenux/const.h>
+#include <peenux/sizes.h>
 
 #include <asm/loongarch.h>
 

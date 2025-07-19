@@ -8,15 +8,15 @@
  *  Parts of this file are based on Atheros' 2.6.15 BSP
  */
 
-#include <linux/resource.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
+#include <peenux/resource.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/pci.h>
+#include <peenux/pci_regs.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
 
 #include <asm/mach-ath79/ar71xx_regs.h>
 #include <asm/mach-ath79/ath79.h>

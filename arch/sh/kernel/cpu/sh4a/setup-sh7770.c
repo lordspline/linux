@@ -4,13 +4,13 @@
  *
  *  Copyright (C) 2006 - 2008  Paul Mundt
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/serial_sci.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_intc.h>
-#include <linux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/serial_sci.h>
+#include <peenux/sh_timer.h>
+#include <peenux/sh_intc.h>
+#include <peenux/io.h>
 #include <asm/platform_early.h>
 
 static struct plat_sci_port scif0_platform_data = {

@@ -9,19 +9,19 @@
 #ifndef LINUX_NFSD_NFSD_H
 #define LINUX_NFSD_NFSD_H
 
-#include <linux/types.h>
-#include <linux/mount.h>
+#include <peenux/types.h>
+#include <peenux/mount.h>
 
-#include <linux/nfs.h>
-#include <linux/nfs2.h>
-#include <linux/nfs3.h>
-#include <linux/nfs4.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/sunrpc/svc_xprt.h>
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/sunrpc/addr.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs2.h>
+#include <peenux/nfs3.h>
+#include <peenux/nfs4.h>
+#include <peenux/sunrpc/svc.h>
+#include <peenux/sunrpc/svc_xprt.h>
+#include <peenux/sunrpc/msg_prot.h>
+#include <peenux/sunrpc/addr.h>
 
-#include <uapi/linux/nfsd/debug.h>
+#include <uapi/peenux/nfsd/debug.h>
 
 #include "export.h"
 

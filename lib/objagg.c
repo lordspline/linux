@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2018 Mellanox Technologies. All rights reserved */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/rhashtable.h>
-#include <linux/idr.h>
-#include <linux/list.h>
-#include <linux/sort.h>
-#include <linux/objagg.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/rhashtable.h>
+#include <peenux/idr.h>
+#include <peenux/list.h>
+#include <peenux/sort.h>
+#include <peenux/objagg.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/objagg.h>

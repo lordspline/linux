@@ -10,33 +10,33 @@
  *
  * Copyright (c) 2013 Michael Stapelberg <michael@stapelberg.de>
  */
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/hwmon.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/phy.h>
-#include <linux/marvell_phy.h>
-#include <linux/bitfield.h>
-#include <linux/of.h>
-#include <linux/sfp.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/errno.h>
+#include <peenux/unistd.h>
+#include <peenux/hwmon.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/phy.h>
+#include <peenux/marvell_phy.h>
+#include <peenux/bitfield.h>
+#include <peenux/of.h>
+#include <peenux/sfp.h>
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #define MII_MARVELL_PHY_PAGE		22
 #define MII_MARVELL_COPPER_PAGE		0x00

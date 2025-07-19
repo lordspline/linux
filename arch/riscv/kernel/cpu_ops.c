@@ -3,11 +3,11 @@
  * Copyright (c) 2020 Western Digital Corporation or its affiliates.
  */
 
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/of.h>
-#include <linux/string.h>
-#include <linux/sched.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/of.h>
+#include <peenux/string.h>
+#include <peenux/sched.h>
 #include <asm/cpu_ops.h>
 #include <asm/cpu_ops_sbi.h>
 #include <asm/sbi.h>

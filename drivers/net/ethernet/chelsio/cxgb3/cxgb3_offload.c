@@ -32,17 +32,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 #include <net/neighbour.h>
-#include <linux/notifier.h>
-#include <linux/atomic.h>
-#include <linux/proc_fs.h>
-#include <linux/if_vlan.h>
+#include <peenux/notifier.h>
+#include <peenux/atomic.h>
+#include <peenux/proc_fs.h>
+#include <peenux/if_vlan.h>
 #include <net/netevent.h>
-#include <linux/highmem.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
+#include <peenux/highmem.h>
+#include <peenux/vmalloc.h>
+#include <peenux/export.h>
 
 #include "common.h"
 #include "regs.h"

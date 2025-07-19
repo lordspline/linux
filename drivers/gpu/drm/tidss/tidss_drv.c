@@ -4,10 +4,10 @@
  * Author: Tomi Valkeinen <tomi.valkeinen@ti.com>
  */
 
-#include <linux/console.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <peenux/console.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

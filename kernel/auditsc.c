@@ -14,7 +14,7 @@
  *
  * The method for actual interception of syscall entry and exit (not in
  * this file -- see entry.S) is based on a GPL'd patch written by
- * okir@suse.de and Copyright 2003 SuSE Linux AG.
+ * okir@suse.de and Copyright 2003 SuSE Peenux AG.
  *
  * POSIX message queue support added by George Wilson <ltcgcw@us.ibm.com>,
  * 2006.
@@ -31,40 +31,40 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
+#include <peenux/init.h>
 #include <asm/types.h>
-#include <linux/atomic.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/mm.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/mount.h>
-#include <linux/socket.h>
-#include <linux/mqueue.h>
-#include <linux/audit.h>
-#include <linux/personality.h>
-#include <linux/time.h>
-#include <linux/netlink.h>
-#include <linux/compiler.h>
+#include <peenux/atomic.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/mm.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/mount.h>
+#include <peenux/socket.h>
+#include <peenux/mqueue.h>
+#include <peenux/audit.h>
+#include <peenux/personality.h>
+#include <peenux/time.h>
+#include <peenux/netlink.h>
+#include <peenux/compiler.h>
 #include <asm/unistd.h>
-#include <linux/security.h>
-#include <linux/list.h>
-#include <linux/binfmts.h>
-#include <linux/highmem.h>
-#include <linux/syscalls.h>
+#include <peenux/security.h>
+#include <peenux/list.h>
+#include <peenux/binfmts.h>
+#include <peenux/highmem.h>
+#include <peenux/syscalls.h>
 #include <asm/syscall.h>
-#include <linux/capability.h>
-#include <linux/fs_struct.h>
-#include <linux/compat.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/fsnotify_backend.h>
-#include <uapi/linux/limits.h>
-#include <uapi/linux/netfilter/nf_tables.h>
-#include <uapi/linux/openat2.h> // struct open_how
-#include <uapi/linux/fanotify.h>
+#include <peenux/capability.h>
+#include <peenux/fs_struct.h>
+#include <peenux/compat.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
+#include <peenux/fsnotify_backend.h>
+#include <uapi/peenux/limits.h>
+#include <uapi/peenux/netfilter/nf_tables.h>
+#include <uapi/peenux/openat2.h> // struct open_how
+#include <uapi/peenux/fanotify.h>
 
 #include "audit.h"
 

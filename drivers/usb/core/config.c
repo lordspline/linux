@@ -3,14 +3,14 @@
  * Released under the GPLv2 only.
  */
 
-#include <linux/usb.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/quirks.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/device.h>
+#include <peenux/usb.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/quirks.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/device.h>
 #include <asm/byteorder.h>
 #include "usb.h"
 

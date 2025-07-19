@@ -1,15 +1,15 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /*
  * Copyright (c) 2013-2021, Mellanox Technologies inc.  All rights reserved.
  */
 
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/vport.h>
-#include <linux/mlx5/eq.h>
+#include <peenux/interrupt.h>
+#include <peenux/notifier.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/mlx5/vport.h>
+#include <peenux/mlx5/eq.h>
 #ifdef CONFIG_RFS_ACCEL
-#include <linux/cpu_rmap.h>
+#include <peenux/cpu_rmap.h>
 #endif
 #include "mlx5_core.h"
 #include "lib/eq.h"

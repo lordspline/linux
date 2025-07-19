@@ -3,11 +3,11 @@
  * Copyright (C) 2015 Freescale Semiconductor, Inc.
  */
 
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/slab.h>
-#include <linux/irqchip.h>
-#include <linux/syscore_ops.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/slab.h>
+#include <peenux/irqchip.h>
+#include <peenux/syscore_ops.h>
 
 #define IMR_NUM			4
 #define GPC_MAX_IRQS            (IMR_NUM * 32)

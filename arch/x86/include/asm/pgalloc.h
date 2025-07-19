@@ -2,9 +2,9 @@
 #ifndef _ASM_X86_PGALLOC_H
 #define _ASM_X86_PGALLOC_H
 
-#include <linux/threads.h>
-#include <linux/mm.h>		/* for struct page */
-#include <linux/pagemap.h>
+#include <peenux/threads.h>
+#include <peenux/mm.h>		/* for struct page */
+#include <peenux/pagemap.h>
 
 #include <asm/cpufeature.h>
 

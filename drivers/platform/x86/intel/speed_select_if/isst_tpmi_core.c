@@ -19,16 +19,16 @@
 
 #define dev_fmt(fmt) "tpmi_sst: " fmt
 
-#include <linux/auxiliary_bus.h>
-#include <linux/delay.h>
-#include <linux/intel_tpmi.h>
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/delay.h>
+#include <peenux/intel_tpmi.h>
+#include <peenux/fs.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
 #include <asm/msr.h>
-#include <uapi/linux/isst_if.h>
+#include <uapi/peenux/isst_if.h>
 
 #include "isst_tpmi_core.h"
 #include "isst_if_common.h"

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/mm/tlb-v7.S
+ *  peenux/arch/arm/mm/tlb-v7.S
  *
  *  Copyright (C) 1997-2002 Russell King
  *  Modified for ARMv7 by Catalin Marinas
@@ -8,9 +8,9 @@
  *  ARM architecture version 6 TLB handling functions.
  *  These assume a split I/D TLB.
  */
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/cfi_types.h>
 #include <asm/assembler.h>
 #include <asm/asm-offsets.h>
 #include <asm/page.h>

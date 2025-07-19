@@ -5,16 +5,16 @@
  * Authors:	Thomas Graf <tgraf@suug.ch>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/rtnetlink.h>
-#include <linux/skbuff.h>
-#include <linux/idr.h>
-#include <linux/percpu.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/skbuff.h>
+#include <peenux/idr.h>
+#include <peenux/percpu.h>
 #include <net/netlink.h>
 #include <net/act_api.h>
 #include <net/pkt_cls.h>

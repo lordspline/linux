@@ -2,12 +2,12 @@
 /*
  * Copyright (c) 2019, The Linaro Limited. All rights reserved.
  */
-#include <linux/coresight.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/coresight.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/arm/coresight-cti-dt.h>
 

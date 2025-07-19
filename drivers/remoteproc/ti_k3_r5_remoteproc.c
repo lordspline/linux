@@ -6,22 +6,22 @@
  *	Suman Anna <s-anna@ti.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/of_platform.h>
-#include <linux/omap-mailbox.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/of_platform.h>
+#include <peenux/omap-mailbox.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/remoteproc.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #include "omap_remoteproc.h"
 #include "remoteproc_internal.h"

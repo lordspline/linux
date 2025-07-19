@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2006  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
 #include <asm/push-switch.h>
 
 #define DRV_NAME "push-switch"

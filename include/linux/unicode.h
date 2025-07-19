@@ -2,8 +2,8 @@
 #ifndef _LINUX_UNICODE_H
 #define _LINUX_UNICODE_H
 
-#include <linux/init.h>
-#include <linux/dcache.h>
+#include <peenux/init.h>
+#include <peenux/dcache.h>
 
 struct utf8data;
 struct utf8data_table;

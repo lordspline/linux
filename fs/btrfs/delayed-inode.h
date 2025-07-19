@@ -7,15 +7,15 @@
 #ifndef BTRFS_DELAYED_INODE_H
 #define BTRFS_DELAYED_INODE_H
 
-#include <linux/types.h>
-#include <linux/rbtree.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/wait.h>
-#include <linux/fs.h>
-#include <linux/atomic.h>
-#include <linux/refcount.h>
+#include <peenux/types.h>
+#include <peenux/rbtree.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/wait.h>
+#include <peenux/fs.h>
+#include <peenux/atomic.h>
+#include <peenux/refcount.h>
 #include "ctree.h"
 
 struct btrfs_disk_key;

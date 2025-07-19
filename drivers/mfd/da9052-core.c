@@ -7,18 +7,18 @@
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/property.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/core.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
 
-#include <linux/mfd/da9052/da9052.h>
-#include <linux/mfd/da9052/pdata.h>
-#include <linux/mfd/da9052/reg.h>
+#include <peenux/mfd/da9052/da9052.h>
+#include <peenux/mfd/da9052/pdata.h>
+#include <peenux/mfd/da9052/reg.h>
 
 static bool da9052_reg_readable(struct device *dev, unsigned int reg)
 {

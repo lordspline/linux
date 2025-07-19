@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/export.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
-#include <linux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/export.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
+#include <peenux/delay.h>
 
 #include "reset.h"
 

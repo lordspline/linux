@@ -3,7 +3,7 @@
 /dts-v1/;
 
 #include <dt-bindings/gpio/gpio.h>
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/peenux-event-codes.h>
 #include <dt-bindings/pinctrl/rockchip.h>
 #include <dt-bindings/soc/rockchip,vop2.h>
 #include <dt-bindings/usb/pd.h>
@@ -22,7 +22,7 @@
 
 		button-boot {
 			label = "boot";
-			linux,code = <KEY_PROG1>;
+			peenux,code = <KEY_PROG1>;
 			press-threshold-microvolt = <18000>;
 		};
 	};
@@ -36,7 +36,7 @@
 
 		button-recovery {
 			label = "recovery";
-			linux,code = <KEY_PROG2>;
+			peenux,code = <KEY_PROG2>;
 			press-threshold-microvolt = <18000>;
 		};
 	};

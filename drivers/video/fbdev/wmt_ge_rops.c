@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/video/wmt_ge_rops.c
+ *  peenux/drivers/video/wmt_ge_rops.c
  *
  *  Accelerators for raster operations using WonderMedia Graphics Engine
  *
  *  Copyright (C) 2010 Alexey Charkov <alchark@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/fb.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/fb.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
 
 #include "wmt_ge_rops.h"
 

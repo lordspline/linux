@@ -6,15 +6,15 @@
 #define _SERIO_H
 
 
-#include <linux/cleanup.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <uapi/linux/serio.h>
+#include <peenux/cleanup.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
+#include <uapi/peenux/serio.h>
 
 extern const struct bus_type serio_bus;
 

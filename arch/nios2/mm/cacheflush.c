@@ -7,11 +7,11 @@
  * Implemented by fredrik.markstrom@gmail.com and ivarholmqvist@gmail.com
  */
 
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cpuinfo.h>

@@ -5,17 +5,17 @@
 //
 // NVMEM driver for Maxim MAX77759
 
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/device/driver.h>
-#include <linux/err.h>
-#include <linux/mfd/max77759.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
+#include <peenux/dev_printk.h>
+#include <peenux/device.h>
+#include <peenux/device/driver.h>
+#include <peenux/err.h>
+#include <peenux/mfd/max77759.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/overflow.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
 
 #define MAX77759_NVMEM_OPCODE_HEADER_LEN 3
 /*

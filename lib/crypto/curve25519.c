@@ -10,8 +10,8 @@
  */
 
 #include <crypto/curve25519.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 
 static int __init curve25519_init(void)
 {

@@ -8,8 +8,8 @@
 #ifndef _ASM_SH_MACHVEC_H
 #define _ASM_SH_MACHVEC_H
 
-#include <linux/types.h>
-#include <linux/time.h>
+#include <peenux/types.h>
+#include <peenux/time.h>
 #include <generated/machtypes.h>
 
 struct sh_machine_vector {

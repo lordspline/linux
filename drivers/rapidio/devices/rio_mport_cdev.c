@@ -10,34 +10,34 @@
  * Copyright (C) 2014 Texas Instruments Incorporated
  *    Aurelien Jacquiot <a-jacquiot@ti.com>
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/cdev.h>
-#include <linux/ioctl.h>
-#include <linux/uaccess.h>
-#include <linux/list.h>
-#include <linux/fs.h>
-#include <linux/err.h>
-#include <linux/net.h>
-#include <linux/poll.h>
-#include <linux/spinlock.h>
-#include <linux/sched.h>
-#include <linux/kfifo.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/cdev.h>
+#include <peenux/ioctl.h>
+#include <peenux/uaccess.h>
+#include <peenux/list.h>
+#include <peenux/fs.h>
+#include <peenux/err.h>
+#include <peenux/net.h>
+#include <peenux/poll.h>
+#include <peenux/spinlock.h>
+#include <peenux/sched.h>
+#include <peenux/kfifo.h>
 
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mman.h>
 
-#include <linux/dma-mapping.h>
+#include <peenux/dma-mapping.h>
 #ifdef CONFIG_RAPIDIO_DMA_ENGINE
-#include <linux/dmaengine.h>
+#include <peenux/dmaengine.h>
 #endif
 
-#include <linux/rio.h>
-#include <linux/rio_ids.h>
-#include <linux/rio_drv.h>
-#include <linux/rio_mport_cdev.h>
+#include <peenux/rio.h>
+#include <peenux/rio_ids.h>
+#include <peenux/rio_drv.h>
+#include <peenux/rio_mport_cdev.h>
 
 #include "../rio.h"
 
@@ -2518,7 +2518,7 @@ static void mport_cdev_remove(struct mport_dev *md)
 
 /*
  * mport_add_mport() - Add rio_mport from LDM device struct
- * @dev:		Linux device model struct
+ * @dev:		Peenux device model struct
  */
 static int mport_add_mport(struct device *dev)
 {
@@ -2572,7 +2572,7 @@ static struct class_interface rio_mport_interface __refdata = {
 };
 
 /*
- * Linux kernel module
+ * Peenux kernel module
  */
 
 /*

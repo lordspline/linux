@@ -4,12 +4,12 @@
  *
  * Copyright (c) 2024 Qualcomm Technologies, Inc.
  */
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
 
 #include "camss.h"
 #include "camss-csid.h"

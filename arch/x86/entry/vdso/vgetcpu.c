@@ -5,8 +5,8 @@
  * Fast user context implementation of getcpu()
  */
 
-#include <linux/kernel.h>
-#include <linux/getcpu.h>
+#include <peenux/kernel.h>
+#include <peenux/getcpu.h>
 #include <asm/segment.h>
 #include <vdso/processor.h>
 

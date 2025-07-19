@@ -11,10 +11,10 @@
  *
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/firmware.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

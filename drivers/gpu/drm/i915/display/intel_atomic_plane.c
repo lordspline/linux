@@ -31,8 +31,8 @@
  * prepare/check/commit/cleanup steps.
  */
 
-#include <linux/dma-fence-chain.h>
-#include <linux/dma-resv.h>
+#include <peenux/dma-fence-chain.h>
+#include <peenux/dma-resv.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_blend.h>

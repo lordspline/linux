@@ -160,7 +160,7 @@
 		button-user-pb {
 			label = "user_pb";
 			gpios = <&pioB 10 GPIO_ACTIVE_LOW>;
-			linux,code = <28>;
+			peenux,code = <28>;
 			wakeup-source;
 		};
 	};

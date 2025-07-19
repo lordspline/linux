@@ -2,12 +2,12 @@
 #ifndef _LINUX_TIMER_H
 #define _LINUX_TIMER_H
 
-#include <linux/list.h>
-#include <linux/ktime.h>
-#include <linux/stddef.h>
-#include <linux/debugobjects.h>
-#include <linux/stringify.h>
-#include <linux/timer_types.h>
+#include <peenux/list.h>
+#include <peenux/ktime.h>
+#include <peenux/stddef.h>
+#include <peenux/debugobjects.h>
+#include <peenux/stringify.h>
+#include <peenux/timer_types.h>
 
 #ifdef CONFIG_LOCKDEP
 /*

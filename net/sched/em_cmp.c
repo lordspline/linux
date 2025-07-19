@@ -5,12 +5,12 @@
  * Authors:	Thomas Graf <tgraf@suug.ch>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/tc_ematch/tc_em_cmp.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/tc_ematch/tc_em_cmp.h>
+#include <peenux/unaligned.h>
 #include <net/pkt_cls.h>
 
 static inline int cmp_needs_transformation(struct tcf_em_cmp *cmp)

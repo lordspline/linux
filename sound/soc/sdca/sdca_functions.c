@@ -8,15 +8,15 @@
 
 #define dev_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/acpi.h>
-#include <linux/byteorder/generic.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/dev_printk.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/byteorder/generic.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/dev_printk.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/types.h>
 #include <sound/sdca.h>
 #include <sound/sdca_function.h>
 

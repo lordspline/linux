@@ -5,12 +5,12 @@
  * Copyright (C) 2013 MEN Mikroelektronik GmbH (www.men.de)
  * Author: Johannes Thumshirn <johannes.thumshirn@men.de>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/idr.h>
-#include <linux/mcb.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/idr.h>
+#include <peenux/mcb.h>
 
 static DEFINE_IDA(mcb_ida);
 

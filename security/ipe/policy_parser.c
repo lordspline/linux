@@ -3,11 +3,11 @@
  * Copyright (C) 2020-2024 Microsoft Corporation. All rights reserved.
  */
 
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/parser.h>
-#include <linux/types.h>
-#include <linux/ctype.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/parser.h>
+#include <peenux/types.h>
+#include <peenux/ctype.h>
 
 #include "policy.h"
 #include "policy_parser.h"

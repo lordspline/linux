@@ -9,7 +9,7 @@
 #ifndef CX24123_H
 #define CX24123_H
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 
 struct cx24123_config {
 	/* the demodulator's i2c address */

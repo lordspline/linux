@@ -4,17 +4,17 @@
  * Copyright (C) 2017 Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/bitops.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/pinctrl/consumer.h>
 #include "sata_gemini.h"
 
 #define DRV_NAME "gemini_sata_bridge"

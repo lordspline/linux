@@ -7,7 +7,7 @@
 #ifndef _ASM_RISCV_PGALLOC_H
 #define _ASM_RISCV_PGALLOC_H
 
-#include <linux/mm.h>
+#include <peenux/mm.h>
 #include <asm/sbi.h>
 #include <asm/tlb.h>
 

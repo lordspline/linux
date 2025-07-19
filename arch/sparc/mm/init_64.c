@@ -6,28 +6,28 @@
  *  Copyright (C) 1997-1999 Jakub Jelinek (jj@sunsite.mff.cuni.cz)
  */
  
-#include <linux/extable.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/initrd.h>
-#include <linux/swap.h>
-#include <linux/pagemap.h>
-#include <linux/poison.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
-#include <linux/kprobes.h>
-#include <linux/cache.h>
-#include <linux/sort.h>
-#include <linux/ioport.h>
-#include <linux/percpu.h>
-#include <linux/mmzone.h>
-#include <linux/gfp.h>
-#include <linux/bootmem_info.h>
+#include <peenux/extable.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/memblock.h>
+#include <peenux/mm.h>
+#include <peenux/hugetlb.h>
+#include <peenux/initrd.h>
+#include <peenux/swap.h>
+#include <peenux/pagemap.h>
+#include <peenux/poison.h>
+#include <peenux/fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/kprobes.h>
+#include <peenux/cache.h>
+#include <peenux/sort.h>
+#include <peenux/ioport.h>
+#include <peenux/percpu.h>
+#include <peenux/mmzone.h>
+#include <peenux/gfp.h>
+#include <peenux/bootmem_info.h>
 
 #include <asm/head.h>
 #include <asm/page.h>
@@ -35,7 +35,7 @@
 #include <asm/oplib.h>
 #include <asm/iommu.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/tlbflush.h>
 #include <asm/dma.h>
@@ -2464,7 +2464,7 @@ void __init paging_init(void)
 		free_area_init(max_zone_pfns);
 	}
 
-	printk("Booting Linux...\n");
+	printk("Booting Peenux...\n");
 }
 
 int page_in_phys_avail(unsigned long paddr)

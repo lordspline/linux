@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/lib/string.c
+ *  peenux/lib/string.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
@@ -15,19 +15,19 @@
  */
 
 #define __NO_FORTIFY
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/limits.h>
-#include <linux/linkage.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/bug.h>
+#include <peenux/ctype.h>
+#include <peenux/errno.h>
+#include <peenux/limits.h>
+#include <peenux/linkage.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include <asm/page.h>
 #include <asm/rwonce.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/word-at-a-time.h>
 
 #ifndef __HAVE_ARCH_STRNCASECMP

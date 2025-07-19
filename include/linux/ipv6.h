@@ -2,8 +2,8 @@
 #ifndef _IPV6_H
 #define _IPV6_H
 
-#include <uapi/linux/ipv6.h>
-#include <linux/cache.h>
+#include <uapi/peenux/ipv6.h>
+#include <peenux/cache.h>
 
 #define ipv6_optlen(p)  (((p)->hdrlen+1) << 3)
 #define ipv6_authlen(p) (((p)->hdrlen+2) << 2)
@@ -99,8 +99,8 @@ struct ipv6_params {
 	__s32 autoconf;
 };
 extern struct ipv6_params ipv6_defaults;
-#include <linux/tcp.h>
-#include <linux/udp.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
 
 #include <net/inet_sock.h>
 

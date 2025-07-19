@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/kernel.h>
-#include <linux/fs_parser.h>
+#include <peenux/kernel.h>
+#include <peenux/fs_parser.h>
 
 #include "bcachefs.h"
 #include "compress.h"

@@ -5,12 +5,12 @@
  * Peng Fan <peng.fan@nxp.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/slab.h>
 
 #include "clk.h"
 

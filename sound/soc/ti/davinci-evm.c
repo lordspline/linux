@@ -6,14 +6,14 @@
  * Copyright:   (C) 2007 MontaVista Software, Inc., <source@mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/i2c.h>
-#include <linux/of_platform.h>
-#include <linux/clk.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/i2c.h>
+#include <peenux/of_platform.h>
+#include <peenux/clk.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

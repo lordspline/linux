@@ -15,31 +15,31 @@
  * This file handles the architecture-dependent parts of process handling..
  */
 
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/elfcore.h>
-#include <linux/smp.h>
-#include <linux/slab.h>
-#include <linux/user.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/ptrace.h>
-#include <linux/notifier.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/prctl.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/ftrace.h>
-#include <linux/syscalls.h>
-#include <linux/iommu.h>
+#include <peenux/cpu.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/elfcore.h>
+#include <peenux/smp.h>
+#include <peenux/slab.h>
+#include <peenux/user.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/ptrace.h>
+#include <peenux/notifier.h>
+#include <peenux/kprobes.h>
+#include <peenux/kdebug.h>
+#include <peenux/prctl.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/ftrace.h>
+#include <peenux/syscalls.h>
+#include <peenux/iommu.h>
 
 #include <asm/processor.h>
 #include <asm/pkru.h>
@@ -248,7 +248,7 @@ static __always_inline void save_base_legacy(struct task_struct *prev_p,
 		 * context switch between 64-bit programs), and avoiding
 		 * the RDMSR helps a lot, so we just assume that whatever
 		 * value is already saved is correct.  This matches historical
-		 * Linux behavior, so it won't break existing applications.
+		 * Peenux behavior, so it won't break existing applications.
 		 *
 		 * To avoid leaking state, on non-X86_BUG_NULL_SEG CPUs, if we
 		 * report that the base is zero, it needs to actually be zero:
@@ -258,7 +258,7 @@ static __always_inline void save_base_legacy(struct task_struct *prev_p,
 		/*
 		 * If the selector is 1, 2, or 3, then the base is zero on
 		 * !X86_BUG_NULL_SEG CPUs and could be anything on
-		 * X86_BUG_NULL_SEG CPUs.  In the latter case, Linux
+		 * X86_BUG_NULL_SEG CPUs.  In the latter case, Peenux
 		 * has never attempted to preserve the base across context
 		 * switches.
 		 *

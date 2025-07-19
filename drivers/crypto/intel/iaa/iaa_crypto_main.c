@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2021 Intel Corporation. All rights rsvd. */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/iommu.h>
-#include <uapi/linux/idxd.h>
-#include <linux/highmem.h>
-#include <linux/sched/smt.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/device.h>
+#include <peenux/iommu.h>
+#include <uapi/peenux/idxd.h>
+#include <peenux/highmem.h>
+#include <peenux/sched/smt.h>
 #include <crypto/internal/acompress.h>
 
 #include "idxd.h"

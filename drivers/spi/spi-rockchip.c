@@ -4,16 +4,16 @@
  * Author: Addy Ke <addy.ke@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
+#include <peenux/clk.h>
+#include <peenux/dmaengine.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/scatterlist.h>
 
 #define DRIVER_NAME "rockchip-spi"
 

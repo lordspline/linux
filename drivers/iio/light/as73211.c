@@ -15,20 +15,20 @@
  * AS7331: https://ams.com/documents/20143/9106314/AS7331_DS001047_4-00.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm.h>
+#include <peenux/units.h>
 
 #define AS73211_DRV_NAME "as73211"
 

@@ -7,13 +7,13 @@
  * Tero Kristo <t-kristo@ti.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/clk/ti.h>
-#include <linux/list.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/clk/ti.h>
+#include <peenux/list.h>
 
 #include "clock.h"
 

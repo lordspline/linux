@@ -10,10 +10,10 @@
 #define _LINUX_IOPORT_H
 
 #ifndef __ASSEMBLY__
-#include <linux/bits.h>
-#include <linux/compiler.h>
-#include <linux/minmax.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/compiler.h>
+#include <peenux/minmax.h>
+#include <peenux/types.h>
 /*
  * Resources are tree-like, allowing
  * nesting etc..

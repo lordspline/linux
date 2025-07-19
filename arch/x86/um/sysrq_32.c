@@ -3,14 +3,14 @@
  * Licensed under the GPL
  */
 
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/kallsyms.h>
+#include <peenux/kernel.h>
+#include <peenux/smp.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/kallsyms.h>
 #include <asm/ptrace.h>
 
-/* This is declared by <linux/sched.h> */
+/* This is declared by <peenux/sched.h> */
 void show_regs(struct pt_regs *regs)
 {
         printk("\n");

@@ -7,9 +7,9 @@
  * Copyright (C) 2017 Johan Hovold <johan@kernel.org>
  */
 
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/usb/of.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/usb/of.h>
 
 /**
  * usb_of_get_device_node() - get a USB device node

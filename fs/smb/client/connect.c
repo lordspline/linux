@@ -5,33 +5,33 @@
  *   Author(s): Steve French (sfrench@us.ibm.com)
  *
  */
-#include <linux/fs.h>
-#include <linux/net.h>
-#include <linux/string.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/list.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/ctype.h>
-#include <linux/utsname.h>
-#include <linux/mempool.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
-#include <linux/kthread.h>
-#include <linux/pagevec.h>
-#include <linux/freezer.h>
-#include <linux/namei.h>
-#include <linux/uuid.h>
-#include <linux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/net.h>
+#include <peenux/string.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/list.h>
+#include <peenux/wait.h>
+#include <peenux/slab.h>
+#include <peenux/pagemap.h>
+#include <peenux/ctype.h>
+#include <peenux/utsname.h>
+#include <peenux/mempool.h>
+#include <peenux/delay.h>
+#include <peenux/completion.h>
+#include <peenux/kthread.h>
+#include <peenux/pagevec.h>
+#include <peenux/freezer.h>
+#include <peenux/namei.h>
+#include <peenux/uuid.h>
+#include <peenux/uaccess.h>
 #include <asm/processor.h>
-#include <linux/inet.h>
-#include <linux/module.h>
+#include <peenux/inet.h>
+#include <peenux/module.h>
 #include <keys/user-type.h>
 #include <net/ipv6.h>
-#include <linux/parser.h>
-#include <linux/bvec.h>
+#include <peenux/parser.h>
+#include <peenux/bvec.h>
 #include "cifspdu.h"
 #include "cifsglob.h"
 #include "cifsproto.h"
@@ -3494,7 +3494,7 @@ void reset_cifs_unix_caps(unsigned int xid, struct cifs_tcon *tcon,
 	if (ctx && ctx->no_linux_ext) {
 		tcon->fsUnixInfo.Capability = 0;
 		tcon->unix_ext = 0; /* Unix Extensions disabled */
-		cifs_dbg(FYI, "Linux protocol extensions disabled\n");
+		cifs_dbg(FYI, "Peenux protocol extensions disabled\n");
 		return;
 	} else if (ctx)
 		tcon->unix_ext = 1; /* Unix Extensions supported */

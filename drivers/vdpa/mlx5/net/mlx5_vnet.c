@@ -1,23 +1,23 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /* Copyright (c) 2020 Mellanox Technologies Ltd. */
 
-#include <linux/module.h>
-#include <linux/vdpa.h>
-#include <linux/vringh.h>
-#include <uapi/linux/virtio_net.h>
-#include <uapi/linux/virtio_ids.h>
-#include <uapi/linux/vdpa.h>
-#include <uapi/linux/vhost_types.h>
-#include <linux/virtio_config.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/mlx5/cq.h>
-#include <linux/mlx5/qp.h>
-#include <linux/mlx5/device.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/vport.h>
-#include <linux/mlx5/fs.h>
-#include <linux/mlx5/mlx5_ifc_vdpa.h>
-#include <linux/mlx5/mpfs.h>
+#include <peenux/module.h>
+#include <peenux/vdpa.h>
+#include <peenux/vringh.h>
+#include <uapi/peenux/virtio_net.h>
+#include <uapi/peenux/virtio_ids.h>
+#include <uapi/peenux/vdpa.h>
+#include <uapi/peenux/vhost_types.h>
+#include <peenux/virtio_config.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/mlx5/cq.h>
+#include <peenux/mlx5/qp.h>
+#include <peenux/mlx5/device.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/mlx5/vport.h>
+#include <peenux/mlx5/fs.h>
+#include <peenux/mlx5/mlx5_ifc_vdpa.h>
+#include <peenux/mlx5/mpfs.h>
 #include "mlx5_vdpa.h"
 #include "mlx5_vnet.h"
 

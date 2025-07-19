@@ -5,23 +5,23 @@
  * Driver for Semtech's SX9310/SX9311 capacitive proximity/button solution.
  * Based on SX9500 driver and Semtech driver using the input framework
  * <https://my.syncplicity.com/share/teouwsim8niiaud/
- *          linux-driver-SX9310_NoSmartHSensing>.
+ *          peenux-driver-SX9310_NoSmartHSensing>.
  * Reworked in April 2019 by Evan Green <evgreen@chromium.org>
  * and in January 2020 by Daniel Campello <campello@chromium.org>.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/iio/iio.h>
 
 #include "sx_common.h"
 

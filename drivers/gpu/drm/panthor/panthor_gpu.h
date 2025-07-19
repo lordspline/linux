@@ -5,7 +5,7 @@
 #ifndef __PANTHOR_GPU_H__
 #define __PANTHOR_GPU_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct panthor_device;
 

@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2009-2013, 2016-2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2009-2013, 2016-2018, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2014, Sony Mobile Communications AB.
  *
  */
 
-#include <linux/acpi.h>
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interconnect.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/scatterlist.h>
+#include <peenux/acpi.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dmapool.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/interconnect.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/scatterlist.h>
 
 /* QUP Registers */
 #define QUP_CONFIG		0x000

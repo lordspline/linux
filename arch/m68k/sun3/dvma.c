@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/m68k/sun3/dvma.c
+ * peenux/arch/m68k/sun3/dvma.c
  *
  * Written by Sam Creasey
  *
@@ -8,11 +8,11 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/list.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/list.h>
 #include <asm/page.h>
 #include <asm/sun3mmu.h>
 #include <asm/dvma.h>

@@ -35,25 +35,25 @@
 
 		button-back {
 			label = "back";
-			linux,code = <KEY_BACK>;
+			peenux,code = <KEY_BACK>;
 			press-threshold-microvolt = <1235000>;
 		};
 
 		button-menu {
 			label = "menu";
-			linux,code = <KEY_MENU>;
+			peenux,code = <KEY_MENU>;
 			press-threshold-microvolt = <890000>;
 		};
 
 		button-vol-down {
 			label = "volume down";
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 			press-threshold-microvolt = <417000>;
 		};
 
 		button-vol-up {
 			label = "volume up";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			press-threshold-microvolt = <17000>;
 		};
 	};
@@ -74,7 +74,7 @@
 
 		work_led: led-0 {
 			gpios = <&gpio0 RK_PB4 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 

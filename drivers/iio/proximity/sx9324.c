@@ -7,21 +7,21 @@
  * https://edit.wpgdadawant.com/uploads/news_file/program/2019/30184/tech_files/program_30184_suggest_other_file.pdf
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #include "sx_common.h"
 

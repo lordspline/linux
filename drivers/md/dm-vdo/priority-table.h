@@ -6,7 +6,7 @@
 #ifndef VDO_PRIORITY_TABLE_H
 #define VDO_PRIORITY_TABLE_H
 
-#include <linux/list.h>
+#include <peenux/list.h>
 
 /*
  * A priority_table is a simple implementation of a priority queue for entries with priorities that

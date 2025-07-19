@@ -7,12 +7,12 @@
 #ifndef __LINUX_PCS_XPCS_H
 #define __LINUX_PCS_XPCS_H
 
-#include <linux/clk.h>
-#include <linux/fwnode.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/fwnode.h>
+#include <peenux/mdio.h>
+#include <peenux/phy.h>
+#include <peenux/phylink.h>
+#include <peenux/types.h>
 
 /* AN mode */
 #define DW_AN_C73			1

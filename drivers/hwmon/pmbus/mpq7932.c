@@ -6,14 +6,14 @@
  * Author: Saravanan Sekar <saravanan@linumiz.com>
  */
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pmbus.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pmbus.h>
 #include "pmbus.h"
 
 #define MPQ7932_BUCK_UV_MIN		206250

@@ -17,9 +17,9 @@
 #ifndef CLK_ROCKCHIP_CLK_H
 #define CLK_ROCKCHIP_CLK_H
 
-#include <linux/io.h>
-#include <linux/clk-provider.h>
-#include <linux/hashtable.h>
+#include <peenux/io.h>
+#include <peenux/clk-provider.h>
+#include <peenux/hashtable.h>
 
 struct clk;
 

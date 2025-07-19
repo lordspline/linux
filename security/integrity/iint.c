@@ -9,7 +9,7 @@
  *	- initialize the integrity directory in securityfs
  *	- load IMA and EVM keys
  */
-#include <linux/security.h>
+#include <peenux/security.h>
 #include "integrity.h"
 
 struct dentry *integrity_dir;

@@ -4,19 +4,19 @@
  * Copyright (c) 2016 Cavium Inc.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/if_arp.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/if_arp.h>
 #include <scsi/iscsi_if.h>
-#include <linux/inet.h>
+#include <peenux/inet.h>
 #include <net/arp.h>
-#include <linux/list.h>
-#include <linux/kthread.h>
-#include <linux/mm.h>
-#include <linux/if_vlan.h>
-#include <linux/cpu.h>
-#include <linux/iscsi_boot_sysfs.h>
+#include <peenux/list.h>
+#include <peenux/kthread.h>
+#include <peenux/mm.h>
+#include <peenux/if_vlan.h>
+#include <peenux/cpu.h>
+#include <peenux/iscsi_boot_sysfs.h>
 
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>

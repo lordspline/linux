@@ -13,25 +13,25 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/blkdev.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/sd.h>
-#include <linux/sched.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/clk.h>
-#include <linux/bitops.h>
-#include <linux/of_dma.h>
-#include <linux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/blkdev.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/sd.h>
+#include <peenux/sched.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/clk.h>
+#include <peenux/bitops.h>
+#include <peenux/of_dma.h>
+#include <peenux/spinlock.h>
 
 #define REG_COMMAND		0
 #define REG_ARGUMENT		4

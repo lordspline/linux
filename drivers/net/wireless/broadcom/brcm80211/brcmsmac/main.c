@@ -17,8 +17,8 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/pci_ids.h>
-#include <linux/if_ether.h>
+#include <peenux/pci_ids.h>
+#include <peenux/if_ether.h>
 #include <net/cfg80211.h>
 #include <net/mac80211.h>
 #include <brcm_hw_ids.h>

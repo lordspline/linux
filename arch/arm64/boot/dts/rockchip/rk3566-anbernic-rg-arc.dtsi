@@ -3,7 +3,7 @@
 /dts-v1/;
 
 #include <dt-bindings/gpio/gpio.h>
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/peenux-event-codes.h>
 #include <dt-bindings/pinctrl/rockchip.h>
 #include "rk3566-anbernic-rgxx3.dtsi"
 
@@ -135,61 +135,61 @@
 	button-a {
 		gpios = <&gpio3 RK_PC3 GPIO_ACTIVE_LOW>;
 		label = "A";
-		linux,code = <BTN_A>;
+		peenux,code = <BTN_A>;
 	};
 
 	button-b {
 		gpios = <&gpio3 RK_PC2 GPIO_ACTIVE_LOW>;
 		label = "B";
-		linux,code = <BTN_B>;
+		peenux,code = <BTN_B>;
 	};
 
 	button-c {
 		gpios = <&gpio3 RK_PA2 GPIO_ACTIVE_LOW>;
 		label = "C";
-		linux,code = <BTN_C>;
+		peenux,code = <BTN_C>;
 	};
 
 	button-left {
 		gpios = <&gpio3 RK_PA6 GPIO_ACTIVE_LOW>;
 		label = "DPAD-LEFT";
-		linux,code = <BTN_DPAD_LEFT>;
+		peenux,code = <BTN_DPAD_LEFT>;
 	};
 
 	button-r1 {
 		gpios = <&gpio3 RK_PB4 GPIO_ACTIVE_LOW>;
 		label = "TR";
-		linux,code = <BTN_TR>;
+		peenux,code = <BTN_TR>;
 	};
 
 	button-r2 {
 		gpios = <&gpio3 RK_PB3 GPIO_ACTIVE_LOW>;
 		label = "TR2";
-		linux,code = <BTN_TR2>;
+		peenux,code = <BTN_TR2>;
 	};
 
 	button-right {
 		gpios = <&gpio3 RK_PA5 GPIO_ACTIVE_LOW>;
 		label = "DPAD-RIGHT";
-		linux,code = <BTN_DPAD_RIGHT>;
+		peenux,code = <BTN_DPAD_RIGHT>;
 	};
 
 	button-x {
 		gpios = <&gpio3 RK_PC0 GPIO_ACTIVE_LOW>;
 		label = "X";
-		linux,code = <BTN_X>;
+		peenux,code = <BTN_X>;
 	};
 
 	button-y {
 		gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_LOW>;
 		label = "Y";
-		linux,code = <BTN_Y>;
+		peenux,code = <BTN_Y>;
 	};
 
 	button-z {
 		gpios = <&gpio3 RK_PA1 GPIO_ACTIVE_LOW>;
 		label = "Z";
-		linux,code = <BTN_Z>;
+		peenux,code = <BTN_Z>;
 	};
 };
 

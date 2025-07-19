@@ -12,7 +12,7 @@
  * Do no reuse for anything else!
  */
 
-#include <linux/kvm_host.h>
+#include <peenux/kvm_host.h>
 
 #include <asm/gpr-num.h>
 #include <asm/kvm_emulate.h>

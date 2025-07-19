@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2024 Pengutronix, Oleksij Rempel <kernel@pengutronix.de>
 
-#include <linux/dsa/ksz_common.h>
+#include <peenux/dsa/ksz_common.h>
 #include <net/dsa.h>
 #include <net/dscp.h>
 #include <net/ieee8021q.h>

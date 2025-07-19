@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/m68k/kernel/sys_m68k.c
+ * peenux/arch/m68k/kernel/sys_m68k.c
  *
  * This file contains various random system calls that
- * have a non-standard calling sequence on the Linux/m68k
+ * have a non-standard calling sequence on the Peenux/m68k
  * platform.
  */
 
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/smp.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/syscalls.h>
-#include <linux/mman.h>
-#include <linux/file.h>
-#include <linux/ipc.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/smp.h>
+#include <peenux/sem.h>
+#include <peenux/msg.h>
+#include <peenux/shm.h>
+#include <peenux/stat.h>
+#include <peenux/syscalls.h>
+#include <peenux/mman.h>
+#include <peenux/file.h>
+#include <peenux/ipc.h>
 
 #include <asm/setup.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/cachectl.h>
 #include <asm/traps.h>
 #include <asm/page.h>

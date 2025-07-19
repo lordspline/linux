@@ -4,13 +4,13 @@
  * Author: Sergio Paracuellos <sergio.paracuellos@gmail.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/clk-provider.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
+#include <peenux/slab.h>
 
 /* Configuration registers */
 #define SYSC_REG_SYSTEM_CONFIG		0x10

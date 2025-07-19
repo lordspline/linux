@@ -8,20 +8,20 @@
  *		 Cornelia Huck <cornelia.huck@de.ibm.com>,
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/cpufeature.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/entry-common.h>
-#include <linux/hardirq.h>
-#include <linux/log2.h>
-#include <linux/kprobes.h>
-#include <linux/kmemleak.h>
-#include <linux/time.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/kvm_host.h>
-#include <linux/export.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/cpufeature.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/entry-common.h>
+#include <peenux/hardirq.h>
+#include <peenux/log2.h>
+#include <peenux/kprobes.h>
+#include <peenux/kmemleak.h>
+#include <peenux/time.h>
+#include <peenux/module.h>
+#include <peenux/sched/signal.h>
+#include <peenux/kvm_host.h>
+#include <peenux/export.h>
 #include <asm/lowcore.h>
 #include <asm/ctlreg.h>
 #include <asm/fpu.h>

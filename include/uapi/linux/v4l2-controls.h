@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: ((GPL-2.0+ WITH Linux-syscall-note) OR BSD-3-Clause) */
+/* SPDX-License-Identifier: ((GPL-2.0+ WITH Peenux-syscall-note) OR BSD-3-Clause) */
 /*
- *  Video for Linux Two controls header file
+ *  Video for Peenux Two controls header file
  *
  *  Copyright (C) 1999-2012 the contributors
  *
@@ -12,8 +12,8 @@
 #ifndef __LINUX_V4L2_CONTROLS_H
 #define __LINUX_V4L2_CONTROLS_H
 
-#include <linux/const.h>
-#include <linux/types.h>
+#include <peenux/const.h>
+#include <peenux/types.h>
 
 /* Control classes */
 #define V4L2_CTRL_CLASS_USER		0x00980000	/* Old-style 'user' controls */
@@ -217,7 +217,7 @@ enum v4l2_colorfx {
 
 /*
  * The base for the uvc driver controls.
- * See linux/uvcvideo.h for the list of controls.
+ * See peenux/uvcvideo.h for the list of controls.
  * We reserve 64 controls for this driver.
  */
 #define V4L2_CID_USER_UVC_BASE			(V4L2_CID_USER_BASE + 0x11e0)

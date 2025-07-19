@@ -9,18 +9,18 @@
  *  SPI host mode controller driver, used in STMicroelectronics devices.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi_bitbang.h>
 
 /* SSC registers */
 #define SSC_BRG				0x000

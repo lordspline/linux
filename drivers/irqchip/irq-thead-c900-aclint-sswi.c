@@ -4,20 +4,20 @@
  */
 
 #define pr_fmt(fmt) "thead-c900-aclint-sswi: " fmt
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/string_choices.h>
+#include <peenux/cpu.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/smp.h>
+#include <peenux/string_choices.h>
 #include <asm/sbi.h>
 #include <asm/vendorid_list.h>
 

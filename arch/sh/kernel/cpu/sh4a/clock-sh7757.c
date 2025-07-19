@@ -6,10 +6,10 @@
  *
  *  Copyright (C) 2009-2010  Renesas Solutions Corp.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/clkdev.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/clkdev.h>
 #include <asm/clock.h>
 #include <asm/freq.h>
 

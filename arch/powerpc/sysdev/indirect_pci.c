@@ -5,11 +5,11 @@
  * Copyright (C) 1998 Gabriel Paubert.
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
 
 #include <asm/io.h>
 #include <asm/pci-bridge.h>

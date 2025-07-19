@@ -22,9 +22,9 @@
  * Authors: Alex Deucher
  */
 
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
 
 #include "amdgpu.h"
 #include "amdgpu_ucode.h"

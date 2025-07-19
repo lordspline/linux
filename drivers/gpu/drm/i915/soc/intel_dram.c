@@ -3,7 +3,7 @@
  * Copyright © 2020 Intel Corporation
  */
 
-#include <linux/string_helpers.h>
+#include <peenux/string_helpers.h>
 
 #include "i915_drv.h"
 #include "i915_reg.h"

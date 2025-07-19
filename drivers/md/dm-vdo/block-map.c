@@ -5,8 +5,8 @@
 
 #include "block-map.h"
 
-#include <linux/bio.h>
-#include <linux/ratelimit.h>
+#include <peenux/bio.h>
+#include <peenux/ratelimit.h>
 
 #include "errors.h"
 #include "logger.h"

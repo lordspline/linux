@@ -7,10 +7,10 @@
 
 #include "au0828.h"
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/device.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
 #include <media/v4l2-common.h>
 #include <media/tuner.h>
 

@@ -9,20 +9,20 @@
  *  0x39 (ADDR pin high)
  */
 
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/util_macros.h>
-#include <linux/iio/events.h>
-#include <linux/regmap.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/mutex.h>
+#include <peenux/util_macros.h>
+#include <peenux/iio/events.h>
+#include <peenux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/iio-gts-helper.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/iio-gts-helper.h>
 
 /* BH1745 configuration registers */
 

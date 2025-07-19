@@ -6,13 +6,13 @@
  * Copyright (C) 2009 Lemote, Inc.
  * Author: Zhangjin Wu, wuzhangjin@gmail.com
  */
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/kexec.h>
-#include <linux/pm.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/kexec.h>
+#include <peenux/pm.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
 
 #include <asm/bootinfo.h>
 #include <asm/idle.h>

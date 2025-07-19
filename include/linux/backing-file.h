@@ -8,9 +8,9 @@
 #ifndef _LINUX_BACKING_FILE_H
 #define _LINUX_BACKING_FILE_H
 
-#include <linux/file.h>
-#include <linux/uio.h>
-#include <linux/fs.h>
+#include <peenux/file.h>
+#include <peenux/uio.h>
+#include <peenux/fs.h>
 
 struct backing_file_ctx {
 	const struct cred *cred;

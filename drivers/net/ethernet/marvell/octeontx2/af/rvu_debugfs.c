@@ -7,10 +7,10 @@
 
 #ifdef CONFIG_DEBUG_FS
 
-#include <linux/fs.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/fs.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "rvu_struct.h"
 #include "rvu_reg.h"

@@ -8,9 +8,9 @@
 #include <subcmd/run-command.h>
 #include <thread.h>
 #include "intel-tpebs.h"
-#include <linux/list.h>
-#include <linux/zalloc.h>
-#include <linux/err.h>
+#include <peenux/list.h>
+#include <peenux/zalloc.h>
+#include <peenux/err.h>
 #include "sample.h"
 #include "counts.h"
 #include "debug.h"

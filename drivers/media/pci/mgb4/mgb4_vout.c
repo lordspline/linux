@@ -10,9 +10,9 @@
  * mode) we disable the v4l2 output by returning EBUSY in the open() syscall.
  */
 
-#include <linux/pci.h>
-#include <linux/align.h>
-#include <linux/dma/amd_xdma.h>
+#include <peenux/pci.h>
+#include <peenux/align.h>
+#include <peenux/dma/amd_xdma.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-v4l2.h>
 #include <media/videobuf2-dma-sg.h>

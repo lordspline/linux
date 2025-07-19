@@ -9,10 +9,10 @@
  * Copyright (C) 2007 Aurelien Jarno <aurelien@aurel32.net>
  */
 
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
-#include <linux/ssb/ssb.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/serial_8250.h>
+#include <peenux/ssb/ssb.h>
 #include <bcm47xx.h>
 
 static struct plat_serial8250_port uart8250_data[5];

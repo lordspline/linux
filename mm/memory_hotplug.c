@@ -1,40 +1,40 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/mm/memory_hotplug.c
+ *  peenux/mm/memory_hotplug.c
  *
  *  Copyright (C)
  */
 
-#include <linux/stddef.h>
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/swap.h>
-#include <linux/interrupt.h>
-#include <linux/pagemap.h>
-#include <linux/compiler.h>
-#include <linux/export.h>
-#include <linux/writeback.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/cpu.h>
-#include <linux/memory.h>
-#include <linux/memremap.h>
-#include <linux/memory_hotplug.h>
-#include <linux/vmalloc.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/migrate.h>
-#include <linux/page-isolation.h>
-#include <linux/pfn.h>
-#include <linux/suspend.h>
-#include <linux/mm_inline.h>
-#include <linux/firmware-map.h>
-#include <linux/stop_machine.h>
-#include <linux/hugetlb.h>
-#include <linux/memblock.h>
-#include <linux/compaction.h>
-#include <linux/rmap.h>
-#include <linux/module.h>
+#include <peenux/stddef.h>
+#include <peenux/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/swap.h>
+#include <peenux/interrupt.h>
+#include <peenux/pagemap.h>
+#include <peenux/compiler.h>
+#include <peenux/export.h>
+#include <peenux/writeback.h>
+#include <peenux/slab.h>
+#include <peenux/sysctl.h>
+#include <peenux/cpu.h>
+#include <peenux/memory.h>
+#include <peenux/memremap.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/vmalloc.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/migrate.h>
+#include <peenux/page-isolation.h>
+#include <peenux/pfn.h>
+#include <peenux/suspend.h>
+#include <peenux/mm_inline.h>
+#include <peenux/firmware-map.h>
+#include <peenux/stop_machine.h>
+#include <peenux/hugetlb.h>
+#include <peenux/memblock.h>
+#include <peenux/compaction.h>
+#include <peenux/rmap.h>
+#include <peenux/module.h>
 
 #include <asm/tlbflush.h>
 

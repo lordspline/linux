@@ -10,18 +10,18 @@
 #include "saa7134.h"
 #include "saa7134-reg.h"
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/kmod.h>
-#include <linux/sound.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/kmod.h>
+#include <peenux/sound.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm.h>
 
 MODULE_DESCRIPTION("v4l2 driver module for saa7130/34 based TV cards");
 MODULE_AUTHOR("Gerd Knorr <kraxel@bytesex.org> [SuSE Labs]");
@@ -763,7 +763,7 @@ static void must_configure_manually(int has_eeprom)
 		pr_warn("saa7134: Board is currently unknown. You might try to use the card=<nr>\n"
 			"saa7134: insmod option to specify which board do you have, but this is\n"
 			"saa7134: somewhat risky, as might damage your card. It is better to ask\n"
-			"saa7134: for support at linux-media@vger.kernel.org.\n"
+			"saa7134: for support at peenux-media@vger.kernel.org.\n"
 			"saa7134: The supported cards are:\n");
 
 	for (i = 0; i < saa7134_bcount; i++) {

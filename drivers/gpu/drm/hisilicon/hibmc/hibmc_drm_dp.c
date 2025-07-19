@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/io.h>
+#include <peenux/io.h>
 
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_simple_kms_helper.h>

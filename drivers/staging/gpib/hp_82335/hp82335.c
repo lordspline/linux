@@ -14,13 +14,13 @@
 #define DRV_NAME KBUILD_MODNAME
 
 #include "hp82335.h"
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("GPIB driver for HP 82335 interface cards");

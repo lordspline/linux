@@ -10,18 +10,18 @@
  * (C) 2003 - 2010	Dominik Brodowski
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/crc32.h>
-#include <linux/firmware.h>
-#include <linux/kref.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/crc32.h>
+#include <peenux/firmware.h>
+#include <peenux/kref.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

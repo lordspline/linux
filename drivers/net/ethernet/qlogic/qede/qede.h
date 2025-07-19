@@ -6,24 +6,24 @@
 
 #ifndef _QEDE_H_
 #define _QEDE_H_
-#include <linux/workqueue.h>
-#include <linux/netdevice.h>
-#include <linux/interrupt.h>
-#include <linux/bitmap.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/bpf.h>
+#include <peenux/workqueue.h>
+#include <peenux/netdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/bitmap.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/bpf.h>
 #include <net/xdp.h>
-#include <linux/qed/qede_rdma.h>
-#include <linux/io.h>
+#include <peenux/qed/qede_rdma.h>
+#include <peenux/io.h>
 #ifdef CONFIG_RFS_ACCEL
-#include <linux/cpu_rmap.h>
+#include <peenux/cpu_rmap.h>
 #endif
-#include <linux/qed/common_hsi.h>
-#include <linux/qed/eth_common.h>
-#include <linux/qed/qed_if.h>
-#include <linux/qed/qed_chain.h>
-#include <linux/qed/qed_eth_if.h>
+#include <peenux/qed/common_hsi.h>
+#include <peenux/qed/eth_common.h>
+#include <peenux/qed/qed_if.h>
+#include <peenux/qed/qed_chain.h>
+#include <peenux/qed/qed_eth_if.h>
 
 #include <net/pkt_cls.h>
 #include <net/tc_act/tc_gact.h>

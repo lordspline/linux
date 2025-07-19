@@ -6,12 +6,12 @@
 #ifndef VDO_H
 #define VDO_H
 
-#include <linux/atomic.h>
-#include <linux/blk_types.h>
-#include <linux/completion.h>
-#include <linux/dm-kcopyd.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/blk_types.h>
+#include <peenux/completion.h>
+#include <peenux/dm-kcopyd.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
 
 #include "admin-state.h"
 #include "encodings.h"

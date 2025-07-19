@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/amiga/config.c
+ *  peenux/arch/m68k/amiga/config.c
  *
  *  Copyright (C) 1993 Hamish Macdonald
  *
@@ -12,21 +12,21 @@
  * Miscellaneous Amiga stuff
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/tty.h>
-#include <linux/clocksource.h>
-#include <linux/console.h>
-#include <linux/rtc.h>
-#include <linux/init.h>
-#include <linux/vt_kern.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/zorro.h>
-#include <linux/module.h>
-#include <linux/keyboard.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/seq_file.h>
+#include <peenux/tty.h>
+#include <peenux/clocksource.h>
+#include <peenux/console.h>
+#include <peenux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/vt_kern.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/zorro.h>
+#include <peenux/module.h>
+#include <peenux/keyboard.h>
 
 #include <asm/bootinfo.h>
 #include <asm/bootinfo-amiga.h>

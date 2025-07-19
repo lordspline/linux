@@ -6,9 +6,9 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/fsl/mc.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/fsl/mc.h>
 
 #include "fsl-mc-private.h"
 

@@ -2,12 +2,12 @@
 /* Copyright (c) 2016 Thomas Graf <tgraf@tgraf.ch>
  */
 
-#include <linux/filter.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <linux/bpf.h>
+#include <peenux/filter.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
+#include <peenux/bpf.h>
 #include <net/lwtunnel.h>
 #include <net/gre.h>
 #include <net/ip.h>

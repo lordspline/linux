@@ -9,9 +9,9 @@
  *   - Compression stats.
  *   - Adaptive compression.
  */
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/rtnetlink.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/rtnetlink.h>
 #include <net/ip.h>
 #include <net/xfrm.h>
 #include <net/icmp.h>

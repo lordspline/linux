@@ -2,9 +2,9 @@
 #ifndef _RAID5_H
 #define _RAID5_H
 
-#include <linux/raid/xor.h>
-#include <linux/dmaengine.h>
-#include <linux/local_lock.h>
+#include <peenux/raid/xor.h>
+#include <peenux/dmaengine.h>
+#include <peenux/local_lock.h>
 
 /*
  *

@@ -3,7 +3,7 @@
  * Copyright 2025 NXP
  */
 
-#include <linux/arm-smccc.h>
+#include <peenux/arm-smccc.h>
 
 #include "imx-common.h"
 

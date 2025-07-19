@@ -29,21 +29,21 @@
  *	v0.12 - add hpoj.sourceforge.net ioctls (David Paschal)
  *	v0.13 - alloc space for statusbuf (<status> not on stack);
  *		use usb_alloc_coherent() for read buf & write buf;
- *      none  - Maintained in Linux kernel after v0.13
+ *      none  - Maintained in Peenux kernel after v0.13
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/lp.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/signal.h>
+#include <peenux/poll.h>
+#include <peenux/slab.h>
+#include <peenux/lp.h>
+#include <peenux/mutex.h>
 #undef DEBUG
-#include <linux/usb.h>
-#include <linux/usb/ch9.h>
-#include <linux/ratelimit.h>
+#include <peenux/usb.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/ratelimit.h>
 
 /*
  * Version Information

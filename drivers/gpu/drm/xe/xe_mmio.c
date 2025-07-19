@@ -5,10 +5,10 @@
 
 #include "xe_mmio.h"
 
-#include <linux/delay.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/minmax.h>
-#include <linux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/minmax.h>
+#include <peenux/pci.h>
 
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>

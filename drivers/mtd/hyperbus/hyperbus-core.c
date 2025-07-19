@@ -3,14 +3,14 @@
 // Copyright (C) 2019 Texas Instruments Incorporated - https://www.ti.com/
 // Author: Vignesh Raghavendra <vigneshr@ti.com>
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mtd/hyperbus.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/mtd.h>
-#include <linux/of.h>
-#include <linux/types.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mtd/hyperbus.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/of.h>
+#include <peenux/types.h>
 
 static struct hyperbus_device *map_to_hbdev(struct map_info *map)
 {

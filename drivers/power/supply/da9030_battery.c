@@ -6,21 +6,21 @@
  * 	Mike Rapoport <mike@compulab.co.il>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/workqueue.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/string_choices.h>
-#include <linux/mfd/da903x.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/string_choices.h>
+#include <peenux/mfd/da903x.h>
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/notifier.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/notifier.h>
 
 #define DA9030_FAULT_LOG		0x0a
 #define DA9030_FAULT_LOG_OVER_TEMP	(1 << 7)

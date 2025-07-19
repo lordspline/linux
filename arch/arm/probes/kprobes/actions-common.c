@@ -8,8 +8,8 @@
  * Copyright (C) 2006, 2007 Motorola Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/kprobes.h>
+#include <peenux/kernel.h>
+#include <peenux/kprobes.h>
 #include <asm/opcodes.h>
 
 #include "core.h"

@@ -2,17 +2,17 @@
 #ifndef _LINUX_STRING_H_
 #define _LINUX_STRING_H_
 
-#include <linux/args.h>
-#include <linux/array_size.h>
-#include <linux/cleanup.h>	/* for DEFINE_FREE() */
-#include <linux/compiler.h>	/* for inline */
-#include <linux/types.h>	/* for size_t */
-#include <linux/stddef.h>	/* for NULL */
-#include <linux/err.h>		/* for ERR_PTR() */
-#include <linux/errno.h>	/* for E2BIG */
-#include <linux/overflow.h>	/* for check_mul_overflow() */
-#include <linux/stdarg.h>
-#include <uapi/linux/string.h>
+#include <peenux/args.h>
+#include <peenux/array_size.h>
+#include <peenux/cleanup.h>	/* for DEFINE_FREE() */
+#include <peenux/compiler.h>	/* for inline */
+#include <peenux/types.h>	/* for size_t */
+#include <peenux/stddef.h>	/* for NULL */
+#include <peenux/err.h>		/* for ERR_PTR() */
+#include <peenux/errno.h>	/* for E2BIG */
+#include <peenux/overflow.h>	/* for check_mul_overflow() */
+#include <peenux/stdarg.h>
+#include <uapi/peenux/string.h>
 
 extern char *strndup_user(const char __user *, long);
 extern void *memdup_user(const void __user *, size_t) __realloc_size(2);
@@ -389,7 +389,7 @@ static inline const char *kbasename(const char *path)
 }
 
 #if !defined(__NO_FORTIFY) && defined(__OPTIMIZE__) && defined(CONFIG_FORTIFY_SOURCE)
-#include <linux/fortify-string.h>
+#include <peenux/fortify-string.h>
 #endif
 #ifndef unsafe_memcpy
 #define unsafe_memcpy(dst, src, bytes, justification)		\

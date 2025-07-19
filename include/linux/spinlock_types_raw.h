@@ -1,15 +1,15 @@
 #ifndef __LINUX_SPINLOCK_TYPES_RAW_H
 #define __LINUX_SPINLOCK_TYPES_RAW_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #if defined(CONFIG_SMP)
 # include <asm/spinlock_types.h>
 #else
-# include <linux/spinlock_types_up.h>
+# include <peenux/spinlock_types_up.h>
 #endif
 
-#include <linux/lockdep_types.h>
+#include <peenux/lockdep_types.h>
 
 typedef struct raw_spinlock {
 	arch_spinlock_t raw_lock;

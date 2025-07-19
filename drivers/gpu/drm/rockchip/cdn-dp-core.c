@@ -4,14 +4,14 @@
  * Author: Chris Zhong <zyw@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/extcon.h>
-#include <linux/firmware.h>
-#include <linux/mfd/syscon.h>
-#include <linux/phy/phy.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/extcon.h>
+#include <peenux/firmware.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/phy/phy.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #include <sound/hdmi-codec.h>
 

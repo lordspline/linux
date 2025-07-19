@@ -14,8 +14,8 @@
 #include <sys/ioctl.h>
 #include <sys/syscall.h>
 #include <sys/mman.h>
-#include <linux/memfd.h>
-#include <linux/udmabuf.h>
+#include <peenux/memfd.h>
+#include <peenux/udmabuf.h>
 #include "../../kselftest.h"
 
 #define TEST_PREFIX	"drivers/dma-buf/udmabuf"

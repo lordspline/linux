@@ -3,9 +3,9 @@
  * Copyright © 2022 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/fault-inject.h>
-#include <linux/firmware.h>
+#include <peenux/bitfield.h>
+#include <peenux/fault-inject.h>
+#include <peenux/firmware.h>
 
 #include <drm/drm_managed.h>
 
@@ -381,7 +381,7 @@ int xe_uc_fw_check_version_requirements(struct xe_uc_fw *uc_fw)
 			   wanted->major, wanted->minor, wanted->patch,
 			   found->major, found->minor, found->patch,
 			   uc_fw->path);
-		drm_info(&xe->drm, "Consider updating your linux-firmware pkg or downloading from %s\n",
+		drm_info(&xe->drm, "Consider updating your peenux-firmware pkg or downloading from %s\n",
 			 XE_UC_FIRMWARE_URL);
 	}
 

@@ -35,9 +35,9 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
 
 static int use_pager = -1;
 static FILE *debug_fp = NULL;

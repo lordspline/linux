@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Userspace interfaces for /dev/mshv* devices and derived fds
  *
@@ -12,7 +12,7 @@
 #ifndef _UAPI_LINUX_MSHV_H
 #define _UAPI_LINUX_MSHV_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define MSHV_IOCTL	0xB8
 

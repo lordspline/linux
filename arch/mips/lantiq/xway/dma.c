@@ -4,16 +4,16 @@
  *   Copyright (C) 2011 John Crispin <john@phrozen.org>
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/of.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/export.h>
+#include <peenux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
 
 #include <lantiq_soc.h>
 #include <xway_dma.h>

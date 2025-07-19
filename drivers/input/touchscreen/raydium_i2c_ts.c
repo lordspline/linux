@@ -11,20 +11,20 @@
  * Contact Raydium Semiconductor Corporation at www.rad-ic.com
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 /* Slave I2C mode */
 #define RM_BOOT_BLDR		0x02

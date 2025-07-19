@@ -57,21 +57,21 @@
 static const char version[] =
 	"smc9194.c:v0.14 12/15/00 by Erik Stahlman (erik@vt.edu)";
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/crc32.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/in.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/crc32.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/bitops.h>
 
 #include <asm/io.h>
 
@@ -1371,7 +1371,7 @@ static irqreturn_t smc_interrupt(int irq, void * dev_id)
 			/* multiple collisions */
 			dev->stats.collisions += card_stats & 0xF;
 
-			/* these are for when linux supports these statistics */
+			/* these are for when peenux supports these statistics */
 
 			SMC_SELECT_BANK( 2 );
 			PRINTK2((KERN_WARNING CARDNAME

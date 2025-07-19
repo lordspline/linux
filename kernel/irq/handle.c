@@ -8,11 +8,11 @@
  *
  */
 
-#include <linux/irq.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
+#include <peenux/irq.h>
+#include <peenux/random.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel_stat.h>
 
 #include <asm/irq_regs.h>
 

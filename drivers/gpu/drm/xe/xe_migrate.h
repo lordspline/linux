@@ -6,7 +6,7 @@
 #ifndef _XE_MIGRATE_
 #define _XE_MIGRATE_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct dma_fence;
 struct iosys_map;

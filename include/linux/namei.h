@@ -2,11 +2,11 @@
 #ifndef _LINUX_NAMEI_H
 #define _LINUX_NAMEI_H
 
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/path.h>
-#include <linux/fcntl.h>
-#include <linux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/path.h>
+#include <peenux/fcntl.h>
+#include <peenux/errno.h>
 
 enum { MAX_NESTED_LINKS = 8 };
 

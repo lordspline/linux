@@ -12,9 +12,9 @@
 #ifndef __RESET_SIMPLE_H__
 #define __RESET_SIMPLE_H__
 
-#include <linux/io.h>
-#include <linux/reset-controller.h>
-#include <linux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/reset-controller.h>
+#include <peenux/spinlock.h>
 
 /**
  * struct reset_simple_data - driver data for simple reset controllers

@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  */
 
-#include <linux/stddef.h>
-#include <linux/module.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/slab.h>
-#include <linux/init.h>
+#include <peenux/stddef.h>
+#include <peenux/module.h>
+#include <peenux/memblock.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
 #include <asm/sections.h>
 #include <asm/page.h>
 #include <asm/pgalloc.h>
@@ -20,7 +20,7 @@
 #include <mem_user.h>
 #include <os.h>
 #include <um_malloc.h>
-#include <linux/sched/task.h>
+#include <peenux/sched/task.h>
 
 #ifdef CONFIG_KASAN
 int kasan_um_is_ready;

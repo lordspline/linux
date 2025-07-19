@@ -34,13 +34,13 @@
  *       udev coldplug problem
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/fcntl.h>
-#include <linux/compiler.h>
-#include <linux/comedi/comedi_usb.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/fcntl.h>
+#include <peenux/compiler.h>
+#include <peenux/comedi/comedi_usb.h>
 
 /*
  * timeout for the USB-transfer

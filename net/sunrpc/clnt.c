@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/net/sunrpc/clnt.c
+ *  peenux/net/sunrpc/clnt.c
  *
  *  This file contains the high-level RPC interface.
  *  It is modeled as a finite state machine to support both synchronous
@@ -19,25 +19,25 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kallsyms.h>
-#include <linux/mm.h>
-#include <linux/namei.h>
-#include <linux/mount.h>
-#include <linux/slab.h>
-#include <linux/rcupdate.h>
-#include <linux/utsname.h>
-#include <linux/workqueue.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/un.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kallsyms.h>
+#include <peenux/mm.h>
+#include <peenux/namei.h>
+#include <peenux/mount.h>
+#include <peenux/slab.h>
+#include <peenux/rcupdate.h>
+#include <peenux/utsname.h>
+#include <peenux/workqueue.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/un.h>
 
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/rpc_pipe_fs.h>
-#include <linux/sunrpc/metrics.h>
-#include <linux/sunrpc/bc_xprt.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/sunrpc/rpc_pipe_fs.h>
+#include <peenux/sunrpc/metrics.h>
+#include <peenux/sunrpc/bc_xprt.h>
 #include <trace/events/sunrpc.h>
 
 #include "sunrpc.h"

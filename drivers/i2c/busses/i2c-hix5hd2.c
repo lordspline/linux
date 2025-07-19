@@ -6,15 +6,15 @@
  * Now only support 7 bit address.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 /* Register Map */
 #define HIX5I2C_CTRL		0x00

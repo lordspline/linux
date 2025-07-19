@@ -14,9 +14,9 @@
 #ifndef _RISCV_IOMMU_BITS_H_
 #define _RISCV_IOMMU_BITS_H_
 
-#include <linux/types.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
+#include <peenux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
 
 /*
  * Chapter 5: Memory Mapped register interface

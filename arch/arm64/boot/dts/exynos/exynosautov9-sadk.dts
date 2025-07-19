@@ -40,20 +40,20 @@
 
 		key-wakeup {
 			label = "Wakeup";
-			linux,code = <KEY_WAKEUP>;
+			peenux,code = <KEY_WAKEUP>;
 			gpios = <&gpa0 0 GPIO_ACTIVE_LOW>;
 			wakeup-source;
 		};
 
 		key-volume-down {
 			label = "Volume Down";
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 			gpios = <&gpg2 0 GPIO_ACTIVE_LOW>;
 		};
 
 		key-volume-up {
 			label = "Volume Up";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			gpios = <&gpg1 5 GPIO_ACTIVE_LOW>;
 		};
 	};

@@ -2,21 +2,21 @@
 /*
  * drivers/mmc/host/sdhci-msm.c - Qualcomm SDHCI Platform driver
  *
- * Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013-2014, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mmc/mmc.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_opp.h>
-#include <linux/slab.h>
-#include <linux/iopoll.h>
-#include <linux/regulator/consumer.h>
-#include <linux/interconnect.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/reset.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_opp.h>
+#include <peenux/slab.h>
+#include <peenux/iopoll.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/interconnect.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/reset.h>
 
 #include <soc/qcom/ice.h>
 

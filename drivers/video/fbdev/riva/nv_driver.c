@@ -34,9 +34,9 @@
 /* $XFree86: xc/programs/Xserver/hw/xfree86/drivers/nv/nv_setup.c,v 1.18 2002/08/0
 5 20:47:06 mvojkovi Exp $ */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
 #include "nv_type.h"
 #include "rivafb.h"
 #include "nvreg.h"

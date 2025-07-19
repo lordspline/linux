@@ -6,8 +6,8 @@
 #ifndef __CAAM_BLOB_GEN
 #define __CAAM_BLOB_GEN
 
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
 
 #define CAAM_BLOB_KEYMOD_LENGTH		16
 #define CAAM_BLOB_OVERHEAD		(32 + 16)

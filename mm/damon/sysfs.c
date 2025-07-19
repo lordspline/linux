@@ -5,9 +5,9 @@
  * Copyright (c) 2022 SeongJae Park <sj@kernel.org>
  */
 
-#include <linux/pid.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/pid.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
 #include "sysfs-common.h"
 

@@ -5,18 +5,18 @@
  *    Bjorn Andersson
  *    Dmitry Baryshkov
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/irqreturn.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/slab.h>
-#include <linux/platform_data/lenovo-yoga-c630.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/irqreturn.h>
+#include <peenux/lockdep.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/slab.h>
+#include <peenux/platform_data/lenovo-yoga-c630.h>
 
 #define LENOVO_EC_RESPONSE_REG		0x01
 #define LENOVO_EC_REQUEST_REG		0x02

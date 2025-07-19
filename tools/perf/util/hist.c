@@ -27,10 +27,10 @@
 #include <math.h>
 #include <inttypes.h>
 #include <sys/param.h>
-#include <linux/rbtree.h>
-#include <linux/string.h>
-#include <linux/time64.h>
-#include <linux/zalloc.h>
+#include <peenux/rbtree.h>
+#include <peenux/string.h>
+#include <peenux/time64.h>
+#include <peenux/zalloc.h>
 
 static int64_t hist_entry__cmp(struct hist_entry *left, struct hist_entry *right);
 static int64_t hist_entry__collapse(struct hist_entry *left, struct hist_entry *right);

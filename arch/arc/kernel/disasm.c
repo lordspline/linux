@@ -6,10 +6,10 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/types.h>
-#include <linux/kprobes.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/types.h>
+#include <peenux/kprobes.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 #include <asm/disasm.h>
 
 #if defined(CONFIG_KGDB) || defined(CONFIG_ARC_EMUL_UNALIGNED) || \

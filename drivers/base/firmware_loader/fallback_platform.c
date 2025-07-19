@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/efi_embedded_fw.h>
-#include <linux/property.h>
-#include <linux/security.h>
-#include <linux/vmalloc.h>
+#include <peenux/efi_embedded_fw.h>
+#include <peenux/property.h>
+#include <peenux/security.h>
+#include <peenux/vmalloc.h>
 
 #include "fallback.h"
 #include "firmware.h"

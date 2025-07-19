@@ -2,14 +2,14 @@
 /*
  * Copyright 2011-2012 Calxeda, Inc.
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/edac.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/edac.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
 
 #include "edac_module.h"
 

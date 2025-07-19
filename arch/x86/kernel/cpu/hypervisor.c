@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
 #include <asm/processor.h>
 #include <asm/hypervisor.h>
 

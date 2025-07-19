@@ -6,13 +6,13 @@
  *
  * Author: Claudiu Beznea <claudiu.beznea@microchip.com>
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/syscore_ops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/syscore_ops.h>
 
 #include <dt-bindings/interrupt-controller/arm-gic.h>
 

@@ -7,22 +7,22 @@
  */
 
 #define pr_fmt(fmt) "clint: " fmt
-#include <linux/bitops.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/sched_clock.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of_irq.h>
-#include <linux/smp.h>
-#include <linux/timex.h>
+#include <peenux/bitops.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/sched_clock.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of_irq.h>
+#include <peenux/smp.h>
+#include <peenux/timex.h>
 
 #ifndef CONFIG_RISCV_M_MODE
 #include <asm/clint.h>

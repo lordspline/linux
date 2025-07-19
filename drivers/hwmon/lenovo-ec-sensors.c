@@ -16,20 +16,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #define MCHP_SING_IDX			0x0000
 #define MCHP_EMI0_APPLICATION_ID	0x090C

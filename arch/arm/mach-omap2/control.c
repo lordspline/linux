@@ -9,12 +9,12 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/cpu_pm.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/cpu_pm.h>
 
 #include "soc.h"
 #include "iomap.h"

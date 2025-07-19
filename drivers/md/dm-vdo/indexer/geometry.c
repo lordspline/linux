@@ -5,8 +5,8 @@
 
 #include "geometry.h"
 
-#include <linux/compiler.h>
-#include <linux/log2.h>
+#include <peenux/compiler.h>
+#include <peenux/log2.h>
 
 #include "errors.h"
 #include "logger.h"

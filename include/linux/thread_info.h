@@ -8,11 +8,11 @@
 #ifndef _LINUX_THREAD_INFO_H
 #define _LINUX_THREAD_INFO_H
 
-#include <linux/types.h>
-#include <linux/limits.h>
-#include <linux/bug.h>
-#include <linux/restart_block.h>
-#include <linux/errno.h>
+#include <peenux/types.h>
+#include <peenux/limits.h>
+#include <peenux/bug.h>
+#include <peenux/restart_block.h>
+#include <peenux/errno.h>
 
 #ifdef CONFIG_THREAD_INFO_IN_TASK
 /*
@@ -24,7 +24,7 @@
 #define current_thread_info() ((struct thread_info *)current)
 #endif
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 /*
  * For per-arch arch_within_stack_frames() implementations, defined in

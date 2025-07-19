@@ -5,21 +5,21 @@
  * Author: Iyappan Subramanian <isubramanian@apm.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/efi.h>
-#include <linux/if_vlan.h>
-#include <linux/io.h>
-#include <linux/mdio/mdio-xgene.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/prefetch.h>
-#include <linux/property.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/efi.h>
+#include <peenux/if_vlan.h>
+#include <peenux/io.h>
+#include <peenux/mdio/mdio-xgene.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/prefetch.h>
+#include <peenux/property.h>
 #include <net/ip.h>
 
 u32 xgene_mdio_rd_mac(struct xgene_mdio_pdata *pdata, u32 rd_addr)

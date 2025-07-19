@@ -8,18 +8,18 @@
  * See Documentation/i2c/instantiating-devices.rst for more information.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-vid.h>
-#include <linux/err.h>
-#include <linux/kstrtox.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/jiffies.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-vid.h>
+#include <peenux/err.h>
+#include <peenux/kstrtox.h>
+#include <peenux/mutex.h>
+#include <peenux/sysfs.h>
+#include <peenux/slab.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("System voltages control via Attansic ATXP1");

@@ -7,19 +7,19 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/acpi.h>
-#include <linux/memblock.h>
-#include <linux/memory.h>
-#include <linux/numa.h>
-#include <linux/nodemask.h>
-#include <linux/topology.h>
-#include <linux/numa_memblks.h>
-#include <linux/string_choices.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/acpi.h>
+#include <peenux/memblock.h>
+#include <peenux/memory.h>
+#include <peenux/numa.h>
+#include <peenux/nodemask.h>
+#include <peenux/topology.h>
+#include <peenux/numa_memblks.h>
+#include <peenux/string_choices.h>
 
 static nodemask_t nodes_found_map = NODE_MASK_NONE;
 

@@ -6,12 +6,12 @@
 #ifndef VDO_TYPES_H
 #define VDO_TYPES_H
 
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/device-mapper.h>
-#include <linux/list.h>
-#include <linux/compiler_attributes.h>
-#include <linux/types.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/device-mapper.h>
+#include <peenux/list.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/types.h>
 
 #include "funnel-queue.h"
 

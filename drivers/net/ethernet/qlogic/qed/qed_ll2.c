@@ -4,26 +4,26 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
-#include <linux/dma-mapping.h>
-#include <linux/if_vlan.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/workqueue.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/if_vlan.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/workqueue.h>
 #include <net/ipv6.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/qed/qed_ll2_if.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/etherdevice.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/qed/qed_ll2_if.h>
 #include "qed.h"
 #include "qed_cxt.h"
 #include "qed_dev_api.h"

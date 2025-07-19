@@ -6,10 +6,10 @@
  *
  * Author: Petri Gynther <pgynther@google.com>
  */
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
 
 #include "hid-ids.h"
 

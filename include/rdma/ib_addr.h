@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB */
 /*
  * Copyright (c) 2005 Voltaire Inc.  All rights reserved.
  * Copyright (c) 2005 Intel Corporation.  All rights reserved.
@@ -7,14 +7,14 @@
 #ifndef IB_ADDR_H
 #define IB_ADDR_H
 
-#include <linux/ethtool.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/if_arp.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
-#include <linux/socket.h>
-#include <linux/if_vlan.h>
+#include <peenux/ethtool.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/if_arp.h>
+#include <peenux/netdevice.h>
+#include <peenux/inetdevice.h>
+#include <peenux/socket.h>
+#include <peenux/if_vlan.h>
 #include <net/ipv6.h>
 #include <net/if_inet6.h>
 #include <net/ip.h>

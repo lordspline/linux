@@ -4,13 +4,13 @@
 //
 // Copyright 2013 Linaro Ltd.  All rights reserved.
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include <sound/ac97_codec.h>
 

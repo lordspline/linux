@@ -4,13 +4,13 @@
  * Author: Shannon Zhao <shannon.zhao@linaro.org>
  */
 
-#include <linux/cpu.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/list.h>
-#include <linux/perf_event.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/uaccess.h>
+#include <peenux/cpu.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/list.h>
+#include <peenux/perf_event.h>
+#include <peenux/perf/arm_pmu.h>
+#include <peenux/uaccess.h>
 #include <asm/kvm_emulate.h>
 #include <kvm/arm_pmu.h>
 #include <kvm/arm_vgic.h>

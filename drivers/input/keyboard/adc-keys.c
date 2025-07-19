@@ -5,16 +5,16 @@
  * Copyright (c) 2016 Alexandre Belloni
  */
 
-#include <linux/err.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/types.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/iio/types.h>
+#include <peenux/input.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 struct adc_keys_button {
 	u32 voltage;
@@ -87,9 +87,9 @@ static int adc_keys_load_keymap(struct device *dev, struct adc_keys_state *st)
 		}
 		map[i].voltage /= 1000;
 
-		if (fwnode_property_read_u32(child, "linux,code",
+		if (fwnode_property_read_u32(child, "peenux,code",
 					     &map[i].keycode)) {
-			dev_err(dev, "Key with invalid or missing linux,code\n");
+			dev_err(dev, "Key with invalid or missing peenux,code\n");
 			return -EINVAL;
 		}
 

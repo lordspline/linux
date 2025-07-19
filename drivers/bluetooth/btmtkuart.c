@@ -8,21 +8,21 @@
  *
  */
 
-#include <linux/unaligned.h>
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/serdev.h>
-#include <linux/skbuff.h>
-#include <linux/usb.h>
+#include <peenux/unaligned.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/serdev.h>
+#include <peenux/skbuff.h>
+#include <peenux/usb.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

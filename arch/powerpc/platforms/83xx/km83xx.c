@@ -7,25 +7,25 @@
  * Keymile 83xx platform specific routines.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/reboot.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/major.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/root_dev.h>
-#include <linux/initrd.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/reboot.h>
+#include <peenux/pci.h>
+#include <peenux/kdev_t.h>
+#include <peenux/major.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/seq_file.h>
+#include <peenux/root_dev.h>
+#include <peenux/initrd.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
-#include <linux/atomic.h>
-#include <linux/time.h>
-#include <linux/io.h>
+#include <peenux/atomic.h>
+#include <peenux/time.h>
+#include <peenux/io.h>
 #include <asm/machdep.h>
 #include <asm/ipic.h>
 #include <asm/irq.h>

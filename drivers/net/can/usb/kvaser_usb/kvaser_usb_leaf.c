@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Parts of this driver are based on the following:
- *  - Kvaser linux leaf driver (version 4.78)
+ *  - Kvaser peenux leaf driver (version 4.78)
  *  - CAN driver for esd CAN-USB/2
- *  - Kvaser linux usbcanII driver (version 5.3)
+ *  - Kvaser peenux usbcanII driver (version 5.3)
  *
  * Copyright (C) 2002-2018 KVASER AB, Sweden. All rights reserved.
  * Copyright (C) 2010 Matthias Fuchs <matthias.fuchs@esd.eu>, esd gmbh
@@ -10,23 +10,23 @@
  * Copyright (C) 2015 Valeo S.A.
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/gfp.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/units.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/gfp.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
+#include <peenux/usb.h>
+#include <peenux/workqueue.h>
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/can/netlink.h>
+#include <peenux/can.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
+#include <peenux/can/netlink.h>
 
 #include "kvaser_usb.h"
 

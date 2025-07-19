@@ -6,14 +6,14 @@
  * Inspired by code from the SL3516 board support by Jason Lee
  * Inspired by code from Janos Laube <janos.dev@gmail.com>
  */
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/reboot.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/reboot.h>
 
 #define GEMINI_PWC_ID		0x00010500
 #define	GEMINI_PWC_IDREG	0x00

@@ -2,7 +2,7 @@
 /*
  * ipmi_devintf.c
  *
- * Linux device interface for the IPMI message handler.
+ * Peenux device interface for the IPMI message handler.
  *
  * Author: MontaVista Software, Inc.
  *         Corey Minyard <minyard@mvista.com>
@@ -11,18 +11,18 @@
  * Copyright 2002 MontaVista Software Inc.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/errno.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/ipmi.h>
-#include <linux/mutex.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/compat.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/errno.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/ipmi.h>
+#include <peenux/mutex.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/compat.h>
 
 struct ipmi_file_private
 {
@@ -904,4 +904,4 @@ module_exit(cleanup_ipmi);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Corey Minyard <minyard@mvista.com>");
-MODULE_DESCRIPTION("Linux device interface for the IPMI message handler.");
+MODULE_DESCRIPTION("Peenux device interface for the IPMI message handler.");

@@ -4,22 +4,22 @@
  *
  * Qualcomm MSM Camera Subsystem - Core
  *
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2015-2018 Linaro Ltd.
  */
-#include <linux/clk.h>
-#include <linux/interconnect.h>
-#include <linux/media-bus-format.h>
-#include <linux/media.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_graph.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <peenux/clk.h>
+#include <peenux/interconnect.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/media.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_graph.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_domain.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
 
 #include <media/media-device.h>
 #include <media/v4l2-async.h>

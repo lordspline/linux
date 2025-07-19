@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2021, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/qcom,lpass-sc7280.h>
 

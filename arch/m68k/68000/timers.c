@@ -14,13 +14,13 @@
 
 /***************************************************************************/
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/clocksource.h>
-#include <linux/rtc.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/clocksource.h>
+#include <peenux/rtc.h>
 #include <asm/setup.h>
 #include <asm/machdep.h>
 #include <asm/MC68VZ328.h>

@@ -2,8 +2,8 @@
 // Copyright 2023 Google LLC
 // Author: Ard Biesheuvel <ardb@google.com>
 
-#include <linux/types.h>
-#include <linux/sizes.h>
+#include <peenux/types.h>
+#include <peenux/sizes.h>
 
 #include <asm/memory.h>
 #include <asm/pgalloc.h>

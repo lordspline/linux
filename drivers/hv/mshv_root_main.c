@@ -5,29 +5,29 @@
  * The main part of the mshv_root module, providing APIs to create
  * and manage guest partitions.
  *
- * Authors: Microsoft Linux virtualization team
+ * Authors: Microsoft Peenux virtualization team
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/anon_inodes.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/cpuhotplug.h>
-#include <linux/random.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/random.h>
 #include <asm/mshyperv.h>
-#include <linux/hyperv.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/kexec.h>
-#include <linux/page-flags.h>
-#include <linux/crash_dump.h>
-#include <linux/panic_notifier.h>
-#include <linux/vmalloc.h>
+#include <peenux/hyperv.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/kexec.h>
+#include <peenux/page-flags.h>
+#include <peenux/crash_dump.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/vmalloc.h>
 
 #include "mshv_eventfd.h"
 #include "mshv.h"

@@ -4,24 +4,24 @@
  */
 
 #include <kunit/test.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/random.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/sprintf.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/random.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
+#include <peenux/sprintf.h>
+#include <peenux/string.h>
 
-#include <linux/bitmap.h>
-#include <linux/dcache.h>
-#include <linux/socket.h>
-#include <linux/in.h>
+#include <peenux/bitmap.h>
+#include <peenux/dcache.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
 
-#include <linux/gfp.h>
-#include <linux/mm.h>
+#include <peenux/gfp.h>
+#include <peenux/mm.h>
 
-#include <linux/property.h>
+#include <peenux/property.h>
 
 #define BUF_SIZE 256
 #define PAD_SIZE 16
@@ -823,6 +823,6 @@ static struct kunit_suite printf_test_suite = {
 
 kunit_test_suite(printf_test_suite);
 
-MODULE_AUTHOR("Rasmus Villemoes <linux@rasmusvillemoes.dk>");
+MODULE_AUTHOR("Rasmus Villemoes <peenux@rasmusvillemoes.dk>");
 MODULE_DESCRIPTION("Test cases for printf facility");
 MODULE_LICENSE("GPL");

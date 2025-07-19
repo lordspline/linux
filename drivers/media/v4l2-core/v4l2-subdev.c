@@ -8,17 +8,17 @@
  *	    Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/export.h>
-#include <linux/ioctl.h>
-#include <linux/leds.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/version.h>
-#include <linux/videodev2.h>
+#include <peenux/export.h>
+#include <peenux/ioctl.h>
+#include <peenux/leds.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/version.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

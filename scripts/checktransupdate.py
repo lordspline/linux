@@ -234,7 +234,7 @@ def main():
     log_level = getattr(logging, args.log.upper(), logging.INFO)
     config_logging(log_level)
 
-    # Get files related to linux path
+    # Get files related to peenux path
     files = args.files
     if len(files) == 0:
         offical_files = list_files_with_excluding_folders(
@@ -260,7 +260,7 @@ def main():
 
     files = list(map(lambda x: os.path.relpath(os.path.abspath(x), linux_path), files))
 
-    # cd to linux root directory
+    # cd to peenux root directory
     os.chdir(linux_path)
 
     for file in files:

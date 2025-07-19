@@ -13,7 +13,7 @@
  * additional 8xxx chips like the 8192cu, 8188cus, etc.
  */
 
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 #include "regs.h"
 #include "rtl8xxxu.h"
 

@@ -5,15 +5,15 @@
  * Copyright 2011 IBM Corporation
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/hw_random.h>
-#include <linux/delay.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/hw_random.h>
+#include <peenux/delay.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/io.h>
 
 #include "crypto4xx_core.h"
 #include "crypto4xx_trng.h"

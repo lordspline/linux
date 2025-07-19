@@ -3,19 +3,19 @@
 // Copyright 2012      Panasonic Corporation
 // Copyright 2016-2018 Socionext Inc.
 
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
+#include <peenux/kernel.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define SSI_TIMEOUT_MS		2000
 #define SSI_POLL_TIMEOUT_US	200

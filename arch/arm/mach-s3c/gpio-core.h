@@ -12,7 +12,7 @@
 
 /* Bring in machine-local definitions, especially S3C_GPIO_END */
 #include "gpio-samsung.h"
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/driver.h>
 
 #define GPIOCON_OFF	(0x00)
 #define GPIODAT_OFF	(0x04)

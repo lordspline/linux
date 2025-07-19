@@ -4,9 +4,9 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/bitops.h>
-#include <linux/math.h>
-#include <linux/string.h> /* for memcpy() */
+#include <peenux/bitops.h>
+#include <peenux/math.h>
+#include <peenux/string.h> /* for memcpy() */
 
 #include "system_global.h"
 

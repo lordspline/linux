@@ -11,12 +11,12 @@
  * 01/19/06:	changed jsm_input routine to use the dynamically allocated
  *		tty_buffer changes. Contributors: Scott Kilau and Ananda V.
  ***********************************************************************/
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_reg.h>
-#include <linux/delay.h>	/* For udelay */
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_reg.h>
+#include <peenux/delay.h>	/* For udelay */
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
 #include "jsm.h"
 
@@ -612,7 +612,7 @@ void jsm_input(struct jsm_channel *ch)
 				char flag = TTY_NORMAL;
 
 				/*
-				 * Give the Linux ld the flags in the format it
+				 * Give the Peenux ld the flags in the format it
 				 * likes.
 				 */
 				if (error & UART_LSR_BI)

@@ -4,18 +4,18 @@
  * Copyright (C) 2008, 2011 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/preempt.h>
-#include <linux/hw_random.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/preempt.h>
+#include <peenux/hw_random.h>
 
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #include <asm/hypervisor.h>
 

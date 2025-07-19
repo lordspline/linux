@@ -20,16 +20,16 @@
  *
  */
 
-#include <linux/acpi.h>
-#include <linux/cacheinfo.h>
-#include <linux/ctype.h>
-#include <linux/interrupt.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/cacheinfo.h>
+#include <peenux/ctype.h>
+#include <peenux/interrupt.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
 
 #include "arm_cspmu.h"
 

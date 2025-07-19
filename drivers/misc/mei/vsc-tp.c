@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2023, Intel Corporation.
- * Intel Visual Sensing Controller Transport Layer Linux driver
+ * Intel Visual Sensing Controller Transport Layer Peenux driver
  */
 
-#include <linux/acpi.h>
-#include <linux/cleanup.h>
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/irqreturn.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/cleanup.h>
+#include <peenux/crc32.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/irq.h>
+#include <peenux/irqreturn.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/types.h>
 
 #include "vsc-tp.h"
 

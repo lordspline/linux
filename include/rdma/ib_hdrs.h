@@ -6,8 +6,8 @@
 #ifndef IB_HDRS_H
 #define IB_HDRS_H
 
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 #include <rdma/ib_verbs.h>
 
 #define IB_SEQ_NAK	(3 << 29)

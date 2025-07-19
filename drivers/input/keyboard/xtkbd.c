@@ -4,13 +4,13 @@
  */
 
 /*
- * XT keyboard driver for Linux
+ * XT keyboard driver for Peenux
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/serio.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/serio.h>
 
 #define DRIVER_DESC	"XT keyboard driver"
 

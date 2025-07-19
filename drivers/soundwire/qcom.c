@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2019, Linaro Limited
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/slimbus.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_registers.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/slimbus.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_registers.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include "bus.h"

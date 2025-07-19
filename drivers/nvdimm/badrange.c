@@ -2,17 +2,17 @@
 /*
  * Copyright(c) 2017 Intel Corporation. All rights reserved.
  */
-#include <linux/libnvdimm.h>
-#include <linux/badblocks.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/device.h>
-#include <linux/ctype.h>
-#include <linux/ndctl.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/libnvdimm.h>
+#include <peenux/badblocks.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/device.h>
+#include <peenux/ctype.h>
+#include <peenux/ndctl.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 #include "nd-core.h"
 #include "nd.h"
 

@@ -3,23 +3,23 @@
  * Copyright IBM Corp. 2020
  *
  * Author(s):
- *   Pierre Morel <pmorel@linux.ibm.com>
+ *   Pierre Morel <pmorel@peenux.ibm.com>
  *
  */
 
 #define KMSG_COMPONENT "zpci"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/jump_label.h>
-#include <linux/pci.h>
-#include <linux/printk.h>
-#include <linux/dma-direct.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/delay.h>
+#include <peenux/seq_file.h>
+#include <peenux/jump_label.h>
+#include <peenux/pci.h>
+#include <peenux/printk.h>
+#include <peenux/dma-direct.h>
 
 #include <asm/pci_clp.h>
 #include <asm/pci_dma.h>

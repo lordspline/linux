@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/include/linux/mfd/aat2870.h
+ * peenux/include/peenux/mfd/aat2870.h
  *
  * Copyright (c) 2011, NVIDIA Corporation.
  * Author: Jin Park <jinyoungp@nvidia.com>
@@ -9,8 +9,8 @@
 #ifndef __LINUX_MFD_AAT2870_H
 #define __LINUX_MFD_AAT2870_H
 
-#include <linux/debugfs.h>
-#include <linux/i2c.h>
+#include <peenux/debugfs.h>
+#include <peenux/i2c.h>
 
 /* Register offsets */
 #define AAT2870_BL_CH_EN	0x00

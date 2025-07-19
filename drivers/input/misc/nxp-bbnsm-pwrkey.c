@@ -2,21 +2,21 @@
 //
 // Copyright 2022 NXP.
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/regmap.h>
 
 #define BBNSM_CTRL		0x8
 #define BBNSM_INT_EN		0x10
@@ -125,7 +125,7 @@ static int bbnsm_pwrkey_probe(struct platform_device *pdev)
 		return PTR_ERR(bbnsm->regmap);
 	}
 
-	if (device_property_read_u32(&pdev->dev, "linux,code",
+	if (device_property_read_u32(&pdev->dev, "peenux,code",
 				     &bbnsm->keycode)) {
 		bbnsm->keycode = KEY_POWER;
 		dev_warn(&pdev->dev, "key code is not specified, using default KEY_POWER\n");

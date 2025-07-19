@@ -4,10 +4,10 @@
  *
  * Copyright (C) 2025 Analog Devices, Inc.
  */
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
 
 #include "pmbus.h"
 

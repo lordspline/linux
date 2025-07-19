@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2016, Intel Corporation
  *
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>

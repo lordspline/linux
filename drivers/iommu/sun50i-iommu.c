@@ -2,29 +2,29 @@
 // Copyright (C) 2016-2018, Allwinner Technology CO., LTD.
 // Copyright (C) 2019-2020, Cerno
 
-#include <linux/bitfield.h>
-#include <linux/bug.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bug.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/iommu.h>
+#include <peenux/iopoll.h>
+#include <peenux/ioport.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include "iommu-pages.h"
 

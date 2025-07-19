@@ -3,25 +3,25 @@
  * Copyright (C) 2012 Regents of the University of California
  */
 
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irqflags.h>
-#include <linux/randomize_kstack.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
-#include <linux/kdebug.h>
-#include <linux/uaccess.h>
-#include <linux/kprobes.h>
-#include <linux/uprobes.h>
+#include <peenux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/irqflags.h>
+#include <peenux/randomize_kstack.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/signal.h>
+#include <peenux/signal.h>
+#include <peenux/kdebug.h>
+#include <peenux/uaccess.h>
+#include <peenux/kprobes.h>
+#include <peenux/uprobes.h>
 #include <asm/uprobes.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/kexec.h>
-#include <linux/entry-common.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/irq.h>
+#include <peenux/kexec.h>
+#include <peenux/entry-common.h>
 
 #include <asm/asm-prototypes.h>
 #include <asm/bug.h>

@@ -5,14 +5,14 @@
  * Copyright 2012 Benjamin Herrenschmidt, IBM Corp.
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/wait.h>
-#include <linux/i2c.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/wait.h>
+#include <peenux/i2c.h>
 
 #include <asm/machdep.h>
 #include <asm/io.h>

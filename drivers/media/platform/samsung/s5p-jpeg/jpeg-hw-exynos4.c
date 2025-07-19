@@ -6,8 +6,8 @@
  *
  * Register interface file for JPEG driver on Exynos4x12.
  */
-#include <linux/io.h>
-#include <linux/delay.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
 
 #include "jpeg-core.h"
 #include "jpeg-hw-exynos4.h"

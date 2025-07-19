@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Hitachi SCA HD64570 driver for Linux
+ * Hitachi SCA HD64570 driver for Peenux
  *
  * Copyright (C) 1998-2003 Krzysztof Halasa <khc@pm.waw.pl>
  *
@@ -21,22 +21,22 @@
  * tx_ring_buffers * HDLC_MAX_MRU     = logical channel #0 TX buffers (if used)
  */
 
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/fcntl.h>
-#include <linux/hdlc.h>
-#include <linux/in.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/fcntl.h>
+#include <peenux/hdlc.h>
+#include <peenux/in.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include "hd64570.h"
 
 #define get_msci(port)	  (phy_node(port) ?   MSCI1_OFFSET :   MSCI0_OFFSET)

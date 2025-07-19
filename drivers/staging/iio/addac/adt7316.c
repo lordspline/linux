@@ -5,22 +5,22 @@
  * Copyright 2010 Analog Devices Inc.
  */
 
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/irq.h>
-#include <linux/workqueue.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/list.h>
-#include <linux/i2c.h>
-#include <linux/rtc.h>
-#include <linux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/irq.h>
+#include <peenux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/list.h>
+#include <peenux/i2c.h>
+#include <peenux/rtc.h>
+#include <peenux/module.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/events.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/sysfs.h>
 #include "adt7316.h"
 
 /*

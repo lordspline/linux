@@ -56,12 +56,12 @@
  *
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/usb/gadget.h>
-#include <linux/module.h>
-#include <linux/dmapool.h>
-#include <linux/iopoll.h>
-#include <linux/property.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/module.h>
+#include <peenux/dmapool.h>
+#include <peenux/iopoll.h>
+#include <peenux/property.h>
 
 #include "core.h"
 #include "gadget-export.h"

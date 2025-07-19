@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2019-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2020, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022, Linaro Limited
  * Copyright (c) 2024, Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/qcom,gpucc-sm8350.h>
 

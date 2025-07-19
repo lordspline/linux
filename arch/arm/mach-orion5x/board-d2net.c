@@ -7,14 +7,14 @@
  * Copyright (C) 2009 Simon Guinot <sguinot@lacie.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/leds.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci.h>
+#include <peenux/irq.h>
+#include <peenux/leds.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/machine.h>
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/pci.h>

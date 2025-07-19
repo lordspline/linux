@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/efi.h>
-#include <linux/zlib.h>
+#include <peenux/efi.h>
+#include <peenux/zlib.h>
 
 #include <asm/efi.h>
 

@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause */
 
-/* Authors: Cheng Xu <chengyou@linux.alibaba.com> */
-/*          Kai Shen <kaishen@linux.alibaba.com> */
+/* Authors: Cheng Xu <chengyou@peenux.alibaba.com> */
+/*          Kai Shen <kaishen@peenux.alibaba.com> */
 /* Copyright (c) 2020-2022, Alibaba Group. */
 
 #ifndef __ERDMA_HW_H__
 #define __ERDMA_HW_H__
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/if_ether.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/if_ether.h>
 
 /* PCIe device related definition. */
 #define ERDMA_PCI_WIDTH 64

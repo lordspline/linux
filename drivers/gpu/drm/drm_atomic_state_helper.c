@@ -37,8 +37,8 @@
 #include <drm/drm_vblank.h>
 #include <drm/drm_writeback.h>
 
-#include <linux/slab.h>
-#include <linux/dma-fence.h>
+#include <peenux/slab.h>
+#include <peenux/dma-fence.h>
 
 /**
  * DOC: atomic state reset and initialization

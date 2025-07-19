@@ -7,19 +7,19 @@
  * This file is released under the GPL.
  */
 
-#include <linux/dm-bufio.h>
+#include <peenux/dm-bufio.h>
 
-#include <linux/device-mapper.h>
-#include <linux/dm-io.h>
-#include <linux/slab.h>
-#include <linux/sched/mm.h>
-#include <linux/jiffies.h>
-#include <linux/vmalloc.h>
-#include <linux/shrinker.h>
-#include <linux/module.h>
-#include <linux/rbtree.h>
-#include <linux/stacktrace.h>
-#include <linux/jump_label.h>
+#include <peenux/device-mapper.h>
+#include <peenux/dm-io.h>
+#include <peenux/slab.h>
+#include <peenux/sched/mm.h>
+#include <peenux/jiffies.h>
+#include <peenux/vmalloc.h>
+#include <peenux/shrinker.h>
+#include <peenux/module.h>
+#include <peenux/rbtree.h>
+#include <peenux/stacktrace.h>
+#include <peenux/jump_label.h>
 
 #include "dm.h"
 
@@ -2906,6 +2906,6 @@ MODULE_PARM_DESC(allocated_vmalloc_bytes, "Memory allocated with vmalloc");
 module_param_named(current_allocated_bytes, dm_bufio_current_allocated, ulong, 0444);
 MODULE_PARM_DESC(current_allocated_bytes, "Memory currently used by the cache");
 
-MODULE_AUTHOR("Mikulas Patocka <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Mikulas Patocka <dm-devel@lists.peenux.dev>");
 MODULE_DESCRIPTION(DM_NAME " buffered I/O library");
 MODULE_LICENSE("GPL");

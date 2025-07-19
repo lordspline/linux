@@ -5,16 +5,16 @@
  *	    Pascal Paillet <p.paillet@st.com> for STMicroelectronics.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/stm32-lptimer.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/stm32-lptimer.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
 
 #define CFGR_PSC_OFFSET		9
 #define STM32_LP_RATING		1000

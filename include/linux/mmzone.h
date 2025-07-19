@@ -5,24 +5,24 @@
 #ifndef __ASSEMBLY__
 #ifndef __GENERATING_BOUNDS_H
 
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/list_nulls.h>
-#include <linux/wait.h>
-#include <linux/bitops.h>
-#include <linux/cache.h>
-#include <linux/threads.h>
-#include <linux/numa.h>
-#include <linux/init.h>
-#include <linux/seqlock.h>
-#include <linux/nodemask.h>
-#include <linux/pageblock-flags.h>
-#include <linux/page-flags-layout.h>
-#include <linux/atomic.h>
-#include <linux/mm_types.h>
-#include <linux/page-flags.h>
-#include <linux/local_lock.h>
-#include <linux/zswap.h>
+#include <peenux/spinlock.h>
+#include <peenux/list.h>
+#include <peenux/list_nulls.h>
+#include <peenux/wait.h>
+#include <peenux/bitops.h>
+#include <peenux/cache.h>
+#include <peenux/threads.h>
+#include <peenux/numa.h>
+#include <peenux/init.h>
+#include <peenux/seqlock.h>
+#include <peenux/nodemask.h>
+#include <peenux/pageblock-flags.h>
+#include <peenux/page-flags-layout.h>
+#include <peenux/atomic.h>
+#include <peenux/mm_types.h>
+#include <peenux/page-flags.h>
+#include <peenux/local_lock.h>
+#include <peenux/zswap.h>
 #include <asm/page.h>
 
 /* Free memory management - zoned buddy allocator.  */
@@ -1506,7 +1506,7 @@ static inline unsigned long pgdat_end_pfn(pg_data_t *pgdat)
 	return pgdat->node_start_pfn + pgdat->node_spanned_pages;
 }
 
-#include <linux/memory_hotplug.h>
+#include <peenux/memory_hotplug.h>
 
 void build_all_zonelists(pg_data_t *pgdat);
 void wakeup_kswapd(struct zone *zone, gfp_t gfp_mask, int order,

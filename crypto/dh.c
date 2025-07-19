@@ -5,13 +5,13 @@
  * Authors: Salvatore Benedetto <salvatore.benedetto@intel.com>
  */
 
-#include <linux/fips.h>
-#include <linux/module.h>
+#include <peenux/fips.h>
+#include <peenux/module.h>
 #include <crypto/internal/kpp.h>
 #include <crypto/kpp.h>
 #include <crypto/dh.h>
 #include <crypto/rng.h>
-#include <linux/mpi.h>
+#include <peenux/mpi.h>
 
 struct dh_ctx {
 	MPI p;	/* Value is guaranteed to be set. */

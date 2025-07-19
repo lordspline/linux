@@ -3,12 +3,12 @@
  * Copyright (C) 2015 Masahiro Yamada <yamada.masahiro@socionext.com>
  */
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #define UNIPHIER_I2C_DTRM	0x00	/* TX register */
 #define     UNIPHIER_I2C_DTRM_IRQEN	BIT(11)	/* enable interrupt */

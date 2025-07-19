@@ -7,12 +7,12 @@
  * Author: Bintian Wang <bintian.wang@huawei.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/spinlock.h>
 
 #include "clk.h"
 

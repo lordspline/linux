@@ -5,11 +5,11 @@
  * Copyright (C) 2025 Renesas Electronics Corp.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 
 #include "rz-sysc.h"
 

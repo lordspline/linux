@@ -30,19 +30,19 @@
  * Code formatting improvements
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/usb.h>
-#include <linux/types.h>
-#include <linux/ethtool.h>
-#include <linux/dma-mapping.h>
-#include <linux/wait.h>
-#include <linux/firmware.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/usb.h>
+#include <peenux/types.h>
+#include <peenux/ethtool.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/wait.h>
+#include <peenux/firmware.h>
+#include <peenux/uaccess.h>
 #include <asm/byteorder.h>
 
 #undef DEBUG

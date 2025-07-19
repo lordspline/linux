@@ -8,11 +8,11 @@
 #ifndef __NAL_H264_H__
 #define __NAL_H264_H__
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/v4l2-controls.h>
-#include <linux/videodev2.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/v4l2-controls.h>
+#include <peenux/videodev2.h>
 
 /*
  * struct nal_h264_hrd_parameters - HRD parameters

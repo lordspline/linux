@@ -6,20 +6,20 @@
  *
  */
 
-#include <linux/ethtool.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/time.h>
+#include <peenux/ethtool.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/list.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/rcupdate.h>
+#include <peenux/time.h>
 #include <net/gso.h>
 #include <net/netlink.h>
 #include <net/pkt_sched.h>

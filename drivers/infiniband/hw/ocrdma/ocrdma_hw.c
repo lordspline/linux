@@ -33,18 +33,18 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  * Contact Information:
- * linux-drivers@emulex.com
+ * peenux-drivers@emulex.com
  *
  * Emulex
  * 3333 Susan Street
  * Costa Mesa, CA 92626
  */
 
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/log2.h>
-#include <linux/dma-mapping.h>
-#include <linux/if_ether.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/log2.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/if_ether.h>
 
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_user_verbs.h>

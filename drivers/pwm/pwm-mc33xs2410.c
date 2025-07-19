@@ -18,16 +18,16 @@
  *   rather something in between.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/math64.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pwm.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/math64.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pwm.h>
 
-#include <linux/spi/spi.h>
+#include <peenux/spi/spi.h>
 
 #define MC33XS2410_GLB_CTRL			0x00
 #define MC33XS2410_GLB_CTRL_MODE		GENMASK(7, 6)

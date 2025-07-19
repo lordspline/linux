@@ -42,22 +42,22 @@
  *   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * AMD PCIe NTB Linux driver
+ * AMD PCIe NTB Peenux driver
  *
  * Contact Information:
  * Xiangliang Yu <Xiangliang.Yu@amd.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/ntb.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/pci.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/ntb.h>
 
 #include "ntb_hw_amd.h"
 

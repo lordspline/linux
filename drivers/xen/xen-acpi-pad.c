@@ -8,9 +8,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/acpi.h>
 #include <xen/xen.h>
 #include <xen/interface/version.h>
 #include <xen/xen-ops.h>

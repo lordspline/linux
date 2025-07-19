@@ -22,7 +22,7 @@
  * Authors: Ben Skeggs
  */
 
-#include <linux/string_helpers.h>
+#include <peenux/string_helpers.h>
 
 #include "auxch.h"
 #include "pad.h"

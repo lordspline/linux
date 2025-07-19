@@ -5,11 +5,11 @@
  * Copyright (c) 2020 Western Digital Corporation or its affiliates.
  */
 
-#include <linux/bits.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/pm.h>
-#include <linux/reboot.h>
+#include <peenux/bits.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/pm.h>
+#include <peenux/reboot.h>
 #include <asm/sbi.h>
 #include <asm/smp.h>
 #include <asm/tlbflush.h>
@@ -324,7 +324,7 @@ static void cpu_sbi_fwft_set(void *arg)
  * @value: The feature value to be set
  * @flags: FWFT feature set flags
  *
- * Return: 0 on success, appropriate linux error code otherwise.
+ * Return: 0 on success, appropriate peenux error code otherwise.
  */
 int sbi_fwft_set(u32 feature, unsigned long value, unsigned long flags)
 {
@@ -346,7 +346,7 @@ int sbi_fwft_set(u32 feature, unsigned long value, unsigned long flags)
  * @value: The feature value to be set
  * @flags: FWFT feature set flags
  *
- * Return: 0 on success, appropriate linux error code otherwise.
+ * Return: 0 on success, appropriate peenux error code otherwise.
  */
 int sbi_fwft_set_cpumask(const cpumask_t *mask, u32 feature,
 			       unsigned long value, unsigned long flags)
@@ -394,7 +394,7 @@ EXPORT_SYMBOL(sbi_send_ipi);
  * sbi_remote_fence_i() - Execute FENCE.I instruction on given remote harts.
  * @cpu_mask: A cpu mask containing all the target harts.
  *
- * Return: 0 on success, appropriate linux error code otherwise.
+ * Return: 0 on success, appropriate peenux error code otherwise.
  */
 int sbi_remote_fence_i(const struct cpumask *cpu_mask)
 {
@@ -413,7 +413,7 @@ EXPORT_SYMBOL(sbi_remote_fence_i);
  * @asid: The value of address space identifier (ASID), or FLUSH_TLB_NO_ASID
  * for flushing all address spaces.
  *
- * Return: 0 on success, appropriate linux error code otherwise.
+ * Return: 0 on success, appropriate peenux error code otherwise.
  */
 int sbi_remote_sfence_vma_asid(const struct cpumask *cpu_mask,
 				unsigned long start,

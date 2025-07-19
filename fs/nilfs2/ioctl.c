@@ -7,17 +7,17 @@
  * Written by Koji Sato.
  */
 
-#include <linux/fs.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/capability.h>	/* capable() */
-#include <linux/uaccess.h>	/* copy_from_user(), copy_to_user() */
-#include <linux/vmalloc.h>
-#include <linux/compat.h>	/* compat_ptr() */
-#include <linux/mount.h>	/* mnt_want_write_file(), mnt_drop_write_file() */
-#include <linux/buffer_head.h>
-#include <linux/fileattr.h>
-#include <linux/string.h>
+#include <peenux/fs.h>
+#include <peenux/wait.h>
+#include <peenux/slab.h>
+#include <peenux/capability.h>	/* capable() */
+#include <peenux/uaccess.h>	/* copy_from_user(), copy_to_user() */
+#include <peenux/vmalloc.h>
+#include <peenux/compat.h>	/* compat_ptr() */
+#include <peenux/mount.h>	/* mnt_want_write_file(), mnt_drop_write_file() */
+#include <peenux/buffer_head.h>
+#include <peenux/fileattr.h>
+#include <peenux/string.h>
 #include "nilfs.h"
 #include "segment.h"
 #include "bmap.h"

@@ -9,19 +9,19 @@
 
 #include <crypto/internal/acompress.h>
 #include <crypto/scatterwalk.h>
-#include <linux/cryptouser.h>
-#include <linux/cpumask.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/percpu.h>
-#include <linux/scatterlist.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
+#include <peenux/cryptouser.h>
+#include <peenux/cpumask.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/percpu.h>
+#include <peenux/scatterlist.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
 #include <net/netlink.h>
 
 #include "compress.h"

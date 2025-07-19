@@ -6,15 +6,15 @@
  *	Haojian Zhuang <haojian.zhuang@marvell.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/backlight.h>
-#include <linux/mfd/88pm860x.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/backlight.h>
+#include <peenux/mfd/88pm860x.h>
+#include <peenux/module.h>
 
 #define MAX_BRIGHTNESS		(0xFF)
 #define MIN_BRIGHTNESS		(0)

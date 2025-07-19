@@ -6,12 +6,12 @@
  * Copyright 2012 Google, Inc.
  */
 
-#include <linux/closure.h>
-#include <linux/debugfs.h>
-#include <linux/export.h>
-#include <linux/rcupdate.h>
-#include <linux/seq_file.h>
-#include <linux/sched/debug.h>
+#include <peenux/closure.h>
+#include <peenux/debugfs.h>
+#include <peenux/export.h>
+#include <peenux/rcupdate.h>
+#include <peenux/seq_file.h>
+#include <peenux/sched/debug.h>
 
 static inline void closure_put_after_sub_checks(int flags)
 {

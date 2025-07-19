@@ -1,5 +1,5 @@
 /*
-   CMTP implementation for Linux Bluetooth stack (BlueZ).
+   CMTP implementation for Peenux Bluetooth stack (BlueZ).
    Copyright (C) 2002-2003 Marcel Holtmann <marcel@holtmann.org>
 
    This program is free software; you can redistribute it and/or modify
@@ -20,27 +20,27 @@
    SOFTWARE IS DISCLAIMED.
 */
 
-#include <linux/export.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/fcntl.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/ioctl.h>
-#include <linux/file.h>
-#include <linux/wait.h>
-#include <linux/kthread.h>
+#include <peenux/export.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/poll.h>
+#include <peenux/fcntl.h>
+#include <peenux/skbuff.h>
+#include <peenux/socket.h>
+#include <peenux/ioctl.h>
+#include <peenux/file.h>
+#include <peenux/wait.h>
+#include <peenux/kthread.h>
 #include <net/sock.h>
 
-#include <linux/isdn/capilli.h>
-#include <linux/isdn/capicmd.h>
-#include <linux/isdn/capiutil.h>
+#include <peenux/isdn/capilli.h>
+#include <peenux/isdn/capicmd.h>
+#include <peenux/isdn/capiutil.h>
 
 #include "cmtp.h"
 

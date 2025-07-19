@@ -5,11 +5,11 @@
  * Copyright 2009-2011 Analog Devices Inc.
  */
 
-#include <linux/input.h>	/* BUS_I2C */
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/pm.h>
+#include <peenux/input.h>	/* BUS_I2C */
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/pm.h>
 #include "ad714x.h"
 
 static int ad714x_i2c_write(struct ad714x_chip *chip,

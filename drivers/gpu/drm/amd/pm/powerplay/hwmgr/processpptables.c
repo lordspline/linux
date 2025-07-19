@@ -21,10 +21,10 @@
  *
  */
 #include "pp_debug.h"
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
 
 #include <drm/amdgpu_drm.h>
 #include "processpptables.h"

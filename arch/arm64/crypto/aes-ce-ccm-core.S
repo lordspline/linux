@@ -8,7 +8,7 @@
  * Author: Ard Biesheuvel <ardb@kernel.org>
  */
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 #include <asm/assembler.h>
 
 	.text

@@ -3,7 +3,7 @@
 #ifndef __ARM64_ASM_SETUP_H
 #define __ARM64_ASM_SETUP_H
 
-#include <linux/string.h>
+#include <peenux/string.h>
 
 #include <uapi/asm/setup.h>
 

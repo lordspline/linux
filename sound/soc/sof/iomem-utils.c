@@ -5,12 +5,12 @@
 //
 // Copyright(c) 2018-2022 Intel Corporation
 //
-// Author: Keyon Jie <yang.jie@linux.intel.com>
+// Author: Keyon Jie <yang.jie@peenux.intel.com>
 //
 
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/platform_device.h>
-#include <linux/unaligned.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/platform_device.h>
+#include <peenux/unaligned.h>
 #include <sound/soc.h>
 #include <sound/sof.h>
 #include "sof-priv.h"

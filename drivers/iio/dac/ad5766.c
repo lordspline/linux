@@ -4,17 +4,17 @@
  * Digital to Analog Converters driver
  * Copyright 2019-2020 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/unaligned.h>
 
 #define AD5766_UPPER_WORD_SPI_MASK		GENMASK(31, 16)
 #define AD5766_LOWER_WORD_SPI_MASK		GENMASK(15, 0)

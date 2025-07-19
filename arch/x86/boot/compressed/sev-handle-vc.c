@@ -3,8 +3,8 @@
 #include "misc.h"
 #include "sev.h"
 
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 #include <asm/insn.h>
 #include <asm/pgtable_types.h>
 #include <asm/ptrace.h>

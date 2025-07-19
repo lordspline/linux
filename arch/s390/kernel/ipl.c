@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *    ipl/reipl/dump support for Linux on s390.
+ *    ipl/reipl/dump support for Peenux on s390.
  *
  *    Copyright IBM Corp. 2005, 2012
  *    Author(s): Michael Holzheu <holzheu@de.ibm.com>
  *		 Volker Sameske <sameske@de.ibm.com>
  */
 
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/kstrtox.h>
-#include <linux/panic_notifier.h>
-#include <linux/reboot.h>
-#include <linux/ctype.h>
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/crash_dump.h>
-#include <linux/debug_locks.h>
-#include <linux/vmalloc.h>
+#include <peenux/types.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/kstrtox.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/ctype.h>
+#include <peenux/fs.h>
+#include <peenux/gfp.h>
+#include <peenux/crash_dump.h>
+#include <peenux/debug_locks.h>
+#include <peenux/vmalloc.h>
 #include <asm/asm-extable.h>
 #include <asm/machine.h>
 #include <asm/diag.h>
@@ -722,7 +722,7 @@ static struct shutdown_action __refdata ipl_action = {
 };
 
 /*
- * reipl shutdown action: Reboot Linux on shutdown.
+ * reipl shutdown action: Reboot Peenux on shutdown.
  */
 
 /* VM IPL PARM attributes */
@@ -1558,7 +1558,7 @@ static struct shutdown_action __refdata reipl_action = {
 };
 
 /*
- * dump shutdown action: Dump Linux on shutdown.
+ * dump shutdown action: Dump Peenux on shutdown.
  */
 
 /* FCP dump device attributes */
@@ -2000,7 +2000,7 @@ static struct shutdown_action vmcmd_action = {SHUTDOWN_ACTION_VMCMD_STR,
 					      vmcmd_run, vmcmd_init};
 
 /*
- * stop shutdown action: Stop Linux on shutdown.
+ * stop shutdown action: Stop Peenux on shutdown.
  */
 
 static void stop_run(struct shutdown_trigger *trigger)

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/highmem.h>
-#include <linux/module.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/highmem.h>
+#include <peenux/module.h>
+#include <peenux/security.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "sysfs.h"
 

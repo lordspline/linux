@@ -34,11 +34,11 @@
 #ifndef USNIC_FWD_H_
 #define USNIC_FWD_H_
 
-#include <linux/if.h>
-#include <linux/netdevice.h>
-#include <linux/if_ether.h>
-#include <linux/pci.h>
-#include <linux/in.h>
+#include <peenux/if.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_ether.h>
+#include <peenux/pci.h>
+#include <peenux/in.h>
 
 #include "usnic_abi.h"
 #include "usnic_common_pkt_hdr.h"

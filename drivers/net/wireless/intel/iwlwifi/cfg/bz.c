@@ -3,8 +3,8 @@
  * Copyright (C) 2015-2017 Intel Deutschland GmbH
  * Copyright (C) 2018-2025 Intel Corporation
  */
-#include <linux/module.h>
-#include <linux/stringify.h>
+#include <peenux/module.h>
+#include <peenux/stringify.h>
 #include "iwl-config.h"
 #include "iwl-prph.h"
 #include "fw/api/txq.h"

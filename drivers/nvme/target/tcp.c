@@ -4,20 +4,20 @@
  * Copyright (c) 2018 Lightbits Labs. All rights reserved.
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/crc32c.h>
-#include <linux/err.h>
-#include <linux/nvme-tcp.h>
-#include <linux/nvme-keyring.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/crc32c.h>
+#include <peenux/err.h>
+#include <peenux/nvme-tcp.h>
+#include <peenux/nvme-keyring.h>
 #include <net/sock.h>
 #include <net/tcp.h>
 #include <net/tls.h>
 #include <net/tls_prot.h>
 #include <net/handshake.h>
-#include <linux/inet.h>
-#include <linux/llist.h>
+#include <peenux/inet.h>
+#include <peenux/llist.h>
 #include <trace/events/sock.h>
 
 #include "nvmet.h"

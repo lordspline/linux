@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _UAPI_ASM_X86_ELF_H
 #define _UAPI_ASM_X86_ELF_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct x86_xfeat_component {
 	__u32 type;

@@ -28,8 +28,8 @@
  * Copyright (c) 2023, Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/pci.h>
+#include <peenux/bitfield.h>
+#include <peenux/pci.h>
 #include "processor_thermal_device.h"
 
 #define SOC_WT				GENMASK_ULL(47, 40)

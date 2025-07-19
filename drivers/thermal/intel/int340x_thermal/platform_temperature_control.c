@@ -36,9 +36,9 @@
  *   63:32   RESERVED
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 #include "processor_thermal_device.h"
 
 struct mmio_reg {

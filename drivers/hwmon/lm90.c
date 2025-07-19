@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * lm90.c - Part of lm_sensors, Linux kernel modules for hardware
+ * lm90.c - Part of lm_sensors, Peenux kernel modules for hardware
  *          monitoring
  * Copyright (C) 2003-2010  Jean Delvare <jdelvare@suse.de>
  *
@@ -98,21 +98,21 @@
  * concern all supported chipsets, unless mentioned otherwise.
  */
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/hwmon.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/hwmon.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 /* The maximum number of channels currently supported */
 #define MAX_CHANNELS	3

@@ -5,29 +5,29 @@
  * This file contains the setup_arch() code, which handles the architecture-dependent
  * parts of early kernel initialization.
  */
-#include <linux/acpi.h>
-#include <linux/console.h>
-#include <linux/cpu.h>
-#include <linux/crash_dump.h>
-#include <linux/dma-map-ops.h>
-#include <linux/efi.h>
-#include <linux/hugetlb.h>
-#include <linux/ima.h>
-#include <linux/init_ohci1394_dma.h>
-#include <linux/initrd.h>
-#include <linux/iscsi_ibft.h>
-#include <linux/memblock.h>
-#include <linux/panic_notifier.h>
-#include <linux/pci.h>
-#include <linux/random.h>
-#include <linux/root_dev.h>
-#include <linux/static_call.h>
-#include <linux/swiotlb.h>
-#include <linux/tboot.h>
-#include <linux/usb/xhci-dbgp.h>
-#include <linux/vmalloc.h>
+#include <peenux/acpi.h>
+#include <peenux/console.h>
+#include <peenux/cpu.h>
+#include <peenux/crash_dump.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/efi.h>
+#include <peenux/hugetlb.h>
+#include <peenux/ima.h>
+#include <peenux/init_ohci1394_dma.h>
+#include <peenux/initrd.h>
+#include <peenux/iscsi_ibft.h>
+#include <peenux/memblock.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/pci.h>
+#include <peenux/random.h>
+#include <peenux/root_dev.h>
+#include <peenux/static_call.h>
+#include <peenux/swiotlb.h>
+#include <peenux/tboot.h>
+#include <peenux/usb/xhci-dbgp.h>
+#include <peenux/vmalloc.h>
 
-#include <uapi/linux/mount.h>
+#include <uapi/peenux/mount.h>
 
 #include <xen/xen.h>
 

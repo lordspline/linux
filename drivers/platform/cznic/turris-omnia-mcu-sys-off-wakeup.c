@@ -6,23 +6,23 @@
  * real-time clock), rather the MCU implements a wakeup from powered off state
  * at a specified time relative to MCU boot, and we expose this feature via RTC
  * alarm, so that it can be used via the rtcwake command, which is the standard
- * Linux command for this.
+ * Peenux command for this.
  *
  * 2024 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/kstrtox.h>
-#include <linux/reboot.h>
-#include <linux/rtc.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/crc32.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/kstrtox.h>
+#include <peenux/reboot.h>
+#include <peenux/rtc.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
-#include <linux/turris-omnia-mcu-interface.h>
+#include <peenux/turris-omnia-mcu-interface.h>
 #include "turris-omnia-mcu.h"
 
 static int omnia_get_uptime_wakeup(const struct i2c_client *client, u32 *uptime,

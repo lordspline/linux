@@ -4,25 +4,25 @@
  *
  * Copyright 2015-2024 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/units.h>
 
-#include <linux/iio/backend.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/types.h>
 
 #define AD9739A_REG_MODE		0
 #define   AD9739A_RESET_MASK		BIT(5)

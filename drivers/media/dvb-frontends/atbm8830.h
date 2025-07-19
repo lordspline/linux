@@ -9,8 +9,8 @@
 #ifndef __ATBM8830_H__
 #define __ATBM8830_H__
 
-#include <linux/dvb/frontend.h>
-#include <linux/i2c.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/i2c.h>
 
 #define ATBM8830_PROD_8830 0
 #define ATBM8830_PROD_8831 1

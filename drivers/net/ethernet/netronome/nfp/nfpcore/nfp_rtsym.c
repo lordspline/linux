@@ -10,11 +10,11 @@
  *          Francois H. Theron <francois.theron@netronome.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
+#include <peenux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/io-64-nonatomic-hi-lo.h>
 
 #include "nfp.h"
 #include "nfp_cpp.h"

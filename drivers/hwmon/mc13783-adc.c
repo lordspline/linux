@@ -6,16 +6,16 @@
  * Copyright (C) 2009 Sascha Hauer, Pengutronix
  */
 
-#include <linux/mfd/mc13xxx.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/hwmon.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/err.h>
+#include <peenux/mfd/mc13xxx.h>
+#include <peenux/platform_device.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/hwmon.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
 
 #define DRIVER_NAME	"mc13783-adc"
 

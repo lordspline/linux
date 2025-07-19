@@ -15,26 +15,26 @@
  *	Arun R Murthy <arun.murthy@stericsson.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/kobject.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/time.h>
-#include <linux/time64.h>
-#include <linux/of.h>
-#include <linux/completion.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/abx500.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/iio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/fixp-arith.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/component.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/kobject.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/time.h>
+#include <peenux/time64.h>
+#include <peenux/of.h>
+#include <peenux/completion.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/abx500.h>
+#include <peenux/mfd/abx500/ab8500.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/fixp-arith.h>
 
 #include "ab8500-bm.h"
 

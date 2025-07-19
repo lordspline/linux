@@ -6,9 +6,9 @@
  * Co-Author: KR Kim <kr.kim@skyhighmemory.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mtd/spinand.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/mtd/spinand.h>
 
 #define SPINAND_MFR_SKYHIGH			0x01
 #define SKYHIGH_STATUS_ECC_1TO2_BITFLIPS	(1 << 4)

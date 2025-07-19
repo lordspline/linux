@@ -6,12 +6,12 @@
  *  Justin Iurman <justin.iurman@uliege.be>
  */
 
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/net.h>
-#include <linux/in6.h>
-#include <linux/ioam6.h>
-#include <linux/ioam6_iptunnel.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/net.h>
+#include <peenux/in6.h>
+#include <peenux/ioam6.h>
+#include <peenux/ioam6_iptunnel.h>
 #include <net/dst.h>
 #include <net/sock.h>
 #include <net/lwtunnel.h>

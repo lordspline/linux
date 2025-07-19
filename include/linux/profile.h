@@ -2,9 +2,9 @@
 #ifndef _LINUX_PROFILE_H
 #define _LINUX_PROFILE_H
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/cache.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/cache.h>
 
 #include <asm/errno.h>
 

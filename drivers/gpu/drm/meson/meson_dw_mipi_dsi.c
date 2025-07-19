@@ -5,15 +5,15 @@
  * Copyright (C) 2015 Amlogic, Inc. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/phy/phy.h>
-#include <linux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/phy/phy.h>
+#include <peenux/bitfield.h>
 
 #include <video/mipi_display.h>
 

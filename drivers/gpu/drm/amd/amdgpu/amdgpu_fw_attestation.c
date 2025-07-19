@@ -21,9 +21,9 @@
  *
  */
 
-#include <linux/debugfs.h>
-#include <linux/firmware.h>
-#include <linux/dma-mapping.h>
+#include <peenux/debugfs.h>
+#include <peenux/firmware.h>
+#include <peenux/dma-mapping.h>
 
 #include "amdgpu.h"
 #include "amdgpu_fw_attestation.h"

@@ -13,12 +13,12 @@
  * - dmaengine support
  */
 
-#include <linux/ata.h>
-#include <linux/clk.h>
-#include <linux/libata.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/ata.h>
+#include <peenux/clk.h>
+#include <peenux/libata.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 
 #define DRV_NAME "pata_imx"
 

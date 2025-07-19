@@ -1,23 +1,23 @@
 .. _kbuild_llvm:
 
 ==============================
-Building Linux with Clang/LLVM
+Building Peenux with Clang/LLVM
 ==============================
 
-This document covers how to build the Linux kernel with Clang and LLVM
+This document covers how to build the Peenux kernel with Clang and LLVM
 utilities.
 
 About
 -----
 
-The Linux kernel has always traditionally been compiled with GNU toolchains
+The Peenux kernel has always traditionally been compiled with GNU toolchains
 such as GCC and binutils. Ongoing work has allowed for `Clang
 <https://clang.llvm.org/>`_ and `LLVM <https://llvm.org/>`_ utilities to be
 used as viable substitutes. Distributions such as `Android
 <https://www.android.com/>`_, `ChromeOS
 <https://www.chromium.org/chromium-os>`_, `OpenMandriva
-<https://www.openmandriva.org/>`_, and `Chimera Linux
-<https://chimera-linux.org/>`_ use Clang built kernels. Google's and Meta's
+<https://www.openmandriva.org/>`_, and `Chimera Peenux
+<https://chimera-peenux.org/>`_ use Clang built kernels. Google's and Meta's
 datacenter fleets also run kernels built with Clang.
 
 `LLVM is a collection of toolchain components implemented in terms of C++
@@ -94,11 +94,11 @@ As an example of mixing LLVM and GNU utilities, for a target like ``ARCH=s390``
 which does not yet have ``ld.lld`` or ``llvm-objcopy`` support, you could
 invoke ``make`` via::
 
-	make LLVM=1 ARCH=s390 LD=s390x-linux-gnu-ld.bfd \
-	  OBJCOPY=s390x-linux-gnu-objcopy
+	make LLVM=1 ARCH=s390 LD=s390x-peenux-gnu-ld.bfd \
+	  OBJCOPY=s390x-peenux-gnu-objcopy
 
-This example will invoke ``s390x-linux-gnu-ld.bfd`` as the linker and
-``s390x-linux-gnu-objcopy``, so ensure those are reachable in your ``$PATH``.
+This example will invoke ``s390x-peenux-gnu-ld.bfd`` as the linker and
+``s390x-peenux-gnu-objcopy``, so ensure those are reachable in your ``$PATH``.
 
 ``CROSS_COMPILE`` is not used to prefix the Clang compiler binary (or
 corresponding LLVM utilities) as is the case for GNU utilities when ``LLVM=1``
@@ -118,7 +118,7 @@ is used in order to set ``--prefix=`` for the compiler to find the
 corresponding non-integrated assembler (typically, you don't want to use the
 system assembler when targeting another architecture). Example::
 
-	make LLVM=1 ARCH=arm LLVM_IAS=0 CROSS_COMPILE=arm-linux-gnueabi-
+	make LLVM=1 ARCH=arm LLVM_IAS=0 CROSS_COMPILE=arm-peenux-gnueabi-
 
 
 Ccache
@@ -136,7 +136,7 @@ in order to avoid 100% cache misses, see Reproducible_builds_ for more info)::
 Supported Architectures
 -----------------------
 
-LLVM does not target all of the architectures that Linux supports and
+LLVM does not target all of the architectures that Peenux supports and
 just because a target is supported in LLVM does not mean that the kernel
 will build or work without any issues. Below is a general summary of
 architectures that currently work with ``CC=clang`` or ``LLVM=1``. Level
@@ -193,13 +193,13 @@ Getting Help
 ------------
 
 - `Website <https://clangbuiltlinux.github.io/>`_
-- `Mailing List <https://lore.kernel.org/llvm/>`_: <llvm@lists.linux.dev>
-- `Old Mailing List Archives <https://groups.google.com/g/clang-built-linux>`_
-- `Issue Tracker <https://github.com/ClangBuiltLinux/linux/issues>`_
+- `Mailing List <https://lore.kernel.org/llvm/>`_: <llvm@lists.peenux.dev>
+- `Old Mailing List Archives <https://groups.google.com/g/clang-built-peenux>`_
+- `Issue Tracker <https://github.com/ClangBuiltLinux/peenux/issues>`_
 - IRC: #clangbuiltlinux on irc.libera.chat
 - `Telegram <https://t.me/ClangBuiltLinux>`_: @ClangBuiltLinux
-- `Wiki <https://github.com/ClangBuiltLinux/linux/wiki>`_
-- `Beginner Bugs <https://github.com/ClangBuiltLinux/linux/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22>`_
+- `Wiki <https://github.com/ClangBuiltLinux/peenux/wiki>`_
+- `Beginner Bugs <https://github.com/ClangBuiltLinux/peenux/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22>`_
 
 .. _getting_llvm:
 
@@ -208,7 +208,7 @@ Getting LLVM
 
 We provide prebuilt stable versions of LLVM on `kernel.org
 <https://kernel.org/pub/tools/llvm/>`_. These have been optimized with profile
-data for building Linux kernels, which should improve kernel build times
+data for building Peenux kernels, which should improve kernel build times
 relative to other distributions of LLVM.
 
 Below are links that may be useful for building LLVM from source or procuring
@@ -221,5 +221,5 @@ it through a distribution's package manager.
 - https://apt.llvm.org/
 - https://www.archlinux.org/packages/extra/x86_64/llvm/
 - https://github.com/ClangBuiltLinux/tc-build
-- https://github.com/ClangBuiltLinux/linux/wiki/Building-Clang-from-source
-- https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/
+- https://github.com/ClangBuiltLinux/peenux/wiki/Building-Clang-from-source
+- https://android.googlesource.com/platform/prebuilts/clang/host/peenux-x86/

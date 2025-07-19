@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 #include <asm/page.h>
 
 	.section ".data..ro_after_init", "aw"

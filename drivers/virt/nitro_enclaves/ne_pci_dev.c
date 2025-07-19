@@ -7,15 +7,15 @@
  * DOC: Nitro Enclaves (NE) PCI device driver.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nitro_enclaves.h>
-#include <linux/pci.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nitro_enclaves.h>
+#include <peenux/pci.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
 #include "ne_misc_dev.h"
 #include "ne_pci_dev.h"

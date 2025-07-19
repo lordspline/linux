@@ -7,10 +7,10 @@
  *     Anup Patel <anup.patel@wdc.com>
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/kvm_host.h>
-#include <linux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/kvm_host.h>
+#include <peenux/uaccess.h>
 #include <asm/cpufeature.h>
 
 #ifdef CONFIG_FPU

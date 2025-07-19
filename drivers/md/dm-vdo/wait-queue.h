@@ -6,8 +6,8 @@
 #ifndef VDO_WAIT_QUEUE_H
 #define VDO_WAIT_QUEUE_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 
 /**
  * A vdo_wait_queue is a circular singly linked list of entries waiting to be notified
@@ -24,15 +24,15 @@
  *   A three-element waitq:
  *     waitq2.last_waiter -> entry3 -> entry1 -> entry2 -> entry3 -> [...]
  *
- *   linux/wait.h's wait_queue_head is _not_ used because vdo_wait_queue's
+ *   peenux/wait.h's wait_queue_head is _not_ used because vdo_wait_queue's
  *   interface is much less complex (doesn't need locking, priorities or timers).
  *   Made possible by vdo's thread-based resource allocation and locking; and
  *   the polling nature of vdo_wait_queue consumers.
  *
- *   FIXME: could be made to use a linux/list.h's list_head but its extra barriers
+ *   FIXME: could be made to use a peenux/list.h's list_head but its extra barriers
  *   really aren't needed. Nor is a doubly linked list, but vdo_wait_queue could
  *   make use of __list_del_clearprev() -- but that would compromise the ability
- *   to make full use of linux's list interface.
+ *   to make full use of peenux's list interface.
  */
 
 struct vdo_waiter;

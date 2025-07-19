@@ -2,8 +2,8 @@
 /*
  * Copyright (C) 2008 Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/gpio.h>
+#include <peenux/init.h>
+#include <peenux/gpio.h>
 #include <cpu/sh7785.h>
 #include <mach/highlander.h>
 

@@ -1,16 +1,16 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/mm/proc-v6.S
+ *  peenux/arch/arm/mm/proc-v6.S
  *
  *  Copyright (C) 2001 Deep Blue Solutions Ltd.
  *  Modified by Catalin Marinas for noMMU support
  *
  *  This is the "shell" of the ARMv6 processor support.
  */
-#include <linux/init.h>
-#include <linux/cfi_types.h>
-#include <linux/linkage.h>
-#include <linux/pgtable.h>
+#include <peenux/init.h>
+#include <peenux/cfi_types.h>
+#include <peenux/linkage.h>
+#include <peenux/pgtable.h>
 #include <asm/assembler.h>
 #include <asm/asm-offsets.h>
 #include <asm/hwcap.h>

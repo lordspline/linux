@@ -7,14 +7,14 @@
 #ifndef _QED_LL2_IF_H
 #define _QED_LL2_IF_H
 
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/skbuff.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/qed/qed_if.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/skbuff.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/qed/qed_if.h>
 
 enum qed_ll2_conn_type {
 	QED_LL2_TYPE_FCOE,

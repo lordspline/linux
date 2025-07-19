@@ -4,34 +4,34 @@
  * Copyright (C) Jonathan Naylor G4KLX (g4klx@g4klx.demon.co.uk)
  * Copyright (C) Terry Dawson VK2KTJ (terry@animats.net)
  */
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/timer.h>
+#include <peenux/string.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/slab.h>
 #include <net/ax25.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
 #include <net/arp.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
 #include <net/tcp_states.h>
-#include <linux/uaccess.h>
-#include <linux/fcntl.h>
-#include <linux/termios.h>	/* For TIOCINQ/OUTQ */
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/init.h>
+#include <peenux/uaccess.h>
+#include <peenux/fcntl.h>
+#include <peenux/termios.h>	/* For TIOCINQ/OUTQ */
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/notifier.h>
+#include <peenux/init.h>
 #include <net/rose.h>
-#include <linux/seq_file.h>
-#include <linux/export.h>
+#include <peenux/seq_file.h>
+#include <peenux/export.h>
 
 static unsigned int rose_neigh_no = 1;
 

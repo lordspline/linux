@@ -8,15 +8,15 @@
  * This program is not provided / owned by Maxim Integrated Products.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/pwm.h>
-#include <linux/input.h>
-#include <linux/mfd/max8997-private.h>
-#include <linux/mfd/max8997.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/pwm.h>
+#include <peenux/input.h>
+#include <peenux/mfd/max8997-private.h>
+#include <peenux/mfd/max8997.h>
+#include <peenux/regulator/consumer.h>
 
 /* Haptic configuration 2 register */
 #define MAX8997_MOTOR_TYPE_SHIFT	7

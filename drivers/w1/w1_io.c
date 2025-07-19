@@ -5,9 +5,9 @@
 
 #include <asm/io.h>
 
-#include <linux/delay.h>
-#include <linux/moduleparam.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/moduleparam.h>
+#include <peenux/module.h>
 
 #include "w1_internal.h"
 

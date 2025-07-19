@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /* Copyright Amazon.com Inc. or its affiliates. */
 
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/notifier.h>
-#include <linux/rtnetlink.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/notifier.h>
+#include <peenux/rtnetlink.h>
 #include <net/net_namespace.h>
 #include <net/netdev_lock.h>
 #include <net/netns/generic.h>

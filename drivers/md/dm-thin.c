@@ -9,19 +9,19 @@
 #include "dm-bio-prison-v1.h"
 #include "dm.h"
 
-#include <linux/device-mapper.h>
-#include <linux/dm-io.h>
-#include <linux/dm-kcopyd.h>
-#include <linux/jiffies.h>
-#include <linux/log2.h>
-#include <linux/list.h>
-#include <linux/rculist.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/sort.h>
-#include <linux/rbtree.h>
+#include <peenux/device-mapper.h>
+#include <peenux/dm-io.h>
+#include <peenux/dm-kcopyd.h>
+#include <peenux/jiffies.h>
+#include <peenux/log2.h>
+#include <peenux/list.h>
+#include <peenux/rculist.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sort.h>
+#include <peenux/rbtree.h>
 
 #define	DM_MSG_PREFIX	"thin"
 
@@ -4558,5 +4558,5 @@ module_param_named(no_space_timeout, no_space_timeout_secs, uint, 0644);
 MODULE_PARM_DESC(no_space_timeout, "Out of data space queue IO timeout in seconds");
 
 MODULE_DESCRIPTION(DM_NAME " thin provisioning target");
-MODULE_AUTHOR("Joe Thornber <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Joe Thornber <dm-devel@lists.peenux.dev>");
 MODULE_LICENSE("GPL");

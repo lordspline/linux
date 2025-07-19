@@ -5,9 +5,9 @@
 
 #include "xe_ggtt.h"
 
-#include <linux/fault-inject.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/sizes.h>
+#include <peenux/fault-inject.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/sizes.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_managed.h>

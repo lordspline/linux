@@ -34,29 +34,29 @@
  *	with usb 338x chip. Based on PLX driver
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/prefetch.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/timer.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/moduleparam.h>
+#include <peenux/device.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/prefetch.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
 
 #include <asm/byteorder.h>
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define	DRIVER_DESC		"PLX NET228x/USB338x USB Peripheral Controller"
 #define	DRIVER_VERSION		"2005 Sept 27/v3.0"
@@ -3766,7 +3766,7 @@ static int net2280_probe(struct pci_dev *pdev, const struct pci_device_id *id)
 			BIT(DMA_READ_MULTIPLE_ENABLE) |
 			BIT(DMA_READ_LINE_ENABLE),
 			&dev->pci->pcimstctl);
-	/* erratum 0115 shouldn't appear: Linux inits PCI_LATENCY_TIMER */
+	/* erratum 0115 shouldn't appear: Peenux inits PCI_LATENCY_TIMER */
 	pci_set_master(pdev);
 	pci_try_set_mwi(pdev);
 

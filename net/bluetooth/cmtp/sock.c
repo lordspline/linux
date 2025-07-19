@@ -1,5 +1,5 @@
 /*
-   CMTP implementation for Linux Bluetooth stack (BlueZ).
+   CMTP implementation for Peenux Bluetooth stack (BlueZ).
    Copyright (C) 2002-2003 Marcel Holtmann <marcel@holtmann.org>
 
    This program is free software; you can redistribute it and/or modify
@@ -20,24 +20,24 @@
    SOFTWARE IS DISCLAIMED.
 */
 
-#include <linux/export.h>
+#include <peenux/export.h>
 
-#include <linux/types.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/poll.h>
-#include <linux/fcntl.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/ioctl.h>
-#include <linux/file.h>
-#include <linux/compat.h>
-#include <linux/gfp.h>
-#include <linux/uaccess.h>
+#include <peenux/types.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/poll.h>
+#include <peenux/fcntl.h>
+#include <peenux/skbuff.h>
+#include <peenux/socket.h>
+#include <peenux/ioctl.h>
+#include <peenux/file.h>
+#include <peenux/compat.h>
+#include <peenux/gfp.h>
+#include <peenux/uaccess.h>
 #include <net/sock.h>
 
-#include <linux/isdn/capilli.h>
+#include <peenux/isdn/capilli.h>
 
 
 #include "cmtp.h"

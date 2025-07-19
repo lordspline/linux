@@ -8,7 +8,7 @@
 #include "mutex.h"
 #include "ordered-events.h"
 #include "record.h"
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <stddef.h>
 #include <stdbool.h>
 #include <sys/ioctl.h>

@@ -12,12 +12,12 @@
  * to perform transactions on that bus.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
 
 #include <drm/display/drm_dp_aux_bus.h>
 #include <drm/display/drm_dp_helper.h>

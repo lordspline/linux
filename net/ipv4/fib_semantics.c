@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -9,28 +9,28 @@
  * Authors:	Alexey Kuznetsov, <kuznet@ms2.inr.ac.ru>
  */
 
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/inetdevice.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/proc_fs.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/netlink.h>
-#include <linux/hash.h>
-#include <linux/nospec.h>
+#include <peenux/uaccess.h>
+#include <peenux/bitops.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/errno.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/inetdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/proc_fs.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/netlink.h>
+#include <peenux/hash.h>
+#include <peenux/nospec.h>
 
 #include <net/arp.h>
 #include <net/inet_dscp.h>

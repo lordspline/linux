@@ -23,7 +23,7 @@
  */
 
 #include <generated/utsrelease.h>
-#include <linux/devcoredump.h>
+#include <peenux/devcoredump.h>
 #include "amdgpu_dev_coredump.h"
 #include "atom.h"
 

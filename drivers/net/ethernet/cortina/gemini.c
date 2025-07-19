@@ -8,38 +8,38 @@
  * Authors:
  * Linus Walleij <linus.walleij@linaro.org>
  * Tobias Waldvogel <tobias.waldvogel@gmail.com> (OpenWRT)
- * Michał Mirosław <mirq-linux@rere.qmqm.pl>
+ * Michał Mirosław <mirq-peenux@rere.qmqm.pl>
  * Paulius Zaleckas <paulius.zaleckas@gmail.com>
  * Giuseppe De Robertis <Giuseppe.DeRobertis@ba.infn.it>
  * Gary Chen & Ch Hsu Storlink Semiconductor
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/cache.h>
-#include <linux/interrupt.h>
-#include <linux/reset.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/skbuff.h>
-#include <linux/phy.h>
-#include <linux/crc32.h>
-#include <linux/ethtool.h>
-#include <linux/tcp.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/cache.h>
+#include <peenux/interrupt.h>
+#include <peenux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/of_platform.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/skbuff.h>
+#include <peenux/phy.h>
+#include <peenux/crc32.h>
+#include <peenux/ethtool.h>
+#include <peenux/tcp.h>
+#include <peenux/u64_stats_sync.h>
 
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
 #include <net/gro.h>
 
 #include "gemini.h"

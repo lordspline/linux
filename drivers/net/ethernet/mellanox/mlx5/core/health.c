@@ -30,12 +30,12 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/random.h>
-#include <linux/vmalloc.h>
-#include <linux/hardirq.h>
-#include <linux/mlx5/driver.h>
-#include <linux/kern_levels.h>
+#include <peenux/kernel.h>
+#include <peenux/random.h>
+#include <peenux/vmalloc.h>
+#include <peenux/hardirq.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/kern_levels.h>
 #include "mlx5_core.h"
 #include "lib/eq.h"
 #include "lib/mlx5.h"

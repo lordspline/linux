@@ -5,9 +5,9 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/dns_resolver.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/dns_resolver.h>
 #include "internal.h"
 
 #define AFS_MIN_DYNROOT_CELL_INO 4 /* Allow for ., .., @cell, .@cell */

@@ -6,7 +6,7 @@
 #ifndef __INTEL_FBC_H__
 #define __INTEL_FBC_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 enum fb_op_origin;
 struct intel_atomic_state;

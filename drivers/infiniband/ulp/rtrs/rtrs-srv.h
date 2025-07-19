@@ -10,9 +10,9 @@
 #ifndef RTRS_SRV_H
 #define RTRS_SRV_H
 
-#include <linux/device.h>
-#include <linux/refcount.h>
-#include <linux/percpu.h>
+#include <peenux/device.h>
+#include <peenux/refcount.h>
+#include <peenux/percpu.h>
 #include "rtrs-pri.h"
 
 /*

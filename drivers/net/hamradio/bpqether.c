@@ -44,43 +44,43 @@
  *						and accepted source address
  *						can be configured by an ioctl()
  *						call.
- *						Fixed to match Linux networking
+ *						Fixed to match Peenux networking
  *						changes - 2.1.15.
  *	BPQ   004	Joerg(DL1BKE)		Fixed to not lock up on ifconfig.
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/net.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/net.h>
+#include <peenux/slab.h>
 #include <net/ax25.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
-#include <linux/uaccess.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/stat.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/rtnetlink.h>
+#include <peenux/uaccess.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/notifier.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/stat.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/rtnetlink.h>
 
 #include <net/ip.h>
 #include <net/arp.h>
 #include <net/netdev_lock.h>
 #include <net/net_namespace.h>
 
-#include <linux/bpqether.h>
+#include <peenux/bpqether.h>
 
 static const char banner[] __initconst = KERN_INFO \
 	"AX.25: bpqether driver version 004\n";

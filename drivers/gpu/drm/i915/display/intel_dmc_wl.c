@@ -3,7 +3,7 @@
  * Copyright (C) 2024 Intel Corporation
  */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include <drm/drm_print.h>
 

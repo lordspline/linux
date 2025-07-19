@@ -8,27 +8,27 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mii.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of_device.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/unistd.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mii.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of_device.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
+#include <peenux/unistd.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/mdio.h>

@@ -6,13 +6,13 @@
  * Author: Jose Abreu <Jose.Abreu@synopsys.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/pcs/pcs-xpcs.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/property.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/pcs/pcs-xpcs.h>
+#include <peenux/mdio.h>
+#include <peenux/phy.h>
+#include <peenux/phylink.h>
+#include <peenux/property.h>
 
 #include "pcs-xpcs.h"
 

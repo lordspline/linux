@@ -5,19 +5,19 @@
  * Copyright (C) 2012 Texas Instruments
  *
  */
-#include <linux/bitmap.h>
-#include <linux/if_vlan.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/stat.h>
-#include <linux/sysfs.h>
-#include <linux/etherdevice.h>
+#include <peenux/bitmap.h>
+#include <peenux/if_vlan.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/stat.h>
+#include <peenux/sysfs.h>
+#include <peenux/etherdevice.h>
 
 #include "cpsw_ale.h"
 

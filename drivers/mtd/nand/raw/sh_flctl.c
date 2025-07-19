@@ -8,25 +8,25 @@
  * Based on fsl_elbc_nand.c, Copyright (c) 2006-2007 Freescale Semiconductor
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/sh_dma.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sh_dma.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/sh_flctl.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/sh_flctl.h>
 
 static int flctl_4secc_ooblayout_sp_ecc(struct mtd_info *mtd, int section,
 					struct mtd_oob_region *oobregion)

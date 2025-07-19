@@ -7,8 +7,8 @@
 #ifndef __PHY_CAPS_H
 #define __PHY_CAPS_H
 
-#include <linux/ethtool.h>
-#include <linux/phy.h>
+#include <peenux/ethtool.h>
+#include <peenux/phy.h>
 
 enum {
 	LINK_CAPA_10HD = 0,

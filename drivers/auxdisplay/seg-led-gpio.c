@@ -8,16 +8,16 @@
  * Copyright (C) Allied Telesis Labs
  */
 
-#include <linux/bitmap.h>
-#include <linux/container_of.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/map_to_7segment.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/bitmap.h>
+#include <peenux/container_of.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/map_to_7segment.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #include "line-display.h"
 

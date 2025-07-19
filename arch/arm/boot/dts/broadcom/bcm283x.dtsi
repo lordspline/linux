@@ -35,11 +35,11 @@
 		#size-cells = <1>;
 		ranges;
 
-		cma: linux,cma {
+		cma: peenux,cma {
 			compatible = "shared-dma-pool";
 			size = <0x4000000>; /* 64MB */
 			reusable;
-			linux,cma-default;
+			peenux,cma-default;
 		};
 	};
 

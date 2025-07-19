@@ -6,7 +6,7 @@
 #ifndef __POWER_SEQUENCING_CONSUMER_H__
 #define __POWER_SEQUENCING_CONSUMER_H__
 
-#include <linux/err.h>
+#include <peenux/err.h>
 
 struct device;
 struct pwrseq_desc;

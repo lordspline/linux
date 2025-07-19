@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2023. Huawei Technologies Co., Ltd */
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <bpf/bpf_helpers.h>
 
 #include "bpf_experimental.h"

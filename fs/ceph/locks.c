@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/file.h>
-#include <linux/namei.h>
-#include <linux/random.h>
+#include <peenux/file.h>
+#include <peenux/namei.h>
+#include <peenux/random.h>
 
 #include "super.h"
 #include "mds_client.h"
-#include <linux/filelock.h>
-#include <linux/ceph/pagelist.h>
+#include <peenux/filelock.h>
+#include <peenux/ceph/pagelist.h>
 
 static u64 lock_secret;
 static int ceph_lock_wait_for_completion(struct ceph_mds_client *mdsc,

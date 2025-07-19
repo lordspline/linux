@@ -17,18 +17,18 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
-#include <linux/v4l2-dv-timings.h>
-#include <linux/of_graph.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spinlock.h>
+#include <peenux/v4l2-dv-timings.h>
+#include <peenux/of_graph.h>
 
 #include "vpif.h"
 

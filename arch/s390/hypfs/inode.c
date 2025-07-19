@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-1.0+
 /*
- *    Hypervisor filesystem for Linux on s390.
+ *    Hypervisor filesystem for Peenux on s390.
  *
  *    Copyright IBM Corp. 2006, 2008
  *    Author(s): Michael Holzheu <holzheu@de.ibm.com>
@@ -9,21 +9,21 @@
 #define KMSG_COMPONENT "hypfs"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/namei.h>
-#include <linux/vfs.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/time.h>
-#include <linux/sysfs.h>
-#include <linux/init.h>
-#include <linux/kobject.h>
-#include <linux/seq_file.h>
-#include <linux/uio.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/namei.h>
+#include <peenux/vfs.h>
+#include <peenux/slab.h>
+#include <peenux/pagemap.h>
+#include <peenux/time.h>
+#include <peenux/sysfs.h>
+#include <peenux/init.h>
+#include <peenux/kobject.h>
+#include <peenux/seq_file.h>
+#include <peenux/uio.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>
 #include "hypfs.h"

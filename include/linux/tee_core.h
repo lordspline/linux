@@ -6,15 +6,15 @@
 #ifndef __TEE_CORE_H
 #define __TEE_CORE_H
 
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/tee.h>
-#include <linux/tee_drv.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/tee.h>
+#include <peenux/tee_drv.h>
+#include <peenux/types.h>
+#include <peenux/uuid.h>
 
 /*
  * The file describes the API provided by the generic TEE driver to the

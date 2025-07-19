@@ -5,13 +5,13 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/module.h>
-#include <linux/export.h>
-#include <linux/oid_registry.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/bug.h>
-#include <linux/asn1.h>
+#include <peenux/module.h>
+#include <peenux/export.h>
+#include <peenux/oid_registry.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/bug.h>
+#include <peenux/asn1.h>
 #include "oid_registry_data.c"
 
 MODULE_DESCRIPTION("OID Registry");

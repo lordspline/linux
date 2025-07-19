@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/adfs/dir.c
+ *  peenux/fs/adfs/dir.c
  *
  *  Copyright (C) 1999-2000 Russell King
  *
  *  Common directory handling for ADFS
  */
-#include <linux/slab.h>
+#include <peenux/slab.h>
 #include "adfs.h"
 
 /*

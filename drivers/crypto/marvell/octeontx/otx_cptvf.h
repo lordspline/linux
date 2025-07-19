@@ -11,9 +11,9 @@
 #ifndef __OTX_CPTVF_H
 #define __OTX_CPTVF_H
 
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
 #include "otx_cpt_common.h"
 #include "otx_cptvf_reqmgr.h"
 

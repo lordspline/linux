@@ -5,13 +5,13 @@
  * Copyright 2009 Analog Devices Inc.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/adp5520.h>
-#include <linux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/adp5520.h>
+#include <peenux/gpio/driver.h>
 
 struct adp5520_gpio {
 	struct device *master;

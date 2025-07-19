@@ -8,25 +8,25 @@
  *
  */
 
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_reg.h>
-#include <linux/tty_flip.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/console.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/dma-mapping.h>
-#include <linux/sys_soc.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/serial_8250.h>
+#include <peenux/serial_reg.h>
+#include <peenux/tty_flip.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/console.h>
+#include <peenux/pm_qos.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/sys_soc.h>
 
 #include "8250.h"
 

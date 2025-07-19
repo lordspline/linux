@@ -6,12 +6,12 @@
 #ifndef _LINUX_KALLSYMS_H
 #define _LINUX_KALLSYMS_H
 
-#include <linux/errno.h>
-#include <linux/buildid.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/mm.h>
-#include <linux/module.h>
+#include <peenux/errno.h>
+#include <peenux/buildid.h>
+#include <peenux/kernel.h>
+#include <peenux/stddef.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
 
 #include <asm/sections.h>
 

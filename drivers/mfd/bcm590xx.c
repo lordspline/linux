@@ -6,16 +6,16 @@
  * Author: Matt Porter <mporter@linaro.org>
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/mfd/bcm590xx.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/mfd/bcm590xx.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 /* Under primary I2C address: */
 #define BCM590XX_REG_PMUID		0x1e

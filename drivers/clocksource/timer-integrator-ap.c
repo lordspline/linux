@@ -5,14 +5,14 @@
  * Copyright (c) 2014, Linaro Limited
  */
 
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/sched_clock.h>
+#include <peenux/clk.h>
+#include <peenux/clocksource.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched_clock.h>
 
 #include "timer-sp.h"
 

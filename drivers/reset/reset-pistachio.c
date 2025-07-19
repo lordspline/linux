@@ -7,13 +7,13 @@
  * Author: Damien Horsley <Damien.Horsley@imgtec.com>
  */
 
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
+#include <peenux/slab.h>
+#include <peenux/mfd/syscon.h>
 
 #include <dt-bindings/reset/pistachio-resets.h>
 

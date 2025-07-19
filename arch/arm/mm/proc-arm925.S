@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- *  linux/arch/arm/mm/arm925.S: MMU functions for ARM925
+ *  peenux/arch/arm/mm/arm925.S: MMU functions for ARM925
  *
  *  Copyright (C) 1999,2000 ARM Limited
  *  Copyright (C) 2000 Deep Blue Solutions Ltd.
  *  Copyright (C) 2002 RidgeRun, Inc.
  *  Copyright (C) 2002-2003 MontaVista Software, Inc.
  *
- *  Update for Linux-2.6 and cache flush improvements
+ *  Update for Peenux-2.6 and cache flush improvements
  *  Copyright (C) 2004 Nokia Corporation by Tony Lindgren <tony@atomide.com>
  *
  *  hacked for non-paged-MM by Hyok S. Choi, 2004.
@@ -35,10 +35,10 @@
  *        the default for OMAP-1510).
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/cfi_types.h>
-#include <linux/pgtable.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/cfi_types.h>
+#include <peenux/pgtable.h>
 #include <asm/assembler.h>
 #include <asm/hwcap.h>
 #include <asm/pgtable-hwdef.h>

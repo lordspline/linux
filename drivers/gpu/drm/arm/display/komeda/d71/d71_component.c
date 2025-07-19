@@ -5,7 +5,7 @@
  *
  */
 
-#include <linux/seq_file.h>
+#include <peenux/seq_file.h>
 #include "d71_dev.h"
 #include "komeda_kms.h"
 #include "malidp_io.h"

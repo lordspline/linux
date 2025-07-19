@@ -25,7 +25,7 @@
 #ifndef __MOCK_REQUEST__
 #define __MOCK_REQUEST__
 
-#include <linux/list.h>
+#include <peenux/list.h>
 
 #include "../i915_request.h"
 

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/net/sunrpc/xprtsock.c
+ * peenux/net/sunrpc/xprtsock.c
  *
  * Client-side transport implementation for sockets.
  *
  * TCP callback races fixes (C) 1998 Red Hat
  * TCP send fixes (C) 1998 Red Hat
  * TCP NFS related read + write fixes
- *  (C) 1999 Dave Airlie, University of Limerick, Ireland <airlied@linux.ie>
+ *  (C) 1999 Dave Airlie, University of Limerick, Ireland <airlied@peenux.ie>
  *
  * Rewrite of larges part of the code in order to stabilize TCP stuff.
  * Fix behaviour when socket buffer is full.
@@ -19,28 +19,28 @@
  *   <gilles.quillard@bull.net>
  */
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/capability.h>
-#include <linux/pagemap.h>
-#include <linux/errno.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/net.h>
-#include <linux/mm.h>
-#include <linux/un.h>
-#include <linux/udp.h>
-#include <linux/tcp.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/xprtsock.h>
-#include <linux/file.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/capability.h>
+#include <peenux/pagemap.h>
+#include <peenux/errno.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/net.h>
+#include <peenux/mm.h>
+#include <peenux/un.h>
+#include <peenux/udp.h>
+#include <peenux/tcp.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/sunrpc/sched.h>
+#include <peenux/sunrpc/svcsock.h>
+#include <peenux/sunrpc/xprtsock.h>
+#include <peenux/file.h>
 #ifdef CONFIG_SUNRPC_BACKCHANNEL
-#include <linux/sunrpc/bc_xprt.h>
+#include <peenux/sunrpc/bc_xprt.h>
 #endif
 
 #include <net/sock.h>
@@ -50,10 +50,10 @@
 #include <net/tls_prot.h>
 #include <net/handshake.h>
 
-#include <linux/bvec.h>
-#include <linux/highmem.h>
-#include <linux/uio.h>
-#include <linux/sched/mm.h>
+#include <peenux/bvec.h>
+#include <peenux/highmem.h>
+#include <peenux/uio.h>
+#include <peenux/sched/mm.h>
 
 #include <trace/events/sock.h>
 #include <trace/events/sunrpc.h>

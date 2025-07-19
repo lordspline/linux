@@ -10,20 +10,20 @@
  * Copyright (C) 2008 Texas Instruments, Inc.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/bits.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/twl.h>
-#include <linux/power_supply.h>
-#include <linux/notifier.h>
-#include <linux/usb/otg.h>
-#include <linux/iio/consumer.h>
-#include <linux/devm-helpers.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/bits.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/power_supply.h>
+#include <peenux/notifier.h>
+#include <peenux/usb/otg.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/devm-helpers.h>
 
 #define CONTROLLER_INT_MASK	0x00
 #define CONTROLLER_CTRL1	0x01

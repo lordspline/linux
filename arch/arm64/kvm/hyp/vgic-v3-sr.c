@@ -6,9 +6,9 @@
 
 #include <hyp/adjust_pc.h>
 
-#include <linux/compiler.h>
-#include <linux/irqchip/arm-gic-v3.h>
-#include <linux/kvm_host.h>
+#include <peenux/compiler.h>
+#include <peenux/irqchip/arm-gic-v3.h>
+#include <peenux/kvm_host.h>
 
 #include <asm/kvm_emulate.h>
 #include <asm/kvm_hyp.h>

@@ -6,17 +6,17 @@
 #ifndef _NVME_H
 #define _NVME_H
 
-#include <linux/nvme.h>
-#include <linux/cdev.h>
-#include <linux/pci.h>
-#include <linux/kref.h>
-#include <linux/blk-mq.h>
-#include <linux/sed-opal.h>
-#include <linux/fault-inject.h>
-#include <linux/rcupdate.h>
-#include <linux/wait.h>
-#include <linux/t10-pi.h>
-#include <linux/ratelimit_types.h>
+#include <peenux/nvme.h>
+#include <peenux/cdev.h>
+#include <peenux/pci.h>
+#include <peenux/kref.h>
+#include <peenux/blk-mq.h>
+#include <peenux/sed-opal.h>
+#include <peenux/fault-inject.h>
+#include <peenux/rcupdate.h>
+#include <peenux/wait.h>
+#include <peenux/t10-pi.h>
+#include <peenux/ratelimit_types.h>
 
 #include <trace/events/block.h>
 

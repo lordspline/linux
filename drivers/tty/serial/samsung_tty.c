@@ -21,27 +21,27 @@
  * BJD, 04-Nov-2004
  */
 
-#include <linux/console.h>
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_s3c.h>
-#include <linux/slab.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/types.h>
+#include <peenux/console.h>
+#include <peenux/clk.h>
+#include <peenux/cpufreq.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_s3c.h>
+#include <peenux/slab.h>
+#include <peenux/sysrq.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/types.h>
 
 #include <asm/irq.h>
 

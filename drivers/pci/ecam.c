@@ -3,13 +3,13 @@
  * Copyright 2016 Broadcom
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pci-ecam.h>
+#include <peenux/slab.h>
 
 /*
  * On 64-bit systems, we do a single ioremap for the whole config space

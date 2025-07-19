@@ -4,11 +4,11 @@
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <peenux/device.h>
+#include <peenux/sysfs.h>
+#include <peenux/thermal.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
 #include "core.h"
 #include "debug.h"
 #include "wmi-ops.h"
@@ -187,7 +187,7 @@ int ath10k_thermal_register(struct ath10k *ar)
 		return 0;
 
 	/* Avoid linking error on devm_hwmon_device_register_with_groups, I
-	 * guess linux/hwmon.h is missing proper stubs.
+	 * guess peenux/hwmon.h is missing proper stubs.
 	 */
 	if (!IS_REACHABLE(CONFIG_HWMON))
 		return 0;

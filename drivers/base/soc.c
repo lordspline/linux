@@ -5,16 +5,16 @@
  * Author: Lee Jones <lee.jones@linaro.org> for ST-Ericsson.
  */
 
-#include <linux/sysfs.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/spinlock.h>
-#include <linux/sys_soc.h>
-#include <linux/err.h>
-#include <linux/glob.h>
+#include <peenux/sysfs.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
+#include <peenux/spinlock.h>
+#include <peenux/sys_soc.h>
+#include <peenux/err.h>
+#include <peenux/glob.h>
 
 static DEFINE_IDA(soc_ida);
 

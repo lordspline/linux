@@ -3,19 +3,19 @@
  * Copyright 2008 Cisco Systems, Inc.  All rights reserved.
  * Copyright 2007 Nuova Systems, Inc.  All rights reserved.
  */
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/workqueue.h>
+#include <peenux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/workqueue.h>
 #include <scsi/fc/fc_fip.h>
 #include <scsi/fc/fc_els.h>
 #include <scsi/fc_frame.h>
-#include <linux/etherdevice.h>
+#include <peenux/etherdevice.h>
 #include <scsi/scsi_transport_fc.h>
 #include "fnic_io.h"
 #include "fnic.h"

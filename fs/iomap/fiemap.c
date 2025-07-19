@@ -2,12 +2,12 @@
 /*
  * Copyright (c) 2016-2021 Christoph Hellwig.
  */
-#include <linux/module.h>
-#include <linux/compiler.h>
-#include <linux/fs.h>
-#include <linux/iomap.h>
-#include <linux/fiemap.h>
-#include <linux/pagemap.h>
+#include <peenux/module.h>
+#include <peenux/compiler.h>
+#include <peenux/fs.h>
+#include <peenux/iomap.h>
+#include <peenux/fiemap.h>
+#include <peenux/pagemap.h>
 
 static int iomap_to_fiemap(struct fiemap_extent_info *fi,
 		const struct iomap *iomap, u32 flags)

@@ -22,29 +22,29 @@
  *
  */
 
-#include <linux/align.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
-#include <linux/util_macros.h>
+#include <peenux/align.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/spi/offload/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/units.h>
+#include <peenux/util_macros.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/buffer-dmaengine.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #define MAX_NUM_CHANNELS		8
 /* 2.5V internal reference voltage */

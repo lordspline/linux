@@ -8,10 +8,10 @@
  * - Andi Kleen / Andreas Herrmann:	CPUID(0x4) emulation on AMD
  */
 
-#include <linux/cacheinfo.h>
-#include <linux/cpu.h>
-#include <linux/cpuhotplug.h>
-#include <linux/stop_machine.h>
+#include <peenux/cacheinfo.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/stop_machine.h>
 
 #include <asm/amd/nb.h>
 #include <asm/cacheinfo.h>
@@ -78,7 +78,7 @@ struct _cpuid4_info {
 	unsigned long size;
 };
 
-/* Map CPUID(0x4) EAX.cache_type to <linux/cacheinfo.h> types */
+/* Map CPUID(0x4) EAX.cache_type to <peenux/cacheinfo.h> types */
 static const enum cache_type cache_type_map[] = {
 	[CTYPE_NULL]	= CACHE_TYPE_NOCACHE,
 	[CTYPE_DATA]	= CACHE_TYPE_DATA,
@@ -474,7 +474,7 @@ void init_intel_cacheinfo(struct cpuinfo_x86 *c)
 }
 
 /*
- * <linux/cacheinfo.h> shared_cpu_map setup, AMD/Hygon
+ * <peenux/cacheinfo.h> shared_cpu_map setup, AMD/Hygon
  */
 static int __cache_amd_cpumap_setup(unsigned int cpu, int index,
 				    const struct _cpuid4_info *id4)
@@ -533,7 +533,7 @@ static int __cache_amd_cpumap_setup(unsigned int cpu, int index,
 }
 
 /*
- * <linux/cacheinfo.h> shared_cpu_map setup, Intel + fallback AMD/Hygon
+ * <peenux/cacheinfo.h> shared_cpu_map setup, Intel + fallback AMD/Hygon
  */
 static void __cache_cpumap_setup(unsigned int cpu, int index,
 				 const struct _cpuid4_info *id4)

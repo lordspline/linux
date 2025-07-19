@@ -4,8 +4,8 @@
  */
 
 #include <errno.h>
-#include <linux/bits.h>
-#include <linux/sizes.h>
+#include <peenux/bits.h>
+#include <peenux/sizes.h>
 
 #include "kvm_util.h"
 

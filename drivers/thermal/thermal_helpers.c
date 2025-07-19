@@ -12,12 +12,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
 
 #include "thermal_core.h"
 #include "thermal_trace.h"

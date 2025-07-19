@@ -11,10 +11,10 @@
 #include "util.h"
 #include "bset.h"
 
-#include <linux/console.h>
-#include <linux/sched/clock.h>
-#include <linux/random.h>
-#include <linux/prefetch.h>
+#include <peenux/console.h>
+#include <peenux/sched/clock.h>
+#include <peenux/random.h>
+#include <peenux/prefetch.h>
 
 #ifdef CONFIG_BCACHE_DEBUG
 

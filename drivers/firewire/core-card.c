@@ -3,23 +3,23 @@
  * Copyright (C) 2005-2007  Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/crc-itu-t.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/bug.h>
+#include <peenux/completion.h>
+#include <peenux/crc-itu-t.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/byteorder.h>
 
 #include "core.h"

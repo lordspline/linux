@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /***************************************************************************
- *   Copyright (C) 2010-2012 by Bruno Prémont <bonbons@linux-vserver.org>  *
+ *   Copyright (C) 2010-2012 by Bruno Prémont <bonbons@peenux-vserver.org>  *
  *                                                                         *
  *   Based on Logitech G13 driver (v0.4)                                   *
  *     Copyright (C) 2009 by Rick L. Vinyard, Jr. <rvinyard@cs.nmsu.edu>   *
  *                                                                         *
  ***************************************************************************/
 
-#include <linux/hid.h>
-#include <linux/hid-debug.h>
-#include <linux/input.h>
+#include <peenux/hid.h>
+#include <peenux/hid-debug.h>
+#include <peenux/input.h>
 #include "hid-ids.h"
 
-#include <linux/fb.h>
-#include <linux/vmalloc.h>
+#include <peenux/fb.h>
+#include <peenux/vmalloc.h>
 
-#include <linux/completion.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/completion.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 
 #include "hid-picolcd.h"
 

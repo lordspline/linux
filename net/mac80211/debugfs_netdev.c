@@ -5,15 +5,15 @@
  * Copyright (C) 2020-2023 Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/if.h>
-#include <linux/if_ether.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/slab.h>
-#include <linux/notifier.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/if.h>
+#include <peenux/if_ether.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/slab.h>
+#include <peenux/notifier.h>
 #include <net/mac80211.h>
 #include <net/cfg80211.h>
 #include "ieee80211_i.h"

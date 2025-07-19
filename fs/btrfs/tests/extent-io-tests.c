@@ -3,11 +3,11 @@
  * Copyright (C) 2013 Fusion IO.  All rights reserved.
  */
 
-#include <linux/pagemap.h>
-#include <linux/pagevec.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/sizes.h>
+#include <peenux/pagemap.h>
+#include <peenux/pagevec.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/sizes.h>
 #include "btrfs-tests.h"
 #include "../ctree.h"
 #include "../extent_io.h"

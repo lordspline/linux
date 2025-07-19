@@ -7,23 +7,23 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/bcd.h>
-#include <linux/delay.h>
-#include <linux/mfd/core.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/bcd.h>
+#include <peenux/delay.h>
+#include <peenux/mfd/core.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/mod_devicetable.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/pdata.h>
-#include <linux/mfd/wm831x/irq.h>
-#include <linux/mfd/wm831x/auxadc.h>
-#include <linux/mfd/wm831x/otp.h>
-#include <linux/mfd/wm831x/pmu.h>
-#include <linux/mfd/wm831x/regulator.h>
+#include <peenux/mfd/wm831x/core.h>
+#include <peenux/mfd/wm831x/pdata.h>
+#include <peenux/mfd/wm831x/irq.h>
+#include <peenux/mfd/wm831x/auxadc.h>
+#include <peenux/mfd/wm831x/otp.h>
+#include <peenux/mfd/wm831x/pmu.h>
+#include <peenux/mfd/wm831x/regulator.h>
 
 /* Current settings - values are 2*2^(reg_val/4) microamps.  These are
  * exported since they are used by multiple drivers.

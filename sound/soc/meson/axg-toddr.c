@@ -5,11 +5,11 @@
 
 /* This driver implements the frontend capture DAI of AXG based SoCs */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>

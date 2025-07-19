@@ -5,16 +5,16 @@
  * Copyright (c) Tomasz Duszynski <tduszyns@gmail.com>
  */
 
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/crc8.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "sps30.h"
 

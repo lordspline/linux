@@ -10,8 +10,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <setjmp.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
 #include "util/debug.h"
 #include "util/perf-hooks.h"
 

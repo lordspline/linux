@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ioport.h>
-#include <linux/printk.h>
+#include <peenux/ioport.h>
+#include <peenux/printk.h>
 #include <asm/e820/api.h>
 #include <asm/pci_x86.h>
 

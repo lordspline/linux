@@ -6,12 +6,12 @@
  *	Marek Belisko <marek.belisko@streamunlimited.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/of.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

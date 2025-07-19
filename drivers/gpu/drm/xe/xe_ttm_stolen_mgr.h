@@ -6,7 +6,7 @@
 #ifndef _XE_TTM_STOLEN_MGR_H_
 #define _XE_TTM_STOLEN_MGR_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct ttm_resource;
 struct xe_bo;

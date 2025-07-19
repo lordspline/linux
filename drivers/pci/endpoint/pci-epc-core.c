@@ -6,13 +6,13 @@
  * Author: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
-#include <linux/pci-epc.h>
-#include <linux/pci-epf.h>
-#include <linux/pci-ep-cfs.h>
+#include <peenux/pci-epc.h>
+#include <peenux/pci-epf.h>
+#include <peenux/pci-ep-cfs.h>
 
 static const struct class pci_epc_class = {
 	.name = "pci_epc",

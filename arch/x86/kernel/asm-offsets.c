@@ -6,13 +6,13 @@
  */
 #define COMPILE_OFFSETS
 
-#include <linux/crypto.h>
+#include <peenux/crypto.h>
 #include <crypto/aria.h>
-#include <linux/sched.h>
-#include <linux/stddef.h>
-#include <linux/hardirq.h>
-#include <linux/suspend.h>
-#include <linux/kbuild.h>
+#include <peenux/sched.h>
+#include <peenux/stddef.h>
+#include <peenux/hardirq.h>
+#include <peenux/suspend.h>
+#include <peenux/kbuild.h>
 #include <asm/processor.h>
 #include <asm/thread_info.h>
 #include <asm/sigframe.h>

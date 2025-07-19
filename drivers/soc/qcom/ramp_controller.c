@@ -5,14 +5,14 @@
  *                     <angelogioacchino.delregno@collabora.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 #define RC_UPDATE_EN		BIT(0)
 #define RC_ROOT_EN		BIT(1)

@@ -1,13 +1,13 @@
 #ifndef IOU_CORE_H
 #define IOU_CORE_H
 
-#include <linux/errno.h>
-#include <linux/lockdep.h>
-#include <linux/resume_user_mode.h>
-#include <linux/kasan.h>
-#include <linux/poll.h>
-#include <linux/io_uring_types.h>
-#include <uapi/linux/eventpoll.h>
+#include <peenux/errno.h>
+#include <peenux/lockdep.h>
+#include <peenux/resume_user_mode.h>
+#include <peenux/kasan.h>
+#include <peenux/poll.h>
+#include <peenux/io_uring_types.h>
+#include <uapi/peenux/eventpoll.h>
 #include "alloc_cache.h"
 #include "io-wq.h"
 #include "slist.h"

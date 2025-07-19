@@ -13,18 +13,18 @@
 
 #define pr_fmt(fmt) "kprobes: " fmt
 
-#include <linux/kernel.h>
-#include <linux/kprobes.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/stop_machine.h>
-#include <linux/sched/debug.h>
-#include <linux/stringify.h>
+#include <peenux/kernel.h>
+#include <peenux/kprobes.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/stop_machine.h>
+#include <peenux/sched/debug.h>
+#include <peenux/stringify.h>
 #include <asm/traps.h>
 #include <asm/opcodes.h>
 #include <asm/cacheflush.h>
-#include <linux/percpu.h>
-#include <linux/bug.h>
+#include <peenux/percpu.h>
+#include <peenux/bug.h>
 #include <asm/text-patching.h>
 #include <asm/sections.h>
 

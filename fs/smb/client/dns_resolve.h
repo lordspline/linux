@@ -11,7 +11,7 @@
 #ifndef _DNS_RESOLVE_H
 #define _DNS_RESOLVE_H
 
-#include <linux/net.h>
+#include <peenux/net.h>
 #include "cifsglob.h"
 #include "cifsproto.h"
 

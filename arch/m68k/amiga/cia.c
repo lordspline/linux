@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/amiga/cia.c - CIA support
+ *  peenux/arch/m68k/amiga/cia.c - CIA support
  *
  *  Copyright (C) 1996 Roman Zippel
  *
@@ -10,15 +10,15 @@
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/kernel_stat.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/errno.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/init.h>
+#include <peenux/seq_file.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
 
 #include <asm/irq.h>
 #include <asm/amigahw.h>

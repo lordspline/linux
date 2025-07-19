@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -14,12 +14,12 @@
 #define _LINUX_TCP_H
 
 
-#include <linux/skbuff.h>
-#include <linux/win_minmax.h>
+#include <peenux/skbuff.h>
+#include <peenux/win_minmax.h>
 #include <net/sock.h>
 #include <net/inet_connection_sock.h>
 #include <net/inet_timewait_sock.h>
-#include <uapi/linux/tcp.h>
+#include <uapi/peenux/tcp.h>
 
 static inline struct tcphdr *tcp_hdr(const struct sk_buff *skb)
 {
@@ -452,7 +452,7 @@ struct tcp_sock {
 /* Sock_ops bpf program related variables */
 #ifdef CONFIG_BPF
 	u8	bpf_sock_ops_cb_flags;  /* Control calling BPF programs
-					 * values defined in uapi/linux/tcp.h
+					 * values defined in uapi/peenux/tcp.h
 					 */
 	u8	bpf_chg_cc_inprogress:1; /* In the middle of
 					  * bpf_setsockopt(TCP_CONGESTION),

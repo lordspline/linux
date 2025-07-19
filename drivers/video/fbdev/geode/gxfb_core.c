@@ -15,19 +15,19 @@
  *
  * 16 MiB of framebuffer memory is assumed to be available.
  */
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/console.h>
-#include <linux/suspend.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/cs5535.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/console.h>
+#include <peenux/suspend.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/cs5535.h>
 
 #include <asm/msr.h>
 #include <asm/olpc.h>

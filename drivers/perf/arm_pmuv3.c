@@ -14,16 +14,16 @@
 
 #include <clocksource/arm_arch_timer.h>
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/clocksource.h>
-#include <linux/of.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/perf/arm_pmuv3.h>
-#include <linux/platform_device.h>
-#include <linux/sched_clock.h>
-#include <linux/smp.h>
-#include <linux/nmi.h>
+#include <peenux/acpi.h>
+#include <peenux/bitfield.h>
+#include <peenux/clocksource.h>
+#include <peenux/of.h>
+#include <peenux/perf/arm_pmu.h>
+#include <peenux/perf/arm_pmuv3.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched_clock.h>
+#include <peenux/smp.h>
+#include <peenux/nmi.h>
 
 /* ARMv8 Cortex-A53 specific event types. */
 #define ARMV8_A53_PERFCTR_PREF_LINEFILL				0xC2

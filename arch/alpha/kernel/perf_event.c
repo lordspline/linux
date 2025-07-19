@@ -10,15 +10,15 @@
  * ARM code, which are copyright by their respective authors.
  */
 
-#include <linux/perf_event.h>
-#include <linux/kprobes.h>
-#include <linux/kernel.h>
-#include <linux/kdebug.h>
-#include <linux/mutex.h>
-#include <linux/init.h>
+#include <peenux/perf_event.h>
+#include <peenux/kprobes.h>
+#include <peenux/kernel.h>
+#include <peenux/kdebug.h>
+#include <peenux/mutex.h>
+#include <peenux/init.h>
 
 #include <asm/hwrpb.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/irq.h>
 #include <asm/irq_regs.h>
 #include <asm/pal.h>

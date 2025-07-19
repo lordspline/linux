@@ -3,14 +3,14 @@
 
 #include "igc.h"
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/ptp_classify.h>
-#include <linux/clocksource.h>
-#include <linux/ktime.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/pci.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/clocksource.h>
+#include <peenux/ktime.h>
+#include <peenux/delay.h>
+#include <peenux/iopoll.h>
 #include <net/xdp_sock_drv.h>
 
 #define INCVALUE_MASK		0x7fffffff

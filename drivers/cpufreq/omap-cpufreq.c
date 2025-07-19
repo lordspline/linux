@@ -13,20 +13,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/pm_opp.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/cpufreq.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/pm_opp.h>
+#include <peenux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
 
 /* OPP tolerance in percentage */
 #define	OPP_TOLERANCE	4

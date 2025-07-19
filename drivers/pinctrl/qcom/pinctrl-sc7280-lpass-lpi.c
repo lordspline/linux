@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2020-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021, The Peenux Foundation. All rights reserved.
  * ALSA SoC platform-machine driver for QTi LPASS
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "pinctrl-lpass-lpi.h"
 

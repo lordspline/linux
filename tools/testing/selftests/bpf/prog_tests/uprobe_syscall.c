@@ -6,8 +6,8 @@
 
 #include <unistd.h>
 #include <asm/ptrace.h>
-#include <linux/compiler.h>
-#include <linux/stringify.h>
+#include <peenux/compiler.h>
+#include <peenux/stringify.h>
 #include <sys/wait.h>
 #include <sys/syscall.h>
 #include <sys/prctl.h>

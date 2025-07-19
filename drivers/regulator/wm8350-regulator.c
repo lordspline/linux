@@ -5,19 +5,19 @@
 // Copyright 2007, 2008 Wolfson Microelectronics PLC.
 //
 // Author: Liam Girdwood
-//         linux@wolfsonmicro.com
+//         peenux@wolfsonmicro.com
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mfd/wm8350/core.h>
-#include <linux/mfd/wm8350/pmic.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/wm8350/core.h>
+#include <peenux/mfd/wm8350/pmic.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
 
 /* Maximum value possible for VSEL */
 #define WM8350_DCDC_MAX_VSEL 0x66

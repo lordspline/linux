@@ -3,7 +3,7 @@
 #include "cgroup_helpers.h"
 
 #include <netinet/tcp.h>
-#include <linux/netlink.h>
+#include <peenux/netlink.h>
 #include "sockopt_sk.skel.h"
 
 #ifndef SOL_TCP

@@ -16,13 +16,13 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/phy.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/brcmphy.h>
-#include <linux/rtnetlink.h>
+#include <peenux/kernel.h>
+#include <peenux/phy.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/delay.h>
+#include <peenux/brcmphy.h>
+#include <peenux/rtnetlink.h>
 #include <net/dsa.h>
 
 #include "b53_priv.h"

@@ -8,9 +8,9 @@
 #ifndef _DCDBAS_H_
 #define _DCDBAS_H_
 
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #define MAX_SMI_DATA_BUF_SIZE			(256 * 1024)
 

@@ -4,13 +4,13 @@
  * Author: Marc Zyngier <marc.zyngier@arm.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/uaccess.h>
+#include <peenux/cpu.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/uaccess.h>
 
 #include <clocksource/arm_arch_timer.h>
 #include <asm/arch_timer.h>

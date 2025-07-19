@@ -7,10 +7,10 @@
 #ifndef _NET_BOND_OPTIONS_H
 #define _NET_BOND_OPTIONS_H
 
-#include <linux/bits.h>
-#include <linux/limits.h>
-#include <linux/types.h>
-#include <linux/string.h>
+#include <peenux/bits.h>
+#include <peenux/limits.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
 
 struct netlink_ext_ack;
 struct nlattr;

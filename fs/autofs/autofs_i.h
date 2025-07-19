@@ -6,27 +6,27 @@
 
 /* Internal header file for autofs */
 
-#include <linux/auto_fs.h>
-#include <linux/auto_dev-ioctl.h>
+#include <peenux/auto_fs.h>
+#include <peenux/auto_dev-ioctl.h>
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/string.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/uaccess.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/completion.h>
-#include <linux/file.h>
-#include <linux/magic.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/string.h>
+#include <peenux/wait.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/uaccess.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/list.h>
+#include <peenux/completion.h>
+#include <peenux/file.h>
+#include <peenux/magic.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
 
 /* This is the range of ioctl() numbers we claim as ours */
 #define AUTOFS_IOC_FIRST     AUTOFS_IOC_READY

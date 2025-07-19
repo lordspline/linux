@@ -7,15 +7,15 @@
  *               2009 Johannes Dickgreber <tanzy@gmx.de>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/notifier.h>
-#include <linux/delay.h>
-#include <linux/rtc/ds1685.h>
-#include <linux/interrupt.h>
-#include <linux/pm.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/notifier.h>
+#include <peenux/delay.h>
+#include <peenux/rtc/ds1685.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm.h>
 
 #include <asm/reboot.h>
 #include <asm/sgi/heart.h>

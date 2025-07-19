@@ -2,30 +2,30 @@
 /* Common capabilities, needed by capability.o.
  */
 
-#include <linux/capability.h>
-#include <linux/audit.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/lsm_hooks.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/skbuff.h>
-#include <linux/netlink.h>
-#include <linux/ptrace.h>
-#include <linux/xattr.h>
-#include <linux/hugetlb.h>
-#include <linux/mount.h>
-#include <linux/sched.h>
-#include <linux/prctl.h>
-#include <linux/securebits.h>
-#include <linux/user_namespace.h>
-#include <linux/binfmts.h>
-#include <linux/personality.h>
-#include <linux/mnt_idmapping.h>
-#include <uapi/linux/lsm.h>
+#include <peenux/capability.h>
+#include <peenux/audit.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/lsm_hooks.h>
+#include <peenux/file.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/pagemap.h>
+#include <peenux/swap.h>
+#include <peenux/skbuff.h>
+#include <peenux/netlink.h>
+#include <peenux/ptrace.h>
+#include <peenux/xattr.h>
+#include <peenux/hugetlb.h>
+#include <peenux/mount.h>
+#include <peenux/sched.h>
+#include <peenux/prctl.h>
+#include <peenux/securebits.h>
+#include <peenux/user_namespace.h>
+#include <peenux/binfmts.h>
+#include <peenux/personality.h>
+#include <peenux/mnt_idmapping.h>
+#include <uapi/peenux/lsm.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/capability.h>
@@ -110,7 +110,7 @@ static inline int cap_capable_helper(const struct cred *cred,
  * @cred: The credentials to use
  * @target_ns:  The user namespace of the resource being accessed
  * @cap: The capability to check for
- * @opts: Bitmask of options defined in include/linux/security.h (unused)
+ * @opts: Bitmask of options defined in include/peenux/security.h (unused)
  *
  * Determine whether the nominated task has the specified capability amongst
  * its effective set, returning 0 if it does, -ve if it does not.

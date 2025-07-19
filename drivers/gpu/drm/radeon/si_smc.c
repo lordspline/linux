@@ -22,7 +22,7 @@
  * Authors: Alex Deucher
  */
 
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 
 #include "radeon.h"
 #include "sid.h"

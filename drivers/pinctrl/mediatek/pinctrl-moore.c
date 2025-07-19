@@ -9,9 +9,9 @@
  */
 
 #include <dt-bindings/pinctrl/mt65xx.h>
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/driver.h>
 
-#include <linux/pinctrl/consumer.h>
+#include <peenux/pinctrl/consumer.h>
 
 #include "pinctrl-moore.h"
 

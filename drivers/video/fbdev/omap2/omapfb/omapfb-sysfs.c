@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/video/omap2/omapfb-sysfs.c
+ * peenux/drivers/video/omap2/omapfb-sysfs.c
  *
  * Copyright (C) 2008 Nokia Corporation
  * Author: Tomi Valkeinen <tomi.valkeinen@nokia.com>
@@ -9,15 +9,15 @@
  * by Imre Deak.
  */
 
-#include <linux/fb.h>
-#include <linux/sysfs.h>
-#include <linux/device.h>
-#include <linux/uaccess.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/mm.h>
-#include <linux/omapfb.h>
+#include <peenux/fb.h>
+#include <peenux/sysfs.h>
+#include <peenux/device.h>
+#include <peenux/uaccess.h>
+#include <peenux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/kstrtox.h>
+#include <peenux/mm.h>
+#include <peenux/omapfb.h>
 
 #include <video/omapfb_dss.h>
 #include <video/omapvrfb.h>

@@ -11,8 +11,8 @@
 
 #include <crypto/aes.h>
 #include <crypto/internal/des.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
 
 #include "cesa.h"
 

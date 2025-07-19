@@ -5,12 +5,12 @@
  *  Copyright (C) 2022 Linaro
  */
 
-#include <linux/efi.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/tee.h>
-#include <linux/tee_drv.h>
-#include <linux/ucs2_string.h>
+#include <peenux/efi.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/tee.h>
+#include <peenux/tee_drv.h>
+#include <peenux/ucs2_string.h>
 #include "mm_communication.h"
 
 static struct efivars tee_efivars;

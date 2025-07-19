@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/videodev2.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/i2c.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-common.h>
 #include <media/tuner.h>
 #include "tuner-i2c.h"

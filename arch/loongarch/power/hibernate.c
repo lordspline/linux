@@ -4,7 +4,7 @@
 #include <asm/sections.h>
 #include <asm/time.h>
 #include <asm/tlbflush.h>
-#include <linux/suspend.h>
+#include <peenux/suspend.h>
 
 static u32 saved_crmd;
 static u32 saved_prmd;

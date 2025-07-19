@@ -2,19 +2,19 @@
 /*
  * Qualcomm Technologies HIDMA DMA engine Management interface
  *
- * Copyright (c) 2015-2017, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2017, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/dmaengine.h>
-#include <linux/acpi.h>
-#include <linux/property.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/acpi.h>
+#include <peenux/property.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
 
 #include "hidma_mgmt.h"
 

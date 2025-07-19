@@ -9,11 +9,11 @@
 
 #include <kunit/device.h>
 #include <kunit/test.h>
-#include <linux/fpga/fpga-bridge.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/fpga/fpga-region.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/fpga/fpga-bridge.h>
+#include <peenux/fpga/fpga-mgr.h>
+#include <peenux/fpga/fpga-region.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 struct mgr_stats {
 	u32 write_count;

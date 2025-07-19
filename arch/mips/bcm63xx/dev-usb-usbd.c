@@ -8,10 +8,10 @@
  * Copyright (C) 2012 Broadcom Corporation
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_dev_usb_usbd.h>
 

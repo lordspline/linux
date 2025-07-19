@@ -13,11 +13,11 @@
 #ifndef __JSM_DRIVER_H
 #define __JSM_DRIVER_H
 
-#include <linux/kernel.h>
-#include <linux/types.h>	/* To pick up the varions Linux types */
-#include <linux/tty.h>
-#include <linux/serial_core.h>
-#include <linux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>	/* To pick up the varions Peenux types */
+#include <peenux/tty.h>
+#include <peenux/serial_core.h>
+#include <peenux/device.h>
 
 /*
  * Debugging levels can be set using debug insmod variable

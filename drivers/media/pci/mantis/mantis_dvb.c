@@ -5,14 +5,14 @@
 
 */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/i2c.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/i2c.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

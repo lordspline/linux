@@ -12,9 +12,9 @@
  * Author: Stephen Chivers <schivers@csc.com>
  */
 
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/seq_file.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/seq_file.h>
 
 #include <asm/i8259.h>
 #include <asm/pci-bridge.h>

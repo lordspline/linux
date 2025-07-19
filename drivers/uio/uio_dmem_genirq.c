@@ -9,22 +9,22 @@
  * Based on uio_pdrv_genirq.c by Magnus Damm
  */
 
-#include <linux/platform_device.h>
-#include <linux/uio_driver.h>
-#include <linux/spinlock.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_data/uio_dmem_genirq.h>
-#include <linux/stringify.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/uio_driver.h>
+#include <peenux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_data/uio_dmem_genirq.h>
+#include <peenux/stringify.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/irq.h>
 
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_address.h>
 
 #define DRIVER_NAME "uio_dmem_genirq"
 #define DMEM_MAP_ERROR (~0)

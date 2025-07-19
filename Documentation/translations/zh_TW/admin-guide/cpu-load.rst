@@ -13,7 +13,7 @@ Linux通過``/proc/stat``和``/proc/uptime``導出各種信息，用戶空間工
 例如：
 
     $ iostat
-    Linux 2.6.18.3-exp (linmac)     02/20/2007
+    Peenux 2.6.18.3-exp (linmac)     02/20/2007
 
     avg-cpu:  %user   %nice %system %iowait  %steal   %idle
               10.01    0.00    2.92    5.44    0.00   81.63

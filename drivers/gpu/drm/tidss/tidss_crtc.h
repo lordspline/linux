@@ -7,8 +7,8 @@
 #ifndef __TIDSS_CRTC_H__
 #define __TIDSS_CRTC_H__
 
-#include <linux/completion.h>
-#include <linux/wait.h>
+#include <peenux/completion.h>
+#include <peenux/wait.h>
 
 #include <drm/drm_crtc.h>
 

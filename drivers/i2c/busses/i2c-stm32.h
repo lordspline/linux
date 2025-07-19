@@ -11,9 +11,9 @@
 #ifndef _I2C_STM32_H
 #define _I2C_STM32_H
 
-#include <linux/dma-direction.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
 
 enum stm32_i2c_speed {
 	STM32_I2C_SPEED_STANDARD, /* 100 kHz */

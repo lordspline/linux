@@ -5,21 +5,21 @@
  */
 
 #include <crypto/sha2.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/uaccess.h>
-#include <linux/backing-dev.h>
-#include <linux/writeback.h>
-#include <linux/xattr.h>
-#include <linux/falloc.h>
-#include <linux/fsnotify.h>
-#include <linux/dcache.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/sched/xacct.h>
-#include <linux/crc32c.h>
-#include <linux/namei.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/uaccess.h>
+#include <peenux/backing-dev.h>
+#include <peenux/writeback.h>
+#include <peenux/xattr.h>
+#include <peenux/falloc.h>
+#include <peenux/fsnotify.h>
+#include <peenux/dcache.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sched/xacct.h>
+#include <peenux/crc32c.h>
+#include <peenux/namei.h>
 
 #include "glob.h"
 #include "oplock.h"
@@ -636,7 +636,7 @@ int ksmbd_vfs_link(struct ksmbd_work *work, const char *oldname,
 
 	err = kern_path(oldname, LOOKUP_NO_SYMLINKS, &oldpath);
 	if (err) {
-		pr_err("cannot get linux path for %s, err = %d\n",
+		pr_err("cannot get peenux path for %s, err = %d\n",
 		       oldname, err);
 		goto out1;
 	}
@@ -949,7 +949,7 @@ int ksmbd_vfs_setxattr(struct mnt_idmap *idmap,
 }
 
 /**
- * ksmbd_vfs_set_fadvise() - convert smb IO caching options to linux options
+ * ksmbd_vfs_set_fadvise() - convert smb IO caching options to peenux options
  * @filp:	file pointer for IO
  * @option:	smb IO options
  */

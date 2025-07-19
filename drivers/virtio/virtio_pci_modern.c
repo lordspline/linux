@@ -14,8 +14,8 @@
  *  Michael S. Tsirkin <mst@redhat.com>
  */
 
-#include <linux/delay.h>
-#include <linux/virtio_pci_admin.h>
+#include <peenux/delay.h>
+#include <peenux/virtio_pci_admin.h>
 #define VIRTIO_PCI_NO_LEGACY
 #define VIRTIO_RING_NO_LEGACY
 #include "virtio_pci_common.h"

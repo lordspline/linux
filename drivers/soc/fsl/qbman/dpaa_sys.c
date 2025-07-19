@@ -28,7 +28,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/dma-mapping.h>
+#include <peenux/dma-mapping.h>
 #include "dpaa_sys.h"
 
 /*

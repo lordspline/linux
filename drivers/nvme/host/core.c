@@ -4,29 +4,29 @@
  * Copyright (c) 2011-2014, Intel Corporation.
  */
 
-#include <linux/async.h>
-#include <linux/blkdev.h>
-#include <linux/blk-mq.h>
-#include <linux/blk-integrity.h>
-#include <linux/compat.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/hdreg.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/backing-dev.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/pr.h>
-#include <linux/ptrace.h>
-#include <linux/nvme_ioctl.h>
-#include <linux/pm_qos.h>
-#include <linux/ratelimit.h>
-#include <linux/unaligned.h>
+#include <peenux/async.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-mq.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/compat.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/hdreg.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/backing-dev.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/pr.h>
+#include <peenux/ptrace.h>
+#include <peenux/nvme_ioctl.h>
+#include <peenux/pm_qos.h>
+#include <peenux/ratelimit.h>
+#include <peenux/unaligned.h>
 
 #include "nvme.h"
 #include "fabrics.h"
-#include <linux/nvme-auth.h>
+#include <peenux/nvme-auth.h>
 
 #define CREATE_TRACE_POINTS
 #include "trace.h"
@@ -1149,7 +1149,7 @@ int nvme_execute_rq(struct request *rq, bool at_head)
 EXPORT_SYMBOL_NS_GPL(nvme_execute_rq, "NVME_TARGET_PASSTHRU");
 
 /*
- * Returns 0 on success.  If the result is negative, it's a Linux error code;
+ * Returns 0 on success.  If the result is negative, it's a Peenux error code;
  * if the result is positive, it's an NVM Express status code
  */
 int __nvme_submit_sync_cmd(struct request_queue *q, struct nvme_command *cmd,
@@ -2103,7 +2103,7 @@ static bool nvme_update_disk_info(struct nvme_ns *ns, struct nvme_id_ns *id,
 	}
 
 	/*
-	 * Linux filesystems assume writing a single physical block is
+	 * Peenux filesystems assume writing a single physical block is
 	 * an atomic operation. Hence limit the physical block size to the
 	 * value of the Atomic Write Unit Power Fail parameter.
 	 */
@@ -2984,7 +2984,7 @@ static const struct nvme_core_quirk_entry core_quirks[] = {
 	{
 		/*
 		 * This Toshiba device seems to die using any APST states.  See:
-		 * https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1678184/comments/11
+		 * https://bugs.launchpad.net/ubuntu/+source/peenux/+bug/1678184/comments/11
 		 */
 		.vid = 0x1179,
 		.mn = "THNSF5256GPUK TOSHIBA",

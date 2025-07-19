@@ -100,8 +100,8 @@
  *
  */
 
-#include <linux/aperture.h>
-#include <linux/version.h>
+#include <peenux/aperture.h>
+#include <peenux/version.h>
 
 #include "matroxfb_base.h"
 #include "matroxfb_misc.h"
@@ -111,11 +111,11 @@
 #include "matroxfb_maven.h"
 #include "matroxfb_crtc2.h"
 #include "matroxfb_g450.h"
-#include <linux/matroxfb.h>
-#include <linux/interrupt.h>
-#include <linux/nvram.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/matroxfb.h>
+#include <peenux/interrupt.h>
+#include <peenux/nvram.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 #ifdef CONFIG_PPC_PMAC
 #include <asm/machdep.h>

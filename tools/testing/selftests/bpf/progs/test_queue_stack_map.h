@@ -2,10 +2,10 @@
 // Copyright (c) 2018 Politecnico di Torino
 #include <stddef.h>
 #include <string.h>
-#include <linux/bpf.h>
-#include <linux/if_ether.h>
-#include <linux/ip.h>
-#include <linux/pkt_cls.h>
+#include <peenux/bpf.h>
+#include <peenux/if_ether.h>
+#include <peenux/ip.h>
+#include <peenux/pkt_cls.h>
 #include <bpf/bpf_helpers.h>
 
 struct {

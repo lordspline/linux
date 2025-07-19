@@ -11,11 +11,11 @@
  * systems with no controllable regulators.
  */
 
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/device/faux.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/device/faux.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
 
 #include "dummy.h"
 

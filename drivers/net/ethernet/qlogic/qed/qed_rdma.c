@@ -4,21 +4,21 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
 #include <net/addrconf.h>
 #include "qed.h"
 #include "qed_cxt.h"
@@ -30,7 +30,7 @@
 #include "qed_ll2.h"
 #include "qed_mcp.h"
 #include "qed_reg_addr.h"
-#include <linux/qed/qed_rdma_if.h>
+#include <peenux/qed/qed_rdma_if.h>
 #include "qed_rdma.h"
 #include "qed_roce.h"
 #include "qed_sp.h"

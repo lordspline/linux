@@ -28,25 +28,25 @@
 		poll-interval = <100>;
 
 		button-vol-up {
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			label = "volume up";
 			press-threshold-microvolt = <17000>;
 		};
 
 		button-vol-down {
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 			label = "volume down";
 			press-threshold-microvolt = <414000>;
 		};
 
 		button-menu {
-			linux,code = <KEY_MENU>;
+			peenux,code = <KEY_MENU>;
 			label = "menu";
 			press-threshold-microvolt = <800000>;
 		};
 
 		button-back {
-			linux,code = <KEY_BACK>;
+			peenux,code = <KEY_BACK>;
 			label = "back";
 			press-threshold-microvolt = <1200000>;
 		};
@@ -57,7 +57,7 @@
 
 		work_led: led-0 {
 			gpios = <&gpio0 RK_PB4 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 

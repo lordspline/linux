@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 #define boot_fmt(fmt) "vmem: " fmt
-#include <linux/cpufeature.h>
-#include <linux/sched/task.h>
-#include <linux/pgtable.h>
-#include <linux/kasan.h>
+#include <peenux/cpufeature.h>
+#include <peenux/sched/task.h>
+#include <peenux/pgtable.h>
+#include <peenux/kasan.h>
 #include <asm/page-states.h>
 #include <asm/pgalloc.h>
 #include <asm/facility.h>

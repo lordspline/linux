@@ -12,22 +12,22 @@
  * driver
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
 #include <asm/termbits.h>
-#include <linux/usb.h>
-#include <linux/serial_reg.h>
-#include <linux/serial.h>
-#include <linux/usb/serial.h>
-#include <linux/usb/ezusb.h>
+#include <peenux/usb.h>
+#include <peenux/serial_reg.h>
+#include <peenux/serial.h>
+#include <peenux/usb/serial.h>
+#include <peenux/usb/ezusb.h>
 #include "whiteheat.h"			/* WhiteHEAT specific commands */
 
 /*

@@ -5,20 +5,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/if.h>
-#include <linux/skbuff.h>
-#include <linux/ip.h>
-#include <linux/if_tunnel.h>
-#include <linux/if_vlan.h>
-#include <linux/in.h>
-#include <linux/in_route.h>
-#include <linux/inetdevice.h>
-#include <linux/jhash.h>
-#include <linux/list.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
-#include <linux/rculist.h>
+#include <peenux/if.h>
+#include <peenux/skbuff.h>
+#include <peenux/ip.h>
+#include <peenux/if_tunnel.h>
+#include <peenux/if_vlan.h>
+#include <peenux/in.h>
+#include <peenux/in_route.h>
+#include <peenux/inetdevice.h>
+#include <peenux/jhash.h>
+#include <peenux/list.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/workqueue.h>
+#include <peenux/rculist.h>
 #include <net/route.h>
 #include <net/xfrm.h>
 

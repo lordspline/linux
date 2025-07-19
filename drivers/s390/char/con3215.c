@@ -10,25 +10,25 @@
  *	      Dan Morrison, IBM Corporation <dmorriso@cse.buffalo.edu>
  */
 
-#include <linux/types.h>
-#include <linux/kdev_t.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/vt_kern.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/panic_notifier.h>
-#include <linux/reboot.h>
-#include <linux/serial.h> /* ASYNC_* flags */
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kdev_t.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/vt_kern.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/interrupt.h>
+#include <peenux/err.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/serial.h> /* ASYNC_* flags */
+#include <peenux/slab.h>
 #include <asm/machine.h>
 #include <asm/ccwdev.h>
 #include <asm/cio.h>
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/ebcdic.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/delay.h>
 #include <asm/cpcmd.h>
 #include <asm/setup.h>

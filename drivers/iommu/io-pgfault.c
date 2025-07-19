@@ -5,11 +5,11 @@
  * Copyright (C) 2020 ARM Ltd.
  */
 
-#include <linux/iommu.h>
-#include <linux/list.h>
-#include <linux/sched/mm.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/iommu.h>
+#include <peenux/list.h>
+#include <peenux/sched/mm.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include "iommu-priv.h"
 

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2024  Realtek Corporation.*/
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "table.h"
 

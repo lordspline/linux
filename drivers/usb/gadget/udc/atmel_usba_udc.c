@@ -4,35 +4,35 @@
  *
  * Copyright (C) 2005-2007 Atmel Corporation
  */
-#include <linux/clk.h>
-#include <linux/clk/at91_pmc.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/list.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/ctype.h>
-#include <linux/usb.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/irq.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/clk/at91_pmc.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/list.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/ctype.h>
+#include <peenux/usb.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/irq.h>
+#include <peenux/gpio/consumer.h>
 
 #include "atmel_usba_udc.h"
 #define USBA_VBUS_IRQFLAGS (IRQF_ONESHOT \
 			   | IRQF_TRIGGER_FALLING | IRQF_TRIGGER_RISING)
 
 #ifdef CONFIG_USB_GADGET_DEBUG_FS
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
 
 static int queue_dbg_open(struct inode *inode, struct file *file)
 {

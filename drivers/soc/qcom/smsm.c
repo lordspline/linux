@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2015, Sony Mobile Communications Inc.
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/interrupt.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/regmap.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/soc/qcom/smem_state.h>
+#include <peenux/interrupt.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/regmap.h>
+#include <peenux/soc/qcom/smem.h>
+#include <peenux/soc/qcom/smem_state.h>
 
 /*
  * This driver implements the Qualcomm Shared Memory State Machine, a mechanism

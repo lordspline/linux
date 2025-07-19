@@ -7,18 +7,18 @@
  * Based on preview driver from Silicon Image.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gfp.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gfp.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/device.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_cmnd.h>
-#include <linux/libata.h>
+#include <peenux/libata.h>
 
 #define DRV_NAME	"sata_sil24"
 #define DRV_VERSION	"1.1"

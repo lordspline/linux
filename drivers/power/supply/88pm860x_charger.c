@@ -7,14 +7,14 @@
  *		Haojian Zhuang <haojian.zhuang@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/power_supply.h>
-#include <linux/mfd/88pm860x.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/power_supply.h>
+#include <peenux/mfd/88pm860x.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
 #include <asm/div64.h>
 
 /* bit definitions of Status Query Interface 2 */

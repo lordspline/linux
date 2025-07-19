@@ -3,13 +3,13 @@
  * Copyright 2011-2012 Calxeda, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #define HB_PLL_LOCK_500		0x20000000
 #define HB_PLL_LOCK		0x10000000

@@ -5,15 +5,15 @@
  * Copyright (C) 2023 Luis Chamberlain <mcgrof@kernel.org>
  */
 
-#include <linux/module.h>
-#include <uapi/linux/module.h>
-#include <linux/string.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/debugfs.h>
-#include <linux/rculist.h>
-#include <linux/math.h>
+#include <peenux/module.h>
+#include <uapi/peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/debugfs.h>
+#include <peenux/rculist.h>
+#include <peenux/math.h>
 
 #include "internal.h"
 

@@ -5,10 +5,10 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/nls.h>
-#include <linux/ctype.h>
-#include <linux/posix_acl.h>
+#include <peenux/fs.h>
+#include <peenux/nls.h>
+#include <peenux/ctype.h>
+#include <peenux/posix_acl.h>
 
 #include "debug.h"
 #include "ntfs.h"

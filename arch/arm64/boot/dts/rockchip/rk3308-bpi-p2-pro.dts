@@ -30,7 +30,7 @@
 
 		button-recovery {
 			label = "Recovery";
-			linux,code = <KEY_VENDOR>;
+			peenux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <10000>;
 		};
 	};
@@ -55,7 +55,7 @@
 			function = LED_FUNCTION_POWER;
 			gpios = <&gpio0 RK_PA6 GPIO_ACTIVE_HIGH>;
 			label = "blue:power";
-			linux,default-trigger = "default-on";
+			peenux,default-trigger = "default-on";
 		};
 
 		green-led {
@@ -64,7 +64,7 @@
 			function = LED_FUNCTION_HEARTBEAT;
 			gpios = <&gpio0 RK_PA5 GPIO_ACTIVE_HIGH>;
 			label = "green:heartbeat";
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 

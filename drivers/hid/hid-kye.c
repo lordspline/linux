@@ -8,10 +8,10 @@
  *  Copyright (c) 2023 David Yang
  */
 
-#include <linux/unaligned.h>
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <peenux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
 
 #include "hid-ids.h"
 

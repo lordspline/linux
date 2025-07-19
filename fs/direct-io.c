@@ -20,23 +20,23 @@
  *		added IO completion notifier.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/task_io_accounting_ops.h>
-#include <linux/bio.h>
-#include <linux/wait.h>
-#include <linux/err.h>
-#include <linux/blkdev.h>
-#include <linux/buffer_head.h>
-#include <linux/rwsem.h>
-#include <linux/uio.h>
-#include <linux/atomic.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/task_io_accounting_ops.h>
+#include <peenux/bio.h>
+#include <peenux/wait.h>
+#include <peenux/err.h>
+#include <peenux/blkdev.h>
+#include <peenux/buffer_head.h>
+#include <peenux/rwsem.h>
+#include <peenux/uio.h>
+#include <peenux/atomic.h>
 
 #include "internal.h"
 

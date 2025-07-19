@@ -18,21 +18,21 @@
  *               Marko Isomaki
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/io.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/skbuff.h>
+#include <peenux/io.h>
+#include <peenux/crc32.h>
+#include <peenux/mii.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include <asm/cacheflush.h>
 #include <asm/byteorder.h>
 

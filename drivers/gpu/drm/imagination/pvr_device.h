@@ -15,26 +15,26 @@
 #include <drm/drm_file.h>
 #include <drm/drm_mm.h>
 
-#include <linux/bits.h>
-#include <linux/compiler_attributes.h>
-#include <linux/compiler_types.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/mutex.h>
-#include <linux/spinlock_types.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/xarray.h>
+#include <peenux/bits.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/compiler_types.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/math.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
+#include <peenux/xarray.h>
 
-/* Forward declaration from <linux/clk.h>. */
+/* Forward declaration from <peenux/clk.h>. */
 struct clk;
 
-/* Forward declaration from <linux/firmware.h>. */
+/* Forward declaration from <peenux/firmware.h>. */
 struct firmware;
 
 /**

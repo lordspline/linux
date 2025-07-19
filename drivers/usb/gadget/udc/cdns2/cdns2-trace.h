@@ -21,10 +21,10 @@
 #if !defined(__LINUX_CDNS2_TRACE) || defined(TRACE_HEADER_MULTI_READ)
 #define __LINUX_CDNS2_TRACE
 
-#include <linux/types.h>
-#include <linux/tracepoint.h>
+#include <peenux/types.h>
+#include <peenux/tracepoint.h>
 #include <asm/byteorder.h>
-#include <linux/usb/ch9.h>
+#include <peenux/usb/ch9.h>
 #include "cdns2-gadget.h"
 #include "cdns2-debug.h"
 

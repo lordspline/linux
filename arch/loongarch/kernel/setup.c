@@ -10,29 +10,29 @@
  * Copyright (C) 1999 Silicon Graphics, Inc.
  * Copyright (C) 2000, 2001, 2002, 2007	 Maciej W. Rozycki
  */
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/dmi.h>
-#include <linux/efi.h>
-#include <linux/export.h>
-#include <linux/memblock.h>
-#include <linux/initrd.h>
-#include <linux/ioport.h>
-#include <linux/kexec.h>
-#include <linux/crash_dump.h>
-#include <linux/root_dev.h>
-#include <linux/console.h>
-#include <linux/pfn.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/device.h>
-#include <linux/dma-map-ops.h>
-#include <linux/libfdt.h>
-#include <linux/of_fdt.h>
-#include <linux/of_address.h>
-#include <linux/suspend.h>
-#include <linux/swiotlb.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
+#include <peenux/cpu.h>
+#include <peenux/dmi.h>
+#include <peenux/efi.h>
+#include <peenux/export.h>
+#include <peenux/memblock.h>
+#include <peenux/initrd.h>
+#include <peenux/ioport.h>
+#include <peenux/kexec.h>
+#include <peenux/crash_dump.h>
+#include <peenux/root_dev.h>
+#include <peenux/console.h>
+#include <peenux/pfn.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
+#include <peenux/device.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/libfdt.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_address.h>
+#include <peenux/suspend.h>
+#include <peenux/swiotlb.h>
 
 #include <asm/addrspace.h>
 #include <asm/alternative.h>

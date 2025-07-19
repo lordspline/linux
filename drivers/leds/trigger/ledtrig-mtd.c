@@ -11,9 +11,9 @@
  * Author: Richard Purdie <rpurdie@openedhand.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/leds.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/leds.h>
 
 #define BLINK_DELAY 30
 

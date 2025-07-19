@@ -11,8 +11,8 @@
 #ifndef __ASM_MACH_ATH79_H
 #define __ASM_MACH_ATH79_H
 
-#include <linux/types.h>
-#include <linux/io.h>
+#include <peenux/types.h>
+#include <peenux/io.h>
 
 enum ath79_soc_type {
 	ATH79_SOC_UNKNOWN,

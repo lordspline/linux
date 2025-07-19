@@ -12,20 +12,20 @@
  * and mono/stereo Class-D speaker driver.
  */
 
-#include <linux/unaligned.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/acpi.h>
-#include <linux/firmware.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/acpi.h>
+#include <peenux/firmware.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

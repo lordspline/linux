@@ -3,24 +3,24 @@
  * Copyright (C) STMicroelectronics 2018 - All Rights Reserved
  * Author: Ludovic Barre <ludovic.barre@st.com> for STMicroelectronics.
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
-#include <linux/spi/spi-mem.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/sizes.h>
+#include <peenux/spi/spi-mem.h>
 
 #define QSPI_CR			0x00
 #define CR_EN			BIT(0)

@@ -5,12 +5,12 @@
  * Copyright (c) 2012-2016, Intel Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 #include "bus.h"
 #include "ishtp-dev.h"
 #include "client.h"

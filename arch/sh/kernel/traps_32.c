@@ -8,21 +8,21 @@
  *                  Copyright (C) 2000 David Howells
  *                  Copyright (C) 2002 - 2010 Paul Mundt
  */
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/kallsyms.h>
-#include <linux/io.h>
-#include <linux/bug.h>
-#include <linux/debug_locks.h>
-#include <linux/kdebug.h>
-#include <linux/limits.h>
-#include <linux/sysfs.h>
-#include <linux/uaccess.h>
-#include <linux/perf_event.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/hardirq.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/kallsyms.h>
+#include <peenux/io.h>
+#include <peenux/bug.h>
+#include <peenux/debug_locks.h>
+#include <peenux/kdebug.h>
+#include <peenux/limits.h>
+#include <peenux/sysfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/perf_event.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/alignment.h>
 #include <asm/fpu.h>

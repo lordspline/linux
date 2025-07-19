@@ -12,31 +12,31 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/string.h>
-#include <linux/if_arp.h>
-#include <linux/inetdevice.h>
-#include <linux/inet.h>
-#include <linux/interrupt.h>
-#include <linux/netpoll.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/rcupdate.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/if_vlan.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/string.h>
+#include <peenux/if_arp.h>
+#include <peenux/inetdevice.h>
+#include <peenux/inet.h>
+#include <peenux/interrupt.h>
+#include <peenux/netpoll.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/rcupdate.h>
+#include <peenux/workqueue.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/if_vlan.h>
 #include <net/tcp.h>
 #include <net/udp.h>
 #include <net/addrconf.h>
 #include <net/ndisc.h>
 #include <net/ip6_checksum.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <trace/events/napi.h>
-#include <linux/kconfig.h>
+#include <peenux/kconfig.h>
 
 /*
  * We maintain a small pool of fully-sized skbs, to make sure the

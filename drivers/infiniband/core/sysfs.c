@@ -34,11 +34,11 @@
 
 #include "core_priv.h"
 
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/string.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
 
 #include <rdma/ib_mad.h>
 #include <rdma/ib_pma.h>

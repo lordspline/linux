@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mm/fault-armv.c
+ *  peenux/arch/arm/mm/fault-armv.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  *  Modifications for ARM processor (c) 1995-2002 Russell King
  */
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/bitops.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/pagemap.h>
-#include <linux/gfp.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/bitops.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/pagemap.h>
+#include <peenux/gfp.h>
 
 #include <asm/bugs.h>
 #include <asm/cacheflush.h>

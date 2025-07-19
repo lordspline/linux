@@ -5,10 +5,10 @@
 /*
  *  Driver for HAL2 sound processors
  *  Copyright (c) 1999 Ulf Carlsson <ulfc@bun.falkenberg.se>
- *  Copyright (c) 2001, 2002, 2003 Ladislav Michl <ladis@linux-mips.org>
+ *  Copyright (c) 2001, 2002, 2003 Ladislav Michl <ladis@peenux-mips.org>
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* Indirect status register */
 

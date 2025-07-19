@@ -1,20 +1,20 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * NUMA memory policies for Linux.
+ * NUMA memory policies for Peenux.
  * Copyright 2003,2004 Andi Kleen SuSE Labs
  */
 #ifndef _LINUX_MEMPOLICY_H
 #define _LINUX_MEMPOLICY_H 1
 
-#include <linux/sched.h>
-#include <linux/mmzone.h>
-#include <linux/slab.h>
-#include <linux/rbtree.h>
-#include <linux/spinlock.h>
-#include <linux/node.h>
-#include <linux/nodemask.h>
-#include <linux/pagemap.h>
-#include <uapi/linux/mempolicy.h>
+#include <peenux/sched.h>
+#include <peenux/mmzone.h>
+#include <peenux/slab.h>
+#include <peenux/rbtree.h>
+#include <peenux/spinlock.h>
+#include <peenux/node.h>
+#include <peenux/nodemask.h>
+#include <peenux/pagemap.h>
+#include <uapi/peenux/mempolicy.h>
 
 struct mm_struct;
 

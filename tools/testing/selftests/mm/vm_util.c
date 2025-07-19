@@ -5,8 +5,8 @@
 #include <dirent.h>
 #include <inttypes.h>
 #include <sys/ioctl.h>
-#include <linux/userfaultfd.h>
-#include <linux/fs.h>
+#include <peenux/userfaultfd.h>
+#include <peenux/fs.h>
 #include <sys/syscall.h>
 #include <unistd.h>
 #include "../kselftest.h"

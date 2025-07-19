@@ -3,20 +3,20 @@
  * Copyright (C) 1999 - 2010 Intel Corporation.
  * Copyright (C) 2010 - 2012 LAPIS SEMICONDUCTOR CO., LTD.
  *
- * This code was derived from the Intel e1000e Linux driver.
+ * This code was derived from the Intel e1000e Peenux driver.
  */
 
 #include "pch_gbe.h"
 #include "pch_gbe_phy.h"
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/net_tstamp.h>
-#include <linux/ptp_classify.h>
-#include <linux/ptp_pch.h>
-#include <linux/gpio.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/ptp_pch.h>
+#include <peenux/gpio.h>
 
 #define PCH_GBE_MAR_ENTRIES		16
 #define PCH_GBE_SHORT_PKT		64

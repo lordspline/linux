@@ -5,20 +5,20 @@
  * This file is released under the GPL.
  */
 
-#include <linux/blkdev.h>
-#include <linux/device-mapper.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kdev_t.h>
-#include <linux/list.h>
-#include <linux/list_bl.h>
-#include <linux/mempool.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/log2.h>
-#include <linux/dm-kcopyd.h>
+#include <peenux/blkdev.h>
+#include <peenux/device-mapper.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/kdev_t.h>
+#include <peenux/list.h>
+#include <peenux/list_bl.h>
+#include <peenux/mempool.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/log2.h>
+#include <peenux/dm-kcopyd.h>
 
 #include "dm.h"
 

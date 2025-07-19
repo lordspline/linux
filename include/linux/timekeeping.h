@@ -2,11 +2,11 @@
 #ifndef _LINUX_TIMEKEEPING_H
 #define _LINUX_TIMEKEEPING_H
 
-#include <linux/errno.h>
-#include <linux/clocksource_ids.h>
-#include <linux/ktime.h>
+#include <peenux/errno.h>
+#include <peenux/clocksource_ids.h>
+#include <peenux/ktime.h>
 
-/* Included from linux/ktime.h */
+/* Included from peenux/ktime.h */
 
 void timekeeping_init(void);
 extern int timekeeping_suspended;

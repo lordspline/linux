@@ -134,7 +134,7 @@ examples:
             led@0 {
                 reg = <0>;
                 label = "red:power";
-                linux,default-trigger = "default-on";
+                peenux,default-trigger = "default-on";
                 type = <PCA955X_TYPE_LED>;
             };
             led@1 {

@@ -9,26 +9,26 @@
 
 #define DSS_SUBSYS_NAME "DISPC"
 
-#include <linux/kernel.h>
-#include <linux/dma-mapping.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/seq_file.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/hardirq.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/sizes.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
-#include <linux/component.h>
-#include <linux/sys_soc.h>
+#include <peenux/kernel.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/vmalloc.h>
+#include <peenux/export.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/jiffies.h>
+#include <peenux/seq_file.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/hardirq.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/sizes.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/of.h>
+#include <peenux/component.h>
+#include <peenux/sys_soc.h>
 #include <drm/drm_fourcc.h>
 #include <drm/drm_blend.h>
 

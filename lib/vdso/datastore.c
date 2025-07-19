@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/linkage.h>
-#include <linux/mmap_lock.h>
-#include <linux/mm.h>
-#include <linux/time_namespace.h>
-#include <linux/types.h>
-#include <linux/vdso_datastore.h>
+#include <peenux/linkage.h>
+#include <peenux/mmap_lock.h>
+#include <peenux/mm.h>
+#include <peenux/time_namespace.h>
+#include <peenux/types.h>
+#include <peenux/vdso_datastore.h>
 #include <vdso/datapage.h>
 
 /*

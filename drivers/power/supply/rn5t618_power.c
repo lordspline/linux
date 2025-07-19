@@ -5,19 +5,19 @@
  * Copyright (C) 2020 Andreas Kemnade
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/iio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mfd/rn5t618.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/mfd/rn5t618.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #define CHG_STATE_ADP_INPUT 0x40
 #define CHG_STATE_USB_INPUT 0x80

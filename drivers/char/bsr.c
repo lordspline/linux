@@ -6,16 +6,16 @@
  * Author: Sonny Rao <sonnyrao@us.ibm.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/cdev.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/cdev.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 #include <asm/io.h>
 
 /*

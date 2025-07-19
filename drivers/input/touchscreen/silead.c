@@ -9,22 +9,22 @@
  * -------------------------------------------------------------------------
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/irq.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/interrupt.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/irq.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define SILEAD_TS_NAME		"silead_ts"
 
@@ -405,7 +405,7 @@ static int silead_ts_load_fw(struct i2c_client *client)
 	/*
 	 * Unfortunately, at the time of writing this comment, we have been unable to
 	 * get permission from Silead, or from device OEMs, to distribute the necessary
-	 * Silead firmware files in linux-firmware.
+	 * Silead firmware files in peenux-firmware.
 	 *
 	 * On a whole bunch of devices the UEFI BIOS code contains a touchscreen driver,
 	 * which contains an embedded copy of the firmware. The fw-loader code has a

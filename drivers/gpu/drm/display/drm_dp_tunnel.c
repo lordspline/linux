@@ -3,8 +3,8 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/ref_tracker.h>
-#include <linux/types.h>
+#include <peenux/ref_tracker.h>
+#include <peenux/types.h>
 
 #include <drm/drm_atomic_state_helper.h>
 

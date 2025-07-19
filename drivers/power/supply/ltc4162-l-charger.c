@@ -8,14 +8,14 @@
  *  Copyright (C) 2020, Topic Embedded Products
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/power_supply.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/power_supply.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 
 /* Registers (names based on what datasheet uses) */
 #define LTC4162L_EN_LIMIT_ALERTS_REG		0x0D

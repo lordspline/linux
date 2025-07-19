@@ -5,13 +5,13 @@
 #include <stdarg.h>
 #include <stddef.h>
 #include <assert.h>
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/math.h>
-#include <linux/panic.h>
+#include <peenux/build_bug.h>
+#include <peenux/compiler.h>
+#include <peenux/math.h>
+#include <peenux/panic.h>
 #include <endian.h>
 #include <byteswap.h>
-#include <linux/container_of.h>
+#include <peenux/container_of.h>
 
 #ifndef UINT_MAX
 #define UINT_MAX	(~0U)

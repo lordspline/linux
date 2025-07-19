@@ -57,7 +57,7 @@
 		interrupt-parent = <&tlmm>;
 		interrupts = <17 IRQ_TYPE_LEVEL_LOW>;
 
-		linux,keycodes = <KEY_RESERVED>,
+		peenux,keycodes = <KEY_RESERVED>,
 				 <KEY_RESERVED>,
 				 <KEY_RESERVED>,
 				 <KEY_RESERVED>,

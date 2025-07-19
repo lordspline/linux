@@ -8,23 +8,23 @@
  * Copyright (C) 2008-2016 Helge Deller <deller@gmx.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/elf.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/personality.h>
-#include <linux/regset.h>
-#include <linux/security.h>
-#include <linux/seccomp.h>
-#include <linux/compat.h>
-#include <linux/signal.h>
-#include <linux/audit.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/elf.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/personality.h>
+#include <peenux/regset.h>
+#include <peenux/security.h>
+#include <peenux/seccomp.h>
+#include <peenux/compat.h>
+#include <peenux/signal.h>
+#include <peenux/audit.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/processor.h>
 #include <asm/asm-offsets.h>
 

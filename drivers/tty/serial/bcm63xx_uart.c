@@ -10,21 +10,21 @@
  * my board.
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/console.h>
-#include <linux/clk.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/sysrq.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_bcm63xx.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/console.h>
+#include <peenux/clk.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/sysrq.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_bcm63xx.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
 
 #define BCM63XX_NR_UARTS	2
 

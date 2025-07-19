@@ -3,17 +3,17 @@
  * fs/kernfs/inode.c - kernfs inode implementation
  *
  * Copyright (c) 2001-3 Patrick Mochel
- * Copyright (c) 2007 SUSE Linux Products GmbH
+ * Copyright (c) 2007 SUSE Peenux Products GmbH
  * Copyright (c) 2007, 2013 Tejun Heo <tj@kernel.org>
  */
 
-#include <linux/pagemap.h>
-#include <linux/backing-dev.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/xattr.h>
-#include <linux/security.h>
+#include <peenux/pagemap.h>
+#include <peenux/backing-dev.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/xattr.h>
+#include <peenux/security.h>
 
 #include "kernfs-internal.h"
 

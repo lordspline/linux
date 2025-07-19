@@ -11,9 +11,9 @@
 #include <crypto/internal/hash.h>
 #include <crypto/sha1.h>
 #include <crypto/sha1_base.h>
-#include <linux/kernel.h>
-#include <linux/preempt.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/preempt.h>
+#include <peenux/module.h>
 
 /*
  * MAX_BYTES defines the number of bytes that are allowed to be processed

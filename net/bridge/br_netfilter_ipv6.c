@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Handle firewalling
- *	Linux ethernet bridge
+ *	Peenux ethernet bridge
  *
  *	Authors:
  *	Lennert Buytenhek		<buytenh@gnu.org>
@@ -10,23 +10,23 @@
  *	Lennert dedicates this file to Kerstin Wurdinger.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/ip.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_arp.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/if_pppox.h>
-#include <linux/ppp_defs.h>
-#include <linux/netfilter_bridge.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/netfilter_ipv6.h>
-#include <linux/netfilter_arp.h>
-#include <linux/in_route.h>
-#include <linux/inetdevice.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/ip.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/if_pppox.h>
+#include <peenux/ppp_defs.h>
+#include <peenux/netfilter_bridge.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/netfilter_ipv6.h>
+#include <peenux/netfilter_arp.h>
+#include <peenux/in_route.h>
+#include <peenux/inetdevice.h>
 
 #include <net/ip.h>
 #include <net/ipv6.h>
@@ -34,10 +34,10 @@
 #include <net/route.h>
 #include <net/netfilter/br_netfilter.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include "br_private.h"
 #ifdef CONFIG_SYSCTL
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 #endif
 
 int br_validate_ipv6(struct net *net, struct sk_buff *skb)

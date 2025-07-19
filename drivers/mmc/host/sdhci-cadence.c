@@ -4,15 +4,15 @@
  *   Author: Masahiro Yamada <yamada.masahiro@socionext.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 
 #include "sdhci-pltfm.h"
 

@@ -10,19 +10,19 @@
 
 #include <dt-bindings/pinctrl/pinctrl-zynqmp.h>
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 
-#include <linux/firmware/xlnx-zynqmp.h>
+#include <peenux/firmware/xlnx-zynqmp.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "core.h"
 #include "pinctrl-utils.h"

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  IUCV protocol stack for Linux on zSeries
+ *  IUCV protocol stack for Peenux on zSeries
  *
  *  Copyright IBM Corp. 2006, 2009
  *
  *  Author(s):	Jennifer Hunt <jenhunt@us.ibm.com>
- *		Hendrik Brueckner <brueckner@linux.vnet.ibm.com>
+ *		Hendrik Brueckner <brueckner@peenux.vnet.ibm.com>
  *  PM functions:
  *		Ursula Braun <ursula.braun@de.ibm.com>
  */
@@ -13,25 +13,25 @@
 #define KMSG_COMPONENT "af_iucv"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/filter.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/types.h>
-#include <linux/limits.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/security.h>
+#include <peenux/filter.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/types.h>
+#include <peenux/limits.h>
+#include <peenux/list.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/poll.h>
+#include <peenux/security.h>
 #include <net/sock.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>
 #include <asm/cpcmd.h>
-#include <linux/kmod.h>
+#include <peenux/kmod.h>
 
 #include <net/iucv/af_iucv.h>
 

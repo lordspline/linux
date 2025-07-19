@@ -4,11 +4,11 @@
  * Copyright (C) 2007,2010  Rene Herman
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/isa.h>
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/isa.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
 #include <asm/processor.h>
 #include <sound/core.h>
 #include <sound/initval.h>

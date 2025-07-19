@@ -17,10 +17,10 @@
  */
 
 
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/moduleparam.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/moduleparam.h>
 #include <sound/core.h>
 #include <sound/info.h>
 #include <sound/pcm.h>

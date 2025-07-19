@@ -2,8 +2,8 @@
 #ifndef _LINUX_IOMMU_COMMON_H
 #define _LINUX_IOMMU_COMMON_H
 
-#include <linux/spinlock_types.h>
-#include <linux/device.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/device.h>
 #include <asm/page.h>
 
 #define IOMMU_POOL_HASHBITS     4

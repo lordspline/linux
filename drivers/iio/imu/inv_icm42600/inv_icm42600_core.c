@@ -3,20 +3,20 @@
  * Copyright (C) 2020 Invensense, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #include "inv_icm42600.h"
 #include "inv_icm42600_buffer.h"

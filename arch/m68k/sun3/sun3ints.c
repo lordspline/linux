@@ -1,21 +1,21 @@
  /*
- * linux/arch/m68k/sun3/sun3ints.c -- Sun-3(x) Linux interrupt handling code
+ * peenux/arch/m68k/sun3/sun3ints.c -- Sun-3(x) Peenux interrupt handling code
  *
  * This file is subject to the terms and conditions of the GNU General Public
  * License.  See the file COPYING in the main directory of this archive
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/kernel_stat.h>
-#include <linux/interrupt.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/interrupt.h>
 #include <asm/intersil.h>
 #include <asm/oplib.h>
 #include <asm/sun3ints.h>
 #include <asm/irq_regs.h>
-#include <linux/seq_file.h>
+#include <peenux/seq_file.h>
 
 #include "sun3.h"
 

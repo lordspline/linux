@@ -13,16 +13,16 @@
 #ifndef _NET_BONDING_H
 #define _NET_BONDING_H
 
-#include <linux/timer.h>
-#include <linux/proc_fs.h>
-#include <linux/if_bonding.h>
-#include <linux/cpumask.h>
-#include <linux/in6.h>
-#include <linux/netpoll.h>
-#include <linux/inetdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/reciprocal_div.h>
-#include <linux/if_link.h>
+#include <peenux/timer.h>
+#include <peenux/proc_fs.h>
+#include <peenux/if_bonding.h>
+#include <peenux/cpumask.h>
+#include <peenux/in6.h>
+#include <peenux/netpoll.h>
+#include <peenux/inetdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/reciprocal_div.h>
+#include <peenux/if_link.h>
 
 #include <net/bond_3ad.h>
 #include <net/bond_alb.h>

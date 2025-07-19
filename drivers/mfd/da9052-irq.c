@@ -10,17 +10,17 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
-#include <linux/mfd/da9052/da9052.h>
-#include <linux/mfd/da9052/reg.h>
+#include <peenux/mfd/da9052/da9052.h>
+#include <peenux/mfd/da9052/reg.h>
 
 #define DA9052_NUM_IRQ_REGS		4
 #define DA9052_IRQ_MASK_POS_1		0x01

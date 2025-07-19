@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* linux/drivers/i2c/busses/i2c-s3c2410.c
+/* peenux/drivers/i2c/busses/i2c-s3c2410.c
  *
  * Copyright (C) 2004,2005,2009 Simtec Electronics
  *	Ben Dooks <ben@simtec.co.uk>
@@ -7,31 +7,31 @@
  * S3C2410 I2C Controller
 */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/cpufreq.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
 
 #include <asm/irq.h>
 
-#include <linux/platform_data/i2c-s3c2410.h>
+#include <peenux/platform_data/i2c-s3c2410.h>
 
 /* see s3c2410x user guide, v1.1, section 9 (p447) for more info */
 

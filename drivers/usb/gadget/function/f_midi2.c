@@ -3,10 +3,10 @@
  * f_midi2.c -- USB MIDI 2.0 class function driver
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include <sound/core.h>
 #include <sound/control.h>
@@ -14,11 +14,11 @@
 #include <sound/ump_msg.h>
 #include <sound/ump_convert.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/func_utils.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/midi-v2.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/func_utils.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/audio.h>
+#include <peenux/usb/midi-v2.h>
 
 #include "u_midi2.h"
 

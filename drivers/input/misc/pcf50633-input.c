@@ -9,14 +9,14 @@
  * Harald Welte, Andy Green and Werner Almesberger
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
 
-#include <linux/mfd/pcf50633/core.h>
+#include <peenux/mfd/pcf50633/core.h>
 
 #define PCF50633_OOCSTAT_ONKEY	0x01
 #define PCF50633_REG_OOCSTAT	0x12

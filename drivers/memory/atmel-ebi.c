@@ -6,18 +6,18 @@
  * Copyright (C) 2013 Jean-Jacques Hiblot <jjhiblot@traphandler.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/atmel-matrix.h>
-#include <linux/mfd/syscon/atmel-smc.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/atmel-matrix.h>
+#include <peenux/mfd/syscon/atmel-smc.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 #include <soc/at91/atmel-sfr.h>
 
 #define AT91_EBI_NUM_CS		8

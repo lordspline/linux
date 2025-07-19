@@ -6,14 +6,14 @@
  *
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
 
-#include <linux/mfd/da9052/reg.h>
-#include <linux/mfd/da9052/da9052.h>
+#include <peenux/mfd/da9052/reg.h>
+#include <peenux/mfd/da9052/da9052.h>
 
 #define TSI_PEN_DOWN_STATUS 0x40
 

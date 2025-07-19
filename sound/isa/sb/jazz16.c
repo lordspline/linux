@@ -11,13 +11,13 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
 #include <asm/dma.h>
-#include <linux/isa.h>
+#include <peenux/isa.h>
 #include <sound/core.h>
 #include <sound/mpu401.h>
 #include <sound/opl3.h>

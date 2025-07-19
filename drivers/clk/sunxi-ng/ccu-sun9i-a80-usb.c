@@ -3,10 +3,10 @@
  * Copyright (c) 2016 Chen-Yu Tsai. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "ccu_common.h"
 #include "ccu_gate.h"

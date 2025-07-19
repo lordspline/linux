@@ -40,11 +40,11 @@
 #ifndef AF_CAN_H
 #define AF_CAN_H
 
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/list.h>
-#include <linux/rcupdate.h>
-#include <linux/can.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/list.h>
+#include <peenux/rcupdate.h>
+#include <peenux/can.h>
 
 /* af_can rx dispatcher structures */
 

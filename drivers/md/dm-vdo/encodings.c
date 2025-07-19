@@ -5,7 +5,7 @@
 
 #include "encodings.h"
 
-#include <linux/log2.h>
+#include <peenux/log2.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

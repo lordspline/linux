@@ -38,11 +38,11 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/time64.h>
-#include <linux/zalloc.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/time64.h>
+#include <peenux/zalloc.h>
 #include <errno.h>
 #include <inttypes.h>
 #include <poll.h>

@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mm/dma-mapping.c
+ *  peenux/arch/arm/mm/dma-mapping.c
  *
  *  Copyright (C) 2000-2004 Russell King
  *
  *  DMA uncached mapping support.
  */
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/genalloc.h>
-#include <linux/gfp.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/dma-direct.h>
-#include <linux/dma-map-ops.h>
-#include <linux/highmem.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/iommu.h>
-#include <linux/io.h>
-#include <linux/vmalloc.h>
-#include <linux/sizes.h>
-#include <linux/cma.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/genalloc.h>
+#include <peenux/gfp.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/dma-direct.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/highmem.h>
+#include <peenux/memblock.h>
+#include <peenux/slab.h>
+#include <peenux/iommu.h>
+#include <peenux/io.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sizes.h>
+#include <peenux/cma.h>
 
 #include <asm/page.h>
 #include <asm/highmem.h>

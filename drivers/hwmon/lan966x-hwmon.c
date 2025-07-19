@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/hwmon.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/polynomial.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/hwmon.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/polynomial.h>
+#include <peenux/regmap.h>
 
 /*
  * The original translation formulae of the temperature (in degrees of Celsius)

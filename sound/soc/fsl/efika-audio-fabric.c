@@ -10,14 +10,14 @@
  * kind, whether express or implied.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

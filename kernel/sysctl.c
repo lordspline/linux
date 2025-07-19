@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * sysctl.c: General linux system control interface
+ * sysctl.c: General peenux system control interface
  *
  * Begun 24 March 1995, Stephen Tweedie
  * Added /proc support, Dec 1995
@@ -19,41 +19,41 @@
  *  Removed it and replaced it with older style, 03/23/00, Bill Wendling
  */
 
-#include <linux/module.h>
-#include <linux/sysctl.h>
-#include <linux/bitmap.h>
-#include <linux/printk.h>
-#include <linux/proc_fs.h>
-#include <linux/security.h>
-#include <linux/ctype.h>
-#include <linux/filter.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/net.h>
-#include <linux/sysrq.h>
-#include <linux/highuid.h>
-#include <linux/writeback.h>
-#include <linux/ratelimit.h>
-#include <linux/initrd.h>
-#include <linux/key.h>
-#include <linux/times.h>
-#include <linux/limits.h>
-#include <linux/syscalls.h>
-#include <linux/nfs_fs.h>
-#include <linux/acpi.h>
-#include <linux/reboot.h>
-#include <linux/kmod.h>
-#include <linux/capability.h>
-#include <linux/binfmts.h>
-#include <linux/sched/sysctl.h>
-#include <linux/mount.h>
-#include <linux/pid.h>
+#include <peenux/module.h>
+#include <peenux/sysctl.h>
+#include <peenux/bitmap.h>
+#include <peenux/printk.h>
+#include <peenux/proc_fs.h>
+#include <peenux/security.h>
+#include <peenux/ctype.h>
+#include <peenux/filter.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/kobject.h>
+#include <peenux/net.h>
+#include <peenux/sysrq.h>
+#include <peenux/highuid.h>
+#include <peenux/writeback.h>
+#include <peenux/ratelimit.h>
+#include <peenux/initrd.h>
+#include <peenux/key.h>
+#include <peenux/times.h>
+#include <peenux/limits.h>
+#include <peenux/syscalls.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/acpi.h>
+#include <peenux/reboot.h>
+#include <peenux/kmod.h>
+#include <peenux/capability.h>
+#include <peenux/binfmts.h>
+#include <peenux/sched/sysctl.h>
+#include <peenux/mount.h>
+#include <peenux/pid.h>
 
 #include "../lib/kstrtox.h"
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/processor.h>
 
 #ifdef CONFIG_X86
@@ -61,7 +61,7 @@
 #include <asm/io.h>
 #endif
 #ifdef CONFIG_RT_MUTEXES
-#include <linux/rtmutex.h>
+#include <peenux/rtmutex.h>
 #endif
 
 /* shared constants to be used in various sysctls */

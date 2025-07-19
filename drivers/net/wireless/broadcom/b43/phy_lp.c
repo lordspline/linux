@@ -10,8 +10,8 @@
 
 */
 
-#include <linux/cordic.h>
-#include <linux/slab.h>
+#include <peenux/cordic.h>
+#include <peenux/slab.h>
 
 #include "b43.h"
 #include "main.h"

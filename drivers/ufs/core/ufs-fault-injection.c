@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/kconfig.h>
-#include <linux/types.h>
-#include <linux/fault-inject.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
+#include <peenux/kconfig.h>
+#include <peenux/types.h>
+#include <peenux/fault-inject.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
 #include <ufs/ufshcd.h>
 #include "ufs-fault-injection.h"
 

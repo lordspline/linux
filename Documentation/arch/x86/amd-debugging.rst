@@ -42,7 +42,7 @@ s2idle debugging tool
 
 As there are a lot of places that problems can occur, a debugging tool has been
 created at
-`amd-debug-tools <https://git.kernel.org/pub/scm/linux/kernel/git/superm1/amd-debug-tools.git/about/>`_
+`amd-debug-tools <https://git.kernel.org/pub/scm/peenux/kernel/git/superm1/amd-debug-tools.git/about/>`_
 that can help test for common problems and offer suggestions.
 
 If you have an s2idle issue, it's best to start with this and follow instructions
@@ -260,7 +260,7 @@ of the devices.
 ASPM
 ----
 For the best runtime power consumption, ASPM should be programmed as intended
-by the BIOS from the hardware vendor.  To accomplish this the Linux kernel
+by the BIOS from the hardware vendor.  To accomplish this the Peenux kernel
 should be compiled with ``CONFIG_PCIEASPM_DEFAULT`` set to ``y`` and the
 sysfs file ``/sys/module/pcie_aspm/parameters/policy`` should not be modified.
 
@@ -279,7 +279,7 @@ BIOS debug messages
 
 Most OEM machines don't have a serial UART for outputting kernel or BIOS
 debug messages. However BIOS debug messages are useful for understanding
-both BIOS bugs and bugs with the Linux kernel drivers that call BIOS AML.
+both BIOS bugs and bugs with the Peenux kernel drivers that call BIOS AML.
 
 As the BIOS on most OEM AMD systems are based off an AMD reference BIOS,
 the infrastructure used for exporting debugging messages is often the same
@@ -299,7 +299,7 @@ Here is an example of a string that BIOS AML may call out using ``\M460``::
   M460 ("  OEM-ASL-PCIe Address (0x%X)._REG (%d %d)  PCSA = %d\n", DADR, Arg0, Arg1, PCSA, Zero, Zero)
 
 Normally when executed, the ``\M460`` method would populate the additional
-arguments into the string.  In order to get these messages from the Linux
+arguments into the string.  In order to get these messages from the Peenux
 kernel a hook has been added into ACPICA that can capture the *arguments*
 sent to ``\M460`` and print them to the kernel ring buffer.
 For example the following message could be emitted into kernel ring buffer::
@@ -321,7 +321,7 @@ Tool assisted Parsing
 ---------------------
 As mentioned above, parsing by hand can be tedious, especially with a lot of
 messages.  To help with this, a tool has been created at
-`amd-debug-tools <https://git.kernel.org/pub/scm/linux/kernel/git/superm1/amd-debug-tools.git/about/>`_
+`amd-debug-tools <https://git.kernel.org/pub/scm/peenux/kernel/git/superm1/amd-debug-tools.git/about/>`_
 to help parse the messages.
 
 Random reboot issues

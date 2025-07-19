@@ -22,28 +22,28 @@
  *	et. al.
  */
 
-#include <linux/cpu.h>
-#include <linux/export.h>
-#include <linux/percpu.h>
-#include <linux/hrtimer.h>
-#include <linux/notifier.h>
-#include <linux/syscalls.h>
-#include <linux/interrupt.h>
-#include <linux/tick.h>
-#include <linux/err.h>
-#include <linux/debugobjects.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/sysctl.h>
-#include <linux/sched/rt.h>
-#include <linux/sched/deadline.h>
-#include <linux/sched/nohz.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/isolation.h>
-#include <linux/timer.h>
-#include <linux/freezer.h>
-#include <linux/compat.h>
+#include <peenux/cpu.h>
+#include <peenux/export.h>
+#include <peenux/percpu.h>
+#include <peenux/hrtimer.h>
+#include <peenux/notifier.h>
+#include <peenux/syscalls.h>
+#include <peenux/interrupt.h>
+#include <peenux/tick.h>
+#include <peenux/err.h>
+#include <peenux/debugobjects.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/sysctl.h>
+#include <peenux/sched/rt.h>
+#include <peenux/sched/deadline.h>
+#include <peenux/sched/nohz.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/timer.h>
+#include <peenux/freezer.h>
+#include <peenux/compat.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <trace/events/timer.h>
 

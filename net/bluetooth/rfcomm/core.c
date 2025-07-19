@@ -1,5 +1,5 @@
 /*
-   RFCOMM implementation for Linux Bluetooth stack (BlueZ).
+   RFCOMM implementation for Peenux Bluetooth stack (BlueZ).
    Copyright (C) 2002 Maxim Krasnyansky <maxk@qualcomm.com>
    Copyright (C) 2002 Marcel Holtmann <marcel@holtmann.org>
 
@@ -25,10 +25,10 @@
  * Bluetooth RFCOMM core.
  */
 
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/kthread.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/kthread.h>
+#include <peenux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

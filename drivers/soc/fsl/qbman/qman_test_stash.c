@@ -30,8 +30,8 @@
 
 #include "qman_test.h"
 
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
 
 /*
  * Algorithm:

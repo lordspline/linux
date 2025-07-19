@@ -5,14 +5,14 @@
  * Copyright (C) 2022 ARM Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/math.h>
-#include <linux/limits.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/powercap.h>
-#include <linux/scmi_protocol.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/math.h>
+#include <peenux/limits.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/powercap.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/slab.h>
 
 #define to_scmi_powercap_zone(z)		\
 	container_of(z, struct scmi_powercap_zone, zone)

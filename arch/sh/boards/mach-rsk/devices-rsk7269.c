@@ -5,13 +5,13 @@
  * Copyright (C) 2012  Renesas Electronics Europe Ltd
  * Copyright (C) 2012  Phil Edworthy
  */
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/smsc911x.h>
-#include <linux/gpio.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/smsc911x.h>
+#include <peenux/gpio.h>
 #include <asm/machvec.h>
 #include <asm/io.h>
 

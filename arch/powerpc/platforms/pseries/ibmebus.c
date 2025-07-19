@@ -36,18 +36,18 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/console.h>
-#include <linux/kobject.h>
-#include <linux/dma-map-ops.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/console.h>
+#include <peenux/kobject.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 #include <asm/ibmebus.h>
 #include <asm/machdep.h>
 

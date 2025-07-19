@@ -6,8 +6,8 @@
 #ifndef _IPE_EVAL_H
 #define _IPE_EVAL_H
 
-#include <linux/file.h>
-#include <linux/types.h>
+#include <peenux/file.h>
+#include <peenux/types.h>
 
 #include "policy.h"
 #include "hooks.h"

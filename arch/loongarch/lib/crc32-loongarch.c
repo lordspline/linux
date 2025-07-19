@@ -10,10 +10,10 @@
  */
 
 #include <asm/cpu-features.h>
-#include <linux/crc32.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <peenux/crc32.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/unaligned.h>
 
 #define _CRC32(crc, value, size, type)			\
 do {							\

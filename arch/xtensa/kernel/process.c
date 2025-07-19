@@ -15,35 +15,35 @@
  * Kevin Chea
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/elf.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/init.h>
-#include <linux/prctl.h>
-#include <linux/init_task.h>
-#include <linux/module.h>
-#include <linux/mqueue.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/rcupdate.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/elf.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/init.h>
+#include <peenux/prctl.h>
+#include <peenux/init_task.h>
+#include <peenux/module.h>
+#include <peenux/mqueue.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/rcupdate.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 #include <asm/processor.h>
 #include <asm/platform.h>
 #include <asm/mmu.h>
 #include <asm/irq.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/asm-offsets.h>
 #include <asm/regs.h>
 #include <asm/hw_breakpoint.h>
@@ -58,7 +58,7 @@ EXPORT_SYMBOL(pm_power_off);
 
 
 #ifdef CONFIG_STACKPROTECTOR
-#include <linux/stackprotector.h>
+#include <peenux/stackprotector.h>
 unsigned long __stack_chk_guard __read_mostly;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

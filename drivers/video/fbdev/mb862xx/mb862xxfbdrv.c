@@ -10,18 +10,18 @@
 
 #undef DEBUG
 
-#include <linux/aperture.h>
-#include <linux/fb.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/aperture.h>
+#include <peenux/fb.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 #include "mb862xxfb.h"
 #include "mb862xx_reg.h"

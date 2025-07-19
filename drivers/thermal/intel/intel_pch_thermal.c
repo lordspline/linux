@@ -7,16 +7,16 @@
  *     Tushar Dave <tushar.n.dave@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/suspend.h>
-#include <linux/thermal.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/pm.h>
+#include <peenux/suspend.h>
+#include <peenux/thermal.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 /* Intel PCH thermal Device IDs */
 #define PCH_THERMAL_DID_HSW_1	0x9C24 /* Haswell PCH */

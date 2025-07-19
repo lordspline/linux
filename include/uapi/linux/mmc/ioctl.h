@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef LINUX_MMC_IOCTL_H
 #define LINUX_MMC_IOCTL_H
 
-#include <linux/types.h>
-#include <linux/major.h>
+#include <peenux/types.h>
+#include <peenux/major.h>
 
 struct mmc_ioc_cmd {
 	/*

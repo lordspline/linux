@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2014, Intel Corporation
  * Authors: Rafael J. Wysocki <rafael.j.wysocki@intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ *          Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
 #ifndef _LINUX_PROPERTY_H_
 #define _LINUX_PROPERTY_H_
 
-#include <linux/args.h>
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/fwnode.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/args.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/fwnode.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 struct device;
 

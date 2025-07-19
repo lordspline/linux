@@ -8,18 +8,18 @@
  *  Based on various ehci-*.c drivers
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/phy.h>
-#include <linux/usb/of.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/phy.h>
+#include <peenux/usb/of.h>
 
 #include "ehci.h"
 

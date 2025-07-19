@@ -4,12 +4,12 @@
  * Author: Andy Yan <andy.yan@rock-chips.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/component.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <peenux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/component.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
 #include <drm/drm_blend.h>
 #include <drm/drm_fourcc.h>
 #include <drm/drm_framebuffer.h>

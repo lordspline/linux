@@ -7,9 +7,9 @@
 
 #define _GNU_SOURCE
 #include <errno.h>
-#include <linux/audit.h>
-#include <linux/limits.h>
-#include <linux/netlink.h>
+#include <peenux/audit.h>
+#include <peenux/limits.h>
+#include <peenux/netlink.h>
 #include <regex.h>
 #include <stdbool.h>
 #include <stdint.h>

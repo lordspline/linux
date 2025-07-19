@@ -10,17 +10,17 @@
 #ifndef	_USBATM_H_
 #define	_USBATM_H_
 
-#include <linux/atm.h>
-#include <linux/atmdev.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/stringify.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
-#include <linux/ratelimit.h>
+#include <peenux/atm.h>
+#include <peenux/atmdev.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/stringify.h>
+#include <peenux/usb.h>
+#include <peenux/mutex.h>
+#include <peenux/ratelimit.h>
 
 /*
 #define VERBOSE_DEBUG

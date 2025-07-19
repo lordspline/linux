@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/mfd/tps65218.h
+ * peenux/mfd/tps65218.h
  *
  * Functions to access TPS65218 power management chip.
  *
@@ -10,10 +10,10 @@
 #ifndef __LINUX_MFD_TPS65218_H
 #define __LINUX_MFD_TPS65218_H
 
-#include <linux/i2c.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/bitops.h>
+#include <peenux/i2c.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/bitops.h>
 
 /* TPS chip id list */
 #define TPS65218			0xF0

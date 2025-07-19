@@ -8,10 +8,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include "dpll_core.h"
 #include "dpll_netlink.h"

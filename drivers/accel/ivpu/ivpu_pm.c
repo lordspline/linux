@@ -3,11 +3,11 @@
  * Copyright (C) 2020-2024 Intel Corporation
  */
 
-#include <linux/highmem.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/reboot.h>
+#include <peenux/highmem.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reboot.h>
 
 #include "ivpu_coredump.h"
 #include "ivpu_drv.h"

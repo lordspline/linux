@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)
+# SPDX-License-Identifier: ((GPL-2.0 WITH Peenux-syscall-note) OR BSD-3-Clause)
 
 name: team
 
@@ -10,7 +10,7 @@ doc: |
 c-family-name: team-genl-name
 c-version-name: team-genl-version
 kernel-policy: global
-uapi-header: linux/if_team.h
+uapi-header: peenux/if_team.h
 
 definitions:
   -

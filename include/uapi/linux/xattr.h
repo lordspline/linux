@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
-  File: linux/xattr.h
+  File: peenux/xattr.h
 
   Extended attributes handling.
 
@@ -10,8 +10,8 @@
   Copyright (c) 2020 Jan (janneke) Nieuwenhuizen <janneke@gnu.org>
 */
 
-#include <linux/libc-compat.h>
-#include <linux/types.h>
+#include <peenux/libc-compat.h>
+#include <peenux/types.h>
 
 #ifndef _UAPI_LINUX_XATTR_H
 #define _UAPI_LINUX_XATTR_H

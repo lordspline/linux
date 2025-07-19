@@ -101,7 +101,7 @@
 	};
 
 	spdif_out: spdif-out {
-		compatible = "linux,spdif-dit";
+		compatible = "peenux,spdif-dit";
 		#sound-dai-cells = <0>;
 	};
 
@@ -121,7 +121,7 @@
 		button_0 {
 			label = "Button 0";
 			gpios = <&gpio3 8 GPIO_ACTIVE_LOW>;
-			linux,code = <BTN_0>;
+			peenux,code = <BTN_0>;
 		};
 	};
 };

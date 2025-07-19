@@ -15,26 +15,26 @@
  *	"BCM1250/BCM1125/BCM1125H User Manual", Broadcom Corporation
  */
 
-#include <linux/compiler.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/major.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/spinlock.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/major.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/spinlock.h>
+#include <peenux/sysrq.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/types.h>
 
-#include <linux/refcount.h>
-#include <linux/io.h>
+#include <peenux/refcount.h>
+#include <peenux/io.h>
 
 #include <asm/sibyte/sb1250.h>
 #include <asm/sibyte/sb1250_uart.h>
@@ -69,7 +69,7 @@
 #endif
 
 
-MODULE_AUTHOR("Maciej W. Rozycki <macro@linux-mips.org>");
+MODULE_AUTHOR("Maciej W. Rozycki <macro@peenux-mips.org>");
 MODULE_DESCRIPTION("BCM1xxx on-chip DUART serial driver");
 MODULE_LICENSE("GPL");
 

@@ -7,10 +7,10 @@
 #ifndef _IRQ_RISCV_IMSIC_STATE_H
 #define _IRQ_RISCV_IMSIC_STATE_H
 
-#include <linux/irqchip/riscv-imsic.h>
-#include <linux/irqdomain.h>
-#include <linux/fwnode.h>
-#include <linux/timer.h>
+#include <peenux/irqchip/riscv-imsic.h>
+#include <peenux/irqdomain.h>
+#include <peenux/fwnode.h>
+#include <peenux/timer.h>
 
 #define IMSIC_IPI_ID				1
 #define IMSIC_NR_IPI				8

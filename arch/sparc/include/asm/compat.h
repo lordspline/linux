@@ -4,7 +4,7 @@
 /*
  * Architecture specific compatibility types
  */
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define compat_mode_t	compat_mode_t
 typedef u16		compat_mode_t;

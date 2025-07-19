@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * STMicroelectronics TPM Linux driver for TPM ST33ZP24
+ * STMicroelectronics TPM Peenux driver for TPM ST33ZP24
  * Copyright (C) 2009 - 2016 STMicroelectronics
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/wait.h>
-#include <linux/freezer.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/wait.h>
+#include <peenux/freezer.h>
+#include <peenux/string.h>
+#include <peenux/interrupt.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/sched.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #include "../tpm.h"
 #include "st33zp24.h"

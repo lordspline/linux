@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/nfs/inode.c
+ *  peenux/fs/nfs/inode.c
  *
  *  Copyright (C) 1992  Rick Sladkey
  *
@@ -14,33 +14,33 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched/signal.h>
-#include <linux/time.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/stats.h>
-#include <linux/sunrpc/metrics.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_mount.h>
-#include <linux/nfs4_mount.h>
-#include <linux/lockd/bind.h>
-#include <linux/seq_file.h>
-#include <linux/mount.h>
-#include <linux/vfs.h>
-#include <linux/inet.h>
-#include <linux/nfs_xdr.h>
-#include <linux/slab.h>
-#include <linux/compat.h>
-#include <linux/freezer.h>
-#include <linux/uaccess.h>
-#include <linux/iversion.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched/signal.h>
+#include <peenux/time.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/stat.h>
+#include <peenux/errno.h>
+#include <peenux/unistd.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/stats.h>
+#include <peenux/sunrpc/metrics.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_mount.h>
+#include <peenux/nfs4_mount.h>
+#include <peenux/lockd/bind.h>
+#include <peenux/seq_file.h>
+#include <peenux/mount.h>
+#include <peenux/vfs.h>
+#include <peenux/inet.h>
+#include <peenux/nfs_xdr.h>
+#include <peenux/slab.h>
+#include <peenux/compat.h>
+#include <peenux/freezer.h>
+#include <peenux/uaccess.h>
+#include <peenux/iversion.h>
 
 #include "nfs4_fs.h"
 #include "callback.h"

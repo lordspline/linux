@@ -4,28 +4,28 @@
  *
  * Copyright (c) 2016, 2021, 2023 Intel Corporation.
  *
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  *          Pandith N <pandith.n@intel.com>
  *          Raag Jadav <raag.jadav@intel.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pm.h>
-#include <linux/spinlock.h>
-#include <linux/string_helpers.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pm.h>
+#include <peenux/spinlock.h>
+#include <peenux/string_helpers.h>
+#include <peenux/types.h>
 
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/driver.h>
 
 #include "gpio-tangier.h"
 
@@ -509,7 +509,7 @@ static int tng_gpio_resume(struct device *dev)
 
 EXPORT_NS_GPL_SIMPLE_DEV_PM_OPS(tng_gpio_pm_ops, tng_gpio_suspend, tng_gpio_resume, GPIO_TANGIER);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@peenux.intel.com>");
 MODULE_AUTHOR("Pandith N <pandith.n@intel.com>");
 MODULE_AUTHOR("Raag Jadav <raag.jadav@intel.com>");
 MODULE_DESCRIPTION("Intel Tangier GPIO driver");

@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-/* Copyright (c) 2015-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2015-2018, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2018-2024 Linaro Ltd.
  */
 #ifndef _GSI_H_
 #define _GSI_H_
 
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/types.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/types.h>
 
 #include "ipa_version.h"
 

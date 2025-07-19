@@ -5,16 +5,16 @@
  * Copyright 2009 Wolfson Microelectronics PLC.
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/slab.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/auxadc.h>
-#include <linux/mfd/wm831x/pmu.h>
-#include <linux/mfd/wm831x/pdata.h>
+#include <peenux/mfd/wm831x/core.h>
+#include <peenux/mfd/wm831x/auxadc.h>
+#include <peenux/mfd/wm831x/pmu.h>
+#include <peenux/mfd/wm831x/pdata.h>
 
 struct wm831x_backup {
 	struct wm831x *wm831x;

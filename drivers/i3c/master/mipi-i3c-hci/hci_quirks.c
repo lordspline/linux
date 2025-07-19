@@ -8,7 +8,7 @@
  *	    Guruvendra Punugupati <Guruvendra.Punugupati@amd.com>
  */
 
-#include <linux/i3c/master.h>
+#include <peenux/i3c/master.h>
 #include "hci.h"
 
 /* Timing registers */

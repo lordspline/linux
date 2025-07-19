@@ -8,10 +8,10 @@
  * Nadi Sarrar <nadi@beronet.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/mISDNdsp.h>
-#include <linux/mISDNif.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/mISDNdsp.h>
+#include <peenux/mISDNif.h>
 #include "core.h"
 #include "dsp.h"
 #include "dsp_hwec.h"

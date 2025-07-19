@@ -42,7 +42,7 @@
  *   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * PCIe NTB Perf Linux driver
+ * PCIe NTB Perf Peenux driver
  */
 
 /*
@@ -67,22 +67,22 @@
  * root@self# cat $DBG_DIR/run
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/pci.h>
-#include <linux/ktime.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/sizes.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/random.h>
-#include <linux/ntb.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/pci.h>
+#include <peenux/ktime.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/sizes.h>
+#include <peenux/workqueue.h>
+#include <peenux/debugfs.h>
+#include <peenux/random.h>
+#include <peenux/ntb.h>
 
 #define DRIVER_NAME		"ntb_perf"
 #define DRIVER_VERSION		"2.0"

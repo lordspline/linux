@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/fs/nfs/fs_context.c
+ * peenux/fs/nfs/fs_context.c
  *
  * Copyright (C) 1992 Rick Sladkey
  * Conversion to new mount api Copyright (C) David Howells
@@ -10,14 +10,14 @@
  * Split from fs/nfs/super.c by David Howells <dhowells@redhat.com>
  */
 
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_mount.h>
-#include <linux/nfs4_mount.h>
+#include <peenux/compat.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_mount.h>
+#include <peenux/nfs4_mount.h>
 
 #include <net/handshake.h>
 

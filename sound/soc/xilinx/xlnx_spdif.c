@@ -7,12 +7,12 @@
 // Author: Maruthi Srinivas Bayyavarapu <maruthis@xilinx.com>
 //
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 

@@ -14,12 +14,12 @@
 
 #ifndef __ASSEMBLER__
 /*
- * we simulate an x86-style page table for the linux mm code
+ * we simulate an x86-style page table for the peenux mm code
  */
 
-#include <linux/bitops.h>
-#include <linux/spinlock.h>
-#include <linux/mm_types.h>
+#include <peenux/bitops.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm_types.h>
 #include <asm/processor.h>
 #include <asm/cache.h>
 

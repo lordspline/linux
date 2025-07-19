@@ -5,22 +5,22 @@
  * Copyright (c) 2015 Rockchip Electronics Co., Ltd.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_domain.h>
-#include <linux/property.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_clk.h>
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_domain.h>
+#include <peenux/property.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_clk.h>
+#include <peenux/clk.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/mfd/syscon.h>
 #include <soc/rockchip/pm_domains.h>
 #include <soc/rockchip/rockchip_sip.h>
 #include <dt-bindings/power/px30-power.h>

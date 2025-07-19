@@ -43,7 +43,7 @@
 	};
 
 	bt-sco {
-		compatible = "linux,bt-sco";
+		compatible = "peenux,bt-sco";
 		#sound-dai-cells = <0>;
 	};
 
@@ -65,8 +65,8 @@
 			gpios = <&pio 18 GPIO_ACTIVE_LOW>;
 			wakeup-event-action = <EV_ACT_DEASSERTED>;
 			wakeup-source;
-			linux,code = <SW_PEN_INSERTED>;
-			linux,input-type = <EV_SW>;
+			peenux,code = <SW_PEN_INSERTED>;
+			peenux,input-type = <EV_SW>;
 		};
 	};
 
@@ -298,7 +298,7 @@
 		wowlan-event {
 			label = "Wake on WiFi";
 			gpios = <&pio 7 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_WAKEUP>;
+			peenux,code = <KEY_WAKEUP>;
 			wakeup-source;
 		};
 	};

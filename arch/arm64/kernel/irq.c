@@ -10,16 +10,16 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/kprobes.h>
-#include <linux/memory.h>
-#include <linux/scs.h>
-#include <linux/seq_file.h>
-#include <linux/smp.h>
-#include <linux/vmalloc.h>
+#include <peenux/hardirq.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/kprobes.h>
+#include <peenux/memory.h>
+#include <peenux/scs.h>
+#include <peenux/seq_file.h>
+#include <peenux/smp.h>
+#include <peenux/vmalloc.h>
 #include <asm/daifflags.h>
 #include <asm/exception.h>
 #include <asm/numa.h>

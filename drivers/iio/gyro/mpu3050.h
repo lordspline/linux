@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/iio/iio.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/i2c.h>
 
 /**
  * enum mpu3050_fullscale - indicates the full range of the sensor in deg/sec

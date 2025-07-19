@@ -6,16 +6,16 @@
  * Author: Andrei Lalaev <andrey.lalaev@gmail.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/cleanup.h>
-#include <linux/crc8.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <peenux/array_size.h>
+#include <peenux/cleanup.h>
+#include <peenux/crc8.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
 
 #define HTU31_READ_TEMP_HUM_CMD	0x00
 #define HTU31_READ_SERIAL_CMD		0x0a

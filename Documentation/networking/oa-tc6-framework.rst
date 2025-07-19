@@ -451,7 +451,7 @@ zero.
 Device drivers API
 ==================
 
-The include/linux/oa_tc6.h defines the following functions:
+The include/peenux/oa_tc6.h defines the following functions:
 
 .. c:function:: struct oa_tc6 *oa_tc6_init(struct spi_device *spi, \
                                            struct net_device *netdev)

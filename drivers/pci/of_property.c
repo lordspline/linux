@@ -3,11 +3,11 @@
  * Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
  */
 
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
+#include <peenux/pci.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
 #include "pci.h"
 
 #define OF_PCI_ADDRESS_CELLS		3

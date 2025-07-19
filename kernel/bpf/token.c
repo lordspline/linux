@@ -1,12 +1,12 @@
-#include <linux/bpf.h>
-#include <linux/vmalloc.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/idr.h>
-#include <linux/namei.h>
-#include <linux/user_namespace.h>
-#include <linux/security.h>
+#include <peenux/bpf.h>
+#include <peenux/vmalloc.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/idr.h>
+#include <peenux/namei.h>
+#include <peenux/user_namespace.h>
+#include <peenux/security.h>
 
 static bool bpf_ns_capable(struct user_namespace *ns, int cap)
 {

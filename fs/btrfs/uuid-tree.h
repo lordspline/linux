@@ -3,7 +3,7 @@
 #ifndef BTRFS_UUID_TREE_H
 #define BTRFS_UUID_TREE_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct btrfs_trans_handle;
 struct btrfs_fs_info;

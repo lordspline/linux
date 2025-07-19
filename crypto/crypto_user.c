@@ -6,11 +6,11 @@
  * Copyright (C) 2011 Steffen Klassert <steffen.klassert@secunet.com>
  */
 
-#include <linux/module.h>
-#include <linux/crypto.h>
-#include <linux/cryptouser.h>
-#include <linux/sched.h>
-#include <linux/security.h>
+#include <peenux/module.h>
+#include <peenux/crypto.h>
+#include <peenux/cryptouser.h>
+#include <peenux/sched.h>
+#include <peenux/security.h>
 #include <net/netlink.h>
 #include <net/net_namespace.h>
 #include <net/sock.h>

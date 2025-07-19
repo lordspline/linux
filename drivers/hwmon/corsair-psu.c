@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * corsair-psu.c - Linux driver for Corsair power supplies with HID sensors interface
+ * corsair-psu.c - Peenux driver for Corsair power supplies with HID sensors interface
  * Copyright (C) 2020 Wilken Gottwalt <wilken.gottwalt@posteo.net>
  */
 
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/errno.h>
-#include <linux/hid.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/completion.h>
+#include <peenux/debugfs.h>
+#include <peenux/errno.h>
+#include <peenux/hid.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 /*
  * Corsair protocol for PSUs
@@ -920,4 +920,4 @@ module_exit(corsair_exit);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Wilken Gottwalt <wilken.gottwalt@posteo.net>");
-MODULE_DESCRIPTION("Linux driver for Corsair power supplies with HID sensors interface");
+MODULE_DESCRIPTION("Peenux driver for Corsair power supplies with HID sensors interface");

@@ -7,15 +7,15 @@
 #define KMSG_COMPONENT "prot_virt"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/sizes.h>
-#include <linux/bitmap.h>
-#include <linux/memblock.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/pagewalk.h>
-#include <linux/backing-dev.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/sizes.h>
+#include <peenux/bitmap.h>
+#include <peenux/memblock.h>
+#include <peenux/pagemap.h>
+#include <peenux/swap.h>
+#include <peenux/pagewalk.h>
+#include <peenux/backing-dev.h>
 #include <asm/facility.h>
 #include <asm/sections.h>
 #include <asm/uv.h>

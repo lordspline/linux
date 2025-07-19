@@ -5,7 +5,7 @@
  *
  **************************************************************************/
 
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 #include <drm/drm.h>
 #include <drm/drm_crtc_helper.h>

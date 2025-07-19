@@ -7,18 +7,18 @@
  * Copyright (C) 2009 Texas Instrument Incorporated - https://www.ti.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/tps6507x.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/mfd/tps6507x.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/tps6507x.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/mfd/tps6507x.h>
+#include <peenux/regulator/of_regulator.h>
 
 /* DCDC's */
 #define TPS6507X_DCDC_1				0

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/syscore_ops.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/syscore_ops.h>
 #include <asm/cpufeature.h>
 #include <asm/mtrr.h>
 #include <asm/processor.h>

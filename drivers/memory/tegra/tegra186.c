@@ -3,13 +3,13 @@
  * Copyright (C) 2017-2021 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <soc/tegra/mc.h>
 

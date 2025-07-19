@@ -7,12 +7,12 @@
  * Copyright (C) 2009 Michael Hennerich, Analog Devices Inc.
  */
 
-#include <linux/input.h>	/* BUS_I2C */
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/types.h>
-#include <linux/pm.h>
+#include <peenux/input.h>	/* BUS_I2C */
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/types.h>
+#include <peenux/pm.h>
 #include "adxl34x.h"
 
 static int adxl34x_smbus_read(struct device *dev, unsigned char reg)

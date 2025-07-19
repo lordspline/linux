@@ -10,27 +10,27 @@
  */
 #define pr_fmt(fmt) "debug_vm_pgtable: [%-25s]: " fmt, __func__
 
-#include <linux/gfp.h>
-#include <linux/highmem.h>
-#include <linux/hugetlb.h>
-#include <linux/kernel.h>
-#include <linux/kconfig.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/mm_types.h>
-#include <linux/module.h>
-#include <linux/pfn_t.h>
-#include <linux/printk.h>
-#include <linux/pgtable.h>
-#include <linux/random.h>
-#include <linux/spinlock.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/start_kernel.h>
-#include <linux/sched/mm.h>
-#include <linux/io.h>
-#include <linux/vmalloc.h>
+#include <peenux/gfp.h>
+#include <peenux/highmem.h>
+#include <peenux/hugetlb.h>
+#include <peenux/kernel.h>
+#include <peenux/kconfig.h>
+#include <peenux/memblock.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/mm_types.h>
+#include <peenux/module.h>
+#include <peenux/pfn_t.h>
+#include <peenux/printk.h>
+#include <peenux/pgtable.h>
+#include <peenux/random.h>
+#include <peenux/spinlock.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/start_kernel.h>
+#include <peenux/sched/mm.h>
+#include <peenux/io.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/cacheflush.h>
 #include <asm/pgalloc.h>

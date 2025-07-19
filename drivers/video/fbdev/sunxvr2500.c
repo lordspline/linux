@@ -5,12 +5,12 @@
  * Copyright (C) 2007 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/aperture.h>
-#include <linux/kernel.h>
-#include <linux/fb.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/of.h>
+#include <peenux/aperture.h>
+#include <peenux/kernel.h>
+#include <peenux/fb.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
 
 #include <asm/io.h>
 

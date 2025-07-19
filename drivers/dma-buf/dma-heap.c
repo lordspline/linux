@@ -6,17 +6,17 @@
  * Copyright (C) 2019 Linaro Ltd.
  */
 
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-heap.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/nospec.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
-#include <linux/xarray.h>
-#include <uapi/linux/dma-heap.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-heap.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
+#include <peenux/nospec.h>
+#include <peenux/syscalls.h>
+#include <peenux/uaccess.h>
+#include <peenux/xarray.h>
+#include <uapi/peenux/dma-heap.h>
 
 #define DEVNAME "dma_heap"
 

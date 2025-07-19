@@ -11,18 +11,18 @@
  * Copyright (C) 2019-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/rwsem.h>
+#include <peenux/unaligned.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/platform_device.h>
+#include <peenux/rwsem.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_acpi_notify.h>
+#include <peenux/surface_aggregator/controller.h>
+#include <peenux/surface_acpi_notify.h>
 
 struct san_data {
 	struct device *dev;

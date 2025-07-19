@@ -12,7 +12,7 @@
 #ifndef I2C_PIIX4_H
 #define I2C_PIIX4_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* PIIX4 SMBus address offsets */
 #define SMBHSTSTS	(0x00 + piix4_smba)

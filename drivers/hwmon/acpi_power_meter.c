@@ -6,18 +6,18 @@
  * Author: Darrick J. Wong <darrick.wong@oracle.com>
  */
 
-#include <linux/module.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
-#include <linux/kdev_t.h>
-#include <linux/sched.h>
-#include <linux/time.h>
-#include <linux/err.h>
-#include <linux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/mutex.h>
+#include <peenux/dmi.h>
+#include <peenux/slab.h>
+#include <peenux/kdev_t.h>
+#include <peenux/sched.h>
+#include <peenux/time.h>
+#include <peenux/err.h>
+#include <peenux/acpi.h>
 
 #define ACPI_POWER_METER_NAME		"power_meter"
 #define ACPI_POWER_METER_DEVICE_NAME	"Power Meter"

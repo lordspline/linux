@@ -9,12 +9,12 @@
 #ifndef _SECURITY_LANDLOCK_RULESET_H
 #define _SECURITY_LANDLOCK_RULESET_H
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/rbtree.h>
-#include <linux/refcount.h>
-#include <linux/workqueue.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/rbtree.h>
+#include <peenux/refcount.h>
+#include <peenux/workqueue.h>
 
 #include "access.h"
 #include "limits.h"

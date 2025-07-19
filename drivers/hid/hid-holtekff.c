@@ -11,10 +11,10 @@
 /*
  */
 
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/hid.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include "hid-ids.h"
 

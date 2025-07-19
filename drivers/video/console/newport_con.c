@@ -10,26 +10,26 @@
  * Copyright (C) 1996 David S. Miller (davem@davemloft.net)
  * Copyright (C) 1997 Miguel de Icaza (miguel@nuclecu.unam.mx)
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/kd.h>
-#include <linux/selection.h>
-#include <linux/console.h>
-#include <linux/vt_kern.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/kd.h>
+#include <peenux/selection.h>
+#include <peenux/console.h>
+#include <peenux/vt_kern.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/page.h>
 #include <asm/gio_device.h>
 
 #include <video/newport.h>
 
-#include <linux/linux_logo.h>
-#include <linux/font.h>
+#include <peenux/linux_logo.h>
+#include <peenux/font.h>
 
 #define NEWPORT_LEN	0x10000
 

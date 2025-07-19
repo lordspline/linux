@@ -19,11 +19,11 @@
  * Copyright (C) 2016 Jens Axboe
  *
  */
-#include <linux/kernel.h>
-#include <linux/blk_types.h>
-#include <linux/slab.h>
-#include <linux/backing-dev.h>
-#include <linux/swap.h>
+#include <peenux/kernel.h>
+#include <peenux/blk_types.h>
+#include <peenux/slab.h>
+#include <peenux/backing-dev.h>
+#include <peenux/swap.h>
 
 #include "blk-stat.h"
 #include "blk-wbt.h"

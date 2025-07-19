@@ -6,8 +6,8 @@
 #ifndef _XE_GUC_HXG_HELPERS_H_
 #define _XE_GUC_HXG_HELPERS_H_
 
-#include <linux/bitfield.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/types.h>
 
 #include "abi/guc_messages_abi.h"
 

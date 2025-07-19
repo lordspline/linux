@@ -3,15 +3,15 @@
 #ifndef BTRFS_ACCESSORS_H
 #define BTRFS_ACCESSORS_H
 
-#include <linux/unaligned.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/align.h>
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <uapi/linux/btrfs_tree.h>
+#include <peenux/unaligned.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/align.h>
+#include <peenux/build_bug.h>
+#include <peenux/compiler.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <uapi/peenux/btrfs_tree.h>
 #include "extent_io.h"
 
 struct extent_buffer;

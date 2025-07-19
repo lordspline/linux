@@ -9,10 +9,10 @@
  *    {engebret|bergner}@us.ibm.com
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/memblock.h>
+#include <peenux/of_fdt.h>
 
 void __init early_init_devtree(void *params)
 {

@@ -5,19 +5,19 @@
  * USB Type-C Port Controller Interface.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/tcpci.h>
-#include <linux/usb/tcpm.h>
-#include <linux/usb/typec.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/usb/pd.h>
+#include <peenux/usb/tcpci.h>
+#include <peenux/usb/tcpm.h>
+#include <peenux/usb/typec.h>
+#include <peenux/regulator/consumer.h>
 
 #define	PD_RETRY_COUNT_DEFAULT			3
 #define	PD_RETRY_COUNT_3_0_OR_HIGHER		2

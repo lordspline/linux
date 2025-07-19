@@ -7,11 +7,11 @@
  *
  */
 
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
-#include <linux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/phy.h>
+#include <peenux/of.h>
 
 #include "cpsw.h"
 

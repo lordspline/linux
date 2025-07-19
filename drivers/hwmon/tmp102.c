@@ -4,20 +4,20 @@
  * Copyright (C) 2010 Steven King <sfking@fdwdc.com>
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/jiffies.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/jiffies.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/of.h>
 
 #define	DRIVER_NAME "tmp102"
 

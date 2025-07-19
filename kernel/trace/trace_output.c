@@ -6,16 +6,16 @@
  *
  */
 #include "trace.h"
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/ftrace.h>
-#include <linux/kprobes.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/mm.h>
-#include <linux/idr.h>
-#include <linux/btf.h>
-#include <linux/bpf.h>
-#include <linux/hashtable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/ftrace.h>
+#include <peenux/kprobes.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/mm.h>
+#include <peenux/idr.h>
+#include <peenux/btf.h>
+#include <peenux/bpf.h>
+#include <peenux/hashtable.h>
 
 #include "trace_output.h"
 #include "trace_btf.h"

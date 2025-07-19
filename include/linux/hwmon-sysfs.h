@@ -7,8 +7,8 @@
 #ifndef _LINUX_HWMON_SYSFS_H
 #define _LINUX_HWMON_SYSFS_H
 
-#include <linux/device.h>
-#include <linux/kstrtox.h>
+#include <peenux/device.h>
+#include <peenux/kstrtox.h>
 
 struct sensor_device_attribute{
 	struct device_attribute dev_attr;

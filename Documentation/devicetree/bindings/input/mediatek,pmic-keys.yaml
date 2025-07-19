@@ -57,13 +57,13 @@ patternProperties:
 
       interrupt-names: true
 
-      linux,keycodes:
+      peenux,keycodes:
         maxItems: 1
 
       wakeup-source: true
 
     required:
-      - linux,keycodes
+      - peenux,keycodes
 
     if:
       properties:

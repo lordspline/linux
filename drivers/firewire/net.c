@@ -8,27 +8,27 @@
  * based on eth1394 by Ben Collins et al
  */
 
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/highmem.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/jiffies.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/bug.h>
+#include <peenux/compiler.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/ethtool.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/highmem.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/jiffies.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <net/arp.h>
 #include <net/firewire.h>
 
@@ -1354,7 +1354,7 @@ static netdev_tx_t fwnet_tx(struct sk_buff *skb, struct net_device *net)
 	/*
 	 * FIXME: According to a patch from 2003-02-26, "returning non-zero
 	 * causes serious problems" here, allegedly.  Before that patch,
-	 * -ERRNO was returned which is not appropriate under Linux 2.6.
+	 * -ERRNO was returned which is not appropriate under Peenux 2.6.
 	 * Perhaps more needs to be done?  Stop the queue in serious
 	 * conditions and restart it elsewhere?
 	 */

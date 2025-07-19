@@ -5,12 +5,12 @@
  * 	- Added _PDC for SMP C-states on Intel CPUs
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
+#include <peenux/cpu.h>
+#include <peenux/sched.h>
 
 #include <acpi/processor.h>
 #include <asm/cpu_device_id.h>

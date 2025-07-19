@@ -5,11 +5,11 @@
  * Copyright 2009-2011 Analog Devices Inc.
  */
 
-#include <linux/input.h>	/* BUS_SPI */
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/pm.h>
-#include <linux/types.h>
+#include <peenux/input.h>	/* BUS_SPI */
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/pm.h>
+#include <peenux/types.h>
 #include "ad714x.h"
 
 #define AD714x_SPI_CMD_PREFIX      0xE000   /* bits 15:11 */

@@ -9,12 +9,12 @@
  *
  */
 
-#include <linux/ctype.h>
-#include <linux/init.h>
+#include <peenux/ctype.h>
+#include <peenux/init.h>
 
 #include <asm/debug.h>
 #include <asm/ebcdic.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "dasd_int.h"
 

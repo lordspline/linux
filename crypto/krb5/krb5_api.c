@@ -7,9 +7,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
 #include "internal.h"
 
 MODULE_DESCRIPTION("Kerberos 5 crypto");

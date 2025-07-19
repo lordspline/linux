@@ -8,18 +8,18 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/acpi_iort.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/rwsem.h>
-#include <linux/acpi.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/pci-acpi.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi_iort.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/rwsem.h>
+#include <peenux/acpi.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pci.h>
+#include <peenux/pci-acpi.h>
+#include <peenux/platform_device.h>
 
 #include "internal.h"
 

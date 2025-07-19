@@ -4,14 +4,14 @@
 //
 // Copyright 2018, Michael Ellerman, IBM Corporation.
 
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/memblock.h>
-#include <linux/nospec.h>
-#include <linux/prctl.h>
-#include <linux/seq_buf.h>
-#include <linux/debugfs.h>
+#include <peenux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/memblock.h>
+#include <peenux/nospec.h>
+#include <peenux/prctl.h>
+#include <peenux/seq_buf.h>
+#include <peenux/debugfs.h>
 
 #include <asm/asm-prototypes.h>
 #include <asm/text-patching.h>

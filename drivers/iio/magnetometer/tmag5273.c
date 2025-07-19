@@ -7,16 +7,16 @@
  * Author: Gerald Loacker <gerald.loacker@wolfvision.net>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/pm_runtime.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/pm_runtime.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define TMAG5273_DEVICE_CONFIG_1	 0x00
 #define TMAG5273_DEVICE_CONFIG_2	 0x01

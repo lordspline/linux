@@ -11,8 +11,8 @@
 #include <subcmd/parse-options.h>
 #include "../builtin.h"
 #include "bench.h"
-#include <linux/compiler.h>
-#include <linux/time64.h>
+#include <peenux/compiler.h>
+#include <peenux/time64.h>
 
 #include <inttypes.h>
 #include <stdio.h>

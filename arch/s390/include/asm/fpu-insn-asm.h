@@ -6,7 +6,7 @@
  * vector instructions that are supported by recent binutils (>= 2.26) only.
  *
  * Copyright IBM Corp. 2015
- * Author(s): Hendrik Brueckner <brueckner@linux.vnet.ibm.com>
+ * Author(s): Hendrik Brueckner <brueckner@peenux.vnet.ibm.com>
  */
 
 #ifndef __ASM_S390_FPU_INSN_ASM_H

@@ -5,13 +5,13 @@
  * Copyright (c) by Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/irq.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include "pmac.h"

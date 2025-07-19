@@ -4,8 +4,8 @@
  * for more details.
  *
  * Copyright (C) 2006, 07 MIPS Technologies, Inc.
- *   written by Ralf Baechle (ralf@linux-mips.org)
- *     written by Ralf Baechle <ralf@linux-mips.org>
+ *   written by Ralf Baechle (ralf@peenux-mips.org)
+ *     written by Ralf Baechle <ralf@peenux-mips.org>
  *
  * Copyright (C) 2008 Wind River Systems, Inc.
  *   updated by Tiejun Chen <tiejun.chen@windriver.com>
@@ -21,10 +21,10 @@
  *
  * 2. Register RTC-CMOS platform device on Malta.
  */
-#include <linux/init.h>
-#include <linux/serial_8250.h>
-#include <linux/irq.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/serial_8250.h>
+#include <peenux/irq.h>
+#include <peenux/platform_device.h>
 #include <asm/mips-boards/maltaint.h>
 
 #define SMC_PORT(base, int)						\

@@ -5,8 +5,8 @@
  */
 #ifndef __LOGIC_IOMEM_H
 #define __LOGIC_IOMEM_H
-#include <linux/types.h>
-#include <linux/ioport.h>
+#include <peenux/types.h>
+#include <peenux/ioport.h>
 
 /**
  * struct logic_iomem_ops - emulated IO memory ops

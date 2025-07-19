@@ -11,13 +11,13 @@
 	Supported chipsets: RT2460.
  */
 
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/eeprom_93cx6.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/etherdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/eeprom_93cx6.h>
+#include <peenux/slab.h>
 
 #include "rt2x00.h"
 #include "rt2x00mmio.h"

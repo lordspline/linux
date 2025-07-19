@@ -7,15 +7,15 @@
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/gfp.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/semaphore.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
+#include <peenux/gfp.h>
+#include <peenux/of.h>
 #include <asm/machdep.h>
 #include <asm/opal.h>
 

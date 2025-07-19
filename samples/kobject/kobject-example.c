@@ -5,11 +5,11 @@
  * Copyright (C) 2004-2007 Greg Kroah-Hartman <greg@kroah.com>
  * Copyright (C) 2007 Novell Inc.
  */
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/kobject.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 
 /*
  * This module shows how to create a simple subdirectory in sysfs called

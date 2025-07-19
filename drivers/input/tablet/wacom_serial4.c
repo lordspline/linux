@@ -99,15 +99,15 @@
  *	bit 0  Yt1
  */
 
-#include <linux/completion.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/completion.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/serio.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 MODULE_AUTHOR("Julian Squires <julian@cipht.net>, Hans de Goede <hdegoede@redhat.com>");
 MODULE_DESCRIPTION("Wacom protocol 4 serial tablet driver");

@@ -19,11 +19,11 @@
 #ifndef BNX2X_CMN_H
 #define BNX2X_CMN_H
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/irq.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/irq.h>
 
 #include "bnx2x.h"
 #include "bnx2x_sriov.h"

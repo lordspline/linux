@@ -8,25 +8,25 @@
  * Manish Ahuja
  *
  * Copyright 2011 IBM Corporation
- * Author: Mahesh Salgaonkar <mahesh@linux.vnet.ibm.com>
+ * Author: Mahesh Salgaonkar <mahesh@peenux.vnet.ibm.com>
  */
 
 #undef DEBUG
 #define pr_fmt(fmt) "fadump: " fmt
 
-#include <linux/string.h>
-#include <linux/memblock.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/crash_dump.h>
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/cma.h>
-#include <linux/hugetlb.h>
-#include <linux/debugfs.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
+#include <peenux/string.h>
+#include <peenux/memblock.h>
+#include <peenux/delay.h>
+#include <peenux/seq_file.h>
+#include <peenux/crash_dump.h>
+#include <peenux/kobject.h>
+#include <peenux/sysfs.h>
+#include <peenux/slab.h>
+#include <peenux/cma.h>
+#include <peenux/hugetlb.h>
+#include <peenux/debugfs.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
 
 #include <asm/page.h>
 #include <asm/fadump.h>

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2023 Intel Corporation */
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include <adf_accel_devices.h>
 #include <adf_gen4_hw_data.h>

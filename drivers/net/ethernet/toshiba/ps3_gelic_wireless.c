@@ -7,25 +7,25 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_vlan.h>
 
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/wireless.h>
-#include <linux/ieee80211.h>
-#include <linux/if_arp.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/wireless.h>
+#include <peenux/ieee80211.h>
+#include <peenux/if_arp.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
 #include <net/iw_handler.h>
 
-#include <linux/dma-mapping.h>
+#include <peenux/dma-mapping.h>
 #include <net/checksum.h>
 #include <asm/firmware.h>
 #include <asm/ps3.h>

@@ -36,13 +36,13 @@
  * T	Tip
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/usb/input.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/usb/input.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/mutex.h>
 
 /* USB HID defines */
 #define USB_REQ_GET_REPORT		0x01

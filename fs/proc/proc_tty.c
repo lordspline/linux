@@ -4,15 +4,15 @@
  *
  * Copyright 1997, Theodore Ts'o
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/tty.h>
-#include <linux/seq_file.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/tty.h>
+#include <peenux/seq_file.h>
+#include <peenux/bitops.h>
 #include "internal.h"
 
 /*

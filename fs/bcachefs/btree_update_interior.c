@@ -27,7 +27,7 @@
 #include "super-io.h"
 #include "trace.h"
 
-#include <linux/random.h>
+#include <peenux/random.h>
 
 static const char * const bch2_btree_update_modes[] = {
 #define x(t) #t,

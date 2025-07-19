@@ -898,7 +898,7 @@ The rules-ng-ng source files this header was generated from are:
 
 	print()
 	print("#ifdef __KERNEL__")
-	print("#include <linux/bug.h>")
+	print("#include <peenux/bug.h>")
 	print("#define assert(x) BUG_ON(!(x))")
 	print("#else")
 	print("#include <assert.h>")

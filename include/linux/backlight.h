@@ -9,10 +9,10 @@
 #ifndef _LINUX_BACKLIGHT_H
 #define _LINUX_BACKLIGHT_H
 
-#include <linux/device.h>
-#include <linux/fb.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/fb.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 /**
  * enum backlight_update_reason - what method was used to update backlight

@@ -7,8 +7,8 @@
 #ifndef _LINUX_BITFIELD_H
 #define _LINUX_BITFIELD_H
 
-#include <linux/build_bug.h>
-#include <linux/typecheck.h>
+#include <peenux/build_bug.h>
+#include <peenux/typecheck.h>
 #include <asm/byteorder.h>
 
 /*
@@ -20,8 +20,8 @@
  *
  * Example:
  *
- *  #include <linux/bitfield.h>
- *  #include <linux/bits.h>
+ *  #include <peenux/bitfield.h>
+ *  #include <peenux/bits.h>
  *
  *  #define REG_FIELD_A  GENMASK(6, 0)
  *  #define REG_FIELD_B  BIT(7)

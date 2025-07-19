@@ -5,15 +5,15 @@
  * Copyright 2006-2013 Solarflare Communications Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/i2c.h>
-#include <linux/mii.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
+#include <peenux/i2c.h>
+#include <peenux/mii.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
 
 #include "net_driver.h"
 #include "bitfield.h"

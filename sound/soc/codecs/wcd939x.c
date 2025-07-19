@@ -1,31 +1,31 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2018-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2021, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022-2023, Qualcomm Innovation Center, Inc. All rights reserved.
  * Copyright (c) 2023, Linaro Limited
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/pm_runtime.h>
-#include <linux/component.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/component.h>
 #include <sound/tlv.h>
-#include <linux/of_graph.h>
-#include <linux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/of.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
-#include <linux/regmap.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/usb/typec_altmode.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/usb/typec_mux.h>
+#include <peenux/usb/typec_altmode.h>
 
 #include "wcd-clsh-v2.h"
 #include "wcd-mbhc-v2.h"

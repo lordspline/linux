@@ -5,10 +5,10 @@
 
 #include <crypto/internal/simd.h>
 #include <crypto/sha2.h>
-#include <linux/compiler_attributes.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 #if IS_ENABLED(CONFIG_CRYPTO_ARCH_HAVE_LIB_SHA256)
 bool sha256_is_arch_optimized(void);

@@ -6,7 +6,7 @@
 #ifndef VDO_PHYSICAL_ZONE_H
 #define VDO_PHYSICAL_ZONE_H
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include "types.h"
 

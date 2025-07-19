@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	TCP over IPv6
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
  *
  *	Based on:
- *	linux/net/ipv4/tcp.c
- *	linux/net/ipv4/tcp_input.c
- *	linux/net/ipv4/tcp_output.c
+ *	peenux/net/ipv4/tcp.c
+ *	peenux/net/ipv4/tcp_input.c
+ *	peenux/net/ipv4/tcp_output.c
  *
  *	Fixes:
  *	Hideaki YOSHIFUJI	:	sin6_scope_id support
@@ -19,27 +19,27 @@
  *	YOSHIFUJI Hideaki @USAGI:	convert /proc/net/tcp6 to seq_file.
  */
 
-#include <linux/bottom_half.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/jiffies.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/init.h>
-#include <linux/jhash.h>
-#include <linux/ipsec.h>
-#include <linux/times.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/ipv6.h>
-#include <linux/icmpv6.h>
-#include <linux/random.h>
-#include <linux/indirect_call_wrapper.h>
+#include <peenux/bottom_half.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/jiffies.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/netdevice.h>
+#include <peenux/init.h>
+#include <peenux/jhash.h>
+#include <peenux/ipsec.h>
+#include <peenux/times.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/ipv6.h>
+#include <peenux/icmpv6.h>
+#include <peenux/random.h>
+#include <peenux/indirect_call_wrapper.h>
 
 #include <net/tcp.h>
 #include <net/ndisc.h>
@@ -62,11 +62,11 @@
 #include <net/busy_poll.h>
 #include <net/rstreason.h>
 
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 
 #include <crypto/hash.h>
-#include <linux/scatterlist.h>
+#include <peenux/scatterlist.h>
 
 #include <trace/events/tcp.h>
 
@@ -457,7 +457,7 @@ static int tcp_v6_err(struct sk_buff *skb, struct inet6_skb_parm *opt,
 		u32 mtu = ntohl(info);
 
 		/* We are not interested in TCP_LISTEN and open_requests
-		 * (SYN-ACKs send out by Linux are always <576bytes so
+		 * (SYN-ACKs send out by Peenux are always <576bytes so
 		 * they should go through unfragmented).
 		 */
 		if (sk->sk_state == TCP_LISTEN)

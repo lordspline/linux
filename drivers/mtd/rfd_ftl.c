@@ -12,14 +12,14 @@
  * based on ftl.c
  */
 
-#include <linux/hdreg.h>
-#include <linux/init.h>
-#include <linux/mtd/blktrans.h>
-#include <linux/mtd/mtd.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
+#include <peenux/hdreg.h>
+#include <peenux/init.h>
+#include <peenux/mtd/blktrans.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
 
 #include <asm/types.h>
 

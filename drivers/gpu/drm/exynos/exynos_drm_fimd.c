@@ -7,14 +7,14 @@
  *	Inki Dae <inki.dae@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #include <video/of_display_timing.h>
 #include <video/of_videomode.h>

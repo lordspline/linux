@@ -5,11 +5,11 @@
  * (C) Copyright 2011, Greg Ungerer <gerg@uclinux.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
 
 /*
  * From arch/i386/kernel/pci-i386.c:

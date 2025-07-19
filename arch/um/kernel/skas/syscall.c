@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/seccomp.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/seccomp.h>
 #include <kern_util.h>
 #include <sysdep/ptrace.h>
 #include <sysdep/ptrace_user.h>
 #include <sysdep/syscalls.h>
-#include <linux/time-internal.h>
+#include <peenux/time-internal.h>
 #include <asm/unistd.h>
 #include <asm/delay.h>
 

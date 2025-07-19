@@ -8,8 +8,8 @@
  * Author: Mathias Nyman
  */
 
-#include <linux/usb/xhci-sideband.h>
-#include <linux/dma-direct.h>
+#include <peenux/usb/xhci-sideband.h>
+#include <peenux/dma-direct.h>
 
 #include "xhci.h"
 

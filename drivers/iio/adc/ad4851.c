@@ -5,26 +5,26 @@
  * Copyright 2024 Analog Devices Inc.
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
-#include <linux/units.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/minmax.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pwm.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
+#include <peenux/units.h>
 
-#include <linux/iio/backend.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/iio.h>
 
 #define AD4851_REG_INTERFACE_CONFIG_A	0x00
 #define AD4851_REG_INTERFACE_CONFIG_B	0x01

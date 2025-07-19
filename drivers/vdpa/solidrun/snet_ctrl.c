@@ -8,7 +8,7 @@
  *
  */
 
-#include <linux/iopoll.h>
+#include <peenux/iopoll.h>
 
 #include "snet_vdpa.h"
 

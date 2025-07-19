@@ -6,12 +6,12 @@
 #ifndef __TEGRA_VI_H__
 #define __TEGRA_VI_H__
 
-#include <linux/host1x.h>
-#include <linux/list.h>
+#include <peenux/host1x.h>
+#include <peenux/list.h>
 
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-async.h>

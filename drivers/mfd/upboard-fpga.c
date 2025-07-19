@@ -11,18 +11,18 @@
  * Author: Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/upboard-fpga.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/upboard-fpga.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/sysfs.h>
 
 #define UPBOARD_AAEON_MANUFACTURER_ID	0x01
 #define UPBOARD_MANUFACTURER_ID_MASK	GENMASK(7, 0)

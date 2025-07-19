@@ -5,11 +5,11 @@
  * Copyright (C) 2010  Magnus Damm
  * Copyright (C) 2010  Takashi Yoshii
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/io.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
 
 #include <asm/smp_plat.h>
 

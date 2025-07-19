@@ -21,7 +21,7 @@
 #include <asm/set_memory.h>
 #include "image-vars.h"
 
-#include <linux/sizes.h>
+#include <peenux/sizes.h>
 OUTPUT_ARCH(riscv)
 ENTRY(_start)
 

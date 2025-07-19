@@ -7,29 +7,29 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ":%s: " fmt, __func__
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/capability.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/capability.h>
 
 /* We are ethernet device */
-#include <linux/if_ether.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <peenux/if_ether.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
 #include <net/sock.h>
-#include <linux/skbuff.h>
-#include <linux/ip.h>
+#include <peenux/skbuff.h>
+#include <peenux/ip.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <net/arp.h>
 #include <net/dst.h>
-#include <linux/proc_fs.h>
-#include <linux/spinlock.h>
-#include <linux/seq_file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/spinlock.h>
+#include <peenux/seq_file.h>
 
 /* And atm device */
-#include <linux/atmdev.h>
-#include <linux/atmlec.h>
+#include <peenux/atmdev.h>
+#include <peenux/atmlec.h>
 
 /* Proxy LEC knows about bridging */
 #if IS_ENABLED(CONFIG_BRIDGE)
@@ -39,11 +39,11 @@ static unsigned char bridge_ula_lec[] = { 0x01, 0x80, 0xc2, 0x00, 0x00 };
 #endif
 
 /* Modular too */
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 
 /* Hardening for Spectre-v1 */
-#include <linux/nospec.h>
+#include <peenux/nospec.h>
 
 #include "lec.h"
 #include "lec_arpc.h"
@@ -1210,11 +1210,11 @@ static void lane2_associate_ind(struct net_device *dev, const u8 *mac_addr,
  * lane client modular. October 1997
  */
 
-#include <linux/types.h>
-#include <linux/timer.h>
-#include <linux/param.h>
-#include <linux/atomic.h>
-#include <linux/inetdevice.h>
+#include <peenux/types.h>
+#include <peenux/timer.h>
+#include <peenux/param.h>
+#include <peenux/atomic.h>
+#include <peenux/inetdevice.h>
 #include <net/route.h>
 
 #if 0

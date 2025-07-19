@@ -7,19 +7,19 @@
  *  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
 
-#include <linux/usb.h>
-#include <linux/i2c.h>
+#include <peenux/usb.h>
+#include <peenux/i2c.h>
 
-#include <linux/mfd/viperboard.h>
+#include <peenux/mfd/viperboard.h>
 
 struct vprbrd_i2c {
 	struct i2c_adapter i2c;

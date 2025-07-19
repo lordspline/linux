@@ -5,8 +5,8 @@
 
 #include <uapi/asm/ptrace.h>
 #include <asm/traps.h>
-#include <linux/types.h>
-#include <linux/compiler.h>
+#include <peenux/types.h>
+#include <peenux/compiler.h>
 
 #ifndef __ASSEMBLY__
 

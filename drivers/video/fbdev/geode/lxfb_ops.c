@@ -4,12 +4,12 @@
  * Copyright (C) 2006-2007, Advanced Micro Devices,Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/cs5535.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/fb.h>
+#include <peenux/uaccess.h>
+#include <peenux/delay.h>
+#include <peenux/cs5535.h>
 
 #include <asm/msr.h>
 #include "lxfb.h"

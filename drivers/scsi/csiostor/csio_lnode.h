@@ -1,5 +1,5 @@
 /*
- * This file is part of the Chelsio FCoE driver for Linux.
+ * This file is part of the Chelsio FCoE driver for Peenux.
  *
  * Copyright (c) 2008-2012 Chelsio Communications, Inc. All rights reserved.
  *
@@ -35,9 +35,9 @@
 #ifndef __CSIO_LNODE_H__
 #define __CSIO_LNODE_H__
 
-#include <linux/kref.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
+#include <peenux/kref.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
 #include <scsi/fc/fc_els.h>
 
 

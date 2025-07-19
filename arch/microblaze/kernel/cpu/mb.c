@@ -9,18 +9,18 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/cpu.h>
-#include <linux/initrd.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/seq_file.h>
+#include <peenux/cpu.h>
+#include <peenux/initrd.h>
 
-#include <linux/bug.h>
+#include <peenux/bug.h>
 #include <asm/cpuinfo.h>
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
 #include <asm/page.h>
-#include <linux/param.h>
+#include <peenux/param.h>
 #include <asm/pvr.h>
 #include <asm/sections.h>
 #include <asm/setup.h>

@@ -9,8 +9,8 @@
 #ifndef __MTD_NAND_ECC_MXIC_H__
 #define __MTD_NAND_ECC_MXIC_H__
 
-#include <linux/platform_device.h>
-#include <linux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/device.h>
 
 struct mxic_ecc_engine;
 

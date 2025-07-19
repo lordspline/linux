@@ -8,17 +8,17 @@
  * Author: Jassi Brar <jaswinder.singh@linaro.org>
  */
 
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mailbox_controller.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/mailbox_controller.h>
 
 #define INTR_SET_OFS	0x0
 #define INTR_STAT_OFS	0x4

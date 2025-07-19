@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *	linux/kernel/resource.c
+ *	peenux/kernel/resource.c
  *
  * Copyright (C) 1999	Linus Torvalds
  * Copyright (C) 1999	Martin Mares <mj@ucw.cz>
@@ -10,25 +10,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/fs.h>
-#include <linux/proc_fs.h>
-#include <linux/pseudo_fs.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/device.h>
-#include <linux/pfn.h>
-#include <linux/mm.h>
-#include <linux/mount.h>
-#include <linux/resource_ext.h>
-#include <uapi/linux/magic.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
+#include <peenux/export.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/fs.h>
+#include <peenux/proc_fs.h>
+#include <peenux/pseudo_fs.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/device.h>
+#include <peenux/pfn.h>
+#include <peenux/mm.h>
+#include <peenux/mount.h>
+#include <peenux/resource_ext.h>
+#include <uapi/peenux/magic.h>
+#include <peenux/string.h>
+#include <peenux/vmalloc.h>
 #include <asm/io.h>
 
 
@@ -417,7 +417,7 @@ static int __walk_iomem_res_desc(resource_size_t start, resource_size_t end,
  * desc are valid candidates.
  *
  * NOTE: For a new descriptor search, define a new IORES_DESC in
- * <linux/ioport.h> and set it in 'desc' of a target resource entry.
+ * <peenux/ioport.h> and set it in 'desc' of a target resource entry.
  */
 int walk_iomem_res_desc(unsigned long desc, unsigned long flags, u64 start,
 		u64 end, void *arg, int (*func)(struct resource *, void *))

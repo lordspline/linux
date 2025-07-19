@@ -4,13 +4,13 @@
  *
  * Copyright (C) 2006, 2007 Atmel Corporation
  */
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/lcd.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
 
 #include "ltv350qv.h"
 

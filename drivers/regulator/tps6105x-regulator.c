@@ -9,15 +9,15 @@
  * Author: Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/regmap.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps6105x.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/regmap.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/tps6105x.h>
 
 static const unsigned int tps6105x_voltages[] = {
 	4500000,

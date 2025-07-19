@@ -1,23 +1,23 @@
 /* SPDX-License-Identifier: BSD-3-Clause-Clear */
 /*
- * Copyright (c) 2018-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2021 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #ifndef ATH12K_CORE_H
 #define ATH12K_CORE_H
 
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/bitfield.h>
-#include <linux/dmi.h>
-#include <linux/ctype.h>
-#include <linux/firmware.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/panic_notifier.h>
-#include <linux/average.h>
-#include <linux/of.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/bitfield.h>
+#include <peenux/dmi.h>
+#include <peenux/ctype.h>
+#include <peenux/firmware.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/average.h>
+#include <peenux/of.h>
 #include "qmi.h"
 #include "htc.h"
 #include "wmi.h"

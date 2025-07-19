@@ -4,8 +4,8 @@
  *
  * Author: Stanimir Varbanov <stanimir.varbanov@linaro.org>
  */
-#include <linux/bitops.h>
-#include <linux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
 
 #include "core.h"
 #include "hfi_helper.h"

@@ -4,24 +4,24 @@
  */
 
 #include <dt-bindings/firmware/imx/rsrc.h>
-#include <linux/arm-smccc.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
-#include <linux/workqueue.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/firmware/imx/sci.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
+#include <peenux/remoteproc.h>
+#include <peenux/workqueue.h>
 
 #include "imx_rproc.h"
 #include "remoteproc_internal.h"
@@ -943,7 +943,7 @@ static int imx_rproc_detect_mode(struct imx_rproc *priv)
 
 		/*
 		 * If Mcore resource is not owned by Acore partition, It is kicked by ROM,
-		 * and Linux could only do IPC with Mcore and nothing else.
+		 * and Peenux could only do IPC with Mcore and nothing else.
 		 */
 		if (imx_sc_rm_is_resource_owned(priv->ipc_handle, priv->rsrc_id)) {
 			if (of_property_read_u32(dev->of_node, "fsl,entry-address", &priv->entry))
@@ -1029,7 +1029,7 @@ static int imx_rproc_clk_enable(struct imx_rproc *priv)
 	struct device *dev = priv->dev;
 	int ret;
 
-	/* Remote core is not under control of Linux */
+	/* Remote core is not under control of Peenux */
 	if (dcfg->method == IMX_RPROC_NONE)
 		return 0;
 

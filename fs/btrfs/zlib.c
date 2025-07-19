@@ -7,17 +7,17 @@
  * Created by David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/zlib.h>
-#include <linux/zutil.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/pagemap.h>
-#include <linux/bio.h>
-#include <linux/refcount.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/zlib.h>
+#include <peenux/zutil.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/sched.h>
+#include <peenux/pagemap.h>
+#include <peenux/bio.h>
+#include <peenux/refcount.h>
 #include "btrfs_inode.h"
 #include "compression.h"
 #include "fs.h"

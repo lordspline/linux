@@ -17,7 +17,7 @@
 #ifndef _BRCM_MAIN_H_
 #define _BRCM_MAIN_H_
 
-#include <linux/etherdevice.h>
+#include <peenux/etherdevice.h>
 
 #include <brcmu_utils.h>
 #include "types.h"

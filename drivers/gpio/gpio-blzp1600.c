@@ -4,16 +4,16 @@
  * Copyright (C) 2025 Blaize, Inc.
  */
 
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #define GPIO_DIR_REG	0x00
 #define GPIO_CTRL_REG	0x04

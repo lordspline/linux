@@ -11,18 +11,18 @@
  * hardware)
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
-#include <linux/iio/dac/mcp4725.h>
+#include <peenux/iio/dac/mcp4725.h>
 
 #define MCP4725_DRV_NAME "mcp4725"
 

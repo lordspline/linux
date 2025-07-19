@@ -1,5 +1,5 @@
 /*
- * This file is part of the Chelsio T4/T5/T6 Ethernet driver for Linux.
+ * This file is part of the Chelsio T4/T5/T6 Ethernet driver for Peenux.
  *
  * Copyright (C) 2011-2016 Chelsio Communications.  All rights reserved.
  *
@@ -15,9 +15,9 @@
  * Harsh Jain (harsh@chelsio.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
 
 #include <crypto/aes.h>
 #include <crypto/hash.h>

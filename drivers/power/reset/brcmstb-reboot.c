@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2013 Broadcom Corporation
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/notifier.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/smp.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/jiffies.h>
+#include <peenux/notifier.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
+#include <peenux/smp.h>
+#include <peenux/mfd/syscon.h>
 
 static struct regmap *regmap;
 static u32 rst_src_en;

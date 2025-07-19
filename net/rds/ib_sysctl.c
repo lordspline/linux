@@ -30,9 +30,9 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/sysctl.h>
-#include <linux/proc_fs.h>
+#include <peenux/kernel.h>
+#include <peenux/sysctl.h>
+#include <peenux/proc_fs.h>
 
 #include "ib.h"
 

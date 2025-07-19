@@ -8,12 +8,12 @@
  * Licensed under the GNU/GPL. See COPYING for details.
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/export.h>
-#include <linux/property.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/export.h>
+#include <peenux/property.h>
 
-#include <linux/bcma/bcma.h>
+#include <peenux/bcma/bcma.h>
 
 #include "bcma_private.h"
 

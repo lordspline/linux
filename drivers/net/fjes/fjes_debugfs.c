@@ -8,9 +8,9 @@
 
 #ifdef CONFIG_DEBUG_FS
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/platform_device.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/platform_device.h>
 
 #include "fjes.h"
 

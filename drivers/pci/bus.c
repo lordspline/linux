@@ -6,16 +6,16 @@
  *	David Miller (davem@redhat.com)
  *	Ivan Kokshaysky (ink@jurassic.park.msu.ru)
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/proc_fs.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/proc_fs.h>
+#include <peenux/slab.h>
 
 #include "pci.h"
 

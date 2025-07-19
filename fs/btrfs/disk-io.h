@@ -6,8 +6,8 @@
 #ifndef BTRFS_DISK_IO_H
 #define BTRFS_DISK_IO_H
 
-#include <linux/sizes.h>
-#include <linux/compiler_types.h>
+#include <peenux/sizes.h>
+#include <peenux/compiler_types.h>
 #include "ctree.h"
 #include "fs.h"
 

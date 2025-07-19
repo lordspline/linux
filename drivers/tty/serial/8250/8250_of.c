@@ -5,20 +5,20 @@
  *    Copyright (C) 2006 Arnd Bergmann <arnd@arndb.de>, IBM Corp.
  */
 
-#include <linux/bits.h>
-#include <linux/console.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
-#include <linux/notifier.h>
+#include <peenux/bits.h>
+#include <peenux/console.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_reg.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/reset.h>
+#include <peenux/notifier.h>
 
 #include "8250.h"
 

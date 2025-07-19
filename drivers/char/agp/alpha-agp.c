@@ -1,9 +1,9 @@
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/agp_backend.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/agp_backend.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 
 #include <asm/machvec.h>
 #include <asm/agp_backend.h>

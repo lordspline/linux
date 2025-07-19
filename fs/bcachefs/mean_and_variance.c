@@ -34,13 +34,13 @@
  * DO NOT change the weight after calling update.
  */
 
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/export.h>
-#include <linux/limits.h>
-#include <linux/math.h>
-#include <linux/math64.h>
-#include <linux/module.h>
+#include <peenux/bug.h>
+#include <peenux/compiler.h>
+#include <peenux/export.h>
+#include <peenux/limits.h>
+#include <peenux/math.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
 
 #include "mean_and_variance.h"
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/net/sunrpc/xprt.c
+ *  peenux/net/sunrpc/xprt.c
  *
  *  This is a generic RPC call interface supporting congestion avoidance,
  *  and asynchronous calls.
@@ -38,19 +38,19 @@
  *  Transport switch API copyright (C) 2005, Chuck Lever <cel@netapp.com>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/net.h>
-#include <linux/ktime.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/net.h>
+#include <peenux/ktime.h>
 
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/metrics.h>
-#include <linux/sunrpc/bc_xprt.h>
-#include <linux/rcupdate.h>
-#include <linux/sched/mm.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/metrics.h>
+#include <peenux/sunrpc/bc_xprt.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched/mm.h>
 
 #include <trace/events/sunrpc.h>
 

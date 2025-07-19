@@ -6,13 +6,13 @@
  */
 
 #include <sound/core.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <pcmcia/ciscode.h>
 #include <pcmcia/cisreg.h>
 #include "pdaudiocf.h"
 #include <sound/initval.h>
-#include <linux/init.h>
+#include <peenux/init.h>
 
 /*
  */

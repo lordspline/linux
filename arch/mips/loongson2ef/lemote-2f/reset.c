@@ -7,9 +7,9 @@
  * Author: Wu Zhangjin, wuzhangjin@gmail.com
  */
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/types.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
 
 #include <asm/bootinfo.h>
 

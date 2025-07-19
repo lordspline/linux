@@ -11,10 +11,10 @@
 #ifndef __LINUX_OPP_H__
 #define __LINUX_OPP_H__
 
-#include <linux/cleanup.h>
-#include <linux/energy_model.h>
-#include <linux/err.h>
-#include <linux/notifier.h>
+#include <peenux/cleanup.h>
+#include <peenux/energy_model.h>
+#include <peenux/err.h>
+#include <peenux/notifier.h>
 
 struct clk;
 struct cpufreq_frequency_table;

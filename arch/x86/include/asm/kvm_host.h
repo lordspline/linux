@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Kernel-based Virtual Machine driver for Linux
+ * Kernel-based Virtual Machine driver for Peenux
  *
  * This header defines architecture specific interfaces, x86 version
  */
@@ -8,26 +8,26 @@
 #ifndef _ASM_X86_KVM_HOST_H
 #define _ASM_X86_KVM_HOST_H
 
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/mmu_notifier.h>
-#include <linux/tracepoint.h>
-#include <linux/cpumask.h>
-#include <linux/irq_work.h>
-#include <linux/irq.h>
-#include <linux/workqueue.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/tracepoint.h>
+#include <peenux/cpumask.h>
+#include <peenux/irq_work.h>
+#include <peenux/irq.h>
+#include <peenux/workqueue.h>
 
-#include <linux/kvm.h>
-#include <linux/kvm_para.h>
-#include <linux/kvm_types.h>
-#include <linux/perf_event.h>
-#include <linux/pvclock_gtod.h>
-#include <linux/clocksource.h>
-#include <linux/irqbypass.h>
-#include <linux/kfifo.h>
-#include <linux/sched/vhost_task.h>
-#include <linux/call_once.h>
-#include <linux/atomic.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_para.h>
+#include <peenux/kvm_types.h>
+#include <peenux/perf_event.h>
+#include <peenux/pvclock_gtod.h>
+#include <peenux/clocksource.h>
+#include <peenux/irqbypass.h>
+#include <peenux/kfifo.h>
+#include <peenux/sched/vhost_task.h>
+#include <peenux/call_once.h>
+#include <peenux/atomic.h>
 
 #include <asm/apic.h>
 #include <asm/pvclock-abi.h>

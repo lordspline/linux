@@ -9,20 +9,20 @@
  *
  */
 
-#include <linux/cred.h>
-#include <linux/file.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/magic.h>
-#include <linux/anon_inodes.h>
-#include <linux/pseudo_fs.h>
+#include <peenux/cred.h>
+#include <peenux/file.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/magic.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/pseudo_fs.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "internal.h"
 

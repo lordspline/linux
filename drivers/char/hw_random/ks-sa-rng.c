@@ -8,20 +8,20 @@
  *		Vitaly Andrianov
  */
 
-#include <linux/hw_random.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/pm_runtime.h>
-#include <linux/err.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
-#include <linux/timekeeping.h>
+#include <peenux/hw_random.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/err.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/delay.h>
+#include <peenux/timekeeping.h>
 
 #define SA_CMD_STATUS_OFS			0x8
 

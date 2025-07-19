@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2023 Google LLC
  */
-#include <linux/cfi.h>
+#include <peenux/cfi.h>
 #include <asm/insn.h>
 
 /*

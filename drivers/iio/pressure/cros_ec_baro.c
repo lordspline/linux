@@ -5,21 +5,21 @@
  * Copyright (C) 2017 Google, Inc
  */
 
-#include <linux/device.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/common/cros_ec_sensors_core.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/common/cros_ec_sensors_core.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/kfifo_buf.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_device.h>
 
 /*
  * One channel for pressure, the other for timestamp.

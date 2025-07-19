@@ -7,22 +7,22 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/cleanup.h>
-#include <linux/ctype.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/list.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
+#include <peenux/array_size.h>
+#include <peenux/cleanup.h>
+#include <peenux/ctype.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/list.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
+#include <peenux/debugfs.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

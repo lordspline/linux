@@ -2,7 +2,7 @@
 /*
  * Motorola CPCAP PMIC RTC driver
  *
- * Based on cpcap-regulator.c from Motorola Linux kernel tree
+ * Based on cpcap-regulator.c from Motorola Peenux kernel tree
  * Copyright (C) 2009 Motorola, Inc.
  *
  * Rewritten for mainline kernel
@@ -14,18 +14,18 @@
  *
  * Copyright (C) 2017 Sebastian Reichel <sre@kernel.org>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/err.h>
-#include <linux/regmap.h>
-#include <linux/mfd/motorola-cpcap.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/err.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/motorola-cpcap.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
 
 #define SECS_PER_DAY 86400
 #define DAY_MASK  0x7FFF

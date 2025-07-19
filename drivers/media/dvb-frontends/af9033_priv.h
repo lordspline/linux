@@ -11,10 +11,10 @@
 
 #include <media/dvb_frontend.h>
 #include "af9033.h"
-#include <linux/math64.h>
-#include <linux/regmap.h>
-#include <linux/kernel.h>
-#include <linux/int_log.h>
+#include <peenux/math64.h>
+#include <peenux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/int_log.h>
 
 struct reg_val {
 	u32 reg;

@@ -5,31 +5,31 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/units.h>
-#include <linux/util_macros.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/pwm.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/units.h>
+#include <peenux/util_macros.h>
 
-#include <linux/iio/backend.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
 
 #include "ad7606.h"
 

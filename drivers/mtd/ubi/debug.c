@@ -6,11 +6,11 @@
  */
 
 #include "ubi.h"
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/fault-inject.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
+#include <peenux/fault-inject.h>
 
 #ifdef CONFIG_MTD_UBI_FAULT_INJECTION
 static DECLARE_FAULT_ATTR(fault_eccerr_attr);

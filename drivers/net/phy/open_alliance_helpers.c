@@ -15,8 +15,8 @@
  *   https://opensig.org/wp-content/uploads/2024/03/Advanced_PHY_features_for_automotive_Ethernet_v2.0_fin.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/ethtool_netlink.h>
+#include <peenux/bitfield.h>
+#include <peenux/ethtool_netlink.h>
 
 #include "open_alliance_helpers.h"
 

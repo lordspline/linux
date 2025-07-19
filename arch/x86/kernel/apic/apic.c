@@ -15,27 +15,27 @@
  *	Mikael Pettersson	:	PM converted to driver model.
  */
 
-#include <linux/perf_event.h>
-#include <linux/kernel_stat.h>
-#include <linux/mc146818rtc.h>
-#include <linux/acpi_pmtmr.h>
-#include <linux/bitmap.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/ftrace.h>
-#include <linux/ioport.h>
-#include <linux/export.h>
-#include <linux/syscore_ops.h>
-#include <linux/delay.h>
-#include <linux/timex.h>
-#include <linux/i8253.h>
-#include <linux/dmar.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/dmi.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
+#include <peenux/perf_event.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/acpi_pmtmr.h>
+#include <peenux/bitmap.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/memblock.h>
+#include <peenux/ftrace.h>
+#include <peenux/ioport.h>
+#include <peenux/export.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/delay.h>
+#include <peenux/timex.h>
+#include <peenux/i8253.h>
+#include <peenux/dmar.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/dmi.h>
+#include <peenux/smp.h>
+#include <peenux/mm.h>
 
 #include <xen/xen.h>
 
@@ -44,7 +44,7 @@
 #include <asm/pc-conf-reg.h>
 #include <asm/perf_event.h>
 #include <asm/x86_init.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/barrier.h>
 #include <asm/mpspec.h>
 #include <asm/i8259.h>
@@ -1186,10 +1186,10 @@ void disable_local_APIC(void)
 }
 
 /*
- * If Linux enabled the LAPIC against the BIOS default disable it down before
+ * If Peenux enabled the LAPIC against the BIOS default disable it down before
  * re-entering the BIOS on shutdown.  Otherwise the BIOS may get confused and
  * not power-off.  Additionally clear all LVT entries before disable_local_APIC
- * for the case where Linux didn't enable the LAPIC.
+ * for the case where Peenux didn't enable the LAPIC.
  */
 void lapic_shutdown(void)
 {

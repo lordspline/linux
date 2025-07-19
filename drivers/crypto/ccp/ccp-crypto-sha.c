@@ -8,11 +8,11 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/scatterlist.h>
-#include <linux/crypto.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/scatterlist.h>
+#include <peenux/crypto.h>
 #include <crypto/algapi.h>
 #include <crypto/hash.h>
 #include <crypto/hmac.h>
@@ -20,7 +20,7 @@
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
 #include <crypto/scatterwalk.h>
-#include <linux/string.h>
+#include <peenux/string.h>
 
 #include "ccp-crypto.h"
 

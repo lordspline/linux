@@ -38,18 +38,18 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/user_namespace.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/user_namespace.h>
 
-#include <linux/sunrpc/auth_gss.h>
-#include <linux/sunrpc/gss_err.h>
-#include <linux/sunrpc/svcauth.h>
-#include <linux/sunrpc/svcauth_gss.h>
-#include <linux/sunrpc/cache.h>
-#include <linux/sunrpc/gss_krb5.h>
+#include <peenux/sunrpc/auth_gss.h>
+#include <peenux/sunrpc/gss_err.h>
+#include <peenux/sunrpc/svcauth.h>
+#include <peenux/sunrpc/svcauth_gss.h>
+#include <peenux/sunrpc/cache.h>
+#include <peenux/sunrpc/gss_krb5.h>
 
 #include <trace/events/rpcgss.h>
 

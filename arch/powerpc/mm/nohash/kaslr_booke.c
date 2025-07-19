@@ -2,20 +2,20 @@
 //
 // Copyright (C) 2019 Jason Yan <yanaijie@huawei.com>
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/memblock.h>
-#include <linux/libfdt.h>
-#include <linux/crash_reserve.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/stddef.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/memblock.h>
+#include <peenux/libfdt.h>
+#include <peenux/crash_reserve.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
 #include <asm/cacheflush.h>
 #include <asm/kdump.h>
 #include <mm/mmu_decl.h>
@@ -201,12 +201,12 @@ static void __init get_initrd_range(void *fdt)
 	if (node < 0)
 		return;
 
-	prop = fdt_getprop(fdt, node, "linux,initrd-start", &len);
+	prop = fdt_getprop(fdt, node, "peenux,initrd-start", &len);
 	if (!prop)
 		return;
 	start = of_read_number(prop, len / 4);
 
-	prop = fdt_getprop(fdt, node, "linux,initrd-end", &len);
+	prop = fdt_getprop(fdt, node, "peenux,initrd-end", &len);
 	if (!prop)
 		return;
 	end = of_read_number(prop, len / 4);

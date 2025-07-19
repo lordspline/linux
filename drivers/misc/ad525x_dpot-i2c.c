@@ -5,8 +5,8 @@
  * Copyright (C) 2010-2011 Michael Hennerich, Analog Devices Inc.
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
 
 #include "ad525x_dpot.h"
 

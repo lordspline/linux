@@ -5,22 +5,22 @@
  * Driver for the PA Semi PWRficient onchip 1G/10G Ethernet MACs
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/dmaengine.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/of_mdio.h>
-#include <linux/etherdevice.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/dmaengine.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/of_mdio.h>
+#include <peenux/etherdevice.h>
 #include <asm/dma-mapping.h>
-#include <linux/in.h>
-#include <linux/skbuff.h>
+#include <peenux/in.h>
+#include <peenux/skbuff.h>
 
-#include <linux/ip.h>
+#include <peenux/ip.h>
 #include <net/checksum.h>
-#include <linux/prefetch.h>
+#include <peenux/prefetch.h>
 
 #include <asm/irq.h>
 #include <asm/firmware.h>

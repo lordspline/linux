@@ -7,9 +7,9 @@
  *	Copyright (c) 2000 Jaroslav Kysela <perex@perex.cz>
  */      
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
 #include <sound/core.h>
 
 #include "ice1712.h"

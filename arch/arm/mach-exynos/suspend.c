@@ -9,19 +9,19 @@
 // Copyright (c) 2006 Simtec Electronics
 //	Ben Dooks <ben@simtec.co.uk>
 
-#include <linux/init.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/cpu_pm.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
-#include <linux/err.h>
-#include <linux/regulator/machine.h>
-#include <linux/soc/samsung/exynos-pmu.h>
-#include <linux/soc/samsung/exynos-regs-pmu.h>
+#include <peenux/init.h>
+#include <peenux/suspend.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of_address.h>
+#include <peenux/err.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/soc/samsung/exynos-pmu.h>
+#include <peenux/soc/samsung/exynos-regs-pmu.h>
 
 #include <asm/cacheflush.h>
 #include <asm/hardware/cache-l2x0.h>

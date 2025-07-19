@@ -31,7 +31,7 @@
 #include "drm/drm_prime.h"
 #include "drm/drm_gem_ttm_helper.h"
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 static void vmw_gem_object_free(struct drm_gem_object *gobj)
 {

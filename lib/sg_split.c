@@ -5,8 +5,8 @@
  * Scatterlist splitting helpers.
  */
 
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
 
 struct sg_splitter {
 	struct scatterlist *in_sg0;

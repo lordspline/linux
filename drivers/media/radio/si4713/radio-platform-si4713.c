@@ -8,13 +8,13 @@
  * Contact: Eduardo Valentin <eduardo.valentin@nokia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/i2c.h>
+#include <peenux/videodev2.h>
+#include <peenux/slab.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

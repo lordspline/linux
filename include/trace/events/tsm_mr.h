@@ -5,8 +5,8 @@
 #if !defined(_TRACE_TSM_MR_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_TSM_MR_H
 
-#include <linux/tracepoint.h>
-#include <linux/tsm-mr.h>
+#include <peenux/tracepoint.h>
+#include <peenux/tsm-mr.h>
 
 TRACE_EVENT(tsm_mr_read,
 

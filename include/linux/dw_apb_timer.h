@@ -10,9 +10,9 @@
 #ifndef __DW_APB_TIMER_H__
 #define __DW_APB_TIMER_H__
 
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/interrupt.h>
+#include <peenux/clockchips.h>
+#include <peenux/clocksource.h>
+#include <peenux/interrupt.h>
 
 #define APBTMRS_REG_SIZE       0x14
 

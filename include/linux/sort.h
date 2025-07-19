@@ -2,7 +2,7 @@
 #ifndef _LINUX_SORT_H
 #define _LINUX_SORT_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /**
  * cmp_int - perform a three-way comparison of the arguments

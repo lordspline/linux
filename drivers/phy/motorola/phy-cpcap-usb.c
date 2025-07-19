@@ -3,30 +3,30 @@
  * Motorola CPCAP PMIC USB PHY driver
  * Copyright (C) 2017 Tony Lindgren <tony@atomide.com>
  *
- * Some parts based on earlier Motorola Linux kernel tree code in
+ * Some parts based on earlier Motorola Peenux kernel tree code in
  * board-mapphone-usb.c and cpcap-usb-det.c:
  * Copyright (C) 2007 - 2011 Motorola, Inc.
  */
 
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/iio/consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/mfd/motorola-cpcap.h>
-#include <linux/phy/omap_usb.h>
-#include <linux/phy/phy.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/musb.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mfd/motorola-cpcap.h>
+#include <peenux/phy/omap_usb.h>
+#include <peenux/phy/phy.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/usb/musb.h>
 
 /* CPCAP_REG_USBC1 register bits */
 #define CPCAP_BIT_IDPULSE		BIT(15)

@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2003-2022, Intel Corporation. All rights reserved.
- * Intel Management Engine Interface (Intel MEI) Linux driver
+ * Intel Management Engine Interface (Intel MEI) Peenux driver
  */
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
-#include <linux/mei.h>
+#include <peenux/mei.h>
 
 #include "mei_dev.h"
 #include "hbm.h"

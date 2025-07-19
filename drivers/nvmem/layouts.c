@@ -6,13 +6,13 @@
  * Author: Miquel Raynal <miquel.raynal@bootlin.com
  */
 
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_irq.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_irq.h>
 
 #include "internals.h"
 

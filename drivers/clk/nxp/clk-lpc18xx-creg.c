@@ -5,13 +5,13 @@
  * Copyright (C) 2015 Joachim Eastwood <manabian@gmail.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define LPC18XX_CREG_CREG0			0x004
 #define  LPC18XX_CREG_CREG0_EN1KHZ		BIT(0)

@@ -6,10 +6,10 @@
  *      Suman Anna <s-anna@ti.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/list.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/list.h>
 
 #include "clockdomain.h"
 #include "powerdomain.h"

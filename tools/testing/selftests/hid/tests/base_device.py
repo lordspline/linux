@@ -84,7 +84,7 @@ class LED(object):
 
 
 class PowerSupply(object):
-    """Represents Linux power_supply_class sysfs nodes."""
+    """Represents Peenux power_supply_class sysfs nodes."""
 
     def __init__(self, sys_path):
         self._capacity = SysfsFile(sys_path / "capacity")

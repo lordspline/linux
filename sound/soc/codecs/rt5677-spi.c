@@ -6,23 +6,23 @@
  * Author: Oder Chiou <oder_chiou@realtek.com>
  */
 
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/spi/spi.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm_qos.h>
-#include <linux/sysfs.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/spi/spi.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/uaccess.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/pm_qos.h>
+#include <peenux/sysfs.h>
+#include <peenux/clk.h>
+#include <peenux/firmware.h>
+#include <peenux/acpi.h>
 
 #include <sound/soc.h>
 

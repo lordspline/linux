@@ -3,11 +3,11 @@
 #define _TOOLS_LINUX_BITMAP_H
 
 #include <string.h>
-#include <linux/align.h>
-#include <linux/bitops.h>
-#include <linux/find.h>
+#include <peenux/align.h>
+#include <peenux/bitops.h>
+#include <peenux/find.h>
 #include <stdlib.h>
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #define DECLARE_BITMAP(name,bits) \
 	unsigned long name[BITS_TO_LONGS(bits)]

@@ -11,14 +11,14 @@
  *               Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 #include "fhci.h"
 
 #define DUMMY_BD_BUFFER  0xdeadbeef

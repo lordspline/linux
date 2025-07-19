@@ -4,19 +4,19 @@
  * Copyright (C) 2007, 2008 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/blk-mq.h>
-#include <linux/hdreg.h>
-#include <linux/cdrom.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/scatterlist.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/blk-mq.h>
+#include <peenux/hdreg.h>
+#include <peenux/cdrom.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/scatterlist.h>
 
 #include <asm/vio.h>
 #include <asm/ldc.h>

@@ -13,19 +13,19 @@
  * by Hollis Blanchard <hollisb@us.ibm.com>.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/highmem.h>
-#include <linux/log2.h>
-#include <linux/uaccess.h>
-#include <linux/sched/mm.h>
-#include <linux/rwsem.h>
-#include <linux/vmalloc.h>
-#include <linux/hugetlb.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/highmem.h>
+#include <peenux/log2.h>
+#include <peenux/uaccess.h>
+#include <peenux/sched/mm.h>
+#include <peenux/rwsem.h>
+#include <peenux/vmalloc.h>
+#include <peenux/hugetlb.h>
 #include <asm/kvm_ppc.h>
 #include <asm/pte-walk.h>
 

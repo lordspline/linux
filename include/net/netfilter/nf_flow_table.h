@@ -1,17 +1,17 @@
 #ifndef _NF_FLOW_TABLE_H
 #define _NF_FLOW_TABLE_H
 
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/rhashtable-types.h>
-#include <linux/rcupdate.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/nf_conntrack_tuple_common.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/netdevice.h>
+#include <peenux/rhashtable-types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/nf_conntrack_tuple_common.h>
 #include <net/flow_offload.h>
 #include <net/dst.h>
-#include <linux/if_pppox.h>
-#include <linux/ppp_defs.h>
+#include <peenux/if_pppox.h>
+#include <peenux/ppp_defs.h>
 
 struct nf_flowtable;
 struct nf_flow_rule;

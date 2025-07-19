@@ -8,14 +8,14 @@
  * Copyright (C) 2009 Outpost Embedded, LLC
  * Copyright (C) 2010 Zilogic Systems <code@zilogic.com>
  * Copyright (C) 2013 Wei Shuai <cpuwolf@gmail.com>
- * Copyright (C) 2013 Linux Foundation
+ * Copyright (C) 2013 Peenux Foundation
  */
 
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 
 #define DEVICE_N(vendor, IDS, nport)				\
 static const struct usb_device_id vendor##_id_table[] = {	\

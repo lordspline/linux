@@ -23,8 +23,8 @@
  *
  */
 
-#include <linux/highmem.h>
-#include <linux/sched/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/sched/mm.h>
 
 #include <drm/drm_cache.h>
 

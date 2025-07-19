@@ -47,11 +47,11 @@
 		ranges;
 
 		/* global cma region */
-		linux,cma {
+		peenux,cma {
 			compatible = "shared-dma-pool";
 			reusable;
 			size = <0x00 0x8000000>;
-			linux,cma-default;
+			peenux,cma-default;
 		};
 
 		mcu_m4fss_dma_memory_region: m4f-dma-memory@9cb00000 {
@@ -153,7 +153,7 @@
 		led-1 {
 			function = LED_FUNCTION_HEARTBEAT;
 			color = <LED_COLOR_ID_GREEN>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 			gpios = <&main_gpio0 6 GPIO_ACTIVE_HIGH>;
 			default-state = "on";
 			bootph-all;
@@ -162,7 +162,7 @@
 		led-2 {
 			function = LED_FUNCTION_DISK_ACTIVITY;
 			color = <LED_COLOR_ID_GREEN>;
-			linux,default-trigger = "mmc1";
+			peenux,default-trigger = "mmc1";
 			gpios = <&main_gpio0 5 GPIO_ACTIVE_HIGH>;
 			default-state = "on";
 			bootph-all;

@@ -2,9 +2,9 @@
 #ifndef GENL_MAGIC_FUNC_H
 #define GENL_MAGIC_FUNC_H
 
-#include <linux/args.h>
-#include <linux/build_bug.h>
-#include <linux/genl_magic_struct.h>
+#include <peenux/args.h>
+#include <peenux/build_bug.h>
+#include <peenux/genl_magic_struct.h>
 
 /*
  * Magic: declare tla policy						{{{1
@@ -223,7 +223,7 @@ static const char *CONCATENATE(GENL_MAGIC_FAMILY, _genl_cmd_to_str)(__u8 cmd)
 }
 
 #ifdef __KERNEL__
-#include <linux/stringify.h>
+#include <peenux/stringify.h>
 /*
  * Magic: define genl_ops						{{{1
  *									{{{2

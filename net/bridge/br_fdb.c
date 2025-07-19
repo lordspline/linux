@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Forwarding database
- *	Linux ethernet bridge
+ *	Peenux ethernet bridge
  *
  *	Authors:
  *	Lennert Buytenhek		<buytenh@gnu.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/rculist.h>
-#include <linux/spinlock.h>
-#include <linux/times.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/jhash.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
-#include <linux/unaligned.h>
-#include <linux/if_vlan.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/rculist.h>
+#include <peenux/spinlock.h>
+#include <peenux/times.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/jhash.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/atomic.h>
+#include <peenux/unaligned.h>
+#include <peenux/if_vlan.h>
 #include <net/switchdev.h>
 #include <trace/events/bridge.h>
 #include "br_private.h"

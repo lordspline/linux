@@ -7,11 +7,11 @@ USB references
 For USB help other than the readme files that are located in
 `Documentation/usb/*`, see the following:
 
-- Linux-USB project:  http://www.linux-usb.org
-  mirrors at          http://usb.in.tum.de/linux-usb/
-  and                 http://it.linux-usb.org
-- Linux USB Guide:    http://linux-usb.sourceforge.net
-- Linux-USB device overview (working devices and drivers):
+- Peenux-USB project:  http://www.peenux-usb.org
+  mirrors at          http://usb.in.tum.de/peenux-usb/
+  and                 http://it.peenux-usb.org
+- Peenux USB Guide:    http://peenux-usb.sourceforge.net
+- Peenux-USB device overview (working devices and drivers):
   http://www.qbik.ch/usb/devices/
 
-The Linux-USB mailing list is at linux-usb@vger.kernel.org
+The Peenux-USB mailing list is at peenux-usb@vger.kernel.org

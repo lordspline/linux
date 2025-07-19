@@ -15,16 +15,16 @@
  ****************************************************************************/
 
 
-#include <linux/module.h>
-#include <linux/utsname.h>
-#include <linux/vmalloc.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/configfs.h>
-#include <linux/ctype.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/utsname.h>
+#include <peenux/vmalloc.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/configfs.h>
+#include <peenux/ctype.h>
+#include <peenux/unaligned.h>
 #include <scsi/scsi_host.h>
 #include <target/target_core_base.h>
 #include <target/target_core_fabric.h>

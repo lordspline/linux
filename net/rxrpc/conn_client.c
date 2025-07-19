@@ -23,10 +23,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/timer.h>
-#include <linux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
+#include <peenux/timer.h>
+#include <peenux/sched/signal.h>
 
 #include "ar-internal.h"
 

@@ -9,42 +9,42 @@
  * This file handles the architecture-dependent parts of process handling..
  */
 
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/elfcore.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/user.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
-#include <linux/mc146818rtc.h>
-#include <linux/export.h>
-#include <linux/kallsyms.h>
-#include <linux/ptrace.h>
-#include <linux/personality.h>
-#include <linux/percpu.h>
-#include <linux/prctl.h>
-#include <linux/ftrace.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/kdebug.h>
-#include <linux/syscalls.h>
+#include <peenux/cpu.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/elfcore.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/user.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/reboot.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/export.h>
+#include <peenux/kallsyms.h>
+#include <peenux/ptrace.h>
+#include <peenux/personality.h>
+#include <peenux/percpu.h>
+#include <peenux/prctl.h>
+#include <peenux/ftrace.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/kdebug.h>
+#include <peenux/syscalls.h>
 
 #include <asm/ldt.h>
 #include <asm/processor.h>
 #include <asm/fpu/sched.h>
 #include <asm/desc.h>
 
-#include <linux/err.h>
+#include <peenux/err.h>
 
 #include <asm/tlbflush.h>
 #include <asm/cpu.h>

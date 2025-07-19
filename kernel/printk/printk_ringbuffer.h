@@ -3,11 +3,11 @@
 #ifndef _KERNEL_PRINTK_RINGBUFFER_H
 #define _KERNEL_PRINTK_RINGBUFFER_H
 
-#include <linux/atomic.h>
-#include <linux/bits.h>
-#include <linux/dev_printk.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/bits.h>
+#include <peenux/dev_printk.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 /*
  * Meta information about each stored message.

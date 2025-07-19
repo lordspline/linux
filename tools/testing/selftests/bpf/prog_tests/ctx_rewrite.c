@@ -9,8 +9,8 @@
 
 #include "bpf/btf.h"
 #include "bpf_util.h"
-#include "linux/filter.h"
-#include "linux/kernel.h"
+#include "peenux/filter.h"
+#include "peenux/kernel.h"
 #include "disasm_helpers.h"
 
 #define MAX_PROG_TEXT_SZ (32 * 1024)

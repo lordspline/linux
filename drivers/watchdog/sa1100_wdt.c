@@ -16,20 +16,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/clk.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/platform_device.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
-#include <linux/timex.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/clk.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/platform_device.h>
+#include <peenux/miscdevice.h>
+#include <peenux/watchdog.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/bitops.h>
+#include <peenux/uaccess.h>
+#include <peenux/timex.h>
 
 #define REG_OSMR0  	0x0000  /* OS timer Match Reg. 0 */
 #define REG_OSMR1  	0x0004  /* OS timer Match Reg. 1 */

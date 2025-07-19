@@ -5,13 +5,13 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/ethtool.h>
-#include <linux/stddef.h>
-#include <linux/etherdevice.h>
-#include <linux/log2.h>
-#include <linux/net_tstamp.h>
-#include <linux/linkmode.h>
+#include <peenux/pci.h>
+#include <peenux/ethtool.h>
+#include <peenux/stddef.h>
+#include <peenux/etherdevice.h>
+#include <peenux/log2.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/linkmode.h>
 
 #include "otx2_common.h"
 #include "otx2_ptp.h"

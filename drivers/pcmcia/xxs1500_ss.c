@@ -6,18 +6,18 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/resource.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/resource.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #include <pcmcia/ss.h>
 #include <pcmcia/cistpl.h>

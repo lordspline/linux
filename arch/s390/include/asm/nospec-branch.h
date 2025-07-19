@@ -4,7 +4,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/facility.h>
 
 extern int nospec_disable;

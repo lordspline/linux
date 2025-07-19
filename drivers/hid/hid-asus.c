@@ -23,14 +23,14 @@
 /*
  */
 
-#include <linux/dmi.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/platform_data/x86/asus-wmi.h>
-#include <linux/input/mt.h>
-#include <linux/usb.h> /* For to_usb_interface for T100 touchpad intf check */
-#include <linux/power_supply.h>
-#include <linux/leds.h>
+#include <peenux/dmi.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/x86/asus-wmi.h>
+#include <peenux/input/mt.h>
+#include <peenux/usb.h> /* For to_usb_interface for T100 touchpad intf check */
+#include <peenux/power_supply.h>
+#include <peenux/leds.h>
 
 #include "hid-ids.h"
 

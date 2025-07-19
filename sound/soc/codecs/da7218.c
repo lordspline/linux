@@ -7,15 +7,15 @@
  * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
  */
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/pm.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

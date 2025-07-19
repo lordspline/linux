@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/cpuhotplug.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
+#include <peenux/sched.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/vmalloc.h>
 
 #include "zcomp.h"
 

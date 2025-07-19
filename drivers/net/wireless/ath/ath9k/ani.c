@@ -14,8 +14,8 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
 #include "hw.h"
 #include "hw-ops.h"
 

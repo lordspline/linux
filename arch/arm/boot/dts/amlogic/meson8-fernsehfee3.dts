@@ -4,7 +4,7 @@
 /dts-v1/;
 
 #include <dt-bindings/gpio/gpio.h>
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/peenux-event-codes.h>
 #include <dt-bindings/leds/common.h>
 
 #include "meson8.dtsi"
@@ -38,7 +38,7 @@
 
 		power-button {
 			label = "Power button";
-			linux,code = <KEY_POWER>;
+			peenux,code = <KEY_POWER>;
 			gpios = <&gpio_ao GPIOAO_3 GPIO_ACTIVE_LOW>;
 		};
 	};

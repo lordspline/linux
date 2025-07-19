@@ -10,8 +10,8 @@
 	Abstract: rt2x00 generic mac80211 routines.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "rt2x00.h"
 #include "rt2x00lib.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013-2014, The Peenux Foundation. All rights reserved.
  */
 /*
  * QCOM BAM DMA engine driver
@@ -23,24 +23,24 @@
  * indication of where the hardware is currently working.
  */
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/scatterlist.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_dma.h>
-#include <linux/circ_buf.h>
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/pm_runtime.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/scatterlist.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_dma.h>
+#include <peenux/circ_buf.h>
+#include <peenux/clk.h>
+#include <peenux/dmaengine.h>
+#include <peenux/pm_runtime.h>
 
 #include "../dmaengine.h"
 #include "../virt-dma.h"

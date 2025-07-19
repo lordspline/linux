@@ -6,17 +6,17 @@
  * (C) Copyright 2014 Intel Corporation
  */
 
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio_keys.h>
-#include <linux/gpio.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/gpio.h>
+#include <peenux/platform_device.h>
 
 static bool use_low_level_irq;
 module_param(use_low_level_irq, bool, 0444);

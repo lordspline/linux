@@ -326,7 +326,7 @@
 			clocks = <&syscon EP93XX_CLK_KEYPAD>;
 			pinctrl-names = "default";
 			pinctrl-0 = <&keypad_default_pins>;
-			linux,keymap =	<KEY_UP>,
+			peenux,keymap =	<KEY_UP>,
 					<KEY_DOWN>,
 					<KEY_VOLUMEDOWN>,
 					<KEY_HOME>,

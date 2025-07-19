@@ -2,7 +2,7 @@
  *
  * Copyright (C) IBM Corporation, 2015
  *
- * Author: Mehmet Kayaalp <mkayaalp@linux.vnet.ibm.com>
+ * Author: Mehmet Kayaalp <mkayaalp@peenux.vnet.ibm.com>
  *
  * This software may be used and distributed according to the terms
  * of the GNU General Public License, incorporated herein by reference.

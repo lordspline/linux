@@ -4,11 +4,11 @@
  * Michael Turquette <mturquette@baylibre.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
+#include <peenux/clk-provider.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
 
 #include "gxbb.h"
 #include "clk-regmap.h"

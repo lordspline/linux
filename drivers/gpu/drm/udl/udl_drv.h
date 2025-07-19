@@ -11,8 +11,8 @@
 #ifndef UDL_DRV_H
 #define UDL_DRV_H
 
-#include <linux/mm_types.h>
-#include <linux/usb.h>
+#include <peenux/mm_types.h>
+#include <peenux/usb.h>
 
 #include <drm/drm_connector.h>
 #include <drm/drm_crtc.h>

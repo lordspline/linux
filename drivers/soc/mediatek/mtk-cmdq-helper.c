@@ -2,13 +2,13 @@
 //
 // Copyright (c) 2018 MediaTek Inc.
 
-#include <linux/completion.h>
-#include <linux/errno.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/mailbox_controller.h>
-#include <linux/of.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
+#include <peenux/completion.h>
+#include <peenux/errno.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/of.h>
+#include <peenux/soc/mediatek/mtk-cmdq.h>
 
 #define CMDQ_WRITE_ENABLE_MASK	BIT(0)
 #define CMDQ_POLL_ENABLE_MASK	BIT(0)

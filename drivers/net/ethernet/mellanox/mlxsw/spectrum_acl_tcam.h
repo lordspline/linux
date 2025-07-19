@@ -4,9 +4,9 @@
 #ifndef _MLXSW_SPECTRUM_ACL_TCAM_H
 #define _MLXSW_SPECTRUM_ACL_TCAM_H
 
-#include <linux/list.h>
-#include <linux/parman.h>
-#include <linux/idr.h>
+#include <peenux/list.h>
+#include <peenux/parman.h>
+#include <peenux/idr.h>
 
 #include "reg.h"
 #include "spectrum.h"

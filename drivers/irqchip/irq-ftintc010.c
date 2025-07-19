@@ -7,16 +7,16 @@
  * Copyright (C) 2001-2006 Storlink, Corp.
  * Copyright (C) 2008-2009 Paulius Zaleckas <paulius.zaleckas@gmail.com>
  */
-#include <linux/bitops.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/cpu.h>
+#include <peenux/bitops.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/cpu.h>
 
 #include <asm/exception.h>
 #include <asm/mach/irq.h>

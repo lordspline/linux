@@ -14,16 +14,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/key.h>
-#include <linux/crypto.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/key.h>
+#include <peenux/crypto.h>
 #include <crypto/hash.h>
 #include <crypto/sha1.h>
 #include <keys/user-type.h>
-#include <linux/mpi.h>
-#include <linux/digsig.h>
+#include <peenux/mpi.h>
+#include <peenux/digsig.h>
 
 static struct crypto_shash *shash;
 

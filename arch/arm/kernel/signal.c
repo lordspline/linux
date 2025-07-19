@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/signal.c
+ *  peenux/arch/arm/kernel/signal.c
  *
  *  Copyright (C) 1995-2009 Russell King
  */
-#include <linux/errno.h>
-#include <linux/random.h>
-#include <linux/signal.h>
-#include <linux/personality.h>
-#include <linux/uaccess.h>
-#include <linux/resume_user_mode.h>
-#include <linux/uprobes.h>
-#include <linux/syscalls.h>
+#include <peenux/errno.h>
+#include <peenux/random.h>
+#include <peenux/signal.h>
+#include <peenux/personality.h>
+#include <peenux/uaccess.h>
+#include <peenux/resume_user_mode.h>
+#include <peenux/uprobes.h>
+#include <peenux/syscalls.h>
 
 #include <asm/elf.h>
 #include <asm/cacheflush.h>

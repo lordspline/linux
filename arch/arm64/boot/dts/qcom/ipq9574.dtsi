@@ -2,7 +2,7 @@
 /*
  * IPQ9574 SoC device tree source
  *
- * Copyright (c) 2020-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2023-2024, Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
@@ -918,7 +918,7 @@
 				    "config",
 				    "mhi";
 			device_type = "pci";
-			linux,pci-domain = <1>;
+			peenux,pci-domain = <1>;
 			bus-range = <0x00 0xff>;
 			num-lanes = <1>;
 			#address-cells = <3>;
@@ -1004,7 +1004,7 @@
 				    "config",
 				    "mhi";
 			device_type = "pci";
-			linux,pci-domain = <3>;
+			peenux,pci-domain = <3>;
 			bus-range = <0x00 0xff>;
 			num-lanes = <2>;
 			#address-cells = <3>;
@@ -1090,7 +1090,7 @@
 				    "config",
 				    "mhi";
 			device_type = "pci";
-			linux,pci-domain = <2>;
+			peenux,pci-domain = <2>;
 			bus-range = <0x00 0xff>;
 			num-lanes = <2>;
 			#address-cells = <3>;
@@ -1176,7 +1176,7 @@
 				    "config",
 				    "mhi";
 			device_type = "pci";
-			linux,pci-domain = <0>;
+			peenux,pci-domain = <0>;
 			bus-range = <0x00 0xff>;
 			num-lanes = <1>;
 			#address-cells = <3>;

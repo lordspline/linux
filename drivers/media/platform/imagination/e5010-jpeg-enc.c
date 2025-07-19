@@ -10,14 +10,14 @@
  * Author: Devarsh Thakkar <devarsht@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioctl.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/pm_runtime.h>
 #include <media/jpeg.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>

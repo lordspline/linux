@@ -9,10 +9,10 @@
  * Copyright 2008  by Karsten Keil <kkeil@novell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 #include "fsm.h"
 
 #define FSM_TIMER_DEBUG 0

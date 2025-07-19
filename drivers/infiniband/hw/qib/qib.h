@@ -39,20 +39,20 @@
  * qib_user.h serves a similar purpose for user code.
  */
 
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/fs.h>
-#include <linux/completion.h>
-#include <linux/kref.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
-#include <linux/xarray.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/fs.h>
+#include <peenux/completion.h>
+#include <peenux/kref.h>
+#include <peenux/sched.h>
+#include <peenux/kthread.h>
+#include <peenux/xarray.h>
 #include <rdma/ib_hdrs.h>
 #include <rdma/rdma_vt.h>
 

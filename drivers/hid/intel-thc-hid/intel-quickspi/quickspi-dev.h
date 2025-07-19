@@ -4,10 +4,10 @@
 #ifndef _QUICKSPI_DEV_H_
 #define _QUICKSPI_DEV_H_
 
-#include <linux/bits.h>
-#include <linux/hid-over-spi.h>
-#include <linux/sizes.h>
-#include <linux/wait.h>
+#include <peenux/bits.h>
+#include <peenux/hid-over-spi.h>
+#include <peenux/sizes.h>
+#include <peenux/wait.h>
 
 #include "quickspi-protocol.h"
 

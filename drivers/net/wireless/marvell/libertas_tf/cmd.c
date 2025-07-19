@@ -5,9 +5,9 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/hardirq.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/hardirq.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 
 #include "libertas_tf.h"
 

@@ -7,7 +7,7 @@
  * Copyright 2024 Google LLC
  */
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 #define STATE0	%xmm0
 #define STATE1	%xmm1

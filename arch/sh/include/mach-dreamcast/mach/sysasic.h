@@ -5,7 +5,7 @@
  * Definitions for the Dreamcast System ASIC and related peripherals.
  *
  * Copyright (c) 2001 M. R. Brown <mrbrown@linuxdc.org>
- * Copyright (C) 2003 Paul Mundt <lethal@linux-sh.org>
+ * Copyright (C) 2003 Paul Mundt <lethal@peenux-sh.org>
  *
  * This file is part of the LinuxDC project (www.linuxdc.org)
  */

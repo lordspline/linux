@@ -6,14 +6,14 @@
  * Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

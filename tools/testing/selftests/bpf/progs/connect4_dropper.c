@@ -2,8 +2,8 @@
 
 #include <string.h>
 
-#include <linux/stddef.h>
-#include <linux/bpf.h>
+#include <peenux/stddef.h>
+#include <peenux/bpf.h>
 
 #include <sys/socket.h>
 

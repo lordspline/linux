@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/timer.h>
-#include <linux/init.h>
-#include <linux/rtc.h>
-#include <linux/delay.h>
-#include <linux/ratelimit.h>
+#include <peenux/kernel.h>
+#include <peenux/time.h>
+#include <peenux/timer.h>
+#include <peenux/init.h>
+#include <peenux/rtc.h>
+#include <peenux/delay.h>
+#include <peenux/ratelimit.h>
 #include <asm/rtas.h>
 #include <asm/time.h>
 

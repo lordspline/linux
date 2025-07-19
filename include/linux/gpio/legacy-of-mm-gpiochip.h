@@ -11,8 +11,8 @@
 #ifndef __LINUX_GPIO_LEGACY_OF_MM_GPIO_CHIP_H
 #define __LINUX_GPIO_LEGACY_OF_MM_GPIO_CHIP_H
 
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/of.h>
 
 /*
  * OF GPIO chip for memory mapped banks

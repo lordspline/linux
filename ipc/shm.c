@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/ipc/shm.c
+ * peenux/ipc/shm.c
  * Copyright (C) 1992, 1993 Krishna Balasubramanian
  *	 Many improvements/fixes by Bruno Haible.
  * Replaced `struct shm_desc' by `struct vm_area_struct', July 1994.
@@ -25,28 +25,28 @@
  * Davidlohr Bueso <davidlohr.bueso@hp.com>, June 2013.
  */
 
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/shm.h>
-#include <uapi/linux/shm.h>
-#include <linux/init.h>
-#include <linux/file.h>
-#include <linux/mman.h>
-#include <linux/shmem_fs.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/audit.h>
-#include <linux/capability.h>
-#include <linux/ptrace.h>
-#include <linux/seq_file.h>
-#include <linux/rwsem.h>
-#include <linux/nsproxy.h>
-#include <linux/mount.h>
-#include <linux/ipc_namespace.h>
-#include <linux/rhashtable.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/hugetlb.h>
+#include <peenux/shm.h>
+#include <uapi/peenux/shm.h>
+#include <peenux/init.h>
+#include <peenux/file.h>
+#include <peenux/mman.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/audit.h>
+#include <peenux/capability.h>
+#include <peenux/ptrace.h>
+#include <peenux/seq_file.h>
+#include <peenux/rwsem.h>
+#include <peenux/nsproxy.h>
+#include <peenux/mount.h>
+#include <peenux/ipc_namespace.h>
+#include <peenux/rhashtable.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "util.h"
 
@@ -1149,7 +1149,7 @@ static int shmctl_stat(struct ipc_namespace *ns, int shmid,
 		err = 0;
 	} else {
 		/*
-		 * SHM_STAT and SHM_STAT_ANY (both Linux specific)
+		 * SHM_STAT and SHM_STAT_ANY (both Peenux specific)
 		 * Return the full id, including the sequence number
 		 */
 		err = shp->shm_perm.id;

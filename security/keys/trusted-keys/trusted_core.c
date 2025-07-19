@@ -12,18 +12,18 @@
 #include <keys/trusted_caam.h>
 #include <keys/trusted_dcp.h>
 #include <keys/trusted_tpm.h>
-#include <linux/capability.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/key-type.h>
-#include <linux/module.h>
-#include <linux/parser.h>
-#include <linux/random.h>
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
-#include <linux/static_call.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
+#include <peenux/capability.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/key-type.h>
+#include <peenux/module.h>
+#include <peenux/parser.h>
+#include <peenux/random.h>
+#include <peenux/rcupdate.h>
+#include <peenux/slab.h>
+#include <peenux/static_call.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
 
 static char *trusted_rng = "default";
 module_param_named(rng, trusted_rng, charp, 0);

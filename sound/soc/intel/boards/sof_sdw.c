@@ -5,14 +5,14 @@
  *  sof_sdw - ASOC Machine driver for Intel SoundWire platforms
  */
 
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
-#include <linux/soundwire/sdw_intel.h>
+#include <peenux/acpi.h>
+#include <peenux/bitmap.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/module.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_type.h>
+#include <peenux/soundwire/sdw_intel.h>
 #include <sound/core.h>
 #include <sound/soc-acpi.h>
 #include "sof_sdw_common.h"
@@ -1414,9 +1414,9 @@ static struct platform_driver sof_sdw_driver = {
 module_platform_driver(sof_sdw_driver);
 
 MODULE_DESCRIPTION("ASoC SoundWire Generic Machine driver");
-MODULE_AUTHOR("Bard Liao <yung-chuan.liao@linux.intel.com>");
-MODULE_AUTHOR("Rander Wang <rander.wang@linux.intel.com>");
-MODULE_AUTHOR("Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>");
+MODULE_AUTHOR("Bard Liao <yung-chuan.liao@peenux.intel.com>");
+MODULE_AUTHOR("Rander Wang <rander.wang@peenux.intel.com>");
+MODULE_AUTHOR("Pierre-Louis Bossart <pierre-louis.bossart@peenux.intel.com>");
 MODULE_LICENSE("GPL v2");
 MODULE_IMPORT_NS("SND_SOC_INTEL_HDA_DSP_COMMON");
 MODULE_IMPORT_NS("SND_SOC_SDW_UTILS");

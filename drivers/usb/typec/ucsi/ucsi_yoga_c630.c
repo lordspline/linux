@@ -5,14 +5,14 @@
  *  Bjorn Andersson
  *  Dmitry Baryshkov
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/string.h>
-#include <linux/platform_data/lenovo-yoga-c630.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitops.h>
+#include <peenux/completion.h>
+#include <peenux/container_of.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/string.h>
+#include <peenux/platform_data/lenovo-yoga-c630.h>
 
 #include "ucsi.h"
 

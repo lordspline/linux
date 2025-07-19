@@ -30,13 +30,13 @@
  *    - decrease lane number of all specified HCCS type ports on idle state.
  *    - increase lane number of all specified HCCS type ports.
  */
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/platform_device.h>
-#include <linux/stringify.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/iopoll.h>
+#include <peenux/platform_device.h>
+#include <peenux/stringify.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #include <acpi/pcc.h>
 

@@ -15,22 +15,22 @@
  *		Vitaly Bordug <vbordug@ru.mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/device.h>
-#include <linux/memblock.h>
-#include <linux/dma-mapping.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/gpio/consumer.h>
-#include <linux/clk.h>
+#include <peenux/module.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/device.h>
+#include <peenux/memblock.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/clk.h>
 
 #include <sysdev/fsl_soc.h>
 
@@ -39,8 +39,8 @@
 #include <asm/delay.h>
 #include <asm/udbg.h>
 
-#include <linux/serial_core.h>
-#include <linux/kernel.h>
+#include <peenux/serial_core.h>
+#include <peenux/kernel.h>
 
 #include "cpm_uart.h"
 

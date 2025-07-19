@@ -5,7 +5,7 @@
 #ifndef _XE_LRC_H_
 #define _XE_LRC_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "xe_lrc_types.h"
 

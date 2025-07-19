@@ -5,15 +5,15 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <kunit/test.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/vmalloc.h>
 
 struct some_bytes {
 	union {

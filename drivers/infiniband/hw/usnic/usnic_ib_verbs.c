@@ -30,9 +30,9 @@
  * SOFTWARE.
  *
  */
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
 
 #include <rdma/ib_user_verbs.h>
 #include <rdma/ib_addr.h>

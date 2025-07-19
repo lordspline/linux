@@ -8,14 +8,14 @@
  * Copyright (C) 2020 Linaro Ltd <loic.poulain@linaro.org>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/mhi.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/mhi.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
 
 #define MHI_PCI_DEFAULT_BAR_NUM 0
 

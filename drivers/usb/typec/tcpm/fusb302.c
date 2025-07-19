@@ -5,32 +5,32 @@
  * Fairchild FUSB302 Type-C Chip Driver
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/extcon.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/proc_fs.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched/clock.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
-#include <linux/usb.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/tcpm.h>
-#include <linux/usb/pd.h>
-#include <linux/workqueue.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/extcon.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/proc_fs.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/sched/clock.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
+#include <peenux/usb.h>
+#include <peenux/usb/typec.h>
+#include <peenux/usb/tcpm.h>
+#include <peenux/usb/pd.h>
+#include <peenux/workqueue.h>
 
 #include "fusb302_reg.h"
 
@@ -1705,7 +1705,7 @@ static int fusb302_probe(struct i2c_client *client)
 	 * to be set by the platform code which also registers the i2c client
 	 * for the fusb302.
 	 */
-	if (device_property_read_string(dev, "linux,extcon-name", &name) == 0) {
+	if (device_property_read_string(dev, "peenux,extcon-name", &name) == 0) {
 		chip->extcon = extcon_get_extcon_dev(name);
 		if (IS_ERR(chip->extcon))
 			return PTR_ERR(chip->extcon);

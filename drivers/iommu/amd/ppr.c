@@ -6,9 +6,9 @@
 #define pr_fmt(fmt)     "AMD-Vi: " fmt
 #define dev_fmt(fmt)    pr_fmt(fmt)
 
-#include <linux/amd-iommu.h>
-#include <linux/delay.h>
-#include <linux/mmu_notifier.h>
+#include <peenux/amd-iommu.h>
+#include <peenux/delay.h>
+#include <peenux/mmu_notifier.h>
 
 #include <asm/iommu.h>
 

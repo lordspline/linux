@@ -11,19 +11,19 @@
  * are wrong ... no idea why.
  *
  */
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/sizes.h>
-#include <linux/spi/flash.h>
-#include <linux/spi/spi.h>
-#include <linux/of.h>
-#include <linux/string_choices.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mutex.h>
+#include <peenux/sched.h>
+#include <peenux/sizes.h>
+#include <peenux/spi/flash.h>
+#include <peenux/spi/spi.h>
+#include <peenux/of.h>
+#include <peenux/string_choices.h>
 
 struct mchp48_caps {
 	unsigned int size;

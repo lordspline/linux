@@ -15,21 +15,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": %s: " fmt, __func__
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
-#include <linux/completion.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/bitops.h>
-#include <linux/skbuff.h>
-#include <linux/kcov.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/bitops.h>
+#include <peenux/skbuff.h>
+#include <peenux/kcov.h>
 
 #include "../nfc.h"
 #include <net/nfc/nci.h>
 #include <net/nfc/nci_core.h>
-#include <linux/nfc.h>
+#include <peenux/nfc.h>
 
 struct core_conn_create_data {
 	int length;

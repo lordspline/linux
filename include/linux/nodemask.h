@@ -6,7 +6,7 @@
  * Nodemasks provide a bitmap suitable for representing the
  * set of Node's in a system, one bit position per Node number.
  *
- * See detailed comments in the file linux/bitmap.h describing the
+ * See detailed comments in the file peenux/bitmap.h describing the
  * data type on which these nodemasks are based.
  *
  * For details of nodemask_parse_user(), see bitmap_parse_user() in
@@ -87,11 +87,11 @@
  * for such situations. See below and CPUMASK_ALLOC also.
  */
 
-#include <linux/threads.h>
-#include <linux/bitmap.h>
-#include <linux/minmax.h>
-#include <linux/nodemask_types.h>
-#include <linux/random.h>
+#include <peenux/threads.h>
+#include <peenux/bitmap.h>
+#include <peenux/minmax.h>
+#include <peenux/nodemask_types.h>
+#include <peenux/random.h>
 
 extern nodemask_t _unused_nodemask_arg_;
 

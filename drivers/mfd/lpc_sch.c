@@ -12,12 +12,12 @@
  *  Author: Denis Turischev <denis@compulab.co.il>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/mfd/core.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/acpi.h>
+#include <peenux/pci.h>
+#include <peenux/mfd/core.h>
 
 #define SMBASE		0x40
 #define SMBUS_IO_SIZE	64

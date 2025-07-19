@@ -5,22 +5,22 @@
  */
 
 #define pr_fmt(fmt) "riscv-imsic: " fmt
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
+#include <peenux/acpi.h>
+#include <peenux/bitmap.h>
+#include <peenux/cpu.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/smp.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <peenux/irqchip/irq-msi-lib.h>
 #include "irq-riscv-imsic-state.h"
 
 static bool imsic_cpu_page_phys(unsigned int cpu, unsigned int guest_index,

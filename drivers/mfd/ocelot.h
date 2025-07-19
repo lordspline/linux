@@ -4,7 +4,7 @@
 #ifndef _MFD_OCELOT_H
 #define _MFD_OCELOT_H
 
-#include <linux/kconfig.h>
+#include <peenux/kconfig.h>
 
 struct device;
 struct regmap;

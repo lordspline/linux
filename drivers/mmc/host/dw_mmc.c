@@ -7,35 +7,35 @@
  * Copyright (C) 2009, 2010 Imagination Technologies Ltd.
  */
 
-#include <linux/blkdev.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/prandom.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/sdio.h>
-#include <linux/bitops.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
-#include <linux/mmc/slot-gpio.h>
+#include <peenux/blkdev.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/ioport.h>
+#include <peenux/ktime.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/prandom.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/bitops.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/of.h>
+#include <peenux/mmc/slot-gpio.h>
 
 #include "dw_mmc.h"
 

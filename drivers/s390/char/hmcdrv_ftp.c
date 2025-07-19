@@ -9,13 +9,13 @@
 #define KMSG_COMPONENT "hmcdrv"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/export.h>
 
-#include <linux/ctype.h>
-#include <linux/crc16.h>
+#include <peenux/ctype.h>
+#include <peenux/crc16.h>
 
 #include <asm/machine.h>
 

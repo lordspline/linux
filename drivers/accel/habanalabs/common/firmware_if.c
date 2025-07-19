@@ -6,14 +6,14 @@
  */
 
 #include "habanalabs.h"
-#include <linux/habanalabs/hl_boot_if.h>
+#include <peenux/habanalabs/hl_boot_if.h>
 
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/crc32.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/vmalloc.h>
+#include <peenux/pci.h>
+#include <peenux/firmware.h>
+#include <peenux/crc32.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/vmalloc.h>
 
 #include <trace/events/habanalabs.h>
 
@@ -911,7 +911,7 @@ int hl_fw_cpucp_info_get(struct hl_device *hdev,
 
 	kernel_ver = extract_fw_ver_from_str(prop->cpucp_info.kernel_version);
 	if (kernel_ver) {
-		dev_info(hdev->dev, "Linux version %s", kernel_ver);
+		dev_info(hdev->dev, "Peenux version %s", kernel_ver);
 		kfree(kernel_ver);
 	}
 
@@ -2499,7 +2499,7 @@ static int hl_fw_dynamic_load_image(struct hl_device *hdev,
 	/*
 	 * when loading image we have one of 2 scenarios:
 	 * 1. current FW component is preboot and we want to load boot-fit
-	 * 2. current FW component is boot-fit and we want to load linux
+	 * 2. current FW component is boot-fit and we want to load peenux
 	 */
 	if (load_fwc == FW_COMP_BOOT_FIT) {
 		cur_fwc = FW_COMP_PREBOOT;
@@ -2558,8 +2558,8 @@ static int hl_fw_dynamic_wait_for_boot_fit_active(struct hl_device *hdev,
 
 	/*
 	 * Make sure CPU boot-loader is running
-	 * Note that the CPU_BOOT_STATUS_SRAM_AVAIL is generally set by Linux
-	 * yet there is a debug scenario in which we loading uboot (without Linux)
+	 * Note that the CPU_BOOT_STATUS_SRAM_AVAIL is generally set by Peenux
+	 * yet there is a debug scenario in which we loading uboot (without Peenux)
 	 * which at later stage is relocated to DRAM. In this case we expect
 	 * uboot to set the CPU_BOOT_STATUS_SRAM_AVAIL and so we add it to the
 	 * poll flags
@@ -2590,7 +2590,7 @@ static int hl_fw_dynamic_wait_for_linux_active(struct hl_device *hdev,
 
 	dyn_loader = &fw_loader->dynamic_loader;
 
-	/* Make sure CPU linux is running */
+	/* Make sure CPU peenux is running */
 
 	rc = hl_poll_timeout(
 		hdev,
@@ -2600,7 +2600,7 @@ static int hl_fw_dynamic_wait_for_linux_active(struct hl_device *hdev,
 		hdev->fw_poll_interval_usec,
 		fw_loader->cpu_timeout);
 	if (rc) {
-		dev_err(hdev->dev, "failed to wait for Linux (status = %d)\n", status);
+		dev_err(hdev->dev, "failed to wait for Peenux (status = %d)\n", status);
 		return rc;
 	}
 
@@ -2609,9 +2609,9 @@ static int hl_fw_dynamic_wait_for_linux_active(struct hl_device *hdev,
 }
 
 /**
- * hl_fw_linux_update_state -	update internal data structures after Linux
+ * hl_fw_linux_update_state -	update internal data structures after Peenux
  *				is loaded.
- *				Note: Linux initialization is comprised mainly
+ *				Note: Peenux initialization is comprised mainly
  *				of two stages - loading kernel (SRAM_AVAIL)
  *				& loading ARMCP.
  *				Therefore reading boot device status in any of
@@ -2841,7 +2841,7 @@ static int hl_fw_dynamic_init_cpu(struct hl_device *hdev,
 			le32_to_cpu(dyn_regs->cpu_boot_dev_sts1));
 
 	/*
-	 * when testing FW load (without Linux) on PLDM we don't want to
+	 * when testing FW load (without Peenux) on PLDM we don't want to
 	 * wait until boot fit is active as it may take several hours.
 	 * instead, we load the bootfit and let it do all initialization in
 	 * the background.
@@ -2849,13 +2849,13 @@ static int hl_fw_dynamic_init_cpu(struct hl_device *hdev,
 	if (hdev->pldm && !(hdev->fw_components & FW_TYPE_LINUX))
 		return 0;
 
-	/* Enable DRAM scrambling before Linux boot and after successful
+	/* Enable DRAM scrambling before Peenux boot and after successful
 	 *  UBoot
 	 */
 	hdev->asic_funcs->init_cpu_scrambler_dram(hdev);
 
 	if (!(hdev->fw_components & FW_TYPE_LINUX)) {
-		dev_dbg(hdev->dev, "Skip loading Linux F/W\n");
+		dev_dbg(hdev->dev, "Skip loading Peenux F/W\n");
 		return 0;
 	}
 
@@ -2870,11 +2870,11 @@ static int hl_fw_dynamic_init_cpu(struct hl_device *hdev,
 		}
 	}
 
-	/* load Linux image to FW */
+	/* load Peenux image to FW */
 	rc = hl_fw_dynamic_load_image(hdev, fw_loader, FW_COMP_LINUX,
 							fw_loader->cpu_timeout);
 	if (rc) {
-		dev_err(hdev->dev, "failed to load Linux\n");
+		dev_err(hdev->dev, "failed to load Peenux\n");
 		goto protocol_err;
 	}
 
@@ -2980,8 +2980,8 @@ static int hl_fw_static_init_cpu(struct hl_device *hdev,
 
 	/*
 	 * Make sure CPU boot-loader is running
-	 * Note that the CPU_BOOT_STATUS_SRAM_AVAIL is generally set by Linux
-	 * yet there is a debug scenario in which we loading uboot (without Linux)
+	 * Note that the CPU_BOOT_STATUS_SRAM_AVAIL is generally set by Peenux
+	 * yet there is a debug scenario in which we loading uboot (without Peenux)
 	 * which at later stage is relocated to DRAM. In this case we expect
 	 * uboot to set the CPU_BOOT_STATUS_SRAM_AVAIL and so we add it to the
 	 * poll flags
@@ -3012,13 +3012,13 @@ static int hl_fw_static_init_cpu(struct hl_device *hdev,
 		goto out;
 	}
 
-	/* Enable DRAM scrambling before Linux boot and after successful
+	/* Enable DRAM scrambling before Peenux boot and after successful
 	 *  UBoot
 	 */
 	hdev->asic_funcs->init_cpu_scrambler_dram(hdev);
 
 	if (!(hdev->fw_components & FW_TYPE_LINUX)) {
-		dev_info(hdev->dev, "Skip loading Linux F/W\n");
+		dev_info(hdev->dev, "Skip loading Peenux F/W\n");
 		rc = 0;
 		goto out;
 	}

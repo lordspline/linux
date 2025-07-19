@@ -5,8 +5,8 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "rvu_struct.h"
 #include "common.h"

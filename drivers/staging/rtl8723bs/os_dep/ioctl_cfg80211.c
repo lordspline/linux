@@ -5,9 +5,9 @@
  *
  ******************************************************************************/
 
-#include <linux/etherdevice.h>
+#include <peenux/etherdevice.h>
 #include <drv_types.h>
-#include <linux/jiffies.h>
+#include <peenux/jiffies.h>
 
 #include <rtw_wifi_regd.h>
 

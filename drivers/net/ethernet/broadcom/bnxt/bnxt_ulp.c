@@ -7,19 +7,19 @@
  * the Free Software Foundation.
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/bitops.h>
-#include <linux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/bitops.h>
+#include <peenux/irq.h>
 #include <asm/byteorder.h>
-#include <linux/bitmap.h>
-#include <linux/auxiliary_bus.h>
+#include <peenux/bitmap.h>
+#include <peenux/auxiliary_bus.h>
 #include <net/netdev_lock.h>
 
 #include "bnxt_hsi.h"

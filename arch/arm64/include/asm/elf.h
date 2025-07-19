@@ -135,11 +135,11 @@
 
 #ifndef __ASSEMBLY__
 
-#include <uapi/linux/elf.h>
-#include <linux/bug.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/types.h>
+#include <uapi/peenux/elf.h>
+#include <peenux/bug.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
 #include <asm/processor.h> /* for signal_minsigstksz, used by ARCH_DLINFO */
 
 typedef unsigned long elf_greg_t;

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/device.h>
-#include <linux/gfp.h>
-#include <linux/irq.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/device.h>
+#include <peenux/gfp.h>
+#include <peenux/irq.h>
 
 #include "internals.h"
 

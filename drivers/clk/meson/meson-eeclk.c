@@ -4,12 +4,12 @@
  * Author: Jerome Brunet <jbrunet@baylibre.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/module.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/module.h>
 
 #include "clk-regmap.h"
 #include "meson-eeclk.h"

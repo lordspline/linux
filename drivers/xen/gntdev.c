@@ -22,20 +22,20 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/miscdevice.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/refcount.h>
-#include <linux/workqueue.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/miscdevice.h>
+#include <peenux/fs.h>
+#include <peenux/uaccess.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/refcount.h>
+#include <peenux/workqueue.h>
 
 #include <xen/xen.h>
 #include <xen/grant_table.h>

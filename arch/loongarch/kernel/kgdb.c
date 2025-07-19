@@ -5,14 +5,14 @@
  * Copyright (C) 2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/hw_breakpoint.h>
-#include <linux/kdebug.h>
-#include <linux/kgdb.h>
-#include <linux/objtool.h>
-#include <linux/processor.h>
-#include <linux/ptrace.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/kdebug.h>
+#include <peenux/kgdb.h>
+#include <peenux/objtool.h>
+#include <peenux/processor.h>
+#include <peenux/ptrace.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
 
 #include <asm/cacheflush.h>
 #include <asm/fpu.h>

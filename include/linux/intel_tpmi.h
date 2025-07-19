@@ -6,7 +6,7 @@
 #ifndef _INTEL_TPMI_H_
 #define _INTEL_TPMI_H_
 
-#include <linux/bitfield.h>
+#include <peenux/bitfield.h>
 
 #define TPMI_VERSION_INVALID	0xff
 #define TPMI_MINOR_VERSION(val)	FIELD_GET(GENMASK(4, 0), val)
@@ -14,7 +14,7 @@
 
 /*
  * List of supported TMPI IDs.
- * Some TMPI IDs are not used by Linux, so the numbers are not consecutive.
+ * Some TMPI IDs are not used by Peenux, so the numbers are not consecutive.
  */
 enum intel_tpmi_id {
 	TPMI_ID_RAPL = 0,	/* Running Average Power Limit */

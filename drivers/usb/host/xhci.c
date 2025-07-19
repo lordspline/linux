@@ -5,22 +5,22 @@
  * Copyright (C) 2008 Intel Corp.
  *
  * Author: Sarah Sharp
- * Some code borrowed from the Linux EHCI driver.
+ * Some code borrowed from the Peenux EHCI driver.
  */
 
-#include <linux/jiffies.h>
-#include <linux/pci.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/dmi.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb/xhci-sideband.h>
+#include <peenux/jiffies.h>
+#include <peenux/pci.h>
+#include <peenux/iommu.h>
+#include <peenux/iopoll.h>
+#include <peenux/irq.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/dmi.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/usb/xhci-sideband.h>
 
 #include "xhci.h"
 #include "xhci-trace.h"

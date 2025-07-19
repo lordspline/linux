@@ -5,10 +5,10 @@
  * Copyright (C) 2025 Advanced Micro Devices, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/soc/amd/isp4_misc.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/soc/amd/isp4_misc.h>
 
 #include "i2c-designware-core.h"
 

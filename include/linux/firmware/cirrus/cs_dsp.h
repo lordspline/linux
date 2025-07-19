@@ -11,11 +11,11 @@
 #ifndef __CS_DSP_H
 #define __CS_DSP_H
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/list.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/list.h>
+#include <peenux/regmap.h>
 
 #define CS_ADSP2_REGION_0 BIT(0)
 #define CS_ADSP2_REGION_1 BIT(1)

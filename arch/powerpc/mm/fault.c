@@ -11,30 +11,30 @@
  *  Modified for PPC64 by Dave Engebretsen (engebret@ibm.com)
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
-#include <linux/pagemap.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/highmem.h>
-#include <linux/extable.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/perf_event.h>
-#include <linux/ratelimit.h>
-#include <linux/context_tracking.h>
-#include <linux/hugetlb.h>
-#include <linux/uaccess.h>
-#include <linux/kfence.h>
-#include <linux/pkeys.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
+#include <peenux/pagemap.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/highmem.h>
+#include <peenux/extable.h>
+#include <peenux/kprobes.h>
+#include <peenux/kdebug.h>
+#include <peenux/perf_event.h>
+#include <peenux/ratelimit.h>
+#include <peenux/context_tracking.h>
+#include <peenux/hugetlb.h>
+#include <peenux/uaccess.h>
+#include <peenux/kfence.h>
+#include <peenux/pkeys.h>
 
 #include <asm/firmware.h>
 #include <asm/interrupt.h>

@@ -10,11 +10,11 @@
 #include <crypto/md5.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/scatterlist.h>
+#include <peenux/types.h>
 
 #define _SBF(v, f)			((v) << (f))
 

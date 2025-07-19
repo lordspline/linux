@@ -7,23 +7,23 @@
  */
 
 #include <dt-bindings/phy/phy.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_mux.h>
 
 /* USBDP PHY Register Definitions */
 #define UDPHY_PCS				0x4000

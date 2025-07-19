@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/err.h>
+#include <peenux/err.h>
 
 __force void *rust_helper_ERR_PTR(long err)
 {

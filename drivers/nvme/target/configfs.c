@@ -4,21 +4,21 @@
  * Copyright (c) 2015-2016 HGST, a Western Digital Company.
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/kstrtox.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/ctype.h>
-#include <linux/pci.h>
-#include <linux/pci-p2pdma.h>
+#include <peenux/kstrtox.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/ctype.h>
+#include <peenux/pci.h>
+#include <peenux/pci-p2pdma.h>
 #ifdef CONFIG_NVME_TARGET_AUTH
-#include <linux/nvme-auth.h>
+#include <peenux/nvme-auth.h>
 #endif
-#include <linux/nvme-keyring.h>
+#include <peenux/nvme-keyring.h>
 #include <crypto/hash.h>
 #include <crypto/kpp.h>
-#include <linux/nospec.h>
+#include <peenux/nospec.h>
 
 #include "nvmet.h"
 

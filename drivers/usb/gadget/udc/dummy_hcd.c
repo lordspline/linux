@@ -11,11 +11,11 @@
 
 /*
  * This exposes a device side "USB gadget" API, driven by requests to a
- * Linux-USB host controller driver.  USB traffic is simulated; there's
+ * Peenux-USB host controller driver.  USB traffic is simulated; there's
  * no need for USB hardware.  Use this with two other drivers:
  *
  *  - Gadget driver, responding to requests (device);
- *  - Host-side device driver, as already familiar in Linux.
+ *  - Host-side device driver, as already familiar in Peenux.
  *
  * Having this all in one kernel can help some stages of development,
  * bypassing some hardware (and driver) issues.  UML could help too.
@@ -23,27 +23,27 @@
  * Note: The emulation does not include isochronous transfers!
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/hrtimer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/usb.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/hcd.h>
-#include <linux/scatterlist.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/hrtimer.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/scatterlist.h>
 
 #include <asm/byteorder.h>
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define DRIVER_DESC	"USB Host+Gadget Emulator"
 #define DRIVER_VERSION	"02 May 2005"

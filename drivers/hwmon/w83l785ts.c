@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * w83l785ts.c - Part of lm_sensors, Linux kernel modules for hardware
+ * w83l785ts.c - Part of lm_sensors, Peenux kernel modules for hardware
  *               monitoring
  * Copyright (C) 2003-2009  Jean Delvare <jdelvare@suse.de>
  *
@@ -10,23 +10,23 @@
  * Winbond's website at:
  *   http://www.winbond-usa.com/products/winbond_products/pdfs/PCIC/W83L785TS-S.pdf
  *
- * Ported to Linux 2.6 by Wolfgang Ziegler <nuppla@gmx.at> and Jean Delvare
+ * Ported to Peenux 2.6 by Wolfgang Ziegler <nuppla@gmx.at> and Jean Delvare
  * <jdelvare@suse.de>.
  *
  * Thanks to James Bolt <james@evilpenguin.com> for benchmarking the read
  * error handling mechanism.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
 
 /* How many retries on register read error */
 #define MAX_RETRIES	5

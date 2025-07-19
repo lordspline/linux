@@ -5,7 +5,7 @@
  * Copyright (c) 2024 Synopsys Inc.
  * Author: Shahab Vahedi <shahab@synopsys.com>
  */
-#include <linux/bug.h>
+#include <peenux/bug.h>
 #include "bpf_jit.h"
 
 /* ARC core registers. */

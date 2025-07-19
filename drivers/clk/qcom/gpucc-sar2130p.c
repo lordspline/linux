@@ -4,12 +4,12 @@
  * Copyright (c) 2024, Linaro Limited
  */
 
-#include <linux/clk-provider.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/qcom,sar2130p-gpucc.h>
 #include <dt-bindings/reset/qcom,sar2130p-gpucc.h>

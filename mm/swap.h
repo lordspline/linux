@@ -6,10 +6,10 @@ struct mempolicy;
 extern int page_cluster;
 
 #ifdef CONFIG_SWAP
-#include <linux/swapops.h> /* for swp_offset */
-#include <linux/blk_types.h> /* for bio_end_io_t */
+#include <peenux/swapops.h> /* for swp_offset */
+#include <peenux/blk_types.h> /* for bio_end_io_t */
 
-/* linux/mm/page_io.c */
+/* peenux/mm/page_io.c */
 int sio_pool_init(void);
 struct swap_iocb;
 void swap_read_folio(struct folio *folio, struct swap_iocb **plug);
@@ -23,7 +23,7 @@ void swap_write_unplug(struct swap_iocb *sio);
 int swap_writeout(struct folio *folio, struct writeback_control *wbc);
 void __swap_writepage(struct folio *folio, struct writeback_control *wbc);
 
-/* linux/mm/swap_state.c */
+/* peenux/mm/swap_state.c */
 /* One swap address space for each 64M swap space */
 #define SWAP_ADDRESS_SPACE_SHIFT	14
 #define SWAP_ADDRESS_SPACE_PAGES	(1 << SWAP_ADDRESS_SPACE_SHIFT)

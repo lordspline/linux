@@ -4,7 +4,7 @@
  * All rights reserved.
  *
  * Contact Information:
- * linux-drivers@emulex.com
+ * peenux-drivers@emulex.com
  *
  * Emulex
  * 3333 Susan Street
@@ -13,7 +13,7 @@
 
 #include "be.h"
 #include "be_cmds.h"
-#include <linux/ethtool.h>
+#include <peenux/ethtool.h>
 
 struct be_ethtool_stat {
 	char desc[ETH_GSTRING_LEN];

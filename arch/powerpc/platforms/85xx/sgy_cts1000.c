@@ -9,15 +9,15 @@
 
 #define pr_fmt(fmt) "gpio-halt: " fmt
 
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/workqueue.h>
-#include <linux/reboot.h>
-#include <linux/interrupt.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/workqueue.h>
+#include <peenux/reboot.h>
+#include <peenux/interrupt.h>
 
 #include <asm/machdep.h>
 

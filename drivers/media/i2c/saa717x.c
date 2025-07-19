@@ -17,13 +17,13 @@
  * though. Unfortunately, this driver is currently only working for NTSC.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
 
-#include <linux/videodev2.h>
-#include <linux/i2c.h>
+#include <peenux/videodev2.h>
+#include <peenux/i2c.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>
 
@@ -151,7 +151,7 @@ static u32 saa717x_read(struct v4l2_subdev *sd, u32 reg)
 
 static u32 reg_init_initialize[] =
 {
-	/* from linux driver */
+	/* from peenux driver */
 	0x101, 0x008, /* Increment delay */
 
 	0x103, 0x000, /* Analog input control 2 */

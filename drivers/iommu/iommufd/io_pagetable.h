@@ -5,10 +5,10 @@
 #ifndef __IO_PAGETABLE_H
 #define __IO_PAGETABLE_H
 
-#include <linux/interval_tree.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/xarray.h>
+#include <peenux/interval_tree.h>
+#include <peenux/kref.h>
+#include <peenux/mutex.h>
+#include <peenux/xarray.h>
 
 #include "iommufd_private.h"
 

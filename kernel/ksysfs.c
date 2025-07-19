@@ -7,19 +7,19 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kexec.h>
-#include <linux/profile.h>
-#include <linux/stat.h>
-#include <linux/sched.h>
-#include <linux/capability.h>
-#include <linux/compiler.h>
+#include <peenux/kobject.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/kexec.h>
+#include <peenux/profile.h>
+#include <peenux/stat.h>
+#include <peenux/sched.h>
+#include <peenux/capability.h>
+#include <peenux/compiler.h>
 
-#include <linux/rcupdate.h>	/* rcu_expedited and rcu_normal */
+#include <peenux/rcupdate.h>	/* rcu_expedited and rcu_normal */
 
 #if defined(__LITTLE_ENDIAN)
 #define CPU_BYTEORDER_STRING	"little"

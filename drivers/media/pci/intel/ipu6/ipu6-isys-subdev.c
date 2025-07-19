@@ -3,9 +3,9 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/minmax.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/minmax.h>
 
 #include <media/media-entity.h>
 #include <media/mipi-csi2.h>

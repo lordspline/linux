@@ -7,15 +7,15 @@
  *  Copyright (C) 2021 Oracle.
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kexec.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/kexec.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 #include "pvpanic.h"
 

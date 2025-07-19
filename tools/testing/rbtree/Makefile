@@ -4,11 +4,11 @@
 
 TARGETS = rbtree_test interval_tree_test
 OFILES = $(SHARED_OFILES) rbtree-shim.o interval_tree-shim.o maple-shim.o
-DEPS = ../../../include/linux/rbtree.h \
-	../../../include/linux/rbtree_types.h \
-	../../../include/linux/rbtree_augmented.h \
-	../../../include/linux/interval_tree.h \
-	../../../include/linux/interval_tree_generic.h \
+DEPS = ../../../include/peenux/rbtree.h \
+	../../../include/peenux/rbtree_types.h \
+	../../../include/peenux/rbtree_augmented.h \
+	../../../include/peenux/interval_tree.h \
+	../../../include/peenux/interval_tree_generic.h \
 	../../../lib/rbtree.c \
 	../../../lib/interval_tree.c
 

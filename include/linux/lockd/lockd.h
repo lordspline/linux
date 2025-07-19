@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/linux/lockd/lockd.h
+ * peenux/include/peenux/lockd/lockd.h
  *
  * General-purpose lockd include file.
  *
@@ -12,20 +12,20 @@
 
 /* XXX: a lot of this should really be under fs/lockd. */
 
-#include <linux/in.h>
-#include <linux/in6.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
 #include <net/ipv6.h>
-#include <linux/fs.h>
-#include <linux/kref.h>
-#include <linux/refcount.h>
-#include <linux/utsname.h>
-#include <linux/lockd/bind.h>
-#include <linux/lockd/xdr.h>
+#include <peenux/fs.h>
+#include <peenux/kref.h>
+#include <peenux/refcount.h>
+#include <peenux/utsname.h>
+#include <peenux/lockd/bind.h>
+#include <peenux/lockd/xdr.h>
 #ifdef CONFIG_LOCKD_V4
-#include <linux/lockd/xdr4.h>
+#include <peenux/lockd/xdr4.h>
 #endif
-#include <linux/lockd/debug.h>
-#include <linux/sunrpc/svc.h>
+#include <peenux/lockd/debug.h>
+#include <peenux/sunrpc/svc.h>
 
 /*
  * Version string

@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0-only
 #
-# Makefile for the RISC-V Linux kernel
+# Makefile for the RISC-V Peenux kernel
 #
 
 ifdef CONFIG_FTRACE

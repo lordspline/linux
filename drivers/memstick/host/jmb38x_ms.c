@@ -5,15 +5,15 @@
  *  Copyright (C) 2008 Alex Dubov <oakad@yahoo.com>
  */
 
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/highmem.h>
-#include <linux/memstick.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/highmem.h>
+#include <peenux/memstick.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 #define DRIVER_NAME "jmb38x_ms"
 

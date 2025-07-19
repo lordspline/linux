@@ -6,17 +6,17 @@
  */
 
 #include <crypto/internal/aead.h>
-#include <linux/completion.h>
-#include <linux/ctype.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/rtnetlink.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/completion.h>
+#include <peenux/ctype.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include "internal.h"
 

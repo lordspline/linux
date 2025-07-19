@@ -2,17 +2,17 @@
 /*
  * Arch related setup for Hexagon
  *
- * Copyright (c) 2010-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/memblock.h>
-#include <linux/mmzone.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/console.h>
-#include <linux/of_fdt.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/memblock.h>
+#include <peenux/mmzone.h>
+#include <peenux/mm.h>
+#include <peenux/seq_file.h>
+#include <peenux/console.h>
+#include <peenux/of_fdt.h>
 #include <asm/io.h>
 #include <asm/sections.h>
 #include <asm/setup.h>

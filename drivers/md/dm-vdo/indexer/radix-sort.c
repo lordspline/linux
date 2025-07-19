@@ -5,8 +5,8 @@
 
 #include "radix-sort.h"
 
-#include <linux/limits.h>
-#include <linux/types.h>
+#include <peenux/limits.h>
+#include <peenux/types.h>
 
 #include "memory-alloc.h"
 #include "string-utils.h"

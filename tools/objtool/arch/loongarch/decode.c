@@ -4,7 +4,7 @@
 #include <objtool/warn.h>
 #include <asm/inst.h>
 #include <asm/orc_types.h>
-#include <linux/objtool_types.h>
+#include <peenux/objtool_types.h>
 #include <arch/elf.h>
 
 int arch_ftrace_match(char *name)

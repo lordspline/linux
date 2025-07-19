@@ -6,17 +6,17 @@
  * Copyright © 2007-2008  Andres Salomon <dilinger@debian.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/string.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/syscore_ops.h>
-#include <linux/mutex.h>
-#include <linux/olpc-ec.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/string.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/mutex.h>
+#include <peenux/olpc-ec.h>
 
 #include <asm/geode.h>
 #include <asm/setup.h>

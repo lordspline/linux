@@ -37,8 +37,8 @@
 		button-0 {
 			label = "SW2";
 			gpios = <&cp1_gpio2 8 GPIO_ACTIVE_LOW>;
-			linux,can-disable;
-			linux,code = <BTN_2>;
+			peenux,can-disable;
+			peenux,code = <BTN_2>;
 		};
 	};
 

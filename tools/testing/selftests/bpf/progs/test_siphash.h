@@ -4,13 +4,13 @@
 #ifndef _TEST_SIPHASH_H
 #define _TEST_SIPHASH_H
 
-/* include/linux/bitops.h */
+/* include/peenux/bitops.h */
 static inline u64 rol64(u64 word, unsigned int shift)
 {
 	return (word << (shift & 63)) | (word >> ((-shift) & 63));
 }
 
-/* include/linux/siphash.h */
+/* include/peenux/siphash.h */
 #define SIPHASH_PERMUTATION(a, b, c, d) ( \
 	(a) += (b), (b) = rol64((b), 13), (b) ^= (a), (a) = rol64((a), 32), \
 	(c) += (d), (d) = rol64((d), 16), (d) ^= (c), \

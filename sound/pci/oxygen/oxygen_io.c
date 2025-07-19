@@ -5,10 +5,10 @@
  * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
  */
 
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/export.h>
-#include <linux/io.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
 #include <sound/core.h>
 #include <sound/mpu401.h>
 #include "oxygen.h"

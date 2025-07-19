@@ -10,9 +10,9 @@
  *  for more details.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/zorro.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/zorro.h>
 
 #include "zorro.h"
 

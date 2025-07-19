@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mmc/core/host.c
+ *  peenux/drivers/mmc/core/host.c
  *
  *  Copyright (C) 2003 Russell King, All Rights Reserved.
  *  Copyright (C) 2007-2008 Pierre Ossman
@@ -9,18 +9,18 @@
  *  MMC host class device management
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/idr.h>
-#include <linux/of.h>
-#include <linux/pagemap.h>
-#include <linux/export.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/idr.h>
+#include <peenux/of.h>
+#include <peenux/pagemap.h>
+#include <peenux/export.h>
+#include <peenux/leds.h>
+#include <peenux/slab.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/slot-gpio.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/slot-gpio.h>
 
 #include "core.h"
 #include "crypto.h"

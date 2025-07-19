@@ -5,10 +5,10 @@
  * Copyright 2017 NXP
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 

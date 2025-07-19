@@ -26,11 +26,11 @@
  *
  */
 
-#include <linux/sched/mm.h>
-#include <linux/sort.h>
-#include <linux/string_helpers.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sort.h>
+#include <peenux/string_helpers.h>
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 #include <drm/drm_debugfs.h>
 
 #include "gem/i915_gem_context.h"

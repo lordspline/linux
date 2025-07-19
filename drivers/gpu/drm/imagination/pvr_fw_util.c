@@ -7,9 +7,9 @@
 #include <drm/drm_device.h>
 #include <drm/drm_print.h>
 
-#include <linux/elf.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/elf.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 /**
  * pvr_fw_process_elf_command_stream() - Process ELF firmware image and populate

@@ -3,16 +3,16 @@
  * Copyright (C) 2009 by Sascha Hauer, Pengutronix
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/clkdev.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 #include <soc/imx/revision.h>
 
 #include "clk.h"

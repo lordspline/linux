@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  Silicon Labs C2 port core Linux support
+ *  Silicon Labs C2 port core Peenux support
  *
- *  Copyright (c) 2007 Rodolfo Giometti <giometti@linux.it>
+ *  Copyright (c) 2007 Rodolfo Giometti <giometti@peenux.it>
  *  Copyright (c) 2007 Eurotech S.p.A. <info@eurotech.it>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/idr.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
-#include <linux/c2port.h>
+#include <peenux/c2port.h>
 
 #define DRIVER_NAME             "c2port"
 #define DRIVER_VERSION          "0.51.0"
@@ -1006,6 +1006,6 @@ static void __exit c2port_exit(void)
 module_init(c2port_init);
 module_exit(c2port_exit);
 
-MODULE_AUTHOR("Rodolfo Giometti <giometti@linux.it>");
+MODULE_AUTHOR("Rodolfo Giometti <giometti@peenux.it>");
 MODULE_DESCRIPTION("Silicon Labs C2 port support v. " DRIVER_VERSION);
 MODULE_LICENSE("GPL");

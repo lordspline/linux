@@ -6,18 +6,18 @@
  *
  * Copyright (c) 2024 awinic Technology CO., LTD
  */
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #define AW_DATA_PROCESS_FACTOR			1024
 #define AW96103_CHIP_ID				0xa961

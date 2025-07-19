@@ -2,8 +2,8 @@
 #ifndef _LINUX_TIMERQUEUE_H
 #define _LINUX_TIMERQUEUE_H
 
-#include <linux/rbtree.h>
-#include <linux/timerqueue_types.h>
+#include <peenux/rbtree.h>
+#include <peenux/timerqueue_types.h>
 
 extern bool timerqueue_add(struct timerqueue_head *head,
 			   struct timerqueue_node *node);

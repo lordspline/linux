@@ -17,21 +17,21 @@
  * Appnote-84323: https://www.vishay.com/docs/84323/designingveml7700.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/regmap.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/units.h>
-#include <linux/regulator/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio-gts-helper.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/regmap.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/units.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio-gts-helper.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 /* Device registers */
 #define VEML6030_REG_ALS_CONF   0x00

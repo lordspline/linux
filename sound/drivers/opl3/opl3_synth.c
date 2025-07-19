@@ -5,9 +5,9 @@
  *  Routines for OPL2/OPL3/OPL4 control
  */
 
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/nospec.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/nospec.h>
 #include <sound/opl3.h>
 #include <sound/asound_fm.h>
 #include "opl3_voice.h"

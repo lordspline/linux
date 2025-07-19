@@ -4,19 +4,19 @@
  * Copyright (C) 2001, 2007, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/string.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 #include <asm/spitfire.h>
 #include <asm/chmctrl.h>
 #include <asm/cpudata.h>

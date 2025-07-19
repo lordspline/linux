@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2022 Christian Brauner <brauner@kernel.org> */
 
-#include <linux/cred.h>
-#include <linux/fs.h>
-#include <linux/mnt_idmapping.h>
-#include <linux/slab.h>
-#include <linux/user_namespace.h>
-#include <linux/seq_file.h>
+#include <peenux/cred.h>
+#include <peenux/fs.h>
+#include <peenux/mnt_idmapping.h>
+#include <peenux/slab.h>
+#include <peenux/user_namespace.h>
+#include <peenux/seq_file.h>
 
 #include "internal.h"
 

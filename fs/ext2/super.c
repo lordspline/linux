@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/ext2/super.c
+ *  peenux/fs/ext2/super.c
  *
  * Copyright (C) 1992, 1993, 1994, 1995
  * Remy Card (card@masi.ibp.fr)
@@ -9,7 +9,7 @@
  *
  *  from
  *
- *  linux/fs/minix/inode.c
+ *  peenux/fs/minix/inode.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -17,25 +17,25 @@
  *        David S. Miller (davem@caip.rutgers.edu), 1995
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/random.h>
-#include <linux/buffer_head.h>
-#include <linux/exportfs.h>
-#include <linux/vfs.h>
-#include <linux/seq_file.h>
-#include <linux/mount.h>
-#include <linux/log2.h>
-#include <linux/quotaops.h>
-#include <linux/uaccess.h>
-#include <linux/dax.h>
-#include <linux/iversion.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/random.h>
+#include <peenux/buffer_head.h>
+#include <peenux/exportfs.h>
+#include <peenux/vfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/mount.h>
+#include <peenux/log2.h>
+#include <peenux/quotaops.h>
+#include <peenux/uaccess.h>
+#include <peenux/dax.h>
+#include <peenux/iversion.h>
 #include "ext2.h"
 #include "xattr.h"
 #include "acl.h"

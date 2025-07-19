@@ -8,15 +8,15 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/blk-mq.h>
-#include <linux/blkzoned.h>
-#include <linux/pagemap.h>
-#include <linux/miscdevice.h>
-#include <linux/falloc.h>
-#include <linux/mutex.h>
-#include <linux/parser.h>
-#include <linux/seq_file.h>
+#include <peenux/module.h>
+#include <peenux/blk-mq.h>
+#include <peenux/blkzoned.h>
+#include <peenux/pagemap.h>
+#include <peenux/miscdevice.h>
+#include <peenux/falloc.h>
+#include <peenux/mutex.h>
+#include <peenux/parser.h>
+#include <peenux/seq_file.h>
 
 /*
  * Options for adding (and removing) a device.

@@ -11,10 +11,10 @@
  * (C) Copyright IBM Deutschland Entwicklung GmbH 2005
  */
 
-#include <linux/cpufreq.h>
-#include <linux/timer.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
+#include <peenux/cpufreq.h>
+#include <peenux/timer.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
 
 #include <asm/hw_irq.h>
 #include <asm/io.h>

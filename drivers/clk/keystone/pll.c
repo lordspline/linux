@@ -6,13 +6,13 @@
  *	Murali Karicheri <m-karicheri2@ti.com>
  *	Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/module.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
 
 #define PLLM_LOW_MASK		0x3f
 #define PLLM_HIGH_MASK		0x7ffc0

@@ -29,7 +29,7 @@
 			function-enumerator = <1>;
 			gpios = <&gpio3 RK_PD6 GPIO_ACTIVE_HIGH>;
 			label = "LAN-1";
-			linux,default-trigger = "netdev";
+			peenux,default-trigger = "netdev";
 		};
 
 		led-lan2 {
@@ -39,7 +39,7 @@
 			function-enumerator = <2>;
 			gpios = <&gpio3 RK_PD7 GPIO_ACTIVE_HIGH>;
 			label = "LAN-2";
-			linux,default-trigger = "netdev";
+			peenux,default-trigger = "netdev";
 		};
 
 		power_led: led-sys {
@@ -47,7 +47,7 @@
 			function = LED_FUNCTION_POWER;
 			gpios = <&gpio4 RK_PD2 GPIO_ACTIVE_HIGH>;
 			label = "SYS";
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 
 		led-wan {
@@ -56,7 +56,7 @@
 			function = LED_FUNCTION_WAN;
 			gpios = <&gpio2 RK_PC1 GPIO_ACTIVE_HIGH>;
 			label = "WAN";
-			linux,default-trigger = "netdev";
+			peenux,default-trigger = "netdev";
 		};
 	};
 };

@@ -20,9 +20,9 @@
 
 #include <crypto/chacha.h>
 #include <crypto/internal/simd.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include <asm/hwcap.h>
 #include <asm/neon.h>

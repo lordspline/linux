@@ -8,15 +8,15 @@
 
 #define pr_fmt(fmt)	"OF: resolver: " fmt
 
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
 
 #include "of_private.h"
 
@@ -53,7 +53,7 @@ static void adjust_overlay_phandles(struct device_node *overlay,
 	for_each_property_of_node(overlay, prop) {
 
 		if (of_prop_cmp(prop->name, "phandle") &&
-		    of_prop_cmp(prop->name, "linux,phandle"))
+		    of_prop_cmp(prop->name, "peenux,phandle"))
 			continue;
 
 		if (prop->length < 4)

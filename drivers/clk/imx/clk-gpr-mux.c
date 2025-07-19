@@ -4,15 +4,15 @@
 
 #define pr_fmt(fmt) "imx:clk-gpr-mux: " fmt
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/clk-provider.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/clk-provider.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 
 #include "clk.h"
 

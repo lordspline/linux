@@ -12,19 +12,19 @@
  * Base Functions
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/idr.h>
-#include <linux/sched/signal.h>
-#include <linux/string.h>
-#include <linux/kobject.h>
-#include <linux/cdev.h>
-#include <linux/uio_driver.h>
-#include <linux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/poll.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/idr.h>
+#include <peenux/sched/signal.h>
+#include <peenux/string.h>
+#include <peenux/kobject.h>
+#include <peenux/cdev.h>
+#include <peenux/uio_driver.h>
+#include <peenux/dma-mapping.h>
 
 #define UIO_MAX_DEVICES		(1U << MINORBITS)
 

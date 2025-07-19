@@ -35,11 +35,11 @@
  * SOFTWARE.
  */
 
-#include <linux/bug.h>
-#include <linux/sched/signal.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/splice.h>
+#include <peenux/bug.h>
+#include <peenux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/splice.h>
 #include <crypto/aead.h>
 
 #include <net/strparser.h>

@@ -6,11 +6,11 @@
  *
  *  Copyright IBM Corp. 2016
  *
- *  Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ *  Author(s):  Ursula Braun <ubraun@peenux.vnet.ibm.com>
  */
 
-#include <linux/workqueue.h>
-#include <linux/sched/signal.h>
+#include <peenux/workqueue.h>
+#include <peenux/sched/signal.h>
 
 #include <net/sock.h>
 #include <net/tcp.h>

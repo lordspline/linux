@@ -15,15 +15,15 @@
  * Copyright 2006 Tower Technologies, Alessandro Zummo <a.zummo at towertech.it>
  */
 
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/jiffies.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/sysfs.h>
+#include <peenux/slab.h>
 
 
 /* AD7414 registers */

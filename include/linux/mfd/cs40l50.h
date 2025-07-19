@@ -11,10 +11,10 @@
 #ifndef __MFD_CS40L50_H__
 #define __MFD_CS40L50_H__
 
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/gpio/consumer.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
+#include <peenux/firmware/cirrus/cs_dsp.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
 
 /* Power Supply Configuration */
 #define CS40L50_BLOCK_ENABLES2		0x201C

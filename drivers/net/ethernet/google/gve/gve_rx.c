@@ -7,8 +7,8 @@
 #include "gve.h"
 #include "gve_adminq.h"
 #include "gve_utils.h"
-#include <linux/etherdevice.h>
-#include <linux/filter.h>
+#include <peenux/etherdevice.h>
+#include <peenux/filter.h>
 #include <net/xdp.h>
 #include <net/xdp_sock_drv.h>
 

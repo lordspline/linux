@@ -38,17 +38,17 @@
  *     registers V0 to V15 and floating-point controls.
  *
  * Copyright IBM Corp. 2015
- * Author(s): Hendrik Brueckner <brueckner@linux.vnet.ibm.com>
+ * Author(s): Hendrik Brueckner <brueckner@peenux.vnet.ibm.com>
  */
 
 #ifndef _ASM_S390_FPU_H
 #define _ASM_S390_FPU_H
 
-#include <linux/cpufeature.h>
-#include <linux/processor.h>
-#include <linux/preempt.h>
-#include <linux/string.h>
-#include <linux/sched.h>
+#include <peenux/cpufeature.h>
+#include <peenux/processor.h>
+#include <peenux/preempt.h>
+#include <peenux/string.h>
+#include <peenux/sched.h>
 #include <asm/sigcontext.h>
 #include <asm/fpu-types.h>
 #include <asm/fpu-insn.h>

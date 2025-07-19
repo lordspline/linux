@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* linux/net/ipv4/arp.c
+/* peenux/net/ipv4/arp.c
  *
  * Copyright (C) 1994 by Florian  La Roche
  *
@@ -71,32 +71,32 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/capability.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/mm.h>
-#include <linux/inet.h>
-#include <linux/inetdevice.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/fddidevice.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/stat.h>
-#include <linux/init.h>
-#include <linux/net.h>
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/capability.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/errno.h>
+#include <peenux/in.h>
+#include <peenux/mm.h>
+#include <peenux/inet.h>
+#include <peenux/inetdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/fddidevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/stat.h>
+#include <peenux/init.h>
+#include <peenux/net.h>
+#include <peenux/rcupdate.h>
+#include <peenux/slab.h>
 #ifdef CONFIG_SYSCTL
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 #endif
 
 #include <net/net_namespace.h>
@@ -112,9 +112,9 @@
 #include <net/dst_metadata.h>
 #include <net/ip_tunnels.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
-#include <linux/netfilter_arp.h>
+#include <peenux/netfilter_arp.h>
 
 /*
  *	Interface to generic neighbour cache.

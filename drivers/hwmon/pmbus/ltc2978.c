@@ -8,15 +8,15 @@
  * Copyright (c) 2018 Analog Devices Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/regulator/driver.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/regulator/driver.h>
 #include "pmbus.h"
 
 enum chips {

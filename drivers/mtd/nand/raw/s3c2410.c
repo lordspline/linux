@@ -13,25 +13,25 @@
 #define DEBUG
 #endif
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/cpufreq.h>
+#include <peenux/of.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
 
-#include <linux/platform_data/mtd-nand-s3c2410.h>
+#include <peenux/platform_data/mtd-nand-s3c2410.h>
 
 #define S3C2410_NFREG(x) (x)
 

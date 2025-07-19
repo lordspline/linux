@@ -6,12 +6,12 @@
  * Author: Alessandro Zummo <a.zummo@towertech.it>
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/gfp.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/rtc.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/gfp.h>
 
 #define EP93XX_RTC_DATA			0x000
 #define EP93XX_RTC_MATCH		0x004

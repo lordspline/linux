@@ -6,10 +6,10 @@
  *
  */
 
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/netdevice.h>
+#include <peenux/workqueue.h>
 #include <net/switchdev.h>
 
 #include "cpsw.h"

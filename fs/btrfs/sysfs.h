@@ -3,9 +3,9 @@
 #ifndef BTRFS_SYSFS_H
 #define BTRFS_SYSFS_H
 
-#include <linux/types.h>
-#include <linux/compiler_types.h>
-#include <linux/kobject.h>
+#include <peenux/types.h>
+#include <peenux/compiler_types.h>
+#include <peenux/kobject.h>
 
 struct block_device;
 struct btrfs_fs_info;

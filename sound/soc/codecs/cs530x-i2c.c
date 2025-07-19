@@ -5,10 +5,10 @@
 // Copyright (C) 2024 Cirrus Logic, Inc. and
 //                    Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 
 #include "cs530x.h"
 

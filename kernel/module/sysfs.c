@@ -5,13 +5,13 @@
  * Copyright (C) 2008 Rusty Russell
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/kallsyms.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/sysfs.h>
+#include <peenux/slab.h>
+#include <peenux/kallsyms.h>
+#include <peenux/mutex.h>
 #include "internal.h"
 
 /*

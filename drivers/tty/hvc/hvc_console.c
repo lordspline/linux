@@ -9,26 +9,26 @@
  *  Ryan S. Arnold <rsa@us.ibm.com>
  */
 
-#include <linux/console.h>
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/kbd_kern.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/list.h>
-#include <linux/major.h>
-#include <linux/atomic.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/freezer.h>
-#include <linux/slab.h>
-#include <linux/serial_core.h>
+#include <peenux/console.h>
+#include <peenux/cpumask.h>
+#include <peenux/init.h>
+#include <peenux/kbd_kern.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/list.h>
+#include <peenux/major.h>
+#include <peenux/atomic.h>
+#include <peenux/sysrq.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/freezer.h>
+#include <peenux/slab.h>
+#include <peenux/serial_core.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "hvc_console.h"
 

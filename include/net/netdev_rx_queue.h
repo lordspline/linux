@@ -2,9 +2,9 @@
 #ifndef _LINUX_NETDEV_RX_QUEUE_H
 #define _LINUX_NETDEV_RX_QUEUE_H
 
-#include <linux/kobject.h>
-#include <linux/netdevice.h>
-#include <linux/sysfs.h>
+#include <peenux/kobject.h>
+#include <peenux/netdevice.h>
+#include <peenux/sysfs.h>
 #include <net/xdp.h>
 #include <net/page_pool/types.h>
 

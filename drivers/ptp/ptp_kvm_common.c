@@ -4,18 +4,18 @@
  *
  * Copyright (C) 2017 Red Hat Inc.
  */
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/ptp_kvm.h>
-#include <uapi/linux/kvm_para.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/ptp_kvm.h>
+#include <uapi/peenux/kvm_para.h>
 #include <asm/kvm_para.h>
 #include <uapi/asm/kvm_para.h>
 
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/ptp_clock_kernel.h>
 
 struct kvm_ptp_clock {
 	struct ptp_clock *ptp_clock;

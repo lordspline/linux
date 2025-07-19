@@ -4,22 +4,22 @@
  * Copyright (C) 2015 Broadcom Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/msi.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/mbus.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip/arm-gic-v3.h>
-#include <linux/platform_device.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/pci-ecam.h>
+#include <peenux/msi.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/mbus.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip/arm-gic-v3.h>
+#include <peenux/platform_device.h>
+#include <peenux/of_address.h>
+#include <peenux/of_pci.h>
+#include <peenux/of_platform.h>
+#include <peenux/phy/phy.h>
 
 #include "pcie-iproc.h"
 

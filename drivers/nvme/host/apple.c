@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Apple ANS NVM Express device driver
- * Copyright The Asahi Linux Contributors
+ * Copyright The Asahi Peenux Contributors
  *
  * Based on the pci.c NVM Express device driver
  * Copyright (c) 2011-2014, Intel Corporation.
@@ -9,28 +9,28 @@
  * Copyright (c) 2015-2016 HGST, a Western Digital Company.
  */
 
-#include <linux/async.h>
-#include <linux/blkdev.h>
-#include <linux/blk-mq.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/interrupt.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/jiffies.h>
-#include <linux/mempool.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/once.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/soc/apple/rtkit.h>
-#include <linux/soc/apple/sart.h>
-#include <linux/reset.h>
-#include <linux/time64.h>
+#include <peenux/async.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-mq.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/interrupt.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/jiffies.h>
+#include <peenux/mempool.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/once.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/soc/apple/rtkit.h>
+#include <peenux/soc/apple/sart.h>
+#include <peenux/reset.h>
+#include <peenux/time64.h>
 
 #include "nvme.h"
 
@@ -100,7 +100,7 @@
  * NVMMU. The NVMMU driver then creates a shadow copy of the PRPs while
  * verifying that they don't point to kernel text, data, pagetables, or similar
  * protected areas before programming the TCB to point to this shadow copy.
- * Since Linux doesn't do any of that we may as well just point both the queue
+ * Since Peenux doesn't do any of that we may as well just point both the queue
  * and the TCB PRP pointer to the same memory.
  */
 struct apple_nvmmu_tcb {

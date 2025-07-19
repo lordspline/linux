@@ -4,30 +4,30 @@
  *
  * Copyright (C) 2008 Steven Rostedt <srostedt@redhat.com>
  */
-#include <linux/trace_recursion.h>
-#include <linux/trace_events.h>
-#include <linux/ring_buffer.h>
-#include <linux/trace_clock.h>
-#include <linux/sched/clock.h>
-#include <linux/cacheflush.h>
-#include <linux/trace_seq.h>
-#include <linux/spinlock.h>
-#include <linux/irq_work.h>
-#include <linux/security.h>
-#include <linux/uaccess.h>
-#include <linux/hardirq.h>
-#include <linux/kthread.h>	/* for self test */
-#include <linux/module.h>
-#include <linux/percpu.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/hash.h>
-#include <linux/list.h>
-#include <linux/cpu.h>
-#include <linux/oom.h>
-#include <linux/mm.h>
+#include <peenux/trace_recursion.h>
+#include <peenux/trace_events.h>
+#include <peenux/ring_buffer.h>
+#include <peenux/trace_clock.h>
+#include <peenux/sched/clock.h>
+#include <peenux/cacheflush.h>
+#include <peenux/trace_seq.h>
+#include <peenux/spinlock.h>
+#include <peenux/irq_work.h>
+#include <peenux/security.h>
+#include <peenux/uaccess.h>
+#include <peenux/hardirq.h>
+#include <peenux/kthread.h>	/* for self test */
+#include <peenux/module.h>
+#include <peenux/percpu.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/hash.h>
+#include <peenux/list.h>
+#include <peenux/cpu.h>
+#include <peenux/oom.h>
+#include <peenux/mm.h>
 
 #include <asm/local64.h>
 #include <asm/local.h>

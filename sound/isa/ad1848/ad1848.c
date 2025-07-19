@@ -6,12 +6,12 @@
  *  Based on card-4232.c by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/isa.h>
+#include <peenux/time.h>
+#include <peenux/wait.h>
+#include <peenux/module.h>
 #include <sound/core.h>
 #include <sound/wss.h>
 #include <sound/initval.h>

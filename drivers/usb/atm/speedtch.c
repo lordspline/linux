@@ -10,18 +10,18 @@
  ******************************************************************************/
 
 #include <asm/page.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/usb/ch9.h>
-#include <linux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/firmware.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/workqueue.h>
 
 #include "usbatm.h"
 

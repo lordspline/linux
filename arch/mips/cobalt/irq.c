@@ -7,11 +7,11 @@
  *
  * Copyright (C) 1995, 1996, 1997, 2003 by Ralf Baechle
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
 
 #include <asm/i8259.h>
 #include <asm/irq_cpu.h>

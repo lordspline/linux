@@ -43,7 +43,7 @@ properties:
       function: true
       color: true
       label: true
-      linux,default-trigger: true
+      peenux,default-trigger: true
 
     additionalProperties: false
 
@@ -72,7 +72,7 @@ examples:
             led {
                 function = LED_FUNCTION_BACKLIGHT;
                 color = <LED_COLOR_ID_WHITE>;
-                linux,default-trigger = "backlight";
+                peenux,default-trigger = "backlight";
             };
         };
     };

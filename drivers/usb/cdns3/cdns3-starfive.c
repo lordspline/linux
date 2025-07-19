@@ -7,17 +7,17 @@
  * Author:	Minda Chen <minda.chen@starfivetech.com>
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/of_platform.h>
-#include <linux/reset.h>
-#include <linux/regmap.h>
-#include <linux/usb/otg.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/of_platform.h>
+#include <peenux/reset.h>
+#include <peenux/regmap.h>
+#include <peenux/usb/otg.h>
 #include "core.h"
 
 #define USB_STRAP_HOST			BIT(17)

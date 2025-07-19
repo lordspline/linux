@@ -7,11 +7,11 @@
  * Copyright (C) 2017 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/init.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/init.h>
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/platform_device.h>
 #include <asm/byteorder.h>
 #include "intel_pmic.h"
 

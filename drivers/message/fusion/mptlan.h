@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptlan.h
+ *  peenux/drivers/message/fusion/mptlan.h
  *      IP Over Fibre Channel device driver.
  *      For use with LSI Fibre Channel PCI chip/adapters
  *      running LSI Fusion MPT (Message Passing Technology) firmware.
@@ -51,23 +51,23 @@
 #define LINUX_MPTLAN_H_INCLUDED
 /*****************************************************************************/
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/errno.h>
-// #include <linux/etherdevice.h>
-#include <linux/fcdevice.h>
-// #include <linux/fddidevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_arp.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/errno.h>
+// #include <peenux/etherdevice.h>
+#include <peenux/fcdevice.h>
+// #include <peenux/fddidevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_arp.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
+#include <peenux/delay.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 
     /* Override mptbase.h by pre-defining these! */

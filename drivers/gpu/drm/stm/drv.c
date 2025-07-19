@@ -8,13 +8,13 @@
  *          Mickael Reulier <mickael.reulier@st.com>
  */
 
-#include <linux/aperture.h>
-#include <linux/component.h>
-#include <linux/dma-mapping.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/aperture.h>
+#include <peenux/component.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

@@ -3,7 +3,7 @@
 
 /*
  * Some functions in this program are taken from
- * Linux kernel samples/bpf/xdpsock* and modified
+ * Peenux kernel samples/bpf/xdpsock* and modified
  * for use.
  *
  * See test_xsk.sh for detailed information on test topology
@@ -76,12 +76,12 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <getopt.h>
-#include <linux/if_link.h>
-#include <linux/if_ether.h>
-#include <linux/mman.h>
-#include <linux/netdev.h>
-#include <linux/bitmap.h>
-#include <linux/ethtool.h>
+#include <peenux/if_link.h>
+#include <peenux/if_ether.h>
+#include <peenux/mman.h>
+#include <peenux/netdev.h>
+#include <peenux/bitmap.h>
+#include <peenux/ethtool.h>
 #include <arpa/inet.h>
 #include <net/if.h>
 #include <locale.h>
@@ -103,7 +103,7 @@
 #include "xsk.h"
 #include "xskxceiver.h"
 #include <bpf/bpf.h>
-#include <linux/filter.h>
+#include <peenux/filter.h>
 #include "../kselftest.h"
 #include "xsk_xdp_common.h"
 

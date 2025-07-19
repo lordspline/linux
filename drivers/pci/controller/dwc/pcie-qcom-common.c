@@ -3,7 +3,7 @@
  * Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/pci.h>
+#include <peenux/pci.h>
 
 #include "pcie-designware.h"
 #include "pcie-qcom-common.h"

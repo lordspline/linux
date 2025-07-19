@@ -3,10 +3,10 @@
 
 /* Written 1995-2000 by Werner Almesberger, EPFL LRC/ICA */
 
-#include <linux/atm.h>
-#include <linux/atmdev.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/atm.h>
+#include <peenux/atmdev.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 #include "signaling.h"
 #include "addr.h"

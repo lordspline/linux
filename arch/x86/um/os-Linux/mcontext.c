@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 #define __FRAME_OFFSETS
-#include <linux/errno.h>
-#include <linux/string.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
 #include <sys/ucontext.h>
 #include <asm/ptrace.h>
 #include <asm/sigcontext.h>

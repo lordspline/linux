@@ -9,21 +9,21 @@
  *   With feedback from Clark Williams <williams@redhat.com>
  *
  * And also based on the rtsl tracer presented on:
- *  DE OLIVEIRA, Daniel Bristot, et al. Demystifying the real-time linux
+ *  DE OLIVEIRA, Daniel Bristot, et al. Demystifying the real-time peenux
  *  scheduling latency. In: 32nd Euromicro Conference on Real-Time Systems
  *  (ECRTS 2020). Schloss Dagstuhl-Leibniz-Zentrum fur Informatik, 2020.
  *
  * Copyright (C) 2021 Daniel Bristot de Oliveira, Red Hat, Inc. <bristot@redhat.com>
  */
 
-#include <linux/kthread.h>
-#include <linux/tracefs.h>
-#include <linux/uaccess.h>
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/sched/clock.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/sched.h>
+#include <peenux/kthread.h>
+#include <peenux/tracefs.h>
+#include <peenux/uaccess.h>
+#include <peenux/cpumask.h>
+#include <peenux/delay.h>
+#include <peenux/sched/clock.h>
+#include <uapi/peenux/sched/types.h>
+#include <peenux/sched.h>
 #include "trace.h"
 
 #ifdef CONFIG_X86_LOCAL_APIC

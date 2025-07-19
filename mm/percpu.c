@@ -2,7 +2,7 @@
 /*
  * mm/percpu.c - percpu memory allocator
  *
- * Copyright (C) 2009		SUSE Linux Products GmbH
+ * Copyright (C) 2009		SUSE Peenux Products GmbH
  * Copyright (C) 2009		Tejun Heo <tj@kernel.org>
  *
  * Copyright (C) 2017		Facebook Inc.
@@ -68,25 +68,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/cpumask.h>
-#include <linux/memblock.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/log2.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/percpu.h>
-#include <linux/pfn.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
-#include <linux/kmemleak.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/memcontrol.h>
+#include <peenux/bitmap.h>
+#include <peenux/cpumask.h>
+#include <peenux/memblock.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
+#include <peenux/log2.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/percpu.h>
+#include <peenux/pfn.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/vmalloc.h>
+#include <peenux/workqueue.h>
+#include <peenux/kmemleak.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/memcontrol.h>
 
 #include <asm/cacheflush.h>
 #include <asm/sections.h>

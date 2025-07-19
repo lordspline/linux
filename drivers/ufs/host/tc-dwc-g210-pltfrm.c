@@ -7,12 +7,12 @@
  * Authors: Joao Pinto <jpinto@synopsys.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
 
 #include "ufshcd-pltfrm.h"
 #include "ufshcd-dwc.h"

@@ -7,7 +7,7 @@
  * Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/mm.h>
+#include <peenux/mm.h>
 #include <asm/page-states.h>
 #include <asm/sections.h>
 #include <asm/page.h>

@@ -12,22 +12,22 @@
  * Eric Miao <eric.miao@marvell.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
+#include <peenux/of.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps6586x.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/tps6586x.h>
 
 #define TPS6586X_SUPPLYENE	0x14
 #define SOFT_RST_BIT		BIT(0)

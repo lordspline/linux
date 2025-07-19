@@ -6,16 +6,16 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/input.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/input.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
 
 MODULE_AUTHOR("Benjamin Tissoires <benjamin.tissoires@redhat.com>");
 MODULE_DESCRIPTION("Surface 3 platform driver");

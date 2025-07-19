@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
 /* Copyright 2021 Marvell. All rights reserved. */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
 #include <asm/param.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/qed/qed_nvmetcp_if.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/qed/qed_nvmetcp_if.h>
 #include "qed.h"
 #include "qed_cxt.h"
 #include "qed_dev_api.h"

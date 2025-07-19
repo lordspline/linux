@@ -6,13 +6,13 @@
 #ifndef __MTD_MTD_H__
 #define __MTD_MTD_H__
 
-#include <linux/types.h>
-#include <linux/uio.h>
-#include <linux/list.h>
-#include <linux/notifier.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/nvmem-provider.h>
+#include <peenux/types.h>
+#include <peenux/uio.h>
+#include <peenux/list.h>
+#include <peenux/notifier.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/nvmem-provider.h>
 
 #include <mtd/mtd-abi.h>
 

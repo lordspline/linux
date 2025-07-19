@@ -19,32 +19,32 @@
  * 	Johnnie Peters <jpeters@mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/crc32.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/bitops.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/crc32.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/bitops.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_net.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <asm/processor.h>
 #include <asm/io.h>
 #include <asm/dma.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/dcr.h>
 #include <asm/dcr-regs.h>
 

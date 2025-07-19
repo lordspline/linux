@@ -5,13 +5,13 @@
 // Copyright (C) 2008 NXP Semiconductors
 // Copyright 2023 Timesys Corporation <piotr.wojtaszczyk@timesys.com>
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* Copyright 2024 Intel Corporation */
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 #ifndef _HID_OVER_I2C_H_
 #define _HID_OVER_I2C_H_

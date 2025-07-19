@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/sys_nautilus.c
+ *	peenux/arch/alpha/kernel/sys_nautilus.c
  *
  *	Copyright (C) 1995 David A Rusling
  *	Copyright (C) 1998 Richard Henderson
@@ -25,15 +25,15 @@
  *     2 USB ports
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/reboot.h>
-#include <linux/memblock.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/reboot.h>
+#include <peenux/memblock.h>
+#include <peenux/bitops.h>
 
 #include <asm/ptrace.h>
 #include <asm/dma.h>

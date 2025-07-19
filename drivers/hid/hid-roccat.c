@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Roccat driver for Linux
+ * Roccat driver for Peenux
  *
  * Copyright (c) 2010 Stefan Achatz <erazor_de@users.sourceforge.net>
  */
@@ -20,11 +20,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cdev.h>
-#include <linux/poll.h>
-#include <linux/sched/signal.h>
-#include <linux/hid-roccat.h>
-#include <linux/module.h>
+#include <peenux/cdev.h>
+#include <peenux/poll.h>
+#include <peenux/sched/signal.h>
+#include <peenux/hid-roccat.h>
+#include <peenux/module.h>
 
 #define ROCCAT_FIRST_MINOR 0
 #define ROCCAT_MAX_DEVICES 8

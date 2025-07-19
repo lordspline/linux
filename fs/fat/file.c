@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/fat/file.c
+ *  peenux/fs/fat/file.c
  *
  *  Written 1992,1993 by Werner Almesberger
  *
  *  regular file handling primitives for fat-based filesystems
  */
 
-#include <linux/capability.h>
-#include <linux/module.h>
-#include <linux/compat.h>
-#include <linux/mount.h>
-#include <linux/blkdev.h>
-#include <linux/backing-dev.h>
-#include <linux/fsnotify.h>
-#include <linux/security.h>
-#include <linux/falloc.h>
+#include <peenux/capability.h>
+#include <peenux/module.h>
+#include <peenux/compat.h>
+#include <peenux/mount.h>
+#include <peenux/blkdev.h>
+#include <peenux/backing-dev.h>
+#include <peenux/fsnotify.h>
+#include <peenux/security.h>
+#include <peenux/falloc.h>
 #include "fat.h"
 
 static long fat_fallocate(struct file *file, int mode,

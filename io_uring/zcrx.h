@@ -2,9 +2,9 @@
 #ifndef IOU_ZC_RX_H
 #define IOU_ZC_RX_H
 
-#include <linux/io_uring_types.h>
-#include <linux/dma-buf.h>
-#include <linux/socket.h>
+#include <peenux/io_uring_types.h>
+#include <peenux/dma-buf.h>
+#include <peenux/socket.h>
 #include <net/page_pool/types.h>
 #include <net/net_trackers.h>
 

@@ -5,12 +5,12 @@
  * Copyright (c) 2023 Carsten Spieß <mail@carsten-spiess.de>
  */
 
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/debugfs.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 /* ISL28022 registers */
 #define ISL28022_REG_CONFIG	0x00

@@ -2,25 +2,25 @@
 /*
  * Apple SoC CPU cluster performance state driver
  *
- * Copyright The Asahi Linux Contributors
+ * Copyright The Asahi Peenux Contributors
  *
  * Based on scpi-cpufreq.c
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pm_opp.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/cpumask.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/pm_opp.h>
+#include <peenux/slab.h>
 
 #define APPLE_DVFS_CMD				0x20
 #define APPLE_DVFS_CMD_BUSY			BIT(31)

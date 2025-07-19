@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 1999 - 2018 Intel Corporation. */
 
-#include <linux/netdevice.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "e1000.h"
 

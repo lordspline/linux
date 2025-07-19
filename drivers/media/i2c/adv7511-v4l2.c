@@ -11,15 +11,15 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/videodev2.h>
-#include <linux/workqueue.h>
-#include <linux/hdmi.h>
-#include <linux/v4l2-dv-timings.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/videodev2.h>
+#include <peenux/workqueue.h>
+#include <peenux/hdmi.h>
+#include <peenux/v4l2-dv-timings.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>

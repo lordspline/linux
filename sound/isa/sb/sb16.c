@@ -5,12 +5,12 @@
  */
 
 #include <asm/dma.h>
-#include <linux/init.h>
-#include <linux/pnp.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/pnp.h>
+#include <peenux/err.h>
+#include <peenux/isa.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 #include <sound/core.h>
 #include <sound/sb.h>
 #include <sound/sb16_csp.h>

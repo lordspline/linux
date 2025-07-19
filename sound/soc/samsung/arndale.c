@@ -4,10 +4,10 @@
 //
 //  Author: Claude <claude@insginal.co.kr>
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
 
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>

@@ -29,11 +29,11 @@
  * Authors: Thomas Hellstrom <thellstrom-at-vmware-dot-com>
  * 	    Jerome Glisse
  */
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/pgtable.h>
-#include <linux/sched.h>
-#include <linux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/pgtable.h>
+#include <peenux/sched.h>
+#include <peenux/debugfs.h>
 #include <drm/drm_sysfs.h>
 #include <drm/ttm/ttm_caching.h>
 

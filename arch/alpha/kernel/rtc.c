@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/rtc.c
+ *  peenux/arch/alpha/kernel/rtc.c
  *
  *  Copyright (C) 1991, 1992, 1995, 1999, 2000  Linus Torvalds
  *
  * This file contains date handling.
  */
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/mc146818rtc.h>
-#include <linux/bcd.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/string.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/rtc.h>
+#include <peenux/platform_device.h>
 
 #include "proto.h"
 

@@ -3,10 +3,10 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/align.h>
-#include <linux/bitfield.h>
-#include <linux/log2.h>
-#include <linux/sizes.h>
+#include <peenux/align.h>
+#include <peenux/bitfield.h>
+#include <peenux/log2.h>
+#include <peenux/sizes.h>
 
 #include "xe_lmtt_types.h"
 #include "xe_macros.h"

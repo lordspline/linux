@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2020 Facebook */
 
-#include <linux/fs.h>
-#include <linux/anon_inodes.h>
-#include <linux/filter.h>
-#include <linux/bpf.h>
-#include <linux/rcupdate_trace.h>
+#include <peenux/fs.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/filter.h>
+#include <peenux/bpf.h>
+#include <peenux/rcupdate_trace.h>
 
 struct bpf_iter_target_info {
 	struct list_head list;

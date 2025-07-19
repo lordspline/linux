@@ -5,15 +5,15 @@
  * Copyright (C) 2016 Synopsys
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
 /* PLL registers addresses */
 #define PLL_IDIV_REG	0x0

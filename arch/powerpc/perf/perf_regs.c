@@ -3,13 +3,13 @@
  * Copyright 2016 Anju T, IBM Corporation.
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/perf_event.h>
-#include <linux/bug.h>
-#include <linux/stddef.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/perf_event.h>
+#include <peenux/bug.h>
+#include <peenux/stddef.h>
 #include <asm/ptrace.h>
 #include <asm/perf_regs.h>
 

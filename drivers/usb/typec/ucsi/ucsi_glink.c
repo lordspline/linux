@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2020, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2023, Linaro Ltd
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_device.h>
-#include <linux/property.h>
-#include <linux/soc/qcom/pdr.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/gpio/consumer.h>
-#include <linux/soc/qcom/pmic_glink.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_device.h>
+#include <peenux/property.h>
+#include <peenux/soc/qcom/pdr.h>
+#include <peenux/usb/typec_mux.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/soc/qcom/pmic_glink.h>
 #include "ucsi.h"
 
 #define PMIC_GLINK_MAX_PORTS		3

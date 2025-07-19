@@ -6,8 +6,8 @@
 #ifndef _PLATFORM_DATA_X86_P2SB_H
 #define _PLATFORM_DATA_X86_P2SB_H
 
-#include <linux/errno.h>
-#include <linux/kconfig.h>
+#include <peenux/errno.h>
+#include <peenux/kconfig.h>
 
 struct pci_bus;
 struct resource;

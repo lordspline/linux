@@ -7,12 +7,12 @@
 #ifndef _QED_SP_H
 #define _QED_SP_H
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/qed/qed_chain.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/qed/qed_chain.h>
 #include "qed.h"
 #include "qed_hsi.h"
 

@@ -42,15 +42,15 @@
 
 #include <crypto/algapi.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
 #include <crypto/scatterwalk.h>
-#include <linux/slab.h>
-#include <linux/compiler.h>
+#include <peenux/slab.h>
+#include <peenux/compiler.h>
 
 struct crypto_cts_ctx {
 	struct crypto_skcipher *child;

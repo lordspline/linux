@@ -9,13 +9,13 @@
  * Copyright 2005-06 Tower Technologies
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/bcd.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/log2.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/bcd.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
+#include <peenux/log2.h>
 
 #define RX8581_REG_SC		0x00 /* Second in BCD */
 #define RX8581_REG_MN		0x01 /* Minute in BCD */

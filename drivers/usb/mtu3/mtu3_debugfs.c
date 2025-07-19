@@ -7,8 +7,8 @@
  * Author: Chunfeng Yun <chunfeng.yun@mediatek.com>
  */
 
-#include <linux/string_choices.h>
-#include <linux/uaccess.h>
+#include <peenux/string_choices.h>
+#include <peenux/uaccess.h>
 
 #include "mtu3.h"
 #include "mtu3_dr.h"

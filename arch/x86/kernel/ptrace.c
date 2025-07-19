@@ -5,28 +5,28 @@
  *	Gareth Hughes <gareth@valinux.com>, May 2000
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/elf.h>
-#include <linux/security.h>
-#include <linux/audit.h>
-#include <linux/seccomp.h>
-#include <linux/signal.h>
-#include <linux/perf_event.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/rcupdate.h>
-#include <linux/export.h>
-#include <linux/context_tracking.h>
-#include <linux/nospec.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/elf.h>
+#include <peenux/security.h>
+#include <peenux/audit.h>
+#include <peenux/seccomp.h>
+#include <peenux/signal.h>
+#include <peenux/perf_event.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/rcupdate.h>
+#include <peenux/export.h>
+#include <peenux/context_tracking.h>
+#include <peenux/nospec.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/processor.h>
 #include <asm/fpu/signal.h>
 #include <asm/fpu/regset.h>
@@ -854,8 +854,8 @@ long arch_ptrace(struct task_struct *child, long request,
 
 #ifdef CONFIG_IA32_EMULATION
 
-#include <linux/compat.h>
-#include <linux/syscalls.h>
+#include <peenux/compat.h>
+#include <peenux/syscalls.h>
 #include <asm/ia32.h>
 #include <asm/user32.h>
 

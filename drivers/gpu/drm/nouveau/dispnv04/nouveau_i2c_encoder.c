@@ -24,7 +24,7 @@
  *
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
 #include <dispnv04/i2c/encoder_i2c.h>
 

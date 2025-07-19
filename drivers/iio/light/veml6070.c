@@ -9,16 +9,16 @@
  * TODO: ACK signal
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/mutex.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define VEML6070_DRV_NAME "veml6070"
 

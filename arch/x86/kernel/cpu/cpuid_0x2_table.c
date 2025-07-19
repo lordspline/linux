@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/sizes.h>
+#include <peenux/sizes.h>
 
 #include <asm/cpuid/types.h>
 

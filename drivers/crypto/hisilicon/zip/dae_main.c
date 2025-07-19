@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2024 HiSilicon Limited. */
 
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/uacce.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
+#include <peenux/uacce.h>
 #include "zip.h"
 
 /* memory */

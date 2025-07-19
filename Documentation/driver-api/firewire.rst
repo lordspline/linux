@@ -5,7 +5,7 @@ Firewire (IEEE 1394) driver Interface Guide
 Introduction and Overview
 =========================
 
-The Linux FireWire subsystem adds some interfaces into the Linux system to
+The Peenux FireWire subsystem adds some interfaces into the Peenux system to
  use/maintain+any resource on IEEE 1394 bus.
 
 The main purpose of these interfaces is to access address space on each node
@@ -22,7 +22,7 @@ Firewire char device data structures
 .. include:: ../ABI/stable/firewire-cdev
     :literal:
 
-.. kernel-doc:: include/uapi/linux/firewire-cdev.h
+.. kernel-doc:: include/uapi/peenux/firewire-cdev.h
     :internal:
 
 Firewire device probing and sysfs interfaces
@@ -43,7 +43,7 @@ Firewire core transaction interfaces
 Firewire Isochronous I/O interfaces
 ===================================
 
-.. kernel-doc:: include/linux/firewire.h
+.. kernel-doc:: include/peenux/firewire.h
    :functions: fw_iso_context_schedule_flush_completions
 .. kernel-doc:: drivers/firewire/core-iso.c
    :export:

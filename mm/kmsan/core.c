@@ -8,23 +8,23 @@
  */
 
 #include <asm/page.h>
-#include <linux/compiler.h>
-#include <linux/export.h>
-#include <linux/highmem.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kmsan_types.h>
-#include <linux/memory.h>
-#include <linux/mm.h>
-#include <linux/mm_types.h>
-#include <linux/mmzone.h>
-#include <linux/percpu-defs.h>
-#include <linux/preempt.h>
-#include <linux/slab.h>
-#include <linux/stackdepot.h>
-#include <linux/stacktrace.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <peenux/compiler.h>
+#include <peenux/export.h>
+#include <peenux/highmem.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/kmsan_types.h>
+#include <peenux/memory.h>
+#include <peenux/mm.h>
+#include <peenux/mm_types.h>
+#include <peenux/mmzone.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/preempt.h>
+#include <peenux/slab.h>
+#include <peenux/stackdepot.h>
+#include <peenux/stacktrace.h>
+#include <peenux/types.h>
+#include <peenux/vmalloc.h>
 
 #include "../slab.h"
 #include "kmsan.h"

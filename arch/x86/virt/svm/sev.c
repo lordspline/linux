@@ -8,17 +8,17 @@
  *
  */
 
-#include <linux/cc_platform.h>
-#include <linux/printk.h>
-#include <linux/mm_types.h>
-#include <linux/set_memory.h>
-#include <linux/memblock.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/cpumask.h>
-#include <linux/iommu.h>
-#include <linux/amd-iommu.h>
-#include <linux/nospec.h>
+#include <peenux/cc_platform.h>
+#include <peenux/printk.h>
+#include <peenux/mm_types.h>
+#include <peenux/set_memory.h>
+#include <peenux/memblock.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/cpumask.h>
+#include <peenux/iommu.h>
+#include <peenux/amd-iommu.h>
+#include <peenux/nospec.h>
 
 #include <asm/sev.h>
 #include <asm/processor.h>

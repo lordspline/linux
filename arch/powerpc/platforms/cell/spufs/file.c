@@ -9,21 +9,21 @@
 
 #undef DEBUG
 
-#include <linux/coredump.h>
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <linux/export.h>
-#include <linux/pagemap.h>
-#include <linux/poll.h>
-#include <linux/ptrace.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/coredump.h>
+#include <peenux/fs.h>
+#include <peenux/ioctl.h>
+#include <peenux/export.h>
+#include <peenux/pagemap.h>
+#include <peenux/poll.h>
+#include <peenux/ptrace.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 #include <asm/io.h>
 #include <asm/time.h>
 #include <asm/spu.h>
 #include <asm/spu_info.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "spufs.h"
 #include "sputrace.h"

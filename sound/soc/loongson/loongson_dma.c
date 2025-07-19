@@ -6,11 +6,11 @@
 // Author: Yingkun Meng <mengyingkun@loongson.cn>
 //
 
-#include <linux/module.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/dma-mapping.h>
 #include <sound/soc.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

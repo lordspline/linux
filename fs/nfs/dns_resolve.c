@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/nfs/dns_resolve.c
+ * peenux/fs/nfs/dns_resolve.c
  *
  * Copyright (c) 2009 Trond Myklebust <Trond.Myklebust@netapp.com>
  *
  * Resolves DNS hostnames into valid ip addresses
  */
 
-#include <linux/module.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/addr.h>
+#include <peenux/module.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/addr.h>
 
 #include "dns_resolve.h"
 
 #ifdef CONFIG_NFS_USE_KERNEL_DNS
 
-#include <linux/dns_resolver.h>
+#include <peenux/dns_resolver.h>
 
 ssize_t nfs_dns_resolve_name(struct net *net, char *name, size_t namelen,
 		struct sockaddr_storage *ss, size_t salen)
@@ -37,17 +37,17 @@ ssize_t nfs_dns_resolve_name(struct net *net, char *name, size_t namelen,
 
 #else
 
-#include <linux/hash.h>
-#include <linux/string.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/socket.h>
-#include <linux/seq_file.h>
-#include <linux/inet.h>
-#include <linux/sunrpc/cache.h>
-#include <linux/sunrpc/svcauth.h>
-#include <linux/sunrpc/rpc_pipe_fs.h>
-#include <linux/nfs_fs.h>
+#include <peenux/hash.h>
+#include <peenux/string.h>
+#include <peenux/kmod.h>
+#include <peenux/slab.h>
+#include <peenux/socket.h>
+#include <peenux/seq_file.h>
+#include <peenux/inet.h>
+#include <peenux/sunrpc/cache.h>
+#include <peenux/sunrpc/svcauth.h>
+#include <peenux/sunrpc/rpc_pipe_fs.h>
+#include <peenux/nfs_fs.h>
 
 #include "nfs4_fs.h"
 #include "cache_lib.h"

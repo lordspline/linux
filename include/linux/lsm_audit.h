@@ -11,17 +11,17 @@
 #ifndef _LSM_COMMON_LOGGING_
 #define _LSM_COMMON_LOGGING_
 
-#include <linux/stddef.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/kdev_t.h>
-#include <linux/spinlock.h>
-#include <linux/init.h>
-#include <linux/audit.h>
-#include <linux/in6.h>
-#include <linux/path.h>
-#include <linux/key.h>
-#include <linux/skbuff.h>
+#include <peenux/stddef.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/kdev_t.h>
+#include <peenux/spinlock.h>
+#include <peenux/init.h>
+#include <peenux/audit.h>
+#include <peenux/in6.h>
+#include <peenux/path.h>
+#include <peenux/key.h>
+#include <peenux/skbuff.h>
 #include <rdma/ib_verbs.h>
 
 struct lsm_network_audit {

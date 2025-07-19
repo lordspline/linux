@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/ext2/ioctl.c
+ * peenux/fs/ext2/ioctl.c
  *
  * Copyright (C) 1993, 1994, 1995
  * Remy Card (card@masi.ibp.fr)
@@ -9,14 +9,14 @@
  */
 
 #include "ext2.h"
-#include <linux/capability.h>
-#include <linux/time.h>
-#include <linux/sched.h>
-#include <linux/compat.h>
-#include <linux/mount.h>
+#include <peenux/capability.h>
+#include <peenux/time.h>
+#include <peenux/sched.h>
+#include <peenux/compat.h>
+#include <peenux/mount.h>
 #include <asm/current.h>
-#include <linux/uaccess.h>
-#include <linux/fileattr.h>
+#include <peenux/uaccess.h>
+#include <peenux/fileattr.h>
 
 int ext2_fileattr_get(struct dentry *dentry, struct fileattr *fa)
 {

@@ -36,8 +36,8 @@
 #include "bif/bif_4_1_d.h"
 #include <asm/div64.h>
 
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
 #include <drm/drm_crtc_helper.h>
 #include <drm/drm_damage_helper.h>
 #include <drm/drm_drv.h>

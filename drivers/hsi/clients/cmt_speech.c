@@ -8,23 +8,23 @@
  * Original author: Peter Ujfalusi <peter.ujfalusi@nokia.com>
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/sched/signal.h>
-#include <linux/ioctl.h>
-#include <linux/uaccess.h>
-#include <linux/pm_qos.h>
-#include <linux/hsi/hsi.h>
-#include <linux/hsi/ssi_protocol.h>
-#include <linux/hsi/cs-protocol.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/poll.h>
+#include <peenux/sched/signal.h>
+#include <peenux/ioctl.h>
+#include <peenux/uaccess.h>
+#include <peenux/pm_qos.h>
+#include <peenux/hsi/hsi.h>
+#include <peenux/hsi/ssi_protocol.h>
+#include <peenux/hsi/cs-protocol.h>
 
 #define CS_MMAP_SIZE	PAGE_SIZE
 

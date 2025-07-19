@@ -6,16 +6,16 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <peenux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    Sridhar Samudrala <sri@us.ibm.com>
  */
 
-#include <linux/types.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/export.h>
+#include <peenux/types.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
 #include <net/sctp/sctp.h>
 #include <net/ip.h> /* for snmp_fold_field */
 

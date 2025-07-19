@@ -6,7 +6,7 @@
 #ifndef EFIVAR_FS_INTERNAL_H
 #define EFIVAR_FS_INTERNAL_H
 
-#include <linux/efi.h>
+#include <peenux/efi.h>
 
 struct efivarfs_mount_opts {
 	kuid_t uid;

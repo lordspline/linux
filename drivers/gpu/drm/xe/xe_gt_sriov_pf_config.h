@@ -6,7 +6,7 @@
 #ifndef _XE_GT_SRIOV_PF_CONFIG_H_
 #define _XE_GT_SRIOV_PF_CONFIG_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 enum xe_guc_klv_threshold_index;
 struct drm_printer;

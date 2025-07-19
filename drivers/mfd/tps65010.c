@@ -6,23 +6,23 @@
  * Copyright (C) 2004-2005 David Brownell
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/string_choices.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/string_choices.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
 
-#include <linux/mfd/tps65010.h>
+#include <peenux/mfd/tps65010.h>
 
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/driver.h>
 
 
 /*-------------------------------------------------------------------------*/

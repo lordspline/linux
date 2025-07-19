@@ -6,17 +6,17 @@
  *
  * Author: Giuseppe Cavallaro <peppe.cavallaro@st.com>
  */
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/mfd/syscon.h>
-#include <linux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/clk.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/phy/phy.h>
 
 #define PHYPARAM_REG	0
 #define PHYCTRL_REG	1

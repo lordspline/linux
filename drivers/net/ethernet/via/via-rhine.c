@@ -1,4 +1,4 @@
-/* via-rhine.c: A Linux Ethernet device driver for VIA Rhine family chips. */
+/* via-rhine.c: A Peenux Ethernet device driver for VIA Rhine family chips. */
 /*
 	Written 1998-2001 by Donald Becker.
 
@@ -33,7 +33,7 @@
 
 #define DRV_NAME	"via-rhine"
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* A few user-configurable values.
    These may be modified when a driver module is loaded. */
@@ -85,35 +85,35 @@ static const int multicast_filter_limit = 32;
 
 #define PKT_BUF_SZ	1536	/* Size of each temporary Rx buffer.*/
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/crc32.h>
-#include <linux/if_vlan.h>
-#include <linux/bitops.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/crc32.h>
+#include <peenux/if_vlan.h>
+#include <peenux/bitops.h>
+#include <peenux/workqueue.h>
 #include <asm/processor.h>	/* Processor type for cache alignment. */
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
-#include <linux/dmi.h>
+#include <peenux/uaccess.h>
+#include <peenux/dmi.h>
 
 MODULE_AUTHOR("Donald Becker <becker@scyld.com>");
 MODULE_DESCRIPTION("VIA Rhine PCI Fast Ethernet driver");

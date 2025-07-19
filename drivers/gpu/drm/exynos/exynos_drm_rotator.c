@@ -6,16 +6,16 @@
  *	Eunchul Kim <chulspro.kim@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/sizes.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sizes.h>
 
 #include <drm/drm_fourcc.h>
 #include <drm/exynos_drm.h>

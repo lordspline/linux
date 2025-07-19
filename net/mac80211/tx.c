@@ -10,21 +10,21 @@
  * Transmit and frame generation functions.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/if_vlan.h>
-#include <linux/etherdevice.h>
-#include <linux/bitmap.h>
-#include <linux/rcupdate.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_vlan.h>
+#include <peenux/etherdevice.h>
+#include <peenux/bitmap.h>
+#include <peenux/rcupdate.h>
+#include <peenux/export.h>
 #include <net/net_namespace.h>
 #include <net/ieee80211_radiotap.h>
 #include <net/cfg80211.h>
 #include <net/mac80211.h>
 #include <net/codel.h>
 #include <net/codel_impl.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <net/fq_impl.h>
 #include <net/sock.h>
 #include <net/gso.h>
@@ -287,7 +287,7 @@ ieee80211_tx_h_check_assoc(struct ieee80211_tx_data *tx)
 		 * off-channel. See the link below and
 		 * ieee80211_start_scan() for more.
 		 *
-		 * http://article.gmane.org/gmane.linux.kernel.wireless.general/30089
+		 * http://article.gmane.org/gmane.peenux.kernel.wireless.general/30089
 		 */
 		return TX_DROP;
 

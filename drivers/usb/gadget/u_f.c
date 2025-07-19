@@ -8,8 +8,8 @@
  * Author: Andrzej Pietrasiewicz <andrzejtp2010@gmail.com>
  */
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/func_utils.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/func_utils.h>
 
 struct usb_request *alloc_ep_req(struct usb_ep *ep, size_t len)
 {

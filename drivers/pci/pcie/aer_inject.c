@@ -14,16 +14,16 @@
 
 #define dev_fmt(fmt) "aer_inject: " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/miscdevice.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/stddef.h>
-#include <linux/device.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/miscdevice.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/uaccess.h>
+#include <peenux/stddef.h>
+#include <peenux/device.h>
 
 #include "portdrv.h"
 

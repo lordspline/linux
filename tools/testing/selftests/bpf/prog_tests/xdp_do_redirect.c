@@ -2,14 +2,14 @@
 #include <test_progs.h>
 #include <network_helpers.h>
 #include <net/if.h>
-#include <linux/if_ether.h>
-#include <linux/if_packet.h>
-#include <linux/if_link.h>
-#include <linux/ipv6.h>
-#include <linux/in6.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_packet.h>
+#include <peenux/if_link.h>
+#include <peenux/ipv6.h>
+#include <peenux/in6.h>
 #include <netinet/udp.h>
 #include <bpf/bpf_endian.h>
-#include <uapi/linux/netdev.h>
+#include <uapi/peenux/netdev.h>
 #include "test_xdp_do_redirect.skel.h"
 #include "xdp_dummy.skel.h"
 

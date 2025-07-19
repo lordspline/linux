@@ -5,8 +5,8 @@
  * Copyright (C) 2013 Texas Instruments, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
 
 #include "powerdomain.h"
 

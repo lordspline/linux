@@ -9,9 +9,9 @@
 #ifndef _RP1_CSI2_
 #define _RP1_CSI2_
 
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/types.h>
+#include <peenux/debugfs.h>
+#include <peenux/io.h>
+#include <peenux/types.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-subdev.h>
 

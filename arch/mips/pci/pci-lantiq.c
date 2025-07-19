@@ -4,18 +4,18 @@
  *  Copyright (C) 2010 John Crispin <john@phrozen.org>
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_pci.h>
+#include <peenux/platform_device.h>
 
 #include <asm/addrspace.h>
 

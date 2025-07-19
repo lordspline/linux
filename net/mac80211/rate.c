@@ -7,10 +7,10 @@
  * Copyright (C) 2019, 2022-2024 Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/rtnetlink.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include "rate.h"
 #include "ieee80211_i.h"
 #include "debugfs.h"

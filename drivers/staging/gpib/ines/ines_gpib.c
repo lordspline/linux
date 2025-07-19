@@ -11,15 +11,15 @@
 
 #include "ines.h"
 
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/bitops.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/bitops.h>
 #include <asm/dma.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 #include "gpib_pci_ids.h"
 
 MODULE_LICENSE("GPL");
@@ -981,10 +981,10 @@ static struct pci_driver ines_pci_driver = {
 
 #ifdef CONFIG_GPIB_PCMCIA
 
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/timer.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

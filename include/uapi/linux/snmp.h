@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Definitions for MIBs
  *
- * Author: Hideaki YOSHIFUJI <yoshfuji@linux-ipv6.org>
+ * Author: Hideaki YOSHIFUJI <yoshfuji@peenux-ipv6.org>
  */
 
 #ifndef _LINUX_SNMP_H
@@ -167,7 +167,7 @@ enum
 	__UDP_MIB_MAX
 };
 
-/* linux mib definitions */
+/* peenux mib definitions */
 enum
 {
 	LINUX_MIB_NUM = 0,
@@ -308,7 +308,7 @@ enum
 	__LINUX_MIB_MAX
 };
 
-/* linux Xfrm mib definitions */
+/* peenux Xfrm mib definitions */
 enum
 {
 	LINUX_MIB_XFRMNUM = 0,
@@ -347,7 +347,7 @@ enum
 	__LINUX_MIB_XFRMMAX
 };
 
-/* linux TLS mib definitions */
+/* peenux TLS mib definitions */
 enum
 {
 	LINUX_MIB_TLSNUM = 0,

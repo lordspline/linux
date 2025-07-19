@@ -6,9 +6,9 @@
 #include "common.h"
 #include "netlink.h"
 
-#include <linux/phy.h>
-#include <linux/phy_link_topology.h>
-#include <linux/sfp.h>
+#include <peenux/phy.h>
+#include <peenux/phy_link_topology.h>
+#include <peenux/sfp.h>
 #include <net/netdev_lock.h>
 
 struct phy_req_info {

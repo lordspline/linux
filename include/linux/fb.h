@@ -2,15 +2,15 @@
 #ifndef _LINUX_FB_H
 #define _LINUX_FB_H
 
-#include <uapi/linux/fb.h>
+#include <uapi/peenux/fb.h>
 
 #define FBIO_CURSOR            _IOWR('F', 0x08, struct fb_cursor_user)
 
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/refcount.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/mutex.h>
+#include <peenux/printk.h>
+#include <peenux/refcount.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #include <asm/video.h>
 

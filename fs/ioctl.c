@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/ioctl.c
+ *  peenux/fs/ioctl.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/syscalls.h>
-#include <linux/mm.h>
-#include <linux/capability.h>
-#include <linux/compat.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/security.h>
-#include <linux/export.h>
-#include <linux/uaccess.h>
-#include <linux/writeback.h>
-#include <linux/buffer_head.h>
-#include <linux/falloc.h>
-#include <linux/sched/signal.h>
-#include <linux/fiemap.h>
-#include <linux/mount.h>
-#include <linux/fscrypt.h>
-#include <linux/fileattr.h>
+#include <peenux/syscalls.h>
+#include <peenux/mm.h>
+#include <peenux/capability.h>
+#include <peenux/compat.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/security.h>
+#include <peenux/export.h>
+#include <peenux/uaccess.h>
+#include <peenux/writeback.h>
+#include <peenux/buffer_head.h>
+#include <peenux/falloc.h>
+#include <peenux/sched/signal.h>
+#include <peenux/fiemap.h>
+#include <peenux/mount.h>
+#include <peenux/fscrypt.h>
+#include <peenux/fileattr.h>
 
 #include "internal.h"
 

@@ -2,8 +2,8 @@
 #ifndef _ASM_GENERIC_HUGETLB_H
 #define _ASM_GENERIC_HUGETLB_H
 
-#include <linux/swap.h>
-#include <linux/swapops.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
 
 static inline unsigned long huge_pte_write(pte_t pte)
 {

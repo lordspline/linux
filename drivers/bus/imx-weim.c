@@ -7,17 +7,17 @@
  * License version 2. This program is licensed "as is" without any
  * warranty of any kind, whether express or implied.
  */
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <peenux/regmap.h>
 
 struct imx_weim_devtype {
 	unsigned int	cs_count;

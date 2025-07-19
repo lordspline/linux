@@ -9,15 +9,15 @@
 #ifndef _SELINUX_SECURITY_H_
 #define _SELINUX_SECURITY_H_
 
-#include <linux/compiler.h>
-#include <linux/dcache.h>
-#include <linux/magic.h>
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/refcount.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/printk.h>
+#include <peenux/compiler.h>
+#include <peenux/dcache.h>
+#include <peenux/magic.h>
+#include <peenux/types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/refcount.h>
+#include <peenux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/printk.h>
 #include "flask.h"
 #include "policycap.h"
 

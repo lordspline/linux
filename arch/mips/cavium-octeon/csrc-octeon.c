@@ -6,11 +6,11 @@
  * Copyright (C) 2007 by Ralf Baechle
  * Copyright (C) 2009, 2012 Cavium, Inc.
  */
-#include <linux/clocksource.h>
-#include <linux/sched/clock.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/smp.h>
+#include <peenux/clocksource.h>
+#include <peenux/sched/clock.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
 
 #include <asm/cpu-info.h>
 #include <asm/cpu-type.h>

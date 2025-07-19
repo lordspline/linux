@@ -7,15 +7,15 @@
  * Author: Peter Rosin <peda@axentia.se>
  */
 
-#include <linux/bitmap.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mux/driver.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitmap.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mux/driver.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
 
 struct mux_gpio {
 	struct gpio_descs *gpios;

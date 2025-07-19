@@ -9,7 +9,7 @@
  */
 
 #include <media/rc-map.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 
 /* Kworld PC150-U
    Kyle Strickland <kyle@kyle.strickland.name>

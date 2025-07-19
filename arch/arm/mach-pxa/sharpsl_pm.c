@@ -10,17 +10,17 @@
 
 #undef DEBUG
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/apm-emulation.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/leds.h>
-#include <linux/suspend.h>
-#include <linux/gpio.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/apm-emulation.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/leds.h>
+#include <peenux/suspend.h>
+#include <peenux/gpio.h>
+#include <peenux/io.h>
 
 #include <asm/mach-types.h>
 #include "pm.h"

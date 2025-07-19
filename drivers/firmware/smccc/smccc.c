@@ -5,11 +5,11 @@
 
 #define pr_fmt(fmt) "smccc: " fmt
 
-#include <linux/cache.h>
-#include <linux/init.h>
-#include <linux/arm-smccc.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
+#include <peenux/cache.h>
+#include <peenux/init.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
 #include <asm/archrandom.h>
 
 static u32 smccc_version = ARM_SMCCC_VERSION_1_0;

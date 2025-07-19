@@ -6,15 +6,15 @@
 //   Copyright (C) 2015 Texas Instruments Incorporated - http://www.ti.com
 //   Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
 
 #define LPC32XX_SSP_CLK_CTRL 0x78
 #define LPC32XX_I2S_CLK_CTRL 0x7c

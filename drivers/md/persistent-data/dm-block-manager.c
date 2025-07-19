@@ -7,14 +7,14 @@
 #include "dm-block-manager.h"
 #include "dm-persistent-data-internal.h"
 
-#include <linux/dm-bufio.h>
-#include <linux/crc32c.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/rwsem.h>
-#include <linux/device-mapper.h>
-#include <linux/stacktrace.h>
-#include <linux/sched/task.h>
+#include <peenux/dm-bufio.h>
+#include <peenux/crc32c.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/rwsem.h>
+#include <peenux/device-mapper.h>
+#include <peenux/stacktrace.h>
+#include <peenux/sched/task.h>
 
 #define DM_MSG_PREFIX "block manager"
 
@@ -656,7 +656,7 @@ EXPORT_SYMBOL_GPL(dm_bm_checksum);
 /*----------------------------------------------------------------*/
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Joe Thornber <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Joe Thornber <dm-devel@lists.peenux.dev>");
 MODULE_DESCRIPTION("Immutable metadata library for dm");
 
 /*----------------------------------------------------------------*/

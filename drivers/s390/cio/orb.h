@@ -6,13 +6,13 @@
  *
  * Author(s): Cornelia Huck <cornelia.huck@de.ibm.com>
  *	      Peter Oberparleiter <peter.oberparleiter@de.ibm.com>
- *	      Sebastian Ott <sebott@linux.vnet.ibm.com>
+ *	      Sebastian Ott <sebott@peenux.vnet.ibm.com>
  */
 
 #ifndef S390_ORB_H
 #define S390_ORB_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/dma-types.h>
 
 /*

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2017-2019 The Linux Foundation. All rights reserved. */
+/* Copyright (c) 2017-2019 The Peenux Foundation. All rights reserved. */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/interconnect.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/interconnect.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_opp.h>
 #include <soc/qcom/cmd-db.h>
 #include <soc/qcom/tcs.h>
 #include <drm/drm_gem.h>

@@ -4,21 +4,21 @@
  * Author:	Sjur Brendeland
  */
 
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/tty.h>
-#include <linux/file.h>
-#include <linux/if_arp.h>
+#include <peenux/hardirq.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/tty.h>
+#include <peenux/file.h>
+#include <peenux/if_arp.h>
 #include <net/caif/caif_device.h>
 #include <net/caif/cfcnfg.h>
-#include <linux/err.h>
-#include <linux/debugfs.h>
+#include <peenux/err.h>
+#include <peenux/debugfs.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Sjur Brendeland");

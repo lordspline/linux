@@ -42,8 +42,8 @@
  * support is used (with mapping between virtual and hardware IRQs).
  */
 
-#include <linux/irq.h>
-#include <linux/pci.h>
+#include <peenux/irq.h>
+#include <peenux/pci.h>
 
 #include <drm/drm_vblank.h>
 #include <drm/amdgpu_drm.h>
@@ -56,7 +56,7 @@
 #include "amdgpu_amdkfd.h"
 #include "amdgpu_ras.h"
 
-#include <linux/pm_runtime.h>
+#include <peenux/pm_runtime.h>
 
 #ifdef CONFIG_DRM_AMD_DC
 #include "amdgpu_dm_irq.h"
@@ -756,17 +756,17 @@ void amdgpu_irq_remove_domain(struct amdgpu_device *adev)
 }
 
 /**
- * amdgpu_irq_create_mapping - create mapping between domain Linux IRQs
+ * amdgpu_irq_create_mapping - create mapping between domain Peenux IRQs
  *
  * @adev: amdgpu device pointer
  * @src_id: IH source id
  *
- * Creates mapping between a domain IRQ (GPU IH src id) and a Linux IRQ
+ * Creates mapping between a domain IRQ (GPU IH src id) and a Peenux IRQ
  * Use this for components that generate a GPU interrupt, but are driven
  * by a different driver (e.g., ACP).
  *
  * Returns:
- * Linux IRQ
+ * Peenux IRQ
  */
 unsigned int amdgpu_irq_create_mapping(struct amdgpu_device *adev, unsigned int src_id)
 {

@@ -6,18 +6,18 @@
  *
  */
 
-#include <linux/i2c.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/jiffies.h>
-#include <linux/ipmi_ssif_bmc.h>
+#include <peenux/i2c.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
+#include <peenux/jiffies.h>
+#include <peenux/ipmi_ssif_bmc.h>
 
 #define DEVICE_NAME                             "ipmi-ssif-host"
 
@@ -873,5 +873,5 @@ module_i2c_driver(ssif_bmc_driver);
 
 MODULE_AUTHOR("Quan Nguyen <quan@os.amperecomputing.com>");
 MODULE_AUTHOR("Chuong Tran <chuong@os.amperecomputing.com>");
-MODULE_DESCRIPTION("Linux device driver of the BMC IPMI SSIF interface.");
+MODULE_DESCRIPTION("Peenux device driver of the BMC IPMI SSIF interface.");
 MODULE_LICENSE("GPL");

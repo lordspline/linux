@@ -20,9 +20,9 @@
  * they can flush it and try again.
  *
  */
-#include <linux/uaccess.h>
-#include <linux/seq_file.h>
-#include <linux/trace_seq.h>
+#include <peenux/uaccess.h>
+#include <peenux/seq_file.h>
+#include <peenux/trace_seq.h>
 
 /* How much buffer is left on the trace_seq? */
 #define TRACE_SEQ_BUF_LEFT(s) seq_buf_buffer_left(&(s)->seq)

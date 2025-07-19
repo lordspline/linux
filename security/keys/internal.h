@@ -8,17 +8,17 @@
 #ifndef _INTERNAL_H
 #define _INTERNAL_H
 
-#include <linux/sched.h>
-#include <linux/wait_bit.h>
-#include <linux/cred.h>
-#include <linux/key-type.h>
-#include <linux/task_work.h>
-#include <linux/keyctl.h>
-#include <linux/refcount.h>
-#include <linux/watch_queue.h>
-#include <linux/compat.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
+#include <peenux/sched.h>
+#include <peenux/wait_bit.h>
+#include <peenux/cred.h>
+#include <peenux/key-type.h>
+#include <peenux/task_work.h>
+#include <peenux/keyctl.h>
+#include <peenux/refcount.h>
+#include <peenux/watch_queue.h>
+#include <peenux/compat.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
 
 struct iovec;
 

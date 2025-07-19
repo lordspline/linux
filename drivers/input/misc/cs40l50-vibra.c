@@ -8,11 +8,11 @@
  * Author: James Ogletree <james.ogletree@cirrus.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/input.h>
-#include <linux/mfd/cs40l50.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/bitfield.h>
+#include <peenux/input.h>
+#include <peenux/mfd/cs40l50.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 /* Wavetables */
 #define CS40L50_RAM_INDEX_START		0x1000000

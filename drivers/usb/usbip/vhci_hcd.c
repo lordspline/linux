@@ -4,14 +4,14 @@
  * Copyright (C) 2015-2016 Nobuo Iwata
  */
 
-#include <linux/init.h>
-#include <linux/file.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <peenux/init.h>
+#include <peenux/file.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
 
 #include "usbip_common.h"
 #include "vhci.h"

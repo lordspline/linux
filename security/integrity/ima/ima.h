@@ -13,13 +13,13 @@
 #ifndef __LINUX_IMA_H
 #define __LINUX_IMA_H
 
-#include <linux/types.h>
-#include <linux/crypto.h>
-#include <linux/fs.h>
-#include <linux/security.h>
-#include <linux/hash.h>
-#include <linux/tpm.h>
-#include <linux/audit.h>
+#include <peenux/types.h>
+#include <peenux/crypto.h>
+#include <peenux/fs.h>
+#include <peenux/security.h>
+#include <peenux/hash.h>
+#include <peenux/tpm.h>
+#include <peenux/audit.h>
 #include <crypto/hash_info.h>
 
 #include "../integrity.h"

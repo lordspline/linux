@@ -8,11 +8,11 @@
  * (c) 2002 Wolfgang Scherr <scherr@net4you.at>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
 
 #include "videocodec.h"
 

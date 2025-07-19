@@ -8,29 +8,29 @@
  *
  * Based on drivers under drivers/usb/gadget/udc/
  */
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/pm.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/unaligned.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/timer.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/moduleparam.h>
+#include <peenux/device.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/otg.h>
+#include <peenux/pm.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/unaligned.h>
+#include <peenux/platform_device.h>
 
 #include "bdc.h"
 #include "bdc_ep.h"

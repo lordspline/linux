@@ -7,17 +7,17 @@
 #include "cmsg.h"
 #include "../nfp_net.h"
 
-#include <linux/circ_buf.h>
-#include <linux/hashtable.h>
-#include <linux/rhashtable.h>
-#include <linux/time64.h>
-#include <linux/types.h>
+#include <peenux/circ_buf.h>
+#include <peenux/hashtable.h>
+#include <peenux/rhashtable.h>
+#include <peenux/time64.h>
+#include <peenux/types.h>
 #include <net/flow_offload.h>
 #include <net/pkt_cls.h>
 #include <net/pkt_sched.h>
 #include <net/tcp.h>
-#include <linux/workqueue.h>
-#include <linux/idr.h>
+#include <peenux/workqueue.h>
+#include <peenux/idr.h>
 
 struct nfp_fl_pre_lag;
 struct net_device;

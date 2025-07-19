@@ -8,20 +8,20 @@
  *	by Tomoaki Ishikawa <tomy@users.sourceforge.jp>
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/hrtimer.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/pci.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/ratelimit.h>
-#include <linux/string.h>
-#include <linux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/hrtimer.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pci.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
+#include <peenux/ratelimit.h>
+#include <peenux/string.h>
+#include <peenux/i2c.h>
 
 #include <media/dvbdev.h>
 #include <media/dvb_demux.h>

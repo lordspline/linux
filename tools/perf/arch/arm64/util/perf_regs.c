@@ -3,8 +3,8 @@
 #include <regex.h>
 #include <string.h>
 #include <sys/auxv.h>
-#include <linux/kernel.h>
-#include <linux/zalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/zalloc.h>
 
 #include "perf_regs.h"
 #include "../../../perf-sys.h"

@@ -10,13 +10,13 @@
  * Mike Rapoport <mike@compulab.co.il>
  */
 
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mfd/tps6586x.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/mfd/tps6586x.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 /* GPIO control registers */
 #define TPS6586X_GPIOSET1	0x5d

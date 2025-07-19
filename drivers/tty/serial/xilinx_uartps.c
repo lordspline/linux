@@ -9,23 +9,23 @@
  * in the code.
  */
 
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/console.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/reset.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial.h>
+#include <peenux/console.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/clk.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/reset.h>
 
 #define CDNS_UART_TTY_NAME	"ttyPS"
 #define CDNS_UART_NAME		"xuartps"

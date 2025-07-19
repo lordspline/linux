@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *	Linux NET3:	IP/IP protocol decoder.
+ *	Peenux NET3:	IP/IP protocol decoder.
  *
  *	Authors:
  *		Sam Lantinga (slouken@cs.ucdavis.edu)  02/01/95
@@ -86,21 +86,21 @@
  */
 
 
-#include <linux/capability.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/in.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/if_arp.h>
-#include <linux/init.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/if_ether.h>
+#include <peenux/capability.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/in.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/if_arp.h>
+#include <peenux/init.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/if_ether.h>
 
 #include <net/sock.h>
 #include <net/ip.h>
@@ -123,7 +123,7 @@ static struct rtnl_link_ops ipip_link_ops __read_mostly;
 
 static int ipip_err(struct sk_buff *skb, u32 info)
 {
-	/* All the routers (except for Linux) return only
+	/* All the routers (except for Peenux) return only
 	 * 8 bytes of packet payload. It means, that precise relaying of
 	 * ICMP in the real Internet is absolutely infeasible.
 	 */

@@ -2,7 +2,7 @@
 #ifndef _LINUX_NET_QUEUES_H
 #define _LINUX_NET_QUEUES_H
 
-#include <linux/netdevice.h>
+#include <peenux/netdevice.h>
 
 /**
  * struct netdev_config - queue-related configuration for a netdev

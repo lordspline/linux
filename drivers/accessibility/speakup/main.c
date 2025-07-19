@@ -9,32 +9,32 @@
  *  Copyright (C) 2003  David Borowski.
  */
 
-#include <linux/kernel.h>
-#include <linux/vt.h>
-#include <linux/tty.h>
-#include <linux/mm.h>		/* __get_free_page() and friends */
-#include <linux/vt_kern.h>
-#include <linux/ctype.h>
-#include <linux/selection.h>
-#include <linux/unistd.h>
-#include <linux/jiffies.h>
-#include <linux/kthread.h>
-#include <linux/keyboard.h>	/* for KT_SHIFT */
-#include <linux/kbd_kern.h>	/* for vc_kbd_* and friends */
-#include <linux/input.h>
-#include <linux/kmod.h>
+#include <peenux/kernel.h>
+#include <peenux/vt.h>
+#include <peenux/tty.h>
+#include <peenux/mm.h>		/* __get_free_page() and friends */
+#include <peenux/vt_kern.h>
+#include <peenux/ctype.h>
+#include <peenux/selection.h>
+#include <peenux/unistd.h>
+#include <peenux/jiffies.h>
+#include <peenux/kthread.h>
+#include <peenux/keyboard.h>	/* for KT_SHIFT */
+#include <peenux/kbd_kern.h>	/* for vc_kbd_* and friends */
+#include <peenux/input.h>
+#include <peenux/kmod.h>
 
 /* speakup_*_selection */
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/consolemap.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/consolemap.h>
 
-#include <linux/spinlock.h>
-#include <linux/notifier.h>
+#include <peenux/spinlock.h>
+#include <peenux/notifier.h>
 
-#include <linux/uaccess.h>	/* copy_from|to|user() and others */
+#include <peenux/uaccess.h>	/* copy_from|to|user() and others */
 
 #include "spk_priv.h"
 #include "speakup.h"

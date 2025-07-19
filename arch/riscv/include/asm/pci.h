@@ -6,9 +6,9 @@
 #ifndef _ASM_RISCV_PCI_H
 #define _ASM_RISCV_PCI_H
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/dma-mapping.h>
 
 #include <asm/io.h>
 

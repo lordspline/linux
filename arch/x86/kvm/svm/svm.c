@@ -1,6 +1,6 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kvm_host.h>
+#include <peenux/kvm_host.h>
 
 #include "irq.h"
 #include "mmu.h"
@@ -10,26 +10,26 @@
 #include "cpuid.h"
 #include "pmu.h"
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/kernel.h>
-#include <linux/vmalloc.h>
-#include <linux/highmem.h>
-#include <linux/amd-iommu.h>
-#include <linux/sched.h>
-#include <linux/trace_events.h>
-#include <linux/slab.h>
-#include <linux/hashtable.h>
-#include <linux/objtool.h>
-#include <linux/psp-sev.h>
-#include <linux/file.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/rwsem.h>
-#include <linux/cc_platform.h>
-#include <linux/smp.h>
-#include <linux/string_choices.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/kernel.h>
+#include <peenux/vmalloc.h>
+#include <peenux/highmem.h>
+#include <peenux/amd-iommu.h>
+#include <peenux/sched.h>
+#include <peenux/trace_events.h>
+#include <peenux/slab.h>
+#include <peenux/hashtable.h>
+#include <peenux/objtool.h>
+#include <peenux/psp-sev.h>
+#include <peenux/file.h>
+#include <peenux/pagemap.h>
+#include <peenux/swap.h>
+#include <peenux/rwsem.h>
+#include <peenux/cc_platform.h>
+#include <peenux/smp.h>
+#include <peenux/string_choices.h>
+#include <peenux/mutex.h>
 
 #include <asm/apic.h>
 #include <asm/msr.h>
@@ -674,7 +674,7 @@ static int svm_enable_virtualization_cpu(void)
 	/*
 	 * If TSC_AUX virtualization is supported, TSC_AUX becomes a swap type
 	 * "B" field (see sev_es_prepare_switch_to_guest()) for SEV-ES guests.
-	 * Since Linux does not change the value of TSC_AUX once set, prime the
+	 * Since Peenux does not change the value of TSC_AUX once set, prime the
 	 * TSC_AUX field now to avoid a RDMSR on every vCPU run.
 	 */
 	if (boot_cpu_has(X86_FEATURE_V_TSC_AUX)) {

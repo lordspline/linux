@@ -6,10 +6,10 @@
  *
  * Implementation of the LZ77 "plain" compression algorithm, as per MS-XCA spec.
  */
-#include <linux/slab.h>
-#include <linux/sizes.h>
-#include <linux/count_zeros.h>
-#include <linux/unaligned.h>
+#include <peenux/slab.h>
+#include <peenux/sizes.h>
+#include <peenux/count_zeros.h>
+#include <peenux/unaligned.h>
 
 #include "lz77.h"
 

@@ -7,17 +7,17 @@
  */
 
 /*
- * Atari, Amstrad, Commodore, Amiga, Sega, etc. joystick driver for Linux
+ * Atari, Amstrad, Commodore, Amiga, Sega, etc. joystick driver for Peenux
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/parport.h>
-#include <linux/input.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/parport.h>
+#include <peenux/input.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("Atari, Amstrad, Commodore, Amiga, Sega, etc. joystick driver");

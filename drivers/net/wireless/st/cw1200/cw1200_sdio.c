@@ -6,20 +6,20 @@
  * Author: Dmitry Tarnyagin <dmitry.tarnyagin@lockless.no>
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/sdio_ids.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/sdio_func.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/sdio_ids.h>
 #include <net/mac80211.h>
 
 #include "cw1200.h"
 #include "hwbus.h"
-#include <linux/platform_data/net-cw1200.h>
+#include <peenux/platform_data/net-cw1200.h>
 #include "hwio.h"
 
 MODULE_AUTHOR("Dmitry Tarnyagin <dmitry.tarnyagin@lockless.no>");

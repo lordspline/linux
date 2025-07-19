@@ -2,8 +2,8 @@
 #ifndef _BCACHEFS_ALLOC_TYPES_H
 #define _BCACHEFS_ALLOC_TYPES_H
 
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
 
 #include "clock_types.h"
 #include "fifo.h"

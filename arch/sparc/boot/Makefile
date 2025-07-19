@@ -2,7 +2,7 @@
 # Makefile for the Sparc boot stuff.
 #
 # Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
-# Copyright (C) 1997,1998 Jakub Jelinek (jj@ultra.linux.cz)
+# Copyright (C) 1997,1998 Jakub Jelinek (jj@ultra.peenux.cz)
 
 ROOT_IMG	:= /usr/src/root.img
 ELFTOAOUT	:= elftoaout

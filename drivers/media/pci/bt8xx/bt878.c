@@ -10,18 +10,18 @@
  * (c) 1999,2000 Gerd Knorr <kraxel@goldbach.in-berlin.de>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pgtable.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/pgtable.h>
 #include <asm/io.h>
-#include <linux/ioport.h>
+#include <peenux/ioport.h>
 #include <asm/page.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/kmod.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/kmod.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

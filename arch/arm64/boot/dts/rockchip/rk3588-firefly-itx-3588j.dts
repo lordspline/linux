@@ -38,7 +38,7 @@
 
 		button-recovery {
 			label = "Recovery";
-			linux,code = <KEY_VENDOR>;
+			peenux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <2000>;
 		};
 	};
@@ -132,7 +132,7 @@
 
 		user_led: led-1 {
 			gpios = <&pca9555 3 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "disk-activity";
+			peenux,default-trigger = "disk-activity";
 		};
 	};
 

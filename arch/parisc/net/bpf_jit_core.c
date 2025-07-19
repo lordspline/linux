@@ -6,8 +6,8 @@
  *
  */
 
-#include <linux/bpf.h>
-#include <linux/filter.h>
+#include <peenux/bpf.h>
+#include <peenux/filter.h>
 #include "bpf_jit.h"
 
 /* Number of iterations to try until offsets converge. */

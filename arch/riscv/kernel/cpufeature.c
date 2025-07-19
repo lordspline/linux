@@ -6,15 +6,15 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/cpu.h>
-#include <linux/cpuhotplug.h>
-#include <linux/ctype.h>
-#include <linux/log2.h>
-#include <linux/memory.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/acpi.h>
+#include <peenux/bitmap.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/ctype.h>
+#include <peenux/log2.h>
+#include <peenux/memory.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 #include <asm/acpi.h>
 #include <asm/alternative.h>
 #include <asm/bugs.h>

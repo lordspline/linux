@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2023 Dmitry Baryshkov <dmitry.baryshkov@linaro.org>
  */
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
-#include <linux/of_graph.h>
+#include <peenux/i2c.h>
+#include <peenux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/of_graph.h>
 #include <drm/bridge/aux-bridge.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/usb/typec_retimer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_mux.h>
+#include <peenux/usb/typec_retimer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
 
 #define NB7_CHNA		0
 #define NB7_CHNB		1

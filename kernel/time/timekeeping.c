@@ -3,27 +3,27 @@
  *  Kernel timekeeping code and accessor functions. Based on code from
  *  timer.c, moved in commit 8524070b7982.
  */
-#include <linux/timekeeper_internal.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/nmi.h>
-#include <linux/sched.h>
-#include <linux/sched/loadavg.h>
-#include <linux/sched/clock.h>
-#include <linux/syscore_ops.h>
-#include <linux/clocksource.h>
-#include <linux/jiffies.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/tick.h>
-#include <linux/stop_machine.h>
-#include <linux/pvclock_gtod.h>
-#include <linux/compiler.h>
-#include <linux/audit.h>
-#include <linux/random.h>
+#include <peenux/timekeeper_internal.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/percpu.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/nmi.h>
+#include <peenux/sched.h>
+#include <peenux/sched/loadavg.h>
+#include <peenux/sched/clock.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/clocksource.h>
+#include <peenux/jiffies.h>
+#include <peenux/time.h>
+#include <peenux/timex.h>
+#include <peenux/tick.h>
+#include <peenux/stop_machine.h>
+#include <peenux/pvclock_gtod.h>
+#include <peenux/compiler.h>
+#include <peenux/audit.h>
+#include <peenux/random.h>
 
 #include "tick-internal.h"
 #include "ntp_internal.h"

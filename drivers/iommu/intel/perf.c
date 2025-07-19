@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2021 Intel Corporation
  *
- * Author: Lu Baolu <baolu.lu@linux.intel.com>
+ * Author: Lu Baolu <baolu.lu@peenux.intel.com>
  *         Fenghua Yu <fenghua.yu@intel.com>
  */
 
-#include <linux/spinlock.h>
+#include <peenux/spinlock.h>
 
 #include "iommu.h"
 #include "perf.h"

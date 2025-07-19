@@ -9,17 +9,17 @@
  * Mylène Josserand <mylene.josserand@free-electrons.com>
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/input.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/log2.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/input.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/log2.h>
 
 #include <sound/jack.h>
 #include <sound/pcm_params.h>

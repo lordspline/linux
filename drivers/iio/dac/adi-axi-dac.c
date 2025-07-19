@@ -5,29 +5,29 @@
  *
  * Copyright 2016-2024 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/limits.h>
-#include <linux/kstrtox.h>
-#include <linux/math.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/limits.h>
+#include <peenux/kstrtox.h>
+#include <peenux/math.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/units.h>
 
-#include <linux/fpga/adi-axi-common.h>
-#include <linux/iio/backend.h>
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
+#include <peenux/fpga/adi-axi-common.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/buffer-dmaengine.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
 
 #include "ad3552r-hs.h"
 

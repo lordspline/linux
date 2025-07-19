@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2023 Meta Platforms, Inc. and affiliates. */
 
-#include <linux/types.h>
-#include <linux/bpf.h>
-#include <linux/pkt_cls.h>
+#include <peenux/types.h>
+#include <peenux/bpf.h>
+#include <peenux/pkt_cls.h>
 #include <bpf/bpf_helpers.h>
 
 struct bpf_fib_lookup fib_params = {};

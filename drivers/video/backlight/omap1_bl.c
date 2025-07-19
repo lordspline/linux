@@ -5,16 +5,16 @@
  * Copyright (c) 2006 Andrzej Zaborowski  <balrog@zabor.org>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/backlight.h>
-#include <linux/slab.h>
-#include <linux/platform_data/omap1_bl.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/backlight.h>
+#include <peenux/slab.h>
+#include <peenux/platform_data/omap1_bl.h>
 
-#include <linux/soc/ti/omap1-io.h>
-#include <linux/soc/ti/omap1-mux.h>
+#include <peenux/soc/ti/omap1-io.h>
+#include <peenux/soc/ti/omap1-mux.h>
 
 #define OMAPBL_MAX_INTENSITY		0xff
 

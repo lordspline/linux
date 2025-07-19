@@ -8,13 +8,13 @@
  * Description:
  * QE UCC Fast API Set - UCC Fast specific routines implementations.
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/interrupt.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
 
 #include <asm/io.h>
 #include <soc/fsl/qe/immap_qe.h>

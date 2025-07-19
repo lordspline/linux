@@ -5,17 +5,17 @@
  *        Neil Zhang <zhangwm@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/of.h>
-#include <linux/platform_data/mv_usb.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/of.h>
+#include <peenux/platform_data/mv_usb.h>
+#include <peenux/io.h>
 
-#include <linux/usb/hcd.h>
+#include <peenux/usb/hcd.h>
 
 #include "ehci.h"
 

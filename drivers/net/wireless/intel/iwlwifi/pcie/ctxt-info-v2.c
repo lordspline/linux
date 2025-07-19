@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2018-2025 Intel Corporation
  */
-#include <linux/dmi.h>
+#include <peenux/dmi.h>
 #include "iwl-trans.h"
 #include "iwl-fh.h"
 #include "iwl-context-info-v2.h"

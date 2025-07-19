@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright (C) 2014-2018 Broadcom */
 
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/sched/signal.h>
-#include <linux/uaccess.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/sched/signal.h>
+#include <peenux/uaccess.h>
 
 #include <drm/drm_managed.h>
 

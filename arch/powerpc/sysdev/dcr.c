@@ -6,9 +6,9 @@
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/of_address.h>
 #include <asm/dcr.h>
 
 unsigned int dcr_resource_start(const struct device_node *np,

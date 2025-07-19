@@ -7,7 +7,7 @@
 #ifndef __LINUX_LSM_COUNT_H
 #define __LINUX_LSM_COUNT_H
 
-#include <linux/args.h>
+#include <peenux/args.h>
 
 #ifdef CONFIG_SECURITY
 

@@ -4,7 +4,7 @@
 #ifndef __LIBETH_TX_H
 #define __LIBETH_TX_H
 
-#include <linux/skbuff.h>
+#include <peenux/skbuff.h>
 
 #include <net/libeth/types.h>
 

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/netdevice.h>
-#include <linux/mctp.h>
-#include <linux/if_arp.h>
+#include <peenux/netdevice.h>
+#include <peenux/mctp.h>
+#include <peenux/if_arp.h>
 
 #include <net/mctp.h>
 #include <net/mctpdevice.h>

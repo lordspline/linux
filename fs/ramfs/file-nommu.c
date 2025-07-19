@@ -5,21 +5,21 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/highmem.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/backing-dev.h>
-#include <linux/ramfs.h>
-#include <linux/pagevec.h>
-#include <linux/mman.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/highmem.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/backing-dev.h>
+#include <peenux/ramfs.h>
+#include <peenux/pagevec.h>
+#include <peenux/mman.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include "internal.h"
 
 static int ramfs_nommu_setattr(struct mnt_idmap *, struct dentry *, struct iattr *);

@@ -6,9 +6,9 @@
 #ifndef _XE_RANGE_FENCE_H_
 #define _XE_RANGE_FENCE_H_
 
-#include <linux/dma-fence.h>
-#include <linux/rbtree.h>
-#include <linux/types.h>
+#include <peenux/dma-fence.h>
+#include <peenux/rbtree.h>
+#include <peenux/types.h>
 
 struct xe_range_fence_tree;
 struct xe_range_fence;

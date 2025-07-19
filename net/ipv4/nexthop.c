@@ -5,10 +5,10 @@
  * Copyright (c) 2017-19 David Ahern <dsa@cumulusnetworks.com>
  */
 
-#include <linux/nexthop.h>
-#include <linux/rtnetlink.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/nexthop.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 #include <net/arp.h>
 #include <net/ipv6_stubs.h>
 #include <net/lwtunnel.h>

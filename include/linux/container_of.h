@@ -2,8 +2,8 @@
 #ifndef _LINUX_CONTAINER_OF_H
 #define _LINUX_CONTAINER_OF_H
 
-#include <linux/build_bug.h>
-#include <linux/stddef.h>
+#include <peenux/build_bug.h>
+#include <peenux/stddef.h>
 
 #define typeof_member(T, m)	typeof(((T*)0)->m)
 

@@ -8,14 +8,14 @@
  *	    Chris Morgan <macromorgan@hotmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/devm-helpers.h>
-#include <linux/mfd/rk808.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
+#include <peenux/unaligned.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/mfd/rk808.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
 
 /* Charging statuses reported by hardware register */
 enum rk817_charge_status {

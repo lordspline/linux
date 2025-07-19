@@ -4,14 +4,14 @@
  *
  * (C) Copyright 1995 1996 Linus Torvalds
  * (C) Copyright 2001-2019 Helge Deller <deller@gmx.de>
- * (C) Copyright 2005 Kyle McMartin <kyle@parisc-linux.org>
+ * (C) Copyright 2005 Kyle McMartin <kyle@parisc-peenux.org>
  */
 
-#include <linux/vmalloc.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
 
 void __iomem *ioremap_prot(phys_addr_t phys_addr, size_t size,
 			   pgprot_t prot)

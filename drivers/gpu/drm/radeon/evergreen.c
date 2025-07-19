@@ -22,9 +22,9 @@
  * Authors: Alex Deucher
  */
 
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/firmware.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_edid.h>
 #include <drm/drm_vblank.h>

@@ -5,19 +5,19 @@
  * Copyright (c) 2023, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/dev_printk.h>
-#include <linux/gpio/driver.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/usb/ljca.h>
+#include <peenux/acpi.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/dev_printk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/kref.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/usb/ljca.h>
 
 /* GPIO commands */
 #define LJCA_GPIO_CONFIG		1

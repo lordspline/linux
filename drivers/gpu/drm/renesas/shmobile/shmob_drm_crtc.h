@@ -14,7 +14,7 @@
 #include <drm/drm_connector.h>
 #include <drm/drm_encoder.h>
 
-#include <linux/wait.h>
+#include <peenux/wait.h>
 
 #include <video/videomode.h>
 

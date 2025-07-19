@@ -4,17 +4,17 @@
  * Copyright (C) 2014 Intel Corporation
  */
 
-#include <linux/asn1_encoder.h>
-#include <linux/oid_registry.h>
-#include <linux/string.h>
-#include <linux/err.h>
-#include <linux/tpm.h>
-#include <linux/tpm_command.h>
+#include <peenux/asn1_encoder.h>
+#include <peenux/oid_registry.h>
+#include <peenux/string.h>
+#include <peenux/err.h>
+#include <peenux/tpm.h>
+#include <peenux/tpm_command.h>
 
 #include <keys/trusted-type.h>
 #include <keys/trusted_tpm.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "tpm2key.asn1.h"
 

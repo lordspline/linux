@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -74,30 +74,30 @@
 
 #define pr_fmt(fmt) "UDP: " fmt
 
-#include <linux/bpf-cgroup.h>
-#include <linux/uaccess.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/uaccess.h>
 #include <asm/ioctls.h>
-#include <linux/memblock.h>
-#include <linux/highmem.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/module.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/igmp.h>
-#include <linux/inetdevice.h>
-#include <linux/in.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/mm.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
-#include <linux/sock_diag.h>
+#include <peenux/memblock.h>
+#include <peenux/highmem.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/module.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/igmp.h>
+#include <peenux/inetdevice.h>
+#include <peenux/in.h>
+#include <peenux/errno.h>
+#include <peenux/timer.h>
+#include <peenux/mm.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/sock_diag.h>
 #include <net/tcp_states.h>
-#include <linux/skbuff.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/skbuff.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include <net/net_namespace.h>
 #include <net/icmp.h>
 #include <net/inet_hashtables.h>
@@ -108,8 +108,8 @@
 #include <net/gso.h>
 #include <net/xfrm.h>
 #include <trace/events/udp.h>
-#include <linux/static_key.h>
-#include <linux/btf_ids.h>
+#include <peenux/static_key.h>
+#include <peenux/btf_ids.h>
 #include <trace/events/skb.h>
 #include <net/busy_poll.h>
 #include "udp_impl.h"

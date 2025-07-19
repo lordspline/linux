@@ -21,8 +21,8 @@
  */
 #include <stdlib.h>
 #include <pthread.h>
-#include <linux/sizes.h>
-#include <linux/bitmap.h>
+#include <peenux/sizes.h>
+#include <peenux/bitmap.h>
 #include <sys/sysinfo.h>
 
 #include "timer_test.h"

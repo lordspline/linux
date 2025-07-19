@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/random.h>
-#include <linux/string.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/mtd/nand-ecc-sw-hamming.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/random.h>
+#include <peenux/string.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/nand-ecc-sw-hamming.h>
 
 #include "mtd_test.h"
 

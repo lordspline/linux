@@ -6,10 +6,10 @@
  *	(C) 2017 Frank Mori Hess
  ***************************************************************************/
 
-#include <linux/dmaengine.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/io.h>
+#include <peenux/dmaengine.h>
+#include <peenux/ioport.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
 #include "nec7210.h"
 
 static const int fifo_reg_offset = 2;

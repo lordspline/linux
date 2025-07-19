@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/sound/pxa2xx-ac97.c -- AC97 support for the Intel PXA2xx chip.
+ * peenux/sound/pxa2xx-ac97.c -- AC97 support for the Intel PXA2xx chip.
  *
  * Author:	Nicolas Pitre
  * Created:	Dec 02, 2004
  * Copyright:	MontaVista Software Inc.
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
-#include <linux/dma/pxa-dma.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma/pxa-dma.h>
 
 #include <sound/ac97/controller.h>
 #include <sound/core.h>
@@ -21,7 +21,7 @@
 #include <sound/pxa2xx-lib.h>
 #include <sound/dmaengine_pcm.h>
 
-#include <linux/platform_data/asoc-pxa.h>
+#include <peenux/platform_data/asoc-pxa.h>
 
 #define PCDR	0x0040  /* PCM FIFO Data Register */
 #define MODR	0x0140  /* Modem FIFO Data Register */

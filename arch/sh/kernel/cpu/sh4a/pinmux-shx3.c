@@ -4,10 +4,10 @@
  *
  * Copyright (C) 2010  Paul Mundt
  */
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
+#include <peenux/bug.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/ioport.h>
 #include <cpu/pfc.h>
 
 static struct resource shx3_pfc_resources[] = {

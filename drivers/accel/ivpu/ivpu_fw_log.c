@@ -3,11 +3,11 @@
  * Copyright (C) 2020-2024 Intel Corporation
  */
 
-#include <linux/ctype.h>
-#include <linux/highmem.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/moduleparam.h>
+#include <peenux/ctype.h>
+#include <peenux/highmem.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/moduleparam.h>
 
 #include "vpu_boot_api.h"
 #include "ivpu_drv.h"

@@ -3,20 +3,20 @@
  * Copyright 2020-2021 NXP
  */
 
-#include <linux/bitfield.h>
-#include <linux/init.h>
-#include <linux/interconnect.h>
-#include <linux/ioctl.h>
-#include <linux/list.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/rational.h>
-#include <linux/time64.h>
+#include <peenux/bitfield.h>
+#include <peenux/init.h>
+#include <peenux/interconnect.h>
+#include <peenux/ioctl.h>
+#include <peenux/list.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/rational.h>
+#include <peenux/time64.h>
 #include <media/videobuf2-v4l2.h>
 #include <media/videobuf2-dma-contig.h>
-#include <linux/videodev2.h>
+#include <peenux/videodev2.h>
 #include "vpu.h"
 #include "vpu_rpc.h"
 #include "vpu_defs.h"

@@ -8,8 +8,8 @@
 #ifndef __LINUX_MFD_TPS6594_H
 #define __LINUX_MFD_TPS6594_H
 
-#include <linux/device.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/regmap.h>
 
 struct regmap_irq_chip_data;
 

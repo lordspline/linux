@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _ISOFS_FS_H
 #define _ISOFS_FS_H
 
-#include <linux/types.h>
-#include <linux/magic.h>
+#include <peenux/types.h>
+#include <peenux/magic.h>
 
 /*
  * The isofs filesystem constants/structures

@@ -5,12 +5,12 @@
  * Author: SeongJae Park <sj@kernel.org>
  */
 
-#include <linux/mmu_notifier.h>
-#include <linux/page_idle.h>
-#include <linux/pagemap.h>
-#include <linux/rmap.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/page_idle.h>
+#include <peenux/pagemap.h>
+#include <peenux/rmap.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
 
 #include "ops-common.h"
 

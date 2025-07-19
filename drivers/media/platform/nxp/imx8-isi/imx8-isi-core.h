@@ -10,11 +10,11 @@
 #ifndef __MXC_ISI_CORE_H__
 #define __MXC_ISI_CORE_H__
 
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/videodev2.h>
 
 #include <media/media-device.h>
 #include <media/media-entity.h>

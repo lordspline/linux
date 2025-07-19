@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/init/version.c
+ *  peenux/init/version.c
  *
  *  Copyright (C) 1992  Theodore Ts'o
  *
- *  May be freely distributed as part of Linux.
+ *  May be freely distributed as part of Peenux.
  */
 
 #include <generated/compile.h>
-#include <linux/build-salt.h>
-#include <linux/elfnote-lto.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/printk.h>
-#include <linux/uts.h>
-#include <linux/utsname.h>
-#include <linux/proc_ns.h>
+#include <peenux/build-salt.h>
+#include <peenux/elfnote-lto.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/printk.h>
+#include <peenux/uts.h>
+#include <peenux/utsname.h>
+#include <peenux/proc_ns.h>
 
 static int __init early_hostname(char *arg)
 {

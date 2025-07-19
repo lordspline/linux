@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/io_uring/cmd.h>
-#include <linux/io_uring_types.h>
+#include <peenux/io_uring/cmd.h>
+#include <peenux/io_uring_types.h>
 
 struct io_async_cmd {
 	struct io_uring_cmd_data	data;

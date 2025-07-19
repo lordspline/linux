@@ -28,12 +28,12 @@
  * always in little endian.
  */
 
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #define DRVNAME			"brcmstb-dpfe"
 

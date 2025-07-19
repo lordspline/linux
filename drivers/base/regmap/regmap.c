@@ -6,18 +6,18 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/property.h>
-#include <linux/rbtree.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/log2.h>
-#include <linux/hwspinlock.h>
-#include <linux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/mutex.h>
+#include <peenux/err.h>
+#include <peenux/property.h>
+#include <peenux/rbtree.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/log2.h>
+#include <peenux/hwspinlock.h>
+#include <peenux/unaligned.h>
 
 #define CREATE_TRACE_POINTS
 #include "trace.h"

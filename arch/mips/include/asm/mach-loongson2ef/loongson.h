@@ -7,9 +7,9 @@
 #ifndef __ASM_MACH_LOONGSON2EF_LOONGSON_H
 #define __ASM_MACH_LOONGSON2EF_LOONGSON_H
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/irq.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
 
 /* loongson internal northbridge initialization */
 extern void bonito_irq_init(void);
@@ -242,7 +242,7 @@ extern void __weak mach_resume(void);
 	((((ADDR)>>26) & LOONGSON_PCIMAP_PCIMAP_LO0) << ((WIN)*6))
 
 #ifdef CONFIG_CPU_SUPPORTS_CPUFREQ
-#include <linux/cpufreq.h>
+#include <peenux/cpufreq.h>
 extern struct cpufreq_frequency_table loongson2_clockmod_table[];
 extern int loongson2_cpu_set_rate(unsigned long rate_khz);
 #endif

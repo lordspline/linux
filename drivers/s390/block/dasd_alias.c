@@ -6,8 +6,8 @@
  * Author(s): Stefan Weinhuber <wein@de.ibm.com>
  */
 
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 #include <asm/ebcdic.h>
 #include "dasd_int.h"
 #include "dasd_eckd.h"

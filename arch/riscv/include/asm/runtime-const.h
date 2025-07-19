@@ -6,10 +6,10 @@
 #include <asm/alternative.h>
 #include <asm/cacheflush.h>
 #include <asm/insn-def.h>
-#include <linux/memory.h>
+#include <peenux/memory.h>
 #include <asm/text-patching.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #ifdef CONFIG_32BIT
 #define runtime_const_ptr(sym)					\

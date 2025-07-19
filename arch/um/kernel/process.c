@@ -2,41 +2,41 @@
 /*
  * Copyright (C) 2015 Anton Ivanov (aivanov@{brocade.com,kot-begemot.co.uk})
  * Copyright (C) 2015 Thomas Meyer (thomas@m3y3r.de)
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  * Copyright 2003 PathScale, Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/err.h>
-#include <linux/hardirq.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/personality.h>
-#include <linux/proc_fs.h>
-#include <linux/ptrace.h>
-#include <linux/random.h>
-#include <linux/cpu.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/seq_file.h>
-#include <linux/tick.h>
-#include <linux/threads.h>
-#include <linux/resume_user_mode.h>
+#include <peenux/stddef.h>
+#include <peenux/err.h>
+#include <peenux/hardirq.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/personality.h>
+#include <peenux/proc_fs.h>
+#include <peenux/ptrace.h>
+#include <peenux/random.h>
+#include <peenux/cpu.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/seq_file.h>
+#include <peenux/tick.h>
+#include <peenux/threads.h>
+#include <peenux/resume_user_mode.h>
 #include <asm/current.h>
 #include <asm/mmu_context.h>
 #include <asm/switch_to.h>
 #include <asm/exec.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <as-layout.h>
 #include <kern_util.h>
 #include <os.h>
 #include <skas.h>
 #include <registers.h>
-#include <linux/time-internal.h>
-#include <linux/elfcore.h>
+#include <peenux/time-internal.h>
+#include <peenux/elfcore.h>
 
 /*
  * This is a per-cpu array.  A processor only modifies its entry and it only

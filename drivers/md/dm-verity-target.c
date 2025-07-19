@@ -17,12 +17,12 @@
 #include "dm-verity-fec.h"
 #include "dm-verity-verify-sig.h"
 #include "dm-audit.h"
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
-#include <linux/jump_label.h>
-#include <linux/security.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/scatterlist.h>
+#include <peenux/string.h>
+#include <peenux/jump_label.h>
+#include <peenux/security.h>
 
 #define DM_MSG_PREFIX			"verity"
 

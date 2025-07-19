@@ -7,18 +7,18 @@
 
 #define pr_fmt(fmt) "kcsan: " fmt
 
-#include <linux/atomic.h>
-#include <linux/bsearch.h>
-#include <linux/bug.h>
-#include <linux/debugfs.h>
-#include <linux/init.h>
-#include <linux/kallsyms.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/bsearch.h>
+#include <peenux/bug.h>
+#include <peenux/debugfs.h>
+#include <peenux/init.h>
+#include <peenux/kallsyms.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
 
 #include "kcsan.h"
 

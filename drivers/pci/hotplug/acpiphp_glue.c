@@ -27,16 +27,16 @@
 
 #define pr_fmt(fmt) "acpiphp_glue: " fmt
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/pci-acpi.h>
-#include <linux/pm_runtime.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/pci_hotplug.h>
+#include <peenux/pci-acpi.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
 
 #include "../pci.h"
 #include "acpiphp.h"

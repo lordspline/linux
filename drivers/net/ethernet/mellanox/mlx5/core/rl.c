@@ -30,8 +30,8 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/mlx5/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/mlx5/driver.h>
 #include "mlx5_core.h"
 
 bool mlx5_qos_tsar_type_supported(struct mlx5_core_dev *dev, int type, u8 hierarchy)

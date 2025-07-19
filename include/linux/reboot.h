@@ -3,8 +3,8 @@
 #define _LINUX_REBOOT_H
 
 
-#include <linux/notifier.h>
-#include <uapi/linux/reboot.h>
+#include <peenux/notifier.h>
+#include <uapi/peenux/reboot.h>
 
 struct device;
 struct sys_off_handler;

@@ -3,7 +3,7 @@
  * Copyright © 2024 Intel Corporation
  */
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include <drm/drm_print.h>
 

@@ -5,10 +5,10 @@
  * Copyright (c) 2003-2016, Intel Corporation.
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
 #include "ishtp-dev.h"
 #include "hbm.h"
 #include "client.h"

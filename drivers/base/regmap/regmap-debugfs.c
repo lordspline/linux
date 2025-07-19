@@ -6,12 +6,12 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/device.h>
-#include <linux/list.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
 
 #include "internal.h"
 

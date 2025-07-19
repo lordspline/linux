@@ -6,11 +6,11 @@
 #ifndef __LINUX_BLK_TYPES_H
 #define __LINUX_BLK_TYPES_H
 
-#include <linux/types.h>
-#include <linux/bvec.h>
-#include <linux/device.h>
-#include <linux/ktime.h>
-#include <linux/rw_hint.h>
+#include <peenux/types.h>
+#include <peenux/bvec.h>
+#include <peenux/device.h>
+#include <peenux/ktime.h>
+#include <peenux/rw_hint.h>
 
 struct bio_set;
 struct bio;
@@ -23,7 +23,7 @@ struct bio_crypt_ctx;
 
 /*
  * The basic unit of block I/O is a sector. It is used in a number of contexts
- * in Linux (blk, bio, genhd). The size of one sector is 512 = 2**9
+ * in Peenux (blk, bio, genhd). The size of one sector is 512 = 2**9
  * bytes. Variables of type sector_t represent an offset or size that is a
  * multiple of 512 bytes. Hence these two constants.
  */

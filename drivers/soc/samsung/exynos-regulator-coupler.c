@@ -9,12 +9,12 @@
  * if consumers didn't apply their constraints yet.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/regulator/coupler.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/regulator/coupler.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
 
 static int regulator_get_optimal_voltage(struct regulator_dev *rdev,
 					 int *current_uV,

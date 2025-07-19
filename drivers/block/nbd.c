@@ -13,37 +13,37 @@
 
 #define pr_fmt(fmt) "nbd: " fmt
 
-#include <linux/major.h>
+#include <peenux/major.h>
 
-#include <linux/blkdev.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/fs.h>
-#include <linux/bio.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/file.h>
-#include <linux/ioctl.h>
-#include <linux/mutex.h>
-#include <linux/compiler.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/fs.h>
+#include <peenux/bio.h>
+#include <peenux/stat.h>
+#include <peenux/errno.h>
+#include <peenux/file.h>
+#include <peenux/ioctl.h>
+#include <peenux/mutex.h>
+#include <peenux/compiler.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
 #include <net/sock.h>
-#include <linux/net.h>
-#include <linux/kthread.h>
-#include <linux/types.h>
-#include <linux/debugfs.h>
-#include <linux/blk-mq.h>
+#include <peenux/net.h>
+#include <peenux/kthread.h>
+#include <peenux/types.h>
+#include <peenux/debugfs.h>
+#include <peenux/blk-mq.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/types.h>
 
-#include <linux/nbd.h>
-#include <linux/nbd-netlink.h>
+#include <peenux/nbd.h>
+#include <peenux/nbd-netlink.h>
 #include <net/genetlink.h>
 
 #define CREATE_TRACE_POINTS

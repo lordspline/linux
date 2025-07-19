@@ -7,8 +7,8 @@
 #ifndef __NTMP_PRIVATE_H
 #define __NTMP_PRIVATE_H
 
-#include <linux/bitfield.h>
-#include <linux/fsl/ntmp.h>
+#include <peenux/bitfield.h>
+#include <peenux/fsl/ntmp.h>
 
 #define NTMP_EID_REQ_LEN	8
 #define NETC_CBDR_BD_NUM	256

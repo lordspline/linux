@@ -17,9 +17,9 @@
 #ifndef _NETLABEL_DOMAINHASH_H
 #define _NETLABEL_DOMAINHASH_H
 
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/list.h>
+#include <peenux/types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/list.h>
 
 #include "netlabel_addrlist.h"
 

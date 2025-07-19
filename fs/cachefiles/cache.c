@@ -5,9 +5,9 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/slab.h>
-#include <linux/statfs.h>
-#include <linux/namei.h>
+#include <peenux/slab.h>
+#include <peenux/statfs.h>
+#include <peenux/namei.h>
 #include <trace/events/fscache.h>
 #include "internal.h"
 

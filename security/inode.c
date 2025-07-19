@@ -10,17 +10,17 @@
  */
 
 /* #define DEBUG */
-#include <linux/sysfs.h>
-#include <linux/kobject.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/mount.h>
-#include <linux/pagemap.h>
-#include <linux/init.h>
-#include <linux/namei.h>
-#include <linux/security.h>
-#include <linux/lsm_hooks.h>
-#include <linux/magic.h>
+#include <peenux/sysfs.h>
+#include <peenux/kobject.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/mount.h>
+#include <peenux/pagemap.h>
+#include <peenux/init.h>
+#include <peenux/namei.h>
+#include <peenux/security.h>
+#include <peenux/lsm_hooks.h>
+#include <peenux/magic.h>
 
 static struct vfsmount *mount;
 static int mount_count;

@@ -2,11 +2,11 @@
 /*
  * This file contains the handling of TX in wlan driver.
  */
-#include <linux/hardirq.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/sched.h>
-#include <linux/export.h>
+#include <peenux/hardirq.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/sched.h>
+#include <peenux/export.h>
 #include <net/cfg80211.h>
 
 #include "host.h"

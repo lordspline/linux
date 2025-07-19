@@ -8,8 +8,8 @@
  * IO accessing functions which shouldn't be inlined because they're too big
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 #include <asm/io.h>
 
 /*

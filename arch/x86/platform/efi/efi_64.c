@@ -6,7 +6,7 @@
  * Copyright (C) 2005-2008 Intel Co.
  *	Fenghua Yu <fenghua.yu@intel.com>
  *	Bibo Mao <bibo.mao@intel.com>
- *	Chandramouli Narayanan <mouli@linux.intel.com>
+ *	Chandramouli Narayanan <mouli@peenux.intel.com>
  *	Huang Ying <ying.huang@intel.com>
  *
  * Code to convert EFI to E820 map has been implemented in elilo bootloader
@@ -18,23 +18,23 @@
 
 #define pr_fmt(fmt) "efi: " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/memblock.h>
-#include <linux/ioport.h>
-#include <linux/mc146818rtc.h>
-#include <linux/efi.h>
-#include <linux/export.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/ucs2_string.h>
-#include <linux/cc_platform.h>
-#include <linux/sched/task.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/memblock.h>
+#include <peenux/ioport.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/efi.h>
+#include <peenux/export.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/ucs2_string.h>
+#include <peenux/cc_platform.h>
+#include <peenux/sched/task.h>
 
 #include <asm/setup.h>
 #include <asm/page.h>

@@ -3,19 +3,19 @@
  * Zoned block device handling
  *
  * Copyright (c) 2015, Hannes Reinecke
- * Copyright (c) 2015, SUSE Linux GmbH
+ * Copyright (c) 2015, SUSE Peenux GmbH
  *
  * Copyright (c) 2016, Damien Le Moal
  * Copyright (c) 2016, Western Digital
  * Copyright (c) 2024, Western Digital Corporation or its affiliates.
  */
 
-#include <linux/kernel.h>
-#include <linux/blkdev.h>
-#include <linux/blk-mq.h>
-#include <linux/spinlock.h>
-#include <linux/refcount.h>
-#include <linux/mempool.h>
+#include <peenux/kernel.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-mq.h>
+#include <peenux/spinlock.h>
+#include <peenux/refcount.h>
+#include <peenux/mempool.h>
 
 #include "blk.h"
 #include "blk-mq-sched.h"

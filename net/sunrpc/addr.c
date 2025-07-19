@@ -18,10 +18,10 @@
  */
 
 #include <net/ipv6.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/sunrpc/msg_prot.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 
 #if IS_ENABLED(CONFIG_IPV6)
 

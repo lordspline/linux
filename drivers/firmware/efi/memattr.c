@@ -5,10 +5,10 @@
 
 #define pr_fmt(fmt)	"efi: memattr: " fmt
 
-#include <linux/efi.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
+#include <peenux/efi.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/memblock.h>
 
 #include <asm/early_ioremap.h>
 

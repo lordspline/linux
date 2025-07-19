@@ -2,9 +2,9 @@
 /*
  * KUnit tests for OF APIs
  */
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
 #include <kunit/test.h>
 

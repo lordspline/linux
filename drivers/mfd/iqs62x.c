@@ -14,24 +14,24 @@
  * Link to conversion tool: https://github.com/jlabundy/iqs62x-h2bin.git
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/iqs62x.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/iqs62x.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #define IQS62X_PROD_NUM				0x00
 

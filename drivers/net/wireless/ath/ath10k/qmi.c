@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: ISC
 /*
- * Copyright (c) 2018 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022-2023 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/debugfs.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/module.h>
-#include <linux/net.h>
-#include <linux/platform_device.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/string.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/debugfs.h>
+#include <peenux/idr.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/module.h>
+#include <peenux/net.h>
+#include <peenux/platform_device.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/soc/qcom/smem.h>
+#include <peenux/string.h>
 #include <net/sock.h>
 
 #include "debug.h"

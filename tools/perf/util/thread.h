@@ -2,8 +2,8 @@
 #ifndef __PERF_THREAD_H
 #define __PERF_THREAD_H
 
-#include <linux/refcount.h>
-#include <linux/list.h>
+#include <peenux/refcount.h>
+#include <peenux/list.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>

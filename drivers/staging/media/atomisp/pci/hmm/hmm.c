@@ -9,12 +9,12 @@
 /*
  * This file contains entry functions for memory management of ISP driver
  */
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>	/* for kmap */
-#include <linux/io.h>		/* for page_to_phys */
-#include <linux/sysfs.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/highmem.h>	/* for kmap */
+#include <peenux/io.h>		/* for page_to_phys */
+#include <peenux/sysfs.h>
 
 #include "hmm/hmm.h"
 #include "hmm/hmm_bo.h"

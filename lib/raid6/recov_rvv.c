@@ -7,7 +7,7 @@
 #include <asm/simd.h>
 #include <asm/vector.h>
 #include <crypto/internal/simd.h>
-#include <linux/raid/pq.h>
+#include <peenux/raid/pq.h>
 
 static int rvv_has_vector(void)
 {

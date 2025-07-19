@@ -18,17 +18,17 @@
  * - Supports normal polarity. Does not support changing polarity.
  * - On disable, the PWM output becomes low (inactive).
  */
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/fpga/adi-axi-common.h>
-#include <linux/io.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/fpga/adi-axi-common.h>
+#include <peenux/io.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #define AXI_PWMGEN_REG_ID		0x04
 #define AXI_PWMGEN_REG_SCRATCHPAD	0x08

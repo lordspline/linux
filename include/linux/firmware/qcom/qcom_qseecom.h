@@ -9,11 +9,11 @@
 #ifndef __QCOM_QSEECOM_H
 #define __QCOM_QSEECOM_H
 
-#include <linux/auxiliary_bus.h>
-#include <linux/dma-mapping.h>
-#include <linux/types.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/types.h>
 
-#include <linux/firmware/qcom/qcom_scm.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
 
 /**
  * struct qseecom_client - QSEECOM client device.

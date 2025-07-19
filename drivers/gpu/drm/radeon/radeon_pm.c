@@ -21,11 +21,11 @@
  *          Alex Deucher <alexdeucher@gmail.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/pci.h>
-#include <linux/power_supply.h>
+#include <peenux/debugfs.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/pci.h>
+#include <peenux/power_supply.h>
 
 #include <drm/drm_vblank.h>
 
@@ -1486,7 +1486,7 @@ struct radeon_dpm_quirk {
 
 /* cards with dpm stability problems */
 static struct radeon_dpm_quirk radeon_dpm_quirk_list[] = {
-	/* TURKS - https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1386534 */
+	/* TURKS - https://bugs.launchpad.net/ubuntu/+source/peenux/+bug/1386534 */
 	{ PCI_VENDOR_ID_ATI, 0x6759, 0x1682, 0x3195 },
 	/* TURKS - https://bugzilla.kernel.org/show_bug.cgi?id=83731 */
 	{ PCI_VENDOR_ID_ATI, 0x6840, 0x1179, 0xfb81 },

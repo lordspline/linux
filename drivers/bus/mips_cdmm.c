@@ -8,16 +8,16 @@
  * for more details.
  */
 
-#include <linux/atomic.h>
-#include <linux/err.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
+#include <peenux/atomic.h>
+#include <peenux/err.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
 #include <asm/cdmm.h>
 #include <asm/hazards.h>
 #include <asm/mipsregs.h>

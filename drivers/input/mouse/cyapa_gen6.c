@@ -10,15 +10,15 @@
  * more details.
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/mutex.h>
-#include <linux/completion.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
-#include <linux/crc-itu-t.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/mutex.h>
+#include <peenux/completion.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
+#include <peenux/crc-itu-t.h>
 #include "cyapa.h"
 
 

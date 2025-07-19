@@ -5,25 +5,25 @@
  * Copyright 2015-2017 Socionext Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/types.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/etherdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/types.h>
+#include <peenux/u64_stats_sync.h>
 
 /* General Register Group */
 #define AVE_IDR			0x000	/* ID */

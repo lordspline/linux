@@ -19,9 +19,9 @@
 
 #include "em28xx.h"
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
 
 #include <media/v4l2-common.h>
 #include <media/dvb_demux.h>
@@ -29,7 +29,7 @@
 #include <media/dmxdev.h>
 #include <media/tuner.h>
 #include "tuner-simple.h"
-#include <linux/gpio.h>
+#include <peenux/gpio.h>
 
 #include "lgdt330x.h"
 #include "lgdt3305.h"

@@ -2,12 +2,12 @@
 /*
  * Copyright (C) 2015 Altera Corporation. All rights reserved
  */
-#include <linux/slab.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 #include "clk.h"
 

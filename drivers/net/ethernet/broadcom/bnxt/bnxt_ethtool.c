@@ -8,22 +8,22 @@
  * the Free Software Foundation.
  */
 
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/stringify.h>
-#include <linux/ethtool.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/linkmode.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
-#include <linux/crc32.h>
-#include <linux/firmware.h>
-#include <linux/utsname.h>
-#include <linux/time.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/net_tstamp.h>
-#include <linux/timecounter.h>
+#include <peenux/bitops.h>
+#include <peenux/ctype.h>
+#include <peenux/stringify.h>
+#include <peenux/ethtool.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/linkmode.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/etherdevice.h>
+#include <peenux/crc32.h>
+#include <peenux/firmware.h>
+#include <peenux/utsname.h>
+#include <peenux/time.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/timecounter.h>
 #include <net/netdev_queues.h>
 #include <net/netlink.h>
 #include "bnxt_hsi.h"
@@ -2441,7 +2441,7 @@ bnxt_get_link_mode(struct bnxt_link_info *link_info)
 	if (sig_mode >= BNXT_SIG_MODE_MAX)
 		return BNXT_LINK_MODE_UNKNOWN;
 
-	/* Note ETHTOOL_LINK_MODE_10baseT_Half_BIT == 0 is a legal Linux
+	/* Note ETHTOOL_LINK_MODE_10baseT_Half_BIT == 0 is a legal Peenux
 	 * link mode, but since no such devices exist, the zeroes in the
 	 * map can be conveniently used to represent unknown link modes.
 	 */

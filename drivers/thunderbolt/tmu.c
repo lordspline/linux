@@ -3,11 +3,11 @@
  * Thunderbolt Time Management Unit (TMU) support
  *
  * Copyright (C) 2019, Intel Corporation
- * Authors: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Mika Westerberg <mika.westerberg@peenux.intel.com>
  *	    Rajmohan Mani <rajmohan.mani@intel.com>
  */
 
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 #include "tb.h"
 

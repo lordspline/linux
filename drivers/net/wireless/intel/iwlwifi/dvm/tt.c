@@ -9,9 +9,9 @@
  *****************************************************************************/
 
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <net/mac80211.h>
 #include "iwl-io.h"
 #include "iwl-modparams.h"

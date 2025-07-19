@@ -7,11 +7,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/wmi.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/wmi.h>
 #include "ideapad-laptop.h"
 
 #define LENOVO_YMC_EVENT_GUID	"06129D99-6083-4164-81AD-F092F9D773A6"

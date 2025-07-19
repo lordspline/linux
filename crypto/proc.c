@@ -8,14 +8,14 @@
  * Copyright (c) 2005 Herbert Xu <herbert@gondor.apana.org.au>
  */
 
-#include <linux/atomic.h>
-#include <linux/init.h>
-#include <linux/crypto.h>
-#include <linux/fips.h>
-#include <linux/module.h>	/* for module_name() */
-#include <linux/rwsem.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/atomic.h>
+#include <peenux/init.h>
+#include <peenux/crypto.h>
+#include <peenux/fips.h>
+#include <peenux/module.h>	/* for module_name() */
+#include <peenux/rwsem.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include "internal.h"
 
 static void *c_start(struct seq_file *m, loff_t *pos)

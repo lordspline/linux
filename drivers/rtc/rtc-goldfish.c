@@ -5,12 +5,12 @@
  * Copyright (C) 2017 Imagination Technologies Ltd.
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/goldfish.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/goldfish.h>
 #include <clocksource/timer-goldfish.h>
 
 struct goldfish_rtc {

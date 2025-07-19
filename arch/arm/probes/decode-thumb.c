@@ -5,9 +5,9 @@
  * Copyright (C) 2011 Jon Medhurst <tixy@yxit.co.uk>.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "decode.h"
 #include "decode-thumb.h"

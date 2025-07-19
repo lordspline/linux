@@ -9,23 +9,23 @@
  * Copyright (C) 2019 Jeroen Hofstee <jhofstee@victronenergy.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/errno.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/can/rx-offload.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
+#include <peenux/can/rx-offload.h>
 
 #define DRV_NAME "ti_hecc"
 #define HECC_MODULE_VERSION     "0.7"

@@ -13,15 +13,15 @@ else ifneq ($(filter -%,$(LLVM)),)
 LLVM_SUFFIX := $(LLVM)
 endif
 
-CLANG_TARGET_FLAGS_arm          := arm-linux-gnueabi
-CLANG_TARGET_FLAGS_arm64        := aarch64-linux-gnu
-CLANG_TARGET_FLAGS_hexagon      := hexagon-linux-musl
-CLANG_TARGET_FLAGS_m68k         := m68k-linux-gnu
-CLANG_TARGET_FLAGS_mips         := mipsel-linux-gnu
-CLANG_TARGET_FLAGS_powerpc      := powerpc64le-linux-gnu
-CLANG_TARGET_FLAGS_riscv        := riscv64-linux-gnu
-CLANG_TARGET_FLAGS_s390         := s390x-linux-gnu
-CLANG_TARGET_FLAGS_x86          := x86_64-linux-gnu
+CLANG_TARGET_FLAGS_arm          := arm-peenux-gnueabi
+CLANG_TARGET_FLAGS_arm64        := aarch64-peenux-gnu
+CLANG_TARGET_FLAGS_hexagon      := hexagon-peenux-musl
+CLANG_TARGET_FLAGS_m68k         := m68k-peenux-gnu
+CLANG_TARGET_FLAGS_mips         := mipsel-peenux-gnu
+CLANG_TARGET_FLAGS_powerpc      := powerpc64le-peenux-gnu
+CLANG_TARGET_FLAGS_riscv        := riscv64-peenux-gnu
+CLANG_TARGET_FLAGS_s390         := s390x-peenux-gnu
+CLANG_TARGET_FLAGS_x86          := x86_64-peenux-gnu
 CLANG_TARGET_FLAGS              := $(CLANG_TARGET_FLAGS_$(ARCH))
 
 ifeq ($(CROSS_COMPILE),)
@@ -134,7 +134,7 @@ $(MAKE_DIRS):
 	$(Q)mkdir -p $@
 
 $(BPFOBJ): $(wildcard $(BPFDIR)/*.[ch] $(BPFDIR)/Makefile)			\
-	   $(APIDIR)/linux/bpf.h						\
+	   $(APIDIR)/peenux/bpf.h						\
 	   | $(OBJ_DIR)/libbpf
 	$(Q)$(MAKE) $(submake_extras) CROSS_COMPILE=$(CROSS_COMPILE) 		\
 		    -C $(BPFDIR) OUTPUT=$(OBJ_DIR)/libbpf/			\
@@ -143,7 +143,7 @@ $(BPFOBJ): $(wildcard $(BPFDIR)/*.[ch] $(BPFDIR)/Makefile)			\
 		    DESTDIR=$(OUTPUT_DIR) prefix= all install_headers
 
 $(HOST_BPFOBJ): $(wildcard $(BPFDIR)/*.[ch] $(BPFDIR)/Makefile)		\
-	   $(APIDIR)/linux/bpf.h						\
+	   $(APIDIR)/peenux/bpf.h						\
 	   | $(HOST_BUILD_DIR)/libbpf
 	$(Q)$(MAKE) $(submake_extras) -C $(BPFDIR) 				\
 		    OUTPUT=$(HOST_BUILD_DIR)/libbpf/				\

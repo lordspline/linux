@@ -6,21 +6,21 @@
  *  Copyright (C) 2015-2017 Sebastian Reichel <sre@kernel.org>
  */
 
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/serdev.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/clk.h>
+#include <peenux/errno.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/serdev.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>
 

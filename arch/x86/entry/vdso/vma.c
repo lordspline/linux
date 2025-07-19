@@ -4,17 +4,17 @@
  *
  * This contains most of the x86 vDSO kernel-side code.
  */
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/random.h>
-#include <linux/elf.h>
-#include <linux/cpu.h>
-#include <linux/ptrace.h>
-#include <linux/vdso_datastore.h>
+#include <peenux/mm.h>
+#include <peenux/err.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/random.h>
+#include <peenux/elf.h>
+#include <peenux/cpu.h>
+#include <peenux/ptrace.h>
+#include <peenux/vdso_datastore.h>
 
 #include <asm/pvclock.h>
 #include <asm/vgtod.h>

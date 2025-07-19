@@ -7,8 +7,8 @@
  * Gated clock implementation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
 #include "clk-zynqmp.h"
 
 /**

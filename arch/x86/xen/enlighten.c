@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/console.h>
-#include <linux/cpu.h>
-#include <linux/instrumentation.h>
-#include <linux/kexec.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/panic_notifier.h>
+#include <peenux/console.h>
+#include <peenux/cpu.h>
+#include <peenux/instrumentation.h>
+#include <peenux/kexec.h>
+#include <peenux/memblock.h>
+#include <peenux/slab.h>
+#include <peenux/panic_notifier.h>
 
 #include <xen/xen.h>
 #include <xen/features.h>
@@ -38,7 +38,7 @@ EXPORT_STATIC_CALL_TRAMP(xen_hypercall);
 DEFINE_PER_CPU(struct vcpu_info *, xen_vcpu);
 DEFINE_PER_CPU_ALIGNED(struct vcpu_info, xen_vcpu_info);
 
-/* Linux <-> Xen vCPU id mapping */
+/* Peenux <-> Xen vCPU id mapping */
 DEFINE_PER_CPU(uint32_t, xen_vcpu_id);
 EXPORT_PER_CPU_SYMBOL(xen_vcpu_id);
 

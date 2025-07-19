@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2013 - 2019 Intel Corporation. */
 
-#include <linux/types.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
 #include <net/ipv6.h>
 #include <net/ip.h>
 #include <net/tcp.h>
-#include <linux/if_macvlan.h>
-#include <linux/prefetch.h>
+#include <peenux/if_macvlan.h>
+#include <peenux/prefetch.h>
 
 #include "fm10k.h"
 

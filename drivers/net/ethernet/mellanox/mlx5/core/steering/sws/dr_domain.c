@@ -1,8 +1,8 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /* Copyright (c) 2019 Mellanox Technologies. */
 
-#include <linux/mlx5/eswitch.h>
-#include <linux/err.h>
+#include <peenux/mlx5/eswitch.h>
+#include <peenux/err.h>
 #include "dr_types.h"
 
 #define DR_DOMAIN_SW_STEERING_SUPPORTED(dmn, dmn_type)	\

@@ -10,36 +10,36 @@
 //
 // Copyright 2004-2009 Freescale Semiconductor, Inc. All Rights Reserved.
 
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/genalloc.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_dma.h>
-#include <linux/workqueue.h>
+#include <peenux/init.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/semaphore.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/genalloc.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_dma.h>
+#include <peenux/workqueue.h>
 
 #include <asm/irq.h>
-#include <linux/dma/imx-dma.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <peenux/dma/imx-dma.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/imx6q-iomuxc-gpr.h>
 
 #include "dmaengine.h"
 #include "virt-dma.h"

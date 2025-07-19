@@ -6,17 +6,17 @@
  * Author: Yue Wang <yue.wang@amlogic.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/resource.h>
-#include <linux/types.h>
-#include <linux/phy/phy.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/resource.h>
+#include <peenux/types.h>
+#include <peenux/phy/phy.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
 
 #include "pcie-designware.h"
 

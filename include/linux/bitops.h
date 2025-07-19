@@ -3,10 +3,10 @@
 #define _LINUX_BITOPS_H
 
 #include <asm/types.h>
-#include <linux/bits.h>
-#include <linux/typecheck.h>
+#include <peenux/bits.h>
+#include <peenux/typecheck.h>
 
-#include <uapi/linux/kernel.h>
+#include <uapi/peenux/kernel.h>
 
 #define BITS_TO_LONGS(nr)	__KERNEL_DIV_ROUND_UP(nr, BITS_PER_TYPE(long))
 #define BITS_TO_U64(nr)		__KERNEL_DIV_ROUND_UP(nr, BITS_PER_TYPE(u64))

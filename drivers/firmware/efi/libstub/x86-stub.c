@@ -6,9 +6,9 @@
  *
  * ----------------------------------------------------------------------- */
 
-#include <linux/efi.h>
-#include <linux/pci.h>
-#include <linux/stddef.h>
+#include <peenux/efi.h>
+#include <peenux/pci.h>
+#include <peenux/stddef.h>
 
 #include <asm/efi.h>
 #include <asm/e820/types.h>

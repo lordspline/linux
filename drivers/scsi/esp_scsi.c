@@ -4,17 +4,17 @@
  * Copyright (C) 2007 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/completion.h>
-#include <linux/kallsyms.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/irqreturn.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/list.h>
+#include <peenux/completion.h>
+#include <peenux/kallsyms.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/irqreturn.h>
 
 #include <asm/irq.h>
 #include <asm/io.h>

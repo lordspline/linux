@@ -7,30 +7,30 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/ptrace.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
-#include <linux/fec.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/ptrace.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy.h>
+#include <peenux/fec.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
 
 #include "fec.h"
 

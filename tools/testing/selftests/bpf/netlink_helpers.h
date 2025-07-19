@@ -3,8 +3,8 @@
 #define NETLINK_HELPERS_H
 
 #include <string.h>
-#include <linux/netlink.h>
-#include <linux/rtnetlink.h>
+#include <peenux/netlink.h>
+#include <peenux/rtnetlink.h>
 
 struct rtnl_handle {
 	int			fd;

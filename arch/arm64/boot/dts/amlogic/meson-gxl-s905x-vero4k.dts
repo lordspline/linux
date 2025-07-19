@@ -28,7 +28,7 @@
 
 		button {
 			label = "power";
-			linux,code = <KEY_POWER>;
+			peenux,code = <KEY_POWER>;
 			gpios = <&gpio_ao GPIOAO_2 GPIO_ACTIVE_HIGH>;
 		};
 	};
@@ -54,7 +54,7 @@
 
 	spdif_dit: audio-codec-0 {
 		#sound-dai-cells = <0>;
-		compatible = "linux,spdif-dit";
+		compatible = "peenux,spdif-dit";
 		sound-name-prefix = "DIT";
 	};
 

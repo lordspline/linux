@@ -3,10 +3,10 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/io.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
 
 #include "ipu6-bus.h"
 #include "ipu6-isys.h"

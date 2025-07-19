@@ -6,7 +6,7 @@
 #ifndef __AB8500_SYSCTRL_H
 #define __AB8500_SYSCTRL_H
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 #ifdef CONFIG_AB8500_CORE
 

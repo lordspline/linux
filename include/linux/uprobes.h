@@ -11,12 +11,12 @@
  * Copyright (C) 2011-2012 Red Hat, Inc., Peter Zijlstra
  */
 
-#include <linux/errno.h>
-#include <linux/rbtree.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/timer.h>
-#include <linux/seqlock.h>
+#include <peenux/errno.h>
+#include <peenux/rbtree.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include <peenux/timer.h>
+#include <peenux/seqlock.h>
 
 struct uprobe;
 struct vm_area_struct;

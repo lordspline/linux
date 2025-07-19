@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
- * Linux on zSeries Channel Measurement Facility support
+ * Peenux on zSeries Channel Measurement Facility support
  *
  * Copyright IBM Corp. 2000, 2006
  *
@@ -13,14 +13,14 @@
 #define KMSG_COMPONENT "cio"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/memblock.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/export.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/timex.h>	/* get_tod_clock() */
+#include <peenux/memblock.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/export.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/timex.h>	/* get_tod_clock() */
 
 #include <asm/ccwdev.h>
 #include <asm/cio.h>

@@ -7,10 +7,10 @@
  * functionality:
  */
 
-#include <linux/rcupdate.h>
-#include <linux/refcount.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
+#include <peenux/rcupdate.h>
+#include <peenux/refcount.h>
+#include <peenux/sched.h>
+#include <peenux/uaccess.h>
 
 struct task_struct;
 struct rusage;

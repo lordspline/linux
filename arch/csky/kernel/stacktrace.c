@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
-#include <linux/ftrace.h>
-#include <linux/ptrace.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/stacktrace.h>
+#include <peenux/ftrace.h>
+#include <peenux/ptrace.h>
 
 #ifdef CONFIG_FRAME_POINTER
 

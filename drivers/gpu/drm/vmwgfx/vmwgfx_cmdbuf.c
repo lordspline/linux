@@ -30,8 +30,8 @@
 
 #include <drm/ttm/ttm_bo.h>
 
-#include <linux/dmapool.h>
-#include <linux/pci.h>
+#include <peenux/dmapool.h>
+#include <peenux/pci.h>
 
 /*
  * Size of inline command buffers. Try to make sure that a page size is a

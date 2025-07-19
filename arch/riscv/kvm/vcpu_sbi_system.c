@@ -3,8 +3,8 @@
  * Copyright (c) 2024 Ventana Micro Systems Inc.
  */
 
-#include <linux/kvm_host.h>
-#include <linux/wordpart.h>
+#include <peenux/kvm_host.h>
+#include <peenux/wordpart.h>
 
 #include <asm/kvm_vcpu_sbi.h>
 #include <asm/sbi.h>

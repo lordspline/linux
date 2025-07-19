@@ -37,7 +37,7 @@
 
 		button-maskrom {
 			label = "MASKROM";
-			linux,code = <KEY_SETUP>;
+			peenux,code = <KEY_SETUP>;
 			press-threshold-microvolt = <0>;
 		};
 	};
@@ -50,7 +50,7 @@
 		button-user {
 			gpios = <&gpio0 RK_PA0 GPIO_ACTIVE_LOW>;
 			label = "USER";
-			linux,code = <BTN_1>;
+			peenux,code = <BTN_1>;
 			wakeup-source;
 		};
 	};
@@ -65,7 +65,7 @@
 			default-state = "off";
 			function = LED_FUNCTION_LAN;
 			gpios = <&gpio4 RK_PB5 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "netdev";
+			peenux,default-trigger = "netdev";
 		};
 
 		led-sys {
@@ -73,7 +73,7 @@
 			default-state = "on";
 			function = LED_FUNCTION_HEARTBEAT;
 			gpios = <&gpio4 RK_PC1 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 
 		led-wan {
@@ -81,7 +81,7 @@
 			default-state = "off";
 			function = LED_FUNCTION_WAN;
 			gpios = <&gpio4 RK_PC0 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "netdev";
+			peenux,default-trigger = "netdev";
 		};
 	};
 

@@ -27,7 +27,7 @@
    03/02/2000  changes for better/correct(?) cache-flushing (deller)
 */
 
-/* 82596.c: A generic 82596 ethernet driver for linux. */
+/* 82596.c: A generic 82596 ethernet driver for peenux. */
 /*
    Based on Apricot.c
    Written 1994 by Mark Evans.
@@ -67,20 +67,20 @@
 
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/ptrace.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/ptrace.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>

@@ -20,24 +20,24 @@
  *  2004.12.01	Major rewrite by tiwai, merged the work of pshou
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/clocksource.h>
-#include <linux/time.h>
-#include <linux/completion.h>
-#include <linux/acpi.h>
-#include <linux/pgtable.h>
-#include <linux/dmi.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/mutex.h>
+#include <peenux/io.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/clocksource.h>
+#include <peenux/time.h>
+#include <peenux/completion.h>
+#include <peenux/acpi.h>
+#include <peenux/pgtable.h>
+#include <peenux/dmi.h>
 
 #ifdef CONFIG_X86
 /* for snoop control */
@@ -49,10 +49,10 @@
 #include <sound/hdaudio.h>
 #include <sound/hda_i915.h>
 #include <sound/intel-dsp-config.h>
-#include <linux/vgaarb.h>
-#include <linux/vga_switcheroo.h>
-#include <linux/apple-gmux.h>
-#include <linux/firmware.h>
+#include <peenux/vgaarb.h>
+#include <peenux/vga_switcheroo.h>
+#include <peenux/apple-gmux.h>
+#include <peenux/firmware.h>
 #include <sound/hda_codec.h>
 #include "hda_controller.h"
 #include "hda_intel.h"

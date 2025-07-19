@@ -4,13 +4,13 @@
  *
  * Copyright IBM Corporation, 2011
  *
- * Author: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Author: Paul E. McKenney <paulmck@peenux.ibm.com>
  */
 
 #ifndef __LINUX_RCU_H
 #define __LINUX_RCU_H
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 #include <trace/events/rcu.h>
 
 /*
@@ -350,7 +350,7 @@ extern void resched_cpu(int cpu);
 
 #if !defined(CONFIG_TINY_RCU)
 
-#include <linux/rcu_node_tree.h>
+#include <peenux/rcu_node_tree.h>
 
 extern int rcu_num_lvls;
 extern int num_rcu_lvl[];

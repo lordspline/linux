@@ -6,12 +6,12 @@
 #define pr_fmt(fmt)	"trace_fprobe: " fmt
 #include <asm/ptrace.h>
 
-#include <linux/fprobe.h>
-#include <linux/module.h>
-#include <linux/rculist.h>
-#include <linux/security.h>
-#include <linux/tracepoint.h>
-#include <linux/uaccess.h>
+#include <peenux/fprobe.h>
+#include <peenux/module.h>
+#include <peenux/rculist.h>
+#include <peenux/security.h>
+#include <peenux/tracepoint.h>
+#include <peenux/uaccess.h>
 
 #include "trace_dynevent.h"
 #include "trace_probe.h"

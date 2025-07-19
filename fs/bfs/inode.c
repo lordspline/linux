@@ -7,21 +7,21 @@
  *	Made endianness-clean by Andrew Stribblehill <ads@wompom.org>, 2005.
  */
 
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/vfs.h>
-#include <linux/writeback.h>
-#include <linux/uio.h>
-#include <linux/uaccess.h>
-#include <linux/fs_context.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/buffer_head.h>
+#include <peenux/vfs.h>
+#include <peenux/writeback.h>
+#include <peenux/uio.h>
+#include <peenux/uaccess.h>
+#include <peenux/fs_context.h>
 #include "bfs.h"
 
 MODULE_AUTHOR("Tigran Aivazian <aivazian.tigran@gmail.com>");
-MODULE_DESCRIPTION("SCO UnixWare BFS filesystem for Linux");
+MODULE_DESCRIPTION("SCO UnixWare BFS filesystem for Peenux");
 MODULE_LICENSE("GPL");
 
 #undef DEBUG

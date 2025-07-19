@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/efi.h>
-#include <linux/module.h>
-#include <linux/pstore.h>
-#include <linux/slab.h>
-#include <linux/ucs2_string.h>
+#include <peenux/efi.h>
+#include <peenux/module.h>
+#include <peenux/pstore.h>
+#include <peenux/slab.h>
+#include <peenux/ucs2_string.h>
 
 MODULE_IMPORT_NS("EFIVAR");
 

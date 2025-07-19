@@ -4,10 +4,10 @@
  *
  *	Copyright (C) 2004, 2007  Maciej W. Rozycki
  */
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/console.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 
 #include <asm/dec/prom.h>
 

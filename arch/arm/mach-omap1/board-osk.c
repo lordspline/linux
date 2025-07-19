@@ -1,5 +1,5 @@
 /*
- * linux/arch/arm/mach-omap1/board-osk.c
+ * peenux/arch/arm/mach-omap1/board-osk.c
  *
  * Board specific init for OMAP5912 OSK
  *
@@ -25,25 +25,25 @@
  * with this program; if not, write  to the Free Software Foundation, Inc.,
  * 675 Mass Ave, Cambridge, MA 02139, USA.
  */
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/i2c.h>
-#include <linux/leds.h>
-#include <linux/smc91x.h>
-#include <linux/omapfb.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/physmap.h>
-#include <linux/mfd/tps65010.h>
-#include <linux/platform_data/gpio-omap.h>
-#include <linux/platform_data/omap1_bl.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/i2c.h>
+#include <peenux/leds.h>
+#include <peenux/smc91x.h>
+#include <peenux/omapfb.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/mfd/tps65010.h>
+#include <peenux/platform_data/gpio-omap.h>
+#include <peenux/platform_data/omap1_bl.h>
+#include <peenux/soc/ti/omap1-io.h>
 
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2014-2018 Nuvoton Technology corporation.
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/sysfs.h>
+#include <peenux/thermal.h>
 
 /* NPCM7XX PWM registers */
 #define NPCM7XX_PWM_REG_BASE(base, n)    ((base) + ((n) * 0x1000L))

@@ -3,18 +3,18 @@
  * Driver for the RTC in Marvell SoCs.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/gfp.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/gfp.h>
+#include <peenux/module.h>
 
 
 #define RTC_TIME_REG_OFFS	0

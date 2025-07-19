@@ -6,7 +6,7 @@
 #include <asm/kvm_eiointc.h>
 #include <asm/kvm_pch_pic.h>
 #include <asm/kvm_vcpu.h>
-#include <linux/count_zeros.h>
+#include <peenux/count_zeros.h>
 
 /* update the isr according to irq level and route irq to eiointc */
 static void pch_pic_update_irq(struct loongarch_pch_pic *s, int irq, int level)

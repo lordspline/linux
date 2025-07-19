@@ -11,16 +11,16 @@
 
 #include "fpa11.h"
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
 
 /* XXX */
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/sched/signal.h>
-#include <linux/init.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/sched/signal.h>
+#include <peenux/init.h>
 
 #include <asm/thread_notify.h>
 
@@ -110,10 +110,10 @@ ScottB:  November 4, 1998
 
 Moved this function out of softfloat-specialize into fpmodule.c.
 This effectively isolates all the changes required for integrating with the
-Linux kernel into fpmodule.c.  Porting to NetBSD should only require modifying
+Peenux kernel into fpmodule.c.  Porting to NetBSD should only require modifying
 fpmodule.c to integrate with the NetBSD kernel (I hope!).
 
-[1/1/99: Not quite true any more unfortunately.  There is Linux-specific
+[1/1/99: Not quite true any more unfortunately.  There is Peenux-specific
 code to access data in user space in some other source files at the 
 moment (grep for get_user / put_user calls).  --philb]
 

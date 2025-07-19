@@ -7,12 +7,12 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/acpi.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
+#include <peenux/acpi.h>
+#include <peenux/wait.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
 #include "sbshc.h"
 #include "internal.h"
 

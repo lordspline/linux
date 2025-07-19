@@ -8,10 +8,10 @@
  * Author: Tom Lendacky <thomas.lendacky@amd.com>
  */
 
-#include <linux/export.h>
-#include <linux/cc_platform.h>
-#include <linux/string.h>
-#include <linux/random.h>
+#include <peenux/export.h>
+#include <peenux/cc_platform.h>
+#include <peenux/string.h>
+#include <peenux/random.h>
 
 #include <asm/archrandom.h>
 #include <asm/coco.h>

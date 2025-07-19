@@ -28,14 +28,14 @@
  * a timer to limit the rate at which DMA is reset on DMA channels error.
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci_ids.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci_ids.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
 
 #include "tw686x.h"
 #include "tw686x-regs.h"

@@ -16,7 +16,7 @@
  */
 
 #include <crypto/acompress.h>
-#include <linux/highmem.h>
+#include <peenux/highmem.h>
 #include "ubifs.h"
 
 union ubifs_in_ptr {

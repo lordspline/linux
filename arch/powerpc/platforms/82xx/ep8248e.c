@@ -6,14 +6,14 @@
  * Author: Scott Wood <scottwood@freescale.com>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/fsl_devices.h>
-#include <linux/mdio-bitbang.h>
-#include <linux/of_mdio.h>
-#include <linux/slab.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/fsl_devices.h>
+#include <peenux/mdio-bitbang.h>
+#include <peenux/of_mdio.h>
+#include <peenux/slab.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/cpm2.h>

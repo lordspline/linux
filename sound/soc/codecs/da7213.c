@@ -8,19 +8,19 @@
  * Based on DA9055 ALSA SoC codec driver.
  */
 
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
-#include <linux/pm_runtime.h>
-#include <linux/units.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/units.h>
 #include <sound/soc.h>
 #include <sound/initval.h>
 #include <sound/tlv.h>

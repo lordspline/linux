@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* linux/drivers/mfd/sm501.c
+/* peenux/drivers/mfd/sm501.c
  *
  * Copyright (C) 2006 Simtec Electronics
  *	Ben Dooks <ben@simtec.co.uk>
@@ -8,24 +8,24 @@
  * SM501 MFD driver
 */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/platform_data/i2c-gpio.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci.h>
+#include <peenux/platform_data/i2c-gpio.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/slab.h>
 
-#include <linux/sm501.h>
-#include <linux/sm501-regs.h>
-#include <linux/serial_8250.h>
+#include <peenux/sm501.h>
+#include <peenux/sm501-regs.h>
+#include <peenux/serial_8250.h>
 
-#include <linux/io.h>
+#include <peenux/io.h>
 
 struct sm501_device {
 	struct list_head		list;
@@ -35,7 +35,7 @@ struct sm501_device {
 struct sm501_gpio;
 
 #ifdef CONFIG_MFD_SM501_GPIO
-#include <linux/gpio.h>
+#include <peenux/gpio.h>
 
 struct sm501_gpio_chip {
 	struct gpio_chip	gpio;

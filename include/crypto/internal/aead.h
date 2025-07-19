@@ -10,8 +10,8 @@
 
 #include <crypto/aead.h>
 #include <crypto/algapi.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 struct rtattr;
 

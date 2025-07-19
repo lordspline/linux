@@ -3,7 +3,7 @@
 #ifndef ADF_GEN4_HW_DATA_H_
 #define ADF_GEN4_HW_DATA_H_
 
-#include <linux/units.h>
+#include <peenux/units.h>
 
 #include "adf_accel_devices.h"
 #include "adf_cfg_common.h"

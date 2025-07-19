@@ -9,21 +9,21 @@
  *
  * Copyright 2001 - 2004 Tensilica Inc.
  */
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/reboot.h>
-#include <linux/kdev_t.h>
-#include <linux/types.h>
-#include <linux/major.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/stringify.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
-#include <linux/timer.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/reboot.h>
+#include <peenux/kdev_t.h>
+#include <peenux/types.h>
+#include <peenux/major.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/stringify.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial.h>
+#include <peenux/serial_8250.h>
+#include <peenux/timer.h>
 
 #include <asm/processor.h>
 #include <asm/platform.h>
@@ -66,7 +66,7 @@ static struct notifier_block xt2000_restart_block = {
 
 void __init platform_setup(char** cmdline)
 {
-	led_print (0, "LINUX   ");
+	led_print (0, "PEENUX   ");
 }
 
 /* Heartbeat. Let the LED blink. */

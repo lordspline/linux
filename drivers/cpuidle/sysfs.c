@@ -6,15 +6,15 @@
  * This code is licenced under the GPL.
  */
 
-#include <linux/kernel.h>
-#include <linux/cpuidle.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/completion.h>
-#include <linux/capability.h>
-#include <linux/device.h>
-#include <linux/kobject.h>
+#include <peenux/kernel.h>
+#include <peenux/cpuidle.h>
+#include <peenux/sysfs.h>
+#include <peenux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/completion.h>
+#include <peenux/capability.h>
+#include <peenux/device.h>
+#include <peenux/kobject.h>
 
 #include "cpuidle.h"
 

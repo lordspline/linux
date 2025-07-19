@@ -4,15 +4,15 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/signal.h>
-#include <linux/interrupt.h>
-#include <linux/sched/signal.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/uaccess.h>
-#include <linux/kdebug.h>
-#include <linux/perf_event.h>
-#include <linux/mm_types.h>
+#include <peenux/signal.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched/signal.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/uaccess.h>
+#include <peenux/kdebug.h>
+#include <peenux/perf_event.h>
+#include <peenux/mm_types.h>
 #include <asm/entry.h>
 #include <asm/mmu.h>
 

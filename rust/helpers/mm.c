@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/mm.h>
-#include <linux/sched/mm.h>
+#include <peenux/mm.h>
+#include <peenux/sched/mm.h>
 
 void rust_helper_mmgrab(struct mm_struct *mm)
 {

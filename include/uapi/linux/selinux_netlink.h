@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Netlink event notifications for SELinux.
  *
@@ -13,7 +13,7 @@
 #ifndef _LINUX_SELINUX_NETLINK_H
 #define _LINUX_SELINUX_NETLINK_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* Message types. */
 #define SELNL_MSG_BASE 0x10

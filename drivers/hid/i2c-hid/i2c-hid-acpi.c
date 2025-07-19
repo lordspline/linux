@@ -6,7 +6,7 @@
  * Copyright (c) 2012 Red Hat, Inc
  *
  * This code was forked out of the core code, which was partly based on
- * "USB HID support for Linux":
+ * "USB HID support for Peenux":
  *
  *  Copyright (c) 1999 Andreas Gal
  *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
@@ -19,13 +19,13 @@
  * more details.
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/uuid.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/uuid.h>
 
 #include "i2c-hid.h"
 

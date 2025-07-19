@@ -8,21 +8,21 @@
  * Copyright (C) 2024 NeilBrown <neilb@suse.de>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/vfs.h>
-#include <linux/file.h>
-#include <linux/inet.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/inetdevice.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/vfs.h>
+#include <peenux/file.h>
+#include <peenux/inet.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/inetdevice.h>
 #include <net/addrconf.h>
-#include <linux/nfs_common.h>
-#include <linux/nfslocalio.h>
-#include <linux/bvec.h>
+#include <peenux/nfs_common.h>
+#include <peenux/nfslocalio.h>
+#include <peenux/bvec.h>
 
-#include <linux/nfs.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_xdr.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_xdr.h>
 
 #include "internal.h"
 #include "pnfs.h"

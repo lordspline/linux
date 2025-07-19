@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
 
-#include <linux/device.h>
+#include <peenux/device.h>
 
 #include "hinic3_hw_cfg.h"
 #include "hinic3_hwdev.h"

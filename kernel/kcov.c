@@ -2,29 +2,29 @@
 #define pr_fmt(fmt) "kcov: " fmt
 
 #define DISABLE_BRANCH_PROFILING
-#include <linux/atomic.h>
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/hashtable.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kmsan-checks.h>
-#include <linux/mm.h>
-#include <linux/preempt.h>
-#include <linux/printk.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/vmalloc.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/kcov.h>
-#include <linux/refcount.h>
-#include <linux/log2.h>
+#include <peenux/atomic.h>
+#include <peenux/compiler.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/types.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/hashtable.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/kmsan-checks.h>
+#include <peenux/mm.h>
+#include <peenux/preempt.h>
+#include <peenux/printk.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/vmalloc.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/kcov.h>
+#include <peenux/refcount.h>
+#include <peenux/log2.h>
 #include <asm/setup.h>
 
 #define kcov_debug(fmt, ...) pr_debug("%s: " fmt, __func__, ##__VA_ARGS__)

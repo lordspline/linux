@@ -60,12 +60,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/export.h>
-#include <linux/moduleparam.h>
-#include <linux/vmalloc.h>
+#include <peenux/export.h>
+#include <peenux/moduleparam.h>
+#include <peenux/vmalloc.h>
 
-#include <linux/seq_file.h>
-#include <linux/list.h>
+#include <peenux/seq_file.h>
+#include <peenux/list.h>
 #include "debug.h"
 #include "ath5k.h"
 #include "reg.h"

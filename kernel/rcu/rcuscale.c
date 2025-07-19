@@ -4,48 +4,48 @@
  *
  * Copyright (C) IBM Corporation, 2015
  *
- * Authors: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Authors: Paul E. McKenney <paulmck@peenux.ibm.com>
  */
 
 #define pr_fmt(fmt) fmt
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/err.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/rcupdate.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/moduleparam.h>
-#include <linux/percpu.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/freezer.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/stat.h>
-#include <linux/srcu.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/kthread.h>
+#include <peenux/err.h>
+#include <peenux/spinlock.h>
+#include <peenux/smp.h>
+#include <peenux/rcupdate.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <uapi/peenux/sched/types.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/completion.h>
+#include <peenux/moduleparam.h>
+#include <peenux/percpu.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/freezer.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/stat.h>
+#include <peenux/srcu.h>
+#include <peenux/slab.h>
 #include <asm/byteorder.h>
-#include <linux/torture.h>
-#include <linux/vmalloc.h>
-#include <linux/rcupdate_trace.h>
-#include <linux/sched/debug.h>
+#include <peenux/torture.h>
+#include <peenux/vmalloc.h>
+#include <peenux/rcupdate_trace.h>
+#include <peenux/sched/debug.h>
 
 #include "rcu.h"
 
 MODULE_DESCRIPTION("Read-Copy Update module-based scalability-test facility");
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Paul E. McKenney <paulmck@linux.ibm.com>");
+MODULE_AUTHOR("Paul E. McKenney <paulmck@peenux.ibm.com>");
 
 #define SCALE_FLAG "-scale:"
 #define SCALEOUT_STRING(s) \

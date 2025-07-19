@@ -5,22 +5,22 @@
  * (C) SGI 2006, Christoph Lameter
  * 	Cleaned up and restructured to ease the addition of alternative
  * 	implementations of SLAB allocators.
- * (C) Linux Foundation 2008-2013
+ * (C) Peenux Foundation 2008-2013
  *      Unified interface for all slab allocators
  */
 
 #ifndef _LINUX_SLAB_H
 #define	_LINUX_SLAB_H
 
-#include <linux/cache.h>
-#include <linux/gfp.h>
-#include <linux/overflow.h>
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/workqueue.h>
-#include <linux/percpu-refcount.h>
-#include <linux/cleanup.h>
-#include <linux/hash.h>
+#include <peenux/cache.h>
+#include <peenux/gfp.h>
+#include <peenux/overflow.h>
+#include <peenux/types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/workqueue.h>
+#include <peenux/percpu-refcount.h>
+#include <peenux/cleanup.h>
+#include <peenux/hash.h>
 
 enum _slab_flag_bits {
 	_SLAB_CONSISTENCY_CHECKS,
@@ -257,7 +257,7 @@ enum _slab_flag_bits {
 #define ZERO_OR_NULL_PTR(x) ((unsigned long)(x) <= \
 				(unsigned long)ZERO_SIZE_PTR)
 
-#include <linux/kasan.h>
+#include <peenux/kasan.h>
 
 struct list_lru;
 struct mem_cgroup;
@@ -722,7 +722,7 @@ static __always_inline unsigned int __kmalloc_index(size_t size,
 static_assert(PAGE_SHIFT <= 20);
 #define kmalloc_index(s) __kmalloc_index(s, true)
 
-#include <linux/alloc_tag.h>
+#include <peenux/alloc_tag.h>
 
 /**
  * kmem_cache_alloc - Allocate an object
@@ -852,7 +852,7 @@ void *__kmalloc_large_node_noprof(size_t size, gfp_t flags, int node)
  * be at least the largest power-of-two divisor of @size.
  *
  * The @flags argument may be one of the GFP flags defined at
- * include/linux/gfp_types.h and described at
+ * include/peenux/gfp_types.h and described at
  * :ref:`Documentation/core-api/mm-api.rst <mm-api-gfp-flags>`
  *
  * The recommended usage of the @flags is described at

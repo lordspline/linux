@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/list.h>
-#include <linux/list_sort.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <peenux/list.h>
+#include <peenux/list_sort.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
 #include <api/io_dir.h>
 #include <subcmd/pager.h>
 #include <sys/types.h>

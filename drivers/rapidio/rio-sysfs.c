@@ -6,11 +6,11 @@
  * Matt Porter <mporter@kernel.crashing.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/rio.h>
-#include <linux/rio_drv.h>
-#include <linux/stat.h>
-#include <linux/capability.h>
+#include <peenux/kernel.h>
+#include <peenux/rio.h>
+#include <peenux/rio_drv.h>
+#include <peenux/stat.h>
+#include <peenux/capability.h>
 
 #include "rio.h"
 

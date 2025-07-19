@@ -5,7 +5,7 @@
 #include <stdint.h>
 #include <fcntl.h>
 #include <assert.h>
-#include <linux/mman.h>
+#include <peenux/mman.h>
 #include <sys/mman.h>
 #include "../kselftest.h"
 #include "thp_settings.h"

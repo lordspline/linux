@@ -7,15 +7,15 @@
  *          Olivier Moysan <olivier.moysan@st.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/adc/stm32-dfsdm-adc.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/iio/adc/stm32-dfsdm-adc.h>
 
 #include <sound/pcm.h>
 #include <sound/soc.h>

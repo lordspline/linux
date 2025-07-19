@@ -11,12 +11,12 @@
  * Joe Taylor <joe@tensilica.com, joetylr@yahoo.com>
  */
 
-#include <linux/dma-map-ops.h>
-#include <linux/dma-direct.h>
-#include <linux/gfp.h>
-#include <linux/highmem.h>
-#include <linux/mm.h>
-#include <linux/types.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/dma-direct.h>
+#include <peenux/gfp.h>
+#include <peenux/highmem.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
 #include <asm/cacheflush.h>
 #include <asm/io.h>
 #include <asm/platform.h>

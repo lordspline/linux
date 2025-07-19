@@ -5,11 +5,11 @@
  * Copyright 2008-2009 Paul Mackerras, IBM Corporation.
  * Copyright 2010 Freescale Semiconductor, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/perf_event.h>
-#include <linux/percpu.h>
-#include <linux/hardirq.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/perf_event.h>
+#include <peenux/percpu.h>
+#include <peenux/hardirq.h>
 #include <asm/reg_fsl_emb.h>
 #include <asm/pmc.h>
 #include <asm/machdep.h>

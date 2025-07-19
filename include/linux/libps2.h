@@ -7,11 +7,11 @@
  * Copyright (C) 2004 Dmitry Torokhov
  */
 
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
 struct ps2dev;
 

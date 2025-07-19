@@ -7,24 +7,24 @@
  * Copyright 2018 Lubomir Rintel <lkundrak@v3.sk>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-device.h>
-#include <linux/platform_data/media/mmp-camera.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/pm.h>
-#include <linux/clk.h>
+#include <peenux/platform_data/media/mmp-camera.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/pm.h>
+#include <peenux/clk.h>
 
 #include "mcam-core.h"
 

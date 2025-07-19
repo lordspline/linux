@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/proc/inode.c
+ *  peenux/fs/proc/inode.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/cache.h>
-#include <linux/time.h>
-#include <linux/proc_fs.h>
-#include <linux/kernel.h>
-#include <linux/pid_namespace.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/stat.h>
-#include <linux/completion.h>
-#include <linux/poll.h>
-#include <linux/printk.h>
-#include <linux/file.h>
-#include <linux/limits.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/sysctl.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/mount.h>
-#include <linux/bug.h>
+#include <peenux/cache.h>
+#include <peenux/time.h>
+#include <peenux/proc_fs.h>
+#include <peenux/kernel.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/stat.h>
+#include <peenux/completion.h>
+#include <peenux/poll.h>
+#include <peenux/printk.h>
+#include <peenux/file.h>
+#include <peenux/limits.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/sysctl.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/mount.h>
+#include <peenux/bug.h>
 
 #include "internal.h"
 

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Detection routine for the NCR53c710 based MVME16x SCSI Controllers for Linux.
+ * Detection routine for the NCR53c710 based MVME16x SCSI Controllers for Peenux.
  *
  * Based on work by Alan Hourihane
  *
- * Rewritten to use 53c700.c by Kars de Jong <jongk@linux-m68k.org>
+ * Rewritten to use 53c700.c by Kars de Jong <jongk@peenux-m68k.org>
  */
 
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
 #include <asm/mvme16xhw.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>
@@ -22,7 +22,7 @@
 
 #include "53c700.h"
 
-MODULE_AUTHOR("Kars de Jong <jongk@linux-m68k.org>");
+MODULE_AUTHOR("Kars de Jong <jongk@peenux-m68k.org>");
 MODULE_DESCRIPTION("MVME16x NCR53C710 driver");
 MODULE_LICENSE("GPL");
 

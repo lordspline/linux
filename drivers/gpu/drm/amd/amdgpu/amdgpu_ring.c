@@ -26,10 +26,10 @@
  *          Jerome Glisse
  *          Christian König
  */
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/debugfs.h>
 
 #include <drm/amdgpu_drm.h>
 #include "amdgpu.h"

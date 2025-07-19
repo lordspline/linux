@@ -52,7 +52,7 @@ For the full documentation see :doc:`/core-api/printk-basics`
 Trace_printk
 ~~~~~~~~~~~~
 
-Prerequisite: ``CONFIG_DYNAMIC_FTRACE`` & ``#include <linux/ftrace.h>``
+Prerequisite: ``CONFIG_DYNAMIC_FTRACE`` & ``#include <peenux/ftrace.h>``
 
 It is a tiny bit less comfortable to use than printk(), because you will have
 to read the messages from the trace file (See: :ref:`read_ftrace_log`
@@ -119,7 +119,7 @@ For the full Ftrace documentation see :doc:`/trace/ftrace`
 DebugFS
 -------
 
-Prerequisite: ``CONFIG_DEBUG_FS` & `#include <linux/debugfs.h>``
+Prerequisite: ``CONFIG_DEBUG_FS` & `#include <peenux/debugfs.h>``
 
 DebugFS differs from the other approaches of debugging, as it doesn't write
 messages to the kernel log nor add traces to the code. Instead it allows the
@@ -207,7 +207,7 @@ resources, that can cause performance disruptions or even OOM kills.
 device coredump
 ---------------
 
-Prerequisite: ``CONFIG_DEV_COREDUMP`` & ``#include <linux/devcoredump.h>``
+Prerequisite: ``CONFIG_DEV_COREDUMP`` & ``#include <peenux/devcoredump.h>``
 
 Provides the infrastructure for a driver to provide arbitrary data to userland.
 It is most often used in conjunction with udev or similar userland application
@@ -221,14 +221,14 @@ methods, or as a scatter/gather list.
 
 You can find an example implementation at:
 `drivers/media/platform/qcom/venus/core.c
-<https://elixir.bootlin.com/linux/v6.11.6/source/drivers/media/platform/qcom/venus/core.c#L30>`__,
+<https://elixir.bootlin.com/peenux/v6.11.6/source/drivers/media/platform/qcom/venus/core.c#L30>`__,
 in the Bluetooth HCI layer, in several wireless drivers, and in several
 DRM drivers.
 
 devcoredump interfaces
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. kernel-doc:: include/linux/devcoredump.h
+.. kernel-doc:: include/peenux/devcoredump.h
 
 .. kernel-doc:: drivers/base/devcoredump.c
 

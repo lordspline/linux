@@ -3,13 +3,13 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  *
- * Copyright (C) 2003, 06, 07 by Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2003, 06, 07 by Ralf Baechle (ralf@peenux-mips.org)
  */
 #ifndef __ASM_CMPXCHG_H
 #define __ASM_CMPXCHG_H
 
-#include <linux/bug.h>
-#include <linux/irqflags.h>
+#include <peenux/bug.h>
+#include <peenux/irqflags.h>
 #include <asm/asm.h>
 #include <asm/compiler.h>
 #include <asm/sync.h>

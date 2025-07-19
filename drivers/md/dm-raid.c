@@ -6,8 +6,8 @@
  * This file is released under the GPL.
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 #include "md.h"
 #include "raid1.h"
@@ -16,7 +16,7 @@
 #include "md-bitmap.h"
 #include "dm-core.h"
 
-#include <linux/device-mapper.h>
+#include <peenux/device-mapper.h>
 
 #define DM_MSG_PREFIX "raid"
 #define	MAX_RAID_DEVICES	253 /* md-raid kernel limit */
@@ -4159,6 +4159,6 @@ MODULE_ALIAS("dm-raid10");
 MODULE_ALIAS("dm-raid4");
 MODULE_ALIAS("dm-raid5");
 MODULE_ALIAS("dm-raid6");
-MODULE_AUTHOR("Neil Brown <dm-devel@lists.linux.dev>");
-MODULE_AUTHOR("Heinz Mauelshagen <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Neil Brown <dm-devel@lists.peenux.dev>");
+MODULE_AUTHOR("Heinz Mauelshagen <dm-devel@lists.peenux.dev>");
 MODULE_LICENSE("GPL");

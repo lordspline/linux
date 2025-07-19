@@ -11,10 +11,10 @@
 #include "io_read.h"
 #include "io_write.h"
 
-#include <linux/kthread.h>
-#include <linux/pagemap.h>
-#include <linux/prefetch.h>
-#include <linux/task_io_accounting_ops.h>
+#include <peenux/kthread.h>
+#include <peenux/pagemap.h>
+#include <peenux/prefetch.h>
+#include <peenux/task_io_accounting_ops.h>
 
 /* O_DIRECT reads */
 

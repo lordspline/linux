@@ -24,8 +24,8 @@
 
 #define ADDRCONF_NOTIFY_PRIORITY	0
 
-#include <linux/in.h>
-#include <linux/in6.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
 
 struct prefix_info {
 	__u8			type;
@@ -62,8 +62,8 @@ struct prefix_info {
 /* rfc4861 4.6.2: IPv6 PIO is 32 bytes in size */
 static_assert(sizeof(struct prefix_info) == 32);
 
-#include <linux/ipv6.h>
-#include <linux/netdevice.h>
+#include <peenux/ipv6.h>
+#include <peenux/netdevice.h>
 #include <net/if_inet6.h>
 #include <net/ipv6.h>
 

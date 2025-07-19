@@ -21,11 +21,11 @@
 #include "movinggc.h"
 #include "trace.h"
 
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/math64.h>
-#include <linux/sched/task.h>
-#include <linux/wait.h>
+#include <peenux/freezer.h>
+#include <peenux/kthread.h>
+#include <peenux/math64.h>
+#include <peenux/sched/task.h>
+#include <peenux/wait.h>
 
 struct buckets_in_flight {
 	struct rhashtable	*table;

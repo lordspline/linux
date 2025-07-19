@@ -7,14 +7,14 @@
  *	Anup Patel <apatel@ventanamicro.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/irq.h>
-#include <linux/irqchip/riscv-imsic.h>
-#include <linux/irqdomain.h>
-#include <linux/kvm_host.h>
-#include <linux/percpu.h>
-#include <linux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip/riscv-imsic.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kvm_host.h>
+#include <peenux/percpu.h>
+#include <peenux/spinlock.h>
 #include <asm/cpufeature.h>
 #include <asm/kvm_nacl.h>
 

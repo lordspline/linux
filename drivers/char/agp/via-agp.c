@@ -3,11 +3,11 @@
  * VIA AGPGART routines.
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/agp_backend.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/agp_backend.h>
 #include "agp.h"
 
 static const struct pci_device_id agp_via_pci_table[];

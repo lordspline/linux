@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/time.c
+ *  peenux/arch/arm/kernel/time.c
  *
  *  Copyright (C) 1991, 1992, 1995  Linus Torvalds
  *  Modifications for ARM (C) 1994-2001 Russell King
@@ -8,22 +8,22 @@
  *  This file contains the ARM-specific time handling details:
  *  reading the RTC at bootup, etc...
  */
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/of_clk.h>
-#include <linux/profile.h>
-#include <linux/sched.h>
-#include <linux/sched_clock.h>
-#include <linux/smp.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/timer.h>
+#include <peenux/clockchips.h>
+#include <peenux/clocksource.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/of_clk.h>
+#include <peenux/profile.h>
+#include <peenux/sched.h>
+#include <peenux/sched_clock.h>
+#include <peenux/smp.h>
+#include <peenux/time.h>
+#include <peenux/timex.h>
+#include <peenux/timer.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/time.h>

@@ -5,24 +5,24 @@
  * Allegro DVT video encoder driver
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/gcd.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/xlnx-vcu.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/firmware.h>
+#include <peenux/gcd.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/xlnx-vcu.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>

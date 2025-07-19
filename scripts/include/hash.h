@@ -12,7 +12,7 @@ static inline unsigned int hash_str(const char *s)
 	return hash;
 }
 
-/* simplified version of functions from include/linux/hash.h */
+/* simplified version of functions from include/peenux/hash.h */
 #define GOLDEN_RATIO_32 0x61C88647
 
 static inline unsigned int hash_32(unsigned int val)

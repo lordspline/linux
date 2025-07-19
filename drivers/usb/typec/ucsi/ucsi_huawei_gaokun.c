@@ -6,19 +6,19 @@
  */
 
 #include <drm/bridge/aux-bridge.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_data/huawei-gaokun-ec.h>
-#include <linux/string.h>
-#include <linux/usb/pd_vdo.h>
-#include <linux/usb/typec_altmode.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/workqueue_types.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitops.h>
+#include <peenux/completion.h>
+#include <peenux/container_of.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/platform_data/huawei-gaokun-ec.h>
+#include <peenux/string.h>
+#include <peenux/usb/pd_vdo.h>
+#include <peenux/usb/typec_altmode.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/workqueue_types.h>
 
 #include "ucsi.h"
 

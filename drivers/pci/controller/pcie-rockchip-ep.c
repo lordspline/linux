@@ -8,18 +8,18 @@
  *         Simon Xue <xxm@rock-chips.com>
  */
 
-#include <linux/configfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/pci-epc.h>
-#include <linux/platform_device.h>
-#include <linux/pci-epf.h>
-#include <linux/sizes.h>
-#include <linux/workqueue.h>
+#include <peenux/configfs.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/pci-epc.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci-epf.h>
+#include <peenux/sizes.h>
+#include <peenux/workqueue.h>
 
 #include "pcie-rockchip.h"
 

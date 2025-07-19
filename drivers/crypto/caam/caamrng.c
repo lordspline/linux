@@ -9,12 +9,12 @@
  *
  */
 
-#include <linux/hw_random.h>
-#include <linux/completion.h>
-#include <linux/atomic.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
+#include <peenux/hw_random.h>
+#include <peenux/completion.h>
+#include <peenux/atomic.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/kfifo.h>
 
 #include "compat.h"
 

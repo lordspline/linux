@@ -8,14 +8,14 @@
  * Copyright IBM Corp. 2008, 2024
  *
  * Authors:
- *  Christoph Schlameuss <schlameuss@linux.ibm.com>
+ *  Christoph Schlameuss <schlameuss@peenux.ibm.com>
  *  Carsten Otte <cotte@de.ibm.com>
  */
 
 #ifndef SELFTEST_KVM_SIE_H
 #define SELFTEST_KVM_SIE_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct kvm_s390_sie_block {
 #define CPUSTAT_STOPPED    0x80000000

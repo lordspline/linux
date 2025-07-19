@@ -8,19 +8,19 @@
 #define KMSG_COMPONENT "sclp_cmd"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/cpufeature.h>
-#include <linux/completion.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/memory.h>
-#include <linux/memory_hotplug.h>
-#include <linux/module.h>
+#include <peenux/cpufeature.h>
+#include <peenux/completion.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/mmzone.h>
+#include <peenux/memory.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/module.h>
 #include <asm/ctlreg.h>
 #include <asm/chpid.h>
 #include <asm/setup.h>

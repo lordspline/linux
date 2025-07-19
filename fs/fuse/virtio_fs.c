@@ -4,22 +4,22 @@
  * Copyright (C) 2018 Red Hat, Inc.
  */
 
-#include <linux/fs.h>
-#include <linux/dax.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/group_cpus.h>
-#include <linux/pfn_t.h>
-#include <linux/memremap.h>
-#include <linux/module.h>
-#include <linux/virtio.h>
-#include <linux/virtio_fs.h>
-#include <linux/delay.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/highmem.h>
-#include <linux/cleanup.h>
-#include <linux/uio.h>
+#include <peenux/fs.h>
+#include <peenux/dax.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/group_cpus.h>
+#include <peenux/pfn_t.h>
+#include <peenux/memremap.h>
+#include <peenux/module.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_fs.h>
+#include <peenux/delay.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/highmem.h>
+#include <peenux/cleanup.h>
+#include <peenux/uio.h>
 #include "fuse_i.h"
 
 /* Used to help calculate the FUSE connection's max_pages limit for a request's

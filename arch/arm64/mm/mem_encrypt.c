@@ -13,10 +13,10 @@
  * "Hello, boils and ghouls!"
  */
 
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/err.h>
-#include <linux/mm.h>
+#include <peenux/bug.h>
+#include <peenux/compiler.h>
+#include <peenux/err.h>
+#include <peenux/mm.h>
 
 #include <asm/mem_encrypt.h>
 

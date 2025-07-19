@@ -247,7 +247,7 @@ int main(int argc, char *argv[])
  * Automatically generated file; Do not edit.\n\
  */\n\
 \n\
-#include <linux/types.h>\n\
+#include <peenux/types.h>\n\
 \n\
 u8 dfont_unicount[%d] = \n\
 {\n\t", fontlen);

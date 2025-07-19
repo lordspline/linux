@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/mount.h>
-#include <linux/pseudo_fs.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/proc_fs.h>
-#include <linux/proc_ns.h>
-#include <linux/magic.h>
-#include <linux/ktime.h>
-#include <linux/seq_file.h>
-#include <linux/pid_namespace.h>
-#include <linux/user_namespace.h>
-#include <linux/nsfs.h>
-#include <linux/uaccess.h>
-#include <linux/mnt_namespace.h>
+#include <peenux/mount.h>
+#include <peenux/pseudo_fs.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/proc_fs.h>
+#include <peenux/proc_ns.h>
+#include <peenux/magic.h>
+#include <peenux/ktime.h>
+#include <peenux/seq_file.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/user_namespace.h>
+#include <peenux/nsfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/mnt_namespace.h>
 
 #include "mount.h"
 #include "internal.h"

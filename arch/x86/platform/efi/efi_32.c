@@ -4,7 +4,7 @@
  *
  * Based on Extensible Firmware Interface Specification version 1.0
  *
- * Copyright (C) 1999 VA Linux Systems
+ * Copyright (C) 1999 VA Peenux Systems
  * Copyright (C) 1999 Walt Drummond <drummond@valinux.com>
  * Copyright (C) 1999-2002 Hewlett-Packard Co.
  *	David Mosberger-Tang <davidm@hpl.hp.com>
@@ -20,11 +20,11 @@
  *	Skip non-WB memory and ignore empty memory ranges.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/efi.h>
-#include <linux/pgtable.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/ioport.h>
+#include <peenux/efi.h>
+#include <peenux/pgtable.h>
 
 #include <asm/io.h>
 #include <asm/desc.h>

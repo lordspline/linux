@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2024 Yixun Lan <dlan@gentoo.org> */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/cleanup.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/cleanup.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "../core.h"
 #include "../pinctrl-utils.h"

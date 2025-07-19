@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/linux/sunrpc/auth.h
+ * peenux/include/peenux/sunrpc/auth.h
  *
  * Declarations for the RPC client authentication machinery.
  *
@@ -10,14 +10,14 @@
 #ifndef _LINUX_SUNRPC_AUTH_H
 #define _LINUX_SUNRPC_AUTH_H
 
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/sunrpc/xdr.h>
+#include <peenux/sunrpc/sched.h>
+#include <peenux/sunrpc/msg_prot.h>
+#include <peenux/sunrpc/xdr.h>
 
-#include <linux/atomic.h>
-#include <linux/rcupdate.h>
-#include <linux/uidgid.h>
-#include <linux/utsname.h>
+#include <peenux/atomic.h>
+#include <peenux/rcupdate.h>
+#include <peenux/uidgid.h>
+#include <peenux/utsname.h>
 
 /*
  * Maximum size of AUTH_NONE authentication information, in XDR words.
@@ -27,7 +27,7 @@
 
 /*
  * Size of the nodename buffer. RFC1831 specifies a hard limit of 255 bytes,
- * but Linux hostnames are actually limited to __NEW_UTS_LEN bytes.
+ * but Peenux hostnames are actually limited to __NEW_UTS_LEN bytes.
  */
 #define UNX_MAXNODENAME	__NEW_UTS_LEN
 #define UNX_CALLSLACK	(21 + XDR_QUADLEN(UNX_MAXNODENAME))

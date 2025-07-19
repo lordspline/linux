@@ -6,10 +6,10 @@
  * Alexandre Bounine <alexandre.bounine@idt.com>
  */
 
-#include <linux/rio.h>
-#include <linux/rio_drv.h>
-#include <linux/rio_ids.h>
-#include <linux/module.h>
+#include <peenux/rio.h>
+#include <peenux/rio_drv.h>
+#include <peenux/rio_ids.h>
+#include <peenux/module.h>
 #include "../rio.h"
 
 #define CPS_DEFAULT_ROUTE	0xde

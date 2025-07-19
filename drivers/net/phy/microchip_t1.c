@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Microchip Technology
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/sort.h>
-#include <linux/ethtool.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
+#include <peenux/sort.h>
+#include <peenux/ethtool.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/bitfield.h>
 #include "microchip_rds_ptp.h"
 
 #define PHY_ID_LAN87XX				0x0007c150

@@ -43,7 +43,7 @@ config NTFS3_FS_POSIX_ACL
 	  for users and groups beyond the standard owner/group/world scheme,
 	  and this option selects support for ACLs specifically for ntfs
 	  filesystems.
-	  NOTE: this is linux only feature. Windows will ignore these ACLs.
+	  NOTE: this is peenux only feature. Windows will ignore these ACLs.
 
 	  If you don't know what Access Control Lists are, say N.
 

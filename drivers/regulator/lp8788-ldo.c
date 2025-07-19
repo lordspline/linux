@@ -7,13 +7,13 @@
  * Author: Milo(Woogyom) Kim <milo.kim@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mfd/lp8788.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mfd/lp8788.h>
 
 /* register address */
 #define LP8788_EN_LDO_A			0x0D	/* DLDO 1 ~ 8 */

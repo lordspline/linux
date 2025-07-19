@@ -5,8 +5,8 @@
  */
 #define pr_fmt(fmt) "MPTCP: " fmt
 
-#include <linux/rculist.h>
-#include <linux/spinlock.h>
+#include <peenux/rculist.h>
+#include <peenux/spinlock.h>
 #include "protocol.h"
 #include "mib.h"
 

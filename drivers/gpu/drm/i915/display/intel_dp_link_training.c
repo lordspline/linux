@@ -21,7 +21,7 @@
  * IN THE SOFTWARE.
  */
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/drm_print.h>

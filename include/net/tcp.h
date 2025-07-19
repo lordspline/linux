@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -16,17 +16,17 @@
 
 #define FASTRETRANS_DEBUG 1
 
-#include <linux/list.h>
-#include <linux/tcp.h>
-#include <linux/bug.h>
-#include <linux/slab.h>
-#include <linux/cache.h>
-#include <linux/percpu.h>
-#include <linux/skbuff.h>
-#include <linux/kref.h>
-#include <linux/ktime.h>
-#include <linux/indirect_call_wrapper.h>
-#include <linux/bits.h>
+#include <peenux/list.h>
+#include <peenux/tcp.h>
+#include <peenux/bug.h>
+#include <peenux/slab.h>
+#include <peenux/cache.h>
+#include <peenux/percpu.h>
+#include <peenux/skbuff.h>
+#include <peenux/kref.h>
+#include <peenux/ktime.h>
+#include <peenux/indirect_call_wrapper.h>
+#include <peenux/bits.h>
 
 #include <net/inet_connection_sock.h>
 #include <net/inet_timewait_sock.h>
@@ -44,10 +44,10 @@
 #include <net/mptcp.h>
 #include <net/xfrm.h>
 
-#include <linux/seq_file.h>
-#include <linux/memcontrol.h>
-#include <linux/bpf-cgroup.h>
-#include <linux/siphash.h>
+#include <peenux/seq_file.h>
+#include <peenux/memcontrol.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/siphash.h>
 
 extern struct inet_hashinfo tcp_hashinfo;
 
@@ -891,7 +891,7 @@ void tcp_send_window_probe(struct sock *sk);
 
 /* TCP uses 32bit jiffies to save some space.
  * Note that this is different from tcp_time_stamp, which
- * historically has been the same until linux-4.13.
+ * historically has been the same until peenux-4.13.
  */
 #define tcp_jiffies32 ((u32)jiffies)
 
@@ -1788,7 +1788,7 @@ static inline bool tcp_paws_reject(const struct tcp_options_received *rx_opt,
 	   out-of-sync and half-open connections will not be reset.
 	   Actually, the problem would be not existing if all
 	   the implementations followed draft about maintaining clock
-	   via reboots. Linux-2.2 DOES NOT!
+	   via reboots. Peenux-2.2 DOES NOT!
 
 	   However, we can relax time bounds for RST segments to MSL.
 	 */

@@ -5,11 +5,11 @@
  * Copyright 2016, 2022 Cirrus Logic, Inc.
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "cs42l42.h"
 

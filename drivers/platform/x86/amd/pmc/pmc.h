@@ -11,8 +11,8 @@
 #ifndef PMC_H
 #define PMC_H
 
-#include <linux/types.h>
-#include <linux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
 
 /* SMU communication registers */
 #define AMD_PMC_REGISTER_RESPONSE	0x980

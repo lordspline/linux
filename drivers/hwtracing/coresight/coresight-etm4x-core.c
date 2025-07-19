@@ -1,37 +1,37 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/kvm_host.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/smp.h>
-#include <linux/sysfs.h>
-#include <linux/stat.h>
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/cpu_pm.h>
-#include <linux/coresight.h>
-#include <linux/coresight-pmu.h>
-#include <linux/amba/bus.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/clk/clk-conf.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/kvm_host.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/smp.h>
+#include <peenux/sysfs.h>
+#include <peenux/stat.h>
+#include <peenux/clk.h>
+#include <peenux/cpu.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/coresight.h>
+#include <peenux/coresight-pmu.h>
+#include <peenux/amba/bus.h>
+#include <peenux/seq_file.h>
+#include <peenux/uaccess.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/clk/clk-conf.h>
 
 #include <asm/barrier.h>
 #include <asm/sections.h>

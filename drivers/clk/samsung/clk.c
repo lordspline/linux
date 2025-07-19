@@ -8,13 +8,13 @@
  * clock framework for Samsung platforms.
  */
 
-#include <linux/slab.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_address.h>
-#include <linux/syscore_ops.h>
+#include <peenux/slab.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_address.h>
+#include <peenux/syscore_ops.h>
 
 #include "clk.h"
 

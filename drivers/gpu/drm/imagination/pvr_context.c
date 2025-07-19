@@ -18,16 +18,16 @@
 #include <drm/drm_auth.h>
 #include <drm/drm_managed.h>
 
-#include <linux/bug.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <peenux/bug.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/xarray.h>
 
 static int
 remap_priority(struct pvr_file *pvr_file, s32 uapi_priority,

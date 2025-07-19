@@ -5,13 +5,13 @@
  * Copyright 2009 Analog Devices Inc.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/mfd/adp5520.h>
-#include <linux/slab.h>
-#include <linux/device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/input.h>
+#include <peenux/mfd/adp5520.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
 
 struct adp5520_keys {
 	struct input_dev *input;

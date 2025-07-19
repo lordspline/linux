@@ -12,19 +12,19 @@
  * these blocks need to be reinitialized.
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/fsl/netc_global.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/fsl/netc_global.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_net.h>
+#include <peenux/of_platform.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
 
 /* NETCMIX registers */
 #define IMX95_CFG_LINK_IO_VAR		0x0

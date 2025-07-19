@@ -8,18 +8,18 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/if_ether.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/skbuff.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/errno.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_ether.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/skbuff.h>
 
 #include "bnxt_hsi.h"
 #include "bnxt.h"

@@ -6,27 +6,27 @@
  *	Vaibhav Bedia, Dave Gerlach
  */
 
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/genalloc.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_data/pm33xx.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/rtc.h>
-#include <linux/rtc/rtc-omap.h>
-#include <linux/sizes.h>
-#include <linux/sram.h>
-#include <linux/suspend.h>
-#include <linux/ti-emif-sram.h>
-#include <linux/wkup_m3_ipc.h>
+#include <peenux/clk.h>
+#include <peenux/cpu.h>
+#include <peenux/err.h>
+#include <peenux/genalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_data/pm33xx.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/rtc.h>
+#include <peenux/rtc/rtc-omap.h>
+#include <peenux/sizes.h>
+#include <peenux/sram.h>
+#include <peenux/suspend.h>
+#include <peenux/ti-emif-sram.h>
+#include <peenux/wkup_m3_ipc.h>
 
 #include <asm/proc-fns.h>
 #include <asm/suspend.h>

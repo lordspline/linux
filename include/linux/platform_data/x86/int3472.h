@@ -8,14 +8,14 @@
 #ifndef __PLATFORM_DATA_X86_INT3472_H
 #define __PLATFORM_DATA_X86_INT3472_H
 
-#include <linux/clk-provider.h>
-#include <linux/gpio/machine.h>
-#include <linux/leds.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/types.h>
+#include <peenux/clk-provider.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/leds.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/types.h>
 
-/* FIXME drop this once the I2C_DEV_NAME_FORMAT macro has been added to include/linux/i2c.h */
+/* FIXME drop this once the I2C_DEV_NAME_FORMAT macro has been added to include/peenux/i2c.h */
 #ifndef I2C_DEV_NAME_FORMAT
 #define I2C_DEV_NAME_FORMAT					"i2c-%s"
 #endif

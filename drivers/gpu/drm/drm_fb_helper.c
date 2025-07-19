@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2006-2009 Red Hat Inc.
  * Copyright (c) 2006-2008 Intel Corporation
- * Copyright (c) 2007 Dave Airlie <airlied@linux.ie>
+ * Copyright (c) 2007 Dave Airlie <airlied@peenux.ie>
  *
  * DRM framebuffer helper functions
  *
@@ -24,15 +24,15 @@
  * OF THIS SOFTWARE.
  *
  * Authors:
- *      Dave Airlie <airlied@linux.ie>
+ *      Dave Airlie <airlied@peenux.ie>
  *      Jesse Barnes <jesse.barnes@intel.com>
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/console.h>
-#include <linux/pci.h>
-#include <linux/sysrq.h>
-#include <linux/vga_switcheroo.h>
+#include <peenux/console.h>
+#include <peenux/pci.h>
+#include <peenux/sysrq.h>
+#include <peenux/vga_switcheroo.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_drv.h>

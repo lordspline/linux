@@ -3,13 +3,13 @@
  * c67x00-hcd.c: Cypress C67X00 USB Host Controller Driver
  *
  * Copyright (C) 2006-2008 Barco N.V.
- *    Derived from the Cypress cy7c67200/300 ezusb linux driver and
- *    based on multiple host controller drivers inside the linux kernel.
+ *    Derived from the Cypress cy7c67200/300 ezusb peenux driver and
+ *    based on multiple host controller drivers inside the peenux kernel.
  */
 
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/usb.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb.h>
 
 #include "c67x00.h"
 #include "c67x00-hcd.h"

@@ -1,12 +1,12 @@
 #ifndef __MTK_WED_H
 #define __MTK_WED_H
 
-#include <linux/kernel.h>
-#include <linux/rcupdate.h>
-#include <linux/regmap.h>
-#include <linux/pci.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/rcupdate.h>
+#include <peenux/regmap.h>
+#include <peenux/pci.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
 
 #define MTK_WED_TX_QUEUES		2
 #define MTK_WED_RX_QUEUES		2

@@ -9,22 +9,22 @@
  * #defines from the assembly-language output.
  */
 
-#include <linux/compat.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/suspend.h>
-#include <linux/hrtimer.h>
+#include <peenux/compat.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/suspend.h>
+#include <peenux/hrtimer.h>
 #ifdef CONFIG_PPC64
-#include <linux/time.h>
-#include <linux/hardirq.h>
+#include <peenux/time.h>
+#include <peenux/hardirq.h>
 #endif
-#include <linux/kbuild.h>
+#include <peenux/kbuild.h>
 
 #include <asm/io.h>
 #include <asm/page.h>
@@ -46,7 +46,7 @@
 #include <asm/opal.h>
 #endif
 #if defined(CONFIG_KVM) || defined(CONFIG_KVM_GUEST)
-#include <linux/kvm_host.h>
+#include <peenux/kvm_host.h>
 #endif
 #if defined(CONFIG_KVM) && defined(CONFIG_PPC_BOOK3S)
 #include <asm/kvm_book3s.h>

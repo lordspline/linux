@@ -5,11 +5,11 @@
  * Copyright (C) 2010 Stefani Seibold <stefani@seibold.net>
  */
 
-#include <linux/init.h>
-#include <linux/kfifo.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/kfifo.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/dma-mapping.h>
 
 /*
  * This module shows how to handle fifo dma operations.

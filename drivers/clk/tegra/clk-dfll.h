@@ -10,9 +10,9 @@
 #ifndef __DRIVERS_CLK_TEGRA_CLK_DFLL_H
 #define __DRIVERS_CLK_TEGRA_CLK_DFLL_H
 
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/types.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/types.h>
 
 #include "cvb.h"
 

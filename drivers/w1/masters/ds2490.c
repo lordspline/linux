@@ -5,13 +5,13 @@
  * Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/usb.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/usb.h>
+#include <peenux/slab.h>
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 
 /* USB Standard */
 /* USB Control request vendor type */

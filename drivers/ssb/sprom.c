@@ -13,8 +13,8 @@
 
 #include "ssb_private.h"
 
-#include <linux/ctype.h>
-#include <linux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
 
 
 static int(*get_fallback_sprom)(struct ssb_bus *dev, struct ssb_sprom *out);

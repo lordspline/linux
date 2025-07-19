@@ -16,7 +16,7 @@
 #include "vnic_stats.h"
 #include "vnic_nic.h"
 #include "vnic_rss.h"
-#include <linux/irq.h>
+#include <peenux/irq.h>
 #include <net/page_pool/helpers.h>
 
 #define DRV_NAME		"enic"

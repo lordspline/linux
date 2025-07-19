@@ -9,15 +9,15 @@
  *          Kumaravel Thiagarajan <kumaravel.thiagarajan@microchip.com>
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-smbus.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/types.h>
 
 #define SMBUS_MAST_CORE_ADDR_BASE		0x00000
 #define SMBUS_MAST_SYS_REG_ADDR_BASE		0x01000

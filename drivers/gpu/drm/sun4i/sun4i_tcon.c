@@ -6,15 +6,15 @@
  * Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/component.h>
-#include <linux/ioport.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/component.h>
+#include <peenux/ioport.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

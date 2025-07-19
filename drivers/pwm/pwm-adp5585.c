@@ -14,18 +14,18 @@
 
 #include <asm/byteorder.h>
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/math64.h>
-#include <linux/mfd/adp5585.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/time.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/math64.h>
+#include <peenux/mfd/adp5585.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/regmap.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
 
 #define ADP5585_PWM_CHAN_NUM		1
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/acorn/net/etherh.c
+ *  peenux/drivers/acorn/net/etherh.c
  *
  *  Copyright (C) 2000-2002 Russell King
  *
@@ -23,24 +23,24 @@
  *  03-01-2002	RMK	1.09	Always enable IRQs if we're in the nic slot.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/in.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/skbuff.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/jiffies.h>
 
 #include <asm/ecard.h>
 #include <asm/io.h>

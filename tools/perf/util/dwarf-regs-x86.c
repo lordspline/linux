@@ -8,7 +8,7 @@
 
 #include <errno.h> /* for EINVAL */
 #include <string.h> /* for strcmp */
-#include <linux/kernel.h> /* for ARRAY_SIZE */
+#include <peenux/kernel.h> /* for ARRAY_SIZE */
 #include <dwarf-regs.h>
 
 struct dwarf_regs_idx {

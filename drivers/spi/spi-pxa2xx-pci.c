@@ -5,19 +5,19 @@
  *
  * Copyright (C) 2016, 2021 Intel Corporation
  */
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/sprintf.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sprintf.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
-#include <linux/dmaengine.h>
-#include <linux/platform_data/dma-dw.h>
+#include <peenux/dmaengine.h>
+#include <peenux/platform_data/dma-dw.h>
 
 #include "spi-pxa2xx.h"
 

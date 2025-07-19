@@ -11,9 +11,9 @@
 #ifndef __OTX_CPTVF_REQUEST_MANAGER_H
 #define __OTX_CPTVF_REQUEST_MANAGER_H
 
-#include <linux/types.h>
-#include <linux/crypto.h>
-#include <linux/pci.h>
+#include <peenux/types.h>
+#include <peenux/crypto.h>
+#include <peenux/pci.h>
 #include "otx_cpt_hw_types.h"
 
 /*

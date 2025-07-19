@@ -9,9 +9,9 @@
  * Authors: Sanjay Lal <sanjayl@kymasys.com>
  */
 
-#include <linux/highmem.h>
-#include <linux/kvm_host.h>
-#include <linux/uaccess.h>
+#include <peenux/highmem.h>
+#include <peenux/kvm_host.h>
+#include <peenux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/pgalloc.h>
 

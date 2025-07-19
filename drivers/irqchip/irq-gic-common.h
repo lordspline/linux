@@ -6,10 +6,10 @@
 #ifndef _IRQ_GIC_COMMON_H
 #define _IRQ_GIC_COMMON_H
 
-#include <linux/of.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/irqchip/arm-gic-common.h>
+#include <peenux/of.h>
+#include <peenux/irqdomain.h>
+#include <peenux/msi.h>
+#include <peenux/irqchip/arm-gic-common.h>
 
 struct gic_quirk {
 	const char *desc;

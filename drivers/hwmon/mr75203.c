@@ -7,20 +7,20 @@
  * analog IP to enable multiple embedded temperature sensor(TS),
  * voltage monitor(VM) & process detector(PD) modules.
  */
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/hwmon.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/units.h>
 
 /* PVT Common register */
 #define PVT_IP_CONFIG	0x04

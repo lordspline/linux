@@ -4,18 +4,18 @@
  *
  * Copyright (C) 2010 OMICRON electronics GmbH
  */
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ixp4xx/cpu.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/ixp4xx/cpu.h>
 
 #include "ixp46x_ts.h"
 

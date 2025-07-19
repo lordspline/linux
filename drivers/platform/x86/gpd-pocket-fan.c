@@ -5,15 +5,15 @@
  * Copyright (C) 2017 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/devm-helpers.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/thermal.h>
-#include <linux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/thermal.h>
+#include <peenux/workqueue.h>
 
 #define MAX_SPEED 3
 

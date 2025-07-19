@@ -8,15 +8,15 @@
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>
 #include <asm/m54xxpci.h>

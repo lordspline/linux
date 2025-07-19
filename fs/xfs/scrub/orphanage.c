@@ -28,7 +28,7 @@
 #include "scrub/orphanage.h"
 #include "scrub/readdir.h"
 
-#include <linux/namei.h>
+#include <peenux/namei.h>
 
 /*
  * The Orphanage

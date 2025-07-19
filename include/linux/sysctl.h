@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * sysctl.h: General linux system control interface
+ * sysctl.h: General peenux system control interface
  *
  * Begun 24 March 1995, Stephen Tweedie
  *
@@ -22,12 +22,12 @@
 #ifndef _LINUX_SYSCTL_H
 #define _LINUX_SYSCTL_H
 
-#include <linux/list.h>
-#include <linux/rcupdate.h>
-#include <linux/wait.h>
-#include <linux/rbtree.h>
-#include <linux/uidgid.h>
-#include <uapi/linux/sysctl.h>
+#include <peenux/list.h>
+#include <peenux/rcupdate.h>
+#include <peenux/wait.h>
+#include <peenux/rbtree.h>
+#include <peenux/uidgid.h>
+#include <uapi/peenux/sysctl.h>
 
 /* For the /proc/sys support */
 struct completion;

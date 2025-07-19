@@ -6,15 +6,15 @@
  * Copyright (C) 2024 Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/cleanup.h>
-#include <linux/export.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/qnap-mcu.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/reboot.h>
-#include <linux/serdev.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/export.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/qnap-mcu.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/reboot.h>
+#include <peenux/serdev.h>
+#include <peenux/slab.h>
 
 /* The longest command found so far is 5 bytes long */
 #define QNAP_MCU_MAX_CMD_SIZE		5

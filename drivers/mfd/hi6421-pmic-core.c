@@ -10,15 +10,15 @@
  * Author: Guodong Xu <guodong.xu@linaro.org>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/hi6421-pmic.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/hi6421-pmic.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
 static const struct mfd_cell hi6421_devs[] = {
 	{ .name = "hi6421-regulator", },

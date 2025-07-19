@@ -9,14 +9,14 @@
  * Copyright 2011 Linaro Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/genalloc.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/suspend.h>
+#include <peenux/bitops.h>
+#include <peenux/genalloc.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/suspend.h>
 #include <asm/suspend.h>
 #include <asm/fncpy.h>
 #include "core.h"

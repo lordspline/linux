@@ -9,7 +9,7 @@
 #ifndef __MFD_ADP5585_H_
 #define __MFD_ADP5585_H_
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 #define ADP5585_ID			0x00
 #define		ADP5585_MAN_ID_VALUE		0x20

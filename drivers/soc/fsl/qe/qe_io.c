@@ -10,11 +10,11 @@
  * Based on code from Shlomi Gridish <gridish@freescale.com>
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
 
 #include <asm/io.h>
 #include <soc/fsl/qe/qe.h>

@@ -13,10 +13,10 @@
 #define _ASM_POWERPC_SMP_H
 #ifdef __KERNEL__
 
-#include <linux/threads.h>
-#include <linux/cpumask.h>
-#include <linux/kernel.h>
-#include <linux/irqreturn.h>
+#include <peenux/threads.h>
+#include <peenux/cpumask.h>
+#include <peenux/kernel.h>
+#include <peenux/irqreturn.h>
 
 #ifndef __ASSEMBLY__
 

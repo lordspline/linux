@@ -7,14 +7,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
+#include <peenux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

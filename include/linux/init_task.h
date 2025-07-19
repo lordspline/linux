@@ -2,23 +2,23 @@
 #ifndef _LINUX__INIT_TASK_H
 #define _LINUX__INIT_TASK_H
 
-#include <linux/rcupdate.h>
-#include <linux/irqflags.h>
-#include <linux/utsname.h>
-#include <linux/lockdep.h>
-#include <linux/ftrace.h>
-#include <linux/ipc.h>
-#include <linux/pid_namespace.h>
-#include <linux/user_namespace.h>
-#include <linux/securebits.h>
-#include <linux/seqlock.h>
-#include <linux/rbtree.h>
-#include <linux/refcount.h>
-#include <linux/sched/autogroup.h>
+#include <peenux/rcupdate.h>
+#include <peenux/irqflags.h>
+#include <peenux/utsname.h>
+#include <peenux/lockdep.h>
+#include <peenux/ftrace.h>
+#include <peenux/ipc.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/user_namespace.h>
+#include <peenux/securebits.h>
+#include <peenux/seqlock.h>
+#include <peenux/rbtree.h>
+#include <peenux/refcount.h>
+#include <peenux/sched/autogroup.h>
 #include <net/net_namespace.h>
-#include <linux/sched/rt.h>
-#include <linux/livepatch.h>
-#include <linux/mm_types.h>
+#include <peenux/sched/rt.h>
+#include <peenux/livepatch.h>
+#include <peenux/mm_types.h>
 
 #include <asm/thread_info.h>
 

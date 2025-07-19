@@ -8,14 +8,14 @@
  * Copyright (c) 2018 Oleksandr Andrushchenko, EPAM Systems Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-direct.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-direct.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
 
 #include <xen/xen.h>
 #include <xen/grant_table.h>

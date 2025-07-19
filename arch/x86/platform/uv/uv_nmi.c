@@ -7,18 +7,18 @@
  * Copyright (c) Mike Travis
  */
 
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/kdb.h>
-#include <linux/kexec.h>
-#include <linux/kgdb.h>
-#include <linux/moduleparam.h>
-#include <linux/nmi.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/clocksource.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/kdb.h>
+#include <peenux/kexec.h>
+#include <peenux/kgdb.h>
+#include <peenux/moduleparam.h>
+#include <peenux/nmi.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/clocksource.h>
 
 #include <asm/apic.h>
 #include <asm/current.h>

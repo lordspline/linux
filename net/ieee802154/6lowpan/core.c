@@ -44,10 +44,10 @@
  * SUCH DAMAGE.
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ieee802154.h>
-#include <linux/if_arp.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/ieee802154.h>
+#include <peenux/if_arp.h>
 
 #include <net/ipv6.h>
 #include <net/netdev_lock.h>

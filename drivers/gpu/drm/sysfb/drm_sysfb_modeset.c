@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

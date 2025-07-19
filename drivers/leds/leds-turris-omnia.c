@@ -5,12 +5,12 @@
  * 2020, 2023, 2024 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/i2c.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/turris-omnia-mcu-interface.h>
+#include <peenux/i2c.h>
+#include <peenux/led-class-multicolor.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/turris-omnia-mcu-interface.h>
 
 #define OMNIA_BOARD_LEDS	12
 #define OMNIA_LED_NUM_CHANNELS	3
@@ -248,7 +248,7 @@ static int omnia_led_register(struct i2c_client *client, struct omnia_led *led,
 	cdev->trigger_type = &omnia_hw_trigger_type;
 	/*
 	 * Use the omnia-mcu trigger as the default trigger. It may be rewritten
-	 * by LED class from the linux,default-trigger property.
+	 * by LED class from the peenux,default-trigger property.
 	 */
 	cdev->default_trigger = omnia_hw_trigger.name;
 

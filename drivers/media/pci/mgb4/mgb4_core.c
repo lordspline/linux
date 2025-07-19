@@ -17,21 +17,21 @@
  * created in this case.
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/dma/amd_xdma.h>
-#include <linux/platform_data/amd_xdma.h>
-#include <linux/spi/xilinx_spi.h>
-#include <linux/mtd/mtd.h>
-#include <linux/hwmon.h>
-#include <linux/debugfs.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/dma/amd_xdma.h>
+#include <peenux/platform_data/amd_xdma.h>
+#include <peenux/spi/xilinx_spi.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/hwmon.h>
+#include <peenux/debugfs.h>
 #include "mgb4_dma.h"
 #include "mgb4_i2c.h"
 #include "mgb4_sysfs.h"

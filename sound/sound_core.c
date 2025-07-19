@@ -8,11 +8,11 @@
 /*
  * First, the common part.
  */
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/kdev_t.h>
-#include <linux/major.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/kdev_t.h>
+#include <peenux/major.h>
 #include <sound/core.h>
 
 #ifdef CONFIG_SOUND_OSS_CORE
@@ -98,12 +98,12 @@ module_exit(cleanup_soundcore);
  *	locking at some point in 2.3.x.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sound.h>
-#include <linux/kmod.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/sound.h>
+#include <peenux/kmod.h>
 
 #define SOUND_STEP 16
 

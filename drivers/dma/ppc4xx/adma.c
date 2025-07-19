@@ -15,20 +15,20 @@
  * ADMA driver written by D.Williams.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/async_tx.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/proc_fs.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/async_tx.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/proc_fs.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 #include <asm/dcr.h>
 #include <asm/dcr-regs.h>
 #include "adma.h"

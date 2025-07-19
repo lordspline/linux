@@ -12,10 +12,10 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/timekeeping.h>
-#include <linux/uaccess.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/timekeeping.h>
+#include <peenux/uaccess.h>
 
 #include "isp.h"
 

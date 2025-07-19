@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap1/board-ams-delta.c
+ * peenux/arch/arm/mach-omap1/board-ams-delta.c
  *
  * Modified from board-generic.c
  *
@@ -8,33 +8,33 @@
  *
  * Copyright (C) 2006 Jonathan McDowell <noodles@earth.li>
  */
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/leds.h>
-#include <linux/mtd/nand-gpio.h>
-#include <linux/mtd/partitions.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/serial_8250.h>
-#include <linux/export.h>
-#include <linux/omapfb.h>
-#include <linux/io.h>
-#include <linux/platform_data/gpio-omap.h>
-#include <linux/soc/ti/omap1-mux.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/leds.h>
+#include <peenux/mtd/nand-gpio.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regulator/fixed.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/serial_8250.h>
+#include <peenux/export.h>
+#include <peenux/omapfb.h>
+#include <peenux/io.h>
+#include <peenux/platform_data/gpio-omap.h>
+#include <peenux/soc/ti/omap1-mux.h>
 
 #include <asm/serial.h>
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
 
-#include <linux/platform_data/keypad-omap.h>
+#include <peenux/platform_data/keypad-omap.h>
 
 #include "hardware.h"
 #include "usb.h"

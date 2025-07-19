@@ -1,5 +1,5 @@
 /*
- * linux/arch/arm/mach-omap2/irq.c
+ * peenux/arch/arm/mach-omap2/irq.c
  *
  * Interrupt handler for OMAP2 boards.
  *
@@ -10,20 +10,20 @@
  * License. See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
 
 #include <asm/exception.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
-#include <linux/irqchip/irq-omap-intc.h>
+#include <peenux/irqchip/irq-omap-intc.h>
 
 /* selected INTC register offsets */
 

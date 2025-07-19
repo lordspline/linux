@@ -4,9 +4,9 @@
  */
 
 #include <kunit/test.h>
-#include <linux/kernel.h>
-#include <linux/random.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/random.h>
+#include <peenux/string.h>
 
 static const char *cmdline_test_strings[] = {
 	"\"\"", ""  , "=" , "\"-", ","    , "-,"   , ",-"   , "-" ,

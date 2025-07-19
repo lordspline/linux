@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2025 Google LLC */
-#include <linux/bpf.h>
-#include <linux/btf_ids.h>
-#include <linux/dma-buf.h>
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
+#include <peenux/bpf.h>
+#include <peenux/btf_ids.h>
+#include <peenux/dma-buf.h>
+#include <peenux/kernel.h>
+#include <peenux/seq_file.h>
 
 static void *dmabuf_iter_seq_start(struct seq_file *seq, loff_t *pos)
 {

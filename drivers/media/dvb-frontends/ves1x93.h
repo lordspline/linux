@@ -13,7 +13,7 @@
 #ifndef VES1X93_H
 #define VES1X93_H
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 
 struct ves1x93_config
 {

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2019 Facebook
 #include <vmlinux.h>
-#include <linux/version.h>
+#include <peenux/version.h>
 #include <bpf/bpf_helpers.h>
 
 struct task_struct *bpf_task_from_pid(int pid) __ksym;

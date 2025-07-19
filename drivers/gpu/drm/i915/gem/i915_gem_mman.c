@@ -3,10 +3,10 @@
  * Copyright © 2014-2016 Intel Corporation
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/mman.h>
-#include <linux/pfn_t.h>
-#include <linux/sizes.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/mman.h>
+#include <peenux/pfn_t.h>
+#include <peenux/sizes.h>
 
 #include <drm/drm_cache.h>
 

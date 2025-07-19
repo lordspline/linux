@@ -5,17 +5,17 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
-#include <linux/of.h>
-#include <linux/if_vlan.h>
-#include <linux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/etherdevice.h>
+#include <peenux/of.h>
+#include <peenux/if_vlan.h>
+#include <peenux/iommu.h>
 #include <net/ip.h>
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
-#include <linux/bitfield.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_trace.h>
+#include <peenux/bitfield.h>
 #include <net/page_pool/types.h>
 
 #include "otx2_reg.h"

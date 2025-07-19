@@ -6,8 +6,8 @@
 #ifndef _XE_GUC_BUF_H_
 #define _XE_GUC_BUF_H_
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
 
 #include "xe_guc_buf_types.h"
 

@@ -2,13 +2,13 @@
 /*
  *  GT641xx IRQ routines.
  *
- *  Copyright (C) 2007	Yoichi Yuasa <yuasa@linux-mips.org>
+ *  Copyright (C) 2007	Yoichi Yuasa <yuasa@peenux-mips.org>
  */
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/hardirq.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include <asm/gt64120.h>
 

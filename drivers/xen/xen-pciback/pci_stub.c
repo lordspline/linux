@@ -8,16 +8,16 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 #define dev_fmt pr_fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/rwsem.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/kref.h>
-#include <linux/pci.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/atomic.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/rwsem.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/kref.h>
+#include <peenux/pci.h>
+#include <peenux/wait.h>
+#include <peenux/sched.h>
+#include <peenux/atomic.h>
 #include <xen/events.h>
 #include <xen/pci.h>
 #include <xen/xen.h>

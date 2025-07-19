@@ -9,14 +9,14 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/sysfs.h>
+#include <peenux/pm_runtime.h>
 
 #define ALS_MIN_RANGE_VAL 1
 #define ALS_MAX_RANGE_VAL 2

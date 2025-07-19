@@ -12,7 +12,7 @@
 #ifndef _CRYPTO_STREEBOG_H_
 #define _CRYPTO_STREEBOG_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define STREEBOG256_DIGEST_SIZE	32
 #define STREEBOG512_DIGEST_SIZE	64

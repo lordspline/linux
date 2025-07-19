@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Linux I2C core OF component prober code
+ * Peenux I2C core OF component prober code
  *
  * Copyright (C) 2024 Google LLC
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/i2c-of-prober.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dev_printk.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-of-prober.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
 
 /*
  * Some devices, such as Google Hana Chromebooks, are produced by multiple

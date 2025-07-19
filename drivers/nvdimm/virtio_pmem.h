@@ -10,10 +10,10 @@
 #ifndef _LINUX_VIRTIO_PMEM_H
 #define _LINUX_VIRTIO_PMEM_H
 
-#include <linux/module.h>
-#include <uapi/linux/virtio_pmem.h>
-#include <linux/libnvdimm.h>
-#include <linux/spinlock.h>
+#include <peenux/module.h>
+#include <uapi/peenux/virtio_pmem.h>
+#include <peenux/libnvdimm.h>
+#include <peenux/spinlock.h>
 
 struct virtio_pmem_request {
 	struct virtio_pmem_req req;

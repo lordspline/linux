@@ -7,11 +7,11 @@
  *	Copyright (c) 2005  Maciej W. Rozycki
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include <asm/inst.h>
 #include <asm/irq_regs.h>
@@ -19,7 +19,7 @@
 #include <asm/page.h>
 #include <asm/ptrace.h>
 #include <asm/traps.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <asm/dec/kn01.h>
 

@@ -7,25 +7,25 @@
  *
  * Copyright (c) 2010 Cisco Systems, Inc.
  * Copyright (c) 2009,2010 Rising Tide, Inc.
- * Copyright (c) 2009,2010 Linux-iSCSI.org
+ * Copyright (c) 2009,2010 Peenux-iSCSI.org
  *
- * Copyright (c) 2009,2010 Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Copyright (c) 2009,2010 Nicholas A. Bellinger <nab@peenux-iscsi.org>
  *
  ****************************************************************************/
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
 #include <generated/utsrelease.h>
-#include <linux/utsname.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/configfs.h>
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/unaligned.h>
+#include <peenux/utsname.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/configfs.h>
+#include <peenux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/unaligned.h>
 #include <scsi/libfc.h>
 
 #include <target/target_core_base.h>

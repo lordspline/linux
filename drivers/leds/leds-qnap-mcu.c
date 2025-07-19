@@ -5,12 +5,12 @@
  * Copyright (C) 2024 Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/leds.h>
-#include <linux/mfd/qnap-mcu.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <uapi/linux/uleds.h>
+#include <peenux/leds.h>
+#include <peenux/mfd/qnap-mcu.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <uapi/peenux/uleds.h>
 
 enum qnap_mcu_err_led_mode {
 	QNAP_MCU_ERR_LED_ON = 0,

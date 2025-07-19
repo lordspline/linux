@@ -8,7 +8,7 @@
  * NORMAL/BATCH tasks.
  */
 
-#include <linux/sched.h>
+#include <peenux/sched.h>
 
 static inline bool dl_prio(int prio)
 {

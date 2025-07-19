@@ -7,13 +7,13 @@
  * This is the entry point for the drivers that control the Wilco EC.
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/ioport.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/wilco-ec.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/ioport.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/wilco-ec.h>
+#include <peenux/platform_device.h>
 
 #include "../cros_ec_lpc_mec.h"
 

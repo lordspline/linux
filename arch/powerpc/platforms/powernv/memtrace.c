@@ -6,17 +6,17 @@
 
 #define pr_fmt(fmt) "memtrace: " fmt
 
-#include <linux/bitops.h>
-#include <linux/string.h>
-#include <linux/memblock.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/fs.h>
-#include <linux/debugfs.h>
-#include <linux/slab.h>
-#include <linux/memory.h>
-#include <linux/memory_hotplug.h>
-#include <linux/numa.h>
+#include <peenux/bitops.h>
+#include <peenux/string.h>
+#include <peenux/memblock.h>
+#include <peenux/init.h>
+#include <peenux/moduleparam.h>
+#include <peenux/fs.h>
+#include <peenux/debugfs.h>
+#include <peenux/slab.h>
+#include <peenux/memory.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/numa.h>
 #include <asm/machdep.h>
 #include <asm/cacheflush.h>
 

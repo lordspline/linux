@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- *  include/linux/anon_inodes.h
+ *  include/peenux/anon_inodes.h
  *
  *  Copyright (C) 2007  Davide Libenzi <davidel@xmailserver.org>
  *
@@ -9,7 +9,7 @@
 #ifndef _LINUX_ANON_INODES_H
 #define _LINUX_ANON_INODES_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct file_operations;
 struct inode;

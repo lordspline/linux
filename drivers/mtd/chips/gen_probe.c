@@ -4,13 +4,13 @@
  * (C) 2001-2003 Red Hat, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/cfi.h>
-#include <linux/mtd/gen_probe.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/cfi.h>
+#include <peenux/mtd/gen_probe.h>
 
 static struct mtd_info *check_cmd_set(struct map_info *, int);
 static struct cfi_private *genprobe_ident_chips(struct map_info *map,

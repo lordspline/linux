@@ -61,7 +61,7 @@
 		heartbeat-led {
 			label = "Heartbeat";
 			gpios = <&gpio2 31 0>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 
@@ -128,12 +128,12 @@
 	};
 
 	spdif_out: spdif-out {
-		compatible = "linux,spdif-dit";
+		compatible = "peenux,spdif-dit";
 		#sound-dai-cells = <0>;
 	};
 
 	spdif_in: spdif-in {
-		compatible = "linux,spdif-dir";
+		compatible = "peenux,spdif-dir";
 		#sound-dai-cells = <0>;
 	};
 

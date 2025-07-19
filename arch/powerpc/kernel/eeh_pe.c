@@ -9,13 +9,13 @@
  * Copyright Benjamin Herrenschmidt & Gavin Shan, IBM Corporation 2012.
  */
 
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/string.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
 
 #include <asm/pci-bridge.h>
 #include <asm/ppc-pci.h>

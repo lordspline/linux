@@ -13,19 +13,19 @@
  *		https://pdfserv.maximintegrated.com/en/an/AN3785.pdf
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/prefetch.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/spi/spi.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/bitfield.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/prefetch.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/spi/spi.h>
+#include <peenux/gpio/consumer.h>
 
 #define MAX3420_MAX_EPS		4
 #define MAX3420_EP_MAX_PACKET		64  /* Same for all Endpoints */

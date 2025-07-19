@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) Meta Platforms, Inc. and affiliates. */
 
-#include <linux/unaligned.h>
-#include <linux/pci.h>
-#include <linux/pldmfw.h>
-#include <linux/types.h>
+#include <peenux/unaligned.h>
+#include <peenux/pci.h>
+#include <peenux/pldmfw.h>
+#include <peenux/types.h>
 #include <net/devlink.h>
 
 #include "fbnic.h"

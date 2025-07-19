@@ -4,9 +4,9 @@
 #ifndef IPU6_H
 #define IPU6_H
 
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <peenux/list.h>
+#include <peenux/pci.h>
+#include <peenux/types.h>
 
 #include "ipu6-buttress.h"
 

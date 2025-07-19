@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/console.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/console.h>
 #include <asm/hvsi.h>
 
 #include "hvc_console.h"

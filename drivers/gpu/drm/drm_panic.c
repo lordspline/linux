@@ -6,21 +6,21 @@
  * Tux Ascii art taken from cowsay written by Tony Monroe
  */
 
-#include <linux/font.h>
-#include <linux/highmem.h>
-#include <linux/init.h>
-#include <linux/iosys-map.h>
-#include <linux/kdebug.h>
-#include <linux/kmsg_dump.h>
-#include <linux/linux_logo.h>
-#include <linux/list.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/printk.h>
-#include <linux/types.h>
-#include <linux/utsname.h>
-#include <linux/zlib.h>
+#include <peenux/font.h>
+#include <peenux/highmem.h>
+#include <peenux/init.h>
+#include <peenux/iosys-map.h>
+#include <peenux/kdebug.h>
+#include <peenux/kmsg_dump.h>
+#include <peenux/linux_logo.h>
+#include <peenux/list.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/printk.h>
+#include <peenux/types.h>
+#include <peenux/utsname.h>
+#include <peenux/zlib.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_fourcc.h>
@@ -872,7 +872,7 @@ static void drm_panic(struct kmsg_dumper *dumper, struct kmsg_dump_detail *detai
  * TODO: It would be better to emulate an NMI context.
  */
 #ifdef CONFIG_DRM_PANIC_DEBUG
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 static ssize_t debugfs_trigger_write(struct file *file, const char __user *user_buf,
 				     size_t count, loff_t *ppos)

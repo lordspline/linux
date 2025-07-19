@@ -13,7 +13,7 @@
 #include "plx9050.h"
 #include "amcc5920.h"
 #include "quancom_pci.h"
-#include <linux/interrupt.h>
+#include <peenux/interrupt.h>
 
 enum ines_pci_chip {
 	PCI_CHIP_NONE,

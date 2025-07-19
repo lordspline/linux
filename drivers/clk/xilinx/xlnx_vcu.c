@@ -6,18 +6,18 @@
  *
  * Contacts   Dhaval Shah <dshah@xilinx.com>
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/xlnx-vcu.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/xlnx-vcu.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/xlnx-vcu.h>
 

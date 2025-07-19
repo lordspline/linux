@@ -4,15 +4,15 @@
  * Copyright (c) 2014, Intel Corporation.
  */
 
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/pm_runtime.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/events.h>
+#include <peenux/pm_runtime.h>
 #include "mma9551_core.h"
 
 #define MMA9553_DRV_NAME			"mma9553"

@@ -11,8 +11,8 @@
  * Hardware interface for Audio DSP on Rembrandt platform
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
 
 #include "../ops.h"
 #include "../sof-audio.h"

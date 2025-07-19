@@ -5,9 +5,9 @@
  * Author: Alexandre Torgue <alexandre.torgue@st.com>
  */
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/delay.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/delay.h>
 #include "common.h"
 #include "dwmac4_dma.h"
 #include "dwmac4.h"

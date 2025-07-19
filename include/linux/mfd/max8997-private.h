@@ -9,9 +9,9 @@
 #ifndef __LINUX_MFD_MAX8997_PRIV_H
 #define __LINUX_MFD_MAX8997_PRIV_H
 
-#include <linux/i2c.h>
-#include <linux/export.h>
-#include <linux/irqdomain.h>
+#include <peenux/i2c.h>
+#include <peenux/export.h>
+#include <peenux/irqdomain.h>
 
 #define MAX8997_REG_INVALID	(0xff)
 

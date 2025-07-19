@@ -2,8 +2,8 @@
 #ifndef __PERF_HIST_H
 #define __PERF_HIST_H
 
-#include <linux/rbtree.h>
-#include <linux/types.h>
+#include <peenux/rbtree.h>
+#include <peenux/types.h>
 #include "callchain.h"
 #include "color.h"
 #include "events_stats.h"

@@ -7,31 +7,31 @@
  *  Copyright (C) 2022 Microchip Technology Inc., All Rights Reserved.
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/circ_buf.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gfp_types.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/serial_8250.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/time.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/circ_buf.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/gfp_types.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/overflow.h>
+#include <peenux/pci.h>
+#include <peenux/pm.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_reg.h>
+#include <peenux/serial_8250.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/time.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #include <asm/byteorder.h>
 

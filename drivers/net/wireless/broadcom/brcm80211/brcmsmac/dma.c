@@ -14,9 +14,9 @@
  * CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
 #include <net/cfg80211.h>
 #include <net/mac80211.h>
 

@@ -2,7 +2,7 @@
 #ifndef _LINUX_IF_HSR_H_
 #define _LINUX_IF_HSR_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct net_device;
 

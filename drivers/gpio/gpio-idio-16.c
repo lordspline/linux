@@ -6,14 +6,14 @@
 
 #define DEFAULT_SYMBOL_NAMESPACE "GPIO_IDIO_16"
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gpio/regmap.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/gpio/regmap.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 #include "gpio-idio-16.h"
 

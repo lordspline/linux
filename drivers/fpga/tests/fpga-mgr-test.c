@@ -9,10 +9,10 @@
 
 #include <kunit/device.h>
 #include <kunit/test.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
+#include <peenux/fpga/fpga-mgr.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/types.h>
 
 #define HEADER_FILL		'H'
 #define IMAGE_FILL		'P'

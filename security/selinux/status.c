@@ -6,10 +6,10 @@
  *
  * Copyright (C) 2010 NEC corporation
  */
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
 #include "avc.h"
 #include "security.h"
 

@@ -8,18 +8,18 @@
  *	Copyright (C) 2006,2008 David Brownell
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/spi/spi_bitbang.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
+#include <peenux/spi/spi_bitbang.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
 
 #define DRV_NAME	"ath79-spi"
 

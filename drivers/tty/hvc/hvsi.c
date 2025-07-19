@@ -18,22 +18,22 @@
 
 #undef DEBUG
 
-#include <linux/console.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/major.h>
-#include <linux/kernel.h>
-#include <linux/of_irq.h>
-#include <linux/spinlock.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <peenux/console.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/major.h>
+#include <peenux/kernel.h>
+#include <peenux/of_irq.h>
+#include <peenux/spinlock.h>
+#include <peenux/sysrq.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
 #include <asm/hvcall.h>
 #include <asm/hvconsole.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/vio.h>
 #include <asm/param.h>
 #include <asm/hvsi.h>

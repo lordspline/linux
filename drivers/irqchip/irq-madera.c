@@ -6,18 +6,18 @@
  *                         Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/irqchip/irq-madera.h>
-#include <linux/mfd/madera/core.h>
-#include <linux/mfd/madera/pdata.h>
-#include <linux/mfd/madera/registers.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/irqchip/irq-madera.h>
+#include <peenux/mfd/madera/core.h>
+#include <peenux/mfd/madera/pdata.h>
+#include <peenux/mfd/madera/registers.h>
 
 #define MADERA_IRQ(_irq, _reg)					\
 	[MADERA_IRQ_ ## _irq] = {				\

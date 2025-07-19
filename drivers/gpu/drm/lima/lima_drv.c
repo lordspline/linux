@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0 OR MIT
 /* Copyright 2017-2019 Qiang Yu <yuq825@gmail.com> */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
 #include <drm/drm_ioctl.h>
 #include <drm/drm_drv.h>
 #include <drm/drm_prime.h>

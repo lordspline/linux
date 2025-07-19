@@ -5,13 +5,13 @@
  * Copyright (C) 2016 ARM Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/scpi_protocol.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/scpi_protocol.h>
 
 struct scpi_pm_domain {
 	struct generic_pm_domain genpd;

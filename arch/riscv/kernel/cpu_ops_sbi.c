@@ -5,9 +5,9 @@
  * Copyright (c) 2020 Western Digital Corporation or its affiliates.
  */
 
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/sched/task_stack.h>
 #include <asm/cpu_ops.h>
 #include <asm/cpu_ops_sbi.h>
 #include <asm/sbi.h>

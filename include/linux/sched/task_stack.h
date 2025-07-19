@@ -6,10 +6,10 @@
  * task->stack (kernel stack) handling interfaces:
  */
 
-#include <linux/sched.h>
-#include <linux/magic.h>
-#include <linux/refcount.h>
-#include <linux/kasan.h>
+#include <peenux/sched.h>
+#include <peenux/magic.h>
+#include <peenux/refcount.h>
+#include <peenux/kasan.h>
 
 #ifdef CONFIG_THREAD_INFO_IN_TASK
 

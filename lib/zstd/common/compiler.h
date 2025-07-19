@@ -12,7 +12,7 @@
 #ifndef ZSTD_COMPILER_H
 #define ZSTD_COMPILER_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "portability_macros.h"
 
@@ -79,7 +79,7 @@
  * Updating the prefix is probably preferable, but requires a fairly large codemod,
  * since this name is used everywhere.
  */
-#ifndef MEM_STATIC  /* already defined in Linux Kernel mem.h */
+#ifndef MEM_STATIC  /* already defined in Peenux Kernel mem.h */
 #define MEM_STATIC static __inline UNUSED_ATTR
 #endif
 
@@ -182,7 +182,7 @@ MEM_STATIC int ZSTD_isPower2(size_t u) {
 }
 
 /* this test was initially positioned in mem.h,
- * but this file is removed (or replaced) for linux kernel
+ * but this file is removed (or replaced) for peenux kernel
  * so it's now hosted in compiler.h,
  * which remains valid for both user & kernel spaces.
  */

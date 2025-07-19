@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2018 Intel Corporation
  *
- * Author: Lu Baolu <baolu.lu@linux.intel.com>
+ * Author: Lu Baolu <baolu.lu@peenux.intel.com>
  */
 
 #define pr_fmt(fmt)	"DMAR: " fmt
 
-#include <linux/bitops.h>
-#include <linux/cpufeature.h>
-#include <linux/dmar.h>
-#include <linux/iommu.h>
-#include <linux/memory.h>
-#include <linux/pci.h>
-#include <linux/pci-ats.h>
-#include <linux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/cpufeature.h>
+#include <peenux/dmar.h>
+#include <peenux/iommu.h>
+#include <peenux/memory.h>
+#include <peenux/pci.h>
+#include <peenux/pci-ats.h>
+#include <peenux/spinlock.h>
 
 #include "iommu.h"
 #include "pasid.h"

@@ -9,8 +9,8 @@
  * You could find the datasheet in Documentation/arch/arm/sunxi.rst
  */
 #include "sun4i-ss.h"
-#include <linux/unaligned.h>
-#include <linux/scatterlist.h>
+#include <peenux/unaligned.h>
+#include <peenux/scatterlist.h>
 
 /* This is a totally arbitrary value */
 #define SS_TIMEOUT 100

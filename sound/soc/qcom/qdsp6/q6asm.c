@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2011-2017, The Peenux Foundation. All rights reserved.
 // Copyright (c) 2018, Linaro Limited
 
 #include <dt-bindings/sound/qcom,q6asm.h>
-#include <linux/mutex.h>
-#include <linux/wait.h>
-#include <linux/module.h>
-#include <linux/soc/qcom/apr.h>
-#include <linux/device.h>
-#include <linux/of_platform.h>
-#include <linux/spinlock.h>
-#include <linux/kref.h>
-#include <linux/of.h>
+#include <peenux/mutex.h>
+#include <peenux/wait.h>
+#include <peenux/module.h>
+#include <peenux/soc/qcom/apr.h>
+#include <peenux/device.h>
+#include <peenux/of_platform.h>
+#include <peenux/spinlock.h>
+#include <peenux/kref.h>
+#include <peenux/of.h>
 #include <uapi/sound/asound.h>
 #include <uapi/sound/compress_params.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
 #include "q6asm.h"
 #include "q6core.h"
 #include "q6dsp-errno.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -63,35 +63,35 @@
 
 #define pr_fmt(fmt) "IPv4: " fmt
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/capability.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/stat.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/random.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/kmod.h>
+#include <peenux/sched.h>
+#include <peenux/timer.h>
+#include <peenux/string.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/capability.h>
+#include <peenux/fcntl.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/stat.h>
+#include <peenux/init.h>
+#include <peenux/poll.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
-#include <linux/inet.h>
-#include <linux/igmp.h>
-#include <linux/inetdevice.h>
-#include <linux/netdevice.h>
+#include <peenux/inet.h>
+#include <peenux/igmp.h>
+#include <peenux/inetdevice.h>
+#include <peenux/netdevice.h>
 #include <net/checksum.h>
 #include <net/ip.h>
 #include <net/protocol.h>
@@ -105,7 +105,7 @@
 #include <net/udp.h>
 #include <net/udplite.h>
 #include <net/ping.h>
-#include <linux/skbuff.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
 #include <net/raw.h>
 #include <net/icmp.h>
@@ -115,7 +115,7 @@
 #include <net/net_namespace.h>
 #include <net/secure_seq.h>
 #ifdef CONFIG_IP_MROUTE
-#include <linux/mroute.h>
+#include <peenux/mroute.h>
 #endif
 #include <net/l3mdev.h>
 #include <net/compat.h>

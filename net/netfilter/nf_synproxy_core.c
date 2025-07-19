@@ -3,15 +3,15 @@
  * Copyright (c) 2013 Patrick McHardy <kaber@trash.net>
  */
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/unaligned.h>
 #include <net/tcp.h>
 #include <net/netns/generic.h>
-#include <linux/proc_fs.h>
+#include <peenux/proc_fs.h>
 
-#include <linux/netfilter_ipv6.h>
-#include <linux/netfilter/nf_synproxy.h>
+#include <peenux/netfilter_ipv6.h>
+#include <peenux/netfilter/nf_synproxy.h>
 
 #include <net/netfilter/nf_conntrack.h>
 #include <net/netfilter/nf_conntrack_ecache.h>

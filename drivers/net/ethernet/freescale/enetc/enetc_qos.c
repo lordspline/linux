@@ -4,8 +4,8 @@
 #include "enetc.h"
 
 #include <net/pkt_sched.h>
-#include <linux/math64.h>
-#include <linux/refcount.h>
+#include <peenux/math64.h>
+#include <peenux/refcount.h>
 #include <net/pkt_cls.h>
 #include <net/tc_act/tc_gate.h>
 

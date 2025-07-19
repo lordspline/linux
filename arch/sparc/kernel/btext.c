@@ -4,11 +4,11 @@
  *
  * Benjamin Herrenschmidt <benh@kernel.crashing.org>
  */
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/font.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/font.h>
 
 #include <asm/btext.h>
 #include <asm/oplib.h>

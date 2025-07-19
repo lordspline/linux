@@ -7,9 +7,9 @@
 #ifndef _LINUX_ISHTP_CL_BUS_H
 #define _LINUX_ISHTP_CL_BUS_H
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/intel-ish-client-if.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/intel-ish-client-if.h>
 
 struct ishtp_cl;
 struct ishtp_cl_device;

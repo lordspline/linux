@@ -6,11 +6,11 @@
  * Original code (C) 2005 Benedikt Spranger <b.spranger@linutronix.de>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/uio_driver.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/uio_driver.h>
 
 #include <asm/io.h>
 

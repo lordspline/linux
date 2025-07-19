@@ -34,14 +34,14 @@
     
 ======================================================================*/
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/major.h>
-#include <linux/blkdev.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/ioport.h>
+#include <peenux/major.h>
+#include <peenux/blkdev.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

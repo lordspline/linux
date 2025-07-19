@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/module.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/iopoll.h>
-#include <linux/ip.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/module.h>
+#include <peenux/if_bridge.h>
+#include <peenux/if_vlan.h>
+#include <peenux/iopoll.h>
+#include <peenux/ip.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 #include <net/addrconf.h>
 
 #include "lan966x_main.h"

@@ -6,13 +6,13 @@
 #ifndef OPTEE_PRIVATE_H
 #define OPTEE_PRIVATE_H
 
-#include <linux/arm-smccc.h>
-#include <linux/notifier.h>
-#include <linux/rhashtable.h>
-#include <linux/rpmb.h>
-#include <linux/semaphore.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/notifier.h>
+#include <peenux/rhashtable.h>
+#include <peenux/rpmb.h>
+#include <peenux/semaphore.h>
+#include <peenux/tee_core.h>
+#include <peenux/types.h>
 #include "optee_msg.h"
 
 #define DRIVER_NAME "optee"

@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/sched/signal.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/sched/signal.h>
 #include "internal.h"
 #include "afs_fs.h"
 #include "protocol_uae.h"

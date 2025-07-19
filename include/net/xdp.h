@@ -6,10 +6,10 @@
 #ifndef __LINUX_NET_XDP_H__
 #define __LINUX_NET_XDP_H__
 
-#include <linux/bitfield.h>
-#include <linux/filter.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h> /* skb_shared_info */
+#include <peenux/bitfield.h>
+#include <peenux/filter.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h> /* skb_shared_info */
 
 #include <net/page_pool/types.h>
 

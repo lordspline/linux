@@ -4,16 +4,16 @@
 SMB Direct - SMB3 over RDMA
 ===========================
 
-This document describes how to set up the Linux SMB client and server to
+This document describes how to set up the Peenux SMB client and server to
 use RDMA.
 
 Overview
 ========
-The Linux SMB kernel client supports SMB Direct, which is a transport
+The Peenux SMB kernel client supports SMB Direct, which is a transport
 scheme for SMB3 that uses RDMA (Remote Direct Memory Access) to provide
 high throughput and low latencies by bypassing the traditional TCP/IP
 stack.
-SMB Direct on the Linux SMB client can be tested against KSMBD - a
+SMB Direct on the Peenux SMB client can be tested against KSMBD - a
 kernel-space SMB server.
 
 Installation

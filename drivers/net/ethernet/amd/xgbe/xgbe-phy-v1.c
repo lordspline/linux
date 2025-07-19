@@ -5,12 +5,12 @@
  * All rights reserved
  */
 
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/device.h>
-#include <linux/property.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
+#include <peenux/module.h>
+#include <peenux/kmod.h>
+#include <peenux/device.h>
+#include <peenux/property.h>
+#include <peenux/mdio.h>
+#include <peenux/phy.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

@@ -13,7 +13,7 @@
  */
 
 /*
- * Atari keyboard driver for Linux/m68k
+ * Atari keyboard driver for Peenux/m68k
  *
  * The low level init and interrupt stuff is handled in arch/mm68k/atari/atakeyb.c
  * (the keyboard ACIA also handles the mouse and joystick data, and the keyboard
@@ -21,11 +21,11 @@
  * This driver only deals with handing key events off to the input layer.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
 
 #include <asm/atariints.h>
 #include <asm/atarihw.h>

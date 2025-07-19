@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2020 Nuvoton Technology corporation.
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
 /* GCR registers */
 #define NPCM8XX_GCR_SRCNT	0x068

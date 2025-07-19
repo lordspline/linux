@@ -64,31 +64,31 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_arp.h>
-#include <linux/ioport.h>
-#include <linux/bitops.h>
-#include <linux/mii.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/in.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_arp.h>
+#include <peenux/ioport.h>
+#include <peenux/bitops.h>
+#include <peenux/mii.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/cisreg.h>
 #include <pcmcia/ciscode.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #ifndef MANFID_COMPAQ
   #define MANFID_COMPAQ 	   0x0138

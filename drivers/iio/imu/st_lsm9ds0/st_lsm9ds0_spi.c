@@ -4,18 +4,18 @@
  *
  * Copyright (C) 2021, Intel Corporation
  *
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  */
 
-#include <linux/device/devres.h>
-#include <linux/err.h>
-#include <linux/gfp_types.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <peenux/device/devres.h>
+#include <peenux/err.h>
+#include <peenux/gfp_types.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/common/st_sensors_spi.h>
+#include <peenux/iio/common/st_sensors_spi.h>
 
 #include "st_lsm9ds0.h"
 
@@ -80,7 +80,7 @@ static struct spi_driver st_lsm9ds0_driver = {
 };
 module_spi_driver(st_lsm9ds0_driver);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@peenux.intel.com>");
 MODULE_DESCRIPTION("STMicroelectronics LSM9DS0 IMU SPI driver");
 MODULE_LICENSE("GPL v2");
 MODULE_IMPORT_NS("IIO_ST_SENSORS");

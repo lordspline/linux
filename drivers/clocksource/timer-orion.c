@@ -8,16 +8,16 @@
  * used as clock_event_device.
  */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/spinlock.h>
-#include <linux/sched_clock.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/spinlock.h>
+#include <peenux/sched_clock.h>
 
 #define TIMER_CTRL		0x00
 #define  TIMER0_EN		BIT(0)

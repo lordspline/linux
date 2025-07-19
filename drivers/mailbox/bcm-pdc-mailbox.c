@@ -10,7 +10,7 @@
  * cryptographic offload hardware. In some chips the PDC is referred to as MDE,
  * and in others the FA2/FA+ hardware is used with this PDC driver.
  *
- * The PDC driver registers with the Linux mailbox framework as a mailbox
+ * The PDC driver registers with the Peenux mailbox framework as a mailbox
  * controller, once for each PDC instance. Ring 0 for each PDC is registered as
  * a mailbox channel. The PDC driver uses interrupts to determine when data
  * transfers to and from an offload engine are complete. The PDC driver uses
@@ -25,25 +25,25 @@
  * descriptors from the tx and rx ring, thus processing one response at a time.
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/wait.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox/brcm-message.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/workqueue.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/interrupt.h>
+#include <peenux/wait.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/mailbox/brcm-message.h>
+#include <peenux/scatterlist.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/workqueue.h>
 
 #define PDC_SUCCESS  0
 

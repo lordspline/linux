@@ -9,10 +9,10 @@
  * Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/dmi.h>
-#include <linux/gpio/machine.h>
-#include <linux/platform_data/tps68470.h>
-#include <linux/regulator/machine.h>
+#include <peenux/dmi.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/platform_data/tps68470.h>
+#include <peenux/regulator/machine.h>
 #include "tps68470.h"
 
 static struct regulator_consumer_supply int347a_core_consumer_supplies[] = {

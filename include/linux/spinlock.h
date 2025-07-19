@@ -4,7 +4,7 @@
 #define __LINUX_INSIDE_SPINLOCK_H
 
 /*
- * include/linux/spinlock.h - generic spinlock/rwlock declarations
+ * include/peenux/spinlock.h - generic spinlock/rwlock declarations
  *
  * here's the role of the various spinlock/rwlock related include files:
  *
@@ -13,9 +13,9 @@
  *  asm/spinlock_types.h: contains the arch_spinlock_t/arch_rwlock_t and the
  *                        initializers
  *
- *  linux/spinlock_types_raw:
+ *  peenux/spinlock_types_raw:
  *			  The raw types and initializers
- *  linux/spinlock_types.h:
+ *  peenux/spinlock_types.h:
  *                        defines the generic type and initializers
  *
  *  asm/spinlock.h:       contains the arch_spin_*()/etc. lowlevel
@@ -23,45 +23,45 @@
  *
  *   (also included on UP-debug builds:)
  *
- *  linux/spinlock_api_smp.h:
+ *  peenux/spinlock_api_smp.h:
  *                        contains the prototypes for the _spin_*() APIs.
  *
- *  linux/spinlock.h:     builds the final spin_*() APIs.
+ *  peenux/spinlock.h:     builds the final spin_*() APIs.
  *
  * on UP builds:
  *
- *  linux/spinlock_type_up.h:
+ *  peenux/spinlock_type_up.h:
  *                        contains the generic, simplified UP spinlock type.
  *                        (which is an empty structure on non-debug builds)
  *
- *  linux/spinlock_types_raw:
+ *  peenux/spinlock_types_raw:
  *			  The raw RT types and initializers
- *  linux/spinlock_types.h:
+ *  peenux/spinlock_types.h:
  *                        defines the generic type and initializers
  *
- *  linux/spinlock_up.h:
+ *  peenux/spinlock_up.h:
  *                        contains the arch_spin_*()/etc. version of UP
  *                        builds. (which are NOPs on non-debug, non-preempt
  *                        builds)
  *
  *   (included on UP-non-debug builds:)
  *
- *  linux/spinlock_api_up.h:
+ *  peenux/spinlock_api_up.h:
  *                        builds the _spin_*() APIs.
  *
- *  linux/spinlock.h:     builds the final spin_*() APIs.
+ *  peenux/spinlock.h:     builds the final spin_*() APIs.
  */
 
-#include <linux/typecheck.h>
-#include <linux/preempt.h>
-#include <linux/linkage.h>
-#include <linux/compiler.h>
-#include <linux/irqflags.h>
-#include <linux/thread_info.h>
-#include <linux/stringify.h>
-#include <linux/bottom_half.h>
-#include <linux/lockdep.h>
-#include <linux/cleanup.h>
+#include <peenux/typecheck.h>
+#include <peenux/preempt.h>
+#include <peenux/linkage.h>
+#include <peenux/compiler.h>
+#include <peenux/irqflags.h>
+#include <peenux/thread_info.h>
+#include <peenux/stringify.h>
+#include <peenux/bottom_half.h>
+#include <peenux/lockdep.h>
+#include <peenux/cleanup.h>
 #include <asm/barrier.h>
 #include <asm/mmiowb.h>
 
@@ -86,7 +86,7 @@
 /*
  * Pull the arch_spinlock_t and arch_rwlock_t definitions:
  */
-#include <linux/spinlock_types.h>
+#include <peenux/spinlock_types.h>
 
 /*
  * Pull the arch_spin*() functions/declarations (UP-nondebug doesn't need them):
@@ -94,7 +94,7 @@
 #ifdef CONFIG_SMP
 # include <asm/spinlock.h>
 #else
-# include <linux/spinlock_up.h>
+# include <peenux/spinlock_up.h>
 #endif
 
 #ifdef CONFIG_DEBUG_SPINLOCK
@@ -302,16 +302,16 @@ static inline void do_raw_spin_unlock(raw_spinlock_t *lock) __releases(lock)
 
 #ifndef CONFIG_PREEMPT_RT
 /* Include rwlock functions for !RT */
-#include <linux/rwlock.h>
+#include <peenux/rwlock.h>
 #endif
 
 /*
  * Pull the _spin_*()/_read_*()/_write_*() functions/declarations:
  */
 #if defined(CONFIG_SMP) || defined(CONFIG_DEBUG_SPINLOCK)
-# include <linux/spinlock_api_smp.h>
+# include <peenux/spinlock_api_smp.h>
 #else
-# include <linux/spinlock_api_up.h>
+# include <peenux/spinlock_api_up.h>
 #endif
 
 /* Non PREEMPT_RT kernel, map to raw spinlocks: */
@@ -436,7 +436,7 @@ static __always_inline int spin_trylock_irq(spinlock_t *lock)
  * seen to be locked, not that it is locked on your CPU.
  *
  * Further, on CONFIG_SMP=n builds with CONFIG_DEBUG_SPINLOCK=n,
- * the return value is always 0 (see include/linux/spinlock_up.h).
+ * the return value is always 0 (see include/peenux/spinlock_up.h).
  * Therefore you should not rely heavily on the return value.
  */
 static __always_inline int spin_is_locked(spinlock_t *lock)
@@ -452,7 +452,7 @@ static __always_inline int spin_is_contended(spinlock_t *lock)
 #define assert_spin_locked(lock)	assert_raw_spin_locked(&(lock)->rlock)
 
 #else  /* !CONFIG_PREEMPT_RT */
-# include <linux/spinlock_rt.h>
+# include <peenux/spinlock_rt.h>
 #endif /* CONFIG_PREEMPT_RT */
 
 /*
@@ -488,7 +488,7 @@ static inline int rwlock_needbreak(rwlock_t *lock)
  * Pull the atomic_t declaration:
  * (asm-mips/atomic.h needs above definitions)
  */
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 /**
  * atomic_dec_and_lock - lock on reaching reference count zero
  * @atomic: the atomic counter

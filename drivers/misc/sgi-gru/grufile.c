@@ -11,18 +11,18 @@
  *  Copyright (c) 2008-2014 Silicon Graphics, Inc.  All Rights Reserved.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/miscdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/proc_fs.h>
+#include <peenux/uaccess.h>
 #ifdef CONFIG_X86_64
 #include <asm/uv/uv_irq.h>
 #endif

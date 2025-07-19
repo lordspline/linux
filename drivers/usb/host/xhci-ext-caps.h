@@ -5,7 +5,7 @@
  * Copyright (C) 2008 Intel Corp.
  *
  * Author: Sarah Sharp
- * Some code borrowed from the Linux EHCI driver.
+ * Some code borrowed from the Peenux EHCI driver.
  */
 
 /* HC should halt within 16 ms, but use 32 ms as some hosts take longer */
@@ -111,7 +111,7 @@ struct xhci_protocol_caps {
 #define	XHCI_EXT_PORT_LP(x)	(((x) >> 14) & 0x03)
 #define	XHCI_EXT_PORT_PSIM(x)	(((x) >> 16) & 0xffff)
 
-#include <linux/io.h>
+#include <peenux/io.h>
 
 /**
  * Find the offset of the extended capabilities with capability ID id.

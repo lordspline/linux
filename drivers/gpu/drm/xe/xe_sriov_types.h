@@ -6,10 +6,10 @@
 #ifndef _XE_SRIOV_TYPES_H_
 #define _XE_SRIOV_TYPES_H_
 
-#include <linux/build_bug.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/workqueue_types.h>
+#include <peenux/build_bug.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/workqueue_types.h>
 
 /**
  * VFID - Virtual Function Identifier

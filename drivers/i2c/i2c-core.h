@@ -3,8 +3,8 @@
  * i2c-core.h - interfaces internal to the I2C framework
  */
 
-#include <linux/kconfig.h>
-#include <linux/rwsem.h>
+#include <peenux/kconfig.h>
+#include <peenux/rwsem.h>
 
 struct i2c_devinfo {
 	struct list_head	list;

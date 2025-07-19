@@ -6,13 +6,13 @@
  *
  */
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/i2c-atr.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-atr.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
 
 #define FPC202_NUM_PORTS 2
 #define FPC202_ALIASES_PER_PORT 2

@@ -18,24 +18,24 @@
  * Copyright (C) 2006 Ingo Molnar <mingo@elte.hu>
  *
  */
-#include <linux/bvec.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/pagemap.h>
-#include <linux/splice.h>
-#include <linux/memcontrol.h>
-#include <linux/mm_inline.h>
-#include <linux/swap.h>
-#include <linux/writeback.h>
-#include <linux/export.h>
-#include <linux/syscalls.h>
-#include <linux/uio.h>
-#include <linux/fsnotify.h>
-#include <linux/security.h>
-#include <linux/gfp.h>
-#include <linux/net.h>
-#include <linux/socket.h>
-#include <linux/sched/signal.h>
+#include <peenux/bvec.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/pagemap.h>
+#include <peenux/splice.h>
+#include <peenux/memcontrol.h>
+#include <peenux/mm_inline.h>
+#include <peenux/swap.h>
+#include <peenux/writeback.h>
+#include <peenux/export.h>
+#include <peenux/syscalls.h>
+#include <peenux/uio.h>
+#include <peenux/fsnotify.h>
+#include <peenux/security.h>
+#include <peenux/gfp.h>
+#include <peenux/net.h>
+#include <peenux/socket.h>
+#include <peenux/sched/signal.h>
 
 #include "internal.h"
 

@@ -2,7 +2,7 @@
 #ifndef __LINUX_SPI_XILINX_SPI_H
 #define __LINUX_SPI_XILINX_SPI_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct spi_board_info;
 

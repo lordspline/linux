@@ -9,42 +9,42 @@
  *
  * (part of code stolen from loop.c)
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/file.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/major.h>
-#include <linux/wait.h>
-#include <linux/blkdev.h>
-#include <linux/init.h>
-#include <linux/swap.h>
-#include <linux/slab.h>
-#include <linux/compat.h>
-#include <linux/mutex.h>
-#include <linux/writeback.h>
-#include <linux/completion.h>
-#include <linux/highmem.h>
-#include <linux/sysfs.h>
-#include <linux/miscdevice.h>
-#include <linux/falloc.h>
-#include <linux/uio.h>
-#include <linux/ioprio.h>
-#include <linux/sched/mm.h>
-#include <linux/uaccess.h>
-#include <linux/cdev.h>
-#include <linux/io_uring/cmd.h>
-#include <linux/blk-mq.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/file.h>
+#include <peenux/stat.h>
+#include <peenux/errno.h>
+#include <peenux/major.h>
+#include <peenux/wait.h>
+#include <peenux/blkdev.h>
+#include <peenux/init.h>
+#include <peenux/swap.h>
+#include <peenux/slab.h>
+#include <peenux/compat.h>
+#include <peenux/mutex.h>
+#include <peenux/writeback.h>
+#include <peenux/completion.h>
+#include <peenux/highmem.h>
+#include <peenux/sysfs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/falloc.h>
+#include <peenux/uio.h>
+#include <peenux/ioprio.h>
+#include <peenux/sched/mm.h>
+#include <peenux/uaccess.h>
+#include <peenux/cdev.h>
+#include <peenux/io_uring/cmd.h>
+#include <peenux/blk-mq.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
 #include <asm/page.h>
-#include <linux/task_work.h>
-#include <linux/namei.h>
-#include <linux/kref.h>
-#include <uapi/linux/ublk_cmd.h>
+#include <peenux/task_work.h>
+#include <peenux/namei.h>
+#include <peenux/kref.h>
+#include <uapi/peenux/ublk_cmd.h>
 
 #define UBLK_MINORS		(1U << MINORBITS)
 

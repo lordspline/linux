@@ -4,20 +4,20 @@
 //
 // Copyright 2010-2011 Freescale Semiconductor, Inc. All Rights Reserved.
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/i2c.h>
-#include <linux/clk.h>
-#include <linux/log2.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/pm.h>
+#include <peenux/i2c.h>
+#include <peenux/clk.h>
+#include <peenux/log2.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/core.h>
 #include <sound/tlv.h>
 #include <sound/pcm.h>
@@ -1560,7 +1560,7 @@ static const struct regmap_config sgtl5000_regmap = {
  * Since sgtl5000 does not have a reset line, nor a reset command in software,
  * we follow this approach to guarantee we always start from the default values
  * and avoid problems like, not being able to probe after an audio playback
- * followed by a system reset or a 'reboot' command in Linux
+ * followed by a system reset or a 'reboot' command in Peenux
  */
 static void sgtl5000_fill_defaults(struct i2c_client *client)
 {

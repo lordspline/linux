@@ -5,8 +5,8 @@
  *  Copyright (c) 2010-2015 Steven Toth <stoth@kernellabs.com>
  */
 
-#include <linux/wait.h>
-#include <linux/slab.h>
+#include <peenux/wait.h>
+#include <peenux/slab.h>
 
 #include "saa7164.h"
 

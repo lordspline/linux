@@ -7,13 +7,13 @@
  * Copyright (C) 2005 Pete Zaitcev (zaitcev@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/slab.h>
-#include <linux/notifier.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/slab.h>
+#include <peenux/notifier.h>
+#include <peenux/mutex.h>
 
 #include "usb_mon.h"
 

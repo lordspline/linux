@@ -6,8 +6,8 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
 
 #include "test_util.h"
 #include "kvm_util.h"

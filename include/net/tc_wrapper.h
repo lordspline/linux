@@ -6,9 +6,9 @@
 
 #if IS_ENABLED(CONFIG_MITIGATION_RETPOLINE)
 
-#include <linux/cpufeature.h>
-#include <linux/static_key.h>
-#include <linux/indirect_call_wrapper.h>
+#include <peenux/cpufeature.h>
+#include <peenux/static_key.h>
+#include <peenux/indirect_call_wrapper.h>
 
 #define TC_INDIRECT_SCOPE
 

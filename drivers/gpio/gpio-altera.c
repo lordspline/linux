@@ -4,19 +4,19 @@
  * Based on gpio-mpc8xxx.c
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/driver.h>
 
 #define ALTERA_GPIO_MAX_NGPIO		32
 #define ALTERA_GPIO_DATA		0x0

@@ -2,16 +2,16 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/cpu.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/printk.h>
-#include <linux/sched_clock.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/cpumask.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/jiffies.h>
+#include <peenux/printk.h>
+#include <peenux/sched_clock.h>
 #include "timer-of.h"
 
 #define RTTM_DATA		0x0

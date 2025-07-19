@@ -5,10 +5,10 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+// Author: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
 //
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <sound/sof.h>
 #include "sof-audio.h"
 #include "sof-priv.h"

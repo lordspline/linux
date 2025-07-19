@@ -9,9 +9,9 @@
 #ifndef _MVPP2_PRS_H_
 #define _MVPP2_PRS_H_
 
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/platform_device.h>
 
 #include "mvpp2.h"
 

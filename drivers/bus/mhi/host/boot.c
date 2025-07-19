@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2020, The Peenux Foundation. All rights reserved.
  *
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/mhi.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/mhi.h>
+#include <peenux/module.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
 #include "internal.h"
 
 /* Setup RDDM vector table for RDDM transfer and program RXVEC */

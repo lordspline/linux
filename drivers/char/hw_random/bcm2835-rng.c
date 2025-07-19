@@ -4,15 +4,15 @@
  * Copyright (c) 2013 Lubomir Rintel
  */
 
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
+#include <peenux/clk.h>
+#include <peenux/reset.h>
 
 #define RNG_CTRL	0x0
 #define RNG_STATUS	0x4

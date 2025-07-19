@@ -29,12 +29,12 @@
 
 #include "vdo.h"
 
-#include <linux/completion.h>
-#include <linux/device-mapper.h>
-#include <linux/lz4.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/completion.h>
+#include <peenux/device-mapper.h>
+#include <peenux/lz4.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

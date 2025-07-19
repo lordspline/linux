@@ -6,12 +6,12 @@
  * Copyright (C) 2013 GSI Helmholtz Centre for Heavy Ion Research GmbH
  */
 
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
+#include <peenux/uaccess.h>
 
 #define GSI_VENDOR_OPENCLOSE 0xB0
 

@@ -6,9 +6,9 @@
  * Library routines for retrieving trip point temperature values from the
  * platform firmware via ACPI.
  */
-#include <linux/acpi.h>
-#include <linux/units.h>
-#include <linux/thermal.h>
+#include <peenux/acpi.h>
+#include <peenux/units.h>
+#include <peenux/thermal.h>
 #include "internal.h"
 
 /*

@@ -53,4 +53,4 @@ PiSP Back End. The section is informative only, for a detailed description of
 each field refer to the `Raspberry Pi PiSP technical specification
 <https://datasheets.raspberrypi.com/camera/raspberry-pi-image-signal-processor-specification.pdf>`_.
 
-.. kernel-doc:: include/uapi/linux/media/raspberrypi/pisp_be_config.h
+.. kernel-doc:: include/uapi/peenux/media/raspberrypi/pisp_be_config.h

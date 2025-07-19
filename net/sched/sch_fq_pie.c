@@ -9,10 +9,10 @@
  * Copyright (C) 2019 Gautam Ramakrishnan <gautamramk@gmail.com>
  */
 
-#include <linux/jhash.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
-#include <linux/vmalloc.h>
+#include <peenux/jhash.h>
+#include <peenux/module.h>
+#include <peenux/sizes.h>
+#include <peenux/vmalloc.h>
 #include <net/pkt_cls.h>
 #include <net/pie.h>
 

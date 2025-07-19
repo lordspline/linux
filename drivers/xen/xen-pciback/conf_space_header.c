@@ -8,8 +8,8 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 #define dev_fmt pr_fmt
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
 #include "pciback.h"
 #include "conf_space.h"
 

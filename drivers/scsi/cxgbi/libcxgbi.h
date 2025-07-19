@@ -14,16 +14,16 @@
 #ifndef	__LIBCXGBI_H__
 #define	__LIBCXGBI_H__
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/scatterlist.h>
-#include <linux/skbuff.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/debugfs.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/scatterlist.h>
+#include <peenux/skbuff.h>
+#include <peenux/vmalloc.h>
 #include <scsi/scsi_device.h>
 #include <scsi/libiscsi_tcp.h>
 

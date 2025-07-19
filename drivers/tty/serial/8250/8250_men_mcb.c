@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/mcb.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_8250.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/mcb.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_8250.h>
 
 #define MEN_UART_ID_Z025 0x19
 #define MEN_UART_ID_Z057 0x39

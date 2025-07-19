@@ -8,7 +8,7 @@
 #ifndef DW_HDMIRX_H
 #define DW_HDMIRX_H
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 #define UPDATE(x, h, l)		(((x) << (l)) & GENMASK((h), (l)))
 #define HIWORD_UPDATE(v, h, l)	(((v) << (l)) | (GENMASK((h), (l)) << 16))

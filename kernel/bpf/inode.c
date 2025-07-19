@@ -8,19 +8,19 @@
  *	Daniel Borkmann <daniel@iogearbox.net>
  */
 
-#include <linux/init.h>
-#include <linux/magic.h>
-#include <linux/major.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/kdev_t.h>
-#include <linux/filter.h>
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
-#include <linux/kstrtox.h>
+#include <peenux/init.h>
+#include <peenux/magic.h>
+#include <peenux/major.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/kdev_t.h>
+#include <peenux/filter.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_trace.h>
+#include <peenux/kstrtox.h>
 #include "preload/bpf_preload.h"
 
 enum bpf_type {

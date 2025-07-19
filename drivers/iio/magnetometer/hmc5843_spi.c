@@ -5,9 +5,9 @@
  * Copyright (C) Josef Gajdusek <atx@atx.name>
  */
 
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/iio/iio.h>
 
 #include "hmc5843.h"
 

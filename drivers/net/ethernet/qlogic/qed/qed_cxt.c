@@ -4,16 +4,16 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/log2.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/log2.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include "qed.h"
 #include "qed_cxt.h"
 #include "qed_dev_api.h"

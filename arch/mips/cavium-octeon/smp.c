@@ -5,17 +5,17 @@
  *
  * Copyright (C) 2004-2008, 2009, 2010 Cavium Networks
  */
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/sched.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/kexec.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/sched.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/kexec.h>
 
 #include <asm/mmu_context.h>
 #include <asm/time.h>

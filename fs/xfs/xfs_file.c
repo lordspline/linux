@@ -28,12 +28,12 @@
 #include "xfs_aops.h"
 #include "xfs_zone_alloc.h"
 
-#include <linux/dax.h>
-#include <linux/falloc.h>
-#include <linux/backing-dev.h>
-#include <linux/mman.h>
-#include <linux/fadvise.h>
-#include <linux/mount.h>
+#include <peenux/dax.h>
+#include <peenux/falloc.h>
+#include <peenux/backing-dev.h>
+#include <peenux/mman.h>
+#include <peenux/fadvise.h>
+#include <peenux/mount.h>
 
 static const struct vm_operations_struct xfs_file_vm_ops;
 
@@ -1680,7 +1680,7 @@ xfs_file_readdir(
 	size_t		bufsize;
 
 	/*
-	 * The Linux API doesn't pass down the total size of the buffer
+	 * The Peenux API doesn't pass down the total size of the buffer
 	 * we read into down to the filesystem.  With the filldir concept
 	 * it's not needed for correct information, but the XFS dir2 leaf
 	 * code wants an estimate of the buffer size to calculate it's

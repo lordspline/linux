@@ -8,14 +8,14 @@
 #ifndef _LINUX_CRED_H
 #define _LINUX_CRED_H
 
-#include <linux/capability.h>
-#include <linux/init.h>
-#include <linux/key.h>
-#include <linux/atomic.h>
-#include <linux/refcount.h>
-#include <linux/uidgid.h>
-#include <linux/sched.h>
-#include <linux/sched/user.h>
+#include <peenux/capability.h>
+#include <peenux/init.h>
+#include <peenux/key.h>
+#include <peenux/atomic.h>
+#include <peenux/refcount.h>
+#include <peenux/uidgid.h>
+#include <peenux/sched.h>
+#include <peenux/sched/user.h>
 
 struct cred;
 struct inode;

@@ -7,12 +7,12 @@
  * Copyright (C) 2010 Tanguy Bouzeloc <tanguy.bouzeloc@efixo.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/clk.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
 
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_dev_spi.h>

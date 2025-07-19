@@ -40,18 +40,18 @@
  * Copyright 2018-2019 NXP
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/irqreturn.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/irqreturn.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_domain.h>
+#include <peenux/string.h>
 
 #include <media/v4l2-jpeg.h>
 #include <media/v4l2-mem2mem.h>

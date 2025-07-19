@@ -7,13 +7,13 @@
  *   This is a device driver for the OneNAND flash for generic boards.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/onenand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/onenand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/io.h>
 
 /*
  * Note: Driver name and platform data format have been updated!

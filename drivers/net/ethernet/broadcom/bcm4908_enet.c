@@ -3,16 +3,16 @@
  * Copyright (C) 2021 Rafał Miłecki <rafal@milecki.pl>
  */
 
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/delay.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include "bcm4908_enet.h"
 #include "unimac.h"

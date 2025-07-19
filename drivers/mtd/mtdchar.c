@@ -3,27 +3,27 @@
  * Copyright © 1999-2010 David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/mutex.h>
-#include <linux/backing-dev.h>
-#include <linux/compat.h>
-#include <linux/mount.h>
-#include <linux/blkpg.h>
-#include <linux/magic.h>
-#include <linux/major.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/map.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/mutex.h>
+#include <peenux/backing-dev.h>
+#include <peenux/compat.h>
+#include <peenux/mount.h>
+#include <peenux/blkpg.h>
+#include <peenux/magic.h>
+#include <peenux/major.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/map.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "mtdcore.h"
 

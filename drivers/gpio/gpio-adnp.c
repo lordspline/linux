@@ -3,16 +3,16 @@
  * Copyright (C) 2011-2012 Avionic Design GmbH
  */
 
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 #define GPIO_DDR(gpio) (0x00 << (gpio)->reg_shift)
 #define GPIO_PLR(gpio) (0x01 << (gpio)->reg_shift)

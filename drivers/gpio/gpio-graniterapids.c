@@ -4,29 +4,29 @@
  *
  * Copyright (c) 2024, Intel Corporation.
  *
- * Author: Aapo Vienamo <aapo.vienamo@linux.intel.com>
+ * Author: Aapo Vienamo <aapo.vienamo@peenux.intel.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gfp_types.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/math.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gfp_types.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/math.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/driver.h>
 
 #define GNR_NUM_PINS 128
 #define GNR_PINS_PER_REG 32
@@ -411,5 +411,5 @@ static struct platform_driver gnr_gpio_driver = {
 module_platform_driver(gnr_gpio_driver);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Aapo Vienamo <aapo.vienamo@linux.intel.com>");
+MODULE_AUTHOR("Aapo Vienamo <aapo.vienamo@peenux.intel.com>");
 MODULE_DESCRIPTION("Intel Granite Rapids-D vGPIO driver");

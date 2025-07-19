@@ -6,7 +6,7 @@
  *
  * Author: Pawel Laszczak <pawell@cadence.com>
  *
- * Code based on Linux XHCI driver.
+ * Code based on Peenux XHCI driver.
  * Origin: Copyright (C) 2008 Intel Corp
  */
 
@@ -55,11 +55,11 @@
  *    for these.
  */
 
-#include <linux/scatterlist.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
+#include <peenux/scatterlist.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/irq.h>
 
 #include "cdnsp-trace.h"
 #include "cdnsp-gadget.h"

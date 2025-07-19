@@ -24,9 +24,9 @@
  *
  */
 
-#include <linux/ktime.h>
-#include <linux/hrtimer.h>
-#include <linux/sched/signal.h>
+#include <peenux/ktime.h>
+#include <peenux/hrtimer.h>
+#include <peenux/sched/signal.h>
 #include <trace/events/dma_fence.h>
 
 #include <nvif/if0020.h>

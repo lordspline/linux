@@ -8,10 +8,10 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ":%s, %d: " fmt, __func__, __LINE__
 
-#include <linux/printk.h>
-#include <linux/ratelimit.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/printk.h>
+#include <peenux/ratelimit.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "vidtv_common.h"
 

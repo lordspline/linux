@@ -8,7 +8,7 @@
 #ifndef SND_SOC_CS48L32_H
 #define SND_SOC_CS48L32_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 #include <sound/soc.h>
 #include "wm_adsp.h"
 

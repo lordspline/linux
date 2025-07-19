@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020, The Peenux Foundation. All rights reserved.
  *
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/mhi.h>
-#include <linux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/mhi.h>
+#include <peenux/module.h>
 #include "internal.h"
 
 static int mhi_debugfs_states_show(struct seq_file *m, void *d)

@@ -8,10 +8,10 @@
  * Copyright (C) 2024 Tóth János <gomba007@gmail.com>
  */
 
-#include <linux/bcd.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
 
 /* Real time clock registers */
 #define SD2405AL_REG_T_SEC	0x00

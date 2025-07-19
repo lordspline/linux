@@ -4,24 +4,24 @@
  * Author: Lin Huang <hl@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/devfreq-event.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/seqlock.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/perf_event.h>
+#include <peenux/clk.h>
+#include <peenux/devfreq-event.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/seqlock.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/perf_event.h>
 
 #include <soc/rockchip/rockchip_grf.h>
 #include <soc/rockchip/rk3399_grf.h>

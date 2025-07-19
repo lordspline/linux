@@ -4,16 +4,16 @@
  * Copyright 2016-2019 NXP
  *
  */
-#include <linux/types.h>
-#include <linux/fsl/mc.h>
+#include <peenux/types.h>
+#include <peenux/fsl/mc.h>
 #include <soc/fsl/dpaa2-io.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/dim.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dim.h>
+#include <peenux/slab.h>
 
 #include "dpio.h"
 #include "qbman-portal.h"

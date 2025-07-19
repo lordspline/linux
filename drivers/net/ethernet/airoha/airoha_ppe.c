@@ -4,9 +4,9 @@
  * Author: Lorenzo Bianconi <lorenzo@kernel.org>
  */
 
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/rhashtable.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/rhashtable.h>
 #include <net/ipv6.h>
 #include <net/pkt_cls.h>
 

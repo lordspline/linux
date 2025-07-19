@@ -9,12 +9,12 @@
  *	   Xin Li <li.xin@linaro.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/clock/hi3620-clock.h>
 

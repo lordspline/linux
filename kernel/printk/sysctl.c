@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * sysctl.c: General linux system control interface
+ * sysctl.c: General peenux system control interface
  */
 
-#include <linux/sysctl.h>
-#include <linux/printk.h>
-#include <linux/capability.h>
-#include <linux/ratelimit.h>
+#include <peenux/sysctl.h>
+#include <peenux/printk.h>
+#include <peenux/capability.h>
+#include <peenux/ratelimit.h>
 #include "internal.h"
 
 static const int ten_thousand = 10000;

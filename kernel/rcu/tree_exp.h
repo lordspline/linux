@@ -4,11 +4,11 @@
  *
  * Copyright IBM Corporation, 2016
  *
- * Authors: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Authors: Paul E. McKenney <paulmck@peenux.ibm.com>
  */
 
-#include <linux/console.h>
-#include <linux/lockdep.h>
+#include <peenux/console.h>
+#include <peenux/lockdep.h>
 
 static void rcu_exp_handler(void *unused);
 static int rcu_print_task_exp_stall(struct rcu_node *rnp);

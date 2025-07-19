@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 // Copyright (c) 2024 Takashi Sakamoto
 
-#include <linux/types.h>
-#include <linux/err.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
 #include "packet-header-definitions.h"
 #include "phy-packet-definitions.h"
 

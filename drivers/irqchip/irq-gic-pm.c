@@ -2,14 +2,14 @@
 /*
  * Copyright (C) 2016 NVIDIA CORPORATION, All Rights Reserved.
  */
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/irqchip/arm-gic.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/irqchip/arm-gic.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 struct gic_clk_data {
 	unsigned int num_clocks;

@@ -3,12 +3,12 @@
  * Copyright 2024 NXP.
  */
 
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/scmi_protocol.h>
-#include <linux/scmi_imx_protocol.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/scmi_imx_protocol.h>
 
 struct scmi_imx_bbm {
 	const struct scmi_imx_bbm_proto_ops *ops;

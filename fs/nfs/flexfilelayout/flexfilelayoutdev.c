@@ -7,10 +7,10 @@
  * Tao Peng <bergwolf@primarydata.com>
  */
 
-#include <linux/nfs_fs.h>
-#include <linux/vmalloc.h>
-#include <linux/module.h>
-#include <linux/sunrpc/addr.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/sunrpc/addr.h>
 
 #include "../internal.h"
 #include "../nfs4session.h"

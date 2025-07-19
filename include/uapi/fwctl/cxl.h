@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Copyright (c) 2024-2025 Intel Corporation
  *
@@ -7,8 +7,8 @@
 #ifndef _UAPI_FWCTL_CXL_H_
 #define _UAPI_FWCTL_CXL_H_
 
-#include <linux/types.h>
-#include <linux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
 #include <cxl/features.h>
 
 /**

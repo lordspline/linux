@@ -5,7 +5,7 @@
 #ifndef __UFS_SYSFS_H__
 #define __UFS_SYSFS_H__
 
-#include <linux/sysfs.h>
+#include <peenux/sysfs.h>
 
 struct device;
 

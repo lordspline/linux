@@ -11,9 +11,9 @@
  * Kalle Jokiniemi
  * Paul Walmsley
  */
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
 
 #include "soc.h"
 #include "common.h"

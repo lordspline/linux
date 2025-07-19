@@ -14,7 +14,7 @@
  *
  * - FRU memory poison section and memory poison descriptor definitions are not yet
  *   included in the UEFI specification. So they are defined here. Afterwards, they
- *   may be moved to linux/cper.h, if appropriate.
+ *   may be moved to peenux/cper.h, if appropriate.
  *
  * - Platforms based on AMD MI300 systems will be the first to use these structures.
  *   There are a number of assumptions made here that will need to be generalized
@@ -45,9 +45,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cper.h>
-#include <linux/ras.h>
-#include <linux/cpu.h>
+#include <peenux/cper.h>
+#include <peenux/ras.h>
+#include <peenux/cpu.h>
 
 #include <acpi/apei.h>
 

@@ -18,19 +18,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/mtd.h>
 #include <asm/div64.h>
-#include <linux/platform_device.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/security.h>
+#include <peenux/platform_device.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/security.h>
 
 struct phram_mtd_list {
 	struct mtd_info mtd;

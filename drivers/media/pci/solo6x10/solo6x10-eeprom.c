@@ -9,8 +9,8 @@
  * John Brooks <john.brooks@bluecherry.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
 
 #include "solo6x10.h"
 

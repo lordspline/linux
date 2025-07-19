@@ -2,8 +2,8 @@
 #ifndef _IIO_BACKEND_H_
 #define _IIO_BACKEND_H_
 
-#include <linux/types.h>
-#include <linux/iio/iio.h>
+#include <peenux/types.h>
+#include <peenux/iio/iio.h>
 
 struct iio_chan_spec;
 struct fwnode_handle;

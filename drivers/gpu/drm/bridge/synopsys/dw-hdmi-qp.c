@@ -6,14 +6,14 @@
  * Author: Algea Cao <algea.cao@rock-chips.com>
  * Author: Cristian Ciocaltea <cristian.ciocaltea@collabora.com>
  */
-#include <linux/completion.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/hdmi.h>
+#include <peenux/i2c.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/workqueue.h>
 
 #include <drm/bridge/dw_hdmi_qp.h>
 #include <drm/display/drm_hdmi_helper.h>

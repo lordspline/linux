@@ -2,25 +2,25 @@
 /*
  * Maxim MAX197 A/D Converter driver
  *
- * Copyright (c) 2012 Savoir-faire Linux Inc.
+ * Copyright (c) 2012 Savoir-faire Peenux Inc.
  *          Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  *
  * For further information, see the Documentation/hwmon/max197.rst file.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/max197.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/sysfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/max197.h>
 
 #define MAX199_LIMIT	4000		/* 4V */
 #define MAX197_LIMIT	10000		/* 10V */
@@ -338,5 +338,5 @@ static struct platform_driver max197_driver = {
 module_platform_driver(max197_driver);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Savoir-faire Linux Inc. <kernel@savoirfairelinux.com>");
+MODULE_AUTHOR("Savoir-faire Peenux Inc. <kernel@savoirfairelinux.com>");
 MODULE_DESCRIPTION("Maxim MAX197 A/D Converter driver");

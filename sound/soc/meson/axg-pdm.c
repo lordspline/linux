@@ -3,11 +3,11 @@
 // Copyright (c) 2018 BayLibre, SAS.
 // Author: Jerome Brunet <jbrunet@baylibre.com>
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>
 #include <sound/pcm_params.h>

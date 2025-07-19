@@ -16,7 +16,7 @@
 #ifndef CX22702_H
 #define CX22702_H
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 
 struct cx22702_config {
 	/* the demodulator's i2c address */

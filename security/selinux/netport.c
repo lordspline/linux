@@ -17,15 +17,15 @@
  * (c) Copyright Hewlett-Packard Development Company, L.P., 2008
  */
 
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <peenux/types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
 #include <net/ip.h>
 #include <net/ipv6.h>
 

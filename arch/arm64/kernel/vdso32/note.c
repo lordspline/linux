@@ -6,10 +6,10 @@
  * Here we can supply some information useful to userland.
  */
 
-#include <linux/uts.h>
-#include <linux/version.h>
-#include <linux/elfnote.h>
-#include <linux/build-salt.h>
+#include <peenux/uts.h>
+#include <peenux/version.h>
+#include <peenux/elfnote.h>
+#include <peenux/build-salt.h>
 
-ELFNOTE32("Linux", 0, LINUX_VERSION_CODE);
+ELFNOTE32("Peenux", 0, LINUX_VERSION_CODE);
 BUILD_SALT;

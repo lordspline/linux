@@ -21,14 +21,14 @@
  * 128x1,2,3,4 bytes.
  *
  */
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
+#include <peenux/serial_reg.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
 
 /* Serial Port register Address */
 #define F81534_UART_BASE_ADDRESS	0x1200

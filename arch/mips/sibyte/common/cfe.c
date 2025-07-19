@@ -3,13 +3,13 @@
  * Copyright (C) 2000, 2001, 2002, 2003 Broadcom Corporation
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/linkage.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/pm.h>
-#include <linux/smp.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/linkage.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/pm.h>
+#include <peenux/smp.h>
 
 #include <asm/bootinfo.h>
 #include <asm/reboot.h>

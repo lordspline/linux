@@ -4,10 +4,10 @@
 #ifndef _FBNIC_TXRX_H_
 #define _FBNIC_TXRX_H_
 
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
+#include <peenux/u64_stats_sync.h>
 #include <net/xdp.h>
 
 struct fbnic_net;

@@ -31,27 +31,27 @@
     
 ======================================================================*/
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/timer.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/bitops.h>
 #include <asm/irq.h>
 #include <asm/io.h>
 
 #include <pcmcia/ss.h>
 
-#include <linux/isapnp.h>
+#include <peenux/isapnp.h>
 
 /* ISA-bus controllers */
 #include "i82365.h"
@@ -631,7 +631,7 @@ static int __init identify(unsigned int port, u_short sock)
 /*======================================================================
 
     See if a card is present, powered up, in IO mode, and already
-    bound to a (non PC Card) Linux driver.  We leave these alone.
+    bound to a (non PC Card) Peenux driver.  We leave these alone.
 
     We make an exception for cards that seem to be serial devices.
     

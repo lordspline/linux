@@ -39,13 +39,13 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/inetdevice.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
+#include <peenux/module.h>
+#include <peenux/inetdevice.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
 
 #include <rdma/ib_user_verbs.h>
 #include <rdma/ib_addr.h>

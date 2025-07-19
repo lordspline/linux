@@ -9,7 +9,7 @@
 #ifndef LINUX_CEC_NOTIFIER_H
 #define LINUX_CEC_NOTIFIER_H
 
-#include <linux/err.h>
+#include <peenux/err.h>
 #include <media/cec.h>
 
 struct device;

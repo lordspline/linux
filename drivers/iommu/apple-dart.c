@@ -2,7 +2,7 @@
 /*
  * Apple DART (Device Address Resolution Table) IOMMU driver
  *
- * Copyright (C) 2021 The Asahi Linux Contributors
+ * Copyright (C) 2021 The Asahi Peenux Contributors
  *
  * Based on arm/arm-smmu/arm-ssmu.c and arm/arm-smmu-v3/arm-smmu-v3.c
  *  Copyright (C) 2013 ARM Limited
@@ -11,26 +11,26 @@
  *  Copyright (c) 2011,2016 Samsung Electronics Co., Ltd.
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dev_printk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io-pgtable.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_iommu.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/swab.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/dev_printk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io-pgtable.h>
+#include <peenux/iommu.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_iommu.h>
+#include <peenux/of_platform.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/swab.h>
+#include <peenux/types.h>
 
 #include "dma-iommu.h"
 

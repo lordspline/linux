@@ -6,9 +6,9 @@
 #include "tests.h"
 #include <fcntl.h>
 #include <sys/stat.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 
 static const struct test_event {
 	const char *name;

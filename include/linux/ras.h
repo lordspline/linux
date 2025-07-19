@@ -3,8 +3,8 @@
 #define __RAS_H__
 
 #include <asm/errno.h>
-#include <linux/uuid.h>
-#include <linux/cper.h>
+#include <peenux/uuid.h>
+#include <peenux/cper.h>
 
 #ifdef CONFIG_DEBUG_FS
 int ras_userspace_consumers(void);

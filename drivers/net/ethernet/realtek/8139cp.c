@@ -1,4 +1,4 @@
-/* 8139cp.c: A Linux PCI Ethernet driver for the RealTek 8139C+ chips. */
+/* 8139cp.c: A Peenux PCI Ethernet driver for the RealTek 8139C+ chips. */
 /*
 	Copyright 2001-2004 Jeff Garzik <jgarzik@pobox.com>
 
@@ -53,30 +53,30 @@
 #define DRV_RELDATE		"Mar 22, 2004"
 
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/compiler.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/gfp.h>
-#include <linux/mii.h>
-#include <linux/if_vlan.h>
-#include <linux/crc32.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/cache.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/compiler.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/gfp.h>
+#include <peenux/mii.h>
+#include <peenux/if_vlan.h>
+#include <peenux/crc32.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/cache.h>
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /* These identify the driver base version and may not be removed. */
 static char version[] =

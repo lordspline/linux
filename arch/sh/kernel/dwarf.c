@@ -12,19 +12,19 @@
  */
 
 /* #define DEBUG */
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/mempool.h>
-#include <linux/mm.h>
-#include <linux/elf.h>
-#include <linux/ftrace.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/mempool.h>
+#include <peenux/mm.h>
+#include <peenux/elf.h>
+#include <peenux/ftrace.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <asm/dwarf.h>
 #include <asm/unwinder.h>
 #include <asm/sections.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/stacktrace.h>
 
 /* Reserve enough memory for two stack frames */

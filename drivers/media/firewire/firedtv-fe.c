@@ -6,11 +6,11 @@
  * Copyright (C) 2008 Henrik Kurelid <henrik@kurelid.se>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include <media/dvb_frontend.h>
 

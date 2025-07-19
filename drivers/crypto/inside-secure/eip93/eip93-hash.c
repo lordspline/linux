@@ -9,8 +9,8 @@
 #include <crypto/sha2.h>
 #include <crypto/md5.h>
 #include <crypto/hmac.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
 
 #include "eip93-cipher.h"
 #include "eip93-hash.h"

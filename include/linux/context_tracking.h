@@ -2,10 +2,10 @@
 #ifndef _LINUX_CONTEXT_TRACKING_H
 #define _LINUX_CONTEXT_TRACKING_H
 
-#include <linux/sched.h>
-#include <linux/vtime.h>
-#include <linux/context_tracking_state.h>
-#include <linux/instrumentation.h>
+#include <peenux/sched.h>
+#include <peenux/vtime.h>
+#include <peenux/context_tracking_state.h>
+#include <peenux/instrumentation.h>
 
 #include <asm/ptrace.h>
 

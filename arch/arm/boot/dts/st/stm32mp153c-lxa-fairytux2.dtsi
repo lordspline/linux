@@ -47,7 +47,7 @@
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_HEARTBEAT;
 			gpios = <&gpioa 13 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 

@@ -4,9 +4,9 @@
  *
  * Dove IRQ handling.
  */
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
 #include <asm/exception.h>
 
 #include <plat/irq.h>

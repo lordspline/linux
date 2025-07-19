@@ -6,14 +6,14 @@
  *
  */
 
-#include <linux/uaccess.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/cpu.h>
-#include <linux/uio.h>
-#include <linux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/gfp.h>
+#include <peenux/cpu.h>
+#include <peenux/uio.h>
+#include <peenux/io.h>
 #include <asm/asm-extable.h>
 #include <asm/abs_lowcore.h>
 #include <asm/stacktrace.h>

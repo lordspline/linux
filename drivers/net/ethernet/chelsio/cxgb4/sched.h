@@ -1,5 +1,5 @@
 /*
- * This file is part of the Chelsio T4 Ethernet driver for Linux.
+ * This file is part of the Chelsio T4 Ethernet driver for Peenux.
  *
  * Copyright (c) 2016 Chelsio Communications, Inc. All rights reserved.
  *
@@ -35,8 +35,8 @@
 #ifndef __CXGB4_SCHED_H
 #define __CXGB4_SCHED_H
 
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
+#include <peenux/spinlock.h>
+#include <peenux/atomic.h>
 
 #define SCHED_CLS_NONE 0xff
 

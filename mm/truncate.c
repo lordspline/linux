@@ -8,19 +8,19 @@
  *		Initial version.
  */
 
-#include <linux/kernel.h>
-#include <linux/backing-dev.h>
-#include <linux/dax.h>
-#include <linux/gfp.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/export.h>
-#include <linux/pagemap.h>
-#include <linux/highmem.h>
-#include <linux/pagevec.h>
-#include <linux/task_io_accounting_ops.h>
-#include <linux/shmem_fs.h>
-#include <linux/rmap.h>
+#include <peenux/kernel.h>
+#include <peenux/backing-dev.h>
+#include <peenux/dax.h>
+#include <peenux/gfp.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/export.h>
+#include <peenux/pagemap.h>
+#include <peenux/highmem.h>
+#include <peenux/pagevec.h>
+#include <peenux/task_io_accounting_ops.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/rmap.h>
 #include "internal.h"
 
 static void clear_shadow_entries(struct address_space *mapping,

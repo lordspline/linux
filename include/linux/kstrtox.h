@@ -2,8 +2,8 @@
 #ifndef _LINUX_KSTRTOX_H
 #define _LINUX_KSTRTOX_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 
 /* Internal, do not use. */
 int __must_check _kstrtoul(const char *s, unsigned int base, unsigned long *res);

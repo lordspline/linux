@@ -6,19 +6,19 @@
  *  Copyright (C) 2003-2006  Marcel Holtmann <marcel@holtmann.org>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
 
-#include <linux/device.h>
-#include <linux/firmware.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
 
-#include <linux/usb.h>
+#include <peenux/usb.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

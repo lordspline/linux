@@ -14,10 +14,10 @@
 #include <arpa/inet.h>
 #include <net/if.h>
 
-#include <linux/rtnetlink.h>
-#include <linux/genetlink.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/genetlink.h>
 
-#include "linux/mptcp.h"
+#include "peenux/mptcp.h"
 
 #ifndef IPPROTO_MPTCP
 #define IPPROTO_MPTCP 262

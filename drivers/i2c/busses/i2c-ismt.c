@@ -57,17 +57,17 @@
  *  Slave mode                       no
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/stddef.h>
+#include <peenux/completion.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/i2c.h>
+#include <peenux/acpi.h>
+#include <peenux/interrupt.h>
 
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 
 /* PCI Address Constants */
 #define SMBBAR		0

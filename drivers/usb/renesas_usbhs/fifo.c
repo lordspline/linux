@@ -6,9 +6,9 @@
  * Copyright (C) 2019 Renesas Electronics Corporation
  * Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
  */
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/scatterlist.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/scatterlist.h>
 #include "common.h"
 #include "pipe.h"
 

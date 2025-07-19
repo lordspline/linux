@@ -4,30 +4,30 @@
  *  Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/sys_soc.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/of_irq.h>
-#include <linux/workqueue.h>
-#include <linux/completion.h>
-#include <linux/soc/ti/k3-ringacc.h>
-#include <linux/soc/ti/ti_sci_protocol.h>
-#include <linux/soc/ti/ti_sci_inta_msi.h>
-#include <linux/dma/k3-event-router.h>
-#include <linux/dma/ti-cppi5.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/sys_soc.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/of_irq.h>
+#include <peenux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/soc/ti/k3-ringacc.h>
+#include <peenux/soc/ti/ti_sci_protocol.h>
+#include <peenux/soc/ti/ti_sci_inta_msi.h>
+#include <peenux/dma/k3-event-router.h>
+#include <peenux/dma/ti-cppi5.h>
 
 #include "../virt-dma.h"
 #include "k3-udma.h"
@@ -4646,7 +4646,7 @@ static int udma_setup_resources(struct udma_dev *ud)
 	 */
 	bitmap_set(ud->rflow_gp_map_allocated, 0, ud->rchan_cnt);
 
-	/* by default no GP rflows are assigned to Linux */
+	/* by default no GP rflows are assigned to Peenux */
 	bitmap_set(ud->rflow_gp_map, 0, ud->rflow_cnt);
 
 	/* Get resource ranges from tisci */
@@ -4730,7 +4730,7 @@ static int udma_setup_resources(struct udma_dev *ud)
 	/* GP rflow ranges */
 	rm_res = tisci_rm->rm_ranges[RM_RANGE_RFLOW];
 	if (IS_ERR(rm_res)) {
-		/* all gp flows are assigned exclusively to Linux */
+		/* all gp flows are assigned exclusively to Peenux */
 		bitmap_clear(ud->rflow_gp_map, ud->rchan_cnt,
 			     ud->rflow_cnt - ud->rchan_cnt);
 	} else {
@@ -5055,7 +5055,7 @@ static int pktdma_setup_resources(struct udma_dev *ud)
 	/* rflow ranges */
 	rm_res = tisci_rm->rm_ranges[RM_RANGE_RFLOW];
 	if (IS_ERR(rm_res)) {
-		/* all rflows are assigned exclusively to Linux */
+		/* all rflows are assigned exclusively to Peenux */
 		bitmap_zero(ud->rflow_in_use, ud->rflow_cnt);
 		irq_res.sets = 1;
 	} else {
@@ -5069,7 +5069,7 @@ static int pktdma_setup_resources(struct udma_dev *ud)
 	/* tflow ranges */
 	rm_res = tisci_rm->rm_ranges[RM_RANGE_TFLOW];
 	if (IS_ERR(rm_res)) {
-		/* all tflows are assigned exclusively to Linux */
+		/* all tflows are assigned exclusively to Peenux */
 		bitmap_zero(ud->tflow_map, ud->tflow_cnt);
 		irq_res.sets++;
 	} else {

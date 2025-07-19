@@ -8,31 +8,31 @@
  *  Derived from "arch/i386/kernel/sys_i386.c"
  *
  *  This file contains various random system calls that
- *  have a non-standard calling sequence on the Linux/s390
+ *  have a non-standard calling sequence on the Peenux/s390
  *  platform.
  */
 
-#include <linux/cpufeature.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/smp.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/syscalls.h>
-#include <linux/mman.h>
-#include <linux/file.h>
-#include <linux/utsname.h>
-#include <linux/personality.h>
-#include <linux/unistd.h>
-#include <linux/ipc.h>
-#include <linux/uaccess.h>
-#include <linux/string.h>
-#include <linux/thread_info.h>
-#include <linux/entry-common.h>
+#include <peenux/cpufeature.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/smp.h>
+#include <peenux/sem.h>
+#include <peenux/msg.h>
+#include <peenux/shm.h>
+#include <peenux/stat.h>
+#include <peenux/syscalls.h>
+#include <peenux/mman.h>
+#include <peenux/file.h>
+#include <peenux/utsname.h>
+#include <peenux/personality.h>
+#include <peenux/unistd.h>
+#include <peenux/ipc.h>
+#include <peenux/uaccess.h>
+#include <peenux/string.h>
+#include <peenux/thread_info.h>
+#include <peenux/entry-common.h>
 
 #include <asm/ptrace.h>
 #include <asm/vtime.h>

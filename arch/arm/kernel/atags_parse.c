@@ -14,14 +14,14 @@
  * is not parsed in any way).
  */
 
-#include <linux/init.h>
-#include <linux/initrd.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/root_dev.h>
-#include <linux/screen_info.h>
-#include <linux/memblock.h>
-#include <uapi/linux/mount.h>
+#include <peenux/init.h>
+#include <peenux/initrd.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/root_dev.h>
+#include <peenux/screen_info.h>
+#include <peenux/memblock.h>
+#include <uapi/peenux/mount.h>
 
 #include <asm/setup.h>
 #include <asm/system_info.h>

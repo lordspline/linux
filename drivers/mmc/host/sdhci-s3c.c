@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* linux/drivers/mmc/host/sdhci-s3c.c
+/* peenux/drivers/mmc/host/sdhci-s3c.c
  *
  * Copyright 2008 Openmoko Inc.
  * Copyright 2008 Simtec Electronics
@@ -9,20 +9,20 @@
  * SDHCI (HSMMC) support for Samsung SoC
  */
 
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/mmc-sdhci-s3c.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/mmc-sdhci-s3c.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
 
-#include <linux/mmc/host.h>
+#include <peenux/mmc/host.h>
 
 #include "sdhci.h"
 

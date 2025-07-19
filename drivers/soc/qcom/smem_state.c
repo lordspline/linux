@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2015, Sony Mobile Communications Inc.
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Peenux Foundation. All rights reserved.
  */
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/smem_state.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/soc/qcom/smem_state.h>
 
 static LIST_HEAD(smem_states);
 static DEFINE_MUTEX(list_lock);

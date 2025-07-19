@@ -16,11 +16,11 @@
 
 #include "udfdecl.h"
 
-#include <linux/kernel.h>
-#include <linux/string.h>	/* for memset */
-#include <linux/nls.h>
-#include <linux/crc-itu-t.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>	/* for memset */
+#include <peenux/nls.h>
+#include <peenux/crc-itu-t.h>
+#include <peenux/slab.h>
 
 #include "udf_sb.h"
 

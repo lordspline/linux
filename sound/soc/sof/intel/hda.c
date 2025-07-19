@@ -5,10 +5,10 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Authors: Liam Girdwood <liam.r.girdwood@linux.intel.com>
-//	    Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
+// Authors: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
+//	    Ranjani Sridharan <ranjani.sridharan@peenux.intel.com>
 //	    Rander Wang <rander.wang@intel.com>
-//          Keyon Jie <yang.jie@linux.intel.com>
+//          Keyon Jie <yang.jie@peenux.intel.com>
 //
 
 /*
@@ -18,11 +18,11 @@
 #include <sound/hdaudio_ext.h>
 #include <sound/hda_register.h>
 
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_intel.h>
+#include <peenux/acpi.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_intel.h>
 #include <sound/intel-dsp-config.h>
 #include <sound/intel-nhlt.h>
 #include <sound/soc-acpi-intel-ssp-common.h>

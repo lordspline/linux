@@ -11,14 +11,14 @@
 #include "peer.h"
 #include "messages.h"
 
-#include <linux/module.h>
-#include <linux/rtnetlink.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
-#include <linux/if_arp.h>
-#include <linux/icmp.h>
-#include <linux/suspend.h>
+#include <peenux/module.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/inetdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/icmp.h>
+#include <peenux/suspend.h>
 #include <net/dst_metadata.h>
 #include <net/gso.h>
 #include <net/icmp.h>

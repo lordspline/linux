@@ -13,8 +13,8 @@
 
 #ifdef __KERNEL__
 
-#include <linux/types.h>
-#include <linux/device-mapper.h>
+#include <peenux/types.h>
+#include <peenux/device-mapper.h>
 
 typedef sector_t region_t;
 

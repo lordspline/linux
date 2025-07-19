@@ -3,9 +3,9 @@
 #ifndef ADF_6XXX_HW_DATA_H_
 #define ADF_6XXX_HW_DATA_H_
 
-#include <linux/bits.h>
-#include <linux/time.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/time.h>
+#include <peenux/units.h>
 
 #include "adf_accel_devices.h"
 #include "adf_cfg_common.h"

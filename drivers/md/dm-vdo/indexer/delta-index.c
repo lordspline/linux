@@ -4,11 +4,11 @@
  */
 #include "delta-index.h"
 
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/compiler.h>
-#include <linux/limits.h>
-#include <linux/log2.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/compiler.h>
+#include <peenux/limits.h>
+#include <peenux/log2.h>
 
 #include "cpu.h"
 #include "errors.h"

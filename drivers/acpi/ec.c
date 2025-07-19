@@ -16,20 +16,20 @@
 /* #define DEBUG */
 #define pr_fmt(fmt) "ACPI: EC: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/printk.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/suspend.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/printk.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/suspend.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
 #include <asm/io.h>
 
 #include "internal.h"

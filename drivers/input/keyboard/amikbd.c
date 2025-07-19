@@ -7,16 +7,16 @@
  */
 
 /*
- * Amiga keyboard driver for Linux/m68k
+ * Amiga keyboard driver for Peenux/m68k
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/keyboard.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/keyboard.h>
+#include <peenux/platform_device.h>
 
 #include <asm/amigaints.h>
 #include <asm/amigahw.h>

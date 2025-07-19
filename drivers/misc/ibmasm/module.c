@@ -36,9 +36,9 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 #include "ibmasm.h"
 #include "lowlevel.h"
 #include "remote.h"

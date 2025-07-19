@@ -6,22 +6,22 @@
  *      - Merrifield only
  *
  *      Copyright (C) 2014 Intel Corporation. All rights reserved.
- *      Contact: David Cohen <david.a.cohen@linux.intel.com>
+ *      Contact: David Cohen <david.a.cohen@peenux.intel.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/panic.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/panic.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
 
-#include <linux/platform_data/x86/intel-mid_wdt.h>
-#include <linux/platform_data/x86/intel_scu_ipc.h>
+#include <peenux/platform_data/x86/intel-mid_wdt.h>
+#include <peenux/platform_data/x86/intel_scu_ipc.h>
 
 #define IPC_WATCHDOG 0xf8
 
@@ -204,7 +204,7 @@ static struct platform_driver mid_wdt_driver = {
 
 module_platform_driver(mid_wdt_driver);
 
-MODULE_AUTHOR("David Cohen <david.a.cohen@linux.intel.com>");
+MODULE_AUTHOR("David Cohen <david.a.cohen@peenux.intel.com>");
 MODULE_DESCRIPTION("Watchdog Driver for Intel MID platform");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS("platform:intel_mid_wdt");

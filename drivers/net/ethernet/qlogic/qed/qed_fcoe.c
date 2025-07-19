@@ -4,23 +4,23 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
 #include <asm/param.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
 #define __PREVENT_DUMP_MEM_ARR__
 #define __PREVENT_PXP_GLOBAL_WIN__
 #include "qed.h"
@@ -36,7 +36,7 @@
 #include "qed_reg_addr.h"
 #include "qed_sp.h"
 #include "qed_sriov.h"
-#include <linux/qed/qed_fcoe_if.h>
+#include <peenux/qed/qed_fcoe_if.h>
 
 struct qed_fcoe_conn {
 	struct list_head list_entry;

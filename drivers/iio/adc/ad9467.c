@@ -5,28 +5,28 @@
  * Copyright 2012-2020 Analog Devices Inc.
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/seq_file.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/seq_file.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
 
 
-#include <linux/iio/backend.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
-#include <linux/clk.h>
+#include <peenux/clk.h>
 
 /*
  * ADI High-Speed ADC common spi interface registers

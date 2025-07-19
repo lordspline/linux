@@ -3,16 +3,16 @@
  * Copyright (C) 2008 Oracle.  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/pagemap.h>
-#include <linux/bio.h>
-#include <linux/lzo.h>
-#include <linux/refcount.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/sched.h>
+#include <peenux/pagemap.h>
+#include <peenux/bio.h>
+#include <peenux/lzo.h>
+#include <peenux/refcount.h>
 #include "messages.h"
 #include "compression.h"
 #include "ctree.h"

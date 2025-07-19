@@ -2,7 +2,7 @@
 /*
  * OpenRISC setup.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Peenux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -13,26 +13,26 @@
  * This file handles the architecture-dependent parts of initialization
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/seq_file.h>
-#include <linux/serial.h>
-#include <linux/initrd.h>
-#include <linux/of_fdt.h>
-#include <linux/of.h>
-#include <linux/device.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/console.h>
+#include <peenux/init.h>
+#include <peenux/memblock.h>
+#include <peenux/seq_file.h>
+#include <peenux/serial.h>
+#include <peenux/initrd.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of.h>
+#include <peenux/device.h>
 
 #include <asm/sections.h>
 #include <asm/types.h>
@@ -255,7 +255,7 @@ void __init setup_arch(char **cmdline_p)
 
 	*cmdline_p = boot_command_line;
 
-	printk(KERN_INFO "OpenRISC Linux -- http://openrisc.io\n");
+	printk(KERN_INFO "OpenRISC Peenux -- http://openrisc.io\n");
 }
 
 static int show_cpuinfo(struct seq_file *m, void *v)

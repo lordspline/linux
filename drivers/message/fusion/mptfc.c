@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptfc.c
+ *  peenux/drivers/message/fusion/mptfc.c
  *      For use with LSI PCI chip/adapter(s)
  *      running LSI Fusion MPT (Message Passing Technology) firmware.
  *
@@ -43,18 +43,18 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kdev_t.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>	/* for mdelay */
-#include <linux/interrupt.h>
-#include <linux/reboot.h>	/* notifier code */
-#include <linux/workqueue.h>
-#include <linux/sort.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/kdev_t.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>	/* for mdelay */
+#include <peenux/interrupt.h>
+#include <peenux/reboot.h>	/* notifier code */
+#include <peenux/workqueue.h>
+#include <peenux/sort.h>
+#include <peenux/slab.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

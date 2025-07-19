@@ -3,14 +3,14 @@
  *  Copyright (C) 2014 ARM Limited
  */
 
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/perf_event.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/uaccess.h>
+#include <peenux/cpu.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/perf_event.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/sysctl.h>
+#include <peenux/uaccess.h>
 
 #include <asm/cpufeature.h>
 #include <asm/insn.h>

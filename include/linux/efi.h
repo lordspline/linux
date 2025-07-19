@@ -6,24 +6,24 @@
  * Extensible Firmware Interface
  * Based on 'Extensible Firmware Interface Specification' version 0.9, April 30, 1999
  *
- * Copyright (C) 1999 VA Linux Systems
+ * Copyright (C) 1999 VA Peenux Systems
  * Copyright (C) 1999 Walt Drummond <drummond@valinux.com>
  * Copyright (C) 1999, 2002-2003 Hewlett-Packard Co.
  *	David Mosberger-Tang <davidm@hpl.hp.com>
  *	Stephane Eranian <eranian@hpl.hp.com>
  */
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/time.h>
-#include <linux/types.h>
-#include <linux/proc_fs.h>
-#include <linux/rtc.h>
-#include <linux/ioport.h>
-#include <linux/pfn.h>
-#include <linux/pstore.h>
-#include <linux/range.h>
-#include <linux/reboot.h>
-#include <linux/uuid.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
+#include <peenux/proc_fs.h>
+#include <peenux/rtc.h>
+#include <peenux/ioport.h>
+#include <peenux/pfn.h>
+#include <peenux/pstore.h>
+#include <peenux/range.h>
+#include <peenux/reboot.h>
+#include <peenux/uuid.h>
 
 #include <asm/page.h>
 

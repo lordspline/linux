@@ -12,7 +12,7 @@
  *
  * Made to use alloc_percpu by Christoph Lameter.
  *
- * Copyright (C) 2010		SUSE Linux Products GmbH
+ * Copyright (C) 2010		SUSE Peenux Products GmbH
  * Copyright (C) 2010		Tejun Heo <tj@kernel.org>
  *
  * This is the generic async execution mechanism.  Work items as are
@@ -25,36 +25,36 @@
  * Please read Documentation/core-api/workqueue.rst for details.
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/signal.h>
-#include <linux/completion.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/notifier.h>
-#include <linux/kthread.h>
-#include <linux/hardirq.h>
-#include <linux/mempolicy.h>
-#include <linux/freezer.h>
-#include <linux/debug_locks.h>
-#include <linux/lockdep.h>
-#include <linux/idr.h>
-#include <linux/jhash.h>
-#include <linux/hashtable.h>
-#include <linux/rculist.h>
-#include <linux/nodemask.h>
-#include <linux/moduleparam.h>
-#include <linux/uaccess.h>
-#include <linux/sched/isolation.h>
-#include <linux/sched/debug.h>
-#include <linux/nmi.h>
-#include <linux/kvm_para.h>
-#include <linux/delay.h>
-#include <linux/irq_work.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/signal.h>
+#include <peenux/completion.h>
+#include <peenux/workqueue.h>
+#include <peenux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/notifier.h>
+#include <peenux/kthread.h>
+#include <peenux/hardirq.h>
+#include <peenux/mempolicy.h>
+#include <peenux/freezer.h>
+#include <peenux/debug_locks.h>
+#include <peenux/lockdep.h>
+#include <peenux/idr.h>
+#include <peenux/jhash.h>
+#include <peenux/hashtable.h>
+#include <peenux/rculist.h>
+#include <peenux/nodemask.h>
+#include <peenux/moduleparam.h>
+#include <peenux/uaccess.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/sched/debug.h>
+#include <peenux/nmi.h>
+#include <peenux/kvm_para.h>
+#include <peenux/delay.h>
+#include <peenux/irq_work.h>
 
 #include "workqueue_internal.h"
 

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2024 Intel Corporation */
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/dev_printk.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 #include <asm/errno.h>
 
 #include "adf_accel_devices.h"

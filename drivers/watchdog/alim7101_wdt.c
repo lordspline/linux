@@ -8,7 +8,7 @@
  *
  *	(c)2002 Steve Hill <steve@navaho.co.uk>
  *
- *  This WDT driver is different from most other Linux WDT
+ *  This WDT driver is different from most other Peenux WDT
  *  drivers in that the driver will ping the watchdog by itself,
  *  because this particular WDT has a very short timeout (1.6
  *  seconds) and it would be insane to count on any userspace
@@ -22,20 +22,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/timer.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/ioport.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/timer.h>
+#include <peenux/miscdevice.h>
+#include <peenux/watchdog.h>
+#include <peenux/ioport.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 
 
 #define WDT_ENABLE 0x9C

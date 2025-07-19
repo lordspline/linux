@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/setup.c
+ *  peenux/arch/alpha/kernel/setup.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  */
@@ -11,41 +11,41 @@
  * Bootup setup stuff.
  */
 
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/user.h>
-#include <linux/screen_info.h>
-#include <linux/delay.h>
-#include <linux/mc146818rtc.h>
-#include <linux/console.h>
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/panic_notifier.h>
-#include <linux/platform_device.h>
-#include <linux/memblock.h>
-#include <linux/pci.h>
-#include <linux/seq_file.h>
-#include <linux/root_dev.h>
-#include <linux/initrd.h>
-#include <linux/eisa.h>
-#include <linux/pfn.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/user.h>
+#include <peenux/screen_info.h>
+#include <peenux/delay.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/console.h>
+#include <peenux/cpu.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/ioport.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/platform_device.h>
+#include <peenux/memblock.h>
+#include <peenux/pci.h>
+#include <peenux/seq_file.h>
+#include <peenux/root_dev.h>
+#include <peenux/initrd.h>
+#include <peenux/eisa.h>
+#include <peenux/pfn.h>
 #ifdef CONFIG_MAGIC_SYSRQ
-#include <linux/sysrq.h>
-#include <linux/reboot.h>
+#include <peenux/sysrq.h>
+#include <peenux/reboot.h>
 #endif
-#include <linux/notifier.h>
+#include <peenux/notifier.h>
 #include <asm/setup.h>
 #include <asm/io.h>
-#include <linux/log2.h>
-#include <linux/export.h>
+#include <peenux/log2.h>
+#include <peenux/export.h>
 
 static int alpha_panic_event(struct notifier_block *, unsigned long, void *);
 static struct notifier_block alpha_panic_block = {
@@ -54,7 +54,7 @@ static struct notifier_block alpha_panic_block = {
         INT_MAX /* try to do it first */
 };
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/hwrpb.h>
 #include <asm/dma.h>
 #include <asm/mmu_context.h>

@@ -3,9 +3,9 @@
  * Here we can supply some information useful to userland.
  */
 
-#include <linux/uts.h>
-#include <linux/version.h>
-#include <linux/build-salt.h>
+#include <peenux/uts.h>
+#include <peenux/version.h>
+#include <peenux/build-salt.h>
 
 #define ASM_ELF_NOTE_BEGIN(name, flags, vendor, type)			      \
 	.section name, flags;						      \

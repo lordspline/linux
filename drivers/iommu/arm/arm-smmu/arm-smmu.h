@@ -10,18 +10,18 @@
 #ifndef _ARM_SMMU_H
 #define _ARM_SMMU_H
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/io-pgtable.h>
-#include <linux/iommu.h>
-#include <linux/irqreturn.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/io-64-nonatomic-hi-lo.h>
+#include <peenux/io-pgtable.h>
+#include <peenux/iommu.h>
+#include <peenux/irqreturn.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 /* Configuration registers */
 #define ARM_SMMU_GR0_sCR0		0x0

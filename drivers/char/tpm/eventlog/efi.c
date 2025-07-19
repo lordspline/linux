@@ -6,9 +6,9 @@
  *      Thiebaud Weksteen <tweek@google.com>
  */
 
-#include <linux/device.h>
-#include <linux/efi.h>
-#include <linux/tpm_eventlog.h>
+#include <peenux/device.h>
+#include <peenux/efi.h>
+#include <peenux/tpm_eventlog.h>
 
 #include "../tpm.h"
 #include "common.h"

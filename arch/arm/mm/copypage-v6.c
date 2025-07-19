@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mm/copypage-v6.c
+ *  peenux/arch/arm/mm/copypage-v6.c
  *
  *  Copyright (C) 2002 Deep Blue Solutions Ltd, All Rights Reserved.
  */
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
 
 #include <asm/shmparam.h>
 #include <asm/tlbflush.h>

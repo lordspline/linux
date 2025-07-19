@@ -8,9 +8,9 @@
 
 #include "emu8000_local.h"
 
-#include <linux/sched/signal.h>
-#include <linux/uaccess.h>
-#include <linux/moduleparam.h>
+#include <peenux/sched/signal.h>
+#include <peenux/uaccess.h>
+#include <peenux/moduleparam.h>
 
 static int emu8000_reset_addr;
 module_param(emu8000_reset_addr, int, 0444);

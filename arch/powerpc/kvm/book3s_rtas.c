@@ -3,12 +3,12 @@
  * Copyright 2012 Michael Ellerman, IBM Corporation.
  */
 
-#include <linux/kernel.h>
-#include <linux/kvm_host.h>
-#include <linux/kvm.h>
-#include <linux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/kvm_host.h>
+#include <peenux/kvm.h>
+#include <peenux/err.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/kvm_book3s.h>
 #include <asm/kvm_ppc.h>
 #include <asm/hvcall.h>

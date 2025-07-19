@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *	linux/drivers/net/wireless/libertas/if_spi.c
+ *	peenux/drivers/net/wireless/libertas/if_spi.c
  *
  *	Driver for Marvell SPI WLAN cards.
  *
@@ -15,16 +15,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/hardirq.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/jiffies.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
-#include <linux/spi/libertas_spi.h>
-#include <linux/spi/spi.h>
+#include <peenux/hardirq.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/jiffies.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/spi/libertas_spi.h>
+#include <peenux/spi/spi.h>
 
 #include "host.h"
 #include "decl.h"

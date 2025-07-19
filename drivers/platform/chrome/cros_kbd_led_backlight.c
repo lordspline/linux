@@ -3,21 +3,21 @@
 //
 // Copyright (C) 2012 Google, Inc.
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/mfd/core.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 struct keyboard_led {
 	struct led_classdev cdev;
@@ -34,7 +34,7 @@ struct keyboard_led {
  *				LED device register
  * @max_brightness:		Maximum brightness.
  *
- * See struct led_classdev in include/linux/leds.h for more details.
+ * See struct led_classdev in include/peenux/leds.h for more details.
  */
 struct keyboard_led_drvdata {
 	int (*init)(struct platform_device *pdev);

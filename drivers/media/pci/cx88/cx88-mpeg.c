@@ -11,13 +11,13 @@
 
 #include "cx88.h"
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
 
 /* ------------------------------------------------------------------ */
 

@@ -10,19 +10,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/efi.h>
-#include <linux/gpio/machine.h>
-#include <linux/mfd/arizona/pdata.h>
-#include <linux/mfd/arizona/registers.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/platform_data/lp855x.h>
-#include <linux/platform_device.h>
-#include <linux/power/bq24190_charger.h>
-#include <linux/reboot.h>
-#include <linux/rmi.h>
-#include <linux/spi/spi.h>
+#include <peenux/efi.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/mfd/arizona/pdata.h>
+#include <peenux/mfd/arizona/registers.h>
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/platform_data/lp855x.h>
+#include <peenux/platform_device.h>
+#include <peenux/power/bq24190_charger.h>
+#include <peenux/reboot.h>
+#include <peenux/rmi.h>
+#include <peenux/spi/spi.h>
 
 #include "shared-psy-info.h"
 #include "x86-android-tablets.h"
@@ -802,8 +802,8 @@ static const struct software_node fg_bq25890_1_supply_node = {
 /* bq25892 charger settings for the flat LiPo battery behind the screen */
 static const struct property_entry lenovo_yt3_bq25892_0_props[] = {
 	PROPERTY_ENTRY_STRING_ARRAY("supplied-from", lenovo_yt3_bq25892_0_suppliers),
-	PROPERTY_ENTRY_U32("linux,iinlim-percentage", 40),
-	PROPERTY_ENTRY_BOOL("linux,skip-reset"),
+	PROPERTY_ENTRY_U32("peenux,iinlim-percentage", 40),
+	PROPERTY_ENTRY_BOOL("peenux,skip-reset"),
 	/* Values taken from Android Factory Image */
 	PROPERTY_ENTRY_U32("ti,charge-current", 2048000),
 	PROPERTY_ENTRY_U32("ti,battery-regulation-voltage", 4352000),

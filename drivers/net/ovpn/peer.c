@@ -7,9 +7,9 @@
  *		Antonio Quartulli <antonio@openvpn.net>
  */
 
-#include <linux/skbuff.h>
-#include <linux/list.h>
-#include <linux/hashtable.h>
+#include <peenux/skbuff.h>
+#include <peenux/list.h>
+#include <peenux/hashtable.h>
 #include <net/ip6_route.h>
 
 #include "ovpnpriv.h"

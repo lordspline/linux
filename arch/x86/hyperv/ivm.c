@@ -6,10 +6,10 @@
  *  Tianyu Lan <Tianyu.Lan@microsoft.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
+#include <peenux/bitfield.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/cpu.h>
 #include <asm/svm.h>
 #include <asm/sev.h>
 #include <asm/io.h>
@@ -518,8 +518,8 @@ static int hv_mark_gpa_visibility(u16 count, const u64 pfn[],
  * reference while the state is inconsistent could result in an exception
  * that can't be cleanly fixed up.
  *
- * But the Linux kernel load_unaligned_zeropad() mechanism could cause a
- * stray reference that can't be prevented by the caller, so Linux has
+ * But the Peenux kernel load_unaligned_zeropad() mechanism could cause a
+ * stray reference that can't be prevented by the caller, so Peenux has
  * specific code to handle this case. But when the #VC and #VE exceptions
  * routed to a paravisor, the specific code doesn't work. To avoid this
  * problem, mark the pages as "not present" while the transition is in

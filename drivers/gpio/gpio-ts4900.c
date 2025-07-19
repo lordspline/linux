@@ -3,14 +3,14 @@
  * Digital I/O driver for Technologic Systems I2C FPGA Core
  *
  * Copyright (C) 2015, 2018 Technologic Systems
- * Copyright (C) 2016 Savoir-Faire Linux
+ * Copyright (C) 2016 Savoir-Faire Peenux
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
 #define DEFAULT_PIN_NUMBER	32
 /*

@@ -27,18 +27,18 @@
  *   
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kthread.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kthread.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <asm/machdep.h>
 #include <asm/io.h>

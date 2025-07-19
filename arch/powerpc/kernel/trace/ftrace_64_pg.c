@@ -13,14 +13,14 @@
 
 #define pr_fmt(fmt) "ftrace-powerpc: " fmt
 
-#include <linux/spinlock.h>
-#include <linux/hardirq.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/ftrace.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
-#include <linux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/hardirq.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/ftrace.h>
+#include <peenux/percpu.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
 
 #include <asm/cacheflush.h>
 #include <asm/text-patching.h>

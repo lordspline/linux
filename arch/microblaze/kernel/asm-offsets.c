@@ -8,14 +8,14 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/stddef.h>
-#include <linux/sched.h>
-#include <linux/kernel_stat.h>
-#include <linux/ptrace.h>
-#include <linux/hardirq.h>
-#include <linux/thread_info.h>
-#include <linux/kbuild.h>
+#include <peenux/init.h>
+#include <peenux/stddef.h>
+#include <peenux/sched.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/ptrace.h>
+#include <peenux/hardirq.h>
+#include <peenux/thread_info.h>
+#include <peenux/kbuild.h>
 #include <asm/cpuinfo.h>
 
 int main(int argc, char *argv[])

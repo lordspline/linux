@@ -4,15 +4,15 @@
 #ifndef __VBOXGUEST_CORE_H__
 #define __VBOXGUEST_CORE_H__
 
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/vboxguest.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/miscdevice.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
+#include <peenux/vboxguest.h>
 #include "vmmdev.h"
 
 /*

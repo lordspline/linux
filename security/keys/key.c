@@ -5,15 +5,15 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/poison.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/security.h>
-#include <linux/workqueue.h>
-#include <linux/random.h>
-#include <linux/err.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/poison.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/security.h>
+#include <peenux/workqueue.h>
+#include <peenux/random.h>
+#include <peenux/err.h>
 #include "internal.h"
 
 struct kmem_cache *key_jar;

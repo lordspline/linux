@@ -8,7 +8,7 @@
 #ifndef RVU_H
 #define RVU_H
 
-#include <linux/pci.h>
+#include <peenux/pci.h>
 #include <net/devlink.h>
 
 #include "rvu_struct.h"

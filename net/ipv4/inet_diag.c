@@ -5,15 +5,15 @@
  * Authors:	Alexey Kuznetsov, <kuznet@ms2.inr.ac.ru>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/cache.h>
-#include <linux/init.h>
-#include <linux/time.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/cache.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
 
 #include <net/icmp.h>
 #include <net/tcp.h>
@@ -26,11 +26,11 @@
 #include <net/bpf_sk_storage.h>
 #include <net/netlink.h>
 
-#include <linux/inet.h>
-#include <linux/stddef.h>
+#include <peenux/inet.h>
+#include <peenux/stddef.h>
 
-#include <linux/inet_diag.h>
-#include <linux/sock_diag.h>
+#include <peenux/inet_diag.h>
+#include <peenux/sock_diag.h>
 
 static const struct inet_diag_handler __rcu **inet_diag_table;
 

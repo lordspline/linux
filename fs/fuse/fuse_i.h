@@ -13,24 +13,24 @@
 # define pr_fmt(fmt) "fuse: " fmt
 #endif
 
-#include <linux/fuse.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/wait.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/backing-dev.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/rbtree.h>
-#include <linux/poll.h>
-#include <linux/workqueue.h>
-#include <linux/kref.h>
-#include <linux/xattr.h>
-#include <linux/pid_namespace.h>
-#include <linux/refcount.h>
-#include <linux/user_namespace.h>
+#include <peenux/fuse.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
+#include <peenux/wait.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/backing-dev.h>
+#include <peenux/mutex.h>
+#include <peenux/rwsem.h>
+#include <peenux/rbtree.h>
+#include <peenux/poll.h>
+#include <peenux/workqueue.h>
+#include <peenux/kref.h>
+#include <peenux/xattr.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/refcount.h>
+#include <peenux/user_namespace.h>
 
 /** Default max number of pages that can be used in a single read request */
 #define FUSE_DEFAULT_MAX_PAGES_PER_REQ 32

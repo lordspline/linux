@@ -4,18 +4,18 @@
  * Author: Radu Pirea <radu-nicolae.pirea@oss.nxp.com>
  */
 
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/kernel.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/processor.h>
-#include <linux/property.h>
-#include <linux/ptp_classify.h>
-#include <linux/net_tstamp.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/kernel.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy.h>
+#include <peenux/processor.h>
+#include <peenux/property.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/net_tstamp.h>
 
 #include "nxp-c45-tja11xx.h"
 

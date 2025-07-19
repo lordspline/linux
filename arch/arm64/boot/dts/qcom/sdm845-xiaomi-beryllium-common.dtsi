@@ -47,7 +47,7 @@
 
 		key-vol-up {
 			label = "Volume Up";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			gpios = <&pm8998_gpios 6 GPIO_ACTIVE_LOW>;
 		};
 	};
@@ -378,7 +378,7 @@
 };
 
 &pm8998_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	peenux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

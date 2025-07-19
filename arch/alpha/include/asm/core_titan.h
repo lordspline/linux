@@ -2,7 +2,7 @@
 #ifndef __ALPHA_TITAN__H__
 #define __ALPHA_TITAN__H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/compiler.h>
 
 /*

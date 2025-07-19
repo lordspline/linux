@@ -5,9 +5,9 @@
 #define _FBNIC_TLV_H_
 
 #include <asm/byteorder.h>
-#include <linux/bits.h>
-#include <linux/const.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/const.h>
+#include <peenux/types.h>
 
 #define FBNIC_TLV_MSG_ALIGN(len)	ALIGN(len, sizeof(u32))
 #define FBNIC_TLV_MSG_SIZE(len)		\

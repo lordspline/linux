@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
  *  Copyright (C) 1996-2000 Vojtech Pavlik
  *
@@ -24,8 +24,8 @@
 
 
 
-#include <linux/types.h>
-#include <linux/input.h>
+#include <peenux/types.h>
+#include <peenux/input.h>
 
 /*
  * Version

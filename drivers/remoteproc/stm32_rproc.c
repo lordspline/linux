@@ -5,22 +5,22 @@
  *          Fabien Dessenne <fabien.dessenne@st.com> for STMicroelectronics.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/regmap.h>
+#include <peenux/remoteproc.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include "remoteproc_internal.h"
 
@@ -417,7 +417,7 @@ static int stm32_rproc_set_hold_boot(struct rproc *rproc, bool hold)
 	/*
 	 * Three ways to manage the hold boot
 	 * - using SCMI: the hold boot is managed as a reset,
-	 * - using Linux(no SCMI): the hold boot is managed as a syscon register
+	 * - using Peenux(no SCMI): the hold boot is managed as a syscon register
 	 * - using SMC call (deprecated): use SMC reset interface
 	 */
 

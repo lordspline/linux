@@ -5,14 +5,14 @@
  */
 
 #include <dt-bindings/clock/imx8mq-clock.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
 
 #include "clk.h"
 

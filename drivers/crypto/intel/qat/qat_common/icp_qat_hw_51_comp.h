@@ -3,7 +3,7 @@
 #ifndef ICP_QAT_HW_51_COMP_H_
 #define ICP_QAT_HW_51_COMP_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "icp_qat_fw.h"
 #include "icp_qat_hw_51_comp_defs.h"

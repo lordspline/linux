@@ -11,11 +11,11 @@
 
 #include <crypto/internal/hash.h>
 #include <crypto/sm3.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 typedef void (sm3_block_fn)(struct sm3_state *sst, u8 const *src, int blocks);
 

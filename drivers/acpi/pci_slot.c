@@ -16,15 +16,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/pci-acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/pci.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/pci-acpi.h>
 
 static int check_sta_before_sun;
 

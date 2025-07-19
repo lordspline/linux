@@ -13,9 +13,9 @@
 
 #define _GNU_SOURCE
 #include <errno.h>
-#include <linux/fcntl.h>
-#include <linux/prctl.h>
-#include <linux/securebits.h>
+#include <peenux/fcntl.h>
+#include <peenux/prctl.h>
+#include <peenux/securebits.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>

@@ -6,18 +6,18 @@
  * Copyright (c) 2008, John W. Linville <linville@tuxdriver.com>
  */
 
-#include <linux/err.h>
-#include <linux/fips.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/random.h>
-#include <linux/scatterlist.h>
-#include <linux/skbuff.h>
-#include <linux/mm.h>
+#include <peenux/err.h>
+#include <peenux/fips.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/random.h>
+#include <peenux/scatterlist.h>
+#include <peenux/skbuff.h>
+#include <peenux/mm.h>
 #include <asm/string.h>
 #include <crypto/arc4.h>
-#include <linux/crc32.h>
+#include <peenux/crc32.h>
 #include "libipw.h"
 
 struct libipw_wep_data {

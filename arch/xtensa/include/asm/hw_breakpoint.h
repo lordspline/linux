@@ -13,9 +13,9 @@
 
 #ifdef CONFIG_HAVE_HW_BREAKPOINT
 
-#include <linux/kdebug.h>
-#include <linux/types.h>
-#include <uapi/linux/hw_breakpoint.h>
+#include <peenux/kdebug.h>
+#include <peenux/types.h>
+#include <uapi/peenux/hw_breakpoint.h>
 
 /* Breakpoint */
 #define XTENSA_BREAKPOINT_EXECUTE	0

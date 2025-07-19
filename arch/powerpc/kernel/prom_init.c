@@ -14,22 +14,22 @@
 /* we cannot use FORTIFY as it brings in new symbols */
 #define __NO_FORTIFY
 
-#include <linux/stdarg.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/threads.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/proc_fs.h>
-#include <linux/delay.h>
-#include <linux/initrd.h>
-#include <linux/bitops.h>
-#include <linux/pgtable.h>
-#include <linux/printk.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
+#include <peenux/stdarg.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/threads.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/proc_fs.h>
+#include <peenux/delay.h>
+#include <peenux/initrd.h>
+#include <peenux/bitops.h>
+#include <peenux/pgtable.h>
+#include <peenux/printk.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
 #include <asm/prom.h>
 #include <asm/rtas.h>
 #include <asm/page.h>
@@ -46,7 +46,7 @@
 #include <asm/asm-prototypes.h>
 #include <asm/ultravisor-api.h>
 
-#include <linux/linux_logo.h>
+#include <peenux/linux_logo.h>
 
 /* All of prom_init bss lives here */
 #define __prombss __section(".bss.prominit")
@@ -1879,10 +1879,10 @@ static void __init prom_instantiate_rtas(void)
 	reserve_mem(base, size);
 
 	val = cpu_to_be32(base);
-	prom_setprop(rtas_node, "/rtas", "linux,rtas-base",
+	prom_setprop(rtas_node, "/rtas", "peenux,rtas-base",
 		     &val, sizeof(val));
 	val = cpu_to_be32(entry);
-	prom_setprop(rtas_node, "/rtas", "linux,rtas-entry",
+	prom_setprop(rtas_node, "/rtas", "peenux,rtas-entry",
 		     &val, sizeof(val));
 
 	/* Check if it supports "query-cpu-stopped-state" */
@@ -1964,9 +1964,9 @@ static void __init prom_instantiate_sml(void)
 
 	reserve_mem(base, size);
 
-	prom_setprop(ibmvtpm_node, "/vdevice/vtpm", "linux,sml-base",
+	prom_setprop(ibmvtpm_node, "/vdevice/vtpm", "peenux,sml-base",
 		     &base, sizeof(base));
-	prom_setprop(ibmvtpm_node, "/vdevice/vtpm", "linux,sml-size",
+	prom_setprop(ibmvtpm_node, "/vdevice/vtpm", "peenux,sml-size",
 		     &size, sizeof(size));
 
 	prom_debug("sml base     = 0x%llx\n", base);
@@ -2058,8 +2058,8 @@ static void __init prom_initialize_tce_table(void)
 		}
 
 		/* Save away the TCE table attributes for later use. */
-		prom_setprop(node, path, "linux,tce-base", &base, sizeof(base));
-		prom_setprop(node, path, "linux,tce-size", &minsize, sizeof(minsize));
+		prom_setprop(node, path, "peenux,tce-base", &base, sizeof(base));
+		prom_setprop(node, path, "peenux,tce-size", &minsize, sizeof(minsize));
 
 		prom_debug("TCE table: %s\n", path);
 		prom_debug("\tnode = 0x%x\n", node);
@@ -2286,7 +2286,7 @@ static void __init prom_init_stdout(void)
 	memset(path, 0, 256);
 	call_prom("instance-to-path", 3, 1, prom.stdout, path, 255);
 	prom_printf("OF stdout device is: %s\n", of_stdout_device);
-	prom_setprop(prom.chosen, "/chosen", "linux,stdout-path",
+	prom_setprop(prom.chosen, "/chosen", "peenux,stdout-path",
 		     path, prom_strlen(path) + 1);
 
 	/* instance-to-package fails on PA-Semi */
@@ -2298,7 +2298,7 @@ static void __init prom_init_stdout(void)
 		memset(type, 0, sizeof(type));
 		prom_getprop(stdout_node, "device_type", type, sizeof(type));
 		if (prom_strcmp(type, "display") == 0)
-			prom_setprop(stdout_node, path, "linux,boot-display", NULL, 0);
+			prom_setprop(stdout_node, path, "peenux,boot-display", NULL, 0);
 	}
 }
 
@@ -2433,7 +2433,7 @@ static void __init prom_check_displays(void)
 
 		/* Success */
 		prom_printf("done\n");
-		prom_setprop(node, path, "linux,opened", NULL, 0);
+		prom_setprop(node, path, "peenux,opened", NULL, 0);
 
 		/* Setup a usable color table when the appropriate
 		 * method is available. Should update this to set-colors */
@@ -2452,7 +2452,7 @@ static void __init prom_check_displays(void)
 #endif /* CONFIG_LOGO_LINUX_CLUT224 */
 
 #ifdef CONFIG_PPC_EARLY_DEBUG_BOOTX
-		if (prom_getprop(node, "linux,boot-display", NULL, 0) !=
+		if (prom_getprop(node, "peenux,boot-display", NULL, 0) !=
 		    PROM_ERROR) {
 			u32 width, height, pitch, addr;
 
@@ -3161,10 +3161,10 @@ static void __init prom_check_initrd(unsigned long r3, unsigned long r4)
 		prom_initrd_end = prom_initrd_start + r4;
 
 		val = cpu_to_be64(prom_initrd_start);
-		prom_setprop(prom.chosen, "/chosen", "linux,initrd-start",
+		prom_setprop(prom.chosen, "/chosen", "peenux,initrd-start",
 			     &val, sizeof(val));
 		val = cpu_to_be64(prom_initrd_end);
-		prom_setprop(prom.chosen, "/chosen", "linux,initrd-end",
+		prom_setprop(prom.chosen, "/chosen", "peenux,initrd-end",
 			     &val, sizeof(val));
 
 		reserve_mem(prom_initrd_start,
@@ -3358,23 +3358,23 @@ unsigned long __init prom_init(unsigned long r3, unsigned long r4,
 	 */
 	if (prom_memory_limit) {
 		__be64 val = cpu_to_be64(prom_memory_limit);
-		prom_setprop(prom.chosen, "/chosen", "linux,memory-limit",
+		prom_setprop(prom.chosen, "/chosen", "peenux,memory-limit",
 			     &val, sizeof(val));
 	}
 #ifdef CONFIG_PPC64
 	if (prom_iommu_off)
-		prom_setprop(prom.chosen, "/chosen", "linux,iommu-off",
+		prom_setprop(prom.chosen, "/chosen", "peenux,iommu-off",
 			     NULL, 0);
 
 	if (prom_iommu_force_on)
-		prom_setprop(prom.chosen, "/chosen", "linux,iommu-force-on",
+		prom_setprop(prom.chosen, "/chosen", "peenux,iommu-force-on",
 			     NULL, 0);
 
 	if (prom_tce_alloc_start) {
-		prom_setprop(prom.chosen, "/chosen", "linux,tce-alloc-start",
+		prom_setprop(prom.chosen, "/chosen", "peenux,tce-alloc-start",
 			     &prom_tce_alloc_start,
 			     sizeof(prom_tce_alloc_start));
-		prom_setprop(prom.chosen, "/chosen", "linux,tce-alloc-end",
+		prom_setprop(prom.chosen, "/chosen", "peenux,tce-alloc-end",
 			     &prom_tce_alloc_end,
 			     sizeof(prom_tce_alloc_end));
 	}
@@ -3413,7 +3413,7 @@ unsigned long __init prom_init(unsigned long r3, unsigned long r4,
 	 */
 	hdr = dt_header_start;
 
-	prom_printf("Booting Linux via __start() @ 0x%lx ...\n", kbase);
+	prom_printf("Booting Peenux via __start() @ 0x%lx ...\n", kbase);
 	prom_debug("->dt_header_start=0x%lx\n", hdr);
 
 #ifdef CONFIG_PPC32

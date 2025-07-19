@@ -11,9 +11,9 @@
 #ifndef __LINUX_OF_GRAPH_H
 #define __LINUX_OF_GRAPH_H
 
-#include <linux/cleanup.h>
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <peenux/cleanup.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
 
 /**
  * struct of_endpoint - the OF graph endpoint data structure

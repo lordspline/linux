@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) Meta Platforms, Inc. and affiliates. */
 
-#include <linux/bitfield.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/dma-mapping.h>
-#include <linux/gfp.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
+#include <peenux/dev_printk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/gfp.h>
+#include <peenux/types.h>
 
 #include "fbnic.h"
 #include "fbnic_tlv.h"

@@ -4,8 +4,8 @@
 #ifndef PVR_MMU_H
 #define PVR_MMU_H
 
-#include <linux/memory.h>
-#include <linux/types.h>
+#include <peenux/memory.h>
+#include <peenux/types.h>
 
 /* Forward declaration from "pvr_device.h" */
 struct pvr_device;
@@ -17,7 +17,7 @@ struct pvr_mmu_op_context;
 /* Forward declaration from "pvr_vm.c" */
 struct pvr_vm_context;
 
-/* Forward declaration from <linux/scatterlist.h> */
+/* Forward declaration from <peenux/scatterlist.h> */
 struct sg_table;
 
 /**

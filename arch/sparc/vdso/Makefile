@@ -22,7 +22,7 @@ targets += $(foreach x, 32 64, vdso-image-$(x).c vdso$(x).so vdso$(x).so.dbg)
 
 CPPFLAGS_vdso.lds += -P -C
 
-VDSO_LDFLAGS_vdso.lds = -m elf64_sparc -soname linux-vdso.so.1 \
+VDSO_LDFLAGS_vdso.lds = -m elf64_sparc -soname peenux-vdso.so.1 \
 			-z max-page-size=8192
 
 $(obj)/vdso64.so.dbg: $(obj)/vdso.lds $(vobjs) FORCE
@@ -61,7 +61,7 @@ $(obj)/%.so: $(obj)/%.so.dbg FORCE
 	$(call if_changed,objcopy)
 
 CPPFLAGS_vdso32/vdso32.lds = $(CPPFLAGS_vdso.lds)
-VDSO_LDFLAGS_vdso32.lds = -m elf32_sparc -soname linux-gate.so.1
+VDSO_LDFLAGS_vdso32.lds = -m elf32_sparc -soname peenux-gate.so.1
 
 #This makes sure the $(obj) subdirectory exists even though vdso32/
 #is not a kbuild sub-make subdirectory

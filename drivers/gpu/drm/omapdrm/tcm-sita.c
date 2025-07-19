@@ -8,13 +8,13 @@
  *
  * Copyright (C) 2012 Texas Instruments Incorporated - https://www.ti.com/
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/bitmap.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/bitmap.h>
+#include <peenux/slab.h>
 #include "tcm.h"
 
 static unsigned long mask[8];

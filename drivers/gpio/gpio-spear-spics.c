@@ -3,16 +3,16 @@
  * SPEAr platform SPI chipselect abstraction over gpiolib
  *
  * Copyright (C) 2012 ST Microelectronics
- * Shiraz Hashim <shiraz.linux.kernel@gmail.com>
+ * Shiraz Hashim <shiraz.peenux.kernel@gmail.com>
  */
 
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 /* maximum chipselects */
 #define NUM_OF_GPIO	4

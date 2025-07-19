@@ -15,14 +15,14 @@
  * Author: Chen-Yu Tsai <wens@csie.org>
  */
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/ac100.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/sunxi-rsb.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/ac100.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/sunxi-rsb.h>
 
 static const struct regmap_range ac100_writeable_ranges[] = {
 	regmap_reg_range(AC100_CHIP_AUDIO_RST, AC100_I2S_SR_CTRL),

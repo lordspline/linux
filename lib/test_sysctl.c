@@ -14,17 +14,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/async.h>
-#include <linux/delay.h>
-#include <linux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/async.h>
+#include <peenux/delay.h>
+#include <peenux/vmalloc.h>
 
 static int i_zero;
 static int i_one_hundred = 100;

@@ -2,7 +2,7 @@
 // Copyright 2024 Google LLC
 // Author: Ard Biesheuvel <ardb@google.com>
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/tlbflush.h>
 
 #ifdef CONFIG_CPU_TLB_V4WT

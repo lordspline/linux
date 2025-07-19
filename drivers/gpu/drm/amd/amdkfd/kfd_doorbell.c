@@ -21,11 +21,11 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 #include "kfd_priv.h"
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/idr.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/idr.h>
 
 /*
  * This extension supports a kernel level doorbells management for the

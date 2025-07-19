@@ -4,9 +4,9 @@
  *
  * Copyright (c) 2009 Daniel Mack <daniel@caiaq.de>
  */
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/io.h>
 
 #include "hardware.h"
 #include "iim.h"

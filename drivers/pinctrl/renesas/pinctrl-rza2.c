@@ -10,15 +10,15 @@
  * family.
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/platform_device.h>
 
 #include "../core.h"
 #include "../pinmux.h"

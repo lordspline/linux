@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
 // Copyright 2018 NXP
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/kobject.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/dma/imx-dma.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/kobject.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/dma/imx-dma.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

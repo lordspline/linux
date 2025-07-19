@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _UAPI__LINUX_ATALK_H__
 #define _UAPI__LINUX_ATALK_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
-#include <linux/socket.h>
+#include <peenux/socket.h>
 
 /*
  * AppleTalk networking structures

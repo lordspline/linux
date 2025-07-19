@@ -18,8 +18,8 @@
 #include <kunit/test.h>
 #include <kunit/test-bug.h>
 
-#include <linux/compiler.h> /* for {un,}likely() */
-#include <linux/sched.h> /* for task_struct */
+#include <peenux/compiler.h> /* for {un,}likely() */
+#include <peenux/sched.h> /* for task_struct */
 
 
 /**

@@ -8,20 +8,20 @@
  *  Gerd Haeussler <gerd.haeussler.ext@siemens.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_data/x86/p2sb.h>
-#include <linux/platform_data/x86/simatic-ipc-base.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/util_macros.h>
-#include <linux/watchdog.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_data/x86/p2sb.h>
+#include <peenux/platform_data/x86/simatic-ipc-base.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
+#include <peenux/util_macros.h>
+#include <peenux/watchdog.h>
 
 #define WD_ENABLE_IOADR			0x62
 #define WD_TRIGGER_IOADR		0x66

@@ -11,9 +11,9 @@
  *
  * See the GNU General Public License for more details.
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <net/llc.h>
 #include <net/llc_sap.h>
 #include <net/llc_conn.h>

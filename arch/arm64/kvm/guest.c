@@ -8,19 +8,19 @@
  * Author: Christoffer Dall <c.dall@virtualopensystems.com>
  */
 
-#include <linux/bits.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/nospec.h>
-#include <linux/kvm_host.h>
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
+#include <peenux/bits.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/nospec.h>
+#include <peenux/kvm_host.h>
+#include <peenux/module.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
 #include <kvm/arm_hypercalls.h>
 #include <asm/cputype.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/fpsimd.h>
 #include <asm/kvm.h>
 #include <asm/kvm_emulate.h>

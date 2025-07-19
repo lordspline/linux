@@ -3,7 +3,7 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/sched/clock.h>
+#include <peenux/sched/clock.h>
 
 #include "i915_drv.h"
 #include "i915_irq.h"

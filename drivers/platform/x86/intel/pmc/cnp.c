@@ -8,8 +8,8 @@
  *
  */
 
-#include <linux/smp.h>
-#include <linux/suspend.h>
+#include <peenux/smp.h>
+#include <peenux/suspend.h>
 #include <asm/msr.h>
 #include "core.h"
 

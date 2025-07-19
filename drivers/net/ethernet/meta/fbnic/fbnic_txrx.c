@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) Meta Platforms, Inc. and affiliates. */
 
-#include <linux/bitfield.h>
-#include <linux/iopoll.h>
-#include <linux/pci.h>
+#include <peenux/bitfield.h>
+#include <peenux/iopoll.h>
+#include <peenux/pci.h>
 #include <net/netdev_queues.h>
 #include <net/page_pool/helpers.h>
 #include <net/tcp.h>

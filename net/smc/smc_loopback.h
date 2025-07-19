@@ -6,15 +6,15 @@
  *
  *  Copyright (c) 2024, Alibaba Inc.
  *
- *  Author: Wen Gu <guwen@linux.alibaba.com>
- *          Tony Lu <tonylu@linux.alibaba.com>
+ *  Author: Wen Gu <guwen@peenux.alibaba.com>
+ *          Tony Lu <tonylu@peenux.alibaba.com>
  *
  */
 
 #ifndef _SMC_LOOPBACK_H
 #define _SMC_LOOPBACK_H
 
-#include <linux/device.h>
+#include <peenux/device.h>
 #include <net/smc.h>
 
 #if IS_ENABLED(CONFIG_SMC_LO)

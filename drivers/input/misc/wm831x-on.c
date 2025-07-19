@@ -17,15 +17,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
-#include <linux/mfd/wm831x/core.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/workqueue.h>
+#include <peenux/mfd/wm831x/core.h>
 
 struct wm831x_on {
 	struct input_dev *dev;

@@ -3,12 +3,12 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/cacheflush.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/cacheflush.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include "ipu6-bus.h"
 #include "ipu6-fw-com.h"

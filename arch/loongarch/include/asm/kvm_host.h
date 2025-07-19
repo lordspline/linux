@@ -6,16 +6,16 @@
 #ifndef __ASM_LOONGARCH_KVM_HOST_H__
 #define __ASM_LOONGARCH_KVM_HOST_H__
 
-#include <linux/cpumask.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/kvm.h>
-#include <linux/kvm_types.h>
-#include <linux/mutex.h>
-#include <linux/perf_event.h>
-#include <linux/spinlock.h>
-#include <linux/threads.h>
-#include <linux/types.h>
+#include <peenux/cpumask.h>
+#include <peenux/hrtimer.h>
+#include <peenux/interrupt.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_types.h>
+#include <peenux/mutex.h>
+#include <peenux/perf_event.h>
+#include <peenux/spinlock.h>
+#include <peenux/threads.h>
+#include <peenux/types.h>
 
 #include <asm/inst.h>
 #include <asm/kvm_mmu.h>

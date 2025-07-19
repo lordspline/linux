@@ -2,8 +2,8 @@
 // Copyright (c) 2021, ASPEED Technology Inc.
 // Authors: KuoHsiang Chou <kuohsiang_chou@aspeedtech.com>
 
-#include <linux/firmware.h>
-#include <linux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/delay.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_state_helper.h>

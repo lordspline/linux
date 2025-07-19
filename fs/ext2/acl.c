@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/ext2/acl.c
+ * peenux/fs/ext2/acl.c
  *
  * Copyright (C) 2001-2003 Andreas Gruenbacher, <agruen@suse.de>
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
 #include "ext2.h"
 #include "xattr.h"
 #include "acl.h"

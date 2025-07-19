@@ -9,11 +9,11 @@
  * Copyright (c) 2010 - 2012 Xilinx, Inc. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/of_address.h>
-#include <linux/of_mdio.h>
-#include <linux/jiffies.h>
-#include <linux/iopoll.h>
+#include <peenux/clk.h>
+#include <peenux/of_address.h>
+#include <peenux/of_mdio.h>
+#include <peenux/jiffies.h>
+#include <peenux/iopoll.h>
 
 #include "xilinx_axienet.h"
 

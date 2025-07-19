@@ -48,7 +48,7 @@
 
 		button-recovery {
 			label = "recovery";
-			linux,code = <KEY_RESTART>;
+			peenux,code = <KEY_RESTART>;
 			press-threshold-microvolt = <108>;
 		};
 	};

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/kernel/signal.c
+ *  peenux/kernel/signal.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -11,49 +11,49 @@
  *		to allow signals to be sent reliably.
  */
 
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/user.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/cputime.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/tty.h>
-#include <linux/binfmts.h>
-#include <linux/coredump.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/ptrace.h>
-#include <linux/signal.h>
-#include <linux/signalfd.h>
-#include <linux/ratelimit.h>
-#include <linux/task_work.h>
-#include <linux/capability.h>
-#include <linux/freezer.h>
-#include <linux/pid_namespace.h>
-#include <linux/nsproxy.h>
-#include <linux/user_namespace.h>
-#include <linux/uprobes.h>
-#include <linux/compat.h>
-#include <linux/cn_proc.h>
-#include <linux/compiler.h>
-#include <linux/posix-timers.h>
-#include <linux/cgroup.h>
-#include <linux/audit.h>
-#include <linux/sysctl.h>
-#include <uapi/linux/pidfd.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/user.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/proc_fs.h>
+#include <peenux/tty.h>
+#include <peenux/binfmts.h>
+#include <peenux/coredump.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/ptrace.h>
+#include <peenux/signal.h>
+#include <peenux/signalfd.h>
+#include <peenux/ratelimit.h>
+#include <peenux/task_work.h>
+#include <peenux/capability.h>
+#include <peenux/freezer.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/nsproxy.h>
+#include <peenux/user_namespace.h>
+#include <peenux/uprobes.h>
+#include <peenux/compat.h>
+#include <peenux/cn_proc.h>
+#include <peenux/compiler.h>
+#include <peenux/posix-timers.h>
+#include <peenux/cgroup.h>
+#include <peenux/audit.h>
+#include <peenux/sysctl.h>
+#include <uapi/peenux/pidfd.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/signal.h>
 
 #include <asm/param.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/unistd.h>
 #include <asm/siginfo.h>
 #include <asm/cacheflush.h>
@@ -5008,7 +5008,7 @@ void __init signals_init(void)
 }
 
 #ifdef CONFIG_KGDB_KDB
-#include <linux/kdb.h>
+#include <peenux/kdb.h>
 /*
  * kdb_send_sig - Allows kdb to send signals without exposing
  * signal internals.  This function checks if the required locks are

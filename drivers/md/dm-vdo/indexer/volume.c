@@ -5,9 +5,9 @@
 
 #include "volume.h"
 
-#include <linux/atomic.h>
-#include <linux/dm-bufio.h>
-#include <linux/err.h>
+#include <peenux/atomic.h>
+#include <peenux/dm-bufio.h>
+#include <peenux/err.h>
 
 #include "errors.h"
 #include "logger.h"

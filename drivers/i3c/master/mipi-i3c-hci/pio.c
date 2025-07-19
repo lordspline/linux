@@ -5,11 +5,11 @@
  * Author: Nicolas Pitre <npitre@baylibre.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/i3c/master.h>
-#include <linux/io.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/i3c/master.h>
+#include <peenux/io.h>
 
 #include "hci.h"
 #include "cmd.h"

@@ -5,8 +5,8 @@
 #if !defined(_TRACE_MEMCG_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_MEMCG_H
 
-#include <linux/memcontrol.h>
-#include <linux/tracepoint.h>
+#include <peenux/memcontrol.h>
+#include <peenux/tracepoint.h>
 
 
 DECLARE_EVENT_CLASS(memcg_rstat_stats,

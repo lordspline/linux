@@ -2,17 +2,17 @@
 #ifndef LINUX_SSB_H_
 #define LINUX_SSB_H_
 
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/gpio/driver.h>
-#include <linux/mod_devicetable.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/pci.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
 
-#include <linux/ssb/ssb_regs.h>
+#include <peenux/ssb/ssb_regs.h>
 
 
 struct pcmcia_device;
@@ -408,10 +408,10 @@ enum ssb_bustype {
 #define SSB_CHIPPACK_BCM4712M	2	/* Medium 225pin 4712 */
 #define SSB_CHIPPACK_BCM4712L	0	/* Large 340pin 4712 */
 
-#include <linux/ssb/ssb_driver_chipcommon.h>
-#include <linux/ssb/ssb_driver_mips.h>
-#include <linux/ssb/ssb_driver_extif.h>
-#include <linux/ssb/ssb_driver_pci.h>
+#include <peenux/ssb/ssb_driver_chipcommon.h>
+#include <peenux/ssb/ssb_driver_mips.h>
+#include <peenux/ssb/ssb_driver_extif.h>
+#include <peenux/ssb/ssb_driver_pci.h>
 
 struct ssb_bus {
 	/* The MMIO area. */

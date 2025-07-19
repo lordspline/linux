@@ -6,13 +6,13 @@
  *     Matthew Brost <matthew.brost@intel.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/hmm.h>
-#include <linux/memremap.h>
-#include <linux/migrate.h>
-#include <linux/mm_types.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/hmm.h>
+#include <peenux/memremap.h>
+#include <peenux/migrate.h>
+#include <peenux/mm_types.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_gpusvm.h>

@@ -4,12 +4,12 @@
  * Copyright (c) 2011 Jiri Pirko <jpirko@redhat.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/if_team.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_team.h>
 
 struct rr_priv {
 	unsigned int sent_packets;

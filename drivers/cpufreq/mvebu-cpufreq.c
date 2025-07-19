@@ -11,14 +11,14 @@
 
 #define pr_fmt(fmt) "mvebu-pmsu: " fmt
 
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/resource.h>
+#include <peenux/clk.h>
+#include <peenux/cpu.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/resource.h>
 
 static int __init armada_xp_pmsu_cpufreq_init(void)
 {

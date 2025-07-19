@@ -5,11 +5,11 @@
  * Hypervisor Call Instrumentation
  */
 
-#include <linux/kernel.h>
-#include <linux/percpu.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/cpumask.h>
+#include <peenux/kernel.h>
+#include <peenux/percpu.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/cpumask.h>
 #include <asm/hvcall.h>
 #include <asm/firmware.h>
 #include <asm/cputable.h>

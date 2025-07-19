@@ -2,9 +2,9 @@
 #ifndef _INET_ECN_H_
 #define _INET_ECN_H_
 
-#include <linux/ip.h>
-#include <linux/skbuff.h>
-#include <linux/if_vlan.h>
+#include <peenux/ip.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_vlan.h>
 
 #include <net/inet_sock.h>
 #include <net/dsfield.h>

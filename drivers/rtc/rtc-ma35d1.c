@@ -5,15 +5,15 @@
  * Copyright (C) 2023 Nuvoton Technology Corp.
  */
 
-#include <linux/bcd.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
 
 /* MA35D1 RTC Control Registers */
 #define MA35_REG_RTC_INIT	0x00

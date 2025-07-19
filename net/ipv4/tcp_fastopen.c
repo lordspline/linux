@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/tcp.h>
-#include <linux/rcupdate.h>
+#include <peenux/kernel.h>
+#include <peenux/tcp.h>
+#include <peenux/rcupdate.h>
 #include <net/tcp.h>
 #include <net/busy_poll.h>
 

@@ -4,11 +4,11 @@
 #ifndef _INTEL_THC_DMA_H_
 #define _INTEL_THC_DMA_H_
 
-#include <linux/bits.h>
-#include <linux/dma-mapping.h>
-#include <linux/sizes.h>
-#include <linux/time64.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/sizes.h>
+#include <peenux/time64.h>
+#include <peenux/types.h>
 
 #define THC_POINTER_MASK		GENMASK(6, 0)
 #define THC_POINTER_WRAPAROUND		0x80

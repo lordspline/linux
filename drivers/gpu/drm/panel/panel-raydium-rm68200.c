@@ -6,11 +6,11 @@
  *          Yannick Fertre <yannick.fertre@st.com>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

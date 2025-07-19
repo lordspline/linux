@@ -4,27 +4,27 @@
  *
  * Copyright (C) 2016 Linaro Ltd
  * Copyright (C) 2014 Sony Mobile Communications AB
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/remoteproc.h>
-#include <linux/soc/qcom/mdt_loader.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/soc/qcom/smem_state.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/remoteproc.h>
+#include <peenux/soc/qcom/mdt_loader.h>
+#include <peenux/soc/qcom/smem.h>
+#include <peenux/soc/qcom/smem_state.h>
 
 #include "qcom_common.h"
 #include "qcom_pil_info.h"

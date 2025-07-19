@@ -4,7 +4,7 @@
 #ifndef __HBG_TXRX_H
 #define __HBG_TXRX_H
 
-#include <linux/etherdevice.h>
+#include <peenux/etherdevice.h>
 #include "hbg_hw.h"
 
 static inline u32 hbg_spec_max_frame_len(struct hbg_priv *priv,

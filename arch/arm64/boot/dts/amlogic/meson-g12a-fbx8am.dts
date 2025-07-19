@@ -34,14 +34,14 @@
 		/* Physical user-accessible reset button near USB port */
 		power-button {
 			label = "Reset";
-			linux,code = <BTN_MISC>;
+			peenux,code = <BTN_MISC>;
 			gpios = <&gpio_ao GPIOAO_3 GPIO_ACTIVE_HIGH>;
 		};
 	};
 
 	spdif_dit: audio-codec-2 {
 		#sound-dai-cells = <0>;
-		compatible = "linux,spdif-dit";
+		compatible = "peenux,spdif-dit";
 		status = "okay";
 		sound-name-prefix = "DIT";
 	};

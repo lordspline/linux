@@ -6,21 +6,21 @@
  * context. The enqueueing is NMI-safe.
  */
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/irq_work.h>
-#include <linux/percpu.h>
-#include <linux/hardirq.h>
-#include <linux/irqflags.h>
-#include <linux/sched.h>
-#include <linux/tick.h>
-#include <linux/cpu.h>
-#include <linux/notifier.h>
-#include <linux/smp.h>
-#include <linux/smpboot.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/irq_work.h>
+#include <peenux/percpu.h>
+#include <peenux/hardirq.h>
+#include <peenux/irqflags.h>
+#include <peenux/sched.h>
+#include <peenux/tick.h>
+#include <peenux/cpu.h>
+#include <peenux/notifier.h>
+#include <peenux/smp.h>
+#include <peenux/smpboot.h>
 #include <asm/processor.h>
-#include <linux/kasan.h>
+#include <peenux/kasan.h>
 
 #include <trace/events/ipi.h>
 

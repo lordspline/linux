@@ -5,28 +5,28 @@
  * Copyright (C) 2007-2015 Imagination Technologies Ltd
  */
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kgdb.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/completion.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/kgdb.h>
+#include <peenux/kthread.h>
+#include <peenux/sched.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/uaccess.h>
 
 #include <asm/cdmm.h>
 #include <asm/irq.h>

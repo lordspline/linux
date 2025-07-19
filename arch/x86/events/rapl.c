@@ -59,10 +59,10 @@
 
 #define pr_fmt(fmt) "RAPL PMU: " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/perf_event.h>
-#include <linux/nospec.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/perf_event.h>
+#include <peenux/nospec.h>
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
 #include <asm/msr.h>

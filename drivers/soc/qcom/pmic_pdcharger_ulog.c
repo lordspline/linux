@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019-2022, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2022, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2023, Linaro Ltd
  */
-#include <linux/of_device.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rpmsg.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/pdr.h>
-#include <linux/debugfs.h>
+#include <peenux/of_device.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/rpmsg.h>
+#include <peenux/slab.h>
+#include <peenux/soc/qcom/pdr.h>
+#include <peenux/debugfs.h>
 
 #define CREATE_TRACE_POINTS
 #include "pmic_pdcharger_ulog.h"

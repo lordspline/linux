@@ -4,9 +4,9 @@
 
 #include <asm/lowcore.h>
 #include <asm/page.h>
-#include <linux/kmsan.h>
-#include <linux/mmzone.h>
-#include <linux/stddef.h>
+#include <peenux/kmsan.h>
+#include <peenux/mmzone.h>
+#include <peenux/stddef.h>
 
 #ifndef MODULE
 

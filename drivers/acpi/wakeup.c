@@ -4,10 +4,10 @@
  * Copyright (C) 2004 Li Shaohua <shaohua.li@intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
 
 #include "internal.h"
 #include "sleep.h"

@@ -11,16 +11,16 @@
  * Fixes by Michael Buesch
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/hw_random.h>
-#include <linux/of.h>
-#include <linux/soc/ixp4xx/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/hw_random.h>
+#include <peenux/of.h>
+#include <peenux/soc/ixp4xx/cpu.h>
 
 #include <asm/io.h>
 

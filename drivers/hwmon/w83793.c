@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * w83793.c - Linux kernel driver for hardware monitoring
+ * w83793.c - Peenux kernel driver for hardware monitoring
  * Copyright (C) 2006 Winbond Electronics Corp.
  *	      Yuan Mu
  *	      Rudolf Marek <r.marek@assembler.cz>
@@ -17,23 +17,23 @@
  * w83793	10	12	8	6	0x7b	0x5ca3	yes	no
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-vid.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/fs.h>
-#include <linux/watchdog.h>
-#include <linux/miscdevice.h>
-#include <linux/uaccess.h>
-#include <linux/kref.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-vid.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/fs.h>
+#include <peenux/watchdog.h>
+#include <peenux/miscdevice.h>
+#include <peenux/uaccess.h>
+#include <peenux/kref.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/jiffies.h>
 
 /* Default values */
 #define WATCHDOG_TIMEOUT 2	/* 2 minute default timeout */

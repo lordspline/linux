@@ -10,23 +10,23 @@
 /* NS8390 NIC (network interface controller) clone, 16 or 64K on-board RAM  */
 /* and 10BASE-2 (thin coax) and AUI connectors.                             */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/amigaints.h>
 #include <asm/amigahw.h>
-#include <linux/zorro.h>
+#include <peenux/zorro.h>
 
 #define EI_SHIFT(x)	(ei_local->reg_offset[x])
 #define ei_inb(port)   in_8(port)

@@ -4,10 +4,10 @@
  *
  * Copyright 1995-2002, Russell King
  */
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/blkdev.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/blkdev.h>
+#include <peenux/init.h>
 
 #include <asm/ecard.h>
 #include <asm/io.h>

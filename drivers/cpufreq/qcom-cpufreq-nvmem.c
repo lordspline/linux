@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Peenux Foundation. All rights reserved.
  */
 
 /*
@@ -15,20 +15,20 @@
  * operating-points-v2 table when it is parsed by the OPP framework.
  */
 
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/smem.h>
+#include <peenux/cpu.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/soc/qcom/smem.h>
 
 #include <dt-bindings/arm/qcom,ids.h>
 

@@ -14,25 +14,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kobject.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/efi.h>
-#include <linux/of.h>
-#include <linux/initrd.h>
-#include <linux/io.h>
-#include <linux/kexec.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/ucs2_string.h>
-#include <linux/memblock.h>
-#include <linux/security.h>
-#include <linux/notifier.h>
+#include <peenux/kobject.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/efi.h>
+#include <peenux/of.h>
+#include <peenux/initrd.h>
+#include <peenux/io.h>
+#include <peenux/kexec.h>
+#include <peenux/platform_device.h>
+#include <peenux/random.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/ucs2_string.h>
+#include <peenux/memblock.h>
+#include <peenux/security.h>
+#include <peenux/notifier.h>
 
 #include <asm/early_ioremap.h>
 

@@ -11,11 +11,11 @@
 
 #define pr_fmt(fmt)	"OF: fdt: " fmt
 
-#include <linux/kernel.h>
-#include <linux/libfdt.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/sizes.h>
+#include <peenux/kernel.h>
+#include <peenux/libfdt.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/sizes.h>
 
 /* Uncomment me to enable of_dump_addr() debugging output */
 // #define DEBUG

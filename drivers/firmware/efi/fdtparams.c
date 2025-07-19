@@ -2,13 +2,13 @@
 
 #define pr_fmt(fmt) "efi: " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/efi.h>
-#include <linux/libfdt.h>
-#include <linux/of_fdt.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/efi.h>
+#include <peenux/libfdt.h>
+#include <peenux/of_fdt.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 enum {
 	SYSTAB,
@@ -48,11 +48,11 @@ static __initconst const struct {
 #endif
 		.path = "/chosen",
 		.params = {	//  <-----------26----------->
-			[SYSTAB] = "linux,uefi-system-table",
-			[MMBASE] = "linux,uefi-mmap-start",
-			[MMSIZE] = "linux,uefi-mmap-size",
-			[DCSIZE] = "linux,uefi-mmap-desc-size",
-			[DCVERS] = "linux,uefi-mmap-desc-ver",
+			[SYSTAB] = "peenux,uefi-system-table",
+			[MMBASE] = "peenux,uefi-mmap-start",
+			[MMSIZE] = "peenux,uefi-mmap-size",
+			[DCSIZE] = "peenux,uefi-mmap-desc-size",
+			[DCVERS] = "peenux,uefi-mmap-desc-ver",
 		}
 	}
 };

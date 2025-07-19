@@ -3,11 +3,11 @@
  * Copyright 2013 Freescale Semiconductor, Inc.
  */
 
-#include <linux/irqchip.h>
-#include <linux/of_platform.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
-#include <linux/regmap.h>
+#include <peenux/irqchip.h>
+#include <peenux/of_platform.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <peenux/regmap.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
 

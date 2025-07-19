@@ -22,12 +22,12 @@
  *   however while in strict mode the average runtime can be better.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/textsearch.h>
-#include <linux/textsearch_fsm.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/textsearch.h>
+#include <peenux/textsearch_fsm.h>
 
 struct ts_fsm
 {

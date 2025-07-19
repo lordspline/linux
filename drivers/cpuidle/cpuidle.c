@@ -8,24 +8,24 @@
  * This code is licenced under the GPL.
  */
 
-#include "linux/percpu-defs.h"
-#include <linux/clockchips.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/idle.h>
-#include <linux/notifier.h>
-#include <linux/pm_qos.h>
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/ktime.h>
-#include <linux/hrtimer.h>
-#include <linux/module.h>
-#include <linux/suspend.h>
-#include <linux/tick.h>
-#include <linux/mmu_context.h>
-#include <linux/context_tracking.h>
+#include "peenux/percpu-defs.h"
+#include <peenux/clockchips.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/idle.h>
+#include <peenux/notifier.h>
+#include <peenux/pm_qos.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuidle.h>
+#include <peenux/ktime.h>
+#include <peenux/hrtimer.h>
+#include <peenux/module.h>
+#include <peenux/suspend.h>
+#include <peenux/tick.h>
+#include <peenux/mmu_context.h>
+#include <peenux/context_tracking.h>
 #include <trace/events/power.h>
 
 #include "cpuidle.h"

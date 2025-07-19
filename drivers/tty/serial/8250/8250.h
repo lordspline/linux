@@ -7,10 +7,10 @@
  *  Copyright (C) 2001 Russell King.
  */
 
-#include <linux/bits.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_core.h>
-#include <linux/dmaengine.h>
+#include <peenux/bits.h>
+#include <peenux/serial_8250.h>
+#include <peenux/serial_core.h>
+#include <peenux/dmaengine.h>
 
 #include "../serial_mctrl_gpio.h"
 
@@ -329,7 +329,7 @@ static inline int fintek_8250_probe(struct uart_8250_port *uart) { return 0; }
 #endif
 
 #ifdef CONFIG_ARCH_OMAP1
-#include <linux/soc/ti/omap1-soc.h>
+#include <peenux/soc/ti/omap1-soc.h>
 static inline int is_omap1_8250(struct uart_8250_port *pt)
 {
 	int res;

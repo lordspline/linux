@@ -6,17 +6,17 @@
  *
  * Various evolutions by Benjamin Herrenschmidt & Henry Worth
  */
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
-#include <linux/pgtable.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/timer.h>
+#include <peenux/stddef.h>
+#include <peenux/init.h>
+#include <peenux/kthread.h>
+#include <peenux/mutex.h>
+#include <peenux/pgtable.h>
 
 #include <asm/io.h>
 #include <asm/machdep.h>
@@ -26,8 +26,8 @@
 #include <asm/ohare.h>
 #include <asm/heathrow.h>
 #include <asm/keylargo.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
+#include <peenux/adb.h>
+#include <peenux/pmu.h>
 
 #define MB_FCR32(bay, r)	((bay)->base + ((r) >> 2))
 #define MB_FCR8(bay, r)		(((volatile u8 __iomem *)((bay)->base)) + (r))

@@ -2,29 +2,29 @@
 /*
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/pagemap.h>
-#include <linux/memblock.h>
-#include <linux/memremap.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/highmem.h>
-#include <linux/swap.h>
-#include <linux/proc_fs.h>
-#include <linux/pfn.h>
-#include <linux/hardirq.h>
-#include <linux/gfp.h>
-#include <linux/hugetlb.h>
-#include <linux/mmzone.h>
-#include <linux/execmem.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/pagemap.h>
+#include <peenux/memblock.h>
+#include <peenux/memremap.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/highmem.h>
+#include <peenux/swap.h>
+#include <peenux/proc_fs.h>
+#include <peenux/pfn.h>
+#include <peenux/hardirq.h>
+#include <peenux/gfp.h>
+#include <peenux/hugetlb.h>
+#include <peenux/mmzone.h>
+#include <peenux/execmem.h>
 
 #include <asm/asm-offsets.h>
 #include <asm/bootinfo.h>

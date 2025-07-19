@@ -3,7 +3,7 @@
 #ifndef DRM_DISPLAY_HDMI_AUDIO_HELPER_H_
 #define DRM_DISPLAY_HDMI_AUDIO_HELPER_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct drm_connector;
 struct drm_connector_hdmi_audio_funcs;

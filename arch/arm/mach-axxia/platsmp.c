@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-axxia/platsmp.c
+ * peenux/arch/arm/mach-axxia/platsmp.c
  *
  * Copyright (C) 2012 LSI Corporation
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/smp.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/smp.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 #include <asm/cacheflush.h>
 
 /* Syscon register offsets for releasing cores from reset */

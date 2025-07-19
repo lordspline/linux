@@ -8,13 +8,13 @@
  *   https://www.nxp.com/docs/en/reference-manual/IMX8MDQLQRM.pdf#page=834
  */
 
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/slab.h>
-#include <linux/bitfield.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/slab.h>
+#include <peenux/bitfield.h>
 
 #include "clk.h"
 

@@ -7,15 +7,15 @@
  * Author: Robert Marko <robert.marko@sartura.hr>
  */
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 #define TEMPERATURE			0x2c
 #define INPUT_VOLTAGE_LSB		0x2e

@@ -11,13 +11,13 @@
 
 #include "ssb_private.h"
 
-#include <linux/export.h>
-#include <linux/platform_device.h>
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_embedded.h>
-#include <linux/ssb/ssb_driver_pci.h>
-#include <linux/ssb/ssb_driver_gige.h>
-#include <linux/pci.h>
+#include <peenux/export.h>
+#include <peenux/platform_device.h>
+#include <peenux/ssb/ssb.h>
+#include <peenux/ssb/ssb_embedded.h>
+#include <peenux/ssb/ssb_driver_pci.h>
+#include <peenux/ssb/ssb_driver_gige.h>
+#include <peenux/pci.h>
 
 
 int ssb_watchdog_timer_set(struct ssb_bus *bus, u32 ticks)

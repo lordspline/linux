@@ -5,15 +5,15 @@
  * Copyright (C) 2025 Rockchip Electronics Co., Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/gpio.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_wakeup.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/gpio.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_wakeup.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #include <ufs/ufshcd.h>
 #include <ufs/unipro.h>

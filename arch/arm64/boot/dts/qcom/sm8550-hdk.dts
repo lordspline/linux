@@ -76,10 +76,10 @@
 
 		key-volume-up {
 			label = "Volume Up";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			gpios = <&pm8550_gpios 6 GPIO_ACTIVE_LOW>;
 			debounce-interval = <15>;
-			linux,can-disable;
+			peenux,can-disable;
 			wakeup-source;
 		};
 	};
@@ -91,7 +91,7 @@
 			function = LED_FUNCTION_BLUETOOTH;
 			color = <LED_COLOR_ID_BLUE>;
 			gpios = <&tlmm 159 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "bluetooth-power";
+			peenux,default-trigger = "bluetooth-power";
 			default-state = "off";
 		};
 
@@ -107,7 +107,7 @@
 			function = LED_FUNCTION_WLAN;
 			color = <LED_COLOR_ID_ORANGE>;
 			gpios = <&tlmm 162 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "phy0tx";
+			peenux,default-trigger = "phy0tx";
 			default-state = "off";
 		};
 	};
@@ -1116,7 +1116,7 @@
 };
 
 &pon_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	peenux,code = <KEY_VOLUMEDOWN>;
 
 	status = "okay";
 };

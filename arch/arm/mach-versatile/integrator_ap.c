@@ -2,19 +2,19 @@
 /*
  *  Copyright (C) 2000-2003 Deep Blue Solutions Ltd
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/syscore_ops.h>
-#include <linux/amba/bus.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/uaccess.h>
-#include <linux/termios.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/amba/bus.h>
+#include <peenux/io.h>
+#include <peenux/irqchip.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/uaccess.h>
+#include <peenux/termios.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

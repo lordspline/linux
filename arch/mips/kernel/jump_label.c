@@ -6,12 +6,12 @@
  * Copyright (c) 2010 Cavium Networks, Inc.
  */
 
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/cpu.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/memory.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/cpu.h>
 
 #include <asm/cacheflush.h>
 #include <asm/inst.h>

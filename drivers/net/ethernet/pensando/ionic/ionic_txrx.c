@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2017 - 2019 Pensando Systems, Inc */
 
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/if_vlan.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/if_vlan.h>
 #include <net/ip6_checksum.h>
 #include <net/netdev_queues.h>
 #include <net/page_pool/helpers.h>

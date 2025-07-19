@@ -8,9 +8,9 @@
  * Very heavily based on evdev.c - Copyright (c) 1999-2002 Vojtech Pavlik
  */
 
-#include <linux/compiler.h>
-#include <linux/compat.h>
-#include <linux/input.h>
+#include <peenux/compiler.h>
+#include <peenux/compat.h>
+#include <peenux/input.h>
 
 #ifdef CONFIG_COMPAT
 

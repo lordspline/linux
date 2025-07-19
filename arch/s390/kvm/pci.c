@@ -4,11 +4,11 @@
  *
  * Copyright IBM Corp. 2022
  *
- *    Author(s): Matthew Rosato <mjrosato@linux.ibm.com>
+ *    Author(s): Matthew Rosato <mjrosato@peenux.ibm.com>
  */
 
-#include <linux/kvm_host.h>
-#include <linux/pci.h>
+#include <peenux/kvm_host.h>
+#include <peenux/pci.h>
 #include <asm/pci.h>
 #include <asm/pci_insn.h>
 #include <asm/pci_io.h>

@@ -5,12 +5,12 @@
  * Copyright (C) 2025 Marcus Folkesson <marcus.folkesson@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

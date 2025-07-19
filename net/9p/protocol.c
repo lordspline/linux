@@ -8,15 +8,15 @@
  *  Copyright (C) 2008 by IBM, Corp.
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/uio.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/uio.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 #include "protocol.h"

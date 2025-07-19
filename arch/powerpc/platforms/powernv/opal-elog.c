@@ -4,17 +4,17 @@
  *
  * Copyright 2013,2014 IBM Corp.
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/fs.h>
-#include <linux/vmalloc.h>
-#include <linux/fcntl.h>
-#include <linux/kobject.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/fs.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fcntl.h>
+#include <peenux/kobject.h>
+#include <peenux/uaccess.h>
 #include <asm/opal.h>
 
 struct elog_obj {

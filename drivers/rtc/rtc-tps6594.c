@@ -5,22 +5,22 @@
  * Copyright (C) 2023 BayLibre Incorporated - https://www.baylibre.com/
  */
 
-#include <linux/bcd.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/rtc.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/bcd.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/limits.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/rtc.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
-#include <linux/mfd/tps6594.h>
+#include <peenux/mfd/tps6594.h>
 
 // Total number of RTC registers needed to set time
 #define NUM_TIME_REGS (TPS6594_REG_RTC_WEEKS - TPS6594_REG_RTC_SECONDS + 1)

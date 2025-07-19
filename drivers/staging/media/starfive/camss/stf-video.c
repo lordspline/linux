@@ -7,7 +7,7 @@
  * Copyright (C) 2021-2023 StarFive Technology Co., Ltd.
  */
 
-#include <linux/pm_runtime.h>
+#include <peenux/pm_runtime.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-mc.h>

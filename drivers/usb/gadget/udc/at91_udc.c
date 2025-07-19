@@ -10,27 +10,27 @@
 #undef	VERBOSE_DEBUG
 #undef	PACKET_TRACE
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/prefetch.h>
-#include <linux/clk.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_data/atmel.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/atmel-matrix.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/proc_fs.h>
+#include <peenux/prefetch.h>
+#include <peenux/clk.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/platform_data/atmel.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/atmel-matrix.h>
 
 #include "at91_udc.h"
 
@@ -50,7 +50,7 @@
  * The VBUS sensing helps during enumeration, and allows both USB clocks
  * (and the transceiver) to stay gated off until they're necessary, saving
  * power.  During USB suspend, the 48 MHz clock is gated off in hardware;
- * it may also be gated off by software during some Linux sleep states.
+ * it may also be gated off by software during some Peenux sleep states.
  */
 
 #define	DRIVER_VERSION	"3 May 2006"
@@ -96,7 +96,7 @@ static const struct {
 
 #ifdef CONFIG_USB_GADGET_DEBUG_FILES
 
-#include <linux/seq_file.h>
+#include <peenux/seq_file.h>
 
 static const char debug_filename[] = "driver/udc";
 

@@ -6,14 +6,14 @@
  *
  * I2C slave address: 0x61
  */
-#include <linux/crc8.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/crc8.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 #include "scd30.h"
 

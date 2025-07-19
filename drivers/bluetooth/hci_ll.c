@@ -14,33 +14,33 @@
  *  by Maxim Krasnyansky and Marcel Holtmann.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/ptrace.h>
-#include <linux/poll.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/ptrace.h>
+#include <peenux/poll.h>
 
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/signal.h>
-#include <linux/ioctl.h>
-#include <linux/of.h>
-#include <linux/serdev.h>
-#include <linux/skbuff.h>
-#include <linux/ti_wilink_st.h>
-#include <linux/clk.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/signal.h>
+#include <peenux/ioctl.h>
+#include <peenux/of.h>
+#include <peenux/serdev.h>
+#include <peenux/skbuff.h>
+#include <peenux/ti_wilink_st.h>
+#include <peenux/clk.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>
-#include <linux/gpio/consumer.h>
-#include <linux/nvmem-consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/nvmem-consumer.h>
 
 #include "hci_uart.h"
 

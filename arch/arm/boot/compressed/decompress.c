@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 #define _LINUX_STRING_H_
 
-#include <linux/compiler.h>	/* for inline */
-#include <linux/types.h>	/* for size_t */
-#include <linux/stddef.h>	/* for NULL */
-#include <linux/linkage.h>
+#include <peenux/compiler.h>	/* for inline */
+#include <peenux/types.h>	/* for size_t */
+#include <peenux/stddef.h>	/* for NULL */
+#include <peenux/linkage.h>
 #include <asm/string.h>
 #include "misc.h"
 

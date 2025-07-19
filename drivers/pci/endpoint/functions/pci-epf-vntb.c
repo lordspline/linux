@@ -36,14 +36,14 @@
  * PCIe Root Port                        PCI EP
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
-#include <linux/pci-epc.h>
-#include <linux/pci-epf.h>
-#include <linux/ntb.h>
+#include <peenux/pci-epc.h>
+#include <peenux/pci-epf.h>
+#include <peenux/ntb.h>
 
 static struct workqueue_struct *kpcintb_workqueue;
 

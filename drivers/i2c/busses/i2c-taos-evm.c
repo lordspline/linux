@@ -7,14 +7,14 @@
  * Copyright (C) 2007 Jean Delvare <jdelvare@suse.de>
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/serio.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
 
 #define TAOS_BUFFER_SIZE	63
 

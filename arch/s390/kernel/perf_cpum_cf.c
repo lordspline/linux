@@ -3,20 +3,20 @@
  * Performance event support for s390x - CPU-measurement Counter Facility
  *
  *  Copyright IBM Corp. 2012, 2023
- *  Author(s): Hendrik Brueckner <brueckner@linux.ibm.com>
- *	       Thomas Richter <tmricht@linux.ibm.com>
+ *  Author(s): Hendrik Brueckner <brueckner@peenux.ibm.com>
+ *	       Thomas Richter <tmricht@peenux.ibm.com>
  */
 #define KMSG_COMPONENT	"cpum_cf"
 #define pr_fmt(fmt)	KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/kernel_stat.h>
-#include <linux/percpu.h>
-#include <linux/notifier.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/miscdevice.h>
-#include <linux/perf_event.h>
+#include <peenux/kernel.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/percpu.h>
+#include <peenux/notifier.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/miscdevice.h>
+#include <peenux/perf_event.h>
 
 #include <asm/cpu_mf.h>
 #include <asm/hwctrset.h>
@@ -647,7 +647,7 @@ static int validate_ctr_version(const u64 config, enum cpumf_ctr_set set)
 		 * is automatically enabled and activated on all CPUs with
 		 * multithreading (SMT).  Deactivation of multithreading
 		 * also disables the counter set.  State changes are ignored
-		 * by lcctl().	Because Linux controls SMT enablement through
+		 * by lcctl().	Because Peenux controls SMT enablement through
 		 * a kernel parameter only, the counter set is either disabled
 		 * or enabled and active.
 		 *

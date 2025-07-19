@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/pipe.c
+ *  peenux/fs/pipe.c
  *
  *  Copyright (C) 1991, 1992, 1999  Linus Torvalds
  */
 
-#include <linux/mm.h>
-#include <linux/file.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/log2.h>
-#include <linux/mount.h>
-#include <linux/pseudo_fs.h>
-#include <linux/magic.h>
-#include <linux/pipe_fs_i.h>
-#include <linux/uio.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/audit.h>
-#include <linux/syscalls.h>
-#include <linux/fcntl.h>
-#include <linux/memcontrol.h>
-#include <linux/watch_queue.h>
-#include <linux/sysctl.h>
-#include <linux/sort.h>
+#include <peenux/mm.h>
+#include <peenux/file.h>
+#include <peenux/poll.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/log2.h>
+#include <peenux/mount.h>
+#include <peenux/pseudo_fs.h>
+#include <peenux/magic.h>
+#include <peenux/pipe_fs_i.h>
+#include <peenux/uio.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/audit.h>
+#include <peenux/syscalls.h>
+#include <peenux/fcntl.h>
+#include <peenux/memcontrol.h>
+#include <peenux/watch_queue.h>
+#include <peenux/sysctl.h>
+#include <peenux/sort.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/ioctls.h>
 
 #include "internal.h"
@@ -694,7 +694,7 @@ pipe_poll(struct file *filp, poll_table *wait)
 		if (!pipe_full(idx.head, idx.tail, pipe->max_usage))
 			mask |= EPOLLOUT | EPOLLWRNORM;
 		/*
-		 * Most Unices do not set EPOLLERR for FIFOs but on Linux they
+		 * Most Unices do not set EPOLLERR for FIFOs but on Peenux they
 		 * behave exactly like pipes for poll().
 		 */
 		if (!pipe->readers)

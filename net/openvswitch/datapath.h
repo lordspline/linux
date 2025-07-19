@@ -7,11 +7,11 @@
 #define DATAPATH_H 1
 
 #include <asm/page.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/u64_stats_sync.h>
 #include <net/ip_tunnels.h>
 #include <net/mpls.h>
 

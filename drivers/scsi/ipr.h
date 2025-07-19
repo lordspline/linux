@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * ipr.h -- driver for IBM Power Linux RAID adapters
+ * ipr.h -- driver for IBM Power Peenux RAID adapters
  *
  * Written By: Brian King <brking@us.ibm.com>, IBM Corporation
  *
@@ -13,12 +13,12 @@
 #ifndef _IPR_H
 #define _IPR_H
 
-#include <linux/unaligned.h>
-#include <linux/types.h>
-#include <linux/completion.h>
-#include <linux/list.h>
-#include <linux/kref.h>
-#include <linux/irq_poll.h>
+#include <peenux/unaligned.h>
+#include <peenux/types.h>
+#include <peenux/completion.h>
+#include <peenux/list.h>
+#include <peenux/kref.h>
+#include <peenux/irq_poll.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 

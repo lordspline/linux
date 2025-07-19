@@ -2,7 +2,7 @@
 #ifndef UACCESS_H
 #define UACCESS_H
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 extern void *__user_addr_min, *__user_addr_max;
 

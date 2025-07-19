@@ -31,8 +31,8 @@
  * SOFTWARE.
  */
 
-#include <linux/workqueue.h>
-#include <linux/module.h>
+#include <peenux/workqueue.h>
+#include <peenux/module.h>
 
 #include "mlx4.h"
 

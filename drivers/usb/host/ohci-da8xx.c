@@ -8,21 +8,21 @@
  * Copyright (C) 2008-2009 MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_data/usb-davinci.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/unaligned.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_data/usb-davinci.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/unaligned.h>
 
 #include "ohci.h"
 

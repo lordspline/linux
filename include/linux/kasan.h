@@ -2,12 +2,12 @@
 #ifndef _LINUX_KASAN_H
 #define _LINUX_KASAN_H
 
-#include <linux/bug.h>
-#include <linux/kasan-enabled.h>
-#include <linux/kasan-tags.h>
-#include <linux/kernel.h>
-#include <linux/static_key.h>
-#include <linux/types.h>
+#include <peenux/bug.h>
+#include <peenux/kasan-enabled.h>
+#include <peenux/kasan-tags.h>
+#include <peenux/kernel.h>
+#include <peenux/static_key.h>
+#include <peenux/types.h>
 
 struct kmem_cache;
 struct page;
@@ -17,7 +17,7 @@ struct task_struct;
 
 #ifdef CONFIG_KASAN
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 #include <asm/kasan.h>
 
 #endif
@@ -34,7 +34,7 @@ typedef unsigned int __bitwise kasan_vmalloc_flags_t;
 
 #if defined(CONFIG_KASAN_GENERIC) || defined(CONFIG_KASAN_SW_TAGS)
 
-#include <linux/pgtable.h>
+#include <peenux/pgtable.h>
 
 /* Software KASAN implementations use shadow memory. */
 

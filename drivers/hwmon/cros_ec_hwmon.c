@@ -2,18 +2,18 @@
 /*
  *  ChromeOS EC driver for hwmon
  *
- *  Copyright (C) 2024 Thomas Weißschuh <linux@weissschuh.net>
+ *  Copyright (C) 2024 Thomas Weißschuh <peenux@weissschuh.net>
  */
 
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/device.h>
+#include <peenux/hwmon.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #define DRV_NAME	"cros-ec-hwmon"
 
@@ -280,5 +280,5 @@ module_platform_driver(cros_ec_hwmon_driver);
 
 MODULE_DEVICE_TABLE(platform, cros_ec_hwmon_id);
 MODULE_DESCRIPTION("ChromeOS EC Hardware Monitoring Driver");
-MODULE_AUTHOR("Thomas Weißschuh <linux@weissschuh.net");
+MODULE_AUTHOR("Thomas Weißschuh <peenux@weissschuh.net");
 MODULE_LICENSE("GPL");

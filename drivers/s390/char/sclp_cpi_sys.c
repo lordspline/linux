@@ -10,18 +10,18 @@
 #define KMSG_COMPONENT "sclp_cpi"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/stat.h>
-#include <linux/device.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/kmod.h>
-#include <linux/timer.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/stat.h>
+#include <peenux/device.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/kmod.h>
+#include <peenux/timer.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/completion.h>
+#include <peenux/export.h>
 #include <asm/ebcdic.h>
 #include <asm/sclp.h>
 

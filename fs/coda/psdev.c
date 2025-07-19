@@ -5,39 +5,39 @@
  *
  * 		Author: 	Alan Cox <alan@lxorguk.ukuu.org.uk>
  * 
- *              Adapted to become the Linux 2.0 Coda pseudo device
+ *              Adapted to become the Peenux 2.0 Coda pseudo device
  *              Peter  Braam  <braam@maths.ox.ac.uk> 
  *              Michael Callahan <mjc@emmy.smith.edu>           
  *
- *              Changes for Linux 2.1
+ *              Changes for Peenux 2.1
  *              Copyright (c) 1997 Carnegie-Mellon University
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/time.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/fcntl.h>
-#include <linux/delay.h>
-#include <linux/skbuff.h>
-#include <linux/proc_fs.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/pid_namespace.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/major.h>
+#include <peenux/time.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/fcntl.h>
+#include <peenux/delay.h>
+#include <peenux/skbuff.h>
+#include <peenux/proc_fs.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/poll.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/pid_namespace.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
-#include <linux/coda.h>
+#include <peenux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 

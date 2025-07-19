@@ -17,12 +17,12 @@
 #ifndef __CYTTSP_CORE_H__
 #define __CYTTSP_CORE_H__
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/regulator/consumer.h>
 
 #define CY_NUM_RETRY		16 /* max number of retries for read ops */
 

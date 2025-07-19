@@ -5,7 +5,7 @@
  * All rights reserved
  * www.qlogic.com
  *
- * Linux driver for QLogic BR-series Fibre Channel Host Bus Adapter.
+ * Peenux driver for QLogic BR-series Fibre Channel Host Bus Adapter.
  */
 
 /*
@@ -13,23 +13,23 @@
  */
 
 /*
- *  bfa_drv.h Linux driver data structures.
+ *  bfa_drv.h Peenux driver data structures.
  */
 
 #ifndef __BFAD_DRV_H__
 #define __BFAD_DRV_H__
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/delay.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
-#include <linux/bitops.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/cdev.h>
+#include <peenux/fs.h>
+#include <peenux/delay.h>
+#include <peenux/vmalloc.h>
+#include <peenux/workqueue.h>
+#include <peenux/bitops.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_tcq.h>

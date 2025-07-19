@@ -1,10 +1,10 @@
 /*
- *  linux/sound/oss/dmasound/dmasound_core.c
+ *  peenux/sound/oss/dmasound/dmasound_core.c
  *
  *
  *  OSS/Free compatible Atari TT/Falcon and Amiga DMA sound driver for
- *  Linux/m68k
- *  Extended to support Power Macintosh for Linux/ppc by Paul Mackerras
+ *  Peenux/m68k
+ *  Extended to support Power Macintosh for Peenux/ppc by Paul Mackerras
  *
  *  (c) 1995 by Michael Schlueter & Michael Marte
  *
@@ -175,16 +175,16 @@
  * see the fault until after the damage is done.
 */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sound.h>
-#include <linux/init.h>
-#include <linux/soundcard.h>
-#include <linux/poll.h>
-#include <linux/mutex.h>
-#include <linux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sound.h>
+#include <peenux/init.h>
+#include <peenux/soundcard.h>
+#include <peenux/poll.h>
+#include <peenux/mutex.h>
+#include <peenux/sched/signal.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "dmasound.h"
 

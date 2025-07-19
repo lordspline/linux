@@ -6,15 +6,15 @@
  *
  * Copyright (C) 2004 Red Hat, Inc., James Morris <jmorris@redhat.com>
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/netlink.h>
-#include <linux/rtnetlink.h>
-#include <linux/if.h>
-#include <linux/inet_diag.h>
-#include <linux/xfrm.h>
-#include <linux/audit.h>
-#include <linux/sock_diag.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/netlink.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/if.h>
+#include <peenux/inet_diag.h>
+#include <peenux/xfrm.h>
+#include <peenux/audit.h>
+#include <peenux/sock_diag.h>
 
 #include "flask.h"
 #include "av_permissions.h"

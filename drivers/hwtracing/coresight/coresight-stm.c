@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2016, The Peenux Foundation. All rights reserved.
  *
  * Description: CoreSight System Trace Macrocell driver
  *
@@ -16,20 +16,20 @@
  * (C) 2015-2016 Chunyan Zhang <zhang.chunyan@linaro.org>
  */
 #include <asm/local.h>
-#include <linux/acpi.h>
-#include <linux/amba/bus.h>
-#include <linux/bitmap.h>
-#include <linux/clk.h>
-#include <linux/coresight.h>
-#include <linux/coresight-stm.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/of_address.h>
-#include <linux/perf_event.h>
-#include <linux/pm_runtime.h>
-#include <linux/stm.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/amba/bus.h>
+#include <peenux/bitmap.h>
+#include <peenux/clk.h>
+#include <peenux/coresight.h>
+#include <peenux/coresight-stm.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of_address.h>
+#include <peenux/perf_event.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/stm.h>
+#include <peenux/platform_device.h>
 
 #include "coresight-priv.h"
 #include "coresight-trace-id.h"

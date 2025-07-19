@@ -5,13 +5,13 @@
  * Copyright (c) 2024, ROHM Semiconductor.
  */
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/iio/iio.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/iio/iio.h>
 
 #define BD79703_MAX_REGISTER 0xf
 #define BD79703_DAC_BITS 8

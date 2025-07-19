@@ -2,7 +2,7 @@
 
 #include <kunit/test.h>
 #include <kunit/device.h>
-#include <linux/coresight.h>
+#include <peenux/coresight.h>
 
 #include "coresight-priv.h"
 

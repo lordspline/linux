@@ -3,10 +3,10 @@
  * Copyright (c) 2023, Linaro Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/interconnect-clk.h>
-#include <linux/interconnect-provider.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/interconnect-clk.h>
+#include <peenux/interconnect-provider.h>
 
 struct icc_clk_node {
 	struct clk *clk;

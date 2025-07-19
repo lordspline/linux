@@ -24,11 +24,11 @@
 #ifndef __DRM_PANEL_H__
 #define __DRM_PANEL_H__
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/kref.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/kref.h>
 
 struct backlight_device;
 struct dentry;

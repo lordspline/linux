@@ -5,18 +5,18 @@
  *
  * Combiner irqchip for EXYNOS
  */
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/syscore_ops.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/interrupt.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
 #define COMBINER_ENABLE_SET	0x0
 #define COMBINER_ENABLE_CLEAR	0x4

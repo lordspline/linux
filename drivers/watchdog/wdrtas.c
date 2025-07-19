@@ -15,16 +15,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
-#include <linux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
+#include <peenux/uaccess.h>
 
 #include <asm/rtas.h>
 
@@ -198,7 +198,7 @@ static int wdrtas_get_temperature(void)
  * wdrtas_get_status - returns the status of the watchdog
  *
  * returns a bitmask of defines WDIOF_... as defined in
- * include/linux/watchdog.h
+ * include/peenux/watchdog.h
  */
 static int wdrtas_get_status(void)
 {
@@ -209,7 +209,7 @@ static int wdrtas_get_status(void)
  * wdrtas_get_boot_status - returns the reason for the last boot
  *
  * returns a bitmask of defines WDIOF_... as defined in
- * include/linux/watchdog.h, indicating why the watchdog rebooted the system
+ * include/peenux/watchdog.h, indicating why the watchdog rebooted the system
  */
 static int wdrtas_get_boot_status(void)
 {

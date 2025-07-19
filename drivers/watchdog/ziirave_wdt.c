@@ -9,18 +9,18 @@
  * Copyright (C) Nokia Corporation
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/ihex.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/ihex.h>
+#include <peenux/firmware.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define ZIIRAVE_TIMEOUT_MIN	3
 #define ZIIRAVE_TIMEOUT_MAX	255

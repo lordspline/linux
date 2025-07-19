@@ -17,16 +17,16 @@
  * virtqueue. Access to each virtqueue is protected by spinlocks.
  */
 
-#include <linux/completion.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
-#include <linux/virtio.h>
-#include <linux/virtio_config.h>
+#include <peenux/completion.h>
+#include <peenux/errno.h>
+#include <peenux/platform_device.h>
+#include <peenux/refcount.h>
+#include <peenux/slab.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_config.h>
 
-#include <uapi/linux/virtio_ids.h>
-#include <uapi/linux/virtio_scmi.h>
+#include <uapi/peenux/virtio_ids.h>
+#include <uapi/peenux/virtio_scmi.h>
 
 #include "../common.h"
 

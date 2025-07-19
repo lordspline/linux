@@ -7,17 +7,17 @@
  * Datasheet: https://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/hid.h>
-#include <linux/hidraw.h>
-#include <linux/i2c.h>
-#include <linux/gpio/driver.h>
-#include <linux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/bitfield.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/hid.h>
+#include <peenux/hidraw.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/iio/iio.h>
 #include "hid-ids.h"
 
 /* Commands codes in a raw output report */

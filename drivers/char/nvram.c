@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * CMOS/NV-RAM driver for Linux
+ * CMOS/NV-RAM driver for Peenux
  *
  * Copyright (C) 1997 Roman Hodek <Roman.Hodek@informatik.uni-erlangen.de>
  * idea by and with help from Richard Jelinek <rj@suse.de>
@@ -31,23 +31,23 @@
 
 #define NVRAM_VERSION	"1.3"
 
-#include <linux/module.h>
-#include <linux/nvram.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/miscdevice.h>
-#include <linux/ioport.h>
-#include <linux/fcntl.h>
-#include <linux/mc146818rtc.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/mutex.h>
-#include <linux/pagemap.h>
+#include <peenux/module.h>
+#include <peenux/nvram.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/miscdevice.h>
+#include <peenux/ioport.h>
+#include <peenux/fcntl.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/init.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/mutex.h>
+#include <peenux/pagemap.h>
 
 #ifdef CONFIG_PPC
 #include <asm/nvram.h>
@@ -540,7 +540,7 @@ static void __exit nvram_module_exit(void)
 module_init(nvram_module_init);
 module_exit(nvram_module_exit);
 
-MODULE_DESCRIPTION("CMOS/NV-RAM driver for Linux");
+MODULE_DESCRIPTION("CMOS/NV-RAM driver for Peenux");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS_MISCDEV(NVRAM_MINOR);
 MODULE_ALIAS("devname:nvram");

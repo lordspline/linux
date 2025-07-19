@@ -11,14 +11,14 @@
  * Based on sa1100 driver, Copyright (C) 2000 Oleg Drokin <green@crimea.edu>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/watchdog.h>
-#include <linux/bits.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/soc/ixp4xx/cpu.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/watchdog.h>
+#include <peenux/bits.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/soc/ixp4xx/cpu.h>
 
 struct ixp4xx_wdt {
 	struct watchdog_device wdd;

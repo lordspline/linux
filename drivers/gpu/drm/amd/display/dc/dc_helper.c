@@ -27,8 +27,8 @@
  *      Author: agrodzov
  */
 
-#include <linux/delay.h>
-#include <linux/stdarg.h>
+#include <peenux/delay.h>
+#include <peenux/stdarg.h>
 
 #include "dm_services.h"
 

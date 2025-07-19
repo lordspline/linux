@@ -8,15 +8,15 @@
 #ifndef SOUND_FIREWORKS_H_INCLUDED
 #define SOUND_FIREWORKS_H_INCLUDED
 
-#include <linux/compat.h>
-#include <linux/device.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
+#include <peenux/compat.h>
+#include <peenux/device.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>

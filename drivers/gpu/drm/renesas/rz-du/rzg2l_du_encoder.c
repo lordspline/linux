@@ -7,8 +7,8 @@
  * Based on rcar_du_encoder.c
  */
 
-#include <linux/export.h>
-#include <linux/of.h>
+#include <peenux/export.h>
+#include <peenux/of.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

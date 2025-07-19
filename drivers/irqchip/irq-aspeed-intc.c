@@ -5,15 +5,15 @@
  *  Copyright (C) 2023 ASPEED Technology Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
 
 #define INTC_INT_ENABLE_REG	0x00
 #define INTC_INT_STATUS_REG	0x04

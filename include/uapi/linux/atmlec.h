@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * ATM Lan Emulation Daemon driver interface
  *
@@ -8,11 +8,11 @@
 #ifndef _ATMLEC_H_
 #define _ATMLEC_H_
 
-#include <linux/atmapi.h>
-#include <linux/atmioc.h>
-#include <linux/atm.h>
-#include <linux/if_ether.h>
-#include <linux/types.h>
+#include <peenux/atmapi.h>
+#include <peenux/atmioc.h>
+#include <peenux/atm.h>
+#include <peenux/if_ether.h>
+#include <peenux/types.h>
 
 /* ATM lec daemon control socket */
 #define ATMLEC_CTRL	_IO('a', ATMIOC_LANE)

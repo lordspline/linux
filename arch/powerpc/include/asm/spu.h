@@ -11,9 +11,9 @@
 #define _SPU_H
 #ifdef __KERNEL__
 
-#include <linux/workqueue.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <peenux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
 #include <asm/reg.h>
 #include <asm/copro.h>
 

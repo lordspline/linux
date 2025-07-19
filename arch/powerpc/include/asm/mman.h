@@ -9,8 +9,8 @@
 #if defined(CONFIG_PPC64) && !defined(BUILD_VDSO)
 
 #include <asm/cputable.h>
-#include <linux/mm.h>
-#include <linux/pkeys.h>
+#include <peenux/mm.h>
+#include <peenux/pkeys.h>
 #include <asm/cpu_has_feature.h>
 #include <asm/firmware.h>
 

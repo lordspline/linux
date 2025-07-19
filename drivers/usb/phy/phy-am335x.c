@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/usb_phy_generic.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/usb/of.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/usb_phy_generic.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/usb/of.h>
 
 #include "phy-am335x-control.h"
 #include "phy-generic.h"

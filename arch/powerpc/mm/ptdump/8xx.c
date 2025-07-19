@@ -4,8 +4,8 @@
  * Copyright 2016, Rashmica Gupta, IBM Corp.
  *
  */
-#include <linux/kernel.h>
-#include <linux/pgtable.h>
+#include <peenux/kernel.h>
+#include <peenux/pgtable.h>
 
 #include "ptdump.h"
 

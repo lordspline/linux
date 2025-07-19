@@ -9,9 +9,9 @@
 #ifndef KMB_PLATFORM_H_
 #define KMB_PLATFORM_H_
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/types.h>
 #include <sound/dmaengine_pcm.h>
 
 /* Register values with reference to KMB databook v1.1 */

@@ -3,14 +3,14 @@
  * Copyright (c) 2016 Jiri Pirko <jiri@mellanox.com>
  */
 
-#include <linux/device.h>
-#include <linux/etherdevice.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/notifier.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
-#include <linux/xarray.h>
+#include <peenux/device.h>
+#include <peenux/etherdevice.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/notifier.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
+#include <peenux/xarray.h>
 #include <net/devlink.h>
 #include <net/net_namespace.h>
 #include <net/rtnetlink.h>

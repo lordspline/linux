@@ -14,15 +14,15 @@
  * 1. Support stream at lower speed: lower frame rate or lower frame size.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
 
-#include <linux/usb.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
+#include <peenux/usb.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
 #include <media/i2c/saa7115.h>
 
 #include "stk1160.h"

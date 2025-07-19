@@ -6,16 +6,16 @@
  * Author: Venu Byravarasu <vbyravarasu@nvidia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/rc5t583.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/rc5t583.h>
 
 struct rc5t583_rtc {
 	struct rtc_device	*rtc;
@@ -51,10 +51,10 @@ static int rc5t583_rtc_alarm_irq_enable(struct device *dev, unsigned enabled)
  * Gets current rc5t583 RTC time and date parameters.
  *
  * The RTC's time/alarm representation is not what gmtime(3) requires
- * Linux to use:
+ * Peenux to use:
  *
- *  - Months are 1..12 vs Linux 0-11
- *  - Years are 0..99 vs Linux 1900..N (we assume 21st century)
+ *  - Months are 1..12 vs Peenux 0-11
+ *  - Years are 0..99 vs Peenux 1900..N (we assume 21st century)
  */
 static int rc5t583_rtc_read_time(struct device *dev, struct rtc_time *tm)
 {

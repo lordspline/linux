@@ -4,14 +4,14 @@
  *
  * Event handling elements of industrial I/O reference driver.
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/events.h>
 #include "iio_simple_dummy.h"
 
 /* Evgen 'fakes' interrupt events for this example */

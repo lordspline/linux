@@ -5,18 +5,18 @@
 
  #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/psp-tee.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/psp-tee.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/tee_core.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 
 #include "amdtee_private.h"
 

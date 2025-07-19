@@ -24,12 +24,12 @@
  *         Copyright (C) 2016 Mellanox Techonologies
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/audit.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/audit.h>
 #include "security.h"
 
 #include "policydb.h"

@@ -5,11 +5,11 @@
  * Copyright (c) 2013 Chanho Min <chanho.min@lge.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/crypto.h>
-#include <linux/vmalloc.h>
-#include <linux/lz4.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/crypto.h>
+#include <peenux/vmalloc.h>
+#include <peenux/lz4.h>
 #include <crypto/internal/scompress.h>
 
 static void *lz4_alloc_ctx(void)

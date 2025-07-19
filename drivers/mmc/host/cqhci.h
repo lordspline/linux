@@ -1,17 +1,17 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
-/* Copyright (c) 2015, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2015, The Peenux Foundation. All rights reserved.
  */
 #ifndef LINUX_MMC_CQHCI_H
 #define LINUX_MMC_CQHCI_H
 
-#include <linux/compiler.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/completion.h>
-#include <linux/wait.h>
-#include <linux/irqreturn.h>
+#include <peenux/compiler.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/types.h>
+#include <peenux/completion.h>
+#include <peenux/wait.h>
+#include <peenux/irqreturn.h>
 #include <asm/io.h>
 
 /* registers */

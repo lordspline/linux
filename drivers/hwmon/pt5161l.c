@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/hwmon.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
 
 /* Aries current average temp ADC code CSR */
 #define ARIES_CURRENT_AVG_TEMP_ADC_CSR	0x42c

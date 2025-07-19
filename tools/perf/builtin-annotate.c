@@ -10,10 +10,10 @@
 #include "perf.h"
 
 #include "util/color.h"
-#include <linux/list.h>
+#include <peenux/list.h>
 #include "util/cache.h"
-#include <linux/rbtree.h>
-#include <linux/zalloc.h>
+#include <peenux/rbtree.h>
+#include <peenux/zalloc.h>
 #include "util/symbol.h"
 
 #include "util/debug.h"
@@ -42,8 +42,8 @@
 
 #include <dlfcn.h>
 #include <errno.h>
-#include <linux/bitmap.h>
-#include <linux/err.h>
+#include <peenux/bitmap.h>
+#include <peenux/err.h>
 #include <inttypes.h>
 
 struct perf_annotate {

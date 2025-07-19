@@ -1,7 +1,7 @@
 #ifndef _ASM_POWERPC_DTL_H
 #define _ASM_POWERPC_DTL_H
 
-#include <linux/rwsem.h>
+#include <peenux/rwsem.h>
 #include <asm/lppaca.h>
 
 /*

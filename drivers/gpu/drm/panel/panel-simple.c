@@ -21,16 +21,16 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
 
 #include <video/display_timing.h>
 #include <video/of_display_timing.h>

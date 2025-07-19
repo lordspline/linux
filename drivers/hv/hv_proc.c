@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/types.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/clockchips.h>
-#include <linux/slab.h>
-#include <linux/cpuhotplug.h>
-#include <linux/minmax.h>
+#include <peenux/types.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mm.h>
+#include <peenux/clockchips.h>
+#include <peenux/slab.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/minmax.h>
 #include <asm/mshyperv.h>
 
 /*

@@ -2,27 +2,27 @@
 #ifndef _FS_CEPH_SUPER_H
 #define _FS_CEPH_SUPER_H
 
-#include <linux/ceph/ceph_debug.h>
-#include <linux/ceph/osd_client.h>
+#include <peenux/ceph/ceph_debug.h>
+#include <peenux/ceph/osd_client.h>
 
-#include <linux/unaligned.h>
-#include <linux/backing-dev.h>
-#include <linux/completion.h>
-#include <linux/exportfs.h>
-#include <linux/fs.h>
-#include <linux/mempool.h>
-#include <linux/pagemap.h>
-#include <linux/wait.h>
-#include <linux/writeback.h>
-#include <linux/slab.h>
-#include <linux/posix_acl.h>
-#include <linux/refcount.h>
-#include <linux/security.h>
-#include <linux/netfs.h>
-#include <linux/fscache.h>
-#include <linux/hashtable.h>
+#include <peenux/unaligned.h>
+#include <peenux/backing-dev.h>
+#include <peenux/completion.h>
+#include <peenux/exportfs.h>
+#include <peenux/fs.h>
+#include <peenux/mempool.h>
+#include <peenux/pagemap.h>
+#include <peenux/wait.h>
+#include <peenux/writeback.h>
+#include <peenux/slab.h>
+#include <peenux/posix_acl.h>
+#include <peenux/refcount.h>
+#include <peenux/security.h>
+#include <peenux/netfs.h>
+#include <peenux/fscache.h>
+#include <peenux/hashtable.h>
 
-#include <linux/ceph/libceph.h>
+#include <peenux/ceph/libceph.h>
 #include "crypto.h"
 
 /* large granularity for statfs utilization stats to facilitate

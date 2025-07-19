@@ -12,11 +12,11 @@
  *	we have to worry about.
  */
 
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/timex.h>
-#include <linux/preempt.h>
-#include <linux/delay.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/timex.h>
+#include <peenux/preempt.h>
+#include <peenux/delay.h>
 
 #include <asm/processor.h>
 #include <asm/delay.h>

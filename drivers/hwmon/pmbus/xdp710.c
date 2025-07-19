@@ -3,10 +3,10 @@
  * Driver for Infineon XDP710 Hot-Swap Controller
  */
 
-#include <linux/bitops.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
+#include <peenux/bitops.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
 #include "pmbus.h"
 
 #define XDP710_REG_CFG		0xD3

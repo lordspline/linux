@@ -4,18 +4,18 @@
  * Copyright (C) 2008-2009 PetaLogix
  */
 
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/in6.h>
-#include <linux/syscalls.h>
+#include <peenux/export.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/in6.h>
+#include <peenux/syscalls.h>
 
 #include <asm/checksum.h>
 #include <asm/cacheflush.h>
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/page.h>
-#include <linux/ftrace.h>
-#include <linux/uaccess.h>
+#include <peenux/ftrace.h>
+#include <peenux/uaccess.h>
 #include <asm/xilinx_mb_manager.h>
 
 #ifdef CONFIG_FUNCTION_TRACER

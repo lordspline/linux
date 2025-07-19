@@ -3,13 +3,13 @@
  * Copyright (C) 2002 Steve Schmidtke
  */
 
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sound.h>
-#include <linux/soundcard.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sound.h>
+#include <peenux/soundcard.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
 #include <init.h>
 #include <os.h>
 

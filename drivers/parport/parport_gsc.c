@@ -16,22 +16,22 @@
 
 #undef DEBUG	/* undef for production */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/sysctl.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/sysctl.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/superio.h>
 
-#include <linux/parport.h>
+#include <peenux/parport.h>
 #include <asm/pdc.h>
 #include <asm/parisc-device.h>
 #include <asm/hardware.h>

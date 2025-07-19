@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2014, Sony Mobile Communications AB.
- * Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013, The Peenux Foundation. All rights reserved.
  * Author: Bjorn Andersson <bjorn.andersson@sonymobile.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/qcom_rpm.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/clk.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/qcom_rpm.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/clk.h>
 
 #include <dt-bindings/mfd/qcom-rpm.h>
 

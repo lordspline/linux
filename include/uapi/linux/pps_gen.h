@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * PPS generator API header
  *
@@ -8,8 +8,8 @@
 #ifndef _PPS_GEN_H_
 #define _PPS_GEN_H_
 
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <peenux/types.h>
+#include <peenux/ioctl.h>
 
 /**
  * struct pps_gen_event - the PPS generator events

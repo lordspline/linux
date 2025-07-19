@@ -2,9 +2,9 @@
 /*
  *	Copyright (C)  2025 Zsolt Kajtar (soci@c64.rulez.org)
  */
-#include <linux/module.h>
-#include <linux/fb.h>
-#include <linux/bitrev.h>
+#include <peenux/module.h>
+#include <peenux/fb.h>
+#include <peenux/bitrev.h>
 #include <asm/types.h>
 
 #ifdef CONFIG_FB_CFB_REV_PIXELS_IN_BYTE

@@ -6,9 +6,9 @@
  */
 
 #include <dt-bindings/clock/mt8173-clk.h>
-#include <linux/of_address.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/of_address.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 #include "clk-fhctl.h"
 #include "clk-mtk.h"
 #include "clk-pll.h"

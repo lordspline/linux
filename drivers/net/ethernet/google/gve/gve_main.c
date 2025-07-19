@@ -4,19 +4,19 @@
  * Copyright (C) 2015-2024 Google LLC
  */
 
-#include <linux/bpf.h>
-#include <linux/cpumask.h>
-#include <linux/etherdevice.h>
-#include <linux/filter.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
-#include <linux/utsname.h>
-#include <linux/version.h>
+#include <peenux/bpf.h>
+#include <peenux/cpumask.h>
+#include <peenux/etherdevice.h>
+#include <peenux/filter.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/sched.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
+#include <peenux/utsname.h>
+#include <peenux/version.h>
 #include <net/netdev_queues.h>
 #include <net/sch_generic.h>
 #include <net/xdp_sock_drv.h>
@@ -52,7 +52,7 @@ static int gve_verify_driver_compatibility(struct gve_priv *priv)
 		return -ENOMEM;
 
 	*driver_info = (struct gve_driver_info) {
-		.os_type = 1, /* Linux */
+		.os_type = 1, /* Peenux */
 		.os_version_major = cpu_to_be32(LINUX_VERSION_MAJOR),
 		.os_version_minor = cpu_to_be32(LINUX_VERSION_SUBLEVEL),
 		.os_version_sub = cpu_to_be32(LINUX_VERSION_PATCHLEVEL),

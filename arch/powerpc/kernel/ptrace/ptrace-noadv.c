@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/regset.h>
-#include <linux/hw_breakpoint.h>
+#include <peenux/regset.h>
+#include <peenux/hw_breakpoint.h>
 
 #include <asm/debug.h>
 

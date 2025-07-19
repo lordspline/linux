@@ -16,8 +16,8 @@
 #ifndef _SF_PDMA_H
 #define _SF_PDMA_H
 
-#include <linux/dmaengine.h>
-#include <linux/dma-direction.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-direction.h>
 
 #include "../dmaengine.h"
 #include "../virt-dma.h"

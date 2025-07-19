@@ -2,8 +2,8 @@
 #ifndef _LINUX_VIRTIO_PCI_ADMIN_H
 #define _LINUX_VIRTIO_PCI_ADMIN_H
 
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
 
 #ifdef CONFIG_VIRTIO_PCI_ADMIN_LEGACY
 bool virtio_pci_admin_has_legacy_io(struct pci_dev *pdev);

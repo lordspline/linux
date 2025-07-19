@@ -3,8 +3,8 @@
  * Copyright (C) 2020-2024 Microsoft Corporation. All rights reserved.
  */
 
-#include <linux/errno.h>
-#include <linux/verification.h>
+#include <peenux/errno.h>
+#include <peenux/verification.h>
 
 #include "ipe.h"
 #include "eval.h"

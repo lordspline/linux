@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-/*  linux/arch/sparc/kernel/process.c
+/*  peenux/arch/sparc/kernel/process.c
  *
  *  Copyright (C) 1995, 2008 David S. Miller (davem@davemloft.net)
  *  Copyright (C) 1996 Eddie C. Dost   (ecd@skynet.be)
@@ -8,28 +8,28 @@
 /*
  * This file handles the architecture-dependent parts of process handling..
  */
-#include <linux/elfcore.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/smp.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
+#include <peenux/elfcore.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/stddef.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/smp.h>
+#include <peenux/reboot.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
+#include <peenux/cpu.h>
 
 #include <asm/auxio.h>
 #include <asm/oplib.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/page.h>
 #include <asm/delay.h>
 #include <asm/processor.h>

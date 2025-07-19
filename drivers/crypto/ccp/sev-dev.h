@@ -10,20 +10,20 @@
 #ifndef __SEV_DEV_H__
 #define __SEV_DEV_H__
 
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/wait.h>
-#include <linux/dmapool.h>
-#include <linux/hw_random.h>
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/dmaengine.h>
-#include <linux/psp-sev.h>
-#include <linux/miscdevice.h>
-#include <linux/capability.h>
+#include <peenux/device.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/wait.h>
+#include <peenux/dmapool.h>
+#include <peenux/hw_random.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/dmaengine.h>
+#include <peenux/psp-sev.h>
+#include <peenux/miscdevice.h>
+#include <peenux/capability.h>
 
 #define SEV_CMDRESP_CMD			GENMASK(26, 16)
 #define SEV_CMD_COMPLETE		BIT(1)

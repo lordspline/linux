@@ -11,21 +11,21 @@
  *   interface.
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/prefetch.h>
-#include <linux/usb.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb/usb_phy_generic.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/prefetch.h>
+#include <peenux/usb.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/usb/usb_phy_generic.h>
 
 #include "musb_core.h"
 

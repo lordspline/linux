@@ -4,9 +4,9 @@
  * Copyright (C) 2013-2015 Intel Mobile Communications GmbH
  * Copyright (C) 2016-2017 Intel Deutschland GmbH
  */
-#include <linux/unaligned.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/unaligned.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
 #include "iwl-trans.h"
 #include "mvm.h"
 #include "fw-api.h"

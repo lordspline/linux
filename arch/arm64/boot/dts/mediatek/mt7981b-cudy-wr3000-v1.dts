@@ -22,13 +22,13 @@
 		key-wps {
 			label = "WPS";
 			gpios = <&pio 0 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_WPS_BUTTON>;
+			peenux,code = <KEY_WPS_BUTTON>;
 		};
 
 		key-reset {
 			label = "RESET";
 			gpios = <&pio 1 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_RESTART>;
+			peenux,code = <KEY_RESTART>;
 		};
 	};
 

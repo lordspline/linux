@@ -18,17 +18,17 @@
  *	Author: Huang Ying <ying.huang@intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/kref.h>
-#include <linux/interrupt.h>
-#include <linux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/kref.h>
+#include <peenux/interrupt.h>
+#include <peenux/debugfs.h>
 #include <acpi/apei.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "apei-internal.h"
 

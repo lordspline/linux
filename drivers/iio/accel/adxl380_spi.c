@@ -5,10 +5,10 @@
  * Copyright 2024 Analog Devices Inc.
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
 
 #include "adxl380.h"
 

@@ -10,12 +10,12 @@
  *   http://www.aosong.com/m/en/products-33.html
  */
 
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <peenux/crc8.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #define AGS02MA_TVOC_READ_REG		   0x00
 #define AGS02MA_VERSION_REG		   0x11

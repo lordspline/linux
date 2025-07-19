@@ -4,17 +4,17 @@
  *
  * Copyright (C) 2016-2018 Linaro Ltd.
  * Copyright (C) 2014 Sony Mobile Communications AB
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Peenux Foundation. All rights reserved.
  */
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/interconnect.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/soc/qcom/qcom_aoss.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/soc/qcom/smem_state.h>
-#include <linux/remoteproc.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/interconnect.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/soc/qcom/qcom_aoss.h>
+#include <peenux/soc/qcom/smem.h>
+#include <peenux/soc/qcom/smem_state.h>
+#include <peenux/remoteproc.h>
 #include "qcom_common.h"
 #include "qcom_q6v5.h"
 

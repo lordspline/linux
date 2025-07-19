@@ -7,17 +7,17 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
-#include <linux/unaligned.h>
-#include <linux/iio/common/st_sensors.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/iio/iio.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/unaligned.h>
+#include <peenux/iio/common/st_sensors.h>
 
 #include "st_sensors_core.h"
 

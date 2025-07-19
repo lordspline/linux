@@ -7,7 +7,7 @@
 #include <subcmd/help.h>
 #include "../builtin.h"
 #include "levenshtein.h"
-#include <linux/zalloc.h>
+#include <peenux/zalloc.h>
 
 static int autocorrect;
 

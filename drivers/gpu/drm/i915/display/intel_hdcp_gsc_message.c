@@ -3,7 +3,7 @@
  * Copyright 2023, Intel Corporation.
  */
 
-#include <linux/err.h>
+#include <peenux/err.h>
 
 #include <drm/drm_print.h>
 #include <drm/intel/i915_hdcp_interface.h>

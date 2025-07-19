@@ -14,14 +14,14 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/time.h>
-#include <linux/bitops.h>
-#include <linux/etherdevice.h>
-#include <linux/gpio.h>
-#include <linux/unaligned.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/time.h>
+#include <peenux/bitops.h>
+#include <peenux/etherdevice.h>
+#include <peenux/gpio.h>
+#include <peenux/unaligned.h>
 
 #include "hw.h"
 #include "hw-ops.h"

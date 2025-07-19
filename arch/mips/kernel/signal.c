@@ -8,28 +8,28 @@
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  * Copyright (C) 2014, Imagination Technologies Ltd.
  */
-#include <linux/cache.h>
-#include <linux/context_tracking.h>
-#include <linux/irqflags.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/personality.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/uprobes.h>
-#include <linux/compiler.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
-#include <linux/resume_user_mode.h>
+#include <peenux/cache.h>
+#include <peenux/context_tracking.h>
+#include <peenux/irqflags.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/personality.h>
+#include <peenux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/errno.h>
+#include <peenux/wait.h>
+#include <peenux/ptrace.h>
+#include <peenux/unistd.h>
+#include <peenux/uprobes.h>
+#include <peenux/compiler.h>
+#include <peenux/syscalls.h>
+#include <peenux/uaccess.h>
+#include <peenux/resume_user_mode.h>
 
 #include <asm/abi.h>
 #include <asm/asm.h>
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 #include <asm/cacheflush.h>
 #include <asm/fpu.h>
 #include <asm/sim.h>

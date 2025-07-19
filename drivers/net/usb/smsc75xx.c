@@ -5,19 +5,19 @@
  *
  *****************************************************************************/
 
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/bitrev.h>
-#include <linux/crc16.h>
-#include <linux/crc32.h>
-#include <linux/usb/usbnet.h>
-#include <linux/slab.h>
-#include <linux/of_net.h>
+#include <peenux/module.h>
+#include <peenux/kmod.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/usb.h>
+#include <peenux/bitrev.h>
+#include <peenux/crc16.h>
+#include <peenux/crc32.h>
+#include <peenux/usb/usbnet.h>
+#include <peenux/slab.h>
+#include <peenux/of_net.h>
 #include "smsc75xx.h"
 
 #define SMSC_CHIPNAME			"smsc75xx"

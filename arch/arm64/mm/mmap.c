@@ -5,10 +5,10 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/types.h>
+#include <peenux/io.h>
+#include <peenux/memblock.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
 
 #include <asm/cpufeature.h>
 #include <asm/page.h>

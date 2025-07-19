@@ -12,15 +12,15 @@
  *  by Maxim Krasnyansky and Marcel Holtmann.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/ioctl.h>
-#include <linux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/errno.h>
+#include <peenux/ioctl.h>
+#include <peenux/skbuff.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

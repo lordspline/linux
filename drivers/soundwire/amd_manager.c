@@ -5,18 +5,18 @@
  * Copyright 2023-24 Advanced Micro Devices, Inc.
  */
 
-#include <linux/completion.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/pm_runtime.h>
-#include <linux/wait.h>
+#include <peenux/completion.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/wait.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include "bus.h"

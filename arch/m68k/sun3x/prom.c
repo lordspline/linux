@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Prom access routines for the sun3x */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/string.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/console.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
 
 #include <asm/page.h>
 #include <asm/setup.h>

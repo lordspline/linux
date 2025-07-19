@@ -7,11 +7,11 @@
  * Jonas Jensen <jonas.jensen@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/clkdev.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/clkdev.h>
 
 static void __init moxart_of_pll_clk_init(struct device_node *node)
 {

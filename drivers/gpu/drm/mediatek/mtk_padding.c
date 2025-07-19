@@ -3,13 +3,13 @@
  * Copyright (c) 2023 MediaTek Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/soc/mediatek/mtk-cmdq.h>
 
 #include "mtk_crtc.h"
 #include "mtk_ddp_comp.h"

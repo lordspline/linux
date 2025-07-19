@@ -3,34 +3,34 @@
 #define pr_fmt(fmt) "sdei: " fmt
 
 #include <acpi/ghes.h>
-#include <linux/acpi.h>
-#include <linux/arm_sdei.h>
-#include <linux/arm-smccc.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpu.h>
-#include <linux/cpu_pm.h>
-#include <linux/errno.h>
-#include <linux/hardirq.h>
-#include <linux/kernel.h>
-#include <linux/kprobes.h>
-#include <linux/kvm_host.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/percpu.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/ptrace.h>
-#include <linux/preempt.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
+#include <peenux/acpi.h>
+#include <peenux/arm_sdei.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/compiler.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/cpu.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/errno.h>
+#include <peenux/hardirq.h>
+#include <peenux/kernel.h>
+#include <peenux/kprobes.h>
+#include <peenux/kvm_host.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/percpu.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/ptrace.h>
+#include <peenux/preempt.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
 
 /*
  * The call to use to reach the firmware.

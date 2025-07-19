@@ -5,7 +5,7 @@
  * All rights reserved
  */
 
-#include <linux/netdevice.h>
+#include <peenux/netdevice.h>
 #include <net/dcbnl.h>
 
 #include "xgbe.h"

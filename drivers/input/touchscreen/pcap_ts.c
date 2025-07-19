@@ -6,16 +6,16 @@
  *  Copyright (C) 2009 Daniel Ribeiro <drwyrm@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/mfd/ezx-pcap.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/pm.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/input.h>
+#include <peenux/mfd/ezx-pcap.h>
 
 struct pcap_ts {
 	struct pcap_chip *pcap;

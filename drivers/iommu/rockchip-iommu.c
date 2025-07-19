@@ -6,26 +6,26 @@
  *			Daniel Kurtz <djkurtz@chromium.org>
  */
 
-#include <linux/clk.h>
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
+#include <peenux/clk.h>
+#include <peenux/compiler.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iommu.h>
+#include <peenux/iopoll.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string_choices.h>
 
 #include "iommu-pages.h"
 

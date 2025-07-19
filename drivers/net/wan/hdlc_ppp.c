@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Generic HDLC support routines for Linux
+ * Generic HDLC support routines for Peenux
  * Point-to-point protocol support
  *
  * Copyright (C) 1999 - 2008 Krzysztof Halasa <khc@pm.waw.pl>
  */
 
-#include <linux/errno.h>
-#include <linux/hdlc.h>
-#include <linux/if_arp.h>
-#include <linux/inetdevice.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pkt_sched.h>
-#include <linux/poll.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/hdlc.h>
+#include <peenux/if_arp.h>
+#include <peenux/inetdevice.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pkt_sched.h>
+#include <peenux/poll.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #define DEBUG_CP		0 /* also bytes# to dump */
 #define DEBUG_STATE		0

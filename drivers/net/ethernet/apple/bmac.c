@@ -8,22 +8,22 @@
  * May 1999, Al Viro: proper release of /proc/net/bmac entry, switched to
  * dynamic procfs inode.
  */
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/crc32.h>
-#include <linux/bitrev.h>
-#include <linux/ethtool.h>
-#include <linux/slab.h>
-#include <linux/pgtable.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/proc_fs.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/crc32.h>
+#include <peenux/bitrev.h>
+#include <peenux/ethtool.h>
+#include <peenux/slab.h>
+#include <peenux/pgtable.h>
 #include <asm/dbdma.h>
 #include <asm/io.h>
 #include <asm/page.h>

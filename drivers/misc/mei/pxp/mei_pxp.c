@@ -11,13 +11,13 @@
  * negotiation messages to ME FW command payloads and vice versa.
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/mei.h>
-#include <linux/mei_cl_bus.h>
-#include <linux/component.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/mei.h>
+#include <peenux/mei_cl_bus.h>
+#include <peenux/component.h>
 #include <drm/drm_connector.h>
 #include <drm/intel/i915_component.h>
 #include <drm/intel/i915_pxp_tee_interface.h>

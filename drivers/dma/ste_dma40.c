@@ -6,23 +6,23 @@
  * Author: Jonas Aaberg <jonas.aberg@stericsson.com> for ST-Ericsson
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/dmaengine.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/log2.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_dma.h>
-#include <linux/amba/bus.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/dmaengine.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/log2.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_dma.h>
+#include <peenux/amba/bus.h>
+#include <peenux/regulator/consumer.h>
 
 #include "dmaengine.h"
 #include "ste_dma40.h"

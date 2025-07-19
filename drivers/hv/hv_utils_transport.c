@@ -5,9 +5,9 @@
  * Copyright (C) 2015, Vitaly Kuznetsov <vkuznets@redhat.com>
  */
 
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/poll.h>
 
 #include "hyperv_vmbus.h"
 #include "hv_utils_transport.h"

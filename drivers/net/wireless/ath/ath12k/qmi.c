@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2018-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2021 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/elf.h>
+#include <peenux/elf.h>
 
 #include "qmi.h"
 #include "core.h"
 #include "debug.h"
-#include <linux/of.h>
-#include <linux/firmware.h>
-#include <linux/of_address.h>
-#include <linux/ioport.h>
+#include <peenux/of.h>
+#include <peenux/firmware.h>
+#include <peenux/of_address.h>
+#include <peenux/ioport.h>
 
 #define SLEEP_CLOCK_SELECT_INTERNAL_BIT	0x02
 #define HOST_CSTATE_BIT			0x04

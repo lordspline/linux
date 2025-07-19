@@ -4,7 +4,7 @@
 #ifndef _QUICKSPI_PROTOCOL_H_
 #define _QUICKSPI_PROTOCOL_H_
 
-#include <linux/hid-over-spi.h>
+#include <peenux/hid-over-spi.h>
 
 #define QUICKSPI_ACK_WAIT_TIMEOUT    5
 

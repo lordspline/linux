@@ -4,12 +4,12 @@
  *   copyright            : (C) 2004 by Frank Mori Hess                    *
  ***************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/completion.h>
-#include <linux/usb.h>
-#include <linux/timer.h>
-#include <linux/compiler_attributes.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/completion.h>
+#include <peenux/usb.h>
+#include <peenux/timer.h>
+#include <peenux/compiler_attributes.h>
 #include "gpibP.h"
 #include "tms9914.h"
 

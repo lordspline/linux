@@ -9,10 +9,10 @@
 #ifndef __LINUX_MFD_88PM80X_H
 #define __LINUX_MFD_88PM80X_H
 
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/atomic.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/regmap.h>
+#include <peenux/atomic.h>
 
 enum {
 	CHIP_INVALID = 0,

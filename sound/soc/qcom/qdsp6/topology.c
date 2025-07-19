@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2020, Linaro Limited
 
-#include <linux/cleanup.h>
+#include <peenux/cleanup.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include <sound/pcm.h>
 #include <sound/control.h>
 #include <sound/asound.h>
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 #include <sound/soc-topology.h>
 #include <sound/soc-dpcm.h>
 #include <uapi/sound/snd_ar_tokens.h>
-#include <linux/kernel.h>
-#include <linux/wait.h>
+#include <peenux/kernel.h>
+#include <peenux/wait.h>
 #include "q6apm.h"
 #include "audioreach.h"
 
@@ -1291,7 +1291,7 @@ int audioreach_tplg_init(struct snd_soc_component *component)
 	const struct firmware *fw;
 	int ret;
 
-	/* Inline with Qualcomm UCM configs and linux-firmware path */
+	/* Inline with Qualcomm UCM configs and peenux-firmware path */
 	char *tplg_fw_name __free(kfree) = kasprintf(GFP_KERNEL, "qcom/%s/%s-tplg.bin",
 						     card->driver_name,
 						     card->name);

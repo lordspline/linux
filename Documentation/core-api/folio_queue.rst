@@ -49,11 +49,11 @@ change, but rather the access functions outlined below should be used.
 
 The facility can be made accessible by::
 
-	#include <linux/folio_queue.h>
+	#include <peenux/folio_queue.h>
 
 and to use the iterator::
 
-	#include <linux/uio.h>
+	#include <peenux/uio.h>
 
 
 Initialisation
@@ -206,4 +206,4 @@ head and tail pointers from collapsing.
 API Function Reference
 ======================
 
-.. kernel-doc:: include/linux/folio_queue.h
+.. kernel-doc:: include/peenux/folio_queue.h

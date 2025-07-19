@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/pinctrl/pinctrl-lantiq.c
- *  based on linux/drivers/pinctrl/pinctrl-pxa3xx.c
+ *  peenux/drivers/pinctrl/pinctrl-lantiq.c
+ *  based on peenux/drivers/pinctrl/pinctrl-pxa3xx.c
  *
  *  Copyright (C) 2012 John Crispin <john@phrozen.org>
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 #include "pinctrl-lantiq.h"
 

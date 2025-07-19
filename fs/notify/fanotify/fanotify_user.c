@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/fanotify.h>
-#include <linux/fcntl.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/anon_inodes.h>
-#include <linux/fsnotify_backend.h>
-#include <linux/init.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/poll.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
-#include <linux/sched/signal.h>
-#include <linux/memcontrol.h>
-#include <linux/statfs.h>
-#include <linux/exportfs.h>
+#include <peenux/fanotify.h>
+#include <peenux/fcntl.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/fsnotify_backend.h>
+#include <peenux/init.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/poll.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/compat.h>
+#include <peenux/sched/signal.h>
+#include <peenux/memcontrol.h>
+#include <peenux/statfs.h>
+#include <peenux/exportfs.h>
 
 #include <asm/ioctls.h>
 
@@ -53,7 +53,7 @@ static int fanotify_max_queued_events __read_mostly;
 
 #ifdef CONFIG_SYSCTL
 
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 
 static long ft_zero = 0;
 static long ft_int_max = INT_MAX;

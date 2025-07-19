@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  USB HID support for Linux
+ *  USB HID support for Peenux
  *
  *  Copyright (c) 1999 Andreas Gal
  *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
@@ -12,28 +12,28 @@
 /*
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/spinlock.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/spinlock.h>
+#include <peenux/unaligned.h>
 #include <asm/byteorder.h>
-#include <linux/input.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/string.h>
+#include <peenux/input.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
+#include <peenux/string.h>
 
-#include <linux/usb.h>
+#include <peenux/usb.h>
 
-#include <linux/hid.h>
-#include <linux/hiddev.h>
-#include <linux/hid-debug.h>
-#include <linux/hidraw.h>
+#include <peenux/hid.h>
+#include <peenux/hiddev.h>
+#include <peenux/hid-debug.h>
+#include <peenux/hidraw.h>
 #include "usbhid.h"
 #include "hid-pidff.h"
 

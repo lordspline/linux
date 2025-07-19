@@ -116,12 +116,12 @@
  *   Copyright (c) 2002 - 2004 Karsten Wiese
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/usb.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

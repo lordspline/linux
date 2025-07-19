@@ -5,24 +5,24 @@
  * Copyright (C) 2013-2015 Microchip Technology Germany II GmbH & Co. KG
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/usb.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/sysfs.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/uaccess.h>
-#include <linux/most.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/usb.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/sysfs.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/uaccess.h>
+#include <peenux/most.h>
 
 #define USB_MTU			512
 #define NO_ISOCHRONOUS_URB	0

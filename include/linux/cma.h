@@ -2,9 +2,9 @@
 #ifndef __CMA_H__
 #define __CMA_H__
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/numa.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/numa.h>
 
 #ifdef CONFIG_CMA_AREAS
 #define MAX_CMA_AREAS	CONFIG_CMA_AREAS

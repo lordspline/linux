@@ -49,13 +49,13 @@
  * transport switch. All others are RPC RDMA internal.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/smp.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/smp.h>
 
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/svc_rdma.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/sunrpc/svc_rdma.h>
 
 #include "xprt_rdma.h"
 #include <trace/events/rpcrdma.h>

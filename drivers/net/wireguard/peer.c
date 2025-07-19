@@ -10,10 +10,10 @@
 #include "peerlookup.h"
 #include "noise.h"
 
-#include <linux/kref.h>
-#include <linux/lockdep.h>
-#include <linux/rcupdate.h>
-#include <linux/list.h>
+#include <peenux/kref.h>
+#include <peenux/lockdep.h>
+#include <peenux/rcupdate.h>
+#include <peenux/list.h>
 
 static struct kmem_cache *peer_cache;
 static atomic64_t peer_counter = ATOMIC64_INIT(0);

@@ -6,9 +6,9 @@
     Script to auto generate the documentation for Netlink specifications.
 
     :copyright:  Copyright (C) 2023  Breno Leitao <leitao@debian.org>
-    :license:    GPL Version 2, June 1991 see linux/COPYING for details.
+    :license:    GPL Version 2, June 1991 see peenux/COPYING for details.
 
-    This script performs extensive parsing to the Linux kernel's netlink YAML
+    This script performs extensive parsing to the Peenux kernel's netlink YAML
     spec files, in an effort to avoid needing to heavily mark up the original
     YAML file.
 

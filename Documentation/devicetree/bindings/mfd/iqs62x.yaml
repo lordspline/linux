@@ -72,13 +72,13 @@ examples:
             keys {
                 compatible = "azoteq,iqs620a-keys";
 
-                linux,keycodes = <KEY_SELECT>,
+                peenux,keycodes = <KEY_SELECT>,
                                  <KEY_MENU>,
                                  <KEY_OK>,
                                  <KEY_MENU>;
 
                 hall-switch-south {
-                    linux,code = <SW_LID>;
+                    peenux,code = <SW_LID>;
                     azoteq,use-prox;
                 };
             };
@@ -110,7 +110,7 @@ examples:
             keys {
                 compatible = "azoteq,iqs620a-keys";
 
-                linux,keycodes = <0>,
+                peenux,keycodes = <0>,
                                  <0>,
                                  <0>,
                                  <0>,
@@ -119,11 +119,11 @@ examples:
                                  <KEY_MUTE>;
 
                 hall-switch-north {
-                    linux,code = <SW_DOCK>;
+                    peenux,code = <SW_DOCK>;
                 };
 
                 hall-switch-south {
-                    linux,code = <SW_TABLET_MODE>;
+                    peenux,code = <SW_TABLET_MODE>;
                 };
             };
         };
@@ -147,7 +147,7 @@ examples:
             keys {
                 compatible = "azoteq,iqs624-keys";
 
-                linux,keycodes = <BTN_0>,
+                peenux,keycodes = <BTN_0>,
                                  <0>,
                                  <BTN_1>,
                                  <0>,

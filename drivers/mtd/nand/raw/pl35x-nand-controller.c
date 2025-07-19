@@ -10,23 +10,23 @@
  *   Naga Sureshkumar Relli <nagasure@xilinx.com>
  */
 
-#include <linux/amba/bus.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
+#include <peenux/amba/bus.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/iopoll.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
 
 #define PL35X_NANDC_DRIVER_NAME "pl35x-nand-controller"
 

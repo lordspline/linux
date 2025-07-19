@@ -4,20 +4,20 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/spinlock.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/buffer_impl.h>
-#include <linux/iio/buffer-dma.h>
-#include <linux/iio/buffer-dmaengine.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/buffer_impl.h>
+#include <peenux/iio/buffer-dma.h>
+#include <peenux/iio/buffer-dmaengine.h>
 
 /*
  * The IIO DMAengine buffer combines the generic IIO DMA buffer infrastructure

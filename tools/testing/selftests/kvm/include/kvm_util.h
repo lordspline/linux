@@ -7,13 +7,13 @@
 
 #include "test_util.h"
 
-#include <linux/compiler.h>
-#include "linux/hashtable.h"
-#include "linux/list.h"
-#include <linux/kernel.h>
-#include <linux/kvm.h>
-#include "linux/rbtree.h"
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include "peenux/hashtable.h"
+#include "peenux/list.h"
+#include <peenux/kernel.h>
+#include <peenux/kvm.h>
+#include "peenux/rbtree.h"
+#include <peenux/types.h>
 
 #include <asm/atomic.h>
 #include <asm/kvm.h>

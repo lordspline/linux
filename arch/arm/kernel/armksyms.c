@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/armksyms.c
+ *  peenux/arch/arm/kernel/armksyms.c
  *
  *  Copyright (C) 2000 Russell King
  */
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/in6.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/arm-smccc.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/in6.h>
+#include <peenux/syscalls.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/arm-smccc.h>
 
 #include <asm/checksum.h>
 #include <asm/ftrace.h>

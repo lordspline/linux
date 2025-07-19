@@ -6,8 +6,8 @@
 #ifndef __ASM_UPROBES_H
 #define __ASM_UPROBES_H
 
-#include <linux/notifier.h>
-#include <linux/types.h>
+#include <peenux/notifier.h>
+#include <peenux/types.h>
 
 #include <asm/break.h>
 #include <asm/inst.h>

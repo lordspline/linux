@@ -35,25 +35,25 @@
 
 		button-escape {
 			label = "Escape";
-			linux,code = <KEY_ESC>;
+			peenux,code = <KEY_ESC>;
 			press-threshold-microvolt = <1235000>;
 		};
 
 		button-menu {
 			label = "Menu";
-			linux,code = <KEY_MENU>;
+			peenux,code = <KEY_MENU>;
 			press-threshold-microvolt = <890000>;
 		};
 
 		button-vol-up {
 			label = "Volume Up";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			press-threshold-microvolt = <17000>;
 		};
 
 		button-vol-down {
 			label = "Volume Down";
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 			press-threshold-microvolt = <417000>;
 		};
 	};

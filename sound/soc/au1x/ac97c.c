@@ -8,14 +8,14 @@
  *			Charles Eidsness <charles@cooper-street.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/suspend.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/suspend.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/initval.h>

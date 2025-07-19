@@ -2,19 +2,19 @@
 /*
  * Apple Z2 touchscreen driver
  *
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Peenux Contributors
  */
 
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/spi/spi.h>
-#include <linux/unaligned.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/spi/spi.h>
+#include <peenux/unaligned.h>
 
 #define APPLE_Z2_NUM_FINGERS_OFFSET      16
 #define APPLE_Z2_FINGERS_OFFSET          24

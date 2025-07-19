@@ -9,8 +9,8 @@
 #ifndef _CIFS_FSCACHE_H
 #define _CIFS_FSCACHE_H
 
-#include <linux/swap.h>
-#include <linux/fscache.h>
+#include <peenux/swap.h>
+#include <peenux/fscache.h>
 
 #include "cifsglob.h"
 

@@ -6,11 +6,11 @@
 
 #include "opl4_local.h"
 #include <sound/initval.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
 
 MODULE_AUTHOR("Clemens Ladisch <clemens@ladisch.de>");
 MODULE_DESCRIPTION("OPL4 driver");

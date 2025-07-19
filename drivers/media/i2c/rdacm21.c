@@ -10,13 +10,13 @@
  * Copyright (C) 2015 Cogent Embedded, Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-ctrls.h>

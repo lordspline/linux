@@ -6,24 +6,24 @@
 #ifndef __QLA_DEF_H
 #define __QLA_DEF_H
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/dmapool.h>
-#include <linux/mempool.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/firmware.h>
-#include <linux/mutex.h>
-#include <linux/btree.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/dmapool.h>
+#include <peenux/mempool.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/firmware.h>
+#include <peenux/mutex.h>
+#include <peenux/btree.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>
@@ -400,7 +400,7 @@ struct qla_buf_dsc {
  * SCSI Request Block
  */
 struct srb_cmd {
-	struct scsi_cmnd *cmd;		/* Linux SCSI command pkt */
+	struct scsi_cmnd *cmd;		/* Peenux SCSI command pkt */
 	uint32_t request_sense_length;
 	uint32_t fw_sense_length;
 	uint8_t *request_sense_ptr;

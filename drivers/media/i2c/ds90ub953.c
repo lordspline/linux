@@ -8,18 +8,18 @@
  * Copyright (c) 2023 Tomi Valkeinen <tomi.valkeinen@ideasonboard.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c-atr.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/rational.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c-atr.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/rational.h>
+#include <peenux/regmap.h>
 
 #include <media/i2c/ds90ub9xx.h>
 #include <media/v4l2-ctrls.h>

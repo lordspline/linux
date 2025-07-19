@@ -19,17 +19,17 @@
  *	    September 2004
  */
 
-#include <linux/module.h>
-#include <linux/param.h>
-#include <linux/jiffies.h>
-#include <linux/workqueue.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/suspend.h>
-#include <linux/w1.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/param.h>
+#include <peenux/jiffies.h>
+#include <peenux/workqueue.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/suspend.h>
+#include <peenux/w1.h>
+#include <peenux/of.h>
 
 static unsigned int cache_time = 1000;
 module_param(cache_time, uint, 0644);

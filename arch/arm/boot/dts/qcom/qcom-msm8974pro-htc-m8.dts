@@ -22,7 +22,7 @@
 		key-volume-down {
 			label = "volume_down";
 			gpios = <&tlmm 27 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 			debounce-interval = <20>;
 			wakeup-source;
 		};
@@ -30,7 +30,7 @@
 		key-volume-up {
 			label = "volume_up";
 			gpios = <&tlmm 28 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			debounce-interval = <20>;
 			wakeup-source;
 		};

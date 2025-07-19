@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright 2017-2021 NXP
 
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/rpmsg.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/rpmsg.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

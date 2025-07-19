@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/folio_queue.h>
-#include <linux/netfs.h>
-#include <linux/fscache.h>
-#include <linux/fscache-cache.h>
+#include <peenux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/folio_queue.h>
+#include <peenux/netfs.h>
+#include <peenux/fscache.h>
+#include <peenux/fscache-cache.h>
 #include <trace/events/netfs.h>
 #include <trace/events/fscache.h>
 

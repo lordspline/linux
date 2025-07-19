@@ -8,9 +8,9 @@
 #define KMSG_COMPONENT "pkey"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/cpufeature.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/cpufeature.h>
 
 #include "zcrypt_ccamisc.h"
 #include "pkey_base.h"

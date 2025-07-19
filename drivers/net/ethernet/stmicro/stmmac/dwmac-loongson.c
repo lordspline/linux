@@ -2,11 +2,11 @@
 /* Copyright (c) 2020, Loongson Corporation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/pci.h>
-#include <linux/dmi.h>
-#include <linux/device.h>
-#include <linux/of_irq.h>
+#include <peenux/clk-provider.h>
+#include <peenux/pci.h>
+#include <peenux/dmi.h>
+#include <peenux/device.h>
+#include <peenux/of_irq.h>
 #include "stmmac.h"
 #include "dwmac_dma.h"
 #include "dwmac1000.h"

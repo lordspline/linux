@@ -3,9 +3,9 @@
  * Handle interrupts from the SRM, assuming no additional weirdness.
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/irq.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/irq.h>
 
 #include "proto.h"
 #include "irq_impl.h"

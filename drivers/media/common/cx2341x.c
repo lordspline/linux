@@ -6,12 +6,12 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/videodev2.h>
 
 #include <media/tuner.h>
 #include <media/drv-intf/cx2341x.h>

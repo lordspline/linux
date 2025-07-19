@@ -5,20 +5,20 @@
 // Copyright (C) 2022-2023 Cirrus Logic, Inc. and
 //                         Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/build_bug.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/irq.h>
-#include <linux/jiffies.h>
-#include <linux/mfd/cs42l43.h>
-#include <linux/mfd/cs42l43-regs.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/time.h>
-#include <linux/workqueue.h>
+#include <peenux/build_bug.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/irq.h>
+#include <peenux/jiffies.h>
+#include <peenux/mfd/cs42l43.h>
+#include <peenux/mfd/cs42l43-regs.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/time.h>
+#include <peenux/workqueue.h>
 #include <sound/control.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

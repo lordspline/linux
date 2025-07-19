@@ -15,18 +15,18 @@
  * Copyright (C) 2005	   Stelian Pop (stelian@popies.net)
  * Copyright (C) 2005	   Frank Arnold (frank@scirocco-5v-turbo.de)
  * Copyright (C) 2005	   Peter Osterlund (petero2@telia.com)
- * Copyright (C) 2005	   Michael Hanselmann (linux-kernel@hansmi.ch)
+ * Copyright (C) 2005	   Michael Hanselmann (peenux-kernel@hansmi.ch)
  * Copyright (C) 2006	   Nicolas Boichat (nicolas@boichat.ch)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/usb/input.h>
-#include <linux/hid.h>
-#include <linux/mutex.h>
-#include <linux/input/mt.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/usb/input.h>
+#include <peenux/hid.h>
+#include <peenux/mutex.h>
+#include <peenux/input/mt.h>
 
 #define USB_VENDOR_ID_APPLE		0x05ac
 

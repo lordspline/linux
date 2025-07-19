@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
-/* linux/drivers/media/platform/samsung/s5p-jpeg/jpeg-hw-exynos3250.h
+/* peenux/drivers/media/platform/samsung/s5p-jpeg/jpeg-hw-exynos3250.h
  *
  * Copyright (c) 2014 Samsung Electronics Co., Ltd.
  *		http://www.samsung.com
@@ -9,8 +9,8 @@
 #ifndef JPEG_HW_EXYNOS3250_H_
 #define JPEG_HW_EXYNOS3250_H_
 
-#include <linux/io.h>
-#include <linux/videodev2.h>
+#include <peenux/io.h>
+#include <peenux/videodev2.h>
 
 #include "jpeg-regs.h"
 

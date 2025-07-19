@@ -11,12 +11,12 @@
  * Tero Kristo <t-kristo@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/clk/ti.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/clk/ti.h>
+#include <peenux/delay.h>
 
 #include "clock.h"
 

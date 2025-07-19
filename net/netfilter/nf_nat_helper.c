@@ -5,12 +5,12 @@
  * (C) 2003-2006 Netfilter Core Team <coreteam@netfilter.org>
  * (C) 2007-2012 Patrick McHardy <kaber@trash.net>
  */
-#include <linux/module.h>
-#include <linux/gfp.h>
-#include <linux/types.h>
-#include <linux/skbuff.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
+#include <peenux/module.h>
+#include <peenux/gfp.h>
+#include <peenux/types.h>
+#include <peenux/skbuff.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
 #include <net/tcp.h>
 
 #include <net/netfilter/nf_conntrack.h>

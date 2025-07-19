@@ -6,20 +6,20 @@
  *	    Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/g_uvc.h>
-#include <linux/usb/video.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/string.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/g_uvc.h>
+#include <peenux/usb/video.h>
+#include <peenux/vmalloc.h>
+#include <peenux/wait.h>
 
 #include <media/v4l2-dev.h>
 #include <media/v4l2-event.h>

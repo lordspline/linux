@@ -3,14 +3,14 @@
  * Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/export.h>
-#include <linux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
+#include <peenux/export.h>
+#include <peenux/moduleparam.h>
 
 #include "w1_internal.h"
 #include "w1_netlink.h"

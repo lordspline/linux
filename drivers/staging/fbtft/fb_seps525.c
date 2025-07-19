@@ -16,10 +16,10 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
 
 #include "fbtft.h"
 

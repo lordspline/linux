@@ -6,14 +6,14 @@
  * Author: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/align.h>
-#include <linux/bitfield.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/align.h>
+#include <peenux/bitfield.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include "pcie-designware.h"
-#include <linux/pci-epc.h>
-#include <linux/pci-epf.h>
+#include <peenux/pci-epc.h>
+#include <peenux/pci-epf.h>
 
 /**
  * dw_pcie_ep_get_func_from_ep - Get the struct dw_pcie_ep_func corresponding to

@@ -9,10 +9,10 @@
  * - Tomi Valkeinen <tomi.valkeinen@ideasonboard.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
 
 #include <sound/asoundef.h>
 #include <sound/core.h>

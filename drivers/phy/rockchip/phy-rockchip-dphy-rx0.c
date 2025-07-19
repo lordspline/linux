@@ -15,16 +15,16 @@
  *   Shunqian Zheng <zhengsq@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/phy-mipi-dphy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/phy/phy-mipi-dphy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define RK3399_GRF_SOC_CON9		0x6224
 #define RK3399_GRF_SOC_CON21		0x6254

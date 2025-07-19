@@ -6,7 +6,7 @@
  * Andrzej Hajda <a.hajda@samsung.com>
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <drm/bridge/mhl.h>
 #include <drm/drm_bridge.h>
@@ -14,20 +14,20 @@
 #include <drm/drm_edid.h>
 #include <drm/drm_encoder.h>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/extcon.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/extcon.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_graph.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 #include <media/rc-core.h>
 

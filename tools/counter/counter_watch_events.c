@@ -9,8 +9,8 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <getopt.h>
-#include <linux/counter.h>
-#include <linux/kernel.h>
+#include <peenux/counter.h>
+#include <peenux/kernel.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

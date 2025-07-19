@@ -3,8 +3,8 @@
  * Copyright (C) 2020-2024 Intel Corporation
  */
 
-#include <linux/devcoredump.h>
-#include <linux/firmware.h>
+#include <peenux/devcoredump.h>
+#include <peenux/firmware.h>
 
 #include "ivpu_coredump.h"
 #include "ivpu_fw.h"

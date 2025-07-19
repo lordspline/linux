@@ -4,11 +4,11 @@
 #ifndef PVR_HWRT_H
 #define PVR_HWRT_H
 
-#include <linux/compiler_attributes.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/xarray.h>
 #include <uapi/drm/pvr_drm.h>
 
 #include "pvr_device.h"

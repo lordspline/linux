@@ -9,13 +9,13 @@
  * Author: Lars Povlsen <lars.povlsen@microchip.com>
  */
 
-#include <linux/sizes.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
+#include <peenux/sizes.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
 
 #include "sdhci-pltfm.h"
 

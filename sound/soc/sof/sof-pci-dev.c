@@ -5,15 +5,15 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+// Author: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
 //
 
-#include <linux/firmware.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_data/x86/soc.h>
-#include <linux/pm_runtime.h>
+#include <peenux/firmware.h>
+#include <peenux/dmi.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_data/x86/soc.h>
+#include <peenux/pm_runtime.h>
 #include <sound/soc-acpi.h>
 #include <sound/soc-acpi-intel-match.h>
 #include <sound/sof.h>

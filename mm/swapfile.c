@@ -1,51 +1,51 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/mm/swapfile.c
+ *  peenux/mm/swapfile.c
  *
  *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  *  Swap reorganised 29.12.95, Stephen Tweedie
  */
 
-#include <linux/blkdev.h>
-#include <linux/mm.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
-#include <linux/hugetlb.h>
-#include <linux/mman.h>
-#include <linux/slab.h>
-#include <linux/kernel_stat.h>
-#include <linux/swap.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/namei.h>
-#include <linux/shmem_fs.h>
-#include <linux/blk-cgroup.h>
-#include <linux/random.h>
-#include <linux/writeback.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/ksm.h>
-#include <linux/rmap.h>
-#include <linux/security.h>
-#include <linux/backing-dev.h>
-#include <linux/mutex.h>
-#include <linux/capability.h>
-#include <linux/syscalls.h>
-#include <linux/memcontrol.h>
-#include <linux/poll.h>
-#include <linux/oom.h>
-#include <linux/swapfile.h>
-#include <linux/export.h>
-#include <linux/sort.h>
-#include <linux/completion.h>
-#include <linux/suspend.h>
-#include <linux/zswap.h>
-#include <linux/plist.h>
+#include <peenux/blkdev.h>
+#include <peenux/mm.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task.h>
+#include <peenux/hugetlb.h>
+#include <peenux/mman.h>
+#include <peenux/slab.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/swap.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pagemap.h>
+#include <peenux/namei.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/blk-cgroup.h>
+#include <peenux/random.h>
+#include <peenux/writeback.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/ksm.h>
+#include <peenux/rmap.h>
+#include <peenux/security.h>
+#include <peenux/backing-dev.h>
+#include <peenux/mutex.h>
+#include <peenux/capability.h>
+#include <peenux/syscalls.h>
+#include <peenux/memcontrol.h>
+#include <peenux/poll.h>
+#include <peenux/oom.h>
+#include <peenux/swapfile.h>
+#include <peenux/export.h>
+#include <peenux/sort.h>
+#include <peenux/completion.h>
+#include <peenux/suspend.h>
+#include <peenux/zswap.h>
+#include <peenux/plist.h>
 
 #include <asm/tlbflush.h>
-#include <linux/swapops.h>
-#include <linux/swap_cgroup.h>
+#include <peenux/swapops.h>
+#include <peenux/swap_cgroup.h>
 #include "internal.h"
 #include "swap.h"
 

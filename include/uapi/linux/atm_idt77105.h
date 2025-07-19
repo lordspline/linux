@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /* atm_idt77105.h - Driver-specific declarations of the IDT77105 driver (for
  * use by driver-specific utilities) */
 
@@ -8,9 +8,9 @@
 #ifndef LINUX_ATM_IDT77105_H
 #define LINUX_ATM_IDT77105_H
 
-#include <linux/types.h>
-#include <linux/atmioc.h>
-#include <linux/atmdev.h>
+#include <peenux/types.h>
+#include <peenux/atmioc.h>
+#include <peenux/atmdev.h>
 
 /*
  * Structure for IDT77105_GETSTAT and IDT77105_GETSTATZ ioctls.

@@ -8,10 +8,10 @@
  *		 Peter Oberparleiter <peter.oberparleiter@de.ibm.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
 #include <asm/machine.h>
 #include <asm/ccwdev.h>
 #include <asm/setup.h>

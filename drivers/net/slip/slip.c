@@ -55,40 +55,40 @@
  *					from multislip BSDI driver which was
  *					written by Igor Chechik, RELCOM Corp.
  *					Only algorithms have been ported to
- *					Linux SLIP driver.
+ *					Peenux SLIP driver.
  *	Vitaly E. Lavrov	:	Sane behaviour on tty hangup.
  *	Alexey Kuznetsov	:	Cleanup interfaces to tty & netdevice
  *					modules.
  */
 
 #define SL_CHECK_TRANSMIT
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <peenux/compat.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
 
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/sched/signal.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/if_arp.h>
-#include <linux/if_slip.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/uaccess.h>
+#include <peenux/bitops.h>
+#include <peenux/sched/signal.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/in.h>
+#include <peenux/tty.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_slip.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 #include "slip.h"
 #ifdef CONFIG_INET
-#include <linux/ip.h>
-#include <linux/tcp.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
 #include <net/slhc_vj.h>
 #endif
 

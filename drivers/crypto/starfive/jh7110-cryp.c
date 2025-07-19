@@ -9,18 +9,18 @@
 
 #include <crypto/engine.h>
 #include "jh7110-cryp.h"
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
 
 #define DRIVER_NAME             "jh7110-crypto"
 

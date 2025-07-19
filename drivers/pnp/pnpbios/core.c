@@ -32,23 +32,23 @@
  *		Removed some useless includes
  */
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/pnp.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/spinlock.h>
-#include <linux/dmi.h>
-#include <linux/delay.h>
-#include <linux/acpi.h>
-#include <linux/freezer.h>
-#include <linux/kmod.h>
-#include <linux/kthread.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/pnp.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/slab.h>
+#include <peenux/completion.h>
+#include <peenux/spinlock.h>
+#include <peenux/dmi.h>
+#include <peenux/delay.h>
+#include <peenux/acpi.h>
+#include <peenux/freezer.h>
+#include <peenux/kmod.h>
+#include <peenux/kthread.h>
 
 #include <asm/page.h>
 #include <asm/desc.h>

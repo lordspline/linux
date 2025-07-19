@@ -6,11 +6,11 @@
  * Matt Porter <mporter@kernel.crashing.org>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/rio.h>
-#include <linux/rio_ids.h>
-#include <linux/rio_drv.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/rio.h>
+#include <peenux/rio_ids.h>
+#include <peenux/rio_drv.h>
 
 #include "rio.h"
 
@@ -241,7 +241,7 @@ struct bus_type rio_bus_type = {
 /**
  *  rio_bus_init - Register the RapidIO bus with the device model
  *
- *  Registers the RIO mport device class and RIO bus type with the Linux
+ *  Registers the RIO mport device class and RIO bus type with the Peenux
  *  device model.
  */
 static int __init rio_bus_init(void)

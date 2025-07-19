@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Video capture interface for Linux version 2
+ * Video capture interface for Peenux version 2
  *
  * A generic framework to process V4L2 ioctl commands.
  *
@@ -8,16 +8,16 @@
  *              Mauro Carvalho Chehab <mchehab@kernel.org> (version 2)
  */
 
-#include <linux/compat.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/version.h>
+#include <peenux/compat.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/version.h>
 
-#include <linux/v4l2-subdev.h>
-#include <linux/videodev2.h>
+#include <peenux/v4l2-subdev.h>
+#include <peenux/videodev2.h>
 
 #include <media/media-device.h> /* for media_set_bus_info() */
 #include <media/v4l2-common.h>

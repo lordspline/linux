@@ -25,15 +25,15 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/uio.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/display/drm_dp_mst_helper.h>

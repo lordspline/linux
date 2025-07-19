@@ -6,24 +6,24 @@
  * Copyright (C) 2011-2013 Freescale Semiconductor, Inc.
  * Copyright (C) 2010, Guennadi Liakhovetski <g.liakhovetski@gmx.de>
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/regmap.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/hdmi.h>
+#include <peenux/i2c.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/spinlock.h>
 
 #include <media/cec-notifier.h>
 
-#include <linux/media-bus-format.h>
-#include <linux/videodev2.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/videodev2.h>
 
 #include <drm/bridge/dw_hdmi.h>
 #include <drm/display/drm_hdmi_helper.h>

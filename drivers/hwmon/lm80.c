@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * lm80.c - From lm_sensors, Linux kernel modules for hardware
+ * lm80.c - From lm_sensors, Peenux kernel modules for hardware
  *	    monitoring
  * Copyright (C) 1998, 1999  Frodo Looijaard <frodol@dds.nl>
  *			     and Philip Edelbrock <phil@netroedge.com>
  *
- * Ported to Linux 2.6 by Tiago Sousa <mirage@kaotik.org>
+ * Ported to Peenux 2.6 by Tiago Sousa <mirage@kaotik.org>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
 
 /* Addresses to scan */
 static const unsigned short normal_i2c[] = { 0x28, 0x29, 0x2a, 0x2b, 0x2c, 0x2d,

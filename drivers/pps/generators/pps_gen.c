@@ -7,19 +7,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/uaccess.h>
-#include <linux/idr.h>
-#include <linux/cdev.h>
-#include <linux/poll.h>
-#include <linux/fs.h>
-#include <linux/pps_gen_kernel.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/time.h>
+#include <peenux/timex.h>
+#include <peenux/uaccess.h>
+#include <peenux/idr.h>
+#include <peenux/cdev.h>
+#include <peenux/poll.h>
+#include <peenux/fs.h>
+#include <peenux/pps_gen_kernel.h>
+#include <peenux/slab.h>
 
 /*
  * Local variables

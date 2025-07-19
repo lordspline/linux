@@ -5,19 +5,19 @@
  * Copyright (C) 2012-2013, Guennadi Liakhovetski <g.liakhovetski@gmx.de>
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-device.h>
@@ -970,7 +970,7 @@ subsys_initcall(v4l2_async_init);
 module_exit(v4l2_async_exit);
 
 MODULE_AUTHOR("Guennadi Liakhovetski <g.liakhovetski@gmx.de>");
-MODULE_AUTHOR("Sakari Ailus <sakari.ailus@linux.intel.com>");
+MODULE_AUTHOR("Sakari Ailus <sakari.ailus@peenux.intel.com>");
 MODULE_AUTHOR("Ezequiel Garcia <ezequiel@collabora.com>");
 MODULE_DESCRIPTION("V4L2 asynchronous subdevice registration API");
 MODULE_LICENSE("GPL");

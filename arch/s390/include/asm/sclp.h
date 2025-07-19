@@ -6,7 +6,7 @@
 #ifndef _ASM_S390_SCLP_H
 #define _ASM_S390_SCLP_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define SCLP_CHP_INFO_MASK_SIZE		32
 #define EARLY_SCCB_SIZE		PAGE_SIZE
@@ -22,7 +22,7 @@
 #define SCLP_ERRNOTIFY_AQ_OPTICS_DATA		3
 
 #ifndef __ASSEMBLY__
-#include <linux/uio.h>
+#include <peenux/uio.h>
 #include <asm/chpid.h>
 #include <asm/cpu.h>
 

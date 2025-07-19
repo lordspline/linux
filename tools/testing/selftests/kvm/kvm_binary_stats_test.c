@@ -16,7 +16,7 @@
 
 #include "kvm_util.h"
 #include "asm/kvm.h"
-#include "linux/kvm.h"
+#include "peenux/kvm.h"
 #include "kselftest.h"
 
 static void stats_test(int stats_fd)

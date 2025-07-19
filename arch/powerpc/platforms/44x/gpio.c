@@ -9,15 +9,15 @@
  * Author: Steve Falco <sfalco@harris.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/gpio/legacy-of-mm-gpiochip.h>
-#include <linux/gpio/driver.h>
-#include <linux/types.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/gpio/legacy-of-mm-gpiochip.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
 
 #define GPIO_MASK(gpio)		(0x80000000 >> (gpio))
 #define GPIO_MASK2(gpio)	(0xc0000000 >> ((gpio) * 2))

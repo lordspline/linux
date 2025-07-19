@@ -8,10 +8,10 @@
 #ifndef _ROCKER_H
 #define _ROCKER_H
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/notifier.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/netdevice.h>
+#include <peenux/notifier.h>
 #include <net/neighbour.h>
 #include <net/switchdev.h>
 

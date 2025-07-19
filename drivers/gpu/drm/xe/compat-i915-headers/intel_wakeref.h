@@ -3,7 +3,7 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 typedef struct ref_tracker *intel_wakeref_t;
 

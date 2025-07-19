@@ -30,10 +30,10 @@
  * SOFTWARE.
  */
 
-#include <linux/hash.h>
-#include <linux/mlx5/fs.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <peenux/hash.h>
+#include <peenux/mlx5/fs.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
 #include <net/rps.h>
 #include "en.h"
 

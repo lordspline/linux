@@ -14,16 +14,16 @@
 #ifndef __FHCI_H
 #define __FHCI_H
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/bug.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/kfifo.h>
-#include <linux/io.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/bug.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/kfifo.h>
+#include <peenux/io.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/gpio/consumer.h>
 #include <soc/fsl/qe/qe.h>
 #include <soc/fsl/qe/immap_qe.h>
 

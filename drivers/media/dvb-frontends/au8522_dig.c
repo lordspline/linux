@@ -7,11 +7,11 @@
 
 */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
 #include <media/dvb_frontend.h>
 #include "au8522.h"
 #include "au8522_priv.h"

@@ -6,11 +6,11 @@
  *	Copyright (C) IBM Corporation, 2004. All rights reserved
  */
 
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/highmem.h>
-#include <linux/crash_dump.h>
-#include <linux/uio.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/highmem.h>
+#include <peenux/crash_dump.h>
+#include <peenux/uio.h>
 
 static inline bool is_crashed_pfn_valid(unsigned long pfn)
 {

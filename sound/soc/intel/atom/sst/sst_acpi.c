@@ -8,16 +8,16 @@
  *  Authors:	Omair Mohammed Abdullah <omair.m.abdullah@intel.com>
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/firmware.h>
-#include <linux/pm_qos.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/firmware.h>
+#include <peenux/pm_qos.h>
+#include <peenux/dmi.h>
+#include <peenux/acpi.h>
 #include <asm/platform_sst_audio.h>
 #include <sound/core.h>
 #include <sound/intel-dsp-config.h>

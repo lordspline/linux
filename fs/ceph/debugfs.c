@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/math64.h>
-#include <linux/ktime.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/ctype.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/math64.h>
+#include <peenux/ktime.h>
 
-#include <linux/ceph/libceph.h>
-#include <linux/ceph/mon_client.h>
-#include <linux/ceph/auth.h>
-#include <linux/ceph/debugfs.h>
+#include <peenux/ceph/libceph.h>
+#include <peenux/ceph/mon_client.h>
+#include <peenux/ceph/auth.h>
+#include <peenux/ceph/debugfs.h>
 
 #include "super.h"
 

@@ -4,12 +4,12 @@
  *   Portions Copyright (C) Christoph Hellwig, 2001-2002
  */
 
-#include <linux/fs.h>
-#include <linux/ctype.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/ctype.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/uaccess.h>
 #include "jfs_incore.h"
 #include "jfs_filsys.h"
 #include "jfs_debug.h"

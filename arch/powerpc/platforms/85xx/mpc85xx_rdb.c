@@ -5,16 +5,16 @@
  * Copyright 2009,2012-2013 Freescale Semiconductor Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/fsl/guts.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/kdev_t.h>
+#include <peenux/delay.h>
+#include <peenux/seq_file.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/fsl/guts.h>
 
 #include <asm/time.h>
 #include <asm/machdep.h>

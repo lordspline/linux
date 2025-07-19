@@ -2,13 +2,13 @@
 /*
  * Copyright (C) 2012 Sascha Hauer, Pengutronix <s.hauer@pengutronix.de>
  */
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/clkdev.h>
-#include <linux/of.h>
-#include <linux/err.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/clkdev.h>
+#include <peenux/of.h>
+#include <peenux/err.h>
 #include <soc/imx/revision.h>
 #include <asm/irq.h>
 

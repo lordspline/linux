@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /*
  * Copyright (c) 2004-2007 Intel Corporation.  All rights reserved.
  * Copyright (c) 2004 Topspin Corporation.  All rights reserved.
@@ -7,21 +7,21 @@
  * Copyright (c) 2019, Mellanox Technologies inc.  All rights reserved.
  */
 
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/random.h>
-#include <linux/rbtree.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/workqueue.h>
-#include <linux/kdev_t.h>
-#include <linux/etherdevice.h>
+#include <peenux/completion.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/random.h>
+#include <peenux/rbtree.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/workqueue.h>
+#include <peenux/kdev_t.h>
+#include <peenux/etherdevice.h>
 
 #include <rdma/ib_cache.h>
 #include <rdma/ib_cm.h>

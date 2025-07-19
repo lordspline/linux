@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef _ASM_S390_BOOT_DATA_H
 
-#include <linux/string.h>
+#include <peenux/string.h>
 #include <asm/setup.h>
 #include <asm/ipl.h>
 

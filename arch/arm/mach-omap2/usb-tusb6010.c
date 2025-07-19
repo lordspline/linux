@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap2/usb-tusb6010.c
+ * peenux/arch/arm/mach-omap2/usb-tusb6010.c
  *
  * Copyright (C) 2006 Nokia Corporation
  */
 
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/export.h>
-#include <linux/platform_data/usb-omap.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/export.h>
+#include <peenux/platform_data/usb-omap.h>
 
-#include <linux/usb/musb.h>
+#include <peenux/usb/musb.h>
 
 #include "usb-tusb6010.h"
 #include "gpmc.h"

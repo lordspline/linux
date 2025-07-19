@@ -8,14 +8,14 @@
  * Copyright (C) 2015 STMicroelectronics (R&D) Limited
  */
 
-#include <linux/cpu.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/regmap.h>
+#include <peenux/cpu.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/regmap.h>
 
 #define VERSION_ELEMENTS	3
 #define MAX_PCODE_NAME_LEN	16

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/time.h>
-#include <linux/spinlock.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/percpu.h>
+#include <peenux/preempt.h>
+#include <peenux/time.h>
+#include <peenux/spinlock.h>
 
 #include "eytzinger.h"
 #include "time_stats.h"

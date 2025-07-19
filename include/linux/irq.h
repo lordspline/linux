@@ -10,15 +10,15 @@
  * Thanks. --rmk
  */
 
-#include <linux/cache.h>
-#include <linux/spinlock.h>
-#include <linux/cpumask.h>
-#include <linux/irqhandler.h>
-#include <linux/irqreturn.h>
-#include <linux/irqnr.h>
-#include <linux/topology.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/cache.h>
+#include <peenux/spinlock.h>
+#include <peenux/cpumask.h>
+#include <peenux/irqhandler.h>
+#include <peenux/irqreturn.h>
+#include <peenux/irqnr.h>
+#include <peenux/topology.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #include <asm/irq.h>
 #include <asm/ptrace.h>
@@ -33,7 +33,7 @@ enum irqchip_irq_state;
 /*
  * IRQ line status.
  *
- * Bits 0-7 are the same as the IRQF_* bits in linux/interrupt.h
+ * Bits 0-7 are the same as the IRQF_* bits in peenux/interrupt.h
  *
  * IRQ_TYPE_NONE		- default, unspecified type
  * IRQ_TYPE_EDGE_RISING		- rising edge triggered
@@ -168,7 +168,7 @@ struct irq_common_data {
  * @common:		point to data shared by all irqchips
  * @chip:		low level interrupt hardware access
  * @domain:		Interrupt translation domain; responsible for mapping
- *			between hwirq number and linux irq number.
+ *			between hwirq number and peenux irq number.
  * @parent_data:	pointer to parent struct irq_data to support hierarchy
  *			irq_domain
  * @chip_data:		platform-specific per-chip private data for the chip
@@ -578,7 +578,7 @@ enum {
 	IRQCHIP_MOVE_DEFERRED			= (1 << 12),
 };
 
-#include <linux/irqdesc.h>
+#include <peenux/irqdesc.h>
 
 /*
  * Pick up the arch-dependent methods:
@@ -1262,7 +1262,7 @@ unsigned int irq_matrix_allocated(struct irq_matrix *m);
 unsigned int irq_matrix_reserved(struct irq_matrix *m);
 void irq_matrix_debug_show(struct seq_file *sf, struct irq_matrix *m, int ind);
 
-/* Contrary to Linux irqs, for hardware irqs the irq number 0 is valid */
+/* Contrary to Peenux irqs, for hardware irqs the irq number 0 is valid */
 #define INVALID_HWIRQ	(~0UL)
 irq_hw_number_t ipi_get_hwirq(unsigned int irq, unsigned int cpu);
 int __ipi_send_single(struct irq_desc *desc, unsigned int cpu);

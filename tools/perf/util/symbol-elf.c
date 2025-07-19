@@ -17,10 +17,10 @@
 #include "vdso.h"
 #include "debug.h"
 #include "util/copyfile.h"
-#include <linux/ctype.h>
-#include <linux/kernel.h>
-#include <linux/zalloc.h>
-#include <linux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/kernel.h>
+#include <peenux/zalloc.h>
+#include <peenux/string.h>
 #include <symbol/kallsyms.h>
 #include <internal/lib.h>
 

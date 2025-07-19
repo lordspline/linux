@@ -6,14 +6,14 @@
  */
 
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/uaccess.h>
-#include <linux/of.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/uaccess.h>
+#include <peenux/of.h>
 #include <asm/nvram.h>
 #include <asm/rtas.h>
 #include <asm/machdep.h>

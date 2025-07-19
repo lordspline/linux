@@ -8,7 +8,7 @@
  *  Re-organised Feb 1998 Russell King
  */
 
-#include <linux/ctype.h>
+#include <peenux/ctype.h>
 #include "check.h"
 #include "atari.h"
 

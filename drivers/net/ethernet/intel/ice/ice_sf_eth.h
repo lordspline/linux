@@ -4,7 +4,7 @@
 #ifndef _ICE_SF_ETH_H_
 #define _ICE_SF_ETH_H_
 
-#include <linux/auxiliary_bus.h>
+#include <peenux/auxiliary_bus.h>
 #include "ice.h"
 
 struct ice_sf_dev {

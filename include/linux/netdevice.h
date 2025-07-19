@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -16,39 +16,39 @@
  *		Bjorn Ekwall. <bj0rn@blox.se>
  *              Pekka Riikonen <priikone@poseidon.pspt.fi>
  *
- *		Moved to /usr/include/linux for NET3
+ *		Moved to /usr/include/peenux for NET3
  */
 #ifndef _LINUX_NETDEVICE_H
 #define _LINUX_NETDEVICE_H
 
-#include <linux/timer.h>
-#include <linux/bug.h>
-#include <linux/delay.h>
-#include <linux/atomic.h>
-#include <linux/prefetch.h>
+#include <peenux/timer.h>
+#include <peenux/bug.h>
+#include <peenux/delay.h>
+#include <peenux/atomic.h>
+#include <peenux/prefetch.h>
 #include <asm/cache.h>
 #include <asm/byteorder.h>
 #include <asm/local.h>
 
-#include <linux/percpu.h>
-#include <linux/rculist.h>
-#include <linux/workqueue.h>
-#include <linux/dynamic_queue_limits.h>
+#include <peenux/percpu.h>
+#include <peenux/rculist.h>
+#include <peenux/workqueue.h>
+#include <peenux/dynamic_queue_limits.h>
 
 #include <net/net_namespace.h>
 #ifdef CONFIG_DCB
 #include <net/dcbnl.h>
 #endif
 #include <net/netprio_cgroup.h>
-#include <linux/netdev_features.h>
-#include <linux/neighbour.h>
-#include <linux/netdevice_xmit.h>
-#include <uapi/linux/netdevice.h>
-#include <uapi/linux/if_bonding.h>
-#include <uapi/linux/pkt_cls.h>
-#include <uapi/linux/netdev.h>
-#include <linux/hashtable.h>
-#include <linux/rbtree.h>
+#include <peenux/netdev_features.h>
+#include <peenux/neighbour.h>
+#include <peenux/netdevice_xmit.h>
+#include <uapi/peenux/netdevice.h>
+#include <uapi/peenux/if_bonding.h>
+#include <uapi/peenux/pkt_cls.h>
+#include <uapi/peenux/netdev.h>
+#include <peenux/hashtable.h>
+#include <peenux/rbtree.h>
 #include <net/net_trackers.h>
 #include <net/net_debug.h>
 #include <net/dropreason-core.h>
@@ -227,8 +227,8 @@ struct net_device_core_stats {
 	unsigned long	rx_otherhost_dropped;
 } __aligned(4 * sizeof(unsigned long));
 
-#include <linux/cache.h>
-#include <linux/skbuff.h>
+#include <peenux/cache.h>
+#include <peenux/skbuff.h>
 
 struct neighbour;
 struct neigh_parms;
@@ -3097,7 +3097,7 @@ struct netdev_lag_lower_state_info {
 	   tx_enabled : 1;
 };
 
-#include <linux/notifier.h>
+#include <peenux/notifier.h>
 
 /* netdevice notifier chain. Please remember to update netdev_cmd_to_name()
  * and the rtnetlink notification exclusion list in rtnetlink_event() when

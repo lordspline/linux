@@ -30,7 +30,7 @@
 #include <nvhw/class/cl507e.h>
 #include <nvhw/class/clc37e.h>
 
-#include <linux/iosys-map.h>
+#include <peenux/iosys-map.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

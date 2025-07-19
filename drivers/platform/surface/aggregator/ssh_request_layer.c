@@ -5,20 +5,20 @@
  * Copyright (C) 2019-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/atomic.h>
-#include <linux/completion.h>
-#include <linux/error-injection.h>
-#include <linux/ktime.h>
-#include <linux/limits.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/unaligned.h>
+#include <peenux/atomic.h>
+#include <peenux/completion.h>
+#include <peenux/error-injection.h>
+#include <peenux/ktime.h>
+#include <peenux/limits.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
-#include <linux/surface_aggregator/serial_hub.h>
-#include <linux/surface_aggregator/controller.h>
+#include <peenux/surface_aggregator/serial_hub.h>
+#include <peenux/surface_aggregator/controller.h>
 
 #include "ssh_packet_layer.h"
 #include "ssh_request_layer.h"

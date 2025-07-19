@@ -4,29 +4,29 @@
  * Copyright (C) 2009, 2010, 2011 Red Hat, Inc.
  * Copyright (C) 2009, 2010, 2011 Amit Shah <amit.shah@redhat.com>
  */
-#include <linux/cdev.h>
-#include <linux/debugfs.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/freezer.h>
-#include <linux/fs.h>
-#include <linux/splice.h>
-#include <linux/pagemap.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/virtio.h>
-#include <linux/virtio_console.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/string_choices.h>
+#include <peenux/cdev.h>
+#include <peenux/debugfs.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/freezer.h>
+#include <peenux/fs.h>
+#include <peenux/splice.h>
+#include <peenux/pagemap.h>
+#include <peenux/idr.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_console.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/string_choices.h>
 #include "../tty/hvc/hvc_console.h"
 
 #define is_rproc_enabled IS_ENABLED(CONFIG_REMOTEPROC)

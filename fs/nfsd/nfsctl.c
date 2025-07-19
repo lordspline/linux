@@ -5,20 +5,20 @@
  * Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/slab.h>
-#include <linux/namei.h>
-#include <linux/ctype.h>
-#include <linux/fs_context.h>
+#include <peenux/slab.h>
+#include <peenux/namei.h>
+#include <peenux/ctype.h>
+#include <peenux/fs_context.h>
 
-#include <linux/sunrpc/svcsock.h>
-#include <linux/lockd/lockd.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/gss_api.h>
-#include <linux/sunrpc/rpc_pipe_fs.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/module.h>
-#include <linux/fsnotify.h>
-#include <linux/nfslocalio.h>
+#include <peenux/sunrpc/svcsock.h>
+#include <peenux/lockd/lockd.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/sunrpc/gss_api.h>
+#include <peenux/sunrpc/rpc_pipe_fs.h>
+#include <peenux/sunrpc/svc.h>
+#include <peenux/module.h>
+#include <peenux/fsnotify.h>
+#include <peenux/nfslocalio.h>
 
 #include "idmap.h"
 #include "nfsd.h"

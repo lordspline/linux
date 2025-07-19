@@ -5,11 +5,11 @@
  * Copyright (c) 2003-2016, Intel Corporation.
  */
 
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
 #include <asm/cacheflush.h>
 #include "hbm.h"
 #include "client.h"

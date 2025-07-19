@@ -11,15 +11,15 @@
  */
 
 #include "cx231xx.h"
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/bitmap.h>
-#include <linux/i2c.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/bitmap.h>
+#include <peenux/i2c.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

@@ -5,11 +5,11 @@
  * Copyright (C) 2023 Arm Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/pinctrl/pinctrl.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/pinctrl/pinctrl.h>
 
 #include "pinctrl-sunxi.h"
 

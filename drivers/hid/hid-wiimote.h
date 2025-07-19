@@ -10,16 +10,16 @@
 /*
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/power_supply.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/input.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/power_supply.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
 
 #define WIIMOTE_NAME "Nintendo Wii Remote"
 #define WIIMOTE_BUFSIZE 32

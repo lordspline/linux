@@ -5,7 +5,7 @@
  * Copyright (c) 2021, Intel Corporation.
  * All Rights Reserved.
  *
- * Author: David E. Box <david.e.box@linux.intel.com>
+ * Author: David E. Box <david.e.box@peenux.intel.com>
  *
  * This driver discovers and creates auxiliary devices for Intel defined PCIe
  * "Vendor Specific" and "Designated Vendor Specific" Extended Capabilities,
@@ -13,16 +13,16 @@
  * endpoints that exist primarily to expose them.
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/intel_vsec.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/idr.h>
+#include <peenux/intel_vsec.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/types.h>
 
 #define PMT_XA_START			0
 #define PMT_XA_MAX			INT_MAX
@@ -516,6 +516,6 @@ static struct pci_driver intel_vsec_pci_driver = {
 };
 module_pci_driver(intel_vsec_pci_driver);
 
-MODULE_AUTHOR("David E. Box <david.e.box@linux.intel.com>");
+MODULE_AUTHOR("David E. Box <david.e.box@peenux.intel.com>");
 MODULE_DESCRIPTION("Intel Extended Capabilities auxiliary bus driver");
 MODULE_LICENSE("GPL v2");

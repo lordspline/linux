@@ -4,17 +4,17 @@
  * Author: Chi-Fang Li <cfli0@nuvoton.com>
  */
 
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/reset-controller.h>
-#include <linux/spinlock.h>
+#include <peenux/bits.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/reset-controller.h>
+#include <peenux/spinlock.h>
 #include <dt-bindings/reset/nuvoton,ma35d1-reset.h>
 
 struct ma35d1_reset_data {

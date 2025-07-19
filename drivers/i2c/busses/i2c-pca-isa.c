@@ -5,19 +5,19 @@
  *    Copyright (C) 2008 Pengutronix
  */
 
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/wait.h>
-#include <linux/isa.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-pca.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/wait.h>
+#include <peenux/isa.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-pca.h>
+#include <peenux/io.h>
 
 #include <asm/irq.h>
 

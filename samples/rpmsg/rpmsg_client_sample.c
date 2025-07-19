@@ -9,9 +9,9 @@
  * Brian Swetland <swetland@google.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/rpmsg.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/rpmsg.h>
 
 #define MSG		"hello world!"
 

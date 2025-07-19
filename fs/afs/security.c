@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/ctype.h>
-#include <linux/sched.h>
-#include <linux/hashtable.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/ctype.h>
+#include <peenux/sched.h>
+#include <peenux/hashtable.h>
 #include <keys/rxrpc-type.h>
 #include "internal.h"
 

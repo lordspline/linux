@@ -7,20 +7,20 @@
  * Author: Mattias Wallin <mattias.wallin@stericsson.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/abx500.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/mfd/dbx500-prcmu.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/abx500.h>
+#include <peenux/mfd/abx500/ab8500.h>
+#include <peenux/mfd/dbx500-prcmu.h>
+#include <peenux/of.h>
 
 /*
  * Interrupt register offsets
@@ -126,7 +126,7 @@ static u8 turn_on_stat_set;
 /*
  * Map interrupt numbers to the LATCH and MASK register offsets, Interrupt
  * numbers are indexed into this array with (num / 8). The interupts are
- * defined in linux/mfd/ab8500.h
+ * defined in peenux/mfd/ab8500.h
  *
  * This is one off from the register names, i.e. AB8500_IT_MASK1_REG is at
  * offset 0.
@@ -475,7 +475,7 @@ static int ab8500_handle_hierarchical_line(struct ab8500 *ab8500,
 		 * This handles the falling edge hwirqs from the GPIO
 		 * lines. Route them back to the line registered for the
 		 * rising IRQ, as this is merely a flag for the same IRQ
-		 * in linux terms.
+		 * in peenux terms.
 		 */
 		if (line >= AB8500_INT_GPIO6F && line <= AB8500_INT_GPIO41F)
 			line -= 16;

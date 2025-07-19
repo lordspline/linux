@@ -8,13 +8,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
 #include <asm/div64.h>
 #include <media/dvb_frontend.h>
 #include "dst_priv.h"
@@ -1122,7 +1122,7 @@ static int dst_get_device_id(struct dst_state *state)
 
 	if (i >= ARRAY_SIZE(dst_tlist)) {
 		pr_err("Unable to recognize %s or %s\n", &state->rxbuffer[0], &state->rxbuffer[1]);
-		pr_err("please email linux-dvb@linuxtv.org with this type in");
+		pr_err("please email peenux-dvb@linuxtv.org with this type in");
 		use_dst_type = DST_TYPE_IS_SAT;
 		use_type_flags = DST_TYPE_HAS_SYMDIV;
 	}

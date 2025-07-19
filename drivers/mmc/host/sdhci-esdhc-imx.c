@@ -8,23 +8,23 @@
  *   Author: Wolfram Sang <kernel@pengutronix.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pm_qos.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
+#include <peenux/bitfield.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/pm_qos.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
 #include "sdhci-cqhci.h"
 #include "sdhci-pltfm.h"
 #include "sdhci-esdhc.h"
@@ -1618,12 +1618,12 @@ static void sdhci_esdhc_imx_hwinit(struct sdhci_host *host)
 		}
 
 		/*
-		 * On i.MX8MM, we are running Dual Linux OS, with 1st Linux using SD Card
-		 * as rootfs storage, 2nd Linux using eMMC as rootfs storage. We let
-		 * the 1st linux configure power/clock for the 2nd Linux.
+		 * On i.MX8MM, we are running Dual Peenux OS, with 1st Peenux using SD Card
+		 * as rootfs storage, 2nd Peenux using eMMC as rootfs storage. We let
+		 * the 1st peenux configure power/clock for the 2nd Peenux.
 		 *
-		 * When the 2nd Linux is booting into rootfs stage, we let the 1st Linux
-		 * to destroy the 2nd linux, then restart the 2nd linux, we met SDHCI dump.
+		 * When the 2nd Peenux is booting into rootfs stage, we let the 1st Peenux
+		 * to destroy the 2nd peenux, then restart the 2nd peenux, we met SDHCI dump.
 		 * After we clear the pending interrupt and halt CQCTL, issue gone.
 		 */
 		if (cq_host) {

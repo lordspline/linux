@@ -8,8 +8,8 @@
 #ifndef _LINUX_ASN1_DECODER_H
 #define _LINUX_ASN1_DECODER_H
 
-#include <linux/asn1.h>
-#include <linux/types.h>
+#include <peenux/asn1.h>
+#include <peenux/types.h>
 
 struct asn1_decoder;
 

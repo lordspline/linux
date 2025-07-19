@@ -6,9 +6,9 @@
  * Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/gcd.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/gcd.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "adau-utils.h"
 

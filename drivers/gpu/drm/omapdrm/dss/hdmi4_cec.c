@@ -8,16 +8,16 @@
  * Authors: Yong Zhi
  *	Mythri pk <mythripk@ti.com>
  *
- * Heavily modified to use the linux CEC framework:
+ * Heavily modified to use the peenux CEC framework:
  *
  * Copyright 2016-2017 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "dss.h"
 #include "hdmi.h"

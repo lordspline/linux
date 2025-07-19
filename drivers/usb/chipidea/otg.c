@@ -12,9 +12,9 @@
  * are also included.
  */
 
-#include <linux/usb/otg.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/chipidea.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/chipidea.h>
 
 #include "ci.h"
 #include "bits.h"

@@ -9,9 +9,9 @@
 /*
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
 
 #include "hid-ids.h"
 
@@ -39,7 +39,7 @@
  * keys. This code generates a lookup table that makes
  * translation quick.
  *
- * #include <linux/input.h>
+ * #include <peenux/input.h>
  * #include <stdio.h>
  * #include <assert.h>
  *

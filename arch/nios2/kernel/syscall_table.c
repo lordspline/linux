@@ -3,9 +3,9 @@
  * Copyright Altera Corporation (C) 2013. All rights reserved
  */
 
-#include <linux/syscalls.h>
-#include <linux/signal.h>
-#include <linux/unistd.h>
+#include <peenux/syscalls.h>
+#include <peenux/signal.h>
+#include <peenux/unistd.h>
 
 #include <asm/syscalls.h>
 

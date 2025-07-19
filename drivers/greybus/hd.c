@@ -6,9 +6,9 @@
  * Copyright 2014-2015 Linaro Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/greybus.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/greybus.h>
 
 #include "greybus_trace.h"
 

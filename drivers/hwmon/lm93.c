@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * lm93.c - Part of lm_sensors, Linux kernel modules for hardware monitoring
+ * lm93.c - Part of lm_sensors, Peenux kernel modules for hardware monitoring
  *
  * Author/Maintainer: Mark M. Hoffman <mhoffman@lightlink.com>
  *	Copyright (c) 2004 Utilitek Systems, Inc.
@@ -15,7 +15,7 @@
  * derived in part from w83l785ts.c:
  *	Copyright (c) 2003-2004 Jean Delvare <jdelvare@suse.de>
  *
- * Ported to Linux 2.6 by Eric J. Bowersox <ericb@aspsys.com>
+ * Ported to Peenux 2.6 by Eric J. Bowersox <ericb@aspsys.com>
  *	Copyright (c) 2005 Aspen Systems, Inc.
  *
  * Adapted to 2.6.20 by Carsten Emde <cbe@osadl.org>
@@ -25,16 +25,16 @@
  *	Copyright (c) 2007 Hans J. Koch, Linutronix GmbH
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon-vid.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/hwmon-vid.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
 
 /* LM93 REGISTER ADDRESSES */
 

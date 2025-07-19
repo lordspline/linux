@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/parisc/mm/init.c
+ *  peenux/arch/parisc/mm/init.c
  *
  *  Copyright (C) 1995	Linus Torvalds
  *  Copyright 1999 SuSE GmbH
@@ -12,19 +12,19 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/gfp.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/initrd.h>
-#include <linux/swap.h>
-#include <linux/unistd.h>
-#include <linux/nodemask.h>	/* for node_online_map */
-#include <linux/pagemap.h>	/* for release_pages */
-#include <linux/compat.h>
-#include <linux/execmem.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/gfp.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/initrd.h>
+#include <peenux/swap.h>
+#include <peenux/unistd.h>
+#include <peenux/nodemask.h>	/* for node_online_map */
+#include <peenux/pagemap.h>	/* for release_pages */
+#include <peenux/compat.h>
+#include <peenux/execmem.h>
 
 #include <asm/pgalloc.h>
 #include <asm/tlb.h>
@@ -610,7 +610,7 @@ EXPORT_SYMBOL(empty_zero_page);
 /*
  * pagetable_init() sets up the page tables
  *
- * Note that gateway_init() places the Linux gateway page at page 0.
+ * Note that gateway_init() places the Peenux gateway page at page 0.
  * Since gateway pages cannot be dereferenced this has the desirable
  * side effect of trapping those pesky NULL-reference errors in the
  * kernel.
@@ -654,9 +654,9 @@ static void __init gateway_init(void)
 	linux_gateway_page_addr = LINUX_GATEWAY_ADDR & PAGE_MASK;
 
 	/*
-	 * Setup Linux Gateway page.
+	 * Setup Peenux Gateway page.
 	 *
-	 * The Linux gateway page will reside in kernel space (on virtual
+	 * The Peenux gateway page will reside in kernel space (on virtual
 	 * page 0), so it doesn't need to be aliased into user space.
 	 */
 

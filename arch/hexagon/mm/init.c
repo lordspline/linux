@@ -2,14 +2,14 @@
 /*
  * Memory subsystem initialization for Hexagon
  *
- * Copyright (c) 2010-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
 #include <asm/atomic.h>
-#include <linux/highmem.h>
+#include <peenux/highmem.h>
 #include <asm/tlb.h>
 #include <asm/sections.h>
 #include <asm/setup.h>

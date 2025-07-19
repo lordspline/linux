@@ -7,18 +7,18 @@
  * Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/reset/reset-simple.h>
-#include <linux/reset/sunxi.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/reset/reset-simple.h>
+#include <peenux/reset/sunxi.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 static int sunxi_reset_init(struct device_node *np)
 {

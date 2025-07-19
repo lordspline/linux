@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (C) 2022 Hewlett-Packard Enterprise Development Company, L.P. */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 
 #define GXP_MAX_I2C_ENGINE 10
 static const char * const gxp_i2c_name[] = {

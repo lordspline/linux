@@ -16,7 +16,7 @@ userspace ("scancode mode"). Other boards return just the pulse/space
 sequences ("raw mode").
 
 The support for remote controller in scancode mode is provided by the
-standard Linux input layer. The support for raw mode is provided via LIRC.
+standard Peenux input layer. The support for raw mode is provided via LIRC.
 
 In order to check the support and test it, it is suggested to download
 the `v4l-utils <https://git.linuxtv.org/v4l-utils.git/>`_. It provides
@@ -36,7 +36,7 @@ ir-kbd-i2c module.
 How it works
 ============
 
-The modules register the remote as keyboard within the linux input
+The modules register the remote as keyboard within the peenux input
 layer, i.e. you'll see the keys of the remote as normal key strokes
 (if CONFIG_INPUT_KEYBOARD is enabled).
 
@@ -59,7 +59,7 @@ Using with lircd
 ----------------
 
 The latest versions of the lircd daemon supports reading events from the
-linux input layer (via event device). It also supports receiving IR codes
+peenux input layer (via event device). It also supports receiving IR codes
 in lirc mode.
 
 

@@ -8,25 +8,25 @@
  *
  *  Started by: Thomas Gleixner and Ingo Molnar
  */
-#include <linux/compiler.h>
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/percpu.h>
-#include <linux/nmi.h>
-#include <linux/profile.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/stat.h>
-#include <linux/sched/nohz.h>
-#include <linux/sched/loadavg.h>
-#include <linux/module.h>
-#include <linux/irq_work.h>
-#include <linux/posix-timers.h>
-#include <linux/context_tracking.h>
-#include <linux/mm.h>
+#include <peenux/compiler.h>
+#include <peenux/cpu.h>
+#include <peenux/err.h>
+#include <peenux/hrtimer.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/percpu.h>
+#include <peenux/nmi.h>
+#include <peenux/profile.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/stat.h>
+#include <peenux/sched/nohz.h>
+#include <peenux/sched/loadavg.h>
+#include <peenux/module.h>
+#include <peenux/irq_work.h>
+#include <peenux/posix-timers.h>
+#include <peenux/context_tracking.h>
+#include <peenux/mm.h>
 
 #include <asm/irq_regs.h>
 

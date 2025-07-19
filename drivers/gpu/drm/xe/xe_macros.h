@@ -6,7 +6,7 @@
 #ifndef _XE_MACROS_H_
 #define _XE_MACROS_H_
 
-#include <linux/bug.h>
+#include <peenux/bug.h>
 
 #define XE_WARN_ON WARN_ON
 

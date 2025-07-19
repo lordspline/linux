@@ -26,7 +26,7 @@
 #include <list.h>
 #include <xalloc.h>
 #include "modpost.h"
-#include "../../include/linux/license.h"
+#include "../../include/peenux/license.h"
 
 #define MODULE_NS_PREFIX "module:"
 
@@ -68,7 +68,7 @@ bool host_is_big_endian;
 #define MAX_UNRESOLVED_REPORTS	10
 static unsigned int nr_unresolved;
 
-/* In kernel, this size is defined in linux/module.h;
+/* In kernel, this size is defined in peenux/module.h;
  * here we use Elf_Addr instead of long for covering cross-compile
  */
 
@@ -769,7 +769,7 @@ static void check_section(const char *modname, struct elf_info *elf,
 	    !match(sec, section_white_list)) {
 		warn("%s (%s): unexpected non-allocatable section.\n"
 		     "Did you forget to use \"ax\"/\"aw\" in a .S file?\n"
-		     "Note that for example <linux/init.h> contains\n"
+		     "Note that for example <peenux/init.h> contains\n"
 		     "section definitions for use in .S files.\n\n",
 		     modname, sec);
 	}
@@ -1824,9 +1824,9 @@ static void check_modname_len(struct module *mod)
  **/
 static void add_header(struct buffer *b, struct module *mod)
 {
-	buf_printf(b, "#include <linux/module.h>\n");
-	buf_printf(b, "#include <linux/export-internal.h>\n");
-	buf_printf(b, "#include <linux/compiler.h>\n");
+	buf_printf(b, "#include <peenux/module.h>\n");
+	buf_printf(b, "#include <peenux/export-internal.h>\n");
+	buf_printf(b, "#include <peenux/compiler.h>\n");
 	buf_printf(b, "\n");
 	buf_printf(b, "MODULE_INFO(name, KBUILD_MODNAME);\n");
 	buf_printf(b, "\n");
@@ -2069,7 +2069,7 @@ static void write_vmlinux_export_c_file(struct module *mod)
 	struct buffer buf = { };
 
 	buf_printf(&buf,
-		   "#include <linux/export-internal.h>\n");
+		   "#include <peenux/export-internal.h>\n");
 
 	add_exported_symbols(&buf, mod);
 	write_if_changed(&buf, ".vmlinux.export.c");

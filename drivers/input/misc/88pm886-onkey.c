@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/88pm886.h>
+#include <peenux/mfd/88pm886.h>
 
 struct pm886_onkey {
 	struct input_dev *idev;

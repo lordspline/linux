@@ -4,8 +4,8 @@
 //
 // Copyright (C) 2013 Linaro Ltd
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
 #include <sound/soc.h>
 #include <sound/dmaengine_pcm.h>
 

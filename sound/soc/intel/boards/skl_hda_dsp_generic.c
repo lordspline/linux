@@ -5,8 +5,8 @@
  * Machine Driver for SKL+ platforms with DSP and iDisp, HDA Codecs
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 #include <sound/core.h>
 #include <sound/hda_codec.h>
 #include <sound/jack.h>

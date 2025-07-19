@@ -12,12 +12,12 @@
 
 #undef DEBUG
 
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/root_dev.h>
-#include <linux/initrd.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/root_dev.h>
+#include <peenux/initrd.h>
 #include <asm/time.h>
 #include <asm/io.h>
 #include <asm/machdep.h>

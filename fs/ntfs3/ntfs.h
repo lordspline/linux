@@ -10,12 +10,12 @@
 #ifndef _LINUX_NTFS3_NTFS_H
 #define _LINUX_NTFS3_NTFS_H
 
-#include <linux/blkdev.h>
-#include <linux/build_bug.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/blkdev.h>
+#include <peenux/build_bug.h>
+#include <peenux/kernel.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "debug.h"
 

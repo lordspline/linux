@@ -7,7 +7,7 @@
  * PCI card device.
  */
 
-#include <linux/device.h>
+#include <peenux/device.h>
 #include "mgb4_core.h"
 #include "mgb4_sysfs.h"
 

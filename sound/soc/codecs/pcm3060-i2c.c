@@ -4,8 +4,8 @@
 //
 // Copyright (C) 2018 Kirill Marinushkin <k.marinushkin@gmail.com>
 
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
 #include <sound/soc.h>
 
 #include "pcm3060.h"

@@ -17,12 +17,12 @@
  * Released under the GPLv2 only.
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/usb.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/usb.h>
 
 #include "usb.h"
 

@@ -3,11 +3,11 @@
  * Copyright 2018 Noralf Trønnes
  */
 
-#include <linux/iosys-map.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/iosys-map.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_client.h>
 #include <drm/drm_device.h>

@@ -14,7 +14,7 @@
 #include "progress.h"
 #include "recovery_passes.h"
 
-#include <linux/mm.h>
+#include <peenux/mm.h>
 
 static int bch2_bucket_bitmap_set(struct bch_dev *, struct bucket_bitmap *, u64);
 

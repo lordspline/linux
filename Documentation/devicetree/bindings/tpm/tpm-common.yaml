@@ -20,12 +20,12 @@ properties:
   label:
     description: human readable string describing the device, e.g. "tpm"
 
-  linux,sml-base:
+  peenux,sml-base:
     description:
       base address of reserved memory allocated for firmware event log
     $ref: /schemas/types.yaml#/definitions/uint64
 
-  linux,sml-size:
+  peenux,sml-size:
     description:
       size of reserved memory allocated for firmware event log
     $ref: /schemas/types.yaml#/definitions/uint32
@@ -48,18 +48,18 @@ properties:
     description: Output GPIO pin to reset the TPM
     maxItems: 1
 
-# must always have both linux,sml-base and linux,sml-size
+# must always have both peenux,sml-base and peenux,sml-size
 dependentRequired:
-  linux,sml-base: ['linux,sml-size']
-  linux,sml-size: ['linux,sml-base']
+  peenux,sml-base: ['peenux,sml-size']
+  peenux,sml-size: ['peenux,sml-base']
 
-# must only have either memory-region or linux,sml-base
+# must only have either memory-region or peenux,sml-base
 # as well as either resets or reset-gpios
 dependentSchemas:
   memory-region:
     properties:
-      linux,sml-base: false
-  linux,sml-base:
+      peenux,sml-base: false
+  peenux,sml-base:
     properties:
       memory-region: false
   resets:

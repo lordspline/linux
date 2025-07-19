@@ -1,16 +1,16 @@
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/err.h>
-#include <linux/irq_work.h>
-#include <linux/slab.h>
-#include <linux/filter.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
-#include <linux/poll.h>
-#include <linux/kmemleak.h>
-#include <uapi/linux/btf.h>
-#include <linux/btf_ids.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/err.h>
+#include <peenux/irq_work.h>
+#include <peenux/slab.h>
+#include <peenux/filter.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/wait.h>
+#include <peenux/poll.h>
+#include <peenux/kmemleak.h>
+#include <uapi/peenux/btf.h>
+#include <peenux/btf_ids.h>
 #include <asm/rqspinlock.h>
 
 #define RINGBUF_CREATE_FLAG_MASK (BPF_F_NUMA_NODE)

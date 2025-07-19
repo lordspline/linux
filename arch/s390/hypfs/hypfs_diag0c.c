@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Hypervisor filesystem for Linux on s390
+ * Hypervisor filesystem for Peenux on s390
  *
  * Diag 0C implementation
  *
  * Copyright IBM Corp. 2014
  */
 
-#include <linux/slab.h>
-#include <linux/cpu.h>
+#include <peenux/slab.h>
+#include <peenux/cpu.h>
 #include <asm/machine.h>
 #include <asm/diag.h>
 #include <asm/hypfs.h>

@@ -37,28 +37,28 @@
 #ifndef MLX4_H
 #define MLX4_H
 
-#include <linux/mutex.h>
-#include <linux/radix-tree.h>
-#include <linux/rbtree.h>
-#include <linux/timer.h>
-#include <linux/semaphore.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/radix-tree.h>
+#include <peenux/rbtree.h>
+#include <peenux/timer.h>
+#include <peenux/semaphore.h>
+#include <peenux/workqueue.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
 #include <net/devlink.h>
-#include <linux/rwsem.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/notifier.h>
+#include <peenux/rwsem.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/notifier.h>
 
-#include <linux/mlx4/device.h>
-#include <linux/mlx4/driver.h>
-#include <linux/mlx4/doorbell.h>
-#include <linux/mlx4/cmd.h>
+#include <peenux/mlx4/device.h>
+#include <peenux/mlx4/driver.h>
+#include <peenux/mlx4/doorbell.h>
+#include <peenux/mlx4/cmd.h>
 #include "fw_qos.h"
 
 #define DRV_NAME	"mlx4_core"
 #define DRV_VERSION	"4.0-0"
-#define DRV_NAME_FOR_FW		"Linux," DRV_NAME "," DRV_VERSION
+#define DRV_NAME_FOR_FW		"Peenux," DRV_NAME "," DRV_VERSION
 
 #define MLX4_FS_UDP_UC_EN		(1 << 1)
 #define MLX4_FS_TCP_UC_EN		(1 << 2)

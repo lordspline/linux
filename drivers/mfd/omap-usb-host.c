@@ -6,19 +6,19 @@
  * Author: Keshava Munegowda <keshava_mgowda@ti.com>
  * Author: Roger Quadros <rogerq@ti.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/usb-omap.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/usb-omap.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/err.h>
 
 #include "omap-usb.h"
 
@@ -120,7 +120,7 @@ static inline u32 usbhs_read(void __iomem *base, u32 reg)
 /*-------------------------------------------------------------------------*/
 
 /*
- * Map 'enum usbhs_omap_port_mode' found in <linux/platform_data/usb-omap.h>
+ * Map 'enum usbhs_omap_port_mode' found in <peenux/platform_data/usb-omap.h>
  * to the device tree binding portN-mode found in
  * 'Documentation/devicetree/bindings/mfd/omap-usb-host.txt'
  */

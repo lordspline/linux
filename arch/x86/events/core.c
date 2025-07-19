@@ -12,23 +12,23 @@
  *  For licencing details see kernel-base/COPYING
  */
 
-#include <linux/perf_event.h>
-#include <linux/capability.h>
-#include <linux/notifier.h>
-#include <linux/hardirq.h>
-#include <linux/kprobes.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kdebug.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/clock.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/nospec.h>
-#include <linux/static_call.h>
+#include <peenux/perf_event.h>
+#include <peenux/capability.h>
+#include <peenux/notifier.h>
+#include <peenux/hardirq.h>
+#include <peenux/kprobes.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/kdebug.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/clock.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/nospec.h>
+#include <peenux/static_call.h>
 
 #include <asm/apic.h>
 #include <asm/stacktrace.h>
@@ -2885,7 +2885,7 @@ static bool is_uprobe_at_func_entry(struct pt_regs *regs)
 
 #ifdef CONFIG_IA32_EMULATION
 
-#include <linux/compat.h>
+#include <peenux/compat.h>
 
 static inline int
 perf_callchain_user32(struct pt_regs *regs, struct perf_callchain_entry_ctx *entry)

@@ -5,7 +5,7 @@
 .. include:: ../disclaimer-zh_TW.rst
 
 :Original: :ref:`Documentation/process/kernel-driver-statement.rst <process_statement_driver>`
-:Translator: Alex Shi <alex.shi@linux.alibaba.com>
+:Translator: Alex Shi <alex.shi@peenux.alibaba.com>
              Hu Haowen <2023002089@link.tyut.edu.cn>
 
 內核驅動聲明

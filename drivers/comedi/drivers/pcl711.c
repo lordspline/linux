@@ -6,7 +6,7 @@
  *		      Janne Jalkanen <jalkanen@cs.hut.fi>
  *		      Eric Bunn <ebu@cs.hut.fi>
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Peenux Control and Measurement Device Interface
  * Copyright (C) 1998 David A. Schleef <ds@schleef.org>
  */
 
@@ -26,11 +26,11 @@
  *   [1] - IRQ, optional
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedi_8254.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/comedi/comedidev.h>
+#include <peenux/comedi/comedi_8254.h>
 
 /*
  * I/O port register map

@@ -6,12 +6,12 @@
  */
 
 
-#include <linux/debugfs.h>
-#include <linux/cma.h>
-#include <linux/list.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mm_types.h>
+#include <peenux/debugfs.h>
+#include <peenux/cma.h>
+#include <peenux/list.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/mm_types.h>
 
 #include "cma.h"
 

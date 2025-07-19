@@ -7,13 +7,13 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/kernel.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/triggered_buffer.h>
 
-#include <linux/iio/common/st_sensors.h>
+#include <peenux/iio/common/st_sensors.h>
 #include "st_magn.h"
 
 int st_magn_trig_set_state(struct iio_trigger *trig, bool state)

@@ -4,15 +4,15 @@
     Copyright (C) 2008 Freescale Semiconductor, Inc.
 
 */
-#include <linux/elf.h>
-#include <linux/moduleloader.h>
-#include <linux/err.h>
-#include <linux/mm.h>
-#include <linux/bug.h>
+#include <peenux/elf.h>
+#include <peenux/moduleloader.h>
+#include <peenux/err.h>
+#include <peenux/mm.h>
+#include <peenux/bug.h>
 #include <asm/module.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/firmware.h>
-#include <linux/sort.h>
+#include <peenux/sort.h>
 #include <asm/setup.h>
 #include <asm/sections.h>
 

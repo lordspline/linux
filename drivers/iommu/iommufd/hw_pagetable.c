@@ -2,8 +2,8 @@
 /*
  * Copyright (c) 2021-2022, NVIDIA CORPORATION & AFFILIATES
  */
-#include <linux/iommu.h>
-#include <uapi/linux/iommufd.h>
+#include <peenux/iommu.h>
+#include <uapi/peenux/iommufd.h>
 
 #include "../iommu-priv.h"
 #include "iommufd_private.h"

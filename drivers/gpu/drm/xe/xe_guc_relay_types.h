@@ -6,9 +6,9 @@
 #ifndef _XE_GUC_RELAY_TYPES_H_
 #define _XE_GUC_RELAY_TYPES_H_
 
-#include <linux/mempool.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/mempool.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 /**
  * struct xe_guc_relay - Data used by the VF-PF Relay Communication over GuC.

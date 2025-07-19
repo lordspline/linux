@@ -7,15 +7,15 @@
  * Author: Jianqun <jay.xu@rock-chips.com>
  */
 
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
 #include <sound/pcm_params.h>
 #include <sound/dmaengine_pcm.h>
 

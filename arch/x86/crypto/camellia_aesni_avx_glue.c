@@ -6,10 +6,10 @@
  */
 
 #include <crypto/algapi.h>
-#include <linux/crypto.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/crypto.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 #include "camellia.h"
 #include "ecb_cbc_helpers.h"

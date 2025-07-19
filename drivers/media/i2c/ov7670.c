@@ -8,15 +8,15 @@
  *
  * Copyright 2006-7 Jonathan Corbet <corbet@lwn.net>
  */
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/videodev2.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/videodev2.h>
+#include <peenux/gpio/consumer.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-ctrls.h>

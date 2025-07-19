@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2022 Microchip Technology Inc.
 
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/idr.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/idr.h>
 #include "mchp_pci1xxxx_gp.h"
 
 struct aux_bus_device {

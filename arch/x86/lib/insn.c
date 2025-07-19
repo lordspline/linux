@@ -5,18 +5,18 @@
  * Copyright (C) IBM Corporation, 2002, 2004, 2009
  */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 #ifdef __KERNEL__
-#include <linux/string.h>
+#include <peenux/string.h>
 #else
 #include <string.h>
 #endif
 #include <asm/inat.h> /*__ignore_sync_check__ */
 #include <asm/insn.h> /* __ignore_sync_check__ */
-#include <linux/unaligned.h> /* __ignore_sync_check__ */
+#include <peenux/unaligned.h> /* __ignore_sync_check__ */
 
-#include <linux/errno.h>
-#include <linux/kconfig.h>
+#include <peenux/errno.h>
+#include <peenux/kconfig.h>
 
 #include <asm/emulate_prefix.h> /* __ignore_sync_check__ */
 

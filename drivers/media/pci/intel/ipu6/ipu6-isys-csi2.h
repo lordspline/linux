@@ -4,7 +4,7 @@
 #ifndef IPU6_ISYS_CSI2_H
 #define IPU6_ISYS_CSI2_H
 
-#include <linux/container_of.h>
+#include <peenux/container_of.h>
 
 #include "ipu6-isys-subdev.h"
 #include "ipu6-isys-video.h"

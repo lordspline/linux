@@ -26,11 +26,11 @@
  *          Jerome Glisse
  */
 
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/vga_switcheroo.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/vga_switcheroo.h>
 
 #include <drm/drm_file.h>
 #include <drm/drm_ioctl.h>

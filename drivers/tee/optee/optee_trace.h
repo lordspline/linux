@@ -12,8 +12,8 @@
 #if !defined(_TRACE_OPTEE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_OPTEE_H
 
-#include <linux/arm-smccc.h>
-#include <linux/tracepoint.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/tracepoint.h>
 #include "optee_private.h"
 
 TRACE_EVENT(optee_invoke_fn_begin,

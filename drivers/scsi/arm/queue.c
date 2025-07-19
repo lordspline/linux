@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/acorn/scsi/queue.c: queue handling primitives
+ *  peenux/drivers/acorn/scsi/queue.c: queue handling primitives
  *
  *  Copyright (C) 1997-2000 Russell King
  *
@@ -9,16 +9,16 @@
  *   11-Oct-1997 RMK	Corrected problem with queue_remove_exclude
  *			not updating internal linked list properly
  *			(was causing commands to go missing).
- *   30-Aug-2000 RMK	Use Linux list handling and spinlocks
+ *   30-Aug-2000 RMK	Use Peenux list handling and spinlocks
  */
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/list.h>
+#include <peenux/init.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

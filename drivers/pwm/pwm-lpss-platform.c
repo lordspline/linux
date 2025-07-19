@@ -7,12 +7,12 @@
  * Derived from the original pwm-lpss.c
  */
 
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
 
 #include "pwm-lpss.h"
 
@@ -41,7 +41,7 @@ static int pwm_lpss_probe_platform(struct platform_device *pdev)
 	 * believes is the correct state to the PWM controller.
 	 * Because of this we must disallow direct-complete, which keeps the
 	 * controller (runtime)suspended on resume, to avoid 2 issues:
-	 * 1. The controller getting turned on without the linux-pm code
+	 * 1. The controller getting turned on without the peenux-pm code
 	 *    knowing about this. On devices where the controller is unused
 	 *    this causes it to stay on during the next suspend causing high
 	 *    battery drain (because S0i3 is not reached)

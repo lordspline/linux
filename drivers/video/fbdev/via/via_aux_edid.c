@@ -6,8 +6,8 @@
  * generic EDID driver
  */
 
-#include <linux/slab.h>
-#include <linux/fb.h>
+#include <peenux/slab.h>
+#include <peenux/fb.h>
 #include "via_aux.h"
 #include "../edid.h"
 

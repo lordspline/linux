@@ -5,22 +5,22 @@
  * Copyright (c) 2024 Linaro Limited
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 /*
  * The Allegro MicroSystems ALS31300 has an EEPROM space to configure how

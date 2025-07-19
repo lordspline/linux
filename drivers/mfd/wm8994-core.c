@@ -7,22 +7,22 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/mfd/core.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/machine.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/mfd/core.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regulator/machine.h>
 
-#include <linux/mfd/wm8994/core.h>
-#include <linux/mfd/wm8994/pdata.h>
-#include <linux/mfd/wm8994/registers.h>
+#include <peenux/mfd/wm8994/core.h>
+#include <peenux/mfd/wm8994/pdata.h>
+#include <peenux/mfd/wm8994/registers.h>
 
 #include "wm8994.h"
 

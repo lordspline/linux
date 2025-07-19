@@ -25,37 +25,37 @@
  * Do not depend on ABI/API stability.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/time.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/suspend.h>
-#include <linux/workqueue.h>
-#include <linux/scatterlist.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/slab.h>
-#include <linux/glob.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/spinlock.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/timer.h>
+#include <peenux/time.h>
+#include <peenux/interrupt.h>
+#include <peenux/completion.h>
+#include <peenux/suspend.h>
+#include <peenux/workqueue.h>
+#include <peenux/scatterlist.h>
+#include <peenux/io.h>
+#include <peenux/log2.h>
+#include <peenux/slab.h>
+#include <peenux/glob.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <peenux/libata.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
-#include <linux/cdrom.h>
-#include <linux/ratelimit.h>
-#include <linux/leds.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
+#include <peenux/unaligned.h>
+#include <peenux/cdrom.h>
+#include <peenux/ratelimit.h>
+#include <peenux/leds.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_device.h>
 #include <asm/setup.h>
 
 #define CREATE_TRACE_POINTS
@@ -3981,7 +3981,7 @@ struct ata_dev_quirks_entry {
 };
 
 static const struct ata_dev_quirks_entry __ata_dev_quirks[] = {
-	/* Devices with DMA related problems under Linux */
+	/* Devices with DMA related problems under Peenux */
 	{ "WDC AC11000H",	NULL,		ATA_QUIRK_NODMA },
 	{ "WDC AC22100H",	NULL,		ATA_QUIRK_NODMA },
 	{ "WDC AC32500H",	NULL,		ATA_QUIRK_NODMA },
@@ -4042,7 +4042,7 @@ static const struct ata_dev_quirks_entry __ata_dev_quirks[] = {
 	/* NCQ is slow */
 	{ "WDC WD740ADFD-00",	NULL,		ATA_QUIRK_NONCQ },
 	{ "WDC WD740ADFD-00NLR1", NULL,		ATA_QUIRK_NONCQ },
-	/* http://thread.gmane.org/gmane.linux.ide/14907 */
+	/* http://thread.gmane.org/gmane.peenux.ide/14907 */
 	{ "FUJITSU MHT2060BH",	NULL,		ATA_QUIRK_NONCQ },
 	/* NCQ is broken */
 	{ "Maxtor *",		"BANC*",	ATA_QUIRK_NONCQ },
@@ -4071,7 +4071,7 @@ static const struct ata_dev_quirks_entry __ata_dev_quirks[] = {
 	{ "VB0250EAVER",	"HPG7",		ATA_QUIRK_BROKEN_FPDMA_AA },
 
 	/* Blacklist entries taken from Silicon Image 3124/3132
-	   Windows driver .inf file - also several Linux problem reports */
+	   Windows driver .inf file - also several Peenux problem reports */
 	{ "HTS541060G9SA00",    "MB3OC60D",     ATA_QUIRK_NONCQ },
 	{ "HTS541080G9SA00",    "MB4OC60D",     ATA_QUIRK_NONCQ },
 	{ "HTS541010G9SA00",    "MBZOC60D",     ATA_QUIRK_NONCQ },
@@ -5184,7 +5184,7 @@ static void ata_port_suspend(struct ata_port *ap, pm_message_t mesg,
 	 * do not need to touch the device. Ask EH to skip the usual stuff
 	 * and proceed directly to suspend.
 	 *
-	 * http://thread.gmane.org/gmane.linux.ide/46764
+	 * http://thread.gmane.org/gmane.peenux.ide/46764
 	 */
 	ata_port_request_pm(ap, mesg, 0,
 			    ATA_EHI_QUIET | ATA_EHI_NO_AUTOPSY |

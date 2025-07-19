@@ -20,17 +20,17 @@
  */
 
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/sungem_phy.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/sungem_phy.h>
 
 /* Link modes of the BCM5400 PHY */
 static const int phy_BCM5400_link_table[8][3] = {

@@ -6,17 +6,17 @@
  * Copyright (c) 2016 David Herrmann
  */
 
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/vmalloc.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/vmalloc.h>
 #include <net/ipv6.h>
-#include <uapi/linux/btf.h>
-#include <linux/btf_ids.h>
+#include <uapi/peenux/btf.h>
+#include <peenux/btf_ids.h>
 #include <asm/rqspinlock.h>
-#include <linux/bpf_mem_alloc.h>
+#include <peenux/bpf_mem_alloc.h>
 
 /* Intermediate node */
 #define LPM_TREE_NODE_FLAG_IM BIT(0)

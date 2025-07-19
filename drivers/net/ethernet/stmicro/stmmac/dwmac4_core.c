@@ -10,11 +10,11 @@
  * Author: Alexandre Torgue <alexandre.torgue@st.com>
  */
 
-#include <linux/crc32.h>
-#include <linux/slab.h>
-#include <linux/ethtool.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
+#include <peenux/crc32.h>
+#include <peenux/slab.h>
+#include <peenux/ethtool.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
 #include "stmmac.h"
 #include "stmmac_fpe.h"
 #include "stmmac_pcs.h"

@@ -1,5 +1,5 @@
 /*
- *  linux/fs/hfs/super.c
+ *  peenux/fs/hfs/super.c
  *
  * Copyright (C) 1995-1997  Paul H. Hargrove
  * (C) 2003 Ardis Technologies <roman@ardistech.com>
@@ -12,17 +12,17 @@
  * Based on the minix file system code, (C) 1991, 1992 by Linus Torvalds
  */
 
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/backing-dev.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/mount.h>
-#include <linux/init.h>
-#include <linux/nls.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/vfs.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/backing-dev.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/mount.h>
+#include <peenux/init.h>
+#include <peenux/nls.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/vfs.h>
 
 #include "hfs_fs.h"
 #include "btree.h"

@@ -19,14 +19,14 @@
  * the writes.
  */
 
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/smp.h>
+#include <peenux/sched.h>
+#include <peenux/pci.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/dmi.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
+#include <peenux/smp.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/segment.h>

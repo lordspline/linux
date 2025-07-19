@@ -9,10 +9,10 @@
 #include "habanalabs.h"
 #include "../include/hw_ip/mmu/mmu_general.h"
 
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/pci-p2pdma.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pci-p2pdma.h>
 
 MODULE_IMPORT_NS("DMA_BUF");
 

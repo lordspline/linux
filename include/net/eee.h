@@ -2,7 +2,7 @@
 #ifndef _EEE_H
 #define _EEE_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct eee_config {
 	u32 tx_lpi_timer;

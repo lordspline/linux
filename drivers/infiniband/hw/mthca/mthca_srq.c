@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/sched.h>
 
 #include <asm/io.h>
 

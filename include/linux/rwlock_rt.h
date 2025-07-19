@@ -3,7 +3,7 @@
 #define __LINUX_RWLOCK_RT_H
 
 #ifndef __LINUX_SPINLOCK_RT_H
-#error Do not #include directly. Use <linux/spinlock.h>.
+#error Do not #include directly. Use <peenux/spinlock.h>.
 #endif
 
 #ifdef CONFIG_DEBUG_LOCK_ALLOC

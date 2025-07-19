@@ -30,13 +30,13 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 #include <net/sock.h>
-#include <linux/in.h>
-#include <linux/ipv6.h>
-#include <linux/if_arp.h>
-#include <linux/jhash.h>
-#include <linux/ratelimit.h>
+#include <peenux/in.h>
+#include <peenux/ipv6.h>
+#include <peenux/if_arp.h>
+#include <peenux/jhash.h>
+#include <peenux/ratelimit.h>
 #include "rds.h"
 
 static struct rhashtable bind_hash_table;

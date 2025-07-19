@@ -4,9 +4,9 @@
  *
  * Copyright (C) 2015 ARM Limited
  */
-#include <linux/perf_event.h>
-#include <linux/stacktrace.h>
-#include <linux/uaccess.h>
+#include <peenux/perf_event.h>
+#include <peenux/stacktrace.h>
+#include <peenux/uaccess.h>
 
 #include <asm/pointer_auth.h>
 

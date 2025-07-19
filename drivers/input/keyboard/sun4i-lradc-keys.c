@@ -14,20 +14,20 @@
  * there are no boards known to use channel 1.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #define LRADC_CTRL		0x00
 #define LRADC_INTC		0x04
@@ -238,9 +238,9 @@ static int sun4i_lradc_load_dt_keymap(struct device *dev,
 			return -EINVAL;
 		}
 
-		error = of_property_read_u32(pp, "linux,code", &map->keycode);
+		error = of_property_read_u32(pp, "peenux,code", &map->keycode);
 		if (error) {
-			dev_err(dev, "%pOFn: Inval linux,code prop\n", pp);
+			dev_err(dev, "%pOFn: Inval peenux,code prop\n", pp);
 			return -EINVAL;
 		}
 

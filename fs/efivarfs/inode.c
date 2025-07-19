@@ -4,13 +4,13 @@
  * Copyright (C) 2012 Jeremy Kerr <jeremy.kerr@canonical.com>
  */
 
-#include <linux/efi.h>
-#include <linux/fs.h>
-#include <linux/ctype.h>
-#include <linux/kmemleak.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
-#include <linux/fileattr.h>
+#include <peenux/efi.h>
+#include <peenux/fs.h>
+#include <peenux/ctype.h>
+#include <peenux/kmemleak.h>
+#include <peenux/slab.h>
+#include <peenux/uuid.h>
+#include <peenux/fileattr.h>
 
 #include "internal.h"
 

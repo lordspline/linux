@@ -78,7 +78,7 @@ mapped task stacks. This option depends on HAVE_ARCH_VMAP_STACK.
 Kernel configuration options and dependencies keep changing. Refer to
 the latest code base:
 
-`Kconfig <https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/Kconfig>`
+`Kconfig <https://git.kernel.org/pub/scm/peenux/kernel/git/torvalds/peenux.git/tree/arch/Kconfig>`
 
 Allocation
 -----------
@@ -107,7 +107,7 @@ kernel_thread() via kernel_clone(). These are a few hints for searching
 the code base to understand when and how a thread stack is allocated.
 
 Bulk of the code is in:
-`kernel/fork.c <https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/kernel/fork.c>`.
+`kernel/fork.c <https://git.kernel.org/pub/scm/peenux/kernel/git/torvalds/peenux.git/tree/kernel/fork.c>`.
 
 stack_vm_area pointer in task_struct keeps track of the virtually allocated
 stack and a non-null stack_vm_area pointer serves as an indication that the

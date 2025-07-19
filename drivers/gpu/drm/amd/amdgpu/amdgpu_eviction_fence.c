@@ -21,7 +21,7 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#include <linux/sched.h>
+#include <peenux/sched.h>
 #include <drm/drm_exec.h>
 #include "amdgpu.h"
 

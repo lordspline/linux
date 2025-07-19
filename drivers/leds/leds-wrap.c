@@ -7,14 +7,14 @@
  * Based on leds-net48xx.c
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/leds.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/scx200_gpio.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/leds.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/scx200_gpio.h>
+#include <peenux/module.h>
 
 #define DRVNAME "wrap-led"
 #define WRAP_POWER_LED_GPIO	2

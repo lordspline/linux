@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * hwmon.c - part of lm_sensors, Linux kernel modules for hardware monitoring
+ * hwmon.c - part of lm_sensors, Peenux kernel modules for hardware monitoring
  *
  * This file defines the sysfs class "hwmon", for use by sensors drivers.
  *
@@ -9,21 +9,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/idr.h>
-#include <linux/kstrtox.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/thermal.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/hwmon.h>
+#include <peenux/i2c.h>
+#include <peenux/idr.h>
+#include <peenux/kstrtox.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/thermal.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/hwmon.h>

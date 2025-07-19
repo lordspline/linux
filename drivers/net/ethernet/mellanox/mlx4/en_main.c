@@ -31,15 +31,15 @@
  *
  */
 
-#include <linux/cpumask.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
+#include <peenux/cpumask.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
 
-#include <linux/mlx4/driver.h>
-#include <linux/mlx4/device.h>
-#include <linux/mlx4/cmd.h>
+#include <peenux/mlx4/driver.h>
+#include <peenux/mlx4/device.h>
+#include <peenux/mlx4/cmd.h>
 
 #include "mlx4_en.h"
 

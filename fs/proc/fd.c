@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/sched/signal.h>
-#include <linux/errno.h>
-#include <linux/dcache.h>
-#include <linux/path.h>
-#include <linux/fdtable.h>
-#include <linux/namei.h>
-#include <linux/pid.h>
-#include <linux/ptrace.h>
-#include <linux/bitmap.h>
-#include <linux/security.h>
-#include <linux/file.h>
-#include <linux/seq_file.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
+#include <peenux/sched/signal.h>
+#include <peenux/errno.h>
+#include <peenux/dcache.h>
+#include <peenux/path.h>
+#include <peenux/fdtable.h>
+#include <peenux/namei.h>
+#include <peenux/pid.h>
+#include <peenux/ptrace.h>
+#include <peenux/bitmap.h>
+#include <peenux/security.h>
+#include <peenux/file.h>
+#include <peenux/seq_file.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
 
-#include <linux/proc_fs.h>
+#include <peenux/proc_fs.h>
 
 #include "../mount.h"
 #include "internal.h"

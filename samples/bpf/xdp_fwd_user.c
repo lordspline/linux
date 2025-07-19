@@ -11,9 +11,9 @@
  * General Public License for more details.
  */
 
-#include <linux/bpf.h>
-#include <linux/if_link.h>
-#include <linux/limits.h>
+#include <peenux/bpf.h>
+#include <peenux/if_link.h>
+#include <peenux/limits.h>
 #include <net/if.h>
 #include <errno.h>
 #include <stdio.h>

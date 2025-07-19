@@ -6,11 +6,11 @@
  *                                                                         *
  ***************************************************************************/
 
-#include <linux/module.h>
-#include <linux/stringify.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/stringify.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-common.h>

@@ -6,23 +6,23 @@
  *
  * Lorenzo Bianconi <lorenzo.bianconi@st.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/bitfield.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/events.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
 
-#include <linux/platform_data/st_sensors_pdata.h>
+#include <peenux/platform_data/st_sensors_pdata.h>
 
 #include "hts221.h"
 

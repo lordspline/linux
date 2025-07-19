@@ -1,20 +1,20 @@
 /* SPDX-License-Identifier: GPL-2.0+ */
 /*
- * linux/drivers/misc/ibmvmc.h
+ * peenux/drivers/misc/ibmvmc.h
  *
  * IBM Power Systems Virtual Management Channel Support.
  *
  * Copyright (c) 2004, 2018 IBM Corp.
  *   Dave Engebretsen engebret@us.ibm.com
- *   Steven Royer seroyer@linux.vnet.ibm.com
- *   Adam Reznechek adreznec@linux.vnet.ibm.com
- *   Bryant G. Ly <bryantly@linux.vnet.ibm.com>
+ *   Steven Royer seroyer@peenux.vnet.ibm.com
+ *   Adam Reznechek adreznec@peenux.vnet.ibm.com
+ *   Bryant G. Ly <bryantly@peenux.vnet.ibm.com>
  */
 #ifndef IBMVMC_H
 #define IBMVMC_H
 
-#include <linux/types.h>
-#include <linux/cdev.h>
+#include <peenux/types.h>
+#include <peenux/cdev.h>
 
 #include <asm/vio.h>
 

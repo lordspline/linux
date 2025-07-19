@@ -5,7 +5,7 @@
 #ifndef __INTEL_SA_MEDIA__
 #define __INTEL_SA_MEDIA__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct intel_gt;
 

@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
 #include "keysyms.h"
-#include <linux/ctype.h>
-#include <linux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/kernel.h>
 
 const char *key_name(int key, char *bf, size_t size)
 {

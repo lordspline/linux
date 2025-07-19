@@ -29,18 +29,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/pnp.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/leds.h>
-#include <linux/spinlock.h>
-#include <linux/pci_ids.h>
-#include <linux/io.h>
-#include <linux/bitrev.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
+#include <peenux/module.h>
+#include <peenux/pnp.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/leds.h>
+#include <peenux/spinlock.h>
+#include <peenux/pci_ids.h>
+#include <peenux/io.h>
+#include <peenux/bitrev.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
+#include <peenux/sched.h>
 #include <media/rc-core.h>
 
 #define DRVNAME "winbond-cir"

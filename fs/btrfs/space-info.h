@@ -4,12 +4,12 @@
 #define BTRFS_SPACE_INFO_H
 
 #include <trace/events/btrfs.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/kobject.h>
-#include <linux/lockdep.h>
-#include <linux/wait.h>
-#include <linux/rwsem.h>
+#include <peenux/spinlock.h>
+#include <peenux/list.h>
+#include <peenux/kobject.h>
+#include <peenux/lockdep.h>
+#include <peenux/wait.h>
+#include <peenux/rwsem.h>
 #include "volumes.h"
 
 struct btrfs_fs_info;

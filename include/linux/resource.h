@@ -2,7 +2,7 @@
 #ifndef _LINUX_RESOURCE_H
 #define _LINUX_RESOURCE_H
 
-#include <uapi/linux/resource.h>
+#include <uapi/peenux/resource.h>
 
 
 struct task_struct;

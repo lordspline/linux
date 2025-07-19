@@ -6,15 +6,15 @@
 //
 //
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

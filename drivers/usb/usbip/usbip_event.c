@@ -4,10 +4,10 @@
  * Copyright (C) 2015 Nobuo Iwata
  */
 
-#include <linux/kthread.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/kthread.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include "usbip_common.h"
 

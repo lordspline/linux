@@ -5,8 +5,8 @@
 #ifndef _LINUX_NFS_COMMON_H
 #define _LINUX_NFS_COMMON_H
 
-#include <linux/errno.h>
-#include <uapi/linux/nfs.h>
+#include <peenux/errno.h>
+#include <uapi/peenux/nfs.h>
 
 /* Mapping from NFS error code to "errno" error code. */
 

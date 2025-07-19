@@ -5,10 +5,10 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 #define FSCACHE_DEBUG_LEVEL OPERATION
-#include <linux/fscache-cache.h>
-#include <linux/uio.h>
-#include <linux/bvec.h>
-#include <linux/slab.h>
+#include <peenux/fscache-cache.h>
+#include <peenux/uio.h>
+#include <peenux/bvec.h>
+#include <peenux/slab.h>
 #include "internal.h"
 
 /**

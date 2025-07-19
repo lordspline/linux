@@ -6,13 +6,13 @@
  * Copyright (c) 2013 Anssi Hannula <anssi.hannula@iki.fi>
  *
  * Authors:
- * 		Wu Fengguang <wfg@linux.intel.com>
+ * 		Wu Fengguang <wfg@peenux.intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <sound/hda_chmap.h>
 #include <sound/hda_codec.h>
 #include "hda_local.h"

@@ -9,24 +9,24 @@
  *     (c) Copyright 1996 Alan Cox <alan@lxorguk.ukuu.org.uk>
  */
 
-#include <linux/bits.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/timer.h>
-#include <linux/watchdog.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/cpufreq.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/delay.h>
+#include <peenux/bits.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/timer.h>
+#include <peenux/watchdog.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/cpufreq.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/delay.h>
 
 #define S3C2410_WTCON		0x00
 #define S3C2410_WTDAT		0x04

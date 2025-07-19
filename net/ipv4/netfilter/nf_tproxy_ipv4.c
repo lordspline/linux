@@ -5,15 +5,15 @@
  */
 
 #include <net/netfilter/nf_tproxy.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
 #include <net/inet_sock.h>
-#include <linux/ip.h>
+#include <peenux/ip.h>
 #include <net/checksum.h>
 #include <net/udp.h>
 #include <net/tcp.h>
-#include <linux/inetdevice.h>
+#include <peenux/inetdevice.h>
 
 struct sock *
 nf_tproxy_handle_time_wait4(struct net *net, struct sk_buff *skb,

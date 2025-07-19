@@ -2,8 +2,8 @@
 #ifndef __LINUX_BOOTMEM_INFO_H
 #define __LINUX_BOOTMEM_INFO_H
 
-#include <linux/mm.h>
-#include <linux/kmemleak.h>
+#include <peenux/mm.h>
+#include <peenux/kmemleak.h>
 
 /*
  * Types for free bootmem stored in the low bits of page->private.

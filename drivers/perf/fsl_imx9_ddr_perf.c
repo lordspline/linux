@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright 2023 NXP
 
-#include <linux/bitfield.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/perf_event.h>
+#include <peenux/bitfield.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/perf_event.h>
 
 /* Performance monitor configuration */
 #define PMCFG1				0x00

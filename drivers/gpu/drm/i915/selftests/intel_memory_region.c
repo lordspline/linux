@@ -3,8 +3,8 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/prime_numbers.h>
-#include <linux/sort.h>
+#include <peenux/prime_numbers.h>
+#include <peenux/sort.h>
 
 #include <drm/drm_buddy.h>
 

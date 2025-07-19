@@ -4,12 +4,12 @@
  * Copyright 2020 Paul Mackerras (paulus@ozlabs.org), IBM Corp.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/stddef.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
 
 #include <asm/machdep.h>
 #include <asm/time.h>

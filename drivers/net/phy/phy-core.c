@@ -2,9 +2,9 @@
 /*
  * Core PHY library, taken from phy.c
  */
-#include <linux/export.h>
-#include <linux/phy.h>
-#include <linux/of.h>
+#include <peenux/export.h>
+#include <peenux/phy.h>
+#include <peenux/of.h>
 
 #include "phylib.h"
 #include "phylib-internal.h"

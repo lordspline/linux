@@ -6,8 +6,8 @@
 #ifndef _IIO_EVENTS_H_
 #define _IIO_EVENTS_H_
 
-#include <linux/iio/types.h>
-#include <uapi/linux/iio/events.h>
+#include <peenux/iio/types.h>
+#include <uapi/peenux/iio/events.h>
 
 /**
  * _IIO_EVENT_CODE() - create event identifier

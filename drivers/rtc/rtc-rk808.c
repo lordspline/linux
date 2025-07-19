@@ -8,12 +8,12 @@
  * Author: Zhang Qing <zhangqing@rock-chips.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/mfd/rk808.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/mfd/rk808.h>
+#include <peenux/platform_device.h>
 
 /* RTC_CTRL_REG bitfields */
 #define BIT_RTC_CTRL_REG_STOP_RTC_M		BIT(0)

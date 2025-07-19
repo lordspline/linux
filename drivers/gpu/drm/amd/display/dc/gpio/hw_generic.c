@@ -23,7 +23,7 @@
  *
  */
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 
 #include "dm_services.h"
 

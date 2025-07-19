@@ -8,12 +8,12 @@
 #ifndef __RT721_H__
 #define __RT721_H__
 
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_type.h>
 #include <sound/soc.h>
-#include <linux/workqueue.h>
+#include <peenux/workqueue.h>
 
 struct  rt721_sdca_priv {
 	struct regmap *regmap;

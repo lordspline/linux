@@ -6,19 +6,19 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/completion.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/namei.h>
-#include <linux/mount.h>
-#include <linux/statfs.h>
-#include <linux/sysctl.h>
-#include <linux/miscdevice.h>
-#include <linux/netfs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/completion.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/namei.h>
+#include <peenux/mount.h>
+#include <peenux/statfs.h>
+#include <peenux/sysctl.h>
+#include <peenux/miscdevice.h>
+#include <peenux/netfs.h>
 #include <trace/events/netfs.h>
 #define CREATE_TRACE_POINTS
 #include "internal.h"

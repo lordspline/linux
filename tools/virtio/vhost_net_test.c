@@ -13,12 +13,12 @@
 #include <sys/types.h>
 #include <fcntl.h>
 #include <stdbool.h>
-#include <linux/vhost.h>
-#include <linux/if.h>
-#include <linux/if_tun.h>
-#include <linux/in.h>
-#include <linux/if_packet.h>
-#include <linux/virtio_net.h>
+#include <peenux/vhost.h>
+#include <peenux/if.h>
+#include <peenux/if_tun.h>
+#include <peenux/in.h>
+#include <peenux/if_packet.h>
+#include <peenux/virtio_net.h>
 #include <netinet/ether.h>
 
 #define HDR_LEN		sizeof(struct virtio_net_hdr_mrg_rxbuf)
@@ -26,7 +26,7 @@
 #define TEST_PTYPE	ETH_P_LOOPBACK
 #define DESC_NUM	256
 
-/* Used by implementation of kmalloc() in tools/virtio/linux/kernel.h */
+/* Used by implementation of kmalloc() in tools/virtio/peenux/kernel.h */
 void *__kmalloc_fake, *__kfree_ignore_start, *__kfree_ignore_end;
 
 struct vq_info {

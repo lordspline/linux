@@ -3,10 +3,10 @@
 // Copyright(c) 2021-2022 Intel Corporation
 //
 // Author: Cezary Rojewski <cezary.rojewski@intel.com>
-//         Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//         Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
 //
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define CREATE_TRACE_POINTS
 #include "trace.h"

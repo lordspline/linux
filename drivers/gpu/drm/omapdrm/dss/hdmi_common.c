@@ -2,9 +2,9 @@
 
 #define DSS_SUBSYS_NAME "HDMI"
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
 
 #include "omapdss.h"
 #include "hdmi.h"

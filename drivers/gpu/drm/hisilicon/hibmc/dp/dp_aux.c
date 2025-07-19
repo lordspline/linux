@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/minmax.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/minmax.h>
 #include <drm/drm_device.h>
 #include <drm/drm_print.h>
 #include "dp_comm.h"

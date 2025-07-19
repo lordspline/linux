@@ -3,13 +3,13 @@
  * Copyright (C) 2020 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/clk-provider.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 struct ti_syscon_gate_clk_priv {
 	struct clk_hw hw;

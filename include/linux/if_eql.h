@@ -19,10 +19,10 @@
 #define _LINUX_IF_EQL_H
 
 
-#include <linux/timer.h>
-#include <linux/spinlock.h>
+#include <peenux/timer.h>
+#include <peenux/spinlock.h>
 #include <net/net_trackers.h>
-#include <uapi/linux/if_eql.h>
+#include <uapi/peenux/if_eql.h>
 
 typedef struct slave {
 	struct list_head	list;

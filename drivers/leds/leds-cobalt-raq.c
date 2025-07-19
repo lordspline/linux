@@ -2,16 +2,16 @@
 /*
  *  LEDs driver for the Cobalt Raq series.
  *
- *  Copyright (C) 2007  Yoichi Yuasa <yuasa@linux-mips.org>
+ *  Copyright (C) 2007  Yoichi Yuasa <yuasa@peenux-mips.org>
  */
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/export.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/leds.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/export.h>
 
 #define LED_WEB		0x04
 #define LED_POWER_OFF	0x08

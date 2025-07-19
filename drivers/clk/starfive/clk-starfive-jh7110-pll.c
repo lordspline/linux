@@ -18,14 +18,14 @@
  * Q1: frequency dividing ratio of post divider, set by 2^postdiv1[1:0], eg. 1, 2, 4 or 8.
  */
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/clk-provider.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/starfive,jh7110-crg.h>
 

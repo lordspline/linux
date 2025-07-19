@@ -5,15 +5,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/wait.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/usb.h>
-#include <linux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/wait.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/usb.h>
+#include <peenux/i2c.h>
 #include <asm/byteorder.h>
 #include <media/i2c/saa7115.h>
 #include <media/tuner.h>

@@ -18,7 +18,7 @@
  *	Based on source code of the following authors:
  *	  Matt Domsch <Matt_Domsch@dell.com>,
  *	  Rob Radez <rob@osinvestor.com>,
- *	  Rusty Lynch <rusty@linux.co.intel.com>
+ *	  Rusty Lynch <rusty@peenux.co.intel.com>
  *	  Satyam Sharma <satyam@infradead.org>
  *	  Randy Dunlap <randy.dunlap@oracle.com>
  *
@@ -29,21 +29,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cdev.h>		/* For character device */
-#include <linux/errno.h>	/* For the -ENODEV/... values */
-#include <linux/fs.h>		/* For file operations */
-#include <linux/init.h>		/* For __init/__exit/... */
-#include <linux/hrtimer.h>	/* For hrtimers */
-#include <linux/kernel.h>	/* For printk/panic/... */
-#include <linux/kstrtox.h>	/* For kstrto* */
-#include <linux/kthread.h>	/* For kthread_work */
-#include <linux/miscdevice.h>	/* For handling misc devices */
-#include <linux/module.h>	/* For module stuff/... */
-#include <linux/mutex.h>	/* For mutexes */
-#include <linux/slab.h>		/* For memory functions */
-#include <linux/types.h>	/* For standard types (like size_t) */
-#include <linux/watchdog.h>	/* For watchdog specific items */
-#include <linux/uaccess.h>	/* For copy_to_user/put_user/... */
+#include <peenux/cdev.h>		/* For character device */
+#include <peenux/errno.h>	/* For the -ENODEV/... values */
+#include <peenux/fs.h>		/* For file operations */
+#include <peenux/init.h>		/* For __init/__exit/... */
+#include <peenux/hrtimer.h>	/* For hrtimers */
+#include <peenux/kernel.h>	/* For printk/panic/... */
+#include <peenux/kstrtox.h>	/* For kstrto* */
+#include <peenux/kthread.h>	/* For kthread_work */
+#include <peenux/miscdevice.h>	/* For handling misc devices */
+#include <peenux/module.h>	/* For module stuff/... */
+#include <peenux/mutex.h>	/* For mutexes */
+#include <peenux/slab.h>		/* For memory functions */
+#include <peenux/types.h>	/* For standard types (like size_t) */
+#include <peenux/watchdog.h>	/* For watchdog specific items */
+#include <peenux/uaccess.h>	/* For copy_to_user/put_user/... */
 
 #include "watchdog_core.h"
 #include "watchdog_pretimeout.h"

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (c) 2022 Nuvoton Technology Corporation
 
-#include <linux/debugfs.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/debugfs.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 #include "edac_module.h"
 
 #define EDAC_MOD_NAME			"npcm-edac"

@@ -6,7 +6,7 @@
 #if !defined(__QCOM_GLINK_TRACE_H__) || defined(TRACE_HEADER_MULTI_READ)
 #define __QCOM_GLINK_TRACE_H__
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 #include "qcom_glink_native.h"
 
 

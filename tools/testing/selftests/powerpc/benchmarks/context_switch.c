@@ -22,7 +22,7 @@
 #include <sys/sysinfo.h>
 #include <sys/types.h>
 #include <sys/shm.h>
-#include <linux/futex.h>
+#include <peenux/futex.h>
 #ifdef __powerpc__
 #include <altivec.h>
 #endif

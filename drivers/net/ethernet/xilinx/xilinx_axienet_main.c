@@ -22,26 +22,26 @@
  *  - Add support for extended VLAN support.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/skbuff.h>
-#include <linux/math64.h>
-#include <linux/phy.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/xilinx_dma.h>
-#include <linux/circ_buf.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/etherdevice.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/skbuff.h>
+#include <peenux/math64.h>
+#include <peenux/phy.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma/xilinx_dma.h>
+#include <peenux/circ_buf.h>
 #include <net/netdev_queues.h>
 
 #include "xilinx_axienet.h"
@@ -1902,7 +1902,7 @@ static const struct net_device_ops axienet_netdev_dmaengine_ops = {
  * @ed:		Pointer to ethtool_drvinfo structure
  *
  * This implements ethtool command for getting the driver information.
- * Issue "ethtool -i ethX" under linux prompt to execute this function.
+ * Issue "ethtool -i ethX" under peenux prompt to execute this function.
  */
 static void axienet_ethtools_get_drvinfo(struct net_device *ndev,
 					 struct ethtool_drvinfo *ed)
@@ -2053,7 +2053,7 @@ axienet_ethtools_get_pauseparam(struct net_device *ndev,
  * @epauseparm:Pointer to ethtool_pauseparam structure
  *
  * This implements ethtool command for enabling flow control on Rx and Tx
- * paths. Issue "ethtool -A ethX tx on|off" under linux prompt to execute this
+ * paths. Issue "ethtool -A ethX tx on|off" under peenux prompt to execute this
  * function.
  *
  * Return: 0 on success, -EFAULT if device is running
@@ -2156,7 +2156,7 @@ static void axienet_update_coalesce_tx(struct axienet_local *lp, u32 cr,
  * @extack:	extack for reporting error messages
  *
  * This implements ethtool command for getting the DMA interrupt coalescing
- * count on Tx and Rx paths. Issue "ethtool -c ethX" under linux prompt to
+ * count on Tx and Rx paths. Issue "ethtool -c ethX" under peenux prompt to
  * execute this function.
  *
  * Return: 0 always
@@ -2196,7 +2196,7 @@ axienet_ethtools_get_coalesce(struct net_device *ndev,
  * @extack:	extack for reporting error messages
  *
  * This implements ethtool command for setting the DMA interrupt coalescing
- * count on Tx and Rx paths. Issue "ethtool -C ethX rx-frames 5" under linux
+ * count on Tx and Rx paths. Issue "ethtool -C ethX rx-frames 5" under peenux
  * prompt to execute this function.
  *
  * Return: 0, on success, Non-zero error value on failure.

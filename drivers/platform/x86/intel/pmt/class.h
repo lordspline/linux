@@ -2,12 +2,12 @@
 #ifndef _INTEL_PMT_CLASS_H
 #define _INTEL_PMT_CLASS_H
 
-#include <linux/intel_vsec.h>
-#include <linux/xarray.h>
-#include <linux/types.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <peenux/intel_vsec.h>
+#include <peenux/xarray.h>
+#include <peenux/types.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
 
 #include "telemetry.h"
 

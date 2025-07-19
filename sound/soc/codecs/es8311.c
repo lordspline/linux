@@ -7,12 +7,12 @@
  * Author: Matteo Martelli <matteomartelli3@gmail.com>
  */
 
-#include "linux/array_size.h"
+#include "peenux/array_size.h"
 #include "sound/pcm.h"
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 #include <sound/core.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

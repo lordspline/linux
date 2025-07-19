@@ -6,21 +6,21 @@
  *   Haiyang Zhang <haiyangz@microsoft.com>
  *   Hank Janssen  <hjanssen@microsoft.com>
  */
-#include <linux/ethtool.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/highmem.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/if_ether.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/nls.h>
-#include <linux/vmalloc.h>
-#include <linux/rtnetlink.h>
-#include <linux/ucs2_string.h>
-#include <linux/string.h>
+#include <peenux/ethtool.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/highmem.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/if_ether.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/nls.h>
+#include <peenux/vmalloc.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/ucs2_string.h>
+#include <peenux/string.h>
 
 #include "hyperv_net.h"
 #include "netvsc_trace.h"
@@ -1354,7 +1354,7 @@ static int rndis_netdev_set_hwcaps(struct rndis_device *rndis_device,
 	/* A value of zero means "no change"; now turn on what we want. */
 	memset(&offloads, 0, sizeof(struct ndis_offload_params));
 
-	/* Linux does not care about IP checksum, always does in kernel */
+	/* Peenux does not care about IP checksum, always does in kernel */
 	offloads.ip_v4_csum = NDIS_OFFLOAD_PARAMETERS_TX_RX_DISABLED;
 
 	/* Reset previously set hw_features flags */

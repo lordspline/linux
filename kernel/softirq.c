@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *	linux/kernel/softirq.c
+ *	peenux/kernel/softirq.c
  *
  *	Copyright (C) 1992 Linus Torvalds
  *
@@ -9,25 +9,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/export.h>
-#include <linux/kernel_stat.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/local_lock.h>
-#include <linux/mm.h>
-#include <linux/notifier.h>
-#include <linux/percpu.h>
-#include <linux/cpu.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/rcupdate.h>
-#include <linux/ftrace.h>
-#include <linux/smp.h>
-#include <linux/smpboot.h>
-#include <linux/tick.h>
-#include <linux/irq.h>
-#include <linux/wait_bit.h>
-#include <linux/workqueue.h>
+#include <peenux/export.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/local_lock.h>
+#include <peenux/mm.h>
+#include <peenux/notifier.h>
+#include <peenux/percpu.h>
+#include <peenux/cpu.h>
+#include <peenux/freezer.h>
+#include <peenux/kthread.h>
+#include <peenux/rcupdate.h>
+#include <peenux/ftrace.h>
+#include <peenux/smp.h>
+#include <peenux/smpboot.h>
+#include <peenux/tick.h>
+#include <peenux/irq.h>
+#include <peenux/wait_bit.h>
+#include <peenux/workqueue.h>
 
 #include <asm/softirq_stack.h>
 

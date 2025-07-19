@@ -12,14 +12,14 @@
  * Copyright (C) 2012  Intel Corporation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/nfc.h>
-#include <linux/gpio/consumer.h>
-#include <linux/unaligned.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/nfc.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/unaligned.h>
 
 #include <net/nfc/nfc.h>
 

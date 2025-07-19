@@ -3,18 +3,18 @@
  * Copyright 2011 IBM Corporation.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/spinlock.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/spinlock.h>
+#include <peenux/module.h>
 
 #include <asm/io.h>
 #include <asm/smp.h>
@@ -128,7 +128,7 @@ static unsigned int icp_native_get_irq(void)
 		return irq;
 	}
 
-	/* We don't have a linux mapping, so have rtas mask it. */
+	/* We don't have a peenux mapping, so have rtas mask it. */
 	xics_mask_unknown_vec(vec);
 
 	/* We might learn about it later, so EOI it */
@@ -195,7 +195,7 @@ static int __init icp_native_map_one_cpu(int hw_id, unsigned long addr,
 	int i, cpu = -1;
 
 	/* This may look gross but it's good enough for now, we don't quite
-	 * have a hard -> linux processor id matching.
+	 * have a hard -> peenux processor id matching.
 	 */
 	for_each_possible_cpu(i) {
 		if (!cpu_present(i))

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/xarray.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/xarray.h>
 #include <net/busy_poll.h>
 #include <net/net_debug.h>
 #include <net/netdev_rx_queue.h>

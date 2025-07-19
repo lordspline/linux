@@ -5,27 +5,27 @@
  * Copyright (C) 2005-2006  Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/bug.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/jiffies.h>
-#include <linux/kobject.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/random.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
+#include <peenux/bug.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/jiffies.h>
+#include <peenux/kobject.h>
+#include <peenux/list.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/random.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/byteorder.h>
 
 #include "core.h"

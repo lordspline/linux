@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * w83781d.c - Part of lm_sensors, Linux kernel modules for hardware
+ * w83781d.c - Part of lm_sensors, Peenux kernel modules for hardware
  *	       monitoring
  * Copyright (c) 1998 - 2001  Frodo Looijaard <frodol@dds.nl>,
  *			      Philip Edelbrock <phil@netroedge.com>,
@@ -22,22 +22,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-vid.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-vid.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
 
 #ifdef CONFIG_ISA
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
 #endif
 
 #include "lm75.h"

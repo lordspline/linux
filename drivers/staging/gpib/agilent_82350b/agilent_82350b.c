@@ -9,17 +9,17 @@
 #define DRV_NAME KBUILD_MODNAME
 
 #include "agilent_82350b.h"
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <asm/dma.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/wait.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/wait.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("GPIB driver for Agilent 82350b");

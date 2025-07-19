@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: (GPL-2.0 OR BSD-3-Clause)
 
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/ntb.h>
-#include <linux/msi.h>
-#include <linux/pci.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/ntb.h>
+#include <peenux/msi.h>
+#include <peenux/pci.h>
 
 struct ntb_msi {
 	u64 base_addr;

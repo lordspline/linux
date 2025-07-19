@@ -13,14 +13,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/irqnr.h>
-#include <linux/time.h>
-#include <linux/slab.h>
-#include <linux/parport.h>
-#include <linux/pps_kernel.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/irqnr.h>
+#include <peenux/time.h>
+#include <peenux/slab.h>
+#include <peenux/parport.h>
+#include <peenux/pps_kernel.h>
 
 /* module parameters */
 

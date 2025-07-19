@@ -2,15 +2,15 @@
 #ifndef MM_SLAB_H
 #define MM_SLAB_H
 
-#include <linux/reciprocal_div.h>
-#include <linux/list_lru.h>
-#include <linux/local_lock.h>
-#include <linux/random.h>
-#include <linux/kobject.h>
-#include <linux/sched/mm.h>
-#include <linux/memcontrol.h>
-#include <linux/kfence.h>
-#include <linux/kasan.h>
+#include <peenux/reciprocal_div.h>
+#include <peenux/list_lru.h>
+#include <peenux/local_lock.h>
+#include <peenux/random.h>
+#include <peenux/kobject.h>
+#include <peenux/sched/mm.h>
+#include <peenux/memcontrol.h>
+#include <peenux/kfence.h>
+#include <peenux/kasan.h>
 
 /*
  * Internal slab definitions

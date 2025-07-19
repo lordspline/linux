@@ -12,9 +12,9 @@
 
 #include "uvc_configfs.h"
 
-#include <linux/sort.h>
-#include <linux/usb/uvc.h>
-#include <linux/usb/video.h>
+#include <peenux/sort.h>
+#include <peenux/usb/uvc.h>
+#include <peenux/usb/video.h>
 
 /* -----------------------------------------------------------------------------
  * Global Utility Structures and Macros

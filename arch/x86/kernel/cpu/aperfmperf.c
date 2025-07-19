@@ -6,16 +6,16 @@
  * Copyright (C) 2017 Intel Corp.
  * Author: Len Brown <len.brown@intel.com>
  */
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/math64.h>
-#include <linux/percpu.h>
-#include <linux/rcupdate.h>
-#include <linux/sched/isolation.h>
-#include <linux/sched/topology.h>
-#include <linux/smp.h>
-#include <linux/syscore_ops.h>
+#include <peenux/cpufreq.h>
+#include <peenux/delay.h>
+#include <peenux/ktime.h>
+#include <peenux/math64.h>
+#include <peenux/percpu.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/sched/topology.h>
+#include <peenux/smp.h>
+#include <peenux/syscore_ops.h>
 
 #include <asm/cpu.h>
 #include <asm/cpu_device_id.h>

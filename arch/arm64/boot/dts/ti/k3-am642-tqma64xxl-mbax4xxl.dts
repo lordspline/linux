@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only OR MIT
 /*
  * Copyright (C) 2021 Texas Instruments Incorporated - https://www.ti.com/
- * Copyright (c) 2022-2024 TQ-Systems GmbH <linux@ew.tq-group.com>, D-82229 Seefeld, Germany.
+ * Copyright (c) 2022-2024 TQ-Systems GmbH <peenux@ew.tq-group.com>, D-82229 Seefeld, Germany.
  */
 
 /dts-v1/;
@@ -51,7 +51,7 @@
 
 		user-button {
 			label = "USER_BUTTON";
-			linux,code = <BTN_0>;
+			peenux,code = <BTN_0>;
 			gpios = <&mcu_gpio0 5 GPIO_ACTIVE_LOW>;
 		};
 	};
@@ -352,7 +352,7 @@
 &main_uart2 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&main_uart2_pins>;
-	linux,rs485-enabled-at-boot-time;
+	peenux,rs485-enabled-at-boot-time;
 	rs485-rts-active-low;
 	status = "okay";
 };

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/seq_file.c
+ * peenux/fs/seq_file.c
  *
  * helper functions for making synthetic files from sequences of records.
  * initial implementation -- AV, Oct 2001.
@@ -8,19 +8,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cache.h>
-#include <linux/fs.h>
-#include <linux/export.h>
-#include <linux/seq_file.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/cred.h>
-#include <linux/mm.h>
-#include <linux/printk.h>
-#include <linux/string_helpers.h>
-#include <linux/uio.h>
+#include <peenux/cache.h>
+#include <peenux/fs.h>
+#include <peenux/export.h>
+#include <peenux/seq_file.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/cred.h>
+#include <peenux/mm.h>
+#include <peenux/printk.h>
+#include <peenux/string_helpers.h>
+#include <peenux/uio.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/page.h>
 
 static struct kmem_cache *seq_file_cache __ro_after_init;

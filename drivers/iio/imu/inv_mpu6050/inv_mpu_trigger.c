@@ -3,10 +3,10 @@
 * Copyright (C) 2012 Invensense, Inc.
 */
 
-#include <linux/pm_runtime.h>
+#include <peenux/pm_runtime.h>
 
-#include <linux/iio/common/inv_sensors_timestamp.h>
-#include <linux/iio/events.h>
+#include <peenux/iio/common/inv_sensors_timestamp.h>
+#include <peenux/iio/events.h>
 
 #include "inv_mpu_iio.h"
 

@@ -9,11 +9,11 @@
 #define _ASM_IOMMU_H
 #ifdef __KERNEL__
 
-#include <linux/compiler.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/dma-map-ops.h>
-#include <linux/bitops.h>
+#include <peenux/compiler.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/bitops.h>
 #include <asm/machdep.h>
 #include <asm/types.h>
 #include <asm/pci-bridge.h>
@@ -28,8 +28,8 @@
 #define IOMMU_PAGE_MASK(tblptr) (~((1 << (tblptr)->it_page_shift) - 1))
 #define IOMMU_PAGE_ALIGN(addr, tblptr) ALIGN(addr, IOMMU_PAGE_SIZE(tblptr))
 
-#define DIRECT64_PROPNAME "linux,direct64-ddr-window-info"
-#define DMA64_PROPNAME "linux,dma64-ddr-window-info"
+#define DIRECT64_PROPNAME "peenux,direct64-ddr-window-info"
+#define DMA64_PROPNAME "peenux,dma64-ddr-window-info"
 
 #define	MIN_DDW_VPMEM_DMA_WINDOW	SZ_2G
 

@@ -7,13 +7,13 @@
  *
  * Copyright (c) 2023, Liam Beguin <liambeguin@gmail.com>
  */
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regulator/consumer.h>
 
 #define LTC2309_ADC_RESOLUTION	12
 #define LTC2309_INTERNAL_REF_MV 4096

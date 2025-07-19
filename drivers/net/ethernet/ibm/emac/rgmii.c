@@ -16,12 +16,12 @@
  * 	Matt Porter <mporter@kernel.crashing.org>
  * 	Copyright 2004 MontaVista Software, Inc.
  */
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/ethtool.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/ethtool.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 #include <asm/io.h>
 
 #include "emac.h"

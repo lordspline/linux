@@ -7,15 +7,15 @@
  * Contact: Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
 
 #include "clk-div6.h"
 

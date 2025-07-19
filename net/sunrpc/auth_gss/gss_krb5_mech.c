@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: BSD-3-Clause
 /*
- *  linux/net/sunrpc/gss_krb5_mech.c
+ *  peenux/net/sunrpc/gss_krb5_mech.c
  *
  *  Copyright (c) 2001-2008 The Regents of the University of Michigan.
  *  All rights reserved.
@@ -11,14 +11,14 @@
 
 #include <crypto/hash.h>
 #include <crypto/skcipher.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/sunrpc/auth.h>
-#include <linux/sunrpc/gss_krb5.h>
-#include <linux/sunrpc/xdr.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/sunrpc/auth.h>
+#include <peenux/sunrpc/gss_krb5.h>
+#include <peenux/sunrpc/xdr.h>
 #include <kunit/visibility.h>
 
 #include "auth_gss_internal.h"

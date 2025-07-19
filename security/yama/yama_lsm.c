@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Yama Linux Security Module
+ * Yama Peenux Security Module
  *
  * Author: Kees Cook <keescook@chromium.org>
  *
@@ -8,17 +8,17 @@
  * Copyright (C) 2011 The Chromium OS Authors.
  */
 
-#include <linux/lsm_hooks.h>
-#include <linux/sysctl.h>
-#include <linux/ptrace.h>
-#include <linux/prctl.h>
-#include <linux/ratelimit.h>
-#include <linux/workqueue.h>
-#include <linux/string_helpers.h>
-#include <linux/task_work.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <uapi/linux/lsm.h>
+#include <peenux/lsm_hooks.h>
+#include <peenux/sysctl.h>
+#include <peenux/ptrace.h>
+#include <peenux/prctl.h>
+#include <peenux/ratelimit.h>
+#include <peenux/workqueue.h>
+#include <peenux/string_helpers.h>
+#include <peenux/task_work.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <uapi/peenux/lsm.h>
 
 #define YAMA_SCOPE_DISABLED	0
 #define YAMA_SCOPE_RELATIONAL	1

@@ -2,9 +2,9 @@
 #ifndef _LINUX_RW_HINT_H
 #define _LINUX_RW_HINT_H
 
-#include <linux/build_bug.h>
-#include <linux/compiler_attributes.h>
-#include <uapi/linux/fcntl.h>
+#include <peenux/build_bug.h>
+#include <peenux/compiler_attributes.h>
+#include <uapi/peenux/fcntl.h>
 
 /* Block storage write lifetime hint values. */
 enum rw_hint {

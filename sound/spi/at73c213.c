@@ -7,27 +7,27 @@
 
 /*#define DEBUG*/
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
 
 #include <sound/initval.h>
 #include <sound/control.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 
-#include <linux/atmel-ssc.h>
+#include <peenux/atmel-ssc.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/at73c213.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/at73c213.h>
 
 #include "at73c213.h"
 

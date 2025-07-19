@@ -16,12 +16,12 @@
  *      Armin Kuster <akuster@mvista.com>
  * 	Copyright 2001 MontaVista Softare Inc.
  */
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/ethtool.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/ethtool.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 #include <asm/io.h>
 
 #include "emac.h"

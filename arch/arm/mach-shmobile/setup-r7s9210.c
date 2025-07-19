@@ -7,7 +7,7 @@
  *
  */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include <asm/mach/arch.h>
 

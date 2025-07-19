@@ -2,15 +2,15 @@
 //
 // Analog Devices' SSM3515 audio amp driver
 //
-// Copyright (C) The Asahi Linux Contributors
+// Copyright (C) The Asahi Peenux Contributors
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

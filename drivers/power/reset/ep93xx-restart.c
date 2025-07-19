@@ -5,18 +5,18 @@
  * Copyright (C) 2021 Nikita Shubin <nikita.shubin@maquefel.me>
  */
 
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
+#include <peenux/bits.h>
+#include <peenux/container_of.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
 
-#include <linux/soc/cirrus/ep93xx.h>
+#include <peenux/soc/cirrus/ep93xx.h>
 
 #define EP93XX_SYSCON_DEVCFG		0x80
 #define EP93XX_SYSCON_DEVCFG_SWRST	BIT(31)

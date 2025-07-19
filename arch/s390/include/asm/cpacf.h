@@ -12,7 +12,7 @@
 #define _ASM_S390_CPACF_H
 
 #include <asm/facility.h>
-#include <linux/kmsan-checks.h>
+#include <peenux/kmsan-checks.h>
 
 /*
  * Instruction opcodes for the CPACF instructions

@@ -31,14 +31,14 @@
 
 #include <internal/lib.h>
 
-#include <linux/err.h>
+#include <peenux/err.h>
 #include <subcmd/parse-options.h>
-#include <uapi/linux/mman.h> /* To get things like MAP_HUGETLB even on older libc headers */
+#include <uapi/peenux/mman.h> /* To get things like MAP_HUGETLB even on older libc headers */
 
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
-#include <linux/hash.h>
+#include <peenux/list.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
+#include <peenux/hash.h>
 #include <ctype.h>
 #include <errno.h>
 #include <signal.h>

@@ -4,9 +4,9 @@
  * Author: Marc Zyngier <marc.zyngier@arm.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/cfi_types.h>
-#include <linux/linkage.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/cfi_types.h>
+#include <peenux/linkage.h>
 
 #include <asm/alternative.h>
 #include <asm/assembler.h>

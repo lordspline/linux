@@ -10,14 +10,14 @@
 #ifndef __AE4DMA_H__
 #define __AE4DMA_H__
 
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dmapool.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
 
 #include "../ptdma/ptdma.h"
 #include "../../virt-dma.h"

@@ -9,15 +9,15 @@
 
 #ifdef CONFIG_DEBUG_FS
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/kref.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
+#include <peenux/kref.h>
+#include <peenux/seq_file.h>
+#include <peenux/debugfs.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "tcp.h"
 #include "nodemanager.h"

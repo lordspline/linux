@@ -23,12 +23,12 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/mfd/twl.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/of.h>
 
 #include <asm/mach-types.h>
 

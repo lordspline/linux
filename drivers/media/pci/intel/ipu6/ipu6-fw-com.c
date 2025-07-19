@@ -3,13 +3,13 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/math.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/math.h>
+#include <peenux/overflow.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "ipu6-bus.h"
 #include "ipu6-dma.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mm/alignment.c
+ *  peenux/arch/arm/mm/alignment.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  *  Modifications for ARM processor (c) 1995-2001 Russell King
@@ -8,21 +8,21 @@
  *  - Adapted from gdb/sim/arm/thumbemu.c -- Thumb instruction emulation.
  *    Copyright (C) 1996, Cygnus Software Technologies Ltd.
  */
-#include <linux/moduleparam.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/sched/debug.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/sched/signal.h>
-#include <linux/uaccess.h>
+#include <peenux/moduleparam.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/debug.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/sched/signal.h>
+#include <peenux/uaccess.h>
 
 #include <asm/cp15.h>
 #include <asm/system_info.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/opcodes.h>
 
 #include "fault.h"
@@ -31,7 +31,7 @@
 /*
  * 32-bit misaligned trap handler (c) 1998 San Mehat (CCC) -July 1998
  * /proc/sys/debug/alignment, modified and integrated into
- * Linux 2.1 by Russell King
+ * Peenux 2.1 by Russell King
  *
  * Speed optimisations and better fault handling by Russell King.
  *

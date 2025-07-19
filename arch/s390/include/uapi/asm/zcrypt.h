@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
  *  include/asm-s390/zcrypt.h
  *
@@ -18,9 +18,9 @@
 #define ZCRYPT_RELEASE 2
 #define ZCRYPT_VARIANT 1
 
-#include <linux/ioctl.h>
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/ioctl.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 
 /* Name of the zcrypt device driver. */
 #define ZCRYPT_NAME "zcrypt"

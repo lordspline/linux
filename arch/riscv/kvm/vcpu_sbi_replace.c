@@ -6,9 +6,9 @@
  *     Atish Patra <atish.patra@wdc.com>
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/kvm_host.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/kvm_host.h>
 #include <asm/sbi.h>
 #include <asm/kvm_vcpu_timer.h>
 #include <asm/kvm_vcpu_pmu.h>

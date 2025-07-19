@@ -8,14 +8,14 @@
  * Author: Basavaraj Natikar <Basavaraj.Natikar@amd.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/iopoll.h>
-#include <linux/pci.h>
-#include <linux/sizes.h>
-#include <linux/time.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/iopoll.h>
+#include <peenux/pci.h>
+#include <peenux/sizes.h>
+#include <peenux/time.h>
 
 #include "pmc.h"
 

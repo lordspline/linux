@@ -19,9 +19,9 @@ extern struct pci_dev *isa_bridge_pcidev;
 #define arch_has_dev_port()	(isa_bridge_pcidev != NULL || isa_io_special)
 #endif
 
-#include <linux/device.h>
-#include <linux/compiler.h>
-#include <linux/mm.h>
+#include <peenux/device.h>
+#include <peenux/compiler.h>
+#include <peenux/mm.h>
 #include <asm/page.h>
 #include <asm/byteorder.h>
 #include <asm/synch.h>
@@ -84,7 +84,7 @@ extern bool isa_io_special;
  *
  * Those operate directly on a kernel virtual address. Note that the prototype
  * for the out_* accessors has the arguments in opposite order from the usual
- * linux PCI accessors. Unlike those, they take the address first and the value
+ * peenux PCI accessors. Unlike those, they take the address first and the value
  * next.
  */
 
@@ -243,8 +243,8 @@ extern void _memcpy_toio(volatile void __iomem *dest, const void *src,
  *
  * PCI and standard ISA accessors
  *
- * Those are globally defined linux accessors for devices on PCI or ISA
- * busses. They follow the Linux defined semantics. The current implementation
+ * Those are globally defined peenux accessors for devices on PCI or ISA
+ * busses. They follow the Peenux defined semantics. The current implementation
  * for PowerPC is as close as possible to the x86 version of these, and thus
  * provides fairly heavy weight barriers for the non-raw versions
  *

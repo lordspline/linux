@@ -6,23 +6,23 @@
  *		David S. Miller	<davem@redhat.com>
  *		Alexey Kuznetsov <kuznet@ms2.inr.ac.ru>
  *		Kunihiro Ishiguro <kunihiro@ipinfusion.com>
- *		Kazunori MIYAZAWA / USAGI Project <miyazawa@linux-ipv6.org>
+ *		Kazunori MIYAZAWA / USAGI Project <miyazawa@peenux-ipv6.org>
  *		Derek Atkins <derek@ihtfp.com>
  */
 
-#include <linux/capability.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/socket.h>
-#include <linux/pfkeyv2.h>
-#include <linux/ipsec.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/capability.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/socket.h>
+#include <peenux/pfkeyv2.h>
+#include <peenux/ipsec.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/proc_fs.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
 #include <net/xfrm.h>

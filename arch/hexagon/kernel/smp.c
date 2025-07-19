@@ -2,21 +2,21 @@
 /*
  * SMP support for Hexagon
  *
- * Copyright (c) 2010-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2012, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/percpu.h>
-#include <linux/sched/mm.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/cpu.h>
-#include <linux/mm_types.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/percpu.h>
+#include <peenux/sched/mm.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/cpu.h>
+#include <peenux/mm_types.h>
 
 #include <asm/time.h>    /*  timer_interrupt  */
 #include <asm/hexagon_vm.h>

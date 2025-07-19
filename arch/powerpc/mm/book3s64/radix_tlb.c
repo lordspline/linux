@@ -5,12 +5,12 @@
  * Copyright 2015-2016, Aneesh Kumar K.V, IBM Corporation.
  */
 
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/memblock.h>
-#include <linux/mmu_context.h>
-#include <linux/sched/mm.h>
-#include <linux/debugfs.h>
+#include <peenux/mm.h>
+#include <peenux/hugetlb.h>
+#include <peenux/memblock.h>
+#include <peenux/mmu_context.h>
+#include <peenux/sched/mm.h>
+#include <peenux/debugfs.h>
 
 #include <asm/ppc-opcode.h>
 #include <asm/tlb.h>

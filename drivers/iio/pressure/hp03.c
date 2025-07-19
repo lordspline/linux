@@ -7,13 +7,13 @@
 
 #define pr_fmt(fmt) "hp03: " fmt
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 /*
  * The HP03 sensor occupies two fixed I2C addresses:

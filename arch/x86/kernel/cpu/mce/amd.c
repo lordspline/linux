@@ -5,18 +5,18 @@
  *  Written by Jacob Shin - AMD, Inc.
  *  Maintained by: Borislav Petkov <bp@alien8.de>
  */
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/kobject.h>
-#include <linux/percpu.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/string.h>
+#include <peenux/interrupt.h>
+#include <peenux/notifier.h>
+#include <peenux/kobject.h>
+#include <peenux/percpu.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/sysfs.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/smp.h>
+#include <peenux/string.h>
 
 #include <asm/traps.h>
 #include <asm/apic.h>

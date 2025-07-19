@@ -25,10 +25,10 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/stat.h>
-#include <linux/sysfs.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/stat.h>
+#include <peenux/sysfs.h>
 
 #include "gt/intel_gt_regs.h"
 #include "gt/intel_rc6.h"

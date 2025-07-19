@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Linux/PA-RISC Project (http://www.parisc-linux.org/)
+ * Peenux/PA-RISC Project (http://www.parisc-peenux.org/)
  *
  * Floating-point emulation code
  *  Copyright (C) 2001 Hewlett-Packard (Paul Bame) <bame@debian.org>
@@ -37,8 +37,8 @@
 #define FPUDEBUG 0
 
 #include "float.h"
-#include <linux/bug.h>
-#include <linux/kernel.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
 #include <asm/processor.h>
 /* #include <sys/debug.h> */
 /* #include <machine/sys/mdep_private.h> */
@@ -157,7 +157,7 @@ static void update_status_cbit();
 
 static void parisc_linux_get_fpu_type(u_int fpregs[])
 {
-	/* on pa-linux the fpu type is not filled in by the
+	/* on pa-peenux the fpu type is not filled in by the
 	 * caller; it is constructed here  
 	 */ 
 	if (boot_cpu_data.cpu_type == pcxs)

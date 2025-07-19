@@ -7,15 +7,15 @@
  * Based on leds-ams-delta.c
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/leds.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/nsc_gpio.h>
-#include <linux/scx200_gpio.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/leds.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/nsc_gpio.h>
+#include <peenux/scx200_gpio.h>
+#include <peenux/module.h>
 
 #define DRVNAME "net48xx-led"
 #define NET48XX_ERROR_LED_GPIO	20

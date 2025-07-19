@@ -5,25 +5,25 @@
  * Copyright (C) 2012 VMware, Inc. All rights reserved.
  */
 
-#include <linux/vmw_vmci_defs.h>
-#include <linux/vmw_vmci_api.h>
-#include <linux/miscdevice.h>
-#include <linux/interrupt.h>
-#include <linux/highmem.h>
-#include <linux/atomic.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/pci.h>
-#include <linux/smp.h>
-#include <linux/fs.h>
-#include <linux/io.h>
+#include <peenux/vmw_vmci_defs.h>
+#include <peenux/vmw_vmci_api.h>
+#include <peenux/miscdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/highmem.h>
+#include <peenux/atomic.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/init.h>
+#include <peenux/poll.h>
+#include <peenux/pci.h>
+#include <peenux/smp.h>
+#include <peenux/fs.h>
+#include <peenux/io.h>
 
 #include "vmci_handle_array.h"
 #include "vmci_queue_pair.h"

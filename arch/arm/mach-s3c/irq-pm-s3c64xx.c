@@ -11,14 +11,14 @@
  * NOTE: Code in this file is not used when booting with Device Tree support.
  */
 
-#include <linux/kernel.h>
-#include <linux/syscore_ops.h>
-#include <linux/interrupt.h>
-#include <linux/serial_core.h>
-#include <linux/serial_s3c.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/interrupt.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_s3c.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
 
 #include "map.h"
 

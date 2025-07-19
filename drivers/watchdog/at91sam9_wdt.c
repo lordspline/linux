@@ -8,30 +8,30 @@
 
 /*
  * The Watchdog Timer Mode Register can be only written to once. If the
- * timeout need to be set from Linux, be sure that the bootstrap or the
+ * timeout need to be set from Peenux, be sure that the bootstrap or the
  * bootloader doesn't write to this register.
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
-#include <linux/jiffies.h>
-#include <linux/timer.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <peenux/clk.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
+#include <peenux/jiffies.h>
+#include <peenux/timer.h>
+#include <peenux/bitops.h>
+#include <peenux/uaccess.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
 
 #include "at91sam9_wdt.h"
 

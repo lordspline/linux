@@ -8,14 +8,14 @@
 #ifndef __LINUX_MTD_MAP_H__
 #define __LINUX_MTD_MAP_H__
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/string.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/barrier.h>
 
 #ifdef CONFIG_MTD_MAP_BANK_WIDTH_1

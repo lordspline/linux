@@ -2,19 +2,19 @@
 #ifndef __LINUX_GPIO_DRIVER_H
 #define __LINUX_GPIO_DRIVER_H
 
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/irqhandler.h>
-#include <linux/lockdep.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/property.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/util_macros.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqhandler.h>
+#include <peenux/lockdep.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/property.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/types.h>
+#include <peenux/util_macros.h>
 
 #ifdef CONFIG_GENERIC_MSI_IRQ
 #include <asm/msi.h>
@@ -60,7 +60,7 @@ struct gpio_irq_chip {
 	 * @domain:
 	 *
 	 * Interrupt translation domain; responsible for mapping between GPIO
-	 * hwirq number and Linux IRQ number.
+	 * hwirq number and Peenux IRQ number.
 	 */
 	struct irq_domain *domain;
 

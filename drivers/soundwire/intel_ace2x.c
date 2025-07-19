@@ -5,12 +5,12 @@
  * Soundwire Intel ops for LunarLake
  */
 
-#include <linux/acpi.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_intel.h>
+#include <peenux/acpi.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_intel.h>
 #include <sound/hdaudio.h>
 #include <sound/hda-mlink.h>
 #include <sound/hda-sdw-bpt.h>

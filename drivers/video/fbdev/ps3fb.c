@@ -1,12 +1,12 @@
 /*
- *  linux/drivers/video/ps3fb.c -- PS3 GPU frame buffer device
+ *  peenux/drivers/video/ps3fb.c -- PS3 GPU frame buffer device
  *
  *	Copyright (C) 2006 Sony Computer Entertainment Inc.
  *	Copyright 2006, 2007 Sony Corporation
  *
  *  This file is based on :
  *
- *  linux/drivers/video/vfb.c -- Virtual frame buffer device
+ *  peenux/drivers/video/vfb.c -- Virtual frame buffer device
  *
  *	Copyright (C) 2002 James Simmons
  *
@@ -17,20 +17,20 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/console.h>
-#include <linux/ioctl.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/uaccess.h>
-#include <linux/fb.h>
-#include <linux/fbcon.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/console.h>
+#include <peenux/ioctl.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
+#include <peenux/uaccess.h>
+#include <peenux/fb.h>
+#include <peenux/fbcon.h>
+#include <peenux/init.h>
 
 #include <asm/cell-regs.h>
 #include <asm/lv1call.h>

@@ -5,23 +5,23 @@
  * Author: Boris BREZILLON <b.brezillon@overkiz.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include <soc/at91/atmel_tcb.h>
 
 #define NPWM	2

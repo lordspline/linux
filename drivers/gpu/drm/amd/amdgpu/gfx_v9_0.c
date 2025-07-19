@@ -21,11 +21,11 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "amdgpu.h"
 #include "amdgpu_gfx.h"

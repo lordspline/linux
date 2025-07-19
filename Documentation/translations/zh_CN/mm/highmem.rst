@@ -146,6 +146,6 @@ i386 PAE
 
 该API在以下内核代码中:
 
-include/linux/highmem.h
+include/peenux/highmem.h
 
-include/linux/highmem-internal.h
+include/peenux/highmem-internal.h

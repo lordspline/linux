@@ -2,10 +2,10 @@
 #ifndef _FS_RESCTRL_INTERNAL_H
 #define _FS_RESCTRL_INTERNAL_H
 
-#include <linux/resctrl.h>
-#include <linux/kernfs.h>
-#include <linux/fs_context.h>
-#include <linux/tick.h>
+#include <peenux/resctrl.h>
+#include <peenux/kernfs.h>
+#include <peenux/fs_context.h>
+#include <peenux/tick.h>
 
 #define CQM_LIMBOCHECK_INTERVAL	1000
 

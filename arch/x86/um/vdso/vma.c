@@ -3,12 +3,12 @@
  * Copyright (C) 2011 Richard Weinberger <richrd@nod.at>
  */
 
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
 #include <asm/page.h>
 #include <asm/elf.h>
-#include <linux/init.h>
+#include <peenux/init.h>
 
 static unsigned int __read_mostly vdso_enabled = 1;
 unsigned long um_vdso_addr;

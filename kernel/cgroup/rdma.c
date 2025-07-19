@@ -8,12 +8,12 @@
  * Copyright (C) 2016 Parav Pandit <pandit.parav@gmail.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/cgroup.h>
-#include <linux/parser.h>
-#include <linux/cgroup_rdma.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/cgroup.h>
+#include <peenux/parser.h>
+#include <peenux/cgroup_rdma.h>
 
 #define RDMACG_MAX_STR "max"
 

@@ -9,9 +9,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": %s: " fmt, __func__
 
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/ktime.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/ktime.h>
 
 #include <media/dvb_demux.h>
 #include <media/dmxdev.h>

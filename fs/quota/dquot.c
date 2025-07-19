@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Implementation of the diskquota system for the LINUX operating system. QUOTA
+ * Implementation of the diskquota system for the PEENUX operating system. QUOTA
  * is implemented using the BSD system call interface as the means of
  * communication with the user level. This file contains the generic routines
  * called by the different filesystems on allocation of an inode or block.
  * These routines take care of the administration needed to have a consistent
  * diskquota tracking system. The ideas of both user and group quotas are based
  * on the Melbourne quota system as used on BSD derived systems. The internal
- * implementation is based on one of the several variants of the LINUX
+ * implementation is based on one of the several variants of the PEENUX
  * inode-subsystem with added complexity of the diskquota system.
  *
  * Author:	Marco van Wieringen <mvw@planets.elm.net>
@@ -54,34 +54,34 @@
  * (C) Copyright 1994 - 1997 Marco van Wieringen
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/mm.h>
-#include <linux/time.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/stat.h>
-#include <linux/tty.h>
-#include <linux/file.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/security.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/kmod.h>
-#include <linux/namei.h>
-#include <linux/capability.h>
-#include <linux/quotaops.h>
-#include <linux/blkdev.h>
-#include <linux/sched/mm.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
+#include <peenux/mm.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/fcntl.h>
+#include <peenux/stat.h>
+#include <peenux/tty.h>
+#include <peenux/file.h>
+#include <peenux/slab.h>
+#include <peenux/sysctl.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/security.h>
+#include <peenux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/kmod.h>
+#include <peenux/namei.h>
+#include <peenux/capability.h>
+#include <peenux/quotaops.h>
+#include <peenux/blkdev.h>
+#include <peenux/sched/mm.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /*
  * There are five quota SMP locks:

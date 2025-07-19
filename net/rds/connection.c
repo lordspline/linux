@@ -30,10 +30,10 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 #include <net/ipv6.h>
 #include <net/inet6_hashtables.h>
 #include <net/addrconf.h>

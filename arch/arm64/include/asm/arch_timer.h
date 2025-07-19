@@ -12,11 +12,11 @@
 #include <asm/hwcap.h>
 #include <asm/sysreg.h>
 
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/jump_label.h>
-#include <linux/percpu.h>
-#include <linux/types.h>
+#include <peenux/bug.h>
+#include <peenux/init.h>
+#include <peenux/jump_label.h>
+#include <peenux/percpu.h>
+#include <peenux/types.h>
 
 #include <clocksource/arm_arch_timer.h>
 

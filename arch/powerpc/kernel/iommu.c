@@ -10,24 +10,24 @@
  */
 
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/dma-mapping.h>
-#include <linux/bitmap.h>
-#include <linux/iommu-helper.h>
-#include <linux/crash_dump.h>
-#include <linux/hash.h>
-#include <linux/fault-inject.h>
-#include <linux/pci.h>
-#include <linux/iommu.h>
-#include <linux/sched.h>
-#include <linux/debugfs.h>
-#include <linux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/bitmap.h>
+#include <peenux/iommu-helper.h>
+#include <peenux/crash_dump.h>
+#include <peenux/hash.h>
+#include <peenux/fault-inject.h>
+#include <peenux/pci.h>
+#include <peenux/iommu.h>
+#include <peenux/sched.h>
+#include <peenux/debugfs.h>
+#include <peenux/vmalloc.h>
 #include <asm/io.h>
 #include <asm/iommu.h>
 #include <asm/pci-bridge.h>

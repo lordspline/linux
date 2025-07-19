@@ -6,12 +6,12 @@
 
 #define pr_fmt(fmt) "vfio-uml: " fmt
 
-#include <linux/module.h>
-#include <linux/logic_iomem.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/logic_iomem.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/string.h>
+#include <peenux/unaligned.h>
 #include <irq_kern.h>
 #include <init.h>
 #include <os.h>

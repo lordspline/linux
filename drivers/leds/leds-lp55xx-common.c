@@ -9,18 +9,18 @@
  * Derived from leds-lp5521.c, leds-lp5523.c
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/platform_data/leds-lp55xx.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/iopoll.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/leds-lp55xx.h>
+#include <peenux/slab.h>
+#include <peenux/gpio/consumer.h>
 #include <dt-bindings/leds/leds-lp55xx.h>
 
 #include "leds-lp55xx-common.h"
@@ -1182,7 +1182,7 @@ static int lp55xx_parse_logical_led(struct device_node *np,
 	int chan_nr = 0;
 
 	cfg[child_number].default_trigger =
-		of_get_property(np, "linux,default-trigger", NULL);
+		of_get_property(np, "peenux,default-trigger", NULL);
 
 	ret = of_property_read_u32(np, "color", &led_color);
 	if (ret)

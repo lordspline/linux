@@ -2,11 +2,11 @@
 /*
  * KUnit tests for device tree overlays
  */
-#include <linux/device/bus.h>
-#include <linux/kconfig.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/device/bus.h>
+#include <peenux/kconfig.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <kunit/of.h>
 #include <kunit/test.h>

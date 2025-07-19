@@ -6,14 +6,14 @@
  * Author: Catalin Marinas <catalin.marinas@arm.com>
  */
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
+#include <peenux/compiler.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
 
 #include <asm/cpufeature.h>
 #include <asm/syscall.h>

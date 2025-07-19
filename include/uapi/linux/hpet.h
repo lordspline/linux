@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _UAPI__HPET__
 #define _UAPI__HPET__
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 
 struct hpet_info {

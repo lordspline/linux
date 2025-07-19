@@ -28,7 +28,7 @@
 /*
  * Small helper utilities.
  */
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include <asm/octeon/octeon.h>
 

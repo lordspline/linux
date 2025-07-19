@@ -11,11 +11,11 @@
 	Abstract: rt2x00 generic soc device routines.
  */
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "rt2x00.h"
 #include "rt2x00soc.h"

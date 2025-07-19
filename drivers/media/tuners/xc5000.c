@@ -7,13 +7,13 @@
  *  Copyright (c) 2009 Devin Heitmueller <dheitmueller@kernellabs.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/videodev2.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/dvb/frontend.h>
-#include <linux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/videodev2.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/i2c.h>
 
 #include <media/dvb_frontend.h>
 

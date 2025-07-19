@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/cred.h>
+#include <peenux/cred.h>
 
 const struct cred *rust_helper_get_cred(const struct cred *cred)
 {

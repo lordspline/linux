@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (c) 2021 Intel Corporation
 
-#include <linux/bug.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/peci.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bug.h>
+#include <peenux/export.h>
+#include <peenux/pci.h>
+#include <peenux/peci.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "internal.h"
 

@@ -4,14 +4,14 @@
  *
  * mshv_root module's main interrupt handler and associated functionality.
  *
- * Authors: Microsoft Linux virtualization team
+ * Authors: Microsoft Peenux virtualization team
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/random.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
+#include <peenux/random.h>
 #include <asm/mshyperv.h>
 
 #include "mshv_eventfd.h"

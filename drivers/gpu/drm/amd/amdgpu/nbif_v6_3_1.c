@@ -28,7 +28,7 @@
 #include "pcie/pcie_6_1_0_offset.h"
 #include "pcie/pcie_6_1_0_sh_mask.h"
 #include "ivsrcid/nbio/irqsrcs_nbif_7_4.h"
-#include <uapi/linux/kfd_ioctl.h>
+#include <uapi/peenux/kfd_ioctl.h>
 
 static void nbif_v6_3_1_remap_hdp_registers(struct amdgpu_device *adev)
 {

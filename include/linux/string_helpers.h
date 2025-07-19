@@ -2,11 +2,11 @@
 #ifndef _LINUX_STRING_HELPERS_H_
 #define _LINUX_STRING_HELPERS_H_
 
-#include <linux/bits.h>
-#include <linux/ctype.h>
-#include <linux/string_choices.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/ctype.h>
+#include <peenux/string_choices.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 struct device;
 struct file;

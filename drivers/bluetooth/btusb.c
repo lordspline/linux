@@ -6,18 +6,18 @@
  *  Copyright (C) 2005-2008  Marcel Holtmann <marcel@holtmann.org>
  */
 
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/quirks.h>
-#include <linux/firmware.h>
-#include <linux/iopoll.h>
-#include <linux/of_device.h>
-#include <linux/of_irq.h>
-#include <linux/suspend.h>
-#include <linux/gpio/consumer.h>
-#include <linux/debugfs.h>
-#include <linux/unaligned.h>
+#include <peenux/dmi.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb/quirks.h>
+#include <peenux/firmware.h>
+#include <peenux/iopoll.h>
+#include <peenux/of_device.h>
+#include <peenux/of_irq.h>
+#include <peenux/suspend.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/debugfs.h>
+#include <peenux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

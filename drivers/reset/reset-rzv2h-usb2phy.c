@@ -5,15 +5,15 @@
  * Copyright (C) 2025 Renesas Electronics Corporation
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/reset-controller.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/reset-controller.h>
 
 struct rzv2h_usb2phy_regval {
 	u16 reg;

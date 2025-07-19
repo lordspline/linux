@@ -5,12 +5,12 @@
 #ifndef __DEVCOREDUMP_H
 #define __DEVCOREDUMP_H
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
 
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
 
 /* if data isn't read by userspace after 5 minutes then delete it */
 #define DEVCD_TIMEOUT	(HZ * 60 * 5)

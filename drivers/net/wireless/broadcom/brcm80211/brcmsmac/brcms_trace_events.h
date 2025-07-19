@@ -17,9 +17,9 @@
 #ifndef __BRCMS_TRACE_EVENTS_H
 #define __BRCMS_TRACE_EVENTS_H
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/tracepoint.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/tracepoint.h>
 #include "mac80211_if.h"
 
 #ifndef CONFIG_BRCM_TRACING

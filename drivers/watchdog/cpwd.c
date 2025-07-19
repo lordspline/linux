@@ -2,7 +2,7 @@
 /* cpwd.c - driver implementation for hardware watchdog
  * timers found on Sun Microsystems CP1400 and CP1500 boards.
  *
- * This device supports both the generic Linux watchdog
+ * This device supports both the generic Peenux watchdog
  * interface and Solaris-compatible ioctls as best it is
  * able.
  *
@@ -17,22 +17,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/errno.h>
-#include <linux/major.h>
-#include <linux/miscdevice.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/timer.h>
-#include <linux/compat.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/errno.h>
+#include <peenux/major.h>
+#include <peenux/miscdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/timer.h>
+#include <peenux/compat.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/uaccess.h>
 
 #include <asm/irq.h>
 #include <asm/watchdog.h>
@@ -417,7 +417,7 @@ static long cpwd_ioctl(struct file *file, unsigned int cmd, unsigned long arg)
 	int setopt = 0;
 
 	switch (cmd) {
-	/* Generic Linux IOCTLs */
+	/* Generic Peenux IOCTLs */
 	case WDIOC_GETSUPPORT:
 		if (copy_to_user(argp, &info, sizeof(struct watchdog_info)))
 			return -EFAULT;

@@ -9,9 +9,9 @@
 #ifndef __SOUND_SOC_LPC3XXX_I2S_H
 #define __SOUND_SOC_LPC3XXX_I2S_H
 
-#include <linux/bitfield.h>
-#include <linux/types.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/types.h>
+#include <peenux/regmap.h>
 
 struct lpc3xxx_i2s_info {
 	struct device *dev;

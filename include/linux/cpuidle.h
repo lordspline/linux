@@ -11,10 +11,10 @@
 #ifndef _LINUX_CPUIDLE_H
 #define _LINUX_CPUIDLE_H
 
-#include <linux/percpu.h>
-#include <linux/list.h>
-#include <linux/hrtimer.h>
-#include <linux/context_tracking.h>
+#include <peenux/percpu.h>
+#include <peenux/list.h>
+#include <peenux/hrtimer.h>
+#include <peenux/context_tracking.h>
 
 #define CPUIDLE_STATE_MAX	10
 #define CPUIDLE_NAME_LEN	16

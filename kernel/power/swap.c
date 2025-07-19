@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/kernel/power/swap.c
+ * peenux/kernel/power/swap.c
  *
  * This file provides functions for reading the suspend image from
  * and writing it to a swap partition.
@@ -13,23 +13,23 @@
 #define pr_fmt(fmt) "PM: " fmt
 
 #include <crypto/acompress.h>
-#include <linux/module.h>
-#include <linux/file.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/cpumask.h>
-#include <linux/atomic.h>
-#include <linux/kthread.h>
-#include <linux/crc32.h>
-#include <linux/ktime.h>
+#include <peenux/module.h>
+#include <peenux/file.h>
+#include <peenux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/cpumask.h>
+#include <peenux/atomic.h>
+#include <peenux/kthread.h>
+#include <peenux/crc32.h>
+#include <peenux/ktime.h>
 
 #include "power.h"
 

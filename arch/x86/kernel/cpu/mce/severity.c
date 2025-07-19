@@ -5,11 +5,11 @@
  *
  * Author: Andi Kleen
  */
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
 
 #include <asm/mce.h>
 #include <asm/cpu_device_id.h>

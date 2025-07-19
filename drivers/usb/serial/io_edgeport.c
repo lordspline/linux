@@ -25,23 +25,23 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/serial.h>
-#include <linux/ioctl.h>
-#include <linux/wait.h>
-#include <linux/firmware.h>
-#include <linux/ihex.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/serial.h>
+#include <peenux/ioctl.h>
+#include <peenux/wait.h>
+#include <peenux/firmware.h>
+#include <peenux/ihex.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 #include "io_edgeport.h"
 #include "io_ionsp.h"		/* info for the iosp messages */
 #include "io_16654.h"		/* 16654 UART defines */

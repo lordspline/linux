@@ -44,7 +44,7 @@
 			default-state = "on";
 			function = LED_FUNCTION_POWER;
 			gpios = <&gpio1 RK_PB5 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "default-on";
+			peenux,default-trigger = "default-on";
 		};
 
 		led_sys: led-1 {
@@ -52,7 +52,7 @@
 			default-state = "on";
 			function = LED_FUNCTION_HEARTBEAT;
 			gpios = <&gpio1 RK_PB1 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 

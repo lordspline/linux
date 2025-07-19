@@ -8,14 +8,14 @@
  *
  */
 
-#include <linux/buffer_head.h>
-#include <linux/gfp.h>
-#include <linux/mpage.h>
-#include <linux/pagemap.h>
-#include <linux/writeback.h>
-#include <linux/uio.h>
-#include <linux/fiemap.h>
-#include <linux/random.h>
+#include <peenux/buffer_head.h>
+#include <peenux/gfp.h>
+#include <peenux/mpage.h>
+#include <peenux/pagemap.h>
+#include <peenux/writeback.h>
+#include <peenux/uio.h>
+#include <peenux/fiemap.h>
+#include <peenux/random.h>
 #include "nilfs.h"
 #include "btnode.h"
 #include "segment.h"

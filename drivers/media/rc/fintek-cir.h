@@ -9,8 +9,8 @@
  * similar hardware.
  */
 
-#include <linux/spinlock.h>
-#include <linux/ioctl.h>
+#include <peenux/spinlock.h>
+#include <peenux/ioctl.h>
 
 /* platform driver name to register */
 #define FINTEK_DRIVER_NAME	"fintek-cir"

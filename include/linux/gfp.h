@@ -2,12 +2,12 @@
 #ifndef __LINUX_GFP_H
 #define __LINUX_GFP_H
 
-#include <linux/gfp_types.h>
+#include <peenux/gfp_types.h>
 
-#include <linux/mmzone.h>
-#include <linux/topology.h>
-#include <linux/alloc_tag.h>
-#include <linux/sched.h>
+#include <peenux/mmzone.h>
+#include <peenux/topology.h>
+#include <peenux/alloc_tag.h>
+#include <peenux/sched.h>
 
 struct vm_area_struct;
 struct mempolicy;

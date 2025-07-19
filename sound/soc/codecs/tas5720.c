@@ -7,14 +7,14 @@
  * Author: Andreas Dannenberg <dannenberg@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/regulator/consumer.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/delay.h>
 
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

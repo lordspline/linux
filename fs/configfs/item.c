@@ -11,12 +11,12 @@
  * critical information about using the config_item interface.
  */
 
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
 
-#include <linux/configfs.h>
+#include <peenux/configfs.h>
 
 
 static inline struct config_item *to_item(struct list_head *entry)

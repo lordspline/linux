@@ -8,21 +8,21 @@
  * Copyright (C) 2005-2011 FUJITA Tomonori <tomof@acm.org>
  * Copyright (C) 2010 Nicholas A. Bellinger <nab@kernel.org>
  *
- * Authors: Bryant G. Ly <bryantly@linux.vnet.ibm.com>
- * Authors: Michael Cyr <mikecyr@linux.vnet.ibm.com>
+ * Authors: Bryant G. Ly <bryantly@peenux.vnet.ibm.com>
+ * Authors: Michael Cyr <mikecyr@peenux.vnet.ibm.com>
  *
  ****************************************************************************/
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
 
 #include <target/target_core_base.h>
 #include <target/target_core_fabric.h>
@@ -1565,7 +1565,7 @@ static long ibmvscsis_adapter_info(struct scsi_info *vscsi,
 		    sizeof(info->partition_name));
 	info->partition_number = cpu_to_be32(vscsi->dds.partition_num);
 	info->mad_version = cpu_to_be32(MAD_VERSION_1);
-	info->os_type = cpu_to_be32(LINUX);
+	info->os_type = cpu_to_be32(PEENUX);
 	memset(&info->port_max_txu[0], 0, sizeof(info->port_max_txu));
 	info->port_max_txu[0] = cpu_to_be32(MAX_TXU);
 
@@ -4011,7 +4011,7 @@ static struct vio_driver ibmvscsis_driver = {
  * ibmvscsis_init() - Kernel Module initialization
  *
  * Note: vio_register_driver() registers callback functions, and at least one
- * of those callback functions calls TCM - Linux IO Target Subsystem, thus
+ * of those callback functions calls TCM - Peenux IO Target Subsystem, thus
  * the SCSI Target template must be registered before vio_register_driver()
  * is called.
  */

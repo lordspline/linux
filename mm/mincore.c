@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/mm/mincore.c
+ *	peenux/mm/mincore.c
  *
  * Copyright (C) 1994-2006  Linus Torvalds
  */
@@ -8,18 +8,18 @@
 /*
  * The mincore() system call.
  */
-#include <linux/pagemap.h>
-#include <linux/gfp.h>
-#include <linux/pagewalk.h>
-#include <linux/mman.h>
-#include <linux/syscalls.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/shmem_fs.h>
-#include <linux/hugetlb.h>
-#include <linux/pgtable.h>
+#include <peenux/pagemap.h>
+#include <peenux/gfp.h>
+#include <peenux/pagewalk.h>
+#include <peenux/mman.h>
+#include <peenux/syscalls.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/hugetlb.h>
+#include <peenux/pgtable.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include "swap.h"
 #include "internal.h"
 

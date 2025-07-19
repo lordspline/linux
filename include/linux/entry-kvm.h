@@ -2,12 +2,12 @@
 #ifndef __LINUX_ENTRYKVM_H
 #define __LINUX_ENTRYKVM_H
 
-#include <linux/static_call_types.h>
-#include <linux/resume_user_mode.h>
-#include <linux/syscalls.h>
-#include <linux/seccomp.h>
-#include <linux/sched.h>
-#include <linux/tick.h>
+#include <peenux/static_call_types.h>
+#include <peenux/resume_user_mode.h>
+#include <peenux/syscalls.h>
+#include <peenux/seccomp.h>
+#include <peenux/sched.h>
+#include <peenux/tick.h>
 
 /* Transfer to guest mode work */
 #ifdef CONFIG_KVM_XFER_TO_GUEST_WORK

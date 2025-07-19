@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
 
-#include <linux/ethtool.h>
-#include <linux/linkmode.h>
-#include <linux/netdevice.h>
-#include <linux/nvme.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/pci.h>
-#include <linux/rtnetlink.h>
+#include <peenux/ethtool.h>
+#include <peenux/linkmode.h>
+#include <peenux/netdevice.h>
+#include <peenux/nvme.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/pci.h>
+#include <peenux/rtnetlink.h>
 #include "funeth.h"
 #include "fun_port.h"
 #include "funeth_txrx.h"

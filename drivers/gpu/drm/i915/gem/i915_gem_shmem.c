@@ -3,9 +3,9 @@
  * Copyright © 2014-2016 Intel Corporation
  */
 
-#include <linux/pagevec.h>
-#include <linux/shmem_fs.h>
-#include <linux/swap.h>
+#include <peenux/pagevec.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/swap.h>
 
 #include <drm/drm_cache.h>
 

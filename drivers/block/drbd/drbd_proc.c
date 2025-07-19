@@ -11,14 +11,14 @@
 
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/uaccess.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/drbd.h>
+#include <peenux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/drbd.h>
 #include "drbd_int.h"
 
 struct proc_dir_entry *drbd_proc;

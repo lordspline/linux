@@ -5,12 +5,12 @@
  * Copyright 2007, Lennart Poettering
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/dmi.h>
-#include <linux/device.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/dmi.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
 
 struct dmi_device_attribute{
 	struct device_attribute dev_attr;

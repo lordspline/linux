@@ -5,14 +5,14 @@
  * Authors:	Thomas Graf <tgraf@suug.ch>
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/skbuff.h>
-#include <linux/textsearch.h>
-#include <linux/tc_ematch/tc_em_text.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/skbuff.h>
+#include <peenux/textsearch.h>
+#include <peenux/tc_ematch/tc_em_text.h>
 #include <net/pkt_cls.h>
 
 struct text_match {

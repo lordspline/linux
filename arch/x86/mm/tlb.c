@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/init.h>
+#include <peenux/init.h>
 
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/export.h>
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/sched/smt.h>
-#include <linux/task_work.h>
-#include <linux/mmu_notifier.h>
-#include <linux/mmu_context.h>
+#include <peenux/mm.h>
+#include <peenux/spinlock.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/export.h>
+#include <peenux/cpu.h>
+#include <peenux/debugfs.h>
+#include <peenux/sched/smt.h>
+#include <peenux/task_work.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/mmu_context.h>
 
 #include <asm/tlbflush.h>
 #include <asm/mmu_context.h>

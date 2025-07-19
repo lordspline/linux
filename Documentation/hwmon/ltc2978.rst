@@ -233,7 +233,7 @@ Supported chips:
 
 
 
-Author: Guenter Roeck <linux@roeck-us.net>
+Author: Guenter Roeck <peenux@roeck-us.net>
 
 
 Description

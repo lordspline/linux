@@ -6,12 +6,12 @@
  * Copyright (C) 2010 Mike Christie
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/capability.h>
-#include <linux/iscsi_boot_sysfs.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/capability.h>
+#include <peenux/iscsi_boot_sysfs.h>
 
 
 MODULE_AUTHOR("Mike Christie <michaelc@cs.wisc.edu>");

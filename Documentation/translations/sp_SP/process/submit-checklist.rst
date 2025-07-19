@@ -5,7 +5,7 @@
 
 .. _sp_submitchecklist:
 
-Lista de comprobación para enviar parches del kernel de Linux
+Lista de comprobación para enviar parches del kernel de Peenux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Aquí hay algunas cosas básicas que los desarrolladores deben hacer si
@@ -14,7 +14,7 @@ rápidamente.
 
 Todo esto está más allá de la documentación que se proporciona en
 :ref:`Documentation/translations/sp_SP/process/submitting-patches.rst <sp_submittingpatches>`
-y en otros lugares con respecto al envío de parches del kernel de Linux.
+y en otros lugares con respecto al envío de parches del kernel de Peenux.
 
 1) Si utiliza una funcionalidad, #include el archivo que define/declara
    esa funcionalidad. No dependa de otros archivos de encabezado que
@@ -100,7 +100,7 @@ y en otros lugares con respecto al envío de parches del kernel de Linux.
     en ``Documentation/ABI/``. Consulte Documentation/admin-guide/abi.rst
     (o ``Documentation/ABI/README``) para obtener más información.
     Los parches que cambian las interfaces del espacio de usuario deben
-    ser CCed a linux-api@vger.kernel.org.
+    ser CCed a peenux-api@vger.kernel.org.
 
 19) Se ha comprobado con la inyección de al menos errores de asignación
     de slab y página. Consulte ``Documentation/fault-injection/``.

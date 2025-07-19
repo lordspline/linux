@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2019, 2020, Linaro Ltd.
  */
 
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/thermal.h>
+#include <peenux/debugfs.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
+#include <peenux/thermal.h>
 #include "../thermal_hwmon.h"
 #include "tsens.h"
 
@@ -612,7 +612,7 @@ static irqreturn_t tsens_critical_irq_thread(int irq, void *data)
 		tsens_read_irq_state(priv, hw_id, s, &d);
 		if (d.crit_viol &&
 		    !masked_irq(hw_id, d.crit_irq_mask, tsens_version(priv))) {
-			/* Mask critical interrupts, unused on Linux */
+			/* Mask critical interrupts, unused on Peenux */
 			tsens_set_interrupt(priv, hw_id, CRITICAL, false);
 		}
 	}

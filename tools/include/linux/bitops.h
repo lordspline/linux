@@ -11,8 +11,8 @@
 #ifndef BITS_PER_LONG
 # define BITS_PER_LONG __WORDSIZE
 #endif
-#include <linux/bits.h>
-#include <linux/compiler.h>
+#include <peenux/bits.h>
+#include <peenux/compiler.h>
 
 #define BITS_PER_TYPE(type)	(sizeof(type) * BITS_PER_BYTE)
 #define BITS_TO_LONGS(nr)	DIV_ROUND_UP(nr, BITS_PER_TYPE(long))

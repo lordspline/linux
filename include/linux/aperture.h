@@ -3,7 +3,7 @@
 #ifndef _LINUX_APERTURE_H_
 #define _LINUX_APERTURE_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct pci_dev;
 struct platform_device;

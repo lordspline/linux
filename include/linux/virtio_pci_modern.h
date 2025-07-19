@@ -2,8 +2,8 @@
 #ifndef _LINUX_VIRTIO_PCI_MODERN_H
 #define _LINUX_VIRTIO_PCI_MODERN_H
 
-#include <linux/pci.h>
-#include <linux/virtio_pci.h>
+#include <peenux/pci.h>
+#include <peenux/virtio_pci.h>
 
 /**
  * struct virtio_pci_modern_device - info for modern PCI virtio

@@ -6,14 +6,14 @@
  * <tobita.tatsunosuke@wacom.co.jp>
  */
 
-#include <linux/bits.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/unaligned.h>
+#include <peenux/bits.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/unaligned.h>
 
 /* Bitmasks (for data[3]) */
 #define WACOM_TIP_SWITCH	BIT(0)

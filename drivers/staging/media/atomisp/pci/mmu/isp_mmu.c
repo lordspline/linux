@@ -9,18 +9,18 @@
 /*
  * ISP MMU management wrap code
  */
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/gfp.h>
-#include <linux/mm.h>		/* for GFP_ATOMIC */
-#include <linux/slab.h>		/* for kmalloc */
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/sizes.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/gfp.h>
+#include <peenux/mm.h>		/* for GFP_ATOMIC */
+#include <peenux/slab.h>		/* for kmalloc */
+#include <peenux/list.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/sizes.h>
 
 #ifdef CONFIG_X86
 #include <asm/set_memory.h>

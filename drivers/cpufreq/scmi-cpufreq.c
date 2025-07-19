@@ -8,19 +8,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/clk-provider.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpumask.h>
-#include <linux/energy_model.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/scmi_protocol.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/clk-provider.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/cpumask.h>
+#include <peenux/energy_model.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_qos.h>
+#include <peenux/slab.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 struct scmi_data {
 	int domain_id;

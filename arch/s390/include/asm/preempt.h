@@ -3,7 +3,7 @@
 #define __ASM_PREEMPT_H
 
 #include <asm/current.h>
-#include <linux/thread_info.h>
+#include <peenux/thread_info.h>
 #include <asm/atomic_ops.h>
 #include <asm/cmpxchg.h>
 #include <asm/march.h>

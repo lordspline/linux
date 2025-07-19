@@ -6,7 +6,7 @@
 #ifndef _XE_RTP_TYPES_
 #define _XE_RTP_TYPES_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "regs/xe_reg_defs.h"
 

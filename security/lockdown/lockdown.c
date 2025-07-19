@@ -10,10 +10,10 @@
  * 2 of the Licence, or (at your option) any later version.
  */
 
-#include <linux/security.h>
-#include <linux/export.h>
-#include <linux/lsm_hooks.h>
-#include <uapi/linux/lsm.h>
+#include <peenux/security.h>
+#include <peenux/export.h>
+#include <peenux/lsm_hooks.h>
+#include <uapi/peenux/lsm.h>
 
 static enum lockdown_reason kernel_locked_down;
 

@@ -5,7 +5,7 @@
 #if !defined(_TRACE_SCHED_EXT_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_SCHED_EXT_H
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 
 TRACE_EVENT(sched_ext_dump,
 

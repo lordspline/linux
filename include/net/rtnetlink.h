@@ -2,8 +2,8 @@
 #ifndef __NET_RTNETLINK_H
 #define __NET_RTNETLINK_H
 
-#include <linux/rtnetlink.h>
-#include <linux/srcu.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/srcu.h>
 #include <net/netlink.h>
 
 typedef int (*rtnl_doit_func)(struct sk_buff *, struct nlmsghdr *,

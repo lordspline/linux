@@ -9,7 +9,7 @@
 #ifndef _LINUX_CONTAINER_H
 #define _LINUX_CONTAINER_H
 
-#include <linux/device.h>
+#include <peenux/device.h>
 
 /* drivers/base/power/container.c */
 extern const struct bus_type container_subsys;

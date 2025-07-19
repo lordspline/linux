@@ -11,22 +11,22 @@
  *
  */
 
-#include <linux/ethtool.h>
-#include <linux/if_arp.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/mhi.h>
-#include <linux/mii.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/usbnet.h>
-#include <linux/usb/cdc_ncm.h>
-#include <linux/wwan.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_vlan.h>
+#include <peenux/ip.h>
+#include <peenux/mhi.h>
+#include <peenux/mii.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/u64_stats_sync.h>
+#include <peenux/usb.h>
+#include <peenux/usb/cdc.h>
+#include <peenux/usb/usbnet.h>
+#include <peenux/usb/cdc_ncm.h>
+#include <peenux/wwan.h>
 
 /* 3500 allows to optimize skb allocation, the skbs will basically fit in
  * one 4K page. Large MBIM packets will simply be split over several MHI

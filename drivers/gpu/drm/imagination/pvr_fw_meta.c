@@ -10,11 +10,11 @@
 #include "pvr_rogue_meta.h"
 #include "pvr_vm.h"
 
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/ktime.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/ktime.h>
+#include <peenux/types.h>
 
 #define ROGUE_FW_HEAP_META_SHIFT 25 /* 32 MB */
 

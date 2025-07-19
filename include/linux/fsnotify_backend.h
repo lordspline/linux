@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Filesystem access notification for Linux
+ * Filesystem access notification for Peenux
  *
  *  Copyright (C) 2008 Red Hat, Inc., Eric Paris <eparis@redhat.com>
  */
@@ -10,17 +10,17 @@
 
 #ifdef __KERNEL__
 
-#include <linux/idr.h> /* inotify uses this */
-#include <linux/fs.h> /* struct inode */
-#include <linux/list.h>
-#include <linux/path.h> /* struct path */
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/atomic.h>
-#include <linux/user_namespace.h>
-#include <linux/refcount.h>
-#include <linux/mempool.h>
-#include <linux/sched/mm.h>
+#include <peenux/idr.h> /* inotify uses this */
+#include <peenux/fs.h> /* struct inode */
+#include <peenux/list.h>
+#include <peenux/path.h> /* struct path */
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/user_namespace.h>
+#include <peenux/refcount.h>
+#include <peenux/mempool.h>
+#include <peenux/sched/mm.h>
 
 /*
  * IN_* from inotfy.h lines up EXACTLY with FS_*, this is so we can easily

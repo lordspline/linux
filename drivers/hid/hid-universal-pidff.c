@@ -8,10 +8,10 @@
  * Copyright (c) 2024, 2025 Tomasz Pakuła
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/input-event-codes.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/input-event-codes.h>
 #include "hid-ids.h"
 #include "usbhid/hid-pidff.h"
 

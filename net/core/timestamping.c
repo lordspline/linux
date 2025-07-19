@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2010 OMICRON electronics GmbH
  */
-#include <linux/errqueue.h>
-#include <linux/phy.h>
-#include <linux/ptp_classify.h>
-#include <linux/skbuff.h>
-#include <linux/export.h>
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/errqueue.h>
+#include <peenux/phy.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/skbuff.h>
+#include <peenux/export.h>
+#include <peenux/ptp_clock_kernel.h>
 
 static unsigned int classify(const struct sk_buff *skb)
 {

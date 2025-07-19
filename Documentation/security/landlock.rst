@@ -137,4 +137,4 @@ Additional documentation
 
 .. Links
 .. _tools/testing/selftests/landlock/:
-   https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/landlock/
+   https://git.kernel.org/pub/scm/peenux/kernel/git/stable/peenux.git/tree/tools/testing/selftests/landlock/

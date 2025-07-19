@@ -2,13 +2,13 @@
 #ifndef __PERF_DSO
 #define __PERF_DSO
 
-#include <linux/refcount.h>
-#include <linux/types.h>
-#include <linux/rbtree.h>
+#include <peenux/refcount.h>
+#include <peenux/types.h>
+#include <peenux/rbtree.h>
 #include <sys/types.h>
 #include <stdbool.h>
 #include <stdio.h>
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 #include "build-id.h"
 #include "mutex.h"
 #include <internal/rc_check.h>

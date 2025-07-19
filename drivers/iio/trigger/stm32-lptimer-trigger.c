@@ -9,12 +9,12 @@
  * Inspired by Benjamin Gaignard's stm32-timer-trigger driver
  */
 
-#include <linux/iio/timer/stm32-lptim-trigger.h>
-#include <linux/mfd/stm32-lptimer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/iio/timer/stm32-lptim-trigger.h>
+#include <peenux/mfd/stm32-lptimer.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 /* Maximum triggers + one trailing null entry to indicate the end of array */
 #define MAX_TRIGGERS 3

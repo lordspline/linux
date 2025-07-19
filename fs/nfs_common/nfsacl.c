@@ -21,13 +21,13 @@
  *    of (e_tag, e_id). Solaris ACLs are unsorted.
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/sunrpc/xdr.h>
-#include <linux/nfsacl.h>
-#include <linux/nfs3.h>
-#include <linux/sort.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/gfp.h>
+#include <peenux/sunrpc/xdr.h>
+#include <peenux/nfsacl.h>
+#include <peenux/nfs3.h>
+#include <peenux/sort.h>
 
 MODULE_DESCRIPTION("NFS ACL support");
 MODULE_LICENSE("GPL");

@@ -31,16 +31,16 @@
  * 1. Write wiper setting to EEPROM for EEPROM capable models.
  */
 
-#include <linux/cache.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
+#include <peenux/cache.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/types.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/spi/spi.h>
 
 #define MCP4131_WRITE		(0x00 << 2)
 #define MCP4131_READ		(0x03 << 2)

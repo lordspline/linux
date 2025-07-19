@@ -6,12 +6,12 @@
  *	(C) CC Computer Consultants GmbH, 2008
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_iprange.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_iprange.h>
 
 static bool
 iprange_mt4(const struct sk_buff *skb, struct xt_action_param *par)

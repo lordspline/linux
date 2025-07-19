@@ -5,10 +5,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/netfilter.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
+#include <peenux/netfilter.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/moduleparam.h>
 
 #include <net/netfilter/nf_conntrack.h>
 #include <net/netfilter/nf_conntrack_extend.h>

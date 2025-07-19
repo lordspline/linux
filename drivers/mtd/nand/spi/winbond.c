@@ -7,10 +7,10 @@
  *	Boris Brezillon <boris.brezillon@bootlin.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mtd/spinand.h>
-#include <linux/units.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/mtd/spinand.h>
+#include <peenux/units.h>
 
 #define SPINAND_MFR_WINBOND		0xEF
 

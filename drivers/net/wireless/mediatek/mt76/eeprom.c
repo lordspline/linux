@@ -2,12 +2,12 @@
 /*
  * Copyright (C) 2016 Felix Fietkau <nbd@nbd.name>
  */
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/etherdevice.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/etherdevice.h>
 #include "mt76.h"
 
 static int mt76_get_of_eeprom_data(struct mt76_dev *dev, void *eep, int len)

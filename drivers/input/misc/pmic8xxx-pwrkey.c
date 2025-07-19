@@ -2,16 +2,16 @@
 /* Copyright (c) 2010-2011, Code Aurora Forum. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/log2.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/log2.h>
+#include <peenux/of.h>
 
 #define PON_CNTL_1 0x1C
 #define PON_CNTL_PULL_UP BIT(7)

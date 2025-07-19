@@ -11,15 +11,15 @@
  * Special thanks to Video BG4 project team.
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/ktime.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/mm.h>
+#include <peenux/dma-mapping.h>
 
 #include "sdhci-pltfm.h"
 #include "sdhci-xenon.h"

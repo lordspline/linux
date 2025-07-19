@@ -27,13 +27,13 @@
 #include "super-io.h"
 #include "util.h"
 
-#include <linux/sort.h>
-#include <linux/string_choices.h>
+#include <peenux/sort.h>
+#include <peenux/string_choices.h>
 
 #ifdef __KERNEL__
 
-#include <linux/raid/pq.h>
-#include <linux/raid/xor.h>
+#include <peenux/raid/pq.h>
+#include <peenux/raid/xor.h>
 
 static void raid5_recov(unsigned disks, unsigned failed_idx,
 			size_t size, void **data)

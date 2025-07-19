@@ -5,17 +5,17 @@
  * Copyright (c) 2007 Herbert Xu <herbert@gondor.apana.org.au>
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netfilter.h>
-#include <linux/rtnetlink.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/tc_act/tc_nat.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netfilter.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/tc_act/tc_nat.h>
 #include <net/act_api.h>
 #include <net/pkt_cls.h>
 #include <net/icmp.h>

@@ -8,7 +8,7 @@ title: SPEAr3xx Shared IRQ controller
 
 maintainers:
   - Viresh Kumar <vireshk@kernel.org>
-  - Shiraz Hashim <shiraz.linux.kernel@gmail.com>
+  - Shiraz Hashim <shiraz.peenux.kernel@gmail.com>
 
 description: |
   SPEAr3xx architecture includes shared/multiplexed irqs for certain set of

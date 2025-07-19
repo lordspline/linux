@@ -2,12 +2,12 @@
 /*
  * Copyright(c) 2013-2015 Intel Corporation. All rights reserved.
  */
-#include <linux/blkdev.h>
-#include <linux/device.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
+#include <peenux/blkdev.h>
+#include <peenux/device.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
 #include "nd-core.h"
 #include "btt.h"
 #include "nd.h"

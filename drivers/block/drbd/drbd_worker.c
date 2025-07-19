@@ -11,18 +11,18 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/drbd.h>
-#include <linux/sched/signal.h>
-#include <linux/wait.h>
-#include <linux/mm.h>
-#include <linux/memcontrol.h>
-#include <linux/mm_inline.h>
-#include <linux/slab.h>
-#include <linux/random.h>
-#include <linux/string.h>
-#include <linux/scatterlist.h>
-#include <linux/part_stat.h>
+#include <peenux/module.h>
+#include <peenux/drbd.h>
+#include <peenux/sched/signal.h>
+#include <peenux/wait.h>
+#include <peenux/mm.h>
+#include <peenux/memcontrol.h>
+#include <peenux/mm_inline.h>
+#include <peenux/slab.h>
+#include <peenux/random.h>
+#include <peenux/string.h>
+#include <peenux/scatterlist.h>
+#include <peenux/part_stat.h>
 
 #include "drbd_int.h"
 #include "drbd_protocol.h"

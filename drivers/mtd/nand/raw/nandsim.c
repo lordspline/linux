@@ -12,27 +12,27 @@
 
 #define pr_fmt(fmt)  "[nandsim]" fmt
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/vmalloc.h>
-#include <linux/math64.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/vmalloc.h>
+#include <peenux/math64.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/delay.h>
+#include <peenux/list.h>
+#include <peenux/random.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/seq_file.h>
+#include <peenux/debugfs.h>
 
 /* Default simulator parameters values */
 #if !defined(CONFIG_NANDSIM_FIRST_ID_BYTE)  || \

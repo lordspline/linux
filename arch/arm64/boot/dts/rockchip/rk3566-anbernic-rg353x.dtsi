@@ -3,7 +3,7 @@
 /dts-v1/;
 
 #include <dt-bindings/gpio/gpio.h>
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/peenux-event-codes.h>
 #include <dt-bindings/pinctrl/rockchip.h>
 #include "rk3566-anbernic-rgxx3.dtsi"
 
@@ -25,7 +25,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <1023 15>;
-			linux,code = <ABS_X>;
+			peenux,code = <ABS_X>;
 		};
 
 		axis@1 {
@@ -33,7 +33,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <15 1023>;
-			linux,code = <ABS_RX>;
+			peenux,code = <ABS_RX>;
 		};
 
 		axis@2 {
@@ -41,7 +41,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <15 1023>;
-			linux,code = <ABS_Y>;
+			peenux,code = <ABS_Y>;
 		};
 
 		axis@3 {
@@ -49,7 +49,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <1023 15>;
-			linux,code = <ABS_RY>;
+			peenux,code = <ABS_RY>;
 		};
 	};
 
@@ -130,37 +130,37 @@
 	button-a {
 		gpios = <&gpio3 RK_PC2 GPIO_ACTIVE_LOW>;
 		label = "EAST";
-		linux,code = <BTN_EAST>;
+		peenux,code = <BTN_EAST>;
 	};
 
 	button-left {
 		gpios = <&gpio3 RK_PA6 GPIO_ACTIVE_LOW>;
 		label = "DPAD-LEFT";
-		linux,code = <BTN_DPAD_LEFT>;
+		peenux,code = <BTN_DPAD_LEFT>;
 	};
 
 	button-right {
 		gpios = <&gpio3 RK_PA5 GPIO_ACTIVE_LOW>;
 		label = "DPAD-RIGHT";
-		linux,code = <BTN_DPAD_RIGHT>;
+		peenux,code = <BTN_DPAD_RIGHT>;
 	};
 
 	button-thumbl {
 		gpios = <&gpio3 RK_PA1 GPIO_ACTIVE_LOW>;
 		label = "THUMBL";
-		linux,code = <BTN_THUMBL>;
+		peenux,code = <BTN_THUMBL>;
 	};
 
 	button-thumbr {
 		gpios = <&gpio3 RK_PA2 GPIO_ACTIVE_LOW>;
 		label = "THUMBR";
-		linux,code = <BTN_THUMBR>;
+		peenux,code = <BTN_THUMBR>;
 	};
 
 	button-y {
 		gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_LOW>;
 		label = "WEST";
-		linux,code = <BTN_WEST>;
+		peenux,code = <BTN_WEST>;
 	};
 };
 

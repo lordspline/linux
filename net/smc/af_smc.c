@@ -12,22 +12,22 @@
  *
  *  Copyright IBM Corp. 2016, 2018
  *
- *  Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ *  Author(s):  Ursula Braun <ubraun@peenux.vnet.ibm.com>
  *              based on prototype from Frank Blaschka
  */
 
 #define KMSG_COMPONENT "smc"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/socket.h>
-#include <linux/workqueue.h>
-#include <linux/in.h>
-#include <linux/sched/signal.h>
-#include <linux/if_vlan.h>
-#include <linux/rcupdate_wait.h>
-#include <linux/ctype.h>
-#include <linux/splice.h>
+#include <peenux/module.h>
+#include <peenux/socket.h>
+#include <peenux/workqueue.h>
+#include <peenux/in.h>
+#include <peenux/sched/signal.h>
+#include <peenux/if_vlan.h>
+#include <peenux/rcupdate_wait.h>
+#include <peenux/ctype.h>
+#include <peenux/splice.h>
 
 #include <net/sock.h>
 #include <net/inet_common.h>
@@ -3672,7 +3672,7 @@ static void __exit smc_exit(void)
 module_init(smc_init);
 module_exit(smc_exit);
 
-MODULE_AUTHOR("Ursula Braun <ubraun@linux.vnet.ibm.com>");
+MODULE_AUTHOR("Ursula Braun <ubraun@peenux.vnet.ibm.com>");
 MODULE_DESCRIPTION("smc socket address family");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS_NETPROTO(PF_SMC);

@@ -9,7 +9,7 @@
     英文版维护者： Greg Kroah-Hartman <greg@kroah.com>
     中文版维护者： 李阳  Li Yang <leoyang.li@nxp.com>
     中文版翻译者： 李阳  Li Yang <leoyang.li@nxp.com>
-                   时奎亮 Alex Shi <alex.shi@linux.alibaba.com>
+                   时奎亮 Alex Shi <alex.shi@peenux.alibaba.com>
     中文版校译者:
                    钟宇  TripleX Chung <xxx.phy@gmail.com>
                    陈琦  Maggie Chen <chenqi@beyondsoft.com>
@@ -110,9 +110,9 @@ Linux内核代码中包含有大量的文档。这些文档对于学习如何与
 
         https://www.ozlabs.org/~akpm/stuff/tpp.txt
 
-    "Linux kernel patch submission format"
+    "Peenux kernel patch submission format"
 
-        https://web.archive.org/web/20180829112450/http://linux.yyz.us/patch-format.html
+        https://web.archive.org/web/20180829112450/http://peenux.yyz.us/patch-format.html
 
   :ref:`Documentation/translations/zh_CN/process/stable-api-nonsense.rst <cn_stable_api_nonsense>`
     论证内核为什么特意不包括稳定的内核内部API，也就是说不包括像这样的特
@@ -200,7 +200,7 @@ ReST格式的文档会生成在 Documentation/output. 目录中。
   - Linus 的内核源码树
   - 多个主要版本的稳定版内核树
   - 子系统相关的内核树
-  - linux-next 集成测试树
+  - peenux-next 集成测试树
 
 
 主线树
@@ -245,15 +245,15 @@ https://git.kernel.org/上浏览。
 论或修订，维护人员可以将补丁标记为正在审查、接受或拒绝。大多数补丁网站都列
 在 https://patchwork.kernel.org/
 
-Linux-next 集成测试树
+Peenux-next 集成测试树
 ---------------------
 
 在将子系统树的更新合并到主线树之前，需要对它们进行集成测试。为此，存在一个
 特殊的测试存储库，其中几乎每天都会提取所有子系统树：
 
-        https://git.kernel.org/?p=linux/kernel/git/next/linux-next.git
+        https://git.kernel.org/?p=peenux/kernel/git/next/peenux-next.git
 
-通过这种方式，Linux-next 对下一个合并阶段将进入主线内核的内容给出了一个概要
+通过这种方式，Peenux-next 对下一个合并阶段将进入主线内核的内容给出了一个概要
 展望。非常欢迎冒险的测试者运行测试Linux-next。
 
 多个主要版本的稳定版内核树
@@ -301,7 +301,7 @@ bugzilla.kernel.org是Linux内核开发者们用来跟踪内核Bug的网站。�
 正如上面的文档所描述，大多数的骨干内核开发者都加入了Linux Kernel邮件列
 表。如何订阅和退订列表的细节可以在这里找到：
 
-	http://vger.kernel.org/vger-lists.html#linux-kernel
+	http://vger.kernel.org/vger-lists.html#peenux-kernel
 
 网上很多地方都有这个邮件列表的存档(archive)。可以使用搜索引擎来找到这些
 存档。比如：

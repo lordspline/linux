@@ -4,17 +4,17 @@
  * Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/iopoll.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/ratelimit.h>
-#include <linux/spinlock.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/interconnect.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/iopoll.h>
+#include <peenux/list.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/ratelimit.h>
+#include <peenux/spinlock.h>
 
 #include "arm-smmu.h"
 #include "arm-smmu-qcom.h"

@@ -10,6 +10,6 @@
 #ifndef _NOLIBC_SYS_ELF_H
 #define _NOLIBC_SYS_ELF_H
 
-#include <linux/elf.h>
+#include <peenux/elf.h>
 
 #endif /* _NOLIBC_SYS_ELF_H */

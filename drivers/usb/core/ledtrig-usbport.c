@@ -5,14 +5,14 @@
  * Copyright (C) 2016 Rafał Miłecki <rafal@milecki.pl>
  */
 
-#include <linux/device.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/usb.h>
-#include <linux/usb/of.h>
+#include <peenux/device.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/usb.h>
+#include <peenux/usb/of.h>
 
 struct usbport_trig_data {
 	struct led_classdev *led_cdev;

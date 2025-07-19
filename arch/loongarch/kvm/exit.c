@@ -3,12 +3,12 @@
  * Copyright (C) 2020-2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kvm_host.h>
-#include <linux/module.h>
-#include <linux/preempt.h>
-#include <linux/vmalloc.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/kvm_host.h>
+#include <peenux/module.h>
+#include <peenux/preempt.h>
+#include <peenux/vmalloc.h>
 #include <trace/events/kvm.h>
 #include <asm/fpu.h>
 #include <asm/inst.h>

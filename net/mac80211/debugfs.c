@@ -7,9 +7,9 @@
  * Copyright (C) 2018 - 2019, 2021-2024 Intel Corporation
  */
 
-#include <linux/debugfs.h>
-#include <linux/rtnetlink.h>
-#include <linux/vmalloc.h>
+#include <peenux/debugfs.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/vmalloc.h>
 #include "ieee80211_i.h"
 #include "driver-ops.h"
 #include "rate.h"

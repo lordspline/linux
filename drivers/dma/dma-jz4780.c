@@ -6,16 +6,16 @@
  * Author: Alex Smith <alex@alex-smith.me.uk>
  */
 
-#include <linux/clk.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/dmapool.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "dmaengine.h"
 #include "virt-dma.h"

@@ -9,8 +9,8 @@
 #ifndef __RT5677_H__
 #define __RT5677_H__
 
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
 
 /* Info */
 #define RT5677_RESET				0x00

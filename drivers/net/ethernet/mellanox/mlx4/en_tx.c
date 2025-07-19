@@ -32,17 +32,17 @@
  */
 
 #include <asm/page.h>
-#include <linux/mlx4/cq.h>
-#include <linux/slab.h>
-#include <linux/mlx4/qp.h>
-#include <linux/skbuff.h>
-#include <linux/if_vlan.h>
-#include <linux/prefetch.h>
-#include <linux/vmalloc.h>
-#include <linux/tcp.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/indirect_call_wrapper.h>
+#include <peenux/mlx4/cq.h>
+#include <peenux/slab.h>
+#include <peenux/mlx4/qp.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_vlan.h>
+#include <peenux/prefetch.h>
+#include <peenux/vmalloc.h>
+#include <peenux/tcp.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/indirect_call_wrapper.h>
 #include <net/ipv6.h>
 #include <net/page_pool/helpers.h>
 

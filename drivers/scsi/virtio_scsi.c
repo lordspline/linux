@@ -6,29 +6,29 @@
  * Copyright Red Hat, Inc. 2011
  *
  * Authors:
- *  Stefan Hajnoczi   <stefanha@linux.vnet.ibm.com>
+ *  Stefan Hajnoczi   <stefanha@peenux.vnet.ibm.com>
  *  Paolo Bonzini   <pbonzini@redhat.com>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/mempool.h>
-#include <linux/interrupt.h>
-#include <linux/virtio.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio_config.h>
-#include <linux/virtio_scsi.h>
-#include <linux/cpu.h>
-#include <linux/blkdev.h>
-#include <linux/blk-integrity.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/mempool.h>
+#include <peenux/interrupt.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_ids.h>
+#include <peenux/virtio_config.h>
+#include <peenux/virtio_scsi.h>
+#include <peenux/cpu.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-integrity.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_tcq.h>
 #include <scsi/scsi_devinfo.h>
-#include <linux/seqlock.h>
+#include <peenux/seqlock.h>
 
 #include "sd.h"
 

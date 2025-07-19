@@ -6,12 +6,12 @@
  * Author: Lasse Collin <lasse.collin@tukaani.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/crc32.h>
-#include <linux/xz.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/uaccess.h>
+#include <peenux/crc32.h>
+#include <peenux/xz.h>
 
 /* Maximum supported dictionary size */
 #define DICT_MAX (1 << 20)

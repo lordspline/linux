@@ -2,7 +2,7 @@
 #ifndef _PROBE_EVENT_H
 #define _PROBE_EVENT_H
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #include <stdbool.h>
 
 struct intlist;

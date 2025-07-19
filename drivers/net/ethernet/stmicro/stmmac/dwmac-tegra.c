@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/iommu.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/stmmac.h>
-#include <linux/clk.h>
+#include <peenux/iommu.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/stmmac.h>
+#include <peenux/clk.h>
 
 #include "stmmac_platform.h"
 

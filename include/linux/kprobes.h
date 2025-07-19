@@ -15,19 +15,19 @@
  *		<jkenisto@us.ibm.com>  and Prasanna S Panchamukhi
  *		<prasanna@in.ibm.com> added function-return probes.
  */
-#include <linux/compiler.h>
-#include <linux/linkage.h>
-#include <linux/list.h>
-#include <linux/notifier.h>
-#include <linux/smp.h>
-#include <linux/bug.h>
-#include <linux/percpu.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/mutex.h>
-#include <linux/ftrace.h>
-#include <linux/objpool.h>
-#include <linux/rethook.h>
+#include <peenux/compiler.h>
+#include <peenux/linkage.h>
+#include <peenux/list.h>
+#include <peenux/notifier.h>
+#include <peenux/smp.h>
+#include <peenux/bug.h>
+#include <peenux/percpu.h>
+#include <peenux/spinlock.h>
+#include <peenux/rcupdate.h>
+#include <peenux/mutex.h>
+#include <peenux/ftrace.h>
+#include <peenux/objpool.h>
+#include <peenux/rethook.h>
 #include <asm/kprobes.h>
 
 #ifdef CONFIG_KPROBES

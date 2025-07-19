@@ -6,15 +6,15 @@
  *     Author: Alex Williamson <alex.williamson@redhat.com>
  */
 
-#include <linux/errno.h>
-#include <linux/file.h>
-#include <linux/kvm_host.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/vfio.h>
+#include <peenux/errno.h>
+#include <peenux/file.h>
+#include <peenux/kvm_host.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/vfio.h>
 #include "vfio.h"
 
 #ifdef CONFIG_SPAPR_TCE_IOMMU

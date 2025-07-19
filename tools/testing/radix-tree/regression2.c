@@ -43,10 +43,10 @@
  * Upstream commit:
  * Not yet
  */
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/slab.h>
-#include <linux/radix-tree.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/slab.h>
+#include <peenux/radix-tree.h>
 #include <stdlib.h>
 #include <stdio.h>
 

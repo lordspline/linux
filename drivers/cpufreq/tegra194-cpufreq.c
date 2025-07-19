@@ -3,15 +3,15 @@
  * Copyright (c) 2020 - 2022, NVIDIA CORPORATION. All rights reserved
  */
 
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/units.h>
 
 #include <asm/smp_plat.h>
 

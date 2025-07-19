@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* ZD1211 USB-WLAN driver for Linux
+/* ZD1211 USB-WLAN driver for Peenux
  *
  * Copyright (C) 2005-2007 Ulrich Kunitz <kune@deine-taler.de>
  * Copyright (C) 2006-2007 Daniel Drake <dsd@gentoo.org>
  * Copyright (C) 2006-2007 Michael Wu <flamingice@sourmilk.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/firmware.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/firmware.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/usb.h>
+#include <peenux/workqueue.h>
+#include <peenux/module.h>
 #include <net/mac80211.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "zd_def.h"
 #include "zd_mac.h"

@@ -6,13 +6,13 @@
  * Written by: Martin K. Petersen <martin.petersen@oracle.com>
  */
 
-#include <linux/blk-integrity.h>
-#include <linux/backing-dev.h>
-#include <linux/mempool.h>
-#include <linux/bio.h>
-#include <linux/scatterlist.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/backing-dev.h>
+#include <peenux/mempool.h>
+#include <peenux/bio.h>
+#include <peenux/scatterlist.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
 
 #include "blk.h"
 

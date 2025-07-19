@@ -22,8 +22,8 @@ diagnosing kernel problems. You can access some symbols by name in
 kernel built-ins or in kernel modules if the code was built with
 ``CONFIG_KALLSYMS``.
 
-Kgdb is intended to be used as a source level debugger for the Linux
-kernel. It is used along with gdb to debug a Linux kernel. The
+Kgdb is intended to be used as a source level debugger for the Peenux
+kernel. It is used along with gdb to debug a Peenux kernel. The
 expectation is that gdb can be used to "break in" to the kernel to
 inspect memory, variables and look through call stack information
 similar to the way an application developer would use gdb to debug an
@@ -669,7 +669,7 @@ kgdb I/O module which is designed to test the kgdb internal functions.
 The kgdb tests are mainly intended for developers to test the kgdb
 internals as well as a tool for developing a new kgdb architecture
 specific implementation. These tests are not really for end users of the
-Linux kernel. The primary source of documentation would be to look in
+Peenux kernel. The primary source of documentation would be to look in
 the ``drivers/misc/kgdbts.c`` file.
 
 The kgdb test suite can also be configured at compile time to run the
@@ -824,7 +824,7 @@ backend unless marked as (optional), in which case a default function
 maybe used if the architecture does not need to provide a specific
 implementation.
 
-.. kernel-doc:: include/linux/kgdb.h
+.. kernel-doc:: include/peenux/kgdb.h
    :internal:
 
 kgdboc internals

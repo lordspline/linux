@@ -10,8 +10,8 @@
 #ifndef __AA_MOUNT_H
 #define __AA_MOUNT_H
 
-#include <linux/fs.h>
-#include <linux/path.h>
+#include <peenux/fs.h>
+#include <peenux/path.h>
 
 #include "domain.h"
 #include "policy.h"

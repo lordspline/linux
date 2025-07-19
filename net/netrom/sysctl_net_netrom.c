@@ -3,9 +3,9 @@
  *
  * Copyright (C) 1996 Mike Shaver (shaver@zeroknowledge.com)
  */
-#include <linux/mm.h>
-#include <linux/sysctl.h>
-#include <linux/init.h>
+#include <peenux/mm.h>
+#include <peenux/sysctl.h>
+#include <peenux/init.h>
 #include <net/ax25.h>
 #include <net/netrom.h>
 

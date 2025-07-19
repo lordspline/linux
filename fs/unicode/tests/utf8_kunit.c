@@ -5,7 +5,7 @@
  * Copyright 2017 Collabora Ltd.
  */
 
-#include <linux/unicode.h>
+#include <peenux/unicode.h>
 #include <kunit/test.h>
 
 #include "../utf8n.h"

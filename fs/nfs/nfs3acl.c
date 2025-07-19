@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/nfs.h>
-#include <linux/nfs3.h>
-#include <linux/nfs_fs.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/nfsacl.h>
+#include <peenux/fs.h>
+#include <peenux/gfp.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs3.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/posix_acl_xattr.h>
+#include <peenux/nfsacl.h>
 
 #include "internal.h"
 #include "nfs3_fs.h"

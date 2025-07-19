@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/prime_numbers.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/prime_numbers.h>
+#include <peenux/slab.h>
 
 #include "prime_numbers_private.h"
 

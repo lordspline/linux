@@ -6,10 +6,10 @@
  * Copyright (C) 2017 Heiner Kallweit
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
 
 #include "fbtft.h"
 

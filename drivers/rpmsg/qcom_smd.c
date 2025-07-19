@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2015, Sony Mobile Communications AB.
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/sched.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/wait.h>
-#include <linux/rpmsg.h>
-#include <linux/rpmsg/qcom_smd.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/sched.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/soc/qcom/smem.h>
+#include <peenux/wait.h>
+#include <peenux/rpmsg.h>
+#include <peenux/rpmsg/qcom_smd.h>
 
 #include "rpmsg_internal.h"
 

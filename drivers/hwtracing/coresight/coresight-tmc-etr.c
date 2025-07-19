@@ -4,16 +4,16 @@
  * Author: Mathieu Poirier <mathieu.poirier@linaro.org>
  */
 
-#include <linux/atomic.h>
-#include <linux/coresight.h>
-#include <linux/dma-mapping.h>
-#include <linux/iommu.h>
-#include <linux/idr.h>
-#include <linux/mutex.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <peenux/atomic.h>
+#include <peenux/coresight.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/iommu.h>
+#include <peenux/idr.h>
+#include <peenux/mutex.h>
+#include <peenux/refcount.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/vmalloc.h>
 #include "coresight-catu.h"
 #include "coresight-etm-perf.h"
 #include "coresight-priv.h"

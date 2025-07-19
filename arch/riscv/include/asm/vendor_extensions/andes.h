@@ -4,7 +4,7 @@
 
 #include <asm/vendor_extensions.h>
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define RISCV_ISA_VENDOR_EXT_XANDESPMU		0
 

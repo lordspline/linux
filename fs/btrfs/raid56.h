@@ -7,12 +7,12 @@
 #ifndef BTRFS_RAID56_H
 #define BTRFS_RAID56_H
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/bio.h>
-#include <linux/refcount.h>
-#include <linux/workqueue.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/bio.h>
+#include <peenux/refcount.h>
+#include <peenux/workqueue.h>
 #include "volumes.h"
 
 struct page;

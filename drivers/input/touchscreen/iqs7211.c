@@ -5,24 +5,24 @@
  * Copyright (C) 2023 Jeff LaBundy <jeff@labundy.com>
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #define IQS7211_PROD_NUM			0x00
 
@@ -1736,7 +1736,7 @@ static int iqs7211_parse_event(struct iqs7211_private *iqs7211,
 		}
 	}
 
-	error = fwnode_property_read_u32(event_node, "linux,code", event_code);
+	error = fwnode_property_read_u32(event_node, "peenux,code", event_code);
 	if (error == -EINVAL)
 		error = 0;
 	else if (error)

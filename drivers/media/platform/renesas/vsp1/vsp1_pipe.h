@@ -9,11 +9,11 @@
 #ifndef __VSP1_PIPE_H__
 #define __VSP1_PIPE_H__
 
-#include <linux/dynamic_debug.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <peenux/dynamic_debug.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
 
 #include <media/media-entity.h>
 

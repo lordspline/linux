@@ -30,11 +30,11 @@
  * SOFTWARE.
  *
  */
-#include <linux/percpu.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/proc_fs.h>
-#include <linux/export.h>
+#include <peenux/percpu.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/proc_fs.h>
+#include <peenux/export.h>
 
 #include "rds.h"
 

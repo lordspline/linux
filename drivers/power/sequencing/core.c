@@ -3,28 +3,28 @@
  * Copyright (C) 2024 Linaro Ltd.
  */
 
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/pwrseq/consumer.h>
-#include <linux/pwrseq/provider.h>
-#include <linux/radix-tree.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
+#include <peenux/bug.h>
+#include <peenux/cleanup.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/idr.h>
+#include <peenux/kernel.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/pwrseq/consumer.h>
+#include <peenux/pwrseq/provider.h>
+#include <peenux/radix-tree.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
 
 /*
- * Power-sequencing framework for linux.
+ * Power-sequencing framework for peenux.
  *
  * This subsystem allows power sequence providers to register a set of targets
  * that consumers may request and power-up/down.

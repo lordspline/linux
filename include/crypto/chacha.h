@@ -15,9 +15,9 @@
 #ifndef _CRYPTO_CHACHA_H
 #define _CRYPTO_CHACHA_H
 
-#include <linux/unaligned.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/unaligned.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 /* 32-bit stream position, then 96-bit nonce (RFC7539 convention) */
 #define CHACHA_IV_SIZE		16

@@ -14,24 +14,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/uio_driver.h>
-#include <linux/in.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/prefetch.h>
-#include <linux/random.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/uio_driver.h>
+#include <peenux/in.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_vlan.h>
+#include <peenux/prefetch.h>
+#include <peenux/random.h>
+#include <peenux/workqueue.h>
 #if IS_ENABLED(CONFIG_VLAN_8021Q)
 #define BCM_VLAN 1
 #endif

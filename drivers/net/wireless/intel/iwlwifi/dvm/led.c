@@ -6,14 +6,14 @@
  *****************************************************************************/
 
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
 #include <net/mac80211.h>
-#include <linux/etherdevice.h>
-#include <linux/unaligned.h>
+#include <peenux/etherdevice.h>
+#include <peenux/unaligned.h>
 #include "iwl-io.h"
 #include "iwl-trans.h"
 #include "iwl-modparams.h"

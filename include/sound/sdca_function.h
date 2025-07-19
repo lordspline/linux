@@ -9,8 +9,8 @@
 #ifndef __SDCA_FUNCTION_H__
 #define __SDCA_FUNCTION_H__
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/types.h>
 
 struct device;
 struct sdca_entity;

@@ -7,15 +7,15 @@
  */
 
 /*
- *  Linux VFS extended attribute operations.
+ *  Peenux VFS extended attribute operations.
  */
 
 #include "protocol.h"
 #include "orangefs-kernel.h"
 #include "orangefs-bufmap.h"
-#include <linux/posix_acl_xattr.h>
-#include <linux/xattr.h>
-#include <linux/hashtable.h>
+#include <peenux/posix_acl_xattr.h>
+#include <peenux/xattr.h>
+#include <peenux/hashtable.h>
 
 #define SYSTEM_ORANGEFS_KEY "system.pvfs2."
 #define SYSTEM_ORANGEFS_KEY_LEN 13

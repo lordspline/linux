@@ -1,5 +1,5 @@
 /*
- * Linux driver for VMware's vmxnet3 ethernet NIC.
+ * Peenux driver for VMware's vmxnet3 ethernet NIC.
  *
  * Copyright (C) 2008-2024, VMware, Inc. All Rights Reserved.
  *
@@ -24,7 +24,7 @@
  *
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <net/ip6_checksum.h>
 
 #ifdef CONFIG_X86

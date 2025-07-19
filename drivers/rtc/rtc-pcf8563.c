@@ -4,22 +4,22 @@
  * Copyright 2005-06 Tower Technologies
  *
  * Author: Alessandro Zummo <a.zummo@towertech.it>
- * Maintainers: http://www.nslu2-linux.org/
+ * Maintainers: http://www.nslu2-peenux.org/
  *
  * based on the other drivers in this same directory.
  *
  * https://www.nxp.com/docs/en/data-sheet/PCF8563.pdf
  */
 
-#include <linux/bcd.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
+#include <peenux/bcd.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
 
 #define PCF8563_REG_ST1		0x00 /* status */
 #define PCF8563_REG_ST2		0x01

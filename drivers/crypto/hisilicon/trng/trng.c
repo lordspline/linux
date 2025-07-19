@@ -2,18 +2,18 @@
 /* Copyright (c) 2019 HiSilicon Limited. */
 
 #include <crypto/internal/rng.h>
-#include <linux/acpi.h>
-#include <linux/crypto.h>
-#include <linux/err.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
+#include <peenux/acpi.h>
+#include <peenux/crypto.h>
+#include <peenux/err.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/random.h>
 
 #define HISI_TRNG_REG		0x00F0
 #define HISI_TRNG_BYTES		4

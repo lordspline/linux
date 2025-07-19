@@ -9,11 +9,11 @@
  * Based on wm8727.c driver
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/initval.h>

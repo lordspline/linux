@@ -21,7 +21,7 @@
  */
 
 #include "ubifs.h"
-#include <linux/list_sort.h>
+#include <peenux/list_sort.h>
 #include <crypto/hash.h>
 
 /**

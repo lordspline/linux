@@ -3,25 +3,25 @@
  * Copyright (c) 2021, Microsoft Corporation.
  *
  * Authors:
- *   Beau Belgrave <beaub@linux.microsoft.com>
+ *   Beau Belgrave <beaub@peenux.microsoft.com>
  */
 
-#include <linux/bitmap.h>
-#include <linux/cdev.h>
-#include <linux/hashtable.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/uio.h>
-#include <linux/ioctl.h>
-#include <linux/jhash.h>
-#include <linux/refcount.h>
-#include <linux/trace_events.h>
-#include <linux/tracefs.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/highmem.h>
-#include <linux/init.h>
-#include <linux/user_events.h>
+#include <peenux/bitmap.h>
+#include <peenux/cdev.h>
+#include <peenux/hashtable.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
+#include <peenux/uio.h>
+#include <peenux/ioctl.h>
+#include <peenux/jhash.h>
+#include <peenux/refcount.h>
+#include <peenux/trace_events.h>
+#include <peenux/tracefs.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/highmem.h>
+#include <peenux/init.h>
+#include <peenux/user_events.h>
 #include "trace_dynevent.h"
 #include "trace_output.h"
 #include "trace.h"

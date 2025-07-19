@@ -1,4 +1,4 @@
-#include <linux/perf_event.h>
+#include <peenux/perf_event.h>
 #include <perf/evlist.h>
 #include <perf/evsel.h>
 #include <perf/cpumap.h>

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	IPv6 input
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
  *	Ian P. Morris		<I.P.Morris@soton.ac.uk>
  *
- *	Based in linux/net/ipv4/ip_input.c
+ *	Based in peenux/net/ipv4/ip_input.c
  */
 /* Changes
  *
@@ -15,20 +15,20 @@
  *	YOSHIFUJI Hideaki @USAGI: Remove ipv6_parse_exthdrs().
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/in6.h>
-#include <linux/icmpv6.h>
-#include <linux/mroute6.h>
-#include <linux/slab.h>
-#include <linux/indirect_call_wrapper.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/in6.h>
+#include <peenux/icmpv6.h>
+#include <peenux/mroute6.h>
+#include <peenux/slab.h>
+#include <peenux/indirect_call_wrapper.h>
 
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv6.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv6.h>
 
 #include <net/sock.h>
 #include <net/snmp.h>

@@ -6,15 +6,15 @@
  * Author: Andre Przywara <andre.przywara@arm.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/uaccess.h>
-#include <linux/list_sort.h>
+#include <peenux/cpu.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/uaccess.h>
+#include <peenux/list_sort.h>
 
-#include <linux/irqchip/arm-gic-v3.h>
+#include <peenux/irqchip/arm-gic-v3.h>
 
 #include <asm/kvm_emulate.h>
 #include <asm/kvm_arm.h>

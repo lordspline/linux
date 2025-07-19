@@ -9,15 +9,15 @@
 
 #define pr_fmt(fmt) "Modules: " fmt
 
-#include <linux/bitops.h>
-#include <linux/elf.h>
-#include <linux/ftrace.h>
-#include <linux/kasan.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/moduleloader.h>
-#include <linux/random.h>
-#include <linux/scs.h>
+#include <peenux/bitops.h>
+#include <peenux/elf.h>
+#include <peenux/ftrace.h>
+#include <peenux/kasan.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/moduleloader.h>
+#include <peenux/random.h>
+#include <peenux/scs.h>
 
 #include <asm/alternative.h>
 #include <asm/insn.h>

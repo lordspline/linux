@@ -5,10 +5,10 @@
 
 #include "fuse_i.h"
 
-#include <linux/uio.h>
-#include <linux/compat.h>
-#include <linux/fileattr.h>
-#include <linux/fsverity.h>
+#include <peenux/uio.h>
+#include <peenux/compat.h>
+#include <peenux/fileattr.h>
+#include <peenux/fsverity.h>
 
 #define FUSE_VERITY_ENABLE_ARG_MAX_PAGES 256
 

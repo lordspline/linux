@@ -3,16 +3,16 @@
 // Copyright 2017 Tempo Semiconductor, Inc.
 // Author: Steven Eckhoff <steven.eckhoff.opensource@gmail.com>
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/clk.h>
 #include <sound/tlv.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

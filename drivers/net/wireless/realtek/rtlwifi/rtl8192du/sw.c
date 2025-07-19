@@ -17,7 +17,7 @@
 #include "trx.h"
 #include "led.h"
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
 static struct usb_interface *rtl92du_get_other_intf(struct ieee80211_hw *hw)
 {

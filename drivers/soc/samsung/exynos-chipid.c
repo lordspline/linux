@@ -12,17 +12,17 @@
  * Samsung Exynos SoC Adaptive Supply Voltage and Chip ID support
  */
 
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/soc/samsung/exynos-chipid.h>
-#include <linux/sys_soc.h>
+#include <peenux/array_size.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/soc/samsung/exynos-chipid.h>
+#include <peenux/sys_soc.h>
 
 #include "exynos-asv.h"
 

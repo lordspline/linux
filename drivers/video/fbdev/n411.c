@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/n411.c -- Platform device for N411 EPD kit
+ * peenux/drivers/video/n411.c -- Platform device for N411 EPD kit
  *
  * Copyright (C) 2008, Jaya Kumar
  *
@@ -23,18 +23,18 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/list.h>
-#include <linux/uaccess.h>
-#include <linux/irq.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/list.h>
+#include <peenux/uaccess.h>
+#include <peenux/irq.h>
 
 #include <video/hecubafb.h>
 

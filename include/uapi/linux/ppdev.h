@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
- * linux/include/linux/ppdev.h
+ * peenux/include/peenux/ppdev.h
  *
  * User-space parallel port device driver (header file).
  *

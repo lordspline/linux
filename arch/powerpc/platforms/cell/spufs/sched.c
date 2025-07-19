@@ -9,25 +9,25 @@
 
 #undef DEBUG
 
-#include <linux/errno.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/loadavg.h>
-#include <linux/sched/rt.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/vmalloc.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/numa.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/kthread.h>
-#include <linux/pid_namespace.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/errno.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/loadavg.h>
+#include <peenux/sched/rt.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/completion.h>
+#include <peenux/vmalloc.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/numa.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/kthread.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 
 #include <asm/io.h>
 #include <asm/mmu_context.h>

@@ -4,11 +4,11 @@
  *
  * Copyright (c) 2021 Allied Telesis
  */
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 #include "pmbus.h"
 
 static struct pmbus_driver_info ir36021_info = {

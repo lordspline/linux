@@ -34,24 +34,24 @@
 
 #include "ipoib.h"
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/vmalloc.h>
 
-#include <linux/if_arp.h>	/* For ARPHRD_xxx */
+#include <peenux/if_arp.h>	/* For ARPHRD_xxx */
 
-#include <linux/ip.h>
-#include <linux/in.h>
+#include <peenux/ip.h>
+#include <peenux/in.h>
 
-#include <linux/jhash.h>
+#include <peenux/jhash.h>
 #include <net/arp.h>
 #include <net/addrconf.h>
 #include <net/netdev_lock.h>
 #include <net/pkt_sched.h>
-#include <linux/inetdevice.h>
+#include <peenux/inetdevice.h>
 #include <rdma/ib_cache.h>
 
 MODULE_AUTHOR("Roland Dreier");

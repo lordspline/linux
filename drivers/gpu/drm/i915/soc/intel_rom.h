@@ -6,7 +6,7 @@
 #ifndef __INTEL_ROM_H__
 #define __INTEL_ROM_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct drm_i915_private;
 struct intel_rom;

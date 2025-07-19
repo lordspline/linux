@@ -12,7 +12,7 @@
 
 #include <crypto/sha2.h>
 #include <crypto/sha3.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* must be big enough for the largest SHA variant */
 #define CPACF_MAX_PARMBLOCK_SIZE	SHA3_STATE_SIZE

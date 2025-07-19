@@ -9,14 +9,14 @@
  * Copyright (C) 2014 Abylay Ospan <aospan@netup.ru>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kmod.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kmod.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
 #include "netup_unidvb.h"
 
 /* CI slot 0 base address */

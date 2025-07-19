@@ -7,15 +7,15 @@
  * Author: Emanuele Ghidoli <emanuele.ghidoli@toradex.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 #define EC_CHIP_ID_REG                  0x00
 #define EC_CHIP_ID_SMARC_IMX95          0x11

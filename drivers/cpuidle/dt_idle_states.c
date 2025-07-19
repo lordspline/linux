@@ -8,12 +8,12 @@
 
 #define pr_fmt(fmt) "DT idle-states: " fmt
 
-#include <linux/cpuidle.h>
-#include <linux/cpumask.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/cpuidle.h>
+#include <peenux/cpumask.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
 #include "dt_idle_states.h"
 

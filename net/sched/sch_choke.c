@@ -6,11 +6,11 @@
  * Copyright (c) 2011 Eric Dumazet <eric.dumazet@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/vmalloc.h>
 #include <net/pkt_sched.h>
 #include <net/pkt_cls.h>
 #include <net/inet_ecn.h>

@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef USER_BLK_DRV_CMD_INC_H
 #define USER_BLK_DRV_CMD_INC_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* ublk server command definition */
 
@@ -376,7 +376,7 @@ struct ublksrv_ctrl_dev_info {
  * zero the last entry of the returned array.
  *
  * Related definitions(blk_zone, blk_zone_cond, blk_zone_type, ...) in
- * include/uapi/linux/blkzoned.h are part of ublk UAPI.
+ * include/uapi/peenux/blkzoned.h are part of ublk UAPI.
  */
 #define		UBLK_IO_OP_REPORT_ZONES		18
 

@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptspi.c
+ *  peenux/drivers/message/fusion/mptspi.c
  *      For use with LSI PCI chip/adapter(s)
  *      running LSI Fusion MPT (Message Passing Technology) firmware.
  *
@@ -44,18 +44,18 @@
 */
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kdev_t.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>	/* for mdelay */
-#include <linux/interrupt.h>
-#include <linux/reboot.h>	/* notifier code */
-#include <linux/workqueue.h>
-#include <linux/raid_class.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/kdev_t.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>	/* for mdelay */
+#include <peenux/interrupt.h>
+#include <peenux/reboot.h>	/* notifier code */
+#include <peenux/workqueue.h>
+#include <peenux/raid_class.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -1434,7 +1434,7 @@ mptspi_probe(struct pci_dev *pdev, const struct pci_device_id *id)
 	sh->max_cmd_len = 16;
 
 	/* Yikes!  This is important!
-	 * Otherwise, by default, linux
+	 * Otherwise, by default, peenux
 	 * only scans target IDs 0-7!
 	 * pfactsN->MaxDevices unreliable
 	 * (not supported in early

@@ -3,28 +3,28 @@
  * arch/sparc64/mm/fault.c: Page fault handlers for the 64-bit Sparc.
  *
  * Copyright (C) 1996, 2008 David S. Miller (davem@davemloft.net)
- * Copyright (C) 1997, 1999 Jakub Jelinek (jj@ultra.linux.cz)
+ * Copyright (C) 1997, 1999 Jakub Jelinek (jj@ultra.peenux.cz)
  */
 
 #include <asm/head.h>
 
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/signal.h>
-#include <linux/mm.h>
-#include <linux/extable.h>
-#include <linux/init.h>
-#include <linux/perf_event.h>
-#include <linux/interrupt.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/percpu.h>
-#include <linux/context_tracking.h>
-#include <linux/uaccess.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/signal.h>
+#include <peenux/mm.h>
+#include <peenux/extable.h>
+#include <peenux/init.h>
+#include <peenux/perf_event.h>
+#include <peenux/interrupt.h>
+#include <peenux/kprobes.h>
+#include <peenux/kdebug.h>
+#include <peenux/percpu.h>
+#include <peenux/context_tracking.h>
+#include <peenux/uaccess.h>
 
 #include <asm/page.h>
 #include <asm/openprom.h>

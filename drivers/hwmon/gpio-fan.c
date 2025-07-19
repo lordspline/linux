@@ -7,23 +7,23 @@
  * Author: Simon Guinot <sguinot@lacie.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/kstrtox.h>
-#include <linux/mutex.h>
-#include <linux/hwmon.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/thermal.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/kstrtox.h>
+#include <peenux/mutex.h>
+#include <peenux/hwmon.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/thermal.h>
 
 struct gpio_fan_speed {
 	int rpm;

@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/srmcons.c
+ *	peenux/arch/alpha/kernel/srmcons.c
  *
  * Callback based driver for SRM Console console device.
  * (TTY driver and console driver)
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
 
 #include <asm/console.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "proto.h"
 

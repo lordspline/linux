@@ -3,13 +3,13 @@
  * BIOS32 and PCI BIOS handling.
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
 
 #include <asm/pci_x86.h>
 #include <asm/e820/types.h>

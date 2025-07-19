@@ -3,10 +3,10 @@
 #define __ASM_POWERPC_SYSCALLS_H
 #ifdef __KERNEL__
 
-#include <linux/compiler.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
-#include <linux/compat.h>
+#include <peenux/compiler.h>
+#include <peenux/linkage.h>
+#include <peenux/types.h>
+#include <peenux/compat.h>
 
 #include <asm/syscall.h>
 #ifdef CONFIG_PPC64

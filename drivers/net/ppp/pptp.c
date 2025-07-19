@@ -1,31 +1,31 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  Point-to-Point Tunneling Protocol for Linux
+ *  Point-to-Point Tunneling Protocol for Peenux
  *
  *	Authors: Dmitry Kozlov <xeb@mail.ru>
  */
 
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/net.h>
-#include <linux/skbuff.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/ppp_channel.h>
-#include <linux/ppp_defs.h>
-#include <linux/if_pppox.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/notifier.h>
-#include <linux/file.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/rcupdate.h>
-#include <linux/security.h>
-#include <linux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/net.h>
+#include <peenux/skbuff.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/ppp_channel.h>
+#include <peenux/ppp_defs.h>
+#include <peenux/if_pppox.h>
+#include <peenux/ppp-ioctl.h>
+#include <peenux/notifier.h>
+#include <peenux/file.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/rcupdate.h>
+#include <peenux/security.h>
+#include <peenux/spinlock.h>
 
 #include <net/sock.h>
 #include <net/protocol.h>
@@ -35,7 +35,7 @@
 #include <net/gre.h>
 #include <net/pptp.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #define PPTP_DRIVER_VERSION "0.8.5"
 

@@ -6,17 +6,17 @@
  * Copyright (C) 2019 Michael Shych <mshych@mellanox.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/platform_data/mlxreg.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/mlxreg.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
 
 #define MLXREG_WDT_CLOCK_SCALE		1000
 #define MLXREG_WDT_MAX_TIMEOUT_TYPE1	32

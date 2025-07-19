@@ -8,7 +8,7 @@
  */
 #include <inttypes.h>
 #include "builtin.h"
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #include <subcmd/parse-options.h>
 #include "debug.h"
 #include "dso.h"

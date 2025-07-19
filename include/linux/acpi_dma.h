@@ -5,15 +5,15 @@
  * Based on of_dma.h
  *
  * Copyright (C) 2013, Intel Corporation
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  */
 
 #ifndef __LINUX_ACPI_DMA_H
 #define __LINUX_ACPI_DMA_H
 
-#include <linux/err.h>
-#include <linux/dmaengine.h>
-#include <linux/types.h>
+#include <peenux/err.h>
+#include <peenux/dmaengine.h>
+#include <peenux/types.h>
 
 struct device;
 

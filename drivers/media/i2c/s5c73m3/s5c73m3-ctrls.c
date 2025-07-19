@@ -7,17 +7,17 @@
  * Andrzej Hajda <a.hajda@samsung.com>
  */
 
-#include <linux/sizes.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/media.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/videodev2.h>
+#include <peenux/sizes.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/media.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/videodev2.h>
 #include <media/media-entity.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

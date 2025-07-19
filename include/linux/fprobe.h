@@ -3,11 +3,11 @@
 #ifndef _LINUX_FPROBE_H
 #define _LINUX_FPROBE_H
 
-#include <linux/compiler.h>
-#include <linux/ftrace.h>
-#include <linux/rcupdate.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
+#include <peenux/compiler.h>
+#include <peenux/ftrace.h>
+#include <peenux/rcupdate.h>
+#include <peenux/refcount.h>
+#include <peenux/slab.h>
 
 struct fprobe;
 typedef int (*fprobe_entry_cb)(struct fprobe *fp, unsigned long entry_ip,

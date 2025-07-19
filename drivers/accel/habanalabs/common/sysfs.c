@@ -7,8 +7,8 @@
 
 #include "habanalabs.h"
 
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <peenux/pci.h>
+#include <peenux/types.h>
 
 static ssize_t clk_max_freq_mhz_show(struct device *dev, struct device_attribute *attr, char *buf)
 {

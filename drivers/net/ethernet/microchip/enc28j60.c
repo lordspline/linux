@@ -9,21 +9,21 @@
  * $Id: enc28j60.c,v 1.22 2007/12/20 10:47:01 claudio Exp $
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/property.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/tcp.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/property.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/tcp.h>
+#include <peenux/skbuff.h>
+#include <peenux/delay.h>
+#include <peenux/spi/spi.h>
 
 #include "enc28j60_hw.h"
 

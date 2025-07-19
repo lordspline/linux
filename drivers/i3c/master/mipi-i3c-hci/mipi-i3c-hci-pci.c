@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2024 Intel Corporation
  *
- * Author: Jarkko Nikula <jarkko.nikula@linux.intel.com>
+ * Author: Jarkko Nikula <jarkko.nikula@peenux.intel.com>
  */
-#include <linux/acpi.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/idr.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
 
 struct mipi_i3c_hci_pci_info {
 	int (*init)(struct pci_dev *pci);

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/export.h>
-#include <linux/init.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
 
 	__INITRODATA
 

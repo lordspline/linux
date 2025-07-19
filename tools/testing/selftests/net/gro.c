@@ -41,9 +41,9 @@
 #include <errno.h>
 #include <error.h>
 #include <getopt.h>
-#include <linux/filter.h>
-#include <linux/if_packet.h>
-#include <linux/ipv6.h>
+#include <peenux/filter.h>
+#include <peenux/if_packet.h>
+#include <peenux/ipv6.h>
 #include <net/ethernet.h>
 #include <net/if.h>
 #include <netinet/in.h>

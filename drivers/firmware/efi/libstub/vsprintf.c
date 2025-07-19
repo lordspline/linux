@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* -*- linux-c -*- ------------------------------------------------------- *
+/* -*- peenux-c -*- ------------------------------------------------------- *
  *
  *   Copyright (C) 1991, 1992 Linus Torvalds
  *   Copyright 2007 rPath, Inc. - All Rights Reserved
@@ -10,14 +10,14 @@
  * Oh, it's a waste of space, but oh-so-yummy for debugging.
  */
 
-#include <linux/stdarg.h>
+#include <peenux/stdarg.h>
 
-#include <linux/compiler.h>
-#include <linux/ctype.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/ctype.h>
+#include <peenux/kernel.h>
+#include <peenux/limits.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 static
 int skip_atoi(const char **s)

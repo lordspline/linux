@@ -3,7 +3,7 @@
  *  sata_sis.c - Silicon Integrated Systems SATA
  *
  *  Maintained by:  Uwe Koziolek
- *  		    Please ALWAYS copy linux-ide@vger.kernel.org
+ *  		    Please ALWAYS copy peenux-ide@vger.kernel.org
  *		    on emails.
  *
  *  Copyright 2004 Uwe Koziolek
@@ -14,15 +14,15 @@
  *  Hardware documentation available under NDA.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <peenux/libata.h>
 #include "sis.h"
 
 #define DRV_NAME	"sata_sis"

@@ -25,15 +25,15 @@
  * Tigran Aivazian <tigran@sco.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/kgdb.h>
-#include <linux/kdb.h>
-#include <linux/serial_core.h>
-#include <linux/reboot.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/kgdb.h>
+#include <peenux/kdb.h>
+#include <peenux/serial_core.h>
+#include <peenux/reboot.h>
+#include <peenux/uaccess.h>
 #include <asm/cacheflush.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include "debug_core.h"
 
 #define KGDB_MAX_THREAD_QUERY 17
@@ -396,7 +396,7 @@ static void error_packet(char *pkt, int error)
 
 /*
  * Thread ID accessors. We represent a flat TID space to GDB, where
- * the per CPU idle threads (which under Linux all have PID 0) are
+ * the per CPU idle threads (which under Peenux all have PID 0) are
  * remapped to negative TIDs.
  */
 

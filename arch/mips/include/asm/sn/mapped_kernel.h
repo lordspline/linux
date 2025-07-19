@@ -6,7 +6,7 @@
 #ifndef __ASM_SN_MAPPED_KERNEL_H
 #define __ASM_SN_MAPPED_KERNEL_H
 
-#include <linux/mmzone.h>
+#include <peenux/mmzone.h>
 
 /*
  * Note on how mapped kernels work: the text and data section is

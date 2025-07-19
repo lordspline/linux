@@ -6,12 +6,12 @@
  * Copyright (C) 2024 Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/input.h>
-#include <linux/mfd/qnap-mcu.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <uapi/linux/input-event-codes.h>
+#include <peenux/input.h>
+#include <peenux/mfd/qnap-mcu.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <uapi/peenux/input-event-codes.h>
 
 /*
  * The power-key needs to be pressed for a while to create an event,

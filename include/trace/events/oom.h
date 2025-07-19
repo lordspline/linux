@@ -4,7 +4,7 @@
 
 #if !defined(_TRACE_OOM_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_OOM_H
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 #include <trace/events/mmflags.h>
 
 #define PG_COUNT_TO_KB(x) ((x) << (PAGE_SHIFT - 10))

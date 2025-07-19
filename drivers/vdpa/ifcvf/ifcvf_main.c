@@ -8,10 +8,10 @@
  *
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/sysfs.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/sysfs.h>
 #include "ifcvf_base.h"
 
 #define DRIVER_AUTHOR   "Intel Corporation"

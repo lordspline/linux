@@ -33,11 +33,11 @@
  * SOFTWARE.
  */
 
-#include <linux/gfp.h>
-#include <linux/export.h>
+#include <peenux/gfp.h>
+#include <peenux/export.h>
 
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/qp.h>
+#include <peenux/mlx4/cmd.h>
+#include <peenux/mlx4/qp.h>
 
 #include "mlx4.h"
 #include "icm.h"

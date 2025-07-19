@@ -10,9 +10,9 @@
 #ifndef STF_CAMSS_H
 #define STF_CAMSS_H
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/reset.h>
 #include <media/media-device.h>
 #include <media/media-entity.h>
 #include <media/v4l2-async.h>

@@ -52,25 +52,25 @@
 
 /*****************************************************************************/
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/hdlcdrv.h>
-#include <linux/baycom.h>
-#include <linux/parport.h>
-#include <linux/bitops.h>
-#include <linux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/in.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/hdlcdrv.h>
+#include <peenux/baycom.h>
+#include <peenux/parport.h>
+#include <peenux/bitops.h>
+#include <peenux/jiffies.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /* --------------------------------------------------------------------- */
 

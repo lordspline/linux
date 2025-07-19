@@ -5,27 +5,27 @@
  * Copyright 2012 Analog Devices Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/math.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/lcm.h>
-#include <linux/property.h>
-#include <linux/swab.h>
-#include <linux/crc32.h>
+#include <peenux/clk.h>
+#include <peenux/bitfield.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/math.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/spi/spi.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/lcm.h>
+#include <peenux/property.h>
+#include <peenux/swab.h>
+#include <peenux/crc32.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/imu/adis.h>
-#include <linux/iio/trigger_consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/imu/adis.h>
+#include <peenux/iio/trigger_consumer.h>
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 #define ADIS16480_PAGE_SIZE 0x80
 

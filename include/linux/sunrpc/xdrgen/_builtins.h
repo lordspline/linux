@@ -4,13 +4,13 @@
  *
  * This header defines XDR data type primitives specified in
  * Section 4 of RFC 4506, used by RPC programs implemented
- * in the Linux kernel.
+ * in the Peenux kernel.
  */
 
 #ifndef _SUNRPC_XDRGEN__BUILTINS_H_
 #define _SUNRPC_XDRGEN__BUILTINS_H_
 
-#include <linux/sunrpc/xdr.h>
+#include <peenux/sunrpc/xdr.h>
 
 static inline bool
 xdrgen_decode_void(struct xdr_stream *xdr)

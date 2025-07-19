@@ -12,8 +12,8 @@
  *             http://www.xiaomi.com/
  */
 
-#include <linux/fs.h>
-#include <linux/f2fs_fs.h>
+#include <peenux/fs.h>
+#include <peenux/f2fs_fs.h>
 
 #include "f2fs.h"
 #include "node.h"

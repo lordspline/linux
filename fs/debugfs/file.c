@@ -9,18 +9,18 @@
  *  See Documentation/filesystems/ for more details.
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
-#include <linux/pagemap.h>
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/poll.h>
-#include <linux/security.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/pagemap.h>
+#include <peenux/debugfs.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/atomic.h>
+#include <peenux/device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/poll.h>
+#include <peenux/security.h>
 
 #include "internal.h"
 

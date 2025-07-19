@@ -3,13 +3,13 @@
  * USB4 specific functionality
  *
  * Copyright (C) 2019, Intel Corporation
- * Authors: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Mika Westerberg <mika.westerberg@peenux.intel.com>
  *	    Rajmohan Mani <rajmohan.mani@intel.com>
  */
 
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/units.h>
+#include <peenux/delay.h>
+#include <peenux/ktime.h>
+#include <peenux/units.h>
 
 #include "sb_regs.h"
 #include "tb.h"

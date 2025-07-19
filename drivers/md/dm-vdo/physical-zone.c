@@ -5,7 +5,7 @@
 
 #include "physical-zone.h"
 
-#include <linux/list.h>
+#include <peenux/list.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

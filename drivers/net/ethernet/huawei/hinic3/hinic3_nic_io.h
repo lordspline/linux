@@ -4,7 +4,7 @@
 #ifndef _HINIC3_NIC_IO_H_
 #define _HINIC3_NIC_IO_H_
 
-#include <linux/bitfield.h>
+#include <peenux/bitfield.h>
 
 #include "hinic3_wq.h"
 

@@ -6,16 +6,16 @@
 // Author: Minkyu Kang <mk7.kang@samsung.com>
 // Author: Joonyoung Shim <jy0922.shim@samsung.com>
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/bcd.h>
-#include <linux/irqdomain.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/max8998.h>
-#include <linux/mfd/max8998-private.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/bcd.h>
+#include <peenux/irqdomain.h>
+#include <peenux/rtc.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/max8998.h>
+#include <peenux/mfd/max8998-private.h>
+#include <peenux/delay.h>
 
 #define MAX8998_RTC_SEC			0x00
 #define MAX8998_RTC_MIN			0x01

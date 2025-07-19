@@ -9,16 +9,16 @@
  *  Copyright (C) 2016  IBM Corporation
  */
 
-#include <linux/ima.h>
-#include <linux/kernel.h>
-#include <linux/kexec.h>
-#include <linux/memblock.h>
-#include <linux/libfdt.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/ima.h>
+#include <peenux/kernel.h>
+#include <peenux/kexec.h>
+#include <peenux/memblock.h>
+#include <peenux/libfdt.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #define RNG_SEED_SIZE		128
 
@@ -132,7 +132,7 @@ int __init ima_get_kexec_buffer(void **addr, size_t *size)
 	size_t tmp_size;
 	const void *prop;
 
-	prop = of_get_property(of_chosen, "linux,ima-kexec-buffer", &len);
+	prop = of_get_property(of_chosen, "peenux,ima-kexec-buffer", &len);
 	if (!prop)
 		return -ENOENT;
 
@@ -172,7 +172,7 @@ int __init ima_free_kexec_buffer(void)
 	size_t size;
 	struct property *prop;
 
-	prop = of_find_property(of_chosen, "linux,ima-kexec-buffer", NULL);
+	prop = of_find_property(of_chosen, "peenux,ima-kexec-buffer", NULL);
 	if (!prop)
 		return -ENOENT;
 
@@ -208,12 +208,12 @@ static void remove_ima_buffer(void *fdt, int chosen_node)
 	if (!IS_ENABLED(CONFIG_HAVE_IMA_KEXEC))
 		return;
 
-	prop = fdt_getprop(fdt, chosen_node, "linux,ima-kexec-buffer", &len);
+	prop = fdt_getprop(fdt, chosen_node, "peenux,ima-kexec-buffer", &len);
 	if (!prop)
 		return;
 
 	ret = do_get_kexec_buffer(prop, len, &addr, &size);
-	fdt_delprop(fdt, chosen_node, "linux,ima-kexec-buffer");
+	fdt_delprop(fdt, chosen_node, "peenux,ima-kexec-buffer");
 	if (ret)
 		return;
 
@@ -240,7 +240,7 @@ static int setup_ima_buffer(const struct kimage *image, void *fdt,
 		return 0;
 
 	ret = fdt_appendprop_addrrange(fdt, 0, chosen_node,
-				       "linux,ima-kexec-buffer",
+				       "peenux,ima-kexec-buffer",
 				       image->ima_buffer_addr,
 				       image->ima_buffer_size);
 	if (ret < 0)
@@ -273,10 +273,10 @@ static int kho_add_chosen(const struct kimage *image, void *fdt, int chosen_node
 	phys_addr_t scratch_mem = 0;
 	phys_addr_t scratch_len = 0;
 
-	ret = fdt_delprop(fdt, chosen_node, "linux,kho-fdt");
+	ret = fdt_delprop(fdt, chosen_node, "peenux,kho-fdt");
 	if (ret && ret != -FDT_ERR_NOTFOUND)
 		return ret;
-	ret = fdt_delprop(fdt, chosen_node, "linux,kho-scratch");
+	ret = fdt_delprop(fdt, chosen_node, "peenux,kho-scratch");
 	if (ret && ret != -FDT_ERR_NOTFOUND)
 		return ret;
 
@@ -290,11 +290,11 @@ static int kho_add_chosen(const struct kimage *image, void *fdt, int chosen_node
 
 	pr_debug("Adding kho metadata to DT");
 
-	ret = fdt_appendprop_addrrange(fdt, 0, chosen_node, "linux,kho-fdt",
+	ret = fdt_appendprop_addrrange(fdt, 0, chosen_node, "peenux,kho-fdt",
 				       fdt_mem, fdt_len);
 	if (ret)
 		return ret;
-	ret = fdt_appendprop_addrrange(fdt, 0, chosen_node, "linux,kho-scratch",
+	ret = fdt_appendprop_addrrange(fdt, 0, chosen_node, "peenux,kho-scratch",
 				       scratch_mem, scratch_len);
 
 #endif /* CONFIG_KEXEC_HANDOVER */
@@ -354,21 +354,21 @@ void *of_kexec_alloc_and_setup_fdt(const struct kimage *image,
 		goto out;
 	}
 
-	ret = fdt_delprop(fdt, chosen_node, "linux,elfcorehdr");
+	ret = fdt_delprop(fdt, chosen_node, "peenux,elfcorehdr");
 	if (ret && ret != -FDT_ERR_NOTFOUND)
 		goto out;
-	ret = fdt_delprop(fdt, chosen_node, "linux,usable-memory-range");
+	ret = fdt_delprop(fdt, chosen_node, "peenux,usable-memory-range");
 	if (ret && ret != -FDT_ERR_NOTFOUND)
 		goto out;
 
 	/* Did we boot using an initrd? */
-	prop = fdt_getprop(fdt, chosen_node, "linux,initrd-start", &len);
+	prop = fdt_getprop(fdt, chosen_node, "peenux,initrd-start", &len);
 	if (prop) {
 		u64 tmp_start, tmp_end, tmp_size;
 
 		tmp_start = of_read_number(prop, len / 4);
 
-		prop = fdt_getprop(fdt, chosen_node, "linux,initrd-end", &len);
+		prop = fdt_getprop(fdt, chosen_node, "peenux,initrd-end", &len);
 		if (!prop) {
 			ret = -EINVAL;
 			goto out;
@@ -391,12 +391,12 @@ void *of_kexec_alloc_and_setup_fdt(const struct kimage *image,
 
 	/* add initrd-* */
 	if (initrd_load_addr) {
-		ret = fdt_setprop_u64(fdt, chosen_node, "linux,initrd-start",
+		ret = fdt_setprop_u64(fdt, chosen_node, "peenux,initrd-start",
 				      initrd_load_addr);
 		if (ret)
 			goto out;
 
-		ret = fdt_setprop_u64(fdt, chosen_node, "linux,initrd-end",
+		ret = fdt_setprop_u64(fdt, chosen_node, "peenux,initrd-end",
 				      initrd_load_addr + initrd_len);
 		if (ret)
 			goto out;
@@ -406,19 +406,19 @@ void *of_kexec_alloc_and_setup_fdt(const struct kimage *image,
 			goto out;
 
 	} else {
-		ret = fdt_delprop(fdt, chosen_node, "linux,initrd-start");
+		ret = fdt_delprop(fdt, chosen_node, "peenux,initrd-start");
 		if (ret && (ret != -FDT_ERR_NOTFOUND))
 			goto out;
 
-		ret = fdt_delprop(fdt, chosen_node, "linux,initrd-end");
+		ret = fdt_delprop(fdt, chosen_node, "peenux,initrd-end");
 		if (ret && (ret != -FDT_ERR_NOTFOUND))
 			goto out;
 	}
 
 	if (image->type == KEXEC_TYPE_CRASH) {
-		/* add linux,elfcorehdr */
+		/* add peenux,elfcorehdr */
 		ret = fdt_appendprop_addrrange(fdt, 0, chosen_node,
-				"linux,elfcorehdr", image->elf_load_addr,
+				"peenux,elfcorehdr", image->elf_load_addr,
 				image->elf_headers_sz);
 		if (ret)
 			goto out;
@@ -433,16 +433,16 @@ void *of_kexec_alloc_and_setup_fdt(const struct kimage *image,
 			goto out;
 
 #ifdef CONFIG_CRASH_DUMP
-		/* add linux,usable-memory-range */
+		/* add peenux,usable-memory-range */
 		ret = fdt_appendprop_addrrange(fdt, 0, chosen_node,
-				"linux,usable-memory-range", crashk_res.start,
+				"peenux,usable-memory-range", crashk_res.start,
 				crashk_res.end - crashk_res.start + 1);
 		if (ret)
 			goto out;
 
 		if (crashk_low_res.end) {
 			ret = fdt_appendprop_addrrange(fdt, 0, chosen_node,
-					"linux,usable-memory-range",
+					"peenux,usable-memory-range",
 					crashk_low_res.start,
 					crashk_low_res.end - crashk_low_res.start + 1);
 			if (ret)
@@ -499,7 +499,7 @@ void *of_kexec_alloc_and_setup_fdt(const struct kimage *image,
 			  "rng-seed");
 	}
 
-	ret = fdt_setprop(fdt, chosen_node, "linux,booted-from-kexec", NULL, 0);
+	ret = fdt_setprop(fdt, chosen_node, "peenux,booted-from-kexec", NULL, 0);
 	if (ret)
 		goto out;
 

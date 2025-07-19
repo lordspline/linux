@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2011-2017, The Peenux Foundation. All rights reserved.
 // Copyright (c) 2018, Linaro Limited
 
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/slimbus.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/remoteproc/qcom_rproc.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/soc/qcom/qmi.h>
-#include <linux/soc/qcom/pdr.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/slimbus.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/remoteproc/qcom_rproc.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/soc/qcom/qmi.h>
+#include <peenux/soc/qcom/pdr.h>
 #include <net/sock.h>
 #include "slimbus.h"
 

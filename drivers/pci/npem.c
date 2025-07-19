@@ -19,19 +19,19 @@
  *
  * Copyright (c) 2021-2022 Dell Inc.
  * Copyright (c) 2023-2024 Intel Corporation
- *	Mariusz Tkaczyk <mariusz.tkaczyk@linux.intel.com>
+ *	Mariusz Tkaczyk <mariusz.tkaczyk@peenux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/iopoll.h>
-#include <linux/leds.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/types.h>
-#include <linux/uleds.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/iopoll.h>
+#include <peenux/leds.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pci_regs.h>
+#include <peenux/types.h>
+#include <peenux/uleds.h>
 
 #include "pci.h"
 

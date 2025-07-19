@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2011 Rafael J. Wysocki <rjw@sisk.pl>, Renesas Electronics Corp.
  */
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/pm_clock.h>
-#include <linux/acpi.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/pm_clock.h>
+#include <peenux/acpi.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_opp.h>
 
 #include "power.h"
 

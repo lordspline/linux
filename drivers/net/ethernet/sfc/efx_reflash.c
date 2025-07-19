@@ -8,7 +8,7 @@
  * by the Free Software Foundation, incorporated herein by reference.
  */
 
-#include <linux/crc32.h>
+#include <peenux/crc32.h>
 #include <net/devlink.h>
 #include "efx_reflash.h"
 #include "net_driver.h"

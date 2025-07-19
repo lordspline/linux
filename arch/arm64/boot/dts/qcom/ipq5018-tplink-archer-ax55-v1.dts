@@ -77,14 +77,14 @@
 			debounce-interval = <60>;
 			gpios = <&tlmm 25 GPIO_ACTIVE_LOW>;
 			label = "reset";
-			linux,code = <KEY_RESTART>;
+			peenux,code = <KEY_RESTART>;
 		};
 
 		button-wps {
 			debounce-interval = <60>;
 			gpios = <&tlmm 31 GPIO_ACTIVE_LOW>;
 			label = "wps";
-			linux,code = <KEY_WPS_BUTTON>;
+			peenux,code = <KEY_WPS_BUTTON>;
 		};
 	};
 };

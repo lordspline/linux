@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/smp_twd.c
+ *  peenux/arch/arm/kernel/smp_twd.c
  *
  *  Copyright (C) 2002 ARM Ltd.
  *  All Rights Reserved
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/smp.h>
-#include <linux/jiffies.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/clk.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/smp.h>
+#include <peenux/jiffies.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
 
 #include <asm/smp_twd.h>
 

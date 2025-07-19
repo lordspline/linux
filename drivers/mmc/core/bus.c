@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mmc/core/bus.c
+ *  peenux/drivers/mmc/core/bus.c
  *
  *  Copyright (C) 2003 Russell King, All Rights Reserved.
  *  Copyright (C) 2007 Pierre Ossman
@@ -8,17 +8,17 @@
  *  MMC card bus driver model
  */
 
-#include <linux/export.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/sysfs.h>
+#include <peenux/export.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sysfs.h>
 
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
 
 #include "core.h"
 #include "card.h"

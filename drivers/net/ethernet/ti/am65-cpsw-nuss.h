@@ -6,13 +6,13 @@
 #ifndef AM65_CPSW_NUSS_H_
 #define AM65_CPSW_NUSS_H_
 
-#include <linux/if_ether.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/phylink.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ti/k3-ringacc.h>
+#include <peenux/if_ether.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/phylink.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/ti/k3-ringacc.h>
 #include <net/devlink.h>
 #include <net/xdp.h>
 #include "am65-cpsw-qos.h"

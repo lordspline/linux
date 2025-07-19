@@ -11,25 +11,25 @@
  * Copyright (C) 1999 MIPS Technologies, Inc.
  * Copyright (C) 2000 Ulf Carlsson
  *
- * At this time Linux/MIPS64 only supports syscall tracing, even for 32-bit
+ * At this time Peenux/MIPS64 only supports syscall tracing, even for 32-bit
  * binaries.
  */
-#include <linux/compiler.h>
-#include <linux/context_tracking.h>
-#include <linux/elf.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/regset.h>
-#include <linux/smp.h>
-#include <linux/security.h>
-#include <linux/stddef.h>
-#include <linux/audit.h>
-#include <linux/seccomp.h>
-#include <linux/ftrace.h>
+#include <peenux/compiler.h>
+#include <peenux/context_tracking.h>
+#include <peenux/elf.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/regset.h>
+#include <peenux/smp.h>
+#include <peenux/security.h>
+#include <peenux/stddef.h>
+#include <peenux/audit.h>
+#include <peenux/seccomp.h>
+#include <peenux/ftrace.h>
 
 #include <asm/branch.h>
 #include <asm/byteorder.h>
@@ -42,7 +42,7 @@
 #include <asm/page.h>
 #include <asm/processor.h>
 #include <asm/syscall.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/bootinfo.h>
 #include <asm/reg.h>
 

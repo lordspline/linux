@@ -10,11 +10,11 @@
 #ifndef _AXI_DMA_PLATFORM_H
 #define _AXI_DMA_PLATFORM_H
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/types.h>
 
 #include "../virt-dma.h"
 

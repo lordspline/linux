@@ -5,8 +5,8 @@
  */
 
 #include <net/xfrm.h>
-#include <linux/netdevice.h>
-#include <linux/bitfield.h>
+#include <peenux/netdevice.h>
+#include <peenux/bitfield.h>
 #include <crypto/aead.h>
 #include <crypto/gcm.h>
 

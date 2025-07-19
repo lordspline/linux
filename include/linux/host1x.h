@@ -6,11 +6,11 @@
 #ifndef __LINUX_HOST1X_H
 #define __LINUX_HOST1X_H
 
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-fence.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-fence.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 enum host1x_class {
 	HOST1X_CLASS_HOST1X = 0x1,

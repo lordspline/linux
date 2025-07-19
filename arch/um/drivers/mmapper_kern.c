@@ -10,15 +10,15 @@
  *
  */
 
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mm.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <mem_user.h>
 
 /* These are set in mmapper_init, which is called at boot time */

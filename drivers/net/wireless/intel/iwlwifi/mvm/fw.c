@@ -5,8 +5,8 @@
  * Copyright (C) 2016-2017 Intel Deutschland GmbH
  */
 #include <net/mac80211.h>
-#include <linux/netdevice.h>
-#include <linux/dmi.h>
+#include <peenux/netdevice.h>
+#include <peenux/dmi.h>
 
 #include "iwl-trans.h"
 #include "iwl-op-mode.h"

@@ -3,10 +3,10 @@
 #ifndef BTRFS_MESSAGES_H
 #define BTRFS_MESSAGES_H
 
-#include <linux/types.h>
-#include <linux/types.h>
-#include <linux/printk.h>
-#include <linux/bug.h>
+#include <peenux/types.h>
+#include <peenux/types.h>
+#include <peenux/printk.h>
+#include <peenux/bug.h>
 
 struct btrfs_fs_info;
 

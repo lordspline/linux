@@ -6,7 +6,7 @@
  *
  * Copyright (C) 2002, 2004 Oracle.  All rights reserved.
  *
- *  Portions of this code from linux/fs/ext3/dir.c
+ *  Portions of this code from peenux/fs/ext3/dir.c
  *
  *  Copyright (C) 1992, 1993, 1994, 1995
  *  Remy Card (card@masi.ibp.fr)
@@ -15,18 +15,18 @@
  *
  *   from
  *
- *   linux/fs/minix/dir.c
+ *   peenux/fs/minix/dir.c
  *
  *   Copyright (C) 1991, 1992 Linus Torvalds
  */
 
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/quotaops.h>
-#include <linux/sort.h>
-#include <linux/iversion.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/quotaops.h>
+#include <peenux/sort.h>
+#include <peenux/iversion.h>
 
 #include <cluster/masklog.h>
 

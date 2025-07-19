@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap2/cpuidle34xx.c
+ * peenux/arch/arm/mach-omap2/cpuidle34xx.c
  *
  * OMAP3 CPU IDLE Routines
  *
@@ -19,10 +19,10 @@
  * Based on pm.c for omap2
  */
 
-#include <linux/sched.h>
-#include <linux/cpuidle.h>
-#include <linux/export.h>
-#include <linux/cpu_pm.h>
+#include <peenux/sched.h>
+#include <peenux/cpuidle.h>
+#include <peenux/export.h>
+#include <peenux/cpu_pm.h>
 #include <asm/cpuidle.h>
 
 #include "powerdomain.h"

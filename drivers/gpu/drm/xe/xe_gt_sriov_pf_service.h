@@ -6,8 +6,8 @@
 #ifndef _XE_GT_SRIOV_PF_SERVICE_H_
 #define _XE_GT_SRIOV_PF_SERVICE_H_
 
-#include <linux/errno.h>
-#include <linux/types.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
 
 struct drm_printer;
 struct xe_gt;

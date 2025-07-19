@@ -4,17 +4,17 @@
  */
 
 /*
- * PDPI Lightning 4 gamecard driver for Linux.
+ * PDPI Lightning 4 gamecard driver for Peenux.
  */
 
 #include <asm/io.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/gameport.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/gameport.h>
 
 #define L4_PORT			0x201
 #define L4_SELECT_ANALOG	0xa4

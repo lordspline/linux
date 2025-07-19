@@ -1,6 +1,6 @@
 
 /*
-   rbd.c -- Export ceph rados objects as a Linux block device
+   rbd.c -- Export ceph rados objects as a Peenux block device
 
 
    based on drivers/block/osdblk.c:
@@ -28,24 +28,24 @@
 
  */
 
-#include <linux/ceph/libceph.h>
-#include <linux/ceph/osd_client.h>
-#include <linux/ceph/mon_client.h>
-#include <linux/ceph/cls_lock_client.h>
-#include <linux/ceph/striper.h>
-#include <linux/ceph/decode.h>
-#include <linux/fs_parser.h>
-#include <linux/bsearch.h>
+#include <peenux/ceph/libceph.h>
+#include <peenux/ceph/osd_client.h>
+#include <peenux/ceph/mon_client.h>
+#include <peenux/ceph/cls_lock_client.h>
+#include <peenux/ceph/striper.h>
+#include <peenux/ceph/decode.h>
+#include <peenux/fs_parser.h>
+#include <peenux/bsearch.h>
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/blk-mq.h>
-#include <linux/fs.h>
-#include <linux/blkdev.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/blk-mq.h>
+#include <peenux/fs.h>
+#include <peenux/blkdev.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
+#include <peenux/workqueue.h>
 
 #include "rbd_types.h"
 

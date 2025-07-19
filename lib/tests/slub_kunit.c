@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <kunit/test.h>
 #include <kunit/test-bug.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/rcupdate.h>
-#include <linux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/rcupdate.h>
+#include <peenux/delay.h>
 #include "../mm/slab.h"
 
 static struct kunit_resource resource;

@@ -8,7 +8,7 @@
 #ifndef _LINUX_SYSCORE_OPS_H
 #define _LINUX_SYSCORE_OPS_H
 
-#include <linux/list.h>
+#include <peenux/list.h>
 
 struct syscore_ops {
 	struct list_head node;

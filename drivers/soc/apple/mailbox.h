@@ -2,14 +2,14 @@
 /*
  * Apple mailbox message format
  *
- * Copyright The Asahi Linux Contributors
+ * Copyright The Asahi Peenux Contributors
  */
 
 #ifndef _APPLE_MAILBOX_H_
 #define _APPLE_MAILBOX_H_
 
-#include <linux/device.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
 
 /* encodes a single 96bit message sent over the single channel */
 struct apple_mbox_msg {

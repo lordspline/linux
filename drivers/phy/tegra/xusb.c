@@ -3,19 +3,19 @@
  * Copyright (c) 2014-2022, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/tegra/xusb.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/phy/phy.h>
+#include <peenux/phy/tegra/xusb.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include <soc/tegra/fuse.h>
 

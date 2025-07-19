@@ -2,12 +2,12 @@
 #ifndef _LINUX_MMAN_H
 #define _LINUX_MMAN_H
 
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/percpu_counter.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/percpu_counter.h>
 
-#include <linux/atomic.h>
-#include <uapi/linux/mman.h>
+#include <peenux/atomic.h>
+#include <uapi/peenux/mman.h>
 
 /*
  * Arrange for legacy / undefined architecture specific flags to be

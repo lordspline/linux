@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/mdio.h: definitions for MDIO (clause 45) transceivers
+ * peenux/mdio.h: definitions for MDIO (clause 45) transceivers
  * Copyright 2006-2009 Solarflare Communications Inc.
  */
 #ifndef __LINUX_MDIO_H__
 #define __LINUX_MDIO_H__
 
-#include <uapi/linux/mdio.h>
-#include <linux/bitfield.h>
-#include <linux/mod_devicetable.h>
+#include <uapi/peenux/mdio.h>
+#include <peenux/bitfield.h>
+#include <peenux/mod_devicetable.h>
 
 struct gpio_desc;
 struct mii_bus;

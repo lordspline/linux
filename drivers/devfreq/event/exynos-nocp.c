@@ -6,13 +6,13 @@
  * Author : Chanwoo Choi <cw00.choi@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/devfreq-event.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/devfreq-event.h>
+#include <peenux/kernel.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include "exynos-nocp.h"
 

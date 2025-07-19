@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * Zoran zr36057/zr36067 PCI controller driver, for the
- * Pinnacle/Miro DC10/DC10+/DC30/DC30+, Iomega Buz, Linux
+ * Pinnacle/Miro DC10/DC10+/DC30/DC30+, Iomega Buz, Peenux
  * Media Labs LML33/LML33R10.
  *
  * Copyright (C) 2000 Serguei Miridonov <mirsev@cicese.mx>
@@ -30,29 +30,29 @@
  *                        & Marcus Metzler (mocm@thp.uni-koeln.de)
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/wait.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/wait.h>
 
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-bit.h>
 
-#include <linux/spinlock.h>
+#include <peenux/spinlock.h>
 
-#include <linux/videodev2.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-event.h>
 #include "videocodec.h"
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 
-#include <linux/mutex.h>
+#include <peenux/mutex.h>
 #include "zoran.h"
 #include "zoran_device.h"
 #include "zoran_card.h"

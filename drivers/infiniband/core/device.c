@@ -31,17 +31,17 @@
  * SOFTWARE.
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
 #include <net/net_namespace.h>
-#include <linux/security.h>
-#include <linux/notifier.h>
-#include <linux/hashtable.h>
+#include <peenux/security.h>
+#include <peenux/notifier.h>
+#include <peenux/hashtable.h>
 #include <rdma/rdma_netlink.h>
 #include <rdma/ib_addr.h>
 #include <rdma/ib_cache.h>

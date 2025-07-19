@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Copyright (C) 2014 Oleksij Rempel <linux@rempel-privat.de>
+ * Copyright (C) 2014 Oleksij Rempel <peenux@rempel-privat.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/clk.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/bitops.h>
 
 #define DRIVER_NAME	"asm9260-timer"
 

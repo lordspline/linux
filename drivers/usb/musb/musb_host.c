@@ -8,15 +8,15 @@
  * Copyright (C) 2008-2009 MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/dma-mapping.h>
 
 #include "musb_core.h"
 #include "musb_host.h"

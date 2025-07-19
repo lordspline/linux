@@ -17,9 +17,9 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/export.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
 
 #include <asm/mmu_context.h>
 

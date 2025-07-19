@@ -2,11 +2,11 @@
 /*
  * Copyright (C) 2016-2017 Linaro Ltd., Rob Herring <robh@kernel.org>
  */
-#include <linux/kernel.h>
-#include <linux/serdev.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/poll.h>
+#include <peenux/kernel.h>
+#include <peenux/serdev.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/poll.h>
 
 #define SERPORT_ACTIVE		1
 

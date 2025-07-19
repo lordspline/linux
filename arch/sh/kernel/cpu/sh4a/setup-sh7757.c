@@ -6,17 +6,17 @@
  *
  *  based on setup-sh7785.c : Copyright (C) 2007  Paul Mundt
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/serial_sci.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_dma.h>
-#include <linux/sh_intc.h>
-#include <linux/usb/ohci_pdriver.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/serial_sci.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/sh_timer.h>
+#include <peenux/sh_dma.h>
+#include <peenux/sh_intc.h>
+#include <peenux/usb/ohci_pdriver.h>
 
 #include <cpu/dma-register.h>
 #include <cpu/sh7757.h>

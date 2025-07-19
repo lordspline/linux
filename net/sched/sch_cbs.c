@@ -50,14 +50,14 @@
  *	locredit = max_frame_size * (sendslope / port_transmit_rate)
  */
 
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/units.h>
+#include <peenux/ethtool.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/units.h>
 
 #include <net/netevent.h>
 #include <net/netlink.h>

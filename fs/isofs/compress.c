@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* -*- linux-c -*- ------------------------------------------------------- *
+/* -*- peenux-c -*- ------------------------------------------------------- *
  *   
  *   Copyright 2001 H. Peter Anvin - All Rights Reserved
  *
  * ----------------------------------------------------------------------- */
 
 /*
- * linux/fs/isofs/compress.c
+ * peenux/fs/isofs/compress.c
  *
  * Transparent decompression of files on an iso9660 filesystem
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/bio.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/bio.h>
 
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/zlib.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/zlib.h>
 
 #include "isofs.h"
 #include "zisofs.h"

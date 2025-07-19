@@ -42,35 +42,35 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/fdtable.h>
-#include <linux/file.h>
-#include <linux/freezer.h>
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nsproxy.h>
-#include <linux/poll.h>
-#include <linux/debugfs.h>
-#include <linux/rbtree.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/pid_namespace.h>
-#include <linux/security.h>
-#include <linux/spinlock.h>
-#include <linux/ratelimit.h>
-#include <linux/syscalls.h>
-#include <linux/task_work.h>
-#include <linux/sizes.h>
-#include <linux/ktime.h>
+#include <peenux/fdtable.h>
+#include <peenux/file.h>
+#include <peenux/freezer.h>
+#include <peenux/fs.h>
+#include <peenux/list.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nsproxy.h>
+#include <peenux/poll.h>
+#include <peenux/debugfs.h>
+#include <peenux/rbtree.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/mm.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/security.h>
+#include <peenux/spinlock.h>
+#include <peenux/ratelimit.h>
+#include <peenux/syscalls.h>
+#include <peenux/task_work.h>
+#include <peenux/sizes.h>
+#include <peenux/ktime.h>
 
-#include <uapi/linux/android/binder.h>
+#include <uapi/peenux/android/binder.h>
 
-#include <linux/cacheflush.h>
+#include <peenux/cacheflush.h>
 
 #include "binder_internal.h"
 #include "binder_trace.h"

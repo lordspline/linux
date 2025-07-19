@@ -2,9 +2,9 @@
 /* Copyright(c) 2024 Intel Corporation. */
 #ifndef __CXL_MBOX_H__
 #define __CXL_MBOX_H__
-#include <linux/rcuwait.h>
+#include <peenux/rcuwait.h>
 #include <cxl/features.h>
-#include <uapi/linux/cxl_mem.h>
+#include <uapi/peenux/cxl_mem.h>
 
 /**
  * struct cxl_mbox_cmd - A command to be submitted to hardware.

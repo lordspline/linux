@@ -5,11 +5,11 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/i2c.h>
+#include <peenux/videodev2.h>
+#include <peenux/slab.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>
 

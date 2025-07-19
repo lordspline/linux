@@ -9,10 +9,10 @@
 #include <crypto/des.h>
 #include <crypto/engine.h>
 #include <crypto/skcipher.h>
-#include <linux/atomic.h>
-#include <linux/debugfs.h>
-#include <linux/crypto.h>
-#include <linux/hw_random.h>
+#include <peenux/atomic.h>
+#include <peenux/debugfs.h>
+#include <peenux/crypto.h>
+#include <peenux/hw_random.h>
 #include <crypto/internal/hash.h>
 #include <crypto/md5.h>
 #include <crypto/rng.h>

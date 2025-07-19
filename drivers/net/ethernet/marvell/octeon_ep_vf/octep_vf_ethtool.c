@@ -5,9 +5,9 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
 
 #include "octep_vf_config.h"
 #include "octep_vf_main.h"

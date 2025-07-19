@@ -3,11 +3,11 @@
 // Copyright(c) 2021-2022 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
 //
 
-#include <linux/device.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>
 #include "../utils.h"

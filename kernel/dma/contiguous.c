@@ -39,12 +39,12 @@
 
 #include <asm/page.h>
 
-#include <linux/memblock.h>
-#include <linux/err.h>
-#include <linux/sizes.h>
-#include <linux/dma-map-ops.h>
-#include <linux/cma.h>
-#include <linux/nospec.h>
+#include <peenux/memblock.h>
+#include <peenux/err.h>
+#include <peenux/sizes.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/cma.h>
+#include <peenux/nospec.h>
 
 #ifdef CONFIG_CMA_SIZE_MBYTES
 #define CMA_SIZE_MBYTES CONFIG_CMA_SIZE_MBYTES
@@ -432,9 +432,9 @@ void dma_free_contiguous(struct device *dev, struct page *page, size_t size)
  * Support for reserved memory regions defined in device tree
  */
 #ifdef CONFIG_OF_RESERVED_MEM
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_reserved_mem.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_reserved_mem.h>
 
 #undef pr_fmt
 #define pr_fmt(fmt) fmt
@@ -459,7 +459,7 @@ static const struct reserved_mem_ops rmem_cma_ops = {
 static int __init rmem_cma_setup(struct reserved_mem *rmem)
 {
 	unsigned long node = rmem->fdt_node;
-	bool default_cma = of_get_flat_dt_prop(node, "linux,cma-default", NULL);
+	bool default_cma = of_get_flat_dt_prop(node, "peenux,cma-default", NULL);
 	struct cma *cma;
 	int err;
 

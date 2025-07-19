@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mm/init.c
+ *  peenux/arch/arm/mm/init.c
  *
  *  Copyright (C) 1995-2005 Russell King
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/swap.h>
-#include <linux/init.h>
-#include <linux/mman.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
-#include <linux/export.h>
-#include <linux/nodemask.h>
-#include <linux/initrd.h>
-#include <linux/of_fdt.h>
-#include <linux/highmem.h>
-#include <linux/gfp.h>
-#include <linux/memblock.h>
-#include <linux/dma-map-ops.h>
-#include <linux/sizes.h>
-#include <linux/stop_machine.h>
-#include <linux/swiotlb.h>
-#include <linux/execmem.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/swap.h>
+#include <peenux/init.h>
+#include <peenux/mman.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task.h>
+#include <peenux/export.h>
+#include <peenux/nodemask.h>
+#include <peenux/initrd.h>
+#include <peenux/of_fdt.h>
+#include <peenux/highmem.h>
+#include <peenux/gfp.h>
+#include <peenux/memblock.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/sizes.h>
+#include <peenux/stop_machine.h>
+#include <peenux/swiotlb.h>
+#include <peenux/execmem.h>
 
 #include <asm/cp15.h>
 #include <asm/mach-types.h>

@@ -21,22 +21,22 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
-#include <uapi/linux/kfd_ioctl.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/ptrace.h>
-#include <linux/dma-buf.h>
-#include <linux/processor.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/compat.h>
+#include <uapi/peenux/kfd_ioctl.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/ptrace.h>
+#include <peenux/dma-buf.h>
+#include <peenux/processor.h>
 #include "kfd_priv.h"
 #include "kfd_device_queue_manager.h"
 #include "kfd_svm.h"

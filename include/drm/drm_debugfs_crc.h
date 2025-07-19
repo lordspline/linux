@@ -22,9 +22,9 @@
 #ifndef __DRM_DEBUGFS_CRC_H__
 #define __DRM_DEBUGFS_CRC_H__
 
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
 struct drm_crtc;
 

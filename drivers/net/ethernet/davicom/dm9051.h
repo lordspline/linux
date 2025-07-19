@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
  * Copyright (c) 2022 Davicom Semiconductor,Inc.
- * Davicom DM9051 SPI Fast Ethernet Linux driver
+ * Davicom DM9051 SPI Fast Ethernet Peenux driver
  */
 
 #ifndef _DM9051_H_
 #define _DM9051_H_
 
-#include <linux/bits.h>
-#include <linux/netdevice.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/netdevice.h>
+#include <peenux/types.h>
 
 #define DM9051_ID		0x9051
 

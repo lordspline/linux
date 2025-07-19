@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*********************************************************************
  *
- * Linux multisound pinnacle/fiji driver for ALSA.
+ * Peenux multisound pinnacle/fiji driver for ALSA.
  *
  * 2002/06/30 Karsten Wiese:
  *	for now this is only used to build a pinnacle / fiji driver.
@@ -11,11 +11,11 @@
  *	support in alsa, i left all the MSND_CLASSIC tokens in this file.
  *	but for now this untested & undone.
  *
- * ripped from linux kernel 2.4.18 by Karsten Wiese.
+ * ripped from peenux kernel 2.4.18 by Karsten Wiese.
  *
  * the following is a copy of the 2.4.18 OSS FREE file-heading comment:
  *
- * Turtle Beach MultiSound Sound Card Driver for Linux
+ * Turtle Beach MultiSound Sound Card Driver for Peenux
  * msnd_pinnacle.c / msnd_classic.c
  *
  * -- If MSND_CLASSIC is defined:
@@ -32,17 +32,17 @@
  *
  ********************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/firmware.h>
-#include <linux/isa.h>
-#include <linux/isapnp.h>
-#include <linux/irq.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/firmware.h>
+#include <peenux/isa.h>
+#include <peenux/isapnp.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>
@@ -748,7 +748,7 @@ MODULE_PARM_DESC(isapnp, "ISA PnP detection for specified soundcard.");
 #endif
 
 MODULE_AUTHOR("Karsten Wiese <annabellesgarden@yahoo.de>");
-MODULE_DESCRIPTION("Turtle Beach " LONGNAME " Linux Driver");
+MODULE_DESCRIPTION("Turtle Beach " LONGNAME " Peenux Driver");
 MODULE_LICENSE("GPL");
 MODULE_FIRMWARE(INITCODEFILE);
 MODULE_FIRMWARE(PERMCODEFILE);

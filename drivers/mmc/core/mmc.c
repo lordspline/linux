@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mmc/core/mmc.c
+ *  peenux/drivers/mmc/core/mmc.c
  *
  *  Copyright (C) 2003-2004 Russell King, All Rights Reserved.
  *  Copyright (C) 2005-2007 Pierre Ossman, All Rights Reserved.
  *  MMCv4 support Copyright (C) 2006 Philip Langdale, All Rights Reserved.
  */
 
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/pm_runtime.h>
-#include <linux/random.h>
-#include <linux/sysfs.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/string.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/random.h>
+#include <peenux/sysfs.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/mmc.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/mmc.h>
 
 #include "core.h"
 #include "card.h"

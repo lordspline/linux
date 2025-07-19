@@ -5,17 +5,17 @@
  * Copyright (C) 2024 Matteo Martelli <matteomartelli3@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/i2c.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/limits.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <peenux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/limits.h>
+#include <peenux/regmap.h>
+#include <peenux/units.h>
 
 /* pac1921 registers */
 #define PAC1921_REG_GAIN_CFG		0x00

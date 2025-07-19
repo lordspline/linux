@@ -9,21 +9,21 @@
 #include "dm-core.h"
 #include "dm-rq.h"
 
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/blkdev.h>
-#include <linux/blk-integrity.h>
-#include <linux/namei.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/atomic.h>
-#include <linux/blk-mq.h>
-#include <linux/mount.h>
-#include <linux/dax.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/namei.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/atomic.h>
+#include <peenux/blk-mq.h>
+#include <peenux/mount.h>
+#include <peenux/dax.h>
 
 #define DM_MSG_PREFIX "table"
 

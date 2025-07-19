@@ -29,26 +29,26 @@
 
 /*****************************************************************************/
 
-#include <linux/capability.h>
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/net.h>
-#include <linux/in.h>
-#include <linux/if.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
+#include <peenux/capability.h>
+#include <peenux/compat.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/net.h>
+#include <peenux/in.h>
+#include <peenux/if.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
 
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <linux/hdlcdrv.h>
-#include <linux/random.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
+#include <peenux/hdlcdrv.h>
+#include <peenux/random.h>
 #include <net/ax25.h> 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
-#include <linux/crc-ccitt.h>
+#include <peenux/crc-ccitt.h>
 
 /* --------------------------------------------------------------------- */
 

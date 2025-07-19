@@ -27,12 +27,12 @@
 #ifndef _USB_H_
 #define _USB_H_
 
-#include <linux/usb.h>
-#include <linux/usb_usual.h>
-#include <linux/blkdev.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <peenux/usb.h>
+#include <peenux/usb_usual.h>
+#include <peenux/blkdev.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
 #include <scsi/scsi_host.h>
 
 struct us_data;

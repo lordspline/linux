@@ -5,10 +5,10 @@
 #if !defined(_TRACE_XDP_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_XDP_H
 
-#include <linux/netdevice.h>
-#include <linux/filter.h>
-#include <linux/tracepoint.h>
-#include <linux/bpf.h>
+#include <peenux/netdevice.h>
+#include <peenux/filter.h>
+#include <peenux/tracepoint.h>
+#include <peenux/bpf.h>
 #include <net/xdp.h>
 
 #define __XDP_ACT_MAP(FN)	\

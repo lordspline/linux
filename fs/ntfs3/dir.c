@@ -7,8 +7,8 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/nls.h>
+#include <peenux/fs.h>
+#include <peenux/nls.h>
 
 #include "debug.h"
 #include "ntfs.h"

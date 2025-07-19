@@ -31,8 +31,8 @@
  * SOFTWARE.
  */
 
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
 
 #include "mthca_profile.h"
 

@@ -6,8 +6,8 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/ftrace.h>
+#include <peenux/module.h>
+#include <peenux/ftrace.h>
 
 #include "trace.h"
 

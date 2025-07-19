@@ -12,10 +12,10 @@
  *  by Maxim Krasnyansky.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
 
 #include <net/nfc/nci.h>
 #include <net/nfc/nci_core.h>

@@ -69,14 +69,14 @@
  *			Suspend Modulation - Definitions		*
  ************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/cpufreq.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/cpufreq.h>
+#include <peenux/pci.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/processor-cyrix.h>

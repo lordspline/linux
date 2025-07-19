@@ -7,15 +7,15 @@
  * Copyright (c) 2016 Andrew Lunn <andrew@lunn.ch>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
-#include <linux/rtnetlink.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
 #include <net/dsa_stubs.h>
 #include <net/sch_generic.h>
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-/* Advanced  Micro Devices Inc. AMD8111E Linux Network Driver
+/* Advanced  Micro Devices Inc. AMD8111E Peenux Network Driver
  * Copyright (C) 2004 Advanced Micro Devices
  *
  * Copyright 2001,2002 Jeff Garzik <jgarzik@mandrakesoft.com> [ 8139cp.c,tg3.c ]
@@ -54,27 +54,27 @@ Revision History:
 */
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/if_vlan.h>
-#include <linux/ctype.h>
-#include <linux/crc32.h>
-#include <linux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/if_vlan.h>
+#include <peenux/ctype.h>
+#include <peenux/crc32.h>
+#include <peenux/dma-mapping.h>
 
 #include <asm/io.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #if IS_ENABLED(CONFIG_VLAN_8021Q)
 #define AMD8111E_VLAN_TAG_USED 1

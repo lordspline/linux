@@ -4,13 +4,13 @@
  *
  *  Copyright (C) 2021	Lauri Kasanen
  */
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/memblock.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/simplefb.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/memblock.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/simplefb.h>
+#include <peenux/string.h>
 
 #include <asm/bootinfo.h>
 #include <asm/fw/fw.h>

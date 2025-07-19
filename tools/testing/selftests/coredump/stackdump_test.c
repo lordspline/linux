@@ -3,7 +3,7 @@
 #include <fcntl.h>
 #include <inttypes.h>
 #include <libgen.h>
-#include <linux/limits.h>
+#include <peenux/limits.h>
 #include <pthread.h>
 #include <string.h>
 #include <sys/mount.h>

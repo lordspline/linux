@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-mmp/common.c
+ *  peenux/arch/arm/mach-mmp/common.c
  *
  *  Code common to PXA168 processor lines
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include <asm/page.h>
 #include <asm/mach/map.h>
 #include <asm/system_misc.h>
 #include "addr-map.h"
-#include <linux/soc/mmp/cputype.h>
+#include <peenux/soc/mmp/cputype.h>
 
 #include "common.h"
 

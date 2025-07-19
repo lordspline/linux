@@ -12,7 +12,7 @@
 #ifndef AMD_PMF_IO_H
 #define AMD_PMF_IO_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /**
  * enum sfh_message_type - Query the SFH message type

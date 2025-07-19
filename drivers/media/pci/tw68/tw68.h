@@ -16,12 +16,12 @@
  *  Copyright (C) 2014 Hans Verkuil <hverkuil@xs4all.nl>
  */
 
-#include <linux/pci.h>
-#include <linux/videodev2.h>
-#include <linux/notifier.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
+#include <peenux/pci.h>
+#include <peenux/videodev2.h>
+#include <peenux/notifier.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/io.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

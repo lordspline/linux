@@ -2,7 +2,7 @@
 #ifndef __LINUX_CACHE_H
 #define __LINUX_CACHE_H
 
-#include <uapi/linux/kernel.h>
+#include <uapi/peenux/kernel.h>
 #include <vdso/cache.h>
 #include <asm/cache.h>
 

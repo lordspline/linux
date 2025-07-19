@@ -5,19 +5,19 @@
  *  (c) Joseph Strauss (jstrauss@mailbox.org)
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/printk.h>
-#include <linux/pm_runtime.h>
-#include <linux/leds.h>
-#include <linux/delay.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/kconfig.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/sysfs.h>
+#include <peenux/printk.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/leds.h>
+#include <peenux/delay.h>
+#include <peenux/led-class-multicolor.h>
+#include <peenux/kconfig.h>
 
 #define NUM_LEDS 3
 

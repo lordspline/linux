@@ -6,10 +6,10 @@
 #ifndef VDO_ENCODINGS_H
 #define VDO_ENCODINGS_H
 
-#include <linux/blk_types.h>
-#include <linux/crc32.h>
-#include <linux/limits.h>
-#include <linux/uuid.h>
+#include <peenux/blk_types.h>
+#include <peenux/crc32.h>
+#include <peenux/limits.h>
+#include <peenux/uuid.h>
 
 #include "numeric.h"
 

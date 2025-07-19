@@ -6,17 +6,17 @@
  */
 
 #include <crypto/algapi.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/fips.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/rtnetlink.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/fips.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
 
 #include "internal.h"
 

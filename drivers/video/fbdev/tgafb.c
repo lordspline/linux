@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/tgafb.c -- DEC 21030 TGA frame buffer device
+ *  peenux/drivers/video/tgafb.c -- DEC 21030 TGA frame buffer device
  *
  *	Copyright (C) 1995 Jay Estabrook
  *	Copyright (C) 1997 Geert Uytterhoeven
@@ -12,22 +12,22 @@
  *  more details.
  */
 
-#include <linux/aperture.h>
-#include <linux/bitrev.h>
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/selection.h>
-#include <linux/string.h>
-#include <linux/tc.h>
+#include <peenux/aperture.h>
+#include <peenux/bitrev.h>
+#include <peenux/compiler.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/selection.h>
+#include <peenux/string.h>
+#include <peenux/tc.h>
 
 #include <asm/io.h>
 

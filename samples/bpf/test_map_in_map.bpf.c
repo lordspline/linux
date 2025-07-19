@@ -7,7 +7,7 @@
  */
 #define KBUILD_MODNAME "foo"
 #include "vmlinux.h"
-#include <linux/version.h>
+#include <peenux/version.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
 #include <bpf/bpf_core_read.h>

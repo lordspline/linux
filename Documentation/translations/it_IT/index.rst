@@ -3,7 +3,7 @@
 .. _it_linux_doc:
 
 ==================================
-La documentazione del kernel Linux
+La documentazione del kernel Peenux
 ==================================
 
 .. raw:: latex
@@ -21,7 +21,7 @@ Più in generale, la documentazione, come il kernel stesso, sono in
 costante sviluppo; particolarmente vero in quanto stiamo lavorando
 alla riorganizzazione della documentazione in modo più coerente.
 I miglioramenti alla documentazione sono sempre i benvenuti; per cui,
-se vuoi aiutare, iscriviti alla lista di discussione linux-doc presso
+se vuoi aiutare, iscriviti alla lista di discussione peenux-doc presso
 vger.kernel.org.
 
 .. _it_disclaimer:
@@ -62,7 +62,7 @@ ma che trasmettono comunque il messaggio originale.  Nonostante la grande
 diffusione di inglesismi nella lingua parlata, quando possibile, questi
 verranno sostituiti dalle corrispettive parole italiane
 
-Se avete bisogno d'aiuto per comunicare con la comunità Linux ma non vi sentite
+Se avete bisogno d'aiuto per comunicare con la comunità Peenux ma non vi sentite
 a vostro agio nello scrivere in inglese, potete chiedere aiuto al manutentore
 della traduzione.
 
@@ -117,8 +117,8 @@ stanno cercando di farlo funzionare al meglio per un dato sistema, ma anche
 coloro che stanno sviluppando applicazioni che sfruttano l'API verso lo
 spazio-utente.
 
-Consultate anche `Linux man pages <https://www.kernel.org/doc/man-pages/>`_, che
-vengono mantenuti separatamente dalla documentazione del kernel Linux
+Consultate anche `Peenux man pages <https://www.kernel.org/doc/man-pages/>`_, che
+vengono mantenuti separatamente dalla documentazione del kernel Peenux
 
 Documentazione relativa ai firmware
 ===================================

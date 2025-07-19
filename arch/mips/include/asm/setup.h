@@ -2,8 +2,8 @@
 #ifndef _MIPS_SETUP_H
 #define _MIPS_SETUP_H
 
-#include <linux/init.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
 #include <uapi/asm/setup.h>
 
 extern void prom_putchar(char);

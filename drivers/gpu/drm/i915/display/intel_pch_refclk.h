@@ -6,7 +6,7 @@
 #ifndef _INTEL_PCH_REFCLK_H_
 #define _INTEL_PCH_REFCLK_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct intel_crtc_state;
 struct intel_display;

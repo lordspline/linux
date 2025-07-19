@@ -9,7 +9,7 @@
 #include <asm/ptrace.h>
 #include <asm/loongarch.h>
 #include <asm/unwind_hints.h>
-#include <linux/stringify.h>
+#include <peenux/stringify.h>
 
 enum stack_type {
 	STACK_TYPE_UNKNOWN,

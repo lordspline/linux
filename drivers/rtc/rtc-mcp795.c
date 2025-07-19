@@ -4,21 +4,21 @@
  *
  * Copyright (C) Josef Gajdusek <atx@atx.name>
  *
- * based on other Linux RTC drivers
+ * based on other Peenux RTC drivers
  *
  * Device datasheet:
  * https://ww1.microchip.com/downloads/en/DeviceDoc/22280A.pdf
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/printk.h>
-#include <linux/spi/spi.h>
-#include <linux/rtc.h>
-#include <linux/of.h>
-#include <linux/bcd.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/printk.h>
+#include <peenux/spi/spi.h>
+#include <peenux/rtc.h>
+#include <peenux/of.h>
+#include <peenux/bcd.h>
+#include <peenux/delay.h>
 
 /* MCP795 Instructions, see datasheet table 3-1 */
 #define MCP795_EEREAD	0x03

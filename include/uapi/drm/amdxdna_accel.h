@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Copyright (C) 2022-2024, Advanced Micro Devices, Inc.
  */
@@ -6,7 +6,7 @@
 #ifndef _UAPI_AMDXDNA_ACCEL_H_
 #define _UAPI_AMDXDNA_ACCEL_H_
 
-#include <linux/stddef.h>
+#include <peenux/stddef.h>
 #include "drm.h"
 
 #if defined(__cplusplus)

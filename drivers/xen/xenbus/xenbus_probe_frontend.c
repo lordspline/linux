@@ -5,18 +5,18 @@
 	pr_debug("(%s:%d) " fmt "\n",			\
 		 __func__, __LINE__, ##__VA_ARGS__)
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/notifier.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/fcntl.h>
+#include <peenux/mm.h>
+#include <peenux/proc_fs.h>
+#include <peenux/notifier.h>
+#include <peenux/kthread.h>
+#include <peenux/mutex.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
 
 #include <asm/page.h>
 #include <asm/xen/hypervisor.h>

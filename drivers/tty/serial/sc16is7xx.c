@@ -10,27 +10,27 @@
 #undef DEFAULT_SYMBOL_NAMESPACE
 #define DEFAULT_SYMBOL_NAMESPACE "SERIAL_NXP_SC16IS7XX"
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/idr.h>
-#include <linux/kthread.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/sched.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/string.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/uaccess.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/idr.h>
+#include <peenux/kthread.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/sched.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/string.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/uaccess.h>
+#include <peenux/units.h>
 
 #include "sc16is7xx.h"
 

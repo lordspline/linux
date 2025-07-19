@@ -8,25 +8,25 @@
  * SMP support for BMIPS
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/reboot.h>
-#include <linux/io.h>
-#include <linux/compiler.h>
-#include <linux/linkage.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/kexec.h>
-#include <linux/irq.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/reboot.h>
+#include <peenux/io.h>
+#include <peenux/compiler.h>
+#include <peenux/linkage.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/kexec.h>
+#include <peenux/irq.h>
 
 #include <asm/time.h>
 #include <asm/processor.h>
@@ -399,7 +399,7 @@ void __ref play_dead(void)
 
 	/*
 	 * Wakeup is on SW0 or SW1; disable everything else
-	 * Use BEV !IV (BMIPS_WARM_RESTART_VEC) to avoid the regular Linux
+	 * Use BEV !IV (BMIPS_WARM_RESTART_VEC) to avoid the regular Peenux
 	 * IRQ handlers; this clears ST0_IE and returns immediately.
 	 */
 	clear_c0_cause(CAUSEF_IV | C_SW0 | C_SW1);

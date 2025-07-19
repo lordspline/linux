@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2025 Intel Corporation */
-#include <linux/bitfield.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/types.h>
 
 #include "adf_common_drv.h"
 #include "adf_gen6_ras.h"

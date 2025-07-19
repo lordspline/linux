@@ -2,16 +2,16 @@
 //
 // Copyright 2016 Freescale Semiconductor, Inc.
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
-#include <linux/thermal.h>
-#include <linux/units.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/sizes.h>
+#include <peenux/thermal.h>
+#include <peenux/units.h>
 
 #include "thermal_hwmon.h"
 

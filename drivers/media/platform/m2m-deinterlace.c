@@ -6,11 +6,11 @@
  * Javier Martin <javier.martin@vista-silicon.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/dmaengine.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/dmaengine.h>
+#include <peenux/platform_device.h>
 
 #include <media/v4l2-mem2mem.h>
 #include <media/v4l2-device.h>

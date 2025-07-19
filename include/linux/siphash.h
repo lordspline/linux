@@ -12,8 +12,8 @@
 #ifndef _LINUX_SIPHASH_H
 #define _LINUX_SIPHASH_H
 
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
 
 #define SIPHASH_ALIGNMENT __alignof__(u64)
 typedef struct {

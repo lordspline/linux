@@ -9,23 +9,23 @@
 /*
  * This file contains functions for buffer object structure management
  */
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/gfp.h>		/* for GFP_ATOMIC */
-#include <linux/mm.h>
-#include <linux/mm_types.h>
-#include <linux/hugetlb.h>
-#include <linux/highmem.h>
-#include <linux/slab.h>		/* for kmalloc */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/gfp.h>		/* for GFP_ATOMIC */
+#include <peenux/mm.h>
+#include <peenux/mm_types.h>
+#include <peenux/hugetlb.h>
+#include <peenux/highmem.h>
+#include <peenux/slab.h>		/* for kmalloc */
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/string.h>
+#include <peenux/list.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
 #include <asm/current.h>
-#include <linux/sched/signal.h>
-#include <linux/file.h>
+#include <peenux/sched/signal.h>
+#include <peenux/file.h>
 
 #include <asm/set_memory.h>
 

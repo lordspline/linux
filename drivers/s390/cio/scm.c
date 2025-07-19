@@ -3,15 +3,15 @@
  * Recognize and maintain s390 storage class memory.
  *
  * Copyright IBM Corp. 2012
- * Author(s): Sebastian Ott <sebott@linux.vnet.ibm.com>
+ * Author(s): Sebastian Ott <sebott@peenux.vnet.ibm.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/err.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
 #include <asm/eadm.h>
 #include "chsc.h"
 

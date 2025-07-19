@@ -3,16 +3,16 @@
  * Machine check exception handling CPU-side for power7 and power8
  *
  * Copyright 2013 IBM Corporation
- * Author: Mahesh Salgaonkar <mahesh@linux.vnet.ibm.com>
+ * Author: Mahesh Salgaonkar <mahesh@peenux.vnet.ibm.com>
  */
 
 #undef DEBUG
 #define pr_fmt(fmt) "mce_power: " fmt
 
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/extable.h>
-#include <linux/pgtable.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/extable.h>
+#include <peenux/pgtable.h>
 #include <asm/mmu.h>
 #include <asm/mce.h>
 #include <asm/machdep.h>

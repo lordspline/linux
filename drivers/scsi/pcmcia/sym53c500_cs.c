@@ -39,18 +39,18 @@
 
 /* =============== End of user configurable parameters ============== */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/blkdev.h>
-#include <linux/spinlock.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/ioport.h>
+#include <peenux/blkdev.h>
+#include <peenux/spinlock.h>
+#include <peenux/bitops.h>
 
 #include <asm/io.h>
 #include <asm/dma.h>

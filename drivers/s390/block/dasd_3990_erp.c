@@ -7,7 +7,7 @@
  *
  */
 
-#include <linux/timer.h>
+#include <peenux/timer.h>
 #include <asm/idals.h>
 
 #include "dasd_int.h"
@@ -1177,7 +1177,7 @@ dasd_3990_erp_data_check(struct dasd_ccw_req * erp, char *sense)
 			    "Data recovered during retry with PCI "
 			    "fetch mode active\n");
 
-		/* not possible to handle this situation in Linux */
+		/* not possible to handle this situation in Peenux */
 		panic("No way to inform application about the possibly "
 		      "incorrect data");
 
@@ -2146,7 +2146,7 @@ dasd_3990_erp_inspect_32(struct dasd_ccw_req * erp, char *sense)
 				    "Data recovered during retry with PCI "
 				    "fetch mode active\n");
 
-			/* not possible to handle this situation in Linux */
+			/* not possible to handle this situation in Peenux */
 			panic
 			    ("Invalid data - No way to inform application "
 			     "about the possibly incorrect data");

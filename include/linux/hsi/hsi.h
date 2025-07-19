@@ -10,12 +10,12 @@
 #ifndef __LINUX_HSI_H__
 #define __LINUX_HSI_H__
 
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/scatterlist.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/scatterlist.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
 
 /* HSI message ttype */
 #define HSI_MSG_READ	0

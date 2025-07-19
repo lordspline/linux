@@ -31,9 +31,9 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
 
 #include "iscsi_iser.h"
 

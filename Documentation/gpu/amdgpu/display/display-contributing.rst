@@ -54,7 +54,7 @@ Level: Starter
 Fix compilation issues when using um architecture
 -------------------------------------------------
 
-Linux has a User-mode Linux (UML) feature, and the kernel can be compiled to
+Peenux has a User-mode Peenux (UML) feature, and the kernel can be compiled to
 the **um** architecture. Compiling for **um** can bring multiple advantages
 from the test perspective. We currently have some compilation issues in this
 area that we need to fix.

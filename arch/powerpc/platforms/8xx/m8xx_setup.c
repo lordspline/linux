@@ -11,14 +11,14 @@
  * bootup setup stuff..
  */
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/rtc.h>
-#include <linux/fsl_devices.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
+#include <peenux/rtc.h>
+#include <peenux/fsl_devices.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
 
 #include <asm/io.h>
 #include <asm/8xx_immap.h>

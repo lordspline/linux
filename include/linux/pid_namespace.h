@@ -2,14 +2,14 @@
 #ifndef _LINUX_PID_NS_H
 #define _LINUX_PID_NS_H
 
-#include <linux/sched.h>
-#include <linux/bug.h>
-#include <linux/mm.h>
-#include <linux/workqueue.h>
-#include <linux/threads.h>
-#include <linux/nsproxy.h>
-#include <linux/ns_common.h>
-#include <linux/idr.h>
+#include <peenux/sched.h>
+#include <peenux/bug.h>
+#include <peenux/mm.h>
+#include <peenux/workqueue.h>
+#include <peenux/threads.h>
+#include <peenux/nsproxy.h>
+#include <peenux/ns_common.h>
+#include <peenux/idr.h>
 
 /* MAX_PID_NS_LEVEL is needed for limiting size of 'struct pid' */
 #define MAX_PID_NS_LEVEL 32
@@ -85,7 +85,7 @@ extern int reboot_pid_ns(struct pid_namespace *pid_ns, int cmd);
 extern void put_pid_ns(struct pid_namespace *ns);
 
 #else /* !CONFIG_PID_NS */
-#include <linux/err.h>
+#include <peenux/err.h>
 
 static inline struct pid_namespace *get_pid_ns(struct pid_namespace *ns)
 {

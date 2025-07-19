@@ -8,12 +8,12 @@
  *
  */
 
-#include <linux/buffer_head.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/backing-dev.h>
-#include <linux/log2.h>
-#include <linux/crc32.h>
+#include <peenux/buffer_head.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/backing-dev.h>
+#include <peenux/log2.h>
+#include <peenux/crc32.h>
 #include "nilfs.h"
 #include "segment.h"
 #include "alloc.h"

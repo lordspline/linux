@@ -6,29 +6,29 @@
  * Copyright (C) 2022 Nuvoton Technologies
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/v4l2-controls.h>
-#include <linux/videodev2.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/v4l2-controls.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-device.h>
@@ -36,7 +36,7 @@
 #include <media/v4l2-event.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-dma-contig.h>
-#include <uapi/linux/npcm-video.h>
+#include <uapi/peenux/npcm-video.h>
 #include "npcm-regs.h"
 
 #define DEVICE_NAME	"npcm-video"

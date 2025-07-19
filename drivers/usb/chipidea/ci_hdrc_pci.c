@@ -7,13 +7,13 @@
  * Author: David Lopo
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/chipidea.h>
-#include <linux/usb/usb_phy_generic.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/chipidea.h>
+#include <peenux/usb/usb_phy_generic.h>
 
 /* driver name */
 #define UDC_DRIVER_NAME   "ci_hdrc_pci"

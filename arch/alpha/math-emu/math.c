@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
 #include <asm/ptrace.h>
 #include <asm/fpu.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "sfp-util.h"
 #include <math-emu/soft-fp.h>

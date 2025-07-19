@@ -27,24 +27,24 @@
  * STBY configuration support in your downstream driver ;)
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/linear_range.h>
-#include <linux/mfd/rohm-generic.h>
-#include <linux/mfd/rohm-bd96801.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/coupler.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/linear_range.h>
+#include <peenux/mfd/rohm-generic.h>
+#include <peenux/mfd/rohm-bd96801.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/coupler.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
 
 enum {
 	BD96801_BUCK1,

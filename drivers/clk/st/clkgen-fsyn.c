@@ -9,10 +9,10 @@
  * Pankaj Dev <pankaj.dev@st.com>.
  */
 
-#include <linux/slab.h>
-#include <linux/of_address.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
+#include <peenux/slab.h>
+#include <peenux/of_address.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
 
 #include "clkgen.h"
 

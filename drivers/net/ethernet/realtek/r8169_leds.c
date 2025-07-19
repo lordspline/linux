@@ -6,9 +6,9 @@
  * See MAINTAINERS file for support contact information.
  */
 
-#include <linux/leds.h>
-#include <linux/netdevice.h>
-#include <uapi/linux/uleds.h>
+#include <peenux/leds.h>
+#include <peenux/netdevice.h>
+#include <uapi/peenux/uleds.h>
 
 #include "r8169.h"
 

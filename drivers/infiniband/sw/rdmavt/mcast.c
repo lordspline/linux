@@ -3,9 +3,9 @@
  * Copyright(c) 2016 Intel Corporation.
  */
 
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/rculist.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/rculist.h>
 #include <rdma/rdma_vt.h>
 #include <rdma/rdmavt_qp.h>
 

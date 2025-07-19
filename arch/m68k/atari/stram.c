@@ -8,20 +8,20 @@
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/kdev_t.h>
-#include <linux/major.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/memblock.h>
-#include <linux/mount.h>
-#include <linux/blkdev.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/kdev_t.h>
+#include <peenux/major.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pagemap.h>
+#include <peenux/memblock.h>
+#include <peenux/mount.h>
+#include <peenux/blkdev.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
 
 #include <asm/setup.h>
 #include <asm/machdep.h>

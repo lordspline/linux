@@ -4,27 +4,27 @@
  * Copyright (C) Jonathan Naylor G4KLX (g4klx@g4klx.demon.co.uk)
  * Copyright (C) Joerg Reuter DL1BKE (jreuter@yaina.de)
  */
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/spinlock.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/spinlock.h>
+#include <peenux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/timer.h>
+#include <peenux/string.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
 #include <net/tcp_states.h>
 #include <net/ax25.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
-#include <linux/uaccess.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
+#include <peenux/uaccess.h>
+#include <peenux/fcntl.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
 
 static void ax25_ds_timeout(struct timer_list *);
 

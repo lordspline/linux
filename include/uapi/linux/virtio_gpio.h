@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 
 #ifndef _LINUX_VIRTIO_GPIO_H
 #define _LINUX_VIRTIO_GPIO_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* Virtio GPIO Feature bits */
 #define VIRTIO_GPIO_F_IRQ			0

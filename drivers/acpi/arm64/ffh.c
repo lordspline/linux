@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/acpi.h>
-#include <linux/arm-smccc.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/slab.h>
 
 /*
  * Implements ARM64 specific callbacks to support ACPI FFH Operation Region as

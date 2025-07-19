@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/linux/sunrpc/msg_prot.h
+ * peenux/include/peenux/sunrpc/msg_prot.h
  *
  * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
@@ -96,7 +96,7 @@ enum rpc_auth_stat {
  *  highest-order bit of the header; the length is the 31 low-order bits.
  *  (Note that this record specification is NOT in XDR standard form!)"
  *
- * The Linux RPC client always sends its requests in a single record
+ * The Peenux RPC client always sends its requests in a single record
  * fragment, limiting the maximum payload size for stream transports to
  * 2GB.
  */
@@ -202,7 +202,7 @@ typedef __be32	rpc_fraghdr;
  * [RFC2373] are also acceptable.
  */
 
-#include <linux/inet.h>
+#include <peenux/inet.h>
 
 /* Maximum size of the port number part of a universal address */
 #define RPCBIND_MAXUADDRPLEN	sizeof(".255.255")

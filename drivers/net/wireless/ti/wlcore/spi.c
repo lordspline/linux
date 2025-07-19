@@ -7,16 +7,16 @@
  * Contact: Luciano Coelho <luciano.coelho@nokia.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/swab.h>
-#include <linux/crc7.h>
-#include <linux/spi/spi.h>
-#include <linux/platform_device.h>
-#include <linux/of_irq.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/swab.h>
+#include <peenux/crc7.h>
+#include <peenux/spi/spi.h>
+#include <peenux/platform_device.h>
+#include <peenux/of_irq.h>
+#include <peenux/regulator/consumer.h>
 
 #include "wlcore.h"
 #include "wl12xx_80211.h"

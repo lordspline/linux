@@ -11,13 +11,13 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/memory.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/smp.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/memory.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/smp.h>
 
 #define CPUCFG_CPU_PWR_CLAMP_STATUS_REG(cpu)	((cpu) * 0x40 + 0x64)
 #define CPUCFG_CPU_RST_CTRL_REG(cpu)		(((cpu) + 1) * 0x40)

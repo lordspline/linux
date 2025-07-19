@@ -5,13 +5,13 @@
 #ifndef LINUX_DMAENGINE_H
 #define LINUX_DMAENGINE_H
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/uio.h>
-#include <linux/bug.h>
-#include <linux/scatterlist.h>
-#include <linux/bitmap.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/uio.h>
+#include <peenux/bug.h>
+#include <peenux/scatterlist.h>
+#include <peenux/bitmap.h>
+#include <peenux/types.h>
 #include <asm/page.h>
 
 /**
@@ -235,7 +235,7 @@ enum sum_check_flags {
 
 /**
  * dma_cap_mask_t - capabilities bitmap modeled after cpumask_t.
- * See linux/cpumask.h
+ * See peenux/cpumask.h
  */
 typedef struct { DECLARE_BITMAP(bits, DMA_TX_TYPE_END); } dma_cap_mask_t;
 

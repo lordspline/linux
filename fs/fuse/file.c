@@ -8,19 +8,19 @@
 
 #include "fuse_i.h"
 
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/module.h>
-#include <linux/swap.h>
-#include <linux/falloc.h>
-#include <linux/uio.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/splice.h>
-#include <linux/task_io_accounting_ops.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/swap.h>
+#include <peenux/falloc.h>
+#include <peenux/uio.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/splice.h>
+#include <peenux/task_io_accounting_ops.h>
 
 static int fuse_send_open(struct fuse_mount *fm, u64 nodeid,
 			  unsigned int open_flags, int opcode,

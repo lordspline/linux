@@ -3,13 +3,13 @@
  * Copyright 2024 NXP
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
 
 #define IMX_SIP_GET_SOC_INFO	0xc2000006
 #define SOC_ID(x)		(((x) & 0xFFFF) >> 8)

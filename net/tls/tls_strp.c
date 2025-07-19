@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2016 Tom Herbert <tom@herbertland.com> */
 
-#include <linux/skbuff.h>
-#include <linux/skbuff_ref.h>
-#include <linux/workqueue.h>
+#include <peenux/skbuff.h>
+#include <peenux/skbuff_ref.h>
+#include <peenux/workqueue.h>
 #include <net/strparser.h>
 #include <net/tcp.h>
 #include <net/sock.h>

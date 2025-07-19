@@ -4,11 +4,11 @@
 #ifndef FREEZER_H_INCLUDED
 #define FREEZER_H_INCLUDED
 
-#include <linux/debug_locks.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/atomic.h>
-#include <linux/jump_label.h>
+#include <peenux/debug_locks.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/jump_label.h>
 
 #ifdef CONFIG_FREEZER
 DECLARE_STATIC_KEY_FALSE(freezer_active);

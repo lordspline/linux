@@ -11,27 +11,27 @@
 #ifndef __DRIVERS_USB_DWC3_CORE_H
 #define __DRIVERS_USB_DWC3_CORE_H
 
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/ioport.h>
-#include <linux/list.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/mm.h>
-#include <linux/debugfs.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/ioport.h>
+#include <peenux/list.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mm.h>
+#include <peenux/debugfs.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/role.h>
-#include <linux/ulpi/interface.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/role.h>
+#include <peenux/ulpi/interface.h>
 
-#include <linux/phy/phy.h>
+#include <peenux/phy/phy.h>
 
-#include <linux/power_supply.h>
+#include <peenux/power_supply.h>
 
 /*
  * DWC3 Multiport controllers support up to 15 High-Speed PHYs

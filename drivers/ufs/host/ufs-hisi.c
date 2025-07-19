@@ -6,14 +6,14 @@
  * Copyright (c) 2016-2017 HiSilicon Technologies Co., Ltd.
  */
 
-#include <linux/time.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/time.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 
 #include <ufs/ufshcd.h>
 #include "ufshcd-pltfrm.h"

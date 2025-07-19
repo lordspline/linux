@@ -5,14 +5,14 @@
  * Copyright (c) 2014 Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/mfd/dln2.h>
-#include <linux/spi/spi.h>
-#include <linux/pm_runtime.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/mfd/dln2.h>
+#include <peenux/spi/spi.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/unaligned.h>
 
 #define DLN2_SPI_MODULE_ID		0x02
 #define DLN2_SPI_CMD(cmd)		DLN2_CMD(cmd, DLN2_SPI_MODULE_ID)

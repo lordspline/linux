@@ -12,9 +12,9 @@
 #ifndef _LINUX_ATOMIC_INSTRUMENTED_H
 #define _LINUX_ATOMIC_INSTRUMENTED_H
 
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/instrumented.h>
+#include <peenux/build_bug.h>
+#include <peenux/compiler.h>
+#include <peenux/instrumented.h>
 
 /**
  * atomic_read() - atomic load with relaxed ordering

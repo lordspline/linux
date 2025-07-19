@@ -6,10 +6,10 @@
 #include <sys/types.h>
 #include <signal.h>
 #include <errno.h>
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/atomic.h>
-#include <linux/sizes.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/atomic.h>
+#include <peenux/sizes.h>
 
 #include "kvm_util.h"
 #include "test_util.h"

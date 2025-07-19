@@ -3,13 +3,13 @@
 // Copyright (c) 2020 BayLibre, SAS.
 // Author: Jerome Brunet <jbrunet@baylibre.com>
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/module.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
 #include <sound/pcm_params.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>
 

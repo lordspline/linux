@@ -18,28 +18,28 @@
  *    the userland interface
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/dmapool.h>
-#include <linux/memblock.h>
-#include <linux/vmalloc.h>
-#include <linux/highmem.h>
-#include <linux/jiffies.h>
-#include <linux/interrupt.h>
-#include <linux/rtc.h>
-#include <linux/completion.h>
-#include <linux/miscdevice.h>
-#include <linux/delay.h>
-#include <linux/poll.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/dmapool.h>
+#include <peenux/memblock.h>
+#include <peenux/vmalloc.h>
+#include <peenux/highmem.h>
+#include <peenux/jiffies.h>
+#include <peenux/interrupt.h>
+#include <peenux/rtc.h>
+#include <peenux/completion.h>
+#include <peenux/miscdevice.h>
+#include <peenux/delay.h>
+#include <peenux/poll.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>
@@ -47,7 +47,7 @@
 #include <asm/pmac_feature.h>
 #include <asm/smu.h>
 #include <asm/sections.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #define VERSION "0.7"
 #define AUTHOR  "(c) 2005 Benjamin Herrenschmidt, IBM Corp."

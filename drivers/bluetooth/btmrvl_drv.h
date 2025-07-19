@@ -5,18 +5,18 @@
  * Copyright (C) 2009, Marvell International Ltd.
  */
 
-#include <linux/kthread.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
 #include <net/bluetooth/bluetooth.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/of_irq.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of_irq.h>
 
 #define BTM_HEADER_LEN			4
 #define BTM_UPLD_SIZE			2312

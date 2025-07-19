@@ -8,12 +8,12 @@
  * Rajendra Nayak <rnayak@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
 
 #include "prm2xxx.h"
 #include "cm.h"

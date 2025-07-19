@@ -30,8 +30,8 @@
 
 		switch-lid {
 			gpios = <&tlmm 92 GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_SW>;
-			linux,code = <SW_LID>;
+			peenux,input-type = <EV_SW>;
+			peenux,code = <SW_LID>;
 			wakeup-source;
 			wakeup-event-action = <EV_ACT_DEASSERTED>;
 		};
@@ -106,11 +106,11 @@
 	};
 
 	reserved-memory {
-		linux,cma {
+		peenux,cma {
 			compatible = "shared-dma-pool";
 			size = <0x0 0x8000000>;
 			reusable;
-			linux,cma-default;
+			peenux,cma-default;
 		};
 	};
 

@@ -6,19 +6,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_data/x86/clk-pmc-atom.h>
-#include <linux/platform_data/x86/pmc_atom.h>
-#include <linux/platform_data/x86/simatic-ipc.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/seq_file.h>
-#include <linux/suspend.h>
+#include <peenux/acpi.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/platform_data/x86/clk-pmc-atom.h>
+#include <peenux/platform_data/x86/pmc_atom.h>
+#include <peenux/platform_data/x86/simatic-ipc.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci.h>
+#include <peenux/seq_file.h>
+#include <peenux/suspend.h>
 
 struct pmc_bit_map {
 	const char *name;
@@ -601,7 +601,7 @@ static int __init pmc_atom_init(void)
 device_initcall(pmc_atom_init);
 
 /*
-MODULE_AUTHOR("Aubrey Li <aubrey.li@linux.intel.com>");
+MODULE_AUTHOR("Aubrey Li <aubrey.li@peenux.intel.com>");
 MODULE_DESCRIPTION("Intel Atom SoC Power Management Controller Interface");
 MODULE_LICENSE("GPL v2");
 */

@@ -7,27 +7,27 @@
  *	MyungJoo Ham <myungjoo.ham@samsung.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/sched.h>
-#include <linux/debugfs.h>
-#include <linux/devfreq_cooling.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/pm_opp.h>
-#include <linux/devfreq.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
-#include <linux/list.h>
-#include <linux/printk.h>
-#include <linux/hrtimer.h>
-#include <linux/of.h>
-#include <linux/pm_qos.h>
-#include <linux/units.h>
+#include <peenux/kernel.h>
+#include <peenux/kmod.h>
+#include <peenux/sched.h>
+#include <peenux/debugfs.h>
+#include <peenux/devfreq_cooling.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/pm_opp.h>
+#include <peenux/devfreq.h>
+#include <peenux/workqueue.h>
+#include <peenux/platform_device.h>
+#include <peenux/list.h>
+#include <peenux/printk.h>
+#include <peenux/hrtimer.h>
+#include <peenux/of.h>
+#include <peenux/pm_qos.h>
+#include <peenux/units.h>
 #include "governor.h"
 
 #define CREATE_TRACE_POINTS

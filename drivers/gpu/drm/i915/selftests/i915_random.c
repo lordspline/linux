@@ -22,11 +22,11 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "i915_random.h"
 #include "i915_utils.h"

@@ -5,11 +5,11 @@
  * Copyright (C) 2019 Linaro Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <peenux/err.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
 
 #include "fxas21002c.h"
 

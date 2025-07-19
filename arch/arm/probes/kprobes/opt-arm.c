@@ -7,8 +7,8 @@
  * Copyright (C) Huawei Inc., 2014
  */
 
-#include <linux/kprobes.h>
-#include <linux/jump_label.h>
+#include <peenux/kprobes.h>
+#include <peenux/jump_label.h>
 #include <asm/kprobes.h>
 #include <asm/cacheflush.h>
 /* for arm_gen_branch */

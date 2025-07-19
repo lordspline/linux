@@ -6,13 +6,13 @@
  * Author: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>
  */
 
-#include <linux/dmaengine.h>
-#include <linux/mhi_ep.h>
-#include <linux/module.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/pci-epc.h>
-#include <linux/pci-epf.h>
+#include <peenux/dmaengine.h>
+#include <peenux/mhi_ep.h>
+#include <peenux/module.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci-epc.h>
+#include <peenux/pci-epf.h>
 
 #define MHI_VERSION_1_0 0x01000000
 

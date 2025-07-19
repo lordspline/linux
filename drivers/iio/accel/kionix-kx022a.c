@@ -5,26 +5,26 @@
  * ROHM/KIONIX accelerometer driver
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #include "kionix-kx022a.h"
 
@@ -361,7 +361,7 @@ static const struct iio_chan_spec kx132_channels[] = {
 
 /*
  * The sensor HW can support ODR up to 1600 Hz, which is beyond what most of the
- * Linux CPUs can handle without dropping samples. Also, the low power mode is
+ * Peenux CPUs can handle without dropping samples. Also, the low power mode is
  * not available for higher sample rates. Thus, the driver only supports 200 Hz
  * and slower ODRs. The slowest is 0.78 Hz.
  */

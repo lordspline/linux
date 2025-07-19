@@ -6,13 +6,13 @@
  * Copyright (C) 2019-2024 ARM Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/mailbox_client.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "../common.h"
 

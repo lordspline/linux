@@ -5,7 +5,7 @@
 
 
   Contact Information:
-  Intel Linux Wireless <ilw@linux.intel.com>
+  Intel Peenux Wireless <ilw@peenux.intel.com>
   Intel Corporation, 5200 N.E. Elam Young Parkway, Hillsboro, OR 97124-6497
 
   Portions of this file are based on the sample_* files provided by Wireless
@@ -119,35 +119,35 @@ that only one external action is invoked at a time.
 
 */
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/if_arp.h>
-#include <linux/in6.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/proc_fs.h>
-#include <linux/skbuff.h>
-#include <linux/uaccess.h>
+#include <peenux/compiler.h>
+#include <peenux/errno.h>
+#include <peenux/if_arp.h>
+#include <peenux/in6.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/kernel.h>
+#include <peenux/kmod.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/proc_fs.h>
+#include <peenux/skbuff.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/unistd.h>
-#include <linux/stringify.h>
-#include <linux/tcp.h>
-#include <linux/types.h>
-#include <linux/time.h>
-#include <linux/firmware.h>
-#include <linux/acpi.h>
-#include <linux/ctype.h>
-#include <linux/pm_qos.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/unistd.h>
+#include <peenux/stringify.h>
+#include <peenux/tcp.h>
+#include <peenux/types.h>
+#include <peenux/time.h>
+#include <peenux/firmware.h>
+#include <peenux/acpi.h>
+#include <peenux/ctype.h>
+#include <peenux/pm_qos.h>
 #include "ipw2100.h"
 #include "ipw.h"
 
@@ -179,7 +179,7 @@ static int disable = 0;
 static struct ipw2100_fw ipw2100_firmware;
 #endif
 
-#include <linux/moduleparam.h>
+#include <peenux/moduleparam.h>
 module_param(debug, int, 0444);
 module_param_named(mode, network_mode, int, 0444);
 module_param(channel, int, 0444);
@@ -6737,7 +6737,7 @@ static int ipw2100_wx_get_range(struct net_device *dev,
 	memset(range, 0, sizeof(*range));
 
 	/* Let's try to keep this struct in the same order as in
-	 * linux/include/wireless.h
+	 * peenux/include/wireless.h
 	 */
 
 	/* TODO: See what values we can set, and remove the ones we can't

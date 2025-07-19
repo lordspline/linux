@@ -2,13 +2,13 @@
 #ifndef __SHARED_H__
 #define __SHARED_H__
 
-#include <linux/types.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
+#include <peenux/types.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
 
-#include <linux/gfp.h>
-#include <linux/rcupdate.h>
+#include <peenux/gfp.h>
+#include <peenux/rcupdate.h>
 
 #ifndef module_init
 #define module_init(x)

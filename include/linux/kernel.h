@@ -11,34 +11,34 @@
 #ifndef _LINUX_KERNEL_H
 #define _LINUX_KERNEL_H
 
-#include <linux/stdarg.h>
-#include <linux/align.h>
-#include <linux/array_size.h>
-#include <linux/limits.h>
-#include <linux/linkage.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/container_of.h>
-#include <linux/bitops.h>
-#include <linux/hex.h>
-#include <linux/kstrtox.h>
-#include <linux/log2.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/typecheck.h>
-#include <linux/panic.h>
-#include <linux/printk.h>
-#include <linux/build_bug.h>
-#include <linux/sprintf.h>
-#include <linux/static_call_types.h>
-#include <linux/instruction_pointer.h>
-#include <linux/util_macros.h>
-#include <linux/wordpart.h>
+#include <peenux/stdarg.h>
+#include <peenux/align.h>
+#include <peenux/array_size.h>
+#include <peenux/limits.h>
+#include <peenux/linkage.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/container_of.h>
+#include <peenux/bitops.h>
+#include <peenux/hex.h>
+#include <peenux/kstrtox.h>
+#include <peenux/log2.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/typecheck.h>
+#include <peenux/panic.h>
+#include <peenux/printk.h>
+#include <peenux/build_bug.h>
+#include <peenux/sprintf.h>
+#include <peenux/static_call_types.h>
+#include <peenux/instruction_pointer.h>
+#include <peenux/util_macros.h>
+#include <peenux/wordpart.h>
 
 #include <asm/byteorder.h>
 
-#include <uapi/linux/kernel.h>
+#include <uapi/peenux/kernel.h>
 
 #define STACK_MAGIC	0xdeadbeef
 

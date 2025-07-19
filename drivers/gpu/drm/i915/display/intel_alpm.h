@@ -6,7 +6,7 @@
 #ifndef _INTEL_ALPM_H
 #define _INTEL_ALPM_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct intel_dp;
 struct intel_crtc_state;

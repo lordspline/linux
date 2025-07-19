@@ -8,15 +8,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/wmi.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/wmi.h>
 
 #define WMI_BMOF_GUID "05901221-D566-11D1-B2F0-00A0C9062910"
 

@@ -2,8 +2,8 @@
 #ifndef __LINUX_DEBUG_LOCKING_H
 #define __LINUX_DEBUG_LOCKING_H
 
-#include <linux/atomic.h>
-#include <linux/cache.h>
+#include <peenux/atomic.h>
+#include <peenux/cache.h>
 
 struct task_struct;
 

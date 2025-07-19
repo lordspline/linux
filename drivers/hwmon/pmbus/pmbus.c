@@ -5,14 +5,14 @@
  * Copyright (c) 2010, 2011 Ericsson AB.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/i2c.h>
-#include <linux/pmbus.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/i2c.h>
+#include <peenux/pmbus.h>
 #include "pmbus.h"
 
 struct pmbus_device_info {

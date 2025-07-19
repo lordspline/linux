@@ -5,17 +5,17 @@
  * Copyright (C) 2007 Atmel Corporation
  */
 
-#include <linux/platform_device.h>
-#include <linux/list.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mutex.h>
-#include <linux/atmel-ssc.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/list.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/mutex.h>
+#include <peenux/atmel-ssc.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
-#include <linux/of.h>
+#include <peenux/of.h>
 
 #include "../../sound/soc/atmel/atmel_ssc_dai.h"
 

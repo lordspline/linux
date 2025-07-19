@@ -7,16 +7,16 @@
  * Copyright (C) 2018 Aquantia Corp.
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/crc32.h>
-#include <linux/if_vlan.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/usbnet.h>
-#include <linux/linkmode.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/usb.h>
+#include <peenux/crc32.h>
+#include <peenux/if_vlan.h>
+#include <peenux/usb/cdc.h>
+#include <peenux/usb/usbnet.h>
+#include <peenux/linkmode.h>
 
 #include "aqc111.h"
 

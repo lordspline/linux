@@ -5,16 +5,16 @@
  * Copyright (c) 2021 Aleksandr Mezin
  */
 
-#include <linux/hid.h>
-#include <linux/hwmon.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <peenux/hid.h>
+#include <peenux/hwmon.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /*
  * The device has only 3 fan channels/connectors. But all HID reports have

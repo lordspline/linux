@@ -6,15 +6,15 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/power/bq27xxx_battery.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
+#include <peenux/platform_device.h>
+#include <peenux/mutex.h>
+#include <peenux/power/bq27xxx_battery.h>
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 
 #define W1_FAMILY_BQ27000	0x01
 

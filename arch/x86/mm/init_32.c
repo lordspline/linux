@@ -6,35 +6,35 @@
  *  Support of BIGMEM added by Gerhard Wichert, Siemens AG, July 1999
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/pci.h>
-#include <linux/pfn.h>
-#include <linux/poison.h>
-#include <linux/memblock.h>
-#include <linux/proc_fs.h>
-#include <linux/memory_hotplug.h>
-#include <linux/initrd.h>
-#include <linux/cpumask.h>
-#include <linux/gfp.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/hugetlb.h>
+#include <peenux/swap.h>
+#include <peenux/smp.h>
+#include <peenux/init.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/pci.h>
+#include <peenux/pfn.h>
+#include <peenux/poison.h>
+#include <peenux/memblock.h>
+#include <peenux/proc_fs.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/initrd.h>
+#include <peenux/cpumask.h>
+#include <peenux/gfp.h>
 
 #include <asm/asm.h>
 #include <asm/bios_ebda.h>
 #include <asm/processor.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/dma.h>
 #include <asm/fixmap.h>
 #include <asm/e820/api.h>
@@ -679,7 +679,7 @@ static void __init test_wp_bit(void)
 	}
 
 	printk(KERN_CONT "No.\n");
-	panic("Linux doesn't support CPUs with broken WP.");
+	panic("Peenux doesn't support CPUs with broken WP.");
 }
 
 void __init arch_mm_preinit(void)

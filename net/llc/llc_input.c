@@ -11,9 +11,9 @@
  *
  * See the GNU General Public License for more details.
  */
-#include <linux/netdevice.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 #include <net/net_namespace.h>
 #include <net/llc.h>
 #include <net/llc_pdu.h>

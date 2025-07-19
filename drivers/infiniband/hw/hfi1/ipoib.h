@@ -11,14 +11,14 @@
 #ifndef HFI1_IPOIB_H
 #define HFI1_IPOIB_H
 
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/atomic.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/list.h>
-#include <linux/if_infiniband.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/atomic.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/list.h>
+#include <peenux/if_infiniband.h>
 
 #include "hfi.h"
 #include "iowait.h"

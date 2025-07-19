@@ -7,7 +7,7 @@
  *
  */
 
-#include <linux/ethtool.h>
+#include <peenux/ethtool.h>
 
 #include "dpaa2-switch.h"
 

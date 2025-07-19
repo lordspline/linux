@@ -8,20 +8,20 @@
  *   Bartosz Golaszewski <bgolaszewski@baylibre.com>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
 
 /*
- * REVISIT: Linux doesn't have a good framework for the kind of performance
+ * REVISIT: Peenux doesn't have a good framework for the kind of performance
  * knobs this driver controls. We can't use device tree properties as it deals
  * with hardware configuration rather than description. We also don't want to
  * commit to maintaining some random sysfs attributes.
  *
  * For now we just hardcode the register values for the boards that need
  * some changes (as is the case for the LCD controller on da850-lcdk - the
- * first board we support here). When linux gets an appropriate framework,
+ * first board we support here). When peenux gets an appropriate framework,
  * we'll easily convert the driver to it.
  */
 

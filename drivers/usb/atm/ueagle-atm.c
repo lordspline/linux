@@ -12,20 +12,20 @@
  * The rest of the code was rewritten from scratch.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/crc32.h>
-#include <linux/usb.h>
-#include <linux/firmware.h>
-#include <linux/ctype.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
-#include <linux/freezer.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/crc32.h>
+#include <peenux/usb.h>
+#include <peenux/firmware.h>
+#include <peenux/ctype.h>
+#include <peenux/sched.h>
+#include <peenux/kthread.h>
+#include <peenux/mutex.h>
+#include <peenux/freezer.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "usbatm.h"
 

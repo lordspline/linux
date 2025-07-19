@@ -2,8 +2,8 @@
 #ifndef FS_CEPH_IOCTL_H
 #define FS_CEPH_IOCTL_H
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <peenux/ioctl.h>
+#include <peenux/types.h>
 
 #define CEPH_IOCTL_MAGIC 0x97
 

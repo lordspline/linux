@@ -26,21 +26,21 @@
  *	and even Frodo Looijaard <frodol@dds.nl>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched/signal.h>
 
 #include <asm/irq.h>
-#include <linux/io.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/i2c.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 #include "i2c-ibm_iic.h"
 

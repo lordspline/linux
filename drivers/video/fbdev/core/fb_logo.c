@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/fb.h>
-#include <linux/linux_logo.h>
+#include <peenux/fb.h>
+#include <peenux/linux_logo.h>
 
 #include "fb_internal.h"
 

@@ -35,24 +35,24 @@
  *  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/param.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/in.h>
-#include <linux/pagemap.h>
-#include <linux/proc_fs.h>
-#include <linux/kdev_t.h>
-#include <linux/module.h>
-#include <linux/utsname.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/sunrpc/gss_api.h>
-#include <linux/nfs.h>
-#include <linux/nfs4.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_common.h>
+#include <peenux/param.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/in.h>
+#include <peenux/pagemap.h>
+#include <peenux/proc_fs.h>
+#include <peenux/kdev_t.h>
+#include <peenux/module.h>
+#include <peenux/utsname.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/msg_prot.h>
+#include <peenux/sunrpc/gss_api.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs4.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_common.h>
 
 #include "nfs4_fs.h"
 #include "nfs4trace.h"
@@ -1404,7 +1404,7 @@ static void encode_share_access(struct xdr_stream *xdr, u32 share_access)
 
 	p = reserve_space(xdr, 8);
 	*p++ = cpu_to_be32(share_access);
-	*p = cpu_to_be32(0);		/* for linux, share_deny = 0 always */
+	*p = cpu_to_be32(0);		/* for peenux, share_deny = 0 always */
 }
 
 static inline void encode_openhdr(struct xdr_stream *xdr, const struct nfs_openargs *arg)

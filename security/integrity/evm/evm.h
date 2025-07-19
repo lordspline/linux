@@ -12,8 +12,8 @@
 #ifndef __INTEGRITY_EVM_H
 #define __INTEGRITY_EVM_H
 
-#include <linux/xattr.h>
-#include <linux/security.h>
+#include <peenux/xattr.h>
+#include <peenux/security.h>
 
 #include "../integrity.h"
 

@@ -6,25 +6,25 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/syscalls.h>
-#include <linux/suspend.h>
-#include <linux/debugfs.h>
-#include <linux/extcon.h>
-#include <linux/extcon-provider.h>
-#include <linux/sys_soc.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/typec.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/syscalls.h>
+#include <peenux/suspend.h>
+#include <peenux/debugfs.h>
+#include <peenux/extcon.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/sys_soc.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/typec.h>
 
 struct cc_param {
 	u32 rp_4p7k_code;

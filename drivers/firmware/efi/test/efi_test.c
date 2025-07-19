@@ -9,14 +9,14 @@
  *
  */
 
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/efi.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/proc_fs.h>
+#include <peenux/efi.h>
+#include <peenux/security.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 #include "efi_test.h"
 

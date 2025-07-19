@@ -34,12 +34,12 @@
 
 #include <rdma/ib_mad.h>
 #include <rdma/ib_user_verbs.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/utsname.h>
-#include <linux/rculist.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/utsname.h>
+#include <peenux/rculist.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
 #include <rdma/rdma_vt.h>
 
 #include "qib.h"

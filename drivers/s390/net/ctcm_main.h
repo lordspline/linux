@@ -11,8 +11,8 @@
 #include <asm/ccwdev.h>
 #include <asm/ccwgroup.h>
 
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
 
 #include "fsm.h"
 #include "ctcm_dbug.h"

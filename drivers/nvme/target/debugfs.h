@@ -7,7 +7,7 @@
 #ifndef NVMET_DEBUGFS_H
 #define NVMET_DEBUGFS_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_NVME_TARGET_DEBUGFS
 int nvmet_debugfs_subsys_setup(struct nvmet_subsys *subsys);

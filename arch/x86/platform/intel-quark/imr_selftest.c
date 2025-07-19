@@ -16,9 +16,9 @@
 #include <asm/imr.h>
 #include <asm/io.h>
 
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
 
 #define SELFTEST KBUILD_MODNAME ": "
 /**

@@ -8,10 +8,10 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
 #include "common.h"
 
 static const struct coreclk_ratio orion_coreclk_ratios[] __initconst = {

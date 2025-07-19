@@ -3,21 +3,21 @@
  * vDPA bridge driver for Alibaba ENI(Elastic Network Interface)
  *
  * Copyright (c) 2021, Alibaba Inc. All rights reserved.
- * Author: Wu Zongyong <wuzongyong@linux.alibaba.com>
+ * Author: Wu Zongyong <wuzongyong@peenux.alibaba.com>
  *
  */
 
-#include "linux/bits.h"
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/vdpa.h>
-#include <linux/virtio.h>
-#include <linux/virtio_config.h>
-#include <linux/virtio_ring.h>
-#include <linux/virtio_pci.h>
-#include <linux/virtio_pci_legacy.h>
-#include <uapi/linux/virtio_net.h>
+#include "peenux/bits.h"
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/vdpa.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_config.h>
+#include <peenux/virtio_ring.h>
+#include <peenux/virtio_pci.h>
+#include <peenux/virtio_pci_legacy.h>
+#include <uapi/peenux/virtio_net.h>
 
 #define ENI_MSIX_NAME_SIZE 256
 
@@ -554,6 +554,6 @@ static struct pci_driver eni_vdpa_driver = {
 
 module_pci_driver(eni_vdpa_driver);
 
-MODULE_AUTHOR("Wu Zongyong <wuzongyong@linux.alibaba.com>");
+MODULE_AUTHOR("Wu Zongyong <wuzongyong@peenux.alibaba.com>");
 MODULE_DESCRIPTION("Alibaba ENI vDPA driver");
 MODULE_LICENSE("GPL v2");

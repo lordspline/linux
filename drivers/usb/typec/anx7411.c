@@ -6,28 +6,28 @@
  * Copyright(c) 2022, Analogix Semiconductor. All rights reserved.
  *
  */
-#include <linux/bitfield.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/role.h>
-#include <linux/usb/tcpci.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/workqueue.h>
-#include <linux/power_supply.h>
+#include <peenux/bitfield.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_graph.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/usb/pd.h>
+#include <peenux/usb/role.h>
+#include <peenux/usb/tcpci.h>
+#include <peenux/usb/typec.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_mux.h>
+#include <peenux/workqueue.h>
+#include <peenux/power_supply.h>
 
 #define TCPC_ADDRESS1		0x58
 #define TCPC_ADDRESS2		0x56

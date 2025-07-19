@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef __LINUX_TC_MIR_H
 #define __LINUX_TC_MIR_H
 
-#include <linux/types.h>
-#include <linux/pkt_cls.h>
+#include <peenux/types.h>
+#include <peenux/pkt_cls.h>
 
 #define TCA_EGRESS_REDIR 1  /* packet redirect to EGRESS*/
 #define TCA_EGRESS_MIRROR 2 /* mirror packet to EGRESS */

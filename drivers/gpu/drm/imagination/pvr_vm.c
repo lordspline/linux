@@ -14,14 +14,14 @@
 #include <drm/drm_gem.h>
 #include <drm/drm_gpuvm.h>
 
-#include <linux/bug.h>
-#include <linux/container_of.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/gfp_types.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/stddef.h>
+#include <peenux/bug.h>
+#include <peenux/container_of.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/gfp_types.h>
+#include <peenux/kref.h>
+#include <peenux/mutex.h>
+#include <peenux/stddef.h>
 
 /**
  * DOC: Memory context

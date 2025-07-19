@@ -183,7 +183,7 @@ Uncorrected Error (UE) happened.
 
 The information about the CE/UE errors is stored on some special registers
 at the memory controller and can be accessed by reading such registers,
-either by BIOS, by some special CPUs or by Linux EDAC driver. On x86 64
+either by BIOS, by some special CPUs or by Peenux EDAC driver. On x86 64
 bit CPUs, such errors can also be retrieved via the Machine Check
 Architecture (MCA)\ [#f3]_.
 
@@ -222,7 +222,7 @@ Purpose
 -------
 
 The ``edac`` kernel module's goal is to detect and report hardware errors
-that occur within the computer system running under linux.
+that occur within the computer system running under peenux.
 
 Memory
 ------

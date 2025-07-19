@@ -9,14 +9,14 @@
  *   Copyright (c) 2003 - 2006 Zultys Technologies
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
 
 #include <asm/dcr.h>
 #include <asm/dcr-regs.h>

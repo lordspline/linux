@@ -8,11 +8,11 @@
  *
  * Author(s):  Guvenc Gulce
  */
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/percpu.h>
-#include <linux/ctype.h>
-#include <linux/smc.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/percpu.h>
+#include <peenux/ctype.h>
+#include <peenux/smc.h>
 #include <net/genetlink.h>
 #include <net/sock.h>
 #include "smc_netlink.h"

@@ -11,11 +11,11 @@
  * Copyright (c) 2010 Silicon Hive www.siliconhive.com.
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
 #include <asm/iosf_mbi.h>
 
 /* PCI configuration regs */

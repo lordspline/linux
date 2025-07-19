@@ -12,10 +12,10 @@
  * archive for more details.
  */
 
-#include <linux/linkage.h>
-#include <linux/sys.h>
+#include <peenux/linkage.h>
+#include <peenux/sys.h>
 #include <asm/unistd.h>
-#include <linux/errno.h>
+#include <peenux/errno.h>
 #include <asm/mmu.h>
 #include <asm/page.h>
 

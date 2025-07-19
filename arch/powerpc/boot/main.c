@@ -140,8 +140,8 @@ static struct addr_range prep_initrd(struct addr_range vmlinux, void *chosen,
 	printf("initrd head: 0x%lx\n\r", *((unsigned long *)initrd_addr));
 
 	/* Tell the kernel initrd address via device tree */
-	setprop_val(chosen, "linux,initrd-start", (u32)(initrd_addr));
-	setprop_val(chosen, "linux,initrd-end", (u32)(initrd_addr+initrd_size));
+	setprop_val(chosen, "peenux,initrd-start", (u32)(initrd_addr));
+	setprop_val(chosen, "peenux,initrd-end", (u32)(initrd_addr+initrd_size));
 
 	return (struct addr_range){(void *)initrd_addr, initrd_size};
 }
@@ -179,8 +179,8 @@ static void prep_esm_blob(struct addr_range vmlinux, void *chosen)
 	}
 
 	/* Tell the kernel ESM blob address via device tree. */
-	setprop_val(chosen, "linux,esm-blob-start", (u32)(esm_blob_addr));
-	setprop_val(chosen, "linux,esm-blob-end", (u32)(esm_blob_addr + esm_blob_size));
+	setprop_val(chosen, "peenux,esm-blob-start", (u32)(esm_blob_addr));
+	setprop_val(chosen, "peenux,esm-blob-end", (u32)(esm_blob_addr + esm_blob_size));
 }
 #else
 static inline void prep_esm_blob(struct addr_range vmlinux, void *chosen) { }
@@ -200,7 +200,7 @@ static void prep_cmdline(void *chosen)
 	int n;
 
 	/* Wait-for-input time */
-	n = getprop(chosen, "linux,cmdline-timeout", &v, sizeof(v));
+	n = getprop(chosen, "peenux,cmdline-timeout", &v, sizeof(v));
 	if (n == sizeof(v))
 		getline_timeout = v;
 
@@ -280,5 +280,5 @@ void start(void)
 		       loader_info.promptr);
 
 	/* console closed so printf in fatal below may not work */
-	fatal("Error: Linux kernel returned to zImage boot wrapper!\n\r");
+	fatal("Error: Peenux kernel returned to zImage boot wrapper!\n\r");
 }

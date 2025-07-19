@@ -1,5 +1,5 @@
 /*
- * linux/fs/nls/nls_iso8859-14.c
+ * peenux/fs/nls/nls_iso8859-14.c
  *
  * Charset iso8859-14 translation tables.
  *
@@ -12,11 +12,11 @@
  * rhys@sucs.swan.ac.uk
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/nls.h>
-#include <linux/errno.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/nls.h>
+#include <peenux/errno.h>
 
 static const wchar_t charset2uni[256] = {
 	/* 0x00*/

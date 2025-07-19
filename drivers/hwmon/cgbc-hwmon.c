@@ -5,12 +5,12 @@
  * Copyright (C) 2024 Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/mfd/cgbc.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/hwmon.h>
+#include <peenux/mfd/cgbc.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #define CGBC_HWMON_CMD_SENSOR		0x77
 #define CGBC_HWMON_CMD_SENSOR_DATA_SIZE	0x05

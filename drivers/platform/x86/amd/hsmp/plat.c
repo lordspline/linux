@@ -11,13 +11,13 @@
 
 #include <asm/amd/hsmp.h>
 
-#include <linux/acpi.h>
-#include <linux/build_bug.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
+#include <peenux/acpi.h>
+#include <peenux/build_bug.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/sysfs.h>
 
 #include <asm/amd/node.h>
 

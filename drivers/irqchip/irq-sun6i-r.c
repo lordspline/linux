@@ -39,15 +39,15 @@
  * set of 128 mux bits. This requires a second set of top-level registers.
  */
 
-#include <linux/bitmap.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/syscore_ops.h>
+#include <peenux/bitmap.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/syscore_ops.h>
 
 #include <dt-bindings/interrupt-controller/arm-gic.h>
 

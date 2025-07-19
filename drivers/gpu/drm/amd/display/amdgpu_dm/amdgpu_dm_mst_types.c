@@ -23,7 +23,7 @@
  *
  */
 
-#include <linux/vmalloc.h>
+#include <peenux/vmalloc.h>
 #include <drm/display/drm_dp_helper.h>
 #include <drm/display/drm_dp_mst_helper.h>
 #include <drm/drm_atomic.h>

@@ -11,11 +11,11 @@
  * Licensed under the GNU/GPL. See COPYING for details.
  */
 
-#include <linux/pm.h>
-#include <linux/pci.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/ssb/ssb.h>
+#include <peenux/pm.h>
+#include <peenux/pci.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/ssb/ssb.h>
 
 
 #ifdef CONFIG_PM_SLEEP

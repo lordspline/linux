@@ -15,13 +15,13 @@
  *  Copyright (c) Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/wait.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/pcm.h>

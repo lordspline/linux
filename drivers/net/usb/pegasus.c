@@ -4,18 +4,18 @@
  *
  */
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/module.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/usb.h>
+#include <peenux/module.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include "pegasus.h"
 
 /*

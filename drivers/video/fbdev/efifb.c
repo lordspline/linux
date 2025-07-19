@@ -7,15 +7,15 @@
  *
  */
 
-#include <linux/aperture.h>
-#include <linux/kernel.h>
-#include <linux/efi.h>
-#include <linux/efi-bgrt.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/screen_info.h>
+#include <peenux/aperture.h>
+#include <peenux/kernel.h>
+#include <peenux/efi.h>
+#include <peenux/efi-bgrt.h>
+#include <peenux/errno.h>
+#include <peenux/fb.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
+#include <peenux/screen_info.h>
 #include <video/vga.h>
 #include <asm/efi.h>
 #include <drm/drm_utils.h> /* For drm_get_panel_orientation_quirk */

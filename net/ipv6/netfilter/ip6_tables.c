@@ -9,25 +9,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/capability.h>
-#include <linux/in.h>
-#include <linux/skbuff.h>
-#include <linux/kmod.h>
-#include <linux/vmalloc.h>
-#include <linux/netdevice.h>
-#include <linux/module.h>
-#include <linux/poison.h>
+#include <peenux/kernel.h>
+#include <peenux/capability.h>
+#include <peenux/in.h>
+#include <peenux/skbuff.h>
+#include <peenux/kmod.h>
+#include <peenux/vmalloc.h>
+#include <peenux/netdevice.h>
+#include <peenux/module.h>
+#include <peenux/poison.h>
 #include <net/ipv6.h>
 #include <net/compat.h>
-#include <linux/uaccess.h>
-#include <linux/mutex.h>
-#include <linux/proc_fs.h>
-#include <linux/err.h>
-#include <linux/cpumask.h>
+#include <peenux/uaccess.h>
+#include <peenux/mutex.h>
+#include <peenux/proc_fs.h>
+#include <peenux/err.h>
+#include <peenux/cpumask.h>
 
-#include <linux/netfilter_ipv6/ip6_tables.h>
-#include <linux/netfilter/x_tables.h>
+#include <peenux/netfilter_ipv6/ip6_tables.h>
+#include <peenux/netfilter/x_tables.h>
 #include <net/netfilter/nf_log.h>
 #include "../../netfilter/xt_repldata.h"
 

@@ -5,7 +5,7 @@
 #define PVR_QUEUE_H
 
 #include <drm/gpu_scheduler.h>
-#include <linux/workqueue.h>
+#include <peenux/workqueue.h>
 
 #include "pvr_cccb.h"
 #include "pvr_device.h"

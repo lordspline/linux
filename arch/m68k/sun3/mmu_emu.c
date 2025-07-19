@@ -7,21 +7,21 @@
 ** Started 1/16/98 @ 2:22 am
 */
 
-#include <linux/init.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/delay.h>
-#include <linux/memblock.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/sched/mm.h>
-#include <linux/string_choices.h>
+#include <peenux/init.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/delay.h>
+#include <peenux/memblock.h>
+#include <peenux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/sched/mm.h>
+#include <peenux/string_choices.h>
 
 #include <asm/setup.h>
 #include <asm/traps.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/page.h>
 #include <asm/sun3mmu.h>
 #include <asm/oplib.h>

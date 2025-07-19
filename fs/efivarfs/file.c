@@ -4,11 +4,11 @@
  * Copyright (C) 2012 Jeremy Kerr <jeremy.kerr@canonical.com>
  */
 
-#include <linux/efi.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/mount.h>
+#include <peenux/efi.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/mount.h>
 
 #include "internal.h"
 

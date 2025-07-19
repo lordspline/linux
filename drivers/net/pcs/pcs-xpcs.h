@@ -6,8 +6,8 @@
  * Author: Jose Abreu <Jose.Abreu@synopsys.com>
  */
 
-#include <linux/bits.h>
-#include <linux/pcs/pcs-xpcs.h>
+#include <peenux/bits.h>
+#include <peenux/pcs/pcs-xpcs.h>
 
 /* Vendor regs access */
 #define DW_VENDOR			BIT(15)

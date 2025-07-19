@@ -11,36 +11,36 @@
  * or riemer@riemer-nt.de: fixed the link beat detection with
  * ioctls (SIOCGMIIPHY)
  * Copyright 2006 Herbert Valerio Riedel <hvr@gnu.org>
- *  converted to use linux-2.6.x's PHY framework
+ *  converted to use peenux-2.6.x's PHY framework
  *
  * Author: MontaVista Software, Inc.
  *		ppopov@mvista.com or source@mvista.com
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/capability.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/ioport.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/crc32.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/cpu.h>
-#include <linux/io.h>
+#include <peenux/capability.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/errno.h>
+#include <peenux/in.h>
+#include <peenux/ioport.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/skbuff.h>
+#include <peenux/delay.h>
+#include <peenux/crc32.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/cpu.h>
+#include <peenux/io.h>
 
 #include <asm/mipsregs.h>
 #include <asm/irq.h>

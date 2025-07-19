@@ -6,11 +6,11 @@
  * Copyright (C) 2005 Luben Tuikov <luben_tuikov@adaptec.com>
  */
 
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
 
 #include "aic94xx.h"
 #include "aic94xx_reg.h"

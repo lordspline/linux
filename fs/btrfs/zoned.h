@@ -3,13 +3,13 @@
 #ifndef BTRFS_ZONED_H
 #define BTRFS_ZONED_H
 
-#include <linux/types.h>
-#include <linux/atomic.h>
-#include <linux/blkdev.h>
-#include <linux/blkzoned.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/blkdev.h>
+#include <peenux/blkzoned.h>
+#include <peenux/errno.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
 #include "messages.h"
 #include "volumes.h"
 #include "disk-io.h"

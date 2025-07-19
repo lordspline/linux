@@ -5,13 +5,13 @@
  * Copyright (c) 2023, Intel Corporation.
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/dev_printk.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/usb/ljca.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/dev_printk.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/usb/ljca.h>
 
 #define LJCA_SPI_BUS_MAX_HZ		48000000
 

@@ -23,11 +23,11 @@
  */
 
 #ifdef CONFIG_ACPI
-#include <linux/acpi.h>
+#include <peenux/acpi.h>
 #endif
-#include <linux/power_supply.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <peenux/power_supply.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
 
 #include "nouveau_drv.h"
 #include "nouveau_hwmon.h"

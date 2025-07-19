@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * IPVS         An implementation of the IP virtual server support for the
- *              LINUX operating system.  IPVS is now implemented as a module
+ *              PEENUX operating system.  IPVS is now implemented as a module
  *              over the NetFilter framework. IPVS can be used to build a
  *              high-performance and highly available server based on a
  *              cluster of servers.
@@ -35,23 +35,23 @@
 #define KMSG_COMPONENT "IPVS"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/inetdevice.h>
-#include <linux/net.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/skbuff.h>
-#include <linux/in.h>
-#include <linux/igmp.h>                 /* for ip_mc_join_group */
-#include <linux/udp.h>
-#include <linux/err.h>
-#include <linux/kthread.h>
-#include <linux/wait.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/inetdevice.h>
+#include <peenux/net.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/skbuff.h>
+#include <peenux/in.h>
+#include <peenux/igmp.h>                 /* for ip_mc_join_group */
+#include <peenux/udp.h>
+#include <peenux/err.h>
+#include <peenux/kthread.h>
+#include <peenux/wait.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
 
-#include <linux/unaligned.h>		/* Used for ntoh_seq and hton_seq */
+#include <peenux/unaligned.h>		/* Used for ntoh_seq and hton_seq */
 
 #include <net/ip.h>
 #include <net/sock.h>

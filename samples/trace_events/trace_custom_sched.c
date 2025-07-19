@@ -7,9 +7,9 @@
 
 #define pr_fmt(fmt) fmt
 
-#include <linux/trace_events.h>
-#include <linux/module.h>
-#include <linux/sched.h>
+#include <peenux/trace_events.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
 
 /*
  * Must include the event header that the custom event will attach to,

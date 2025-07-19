@@ -3,14 +3,14 @@
  * Copyright (C) 2022 - 2023 Rafał Miłecki <rafal@milecki.pl>
  */
 
-#include <linux/crc32.h>
-#include <linux/etherdevice.h>
-#include <linux/export.h>
-#include <linux/if_ether.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/crc32.h>
+#include <peenux/etherdevice.h>
+#include <peenux/export.h>
+#include <peenux/if_ether.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 
 #include "u-boot-env.h"
 

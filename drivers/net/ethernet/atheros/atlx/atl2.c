@@ -7,32 +7,32 @@
  * Copyright(c) 1999 - 2005 Intel Corporation. All rights reserved.
  */
 
-#include <linux/atomic.h>
-#include <linux/crc32.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/hardirq.h>
-#include <linux/if_vlan.h>
-#include <linux/in.h>
-#include <linux/interrupt.h>
-#include <linux/ip.h>
-#include <linux/irqflags.h>
-#include <linux/irqreturn.h>
-#include <linux/mii.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/pm.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/tcp.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/crc32.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/hardirq.h>
+#include <peenux/if_vlan.h>
+#include <peenux/in.h>
+#include <peenux/interrupt.h>
+#include <peenux/ip.h>
+#include <peenux/irqflags.h>
+#include <peenux/irqreturn.h>
+#include <peenux/mii.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/pm.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/tcp.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #include "atl2.h"
 
@@ -1268,7 +1268,7 @@ static void atl2_setup_pcicmd(struct pci_dev *pdev)
 
 	/*
 	 * some motherboards BIOS(PXE/EFI) driver may set PME
-	 * while they transfer control to OS (Windows/Linux)
+	 * while they transfer control to OS (Windows/Peenux)
 	 * so we should clear this bit before NIC work normally
 	 */
 	pci_write_config_dword(pdev, REG_PM_CTRLSTAT, 0);

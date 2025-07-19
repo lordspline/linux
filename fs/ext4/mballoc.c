@@ -11,12 +11,12 @@
 
 #include "ext4_jbd2.h"
 #include "mballoc.h"
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/nospec.h>
-#include <linux/backing-dev.h>
-#include <linux/freezer.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/nospec.h>
+#include <peenux/backing-dev.h>
+#include <peenux/freezer.h>
 #include <trace/events/ext4.h>
 #include <kunit/static_stub.h>
 

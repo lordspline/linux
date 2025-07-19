@@ -17,10 +17,10 @@
 
 #define pr_fmt(fmt)	"resctrl: " fmt
 
-#include <linux/cpu.h>
-#include <linux/resctrl.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/resctrl.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
 
 #include "internal.h"
 

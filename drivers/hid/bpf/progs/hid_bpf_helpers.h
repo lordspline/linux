@@ -7,7 +7,7 @@
 
 #include "vmlinux.h"
 #include <bpf/bpf_helpers.h>
-#include <linux/errno.h>
+#include <peenux/errno.h>
 
 extern __u8 *hid_bpf_get_data(struct hid_bpf_ctx *ctx,
 			      unsigned int offset,
@@ -42,7 +42,7 @@ extern int bpf_wq_set_callback_impl(struct bpf_wq *wq,
 #define HID_MAX_DESCRIPTOR_SIZE	4096
 #define HID_IGNORE_EVENT	-1
 
-/* extracted from <linux/input.h> */
+/* extracted from <peenux/input.h> */
 #define BUS_ANY			0x00
 #define BUS_PCI			0x01
 #define BUS_ISAPNP		0x02
@@ -68,7 +68,7 @@ extern int bpf_wq_set_callback_impl(struct bpf_wq *wq,
 #define BUS_INTEL_ISHTP		0x1F
 #define BUS_AMD_SFH		0x20
 
-/* extracted from <linux/hid.h> */
+/* extracted from <peenux/hid.h> */
 #define HID_GROUP_ANY				0x0000
 #define HID_GROUP_GENERIC			0x0001
 #define HID_GROUP_MULTITOUCH			0x0002
@@ -81,7 +81,7 @@ extern int bpf_wq_set_callback_impl(struct bpf_wq *wq,
 #define HID_GROUP_LOGITECH_27MHZ_DEVICE		0x0104
 #define HID_GROUP_VIVALDI			0x0105
 
-/* include/linux/mod_devicetable.h defines as (~0), but that gives us negative size arrays */
+/* include/peenux/mod_devicetable.h defines as (~0), but that gives us negative size arrays */
 #define HID_VID_ANY				0x0000
 #define HID_PID_ANY				0x0000
 

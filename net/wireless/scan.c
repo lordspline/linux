@@ -7,15 +7,15 @@
  * Copyright 2016	Intel Deutschland GmbH
  * Copyright (C) 2018-2025 Intel Corporation
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/wireless.h>
-#include <linux/nl80211.h>
-#include <linux/etherdevice.h>
-#include <linux/crc32.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/wireless.h>
+#include <peenux/nl80211.h>
+#include <peenux/etherdevice.h>
+#include <peenux/crc32.h>
+#include <peenux/bitfield.h>
 #include <net/arp.h>
 #include <net/cfg80211.h>
 #include <net/cfg80211-wext.h>

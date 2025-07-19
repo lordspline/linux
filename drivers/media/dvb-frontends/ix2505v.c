@@ -5,10 +5,10 @@
  * Copyright (C) 2010 Malcolm Priestley
  */
 
-#include <linux/module.h>
-#include <linux/dvb/frontend.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/module.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "ix2505v.h"
 

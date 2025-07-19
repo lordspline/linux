@@ -8,7 +8,7 @@
 #ifndef __RENESAS_RPC_IF_REGS_H__
 #define __RENESAS_RPC_IF_REGS_H__
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 #define RPCIF_CMNCR		0x0000	/* R/W */
 #define RPCIF_CMNCR_MD		BIT(31)

@@ -5,18 +5,18 @@
  * Copyright (c) 2014-2015 Scott Feldman <sfeldma@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
-#include <linux/if_vlan.h>
-#include <linux/rtnetlink.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/list.h>
+#include <peenux/workqueue.h>
+#include <peenux/if_vlan.h>
+#include <peenux/rtnetlink.h>
 #include <net/switchdev.h>
 
 static bool switchdev_obj_eq(const struct switchdev_obj *a,

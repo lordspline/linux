@@ -1,12 +1,12 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _UAPI_LINUX_RESOURCE_H
 #define _UAPI_LINUX_RESOURCE_H
 
-#include <linux/time_types.h>
-#include <linux/types.h>
+#include <peenux/time_types.h>
+#include <peenux/types.h>
 
 /*
- * Resource control/accounting header file for linux
+ * Resource control/accounting header file for peenux
  */
 
 /*
@@ -80,7 +80,7 @@ struct rlimit64 {
 
 /*
  * Due to binary compatibility, the actual resource numbers
- * may be different for different linux versions..
+ * may be different for different peenux versions..
  */
 #include <asm/resource.h>
 

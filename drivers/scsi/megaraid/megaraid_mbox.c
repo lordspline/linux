@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *
- *			Linux MegaRAID device driver
+ *			Peenux MegaRAID device driver
  *
  * Copyright (c) 2003-2004  LSI Logic Corporation.
  *
@@ -65,8 +65,8 @@
  * For history of changes, see Documentation/scsi/ChangeLog.megaraid
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include "megaraid_mbox.h"
 
 static int megaraid_init(void);
@@ -2282,7 +2282,7 @@ megaraid_mbox_dpc(unsigned long devp)
 			}
 		}
 
-		// Convert MegaRAID status to Linux error code
+		// Convert MegaRAID status to Peenux error code
 		switch (status) {
 
 		case 0x00:

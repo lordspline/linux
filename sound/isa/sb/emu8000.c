@@ -7,19 +7,19 @@
  *  Routines for control of EMU8000 chip
  */
 
-#include <linux/wait.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/export.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/string.h>
+#include <peenux/wait.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/export.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/string.h>
 #include <sound/core.h>
 #include <sound/emu8000.h>
 #include <sound/emu8000_reg.h>
-#include <linux/uaccess.h>
-#include <linux/init.h>
+#include <peenux/uaccess.h>
+#include <peenux/init.h>
 #include <sound/control.h>
 #include <sound/initval.h>
 

@@ -4,7 +4,7 @@
  *
  * (C) Copyright IBM Corp. 2013
  *
- * Author: Frank Haverkamp <haver@linux.vnet.ibm.com>
+ * Author: Frank Haverkamp <haver@peenux.vnet.ibm.com>
  * Author: Joerg-Stephan Vogt <jsvogt@de.ibm.com>
  * Author: Michael Jung <mijung@gmx.net>
  * Author: Michael Ruettger <michael@ibmra.de>
@@ -16,23 +16,23 @@
  * controlled from here.
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/device.h>
-#include <linux/log2.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/device.h>
+#include <peenux/log2.h>
 
 #include "card_base.h"
 #include "card_ddcb.h"
 
-MODULE_AUTHOR("Frank Haverkamp <haver@linux.vnet.ibm.com>");
+MODULE_AUTHOR("Frank Haverkamp <haver@peenux.vnet.ibm.com>");
 MODULE_AUTHOR("Michael Ruettger <michael@ibmra.de>");
 MODULE_AUTHOR("Joerg-Stephan Vogt <jsvogt@de.ibm.com>");
 MODULE_AUTHOR("Michael Jung <mijung@gmx.net>");

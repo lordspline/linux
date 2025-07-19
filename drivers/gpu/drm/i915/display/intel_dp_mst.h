@@ -6,7 +6,7 @@
 #ifndef __INTEL_DP_MST_H__
 #define __INTEL_DP_MST_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct drm_connector_state;
 struct intel_atomic_state;

@@ -5,14 +5,14 @@
  * Copyright (c) 2023, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/dev_printk.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/usb/ljca.h>
+#include <peenux/acpi.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/dev_printk.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/usb/ljca.h>
 
 /* I2C init flags */
 #define LJCA_I2C_INIT_FLAG_MODE			BIT(0)

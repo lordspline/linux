@@ -3,11 +3,11 @@
 // Copyright (C) 2010-2011 ST Microelectronics
 // Copyright (C) 2013,2018 Intel Corporation
 
-#include <linux/bitops.h>
-#include <linux/dmaengine.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/dmaengine.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "internal.h"
 

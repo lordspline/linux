@@ -3,16 +3,16 @@
  * OPAL asynchronus Memory error handling support in PowerNV.
  *
  * Copyright 2013 IBM Corporation
- * Author: Mahesh Salgaonkar <mahesh@linux.vnet.ibm.com>
+ * Author: Mahesh Salgaonkar <mahesh@peenux.vnet.ibm.com>
  */
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 
 #include <asm/machdep.h>
 #include <asm/opal.h>

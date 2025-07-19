@@ -8,17 +8,17 @@
 //
 //
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/fs.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/fs.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

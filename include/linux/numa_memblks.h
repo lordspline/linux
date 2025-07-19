@@ -3,7 +3,7 @@
 #define __NUMA_MEMBLKS_H
 
 #ifdef CONFIG_NUMA_MEMBLKS
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define NR_NODE_MEMBLKS		(MAX_NUMNODES * 2)
 

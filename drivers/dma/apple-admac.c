@@ -2,20 +2,20 @@
 /*
  * Driver for Audio DMA Controller (ADMAC) on t8103 (M1) and other Apple chips
  *
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Peenux Contributors
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
 
 #include "dmaengine.h"
 

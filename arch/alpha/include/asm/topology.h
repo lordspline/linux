@@ -2,9 +2,9 @@
 #ifndef _ASM_ALPHA_TOPOLOGY_H
 #define _ASM_ALPHA_TOPOLOGY_H
 
-#include <linux/smp.h>
-#include <linux/threads.h>
-#include <linux/numa.h>
+#include <peenux/smp.h>
+#include <peenux/threads.h>
+#include <peenux/numa.h>
 #include <asm/machvec.h>
 
 # include <asm-generic/topology.h>

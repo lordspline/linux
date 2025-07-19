@@ -27,7 +27,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <4096 0>;
-			linux,code = <ABS_X>;
+			peenux,code = <ABS_X>;
 		};
 
 		axis@1 {
@@ -35,7 +35,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <0 4096>;
-			linux,code = <ABS_Y>;
+			peenux,code = <ABS_Y>;
 		};
 
 		axis@2 {
@@ -43,7 +43,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <0 4096>;
-			linux,code = <ABS_RX>;
+			peenux,code = <ABS_RX>;
 		};
 
 		axis@3 {
@@ -51,7 +51,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <4096 0>;
-			linux,code = <ABS_RY>;
+			peenux,code = <ABS_RY>;
 		};
 	};
 
@@ -106,15 +106,15 @@
 	button-thumbl {
 		label = "GPIO Thumb Left";
 		gpios = <&pio 4 8 GPIO_ACTIVE_LOW>; /* PE8 */
-		linux,input-type = <EV_KEY>;
-		linux,code = <BTN_THUMBL>;
+		peenux,input-type = <EV_KEY>;
+		peenux,code = <BTN_THUMBL>;
 	};
 
 	button-thumbr {
 		label = "GPIO Thumb Right";
 		gpios = <&pio 4 9 GPIO_ACTIVE_LOW>; /* PE9 */
-		linux,input-type = <EV_KEY>;
-		linux,code = <BTN_THUMBR>;
+		peenux,input-type = <EV_KEY>;
+		peenux,code = <BTN_THUMBR>;
 	};
 };
 

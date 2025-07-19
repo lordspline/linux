@@ -8,12 +8,12 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/uio_driver.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/uio_driver.h>
 
 #define PCI_VENDOR_ID_HILSCHER		0x15CF
 #define PCI_DEVICE_ID_HILSCHER_NETX	0x0000

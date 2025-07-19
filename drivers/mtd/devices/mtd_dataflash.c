@@ -5,20 +5,20 @@
  * Largely derived from at91_dataflash.c:
  *  Copyright (C) 2003-2005 SAN People (Pty) Ltd
 */
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/math64.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/err.h>
+#include <peenux/math64.h>
+#include <peenux/of.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/flash.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/flash.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
 
 /*
  * DataFlash is a kind of SPI flash.  Most AT45 chips have two buffers in

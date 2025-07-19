@@ -28,10 +28,10 @@
  * status of a command.
  */
 
-#include <linux/blkdev.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <peenux/blkdev.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

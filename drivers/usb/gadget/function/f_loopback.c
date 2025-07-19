@@ -8,13 +8,13 @@
 
 /* #define VERBOSE_DEBUG */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/func_utils.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/usb/composite.h>
+#include <peenux/usb/func_utils.h>
 
 #include "g_zero.h"
 

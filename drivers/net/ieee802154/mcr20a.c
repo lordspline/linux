@@ -4,22 +4,22 @@
  *
  * Copyright (C) 2018 Xue Liu <liuxuenetmail@gmail.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/skbuff.h>
-#include <linux/regmap.h>
-#include <linux/ieee802154.h>
-#include <linux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/workqueue.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/skbuff.h>
+#include <peenux/regmap.h>
+#include <peenux/ieee802154.h>
+#include <peenux/debugfs.h>
 
 #include <net/mac802154.h>
 #include <net/cfg802154.h>
 
-#include <linux/device.h>
+#include <peenux/device.h>
 
 #include "mcr20a.h"
 

@@ -35,8 +35,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/rhashtable.h>
-#include <linux/sched/signal.h>
+#include <peenux/rhashtable.h>
+#include <peenux/sched/signal.h>
 #include <trace/events/sock.h>
 
 #include "core.h"

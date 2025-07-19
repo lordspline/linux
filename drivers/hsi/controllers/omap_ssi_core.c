@@ -7,28 +7,28 @@
  * Contact: Carlos Chinea <carlos.chinea@nokia.com>
  */
 
-#include <linux/compiler.h>
-#include <linux/err.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/delay.h>
-#include <linux/hsi/ssi_protocol.h>
-#include <linux/seq_file.h>
-#include <linux/scatterlist.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/debugfs.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/hsi/hsi.h>
-#include <linux/idr.h>
+#include <peenux/compiler.h>
+#include <peenux/err.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/delay.h>
+#include <peenux/hsi/ssi_protocol.h>
+#include <peenux/seq_file.h>
+#include <peenux/scatterlist.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/debugfs.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/hsi/hsi.h>
+#include <peenux/idr.h>
 
 #include "omap_ssi_regs.h"
 #include "omap_ssi.h"

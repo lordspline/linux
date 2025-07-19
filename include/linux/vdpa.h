@@ -2,13 +2,13 @@
 #ifndef _LINUX_VDPA_H
 #define _LINUX_VDPA_H
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/vhost_iotlb.h>
-#include <linux/virtio_net.h>
-#include <linux/virtio_blk.h>
-#include <linux/if_ether.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/vhost_iotlb.h>
+#include <peenux/virtio_net.h>
+#include <peenux/virtio_blk.h>
+#include <peenux/if_ether.h>
 
 /**
  * struct vdpa_callback - vDPA callback definition.

@@ -4,7 +4,7 @@
 
 #include <kunit/device.h>
 #include <kunit/test.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <sound/control.h>
 #include <sound/soc.h>
 #include <sound/soc-card.h>

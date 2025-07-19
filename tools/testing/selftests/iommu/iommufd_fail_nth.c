@@ -18,7 +18,7 @@
 #include <dirent.h>
 
 #define __EXPORTED_HEADERS__
-#include <linux/vfio.h>
+#include <peenux/vfio.h>
 
 #include "iommufd_utils.h"
 

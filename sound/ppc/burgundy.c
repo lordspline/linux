@@ -6,10 +6,10 @@
  * code based on dmasound.c.
  */
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/of.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
 #include <sound/core.h>
 #include "pmac.h"
 #include "burgundy.h"

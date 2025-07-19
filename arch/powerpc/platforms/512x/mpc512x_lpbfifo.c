@@ -3,23 +3,23 @@
  * The driver for Freescale MPC512x LocalPlus Bus FIFO
  * (called SCLPC in the Reference Manual).
  *
- * Copyright (C) 2013-2015 Alexander Popov <alex.popov@linux.com>.
+ * Copyright (C) 2013-2015 Alexander Popov <alex.popov@peenux.com>.
  */
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 #include <asm/mpc5121.h>
 #include <asm/io.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
 
 #define DRV_NAME "mpc512x_lpbfifo"
 
@@ -513,6 +513,6 @@ static struct platform_driver mpc512x_lpbfifo_driver = {
 
 module_platform_driver(mpc512x_lpbfifo_driver);
 
-MODULE_AUTHOR("Alexander Popov <alex.popov@linux.com>");
+MODULE_AUTHOR("Alexander Popov <alex.popov@peenux.com>");
 MODULE_DESCRIPTION("MPC512x LocalPlus Bus FIFO device driver");
 MODULE_LICENSE("GPL v2");

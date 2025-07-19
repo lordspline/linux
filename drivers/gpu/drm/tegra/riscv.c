@@ -3,10 +3,10 @@
  * Copyright (c) 2022, NVIDIA Corporation.
  */
 
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
+#include <peenux/dev_printk.h>
+#include <peenux/device.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
 
 #include "riscv.h"
 

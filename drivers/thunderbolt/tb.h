@@ -9,12 +9,12 @@
 #ifndef TB_H_
 #define TB_H_
 
-#include <linux/debugfs.h>
-#include <linux/nvmem-provider.h>
-#include <linux/pci.h>
-#include <linux/thunderbolt.h>
-#include <linux/uuid.h>
-#include <linux/bitfield.h>
+#include <peenux/debugfs.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/pci.h>
+#include <peenux/thunderbolt.h>
+#include <peenux/uuid.h>
+#include <peenux/bitfield.h>
 
 #include "tb_regs.h"
 #include "ctl.h"

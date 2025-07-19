@@ -8,16 +8,16 @@
 #ifndef __GLOBAL_H__
 #define __GLOBAL_H__
 
-#include <linux/fb.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/console.h>
-#include <linux/timer.h>
+#include <peenux/fb.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/init.h>
+#include <peenux/proc_fs.h>
+#include <peenux/console.h>
+#include <peenux/timer.h>
 
 #ifdef CONFIG_X86
 #include <asm/olpc.h>

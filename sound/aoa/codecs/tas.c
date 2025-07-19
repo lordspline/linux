@@ -58,13 +58,13 @@
  *    and up to the hardware designer to not wire
  *    them up in some weird unusable way.
  */
-#include <linux/i2c.h>
+#include <peenux/i2c.h>
 #include <asm/pmac_low_i2c.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 
 MODULE_AUTHOR("Johannes Berg <johannes@sipsolutions.net>");
 MODULE_LICENSE("GPL");

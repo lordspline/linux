@@ -6,10 +6,10 @@
  *
  * Copyright (C) 2009 - 2010  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
 #include <asm/hw_breakpoint.h>
 
 #define UBC_CBR(idx)	(0xff200000 + (0x20 * idx))

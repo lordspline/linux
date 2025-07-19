@@ -7,15 +7,15 @@
  *         Loc Ho <lho@apm.com>
  */
 
-#include <linux/ctype.h>
-#include <linux/edac.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
+#include <peenux/ctype.h>
+#include <peenux/edac.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/regmap.h>
+#include <peenux/string_choices.h>
 
 #include "edac_module.h"
 

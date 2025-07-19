@@ -7,16 +7,16 @@
  * Copyright (C) 2006 Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/vmalloc.h>
+#include <peenux/export.h>
 
 #include <asm/byteorder.h>
 

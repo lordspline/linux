@@ -7,12 +7,12 @@
  * Author: Peter Rosin <peda@axentia.se>
  */
 
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/module.h>
-#include <linux/mux/consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/module.h>
+#include <peenux/mux/consumer.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 struct mux {
 	struct mux_control *control;

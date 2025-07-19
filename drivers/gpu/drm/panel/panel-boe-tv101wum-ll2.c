@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
-// Generated with linux-mdss-dsi-panel-driver-generator from vendor device tree:
-//   Copyright (c) 2013, The Linux Foundation. All rights reserved.
+// Generated with peenux-mdss-dsi-panel-driver-generator from vendor device tree:
+//   Copyright (c) 2013, The Peenux Foundation. All rights reserved.
 //   Copyright (c) 2024, Neil Armstrong <neil.armstrong@linaro.org>
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
 
 #include <drm/drm_mipi_dsi.h>
 #include <drm/drm_modes.h>

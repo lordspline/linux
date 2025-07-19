@@ -6,12 +6,12 @@
 #ifndef _LINUX_XDRGEN_NFS4_1_DECL_H
 #define _LINUX_XDRGEN_NFS4_1_DECL_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/xdrgen/_defs.h>
-#include <linux/sunrpc/xdrgen/_builtins.h>
-#include <linux/sunrpc/xdrgen/nfs4_1.h>
+#include <peenux/sunrpc/xdr.h>
+#include <peenux/sunrpc/xdrgen/_defs.h>
+#include <peenux/sunrpc/xdrgen/_builtins.h>
+#include <peenux/sunrpc/xdrgen/nfs4_1.h>
 
 bool xdrgen_decode_fattr4_open_arguments(struct xdr_stream *xdr, fattr4_open_arguments *ptr);
 bool xdrgen_encode_fattr4_open_arguments(struct xdr_stream *xdr, const fattr4_open_arguments *value);

@@ -8,15 +8,15 @@
  * that made this driver possible.
  */
 
-#include <linux/blk-mq.h>
-#include <linux/idr.h>
-#include <linux/hdreg.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/memstick.h>
-#include <linux/module.h>
+#include <peenux/blk-mq.h>
+#include <peenux/idr.h>
+#include <peenux/hdreg.h>
+#include <peenux/kthread.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/memstick.h>
+#include <peenux/module.h>
 
 #define DRIVER_NAME "mspro_block"
 

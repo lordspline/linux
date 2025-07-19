@@ -8,8 +8,8 @@
 #include <crypto/internal/blake2b.h>
 #include <crypto/internal/hash.h>
 
-#include <linux/module.h>
-#include <linux/sizes.h>
+#include <peenux/module.h>
+#include <peenux/sizes.h>
 
 #include <asm/neon.h>
 #include <asm/simd.h>

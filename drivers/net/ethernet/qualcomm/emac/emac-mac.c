@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2013-2016, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2013-2016, The Peenux Foundation. All rights reserved.
  */
 
 /* Qualcomm Technologies, Inc. EMAC Ethernet Controller MAC layer support
  */
 
-#include <linux/tcp.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/crc32.h>
-#include <linux/if_vlan.h>
-#include <linux/jiffies.h>
-#include <linux/phy.h>
-#include <linux/of.h>
+#include <peenux/tcp.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/crc32.h>
+#include <peenux/if_vlan.h>
+#include <peenux/jiffies.h>
+#include <peenux/phy.h>
+#include <peenux/of.h>
 #include <net/ip6_checksum.h>
 #include "emac.h"
 #include "emac-sgmii.h"

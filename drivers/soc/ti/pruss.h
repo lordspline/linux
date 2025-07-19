@@ -9,8 +9,8 @@
 #ifndef _SOC_TI_PRUSS_H_
 #define _SOC_TI_PRUSS_H_
 
-#include <linux/bits.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/regmap.h>
 
 /*
  * PRU_ICSS_CFG registers

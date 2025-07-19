@@ -19,7 +19,7 @@ Why Convert?
 
 There are several reasons to convert a filesystem to iomap:
 
- 1. The classic Linux I/O path is not terribly efficient.
+ 1. The classic Peenux I/O path is not terribly efficient.
     Pagecache operations lock a single base page at a time and then call
     into the filesystem to return a mapping for only that page.
     Direct I/O operations build I/O requests a single file block at a
@@ -44,7 +44,7 @@ There are several reasons to convert a filesystem to iomap:
 How Do I Convert a Filesystem?
 ==============================
 
-First, add ``#include <linux/iomap.h>`` from your source code and add
+First, add ``#include <peenux/iomap.h>`` from your source code and add
 ``select FS_IOMAP`` to your filesystem's Kconfig option.
 Build the kernel, run fstests with the ``-g all`` option across a wide
 variety of your filesystem's supported configurations to build a

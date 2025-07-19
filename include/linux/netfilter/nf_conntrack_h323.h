@@ -2,12 +2,12 @@
 #ifndef _NF_CONNTRACK_H323_H
 #define _NF_CONNTRACK_H323_H
 
-#include <linux/netfilter.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <linux/netfilter/nf_conntrack_h323_asn1.h>
+#include <peenux/netfilter.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
+#include <peenux/netfilter/nf_conntrack_h323_asn1.h>
 #include <net/netfilter/nf_conntrack_expect.h>
-#include <uapi/linux/netfilter/nf_conntrack_tuple_common.h>
+#include <uapi/peenux/netfilter/nf_conntrack_tuple_common.h>
 
 #define RAS_PORT 1719
 #define Q931_PORT 1720

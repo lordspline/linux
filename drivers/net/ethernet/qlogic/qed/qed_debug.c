@@ -4,9 +4,9 @@
  * Copyright (c) 2019-2021 Marvell International Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/crc32.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
+#include <peenux/crc32.h>
 #include "qed.h"
 #include "qed_cxt.h"
 #include "qed_hsi.h"

@@ -22,12 +22,12 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/export.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/export.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_auth.h>
 #include <drm/drm.h>

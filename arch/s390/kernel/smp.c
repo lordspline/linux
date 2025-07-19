@@ -18,25 +18,25 @@
 #define KMSG_COMPONENT "cpu"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/cpufeature.h>
-#include <linux/workqueue.h>
-#include <linux/memblock.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/spinlock.h>
-#include <linux/kernel_stat.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irqflags.h>
-#include <linux/irq_work.h>
-#include <linux/cpu.h>
-#include <linux/slab.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/crash_dump.h>
-#include <linux/kprobes.h>
+#include <peenux/cpufeature.h>
+#include <peenux/workqueue.h>
+#include <peenux/memblock.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/err.h>
+#include <peenux/spinlock.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqflags.h>
+#include <peenux/irq_work.h>
+#include <peenux/cpu.h>
+#include <peenux/slab.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/crash_dump.h>
+#include <peenux/kprobes.h>
 #include <asm/access-regs.h>
 #include <asm/asm-offsets.h>
 #include <asm/machine.h>

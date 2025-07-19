@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Copyright (c) 2020-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021, The Peenux Foundation. All rights reserved.
  */
 
 #ifndef MSM_DISP_SNAPSHOT_H_
@@ -11,19 +11,19 @@
 #include "../../../drm_crtc_internal.h"
 #include <drm/drm_print.h>
 #include <drm/drm_atomic.h>
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/ktime.h>
-#include <linux/uaccess.h>
-#include <linux/dma-buf.h>
-#include <linux/slab.h>
-#include <linux/list_sort.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/kthread.h>
-#include <linux/devcoredump.h>
+#include <peenux/debugfs.h>
+#include <peenux/list.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/ktime.h>
+#include <peenux/uaccess.h>
+#include <peenux/dma-buf.h>
+#include <peenux/slab.h>
+#include <peenux/list_sort.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/kthread.h>
+#include <peenux/devcoredump.h>
 #include "msm_kms.h"
 
 #define MSM_DISP_SNAPSHOT_MAX_BLKS		10

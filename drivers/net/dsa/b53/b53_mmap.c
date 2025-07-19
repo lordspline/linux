@@ -16,13 +16,13 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/bits.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/b53.h>
+#include <peenux/bits.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/b53.h>
 
 #include "b53_priv.h"
 

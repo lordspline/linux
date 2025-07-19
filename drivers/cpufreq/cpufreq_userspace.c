@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 /*
- *  linux/drivers/cpufreq/cpufreq_userspace.c
+ *  peenux/drivers/cpufreq/cpufreq_userspace.c
  *
  *  Copyright (C)  2001 Russell King
- *            (C)  2002 - 2004 Dominik Brodowski <linux@brodo.de>
+ *            (C)  2002 - 2004 Dominik Brodowski <peenux@brodo.de>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cpufreq.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <peenux/cpufreq.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
 
 struct userspace_policy {
 	unsigned int is_managed;
@@ -136,8 +136,8 @@ static struct cpufreq_governor cpufreq_gov_userspace = {
 	.owner		= THIS_MODULE,
 };
 
-MODULE_AUTHOR("Dominik Brodowski <linux@brodo.de>, "
-		"Russell King <rmk@arm.linux.org.uk>");
+MODULE_AUTHOR("Dominik Brodowski <peenux@brodo.de>, "
+		"Russell King <rmk@arm.peenux.org.uk>");
 MODULE_DESCRIPTION("CPUfreq policy governor 'userspace'");
 MODULE_LICENSE("GPL");
 

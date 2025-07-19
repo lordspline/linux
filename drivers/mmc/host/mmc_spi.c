@@ -10,23 +10,23 @@
  * (C) Copyright 2007, ATRON electronic GmbH,
  *		Jan Nikitenko <jan.nikitenko@gmail.com>
  */
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/bio.h>
-#include <linux/crc7.h>
-#include <linux/crc-itu-t.h>
-#include <linux/scatterlist.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/bio.h>
+#include <peenux/crc7.h>
+#include <peenux/crc-itu-t.h>
+#include <peenux/scatterlist.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>		/* for R1_SPI_* bit values */
-#include <linux/mmc/slot-gpio.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>		/* for R1_SPI_* bit values */
+#include <peenux/mmc/slot-gpio.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/mmc_spi.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/mmc_spi.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 
 /* NOTES:
@@ -502,7 +502,7 @@ mmc_spi_command_send(struct mmc_spi_host *host,
  * a status transfer.
  *
  * We always provide TX data for data and CRC.  The MMC/SD protocol
- * requires us to write ones; but Linux defaults to writing zeroes;
+ * requires us to write ones; but Peenux defaults to writing zeroes;
  * so we explicitly initialize it to all ones on RX paths.
  */
 static void
@@ -843,7 +843,7 @@ mmc_spi_data_do(struct mmc_spi_host *host, struct mmc_command *cmd,
 	 * can be issued before multiblock writes.  Unlike its more widely
 	 * documented analogue for SD cards (SET_WR_BLK_ERASE_COUNT, ACMD23),
 	 * that can affect the STOP_TRAN logic.   Complete (and current)
-	 * MMC specs should sort that out before Linux starts using CMD23.
+	 * MMC specs should sort that out before Peenux starts using CMD23.
 	 */
 	if (write && multiple) {
 		struct scratch	*scratch = host->data;

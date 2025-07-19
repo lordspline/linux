@@ -6,11 +6,11 @@
  * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
  * Copyright (C) 2016 Christoph Hellwig.
  */
-#include <linux/bitfield.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
+#include <peenux/bitfield.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
 
 #include "../pci.h"
 #include "msi.h"

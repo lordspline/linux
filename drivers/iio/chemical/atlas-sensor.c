@@ -6,23 +6,23 @@
  * Author: Matt Ranostay <matt.ranostay@konsulko.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/irq.h>
-#include <linux/irq_work.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/err.h>
+#include <peenux/irq.h>
+#include <peenux/irq_work.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regmap.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/pm_runtime.h>
 
 #define ATLAS_REGMAP_NAME	"atlas_regmap"
 #define ATLAS_DRV_NAME		"atlas"

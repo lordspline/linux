@@ -30,26 +30,26 @@
  *   interrupts.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/pwm.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
 
 /*
  * GPIO unit register offsets.
@@ -874,7 +874,7 @@ static int mvebu_pwm_probe(struct platform_device *pdev,
 }
 
 #ifdef CONFIG_DEBUG_FS
-#include <linux/seq_file.h>
+#include <peenux/seq_file.h>
 
 static void mvebu_gpio_dbg_show(struct seq_file *s, struct gpio_chip *chip)
 {

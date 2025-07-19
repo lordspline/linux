@@ -6,30 +6,30 @@
  * Copyright (C) 2012 Broadcom Corporation
  */
 
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/clk.h>
-#include <linux/compiler.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/usb.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/workqueue.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/clk.h>
+#include <peenux/compiler.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
+#include <peenux/usb.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/workqueue.h>
 
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_iudma.h>
@@ -263,7 +263,7 @@ struct bcm63xx_req {
 /**
  * struct bcm63xx_udc - Driver/hardware private context.
  * @lock: Spinlock to mediate access to this struct, and (most) HW regs.
- * @dev: Generic Linux device structure.
+ * @dev: Generic Peenux device structure.
  * @pd: Platform data (board/port info).
  * @usbd_clk: Clock descriptor for the USB device block.
  * @usbh_clk: Clock descriptor for the USB host block.

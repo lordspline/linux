@@ -32,16 +32,16 @@
 
 ======================================================================*/
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/serial_core.h>
-#include <linux/delay.h>
-#include <linux/major.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/serial_core.h>
+#include <peenux/delay.h>
+#include <peenux/major.h>
 #include <asm/io.h>
 
 #include <pcmcia/cistpl.h>

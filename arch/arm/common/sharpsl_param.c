@@ -7,9 +7,9 @@
  * Based on Sharp's 2.4 kernel patches
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 #include <asm/mach/sharpsl_param.h>
 #include <asm/page.h>
 

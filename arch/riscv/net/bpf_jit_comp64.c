@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/bpf.h>
-#include <linux/filter.h>
-#include <linux/memory.h>
-#include <linux/stop_machine.h>
+#include <peenux/bitfield.h>
+#include <peenux/bpf.h>
+#include <peenux/filter.h>
+#include <peenux/memory.h>
+#include <peenux/stop_machine.h>
 #include <asm/text-patching.h>
 #include <asm/cfi.h>
 #include <asm/percpu.h>

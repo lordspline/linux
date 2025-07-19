@@ -8,12 +8,12 @@
  * Copyright (C) 2008-2009 MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/timer.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/timer.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
 
 #include "musb_core.h"
 

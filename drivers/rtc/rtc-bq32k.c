@@ -9,13 +9,13 @@
  * https://www.ti.com/lit/ds/symlink/bq32000.pdf
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/rtc.h>
-#include <linux/init.h>
-#include <linux/kstrtox.h>
-#include <linux/errno.h>
-#include <linux/bcd.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/kstrtox.h>
+#include <peenux/errno.h>
+#include <peenux/bcd.h>
 
 #define BQ32K_SECONDS		0x00	/* Seconds register address */
 #define BQ32K_SECONDS_MASK	0x7F	/* Mask over seconds value */

@@ -34,16 +34,16 @@
 
 #include <crypto/hash.h>
 #include <crypto/sha2.h>
-#include <linux/file.h>
-#include <linux/slab.h>
-#include <linux/namei.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/module.h>
+#include <peenux/file.h>
+#include <peenux/slab.h>
+#include <peenux/namei.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
 #include <net/net_namespace.h>
-#include <linux/sunrpc/rpc_pipe_fs.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/nfsd/cld.h>
+#include <peenux/sunrpc/rpc_pipe_fs.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/nfsd/cld.h>
 
 #include "nfsd.h"
 #include "state.h"

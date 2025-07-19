@@ -5,7 +5,7 @@
 #include <core/falcon.h>
 #include <core/firmware.h>
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 #define GSP_PAGE_SHIFT 12
 #define GSP_PAGE_SIZE  BIT(GSP_PAGE_SHIFT)

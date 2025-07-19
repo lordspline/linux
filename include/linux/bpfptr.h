@@ -3,8 +3,8 @@
 #ifndef _LINUX_BPFPTR_H
 #define _LINUX_BPFPTR_H
 
-#include <linux/mm.h>
-#include <linux/sockptr.h>
+#include <peenux/mm.h>
+#include <peenux/sockptr.h>
 
 typedef sockptr_t bpfptr_t;
 

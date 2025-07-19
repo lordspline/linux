@@ -17,7 +17,7 @@
 #include <assert.h>
 #include <sys/epoll.h>
 #include <sys/mman.h>
-#include <linux/sockios.h>
+#include <peenux/sockios.h>
 
 #include "timeout.h"
 #include "control.h"

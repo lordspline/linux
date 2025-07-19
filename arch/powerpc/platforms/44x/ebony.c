@@ -12,9 +12,9 @@
  * Copyright 2007 David Gibson <dwg@au1.ibm.com>, IBM Corporation.
  */
 
-#include <linux/init.h>
-#include <linux/of_platform.h>
-#include <linux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/of_platform.h>
+#include <peenux/rtc.h>
 
 #include <asm/machdep.h>
 #include <asm/prom.h>

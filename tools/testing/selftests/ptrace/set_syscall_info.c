@@ -12,8 +12,8 @@
 #include <fcntl.h>
 #include <signal.h>
 #include <asm/unistd.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
 
 #if defined(_MIPS_SIM) && _MIPS_SIM == _MIPS_SIM_NABI32
 /*

@@ -3,7 +3,7 @@
  * Copyright (c) 2024 Neil Armstrong <neil.armstrong@linaro.org>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include "vclk.h"
 
 /* The VCLK gate has a supplementary reset bit to pulse after ungating */

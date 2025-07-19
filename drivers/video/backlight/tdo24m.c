@@ -6,14 +6,14 @@
  *	Eric Miao <eric.miao@marvell.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/tdo24m.h>
-#include <linux/lcd.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/tdo24m.h>
+#include <peenux/lcd.h>
+#include <peenux/slab.h>
 
 #define POWER_IS_ON(pwr)	((pwr) <= LCD_POWER_REDUCED)
 

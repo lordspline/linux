@@ -12,7 +12,7 @@
  * [2] Hewlett-Packard Development Company, L.P.,
  *     "HP Retail Manageability", 2012. [Online].
  *     Available: http://h10032.www1.hp.com/ctg/Manual/c03291135.pdf
- * [3] Linux Hardware Project, A. Ponomarenko et al.,
+ * [3] Peenux Hardware Project, A. Ponomarenko et al.,
  *     "linuxhw/ACPI - Collect ACPI table dumps", 2018. [Online].
  *     Available: https://github.com/linuxhw/ACPI
  * [4] P. Rohár, "bmfdec - Decompile binary MOF file (BMF) from WMI buffer",
@@ -21,14 +21,14 @@
  *     Available: https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/driver-defined-wmi-data-items
  */
 
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/hwmon.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/nls.h>
-#include <linux/units.h>
-#include <linux/wmi.h>
+#include <peenux/acpi.h>
+#include <peenux/debugfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/jiffies.h>
+#include <peenux/mutex.h>
+#include <peenux/nls.h>
+#include <peenux/units.h>
+#include <peenux/wmi.h>
 
 #define HP_WMI_EVENT_NAMESPACE		"root\\WMI"
 #define HP_WMI_EVENT_CLASS		"HPBIOS_BIOSEvent"

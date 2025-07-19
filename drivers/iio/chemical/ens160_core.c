@@ -8,13 +8,13 @@
  *  https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #include "ens160.h"
 

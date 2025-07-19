@@ -9,9 +9,9 @@
 #ifndef _RISCV_PMU_H
 #define _RISCV_PMU_H
 
-#include <linux/perf_event.h>
-#include <linux/ptrace.h>
-#include <linux/interrupt.h>
+#include <peenux/perf_event.h>
+#include <peenux/ptrace.h>
+#include <peenux/interrupt.h>
 
 #ifdef CONFIG_RISCV_PMU
 

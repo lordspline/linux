@@ -10,8 +10,8 @@
 #define _FS_CONTEXT_H
 
 #include "cifsglob.h"
-#include <linux/parser.h>
-#include <linux/fs_parser.h>
+#include <peenux/parser.h>
+#include <peenux/fs_parser.h>
 
 /* Log errors in fs_context (new mount api) but also in dmesg (old style) */
 #define cifs_errorf(fc, fmt, ...)			\

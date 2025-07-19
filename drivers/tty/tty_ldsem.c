@@ -25,13 +25,13 @@
  * Copyright (C) 2013 Peter Hurley <peter@hurleysoftware.com>
  */
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
-#include <linux/tty.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/tty.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
 
 
 #if BITS_PER_LONG == 64

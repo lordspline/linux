@@ -8,14 +8,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/parser.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/parser.h>
+#include <peenux/slab.h>
+#include <peenux/seq_file.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 #include <net/9p/transport.h>

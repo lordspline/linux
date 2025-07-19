@@ -9,27 +9,27 @@
  * Baikal-T1 Process, Voltage, Temperature sensor driver
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/polynomial.h>
-#include <linux/seqlock.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/ktime.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/polynomial.h>
+#include <peenux/seqlock.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #include "bt1-pvt.h"
 

@@ -10,13 +10,13 @@
  */
 
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/serio.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/serio.h>
 
 #define DRIVER_DESC	"PenMount serial touchscreen driver"
 

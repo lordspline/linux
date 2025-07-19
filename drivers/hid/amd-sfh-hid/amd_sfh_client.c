@@ -7,12 +7,12 @@
  *	     Basavaraj Natikar <Basavaraj.Natikar@amd.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/hid.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/errno.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/hid.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/errno.h>
 
 #include "hid_descriptor/amd_sfh_hid_desc.h"
 #include "amd_sfh_pcie.h"

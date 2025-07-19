@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (c) 2018-2021 Intel Corporation
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/hwmon.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/peci.h>
-#include <linux/peci-cpu.h>
-#include <linux/units.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/hwmon.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/peci.h>
+#include <peenux/peci-cpu.h>
+#include <peenux/units.h>
 
 #include "common.h"
 
@@ -603,7 +603,7 @@ static struct auxiliary_driver peci_cputemp_driver = {
 
 module_auxiliary_driver(peci_cputemp_driver);
 
-MODULE_AUTHOR("Jae Hyun Yoo <jae.hyun.yoo@linux.intel.com>");
+MODULE_AUTHOR("Jae Hyun Yoo <jae.hyun.yoo@peenux.intel.com>");
 MODULE_AUTHOR("Iwona Winiarska <iwona.winiarska@intel.com>");
 MODULE_DESCRIPTION("PECI cputemp driver");
 MODULE_LICENSE("GPL");

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/kernel/ptrace.c
+ * peenux/kernel/ptrace.c
  *
  * (C) Copyright 1999 Linus Torvalds
  *
@@ -8,31 +8,31 @@
  * to continually duplicate across every architecture.
  */
 
-#include <linux/capability.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/coredump.h>
-#include <linux/sched/task.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/ptrace.h>
-#include <linux/security.h>
-#include <linux/signal.h>
-#include <linux/uio.h>
-#include <linux/audit.h>
-#include <linux/pid_namespace.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
-#include <linux/regset.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/cn_proc.h>
-#include <linux/compat.h>
-#include <linux/sched/signal.h>
-#include <linux/minmax.h>
-#include <linux/syscall_user_dispatch.h>
+#include <peenux/capability.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/coredump.h>
+#include <peenux/sched/task.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/ptrace.h>
+#include <peenux/security.h>
+#include <peenux/signal.h>
+#include <peenux/uio.h>
+#include <peenux/audit.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/syscalls.h>
+#include <peenux/uaccess.h>
+#include <peenux/regset.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/cn_proc.h>
+#include <peenux/compat.h>
+#include <peenux/sched/signal.h>
+#include <peenux/minmax.h>
+#include <peenux/syscall_user_dispatch.h>
 
 #include <asm/syscall.h>	/* for syscall_get_* */
 
@@ -908,7 +908,7 @@ static int ptrace_regset(struct task_struct *task, int req, unsigned int type,
 }
 
 /*
- * This is declared in linux/regset.h and defined in machine-dependent
+ * This is declared in peenux/regset.h and defined in machine-dependent
  * code.  We put the export here, near the primary machine-neutral use,
  * to ensure no machine forgets it.
  */

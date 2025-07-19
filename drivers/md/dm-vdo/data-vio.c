@@ -5,19 +5,19 @@
 
 #include "data-vio.h"
 
-#include <linux/atomic.h>
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/device-mapper.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/lz4.h>
-#include <linux/minmax.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/device-mapper.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/lz4.h>
+#include <peenux/minmax.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

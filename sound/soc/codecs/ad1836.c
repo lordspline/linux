@@ -6,19 +6,19 @@
  * Copyright 2009-2011 Analog Devices Inc.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/initval.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regmap.h>
 
 #include "ad1836.h"
 

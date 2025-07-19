@@ -8,10 +8,10 @@
  * TODO: enable/disable hi-z output control
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/iio/iio.h>
 
 struct tpl0102_cfg {
 	int wipers;

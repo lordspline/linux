@@ -7,15 +7,15 @@
  * Author: Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/ptrace.h>
-#include <linux/kprobes.h>
-#include <linux/stat.h>
-#include <linux/uaccess.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/cpu.h>
+#include <peenux/debugfs.h>
+#include <peenux/hardirq.h>
+#include <peenux/init.h>
+#include <peenux/ptrace.h>
+#include <peenux/kprobes.h>
+#include <peenux/stat.h>
+#include <peenux/uaccess.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/cpufeature.h>
 #include <asm/cputype.h>

@@ -3,15 +3,15 @@
  * Apple Motion Sensor driver (joystick emulation)
  *
  * Copyright (C) 2005 Stelian Pop (stelian@popies.net)
- * Copyright (C) 2006 Michael Hanselmann (linux-kernel@hansmi.ch)
+ * Copyright (C) 2006 Michael Hanselmann (peenux-kernel@hansmi.ch)
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
 
 #include "ams.h"
 

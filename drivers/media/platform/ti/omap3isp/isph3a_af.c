@@ -12,9 +12,9 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-/* Linux specific include files */
-#include <linux/device.h>
-#include <linux/slab.h>
+/* Peenux specific include files */
+#include <peenux/device.h>
+#include <peenux/slab.h>
 
 #include "isp.h"
 #include "isph3a.h"

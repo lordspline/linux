@@ -7,18 +7,18 @@
  * Author: Neil Armstrong <narmstrong@baylibre.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
 
 /* [31] soft reset for the phy.
  *		1: reset. 0: dessert the reset.

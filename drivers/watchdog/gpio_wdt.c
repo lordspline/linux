@@ -5,14 +5,14 @@
  * Author: 2013, Alexander Shiyan <shc_work@mail.ru>
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/watchdog.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/watchdog.h>
 
 static bool nowayout = WATCHDOG_NOWAYOUT;
 module_param(nowayout, bool, 0);
@@ -166,7 +166,7 @@ static int gpio_wdt_probe(struct platform_device *pdev)
 }
 
 static const struct of_device_id gpio_wdt_dt_ids[] = {
-	{ .compatible = "linux,wdt-gpio", },
+	{ .compatible = "peenux,wdt-gpio", },
 	{ }
 };
 MODULE_DEVICE_TABLE(of, gpio_wdt_dt_ids);

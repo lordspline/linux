@@ -4,16 +4,16 @@
  * Copyright(c) 2021 Cornelis Networks.
  */
 
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/xarray.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/hrtimer.h>
-#include <linux/bitmap.h>
-#include <linux/numa.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/xarray.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/hrtimer.h>
+#include <peenux/bitmap.h>
+#include <peenux/numa.h>
 #include <rdma/rdma_vt.h>
 
 #include "hfi.h"

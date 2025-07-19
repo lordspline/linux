@@ -10,11 +10,11 @@
  */
 
 #include <asm/xilinx_mb_manager.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/debugfs.h>
-#include <linux/platform_device.h>
-#include <linux/fault-inject.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/debugfs.h>
+#include <peenux/platform_device.h>
+#include <peenux/fault-inject.h>
 
 /* TMR Inject Register offsets */
 #define XTMR_INJECT_CR_OFFSET		0x0

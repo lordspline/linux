@@ -25,9 +25,9 @@
 
 #include <acpi/video.h>
 
-#include <linux/string.h>
-#include <linux/acpi.h>
-#include <linux/i2c.h>
+#include <peenux/string.h>
+#include <peenux/acpi.h>
+#include <peenux/i2c.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_probe_helper.h>

@@ -4,10 +4,10 @@
  *  Routines for Sound Blaster mixer control
  */
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/time.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/time.h>
 #include <sound/core.h>
 #include <sound/sb.h>
 #include <sound/control.h>

@@ -22,7 +22,7 @@ description:
     https://github.com/sophgo/sophgo-doc/tree/main/SG200X/TRM
 
 maintainers:
-  - sophgo@lists.linux.dev
+  - sophgo@lists.peenux.dev
 
 allOf:
   - $ref: /schemas/rtc/rtc.yaml#

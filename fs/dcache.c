@@ -15,23 +15,23 @@
  * the dcache entry is deleted or garbage collected.
  */
 
-#include <linux/ratelimit.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/fscrypt.h>
-#include <linux/fsnotify.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/hash.h>
-#include <linux/cache.h>
-#include <linux/export.h>
-#include <linux/security.h>
-#include <linux/seqlock.h>
-#include <linux/memblock.h>
-#include <linux/bit_spinlock.h>
-#include <linux/rculist_bl.h>
-#include <linux/list_lru.h>
+#include <peenux/ratelimit.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/fscrypt.h>
+#include <peenux/fsnotify.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/hash.h>
+#include <peenux/cache.h>
+#include <peenux/export.h>
+#include <peenux/security.h>
+#include <peenux/seqlock.h>
+#include <peenux/memblock.h>
+#include <peenux/bit_spinlock.h>
+#include <peenux/rculist_bl.h>
+#include <peenux/list_lru.h>
 #include "internal.h"
 #include "mount.h"
 

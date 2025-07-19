@@ -5,10 +5,10 @@
 #ifndef __PINCTRL_MSM_H__
 #define __PINCTRL_MSM_H__
 
-#include <linux/pm.h>
-#include <linux/types.h>
+#include <peenux/pm.h>
+#include <peenux/types.h>
 
-#include <linux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinctrl.h>
 
 struct platform_device;
 

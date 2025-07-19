@@ -8,11 +8,11 @@
  */
 
 #include <dt-bindings/clock/exynos5250.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #include "clk.h"
 #include "clk-cpu.h"

@@ -9,18 +9,18 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
 
-#include <linux/acpi.h>
-#include <linux/timer.h>
-#include <linux/jiffies.h>
-#include <linux/delay.h>
-#include <linux/power_supply.h>
-#include <linux/platform_data/x86/apple.h>
+#include <peenux/acpi.h>
+#include <peenux/timer.h>
+#include <peenux/jiffies.h>
+#include <peenux/delay.h>
+#include <peenux/power_supply.h>
+#include <peenux/platform_data/x86/apple.h>
 #include <acpi/battery.h>
 
 #include "sbshc.h"

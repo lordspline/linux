@@ -3,24 +3,24 @@
  * Basic Node interface support
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/memory.h>
-#include <linux/mempolicy.h>
-#include <linux/vmstat.h>
-#include <linux/notifier.h>
-#include <linux/node.h>
-#include <linux/hugetlb.h>
-#include <linux/compaction.h>
-#include <linux/cpumask.h>
-#include <linux/topology.h>
-#include <linux/nodemask.h>
-#include <linux/cpu.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/swap.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/memory.h>
+#include <peenux/mempolicy.h>
+#include <peenux/vmstat.h>
+#include <peenux/notifier.h>
+#include <peenux/node.h>
+#include <peenux/hugetlb.h>
+#include <peenux/compaction.h>
+#include <peenux/cpumask.h>
+#include <peenux/topology.h>
+#include <peenux/nodemask.h>
+#include <peenux/cpu.h>
+#include <peenux/device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/swap.h>
+#include <peenux/slab.h>
 
 static const struct bus_type node_subsys = {
 	.name = "node",

@@ -5,10 +5,10 @@
  * Copyright (C) 2021 Michael Walle <michael@walle.cc>
  */
 
-#include <linux/log2.h>
-#include <linux/math64.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/spi-nor.h>
+#include <peenux/log2.h>
+#include <peenux/math64.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/spi-nor.h>
 
 #include "core.h"
 

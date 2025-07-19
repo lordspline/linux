@@ -2,8 +2,8 @@
 /*
  * Copyright © 2023 Intel Corporation
  */
-#include <linux/delay.h>
-#include <linux/kthread.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
 
 #include <drm/ttm/ttm_resource.h>
 #include <drm/ttm/ttm_placement.h>

@@ -7,20 +7,20 @@
  * Author: Krystian Garbaciak, Dialog Semiconductor
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/da9063/core.h>
-#include <linux/mfd/da9063/registers.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/da9063/core.h>
+#include <peenux/mfd/da9063/registers.h>
 
-#include <linux/of.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/of.h>
+#include <peenux/regulator/of_regulator.h>
 
 /*
  * Raw I2C access required for just accessing chip and variant info before we

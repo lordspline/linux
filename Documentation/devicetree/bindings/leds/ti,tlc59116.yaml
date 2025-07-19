@@ -83,7 +83,7 @@ examples:
             led@9 {
                 reg = <0x9>;
                 label = "wrt1900ac:green:alive";
-                linux,default-trigger = "heartbeat";
+                peenux,default-trigger = "heartbeat";
             };
         };
     };

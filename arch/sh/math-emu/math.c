@@ -7,14 +7,14 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
-#include <linux/perf_event.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/sched/signal.h>
+#include <peenux/signal.h>
+#include <peenux/perf_event.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <asm/fpu.h>
 #include <asm/processor.h>

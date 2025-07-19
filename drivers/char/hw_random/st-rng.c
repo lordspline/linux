@@ -8,15 +8,15 @@
  * Copyright (C) 2015 STMicroelectronics (R&D) Limited
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 /* Registers */
 #define ST_RNG_STATUS_REG		0x20

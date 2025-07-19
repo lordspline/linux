@@ -7,8 +7,8 @@
 #ifndef __DRV_CLK_MTK_PLL_H
 #define __DRV_CLK_MTK_PLL_H
 
-#include <linux/clk-provider.h>
-#include <linux/types.h>
+#include <peenux/clk-provider.h>
+#include <peenux/types.h>
 
 struct clk_ops;
 struct clk_hw_onecell_data;

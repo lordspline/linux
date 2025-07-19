@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/kernel/power/snapshot.c
+ * peenux/kernel/power/snapshot.c
  *
  * This file provides system snapshot/restore functionality for swsusp.
  *
@@ -10,29 +10,29 @@
 
 #define pr_fmt(fmt) "PM: hibernation: " fmt
 
-#include <linux/version.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/suspend.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/pm.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/nmi.h>
-#include <linux/syscalls.h>
-#include <linux/console.h>
-#include <linux/highmem.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/compiler.h>
-#include <linux/ktime.h>
-#include <linux/set_memory.h>
+#include <peenux/version.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/suspend.h>
+#include <peenux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/pm.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/memblock.h>
+#include <peenux/nmi.h>
+#include <peenux/syscalls.h>
+#include <peenux/console.h>
+#include <peenux/highmem.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/compiler.h>
+#include <peenux/ktime.h>
+#include <peenux/set_memory.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/tlbflush.h>
 #include <asm/io.h>

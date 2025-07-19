@@ -9,12 +9,12 @@
 #ifndef __CS35L56_HDA_H__
 #define __CS35L56_HDA_H__
 
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/regulator/consumer.h>
-#include <linux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/firmware/cirrus/cs_dsp.h>
+#include <peenux/firmware/cirrus/wmfw.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/workqueue.h>
 #include <sound/cs35l56.h>
 
 struct dentry;

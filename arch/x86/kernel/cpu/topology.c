@@ -22,7 +22,7 @@
  * domain levels without requiring any conditionals in the code.
  */
 #define pr_fmt(fmt) "CPU topo: " fmt
-#include <linux/cpu.h>
+#include <peenux/cpu.h>
 
 #include <xen/xen.h>
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *	Linux IPv6 multicast routing support for BSD pim6sd
+ *	Peenux IPv6 multicast routing support for BSD pim6sd
  *	Based on net/ipv4/ipmr.c.
  *
  *	(c) 2004 Mickael Hoerdt, <hoerdt@clarinet.u-strasbg.fr>
@@ -8,47 +8,47 @@
  *	(c) 2004 Jean-Philippe Andriot, <jean-philippe.andriot@6WIND.com>
  *		6WIND, Paris, France
  *	Copyright (C)2007,2008 USAGI/WIDE Project
- *		YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
+ *		YOSHIFUJI Hideaki <yoshfuji@peenux-ipv6.org>
  */
 
-#include <linux/uaccess.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/fcntl.h>
-#include <linux/stat.h>
-#include <linux/socket.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/compat.h>
-#include <linux/rhashtable.h>
+#include <peenux/uaccess.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/fcntl.h>
+#include <peenux/stat.h>
+#include <peenux/socket.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/inetdevice.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/compat.h>
+#include <peenux/rhashtable.h>
 #include <net/protocol.h>
-#include <linux/skbuff.h>
+#include <peenux/skbuff.h>
 #include <net/raw.h>
-#include <linux/notifier.h>
-#include <linux/if_arp.h>
+#include <peenux/notifier.h>
+#include <peenux/if_arp.h>
 #include <net/checksum.h>
 #include <net/netlink.h>
 #include <net/fib_rules.h>
 
 #include <net/ipv6.h>
 #include <net/ip6_route.h>
-#include <linux/mroute6.h>
-#include <linux/pim.h>
+#include <peenux/mroute6.h>
+#include <peenux/pim.h>
 #include <net/addrconf.h>
-#include <linux/netfilter_ipv6.h>
-#include <linux/export.h>
+#include <peenux/netfilter_ipv6.h>
+#include <peenux/export.h>
 #include <net/ip6_checksum.h>
-#include <linux/netconf.h>
+#include <peenux/netconf.h>
 #include <net/ip_tunnels.h>
 
-#include <linux/nospec.h>
+#include <peenux/nospec.h>
 
 struct ip6mr_rule {
 	struct fib_rule		common;

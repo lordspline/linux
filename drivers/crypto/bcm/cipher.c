@@ -3,22 +3,22 @@
  * Copyright 2016 Broadcom
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/scatterlist.h>
-#include <linux/crypto.h>
-#include <linux/kthread.h>
-#include <linux/rtnetlink.h>
-#include <linux/sched.h>
-#include <linux/string_choices.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/scatterlist.h>
+#include <peenux/crypto.h>
+#include <peenux/kthread.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/sched.h>
+#include <peenux/string_choices.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/bitops.h>
 
 #include <crypto/algapi.h>
 #include <crypto/aead.h>

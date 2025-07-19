@@ -2,29 +2,29 @@
 // Copyright 2020 IBM Corp.
 // Copyright (c) 2019-2020 Intel Corporation
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/v4l2-controls.h>
-#include <linux/videodev2.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/ktime.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/v4l2-controls.h>
+#include <peenux/videodev2.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
+#include <peenux/debugfs.h>
+#include <peenux/ktime.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-device.h>
@@ -32,7 +32,7 @@
 #include <media/v4l2-event.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-dma-contig.h>
-#include <uapi/linux/aspeed-video.h>
+#include <uapi/peenux/aspeed-video.h>
 
 #define ASPEED_VIDEO_V4L2_MIN_BUF_REQ 3
 

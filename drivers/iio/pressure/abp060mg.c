@@ -2,14 +2,14 @@
 /*
  * Copyright (C) 2016 - Marcin Malagowski <mrc@bourne.st>
  */
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/iio/iio.h>
 
 #define ABP060MG_ERROR_MASK   0xC000
 #define ABP060MG_RESP_TIME_MS 40

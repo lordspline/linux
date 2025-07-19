@@ -20,15 +20,15 @@
  *	 v4l-utils compliance tools will report errors.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/v4l2-mediabus.h>
-#include <linux/videodev2.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/v4l2-mediabus.h>
+#include <peenux/videodev2.h>
 
 #include <media/i2c/mt9t112.h>
 #include <media/v4l2-common.h>

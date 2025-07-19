@@ -9,17 +9,17 @@
  */
 
 #include <drm/bridge/aux-bridge.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/usb/typec_retimer.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_graph.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_mux.h>
+#include <peenux/usb/typec_retimer.h>
 
 #define PTN36502_CHIP_ID_REG				0x00
 #define PTN36502_CHIP_ID				0x02

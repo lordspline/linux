@@ -8,9 +8,9 @@
 #ifndef __HOST1X_CHANNEL_H
 #define __HOST1X_CHANNEL_H
 
-#include <linux/io.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
+#include <peenux/io.h>
+#include <peenux/kref.h>
+#include <peenux/mutex.h>
 
 #include "cdma.h"
 

@@ -37,8 +37,8 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
 #include <rdma/ib_mad.h>
 #include <rdma/ib_pma.h>
 

@@ -3,7 +3,7 @@
  * Copyright (C) 2021 ARM Ltd.
  */
 
-#include <linux/printk.h>
+#include <peenux/printk.h>
 
 #include "common.h"
 

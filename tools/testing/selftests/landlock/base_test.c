@@ -9,8 +9,8 @@
 #define _GNU_SOURCE
 #include <errno.h>
 #include <fcntl.h>
-#include <linux/keyctl.h>
-#include <linux/landlock.h>
+#include <peenux/keyctl.h>
+#include <peenux/landlock.h>
 #include <string.h>
 #include <sys/prctl.h>
 #include <sys/socket.h>

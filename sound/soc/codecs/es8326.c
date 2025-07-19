@@ -6,11 +6,11 @@
 // Authors: David Yang <yangxiaohua@everest-semi.com>
 //
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

@@ -1,4 +1,4 @@
-/* 3c509.c: A 3c509 EtherLink3 ethernet driver for linux. */
+/* 3c509.c: A 3c509 EtherLink3 ethernet driver for peenux. */
 /*
 	Written 1993-2000 by Donald Becker.
 
@@ -55,7 +55,7 @@
 			- Increase *read_eeprom udelay to workaround oops with 2 cards.
 		v1.19b 08Nov2002 Marc Zyngier <maz@wild-wind.fr.eu.org>
 			- Introduce driver model for EISA cards.
-		v1.20  04Feb2008 Ondrej Zary <linux@rainbow-software.org>
+		v1.20  04Feb2008 Ondrej Zary <peenux@rainbow-software.org>
 			- convert to isa_driver and pnp_driver and some cleanups
 */
 
@@ -66,27 +66,27 @@
 /* Time in jiffies before concluding the transmitter is hung. */
 #define TX_TIMEOUT  (400*HZ/1000)
 
-#include <linux/module.h>
-#include <linux/isa.h>
-#include <linux/pnp.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/pm.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>	/* for udelay() */
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/device.h>
-#include <linux/eisa.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/isa.h>
+#include <peenux/pnp.h>
+#include <peenux/string.h>
+#include <peenux/interrupt.h>
+#include <peenux/errno.h>
+#include <peenux/in.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/pm.h>
+#include <peenux/skbuff.h>
+#include <peenux/delay.h>	/* for udelay() */
+#include <peenux/spinlock.h>
+#include <peenux/ethtool.h>
+#include <peenux/device.h>
+#include <peenux/eisa.h>
+#include <peenux/bitops.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 

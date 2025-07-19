@@ -4,14 +4,14 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 #include "qed.h"
-#include <linux/qed/qed_chain.h>
+#include <peenux/qed/qed_chain.h>
 #include "qed_cxt.h"
 #include "qed_dcbx.h"
 #include "qed_hsi.h"

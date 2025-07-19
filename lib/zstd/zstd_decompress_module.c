@@ -9,10 +9,10 @@
  * You may select, at your option, one of the above-listed licenses.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/zstd.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/zstd.h>
 
 #include "common/zstd_deps.h"
 

@@ -36,11 +36,11 @@
  * Description: IB Verbs interpreter
  */
 
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/if_ether.h>
+#include <peenux/interrupt.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_ether.h>
 #include <net/addrconf.h>
 
 #include <rdma/ib_verbs.h>
@@ -51,7 +51,7 @@
 #include <rdma/ib_cache.h>
 #include <rdma/ib_pma.h>
 #include <rdma/uverbs_ioctl.h>
-#include <linux/hashtable.h>
+#include <peenux/hashtable.h>
 
 #include "roce_hsi.h"
 #include "qplib_res.h"

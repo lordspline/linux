@@ -6,12 +6,12 @@
 #ifndef BTRFS_QGROUP_H
 #define BTRFS_QGROUP_H
 
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/rbtree.h>
-#include <linux/kobject.h>
-#include <linux/list.h>
-#include <uapi/linux/btrfs_tree.h>
+#include <peenux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/rbtree.h>
+#include <peenux/kobject.h>
+#include <peenux/list.h>
+#include <uapi/peenux/btrfs_tree.h>
 
 struct extent_buffer;
 struct extent_changeset;

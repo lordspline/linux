@@ -10,12 +10,12 @@
  * #2 wait-for-interrupt and RAM self refresh
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/cpuidle.h>
-#include <linux/io.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/cpuidle.h>
+#include <peenux/io.h>
+#include <peenux/export.h>
 #include <asm/cpuidle.h>
 
 #define AT91_MAX_STATES	2

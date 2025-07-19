@@ -7,11 +7,11 @@
  *			Kaiyuan Zhang <kaiyuanz@google.com
  */
 
-#include <linux/dma-buf.h>
-#include <linux/genalloc.h>
-#include <linux/mm.h>
-#include <linux/netdevice.h>
-#include <linux/types.h>
+#include <peenux/dma-buf.h>
+#include <peenux/genalloc.h>
+#include <peenux/mm.h>
+#include <peenux/netdevice.h>
+#include <peenux/types.h>
 #include <net/netdev_queues.h>
 #include <net/netdev_rx_queue.h>
 #include <net/page_pool/helpers.h>

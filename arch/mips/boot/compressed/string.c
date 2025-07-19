@@ -5,8 +5,8 @@
  * Very small subset of simple string routines
  */
 
-#include <linux/compiler_attributes.h>
-#include <linux/types.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/types.h>
 #include <asm/string.h>
 
 void *memcpy(void *dest, const void *src, size_t n)

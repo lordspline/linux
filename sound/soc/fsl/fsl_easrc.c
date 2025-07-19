@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright 2019 NXP
 
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/kobject.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/miscdevice.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/sched/signal.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/gcd.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/kobject.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/miscdevice.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/gcd.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

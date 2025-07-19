@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright IBM Corp 2019
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/fsi-occ.h>
-#include <linux/i2c.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/fsi-occ.h>
+#include <peenux/i2c.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/unaligned.h>
 
 #include "common.h"
 
@@ -251,6 +251,6 @@ static struct i2c_driver p8_i2c_occ_driver = {
 
 module_i2c_driver(p8_i2c_occ_driver);
 
-MODULE_AUTHOR("Eddie James <eajames@linux.ibm.com>");
+MODULE_AUTHOR("Eddie James <eajames@peenux.ibm.com>");
 MODULE_DESCRIPTION("BMC P8 OCC hwmon driver");
 MODULE_LICENSE("GPL");

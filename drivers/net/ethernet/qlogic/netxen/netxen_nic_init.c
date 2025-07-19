@@ -5,10 +5,10 @@
  * All rights reserved.
  */
 
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/if_vlan.h>
+#include <peenux/netdevice.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/if_vlan.h>
 #include <net/checksum.h>
 #include "netxen_nic.h"
 #include "netxen_nic_hw.h"

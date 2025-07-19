@@ -7,11 +7,11 @@
 
 #define pr_fmt(fmt)	"brcmstb: " KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/syscore_ops.h>
-#include <linux/soc/brcmstb/brcmstb.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/soc/brcmstb/brcmstb.h>
 
 #define RACENPREF_MASK			0x3
 #define RACPREFINST_SHIFT		0

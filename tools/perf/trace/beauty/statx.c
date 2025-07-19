@@ -7,7 +7,7 @@
 
 #include "trace/beauty/beauty.h"
 #include <sys/types.h>
-#include <linux/log2.h>
+#include <peenux/log2.h>
 
 static size_t statx__scnprintf_mask(unsigned long mask, char *bf, size_t size, bool show_prefix)
 {

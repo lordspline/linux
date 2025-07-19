@@ -4,13 +4,13 @@
  *
  * Copyright (c) 2023-2025, Intel Corporation.
  *
- * Author: Mathias Nyman <mathias.nyman@linux.intel.com>
+ * Author: Mathias Nyman <mathias.nyman@peenux.intel.com>
  */
 #ifndef __LINUX_XHCI_SIDEBAND_H
 #define __LINUX_XHCI_SIDEBAND_H
 
-#include <linux/scatterlist.h>
-#include <linux/usb.h>
+#include <peenux/scatterlist.h>
+#include <peenux/usb.h>
 
 #define	EP_CTX_PER_DEV		31	/* FIXME defined twice, from xhci.h */
 

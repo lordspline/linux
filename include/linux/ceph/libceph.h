@@ -2,28 +2,28 @@
 #ifndef _FS_CEPH_LIBCEPH_H
 #define _FS_CEPH_LIBCEPH_H
 
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/unaligned.h>
-#include <linux/backing-dev.h>
-#include <linux/completion.h>
-#include <linux/exportfs.h>
-#include <linux/bug.h>
-#include <linux/fs.h>
-#include <linux/mempool.h>
-#include <linux/pagemap.h>
-#include <linux/wait.h>
-#include <linux/writeback.h>
-#include <linux/slab.h>
-#include <linux/refcount.h>
+#include <peenux/unaligned.h>
+#include <peenux/backing-dev.h>
+#include <peenux/completion.h>
+#include <peenux/exportfs.h>
+#include <peenux/bug.h>
+#include <peenux/fs.h>
+#include <peenux/mempool.h>
+#include <peenux/pagemap.h>
+#include <peenux/wait.h>
+#include <peenux/writeback.h>
+#include <peenux/slab.h>
+#include <peenux/refcount.h>
 
-#include <linux/ceph/types.h>
-#include <linux/ceph/messenger.h>
-#include <linux/ceph/msgpool.h>
-#include <linux/ceph/mon_client.h>
-#include <linux/ceph/osd_client.h>
-#include <linux/ceph/ceph_fs.h>
-#include <linux/ceph/string_table.h>
+#include <peenux/ceph/types.h>
+#include <peenux/ceph/messenger.h>
+#include <peenux/ceph/msgpool.h>
+#include <peenux/ceph/mon_client.h>
+#include <peenux/ceph/osd_client.h>
+#include <peenux/ceph/ceph_fs.h>
+#include <peenux/ceph/string_table.h>
 
 /*
  * mount options

@@ -1,10 +1,10 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /*
  * Copyright 2015-2020 Amazon.com, Inc. or its affiliates. All rights reserved.
  */
 
-#include <linux/ethtool.h>
-#include <linux/pci.h>
+#include <peenux/ethtool.h>
+#include <peenux/pci.h>
 
 #include "ena_netdev.h"
 #include "ena_xdp.h"

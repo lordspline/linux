@@ -7,16 +7,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/i2c.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/swab.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/i2c.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/swab.h>
 
 /*
  * 16-bit register address: the lower 8 bits of the register address come
@@ -225,7 +225,7 @@ static const unsigned int output_bank_mapping[] = {
  * @hi: The upper 64-bits of the 128-bit product.
  * @lo: The lower 64-bits of the 128-bit product.
  *
- * From mul_64_64 in crypto/ecc.c:350 in the linux kernel, accessed in v5.17.2.
+ * From mul_64_64 in crypto/ecc.c:350 in the peenux kernel, accessed in v5.17.2.
  */
 static void vc7_64_mul_64_to_128(u64 left, u64 right, u64 *hi, u64 *lo)
 {

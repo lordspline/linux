@@ -23,8 +23,8 @@
 #ifndef __AMDGPU_CTX_H__
 #define __AMDGPU_CTX_H__
 
-#include <linux/ktime.h>
-#include <linux/types.h>
+#include <peenux/ktime.h>
+#include <peenux/types.h>
 
 #include "amdgpu_ring.h"
 

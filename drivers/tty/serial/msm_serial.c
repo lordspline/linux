@@ -7,28 +7,28 @@
  * Copyright (c) 2011, Code Aurora Forum. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/atomic.h>
-#include <linux/dma/qcom_adm.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/wait.h>
+#include <peenux/kernel.h>
+#include <peenux/atomic.h>
+#include <peenux/dma/qcom_adm.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/wait.h>
 
 #define MSM_UART_MR1			0x0000
 

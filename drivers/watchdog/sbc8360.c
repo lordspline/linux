@@ -12,7 +12,7 @@
  *	Based on advantechwdt.c which is based on acquirewdt.c which
  *	is based on wdt.c.
  *
- *	(c) Copyright 2000-2001 Marek Michalkiewicz <marekm@linux.org.pl>
+ *	(c) Copyright 2000-2001 Marek Michalkiewicz <marekm@peenux.org.pl>
  *
  *	Based on acquirewdt.c which is based on wdt.c.
  *	Original copyright messages:
@@ -34,20 +34,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/notifier.h>
-#include <linux/fs.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/moduleparam.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/miscdevice.h>
+#include <peenux/watchdog.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/notifier.h>
+#include <peenux/fs.h>
+#include <peenux/reboot.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/moduleparam.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 
 
 static unsigned long sbc8360_is_open;

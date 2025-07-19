@@ -3,14 +3,14 @@
  * Copyright (C) 2023 ARM Ltd.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/cc_platform.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/smp.h>
-#include <linux/tsm.h>
-#include <linux/types.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/cc_platform.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/smp.h>
+#include <peenux/tsm.h>
+#include <peenux/types.h>
 
 #include <asm/rsi.h>
 

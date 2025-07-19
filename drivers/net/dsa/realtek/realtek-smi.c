@@ -25,18 +25,18 @@
  * Copyright (C) 2009-2010 Gabor Juhos <juhosg@openwrt.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/skbuff.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/bitops.h>
-#include <linux/if_bridge.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/spinlock.h>
+#include <peenux/skbuff.h>
+#include <peenux/of.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/if_bridge.h>
 
 #include "realtek.h"
 #include "realtek-smi.h"

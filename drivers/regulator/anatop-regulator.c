@@ -2,19 +2,19 @@
 //
 // Copyright (C) 2011 Freescale Semiconductor, Inc. All Rights Reserved.
 
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/machine.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/regulator/machine.h>
 
 #define LDO_RAMP_UP_UNIT_IN_CYCLES      64 /* 64 cycles per step */
 #define LDO_RAMP_UP_FREQ_IN_MHZ         24 /* cycle based on 24M OSC */

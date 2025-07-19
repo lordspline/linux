@@ -7,10 +7,10 @@
  *     Jacob Siverskog <jacob@teenage.engineering>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 
 #include "pcm179x.h"
 

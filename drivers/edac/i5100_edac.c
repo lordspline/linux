@@ -20,14 +20,14 @@
  * them as DIMM's. An internal table creates the association between ranks
  * and DIMM's.
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/edac.h>
-#include <linux/delay.h>
-#include <linux/mmzone.h>
-#include <linux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/edac.h>
+#include <peenux/delay.h>
+#include <peenux/mmzone.h>
+#include <peenux/debugfs.h>
 
 #include "edac_module.h"
 

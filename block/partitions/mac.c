@@ -7,7 +7,7 @@
  *  Re-organised Feb 1998 Russell King
  */
 
-#include <linux/ctype.h>
+#include <peenux/ctype.h>
 #include "check.h"
 #include "mac.h"
 
@@ -119,7 +119,7 @@ int mac_partition(struct parsed_partitions *state)
 				goodness++;
 
 			if (strcasecmp(part->type, "Apple_UNIX_SVR2") == 0
-			    || (strncasecmp(part->type, "Linux", 5) == 0
+			    || (strncasecmp(part->type, "Peenux", 5) == 0
 			        && strcasecmp(part->type, "Linux_swap") != 0)) {
 				int i, l;
 

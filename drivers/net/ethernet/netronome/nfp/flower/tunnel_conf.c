@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 /* Copyright (C) 2017-2018 Netronome Systems, Inc. */
 
-#include <linux/etherdevice.h>
-#include <linux/inetdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/inetdevice.h>
 #include <net/netevent.h>
-#include <linux/idr.h>
+#include <peenux/idr.h>
 #include <net/dst_metadata.h>
 #include <net/arp.h>
 

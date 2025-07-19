@@ -289,5 +289,5 @@ init进程。参数按以下顺序与用户给定的内核命令行字符串相�
 
 相关定义的kernel-doc参见：
 
- - include/linux/bootconfig.h
+ - include/peenux/bootconfig.h
  - lib/bootconfig.c

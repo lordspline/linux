@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/net/sunrpc/svcauth.c
+ * peenux/net/sunrpc/svcauth.c
  *
  * The generic interface for RPC authentication on the server side.
  *
@@ -10,15 +10,15 @@
  * 19-Apr-2000 Chris Evans      - Security fix
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/sunrpc/types.h>
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/svcauth.h>
-#include <linux/err.h>
-#include <linux/hash.h>
-#include <linux/user_namespace.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/sunrpc/types.h>
+#include <peenux/sunrpc/xdr.h>
+#include <peenux/sunrpc/svcsock.h>
+#include <peenux/sunrpc/svcauth.h>
+#include <peenux/err.h>
+#include <peenux/hash.h>
+#include <peenux/user_namespace.h>
 
 #include <trace/events/sunrpc.h>
 

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/node.h>
-#include <linux/nodemask.h>
-#include <linux/percpu.h>
+#include <peenux/acpi.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/init.h>
+#include <peenux/node.h>
+#include <peenux/nodemask.h>
+#include <peenux/percpu.h>
 #include <asm/bootinfo.h>
 
 #include <acpi/processor.h>

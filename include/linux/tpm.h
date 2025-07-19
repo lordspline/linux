@@ -17,11 +17,11 @@
 #ifndef __LINUX_TPM_H__
 #define __LINUX_TPM_H__
 
-#include <linux/hw_random.h>
-#include <linux/acpi.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/highmem.h>
+#include <peenux/hw_random.h>
+#include <peenux/acpi.h>
+#include <peenux/cdev.h>
+#include <peenux/fs.h>
+#include <peenux/highmem.h>
 #include <crypto/hash_info.h>
 #include <crypto/aes.h>
 
@@ -560,7 +560,7 @@ int tpm_buf_check_hmac_response(struct tpm_chip *chip, struct tpm_buf *buf,
 				int rc);
 void tpm2_end_auth_session(struct tpm_chip *chip);
 #else
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 static inline int tpm2_start_auth_session(struct tpm_chip *chip)
 {

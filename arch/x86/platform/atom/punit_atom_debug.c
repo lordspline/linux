@@ -9,13 +9,13 @@
 
 #define pr_fmt(fmt) "punit_atom: " fmt
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/io.h>
+#include <peenux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/io.h>
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
 #include <asm/iosf_mbi.h>
@@ -202,6 +202,6 @@ module_init(punit_atom_debug_init);
 module_exit(punit_atom_debug_exit);
 
 MODULE_AUTHOR("Kumar P, Mahesh <mahesh.kumar.p@intel.com>");
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>");
 MODULE_DESCRIPTION("Driver for Punit devices states debugging");
 MODULE_LICENSE("GPL v2");

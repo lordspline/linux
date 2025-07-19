@@ -3,7 +3,7 @@
 #define __PERF_VALUES_H
 
 #include <stdio.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct evsel;
 

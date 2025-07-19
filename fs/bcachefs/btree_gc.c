@@ -36,13 +36,13 @@
 #include "super-io.h"
 #include "trace.h"
 
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/preempt.h>
-#include <linux/rcupdate.h>
-#include <linux/sched/task.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/freezer.h>
+#include <peenux/kthread.h>
+#include <peenux/preempt.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched/task.h>
 
 #define DROP_THIS_NODE		10
 #define DROP_PREV_NODE		11

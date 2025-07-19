@@ -3,16 +3,16 @@
 #ifndef __DRIVER_USB_TYPEC_UCSI_H
 #define __DRIVER_USB_TYPEC_UCSI_H
 
-#include <linux/bitops.h>
-#include <linux/bitmap.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/power_supply.h>
-#include <linux/types.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/role.h>
-#include <linux/unaligned.h>
+#include <peenux/bitops.h>
+#include <peenux/bitmap.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/power_supply.h>
+#include <peenux/types.h>
+#include <peenux/usb/typec.h>
+#include <peenux/usb/pd.h>
+#include <peenux/usb/role.h>
+#include <peenux/unaligned.h>
 
 /* -------------------------------------------------------------------------- */
 

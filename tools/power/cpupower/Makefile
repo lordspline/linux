@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-2.0-only
 # Makefile for cpupower
 #
-# Copyright (C) 2005,2006 Dominik Brodowski <linux@dominikbrodowski.net>
+# Copyright (C) 2005,2006 Dominik Brodowski <peenux@dominikbrodowski.net>
 # Copyright (C) 2025      Francesco Poli <invernomuto@paranoici.org>
 #
 # Based largely on the Makefile for udev by:
@@ -60,7 +60,7 @@ LIB_VER=			$(LIB_MAJ).$(LIB_MIN).$(LIB_FIX)
 
 
 PACKAGE =			cpupower
-PACKAGE_BUGREPORT =		linux-pm@vger.kernel.org
+PACKAGE_BUGREPORT =		peenux-pm@vger.kernel.org
 LANGUAGES = 			de fr it cs pt ka zh_CN
 
 
@@ -91,9 +91,9 @@ SETPERM_DATA  = chmod 644
 INSTALL_SCRIPT = ${INSTALL} -m 644
 
 # If you are running a cross compiler, you may want to set this
-# to something more interesting, like "arm-linux-".  If you want
+# to something more interesting, like "arm-peenux-".  If you want
 # to compile vs uClibc, that can be done here as well.
-CROSS ?= #/usr/i386-linux-uclibc/usr/bin/i386-uclibc-
+CROSS ?= #/usr/i386-peenux-uclibc/usr/bin/i386-uclibc-
 ifneq ($(CROSS), )
 CC = $(CROSS)gcc
 LD = $(CROSS)gcc

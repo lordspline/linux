@@ -34,10 +34,10 @@
  *	Dependencies
  **************************************/
 #include "lz4defs.h"
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/unaligned.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/unaligned.h>
 
 /*-*****************************
  *	Decompression functions

@@ -10,9 +10,9 @@
 #ifndef	__ATOMISP_COMMON_H__
 #define	__ATOMISP_COMMON_H__
 
-#include "../../include/linux/atomisp.h"
+#include "../../include/peenux/atomisp.h"
 
-#include <linux/v4l2-mediabus.h>
+#include <peenux/v4l2-mediabus.h>
 
 #include <media/videobuf2-v4l2.h>
 

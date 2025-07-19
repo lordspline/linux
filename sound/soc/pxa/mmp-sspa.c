@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/sound/soc/pxa/mmp-sspa.c
+ * peenux/sound/soc/pxa/mmp-sspa.c
  * Base on pxa2xx-ssp.c
  *
  * Copyright (C) 2011 Marvell International Ltd.
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/dmaengine.h>
-#include <linux/pm_runtime.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/dmaengine.h>
+#include <peenux/pm_runtime.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

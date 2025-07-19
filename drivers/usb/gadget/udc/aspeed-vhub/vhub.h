@@ -2,8 +2,8 @@
 #ifndef __ASPEED_VHUB_H
 #define __ASPEED_VHUB_H
 
-#include <linux/usb.h>
-#include <linux/usb/ch11.h>
+#include <peenux/usb.h>
+#include <peenux/usb/ch11.h>
 
 /*****************************
  *                           *

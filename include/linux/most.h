@@ -8,8 +8,8 @@
 #ifndef __MOST_CORE_H__
 #define __MOST_CORE_H__
 
-#include <linux/types.h>
-#include <linux/device.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
 
 struct module;
 struct interface_private;

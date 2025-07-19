@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-1.0+
-/* generic HDLC line discipline for Linux
+/* generic HDLC line discipline for Peenux
  *
  * Written by Paul Fulghum paulkf@microgate.com
  * for Microgate Corporation
@@ -76,27 +76,27 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ptrace.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ptrace.h>
 
-#include <linux/poll.h>
-#include <linux/in.h>
-#include <linux/ioctl.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/string.h>	/* used in new tty drivers */
-#include <linux/signal.h>	/* used in new tty drivers */
-#include <linux/if.h>
-#include <linux/bitops.h>
+#include <peenux/poll.h>
+#include <peenux/in.h>
+#include <peenux/ioctl.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>	/* used in new tty drivers */
+#include <peenux/signal.h>	/* used in new tty drivers */
+#include <peenux/if.h>
+#include <peenux/bitops.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include "tty.h"
 
 /*

@@ -13,19 +13,19 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/highmem.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/io.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/highmem.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/io.h>
 #include "sdhci.h"
 
 struct spear_sdhci {

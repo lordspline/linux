@@ -16,25 +16,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/ktime.h>
-#include <linux/hashtable.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/processor.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
+#include <peenux/bitmap.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/idr.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-hi-lo.h>
+#include <peenux/kernel.h>
+#include <peenux/kmod.h>
+#include <peenux/ktime.h>
+#include <peenux/hashtable.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/processor.h>
+#include <peenux/refcount.h>
+#include <peenux/slab.h>
+#include <peenux/xarray.h>
 
 #include "common.h"
 #include "notify.h"

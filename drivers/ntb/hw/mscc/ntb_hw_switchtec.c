@@ -4,14 +4,14 @@
  * Copyright (c) 2017, Microsemi Corporation
  */
 
-#include <linux/interrupt.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/ntb.h>
-#include <linux/pci.h>
-#include <linux/switchtec.h>
+#include <peenux/interrupt.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/ntb.h>
+#include <peenux/pci.h>
+#include <peenux/switchtec.h>
 
 MODULE_DESCRIPTION("Microsemi Switchtec(tm) NTB Driver");
 MODULE_VERSION("0.1");

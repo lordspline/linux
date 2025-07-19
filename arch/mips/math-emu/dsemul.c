@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/mm_types.h>
-#include <linux/sched/task.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/mm_types.h>
+#include <peenux/sched/task.h>
 
 #include <asm/branch.h>
 #include <asm/cacheflush.h>
 #include <asm/fpu_emulator.h>
 #include <asm/inst.h>
 #include <asm/mipsregs.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /**
  * struct emuframe - The 'emulation' frame structure

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/acpi.h>
-#include <linux/export.h>
+#include <peenux/acpi.h>
+#include <peenux/export.h>
 
 #include "../internal.h"
 

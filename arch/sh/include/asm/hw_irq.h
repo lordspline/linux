@@ -2,9 +2,9 @@
 #ifndef __ASM_SH_HW_IRQ_H
 #define __ASM_SH_HW_IRQ_H
 
-#include <linux/init.h>
-#include <linux/sh_intc.h>
-#include <linux/atomic.h>
+#include <peenux/init.h>
+#include <peenux/sh_intc.h>
+#include <peenux/atomic.h>
 
 extern atomic_t irq_err_count;
 

@@ -2,8 +2,8 @@
 #ifndef _LINUX_LIVEPATCH_SCHED_H_
 #define _LINUX_LIVEPATCH_SCHED_H_
 
-#include <linux/jump_label.h>
-#include <linux/sched.h>
+#include <peenux/jump_label.h>
+#include <peenux/sched.h>
 
 #ifdef CONFIG_LIVEPATCH
 

@@ -2,14 +2,14 @@
 #ifndef _LINUX_HIGHMEM_H
 #define _LINUX_HIGHMEM_H
 
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/bug.h>
-#include <linux/cacheflush.h>
-#include <linux/kmsan.h>
-#include <linux/mm.h>
-#include <linux/uaccess.h>
-#include <linux/hardirq.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/bug.h>
+#include <peenux/cacheflush.h>
+#include <peenux/kmsan.h>
+#include <peenux/mm.h>
+#include <peenux/uaccess.h>
+#include <peenux/hardirq.h>
 
 #include "highmem-internal.h"
 

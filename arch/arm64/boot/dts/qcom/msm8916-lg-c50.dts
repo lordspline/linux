@@ -32,13 +32,13 @@
 		volume-up-button {
 			label = "Volume Up";
 			gpios = <&tlmm 108 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 		};
 
 		volume-down-button {
 			label = "Volume Down";
 			gpios = <&tlmm 107 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 		};
 	};
 

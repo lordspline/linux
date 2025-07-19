@@ -2,24 +2,24 @@
 /*
  *
  * Copyright (C) 2001, 2002, 2003 Broadcom Corporation
- * Copyright (C) 2007 Ralf Baechle <ralf@linux-mips.org>
+ * Copyright (C) 2007 Ralf Baechle <ralf@peenux-mips.org>
  * Copyright (C) 2007 MIPS Technologies, Inc.
- *    written by Ralf Baechle <ralf@linux-mips.org>
+ *    written by Ralf Baechle <ralf@peenux-mips.org>
  */
 
 #undef DEBUG
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/errno.h>
+#include <peenux/wait.h>
 #include <asm/io.h>
 #include <asm/sibyte/sb1250.h>
 
@@ -42,7 +42,7 @@
 #define K_INT_PERF_CNT K_BCM1480_INT_PERF_CNT
 #endif
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #define SBPROF_TB_MAJOR 240
 
@@ -588,6 +588,6 @@ module_init(sbprof_tb_init);
 module_exit(sbprof_tb_cleanup);
 
 MODULE_ALIAS_CHARDEV_MAJOR(SBPROF_TB_MAJOR);
-MODULE_AUTHOR("Ralf Baechle <ralf@linux-mips.org>");
+MODULE_AUTHOR("Ralf Baechle <ralf@peenux-mips.org>");
 MODULE_DESCRIPTION("Support for ZBbus profiling");
 MODULE_LICENSE("GPL");

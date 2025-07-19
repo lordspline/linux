@@ -13,8 +13,8 @@
 #include "arch.h"
 #include "sys.h"
 
-#include <linux/poll.h>
-#include <linux/time.h>
+#include <peenux/poll.h>
+#include <peenux/time.h>
 
 /*
  * int poll(struct pollfd *fds, int nfds, int timeout);

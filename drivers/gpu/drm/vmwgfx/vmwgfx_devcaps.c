@@ -25,7 +25,7 @@
  *
  **************************************************************************/
 
-#include <linux/vmalloc.h>
+#include <peenux/vmalloc.h>
 #include "vmwgfx_devcaps.h"
 
 #include "vmwgfx_drv.h"

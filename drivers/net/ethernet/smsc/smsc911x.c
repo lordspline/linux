@@ -18,36 +18,36 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/crc32.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/bug.h>
-#include <linux/bitops.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/swab.h>
-#include <linux/phy.h>
-#include <linux/smsc911x.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/acpi.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/crc32.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/sched.h>
+#include <peenux/timer.h>
+#include <peenux/bug.h>
+#include <peenux/bitops.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/swab.h>
+#include <peenux/phy.h>
+#include <peenux/smsc911x.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/acpi.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/gpio/consumer.h>
 
 #include "smsc911x.h"
 

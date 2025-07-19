@@ -3,8 +3,8 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/log2.h>
-#include <linux/math64.h>
+#include <peenux/log2.h>
+#include <peenux/math64.h>
 
 #include <drm/drm_print.h>
 

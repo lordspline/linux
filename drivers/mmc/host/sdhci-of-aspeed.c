@@ -2,18 +2,18 @@
 /* Copyright (C) 2019 ASPEED Technology Inc. */
 /* Copyright (C) 2019 IBM Corp. */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/math64.h>
-#include <linux/mmc/host.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/math64.h>
+#include <peenux/mmc/host.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
 #include "sdhci-pltfm.h"
 

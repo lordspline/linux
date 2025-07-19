@@ -7,14 +7,14 @@
  * Datasheet: http://cds.linear.com/docs/en/datasheet/2497fd.pdf
  */
 
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/driver.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "ltc2497.h"
 

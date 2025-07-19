@@ -5,19 +5,19 @@
  *			 <benh@kernel.crashing.org>
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/slab.h>
-#include <linux/user.h>
-#include <linux/elf.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/vdso_datastore.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/slab.h>
+#include <peenux/user.h>
+#include <peenux/elf.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/vdso_datastore.h>
 #include <vdso/datapage.h>
 
 #include <asm/syscall.h>

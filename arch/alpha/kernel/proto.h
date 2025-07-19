@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/interrupt.h>
-#include <linux/screen_info.h>
-#include <linux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/screen_info.h>
+#include <peenux/io.h>
 
 /* Prototypes of functions used across modules here in this directory.  */
 

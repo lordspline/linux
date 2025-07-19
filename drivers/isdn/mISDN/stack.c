@@ -6,12 +6,12 @@
  * Copyright 2008  by Karsten Keil <kkeil@novell.com>
  */
 
-#include <linux/slab.h>
-#include <linux/mISDNif.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/sched/cputime.h>
-#include <linux/signal.h>
+#include <peenux/slab.h>
+#include <peenux/mISDNif.h>
+#include <peenux/kthread.h>
+#include <peenux/sched.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/signal.h>
 
 #include "core.h"
 

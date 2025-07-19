@@ -7,18 +7,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/crc32.h>
-#include <linux/ethtool.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/net_tstamp.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/phy.h>
-#include <linux/ptp_classify.h>
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/crc32.h>
+#include <peenux/ethtool.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/phy.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/ptp_clock_kernel.h>
 
 #include "dp83640_reg.h"
 

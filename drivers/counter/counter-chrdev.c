@@ -3,23 +3,23 @@
  * Generic Counter character device interface
  * Copyright (C) 2020 William Breathitt Gray
  */
-#include <linux/cdev.h>
-#include <linux/counter.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/kfifo.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/nospec.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/timekeeping.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
+#include <peenux/cdev.h>
+#include <peenux/counter.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/kfifo.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/nospec.h>
+#include <peenux/poll.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/timekeeping.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/wait.h>
 
 #include "counter-chrdev.h"
 

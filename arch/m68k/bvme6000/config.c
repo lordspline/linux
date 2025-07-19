@@ -6,23 +6,23 @@
  *
  * Based on:
  *
- *  linux/amiga/config.c
+ *  peenux/amiga/config.c
  *
  *  Copyright (C) 1993 Hamish Macdonald
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/clocksource.h>
-#include <linux/console.h>
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/major.h>
-#include <linux/rtc.h>
-#include <linux/interrupt.h>
-#include <linux/bcd.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/tty.h>
+#include <peenux/clocksource.h>
+#include <peenux/console.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/major.h>
+#include <peenux/rtc.h>
+#include <peenux/interrupt.h>
+#include <peenux/bcd.h>
 
 #include <asm/bootinfo.h>
 #include <asm/bootinfo-vme.h>

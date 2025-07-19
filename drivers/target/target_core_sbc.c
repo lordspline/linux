@@ -7,12 +7,12 @@
  * Nicholas A. Bellinger <nab@kernel.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/ratelimit.h>
-#include <linux/crc-t10dif.h>
-#include <linux/t10-pi.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/ratelimit.h>
+#include <peenux/crc-t10dif.h>
+#include <peenux/t10-pi.h>
+#include <peenux/unaligned.h>
 #include <scsi/scsi_proto.h>
 #include <scsi/scsi_tcq.h>
 

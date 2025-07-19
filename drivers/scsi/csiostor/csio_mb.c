@@ -1,5 +1,5 @@
 /*
- * This file is part of the Chelsio FCoE driver for Linux.
+ * This file is part of the Chelsio FCoE driver for Peenux.
  *
  * Copyright (c) 2008-2012 Chelsio Communications, Inc. All rights reserved.
  *
@@ -32,9 +32,9 @@
  * SOFTWARE.
  */
 
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/string.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/string.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_transport_fc.h>
 

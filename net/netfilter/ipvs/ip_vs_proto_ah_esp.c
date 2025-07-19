@@ -9,12 +9,12 @@
 #define KMSG_COMPONENT "IPVS"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv4.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv4.h>
 
 #include <net/ip_vs.h>
 

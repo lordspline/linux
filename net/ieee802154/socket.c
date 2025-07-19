@@ -9,15 +9,15 @@
  * Maxim Gorbachyov <maxim.gorbachev@siemens.com>
  */
 
-#include <linux/net.h>
-#include <linux/capability.h>
-#include <linux/module.h>
-#include <linux/if_arp.h>
-#include <linux/if.h>
-#include <linux/termios.h>	/* For TIOCOUTQ/INQ */
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/socket.h>
+#include <peenux/net.h>
+#include <peenux/capability.h>
+#include <peenux/module.h>
+#include <peenux/if_arp.h>
+#include <peenux/if.h>
+#include <peenux/termios.h>	/* For TIOCOUTQ/INQ */
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/socket.h>
 #include <net/datalink.h>
 #include <net/psnap.h>
 #include <net/sock.h>

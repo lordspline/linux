@@ -9,18 +9,18 @@
  *     Mode 1 (High-Active, Shift-Then-Sample), High Avtive CS
  */
 
-#include <linux/bcd.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/rtc.h>
-#include <linux/workqueue.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
+#include <peenux/bcd.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/rtc.h>
+#include <peenux/workqueue.h>
+#include <peenux/spi/spi.h>
+#include <peenux/module.h>
 
 #define RS5C348_REG_SECS	0
 #define RS5C348_REG_MINS	1

@@ -2,7 +2,7 @@
 #ifndef LINUX_PR_H
 #define LINUX_PR_H
 
-#include <uapi/linux/pr.h>
+#include <uapi/peenux/pr.h>
 
 struct pr_keys {
 	u32	generation;

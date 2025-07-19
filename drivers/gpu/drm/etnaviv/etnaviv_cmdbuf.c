@@ -3,7 +3,7 @@
  * Copyright (C) 2017-2018 Etnaviv Project
  */
 
-#include <linux/dma-mapping.h>
+#include <peenux/dma-mapping.h>
 
 #include "etnaviv_cmdbuf.h"
 #include "etnaviv_gem.h"

@@ -13,15 +13,15 @@
 #ifndef __LINUX_DMA_FENCE_H
 #define __LINUX_DMA_FENCE_H
 
-#include <linux/err.h>
-#include <linux/wait.h>
-#include <linux/list.h>
-#include <linux/bitops.h>
-#include <linux/kref.h>
-#include <linux/sched.h>
-#include <linux/printk.h>
-#include <linux/rcupdate.h>
-#include <linux/timekeeping.h>
+#include <peenux/err.h>
+#include <peenux/wait.h>
+#include <peenux/list.h>
+#include <peenux/bitops.h>
+#include <peenux/kref.h>
+#include <peenux/sched.h>
+#include <peenux/printk.h>
+#include <peenux/rcupdate.h>
+#include <peenux/timekeeping.h>
 
 struct dma_fence;
 struct dma_fence_ops;

@@ -3,8 +3,8 @@
 #ifndef _FUN_QEUEUE_H
 #define _FUN_QEUEUE_H
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
 
 struct device;
 struct fun_dev;

@@ -12,9 +12,9 @@
 #ifndef LINUX_HWRANDOM_H_
 #define LINUX_HWRANDOM_H_
 
-#include <linux/completion.h>
-#include <linux/kref.h>
-#include <linux/types.h>
+#include <peenux/completion.h>
+#include <peenux/kref.h>
+#include <peenux/types.h>
 
 /**
  * struct hwrng - Hardware Random Number Generator driver

@@ -3,9 +3,9 @@
  *  ATI Mach64 CT/VT/GT/LT Cursor Support
  */
 
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/string.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
 
 #include <asm/io.h>
 

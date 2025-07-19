@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/component.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/component.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

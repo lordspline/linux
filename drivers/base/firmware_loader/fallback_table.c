@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/types.h>
-#include <linux/kconfig.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/security.h>
-#include <linux/highmem.h>
-#include <linux/umh.h>
-#include <linux/sysctl.h>
+#include <peenux/types.h>
+#include <peenux/kconfig.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/security.h>
+#include <peenux/highmem.h>
+#include <peenux/umh.h>
+#include <peenux/sysctl.h>
 
 #include "fallback.h"
 #include "firmware.h"

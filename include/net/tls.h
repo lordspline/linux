@@ -34,20 +34,20 @@
 #ifndef _TLS_OFFLOAD_H
 #define _TLS_OFFLOAD_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
-#include <linux/crypto.h>
-#include <linux/socket.h>
-#include <linux/tcp.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/rcupdate.h>
+#include <peenux/crypto.h>
+#include <peenux/socket.h>
+#include <peenux/tcp.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/rcupdate.h>
 
 #include <net/net_namespace.h>
 #include <net/tcp.h>
 #include <net/strparser.h>
 #include <crypto/aead.h>
-#include <uapi/linux/tls.h>
+#include <uapi/peenux/tls.h>
 
 struct tls_rec;
 

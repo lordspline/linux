@@ -5,15 +5,15 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/proc_fs.h>
-#include <linux/proc_ns.h>
-#include <linux/refcount.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
-#include <linux/binfmts.h>
-#include <linux/sched/coredump.h>
-#include <linux/sched/task.h>
-#include <linux/mm.h>
+#include <peenux/proc_fs.h>
+#include <peenux/proc_ns.h>
+#include <peenux/refcount.h>
+#include <peenux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/binfmts.h>
+#include <peenux/sched/coredump.h>
+#include <peenux/sched/task.h>
+#include <peenux/mm.h>
 
 struct ctl_table_header;
 struct mempolicy;

@@ -4,18 +4,18 @@
  *
  * Qualcomm MSM Camera Subsystem - CSID (CSI Decoder) Module
  *
- * Copyright (c) 2011-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2015, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2015-2018 Linaro Ltd.
  */
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
 #include <media/media-entity.h>
 #include <media/mipi-csi2.h>
 #include <media/v4l2-device.h>

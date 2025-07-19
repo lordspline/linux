@@ -25,8 +25,8 @@
  * Authors: Christian König <christian.koenig@amd.com>
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
 
 #include <drm/drm.h>
 

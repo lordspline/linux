@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/include/linux/clk.h
+ *  peenux/include/peenux/clk.h
  *
  *  Copyright (C) 2004 ARM Limited.
  *  Written by Deep Blue Solutions Limited.
@@ -9,9 +9,9 @@
 #ifndef __LINUX_CLK_H
 #define __LINUX_CLK_H
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/notifier.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/notifier.h>
 
 struct device;
 struct clk;

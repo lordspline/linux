@@ -4,16 +4,16 @@
  * which don't implement their own.
  */
 
-#include <linux/kernel.h>
-#include <linux/buildid.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/smp.h>
-#include <linux/atomic.h>
-#include <linux/kexec.h>
-#include <linux/utsname.h>
-#include <linux/stop_machine.h>
+#include <peenux/kernel.h>
+#include <peenux/buildid.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/smp.h>
+#include <peenux/atomic.h>
+#include <peenux/kexec.h>
+#include <peenux/utsname.h>
+#include <peenux/stop_machine.h>
 
 static char dump_stack_arch_desc_str[128];
 

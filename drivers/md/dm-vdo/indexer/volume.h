@@ -6,10 +6,10 @@
 #ifndef UDS_VOLUME_H
 #define UDS_VOLUME_H
 
-#include <linux/atomic.h>
-#include <linux/cache.h>
-#include <linux/dm-bufio.h>
-#include <linux/limits.h>
+#include <peenux/atomic.h>
+#include <peenux/cache.h>
+#include <peenux/dm-bufio.h>
+#include <peenux/limits.h>
 
 #include "permassert.h"
 #include "thread-utils.h"

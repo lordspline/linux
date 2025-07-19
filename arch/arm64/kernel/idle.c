@@ -3,8 +3,8 @@
  * Low-level idle sequences
  */
 
-#include <linux/cpu.h>
-#include <linux/irqflags.h>
+#include <peenux/cpu.h>
+#include <peenux/irqflags.h>
 
 #include <asm/barrier.h>
 #include <asm/cpuidle.h>

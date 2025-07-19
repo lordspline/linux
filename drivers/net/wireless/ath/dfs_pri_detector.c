@@ -14,8 +14,8 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #include "ath.h"
 #include "dfs_pattern_detector.h"

@@ -10,16 +10,16 @@
 #ifndef __CS35L41_HDA_H__
 #define __CS35L41_HDA_H__
 
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/device.h>
+#include <peenux/acpi.h>
+#include <peenux/efi.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/device.h>
 #include <sound/cs35l41.h>
 #include <sound/cs-amp-lib.h>
 
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/wmfw.h>
+#include <peenux/firmware/cirrus/cs_dsp.h>
+#include <peenux/firmware/cirrus/wmfw.h>
 
 #define CS35L41_MAX_ACCEPTABLE_SPI_SPEED_HZ	1000000
 #define DEFAULT_AMP_GAIN_PCM			17	/* 17.5dB Gain */

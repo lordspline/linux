@@ -6,11 +6,11 @@
  *  Copyright 2007 Sony Corp.
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/uaccess.h>
 #include <asm/smp.h>
 #include <asm/time.h>
 #include <asm/ps3.h>

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/cpu.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
 #include <asm/bugs.h>
 #include <asm/proc-fns.h>
 

@@ -3,12 +3,12 @@
 #ifndef _NF_CONNTRACK_PPTP_H
 #define _NF_CONNTRACK_PPTP_H
 
-#include <linux/netfilter.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <linux/netfilter/nf_conntrack_common.h>
+#include <peenux/netfilter.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
+#include <peenux/netfilter/nf_conntrack_common.h>
 #include <net/netfilter/nf_conntrack_expect.h>
-#include <uapi/linux/netfilter/nf_conntrack_tuple_common.h>
+#include <uapi/peenux/netfilter/nf_conntrack_tuple_common.h>
 
 const char *pptp_msg_name(u_int16_t msg);
 

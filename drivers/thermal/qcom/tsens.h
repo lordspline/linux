@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Peenux Foundation. All rights reserved.
  */
 
 #ifndef __QCOM_TSENS_H__
@@ -22,10 +22,10 @@
 
 #define MAX_SENSORS 16
 
-#include <linux/interrupt.h>
-#include <linux/thermal.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/thermal.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 struct tsens_priv;
 

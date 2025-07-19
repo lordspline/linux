@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2010 OMICRON electronics GmbH
  */
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/posix-clock.h>
-#include <linux/pps_kernel.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
-#include <linux/debugfs.h>
-#include <linux/xarray.h>
-#include <uapi/linux/sched/types.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/posix-clock.h>
+#include <peenux/pps_kernel.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
+#include <peenux/uaccess.h>
+#include <peenux/debugfs.h>
+#include <peenux/xarray.h>
+#include <uapi/peenux/sched/types.h>
 
 #include "ptp_private.h"
 

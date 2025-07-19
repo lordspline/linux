@@ -4,15 +4,15 @@
  * Copyright (C) 2012 ARM Limited
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
 
 #define SYS_ID			0x000
 #define SYS_SW			0x004

@@ -9,11 +9,11 @@
  * Dan Scally <djrscally@gmail.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/property.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/property.h>
 
 #include <media/ipu-bridge.h>
 #include <media/v4l2-fwnode.h>

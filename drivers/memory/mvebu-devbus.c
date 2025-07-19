@@ -6,16 +6,16 @@
  * Copyright (C) 2013-2014 Marvell
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/mbus.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/mbus.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 
 /* Register definitions */
 #define ARMADA_DEV_WIDTH_SHIFT		30

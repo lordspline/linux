@@ -6,20 +6,20 @@
  *          Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/atomic.h>
-#include <linux/bits.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/quirks.h>
-#include <linux/usb/uvc.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
-#include <linux/unaligned.h>
+#include <peenux/atomic.h>
+#include <peenux/bits.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/usb/quirks.h>
+#include <peenux/usb/uvc.h>
+#include <peenux/videodev2.h>
+#include <peenux/vmalloc.h>
+#include <peenux/wait.h>
+#include <peenux/unaligned.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
@@ -2260,7 +2260,7 @@ static int uvc_probe(struct usb_interface *intf,
 			 "Forcing device quirks to 0x%x by module parameter for testing purpose.\n",
 			 dev->quirks);
 		dev_info(&dev->udev->dev,
-			 "Please report required quirks to the linux-media mailing list.\n");
+			 "Please report required quirks to the peenux-media mailing list.\n");
 	}
 
 	if (dev->info->uvc_version) {

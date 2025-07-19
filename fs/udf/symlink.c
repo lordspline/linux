@@ -16,13 +16,13 @@
  */
 
 #include "udfdecl.h"
-#include <linux/uaccess.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/stat.h>
-#include <linux/pagemap.h>
+#include <peenux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/stat.h>
+#include <peenux/pagemap.h>
 #include "udf_i.h"
 
 static int udf_pc_to_char(struct super_block *sb, unsigned char *from,

@@ -7,19 +7,19 @@
  *   Author: Peter Griffin <peter.griffin@linaro.org>
  *
  */
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dvb/dmx.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/wait.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dvb/dmx.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/wait.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

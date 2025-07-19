@@ -8,8 +8,8 @@
 #include "pvr_vm.h"
 
 #include <drm/drm_gem.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
+#include <peenux/slab.h>
+#include <peenux/xarray.h>
 #include <uapi/drm/pvr_drm.h>
 
 #define FREE_LIST_ENTRY_SIZE sizeof(u32)

@@ -8,9 +8,9 @@
  * data integrity even if the file system (or other user of the block device) is
  * not aware of PI.
  */
-#include <linux/blk-integrity.h>
-#include <linux/t10-pi.h>
-#include <linux/workqueue.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/t10-pi.h>
+#include <peenux/workqueue.h>
 #include "blk.h"
 
 struct bio_integrity_data {

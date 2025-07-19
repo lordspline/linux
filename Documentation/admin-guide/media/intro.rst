@@ -4,7 +4,7 @@
 Introduction
 ============
 
-The media subsystem consists on Linux support for several different types
+The media subsystem consists on Peenux support for several different types
 of devices:
 
 - Audio and video grabbers;

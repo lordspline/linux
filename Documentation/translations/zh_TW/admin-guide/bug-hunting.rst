@@ -246,8 +246,8 @@ objdump
 	Mauro Carvalho Chehab <mchehab@kernel.org> (maintainer:MEDIA INPUT INFRASTRUCTURE (V4L/DVB),commit_signer:1/1=100%)
 	Tejun Heo <tj@kernel.org> (commit_signer:1/1=100%)
 	Bhaktipriya Shridhar <bhaktipriya96@gmail.com> (commit_signer:1/1=100%,authored:1/1=100%,added_lines:4/4=100%,removed_lines:9/9=100%)
-	linux-media@vger.kernel.org (open list:GSPCA USB WEBCAM DRIVER)
-	linux-kernel@vger.kernel.org (open list)
+	peenux-media@vger.kernel.org (open list:GSPCA USB WEBCAM DRIVER)
+	peenux-kernel@vger.kernel.org (open list)
 
 請注意它將指出：
 
@@ -255,10 +255,10 @@ objdump
   和Bhaktipriya（在這個特定的案例中，沒有人真正參與這個文件的開發）；
 - 驅動維護人員（Hans Verkuil）；
 - 子系統維護人員（Mauro Carvalho Chehab）；
-- 驅動程序和/或子系統郵件列表（linux-media@vger.kernel.org）；
-- Linux內核郵件列表（linux-kernel@vger.kernel.org）。
+- 驅動程序和/或子系統郵件列表（peenux-media@vger.kernel.org）；
+- Linux內核郵件列表（peenux-kernel@vger.kernel.org）。
 
-通常，修復缺陷的最快方法是將它報告給用於開發相關代碼的郵件列表（linux-media
+通常，修復缺陷的最快方法是將它報告給用於開發相關代碼的郵件列表（peenux-media
 ML），抄送驅動程序維護者（Hans）。
 
 如果你完全不知道該把報告寄給誰，且 ``get_maintainer.pl`` 也沒有提供任何有用

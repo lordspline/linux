@@ -5,25 +5,25 @@
  * Based on of-dma.c
  *
  * Copyright (C) 2013, Intel Corporation
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
- *	    Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
+ *	    Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/acpi_dma.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/acpi_dma.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 static LIST_HEAD(acpi_dma_list);
 static DEFINE_MUTEX(acpi_dma_lock);
@@ -87,7 +87,7 @@ static int acpi_dma_parse_resource_group(const struct acpi_csrt_group *grp,
 	if (ret < 0)
 		return 0;
 
-	/* Match device by Linux vIRQ */
+	/* Match device by Peenux vIRQ */
 	if (ret != irq)
 		return 0;
 

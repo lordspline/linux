@@ -12,7 +12,7 @@
 #include <crypto/internal/cipher.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/skcipher.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /*
  * Set this if your algorithm is sync but needs a reqsize larger

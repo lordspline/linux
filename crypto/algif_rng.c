@@ -38,12 +38,12 @@
  * DAMAGE.
  */
 
-#include <linux/capability.h>
-#include <linux/module.h>
+#include <peenux/capability.h>
+#include <peenux/module.h>
 #include <crypto/rng.h>
-#include <linux/random.h>
+#include <peenux/random.h>
 #include <crypto/if_alg.h>
-#include <linux/net.h>
+#include <peenux/net.h>
 #include <net/sock.h>
 
 MODULE_LICENSE("GPL");

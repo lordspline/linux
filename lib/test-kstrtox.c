@@ -1,6 +1,6 @@
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #define for_each_test(i, test)	\
 	for (i = 0; i < ARRAY_SIZE(test); i++)

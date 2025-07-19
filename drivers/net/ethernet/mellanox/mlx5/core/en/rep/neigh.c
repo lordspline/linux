@@ -1,13 +1,13 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /* Copyright (c) 2020 Mellanox Technologies. */
 
-#include <linux/refcount.h>
-#include <linux/list.h>
-#include <linux/rculist.h>
-#include <linux/rtnetlink.h>
-#include <linux/workqueue.h>
-#include <linux/spinlock.h>
-#include <linux/notifier.h>
+#include <peenux/refcount.h>
+#include <peenux/list.h>
+#include <peenux/rculist.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/workqueue.h>
+#include <peenux/spinlock.h>
+#include <peenux/notifier.h>
 #include <net/netevent.h>
 #include <net/arp.h>
 #include "neigh.h"

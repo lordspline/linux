@@ -7,14 +7,14 @@
  * Enter bugs at http://blackfin.uclinux.org/
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
 
 #define AD5398_SW_POWER_DOWN	BIT(15)
 

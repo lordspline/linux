@@ -4,7 +4,7 @@
  * Author: Hugues Fruchet <hugues.fruchet@st.com> for STMicroelectronics.
  */
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 
 #include "delta.h"
 #include "delta-ipc.h"

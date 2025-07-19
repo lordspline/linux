@@ -7,18 +7,18 @@
  *  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
 
-#include <linux/usb.h>
-#include <linux/iio/iio.h>
+#include <peenux/usb.h>
+#include <peenux/iio/iio.h>
 
-#include <linux/mfd/viperboard.h>
+#include <peenux/mfd/viperboard.h>
 
 #define VPRBRD_ADC_CMD_GET		0x00
 

@@ -6,12 +6,12 @@
  *  Copyright 2007 Sony Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/notifier.h>
-#include <linux/ioctl.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/notifier.h>
+#include <peenux/ioctl.h>
+#include <peenux/slab.h>
 
 #include <asm/firmware.h>
 #include <asm/ps3av.h>

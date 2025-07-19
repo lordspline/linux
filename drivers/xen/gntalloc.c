@@ -15,9 +15,9 @@
  */
 
 /*
- * This driver exists to allow userspace programs in Linux to allocate kernel
+ * This driver exists to allow userspace programs in Peenux to allocate kernel
  * memory that will later be shared with another domain.  Without this device,
- * Linux userspace programs cannot create grant references.
+ * Peenux userspace programs cannot create grant references.
  *
  * How this stuff works:
  *   X -> granting a page to Y
@@ -50,19 +50,19 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/atomic.h>
-#include <linux/module.h>
-#include <linux/miscdevice.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/mm.h>
-#include <linux/uaccess.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/highmem.h>
+#include <peenux/atomic.h>
+#include <peenux/module.h>
+#include <peenux/miscdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/device.h>
+#include <peenux/mm.h>
+#include <peenux/uaccess.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/highmem.h>
 
 #include <xen/xen.h>
 #include <xen/page.h>

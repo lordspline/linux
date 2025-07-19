@@ -10,12 +10,12 @@
  *  Modified: 2004, Oct     Szabolcs Gyurko
  */
 
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/string_helpers.h>
+#include <peenux/ctype.h>
+#include <peenux/device.h>
+#include <peenux/power_supply.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/string_helpers.h>
 
 #include "power_supply.h"
 

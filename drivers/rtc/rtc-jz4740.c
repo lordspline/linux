@@ -5,20 +5,20 @@
  *	 JZ4740 SoC RTC driver
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/property.h>
-#include <linux/reboot.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/property.h>
+#include <peenux/reboot.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #define JZ_REG_RTC_CTRL		0x00
 #define JZ_REG_RTC_SEC		0x04

@@ -24,8 +24,8 @@
 #ifndef DRM_SCHEDULER_SPSC_QUEUE_H_
 #define DRM_SCHEDULER_SPSC_QUEUE_H_
 
-#include <linux/atomic.h>
-#include <linux/preempt.h>
+#include <peenux/atomic.h>
+#include <peenux/preempt.h>
 
 /** SPSC lockless queue */
 

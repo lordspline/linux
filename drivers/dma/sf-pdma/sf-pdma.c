@@ -13,15 +13,15 @@
  *   SiFive FU540-C000 v1.0
  *   https://static.dev.sifive.com/FU540-C000-v1.0.pdf
  */
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/slab.h>
 
 #include "sf-pdma.h"
 

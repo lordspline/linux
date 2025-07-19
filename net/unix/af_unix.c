@@ -77,38 +77,38 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bpf-cgroup.h>
-#include <linux/btf_ids.h>
-#include <linux/dcache.h>
-#include <linux/errno.h>
-#include <linux/fcntl.h>
-#include <linux/file.h>
-#include <linux/filter.h>
-#include <linux/fs.h>
-#include <linux/fs_struct.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/net.h>
-#include <linux/pidfs.h>
-#include <linux/poll.h>
-#include <linux/proc_fs.h>
-#include <linux/sched/signal.h>
-#include <linux/security.h>
-#include <linux/seq_file.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/socket.h>
-#include <linux/splice.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/btf_ids.h>
+#include <peenux/dcache.h>
+#include <peenux/errno.h>
+#include <peenux/fcntl.h>
+#include <peenux/file.h>
+#include <peenux/filter.h>
+#include <peenux/fs.h>
+#include <peenux/fs_struct.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/net.h>
+#include <peenux/pidfs.h>
+#include <peenux/poll.h>
+#include <peenux/proc_fs.h>
+#include <peenux/sched/signal.h>
+#include <peenux/security.h>
+#include <peenux/seq_file.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/socket.h>
+#include <peenux/splice.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
 #include <net/af_unix.h>
 #include <net/net_namespace.h>
 #include <net/scm.h>
 #include <net/tcp_states.h>
-#include <uapi/linux/sockios.h>
-#include <uapi/linux/termios.h>
+#include <uapi/peenux/sockios.h>
+#include <uapi/peenux/termios.h>
 
 #include "af_unix.h"
 
@@ -738,7 +738,7 @@ static void unix_release_sock(struct sock *sk, int embrion)
 
 	/*
 	 * Fixme: BSD difference: In BSD all sockets connected to us get
-	 *	  ECONNRESET and we die on the spot. In Linux we behave
+	 *	  ECONNRESET and we die on the spot. In Peenux we behave
 	 *	  like files and pipes do and wait for the last
 	 *	  dereference.
 	 *

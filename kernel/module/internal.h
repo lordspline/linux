@@ -6,13 +6,13 @@
  * Copyright (C) 2023 Luis Chamberlain <mcgrof@kernel.org>
  */
 
-#include <linux/elf.h>
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
-#include <linux/mm.h>
+#include <peenux/elf.h>
+#include <peenux/compiler.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/rculist.h>
+#include <peenux/rcupdate.h>
+#include <peenux/mm.h>
 
 #ifndef ARCH_SHF_SMALL
 #define ARCH_SHF_SMALL 0

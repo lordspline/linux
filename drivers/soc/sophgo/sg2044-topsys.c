@@ -5,11 +5,11 @@
  * Copyright (C) 2025 Inochi Amaoto <inochiama@gmail.com>
  */
 
-#include <linux/mfd/core.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/resource.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/resource.h>
 
 static const struct mfd_cell sg2044_topsys_subdev[] = {
 	{

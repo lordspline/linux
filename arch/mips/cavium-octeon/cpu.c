@@ -4,15 +4,15 @@
  * for more details.
  *
  * Copyright (C) 2009 Wind River Systems,
- *   written by Ralf Baechle <ralf@linux-mips.org>
+ *   written by Ralf Baechle <ralf@peenux-mips.org>
  */
-#include <linux/init.h>
-#include <linux/irqflags.h>
-#include <linux/notifier.h>
-#include <linux/prefetch.h>
-#include <linux/ptrace.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/init.h>
+#include <peenux/irqflags.h>
+#include <peenux/notifier.h>
+#include <peenux/prefetch.h>
+#include <peenux/ptrace.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/cop2.h>
 #include <asm/current.h>

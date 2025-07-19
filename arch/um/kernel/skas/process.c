@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  */
 
-#include <linux/init.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/task.h>
+#include <peenux/init.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/sched/task.h>
 
 #include <asm/tlbflush.h>
 

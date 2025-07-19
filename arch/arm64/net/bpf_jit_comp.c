@@ -7,13 +7,13 @@
 
 #define pr_fmt(fmt) "bpf_jit: " fmt
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/bpf.h>
-#include <linux/filter.h>
-#include <linux/memory.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/bitfield.h>
+#include <peenux/bpf.h>
+#include <peenux/filter.h>
+#include <peenux/memory.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
 
 #include <asm/asm-extable.h>
 #include <asm/byteorder.h>

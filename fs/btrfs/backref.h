@@ -6,12 +6,12 @@
 #ifndef BTRFS_BACKREF_H
 #define BTRFS_BACKREF_H
 
-#include <linux/types.h>
-#include <linux/rbtree.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <uapi/linux/btrfs.h>
-#include <uapi/linux/btrfs_tree.h>
+#include <peenux/types.h>
+#include <peenux/rbtree.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <uapi/peenux/btrfs.h>
+#include <uapi/peenux/btrfs_tree.h>
 #include "messages.h"
 #include "locking.h"
 #include "disk-io.h"

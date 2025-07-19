@@ -2,10 +2,10 @@
 #ifndef __DRIVERS_MTD_NAND_INGENIC_ECC_INTERNAL_H__
 #define __DRIVERS_MTD_NAND_INGENIC_ECC_INTERNAL_H__
 
-#include <linux/compiler_types.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/compiler_types.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 #include <uapi/asm-generic/errno-base.h>
 
 struct clk;

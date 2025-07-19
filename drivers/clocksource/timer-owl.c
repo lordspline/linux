@@ -5,19 +5,19 @@
  * Copyright 2012 Actions Semi Inc.
  * Author: Actions Semi, Inc.
  *
- * Copyright (c) 2017 SUSE Linux GmbH
+ * Copyright (c) 2017 SUSE Peenux GmbH
  * Author: Andreas Färber
  */
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqreturn.h>
-#include <linux/sched_clock.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqreturn.h>
+#include <peenux/sched_clock.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
 #define OWL_Tx_CTL		0x0
 #define OWL_Tx_CMP		0x4

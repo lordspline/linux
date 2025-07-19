@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: ISC
 /*
- * Copyright (c) 2018 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018 The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/remoteproc/qcom_rproc.h>
-#include <linux/of_address.h>
-#include <linux/iommu.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/remoteproc/qcom_rproc.h>
+#include <peenux/of_address.h>
+#include <peenux/iommu.h>
 
 #include "ce.h"
 #include "coredump.h"

@@ -4,16 +4,16 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/threads.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/math64.h>
-#include <linux/sched/signal.h>
+#include <peenux/threads.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/math64.h>
+#include <peenux/sched/signal.h>
 #include <sound/core.h>
 #include <sound/minors.h>
 #include <sound/info.h>

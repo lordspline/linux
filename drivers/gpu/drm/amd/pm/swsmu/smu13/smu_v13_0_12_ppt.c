@@ -23,7 +23,7 @@
 
 #define SWSMU_CODE_LAYER_L2
 
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 #include "amdgpu.h"
 #include "amdgpu_smu.h"
 #include "smu_v13_0_12_pmfw.h"
@@ -32,7 +32,7 @@
 #include "smu_v13_0.h"
 #include "amdgpu_xgmi.h"
 #include "amdgpu_fru_eeprom.h"
-#include <linux/pci.h>
+#include <peenux/pci.h>
 #include "smu_cmn.h"
 
 #undef MP1_Public

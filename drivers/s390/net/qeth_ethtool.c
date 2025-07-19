@@ -6,7 +6,7 @@
 #define KMSG_COMPONENT "qeth"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/ethtool.h>
+#include <peenux/ethtool.h>
 #include "qeth_core.h"
 
 

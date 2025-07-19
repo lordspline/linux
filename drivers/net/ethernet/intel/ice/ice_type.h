@@ -18,7 +18,7 @@
 #include "ice_sbq_cmd.h"
 #include "ice_vlan_mode.h"
 #include "ice_fwlog.h"
-#include <linux/wait.h>
+#include <peenux/wait.h>
 #include <net/dscp.h>
 
 static inline bool ice_is_tc_ena(unsigned long bitmap, u8 tc)

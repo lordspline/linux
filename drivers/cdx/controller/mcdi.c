@@ -5,24 +5,24 @@
  * Copyright 2008-2013 Solarflare Communications Inc.
  * Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
  */
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/rwsem.h>
-#include <linux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_vlan.h>
+#include <peenux/timer.h>
+#include <peenux/list.h>
+#include <peenux/pci.h>
+#include <peenux/device.h>
+#include <peenux/rwsem.h>
+#include <peenux/vmalloc.h>
 #include <net/netevent.h>
-#include <linux/log2.h>
-#include <linux/net_tstamp.h>
-#include <linux/wait.h>
+#include <peenux/log2.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/wait.h>
 
 #include "bitfield.h"
 #include "mcdi.h"

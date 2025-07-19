@@ -27,17 +27,17 @@
  *  Imre Kaloz <kaloz@openwrt.org>
  */
 
-#include <linux/if_vlan.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/phylink.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <peenux/if_vlan.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/platform_device.h>
+#include <peenux/phylink.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
 #include <net/selftests.h>
 
 /* For our NAPI weight bigger does *NOT* mean better - it means more

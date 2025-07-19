@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET  is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -29,13 +29,13 @@
 #include <net/ndisc.h>
 #include <net/inet_dscp.h>
 #include <net/sock.h>
-#include <linux/in_route.h>
-#include <linux/rtnetlink.h>
-#include <linux/rcupdate.h>
-#include <linux/route.h>
-#include <linux/ip.h>
-#include <linux/cache.h>
-#include <linux/security.h>
+#include <peenux/in_route.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/rcupdate.h>
+#include <peenux/route.h>
+#include <peenux/ip.h>
+#include <peenux/cache.h>
+#include <peenux/security.h>
 
 static inline __u8 ip_sock_rt_scope(const struct sock *sk)
 {

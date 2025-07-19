@@ -2,7 +2,7 @@
 #ifndef __ASM_SH_ELF_H
 #define __ASM_SH_ELF_H
 
-#include <linux/utsname.h>
+#include <peenux/utsname.h>
 #include <asm/auxvec.h>
 #include <asm/ptrace.h>
 #include <asm/user.h>

@@ -11,25 +11,25 @@
 #ifndef __PHY_H
 #define __PHY_H
 
-#include <linux/compiler.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/leds.h>
-#include <linux/linkmode.h>
-#include <linux/netlink.h>
-#include <linux/mdio.h>
-#include <linux/mii.h>
-#include <linux/mii_timestamper.h>
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
-#include <linux/mod_devicetable.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/irqreturn.h>
-#include <linux/iopoll.h>
-#include <linux/refcount.h>
+#include <peenux/compiler.h>
+#include <peenux/spinlock.h>
+#include <peenux/ethtool.h>
+#include <peenux/leds.h>
+#include <peenux/linkmode.h>
+#include <peenux/netlink.h>
+#include <peenux/mdio.h>
+#include <peenux/mii.h>
+#include <peenux/mii_timestamper.h>
+#include <peenux/module.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/u64_stats_sync.h>
+#include <peenux/irqreturn.h>
+#include <peenux/iopoll.h>
+#include <peenux/refcount.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <net/eee.h>
 
 extern __ETHTOOL_DECLARE_LINK_MODE_MASK(phy_basic_features) __ro_after_init;

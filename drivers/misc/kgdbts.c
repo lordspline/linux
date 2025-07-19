@@ -82,17 +82,17 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/kgdb.h>
-#include <linux/ctype.h>
-#include <linux/uaccess.h>
-#include <linux/syscalls.h>
-#include <linux/nmi.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/sched/task.h>
-#include <linux/kallsyms.h>
+#include <peenux/kernel.h>
+#include <peenux/kgdb.h>
+#include <peenux/ctype.h>
+#include <peenux/uaccess.h>
+#include <peenux/syscalls.h>
+#include <peenux/nmi.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/sched/task.h>
+#include <peenux/kallsyms.h>
 
 #include <asm/sections.h>
 #include <asm/rwonce.h>

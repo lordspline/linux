@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <error.h>
 #include <test_progs.h>
-#include <linux/pkt_cls.h>
+#include <peenux/pkt_cls.h>
 
 #include "test_tc_change_tail.skel.h"
 #include "socket_helpers.h"

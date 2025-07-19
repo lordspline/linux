@@ -2,14 +2,14 @@
 /*
  * Copyright (C) 2015 Microchip Technology
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
-#include <linux/microchipphy.h>
-#include <linux/delay.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/phy.h>
+#include <peenux/microchipphy.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
 #include <dt-bindings/net/microchip-lan78xx.h>
 
 #define PHY_ID_LAN937X_TX			0x0007c190

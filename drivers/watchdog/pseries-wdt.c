@@ -3,16 +3,16 @@
  * Copyright (c) 2022 International Business Machines, Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/math.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/time64.h>
-#include <linux/watchdog.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/limits.h>
+#include <peenux/math.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/time64.h>
+#include <peenux/watchdog.h>
 
 #define DRV_NAME "pseries-wdt"
 
@@ -180,7 +180,7 @@ static int pseries_wdt_probe(struct platform_device *pdev)
 	pw->wd.ops = &pseries_wdt_ops;
 	msecs = PSERIES_WDTQ_MIN_TIMEOUT(cap);
 	pw->wd.min_timeout = DIV_ROUND_UP(msecs, MSEC_PER_SEC);
-	pw->wd.max_timeout = UINT_MAX / 1000;	/* from linux/watchdog.h */
+	pw->wd.max_timeout = UINT_MAX / 1000;	/* from peenux/watchdog.h */
 	pw->wd.timeout = timeout;
 	if (watchdog_init_timeout(&pw->wd, 0, NULL))
 		return -EINVAL;

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/sched/mm.h>
-#include <linux/atomic.h>
-#include <linux/vmalloc.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/sched/mm.h>
+#include <peenux/atomic.h>
+#include <peenux/vmalloc.h>
 #include "ctree.h"
 #include "volumes.h"
 #include "zoned.h"

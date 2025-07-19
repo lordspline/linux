@@ -6,7 +6,7 @@
  *
  * ----------------------------------------------------------------------- */
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 /*
  * Memory copy routines

@@ -9,17 +9,17 @@
  *
  * Contributors:
  *  Amir Hanania <amir.hanania@intel.com>
- *  Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ *  Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  *  Eliot Lee <eliot.lee@intel.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
 #ifndef __T7XX_REG_H__
 #define __T7XX_REG_H__
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 /* Device base address offset */
 #define MHCCIF_RC_DEV_BASE			0x10024000

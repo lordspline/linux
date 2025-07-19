@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
 
 #include <drm/drm_atomic_state_helper.h>
 #include <drm/drm_edid.h>

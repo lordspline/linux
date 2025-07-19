@@ -10,14 +10,14 @@
 #include <crypto/internal/akcipher.h>
 #include <crypto/internal/hash.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/ccp.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/ccp.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #include "ccp-crypto.h"
 

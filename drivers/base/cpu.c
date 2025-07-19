@@ -3,24 +3,24 @@
  * CPU subsystem support
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/cpu.h>
-#include <linux/topology.h>
-#include <linux/device.h>
-#include <linux/node.h>
-#include <linux/gfp.h>
-#include <linux/slab.h>
-#include <linux/percpu.h>
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/cpufeature.h>
-#include <linux/tick.h>
-#include <linux/pm_qos.h>
-#include <linux/delay.h>
-#include <linux/sched/isolation.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/cpu.h>
+#include <peenux/topology.h>
+#include <peenux/device.h>
+#include <peenux/node.h>
+#include <peenux/gfp.h>
+#include <peenux/slab.h>
+#include <peenux/percpu.h>
+#include <peenux/acpi.h>
+#include <peenux/of.h>
+#include <peenux/cpufeature.h>
+#include <peenux/tick.h>
+#include <peenux/pm_qos.h>
+#include <peenux/delay.h>
+#include <peenux/sched/isolation.h>
 
 #include "base.h"
 
@@ -146,7 +146,7 @@ static DEVICE_ATTR(release, S_IWUSR, NULL, cpu_release_store);
 #endif /* CONFIG_HOTPLUG_CPU */
 
 #ifdef CONFIG_CRASH_DUMP
-#include <linux/kexec.h>
+#include <peenux/kexec.h>
 
 static ssize_t crash_notes_show(struct device *dev,
 				struct device_attribute *attr,
@@ -334,7 +334,7 @@ static void cpu_device_release(struct device *dev)
 	 * by the cpu device.
 	 *
 	 * Never copy this way of doing things, or you too will be made fun of
-	 * on the linux-kernel list, you have been warned.
+	 * on the peenux-kernel list, you have been warned.
 	 */
 }
 

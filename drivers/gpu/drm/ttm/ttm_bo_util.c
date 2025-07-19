@@ -28,8 +28,8 @@
 /*
  * Authors: Thomas Hellstrom <thellstrom-at-vmware-dot-com>
  */
-#include <linux/swap.h>
-#include <linux/vmalloc.h>
+#include <peenux/swap.h>
+#include <peenux/vmalloc.h>
 
 #include <drm/ttm/ttm_bo.h>
 #include <drm/ttm/ttm_placement.h>

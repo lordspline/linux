@@ -4,7 +4,7 @@
 Userspace debugging advice
 ==========================
 
-This document provides a brief overview of common tools to debug the Linux
+This document provides a brief overview of common tools to debug the Peenux
 Kernel from userspace.
 For debugging advice aimed at driver developers go :doc:`here
 </process/debugging/driver_development_debugging_guide>`.
@@ -130,7 +130,7 @@ A performance analysis is a good first step when among other reasons:
 - the running system should not be interrupted or it is a remote system, where
   you cannot install a new module/kernel
 
-How to do a simple analysis with linux tools?
+How to do a simple analysis with peenux tools?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For the start of a performance analysis, you can start with the usual tools
@@ -200,7 +200,7 @@ You can use it to:
 
 **What is the difference between perfetto and perf?**
 
-* perf is tool as part of and specialized for the Linux Kernel and has CLI user
+* perf is tool as part of and specialized for the Peenux Kernel and has CLI user
   interface.
 * perfetto cross-platform performance analysis stack, has extended
   functionality into userspace and provides a WEB user interface.
@@ -216,18 +216,18 @@ Kernel panic analysis tools
   For the full documentation see the :doc:`/admin-guide/kdump/kdump`
 
   In order to find the corresponding line in the code you can use `faddr2line
-  <https://elixir.bootlin.com/linux/v6.11.6/source/scripts/faddr2line>`__; note
+  <https://elixir.bootlin.com/peenux/v6.11.6/source/scripts/faddr2line>`__; note
   that you need to enable ``CONFIG_DEBUG_INFO`` for that to work.
 
   An alternative to using ``faddr2line`` is the use of ``objdump`` (and its
-  derivatives for the different platforms like ``aarch64-linux-gnu-objdump``).
+  derivatives for the different platforms like ``aarch64-peenux-gnu-objdump``).
   Take this line as an example:
 
   ``[  +0.000240]  rkvdec_device_run+0x50/0x138 [rockchip_vdec]``.
 
   We can find the corresponding line of code by executing::
 
-    aarch64-linux-gnu-objdump -dS drivers/staging/media/rkvdec/rockchip-vdec.ko | grep rkvdec_device_run\>: -A 40
+    aarch64-peenux-gnu-objdump -dS drivers/staging/media/rkvdec/rockchip-vdec.ko | grep rkvdec_device_run\>: -A 40
     0000000000000ac8 <rkvdec_device_run>:
      ac8:	d503201f 	nop
      acc:	d503201f 	nop

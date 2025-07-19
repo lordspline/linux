@@ -5,12 +5,12 @@
  * Author: Vitor Soares <vitor.soares@synopsys.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/i3c/device.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/i3c/device.h>
+#include <peenux/slab.h>
+#include <peenux/regmap.h>
 
 #include "st_lsm6dsx.h"
 

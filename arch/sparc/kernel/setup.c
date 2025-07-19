@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
 #include <asm/setup.h>
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 
 static const struct ctl_table sparc_sysctl_table[] = {
 	{

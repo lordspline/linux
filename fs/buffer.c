@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/buffer.c
+ *  peenux/fs/buffer.c
  *
  *  Copyright (C) 1991, 1992, 2002  Linus Torvalds
  */
@@ -19,37 +19,37 @@
  * async buffer flushing, 1999 Andrea Arcangeli <andrea@suse.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/syscalls.h>
-#include <linux/fs.h>
-#include <linux/iomap.h>
-#include <linux/mm.h>
-#include <linux/percpu.h>
-#include <linux/slab.h>
-#include <linux/capability.h>
-#include <linux/blkdev.h>
-#include <linux/file.h>
-#include <linux/quotaops.h>
-#include <linux/highmem.h>
-#include <linux/export.h>
-#include <linux/backing-dev.h>
-#include <linux/writeback.h>
-#include <linux/hash.h>
-#include <linux/suspend.h>
-#include <linux/buffer_head.h>
-#include <linux/task_io_accounting_ops.h>
-#include <linux/bio.h>
-#include <linux/cpu.h>
-#include <linux/bitops.h>
-#include <linux/mpage.h>
-#include <linux/bit_spinlock.h>
-#include <linux/pagevec.h>
-#include <linux/sched/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/syscalls.h>
+#include <peenux/fs.h>
+#include <peenux/iomap.h>
+#include <peenux/mm.h>
+#include <peenux/percpu.h>
+#include <peenux/slab.h>
+#include <peenux/capability.h>
+#include <peenux/blkdev.h>
+#include <peenux/file.h>
+#include <peenux/quotaops.h>
+#include <peenux/highmem.h>
+#include <peenux/export.h>
+#include <peenux/backing-dev.h>
+#include <peenux/writeback.h>
+#include <peenux/hash.h>
+#include <peenux/suspend.h>
+#include <peenux/buffer_head.h>
+#include <peenux/task_io_accounting_ops.h>
+#include <peenux/bio.h>
+#include <peenux/cpu.h>
+#include <peenux/bitops.h>
+#include <peenux/mpage.h>
+#include <peenux/bit_spinlock.h>
+#include <peenux/pagevec.h>
+#include <peenux/sched/mm.h>
 #include <trace/events/block.h>
-#include <linux/fscrypt.h>
-#include <linux/fsverity.h>
-#include <linux/sched/isolation.h>
+#include <peenux/fscrypt.h>
+#include <peenux/fsverity.h>
+#include <peenux/sched/isolation.h>
 
 #include "internal.h"
 

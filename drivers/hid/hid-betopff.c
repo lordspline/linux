@@ -23,10 +23,10 @@
  */
 
 
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/hid.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/hid.h>
 
 #include "hid-ids.h"
 

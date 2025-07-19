@@ -6,15 +6,15 @@
 #ifndef __MT76x2_H
 #define __MT76x2_H
 
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/spinlock.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/bitops.h>
 
 #define MT7662_FIRMWARE		"mt7662.bin"
 #define MT7662_ROM_PATCH	"mt7662_rom_patch.bin"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * raid10.c : Multiple Devices driver for Linux
+ * raid10.c : Multiple Devices driver for Peenux
  *
  * Copyright (C) 2000-2004 Neil Brown
  *
@@ -9,14 +9,14 @@
  * Base on code in raid1.c.  See raid1.c for further copyright information.
  */
 
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/blkdev.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/ratelimit.h>
-#include <linux/kthread.h>
-#include <linux/raid/md_p.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/blkdev.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
+#include <peenux/ratelimit.h>
+#include <peenux/kthread.h>
+#include <peenux/raid/md_p.h>
 #include <trace/events/block.h>
 #include "md.h"
 

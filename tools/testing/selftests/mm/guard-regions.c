@@ -6,9 +6,9 @@
 #include <assert.h>
 #include <errno.h>
 #include <fcntl.h>
-#include <linux/limits.h>
-#include <linux/userfaultfd.h>
-#include <linux/fs.h>
+#include <peenux/limits.h>
+#include <peenux/userfaultfd.h>
+#include <peenux/fs.h>
 #include <setjmp.h>
 #include <signal.h>
 #include <stdbool.h>

@@ -3,16 +3,16 @@
  * Copyright 2007-2008 Paul Mackerras, IBM Corp.
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/types.h>
-#include <linux/pagewalk.h>
-#include <linux/hugetlb.h>
-#include <linux/syscalls.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/types.h>
+#include <peenux/pagewalk.h>
+#include <peenux/hugetlb.h>
+#include <peenux/syscalls.h>
 
-#include <linux/pgtable.h>
-#include <linux/uaccess.h>
+#include <peenux/pgtable.h>
+#include <peenux/uaccess.h>
 
 /*
  * Free all pages allocated for subpage protection maps and pointers.

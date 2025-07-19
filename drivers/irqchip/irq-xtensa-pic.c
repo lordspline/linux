@@ -12,13 +12,13 @@
  * Kevin Chea
  */
 
-#include <linux/bits.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/xtensa-pic.h>
-#include <linux/of.h>
+#include <peenux/bits.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/xtensa-pic.h>
+#include <peenux/of.h>
 
 /*
  * Device Tree IRQ specifier translation function which works with one or

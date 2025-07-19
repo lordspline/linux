@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/ext4/inode.c
+ *  peenux/fs/ext4/inode.c
  *
  * Copyright (C) 1992, 1993, 1994, 1995
  * Remy Card (card@masi.ibp.fr)
@@ -9,7 +9,7 @@
  *
  *  from
  *
- *  linux/fs/minix/inode.c
+ *  peenux/fs/minix/inode.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -19,29 +19,29 @@
  *  Assorted race fixes, rewrite of ext4_get_block() by Al Viro, 2000
  */
 
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/time.h>
-#include <linux/highuid.h>
-#include <linux/pagemap.h>
-#include <linux/dax.h>
-#include <linux/quotaops.h>
-#include <linux/string.h>
-#include <linux/buffer_head.h>
-#include <linux/writeback.h>
-#include <linux/pagevec.h>
-#include <linux/mpage.h>
-#include <linux/rmap.h>
-#include <linux/namei.h>
-#include <linux/uio.h>
-#include <linux/bio.h>
-#include <linux/workqueue.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/iomap.h>
-#include <linux/iversion.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
+#include <peenux/time.h>
+#include <peenux/highuid.h>
+#include <peenux/pagemap.h>
+#include <peenux/dax.h>
+#include <peenux/quotaops.h>
+#include <peenux/string.h>
+#include <peenux/buffer_head.h>
+#include <peenux/writeback.h>
+#include <peenux/pagevec.h>
+#include <peenux/mpage.h>
+#include <peenux/rmap.h>
+#include <peenux/namei.h>
+#include <peenux/uio.h>
+#include <peenux/bio.h>
+#include <peenux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/iomap.h>
+#include <peenux/iversion.h>
 
 #include "ext4_jbd2.h"
 #include "xattr.h"
@@ -2632,7 +2632,7 @@ static int mpage_prepare_extent_to_map(struct mpage_da_data *mpd)
 			 * the file system first.  See [1] for more
 			 * information.
 			 *
-			 * [1] https://lore.kernel.org/linux-mm/20180103100430.GE4911@quack2.suse.cz
+			 * [1] https://lore.kernel.org/peenux-mm/20180103100430.GE4911@quack2.suse.cz
 			 */
 			if (!folio_buffers(folio)) {
 				ext4_warning_inode(mpd->inode, "page %lu does not have buffers attached", folio->index);

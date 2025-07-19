@@ -3,11 +3,11 @@
 #ifndef __LINUX_GUD_INTERNAL_H
 #define __LINUX_GUD_INTERNAL_H
 
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/scatterlist.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/scatterlist.h>
+#include <peenux/usb.h>
+#include <peenux/workqueue.h>
 #include <uapi/drm/drm_fourcc.h>
 
 #include <drm/drm_modes.h>

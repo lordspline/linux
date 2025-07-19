@@ -14,12 +14,12 @@
 #ifndef __LINUX_PXA2XX_SSP_H
 #define __LINUX_PXA2XX_SSP_H
 
-#include <linux/bits.h>
-#include <linux/compiler_types.h>
-#include <linux/io.h>
-#include <linux/kconfig.h>
-#include <linux/list.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/compiler_types.h>
+#include <peenux/io.h>
+#include <peenux/kconfig.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
 
 struct clk;
 struct device;

@@ -6,7 +6,7 @@
 #ifndef _XE_GUC_FWIF_H
 #define _XE_GUC_FWIF_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 #include "abi/guc_capture_abi.h"
 #include "abi/guc_klvs_abi.h"

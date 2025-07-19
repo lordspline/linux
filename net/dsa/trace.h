@@ -10,10 +10,10 @@
 
 #include <net/dsa.h>
 #include <net/switchdev.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/refcount.h>
-#include <linux/tracepoint.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/refcount.h>
+#include <peenux/tracepoint.h>
 
 /* Enough to fit "bridge %s num %d" where num has 3 digits */
 #define DSA_DB_BUFSIZ	(IFNAMSIZ + 16)

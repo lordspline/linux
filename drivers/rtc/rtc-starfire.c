@@ -6,10 +6,10 @@
  * Copyright (C) 2008 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/rtc.h>
+#include <peenux/platform_device.h>
 
 #include <asm/oplib.h>
 

@@ -24,30 +24,30 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/highmem.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pagemap.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/platform_device.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mmc/sdio.h>
-#include <linux/scatterlist.h>
-#include <linux/sizes.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/highmem.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pagemap.h>
+#include <peenux/platform_data/tmio.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_qos.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/scatterlist.h>
+#include <peenux/sizes.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 #include "tmio_mmc.h"
 

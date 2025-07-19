@@ -15,9 +15,9 @@
  * carefully reviewed otherwise so it does not prevent mount of valid images.
  */
 
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/error-injection.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/error-injection.h>
 #include "messages.h"
 #include "ctree.h"
 #include "tree-checker.h"

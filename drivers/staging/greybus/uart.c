@@ -10,25 +10,25 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/mutex.h>
-#include <linux/tty.h>
-#include <linux/serial.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/idr.h>
-#include <linux/fs.h>
-#include <linux/kdev_t.h>
-#include <linux/kfifo.h>
-#include <linux/workqueue.h>
-#include <linux/completion.h>
-#include <linux/greybus.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/sched/signal.h>
+#include <peenux/wait.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/mutex.h>
+#include <peenux/tty.h>
+#include <peenux/serial.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/idr.h>
+#include <peenux/fs.h>
+#include <peenux/kdev_t.h>
+#include <peenux/kfifo.h>
+#include <peenux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/greybus.h>
 
 #include "gbphy.h"
 

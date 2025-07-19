@@ -3,7 +3,7 @@
  * Copyright (c) 2022-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 #include <dt-bindings/sound/qcom,q6afe.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <sound/jack.h>
 #include <sound/soc-usb.h>
 

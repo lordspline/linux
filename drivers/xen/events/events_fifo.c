@@ -8,7 +8,7 @@
  * published by the Free Software Foundation; either version 2 of the
  * License, or (at your option) any later version.
  *
- * Or, when distributed separately from the Linux kernel or
+ * Or, when distributed separately from the Peenux kernel or
  * incorporated into other software packages, subject to the following
  * license:
  *
@@ -33,12 +33,12 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/linkage.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/smp.h>
-#include <linux/percpu.h>
-#include <linux/cpu.h>
+#include <peenux/linkage.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/smp.h>
+#include <peenux/percpu.h>
+#include <peenux/cpu.h>
 
 #include <asm/barrier.h>
 #include <asm/sync_bitops.h>

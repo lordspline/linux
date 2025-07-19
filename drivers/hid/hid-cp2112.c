@@ -16,17 +16,17 @@
  *   https://www.silabs.com/documents/public/application-notes/an495-cp2112-interface-specification.pdf
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/hid.h>
-#include <linux/hidraw.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nls.h>
-#include <linux/string_choices.h>
-#include <linux/usb/ch9.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/hid.h>
+#include <peenux/hidraw.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nls.h>
+#include <peenux/string_choices.h>
+#include <peenux/usb/ch9.h>
 #include "hid-ids.h"
 
 #define CP2112_REPORT_MAX_LENGTH		64

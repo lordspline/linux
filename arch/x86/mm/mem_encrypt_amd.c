@@ -7,17 +7,17 @@
  * Author: Tom Lendacky <thomas.lendacky@amd.com>
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/dma-direct.h>
-#include <linux/swiotlb.h>
-#include <linux/mem_encrypt.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/cc_platform.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/dma-direct.h>
+#include <peenux/swiotlb.h>
+#include <peenux/mem_encrypt.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/cc_platform.h>
 
 #include <asm/tlbflush.h>
 #include <asm/fixmap.h>

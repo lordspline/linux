@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright (c) Tehuti Networks Ltd. */
 
-#include <linux/bitfield.h>
-#include <linux/ethtool.h>
-#include <linux/firmware.h>
-#include <linux/if_vlan.h>
-#include <linux/iopoll.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/phylink.h>
-#include <linux/vmalloc.h>
+#include <peenux/bitfield.h>
+#include <peenux/ethtool.h>
+#include <peenux/firmware.h>
+#include <peenux/if_vlan.h>
+#include <peenux/iopoll.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/phylink.h>
+#include <peenux/vmalloc.h>
 #include <net/netdev_queues.h>
 #include <net/page_pool/helpers.h>
 

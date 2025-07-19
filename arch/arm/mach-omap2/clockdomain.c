@@ -10,21 +10,21 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/limits.h>
-#include <linux/err.h>
-#include <linux/clk-provider.h>
-#include <linux/cpu_pm.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/limits.h>
+#include <peenux/err.h>
+#include <peenux/clk-provider.h>
+#include <peenux/cpu_pm.h>
 
-#include <linux/io.h>
+#include <peenux/io.h>
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 #include "soc.h"
 #include "clock.h"

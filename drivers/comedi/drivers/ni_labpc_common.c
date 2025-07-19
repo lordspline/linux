@@ -7,14 +7,14 @@
  * Copyright (C) 2001-2003 Frank Mori Hess <fmhess@users.sourceforge.net>
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedi_8255.h>
-#include <linux/comedi/comedi_8254.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/comedi/comedidev.h>
+#include <peenux/comedi/comedi_8255.h>
+#include <peenux/comedi/comedi_8254.h>
 
 #include "ni_labpc.h"
 #include "ni_labpc_regs.h"

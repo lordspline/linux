@@ -1,17 +1,17 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * if_addrlabel.h - netlink interface for address labels
  *
  * Copyright (C)2007 USAGI/WIDE Project,  All Rights Reserved.
  *
  * Authors:
- *	YOSHIFUJI Hideaki @ USAGI/WIDE <yoshfuji@linux-ipv6.org>
+ *	YOSHIFUJI Hideaki @ USAGI/WIDE <yoshfuji@peenux-ipv6.org>
  */
 
 #ifndef _UAPI__LINUX_IF_ADDRLABEL_H
 #define _UAPI__LINUX_IF_ADDRLABEL_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct ifaddrlblmsg {
 	__u8		ifal_family;		/* Address family */

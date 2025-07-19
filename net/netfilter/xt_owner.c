@@ -7,15 +7,15 @@
  *
  * Copyright © CC Computer Consultants GmbH, 2007 - 2008
  */
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/file.h>
-#include <linux/cred.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/file.h>
+#include <peenux/cred.h>
 
 #include <net/sock.h>
 #include <net/inet_sock.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_owner.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_owner.h>
 
 static int owner_check(const struct xt_mtchk_param *par)
 {

@@ -34,14 +34,14 @@
 
 //#define DEBUG
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
-#include <linux/hid.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb/input.h>
+#include <peenux/hid.h>
+#include <peenux/mutex.h>
 
 static bool swap_xy;
 module_param(swap_xy, bool, 0644);

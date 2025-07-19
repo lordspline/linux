@@ -1,12 +1,12 @@
 
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/socket.h>
-#include <linux/udp.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/in6.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/socket.h>
+#include <peenux/udp.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/in6.h>
 #include <net/udp.h>
 #include <net/udp_tunnel.h>
 #include <net/net_namespace.h>

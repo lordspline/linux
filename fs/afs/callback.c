@@ -13,11 +13,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/circ_buf.h>
-#include <linux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/circ_buf.h>
+#include <peenux/sched.h>
 #include "internal.h"
 
 /*

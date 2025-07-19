@@ -12,16 +12,16 @@
  * Copyright (C) 2011 Colin Leitner <colin.leitner@googlemail.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/of_irq.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
+#include <peenux/bitops.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/of_irq.h>
+#include <peenux/regmap.h>
+#include <peenux/string_choices.h>
 
 #include "realtek.h"
 #include "realtek-smi.h"

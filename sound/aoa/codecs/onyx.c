@@ -28,10 +28,10 @@
  *	 'card' pointer accessible to anyone who needs it instead
  *	 of hiding it in the aoa_snd_* functions...
  */
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 MODULE_AUTHOR("Johannes Berg <johannes@sipsolutions.net>");
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("pcm3052 (onyx) codec driver for snd-aoa");

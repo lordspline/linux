@@ -5,10 +5,10 @@
  * Copyright 2021 Zev Weiss <zev@bewilderbeest.net>
  */
 
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pmbus.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pmbus.h>
 
 #include "pmbus.h"
 

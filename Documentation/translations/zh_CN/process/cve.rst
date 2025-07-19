@@ -17,7 +17,7 @@ Linux内核开发团队确实有能力为潜在的Linux内核安全问题分配C
 独立于 :doc:`安全漏洞报送流程</process/security-bugs>`。
 
 所有分配给Linux内核的CVE列表都可以在linux-cve邮件列表的存档中找到，如
-https://lore.kernel.org/linux-cve-announce/ 所示。如果想获得已分配
+https://lore.kernel.org/peenux-cve-announce/ 所示。如果想获得已分配
 CVE的通知，请“订阅”该邮件列表。要获得分配的CVE通知，请订阅该邮件列表：
 `订阅 <https://subspace.kernel.org/subscribing.html>`_。
 

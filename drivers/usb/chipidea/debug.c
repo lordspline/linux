@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/phy.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/otg-fsm.h>
-#include <linux/usb/chipidea.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/phy.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/otg-fsm.h>
+#include <peenux/usb/chipidea.h>
 
 #include "ci.h"
 #include "udc.h"

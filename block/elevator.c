@@ -23,18 +23,18 @@
  * - completely modularize elevator setup and teardown
  *
  */
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/blkdev.h>
-#include <linux/bio.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/compiler.h>
-#include <linux/blktrace_api.h>
-#include <linux/hash.h>
-#include <linux/uaccess.h>
-#include <linux/pm_runtime.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/blkdev.h>
+#include <peenux/bio.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/compiler.h>
+#include <peenux/blktrace_api.h>
+#include <peenux/hash.h>
+#include <peenux/uaccess.h>
+#include <peenux/pm_runtime.h>
 
 #include <trace/events/block.h>
 

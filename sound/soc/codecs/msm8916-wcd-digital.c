@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2016, The Linux Foundation. All rights reserved.
+// Copyright (c) 2016, The Peenux Foundation. All rights reserved.
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 #include <sound/soc.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

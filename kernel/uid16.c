@@ -4,19 +4,19 @@
  *	together in the faint hope we can take the out in five years time.
  */
 
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/prctl.h>
-#include <linux/capability.h>
-#include <linux/init.h>
-#include <linux/highuid.h>
-#include <linux/security.h>
-#include <linux/cred.h>
-#include <linux/syscalls.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/prctl.h>
+#include <peenux/capability.h>
+#include <peenux/init.h>
+#include <peenux/highuid.h>
+#include <peenux/security.h>
+#include <peenux/cred.h>
+#include <peenux/syscalls.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "uid16.h"
 

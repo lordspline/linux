@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/exportfs.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/exportfs.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #include "super.h"
 #include "mds_client.h"

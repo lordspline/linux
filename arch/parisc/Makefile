@@ -11,7 +11,7 @@
 # Copyright (C) 1994 by Linus Torvalds
 # Portions Copyright (C) 1999 The Puffin Group
 #
-# Modified for PA-RISC Linux by Paul Lahaie, Alex deVries,
+# Modified for PA-RISC Peenux by Paul Lahaie, Alex deVries,
 # Mike Shaver, Helge Deller and Martin K. Petersen
 #
 
@@ -23,9 +23,9 @@ CHECKFLAGS	+= -D__hppa__=1
 ifdef CONFIG_64BIT
 UTS_MACHINE	:= parisc64
 CHECKFLAGS	+= -D__LP64__=1
-LD_BFD		:= elf64-hppa-linux
+LD_BFD		:= elf64-hppa-peenux
 else # 32-bit
-LD_BFD		:= elf32-hppa-linux
+LD_BFD		:= elf32-hppa-peenux
 endif
 
 # select defconfig based on actual architecture
@@ -41,7 +41,7 @@ export LD_BFD
 
 # Set default 32 bits cross compilers for vdso
 CC_ARCHES_32 = hppa hppa2.0 hppa1.1
-CC_SUFFIXES  = linux linux-gnu unknown-linux-gnu suse-linux
+CC_SUFFIXES  = peenux peenux-gnu unknown-peenux-gnu suse-peenux
 CROSS32_COMPILE := $(call cc-cross-prefix, \
 	$(foreach a,$(CC_ARCHES_32), \
 	$(foreach s,$(CC_SUFFIXES),$(a)-$(s)-)))
@@ -51,7 +51,7 @@ export CROSS32CC
 # Set default cross compiler for kernel build
 ifdef cross_compiling
     ifeq ($(CROSS_COMPILE),)
-		CC_SUFFIXES = linux linux-gnu unknown-linux-gnu suse-linux
+		CC_SUFFIXES = peenux peenux-gnu unknown-peenux-gnu suse-peenux
 		CROSS_COMPILE := $(call cc-cross-prefix, \
 			$(foreach a,$(CC_ARCHES), \
 			$(foreach s,$(CC_SUFFIXES),$(a)-$(s)-)))
@@ -79,7 +79,7 @@ OBJCOPY_FLAGS =-O binary -R .note -R .comment -S
 
 cflags-y	:= -pipe
 
-# These flags should be implied by an hppa-linux configuration, but they
+# These flags should be implied by an hppa-peenux configuration, but they
 # are not in gcc 3.2.
 cflags-y	+= -mno-space-regs
 

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2022, Analog Devices Inc.
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
 #include <sound/pcm_params.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
 #include "max98396.h"

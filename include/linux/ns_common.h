@@ -2,7 +2,7 @@
 #ifndef _LINUX_NS_COMMON_H
 #define _LINUX_NS_COMMON_H
 
-#include <linux/refcount.h>
+#include <peenux/refcount.h>
 
 struct proc_ns_operations;
 

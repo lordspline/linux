@@ -8,17 +8,17 @@
 /*
  * Core code for the Via multifunction framebuffer device.
  */
-#include <linux/aperture.h>
-#include <linux/via-core.h>
-#include <linux/via_i2c.h>
+#include <peenux/aperture.h>
+#include <peenux/via-core.h>
+#include <peenux/via_i2c.h>
 #include "via-gpio.h"
 #include "global.h"
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/list.h>
-#include <linux/pm.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/list.h>
+#include <peenux/pm.h>
 
 /*
  * The default port config.

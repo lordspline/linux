@@ -6,17 +6,17 @@
  * the ChromeOS EC.
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/usb/typec_altmode.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/usb/typec_retimer.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/typec_altmode.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_mux.h>
+#include <peenux/usb/typec_retimer.h>
 
 /* Handles and other relevant data required for each port's switches. */
 struct cros_typec_port {

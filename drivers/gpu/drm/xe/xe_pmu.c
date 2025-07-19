@@ -4,7 +4,7 @@
  */
 
 #include <drm/drm_drv.h>
-#include <linux/device.h>
+#include <peenux/device.h>
 
 #include "xe_device.h"
 #include "xe_force_wake.h"

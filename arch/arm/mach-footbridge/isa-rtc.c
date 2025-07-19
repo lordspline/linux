@@ -18,9 +18,9 @@
 #define RTC_PORT(x)		(0x70+(x))
 #define RTC_ALWAYS_BCD		0
 
-#include <linux/init.h>
-#include <linux/mc146818rtc.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/io.h>
 
 #include "common.h"
 

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/version.h>
-#include <linux/ptrace.h>
-#include <uapi/linux/bpf.h>
+#include <peenux/version.h>
+#include <peenux/ptrace.h>
+#include <uapi/peenux/bpf.h>
 #include <bpf/bpf_helpers.h>
 
 SEC("kprobe/blk_mq_start_request")

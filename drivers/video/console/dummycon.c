@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/video/dummycon.c -- A dummy console driver
+ *  peenux/drivers/video/dummycon.c -- A dummy console driver
  *
  *  To be used if there's no other console driver (e.g. for plain VGA text)
  *  available, usually until fbcon takes console over.
  */
 
-#include <linux/types.h>
-#include <linux/kdev_t.h>
-#include <linux/console.h>
-#include <linux/vt_kern.h>
-#include <linux/screen_info.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/kdev_t.h>
+#include <peenux/console.h>
+#include <peenux/vt_kern.h>
+#include <peenux/screen_info.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
 
 /*
  *  Dummy console driver

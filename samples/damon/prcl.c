@@ -6,10 +6,10 @@
 
 #define pr_fmt(fmt) "damon_sample_prcl: " fmt
 
-#include <linux/damon.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/damon.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 static int target_pid __read_mostly;
 module_param(target_pid, int, 0600);

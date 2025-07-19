@@ -52,7 +52,7 @@
 #ifndef _NET_PAGE_POOL_HELPERS_H
 #define _NET_PAGE_POOL_HELPERS_H
 
-#include <linux/dma-mapping.h>
+#include <peenux/dma-mapping.h>
 
 #include <net/page_pool/types.h>
 #include <net/net_debug.h>

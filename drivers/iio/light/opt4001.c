@@ -7,14 +7,14 @@
  * Device driver for the Texas Instruments OPT4001.
  */
 
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
 /* OPT4001 register set */
 #define OPT4001_LIGHT1_MSB    0x00

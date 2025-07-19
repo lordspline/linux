@@ -43,7 +43,7 @@
 #include <stdarg.h>
 #include <stddef.h>
 #include <string.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #include <sys/types.h>
 
 extern char strbuf_slopbuf[];

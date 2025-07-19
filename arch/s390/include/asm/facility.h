@@ -10,10 +10,10 @@
 
 #include <asm/facility-defs.h>
 
-#include <linux/minmax.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/preempt.h>
+#include <peenux/minmax.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/preempt.h>
 #include <asm/alternative.h>
 #include <asm/lowcore.h>
 

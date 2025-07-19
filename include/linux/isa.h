@@ -6,9 +6,9 @@
 #ifndef __LINUX_ISA_H
 #define __LINUX_ISA_H
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
 
 struct isa_driver {
 	int (*match)(struct device *, unsigned int);

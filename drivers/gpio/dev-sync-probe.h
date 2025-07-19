@@ -3,9 +3,9 @@
 #ifndef DEV_SYNC_PROBE_H
 #define DEV_SYNC_PROBE_H
 
-#include <linux/completion.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
+#include <peenux/completion.h>
+#include <peenux/notifier.h>
+#include <peenux/platform_device.h>
 
 struct dev_sync_probe_data {
 	struct platform_device *pdev;

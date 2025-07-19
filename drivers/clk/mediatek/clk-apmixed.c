@@ -4,10 +4,10 @@
  * Author: James Liao <jamesjj.liao@mediatek.com>
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
 
 #include "clk-mtk.h"
 

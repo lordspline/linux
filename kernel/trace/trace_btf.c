@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/btf.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <peenux/btf.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
 
 #include "trace_btf.h"
 

@@ -5,14 +5,14 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/aer.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/vmalloc.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/aer.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/vmalloc.h>
 #include <net/netdev_queues.h>
 
 #include "octep_vf_config.h"

@@ -18,11 +18,11 @@
 #include "util/synthetic-events.h"
 #include "util/target.h"
 #include "util/time-utils.h"
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
-#include <linux/perf_event.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
+#include <peenux/perf_event.h>
 #include <asm/bug.h>
 #include <perf/evsel.h>
 #include <perf/cpumap.h>
@@ -35,7 +35,7 @@
 #include <inttypes.h>
 #include <stdio.h>
 #include <string.h>
-#include <uapi/linux/mman.h> /* To get things like MAP_HUGETLB even on older libc headers */
+#include <uapi/peenux/mman.h> /* To get things like MAP_HUGETLB even on older libc headers */
 #include <api/fs/fs.h>
 #include <api/io.h>
 #include <api/io_dir.h>

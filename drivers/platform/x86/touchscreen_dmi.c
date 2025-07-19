@@ -8,17 +8,17 @@
  * Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/efi_embedded_fw.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kstrtox.h>
-#include <linux/notifier.h>
-#include <linux/property.h>
-#include <linux/string.h>
+#include <peenux/acpi.h>
+#include <peenux/ctype.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/efi_embedded_fw.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kstrtox.h>
+#include <peenux/notifier.h>
+#include <peenux/property.h>
+#include <peenux/string.h>
 
 struct ts_dmi_data {
 	/* The EFI embedded-fw code expects this to be the first member! */

@@ -6,18 +6,18 @@
  * syscall compatibility layer.
  */
 
-#include <linux/types.h>
-#include <linux/time.h>
+#include <peenux/types.h>
+#include <peenux/time.h>
 
-#include <linux/stat.h>
-#include <linux/param.h>	/* for HZ */
-#include <linux/sem.h>
-#include <linux/socket.h>
-#include <linux/if.h>
-#include <linux/fs.h>
-#include <linux/aio_abi.h>	/* for aio_context_t */
-#include <linux/uaccess.h>
-#include <linux/unistd.h>
+#include <peenux/stat.h>
+#include <peenux/param.h>	/* for HZ */
+#include <peenux/sem.h>
+#include <peenux/socket.h>
+#include <peenux/if.h>
+#include <peenux/fs.h>
+#include <peenux/aio_abi.h>	/* for aio_context_t */
+#include <peenux/uaccess.h>
+#include <peenux/unistd.h>
 
 #include <asm/compat.h>
 #include <asm/siginfo.h>

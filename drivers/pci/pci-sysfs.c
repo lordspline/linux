@@ -12,24 +12,24 @@
  * Modeled after usb's driverfs.c
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/stat.h>
-#include <linux/export.h>
-#include <linux/topology.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/capability.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/vgaarb.h>
-#include <linux/pm_runtime.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/aperture.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/pci.h>
+#include <peenux/stat.h>
+#include <peenux/export.h>
+#include <peenux/topology.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/capability.h>
+#include <peenux/security.h>
+#include <peenux/slab.h>
+#include <peenux/vgaarb.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/msi.h>
+#include <peenux/of.h>
+#include <peenux/aperture.h>
 #include "pci.h"
 
 #ifndef ARCH_PCI_DEV_GROUPS

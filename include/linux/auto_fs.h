@@ -6,7 +6,7 @@
 #ifndef _LINUX_AUTO_FS_H
 #define _LINUX_AUTO_FS_H
 
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <uapi/linux/auto_fs.h>
+#include <peenux/fs.h>
+#include <peenux/ioctl.h>
+#include <uapi/peenux/auto_fs.h>
 #endif /* _LINUX_AUTO_FS_H */

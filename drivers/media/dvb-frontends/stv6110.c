@@ -8,11 +8,11 @@
  * Copyright (C) 2009 Igor M. Liplianin <liplianin@netup.ru>
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/dvb/frontend.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/dvb/frontend.h>
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "stv6110.h"
 

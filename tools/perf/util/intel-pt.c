@@ -5,14 +5,14 @@
  */
 
 #include <inttypes.h>
-#include <linux/perf_event.h>
+#include <peenux/perf_event.h>
 #include <stdio.h>
 #include <stdbool.h>
 #include <errno.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/zalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/zalloc.h>
 
 #include "session.h"
 #include "machine.h"

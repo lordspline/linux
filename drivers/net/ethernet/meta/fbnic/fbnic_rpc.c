@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) Meta Platforms, Inc. and affiliates. */
 
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
 #include <net/ipv6.h>
 
 #include "fbnic.h"

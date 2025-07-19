@@ -6,12 +6,12 @@
  *	Huang Ying <ying.huang@intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/uuid.h>
-#include <linux/random.h>
+#include <peenux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/uuid.h>
+#include <peenux/random.h>
 
 const guid_t guid_null;
 EXPORT_SYMBOL(guid_null);

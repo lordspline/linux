@@ -10,21 +10,21 @@
  *
  * Copyright 2001 - 2006 Tensilica Inc.
  */
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/errno.h>
-#include <linux/reboot.h>
-#include <linux/kdev_t.h>
-#include <linux/types.h>
-#include <linux/major.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/clk-provider.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/errno.h>
+#include <peenux/reboot.h>
+#include <peenux/kdev_t.h>
+#include <peenux/types.h>
+#include <peenux/major.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
 
 #include <asm/timex.h>
 #include <asm/processor.h>
@@ -150,10 +150,10 @@ arch_initcall(machine_setup);
 
 #else
 
-#include <linux/serial_8250.h>
-#include <linux/if.h>
+#include <peenux/serial_8250.h>
+#include <peenux/if.h>
 #include <net/ethoc.h>
-#include <linux/usb/c67x00.h>
+#include <peenux/usb/c67x00.h>
 
 /*----------------------------------------------------------------------------
  *  Ethernet -- OpenCores Ethernet MAC (ethoc driver)

@@ -10,26 +10,26 @@
  * card.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/cdev.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/vfio.h>
-#include <linux/iommu.h>
-#include <linux/sysfs.h>
-#include <linux/ctype.h>
-#include <linux/file.h>
-#include <linux/mdev.h>
-#include <linux/pci.h>
-#include <linux/serial.h>
-#include <uapi/linux/serial_reg.h>
-#include <linux/eventfd.h>
-#include <linux/anon_inodes.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/poll.h>
+#include <peenux/slab.h>
+#include <peenux/cdev.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/vfio.h>
+#include <peenux/iommu.h>
+#include <peenux/sysfs.h>
+#include <peenux/ctype.h>
+#include <peenux/file.h>
+#include <peenux/mdev.h>
+#include <peenux/pci.h>
+#include <peenux/serial.h>
+#include <uapi/peenux/serial_reg.h>
+#include <peenux/eventfd.h>
+#include <peenux/anon_inodes.h>
 
 /*
  * #defines

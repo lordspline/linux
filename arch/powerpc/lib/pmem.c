@@ -3,10 +3,10 @@
  * Copyright(c) 2017 IBM Corporation. All rights reserved.
  */
 
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/uaccess.h>
-#include <linux/libnvdimm.h>
+#include <peenux/string.h>
+#include <peenux/export.h>
+#include <peenux/uaccess.h>
+#include <peenux/libnvdimm.h>
 
 #include <asm/cacheflush.h>
 

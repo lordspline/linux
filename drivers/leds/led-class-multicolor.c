@@ -3,13 +3,13 @@
 // Copyright (C) 2019-20 Texas Instruments Incorporated - http://www.ti.com/
 // Author: Dan Murphy <dmurphy@ti.com>
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/led-class-multicolor.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 int led_mc_calc_color_components(struct led_classdev_mc *mcled_cdev,
 				 enum led_brightness brightness)

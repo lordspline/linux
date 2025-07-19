@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2024 Linutronix GmbH */
 
-#include <linux/bits.h>
-#include <linux/leds.h>
-#include <linux/netdevice.h>
-#include <linux/pm_runtime.h>
-#include <uapi/linux/uleds.h>
+#include <peenux/bits.h>
+#include <peenux/leds.h>
+#include <peenux/netdevice.h>
+#include <peenux/pm_runtime.h>
+#include <uapi/peenux/uleds.h>
 
 #include "igc.h"
 

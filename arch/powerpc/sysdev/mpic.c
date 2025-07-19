@@ -18,21 +18,21 @@
 #undef DEBUG_IRQ
 #undef DEBUG_LOW
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/syscore_ops.h>
-#include <linux/ratelimit.h>
-#include <linux/pgtable.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/ratelimit.h>
+#include <peenux/pgtable.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
 #include <asm/ptrace.h>
 #include <asm/signal.h>
@@ -602,7 +602,7 @@ static void __init mpic_scan_ht_pics(struct mpic *mpic)
 
 #endif /* CONFIG_MPIC_U3_HT_IRQS */
 
-/* Find an mpic associated with a given linux interrupt */
+/* Find an mpic associated with a given peenux interrupt */
 static struct mpic *mpic_find(unsigned int irq)
 {
 	if (irq < NR_IRQS_LEGACY)
@@ -611,13 +611,13 @@ static struct mpic *mpic_find(unsigned int irq)
 	return irq_get_chip_data(irq);
 }
 
-/* Determine if the linux irq is an IPI */
+/* Determine if the peenux irq is an IPI */
 static unsigned int mpic_is_ipi(struct mpic *mpic, unsigned int src)
 {
 	return (src >= mpic->ipi_vecs[0] && src <= mpic->ipi_vecs[3]);
 }
 
-/* Determine if the linux irq is a timer */
+/* Determine if the peenux irq is a timer */
 static unsigned int mpic_is_tm(struct mpic *mpic, unsigned int src)
 {
 	return (src >= mpic->timer_vecs[0] && src <= mpic->timer_vecs[7]);
@@ -661,7 +661,7 @@ static inline void mpic_eoi(struct mpic *mpic)
 }
 
 /*
- * Linux descriptor level callbacks
+ * Peenux descriptor level callbacks
  */
 
 

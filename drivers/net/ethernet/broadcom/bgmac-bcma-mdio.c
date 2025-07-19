@@ -8,9 +8,9 @@
 
 #define pr_fmt(fmt)		KBUILD_MODNAME ": " fmt
 
-#include <linux/bcma/bcma.h>
-#include <linux/brcmphy.h>
-#include <linux/of_mdio.h>
+#include <peenux/bcma/bcma.h>
+#include <peenux/brcmphy.h>
+#include <peenux/of_mdio.h>
 #include "bgmac.h"
 
 static bool bcma_mdio_wait_value(struct bcma_device *core, u16 reg, u32 mask,

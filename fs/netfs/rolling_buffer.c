@@ -5,10 +5,10 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/bitops.h>
-#include <linux/pagemap.h>
-#include <linux/rolling_buffer.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/pagemap.h>
+#include <peenux/rolling_buffer.h>
+#include <peenux/slab.h>
 #include "internal.h"
 
 static atomic_t debug_ids;

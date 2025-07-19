@@ -10,21 +10,21 @@
  * Bill Richardson.
  */
 
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_data/cros_ec_chardev.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/platform_data/cros_ec_chardev.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_device.h>
+#include <peenux/poll.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 
 #define DRV_NAME		"cros-ec-chardev"
 

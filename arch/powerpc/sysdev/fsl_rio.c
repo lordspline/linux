@@ -18,20 +18,20 @@
  * Matt Porter <mporter@kernel.crashing.org>
  */
 
-#include <linux/init.h>
-#include <linux/extable.h>
-#include <linux/types.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/extable.h>
+#include <peenux/types.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 #include <asm/machdep.h>
 #include <asm/rio.h>
 

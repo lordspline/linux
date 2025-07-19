@@ -6,7 +6,7 @@ SRAT - Static Resource Affinity Table
 
 The System/Static Resource Affinity Table describes resource (CPU, Memory)
 affinity to "Proximity Domains". This table is technically optional, but for
-performance information (see "HMAT") to be enumerated by linux it must be
+performance information (see "HMAT") to be enumerated by peenux it must be
 present.
 
 There is a careful dance between the CEDT and SRAT tables and how NUMA nodes are
@@ -15,7 +15,7 @@ Affinity entries and CEDT CFMWS to determine what your platform actually
 supports in terms of flexible topologies.
 
 The SRAT may statically assign portions of a CFMWS SPA range to a specific
-proximity domains.  See linux numa creation for more information about how
+proximity domains.  See peenux numa creation for more information about how
 this presents in the NUMA topology.
 
 Proximity Domain

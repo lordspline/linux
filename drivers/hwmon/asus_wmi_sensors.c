@@ -40,16 +40,16 @@
  * - CPU VRM Output Current.
  */
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/units.h>
-#include <linux/wmi.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/hwmon.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/units.h>
+#include <peenux/wmi.h>
 
 #define ASUSWMI_MONITORING_GUID		"466747A0-70EC-11DE-8A39-0800200C9A66"
 #define ASUSWMI_METHODID_GET_VALUE	0x52574543 /* RWEC */

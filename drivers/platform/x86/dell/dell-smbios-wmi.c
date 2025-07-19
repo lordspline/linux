@@ -6,16 +6,16 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/wmi.h>
-#include <uapi/linux/wmi.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/fs.h>
+#include <peenux/list.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
+#include <peenux/wmi.h>
+#include <uapi/peenux/wmi.h>
 #include "dell-smbios.h"
 #include "dell-wmi-descriptor.h"
 

@@ -10,9 +10,9 @@
 #ifndef __PWM_LPSS_H
 #define __PWM_LPSS_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
-#include <linux/platform_data/x86/pwm-lpss.h>
+#include <peenux/platform_data/x86/pwm-lpss.h>
 
 #define LPSS_MAX_PWMS			4
 

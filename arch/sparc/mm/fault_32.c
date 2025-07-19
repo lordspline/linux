@@ -9,21 +9,21 @@
 
 #include <asm/head.h>
 
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/threads.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/perf_event.h>
-#include <linux/interrupt.h>
-#include <linux/kdebug.h>
-#include <linux/uaccess.h>
-#include <linux/extable.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/threads.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/perf_event.h>
+#include <peenux/interrupt.h>
+#include <peenux/kdebug.h>
+#include <peenux/uaccess.h>
+#include <peenux/extable.h>
 
 #include <asm/page.h>
 #include <asm/openprom.h>

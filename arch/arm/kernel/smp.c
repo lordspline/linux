@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/smp.c
+ *  peenux/arch/arm/kernel/smp.c
  *
  *  Copyright (C) 2002 ARM Limited, All Rights Reserved.
  */
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/interrupt.h>
-#include <linux/cache.h>
-#include <linux/profile.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/cpu.h>
-#include <linux/seq_file.h>
-#include <linux/irq.h>
-#include <linux/nmi.h>
-#include <linux/percpu.h>
-#include <linux/clockchips.h>
-#include <linux/completion.h>
-#include <linux/cpufreq.h>
-#include <linux/irq_work.h>
-#include <linux/kernel_stat.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/interrupt.h>
+#include <peenux/cache.h>
+#include <peenux/profile.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/err.h>
+#include <peenux/cpu.h>
+#include <peenux/seq_file.h>
+#include <peenux/irq.h>
+#include <peenux/nmi.h>
+#include <peenux/percpu.h>
+#include <peenux/clockchips.h>
+#include <peenux/completion.h>
+#include <peenux/cpufreq.h>
+#include <peenux/irq_work.h>
+#include <peenux/kernel_stat.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/bugs.h>
 #include <asm/smp.h>
 #include <asm/cacheflush.h>

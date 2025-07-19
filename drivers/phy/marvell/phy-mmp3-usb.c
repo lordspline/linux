@@ -4,13 +4,13 @@
  * Copyright (C) 2018,2019 Lubomir Rintel <lkundrak@v3.sk>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/soc/mmp/cputype.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/mmp/cputype.h>
 
 #define USB2_PLL_REG0		0x4
 #define USB2_PLL_REG1		0x8

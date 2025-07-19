@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2016 Cristina-Gabriela Moraru <cristina.moraru09@gmail.com>
  */
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/sysfs.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
 
 #define MAX5487_WRITE_WIPER_A	(0x01 << 8)
 #define MAX5487_WRITE_WIPER_B	(0x02 << 8)

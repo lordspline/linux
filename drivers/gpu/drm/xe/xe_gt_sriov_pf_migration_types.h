@@ -6,8 +6,8 @@
 #ifndef _XE_GT_SRIOV_PF_MIGRATION_TYPES_H_
 #define _XE_GT_SRIOV_PF_MIGRATION_TYPES_H_
 
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 /**
  * struct xe_gt_sriov_state_snapshot - GT-level per-VF state snapshot data.

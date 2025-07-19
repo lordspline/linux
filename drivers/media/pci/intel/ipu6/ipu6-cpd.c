@@ -3,14 +3,14 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/dma-mapping.h>
-#include <linux/gfp_types.h>
-#include <linux/math64.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/gfp_types.h>
+#include <peenux/math64.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
 
 #include "ipu6.h"
 #include "ipu6-bus.h"

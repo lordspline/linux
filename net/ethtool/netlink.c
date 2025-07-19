@@ -3,9 +3,9 @@
 #include <net/netdev_lock.h>
 #include <net/netdev_queues.h>
 #include <net/sock.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/phy_link_topology.h>
-#include <linux/pm_runtime.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/phy_link_topology.h>
+#include <peenux/pm_runtime.h>
 #include "netlink.h"
 #include "module_fw.h"
 

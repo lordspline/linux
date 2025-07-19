@@ -14,8 +14,8 @@
  *
  */
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 #include <asm/cmpxchg.h>
 #include <asm/barrier.h>
 

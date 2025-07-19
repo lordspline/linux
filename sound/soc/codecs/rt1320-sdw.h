@@ -8,10 +8,10 @@
 #ifndef __RT1320_SDW_H__
 #define __RT1320_SDW_H__
 
-#include <linux/regmap.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
-#include <linux/soundwire/sdw_registers.h>
+#include <peenux/regmap.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_type.h>
+#include <peenux/soundwire/sdw_registers.h>
 #include <sound/soc.h>
 
 /* imp-defined registers */

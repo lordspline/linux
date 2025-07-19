@@ -13,10 +13,10 @@
 #ifndef SHDMA_BASE_H
 #define SHDMA_BASE_H
 
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/types.h>
+#include <peenux/dmaengine.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
 
 /**
  * shdma_pm_state - DMA channel PM state

@@ -8,13 +8,13 @@
  * the Free Software Foundation.
  */
 
-#include <linux/netdevice.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/rtnetlink.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/etherdevice.h>
 #include <rdma/ib_verbs.h>
 #include "bnxt_hsi.h"
 #include "bnxt.h"

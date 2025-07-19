@@ -16,16 +16,16 @@
  * Copyright 2005 Openedhand Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/clk.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
 
-#include <linux/atmel-ssc.h>
+#include <peenux/atmel-ssc.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

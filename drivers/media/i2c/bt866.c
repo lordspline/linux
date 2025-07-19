@@ -16,13 +16,13 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/ioctl.h>
-#include <linux/uaccess.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/ioctl.h>
+#include <peenux/uaccess.h>
+#include <peenux/i2c.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-device.h>
 
 MODULE_DESCRIPTION("Brooktree-866 video encoder driver");

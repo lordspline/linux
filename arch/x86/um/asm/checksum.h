@@ -2,9 +2,9 @@
 #ifndef __UM_CHECKSUM_H
 #define __UM_CHECKSUM_H
 
-#include <linux/string.h>
-#include <linux/in6.h>
-#include <linux/uaccess.h>
+#include <peenux/string.h>
+#include <peenux/in6.h>
+#include <peenux/uaccess.h>
 
 /*
  * computes the checksum of a memory block at buff, length len,

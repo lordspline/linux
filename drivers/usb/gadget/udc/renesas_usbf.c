@@ -6,20 +6,20 @@
  * Author: Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/types.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/role.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/kfifo.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/types.h>
+#include <peenux/usb/composite.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/role.h>
 
 #define USBF_NUM_ENDPOINTS	16
 #define USBF_EP0_MAX_PCKT_SIZE	64

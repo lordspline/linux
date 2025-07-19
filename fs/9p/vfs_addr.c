@@ -6,17 +6,17 @@
  *  Copyright (C) 2002 by Ron Minnich <rminnich@lanl.gov>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/pagemap.h>
-#include <linux/sched.h>
-#include <linux/swap.h>
-#include <linux/uio.h>
-#include <linux/netfs.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/stat.h>
+#include <peenux/string.h>
+#include <peenux/pagemap.h>
+#include <peenux/sched.h>
+#include <peenux/swap.h>
+#include <peenux/uio.h>
+#include <peenux/netfs.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 #include <trace/events/netfs.h>

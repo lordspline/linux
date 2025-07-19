@@ -15,15 +15,15 @@
  *                   - G, Manjunath Kondaiah <manjugk@ti.com>
  */
 
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/omap-dma.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/omap-dma.h>
 #include "tc.h"
 
 #include "soc.h"

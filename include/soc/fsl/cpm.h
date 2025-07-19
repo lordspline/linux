@@ -2,10 +2,10 @@
 #ifndef __CPM_H
 #define __CPM_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/of.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/of.h>
 #include <soc/fsl/qe/qe.h>
 
 /*

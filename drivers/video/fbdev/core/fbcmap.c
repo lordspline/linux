@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/fbcmap.c -- Colormap handling for frame buffer devices
+ *  peenux/drivers/video/fbcmap.c -- Colormap handling for frame buffer devices
  *
  *	Created 15 Jun 1997 by Geert Uytterhoeven
  *
@@ -11,11 +11,11 @@
  *  more details.
  */
 
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/fb.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/fb.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 static u16 red2[] __read_mostly = {
     0x0000, 0xaaaa

@@ -6,14 +6,14 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/seq_file.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/seq_file.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_debugfs.h>

@@ -5,9 +5,9 @@
  *  Copyright (C) 2008, 2009 Michael Krufky <mkrufky@linuxtv.org>
  */
 
-#include <linux/i2c.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <peenux/i2c.h>
+#include <peenux/types.h>
+#include <peenux/videodev2.h>
 #include "tuner-i2c.h"
 #include "mxl5007t.h"
 

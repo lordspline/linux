@@ -11,14 +11,14 @@
  * The majority of actual code is related to sysfs create and read/write
  * attributes.
  *
- * Author: Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>
+ * Author: Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
+#include <peenux/bitfield.h>
+#include <peenux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
 #include <asm/msr.h>

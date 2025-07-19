@@ -8,8 +8,8 @@
 #ifndef __NET_PRUSS_MII_RT_H__
 #define __NET_PRUSS_MII_RT_H__
 
-#include <linux/if_ether.h>
-#include <linux/phy.h>
+#include <peenux/if_ether.h>
+#include <peenux/phy.h>
 
 /* PRUSS_MII_RT Registers */
 #define PRUSS_MII_RT_RXCFG0		0x0

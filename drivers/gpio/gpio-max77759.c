@@ -5,21 +5,21 @@
 //
 // GPIO driver for Maxim MAX77759
 
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/device/driver.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqreturn.h>
-#include <linux/lockdep.h>
-#include <linux/mfd/max77759.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
+#include <peenux/dev_printk.h>
+#include <peenux/device.h>
+#include <peenux/device/driver.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqreturn.h>
+#include <peenux/lockdep.h>
+#include <peenux/mfd/max77759.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/seq_file.h>
 
 #define MAX77759_N_GPIOS   ARRAY_SIZE(max77759_gpio_line_names)
 static const char * const max77759_gpio_line_names[] = { "GPIO5", "GPIO6" };

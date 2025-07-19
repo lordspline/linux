@@ -6,14 +6,14 @@
  *  Copyright (C) 2003 - 2007 Paul Mundt
  */
 
-#include <linux/bcd.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
-#include <linux/spi/spi.h>
+#include <peenux/bcd.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/rtc.h>
+#include <peenux/spi/spi.h>
 
 #define	RTC_CMD_READ	0x81		/* Read command */
 #define	RTC_CMD_WRITE	0x80		/* Write command */

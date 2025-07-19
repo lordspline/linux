@@ -7,12 +7,12 @@
  * Copyright (C) 2009 EF Johnson Technologies
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/etherdevice.h>
-#include <linux/crc32.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/etherdevice.h>
+#include <peenux/crc32.h>
+#include <peenux/slab.h>
 
 #include "u_ether.h"
 #include "u_ether_configfs.h"

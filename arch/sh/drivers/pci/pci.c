@@ -6,17 +6,17 @@
  * Copyright (c) 2002  M. R. Brown
  *
  * Modelled after arch/mips/pci/pci.c:
- *  Copyright (C) 2003, 04 Ralf Baechle (ralf@linux-mips.org)
+ *  Copyright (C) 2003, 04 Ralf Baechle (ralf@peenux-mips.org)
  */
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/io.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/export.h>
 
 unsigned long PCIBIOS_MIN_IO = 0x0000;
 unsigned long PCIBIOS_MIN_MEM = 0;

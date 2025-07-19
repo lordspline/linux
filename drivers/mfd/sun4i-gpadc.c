@@ -4,15 +4,15 @@
  * Copyright (c) 2016 Quentin Schulz <quentin.schulz@free-electrons.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/sun4i-gpadc.h>
+#include <peenux/mfd/sun4i-gpadc.h>
 
 #define ARCH_SUN4I_A10 0
 #define ARCH_SUN5I_A13 1

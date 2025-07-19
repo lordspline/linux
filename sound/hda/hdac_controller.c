@@ -3,9 +3,9 @@
  * HD-audio controller helpers
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
 #include <sound/core.h>
 #include <sound/hdaudio.h>
 #include <sound/hda_register.h>

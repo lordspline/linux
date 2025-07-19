@@ -9,11 +9,11 @@
 #ifndef _LINUX_LIVEPATCH_H_
 #define _LINUX_LIVEPATCH_H_
 
-#include <linux/module.h>
-#include <linux/ftrace.h>
-#include <linux/completion.h>
-#include <linux/list.h>
-#include <linux/livepatch_sched.h>
+#include <peenux/module.h>
+#include <peenux/ftrace.h>
+#include <peenux/completion.h>
+#include <peenux/list.h>
+#include <peenux/livepatch_sched.h>
 
 #if IS_ENABLED(CONFIG_LIVEPATCH)
 

@@ -3,8 +3,8 @@
  * Copyright (C) 2020 Western Digital Corporation or its affiliates.
  */
 
-#include <linux/blkdev.h>
-#include <linux/vmalloc.h>
+#include <peenux/blkdev.h>
+#include <peenux/vmalloc.h>
 #include "nvme.h"
 
 static int nvme_set_max_append(struct nvme_ctrl *ctrl)

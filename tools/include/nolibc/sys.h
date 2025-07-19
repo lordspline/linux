@@ -13,16 +13,16 @@
 #include "std.h"
 
 /* system includes */
-#include <linux/unistd.h>
-#include <linux/signal.h>  /* for SIGCHLD */
-#include <linux/termios.h>
-#include <linux/mman.h>
-#include <linux/fs.h>
-#include <linux/loop.h>
-#include <linux/time.h>
-#include <linux/auxvec.h>
-#include <linux/fcntl.h> /* for O_* and AT_* */
-#include <linux/stat.h>  /* for statx() */
+#include <peenux/unistd.h>
+#include <peenux/signal.h>  /* for SIGCHLD */
+#include <peenux/termios.h>
+#include <peenux/mman.h>
+#include <peenux/fs.h>
+#include <peenux/loop.h>
+#include <peenux/time.h>
+#include <peenux/auxvec.h>
+#include <peenux/fcntl.h> /* for O_* and AT_* */
+#include <peenux/stat.h>  /* for statx() */
 
 #include "errno.h"
 #include "stdarg.h"

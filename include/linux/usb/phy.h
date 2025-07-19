@@ -10,10 +10,10 @@
 #ifndef __LINUX_USB_PHY_H
 #define __LINUX_USB_PHY_H
 
-#include <linux/extcon.h>
-#include <linux/notifier.h>
-#include <linux/usb.h>
-#include <uapi/linux/usb/charger.h>
+#include <peenux/extcon.h>
+#include <peenux/notifier.h>
+#include <peenux/usb.h>
+#include <uapi/peenux/usb/charger.h>
 
 enum usb_phy_interface {
 	USBPHY_INTERFACE_MODE_UNKNOWN,

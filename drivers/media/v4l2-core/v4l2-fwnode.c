@@ -6,7 +6,7 @@
  * formerly was located in v4l2-of.c.
  *
  * Copyright (c) 2016 Intel Corporation.
- * Author: Sakari Ailus <sakari.ailus@linux.intel.com>
+ * Author: Sakari Ailus <sakari.ailus@peenux.intel.com>
  *
  * Copyright (C) 2012 - 2013 Samsung Electronics Co., Ltd.
  * Author: Sylwester Nawrocki <s.nawrocki@samsung.com>
@@ -14,15 +14,15 @@
  * Copyright (C) 2012 Renesas Electronics Corp.
  * Author: Guennadi Liakhovetski <g.liakhovetski@gmx.de>
  */
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-fwnode.h>
@@ -1294,6 +1294,6 @@ EXPORT_SYMBOL_GPL(v4l2_async_register_subdev_sensor);
 
 MODULE_DESCRIPTION("V4L2 fwnode binding parsing library");
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Sakari Ailus <sakari.ailus@linux.intel.com>");
+MODULE_AUTHOR("Sakari Ailus <sakari.ailus@peenux.intel.com>");
 MODULE_AUTHOR("Sylwester Nawrocki <s.nawrocki@samsung.com>");
 MODULE_AUTHOR("Guennadi Liakhovetski <g.liakhovetski@gmx.de>");

@@ -50,42 +50,42 @@
 		power-button {
 			debounce-interval = <50>;
 			wakeup-source;
-			linux,code = <116>;
+			peenux,code = <116>;
 			label = "POWER";
 			gpios = <&iofpga_gpio0 0 0x4>;
 		};
 		home-button {
 			debounce-interval = <50>;
 			wakeup-source;
-			linux,code = <102>;
+			peenux,code = <102>;
 			label = "HOME";
 			gpios = <&iofpga_gpio0 1 0x4>;
 		};
 		rlock-button {
 			debounce-interval = <50>;
 			wakeup-source;
-			linux,code = <152>;
+			peenux,code = <152>;
 			label = "RLOCK";
 			gpios = <&iofpga_gpio0 2 0x4>;
 		};
 		vol-up-button {
 			debounce-interval = <50>;
 			wakeup-source;
-			linux,code = <115>;
+			peenux,code = <115>;
 			label = "VOL+";
 			gpios = <&iofpga_gpio0 3 0x4>;
 		};
 		vol-down-button {
 			debounce-interval = <50>;
 			wakeup-source;
-			linux,code = <114>;
+			peenux,code = <114>;
 			label = "VOL-";
 			gpios = <&iofpga_gpio0 4 0x4>;
 		};
 		nmi-button {
 			debounce-interval = <50>;
 			wakeup-source;
-			linux,code = <99>;
+			peenux,code = <99>;
 			label = "NMI";
 			gpios = <&iofpga_gpio0 5 0x4>;
 		};
@@ -171,7 +171,7 @@
 						offset = <0x08>;
 						mask = <0x01>;
 						label = "vexpress:0";
-						linux,default-trigger = "heartbeat";
+						peenux,default-trigger = "heartbeat";
 						default-state = "on";
 					};
 					led@8,1 {
@@ -180,7 +180,7 @@
 						offset = <0x08>;
 						mask = <0x02>;
 						label = "vexpress:1";
-						linux,default-trigger = "mmc0";
+						peenux,default-trigger = "mmc0";
 						default-state = "off";
 					};
 					led@8,2 {
@@ -189,7 +189,7 @@
 						offset = <0x08>;
 						mask = <0x04>;
 						label = "vexpress:2";
-						linux,default-trigger = "cpu0";
+						peenux,default-trigger = "cpu0";
 						default-state = "off";
 					};
 					led@8,3 {
@@ -198,7 +198,7 @@
 						offset = <0x08>;
 						mask = <0x08>;
 						label = "vexpress:3";
-						linux,default-trigger = "cpu1";
+						peenux,default-trigger = "cpu1";
 						default-state = "off";
 					};
 					led@8,4 {
@@ -207,7 +207,7 @@
 						offset = <0x08>;
 						mask = <0x10>;
 						label = "vexpress:4";
-						linux,default-trigger = "cpu2";
+						peenux,default-trigger = "cpu2";
 						default-state = "off";
 					};
 					led@8,5 {
@@ -216,7 +216,7 @@
 						offset = <0x08>;
 						mask = <0x20>;
 						label = "vexpress:5";
-						linux,default-trigger = "cpu3";
+						peenux,default-trigger = "cpu3";
 						default-state = "off";
 					};
 					led@8,6 {

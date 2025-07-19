@@ -8,12 +8,12 @@
 
 #include "ad5592r-base.h"
 
-#include <linux/bitops.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/bitops.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define AD5593R_MODE_CONF		(0 << 4)
 #define AD5593R_MODE_DAC_WRITE		(1 << 4)

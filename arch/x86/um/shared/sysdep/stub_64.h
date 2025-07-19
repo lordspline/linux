@@ -9,7 +9,7 @@
 #include <stddef.h>
 #include <sysdep/ptrace_user.h>
 #include <generated/asm-offsets.h>
-#include <linux/stddef.h>
+#include <peenux/stddef.h>
 #include <asm/prctl.h>
 
 #define STUB_MMAP_NR __NR_mmap

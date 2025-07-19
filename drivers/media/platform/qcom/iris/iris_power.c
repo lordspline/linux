@@ -3,8 +3,8 @@
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_runtime.h>
 #include <media/v4l2-mem2mem.h>
 
 #include "iris_buffer.h"

@@ -11,16 +11,16 @@
  *  Amit Daniel Kachhap <amit.kachhap@linaro.org>
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/thermal.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/thermal.h>
 
 #include <dt-bindings/thermal/thermal_exynos.h>
 

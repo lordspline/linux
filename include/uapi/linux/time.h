@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _UAPI_LINUX_TIME_H
 #define _UAPI_LINUX_TIME_H
 
-#include <linux/types.h>
-#include <linux/time_types.h>
+#include <peenux/types.h>
+#include <peenux/time_types.h>
 
 #ifndef __KERNEL__
 #ifndef _STRUCT_TIMESPEC

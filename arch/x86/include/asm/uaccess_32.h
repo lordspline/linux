@@ -5,7 +5,7 @@
 /*
  * User space memory access functions
  */
-#include <linux/string.h>
+#include <peenux/string.h>
 #include <asm/asm.h>
 #include <asm/page.h>
 

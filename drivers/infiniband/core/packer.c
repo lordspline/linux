@@ -31,8 +31,8 @@
  * SOFTWARE.
  */
 
-#include <linux/export.h>
-#include <linux/string.h>
+#include <peenux/export.h>
+#include <peenux/string.h>
 
 #include <rdma/ib_pack.h>
 

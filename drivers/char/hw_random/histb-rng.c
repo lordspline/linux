@@ -3,14 +3,14 @@
  * Copyright (c) 2023 David Yang
  */
 
-#include <linux/err.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #define RNG_CTRL		0x0
 #define  RNG_SOURCE			GENMASK(1, 0)

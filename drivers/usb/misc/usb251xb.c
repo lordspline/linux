@@ -10,15 +10,15 @@
  * https://patchwork.kernel.org/patch/9257715/
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/nls.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/nls.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 /* Internal Register Set Addresses & Default Values acc. to DS00001692C */
 #define USB251XB_ADDR_VENDOR_ID_LSB	0x00

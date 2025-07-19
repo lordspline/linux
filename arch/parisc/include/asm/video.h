@@ -2,7 +2,7 @@
 #ifndef _ASM_VIDEO_H_
 #define _ASM_VIDEO_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct device;
 

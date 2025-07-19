@@ -4,9 +4,9 @@
  * Copyright (c) 2019, Guenter Roeck
  */
 
-#include <linux/hwmon.h>
-#include <linux/units.h>
-#include <linux/unaligned.h>
+#include <peenux/hwmon.h>
+#include <peenux/units.h>
+#include <peenux/unaligned.h>
 
 #include "nvme.h"
 

@@ -11,9 +11,9 @@
 #include <asm-generic/kprobes.h>
 
 #ifdef CONFIG_KPROBES
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/percpu.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/percpu.h>
 
 #define __ARCH_WANT_KPROBES_INSN_SLOT
 #define MAX_INSN_SIZE			2

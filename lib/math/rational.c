@@ -8,12 +8,12 @@
  * helper functions when coping with rational numbers
  */
 
-#include <linux/rational.h>
-#include <linux/compiler.h>
-#include <linux/export.h>
-#include <linux/minmax.h>
-#include <linux/limits.h>
-#include <linux/module.h>
+#include <peenux/rational.h>
+#include <peenux/compiler.h>
+#include <peenux/export.h>
+#include <peenux/minmax.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
 
 /*
  * calculate best rational approximation for a given fraction

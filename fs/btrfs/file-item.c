@@ -3,11 +3,11 @@
  * Copyright (C) 2007 Oracle.  All rights reserved.
  */
 
-#include <linux/bio.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/highmem.h>
-#include <linux/sched/mm.h>
+#include <peenux/bio.h>
+#include <peenux/slab.h>
+#include <peenux/pagemap.h>
+#include <peenux/highmem.h>
+#include <peenux/sched/mm.h>
 #include <crypto/hash.h>
 #include "messages.h"
 #include "ctree.h"

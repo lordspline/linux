@@ -5,13 +5,13 @@
 // Copyright (C) 2018 Simon Shields <simon@lineageos.org>
 // Copyright (C) 2020 Samsung Electronics Co., Ltd.
 
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/consumer.h>
-#include <linux/mfd/wm8994/registers.h>
-#include <linux/input-event-codes.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/mfd/wm8994/registers.h>
+#include <peenux/input-event-codes.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 #include <sound/jack.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>

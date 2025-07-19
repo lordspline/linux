@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * Linux/PA-RISC Project (http://www.parisc-linux.org/)
+ * Peenux/PA-RISC Project (http://www.parisc-peenux.org/)
  *
  * kernel entry points (interruptions, system call wrappers)
  *  Copyright (C) 1999,2000 Philipp Rumpf 
@@ -27,8 +27,8 @@
 #include <asm/alternative.h>
 #include <asm/spinlock_types.h>
 
-#include <linux/linkage.h>
-#include <linux/pgtable.h>
+#include <peenux/linkage.h>
+#include <peenux/pgtable.h>
 
 #ifdef CONFIG_64BIT
 	.level 2.0w

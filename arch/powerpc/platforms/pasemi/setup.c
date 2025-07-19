@@ -10,17 +10,17 @@
  * Based on arch/powerpc/platforms/maple/setup.c
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/console.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/gfp.h>
-#include <linux/irqdomain.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/console.h>
+#include <peenux/export.h>
+#include <peenux/pci.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/gfp.h>
+#include <peenux/irqdomain.h>
 
 #include <asm/iommu.h>
 #include <asm/machdep.h>

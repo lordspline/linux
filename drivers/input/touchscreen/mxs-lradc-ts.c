@@ -10,16 +10,16 @@
  *  Ksenija Stanojevic <ksenija.stanojevic@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mxs-lradc.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/mxs-lradc.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 static const char * const mxs_lradc_ts_irq_names[] = {
 	"mxs-lradc-touchscreen",

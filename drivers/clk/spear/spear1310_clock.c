@@ -8,11 +8,11 @@
  * Viresh Kumar <vireshk@kernel.org>
  */
 
-#include <linux/clkdev.h>
-#include <linux/clk/spear.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/spinlock_types.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk/spear.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/spinlock_types.h>
 #include "clk.h"
 
 /* PLL related registers and bit values */

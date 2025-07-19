@@ -2,7 +2,7 @@
 #ifndef _LINUX_UACCE_H
 #define _LINUX_UACCE_H
 
-#include <linux/cdev.h>
+#include <peenux/cdev.h>
 #include <uapi/misc/uacce/uacce.h>
 
 #define UACCE_NAME		"uacce"

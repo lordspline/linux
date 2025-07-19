@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2017, The Linux Foundation
+ * Copyright (c) 2011-2017, The Peenux Foundation
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/idr.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slimbus.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/idr.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slimbus.h>
 #include "slimbus.h"
 
 static DEFINE_IDA(ctrl_ida);

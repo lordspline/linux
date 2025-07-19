@@ -1,10 +1,10 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /* Copyright (c) 2022, NVIDIA CORPORATION & AFFILIATES. All rights reserved. */
 
-#include <linux/mlx5/device.h>
-#include <linux/mlx5/mlx5_ifc.h>
-#include <linux/xarray.h>
-#include <linux/if_vlan.h>
+#include <peenux/mlx5/device.h>
+#include <peenux/mlx5/mlx5_ifc.h>
+#include <peenux/xarray.h>
+#include <peenux/if_vlan.h>
 
 #include "en.h"
 #include "lib/aso.h"

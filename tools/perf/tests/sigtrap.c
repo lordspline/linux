@@ -8,8 +8,8 @@
 #include <errno.h>
 #include <stdint.h>
 #include <stdlib.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/string.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/string.h>
 #include <pthread.h>
 #include <signal.h>
 #include <sys/ioctl.h>

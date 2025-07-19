@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2022, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2022, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/interconnect-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/interconnect.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 #include <dt-bindings/interconnect/qcom,sdm670-rpmh.h>
 
 #include "bcm-voter.h"

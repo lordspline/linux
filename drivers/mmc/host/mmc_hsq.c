@@ -7,9 +7,9 @@
  * Author: Baolin Wang <baolin.wang@linaro.org>
  */
 
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/module.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/module.h>
 
 #include "mmc_hsq.h"
 

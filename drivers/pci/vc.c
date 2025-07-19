@@ -6,13 +6,13 @@
  *     Author: Alex Williamson <alex.williamson@redhat.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pci_regs.h>
+#include <peenux/types.h>
 
 #include "pci.h"
 

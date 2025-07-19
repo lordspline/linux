@@ -3,9 +3,9 @@
 #ifndef BTRFS_BLOCK_RSV_H
 #define BTRFS_BLOCK_RSV_H
 
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/spinlock.h>
 
 struct btrfs_trans_handle;
 struct btrfs_root;

@@ -11,20 +11,20 @@
  * support and lock-less operation written by Adrian Hunter.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/blktrans.h>
-#include <linux/rbtree.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/blkdev.h>
-#include <linux/swap.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/device.h>
-#include <linux/math64.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/blktrans.h>
+#include <peenux/rbtree.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/blkdev.h>
+#include <peenux/swap.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/device.h>
+#include <peenux/math64.h>
 
 #define MTDSWAP_PREFIX "mtdswap"
 

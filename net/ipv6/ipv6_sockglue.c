@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	IPv6 BSD socket options interface
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
  *
- *	Based on linux/net/ipv4/ip_sockglue.c
+ *	Based on peenux/net/ipv4/ip_sockglue.c
  *
  *	FIXME: Make the setsockopt code POSIX compliant: That is
  *
@@ -18,21 +18,21 @@
  *		- added multicast source filtering API for MLDv2
  */
 
-#include <linux/module.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/in6.h>
-#include <linux/mroute6.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/init.h>
-#include <linux/sysctl.h>
-#include <linux/netfilter.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/in6.h>
+#include <peenux/mroute6.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/init.h>
+#include <peenux/sysctl.h>
+#include <peenux/netfilter.h>
+#include <peenux/slab.h>
 
 #include <net/sock.h>
 #include <net/snmp.h>
@@ -50,7 +50,7 @@
 #include <net/compat.h>
 #include <net/seg6.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 struct ip6_ra_chain *ip6_ra_chain;
 DEFINE_RWLOCK(ip6_ra_lock);

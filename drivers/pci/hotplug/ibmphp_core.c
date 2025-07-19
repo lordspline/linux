@@ -13,13 +13,13 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/wait.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/wait.h>
 #include "../pci.h"
 #include <asm/pci_x86.h>		/* for struct irq_routing_table */
 #include <asm/io_apic.h>

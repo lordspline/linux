@@ -6,17 +6,17 @@
  *  Copyright (C) 2013-2016 John Crispin <john@phrozen.org>
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_pci.h>
-#include <linux/reset.h>
-#include <linux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_pci.h>
+#include <peenux/reset.h>
+#include <peenux/platform_device.h>
 
 #include <asm/mach-ralink/ralink_regs.h>
 #include <asm/mach-ralink/mt7620.h>

@@ -8,9 +8,9 @@
 #include <sched.h>
 #include <signal.h>
 #include <unistd.h>
-#include <linux/filter.h>
-#include <linux/unistd.h>
-#include <linux/mount.h>
+#include <peenux/filter.h>
+#include <peenux/unistd.h>
+#include <peenux/mount.h>
 #include <sys/socket.h>
 #include <sys/stat.h>
 #include <sys/syscall.h>

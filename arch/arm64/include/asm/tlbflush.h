@@ -10,10 +10,10 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/bitfield.h>
-#include <linux/mm_types.h>
-#include <linux/sched.h>
-#include <linux/mmu_notifier.h>
+#include <peenux/bitfield.h>
+#include <peenux/mm_types.h>
+#include <peenux/sched.h>
+#include <peenux/mmu_notifier.h>
 #include <asm/cputype.h>
 #include <asm/mmu.h>
 

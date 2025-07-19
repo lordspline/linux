@@ -7,14 +7,14 @@
  * Contact: Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_data/bd6107.h>
-#include <linux/slab.h>
+#include <peenux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/bd6107.h>
+#include <peenux/slab.h>
 
 #define BD6107_PSCNT1				0x00
 #define BD6107_PSCNT1_PSCNTREG2			(1 << 2)

@@ -32,27 +32,27 @@
 
 #define pr_fmt(fmt) "X25: " fmt
 
-#include <linux/module.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/timer.h>
+#include <peenux/string.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
 #include <net/sock.h>
 #include <net/tcp_states.h>
-#include <linux/uaccess.h>
-#include <linux/fcntl.h>
-#include <linux/termios.h>	/* For TIOCINQ/OUTQ */
-#include <linux/notifier.h>
-#include <linux/init.h>
-#include <linux/compat.h>
-#include <linux/ctype.h>
+#include <peenux/uaccess.h>
+#include <peenux/fcntl.h>
+#include <peenux/termios.h>	/* For TIOCINQ/OUTQ */
+#include <peenux/notifier.h>
+#include <peenux/init.h>
+#include <peenux/compat.h>
+#include <peenux/ctype.h>
 
 #include <net/x25.h>
 #include <net/compat.h>
@@ -1815,7 +1815,7 @@ static int __init x25_init(void)
 	if (rc)
 		goto out_sysctl;
 
-	pr_info("Linux Version 0.2\n");
+	pr_info("Peenux Version 0.2\n");
 
 out:
 	return rc;

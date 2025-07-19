@@ -9,20 +9,20 @@
  * Copyright (c) 2009 Wind River Systems, Inc.  All Rights Reserved.
  */
 
-#include <linux/types.h>
-#include <linux/ctype.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/kdev_t.h>
-#include <linux/console.h>
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/nmi.h>
-#include <linux/delay.h>
-#include <linux/kgdb.h>
-#include <linux/kdb.h>
-#include <linux/kallsyms.h>
+#include <peenux/types.h>
+#include <peenux/ctype.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/kdev_t.h>
+#include <peenux/console.h>
+#include <peenux/string.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
+#include <peenux/nmi.h>
+#include <peenux/delay.h>
+#include <peenux/kgdb.h>
+#include <peenux/kdb.h>
+#include <peenux/kallsyms.h>
 #include "kdb_private.h"
 
 #define CMD_BUFLEN 256

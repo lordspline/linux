@@ -8,11 +8,11 @@
 #ifndef _CRYPTO_AEAD_H
 #define _CRYPTO_AEAD_H
 
-#include <linux/atomic.h>
-#include <linux/container_of.h>
-#include <linux/crypto.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/container_of.h>
+#include <peenux/crypto.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 /**
  * DOC: Authenticated Encryption With Associated Data (AEAD) Cipher API

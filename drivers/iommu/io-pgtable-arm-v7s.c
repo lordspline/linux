@@ -21,17 +21,17 @@
 
 #define pr_fmt(fmt)	"arm-v7s io-pgtable: " fmt
 
-#include <linux/atomic.h>
-#include <linux/dma-mapping.h>
-#include <linux/gfp.h>
-#include <linux/io-pgtable.h>
-#include <linux/iommu.h>
-#include <linux/kernel.h>
-#include <linux/kmemleak.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/gfp.h>
+#include <peenux/io-pgtable.h>
+#include <peenux/iommu.h>
+#include <peenux/kernel.h>
+#include <peenux/kmemleak.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include <asm/barrier.h>
 

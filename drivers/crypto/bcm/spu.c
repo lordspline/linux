@@ -3,8 +3,8 @@
  * Copyright 2016 Broadcom
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 
 #include "util.h"
 #include "spu.h"
@@ -515,7 +515,7 @@ u32 spum_assoc_resp_len(enum spu_cipher_mode cipher_mode,
  * @cipher_mode:  cipher mode
  * @iv_len:   initialization vector length in bytes
  *
- * In Linux ~4.2 and later, the assoc_data sg includes the IV. So no need
+ * In Peenux ~4.2 and later, the assoc_data sg includes the IV. So no need
  * to include the IV as a separate field in the SPU request msg.
  *
  * Return: Length of AEAD IV in bytes

@@ -8,16 +8,16 @@
  * Started by Ingo Molnar <mingo@elte.hu>
  */
 
-#include <linux/elf-randomize.h>
-#include <linux/personality.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/random.h>
-#include <linux/compat.h>
-#include <linux/security.h>
-#include <linux/hugetlb.h>
+#include <peenux/elf-randomize.h>
+#include <peenux/personality.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/mm.h>
+#include <peenux/random.h>
+#include <peenux/compat.h>
+#include <peenux/security.h>
+#include <peenux/hugetlb.h>
 #include <asm/elf.h>
 
 static unsigned long stack_maxrandom_size(void)

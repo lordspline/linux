@@ -2,19 +2,19 @@
 #ifndef _FS_CEPH_MDS_CLIENT_H
 #define _FS_CEPH_MDS_CLIENT_H
 
-#include <linux/completion.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/rbtree.h>
-#include <linux/spinlock.h>
-#include <linux/refcount.h>
-#include <linux/utsname.h>
-#include <linux/ktime.h>
+#include <peenux/completion.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/rbtree.h>
+#include <peenux/spinlock.h>
+#include <peenux/refcount.h>
+#include <peenux/utsname.h>
+#include <peenux/ktime.h>
 
-#include <linux/ceph/types.h>
-#include <linux/ceph/messenger.h>
-#include <linux/ceph/auth.h>
+#include <peenux/ceph/types.h>
+#include <peenux/ceph/messenger.h>
+#include <peenux/ceph/auth.h>
 
 #include "mdsmap.h"
 #include "metric.h"

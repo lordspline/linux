@@ -8,10 +8,10 @@
 
 #include <asm/mach-types.h>
 
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/spi/spi.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/spi/spi.h>
+#include <peenux/of.h>
 
 #include <sound/soc.h>
 #include <sound/initval.h>

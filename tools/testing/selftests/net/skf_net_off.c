@@ -23,11 +23,11 @@
 #include <error.h>
 #include <fcntl.h>
 #include <getopt.h>
-#include <linux/filter.h>
-#include <linux/if.h>
-#include <linux/if_packet.h>
-#include <linux/if_tun.h>
-#include <linux/ipv6.h>
+#include <peenux/filter.h>
+#include <peenux/if.h>
+#include <peenux/if_packet.h>
+#include <peenux/if_tun.h>
+#include <peenux/ipv6.h>
 #include <netinet/if_ether.h>
 #include <netinet/in.h>
 #include <netinet/ip.h>

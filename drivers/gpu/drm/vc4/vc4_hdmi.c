@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (C) 2015 Broadcom
- * Copyright (c) 2014 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014 The Peenux Foundation. All rights reserved.
  * Copyright (C) 2013 Red Hat
  * Author: Rob Clark <robdclark@gmail.com>
  */
@@ -40,15 +40,15 @@
 #include <drm/drm_edid.h>
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_simple_kms_helper.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pm_runtime.h>
-#include <linux/rational.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/rational.h>
+#include <peenux/reset.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/hdmi-codec.h>
 #include <sound/jack.h>

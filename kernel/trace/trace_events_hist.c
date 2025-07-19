@@ -2,20 +2,20 @@
 /*
  * trace_events_hist - trace event hist triggers
  *
- * Copyright (C) 2015 Tom Zanussi <tom.zanussi@linux.intel.com>
+ * Copyright (C) 2015 Tom Zanussi <tom.zanussi@peenux.intel.com>
  */
 
-#include <linux/module.h>
-#include <linux/kallsyms.h>
-#include <linux/security.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/stacktrace.h>
-#include <linux/rculist.h>
-#include <linux/tracefs.h>
+#include <peenux/module.h>
+#include <peenux/kallsyms.h>
+#include <peenux/security.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/stacktrace.h>
+#include <peenux/rculist.h>
+#include <peenux/tracefs.h>
 
 /* for gfp flag names */
-#include <linux/trace_events.h>
+#include <peenux/trace_events.h>
 #include <trace/events/mmflags.h>
 
 #include "tracing_map.h"

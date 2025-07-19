@@ -18,25 +18,25 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinctrl-state.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/reset.h>
-#include <linux/sh_dma.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/pinctrl-state.h>
+#include <peenux/platform_data/tmio.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/reset.h>
+#include <peenux/sh_dma.h>
+#include <peenux/slab.h>
 
 #include "renesas_sdhi.h"
 #include "tmio_mmc.h"

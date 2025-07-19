@@ -4,27 +4,27 @@
  *
  * Author: Leo Yan <leo.yan@linaro.org>
  */
-#include <linux/acpi.h>
-#include <linux/amba/bus.h>
-#include <linux/coresight.h>
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/panic_notifier.h>
-#include <linux/platform_device.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/acpi.h>
+#include <peenux/amba/bus.h>
+#include <peenux/coresight.h>
+#include <peenux/cpu.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_qos.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 
 #include "coresight-priv.h"
 

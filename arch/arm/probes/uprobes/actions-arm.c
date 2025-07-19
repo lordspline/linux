@@ -3,12 +3,12 @@
  * Copyright (C) 2012 Rabin Vincent <rabin at rab.in>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/wait.h>
-#include <linux/uprobes.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/wait.h>
+#include <peenux/uprobes.h>
+#include <peenux/module.h>
 
 #include "../decode.h"
 #include "../decode-arm.h"

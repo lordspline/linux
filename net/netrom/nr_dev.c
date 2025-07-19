@@ -3,29 +3,29 @@
  *
  * Copyright Jonathan Naylor G4KLX (g4klx@g4klx.demon.co.uk)
  */
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/sysctl.h>
-#include <linux/string.h>
-#include <linux/socket.h>
-#include <linux/errno.h>
-#include <linux/fcntl.h>
-#include <linux/in.h>
-#include <linux/if_ether.h>	/* For the statistics structure. */
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/sysctl.h>
+#include <peenux/string.h>
+#include <peenux/socket.h>
+#include <peenux/errno.h>
+#include <peenux/fcntl.h>
+#include <peenux/in.h>
+#include <peenux/if_ether.h>	/* For the statistics structure. */
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 #include <asm/io.h>
 
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
 
 #include <net/ip.h>
 #include <net/arp.h>

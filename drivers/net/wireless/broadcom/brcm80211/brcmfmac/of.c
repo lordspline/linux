@@ -2,11 +2,11 @@
 /*
  * Copyright (c) 2014 Broadcom Corporation
  */
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_net.h>
-#include <linux/clk.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_net.h>
+#include <peenux/clk.h>
 
 #include <defs.h>
 #include "debug.h"

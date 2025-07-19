@@ -11,7 +11,7 @@
  * Copyright (c) Andrew McDonald <andrew@mcdonald.org.uk>
  * Copyright (c) Jean-Francois Dive <jef@linuxbe.org>
  * Copyright (c) Mathias Krause <minipli@googlemail.com>
- * Copyright (c) Chandramouli Narayanan <mouli@linux.intel.com>
+ * Copyright (c) Chandramouli Narayanan <mouli@peenux.intel.com>
  */
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
@@ -21,9 +21,9 @@
 #include <crypto/internal/hash.h>
 #include <crypto/sha1.h>
 #include <crypto/sha1_base.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 static const struct x86_cpu_id module_cpu_ids[] = {
 	X86_MATCH_FEATURE(X86_FEATURE_SHA_NI, NULL),

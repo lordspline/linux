@@ -2,24 +2,24 @@
 #ifndef _BCACHEFS_UTIL_H
 #define _BCACHEFS_UTIL_H
 
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/closure.h>
-#include <linux/errno.h>
-#include <linux/freezer.h>
-#include <linux/kernel.h>
-#include <linux/min_heap.h>
-#include <linux/sched/clock.h>
-#include <linux/llist.h>
-#include <linux/log2.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/random.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/closure.h>
+#include <peenux/errno.h>
+#include <peenux/freezer.h>
+#include <peenux/kernel.h>
+#include <peenux/min_heap.h>
+#include <peenux/sched/clock.h>
+#include <peenux/llist.h>
+#include <peenux/log2.h>
+#include <peenux/percpu.h>
+#include <peenux/preempt.h>
+#include <peenux/random.h>
+#include <peenux/ratelimit.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
+#include <peenux/vmalloc.h>
+#include <peenux/workqueue.h>
 
 #include "mean_and_variance.h"
 
@@ -683,7 +683,7 @@ static inline int cmp_le32(__le32 l, __le32 r)
 	return cmp_int(le32_to_cpu(l), le32_to_cpu(r));
 }
 
-#include <linux/uuid.h>
+#include <peenux/uuid.h>
 
 static inline bool qstr_eq(const struct qstr l, const struct qstr r)
 {

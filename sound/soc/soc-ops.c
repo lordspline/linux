@@ -11,14 +11,14 @@
 //         with code, comments and ideas from :-
 //         Richard Purdie <richard@openedhand.com>
 
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/pm.h>
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/pm.h>
+#include <peenux/bitops.h>
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

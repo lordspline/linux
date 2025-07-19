@@ -7,25 +7,25 @@
 
 #undef DEBUG
 
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/seq_buf.h>
-#include <linux/seq_file.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/interrupt.h>
-#include <linux/bug.h>
-#include <linux/pci.h>
-#include <linux/cpufreq.h>
-#include <linux/memblock.h>
+#include <peenux/cpu.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/reboot.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/seq_buf.h>
+#include <peenux/seq_file.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/interrupt.h>
+#include <peenux/bug.h>
+#include <peenux/pci.h>
+#include <peenux/cpufreq.h>
+#include <peenux/memblock.h>
 
 #include <asm/machdep.h>
 #include <asm/firmware.h>

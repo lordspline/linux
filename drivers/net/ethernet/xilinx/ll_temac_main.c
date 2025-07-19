@@ -27,32 +27,32 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/if_ether.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/tcp.h>      /* needed for sizeof(tcphdr) */
-#include <linux/udp.h>      /* needed for sizeof(udphdr) */
-#include <linux/phy.h>
-#include <linux/in.h>
-#include <linux/io.h>
-#include <linux/ip.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/dma-mapping.h>
-#include <linux/processor.h>
-#include <linux/platform_data/xilinx-ll-temac.h>
+#include <peenux/delay.h>
+#include <peenux/etherdevice.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_ether.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/platform_device.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/tcp.h>      /* needed for sizeof(tcphdr) */
+#include <peenux/udp.h>      /* needed for sizeof(udphdr) */
+#include <peenux/phy.h>
+#include <peenux/in.h>
+#include <peenux/io.h>
+#include <peenux/ip.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/processor.h>
+#include <peenux/platform_data/xilinx-ll-temac.h>
 
 #include "ll_temac.h"
 

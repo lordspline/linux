@@ -5,13 +5,13 @@
 // Copyright (C) 2023 Cirrus Logic, Inc. and
 //                    Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/array_size.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/firmware/cirrus/wmfw.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/types.h>
 #include <sound/cs-amp-lib.h>
 
 #include "cs35l56.h"

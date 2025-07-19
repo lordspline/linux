@@ -8,24 +8,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
-#include <linux/random.h>
-#include <linux/sizes.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/kfifo.h>
-#include <linux/debugfs.h>
-#include <linux/list_sort.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/atomic.h>
-#include <linux/pm_runtime.h>
-#include <linux/greybus.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/delay.h>
+#include <peenux/random.h>
+#include <peenux/sizes.h>
+#include <peenux/cdev.h>
+#include <peenux/fs.h>
+#include <peenux/kfifo.h>
+#include <peenux/debugfs.h>
+#include <peenux/list_sort.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/greybus.h>
 #include <asm/div64.h>
 
 #define NSEC_PER_DAY 86400000000000ULL

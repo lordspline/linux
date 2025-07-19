@@ -5,23 +5,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ":%s: " fmt, __func__
 
-#include <linux/string.h>
-#include <linux/net.h>		/* struct socket, struct proto_ops */
-#include <linux/errno.h>	/* error codes */
-#include <linux/kernel.h>	/* printk */
-#include <linux/skbuff.h>
-#include <linux/wait.h>
-#include <linux/sched/signal.h>
-#include <linux/fcntl.h>	/* O_NONBLOCK */
-#include <linux/init.h>
-#include <linux/atm.h>		/* ATM stuff */
-#include <linux/atmsap.h>
-#include <linux/atmsvc.h>
-#include <linux/atmdev.h>
-#include <linux/bitops.h>
+#include <peenux/string.h>
+#include <peenux/net.h>		/* struct socket, struct proto_ops */
+#include <peenux/errno.h>	/* error codes */
+#include <peenux/kernel.h>	/* printk */
+#include <peenux/skbuff.h>
+#include <peenux/wait.h>
+#include <peenux/sched/signal.h>
+#include <peenux/fcntl.h>	/* O_NONBLOCK */
+#include <peenux/init.h>
+#include <peenux/atm.h>		/* ATM stuff */
+#include <peenux/atmsap.h>
+#include <peenux/atmsvc.h>
+#include <peenux/atmdev.h>
+#include <peenux/bitops.h>
 #include <net/sock.h>		/* for sock_no_* */
-#include <linux/uaccess.h>
-#include <linux/export.h>
+#include <peenux/uaccess.h>
+#include <peenux/export.h>
 
 #include "resources.h"
 #include "common.h"		/* common for PVCs and SVCs */

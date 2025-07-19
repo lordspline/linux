@@ -5,8 +5,8 @@
 
 #include "packer.h"
 
-#include <linux/atomic.h>
-#include <linux/blkdev.h>
+#include <peenux/atomic.h>
+#include <peenux/blkdev.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

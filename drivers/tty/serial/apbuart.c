@@ -2,7 +2,7 @@
 /*
  *  Driver for GRLIB serial ports (APBUART)
  *
- *  Based on linux/drivers/serial/amba.c
+ *  Based on peenux/drivers/serial/amba.c
  *
  *  Copyright (C) 2000 Deep Blue Solutions Ltd.
  *  Copyright (C) 2003 Konrad Eisele <eiselekd@web.de>
@@ -11,20 +11,20 @@
  *  Copyright (C) 2009 Kristoffer Glembo <kristoffer@gaisler.com>, Aeroflex Gaisler AB
  */
 
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/kthread.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/serial_core.h>
+#include <peenux/module.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/kthread.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/serial_core.h>
 #include <asm/irq.h>
 
 #include "apbuart.h"

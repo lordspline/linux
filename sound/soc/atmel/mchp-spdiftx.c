@@ -6,12 +6,12 @@
 //
 // Author: Codrin Ciubotariu <codrin.ciubotariu@microchip.com>
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spinlock.h>
 
 #include <sound/asoundef.h>
 #include <sound/dmaengine_pcm.h>

@@ -5,15 +5,15 @@
 // Author: Cezary Rojewski <cezary.rojewski@intel.com>
 //
 // SOF client support:
-//  Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
-//  Peter Ujfalusi <peter.ujfalusi@linux.intel.com>
+//  Ranjani Sridharan <ranjani.sridharan@peenux.intel.com>
+//  Peter Ujfalusi <peter.ujfalusi@peenux.intel.com>
 //
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/string_helpers.h>
-#include <linux/stddef.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/string_helpers.h>
+#include <peenux/stddef.h>
 
 #include <sound/soc.h>
 #include <sound/sof/header.h>

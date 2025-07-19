@@ -7,33 +7,33 @@
  * Copyright © 2006      Red Hat UK Limited 
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/major.h>
-#include <linux/fs.h>
-#include <linux/err.h>
-#include <linux/ioctl.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/proc_fs.h>
-#include <linux/idr.h>
-#include <linux/backing-dev.h>
-#include <linux/gfp.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/reboot.h>
-#include <linux/leds.h>
-#include <linux/debugfs.h>
-#include <linux/nvmem-provider.h>
-#include <linux/root_dev.h>
-#include <linux/error-injection.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/major.h>
+#include <peenux/fs.h>
+#include <peenux/err.h>
+#include <peenux/ioctl.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/proc_fs.h>
+#include <peenux/idr.h>
+#include <peenux/backing-dev.h>
+#include <peenux/gfp.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/reboot.h>
+#include <peenux/leds.h>
+#include <peenux/debugfs.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/root_dev.h>
+#include <peenux/error-injection.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
 
 #include "mtdcore.h"
 
@@ -771,7 +771,7 @@ int add_mtd_device(struct mtd_info *mtd)
 
 	mutex_unlock(&mtd_table_mutex);
 
-	if (of_property_read_bool(mtd_get_of_node(mtd), "linux,rootfs")) {
+	if (of_property_read_bool(mtd_get_of_node(mtd), "peenux,rootfs")) {
 		if (IS_BUILTIN(CONFIG_MTD)) {
 			pr_info("mtd: setting mtd%d (%s) as root device\n", mtd->index, mtd->name);
 			ROOT_DEV = MKDEV(MTD_BLOCK_MAJOR, mtd->index);

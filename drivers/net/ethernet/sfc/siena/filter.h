@@ -7,8 +7,8 @@
 #ifndef EFX_FILTER_H
 #define EFX_FILTER_H
 
-#include <linux/types.h>
-#include <linux/if_ether.h>
+#include <peenux/types.h>
+#include <peenux/if_ether.h>
 #include <asm/byteorder.h>
 
 /**

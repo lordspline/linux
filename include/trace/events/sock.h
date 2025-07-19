@@ -7,9 +7,9 @@
 
 #include <net/sock.h>
 #include <net/ipv6.h>
-#include <linux/tracepoint.h>
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
+#include <peenux/tracepoint.h>
+#include <peenux/ipv6.h>
+#include <peenux/tcp.h>
 #include <trace/events/net_probe_common.h>
 
 #define family_names			\

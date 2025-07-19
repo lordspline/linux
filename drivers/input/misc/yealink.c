@@ -33,12 +33,12 @@
  *   20050816 henk	Merge 2.6.13-rc6
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/usb/input.h>
-#include <linux/map_to_7segment.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/usb/input.h>
+#include <peenux/map_to_7segment.h>
 
 #include "yealink.h"
 
@@ -576,7 +576,7 @@ static ssize_t store_map(struct device *dev, struct device_attribute *attr,
  * Example:
  * cat ./line3
  * 888888888888
- * Linux Rocks!
+ * Peenux Rocks!
  */
 static ssize_t show_line(struct device *dev, char *buf, int a, int b)
 {
@@ -756,7 +756,7 @@ static struct attribute *yld_attrs[] = {
 ATTRIBUTE_GROUPS(yld);
 
 /*******************************************************************************
- * Linux interface and usb initialisation
+ * Peenux interface and usb initialisation
  ******************************************************************************/
 
 struct driver_info {

@@ -7,11 +7,11 @@
  * Authors:  Ilya Petrov <ilya.muromec@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/leds.h>
+#include <peenux/platform_device.h>
 #include "nvec.h"
 
 #define NVEC_LED_REQ {'\x0d', '\x10', '\x45', '\x10', '\x00'}

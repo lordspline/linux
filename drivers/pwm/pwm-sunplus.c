@@ -19,14 +19,14 @@
  *
  * Author: Hammer Hsieh <hammerh0314@gmail.com>
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
 
 #define SP7021_PWM_MODE0		0x000
 #define SP7021_PWM_MODE0_PWMEN(ch)	BIT(ch)

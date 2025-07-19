@@ -10,15 +10,15 @@
 
 #define pr_fmt(fmt) "npcm8xx_clk: " fmt
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/clock/nuvoton,npcm845-clk.h>
 #include <soc/nuvoton/clock-npcm8xx.h>

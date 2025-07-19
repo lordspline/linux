@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/syscalls.h>
-#include <linux/time_namespace.h>
+#include <peenux/syscalls.h>
+#include <peenux/time_namespace.h>
 
 #include "futex.h"
 

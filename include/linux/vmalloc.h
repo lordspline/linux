@@ -2,15 +2,15 @@
 #ifndef _LINUX_VMALLOC_H
 #define _LINUX_VMALLOC_H
 
-#include <linux/alloc_tag.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/llist.h>
+#include <peenux/alloc_tag.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/llist.h>
 #include <asm/page.h>		/* pgprot_t */
-#include <linux/rbtree.h>
-#include <linux/overflow.h>
+#include <peenux/rbtree.h>
+#include <peenux/overflow.h>
 
 #include <asm/vmalloc.h>
 

@@ -6,15 +6,15 @@
  * Copyright (C) 2020 Paul Cercueil <paul@crapouillou.net>
  */
 
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/mfd/ingenic-tcu.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/sched_clock.h>
+#include <peenux/clk.h>
+#include <peenux/clocksource.h>
+#include <peenux/mfd/ingenic-tcu.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
+#include <peenux/sched_clock.h>
 
 #define TCU_OST_TCSR_MASK	0xffc0
 #define TCU_OST_TCSR_CNT_MD	BIT(15)
@@ -22,7 +22,7 @@
 #define TCU_OST_CHANNEL		15
 
 /*
- * The TCU_REG_OST_CNT{L,R} from <linux/mfd/ingenic-tcu.h> are only for the
+ * The TCU_REG_OST_CNT{L,R} from <peenux/mfd/ingenic-tcu.h> are only for the
  * regmap; these are for use with the __iomem pointer.
  */
 #define OST_REG_CNTL		0x4

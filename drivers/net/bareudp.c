@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/etherdevice.h>
-#include <linux/hash.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/etherdevice.h>
+#include <peenux/hash.h>
 #include <net/dst_metadata.h>
 #include <net/gro_cells.h>
 #include <net/rtnetlink.h>

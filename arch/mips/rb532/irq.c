@@ -24,19 +24,19 @@
  *		stevel@mvista.com or source@mvista.com
  */
 
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel_stat.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/timex.h>
-#include <linux/random.h>
-#include <linux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/timex.h>
+#include <peenux/random.h>
+#include <peenux/delay.h>
 
 #include <asm/bootinfo.h>
 #include <asm/time.h>

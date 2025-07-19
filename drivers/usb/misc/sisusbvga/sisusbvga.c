@@ -6,7 +6,7 @@
  *
  * Copyright (C) 2005 by Thomas Winischhofer, Vienna, Austria
  *
- * If distributed as part of the Linux kernel, this code is licensed under the
+ * If distributed as part of the Peenux kernel, this code is licensed under the
  * terms of the GPL v2.
  *
  * Otherwise, the following license terms apply:
@@ -37,18 +37,18 @@
  *
  */
 
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/kref.h>
-#include <linux/usb.h>
-#include <linux/vmalloc.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/errno.h>
+#include <peenux/poll.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/kref.h>
+#include <peenux/usb.h>
+#include <peenux/vmalloc.h>
 
 #include "sisusb.h"
 

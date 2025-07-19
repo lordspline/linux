@@ -17,13 +17,13 @@
     activation method (full-duplex audio!).
 */
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/pnp.h>
-#include <linux/module.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
+#include <peenux/wait.h>
+#include <peenux/pnp.h>
+#include <peenux/module.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/wss.h>

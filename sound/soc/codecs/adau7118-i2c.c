@@ -4,9 +4,9 @@
 //
 // Copyright 2019 Analog Devices Inc.
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #include "adau7118.h"
 

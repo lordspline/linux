@@ -7,14 +7,14 @@
  * Tero Kristo <t-kristo@ti.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/clk/ti.h>
-#include <linux/delay.h>
-#include <linux/string_helpers.h>
-#include <linux/timekeeping.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/clk/ti.h>
+#include <peenux/delay.h>
+#include <peenux/string_helpers.h>
+#include <peenux/timekeeping.h>
 #include "clock.h"
 
 #define NO_IDLEST			0

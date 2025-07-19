@@ -7,7 +7,7 @@
 #ifndef __IA_CSS_SPCTRL_COMM_H__
 #define __IA_CSS_SPCTRL_COMM_H__
 
-#include <linux/build_bug.h>
+#include <peenux/build_bug.h>
 
 #include <type_support.h>
 

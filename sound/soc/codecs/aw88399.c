@@ -7,12 +7,12 @@
 // Author: Weidong Wang <wangweidong.a@awinic.com>
 //
 
-#include <linux/crc32.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/firmware.h>
-#include <linux/minmax.h>
-#include <linux/regmap.h>
+#include <peenux/crc32.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/firmware.h>
+#include <peenux/minmax.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include "aw88399.h"
 #include "aw88395/aw88395_device.h"

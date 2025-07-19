@@ -8,10 +8,10 @@
  */
 
 .text
-#include <linux/export.h>
-#include <linux/threads.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <peenux/export.h>
+#include <peenux/threads.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
 #include <asm/segment.h>
 #include <asm/page_types.h>
 #include <asm/pgtable_types.h>

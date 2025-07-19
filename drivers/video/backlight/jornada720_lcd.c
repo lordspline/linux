@@ -5,13 +5,13 @@
  * Copyright (C) 2006-2009 Kristoffer Ericson <kristoffer.ericson@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/lcd.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
 
 #include <mach/jornada720.h>
 #include <mach/hardware.h>

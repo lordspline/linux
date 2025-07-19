@@ -8,9 +8,9 @@
  *              Matthew Wilcox <willy@infradead.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/rcupdate.h>
-#include <linux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/rcupdate.h>
+#include <peenux/spinlock.h>
 /* #define CONFIG_MAPLE_RCU_DISABLED */
 
 /*

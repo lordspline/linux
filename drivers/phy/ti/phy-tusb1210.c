@@ -4,18 +4,18 @@
  *
  * Copyright (C) 2015 Intel Corporation
  *
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@peenux.intel.com>
  */
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/ulpi/driver.h>
-#include <linux/ulpi/regs.h>
-#include <linux/gpio/consumer.h>
-#include <linux/phy/ulpi_phy.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/ulpi/driver.h>
+#include <peenux/ulpi/regs.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/phy/ulpi_phy.h>
+#include <peenux/power_supply.h>
+#include <peenux/property.h>
+#include <peenux/workqueue.h>
 
 #define TI_VENDOR_ID		0x0451
 #define TI_DEVICE_TUSB1210	0x1507
@@ -436,7 +436,7 @@ static void tusb1210_probe_charger_detect(struct tusb1210 *tusb)
 	struct ulpi *ulpi = to_ulpi_dev(dev);
 	int ret;
 
-	if (!device_property_read_bool(dev->parent, "linux,phy_charger_detect"))
+	if (!device_property_read_bool(dev->parent, "peenux,phy_charger_detect"))
 		return;
 
 	if (ulpi->id.product != TI_DEVICE_TUSB1211) {

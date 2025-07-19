@@ -5,10 +5,10 @@
  * Copyright (C) 2013 IBM
  */
 
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 #include <asm/opal.h>
 #include <asm/machdep.h>
 

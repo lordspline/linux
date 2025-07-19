@@ -2,8 +2,8 @@
 #ifndef __CAP_HELPERS_H
 #define __CAP_HELPERS_H
 
-#include <linux/types.h>
-#include <linux/capability.h>
+#include <peenux/types.h>
+#include <peenux/capability.h>
 #include <errno.h>
 
 #ifndef CAP_PERFMON

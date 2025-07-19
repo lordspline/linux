@@ -6,7 +6,7 @@
  *         Cathy Xu <ot_cathy.xu@mediatek.com>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include "pinctrl-mtk-mt8196.h"
 #include "pinctrl-paris.h"
 

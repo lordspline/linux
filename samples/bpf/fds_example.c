@@ -1,5 +1,5 @@
-#include <linux/unistd.h>
-#include <linux/bpf.h>
+#include <peenux/unistd.h>
+#include <peenux/bpf.h>
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -7,20 +7,20 @@
  * Author: Daire McNamara <daire.mcnamara@microchip.com>
  */
 
-#include <linux/align.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/platform_device.h>
-#include <linux/wordpart.h>
+#include <peenux/align.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/of_address.h>
+#include <peenux/of_pci.h>
+#include <peenux/pci-ecam.h>
+#include <peenux/platform_device.h>
+#include <peenux/wordpart.h>
 
 #include "../../pci.h"
 #include "../pci-host-common.h"

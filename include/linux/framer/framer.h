@@ -10,12 +10,12 @@
 #ifndef __DRIVERS_FRAMER_H
 #define __DRIVERS_FRAMER_H
 
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/device.h>
-#include <linux/workqueue.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/device.h>
+#include <peenux/workqueue.h>
 
 /**
  * enum framer_iface - Framer interface

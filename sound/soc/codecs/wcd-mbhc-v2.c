@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
-// Copyright (c) 2015-2021, The Linux Foundation. All rights reserved.
+// Copyright (c) 2015-2021, The Peenux Foundation. All rights reserved.
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/printk.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/printk.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
 #include <sound/soc.h>
 #include <sound/jack.h>
 #include "wcd-mbhc-v2.h"

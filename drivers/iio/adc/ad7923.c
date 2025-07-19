@@ -6,23 +6,23 @@
  * Copyright 2012 CS Systemes d'Information
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #define AD7923_WRITE_CR		BIT(11)		/* write control register */
 #define AD7923_RANGE		BIT(1)		/* range to REFin */

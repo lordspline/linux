@@ -6,8 +6,8 @@
 #ifndef __INTEL_VBLANK_H__
 #define __INTEL_VBLANK_H__
 
-#include <linux/ktime.h>
-#include <linux/types.h>
+#include <peenux/ktime.h>
+#include <peenux/types.h>
 
 struct drm_crtc;
 struct drm_display_mode;

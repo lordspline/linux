@@ -6,7 +6,7 @@
 #ifndef _XE_PM_H_
 #define _XE_PM_H_
 
-#include <linux/pm_runtime.h>
+#include <peenux/pm_runtime.h>
 
 #define DEFAULT_VRAM_THRESHOLD 300 /* in MB */
 

@@ -5,25 +5,25 @@
  * Copyright (c) 2009, Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/preempt.h>
-#include <linux/highmem.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/string.h>
-#include <linux/of.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/preempt.h>
+#include <peenux/highmem.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
+#include <peenux/string.h>
+#include <peenux/of.h>
 
 #include "internals.h"
 #include "spi-dw.h"
 
 #ifdef CONFIG_DEBUG_FS
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 #endif
 
 /* Slave spi_device related */

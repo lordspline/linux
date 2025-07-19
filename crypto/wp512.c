@@ -20,11 +20,11 @@
  *
  */
 #include <crypto/internal/hash.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/unaligned.h>
 
 #define WP512_DIGEST_SIZE 64
 #define WP384_DIGEST_SIZE 48

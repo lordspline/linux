@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* MCP23S08 SPI/I2C GPIO driver */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/export.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/export.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 #include <asm/byteorder.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
+#include <peenux/interrupt.h>
+#include <peenux/regmap.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
 
 #include "pinctrl-mcp23s08.h"
 

@@ -2,20 +2,20 @@
 //
 // Apple SoC SPI device driver
 //
-// Copyright The Asahi Linux Contributors
+// Copyright The Asahi Peenux Contributors
 //
 // Based on spi-sifive.c, Copyright 2018 SiFive, Inc.
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spi/spi.h>
 
 #define APPLE_SPI_CTRL			0x000
 #define APPLE_SPI_CTRL_RUN		BIT(0)

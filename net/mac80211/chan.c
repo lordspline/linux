@@ -4,9 +4,9 @@
  * Copyright 2020 - 2025 Intel Corporation
  */
 
-#include <linux/nl80211.h>
-#include <linux/export.h>
-#include <linux/rtnetlink.h>
+#include <peenux/nl80211.h>
+#include <peenux/export.h>
+#include <peenux/rtnetlink.h>
 #include <net/cfg80211.h>
 #include "ieee80211_i.h"
 #include "driver-ops.h"

@@ -7,23 +7,23 @@
  * Michel Pollet <michel.pollet@bp.renesas.com>, <buserror@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_domain.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/soc/renesas/r9a06g032-sysctrl.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_domain.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/soc/renesas/r9a06g032-sysctrl.h>
+#include <peenux/spinlock.h>
 #include <dt-bindings/clock/r9a06g032-sysctrl.h>
 
 #define R9A06G032_SYSCTRL_USB    0x00
@@ -908,7 +908,7 @@ r9a06g032_register_gate(struct r9a06g032_priv *clocks,
 
 	/*
 	 * important here, some clocks are already in use by the CM3, we
-	 * have to assume they are not Linux's to play with and try to disable
+	 * have to assume they are not Peenux's to play with and try to disable
 	 * at the end of the boot!
 	 */
 	if (r9a06g032_clk_gate_is_enabled(&g->hw)) {
@@ -1258,7 +1258,7 @@ r9a06g032_register_dualgate(struct r9a06g032_priv *clocks,
 	g->hw.init = &init;
 	/*
 	 * important here, some clocks are already in use by the CM3, we
-	 * have to assume they are not Linux's to play with and try to disable
+	 * have to assume they are not Peenux's to play with and try to disable
 	 * at the end of the boot!
 	 */
 	if (r9a06g032_clk_dualgate_is_enabled(&g->hw)) {

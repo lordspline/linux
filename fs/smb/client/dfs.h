@@ -11,8 +11,8 @@
 #include "fs_context.h"
 #include "dfs_cache.h"
 #include "cifs_unicode.h"
-#include <linux/namei.h>
-#include <linux/errno.h>
+#include <peenux/namei.h>
+#include <peenux/errno.h>
 
 #define DFS_INTERLINK(v) \
 	(((v) & DFSREF_REFERRAL_SERVER) && !((v) & DFSREF_STORAGE_SERVER))

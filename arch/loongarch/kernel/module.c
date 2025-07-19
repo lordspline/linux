@@ -8,16 +8,16 @@
 
 #define pr_fmt(fmt) "kmod: " fmt
 
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/mm.h>
-#include <linux/numa.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/ftrace.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
+#include <peenux/moduleloader.h>
+#include <peenux/elf.h>
+#include <peenux/mm.h>
+#include <peenux/numa.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/ftrace.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
 #include <asm/alternative.h>
 #include <asm/inst.h>
 #include <asm/unwind.h>

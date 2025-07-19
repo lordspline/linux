@@ -2,15 +2,15 @@
 /*
  * fail_function.c: Function-based error injection
  */
-#include <linux/error-injection.h>
-#include <linux/debugfs.h>
-#include <linux/fault-inject.h>
-#include <linux/kallsyms.h>
-#include <linux/kprobes.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/error-injection.h>
+#include <peenux/debugfs.h>
+#include <peenux/fault-inject.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kprobes.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 static int fei_kprobe_handler(struct kprobe *kp, struct pt_regs *regs);
 

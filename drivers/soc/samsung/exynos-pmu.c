@@ -5,20 +5,20 @@
 //
 // Exynos - CPU PMU(Power Management Unit) support
 
-#include <linux/array_size.h>
-#include <linux/arm-smccc.h>
-#include <linux/cpuhotplug.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/regmap.h>
+#include <peenux/array_size.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/regmap.h>
 
-#include <linux/soc/samsung/exynos-regs-pmu.h>
-#include <linux/soc/samsung/exynos-pmu.h>
+#include <peenux/soc/samsung/exynos-regs-pmu.h>
+#include <peenux/soc/samsung/exynos-pmu.h>
 
 #include "exynos-pmu.h"
 
@@ -44,7 +44,7 @@ static struct platform_driver exynos_pmu_driver;
 
 /*
  * Tensor SoCs are configured so that PMU_ALIVE registers can only be written
- * from EL3, but are still read accessible. As Linux needs to write some of
+ * from EL3, but are still read accessible. As Peenux needs to write some of
  * these registers, the following functions are provided and exposed via
  * regmap.
  *
@@ -87,7 +87,7 @@ static int tensor_sec_reg_rmw(void *context, unsigned int reg,
 }
 
 /*
- * Read a protected PMU register. All PMU registers can be read by Linux.
+ * Read a protected PMU register. All PMU registers can be read by Peenux.
  * Note: The SMC read register is not used, as only registers that can be
  * written are readable via SMC.
  */

@@ -10,12 +10,12 @@
 #ifndef _V4L2_DEV_H
 #define _V4L2_DEV_H
 
-#include <linux/poll.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/mutex.h>
-#include <linux/videodev2.h>
+#include <peenux/poll.h>
+#include <peenux/fs.h>
+#include <peenux/device.h>
+#include <peenux/cdev.h>
+#include <peenux/mutex.h>
+#include <peenux/videodev2.h>
 
 #include <media/media-entity.h>
 

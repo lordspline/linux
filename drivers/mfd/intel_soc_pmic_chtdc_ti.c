@@ -9,13 +9,13 @@
  *   Copyright (c) 2017 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/acpi.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #define CHTDC_TI_IRQLVL1	0x01
 #define CHTDC_TI_MASK_IRQLVL1	0x02

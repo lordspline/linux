@@ -5,7 +5,7 @@
 #ifndef _HIDRAW_H
 #define _HIDRAW_H
 
-#include <uapi/linux/hidraw.h>
+#include <uapi/peenux/hidraw.h>
 
 
 struct hidraw {

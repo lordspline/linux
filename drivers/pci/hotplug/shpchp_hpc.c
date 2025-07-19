@@ -13,11 +13,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
 
 #include "shpchp.h"
 

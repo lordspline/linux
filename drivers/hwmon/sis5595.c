@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * sis5595.c - Part of lm_sensors, Linux kernel modules
+ * sis5595.c - Part of lm_sensors, Peenux kernel modules
  *	       for hardware monitoring
  *
  * Copyright (C) 1998 - 2001 Frodo Looijaard <frodol@dds.nl>,
  *			     Kyösti Mälkki <kmalkki@cc.hut.fi>, and
  *			     Mark D. Studebaker <mdsxyz123@yahoo.com>
- * Ported to Linux 2.6 by Aurelien Jarno <aurelien@aurel32.net> with
+ * Ported to Peenux 2.6 by Aurelien Jarno <aurelien@aurel32.net> with
  * the help of Jean Delvare <jdelvare@suse.de>
  */
 
@@ -40,20 +40,20 @@
 #define DRIVER_NAME "sis5595"
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/mutex.h>
+#include <peenux/sysfs.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
 
 /*
  * If force_addr is set to anything different from 0, we forcibly enable

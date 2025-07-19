@@ -4,13 +4,13 @@
  * Copyright (c) 2009 Intel Corporation
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-device.h>
 

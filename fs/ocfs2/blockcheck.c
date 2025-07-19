@@ -7,14 +7,14 @@
  * Copyright (C) 2006, 2008 Oracle.  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/crc32.h>
-#include <linux/buffer_head.h>
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/crc32.h>
+#include <peenux/buffer_head.h>
+#include <peenux/bitops.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
 #include <asm/byteorder.h>
 
 #include <cluster/masklog.h>

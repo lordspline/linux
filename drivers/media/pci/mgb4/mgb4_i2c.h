@@ -7,7 +7,7 @@
 #ifndef __MGB4_I2C_H__
 #define __MGB4_I2C_H__
 
-#include <linux/i2c.h>
+#include <peenux/i2c.h>
 
 struct mgb4_i2c_client {
 	struct i2c_client *client;

@@ -15,24 +15,24 @@
  * This file is licenced under the GPL.
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb/otg.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/usb-omap1.h>
-#include <linux/soc/ti/omap1-usb.h>
-#include <linux/soc/ti/omap1-mux.h>
-#include <linux/soc/ti/omap1-soc.h>
-#include <linux/soc/ti/omap1-io.h>
-#include <linux/signal.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/usb/otg.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/usb-omap1.h>
+#include <peenux/soc/ti/omap1-usb.h>
+#include <peenux/soc/ti/omap1-mux.h>
+#include <peenux/soc/ti/omap1-soc.h>
+#include <peenux/soc/ti/omap1-io.h>
+#include <peenux/signal.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 #include "ohci.h"
 

@@ -6,12 +6,12 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/soundwire/sdw.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/slab.h>
+#include <peenux/soundwire/sdw.h>
 #include "bus.h"
 
 #define SDW_STRM_RATE_GROUPING		1

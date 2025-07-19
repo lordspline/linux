@@ -39,9 +39,9 @@
 #include "nvrm/event.h"
 #include "nvrm/fifo.h"
 
-#include <linux/acpi.h>
-#include <linux/ctype.h>
-#include <linux/parser.h>
+#include <peenux/acpi.h>
+#include <peenux/ctype.h>
+#include <peenux/parser.h>
 
 extern struct dentry *nouveau_debugfs_root;
 
@@ -1326,7 +1326,7 @@ static struct dentry *create_debugfs(struct nvkm_gsp *gsp, const char *name,
 	 * For some reason, debugfs_create_blob doesn't set the size of the
 	 * dentry, so do that here.  See [1]
 	 *
-	 * [1] https://lore.kernel.org/r/linux-fsdevel/20240207200619.3354549-1-ttabi@nvidia.com/
+	 * [1] https://lore.kernel.org/r/peenux-fsdevel/20240207200619.3354549-1-ttabi@nvidia.com/
 	 */
 	i_size_write(d_inode(dent), blob->size);
 

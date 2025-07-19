@@ -15,17 +15,17 @@
  *	OTP support
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/onenand.h>
-#include <linux/mtd/partitions.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/onenand.h>
+#include <peenux/mtd/partitions.h>
 
 #include <asm/io.h>
 

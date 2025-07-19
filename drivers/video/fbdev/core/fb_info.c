@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/export.h>
-#include <linux/fb.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <peenux/export.h>
+#include <peenux/fb.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
 
 /**
  * framebuffer_alloc - creates a new frame buffer info structure

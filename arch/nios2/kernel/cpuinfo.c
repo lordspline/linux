@@ -6,12 +6,12 @@
  * Based on cpuinfo.c from microblaze
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/of.h>
 #include <asm/cpuinfo.h>
 
 struct cpuinfo cpuinfo;

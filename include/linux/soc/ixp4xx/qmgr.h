@@ -6,8 +6,8 @@
 #ifndef IXP4XX_QMGR_H
 #define IXP4XX_QMGR_H
 
-#include <linux/io.h>
-#include <linux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
 
 #define DEBUG_QMGR	0
 

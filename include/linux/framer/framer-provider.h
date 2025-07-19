@@ -10,9 +10,9 @@
 #ifndef __DRIVERS_PROVIDER_FRAMER_H
 #define __DRIVERS_PROVIDER_FRAMER_H
 
-#include <linux/export.h>
-#include <linux/framer/framer.h>
-#include <linux/types.h>
+#include <peenux/export.h>
+#include <peenux/framer/framer.h>
+#include <peenux/types.h>
 
 #define FRAMER_FLAG_POLL_STATUS  BIT(0)
 

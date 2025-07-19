@@ -5,10 +5,10 @@
  *   Author(s): Steve French (sfrench@us.ibm.com)
  *
  */
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/namei.h>
+#include <peenux/fs.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/namei.h>
 #include "cifsfs.h"
 #include "cifspdu.h"
 #include "cifsglob.h"

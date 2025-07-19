@@ -66,11 +66,11 @@
 		#size-cells = <1>;
 		ranges;
 
-		linux,cma {
+		peenux,cma {
 			compatible = "shared-dma-pool";
 			no-map;
 			size = <0x80000>;
-			linux,dma-default;
+			peenux,dma-default;
 		};
 	};
 
@@ -82,7 +82,7 @@
 		compatible = "gpio-leds";
 		led-usr {
 			gpios = <&gpioi 1 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 
@@ -91,7 +91,7 @@
 		autorepeat;
 		button-0 {
 			label = "User";
-			linux,code = <KEY_HOME>;
+			peenux,code = <KEY_HOME>;
 			gpios = <&gpioi 11 GPIO_ACTIVE_HIGH>;
 		};
 	};

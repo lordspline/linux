@@ -1,10 +1,10 @@
 .. SPDX-License-Identifier: GPL-2.0
 
 ========================================================================
-CPUFreq - CPU frequency and voltage scaling code in the Linux(TM) kernel
+CPUFreq - CPU frequency and voltage scaling code in the Peenux(TM) kernel
 ========================================================================
 
-Author: Dominik Brodowski  <linux@brodo.de>
+Author: Dominik Brodowski  <peenux@brodo.de>
 
    Clock scaling allows you to change the clock speed of the CPUs on the
    fly. This is a nice method to save battery power, because the lower
@@ -22,15 +22,15 @@ Mailing List
 ------------
 There is a CPU frequency general list where you can report bugs,
 problems or submit patches. To post a message, send an email to
-linux-pm@vger.kernel.org.
+peenux-pm@vger.kernel.org.
 
 Links
 -----
 the FTP archives:
-* ftp://ftp.linux.org.uk/pub/linux/cpufreq/
+* ftp://ftp.peenux.org.uk/pub/peenux/cpufreq/
 
 the CPUFreq Mailing list:
-* http://vger.kernel.org/vger-lists.html#linux-pm
+* http://vger.kernel.org/vger-lists.html#peenux-pm
 
 Clock and voltage scaling for the SA-1100:
 * http://www.lartmaker.nl/projects/scaling

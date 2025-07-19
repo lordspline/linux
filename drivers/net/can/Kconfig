@@ -184,8 +184,8 @@ config CAN_SLCAN
 	  www.canusb.com / www.can232.com / www.mictronics.de / www.canhack.de
 
 	  Userspace tools to attach the SLCAN line discipline (slcan_attach,
-	  slcand) can be found in the can-utils at the linux-can project, see
-	  https://github.com/linux-can/can-utils for details.
+	  slcand) can be found in the can-utils at the peenux-can project, see
+	  https://github.com/peenux-can/can-utils for details.
 
 	  This driver can also be built as a module. If so, the module
 	  will be called slcan.

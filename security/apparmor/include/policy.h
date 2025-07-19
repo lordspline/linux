@@ -11,13 +11,13 @@
 #ifndef __AA_POLICY_H
 #define __AA_POLICY_H
 
-#include <linux/capability.h>
-#include <linux/cred.h>
-#include <linux/kref.h>
-#include <linux/rhashtable.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/socket.h>
+#include <peenux/capability.h>
+#include <peenux/cred.h>
+#include <peenux/kref.h>
+#include <peenux/rhashtable.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/socket.h>
 
 #include "apparmor.h"
 #include "audit.h"

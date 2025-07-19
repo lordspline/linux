@@ -14,9 +14,9 @@
 
 #include <crypto/internal/hash.h>
 #include <crypto/streebog.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 
 static const struct streebog_uint512 buffer0 = { {
 	0, 0, 0, 0, 0, 0, 0, 0

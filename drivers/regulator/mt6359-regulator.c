@@ -2,17 +2,17 @@
 //
 // Copyright (c) 2021 MediaTek Inc.
 
-#include <linux/platform_device.h>
-#include <linux/mfd/mt6359/registers.h>
-#include <linux/mfd/mt6359p/registers.h>
-#include <linux/mfd/mt6397/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/mt6359-regulator.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/mt6359/registers.h>
+#include <peenux/mfd/mt6359p/registers.h>
+#include <peenux/mfd/mt6397/core.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/mt6359-regulator.h>
+#include <peenux/regulator/of_regulator.h>
 
 #define MT6359_BUCK_MODE_AUTO		0
 #define MT6359_BUCK_MODE_FORCE_PWM	1

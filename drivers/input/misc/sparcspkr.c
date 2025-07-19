@@ -5,13 +5,13 @@
  *  Copyright (c) 2002 Vojtech Pavlik
  *  Copyright (c) 2002, 2006, 2008 David S. Miller (davem@davemloft.net)
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <asm/io.h>
 

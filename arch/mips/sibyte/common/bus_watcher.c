@@ -12,12 +12,12 @@
  * /proc/bus_watcher if PROC_FS is on.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include <asm/io.h>
 
 #include <asm/sibyte/sb1250.h>

@@ -6,17 +6,17 @@
  * Author: Michael Brunner <michael.brunner@kontron.com>
  */
 
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/kempld.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/sysfs.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/kempld.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/dmi.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/sysfs.h>
 
 #define MAX_ID_LEN 4
 static char force_device_id[MAX_ID_LEN + 1] = "";

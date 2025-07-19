@@ -43,7 +43,7 @@
 		led-ds1 {
 			label = "ds1";
 			gpios = <&pioB 9 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 
 		led-ds5 {

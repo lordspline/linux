@@ -22,10 +22,10 @@
  * OF THIS SOFTWARE.
  */
 
-#include <linux/bug.h>
-#include <linux/ctype.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
+#include <peenux/bug.h>
+#include <peenux/ctype.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_fourcc.h>

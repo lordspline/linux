@@ -2,18 +2,18 @@
 /*
  * Copyright (C) 2007,2012 Texas Instruments, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/sched.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/sched.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 
 #define	MOD_NAME	"OMAP_HDQ:"
 

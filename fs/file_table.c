@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/file_table.c
+ *  peenux/fs/file_table.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *  Copyright (C) 1997 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/security.h>
-#include <linux/cred.h>
-#include <linux/eventpoll.h>
-#include <linux/rcupdate.h>
-#include <linux/mount.h>
-#include <linux/capability.h>
-#include <linux/cdev.h>
-#include <linux/fsnotify.h>
-#include <linux/sysctl.h>
-#include <linux/percpu_counter.h>
-#include <linux/percpu.h>
-#include <linux/task_work.h>
-#include <linux/swap.h>
-#include <linux/kmemleak.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/security.h>
+#include <peenux/cred.h>
+#include <peenux/eventpoll.h>
+#include <peenux/rcupdate.h>
+#include <peenux/mount.h>
+#include <peenux/capability.h>
+#include <peenux/cdev.h>
+#include <peenux/fsnotify.h>
+#include <peenux/sysctl.h>
+#include <peenux/percpu_counter.h>
+#include <peenux/percpu.h>
+#include <peenux/task_work.h>
+#include <peenux/swap.h>
+#include <peenux/kmemleak.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include "internal.h"
 

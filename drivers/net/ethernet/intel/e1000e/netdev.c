@@ -3,28 +3,28 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/interrupt.h>
-#include <linux/tcp.h>
-#include <linux/ipv6.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pagemap.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/tcp.h>
+#include <peenux/ipv6.h>
+#include <peenux/slab.h>
 #include <net/checksum.h>
 #include <net/ip6_checksum.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_runtime.h>
-#include <linux/prefetch.h>
-#include <linux/suspend.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_vlan.h>
+#include <peenux/cpu.h>
+#include <peenux/smp.h>
+#include <peenux/pm_qos.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/prefetch.h>
+#include <peenux/suspend.h>
 
 #include "e1000.h"
 #define CREATE_TRACE_POINTS

@@ -7,8 +7,8 @@
  * Copyright (C) 2010 by Mauro Carvalho Chehab
  */
 
-#include <linux/bitrev.h>
-#include <linux/module.h>
+#include <peenux/bitrev.h>
+#include <peenux/module.h>
 #include "rc-core-priv.h"
 
 #define SHARP_NBITS		15

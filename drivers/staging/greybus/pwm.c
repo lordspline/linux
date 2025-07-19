@@ -6,11 +6,11 @@
  * Copyright 2014 Linaro Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pwm.h>
-#include <linux/greybus.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/pwm.h>
+#include <peenux/greybus.h>
 
 #include "gbphy.h"
 

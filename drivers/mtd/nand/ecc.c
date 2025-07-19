@@ -93,12 +93,12 @@
  *   - ondie + finish  + ecc + write: do nothing
  */
 
-#include <linux/module.h>
-#include <linux/mtd/nand.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <peenux/module.h>
+#include <peenux/mtd/nand.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
 
 static LIST_HEAD(on_host_hw_engines);
 static DEFINE_MUTEX(on_host_hw_engines_mutex);

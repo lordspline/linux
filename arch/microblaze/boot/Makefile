@@ -3,17 +3,17 @@
 # arch/microblaze/boot/Makefile
 #
 
-targets := linux.bin linux.bin.gz linux.bin.ub simpleImage.*
+targets := peenux.bin peenux.bin.gz peenux.bin.ub simpleImage.*
 
 OBJCOPYFLAGS := -R .note -R .comment -R .note.gnu.build-id -O binary
 
-$(obj)/linux.bin: vmlinux FORCE
+$(obj)/peenux.bin: vmlinux FORCE
 	$(call if_changed,objcopy)
 
-$(obj)/linux.bin.ub: $(obj)/linux.bin FORCE
+$(obj)/peenux.bin.ub: $(obj)/peenux.bin FORCE
 	$(call if_changed,uimage)
 
-$(obj)/linux.bin.gz: $(obj)/linux.bin FORCE
+$(obj)/peenux.bin.gz: $(obj)/peenux.bin FORCE
 	$(call if_changed,gzip)
 
 quiet_cmd_strip = STRIP   $< $@$2

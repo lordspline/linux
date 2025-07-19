@@ -11,9 +11,9 @@
 
 #include <kvm/iodev.h>
 
-#include <linux/kvm_host.h>
-#include <linux/slab.h>
-#include <linux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/slab.h>
+#include <peenux/kvm.h>
 
 #include "coalesced_mmio.h"
 

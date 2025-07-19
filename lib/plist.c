@@ -15,15 +15,15 @@
  * Simplifications of the original code by
  * Oleg Nesterov <oleg@tv-sign.ru>
  *
- * Based on simple lists (include/linux/list.h).
+ * Based on simple lists (include/peenux/list.h).
  *
  * This file contains the add / del functions which are considered to
- * be too large to inline. See include/linux/plist.h for further
+ * be too large to inline. See include/peenux/plist.h for further
  * information.
  */
 
-#include <linux/bug.h>
-#include <linux/plist.h>
+#include <peenux/bug.h>
+#include <peenux/plist.h>
 
 #ifdef CONFIG_DEBUG_PLIST
 
@@ -195,10 +195,10 @@ queue:
 }
 
 #ifdef CONFIG_DEBUG_PLIST
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 
 static struct plist_node __initdata test_node[241];
 

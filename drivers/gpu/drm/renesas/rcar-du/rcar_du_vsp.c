@@ -19,13 +19,13 @@
 #include <drm/drm_managed.h>
 #include <drm/drm_vblank.h>
 
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
 
 #include <media/vsp1.h>
 

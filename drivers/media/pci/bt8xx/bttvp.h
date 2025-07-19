@@ -13,15 +13,15 @@
 #ifndef _BTTVP_H_
 #define _BTTVP_H_
 
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/pci.h>
-#include <linux/input.h>
-#include <linux/mutex.h>
-#include <linux/scatterlist.h>
-#include <linux/device.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-bit.h>
+#include <peenux/pci.h>
+#include <peenux/input.h>
+#include <peenux/mutex.h>
+#include <peenux/scatterlist.h>
+#include <peenux/device.h>
 #include <asm/io.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>

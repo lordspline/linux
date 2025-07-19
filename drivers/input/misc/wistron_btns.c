@@ -5,22 +5,22 @@
  * Copyright (C) 2005 Bernhard Rosenkraenzer <bero@arklinux.org>
  * Copyright (C) 2005 Dmitry Torokhov <dtor@mail.ru>
  */
-#include <linux/io.h>
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mc146818rtc.h>
-#include <linux/module.h>
-#include <linux/preempt.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/leds.h>
+#include <peenux/io.h>
+#include <peenux/dmi.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/module.h>
+#include <peenux/preempt.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/platform_device.h>
+#include <peenux/leds.h>
 
 /* How often we poll keys - msecs */
 #define POLL_INTERVAL_DEFAULT	500 /* when idle */

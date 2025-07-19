@@ -10,9 +10,9 @@
 #ifndef _ASOC_ARIZONA_H
 #define _ASOC_ARIZONA_H
 
-#include <linux/completion.h>
-#include <linux/notifier.h>
-#include <linux/mfd/arizona/core.h>
+#include <peenux/completion.h>
+#include <peenux/notifier.h>
+#include <peenux/mfd/arizona/core.h>
 
 #include <sound/soc.h>
 

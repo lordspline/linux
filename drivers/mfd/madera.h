@@ -8,8 +8,8 @@
 #ifndef MADERA_MFD_H
 #define MADERA_MFD_H
 
-#include <linux/of.h>
-#include <linux/pm.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
 
 struct madera;
 

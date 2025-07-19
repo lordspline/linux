@@ -15,16 +15,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/firmware.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kmod.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/vmalloc.h>
+#include <peenux/firmware.h>
 #include <net/checksum.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/io.h>
 
 #include "bttvp.h"
@@ -1142,7 +1142,7 @@ struct tvcard bttv_tvcards[] = {
 	},
 	[BTTV_BOARD_LIFETEC_9415] = {
 		/* Tim Röstermundt <rosterm@uni-muenster.de>
-		in de.comp.os.unix.linux.hardware:
+		in de.comp.os.unix.peenux.hardware:
 			options bttv card=0 pll=1 radio=1 gpiomask=0x18e0
 			gpiomux =0x44c71f,0x44d71f,0,0x44d71f,0x44dfff
 			options tuner type=5 */
@@ -2915,7 +2915,7 @@ void bttv_idcard(struct bttv *btv)
 			pr_info("%d: subsystem: %04x:%04x (UNKNOWN)\n",
 				btv->c.nr, btv->cardid & 0xffff,
 				(btv->cardid >> 16) & 0xffff);
-			pr_debug("please mail id, board name and the correct card= insmod option to linux-media@vger.kernel.org\n");
+			pr_debug("please mail id, board name and the correct card= insmod option to peenux-media@vger.kernel.org\n");
 		}
 	}
 
@@ -4660,7 +4660,7 @@ static void ivc120_muxsel(struct bttv *btv, unsigned int input)
 /* PXC200 muxsel helper
  * luke@syseng.anu.edu.au
  * another transplant
- * from Alessandro Rubini (rubini@linux.it)
+ * from Alessandro Rubini (rubini@peenux.it)
  *
  * There are 4 kinds of cards:
  * PXC200L which is bt848

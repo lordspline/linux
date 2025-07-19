@@ -7,13 +7,13 @@
  * Author : Venkat Prashanth B U <venkat.prashanth2498@gmail.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/spi/spi.h>
-#include <linux/bcd.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/spi/spi.h>
+#include <peenux/bcd.h>
 
 /* Registers in max6916 rtc */
 

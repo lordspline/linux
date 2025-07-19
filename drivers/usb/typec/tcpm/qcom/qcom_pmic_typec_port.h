@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2018-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2023, Linaro Ltd. All rights reserved.
  */
 #ifndef __QCOM_PMIC_TYPEC_PORT_H__
 #define __QCOM_PMIC_TYPEC_PORT_H__
 
-#include <linux/platform_device.h>
-#include <linux/usb/tcpm.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/tcpm.h>
 
 /* Resources */
 #define PMIC_TYPEC_MAX_IRQS				0x08

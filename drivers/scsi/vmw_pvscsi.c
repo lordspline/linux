@@ -1,5 +1,5 @@
 /*
- * Linux driver for VMware's para-virtualized SCSI HBA.
+ * Peenux driver for VMware's para-virtualized SCSI HBA.
  *
  * Copyright (C) 2008-2014, VMware, Inc. All Rights Reserved.
  *
@@ -19,12 +19,12 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/pci.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>
@@ -685,7 +685,7 @@ static void pvscsi_process_completion_ring(struct pvscsi_adapter *adapter)
 }
 
 /*
- * Translate a Linux SCSI request into a request ring entry.
+ * Translate a Peenux SCSI request into a request ring entry.
  */
 static int pvscsi_queue_ring(struct pvscsi_adapter *adapter,
 			     struct pvscsi_ctx *ctx, struct scsi_cmnd *cmd)

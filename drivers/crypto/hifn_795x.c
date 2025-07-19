@@ -4,21 +4,21 @@
  * All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mod_devicetable.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/scatterlist.h>
-#include <linux/highmem.h>
-#include <linux/crypto.h>
-#include <linux/hw_random.h>
-#include <linux/ktime.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/scatterlist.h>
+#include <peenux/highmem.h>
+#include <peenux/crypto.h>
+#include <peenux/hw_random.h>
+#include <peenux/ktime.h>
 
 #include <crypto/algapi.h>
 #include <crypto/internal/des.h>

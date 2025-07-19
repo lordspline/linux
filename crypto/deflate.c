@@ -11,15 +11,15 @@
  */
 #include <crypto/internal/acompress.h>
 #include <crypto/scatterwalk.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/percpu.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/zlib.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/percpu.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/zlib.h>
 
 #define DEFLATE_DEF_LEVEL		Z_DEFAULT_COMPRESSION
 #define DEFLATE_DEF_WINBITS		11

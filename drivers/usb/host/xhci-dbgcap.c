@@ -4,24 +4,24 @@
  *
  * Copyright (C) 2017 Intel Corporation
  *
- * Author: Lu Baolu <baolu.lu@linux.intel.com>
+ * Author: Lu Baolu <baolu.lu@peenux.intel.com>
  */
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/kstrtox.h>
-#include <linux/list.h>
-#include <linux/nls.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/kstrtox.h>
+#include <peenux/list.h>
+#include <peenux/nls.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 
 #include <asm/byteorder.h>
 

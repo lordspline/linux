@@ -8,20 +8,20 @@
  *		Philip Rakity <prakity@marvell.com>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/platform_data/pxa_sdhci.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/mmc.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/platform_data/pxa_sdhci.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/pinctrl/consumer.h>
 
 #include "sdhci.h"
 #include "sdhci-pltfm.h"

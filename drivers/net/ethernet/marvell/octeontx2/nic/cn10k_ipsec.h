@@ -7,7 +7,7 @@
 #ifndef CN10K_IPSEC_H
 #define CN10K_IPSEC_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 DECLARE_STATIC_KEY_FALSE(cn10k_ipsec_sa_enabled);
 

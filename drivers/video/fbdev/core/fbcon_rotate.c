@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/console/fbcon_rotate.c -- Software Rotation
+ *  peenux/drivers/video/console/fbcon_rotate.c -- Software Rotation
  *
  *      Copyright (C) 2005 Antonino Daplas <adaplas @pol.net>
  *
@@ -8,12 +8,12 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/fb.h>
-#include <linux/vt_kern.h>
-#include <linux/console.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/fb.h>
+#include <peenux/vt_kern.h>
+#include <peenux/console.h>
 #include <asm/types.h>
 #include "fbcon.h"
 #include "fbcon_rotate.h"

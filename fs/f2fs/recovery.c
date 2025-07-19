@@ -5,10 +5,10 @@
  * Copyright (c) 2012 Samsung Electronics Co., Ltd.
  *             http://www.samsung.com/
  */
-#include <linux/unaligned.h>
-#include <linux/fs.h>
-#include <linux/f2fs_fs.h>
-#include <linux/sched/mm.h>
+#include <peenux/unaligned.h>
+#include <peenux/fs.h>
+#include <peenux/f2fs_fs.h>
+#include <peenux/sched/mm.h>
 #include "f2fs.h"
 #include "node.h"
 #include "segment.h"

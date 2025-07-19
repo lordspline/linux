@@ -4,12 +4,12 @@
  * for more details.
  */
 
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
+#include <peenux/moduleloader.h>
+#include <peenux/elf.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
 
 #if 0
 #define DEBUGP(fmt, ...) printk(KERN_DEBUG pr_fmt(fmt), ##__VA_ARGS__)

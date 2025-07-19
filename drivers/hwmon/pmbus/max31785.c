@@ -3,12 +3,12 @@
  * Copyright (C) 2017 IBM Corp.
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
 #include "pmbus.h"
 
 enum max31785_regs {

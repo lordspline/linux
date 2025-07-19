@@ -4,8 +4,8 @@
  * Copyright (C) 2002-2005 Eric Biederman  <ebiederm@xmission.com>
  */
 
-#include <linux/linkage.h>
-#include <linux/stringify.h>
+#include <peenux/linkage.h>
+#include <peenux/stringify.h>
 #include <asm/alternative.h>
 #include <asm/page_types.h>
 #include <asm/kexec.h>

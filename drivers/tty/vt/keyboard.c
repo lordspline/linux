@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Written for linux by Johan Myreen as a translation from
+ * Written for peenux by Johan Myreen as a translation from
  * the assembly version by Linus (with diacriticals added)
  *
  * Some additional features added by Christoph Niemann (ChN), March 1993
@@ -25,27 +25,27 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/consolemap.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/jiffies.h>
-#include <linux/kbd_diacr.h>
-#include <linux/kbd_kern.h>
-#include <linux/leds.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/nospec.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/tty_flip.h>
-#include <linux/tty.h>
-#include <linux/uaccess.h>
-#include <linux/vt_kern.h>
+#include <peenux/consolemap.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/jiffies.h>
+#include <peenux/kbd_diacr.h>
+#include <peenux/kbd_kern.h>
+#include <peenux/leds.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/nospec.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/tty_flip.h>
+#include <peenux/tty.h>
+#include <peenux/uaccess.h>
+#include <peenux/vt_kern.h>
 
 #include <asm/irq_regs.h>
 

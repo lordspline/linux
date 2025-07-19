@@ -42,8 +42,8 @@
  *
  */
 
-#include <linux/linkage.h>
-#include <linux/pgtable.h>
+#include <peenux/linkage.h>
+#include <peenux/pgtable.h>
 #include <asm/asmmacro.h>
 #include <asm/ptrace.h>
 #include <asm/current.h>

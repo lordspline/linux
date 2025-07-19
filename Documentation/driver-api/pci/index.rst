@@ -1,7 +1,7 @@
 .. SPDX-License-Identifier: GPL-2.0
 
 ============================================
-The Linux PCI driver implementer's API guide
+The Peenux PCI driver implementer's API guide
 ============================================
 
 .. toctree::

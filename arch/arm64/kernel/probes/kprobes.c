@@ -10,17 +10,17 @@
 
 #define pr_fmt(fmt) "kprobes: " fmt
 
-#include <linux/extable.h>
-#include <linux/kasan.h>
-#include <linux/kernel.h>
-#include <linux/kprobes.h>
-#include <linux/sched/debug.h>
-#include <linux/set_memory.h>
-#include <linux/slab.h>
-#include <linux/stop_machine.h>
-#include <linux/stringify.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
+#include <peenux/extable.h>
+#include <peenux/kasan.h>
+#include <peenux/kernel.h>
+#include <peenux/kprobes.h>
+#include <peenux/sched/debug.h>
+#include <peenux/set_memory.h>
+#include <peenux/slab.h>
+#include <peenux/stop_machine.h>
+#include <peenux/stringify.h>
+#include <peenux/uaccess.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/cacheflush.h>
 #include <asm/daifflags.h>

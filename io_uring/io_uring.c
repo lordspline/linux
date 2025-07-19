@@ -39,43 +39,43 @@
  * Copyright (C) 2018-2019 Jens Axboe
  * Copyright (c) 2018-2019 Christoph Hellwig
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/syscalls.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/syscalls.h>
 #include <net/compat.h>
-#include <linux/refcount.h>
-#include <linux/uio.h>
-#include <linux/bits.h>
+#include <peenux/refcount.h>
+#include <peenux/uio.h>
+#include <peenux/bits.h>
 
-#include <linux/sched/signal.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/percpu.h>
-#include <linux/slab.h>
-#include <linux/bvec.h>
-#include <linux/net.h>
+#include <peenux/sched/signal.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/percpu.h>
+#include <peenux/slab.h>
+#include <peenux/bvec.h>
+#include <peenux/net.h>
 #include <net/sock.h>
-#include <linux/anon_inodes.h>
-#include <linux/sched/mm.h>
-#include <linux/uaccess.h>
-#include <linux/nospec.h>
-#include <linux/fsnotify.h>
-#include <linux/fadvise.h>
-#include <linux/task_work.h>
-#include <linux/io_uring.h>
-#include <linux/io_uring/cmd.h>
-#include <linux/audit.h>
-#include <linux/security.h>
-#include <linux/jump_label.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/sched/mm.h>
+#include <peenux/uaccess.h>
+#include <peenux/nospec.h>
+#include <peenux/fsnotify.h>
+#include <peenux/fadvise.h>
+#include <peenux/task_work.h>
+#include <peenux/io_uring.h>
+#include <peenux/io_uring/cmd.h>
+#include <peenux/audit.h>
+#include <peenux/security.h>
+#include <peenux/jump_label.h>
 #include <asm/shmparam.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/io_uring.h>
 
-#include <uapi/linux/io_uring.h>
+#include <uapi/peenux/io_uring.h>
 
 #include "io-wq.h"
 

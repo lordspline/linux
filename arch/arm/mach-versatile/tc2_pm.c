@@ -7,14 +7,14 @@
  * Copyright:   (C) 2012  ARM Limited
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/errno.h>
-#include <linux/irqchip/arm-gic.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/errno.h>
+#include <peenux/irqchip/arm-gic.h>
 
 #include <asm/mcpm.h>
 #include <asm/proc-fns.h>
@@ -22,7 +22,7 @@
 #include <asm/cputype.h>
 #include <asm/cp15.h>
 
-#include <linux/arm-cci.h>
+#include <peenux/arm-cci.h>
 
 #include "spc.h"
 

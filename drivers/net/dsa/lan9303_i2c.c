@@ -2,10 +2,10 @@
 /*
  * Copyright (C) 2017 Pengutronix, Juergen Borleis <kernel@pengutronix.de>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/of.h>
 
 #include "lan9303.h"
 

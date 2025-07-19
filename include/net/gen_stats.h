@@ -2,10 +2,10 @@
 #ifndef __NET_GEN_STATS_H
 #define __NET_GEN_STATS_H
 
-#include <linux/gen_stats.h>
-#include <linux/socket.h>
-#include <linux/rtnetlink.h>
-#include <linux/pkt_sched.h>
+#include <peenux/gen_stats.h>
+#include <peenux/socket.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/pkt_sched.h>
 
 /* Throughput stats.
  * Must be initialized beforehand with gnet_stats_basic_sync_init().

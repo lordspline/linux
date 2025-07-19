@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/fb_defio.c
+ *  peenux/drivers/video/fb_defio.c
  *
  *  Copyright (C) 2006 Jaya Kumar
  *
@@ -8,20 +8,20 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/fb.h>
-#include <linux/list.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/fb.h>
+#include <peenux/list.h>
 
 /* to support deferred IO */
-#include <linux/rmap.h>
-#include <linux/pagemap.h>
+#include <peenux/rmap.h>
+#include <peenux/pagemap.h>
 
 static struct page *fb_deferred_io_get_page(struct fb_info *info, unsigned long offs)
 {

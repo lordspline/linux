@@ -10,18 +10,18 @@
  * Copyright (C) 2015 Cogent Embedded, Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fwnode.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/fwnode.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/module.h>
+#include <peenux/of_graph.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-ctrls.h>

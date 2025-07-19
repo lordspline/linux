@@ -22,28 +22,28 @@
 #define IOC3_NAME	"ioc3-eth"
 #define IOC3_VERSION	"2.6.3-4"
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/crc16.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
-#include <linux/in.h>
-#include <linux/io.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/gfp.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/nvmem-consumer.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/crc16.h>
+#include <peenux/crc32.h>
+#include <peenux/mii.h>
+#include <peenux/in.h>
+#include <peenux/io.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/gfp.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/skbuff.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/nvmem-consumer.h>
 
 #include <net/ip.h>
 
@@ -1281,6 +1281,6 @@ static struct platform_driver ioc3eth_driver = {
 
 module_platform_driver(ioc3eth_driver);
 
-MODULE_AUTHOR("Ralf Baechle <ralf@linux-mips.org>");
+MODULE_AUTHOR("Ralf Baechle <ralf@peenux-mips.org>");
 MODULE_DESCRIPTION("SGI IOC3 Ethernet driver");
 MODULE_LICENSE("GPL");

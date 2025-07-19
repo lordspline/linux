@@ -7,11 +7,11 @@
 //
 
 #include "common.h"
-#include "linux/pse-pd/pse.h"
+#include "peenux/pse-pd/pse.h"
 #include "netlink.h"
-#include <linux/ethtool_netlink.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/ethtool.h>
+#include <peenux/phy.h>
 
 struct pse_req_info {
 	struct ethnl_req_info base;

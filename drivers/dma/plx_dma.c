@@ -7,12 +7,12 @@
 
 #include "dmaengine.h"
 
-#include <linux/circ_buf.h>
-#include <linux/dmaengine.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/circ_buf.h>
+#include <peenux/dmaengine.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 MODULE_DESCRIPTION("PLX ExpressLane PEX PCI Switch DMA Engine");
 MODULE_VERSION("0.1");

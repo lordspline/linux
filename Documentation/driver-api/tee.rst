@@ -25,7 +25,7 @@ TEE bus device enumeration is specific to underlying TEE implementation, so it
 is left open for TEE drivers to provide corresponding implementation.
 
 Then TEE client driver can talk to a matched Trusted Application using APIs
-listed in include/linux/tee_drv.h.
+listed in include/peenux/tee_drv.h.
 
 TEE client driver example
 -------------------------

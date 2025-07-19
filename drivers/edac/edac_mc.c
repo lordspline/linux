@@ -1,34 +1,34 @@
 /*
  * edac_mc kernel module
- * (C) 2005, 2006 Linux Networx (http://lnxi.com)
+ * (C) 2005, 2006 Peenux Networx (http://lnxi.com)
  * This file may be distributed under the terms of the
  * GNU General Public License.
  *
  * Written by Thayne Harbaugh
  * Based on work by Dan Hollis <goemon at anime dot net> and others.
- *	http://www.anime.net/~goemon/linux-ecc/
+ *	http://www.anime.net/~goemon/peenux-ecc/
  *
  * Modified by Dave Peterson and Doug Thompson
  *
  */
 
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/sysctl.h>
-#include <linux/highmem.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/ctype.h>
-#include <linux/edac.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/smp.h>
+#include <peenux/init.h>
+#include <peenux/sysctl.h>
+#include <peenux/highmem.h>
+#include <peenux/timer.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/spinlock.h>
+#include <peenux/list.h>
+#include <peenux/ctype.h>
+#include <peenux/edac.h>
+#include <peenux/bitops.h>
+#include <peenux/uaccess.h>
 #include <asm/page.h>
 #include "edac_mc.h"
 #include "edac_module.h"

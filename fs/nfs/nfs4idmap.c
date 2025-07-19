@@ -33,20 +33,20 @@
  *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  *  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include <linux/types.h>
-#include <linux/parser.h>
-#include <linux/fs.h>
+#include <peenux/types.h>
+#include <peenux/parser.h>
+#include <peenux/fs.h>
 #include <net/net_namespace.h>
-#include <linux/sunrpc/rpc_pipe_fs.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_fs_sb.h>
-#include <linux/key.h>
-#include <linux/keyctl.h>
-#include <linux/key-type.h>
+#include <peenux/sunrpc/rpc_pipe_fs.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_fs_sb.h>
+#include <peenux/key.h>
+#include <peenux/keyctl.h>
+#include <peenux/key-type.h>
 #include <keys/user-type.h>
 #include <keys/request_key_auth-type.h>
-#include <linux/module.h>
-#include <linux/user_namespace.h>
+#include <peenux/module.h>
+#include <peenux/user_namespace.h>
 
 #include "internal.h"
 #include "netns.h"

@@ -7,15 +7,15 @@
  *  Copyright (C) 2022 Intel Corporation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/thermal.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
-#include <linux/sort.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/thermal.h>
+#include <peenux/acpi.h>
+#include <peenux/platform_device.h>
+#include <peenux/sort.h>
 
 #include "fan.h"
 

@@ -49,6 +49,6 @@ static inline char *strim(char *s)
 #define __init
 #define __initdata
 
-#include "../../../../include/linux/bootconfig.h"
+#include "../../../../include/peenux/bootconfig.h"
 
 #endif

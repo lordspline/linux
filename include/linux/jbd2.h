@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * linux/include/linux/jbd2.h
+ * peenux/include/peenux/jbd2.h
  *
  * Written by Stephen C. Tweedie <sct@redhat.com>
  *
@@ -19,16 +19,16 @@
 #define JBD2_DEBUG
 #else
 
-#include <linux/types.h>
-#include <linux/buffer_head.h>
-#include <linux/journal-head.h>
-#include <linux/stddef.h>
-#include <linux/mutex.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/bit_spinlock.h>
-#include <linux/blkdev.h>
-#include <linux/crc32c.h>
+#include <peenux/types.h>
+#include <peenux/buffer_head.h>
+#include <peenux/journal-head.h>
+#include <peenux/stddef.h>
+#include <peenux/mutex.h>
+#include <peenux/timer.h>
+#include <peenux/slab.h>
+#include <peenux/bit_spinlock.h>
+#include <peenux/blkdev.h>
+#include <peenux/crc32c.h>
 #endif
 
 #define journal_oom_retry 1
@@ -299,8 +299,8 @@ typedef struct journal_superblock_s
 
 #ifdef __KERNEL__
 
-#include <linux/fs.h>
-#include <linux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/sched.h>
 
 enum jbd_state_bits {
 	BH_JBD			/* Has an attached ext3 journal_head */

@@ -6,18 +6,18 @@
  * Copyright (c) 2023 Marek Vasut <marex@denx.de>
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #define ISL76682_REG_COMMAND			0x00
 

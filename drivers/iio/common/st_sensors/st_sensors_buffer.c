@@ -7,16 +7,16 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/interrupt.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/irqreturn.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/interrupt.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/irqreturn.h>
+#include <peenux/regmap.h>
 
-#include <linux/iio/common/st_sensors.h>
+#include <peenux/iio/common/st_sensors.h>
 
 
 static int st_sensors_get_buffer_element(struct iio_dev *indio_dev, u8 *buf)

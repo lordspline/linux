@@ -13,9 +13,9 @@
 #ifndef _LINUX_SUNRPC_BC_XPRT_H
 #define _LINUX_SUNRPC_BC_XPRT_H
 
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/xprt.h>
-#include <linux/sunrpc/sched.h>
+#include <peenux/sunrpc/svcsock.h>
+#include <peenux/sunrpc/xprt.h>
+#include <peenux/sunrpc/sched.h>
 
 #ifdef CONFIG_SUNRPC_BACKCHANNEL
 struct rpc_rqst *xprt_lookup_bc_request(struct rpc_xprt *xprt, __be32 xid);

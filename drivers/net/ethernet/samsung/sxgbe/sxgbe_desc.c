@@ -9,11 +9,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitops.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
+#include <peenux/bitops.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/netdevice.h>
+#include <peenux/phy.h>
 
 #include "sxgbe_common.h"
 #include "sxgbe_dma.h"

@@ -6,16 +6,16 @@
  * Copyright (C) 2008 Google Inc
  * Copyright (C) 2009 Bob Copeland (me@bobcopeland.com)
  */
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/platform_device.h>
-#include <linux/irq.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mmc/sdio_func.h>
+#include <peenux/mmc/sdio_ids.h>
+#include <peenux/platform_device.h>
+#include <peenux/irq.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
 
 #include "wl1251.h"
 

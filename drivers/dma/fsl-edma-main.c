@@ -11,16 +11,16 @@
  */
 
 #include <dt-bindings/dma/fsl-edma.h>
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/property.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_domain.h>
+#include <peenux/property.h>
 
 #include "fsl-edma-common.h"
 

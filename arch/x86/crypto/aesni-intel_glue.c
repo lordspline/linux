@@ -17,10 +17,10 @@
  * Copyright 2024 Google LLC
  */
 
-#include <linux/hardirq.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/err.h>
+#include <peenux/hardirq.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
 #include <crypto/algapi.h>
 #include <crypto/aes.h>
 #include <crypto/b128ops.h>
@@ -32,10 +32,10 @@
 #include <crypto/internal/aead.h>
 #include <crypto/internal/simd.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/jump_label.h>
-#include <linux/workqueue.h>
-#include <linux/spinlock.h>
-#include <linux/static_call.h>
+#include <peenux/jump_label.h>
+#include <peenux/workqueue.h>
+#include <peenux/spinlock.h>
+#include <peenux/static_call.h>
 
 
 #define AESNI_ALIGN	16

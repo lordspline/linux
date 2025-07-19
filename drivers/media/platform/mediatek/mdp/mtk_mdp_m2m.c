@@ -5,12 +5,12 @@
  *         Ming Hsiu Tsai <minghsiu.tsai@mediatek.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-ioctl.h>
 

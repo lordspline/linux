@@ -8,15 +8,15 @@
  */
 
 #include <asm/current.h>
-#include <linux/cleanup.h>
-#include <linux/cred.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/lsm_audit.h>
-#include <linux/lsm_hooks.h>
-#include <linux/rcupdate.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
+#include <peenux/cleanup.h>
+#include <peenux/cred.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/lsm_audit.h>
+#include <peenux/lsm_hooks.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
 #include <net/af_unix.h>
 #include <net/sock.h>
 

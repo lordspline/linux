@@ -4,10 +4,10 @@
  * Author: Paul Burton <paul.burton@mips.com>
  */
 
-#include <linux/errno.h>
-#include <linux/of.h>
-#include <linux/percpu.h>
-#include <linux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/of.h>
+#include <peenux/percpu.h>
+#include <peenux/spinlock.h>
 
 #include <asm/mips-cps.h>
 #include <asm/mipsregs.h>

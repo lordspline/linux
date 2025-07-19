@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: (GPL-2.0-or-later OR X11)
 /*
- * Copyright 2018-2023 TQ-Systems GmbH <linux@ew.tq-group.com>,
+ * Copyright 2018-2023 TQ-Systems GmbH <peenux@ew.tq-group.com>,
  * D-82229 Seefeld, Germany.
  * Author: Alexander Stein
  */
@@ -51,13 +51,13 @@
 
 		switch-a {
 			label = "switcha";
-			linux,code = <BTN_0>;
+			peenux,code = <BTN_0>;
 			gpios = <&lsio_gpio1 13 GPIO_ACTIVE_LOW>;
 		};
 
 		switch-b {
 			label = "switchb";
-			linux,code = <BTN_1>;
+			peenux,code = <BTN_1>;
 			gpios = <&lsio_gpio1 14 GPIO_ACTIVE_LOW>;
 		};
 	};
@@ -69,14 +69,14 @@
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_STATUS;
 			gpios = <&expander 1 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "default-on";
+			peenux,default-trigger = "default-on";
 		};
 
 		led2 {
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_HEARTBEAT;
 			gpios = <&expander 2 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 

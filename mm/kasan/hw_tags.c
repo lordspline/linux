@@ -9,16 +9,16 @@
 #define pr_fmt(fmt) "kasan: " fmt
 
 #include <kunit/visibility.h>
-#include <linux/init.h>
-#include <linux/kasan.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/mm.h>
-#include <linux/static_key.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/kasan.h>
+#include <peenux/kernel.h>
+#include <peenux/memory.h>
+#include <peenux/mm.h>
+#include <peenux/static_key.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
+#include <peenux/vmalloc.h>
 
 #include "kasan.h"
 

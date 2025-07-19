@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/*      FarSync WAN driver for Linux (2.6.x kernel version)
+/*      FarSync WAN driver for Peenux (2.6.x kernel version)
  *
  *      Actually sync driver for X.21, V.35 and V.24 on FarSync T-series cards
  *
@@ -12,20 +12,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/version.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/if.h>
-#include <linux/hdlc.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/version.h>
+#include <peenux/pci.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/if.h>
+#include <peenux/hdlc.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "farsync.h"
 
@@ -1895,7 +1895,7 @@ fst_get_iface(struct fst_card_info *card, struct fst_port_info *port,
 	i = port->index;
 	memset(&sync, 0, sizeof(sync));
 	sync.clock_rate = FST_RDL(card, portConfig[i].lineSpeed);
-	/* Lucky card and linux use same encoding here */
+	/* Lucky card and peenux use same encoding here */
 	sync.clock_type = FST_RDB(card, portConfig[i].internalClock) ==
 	    INTCLK ? CLOCK_INT : CLOCK_EXT;
 	sync.loopback = 0;

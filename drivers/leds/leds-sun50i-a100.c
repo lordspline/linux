@@ -6,22 +6,22 @@
  *     Copyright (c) 2020 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/led-class-multicolor.h>
+#include <peenux/leds.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
 
 #define LEDC_CTRL_REG			0x0000
 #define LEDC_CTRL_REG_DATA_LENGTH		GENMASK(28, 16)

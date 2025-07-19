@@ -13,24 +13,24 @@
  * (c) Copyright Huw Davies <huw@codeweavers.com>, 2015
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/jhash.h>
-#include <linux/audit.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/jhash.h>
+#include <peenux/audit.h>
+#include <peenux/slab.h>
 #include <net/ip.h>
 #include <net/icmp.h>
 #include <net/tcp.h>
 #include <net/netlabel.h>
 #include <net/calipso.h>
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/unaligned.h>
-#include <linux/crc-ccitt.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/unaligned.h>
+#include <peenux/crc-ccitt.h>
 
 /* Maximium size of the calipso option including
  * the two-byte TLV header.

@@ -34,9 +34,9 @@
 #define MLX4_DRIVER_H
 
 #include <net/devlink.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/notifier.h>
-#include <linux/mlx4/device.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/notifier.h>
+#include <peenux/mlx4/device.h>
 
 #define MLX4_ADEV_NAME "mlx4_core"
 

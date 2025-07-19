@@ -5,8 +5,8 @@
  * Copyright (C) 2012 Jussi Kivilinna <jussi.kivilinna@mbnet.fi>
  */
 
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <peenux/linkage.h>
+#include <peenux/cfi_types.h>
 
 .file "camellia-x86_64-asm_64.S"
 .text

@@ -6,8 +6,8 @@
 #ifndef __CHACHA20POLY1305_H
 #define __CHACHA20POLY1305_H
 
-#include <linux/types.h>
-#include <linux/scatterlist.h>
+#include <peenux/types.h>
+#include <peenux/scatterlist.h>
 
 enum chacha20poly1305_lengths {
 	XCHACHA20POLY1305_NONCE_SIZE = 24,

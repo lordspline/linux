@@ -3,15 +3,15 @@
  * Copyright 2020-2021 NXP
  */
 
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/ioctl.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/ioctl.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
 #include "vpu.h"
 #include "vpu_core.h"
 #include "vpu_imx8q.h"
@@ -21,8 +21,8 @@
 #define IMX8Q_CSR_CM0Px_CPUWAIT				0x00000004
 
 #ifdef CONFIG_IMX_SCU
-#include <linux/firmware/imx/ipc.h>
-#include <linux/firmware/imx/svc/misc.h>
+#include <peenux/firmware/imx/ipc.h>
+#include <peenux/firmware/imx/svc/misc.h>
 
 #define VPU_DISABLE_BITS			0x7
 #define VPU_IMX_DECODER_FUSE_OFFSET		14

@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <inttypes.h>
-#include <linux/zalloc.h>
+#include <peenux/zalloc.h>
 
 #include "annotate.h"
 #include "annotate-data.h"

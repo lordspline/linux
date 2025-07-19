@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Driver for Intel Xeon Phi "Knights Corner" PMU */
 
-#include <linux/perf_event.h>
-#include <linux/types.h>
+#include <peenux/perf_event.h>
+#include <peenux/types.h>
 
 #include <asm/hardirq.h>
 #include <asm/msr.h>

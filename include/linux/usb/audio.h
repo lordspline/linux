@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * <linux/usb/audio.h> -- USB Audio definitions.
+ * <peenux/usb/audio.h> -- USB Audio definitions.
  *
  * Copyright (C) 2006 Thumtronics Pty Ltd.
  * Developed for Thumtronics by Grey Innovation
@@ -18,7 +18,7 @@
 #ifndef __LINUX_USB_AUDIO_H
 #define __LINUX_USB_AUDIO_H
 
-#include <uapi/linux/usb/audio.h>
+#include <uapi/peenux/usb/audio.h>
 
 
 struct usb_audio_control {

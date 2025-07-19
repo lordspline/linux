@@ -11,7 +11,7 @@
 	Supported chipsets: 93c46, 93c56 and 93c66.
  */
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 /*
  * EEPROM operation defines.

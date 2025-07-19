@@ -8,13 +8,13 @@
  *  https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/pressure-sensors/board-mount-pressure-sensors/micropressure-mpr-series/documents/sps-siot-mpr-series-datasheet-32332628-ciid-172626.pdf
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 #include "mprls0025pa.h"
 

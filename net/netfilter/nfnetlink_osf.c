@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0-only
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
 
-#include <linux/capability.h>
-#include <linux/if.h>
-#include <linux/inetdevice.h>
-#include <linux/ip.h>
-#include <linux/list.h>
-#include <linux/rculist.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/tcp.h>
+#include <peenux/capability.h>
+#include <peenux/if.h>
+#include <peenux/inetdevice.h>
+#include <peenux/ip.h>
+#include <peenux/list.h>
+#include <peenux/rculist.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/tcp.h>
 
 #include <net/ip.h>
 #include <net/tcp.h>
 
-#include <linux/netfilter/nfnetlink.h>
-#include <linux/netfilter/x_tables.h>
+#include <peenux/netfilter/nfnetlink.h>
+#include <peenux/netfilter/x_tables.h>
 #include <net/netfilter/nf_log.h>
-#include <linux/netfilter/nfnetlink_osf.h>
+#include <peenux/netfilter/nfnetlink_osf.h>
 
 /*
  * Indexed by dont-fragment bit.

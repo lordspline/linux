@@ -69,61 +69,61 @@
 		up-key {
 			label = "Up";
 			gpios = <&gpio2 11 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_UP>;
+			peenux,code = <KEY_UP>;
 		};
 
 		down-key {
 			label = "Down";
 			gpios = <&gpio2 12 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_DOWN>;
+			peenux,code = <KEY_DOWN>;
 		};
 
 		left-key {
 			label = "Left";
 			gpios = <&gpio2 13 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_LEFT>;
+			peenux,code = <KEY_LEFT>;
 		};
 
 		right-key {
 			label = "Right";
 			gpios = <&gpio2 10 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_RIGHT>;
+			peenux,code = <KEY_RIGHT>;
 		};
 
 		ok-key {
 			label = "Ok";
 			gpios = <&gpio2 9 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_ENTER>;
+			peenux,code = <KEY_ENTER>;
 		};
 
 		return-key {
 			label = "Return";
 			gpios = <&gpio2 15 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_ESC>;
+			peenux,code = <KEY_ESC>;
 		};
 
 		play-key {
 			label = "Media";
 			gpios = <&gpio2 8 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_MEDIA>;
+			peenux,code = <KEY_MEDIA>;
 		};
 
 		trigger-key {
 			label = "Trigger";
 			gpios = <&gpio2 14 GPIO_ACTIVE_LOW>;
-			linux,code = <BTN_TRIGGER>;
+			peenux,code = <BTN_TRIGGER>;
 		};
 
 		power-key {
 			label = "Power";
 			gpios = <&gpio2 3 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_POWER>;
+			peenux,code = <KEY_POWER>;
 		};
 
 		light-key {
 			label = "Light";
 			gpios = <&gpio2 1 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_LIGHTS_TOGGLE>;
+			peenux,code = <KEY_LIGHTS_TOGGLE>;
 		};
 	};
 

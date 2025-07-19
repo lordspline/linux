@@ -6,7 +6,7 @@
 #ifndef __INTEL_WM_H__
 #define __INTEL_WM_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct intel_atomic_state;
 struct intel_crtc;

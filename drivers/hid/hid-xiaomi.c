@@ -5,9 +5,9 @@
  * Copyright (c) 2021 Ilya Skriblovsky
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/hid.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/hid.h>
 
 #include "hid-ids.h"
 

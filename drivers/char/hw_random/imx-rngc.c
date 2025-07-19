@@ -6,20 +6,20 @@
  * Copyright (C) 2017 Martin Kaiser <martin@kaiser.cx>
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/interrupt.h>
-#include <linux/hw_random.h>
-#include <linux/completion.h>
-#include <linux/io.h>
-#include <linux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/interrupt.h>
+#include <peenux/hw_random.h>
+#include <peenux/completion.h>
+#include <peenux/io.h>
+#include <peenux/bitfield.h>
 
 #define RNGC_VER_ID			0x0000
 #define RNGC_COMMAND			0x0004

@@ -4,9 +4,9 @@
  */
 
 #include <crypto/internal/blake2s.h>
-#include <linux/kernel.h>
-#include <linux/random.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/random.h>
+#include <peenux/string.h>
 
 /*
  * blake2s_testvecs[] generated with the program below (using libb2-dev and

@@ -10,15 +10,15 @@
  * Moxa Technology Co., Ltd. <www.moxa.com>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/rtc.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/gpio/consumer.h>
 
 #define GPIO_RTC_RESERVED			0x0C
 #define GPIO_RTC_DATA_SET			0x10

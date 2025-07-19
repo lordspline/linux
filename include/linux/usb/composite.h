@@ -21,13 +21,13 @@
  * the composite model the host can use both functions at the same time.
  */
 
-#include <linux/bcd.h>
-#include <linux/version.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/webusb.h>
-#include <linux/log2.h>
-#include <linux/configfs.h>
+#include <peenux/bcd.h>
+#include <peenux/version.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/webusb.h>
+#include <peenux/log2.h>
+#include <peenux/configfs.h>
 
 /*
  * USB function drivers should return USB_GADGET_DELAYED_STATUS if they

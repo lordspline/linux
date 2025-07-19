@@ -8,16 +8,16 @@
  * Author: Dan Murphy <dmurphy@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
 
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

@@ -8,11 +8,11 @@
  *
  */
 
-#include <linux/buffer_head.h>
-#include <linux/writeback.h>
-#include <linux/crc32.h>
-#include <linux/backing-dev.h>
-#include <linux/slab.h>
+#include <peenux/buffer_head.h>
+#include <peenux/writeback.h>
+#include <peenux/crc32.h>
+#include <peenux/backing-dev.h>
+#include <peenux/slab.h>
 #include "page.h"
 #include "segbuf.h"
 

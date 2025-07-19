@@ -2,11 +2,11 @@
 /*
  * Copyright (C) 2000,2001,2004 Broadcom Corporation
  */
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/percpu.h>
-#include <linux/smp.h>
-#include <linux/irq.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/percpu.h>
+#include <peenux/smp.h>
+#include <peenux/irq.h>
 
 #include <asm/addrspace.h>
 #include <asm/io.h>

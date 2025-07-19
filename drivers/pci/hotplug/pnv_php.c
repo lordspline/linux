@@ -5,12 +5,12 @@
  * Copyright Gavin Shan, IBM Corporation 2016.
  */
 
-#include <linux/bitfield.h>
-#include <linux/libfdt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/of_fdt.h>
+#include <peenux/bitfield.h>
+#include <peenux/libfdt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pci_hotplug.h>
+#include <peenux/of_fdt.h>
 
 #include <asm/opal.h>
 #include <asm/pnv-pci.h>

@@ -3,10 +3,10 @@
  * Copyright (c) 2013 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
 
 static u8 clk_composite_get_parent(struct clk_hw *hw)
 {

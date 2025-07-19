@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/proc/root.c
+ *  peenux/fs/proc/root.c
  *
  *  Copyright (C) 1991, 1992 Linus Torvalds
  *
  *  proc root directory handling functions
  */
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/stat.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/user_namespace.h>
-#include <linux/fs_context.h>
-#include <linux/mount.h>
-#include <linux/pid_namespace.h>
-#include <linux/fs_parser.h>
-#include <linux/cred.h>
-#include <linux/magic.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/sched/stat.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/user_namespace.h>
+#include <peenux/fs_context.h>
+#include <peenux/mount.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/fs_parser.h>
+#include <peenux/cred.h>
+#include <peenux/magic.h>
+#include <peenux/slab.h>
 
 #include "internal.h"
 

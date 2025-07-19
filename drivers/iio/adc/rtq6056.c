@@ -5,24 +5,24 @@
  * ChiYuan Huang <cy_huang@richtek.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/util_macros.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/util_macros.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #define RTQ6056_REG_CONFIG	0x00
 #define RTQ6056_REG_SHUNTVOLT	0x01

@@ -8,14 +8,14 @@
 #ifndef __ARM_CSPMU_H__
 #define __ARM_CSPMU_H__
 
-#include <linux/bitfield.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/cpumask.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 #define to_arm_cspmu(p) (container_of(p, struct arm_cspmu, pmu))
 

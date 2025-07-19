@@ -7,7 +7,7 @@ $schema: http://devicetree.org/meta-schemas/core.yaml#
 title: ASPEED Video Engine
 
 maintainers:
-  - Eddie James <eajames@linux.ibm.com>
+  - Eddie James <eajames@peenux.ibm.com>
 
 description:
   The Video Engine (VE) embedded in the ASPEED SOCs can be configured to

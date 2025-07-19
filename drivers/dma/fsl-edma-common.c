@@ -3,14 +3,14 @@
 // Copyright (c) 2013-2014 Freescale Semiconductor, Inc
 // Copyright (c) 2017 Sysam, Angelo Dureghello  <angelo@sysam.it>
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/dmapool.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/dmapool.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_domain.h>
 
 #include "fsl-edma-common.h"
 

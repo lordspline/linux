@@ -3,18 +3,18 @@
  * arch/powerpc/platforms/embedded6xx/flipper-pic.c
  *
  * Nintendo GameCube/Wii "Flipper" interrupt controller support.
- * Copyright (C) 2004-2009 The GameCube Linux Team
+ * Copyright (C) 2004-2009 The GameCube Peenux Team
  * Copyright (C) 2007,2008,2009 Albert Herranz
  */
 #define DRV_MODULE_NAME "flipper-pic"
 #define pr_fmt(fmt) DRV_MODULE_NAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 #include <asm/io.h>
 
 #include "flipper-pic.h"

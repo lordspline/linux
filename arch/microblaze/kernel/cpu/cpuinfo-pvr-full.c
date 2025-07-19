@@ -10,8 +10,8 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
 #include <asm/pvr.h>
 #include <asm/cpuinfo.h>
 

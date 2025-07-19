@@ -7,11 +7,11 @@
 #ifndef __DPLL_H__
 #define __DPLL_H__
 
-#include <uapi/linux/dpll.h>
-#include <linux/device.h>
-#include <linux/netlink.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
+#include <uapi/peenux/dpll.h>
+#include <peenux/device.h>
+#include <peenux/netlink.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
 
 struct dpll_device;
 struct dpll_pin;

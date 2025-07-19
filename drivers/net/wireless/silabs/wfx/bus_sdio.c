@@ -5,16 +5,16 @@
  * Copyright (c) 2017-2020, Silicon Laboratories, Inc.
  * Copyright (c) 2010, ST-Ericsson
  */
-#include <linux/module.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/card.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/irq.h>
-#include <linux/align.h>
-#include <linux/pm.h>
+#include <peenux/module.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/sdio_func.h>
+#include <peenux/mmc/card.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/irq.h>
+#include <peenux/align.h>
+#include <peenux/pm.h>
 
 #include "bus.h"
 #include "wfx.h"

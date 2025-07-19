@@ -3,8 +3,8 @@
  * Copyright 2013-2016 Freescale Semiconductor Inc.
  *
  */
-#include <linux/kernel.h>
-#include <linux/fsl/mc.h>
+#include <peenux/kernel.h>
+#include <peenux/fsl/mc.h>
 
 #include "fsl-mc-private.h"
 

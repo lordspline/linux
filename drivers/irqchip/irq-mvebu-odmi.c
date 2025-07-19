@@ -10,15 +10,15 @@
 
 #define pr_fmt(fmt) "GIC-ODMI: " fmt
 
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/msi.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <peenux/irqchip/irq-msi-lib.h>
 
 #include <dt-bindings/interrupt-controller/arm-gic.h>
 

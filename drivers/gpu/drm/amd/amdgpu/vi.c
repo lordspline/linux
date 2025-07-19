@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
 #include <drm/amdgpu_drm.h>
 

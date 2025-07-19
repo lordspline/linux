@@ -28,13 +28,13 @@
 	};
 
 	spdif_dir: audio-codec-0 {
-		compatible = "linux,spdif-dir";
+		compatible = "peenux,spdif-dir";
 		#sound-dai-cells = <0>;
 		sound-name-prefix = "DIR";
 	};
 
 	spdif_dit: audio-codec-1 {
-		compatible = "linux,spdif-dit";
+		compatible = "peenux,spdif-dit";
 		#sound-dai-cells = <0>;
 		sound-name-prefix = "DIT";
 	};

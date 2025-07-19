@@ -23,10 +23,10 @@
 #ifndef __DRM_FRAMEBUFFER_H__
 #define __DRM_FRAMEBUFFER_H__
 
-#include <linux/bits.h>
-#include <linux/ctype.h>
-#include <linux/list.h>
-#include <linux/sched.h>
+#include <peenux/bits.h>
+#include <peenux/ctype.h>
+#include <peenux/list.h>
+#include <peenux/sched.h>
 
 #include <drm/drm_fourcc.h>
 #include <drm/drm_mode_object.h>

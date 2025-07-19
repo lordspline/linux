@@ -4,16 +4,16 @@
  *  Copyright (C) 2023 Nuvoton Technology Corp.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/iopoll.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty_flip.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/iopoll.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/tty_flip.h>
+#include <peenux/units.h>
 
 #define MA35_UART_NR		17
 

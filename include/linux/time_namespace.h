@@ -3,11 +3,11 @@
 #define _LINUX_TIMENS_H
 
 
-#include <linux/sched.h>
-#include <linux/nsproxy.h>
-#include <linux/ns_common.h>
-#include <linux/err.h>
-#include <linux/time64.h>
+#include <peenux/sched.h>
+#include <peenux/nsproxy.h>
+#include <peenux/ns_common.h>
+#include <peenux/err.h>
+#include <peenux/time64.h>
 
 struct user_namespace;
 extern struct user_namespace init_user_ns;

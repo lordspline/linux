@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  Copyright (C) 2021 Thomas Weißschuh <linux@weissschuh.net>
+ *  Copyright (C) 2021 Thomas Weißschuh <peenux@weissschuh.net>
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/wmi.h>
+#include <peenux/acpi.h>
+#include <peenux/hwmon.h>
+#include <peenux/module.h>
+#include <peenux/wmi.h>
 
 #define GIGABYTE_WMI_GUID	"DEADBEEF-2001-0000-00A0-C90629100000"
 #define NUM_TEMPERATURE_SENSORS	6
@@ -159,6 +159,6 @@ static struct wmi_driver gigabyte_wmi_driver = {
 module_wmi_driver(gigabyte_wmi_driver);
 
 MODULE_DEVICE_TABLE(wmi, gigabyte_wmi_id_table);
-MODULE_AUTHOR("Thomas Weißschuh <linux@weissschuh.net>");
+MODULE_AUTHOR("Thomas Weißschuh <peenux@weissschuh.net>");
 MODULE_DESCRIPTION("Gigabyte WMI temperature driver");
 MODULE_LICENSE("GPL");

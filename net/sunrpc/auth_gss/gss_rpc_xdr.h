@@ -8,9 +8,9 @@
 #ifndef _LINUX_GSS_RPC_XDR_H
 #define _LINUX_GSS_RPC_XDR_H
 
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/xprtsock.h>
+#include <peenux/sunrpc/xdr.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/xprtsock.h>
 
 #if IS_ENABLED(CONFIG_SUNRPC_DEBUG)
 # define RPCDBG_FACILITY	RPCDBG_AUTH

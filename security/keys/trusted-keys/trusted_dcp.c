@@ -9,11 +9,11 @@
 #include <crypto/gcm.h>
 #include <crypto/skcipher.h>
 #include <keys/trusted-type.h>
-#include <linux/key-type.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/random.h>
-#include <linux/scatterlist.h>
+#include <peenux/key-type.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/random.h>
+#include <peenux/scatterlist.h>
 #include <soc/fsl/dcp.h>
 
 #define DCP_BLOB_VERSION 1

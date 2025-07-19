@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/ethtool.h>
-#include <linux/linkmode.h>
-#include <linux/phy.h>
+#include <peenux/ethtool.h>
+#include <peenux/linkmode.h>
+#include <peenux/phy.h>
 
 #include "phy-caps.h"
 

@@ -1,8 +1,8 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 // Copyright (c) 2024, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 
-#include <linux/io.h>
-#include <linux/mlx5/transobj.h>
+#include <peenux/io.h>
+#include <peenux/mlx5/transobj.h>
 #include "lib/clock.h"
 #include "mlx5_core.h"
 #include "wq.h"

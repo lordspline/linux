@@ -5,22 +5,22 @@
  * Copyright 2020, 2024 Analog Devices Inc.
  */
 
-#include <linux/bits.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sysfs.h>
+#include <peenux/bits.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/kernel.h>
+#include <peenux/math.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/sysfs.h>
 
 /*
  * The LTC6373 amplifier supports configuring gain using GPIO's with the following

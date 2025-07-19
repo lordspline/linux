@@ -12,7 +12,7 @@
  */
 #include <sys/ioctl.h>
 
-#include <linux/bitmap.h>
+#include <peenux/bitmap.h>
 
 #include "kvm_test_harness.h"
 #include "kvm_util.h"

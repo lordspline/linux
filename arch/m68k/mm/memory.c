@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/m68k/mm/memory.c
+ *  peenux/arch/m68k/mm/memory.c
  *
  *  Copyright (C) 1995  Hamish Macdonald
  */
 
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/pagemap.h>
-#include <linux/gfp.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/pagemap.h>
+#include <peenux/gfp.h>
 
 #include <asm/setup.h>
 #include <asm/page.h>

@@ -5,11 +5,11 @@
  * (C) Copyright 2020 Toshiba Electronic Devices & Storage Corporation
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/of_net.h>
-#include <linux/stmmac.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/of_net.h>
+#include <peenux/stmmac.h>
 
 #include "stmmac_platform.h"
 #include "dwmac4.h"

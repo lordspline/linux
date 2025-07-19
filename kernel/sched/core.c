@@ -7,81 +7,81 @@
  *  Copyright (C) 1991-2002  Linus Torvalds
  *  Copyright (C) 1998-2024  Ingo Molnar, Red Hat
  */
-#include <linux/highmem.h>
-#include <linux/hrtimer_api.h>
-#include <linux/ktime_api.h>
-#include <linux/sched/signal.h>
-#include <linux/syscalls_api.h>
-#include <linux/debug_locks.h>
-#include <linux/prefetch.h>
-#include <linux/capability.h>
-#include <linux/pgtable_api.h>
-#include <linux/wait_bit.h>
-#include <linux/jiffies.h>
-#include <linux/spinlock_api.h>
-#include <linux/cpumask_api.h>
-#include <linux/lockdep_api.h>
-#include <linux/hardirq.h>
-#include <linux/softirq.h>
-#include <linux/refcount_api.h>
-#include <linux/topology.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/cond_resched.h>
-#include <linux/sched/cputime.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/init.h>
-#include <linux/sched/isolation.h>
-#include <linux/sched/loadavg.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/nohz.h>
-#include <linux/sched/rseq_api.h>
-#include <linux/sched/rt.h>
+#include <peenux/highmem.h>
+#include <peenux/hrtimer_api.h>
+#include <peenux/ktime_api.h>
+#include <peenux/sched/signal.h>
+#include <peenux/syscalls_api.h>
+#include <peenux/debug_locks.h>
+#include <peenux/prefetch.h>
+#include <peenux/capability.h>
+#include <peenux/pgtable_api.h>
+#include <peenux/wait_bit.h>
+#include <peenux/jiffies.h>
+#include <peenux/spinlock_api.h>
+#include <peenux/cpumask_api.h>
+#include <peenux/lockdep_api.h>
+#include <peenux/hardirq.h>
+#include <peenux/softirq.h>
+#include <peenux/refcount_api.h>
+#include <peenux/topology.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/cond_resched.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/sched/init.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/sched/loadavg.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/nohz.h>
+#include <peenux/sched/rseq_api.h>
+#include <peenux/sched/rt.h>
 
-#include <linux/blkdev.h>
-#include <linux/context_tracking.h>
-#include <linux/cpuset.h>
-#include <linux/delayacct.h>
-#include <linux/init_task.h>
-#include <linux/interrupt.h>
-#include <linux/ioprio.h>
-#include <linux/kallsyms.h>
-#include <linux/kcov.h>
-#include <linux/kprobes.h>
-#include <linux/llist_api.h>
-#include <linux/mmu_context.h>
-#include <linux/mmzone.h>
-#include <linux/mutex_api.h>
-#include <linux/nmi.h>
-#include <linux/nospec.h>
-#include <linux/perf_event_api.h>
-#include <linux/profile.h>
-#include <linux/psi.h>
-#include <linux/rcuwait_api.h>
-#include <linux/rseq.h>
-#include <linux/sched/wake_q.h>
-#include <linux/scs.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/vtime.h>
-#include <linux/wait_api.h>
-#include <linux/workqueue_api.h>
-#include <linux/livepatch_sched.h>
+#include <peenux/blkdev.h>
+#include <peenux/context_tracking.h>
+#include <peenux/cpuset.h>
+#include <peenux/delayacct.h>
+#include <peenux/init_task.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioprio.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kcov.h>
+#include <peenux/kprobes.h>
+#include <peenux/llist_api.h>
+#include <peenux/mmu_context.h>
+#include <peenux/mmzone.h>
+#include <peenux/mutex_api.h>
+#include <peenux/nmi.h>
+#include <peenux/nospec.h>
+#include <peenux/perf_event_api.h>
+#include <peenux/profile.h>
+#include <peenux/psi.h>
+#include <peenux/rcuwait_api.h>
+#include <peenux/rseq.h>
+#include <peenux/sched/wake_q.h>
+#include <peenux/scs.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
+#include <peenux/vtime.h>
+#include <peenux/wait_api.h>
+#include <peenux/workqueue_api.h>
+#include <peenux/livepatch_sched.h>
 
 #ifdef CONFIG_PREEMPT_DYNAMIC
 # ifdef CONFIG_GENERIC_ENTRY
-#  include <linux/entry-common.h>
+#  include <peenux/entry-common.h>
 # endif
 #endif
 
-#include <uapi/linux/sched/types.h>
+#include <uapi/peenux/sched/types.h>
 
 #include <asm/irq_regs.h>
 #include <asm/switch_to.h>
 #include <asm/tlb.h>
 
 #define CREATE_TRACE_POINTS
-#include <linux/sched/rseq_api.h>
+#include <peenux/sched/rseq_api.h>
 #include <trace/events/sched.h>
 #include <trace/events/ipi.h>
 #undef CREATE_TRACE_POINTS
@@ -7429,7 +7429,7 @@ EXPORT_SYMBOL(__cond_resched_rwlock_write);
 #ifdef CONFIG_PREEMPT_DYNAMIC
 
 #ifdef CONFIG_GENERIC_ENTRY
-#include <linux/entry-common.h>
+#include <peenux/entry-common.h>
 #endif
 
 /*

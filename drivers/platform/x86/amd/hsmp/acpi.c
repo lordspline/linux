@@ -11,18 +11,18 @@
 
 #include <asm/amd/hsmp.h>
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/dev_printk.h>
-#include <linux/ioport.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
-#include <linux/uuid.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/dev_printk.h>
+#include <peenux/ioport.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/sysfs.h>
+#include <peenux/uuid.h>
 
 #include <uapi/asm-generic/errno-base.h>
 

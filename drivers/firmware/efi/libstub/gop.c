@@ -5,11 +5,11 @@
  *
  * ----------------------------------------------------------------------- */
 
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/efi.h>
-#include <linux/screen_info.h>
-#include <linux/string.h>
+#include <peenux/bitops.h>
+#include <peenux/ctype.h>
+#include <peenux/efi.h>
+#include <peenux/screen_info.h>
+#include <peenux/string.h>
 #include <asm/efi.h>
 #include <asm/setup.h>
 

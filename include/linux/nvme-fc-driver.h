@@ -6,8 +6,8 @@
 #ifndef _NVME_FC_DRIVER_H
 #define _NVME_FC_DRIVER_H 1
 
-#include <linux/scatterlist.h>
-#include <linux/blk-mq.h>
+#include <peenux/scatterlist.h>
+#include <peenux/blk-mq.h>
 
 
 /*

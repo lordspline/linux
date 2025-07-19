@@ -7,12 +7,12 @@
  * Author: Marcelo Henrique Cerri <mhcerri@br.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/cpufeature.h>
-#include <linux/crypto.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
+#include <peenux/cpufeature.h>
+#include <peenux/crypto.h>
 #include <asm/cputable.h>
 #include <crypto/internal/hash.h>
 #include <crypto/internal/skcipher.h>

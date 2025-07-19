@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
-#include <linux/of.h>	/* linux/of.h gets to determine #include ordering */
+#include <peenux/of.h>	/* peenux/of.h gets to determine #include ordering */
 #ifndef _SPARC_PROM_H
 #define _SPARC_PROM_H
 #ifdef __KERNEL__
@@ -13,13 +13,13 @@
  * Updates for PPC64 by Peter Bergner & David Engebretsen, IBM Corp.
  * Updates for SPARC by David S. Miller
  */
-#include <linux/types.h>
-#include <linux/of_pdt.h>
-#include <linux/proc_fs.h>
-#include <linux/mutex.h>
-#include <linux/atomic.h>
-#include <linux/irqdomain.h>
-#include <linux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/of_pdt.h>
+#include <peenux/proc_fs.h>
+#include <peenux/mutex.h>
+#include <peenux/atomic.h>
+#include <peenux/irqdomain.h>
+#include <peenux/spinlock.h>
 
 #define of_compat_cmp(s1, s2, l)	strncmp((s1), (s2), (l))
 #define of_prop_cmp(s1, s2)		strcasecmp((s1), (s2))

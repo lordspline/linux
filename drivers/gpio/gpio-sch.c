@@ -6,17 +6,17 @@
  *  Author: Denis Turischev <denis@compulab.co.il>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci_ids.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci_ids.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 #define GEN	0x00
 #define GIO	0x04

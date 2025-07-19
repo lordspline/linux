@@ -5,17 +5,17 @@
  * Copyright (C) IBM Corporation 2016
  */
 
-#include <linux/fsi.h>
-#include <linux/module.h>
-#include <linux/cdev.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/mod_devicetable.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/list.h>
+#include <peenux/fsi.h>
+#include <peenux/module.h>
+#include <peenux/cdev.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
 
-#include <uapi/linux/fsi.h>
+#include <uapi/peenux/fsi.h>
 
 #define FSI_ENGID_SCOM		0x5
 

@@ -8,13 +8,13 @@
 #ifndef _MEDIA_CEC_H
 #define _MEDIA_CEC_H
 
-#include <linux/poll.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/kthread.h>
-#include <linux/timer.h>
-#include <linux/cec-funcs.h>
+#include <peenux/poll.h>
+#include <peenux/fs.h>
+#include <peenux/device.h>
+#include <peenux/cdev.h>
+#include <peenux/kthread.h>
+#include <peenux/timer.h>
+#include <peenux/cec-funcs.h>
 #include <media/rc-core.h>
 
 #define CEC_CAP_DEFAULTS (CEC_CAP_LOG_ADDRS | CEC_CAP_TRANSMIT | \

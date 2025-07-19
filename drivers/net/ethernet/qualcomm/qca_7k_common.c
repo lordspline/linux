@@ -8,9 +8,9 @@
  *   by an atheros frame while transmitted over a serial channel;
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "qca_7k_common.h"
 

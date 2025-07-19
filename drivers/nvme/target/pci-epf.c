@@ -8,18 +8,18 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/io.h>
-#include <linux/mempool.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nvme.h>
-#include <linux/pci_ids.h>
-#include <linux/pci-epc.h>
-#include <linux/pci-epf.h>
-#include <linux/pci_regs.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/io.h>
+#include <peenux/mempool.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nvme.h>
+#include <peenux/pci_ids.h>
+#include <peenux/pci-epc.h>
+#include <peenux/pci-epf.h>
+#include <peenux/pci_regs.h>
+#include <peenux/slab.h>
 
 #include "nvmet.h"
 

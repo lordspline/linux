@@ -11,11 +11,11 @@
 #include <asm/cpacf.h>
 #include <crypto/internal/hash.h>
 #include <crypto/sha3.h>
-#include <linux/cpufeature.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/cpufeature.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 
 #include "sha.h"
 

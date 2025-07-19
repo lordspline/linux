@@ -14,24 +14,24 @@
  * Zerocpy NFS support (C) 2002 Hirokazu Takahashi <taka@valinux.co.jp>
  */
 
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/splice.h>
-#include <linux/falloc.h>
-#include <linux/fcntl.h>
-#include <linux/namei.h>
-#include <linux/delay.h>
-#include <linux/fsnotify.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/xattr.h>
-#include <linux/jhash.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/exportfs.h>
-#include <linux/writeback.h>
-#include <linux/security.h>
-#include <linux/sunrpc/xdr.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/splice.h>
+#include <peenux/falloc.h>
+#include <peenux/fcntl.h>
+#include <peenux/namei.h>
+#include <peenux/delay.h>
+#include <peenux/fsnotify.h>
+#include <peenux/posix_acl_xattr.h>
+#include <peenux/xattr.h>
+#include <peenux/jhash.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/exportfs.h>
+#include <peenux/writeback.h>
+#include <peenux/security.h>
+#include <peenux/sunrpc/xdr.h>
 
 #include "xdr3.h"
 
@@ -51,7 +51,7 @@
 bool nfsd_disable_splice_read __read_mostly;
 
 /**
- * nfserrno - Map Linux errnos to NFS errnos
+ * nfserrno - Map Peenux errnos to NFS errnos
  * @errno: POSIX(-ish) error code to be mapped
  *
  * Returns the appropriate (net-endian) nfserr_* (or nfs_ok if errno is 0). If
@@ -382,7 +382,7 @@ commit_metadata(struct svc_fh *fhp)
 
 /*
  * Go over the attributes and take care of the small differences between
- * NFS semantics and what Linux expects.
+ * NFS semantics and what Peenux expects.
  */
 static void
 nfsd_sanitize_attrs(struct inode *inode, struct iattr *iap)

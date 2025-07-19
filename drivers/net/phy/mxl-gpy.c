@@ -6,14 +6,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/hwmon.h>
-#include <linux/mutex.h>
-#include <linux/phy.h>
-#include <linux/polynomial.h>
-#include <linux/property.h>
-#include <linux/netdevice.h>
+#include <peenux/module.h>
+#include <peenux/bitfield.h>
+#include <peenux/hwmon.h>
+#include <peenux/mutex.h>
+#include <peenux/phy.h>
+#include <peenux/polynomial.h>
+#include <peenux/property.h>
+#include <peenux/netdevice.h>
 
 /* PHY ID */
 #define PHY_ID_GPYx15B_MASK	0xFFFFFFFC

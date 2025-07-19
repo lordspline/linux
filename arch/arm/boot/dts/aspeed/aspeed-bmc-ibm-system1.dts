@@ -184,25 +184,25 @@
 		event-nvme0-presence {
 			label = "nvme0-presence";
 			gpios = <&pca4 0 GPIO_ACTIVE_LOW>;
-			linux,code = <0>;
+			peenux,code = <0>;
 		};
 
 		event-nvme1-presence {
 			label = "nvme1-presence";
 			gpios = <&pca4 1 GPIO_ACTIVE_LOW>;
-			linux,code = <1>;
+			peenux,code = <1>;
 		};
 
 		event-nvme2-presence {
 			label = "nvme2-presence";
 			gpios = <&pca4 2 GPIO_ACTIVE_LOW>;
-			linux,code = <2>;
+			peenux,code = <2>;
 		};
 
 		event-nvme3-presence {
 			label = "nvme3-presence";
 			gpios = <&pca4 3 GPIO_ACTIVE_LOW>;
-			linux,code = <3>;
+			peenux,code = <3>;
 		};
 	};
 

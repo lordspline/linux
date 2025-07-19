@@ -5,14 +5,14 @@
  * Copyright (C) 2004 Texas Instruments, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/dma-map-ops.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/soc/ti/omap1-io.h>
 
 #include <asm/irq.h>
 

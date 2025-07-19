@@ -13,12 +13,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/hrtimer.h>
-#include <linux/parport.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
+#include <peenux/hrtimer.h>
+#include <peenux/parport.h>
 
 #define SIGNAL		0
 #define NO_SIGNAL	PARPORT_CONTROL_STROBE

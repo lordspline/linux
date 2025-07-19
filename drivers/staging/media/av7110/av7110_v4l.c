@@ -14,12 +14,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/timer.h>
-#include <linux/poll.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/timer.h>
+#include <peenux/poll.h>
 
 #include "av7110.h"
 #include "av7110_hw.h"

@@ -9,8 +9,8 @@
 #ifndef __LINUX_MFD_MAX8925_H
 #define __LINUX_MFD_MAX8925_H
 
-#include <linux/mutex.h>
-#include <linux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/interrupt.h>
 
 /* Unified sub device IDs for MAX8925 */
 enum {

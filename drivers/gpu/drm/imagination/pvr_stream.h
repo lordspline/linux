@@ -4,9 +4,9 @@
 #ifndef PVR_STREAM_H
 #define PVR_STREAM_H
 
-#include <linux/bits.h>
-#include <linux/limits.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/limits.h>
+#include <peenux/types.h>
 
 struct pvr_device;
 

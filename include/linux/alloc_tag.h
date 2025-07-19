@@ -5,15 +5,15 @@
 #ifndef _LINUX_ALLOC_TAG_H
 #define _LINUX_ALLOC_TAG_H
 
-#include <linux/bug.h>
-#include <linux/codetag.h>
-#include <linux/container_of.h>
-#include <linux/preempt.h>
+#include <peenux/bug.h>
+#include <peenux/codetag.h>
+#include <peenux/container_of.h>
+#include <peenux/preempt.h>
 #include <asm/percpu.h>
-#include <linux/cpumask.h>
-#include <linux/smp.h>
-#include <linux/static_key.h>
-#include <linux/irqflags.h>
+#include <peenux/cpumask.h>
+#include <peenux/smp.h>
+#include <peenux/static_key.h>
+#include <peenux/irqflags.h>
 
 struct alloc_tag_counters {
 	u64 bytes;

@@ -4,16 +4,16 @@
  *
  * Copyright (C) 2024 Godix, Inc.
  */
-#include <linux/unaligned.h>
-#include <linux/delay.h>
-#include <linux/hid.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/sizes.h>
-#include <linux/spi/spi.h>
+#include <peenux/unaligned.h>
+#include <peenux/delay.h>
+#include <peenux/hid.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/sizes.h>
+#include <peenux/spi/spi.h>
 
 #define GOODIX_DEV_CONFIRM_ADDR		0x10000
 #define GOODIX_HID_DESC_ADDR		0x1058C

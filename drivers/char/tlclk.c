@@ -27,24 +27,24 @@
  * MPCBL0010 ATCA computer.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>	/* printk() */
-#include <linux/fs.h>		/* everything... */
-#include <linux/errno.h>	/* error codes */
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/timer.h>
-#include <linux/sysfs.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/device/faux.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>	/* printk() */
+#include <peenux/fs.h>		/* everything... */
+#include <peenux/errno.h>	/* error codes */
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/timer.h>
+#include <peenux/sysfs.h>
+#include <peenux/device.h>
+#include <peenux/miscdevice.h>
+#include <peenux/device/faux.h>
 #include <asm/io.h>		/* inb/outb */
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 MODULE_AUTHOR("Sebastien Bouchard <sebastien.bouchard@ca.kontron.com>");
 MODULE_DESCRIPTION("Telecom Clock driver for Intel NetStructure(tm) MPCBL0010");

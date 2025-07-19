@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/firmware/memmap.c
- *  Copyright (C) 2008 SUSE LINUX Products GmbH
+ * peenux/drivers/firmware/memmap.c
+ *  Copyright (C) 2008 SUSE PEENUX Products GmbH
  *  by Bernhard Walle <bernhard.walle@gmx.de>
  */
 
-#include <linux/string.h>
-#include <linux/firmware-map.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <peenux/string.h>
+#include <peenux/firmware-map.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/memblock.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
 
 /*
  * Data types ------------------------------------------------------------------

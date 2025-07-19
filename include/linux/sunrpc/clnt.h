@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- *  linux/include/linux/sunrpc/clnt.h
+ *  peenux/include/peenux/sunrpc/clnt.h
  *
  *  Declarations for the high-level RPC client interface
  *
@@ -10,24 +10,24 @@
 #ifndef _LINUX_SUNRPC_CLNT_H
 #define _LINUX_SUNRPC_CLNT_H
 
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/refcount.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/refcount.h>
 
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/xprt.h>
-#include <linux/sunrpc/auth.h>
-#include <linux/sunrpc/stats.h>
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/timer.h>
-#include <linux/sunrpc/rpc_pipe_fs.h>
+#include <peenux/sunrpc/msg_prot.h>
+#include <peenux/sunrpc/sched.h>
+#include <peenux/sunrpc/xprt.h>
+#include <peenux/sunrpc/auth.h>
+#include <peenux/sunrpc/stats.h>
+#include <peenux/sunrpc/xdr.h>
+#include <peenux/sunrpc/timer.h>
+#include <peenux/sunrpc/rpc_pipe_fs.h>
 #include <asm/signal.h>
-#include <linux/path.h>
+#include <peenux/path.h>
 #include <net/ipv6.h>
-#include <linux/sunrpc/xprtmultipath.h>
+#include <peenux/sunrpc/xprtmultipath.h>
 
 struct rpc_inode;
 struct rpc_sysfs_client {

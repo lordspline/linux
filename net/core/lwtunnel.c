@@ -5,18 +5,18 @@
  * Authors:	Roopa Prabhu, <roopa@cumulusnetworks.com>
  */
 
-#include <linux/capability.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/lwtunnel.h>
-#include <linux/in.h>
-#include <linux/init.h>
-#include <linux/err.h>
+#include <peenux/capability.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/lwtunnel.h>
+#include <peenux/in.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
 
 #include <net/lwtunnel.h>
 #include <net/rtnetlink.h>

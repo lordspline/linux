@@ -6,10 +6,10 @@
 //                    Cirrus Logic International Semiconductor Ltd.
 
 #include <kunit/test.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/cs_dsp_test_utils.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/regmap.h>
+#include <peenux/firmware/cirrus/cs_dsp.h>
+#include <peenux/firmware/cirrus/cs_dsp_test_utils.h>
+#include <peenux/firmware/cirrus/wmfw.h>
+#include <peenux/regmap.h>
 
 static int cs_dsp_mock_regmap_read(void *context, const void *reg_buf,
 				   const size_t reg_size, void *val_buf,

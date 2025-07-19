@@ -17,12 +17,12 @@
 #ifndef G10_MPI_INTERNAL_H
 #define G10_MPI_INTERNAL_H
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/mpi.h>
-#include <linux/errno.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/mpi.h>
+#include <peenux/errno.h>
 
 #define log_debug printk
 #define log_bug printk

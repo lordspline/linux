@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/fbmem.c
+ *  peenux/drivers/video/fbmem.c
  *
  *  Copyright (C) 1994 Martin Schaller
  *
@@ -11,12 +11,12 @@
  * for more details.
  */
 
-#include <linux/console.h>
-#include <linux/export.h>
-#include <linux/fb.h>
-#include <linux/fbcon.h>
-#include <linux/lcd.h>
-#include <linux/leds.h>
+#include <peenux/console.h>
+#include <peenux/export.h>
+#include <peenux/fb.h>
+#include <peenux/fbcon.h>
+#include <peenux/lcd.h>
+#include <peenux/leds.h>
 
 #include <video/nomodeset.h>
 

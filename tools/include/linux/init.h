@@ -2,7 +2,7 @@
 #ifndef _TOOLS_LINUX_INIT_H_
 #define _TOOLS_LINUX_INIT_H_
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 #ifndef __init
 # define __init

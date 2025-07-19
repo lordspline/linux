@@ -14,8 +14,8 @@
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/soc-dapm.h>
-#include <linux/input.h>
-#include <linux/module.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
 #include <sound/soc.h>
 
 #include "acp_common.h"

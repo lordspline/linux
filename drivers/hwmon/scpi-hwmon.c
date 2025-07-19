@@ -6,14 +6,14 @@
  * Punit Agrawal <punit.agrawal@arm.com>
  */
 
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/scpi_protocol.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
+#include <peenux/hwmon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/scpi_protocol.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/thermal.h>
 
 struct sensor_data {
 	unsigned int scale;

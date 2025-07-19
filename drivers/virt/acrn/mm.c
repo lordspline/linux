@@ -9,10 +9,10 @@
  *	Shuo Liu <shuo.a.liu@intel.com>
  */
 
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #include "acrn_drv.h"
 

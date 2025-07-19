@@ -73,9 +73,9 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/etherdevice.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/etherdevice.h>
 
 #include "tag.h"
 

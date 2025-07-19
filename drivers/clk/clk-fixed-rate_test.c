@@ -2,11 +2,11 @@
 /*
  * KUnit test for clk fixed rate basic type
  */
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/completion.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/completion.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <kunit/clk.h>
 #include <kunit/of.h>

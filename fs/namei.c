@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/namei.c
+ *  peenux/fs/namei.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
@@ -15,31 +15,31 @@
 /* [Feb-Apr 2000, AV] Rewrite to the new namespace architecture.
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/wordpart.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/namei.h>
-#include <linux/pagemap.h>
-#include <linux/sched/mm.h>
-#include <linux/fsnotify.h>
-#include <linux/personality.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/mount.h>
-#include <linux/audit.h>
-#include <linux/capability.h>
-#include <linux/file.h>
-#include <linux/fcntl.h>
-#include <linux/device_cgroup.h>
-#include <linux/fs_struct.h>
-#include <linux/posix_acl.h>
-#include <linux/hash.h>
-#include <linux/bitops.h>
-#include <linux/init_task.h>
-#include <linux/uaccess.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/wordpart.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/namei.h>
+#include <peenux/pagemap.h>
+#include <peenux/sched/mm.h>
+#include <peenux/fsnotify.h>
+#include <peenux/personality.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/mount.h>
+#include <peenux/audit.h>
+#include <peenux/capability.h>
+#include <peenux/file.h>
+#include <peenux/fcntl.h>
+#include <peenux/device_cgroup.h>
+#include <peenux/fs_struct.h>
+#include <peenux/posix_acl.h>
+#include <peenux/hash.h>
+#include <peenux/bitops.h>
+#include <peenux/init_task.h>
+#include <peenux/uaccess.h>
 
 #include "internal.h"
 #include "mount.h"
@@ -86,7 +86,7 @@
  * "old" one. Personally, I think the new semantics is much more logical.
  * Note that "ln old new" where "new" is a symlink pointing to a non-existing
  * file does succeed in both HP-UX and SunOs, but not in Solaris
- * and in the old Linux semantics.
+ * and in the old Peenux semantics.
  */
 
 /* [16-Dec-97 Kevin Buhr] For security reasons, we change some symlink
@@ -4881,7 +4881,7 @@ EXPORT_SYMBOL(vfs_link);
  * newname.  --KAB
  *
  * We don't follow them on the oldname either to be compatible
- * with linux 2.0, and to avoid hard-linking to directories
+ * with peenux 2.0, and to avoid hard-linking to directories
  * and other special files.  --ADM
  */
 int do_linkat(int olddfd, struct filename *old, int newdfd,

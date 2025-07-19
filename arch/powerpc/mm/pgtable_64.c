@@ -16,20 +16,20 @@
  *      Rework for PPC64 port.
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/stddef.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/hugetlb.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/export.h>
+#include <peenux/types.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/stddef.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/hugetlb.h>
 
 #include <asm/page.h>
 #include <asm/mmu_context.h>

@@ -21,11 +21,11 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <peenux/debugfs.h>
+#include <peenux/err.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
 
 #include <drm/drm_atomic_state_helper.h>
 #include <drm/drm_bridge.h>

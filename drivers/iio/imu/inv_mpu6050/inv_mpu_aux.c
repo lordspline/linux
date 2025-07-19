@@ -3,10 +3,10 @@
  * Copyright (C) 2019 TDK-InvenSense, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/regmap.h>
+#include <peenux/delay.h>
 
 #include "inv_mpu_aux.h"
 #include "inv_mpu_iio.h"
@@ -72,7 +72,7 @@ int inv_mpu_aux_init(const struct inv_mpu6050_state *st)
 	int ret;
 
 	/*
-	 * Code based on the vendor Linux kernel v3.0,
+	 * Code based on the vendor Peenux kernel v3.0,
 	 * the exact meaning is unknown.
 	 */
 	if (st->chip_type == INV_MPU9150) {

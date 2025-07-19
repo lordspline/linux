@@ -13,10 +13,10 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/list.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/list.h>
 #include "ibmphp.h"
 
 

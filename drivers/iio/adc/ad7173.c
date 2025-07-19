@@ -10,37 +10,37 @@
  * Copyright (C) 2015, 2024 Analog Devices, Inc.
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/container_of.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/regmap.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/container_of.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/regmap.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
-#include <linux/iio/adc/ad_sigma_delta.h>
+#include <peenux/iio/adc/ad_sigma_delta.h>
 
 #define AD7173_REG_COMMS		0x00
 #define AD7173_REG_ADC_MODE		0x01

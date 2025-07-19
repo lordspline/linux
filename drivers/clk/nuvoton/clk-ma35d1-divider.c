@@ -4,10 +4,10 @@
  * Author: Chi-Fang Li <cfli0@nuvoton.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
 
 #include "clk-ma35d1.h"
 

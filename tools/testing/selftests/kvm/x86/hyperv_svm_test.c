@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/ioctl.h>
-#include <linux/bitmap.h>
+#include <peenux/bitmap.h>
 
 #include "test_util.h"
 

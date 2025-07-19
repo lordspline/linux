@@ -7,14 +7,14 @@
 #include "qla_gbl.h"
 #include "qla_target.h"
 
-#include <linux/moduleparam.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/list.h>
+#include <peenux/moduleparam.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
 
 #include <scsi/scsi_tcq.h>
 #include <scsi/scsicam.h>
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 void
 qla2x00_vp_stop_timer(scsi_qla_host_t *vha)

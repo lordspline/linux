@@ -10,14 +10,14 @@
  * 	   Alex deVries <alex@onefishtwo.ca>
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/types.h>
-#include <linux/reboot.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/types.h>
+#include <peenux/reboot.h>
 
 #include <asm/io.h>
 #include <asm/hardware.h>

@@ -4,10 +4,10 @@
 #ifndef PVR_ROGUE_FWIF_CLIENT_H
 #define PVR_ROGUE_FWIF_CLIENT_H
 
-#include <linux/bits.h>
-#include <linux/kernel.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/kernel.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
 
 #include "pvr_rogue_fwif_shared.h"
 

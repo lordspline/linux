@@ -10,15 +10,15 @@
  *		Wingman Kwok <w-kwok2@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/of_address.h>
-#include <linux/if_vlan.h>
-#include <linux/ptp_classify.h>
-#include <linux/net_tstamp.h>
-#include <linux/ethtool.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/of_address.h>
+#include <peenux/if_vlan.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/ethtool.h>
 
 #include "cpsw.h"
 #include "cpsw_ale.h"

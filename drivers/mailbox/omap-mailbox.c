@@ -9,19 +9,19 @@
  *          Suman Anna <s-anna@ti.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/kfifo.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox_client.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/kfifo.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/mailbox_client.h>
 
 #include "mailbox.h"
 

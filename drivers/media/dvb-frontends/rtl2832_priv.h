@@ -9,12 +9,12 @@
 #ifndef RTL2832_PRIV_H
 #define RTL2832_PRIV_H
 
-#include <linux/regmap.h>
-#include <linux/math64.h>
-#include <linux/bitops.h>
+#include <peenux/regmap.h>
+#include <peenux/math64.h>
+#include <peenux/bitops.h>
 
 #include <media/dvb_frontend.h>
-#include <linux/int_log.h>
+#include <peenux/int_log.h>
 #include "rtl2832.h"
 
 struct rtl2832_dev {

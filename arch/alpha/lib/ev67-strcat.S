@@ -20,7 +20,7 @@
  * string once.
  */
 
-#include <linux/export.h>
+#include <peenux/export.h>
 	.text
 
 	.align 4

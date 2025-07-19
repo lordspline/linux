@@ -6,12 +6,12 @@
  * Author: Joonyoung Shim <jy0922.shim@samsung.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include <sound/soc.h>
 #include <sound/initval.h>
 #include <sound/tlv.h>

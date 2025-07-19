@@ -6,7 +6,7 @@
  */
 
 #include <fcntl.h>
-#include <linux/gpio.h>
+#include <peenux/gpio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

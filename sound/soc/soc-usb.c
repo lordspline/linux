@@ -2,8 +2,8 @@
 /*
  * Copyright (c) 2022-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
-#include <linux/of.h>
-#include <linux/usb.h>
+#include <peenux/of.h>
+#include <peenux/usb.h>
 
 #include <sound/jack.h>
 #include <sound/soc-usb.h>

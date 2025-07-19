@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/device.h>
-#include <linux/cpu.h>
+#include <peenux/device.h>
+#include <peenux/cpu.h>
 #include <asm/facility.h>
 #include <asm/nospec-branch.h>
 

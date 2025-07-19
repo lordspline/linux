@@ -13,7 +13,7 @@
 #ifndef RT2X00MMIO_H
 #define RT2X00MMIO_H
 
-#include <linux/io.h>
+#include <peenux/io.h>
 
 /*
  * Register access.

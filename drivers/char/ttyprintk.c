@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/char/ttyprintk.c
+ *  peenux/drivers/char/ttyprintk.c
  *
  *  Copyright (C) 2010  Samo Pogacnik
  */
@@ -11,12 +11,12 @@
  * of the boot process, for example.
  */
 
-#include <linux/console.h>
-#include <linux/device.h>
-#include <linux/serial.h>
-#include <linux/tty.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
+#include <peenux/console.h>
+#include <peenux/device.h>
+#include <peenux/serial.h>
+#include <peenux/tty.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
 
 struct ttyprintk_port {
 	struct tty_port port;

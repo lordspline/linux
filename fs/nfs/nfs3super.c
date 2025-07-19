@@ -2,8 +2,8 @@
 /*
  * Copyright (c) 2012 Netapp, Inc. All rights reserved.
  */
-#include <linux/module.h>
-#include <linux/nfs_fs.h>
+#include <peenux/module.h>
+#include <peenux/nfs_fs.h>
 #include "internal.h"
 #include "nfs3_fs.h"
 #include "nfs.h"

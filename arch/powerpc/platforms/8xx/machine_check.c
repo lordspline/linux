@@ -2,9 +2,9 @@
 /*
  */
 
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/ptrace.h>
+#include <peenux/kernel.h>
+#include <peenux/printk.h>
+#include <peenux/ptrace.h>
 
 #include <asm/reg.h>
 

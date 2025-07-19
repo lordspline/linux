@@ -10,14 +10,14 @@
  * (alarms, trickle charger, different control registers) are unavailable.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/spi/spi.h>
-#include <linux/bcd.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/spi/spi.h>
+#include <peenux/bcd.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
 #define DS1390_REG_100THS		0x00
 #define DS1390_REG_SECONDS		0x01

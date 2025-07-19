@@ -30,8 +30,8 @@
  * measurement, and debugging facilities.
  */
 
-#include <linux/compiler.h>
-#include <linux/irqflags.h>
+#include <peenux/compiler.h>
+#include <peenux/irqflags.h>
 #include <asm/octeon/cvmx.h>
 #include <asm/octeon/cvmx-l2c.h>
 #include <asm/octeon/cvmx-spinlock.h>

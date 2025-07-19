@@ -20,13 +20,13 @@
  * OF THIS SOFTWARE.
  */
 
-#include <linux/clk.h>
-#include <linux/host1x.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/host1x.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "dev.h"
 

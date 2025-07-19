@@ -37,18 +37,18 @@
  *  bits the chip supports.
  */
 
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/bitops.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include <dt-bindings/leds/leds-pca955x.h>
 

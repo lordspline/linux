@@ -6,9 +6,9 @@
 
 #include <drm/drm_print.h>
 #include <uapi/drm/xe_drm.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "xe_assert.h"
 #include "xe_bo.h"

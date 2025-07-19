@@ -3,7 +3,7 @@
  * Copyright (C) 2020-2021 Intel Corporation.
  */
 
-#include <linux/wwan.h>
+#include <peenux/wwan.h>
 #include "iosm_ipc_trace.h"
 
 /* sub buffer size and number of sub buffer */

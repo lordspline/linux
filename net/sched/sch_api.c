@@ -11,21 +11,21 @@
  * Jamal Hadi Salim <hadi@nortelnetworks.com>: 990601: ingress support
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/kmod.h>
-#include <linux/list.h>
-#include <linux/hrtimer.h>
-#include <linux/slab.h>
-#include <linux/hashtable.h>
-#include <linux/bpf.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/kmod.h>
+#include <peenux/list.h>
+#include <peenux/hrtimer.h>
+#include <peenux/slab.h>
+#include <peenux/hashtable.h>
+#include <peenux/bpf.h>
 
 #include <net/netdev_lock.h>
 #include <net/net_namespace.h>

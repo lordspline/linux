@@ -5,19 +5,19 @@
  * Author: Karthikeyan Mani <karthikeyanm@amiindia.co.in>
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/hashtable.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/hashtable.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
 
 #define ASPEED_SGPIO_CTRL		0x54
 

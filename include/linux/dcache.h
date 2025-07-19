@@ -2,25 +2,25 @@
 #ifndef __LINUX_DCACHE_H
 #define __LINUX_DCACHE_H
 
-#include <linux/atomic.h>
-#include <linux/list.h>
-#include <linux/math.h>
-#include <linux/rculist.h>
-#include <linux/rculist_bl.h>
-#include <linux/spinlock.h>
-#include <linux/seqlock.h>
-#include <linux/cache.h>
-#include <linux/rcupdate.h>
-#include <linux/lockref.h>
-#include <linux/stringhash.h>
-#include <linux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/list.h>
+#include <peenux/math.h>
+#include <peenux/rculist.h>
+#include <peenux/rculist_bl.h>
+#include <peenux/spinlock.h>
+#include <peenux/seqlock.h>
+#include <peenux/cache.h>
+#include <peenux/rcupdate.h>
+#include <peenux/lockref.h>
+#include <peenux/stringhash.h>
+#include <peenux/wait.h>
 
 struct path;
 struct file;
 struct vfsmount;
 
 /*
- * linux/include/linux/dcache.h
+ * peenux/include/peenux/dcache.h
  *
  * Dirent cache data structures
  *

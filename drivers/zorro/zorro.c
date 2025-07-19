@@ -8,17 +8,17 @@
  *    for more details.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/zorro.h>
-#include <linux/bitops.h>
-#include <linux/string.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/zorro.h>
+#include <peenux/bitops.h>
+#include <peenux/string.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
 
 #include <asm/byteorder.h>
 #include <asm/setup.h>

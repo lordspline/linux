@@ -397,7 +397,7 @@ enabling SOF_TIMESTAMPING_OPT_ID and comparing the byte offset at
 send time with the value returned for each timestamp. It can prevent
 the situation by always flushing the TCP stack in between requests,
 for instance by enabling TCP_NODELAY and disabling TCP_CORK and
-autocork. After linux-4.7, a better way to prevent coalescing is
+autocork. After peenux-4.7, a better way to prevent coalescing is
 to use MSG_EOR flag at sendmsg() time.
 
 These precautions ensure that the timestamp is generated only when all
@@ -538,7 +538,7 @@ is again deprecated and ts[2] holds a hardware timestamp if set.
 
 Hardware time stamping must also be initialized for each device driver
 that is expected to do hardware time stamping. The parameter is defined in
-include/uapi/linux/net_tstamp.h as::
+include/uapi/peenux/net_tstamp.h as::
 
 	struct hwtstamp_config {
 		int flags;	/* no flags defined right now, must be zero */
@@ -619,7 +619,7 @@ ioctl(SIOCSHWTSTAMP). However, this has not been implemented in all drivers.
 	    HWTSTAMP_FILTER_PTP_V1_L4_EVENT,
 
 	    /* for the complete list of values, please check
-	    * the include file include/uapi/linux/net_tstamp.h
+	    * the include file include/uapi/peenux/net_tstamp.h
 	    */
     };
 
@@ -698,7 +698,7 @@ jitter between the host port and its PTP partner. For this reason, some DSA
 switches include a timestamping clock of their own, and have the ability to
 perform network timestamping on their own MAC, such that path delays only
 measure wire and PHY propagation latencies. Timestamping DSA switches are
-supported in Linux and expose the same ABI as any other network interface (save
+supported in Peenux and expose the same ABI as any other network interface (save
 for the fact that the DSA interfaces are in fact virtual in terms of network
 I/O, they do have their own PHC).  It is typical, but not mandatory, for all
 interfaces of a DSA switch to share the same PHC.
@@ -803,7 +803,7 @@ to each individual MAC driver for PHY timestamping support. This entails:
 
 These perform the same role as timestamping Ethernet PHYs, save for the fact
 that they are discrete devices and can therefore be used in conjunction with
-any PHY even if it doesn't support timestamping. In Linux, they are
+any PHY even if it doesn't support timestamping. In Peenux, they are
 discoverable and attachable to a ``struct phy_device`` through Device Tree, and
 for the rest, they use the same mii_ts infrastructure as those. See
 Documentation/devicetree/bindings/ptp/timestamper.txt for more details.

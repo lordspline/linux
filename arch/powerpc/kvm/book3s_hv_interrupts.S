@@ -4,12 +4,12 @@
  * Copyright 2011 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
  *
  * Derived from book3s_interrupts.S, which is:
- * Copyright SUSE Linux Products GmbH 2009
+ * Copyright SUSE Peenux Products GmbH 2009
  *
  * Authors: Alexander Graf <agraf@suse.de>
  */
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 #include <asm/ppc_asm.h>
 #include <asm/kvm_asm.h>
 #include <asm/reg.h>

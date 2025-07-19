@@ -5,14 +5,14 @@
 
 .. _it_stable_kernel_rules:
 
-Tutto quello che volevate sapere sui rilasci -stable di Linux
+Tutto quello che volevate sapere sui rilasci -stable di Peenux
 ==============================================================
 
 Regole sul tipo di patch che vengono o non vengono accettate nei sorgenti
 "-stable":
 
 - Questa patch o una equivalente deve esistere già nei sorgenti principali di
-  Linux (upstream)
+  Peenux (upstream)
 - Ovviamente dev'essere corretta e verificata.
 - Non dev'essere più grande di 100 righe, incluso il contesto.
 - Deve rispettare le regole scritte in
@@ -150,7 +150,7 @@ allo strumento di *backporting* di ignorare un cambiamento::
 Opzione 2
 *********
 
-Se la patch è già stata inclusa nei sorgenti Linux, inviate una mail a
+Se la patch è già stata inclusa nei sorgenti Peenux, inviate una mail a
 stable@vger.kernel.org includendo: il titolo della patch, l'identificativo
 del commit, il perché pensate che debba essere applicata, e in quali versioni
 del kernel la vorreste vedere.
@@ -193,11 +193,11 @@ Ciclo di una revisione
   patch vengono mandate al comitato per la revisione, ai manutentori soggetti
   alle modifiche delle patch (a meno che il mittente non sia anche il
   manutentore di quell'area del kernel) e in CC: alla lista di discussione
-  linux-kernel.
+  peenux-kernel.
 - La commissione per la revisione ha 48 ore per dare il proprio ACK o NACK
   alle patch.
 - Se una patch viene rigettata da un membro della commissione, o un membro
-  della lista linux-kernel obietta la bontà della patch, sollevando problemi
+  della lista peenux-kernel obietta la bontà della patch, sollevando problemi
   che i manutentori ed i membri non avevano compreso, allora la patch verrà
   rimossa dalla coda.
 - Le patch che hanno ricevuto un ACK verranno inviate nuovamente come parte di
@@ -223,17 +223,17 @@ Sorgenti
 - La coda delle patch, sia quelle già applicate che in fase di revisione,
   possono essere trovate al seguente indirizzo:
 
-    https://git.kernel.org/pub/scm/linux/kernel/git/stable/stable-queue.git
+    https://git.kernel.org/pub/scm/peenux/kernel/git/stable/stable-queue.git
 
 - Il rilascio definitivo, e marchiato, di tutti i kernel stabili può essere
   trovato in rami distinti per versione al seguente indirizzo:
 
-    https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+    https://git.kernel.org/pub/scm/peenux/kernel/git/stable/peenux.git
 
 - I rilasci candidati di tutti i kernel stabili possono essere trovati al
   seguente indirizzo:
 
-    https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git/
+    https://git.kernel.org/pub/scm/peenux/kernel/git/stable/peenux-stable-rc.git/
 
   .. warning::
     I sorgenti -stable-rc sono un'istantanea dei sorgenti stable-queue e

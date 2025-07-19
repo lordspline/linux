@@ -9,15 +9,15 @@
 
 #define pr_fmt(fmt)	"arm-lpae io-pgtable: " fmt
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/io-pgtable.h>
-#include <linux/kernel.h>
-#include <linux/device/faux.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/dma-mapping.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/io-pgtable.h>
+#include <peenux/kernel.h>
+#include <peenux/device/faux.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/dma-mapping.h>
 
 #include <asm/barrier.h>
 

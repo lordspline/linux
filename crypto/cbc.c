@@ -6,11 +6,11 @@
  */
 
 #include <crypto/internal/skcipher.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/module.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
 
 static int crypto_cbc_encrypt_segment(struct crypto_lskcipher *tfm,
 				      const u8 *src, u8 *dst, unsigned nbytes,

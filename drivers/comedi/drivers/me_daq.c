@@ -20,10 +20,10 @@
  *    Analog Input, Analog Output, Digital I/O
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/comedi/comedi_pci.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/comedi/comedi_pci.h>
 
 #include "plx9052.h"
 

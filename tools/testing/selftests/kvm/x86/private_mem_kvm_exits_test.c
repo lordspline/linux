@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2023, Google LLC.
  */
-#include <linux/kvm.h>
+#include <peenux/kvm.h>
 #include <pthread.h>
 #include <stdint.h>
 

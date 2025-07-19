@@ -7,9 +7,9 @@
  *          Rafael J. Wysocki <rafael.j.wysocki@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
+#include <peenux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/ctype.h>
 
 #include "internal.h"
 

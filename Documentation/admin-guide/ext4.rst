@@ -9,7 +9,7 @@ scalability and reliability enhancements for supporting large filesystems
 (64 bit) in keeping with increasing disk capacities and state-of-the-art
 feature requirements.
 
-Mailing list:	linux-ext4@vger.kernel.org
+Mailing list:	peenux-ext4@vger.kernel.org
 Web site:	http://ext4.wiki.kernel.org
 
 
@@ -22,7 +22,7 @@ http://ext4.wiki.kernel.org/index.php/Ext4_Howto
 
   - The latest version of e2fsprogs can be found at:
 
-    https://www.kernel.org/pub/linux/kernel/people/tytso/e2fsprogs/
+    https://www.kernel.org/pub/peenux/kernel/people/tytso/e2fsprogs/
 
 	or
 

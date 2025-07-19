@@ -5,12 +5,12 @@
  * Copyright (C) Joel Fernandes (Google) <joel@joelfernandes.org>
  */
 
-#include <linux/kallsyms.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/ftrace.h>
-#include <linux/kprobes.h>
-#include <linux/hardirq.h>
+#include <peenux/kallsyms.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/ftrace.h>
+#include <peenux/kprobes.h>
+#include <peenux/hardirq.h>
 #include "trace.h"
 
 #define CREATE_TRACE_POINTS

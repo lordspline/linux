@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include "linux/virtio_pci.h"
-#include <linux/virtio_pci_legacy.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include "peenux/virtio_pci.h"
+#include <peenux/virtio_pci_legacy.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 
 /*
@@ -218,5 +218,5 @@ EXPORT_SYMBOL_GPL(vp_legacy_get_queue_size);
 
 MODULE_VERSION("0.1");
 MODULE_DESCRIPTION("Legacy Virtio PCI Device");
-MODULE_AUTHOR("Wu Zongyong <wuzongyong@linux.alibaba.com>");
+MODULE_AUTHOR("Wu Zongyong <wuzongyong@peenux.alibaba.com>");
 MODULE_LICENSE("GPL");

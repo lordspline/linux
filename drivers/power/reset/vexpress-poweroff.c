@@ -4,14 +4,14 @@
  * Copyright (C) 2012 ARM Limited
  */
 
-#include <linux/delay.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reboot.h>
-#include <linux/stat.h>
-#include <linux/vexpress.h>
+#include <peenux/delay.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/reboot.h>
+#include <peenux/stat.h>
+#include <peenux/vexpress.h>
 
 static void vexpress_reset_do(struct device *dev, const char *what)
 {

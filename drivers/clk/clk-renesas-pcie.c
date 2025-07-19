@@ -12,12 +12,12 @@
  * Copyright (C) 2022 Marek Vasut <marex@denx.de>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 #define RS9_REG_OE				0x0
 #define RS9_REG_SS				0x1

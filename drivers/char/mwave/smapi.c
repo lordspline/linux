@@ -46,8 +46,8 @@
 *	First release to the public
 */
 
-#include <linux/kernel.h>
-#include <linux/mc146818rtc.h>	/* CMOS defines */
+#include <peenux/kernel.h>
+#include <peenux/mc146818rtc.h>	/* CMOS defines */
 #include "smapi.h"
 #include "mwavedd.h"
 

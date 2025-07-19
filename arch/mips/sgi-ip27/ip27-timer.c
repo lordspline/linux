@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 1999, 2000, 05, 06 Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 1999, 2000, 05, 06 Ralf Baechle (ralf@peenux-mips.org)
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  */
-#include <linux/bcd.h>
-#include <linux/clockchips.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched_clock.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/param.h>
-#include <linux/smp.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/mm.h>
-#include <linux/platform_device.h>
+#include <peenux/bcd.h>
+#include <peenux/clockchips.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched_clock.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/param.h>
+#include <peenux/smp.h>
+#include <peenux/time.h>
+#include <peenux/timex.h>
+#include <peenux/mm.h>
+#include <peenux/platform_device.h>
 
 #include <asm/time.h>
 #include <asm/sgialib.h>

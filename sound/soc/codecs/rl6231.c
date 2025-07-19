@@ -7,10 +7,10 @@
  * Author: Oder Chiou <oder_chiou@realtek.com>
  */
 
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
-#include <linux/gcd.h>
+#include <peenux/gcd.h>
 #include "rl6231.h"
 
 /**

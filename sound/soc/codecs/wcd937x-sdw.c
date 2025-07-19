@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (c) 2023-2024 Qualcomm Innovation Center, Inc. All rights reserved.
 
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw_type.h>
+#include <peenux/component.h>
+#include <peenux/device.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/soundwire/sdw_type.h>
 #include <sound/soc-dapm.h>
 #include <sound/soc.h>
 #include "wcd937x.h"

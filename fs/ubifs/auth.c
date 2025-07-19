@@ -9,7 +9,7 @@
  * This file implements various helper functions for UBIFS authentication support
  */
 
-#include <linux/verification.h>
+#include <peenux/verification.h>
 #include <crypto/hash.h>
 #include <crypto/utils.h>
 #include <keys/user-type.h>

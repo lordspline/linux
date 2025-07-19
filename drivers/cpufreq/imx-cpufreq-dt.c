@@ -3,19 +3,19 @@
  * Copyright 2019 NXP
  */
 
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 #include "cpufreq-dt.h"
 

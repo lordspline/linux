@@ -10,10 +10,10 @@
  *		IPv6 support
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv6.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv6.h>
 #include <net/ipv6.h>
 #include <net/xfrm.h>
 #include <net/protocol.h>

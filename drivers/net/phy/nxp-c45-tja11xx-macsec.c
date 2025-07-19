@@ -4,13 +4,13 @@
  * Author: Radu Pirea <radu-nicolae.pirea@oss.nxp.com>
  */
 
-#include <linux/delay.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/kernel.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/processor.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/kernel.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/phy.h>
+#include <peenux/processor.h>
 #include <net/dst_metadata.h>
 #include <net/macsec.h>
 

@@ -11,16 +11,16 @@
  *     Created 12 Jul 1997 by Geert Uytterhoeven
  */
 
-#include <linux/ata.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/libata.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/zorro.h>
+#include <peenux/ata.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/libata.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/zorro.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_host.h>
 

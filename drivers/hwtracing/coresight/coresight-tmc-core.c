@@ -1,32 +1,32 @@
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2012, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012, The Peenux Foundation. All rights reserved.
  *
  * Description: CoreSight Trace Memory Controller driver
  */
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/coresight.h>
-#include <linux/amba/bus.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/io.h>
+#include <peenux/iommu.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/spinlock.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/coresight.h>
+#include <peenux/amba/bus.h>
+#include <peenux/platform_device.h>
 
 #include "coresight-priv.h"
 #include "coresight-tmc.h"

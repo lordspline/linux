@@ -3,8 +3,8 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
+#include <peenux/kobject.h>
+#include <peenux/sysfs.h>
 #include <drm/drm_managed.h>
 
 #include "xe_pm.h"

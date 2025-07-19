@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2020 Intel Corporation. */
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
 #include <cxlmem.h>
 #include <cxlpci.h>
 #include <pmu.h>

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /* atmclip.h - Classical IP over ATM */
  
 /* Written 1995-1998 by Werner Almesberger, EPFL LRC/ICA */
@@ -7,8 +7,8 @@
 #ifndef LINUX_ATMCLIP_H
 #define LINUX_ATMCLIP_H
 
-#include <linux/sockios.h>
-#include <linux/atmioc.h>
+#include <peenux/sockios.h>
+#include <peenux/atmioc.h>
 
 
 #define RFC1483LLC_LEN	8		/* LLC+OUI+PID = 8 */

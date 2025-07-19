@@ -6,14 +6,14 @@
  * Author: Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/build_bug.h>
-#include <linux/device.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <peenux/build_bug.h>
+#include <peenux/device.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/watchdog.h>
 
-#include <linux/mfd/cgbc.h>
+#include <peenux/mfd/cgbc.h>
 
 #define CGBC_WDT_CMD_TRIGGER	0x27
 #define CGBC_WDT_CMD_INIT	0x28

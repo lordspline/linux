@@ -16,15 +16,15 @@
  *   reading header and determining the remainder.
  */
 
-#include <linux/acpi.h>
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <peenux/acpi.h>
+#include <peenux/bug.h>
+#include <peenux/completion.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
 
 #include "tpm_tis_core.h"
 

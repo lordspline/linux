@@ -7,10 +7,10 @@
  * Author(s): Amelie Delaunay <amelie.delaunay@st.com>
  */
 
-#include <linux/clk.h>
-#include <linux/iopoll.h>
-#include <linux/platform_device.h>
-#include <linux/usb/role.h>
+#include <peenux/clk.h>
+#include <peenux/iopoll.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/role.h>
 #include "core.h"
 
 #define dwc2_ovr_gotgctl(gotgctl) \

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/linux/sunrpc/types.h
+ * peenux/include/peenux/sunrpc/types.h
  *
  * Generic types and misc stuff for RPC.
  *
@@ -10,11 +10,11 @@
 #ifndef _LINUX_SUNRPC_TYPES_H_
 #define _LINUX_SUNRPC_TYPES_H_
 
-#include <linux/timer.h>
-#include <linux/sched/signal.h>
-#include <linux/workqueue.h>
-#include <linux/sunrpc/debug.h>
-#include <linux/list.h>
+#include <peenux/timer.h>
+#include <peenux/sched/signal.h>
+#include <peenux/workqueue.h>
+#include <peenux/sunrpc/debug.h>
+#include <peenux/list.h>
 
 /*
  * Shorthands

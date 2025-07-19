@@ -14,9 +14,9 @@
  * USE printk; if you need, deploy -p.
  */
 
-#include <linux/kernel.h>
-#include <linux/compiler.h>
-#include <linux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/compiler.h>
+#include <peenux/spinlock.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>

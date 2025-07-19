@@ -5,13 +5,13 @@
  * Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 struct sun6i_drc {
 	struct clk		*bus_clk;

@@ -16,10 +16,10 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 if [ "$building_out_of_srctree" ]; then
-	# We are in linux-build/kselftest/bpf
+	# We are in peenux-build/kselftest/bpf
 	OUTPUT=../../
 else
-	# We are in linux/tools/testing/selftests/bpf
+	# We are in peenux/tools/testing/selftests/bpf
 	OUTPUT=../../../../
 fi
 

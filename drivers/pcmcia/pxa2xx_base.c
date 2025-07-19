@@ -15,16 +15,16 @@
 
   ======================================================================*/
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/soc/pxa/smemc.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/cpufreq.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/pxa/cpu.h>
+#include <peenux/soc/pxa/smemc.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
@@ -357,6 +357,6 @@ fs_initcall(pxa2xx_pcmcia_init);
 module_exit(pxa2xx_pcmcia_exit);
 
 MODULE_AUTHOR("Stefan Eletzhofer <stefan.eletzhofer@inquant.de> and Ian Molton <spyro@f2s.com>");
-MODULE_DESCRIPTION("Linux PCMCIA Card Services: PXA2xx core socket driver");
+MODULE_DESCRIPTION("Peenux PCMCIA Card Services: PXA2xx core socket driver");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS("platform:pxa2xx-pcmcia");

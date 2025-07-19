@@ -8,8 +8,8 @@
 #ifndef _LINUX_CUDA_H
 #define _LINUX_CUDA_H
 
-#include <linux/rtc.h>
-#include <uapi/linux/cuda.h>
+#include <peenux/rtc.h>
+#include <uapi/peenux/cuda.h>
 
 
 extern int __init find_via_cuda(void);

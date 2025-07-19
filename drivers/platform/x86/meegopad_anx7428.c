@@ -32,17 +32,17 @@
  * (C) Copyright 2024 Hans de Goede <hansg@kernel.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/dev_printk.h>
+#include <peenux/dmi.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 /* Register addresses and fields */
 #define VENDOR_ID			0x00

@@ -6,20 +6,20 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/gcd.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/gcd.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

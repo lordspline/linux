@@ -11,13 +11,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/pagemap.h>
-#include <linux/crc32.h>
-#include <linux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/pagemap.h>
+#include <peenux/crc32.h>
+#include <peenux/compiler.h>
 #include "nodelist.h"
 #include "summary.h"
 #include "debug.h"

@@ -4,16 +4,16 @@
  * (C) 2000 Red Hat.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/map.h>
 
 
 static int mapram_read (struct mtd_info *, loff_t, size_t, size_t *, u_char *);

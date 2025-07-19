@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/devtree.c
+ *  peenux/arch/arm/kernel/devtree.c
  *
  *  Copyright (C) 2009 Canonical Ltd. <jeremy.kerr@canonical.com>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_irq.h>
-#include <linux/smp.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/memblock.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_irq.h>
+#include <peenux/smp.h>
 
 #include <asm/cputype.h>
 #include <asm/setup.h>

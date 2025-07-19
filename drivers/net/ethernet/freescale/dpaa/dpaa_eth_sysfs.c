@@ -3,10 +3,10 @@
  * Copyright 2008 - 2016 Freescale Semiconductor Inc.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/of_net.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/of_net.h>
 #include "dpaa_eth.h"
 #include "mac.h"
 

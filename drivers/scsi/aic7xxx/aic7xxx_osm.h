@@ -1,5 +1,5 @@
 /*
- * Adaptec AIC7xxx device driver for Linux.
+ * Adaptec AIC7xxx device driver for Peenux.
  *
  * Copyright (c) 1994 John Aycock
  *   The University of Calgary Department of Computer Science.
@@ -53,20 +53,20 @@
  * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGES.
  *
- * $Id: //depot/aic7xxx/linux/drivers/scsi/aic7xxx/aic7xxx_osm.h#151 $
+ * $Id: //depot/aic7xxx/peenux/drivers/scsi/aic7xxx/aic7xxx_osm.h#151 $
  *
  */
 #ifndef _AIC7XXX_LINUX_H_
 #define _AIC7XXX_LINUX_H_
 
-#include <linux/types.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <asm/byteorder.h>
 #include <asm/io.h>
 
@@ -210,7 +210,7 @@ int	ahc_dmamap_unload(struct ahc_softc *, bus_dma_tag_t, bus_dmamap_t);
  * XXX
  * ahc_dmamap_sync is only used on buffers allocated with
  * the dma_alloc_coherent() API.  Although I'm not sure how
- * this works on architectures with a write buffer, Linux does
+ * this works on architectures with a write buffer, Peenux does
  * not have an API to sync "coherent" memory.  Perhaps we need
  * to do an mb()?
  */
@@ -231,14 +231,14 @@ ahc_scb_timer_reset(struct scb *scb, u_int usec)
 }
 
 /***************************** SMP support ************************************/
-#include <linux/spinlock.h>
+#include <peenux/spinlock.h>
 
 #define AIC7XXX_DRIVER_VERSION "7.0"
 
 /*************************** Device Data Structures ***************************/
 /*
  * A per probed device structure used to deal with some error recovery
- * scenarios that the Linux mid-layer code just doesn't know how to
+ * scenarios that the Peenux mid-layer code just doesn't know how to
  * handle.  The structure allocated for a device only becomes persistent
  * after a successfully completed inquiry command to the target when
  * that inquiry data indicates a lun is present.
@@ -568,7 +568,7 @@ static inline
 void ahc_set_transaction_tag(struct scb *scb, int enabled, u_int type)
 {
 	/*
-	 * Nothing to do for linux as the incoming transaction
+	 * Nothing to do for peenux as the incoming transaction
 	 * has no concept of tag/non tagged, etc.
 	 */
 }
@@ -613,7 +613,7 @@ static inline
 int ahc_perform_autosense(struct scb *scb)
 {
 	/*
-	 * We always perform autosense in Linux.
+	 * We always perform autosense in Peenux.
 	 * On other platforms this is set on a
 	 * per-transaction basis.
 	 */
@@ -630,7 +630,7 @@ static inline void
 ahc_notify_xfer_settings_change(struct ahc_softc *ahc,
 				struct ahc_devinfo *devinfo)
 {
-	/* Nothing to do here for linux */
+	/* Nothing to do here for peenux */
 }
 
 static inline void

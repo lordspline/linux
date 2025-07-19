@@ -106,8 +106,8 @@
  * preemption, but just sampling the new tail pointer).
  *
  */
-#include <linux/interrupt.h>
-#include <linux/string_helpers.h>
+#include <peenux/interrupt.h>
+#include <peenux/string_helpers.h>
 
 #include "i915_drv.h"
 #include "i915_reg.h"

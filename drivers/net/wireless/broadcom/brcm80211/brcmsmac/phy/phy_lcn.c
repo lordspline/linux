@@ -3,9 +3,9 @@
  * Copyright (c) 2010 Broadcom Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/cordic.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/cordic.h>
 
 #include <pmu.h>
 #include <d11.h>

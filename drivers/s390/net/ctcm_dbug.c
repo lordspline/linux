@@ -5,16 +5,16 @@
  *
  */
 
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/ctype.h>
-#include <linux/sysctl.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/debugfs.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/ctype.h>
+#include <peenux/sysctl.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/debugfs.h>
 #include "ctcm_dbug.h"
 
 /*

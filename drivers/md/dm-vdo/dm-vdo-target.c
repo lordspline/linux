@@ -3,15 +3,15 @@
  * Copyright 2023 Red Hat
  */
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device-mapper.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/device-mapper.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
 
 #include "admin-state.h"
 #include "block-map.h"
@@ -1224,7 +1224,7 @@ static int perform_admin_operation(struct vdo *vdo, u32 starting_phase,
 	vdo_launch_completion(prepare_admin_completion(vdo, callback, error_handler));
 
 	/*
-	 * Using the "interruptible" interface means that Linux will not log a message when we wait
+	 * Using the "interruptible" interface means that Peenux will not log a message when we wait
 	 * for more than 120 seconds.
 	 */
 	while (wait_for_completion_interruptible(&admin->callback_sync)) {

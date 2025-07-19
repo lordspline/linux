@@ -5,12 +5,12 @@
 
 #include "xe_guc_submit.h"
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/circ_buf.h>
-#include <linux/delay.h>
-#include <linux/dma-fence-array.h>
-#include <linux/math64.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/circ_buf.h>
+#include <peenux/delay.h>
+#include <peenux/dma-fence-array.h>
+#include <peenux/math64.h>
 
 #include <drm/drm_managed.h>
 

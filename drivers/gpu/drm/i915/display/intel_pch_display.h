@@ -6,7 +6,7 @@
 #ifndef _INTEL_PCH_DISPLAY_H_
 #define _INTEL_PCH_DISPLAY_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 enum pipe;
 struct intel_atomic_state;

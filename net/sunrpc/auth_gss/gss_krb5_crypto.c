@@ -1,5 +1,5 @@
 /*
- *  linux/net/sunrpc/gss_krb5_crypto.c
+ *  peenux/net/sunrpc/gss_krb5_crypto.c
  *
  *  Copyright (c) 2000-2008 The Regents of the University of Michigan.
  *  All rights reserved.
@@ -37,15 +37,15 @@
 #include <crypto/hash.h>
 #include <crypto/skcipher.h>
 #include <crypto/utils.h>
-#include <linux/err.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/scatterlist.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/random.h>
-#include <linux/sunrpc/gss_krb5.h>
-#include <linux/sunrpc/xdr.h>
+#include <peenux/err.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/scatterlist.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/random.h>
+#include <peenux/sunrpc/gss_krb5.h>
+#include <peenux/sunrpc/xdr.h>
 #include <kunit/visibility.h>
 
 #include "gss_krb5_internal.h"

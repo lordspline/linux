@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012, The Peenux Foundation. All rights reserved.
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/bug.h>
 #include <asm/hardware/cp14.h>
 
 #include "coresight-etm.h"

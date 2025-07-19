@@ -3,19 +3,19 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  *
- * Copyright (C) 1994 - 2003, 06, 07 by Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 1994 - 2003, 06, 07 by Ralf Baechle (ralf@peenux-mips.org)
  * Copyright (C) 2007 MIPS Technologies, Inc.
  */
-#include <linux/fs.h>
-#include <linux/fcntl.h>
-#include <linux/kernel.h>
-#include <linux/linkage.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/syscalls.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
+#include <peenux/fs.h>
+#include <peenux/fcntl.h>
+#include <peenux/kernel.h>
+#include <peenux/linkage.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/syscalls.h>
+#include <peenux/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
 
 #include <asm/bcache.h>
 #include <asm/cacheflush.h>

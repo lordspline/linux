@@ -7,11 +7,11 @@
  */
 
 /*
- *  Linux VFS inode operations.
+ *  Peenux VFS inode operations.
  */
 
-#include <linux/blkdev.h>
-#include <linux/fileattr.h>
+#include <peenux/blkdev.h>
+#include <peenux/fileattr.h>
 #include "protocol.h"
 #include "orangefs-kernel.h"
 #include "orangefs-bufmap.h"

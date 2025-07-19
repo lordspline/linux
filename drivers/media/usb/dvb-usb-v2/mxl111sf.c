@@ -5,8 +5,8 @@
  * see Documentation/driver-api/media/drivers/dvb-usb.rst for more information
  */
 
-#include <linux/vmalloc.h>
-#include <linux/i2c.h>
+#include <peenux/vmalloc.h>
+#include <peenux/i2c.h>
 #include <media/tuner.h>
 
 #include "mxl111sf.h"

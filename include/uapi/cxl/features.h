@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Copyright (c) 2024,2025, Intel Corporation
  *
@@ -7,12 +7,12 @@
 #ifndef _UAPI_CXL_FEATURES_H_
 #define _UAPI_CXL_FEATURES_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 typedef unsigned char __uapi_uuid_t[16];
 
 #ifdef __KERNEL__
-#include <linux/uuid.h>
+#include <peenux/uuid.h>
 /*
  * Note, __uapi_uuid_t is 1-byte aligned on modern compilers and 4-byte
  * aligned on others. Ensure that __uapi_uuid_t in a struct is placed at

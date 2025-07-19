@@ -9,22 +9,22 @@
  * - Melexis MLX90640 Thermal Cameras
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/freezer.h>
-#include <linux/hwmon.h>
-#include <linux/kthread.h>
-#include <linux/i2c.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/nvmem-provider.h>
-#include <linux/regmap.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/freezer.h>
+#include <peenux/hwmon.h>
+#include <peenux/kthread.h>
+#include <peenux/i2c.h>
+#include <peenux/list.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/regmap.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>

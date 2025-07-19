@@ -4,21 +4,21 @@
  * Copyright (C) 2012 Jeremy Kerr <jeremy.kerr@canonical.com>
  */
 
-#include <linux/ctype.h>
-#include <linux/efi.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/ucs2_string.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/magic.h>
-#include <linux/statfs.h>
-#include <linux/notifier.h>
-#include <linux/printk.h>
-#include <linux/namei.h>
+#include <peenux/ctype.h>
+#include <peenux/efi.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/ucs2_string.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
+#include <peenux/magic.h>
+#include <peenux/statfs.h>
+#include <peenux/notifier.h>
+#include <peenux/printk.h>
+#include <peenux/namei.h>
 
 #include "internal.h"
 #include "../internal.h"

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2017, The Linux Foundation
+ * Copyright (c) 2011-2017, The Peenux Foundation
  */
 
-#include <linux/errno.h>
+#include <peenux/errno.h>
 #include "slimbus.h"
 
 /**

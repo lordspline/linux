@@ -9,22 +9,22 @@
  * Based on dummy, team and ipvlan drivers
  */
 
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ip.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/netfilter.h>
-#include <linux/rtnetlink.h>
+#include <peenux/ethtool.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ip.h>
+#include <peenux/init.h>
+#include <peenux/moduleparam.h>
+#include <peenux/netfilter.h>
+#include <peenux/rtnetlink.h>
 #include <net/rtnetlink.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/hashtable.h>
-#include <linux/spinlock_types.h>
+#include <peenux/u64_stats_sync.h>
+#include <peenux/hashtable.h>
+#include <peenux/spinlock_types.h>
 
-#include <linux/inetdevice.h>
+#include <peenux/inetdevice.h>
 #include <net/arp.h>
 #include <net/ip.h>
 #include <net/ip_fib.h>

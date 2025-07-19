@@ -13,16 +13,16 @@
  * ALSA driver for Intel HDMI audio
  */
 
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/string.h>
+#include <peenux/types.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
 #include <sound/core.h>
 #include <sound/asoundef.h>
 #include <sound/pcm.h>

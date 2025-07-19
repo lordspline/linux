@@ -5,13 +5,13 @@
  */
 
 #include <dt-bindings/phy/phy.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
 
 /* phy regs */
 #define UTMI_REVISION		0x0

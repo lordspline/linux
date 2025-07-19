@@ -6,14 +6,14 @@
  * Copyright (C) 2015 Regents of the University of California
  */
 
-#include <linux/elf.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/binfmts.h>
-#include <linux/err.h>
+#include <peenux/elf.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/binfmts.h>
+#include <peenux/err.h>
 #include <asm/page.h>
 #include <asm/vdso.h>
-#include <linux/vdso_datastore.h>
+#include <peenux/vdso_datastore.h>
 #include <vdso/datapage.h>
 #include <vdso/vsyscall.h>
 

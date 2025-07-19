@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/signal.c
+ *  peenux/arch/alpha/kernel/signal.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  *
  *  1997-11-02  Modified for POSIX.1b signals by Richard Henderson
  */
 
-#include <linux/sched/signal.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/tty.h>
-#include <linux/binfmts.h>
-#include <linux/bitops.h>
-#include <linux/syscalls.h>
-#include <linux/resume_user_mode.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/errno.h>
+#include <peenux/wait.h>
+#include <peenux/ptrace.h>
+#include <peenux/unistd.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
+#include <peenux/tty.h>
+#include <peenux/binfmts.h>
+#include <peenux/bitops.h>
+#include <peenux/syscalls.h>
+#include <peenux/resume_user_mode.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/sigcontext.h>
 #include <asm/ucontext.h>
 

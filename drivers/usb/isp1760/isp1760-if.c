@@ -11,21 +11,21 @@
  *
  */
 
-#include <linux/usb.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/otg.h>
+#include <peenux/usb.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/otg.h>
 
 #include "isp1760-core.h"
 #include "isp1760-regs.h"
 
 #ifdef CONFIG_USB_PCI
-#include <linux/pci.h>
+#include <peenux/pci.h>
 #endif
 
 #ifdef CONFIG_USB_PCI

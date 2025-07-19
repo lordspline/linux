@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Cadence Design Systems Inc.
 
-#include <linux/cpu.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/stop_machine.h>
-#include <linux/types.h>
+#include <peenux/cpu.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/memory.h>
+#include <peenux/stop_machine.h>
+#include <peenux/types.h>
 
 #include <asm/cacheflush.h>
 

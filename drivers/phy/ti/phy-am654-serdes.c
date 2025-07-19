@@ -7,18 +7,18 @@
  */
 
 #include <dt-bindings/phy/phy.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mux/consumer.h>
-#include <linux/of_address.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mux/consumer.h>
+#include <peenux/of_address.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #define CMU_R004		0x4
 #define CMU_R060		0x60

@@ -12,8 +12,8 @@
  * to detect when we overlook these differences.
  *
  */
-#include <linux/uidgid_types.h>
-#include <linux/highuid.h>
+#include <peenux/uidgid_types.h>
+#include <peenux/highuid.h>
 
 struct user_namespace;
 extern struct user_namespace init_user_ns;

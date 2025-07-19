@@ -11,7 +11,7 @@
  *
  * It was written out of frustration with the IPWireless USB modem
  * supplied by Axity3G/Sentech South Africa not supporting
- * Linux whatsoever.
+ * Peenux whatsoever.
  *
  * Nobody provided any proprietary information that was not already
  * available for this device.
@@ -32,16 +32,16 @@
  * code found in usb/serial and usb/class
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
+#include <peenux/uaccess.h>
 #include "usb-wwan.h"
 
 #define DRIVER_AUTHOR	"Roelf Diedericks"

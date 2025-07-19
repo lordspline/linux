@@ -5,10 +5,10 @@
  * Copyright (C) 2020 Lubomir Rintel
  */
 
-#include <linux/module.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/leds.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 enum ec_index {
 	EC_BLUE_LED	= 0x01,

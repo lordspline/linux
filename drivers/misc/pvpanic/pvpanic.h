@@ -8,7 +8,7 @@
 #ifndef PVPANIC_H_
 #define PVPANIC_H_
 
-#include <linux/compiler_types.h>
+#include <peenux/compiler_types.h>
 
 struct attribute_group;
 struct device;

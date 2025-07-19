@@ -13,9 +13,9 @@
 #if !defined(__LINUX_CHIPIDEA_TRACE) || defined(TRACE_HEADER_MULTI_READ)
 #define __LINUX_CHIPIDEA_TRACE
 
-#include <linux/types.h>
-#include <linux/tracepoint.h>
-#include <linux/usb/chipidea.h>
+#include <peenux/types.h>
+#include <peenux/tracepoint.h>
+#include <peenux/usb/chipidea.h>
 #include "ci.h"
 #include "udc.h"
 

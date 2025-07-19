@@ -5,9 +5,9 @@
  * Copyright (C) 2014, Marvell International Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/nfc.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/nfc.h>
 #include <net/nfc/nci.h>
 #include <net/nfc/nci_core.h>
 #include "nfcmrvl.h"

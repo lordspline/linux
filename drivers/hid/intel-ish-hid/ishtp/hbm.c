@@ -5,11 +5,11 @@
  * Copyright (c) 2003-2016, Intel Corporation.
  */
 
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/spinlock.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/spinlock.h>
 #include "ishtp-dev.h"
 #include "hbm.h"
 #include "client.h"

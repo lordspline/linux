@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 /*
- *  HID-BPF support for Linux
+ *  HID-BPF support for Peenux
  *
  *  Copyright (c) 2022-2024 Benjamin Tissoires
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/bitops.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
-#include <linux/filter.h>
-#include <linux/hid.h>
-#include <linux/hid_bpf.h>
-#include <linux/init.h>
-#include <linux/kfifo.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/btf.h>
+#include <peenux/btf_ids.h>
+#include <peenux/filter.h>
+#include <peenux/hid.h>
+#include <peenux/hid_bpf.h>
+#include <peenux/init.h>
+#include <peenux/kfifo.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
 #include "hid_bpf_dispatch.h"
 
 const struct hid_ops *hid_ops;

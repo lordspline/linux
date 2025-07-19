@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Linux kernel module helpers.
+ * Peenux kernel module helpers.
  */
 
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 ssize_t of_modalias(const struct device_node *np, char *str, ssize_t len)
 {

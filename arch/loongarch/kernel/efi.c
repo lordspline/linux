@@ -8,18 +8,18 @@
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
 
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/efi-bgrt.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/kobject.h>
-#include <linux/memblock.h>
-#include <linux/reboot.h>
-#include <linux/screen_info.h>
-#include <linux/uaccess.h>
+#include <peenux/acpi.h>
+#include <peenux/efi.h>
+#include <peenux/efi-bgrt.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/kobject.h>
+#include <peenux/memblock.h>
+#include <peenux/reboot.h>
+#include <peenux/screen_info.h>
+#include <peenux/uaccess.h>
 
 #include <asm/early_ioremap.h>
 #include <asm/efi.h>

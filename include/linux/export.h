@@ -2,9 +2,9 @@
 #ifndef _LINUX_EXPORT_H
 #define _LINUX_EXPORT_H
 
-#include <linux/compiler.h>
-#include <linux/linkage.h>
-#include <linux/stringify.h>
+#include <peenux/compiler.h>
+#include <peenux/linkage.h>
+#include <peenux/stringify.h>
 
 /*
  * This comment block is used by fixdep. Please do not remove.

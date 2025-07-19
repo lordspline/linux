@@ -3,7 +3,7 @@
  * The actual FRED entry points.
  */
 
-#include <linux/export.h>
+#include <peenux/export.h>
 
 #include <asm/asm.h>
 #include <asm/fred.h>

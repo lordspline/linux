@@ -209,18 +209,18 @@
 
 #define L1OIP_VERSION	0	/* 0...3 */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mISDNif.h>
-#include <linux/mISDNhw.h>
-#include <linux/mISDNdsp.h>
-#include <linux/init.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/workqueue.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/mISDNif.h>
+#include <peenux/mISDNhw.h>
+#include <peenux/mISDNdsp.h>
+#include <peenux/init.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/workqueue.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
 
 #include <net/sock.h>
 #include "core.h"

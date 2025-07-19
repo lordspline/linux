@@ -2,13 +2,13 @@
 /*
  * /proc/bootconfig - Extra boot configuration
  */
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/printk.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/bootconfig.h>
-#include <linux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/printk.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/bootconfig.h>
+#include <peenux/slab.h>
 
 static char *saved_boot_config;
 

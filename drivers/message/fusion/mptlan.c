@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptlan.c
+ *  peenux/drivers/message/fusion/mptlan.c
  *      IP Over Fibre Channel device driver.
  *      For use with LSI Fibre Channel PCI chip/adapters
  *      running LSI Fusion MPT (Message Passing Technology) firmware.
@@ -53,11 +53,11 @@
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 #include "mptlan.h"
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
 #define my_VERSION	MPT_LINUX_VERSION_COMMON
 #define MYNAM		"mptlan"

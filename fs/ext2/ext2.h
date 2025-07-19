@@ -7,17 +7,17 @@
  *
  *  from
  *
- *  linux/include/linux/minix_fs.h
+ *  peenux/include/peenux/minix_fs.h
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
-#include <linux/fs.h>
-#include <linux/ext2_fs.h>
-#include <linux/blockgroup_lock.h>
-#include <linux/percpu_counter.h>
-#include <linux/rbtree.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
+#include <peenux/fs.h>
+#include <peenux/ext2_fs.h>
+#include <peenux/blockgroup_lock.h>
+#include <peenux/percpu_counter.h>
+#include <peenux/rbtree.h>
+#include <peenux/mm.h>
+#include <peenux/highmem.h>
 
 /* XXX Here for now... not interested in restructing headers JUST now */
 
@@ -690,7 +690,7 @@ struct ext2_inode_info {
  */
 
 /*
- * Ok, these declarations are also in <linux/kernel.h> but none of the
+ * Ok, these declarations are also in <peenux/kernel.h> but none of the
  * ext2 source programs needs to include it so they are duplicated here.
  */
 

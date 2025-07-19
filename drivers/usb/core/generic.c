@@ -19,10 +19,10 @@
  * Released under the GPLv2 only.
  */
 
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/string_choices.h>
-#include <uapi/linux/usb/audio.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/string_choices.h>
+#include <uapi/peenux/usb/audio.h>
 #include "usb.h"
 
 static int is_rndis(struct usb_interface_descriptor *desc)
@@ -171,7 +171,7 @@ int usb_choose_configuration(struct usb_device *udev)
 
 		/* From the remaining configs, choose the first one whose
 		 * first interface is for a non-vendor-specific class.
-		 * Reason: Linux is more likely to have a class driver
+		 * Reason: Peenux is more likely to have a class driver
 		 * than a vendor-specific driver. */
 		else if (udev->descriptor.bDeviceClass !=
 						USB_CLASS_VENDOR_SPEC &&

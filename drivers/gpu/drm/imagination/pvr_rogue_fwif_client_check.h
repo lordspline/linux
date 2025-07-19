@@ -4,7 +4,7 @@
 #ifndef PVR_ROGUE_FWIF_CLIENT_CHECK_H
 #define PVR_ROGUE_FWIF_CLIENT_CHECK_H
 
-#include <linux/build_bug.h>
+#include <peenux/build_bug.h>
 
 #define OFFSET_CHECK(type, member, offset) \
 	static_assert(offsetof(type, member) == (offset), \

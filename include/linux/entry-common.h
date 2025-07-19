@@ -2,16 +2,16 @@
 #ifndef __LINUX_ENTRYCOMMON_H
 #define __LINUX_ENTRYCOMMON_H
 
-#include <linux/static_call_types.h>
-#include <linux/ptrace.h>
-#include <linux/syscalls.h>
-#include <linux/seccomp.h>
-#include <linux/sched.h>
-#include <linux/context_tracking.h>
-#include <linux/livepatch.h>
-#include <linux/resume_user_mode.h>
-#include <linux/tick.h>
-#include <linux/kmsan.h>
+#include <peenux/static_call_types.h>
+#include <peenux/ptrace.h>
+#include <peenux/syscalls.h>
+#include <peenux/seccomp.h>
+#include <peenux/sched.h>
+#include <peenux/context_tracking.h>
+#include <peenux/livepatch.h>
+#include <peenux/resume_user_mode.h>
+#include <peenux/tick.h>
+#include <peenux/kmsan.h>
 
 #include <asm/entry-common.h>
 #include <asm/syscall.h>

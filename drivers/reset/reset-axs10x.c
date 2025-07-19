@@ -8,11 +8,11 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
 
 #define to_axs10x_rst(p)	container_of((p), struct axs10x_rst, rcdev)
 

@@ -9,9 +9,9 @@
 #ifndef __RT5033_H__
 #define __RT5033_H__
 
-#include <linux/regulator/consumer.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 
 /* RT5033 regulator IDs */
 enum rt5033_regulators {

@@ -7,13 +7,13 @@
  * Copyright 2009 Ilya Yanok, Emcraft Systems Ltd, yanok@emcraft.com
  */
 
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #include <asm/system_misc.h>
 #include <asm/proc-fns.h>

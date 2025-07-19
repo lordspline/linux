@@ -6,27 +6,27 @@
  * This file is released under the GPL.
  */
 
-#include <linux/device-mapper.h>
+#include <peenux/device-mapper.h>
 
 #include "dm-rq.h"
 #include "dm-bio-record.h"
 #include "dm-path-selector.h"
 #include "dm-uevent.h"
 
-#include <linux/blkdev.h>
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/mempool.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
+#include <peenux/blkdev.h>
+#include <peenux/ctype.h>
+#include <peenux/init.h>
+#include <peenux/mempool.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
+#include <peenux/delay.h>
 #include <scsi/scsi_dh.h>
-#include <linux/atomic.h>
-#include <linux/blk-mq.h>
+#include <peenux/atomic.h>
+#include <peenux/blk-mq.h>
 
 static struct workqueue_struct *dm_mpath_wq;
 
@@ -2387,5 +2387,5 @@ module_param_named(queue_if_no_path_timeout_secs, queue_if_no_path_timeout_secs,
 MODULE_PARM_DESC(queue_if_no_path_timeout_secs, "No available paths queue IO timeout in seconds");
 
 MODULE_DESCRIPTION(DM_NAME " multipath target");
-MODULE_AUTHOR("Sistina Software <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Sistina Software <dm-devel@lists.peenux.dev>");
 MODULE_LICENSE("GPL");

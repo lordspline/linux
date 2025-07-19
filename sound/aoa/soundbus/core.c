@@ -5,9 +5,9 @@
  * Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
 #include "soundbus.h"
 
 MODULE_AUTHOR("Johannes Berg <johannes@sipsolutions.net>");

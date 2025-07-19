@@ -6,8 +6,8 @@
  * Author: Chuan Liu <chuan.liu@amlogic.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/platform_device.h>
 #include "clk-regmap.h"
 #include "clk-pll.h"
 #include "meson-clkc-utils.h"

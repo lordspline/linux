@@ -43,8 +43,8 @@
 #include "parse-events.h"
 
 #include <subcmd/pager.h>
-#include <linux/ctype.h>
-#include <linux/zalloc.h>
+#include <peenux/ctype.h>
+#include <peenux/zalloc.h>
 
 #ifdef HAVE_DEBUGINFOD_SUPPORT
 #include <elfutils/debuginfod.h>
@@ -326,9 +326,9 @@ static char *find_module_name(const char *module)
 	/*
 	 * NOTE:
 	 * '.gnu.linkonce.this_module' section of kernel module elf directly
-	 * maps to 'struct module' from linux/module.h. This section contains
+	 * maps to 'struct module' from peenux/module.h. This section contains
 	 * actual module name which will be used by kernel after loading it.
-	 * But, we cannot use 'struct module' here since linux/module.h is not
+	 * But, we cannot use 'struct module' here since peenux/module.h is not
 	 * exposed to user-space. Offset of 'name' has remained same from long
 	 * time, so hardcoding it here.
 	 */

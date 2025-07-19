@@ -8,10 +8,10 @@
 #ifndef __ASM_ARM_ATOMIC_H
 #define __ASM_ARM_ATOMIC_H
 
-#include <linux/compiler.h>
-#include <linux/prefetch.h>
-#include <linux/types.h>
-#include <linux/irqflags.h>
+#include <peenux/compiler.h>
+#include <peenux/prefetch.h>
+#include <peenux/types.h>
+#include <peenux/irqflags.h>
 #include <asm/barrier.h>
 #include <asm/cmpxchg.h>
 

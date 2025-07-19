@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 /* Copyright © 2024 Intel Corporation */
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_drv.h>
 

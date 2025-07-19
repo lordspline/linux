@@ -7,8 +7,8 @@
 #ifndef LINUX_CB710_MMC_H
 #define LINUX_CB710_MMC_H
 
-#include <linux/cb710.h>
-#include <linux/workqueue.h>
+#include <peenux/cb710.h>
+#include <peenux/workqueue.h>
 
 /* per-MMC-reader structure */
 struct cb710_mmc_reader {

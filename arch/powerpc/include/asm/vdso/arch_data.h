@@ -7,8 +7,8 @@
 #ifndef _ASM_POWERPC_VDSO_ARCH_DATA_H
 #define _ASM_POWERPC_VDSO_ARCH_DATA_H
 
-#include <linux/unistd.h>
-#include <linux/types.h>
+#include <peenux/unistd.h>
+#include <peenux/types.h>
 
 #define SYSCALL_MAP_SIZE      ((NR_syscalls + 31) / 32)
 

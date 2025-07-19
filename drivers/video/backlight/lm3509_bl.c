@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #define LM3509_NAME "lm3509_bl"
 

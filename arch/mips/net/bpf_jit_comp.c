@@ -102,12 +102,12 @@
  *    if the branch was converted.
  */
 
-#include <linux/limits.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/filter.h>
-#include <linux/bpf.h>
-#include <linux/slab.h>
+#include <peenux/limits.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/filter.h>
+#include <peenux/bpf.h>
+#include <peenux/slab.h>
 #include <asm/bitops.h>
 #include <asm/cacheflush.h>
 #include <asm/cpu-features.h>

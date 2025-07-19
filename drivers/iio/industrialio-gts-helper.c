@@ -4,19 +4,19 @@
  * Copyright (c) 2023 Matti Vaittinen <mazziesaccount@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
-#include <linux/iio/iio-gts-helper.h>
-#include <linux/iio/types.h>
+#include <peenux/iio/iio-gts-helper.h>
+#include <peenux/iio/types.h>
 
 /**
  * iio_gts_get_gain - Convert scale to total gain

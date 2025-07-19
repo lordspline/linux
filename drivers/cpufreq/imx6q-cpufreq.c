@@ -3,19 +3,19 @@
  * Copyright (C) 2013 Freescale Semiconductor, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pm_opp.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/pm_opp.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
 
 #define PU_SOC_VOLTAGE_NORMAL	1250000
 #define PU_SOC_VOLTAGE_HIGH	1275000

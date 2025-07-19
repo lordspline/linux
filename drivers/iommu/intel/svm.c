@@ -5,17 +5,17 @@
  * Authors: David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/mmu_notifier.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
-#include <linux/pci.h>
-#include <linux/pci-ats.h>
-#include <linux/dmar.h>
-#include <linux/interrupt.h>
-#include <linux/mm_types.h>
-#include <linux/xarray.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/slab.h>
+#include <peenux/rculist.h>
+#include <peenux/pci.h>
+#include <peenux/pci-ats.h>
+#include <peenux/dmar.h>
+#include <peenux/interrupt.h>
+#include <peenux/mm_types.h>
+#include <peenux/xarray.h>
 #include <asm/page.h>
 #include <asm/fpu/api.h>
 

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/cgroup-defs.h - basic definitions for cgroup
+ * peenux/cgroup-defs.h - basic definitions for cgroup
  *
  * This file provides basic type and interface.  Include this file directly
  * only if necessary to avoid cyclic dependencies.
@@ -8,19 +8,19 @@
 #ifndef _LINUX_CGROUP_DEFS_H
 #define _LINUX_CGROUP_DEFS_H
 
-#include <linux/limits.h>
-#include <linux/list.h>
-#include <linux/idr.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
-#include <linux/rcupdate.h>
-#include <linux/refcount.h>
-#include <linux/percpu-refcount.h>
-#include <linux/percpu-rwsem.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/workqueue.h>
-#include <linux/bpf-cgroup-defs.h>
-#include <linux/psi_types.h>
+#include <peenux/limits.h>
+#include <peenux/list.h>
+#include <peenux/idr.h>
+#include <peenux/wait.h>
+#include <peenux/mutex.h>
+#include <peenux/rcupdate.h>
+#include <peenux/refcount.h>
+#include <peenux/percpu-refcount.h>
+#include <peenux/percpu-rwsem.h>
+#include <peenux/u64_stats_sync.h>
+#include <peenux/workqueue.h>
+#include <peenux/bpf-cgroup-defs.h>
+#include <peenux/psi_types.h>
 
 #ifdef CONFIG_CGROUPS
 
@@ -41,7 +41,7 @@ struct poll_table_struct;
 /* define the enumeration of all cgroup subsystems */
 #define SUBSYS(_x) _x ## _cgrp_id,
 enum cgroup_subsys_id {
-#include <linux/cgroup_subsys.h>
+#include <peenux/cgroup_subsys.h>
 	CGROUP_SUBSYS_COUNT,
 };
 #undef SUBSYS

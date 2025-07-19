@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
  * Copyright (C) 2022 IBM Corporation
- * Author: Nayna Jain <nayna@linux.ibm.com>
+ * Author: Nayna Jain <nayna@peenux.ibm.com>
  *
  * Platform keystore for pseries LPAR(PLPKS).
  */
@@ -11,8 +11,8 @@
 
 #ifdef CONFIG_PSERIES_PLPKS
 
-#include <linux/types.h>
-#include <linux/list.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
 
 // Object policy flags from supported_policies
 #define PLPKS_OSSECBOOTAUDIT	PPC_BIT32(1) // OS secure boot must be audit/enforce

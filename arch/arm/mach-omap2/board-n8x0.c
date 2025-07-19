@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap2/board-n8x0.c
+ * peenux/arch/arm/mach-omap2/board-n8x0.c
  *
  * Copyright (C) 2005-2009 Nokia Corporation
  * Author: Juha Yrjola <juha.yrjola@nokia.com>
@@ -8,21 +8,21 @@
  * Modified from mach-omap2/board-generic.c
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/stddef.h>
-#include <linux/i2c.h>
-#include <linux/spi/spi.h>
-#include <linux/usb/musb.h>
-#include <linux/mmc/host.h>
-#include <linux/platform_data/spi-omap2-mcspi.h>
-#include <linux/platform_data/mmc-omap.h>
-#include <linux/mfd/menelaus.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/stddef.h>
+#include <peenux/i2c.h>
+#include <peenux/spi/spi.h>
+#include <peenux/usb/musb.h>
+#include <peenux/mmc/host.h>
+#include <peenux/platform_data/spi-omap2-mcspi.h>
+#include <peenux/platform_data/mmc-omap.h>
+#include <peenux/mfd/menelaus.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach-types.h>

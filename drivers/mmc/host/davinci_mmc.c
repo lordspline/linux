@@ -7,23 +7,23 @@
  * Copyright (C) 2009 David Brownell
  */
 
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/module.h>
-#include <linux/platform_data/mmc-davinci.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/clk.h>
+#include <peenux/cpufreq.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/mmc-davinci.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 /*
  * Register Definitions

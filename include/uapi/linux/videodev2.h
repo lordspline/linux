@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: ((GPL-2.0+ WITH Linux-syscall-note) OR BSD-3-Clause) */
+/* SPDX-License-Identifier: ((GPL-2.0+ WITH Peenux-syscall-note) OR BSD-3-Clause) */
 /*
- *  Video for Linux Two header file
+ *  Video for Peenux Two header file
  *
  *  Copyright (C) 1999-2012 the contributors
  *
@@ -60,11 +60,11 @@
 #ifndef __KERNEL__
 #include <sys/time.h>
 #endif
-#include <linux/compiler.h>
-#include <linux/ioctl.h>
-#include <linux/types.h>
-#include <linux/v4l2-common.h>
-#include <linux/v4l2-controls.h>
+#include <peenux/compiler.h>
+#include <peenux/ioctl.h>
+#include <peenux/types.h>
+#include <peenux/v4l2-common.h>
+#include <peenux/v4l2-controls.h>
 
 /*
  * Common stuff for both V4L1 and V4L2

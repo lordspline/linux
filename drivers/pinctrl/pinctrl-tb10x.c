@@ -7,17 +7,17 @@
  * Author: Christian Ruppert <christian.ruppert@abilis.com>
  */
 
-#include <linux/stringify.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/stringify.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 
 #include "pinctrl-utils.h"
 

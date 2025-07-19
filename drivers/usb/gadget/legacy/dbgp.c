@@ -8,11 +8,11 @@
  */
 
 /* verbose messages */
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
 
 #include "u_serial.h"
 

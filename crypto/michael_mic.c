@@ -7,11 +7,11 @@
  * Copyright (c) 2004 Jouni Malinen <j@w1.fi>
  */
 #include <crypto/internal/hash.h>
-#include <linux/unaligned.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/unaligned.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 
 struct michael_mic_ctx {

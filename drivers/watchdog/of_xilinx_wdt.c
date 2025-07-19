@@ -6,17 +6,17 @@
  * (C) Copyright 2011 (Alejandro Cabrera <aldaya@gmail.com>)
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/watchdog.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/ioport.h>
+#include <peenux/watchdog.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
 
 /* Register offsets for the Wdt device */
 #define XWT_TWCSR0_OFFSET   0x0 /* Control/Status Register0 */

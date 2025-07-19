@@ -11,12 +11,12 @@
  * used as clock_event_device.
  */
 
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/sched_clock.h>
+#include <peenux/kernel.h>
+#include <peenux/timer.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/sched_clock.h>
 #include <plat/time.h>
 #include <asm/delay.h>
 

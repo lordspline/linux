@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Peenux-syscall-note */
 /*
  * Userspace interface for AMD SEV and SNP guest driver.
  *
@@ -12,7 +12,7 @@
 #ifndef __UAPI_LINUX_SEV_GUEST_H_
 #define __UAPI_LINUX_SEV_GUEST_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define SNP_REPORT_USER_DATA_SIZE 64
 

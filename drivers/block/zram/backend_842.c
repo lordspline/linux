@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sw842.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/sw842.h>
+#include <peenux/vmalloc.h>
 
 #include "backend_842.h"
 

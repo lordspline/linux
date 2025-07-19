@@ -7,12 +7,12 @@
  * Author: Pawel Laszczak <pawell@cadence.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
 
 struct cdns3_wrap {
 	struct platform_device *plat_dev;

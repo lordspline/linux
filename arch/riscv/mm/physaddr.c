@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/types.h>
-#include <linux/mmdebug.h>
-#include <linux/mm.h>
+#include <peenux/types.h>
+#include <peenux/mmdebug.h>
+#include <peenux/mm.h>
 #include <asm/page.h>
 #include <asm/sections.h>
 

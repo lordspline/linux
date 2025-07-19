@@ -5,12 +5,12 @@
  *
  * (c) Copyright 2007-2013 Datera, Inc.
  *
- * Author: Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Author: Nicholas A. Bellinger <nab@peenux-iscsi.org>
  *
  ******************************************************************************/
 
-#include <linux/slab.h>
-#include <linux/random.h>
+#include <peenux/slab.h>
+#include <peenux/random.h>
 
 #include <target/iscsi/iscsi_target_core.h>
 #include "iscsi_target_util.h"

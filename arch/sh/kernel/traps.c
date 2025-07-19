@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bug.h>
-#include <linux/io.h>
-#include <linux/types.h>
-#include <linux/kdebug.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/uaccess.h>
-#include <linux/hardirq.h>
-#include <linux/kernel.h>
-#include <linux/kexec.h>
-#include <linux/sched/signal.h>
+#include <peenux/bug.h>
+#include <peenux/io.h>
+#include <peenux/types.h>
+#include <peenux/kdebug.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/uaccess.h>
+#include <peenux/hardirq.h>
+#include <peenux/kernel.h>
+#include <peenux/kexec.h>
+#include <peenux/sched/signal.h>
 
-#include <linux/extable.h>
-#include <linux/module.h>	/* print_modules */
+#include <peenux/extable.h>
+#include <peenux/module.h>	/* print_modules */
 
 #include <asm/ftrace.h>
 #include <asm/unwinder.h>

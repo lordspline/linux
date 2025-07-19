@@ -10,13 +10,13 @@
  * to via a matching function.
  */
 
-#include <linux/attribute_container.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <peenux/attribute_container.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
 
 #include "base.h"
 

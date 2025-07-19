@@ -2,18 +2,18 @@
 /*
  * UEFI Common Platform Error Record (CPER) support
  *
- * Copyright (C) 2017, The Linux Foundation. All rights reserved.
+ * Copyright (C) 2017, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/time.h>
-#include <linux/cper.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/printk.h>
-#include <linux/bcd.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/time.h>
+#include <peenux/cper.h>
+#include <peenux/dmi.h>
+#include <peenux/acpi.h>
+#include <peenux/pci.h>
+#include <peenux/printk.h>
+#include <peenux/bcd.h>
 #include <acpi/ghes.h>
 #include <ras/ras_event.h>
 

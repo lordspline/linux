@@ -3,12 +3,12 @@
  * Copyright (C) 2020-2024 Microsoft Corporation. All rights reserved.
  */
 
-#include <linux/fs.h>
-#include <linux/fs_struct.h>
-#include <linux/types.h>
-#include <linux/binfmts.h>
-#include <linux/mman.h>
-#include <linux/blk_types.h>
+#include <peenux/fs.h>
+#include <peenux/fs_struct.h>
+#include <peenux/types.h>
+#include <peenux/binfmts.h>
+#include <peenux/mman.h>
+#include <peenux/blk_types.h>
 
 #include "ipe.h"
 #include "hooks.h"

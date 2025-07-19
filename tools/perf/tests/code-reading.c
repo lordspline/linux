@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <errno.h>
-#include <linux/kconfig.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <peenux/kconfig.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
 #include <inttypes.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -34,7 +34,7 @@
 
 #include "tests.h"
 
-#include <linux/ctype.h>
+#include <peenux/ctype.h>
 
 #define BUFSZ	1024
 #define READLEN	128

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bpf.h>
+#include <peenux/bpf.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_endian.h>
 
-#include <linux/ip.h>
-#include <linux/in.h>
-#include <linux/if_ether.h>
-#include <linux/pkt_cls.h>
+#include <peenux/ip.h>
+#include <peenux/in.h>
+#include <peenux/if_ether.h>
+#include <peenux/pkt_cls.h>
 #include <stdbool.h>
 
 int lookup_status;

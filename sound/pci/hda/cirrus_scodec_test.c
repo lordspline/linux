@@ -8,11 +8,11 @@
 #include <kunit/platform_device.h>
 #include <kunit/resource.h>
 #include <kunit/test.h>
-#include <linux/device.h>
-#include <linux/device/faux.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/device/faux.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "cirrus_scodec.h"
 

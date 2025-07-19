@@ -5,24 +5,24 @@
  * Copyright (C) 2008  Yoshihiro Shimoda
  * Copyright (C) 2009  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/sm501.h>
-#include <linux/sm501-regs.h>
-#include <linux/fb.h>
-#include <linux/mtd/physmap.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/platform_data/i2c-pca-platform.h>
-#include <linux/i2c-algo-pca.h>
-#include <linux/usb/r8a66597.h>
-#include <linux/sh_intc.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/gpio/machine.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/sm501.h>
+#include <peenux/sm501-regs.h>
+#include <peenux/fb.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/platform_data/i2c-pca-platform.h>
+#include <peenux/i2c-algo-pca.h>
+#include <peenux/usb/r8a66597.h>
+#include <peenux/sh_intc.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/machine.h>
 #include <mach/sh7785lcr.h>
 #include <cpu/sh7785.h>
 #include <asm/heartbeat.h>

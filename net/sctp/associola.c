@@ -12,7 +12,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <peenux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    La Monte H.P. Yarroll <piggy@acm.org>
@@ -28,13 +28,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/poll.h>
-#include <linux/init.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/poll.h>
+#include <peenux/init.h>
 
-#include <linux/slab.h>
-#include <linux/in.h>
+#include <peenux/slab.h>
+#include <peenux/in.h>
 #include <net/ipv6.h>
 #include <net/sctp/sctp.h>
 #include <net/sctp/sm.h>

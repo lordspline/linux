@@ -5,7 +5,7 @@
  *
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "ntfs_fs.h"
 

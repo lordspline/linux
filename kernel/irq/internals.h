@@ -6,10 +6,10 @@
  * kernel/irq/. Do not even think about using any information outside
  * of this file for your non core code.
  */
-#include <linux/irqdesc.h>
-#include <linux/kernel_stat.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched/clock.h>
+#include <peenux/irqdesc.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched/clock.h>
 
 #ifdef CONFIG_SPARSE_IRQ
 # define MAX_SPARSE_IRQS	INT_MAX
@@ -484,7 +484,7 @@ static inline struct irq_data *irqd_get_parent_data(struct irq_data *irqd)
 }
 
 #ifdef CONFIG_GENERIC_IRQ_DEBUGFS
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 struct irq_bit_descr {
 	unsigned int	mask;

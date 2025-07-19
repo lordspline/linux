@@ -2,13 +2,13 @@
 /*
  * Copyright (C) 2020 Western Digital Corporation or its affiliates.
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/perf_event.h>
-#include <linux/irq.h>
-#include <linux/stringify.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/perf_event.h>
+#include <peenux/irq.h>
+#include <peenux/stringify.h>
 
 #include <asm/processor.h>
 #include <asm/ptrace.h>

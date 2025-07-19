@@ -6,13 +6,13 @@
  *      Copyright (C) 2003 Dave Engebretsen <engebret@us.ibm.com>
  */
 
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/threads.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/jump_label.h>
-#include <linux/of.h>
+#include <peenux/string.h>
+#include <peenux/sched.h>
+#include <peenux/threads.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/jump_label.h>
+#include <peenux/of.h>
 
 #include <asm/cputable.h>
 #include <asm/mce.h>

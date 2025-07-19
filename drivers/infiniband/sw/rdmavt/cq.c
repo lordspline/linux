@@ -3,8 +3,8 @@
  * Copyright(c) 2016 - 2018 Intel Corporation.
  */
 
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 #include <rdma/uverbs_ioctl.h>
 #include "cq.h"
 #include "vt.h"

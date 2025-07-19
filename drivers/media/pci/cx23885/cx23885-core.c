@@ -7,18 +7,18 @@
 
 #include "cx23885.h"
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kmod.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kmod.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
 #include <asm/div64.h>
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 
 #include "cimax2.h"
 #include "altera-ci.h"

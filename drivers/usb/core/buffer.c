@@ -8,17 +8,17 @@
  * Released under the GPLv2 only.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/genalloc.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/genalloc.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 
 /*

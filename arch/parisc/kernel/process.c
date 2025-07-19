@@ -3,43 +3,43 @@
  *    PARISC Architecture-dependent parts of process handling
  *    based on the work for i386
  *
- *    Copyright (C) 1999-2003 Matthew Wilcox <willy at parisc-linux.org>
+ *    Copyright (C) 1999-2003 Matthew Wilcox <willy at parisc-peenux.org>
  *    Copyright (C) 2000 Martin K Petersen <mkp at mkp.net>
- *    Copyright (C) 2000 John Marvin <jsm at parisc-linux.org>
+ *    Copyright (C) 2000 John Marvin <jsm at parisc-peenux.org>
  *    Copyright (C) 2000 David Huggins-Daines <dhd with pobox.org>
- *    Copyright (C) 2000-2003 Paul Bame <bame at parisc-linux.org>
+ *    Copyright (C) 2000-2003 Paul Bame <bame at parisc-peenux.org>
  *    Copyright (C) 2000 Philipp Rumpf <prumpf with tux.org>
  *    Copyright (C) 2000 David Kennedy <dkennedy with linuxcare.com>
- *    Copyright (C) 2000 Richard Hirst <rhirst with parisc-linux.org>
- *    Copyright (C) 2000 Grant Grundler <grundler with parisc-linux.org>
- *    Copyright (C) 2001 Alan Modra <amodra at parisc-linux.org>
- *    Copyright (C) 2001-2002 Ryan Bradetich <rbrad at parisc-linux.org>
+ *    Copyright (C) 2000 Richard Hirst <rhirst with parisc-peenux.org>
+ *    Copyright (C) 2000 Grant Grundler <grundler with parisc-peenux.org>
+ *    Copyright (C) 2001 Alan Modra <amodra at parisc-peenux.org>
+ *    Copyright (C) 2001-2002 Ryan Bradetich <rbrad at parisc-peenux.org>
  *    Copyright (C) 2001-2014 Helge Deller <deller@gmx.de>
- *    Copyright (C) 2002 Randolph Chung <tausq with parisc-linux.org>
+ *    Copyright (C) 2002 Randolph Chung <tausq with parisc-peenux.org>
  */
-#include <linux/elf.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/personality.h>
-#include <linux/ptrace.h>
-#include <linux/reboot.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/kallsyms.h>
-#include <linux/uaccess.h>
-#include <linux/rcupdate.h>
-#include <linux/random.h>
-#include <linux/nmi.h>
-#include <linux/sched/hotplug.h>
+#include <peenux/elf.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/personality.h>
+#include <peenux/ptrace.h>
+#include <peenux/reboot.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/kallsyms.h>
+#include <peenux/uaccess.h>
+#include <peenux/rcupdate.h>
+#include <peenux/random.h>
+#include <peenux/nmi.h>
+#include <peenux/sched/hotplug.h>
 
 #include <asm/io.h>
 #include <asm/asm-offsets.h>

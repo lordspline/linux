@@ -12,17 +12,17 @@
  *   Author: Huang Ying <ying.huang@intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/nmi.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/device/faux.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/nmi.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/device/faux.h>
+#include <peenux/unaligned.h>
 
 #include "apei-internal.h"
 

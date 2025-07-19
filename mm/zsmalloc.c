@@ -23,22 +23,22 @@
  *	zspage->lock
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/highmem.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/sprintf.h>
-#include <linux/shrinker.h>
-#include <linux/types.h>
-#include <linux/debugfs.h>
-#include <linux/zsmalloc.h>
-#include <linux/zpool.h>
-#include <linux/fs.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/errno.h>
+#include <peenux/highmem.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/sprintf.h>
+#include <peenux/shrinker.h>
+#include <peenux/types.h>
+#include <peenux/debugfs.h>
+#include <peenux/zsmalloc.h>
+#include <peenux/zpool.h>
+#include <peenux/fs.h>
+#include <peenux/workqueue.h>
 #include "zpdesc.h"
 
 #define ZSPAGE_MAGIC	0x58

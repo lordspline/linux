@@ -6,7 +6,7 @@
 #ifndef _XE_GT_THROTTLE_H_
 #define _XE_GT_THROTTLE_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct xe_gt;
 

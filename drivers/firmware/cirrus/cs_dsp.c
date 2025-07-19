@@ -9,18 +9,18 @@
  *                         Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/ctype.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/wmfw.h>
+#include <peenux/firmware/cirrus/cs_dsp.h>
+#include <peenux/firmware/cirrus/wmfw.h>
 
 #define cs_dsp_err(_dsp, fmt, ...) \
 	dev_err(_dsp->dev, "%s: " fmt, _dsp->name, ##__VA_ARGS__)

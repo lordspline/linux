@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * OpenRISC Linux
+ * OpenRISC Peenux
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Peenux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -16,9 +16,9 @@
 #define __ASM_OPENRISC_PGALLOC_H
 
 #include <asm/page.h>
-#include <linux/threads.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
+#include <peenux/threads.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
 
 #define __HAVE_ARCH_PTE_ALLOC_ONE_KERNEL
 #include <asm-generic/pgalloc.h>

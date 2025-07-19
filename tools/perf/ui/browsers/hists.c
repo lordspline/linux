@@ -5,11 +5,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <linux/rbtree.h>
-#include <linux/string.h>
+#include <peenux/rbtree.h>
+#include <peenux/string.h>
 #include <sys/ttydefaults.h>
-#include <linux/time64.h>
-#include <linux/zalloc.h>
+#include <peenux/time64.h>
+#include <peenux/zalloc.h>
 
 #include "../../util/debug.h"
 #include "../../util/dso.h"
@@ -44,7 +44,7 @@
 #include "units.h"
 #include "time-utils.h"
 
-#include <linux/ctype.h>
+#include <peenux/ctype.h>
 
 extern void hist_browser__init_hpp(void);
 

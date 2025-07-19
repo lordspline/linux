@@ -7,7 +7,7 @@
 #ifndef __MGB4_REGS_H__
 #define __MGB4_REGS_H__
 
-#include <linux/io.h>
+#include <peenux/io.h>
 
 struct mgb4_regs {
 	resource_size_t mapbase;

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -13,8 +13,8 @@
 #ifndef _LINUX_IP_H
 #define _LINUX_IP_H
 
-#include <linux/skbuff.h>
-#include <uapi/linux/ip.h>
+#include <peenux/skbuff.h>
+#include <uapi/peenux/ip.h>
 
 static inline struct iphdr *ip_hdr(const struct sk_buff *skb)
 {

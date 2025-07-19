@@ -5,11 +5,11 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <kunit/test.h>
-#include <linux/array_size.h>
-#include <linux/kernel.h>
-#include <linux/random.h>
-#include <linux/string.h>
-#include <linux/string_helpers.h>
+#include <peenux/array_size.h>
+#include <peenux/kernel.h>
+#include <peenux/random.h>
+#include <peenux/string.h>
+#include <peenux/string_helpers.h>
 
 static void test_string_check_buf(struct kunit *test,
 				  const char *name, unsigned int flags,

@@ -6,7 +6,7 @@
  */
 
 #include "common.h"
-#include <linux/slab.h>
+#include <peenux/slab.h>
 
 /* List of "struct tomoyo_condition". */
 LIST_HEAD(tomoyo_condition_list);

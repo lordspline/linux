@@ -2,8 +2,8 @@
 #ifndef _ASM_X86_SHARED_TDX_H
 #define _ASM_X86_SHARED_TDX_H
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/types.h>
 
 #define TDX_HYPERCALL_STANDARD  0
 
@@ -118,7 +118,7 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/compiler_attributes.h>
+#include <peenux/compiler_attributes.h>
 
 /*
  * Used in __tdcall*() to gather the input/output registers' values of the

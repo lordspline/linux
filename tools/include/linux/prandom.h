@@ -2,7 +2,7 @@
 #ifndef __TOOLS_LINUX_PRANDOM_H
 #define __TOOLS_LINUX_PRANDOM_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct rnd_state {
 	__u32 s1, s2, s3, s4;

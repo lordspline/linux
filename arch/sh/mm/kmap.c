@@ -5,12 +5,12 @@
  * Copyright (C) 1999, 2000, 2002  Niibe Yutaka
  * Copyright (C) 2002 - 2009  Paul Mundt
  */
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/fs.h>
-#include <linux/highmem.h>
-#include <linux/module.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/fs.h>
+#include <peenux/highmem.h>
+#include <peenux/module.h>
 #include <asm/mmu_context.h>
 #include <asm/cacheflush.h>
 

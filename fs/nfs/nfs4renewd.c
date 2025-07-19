@@ -38,14 +38,14 @@
  *
  */
 
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/clnt.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/sunrpc/sched.h>
+#include <peenux/sunrpc/clnt.h>
 
-#include <linux/nfs.h>
-#include <linux/nfs4.h>
-#include <linux/nfs_fs.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs4.h>
+#include <peenux/nfs_fs.h>
 #include "nfs4_fs.h"
 #include "delegation.h"
 

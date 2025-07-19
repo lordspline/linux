@@ -4,18 +4,18 @@
  * Copyright (c) 2009-2013 QLogic Corporation
  */
 
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/swab.h>
-#include <linux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/swab.h>
+#include <peenux/dma-mapping.h>
 #include <net/ip.h>
-#include <linux/ipv6.h>
-#include <linux/inetdevice.h>
-#include <linux/sysfs.h>
-#include <linux/log2.h>
+#include <peenux/ipv6.h>
+#include <peenux/inetdevice.h>
+#include <peenux/sysfs.h>
+#include <peenux/log2.h>
 #ifdef CONFIG_QLCNIC_HWMON
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
 #endif
 
 #include "qlcnic.h"

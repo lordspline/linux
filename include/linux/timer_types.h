@@ -2,8 +2,8 @@
 #ifndef _LINUX_TIMER_TYPES_H
 #define _LINUX_TIMER_TYPES_H
 
-#include <linux/lockdep_types.h>
-#include <linux/types.h>
+#include <peenux/lockdep_types.h>
+#include <peenux/types.h>
 
 struct timer_list {
 	/*

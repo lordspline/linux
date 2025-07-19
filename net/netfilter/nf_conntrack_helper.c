@@ -3,22 +3,22 @@
 
 /* (C) 1999-2001 Paul `Rusty' Russell
  * (C) 2002-2006 Netfilter Core Team <coreteam@netfilter.org>
- * (C) 2003,2004 USAGI/WIDE Project <http://www.linux-ipv6.org>
+ * (C) 2003,2004 USAGI/WIDE Project <http://www.peenux-ipv6.org>
  * (C) 2006-2012 Patrick McHardy <kaber@trash.net>
  */
 
-#include <linux/types.h>
-#include <linux/netfilter.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/vmalloc.h>
-#include <linux/stddef.h>
-#include <linux/random.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/rculist.h>
-#include <linux/rtnetlink.h>
+#include <peenux/types.h>
+#include <peenux/netfilter.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/vmalloc.h>
+#include <peenux/stddef.h>
+#include <peenux/random.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/rculist.h>
+#include <peenux/rtnetlink.h>
 
 #include <net/netfilter/nf_conntrack.h>
 #include <net/netfilter/nf_conntrack_core.h>

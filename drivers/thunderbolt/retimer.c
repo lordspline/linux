@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2020, Intel Corporation
  * Authors: Kranthi Kuntala <kranthi.kuntala@intel.com>
- *	    Mika Westerberg <mika.westerberg@linux.intel.com>
+ *	    Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched/signal.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched/signal.h>
 
 #include "sb_regs.h"
 #include "tb.h"

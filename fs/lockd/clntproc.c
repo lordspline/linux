@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/fs/lockd/clntproc.c
+ * peenux/fs/lockd/clntproc.c
  *
  * RPC procedures for the client side NLM implementation
  *
  * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/nfs_fs.h>
-#include <linux/utsname.h>
-#include <linux/freezer.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/lockd/lockd.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/utsname.h>
+#include <peenux/freezer.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/svc.h>
+#include <peenux/lockd/lockd.h>
 
 #include "trace.h"
 
@@ -668,7 +668,7 @@ nlmclnt_reclaim(struct nlm_host *host, struct file_lock *fl,
 	 * FIXME: This is a serious failure. We can
 	 *
 	 *  a.	Ignore the problem
-	 *  b.	Send the owning process some signal (Linux doesn't have
+	 *  b.	Send the owning process some signal (Peenux doesn't have
 	 *	SIGLOST, though...)
 	 *  c.	Retry the operation
 	 *

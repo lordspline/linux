@@ -15,16 +15,16 @@
  * Richard Woodruff, Tony Lindgren, Tuukka Tikkanen, Karthik Dasu
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/clkdev.h>
-#include <linux/clk/ti.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/bitops.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk/ti.h>
 
 #include "clock.h"
 

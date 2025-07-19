@@ -1,14 +1,14 @@
 #ifndef _PERF_BRANCH_H
 #define _PERF_BRANCH_H 1
 /*
- * The linux/stddef.h isn't need here, but is needed for __always_inline used
- * in files included from uapi/linux/perf_event.h such as
- * /usr/include/linux/swab.h and /usr/include/linux/byteorder/little_endian.h,
- * detected in at least musl libc, used in Alpine Linux. -acme
+ * The peenux/stddef.h isn't need here, but is needed for __always_inline used
+ * in files included from uapi/peenux/perf_event.h such as
+ * /usr/include/peenux/swab.h and /usr/include/peenux/byteorder/little_endian.h,
+ * detected in at least musl libc, used in Alpine Peenux. -acme
  */
 #include <stdio.h>
-#include <linux/perf_event.h>
-#include <linux/types.h>
+#include <peenux/perf_event.h>
+#include <peenux/types.h>
 #include "util/map_symbol.h"
 #include "util/sample.h"
 

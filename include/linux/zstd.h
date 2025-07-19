@@ -21,9 +21,9 @@
  */
 
 /* ======   Dependency   ====== */
-#include <linux/types.h>
-#include <linux/zstd_errors.h>
-#include <linux/zstd_lib.h>
+#include <peenux/types.h>
+#include <peenux/zstd_errors.h>
+#include <peenux/zstd_lib.h>
 
 /* ======   Helper Functions   ====== */
 /**

@@ -7,12 +7,12 @@
 #ifndef _LINUX_HASHTABLE_H
 #define _LINUX_HASHTABLE_H
 
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/hash.h>
-#include <linux/log2.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/hash.h>
+#include <peenux/log2.h>
 
 #define DEFINE_HASHTABLE(name, bits)						\
 	struct hlist_head name[1 << (bits)] =					\

@@ -5,8 +5,8 @@
 #if !defined(_TRACE_ICMP_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_ICMP_H
 
-#include <linux/icmp.h>
-#include <linux/tracepoint.h>
+#include <peenux/icmp.h>
+#include <peenux/tracepoint.h>
 
 TRACE_EVENT(icmp_send,
 

@@ -31,18 +31,18 @@
  *   below for details. )
  */
 
-#include <linux/seq_file.h>
-#include <linux/memblock.h>
-#include <linux/debugfs.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/pfn_t.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/fs.h>
-#include <linux/rbtree.h>
+#include <peenux/seq_file.h>
+#include <peenux/memblock.h>
+#include <peenux/debugfs.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/pfn_t.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/fs.h>
+#include <peenux/rbtree.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/cacheflush.h>

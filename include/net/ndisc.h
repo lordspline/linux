@@ -50,13 +50,13 @@ enum {
 #define ND_REACHABLE_TIME		(30*HZ)
 #define ND_RETRANS_TIMER		HZ
 
-#include <linux/compiler.h>
-#include <linux/icmpv6.h>
-#include <linux/in6.h>
-#include <linux/types.h>
-#include <linux/if_arp.h>
-#include <linux/netdevice.h>
-#include <linux/hash.h>
+#include <peenux/compiler.h>
+#include <peenux/icmpv6.h>
+#include <peenux/in6.h>
+#include <peenux/types.h>
+#include <peenux/if_arp.h>
+#include <peenux/netdevice.h>
+#include <peenux/hash.h>
 
 #include <net/neighbour.h>
 

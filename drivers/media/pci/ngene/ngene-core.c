@@ -10,17 +10,17 @@
  *                         support for new dual DVB-S2 card prototype
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/poll.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/poll.h>
+#include <peenux/io.h>
 #include <asm/div64.h>
-#include <linux/pci.h>
-#include <linux/timer.h>
-#include <linux/byteorder/generic.h>
-#include <linux/firmware.h>
-#include <linux/vmalloc.h>
+#include <peenux/pci.h>
+#include <peenux/timer.h>
+#include <peenux/byteorder/generic.h>
+#include <peenux/firmware.h>
+#include <peenux/vmalloc.h>
 
 #include "ngene.h"
 

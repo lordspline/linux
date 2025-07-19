@@ -4,19 +4,19 @@
  *
  *	Copyright (c) 2008 Patrick McHardy <kaber@trash.net>
  */
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/llc.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/timer.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/llc.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <net/llc.h>
 #include <net/llc_pdu.h>
 #include <net/garp.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 static unsigned int garp_join_time __read_mostly = 200;
 module_param(garp_join_time, uint, 0644);

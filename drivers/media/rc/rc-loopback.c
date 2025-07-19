@@ -9,10 +9,10 @@
  * having to use actual hardware.
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 #include <media/rc-core.h>
 
 #define DRIVER_NAME		"rc-loopback"

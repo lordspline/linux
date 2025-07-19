@@ -2,10 +2,10 @@
 #ifndef _ASM_X86_MSHYPER_H
 #define _ASM_X86_MSHYPER_H
 
-#include <linux/types.h>
-#include <linux/nmi.h>
-#include <linux/msi.h>
-#include <linux/io.h>
+#include <peenux/types.h>
+#include <peenux/nmi.h>
+#include <peenux/msi.h>
+#include <peenux/io.h>
 #include <asm/nospec-branch.h>
 #include <asm/paravirt.h>
 #include <asm/msr.h>

@@ -4,10 +4,10 @@
 #ifndef IPU6_BUTTRESS_H
 #define IPU6_BUTTRESS_H
 
-#include <linux/completion.h>
-#include <linux/irqreturn.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
+#include <peenux/completion.h>
+#include <peenux/irqreturn.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
 
 struct device;
 struct firmware;

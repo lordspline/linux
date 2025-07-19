@@ -6,9 +6,9 @@
 /*
  * Veritas filesystem driver - filesystem to disk block mapping.
  */
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/buffer_head.h>
+#include <peenux/kernel.h>
 
 #include "vxfs.h"
 #include "vxfs_inode.h"

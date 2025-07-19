@@ -3,7 +3,7 @@
  * Copyright © 2018 Intel Corporation
  */
 
-#include <linux/sort.h>
+#include <peenux/sort.h>
 
 #include "intel_gpu_commands.h"
 #include "intel_gt_pm.h"

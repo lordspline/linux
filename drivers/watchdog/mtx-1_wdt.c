@@ -14,7 +14,7 @@
  *
  *      Release 0.02.
  *	Author: Florian Fainelli florian@openwrt.org
- *		use the Linux watchdog/timer APIs
+ *		use the Peenux watchdog/timer APIs
  *
  *      The Watchdog is configured to reset the MTX-1
  *      if it is not triggered for 100 seconds.
@@ -25,21 +25,21 @@
  *      it MUST be triggered every 2..95 seconds.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/miscdevice.h>
-#include <linux/fs.h>
-#include <linux/ioport.h>
-#include <linux/timer.h>
-#include <linux/completion.h>
-#include <linux/jiffies.h>
-#include <linux/watchdog.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/miscdevice.h>
+#include <peenux/fs.h>
+#include <peenux/ioport.h>
+#include <peenux/timer.h>
+#include <peenux/completion.h>
+#include <peenux/jiffies.h>
+#include <peenux/watchdog.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/gpio/consumer.h>
 
 #define MTX1_WDT_INTERVAL	(5 * HZ)
 

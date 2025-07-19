@@ -12,13 +12,13 @@
  *                and Philip Prindeville <philipp@redfish-solutions.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/string.h>
-#include <linux/input.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/property.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/string.h>
+#include <peenux/input.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/property.h>
 
 #include <asm/geode.h>
 

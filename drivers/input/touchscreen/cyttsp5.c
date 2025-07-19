@@ -10,18 +10,18 @@
  *                Alistair Francis <alistair@alistair23.me>
  */
 
-#include <linux/crc-itu-t.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/unaligned.h>
+#include <peenux/crc-itu-t.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/unaligned.h>
 
 #define CYTTSP5_NAME				"cyttsp5"
 #define CY_I2C_DATA_SIZE			(2 * 256)
@@ -418,7 +418,7 @@ static int cyttsp5_parse_dt_key_code(struct device *dev)
 	/* Initialize the button to RESERVED */
 	memset32(si->key_code, KEY_RESERVED,  si->num_btns);
 
-	return device_property_read_u32_array(dev, "linux,keycodes",
+	return device_property_read_u32_array(dev, "peenux,keycodes",
 					      si->key_code, si->num_btns);
 }
 

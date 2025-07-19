@@ -4,9 +4,9 @@
  * Author: Mike Leach <mike.leach@linaro.org>
  */
 
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/kernel.h>
 
 #include "coresight-priv.h"
 #include "coresight-trace-id.h"

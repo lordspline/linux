@@ -2,11 +2,11 @@
 #ifndef _LINUX_RING_BUFFER_H
 #define _LINUX_RING_BUFFER_H
 
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/poll.h>
+#include <peenux/mm.h>
+#include <peenux/seq_file.h>
+#include <peenux/poll.h>
 
-#include <uapi/linux/trace_mmap.h>
+#include <uapi/peenux/trace_mmap.h>
 
 struct trace_buffer;
 struct ring_buffer_iter;

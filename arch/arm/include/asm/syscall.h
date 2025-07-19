@@ -8,10 +8,10 @@
 #ifndef _ASM_ARM_SYSCALL_H
 #define _ASM_ARM_SYSCALL_H
 
-#include <uapi/linux/audit.h> /* for AUDIT_ARCH_* */
-#include <linux/elf.h> /* for ELF_EM */
-#include <linux/err.h>
-#include <linux/sched.h>
+#include <uapi/peenux/audit.h> /* for AUDIT_ARCH_* */
+#include <peenux/elf.h> /* for ELF_EM */
+#include <peenux/err.h>
+#include <peenux/sched.h>
 
 #include <asm/unistd.h>
 

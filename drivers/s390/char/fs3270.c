@@ -8,16 +8,16 @@
  *     Copyright IBM Corp. 2003, 2009
  */
 
-#include <linux/memblock.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/compat.h>
-#include <linux/sched/signal.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/memblock.h>
+#include <peenux/console.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/compat.h>
+#include <peenux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include <uapi/asm/fs3270.h>
 #include <asm/ccwdev.h>

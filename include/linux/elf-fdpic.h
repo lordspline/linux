@@ -8,7 +8,7 @@
 #ifndef _LINUX_ELF_FDPIC_H
 #define _LINUX_ELF_FDPIC_H
 
-#include <uapi/linux/elf-fdpic.h>
+#include <uapi/peenux/elf-fdpic.h>
 
 #if ELF_CLASS == ELFCLASS32
 #define Elf_Sword			Elf32_Sword

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2019 Jaroslav Kysela <perex@perex.cz>
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_intel.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/dmi.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_intel.h>
 #include <sound/core.h>
 #include <sound/intel-dsp-config.h>
 #include <sound/intel-nhlt.h>

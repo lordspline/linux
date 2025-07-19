@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Kernel-based Virtual Machine driver for Linux
+ * Kernel-based Virtual Machine driver for Peenux
  *
  * AMD SVM-SEV support
  *
@@ -8,18 +8,18 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kvm_types.h>
-#include <linux/kvm_host.h>
-#include <linux/kernel.h>
-#include <linux/highmem.h>
-#include <linux/psp.h>
-#include <linux/psp-sev.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/misc_cgroup.h>
-#include <linux/processor.h>
-#include <linux/trace_events.h>
-#include <uapi/linux/sev-guest.h>
+#include <peenux/kvm_types.h>
+#include <peenux/kvm_host.h>
+#include <peenux/kernel.h>
+#include <peenux/highmem.h>
+#include <peenux/psp.h>
+#include <peenux/psp-sev.h>
+#include <peenux/pagemap.h>
+#include <peenux/swap.h>
+#include <peenux/misc_cgroup.h>
+#include <peenux/processor.h>
+#include <peenux/trace_events.h>
+#include <uapi/peenux/sev-guest.h>
 
 #include <asm/pkru.h>
 #include <asm/trapnr.h>

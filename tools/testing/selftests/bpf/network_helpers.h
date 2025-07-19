@@ -4,16 +4,16 @@
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <sys/types.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 typedef __u16 __sum16;
-#include <linux/if_ether.h>
-#include <linux/if_packet.h>
-#include <linux/if_tun.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/ethtool.h>
-#include <linux/sockios.h>
-#include <linux/err.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_packet.h>
+#include <peenux/if_tun.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/ethtool.h>
+#include <peenux/sockios.h>
+#include <peenux/err.h>
 #include <netinet/tcp.h>
 #include <netinet/udp.h>
 #include <bpf/bpf_endian.h>

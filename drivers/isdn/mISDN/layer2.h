@@ -5,8 +5,8 @@
  * Copyright 2008  by Karsten Keil <kkeil@novell.com>
  */
 
-#include <linux/mISDNif.h>
-#include <linux/skbuff.h>
+#include <peenux/mISDNif.h>
+#include <peenux/skbuff.h>
 #include "fsm.h"
 
 #define MAX_WINDOW	8

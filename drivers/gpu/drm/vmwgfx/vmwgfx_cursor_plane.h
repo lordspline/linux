@@ -14,7 +14,7 @@
 #include "drm/drm_fourcc.h"
 #include "drm/drm_plane.h"
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct SVGA3dCmdHeader;
 struct ttm_buffer_object;

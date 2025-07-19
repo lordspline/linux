@@ -3,11 +3,11 @@
  * Copyright (c) 2018, NVIDIA CORPORATION.
  */
 
-#include <linux/genalloc.h>
-#include <linux/io.h>
-#include <linux/mailbox_client.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/genalloc.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 
 #include <soc/tegra/bpmp.h>
 #include <soc/tegra/bpmp-abi.h>

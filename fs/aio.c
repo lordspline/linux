@@ -1,5 +1,5 @@
 /*
- *	An async IO implementation for Linux
+ *	An async IO implementation for Peenux
  *	Written by Benjamin LaHaise <bcrl@kvack.org>
  *
  *	Implements an efficient asynchronous io interface.
@@ -11,40 +11,40 @@
  */
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/aio_abi.h>
-#include <linux/export.h>
-#include <linux/syscalls.h>
-#include <linux/backing-dev.h>
-#include <linux/refcount.h>
-#include <linux/uio.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/aio_abi.h>
+#include <peenux/export.h>
+#include <peenux/syscalls.h>
+#include <peenux/backing-dev.h>
+#include <peenux/refcount.h>
+#include <peenux/uio.h>
 
-#include <linux/sched/signal.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/percpu.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/aio.h>
-#include <linux/highmem.h>
-#include <linux/workqueue.h>
-#include <linux/security.h>
-#include <linux/eventfd.h>
-#include <linux/blkdev.h>
-#include <linux/compat.h>
-#include <linux/migrate.h>
-#include <linux/ramfs.h>
-#include <linux/percpu-refcount.h>
-#include <linux/mount.h>
-#include <linux/pseudo_fs.h>
+#include <peenux/sched/signal.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/percpu.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
+#include <peenux/aio.h>
+#include <peenux/highmem.h>
+#include <peenux/workqueue.h>
+#include <peenux/security.h>
+#include <peenux/eventfd.h>
+#include <peenux/blkdev.h>
+#include <peenux/compat.h>
+#include <peenux/migrate.h>
+#include <peenux/ramfs.h>
+#include <peenux/percpu-refcount.h>
+#include <peenux/mount.h>
+#include <peenux/pseudo_fs.h>
 
-#include <linux/uaccess.h>
-#include <linux/nospec.h>
+#include <peenux/uaccess.h>
+#include <peenux/nospec.h>
 
 #include "internal.h"
 
@@ -168,7 +168,7 @@ struct kioctx {
 
 /*
  * First field must be the file pointer in all the
- * iocb unions! See also 'struct kiocb' in <linux/fs.h>
+ * iocb unions! See also 'struct kiocb' in <peenux/fs.h>
  */
 struct fsync_iocb {
 	struct file		*file;

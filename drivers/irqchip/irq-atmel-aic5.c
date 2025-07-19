@@ -13,20 +13,20 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/bitmap.h>
-#include <linux/types.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/bitmap.h>
+#include <peenux/types.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
 #include <asm/exception.h>
 #include <asm/mach/irq.h>

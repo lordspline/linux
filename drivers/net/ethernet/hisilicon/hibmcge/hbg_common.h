@@ -4,9 +4,9 @@
 #ifndef __HBG_COMMON_H
 #define __HBG_COMMON_H
 
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
 #include "hbg_reg.h"
 
 #define HBG_STATUS_DISABLE		0x0

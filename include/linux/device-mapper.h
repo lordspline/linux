@@ -9,11 +9,11 @@
 #ifndef _LINUX_DEVICE_MAPPER_H
 #define _LINUX_DEVICE_MAPPER_H
 
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/dm-ioctl.h>
-#include <linux/math64.h>
-#include <linux/ratelimit.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/dm-ioctl.h>
+#include <peenux/math64.h>
+#include <peenux/ratelimit.h>
 
 struct dm_dev;
 struct dm_target;

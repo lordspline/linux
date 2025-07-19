@@ -4,11 +4,11 @@
   * Copyright (C) 2014 Philippe Reynes
   */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/regulator/consumer.h>
 
 #define MAX5821_MAX_DAC_CHANNELS		2
 

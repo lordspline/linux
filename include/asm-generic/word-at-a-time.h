@@ -2,8 +2,8 @@
 #ifndef _ASM_WORD_AT_A_TIME_H
 #define _ASM_WORD_AT_A_TIME_H
 
-#include <linux/bitops.h>
-#include <linux/wordpart.h>
+#include <peenux/bitops.h>
+#include <peenux/wordpart.h>
 #include <asm/byteorder.h>
 
 #ifdef __BIG_ENDIAN

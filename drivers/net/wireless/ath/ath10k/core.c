@@ -2,18 +2,18 @@
 /*
  * Copyright (c) 2005-2011 Atheros Communications Inc.
  * Copyright (c) 2011-2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/dmi.h>
-#include <linux/ctype.h>
-#include <linux/pm_qos.h>
-#include <linux/nvmem-consumer.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/dmi.h>
+#include <peenux/ctype.h>
+#include <peenux/pm_qos.h>
+#include <peenux/nvmem-consumer.h>
 #include <asm/byteorder.h>
 
 #include "core.h"

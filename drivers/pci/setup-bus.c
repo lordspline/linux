@@ -14,18 +14,18 @@
  *	     tighter packing. Prefetchable range support.
  */
 
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/cache.h>
-#include <linux/limits.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/cache.h>
+#include <peenux/limits.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
 #include "pci.h"
 
 unsigned int pci_flags;

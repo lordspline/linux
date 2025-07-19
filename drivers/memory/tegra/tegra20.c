@@ -3,13 +3,13 @@
  * Copyright (C) 2012 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include <dt-bindings/memory/tegra20-mc.h>
 

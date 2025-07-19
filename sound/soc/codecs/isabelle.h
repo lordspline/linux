@@ -8,7 +8,7 @@
 #ifndef _ISABELLE_H
 #define _ISABELLE_H
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 /* ISABELLE REGISTERS */
 

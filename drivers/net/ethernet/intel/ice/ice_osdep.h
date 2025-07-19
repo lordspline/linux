@@ -4,18 +4,18 @@
 #ifndef _ICE_OSDEP_H_
 #define _ICE_OSDEP_H_
 
-#include <linux/types.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/ethtool.h>
-#include <linux/etherdevice.h>
-#include <linux/if_ether.h>
-#include <linux/iopoll.h>
-#include <linux/pci_ids.h>
+#include <peenux/types.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/bitops.h>
+#include <peenux/ethtool.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_ether.h>
+#include <peenux/iopoll.h>
+#include <peenux/pci_ids.h>
 #ifndef CONFIG_64BIT
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 #endif
 #include <net/udp_tunnel.h>
 

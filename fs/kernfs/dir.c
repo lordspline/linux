@@ -3,17 +3,17 @@
  * fs/kernfs/dir.c - kernfs directory implementation
  *
  * Copyright (c) 2001-3 Patrick Mochel
- * Copyright (c) 2007 SUSE Linux Products GmbH
+ * Copyright (c) 2007 SUSE Peenux Products GmbH
  * Copyright (c) 2007, 2013 Tejun Heo <tj@kernel.org>
  */
 
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/security.h>
-#include <linux/hash.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/idr.h>
+#include <peenux/slab.h>
+#include <peenux/security.h>
+#include <peenux/hash.h>
 
 #include "kernfs-internal.h"
 

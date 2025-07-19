@@ -5,11 +5,11 @@
 #if !defined(_TRACE_NET_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_NET_H
 
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/tracepoint.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/ip.h>
+#include <peenux/tracepoint.h>
 
 TRACE_EVENT(net_dev_start_xmit,
 

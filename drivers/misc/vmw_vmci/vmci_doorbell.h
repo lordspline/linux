@@ -8,8 +8,8 @@
 #ifndef VMCI_DOORBELL_H
 #define VMCI_DOORBELL_H
 
-#include <linux/vmw_vmci_defs.h>
-#include <linux/types.h>
+#include <peenux/vmw_vmci_defs.h>
+#include <peenux/types.h>
 
 #include "vmci_driver.h"
 

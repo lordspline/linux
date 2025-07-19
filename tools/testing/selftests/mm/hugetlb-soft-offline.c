@@ -18,8 +18,8 @@
 #include <string.h>
 #include <unistd.h>
 
-#include <linux/magic.h>
-#include <linux/memfd.h>
+#include <peenux/magic.h>
+#include <peenux/memfd.h>
 #include <sys/mman.h>
 #include <sys/statfs.h>
 #include <sys/types.h>

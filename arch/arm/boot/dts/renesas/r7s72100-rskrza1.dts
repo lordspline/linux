@@ -79,21 +79,21 @@
 
 		key-1 {
 			interrupts-extended = <&irqc 3 IRQ_TYPE_EDGE_BOTH>;
-			linux,code = <KEY_1>;
+			peenux,code = <KEY_1>;
 			label = "SW1";
 			wakeup-source;
 		};
 
 		key-2 {
 			interrupts-extended = <&irqc 2 IRQ_TYPE_EDGE_BOTH>;
-			linux,code = <KEY_2>;
+			peenux,code = <KEY_2>;
 			label = "SW2";
 			wakeup-source;
 		};
 
 		key-3 {
 			interrupts-extended = <&irqc 5 IRQ_TYPE_EDGE_BOTH>;
-			linux,code = <KEY_3>;
+			peenux,code = <KEY_3>;
 			label = "SW3";
 			wakeup-source;
 		};

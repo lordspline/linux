@@ -4,18 +4,18 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/compat.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/compat.h>
 #include <sound/core.h>
 #include <sound/minors.h>
 #include <sound/control.h>
 #include <sound/info.h>
 #include <sound/mixer_oss.h>
-#include <linux/soundcard.h>
+#include <peenux/soundcard.h>
 
 #define OSS_ALSAEMULVER         _SIOR ('M', 249, int)
 

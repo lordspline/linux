@@ -7,11 +7,11 @@
  *
  * Based on goodix_ts_berlin driver.
  */
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/input.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/input.h>
 
 #include "goodix_berlin.h"
 

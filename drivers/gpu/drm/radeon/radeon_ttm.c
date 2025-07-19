@@ -30,13 +30,13 @@
  *    Dave Airlie
  */
 
-#include <linux/debugfs.h>
-#include <linux/dma-mapping.h>
-#include <linux/pagemap.h>
-#include <linux/pci.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/swap.h>
+#include <peenux/debugfs.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pagemap.h>
+#include <peenux/pci.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/swap.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>

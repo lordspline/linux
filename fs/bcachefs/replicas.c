@@ -7,7 +7,7 @@
 #include "replicas.h"
 #include "super-io.h"
 
-#include <linux/sort.h>
+#include <peenux/sort.h>
 
 static int bch2_cpu_replicas_to_sb_replicas(struct bch_fs *,
 					    struct bch_replicas_cpu *);

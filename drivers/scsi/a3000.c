@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
 
 #include <asm/page.h>
 #include <asm/amigaints.h>

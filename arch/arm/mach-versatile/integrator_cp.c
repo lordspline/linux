@@ -2,16 +2,16 @@
 /*
  *  Copyright (C) 2003 Deep Blue Solutions Ltd
  */
-#include <linux/kernel.h>
-#include <linux/amba/mmci.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/sched_clock.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/kernel.h>
+#include <peenux/amba/mmci.h>
+#include <peenux/io.h>
+#include <peenux/irqchip.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/sched_clock.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

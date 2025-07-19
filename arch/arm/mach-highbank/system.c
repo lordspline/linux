@@ -2,9 +2,9 @@
 /*
  * Copyright 2011 Calxeda, Inc.
  */
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/proc-fns.h>
-#include <linux/reboot.h>
+#include <peenux/reboot.h>
 
 #include "core.h"
 #include "sysregs.h"

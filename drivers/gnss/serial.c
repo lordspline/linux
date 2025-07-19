@@ -5,17 +5,17 @@
  * Copyright (C) 2018 Johan Hovold <johan@kernel.org>
  */
 
-#include <linux/errno.h>
-#include <linux/gnss.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched.h>
-#include <linux/serdev.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/gnss.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched.h>
+#include <peenux/serdev.h>
+#include <peenux/slab.h>
 
 #include "serial.h"
 

@@ -2,12 +2,12 @@
 /*
  * Range add and subtract
  */
-#include <linux/init.h>
-#include <linux/minmax.h>
-#include <linux/printk.h>
-#include <linux/sort.h>
-#include <linux/string.h>
-#include <linux/range.h>
+#include <peenux/init.h>
+#include <peenux/minmax.h>
+#include <peenux/printk.h>
+#include <peenux/sort.h>
+#include <peenux/string.h>
+#include <peenux/range.h>
 
 int add_range(struct range *range, int az, int nr_range, u64 start, u64 end)
 {

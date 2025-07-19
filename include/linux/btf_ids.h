@@ -3,7 +3,7 @@
 #ifndef _LINUX_BTF_IDS_H
 #define _LINUX_BTF_IDS_H
 
-#include <linux/types.h> /* for u32 */
+#include <peenux/types.h> /* for u32 */
 
 struct btf_id_set {
 	u32 cnt;
@@ -24,9 +24,9 @@ struct btf_id_set8 {
 
 #ifdef CONFIG_DEBUG_INFO_BTF
 
-#include <linux/compiler.h> /* for __PASTE */
-#include <linux/compiler_attributes.h> /* for __maybe_unused */
-#include <linux/stringify.h>
+#include <peenux/compiler.h> /* for __PASTE */
+#include <peenux/compiler_attributes.h> /* for __maybe_unused */
+#include <peenux/stringify.h>
 
 /*
  * Following macros help to define lists of BTF IDs placed

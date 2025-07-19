@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/sysrq.h>
-#include <linux/workqueue.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/sysrq.h>
+#include <peenux/workqueue.h>
 
 #include <asm/cpu-features.h>
 #include <asm/tlb.h>

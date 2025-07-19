@@ -5,12 +5,12 @@
  * Copyright (C) 2020 Álvaro Fernández Rojas <noltari@gmail.com>
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
 
 #define BCM6345_RESET_NUM		32
 #define BCM6345_RESET_SLEEP_MIN_US	10000

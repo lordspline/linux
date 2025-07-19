@@ -7,8 +7,8 @@
 #ifndef __LINUX_CLK_TI_H__
 #define __LINUX_CLK_TI_H__
 
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
 
 /**
  * struct clk_omap_reg - OMAP register declaration

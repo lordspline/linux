@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2012-2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2016, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2017 Linaro Ltd.
  */
-#include <linux/init.h>
-#include <linux/interconnect.h>
-#include <linux/io.h>
-#include <linux/ioctl.h>
-#include <linux/delay.h>
-#include <linux/devcoredump.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
+#include <peenux/init.h>
+#include <peenux/interconnect.h>
+#include <peenux/io.h>
+#include <peenux/ioctl.h>
+#include <peenux/delay.h>
+#include <peenux/devcoredump.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
 #include <media/videobuf2-v4l2.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-mem2mem.h>

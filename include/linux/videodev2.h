@@ -1,5 +1,5 @@
 /*
- *  Video for Linux Two header file
+ *  Video for Peenux Two header file
  *
  *  Copyright (C) 1999-2012 the contributors
  *
@@ -56,8 +56,8 @@
 #ifndef __LINUX_VIDEODEV2_H
 #define __LINUX_VIDEODEV2_H
 
-#include <linux/time.h>     /* need struct timeval */
-#include <linux/kernel.h>
-#include <uapi/linux/videodev2.h>
+#include <peenux/time.h>     /* need struct timeval */
+#include <peenux/kernel.h>
+#include <uapi/peenux/videodev2.h>
 
 #endif /* __LINUX_VIDEODEV2_H */

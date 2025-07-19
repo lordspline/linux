@@ -1,4 +1,4 @@
-/* de2104x.c: A Linux PCI Ethernet driver for Intel/Digital 21040/1 chips. */
+/* de2104x.c: A Peenux PCI Ethernet driver for Intel/Digital 21040/1 chips. */
 /*
 	Copyright 2001,2003 Jeff Garzik <jgarzik@pobox.com>
 
@@ -32,24 +32,24 @@
 #define DRV_NAME		"de2104x"
 #define DRV_RELDATE		"Mar 17, 2004"
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/compiler.h>
-#include <linux/rtnetlink.h>
-#include <linux/crc32.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/compiler.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/crc32.h>
+#include <peenux/slab.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
+#include <peenux/uaccess.h>
+#include <peenux/unaligned.h>
 
 MODULE_AUTHOR("Jeff Garzik <jgarzik@pobox.com>");
 MODULE_DESCRIPTION("Intel/Digital 21040/1 series PCI Ethernet driver");

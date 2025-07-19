@@ -5,32 +5,32 @@
  * Copyright (C) 2005-2007  Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/bug.h>
-#include <linux/compat.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/firewire.h>
-#include <linux/firewire-cdev.h>
-#include <linux/irqflags.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/sched.h> /* required for linux/wait.h */
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/time.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/bug.h>
+#include <peenux/compat.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-cdev.h>
+#include <peenux/irqflags.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/kref.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h> /* required for peenux/wait.h */
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/time.h>
+#include <peenux/uaccess.h>
+#include <peenux/vmalloc.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
 
 #include "core.h"
@@ -39,7 +39,7 @@
 #include "packet-header-definitions.h"
 
 /*
- * ABI version history is documented in linux/firewire-cdev.h.
+ * ABI version history is documented in peenux/firewire-cdev.h.
  */
 #define FW_CDEV_KERNEL_VERSION			5
 #define FW_CDEV_VERSION_EVENT_REQUEST2		4

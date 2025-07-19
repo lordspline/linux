@@ -4,11 +4,11 @@
  * Copyright (C) 2013-2015 Intel Mobile Communications GmbH
  * Copyright (C) 2016-2017 Intel Deutschland GmbH
  */
-#include <linux/vmalloc.h>
-#include <linux/err.h>
-#include <linux/ieee80211.h>
-#include <linux/netdevice.h>
-#include <linux/dmi.h>
+#include <peenux/vmalloc.h>
+#include <peenux/err.h>
+#include <peenux/ieee80211.h>
+#include <peenux/netdevice.h>
+#include <peenux/dmi.h>
 
 #include "mvm.h"
 #include "sta.h"

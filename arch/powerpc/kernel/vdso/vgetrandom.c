@@ -4,8 +4,8 @@
  *
  * Copyright (C) 2024 Christophe Leroy <christophe.leroy@csgroup.eu>, CS GROUP France
  */
-#include <linux/time.h>
-#include <linux/types.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
 
 ssize_t __c_kernel_getrandom(void *buffer, size_t len, unsigned int flags, void *opaque_state,
 			     size_t opaque_len)

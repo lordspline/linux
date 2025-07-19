@@ -6,10 +6,10 @@
  * Copyright (C) 2008 Henrik Kurelid <henrik@kurelid.se>
  */
 
-#include <linux/device.h>
-#include <linux/dvb/ca.h>
-#include <linux/fs.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/dvb/ca.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
 
 #include <media/dvbdev.h>
 

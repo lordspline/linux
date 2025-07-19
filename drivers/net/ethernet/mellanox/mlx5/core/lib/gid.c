@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/mlx5/driver.h>
-#include <linux/etherdevice.h>
-#include <linux/idr.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/etherdevice.h>
+#include <peenux/idr.h>
 #include "mlx5_core.h"
 #include "lib/mlx5.h"
 

@@ -6,7 +6,7 @@
 #ifndef _XE_GSC_SUBMIT_H_
 #define _XE_GSC_SUBMIT_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct iosys_map;
 struct xe_device;

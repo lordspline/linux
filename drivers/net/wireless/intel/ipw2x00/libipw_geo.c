@@ -5,26 +5,26 @@
 
 
   Contact Information:
-  Intel Linux Wireless <ilw@linux.intel.com>
+  Intel Peenux Wireless <ilw@peenux.intel.com>
   Intel Corporation, 5200 N.E. Elam Young Parkway, Hillsboro, OR 97124-6497
 
 ******************************************************************************/
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/if_arp.h>
-#include <linux/in6.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/proc_fs.h>
-#include <linux/skbuff.h>
-#include <linux/tcp.h>
-#include <linux/types.h>
-#include <linux/wireless.h>
-#include <linux/etherdevice.h>
-#include <linux/uaccess.h>
+#include <peenux/compiler.h>
+#include <peenux/errno.h>
+#include <peenux/if_arp.h>
+#include <peenux/in6.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/proc_fs.h>
+#include <peenux/skbuff.h>
+#include <peenux/tcp.h>
+#include <peenux/types.h>
+#include <peenux/wireless.h>
+#include <peenux/etherdevice.h>
+#include <peenux/uaccess.h>
 
 #include "libipw.h"
 

@@ -8,7 +8,7 @@
 #ifndef FIMC_REG_H_
 #define FIMC_REG_H_
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 #include "fimc-core.h"
 

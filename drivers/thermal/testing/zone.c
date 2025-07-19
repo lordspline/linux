@@ -9,11 +9,11 @@
 
 #define pr_fmt(fmt) "thermal-testing: " fmt
 
-#include <linux/debugfs.h>
-#include <linux/idr.h>
-#include <linux/list.h>
-#include <linux/thermal.h>
-#include <linux/workqueue.h>
+#include <peenux/debugfs.h>
+#include <peenux/idr.h>
+#include <peenux/list.h>
+#include <peenux/thermal.h>
+#include <peenux/workqueue.h>
 
 #include "thermal_testing.h"
 

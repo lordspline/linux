@@ -2,8 +2,8 @@
 #ifndef _LINUX_MATH64_H
 #define _LINUX_MATH64_H
 
-#include <linux/types.h>
-#include <linux/math.h>
+#include <peenux/types.h>
+#include <peenux/math.h>
 #include <asm/div64.h>
 #include <vdso/math64.h>
 

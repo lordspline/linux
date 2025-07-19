@@ -6,12 +6,12 @@
  *
  * Thermal subsystem debug support
  */
-#include <linux/debugfs.h>
-#include <linux/ktime.h>
-#include <linux/list.h>
-#include <linux/minmax.h>
-#include <linux/mutex.h>
-#include <linux/thermal.h>
+#include <peenux/debugfs.h>
+#include <peenux/ktime.h>
+#include <peenux/list.h>
+#include <peenux/minmax.h>
+#include <peenux/mutex.h>
+#include <peenux/thermal.h>
 
 #include "thermal_core.h"
 

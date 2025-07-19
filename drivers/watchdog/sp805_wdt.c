@@ -12,24 +12,24 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/device.h>
-#include <linux/resource.h>
-#include <linux/amba/bus.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <peenux/device.h>
+#include <peenux/resource.h>
+#include <peenux/amba/bus.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
 
 /* default timeout in seconds */
 #define DEFAULT_TIMEOUT		60

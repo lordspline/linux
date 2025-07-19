@@ -4,45 +4,45 @@
  *
  * Copyright (C) IBM Corporation, 2014
  *
- * Author: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Author: Paul E. McKenney <paulmck@peenux.ibm.com>
  *	Based on kernel/rcu/torture.c.
  */
 
 #define pr_fmt(fmt) fmt
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/err.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/moduleparam.h>
-#include <linux/percpu.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/freezer.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/trace_clock.h>
-#include <linux/ktime.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kthread.h>
+#include <peenux/err.h>
+#include <peenux/spinlock.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/completion.h>
+#include <peenux/moduleparam.h>
+#include <peenux/percpu.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/freezer.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/trace_clock.h>
+#include <peenux/ktime.h>
 #include <asm/byteorder.h>
-#include <linux/torture.h>
-#include <linux/sched/rt.h>
+#include <peenux/torture.h>
+#include <peenux/sched/rt.h>
 #include "rcu/rcu.h"
 
 MODULE_DESCRIPTION("Common functions for in-kernel torture tests");
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Paul E. McKenney <paulmck@linux.ibm.com>");
+MODULE_AUTHOR("Paul E. McKenney <paulmck@peenux.ibm.com>");
 
 static bool disable_onoff_at_boot;
 module_param(disable_onoff_at_boot, bool, 0444);

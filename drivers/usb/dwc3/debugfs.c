@@ -8,17 +8,17 @@
  *	    Sebastian Andrzej Siewior <bigeasy@linutronix.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/ptrace.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/ptrace.h>
+#include <peenux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
 
-#include <linux/usb/ch9.h>
+#include <peenux/usb/ch9.h>
 
 #include "core.h"
 #include "gadget.h"

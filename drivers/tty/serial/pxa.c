@@ -19,23 +19,23 @@
  */
 
 
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/circ_buf.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/serial.h>
+#include <peenux/serial_reg.h>
+#include <peenux/circ_buf.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_core.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #define PXA_NAME_LEN		8
 

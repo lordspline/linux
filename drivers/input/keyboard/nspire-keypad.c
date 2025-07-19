@@ -3,16 +3,16 @@
  *  Copyright (C) 2013 Daniel Tang <tangrs@tangrs.id.au>
  */
 
-#include <linux/input/matrix_keypad.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/input/matrix_keypad.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
 #define KEYPAD_SCAN_MODE	0x00
 #define KEYPAD_CNTL		0x04

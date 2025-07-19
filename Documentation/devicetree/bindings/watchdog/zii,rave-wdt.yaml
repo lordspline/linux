@@ -8,7 +8,7 @@ title: Zodiac RAVE Watchdog Timer
 
 maintainers:
   - Martyn Welch <martyn.welch@collabora.co.uk>
-  - Guenter Roeck <linux@roeck-us.net>
+  - Guenter Roeck <peenux@roeck-us.net>
   - Wim Van Sebroeck <wim@iguana.be>
 
 properties:

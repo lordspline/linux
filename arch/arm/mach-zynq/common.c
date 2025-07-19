@@ -6,25 +6,25 @@
  *  Copyright (C) 2011 Xilinx
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/cpumask.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/clk/zynq.h>
-#include <linux/clocksource.h>
-#include <linux/of_address.h>
-#include <linux/of_clk.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/of.h>
-#include <linux/memblock.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/arm-gic.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/pgtable.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/cpumask.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clk/zynq.h>
+#include <peenux/clocksource.h>
+#include <peenux/of_address.h>
+#include <peenux/of_clk.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/of.h>
+#include <peenux/memblock.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/arm-gic.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
+#include <peenux/pgtable.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

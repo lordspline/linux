@@ -3,13 +3,13 @@
 // Copyright(c) 2021-2022 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
 //
 
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include <sound/hdaudio.h>
 #include <sound/hdaudio_ext.h>
 #include "avs.h"

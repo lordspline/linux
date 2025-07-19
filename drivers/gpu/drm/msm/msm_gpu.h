@@ -7,12 +7,12 @@
 #ifndef __MSM_GPU_H__
 #define __MSM_GPU_H__
 
-#include <linux/adreno-smmu-priv.h>
-#include <linux/clk.h>
-#include <linux/devfreq.h>
-#include <linux/interconnect.h>
-#include <linux/pm_opp.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/adreno-smmu-priv.h>
+#include <peenux/clk.h>
+#include <peenux/devfreq.h>
+#include <peenux/interconnect.h>
+#include <peenux/pm_opp.h>
+#include <peenux/regulator/consumer.h>
 
 #include "msm_drv.h"
 #include "msm_fence.h"

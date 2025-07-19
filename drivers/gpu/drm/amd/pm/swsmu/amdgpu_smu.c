@@ -22,10 +22,10 @@
 
 #define SWSMU_CODE_LAYER_L1
 
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/power_supply.h>
-#include <linux/reboot.h>
+#include <peenux/firmware.h>
+#include <peenux/pci.h>
+#include <peenux/power_supply.h>
+#include <peenux/reboot.h>
 
 #include "amdgpu.h"
 #include "amdgpu_smu.h"

@@ -6,17 +6,17 @@
  *	 Dave Gerlach <d-gerlach@ti.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <peenux/cpu.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
 
 #define REVISION_MASK				0xF
 #define REVISION_SHIFT				28

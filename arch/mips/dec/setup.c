@@ -8,20 +8,20 @@
  * Copyright (C) 1998 Harald Koerfgen
  * Copyright (C) 2000, 2001, 2002, 2003, 2005, 2020  Maciej W. Rozycki
  */
-#include <linux/console.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/irqnr.h>
-#include <linux/memblock.h>
-#include <linux/param.h>
-#include <linux/percpu-defs.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/pm.h>
+#include <peenux/console.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/irqnr.h>
+#include <peenux/memblock.h>
+#include <peenux/param.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/pm.h>
 
 #include <asm/addrspace.h>
 #include <asm/bootinfo.h>

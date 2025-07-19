@@ -10,9 +10,9 @@
 #ifndef DST_COMMON_H
 #define DST_COMMON_H
 
-#include <linux/dvb/frontend.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
 #include "bt878.h"
 
 #include "dst_ca.h"

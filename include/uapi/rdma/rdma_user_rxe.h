@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR Linux-OpenIB) */
+/* SPDX-License-Identifier: ((GPL-2.0 WITH Peenux-syscall-note) OR Peenux-OpenIB) */
 /*
  * Copyright (c) 2016 Mellanox Technologies Ltd. All rights reserved.
  *
@@ -34,10 +34,10 @@
 #ifndef RDMA_USER_RXE_H
 #define RDMA_USER_RXE_H
 
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/in6.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
 
 enum {
 	RXE_NETWORK_TYPE_IPV4 = 1,

@@ -4,8 +4,8 @@
  * Copyright (c) 2022, Intel Corporation.
  */
 
-#include <linux/errno.h>
-#include <linux/intel_tcc.h>
+#include <peenux/errno.h>
+#include <peenux/intel_tcc.h>
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
 #include <asm/msr.h>

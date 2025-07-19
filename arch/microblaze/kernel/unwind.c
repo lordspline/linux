@@ -13,15 +13,15 @@
  */
 
 /* #define DEBUG 1 */
-#include <linux/export.h>
-#include <linux/kallsyms.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/io.h>
+#include <peenux/export.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/stacktrace.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
 #include <asm/sections.h>
 #include <asm/exceptions.h>
 #include <asm/unwind.h>

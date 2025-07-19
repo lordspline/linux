@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-smbus.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
 
 /* Controller command patterns */
 #define SW_TWSI_V		BIT_ULL(63)	/* Valid bit */

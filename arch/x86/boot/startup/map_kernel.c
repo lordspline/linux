@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/pgtable.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/pgtable.h>
 
 #include <asm/init.h>
 #include <asm/sections.h>

@@ -15,17 +15,17 @@
  * Kevin Chea
  *
  */
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/syscall.h>
-#include <linux/linkage.h>
-#include <linux/stringify.h>
-#include <linux/errno.h>
-#include <linux/syscalls.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/mman.h>
-#include <linux/sched/mm.h>
-#include <linux/shm.h>
+#include <peenux/linkage.h>
+#include <peenux/stringify.h>
+#include <peenux/errno.h>
+#include <peenux/syscalls.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/mman.h>
+#include <peenux/sched/mm.h>
+#include <peenux/shm.h>
 
 syscall_t sys_call_table[] /* FIXME __cacheline_aligned */= {
 #define __SYSCALL(nr, entry)	(syscall_t)entry,

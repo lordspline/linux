@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/completion.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-smbus.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/completion.h>
 
 #define PASEMI_HW_REV_PCI -1
 

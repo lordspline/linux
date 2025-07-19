@@ -5,17 +5,17 @@
  * Development of this code funded by Astaro AG (http://www.astaro.com/)
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/skbuff.h>
-#include <linux/netlink.h>
-#include <linux/vmalloc.h>
-#include <linux/rhashtable.h>
-#include <linux/audit.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/nfnetlink.h>
-#include <linux/netfilter/nf_tables.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/skbuff.h>
+#include <peenux/netlink.h>
+#include <peenux/vmalloc.h>
+#include <peenux/rhashtable.h>
+#include <peenux/audit.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/nfnetlink.h>
+#include <peenux/netfilter/nf_tables.h>
 #include <net/netfilter/nf_flow_table.h>
 #include <net/netfilter/nf_tables_core.h>
 #include <net/netfilter/nf_tables.h>

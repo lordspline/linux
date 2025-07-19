@@ -4,14 +4,14 @@
  * Copyright (C) 2008 Pierrick Hascoet <pierrick.hascoet@abilis.com>
  * Copyright (C) 2010 Devin Heitmueller <dheitmueller@kernellabs.com>
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/kref.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/kref.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
 
 /* header file for usb device driver*/
 #include "as102_drv.h"

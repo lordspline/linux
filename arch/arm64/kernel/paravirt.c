@@ -8,17 +8,17 @@
 
 #define pr_fmt(fmt) "arm-pv: " fmt
 
-#include <linux/arm-smccc.h>
-#include <linux/cpuhotplug.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/jump_label.h>
-#include <linux/printk.h>
-#include <linux/psci.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/static_call.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/jump_label.h>
+#include <peenux/printk.h>
+#include <peenux/psci.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/static_call.h>
 
 #include <asm/paravirt.h>
 #include <asm/pvclock-abi.h>

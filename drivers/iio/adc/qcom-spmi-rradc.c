@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2016-2017, 2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016-2017, 2019, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022 Linaro Limited.
  *  Author: Casey Connolly <casey.connolly@linaro.org>
  *
  * This driver is for the Round Robin ADC found in the pmi8998 and pm660 PMICs.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/spmi.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/spmi.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/types.h>
 
 #include <soc/qcom/qcom-spmi-pmic.h>
 

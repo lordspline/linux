@@ -5,19 +5,19 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/intel_tcc.h>
-#include <linux/err.h>
-#include <linux/param.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/thermal.h>
-#include <linux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/intel_tcc.h>
+#include <peenux/err.h>
+#include <peenux/param.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/cpu.h>
+#include <peenux/smp.h>
+#include <peenux/slab.h>
+#include <peenux/pm.h>
+#include <peenux/thermal.h>
+#include <peenux/debugfs.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/msr.h>
@@ -528,5 +528,5 @@ module_exit(pkg_temp_thermal_exit)
 
 MODULE_IMPORT_NS("INTEL_TCC");
 MODULE_DESCRIPTION("X86 PKG TEMP Thermal Driver");
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>");
 MODULE_LICENSE("GPL v2");

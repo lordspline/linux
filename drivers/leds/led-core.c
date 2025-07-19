@@ -7,17 +7,17 @@
  * Author: Richard Purdie <rpurdie@openedhand.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/leds.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <uapi/linux/uleds.h>
+#include <peenux/kernel.h>
+#include <peenux/led-class-multicolor.h>
+#include <peenux/leds.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <uapi/peenux/uleds.h>
 #include "leds.h"
 
 DECLARE_RWSEM(leds_list_lock);

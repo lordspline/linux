@@ -8,16 +8,16 @@
  * Copyright (C) 2009 MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/timer.h>
-#include <linux/module.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/timer.h>
+#include <peenux/module.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/string_choices.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
 
 #include "musb_core.h"
 #include "musb_trace.h"

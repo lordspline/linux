@@ -8,10 +8,10 @@
 #ifndef _ISHTP_LOADER_H_
 #define _ISHTP_LOADER_H_
 
-#include <linux/bits.h>
-#include <linux/jiffies.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/jiffies.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
 
 #include "ishtp-dev.h"
 

@@ -12,12 +12,12 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/dmi.h>
+#include <peenux/slab.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

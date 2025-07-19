@@ -6,12 +6,12 @@
  *
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regulator/driver.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regulator/driver.h>
 #include "pmbus.h"
 
 static const struct regulator_desc __maybe_unused tda38640_reg_desc[] = {

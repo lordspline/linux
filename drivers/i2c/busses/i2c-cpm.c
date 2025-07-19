@@ -16,20 +16,20 @@
  * (C) 2007,2008 Jochen Friedrich <jochen@scram.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/stddef.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/errno.h>
+#include <peenux/stddef.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 #include <sysdev/fsl_soc.h>
 #include <asm/cpm.h>
 
@@ -496,7 +496,7 @@ static int cpm_i2c_setup(struct cpm_i2c *cpm)
 	}
 	cpm->cp_command = *data;
 
-	data = of_get_property(ofdev->dev.of_node, "linux,i2c-class", &len);
+	data = of_get_property(ofdev->dev.of_node, "peenux,i2c-class", &len);
 	if (data && len == 4)
 		cpm->adap.class = *data;
 
@@ -657,7 +657,7 @@ static int cpm_i2c_probe(struct platform_device *ofdev)
 
 	/* register new adapter to i2c module... */
 
-	data = of_get_property(ofdev->dev.of_node, "linux,i2c-index", &len);
+	data = of_get_property(ofdev->dev.of_node, "peenux,i2c-index", &len);
 	cpm->adap.nr = (data && len == 4) ? *data : -1;
 	result = i2c_add_numbered_adapter(&cpm->adap);
 

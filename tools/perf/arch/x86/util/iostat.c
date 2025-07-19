@@ -4,13 +4,13 @@
  *
  * Copyright (C) 2020, Intel Corporation
  *
- * Authors: Alexander Antonov <alexander.antonov@linux.intel.com>
+ * Authors: Alexander Antonov <alexander.antonov@peenux.intel.com>
  */
 
 #include <api/fs/fs.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/zalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/zalloc.h>
 #include <limits.h>
 #include <stdio.h>
 #include <string.h>

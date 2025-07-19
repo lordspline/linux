@@ -7,14 +7,14 @@
  *         for ST-Ericsson.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mfd/dbx500-prcmu.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/mfd/dbx500-prcmu.h>
 
 #include <sound/soc.h>
 #include <sound/soc-dai.h>

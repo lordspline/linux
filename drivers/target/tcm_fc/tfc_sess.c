@@ -5,21 +5,21 @@
 
 /* XXX TBD some includes may be extraneous */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/utsname.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/configfs.h>
-#include <linux/ctype.h>
-#include <linux/hash.h>
-#include <linux/rcupdate.h>
-#include <linux/rculist.h>
-#include <linux/kref.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/utsname.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/configfs.h>
+#include <peenux/ctype.h>
+#include <peenux/hash.h>
+#include <peenux/rcupdate.h>
+#include <peenux/rculist.h>
+#include <peenux/kref.h>
+#include <peenux/unaligned.h>
 #include <scsi/libfc.h>
 
 #include <target/target_core_base.h>

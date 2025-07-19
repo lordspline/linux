@@ -6,15 +6,15 @@
  * Author: Bard Liao <bardliao@realtek.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/i2c.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

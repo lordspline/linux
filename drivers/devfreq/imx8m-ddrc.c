@@ -3,15 +3,15 @@
  * Copyright 2019 NXP
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/devfreq.h>
-#include <linux/pm_opp.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/arm-smccc.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/devfreq.h>
+#include <peenux/pm_opp.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/arm-smccc.h>
 
 #define IMX_SIP_DDR_DVFS			0xc2000004
 

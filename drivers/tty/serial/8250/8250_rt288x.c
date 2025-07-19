@@ -3,12 +3,12 @@
  * RT288x/Au1xxx driver
  */
 
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/serial.h>
+#include <peenux/serial_8250.h>
 
 #include "8250.h"
 

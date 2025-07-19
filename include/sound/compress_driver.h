@@ -3,15 +3,15 @@
  *  compress_driver.h - compress offload driver definations
  *
  *  Copyright (C) 2011 Intel Corporation
- *  Authors:	Vinod Koul <vinod.koul@linux.intel.com>
- *		Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>
+ *  Authors:	Vinod Koul <vinod.koul@peenux.intel.com>
+ *		Pierre-Louis Bossart <pierre-louis.bossart@peenux.intel.com>
  */
 
 #ifndef __COMPRESS_DRIVER_H
 #define __COMPRESS_DRIVER_H
 
-#include <linux/types.h>
-#include <linux/sched.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
 #include <sound/core.h>
 #include <sound/compress_offload.h>
 #include <sound/asound.h>

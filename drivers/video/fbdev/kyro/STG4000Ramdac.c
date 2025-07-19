@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/kyro/STG4000Ramdac.c
+ *  peenux/drivers/video/kyro/STG4000Ramdac.c
  *
  *  Copyright (C) 2002 STMicroelectronics
  *
@@ -8,9 +8,9 @@
  * for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
 #include <video/kyro.h>
 
 #include "STG4000Reg.h"

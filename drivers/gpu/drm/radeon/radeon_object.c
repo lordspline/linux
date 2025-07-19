@@ -30,9 +30,9 @@
  *    Dave Airlie
  */
 
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_cache.h>
 #include <drm/drm_prime.h>

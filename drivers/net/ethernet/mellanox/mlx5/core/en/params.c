@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /* Copyright (c) 2019 Mellanox Technologies. */
 
 #include "en/params.h"
@@ -6,7 +6,7 @@
 #include "en/port.h"
 #include "en_accel/en_accel.h"
 #include "en_accel/ipsec.h"
-#include <linux/dim.h>
+#include <peenux/dim.h>
 #include <net/page_pool/types.h>
 #include <net/xdp_sock_drv.h>
 

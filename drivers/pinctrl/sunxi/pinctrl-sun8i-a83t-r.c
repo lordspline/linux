@@ -23,9 +23,9 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/platform_device.h>
 
 #include "pinctrl-sunxi.h"
 

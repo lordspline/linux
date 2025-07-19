@@ -7,16 +7,16 @@
  * Copyright(C) 2005-2007, Red Hat, Inc., Ingo Molnar
  * Copyright(C) 2006-2007, Timesys Corp., Thomas Gleixner
  */
-#include <linux/compiler.h>
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/nmi.h>
-#include <linux/percpu.h>
-#include <linux/profile.h>
-#include <linux/sched.h>
-#include <linux/module.h>
+#include <peenux/compiler.h>
+#include <peenux/cpu.h>
+#include <peenux/err.h>
+#include <peenux/hrtimer.h>
+#include <peenux/interrupt.h>
+#include <peenux/nmi.h>
+#include <peenux/percpu.h>
+#include <peenux/profile.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
 #include <trace/events/power.h>
 
 #include <asm/irq_regs.h>

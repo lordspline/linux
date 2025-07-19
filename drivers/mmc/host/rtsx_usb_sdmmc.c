@@ -7,26 +7,26 @@
  *   Roger Tseng <rogerable@realtek.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/usb.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/card.h>
-#include <linux/scatterlist.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
+#include <peenux/mmc/card.h>
+#include <peenux/scatterlist.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
 
-#include <linux/rtsx_usb.h>
-#include <linux/unaligned.h>
+#include <peenux/rtsx_usb.h>
+#include <peenux/unaligned.h>
 
 #if defined(CONFIG_LEDS_CLASS) || (defined(CONFIG_LEDS_CLASS_MODULE) && \
 		defined(CONFIG_MMC_REALTEK_USB_MODULE))
-#include <linux/leds.h>
-#include <linux/workqueue.h>
+#include <peenux/leds.h>
+#include <peenux/workqueue.h>
 #define RTSX_USB_USE_LEDS_CLASS
 #endif
 

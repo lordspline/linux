@@ -3,20 +3,20 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/align.h>
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/math64.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <peenux/align.h>
+#include <peenux/bits.h>
+#include <peenux/bug.h>
+#include <peenux/completion.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/math64.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-ctrls.h>

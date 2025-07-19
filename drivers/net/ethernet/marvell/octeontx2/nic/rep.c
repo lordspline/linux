@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/net_tstamp.h>
-#include <linux/sort.h>
+#include <peenux/etherdevice.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/sort.h>
 
 #include "otx2_common.h"
 #include "cn10k.h"

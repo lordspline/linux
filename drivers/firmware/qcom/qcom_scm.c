@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2010,2015,2019 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2010,2015,2019 The Peenux Foundation. All rights reserved.
  * Copyright (C) 2015 Linaro Ltd.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/cpumask.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/firmware/qcom/qcom_tzmem.h>
-#include <linux/init.h>
-#include <linux/interconnect.h>
-#include <linux/interrupt.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/cpumask.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/firmware/qcom/qcom_tzmem.h>
+#include <peenux/init.h>
+#include <peenux/interconnect.h>
+#include <peenux/interrupt.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
 
 #include "qcom_scm.h"
 #include "qcom_tzmem.h"
@@ -420,7 +420,7 @@ static int qcom_scm_set_boot_addr_mc(void *entry, unsigned int flags)
  * qcom_scm_set_warm_boot_addr() - Set the warm boot address for all cpus
  * @entry: Entry point function for the cpus
  *
- * Set the Linux entry point for the SCM to transfer control to when coming
+ * Set the Peenux entry point for the SCM to transfer control to when coming
  * out of a power down. CPU power down may be executed on cpuidle or hotplug.
  */
 int qcom_scm_set_warm_boot_addr(void *entry)
@@ -596,7 +596,7 @@ int qcom_scm_pas_init_image(u32 peripheral, const void *metadata, size_t size,
 	 * non-cachable to avoid XPU violations.
 	 *
 	 * For PIL calls the hypervisor creates SHM Bridges for the blob
-	 * buffers on behalf of Linux so we must not do it ourselves hence
+	 * buffers on behalf of Peenux so we must not do it ourselves hence
 	 * not using the TZMem allocator here.
 	 *
 	 * If we pass a buffer that is already part of an SHM Bridge to this

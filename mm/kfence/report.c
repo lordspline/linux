@@ -5,19 +5,19 @@
  * Copyright (C) 2020, Google LLC.
  */
 
-#include <linux/stdarg.h>
+#include <peenux/stdarg.h>
 
-#include <linux/kernel.h>
-#include <linux/lockdep.h>
-#include <linux/math.h>
-#include <linux/printk.h>
-#include <linux/sched/debug.h>
-#include <linux/seq_file.h>
-#include <linux/sprintf.h>
-#include <linux/stacktrace.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/sched/clock.h>
+#include <peenux/kernel.h>
+#include <peenux/lockdep.h>
+#include <peenux/math.h>
+#include <peenux/printk.h>
+#include <peenux/sched/debug.h>
+#include <peenux/seq_file.h>
+#include <peenux/sprintf.h>
+#include <peenux/stacktrace.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
+#include <peenux/sched/clock.h>
 #include <trace/events/error_report.h>
 
 #include <asm/kfence.h>

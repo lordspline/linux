@@ -9,9 +9,9 @@
  * Copyright (c) 2020-2022 Vincent Mailhol <mailhol.vincent@wanadoo.fr>
  */
 
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/units.h>
+#include <peenux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/units.h>
 
 #include "es58x_core.h"
 #include "es581_4.h"

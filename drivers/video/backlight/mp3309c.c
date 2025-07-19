@@ -11,14 +11,14 @@
  * Based on pwm_bl.c
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
+#include <peenux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/pwm.h>
+#include <peenux/regmap.h>
 
 #define REG_I2C_0	0x00
 #define REG_I2C_1	0x01

@@ -28,7 +28,7 @@
 		button-reset {
 			gpios = <&gpio1 7 GPIO_ACTIVE_LOW>;
 			label = "Factory RESET";
-			linux,code = <BTN_0>;
+			peenux,code = <BTN_0>;
 		};
 	};
 

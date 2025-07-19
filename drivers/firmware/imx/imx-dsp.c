@@ -6,12 +6,12 @@
  * Implementation of the DSP IPC interface (host side)
  */
 
-#include <linux/firmware/imx/dsp.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/firmware/imx/dsp.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 /*
  * imx_dsp_ring_doorbell - triggers an interrupt on the other side (DSP)

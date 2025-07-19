@@ -7,15 +7,15 @@
  *
  */
 
-#include <linux/err.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
+#include <peenux/err.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
 
 #include "pmbus.h"
 

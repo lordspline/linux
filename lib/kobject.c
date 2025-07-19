@@ -12,12 +12,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/random.h>
+#include <peenux/kobject.h>
+#include <peenux/string.h>
+#include <peenux/export.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/random.h>
 
 /**
  * kobject_namespace() - Return @kobj's namespace tag.

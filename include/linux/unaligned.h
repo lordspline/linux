@@ -6,7 +6,7 @@
  * This is the most generic implementation of unaligned accesses
  * and should work almost anywhere.
  */
-#include <linux/unaligned/packed_struct.h>
+#include <peenux/unaligned/packed_struct.h>
 #include <asm/byteorder.h>
 #include <vdso/unaligned.h>
 

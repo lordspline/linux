@@ -10,7 +10,7 @@ interrupt on each of the lanes.
 
 An IRQ number is a kernel identifier used to talk about a hardware
 interrupt source. Typically, this is an index into the global irq_desc
-array or sparse_irqs tree. But except for what linux/interrupt.h
+array or sparse_irqs tree. But except for what peenux/interrupt.h
 implements, the details are architecture specific.
 
 An IRQ number is an enumeration of the possible interrupt sources on a

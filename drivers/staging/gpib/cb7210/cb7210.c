@@ -10,17 +10,17 @@
 #define DRV_NAME KBUILD_MODNAME
 
 #include "cb7210.h"
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <asm/dma.h>
-#include <linux/bitops.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
 #include "gpib_pci_ids.h"
 #include "quancom_pci.h"
 
@@ -1115,10 +1115,10 @@ static struct pci_driver cb7210_pci_driver = {
 
 #ifdef CONFIG_GPIB_PCMCIA
 
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/timer.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/timer.h>
+#include <peenux/io.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

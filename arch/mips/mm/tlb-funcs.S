@@ -9,9 +9,9 @@
  *
  * Based on mm/page-funcs.c
  * Copyright (C) 2012  MIPS Technologies, Inc.
- * Copyright (C) 2012  Ralf Baechle <ralf@linux-mips.org>
+ * Copyright (C) 2012  Ralf Baechle <ralf@peenux-mips.org>
  */
-#include <linux/export.h>
+#include <peenux/export.h>
 #include <asm/asm.h>
 #include <asm/regdef.h>
 

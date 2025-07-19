@@ -4,13 +4,13 @@
  *
  * Copyright IBM Corporation, 2019
  *
- * Author: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Author: Paul E. McKenney <paulmck@peenux.ibm.com>
  */
 
-#include <linux/console.h>
-#include <linux/kvm_para.h>
-#include <linux/rcu_notifier.h>
-#include <linux/smp.h>
+#include <peenux/console.h>
+#include <peenux/kvm_para.h>
+#include <peenux/rcu_notifier.h>
+#include <peenux/smp.h>
 
 //////////////////////////////////////////////////////////////////////////////
 //

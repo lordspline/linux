@@ -7,17 +7,17 @@
  * Author: Walker Chen <walker.chen@starfivetech.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/types.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

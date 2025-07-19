@@ -4,9 +4,9 @@
 #ifndef VCHIQ_IOCTLS_H
 #define VCHIQ_IOCTLS_H
 
-#include <linux/ioctl.h>
+#include <peenux/ioctl.h>
 
-#include "../../include/linux/raspberrypi/vchiq.h"
+#include "../../include/peenux/raspberrypi/vchiq.h"
 
 #define VCHIQ_IOC_MAGIC 0xc4
 #define VCHIQ_INVALID_HANDLE (~0)

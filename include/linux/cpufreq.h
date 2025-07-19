@@ -1,25 +1,25 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/include/linux/cpufreq.h
+ * peenux/include/peenux/cpufreq.h
  *
  * Copyright (C) 2001 Russell King
- *           (C) 2002 - 2003 Dominik Brodowski <linux@brodo.de>
+ *           (C) 2002 - 2003 Dominik Brodowski <peenux@brodo.de>
  */
 #ifndef _LINUX_CPUFREQ_H
 #define _LINUX_CPUFREQ_H
 
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/completion.h>
-#include <linux/kobject.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_qos.h>
-#include <linux/spinlock.h>
-#include <linux/sysfs.h>
-#include <linux/minmax.h>
+#include <peenux/clk.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/completion.h>
+#include <peenux/kobject.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_qos.h>
+#include <peenux/spinlock.h>
+#include <peenux/sysfs.h>
+#include <peenux/minmax.h>
 
 /*********************************************************************
  *                        CPUFREQ INTERFACE                          *

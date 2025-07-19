@@ -3,10 +3,10 @@
  *   Copyright (C) 2019 Samsung Electronics Co., Ltd.
  */
 
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include "server.h"
 #include "connection.h"

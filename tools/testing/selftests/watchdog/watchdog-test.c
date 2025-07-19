@@ -20,8 +20,8 @@
 #include <signal.h>
 #include <getopt.h>
 #include <sys/ioctl.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
 
 #define DEFAULT_PING_RATE	1
 

@@ -9,7 +9,7 @@
  *	(c) 1999/2000 Henning Zabel <henning@uni-paderborn.de>
  *
  *
- * The driver brings the USB functions of the MDC800 to Linux.
+ * The driver brings the USB functions of the MDC800 to Peenux.
  * To use the Camera you must support the USB Protocol of the camera
  * to the Kernel Node.
  * The Driver uses a misc device Node. Create it with :
@@ -72,20 +72,20 @@
  * (20/10/1999)
  */
 
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/random.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
+#include <peenux/sched/signal.h>
+#include <peenux/signal.h>
+#include <peenux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/random.h>
+#include <peenux/poll.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/wait.h>
+#include <peenux/mutex.h>
 
-#include <linux/usb.h>
-#include <linux/fs.h>
+#include <peenux/usb.h>
+#include <peenux/fs.h>
 
 /*
  * Version Information

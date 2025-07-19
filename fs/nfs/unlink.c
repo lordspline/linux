@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/nfs/unlink.c
+ *  peenux/fs/nfs/unlink.c
  *
  * nfs sillydelete handling
  *
  */
 
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/dcache.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/nfs_fs.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/namei.h>
-#include <linux/fsnotify.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/dcache.h>
+#include <peenux/sunrpc/sched.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/namei.h>
+#include <peenux/fsnotify.h>
 
 #include "internal.h"
 #include "nfs4_fs.h"

@@ -4,16 +4,16 @@
  *
  * DMA operations that map physical memory directly without using an IOMMU.
  */
-#include <linux/memblock.h> /* for max_pfn */
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/dma-map-ops.h>
-#include <linux/scatterlist.h>
-#include <linux/pfn.h>
-#include <linux/vmalloc.h>
-#include <linux/set_memory.h>
-#include <linux/slab.h>
-#include <linux/pci-p2pdma.h>
+#include <peenux/memblock.h> /* for max_pfn */
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/scatterlist.h>
+#include <peenux/pfn.h>
+#include <peenux/vmalloc.h>
+#include <peenux/set_memory.h>
+#include <peenux/slab.h>
+#include <peenux/pci-p2pdma.h>
 #include "direct.h"
 
 /*

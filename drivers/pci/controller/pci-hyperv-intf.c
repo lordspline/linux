@@ -11,9 +11,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/hyperv.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/hyperv.h>
 
 struct hyperv_pci_block_ops hvpci_block_ops;
 EXPORT_SYMBOL_GPL(hvpci_block_ops);

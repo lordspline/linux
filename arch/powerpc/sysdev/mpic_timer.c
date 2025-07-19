@@ -7,17 +7,17 @@
  *	   Li Yang <leoli@freescale.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/syscore_ops.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/syscore_ops.h>
 #include <sysdev/fsl_soc.h>
 #include <asm/io.h>
 

@@ -15,10 +15,10 @@
  *          Copyright (C) Hewlett-Packard Development Company, L.P., 2006
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
 #include <net/netlabel.h>
 #include "sidtab.h"
 #include "mls.h"

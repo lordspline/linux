@@ -7,20 +7,20 @@
  *         Tai Nguyen <ttnguyen@apm.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/cpumask.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #define CSW_CSWCR                       0x0000
 #define  CSW_CSWCR_DUALMCB_MASK         BIT(0)

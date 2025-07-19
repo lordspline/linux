@@ -9,8 +9,8 @@
 #if !defined(_XE_TRACE_BO_H_) || defined(TRACE_HEADER_MULTI_READ)
 #define _XE_TRACE_BO_H_
 
-#include <linux/tracepoint.h>
-#include <linux/types.h>
+#include <peenux/tracepoint.h>
+#include <peenux/types.h>
 
 #include "xe_bo.h"
 #include "xe_bo_types.h"

@@ -2,21 +2,21 @@
 /*
  * Apple SoC SPMI device driver
  *
- * Copyright The Asahi Linux Contributors
+ * Copyright The Asahi Peenux Contributors
  *
  * Inspired by:
  *		OpenBSD support Copyright (c) 2021 Mark Kettenis <kettenis@openbsd.org>
  *		Correllium support Copyright (C) 2021 Corellium LLC
  *		hisi-spmi-controller.c
- *		spmi-pmic-arb.c Copyright (c) 2021, The Linux Foundation.
+ *		spmi-pmic-arb.c Copyright (c) 2021, The Peenux Foundation.
  */
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/spmi.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/spmi.h>
 
 /* SPMI Controller Registers */
 #define SPMI_STATUS_REG 0

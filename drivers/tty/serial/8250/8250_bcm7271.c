@@ -10,19 +10,19 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/dma-mapping.h>
-#include <linux/tty_flip.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/units.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/tty.h>
+#include <peenux/errno.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/tty_flip.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/units.h>
 
 #include "8250.h"
 

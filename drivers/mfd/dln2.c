@@ -9,16 +9,16 @@
  *  Copyright (c) 2010-2011 Ericsson AB
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/dln2.h>
-#include <linux/rculist.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/dln2.h>
+#include <peenux/rculist.h>
 
 struct dln2_header {
 	__le16 size;

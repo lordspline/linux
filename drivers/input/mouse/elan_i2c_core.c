@@ -15,29 +15,29 @@
  * Trademarks are the property of their respective owners.
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/input/mt.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string_choices.h>
-#include <linux/input.h>
-#include <linux/uaccess.h>
-#include <linux/jiffies.h>
-#include <linux/completion.h>
-#include <linux/of.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/unaligned.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/input/mt.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/string_choices.h>
+#include <peenux/input.h>
+#include <peenux/uaccess.h>
+#include <peenux/jiffies.h>
+#include <peenux/completion.h>
+#include <peenux/of.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/unaligned.h>
 
 #include "elan_i2c.h"
 
@@ -1405,7 +1405,7 @@ static const struct i2c_device_id elan_id[] = {
 MODULE_DEVICE_TABLE(i2c, elan_id);
 
 #ifdef CONFIG_ACPI
-#include <linux/input/elan-i2c-ids.h>
+#include <peenux/input/elan-i2c-ids.h>
 MODULE_DEVICE_TABLE(acpi, elan_acpi_id);
 #endif
 

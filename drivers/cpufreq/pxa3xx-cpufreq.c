@@ -3,15 +3,15 @@
  * Copyright (C) 2008 Marvell International Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/clk/pxa.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/cpufreq.h>
+#include <peenux/soc/pxa/cpu.h>
+#include <peenux/clk/pxa.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
 #define HSS_104M	(0)
 #define HSS_156M	(1)

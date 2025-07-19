@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/savage/savagefb-i2c.c - S3 Savage DDC2
+ * peenux/drivers/video/savage/savagefb-i2c.c - S3 Savage DDC2
  *
  * Copyright 2004 Antonino A. Daplas <adaplas @pol.net>
  *
@@ -10,12 +10,12 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/pci.h>
-#include <linux/fb.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/gfp.h>
+#include <peenux/pci.h>
+#include <peenux/fb.h>
 
 #include <asm/io.h>
 #include "savagefb.h"

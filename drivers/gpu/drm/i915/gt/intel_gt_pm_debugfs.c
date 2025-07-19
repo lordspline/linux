@@ -4,8 +4,8 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/seq_file.h>
-#include <linux/string_helpers.h>
+#include <peenux/seq_file.h>
+#include <peenux/string_helpers.h>
 
 #include "i915_drv.h"
 #include "i915_reg.h"

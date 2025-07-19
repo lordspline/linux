@@ -7,10 +7,10 @@
  *
  * Copyright IBM Corp. 2016
  *
- * Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ * Author(s):  Ursula Braun <ubraun@peenux.vnet.ibm.com>
  */
 
-#include <linux/spinlock.h>
+#include <peenux/spinlock.h>
 
 #include "smc.h"
 #include "smc_wr.h"

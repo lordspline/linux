@@ -5,17 +5,17 @@
  * Author: Sebastian Hesselbarth <sebastian.hesselbarth@gmail.com>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/mfd/syscon.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/bitops.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
 #include "pinctrl-mvebu.h"
 

@@ -6,12 +6,12 @@
  *    Author(s): Jan Glauber <jan.glauber@de.ibm.com>
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/timex.h>
-#include <linux/types.h>
-#include <linux/time.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/timex.h>
+#include <peenux/types.h>
+#include <peenux/time.h>
 #include <asm/alternative.h>
 #include <asm/cputime.h>
 #include <asm/vtimer.h>

@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2016-2018, 2020-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016-2018, 2020-2021 The Peenux Foundation. All rights reserved.
  * Copyright (C) 2013 Red Hat
  * Author: Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/fault-inject.h>
-#include <linux/debugfs.h>
-#include <linux/of_address.h>
-#include <linux/uaccess.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/fault-inject.h>
+#include <peenux/debugfs.h>
+#include <peenux/of_address.h>
+#include <peenux/uaccess.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_drv.h>

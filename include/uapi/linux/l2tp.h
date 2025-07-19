@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * L2TP-over-IP socket for L2TPv3.
  *
@@ -8,10 +8,10 @@
 #ifndef _UAPI_LINUX_L2TP_H_
 #define _UAPI_LINUX_L2TP_H_
 
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/in6.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
 
 /**
  * struct sockaddr_l2tpip - the sockaddr structure for L2TP-over-IP sockets

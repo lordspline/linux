@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2006 Dave Airlie <airlied@linux.ie>
+ * Copyright (c) 2006 Dave Airlie <airlied@peenux.ie>
  * Copyright © 2006-2008,2010 Intel Corporation
  *   Jesse Barnes <jesse.barnes@intel.com>
  *
@@ -27,9 +27,9 @@
  *	Chris Wilson <chris@chris-wilson.co.uk>
  */
 
-#include <linux/export.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/i2c.h>
+#include <peenux/export.h>
+#include <peenux/i2c-algo-bit.h>
+#include <peenux/i2c.h>
 
 #include <drm/display/drm_hdcp_helper.h>
 

@@ -5,12 +5,12 @@
  * Copyright 2014-2015 Advanced Micro Devices, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/sizes.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/sizes.h>
+#include <peenux/pm_runtime.h>
 
 #include <sound/soc.h>
 #include <drm/amd_asic_type.h>

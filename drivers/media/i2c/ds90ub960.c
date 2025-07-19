@@ -26,26 +26,26 @@
  * - i2c-atr could be made embeddable instead of allocatable.
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/fwnode.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c-atr.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/units.h>
-#include <linux/workqueue.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/fwnode.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c-atr.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/units.h>
+#include <peenux/workqueue.h>
 
 #include <media/i2c/ds90ub9xx.h>
 #include <media/mipi-csi2.h>

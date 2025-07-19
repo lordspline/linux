@@ -69,26 +69,26 @@
  * Copyright (C) 2024 Mobileye Vision Technologies Ltd.
  */
 
-#include <linux/array_size.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/lockdep.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/bug.h>
+#include <peenux/cleanup.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/lockdep.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/reset-controller.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 /*
  * A reset ID, as returned by eqr_of_xlate_*(), is a (domain, offset) pair.

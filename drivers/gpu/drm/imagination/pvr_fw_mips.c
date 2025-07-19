@@ -8,8 +8,8 @@
 #include "pvr_rogue_mips.h"
 #include "pvr_vm_mips.h"
 
-#include <linux/err.h>
-#include <linux/types.h>
+#include <peenux/err.h>
+#include <peenux/types.h>
 
 #define ROGUE_FW_HEAP_MIPS_BASE 0xC0000000
 #define ROGUE_FW_HEAP_MIPS_SHIFT 24 /* 16 MB */

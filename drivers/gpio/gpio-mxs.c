@@ -6,18 +6,18 @@
 // Based on code from Freescale,
 // Copyright (C) 2004-2010 Freescale Semiconductor, Inc. All Rights Reserved.
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
 
 #define MXS_SET		0x4
 #define MXS_CLR		0x8

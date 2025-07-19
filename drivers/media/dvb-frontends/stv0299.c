@@ -30,13 +30,13 @@
 
 */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/ktime.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
 #include <asm/div64.h>
 
 #include <media/dvb_frontend.h>

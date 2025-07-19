@@ -4,14 +4,14 @@
  * Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/regmap.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/regmap.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

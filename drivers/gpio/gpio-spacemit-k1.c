@@ -4,15 +4,15 @@
  * Copyright (C) 2025 Yixun Lan <dlan@gentoo.org>
  */
 
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
 
 /* register offset */
 #define SPACEMIT_GPLR		0x00 /* port level - R */

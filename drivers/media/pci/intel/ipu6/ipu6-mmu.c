@@ -4,25 +4,25 @@
  */
 #include <asm/barrier.h>
 
-#include <linux/align.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/cacheflush.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/iova.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/mm.h>
-#include <linux/pfn.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <peenux/align.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/bug.h>
+#include <peenux/cacheflush.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/io.h>
+#include <peenux/iova.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/mm.h>
+#include <peenux/pfn.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/vmalloc.h>
 
 #include "ipu6.h"
 #include "ipu6-dma.h"

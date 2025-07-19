@@ -31,13 +31,13 @@
  * --
  */
 
-#include <linux/unaligned.h>
-#include <linux/device.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
+#include <peenux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/usb/input.h>
 #include <media/rc-core.h>
 
 /* Driver Information */

@@ -3,8 +3,8 @@
 #ifndef ADF_GEN6_PM_H
 #define ADF_GEN6_PM_H
 
-#include <linux/bits.h>
-#include <linux/time.h>
+#include <peenux/bits.h>
+#include <peenux/time.h>
 
 struct adf_accel_dev;
 

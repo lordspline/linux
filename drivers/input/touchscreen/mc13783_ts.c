@@ -8,14 +8,14 @@
  * Initial development of this code was funded by
  * Phytec Messtechnik GmbH, http://www.phytec.de/
  */
-#include <linux/platform_device.h>
-#include <linux/mfd/mc13783.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/mc13783.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
 
 #define MC13783_TS_NAME	"mc13783-ts"
 

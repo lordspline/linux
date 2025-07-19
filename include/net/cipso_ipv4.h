@@ -19,16 +19,16 @@
 #ifndef _CIPSO_IPV4_H
 #define _CIPSO_IPV4_H
 
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/list.h>
-#include <linux/net.h>
-#include <linux/skbuff.h>
+#include <peenux/types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/list.h>
+#include <peenux/net.h>
+#include <peenux/skbuff.h>
 #include <net/netlabel.h>
 #include <net/request_sock.h>
-#include <linux/atomic.h>
-#include <linux/refcount.h>
-#include <linux/unaligned.h>
+#include <peenux/atomic.h>
+#include <peenux/refcount.h>
+#include <peenux/unaligned.h>
 
 /* known doi values */
 #define CIPSO_V4_DOI_UNKNOWN          0x00000000

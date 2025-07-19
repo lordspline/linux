@@ -5,11 +5,11 @@
  *  Copyright (c) 2010 Xing Wei <weixing@hanwang.com.cn>
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/usb/input.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/usb/input.h>
 
 MODULE_AUTHOR("Xing Wei <weixing@hanwang.com.cn>");
 MODULE_DESCRIPTION("USB Hanwang tablet driver");

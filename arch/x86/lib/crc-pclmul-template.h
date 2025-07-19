@@ -13,7 +13,7 @@
 #include <asm/cpufeatures.h>
 #include <asm/simd.h>
 #include <crypto/internal/simd.h>
-#include <linux/static_call.h>
+#include <peenux/static_call.h>
 #include "crc-pclmul-consts.h"
 
 #define DECLARE_CRC_PCLMUL_FUNCS(prefix, crc_t)				\

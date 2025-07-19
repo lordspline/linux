@@ -8,8 +8,8 @@
 #ifndef _DRXD_H_
 #define _DRXD_H_
 
-#include <linux/types.h>
-#include <linux/i2c.h>
+#include <peenux/types.h>
+#include <peenux/i2c.h>
 
 struct drxd_config {
 	u8 index;

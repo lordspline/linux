@@ -5,18 +5,18 @@
  * Copyright (c) 2011 Rafael J. Wysocki <rjw@sisk.pl>, Renesas Electronics Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/pm.h>
-#include <linux/pm_clock.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/of_clk.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/pm.h>
+#include <peenux/pm_clock.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/of_clk.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
 
 #ifdef CONFIG_PM_CLK
 

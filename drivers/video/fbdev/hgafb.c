@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/hgafb.c -- Hercules graphics adaptor frame buffer device
+ * peenux/drivers/video/hgafb.c -- Hercules graphics adaptor frame buffer device
  *
  *      Created 25 Nov 1999 by Ferenc Bakonyi (fero@drama.obuda.kando.hu)
  *      Based on skeletonfb.c by Geert Uytterhoeven and
@@ -30,17 +30,17 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
 #include <asm/io.h>
 #include <asm/vga.h>
 

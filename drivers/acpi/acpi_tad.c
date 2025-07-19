@@ -20,12 +20,12 @@
  * be taken care of by the ACPI PM domain attached to its platform device.
  */
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/suspend.h>
+#include <peenux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/suspend.h>
 
 MODULE_DESCRIPTION("ACPI Time and Alarm (TAD) Device Driver");
 MODULE_LICENSE("GPL v2");

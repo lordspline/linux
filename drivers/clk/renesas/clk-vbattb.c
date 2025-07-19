@@ -5,15 +5,15 @@
  * Copyright (C) 2024 Renesas Electronics Corp.
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
 
 #include <dt-bindings/clock/renesas,r9a08g045-vbattb.h>
 

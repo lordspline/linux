@@ -52,13 +52,13 @@
 #define OSC_R2V_BM	(1 << 1)
 #define OSC_RBG_BM	(1 << 0)
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/spi/spi.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/spi/spi.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
 
 #define DEVICE_NAME	"ads7871"
 

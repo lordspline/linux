@@ -3,18 +3,18 @@
  * Helpers for initial module or kernel cmdline parsing
  * Copyright (C) 2001 Rusty Russell.
  */
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/overflow.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/overflow.h>
+#include <peenux/security.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #ifdef CONFIG_SYSFS
 /* Protects all built-in parameters, modules use their own param_lock */

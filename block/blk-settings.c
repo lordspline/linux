@@ -2,18 +2,18 @@
 /*
  * Functions related to setting various queue properties from drivers
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/bio.h>
-#include <linux/blk-integrity.h>
-#include <linux/pagemap.h>
-#include <linux/backing-dev-defs.h>
-#include <linux/gcd.h>
-#include <linux/lcm.h>
-#include <linux/jiffies.h>
-#include <linux/gfp.h>
-#include <linux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/bio.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/pagemap.h>
+#include <peenux/backing-dev-defs.h>
+#include <peenux/gcd.h>
+#include <peenux/lcm.h>
+#include <peenux/jiffies.h>
+#include <peenux/gfp.h>
+#include <peenux/dma-mapping.h>
 
 #include "blk.h"
 #include "blk-rq-qos.h"

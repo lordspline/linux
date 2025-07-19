@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/proc/kmsg.c
+ *  peenux/fs/proc/kmsg.c
  *
  *  Copyright (C) 1992  by Linus Torvalds
  *
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/kernel.h>
-#include <linux/poll.h>
-#include <linux/proc_fs.h>
-#include <linux/fs.h>
-#include <linux/syslog.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/kernel.h>
+#include <peenux/poll.h>
+#include <peenux/proc_fs.h>
+#include <peenux/fs.h>
+#include <peenux/syslog.h>
 
 #include <asm/io.h>
 

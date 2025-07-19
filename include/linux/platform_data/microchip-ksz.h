@@ -19,8 +19,8 @@
 #ifndef __MICROCHIP_KSZ_H
 #define __MICROCHIP_KSZ_H
 
-#include <linux/types.h>
-#include <linux/platform_data/dsa.h>
+#include <peenux/types.h>
+#include <peenux/platform_data/dsa.h>
 
 enum ksz_chip_id {
 	KSZ8563_CHIP_ID = 0x8563,

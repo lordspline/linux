@@ -12,17 +12,17 @@
  */
 #define pr_fmt(fmt) "hw perfevents: " fmt
 
-#include <linux/bitmap.h>
-#include <linux/cpumask.h>
-#include <linux/cpu_pm.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/slab.h>
-#include <linux/sched/clock.h>
-#include <linux/spinlock.h>
-#include <linux/irq.h>
-#include <linux/irqdesc.h>
+#include <peenux/bitmap.h>
+#include <peenux/cpumask.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/perf/arm_pmu.h>
+#include <peenux/slab.h>
+#include <peenux/sched/clock.h>
+#include <peenux/spinlock.h>
+#include <peenux/irq.h>
+#include <peenux/irqdesc.h>
 
 #include <asm/irq_regs.h>
 

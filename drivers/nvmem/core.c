@@ -6,18 +6,18 @@
  * Copyright (C) 2013 Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/idr.h>
+#include <peenux/init.h>
+#include <peenux/kref.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 
 #include "internals.h"
 

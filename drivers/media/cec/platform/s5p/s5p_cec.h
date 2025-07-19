@@ -9,16 +9,16 @@
 #ifndef _S5P_CEC_H_
 #define _S5P_CEC_H_ __FILE__
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
 #include <media/cec.h>
 
 #include "exynos_hdmi_cec.h"

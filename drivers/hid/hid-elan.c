@@ -7,11 +7,11 @@
  * Copyright (c) 2016 Alexandrov Stanislav <neko@nya.ai>
  */
 
-#include <linux/hid.h>
-#include <linux/input/mt.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <peenux/hid.h>
+#include <peenux/input/mt.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
 
 #include "hid-ids.h"
 

@@ -37,18 +37,18 @@
  * and only accepts the connection if the higher numbered node is heartbeating.
  */
 
-#include <linux/kernel.h>
-#include <linux/sched/mm.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/kref.h>
-#include <linux/net.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/mm.h>
+#include <peenux/jiffies.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
+#include <peenux/kref.h>
+#include <peenux/net.h>
+#include <peenux/export.h>
 #include <net/tcp.h>
 #include <trace/events/sock.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "heartbeat.h"
 #include "tcp.h"

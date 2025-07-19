@@ -6,12 +6,12 @@
  *	CK Hu <ck.hu@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/mediatek/mtk-cmdq.h>
 #include <drm/drm_print.h>
 
 #include "mtk_crtc.h"

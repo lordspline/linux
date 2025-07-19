@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/netdevice.h>
 #include <net/gro_cells.h>
 #include <net/hotdata.h>
 

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright (c) 2016-2017 Hisilicon Limited.
 
-#include <linux/etherdevice.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/phy.h>
-#include <linux/sfp.h>
+#include <peenux/etherdevice.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
+#include <peenux/phy.h>
+#include <peenux/sfp.h>
 
 #include "hns3_enet.h"
 #include "hns3_ethtool.h"

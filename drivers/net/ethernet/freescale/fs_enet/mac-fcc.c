@@ -9,34 +9,34 @@
  * Vitaly Bordug <vbordug@ru.mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/ptrace.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/bitops.h>
-#include <linux/fs.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/gfp.h>
-#include <linux/pgtable.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/ptrace.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/ethtool.h>
+#include <peenux/bitops.h>
+#include <peenux/fs.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/gfp.h>
+#include <peenux/pgtable.h>
 
 #include <asm/immap_cpm2.h>
 #include <asm/cpm2.h>
 
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "fs_enet.h"
 

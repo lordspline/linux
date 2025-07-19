@@ -11,15 +11,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/mutex.h>
-#include <linux/string_helpers.h>
-#include <linux/types.h>
-#include <linux/dmi.h>
-#include <linux/wmi.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/mutex.h>
+#include <peenux/string_helpers.h>
+#include <peenux/types.h>
+#include <peenux/dmi.h>
+#include <peenux/wmi.h>
 #include "firmware_attributes_class.h"
 #include "think-lmi.h"
 

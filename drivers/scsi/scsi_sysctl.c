@@ -3,10 +3,10 @@
  * Copyright (C) 2003 Christoph Hellwig.
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/sysctl.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/sysctl.h>
 
 #include "scsi_logging.h"
 #include "scsi_priv.h"

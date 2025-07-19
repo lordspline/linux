@@ -9,14 +9,14 @@
  * Some ideas are from marvell/cesa.c and s5p-sss.c driver.
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <crypto/internal/hash.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 #include "rk3288_crypto.h"
 
 /*

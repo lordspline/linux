@@ -7,14 +7,14 @@
  * Core driver code with main interface to the I3C subsystem.
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/i3c/master.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/i3c/master.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "hci.h"
 #include "ext_caps.h"

@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2018, The Peenux Foundation. All rights reserved.
  *
  * Inspired by dwc3-of-simple.c
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/of_clk.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/extcon.h>
-#include <linux/interconnect.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/usb/of.h>
-#include <linux/reset.h>
-#include <linux/iopoll.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/irq.h>
+#include <peenux/of_clk.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/extcon.h>
+#include <peenux/interconnect.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy/phy.h>
+#include <peenux/usb/of.h>
+#include <peenux/reset.h>
+#include <peenux/iopoll.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb.h>
 #include "core.h"
 #include "glue.h"
 

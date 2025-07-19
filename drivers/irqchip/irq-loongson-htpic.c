@@ -4,14 +4,14 @@
  *  Loongson HTPIC IRQ support
  */
 
-#include <linux/init.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/syscore_ops.h>
+#include <peenux/init.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/syscore_ops.h>
 
 #include <asm/i8259.h>
 

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /* PF_KEY user interface, this is defined by rfc2367 so
  * do not make arbitrary modifications or else this header
  * file will not be compliant.
@@ -7,7 +7,7 @@
 #ifndef _LINUX_PFKEY2_H
 #define _LINUX_PFKEY2_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define PF_KEY_V2		2
 #define PFKEYV2_REVISION	199806L

@@ -3,9 +3,9 @@
  * Copyright (C) BitBox Ltd 2010
  */
 
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/platform_data/asoc-imx-ssi.h>
+#include <peenux/module.h>
+#include <peenux/irq.h>
+#include <peenux/platform_data/asoc-imx-ssi.h>
 
 #include "irq-common.h"
 

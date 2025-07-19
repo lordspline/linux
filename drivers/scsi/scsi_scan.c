@@ -26,16 +26,16 @@
  * 		or a LUN is seen that cannot have a device attached to it.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/spinlock.h>
-#include <linux/async.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/spinlock.h>
+#include <peenux/async.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

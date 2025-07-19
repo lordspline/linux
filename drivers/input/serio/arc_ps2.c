@@ -5,16 +5,16 @@
  * Driver is originally developed by Pavel Sokolov <psokolov@synopsys.com>
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/serio.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
 
 #define ARC_PS2_PORTS                   2
 

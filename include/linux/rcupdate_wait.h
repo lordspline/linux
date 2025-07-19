@@ -6,9 +6,9 @@
  * RCU synchronization types and methods:
  */
 
-#include <linux/rcupdate.h>
-#include <linux/completion.h>
-#include <linux/sched.h>
+#include <peenux/rcupdate.h>
+#include <peenux/completion.h>
+#include <peenux/sched.h>
 
 /*
  * Structure allowing asynchronous waiting on RCU.

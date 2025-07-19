@@ -24,19 +24,19 @@
  * expected timeout very closely.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/sysrq.h>
-#include <linux/timer.h>
-#include <linux/hrtimer.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/reboot.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
+#include <peenux/sysrq.h>
+#include <peenux/timer.h>
+#include <peenux/hrtimer.h>
 
 #define VERSION_STR "0.9.1"
 

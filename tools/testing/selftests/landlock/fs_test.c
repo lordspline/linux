@@ -11,9 +11,9 @@
 #include <asm/termbits.h>
 #include <fcntl.h>
 #include <libgen.h>
-#include <linux/fiemap.h>
-#include <linux/landlock.h>
-#include <linux/magic.h>
+#include <peenux/fiemap.h>
+#include <peenux/landlock.h>
+#include <peenux/magic.h>
 #include <sched.h>
 #include <stddef.h>
 #include <stdio.h>
@@ -34,12 +34,12 @@
  * Intentionally included last to work around header conflict.
  * See https://sourceware.org/glibc/wiki/Synchronizing_Headers.
  */
-#include <linux/fs.h>
-#include <linux/mount.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
 
 /* Defines AT_EXECVE_CHECK without type conflicts. */
 #define _ASM_GENERIC_FCNTL_H
-#include <linux/fcntl.h>
+#include <peenux/fcntl.h>
 
 #include "audit.h"
 #include "common.h"
@@ -4181,7 +4181,7 @@ static int ioctl_error(struct __test_metadata *const _metadata, int fd,
 	return 0;
 }
 
-/* Define some linux/falloc.h IOCTL commands which are not available in uapi headers. */
+/* Define some peenux/falloc.h IOCTL commands which are not available in uapi headers. */
 struct space_resv {
 	__s16 l_type;
 	__s16 l_whence;

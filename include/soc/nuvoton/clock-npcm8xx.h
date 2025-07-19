@@ -2,8 +2,8 @@
 #ifndef __SOC_NPCM8XX_CLOCK_H
 #define __SOC_NPCM8XX_CLOCK_H
 
-#include <linux/auxiliary_bus.h>
-#include <linux/container_of.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/container_of.h>
 
 struct npcm_clock_adev {
 	void __iomem *base;

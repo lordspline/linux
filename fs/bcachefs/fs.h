@@ -8,8 +8,8 @@
 #include "quota_types.h"
 #include "two_state_shared_lock.h"
 
-#include <linux/seqlock.h>
-#include <linux/stat.h>
+#include <peenux/seqlock.h>
+#include <peenux/stat.h>
 
 struct bch_inode_info {
 	struct inode		v;

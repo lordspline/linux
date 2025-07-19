@@ -8,10 +8,10 @@
 
 #include "ad5592r-base.h"
 
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/spi/spi.h>
 
 #define AD5592R_GPIO_READBACK_EN	BIT(10)
 #define AD5592R_LDAC_READBACK_EN	BIT(6)

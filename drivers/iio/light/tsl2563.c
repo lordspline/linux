@@ -11,24 +11,24 @@
  * Amit Kucheria <amit.kucheria@verdurent.com>
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/math.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/math.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 /* Use this many bits for fraction part. */
 #define ADC_FRAC_BITS		14

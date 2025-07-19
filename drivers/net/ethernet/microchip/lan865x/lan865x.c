@@ -5,10 +5,10 @@
  * Author: Parthiban Veerasooran <parthiban.veerasooran@microchip.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/phy.h>
-#include <linux/oa_tc6.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/phy.h>
+#include <peenux/oa_tc6.h>
 
 #define DRV_NAME			"lan8650"
 

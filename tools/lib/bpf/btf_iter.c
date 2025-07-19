@@ -3,8 +3,8 @@
 /* Copyright (c) 2024, Oracle and/or its affiliates. */
 
 #ifdef __KERNEL__
-#include <linux/bpf.h>
-#include <linux/btf.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
 
 #define btf_var_secinfos(t)	(struct btf_var_secinfo *)btf_type_var_secinfo(t)
 

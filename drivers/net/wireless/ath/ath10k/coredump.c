@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: ISC
 /*
  * Copyright (c) 2011-2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #include "coredump.h"
 
-#include <linux/devcoredump.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/utsname.h>
+#include <peenux/devcoredump.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/utsname.h>
 
 #include "debug.h"
 #include "hw.h"

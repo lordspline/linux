@@ -2,11 +2,11 @@
 //
 // Copyright(c) 2021-2022 Intel Corporation
 //
-// Authors: Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+// Authors: Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
 //          Cezary Rojewski <cezary.rojewski@intel.com>
 //
 
-#include <linux/cleanup.h>
+#include <peenux/cleanup.h>
 #include <sound/soc.h>
 #include "avs.h"
 #include "control.h"

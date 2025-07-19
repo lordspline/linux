@@ -2,13 +2,13 @@
 /*
  *  Registration of Cobalt RTC platform device.
  *
- *  Copyright (C) 2007  Yoichi Yuasa <yuasa@linux-mips.org>
+ *  Copyright (C) 2007  Yoichi Yuasa <yuasa@peenux-mips.org>
  */
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/mc146818rtc.h>
-#include <linux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/platform_device.h>
 
 static struct resource cobalt_rtc_resource[] __initdata = {
 	{

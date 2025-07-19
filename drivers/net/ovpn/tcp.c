@@ -6,7 +6,7 @@
  *  Author:	Antonio Quartulli <antonio@openvpn.net>
  */
 
-#include <linux/skbuff.h>
+#include <peenux/skbuff.h>
 #include <net/hotdata.h>
 #include <net/inet_common.h>
 #include <net/ipv6.h>

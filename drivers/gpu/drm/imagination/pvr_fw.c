@@ -17,11 +17,11 @@
 #include <drm/drm_drv.h>
 #include <drm/drm_managed.h>
 #include <drm/drm_mm.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/sizes.h>
+#include <peenux/clk.h>
+#include <peenux/firmware.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/sizes.h>
 
 #define FW_MAX_SUPPORTED_MAJOR_VERSION 1
 

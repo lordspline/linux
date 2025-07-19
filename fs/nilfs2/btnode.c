@@ -9,11 +9,11 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/buffer_head.h>
-#include <linux/mm.h>
-#include <linux/backing-dev.h>
-#include <linux/gfp.h>
+#include <peenux/types.h>
+#include <peenux/buffer_head.h>
+#include <peenux/mm.h>
+#include <peenux/backing-dev.h>
+#include <peenux/gfp.h>
 #include "nilfs.h"
 #include "mdt.h"
 #include "dat.h"

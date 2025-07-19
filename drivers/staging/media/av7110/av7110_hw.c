@@ -15,11 +15,11 @@
 /* for debugging ARM communication: */
 //#define COM_DEBUG
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
 
 #include "av7110.h"
 #include "av7110_hw.h"

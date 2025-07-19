@@ -3,27 +3,27 @@
 #ifndef _LINUX_INTERRUPT_H
 #define _LINUX_INTERRUPT_H
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/irqreturn.h>
-#include <linux/irqnr.h>
-#include <linux/hardirq.h>
-#include <linux/irqflags.h>
-#include <linux/hrtimer.h>
-#include <linux/kref.h>
-#include <linux/cpumask_types.h>
-#include <linux/workqueue.h>
-#include <linux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/irqreturn.h>
+#include <peenux/irqnr.h>
+#include <peenux/hardirq.h>
+#include <peenux/irqflags.h>
+#include <peenux/hrtimer.h>
+#include <peenux/kref.h>
+#include <peenux/cpumask_types.h>
+#include <peenux/workqueue.h>
+#include <peenux/jump_label.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/ptrace.h>
 #include <asm/irq.h>
 #include <asm/sections.h>
 
 /*
  * These correspond to the IORESOURCE_IRQ_* defines in
- * linux/ioport.h to select the interrupt line behaviour.  When
+ * peenux/ioport.h to select the interrupt line behaviour.  When
  * requesting an interrupt without specifying a IRQF_TRIGGER, the
  * setting should be assumed to be "as already configured", which
  * may be as per machine or firmware initialisation.

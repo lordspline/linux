@@ -3,9 +3,9 @@
  * Copyright (C) 2019 TDK-InvenSense, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/string.h>
 
 #include "inv_mpu_aux.h"
 #include "inv_mpu_iio.h"

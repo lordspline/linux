@@ -14,14 +14,14 @@
  *
  *  Jan, 2008
  */
-#include <linux/ipv6.h>
+#include <peenux/ipv6.h>
 #include <net/ipv6.h>
-#include <linux/in.h>
-#include <linux/module.h>
+#include <peenux/in.h>
+#include <peenux/module.h>
 #include <net/dsfield.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_bridge/ebt_ip6.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter_bridge/ebtables.h>
+#include <peenux/netfilter_bridge/ebt_ip6.h>
 
 union pkthdr {
 	struct {

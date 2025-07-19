@@ -8,9 +8,9 @@
  * Author: Boris BREZILLON <boris.brezillon@free-electrons.com>
  */
 
-#include <linux/media-bus-format.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
 
 #include <drm/drm_bridge.h>
 #include <drm/drm_encoder.h>

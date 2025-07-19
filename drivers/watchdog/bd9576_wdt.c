@@ -5,14 +5,14 @@
  * ROHM BD9576MUF and BD9573MUF Watchdog driver
  */
 
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mfd/rohm-bd957x.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/watchdog.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mfd/rohm-bd957x.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/watchdog.h>
 
 static bool nowayout;
 module_param(nowayout, bool, 0);

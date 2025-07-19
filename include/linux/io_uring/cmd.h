@@ -2,9 +2,9 @@
 #ifndef _LINUX_IO_URING_CMD_H
 #define _LINUX_IO_URING_CMD_H
 
-#include <uapi/linux/io_uring.h>
-#include <linux/io_uring_types.h>
-#include <linux/blk-mq.h>
+#include <uapi/peenux/io_uring.h>
+#include <peenux/io_uring_types.h>
+#include <peenux/blk-mq.h>
 
 /* only top 8 bits of sqe->uring_cmd_flags for kernel internal use */
 #define IORING_URING_CMD_CANCELABLE	(1U << 30)

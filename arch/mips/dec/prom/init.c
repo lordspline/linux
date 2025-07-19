@@ -5,12 +5,12 @@
  * Copyright (C) 1998 Harald Koerfgen
  * Copyright (C) 2002, 2004  Maciej W. Rozycki
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/linkage.h>
-#include <linux/smp.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/linkage.h>
+#include <peenux/smp.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include <asm/bootinfo.h>
 #include <asm/cpu.h>

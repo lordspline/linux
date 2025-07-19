@@ -11,7 +11,7 @@
 #ifndef _ISL6405_H
 #define _ISL6405_H
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 
 /* system register bits */
 

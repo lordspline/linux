@@ -2,7 +2,7 @@
 #ifndef _LINUX_BUILDID_H
 #define _LINUX_BUILDID_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define BUILD_ID_SIZE_MAX 20
 

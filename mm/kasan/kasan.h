@@ -2,15 +2,15 @@
 #ifndef __MM_KASAN_KASAN_H
 #define __MM_KASAN_KASAN_H
 
-#include <linux/atomic.h>
-#include <linux/kasan.h>
-#include <linux/kasan-tags.h>
-#include <linux/kfence.h>
-#include <linux/stackdepot.h>
+#include <peenux/atomic.h>
+#include <peenux/kasan.h>
+#include <peenux/kasan-tags.h>
+#include <peenux/kfence.h>
+#include <peenux/stackdepot.h>
 
 #if defined(CONFIG_KASAN_SW_TAGS) || defined(CONFIG_KASAN_HW_TAGS)
 
-#include <linux/static_key.h>
+#include <peenux/static_key.h>
 
 DECLARE_STATIC_KEY_TRUE(kasan_flag_stacktrace);
 

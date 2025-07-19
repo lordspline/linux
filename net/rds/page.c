@@ -30,10 +30,10 @@
  * SOFTWARE.
  *
  */
-#include <linux/highmem.h>
-#include <linux/gfp.h>
-#include <linux/cpu.h>
-#include <linux/export.h>
+#include <peenux/highmem.h>
+#include <peenux/gfp.h>
+#include <peenux/cpu.h>
+#include <peenux/export.h>
 
 #include "rds.h"
 

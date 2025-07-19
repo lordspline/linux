@@ -6,23 +6,23 @@
  */
 #define pr_fmt(fmt) "PM: " fmt
 
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_clock.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/suspend.h>
-#include <linux/export.h>
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/idr.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_qos.h>
+#include <peenux/pm_clock.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/sched.h>
+#include <peenux/suspend.h>
+#include <peenux/export.h>
+#include <peenux/cpu.h>
+#include <peenux/debugfs.h>
 
 /* Provides a unique ID for each genpd device */
 static DEFINE_IDA(genpd_ida);

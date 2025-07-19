@@ -3,12 +3,12 @@
  * Copyright 2019 Google LLC
  */
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/platform_data/wilco-ec.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/platform_data/wilco-ec.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 /* Operation code; what the EC should do with the property */
 enum ec_property_op {

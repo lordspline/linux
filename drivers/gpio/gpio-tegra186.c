@@ -6,15 +6,15 @@
  *	   Dipen Patel <dpatel@nvidia.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/hte.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/hte.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/seq_file.h>
 
 #include <dt-bindings/gpio/tegra186-gpio.h>
 #include <dt-bindings/gpio/tegra194-gpio.h>
@@ -779,9 +779,9 @@ static void tegra186_gpio_init_route_mapping(struct tegra_gpio *gpio)
 			/*
 			 * By default we only want to route GPIO pins to IRQ 0. This works
 			 * only under the assumption that we're running as the host kernel
-			 * and hence all GPIO pins are owned by Linux.
+			 * and hence all GPIO pins are owned by Peenux.
 			 *
-			 * For cases where Linux is the guest OS, the hypervisor will have
+			 * For cases where Peenux is the guest OS, the hypervisor will have
 			 * to configure the interrupt routing and pass only the valid
 			 * interrupts via device tree.
 			 */

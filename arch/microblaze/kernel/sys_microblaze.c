@@ -12,25 +12,25 @@
  * for more details.
  */
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/syscalls.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/mman.h>
-#include <linux/sys.h>
-#include <linux/ipc.h>
-#include <linux/file.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/semaphore.h>
-#include <linux/uaccess.h>
-#include <linux/unistd.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/syscalls.h>
+#include <peenux/sem.h>
+#include <peenux/msg.h>
+#include <peenux/shm.h>
+#include <peenux/stat.h>
+#include <peenux/mman.h>
+#include <peenux/sys.h>
+#include <peenux/ipc.h>
+#include <peenux/file.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/semaphore.h>
+#include <peenux/uaccess.h>
+#include <peenux/unistd.h>
+#include <peenux/slab.h>
 #include <asm/syscalls.h>
 
 SYSCALL_DEFINE6(mmap, unsigned long, addr, unsigned long, len,

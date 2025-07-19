@@ -9,11 +9,11 @@
 
 #include <crypto/internal/geniv.h>
 #include <crypto/internal/rng.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/rtnetlink.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/slab.h>
 
 static int aead_geniv_setkey(struct crypto_aead *tfm,
 			     const u8 *key, unsigned int keylen)

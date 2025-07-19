@@ -6,8 +6,8 @@
  */
 
 #include "trace/beauty/beauty.h"
-#include <linux/kernel.h>
-#include <linux/log2.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
 #include <sys/types.h>
 #include <sched.h>
 

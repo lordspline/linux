@@ -10,7 +10,7 @@
  * processors using the ACPI Collaborative Performance and Power Control (CPPC)
  * feature which works with the AMD SMU firmware providing a finer grained
  * frequency control range. It is to replace the legacy ACPI P-States control,
- * allows a flexible, low-latency interface for the Linux kernel to directly
+ * allows a flexible, low-latency interface for the Peenux kernel to directly
  * communicate the performance hints to hardware.
  *
  * AMD P-State is supported on recent AMD Zen base CPU series include some of
@@ -22,22 +22,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/cpufreq.h>
-#include <linux/compiler.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/static_call.h>
-#include <linux/topology.h>
+#include <peenux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/sched.h>
+#include <peenux/cpufreq.h>
+#include <peenux/compiler.h>
+#include <peenux/dmi.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
+#include <peenux/static_call.h>
+#include <peenux/topology.h>
 
 #include <acpi/processor.h>
 #include <acpi/cppc_acpi.h>

@@ -2,15 +2,15 @@
 #ifndef __NET_FIB_RULES_H
 #define __NET_FIB_RULES_H
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/netdevice.h>
-#include <linux/fib_rules.h>
-#include <linux/refcount.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/netdevice.h>
+#include <peenux/fib_rules.h>
+#include <peenux/refcount.h>
 #include <net/flow.h>
 #include <net/rtnetlink.h>
 #include <net/fib_notifier.h>
-#include <linux/indirect_call_wrapper.h>
+#include <peenux/indirect_call_wrapper.h>
 
 struct fib_kuid_range {
 	kuid_t start;

@@ -9,28 +9,28 @@
 
 #define pr_fmt(fmt) "PM: " fmt
 
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/swait.h>
-#include <linux/ftrace.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuidle.h>
+#include <peenux/gfp.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/suspend.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/swait.h>
+#include <peenux/ftrace.h>
 #include <trace/events/power.h>
-#include <linux/compiler.h>
-#include <linux/moduleparam.h>
-#include <linux/fs.h>
+#include <peenux/compiler.h>
+#include <peenux/moduleparam.h>
+#include <peenux/fs.h>
 
 #include "power.h"
 

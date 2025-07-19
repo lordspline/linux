@@ -3,12 +3,12 @@
 // Copyright(c) 2021-2022 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
 //
 
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

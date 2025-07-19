@@ -6,11 +6,11 @@
  * Copyright (C) 2008 Analog Devices, Inc
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/atomic.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/atomic.h>
 
 #include "u_uac1_legacy.h"
 

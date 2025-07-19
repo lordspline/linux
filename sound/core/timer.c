@@ -4,24 +4,24 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/sched/signal.h>
-#include <linux/anon_inodes.h>
-#include <linux/idr.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/sched/signal.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/idr.h>
 #include <sound/core.h>
 #include <sound/timer.h>
 #include <sound/control.h>
 #include <sound/info.h>
 #include <sound/minors.h>
 #include <sound/initval.h>
-#include <linux/kmod.h>
+#include <peenux/kmod.h>
 
 /* internal flags */
 #define SNDRV_TIMER_IFLG_PAUSED		0x00010000

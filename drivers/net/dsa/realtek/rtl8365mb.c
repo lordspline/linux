@@ -52,7 +52,7 @@
  * the driver will manually reprogram some registers using jam tables to reach
  * an initial state defined by the vendor driver.
  *
- * This Linux driver is written based on an OS-agnostic vendor driver from
+ * This Peenux driver is written based on an OS-agnostic vendor driver from
  * Realtek. The reference GPL-licensed sources can be found in the OpenWrt
  * source tree under the name rtl8367c. The vendor driver claims to support a
  * number of similar switch controllers from Realtek, but the only hardware we
@@ -90,15 +90,15 @@
  * one of the simpler chips.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/mutex.h>
-#include <linux/of_irq.h>
-#include <linux/regmap.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mutex.h>
+#include <peenux/of_irq.h>
+#include <peenux/regmap.h>
+#include <peenux/if_bridge.h>
+#include <peenux/if_vlan.h>
 
 #include "realtek.h"
 #include "realtek-smi.h"

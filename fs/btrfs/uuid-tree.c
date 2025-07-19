@@ -3,9 +3,9 @@
  * Copyright (C) STRATO AG 2013.  All rights reserved.
  */
 
-#include <linux/kthread.h>
-#include <linux/uuid.h>
-#include <linux/unaligned.h>
+#include <peenux/kthread.h>
+#include <peenux/uuid.h>
+#include <peenux/unaligned.h>
 #include "messages.h"
 #include "ctree.h"
 #include "transaction.h"

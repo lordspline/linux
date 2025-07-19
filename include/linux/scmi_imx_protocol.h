@@ -8,11 +8,11 @@
 #ifndef _LINUX_SCMI_NXP_PROTOCOL_H
 #define _LINUX_SCMI_NXP_PROTOCOL_H
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/scmi_protocol.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/notifier.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/types.h>
 
 #define SCMI_PROTOCOL_IMX_LMM	0x80
 #define	SCMI_PROTOCOL_IMX_BBM	0x81

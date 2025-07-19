@@ -4,8 +4,8 @@
 #ifndef ADF_RL_H_
 #define ADF_RL_H_
 
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 struct adf_accel_dev;
 

@@ -6,9 +6,9 @@
 #ifndef __IOSYS_MAP_H__
 #define __IOSYS_MAP_H__
 
-#include <linux/compiler_types.h>
-#include <linux/io.h>
-#include <linux/string.h>
+#include <peenux/compiler_types.h>
+#include <peenux/io.h>
+#include <peenux/string.h>
 
 /**
  * DOC: overview

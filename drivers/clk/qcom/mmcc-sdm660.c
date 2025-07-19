@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2020, Martin Botka <martin.botka@somainline.org>
  * Copyright (c) 2020, Konrad Dybcio <konrad.dybcio@somainline.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/qcom,mmcc-sdm660.h>
 
@@ -2042,7 +2042,7 @@ static const struct freq_tbl ftbl_axi_clk_src[] = {
 		{ }
 };
 
-/* RO to linux */
+/* RO to peenux */
 static struct clk_rcg2 axi_clk_src = {
 	.cmd_rcgr = 0xd000,
 	.hid_width = 5,

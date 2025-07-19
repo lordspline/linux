@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -60,28 +60,28 @@
 
 #define pr_fmt(fmt) "IPv4: " fmt
 
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/socket.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
-#include <linux/skbuff.h>
-#include <linux/inetdevice.h>
-#include <linux/igmp.h>
-#include <linux/pkt_sched.h>
-#include <linux/mroute.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/random.h>
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
-#include <linux/jhash.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/socket.h>
+#include <peenux/errno.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/proc_fs.h>
+#include <peenux/init.h>
+#include <peenux/skbuff.h>
+#include <peenux/inetdevice.h>
+#include <peenux/igmp.h>
+#include <peenux/pkt_sched.h>
+#include <peenux/mroute.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/random.h>
+#include <peenux/rcupdate.h>
+#include <peenux/slab.h>
+#include <peenux/jhash.h>
 #include <net/dst.h>
 #include <net/dst_metadata.h>
 #include <net/inet_dscp.h>
@@ -99,7 +99,7 @@
 #include <net/netevent.h>
 #include <net/rtnetlink.h>
 #ifdef CONFIG_SYSCTL
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 #endif
 #include <net/secure_seq.h>
 #include <net/ip_tunnels.h>

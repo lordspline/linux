@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/memblock.h>
-#include <linux/gfp.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/dma-mapping.h>
-#include <linux/vmalloc.h>
-#include <linux/swiotlb.h>
+#include <peenux/memblock.h>
+#include <peenux/gfp.h>
+#include <peenux/export.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/vmalloc.h>
+#include <peenux/swiotlb.h>
 
 #include <xen/xen.h>
 #include <xen/interface/memory.h>

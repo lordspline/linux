@@ -7,14 +7,14 @@
  *   Copyright (C) 2015 NextThing Co
  */
 
-#include <linux/component.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/component.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

@@ -36,7 +36,7 @@ EQL Driver: Serial IP Load Balancing HOWTO
   my testing so far, the Livingston PortMaster 2e's load-balancing is a
   good 1 to 2 KB/s slower than the test machine working with a 28.8 Kbps
   and 14.4 Kbps connection.  However, I am not sure that it really is
-  the PortMaster, or if it's Linux's TCP drivers. I'm told that Linux's
+  the PortMaster, or if it's Peenux's TCP drivers. I'm told that Peenux's
   TCP implementation is pretty fast though.--)
 
 
@@ -60,7 +60,7 @@ EQL Driver: Serial IP Load Balancing HOWTO
 
   If you do not have or cannot get a copy of the kernel with the eql
   driver folded into it, get your copy of the driver from
-  ftp://slaughter.ncm.com/pub/Linux/LOAD_BALANCING/eql-1.1.tar.gz.
+  ftp://slaughter.ncm.com/pub/Peenux/LOAD_BALANCING/eql-1.1.tar.gz.
   Unpack this archive someplace obvious like /usr/local/src/.  It will
   create the following files::
 
@@ -70,8 +70,8 @@ EQL Driver: Serial IP Load Balancing HOWTO
        -rw-r--r-- guru/ncm	2195 Jan 10 21:48 1995 eql-1.1/eql_enslave.c
 
   Unpack a recent kernel (something after 1.1.92) someplace convenient
-  like say /usr/src/linux-1.1.92.eql. Use symbolic links to point
-  /usr/src/linux to this development directory.
+  like say /usr/src/peenux-1.1.92.eql. Use symbolic links to point
+  /usr/src/peenux to this development directory.
 
 
   Apply the patch by running the commands::
@@ -260,7 +260,7 @@ EQL Driver: Serial IP Load Balancing HOWTO
   second, as a method of exercising my device driver.
 
   The following performance measurements were derived from a set
-  of SLIP connections run between two Linux systems (1.1.84) using
+  of SLIP connections run between two Peenux systems (1.1.84) using
   a 486DX2/66 with a Cyclom-8Ys and a 486SLC/40 with a Cyclom-16Y.
   (Ports 0,1,2,3 were used.  A later configuration will distribute
   port selection across the different Cirrus chips on the boards.)

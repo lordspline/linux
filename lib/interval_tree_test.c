@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/interval_tree.h>
-#include <linux/prandom.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/interval_tree.h>
+#include <peenux/prandom.h>
+#include <peenux/slab.h>
 #include <asm/timex.h>
-#include <linux/bitmap.h>
-#include <linux/maple_tree.h>
+#include <peenux/bitmap.h>
+#include <peenux/maple_tree.h>
 
 #define __param(type, name, init, msg)		\
 	static type name = init;		\

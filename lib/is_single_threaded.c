@@ -5,9 +5,9 @@
  * Written by David Howells (dhowells@redhat.com)
  * - Derived from security/selinux/hooks.c
  */
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
-#include <linux/sched/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/mm.h>
 
 /*
  * Returns true if the task does not share ->mm with another thread/process.

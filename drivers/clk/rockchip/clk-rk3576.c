@@ -4,13 +4,13 @@
  * Author: Elaine Zhang <zhangqing@rock-chips.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/syscore_ops.h>
-#include <linux/mfd/syscon.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/slab.h>
 #include <dt-bindings/clock/rockchip,rk3576-cru.h>
 #include "clk.h"
 

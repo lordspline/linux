@@ -8,13 +8,13 @@
  *
  */
 
-#include <linux/bottom_half.h>
-#include <linux/cache.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/percpu.h>
+#include <peenux/bottom_half.h>
+#include <peenux/cache.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/percpu.h>
 #include <net/dst.h>
 #include <net/ip.h>
 #include <net/xfrm.h>

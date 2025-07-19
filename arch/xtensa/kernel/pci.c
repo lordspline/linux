@@ -12,14 +12,14 @@
  * Chris Zankel <chris@zankel.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/memblock.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/errno.h>
+#include <peenux/memblock.h>
 
 #include <asm/pci-bridge.h>
 #include <asm/platform.h>

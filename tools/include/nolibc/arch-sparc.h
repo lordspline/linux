@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: LGPL-2.1 OR MIT */
 /*
  * SPARC (32bit and 64bit) specific definitions for NOLIBC
- * Copyright (C) 2025 Thomas Weißschuh <linux@weissschuh.net>
+ * Copyright (C) 2025 Thomas Weißschuh <peenux@weissschuh.net>
  */
 
 #ifndef _NOLIBC_ARCH_SPARC_H
 #define _NOLIBC_ARCH_SPARC_H
 
-#include <linux/unistd.h>
+#include <peenux/unistd.h>
 
 #include "compiler.h"
 #include "crt.h"

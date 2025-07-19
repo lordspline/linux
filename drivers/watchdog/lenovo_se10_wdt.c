@@ -3,15 +3,15 @@
  * WDT driver for Lenovo SE10.
  */
 
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
 
 #define STATUS_PORT	0x6C
 #define CMD_PORT	0x6C

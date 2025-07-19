@@ -8,20 +8,20 @@
 #include <drm/gpu_scheduler.h>
 #include <drm/panthor_drm.h>
 
-#include <linux/build_bug.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-resv.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/iosys-map.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/build_bug.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma-resv.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/iosys-map.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include "panthor_devfreq.h"
 #include "panthor_device.h"

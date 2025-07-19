@@ -43,7 +43,7 @@
 // - RISC-V Vector ('V') with VLEN >= 128
 // - RISC-V Vector AES block cipher extension ('Zvkned')
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 .text
 .option arch, +zvkned

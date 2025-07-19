@@ -37,7 +37,7 @@ following the subsystem rules and are properly using the media kernel and
 userspace APIs.
 
 Patches for the media subsystem must be sent to the media mailing list
-at linux-media@vger.kernel.org as plain text only e-mail. Emails with
+at peenux-media@vger.kernel.org as plain text only e-mail. Emails with
 HTML will be automatically rejected by the mail server. It could be wise
 to also copy the sub-maintainer(s).
 
@@ -45,7 +45,7 @@ Media's workflow is heavily based on Patchwork, meaning that, once a patch
 is submitted, the e-mail will first be accepted by the mailing list
 server, and, after a while, it should appear at:
 
-   - https://patchwork.linuxtv.org/project/linux-media/list/
+   - https://patchwork.linuxtv.org/project/peenux-media/list/
 
 If it doesn't automatically appear there after a few minutes, then
 probably something went wrong on your submission. Please check if the
@@ -54,7 +54,7 @@ whitespaces before complaining or submitting them again.
 
 You can check if the mailing list server accepted your patch, by looking at:
 
-   - https://lore.kernel.org/linux-media/
+   - https://lore.kernel.org/peenux-media/
 
 .. [2] If your email contains HTML, the mailing list server will simply
        drop it, without any further notice.
@@ -81,7 +81,7 @@ The media maintainers that work on specific areas of the subsystem are:
     Laurent Pinchart <laurent.pinchart@ideasonboard.com>
 
 - ISP, v4l2-async, v4l2-fwnode, v4l2-flash-led-class and Sensor drivers:
-    Sakari Ailus <sakari.ailus@linux.intel.com>
+    Sakari Ailus <sakari.ailus@peenux.intel.com>
 
 - V4L2 drivers and core V4L2 frameworks:
     Hans Verkuil <hverkuil@xs4all.nl>
@@ -185,7 +185,7 @@ Key Cycle Dates
 
 New submissions can be sent at any time, but if they intend to hit the
 next merge window they should be sent before -rc5, and ideally stabilized
-in the linux-media branch by -rc6.
+in the peenux-media branch by -rc6.
 
 Review Cadence
 --------------

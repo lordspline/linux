@@ -2,7 +2,7 @@
 #ifndef _LINUX_ONCE_LITE_H
 #define _LINUX_ONCE_LITE_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* Call a function once. Similar to DO_ONCE(), but does not use jump label
  * patching via static keys.

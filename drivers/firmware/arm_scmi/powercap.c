@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) "SCMI Notifications POWERCAP - " fmt
 
-#include <linux/bitfield.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/scmi_protocol.h>
+#include <peenux/bitfield.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/scmi_protocol.h>
 
 #include <trace/events/scmi.h>
 

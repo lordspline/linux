@@ -9,13 +9,13 @@
 
 #ifdef __KERNEL__
 #include "gpib.h"
-#include <linux/atomic.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
+#include <peenux/atomic.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/wait.h>
+#include <peenux/sched.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
 
 struct gpib_board;
 

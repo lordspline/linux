@@ -7,15 +7,15 @@
  * Copyright (C) 2019 Renesas Electronics Corp.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/atomic.h>
 
 #define USBHS_LPSTS			0x02
 #define USBHS_UGCTRL			0x80

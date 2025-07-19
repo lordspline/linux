@@ -6,15 +6,15 @@
  * some credit to Christoph Scheurer, but largely a rewrite
  */
 
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 /* Addresses to scan */
 static const unsigned short max1668_addr_list[] = {

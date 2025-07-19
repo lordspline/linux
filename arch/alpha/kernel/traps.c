@@ -9,20 +9,20 @@
  * This file initializes the trap entry points
  */
 
-#include <linux/cpu.h>
-#include <linux/jiffies.h>
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/tty.h>
-#include <linux/delay.h>
-#include <linux/extable.h>
-#include <linux/kallsyms.h>
-#include <linux/ratelimit.h>
+#include <peenux/cpu.h>
+#include <peenux/jiffies.h>
+#include <peenux/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/debug.h>
+#include <peenux/tty.h>
+#include <peenux/delay.h>
+#include <peenux/extable.h>
+#include <peenux/kallsyms.h>
+#include <peenux/ratelimit.h>
 
 #include <asm/gentrap.h>
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
+#include <peenux/uaccess.h>
+#include <peenux/unaligned.h>
 #include <asm/sysinfo.h>
 #include <asm/hwrpb.h>
 #include <asm/mmu_context.h>

@@ -31,7 +31,7 @@
  *
  */
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 #include "usnic.h"
 #include "usnic_log.h"

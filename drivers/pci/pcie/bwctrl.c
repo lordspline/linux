@@ -19,18 +19,18 @@
 
 #define dev_fmt(fmt) "bwctrl: " fmt
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pci-bwctrl.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pci-bwctrl.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "../pci.h"
 #include "portdrv.h"

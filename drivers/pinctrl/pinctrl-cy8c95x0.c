@@ -7,27 +7,27 @@
  *	    Naresh Solanki <Naresh.Solanki@9elements.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/cleanup.h>
-#include <linux/dmi.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/seq_file.h>
+#include <peenux/acpi.h>
+#include <peenux/bitmap.h>
+#include <peenux/cleanup.h>
+#include <peenux/dmi.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/seq_file.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 /* Fast access registers */
 #define CY8C95X0_INPUT		0x00

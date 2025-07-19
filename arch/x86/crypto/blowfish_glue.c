@@ -11,10 +11,10 @@
 #include <crypto/algapi.h>
 #include <crypto/blowfish.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/crypto.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/crypto.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 #include "ecb_cbc_helpers.h"
 

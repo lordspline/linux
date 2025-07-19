@@ -6,11 +6,11 @@
  * Author: Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/mfd/cgbc.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mfd/cgbc.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
 
 #define CGBC_GPIO_NGPIO	14
 

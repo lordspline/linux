@@ -37,9 +37,9 @@
  *    OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/etherdevice.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/etherdevice.h>
 #include <net/mac80211.h>
 #include "carl9170.h"
 #include "hw.h"

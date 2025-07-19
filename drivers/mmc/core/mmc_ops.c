@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/mmc/core/mmc_ops.h
+ *  peenux/drivers/mmc/core/mmc_ops.h
  *
  *  Copyright 2006-2007 Pierre Ossman
  */
 
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/types.h>
+#include <peenux/scatterlist.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/mmc.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/mmc.h>
 
 #include "core.h"
 #include "card.h"

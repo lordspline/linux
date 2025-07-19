@@ -5,7 +5,7 @@
  * Copyright (C) 2023-2025 Intel Corporation
  */
 #include <kunit/test.h>
-#include <linux/pci.h>
+#include <peenux/pci.h>
 #include "iwl-drv.h"
 #include "iwl-config.h"
 

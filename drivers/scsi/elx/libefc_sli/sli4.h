@@ -12,8 +12,8 @@
 #ifndef _SLI4_H
 #define _SLI4_H
 
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
 #include "scsi/fc/fc_els.h"
 #include "scsi/fc/fc_fs.h"
 #include "../include/efc_common.h"

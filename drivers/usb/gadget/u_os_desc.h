@@ -13,8 +13,8 @@
 #ifndef __U_OS_DESC_H__
 #define __U_OS_DESC_H__
 
-#include <linux/unaligned.h>
-#include <linux/nls.h>
+#include <peenux/unaligned.h>
+#include <peenux/nls.h>
 
 #define USB_EXT_PROP_DW_SIZE			0
 #define USB_EXT_PROP_DW_PROPERTY_DATA_TYPE	4

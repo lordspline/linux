@@ -15,14 +15,14 @@
 #include "super-io.h"
 #include "thread_with_file.h"
 
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <linux/major.h>
-#include <linux/sched/task.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/ioctl.h>
+#include <peenux/major.h>
+#include <peenux/sched/task.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 /* returns with ref on ca->ref */
 static struct bch_dev *bch2_device_lookup(struct bch_fs *c, u64 dev,

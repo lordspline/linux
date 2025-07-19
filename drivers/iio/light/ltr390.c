@@ -18,20 +18,20 @@
  *   - Interrupt support
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/events.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define LTR390_MAIN_CTRL		0x00
 #define LTR390_ALS_UVS_MEAS_RATE	0x04

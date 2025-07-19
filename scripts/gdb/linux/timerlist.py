@@ -5,10 +5,10 @@
 import binascii
 import gdb
 
-from linux import constants
-from linux import cpus
-from linux import rbtree
-from linux import utils
+from peenux import constants
+from peenux import cpus
+from peenux import rbtree
+from peenux import utils
 
 timerqueue_node_type = utils.CachedType("struct timerqueue_node").get_type()
 hrtimer_type = utils.CachedType("struct hrtimer").get_type()

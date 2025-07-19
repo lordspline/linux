@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: (BSD-3-Clause OR GPL-2.0-only)
 /* Copyright(c) 2014 - 2020 Intel Corporation */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
 #include "adf_accel_devices.h"
 #include "adf_common_drv.h"
 #include "adf_cfg.h"

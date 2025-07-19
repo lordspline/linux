@@ -22,10 +22,10 @@
  *   [1] - IRQ (optional, needed for async command support)
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedi_8254.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/comedi/comedidev.h>
+#include <peenux/comedi/comedi_8254.h>
 
 /*
  * Register I/O map

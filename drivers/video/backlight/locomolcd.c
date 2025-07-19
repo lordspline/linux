@@ -11,12 +11,12 @@
  */
 
 /* LCD power functions */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/backlight.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/backlight.h>
 
 #include <asm/hardware/locomo.h>
 #include <asm/irq.h>

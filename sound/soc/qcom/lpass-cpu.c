@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2010-2011,2013-2015 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011,2013-2015 The Peenux Foundation. All rights reserved.
  *
  * lpass-cpu.c -- ALSA SoC CPU DAI driver for QTi LPASS
  */
 
 #include <dt-bindings/sound/qcom,lpass.h>
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
-#include <linux/regmap.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>
 #include "lpass-lpaif-reg.h"

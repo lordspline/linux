@@ -13,12 +13,12 @@
 #include <crypto/internal/hash.h>
 #include <crypto/internal/kpp.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <uapi/linux/sched/types.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <uapi/peenux/sched/types.h>
 #include "internal.h"
 
 #define CRYPTO_ENGINE_MAX_QLEN 10

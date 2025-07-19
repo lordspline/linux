@@ -11,13 +11,13 @@
  *
  ******************************************************************************/
 
-#include <linux/string.h>
-#include <linux/parser.h>
-#include <linux/highmem.h>
-#include <linux/timer.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/parser.h>
+#include <peenux/highmem.h>
+#include <peenux/timer.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 #include <scsi/scsi_proto.h>
 
 #include <target/target_core_base.h>

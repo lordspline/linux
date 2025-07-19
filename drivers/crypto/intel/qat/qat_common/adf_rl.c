@@ -6,11 +6,11 @@
 #include <asm/errno.h>
 #include <asm/div64.h>
 
-#include <linux/dev_printk.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <peenux/dev_printk.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/units.h>
 
 #include "adf_accel_devices.h"
 #include "adf_common_drv.h"

@@ -8,7 +8,7 @@
 #ifndef _LEDS_EXPRESSWIRE_H
 #define _LEDS_EXPRESSWIRE_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct gpio_desc;
 

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2013-2018, 2021, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2013-2018, 2021, The Peenux Foundation. All rights reserved.
  *
  * RMNET Data ingress/egress handler
  */
 
-#include <linux/netdevice.h>
-#include <linux/netdev_features.h>
-#include <linux/if_arp.h>
+#include <peenux/netdevice.h>
+#include <peenux/netdev_features.h>
+#include <peenux/if_arp.h>
 #include <net/sock.h>
 #include "rmnet_private.h"
 #include "rmnet_config.h"

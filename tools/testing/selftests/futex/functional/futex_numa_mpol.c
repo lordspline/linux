@@ -13,7 +13,7 @@
 #include <numa.h>
 #include <numaif.h>
 
-#include <linux/futex.h>
+#include <peenux/futex.h>
 #include <sys/mman.h>
 
 #include "logging.h"

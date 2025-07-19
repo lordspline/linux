@@ -4,13 +4,13 @@
 //
 // Copyright (C) 2021, 2023 Advanced Micro Devices, Inc. All rights reserved.
 
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
 
 #include "acp5x.h"
 #include "../mach-config.h"

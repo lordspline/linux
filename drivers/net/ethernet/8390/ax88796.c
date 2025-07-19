@@ -8,22 +8,22 @@
  *	Based on ne.c, by Donald Becker, et-al.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/isapnp.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mdio-bitbang.h>
-#include <linux/phy.h>
-#include <linux/eeprom_93cx6.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/isapnp.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/timer.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/mdio-bitbang.h>
+#include <peenux/phy.h>
+#include <peenux/eeprom_93cx6.h>
+#include <peenux/slab.h>
 
 #include <net/ax88796.h>
 

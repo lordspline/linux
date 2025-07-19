@@ -6,15 +6,15 @@
  *	    Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/usb/g_uvc.h>
-#include <linux/usb/uvc.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/usb/g_uvc.h>
+#include <peenux/usb/uvc.h>
+#include <peenux/videodev2.h>
+#include <peenux/vmalloc.h>
+#include <peenux/wait.h>
 
 #include <media/v4l2-dev.h>
 #include <media/v4l2-event.h>

@@ -4,12 +4,12 @@
  * Author: Archit Taneja <archit@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
 
 #include <drm/drm_bridge.h>
 #include <drm/drm_panel.h>

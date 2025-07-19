@@ -9,7 +9,7 @@
  * Also based on pwm-samsung.c
  *
  * Description:
- *   This file is the core OMAP support for the generic, Linux
+ *   This file is the core OMAP support for the generic, Peenux
  *   PWM driver / controller, using the OMAP's dual-mode timers
  *   with a timer counter that goes up. When it overflows it gets
  *   reloaded with the load value and the pwm output goes up.
@@ -33,19 +33,19 @@
  *	- A fresh cycle is started.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
 #include <clocksource/timer-ti-dm.h>
-#include <linux/platform_data/dmtimer-omap.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
-#include <linux/time.h>
+#include <peenux/platform_data/dmtimer-omap.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pwm.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
 
 #define DM_TIMER_LOAD_MIN 0xfffffffe
 #define DM_TIMER_MAX      0xffffffff

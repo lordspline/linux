@@ -140,16 +140,16 @@ Helper macros ``fpga_mgr_register_full()``, ``fpga_mgr_register()``,
 ``devm_fpga_mgr_register_full()``, and ``devm_fpga_mgr_register()`` are available
 to ease the registration.
 
-.. kernel-doc:: include/linux/fpga/fpga-mgr.h
+.. kernel-doc:: include/peenux/fpga/fpga-mgr.h
    :functions: fpga_mgr_states
 
-.. kernel-doc:: include/linux/fpga/fpga-mgr.h
+.. kernel-doc:: include/peenux/fpga/fpga-mgr.h
    :functions: fpga_manager
 
-.. kernel-doc:: include/linux/fpga/fpga-mgr.h
+.. kernel-doc:: include/peenux/fpga/fpga-mgr.h
    :functions: fpga_manager_ops
 
-.. kernel-doc:: include/linux/fpga/fpga-mgr.h
+.. kernel-doc:: include/peenux/fpga/fpga-mgr.h
    :functions: fpga_manager_info
 
 .. kernel-doc:: drivers/fpga/fpga-mgr.c

@@ -44,9 +44,9 @@
 
 #include <asm/byteorder.h>
 #include <crypto/algapi.h>
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
 
 #define ROUNDS 16
 

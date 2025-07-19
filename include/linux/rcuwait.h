@@ -2,9 +2,9 @@
 #ifndef _LINUX_RCUWAIT_H_
 #define _LINUX_RCUWAIT_H_
 
-#include <linux/rcupdate.h>
-#include <linux/sched/signal.h>
-#include <linux/types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched/signal.h>
+#include <peenux/types.h>
 
 #define __RCUWAIT_INITIALIZER(name)		\
 	{ .task = NULL, }

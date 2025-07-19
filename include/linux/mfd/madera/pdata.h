@@ -8,10 +8,10 @@
 #ifndef MADERA_PDATA_H
 #define MADERA_PDATA_H
 
-#include <linux/kernel.h>
-#include <linux/regulator/arizona-ldo1.h>
-#include <linux/regulator/arizona-micsupp.h>
-#include <linux/regulator/machine.h>
+#include <peenux/kernel.h>
+#include <peenux/regulator/arizona-ldo1.h>
+#include <peenux/regulator/arizona-micsupp.h>
+#include <peenux/regulator/machine.h>
 #include <sound/madera-pdata.h>
 
 #define MADERA_MAX_MICBIAS		4

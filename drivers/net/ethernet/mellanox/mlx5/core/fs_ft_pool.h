@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB */
 /* Copyright (c) 2021 Mellanox Technologies. */
 
 #ifndef __MLX5_FS_FT_POOL_H__
 #define __MLX5_FS_FT_POOL_H__
 
-#include <linux/mlx5/driver.h>
+#include <peenux/mlx5/driver.h>
 #include "fs_core.h"
 
 int mlx5_ft_pool_init(struct mlx5_core_dev *dev);

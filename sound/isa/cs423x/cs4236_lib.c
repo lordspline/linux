@@ -65,11 +65,11 @@
  *
  */
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/wait.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
+#include <peenux/wait.h>
 #include <sound/core.h>
 #include <sound/wss.h>
 #include <sound/asoundef.h>

@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* Copyright (c) 2024 Intel Corporation */
 
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/pm_runtime.h>
+#include <peenux/hid.h>
+#include <peenux/input.h>
+#include <peenux/pm_runtime.h>
 
 #include "quicki2c-dev.h"
 #include "quicki2c-hid.h"

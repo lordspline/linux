@@ -3,10 +3,10 @@
  *  power_supply_hwmon.c - power supply hwmon support.
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/power_supply.h>
+#include <peenux/slab.h>
 #include "power_supply.h"
 
 struct power_supply_hwmon {
@@ -209,7 +209,7 @@ static int power_supply_hwmon_read_string(struct device *dev,
 		 * gcc bug #51513 [1] and clang bug #978 [2]
 		 *
 		 * [1] https://gcc.gnu.org/bugzilla/show_bug.cgi?id=51513
-		 * [2] https://github.com/ClangBuiltLinux/linux/issues/978
+		 * [2] https://github.com/ClangBuiltLinux/peenux/issues/978
 		 */
 		break;
 	}

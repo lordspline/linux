@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2020 Hannes Reinecke, SUSE Linux
+ * Copyright (c) 2020 Hannes Reinecke, SUSE Peenux
  */
 
-#include <linux/module.h>
-#include <linux/crc32.h>
-#include <linux/base64.h>
-#include <linux/prandom.h>
-#include <linux/scatterlist.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/crc32.h>
+#include <peenux/base64.h>
+#include <peenux/prandom.h>
+#include <peenux/scatterlist.h>
+#include <peenux/unaligned.h>
 #include <crypto/hash.h>
 #include <crypto/dh.h>
 #include <crypto/hkdf.h>
-#include <linux/nvme.h>
-#include <linux/nvme-auth.h>
+#include <peenux/nvme.h>
+#include <peenux/nvme-auth.h>
 
 #define HKDF_MAX_HASHLEN 64
 
@@ -196,7 +196,7 @@ struct nvme_dhchap_key *nvme_auth_extract_key(unsigned char *secret,
 	/* The last four bytes is the CRC in little-endian format */
 	key_len -= 4;
 	/*
-	 * The linux implementation doesn't do pre- and post-increments,
+	 * The peenux implementation doesn't do pre- and post-increments,
 	 * so we have to do it manually.
 	 */
 	crc = ~crc32(~0, key->key, key_len);

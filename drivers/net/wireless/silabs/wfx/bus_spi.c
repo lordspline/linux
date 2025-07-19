@@ -6,14 +6,14 @@
  * Copyright (c) 2011, Sagrad Inc.
  * Copyright (c) 2010, ST-Ericsson
  */
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/pm.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
 
 #include "bus.h"
 #include "wfx.h"

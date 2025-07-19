@@ -3,11 +3,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/livepatch.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/printk.h>
+#include <peenux/livepatch.h>
 
 #define CONSOLE_LOGLEVEL_STATE 1
 /* Version 1 does not support migration. */

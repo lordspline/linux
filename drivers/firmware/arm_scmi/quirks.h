@@ -7,8 +7,8 @@
 #ifndef _SCMI_QUIRKS_H
 #define _SCMI_QUIRKS_H
 
-#include <linux/static_key.h>
-#include <linux/types.h>
+#include <peenux/static_key.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_ARM_SCMI_QUIRKS
 

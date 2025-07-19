@@ -7,8 +7,8 @@
 #ifndef __LINUX_EXPORT_INTERNAL_H__
 #define __LINUX_EXPORT_INTERNAL_H__
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 
 #if defined(CONFIG_HAVE_ARCH_PREL32_RELOCATIONS)
 /*

@@ -1,4 +1,4 @@
-/*  linux/drivers/scsi/esas2r/atvda.h
+/*  peenux/drivers/scsi/esas2r/atvda.h
  *       ATTO VDA interface definitions
  *
  *  Copyright (c) 2001-2013 ATTO Technology, Inc.

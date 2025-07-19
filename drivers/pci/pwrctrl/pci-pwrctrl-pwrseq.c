@@ -3,15 +3,15 @@
  * Copyright (C) 2024 Linaro Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pci-pwrctrl.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwrseq/consumer.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pci-pwrctrl.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/pwrseq/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 struct pci_pwrctrl_pwrseq_data {
 	struct pci_pwrctrl ctx;

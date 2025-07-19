@@ -9,29 +9,29 @@
  * Copyright (c) 2002, Trond Myklebust <trond.myklebust@fys.uio.no>
  *
  */
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/pagemap.h>
-#include <linux/mount.h>
-#include <linux/fs_context.h>
-#include <linux/namei.h>
-#include <linux/fsnotify.h>
-#include <linux/kernel.h>
-#include <linux/rcupdate.h>
-#include <linux/utsname.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/pagemap.h>
+#include <peenux/mount.h>
+#include <peenux/fs_context.h>
+#include <peenux/namei.h>
+#include <peenux/fsnotify.h>
+#include <peenux/kernel.h>
+#include <peenux/rcupdate.h>
+#include <peenux/utsname.h>
 
 #include <asm/ioctls.h>
-#include <linux/poll.h>
-#include <linux/wait.h>
-#include <linux/seq_file.h>
+#include <peenux/poll.h>
+#include <peenux/wait.h>
+#include <peenux/seq_file.h>
 
-#include <linux/sunrpc/clnt.h>
-#include <linux/workqueue.h>
-#include <linux/sunrpc/rpc_pipe_fs.h>
-#include <linux/sunrpc/cache.h>
-#include <linux/nsproxy.h>
-#include <linux/notifier.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/workqueue.h>
+#include <peenux/sunrpc/rpc_pipe_fs.h>
+#include <peenux/sunrpc/cache.h>
+#include <peenux/nsproxy.h>
+#include <peenux/notifier.h>
 
 #include "netns.h"
 #include "sunrpc.h"

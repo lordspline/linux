@@ -8,17 +8,17 @@
  *	Bjorn Helgaas <bjorn.helgaas@hp.com>
  */
 
-#include <linux/pnp.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/stat.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
+#include <peenux/pnp.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/stat.h>
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "base.h"
 

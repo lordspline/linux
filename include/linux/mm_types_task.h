@@ -8,8 +8,8 @@
  * (These are defined separately to decouple sched.h from mm_types.h as much as possible.)
  */
 
-#include <linux/align.h>
-#include <linux/types.h>
+#include <peenux/align.h>
+#include <peenux/types.h>
 
 #include <asm/page.h>
 

@@ -8,16 +8,16 @@
  * Author: Feng Chen <puck.chen@hisilicon.com>
  */
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/reset-controller.h>
-#include <linux/reset.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/reset-controller.h>
+#include <peenux/reset.h>
+#include <peenux/platform_device.h>
 
 #define PERIPH_ASSERT_OFFSET      0x300
 #define PERIPH_DEASSERT_OFFSET    0x304

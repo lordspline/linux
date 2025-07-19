@@ -13,30 +13,30 @@
 
 #define pr_fmt(fmt) "IPMI Watchdog: " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/ipmi.h>
-#include <linux/ipmi_smi.h>
-#include <linux/mutex.h>
-#include <linux/watchdog.h>
-#include <linux/miscdevice.h>
-#include <linux/init.h>
-#include <linux/completion.h>
-#include <linux/kdebug.h>
-#include <linux/kstrtox.h>
-#include <linux/rwsem.h>
-#include <linux/errno.h>
-#include <linux/uaccess.h>
-#include <linux/notifier.h>
-#include <linux/nmi.h>
-#include <linux/reboot.h>
-#include <linux/wait.h>
-#include <linux/poll.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/atomic.h>
-#include <linux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/ipmi.h>
+#include <peenux/ipmi_smi.h>
+#include <peenux/mutex.h>
+#include <peenux/watchdog.h>
+#include <peenux/miscdevice.h>
+#include <peenux/init.h>
+#include <peenux/completion.h>
+#include <peenux/kdebug.h>
+#include <peenux/kstrtox.h>
+#include <peenux/rwsem.h>
+#include <peenux/errno.h>
+#include <peenux/uaccess.h>
+#include <peenux/notifier.h>
+#include <peenux/nmi.h>
+#include <peenux/reboot.h>
+#include <peenux/wait.h>
+#include <peenux/poll.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/atomic.h>
+#include <peenux/sched/signal.h>
 
 #ifdef CONFIG_X86
 /*

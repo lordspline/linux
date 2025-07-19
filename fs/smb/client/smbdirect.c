@@ -4,9 +4,9 @@
  *
  *   Author(s): Long Li <longli@microsoft.com>
  */
-#include <linux/module.h>
-#include <linux/highmem.h>
-#include <linux/folio_queue.h>
+#include <peenux/module.h>
+#include <peenux/highmem.h>
+#include <peenux/folio_queue.h>
 #include "../common/smbdirect/smbdirect_pdu.h"
 #include "smbdirect.h"
 #include "cifs_debug.h"

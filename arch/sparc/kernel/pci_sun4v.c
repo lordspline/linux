@@ -4,20 +4,20 @@
  * Copyright (C) 2006, 2007, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/percpu.h>
-#include <linux/irq.h>
-#include <linux/msi.h>
-#include <linux/export.h>
-#include <linux/log2.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/dma-map-ops.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/percpu.h>
+#include <peenux/irq.h>
+#include <peenux/msi.h>
+#include <peenux/export.h>
+#include <peenux/log2.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-map-ops.h>
 #include <asm/iommu-common.h>
 
 #include <asm/iommu.h>

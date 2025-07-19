@@ -7,15 +7,15 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ":" fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/serial_core.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/tty_flip.h>
-#include <linux/bitops.h>
-#include <linux/mcb.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/serial_core.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/tty_flip.h>
+#include <peenux/bitops.h>
+#include <peenux/mcb.h>
 
 #define MEN_Z135_MAX_PORTS		12
 #define MEN_Z135_BASECLK		29491200

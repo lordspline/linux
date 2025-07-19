@@ -11,10 +11,10 @@
  *
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/fs.h>
-#include <linux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/fs.h>
+#include <peenux/firmware.h>
 #include <sound/core.h>
 #include <sound/soc.h>
 #include <asm/platform_sst_audio.h>

@@ -16,18 +16,18 @@
  * <spmf2004-lirc@yahoo.fr> in 2008.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pnp.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pnp.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/bitops.h>
 #include <media/rc-core.h>
-#include <linux/pci_ids.h>
+#include <peenux/pci_ids.h>
 
 #include "ite-cir.h"
 

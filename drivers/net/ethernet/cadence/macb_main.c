@@ -6,36 +6,36 @@
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/crc32.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/circ_buf.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/phylink.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/ip.h>
-#include <linux/udp.h>
-#include <linux/tcp.h>
-#include <linux/iopoll.h>
-#include <linux/phy/phy.h>
-#include <linux/pm_runtime.h>
-#include <linux/ptp_classify.h>
-#include <linux/reset.h>
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/inetdevice.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/crc32.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/circ_buf.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/phylink.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/ip.h>
+#include <peenux/udp.h>
+#include <peenux/tcp.h>
+#include <peenux/iopoll.h>
+#include <peenux/phy/phy.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/reset.h>
+#include <peenux/firmware/xlnx-zynqmp.h>
+#include <peenux/inetdevice.h>
 #include "macb.h"
 
 /* This structure is only used for MACB on SiFive FU540 devices */
@@ -4320,7 +4320,7 @@ static int macb_init(struct platform_device *pdev)
 #endif
 		}
 
-		/* get irq: here we use the linux queue index, not the hardware
+		/* get irq: here we use the peenux queue index, not the hardware
 		 * queue index. the queue irq definitions in the device tree
 		 * must remove the optional gaps that could exist in the
 		 * hardware queue mask.

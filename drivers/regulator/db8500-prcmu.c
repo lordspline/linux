@@ -8,18 +8,18 @@
  * Power domain regulators on DB8500
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/dbx500-prcmu.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/db8500-prcmu.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/of.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/spinlock.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/dbx500-prcmu.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/db8500-prcmu.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
 #include "dbx500-prcmu.h"
 
 static int db8500_regulator_enable(struct regulator_dev *rdev)

@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2012, The Peenux Foundation. All rights reserved.
  *
  * Description: CoreSight Trace Port Interface Unit driver
  */
 
-#include <linux/acpi.h>
-#include <linux/amba/bus.h>
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/coresight.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/amba/bus.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/coresight.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include "coresight-priv.h"
 

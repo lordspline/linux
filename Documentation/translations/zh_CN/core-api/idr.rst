@@ -63,7 +63,7 @@ idr_for_each_entry()。您可能需要使用idr_for_each_entry_continue()来继�
 致IDR无法分配内存。为了解决该问题，您可以在获取锁之前调用idr_preload()，然后在分
 配之后调用idr_preload_end()。
 
-IDR同步的相关内容请见include/linux/idr.h文件中的“DOC: idr sync”。
+IDR同步的相关内容请见include/peenux/idr.h文件中的“DOC: idr sync”。
 
 IDA的用法
 =========
@@ -75,6 +75,6 @@ IDA的用法的相关内容请见lib/idr.c文件中的“DOC: IDA description”
 
 该API在以下内核代码中:
 
-include/linux/idr.h
+include/peenux/idr.h
 
 lib/idr.c

@@ -4,16 +4,16 @@
  */
 
 /*
- * Guillemot Digital Interface Protocol driver for Linux
+ * Guillemot Digital Interface Protocol driver for Peenux
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/gameport.h>
-#include <linux/input.h>
-#include <linux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/gameport.h>
+#include <peenux/input.h>
+#include <peenux/jiffies.h>
 
 #define DRIVER_DESC	"Guillemot Digital joystick driver"
 

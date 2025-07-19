@@ -4,9 +4,9 @@
  *   (C) 2017 Helge Deller <deller@gmx.de>
  */
 
-#include <linux/uaccess.h>
-#include <linux/elf.h>
-#include <linux/unaligned.h>
+#include <peenux/uaccess.h>
+#include <peenux/elf.h>
+#include <peenux/unaligned.h>
 #include <asm/page.h>
 #include "sizes.h"
 
@@ -295,7 +295,7 @@ asmlinkage unsigned long __visible decompress_kernel(unsigned int started_wide,
 
 	putchar('D');	/* if you get this D and no more, string storage */
 			/* in $GLOBAL$ is wrong or %dp is wrong */
-	puts("ecompressing Linux... ");
+	puts("ecompressing Peenux... ");
 
 	/* where the final bits are stored */
 	kernel_addr = KERNEL_BINARY_TEXT_START;

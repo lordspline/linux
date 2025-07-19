@@ -4,15 +4,15 @@
  * Authors: Fabien Dessenne <fabien.dessenne@st.com> for STMicroelectronics.
  */
 
-#include <linux/component.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/reset.h>
-#include <linux/seq_file.h>
+#include <peenux/component.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/reset.h>
+#include <peenux/seq_file.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_device.h>

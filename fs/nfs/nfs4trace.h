@@ -8,7 +8,7 @@
 #if !defined(_TRACE_NFS4_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_NFS4_H
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 #include <trace/misc/sunrpc.h>
 
 #include <trace/misc/fs.h>
@@ -2196,7 +2196,7 @@ DEFINE_NFS4_BLOCK_PRKEY_EVENT(bl_pr_key_reg);
 DEFINE_NFS4_BLOCK_PRKEY_EVENT(bl_pr_key_unreg);
 
 /*
- * From uapi/linux/pr.h
+ * From uapi/peenux/pr.h
  */
 TRACE_DEFINE_ENUM(PR_STS_SUCCESS);
 TRACE_DEFINE_ENUM(PR_STS_IOERR);

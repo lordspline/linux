@@ -10,26 +10,26 @@
  *	Created by Alexey Kuznetsov <kuznet@ms2.inr.ac.ru>
  */
 
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/inet.h>
-#include <linux/mm.h>
-#include <linux/net.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
-#include <linux/ratelimit.h>
-#include <linux/socket.h>
+#include <peenux/module.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/inet.h>
+#include <peenux/mm.h>
+#include <peenux/net.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/percpu.h>
+#include <peenux/init.h>
+#include <peenux/ratelimit.h>
+#include <peenux/socket.h>
 
 #include <net/sock.h>
 #include <net/net_ratelimit.h>
 #include <net/ipv6.h>
 
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 DEFINE_RATELIMIT_STATE(net_ratelimit_state, 5 * HZ, 10);
 /*

@@ -7,8 +7,8 @@
 #ifndef DRIVER_ATM_IDT77105_H
 #define DRIVER_ATM_IDT77105_H
 
-#include <linux/atmdev.h>
-#include <linux/atmioc.h>
+#include <peenux/atmdev.h>
+#include <peenux/atmioc.h>
 
 
 /* IDT77105 registers */

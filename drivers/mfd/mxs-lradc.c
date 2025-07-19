@@ -10,15 +10,15 @@
  *  Ksenija Stanojevic <ksenija.stanojevic@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mxs-lradc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/mxs-lradc.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 #define ADC_CELL		0
 #define TSC_CELL		1

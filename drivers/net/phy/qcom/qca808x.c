@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/phy.h>
-#include <linux/module.h>
+#include <peenux/phy.h>
+#include <peenux/module.h>
 
 #include "qcom.h"
 

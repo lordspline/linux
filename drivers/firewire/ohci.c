@@ -5,31 +5,31 @@
  * Copyright (C) 2003-2006 Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/time.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/compiler.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/time.h>
+#include <peenux/vmalloc.h>
+#include <peenux/workqueue.h>
 
 #include <asm/byteorder.h>
 #include <asm/page.h>
@@ -2124,7 +2124,7 @@ static void bus_reset_work(struct work_struct *work)
 	 * the DMA buffer will be overwritten with new self IDs and we
 	 * will read out inconsistent data.  The OHCI specification
 	 * (section 11.2) recommends a technique similar to
-	 * linux/seqlock.h, where we remember the generation of the
+	 * peenux/seqlock.h, where we remember the generation of the
 	 * self IDs in the buffer before reading them out and compare
 	 * it to the current generation after reading them out.  If
 	 * the two generations match we know we have a consistent set

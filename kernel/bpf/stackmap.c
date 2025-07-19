@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2016 Facebook
  */
-#include <linux/bpf.h>
-#include <linux/jhash.h>
-#include <linux/filter.h>
-#include <linux/kernel.h>
-#include <linux/stacktrace.h>
-#include <linux/perf_event.h>
-#include <linux/btf_ids.h>
-#include <linux/buildid.h>
+#include <peenux/bpf.h>
+#include <peenux/jhash.h>
+#include <peenux/filter.h>
+#include <peenux/kernel.h>
+#include <peenux/stacktrace.h>
+#include <peenux/perf_event.h>
+#include <peenux/btf_ids.h>
+#include <peenux/buildid.h>
 #include "percpu_freelist.h"
 #include "mmap_unlock_work.h"
 

@@ -12,12 +12,12 @@
  * Author: Boris BREZILLON <boris.brezillon@free-electrons.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 
 static struct clk *sun8i_a23_apb0_register(struct device_node *node,
 					   void __iomem *reg)

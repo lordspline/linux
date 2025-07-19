@@ -3,17 +3,17 @@
  * Copyright (C) 2013 STMicroelectronics Limited
  * Author: Srinivas Kandagatla <srinivas.kandagatla@st.com>
  */
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/kernel.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 #include <media/rc-core.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_wakeirq.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_wakeirq.h>
 
 struct st_rc_device {
 	struct device			*dev;

@@ -11,8 +11,8 @@
 #ifndef __ARM64_KVM_EMULATE_H__
 #define __ARM64_KVM_EMULATE_H__
 
-#include <linux/bitfield.h>
-#include <linux/kvm_host.h>
+#include <peenux/bitfield.h>
+#include <peenux/kvm_host.h>
 
 #include <asm/debug-monitors.h>
 #include <asm/esr.h>

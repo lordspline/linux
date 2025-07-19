@@ -112,7 +112,7 @@ enum dvma_rev {
 
 #define DMA_HASCOUNT(rev)  ((rev)==dvmaesc1)
 
-/* Linux DMA information structure, filled during probe. */
+/* Peenux DMA information structure, filled during probe. */
 struct Linux_SBus_DMA {
 	struct Linux_SBus_DMA *next;
 	struct linux_sbus_device *SBus_dev;

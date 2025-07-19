@@ -4,15 +4,15 @@
  * Author: Tony Xie <tony.xie@rock-chips.com>
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/suspend.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regulator/machine.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/regmap.h>
+#include <peenux/suspend.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regulator/machine.h>
 
 #include <asm/cacheflush.h>
 #include <asm/tlbflush.h>

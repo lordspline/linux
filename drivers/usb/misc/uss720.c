@@ -28,16 +28,16 @@
 
 /*****************************************************************************/
 
-#include <linux/module.h>
-#include <linux/socket.h>
-#include <linux/parport.h>
-#include <linux/init.h>
-#include <linux/usb.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
-#include <linux/kref.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/socket.h>
+#include <peenux/parport.h>
+#include <peenux/init.h>
+#include <peenux/usb.h>
+#include <peenux/delay.h>
+#include <peenux/completion.h>
+#include <peenux/kref.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
 
 #define DRIVER_AUTHOR "Thomas M. Sailer, t.sailer@alumni.ethz.ch"
 #define DRIVER_DESC "USB Parport Cable driver for Cables using the Lucent Technologies USS720 Chip"

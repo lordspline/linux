@@ -10,8 +10,8 @@
 #include <asm/vector.h>
 #include <crypto/chacha.h>
 #include <crypto/internal/simd.h>
-#include <linux/linkage.h>
-#include <linux/module.h>
+#include <peenux/linkage.h>
+#include <peenux/module.h>
 
 static __ro_after_init DEFINE_STATIC_KEY_FALSE(use_zvkb);
 

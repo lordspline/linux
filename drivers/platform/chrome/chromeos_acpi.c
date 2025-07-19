@@ -10,11 +10,11 @@
  * accessed as the contents of the appropriate read only files in the
  * sysfs directory tree.
  */
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
 
 #define ACPI_ATTR_NAME_LEN 4
 

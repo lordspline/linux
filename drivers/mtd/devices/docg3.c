@@ -5,23 +5,23 @@
  * Copyright (C) 2011 Robert Jarzmik
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/bitmap.h>
-#include <linux/bitrev.h>
-#include <linux/bch.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitrev.h>
+#include <peenux/bch.h>
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
 
 #define CREATE_TRACE_POINTS
 #include "docg3.h"

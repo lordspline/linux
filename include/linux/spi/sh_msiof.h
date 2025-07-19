@@ -2,8 +2,8 @@
 #ifndef __SPI_SH_MSIOF_H__
 #define __SPI_SH_MSIOF_H__
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
 
 #define SITMDR1	0x00	/* Transmit Mode Register 1 */
 #define SITMDR2	0x04	/* Transmit Mode Register 2 */

@@ -7,12 +7,12 @@
  * Author: Arnd Bergmann <arndb@de.ibm.com>
  */
 
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/atomic.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
 
 #include <asm/spu.h>
 #include <asm/spu_csa.h>

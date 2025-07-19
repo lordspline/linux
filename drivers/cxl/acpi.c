@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2021 Intel Corporation. All rights reserved. */
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/node.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/acpi.h>
+#include <peenux/pci.h>
+#include <peenux/node.h>
 #include <asm/div64.h>
 #include "cxlpci.h"
 #include "cxl.h"

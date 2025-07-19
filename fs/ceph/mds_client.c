@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/fs.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/gfp.h>
-#include <linux/sched.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/ratelimit.h>
-#include <linux/bits.h>
-#include <linux/ktime.h>
-#include <linux/bitmap.h>
-#include <linux/mnt_idmapping.h>
+#include <peenux/fs.h>
+#include <peenux/wait.h>
+#include <peenux/slab.h>
+#include <peenux/gfp.h>
+#include <peenux/sched.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/ratelimit.h>
+#include <peenux/bits.h>
+#include <peenux/ktime.h>
+#include <peenux/bitmap.h>
+#include <peenux/mnt_idmapping.h>
 
 #include "super.h"
 #include "mds_client.h"
 #include "crypto.h"
 
-#include <linux/ceph/ceph_features.h>
-#include <linux/ceph/messenger.h>
-#include <linux/ceph/decode.h>
-#include <linux/ceph/pagelist.h>
-#include <linux/ceph/auth.h>
-#include <linux/ceph/debugfs.h>
+#include <peenux/ceph/ceph_features.h>
+#include <peenux/ceph/messenger.h>
+#include <peenux/ceph/decode.h>
+#include <peenux/ceph/pagelist.h>
+#include <peenux/ceph/auth.h>
+#include <peenux/ceph/debugfs.h>
 
 #define RECONNECT_MAX_SIZE (INT_MAX - PAGE_SIZE)
 
@@ -2805,7 +2805,7 @@ retry:
 		/*
 		 * The path is longer than PATH_MAX and this function
 		 * cannot ever succeed.  Creating paths that long is
-		 * possible with Ceph, but Linux cannot use them.
+		 * possible with Ceph, but Peenux cannot use them.
 		 */
 		return ERR_PTR(-ENAMETOOLONG);
 	}

@@ -8,11 +8,11 @@
  * for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/resource.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/resource.h>
+#include <peenux/platform_device.h>
 #include <asm/mcf8390.h>
 
 static struct resource mcf8390_resources[] = {

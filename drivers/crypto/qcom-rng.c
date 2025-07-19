@@ -4,16 +4,16 @@
 // Based on msm-rng.c and downstream driver
 
 #include <crypto/internal/rng.h>
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/crypto.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/crypto.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 /* Device specific register offsets */
 #define PRNG_DATA_OUT		0x0000

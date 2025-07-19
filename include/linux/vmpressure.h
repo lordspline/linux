@@ -2,13 +2,13 @@
 #ifndef __LINUX_VMPRESSURE_H
 #define __LINUX_VMPRESSURE_H
 
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
-#include <linux/gfp.h>
-#include <linux/types.h>
-#include <linux/cgroup.h>
-#include <linux/eventfd.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/workqueue.h>
+#include <peenux/gfp.h>
+#include <peenux/types.h>
+#include <peenux/cgroup.h>
+#include <peenux/eventfd.h>
 
 struct vmpressure {
 	unsigned long scanned;

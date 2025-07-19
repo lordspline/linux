@@ -4,20 +4,20 @@
  * Copyright (c) 2019, Intel Corporation.
  * All rights reserved.
  *
- * Author: Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>
+ * Author: Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>
  */
 
-#include <linux/cpufeature.h>
-#include <linux/cpuhotplug.h>
-#include <linux/fs.h>
-#include <linux/hashtable.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <uapi/linux/isst_if.h>
+#include <peenux/cpufeature.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/fs.h>
+#include <peenux/hashtable.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <uapi/peenux/isst_if.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>

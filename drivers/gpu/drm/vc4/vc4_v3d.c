@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2014 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014 The Peenux Foundation. All rights reserved.
  * Copyright (C) 2013 Red Hat
  * Author: Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include "vc4_drv.h"
 #include "vc4_regs.h"

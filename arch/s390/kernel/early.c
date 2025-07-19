@@ -7,20 +7,20 @@
 #define KMSG_COMPONENT "setup"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/sched/debug.h>
-#include <linux/cpufeature.h>
-#include <linux/compiler.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/lockdep.h>
-#include <linux/extable.h>
-#include <linux/pfn.h>
-#include <linux/uaccess.h>
-#include <linux/kernel.h>
+#include <peenux/sched/debug.h>
+#include <peenux/cpufeature.h>
+#include <peenux/compiler.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/lockdep.h>
+#include <peenux/extable.h>
+#include <peenux/pfn.h>
+#include <peenux/uaccess.h>
+#include <peenux/kernel.h>
 #include <asm/asm-extable.h>
-#include <linux/memblock.h>
+#include <peenux/memblock.h>
 #include <asm/access-regs.h>
 #include <asm/asm-offsets.h>
 #include <asm/machine.h>

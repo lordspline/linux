@@ -10,28 +10,28 @@
  *  mm/ksm.c (mm hashing).
  */
 
-#include <linux/list.h>
-#include <linux/hashtable.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/mm.h>
-#include <linux/mm_inline.h>
-#include <linux/mmu_notifier.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/file.h>
-#include <linux/bug.h>
-#include <linux/anon_inodes.h>
-#include <linux/syscalls.h>
-#include <linux/userfaultfd_k.h>
-#include <linux/mempolicy.h>
-#include <linux/ioctl.h>
-#include <linux/security.h>
-#include <linux/hugetlb.h>
-#include <linux/swapops.h>
-#include <linux/miscdevice.h>
-#include <linux/uio.h>
+#include <peenux/list.h>
+#include <peenux/hashtable.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/mm.h>
+#include <peenux/mm.h>
+#include <peenux/mm_inline.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/poll.h>
+#include <peenux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/file.h>
+#include <peenux/bug.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/syscalls.h>
+#include <peenux/userfaultfd_k.h>
+#include <peenux/mempolicy.h>
+#include <peenux/ioctl.h>
+#include <peenux/security.h>
+#include <peenux/hugetlb.h>
+#include <peenux/swapops.h>
+#include <peenux/miscdevice.h>
+#include <peenux/uio.h>
 
 static int sysctl_unprivileged_userfaultfd __read_mostly;
 

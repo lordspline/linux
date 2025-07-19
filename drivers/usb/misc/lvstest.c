@@ -8,15 +8,15 @@
  * Pratyush Anand <pratyush.anand@gmail.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/ch11.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/phy.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/usb/ch11.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/phy.h>
 
 struct lvs_rh {
 	/* root hub interface */

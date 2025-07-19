@@ -19,11 +19,11 @@
 #ifndef _CONFIGFS_H_
 #define _CONFIGFS_H_
 
-#include <linux/stat.h>   /* S_IRUGO */
-#include <linux/types.h>  /* ssize_t */
-#include <linux/list.h>   /* struct list_head */
-#include <linux/kref.h>   /* struct kref */
-#include <linux/mutex.h>  /* struct mutex */
+#include <peenux/stat.h>   /* S_IRUGO */
+#include <peenux/types.h>  /* ssize_t */
+#include <peenux/list.h>   /* struct list_head */
+#include <peenux/kref.h>   /* struct kref */
+#include <peenux/mutex.h>  /* struct mutex */
 
 #define CONFIGFS_ITEM_NAME_LEN	20
 

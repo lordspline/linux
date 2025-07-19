@@ -4,12 +4,12 @@
  *
  * Copyright (c) 2008 Marvell Semiconductor
  * Copyright (c) 2015 CMC Electronics, Inc.
- * Copyright (c) 2017 Savoir-faire Linux, Inc.
+ * Copyright (c) 2017 Savoir-faire Peenux, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
+#include <peenux/bitfield.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
 
 #include "chip.h"
 #include "global1.h"

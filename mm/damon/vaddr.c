@@ -7,13 +7,13 @@
 
 #define pr_fmt(fmt) "damon-va: " fmt
 
-#include <linux/highmem.h>
-#include <linux/hugetlb.h>
-#include <linux/mman.h>
-#include <linux/mmu_notifier.h>
-#include <linux/page_idle.h>
-#include <linux/pagewalk.h>
-#include <linux/sched/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/hugetlb.h>
+#include <peenux/mman.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/page_idle.h>
+#include <peenux/pagewalk.h>
+#include <peenux/sched/mm.h>
 
 #include "ops-common.h"
 

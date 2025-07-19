@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
  * oplib.h:  Describes the interface and available routines in the
- *           Linux Prom library.
+ *           Peenux Prom library.
  *
  * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
  */
@@ -10,8 +10,8 @@
 #define __SPARC_OPLIB_H
 
 #include <asm/openprom.h>
-#include <linux/spinlock.h>
-#include <linux/compiler.h>
+#include <peenux/spinlock.h>
+#include <peenux/compiler.h>
 
 /* The master romvec pointer... */
 extern struct linux_romvec *romvec;

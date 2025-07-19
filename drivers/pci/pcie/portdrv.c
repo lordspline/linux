@@ -6,18 +6,18 @@
  * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
  */
 
-#include <linux/bitfield.h>
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/aer.h>
+#include <peenux/bitfield.h>
+#include <peenux/dmi.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/aer.h>
 
 #include "../pci.h"
 #include "portdrv.h"
@@ -259,7 +259,7 @@ static int get_port_device_capability(struct pci_dev *dev)
 	}
 
 	/*
-	 * With dpc-native, allow Linux to use DPC even if it doesn't have
+	 * With dpc-native, allow Peenux to use DPC even if it doesn't have
 	 * permission to use AER.
 	 */
 	if (pci_find_ext_capability(dev, PCI_EXT_CAP_ID_DPC) &&
@@ -613,7 +613,7 @@ bool pcie_ports_disabled;
 bool pcie_ports_native;
 
 /*
- * If the user specified "pcie_ports=dpc-native", use the Linux DPC PCIe
+ * If the user specified "pcie_ports=dpc-native", use the Peenux DPC PCIe
  * service even if the platform hasn't given us permission.
  */
 bool pcie_ports_dpc_native;
@@ -770,7 +770,7 @@ static pci_ers_result_t pcie_portdrv_mmio_enabled(struct pci_dev *dev)
 }
 
 /*
- * LINUX Device Driver Model
+ * PEENUX Device Driver Model
  */
 static const struct pci_device_id port_pci_ids[] = {
 	/* handle any PCI-Express port */

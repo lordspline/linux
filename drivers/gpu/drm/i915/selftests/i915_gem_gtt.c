@@ -22,8 +22,8 @@
  *
  */
 
-#include <linux/list_sort.h>
-#include <linux/prime_numbers.h>
+#include <peenux/list_sort.h>
+#include <peenux/prime_numbers.h>
 
 #include "gem/i915_gem_context.h"
 #include "gem/i915_gem_internal.h"

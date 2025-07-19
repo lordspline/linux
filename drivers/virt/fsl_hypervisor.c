@@ -22,28 +22,28 @@
  *    shuts down.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/reboot.h>
-#include <linux/uaccess.h>
-#include <linux/notifier.h>
-#include <linux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/poll.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/reboot.h>
+#include <peenux/uaccess.h>
+#include <peenux/notifier.h>
+#include <peenux/interrupt.h>
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/fsl_hcalls.h>
 
-#include <linux/fsl_hypervisor.h>
+#include <peenux/fsl_hypervisor.h>
 
 static BLOCKING_NOTIFIER_HEAD(failover_subscribers);
 

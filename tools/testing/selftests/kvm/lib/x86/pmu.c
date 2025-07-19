@@ -5,7 +5,7 @@
 
 #include <stdint.h>
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include "kvm_util.h"
 #include "pmu.h"

@@ -9,11 +9,11 @@
  *
  */
 
-#include <linux/security.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/rbtree.h>
-#include <linux/tracefs.h>
+#include <peenux/security.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/rbtree.h>
+#include <peenux/tracefs.h>
 #include "trace_stat.h"
 #include "trace.h"
 

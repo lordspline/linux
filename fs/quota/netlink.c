@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/cred.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/quotaops.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/cred.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/quotaops.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 #include <net/netlink.h>
 #include <net/genetlink.h>
 

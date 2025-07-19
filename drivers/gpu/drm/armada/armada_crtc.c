@@ -4,12 +4,12 @@
  *  Rewritten from the dovefb driver, and Armada510 manuals.
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

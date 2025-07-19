@@ -6,15 +6,15 @@
  * Copyright (c) 2023 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

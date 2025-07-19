@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/pci.h>
-#include <linux/i2c.h>
-#include <linux/kdev_t.h>
-#include <linux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/i2c.h>
+#include <peenux/kdev_t.h>
+#include <peenux/slab.h>
 
 #include <media/v4l2-device.h>
 #include <media/v4l2-fh.h>
@@ -24,7 +24,7 @@
 #include "cx23885-reg.h"
 #include "media/drv-intf/cx2341x.h"
 
-#include <linux/mutex.h>
+#include <peenux/mutex.h>
 
 #define CX23885_VERSION "0.0.4"
 

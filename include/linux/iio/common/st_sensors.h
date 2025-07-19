@@ -10,16 +10,16 @@
 #ifndef ST_SENSORS_H
 #define ST_SENSORS_H
 
-#include <linux/i2c.h>
-#include <linux/spi/spi.h>
-#include <linux/irqreturn.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/bitops.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/spi/spi.h>
+#include <peenux/irqreturn.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/bitops.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regmap.h>
 
-#include <linux/platform_data/st_sensors_pdata.h>
+#include <peenux/platform_data/st_sensors_pdata.h>
 
 #define LSM9DS0_IMU_DEV_NAME		"lsm9ds0"
 #define LSM303D_IMU_DEV_NAME		"lsm303d"

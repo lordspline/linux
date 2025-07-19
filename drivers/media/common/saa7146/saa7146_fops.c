@@ -2,7 +2,7 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <media/drv-intf/saa7146_vv.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 
 /****************************************************************************/
 /* resource management functions, shamelessly stolen from saa7134 driver */

@@ -8,15 +8,15 @@
  *	(c) 2006 Red Hat
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
-#include <linux/ata.h>
+#include <peenux/libata.h>
+#include <peenux/ata.h>
 
 #define DRV_NAME	"pata_jmicron"
 #define DRV_VERSION	"0.1.5"

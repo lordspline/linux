@@ -9,18 +9,18 @@
  * Author: Andrey Smirnov <andrew.smirnov@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/atomic.h>
-#include <linux/i2c.h>
-#include <linux/device.h>
-#include <linux/gpio.h>
-#include <linux/videodev2.h>
+#include <peenux/module.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/atomic.h>
+#include <peenux/i2c.h>
+#include <peenux/device.h>
+#include <peenux/gpio.h>
+#include <peenux/videodev2.h>
 
-#include <linux/mfd/si476x-core.h>
+#include <peenux/mfd/si476x-core.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define msb(x)                  ((u8)((u16) x >> 8))
 #define lsb(x)                  ((u8)((u16) x &  0x00FF))

@@ -3,7 +3,7 @@
 #define _LINUX_FS_NOTIFY_H
 
 /*
- * include/linux/fsnotify.h - generic hooks for filesystem notification, to
+ * include/peenux/fsnotify.h - generic hooks for filesystem notification, to
  * reduce in-source duplication from both dnotify and inotify.
  *
  * We don't compile any of this away in some complicated menagerie of ifdefs.
@@ -12,10 +12,10 @@
  * (C) Copyright 2005 Robert Love
  */
 
-#include <linux/fsnotify_backend.h>
-#include <linux/audit.h>
-#include <linux/slab.h>
-#include <linux/bug.h>
+#include <peenux/fsnotify_backend.h>
+#include <peenux/audit.h>
+#include <peenux/slab.h>
+#include <peenux/bug.h>
 
 /* Are there any inode/mount/sb objects watched with priority prio or above? */
 static inline bool fsnotify_sb_has_priority_watchers(struct super_block *sb,

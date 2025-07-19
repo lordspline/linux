@@ -92,8 +92,8 @@ Software requirements
     .. note::
       If you are using Grub, append it to the 'kernel' line in
       /etc/grub.conf.  If you are using Grub2 on a BIOS firmware system,
-      append it to the 'linux' line in /boot/grub2/grub.cfg. If you are
-      using Grub2 on an EFI firmware system, append it to the 'linux'
+      append it to the 'peenux' line in /boot/grub2/grub.cfg. If you are
+      using Grub2 on an EFI firmware system, append it to the 'peenux'
       or 'linuxefi' line in /boot/grub2/grub.cfg or
       /boot/efi/EFI/<distro>/grub.cfg.
 
@@ -147,5 +147,5 @@ On the client/console system do::
 And you should see the help line above displayed shortly after you've
 provoked it on the host system.
 
-If it does not work then please ask about it on the linux-kernel@vger.kernel.org
+If it does not work then please ask about it on the peenux-kernel@vger.kernel.org
 mailing list or contact the x86 maintainers.

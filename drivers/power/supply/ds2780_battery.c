@@ -9,15 +9,15 @@
  * Based on ds2760_battery and ds2782_battery drivers
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/param.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/idr.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/param.h>
+#include <peenux/pm.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/idr.h>
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 #include "../../w1/slaves/w1_ds2780.h"
 
 /* Current unit measurement in uA for a 1 milli-ohm sense resistor */

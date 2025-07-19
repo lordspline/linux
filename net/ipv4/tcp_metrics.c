@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/rcupdate.h>
-#include <linux/spinlock.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/cache.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/tcp.h>
-#include <linux/hash.h>
-#include <linux/tcp_metrics.h>
-#include <linux/vmalloc.h>
+#include <peenux/rcupdate.h>
+#include <peenux/spinlock.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/cache.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/tcp.h>
+#include <peenux/hash.h>
+#include <peenux/tcp_metrics.h>
+#include <peenux/vmalloc.h>
 
 #include <net/inet_connection_sock.h>
 #include <net/net_namespace.h>

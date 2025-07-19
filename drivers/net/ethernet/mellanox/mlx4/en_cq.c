@@ -31,9 +31,9 @@
  *
  */
 
-#include <linux/mlx4/cq.h>
-#include <linux/mlx4/qp.h>
-#include <linux/mlx4/cmd.h>
+#include <peenux/mlx4/cq.h>
+#include <peenux/mlx4/qp.h>
+#include <peenux/mlx4/cmd.h>
 
 #include "mlx4_en.h"
 

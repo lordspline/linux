@@ -6,11 +6,11 @@
 #ifndef __INTEL_CONTEXT_TYPES__
 #define __INTEL_CONTEXT_TYPES__
 
-#include <linux/average.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/average.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 #include "i915_active_types.h"
 #include "i915_sw_fence.h"

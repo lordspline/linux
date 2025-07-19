@@ -7,7 +7,7 @@
 #define _AIE2_PCI_H_
 
 #include <drm/amdxdna_accel.h>
-#include <linux/semaphore.h>
+#include <peenux/semaphore.h>
 
 #include "amdxdna_mailbox.h"
 

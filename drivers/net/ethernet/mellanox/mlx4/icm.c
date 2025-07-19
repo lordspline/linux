@@ -31,12 +31,12 @@
  * SOFTWARE.
  */
 
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
 
-#include <linux/mlx4/cmd.h>
+#include <peenux/mlx4/cmd.h>
 
 #include "mlx4.h"
 #include "icm.h"

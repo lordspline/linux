@@ -3,7 +3,7 @@
 #ifndef DRM_FBDEV_TTM_H
 #define DRM_FBDEV_TTM_H
 
-#include <linux/stddef.h>
+#include <peenux/stddef.h>
 
 struct drm_fb_helper;
 struct drm_fb_helper_surface_size;

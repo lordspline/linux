@@ -5,12 +5,12 @@
  * All rights reserved.
  */
 
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
 #include <asm/io.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
 
 #include "netxen_nic.h"
 #include "netxen_nic_hw.h"

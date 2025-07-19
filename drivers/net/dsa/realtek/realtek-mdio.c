@@ -19,10 +19,10 @@
  * Copyright (C) 2009-2010 Gabor Juhos <juhosg@openwrt.org>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/overflow.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/overflow.h>
+#include <peenux/regmap.h>
 
 #include "realtek.h"
 #include "realtek-mdio.h"

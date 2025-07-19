@@ -21,10 +21,10 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
 #include "xp.h"
 
 /*

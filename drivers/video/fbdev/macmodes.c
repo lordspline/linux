@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/macmodes.c -- Standard MacOS video modes
+ *  peenux/drivers/video/macmodes.c -- Standard MacOS video modes
  *
  *	Copyright (C) 1998 Geert Uytterhoeven
  *
@@ -15,10 +15,10 @@
  *  more details.
  */
 
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/string.h>
-#include <linux/module.h>
+#include <peenux/errno.h>
+#include <peenux/fb.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
 
 #include "macmodes.h"
 

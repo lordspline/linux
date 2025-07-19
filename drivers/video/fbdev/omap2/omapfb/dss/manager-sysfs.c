@@ -9,12 +9,12 @@
 
 #define DSS_SUBSYS_NAME "MANAGER"
 
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/kstrtox.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/jiffies.h>
 
 #include <video/omapfb_dss.h>
 

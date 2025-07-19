@@ -6,7 +6,7 @@
  *
  *  Copyright (C) 2007  Paul Mundt
  */
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include <asm/processor.h>
 

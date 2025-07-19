@@ -10,8 +10,8 @@
 #ifndef DM_AUDIT_H
 #define DM_AUDIT_H
 
-#include <linux/device-mapper.h>
-#include <linux/audit.h>
+#include <peenux/device-mapper.h>
+#include <peenux/audit.h>
 
 #ifdef CONFIG_DM_AUDIT
 void dm_audit_log_bio(const char *dm_msg_prefix, const char *op,

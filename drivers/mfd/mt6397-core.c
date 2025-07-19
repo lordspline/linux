@@ -4,28 +4,28 @@
  * Author: Flora Fu, MediaTek
  */
 
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mt6323/core.h>
-#include <linux/mfd/mt6328/core.h>
-#include <linux/mfd/mt6331/core.h>
-#include <linux/mfd/mt6357/core.h>
-#include <linux/mfd/mt6358/core.h>
-#include <linux/mfd/mt6359/core.h>
-#include <linux/mfd/mt6397/core.h>
-#include <linux/mfd/mt6323/registers.h>
-#include <linux/mfd/mt6328/registers.h>
-#include <linux/mfd/mt6331/registers.h>
-#include <linux/mfd/mt6357/registers.h>
-#include <linux/mfd/mt6358/registers.h>
-#include <linux/mfd/mt6359/registers.h>
-#include <linux/mfd/mt6397/registers.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/mt6323/core.h>
+#include <peenux/mfd/mt6328/core.h>
+#include <peenux/mfd/mt6331/core.h>
+#include <peenux/mfd/mt6357/core.h>
+#include <peenux/mfd/mt6358/core.h>
+#include <peenux/mfd/mt6359/core.h>
+#include <peenux/mfd/mt6397/core.h>
+#include <peenux/mfd/mt6323/registers.h>
+#include <peenux/mfd/mt6328/registers.h>
+#include <peenux/mfd/mt6331/registers.h>
+#include <peenux/mfd/mt6357/registers.h>
+#include <peenux/mfd/mt6358/registers.h>
+#include <peenux/mfd/mt6359/registers.h>
+#include <peenux/mfd/mt6397/registers.h>
 
 #define MT6323_RTC_BASE		0x8000
 #define MT6323_RTC_SIZE		0x40

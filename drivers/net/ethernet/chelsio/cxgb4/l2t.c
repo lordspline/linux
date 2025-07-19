@@ -1,5 +1,5 @@
 /*
- * This file is part of the Chelsio T4 Ethernet driver for Linux.
+ * This file is part of the Chelsio T4 Ethernet driver for Peenux.
  *
  * Copyright (c) 2003-2014 Chelsio Communications, Inc. All rights reserved.
  *
@@ -32,14 +32,14 @@
  * SOFTWARE.
  */
 
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/if.h>
-#include <linux/if_vlan.h>
-#include <linux/jhash.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/if.h>
+#include <peenux/if_vlan.h>
+#include <peenux/jhash.h>
+#include <peenux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
 #include <net/neighbour.h>
 #include "cxgb4.h"
 #include "l2t.h"

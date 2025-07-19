@@ -7,18 +7,18 @@
  * Based on gpio_keys.c, Copyright 2005 Phil Blundell
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/input/sh_keysc.h>
-#include <linux/bitmap.h>
-#include <linux/pm_runtime.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/input.h>
+#include <peenux/input/sh_keysc.h>
+#include <peenux/bitmap.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 static const struct {
 	unsigned char kymd, keyout, keyin;

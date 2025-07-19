@@ -9,10 +9,10 @@
 #include "dm-bio-prison-v1.h"
 #include "dm-bio-prison-v2.h"
 
-#include <linux/spinlock.h>
-#include <linux/mempool.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/mempool.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 /*----------------------------------------------------------------*/
 
@@ -454,5 +454,5 @@ module_init(dm_bio_prison_init);
 module_exit(dm_bio_prison_exit);
 
 MODULE_DESCRIPTION(DM_NAME " bio prison");
-MODULE_AUTHOR("Joe Thornber <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Joe Thornber <dm-devel@lists.peenux.dev>");
 MODULE_LICENSE("GPL");

@@ -7,13 +7,13 @@
  *	(c) 2000-2023 by Helge Deller <deller@gmx.de>
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 #include <asm/io.h>
 #include <asm/hardware.h>

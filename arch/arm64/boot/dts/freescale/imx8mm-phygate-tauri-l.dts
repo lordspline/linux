@@ -5,7 +5,7 @@
 
 /dts-v1/;
 
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/peenux-event-codes.h>
 #include <dt-bindings/leds/common.h>
 #include <dt-bindings/phy/phy-imx8-pcie.h>
 #include "imx8mm-phycore-som.dtsi"
@@ -34,7 +34,7 @@
 		key {
 			gpios = <&gpio1 9 GPIO_ACTIVE_LOW>;
 			label = "KEY-A";
-			linux,code = <KEY_A>;
+			peenux,code = <KEY_A>;
 		};
 	};
 
@@ -46,13 +46,13 @@
 		led-1 {
 			color = <LED_COLOR_ID_RED>;
 			gpios = <&gpio5 5 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "none";
+			peenux,default-trigger = "none";
 		};
 
 		led-2 {
 			color = <LED_COLOR_ID_YELLOW>;
 			gpios = <&gpio4 30 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "none";
+			peenux,default-trigger = "none";
 		};
 	};
 

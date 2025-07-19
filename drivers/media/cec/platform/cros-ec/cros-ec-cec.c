@@ -6,17 +6,17 @@
  * Author: Neil Armstrong <narmstrong@baylibre.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/dmi.h>
-#include <linux/pci.h>
-#include <linux/cec.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/dmi.h>
+#include <peenux/pci.h>
+#include <peenux/cec.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
 #include <media/cec.h>
 #include <media/cec-notifier.h>
 

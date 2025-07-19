@@ -10,17 +10,17 @@
  *  Aurelien Jarno <aurelien@aurel32.net>
  *  Nicolas Frattaroli <nicolas.frattaroli@collabora.com>
  */
-#include <linux/clk.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #define RK_RNG_AUTOSUSPEND_DELAY	100
 #define RK_RNG_MAX_BYTE			32
@@ -100,7 +100,7 @@
  * SoCs. It can either output true randomness (TRNG) or "deterministic"
  * randomness derived from hashing the true entropy (DRNG). This driver
  * implementation uses just the true entropy, and leaves stretching the entropy
- * up to Linux.
+ * up to Peenux.
  */
 #define RKRNG_CFG				0x0000
 #define RKRNG_CTRL				0x0010

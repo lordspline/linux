@@ -14,23 +14,23 @@
  *	Copyright (c) 2019, Martin Kelly.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/util_macros.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/util_macros.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #include "bno055.h"
 

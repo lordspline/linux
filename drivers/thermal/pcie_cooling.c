@@ -5,15 +5,15 @@
  * Copyright (C) 2023-2024 Intel Corporation
  */
 
-#include <linux/build_bug.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci-bwctrl.h>
-#include <linux/slab.h>
-#include <linux/sprintf.h>
-#include <linux/thermal.h>
+#include <peenux/build_bug.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pci-bwctrl.h>
+#include <peenux/slab.h>
+#include <peenux/sprintf.h>
+#include <peenux/thermal.h>
 
 #define COOLING_DEV_TYPE_PREFIX		"PCIe_Port_Link_Speed_"
 
@@ -76,5 +76,5 @@ static_assert(PCIE_SPEED_8_0GT + 1 == PCIE_SPEED_16_0GT);
 static_assert(PCIE_SPEED_16_0GT + 1 == PCIE_SPEED_32_0GT);
 static_assert(PCIE_SPEED_32_0GT + 1 == PCIE_SPEED_64_0GT);
 
-MODULE_AUTHOR("Ilpo Järvinen <ilpo.jarvinen@linux.intel.com>");
+MODULE_AUTHOR("Ilpo Järvinen <ilpo.jarvinen@peenux.intel.com>");
 MODULE_DESCRIPTION("PCIe cooling driver");

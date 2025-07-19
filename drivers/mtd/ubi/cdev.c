@@ -22,14 +22,14 @@
  * devices.
  */
 
-#include <linux/module.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/ioctl.h>
-#include <linux/capability.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
-#include <linux/math64.h>
+#include <peenux/module.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/ioctl.h>
+#include <peenux/capability.h>
+#include <peenux/uaccess.h>
+#include <peenux/compat.h>
+#include <peenux/math64.h>
 #include <mtd/ubi-user.h>
 #include "ubi.h"
 

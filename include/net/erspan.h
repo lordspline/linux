@@ -58,10 +58,10 @@
  * GRE proto ERSPAN type I/II = 0x88BE, type III = 0x22EB
  */
 
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/skbuff.h>
-#include <uapi/linux/erspan.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/skbuff.h>
+#include <uapi/peenux/erspan.h>
 
 #define ERSPAN_VERSION	0x1	/* ERSPAN type II */
 #define VER_MASK	0xf000

@@ -5,13 +5,13 @@
  * Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
  */
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <asm/macio.h>
-#include <linux/pci.h>
-#include <linux/module.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
 #include "../soundbus.h"
 #include "i2sbus.h"
 

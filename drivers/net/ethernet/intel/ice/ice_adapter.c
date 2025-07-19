@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // SPDX-FileCopyrightText: Copyright Red Hat
 
-#include <linux/cleanup.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/xarray.h>
+#include <peenux/cleanup.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/xarray.h>
 #include "ice_adapter.h"
 #include "ice.h"
 

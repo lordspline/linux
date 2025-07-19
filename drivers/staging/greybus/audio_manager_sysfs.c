@@ -5,8 +5,8 @@
  * Copyright 2015-2016 Google Inc.
  */
 
-#include <linux/string.h>
-#include <linux/sysfs.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
 
 #include "audio_manager.h"
 #include "audio_manager_private.h"

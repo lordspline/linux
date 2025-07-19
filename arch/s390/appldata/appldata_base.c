@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Base infrastructure for Linux-z/VM Monitor Stream, Stage 1.
+ * Base infrastructure for Peenux-z/VM Monitor Stream, Stage 1.
  * Exports appldata_register_ops() and appldata_unregister_ops() for the
  * data gathering modules.
  *
@@ -12,22 +12,22 @@
 #define KMSG_COMPONENT	"appldata"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/sched/stat.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/pagemap.h>
-#include <linux/sysctl.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/workqueue.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/sched/stat.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/proc_fs.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/pagemap.h>
+#include <peenux/sysctl.h>
+#include <peenux/notifier.h>
+#include <peenux/cpu.h>
+#include <peenux/workqueue.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
 #include <asm/appldata.h>
 #include <asm/vtimer.h>
 #include <asm/smp.h>

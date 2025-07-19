@@ -5,18 +5,18 @@
  * Author: Boris Brezillon <boris.brezillon@bootlin.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 #include "internals.h"
 

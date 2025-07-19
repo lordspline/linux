@@ -6,10 +6,10 @@
  *
  * Copyright (C) 2002 Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/of_fdt.h>
-#include <linux/smp.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/of_fdt.h>
+#include <peenux/smp.h>
+#include <peenux/io.h>
 #include <asm/processor.h>
 #include <asm/cache.h>
 

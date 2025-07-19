@@ -7,24 +7,24 @@
  *         Andy Gross <andy.gross@ti.com>
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h> /* platform_device() */
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h> /* platform_device() */
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/vmalloc.h>
+#include <peenux/wait.h>
 
 #include "omap_dmm_tiler.h"
 #include "omap_dmm_priv.h"

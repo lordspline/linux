@@ -5,13 +5,13 @@
  * Copyright (c) 2024 Google LLC
  */
 
-#include <linux/array_size.h>
-#include <linux/errno.h>
-#include <linux/i2c-of-prober.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/stddef.h>
+#include <peenux/array_size.h>
+#include <peenux/errno.h>
+#include <peenux/i2c-of-prober.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/stddef.h>
 
 #define DRV_NAME	"chromeos_of_hw_prober"
 

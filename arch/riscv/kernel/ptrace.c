@@ -12,13 +12,13 @@
 #include <asm/syscall.h>
 #include <asm/thread_info.h>
 #include <asm/switch_to.h>
-#include <linux/audit.h>
-#include <linux/compat.h>
-#include <linux/ptrace.h>
-#include <linux/elf.h>
-#include <linux/regset.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/audit.h>
+#include <peenux/compat.h>
+#include <peenux/ptrace.h>
+#include <peenux/elf.h>
+#include <peenux/regset.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
 
 enum riscv_regset {
 	REGSET_X,

@@ -6,12 +6,12 @@
  * Author: Jacek Anaszewski <j.anaszewski@samsung.com>
  */
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/led-class-flash.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/led-class-flash.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #define has_flash_op(fled_cdev, op)				\
 	(fled_cdev && fled_cdev->ops->op)

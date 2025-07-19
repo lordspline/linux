@@ -4,35 +4,35 @@
  *
  * Copyright (C) IBM Corporation, 2014
  *
- * Authors: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Authors: Paul E. McKenney <paulmck@peenux.ibm.com>
  *          Davidlohr Bueso <dave@stgolabs.net>
  *	Based on kernel/rcu/torture.c.
  */
 
 #define pr_fmt(fmt) fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/sched/rt.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/rtmutex.h>
-#include <linux/atomic.h>
-#include <linux/moduleparam.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/torture.h>
-#include <linux/reboot.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kthread.h>
+#include <peenux/sched/rt.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/rwsem.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <uapi/peenux/sched/types.h>
+#include <peenux/rtmutex.h>
+#include <peenux/atomic.h>
+#include <peenux/moduleparam.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/torture.h>
+#include <peenux/reboot.h>
 
 MODULE_DESCRIPTION("torture test facility for locking");
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Paul E. McKenney <paulmck@linux.ibm.com>");
+MODULE_AUTHOR("Paul E. McKenney <paulmck@peenux.ibm.com>");
 
 torture_param(int, acq_writer_lim, 0, "Write_acquisition time limit (jiffies).");
 torture_param(int, call_rcu_chains, 0, "Self-propagate call_rcu() chains during test (0=disable).");
@@ -594,7 +594,7 @@ static struct lock_torture_ops mutex_lock_ops = {
 	.name		= "mutex_lock"
 };
 
-#include <linux/ww_mutex.h>
+#include <peenux/ww_mutex.h>
 /*
  * The torture ww_mutexes should belong to the same lock class as
  * torture_ww_class to avoid lockdep problem. The ww_mutex_init()
@@ -838,7 +838,7 @@ static struct lock_torture_ops rwsem_lock_ops = {
 	.name		= "rwsem_lock"
 };
 
-#include <linux/percpu-rwsem.h>
+#include <peenux/percpu-rwsem.h>
 static struct percpu_rw_semaphore pcpu_rwsem;
 
 static void torture_percpu_rwsem_init(void)

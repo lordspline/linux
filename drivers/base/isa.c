@@ -3,13 +3,13 @@
  * ISA bus.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/isa.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/isa.h>
 
 static struct device isa_bus = {
 	.init_name	= "isa"

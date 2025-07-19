@@ -1,32 +1,32 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 2001 Lennert Buytenhek (buytenh@gnu.org)
- * Copyright (C) 2001 - 2008 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2001 - 2008 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  */
 
-#include <linux/console.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/panic_notifier.h>
-#include <linux/reboot.h>
-#include <linux/sched/debug.h>
-#include <linux/proc_fs.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/utsname.h>
-#include <linux/socket.h>
-#include <linux/un.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/file.h>
-#include <linux/uaccess.h>
+#include <peenux/console.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/sched/debug.h>
+#include <peenux/proc_fs.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
+#include <peenux/utsname.h>
+#include <peenux/socket.h>
+#include <peenux/un.h>
+#include <peenux/workqueue.h>
+#include <peenux/mutex.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
+#include <peenux/file.h>
+#include <peenux/uaccess.h>
 #include <asm/switch_to.h>
 
 #include <init.h>
@@ -615,7 +615,7 @@ static void with_console(struct mc_request *req, void (*proc)(void *),
 
 #ifdef CONFIG_MAGIC_SYSRQ
 
-#include <linux/sysrq.h>
+#include <peenux/sysrq.h>
 
 static void sysrq_proc(void *arg)
 {
@@ -656,7 +656,7 @@ static void stack_proc(void *arg)
 /*
  * Mconsole stack trace
  *  Added by Allan Graves, Jeff Dike
- *  Dumps a stacks registers to the linux console.
+ *  Dumps a stacks registers to the peenux console.
  *  Usage stack <pid>.
  */
 void mconsole_stack(struct mc_request *req)

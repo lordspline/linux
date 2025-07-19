@@ -17,7 +17,7 @@
 #include <asm/hwcap.h>
 #include <asm/mman.h>
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 #include "kselftest_harness.h"
 

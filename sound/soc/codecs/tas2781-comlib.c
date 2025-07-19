@@ -6,17 +6,17 @@
 //
 // Author: Shenghao Ding <shenghao-ding@ti.com>
 
-#include <linux/crc8.h>
-#include <linux/dev_printk.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/crc8.h>
+#include <peenux/dev_printk.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include <sound/tas2781.h>
 
 int tasdevice_dev_read(struct tasdevice_priv *tas_priv,

@@ -5,14 +5,14 @@
  * Copyright (C) 2019-2024 ARM Ltd.
  */
 
-#include <linux/ktime.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/processor.h>
-#include <linux/types.h>
+#include <peenux/ktime.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/processor.h>
+#include <peenux/types.h>
 
-#include <linux/bug.h>
+#include <peenux/bug.h>
 
 #include "common.h"
 

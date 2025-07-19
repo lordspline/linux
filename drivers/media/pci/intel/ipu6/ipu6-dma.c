@@ -3,15 +3,15 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/cacheflush.h>
-#include <linux/dma-mapping.h>
-#include <linux/iova.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/cacheflush.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/iova.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "ipu6.h"
 #include "ipu6-bus.h"

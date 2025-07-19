@@ -6,11 +6,11 @@
  * Chao Xie <xiechao.mail@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 
 #include "clk.h"
 

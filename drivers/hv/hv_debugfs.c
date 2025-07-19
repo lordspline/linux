@@ -4,10 +4,10 @@
  *   Branden Bonaby <brandonbonaby94@gmail.com>
  */
 
-#include <linux/hyperv.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
+#include <peenux/hyperv.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
 
 #include "hyperv_vmbus.h"
 

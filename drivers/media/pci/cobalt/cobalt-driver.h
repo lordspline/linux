@@ -11,14 +11,14 @@
 #ifndef COBALT_DRIVER_H
 #define COBALT_DRIVER_H
 
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/i2c.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
+#include <peenux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/i2c.h>
+#include <peenux/list.h>
+#include <peenux/workqueue.h>
+#include <peenux/mutex.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

@@ -8,15 +8,15 @@
  *      and others.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/nubus.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/nubus.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 #include <asm/setup.h>
 #include <asm/page.h>
 #include <asm/hwtest.h>

@@ -3,7 +3,7 @@
  * Thunderbolt tracing support
  *
  * Copyright (C) 2024, Intel Corporation
- * Author: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Author: Mika Westerberg <mika.westerberg@peenux.intel.com>
  *	   Gil Fine <gil.fine@intel.com>
  */
 
@@ -13,8 +13,8 @@
 #if !defined(TB_TRACE_H_) || defined(TRACE_HEADER_MULTI_READ)
 #define TB_TRACE_H_
 
-#include <linux/trace_seq.h>
-#include <linux/tracepoint.h>
+#include <peenux/trace_seq.h>
+#include <peenux/tracepoint.h>
 
 #include "tb_msgs.h"
 

@@ -9,7 +9,7 @@
 #ifndef __MT6357_H__
 #define __MT6357_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* Reg bit defines */
 /* MT6357_GPIO_DIR0 */

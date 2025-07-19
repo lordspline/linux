@@ -8,11 +8,11 @@
 #ifndef _LINUX_PM_RUNTIME_H
 #define _LINUX_PM_RUNTIME_H
 
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/pm.h>
+#include <peenux/device.h>
+#include <peenux/notifier.h>
+#include <peenux/pm.h>
 
-#include <linux/jiffies.h>
+#include <peenux/jiffies.h>
 
 /* Runtime PM flag argument bits */
 #define RPM_ASYNC		0x01	/* Request is asynchronous */

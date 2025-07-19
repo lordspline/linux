@@ -9,32 +9,32 @@
  * Copyright (C) 2009 Texas Instruments
  * Added OMAP4 support - Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
-#include <linux/cleanup.h>
-#include <linux/cpu_pm.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/ioport.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h> /* GPIO descriptor enum */
-#include <linux/gpio/machine.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/omap-gpmc.h>
-#include <linux/pm_runtime.h>
-#include <linux/sizes.h>
+#include <peenux/cleanup.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/ioport.h>
+#include <peenux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/consumer.h> /* GPIO descriptor enum */
+#include <peenux/gpio/machine.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_device.h>
+#include <peenux/of_platform.h>
+#include <peenux/omap-gpmc.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sizes.h>
 
-#include <linux/platform_data/mtd-nand-omap2.h>
+#include <peenux/platform_data/mtd-nand-omap2.h>
 
 #define	DEVICE_NAME		"omap-gpmc"
 

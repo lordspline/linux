@@ -29,14 +29,14 @@
  *    Dave Airlie
  */
 
-#include <linux/atomic.h>
-#include <linux/debugfs.h>
-#include <linux/firmware.h>
-#include <linux/kref.h>
-#include <linux/sched/signal.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/debugfs.h>
+#include <peenux/firmware.h>
+#include <peenux/kref.h>
+#include <peenux/sched/signal.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>

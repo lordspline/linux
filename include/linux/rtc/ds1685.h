@@ -21,9 +21,9 @@
 #ifndef _LINUX_RTC_DS1685_H_
 #define _LINUX_RTC_DS1685_H_
 
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
+#include <peenux/rtc.h>
+#include <peenux/platform_device.h>
+#include <peenux/workqueue.h>
 
 /**
  * struct ds1685_priv - DS1685 private data structure.

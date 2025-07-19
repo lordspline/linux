@@ -6,13 +6,13 @@
 #ifndef __ETNAVIV_DRV_H__
 #define __ETNAVIV_DRV_H__
 
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/mm_types.h>
-#include <linux/sizes.h>
-#include <linux/time64.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/mm_types.h>
+#include <peenux/sizes.h>
+#include <peenux/time64.h>
+#include <peenux/types.h>
+#include <peenux/xarray.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_gem.h>

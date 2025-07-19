@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	IPv6 output functions
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
  *
- *	Based on linux/net/ipv4/ip_output.c
+ *	Based on peenux/net/ipv4/ip_output.c
  *
  *	Changes:
  *	A.N.Kuznetsov	:	airthmetics in fragmentation.
@@ -15,29 +15,29 @@
  *				ip6_forward does not confuse sniffers.
  *				etc.
  *
- *      H. von Brand    :       Added missing #include <linux/string.h>
+ *      H. von Brand    :       Added missing #include <peenux/string.h>
  *	Imran Patel	:	frag id should be in NBO
  *      Kazunori MIYAZAWA @USAGI
  *			:       add ip6_append_data and related functions
  *				for datagram xmit
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/socket.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/in6.h>
-#include <linux/tcp.h>
-#include <linux/route.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/socket.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/in6.h>
+#include <peenux/tcp.h>
+#include <peenux/route.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
-#include <linux/bpf-cgroup.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv6.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv6.h>
 
 #include <net/sock.h>
 #include <net/snmp.h>
@@ -52,7 +52,7 @@
 #include <net/icmp.h>
 #include <net/xfrm.h>
 #include <net/checksum.h>
-#include <linux/mroute6.h>
+#include <peenux/mroute6.h>
 #include <net/l3mdev.h>
 #include <net/lwtunnel.h>
 #include <net/ip_tunnels.h>

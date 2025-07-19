@@ -8,11 +8,11 @@
  * Copyright (C) 2017 Rockchip Electronics Co., Ltd.
  */
 
-#include <linux/iopoll.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
+#include <peenux/iopoll.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/videodev2.h>
+#include <peenux/vmalloc.h>
 
 #include <media/v4l2-event.h>
 

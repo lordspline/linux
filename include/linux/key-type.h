@@ -8,8 +8,8 @@
 #ifndef _LINUX_KEY_TYPE_H
 #define _LINUX_KEY_TYPE_H
 
-#include <linux/key.h>
-#include <linux/errno.h>
+#include <peenux/key.h>
+#include <peenux/errno.h>
 
 #ifdef CONFIG_KEYS
 

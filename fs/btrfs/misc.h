@@ -3,12 +3,12 @@
 #ifndef BTRFS_MISC_H
 #define BTRFS_MISC_H
 
-#include <linux/types.h>
-#include <linux/bitmap.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/math64.h>
-#include <linux/rbtree.h>
+#include <peenux/types.h>
+#include <peenux/bitmap.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/math64.h>
+#include <peenux/rbtree.h>
 
 /*
  * Enumerate bits using enum autoincrement. Define the @name as the n-th bit.

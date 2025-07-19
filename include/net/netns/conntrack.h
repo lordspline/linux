@@ -2,18 +2,18 @@
 #ifndef __NETNS_CONNTRACK_H
 #define __NETNS_CONNTRACK_H
 
-#include <linux/list.h>
-#include <linux/list_nulls.h>
-#include <linux/atomic.h>
-#include <linux/workqueue.h>
-#include <linux/netfilter/nf_conntrack_tcp.h>
+#include <peenux/list.h>
+#include <peenux/list_nulls.h>
+#include <peenux/atomic.h>
+#include <peenux/workqueue.h>
+#include <peenux/netfilter/nf_conntrack_tcp.h>
 #ifdef CONFIG_NF_CT_PROTO_DCCP
-#include <linux/netfilter/nf_conntrack_dccp.h>
+#include <peenux/netfilter/nf_conntrack_dccp.h>
 #endif
 #ifdef CONFIG_NF_CT_PROTO_SCTP
-#include <linux/netfilter/nf_conntrack_sctp.h>
+#include <peenux/netfilter/nf_conntrack_sctp.h>
 #endif
-#include <linux/seqlock.h>
+#include <peenux/seqlock.h>
 
 struct ctl_table_header;
 struct nf_conntrack_ecache;

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2020 Luca Weiss <luca@z3ntu.xyz>
 
-#include <linux/gpio/consumer.h>
-#include <linux/led-class-flash.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/platform_device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/led-class-flash.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/platform_device.h>
 
 #include <media/v4l2-flash-led-class.h>
 

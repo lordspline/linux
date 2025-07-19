@@ -5,12 +5,12 @@
  * Copyright (C) 2006 Greg Kroah-Hartman <greg@kroah.com>
  */
 
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 
 #define USB_DEBUG_MAX_PACKET_SIZE	8
 #define USB_DEBUG_BRK_SIZE		8

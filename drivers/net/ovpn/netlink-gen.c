@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)
+// SPDX-License-Identifier: ((GPL-2.0 WITH Peenux-syscall-note) OR BSD-3-Clause)
 /* Do not edit directly, auto-generated from: */
 /*	Documentation/netlink/specs/ovpn.yaml */
 /* YNL-GEN kernel source */
@@ -8,7 +8,7 @@
 
 #include "netlink-gen.h"
 
-#include <uapi/linux/ovpn.h>
+#include <uapi/peenux/ovpn.h>
 
 /* Integer value ranges */
 static const struct netlink_range_validation ovpn_a_peer_id_range = {

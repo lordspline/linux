@@ -17,7 +17,7 @@
 #ifndef _SELINUX_NETNODE_H
 #define _SELINUX_NETNODE_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 void sel_netnode_flush(void);
 

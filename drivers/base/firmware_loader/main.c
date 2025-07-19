@@ -10,33 +10,33 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/capability.h>
-#include <linux/device.h>
-#include <linux/kernel_read_file.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/initrd.h>
-#include <linux/timer.h>
-#include <linux/vmalloc.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/highmem.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/file.h>
-#include <linux/list.h>
-#include <linux/fs.h>
-#include <linux/async.h>
-#include <linux/pm.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/reboot.h>
-#include <linux/security.h>
-#include <linux/zstd.h>
-#include <linux/xz.h>
+#include <peenux/capability.h>
+#include <peenux/device.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/initrd.h>
+#include <peenux/timer.h>
+#include <peenux/vmalloc.h>
+#include <peenux/interrupt.h>
+#include <peenux/bitops.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
+#include <peenux/highmem.h>
+#include <peenux/firmware.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/file.h>
+#include <peenux/list.h>
+#include <peenux/fs.h>
+#include <peenux/async.h>
+#include <peenux/pm.h>
+#include <peenux/suspend.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/reboot.h>
+#include <peenux/security.h>
+#include <peenux/zstd.h>
+#include <peenux/xz.h>
 
 #include <generated/utsrelease.h>
 

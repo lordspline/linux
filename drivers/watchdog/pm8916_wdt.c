@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/watchdog.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/watchdog.h>
 
 #define PON_POFF_REASON1		0x0c
 #define PON_POFF_REASON1_PMIC_WD	BIT(2)

@@ -14,8 +14,8 @@
  * functions used in binfmt_elf.c to compat versions.
  */
 
-#include <linux/elfcore-compat.h>
-#include <linux/time.h>
+#include <peenux/elfcore-compat.h>
+#include <peenux/time.h>
 
 #define ELF_COMPAT	1
 

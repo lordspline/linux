@@ -14,12 +14,12 @@
 #include "fluke_gpib.h"
 
 #include "gpibP.h"
-#include <linux/dma-mapping.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("GPIB Driver for Fluke cda devices");

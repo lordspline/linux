@@ -28,9 +28,9 @@
  *	Bit 0  - Digital input 0
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/comedi/comedidev.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/comedi/comedidev.h>
 
 #define AIO_IIRO_16_RELAY_0_7		0x00
 #define AIO_IIRO_16_INPUT_0_7		0x01

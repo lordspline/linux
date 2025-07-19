@@ -4,9 +4,9 @@
 #define __SOCKET_HELPERS__
 
 #include <sys/un.h>
-#include <linux/vm_sockets.h>
+#include <peenux/vm_sockets.h>
 
-/* include/linux/net.h */
+/* include/peenux/net.h */
 #define SOCK_TYPE_MASK 0xf
 
 #define IO_TIMEOUT_SEC 30
@@ -17,7 +17,7 @@
 #define VMADDR_CID_LOCAL 1
 #endif
 
-/* include/linux/cleanup.h */
+/* include/peenux/cleanup.h */
 #define __get_and_null(p, nullvalue)                                           \
 	({                                                                     \
 		__auto_type __ptr = &(p);                                      \

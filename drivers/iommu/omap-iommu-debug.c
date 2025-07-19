@@ -7,13 +7,13 @@
  * Written by Hiroshi DOYU <Hiroshi.DOYU@nokia.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/pm_runtime.h>
-#include <linux/debugfs.h>
-#include <linux/platform_data/iommu-omap.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/debugfs.h>
+#include <peenux/platform_data/iommu-omap.h>
 
 #include "omap-iopgtable.h"
 #include "omap-iommu.h"

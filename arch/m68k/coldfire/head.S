@@ -9,8 +9,8 @@
 
 /*****************************************************************************/
 
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
 #include <asm/asm-offsets.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>
@@ -291,7 +291,7 @@ _clear_bss:
 	/*
 	 *	Assembler start up done, start code proper.
 	 */
-	jsr	start_kernel			/* start Linux kernel */
+	jsr	start_kernel			/* start Peenux kernel */
 
 _exit:
 	jmp	_exit				/* should never get here */

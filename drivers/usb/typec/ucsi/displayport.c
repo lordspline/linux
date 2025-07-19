@@ -3,11 +3,11 @@
  * UCSI DisplayPort Alternate Mode Support
  *
  * Copyright (C) 2018, Intel Corporation
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@peenux.intel.com>
  */
 
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/pd_vdo.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/pd_vdo.h>
 
 #include "ucsi.h"
 

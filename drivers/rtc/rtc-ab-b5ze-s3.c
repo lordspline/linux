@@ -13,13 +13,13 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/rtc.h>
-#include <linux/i2c.h>
-#include <linux/bcd.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/rtc.h>
+#include <peenux/i2c.h>
+#include <peenux/bcd.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/interrupt.h>
 
 #define DRV_NAME "rtc-ab-b5ze-s3"
 

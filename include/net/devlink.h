@@ -7,19 +7,19 @@
 #ifndef _NET_DEVLINK_H_
 #define _NET_DEVLINK_H_
 
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/gfp.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/refcount.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/gfp.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
+#include <peenux/refcount.h>
 #include <net/net_namespace.h>
 #include <net/flow_offload.h>
-#include <uapi/linux/devlink.h>
-#include <linux/xarray.h>
-#include <linux/firmware.h>
+#include <uapi/peenux/devlink.h>
+#include <peenux/xarray.h>
+#include <peenux/firmware.h>
 
 struct devlink;
 struct devlink_linecard;

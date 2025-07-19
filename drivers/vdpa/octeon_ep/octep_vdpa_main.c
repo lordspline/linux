@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (C) 2024 Marvell. */
 
-#include <linux/interrupt.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/module.h>
-#include <linux/iommu.h>
+#include <peenux/interrupt.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/module.h>
+#include <peenux/iommu.h>
 #include "octep_vdpa.h"
 
 #define OCTEP_VDPA_DRIVER_NAME "octep_vdpa"

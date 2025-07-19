@@ -23,30 +23,30 @@
 #define KMSG_COMPONENT "ctcm"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/bitops.h>
 
-#include <linux/signal.h>
-#include <linux/string.h>
+#include <peenux/signal.h>
+#include <peenux/string.h>
 
-#include <linux/ip.h>
-#include <linux/if_arp.h>
-#include <linux/tcp.h>
-#include <linux/skbuff.h>
-#include <linux/ctype.h>
+#include <peenux/ip.h>
+#include <peenux/if_arp.h>
+#include <peenux/tcp.h>
+#include <peenux/skbuff.h>
+#include <peenux/ctype.h>
 #include <net/dst.h>
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/ccwdev.h>
 #include <asm/ccwgroup.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <asm/idals.h>
 

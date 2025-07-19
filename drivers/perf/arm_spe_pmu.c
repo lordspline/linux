@@ -12,27 +12,27 @@
 #define DRVNAME					PMUNAME "_pmu"
 #define pr_fmt(fmt)				DRVNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/capability.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/perf_event.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/vmalloc.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/capability.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/cpumask.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/perf_event.h>
+#include <peenux/perf/arm_pmu.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/barrier.h>
 #include <asm/cpufeature.h>

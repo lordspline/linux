@@ -15,13 +15,13 @@
 #define KMSG_COMPONENT "IPVS"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/sysctl.h>
-#include <linux/list.h>
-#include <linux/rcupdate_wait.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/sysctl.h>
+#include <peenux/list.h>
+#include <peenux/rcupdate_wait.h>
 
 #include <net/ip_vs.h>
 

@@ -7,9 +7,9 @@
  *	Audit calls for the integrity subsystem
  */
 
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/audit.h>
+#include <peenux/fs.h>
+#include <peenux/gfp.h>
+#include <peenux/audit.h>
 #include "integrity.h"
 
 static int integrity_audit_info;

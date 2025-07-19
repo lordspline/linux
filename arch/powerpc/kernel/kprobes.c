@@ -13,20 +13,20 @@
  *		for PPC64
  */
 
-#include <linux/kprobes.h>
-#include <linux/ptrace.h>
-#include <linux/preempt.h>
-#include <linux/extable.h>
-#include <linux/kdebug.h>
-#include <linux/slab.h>
-#include <linux/set_memory.h>
-#include <linux/execmem.h>
+#include <peenux/kprobes.h>
+#include <peenux/ptrace.h>
+#include <peenux/preempt.h>
+#include <peenux/extable.h>
+#include <peenux/kdebug.h>
+#include <peenux/slab.h>
+#include <peenux/set_memory.h>
+#include <peenux/execmem.h>
 #include <asm/text-patching.h>
 #include <asm/cacheflush.h>
 #include <asm/sstep.h>
 #include <asm/sections.h>
 #include <asm/inst.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 DEFINE_PER_CPU(struct kprobe *, current_kprobe) = NULL;
 DEFINE_PER_CPU(struct kprobe_ctlblk, kprobe_ctlblk);

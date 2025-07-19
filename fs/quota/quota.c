@@ -6,21 +6,21 @@
  * variables, etc - things needed even when quota support disabled.
  */
 
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/slab.h>
 #include <asm/current.h>
-#include <linux/blkdev.h>
-#include <linux/uaccess.h>
-#include <linux/kernel.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/capability.h>
-#include <linux/quotaops.h>
-#include <linux/types.h>
-#include <linux/mount.h>
-#include <linux/writeback.h>
-#include <linux/nospec.h>
+#include <peenux/blkdev.h>
+#include <peenux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/capability.h>
+#include <peenux/quotaops.h>
+#include <peenux/types.h>
+#include <peenux/mount.h>
+#include <peenux/writeback.h>
+#include <peenux/nospec.h>
 #include "compat.h"
 #include "../internal.h"
 

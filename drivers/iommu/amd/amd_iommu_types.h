@@ -8,17 +8,17 @@
 #ifndef _ASM_X86_AMD_IOMMU_TYPES_H
 #define _ASM_X86_AMD_IOMMU_TYPES_H
 
-#include <linux/bitfield.h>
-#include <linux/iommu.h>
-#include <linux/types.h>
-#include <linux/mmu_notifier.h>
-#include <linux/mutex.h>
-#include <linux/msi.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/irqreturn.h>
-#include <linux/io-pgtable.h>
+#include <peenux/bitfield.h>
+#include <peenux/iommu.h>
+#include <peenux/types.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/mutex.h>
+#include <peenux/msi.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/pci.h>
+#include <peenux/irqreturn.h>
+#include <peenux/io-pgtable.h>
 
 /*
  * Maximum number of IOMMUs supported

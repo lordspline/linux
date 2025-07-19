@@ -3,7 +3,7 @@
 #define __PERF_MEM_EVENTS_H
 
 #include <stdbool.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct perf_mem_event {
 	bool		supported;

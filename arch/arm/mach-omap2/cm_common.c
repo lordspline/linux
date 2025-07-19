@@ -8,12 +8,12 @@
  * XXX This code should eventually be moved to a CM driver.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/bug.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/bug.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #include "cm2xxx.h"
 #include "cm3xxx.h"

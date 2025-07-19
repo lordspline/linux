@@ -9,7 +9,7 @@
 #ifndef __LINUX_MFD_MAX77714_H_
 #define __LINUX_MFD_MAX77714_H_
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 #define MAX77714_INT_TOP	0x00
 #define MAX77714_INT_TOPM	0x07 /* Datasheet says "read only", but it is RW */

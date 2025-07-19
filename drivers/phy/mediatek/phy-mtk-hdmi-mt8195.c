@@ -3,17 +3,17 @@
  * Copyright (c) 2022 MediaTek Inc.
  * Copyright (c) 2022 BayLibre, SAS
  */
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/types.h>
-#include <linux/units.h>
-#include <linux/nvmem-consumer.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
+#include <peenux/nvmem-consumer.h>
 
 #include "phy-mtk-io.h"
 #include "phy-mtk-hdmi.h"

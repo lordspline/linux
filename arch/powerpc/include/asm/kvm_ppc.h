@@ -12,12 +12,12 @@
 /* This file exists just so we can dereference kvm_vcpu, avoiding nested header
  * dependencies. */
 
-#include <linux/mutex.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/kvm_types.h>
-#include <linux/kvm_host.h>
-#include <linux/bug.h>
+#include <peenux/mutex.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/kvm_types.h>
+#include <peenux/kvm_host.h>
+#include <peenux/bug.h>
 #ifdef CONFIG_PPC_BOOK3S
 #include <asm/kvm_book3s.h>
 #else

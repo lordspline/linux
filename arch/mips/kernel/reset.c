@@ -3,15 +3,15 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  *
- * Copyright (C) 2001, 06 by Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2001, 06 by Ralf Baechle (ralf@peenux-mips.org)
  * Copyright (C) 2001 MIPS Technologies, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/pm.h>
-#include <linux/types.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/pm.h>
+#include <peenux/types.h>
+#include <peenux/reboot.h>
+#include <peenux/delay.h>
 
 #include <asm/compiler.h>
 #include <asm/idle.h>

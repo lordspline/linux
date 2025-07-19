@@ -15,15 +15,15 @@
  * Joe Taylor <joe@tensilica.com>
  */
 
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/personality.h>
-#include <linux/resume_user_mode.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/signal.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/personality.h>
+#include <peenux/resume_user_mode.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/ucontext.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/cacheflush.h>
 #include <asm/coprocessor.h>
 #include <asm/processor.h>

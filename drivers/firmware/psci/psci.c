@@ -6,21 +6,21 @@
 
 #define pr_fmt(fmt) "psci: " fmt
 
-#include <linux/acpi.h>
-#include <linux/arm-smccc.h>
-#include <linux/cpuidle.h>
-#include <linux/debugfs.h>
-#include <linux/errno.h>
-#include <linux/linkage.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/printk.h>
-#include <linux/psci.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
+#include <peenux/acpi.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/cpuidle.h>
+#include <peenux/debugfs.h>
+#include <peenux/errno.h>
+#include <peenux/linkage.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
+#include <peenux/printk.h>
+#include <peenux/psci.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
 
-#include <uapi/linux/psci.h>
+#include <uapi/peenux/psci.h>
 
 #include <asm/cpuidle.h>
 #include <asm/cputype.h>

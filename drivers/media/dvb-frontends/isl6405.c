@@ -7,13 +7,13 @@
  *
  * the project's page is at https://linuxtv.org
  */
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
 
 #include <media/dvb_frontend.h>
 #include "isl6405.h"

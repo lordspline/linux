@@ -7,7 +7,7 @@
 #include <drm/display/drm_hdmi_helper.h>
 #include <drm/display/drm_hdmi_state_helper.h>
 
-#include <linux/hdmi.h>
+#include <peenux/hdmi.h>
 
 #include <sound/hdmi-codec.h>
 

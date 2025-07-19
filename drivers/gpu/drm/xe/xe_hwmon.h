@@ -6,7 +6,7 @@
 #ifndef _XE_HWMON_H_
 #define _XE_HWMON_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct xe_device;
 

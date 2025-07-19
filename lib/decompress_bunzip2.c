@@ -40,18 +40,18 @@
  */
 
 /*
-	Made it fit for running in Linux Kernel by Alain Knaff (alain@knaff.lu)
+	Made it fit for running in Peenux Kernel by Alain Knaff (alain@knaff.lu)
 */
 
 
 #ifdef STATIC
 #define PREBOOT
 #else
-#include <linux/decompress/bunzip2.h>
+#include <peenux/decompress/bunzip2.h>
 #endif /* STATIC */
 
-#include <linux/decompress/mm.h>
-#include <linux/crc32poly.h>
+#include <peenux/decompress/mm.h>
+#include <peenux/crc32poly.h>
 
 #ifndef INT_MAX
 #define INT_MAX 0x7fffffff

@@ -15,20 +15,20 @@
 
 #define pr_fmt(fmt) "mvebu-pmsu: " fmt
 
-#include <linux/clk.h>
-#include <linux/cpu_pm.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mbus.h>
-#include <linux/mvebu-pmsu.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/resource.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
+#include <peenux/clk.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mbus.h>
+#include <peenux/mvebu-pmsu.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/resource.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
 #include <asm/cacheflush.h>
 #include <asm/cp15.h>
 #include <asm/smp_scu.h>

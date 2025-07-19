@@ -2,8 +2,8 @@
 #ifndef _ASM_X86_TRACE_CLOCK_H
 #define _ASM_X86_TRACE_CLOCK_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_X86_TSC
 

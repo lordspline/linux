@@ -1,5 +1,5 @@
 /*
- * linux/fs/nls/nls_cp775.c
+ * peenux/fs/nls/nls_cp775.c
  *
  * Charset cp775 translation tables.
  * Generated automatically from the Unicode and charset
@@ -7,11 +7,11 @@
  * The Unicode to charset table has only exact mappings.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/nls.h>
-#include <linux/errno.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/nls.h>
+#include <peenux/errno.h>
 
 static const wchar_t charset2uni[256] = {
 	/* 0x00*/

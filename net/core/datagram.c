@@ -34,28 +34,28 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/uaccess.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/poll.h>
-#include <linux/highmem.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/iov_iter.h>
-#include <linux/indirect_call_wrapper.h>
-#include <linux/crc32.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/uaccess.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/poll.h>
+#include <peenux/highmem.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/pagemap.h>
+#include <peenux/iov_iter.h>
+#include <peenux/indirect_call_wrapper.h>
+#include <peenux/crc32.h>
 
 #include <net/protocol.h>
-#include <linux/skbuff.h>
+#include <peenux/skbuff.h>
 
 #include <net/checksum.h>
 #include <net/sock.h>

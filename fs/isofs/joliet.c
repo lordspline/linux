@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/isofs/joliet.c
+ *  peenux/fs/isofs/joliet.c
  *
  *  (C) 1996 Gordon Chaffee
  *
  *  Joliet: Microsoft's Unicode extensions to iso9660
  */
 
-#include <linux/types.h>
-#include <linux/nls.h>
+#include <peenux/types.h>
+#include <peenux/nls.h>
 #include "isofs.h"
 
 /*

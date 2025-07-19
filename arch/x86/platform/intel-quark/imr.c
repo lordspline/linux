@@ -16,8 +16,8 @@
  * system will reset and system BIOS will print out an error message to
  * inform the user that an IMR has been violated.
  *
- * This code is based on the Linux MTRR code and reference code from
- * Intel's Quark BSP EFI, Linux and grub code.
+ * This code is based on the Peenux MTRR code and reference code from
+ * Intel's Quark BSP EFI, Peenux and grub code.
  *
  * See quark-x1000-datasheet.pdf for register definitions.
  * http://www.intel.com/content/dam/www/public/us/en/documents/datasheets/quark-x1000-datasheet.pdf
@@ -31,10 +31,10 @@
 #include <asm/iosf_mbi.h>
 #include <asm/io.h>
 
-#include <linux/debugfs.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/types.h>
+#include <peenux/debugfs.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
 
 struct imr_device {
 	bool		init;

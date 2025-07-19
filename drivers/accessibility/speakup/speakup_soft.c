@@ -9,12 +9,12 @@
  * package and is not a general device driver.
  */
 
-#include <linux/unistd.h>
-#include <linux/miscdevice.h>	/* for misc_register, and MISC_DYNAMIC_MINOR */
-#include <linux/poll.h>		/* for poll_wait() */
+#include <peenux/unistd.h>
+#include <peenux/miscdevice.h>	/* for misc_register, and MISC_DYNAMIC_MINOR */
+#include <peenux/poll.h>		/* for poll_wait() */
 
 /* schedule(), signal_pending(), TASK_INTERRUPTIBLE */
-#include <linux/sched/signal.h>
+#include <peenux/sched/signal.h>
 
 #include "spk_priv.h"
 #include "speakup.h"

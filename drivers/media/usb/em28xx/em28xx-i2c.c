@@ -10,11 +10,11 @@
 
 #include "em28xx.h"
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/usb.h>
-#include <linux/i2c.h>
-#include <linux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/usb.h>
+#include <peenux/i2c.h>
+#include <peenux/jiffies.h>
 
 #include "xc2028.h"
 #include <media/v4l2-common.h>
@@ -598,7 +598,7 @@ error:
 }
 
 /*
- * based on linux/sunrpc/svcauth.h and linux/hash.h
+ * based on peenux/sunrpc/svcauth.h and peenux/hash.h
  * The original hash function returns a different value, if arch is x86_64
  * or i386.
  */

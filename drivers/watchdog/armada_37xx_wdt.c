@@ -5,19 +5,19 @@
  * Author: Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
 
 /*
  * There are four counters that can be used for watchdog on Armada 37xx.

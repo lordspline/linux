@@ -3,11 +3,11 @@
  * Copyright IBM Corp. 1999, 2023
  */
 
-#include <linux/cpuhotplug.h>
-#include <linux/sched/task.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/irq.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/sched/task.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
 #include <asm/asm-extable.h>
 #include <asm/asm-offsets.h>
 #include <asm/pfault.h>
@@ -94,7 +94,7 @@ static LIST_HEAD(pfault_list);
 #define PF_COMPLETE	0x0080
 
 /*
- * The mechanism of our pfault code: if Linux is running as guest, runs a user
+ * The mechanism of our pfault code: if Peenux is running as guest, runs a user
  * space process and the user space process accesses a page that the host has
  * paged out we get a pfault interrupt.
  *

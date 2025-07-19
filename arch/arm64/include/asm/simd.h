@@ -6,11 +6,11 @@
 #ifndef __ASM_SIMD_H
 #define __ASM_SIMD_H
 
-#include <linux/compiler.h>
-#include <linux/irqflags.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/irqflags.h>
+#include <peenux/percpu.h>
+#include <peenux/preempt.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_KERNEL_MODE_NEON
 

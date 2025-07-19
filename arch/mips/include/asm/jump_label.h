@@ -12,7 +12,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/isa-rev.h>
 
 struct module;

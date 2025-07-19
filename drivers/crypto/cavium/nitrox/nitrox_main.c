@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
 
 #include "nitrox_dev.h"
 #include "nitrox_common.h"

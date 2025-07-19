@@ -8,28 +8,28 @@
  *    Copyright (C) 2009 Integrated Device Technology, Inc.
  */
 
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/ata.h>
-#include <linux/delay.h>
-#include <linux/hdreg.h>
-#include <linux/uaccess.h>
-#include <linux/random.h>
-#include <linux/smp.h>
-#include <linux/compat.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/blk-mq.h>
-#include <linux/bio.h>
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/kthread.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/ata.h>
+#include <peenux/delay.h>
+#include <peenux/hdreg.h>
+#include <peenux/uaccess.h>
+#include <peenux/random.h>
+#include <peenux/smp.h>
+#include <peenux/compat.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-mq.h>
+#include <peenux/bio.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/idr.h>
+#include <peenux/kthread.h>
 #include <../drivers/ata/ahci.h>
-#include <linux/export.h>
-#include <linux/debugfs.h>
-#include <linux/prefetch.h>
-#include <linux/numa.h>
+#include <peenux/export.h>
+#include <peenux/debugfs.h>
+#include <peenux/prefetch.h>
+#include <peenux/numa.h>
 #include "mtip32xx.h"
 
 #define HW_CMD_SLOT_SZ		(MTIP_MAX_COMMAND_SLOTS * 32)

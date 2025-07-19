@@ -4,14 +4,14 @@
  * Author:  Maxime Coquelin <mcoquelin.stm32@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/clk.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/clk.h>
+#include <peenux/bitops.h>
 
 #define SYST_CSR	0x00
 #define SYST_RVR	0x04

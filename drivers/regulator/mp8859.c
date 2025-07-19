@@ -3,11 +3,11 @@
 // Copyright (c) 2019 five technologies GmbH
 // Author: Markus Reichl <m.reichl@fivetechno.de>
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/regulator/driver.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/of.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regmap.h>
 
 
 #define VOL_MIN_IDX			0x00

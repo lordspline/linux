@@ -3,17 +3,17 @@
  * Copyright(c) 2023-2024 Intel Corporation
  *
  * Authors: Cezary Rojewski <cezary.rojewski@intel.com>
- *          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ *          Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
  */
 
 #define pr_fmt(fmt) "ACPI: NHLT: " fmt
 
-#include <linux/acpi.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/minmax.h>
-#include <linux/printk.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/minmax.h>
+#include <peenux/printk.h>
+#include <peenux/types.h>
 #include <acpi/nhlt.h>
 
 static struct acpi_table_nhlt *acpi_gbl_nhlt;

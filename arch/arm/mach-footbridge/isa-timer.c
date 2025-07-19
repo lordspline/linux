@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/arm/mach-footbridge/isa-timer.c
+ *  peenux/arch/arm/mach-footbridge/isa-timer.c
  *
  *  Copyright (C) 1998 Russell King.
  *  Copyright (C) 1998 Phil Blundell
  */
-#include <linux/clockchips.h>
-#include <linux/i8253.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/spinlock.h>
-#include <linux/timex.h>
+#include <peenux/clockchips.h>
+#include <peenux/i8253.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/spinlock.h>
+#include <peenux/timex.h>
 
 #include <asm/irq.h>
 #include <asm/mach/time.h>

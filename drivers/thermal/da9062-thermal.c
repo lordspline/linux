@@ -18,17 +18,17 @@
  * be detected without constant software monitoring.
  */
 
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
-#include <linux/workqueue.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/thermal.h>
+#include <peenux/workqueue.h>
 
-#include <linux/mfd/da9062/core.h>
-#include <linux/mfd/da9062/registers.h>
+#include <peenux/mfd/da9062/core.h>
+#include <peenux/mfd/da9062/registers.h>
 
 /* Minimum, maximum and default polling millisecond periods are provided
  * here as an example. It is expected that any final implementation to also

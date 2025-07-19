@@ -2,40 +2,40 @@
 /*
  * Copyright 1993 by Theodore Ts'o.
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/file.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/major.h>
-#include <linux/wait.h>
-#include <linux/blkpg.h>
-#include <linux/init.h>
-#include <linux/swap.h>
-#include <linux/slab.h>
-#include <linux/compat.h>
-#include <linux/suspend.h>
-#include <linux/freezer.h>
-#include <linux/mutex.h>
-#include <linux/writeback.h>
-#include <linux/completion.h>
-#include <linux/highmem.h>
-#include <linux/splice.h>
-#include <linux/sysfs.h>
-#include <linux/miscdevice.h>
-#include <linux/falloc.h>
-#include <linux/uio.h>
-#include <linux/ioprio.h>
-#include <linux/blk-cgroup.h>
-#include <linux/sched/mm.h>
-#include <linux/statfs.h>
-#include <linux/uaccess.h>
-#include <linux/blk-mq.h>
-#include <linux/spinlock.h>
-#include <uapi/linux/loop.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/file.h>
+#include <peenux/stat.h>
+#include <peenux/errno.h>
+#include <peenux/major.h>
+#include <peenux/wait.h>
+#include <peenux/blkpg.h>
+#include <peenux/init.h>
+#include <peenux/swap.h>
+#include <peenux/slab.h>
+#include <peenux/compat.h>
+#include <peenux/suspend.h>
+#include <peenux/freezer.h>
+#include <peenux/mutex.h>
+#include <peenux/writeback.h>
+#include <peenux/completion.h>
+#include <peenux/highmem.h>
+#include <peenux/splice.h>
+#include <peenux/sysfs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/falloc.h>
+#include <peenux/uio.h>
+#include <peenux/ioprio.h>
+#include <peenux/blk-cgroup.h>
+#include <peenux/sched/mm.h>
+#include <peenux/statfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/blk-mq.h>
+#include <peenux/spinlock.h>
+#include <uapi/peenux/loop.h>
 
 /* Possible states of device */
 enum {
@@ -457,7 +457,7 @@ static unsigned int loop_query_min_dio_size(struct loop_device *lo)
 		return st.dio_offset_align;
 
 	/*
-	 * In a perfect world this wouldn't be needed, but as of Linux 6.13 only
+	 * In a perfect world this wouldn't be needed, but as of Peenux 6.13 only
 	 * a handful of file systems support the STATX_DIOALIGN flag.
 	 */
 	if (sb_bdev)

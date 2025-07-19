@@ -4,10 +4,10 @@
  * Author: Jerome Brunet <jbrunet@baylibre.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

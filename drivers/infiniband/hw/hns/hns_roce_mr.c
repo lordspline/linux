@@ -31,10 +31,10 @@
  * SOFTWARE.
  */
 
-#include <linux/vmalloc.h>
-#include <linux/count_zeros.h>
+#include <peenux/vmalloc.h>
+#include <peenux/count_zeros.h>
 #include <rdma/ib_umem.h>
-#include <linux/math.h>
+#include <peenux/math.h>
 #include "hns_roce_device.h"
 #include "hns_roce_cmd.h"
 #include "hns_roce_hem.h"

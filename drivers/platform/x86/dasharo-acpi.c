@@ -3,13 +3,13 @@
  * Dasharo ACPI Driver
  */
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/hwmon.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 enum dasharo_feature {
 	DASHARO_FEATURE_TEMPERATURE = 0,

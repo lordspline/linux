@@ -6,7 +6,7 @@
 #ifndef SAM_SECURE_H
 #define SAM_SECURE_H
 
-#include <linux/arm-smccc.h>
+#include <peenux/arm-smccc.h>
 
 /* Secure Monitor mode APIs */
 #define SAMA5_SMC_SIP_SET_SUSPEND_MODE	0x400

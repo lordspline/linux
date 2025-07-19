@@ -5,11 +5,11 @@
  * Copyright (c) 2012 Samsung Electronics Co., Ltd.
  *             http://www.samsung.com/
  */
-#include <linux/unaligned.h>
-#include <linux/fs.h>
-#include <linux/f2fs_fs.h>
-#include <linux/sched/signal.h>
-#include <linux/unicode.h>
+#include <peenux/unaligned.h>
+#include <peenux/fs.h>
+#include <peenux/f2fs_fs.h>
+#include <peenux/sched/signal.h>
+#include <peenux/unicode.h>
 #include "f2fs.h"
 #include "node.h"
 #include "acl.h"

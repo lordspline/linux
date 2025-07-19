@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* SC16IS7xx SPI interface driver */
 
-#include <linux/dev_printk.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/string.h>
-#include <linux/units.h>
+#include <peenux/dev_printk.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/string.h>
+#include <peenux/units.h>
 
 #include "sc16is7xx.h"
 

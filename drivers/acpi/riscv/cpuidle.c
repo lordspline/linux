@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/acpi.h>
+#include <peenux/acpi.h>
 #include <acpi/processor.h>
-#include <linux/cpu_pm.h>
-#include <linux/cpuidle.h>
-#include <linux/suspend.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/cpuidle.h>
+#include <peenux/suspend.h>
 #include <asm/cpuidle.h>
 #include <asm/sbi.h>
 #include <asm/suspend.h>

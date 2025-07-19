@@ -2,10 +2,10 @@
 #ifndef __LINUX_BCM963XX_NVRAM_H__
 #define __LINUX_BCM963XX_NVRAM_H__
 
-#include <linux/crc32.h>
-#include <linux/if_ether.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <peenux/crc32.h>
+#include <peenux/if_ether.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
 
 /*
  * Broadcom BCM963xx SoC board nvram data structure.

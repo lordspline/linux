@@ -8,17 +8,17 @@
  *  Co-author: Meng-Huang Kuo <mhkuo@nuvoton.com>
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/int_log.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/acpi.h>
-#include <linux/math64.h>
-#include <linux/semaphore.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/int_log.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/acpi.h>
+#include <peenux/math64.h>
+#include <peenux/semaphore.h>
 
 #include <sound/initval.h>
 #include <sound/tlv.h>

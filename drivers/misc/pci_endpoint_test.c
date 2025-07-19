@@ -6,25 +6,25 @@
  * Author: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/crc32.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
+#include <peenux/crc32.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
 
-#include <linux/pci_regs.h>
+#include <peenux/pci_regs.h>
 
-#include <uapi/linux/pcitest.h>
+#include <uapi/peenux/pcitest.h>
 
 #define DRV_MODULE_NAME				"pci-endpoint-test"
 

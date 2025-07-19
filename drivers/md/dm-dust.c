@@ -8,9 +8,9 @@
  *
  */
 
-#include <linux/device-mapper.h>
-#include <linux/module.h>
-#include <linux/rbtree.h>
+#include <peenux/device-mapper.h>
+#include <peenux/module.h>
+#include <peenux/rbtree.h>
 
 #define DM_MSG_PREFIX "dust"
 
@@ -575,5 +575,5 @@ static struct target_type dust_target = {
 module_dm(dust);
 
 MODULE_DESCRIPTION(DM_NAME " dust test target");
-MODULE_AUTHOR("Bryan Gurney <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Bryan Gurney <dm-devel@lists.peenux.dev>");
 MODULE_LICENSE("GPL");

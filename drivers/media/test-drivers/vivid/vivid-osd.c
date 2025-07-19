@@ -5,18 +5,18 @@
  * Copyright 2014 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/font.h>
-#include <linux/mutex.h>
-#include <linux/videodev2.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/fb.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/font.h>
+#include <peenux/mutex.h>
+#include <peenux/videodev2.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
+#include <peenux/fb.h>
 #include <media/videobuf2-vmalloc.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>

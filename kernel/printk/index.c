@@ -3,11 +3,11 @@
  * Userspace indexing of printk formats
  */
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
 
 #include "internal.h"
 

@@ -12,13 +12,13 @@
  * Copyright (C) 2011 Peter Kooiman <pkooiman@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/completion.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/slab.h>
-#include <linux/usb/input.h>
+#include <peenux/unaligned.h>
+#include <peenux/completion.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/slab.h>
+#include <peenux/usb/input.h>
 
 #include <media/rc-core.h>
 

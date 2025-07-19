@@ -6,16 +6,16 @@
  * Copyright(c) 2013 - 2015 Intel Mobile Communications GmbH
  * Copyright(c) 2016 - 2017 Intel Deutschland GmbH
  *****************************************************************************/
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
 #include <net/mac80211.h>
 
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
 
-#include <linux/workqueue.h>
+#include <peenux/workqueue.h>
 #include "rs.h"
 #include "fw-api.h"
 #include "sta.h"

@@ -29,18 +29,18 @@
 			Alan Cox, 30th May 1994
 */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/rtnetlink.h>
-#include <linux/net_tstamp.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/init.h>
+#include <peenux/moduleparam.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/net_tstamp.h>
 #include <net/netdev_lock.h>
 #include <net/rtnetlink.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/u64_stats_sync.h>
 
 #define DRV_NAME	"dummy"
 

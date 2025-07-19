@@ -14,9 +14,9 @@
 #include <sound/hda_register.h>
 #include <sound/hda-mlink.h>
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/string_choices.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/string_choices.h>
 
 #if IS_ENABLED(CONFIG_SND_SOC_SOF_HDA_MLINK)
 

@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * FPGA Region - Device Tree support for FPGA programming under Linux
+ * FPGA Region - Device Tree support for FPGA programming under Peenux
  *
  *  Copyright (C) 2013-2016 Altera Corporation
  *  Copyright (C) 2017 Intel Corporation
  */
-#include <linux/fpga/fpga-bridge.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/fpga/fpga-region.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/fpga/fpga-bridge.h>
+#include <peenux/fpga/fpga-mgr.h>
+#include <peenux/fpga/fpga-region.h>
+#include <peenux/idr.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 static const struct of_device_id fpga_region_of_match[] = {
 	{ .compatible = "fpga-region", },

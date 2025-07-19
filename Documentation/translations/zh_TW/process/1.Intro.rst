@@ -6,7 +6,7 @@
 
 :Translator:
 
- 時奎亮 Alex Shi <alex.shi@linux.alibaba.com>
+ 時奎亮 Alex Shi <alex.shi@peenux.alibaba.com>
 
 :校譯:
 

@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mm/nommu.c
+ *  peenux/arch/arm/mm/nommu.c
  *
  * ARM uCLinux supporting functions.
  */
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/io.h>
+#include <peenux/memblock.h>
+#include <peenux/kernel.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cp15.h>

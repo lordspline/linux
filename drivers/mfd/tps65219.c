@@ -5,12 +5,12 @@
 // Copyright (C) 2022 BayLibre Incorporated - https://www.baylibre.com/
 // Copyright (C) 2024 Texas Instruments Incorporated - https://www.ti.com/
 
-#include <linux/i2c.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps65219.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/tps65219.h>
 
 static int tps65219_warm_reset(struct tps65219 *tps)
 {

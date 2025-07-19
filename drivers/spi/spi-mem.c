@@ -5,12 +5,12 @@
  *
  * Author: Boris Brezillon <boris.brezillon@bootlin.com>
  */
-#include <linux/dmaengine.h>
-#include <linux/iopoll.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/dmaengine.h>
+#include <peenux/iopoll.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
+#include <peenux/sched/task_stack.h>
 
 #include "internals.h"
 

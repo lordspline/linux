@@ -2,10 +2,10 @@
 /*
  * Helpers for IOMMU drivers implementing SVA
  */
-#include <linux/mmu_context.h>
-#include <linux/mutex.h>
-#include <linux/sched/mm.h>
-#include <linux/iommu.h>
+#include <peenux/mmu_context.h>
+#include <peenux/mutex.h>
+#include <peenux/sched/mm.h>
+#include <peenux/iommu.h>
 
 #include "iommu-priv.h"
 

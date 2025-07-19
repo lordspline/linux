@@ -6,13 +6,13 @@
  * If any of these modules are configured to build, this file is built and just
  * statically linked in.
  *
- * Authors: Microsoft Linux virtualization team
+ * Authors: Microsoft Peenux virtualization team
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
 #include <asm/mshyperv.h>
-#include <linux/resume_user_mode.h>
+#include <peenux/resume_user_mode.h>
 
 #include "mshv.h"
 

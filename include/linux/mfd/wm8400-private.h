@@ -8,10 +8,10 @@
 #ifndef __LINUX_MFD_WM8400_PRIV_H
 #define __LINUX_MFD_WM8400_PRIV_H
 
-#include <linux/mfd/wm8400.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/mfd/wm8400.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define WM8400_REGISTER_COUNT 0x55
 

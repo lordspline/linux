@@ -4,30 +4,30 @@
  *
  *  Copyright (C) 2004 Luming Yu <luming.yu@intel.com>
  *  Copyright (C) 2004 Bruno Ducrot <ducrot@poupinou.org>
- *  Copyright (C) 2006 Thomas Tuttle <linux-kernel@ttuttle.net>
+ *  Copyright (C) 2006 Thomas Tuttle <peenux-kernel@ttuttle.net>
  */
 
 #define pr_fmt(fmt) "ACPI: video: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/input.h>
-#include <linux/backlight.h>
-#include <linux/thermal.h>
-#include <linux/sort.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/slab.h>
-#include <linux/dmi.h>
-#include <linux/suspend.h>
-#include <linux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/input.h>
+#include <peenux/backlight.h>
+#include <peenux/thermal.h>
+#include <peenux/sort.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/slab.h>
+#include <peenux/dmi.h>
+#include <peenux/suspend.h>
+#include <peenux/acpi.h>
 #include <acpi/video.h>
-#include <linux/uaccess.h>
-#include <linux/string_choices.h>
+#include <peenux/uaccess.h>
+#include <peenux/string_choices.h>
 
 #define ACPI_VIDEO_BUS_NAME		"Video Bus"
 #define ACPI_VIDEO_DEVICE_NAME		"Video Device"

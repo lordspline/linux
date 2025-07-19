@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/fat/dir.c
+ *  peenux/fs/fat/dir.c
  *
  *  directory handling functions for fat-based filesystems
  *
@@ -14,10 +14,10 @@
  *  Short name translation 1999, 2001 by Wolfram Pienkoss <wp@bszh.de>
  */
 
-#include <linux/slab.h>
-#include <linux/compat.h>
-#include <linux/uaccess.h>
-#include <linux/iversion.h>
+#include <peenux/slab.h>
+#include <peenux/compat.h>
+#include <peenux/uaccess.h>
+#include <peenux/iversion.h>
 #include "fat.h"
 
 /*

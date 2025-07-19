@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Based on data from msm8909-bus.dtsi in Qualcomm's msm-3.18 release:
- *   Copyright (c) 2014-2016, The Linux Foundation. All rights reserved.
+ *   Copyright (c) 2014-2016, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/interconnect-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/interconnect/qcom,msm8909.h>
 

@@ -15,18 +15,18 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/videodev2.h>
-#include <linux/uaccess.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/videodev2.h>
+#include <peenux/uaccess.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
 
 #include <media/i2c/adv7343.h>
 #include <media/v4l2-async.h>

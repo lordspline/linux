@@ -16,15 +16,15 @@
  *   Copyright (C) 2007 David Sterba
  */
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/ppp_channel.h>
-#include <linux/ppp_defs.h>
-#include <linux/slab.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/skbuff.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/ppp_channel.h>
+#include <peenux/ppp_defs.h>
+#include <peenux/slab.h>
+#include <peenux/ppp-ioctl.h>
+#include <peenux/skbuff.h>
 
 #include "network.h"
 #include "hardware.h"

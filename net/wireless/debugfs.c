@@ -7,7 +7,7 @@
  * Copyright (C) 2023 Intel Corporation
  */
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 #include "core.h"
 #include "debugfs.h"
 

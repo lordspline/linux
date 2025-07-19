@@ -5,17 +5,17 @@
  * Copyright (C) 2009 Marvell International Ltd.
  *      Haojian Zhuang <haojian.zhuang@marvell.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/mfd/max8925.h>
-#include <linux/of.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/mfd/max8925.h>
+#include <peenux/of.h>
+#include <peenux/regulator/of_regulator.h>
 
 #define SD1_DVM_VMIN		850000
 #define SD1_DVM_VMAX		1000000

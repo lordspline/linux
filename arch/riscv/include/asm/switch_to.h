@@ -6,9 +6,9 @@
 #ifndef _ASM_RISCV_SWITCH_TO_H
 #define _ASM_RISCV_SWITCH_TO_H
 
-#include <linux/jump_label.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm_types.h>
+#include <peenux/jump_label.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm_types.h>
 #include <asm/vector.h>
 #include <asm/cpufeature.h>
 #include <asm/processor.h>

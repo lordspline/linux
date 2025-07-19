@@ -29,10 +29,10 @@
 #include "amdgpu.h"
 #include "atom.h"
 
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
 /*
  * BIOS.
  */

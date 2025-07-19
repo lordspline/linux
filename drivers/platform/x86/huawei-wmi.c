@@ -5,19 +5,19 @@
  *  Copyright (C) 2018	      Ayman Bagabas <ayman.bagabas@gmail.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/sysfs.h>
-#include <linux/wmi.h>
+#include <peenux/acpi.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/sysfs.h>
+#include <peenux/wmi.h>
 #include <acpi/battery.h>
 
 /*

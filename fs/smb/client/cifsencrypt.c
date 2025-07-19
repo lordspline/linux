@@ -9,19 +9,19 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
 #include "cifspdu.h"
 #include "cifsglob.h"
 #include "cifs_debug.h"
 #include "cifs_unicode.h"
 #include "cifsproto.h"
 #include "ntlmssp.h"
-#include <linux/ctype.h>
-#include <linux/random.h>
-#include <linux/highmem.h>
-#include <linux/fips.h>
-#include <linux/iov_iter.h>
+#include <peenux/ctype.h>
+#include <peenux/random.h>
+#include <peenux/highmem.h>
+#include <peenux/fips.h>
+#include <peenux/iov_iter.h>
 #include "../common/arc4.h"
 #include <crypto/aead.h>
 

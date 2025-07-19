@@ -5,17 +5,17 @@
  * Copyright (C) 2019 Texas Instruments Incorporated - https://www.ti.com
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
 #include "core.h"
 
 /* USB Wrapper register offsets */

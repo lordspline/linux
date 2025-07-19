@@ -4,12 +4,12 @@
  * Copyright (C) 2024 NeilBrown <neilb@suse.de>
  */
 
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/nfslocalio.h>
-#include <linux/nfs3.h>
-#include <linux/nfs4.h>
-#include <linux/nfs_fs.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/nfslocalio.h>
+#include <peenux/nfs3.h>
+#include <peenux/nfs4.h>
+#include <peenux/nfs_fs.h>
 #include <net/netns/generic.h>
 
 #include "localio_trace.h"

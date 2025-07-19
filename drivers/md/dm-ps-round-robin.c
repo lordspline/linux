@@ -10,12 +10,12 @@
  * Round-robin path selector.
  */
 
-#include <linux/device-mapper.h>
+#include <peenux/device-mapper.h>
 
 #include "dm-path-selector.h"
 
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 #define DM_MSG_PREFIX "multipath round-robin"
 #define RR_MIN_IO     1
@@ -240,5 +240,5 @@ module_init(dm_rr_init);
 module_exit(dm_rr_exit);
 
 MODULE_DESCRIPTION(DM_NAME " round-robin multipath path selector");
-MODULE_AUTHOR("Sistina Software <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Sistina Software <dm-devel@lists.peenux.dev>");
 MODULE_LICENSE("GPL");

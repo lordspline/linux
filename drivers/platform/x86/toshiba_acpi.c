@@ -13,7 +13,7 @@
  *  Credits:
  *	Jonathan A. Buzzard - Toshiba HCI info, and critical tips on reverse
  *		engineering the Windows drivers
- *	Yasushi Nagato - changes for linux kernel 2.4 -> 2.5
+ *	Yasushi Nagato - changes for peenux kernel 2.4 -> 2.5
  *	Rob Miller - TV out and hotkeys help
  */
 
@@ -22,29 +22,29 @@
 #define TOSHIBA_ACPI_VERSION	"0.24"
 #define PROC_INTERFACE_VERSION	1
 
-#include <linux/compiler.h>
-#include <linux/dmi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/backlight.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/i8042.h>
-#include <linux/acpi.h>
-#include <linux/uaccess.h>
-#include <linux/miscdevice.h>
-#include <linux/rfkill.h>
-#include <linux/hwmon.h>
-#include <linux/iio/iio.h>
-#include <linux/toshiba.h>
+#include <peenux/compiler.h>
+#include <peenux/dmi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/backlight.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/leds.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/i8042.h>
+#include <peenux/acpi.h>
+#include <peenux/uaccess.h>
+#include <peenux/miscdevice.h>
+#include <peenux/rfkill.h>
+#include <peenux/hwmon.h>
+#include <peenux/iio/iio.h>
+#include <peenux/toshiba.h>
 #include <acpi/battery.h>
 #include <acpi/video.h>
 

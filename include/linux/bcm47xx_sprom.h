@@ -5,9 +5,9 @@
 #ifndef __BCM47XX_SPROM_H
 #define __BCM47XX_SPROM_H
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/vmalloc.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/vmalloc.h>
 
 struct ssb_sprom;
 

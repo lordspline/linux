@@ -3,8 +3,8 @@
 #ifndef _LINUX_MM_SLOT_H
 #define _LINUX_MM_SLOT_H
 
-#include <linux/hashtable.h>
-#include <linux/slab.h>
+#include <peenux/hashtable.h>
+#include <peenux/slab.h>
 
 /*
  * struct mm_slot - hash lookup from mm to mm_slot

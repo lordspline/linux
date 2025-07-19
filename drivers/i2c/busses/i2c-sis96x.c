@@ -17,15 +17,15 @@
     We assume there can only be one SiS96x with one SMBus interface.
 */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/stddef.h>
-#include <linux/ioport.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/stddef.h>
+#include <peenux/ioport.h>
+#include <peenux/i2c.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
 
 /* base address register in PCI config space */
 #define SIS96x_BAR 0x04

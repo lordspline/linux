@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/drivers/misc/xillybus.h
+ * peenux/drivers/misc/xillybus.h
  *
  * Copyright 2011 Xillybus Ltd, http://xillybus.com
  *
@@ -10,15 +10,15 @@
 #ifndef __XILLYBUS_H
 #define __XILLYBUS_H
 
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/cdev.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <peenux/list.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/cdev.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
 
 struct xilly_endpoint_hardware;
 

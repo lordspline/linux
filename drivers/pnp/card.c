@@ -5,12 +5,12 @@
  * Copyright 2002 Adam Belay <ambx1@neo.rr.com>
  */
 
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/pnp.h>
-#include <linux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
+#include <peenux/pnp.h>
+#include <peenux/dma-mapping.h>
 #include "base.h"
 
 LIST_HEAD(pnp_cards);

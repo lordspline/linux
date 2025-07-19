@@ -3,19 +3,19 @@
  * Copyright 2008 Cisco Systems, Inc.  All rights reserved.
  * Copyright 2007 Nuova Systems, Inc.  All rights reserved.
  */
-#include <linux/module.h>
-#include <linux/mempool.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/skbuff.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/if_ether.h>
+#include <peenux/module.h>
+#include <peenux/mempool.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/skbuff.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
+#include <peenux/if_ether.h>
 #include <scsi/fc/fc_fip.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_transport.h>

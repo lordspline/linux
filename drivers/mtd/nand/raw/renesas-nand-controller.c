@@ -6,18 +6,18 @@
  * Author: Miquel RAYNAL <miquel.raynal@bootlin.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #define COMMAND_REG 0x00
 #define   COMMAND_SEQ(x) FIELD_PREP(GENMASK(5, 0), (x))

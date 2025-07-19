@@ -6,12 +6,12 @@
 // Author: Yingkun Meng <mengyingkun@loongson.cn>
 //
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/acpi.h>
+#include <peenux/pci.h>
 #include <sound/soc.h>
 #include "loongson_i2s.h"
 #include "loongson_dma.h"

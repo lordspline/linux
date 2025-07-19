@@ -5,19 +5,19 @@
  * Copyright 2005-2013 Solarflare Communications Inc.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/notifier.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/in.h>
-#include <linux/ethtool.h>
-#include <linux/topology.h>
-#include <linux/gfp.h>
-#include <linux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
+#include <peenux/notifier.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/in.h>
+#include <peenux/ethtool.h>
+#include <peenux/topology.h>
+#include <peenux/gfp.h>
+#include <peenux/interrupt.h>
 #include "net_driver.h"
 #include "efx.h"
 #include "nic.h"

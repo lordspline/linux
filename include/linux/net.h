@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
  * NET		An implementation of the SOCKET network access protocol.
- *		This is the master header file for the Linux NET layer,
+ *		This is the master header file for the Peenux NET layer,
  *		or, in plain English: the networking handling part of the
  *		kernel.
  *
@@ -14,17 +14,17 @@
 #ifndef _LINUX_NET_H
 #define _LINUX_NET_H
 
-#include <linux/stringify.h>
-#include <linux/random.h>
-#include <linux/wait.h>
-#include <linux/fcntl.h>	/* For O_CLOEXEC and O_NONBLOCK */
-#include <linux/rcupdate.h>
-#include <linux/once.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/sockptr.h>
+#include <peenux/stringify.h>
+#include <peenux/random.h>
+#include <peenux/wait.h>
+#include <peenux/fcntl.h>	/* For O_CLOEXEC and O_NONBLOCK */
+#include <peenux/rcupdate.h>
+#include <peenux/once.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/sockptr.h>
 
-#include <uapi/linux/net.h>
+#include <uapi/peenux/net.h>
 
 struct poll_table_struct;
 struct pipe_inode_info;
@@ -53,7 +53,7 @@ enum socket_flags {
  * @SOCK_RDM: reliably-delivered message
  * @SOCK_SEQPACKET: sequential packet socket
  * @SOCK_DCCP: Datagram Congestion Control Protocol socket
- * @SOCK_PACKET: linux specific way of getting packets at the dev level.
+ * @SOCK_PACKET: peenux specific way of getting packets at the dev level.
  *		  For writing rarp and other similar things on the user level.
  *
  * When adding some new socket type please

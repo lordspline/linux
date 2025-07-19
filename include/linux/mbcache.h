@@ -2,11 +2,11 @@
 #ifndef _LINUX_MBCACHE_H
 #define _LINUX_MBCACHE_H
 
-#include <linux/hash.h>
-#include <linux/list_bl.h>
-#include <linux/list.h>
-#include <linux/atomic.h>
-#include <linux/fs.h>
+#include <peenux/hash.h>
+#include <peenux/list_bl.h>
+#include <peenux/list.h>
+#include <peenux/atomic.h>
+#include <peenux/fs.h>
 
 struct mb_cache;
 

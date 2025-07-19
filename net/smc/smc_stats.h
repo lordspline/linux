@@ -11,11 +11,11 @@
 
 #ifndef NET_SMC_SMC_STATS_H_
 #define NET_SMC_SMC_STATS_H_
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/percpu.h>
-#include <linux/ctype.h>
-#include <linux/smc.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/percpu.h>
+#include <peenux/ctype.h>
+#include <peenux/smc.h>
 
 #include "smc_clc.h"
 

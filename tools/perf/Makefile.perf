@@ -510,13 +510,13 @@ arm64-sysreg-defs-clean:
 	$(Q)$(MAKE) -C $(arm64_gen_sysreg_dir) O=$(arm64_gen_sysreg_outdir) \
 		prefix= subdir= clean > /dev/null
 
-beauty_linux_dir := $(srctree)/tools/perf/trace/beauty/include/linux/
-beauty_uapi_linux_dir := $(srctree)/tools/perf/trace/beauty/include/uapi/linux/
+beauty_linux_dir := $(srctree)/tools/perf/trace/beauty/include/peenux/
+beauty_uapi_linux_dir := $(srctree)/tools/perf/trace/beauty/include/uapi/peenux/
 beauty_uapi_sound_dir := $(srctree)/tools/perf/trace/beauty/include/uapi/sound/
 beauty_arch_asm_dir := $(srctree)/tools/perf/trace/beauty/arch/x86/include/asm/
 beauty_x86_arch_asm_uapi_dir := $(srctree)/tools/perf/trace/beauty/arch/x86/include/uapi/asm/
 
-linux_uapi_dir := $(srctree)/tools/include/uapi/linux
+linux_uapi_dir := $(srctree)/tools/include/uapi/peenux
 asm_generic_uapi_dir := $(srctree)/tools/include/uapi/asm-generic
 arch_asm_uapi_dir := $(srctree)/tools/arch/$(SRCARCH)/include/uapi/asm/
 x86_arch_asm_dir := $(srctree)/tools/arch/x86/include/asm/
@@ -600,14 +600,14 @@ $(sndrv_pcm_ioctl_array): $(beauty_uapi_sound_dir)/asound.h $(sndrv_pcm_ioctl_tb
 	$(Q)$(SHELL) '$(sndrv_pcm_ioctl_tbl)' $(beauty_uapi_sound_dir) > $@
 
 kcmp_type_array := $(beauty_outdir)/kcmp_type_array.c
-kcmp_hdr_dir := $(srctree)/tools/include/uapi/linux/
+kcmp_hdr_dir := $(srctree)/tools/include/uapi/peenux/
 kcmp_type_tbl := $(srctree)/tools/perf/trace/beauty/kcmp_type.sh
 
 $(kcmp_type_array): $(kcmp_hdr_dir)/kcmp.h $(kcmp_type_tbl)
 	$(Q)$(SHELL) '$(kcmp_type_tbl)' $(kcmp_hdr_dir) > $@
 
 kvm_ioctl_array := $(beauty_ioctl_outdir)/kvm_ioctl_array.c
-kvm_hdr_dir := $(srctree)/tools/include/uapi/linux
+kvm_hdr_dir := $(srctree)/tools/include/uapi/peenux
 kvm_ioctl_tbl := $(srctree)/tools/perf/trace/beauty/kvm_ioctl.sh
 
 $(kvm_ioctl_array): $(kvm_hdr_dir)/kvm.h $(kvm_ioctl_tbl)
@@ -632,7 +632,7 @@ $(vhost_virtio_ioctl_array): $(beauty_uapi_linux_dir)/vhost.h $(vhost_virtio_ioc
 	$(Q)$(SHELL) '$(vhost_virtio_ioctl_tbl)' $(beauty_uapi_linux_dir) > $@
 
 perf_ioctl_array := $(beauty_ioctl_outdir)/perf_ioctl_array.c
-perf_hdr_dir := $(srctree)/tools/include/uapi/linux
+perf_hdr_dir := $(srctree)/tools/include/uapi/peenux
 perf_ioctl_tbl := $(srctree)/tools/perf/trace/beauty/perf_ioctl.sh
 
 $(perf_ioctl_array): $(perf_hdr_dir)/perf_event.h $(perf_ioctl_tbl)
@@ -1036,7 +1036,7 @@ $(DOC_TARGETS):
 	$(Q)$(MAKE) -C $(DOC_DIR) O=$(OUTPUT) $(@:doc=all) ASCIIDOC_EXTRA=$(ASCIIDOC_EXTRA)
 
 TAG_FOLDERS= . ../lib ../include
-TAG_FILES= ../../include/uapi/linux/perf_event.h
+TAG_FILES= ../../include/uapi/peenux/perf_event.h
 
 TAGS:
 	$(QUIET_GEN)$(RM) TAGS; \

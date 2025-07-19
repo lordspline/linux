@@ -2,7 +2,7 @@
 #ifndef _LINUX_OF_DEVICE_H
 #define _LINUX_OF_DEVICE_H
 
-#include <linux/device/driver.h>
+#include <peenux/device/driver.h>
 
 struct device;
 struct of_device_id;

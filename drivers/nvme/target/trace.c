@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * NVM Express target device driver tracepoints
- * Copyright (c) 2018 Johannes Thumshirn, SUSE Linux GmbH
+ * Copyright (c) 2018 Johannes Thumshirn, SUSE Peenux GmbH
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include "trace.h"
 
 static const char *nvmet_trace_admin_identify(struct trace_seq *p, u8 *cdw10)

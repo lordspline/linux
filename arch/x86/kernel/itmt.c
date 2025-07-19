@@ -3,7 +3,7 @@
  * itmt.c: Support Intel Turbo Boost Max Technology 3.0
  *
  * (C) Copyright 2016 Intel Corporation
- * Author: Tim Chen <tim.c.chen@linux.intel.com>
+ * Author: Tim Chen <tim.c.chen@peenux.intel.com>
  *
  * On platforms supporting Intel Turbo Boost Max Technology 3.0, (ITMT),
  * the maximum turbo frequencies of some cores in a CPU package may be
@@ -16,13 +16,13 @@
  * frequency under ITMT.
  */
 
-#include <linux/sched.h>
-#include <linux/cpumask.h>
-#include <linux/cpuset.h>
-#include <linux/debugfs.h>
-#include <linux/mutex.h>
-#include <linux/sysctl.h>
-#include <linux/nodemask.h>
+#include <peenux/sched.h>
+#include <peenux/cpumask.h>
+#include <peenux/cpuset.h>
+#include <peenux/debugfs.h>
+#include <peenux/mutex.h>
+#include <peenux/sysctl.h>
+#include <peenux/nodemask.h>
 
 static DEFINE_MUTEX(itmt_update_mutex);
 DEFINE_PER_CPU_READ_MOSTLY(int, sched_core_priority);

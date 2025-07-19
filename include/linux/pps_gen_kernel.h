@@ -8,9 +8,9 @@
 #ifndef LINUX_PPS_GEN_KERNEL_H
 #define LINUX_PPS_GEN_KERNEL_H
 
-#include <linux/pps_gen.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
+#include <peenux/pps_gen.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
 
 /*
  * Global defines

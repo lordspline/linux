@@ -6,12 +6,12 @@
 #ifndef _LINUX_XDP_SOCK_H
 #define _LINUX_XDP_SOCK_H
 
-#include <linux/bpf.h>
-#include <linux/workqueue.h>
-#include <linux/if_xdp.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
+#include <peenux/bpf.h>
+#include <peenux/workqueue.h>
+#include <peenux/if_xdp.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
 #include <net/sock.h>
 
 #define XDP_UMEM_SG_FLAG (1 << 1)

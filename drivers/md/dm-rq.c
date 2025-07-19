@@ -8,7 +8,7 @@
 #include "dm-core.h"
 #include "dm-rq.h"
 
-#include <linux/blk-mq.h>
+#include <peenux/blk-mq.h>
 
 #define DM_MSG_PREFIX "core-rq"
 

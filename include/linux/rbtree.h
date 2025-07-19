@@ -4,7 +4,7 @@
   (C) 1999  Andrea Arcangeli <andrea@suse.de>
   
 
-  linux/include/linux/rbtree.h
+  peenux/include/peenux/rbtree.h
 
   To use rbtrees you'll have to implement your own insert and search cores.
   This will avoid us to use callbacks and to drop drammatically performances.
@@ -17,11 +17,11 @@
 #ifndef	_LINUX_RBTREE_H
 #define	_LINUX_RBTREE_H
 
-#include <linux/container_of.h>
-#include <linux/rbtree_types.h>
+#include <peenux/container_of.h>
+#include <peenux/rbtree_types.h>
 
-#include <linux/stddef.h>
-#include <linux/rcupdate.h>
+#include <peenux/stddef.h>
+#include <peenux/rcupdate.h>
 
 #define rb_parent(r)   ((struct rb_node *)((r)->__rb_parent_color & ~3))
 

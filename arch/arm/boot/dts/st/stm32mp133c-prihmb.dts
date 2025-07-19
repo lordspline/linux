@@ -38,7 +38,7 @@
 
 		button-reset {
 			label = "reset-button";
-			linux,code = <BTN_1>;
+			peenux,code = <BTN_1>;
 			gpios = <&gpioi 7 GPIO_ACTIVE_LOW>;
 		};
 	};
@@ -50,7 +50,7 @@
 			function = LED_FUNCTION_HEARTBEAT;
 			color = <LED_COLOR_ID_BLUE>;
 			gpios = <&gpioa 14 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 			default-state = "off";
 		};
 	};
@@ -332,7 +332,7 @@
 	pinctrl-0 = <&usart6_pins_a>;
 	pinctrl-1 = <&usart6_sleep_pins_a>;
 	pinctrl-2 = <&usart6_idle_pins_a>;
-	linux,rs485-enabled-at-boot-time;
+	peenux,rs485-enabled-at-boot-time;
 	/delete-property/dmas;
 	/delete-property/dma-names;
 	status = "okay";

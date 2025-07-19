@@ -31,8 +31,8 @@
  * SOFTWARE.
  */
 
-#include <linux/kref.h>
-#include <linux/list.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
 
 struct sock;
 

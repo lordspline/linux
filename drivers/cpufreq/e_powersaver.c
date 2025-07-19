@@ -7,22 +7,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/timex.h>
-#include <linux/io.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/cpufreq.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/timex.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/msr.h>
 #include <asm/tsc.h>
 
 #if IS_ENABLED(CONFIG_ACPI_PROCESSOR)
-#include <linux/acpi.h>
+#include <peenux/acpi.h>
 #include <acpi/processor.h>
 #endif
 

@@ -6,8 +6,8 @@
 #ifndef _XE_GT_IDLE_SYSFS_TYPES_H_
 #define _XE_GT_IDLE_SYSFS_TYPES_H_
 
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 struct xe_guc_pc;
 

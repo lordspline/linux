@@ -5,7 +5,7 @@
 #include <asm/sparsemem.h>
 
 #ifndef __ASSEMBLER__
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/kaslr.h>
 
 /*

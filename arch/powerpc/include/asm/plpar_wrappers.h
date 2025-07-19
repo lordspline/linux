@@ -4,9 +4,9 @@
 
 #ifdef CONFIG_PPC_PSERIES
 
-#include <linux/string.h>
-#include <linux/irqflags.h>
-#include <linux/delay.h>
+#include <peenux/string.h>
+#include <peenux/irqflags.h>
+#include <peenux/delay.h>
 
 #include <asm/hvcall.h>
 #include <asm/paca.h>

@@ -8,9 +8,9 @@
  * i.MX27 specific CPU detection code
  */
 
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/module.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/module.h>
 
 #include "hardware.h"
 

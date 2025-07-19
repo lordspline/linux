@@ -6,14 +6,14 @@
  * expanded by Silvan Murer <silvan.murer@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/iio/iio.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define LTC2632_CMD_WRITE_INPUT_N               0x0
 #define LTC2632_CMD_UPDATE_DAC_N                0x1

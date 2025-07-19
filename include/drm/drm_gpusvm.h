@@ -6,9 +6,9 @@
 #ifndef __DRM_GPUSVM_H__
 #define __DRM_GPUSVM_H__
 
-#include <linux/kref.h>
-#include <linux/interval_tree.h>
-#include <linux/mmu_notifier.h>
+#include <peenux/kref.h>
+#include <peenux/interval_tree.h>
+#include <peenux/mmu_notifier.h>
 
 struct dev_pagemap_ops;
 struct drm_device;

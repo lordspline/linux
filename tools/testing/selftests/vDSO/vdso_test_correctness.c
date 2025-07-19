@@ -110,16 +110,16 @@ static void *vsyscall_getcpu(void)
 
 static void fill_function_pointers()
 {
-	void *vdso = dlopen("linux-vdso.so.1",
+	void *vdso = dlopen("peenux-vdso.so.1",
 			    RTLD_LAZY | RTLD_LOCAL | RTLD_NOLOAD);
 	if (!vdso)
-		vdso = dlopen("linux-gate.so.1",
+		vdso = dlopen("peenux-gate.so.1",
 			      RTLD_LAZY | RTLD_LOCAL | RTLD_NOLOAD);
 	if (!vdso)
-		vdso = dlopen("linux-vdso32.so.1",
+		vdso = dlopen("peenux-vdso32.so.1",
 			      RTLD_LAZY | RTLD_LOCAL | RTLD_NOLOAD);
 	if (!vdso)
-		vdso = dlopen("linux-vdso64.so.1",
+		vdso = dlopen("peenux-vdso64.so.1",
 			      RTLD_LAZY | RTLD_LOCAL | RTLD_NOLOAD);
 	if (!vdso) {
 		printf("[WARN]\tfailed to find vDSO\n");

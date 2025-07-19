@@ -9,7 +9,7 @@
 
 #include "utils.h"
 
-#include <linux/device.h>
+#include <peenux/device.h>
 
 #include "fw/api/scan.h"
 #include "fw/api/mac-cfg.h"

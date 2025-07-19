@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/console/softcursor.c
+ * peenux/drivers/video/console/softcursor.c
  *
  * Generic software cursor for frame buffer devices
  *
@@ -10,10 +10,10 @@
  * archive for more details.
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/fb.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/fb.h>
+#include <peenux/slab.h>
 
 #include <asm/io.h>
 

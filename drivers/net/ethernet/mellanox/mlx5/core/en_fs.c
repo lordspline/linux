@@ -30,13 +30,13 @@
  * SOFTWARE.
  */
 
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/mlx5/fs.h>
-#include <linux/mlx5/mpfs.h>
+#include <peenux/debugfs.h>
+#include <peenux/list.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/tcp.h>
+#include <peenux/mlx5/fs.h>
+#include <peenux/mlx5/mpfs.h>
 #include "en_tc.h"
 #include "lib/mpfs.h"
 #include "en/ptp.h"

@@ -5,18 +5,18 @@
  * Copyright (C) 2024-2025 Pengyu Luo <mitltlatltl@gmail.com>
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/notifier.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_data/huawei-gaokun-ec.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/notifier.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_data/huawei-gaokun-ec.h>
 
 #define EC_EVENT		0x06
 

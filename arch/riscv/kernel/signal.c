@@ -6,13 +6,13 @@
  * Copyright (C) 2012 Regents of the University of California
  */
 
-#include <linux/compat.h>
-#include <linux/signal.h>
-#include <linux/uaccess.h>
-#include <linux/syscalls.h>
-#include <linux/resume_user_mode.h>
-#include <linux/linkage.h>
-#include <linux/entry-common.h>
+#include <peenux/compat.h>
+#include <peenux/signal.h>
+#include <peenux/uaccess.h>
+#include <peenux/syscalls.h>
+#include <peenux/resume_user_mode.h>
+#include <peenux/linkage.h>
+#include <peenux/entry-common.h>
 
 #include <asm/ucontext.h>
 #include <asm/vdso.h>

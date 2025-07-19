@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 #
-# Makefile for the linux s390-specific parts of the memory manager.
+# Makefile for the peenux s390-specific parts of the memory manager.
 #
 
 # Tooling runtimes are unavailable and cannot be linked for early boot code

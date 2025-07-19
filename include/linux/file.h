@@ -6,12 +6,12 @@
 #ifndef __LINUX_FILE_H
 #define __LINUX_FILE_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/posix_types.h>
-#include <linux/errno.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
+#include <peenux/posix_types.h>
+#include <peenux/errno.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
 
 struct file;
 

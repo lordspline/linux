@@ -8,17 +8,17 @@
  * This driver provides IOCTL interfaces to call Intel SCU IPC driver API.
  */
 
-#include <linux/errno.h>
-#include <linux/fcntl.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/fcntl.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 
-#include <linux/platform_data/x86/intel_scu_ipc.h>
+#include <peenux/platform_data/x86/intel_scu_ipc.h>
 
 static int major;
 

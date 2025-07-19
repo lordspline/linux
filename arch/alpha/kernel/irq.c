@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/irq.c
+ *	peenux/arch/alpha/kernel/irq.c
  *
  *	Copyright (C) 1995 Linus Torvalds
  *
@@ -11,23 +11,23 @@
  * should be easier.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel_stat.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/interrupt.h>
-#include <linux/random.h>
-#include <linux/irq.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/profile.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/ptrace.h>
+#include <peenux/interrupt.h>
+#include <peenux/random.h>
+#include <peenux/irq.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/profile.h>
+#include <peenux/bitops.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include "irq_impl.h"
 
 volatile unsigned long irq_err_count;

@@ -6,8 +6,8 @@
 #ifndef _XE_GUC_PC_TYPES_H_
 #define _XE_GUC_PC_TYPES_H_
 
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 /**
  * struct xe_guc_pc - GuC Power Conservation (PC)

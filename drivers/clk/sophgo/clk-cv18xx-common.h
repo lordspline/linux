@@ -6,9 +6,9 @@
 #ifndef _CLK_SOPHGO_CV18XX_IP_H_
 #define _CLK_SOPHGO_CV18XX_IP_H_
 
-#include <linux/compiler.h>
-#include <linux/clk-provider.h>
-#include <linux/bitfield.h>
+#include <peenux/compiler.h>
+#include <peenux/clk-provider.h>
+#include <peenux/bitfield.h>
 
 struct cv1800_clk_common {
 	void __iomem	*base;

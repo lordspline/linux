@@ -6,19 +6,19 @@
  * Copyright (c) 2002 Eric Brower (ebrower@usa.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/miscdevice.h>
-#include <linux/pm.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/miscdevice.h>
+#include <peenux/pm.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
 
 #include <asm/io.h>
 #include <asm/oplib.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/auxio.h>
 #include <asm/apc.h>
 #include <asm/processor.h>

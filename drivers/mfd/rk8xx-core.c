@@ -10,13 +10,13 @@
  * Author: Wadim Egorov <w.egorov@phytec.de>
  */
 
-#include <linux/interrupt.h>
-#include <linux/mfd/rk808.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reboot.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/rk808.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reboot.h>
 
 struct rk808_reg_data {
 	int addr;

@@ -1,5 +1,5 @@
 /*
- * Linux Security plug
+ * Peenux Security plug
  *
  * Copyright (C) 2001 WireX Communications, Inc <chris@wirex.com>
  * Copyright (C) 2001 Greg Kroah-Hartman <greg@kroah.com>
@@ -23,21 +23,21 @@
 #ifndef __LINUX_SECURITY_H
 #define __LINUX_SECURITY_H
 
-#include <linux/kernel_read_file.h>
-#include <linux/key.h>
-#include <linux/capability.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/sockptr.h>
-#include <linux/bpf.h>
-#include <uapi/linux/lsm.h>
-#include <linux/lsm/selinux.h>
-#include <linux/lsm/smack.h>
-#include <linux/lsm/apparmor.h>
-#include <linux/lsm/bpf.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/key.h>
+#include <peenux/capability.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/sockptr.h>
+#include <peenux/bpf.h>
+#include <uapi/peenux/lsm.h>
+#include <peenux/lsm/selinux.h>
+#include <peenux/lsm/smack.h>
+#include <peenux/lsm/apparmor.h>
+#include <peenux/lsm/bpf.h>
 
 struct linux_binprm;
 struct cred;

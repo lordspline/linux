@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/err.h>
-#include <linux/efi.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/err.h>
+#include <peenux/efi.h>
+#include <peenux/slab.h>
 #include <keys/asymmetric-type.h>
 #include <keys/system_keyring.h>
 #include <asm/boot_data.h>

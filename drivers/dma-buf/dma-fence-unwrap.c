@@ -7,12 +7,12 @@
  *	Christian König <christian.koenig@amd.com>
  */
 
-#include <linux/dma-fence.h>
-#include <linux/dma-fence-array.h>
-#include <linux/dma-fence-chain.h>
-#include <linux/dma-fence-unwrap.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
+#include <peenux/dma-fence.h>
+#include <peenux/dma-fence-array.h>
+#include <peenux/dma-fence-chain.h>
+#include <peenux/dma-fence-unwrap.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
 
 /* Internal helper to start new array iteration, don't use directly */
 static struct dma_fence *

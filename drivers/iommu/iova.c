@@ -5,14 +5,14 @@
  * Author: Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
  */
 
-#include <linux/iova.h>
-#include <linux/kmemleak.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/bitops.h>
-#include <linux/cpu.h>
-#include <linux/workqueue.h>
+#include <peenux/iova.h>
+#include <peenux/kmemleak.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/bitops.h>
+#include <peenux/cpu.h>
+#include <peenux/workqueue.h>
 
 /* The anchor node sits above the top of the usable address space */
 #define IOVA_ANCHOR	~0UL

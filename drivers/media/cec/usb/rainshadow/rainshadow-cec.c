@@ -16,18 +16,18 @@
  * http://rainshadowtech.com/doc/HDMICECtoUSBandRS232v2.0.pdf
  */
 
-#include <linux/completion.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/time.h>
-#include <linux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/serio.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/time.h>
+#include <peenux/workqueue.h>
 
 #include <media/cec.h>
 

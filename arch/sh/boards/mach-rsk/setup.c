@@ -5,16 +5,16 @@
  * Copyright (C) 2008 Paul Mundt
  * Copyright (C) 2008 Peter Griffin <pgriffin@mpc-data.co.uk>
  */
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/physmap.h>
-#include <linux/mtd/map.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/mtd/map.h>
+#include <peenux/regulator/fixed.h>
+#include <peenux/regulator/machine.h>
 #include <asm/machvec.h>
 #include <asm/io.h>
 

@@ -9,10 +9,10 @@
 #ifndef _LINUX_CODA_FS_I
 #define _LINUX_CODA_FS_I
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/coda.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/coda.h>
 
 /*
  * coda fs inode data

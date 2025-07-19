@@ -11,24 +11,24 @@
 #error only "main.h" can be included directly
 #endif
 
-#include <linux/average.h>
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/if.h>
-#include <linux/if_ether.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/netlink.h>
-#include <linux/sched.h> /* for linux/wait.h */
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <uapi/linux/batadv_packet.h>
-#include <uapi/linux/batman_adv.h>
+#include <peenux/average.h>
+#include <peenux/bitops.h>
+#include <peenux/compiler.h>
+#include <peenux/if.h>
+#include <peenux/if_ether.h>
+#include <peenux/kref.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/netlink.h>
+#include <peenux/sched.h> /* for peenux/wait.h */
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
+#include <uapi/peenux/batadv_packet.h>
+#include <uapi/peenux/batman_adv.h>
 
 #ifdef CONFIG_BATMAN_ADV_DAT
 

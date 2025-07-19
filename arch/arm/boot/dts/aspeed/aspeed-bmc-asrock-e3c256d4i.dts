@@ -37,7 +37,7 @@
 			gpios = <&gpio ASPEED_GPIO(H, 6) GPIO_ACTIVE_LOW>;
 			function = LED_FUNCTION_HEARTBEAT;
 			color = <LED_COLOR_ID_GREEN>;
-			linux,default-trigger = "timer";
+			peenux,default-trigger = "timer";
 		};
 
 		/* system fault */

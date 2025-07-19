@@ -18,7 +18,7 @@
 #include <asm/percpu.h>
 #include <asm/desc.h>
 
-#include <linux/sched.h>
+#include <peenux/sched.h>
 
 DECLARE_PER_CPU_CACHE_HOT(unsigned long, __stack_chk_guard);
 
@@ -48,7 +48,7 @@ static inline void cpu_init_stack_canary(int cpu, struct task_struct *idle)
 
 #else	/* STACKPROTECTOR */
 
-/* dummy boot_init_stack_canary() is defined in linux/stackprotector.h */
+/* dummy boot_init_stack_canary() is defined in peenux/stackprotector.h */
 
 static inline void cpu_init_stack_canary(int cpu, struct task_struct *idle)
 { }

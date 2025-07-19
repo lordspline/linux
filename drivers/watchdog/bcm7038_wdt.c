@@ -4,15 +4,15 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/bcm7038_wdt.h>
-#include <linux/pm.h>
-#include <linux/watchdog.h>
+#include <peenux/clk.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/bcm7038_wdt.h>
+#include <peenux/pm.h>
+#include <peenux/watchdog.h>
 
 #define WDT_START_1		0xff00
 #define WDT_START_2		0x00ff

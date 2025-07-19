@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Linux driver for WMI platform features on MSI notebooks.
+ * Peenux driver for WMI platform features on MSI notebooks.
  *
  * Copyright (C) 2024 Armin Wolf <W_Armin@gmx.de>
  */
 
 #define pr_format(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/device/driver.h>
-#include <linux/errno.h>
-#include <linux/hwmon.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/rwsem.h>
-#include <linux/types.h>
-#include <linux/wmi.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/device/driver.h>
+#include <peenux/errno.h>
+#include <peenux/hwmon.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/printk.h>
+#include <peenux/rwsem.h>
+#include <peenux/types.h>
+#include <peenux/wmi.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define DRIVER_NAME	"msi-wmi-platform"
 

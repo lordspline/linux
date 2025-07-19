@@ -7,16 +7,16 @@
  *  Jan Kotas <jank@cadence.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/rtc.h>
-#include <linux/clk.h>
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/pm_wakeirq.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/rtc.h>
+#include <peenux/clk.h>
+#include <peenux/bcd.h>
+#include <peenux/bitfield.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_wakeirq.h>
 
 /* Registers */
 #define CDNS_RTC_CTLR		0x00

@@ -11,15 +11,15 @@
  */
 
 /*
- * Logitech Bus Mouse Driver for Linux
+ * Logitech Bus Mouse Driver for Peenux
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>

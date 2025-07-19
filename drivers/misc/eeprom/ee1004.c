@@ -9,14 +9,14 @@
  * Copyright (C) 2008 Wolfram Sang, Pengutronix
  */
 
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nvmem-provider.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nvmem-provider.h>
 
 /*
  * DDR4 memory modules use special EEPROMs following the Jedec EE1004

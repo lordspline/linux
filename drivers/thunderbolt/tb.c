@@ -6,11 +6,11 @@
  * Copyright (C) 2019, Intel Corporation
  */
 
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/x86/apple.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_data/x86/apple.h>
 
 #include "tb.h"
 #include "tb_regs.h"

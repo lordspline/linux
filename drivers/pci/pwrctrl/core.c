@@ -3,13 +3,13 @@
  * Copyright (C) 2024 Linaro Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci-pwrctrl.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/pci-pwrctrl.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 static int pci_pwrctrl_notify(struct notifier_block *nb, unsigned long action,
 			      void *data)

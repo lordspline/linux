@@ -3,18 +3,18 @@
  * General MIPS MT support routines, usable in AP/SP and SMVP.
  * Copyright (C) 2005 Mips Technologies, Inc
  */
-#include <linux/cpu.h>
-#include <linux/cpuset.h>
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/cred.h>
-#include <linux/security.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuset.h>
+#include <peenux/cpumask.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task.h>
+#include <peenux/cred.h>
+#include <peenux/security.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 #include <asm/syscalls.h>
 
 /*

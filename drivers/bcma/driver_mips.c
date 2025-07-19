@@ -12,14 +12,14 @@
 
 #include "bcma_private.h"
 
-#include <linux/bcma/bcma.h>
+#include <peenux/bcma/bcma.h>
 
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/time.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_reg.h>
+#include <peenux/time.h>
 #ifdef CONFIG_BCM47XX
-#include <linux/bcm47xx_nvram.h>
+#include <peenux/bcm47xx_nvram.h>
 #endif
 
 enum bcma_boot_dev {

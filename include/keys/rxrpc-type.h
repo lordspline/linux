@@ -8,7 +8,7 @@
 #ifndef _KEYS_RXRPC_TYPE_H
 #define _KEYS_RXRPC_TYPE_H
 
-#include <linux/key.h>
+#include <peenux/key.h>
 #include <crypto/krb5.h>
 
 /*

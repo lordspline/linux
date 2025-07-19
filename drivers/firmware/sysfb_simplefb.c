@@ -11,14 +11,14 @@
  * legacy nodes instead.
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/platform_data/simplefb.h>
-#include <linux/platform_device.h>
-#include <linux/screen_info.h>
-#include <linux/sysfb.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/platform_data/simplefb.h>
+#include <peenux/platform_device.h>
+#include <peenux/screen_info.h>
+#include <peenux/sysfb.h>
 
 static const char simplefb_resname[] = "BOOTFB";
 static const struct simplefb_format formats[] = SIMPLEFB_FORMATS;

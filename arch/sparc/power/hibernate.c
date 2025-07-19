@@ -5,8 +5,8 @@
  * Copyright (C) 2013 Kirill V Tkhai (tkhai@yandex.ru)
  */
 
-#include <linux/suspend.h>
-#include <linux/mm.h>
+#include <peenux/suspend.h>
+#include <peenux/mm.h>
 
 #include <asm/hibernate.h>
 #include <asm/visasm.h>

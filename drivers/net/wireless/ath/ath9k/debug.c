@@ -14,10 +14,10 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
-#include <linux/unaligned.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/export.h>
+#include <peenux/unaligned.h>
 
 #include "ath9k.h"
 

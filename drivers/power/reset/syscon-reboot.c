@@ -5,14 +5,14 @@
  * Copyright (c) 2013, Applied Micro Circuits Corporation
  * Author: Feng Kan <fkan@apm.com>
  */
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/notifier.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/notifier.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
 
 struct reboot_mode_bits {
 	u32 offset;

@@ -18,7 +18,7 @@
  * TODO:
  * Add more ethtool functions.
  * Fix abstruse irq enable/disable condition described here:
- *	http://marc.theaimsgroup.com/?l=linux-netdev&m=116398508500553&w=2
+ *	http://marc.theaimsgroup.com/?l=peenux-netdev&m=116398508500553&w=2
  *
  * NEEDS TESTING:
  * VLAN
@@ -28,38 +28,38 @@
  * SMP torture testing
  */
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/byteorder.h>
 
-#include <linux/compiler.h>
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/hardirq.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/in.h>
-#include <linux/interrupt.h>
-#include <linux/ip.h>
-#include <linux/irqflags.h>
-#include <linux/irqreturn.h>
-#include <linux/jiffies.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/pm.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/tcp.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/compiler.h>
+#include <peenux/crc32.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/hardirq.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/in.h>
+#include <peenux/interrupt.h>
+#include <peenux/ip.h>
+#include <peenux/irqflags.h>
+#include <peenux/irqreturn.h>
+#include <peenux/jiffies.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/pm.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/tcp.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #include <net/checksum.h>
 

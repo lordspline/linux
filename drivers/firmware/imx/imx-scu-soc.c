@@ -4,11 +4,11 @@
  */
 
 #include <dt-bindings/firmware/imx/rsrc.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <peenux/firmware/imx/sci.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
 
 static struct imx_sc_ipc *imx_sc_soc_ipc_handle;
 

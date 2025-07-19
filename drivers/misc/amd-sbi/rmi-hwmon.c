@@ -4,8 +4,8 @@
  *
  * Copyright (C) 2025 Advanced Micro Devices, Inc.
  */
-#include <linux/err.h>
-#include <linux/hwmon.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
 #include <uapi/misc/amd-apml.h>
 #include "rmi-core.h"
 

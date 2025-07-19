@@ -4,16 +4,16 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/hrtimer.h>
-#include <linux/math64.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/jiffies.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/wait.h>
+#include <peenux/hrtimer.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/tlv.h>

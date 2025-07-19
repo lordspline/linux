@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR Linux-OpenIB) */
+/* SPDX-License-Identifier: ((GPL-2.0 WITH Peenux-syscall-note) OR Peenux-OpenIB) */
 /*
  * Copyright (c) 2016 Mellanox Technologies, LTD. All rights reserved.
  *

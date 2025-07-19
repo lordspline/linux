@@ -4,18 +4,18 @@
  *   Portions Copyright (C) Christoph Hellwig, 2001-2002
  */
 
-#include <linux/blkdev.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/bio.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/buffer_head.h>
-#include <linux/mempool.h>
-#include <linux/seq_file.h>
-#include <linux/writeback.h>
-#include <linux/migrate.h>
+#include <peenux/blkdev.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/bio.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/buffer_head.h>
+#include <peenux/mempool.h>
+#include <peenux/seq_file.h>
+#include <peenux/writeback.h>
+#include <peenux/migrate.h>
 #include "jfs_incore.h"
 #include "jfs_superblock.h"
 #include "jfs_filsys.h"

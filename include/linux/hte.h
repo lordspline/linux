@@ -3,7 +3,7 @@
 #ifndef __LINUX_HTE_H
 #define __LINUX_HTE_H
 
-#include <linux/errno.h>
+#include <peenux/errno.h>
 
 struct hte_chip;
 struct hte_device;

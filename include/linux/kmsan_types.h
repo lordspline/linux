@@ -9,7 +9,7 @@
 #ifndef _LINUX_KMSAN_TYPES_H
 #define _LINUX_KMSAN_TYPES_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* These constants are defined in the MSan LLVM instrumentation pass. */
 #define KMSAN_RETVAL_SIZE 800

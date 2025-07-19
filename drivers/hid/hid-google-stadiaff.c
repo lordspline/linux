@@ -5,10 +5,10 @@
  * Copyright 2023 Google LLC
  */
 
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/hid.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 #include "hid-ids.h"
 

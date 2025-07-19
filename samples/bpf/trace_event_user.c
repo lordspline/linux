@@ -6,8 +6,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
-#include <linux/perf_event.h>
-#include <linux/bpf.h>
+#include <peenux/perf_event.h>
+#include <peenux/bpf.h>
 #include <signal.h>
 #include <errno.h>
 #include <sys/resource.h>

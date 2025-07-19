@@ -4,12 +4,12 @@
  * Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/cpufeature.h>
-#include <linux/kernel.h>
-#include <linux/syscalls.h>
-#include <linux/signal.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/cpufeature.h>
+#include <peenux/kernel.h>
+#include <peenux/syscalls.h>
+#include <peenux/signal.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 #include <asm/guarded_storage.h>
 #include "entry.h"
 

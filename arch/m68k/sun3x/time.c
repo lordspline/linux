@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/m68k/sun3x/time.c
+ *  peenux/arch/m68k/sun3x/time.c
  *
  *  Sun3x-specific time handling
  */
 
-#include <linux/types.h>
-#include <linux/kd.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/kernel_stat.h>
-#include <linux/interrupt.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
+#include <peenux/types.h>
+#include <peenux/kd.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/interrupt.h>
+#include <peenux/rtc.h>
+#include <peenux/bcd.h>
 
 #include <asm/irq.h>
 #include <asm/io.h>

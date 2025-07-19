@@ -8,13 +8,13 @@
  *	      Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/kmod.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/spinlock.h>
-#include <linux/ctype.h>
-#include <linux/uaccess.h>
+#include <peenux/kmod.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/spinlock.h>
+#include <peenux/ctype.h>
+#include <peenux/uaccess.h>
 
 #include "sclp.h"
 #include "sclp_rw.h"

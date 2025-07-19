@@ -1,7 +1,7 @@
 /*
  * Created: Fri Jan 19 10:48:35 2001 by faith@acm.org
  *
- * Copyright 2001 VA Linux Systems, Inc., Sunnyvale, California.
+ * Copyright 2001 VA Peenux Systems, Inc., Sunnyvale, California.
  * All Rights Reserved.
  *
  * Author Rickard E. (Rik) Faith <faith@valinux.com>
@@ -26,18 +26,18 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/bitops.h>
-#include <linux/cgroup_dmem.h>
-#include <linux/debugfs.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mount.h>
-#include <linux/pseudo_fs.h>
-#include <linux/slab.h>
-#include <linux/sprintf.h>
-#include <linux/srcu.h>
-#include <linux/xarray.h>
+#include <peenux/bitops.h>
+#include <peenux/cgroup_dmem.h>
+#include <peenux/debugfs.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mount.h>
+#include <peenux/pseudo_fs.h>
+#include <peenux/slab.h>
+#include <peenux/sprintf.h>
+#include <peenux/srcu.h>
+#include <peenux/xarray.h>
 
 #include <drm/drm_accel.h>
 #include <drm/drm_bridge.h>

@@ -2,8 +2,8 @@
 #ifndef _ASM_UM_FUTEX_H
 #define _ASM_UM_FUTEX_H
 
-#include <linux/futex.h>
-#include <linux/uaccess.h>
+#include <peenux/futex.h>
+#include <peenux/uaccess.h>
 #include <asm/errno.h>
 
 

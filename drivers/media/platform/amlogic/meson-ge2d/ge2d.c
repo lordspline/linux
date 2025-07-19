@@ -4,19 +4,19 @@
  * Author: Neil Armstrong <narmstrong@baylibre.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/reset.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/bitfield.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/reset.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
+#include <peenux/regmap.h>
 
-#include <linux/platform_device.h>
+#include <peenux/platform_device.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-ioctl.h>

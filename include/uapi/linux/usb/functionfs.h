@@ -1,13 +1,13 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _UAPI__LINUX_FUNCTIONFS_H__
 #define _UAPI__LINUX_FUNCTIONFS_H__
 
 
-#include <linux/const.h>
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <peenux/const.h>
+#include <peenux/types.h>
+#include <peenux/ioctl.h>
 
-#include <linux/usb/ch9.h>
+#include <peenux/usb/ch9.h>
 
 
 enum {

@@ -9,8 +9,8 @@
 #ifndef __LINUX_PRUSS_H
 #define __LINUX_PRUSS_H
 
-#include <linux/device.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
 
 #define PRU_RPROC_DRVNAME "pru-rproc"
 

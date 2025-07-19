@@ -2,12 +2,12 @@
 // Copyright 2023 Google LLC
 // Author: Ard Biesheuvel <ardb@google.com>
 
-#include <linux/init.h>
-#include <linux/libfdt.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
-#include <linux/sizes.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/libfdt.h>
+#include <peenux/linkage.h>
+#include <peenux/types.h>
+#include <peenux/sizes.h>
+#include <peenux/string.h>
 
 #include <asm/memory.h>
 #include <asm/pgalloc.h>

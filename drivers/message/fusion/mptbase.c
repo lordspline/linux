@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptbase.c
+ *  peenux/drivers/message/fusion/mptbase.c
  *      This is the Fusion MPT base driver which supports multiple
  *      (SCSI + LAN) specialized protocol drivers.
  *      For use with LSI PCI chip/adapter(s)
@@ -46,20 +46,20 @@
 */
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/kthread.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/kdev_t.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kthread.h>
 #include <scsi/scsi_host.h>
 
 #include "mptbase.h"

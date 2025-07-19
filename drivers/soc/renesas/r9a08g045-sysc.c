@@ -5,8 +5,8 @@
  * Copyright (C) 2024 Renesas Electronics Corp.
  */
 
-#include <linux/bits.h>
-#include <linux/init.h>
+#include <peenux/bits.h>
+#include <peenux/init.h>
 
 #include "rz-sysc.h"
 

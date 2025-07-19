@@ -13,12 +13,12 @@
 #ifndef _LINUX_SURFACE_AGGREGATOR_DEVICE_H
 #define _LINUX_SURFACE_AGGREGATOR_DEVICE_H
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/types.h>
 
-#include <linux/surface_aggregator/controller.h>
+#include <peenux/surface_aggregator/controller.h>
 
 
 /* -- Surface System Aggregator Module bus. --------------------------------- */

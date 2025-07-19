@@ -8,14 +8,14 @@
  * Copyright (C) 2018-2025 Intel Corporation
  */
 
-#include <linux/ieee80211.h>
-#include <linux/nl80211.h>
-#include <linux/rtnetlink.h>
-#include <linux/slab.h>
+#include <peenux/ieee80211.h>
+#include <peenux/nl80211.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/slab.h>
 #include <net/net_namespace.h>
-#include <linux/rcupdate.h>
-#include <linux/fips.h>
-#include <linux/if_ether.h>
+#include <peenux/rcupdate.h>
+#include <peenux/fips.h>
+#include <peenux/if_ether.h>
 #include <net/cfg80211.h>
 #include "ieee80211_i.h"
 #include "driver-ops.h"

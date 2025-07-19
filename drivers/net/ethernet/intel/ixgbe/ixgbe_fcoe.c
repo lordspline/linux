@@ -2,9 +2,9 @@
 /* Copyright(c) 1999 - 2018 Intel Corporation. */
 
 #include "ixgbe.h"
-#include <linux/if_ether.h>
-#include <linux/gfp.h>
-#include <linux/if_vlan.h>
+#include <peenux/if_ether.h>
+#include <peenux/gfp.h>
+#include <peenux/if_vlan.h>
 #include <generated/utsrelease.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>

@@ -33,19 +33,19 @@
 #ifndef _IWPM_UTIL_H
 #define _IWPM_UTIL_H
 
-#include <linux/io.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
-#include <linux/jhash.h>
-#include <linux/kref.h>
+#include <peenux/io.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/mutex.h>
+#include <peenux/jhash.h>
+#include <peenux/kref.h>
 #include <net/netlink.h>
-#include <linux/errno.h>
+#include <peenux/errno.h>
 #include <rdma/iw_portmap.h>
 #include <rdma/rdma_netlink.h>
 

@@ -7,14 +7,14 @@
 #ifndef __PHY_TEGRA_XUSB_H
 #define __PHY_TEGRA_XUSB_H
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/role.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/role.h>
 
 /* legacy entry points for backwards-compatibility */
 int tegra_xusb_padctl_legacy_probe(struct platform_device *pdev);

@@ -9,9 +9,9 @@
  *          Akshata MukundShetty <akshata.mukundshetty@amd.com>
  */
 
-#include <linux/init.h>
-#include <linux/spi/spi.h>
-#include <linux/pci.h>
+#include <peenux/init.h>
+#include <peenux/spi/spi.h>
+#include <peenux/pci.h>
 
 #include "spi-amd.h"
 

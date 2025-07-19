@@ -5,12 +5,12 @@
  * Copyright 2018 DEVIALET
  */
 
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include <sound/asoundef.h>
 #include <sound/core.h>

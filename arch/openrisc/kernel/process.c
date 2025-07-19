@@ -2,7 +2,7 @@
 /*
  * OpenRISC process.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Peenux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -14,35 +14,35 @@
  */
 
 #define __KERNEL_SYSCALLS__
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/elfcore.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/init_task.h>
-#include <linux/mqueue.h>
-#include <linux/fs.h>
-#include <linux/reboot.h>
+#include <peenux/cpu.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/elfcore.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/init_task.h>
+#include <peenux/mqueue.h>
+#include <peenux/fs.h>
+#include <peenux/reboot.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/fpu.h>
 #include <asm/io.h>
 #include <asm/processor.h>
 #include <asm/spr_defs.h>
 #include <asm/switch_to.h>
 
-#include <linux/smp.h>
+#include <peenux/smp.h>
 
 /*
  * Pointer to Current thread info structure.

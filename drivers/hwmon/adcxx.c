@@ -21,18 +21,18 @@
  * unavailable bits are 0 :)
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/mutex.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/sysfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/mutex.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/spi/spi.h>
 
 #define DRVNAME		"adcxx"
 
@@ -228,5 +228,5 @@ static struct spi_driver adcxx_driver = {
 module_spi_driver(adcxx_driver);
 
 MODULE_AUTHOR("Marc Pignat");
-MODULE_DESCRIPTION("National Semiconductor adcxx8sxxx Linux driver");
+MODULE_DESCRIPTION("National Semiconductor adcxx8sxxx Peenux driver");
 MODULE_LICENSE("GPL");

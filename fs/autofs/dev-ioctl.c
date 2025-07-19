@@ -4,12 +4,12 @@
  * Copyright 2008 Ian Kent <raven@themaw.net>
  */
 
-#include <linux/module.h>
-#include <linux/miscdevice.h>
-#include <linux/compat.h>
-#include <linux/fdtable.h>
-#include <linux/magic.h>
-#include <linux/nospec.h>
+#include <peenux/module.h>
+#include <peenux/miscdevice.h>
+#include <peenux/compat.h>
+#include <peenux/fdtable.h>
+#include <peenux/magic.h>
+#include <peenux/nospec.h>
 
 #include "autofs_i.h"
 

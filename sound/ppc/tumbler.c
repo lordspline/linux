@@ -10,15 +10,15 @@
  */
 
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/of_irq.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/kmod.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/string.h>
+#include <peenux/of_irq.h>
+#include <peenux/io.h>
 #include <sound/core.h>
 #include <asm/irq.h>
 #include <asm/machdep.h>

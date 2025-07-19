@@ -7,9 +7,9 @@
  * Author: Dmitry Tarnyagin <dmitry.tarnyagin@lockless.no>
  */
 
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <peenux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
 #include "cw1200.h"
 #include "debug.h"
 #include "fwio.h"

@@ -25,13 +25,13 @@
 #ifndef __I915_UTILS_H
 #define __I915_UTILS_H
 
-#include <linux/list.h>
-#include <linux/overflow.h>
-#include <linux/sched.h>
-#include <linux/string_helpers.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
-#include <linux/sched/clock.h>
+#include <peenux/list.h>
+#include <peenux/overflow.h>
+#include <peenux/sched.h>
+#include <peenux/string_helpers.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
+#include <peenux/sched/clock.h>
 
 #ifdef CONFIG_X86
 #include <asm/hypervisor.h>

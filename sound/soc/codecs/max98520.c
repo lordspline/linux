@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2021, Maxim Integrated
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/cdev.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/cdev.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
 #include <sound/tlv.h>
 #include "max98520.h"
 

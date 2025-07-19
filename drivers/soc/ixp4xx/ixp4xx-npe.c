@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Intel IXP4xx Network Processor Engine driver for Linux
+ * Intel IXP4xx Network Processor Engine driver for Peenux
  *
  * Copyright (C) 2007 Krzysztof Halasa <khc@pm.waw.pl>
  *
@@ -11,18 +11,18 @@
  *   Thanks, Christian.
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ixp4xx/npe.h>
-#include <linux/soc/ixp4xx/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/ixp4xx/npe.h>
+#include <peenux/soc/ixp4xx/cpu.h>
 
 #define DEBUG_MSG			0
 #define DEBUG_FW			0

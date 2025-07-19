@@ -7,15 +7,15 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 #define dev_fmt pr_fmt
 
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
 #include <asm/dma.h>
-#include <linux/dma-mapping.h>
-#include <linux/string.h>
-#include <linux/init.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
 #include "nec7210.h"
 #include "gpibP.h"
 

@@ -6,26 +6,26 @@
  *  Copyright (C) 2015  Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/property.h>
-#include <linux/platform_data/x86/apple.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/tty.h>
-#include <linux/interrupt.h>
-#include <linux/dmi.h>
-#include <linux/pm_runtime.h>
-#include <linux/serdev.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/property.h>
+#include <peenux/platform_data/x86/apple.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/tty.h>
+#include <peenux/interrupt.h>
+#include <peenux/dmi.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/serdev.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

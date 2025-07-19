@@ -62,14 +62,14 @@
  *   needed for ZV, so maybe the datasheet is entirely wrong here.
  */
  
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/pnp.h>
-#include <linux/isapnp.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/isa.h>
+#include <peenux/pnp.h>
+#include <peenux/isapnp.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
 
 #include <asm/dma.h>
 #include <sound/core.h>

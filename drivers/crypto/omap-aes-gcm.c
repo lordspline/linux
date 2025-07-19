@@ -13,15 +13,15 @@
 #include <crypto/internal/aead.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/skcipher.h>
-#include <linux/errno.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/omap-dma.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
+#include <peenux/errno.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/omap-dma.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/scatterlist.h>
+#include <peenux/string.h>
 
 #include "omap-crypto.h"
 #include "omap-aes.h"

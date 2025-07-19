@@ -4,28 +4,28 @@
  * Author: Guennadi Liakhovetski <g.liakhovetski@gmx.de>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/highmem.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/sdio.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
-#include <linux/time.h>
-#include <linux/virtio.h>
-#include <linux/workqueue.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/highmem.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/log2.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/scatterlist.h>
+#include <peenux/string.h>
+#include <peenux/time.h>
+#include <peenux/virtio.h>
+#include <peenux/workqueue.h>
 
 #define USDHI6_SD_CMD		0x0000
 #define USDHI6_SD_PORT_SEL	0x0004

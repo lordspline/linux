@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "debug.h"
 #include "ntfs_fs.h"

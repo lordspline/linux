@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/errno.h>
-#include <linux/smp.h>
+#include <peenux/errno.h>
+#include <peenux/smp.h>
 
 #include "x86.h"
 #include "../cpuid.h"

@@ -5,14 +5,14 @@
  *
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/capability.h>
-#include <linux/entry-common.h>
-#include <linux/errno.h>
-#include <linux/linkage.h>
-#include <linux/objtool.h>
-#include <linux/randomize_kstack.h>
-#include <linux/syscalls.h>
-#include <linux/unistd.h>
+#include <peenux/capability.h>
+#include <peenux/entry-common.h>
+#include <peenux/errno.h>
+#include <peenux/linkage.h>
+#include <peenux/objtool.h>
+#include <peenux/randomize_kstack.h>
+#include <peenux/syscalls.h>
+#include <peenux/unistd.h>
 
 #include <asm/asm.h>
 #include <asm/exception.h>

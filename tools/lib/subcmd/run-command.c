@@ -5,7 +5,7 @@
 #include <ctype.h>
 #include <fcntl.h>
 #include <string.h>
-#include <linux/string.h>
+#include <peenux/string.h>
 #include <errno.h>
 #include <sys/wait.h>
 #include "subcmd-util.h"

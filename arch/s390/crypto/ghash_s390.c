@@ -11,11 +11,11 @@
 #include <asm/cpacf.h>
 #include <crypto/ghash.h>
 #include <crypto/internal/hash.h>
-#include <linux/cpufeature.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/cpufeature.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 
 struct s390_ghash_ctx {
 	u8 key[GHASH_BLOCK_SIZE];

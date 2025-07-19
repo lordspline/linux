@@ -4,8 +4,8 @@
  */
 
 
-#include <linux/bitfield.h>
-#include <linux/etherdevice.h>
+#include <peenux/bitfield.h>
+#include <peenux/etherdevice.h>
 
 #include "tag.h"
 

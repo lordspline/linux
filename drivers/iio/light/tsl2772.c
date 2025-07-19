@@ -8,21 +8,21 @@
  * Copyright (c) 2017-2018 Brian Masney <masneyb@onstation.org>
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/platform_data/tsl2772.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/platform_data/tsl2772.h>
+#include <peenux/regulator/consumer.h>
 
 /* Cal defs */
 #define PROX_STAT_CAL			0

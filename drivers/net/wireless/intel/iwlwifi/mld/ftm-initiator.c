@@ -2,8 +2,8 @@
 /*
  * Copyright (C) 2025 Intel Corporation
  */
-#include <linux/etherdevice.h>
-#include <linux/math64.h>
+#include <peenux/etherdevice.h>
+#include <peenux/math64.h>
 #include <net/cfg80211.h>
 #include "mld.h"
 #include "iface.h"

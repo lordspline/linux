@@ -6,24 +6,24 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/sysfs.h>
-#include <linux/units.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/spi/offload/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/sysfs.h>
+#include <peenux/units.h>
 
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/dac/ad5791.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/buffer-dmaengine.h>
+#include <peenux/iio/dac/ad5791.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define AD5791_DAC_MASK			GENMASK(19, 0)
 

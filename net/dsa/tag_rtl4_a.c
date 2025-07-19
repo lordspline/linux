@@ -15,8 +15,8 @@
  * frames.
  */
 
-#include <linux/etherdevice.h>
-#include <linux/bits.h>
+#include <peenux/etherdevice.h>
+#include <peenux/bits.h>
 
 #include "tag.h"
 

@@ -6,9 +6,9 @@
 #ifndef VDO_SLAB_DEPOT_H
 #define VDO_SLAB_DEPOT_H
 
-#include <linux/atomic.h>
-#include <linux/dm-kcopyd.h>
-#include <linux/list.h>
+#include <peenux/atomic.h>
+#include <peenux/dm-kcopyd.h>
+#include <peenux/list.h>
 
 #include "numeric.h"
 

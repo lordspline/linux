@@ -75,7 +75,7 @@ EXPORT_SYMBOL_NS_GPL(iommufd_viommu_get_vdev_id, "IOMMUFD");
 
 /*
  * Typically called in driver's threaded IRQ handler.
- * The @type and @event_data must be defined in include/uapi/linux/iommufd.h
+ * The @type and @event_data must be defined in include/uapi/peenux/iommufd.h
  */
 int iommufd_viommu_report_event(struct iommufd_viommu *viommu,
 				enum iommu_veventq_type type, void *event_data,

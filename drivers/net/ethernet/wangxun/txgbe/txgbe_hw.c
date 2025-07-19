@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2015 - 2022 Beijing WangXun Technology Co., Ltd. */
 
-#include <linux/etherdevice.h>
-#include <linux/if_ether.h>
-#include <linux/string.h>
-#include <linux/iopoll.h>
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_ether.h>
+#include <peenux/string.h>
+#include <peenux/iopoll.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
 
 #include "../libwx/wx_type.h"
 #include "../libwx/wx_hw.h"

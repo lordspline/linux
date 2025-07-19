@@ -9,24 +9,24 @@
  *   Authors	Christian Zankel, Joe Taylor
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/major.h>
-#include <linux/param.h>
-#include <linux/seq_file.h>
-#include <linux/serial.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/console.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/major.h>
+#include <peenux/param.h>
+#include <peenux/seq_file.h>
+#include <peenux/serial.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/irq.h>
 
 #include <platform/simcall.h>
 
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
 
 #define SERIAL_MAX_NUM_LINES 1
 #define SERIAL_TIMER_VALUE (HZ / 10)

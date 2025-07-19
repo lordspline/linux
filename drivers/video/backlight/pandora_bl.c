@@ -7,13 +7,13 @@
  * Copyright 2009,2012 Gražvydas Ignotas <notasas@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/backlight.h>
-#include <linux/mfd/twl.h>
-#include <linux/err.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/backlight.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/err.h>
 
 #define TWL_PWM0_ON		0x00
 #define TWL_PWM0_OFF		0x01

@@ -5,14 +5,14 @@
  * Copyright (C) 2015-2018 Cirrus Logic
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
-#include <linux/mfd/madera/core.h>
-#include <linux/mfd/madera/pdata.h>
-#include <linux/mfd/madera/registers.h>
+#include <peenux/mfd/madera/core.h>
+#include <peenux/mfd/madera/pdata.h>
+#include <peenux/mfd/madera/registers.h>
 
 struct madera_gpio {
 	struct madera *madera;

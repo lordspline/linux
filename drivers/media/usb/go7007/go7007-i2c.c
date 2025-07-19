@@ -3,16 +3,16 @@
  * Copyright (C) 2005-2006 Micronas USA Inc.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/list.h>
-#include <linux/unistd.h>
-#include <linux/time.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/list.h>
+#include <peenux/unistd.h>
+#include <peenux/time.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
 
 #include "go7007-priv.h"
 

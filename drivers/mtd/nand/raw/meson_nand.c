@@ -6,20 +6,20 @@
  * Author: Liang Yang <liang.yang@amlogic.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
+#include <peenux/sched/task_stack.h>
 
 #define NFC_REG_CMD		0x00
 #define NFC_CMD_IDLE		(0xc << 14)

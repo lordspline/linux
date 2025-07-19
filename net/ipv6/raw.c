@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	RAW sockets for IPv6
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
  *
- *	Adapted from linux/net/ipv4/raw.c
+ *	Adapted from peenux/net/ipv4/raw.c
  *
  *	Fixes:
  *	Hideaki YOSHIFUJI	:	sin6_scope_id support
@@ -14,21 +14,21 @@
  *	Kazunori MIYAZAWA @USAGI:	change process style to use ip6_append_data
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/slab.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/icmpv6.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv6.h>
-#include <linux/skbuff.h>
-#include <linux/compat.h>
-#include <linux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/slab.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/in6.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/icmpv6.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv6.h>
+#include <peenux/skbuff.h>
+#include <peenux/compat.h>
+#include <peenux/uaccess.h>
 #include <asm/ioctls.h>
 
 #include <net/net_namespace.h>
@@ -49,15 +49,15 @@
 #if IS_ENABLED(CONFIG_IPV6_MIP6)
 #include <net/mip6.h>
 #endif
-#include <linux/mroute6.h>
+#include <peenux/mroute6.h>
 
 #include <net/raw.h>
 #include <net/rawv6.h>
 #include <net/xfrm.h>
 
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/export.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/export.h>
 
 #define	ICMPV6_HDRLEN	4	/* ICMPv6 header, RFC 4443 Section 2.1 */
 
@@ -1003,7 +1003,7 @@ static int do_rawv6_setsockopt(struct sock *sk, int level, int optname,
 			 * allowed on ICMPv6 sockets.
 			 * If you want to set it, use IPPROTO_RAW
 			 * level IPV6_CHECKSUM socket option
-			 * (Linux extension).
+			 * (Peenux extension).
 			 */
 			return -EINVAL;
 		}

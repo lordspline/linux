@@ -9,13 +9,13 @@
  * Copyright (C) 2010,2011 Igor M. Liplianin <liplianin@netup.ru>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
 
-#include <linux/int_log.h>
+#include <peenux/int_log.h>
 
 #include "stv0367.h"
 #include "stv0367_defs.h"

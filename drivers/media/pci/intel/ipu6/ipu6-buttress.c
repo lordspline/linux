@@ -3,24 +3,24 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/math64.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pfn.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/time64.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/math64.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pfn.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/time64.h>
 
 #include "ipu6.h"
 #include "ipu6-bus.h"

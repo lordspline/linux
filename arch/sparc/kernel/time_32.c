@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-/* linux/arch/sparc/kernel/time.c
+/* peenux/arch/sparc/kernel/time.c
  *
  * Copyright (C) 1995 David S. Miller (davem@davemloft.net)
  * Copyright (C) 1996 Thomas K. Dyas (tdyas@eden.rutgers.edu)
@@ -15,25 +15,25 @@
  * 1997-09-10	Updated NTP code according to technical memorandum Jan '96
  *		"A Kernel Model for Precision Timekeeping" by Dave Mills
  */
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/time.h>
-#include <linux/rtc/m48t59.h>
-#include <linux/timex.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/ioport.h>
-#include <linux/profile.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/time.h>
+#include <peenux/rtc/m48t59.h>
+#include <peenux/timex.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/ioport.h>
+#include <peenux/profile.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <asm/mc146818rtc.h>
 #include <asm/oplib.h>

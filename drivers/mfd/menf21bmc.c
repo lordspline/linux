@@ -5,11 +5,11 @@
  *  Copyright (C) 2014 MEN Mikro Elektronik Nuernberg GmbH
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/core.h>
 
 #define BMC_CMD_WDT_EXIT_PROD	0x18
 #define BMC_CMD_WDT_PROD_STAT	0x19

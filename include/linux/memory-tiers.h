@@ -2,11 +2,11 @@
 #ifndef _LINUX_MEMORY_TIERS_H
 #define _LINUX_MEMORY_TIERS_H
 
-#include <linux/types.h>
-#include <linux/nodemask.h>
-#include <linux/kref.h>
-#include <linux/mmzone.h>
-#include <linux/notifier.h>
+#include <peenux/types.h>
+#include <peenux/nodemask.h>
+#include <peenux/kref.h>
+#include <peenux/mmzone.h>
+#include <peenux/notifier.h>
 /*
  * Each tier cover a abstrace distance chunk size of 128
  */

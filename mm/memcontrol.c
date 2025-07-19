@@ -2,7 +2,7 @@
 /* memcontrol.c - Memory Controller
  *
  * Copyright IBM Corporation, 2007
- * Author Balbir Singh <balbir@linux.vnet.ibm.com>
+ * Author Balbir Singh <balbir@peenux.vnet.ibm.com>
  *
  * Copyright 2007 OpenVZ SWsoft Inc
  * Author: Pavel Emelianov <xemul@openvz.org>
@@ -25,52 +25,52 @@
  * Copyright (C) 2020 Alibaba, Inc, Alex Shi
  */
 
-#include <linux/cgroup-defs.h>
-#include <linux/page_counter.h>
-#include <linux/memcontrol.h>
-#include <linux/cgroup.h>
-#include <linux/cpuset.h>
-#include <linux/sched/mm.h>
-#include <linux/shmem_fs.h>
-#include <linux/hugetlb.h>
-#include <linux/pagemap.h>
-#include <linux/pagevec.h>
-#include <linux/vm_event_item.h>
-#include <linux/smp.h>
-#include <linux/page-flags.h>
-#include <linux/backing-dev.h>
-#include <linux/bit_spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/limits.h>
-#include <linux/export.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/rbtree.h>
-#include <linux/slab.h>
-#include <linux/swapops.h>
-#include <linux/spinlock.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
-#include <linux/parser.h>
-#include <linux/vmpressure.h>
-#include <linux/memremap.h>
-#include <linux/mm_inline.h>
-#include <linux/swap_cgroup.h>
-#include <linux/cpu.h>
-#include <linux/oom.h>
-#include <linux/lockdep.h>
-#include <linux/resume_user_mode.h>
-#include <linux/psi.h>
-#include <linux/seq_buf.h>
-#include <linux/sched/isolation.h>
-#include <linux/kmemleak.h>
+#include <peenux/cgroup-defs.h>
+#include <peenux/page_counter.h>
+#include <peenux/memcontrol.h>
+#include <peenux/cgroup.h>
+#include <peenux/cpuset.h>
+#include <peenux/sched/mm.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/hugetlb.h>
+#include <peenux/pagemap.h>
+#include <peenux/pagevec.h>
+#include <peenux/vm_event_item.h>
+#include <peenux/smp.h>
+#include <peenux/page-flags.h>
+#include <peenux/backing-dev.h>
+#include <peenux/bit_spinlock.h>
+#include <peenux/rcupdate.h>
+#include <peenux/limits.h>
+#include <peenux/export.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/rbtree.h>
+#include <peenux/slab.h>
+#include <peenux/swapops.h>
+#include <peenux/spinlock.h>
+#include <peenux/fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/parser.h>
+#include <peenux/vmpressure.h>
+#include <peenux/memremap.h>
+#include <peenux/mm_inline.h>
+#include <peenux/swap_cgroup.h>
+#include <peenux/cpu.h>
+#include <peenux/oom.h>
+#include <peenux/lockdep.h>
+#include <peenux/resume_user_mode.h>
+#include <peenux/psi.h>
+#include <peenux/seq_buf.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/kmemleak.h>
 #include "internal.h"
 #include <net/sock.h>
 #include <net/ip.h>
 #include "slab.h"
 #include "memcontrol-v1.h"
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/memcg.h>
@@ -5311,7 +5311,7 @@ static int __init setup_swap_account(char *s)
 	if (!kstrtobool(s, &res) && !res)
 		pr_warn_once("The swapaccount=0 commandline option is deprecated "
 			     "in favor of configuring swap control via cgroupfs. "
-			     "Please report your usecase to linux-mm@kvack.org if you "
+			     "Please report your usecase to peenux-mm@kvack.org if you "
 			     "depend on this functionality.\n");
 	return 1;
 }

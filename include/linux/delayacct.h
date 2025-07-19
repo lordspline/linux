@@ -7,7 +7,7 @@
 #ifndef _LINUX_DELAYACCT_H
 #define _LINUX_DELAYACCT_H
 
-#include <uapi/linux/taskstats.h>
+#include <uapi/peenux/taskstats.h>
 
 #ifdef CONFIG_TASK_DELAY_ACCT
 struct task_delay_info {
@@ -72,9 +72,9 @@ struct task_delay_info {
 };
 #endif
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/jump_label.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/jump_label.h>
 
 #ifdef CONFIG_TASK_DELAY_ACCT
 DECLARE_STATIC_KEY_FALSE(delayacct_key);

@@ -5,16 +5,16 @@
 /*
  * Copyright 1995 Linus Torvalds
  */
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/highmem.h>
-#include <linux/compiler.h>
-#include <linux/uaccess.h>
-#include <linux/gfp.h>
-#include <linux/bitops.h>
-#include <linux/hardirq.h> /* for in_interrupt() */
-#include <linux/hugetlb_inline.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/list.h>
+#include <peenux/highmem.h>
+#include <peenux/compiler.h>
+#include <peenux/uaccess.h>
+#include <peenux/gfp.h>
+#include <peenux/bitops.h>
+#include <peenux/hardirq.h> /* for in_interrupt() */
+#include <peenux/hugetlb_inline.h>
 
 struct folio_batch;
 

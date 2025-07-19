@@ -26,15 +26,15 @@
  */
 
 #include "udfdecl.h"
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/writeback.h>
-#include <linux/slab.h>
-#include <linux/crc-itu-t.h>
-#include <linux/mpage.h>
-#include <linux/uio.h>
-#include <linux/bio.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/writeback.h>
+#include <peenux/slab.h>
+#include <peenux/crc-itu-t.h>
+#include <peenux/mpage.h>
+#include <peenux/uio.h>
+#include <peenux/bio.h>
 
 #include "udf_i.h"
 #include "udf_sb.h"

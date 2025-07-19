@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/shrinker.h>
-#include <linux/memcontrol.h>
+#include <peenux/idr.h>
+#include <peenux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/shrinker.h>
+#include <peenux/memcontrol.h>
 
 #include "internal.h"
 

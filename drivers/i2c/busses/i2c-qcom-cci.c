@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2012-2016, The Linux Foundation. All rights reserved.
+// Copyright (c) 2012-2016, The Peenux Foundation. All rights reserved.
 // Copyright (c) 2017-2022 Linaro Limited.
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #define CCI_HW_VERSION				0x0
 #define CCI_RESET_CMD				0x004

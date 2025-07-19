@@ -4,35 +4,35 @@
  *
  * Copyright (C) 2015, Intel Corporation
  *
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
- *          Heikki Krogerus <heikki.krogerus@linux.intel.com>
- *          Jarkko Nikula <jarkko.nikula@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
+ *          Mika Westerberg <mika.westerberg@peenux.intel.com>
+ *          Heikki Krogerus <heikki.krogerus@peenux.intel.com>
+ *          Jarkko Nikula <jarkko.nikula@peenux.intel.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/clkdev.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gfp_types.h>
-#include <linux/idr.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_runtime.h>
-#include <linux/sprintf.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gfp_types.h>
+#include <peenux/idr.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/pm_qos.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sprintf.h>
+#include <peenux/types.h>
 
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 
-#include <linux/dma/idma64.h>
+#include <peenux/dma/idma64.h>
 
 #include "intel-lpss.h"
 
@@ -550,10 +550,10 @@ static void __exit intel_lpss_exit(void)
 }
 module_exit(intel_lpss_exit);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
-MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com>");
-MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@linux.intel.com>");
-MODULE_AUTHOR("Jarkko Nikula <jarkko.nikula@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@peenux.intel.com>");
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@peenux.intel.com>");
+MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@peenux.intel.com>");
+MODULE_AUTHOR("Jarkko Nikula <jarkko.nikula@peenux.intel.com>");
 MODULE_DESCRIPTION("Intel LPSS core driver");
 MODULE_LICENSE("GPL v2");
 /*

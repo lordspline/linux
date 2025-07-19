@@ -7,12 +7,12 @@
  * Copyright (C) 1998 Pete Zaitcev <zaitcev@yahoo.com>
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
 #include <asm/openprom.h>
 #include <asm/oplib.h>
-#include <linux/string.h>
+#include <peenux/string.h>
 
 extern void restore_current(void);
 

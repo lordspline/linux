@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Ported from IRIX to Linux by Kanoj Sarcar, 06/08/00.
+ * Ported from IRIX to Peenux by Kanoj Sarcar, 06/08/00.
  * Copyright 2000 - 2001 Silicon Graphics, Inc.
  * Copyright 2000 - 2001 Kanoj Sarcar (kanoj@sgi.com)
  */
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/kernel.h>
-#include <linux/nodemask.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/mmzone.h>
+#include <peenux/kernel.h>
+#include <peenux/nodemask.h>
+#include <peenux/string.h>
 
 #include <asm/page.h>
 #include <asm/sections.h>

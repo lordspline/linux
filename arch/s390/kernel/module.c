@@ -10,18 +10,18 @@
  *  based on i386 version
  *    Copyright (C) 2001 Rusty Russell.
  */
-#include <linux/module.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/ftrace.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/kasan.h>
-#include <linux/moduleloader.h>
-#include <linux/bug.h>
-#include <linux/memory.h>
-#include <linux/execmem.h>
+#include <peenux/module.h>
+#include <peenux/elf.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/ftrace.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/kasan.h>
+#include <peenux/moduleloader.h>
+#include <peenux/bug.h>
+#include <peenux/memory.h>
+#include <peenux/execmem.h>
 #include <asm/alternative.h>
 #include <asm/nospec-branch.h>
 #include <asm/facility.h>

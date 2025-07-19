@@ -5,12 +5,12 @@
 
 #include "slab-depot.h"
 
-#include <linux/atomic.h>
-#include <linux/bio.h>
-#include <linux/err.h>
-#include <linux/log2.h>
-#include <linux/min_heap.h>
-#include <linux/minmax.h>
+#include <peenux/atomic.h>
+#include <peenux/bio.h>
+#include <peenux/err.h>
+#include <peenux/log2.h>
+#include <peenux/min_heap.h>
+#include <peenux/minmax.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

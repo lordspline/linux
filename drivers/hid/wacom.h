@@ -79,17 +79,17 @@
 #ifndef WACOM_H
 #define WACOM_H
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/hid.h>
-#include <linux/kfifo.h>
-#include <linux/leds.h>
-#include <linux/usb/input.h>
-#include <linux/power_supply.h>
-#include <linux/timer.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/hid.h>
+#include <peenux/kfifo.h>
+#include <peenux/leds.h>
+#include <peenux/usb/input.h>
+#include <peenux/power_supply.h>
+#include <peenux/timer.h>
+#include <peenux/unaligned.h>
 
 /*
  * Version Information

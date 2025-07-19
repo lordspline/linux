@@ -6,15 +6,15 @@
  * This driver supports the following Diamond Systems devices: GPIO-MM and
  * GPIO-MM-12.
  */
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/isa.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/isa.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 #include "gpio-i8255.h"
 

@@ -5,12 +5,12 @@
  * Copyright (C) 2018 Christoph Hellwig
  */
 
-#include <linux/interrupt.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/scs.h>
-#include <linux/seq_file.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/scs.h>
+#include <peenux/seq_file.h>
 #include <asm/sbi.h>
 #include <asm/smp.h>
 #include <asm/softirq_stack.h>

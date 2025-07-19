@@ -9,10 +9,10 @@
 
 #include "xilinx-core.h"
 
-#include <linux/delay.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
+#include <peenux/delay.h>
+#include <peenux/fpga/fpga-mgr.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
 
 static int get_done_gpio(struct fpga_manager *mgr)
 {

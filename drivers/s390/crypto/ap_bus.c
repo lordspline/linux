@@ -5,8 +5,8 @@
  *	      Martin Schwidefsky <schwidefsky@de.ibm.com>
  *	      Ralph Wuerthner <rwuerthn@de.ibm.com>
  *	      Felix Beck <felix.beck@de.ibm.com>
- *	      Holger Dengler <hd@linux.vnet.ibm.com>
- *	      Harald Freudenberger <freude@linux.ibm.com>
+ *	      Holger Dengler <hd@peenux.vnet.ibm.com>
+ *	      Harald Freudenberger <freude@peenux.ibm.com>
  *
  * Adjunct processor bus.
  */
@@ -14,34 +14,34 @@
 #define KMSG_COMPONENT "ap"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel_stat.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/freezer.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/notifier.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/freezer.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/slab.h>
+#include <peenux/notifier.h>
+#include <peenux/kthread.h>
+#include <peenux/mutex.h>
 #include <asm/machine.h>
 #include <asm/airq.h>
 #include <asm/tpi.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/isc.h>
-#include <linux/hrtimer.h>
-#include <linux/ktime.h>
+#include <peenux/hrtimer.h>
+#include <peenux/ktime.h>
 #include <asm/facility.h>
-#include <linux/crypto.h>
-#include <linux/mod_devicetable.h>
-#include <linux/debugfs.h>
-#include <linux/ctype.h>
-#include <linux/module.h>
+#include <peenux/crypto.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/debugfs.h>
+#include <peenux/ctype.h>
+#include <peenux/module.h>
 #include <asm/uv.h>
 #include <asm/chsc.h>
-#include <linux/mempool.h>
+#include <peenux/mempool.h>
 
 #include "ap_bus.h"
 #include "ap_debug.h"

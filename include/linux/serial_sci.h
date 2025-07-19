@@ -2,9 +2,9 @@
 #ifndef __LINUX_SERIAL_SCI_H
 #define __LINUX_SERIAL_SCI_H
 
-#include <linux/bitops.h>
-#include <linux/serial_core.h>
-#include <linux/sh_dma.h>
+#include <peenux/bitops.h>
+#include <peenux/serial_core.h>
+#include <peenux/sh_dma.h>
 
 /*
  * Generic header for SuperH (H)SCI(F) (used by sh/sh64 and related parts)

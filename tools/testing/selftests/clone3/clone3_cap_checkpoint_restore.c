@@ -10,8 +10,8 @@
 
 #define _GNU_SOURCE
 #include <errno.h>
-#include <linux/types.h>
-#include <linux/sched.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>

@@ -5,7 +5,7 @@
  * Copyright (c) 2012 Ecole Nationale de l'Aviation Civile, France
  * Copyright (c) 2012 Red Hat, Inc
  *
- * This code is partly based on "USB HID support for Linux":
+ * This code is partly based on "USB HID support for Peenux":
  *
  *  Copyright (c) 1999 Andreas Gal
  *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
@@ -18,25 +18,25 @@
  * more details.
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/device.h>
-#include <linux/wait.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/hid.h>
-#include <linux/mutex.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/irq.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/pm.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/device.h>
+#include <peenux/wait.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/list.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/hid.h>
+#include <peenux/mutex.h>
+#include <peenux/unaligned.h>
 
 #include <drm/drm_panel.h>
 

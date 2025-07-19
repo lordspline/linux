@@ -9,8 +9,8 @@
 #define KMSG_COMPONENT "ap"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 #include <asm/facility.h>
 #include <asm/sclp.h>
 

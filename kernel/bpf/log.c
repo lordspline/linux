@@ -3,13 +3,13 @@
  * Copyright (c) 2016 Facebook
  * Copyright (c) 2018 Covalent IO, Inc. http://covalent.io
  */
-#include <uapi/linux/btf.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/bpf.h>
-#include <linux/bpf_verifier.h>
-#include <linux/math64.h>
-#include <linux/string.h>
+#include <uapi/peenux/btf.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_verifier.h>
+#include <peenux/math64.h>
+#include <peenux/string.h>
 
 #define verbose(env, fmt, args...) bpf_verifier_log_write(env, fmt, ##args)
 

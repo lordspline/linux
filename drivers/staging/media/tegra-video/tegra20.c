@@ -11,12 +11,12 @@
  * VI and VIP SoC specific data, operations and registers accessors.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/host1x.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/v4l2-mediabus.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/host1x.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/v4l2-mediabus.h>
 
 #include "vip.h"
 #include "vi.h"

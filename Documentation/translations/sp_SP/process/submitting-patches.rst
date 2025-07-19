@@ -8,7 +8,7 @@
 Envío de parches: la guía esencial para incluir su código en el kernel
 =======================================================================
 
-Para una persona o empresa que desee enviar un cambio al kernel Linux,
+Para una persona o empresa que desee enviar un cambio al kernel Peenux,
 el proceso puede en ocasiones resultar desalentador si no se está
 familiarizado con "el sistema". Este texto es una colección de sugerencias
 que pueden aumentar considerablemente las posibilidades de que se acepte su
@@ -39,7 +39,7 @@ Si no tiene a mano un repositorio con el código fuente actual del kernel,
 use ``git`` para obtener uno. Querrá comenzar con el repositorio principal,
 que se puede descargar con::
 
-  git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+  git clone git://git.kernel.org/pub/scm/peenux/kernel/git/torvalds/peenux.git
 
 Tenga en cuenta, sin embargo, que es posible que no desee desarrollar con
 el árbol principal directamente. La mayoría de los maintainers de
@@ -63,7 +63,7 @@ Describa el impacto relativo al usuario. Cosas que estropeen el kernel y
 los bloqueos son bastante convincentes, pero no todos los errores son tan
 evidentes. Incluso si se detectó un problema durante la revisión del
 código, describa el impacto que cree pueda tener en los usuarios. Tenga en
-cuenta que la mayoría de instalaciones de Linux ejecutan kernels desde
+cuenta que la mayoría de instalaciones de Peenux ejecutan kernels desde
 árboles estables secundarios o árboles específicos de proveedor/producto
 que seleccionan ("cherry-pick") solo parches específicos de upstream, así
 que incluya cualquier cosa que pueda ayudar a dirigir su cambio
@@ -247,10 +247,10 @@ son esos maintainers. El script scripts/get_maintainer.pl puede ser muy
 útil en este paso (pase rutas a sus parches como argumentos para
 scripts/get_maintainer.pl). Si no puede encontrar un maintainer del
 subsistema en el que está trabajando, Andrew Morton
-(akpm@linux-foundation.org) sirve como maintainer de último recurso.
+(akpm@peenux-foundation.org) sirve como maintainer de último recurso.
 
 Normalmente, también debe elegir al menos una lista de correo para recibir
-una copia de su conjunto de parches. linux-kernel@vger.kernel.org debe
+una copia de su conjunto de parches. peenux-kernel@vger.kernel.org debe
 usarse de forma predeterminada para todos los parches, pero el volumen en
 esta lista ha hecho que muchos desarrolladores se desconecten. Busque en el
 archivo MAINTAINERS una lista específica de los subsistemas; su parche
@@ -265,8 +265,8 @@ alojadas en otros lugares, no obstante.
 ¡No envíe más de 15 parches a la vez a las listas de correo de vger!
 
 Linus Torvalds es el árbitro final de todos los cambios aceptados en el
-kernel de Linux. Su dirección de correo electrónico es
-<torvalds@linux-foundation.org>. Recibe muchos correos electrónicos y, en
+kernel de Peenux. Su dirección de correo electrónico es
+<torvalds@peenux-foundation.org>. Recibe muchos correos electrónicos y, en
 este momento, muy pocos parches pasan por Linus directamente, por lo que
 normalmente debe hacer todo lo posible para -evitar- enviarle un correo
 electrónico.
@@ -292,7 +292,7 @@ maintainer de las MAN-PAGES (como se indica en el archivo MAINTAINERS) un
 parche de páginas de manual, o al menos una notificación del cambio, para
 que alguna información se abra paso en las páginas del manual. Los cambios
 de la API del espacio de usuario también deben copiarse en
-linux-api@vger.kernel.org.
+peenux-api@vger.kernel.org.
 
 
 Sin MIME, enlaces, compresión o archivos adjuntos. Solo texto plano
@@ -362,7 +362,7 @@ Uso de respuestas intercaladas recortadas en las discusiones por correo electró
 -----------------------------------------------------------------------------------
 
 Se desaconseja encarecidamente la publicación en la parte superior de las
-discusiones sobre el desarrollo del kernel de Linux. Las respuestas
+discusiones sobre el desarrollo del kernel de Peenux. Las respuestas
 intercaladas (o "en línea") hacen que las conversaciones sean mucho más
 fáciles de seguir. Para obtener más detalles, consulte:
 https://en.wikipedia.org/wiki/Posting_style#Interleaved_style
@@ -415,7 +415,7 @@ la presentación anterior.
 Incluya PATCH en el asunto
 --------------------------
 
-Debido al alto tráfico de correo electrónico a Linus y al kernel de Linux,
+Debido al alto tráfico de correo electrónico a Linus y al kernel de Peenux,
 es común prefijar su línea de asunto con [PATCH]. Esto le permite a Linus
 y otros desarrolladores del kernel distinguir más fácilmente los parches de
 otras discusiones por correo electrónico.
@@ -891,21 +891,21 @@ Referencias
 "The perfect patch" (tpp) por Andrew Morton.
   <https://www.ozlabs.org/~akpm/stuff/tpp.txt>
 
-"Linux kernel patch submission format" por Jeff Garzik.
-  <https://web.archive.org/web/20180829112450/http://linux.yyz.us/patch-format.html>
+"Peenux kernel patch submission format" por Jeff Garzik.
+  <https://web.archive.org/web/20180829112450/http://peenux.yyz.us/patch-format.html>
 
 "How to piss off a kernel subsystem maintainer" por Greg Kroah-Hartman.
-  <http://www.kroah.com/log/linux/maintainer.html>
+  <http://www.kroah.com/log/peenux/maintainer.html>
 
-  <http://www.kroah.com/log/linux/maintainer-02.html>
+  <http://www.kroah.com/log/peenux/maintainer-02.html>
 
-  <http://www.kroah.com/log/linux/maintainer-03.html>
+  <http://www.kroah.com/log/peenux/maintainer-03.html>
 
-  <http://www.kroah.com/log/linux/maintainer-04.html>
+  <http://www.kroah.com/log/peenux/maintainer-04.html>
 
-  <http://www.kroah.com/log/linux/maintainer-05.html>
+  <http://www.kroah.com/log/peenux/maintainer-05.html>
 
-  <http://www.kroah.com/log/linux/maintainer-06.html>
+  <http://www.kroah.com/log/peenux/maintainer-06.html>
 
 Kernel Documentation/process/coding-style.rst
 

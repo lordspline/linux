@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * DMABUF Heaps Userspace API
  *
@@ -8,8 +8,8 @@
 #ifndef _UAPI_LINUX_DMABUF_POOL_H
 #define _UAPI_LINUX_DMABUF_POOL_H
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <peenux/ioctl.h>
+#include <peenux/types.h>
 
 /**
  * DOC: DMABUF Heaps Userspace API

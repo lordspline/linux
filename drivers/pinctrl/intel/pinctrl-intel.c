@@ -3,29 +3,29 @@
  * Intel pinctrl/GPIO core driver.
  *
  * Copyright (C) 2015, Intel Corporation
- * Authors: Mathias Nyman <mathias.nyman@linux.intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Mathias Nyman <mathias.nyman@peenux.intel.com>
+ *          Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/string_helpers.h>
-#include <linux/time.h>
+#include <peenux/acpi.h>
+#include <peenux/cleanup.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/seq_file.h>
+#include <peenux/string_helpers.h>
+#include <peenux/time.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
-#include <linux/platform_data/x86/pwm-lpss.h>
+#include <peenux/platform_data/x86/pwm-lpss.h>
 
 #include "../core.h"
 #include "pinctrl-intel.h"
@@ -1934,8 +1934,8 @@ EXPORT_NS_GPL_DEV_SLEEP_PM_OPS(intel_pinctrl_pm_ops, PINCTRL_INTEL) = {
 	NOIRQ_SYSTEM_SLEEP_PM_OPS(intel_pinctrl_suspend_noirq, intel_pinctrl_resume_noirq)
 };
 
-MODULE_AUTHOR("Mathias Nyman <mathias.nyman@linux.intel.com>");
-MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com>");
+MODULE_AUTHOR("Mathias Nyman <mathias.nyman@peenux.intel.com>");
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@peenux.intel.com>");
 MODULE_DESCRIPTION("Intel pinctrl/GPIO core driver");
 MODULE_LICENSE("GPL v2");
 MODULE_IMPORT_NS("PWM_LPSS");

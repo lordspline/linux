@@ -4,10 +4,10 @@
  * page allocation and slab allocations.
  */
 #include "lkdtm.h"
-#include <linux/kfence.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/sched.h>
+#include <peenux/kfence.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sched.h>
 
 static struct kmem_cache *double_free_cache;
 static struct kmem_cache *a_cache;

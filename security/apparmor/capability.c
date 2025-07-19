@@ -8,11 +8,11 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/security.h>
-#include <linux/timekeeping.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/gfp.h>
+#include <peenux/security.h>
+#include <peenux/timekeeping.h>
 
 #include "include/apparmor.h"
 #include "include/capability.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -15,7 +15,7 @@
  *		Alan Cox, <gw4pts@gw4pts.ampr.org>
  *
  * Fixes:
- *		Mr Linux	: Arp problems
+ *		Mr Peenux	: Arp problems
  *		Alan Cox	: Generic queue tidyup (very tiny here)
  *		Alan Cox	: eth_header ntohs should be htons
  *		Alan Cox	: eth_rebuild_header missing an htons and
@@ -33,25 +33,25 @@
  *	Christer Weinigel	: Better rebuild header message.
  *             Andrew Morton    : 26Feb01: kill ether_setup() - use netdev_boot_setup().
  */
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/ip.h>
-#include <linux/netdevice.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/if_ether.h>
-#include <linux/of_net.h>
-#include <linux/pci.h>
-#include <linux/property.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/ip.h>
+#include <peenux/netdevice.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/if_ether.h>
+#include <peenux/of_net.h>
+#include <peenux/pci.h>
+#include <peenux/property.h>
 #include <net/dst.h>
 #include <net/arp.h>
 #include <net/sock.h>
@@ -60,7 +60,7 @@
 #include <net/dsa.h>
 #include <net/flow_dissector.h>
 #include <net/gro.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <net/pkt_sched.h>
 
 /**

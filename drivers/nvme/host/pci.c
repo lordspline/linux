@@ -4,30 +4,30 @@
  * Copyright (c) 2011-2014, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/async.h>
-#include <linux/blkdev.h>
-#include <linux/blk-mq.h>
-#include <linux/blk-integrity.h>
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kstrtox.h>
-#include <linux/memremap.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nodemask.h>
-#include <linux/once.h>
-#include <linux/pci.h>
-#include <linux/suspend.h>
-#include <linux/t10-pi.h>
-#include <linux/types.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/sed-opal.h>
-#include <linux/pci-p2pdma.h>
+#include <peenux/acpi.h>
+#include <peenux/async.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-mq.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/dmi.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kstrtox.h>
+#include <peenux/memremap.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nodemask.h>
+#include <peenux/once.h>
+#include <peenux/pci.h>
+#include <peenux/suspend.h>
+#include <peenux/t10-pi.h>
+#include <peenux/types.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/io-64-nonatomic-hi-lo.h>
+#include <peenux/sed-opal.h>
+#include <peenux/pci-p2pdma.h>
 
 #include "trace.h"
 #include "nvme.h"
@@ -3858,7 +3858,7 @@ static void __exit nvme_exit(void)
 	flush_workqueue(nvme_wq);
 }
 
-MODULE_AUTHOR("Matthew Wilcox <willy@linux.intel.com>");
+MODULE_AUTHOR("Matthew Wilcox <willy@peenux.intel.com>");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("1.0");
 MODULE_DESCRIPTION("NVMe host PCIe transport driver");

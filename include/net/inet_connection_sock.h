@@ -11,12 +11,12 @@
 #ifndef _INET_CONNECTION_SOCK_H
 #define _INET_CONNECTION_SOCK_H
 
-#include <linux/compiler.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/poll.h>
-#include <linux/kernel.h>
-#include <linux/sockptr.h>
+#include <peenux/compiler.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/poll.h>
+#include <peenux/kernel.h>
+#include <peenux/sockptr.h>
 
 #include <net/inet_sock.h>
 #include <net/request_sock.h>

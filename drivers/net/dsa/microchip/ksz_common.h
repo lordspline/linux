@@ -7,15 +7,15 @@
 #ifndef __KSZ_COMMON_H
 #define __KSZ_COMMON_H
 
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/pcs/pcs-xpcs.h>
-#include <linux/phy.h>
-#include <linux/regmap.h>
+#include <peenux/etherdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/pcs/pcs-xpcs.h>
+#include <peenux/phy.h>
+#include <peenux/regmap.h>
 #include <net/dsa.h>
-#include <linux/irq.h>
-#include <linux/platform_data/microchip-ksz.h>
+#include <peenux/irq.h>
+#include <peenux/platform_data/microchip-ksz.h>
 
 #include "ksz_ptp.h"
 

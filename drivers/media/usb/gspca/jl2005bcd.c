@@ -7,8 +7,8 @@
 
 #define MODULE_NAME "jl2005bcd"
 
-#include <linux/workqueue.h>
-#include <linux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/slab.h>
 #include "gspca.h"
 
 

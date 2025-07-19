@@ -7,8 +7,8 @@
 #define _CRYPTO_INTERNAL_SIMD_H
 
 #include <asm/simd.h>
-#include <linux/percpu.h>
-#include <linux/types.h>
+#include <peenux/percpu.h>
+#include <peenux/types.h>
 
 /* skcipher support */
 

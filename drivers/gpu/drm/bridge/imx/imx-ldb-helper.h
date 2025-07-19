@@ -7,10 +7,10 @@
 #ifndef __IMX_LDB_HELPER__
 #define __IMX_LDB_HELPER__
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_bridge.h>

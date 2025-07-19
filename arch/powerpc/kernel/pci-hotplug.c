@@ -7,12 +7,12 @@
  *
  * Updates, 2005, John Rose <johnrose@austin.ibm.com>
  * Updates, 2005, Linas Vepstas <linas@austin.ibm.com>
- * Updates, 2013, Gavin Shan <shangw@linux.vnet.ibm.com>
+ * Updates, 2013, Gavin Shan <shangw@peenux.vnet.ibm.com>
  */
 
-#include <linux/pci.h>
-#include <linux/export.h>
-#include <linux/of.h>
+#include <peenux/pci.h>
+#include <peenux/export.h>
+#include <peenux/of.h>
 #include <asm/pci-bridge.h>
 #include <asm/ppc-pci.h>
 #include <asm/firmware.h>
@@ -73,7 +73,7 @@ void pcibios_release_device(struct pci_dev *dev)
  * @bus: the indicated PCI bus
  *
  * Remove all of the PCI devices under this bus both from the
- * linux pci device tree, and from the powerpc EEH address cache.
+ * peenux pci device tree, and from the powerpc EEH address cache.
  */
 void pci_hp_remove_devices(struct pci_bus *bus)
 {

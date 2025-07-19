@@ -5,20 +5,20 @@
  * Copyright (C) 2010 Fabien Chouteau <fabien.chouteau@barco.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/hid.h>
-#include <linux/idr.h>
-#include <linux/cdev.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/workqueue.h>
-#include <linux/usb/func_utils.h>
-#include <linux/usb/g_hid.h>
-#include <uapi/linux/usb/g_hid.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/hid.h>
+#include <peenux/idr.h>
+#include <peenux/cdev.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <peenux/uaccess.h>
+#include <peenux/wait.h>
+#include <peenux/sched.h>
+#include <peenux/workqueue.h>
+#include <peenux/usb/func_utils.h>
+#include <peenux/usb/g_hid.h>
+#include <uapi/peenux/usb/g_hid.h>
 
 #include "u_hid.h"
 

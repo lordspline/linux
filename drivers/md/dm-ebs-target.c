@@ -11,9 +11,9 @@
  */
 
 #include "dm.h"
-#include <linux/module.h>
-#include <linux/workqueue.h>
-#include <linux/dm-bufio.h>
+#include <peenux/module.h>
+#include <peenux/workqueue.h>
+#include <peenux/dm-bufio.h>
 
 #define DM_MSG_PREFIX "ebs"
 
@@ -462,6 +462,6 @@ static struct target_type ebs_target = {
 };
 module_dm(ebs);
 
-MODULE_AUTHOR("Heinz Mauelshagen <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Heinz Mauelshagen <dm-devel@lists.peenux.dev>");
 MODULE_DESCRIPTION(DM_NAME " emulated block size target");
 MODULE_LICENSE("GPL");

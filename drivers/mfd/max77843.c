@@ -6,15 +6,15 @@
 // Author: Jaewon Kim <jaewon02.kim@samsung.com>
 // Author: Beomho Seo <beomho.seo@samsung.com>
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/max77693-common.h>
-#include <linux/mfd/max77843-private.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/max77693-common.h>
+#include <peenux/mfd/max77843-private.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 
 static const struct mfd_cell max77843_devs[] = {
 	{

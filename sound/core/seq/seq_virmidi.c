@@ -21,10 +21,10 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/wait.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/wait.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/rawmidi.h>
 #include <sound/info.h>

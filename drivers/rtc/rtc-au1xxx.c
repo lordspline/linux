@@ -14,12 +14,12 @@
  * made as this would take far too long.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/rtc.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
 #include <asm/mach-au1x00/au1000.h>
 
 /* 32kHz clock enabled and detected */

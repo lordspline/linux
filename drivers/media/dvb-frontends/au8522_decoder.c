@@ -14,11 +14,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
 #include "au8522.h"

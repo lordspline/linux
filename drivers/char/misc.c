@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/drivers/char/misc.c
+ * peenux/drivers/char/misc.c
  *
  * Generic misc open routine by Johan Myreen
  *
@@ -34,22 +34,22 @@
  * Added devfs support. Richard Gooch <rgooch@atnf.csiro.au>  10-Jan-1998
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/fs.h>
-#include <linux/errno.h>
-#include <linux/miscdevice.h>
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/mutex.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/stat.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/tty.h>
-#include <linux/kmod.h>
-#include <linux/gfp.h>
+#include <peenux/fs.h>
+#include <peenux/errno.h>
+#include <peenux/miscdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/major.h>
+#include <peenux/mutex.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/stat.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/tty.h>
+#include <peenux/kmod.h>
+#include <peenux/gfp.h>
 
 /*
  * Head entry for the doubly linked miscdevice list

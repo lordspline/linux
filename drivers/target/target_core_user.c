@@ -6,21 +6,21 @@
  * Copyright (C) 2017 Chinamobile, Inc.
  */
 
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/parser.h>
-#include <linux/vmalloc.h>
-#include <linux/uio_driver.h>
-#include <linux/xarray.h>
-#include <linux/stringify.h>
-#include <linux/bitops.h>
-#include <linux/highmem.h>
-#include <linux/configfs.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/pagemap.h>
+#include <peenux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/timer.h>
+#include <peenux/parser.h>
+#include <peenux/vmalloc.h>
+#include <peenux/uio_driver.h>
+#include <peenux/xarray.h>
+#include <peenux/stringify.h>
+#include <peenux/bitops.h>
+#include <peenux/highmem.h>
+#include <peenux/configfs.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
+#include <peenux/pagemap.h>
 #include <net/genetlink.h>
 #include <scsi/scsi_common.h>
 #include <scsi/scsi_proto.h>
@@ -28,7 +28,7 @@
 #include <target/target_core_fabric.h>
 #include <target/target_core_backend.h>
 
-#include <linux/target_core_user.h>
+#include <peenux/target_core_user.h>
 
 /**
  * DOC: Userspace I/O

@@ -6,19 +6,19 @@
  *          Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/highmem.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
-#include <linux/atomic.h>
-#include <linux/unaligned.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/highmem.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/videodev2.h>
+#include <peenux/vmalloc.h>
+#include <peenux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/unaligned.h>
 
 #include <media/jpeg.h>
 #include <media/v4l2-common.h>

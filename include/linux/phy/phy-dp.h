@@ -6,7 +6,7 @@
 #ifndef __PHY_DP_H_
 #define __PHY_DP_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define PHY_SUBMODE_DP	0
 #define PHY_SUBMODE_EDP	1

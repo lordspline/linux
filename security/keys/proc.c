@@ -5,11 +5,11 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include <asm/errno.h>
 #include "internal.h"
 

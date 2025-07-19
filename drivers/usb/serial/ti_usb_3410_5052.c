@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2004 Texas Instruments
  *
- * This driver is based on the Linux io_ti driver, which is
+ * This driver is based on the Peenux io_ti driver, which is
  *   Copyright (C) 2000-2002 Inside Out Networks
  *   Copyright (C) 2001-2002 Greg Kroah-Hartman
  *
@@ -13,22 +13,22 @@
  * Peter Berger <pberger@brimson.com>.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/ioctl.h>
-#include <linux/serial.h>
-#include <linux/kfifo.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/firmware.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/ioctl.h>
+#include <peenux/serial.h>
+#include <peenux/kfifo.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 
 /* Configuration ids */
 #define TI_BOOT_CONFIG			1

@@ -9,23 +9,23 @@
  * Copyright (C) 2012 Roland Stigge
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/nmi.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/sizes.h>
-#include <linux/soc/nxp/lpc32xx-misc.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/nmi.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/sizes.h>
+#include <peenux/soc/nxp/lpc32xx-misc.h>
 
 /*
  * High Speed UART register offsets

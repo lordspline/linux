@@ -9,12 +9,12 @@
  *  August, 2003
  *
  */
-#include <linux/if_arp.h>
+#include <peenux/if_arp.h>
 #include <net/arp.h>
-#include <linux/module.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_bridge/ebt_arpreply.h>
+#include <peenux/module.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter_bridge/ebtables.h>
+#include <peenux/netfilter_bridge/ebt_arpreply.h>
 
 static unsigned int
 ebt_arpreply_tg(struct sk_buff *skb, const struct xt_action_param *par)

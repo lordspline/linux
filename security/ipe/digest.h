@@ -6,8 +6,8 @@
 #ifndef _IPE_DIGEST_H
 #define _IPE_DIGEST_H
 
-#include <linux/types.h>
-#include <linux/audit.h>
+#include <peenux/types.h>
+#include <peenux/audit.h>
 
 #include "policy.h"
 

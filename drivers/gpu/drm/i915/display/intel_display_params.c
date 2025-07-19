@@ -3,9 +3,9 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
 
 #include <drm/drm_print.h>
 

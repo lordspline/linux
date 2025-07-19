@@ -8,11 +8,11 @@
  * Author: Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/pci-ecam.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/pci-ecam.h>
+#include <peenux/platform_device.h>
 
 #include "pci-host-common.h"
 

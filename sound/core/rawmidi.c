@@ -5,17 +5,17 @@
  */
 
 #include <sound/core.h>
-#include <linux/major.h>
-#include <linux/init.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/nospec.h>
+#include <peenux/major.h>
+#include <peenux/init.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/wait.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/nospec.h>
 #include <sound/rawmidi.h>
 #include <sound/info.h>
 #include <sound/control.h>

@@ -33,7 +33,7 @@
 #ifndef STV0299_H
 #define STV0299_H
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 #include <media/dvb_frontend.h>
 
 #define STV0299_LOCKOUTPUT_0  0

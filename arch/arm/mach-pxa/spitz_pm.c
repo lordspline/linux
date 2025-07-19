@@ -5,17 +5,17 @@
  * Copyright (c) 2005 Richard Purdie
  */
 
-#include <linux/module.h>
-#include <linux/stat.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/gpio-pxa.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/apm-emulation.h>
-#include <linux/spi/corgi_lcd.h>
+#include <peenux/module.h>
+#include <peenux/stat.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio-pxa.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/apm-emulation.h>
+#include <peenux/spi/corgi_lcd.h>
 
 #include <asm/irq.h>
 #include <asm/mach-types.h>

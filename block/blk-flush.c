@@ -63,12 +63,12 @@
  * merged in the usual way.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/gfp.h>
-#include <linux/part_stat.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/gfp.h>
+#include <peenux/part_stat.h>
 
 #include "blk.h"
 #include "blk-mq.h"

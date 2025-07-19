@@ -12,17 +12,17 @@
  * Copyright (C) 2014 Abylay Ospan <aospan@netup.ru>
   */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/math64.h>
-#include <linux/log2.h>
-#include <linux/dynamic_debug.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/math64.h>
+#include <peenux/log2.h>
+#include <peenux/dynamic_debug.h>
+#include <peenux/kernel.h>
 
-#include <linux/int_log.h>
+#include <peenux/int_log.h>
 #include <media/dvb_frontend.h>
 #include "cxd2841er.h"
 #include "cxd2841er_priv.h"

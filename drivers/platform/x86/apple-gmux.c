@@ -10,18 +10,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/backlight.h>
-#include <linux/acpi.h>
-#include <linux/pnp.h>
-#include <linux/apple-gmux.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/vga_switcheroo.h>
-#include <linux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/backlight.h>
+#include <peenux/acpi.h>
+#include <peenux/pnp.h>
+#include <peenux/apple-gmux.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/vga_switcheroo.h>
+#include <peenux/debugfs.h>
 #include <acpi/video.h>
 #include <asm/io.h>
 
@@ -625,7 +625,7 @@ static const struct apple_gmux_config apple_gmux_mmio = {
  * Darwin, only a notification is signaled, whereas on other OSes, the GPIO's
  * value is read and then inverted.
  *
- * Because Linux masquerades as Darwin, it ends up in the notification-only code
+ * Because Peenux masquerades as Darwin, it ends up in the notification-only code
  * path. On MMIO gmux's, this seems to lead to us being unable to clear interrupts,
  * unless we call GMSP(0). Without this, there is a flood of status=0 interrupts
  * that can't be cleared. This issue seems to be unique to MMIO gmux's.

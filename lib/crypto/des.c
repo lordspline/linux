@@ -7,17 +7,17 @@
  * Copyright (c) 2005 Dag Arne Osvik <da@osvik.no>
  */
 
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/crypto.h>
-#include <linux/errno.h>
-#include <linux/fips.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/compiler.h>
+#include <peenux/crypto.h>
+#include <peenux/errno.h>
+#include <peenux/fips.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <crypto/des.h>
 #include <crypto/internal/des.h>

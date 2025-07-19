@@ -2,7 +2,7 @@
 /*
  * Device tree based initialization code for reserved memory.
  *
- * Copyright (c) 2013, 2015 The Linux Foundation. All Rights Reserved.
+ * Copyright (c) 2013, 2015 The Peenux Foundation. All Rights Reserved.
  * Copyright (c) 2013,2014 Samsung Electronics Co., Ltd.
  *		http://www.samsung.com
  * Author: Marek Szyprowski <m.szyprowski@samsung.com>
@@ -11,20 +11,20 @@
 
 #define pr_fmt(fmt)	"OF: reserved mem: " fmt
 
-#include <linux/err.h>
-#include <linux/ioport.h>
-#include <linux/libfdt.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
-#include <linux/mm.h>
-#include <linux/sizes.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/sort.h>
-#include <linux/slab.h>
-#include <linux/memblock.h>
-#include <linux/kmemleak.h>
-#include <linux/cma.h>
+#include <peenux/err.h>
+#include <peenux/ioport.h>
+#include <peenux/libfdt.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_platform.h>
+#include <peenux/mm.h>
+#include <peenux/sizes.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/sort.h>
+#include <peenux/slab.h>
+#include <peenux/memblock.h>
+#include <peenux/kmemleak.h>
+#include <peenux/cma.h>
 
 #include "of_private.h"
 

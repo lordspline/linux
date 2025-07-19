@@ -5,23 +5,23 @@
  *	Quentin Schulz <quentin.schulz@free-electrons.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
+#include <peenux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/thermal.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/iio/machine.h>
-#include <linux/mfd/axp20x.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/driver.h>
+#include <peenux/iio/machine.h>
+#include <peenux/mfd/axp20x.h>
 
 #define AXP192_ADC_EN1_MASK			GENMASK(7, 0)
 #define AXP192_ADC_EN2_MASK			(GENMASK(3, 0) | BIT(7))

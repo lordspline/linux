@@ -3,12 +3,12 @@
    (C) 1996 Peter Braam
    */
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/time.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/time.h>
 
-#include <linux/coda.h>
-#include <linux/pagemap.h>
+#include <peenux/coda.h>
+#include <peenux/pagemap.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 

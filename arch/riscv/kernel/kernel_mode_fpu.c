@@ -3,8 +3,8 @@
  * Copyright (C) 2023 SiFive
  */
 
-#include <linux/export.h>
-#include <linux/preempt.h>
+#include <peenux/export.h>
+#include <peenux/preempt.h>
 
 #include <asm/csr.h>
 #include <asm/fpu.h>

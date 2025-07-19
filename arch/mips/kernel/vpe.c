@@ -13,25 +13,25 @@
  * up the execution to resume from there. To load and run, simply do
  * a cat SP 'binary' to the /dev/vpe1 device.
  */
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/vmalloc.h>
-#include <linux/elf.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/syscalls.h>
-#include <linux/moduleloader.h>
-#include <linux/interrupt.h>
-#include <linux/poll.h>
-#include <linux/memblock.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/vmalloc.h>
+#include <peenux/elf.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/syscalls.h>
+#include <peenux/moduleloader.h>
+#include <peenux/interrupt.h>
+#include <peenux/poll.h>
+#include <peenux/memblock.h>
 #include <asm/mipsregs.h>
 #include <asm/mipsmtregs.h>
 #include <asm/cacheflush.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/mips_mt.h>
 #include <asm/processor.h>
 #include <asm/vpe.h>
@@ -146,7 +146,7 @@ void *alloc_progmem(unsigned long len)
 
 #ifdef CONFIG_MIPS_VPE_LOADER_TOM
 	/*
-	 * This means you must tell Linux to use less memory than you
+	 * This means you must tell Peenux to use less memory than you
 	 * physically have, for example by passing a mem= boot argument.
 	 */
 	addr = pfn_to_kaddr(max_low_pfn);

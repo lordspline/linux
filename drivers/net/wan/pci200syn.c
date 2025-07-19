@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Goramo PCI200SYN synchronous serial card driver for Linux
+ * Goramo PCI200SYN synchronous serial card driver for Peenux
  *
  * Copyright (C) 2002-2008 Krzysztof Halasa <khc@pm.waw.pl>
  *
- * For information see <https://www.kernel.org/pub/linux/utils/net/hdlc/>
+ * For information see <https://www.kernel.org/pub/peenux/utils/net/hdlc/>
  *
  * Sources of information:
  *    Hitachi HD64572 SCA-II User's Manual
@@ -13,21 +13,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/capability.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/in.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/netdevice.h>
-#include <linux/hdlc.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/capability.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/in.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/netdevice.h>
+#include <peenux/hdlc.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
 #include <asm/io.h>
 
 #include "hd64572.h"

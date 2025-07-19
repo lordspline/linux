@@ -2,20 +2,20 @@
 // BQ25980 Battery Charger Driver
 // Copyright (C) 2020 Texas Instruments Incorporated - http://www.ti.com/
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
 
 #include "bq25980_charger.h"
 

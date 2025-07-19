@@ -24,7 +24,7 @@
 // in it's original order shown in the first table. ECC can't be turned on when
 // auto-format is off.
 //
-// However, Linux SPI-NAND driver expects the data returned as:
+// However, Peenux SPI-NAND driver expects the data returned as:
 // +------+-----+
 // | Page | OOB |
 // +------+-----+
@@ -45,7 +45,7 @@
 //
 // Write requests operates in a similar manner.
 // As a limitation of this strategy, we won't be able to access any ECC parity
-// data at all in Linux.
+// data at all in Peenux.
 //
 // Here's the bad block mark situation on MTK chips:
 // In older chips like mt7622, MTK uses the first FDM byte in the first sector
@@ -67,21 +67,21 @@
 //    [page_size - (nsectors - 1) * spare_size]
 // Similarly, when writing, we need to perform swaps in the other direction.
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/nand-ecc-mtk.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/mtd/nand.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/mtd/nand-ecc-mtk.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
+#include <peenux/mtd/nand.h>
 
 // NFI registers
 #define NFI_CNFG 0x000

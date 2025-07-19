@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/lib/ctype.c
+ *  peenux/lib/ctype.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/ctype.h>
-#include <linux/compiler.h>
-#include <linux/export.h>
+#include <peenux/ctype.h>
+#include <peenux/compiler.h>
+#include <peenux/export.h>
 
 const unsigned char _ctype[] = {
 _C,_C,_C,_C,_C,_C,_C,_C,				/* 0-7 */

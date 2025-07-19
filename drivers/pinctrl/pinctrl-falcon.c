@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/pinctrl/pinmux-falcon.c
- *  based on linux/drivers/pinctrl/pinmux-pxa910.c
+ *  peenux/drivers/pinctrl/pinmux-falcon.c
+ *  based on peenux/drivers/pinctrl/pinmux-pxa910.c
  *
  *  Copyright (C) 2012 Thomas Langer <thomas.langer@lantiq.com>
  *  Copyright (C) 2012 John Crispin <john@phrozen.org>
  */
 
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 #include "pinctrl-lantiq.h"
 

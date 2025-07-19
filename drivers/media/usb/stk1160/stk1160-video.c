@@ -10,10 +10,10 @@
  *	<rmthomas--a.t--sciolus.org>
  */
 
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/slab.h>
-#include <linux/ratelimit.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/slab.h>
+#include <peenux/ratelimit.h>
 
 #include "stk1160.h"
 

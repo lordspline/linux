@@ -7,14 +7,14 @@
  * Heavily inspired by w1_DS2433 driver from Ben Gardner <bgardner@wabtec.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 
 #define W1_EEPROM_DS2431	0x2D
 

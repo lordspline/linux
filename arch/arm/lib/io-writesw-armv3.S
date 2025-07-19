@@ -1,10 +1,10 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/lib/io-writesw-armv3.S
+ *  peenux/arch/arm/lib/io-writesw-armv3.S
  *
  *  Copyright (C) 1995-2000 Russell King
  */
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 #include <asm/assembler.h>
 
 .Loutsw_bad_alignment:

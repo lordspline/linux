@@ -22,8 +22,8 @@
  * Authors: Slava Grigorev <slava.grigorev@amd.com>
  */
 
-#include <linux/gcd.h>
-#include <linux/component.h>
+#include <peenux/gcd.h>
+#include <peenux/component.h>
 
 #include <drm/drm_crtc.h>
 #include <drm/drm_eld.h>

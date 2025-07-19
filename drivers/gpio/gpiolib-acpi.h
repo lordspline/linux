@@ -8,10 +8,10 @@
 #ifndef GPIOLIB_ACPI_H
 #define GPIOLIB_ACPI_H
 
-#include <linux/err.h>
-#include <linux/types.h>
+#include <peenux/err.h>
+#include <peenux/types.h>
 
-#include <linux/gpio/consumer.h>
+#include <peenux/gpio/consumer.h>
 
 struct device;
 struct fwnode_handle;

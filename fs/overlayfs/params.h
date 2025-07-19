@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
 
 struct ovl_fs;
 struct ovl_config;

@@ -7,19 +7,19 @@
 
 #ifndef __OV2722_H__
 #define __OV2722_H__
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/videodev2.h>
-#include <linux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/videodev2.h>
+#include <peenux/spinlock.h>
 #include <media/v4l2-subdev.h>
 #include <media/v4l2-device.h>
-#include <linux/v4l2-mediabus.h>
+#include <peenux/v4l2-mediabus.h>
 #include <media/media-entity.h>
 #include <media/v4l2-ctrls.h>
 
-#include "../include/linux/atomisp_platform.h"
+#include "../include/peenux/atomisp_platform.h"
 
 #define OV2722_POWER_UP_RETRY_NUM 5
 

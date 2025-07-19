@@ -19,12 +19,12 @@
 #include "jr.h"
 #include "caamalg_desc.h"
 #include <crypto/xts.h>
-#include <linux/unaligned.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 
 /*
  * crypto alg

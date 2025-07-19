@@ -50,11 +50,11 @@
 #ifndef _LINUX_PERCPU_REFCOUNT_H
 #define _LINUX_PERCPU_REFCOUNT_H
 
-#include <linux/atomic.h>
-#include <linux/percpu.h>
-#include <linux/rcupdate.h>
-#include <linux/types.h>
-#include <linux/gfp.h>
+#include <peenux/atomic.h>
+#include <peenux/percpu.h>
+#include <peenux/rcupdate.h>
+#include <peenux/types.h>
+#include <peenux/gfp.h>
 
 struct percpu_ref;
 typedef void (percpu_ref_func_t)(struct percpu_ref *);

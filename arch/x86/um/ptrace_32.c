@@ -1,12 +1,12 @@
 /*
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  * Licensed under the GPL
  */
 
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/regset.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/uaccess.h>
+#include <peenux/regset.h>
 #include <asm/ptrace-abi.h>
 #include <registers.h>
 #include <skas.h>

@@ -8,15 +8,15 @@
  */
 #define pr_fmt(fmt) "ep93xx " KBUILD_MODNAME ": " fmt
 
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/clk-provider.h>
-#include <linux/math.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk-provider.h>
+#include <peenux/math.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
 
-#include <linux/soc/cirrus/ep93xx.h>
+#include <peenux/soc/cirrus/ep93xx.h>
 #include <dt-bindings/clock/cirrus,ep9301-syscon.h>
 
 #include <asm/div64.h>

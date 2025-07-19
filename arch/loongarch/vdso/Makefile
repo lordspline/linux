@@ -35,7 +35,7 @@ ifneq ($(c-getrandom-y),)
 endif
 
 # VDSO linker flags.
-ldflags-y := -Bsymbolic --no-undefined -soname=linux-vdso.so.1 \
+ldflags-y := -Bsymbolic --no-undefined -soname=peenux-vdso.so.1 \
 	$(filter -E%,$(KBUILD_CFLAGS)) -nostdlib -shared --build-id -T
 
 #

@@ -24,11 +24,11 @@
  * this behaves the same as the original Reno.
  */
 
-#include <linux/mm.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
-#include <linux/module.h>
-#include <linux/math64.h>
+#include <peenux/mm.h>
+#include <peenux/btf.h>
+#include <peenux/btf_ids.h>
+#include <peenux/module.h>
+#include <peenux/math64.h>
 #include <net/tcp.h>
 
 #define BICTCP_BETA_SCALE    1024	/* Scale factor beta calculation

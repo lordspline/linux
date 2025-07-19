@@ -12,9 +12,9 @@
 #include <arpa/inet.h>
 #include <errno.h>
 #include <fcntl.h>
-#include <linux/landlock.h>
-#include <linux/prctl.h>
-#include <linux/socket.h>
+#include <peenux/landlock.h>
+#include <peenux/prctl.h>
+#include <peenux/socket.h>
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>

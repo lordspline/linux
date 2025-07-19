@@ -6,8 +6,8 @@
 #ifndef VDO_FUNNEL_QUEUE_H
 #define VDO_FUNNEL_QUEUE_H
 
-#include <linux/atomic.h>
-#include <linux/cache.h>
+#include <peenux/atomic.h>
+#include <peenux/cache.h>
 
 /*
  * A funnel queue is a simple (almost) lock-free queue that accepts entries from multiple threads

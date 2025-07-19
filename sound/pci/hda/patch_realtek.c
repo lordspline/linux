@@ -10,19 +10,19 @@
  *                    Jonathan Woithe <jwoithe@just42.net>
  */
 
-#include <linux/acpi.h>
-#include <linux/cleanup.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/leds.h>
-#include <linux/ctype.h>
-#include <linux/spi/spi.h>
+#include <peenux/acpi.h>
+#include <peenux/cleanup.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/dmi.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/leds.h>
+#include <peenux/ctype.h>
+#include <peenux/spi/spi.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/hda_codec.h>
@@ -6854,7 +6854,7 @@ static void alc294_gx502_toggle_output(struct hda_codec *codec,
 					struct hda_jack_callback *cb)
 {
 	/* The Windows driver sets the codec up in a very different way where
-	 * it appears to leave 0x10 = 0x8a20 set. For Linux we need to toggle it
+	 * it appears to leave 0x10 = 0x8a20 set. For Peenux we need to toggle it
 	 */
 	if (snd_hda_jack_detect_state(codec, 0x21) == HDA_JACK_PRESENT)
 		alc_write_coef_idx(codec, 0x10, 0x8a20);

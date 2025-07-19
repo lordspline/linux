@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Generated with linux-mdss-dsi-panel-driver-generator from vendor device tree:
- * Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ * Generated with peenux-mdss-dsi-panel-driver-generator from vendor device tree:
+ * Copyright (c) 2013, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2025, Eugene Lepshy <fekz115@gmail.com>
  * Copyright (c) 2025, Danila Tikhonov <danila@jiaxyga.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

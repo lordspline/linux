@@ -5,15 +5,15 @@
  * Author: Jacob Shin <jacob.shin@amd.com>
  */
 
-#include <linux/perf_event.h>
-#include <linux/percpu.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/cpufeature.h>
-#include <linux/smp.h>
+#include <peenux/perf_event.h>
+#include <peenux/percpu.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/cpufeature.h>
+#include <peenux/smp.h>
 
 #include <asm/perf_event.h>
 #include <asm/msr.h>

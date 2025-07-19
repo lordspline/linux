@@ -15,7 +15,7 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/cpu.h>
+#include <peenux/cpu.h>
 
 #include "internal.h"
 

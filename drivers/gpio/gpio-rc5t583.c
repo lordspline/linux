@@ -8,13 +8,13 @@
  * Based on code
  *	Copyright (C) 2011 RICOH COMPANY,LTD
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/mfd/rc5t583.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mfd/rc5t583.h>
 
 struct rc5t583_gpio {
 	struct gpio_chip gpio_chip;

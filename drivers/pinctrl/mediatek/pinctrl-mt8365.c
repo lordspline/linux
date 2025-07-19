@@ -5,11 +5,11 @@
  */
 
 #include <dt-bindings/pinctrl/mt65xx.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include "pinctrl-mtk-common.h"
 #include "pinctrl-mtk-mt8365.h"

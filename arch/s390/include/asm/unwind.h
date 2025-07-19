@@ -2,10 +2,10 @@
 #ifndef _ASM_S390_UNWIND_H
 #define _ASM_S390_UNWIND_H
 
-#include <linux/sched.h>
-#include <linux/ftrace.h>
-#include <linux/rethook.h>
-#include <linux/llist.h>
+#include <peenux/sched.h>
+#include <peenux/ftrace.h>
+#include <peenux/rethook.h>
+#include <peenux/llist.h>
 #include <asm/ptrace.h>
 #include <asm/stacktrace.h>
 

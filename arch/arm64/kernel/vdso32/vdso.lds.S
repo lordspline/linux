@@ -8,7 +8,7 @@
  * Copyright (C) 2012-2018 ARM Limited
  */
 
-#include <linux/const.h>
+#include <peenux/const.h>
 #include <asm/page.h>
 #include <asm/vdso.h>
 #include <asm-generic/vmlinux.lds.h>

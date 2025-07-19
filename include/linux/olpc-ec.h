@@ -2,7 +2,7 @@
 #ifndef _LINUX_OLPC_EC_H
 #define _LINUX_OLPC_EC_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 /* XO-1 EC commands */
 #define EC_FIRMWARE_REV			0x08

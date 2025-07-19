@@ -12,28 +12,28 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/inet.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/timer.h>
+#include <peenux/string.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/inet.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
 #include <net/sock.h>
-#include <linux/uaccess.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/stat.h>
-#include <linux/init.h>
+#include <peenux/uaccess.h>
+#include <peenux/fcntl.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/stat.h>
+#include <peenux/init.h>
 #include <net/lapb.h>
 
 static LIST_HEAD(lapb_list);

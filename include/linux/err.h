@@ -2,8 +2,8 @@
 #ifndef _LINUX_ERR_H
 #define _LINUX_ERR_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 
 #include <asm/errno.h>
 

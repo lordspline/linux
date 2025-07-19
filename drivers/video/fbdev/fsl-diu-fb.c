@@ -12,25 +12,25 @@
  *   Based on imxfb.c Copyright (C) 2004 S.Hauer, Pengutronix
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/spinlock.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/uaccess.h>
+#include <peenux/vmalloc.h>
+#include <peenux/spinlock.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
 #include <sysdev/fsl_soc.h>
-#include <linux/fsl-diu-fb.h>
+#include <peenux/fsl-diu-fb.h>
 #include "edid.h"
 
 #define NUM_AOIS	5	/* 1 for plane 0, 2 for planes 1 & 2 each */

@@ -3,19 +3,19 @@
  * Performance event support - Processor Activity Instrumentation Facility
  *
  *  Copyright IBM Corp. 2022
- *  Author(s): Thomas Richter <tmricht@linux.ibm.com>
+ *  Author(s): Thomas Richter <tmricht@peenux.ibm.com>
  */
 #define KMSG_COMPONENT	"pai_crypto"
 #define pr_fmt(fmt)	KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/kernel_stat.h>
-#include <linux/percpu.h>
-#include <linux/notifier.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/perf_event.h>
+#include <peenux/kernel.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/percpu.h>
+#include <peenux/notifier.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/perf_event.h>
 #include <asm/ctlreg.h>
 #include <asm/pai.h>
 #include <asm/debug.h>

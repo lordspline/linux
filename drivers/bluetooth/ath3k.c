@@ -3,15 +3,15 @@
  * Copyright (c) 2008-2009 Atheros Communications Inc.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/usb.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/firmware.h>
+#include <peenux/usb.h>
+#include <peenux/unaligned.h>
 #include <net/bluetooth/bluetooth.h>
 
 #define VERSION "1.0"

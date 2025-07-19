@@ -6,7 +6,7 @@
 #ifndef __C3_ISP_COMMON_H__
 #define __C3_ISP_COMMON_H__
 
-#include <linux/clk.h>
+#include <peenux/clk.h>
 
 #include <media/media-device.h>
 #include <media/videobuf2-core.h>

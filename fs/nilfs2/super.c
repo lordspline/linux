@@ -7,7 +7,7 @@
  * Written by Ryusuke Konishi.
  */
 /*
- *  linux/fs/ext2/super.c
+ *  peenux/fs/ext2/super.c
  *
  * Copyright (C) 1992, 1993, 1994, 1995
  * Remy Card (card@masi.ibp.fr)
@@ -16,7 +16,7 @@
  *
  *  from
  *
- *  linux/fs/minix/inode.c
+ *  peenux/fs/minix/inode.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -24,18 +24,18 @@
  *        David S. Miller (davem@caip.rutgers.edu), 1995
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/crc32.h>
-#include <linux/vfs.h>
-#include <linux/writeback.h>
-#include <linux/seq_file.h>
-#include <linux/mount.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/crc32.h>
+#include <peenux/vfs.h>
+#include <peenux/writeback.h>
+#include <peenux/seq_file.h>
+#include <peenux/mount.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
 #include "nilfs.h"
 #include "export.h"
 #include "mdt.h"

@@ -12,8 +12,8 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/init.h>
-#include <linux/cc_platform.h>
+#include <peenux/init.h>
+#include <peenux/cc_platform.h>
 
 #include <asm/asm.h>
 struct boot_params;

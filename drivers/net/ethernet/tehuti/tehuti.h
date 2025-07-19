@@ -7,28 +7,28 @@
 #ifndef _TEHUTI_H
 #define _TEHUTI_H
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/crc32.h>
-#include <linux/uaccess.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/sched.h>
-#include <linux/tty.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/vmalloc.h>
-#include <linux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/crc32.h>
+#include <peenux/uaccess.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/sched.h>
+#include <peenux/tty.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/vmalloc.h>
+#include <peenux/firmware.h>
 #include <asm/byteorder.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
 
 /* Compile Time Switches */
 /* start */

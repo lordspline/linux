@@ -2,8 +2,8 @@
 #ifndef COMPONENT_H
 #define COMPONENT_H
 
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 struct device;
 

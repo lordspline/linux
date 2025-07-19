@@ -8,7 +8,7 @@
 #ifndef __ARCH_S390_ATOMIC_OPS__
 #define __ARCH_S390_ATOMIC_OPS__
 
-#include <linux/limits.h>
+#include <peenux/limits.h>
 #include <asm/march.h>
 #include <asm/asm.h>
 

@@ -5,23 +5,23 @@
  * Copyright (c) 2005 David Brownell
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
 
 #include <pcmcia/ss.h>
 
 #include <asm/io.h>
-#include <linux/sizes.h>
+#include <peenux/sizes.h>
 
-#include <linux/soc/ti/omap1-io.h>
-#include <linux/soc/ti/omap1-soc.h>
-#include <linux/soc/ti/omap1-mux.h>
+#include <peenux/soc/ti/omap1-io.h>
+#include <peenux/soc/ti/omap1-soc.h>
+#include <peenux/soc/ti/omap1-mux.h>
 
 /* NOTE:  don't expect this to support many I/O cards.  The 16xx chips have
  * hard-wired timings to support Compact Flash memory cards; they won't work

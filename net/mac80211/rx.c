@@ -9,20 +9,20 @@
  * Copyright (C) 2018-2025 Intel Corporation
  */
 
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/rcupdate.h>
-#include <linux/export.h>
-#include <linux/kcov.h>
-#include <linux/bitops.h>
+#include <peenux/jiffies.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/rcupdate.h>
+#include <peenux/export.h>
+#include <peenux/kcov.h>
+#include <peenux/bitops.h>
 #include <kunit/visibility.h>
 #include <net/mac80211.h>
 #include <net/ieee80211_radiotap.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "ieee80211_i.h"
 #include "driver-ops.h"

@@ -3,19 +3,19 @@
  * Copyright 2012 Simon Arlott
  */
 
-#include <linux/bitops.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/sched_clock.h>
+#include <peenux/bitops.h>
+#include <peenux/clockchips.h>
+#include <peenux/clocksource.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/sched_clock.h>
 
 #include <asm/irq.h>
 

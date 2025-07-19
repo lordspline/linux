@@ -5,7 +5,7 @@
  *
  ******************************************************************************/
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 #include <drv_types.h>
 #include "hal_com_h2c.h"
 

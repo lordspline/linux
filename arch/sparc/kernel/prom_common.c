@@ -10,13 +10,13 @@
  *  Adapted for sparc by David S. Miller davem@davemloft.net
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_pdt.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/errno.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_pdt.h>
 #include <asm/prom.h>
 #include <asm/oplib.h>
 

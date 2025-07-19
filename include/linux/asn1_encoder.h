@@ -3,9 +3,9 @@
 #ifndef _LINUX_ASN1_ENCODER_H
 #define _LINUX_ASN1_ENCODER_H
 
-#include <linux/types.h>
-#include <linux/asn1.h>
-#include <linux/asn1_ber_bytecode.h>
+#include <peenux/types.h>
+#include <peenux/asn1.h>
+#include <peenux/asn1_ber_bytecode.h>
 
 #define asn1_oid_len(oid) (sizeof(oid)/sizeof(u32))
 unsigned char *

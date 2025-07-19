@@ -5,14 +5,14 @@
  * Copyright (C) 2012 VMware, Inc. All rights reserved.
  */
 
-#include <linux/vmw_vmci_defs.h>
-#include <linux/vmw_vmci_api.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/nospec.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
+#include <peenux/vmw_vmci_defs.h>
+#include <peenux/vmw_vmci_api.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/nospec.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/rculist.h>
 
 #include "vmci_driver.h"
 #include "vmci_event.h"

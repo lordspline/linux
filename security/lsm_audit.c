@@ -8,25 +8,25 @@
  * Author : Etienne Basset, <etienne.basset@ensta.org>
  */
 
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/fs.h>
-#include <linux/init.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
 #include <net/sock.h>
-#include <linux/un.h>
+#include <peenux/un.h>
 #include <net/af_unix.h>
-#include <linux/audit.h>
-#include <linux/ipv6.h>
-#include <linux/ip.h>
+#include <peenux/audit.h>
+#include <peenux/ipv6.h>
+#include <peenux/ip.h>
 #include <net/ip.h>
 #include <net/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/sctp.h>
-#include <linux/lsm_audit.h>
-#include <linux/security.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/sctp.h>
+#include <peenux/lsm_audit.h>
+#include <peenux/security.h>
 
 /**
  * ipv4_skb_to_auditdata : fill auditdata from skb

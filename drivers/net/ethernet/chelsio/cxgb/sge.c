@@ -29,21 +29,21 @@
 
 #include "common.h"
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/ktime.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/skbuff.h>
-#include <linux/mm.h>
-#include <linux/tcp.h>
-#include <linux/ip.h>
-#include <linux/in.h>
-#include <linux/if_arp.h>
-#include <linux/slab.h>
-#include <linux/prefetch.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/ktime.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/skbuff.h>
+#include <peenux/mm.h>
+#include <peenux/tcp.h>
+#include <peenux/ip.h>
+#include <peenux/in.h>
+#include <peenux/if_arp.h>
+#include <peenux/slab.h>
+#include <peenux/prefetch.h>
 
 #include "cpl5_cmd.h"
 #include "sge.h"

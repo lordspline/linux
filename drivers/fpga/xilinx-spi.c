@@ -12,10 +12,10 @@
 
 #include "xilinx-core.h"
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/spi/spi.h>
 
 static int xilinx_spi_write(struct xilinx_fpga_core *core, const char *buf,
 			    size_t count)

@@ -9,7 +9,7 @@
 
 #include <arpa/inet.h>
 #include <errno.h>
-#include <linux/securebits.h>
+#include <peenux/securebits.h>
 #include <sys/capability.h>
 #include <sys/prctl.h>
 #include <sys/socket.h>

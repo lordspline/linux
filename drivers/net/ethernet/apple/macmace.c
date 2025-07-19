@@ -16,18 +16,18 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/crc32.h>
-#include <linux/bitrev.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/gfp.h>
-#include <linux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/crc32.h>
+#include <peenux/bitrev.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/gfp.h>
+#include <peenux/interrupt.h>
 #include <asm/io.h>
 #include <asm/macints.h>
 #include <asm/mac_psc.h>

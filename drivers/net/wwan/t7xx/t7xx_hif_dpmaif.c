@@ -7,7 +7,7 @@
  *  Amir Hanania <amir.hanania@intel.com>
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *
  * Contributors:
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
@@ -15,14 +15,14 @@
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
-#include <linux/device.h>
-#include <linux/gfp.h>
-#include <linux/irqreturn.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/gfp.h>
+#include <peenux/irqreturn.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/string.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
 #include "t7xx_dpmaif.h"
 #include "t7xx_hif_dpmaif.h"

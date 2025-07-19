@@ -9,16 +9,16 @@
  * io_apic.c.)
  */
 
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel_stat.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/percpu.h>
-#include <linux/mm.h>
+#include <peenux/seq_file.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/notifier.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
+#include <peenux/percpu.h>
+#include <peenux/mm.h>
 
 #include <asm/apic.h>
 #include <asm/nospec-branch.h>

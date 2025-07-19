@@ -8,11 +8,11 @@
 #include "dm.h"
 #include "dm-bio-prison-v2.h"
 
-#include <linux/spinlock.h>
-#include <linux/mempool.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/rwsem.h>
+#include <peenux/spinlock.h>
+#include <peenux/mempool.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/rwsem.h>
 
 /*----------------------------------------------------------------*/
 

@@ -6,9 +6,9 @@
  *               Krzysztof Opasiak <k.opasiak@samsung.com>
  */
 
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
 
 #include "vudc.h"
 

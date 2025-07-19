@@ -4,9 +4,9 @@
  * Copyright (c) 2008-2009 Marvell Semiconductor
  */
 
-#include <linux/etherdevice.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/etherdevice.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 
 #include "tag.h"
 

@@ -3,13 +3,13 @@
  * Copyright © 2024 Intel Corporation
  */
 
-#include <linux/scatterlist.h>
-#include <linux/mmu_notifier.h>
-#include <linux/dma-mapping.h>
-#include <linux/memremap.h>
-#include <linux/swap.h>
-#include <linux/hmm.h>
-#include <linux/mm.h>
+#include <peenux/scatterlist.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/memremap.h>
+#include <peenux/swap.h>
+#include <peenux/hmm.h>
+#include <peenux/mm.h>
 #include "xe_hmm.h"
 #include "xe_vm.h"
 #include "xe_bo.h"

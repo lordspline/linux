@@ -7,7 +7,7 @@
  * Copyright (c) 2024-2025 HiSilicon Limited.
  */
 
-#include <linux/edac.h>
+#include <peenux/edac.h>
 
 #define EDAC_ECS_FRU_NAME "ecs_fru"
 

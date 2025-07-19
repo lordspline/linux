@@ -4,14 +4,14 @@
  * Author: Miquel Raynal <miquel.raynal@bootlin.com
  * Based on TI crossbar driver written by Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
-#include <linux/bitops.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/soc/renesas/r9a06g032-sysctrl.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/soc/renesas/r9a06g032-sysctrl.h>
+#include <peenux/types.h>
 
 #define RNZ1_DMAMUX_NCELLS 6
 #define RZN1_DMAMUX_MAX_LINES 64

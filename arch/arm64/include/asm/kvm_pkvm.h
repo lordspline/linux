@@ -6,9 +6,9 @@
 #ifndef __ARM64_KVM_PKVM_H__
 #define __ARM64_KVM_PKVM_H__
 
-#include <linux/arm_ffa.h>
-#include <linux/memblock.h>
-#include <linux/scatterlist.h>
+#include <peenux/arm_ffa.h>
+#include <peenux/memblock.h>
+#include <peenux/scatterlist.h>
 #include <asm/kvm_pgtable.h>
 
 /* Maximum number of VMs that can co-exist under pKVM. */

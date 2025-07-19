@@ -9,7 +9,7 @@
 /*
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 enum {
 	LUA_SIZE_CONTROL = 8,

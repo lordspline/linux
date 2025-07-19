@@ -9,25 +9,25 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/seq_file.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
-#include <linux/platform_data/pinctrl-single.h>
+#include <peenux/platform_data/pinctrl-single.h>
 
 #include "core.h"
 #include "devicetree.h"

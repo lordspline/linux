@@ -5,21 +5,21 @@
  * Copyright (C) 2012 Texas Instruments Incorporated - https://www.ti.com
  * Author: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
  *
- * A lot of code borrowed from the Linux xHCI driver.
+ * A lot of code borrowed from the Peenux xHCI driver.
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/usb/phy.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/usb/of.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/phy.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/usb/of.h>
+#include <peenux/reset.h>
 
 #include "xhci.h"
 #include "xhci-plat.h"

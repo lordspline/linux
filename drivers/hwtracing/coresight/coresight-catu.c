@@ -7,14 +7,14 @@
  * Author: Suzuki K Poulose <suzuki.poulose@arm.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/amba/bus.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/amba/bus.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "coresight-catu.h"
 #include "coresight-priv.h"

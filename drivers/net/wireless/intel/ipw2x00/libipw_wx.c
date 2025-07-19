@@ -11,17 +11,17 @@
 
 
   Contact Information:
-  Intel Linux Wireless <ilw@linux.intel.com>
+  Intel Peenux Wireless <ilw@peenux.intel.com>
   Intel Corporation, 5200 N.E. Elam Young Parkway, Hillsboro, OR 97124-6497
 
 ******************************************************************************/
 
-#include <linux/hardirq.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/wireless.h>
+#include <peenux/hardirq.h>
+#include <peenux/kmod.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/jiffies.h>
+#include <peenux/wireless.h>
 #include "libipw.h"
 
 static const char *libipw_modes[] = {

@@ -10,9 +10,9 @@
 #ifndef AQ_COMMON_H
 #define AQ_COMMON_H
 
-#include <linux/etherdevice.h>
-#include <linux/pci.h>
-#include <linux/if_vlan.h>
+#include <peenux/etherdevice.h>
+#include <peenux/pci.h>
+#include <peenux/if_vlan.h>
 #include "aq_cfg.h"
 #include "aq_utils.h"
 

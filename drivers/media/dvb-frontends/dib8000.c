@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Linux-DVB Driver for DiBcom's DiB8000 chip (ISDB-T).
+ * Peenux-DVB Driver for DiBcom's DiB8000 chip (ISDB-T).
  *
  * Copyright (C) 2009 DiBcom (http://www.dibcom.fr/)
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/mutex.h>
 #include <asm/div64.h>
 
-#include <linux/int_log.h>
+#include <peenux/int_log.h>
 
 #include <media/dvb_frontend.h>
 

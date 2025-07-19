@@ -3,9 +3,9 @@
  * Routines common to most mpc86xx-based boards.
  */
 
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_platform.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_platform.h>
 #include <asm/reg.h>
 #include <asm/synch.h>
 

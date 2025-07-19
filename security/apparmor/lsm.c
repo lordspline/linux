@@ -8,23 +8,23 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/lsm_hooks.h>
-#include <linux/moduleparam.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/ptrace.h>
-#include <linux/ctype.h>
-#include <linux/sysctl.h>
-#include <linux/audit.h>
-#include <linux/user_namespace.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/netfilter_ipv6.h>
-#include <linux/zstd.h>
+#include <peenux/lsm_hooks.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/ptrace.h>
+#include <peenux/ctype.h>
+#include <peenux/sysctl.h>
+#include <peenux/audit.h>
+#include <peenux/user_namespace.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/netfilter_ipv6.h>
+#include <peenux/zstd.h>
 #include <net/sock.h>
-#include <uapi/linux/mount.h>
-#include <uapi/linux/lsm.h>
+#include <uapi/peenux/mount.h>
+#include <uapi/peenux/lsm.h>
 
 #include "include/apparmor.h"
 #include "include/apparmorfs.h"

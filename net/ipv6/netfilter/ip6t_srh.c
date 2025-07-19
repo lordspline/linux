@@ -6,16 +6,16 @@
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/ipv6.h>
-#include <linux/types.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/ipv6.h>
+#include <peenux/types.h>
 #include <net/ipv6.h>
 #include <net/seg6.h>
 
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_ipv6/ip6t_srh.h>
-#include <linux/netfilter_ipv6/ip6_tables.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter_ipv6/ip6t_srh.h>
+#include <peenux/netfilter_ipv6/ip6_tables.h>
 
 /* Test a struct->mt_invflags and a boolean for inequality */
 #define NF_SRH_INVF(ptr, flag, boolean)	\

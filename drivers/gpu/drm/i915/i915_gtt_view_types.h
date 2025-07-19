@@ -4,7 +4,7 @@
 #ifndef __I915_GTT_VIEW_TYPES_H__
 #define __I915_GTT_VIEW_TYPES_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct intel_remapped_plane_info {
 	/* in gtt pages */

@@ -2,12 +2,12 @@
 #ifndef __ARCH_SGX_DRIVER_H__
 #define __ARCH_SGX_DRIVER_H__
 
-#include <linux/kref.h>
-#include <linux/mmu_notifier.h>
-#include <linux/radix-tree.h>
-#include <linux/rwsem.h>
-#include <linux/sched.h>
-#include <linux/workqueue.h>
+#include <peenux/kref.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/radix-tree.h>
+#include <peenux/rwsem.h>
+#include <peenux/sched.h>
+#include <peenux/workqueue.h>
 #include <uapi/asm/sgx.h>
 #include "sgx.h"
 

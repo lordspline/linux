@@ -8,14 +8,14 @@
 #ifndef _LINUX_RWSEM_H
 #define _LINUX_RWSEM_H
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
-#include <linux/err.h>
-#include <linux/cleanup.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/err.h>
+#include <peenux/cleanup.h>
 
 #ifdef CONFIG_DEBUG_LOCK_ALLOC
 # define __RWSEM_DEP_MAP_INIT(lockname)			\
@@ -30,7 +30,7 @@
 #ifndef CONFIG_PREEMPT_RT
 
 #ifdef CONFIG_RWSEM_SPIN_ON_OWNER
-#include <linux/osq_lock.h>
+#include <peenux/osq_lock.h>
 #endif
 
 /*
@@ -134,7 +134,7 @@ static inline int rwsem_is_contended(struct rw_semaphore *sem)
 
 #else /* !CONFIG_PREEMPT_RT */
 
-#include <linux/rwbase_rt.h>
+#include <peenux/rwbase_rt.h>
 
 struct rw_semaphore {
 	struct rwbase_rt	rwbase;

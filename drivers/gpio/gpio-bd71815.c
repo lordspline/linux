@@ -8,14 +8,14 @@
  * Author: yanglsh@embest-tech.com
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 /* For the BD71815 register definitions */
-#include <linux/mfd/rohm-bd71815.h>
+#include <peenux/mfd/rohm-bd71815.h>
 
 struct bd71815_gpio {
 	/* chip.parent points the MFD which provides DT node and regmap */

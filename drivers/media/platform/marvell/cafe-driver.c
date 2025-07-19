@@ -16,22 +16,22 @@
  * v4l2_device/v4l2_subdev conversion by:
  * Copyright (C) 2009 Hans Verkuil <hverkuil@xs4all.nl>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-device.h>
 #include <media/i2c/ov7670.h>
-#include <linux/device.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/clkdev.h>
+#include <peenux/device.h>
+#include <peenux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/clkdev.h>
 
 #include "mcam-core.h"
 
@@ -83,7 +83,7 @@ struct cafe_camera {
 #define	  TWSIC0_SID	  0x000003fc	/* Slave ID */
 /*
  * Subtle trickery: the slave ID field starts with bit 2.  But the
- * Linux i2c stack wants to treat the bottommost bit as a separate
+ * Peenux i2c stack wants to treat the bottommost bit as a separate
  * read/write bit, which is why slave ID's are usually presented
  * >>1.  For consistency with that behavior, we shift over three
  * bits instead of two.

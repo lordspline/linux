@@ -11,26 +11,26 @@
  */
 
 #include "kcapi.h"
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/proc_fs.h>
-#include <linux/sched/signal.h>
-#include <linux/seq_file.h>
-#include <linux/skbuff.h>
-#include <linux/workqueue.h>
-#include <linux/capi.h>
-#include <linux/kernelcapi.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/isdn/capicmd.h>
-#include <linux/isdn/capiutil.h>
-#include <linux/mutex.h>
-#include <linux/rcupdate.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/proc_fs.h>
+#include <peenux/sched/signal.h>
+#include <peenux/seq_file.h>
+#include <peenux/skbuff.h>
+#include <peenux/workqueue.h>
+#include <peenux/capi.h>
+#include <peenux/kernelcapi.h>
+#include <peenux/init.h>
+#include <peenux/moduleparam.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/isdn/capicmd.h>
+#include <peenux/isdn/capiutil.h>
+#include <peenux/mutex.h>
+#include <peenux/rcupdate.h>
 
 static int showcapimsgs;
 static struct workqueue_struct *kcapi_wq;

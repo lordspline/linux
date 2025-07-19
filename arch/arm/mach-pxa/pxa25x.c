@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-pxa/pxa25x.c
+ *  peenux/arch/arm/mach-pxa/pxa25x.c
  *
  *  Author:	Nicolas Pitre
  *  Created:	Jun 15, 2001
@@ -13,21 +13,21 @@
  * initialization stuff for PXA machines which can be overridden later if
  * need be.
  */
-#include <linux/dmaengine.h>
-#include <linux/dma/pxa-dma.h>
-#include <linux/gpio.h>
-#include <linux/gpio-pxa.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/platform_data/mmp_dma.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/soc/pxa/smemc.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma/pxa-dma.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio-pxa.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/suspend.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/platform_data/mmp_dma.h>
+#include <peenux/soc/pxa/cpu.h>
+#include <peenux/soc/pxa/smemc.h>
 
 #include <asm/mach/map.h>
 #include <asm/suspend.h>

@@ -13,29 +13,29 @@
 
 #define pr_fmt(fmt) "dyndbg: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kallsyms.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/list.h>
-#include <linux/sysctl.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/parser.h>
-#include <linux/string_helpers.h>
-#include <linux/uaccess.h>
-#include <linux/dynamic_debug.h>
-#include <linux/debugfs.h>
-#include <linux/slab.h>
-#include <linux/jump_label.h>
-#include <linux/hardirq.h>
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kallsyms.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/list.h>
+#include <peenux/sysctl.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/parser.h>
+#include <peenux/string_helpers.h>
+#include <peenux/uaccess.h>
+#include <peenux/dynamic_debug.h>
+#include <peenux/debugfs.h>
+#include <peenux/slab.h>
+#include <peenux/jump_label.h>
+#include <peenux/hardirq.h>
+#include <peenux/sched.h>
+#include <peenux/device.h>
+#include <peenux/netdevice.h>
 
 #include <rdma/ib_verbs.h>
 

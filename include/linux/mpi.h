@@ -17,8 +17,8 @@
 #ifndef G10_MPI_H
 #define G10_MPI_H
 
-#include <linux/types.h>
-#include <linux/scatterlist.h>
+#include <peenux/types.h>
+#include <peenux/scatterlist.h>
 
 #define BYTES_PER_MPI_LIMB	(BITS_PER_LONG / 8)
 #define BITS_PER_MPI_LIMB	BITS_PER_LONG

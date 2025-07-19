@@ -4,14 +4,14 @@
  */
 
 #include "nfs4_fs.h"
-#include <linux/fs_context.h>
-#include <linux/security.h>
-#include <linux/compiler_attributes.h>
-#include <linux/crc32.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/nfs_page.h>
-#include <linux/nfslocalio.h>
-#include <linux/wait_bit.h>
+#include <peenux/fs_context.h>
+#include <peenux/security.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/crc32.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/nfs_page.h>
+#include <peenux/nfslocalio.h>
+#include <peenux/wait_bit.h>
 
 #define NFS_SB_MASK (SB_NOSUID|SB_NODEV|SB_NOEXEC|SB_SYNCHRONOUS)
 

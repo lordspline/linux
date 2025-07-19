@@ -7,18 +7,18 @@
  *
  */
 
-#include <linux/err.h>
-#include <linux/firmware/imx/ipc.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/firmware/imx/ipc.h>
+#include <peenux/firmware/imx/sci.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #define SCU_MU_CHAN_NUM		8
 #define MAX_RX_TIMEOUT		(msecs_to_jiffies(3000))
@@ -178,7 +178,7 @@ static int imx_scu_ipc_write(struct imx_sc_ipc *sc_ipc, void *msg)
 
 		/*
 		 * SCU requires that all messages words are written
-		 * sequentially but linux MU driver implements multiple
+		 * sequentially but peenux MU driver implements multiple
 		 * independent channels for each register so ordering between
 		 * different channels must be ensured by SCU API interface.
 		 *

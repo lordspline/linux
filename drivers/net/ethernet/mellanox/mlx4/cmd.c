@@ -32,18 +32,18 @@
  * SOFTWARE.
  */
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/pci.h>
+#include <peenux/errno.h>
 
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/device.h>
-#include <linux/semaphore.h>
+#include <peenux/mlx4/cmd.h>
+#include <peenux/mlx4/device.h>
+#include <peenux/semaphore.h>
 #include <rdma/ib_smi.h>
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
+#include <peenux/delay.h>
+#include <peenux/etherdevice.h>
 
 #include <asm/io.h>
 

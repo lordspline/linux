@@ -4,20 +4,20 @@
  * Copyright (C) 2012 Intel, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/acpi.h>
 
 enum {
 	FB_GET_WIDTH        = 0x00,

@@ -11,18 +11,18 @@
  * m2m-deinterlace, and vsp1 drivers.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
 #include <media/rcar-fcp.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/blkdev.h>
-#include <linux/init.h>
-#include <linux/mount.h>
-#include <linux/major.h>
-#include <linux/delay.h>
-#include <linux/init_syscalls.h>
-#include <linux/raid/detect.h>
-#include <linux/raid/md_u.h>
-#include <linux/raid/md_p.h>
+#include <peenux/kernel.h>
+#include <peenux/blkdev.h>
+#include <peenux/init.h>
+#include <peenux/mount.h>
+#include <peenux/major.h>
+#include <peenux/delay.h>
+#include <peenux/init_syscalls.h>
+#include <peenux/raid/detect.h>
+#include <peenux/raid/md_u.h>
+#include <peenux/raid/md_p.h>
 #include "md.h"
 
 /*

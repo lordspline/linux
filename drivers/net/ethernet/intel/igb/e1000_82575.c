@@ -7,9 +7,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/if_ether.h>
-#include <linux/i2c.h>
+#include <peenux/types.h>
+#include <peenux/if_ether.h>
+#include <peenux/i2c.h>
 
 #include "e1000_mac.h"
 #include "e1000_82575.h"

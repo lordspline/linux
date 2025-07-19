@@ -4,11 +4,11 @@
  *          Copyright (C) 2003 - 2004 Tresys Technology, LLC
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
 
 #include "security.h"
 #include "conditional.h"

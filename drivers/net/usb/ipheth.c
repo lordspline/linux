@@ -43,16 +43,16 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
-#include <linux/usb/cdc.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/usb.h>
+#include <peenux/workqueue.h>
+#include <peenux/usb/cdc.h>
 
 #define USB_VENDOR_APPLE        0x05ac
 

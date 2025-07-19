@@ -7,8 +7,8 @@
 #ifndef __MESON_CLK_PLL_H
 #define __MESON_CLK_PLL_H
 
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
 #include "parm.h"
 
 struct pll_params_table {

@@ -4,11 +4,11 @@
 #ifndef PVR_ROGUE_FWIF_H
 #define PVR_ROGUE_FWIF_H
 
-#include <linux/bits.h>
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/build_bug.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
 
 #include "pvr_rogue_defs.h"
 #include "pvr_rogue_fwif_common.h"

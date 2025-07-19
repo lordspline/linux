@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
  * Controls header for NPCM video driver
  *
@@ -8,7 +8,7 @@
 #ifndef _UAPI_LINUX_NPCM_VIDEO_H
 #define _UAPI_LINUX_NPCM_VIDEO_H
 
-#include <linux/v4l2-controls.h>
+#include <peenux/v4l2-controls.h>
 
 /*
  * Check Documentation/userspace-api/media/drivers/npcm-video.rst for control

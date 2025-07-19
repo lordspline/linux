@@ -31,15 +31,15 @@
  * SOFTWARE.
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
 #include <net/tcp.h>
 #include <net/inet_common.h>
-#include <linux/highmem.h>
-#include <linux/netdevice.h>
-#include <linux/sched/signal.h>
-#include <linux/inetdevice.h>
-#include <linux/inet_diag.h>
+#include <peenux/highmem.h>
+#include <peenux/netdevice.h>
+#include <peenux/sched/signal.h>
+#include <peenux/inetdevice.h>
+#include <peenux/inet_diag.h>
 
 #include <net/snmp.h>
 #include <net/tls.h>

@@ -6,7 +6,7 @@
 #ifndef _XE_GT_SRIOV_PF_SERVICE_TYPES_H_
 #define _XE_GT_SRIOV_PF_SERVICE_TYPES_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct xe_reg;
 

@@ -3,16 +3,16 @@
  * Copyright (C) 2015 Cavium, Inc.
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/phy.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
+#include <peenux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/phy.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
 
 #include "nic_reg.h"
 #include "nic.h"
@@ -716,7 +716,7 @@ static int bgx_lmac_sgmii_init(struct bgx *bgx, struct lmac *lmac)
 		cfg |= PCS_MRX_CTL_AN_EN;
 	} else {
 		/* In scenarios where PHY driver is not present or it's a
-		 * non-standard PHY, FW sets AN_EN to inform Linux driver
+		 * non-standard PHY, FW sets AN_EN to inform Peenux driver
 		 * to do auto-neg and link polling or not.
 		 */
 		if (cfg & PCS_MRX_CTL_AN_EN)

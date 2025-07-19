@@ -10,19 +10,19 @@
 //
 // Samsung - GPIOlib support
 
-#include <linux/kernel.h>
-#include <linux/gpio/driver.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/ioport.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/of_address.h>
 
 #include <asm/irq.h>
 

@@ -32,9 +32,9 @@
 	IEEE802154_REQUIRED_SIZE(struct ieee802154_addr_sa, hwaddr))
 
 #include <net/af_ieee802154.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/ieee802154.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/ieee802154.h>
 
 #include <net/cfg802154.h>
 

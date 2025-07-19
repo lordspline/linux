@@ -9,15 +9,15 @@
  * Datasheet: http://www5.epsondevice.com/en/products/parallel/rtc7301sf.html
  */
 
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/delay.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/delay.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
 
 #define DRV_NAME "rtc-r7301"
 

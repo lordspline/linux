@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2020-2024 Microsoft Corporation. All rights reserved.
  */
-#include <uapi/linux/lsm.h>
+#include <uapi/peenux/lsm.h>
 
 #include "ipe.h"
 #include "eval.h"

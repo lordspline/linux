@@ -4,10 +4,10 @@
 #include <asm/vendor_extensions.h>
 #include <asm/vendor_extensions/andes.h>
 
-#include <linux/array_size.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/types.h>
 
-/* All Andes vendor extensions supported in Linux */
+/* All Andes vendor extensions supported in Peenux */
 static const struct riscv_isa_ext_data riscv_isa_vendor_ext_andes[] = {
 	__RISCV_ISA_EXT_DATA(xandespmu, RISCV_ISA_VENDOR_EXT_XANDESPMU),
 };

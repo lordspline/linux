@@ -5,8 +5,8 @@
  * Copyright (C) 2008 Yoshinori Sato
  */
 
-#include <linux/init.h>
-#include <linux/mm.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
 
 #include <asm/cache.h>
 #include <asm/addrspace.h>

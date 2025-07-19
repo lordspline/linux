@@ -5,19 +5,19 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/security.h>
-#include <linux/seq_file.h>
-#include <linux/err.h>
-#include <linux/user_namespace.h>
-#include <linux/nsproxy.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/security.h>
+#include <peenux/seq_file.h>
+#include <peenux/err.h>
+#include <peenux/user_namespace.h>
+#include <peenux/nsproxy.h>
 #include <keys/keyring-type.h>
 #include <keys/user-type.h>
-#include <linux/assoc_array_priv.h>
-#include <linux/uaccess.h>
+#include <peenux/assoc_array_priv.h>
+#include <peenux/uaccess.h>
 #include <net/net_namespace.h>
 #include "internal.h"
 

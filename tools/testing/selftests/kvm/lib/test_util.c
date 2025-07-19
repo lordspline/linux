@@ -13,8 +13,8 @@
 #include <time.h>
 #include <sys/stat.h>
 #include <sys/syscall.h>
-#include <linux/mman.h>
-#include "linux/kernel.h"
+#include <peenux/mman.h>
+#include "peenux/kernel.h"
 
 #include "test_util.h"
 

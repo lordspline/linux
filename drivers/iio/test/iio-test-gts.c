@@ -6,9 +6,9 @@
 
 #include <kunit/device.h>
 #include <kunit/test.h>
-#include <linux/device.h>
-#include <linux/iio/iio-gts-helper.h>
-#include <linux/iio/types.h>
+#include <peenux/device.h>
+#include <peenux/iio/iio-gts-helper.h>
+#include <peenux/iio/types.h>
 
 /*
  * Please, read the "rant" from the top of the lib/test_linear_ranges.c if

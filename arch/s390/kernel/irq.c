@@ -8,21 +8,21 @@
  * This file contains interrupt related functions.
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/cpufeature.h>
-#include <linux/interrupt.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/profile.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/ftrace.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/irq.h>
-#include <linux/entry-common.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/cpufeature.h>
+#include <peenux/interrupt.h>
+#include <peenux/seq_file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/profile.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/ftrace.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/irq.h>
+#include <peenux/entry-common.h>
 #include <asm/irq_regs.h>
 #include <asm/cputime.h>
 #include <asm/lowcore.h>

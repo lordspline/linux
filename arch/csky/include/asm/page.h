@@ -5,7 +5,7 @@
 
 #include <asm/setup.h>
 #include <asm/cache.h>
-#include <linux/const.h>
+#include <peenux/const.h>
 
 #include <vdso/page.h>
 
@@ -28,7 +28,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/pfn.h>
+#include <peenux/pfn.h>
 
 #define virt_addr_valid(kaddr)  ((void *)(kaddr) >= (void *)PAGE_OFFSET && \
 			(void *)(kaddr) < high_memory)

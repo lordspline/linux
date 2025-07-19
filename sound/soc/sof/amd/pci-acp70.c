@@ -11,9 +11,9 @@
  * PCI interface for ACP7.0 device
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
 #include <sound/sof.h>
 #include <sound/soc-acpi.h>
 

@@ -7,18 +7,18 @@
  * Author: Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/gpio/legacy-of-mm-gpiochip.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/property.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/gpio/legacy-of-mm-gpiochip.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/property.h>
 
 #include <soc/fsl/qe/qe.h>
 

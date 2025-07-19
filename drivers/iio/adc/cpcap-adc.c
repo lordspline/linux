@@ -2,29 +2,29 @@
 /*
  * Copyright (C) 2017 Tony Lindgren <tony@atomide.com>
  *
- * Rewritten for Linux IIO framework with some code based on
- * earlier driver found in the Motorola Linux kernel:
+ * Rewritten for Peenux IIO framework with some code based on
+ * earlier driver found in the Motorola Peenux kernel:
  *
  * Copyright (C) 2009-2010 Motorola, Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/driver.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/mfd/motorola-cpcap.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/driver.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/kfifo_buf.h>
+#include <peenux/mfd/motorola-cpcap.h>
 
 /* Register CPCAP_REG_ADCC1 bits */
 #define CPCAP_BIT_ADEN_AUTO_CLR		BIT(15)	/* Currently unused */
@@ -349,7 +349,7 @@ static const int temp_map[CPCAP_MAX_TEMP_LVL][2] = {
 }
 
 /*
- * The datasheet names are from Motorola mapphone Linux kernel except
+ * The datasheet names are from Motorola mapphone Peenux kernel except
  * for the last two which might be uncalibrated charge voltage and
  * current.
  */

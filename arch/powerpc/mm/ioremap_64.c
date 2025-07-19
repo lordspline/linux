@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 void __iomem *__ioremap_caller(phys_addr_t addr, unsigned long size,
 			       pgprot_t prot, void *caller)

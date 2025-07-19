@@ -1,12 +1,12 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* Copyright (c) 2018 Facebook */
 
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/filter.h>
-#include <linux/unistd.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/filter.h>
+#include <peenux/unistd.h>
 #include <bpf/bpf.h>
 #include <libelf.h>
 #include <gelf.h>

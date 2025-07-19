@@ -5,7 +5,7 @@
 #ifndef __iwl_mld_h__
 #define __iwl_mld_h__
 
-#include <linux/leds.h>
+#include <peenux/leds.h>
 #include <net/mac80211.h>
 
 #include "iwl-trans.h"

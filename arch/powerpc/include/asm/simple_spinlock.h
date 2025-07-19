@@ -14,8 +14,8 @@
  *
  * (the type definitions are in asm/simple_spinlock_types.h)
  */
-#include <linux/irqflags.h>
-#include <linux/kcsan-checks.h>
+#include <peenux/irqflags.h>
+#include <peenux/kcsan-checks.h>
 #include <asm/paravirt.h>
 #include <asm/paca.h>
 #include <asm/synch.h>

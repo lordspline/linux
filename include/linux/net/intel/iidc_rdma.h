@@ -4,11 +4,11 @@
 #ifndef _IIDC_RDMA_H_
 #define _IIDC_RDMA_H_
 
-#include <linux/auxiliary_bus.h>
-#include <linux/device.h>
-#include <linux/if_ether.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/device.h>
+#include <peenux/if_ether.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
 #include <net/dscp.h>
 
 enum iidc_rdma_event_type {

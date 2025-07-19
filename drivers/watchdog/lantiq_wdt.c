@@ -6,16 +6,16 @@
  *  Based on EP93xx wdt driver
  */
 
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/watchdog.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/watchdog.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/uaccess.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 
 #include <lantiq_soc.h>
 

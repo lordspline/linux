@@ -8,8 +8,8 @@
 #ifndef _DELL_SMO8800_IDS_H_
 #define _DELL_SMO8800_IDS_H_
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
 
 static const struct acpi_device_id smo8800_ids[] = {
 	{ "SMO8800" },

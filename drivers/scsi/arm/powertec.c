@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/acorn/scsi/powertec.c
+ *  peenux/drivers/acorn/scsi/powertec.c
  *
  *  Copyright (C) 1997-2005 Russell King
  */
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/proc_fs.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/pgtable.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/ioport.h>
+#include <peenux/proc_fs.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pgtable.h>
 
 #include <asm/dma.h>
 #include <asm/ecard.h>

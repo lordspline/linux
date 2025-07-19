@@ -3,12 +3,12 @@
  * Fast batching percpu counters.
  */
 
-#include <linux/percpu_counter.h>
-#include <linux/mutex.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/debugobjects.h>
+#include <peenux/percpu_counter.h>
+#include <peenux/mutex.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/debugobjects.h>
 
 #ifdef CONFIG_HOTPLUG_CPU
 static LIST_HEAD(percpu_counters);

@@ -4,16 +4,16 @@
  * SmartMedia/xD translation layer
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/hdreg.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/sysfs.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/mtd/nand-ecc-sw-hamming.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/random.h>
+#include <peenux/hdreg.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
+#include <peenux/sysfs.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/nand-ecc-sw-hamming.h>
 #include "nand/raw/sm_common.h"
 #include "sm_ftl.h"
 

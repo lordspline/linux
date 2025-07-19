@@ -10,17 +10,17 @@
  * Generic serial MIDI driver using the serdev serial bus API for hardware interaction
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/serdev.h>
-#include <linux/serial_reg.h>
-#include <linux/slab.h>
-#include <linux/dev_printk.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/serdev.h>
+#include <peenux/serial_reg.h>
+#include <peenux/slab.h>
+#include <peenux/dev_printk.h>
 
 #include <sound/core.h>
 #include <sound/rawmidi.h>

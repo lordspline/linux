@@ -3,8 +3,8 @@
 #ifndef IOU_NAPI_H
 #define IOU_NAPI_H
 
-#include <linux/kernel.h>
-#include <linux/io_uring.h>
+#include <peenux/kernel.h>
+#include <peenux/io_uring.h>
 #include <net/busy_poll.h>
 
 #ifdef CONFIG_NET_RX_BUSY_POLL

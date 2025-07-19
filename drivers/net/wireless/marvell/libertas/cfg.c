@@ -9,13 +9,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/hardirq.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/ieee80211.h>
+#include <peenux/hardirq.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/slab.h>
+#include <peenux/ieee80211.h>
 #include <net/cfg80211.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "decl.h"
 #include "cfg.h"

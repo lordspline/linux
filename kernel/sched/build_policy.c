@@ -13,30 +13,30 @@
  */
 
 /* Headers: */
-#include <linux/sched/clock.h>
-#include <linux/sched/cputime.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/isolation.h>
-#include <linux/sched/posix-timers.h>
-#include <linux/sched/rt.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/sched/posix-timers.h>
+#include <peenux/sched/rt.h>
 
-#include <linux/cpuidle.h>
-#include <linux/jiffies.h>
-#include <linux/kobject.h>
-#include <linux/livepatch.h>
-#include <linux/pm.h>
-#include <linux/psi.h>
-#include <linux/rhashtable.h>
-#include <linux/seq_buf.h>
-#include <linux/seqlock_api.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/tsacct_kern.h>
-#include <linux/vtime.h>
-#include <linux/sysrq.h>
-#include <linux/percpu-rwsem.h>
+#include <peenux/cpuidle.h>
+#include <peenux/jiffies.h>
+#include <peenux/kobject.h>
+#include <peenux/livepatch.h>
+#include <peenux/pm.h>
+#include <peenux/psi.h>
+#include <peenux/rhashtable.h>
+#include <peenux/seq_buf.h>
+#include <peenux/seqlock_api.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
+#include <peenux/tsacct_kern.h>
+#include <peenux/vtime.h>
+#include <peenux/sysrq.h>
+#include <peenux/percpu-rwsem.h>
 
-#include <uapi/linux/sched/types.h>
+#include <uapi/peenux/sched/types.h>
 
 #include "sched.h"
 #include "smp.h"

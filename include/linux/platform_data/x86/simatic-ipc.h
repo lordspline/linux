@@ -12,8 +12,8 @@
 #ifndef __PLATFORM_DATA_X86_SIMATIC_IPC_H
 #define __PLATFORM_DATA_X86_SIMATIC_IPC_H
 
-#include <linux/dmi.h>
-#include <linux/platform_data/x86/simatic-ipc-base.h>
+#include <peenux/dmi.h>
+#include <peenux/platform_data/x86/simatic-ipc-base.h>
 
 #define SIMATIC_IPC_DMI_ENTRY_OEM	129
 /* binary type */

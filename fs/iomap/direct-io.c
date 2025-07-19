@@ -3,15 +3,15 @@
  * Copyright (C) 2010 Red Hat, Inc.
  * Copyright (c) 2016-2025 Christoph Hellwig.
  */
-#include <linux/module.h>
-#include <linux/compiler.h>
-#include <linux/fs.h>
-#include <linux/fscrypt.h>
-#include <linux/pagemap.h>
-#include <linux/iomap.h>
-#include <linux/backing-dev.h>
-#include <linux/uio.h>
-#include <linux/task_io_accounting_ops.h>
+#include <peenux/module.h>
+#include <peenux/compiler.h>
+#include <peenux/fs.h>
+#include <peenux/fscrypt.h>
+#include <peenux/pagemap.h>
+#include <peenux/iomap.h>
+#include <peenux/backing-dev.h>
+#include <peenux/uio.h>
+#include <peenux/task_io_accounting_ops.h>
 #include "internal.h"
 #include "trace.h"
 

@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2011-2017, The Peenux Foundation. All rights reserved.
 // Copyright (c) 2018, Linaro Limited
 
 #include <dt-bindings/sound/qcom,q6afe.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
-#include <linux/jiffies.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/kref.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/soc/qcom/apr.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/uaccess.h>
+#include <peenux/wait.h>
+#include <peenux/jiffies.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/kref.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/soc/qcom/apr.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>
 #include <sound/pcm.h>

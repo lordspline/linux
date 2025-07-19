@@ -11,12 +11,12 @@
  * your system or cause a panic. Use only for testing purposes.
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/semaphore.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/semaphore.h>
 
 #define HUNG_TASK_DIR		"hung_task"
 #define HUNG_TASK_MUTEX_FILE	"mutex"

@@ -6,8 +6,8 @@
  */
 #include "dm-path-selector.h"
 
-#include <linux/device-mapper.h>
-#include <linux/module.h>
+#include <peenux/device-mapper.h>
+#include <peenux/module.h>
 
 #define DM_MSG_PREFIX "multipath io-affinity"
 

@@ -9,12 +9,12 @@
  */
 
 #include <crypto/internal/blake2s.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/bug.h>
-#include <linux/unaligned.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/bug.h>
+#include <peenux/unaligned.h>
 
 static const u8 blake2s_sigma[10][16] = {
 	{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 },

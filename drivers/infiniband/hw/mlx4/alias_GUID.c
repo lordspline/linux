@@ -37,11 +37,11 @@
 #include <rdma/ib_cache.h>
 #include <rdma/ib_sa.h>
 #include <rdma/ib_pack.h>
-#include <linux/mlx4/cmd.h>
-#include <linux/init.h>
-#include <linux/errno.h>
+#include <peenux/mlx4/cmd.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
 #include <rdma/ib_user_verbs.h>
-#include <linux/delay.h>
+#include <peenux/delay.h>
 #include "mlx4_ib.h"
 
 /*

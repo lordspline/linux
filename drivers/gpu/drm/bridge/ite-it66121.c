@@ -7,18 +7,18 @@
  *
  */
 
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/bitfield.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/of_graph.h>
-#include <linux/gpio/consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/bitfield.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/of_graph.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/regulator/consumer.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

@@ -17,12 +17,12 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/export.h>
 
 #include <asm/tlbflush.h>
 #include <asm/tlb.h>
@@ -38,7 +38,7 @@
  *  - flush_tlb_kernel_range(start, end) flushes kernel pages
  *
  * since the hardware hash table functions as an extension of the
- * tlb as far as the linux tables are concerned, flush it too.
+ * tlb as far as the peenux tables are concerned, flush it too.
  *    -- Cort
  */
 

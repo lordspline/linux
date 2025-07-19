@@ -3,7 +3,7 @@
  * Copyright (c) 2024, NVIDIA CORPORATION & AFFILIATES
  */
 
-#include <uapi/linux/iommufd.h>
+#include <uapi/peenux/iommufd.h>
 
 #include "arm-smmu-v3.h"
 

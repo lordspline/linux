@@ -3,7 +3,7 @@
  *  sata_sil.c - Silicon Image SATA
  *
  *  Maintained by:  Tejun Heo <tj@kernel.org>
- *  		    Please ALWAYS copy linux-ide@vger.kernel.org
+ *  		    Please ALWAYS copy peenux-ide@vger.kernel.org
  *		    on emails.
  *
  *  Copyright 2003-2005 Red Hat, Inc.
@@ -18,16 +18,16 @@
  *  Other errata and documentation available under NDA.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
-#include <linux/dmi.h>
+#include <peenux/libata.h>
+#include <peenux/dmi.h>
 
 #define DRV_NAME	"sata_sil"
 #define DRV_VERSION	"2.4"

@@ -10,17 +10,17 @@
  *   Dirk Behme <Dirk.Behme@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/memory/ti-aemif.h>
-#include <linux/module.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/memory/ti-aemif.h>
+#include <peenux/module.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 #define NRCSR_OFFSET		0x00
 #define NANDFCR_OFFSET		0x60

@@ -9,24 +9,24 @@
 #define DMC620_DRVNAME		DMC620_PMUNAME "_pmu"
 #define pr_fmt(fmt)		DMC620_DRVNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/rculist.h>
-#include <linux/refcount.h>
+#include <peenux/acpi.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/cpumask.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
+#include <peenux/rculist.h>
+#include <peenux/refcount.h>
 
 #define DMC620_PA_SHIFT					12
 #define DMC620_CNT_INIT					0x80000000

@@ -5,18 +5,18 @@
  */
 
 #define pr_fmt(fmt) "riscv-imsic: " fmt
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/bitmap.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
+#include <peenux/acpi.h>
+#include <peenux/cpu.h>
+#include <peenux/bitmap.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/smp.h>
 #include <asm/hwcap.h>
 
 #include "irq-riscv-imsic-state.h"
@@ -298,7 +298,7 @@ void imsic_vector_mask(struct imsic_vector *vec)
 		return;
 
 	/*
-	 * This function is called through Linux irq subsystem with
+	 * This function is called through Peenux irq subsystem with
 	 * irqs disabled so no need to save/restore irq flags.
 	 */
 
@@ -320,7 +320,7 @@ void imsic_vector_unmask(struct imsic_vector *vec)
 		return;
 
 	/*
-	 * This function is called through Linux irq subsystem with
+	 * This function is called through Peenux irq subsystem with
 	 * irqs disabled so no need to save/restore irq flags.
 	 */
 

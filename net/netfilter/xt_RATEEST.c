@@ -2,19 +2,19 @@
 /*
  * (C) 2007 Patrick McHardy <kaber@trash.net>
  */
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/gen_stats.h>
-#include <linux/jhash.h>
-#include <linux/rtnetlink.h>
-#include <linux/random.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/gen_stats.h>
+#include <peenux/jhash.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
 #include <net/gen_stats.h>
 #include <net/netlink.h>
 #include <net/netns/generic.h>
 
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_RATEEST.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_RATEEST.h>
 #include <net/netfilter/xt_rateest.h>
 
 #define RATEEST_HSIZE	16

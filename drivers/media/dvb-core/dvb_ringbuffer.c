@@ -22,12 +22,12 @@
 
 
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
 
 #include <media/dvb_ringbuffer.h>
 

@@ -7,19 +7,19 @@
  * Author: Rabin Vincent <rabin.vincent@stericsson.com> for ST-Ericsson
  */
 
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/mfd/core.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
+#include <peenux/mfd/core.h>
+#include <peenux/delay.h>
+#include <peenux/regulator/consumer.h>
 #include "stmpe.h"
 
 /**

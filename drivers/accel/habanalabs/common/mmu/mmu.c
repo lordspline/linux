@@ -5,8 +5,8 @@
  * All Rights Reserved.
  */
 
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
 
 #include "../habanalabs.h"
 

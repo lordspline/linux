@@ -3,13 +3,13 @@
  * Copyright (C) 2005-2008 Red Hat, Inc.  All rights reserved.
  */
 
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/miscdevice.h>
-#include <linux/poll.h>
-#include <linux/dlm.h>
-#include <linux/dlm_plock.h>
-#include <linux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/miscdevice.h>
+#include <peenux/poll.h>
+#include <peenux/dlm.h>
+#include <peenux/dlm_plock.h>
+#include <peenux/slab.h>
 
 #include <trace/events/dlm.h>
 

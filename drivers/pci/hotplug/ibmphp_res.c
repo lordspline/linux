@@ -13,11 +13,11 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/list.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/list.h>
+#include <peenux/init.h>
 #include "ibmphp.h"
 
 static int flags = 0;		/* for testing */

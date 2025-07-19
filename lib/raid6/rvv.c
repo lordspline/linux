@@ -12,8 +12,8 @@
 #include <asm/simd.h>
 #include <asm/vector.h>
 #include <crypto/internal/simd.h>
-#include <linux/raid/pq.h>
-#include <linux/types.h>
+#include <peenux/raid/pq.h>
+#include <peenux/types.h>
 #include "rvv.h"
 
 #define NSIZE	(riscv_v_vsize / 32) /* NSIZE = vlenb */

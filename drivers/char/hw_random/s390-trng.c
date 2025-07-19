@@ -12,15 +12,15 @@
 #define KMSG_COMPONENT "trng"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/hw_random.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/cpufeature.h>
-#include <linux/miscdevice.h>
-#include <linux/debugfs.h>
-#include <linux/atomic.h>
-#include <linux/random.h>
-#include <linux/sched/signal.h>
+#include <peenux/hw_random.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/cpufeature.h>
+#include <peenux/miscdevice.h>
+#include <peenux/debugfs.h>
+#include <peenux/atomic.h>
+#include <peenux/random.h>
+#include <peenux/sched/signal.h>
 #include <asm/debug.h>
 #include <asm/cpacf.h>
 #include <asm/archrandom.h>

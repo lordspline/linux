@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Pentium 4/Xeon CPU on demand clock modulation/speed scaling
- *	(C) 2002 - 2003 Dominik Brodowski <linux@brodo.de>
+ *	(C) 2002 - 2003 Dominik Brodowski <peenux@brodo.de>
  *	(C) 2002 Zwane Mwaikambo <zwane@commfireservices.com>
  *	(C) 2002 Arjan van de Ven <arjanv@redhat.com>
  *	(C) 2002 Tora T. Engstad
@@ -17,13 +17,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/cpufreq.h>
-#include <linux/cpumask.h>
-#include <linux/timex.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/cpufreq.h>
+#include <peenux/cpumask.h>
+#include <peenux/timex.h>
 
 #include <asm/processor.h>
 #include <asm/msr.h>

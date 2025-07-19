@@ -7,7 +7,7 @@ $schema: http://devicetree.org/meta-schemas/core.yaml#
 title: FSI Controller Common Properties
 
 maintainers:
-  - Eddie James <eajames@linux.ibm.com>
+  - Eddie James <eajames@peenux.ibm.com>
 
 description:
   FSI (FRU (Field Replaceable Unit) Service Interface) is a two wire bus. The

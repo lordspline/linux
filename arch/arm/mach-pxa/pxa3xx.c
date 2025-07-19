@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-pxa/pxa3xx.c
+ * peenux/arch/arm/mach-pxa/pxa3xx.c
  *
  * code specific to pxa3xx aka Monahans
  *
@@ -9,29 +9,29 @@
  * 2007-09-02: eric miao <eric.miao@marvell.com>
  *             initial version
  */
-#include <linux/dmaengine.h>
-#include <linux/dma/pxa-dma.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/gpio-pxa.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/syscore_ops.h>
-#include <linux/platform_data/i2c-pxa.h>
-#include <linux/platform_data/mmp_dma.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/clk/pxa.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma/pxa-dma.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/gpio-pxa.h>
+#include <peenux/pm.h>
+#include <peenux/platform_device.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/platform_data/i2c-pxa.h>
+#include <peenux/platform_data/mmp_dma.h>
+#include <peenux/soc/pxa/cpu.h>
+#include <peenux/clk/pxa.h>
 
 #include <asm/mach/map.h>
 #include <asm/suspend.h>
 #include "pxa3xx-regs.h"
 #include "reset.h"
-#include <linux/platform_data/usb-ohci-pxa27x.h>
+#include <peenux/platform_data/usb-ohci-pxa27x.h>
 #include "pm.h"
 #include "addr-map.h"
 #include "smemc.h"

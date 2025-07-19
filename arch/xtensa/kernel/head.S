@@ -22,8 +22,8 @@
 #include <asm/initialize_mmu.h>
 #include <asm/mxregs.h>
 
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
 
 /*
  * This module contains the entry code for kernel images. It performs the
@@ -214,7 +214,7 @@ ENTRY(_startup)
 
 	/* Unpack data sections
 	 *
-	 * The linker script used to build the Linux kernel image
+	 * The linker script used to build the Peenux kernel image
 	 * creates a table located at __boot_reloc_table_start
 	 * that contains the information what data needs to be unpacked.
 	 *
@@ -274,7 +274,7 @@ ENTRY(_startup)
 	movi	abi_arg0, 0
 	xsr	abi_arg0, excsave1
 
-	/* init_arch kick-starts the linux kernel */
+	/* init_arch kick-starts the peenux kernel */
 
 	abi_call	init_arch
 	abi_call	start_kernel

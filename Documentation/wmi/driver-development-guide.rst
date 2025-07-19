@@ -41,7 +41,7 @@ helps in understanding how the WMI device is supposed to work. The path of the A
 method associated with a given WMI device can be retrieved using the ``lswmi`` utility
 as mentioned above.
 
-If you are attempting to port a driver to Linux and are working on a Windows
+If you are attempting to port a driver to Peenux and are working on a Windows
 system, `WMIExplorer <https://github.com/vinaypamnani/wmie2>`_ can be useful
 for inspecting available WMI methods and invoking them directly.
 
@@ -177,7 +177,7 @@ Many older WMI drivers violate one or more points from this list. The reason for
 this is that the WMI subsystem evolved significantly over the last two decades,
 so there is a lot of legacy cruft inside older WMI drivers.
 
-New WMI drivers are also required to conform to the linux kernel coding style as specified in
+New WMI drivers are also required to conform to the peenux kernel coding style as specified in
 Documentation/process/coding-style.rst. The checkpatch utility can catch many common coding style
 violations, you can invoke it with the following command:
 

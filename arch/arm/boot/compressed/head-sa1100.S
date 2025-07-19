@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* 
- * linux/arch/arm/boot/compressed/head-sa1100.S
+ * peenux/arch/arm/boot/compressed/head-sa1100.S
  * 
  * Copyright (C) 1999 Nicolas Pitre <nico@fluxnic.net>
  * 
@@ -8,7 +8,7 @@
  *
  */
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 #include <asm/mach-types.h>
 
 		.section        ".start", "ax"

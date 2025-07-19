@@ -11,9 +11,9 @@
 #ifndef CS35L45_H
 #define CS35L45_H
 
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 #include <dt-bindings/sound/cs35l45.h>
 #include "wm_adsp.h"
 

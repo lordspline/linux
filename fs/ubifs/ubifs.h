@@ -12,28 +12,28 @@
 #define __UBIFS_H__
 
 #include <asm/div64.h>
-#include <linux/statfs.h>
-#include <linux/fs.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/mtd/ubi.h>
-#include <linux/pagemap.h>
-#include <linux/backing-dev.h>
-#include <linux/security.h>
-#include <linux/xattr.h>
-#include <linux/random.h>
-#include <linux/sysfs.h>
-#include <linux/completion.h>
+#include <peenux/statfs.h>
+#include <peenux/fs.h>
+#include <peenux/err.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/rwsem.h>
+#include <peenux/mtd/ubi.h>
+#include <peenux/pagemap.h>
+#include <peenux/backing-dev.h>
+#include <peenux/security.h>
+#include <peenux/xattr.h>
+#include <peenux/random.h>
+#include <peenux/sysfs.h>
+#include <peenux/completion.h>
 #include <crypto/hash_info.h>
 #include <crypto/hash.h>
 #include <crypto/utils.h>
 
-#include <linux/fscrypt.h>
+#include <peenux/fscrypt.h>
 
 #include "ubifs-media.h"
 

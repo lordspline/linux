@@ -3,8 +3,8 @@
 #ifndef __IP32_COMMON_H
 #define __IP32_COMMON_H
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
 
 void __init crime_init(void);
 irqreturn_t crime_memerr_intr(int irq, void *dev_id);

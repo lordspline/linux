@@ -11,11 +11,11 @@
 #ifndef __AA_AUDIT_H
 #define __AA_AUDIT_H
 
-#include <linux/audit.h>
-#include <linux/fs.h>
-#include <linux/lsm_audit.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/audit.h>
+#include <peenux/fs.h>
+#include <peenux/lsm_audit.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
 #include "file.h"
 #include "label.h"

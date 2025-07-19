@@ -5,15 +5,15 @@
  * Copyright (C) 2008 Robert Jarzmik
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/rtc.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/rtc.h>
+#include <peenux/seq_file.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
 #include "rtc-sa1100.h"
 

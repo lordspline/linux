@@ -23,16 +23,16 @@
 
 #define pr_fmt(fmt) "ACPI: PM: " fmt
 
-#include <linux/dmi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/pm_runtime.h>
-#include <linux/sysfs.h>
-#include <linux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sysfs.h>
+#include <peenux/acpi.h>
 #include "sleep.h"
 #include "internal.h"
 

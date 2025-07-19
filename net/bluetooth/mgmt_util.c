@@ -1,5 +1,5 @@
 /*
-   BlueZ - Bluetooth protocol stack for Linux
+   BlueZ - Bluetooth protocol stack for Peenux
 
    Copyright (C) 2015  Intel Corporation
 
@@ -21,7 +21,7 @@
    SOFTWARE IS DISCLAIMED.
 */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

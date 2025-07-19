@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/stat.h>
-#include <linux/sysctl.h>
-#include <linux/slab.h>
-#include <linux/cred.h>
-#include <linux/hash.h>
-#include <linux/kmemleak.h>
-#include <linux/user_namespace.h>
+#include <peenux/stat.h>
+#include <peenux/sysctl.h>
+#include <peenux/slab.h>
+#include <peenux/cred.h>
+#include <peenux/hash.h>
+#include <peenux/kmemleak.h>
+#include <peenux/user_namespace.h>
 
 struct ucounts init_ucounts = {
 	.ns    = &init_user_ns,

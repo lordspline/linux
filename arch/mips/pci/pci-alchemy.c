@@ -8,16 +8,16 @@
  * Support for all devices (greater than 16) added by David Gathright.
  */
 
-#include <linux/clk.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/syscore_ops.h>
-#include <linux/vmalloc.h>
-#include <linux/dma-map-ops.h> /* for dma_default_coherent */
+#include <peenux/clk.h>
+#include <peenux/export.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/vmalloc.h>
+#include <peenux/dma-map-ops.h> /* for dma_default_coherent */
 
 #include <asm/mach-au1x00/au1000.h>
 #include <asm/tlbmisc.h>

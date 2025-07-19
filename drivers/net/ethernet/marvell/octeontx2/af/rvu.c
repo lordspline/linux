@@ -5,12 +5,12 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/pci.h>
-#include <linux/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/pci.h>
+#include <peenux/sysfs.h>
 
 #include "cgx.h"
 #include "rvu.h"

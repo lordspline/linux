@@ -3,19 +3,19 @@
  * S390 kdump implementation
  *
  * Copyright IBM Corp. 2011
- * Author(s): Michael Holzheu <holzheu@linux.vnet.ibm.com>
+ * Author(s): Michael Holzheu <holzheu@peenux.vnet.ibm.com>
  */
 
-#include <linux/crash_dump.h>
+#include <peenux/crash_dump.h>
 #include <asm/lowcore.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/gfp.h>
-#include <linux/slab.h>
-#include <linux/memblock.h>
-#include <linux/elf.h>
-#include <linux/uio.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/gfp.h>
+#include <peenux/slab.h>
+#include <peenux/memblock.h>
+#include <peenux/elf.h>
+#include <peenux/uio.h>
 #include <asm/asm-offsets.h>
 #include <asm/os_info.h>
 #include <asm/elf.h>

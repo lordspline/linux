@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mmc/host/pxa.c - PXA MMCI driver
+ *  peenux/drivers/mmc/host/pxa.c - PXA MMCI driver
  *
  *  Copyright (C) 2003 Russell King, All Rights Reserved.
  *
@@ -13,28 +13,28 @@
  *	1 and 3 byte data transfers not supported
  *	max block length up to 1023
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/io.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gfp.h>
-#include <linux/of.h>
-#include <linux/soc/pxa/cpu.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/io.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gfp.h>
+#include <peenux/of.h>
+#include <peenux/soc/pxa/cpu.h>
 
-#include <linux/sizes.h>
+#include <peenux/sizes.h>
 
-#include <linux/platform_data/mmc-pxamci.h>
+#include <peenux/platform_data/mmc-pxamci.h>
 
 #include "pxamci.h"
 

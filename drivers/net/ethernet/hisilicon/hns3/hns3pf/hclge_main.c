@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright (c) 2016-2017 Hisilicon Limited.
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/etherdevice.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/if_vlan.h>
-#include <linux/crash_dump.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/etherdevice.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/if_vlan.h>
+#include <peenux/crash_dump.h>
 
 #include <net/rtnetlink.h>
 

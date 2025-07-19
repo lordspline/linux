@@ -6,8 +6,8 @@
 #ifndef _XE_GUC_KLV_HELPERS_H_
 #define _XE_GUC_KLV_HELPERS_H_
 
-#include <linux/args.h>
-#include <linux/types.h>
+#include <peenux/args.h>
+#include <peenux/types.h>
 
 struct drm_printer;
 

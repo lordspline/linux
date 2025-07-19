@@ -5,9 +5,9 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Authors: Keyon Jie <yang.jie@linux.intel.com>
+// Authors: Keyon Jie <yang.jie@peenux.intel.com>
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <sound/hdaudio.h>
 #include <sound/hda_i915.h>
 #include <sound/hda_codec.h>

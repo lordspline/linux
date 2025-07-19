@@ -5,10 +5,10 @@
  *	Copyright (c) 2014  Maciej W. Rozycki
  */
 
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mc146818rtc.h>
-#include <linux/platform_device.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/platform_device.h>
 
 static struct resource dec_rtc_resources[] = {
 	{

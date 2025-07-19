@@ -34,19 +34,19 @@
     
 ======================================================================*/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/major.h>
-#include <linux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/ioport.h>
+#include <peenux/major.h>
+#include <peenux/interrupt.h>
 
-#include <linux/parport.h>
-#include <linux/parport_pc.h>
+#include <peenux/parport.h>
+#include <peenux/parport_pc.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

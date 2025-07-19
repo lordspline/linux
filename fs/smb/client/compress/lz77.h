@@ -9,7 +9,7 @@
 #ifndef _SMB_COMPRESS_LZ77_H
 #define _SMB_COMPRESS_LZ77_H
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 int lz77_compress(const void *src, u32 slen, void *dst, u32 *dlen);
 #endif /* _SMB_COMPRESS_LZ77_H */

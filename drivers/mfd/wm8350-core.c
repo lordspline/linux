@@ -7,25 +7,25 @@
  * Author: Liam Girdwood, Mark Brown
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/regmap.h>
+#include <peenux/workqueue.h>
 
-#include <linux/mfd/wm8350/core.h>
-#include <linux/mfd/wm8350/audio.h>
-#include <linux/mfd/wm8350/comparator.h>
-#include <linux/mfd/wm8350/gpio.h>
-#include <linux/mfd/wm8350/pmic.h>
-#include <linux/mfd/wm8350/rtc.h>
-#include <linux/mfd/wm8350/supply.h>
-#include <linux/mfd/wm8350/wdt.h>
+#include <peenux/mfd/wm8350/core.h>
+#include <peenux/mfd/wm8350/audio.h>
+#include <peenux/mfd/wm8350/comparator.h>
+#include <peenux/mfd/wm8350/gpio.h>
+#include <peenux/mfd/wm8350/pmic.h>
+#include <peenux/mfd/wm8350/rtc.h>
+#include <peenux/mfd/wm8350/supply.h>
+#include <peenux/mfd/wm8350/wdt.h>
 
 #define WM8350_CLOCK_CONTROL_1		0x28
 #define WM8350_AIF_TEST			0x74

@@ -6,16 +6,16 @@
  * Copyright (C) 2013 John Crispin <john@phrozen.org>
 */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/timer.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
 
 #include <asm/mach-ralink/ralink_regs.h>
 

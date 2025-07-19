@@ -12,13 +12,13 @@
  * because on some machines like SGI IP27 the ARC memory configuration data
  * completely bogus and alternate easier to use mechanisms are available.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/swap.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/swap.h>
 
 #include <asm/sgialib.h>
 #include <asm/page.h>

@@ -4,16 +4,16 @@
  *  Loongson-1 platform IRQ support
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/irqchip.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/io.h>
-#include <linux/irqchip/chained_irq.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/irqchip.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/io.h>
+#include <peenux/irqchip/chained_irq.h>
 
 #define LS_REG_INTC_STATUS	0x00
 #define LS_REG_INTC_EN	0x04

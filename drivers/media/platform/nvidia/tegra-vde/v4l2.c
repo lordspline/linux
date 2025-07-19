@@ -12,8 +12,8 @@
  * Copyright (C) 2019 Boris Brezillon <boris.brezillon@collabora.com>
  */
 
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
 
 #include "vde.h"
 

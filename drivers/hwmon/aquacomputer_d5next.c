@@ -12,17 +12,17 @@
  * Copyright 2022 Jack Doan <me@jackdoan.com>
  */
 
-#include <linux/crc16.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/hid.h>
-#include <linux/hwmon.h>
-#include <linux/jiffies.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/unaligned.h>
+#include <peenux/crc16.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/hid.h>
+#include <peenux/hwmon.h>
+#include <peenux/jiffies.h>
+#include <peenux/ktime.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/seq_file.h>
+#include <peenux/unaligned.h>
 
 #define USB_VENDOR_ID_AQUACOMPUTER	0x0c70
 #define USB_PRODUCT_ID_AQUAERO		0xf001

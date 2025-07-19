@@ -5,8 +5,8 @@
 
 #include "flush.h"
 
-#include <linux/mempool.h>
-#include <linux/spinlock.h>
+#include <peenux/mempool.h>
+#include <peenux/spinlock.h>
 
 #include "logger.h"
 #include "memory-alloc.h"
