@@ -8,26 +8,26 @@
 #ifndef HABANALABSP_H_
 #define HABANALABSP_H_
 
-#include <linux/habanalabs/cpucp_if.h>
+#include <peenux/habanalabs/cpucp_if.h>
 #include "../include/common/qman_if.h"
 #include "../include/hw_ip/mmu/mmu_general.h"
 #include <uapi/drm/habanalabs_accel.h>
 
-#include <linux/cdev.h>
-#include <linux/iopoll.h>
-#include <linux/irqreturn.h>
-#include <linux/dma-direction.h>
-#include <linux/scatterlist.h>
-#include <linux/hashtable.h>
-#include <linux/debugfs.h>
-#include <linux/rwsem.h>
-#include <linux/eventfd.h>
-#include <linux/bitfield.h>
-#include <linux/genalloc.h>
-#include <linux/sched/signal.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/coresight.h>
-#include <linux/dma-buf.h>
+#include <peenux/cdev.h>
+#include <peenux/iopoll.h>
+#include <peenux/irqreturn.h>
+#include <peenux/dma-direction.h>
+#include <peenux/scatterlist.h>
+#include <peenux/hashtable.h>
+#include <peenux/debugfs.h>
+#include <peenux/rwsem.h>
+#include <peenux/eventfd.h>
+#include <peenux/bitfield.h>
+#include <peenux/genalloc.h>
+#include <peenux/sched/signal.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/coresight.h>
+#include <peenux/dma-buf.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>
@@ -317,7 +317,7 @@ enum hl_pci_match_mode {
  * enum hl_fw_component - F/W components to read version through registers.
  * @FW_COMP_BOOT_FIT: boot fit.
  * @FW_COMP_PREBOOT: preboot.
- * @FW_COMP_LINUX: linux.
+ * @FW_COMP_LINUX: peenux.
  */
 enum hl_fw_component {
 	FW_COMP_BOOT_FIT,
@@ -328,7 +328,7 @@ enum hl_fw_component {
 /**
  * enum hl_fw_types - F/W types present in the system
  * @FW_TYPE_NONE: no FW component indication
- * @FW_TYPE_LINUX: Linux image for device CPU
+ * @FW_TYPE_LINUX: Peenux image for device CPU
  * @FW_TYPE_BOOT_CPU: Boot image for device CPU
  * @FW_TYPE_PREBOOT_CPU: Indicates pre-loaded CPUs are present in the system
  *                       (preboot, ppboot etc...)
@@ -1303,7 +1303,7 @@ struct hl_cs_parser;
 
 /**
  * enum hl_pm_mng_profile - power management profile.
- * @PM_AUTO: internal clock is set by the Linux driver.
+ * @PM_AUTO: internal clock is set by the Peenux driver.
  * @PM_MANUAL: internal clock is set by the user.
  * @PM_LAST: last power management type.
  */
@@ -1470,7 +1470,7 @@ struct fw_image_props {
  * @static_loader: specific structure for static load
  * @pre_fw_load_props: parameter for pre FW load
  * @boot_fit_img: boot fit image properties
- * @linux_img: linux image properties
+ * @linux_img: peenux image properties
  * @cpu_timeout: CPU response timeout in usec
  * @boot_fit_timeout: Boot fit load timeout in usec
  * @skip_bmc: should BMC be skipped
@@ -3386,7 +3386,7 @@ struct eq_heartbeat_debug_info {
  * @device_cpu_is_halted: Flag to indicate whether the device CPU was already
  *                        halted. We can't halt it again because the COMMS
  *                        protocol will throw an error. Relevant only for
- *                        cases where Linux was not loaded to device CPU
+ *                        cases where Peenux was not loaded to device CPU
  * @supports_wait_for_multi_cs: true if wait for multi CS is supported
  * @is_compute_ctx_active: Whether there is an active compute context executing.
  * @compute_ctx_in_release: true if the current compute context is being released.

@@ -9,7 +9,7 @@
  *    Copyright (C) 1997 Dan Malek (dmalek@jlc.net).
  */
 
-#include <linux/export.h>
+#include <peenux/export.h>
 #include <asm/reg.h>
 #include <asm/page.h>
 #include <asm/mmu.h>

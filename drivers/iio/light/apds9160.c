@@ -5,25 +5,25 @@
  * Author: 2024 Mikael Gonella-Bolduc <m.gonella.bolduc@gmail.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/events.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/sysfs.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define APDS9160_REGMAP_NAME "apds9160_regmap"
 

@@ -3,10 +3,10 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/of.h>
 
 #include "mt7921.h"
 #include "../mt76_connac2_mac.h"

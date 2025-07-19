@@ -14,13 +14,13 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/bitmap.h>
-#include <linux/build_bug.h>
-#include <linux/bug.h>
-#include <linux/cache.h>
-#include <linux/init.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/bitmap.h>
+#include <peenux/build_bug.h>
+#include <peenux/bug.h>
+#include <peenux/cache.h>
+#include <peenux/init.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 /* Masks for extracting the FPSR and FPCR from the FPSCR */
 #define VFP_FPSCR_STAT_MASK	0xf800009f

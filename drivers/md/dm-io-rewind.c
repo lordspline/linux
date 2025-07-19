@@ -3,9 +3,9 @@
  * Copyright 2022 Red Hat, Inc.
  */
 
-#include <linux/bio.h>
-#include <linux/blk-crypto.h>
-#include <linux/blk-integrity.h>
+#include <peenux/bio.h>
+#include <peenux/blk-crypto.h>
+#include <peenux/blk-integrity.h>
 
 #include "dm-core.h"
 

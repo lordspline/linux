@@ -3,14 +3,14 @@
  * Copyright (C) 2019 Spreadtrum Communications Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/math64.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/math64.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
 
 #define SPRD_PWM_PRESCALE	0x0
 #define SPRD_PWM_MOD		0x4

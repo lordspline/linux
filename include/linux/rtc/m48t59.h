@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * include/linux/rtc/m48t59.h
+ * include/peenux/rtc/m48t59.h
  *
  * Definitions for the platform data of m48t59 RTC chip driver.
  *

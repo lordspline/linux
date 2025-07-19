@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/cpufeature.h>
-#include <linux/set_memory.h>
-#include <linux/ptdump.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/sort.h>
-#include <linux/mm.h>
-#include <linux/kfence.h>
-#include <linux/kasan.h>
+#include <peenux/cpufeature.h>
+#include <peenux/set_memory.h>
+#include <peenux/ptdump.h>
+#include <peenux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/sort.h>
+#include <peenux/mm.h>
+#include <peenux/kfence.h>
+#include <peenux/kasan.h>
 #include <asm/kasan.h>
 #include <asm/abs_lowcore.h>
 #include <asm/nospec-branch.h>

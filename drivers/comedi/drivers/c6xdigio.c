@@ -4,7 +4,7 @@
  * Hardware driver for Mechatronic Systems Inc. C6x_DIGIO DSP daughter card.
  * http://web.archive.org/web/%2A/http://robot0.ge.uiuc.edu/~spong/mecha/
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Peenux Control and Measurement Device Interface
  * Copyright (C) 1999 Dan Block
  */
 
@@ -20,17 +20,17 @@
  *	[0] - base address
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/timex.h>
-#include <linux/timer.h>
-#include <linux/io.h>
-#include <linux/pnp.h>
-#include <linux/comedi/comedidev.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/timex.h>
+#include <peenux/timer.h>
+#include <peenux/io.h>
+#include <peenux/pnp.h>
+#include <peenux/comedi/comedidev.h>
 
 /*
  * Register I/O map

@@ -2,9 +2,9 @@
 /*
  * Copyright (C) 2014-2016 Pratyush Anand <panand@redhat.com>
  */
-#include <linux/highmem.h>
-#include <linux/ptrace.h>
-#include <linux/uprobes.h>
+#include <peenux/highmem.h>
+#include <peenux/ptrace.h>
+#include <peenux/uprobes.h>
 #include <asm/cacheflush.h>
 
 #include "decode-insn.h"

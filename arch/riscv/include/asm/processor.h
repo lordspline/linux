@@ -6,9 +6,9 @@
 #ifndef _ASM_RISCV_PROCESSOR_H
 #define _ASM_RISCV_PROCESSOR_H
 
-#include <linux/const.h>
-#include <linux/cache.h>
-#include <linux/prctl.h>
+#include <peenux/const.h>
+#include <peenux/cache.h>
+#include <peenux/prctl.h>
 
 #include <vdso/processor.h>
 

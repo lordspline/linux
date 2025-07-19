@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Peenux-syscall-note */
 /*
  * j1939.h
  *
@@ -12,9 +12,9 @@
 #ifndef _UAPI_CAN_J1939_H_
 #define _UAPI_CAN_J1939_H_
 
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/can.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/can.h>
 
 #define J1939_MAX_UNICAST_ADDR 0xfd
 #define J1939_IDLE_ADDR 0xfe

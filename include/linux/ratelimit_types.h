@@ -2,9 +2,9 @@
 #ifndef _LINUX_RATELIMIT_TYPES_H
 #define _LINUX_RATELIMIT_TYPES_H
 
-#include <linux/bits.h>
-#include <linux/param.h>
-#include <linux/spinlock_types_raw.h>
+#include <peenux/bits.h>
+#include <peenux/param.h>
+#include <peenux/spinlock_types_raw.h>
 
 #define DEFAULT_RATELIMIT_INTERVAL	(5 * HZ)
 #define DEFAULT_RATELIMIT_BURST		10

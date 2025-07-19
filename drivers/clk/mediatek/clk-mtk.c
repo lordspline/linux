@@ -4,17 +4,17 @@
  * Author: James Liao <jamesjj.liao@mediatek.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include "clk-mtk.h"
 #include "clk-gate.h"

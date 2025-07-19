@@ -3,11 +3,11 @@
  *  Implementation of operations over local quota file
  */
 
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/quota.h>
-#include <linux/quotaops.h>
-#include <linux/module.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/quota.h>
+#include <peenux/quotaops.h>
+#include <peenux/module.h>
 
 #include <cluster/masklog.h>
 

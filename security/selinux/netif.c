@@ -11,15 +11,15 @@
  * Copyright (C) 2007 Hewlett-Packard Development Company, L.P.
  *		      Paul Moore <paul@paul-moore.com>
  */
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/notifier.h>
-#include <linux/netdevice.h>
-#include <linux/rcupdate.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/notifier.h>
+#include <peenux/netdevice.h>
+#include <peenux/rcupdate.h>
 #include <net/net_namespace.h>
 
 #include "security.h"

@@ -21,28 +21,28 @@
 
 #define pr_fmt(fmt) "ipmi_si: " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/notifier.h>
-#include <linux/mutex.h>
-#include <linux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/timer.h>
+#include <peenux/errno.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/list.h>
+#include <peenux/notifier.h>
+#include <peenux/mutex.h>
+#include <peenux/kthread.h>
 #include <asm/irq.h>
-#include <linux/interrupt.h>
-#include <linux/rcupdate.h>
-#include <linux/ipmi.h>
-#include <linux/ipmi_smi.h>
+#include <peenux/interrupt.h>
+#include <peenux/rcupdate.h>
+#include <peenux/ipmi.h>
+#include <peenux/ipmi_smi.h>
 #include "ipmi_si.h"
 #include "ipmi_si_sm.h"
-#include <linux/string.h>
-#include <linux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
 
 /* Measure times between events in the driver. */
 #undef DEBUG_TIMING

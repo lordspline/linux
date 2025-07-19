@@ -3,8 +3,8 @@
 #define __PERF_BLOCK_RANGE_H
 
 #include <stdbool.h>
-#include <linux/rbtree.h>
-#include <linux/types.h>
+#include <peenux/rbtree.h>
+#include <peenux/types.h>
 
 struct symbol;
 

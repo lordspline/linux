@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/skbuff.h>
-#include <linux/netfilter.h>
-#include <linux/seq_file.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/skbuff.h>
+#include <peenux/netfilter.h>
+#include <peenux/seq_file.h>
 #include <net/protocol.h>
 #include <net/netfilter/nf_log.h>
 

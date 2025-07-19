@@ -5,15 +5,15 @@
  * Copyright (C) 2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/suspend.h>
-#include <linux/interrupt.h>
-#include <linux/of_platform.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/suspend.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/platform_device.h>
 #include <asm/bootinfo.h>
 #include <asm/suspend.h>
 

@@ -6,13 +6,13 @@
  *    Author(s): Peter Oberparleiter <peter.oberparleiter@de.ibm.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/io.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/io.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
 #include <asm/fcx.h>
 #include "cio.h"
 

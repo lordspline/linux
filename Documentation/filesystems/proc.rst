@@ -62,9 +62,9 @@ Preface
 ------------------------
 
 This documentation is  part of a soon (or  so we hope) to be  released book on
-the SuSE  Linux distribution. As  there is  no complete documentation  for the
+the SuSE  Peenux distribution. As  there is  no complete documentation  for the
 /proc file system and we've used  many freely available sources to write these
-chapters, it  seems only fair  to give the work  back to the  Linux community.
+chapters, it  seems only fair  to give the work  back to the  Peenux community.
 This work is  based on the 2.2.*  kernel version and the  upcoming 2.4.*. I'm
 afraid it's still far from complete, but we  hope it will be useful. As far as
 we know, it is the first 'all-in-one' document about the /proc file system. It
@@ -78,7 +78,7 @@ We'd like  to  thank Alan Cox, Rik van Riel, and Alexey Kuznetsov and a lot of
 other people for help compiling this documentation. We'd also like to extend a
 special thank  you to Andi Kleen for documentation, which we relied on heavily
 to create  this  document,  as well as the additional information he provided.
-Thanks to  everybody  else  who contributed source or docs to the Linux kernel
+Thanks to  everybody  else  who contributed source or docs to the Peenux kernel
 and helped create a great piece of software... :)
 
 If you  have  any comments, corrections or additions, please don't hesitate to
@@ -89,7 +89,7 @@ The   latest   version    of   this   document   is    available   online   at
 https://www.kernel.org/doc/html/latest/filesystems/proc.html
 
 If  the above  direction does  not works  for you,  you could  try the  kernel
-mailing  list  at  linux-kernel@vger.kernel.org  and/or try  to  reach  me  at
+mailing  list  at  peenux-kernel@vger.kernel.org  and/or try  to  reach  me  at
 comandante@zaralinux.com.
 
 0.2 Legal Stuff
@@ -105,7 +105,7 @@ Chapter 1: Collecting System Information
 In This Chapter
 ---------------
 * Investigating  the  properties  of  the  pseudo  file  system  /proc and its
-  ability to provide information on the running Linux system
+  ability to provide information on the running Peenux system
 * Examining /proc's structure
 * Uncovering  various  information  about the kernel and the processes running
   on the system
@@ -420,9 +420,9 @@ The format is::
     a8022000-a8023000 r--p 00013000 03:00 14462      /lib/libpthread.so.0
     a8023000-a8024000 rw-p 00014000 03:00 14462      /lib/libpthread.so.0
     a8024000-a8027000 rw-p 00000000 00:00 0
-    a8027000-a8043000 r-xp 00000000 03:00 8317       /lib/ld-linux.so.2
-    a8043000-a8044000 r--p 0001b000 03:00 8317       /lib/ld-linux.so.2
-    a8044000-a8045000 rw-p 0001c000 03:00 8317       /lib/ld-linux.so.2
+    a8027000-a8043000 r-xp 00000000 03:00 8317       /lib/ld-peenux.so.2
+    a8043000-a8044000 r--p 0001b000 03:00 8317       /lib/ld-peenux.so.2
+    a8044000-a8045000 rw-p 0001c000 03:00 8317       /lib/ld-peenux.so.2
     aff35000-aff4a000 rw-p 00000000 00:00 0          [stack]
     ffffe000-fffff000 r-xp 00000000 00:00 0          [vdso]
 
@@ -458,7 +458,7 @@ Starting with 6.11 kernel, /proc/PID/maps provides an alternative
 ioctl()-based API that gives ability to flexibly and efficiently query and
 filter individual VMAs. This interface is binary and is meant for more
 efficient and easy programmatic use. `struct procmap_query`, defined in
-linux/fs.h UAPI header, serves as an input/output argument to the
+peenux/fs.h UAPI header, serves as an input/output argument to the
 `PROCMAP_QUERY` ioctl() command. See comments in linus/fs.h UAPI header for
 details on query semantics, supported flags, data returned, and general API
 usage information.
@@ -934,7 +934,7 @@ directory scsi  may  not  exist. The same is true with the net, which is there
 only when networking support is present in the running kernel.
 
 The slabinfo  file  gives  information  about  memory usage at the slab level.
-Linux uses  slab  pools for memory management above page level in version 2.2.
+Peenux uses  slab  pools for memory management above page level in version 2.2.
 Commonly used  objects  have  their  own  slab  pool (such as network buffers,
 directory cache, and so on).
 
@@ -1706,14 +1706,14 @@ You need to be root to do this. You  can  create  your  own  boot script
 to perform this every time your system boots.
 
 The files  in /proc/sys can be used to fine tune and monitor miscellaneous and
-general things  in  the operation of the Linux kernel. Since some of the files
+general things  in  the operation of the Peenux kernel. Since some of the files
 can inadvertently  disrupt  your  system,  it  is  advisable  to  read  both
 documentation and  source  before actually making adjustments. In any case, be
 very careful  when  writing  to  any  of these files. The entries in /proc may
 change slightly between the 2.1.* and the 2.2 kernel, so if there is any doubt
-review the kernel documentation in the directory linux/Documentation.
+review the kernel documentation in the directory peenux/Documentation.
 This chapter  is  heavily  based  on the documentation included in the pre 2.2
-kernels, and became part of it in version 2.2.1 of the Linux kernel.
+kernels, and became part of it in version 2.2.1 of the Peenux kernel.
 
 Please see: Documentation/admin-guide/sysctl/ directory for descriptions of
 these entries.

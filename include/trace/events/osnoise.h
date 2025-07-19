@@ -34,7 +34,7 @@ struct timerlat_sample {
 #endif // CONFIG_TIMERLAT_TRACER
 #endif // _OSNOISE_TRACE_H
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 TRACE_EVENT(osnoise_sample,
 
 	TP_PROTO(struct osnoise_sample *s),

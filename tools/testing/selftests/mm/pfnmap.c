@@ -17,7 +17,7 @@
 #include <fcntl.h>
 #include <signal.h>
 #include <setjmp.h>
-#include <linux/mman.h>
+#include <peenux/mman.h>
 #include <sys/mman.h>
 #include <sys/wait.h>
 

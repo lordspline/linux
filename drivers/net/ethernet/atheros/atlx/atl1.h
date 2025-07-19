@@ -11,16 +11,16 @@
 #ifndef ATL1_H
 #define ATL1_H
 
-#include <linux/compiler.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/compiler.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_vlan.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #include "atlx.h"
 

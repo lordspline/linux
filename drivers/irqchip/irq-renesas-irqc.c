@@ -5,17 +5,17 @@
  *  Copyright (C) 2013 Magnus Damm
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
 
 #define IRQC_IRQ_MAX	32	/* maximum 32 interrupts per driver instance */
 

@@ -6,14 +6,14 @@
  * Copyright (C) 2018 Vadim Pasternak <vadimp@mellanox.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/module.h>
-#include <linux/platform_data/mlxreg.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/mlxreg.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 /* Attribute parameters. */
 #define MLXREG_IO_ATT_SIZE	10

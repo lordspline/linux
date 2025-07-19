@@ -26,18 +26,18 @@
  * sonic                                     _   _   _.
  * echo:  __________________________________/ \_/ \_/ \________________
  */
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 struct ping_cfg {
 	unsigned long	trigger_pulse_us;	/* length of trigger pulse */

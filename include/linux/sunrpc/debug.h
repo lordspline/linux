@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/linux/sunrpc/debug.h
+ * peenux/include/peenux/sunrpc/debug.h
  *
  * Debugging support for sunrpc module
  *
@@ -9,7 +9,7 @@
 #ifndef _LINUX_SUNRPC_DEBUG_H_
 #define _LINUX_SUNRPC_DEBUG_H_
 
-#include <uapi/linux/sunrpc/debug.h>
+#include <uapi/peenux/sunrpc/debug.h>
 
 /*
  * Debugging macros etc

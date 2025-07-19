@@ -9,15 +9,15 @@
 
 #define pr_fmt(fmt) "hw-breakpoint: " fmt
 
-#include <linux/compat.h>
-#include <linux/cpu_pm.h>
-#include <linux/errno.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/kprobes.h>
-#include <linux/perf_event.h>
-#include <linux/ptrace.h>
-#include <linux/smp.h>
-#include <linux/uaccess.h>
+#include <peenux/compat.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/errno.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/kprobes.h>
+#include <peenux/perf_event.h>
+#include <peenux/ptrace.h>
+#include <peenux/smp.h>
+#include <peenux/uaccess.h>
 
 #include <asm/current.h>
 #include <asm/debug-monitors.h>

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 
-/* Copyright (c) 2012-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012-2018, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2019-2024 Linaro Ltd.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/dma-direction.h>
+#include <peenux/types.h>
 
 #include "gsi.h"
 #include "gsi_trans.h"

@@ -6,11 +6,11 @@
  * Author: Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/cgbc.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/i2c.h>
+#include <peenux/iopoll.h>
+#include <peenux/mfd/cgbc.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #define CGBC_I2C_PRIMARY_BUS_ID	0
 #define CGBC_I2C_PM_BUS_ID	4

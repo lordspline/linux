@@ -11,10 +11,10 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
 #include "isp.h"
 #include "ispreg.h"

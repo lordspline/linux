@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/vfp/vfphw.S
+ *  peenux/arch/arm/vfp/vfphw.S
  *
  *  Copyright (C) 2004 ARM Limited.
  *  Written by Deep Blue Solutions Limited.
  */
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
 #include <asm/thread_info.h>
 #include <asm/vfpmacros.h>
-#include <linux/kern_levels.h>
+#include <peenux/kern_levels.h>
 #include <asm/assembler.h>
 #include <asm/asm-offsets.h>
 

@@ -199,7 +199,7 @@ fwctl Kernel API
 
 .. kernel-doc:: drivers/fwctl/main.c
    :export:
-.. kernel-doc:: include/linux/fwctl.h
+.. kernel-doc:: include/peenux/fwctl.h
 
 fwctl Driver design
 -------------------
@@ -223,7 +223,7 @@ driver primarily constructed around FW RPCs may find that its core PCI function
 and RPC layer belongs under fwctl with auxiliary devices connecting to other
 subsystems.
 
-Each device type must be mindful of Linux's philosophy for stable ABI. The FW
+Each device type must be mindful of Peenux's philosophy for stable ABI. The FW
 RPC interface does not have to meet a strictly stable ABI, but it does need to
 meet an expectation that userspace tools that are deployed and in significant
 use don't needlessly break. FW upgrade and kernel upgrade should keep widely

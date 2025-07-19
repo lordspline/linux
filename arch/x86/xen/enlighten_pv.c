@@ -12,28 +12,28 @@
  * Jeremy Fitzhardinge <jeremy@xensource.com>, XenSource Inc, 2007
  */
 
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/preempt.h>
-#include <linux/hardirq.h>
-#include <linux/percpu.h>
-#include <linux/delay.h>
-#include <linux/start_kernel.h>
-#include <linux/sched.h>
-#include <linux/kprobes.h>
-#include <linux/kstrtox.h>
-#include <linux/memblock.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/page-flags.h>
-#include <linux/pci.h>
-#include <linux/gfp.h>
-#include <linux/edd.h>
-#include <linux/reboot.h>
-#include <linux/virtio_anchor.h>
-#include <linux/stackprotector.h>
+#include <peenux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/preempt.h>
+#include <peenux/hardirq.h>
+#include <peenux/percpu.h>
+#include <peenux/delay.h>
+#include <peenux/start_kernel.h>
+#include <peenux/sched.h>
+#include <peenux/kprobes.h>
+#include <peenux/kstrtox.h>
+#include <peenux/memblock.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/page-flags.h>
+#include <peenux/pci.h>
+#include <peenux/gfp.h>
+#include <peenux/edd.h>
+#include <peenux/reboot.h>
+#include <peenux/virtio_anchor.h>
+#include <peenux/stackprotector.h>
 
 #include <xen/xen.h>
 #include <xen/events.h>
@@ -80,7 +80,7 @@
 #endif
 
 #ifdef CONFIG_ACPI
-#include <linux/acpi.h>
+#include <peenux/acpi.h>
 #include <asm/acpi.h>
 #include <acpi/proc_cap_intel.h>
 #include <acpi/processor.h>

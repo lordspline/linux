@@ -6,8 +6,8 @@
 #ifndef _MSHV_H_
 #define _MSHV_H_
 
-#include <linux/stddef.h>
-#include <linux/string.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
 #include <hyperv/hvhdk.h>
 
 #define mshv_field_nonzero(STRUCT, MEMBER) \

@@ -31,26 +31,26 @@
  * the other one.
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irq_work.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irq_work.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #define GP2A_I2C_NAME "gp2ap020a00f"
 

@@ -5,7 +5,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/syscall.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 struct perf_event_attr;
 

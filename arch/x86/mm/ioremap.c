@@ -7,18 +7,18 @@
  * (C) Copyright 1995 1996 Linus Torvalds
  */
 
-#include <linux/memblock.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/ioremap.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mmiotrace.h>
-#include <linux/cc_platform.h>
-#include <linux/efi.h>
-#include <linux/pgtable.h>
-#include <linux/kmsan.h>
+#include <peenux/memblock.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/ioremap.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mmiotrace.h>
+#include <peenux/cc_platform.h>
+#include <peenux/efi.h>
+#include <peenux/pgtable.h>
+#include <peenux/kmsan.h>
 
 #include <asm/set_memory.h>
 #include <asm/e820/api.h>

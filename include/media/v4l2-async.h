@@ -8,8 +8,8 @@
 #ifndef V4L2_ASYNC_H
 #define V4L2_ASYNC_H
 
-#include <linux/list.h>
-#include <linux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
 
 struct dentry;
 struct device;

@@ -5,14 +5,14 @@
  * Author: ChiYuan Huang <cy_huang@richtek.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #include "mt6370.h"
 

@@ -10,17 +10,17 @@
  * Author: Shadi Ammouri <shadi@marvell.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/resource.h>
-#include <linux/of_pci.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/resource.h>
+#include <peenux/of_pci.h>
 
 #include "pcie-designware.h"
 

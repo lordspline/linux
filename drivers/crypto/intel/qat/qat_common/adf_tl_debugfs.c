@@ -2,17 +2,17 @@
 /* Copyright (c) 2023 Intel Corporation. */
 #define dev_fmt(fmt) "Telemetry debugfs: " fmt
 
-#include <linux/atomic.h>
-#include <linux/debugfs.h>
-#include <linux/dev_printk.h>
-#include <linux/dcache.h>
-#include <linux/file.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <peenux/atomic.h>
+#include <peenux/debugfs.h>
+#include <peenux/dev_printk.h>
+#include <peenux/dcache.h>
+#include <peenux/file.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/mutex.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/units.h>
 
 #include "adf_accel_devices.h"
 #include "adf_cfg_strings.h"

@@ -4,25 +4,25 @@
  * Copyright (c) 2020, AngeloGioacchino Del Regno <angelogioacchino.delregno@somainline.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #define AW9523_MAX_FUNCS		2
 #define AW9523_NUM_PORTS		2

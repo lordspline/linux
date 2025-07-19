@@ -9,11 +9,11 @@
  * hashtables.
  */
 
-#include <linux/siphash.h>
-#include <linux/unaligned.h>
+#include <peenux/siphash.h>
+#include <peenux/unaligned.h>
 
 #if defined(CONFIG_DCACHE_WORD_ACCESS) && BITS_PER_LONG == 64
-#include <linux/dcache.h>
+#include <peenux/dcache.h>
 #include <asm/word-at-a-time.h>
 #endif
 

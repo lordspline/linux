@@ -5,16 +5,16 @@
  * Author: Anson Huang <Anson.Huang@nxp.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/thermal.h>
 
 #include "thermal_hwmon.h"
 

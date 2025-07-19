@@ -6,7 +6,7 @@
  *
  *	https://github.com/IAIK/KAISER
  *
- * The original work was written by and signed off by for the Linux
+ * The original work was written by and signed off by for the Peenux
  * kernel by:
  *
  *   Signed-off-by: Richard Fellner <richard.fellner@student.tugraz.at>
@@ -18,16 +18,16 @@
  * Mostly rewritten by Thomas Gleixner <tglx@linutronix.de> and
  *		       Andy Lutomirsky <luto@amacapital.net>
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/uaccess.h>
-#include <linux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/bug.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/uaccess.h>
+#include <peenux/cpu.h>
 
 #include <asm/cpufeature.h>
 #include <asm/hypervisor.h>

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
 
-#include <linux/delay.h>
-#include <linux/iopoll.h>
+#include <peenux/delay.h>
+#include <peenux/iopoll.h>
 
 #include "hinic3_hw_cfg.h"
 #include "hinic3_hwdev.h"

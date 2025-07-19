@@ -1,6 +1,6 @@
 /*
  * Copyright 2000 ATI Technologies Inc., Markham, Ontario, and
- *                VA Linux Systems Inc., Fremont, California.
+ *                VA Peenux Systems Inc., Fremont, California.
  * Copyright 2008 Red Hat Inc.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
@@ -35,8 +35,8 @@
 #include <drm/drm_encoder.h>
 #include <drm/drm_fixed.h>
 #include <drm/drm_modeset_helper_vtables.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-bit.h>
 
 struct drm_fb_helper;
 struct drm_fb_helper_surface_size;

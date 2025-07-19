@@ -5,25 +5,25 @@
  * Copyright (C) 2010 Intel Corporation <tony.luck@intel.com>
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/fsnotify.h>
-#include <linux/pagemap.h>
-#include <linux/highmem.h>
-#include <linux/time.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/ramfs.h>
-#include <linux/fs_parser.h>
-#include <linux/fs_context.h>
-#include <linux/sched.h>
-#include <linux/magic.h>
-#include <linux/pstore.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/cleanup.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/fsnotify.h>
+#include <peenux/pagemap.h>
+#include <peenux/highmem.h>
+#include <peenux/time.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/string.h>
+#include <peenux/seq_file.h>
+#include <peenux/ramfs.h>
+#include <peenux/fs_parser.h>
+#include <peenux/fs_context.h>
+#include <peenux/sched.h>
+#include <peenux/magic.h>
+#include <peenux/pstore.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/cleanup.h>
 
 #include "internal.h"
 

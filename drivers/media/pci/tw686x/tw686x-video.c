@@ -7,12 +7,12 @@
  * and Measurements PIAP
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-event.h>
 #include <media/videobuf2-dma-contig.h>

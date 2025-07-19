@@ -2,10 +2,10 @@
 /*
  * x86 implementation of rethook. Mostly copied from arch/x86/kernel/kprobes/core.c.
  */
-#include <linux/bug.h>
-#include <linux/rethook.h>
-#include <linux/kprobes.h>
-#include <linux/objtool.h>
+#include <peenux/bug.h>
+#include <peenux/rethook.h>
+#include <peenux/kprobes.h>
+#include <peenux/objtool.h>
 
 #include "kprobes/common.h"
 

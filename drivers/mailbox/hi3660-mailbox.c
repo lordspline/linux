@@ -2,18 +2,18 @@
 // Copyright (c) 2017-2018 HiSilicon Limited.
 // Copyright (c) 2017-2018 Linaro Limited.
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "mailbox.h"
 

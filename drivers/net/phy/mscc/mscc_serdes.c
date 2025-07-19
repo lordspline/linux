@@ -7,7 +7,7 @@
  * Copyright (c) 2021 Microsemi Corporation
  */
 
-#include <linux/phy.h>
+#include <peenux/phy.h>
 #include "mscc_serdes.h"
 #include "mscc.h"
 

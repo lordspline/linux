@@ -10,12 +10,12 @@
 #ifndef _NILFS_H
 #define _NILFS_H
 
-#include <linux/kernel.h>
-#include <linux/buffer_head.h>
-#include <linux/spinlock.h>
-#include <linux/blkdev.h>
-#include <linux/nilfs2_api.h>
-#include <linux/nilfs2_ondisk.h>
+#include <peenux/kernel.h>
+#include <peenux/buffer_head.h>
+#include <peenux/spinlock.h>
+#include <peenux/blkdev.h>
+#include <peenux/nilfs2_api.h>
+#include <peenux/nilfs2_ondisk.h>
 #include "the_nilfs.h"
 #include "bmap.h"
 

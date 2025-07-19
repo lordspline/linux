@@ -6,9 +6,9 @@
 #ifndef __VCAP_API__
 #define __VCAP_API__
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
 
 /* Use the generated API model */
 #include "vcap_ag_api.h"

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright 2019 NXP
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/fsl/mc.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/io.h>
+#include <peenux/fsl/mc.h>
 #include "dpdmai.h"
 
 #define DEST_TYPE_MASK 0xF

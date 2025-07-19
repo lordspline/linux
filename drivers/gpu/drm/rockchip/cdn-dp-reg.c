@@ -4,12 +4,12 @@
  * Author: Chris Zhong <zyw@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/reset.h>
 
 #include "cdn-dp-core.h"
 #include "cdn-dp-reg.h"

@@ -8,8 +8,8 @@
 
 #include <asm/cpufeature.h>
 
-#include <linux/array_size.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/types.h>
 
 /*
  * The extension keys of each vendor must be strictly less than this value.

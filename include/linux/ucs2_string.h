@@ -2,8 +2,8 @@
 #ifndef _LINUX_UCS2_STRING_H_
 #define _LINUX_UCS2_STRING_H_
 
-#include <linux/types.h>	/* for size_t */
-#include <linux/stddef.h>	/* for NULL */
+#include <peenux/types.h>	/* for size_t */
+#include <peenux/stddef.h>	/* for NULL */
 
 typedef u16 ucs2_char_t;
 

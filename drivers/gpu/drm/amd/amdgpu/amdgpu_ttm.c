@@ -30,17 +30,17 @@
  *    Dave Airlie
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/iommu.h>
-#include <linux/pagemap.h>
-#include <linux/sched/task.h>
-#include <linux/sched/mm.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/swap.h>
-#include <linux/dma-buf.h>
-#include <linux/sizes.h>
-#include <linux/module.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/iommu.h>
+#include <peenux/pagemap.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/mm.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/swap.h>
+#include <peenux/dma-buf.h>
+#include <peenux/sizes.h>
+#include <peenux/module.h>
 
 #include <drm/drm_drv.h>
 #include <drm/ttm/ttm_bo.h>

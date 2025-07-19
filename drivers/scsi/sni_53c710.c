@@ -13,18 +13,18 @@
  * Based on lasi700.c
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/mm.h>
-#include <linux/blkdev.h>
-#include <linux/sched.h>
-#include <linux/ioport.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/mm.h>
+#include <peenux/blkdev.h>
+#include <peenux/sched.h>
+#include <peenux/ioport.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
 
 #include <asm/page.h>
 #include <asm/irq.h>

@@ -5,17 +5,17 @@
  * Copyright (c) 2012 Trond Myklebust <Trond.Myklebust@netapp.com>
  *
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/bc_xprt.h>
-#include <linux/nfs.h>
-#include <linux/nfs4.h>
-#include <linux/nfs_fs.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/sunrpc/sched.h>
+#include <peenux/sunrpc/bc_xprt.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs4.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/module.h>
 
 #include "nfs4_fs.h"
 #include "internal.h"

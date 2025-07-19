@@ -10,26 +10,26 @@
  * Contact: Carlos Chinea <carlos.chinea@nokia.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/if_ether.h>
-#include <linux/if_arp.h>
-#include <linux/if_phonet.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/notifier.h>
-#include <linux/scatterlist.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/hsi/hsi.h>
-#include <linux/hsi/ssi_protocol.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_phonet.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/notifier.h>
+#include <peenux/scatterlist.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
+#include <peenux/hsi/hsi.h>
+#include <peenux/hsi/ssi_protocol.h>
 
 #define SSIP_TXQUEUE_LEN	100
 #define SSIP_MAX_MTU		65535

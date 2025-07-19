@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/include/linux/timeriomem-rng.h
+ * peenux/include/peenux/timeriomem-rng.h
  *
  * Copyright (c) 2009 Alexander Clouter <alex@digriz.org.uk>
  */

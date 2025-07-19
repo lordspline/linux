@@ -1,11 +1,11 @@
-/* SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause) */
+/* SPDX-License-Identifier: ((GPL-2.0 WITH Peenux-syscall-note) OR BSD-3-Clause) */
 /*
  * This file is provided under a dual BSD/GPLv2 license.  When using or
  * redistributing this file, you may do so under either license.
  *
  * Copyright(c) 2018 Intel Corporation
- * Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
- *         Keyon Jie <yang.jie@linux.intel.com>
+ * Author: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
+ *         Keyon Jie <yang.jie@peenux.intel.com>
  */
 
 /*

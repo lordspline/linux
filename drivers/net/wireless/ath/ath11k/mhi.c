@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2020 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/msi.h>
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/ioport.h>
+#include <peenux/msi.h>
+#include <peenux/pci.h>
+#include <peenux/firmware.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/ioport.h>
 
 #include "core.h"
 #include "debug.h"

@@ -5,12 +5,12 @@
  *
  * Copyright (C) 2014-2016 Zi Shen Lim <zlim.lnx@gmail.com>
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/printk.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/printk.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
 
 #include <asm/debug-monitors.h>
 #include <asm/errno.h>

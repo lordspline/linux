@@ -1,5 +1,5 @@
 /************************************************************************
- * s2io.c: A Linux PCI-X Ethernet driver for Neterion 10GbE Server NIC
+ * s2io.c: A Peenux PCI-X Ethernet driver for Neterion 10GbE Server NIC
  * Copyright(c) 2002-2010 Exar Corp.
  *
  * This software may be used and distributed according to the terms of
@@ -52,32 +52,32 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/mdio.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/stddef.h>
-#include <linux/ioctl.h>
-#include <linux/timex.h>
-#include <linux/ethtool.h>
-#include <linux/workqueue.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/slab.h>
-#include <linux/prefetch.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/mdio.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/stddef.h>
+#include <peenux/ioctl.h>
+#include <peenux/timex.h>
+#include <peenux/ethtool.h>
+#include <peenux/workqueue.h>
+#include <peenux/if_vlan.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/slab.h>
+#include <peenux/prefetch.h>
 #include <net/tcp.h>
 #include <net/checksum.h>
 

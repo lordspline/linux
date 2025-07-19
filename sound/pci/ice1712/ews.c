@@ -8,10 +8,10 @@
  *                    2002 Takashi Iwai <tiwai@suse.de>
  */      
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/cs8427.h>
 #include <sound/asoundef.h>

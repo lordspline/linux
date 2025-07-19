@@ -5,33 +5,33 @@
  * Copyright (c) 2014 Scott Feldman <sfeldma@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/spinlock.h>
-#include <linux/sort.h>
-#include <linux/random.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/if_bridge.h>
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/spinlock.h>
+#include <peenux/sort.h>
+#include <peenux/random.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/socket.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/if_bridge.h>
+#include <peenux/bitops.h>
+#include <peenux/ctype.h>
+#include <peenux/workqueue.h>
 #include <net/switchdev.h>
 #include <net/rtnetlink.h>
 #include <net/netevent.h>
 #include <net/arp.h>
 #include <net/fib_rules.h>
 #include <net/fib_notifier.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 
 #include "rocker_hw.h"
 #include "rocker.h"

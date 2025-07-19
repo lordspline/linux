@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: MIT
 
-#include <linux/aperture.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sysfb.h>
-#include <linux/types.h>
-#include <linux/vgaarb.h>
+#include <peenux/aperture.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/sysfb.h>
+#include <peenux/types.h>
+#include <peenux/vgaarb.h>
 
 #include <video/vga.h>
 

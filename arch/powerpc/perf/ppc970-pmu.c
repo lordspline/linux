@@ -4,8 +4,8 @@
  *
  * Copyright 2008-2009 Paul Mackerras, IBM Corporation.
  */
-#include <linux/string.h>
-#include <linux/perf_event.h>
+#include <peenux/string.h>
+#include <peenux/perf_event.h>
 #include <asm/reg.h>
 #include <asm/cputable.h>
 

@@ -3,7 +3,7 @@
 #ifndef GPIOLIB_CDEV_H
 #define GPIOLIB_CDEV_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct gpio_device;
 

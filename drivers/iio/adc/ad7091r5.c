@@ -5,10 +5,10 @@
  * Copyright 2014-2019 Analog Devices Inc.
  */
 
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #include "ad7091r-base.h"
 

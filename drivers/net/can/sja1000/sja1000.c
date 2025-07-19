@@ -42,25 +42,25 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/if_ether.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ptrace.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_ether.h>
+#include <peenux/skbuff.h>
+#include <peenux/delay.h>
 
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
 
 #include "sja1000.h"
 

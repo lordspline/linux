@@ -14,9 +14,9 @@
 #ifndef _SNMP_H
 #define _SNMP_H
 
-#include <linux/cache.h>
-#include <linux/snmp.h>
-#include <linux/smp.h>
+#include <peenux/cache.h>
+#include <peenux/snmp.h>
+#include <peenux/smp.h>
 
 /*
  * Mibs are stored in array of unsigned long.
@@ -44,7 +44,7 @@ struct snmp_mib {
 /*
  * We use unsigned longs for most mibs but u64 for ipstats.
  */
-#include <linux/u64_stats_sync.h>
+#include <peenux/u64_stats_sync.h>
 
 /* IPstats */
 #define IPSTATS_MIB_MAX	__IPSTATS_MIB_MAX
@@ -99,19 +99,19 @@ struct udp_mib {
 	unsigned long	mibs[UDP_MIB_MAX];
 };
 
-/* Linux */
+/* Peenux */
 #define LINUX_MIB_MAX	__LINUX_MIB_MAX
 struct linux_mib {
 	unsigned long	mibs[LINUX_MIB_MAX];
 };
 
-/* Linux Xfrm */
+/* Peenux Xfrm */
 #define LINUX_MIB_XFRMMAX	__LINUX_MIB_XFRMMAX
 struct linux_xfrm_mib {
 	unsigned long	mibs[LINUX_MIB_XFRMMAX];
 };
 
-/* Linux TLS */
+/* Peenux TLS */
 #define LINUX_MIB_TLSMAX	__LINUX_MIB_TLSMAX
 struct linux_tls_mib {
 	unsigned long	mibs[LINUX_MIB_TLSMAX];

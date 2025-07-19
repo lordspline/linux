@@ -5,11 +5,11 @@
  * Copyright (c) 2025 Leo Yang
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 #include "pmbus.h"
 
 #define MFR_READ_VSHUNT 0xd1

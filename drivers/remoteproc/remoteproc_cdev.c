@@ -2,16 +2,16 @@
 /*
  * Character device interface driver for Remoteproc framework.
  *
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/cdev.h>
-#include <linux/compat.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/remoteproc.h>
-#include <linux/uaccess.h>
-#include <uapi/linux/remoteproc_cdev.h>
+#include <peenux/cdev.h>
+#include <peenux/compat.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/remoteproc.h>
+#include <peenux/uaccess.h>
+#include <uapi/peenux/remoteproc_cdev.h>
 
 #include "remoteproc_internal.h"
 

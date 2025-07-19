@@ -7,21 +7,21 @@
  * Author: Tom Lendacky <thomas.lendacky@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/dma-mapping.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/ccp.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/ioport.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kthread.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/ccp.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/acpi.h>
 
 #include "ccp-dev.h"
 

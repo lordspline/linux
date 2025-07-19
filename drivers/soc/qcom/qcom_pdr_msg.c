@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2020 The Linux Foundation. All rights reserved.
+ * Copyright (C) 2020 The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/soc/qcom/qmi.h>
+#include <peenux/module.h>
+#include <peenux/soc/qcom/qmi.h>
 
 #include "pdr_internal.h"
 

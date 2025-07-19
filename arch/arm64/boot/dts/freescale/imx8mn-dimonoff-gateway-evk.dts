@@ -34,7 +34,7 @@
 		key-enter {
 			label = "enter";
 			gpios = <&gpio1 8 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_ENTER>;
+			peenux,code = <KEY_ENTER>;
 			wakeup-source;
 		};
 	};
@@ -46,7 +46,7 @@
 		pinctrl-0 = <&pinctrl_rotary>;
 		gpios = <&gpio5 12 GPIO_ACTIVE_LOW>, /* A */
 			<&gpio5 13 GPIO_ACTIVE_LOW>; /* B */
-		linux,axis = <0>; /* REL_X */
+		peenux,axis = <0>; /* REL_X */
 		rotary-encoder,encoding = "gray";
 		rotary-encoder,relative-axis;
 	};

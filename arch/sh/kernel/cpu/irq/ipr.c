@@ -13,13 +13,13 @@
  *	Hitachi SolutionEngine external I/O:
  *		MS7709SE01, MS7709ASE01, and MS7750SE01
  */
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/topology.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/topology.h>
 
 static inline struct ipr_desc *get_ipr_desc(struct irq_data *data)
 {

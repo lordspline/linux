@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/device.h>
-#include <linux/etherdevice.h>
-#include <linux/gpio/driver.h>
+#include <peenux/device.h>
+#include <peenux/etherdevice.h>
+#include <peenux/gpio/driver.h>
 
 /* The VSC7395 switch chips have 5+1 ports which means 5 ordinary ports and
  * a sixth CPU port facing the processor with an RGMII interface. These ports

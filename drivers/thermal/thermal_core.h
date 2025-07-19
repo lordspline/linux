@@ -9,9 +9,9 @@
 #ifndef __THERMAL_CORE_H__
 #define __THERMAL_CORE_H__
 
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/thermal.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/thermal.h>
 
 #include "thermal_netlink.h"
 #include "thermal_thresholds.h"

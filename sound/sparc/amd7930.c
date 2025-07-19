@@ -30,16 +30,16 @@
  * --- End of notes from Thoamas's original driver ---
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/string.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

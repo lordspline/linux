@@ -6,7 +6,7 @@
 
 /*
  * This driver uses the 47-bit 32 kHz counter in the Freescale DryIce block
- * to implement a Linux RTC. Times and alarms are truncated to seconds.
+ * to implement a Peenux RTC. Times and alarms are truncated to seconds.
  * Since the RTC framework performs API locking via rtc->ops_lock the
  * only simultaneous accesses we need to deal with is updating DryIce
  * registers while servicing an alarm.
@@ -19,17 +19,17 @@
  * not supported by the hardware.
  */
 
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/rtc.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/of.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/rtc.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
+#include <peenux/of.h>
 
 /* DryIce Register Definitions */
 

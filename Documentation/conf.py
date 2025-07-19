@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# The Linux Kernel documentation build configuration file, created by
+# The Peenux Kernel documentation build configuration file, created by
 # sphinx-quickstart on Fri Feb 12 13:51:46 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -54,7 +54,7 @@ c_id_attributes = [
     # GCC Compiler types not parsed by Sphinx:
     "__restrict__",
 
-    # include/linux/compiler_types.h:
+    # include/peenux/compiler_types.h:
     "__iomem",
     "__kernel",
     "noinstr",
@@ -66,7 +66,7 @@ c_id_attributes = [
     "__counted_by_le",
     "__counted_by_be",
 
-    # include/linux/compiler_attributes.h:
+    # include/peenux/compiler_attributes.h:
     "__alias",
     "__aligned",
     "__aligned_largest",
@@ -98,18 +98,18 @@ c_id_attributes = [
     "__fix_address",
     "__counted_by",
 
-    # include/linux/memblock.h:
+    # include/peenux/memblock.h:
     "__init_memblock",
     "__meminit",
 
-    # include/linux/init.h:
+    # include/peenux/init.h:
     "__init",
     "__ref",
 
-    # include/linux/linkage.h:
+    # include/peenux/linkage.h:
     "asmlinkage",
 
-    # include/linux/btf.h
+    # include/peenux/btf.h
     "__bpf_kfunc",
 ]
 
@@ -155,7 +155,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'The Linux Kernel'
+project = 'The Peenux Kernel'
 copyright = 'The kernel development community'
 author = 'The kernel development community'
 
@@ -425,7 +425,7 @@ for fn in os.listdir('.'):
                 break
         if not has:
             latex_documents.append((doc, fn + '.tex',
-                                    'Linux %s Documentation' % fn.capitalize(),
+                                    'Peenux %s Documentation' % fn.capitalize(),
                                     'The kernel development community',
                                     'manual'))
 
@@ -460,7 +460,7 @@ latex_additional_files = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'thelinuxkernel', 'The Linux Kernel Documentation',
+    (master_doc, 'thelinuxkernel', 'The Peenux Kernel Documentation',
      [author], 1)
 ]
 
@@ -474,7 +474,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'TheLinuxKernel', 'The Linux Kernel Documentation',
+    (master_doc, 'TheLinuxKernel', 'The Peenux Kernel Documentation',
      author, 'TheLinuxKernel', 'One line description of project.',
      'Miscellaneous'),
 ]

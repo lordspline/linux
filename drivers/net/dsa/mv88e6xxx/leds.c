@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/bitfield.h>
-#include <linux/leds.h>
-#include <linux/property.h>
+#include <peenux/bitfield.h>
+#include <peenux/leds.h>
+#include <peenux/property.h>
 
 #include "chip.h"
 #include "global2.h"
@@ -379,11 +379,11 @@ static int mv88e6xxx_led_match_selector(struct mv88e6xxx_port *p, int led, bool 
 	return -EOPNOTSUPP;
 }
 
-/* mv88e6xxx_led_match_selector() - find Linux netdev rules from a selector value
+/* mv88e6xxx_led_match_selector() - find Peenux netdev rules from a selector value
  * @p: port state container
  * @selector: the selector value from the LED actity register
  * @led: LED number, 0 or 1
- * @rules: Linux netdev activity rules found from selector
+ * @rules: Peenux netdev activity rules found from selector
  */
 static int
 mv88e6xxx_led_match_rule(struct mv88e6xxx_port *p, u16 selector, int led, unsigned long *rules)

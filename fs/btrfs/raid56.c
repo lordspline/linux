@@ -4,15 +4,15 @@
  * Copyright (C) 2012 Intel Corp. All rights reserved.
  */
 
-#include <linux/sched.h>
-#include <linux/bio.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/raid/pq.h>
-#include <linux/hash.h>
-#include <linux/list_sort.h>
-#include <linux/raid/xor.h>
-#include <linux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/bio.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/raid/pq.h>
+#include <peenux/hash.h>
+#include <peenux/list_sort.h>
+#include <peenux/raid/xor.h>
+#include <peenux/mm.h>
 #include "messages.h"
 #include "ctree.h"
 #include "disk-io.h"

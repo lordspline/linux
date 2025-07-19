@@ -7,12 +7,12 @@
 #ifndef __LINUX_BVEC_H
 #define __LINUX_BVEC_H
 
-#include <linux/highmem.h>
-#include <linux/bug.h>
-#include <linux/errno.h>
-#include <linux/limits.h>
-#include <linux/minmax.h>
-#include <linux/types.h>
+#include <peenux/highmem.h>
+#include <peenux/bug.h>
+#include <peenux/errno.h>
+#include <peenux/limits.h>
+#include <peenux/minmax.h>
+#include <peenux/types.h>
 
 struct page;
 

@@ -3,20 +3,20 @@
  *
  * Copyright (c) 2005 Petr Stehlik of ARAnyM dev team
  *
- * Reworked for Linux by Roman Zippel <zippel@linux-m68k.org>
+ * Reworked for Peenux by Roman Zippel <zippel@peenux-m68k.org>
  *
  * This software may be used and distributed according to the terms of
  * the GNU General Public License (GPL), incorporated herein by reference.
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/console.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/console.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/io.h>
 #include <asm/machdep.h>
 #include <asm/natfeat.h>
 

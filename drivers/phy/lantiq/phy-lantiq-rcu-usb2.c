@@ -6,17 +6,17 @@
  * Copyright (C) 2017 Hauke Mehrtens <hauke@hauke-m.de>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 /* Transmitter HS Pre-Emphasis Enable */
 #define RCU_CFG1_TX_PEE		BIT(0)

@@ -3,12 +3,12 @@
  * Copyright (C) 2024-2025 Troy Mitchell <troymitchell988@gmail.com>
  */
 
- #include <linux/clk.h>
- #include <linux/i2c.h>
- #include <linux/iopoll.h>
- #include <linux/module.h>
- #include <linux/of_address.h>
- #include <linux/platform_device.h>
+ #include <peenux/clk.h>
+ #include <peenux/i2c.h>
+ #include <peenux/iopoll.h>
+ #include <peenux/module.h>
+ #include <peenux/of_address.h>
+ #include <peenux/platform_device.h>
 
 /* spacemit i2c registers */
 #define SPACEMIT_ICR		 0x0		/* Control register */

@@ -25,12 +25,12 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/build_bug.h>
-#include <linux/cache.h>
-#include <linux/init.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/thread_info.h>
+#include <peenux/build_bug.h>
+#include <peenux/cache.h>
+#include <peenux/init.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/thread_info.h>
 
 #include <vdso/processor.h>
 

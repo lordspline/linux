@@ -4,7 +4,7 @@
  * Copyright (C) 2022 OpenSynergy GmbH
  */
 #include <sound/control.h>
-#include <linux/virtio_config.h>
+#include <peenux/virtio_config.h>
 
 #include "virtio_card.h"
 

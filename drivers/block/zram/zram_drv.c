@@ -15,25 +15,25 @@
 #define KMSG_COMPONENT "zram"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/bio.h>
-#include <linux/bitops.h>
-#include <linux/blkdev.h>
-#include <linux/buffer_head.h>
-#include <linux/device.h>
-#include <linux/highmem.h>
-#include <linux/slab.h>
-#include <linux/backing-dev.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
-#include <linux/err.h>
-#include <linux/idr.h>
-#include <linux/sysfs.h>
-#include <linux/debugfs.h>
-#include <linux/cpuhotplug.h>
-#include <linux/part_stat.h>
-#include <linux/kernel_read_file.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/bio.h>
+#include <peenux/bitops.h>
+#include <peenux/blkdev.h>
+#include <peenux/buffer_head.h>
+#include <peenux/device.h>
+#include <peenux/highmem.h>
+#include <peenux/slab.h>
+#include <peenux/backing-dev.h>
+#include <peenux/string.h>
+#include <peenux/vmalloc.h>
+#include <peenux/err.h>
+#include <peenux/idr.h>
+#include <peenux/sysfs.h>
+#include <peenux/debugfs.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/part_stat.h>
+#include <peenux/kernel_read_file.h>
 
 #include "zram_drv.h"
 

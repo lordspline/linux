@@ -8,8 +8,8 @@
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>
 #include <drm/gpu_scheduler.h>
-#include <linux/bitfield.h>
-#include <linux/iopoll.h>
+#include <peenux/bitfield.h>
+#include <peenux/iopoll.h>
 
 #include "aie2_pci.h"
 #include "amdxdna_mailbox.h"

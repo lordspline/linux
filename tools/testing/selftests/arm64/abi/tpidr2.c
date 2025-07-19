@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/sched.h>
-#include <linux/wait.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
 
 #define SYS_TPIDR2 "S3_3_C13_C0_5"
 

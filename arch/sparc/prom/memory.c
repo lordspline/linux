@@ -6,9 +6,9 @@
  * Copyright (C) 1997 Michael A. Griffith (grif@acm.org)
  */
 
-#include <linux/kernel.h>
-#include <linux/sort.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/sort.h>
+#include <peenux/init.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>

@@ -3,13 +3,13 @@
  * Copyright (C) 2024 Amlogic, Inc. All rights reserved
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-common.h>

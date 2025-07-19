@@ -5,23 +5,23 @@
  * Author: Li-hao Kuo <lhjeff911@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/mmc/core.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
 
 #define SPMMC_MIN_CLK			400000
 #define SPMMC_MAX_CLK			52000000

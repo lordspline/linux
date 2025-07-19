@@ -19,11 +19,11 @@
  * soft-reset, but it might be extended in the future.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
-#include <linux/reboot.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/of_address.h>
+#include <peenux/io.h>
+#include <peenux/reboot.h>
 #include "common.h"
 #include "mvebu-soc-id.h"
 #include "pmsu.h"

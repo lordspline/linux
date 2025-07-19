@@ -5,25 +5,25 @@
  * Copyright 2012-2013 Analog Devices Inc.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/gcd.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/err.h>
+#include <peenux/gcd.h>
+#include <peenux/gpio/consumer.h>
 #include <asm/div64.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/frequency/adf4350.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/frequency/adf4350.h>
 
 enum {
 	ADF4350_FREQ,

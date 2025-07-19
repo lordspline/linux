@@ -10,17 +10,17 @@
 
 #include "ssb_private.h"
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_regs.h>
-#include <linux/ssb/ssb_driver_gige.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/ssb/ssb.h>
+#include <peenux/ssb/ssb_regs.h>
+#include <peenux/ssb/ssb_driver_gige.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pci.h>
+#include <peenux/mmc/sdio_func.h>
+#include <peenux/slab.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

@@ -15,13 +15,13 @@
  * in the SOFTWARE may be the trademarks of their respective owners.
  */
 
-#include <linux/phy.h>
-#include <linux/mdio.h>
-#include <linux/clk.h>
-#include <linux/bitrev.h>
-#include <linux/crc32.h>
-#include <linux/crc32poly.h>
-#include <linux/dcbnl.h>
+#include <peenux/phy.h>
+#include <peenux/mdio.h>
+#include <peenux/clk.h>
+#include <peenux/bitrev.h>
+#include <peenux/crc32.h>
+#include <peenux/crc32poly.h>
+#include <peenux/dcbnl.h>
 
 #include "dwc-xlgmac.h"
 #include "dwc-xlgmac-reg.h"

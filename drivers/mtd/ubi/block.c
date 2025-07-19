@@ -27,19 +27,19 @@
  * UBI_IOCVOLCRBLK and UBI_IOCVOLRMBLK.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/mtd/ubi.h>
-#include <linux/blkdev.h>
-#include <linux/blk-mq.h>
-#include <linux/hdreg.h>
-#include <linux/scatterlist.h>
-#include <linux/idr.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/ubi.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-mq.h>
+#include <peenux/hdreg.h>
+#include <peenux/scatterlist.h>
+#include <peenux/idr.h>
 #include <asm/div64.h>
 
 #include "ubi-media.h"

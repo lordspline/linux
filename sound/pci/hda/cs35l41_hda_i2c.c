@@ -6,9 +6,9 @@
 //
 // Author: Lucas Tanure <tanureal@opensource.cirrus.com>
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
 
 #include "cs35l41_hda.h"
 

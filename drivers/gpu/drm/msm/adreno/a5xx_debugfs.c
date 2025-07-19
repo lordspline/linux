@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2016-2017 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2016-2017 The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/types.h>
-#include <linux/debugfs.h>
+#include <peenux/types.h>
+#include <peenux/debugfs.h>
 
 #include <drm/drm_debugfs.h>
 #include <drm/drm_file.h>

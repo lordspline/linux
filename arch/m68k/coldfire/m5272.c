@@ -10,13 +10,13 @@
 
 /***************************************************************************/
 
-#include <linux/clkdev.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
+#include <peenux/clkdev.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/phy.h>
+#include <peenux/phy_fixed.h>
 #include <asm/machdep.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>

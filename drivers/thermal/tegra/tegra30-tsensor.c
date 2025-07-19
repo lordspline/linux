@@ -9,22 +9,22 @@
  * Copyright (C) 2021 GRATE-DRIVER project
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/thermal.h>
+#include <peenux/types.h>
 
 #include <soc/tegra/fuse.h>
 

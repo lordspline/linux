@@ -6,8 +6,8 @@
  * are exposed through to BPF programs is explicitly unstable.
  */
 
-#include <linux/bpf.h>
-#include <linux/btf_ids.h>
+#include <peenux/bpf.h>
+#include <peenux/btf_ids.h>
 
 #include <net/dst_metadata.h>
 #include <net/xfrm.h>

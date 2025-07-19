@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * <linux/usb/gadget.h>
+ * <peenux/usb/gadget.h>
  *
- * We call the USB code inside a Linux-based peripheral device a "gadget"
+ * We call the USB code inside a Peenux-based peripheral device a "gadget"
  * driver, except for the hardware-specific bus glue.  One USB host can
  * talk to many USB gadgets, but the gadgets are only able to communicate
  * to one host.
@@ -15,16 +15,16 @@
 #ifndef __LINUX_USB_GADGET_H
 #define __LINUX_USB_GADGET_H
 
-#include <linux/configfs.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
-#include <linux/usb/ch9.h>
+#include <peenux/configfs.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/scatterlist.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
+#include <peenux/usb/ch9.h>
 
 #define UDC_TRACE_STR_MAX	512
 

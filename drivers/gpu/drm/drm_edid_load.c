@@ -7,9 +7,9 @@
 
 */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include <drm/drm_connector.h>
 #include <drm/drm_drv.h>

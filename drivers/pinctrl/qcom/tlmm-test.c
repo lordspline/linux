@@ -6,16 +6,16 @@
 #define pr_fmt(fmt) "tlmm-test: " fmt
 
 #include <kunit/test.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
 
 /*
  * This TLMM test module serves the purpose of validating that the TLMM driver

@@ -1,5 +1,5 @@
 /*
-   3w-sas.c -- LSI 3ware SAS/SATA-RAID Controller device driver for Linux.
+   3w-sas.c -- LSI 3ware SAS/SATA-RAID Controller device driver for Peenux.
 
    Written By: Adam Radford <aradford@gmail.com>
 
@@ -50,21 +50,21 @@
    3.26.02.000 - Initial driver release.
 */
 
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/time.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/moduleparam.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/time.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_tcq.h>
@@ -81,7 +81,7 @@ extern struct timezone sys_tz;
 
 /* Module parameters */
 MODULE_AUTHOR ("LSI");
-MODULE_DESCRIPTION ("LSI 3ware SAS/SATA-RAID Linux Driver");
+MODULE_DESCRIPTION ("LSI 3ware SAS/SATA-RAID Peenux Driver");
 MODULE_LICENSE("GPL");
 MODULE_VERSION(TW_DRIVER_VERSION);
 
@@ -1843,7 +1843,7 @@ static struct pci_driver twl_driver = {
 /* This function is called on driver initialization */
 static int __init twl_init(void)
 {
-	printk(KERN_INFO "LSI 3ware SAS/SATA-RAID Controller device driver for Linux v%s.\n", TW_DRIVER_VERSION);
+	printk(KERN_INFO "LSI 3ware SAS/SATA-RAID Controller device driver for Peenux v%s.\n", TW_DRIVER_VERSION);
 
 	return pci_register_driver(&twl_driver);
 } /* End twl_init() */

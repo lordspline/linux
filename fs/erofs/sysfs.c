@@ -3,8 +3,8 @@
  * Copyright (C), 2008-2021, OPPO Mobile Comm Corp., Ltd.
  *             https://www.oppo.com/
  */
-#include <linux/sysfs.h>
-#include <linux/kobject.h>
+#include <peenux/sysfs.h>
+#include <peenux/kobject.h>
 
 #include "internal.h"
 #include "compress.h"

@@ -2,14 +2,14 @@
 /*
  * Stacktrace support for Hexagon
  *
- * Copyright (c) 2010-2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
-#include <linux/thread_info.h>
-#include <linux/module.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/stacktrace.h>
+#include <peenux/thread_info.h>
+#include <peenux/module.h>
 
 struct stackframe {
 	unsigned long fp;

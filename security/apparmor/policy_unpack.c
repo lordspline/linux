@@ -13,11 +13,11 @@
  * All policy is validated before it is used.
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <kunit/visibility.h>
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/zstd.h>
+#include <peenux/ctype.h>
+#include <peenux/errno.h>
+#include <peenux/zstd.h>
 
 #include "include/apparmor.h"
 #include "include/audit.h"

@@ -8,10 +8,10 @@
 #include <string.h>
 #include <dirent.h>
 #include <subcmd/exec-cmd.h>
-#include <linux/zalloc.h>
-#include <linux/build_bug.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/zalloc.h>
+#include <peenux/build_bug.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 
 #include "debug.h"
 #include "event.h"

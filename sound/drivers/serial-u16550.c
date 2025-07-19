@@ -17,20 +17,20 @@
  *      More documentation can be found in serial-u16550.txt.
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
 #include <sound/core.h>
 #include <sound/rawmidi.h>
 #include <sound/initval.h>
 
-#include <linux/serial_reg.h>
-#include <linux/jiffies.h>
+#include <peenux/serial_reg.h>
+#include <peenux/jiffies.h>
 
 MODULE_DESCRIPTION("MIDI serial u16550");
 MODULE_LICENSE("GPL");

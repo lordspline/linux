@@ -24,14 +24,14 @@
 
 #define pr_fmt(fmt) "blk-crypto: " fmt
 
-#include <linux/blk-crypto-profile.h>
-#include <linux/device.h>
-#include <linux/atomic.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/wait.h>
-#include <linux/blkdev.h>
-#include <linux/blk-integrity.h>
+#include <peenux/blk-crypto-profile.h>
+#include <peenux/device.h>
+#include <peenux/atomic.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/wait.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-integrity.h>
 #include "blk-crypto-internal.h"
 
 struct blk_crypto_keyslot {

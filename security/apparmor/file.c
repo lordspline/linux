@@ -8,11 +8,11 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/tty.h>
-#include <linux/fdtable.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
+#include <peenux/tty.h>
+#include <peenux/fdtable.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
 
 #include "include/apparmor.h"
 #include "include/audit.h"

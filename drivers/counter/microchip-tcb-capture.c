@@ -4,17 +4,17 @@
  *
  * Author: Kamel Bouhara <kamel.bouhara@bootlin.com>
  */
-#include <linux/clk.h>
-#include <linux/counter.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <uapi/linux/counter/microchip-tcb-capture.h>
+#include <peenux/clk.h>
+#include <peenux/counter.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <uapi/peenux/counter/microchip-tcb-capture.h>
 #include <soc/at91/atmel_tcb.h>
 
 #define ATMEL_TC_CMR_MASK	(ATMEL_TC_LDRA_RISING | ATMEL_TC_LDRB_FALLING | \

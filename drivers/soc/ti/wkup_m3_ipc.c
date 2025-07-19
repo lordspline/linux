@@ -7,19 +7,19 @@
  * Dave Gerlach <d-gerlach@ti.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
-#include <linux/suspend.h>
-#include <linux/wkup_m3_ipc.h>
+#include <peenux/debugfs.h>
+#include <peenux/err.h>
+#include <peenux/firmware.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/remoteproc.h>
+#include <peenux/suspend.h>
+#include <peenux/wkup_m3_ipc.h>
 
 #define AM33XX_CTRL_IPC_REG_COUNT	0x8
 #define AM33XX_CTRL_IPC_REG_OFFSET(m)	(0x4 + 4 * (m))

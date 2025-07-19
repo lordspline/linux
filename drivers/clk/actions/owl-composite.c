@@ -8,8 +8,8 @@
 // Copyright (c) 2018 Linaro Ltd.
 // Author: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>
 
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
 
 #include "owl-composite.h"
 

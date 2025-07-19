@@ -7,24 +7,24 @@
  *
  * (c) Copyright 2010-2013 Datera, Inc.
  *
- * Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Nicholas A. Bellinger <nab@peenux-iscsi.org>
 *
  ****************************************************************************/
 
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/utsname.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/unistd.h>
-#include <linux/string.h>
-#include <linux/syscalls.h>
-#include <linux/configfs.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/utsname.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/unistd.h>
+#include <peenux/string.h>
+#include <peenux/syscalls.h>
+#include <peenux/configfs.h>
 
 #include <target/target_core_base.h>
 #include <target/target_core_backend.h>

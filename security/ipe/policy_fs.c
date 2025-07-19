@@ -2,11 +2,11 @@
 /*
  * Copyright (C) 2020-2024 Microsoft Corporation. All rights reserved.
  */
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/types.h>
-#include <linux/dcache.h>
-#include <linux/security.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/types.h>
+#include <peenux/dcache.h>
+#include <peenux/security.h>
 
 #include "ipe.h"
 #include "policy.h"

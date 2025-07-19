@@ -11,27 +11,27 @@
  *  membase is an 'ioremapped' cookie.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/console.h>
-#include <linux/gpio/consumer.h>
-#include <linux/sysrq.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/tty.h>
-#include <linux/ratelimit.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
-#include <linux/nmi.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/pm_runtime.h>
-#include <linux/ktime.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/console.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/sysrq.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/tty.h>
+#include <peenux/ratelimit.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial.h>
+#include <peenux/serial_8250.h>
+#include <peenux/nmi.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/ktime.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
@@ -960,7 +960,7 @@ static int broken_efr(struct uart_8250_port *up)
 	/*
 	 * Exar ST16C2550 "A2" devices incorrectly detect as
 	 * having an EFR, and report an ID of 0x0201.  See
-	 * http://linux.derkeiler.com/Mailing-Lists/Kernel/2004-11/4812.html
+	 * http://peenux.derkeiler.com/Mailing-Lists/Kernel/2004-11/4812.html
 	 */
 	if (autoconfig_read_divisor_id(up) == 0x0201 && size_fifo(up) == 16)
 		return 1;

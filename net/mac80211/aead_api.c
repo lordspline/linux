@@ -7,10 +7,10 @@
  * Rewrite: Copyright (C) 2013 Linaro Ltd <ard.biesheuvel@linaro.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/scatterlist.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
+#include <peenux/scatterlist.h>
 #include <crypto/aead.h>
 
 #include "aead_api.h"

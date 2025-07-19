@@ -10,9 +10,9 @@
 #include <errno.h>
 #include <error.h>
 #include <fcntl.h>
-#include <linux/bpf.h>
-#include <linux/filter.h>
-#include <linux/unistd.h>
+#include <peenux/bpf.h>
+#include <peenux/filter.h>
+#include <peenux/unistd.h>
 #include <netinet/in.h>
 #include <netinet/tcp.h>
 #include <stdio.h>

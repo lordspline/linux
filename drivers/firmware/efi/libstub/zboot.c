@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/efi.h>
-#include <linux/pe.h>
+#include <peenux/efi.h>
+#include <peenux/pe.h>
 #include <asm/efi.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "efistub.h"
 
@@ -52,7 +52,7 @@ efi_zboot_entry(efi_handle_t handle, efi_system_table_t *systab)
 	if (status != EFI_SUCCESS)
 		return status;
 
-	efi_info("Decompressing Linux Kernel...\n");
+	efi_info("Decompressing Peenux Kernel...\n");
 
 	status = efi_zboot_decompress_init(&alloc_size);
 	if (status != EFI_SUCCESS)

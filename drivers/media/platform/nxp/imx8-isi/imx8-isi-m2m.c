@@ -8,19 +8,19 @@
  * Copyright (c) 2019 NXP Semiconductor
  */
 
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/minmax.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/limits.h>
+#include <peenux/minmax.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/videodev2.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-ctrls.h>

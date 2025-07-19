@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2007 ARM Limited
  */
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/log2.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/cpu.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/log2.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cp15.h>
@@ -1349,7 +1349,7 @@ static const struct l2c_init_data of_l2c310_coherent_data __initconst = {
 };
 
 /*
- * Note that the end addresses passed to Linux primitives are
+ * Note that the end addresses passed to Peenux primitives are
  * noninclusive, while the hardware cache range operations use
  * inclusive start and end addresses.
  */

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: ISC
 /* Copyright (C) 2020 MediaTek Inc. */
 
-#include <linux/devcoredump.h>
-#include <linux/etherdevice.h>
-#include <linux/timekeeping.h>
+#include <peenux/devcoredump.h>
+#include <peenux/etherdevice.h>
+#include <peenux/timekeeping.h>
 #include "mt7921.h"
 #include "../dma.h"
 #include "../mt76_connac2_mac.h"

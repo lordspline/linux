@@ -36,7 +36,7 @@
 
 		button-maskrom {
 			label = "Maskrom";
-			linux,code = <KEY_SETUP>;
+			peenux,code = <KEY_SETUP>;
 			press-threshold-microvolt = <17000>;
 		};
 	};
@@ -50,7 +50,7 @@
 
 		button-recovery {
 			label = "Recovery";
-			linux,code = <KEY_VENDOR>;
+			peenux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <17000>;
 		};
 	};

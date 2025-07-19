@@ -8,18 +8,18 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
+#include <peenux/bitfield.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/err.h>
+#include <peenux/iopoll.h>
 
 #define WZRD_NUM_OUTPUTS	7
 #define WZRD_ACLK_MAX_FREQ	250000000UL

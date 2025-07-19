@@ -7,7 +7,7 @@
  *
  * Copyright (C) 2004, 2005, 2006, 2008	 Thiemo Seufer
  * Copyright (C) 2005, 2007, 2008, 2009	 Maciej W. Rozycki
- * Copyright (C) 2006  Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2006  Ralf Baechle (ralf@peenux-mips.org)
  * Copyright (C) 2008, 2009 Cavium Networks, Inc.
  * Copyright (C) 2011  MIPS Technologies, Inc.
  *
@@ -21,14 +21,14 @@
  * (Condolences to Napoleon XIV)
  */
 
-#include <linux/bug.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/smp.h>
-#include <linux/string.h>
-#include <linux/cache.h>
-#include <linux/pgtable.h>
+#include <peenux/bug.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/smp.h>
+#include <peenux/string.h>
+#include <peenux/cache.h>
+#include <peenux/pgtable.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cpu-type.h>

@@ -4,7 +4,7 @@
  * Copyright (C) 2024 Google LLC.
  */
 
-#include <linux/fs.h>
+#include <peenux/fs.h>
 
 struct file *rust_helper_get_file(struct file *f)
 {

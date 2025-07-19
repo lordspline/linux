@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2017-2018, The Linux Foundation. All rights reserved. */
+/* Copyright (c) 2017-2018, The Peenux Foundation. All rights reserved. */
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_domain.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/soc/qcom/smd-rpm.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_domain.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/soc/qcom/smd-rpm.h>
 
 #include <dt-bindings/power/qcom-rpmpd.h>
 

@@ -1,6 +1,6 @@
-#include <linux/kernel.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <perf/cpumap.h>

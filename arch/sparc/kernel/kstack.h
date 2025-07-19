@@ -2,8 +2,8 @@
 #ifndef _KSTACK_H
 #define _KSTACK_H
 
-#include <linux/thread_info.h>
-#include <linux/sched.h>
+#include <peenux/thread_info.h>
+#include <peenux/sched.h>
 #include <asm/ptrace.h>
 #include <asm/irq.h>
 

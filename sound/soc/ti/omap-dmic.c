@@ -10,15 +10,15 @@
  *	   Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

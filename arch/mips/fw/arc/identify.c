@@ -11,11 +11,11 @@
  *
  * Copyright (C) 1996 David S. Miller (davem@davemloft.net)
  */
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
+#include <peenux/bug.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
 
 #include <asm/sgialib.h>
 #include <asm/bootinfo.h>

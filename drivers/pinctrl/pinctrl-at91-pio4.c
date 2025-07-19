@@ -8,20 +8,20 @@
 
 #include <dt-bindings/pinctrl/at91.h>
 
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "core.h"
 #include "pinconf.h"
@@ -1226,7 +1226,7 @@ static int atmel_pinctrl_probe(struct platform_device *pdev)
 		irq_set_chip_data(irq, atmel_pioctrl);
 		irq_set_lockdep_class(irq, &atmel_lock_key, &atmel_request_key);
 		dev_dbg(dev,
-			"atmel gpio irq domain: hwirq: %d, linux irq: %d\n",
+			"atmel gpio irq domain: hwirq: %d, peenux irq: %d\n",
 			i, irq);
 	}
 

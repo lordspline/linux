@@ -3,12 +3,12 @@
  * Copyright (C) 2020 SiFive
  */
 
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/memory.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/stop_machine.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/memory.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
+#include <peenux/stop_machine.h>
 #include <asm/kprobes.h>
 #include <asm/cacheflush.h>
 #include <asm/fixmap.h>

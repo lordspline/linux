@@ -13,8 +13,8 @@
 #include <ucontext.h>
 #include <sys/mman.h>
 
-#include <linux/mman.h>
-#include <linux/types.h>
+#include <peenux/mman.h>
+#include <peenux/types.h>
 
 #include "../kselftest.h"
 

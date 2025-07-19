@@ -5,11 +5,11 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
 
 static int __init memchunk_setup(char *str)
 {

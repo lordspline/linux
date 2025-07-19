@@ -2,17 +2,17 @@
 // Copyright (C) 2022-2024 Arm Limited
 // NI-700 Network-on-Chip PMU driver
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/bitfield.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 /* Common registers */
 #define NI_NODE_TYPE		0x000

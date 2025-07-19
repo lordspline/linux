@@ -7,16 +7,16 @@
  * Driver layout based loosely on tgafb.c, see that file for credits.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/fb.h>
-#include <linux/mm.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/fb.h>
+#include <peenux/mm.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/fbio.h>

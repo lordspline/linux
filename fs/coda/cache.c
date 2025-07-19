@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Cache operations for Coda.
- * For Linux 2.1: (C) 1997 Carnegie Mellon University
- * For Linux 2.3: (C) 2000 Carnegie Mellon University
+ * For Peenux 2.1: (C) 1997 Carnegie Mellon University
+ * For Peenux 2.3: (C) 2000 Carnegie Mellon University
  *
  * Carnegie Mellon encourages users of this code to contribute improvements
  * to the Coda project http://www.coda.cs.cmu.edu/ <coda@cs.cmu.edu>.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/uaccess.h>
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/time.h>
+#include <peenux/fs.h>
+#include <peenux/stat.h>
+#include <peenux/errno.h>
+#include <peenux/uaccess.h>
+#include <peenux/string.h>
+#include <peenux/list.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
 
-#include <linux/coda.h>
+#include <peenux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 #include "coda_cache.h"

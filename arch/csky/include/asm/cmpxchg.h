@@ -4,9 +4,9 @@
 #define __ASM_CSKY_CMPXCHG_H
 
 #ifdef CONFIG_SMP
-#include <linux/bug.h>
+#include <peenux/bug.h>
 #include <asm/barrier.h>
-#include <linux/cmpxchg-emu.h>
+#include <peenux/cmpxchg-emu.h>
 
 #define __xchg_relaxed(new, ptr, size)				\
 ({								\

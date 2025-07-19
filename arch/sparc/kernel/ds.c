@@ -4,18 +4,18 @@
  * Copyright (C) 2007, 2008 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/kthread.h>
-#include <linux/reboot.h>
-#include <linux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/kthread.h>
+#include <peenux/reboot.h>
+#include <peenux/cpu.h>
 
 #include <asm/hypervisor.h>
 #include <asm/ldc.h>

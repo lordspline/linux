@@ -5,11 +5,11 @@
  * Influenced by arch/arm64/lib/csum.c
  * Copyright (C) 2023-2024 Rivos Inc.
  */
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/jump_label.h>
-#include <linux/kasan-checks.h>
-#include <linux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/compiler.h>
+#include <peenux/jump_label.h>
+#include <peenux/kasan-checks.h>
+#include <peenux/kernel.h>
 
 #include <asm/cpufeature.h>
 

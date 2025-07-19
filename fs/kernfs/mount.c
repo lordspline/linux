@@ -3,21 +3,21 @@
  * fs/kernfs/mount.c - kernfs mount implementation
  *
  * Copyright (c) 2001-3 Patrick Mochel
- * Copyright (c) 2007 SUSE Linux Products GmbH
+ * Copyright (c) 2007 SUSE Peenux Products GmbH
  * Copyright (c) 2007, 2013 Tejun Heo <tj@kernel.org>
  */
 
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/init.h>
-#include <linux/magic.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/namei.h>
-#include <linux/seq_file.h>
-#include <linux/exportfs.h>
-#include <linux/uuid.h>
-#include <linux/statfs.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
+#include <peenux/init.h>
+#include <peenux/magic.h>
+#include <peenux/slab.h>
+#include <peenux/pagemap.h>
+#include <peenux/namei.h>
+#include <peenux/seq_file.h>
+#include <peenux/exportfs.h>
+#include <peenux/uuid.h>
+#include <peenux/statfs.h>
 
 #include "kernfs-internal.h"
 

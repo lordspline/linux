@@ -5,15 +5,15 @@
  * Copyright (c) 2021 Xilinx, Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/firmware/xlnx-zynqmp.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/firmware/xlnx-zynqmp.h>
 
 /* 4-bit boot mode pins */
 #define MODE_PINS			4

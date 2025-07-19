@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/dma-direct.h>
-#include <linux/init.h>
-#include <linux/swiotlb.h>
+#include <peenux/dma-direct.h>
+#include <peenux/init.h>
+#include <peenux/swiotlb.h>
 #include <asm/bootinfo.h>
 #include <boot_param.h>
 

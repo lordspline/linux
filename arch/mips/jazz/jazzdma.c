@@ -8,19 +8,19 @@
  * on failure of vdma_alloc() one could leave page #0 unused
  * and return the more usual NULL pointer as logical address.
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/spinlock.h>
-#include <linux/gfp.h>
-#include <linux/dma-map-ops.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/spinlock.h>
+#include <peenux/gfp.h>
+#include <peenux/dma-map-ops.h>
 #include <asm/mipsregs.h>
 #include <asm/jazz.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/dma.h>
 #include <asm/jazzdma.h>
 

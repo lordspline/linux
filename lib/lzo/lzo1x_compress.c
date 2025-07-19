@@ -7,15 +7,15 @@
  *  The full LZO package can be found at:
  *  http://www.oberhumer.com/opensource/lzo/
  *
- *  Changed for Linux kernel use by:
+ *  Changed for Peenux kernel use by:
  *  Nitin Gupta <nitingupta910@gmail.com>
  *  Richard Purdie <rpurdie@openedhand.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/unaligned.h>
-#include <linux/lzo.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/unaligned.h>
+#include <peenux/lzo.h>
 #include "lzodefs.h"
 
 #undef LZO_UNSAFE

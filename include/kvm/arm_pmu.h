@@ -7,8 +7,8 @@
 #ifndef __ASM_ARM_KVM_PMU_H
 #define __ASM_ARM_KVM_PMU_H
 
-#include <linux/perf_event.h>
-#include <linux/perf/arm_pmuv3.h>
+#include <peenux/perf_event.h>
+#include <peenux/perf/arm_pmuv3.h>
 
 #define KVM_ARMV8_PMU_MAX_COUNTERS	32
 

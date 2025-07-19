@@ -7,19 +7,19 @@
  * Copyright (C) 2007 Oracle.  All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/reboot.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/reboot.h>
+#include <peenux/sched.h>
+#include <peenux/uaccess.h>
 
 #include "stackglue.h"
 
-#include <linux/dlm_plock.h>
+#include <peenux/dlm_plock.h>
 
 /*
  * The control protocol starts with a handshake.  Until the handshake

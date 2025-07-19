@@ -2,10 +2,10 @@
 #ifndef _ASM_GENERIC_SIMD_H
 #define _ASM_GENERIC_SIMD_H
 
-#include <linux/compiler_attributes.h>
-#include <linux/preempt.h>
-#include <linux/sched.h>
-#include <linux/types.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/preempt.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
 
 /*
  * may_use_simd - whether it is allowable at this time to issue SIMD

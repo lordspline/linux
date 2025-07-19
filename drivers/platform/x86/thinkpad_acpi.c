@@ -34,43 +34,43 @@
  *			    thanks to Chris Wright <chrisw@osdl.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/freezer.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/leds.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nvram.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/platform_profile.h>
-#include <linux/power_supply.h>
-#include <linux/proc_fs.h>
-#include <linux/rfkill.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/string_helpers.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/units.h>
-#include <linux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/backlight.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/freezer.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/leds.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nvram.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_profile.h>
+#include <peenux/power_supply.h>
+#include <peenux/proc_fs.h>
+#include <peenux/rfkill.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/string_helpers.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/units.h>
+#include <peenux/workqueue.h>
 
 #include <acpi/battery.h>
 #include <acpi/video.h>
@@ -1502,7 +1502,7 @@ static DRIVER_ATTR_RW(uwb_emulstate);
  *    1. Stable BIOS, listed because the unknown amount of
  *       bugs and bad ACPI behaviour on older versions
  *
- *    2. BIOS or EC fw with known bugs that trigger on Linux
+ *    2. BIOS or EC fw with known bugs that trigger on Peenux
  *
  *    3. BIOS with known reduced functionality in older versions
  *

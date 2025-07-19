@@ -8,12 +8,12 @@
  * Qualcomm QCA8072 and QCA8075 PHY driver
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/bitfield.h>
-#include <linux/gpio/driver.h>
-#include <linux/sfp.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy.h>
+#include <peenux/bitfield.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/sfp.h>
 
 #include "../phylib.h"
 #include "qcom.h"

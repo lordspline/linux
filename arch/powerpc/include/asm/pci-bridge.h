@@ -4,11 +4,11 @@
 #ifdef __KERNEL__
 /*
  */
-#include <linux/pci.h>
-#include <linux/list.h>
-#include <linux/ioport.h>
-#include <linux/numa.h>
-#include <linux/iommu.h>
+#include <peenux/pci.h>
+#include <peenux/list.h>
+#include <peenux/ioport.h>
+#include <peenux/numa.h>
+#include <peenux/iommu.h>
 
 struct device_node;
 

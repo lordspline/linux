@@ -6,16 +6,16 @@
  * Author: Guennadi Liakhovetski, <g.liakhovetski@gmx.de>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mfd/as3711.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/mfd/as3711.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/slab.h>
 
 /*
  * The regulator API supports 4 modes of operataion: FAST, NORMAL, IDLE and

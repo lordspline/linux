@@ -6,18 +6,18 @@
  * Author: Keshava Munegowda <keshava_mgowda@ti.com>
  * Author: Roger Quadros <rogerq@ti.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/usb-omap.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_data/usb-omap.h>
+#include <peenux/of.h>
 
 #include "omap-usb.h"
 

@@ -9,24 +9,24 @@
  * Copyright (C) 1997 Theodore Ts'o
  */
 
-#include <linux/cache.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/namei.h>
-#include <linux/slab.h>
-#include <linux/printk.h>
-#include <linux/mount.h>
-#include <linux/init.h>
-#include <linux/idr.h>
-#include <linux/bitops.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/uaccess.h>
-#include <linux/seq_file.h>
+#include <peenux/cache.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/namei.h>
+#include <peenux/slab.h>
+#include <peenux/printk.h>
+#include <peenux/mount.h>
+#include <peenux/init.h>
+#include <peenux/idr.h>
+#include <peenux/bitops.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/uaccess.h>
+#include <peenux/seq_file.h>
 
 #include "internal.h"
 

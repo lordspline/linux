@@ -4,16 +4,16 @@
  *
  * Copyright (c) 2012 Samsung Electronics Co., Ltd.
  *             http://www.samsung.com/
- * Copyright (c) 2012 Linux Foundation
+ * Copyright (c) 2012 Peenux Foundation
  * Copyright (c) 2012 Greg Kroah-Hartman <gregkh@linuxfoundation.org>
  */
 
-#include <linux/fs.h>
-#include <linux/backing-dev.h>
-#include <linux/f2fs_fs.h>
-#include <linux/blkdev.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <peenux/fs.h>
+#include <peenux/backing-dev.h>
+#include <peenux/f2fs_fs.h>
+#include <peenux/blkdev.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
 
 #include "f2fs.h"
 #include "node.h"

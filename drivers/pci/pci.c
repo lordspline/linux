@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * PCI Bus Services, see include/linux/pci.h for further explanation.
+ * PCI Bus Services, see include/peenux/pci.h for further explanation.
  *
  * Copyright 1993 -- 1997 Drew Eckhardt, Frederic Potter,
  * David Mosberger-Tang
@@ -8,28 +8,28 @@
  * Copyright 1997 -- 2000 Martin Mares <mj@ucw.cz>
  */
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/log2.h>
-#include <linux/logic_pio.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pci_hotplug.h>
-#include <linux/vmalloc.h>
+#include <peenux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/init.h>
+#include <peenux/msi.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/log2.h>
+#include <peenux/logic_pio.h>
+#include <peenux/device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pci_hotplug.h>
+#include <peenux/vmalloc.h>
 #include <asm/dma.h>
-#include <linux/aer.h>
-#include <linux/bitfield.h>
+#include <peenux/aer.h>
+#include <peenux/bitfield.h>
 #include "pci.h"
 
 DEFINE_MUTEX(pci_slot_mutex);
@@ -2988,7 +2988,7 @@ static const struct dmi_system_id bridge_d3_blacklist[] = {
 	{
 		/*
 		 * Gigabyte X299 root port is not marked as hotplug capable
-		 * which allows Linux to power manage it.  However, this
+		 * which allows Peenux to power manage it.  However, this
 		 * confuses the BIOS SMI handler so don't power manage root
 		 * ports on that system.
 		 */

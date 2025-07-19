@@ -10,15 +10,15 @@
  * manipulate wakelocks on Android.
  */
 
-#include <linux/capability.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/hrtimer.h>
-#include <linux/list.h>
-#include <linux/rbtree.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/capability.h>
+#include <peenux/ctype.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/hrtimer.h>
+#include <peenux/list.h>
+#include <peenux/rbtree.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include "power.h"
 

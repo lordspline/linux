@@ -3,12 +3,12 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  *
- * Copyright (C) 1995-99, 2000- 02, 06 Ralf Baechle <ralf@linux-mips.org>
+ * Copyright (C) 1995-99, 2000- 02, 06 Ralf Baechle <ralf@peenux-mips.org>
  * Copyright (C) 2001 MIPS Technologies, Inc.
  * Copyright (C) 2004 Thiemo Seufer
  * Copyright (C) 2014 Imagination Technologies Ltd.
  */
-#include <linux/errno.h>
+#include <peenux/errno.h>
 #include <asm/asm.h>
 #include <asm/asmmacro.h>
 #include <asm/irqflags.h>

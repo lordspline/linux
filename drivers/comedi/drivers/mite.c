@@ -3,7 +3,7 @@
  * comedi/drivers/mite.c
  * Hardware driver for NI Mite PCI interface chip
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Peenux Control and Measurement Device Interface
  * Copyright (C) 1997-2002 David A. Schleef <ds@schleef.org>
  */
 
@@ -35,10 +35,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/log2.h>
-#include <linux/comedi/comedi_pci.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/log2.h>
+#include <peenux/comedi/comedi_pci.h>
 
 #include "mite.h"
 

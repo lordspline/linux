@@ -6,11 +6,11 @@
  * Common Clock Framework support for Exynos5433 SoC.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/clock/exynos5433.h>
 

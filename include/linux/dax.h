@@ -2,9 +2,9 @@
 #ifndef _LINUX_DAX_H
 #define _LINUX_DAX_H
 
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/radix-tree.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/radix-tree.h>
 
 typedef unsigned long dax_entry_t;
 

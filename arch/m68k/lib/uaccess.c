@@ -4,8 +4,8 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
 
 unsigned long __generic_copy_from_user(void *to, const void __user *from,
 				       unsigned long n)

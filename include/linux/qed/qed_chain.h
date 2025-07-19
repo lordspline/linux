@@ -7,13 +7,13 @@
 #ifndef _QED_CHAIN_H
 #define _QED_CHAIN_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/qed/common_hsi.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/qed/common_hsi.h>
 
 enum qed_chain_mode {
 	/* Each Page contains a next pointer at its end */

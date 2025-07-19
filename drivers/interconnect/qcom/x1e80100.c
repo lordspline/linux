@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/interconnect-provider.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
+#include <peenux/device.h>
+#include <peenux/interconnect.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
 #include <dt-bindings/interconnect/qcom,x1e80100-rpmh.h>
 
 #include "bcm-voter.h"

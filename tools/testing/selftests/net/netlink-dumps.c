@@ -11,12 +11,12 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#include <linux/genetlink.h>
-#include <linux/neighbour.h>
-#include <linux/netdevice.h>
-#include <linux/netlink.h>
-#include <linux/mqueue.h>
-#include <linux/rtnetlink.h>
+#include <peenux/genetlink.h>
+#include <peenux/neighbour.h>
+#include <peenux/netdevice.h>
+#include <peenux/netlink.h>
+#include <peenux/mqueue.h>
+#include <peenux/rtnetlink.h>
 
 #include "../kselftest_harness.h"
 

@@ -6,13 +6,13 @@
  * Sumit Garg <sumit.garg@linaro.org>
  */
 
-#include <linux/err.h>
-#include <linux/key-type.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/tee_drv.h>
-#include <linux/uuid.h>
+#include <peenux/err.h>
+#include <peenux/key-type.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/tee_drv.h>
+#include <peenux/uuid.h>
 
 #include <keys/trusted_tee.h>
 

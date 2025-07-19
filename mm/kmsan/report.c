@@ -7,12 +7,12 @@
  *
  */
 
-#include <linux/console.h>
-#include <linux/kmsan.h>
-#include <linux/moduleparam.h>
-#include <linux/stackdepot.h>
-#include <linux/stacktrace.h>
-#include <linux/uaccess.h>
+#include <peenux/console.h>
+#include <peenux/kmsan.h>
+#include <peenux/moduleparam.h>
+#include <peenux/stackdepot.h>
+#include <peenux/stacktrace.h>
+#include <peenux/uaccess.h>
 
 #include "kmsan.h"
 

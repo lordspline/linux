@@ -9,13 +9,13 @@
 #define __CONNECTOR_H
 
 
-#include <linux/refcount.h>
+#include <peenux/refcount.h>
 
-#include <linux/list.h>
-#include <linux/workqueue.h>
+#include <peenux/list.h>
+#include <peenux/workqueue.h>
 
 #include <net/sock.h>
-#include <uapi/linux/connector.h>
+#include <uapi/peenux/connector.h>
 
 #define CN_CBQ_NAMELEN		32
 

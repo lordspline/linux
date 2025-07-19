@@ -3,11 +3,11 @@
  * Copyright 2021, Dario Binacchi <dariobin@libero.it>
  */
 
-#include <linux/ethtool.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/netdevice.h>
-#include <linux/can/dev.h>
+#include <peenux/ethtool.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/netdevice.h>
+#include <peenux/can/dev.h>
 
 #include "c_can.h"
 

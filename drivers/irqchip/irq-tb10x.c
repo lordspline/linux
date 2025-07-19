@@ -7,15 +7,15 @@
  * Author: Christian Ruppert <christian.ruppert@abilis.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
 
 #define AB_IRQCTL_INT_ENABLE   0x00
 #define AB_IRQCTL_INT_STATUS   0x04

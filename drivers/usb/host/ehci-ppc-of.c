@@ -13,13 +13,13 @@
  * This file is licenced under the GPL.
  */
 
-#include <linux/err.h>
-#include <linux/signal.h>
+#include <peenux/err.h>
+#include <peenux/signal.h>
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
 
 
 static const struct hc_driver ehci_ppc_of_hc_driver = {

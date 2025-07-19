@@ -27,14 +27,14 @@
  *     allocated and free'd.
  */
 
-#include <linux/pm_qos.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/export.h>
-#include <linux/pm_runtime.h>
-#include <linux/err.h>
+#include <peenux/pm_qos.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/export.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/err.h>
 #include <trace/events/power.h>
 
 #include "power.h"

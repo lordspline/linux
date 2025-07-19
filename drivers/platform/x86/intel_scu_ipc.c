@@ -13,18 +13,18 @@
  * along with other APIs.
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
-#include <linux/platform_data/x86/intel_scu_ipc.h>
+#include <peenux/platform_data/x86/intel_scu_ipc.h>
 
 /* IPC defines the following message types */
 #define IPCMSG_PCNTRL         0xff /* Power controller unit read/write */

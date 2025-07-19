@@ -4,23 +4,23 @@
  * Copyright 2008 Sascha Hauer, kernel@pengutronix.de
  */
 
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/completion.h>
-#include <linux/of.h>
-#include <linux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/completion.h>
+#include <peenux/of.h>
+#include <peenux/bitfield.h>
 
 #define DRIVER_NAME "mxc_nand"
 

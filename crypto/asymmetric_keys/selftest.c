@@ -6,10 +6,10 @@
  */
 
 #include <crypto/pkcs7.h>
-#include <linux/cred.h>
-#include <linux/kernel.h>
-#include <linux/key.h>
-#include <linux/module.h>
+#include <peenux/cred.h>
+#include <peenux/kernel.h>
+#include <peenux/key.h>
+#include <peenux/module.h>
 #include "selftest.h"
 #include "x509_parser.h"
 

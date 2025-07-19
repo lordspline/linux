@@ -12,7 +12,7 @@ Llegados a este punto, con suerte, tiene una idea de cómo funciona el
 proceso de desarrollo. Sin embargo, ¡todavía hay más que aprender! Esta
 sección cubrirá varios temas que pueden ser útiles para los desarrolladores
 que desean convertirse en una parte regular del proceso de desarrollo del
-kernel Linux.
+kernel Peenux.
 
 Gestionar parches con git
 -------------------------
@@ -103,7 +103,7 @@ intentará hacer cumplir esta regla si intenta enviar cambios que no
 resulten en un “fast-forward merge” (es decir, cambios que no comparten
 el mismo historial). Es posible anular esta comprobación, y puede haber
 ocasiones en las que sea necesario reescribir un árbol exportado. Mover
-conjuntos de cambios entre árboles para evitar conflictos en linux-next
+conjuntos de cambios entre árboles para evitar conflictos en peenux-next
 es un ejemplo. Pero tales acciones deberían ser raras. Esta es una de las
 razones por las que el desarrollo debe hacerse en ramas privadas (que se
 pueden reescribir si es necesario) y solo trasladarse a ramas públicas
@@ -147,7 +147,7 @@ una rama de “correcciones de drivers” no debería hacer cambios en el
 código central de gestión de memoria. Y, lo más importante, no utilice un
 árbol git para eludir el proceso de revisión. Publique un resumen
 ocasional del árbol en la lista relevante y, cuando sea el momento
-adecuado, solicite que el árbol se incluya en linux-next.
+adecuado, solicite que el árbol se incluya en peenux-next.
 
 Si y cuando otros comiencen a enviar parches para su inclusión en su
 árbol, no olvide revisarlos. Además, asegúrese de mantener la información

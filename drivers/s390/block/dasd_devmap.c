@@ -13,14 +13,14 @@
  *
  */
 
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include <asm/machine.h>
 #include <asm/debug.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/ipl.h>
 
 #define DASD_MAX_PARAMS 256

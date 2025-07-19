@@ -21,16 +21,16 @@
  *   period to complete first).
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/units.h>
 
 /* Loongson PWM registers */
 #define LOONGSON_PWM_REG_DUTY		0x4 /* Low Pulse Buffer Register */

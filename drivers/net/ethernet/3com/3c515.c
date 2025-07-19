@@ -49,21 +49,21 @@ static int max_interrupt_work = 20;
 #define RX_RING_SIZE	16
 #define PKT_BUF_SZ		1536	/* Size of each temporary Rx buffer. */
 
-#include <linux/module.h>
-#include <linux/isapnp.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/ioport.h>
-#include <linux/skbuff.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/ethtool.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/isapnp.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/in.h>
+#include <peenux/ioport.h>
+#include <peenux/skbuff.h>
+#include <peenux/etherdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/ethtool.h>
+#include <peenux/bitops.h>
+#include <peenux/uaccess.h>
 
 #include <net/Space.h>
 
@@ -71,7 +71,7 @@ static int max_interrupt_work = 20;
 #include <asm/dma.h>
 
 #define NEW_MULTICAST
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 #define MAX_UNITS 8
 
@@ -118,7 +118,7 @@ it's not practical to integrate this driver with the other EtherLink drivers.
 II. Board-specific settings
 
 The Corkscrew has an EEPROM for configuration, but no special settings are
-needed for Linux.
+needed for Peenux.
 
 III. Driver operation
 

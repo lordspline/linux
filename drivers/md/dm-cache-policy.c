@@ -8,8 +8,8 @@
 #include "dm-cache-policy-internal.h"
 #include "dm.h"
 
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 /*----------------------------------------------------------------*/
 

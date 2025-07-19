@@ -5,16 +5,16 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  *
- * Copyright (C) 1996, 1997, 2004, 05 by Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 1996, 1997, 2004, 05 by Ralf Baechle (ralf@peenux-mips.org)
  * Copyright (C) 2001, 2002, 2003 by Liam Davies (ldavies@agile.tv)
  *
  */
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/memblock.h>
-#include <linux/pm.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/memblock.h>
+#include <peenux/pm.h>
 
 #include <asm/bootinfo.h>
 #include <asm/reboot.h>

@@ -118,7 +118,7 @@
 
 		button-power {
 			label = "Init Button";
-			linux,code = <KEY_POWER>;
+			peenux,code = <KEY_POWER>;
 			gpios = <&gpio1 6 GPIO_ACTIVE_HIGH>;
 		};
 	};
@@ -149,7 +149,7 @@
 	};
 
 	partition@4f4000 {
-		label = "linux";
+		label = "peenux";
 		reg = <0x4f4000 0x1d20000>;
 	};
 

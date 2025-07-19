@@ -8,14 +8,14 @@
  *
  * based on arch/mips/cavium-octeon/cpu.c
  * Copyright (C) 2009 Wind River Systems,
- *   written by Ralf Baechle <ralf@linux-mips.org>
+ *   written by Ralf Baechle <ralf@peenux-mips.org>
  */
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/notifier.h>
-#include <linux/ptrace.h>
-#include <linux/uaccess.h>
-#include <linux/sched/signal.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/notifier.h>
+#include <peenux/ptrace.h>
+#include <peenux/uaccess.h>
+#include <peenux/sched/signal.h>
 
 #include <asm/fpu.h>
 #include <asm/cop2.h>

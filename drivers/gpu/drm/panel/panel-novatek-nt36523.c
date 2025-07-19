@@ -5,13 +5,13 @@
  * Copyright (c) 2022, 2023 Jianhua Lu <lujianhua000@gmail.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

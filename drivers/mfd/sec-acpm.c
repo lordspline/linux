@@ -6,20 +6,20 @@
  * Samsung S2MPG1x ACPM driver
  */
 
-#include <linux/array_size.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/firmware/samsung/exynos-acpm-protocol.h>
-#include <linux/mfd/samsung/core.h>
-#include <linux/mfd/samsung/rtc.h>
-#include <linux/mfd/samsung/s2mpg10.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/array_size.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/firmware/samsung/exynos-acpm-protocol.h>
+#include <peenux/mfd/samsung/core.h>
+#include <peenux/mfd/samsung/rtc.h>
+#include <peenux/mfd/samsung/s2mpg10.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 #include "sec-core.h"
 
 #define ACPM_ADDR_BITS       8

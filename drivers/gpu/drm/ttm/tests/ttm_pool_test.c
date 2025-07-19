@@ -2,7 +2,7 @@
 /*
  * Copyright © 2023 Intel Corporation
  */
-#include <linux/mm.h>
+#include <peenux/mm.h>
 
 #include <drm/ttm/ttm_tt.h>
 #include <drm/ttm/ttm_pool.h>

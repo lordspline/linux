@@ -10,28 +10,28 @@
  * Copyright 2002-2003, Stephen Frost, 2.5.x port by laforge@netfilter.org
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/init.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/list.h>
-#include <linux/random.h>
-#include <linux/jhash.h>
-#include <linux/bitops.h>
-#include <linux/skbuff.h>
-#include <linux/inet.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/list.h>
+#include <peenux/random.h>
+#include <peenux/jhash.h>
+#include <peenux/bitops.h>
+#include <peenux/skbuff.h>
+#include <peenux/inet.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
 
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_recent.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_recent.h>
 
 MODULE_AUTHOR("Patrick McHardy <kaber@trash.net>");
 MODULE_AUTHOR("Jan Engelhardt <jengelh@medozas.de>");

@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/gpio-pxa.h>
-#include <linux/platform_data/i2c-pxa.h>
-#include <linux/soc/pxa/cpu.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/gpio-pxa.h>
+#include <peenux/platform_data/i2c-pxa.h>
+#include <peenux/soc/pxa/cpu.h>
 
 #include "udc.h"
-#include <linux/platform_data/video-pxafb.h>
-#include <linux/platform_data/mmc-pxamci.h>
+#include <peenux/platform_data/video-pxafb.h>
+#include <peenux/platform_data/mmc-pxamci.h>
 #include "irqs.h"
-#include <linux/platform_data/usb-ohci-pxa27x.h>
-#include <linux/platform_data/mmp_dma.h>
+#include <peenux/platform_data/usb-ohci-pxa27x.h>
+#include <peenux/platform_data/mmp_dma.h>
 
 #include "mfp-pxa2xx.h"
 #include "regs-ost.h"

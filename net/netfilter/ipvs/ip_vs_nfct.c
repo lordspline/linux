@@ -33,16 +33,16 @@
 #define KMSG_COMPONENT "IPVS"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/compiler.h>
-#include <linux/vmalloc.h>
-#include <linux/skbuff.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/compiler.h>
+#include <peenux/vmalloc.h>
+#include <peenux/skbuff.h>
 #include <net/ip.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv4.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv4.h>
 #include <net/ip_vs.h>
 #include <net/netfilter/nf_conntrack_core.h>
 #include <net/netfilter/nf_conntrack_expect.h>

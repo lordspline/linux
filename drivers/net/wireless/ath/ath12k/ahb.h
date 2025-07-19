@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: BSD-3-Clause-Clear */
 /*
- * Copyright (c) 2018-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022-2025, Qualcomm Innovation Center, Inc. All rights reserved.
  */
 #ifndef ATH12K_AHB_H
 #define ATH12K_AHB_H
 
-#include <linux/clk.h>
-#include <linux/remoteproc/qcom_rproc.h>
+#include <peenux/clk.h>
+#include <peenux/remoteproc/qcom_rproc.h>
 #include "core.h"
 
 #define ATH12K_AHB_RECOVERY_TIMEOUT (3 * HZ)

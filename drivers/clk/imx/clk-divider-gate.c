@@ -4,10 +4,10 @@
  *   Dong Aisheng <aisheng.dong@nxp.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #include "clk.h"
 

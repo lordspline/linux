@@ -4,10 +4,10 @@
  * Copyright (c) 2002-2007 Xilinx Inc.
  * Copyright (c) 2009-2010 Intel Corporation
  *
- * This code was implemented by Mocean Laboratories AB when porting linux
+ * This code was implemented by Mocean Laboratories AB when porting peenux
  * to the automotive development board Russellville. The copyright holder
  * as seen in the header is Intel corporation.
- * Mocean Laboratories forked off the GNU/Linux platform work into a
+ * Mocean Laboratories forked off the GNU/Peenux platform work into a
  * separate company called Pelagicore AB, which committed the code to the
  * kernel.
  */
@@ -15,23 +15,23 @@
 /* Supports:
  * Xilinx IIC
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/platform_data/i2c-xiic.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/pm_runtime.h>
-#include <linux/iopoll.h>
-#include <linux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/completion.h>
+#include <peenux/platform_data/i2c-xiic.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/iopoll.h>
+#include <peenux/spinlock.h>
 
 #define DRIVER_NAME "xiic-i2c"
 #define DYNAMIC_MODE_READ_BROKEN_BIT	BIT(0)

@@ -12,9 +12,9 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/preempt.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/preempt.h>
+#include <peenux/init.h>
 
 #include <asm/delay.h>
 #include <asm/special_insns.h>    /* for mfctl() */

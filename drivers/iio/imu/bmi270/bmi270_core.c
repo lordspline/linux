@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 
-#include <linux/bitfield.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
 
 #include "bmi270.h"
 

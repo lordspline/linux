@@ -7,8 +7,8 @@
  * Contact: Luciano Coelho <luciano.coelho@nokia.com>
  */
 
-#include <linux/gfp.h>
-#include <linux/sched.h>
+#include <peenux/gfp.h>
+#include <peenux/sched.h>
 
 #include "wlcore.h"
 #include "debug.h"

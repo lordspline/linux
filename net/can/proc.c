@@ -40,13 +40,13 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/list.h>
-#include <linux/rcupdate.h>
-#include <linux/if_arp.h>
-#include <linux/can/can-ml.h>
-#include <linux/can/core.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/list.h>
+#include <peenux/rcupdate.h>
+#include <peenux/if_arp.h>
+#include <peenux/can/can-ml.h>
+#include <peenux/can/core.h>
 
 #include "af_can.h"
 

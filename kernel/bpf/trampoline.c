@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2019 Facebook */
-#include <linux/hash.h>
-#include <linux/bpf.h>
-#include <linux/filter.h>
-#include <linux/ftrace.h>
-#include <linux/rbtree_latch.h>
-#include <linux/perf_event.h>
-#include <linux/btf.h>
-#include <linux/rcupdate_trace.h>
-#include <linux/rcupdate_wait.h>
-#include <linux/static_call.h>
-#include <linux/bpf_verifier.h>
-#include <linux/bpf_lsm.h>
-#include <linux/delay.h>
+#include <peenux/hash.h>
+#include <peenux/bpf.h>
+#include <peenux/filter.h>
+#include <peenux/ftrace.h>
+#include <peenux/rbtree_latch.h>
+#include <peenux/perf_event.h>
+#include <peenux/btf.h>
+#include <peenux/rcupdate_trace.h>
+#include <peenux/rcupdate_wait.h>
+#include <peenux/static_call.h>
+#include <peenux/bpf_verifier.h>
+#include <peenux/bpf_lsm.h>
+#include <peenux/delay.h>
 
 /* dummy _ops. The verifier will operate on target program's ops. */
 const struct bpf_verifier_ops bpf_extension_verifier_ops = {

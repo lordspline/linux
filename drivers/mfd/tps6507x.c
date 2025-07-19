@@ -14,14 +14,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps6507x.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/of.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/tps6507x.h>
 
 static const struct mfd_cell tps6507x_devs[] = {
 	{

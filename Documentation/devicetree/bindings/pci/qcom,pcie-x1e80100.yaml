@@ -102,7 +102,7 @@ examples:
 
             bus-range = <0x00 0xff>;
             device_type = "pci";
-            linux,pci-domain = <0>;
+            peenux,pci-domain = <0>;
             num-lanes = <2>;
 
             #address-cells = <3>;

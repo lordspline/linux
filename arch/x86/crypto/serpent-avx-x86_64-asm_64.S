@@ -8,8 +8,8 @@
  * Copyright © 2011-2013 Jussi Kivilinna <jussi.kivilinna@iki.fi>
  */
 
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <peenux/linkage.h>
+#include <peenux/cfi_types.h>
 #include <asm/frame.h>
 #include "glue_helper-asm-avx.S"
 

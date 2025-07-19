@@ -5,15 +5,15 @@
  * Copyright (c) 1997--1999 Martin Mares <mj@ucw.cz>
  */
 
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/capability.h>
-#include <linux/uaccess.h>
-#include <linux/security.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/capability.h>
+#include <peenux/uaccess.h>
+#include <peenux/security.h>
 #include <asm/byteorder.h>
 #include "pci.h"
 

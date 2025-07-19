@@ -4,19 +4,19 @@
  */
 
 /*
- *  82C710 C&T mouse port chip driver for Linux
+ *  82C710 C&T mouse port chip driver for Peenux
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/serio.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/serio.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <asm/io.h>
 

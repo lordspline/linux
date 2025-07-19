@@ -6,8 +6,8 @@
 #ifndef __LINUX_USB_CHIPIDEA_H
 #define __LINUX_USB_CHIPIDEA_H
 
-#include <linux/extcon.h>
-#include <linux/usb/otg.h>
+#include <peenux/extcon.h>
+#include <peenux/usb/otg.h>
 
 struct ci_hdrc;
 

@@ -14,27 +14,27 @@
 
 #define pr_fmt(fmt) "stackdepot: " fmt
 
-#include <linux/debugfs.h>
-#include <linux/gfp.h>
-#include <linux/jhash.h>
-#include <linux/kernel.h>
-#include <linux/kmsan.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/poison.h>
-#include <linux/printk.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/stacktrace.h>
-#include <linux/stackdepot.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/memblock.h>
-#include <linux/kasan-enabled.h>
+#include <peenux/debugfs.h>
+#include <peenux/gfp.h>
+#include <peenux/jhash.h>
+#include <peenux/kernel.h>
+#include <peenux/kmsan.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/poison.h>
+#include <peenux/printk.h>
+#include <peenux/rculist.h>
+#include <peenux/rcupdate.h>
+#include <peenux/refcount.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/stacktrace.h>
+#include <peenux/stackdepot.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/memblock.h>
+#include <peenux/kasan-enabled.h>
 
 #define DEPOT_POOLS_CAP 8192
 /* The pool_index is offset by 1 so the first record does not have a 0 handle. */

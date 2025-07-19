@@ -46,10 +46,10 @@
 *	First release to the public
 */
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/ioport.h>
 #include <asm/io.h>
 #include "smapi.h"
 #include "mwavedd.h"

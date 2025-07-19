@@ -7,10 +7,10 @@
 #ifndef NET_MAC802154_H
 #define NET_MAC802154_H
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <net/af_ieee802154.h>
-#include <linux/ieee802154.h>
-#include <linux/skbuff.h>
+#include <peenux/ieee802154.h>
+#include <peenux/skbuff.h>
 
 #include <net/cfg802154.h>
 

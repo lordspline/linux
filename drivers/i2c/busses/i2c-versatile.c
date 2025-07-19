@@ -5,14 +5,14 @@
  *  Copyright (C) 2006 ARM Ltd.
  *  written by Russell King, Deep Blue Solutions Ltd.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-bit.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
 #define I2C_CONTROL	0x00
 #define I2C_CONTROLS	0x00

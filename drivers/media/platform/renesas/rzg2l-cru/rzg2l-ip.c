@@ -5,7 +5,7 @@
  * Copyright (C) 2022 Renesas Electronics Corp.
  */
 
-#include <linux/delay.h>
+#include <peenux/delay.h>
 #include <media/mipi-csi2.h>
 
 #include "rzg2l-cru.h"

@@ -13,10 +13,10 @@
  * any later version.
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/timer.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/timer.h>
 #include "usbhid/usbhid.h"
 #include "hid-uclogic-params.h"
 

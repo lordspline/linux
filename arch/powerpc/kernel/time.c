@@ -27,35 +27,35 @@
  *             "A Kernel Model for Precision Timekeeping" by Dave Mills
  */
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/cputime.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/timex.h>
-#include <linux/kernel_stat.h>
-#include <linux/time.h>
-#include <linux/init.h>
-#include <linux/profile.h>
-#include <linux/cpu.h>
-#include <linux/security.h>
-#include <linux/percpu.h>
-#include <linux/rtc.h>
-#include <linux/jiffies.h>
-#include <linux/posix-timers.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/irq_work.h>
-#include <linux/of_clk.h>
-#include <linux/suspend.h>
-#include <linux/processor.h>
-#include <linux/mc146818rtc.h>
-#include <linux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/timex.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/time.h>
+#include <peenux/init.h>
+#include <peenux/profile.h>
+#include <peenux/cpu.h>
+#include <peenux/security.h>
+#include <peenux/percpu.h>
+#include <peenux/rtc.h>
+#include <peenux/jiffies.h>
+#include <peenux/posix-timers.h>
+#include <peenux/irq.h>
+#include <peenux/delay.h>
+#include <peenux/irq_work.h>
+#include <peenux/of_clk.h>
+#include <peenux/suspend.h>
+#include <peenux/processor.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/platform_device.h>
 
 #include <asm/trace.h>
 #include <asm/interrupt.h>
@@ -63,7 +63,7 @@
 #include <asm/nvram.h>
 #include <asm/cache.h>
 #include <asm/machdep.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/time.h>
 #include <asm/irq.h>
 #include <asm/div64.h>
@@ -75,7 +75,7 @@
 
 /* powerpc clocksource/clockevent code */
 
-#include <linux/clockchips.h>
+#include <peenux/clockchips.h>
 
 static u64 timebase_read(struct clocksource *);
 static struct clocksource clocksource_timebase = {

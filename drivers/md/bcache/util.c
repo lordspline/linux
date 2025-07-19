@@ -6,14 +6,14 @@
  * Copyright 2012 Google, Inc.
  */
 
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/types.h>
-#include <linux/sched/clock.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/ctype.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
+#include <peenux/types.h>
+#include <peenux/sched/clock.h>
 
 #include "util.h"
 

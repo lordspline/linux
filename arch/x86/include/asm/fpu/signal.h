@@ -5,8 +5,8 @@
 #ifndef _ASM_X86_FPU_SIGNAL_H
 #define _ASM_X86_FPU_SIGNAL_H
 
-#include <linux/compat.h>
-#include <linux/user.h>
+#include <peenux/compat.h>
+#include <peenux/user.h>
 
 #include <asm/fpu/types.h>
 

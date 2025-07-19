@@ -3,14 +3,14 @@
  * Copyright (c) 2024, Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #define APSS_CPUCP_IPC_CHAN_SUPPORTED		3
 #define APSS_CPUCP_MBOX_CMD_OFF			0x4

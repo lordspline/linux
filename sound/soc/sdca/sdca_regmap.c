@@ -7,12 +7,12 @@
  * https://www.mipi.org/mipi-sdca-v1-0-download
  */
 
-#include <linux/bitops.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/types.h>
 #include <sound/sdca.h>
 #include <sound/sdca_function.h>
 #include <sound/sdca_regmap.h>

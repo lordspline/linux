@@ -2,13 +2,13 @@
  * AMD K7 AGPGART routines.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/agp_backend.h>
-#include <linux/page-flags.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/agp_backend.h>
+#include <peenux/page-flags.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 #include <asm/set_memory.h>
 #include "agp.h"
 

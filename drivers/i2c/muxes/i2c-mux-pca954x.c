@@ -2,7 +2,7 @@
 /*
  * I2C multiplexer
  *
- * Copyright (c) 2008-2009 Rodolfo Giometti <giometti@linux.it>
+ * Copyright (c) 2008-2009 Rodolfo Giometti <giometti@peenux.it>
  * Copyright (c) 2008-2009 Eurotech S.p.A. <info@eurotech.it>
  *
  * This module supports the PCA954x and PCA984x series of I2C multiplexer/switch
@@ -38,20 +38,20 @@
  *	pca9540.c from Jean Delvare <jdelvare@suse.de>.
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 #include <dt-bindings/mux/mux.h>
 
 #define PCA954X_MAX_NCHANS 8
@@ -713,6 +713,6 @@ static struct i2c_driver pca954x_driver = {
 
 module_i2c_driver(pca954x_driver);
 
-MODULE_AUTHOR("Rodolfo Giometti <giometti@linux.it>");
+MODULE_AUTHOR("Rodolfo Giometti <giometti@peenux.it>");
 MODULE_DESCRIPTION("PCA954x I2C mux/switch driver");
 MODULE_LICENSE("GPL v2");

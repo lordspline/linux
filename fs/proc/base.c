@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/proc/base.c
+ *  peenux/fs/proc/base.c
  *
  *  Copyright (C) 1991, 1992 Linus Torvalds
  *
@@ -22,7 +22,7 @@
  *  Ilias Biris <ilias.biris@indt.org.br>
  *  Mauricio Lin <mauricio.lin@indt.org.br>
  *
- *  Embedded Linux Lab - 10LE Instituto Nokia de Tecnologia - INdT
+ *  Embedded Peenux Lab - 10LE Instituto Nokia de Tecnologia - INdT
  *
  *  A new process specific entry (smaps) included in /proc. It shows the
  *  size of rss for each memory area. The maps entry lacks information
@@ -33,7 +33,7 @@
  *
  *  Changelog:
  *  21-Feb-2005
- *  Embedded Linux Lab - 10LE Instituto Nokia de Tecnologia - INdT
+ *  Embedded Peenux Lab - 10LE Instituto Nokia de Tecnologia - INdT
  *  Pud inclusion in the page table walking.
  *
  *  ChangeLog:
@@ -48,56 +48,56 @@
  *  Overall revision about smaps.
  */
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/task_io_accounting_ops.h>
-#include <linux/init.h>
-#include <linux/capability.h>
-#include <linux/file.h>
-#include <linux/generic-radix-tree.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/namei.h>
-#include <linux/mnt_namespace.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/rcupdate.h>
-#include <linux/kallsyms.h>
-#include <linux/stacktrace.h>
-#include <linux/resource.h>
-#include <linux/module.h>
-#include <linux/mount.h>
-#include <linux/security.h>
-#include <linux/ptrace.h>
-#include <linux/printk.h>
-#include <linux/cache.h>
-#include <linux/cgroup.h>
-#include <linux/cpuset.h>
-#include <linux/audit.h>
-#include <linux/poll.h>
-#include <linux/nsproxy.h>
-#include <linux/oom.h>
-#include <linux/elf.h>
-#include <linux/pid_namespace.h>
-#include <linux/user_namespace.h>
-#include <linux/fs_parser.h>
-#include <linux/fs_struct.h>
-#include <linux/slab.h>
-#include <linux/sched/autogroup.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/coredump.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/stat.h>
-#include <linux/posix-timers.h>
-#include <linux/time_namespace.h>
-#include <linux/resctrl.h>
-#include <linux/cn_proc.h>
-#include <linux/ksm.h>
-#include <uapi/linux/lsm.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/task_io_accounting_ops.h>
+#include <peenux/init.h>
+#include <peenux/capability.h>
+#include <peenux/file.h>
+#include <peenux/generic-radix-tree.h>
+#include <peenux/string.h>
+#include <peenux/seq_file.h>
+#include <peenux/namei.h>
+#include <peenux/mnt_namespace.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/rcupdate.h>
+#include <peenux/kallsyms.h>
+#include <peenux/stacktrace.h>
+#include <peenux/resource.h>
+#include <peenux/module.h>
+#include <peenux/mount.h>
+#include <peenux/security.h>
+#include <peenux/ptrace.h>
+#include <peenux/printk.h>
+#include <peenux/cache.h>
+#include <peenux/cgroup.h>
+#include <peenux/cpuset.h>
+#include <peenux/audit.h>
+#include <peenux/poll.h>
+#include <peenux/nsproxy.h>
+#include <peenux/oom.h>
+#include <peenux/elf.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/user_namespace.h>
+#include <peenux/fs_parser.h>
+#include <peenux/fs_struct.h>
+#include <peenux/slab.h>
+#include <peenux/sched/autogroup.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/coredump.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/stat.h>
+#include <peenux/posix-timers.h>
+#include <peenux/time_namespace.h>
+#include <peenux/resctrl.h>
+#include <peenux/cn_proc.h>
+#include <peenux/ksm.h>
+#include <uapi/peenux/lsm.h>
 #include <trace/events/oom.h>
 #include "internal.h"
 #include "fd.h"

@@ -5,16 +5,16 @@
  * Copyright (C) 2013, Apelete Seketeli <apelete@seketeli.net>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/usb/role.h>
-#include <linux/usb/usb_phy_generic.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/role.h>
+#include <peenux/usb/usb_phy_generic.h>
 
 #include "musb_core.h"
 

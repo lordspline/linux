@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/unistd.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/minix_fs.h>
-#include <linux/romfs_fs.h>
-#include <linux/initrd.h>
-#include <linux/sched.h>
-#include <linux/freezer.h>
-#include <linux/kmod.h>
-#include <uapi/linux/mount.h>
+#include <peenux/unistd.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/minix_fs.h>
+#include <peenux/romfs_fs.h>
+#include <peenux/initrd.h>
+#include <peenux/sched.h>
+#include <peenux/freezer.h>
+#include <peenux/kmod.h>
+#include <uapi/peenux/mount.h>
 
 #include "do_mounts.h"
 

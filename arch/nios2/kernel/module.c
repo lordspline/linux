@@ -10,13 +10,13 @@
  * archive for more details.
  */
 
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
+#include <peenux/moduleloader.h>
+#include <peenux/elf.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
 
 #include <asm/cacheflush.h>
 

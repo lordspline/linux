@@ -23,8 +23,8 @@
  *
  */
 
-#include <linux/string_helpers.h>
-#include <linux/uaccess.h>
+#include <peenux/string_helpers.h>
+#include <peenux/uaccess.h>
 #include <media/cec-notifier.h>
 
 #include "dc.h"

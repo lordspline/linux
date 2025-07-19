@@ -5,15 +5,15 @@
  *  Copyright (C) 2010, 2011 Roland Stigge <stigge@antcom.de>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/dac/max517.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/dac/max517.h>
 
 #define MAX517_DRV_NAME	"max517"
 

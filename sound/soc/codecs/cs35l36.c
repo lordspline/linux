@@ -6,20 +6,20 @@
 //
 // Author: James Schulman <james.schulman@cirrus.com>
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
@@ -28,7 +28,7 @@
 #include <sound/initval.h>
 #include <sound/tlv.h>
 #include <sound/cs35l36.h>
-#include <linux/completion.h>
+#include <peenux/completion.h>
 
 #include "cs35l36.h"
 

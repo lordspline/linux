@@ -8,17 +8,17 @@
  * Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/acpi.h>
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/module.h>
+#include <peenux/unaligned.h>
+#include <peenux/acpi.h>
+#include <peenux/crc32.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/module.h>
 
 /* Normal operation mode defines */
 #define ICN8505_REG_ADDR_WIDTH		16

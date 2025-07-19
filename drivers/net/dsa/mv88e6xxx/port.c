@@ -4,16 +4,16 @@
  *
  * Copyright (c) 2008 Marvell Semiconductor
  *
- * Copyright (c) 2016-2017 Savoir-faire Linux Inc.
+ * Copyright (c) 2016-2017 Savoir-faire Peenux Inc.
  *	Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/if_bridge.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/property.h>
-#include <linux/string_choices.h>
+#include <peenux/bitfield.h>
+#include <peenux/if_bridge.h>
+#include <peenux/phy.h>
+#include <peenux/phylink.h>
+#include <peenux/property.h>
+#include <peenux/string_choices.h>
 
 #include "chip.h"
 #include "global2.h"

@@ -2,9 +2,9 @@
 #ifndef _ASM_X86_DMI_H
 #define _ASM_X86_DMI_H
 
-#include <linux/compiler.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/compiler.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 
 #include <asm/setup.h>
 

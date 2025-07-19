@@ -6,18 +6,18 @@
  *
  * Based on the driver from Huang Shijie and Christoph G. Baumann
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/stmp_device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/stmp_device.h>
 
 /* OCOTP registers and bits */
 

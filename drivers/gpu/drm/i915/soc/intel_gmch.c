@@ -3,9 +3,9 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/pci.h>
-#include <linux/pnp.h>
-#include <linux/vgaarb.h>
+#include <peenux/pci.h>
+#include <peenux/pnp.h>
+#include <peenux/vgaarb.h>
 
 #include <drm/drm_managed.h>
 #include <drm/intel/i915_drm.h>

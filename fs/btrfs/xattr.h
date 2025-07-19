@@ -6,7 +6,7 @@
 #ifndef BTRFS_XATTR_H
 #define BTRFS_XATTR_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct dentry;
 struct inode;

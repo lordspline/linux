@@ -7,17 +7,17 @@
  * Author: Paul Handrigan <paul.handrigan@cirrus.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

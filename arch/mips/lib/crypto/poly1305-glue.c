@@ -6,10 +6,10 @@
  */
 
 #include <crypto/internal/poly1305.h>
-#include <linux/cpufeature.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <peenux/cpufeature.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/unaligned.h>
 
 asmlinkage void poly1305_block_init_arch(
 	struct poly1305_block_state *state,

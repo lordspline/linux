@@ -9,11 +9,11 @@
 #ifndef _NET_IOAM6_H
 #define _NET_IOAM6_H
 
-#include <linux/net.h>
-#include <linux/ipv6.h>
-#include <linux/ioam6.h>
-#include <linux/ioam6_genl.h>
-#include <linux/rhashtable-types.h>
+#include <peenux/net.h>
+#include <peenux/ipv6.h>
+#include <peenux/ioam6.h>
+#include <peenux/ioam6_genl.h>
+#include <peenux/rhashtable-types.h>
 
 struct ioam6_namespace {
 	struct rhash_head head;

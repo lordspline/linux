@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (c) 2018-2021 Intel Corporation
 
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/peci.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/idr.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/peci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 #include "internal.h"
 
@@ -228,8 +228,8 @@ static void __exit peci_exit(void)
 }
 module_exit(peci_exit);
 
-MODULE_AUTHOR("Jason M Bills <jason.m.bills@linux.intel.com>");
-MODULE_AUTHOR("Jae Hyun Yoo <jae.hyun.yoo@linux.intel.com>");
+MODULE_AUTHOR("Jason M Bills <jason.m.bills@peenux.intel.com>");
+MODULE_AUTHOR("Jae Hyun Yoo <jae.hyun.yoo@peenux.intel.com>");
 MODULE_AUTHOR("Iwona Winiarska <iwona.winiarska@intel.com>");
 MODULE_DESCRIPTION("PECI bus core module");
 MODULE_LICENSE("GPL");

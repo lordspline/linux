@@ -4,7 +4,7 @@
 #ifndef _LAN743X_ETHTOOL_H
 #define _LAN743X_ETHTOOL_H
 
-#include "linux/ethtool.h"
+#include "peenux/ethtool.h"
 
 #define LAN743X_ETH_REG_VERSION         1
 

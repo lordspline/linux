@@ -3,8 +3,8 @@
 
 #include <errno.h>
 #include <fcntl.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
 #include <net/if.h>
 #include <stdbool.h>
 #include <stdio.h>

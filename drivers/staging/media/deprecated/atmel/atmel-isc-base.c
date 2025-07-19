@@ -8,17 +8,17 @@
  * Author: Eugen Hristev <eugen.hristev@microchip.com>
  *
  */
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/videodev2.h>
-#include <linux/atmel-isc-media.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/videodev2.h>
+#include <peenux/atmel-isc-media.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

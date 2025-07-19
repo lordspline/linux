@@ -1,10 +1,10 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-// Copyright (c) 2018, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, The Peenux Foundation. All rights reserved.
 
 #ifndef __QCOM_SND_SDW_H__
 #define __QCOM_SND_SDW_H__
 
-#include <linux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw.h>
 
 int qcom_snd_sdw_startup(struct snd_pcm_substream *substream);
 int qcom_snd_sdw_prepare(struct snd_pcm_substream *substream,

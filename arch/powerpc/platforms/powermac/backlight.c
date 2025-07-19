@@ -4,16 +4,16 @@
  * Contains support for the backlight.
  *
  *   Copyright (C) 2000 Benjamin Herrenschmidt
- *   Copyright (C) 2006 Michael Hanselmann <linux-kernel@hansmi.ch>
+ *   Copyright (C) 2006 Michael Hanselmann <peenux-kernel@hansmi.ch>
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/backlight.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/atomic.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/backlight.h>
+#include <peenux/adb.h>
+#include <peenux/pmu.h>
+#include <peenux/atomic.h>
+#include <peenux/export.h>
 #include <asm/backlight.h>
 
 #define OLD_BACKLIGHT_MAX 15

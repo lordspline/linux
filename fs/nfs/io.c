@@ -5,12 +5,12 @@
  * I/O and data path helper functionality.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/rwsem.h>
-#include <linux/fs.h>
-#include <linux/nfs_fs.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/rwsem.h>
+#include <peenux/fs.h>
+#include <peenux/nfs_fs.h>
 
 #include "internal.h"
 

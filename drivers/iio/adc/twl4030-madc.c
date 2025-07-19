@@ -15,26 +15,26 @@
  * Amit Kucheria <amit.kucheria@canonical.com>
  */
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/mfd/twl.h>
-#include <linux/stddef.h>
-#include <linux/mutex.h>
-#include <linux/bitops.h>
-#include <linux/jiffies.h>
-#include <linux/types.h>
-#include <linux/gfp.h>
-#include <linux/err.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/stddef.h>
+#include <peenux/mutex.h>
+#include <peenux/bitops.h>
+#include <peenux/jiffies.h>
+#include <peenux/types.h>
+#include <peenux/gfp.h>
+#include <peenux/err.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #define TWL4030_MADC_MAX_CHANNELS 16
 

@@ -6,15 +6,15 @@
  *	    Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/atomic.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/videodev2.h>
+#include <peenux/vmalloc.h>
+#include <peenux/wait.h>
 
 #include <media/v4l2-common.h>
 #include <media/videobuf2-dma-sg.h>

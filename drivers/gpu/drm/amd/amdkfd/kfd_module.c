@@ -21,8 +21,8 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/sched.h>
-#include <linux/device.h>
+#include <peenux/sched.h>
+#include <peenux/device.h>
 #include "kfd_priv.h"
 #include "amdgpu_amdkfd.h"
 

@@ -7,25 +7,25 @@
  * Copyright (C) 2010 Google, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/clk/tegra.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/serial_8250.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/usb/tegra_usb_phy.h>
+#include <peenux/clk.h>
+#include <peenux/clk/tegra.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/of_address.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial_8250.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
+#include <peenux/usb/tegra_usb_phy.h>
 
-#include <linux/firmware/trusted_foundations.h>
+#include <peenux/firmware/trusted_foundations.h>
 
 #include <soc/tegra/fuse.h>
 #include <soc/tegra/pmc.h>

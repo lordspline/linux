@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/string.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/string.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 #include <asm/prom.h>
 
 #include "of_helpers.h"

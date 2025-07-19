@@ -11,8 +11,8 @@
 #ifndef _DCMIPP_COMMON_H_
 #define _DCMIPP_COMMON_H_
 
-#include <linux/interrupt.h>
-#include <linux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
 #include <media/media-device.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-fwnode.h>

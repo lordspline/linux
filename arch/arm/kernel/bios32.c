@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/arm/kernel/bios32.c
+ *  peenux/arch/arm/kernel/bios32.c
  *
  *  PCI bios-type initialisation for PCI machines
  *
  *  Bits taken from various places.
  */
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 
 #include <asm/mach-types.h>
 #include <asm/mach/map.h>

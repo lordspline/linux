@@ -13,9 +13,9 @@
 #include <errno.h>
 #include <stdint.h>
 #include <inttypes.h>
-#include <linux/compiler.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <peenux/compiler.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
 
 #include "../auxtrace.h"
 

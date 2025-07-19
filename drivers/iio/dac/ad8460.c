@@ -5,26 +5,26 @@
  * Copyright (C) 2024 Analog Devices, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/buffer-dma.h>
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/buffer-dma.h>
+#include <peenux/iio/buffer-dmaengine.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
 
 #define AD8460_CTRL_REG(x)			(x)
 #define AD8460_HVDAC_DATA_WORD(x)		(0x60 + (2 * (x)))

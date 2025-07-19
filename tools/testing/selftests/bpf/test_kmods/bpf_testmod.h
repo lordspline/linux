@@ -3,7 +3,7 @@
 #ifndef _BPF_TESTMOD_H
 #define _BPF_TESTMOD_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct task_struct;
 struct cgroup;

@@ -12,11 +12,11 @@
 #include <crypto/scatterwalk.h>
 #include <crypto/gcm.h>
 #include <crypto/hash.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 struct gcm_instance_ctx {
 	struct crypto_skcipher_spawn ctr;

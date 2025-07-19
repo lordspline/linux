@@ -12,8 +12,8 @@
 #include <sched.h>
 #include <signal.h>
 #include <assert.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
 #include <asm/ucontext.h>
 
 #include "hwprobe.h"

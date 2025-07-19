@@ -3,7 +3,7 @@
  * OMAP1 Dual-Mode Timers - platform device registration
  *
  * Contains first level initialization routines which internally
- * generates timer device information and registers with linux
+ * generates timer device information and registers with peenux
  * device model. It also has a low level function to change the timer
  * input clock source.
  *
@@ -12,13 +12,13 @@
  * Thara Gopinath <thara@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/dmtimer-omap.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/dmtimer-omap.h>
+#include <peenux/soc/ti/omap1-io.h>
 
 #include <clocksource/timer-ti-dm.h>
 

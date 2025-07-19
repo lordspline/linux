@@ -13,12 +13,12 @@
  * the project's page is at https://linuxtv.org
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 #include <media/rc-core.h>
 
 #include "budget.h"

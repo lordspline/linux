@@ -1,12 +1,12 @@
-/* linux/drivers/cdrom/cdrom.c
+/* peenux/drivers/cdrom/cdrom.c
    Copyright (c) 1996, 1997 David A. van Leeuwen.
    Copyright (c) 1997, 1998 Erik Andersen <andersee@debian.org>
    Copyright (c) 1998, 1999 Jens Axboe <axboe@image.dk>
 
    May be copied or modified under the terms of the GNU General Public
-   License.  See linux/COPYING for more information.
+   License.  See peenux/COPYING for more information.
 
-   Uniform CD-ROM driver for Linux.
+   Uniform CD-ROM driver for Peenux.
    See Documentation/cdrom/cdrom-standard.rst for usage information.
 
    The routines in the file provide a uniform interface between the
@@ -256,25 +256,25 @@
 /* #define ERRLOGMASK (CD_WARNING|CD_OPEN|CD_COUNT_TRACKS|CD_CLOSE) */
 /* #define ERRLOGMASK (CD_WARNING|CD_REG_UNREG|CD_DO_IOCTL|CD_OPEN|CD_CLOSE|CD_COUNT_TRACKS) */
 
-#include <linux/atomic.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/major.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/nospec.h>
-#include <linux/slab.h> 
-#include <linux/cdrom.h>
-#include <linux/sysctl.h>
-#include <linux/proc_fs.h>
-#include <linux/blkpg.h>
-#include <linux/init.h>
-#include <linux/fcntl.h>
-#include <linux/blkdev.h>
-#include <linux/times.h>
-#include <linux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/major.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/nospec.h>
+#include <peenux/slab.h> 
+#include <peenux/cdrom.h>
+#include <peenux/sysctl.h>
+#include <peenux/proc_fs.h>
+#include <peenux/blkpg.h>
+#include <peenux/init.h>
+#include <peenux/fcntl.h>
+#include <peenux/blkdev.h>
+#include <peenux/times.h>
+#include <peenux/uaccess.h>
 #include <scsi/scsi_common.h>
 
 /* used to tell the module to turn on full debugging messages */

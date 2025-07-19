@@ -11,27 +11,27 @@
  * refining of this idea.
  */
 
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-fence.h>
-#include <linux/dma-fence-unwrap.h>
-#include <linux/anon_inodes.h>
-#include <linux/export.h>
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/sync_file.h>
-#include <linux/poll.h>
-#include <linux/dma-resv.h>
-#include <linux/mm.h>
-#include <linux/mount.h>
-#include <linux/pseudo_fs.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-fence.h>
+#include <peenux/dma-fence-unwrap.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/export.h>
+#include <peenux/debugfs.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/seq_file.h>
+#include <peenux/sync_file.h>
+#include <peenux/poll.h>
+#include <peenux/dma-resv.h>
+#include <peenux/mm.h>
+#include <peenux/mount.h>
+#include <peenux/pseudo_fs.h>
 
-#include <uapi/linux/dma-buf.h>
-#include <uapi/linux/magic.h>
+#include <uapi/peenux/dma-buf.h>
+#include <uapi/peenux/magic.h>
 
 #include "dma-buf-sysfs-stats.h"
 

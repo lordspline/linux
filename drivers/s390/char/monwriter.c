@@ -10,19 +10,19 @@
 #define KMSG_COMPONENT "monwriter"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/ctype.h>
-#include <linux/poll.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/ctype.h>
+#include <peenux/poll.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>
 #include <asm/appldata.h>

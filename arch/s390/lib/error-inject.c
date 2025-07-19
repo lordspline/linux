@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0+
 #include <asm/ptrace.h>
-#include <linux/error-injection.h>
-#include <linux/kprobes.h>
+#include <peenux/error-injection.h>
+#include <peenux/kprobes.h>
 
 void override_function_with_return(struct pt_regs *regs)
 {

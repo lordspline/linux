@@ -5,9 +5,9 @@
  * Author: Won Chung <wonchung@google.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/sysfs.h>
-#include <linux/string_choices.h>
+#include <peenux/acpi.h>
+#include <peenux/sysfs.h>
+#include <peenux/string_choices.h>
 
 #include "physical_location.h"
 

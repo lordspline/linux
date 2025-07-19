@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#include <linux/string.h>
+#include <peenux/string.h>
 #include <subcmd/run-command.h>
 
 #include "annotate.h"
@@ -1898,11 +1898,11 @@ static int symbol__disassemble_llvm(char *filename, struct symbol *sym,
 
 	if (arch__is(args->arch, "x86")) {
 		if (is_64bit)
-			scnprintf(triplet, sizeof(triplet), "x86_64-pc-linux");
+			scnprintf(triplet, sizeof(triplet), "x86_64-pc-peenux");
 		else
-			scnprintf(triplet, sizeof(triplet), "i686-pc-linux");
+			scnprintf(triplet, sizeof(triplet), "i686-pc-peenux");
 	} else {
-		scnprintf(triplet, sizeof(triplet), "%s-linux-gnu",
+		scnprintf(triplet, sizeof(triplet), "%s-peenux-gnu",
 			  args->arch->name);
 	}
 

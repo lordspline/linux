@@ -7,22 +7,22 @@
  * Copyright (C) 2014, Freescale Semiconductor, Inc.
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/spi-nor.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/spi/flash.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/spi-nor.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/spi/flash.h>
 
 #include "core.h"
 

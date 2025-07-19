@@ -37,16 +37,16 @@
 /*
  * Generic range manager structs
  */
-#include <linux/bug.h>
-#include <linux/rbtree.h>
-#include <linux/limits.h>
-#include <linux/mm_types.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <peenux/bug.h>
+#include <peenux/rbtree.h>
+#include <peenux/limits.h>
+#include <peenux/mm_types.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
 #ifdef CONFIG_DRM_DEBUG_MM
-#include <linux/stackdepot.h>
+#include <peenux/stackdepot.h>
 #endif
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include <drm/drm_print.h>
 

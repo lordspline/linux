@@ -10,7 +10,7 @@
 #ifndef NXT6000_H
 #define NXT6000_H
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 
 struct nxt6000_config
 {

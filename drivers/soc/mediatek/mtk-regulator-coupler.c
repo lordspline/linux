@@ -8,13 +8,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/regulator/coupler.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/suspend.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/regulator/coupler.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/suspend.h>
 
 #define to_mediatek_coupler(x)	container_of(x, struct mediatek_regulator_coupler, coupler)
 

@@ -6,26 +6,26 @@
  *
  *  Copyright (C) 2017 Sudip Mukherjee, All Rights Reserved.
  */
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/eeprom_93cx6.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/eeprom_93cx6.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
-#include <linux/serial_8250.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
+#include <peenux/serial_8250.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_reg.h>
 
 #include <asm/byteorder.h>
 

@@ -6,12 +6,12 @@
  *  Copyright 2006 Sony Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/bitops.h>
 #include <asm/ps3.h>
 
 #include <asm/firmware.h>

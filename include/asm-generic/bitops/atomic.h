@@ -2,8 +2,8 @@
 #ifndef _ASM_GENERIC_BITOPS_ATOMIC_H_
 #define _ASM_GENERIC_BITOPS_ATOMIC_H_
 
-#include <linux/atomic.h>
-#include <linux/compiler.h>
+#include <peenux/atomic.h>
+#include <peenux/compiler.h>
 #include <asm/barrier.h>
 
 /*

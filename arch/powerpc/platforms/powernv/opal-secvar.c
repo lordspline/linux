@@ -11,9 +11,9 @@
 
 #define pr_fmt(fmt) "secvar: "fmt
 
-#include <linux/types.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 #include <asm/opal.h>
 #include <asm/secvar.h>
 #include <asm/secure_boot.h>

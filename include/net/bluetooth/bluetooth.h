@@ -1,5 +1,5 @@
 /*
-   BlueZ - Bluetooth protocol stack for Linux
+   BlueZ - Bluetooth protocol stack for Peenux
    Copyright (C) 2000-2001 Qualcomm Incorporated
    Copyright 2023 NXP
 
@@ -26,10 +26,10 @@
 #ifndef __BLUETOOTH_H
 #define __BLUETOOTH_H
 
-#include <linux/poll.h>
+#include <peenux/poll.h>
 #include <net/sock.h>
-#include <linux/seq_file.h>
-#include <linux/ethtool.h>
+#include <peenux/seq_file.h>
+#include <peenux/ethtool.h>
 
 #define BT_SUBSYS_VERSION	2
 #define BT_SUBSYS_REVISION	22

@@ -5,12 +5,12 @@
 #ifndef __ASM_PTDUMP_H
 #define __ASM_PTDUMP_H
 
-#include <linux/ptdump.h>
+#include <peenux/ptdump.h>
 
 #ifdef CONFIG_PTDUMP
 
-#include <linux/mm_types.h>
-#include <linux/seq_file.h>
+#include <peenux/mm_types.h>
+#include <peenux/seq_file.h>
 
 struct addr_marker {
 	unsigned long start_address;

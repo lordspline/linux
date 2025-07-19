@@ -1,78 +1,78 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/kernel/sys.c
+ *  peenux/kernel/sys.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/mm_inline.h>
-#include <linux/utsname.h>
-#include <linux/mman.h>
-#include <linux/reboot.h>
-#include <linux/prctl.h>
-#include <linux/highuid.h>
-#include <linux/fs.h>
-#include <linux/kmod.h>
-#include <linux/ksm.h>
-#include <linux/perf_event.h>
-#include <linux/resource.h>
-#include <linux/kernel.h>
-#include <linux/workqueue.h>
-#include <linux/capability.h>
-#include <linux/device.h>
-#include <linux/key.h>
-#include <linux/times.h>
-#include <linux/posix-timers.h>
-#include <linux/security.h>
-#include <linux/random.h>
-#include <linux/suspend.h>
-#include <linux/tty.h>
-#include <linux/signal.h>
-#include <linux/cn_proc.h>
-#include <linux/getcpu.h>
-#include <linux/task_io_accounting_ops.h>
-#include <linux/seccomp.h>
-#include <linux/cpu.h>
-#include <linux/personality.h>
-#include <linux/ptrace.h>
-#include <linux/fs_struct.h>
-#include <linux/file.h>
-#include <linux/mount.h>
-#include <linux/gfp.h>
-#include <linux/syscore_ops.h>
-#include <linux/version.h>
-#include <linux/ctype.h>
-#include <linux/syscall_user_dispatch.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/mm_inline.h>
+#include <peenux/utsname.h>
+#include <peenux/mman.h>
+#include <peenux/reboot.h>
+#include <peenux/prctl.h>
+#include <peenux/highuid.h>
+#include <peenux/fs.h>
+#include <peenux/kmod.h>
+#include <peenux/ksm.h>
+#include <peenux/perf_event.h>
+#include <peenux/resource.h>
+#include <peenux/kernel.h>
+#include <peenux/workqueue.h>
+#include <peenux/capability.h>
+#include <peenux/device.h>
+#include <peenux/key.h>
+#include <peenux/times.h>
+#include <peenux/posix-timers.h>
+#include <peenux/security.h>
+#include <peenux/random.h>
+#include <peenux/suspend.h>
+#include <peenux/tty.h>
+#include <peenux/signal.h>
+#include <peenux/cn_proc.h>
+#include <peenux/getcpu.h>
+#include <peenux/task_io_accounting_ops.h>
+#include <peenux/seccomp.h>
+#include <peenux/cpu.h>
+#include <peenux/personality.h>
+#include <peenux/ptrace.h>
+#include <peenux/fs_struct.h>
+#include <peenux/file.h>
+#include <peenux/mount.h>
+#include <peenux/gfp.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/version.h>
+#include <peenux/ctype.h>
+#include <peenux/syscall_user_dispatch.h>
 
-#include <linux/compat.h>
-#include <linux/syscalls.h>
-#include <linux/kprobes.h>
-#include <linux/user_namespace.h>
-#include <linux/time_namespace.h>
-#include <linux/binfmts.h>
-#include <linux/futex.h>
+#include <peenux/compat.h>
+#include <peenux/syscalls.h>
+#include <peenux/kprobes.h>
+#include <peenux/user_namespace.h>
+#include <peenux/time_namespace.h>
+#include <peenux/binfmts.h>
+#include <peenux/futex.h>
 
-#include <linux/sched.h>
-#include <linux/sched/autogroup.h>
-#include <linux/sched/loadavg.h>
-#include <linux/sched/stat.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/coredump.h>
-#include <linux/sched/task.h>
-#include <linux/sched/cputime.h>
-#include <linux/rcupdate.h>
-#include <linux/uidgid.h>
-#include <linux/cred.h>
+#include <peenux/sched.h>
+#include <peenux/sched/autogroup.h>
+#include <peenux/sched/loadavg.h>
+#include <peenux/sched/stat.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/coredump.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/rcupdate.h>
+#include <peenux/uidgid.h>
+#include <peenux/cred.h>
 
-#include <linux/nospec.h>
+#include <peenux/nospec.h>
 
-#include <linux/kmsg_dump.h>
+#include <peenux/kmsg_dump.h>
 /* Move somewhere else to avoid recompiling? */
 #include <generated/utsrelease.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 #include <asm/unistd.h>
 
@@ -1288,7 +1288,7 @@ DECLARE_RWSEM(uts_sem);
 #endif
 
 /*
- * Work around broken programs that cannot handle "Linux 3.0".
+ * Work around broken programs that cannot handle "Peenux 3.0".
  * Instead we map 3.x to 2.6.40+x, so e.g. 3.0 would be 2.6.40
  * And we map 4.x and later versions to 2.6.60+x, so 4.0/5.0/6.0/... would be
  * 2.6.60.

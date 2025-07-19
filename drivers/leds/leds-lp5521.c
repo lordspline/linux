@@ -9,16 +9,16 @@
  *          Milo(Woogyom) Kim <milo.kim@ti.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_data/leds-lp55xx.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_data/leds-lp55xx.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
 #include "leds-lp55xx-common.h"
 

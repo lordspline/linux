@@ -5,29 +5,29 @@
  *
  * Copyright (C) 1995 - 2000 by Ralf Baechle
  */
-#include <linux/context_tracking.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/ratelimit.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kprobes.h>
-#include <linux/perf_event.h>
-#include <linux/uaccess.h>
+#include <peenux/context_tracking.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/ratelimit.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/kprobes.h>
+#include <peenux/perf_event.h>
+#include <peenux/uaccess.h>
 
 #include <asm/branch.h>
 #include <asm/mmu_context.h>
 #include <asm/ptrace.h>
 #include <asm/highmem.h>		/* For VMALLOC_END */
 #include <asm/traps.h>
-#include <linux/kdebug.h>
+#include <peenux/kdebug.h>
 
 int show_unhandled_signals = 1;
 

@@ -9,11 +9,11 @@
  */
 
 #include <crypto/aes.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/crypto.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/crypto.h>
 #include <asm/byteorder.h>
 #include <asm/switch_to.h>
 #include <crypto/algapi.h>

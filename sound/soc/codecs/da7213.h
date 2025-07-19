@@ -11,9 +11,9 @@
 #ifndef _DA7213_H
 #define _DA7213_H
 
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/da7213.h>
 
 /*

@@ -2,15 +2,15 @@
 /*
  * This file contains work-arounds for x86 and x86_64 platform bugs.
  */
-#include <linux/dmi.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
+#include <peenux/dmi.h>
+#include <peenux/pci.h>
+#include <peenux/irq.h>
 
 #include <asm/hpet.h>
 #include <asm/setup.h>
 #include <asm/mce.h>
 
-#include <linux/platform_data/x86/apple.h>
+#include <peenux/platform_data/x86/apple.h>
 
 #if defined(CONFIG_X86_IO_APIC) && defined(CONFIG_SMP) && defined(CONFIG_PCI)
 

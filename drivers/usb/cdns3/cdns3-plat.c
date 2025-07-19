@@ -12,12 +12,12 @@
  *         Roger Quadros <rogerq@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include "core.h"
 #include "gadget-export.h"
@@ -178,7 +178,7 @@ err_phy3_init:
 
 /**
  * cdns3_plat_remove() - unbind drd driver and clean up
- * @pdev: Pointer to Linux platform device
+ * @pdev: Pointer to Peenux platform device
  */
 static void cdns3_plat_remove(struct platform_device *pdev)
 {

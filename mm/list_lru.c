@@ -5,13 +5,13 @@
  *
  * Generic LRU infrastructure
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/list_lru.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/memcontrol.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/list_lru.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/memcontrol.h>
 #include "slab.h"
 #include "internal.h"
 

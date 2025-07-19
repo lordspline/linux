@@ -7,15 +7,15 @@
 
 #define pr_fmt(fmt) "efi: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/miscdevice.h>
-#include <linux/highmem.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/efi.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/miscdevice.h>
+#include <peenux/highmem.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/efi.h>
+#include <peenux/vmalloc.h>
 
 #define NO_FURTHER_WRITE_ACTION -1
 

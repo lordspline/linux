@@ -5,9 +5,9 @@
 // Copyright (c) 2018 Linaro Ltd.
 // Author: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>
 
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <peenux/delay.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
 
 #include "owl-reset.h"
 

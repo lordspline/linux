@@ -28,12 +28,12 @@
  * status of a command.
  */
 
-#include <linux/sched.h>
-#include <linux/gfp.h>
-#include <linux/errno.h>
-#include <linux/export.h>
+#include <peenux/sched.h>
+#include <peenux/gfp.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
 
-#include <linux/usb/quirks.h>
+#include <peenux/usb/quirks.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_eh.h>
@@ -45,7 +45,7 @@
 #include "scsiglue.h"
 #include "debug.h"
 
-#include <linux/blkdev.h>
+#include <peenux/blkdev.h>
 #include "../../scsi/sd.h"
 
 

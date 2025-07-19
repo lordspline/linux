@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
+#include <peenux/module.h>
 
 #include <net/sock.h>
-#include <linux/netlink.h>
-#include <linux/sock_diag.h>
-#include <linux/netlink_diag.h>
-#include <linux/rhashtable.h>
+#include <peenux/netlink.h>
+#include <peenux/sock_diag.h>
+#include <peenux/netlink_diag.h>
+#include <peenux/rhashtable.h>
 
 #include "af_netlink.h"
 

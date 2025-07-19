@@ -8,7 +8,7 @@
 
 /*
  * The MMCIF driver is now processing MMC requests asynchronously, according
- * to the Linux MMC API requirement.
+ * to the Peenux MMC API requirement.
  *
  * The MMCIF driver processes MMC requests in up to 3 stages: command, optional
  * data, and optional stop. To achieve asynchronous processing each of these
@@ -32,28 +32,28 @@
  * bottom half waiting state.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/core.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/pagemap.h>
-#include <linux/platform_data/sh_mmcif.h>
-#include <linux/platform_device.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_runtime.h>
-#include <linux/sh_dma.h>
-#include <linux/spinlock.h>
-#include <linux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/pagemap.h>
+#include <peenux/platform_data/sh_mmcif.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_qos.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sh_dma.h>
+#include <peenux/spinlock.h>
+#include <peenux/module.h>
 
 #define DRIVER_NAME	"sh_mmcif"
 
@@ -1563,7 +1563,7 @@ static void sh_mmcif_remove(struct platform_device *pdev)
 	/*
 	 * FIXME: cancel_delayed_work(_sync)() and free_irq() race with the
 	 * mmc_remove_host() call above. But swapping order doesn't help either
-	 * (a query on the linux-mmc mailing list didn't bring any replies).
+	 * (a query on the peenux-mmc mailing list didn't bring any replies).
 	 */
 	cancel_delayed_work_sync(&host->timeout_work);
 

@@ -5,16 +5,16 @@
  * Copyright (C) 2010 Gabor Juhos <juhosg@openwrt.org>
  * Copyright (C) 2015 Bert Vermeulen <bert@biot.com>
  *
- * This file was based on the patches for Linux 2.6.27.39 published by
+ * This file was based on the patches for Peenux 2.6.27.39 published by
  * MikroTik for their RouterBoard 4xx series devices.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/spi/spi.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/spi/spi.h>
+#include <peenux/of.h>
 
 #include <asm/mach-ath79/ar71xx_regs.h>
 

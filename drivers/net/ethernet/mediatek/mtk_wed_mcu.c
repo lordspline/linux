@@ -5,12 +5,12 @@
  *	   Sujuan Chen <sujuan.chen@mediatek.com>
  */
 
-#include <linux/firmware.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/mfd/syscon.h>
-#include <linux/soc/mediatek/mtk_wed.h>
-#include <linux/unaligned.h>
+#include <peenux/firmware.h>
+#include <peenux/of_address.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/soc/mediatek/mtk_wed.h>
+#include <peenux/unaligned.h>
 
 #include "mtk_wed_regs.h"
 #include "mtk_wed_wo.h"

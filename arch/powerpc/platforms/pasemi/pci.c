@@ -11,9 +11,9 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/of_address.h>
+#include <peenux/pci.h>
 
 #include <asm/pci-bridge.h>
 #include <asm/isa-bridge.h>

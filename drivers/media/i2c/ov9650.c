@@ -8,18 +8,18 @@
  * by Vladimir Fonov.
  * Copyright (c) 2010, Vladimir Fonov
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/media.h>
-#include <linux/module.h>
-#include <linux/ratelimit.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/videodev2.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/media.h>
+#include <peenux/module.h>
+#include <peenux/ratelimit.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/videodev2.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-async.h>

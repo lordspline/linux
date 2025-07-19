@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	Real Time Clock interface for Linux on the BVME6000
+ *	Real Time Clock interface for Peenux on the BVME6000
  *
  * Based on the PC driver by Paul Gortmaker.
  */
 
 #define RTC_VERSION		"1.00"
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/miscdevice.h>
-#include <linux/ioport.h>
-#include <linux/capability.h>
-#include <linux/fcntl.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/module.h>
-#include <linux/rtc.h>	/* For struct rtc_time and ioctls, etc */
-#include <linux/bcd.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/miscdevice.h>
+#include <peenux/ioport.h>
+#include <peenux/capability.h>
+#include <peenux/fcntl.h>
+#include <peenux/init.h>
+#include <peenux/poll.h>
+#include <peenux/module.h>
+#include <peenux/rtc.h>	/* For struct rtc_time and ioctls, etc */
+#include <peenux/bcd.h>
 #include <asm/bvme6000hw.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/setup.h>
 
 /*

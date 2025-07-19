@@ -3,13 +3,13 @@
  * CHRP pci routines.
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/pgtable.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/pgtable.h>
+#include <peenux/of_address.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>

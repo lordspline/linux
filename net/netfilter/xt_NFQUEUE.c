@@ -6,13 +6,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
 
-#include <linux/netfilter.h>
-#include <linux/netfilter_arp.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_NFQUEUE.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_arp.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_NFQUEUE.h>
 
 #include <net/netfilter/nf_queue.h>
 

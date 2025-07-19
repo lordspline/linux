@@ -7,12 +7,12 @@
  * Based on sh_dac_audio.c (Copyright (C) 2004, 2005 by Andriy Skulysh)
  */
 
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/hrtimer.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

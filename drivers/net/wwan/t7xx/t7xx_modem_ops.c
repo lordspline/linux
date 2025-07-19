@@ -7,7 +7,7 @@
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Eliot Lee <eliot.lee@intel.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *
  * Contributors:
  *  Amir Hanania <amir.hanania@intel.com>
@@ -15,21 +15,21 @@
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/irqreturn.h>
-#include <linux/kthread.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/gfp.h>
+#include <peenux/io.h>
+#include <peenux/irqreturn.h>
+#include <peenux/kthread.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
 #include "t7xx_cldma.h"
 #include "t7xx_hif_cldma.h"

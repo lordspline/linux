@@ -3,17 +3,17 @@
  *
  * Copyright (C) 2023 Ji-Ze Hong (Peter Hong) <peter_hong@fintek.com.tw>
  */
-#include <linux/bitfield.h>
-#include <linux/netdevice.h>
-#include <linux/units.h>
-#include <linux/usb.h>
+#include <peenux/bitfield.h>
+#include <peenux/netdevice.h>
+#include <peenux/units.h>
+#include <peenux/usb.h>
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/can/platform/sja1000.h>
+#include <peenux/can.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
+#include <peenux/can/platform/sja1000.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* vendor and product id */
 #define F81604_VENDOR_ID 0x2c42

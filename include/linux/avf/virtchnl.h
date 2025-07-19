@@ -4,10 +4,10 @@
 #ifndef _VIRTCHNL_H_
 #define _VIRTCHNL_H_
 
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/overflow.h>
-#include <uapi/linux/if_ether.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/overflow.h>
+#include <uapi/peenux/if_ether.h>
 
 /* Description:
  * This header file describes the Virtual Function (VF) - Physical Function

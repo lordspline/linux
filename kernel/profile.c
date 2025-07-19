@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/kernel/profile.c
+ *  peenux/kernel/profile.c
  *  Simple profiling. Manages a direct-mapped profile hit count buffer,
  *  with configurable resolution, support for restricting the cpus on
  *  which profiling is done, and switching between cpu time and
@@ -15,18 +15,18 @@
  *	Oracle, 2004
  */
 
-#include <linux/export.h>
-#include <linux/profile.h>
-#include <linux/memblock.h>
-#include <linux/notifier.h>
-#include <linux/mm.h>
-#include <linux/cpumask.h>
-#include <linux/cpu.h>
-#include <linux/highmem.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/sched/stat.h>
+#include <peenux/export.h>
+#include <peenux/profile.h>
+#include <peenux/memblock.h>
+#include <peenux/notifier.h>
+#include <peenux/mm.h>
+#include <peenux/cpumask.h>
+#include <peenux/cpu.h>
+#include <peenux/highmem.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sched/stat.h>
 
 #include <asm/sections.h>
 #include <asm/irq_regs.h>
@@ -140,9 +140,9 @@ void profile_tick(int type)
 }
 
 #ifdef CONFIG_PROC_FS
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/uaccess.h>
 
 /*
  * This function accesses profiling information. The returned data is

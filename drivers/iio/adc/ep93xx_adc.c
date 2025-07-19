@@ -11,17 +11,17 @@
  * basically renders IRQ mode unusable.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/iio/iio.h>
-#include <linux/io.h>
-#include <linux/irqflags.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/iio/iio.h>
+#include <peenux/io.h>
+#include <peenux/irqflags.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
 
 /*
  * This code could benefit from real HR Timers, but jiffy granularity would

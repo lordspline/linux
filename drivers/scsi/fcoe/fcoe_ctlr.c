@@ -6,20 +6,20 @@
  * Maintained at www.Open-FCoE.org
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/errno.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/errno.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
 #include <net/rtnetlink.h>
 
 #include <scsi/fc/fc_els.h>

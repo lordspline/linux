@@ -17,26 +17,26 @@
 #include <asm/xen/hypercall.h>
 #include <asm/system_misc.h>
 #include <asm/efi.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/cpuidle.h>
-#include <linux/cpufreq.h>
-#include <linux/cpu.h>
-#include <linux/console.h>
-#include <linux/pvclock_gtod.h>
-#include <linux/reboot.h>
-#include <linux/time64.h>
-#include <linux/timekeeping.h>
-#include <linux/timekeeper_internal.h>
-#include <linux/acpi.h>
-#include <linux/virtio_anchor.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/cpuidle.h>
+#include <peenux/cpufreq.h>
+#include <peenux/cpu.h>
+#include <peenux/console.h>
+#include <peenux/pvclock_gtod.h>
+#include <peenux/reboot.h>
+#include <peenux/time64.h>
+#include <peenux/timekeeping.h>
+#include <peenux/timekeeper_internal.h>
+#include <peenux/acpi.h>
+#include <peenux/virtio_anchor.h>
 
-#include <linux/mm.h>
+#include <peenux/mm.h>
 
 static struct start_info _xen_start_info;
 struct start_info *xen_start_info = &_xen_start_info;
@@ -51,7 +51,7 @@ struct shared_info *HYPERVISOR_shared_info = (void *)&xen_dummy_shared_info;
 DEFINE_PER_CPU(struct vcpu_info *, xen_vcpu);
 static struct vcpu_info __percpu *xen_vcpu_info;
 
-/* Linux <-> Xen vCPU id mapping */
+/* Peenux <-> Xen vCPU id mapping */
 DEFINE_PER_CPU(uint32_t, xen_vcpu_id);
 EXPORT_PER_CPU_SYMBOL(xen_vcpu_id);
 

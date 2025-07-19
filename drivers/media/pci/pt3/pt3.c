@@ -5,14 +5,14 @@
  * Copyright (C) 2014 Akihiro Tsukada <tskd08@gmail.com>
  */
 
-#include <linux/freezer.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/sched/signal.h>
+#include <peenux/freezer.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
+#include <peenux/sched/signal.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

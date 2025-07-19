@@ -3,16 +3,16 @@
  * Copyright (C) 2013 - 2024 Intel Corporation
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include "ipu6.h"
 #include "ipu6-bus.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * PPP synchronous tty channel driver for Linux.
+ * PPP synchronous tty channel driver for Peenux.
  *
  * This is a ppp channel driver that can be used with tty device drivers
  * that are frame oriented, such as synchronous HDLC devices.
@@ -28,23 +28,23 @@
  * ==FILEVERSION 20040616==
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/tty.h>
-#include <linux/netdevice.h>
-#include <linux/poll.h>
-#include <linux/ppp_defs.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/ppp_channel.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/refcount.h>
-#include <linux/unaligned.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/tty.h>
+#include <peenux/netdevice.h>
+#include <peenux/poll.h>
+#include <peenux/ppp_defs.h>
+#include <peenux/ppp-ioctl.h>
+#include <peenux/ppp_channel.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/refcount.h>
+#include <peenux/unaligned.h>
+#include <peenux/uaccess.h>
 
 #define PPP_VERSION	"2.4.2"
 

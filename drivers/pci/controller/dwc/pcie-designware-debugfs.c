@@ -8,7 +8,7 @@
  * Author: Shradha Todi <shradha.t@samsung.com>
  */
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 #include "pcie-designware.h"
 

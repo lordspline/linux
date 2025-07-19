@@ -8,21 +8,21 @@
 
 #include <dt-bindings/phy/phy.h>
 #include <dt-bindings/phy/phy-ti.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mux/consumer.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mux/consumer.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
 
 #define REF_CLK_19_2MHZ         19200000
 #define REF_CLK_25MHZ           25000000

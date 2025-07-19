@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/netlink.h>
-#include <linux/skbuff.h>
-#include <linux/xarray.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/idr.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/netlink.h>
+#include <peenux/skbuff.h>
+#include <peenux/xarray.h>
 #include <net/devlink.h>
 #include <net/net_shaper.h>
 

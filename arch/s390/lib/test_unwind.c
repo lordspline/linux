@@ -5,16 +5,16 @@
 
 #include <kunit/test.h>
 #include <asm/unwind.h>
-#include <linux/completion.h>
-#include <linux/kallsyms.h>
-#include <linux/kthread.h>
-#include <linux/ftrace.h>
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/kprobes.h>
-#include <linux/wait.h>
+#include <peenux/completion.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kthread.h>
+#include <peenux/ftrace.h>
+#include <peenux/module.h>
+#include <peenux/timer.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/kprobes.h>
+#include <peenux/wait.h>
 #include <asm/irq.h>
 
 static struct kunit *current_test;

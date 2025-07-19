@@ -18,12 +18,12 @@
  *   the output at low level at all times.
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
 
 #define PIPGM_PCSR(ch) (0x400 + 4 * (ch))
 #define PIPGM_PDUT(ch) (0x420 + 4 * (ch))

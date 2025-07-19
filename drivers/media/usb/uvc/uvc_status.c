@@ -7,11 +7,11 @@
  */
 
 #include <asm/barrier.h>
-#include <linux/kernel.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
+#include <peenux/kernel.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/usb/input.h>
 
 #include "uvcvideo.h"
 

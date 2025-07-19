@@ -16,11 +16,11 @@
  * a specific device.
  */
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
 
 #include <sound/pcm.h>
 #include <sound/core.h>

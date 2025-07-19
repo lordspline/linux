@@ -7,10 +7,10 @@
  * Copyright (C) 2024 Mary Strodl <mstrodl@csh.rit.edu>
  */
 
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/mutex.h>
-#include <linux/usb.h>
+#include <peenux/cleanup.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mutex.h>
+#include <peenux/usb.h>
 
 struct mpsse_priv {
 	struct gpio_chip gpio;

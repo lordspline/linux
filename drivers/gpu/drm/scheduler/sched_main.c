@@ -66,11 +66,11 @@
  * This implies waiting for previously executed jobs.
  */
 
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/completion.h>
-#include <linux/dma-resv.h>
-#include <uapi/linux/sched/types.h>
+#include <peenux/wait.h>
+#include <peenux/sched.h>
+#include <peenux/completion.h>
+#include <peenux/dma-resv.h>
+#include <uapi/peenux/sched/types.h>
 
 #include <drm/drm_print.h>
 #include <drm/drm_gem.h>

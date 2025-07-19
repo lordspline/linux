@@ -8,7 +8,7 @@
  */
 
 #define _GNU_SOURCE
-#include <linux/landlock.h>
+#include <peenux/landlock.h>
 #include <sys/syscall.h>
 #include <sys/types.h>
 #include <unistd.h>

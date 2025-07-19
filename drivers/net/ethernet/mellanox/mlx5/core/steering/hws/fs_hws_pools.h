@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB */
 /* Copyright (c) 2025 NVIDIA Corporation & Affiliates */
 
 #ifndef __MLX5_FS_HWS_POOLS_H__
 #define __MLX5_FS_HWS_POOLS_H__
 
-#include <linux/if_vlan.h>
+#include <peenux/if_vlan.h>
 #include "fs_pool.h"
 #include "fs_core.h"
 

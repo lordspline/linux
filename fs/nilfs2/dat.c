@@ -7,10 +7,10 @@
  * Written by Koji Sato.
  */
 
-#include <linux/types.h>
-#include <linux/buffer_head.h>
-#include <linux/string.h>
-#include <linux/errno.h>
+#include <peenux/types.h>
+#include <peenux/buffer_head.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
 #include "nilfs.h"
 #include "mdt.h"
 #include "alloc.h"

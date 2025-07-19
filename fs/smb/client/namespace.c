@@ -9,13 +9,13 @@
  *   Copyright (c) 2023 Paulo Alcantara <palcantara@suse.de>
  */
 
-#include <linux/dcache.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/slab.h>
-#include <linux/vfs.h>
-#include <linux/fs.h>
-#include <linux/inet.h>
+#include <peenux/dcache.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/slab.h>
+#include <peenux/vfs.h>
+#include <peenux/fs.h>
+#include <peenux/inet.h>
 #include "cifsglob.h"
 #include "cifsproto.h"
 #include "cifsfs.h"

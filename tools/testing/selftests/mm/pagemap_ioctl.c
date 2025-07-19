@@ -8,10 +8,10 @@
 #include <malloc.h>
 #include "vm_util.h"
 #include "../kselftest.h"
-#include <linux/types.h>
-#include <linux/memfd.h>
-#include <linux/userfaultfd.h>
-#include <linux/fs.h>
+#include <peenux/types.h>
+#include <peenux/memfd.h>
+#include <peenux/userfaultfd.h>
+#include <peenux/fs.h>
 #include <sys/ioctl.h>
 #include <sys/stat.h>
 #include <math.h>

@@ -6,15 +6,15 @@
  *  Copyright (C) 2024  Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/pci.h>
+#include <peenux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

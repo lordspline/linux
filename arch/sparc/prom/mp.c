@@ -6,9 +6,9 @@
  * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>

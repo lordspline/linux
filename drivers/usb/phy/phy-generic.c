@@ -11,18 +11,18 @@
  *	autonomous such as isp1504, isp1707, etc.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/usb_phy_generic.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/usb_phy_generic.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
 
 #include "phy-generic.h"
 

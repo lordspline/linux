@@ -6,15 +6,15 @@
  * Copyright IBM Corp. 1999, 2012
  */
 
-#include <linux/buffer_head.h>
-#include <linux/hdreg.h>
-#include <linux/slab.h>
+#include <peenux/buffer_head.h>
+#include <peenux/hdreg.h>
+#include <peenux/slab.h>
 #include <asm/dasd.h>
 #include <asm/ebcdic.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/vtoc.h>
-#include <linux/module.h>
-#include <linux/dasd_mod.h>
+#include <peenux/module.h>
+#include <peenux/dasd_mod.h>
 
 #include "check.h"
 

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Hauppauge HD PVR USB driver - video 4 linux 2 interface
+ * Hauppauge HD PVR USB driver - video 4 peenux 2 interface
  *
  * Copyright (C) 2008      Janne Grunau (j@jannau.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/mutex.h>
 
-#include <linux/videodev2.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-common.h>
 

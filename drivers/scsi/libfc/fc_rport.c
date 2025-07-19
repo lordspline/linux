@@ -45,17 +45,17 @@
  * - an rport is removed
  */
 
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/rcupdate.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
-#include <linux/export.h>
-#include <linux/rculist.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/rcupdate.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
+#include <peenux/export.h>
+#include <peenux/rculist.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <scsi/libfc.h>
 

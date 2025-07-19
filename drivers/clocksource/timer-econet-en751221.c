@@ -5,16 +5,16 @@
  * Copyright (C) 2025 by Caleb James DeLisle <cjd@cjdns.fr>
  */
 
-#include <linux/io.h>
-#include <linux/cpumask.h>
-#include <linux/interrupt.h>
-#include <linux/clockchips.h>
-#include <linux/sched_clock.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/cpuhotplug.h>
-#include <linux/clk.h>
+#include <peenux/io.h>
+#include <peenux/cpumask.h>
+#include <peenux/interrupt.h>
+#include <peenux/clockchips.h>
+#include <peenux/sched_clock.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/clk.h>
 
 #define ECONET_BITS			32
 #define ECONET_MIN_DELTA		0x00001000

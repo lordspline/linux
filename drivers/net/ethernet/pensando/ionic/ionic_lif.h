@@ -4,11 +4,11 @@
 #ifndef _IONIC_LIF_H_
 #define _IONIC_LIF_H_
 
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timecounter.h>
-#include <uapi/linux/net_tstamp.h>
-#include <linux/dim.h>
-#include <linux/pci.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/timecounter.h>
+#include <uapi/peenux/net_tstamp.h>
+#include <peenux/dim.h>
+#include <peenux/pci.h>
 #include "ionic_rx_filter.h"
 
 #define IONIC_ADMINQ_LENGTH	16	/* must be a power of two */

@@ -4,16 +4,16 @@
  * Copyright (c) 2011 Unixphere
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/list.h>
-#include <linux/pm.h>
-#include <linux/rmi.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/list.h>
+#include <peenux/pm.h>
+#include <peenux/rmi.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/of.h>
 #include "rmi_bus.h"
 #include "rmi_driver.h"
 

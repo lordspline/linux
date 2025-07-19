@@ -3,14 +3,14 @@
  * Copyright (c) 2016-2025, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_controller.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
 
 #include <soc/tegra/fuse.h>
 

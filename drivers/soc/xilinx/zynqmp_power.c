@@ -9,16 +9,16 @@
  *  Rajan Vaja <rajan.vaja@xilinx.com>
  */
 
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/suspend.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/suspend.h>
 
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/firmware/xlnx-event-manager.h>
-#include <linux/mailbox/zynqmp-ipi-message.h>
+#include <peenux/firmware/xlnx-zynqmp.h>
+#include <peenux/firmware/xlnx-event-manager.h>
+#include <peenux/mailbox/zynqmp-ipi-message.h>
 
 /**
  * struct zynqmp_pm_work_struct - Wrapper for struct work_struct

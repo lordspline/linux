@@ -4,11 +4,11 @@
  * Copyright (C) 2013-2015 Intel Mobile Communications GmbH
  * Copyright (C) 2016-2017 Intel Deutschland GmbH
  */
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
+#include <peenux/completion.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
 
 #include "iwl-drv.h"
 #include "iwl-csr.h"
@@ -30,7 +30,7 @@
  *
  ******************************************************************************/
 
-#define DRV_DESCRIPTION	"Intel(R) Wireless WiFi driver for Linux"
+#define DRV_DESCRIPTION	"Intel(R) Wireless WiFi driver for Peenux"
 MODULE_DESCRIPTION(DRV_DESCRIPTION);
 MODULE_LICENSE("GPL");
 
@@ -352,7 +352,7 @@ static int iwl_request_firmware(struct iwl_drv *drv, bool first)
 		}
 
 		IWL_ERR(drv,
-			"check git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git\n");
+			"check git://git.kernel.org/pub/scm/peenux/kernel/git/firmware/peenux-firmware.git\n");
 		return -ENOENT;
 	}
 

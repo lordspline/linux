@@ -7,19 +7,19 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/registers.h>
+#include <peenux/mfd/arizona/core.h>
+#include <peenux/mfd/arizona/registers.h>
 
 #include "arizona.h"
 

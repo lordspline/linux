@@ -14,8 +14,8 @@
 #include "sb-members.h"
 #include "trace.h"
 
-#include <linux/kthread.h>
-#include <linux/sched/mm.h>
+#include <peenux/kthread.h>
+#include <peenux/sched/mm.h>
 
 static bool __should_discard_bucket(struct journal *, struct journal_device *);
 

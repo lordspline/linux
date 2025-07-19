@@ -8,13 +8,13 @@
  * Copyright (c) 2007 Ujjwal Pande <ujjwal@kenati.com>,
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gpio.h>
 #include <video/sh_mobile_lcdc.h>
 #include <cpu/sh7722.h>
 #include <mach/migor.h>

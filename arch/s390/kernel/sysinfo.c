@@ -5,16 +5,16 @@
  *	       Martin Schwidefsky <schwidefsky@de.ibm.com>,
  */
 
-#include <linux/cpufeature.h>
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <peenux/cpufeature.h>
+#include <peenux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
 #include <asm/asm-extable.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>

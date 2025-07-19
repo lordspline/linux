@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/dmi.h>
-#include <linux/efi.h>
-#include <linux/pci.h>
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/dmi.h>
+#include <peenux/efi.h>
+#include <peenux/pci.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
 #include <media/v4l2-subdev.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio.h>
-#include <linux/platform_device.h>
-#include "../../include/linux/atomisp_platform.h"
-#include "../../include/linux/atomisp_gmin_platform.h"
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio.h>
+#include <peenux/platform_device.h>
+#include "../../include/peenux/atomisp_platform.h"
+#include "../../include/peenux/atomisp_gmin_platform.h"
 
 #define MAX_SUBDEVS 8
 

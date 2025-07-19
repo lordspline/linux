@@ -7,13 +7,13 @@
 //
 // S3C common power management (suspend to ram) support.
 
-#include <linux/init.h>
-#include <linux/suspend.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/serial_s3c.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/suspend.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/serial_s3c.h>
+#include <peenux/io.h>
 
 #include <asm/cacheflush.h>
 #include <asm/suspend.h>

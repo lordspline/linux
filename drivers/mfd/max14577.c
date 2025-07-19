@@ -8,14 +8,14 @@
 //
 // This driver is based on max8997.c
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/max14577.h>
-#include <linux/mfd/max14577-private.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/max14577.h>
+#include <peenux/mfd/max14577-private.h>
 
 /*
  * Table of valid charger currents for different Maxim chipsets.

@@ -6,16 +6,16 @@
  *
  * Copyright (C) 2017 Eric Nelson
  */
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/rtc.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/bcd.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/bcd.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 /*
  * Date/Time registers

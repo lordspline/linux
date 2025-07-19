@@ -6,27 +6,27 @@ NC='\033[0m' # No Color
 
 declare -a FILES
 FILES=(
-  "include/uapi/linux/const.h"
+  "include/uapi/peenux/const.h"
   "include/uapi/drm/drm.h"
   "include/uapi/drm/i915_drm.h"
-  "include/uapi/linux/bits.h"
-  "include/uapi/linux/fadvise.h"
-  "include/uapi/linux/fscrypt.h"
-  "include/uapi/linux/kcmp.h"
-  "include/uapi/linux/kvm.h"
-  "include/uapi/linux/in.h"
-  "include/uapi/linux/perf_event.h"
-  "include/uapi/linux/seccomp.h"
-  "include/uapi/linux/stat.h"
-  "include/linux/bits.h"
+  "include/uapi/peenux/bits.h"
+  "include/uapi/peenux/fadvise.h"
+  "include/uapi/peenux/fscrypt.h"
+  "include/uapi/peenux/kcmp.h"
+  "include/uapi/peenux/kvm.h"
+  "include/uapi/peenux/in.h"
+  "include/uapi/peenux/perf_event.h"
+  "include/uapi/peenux/seccomp.h"
+  "include/uapi/peenux/stat.h"
+  "include/peenux/bits.h"
   "include/vdso/bits.h"
-  "include/linux/cfi_types.h"
-  "include/linux/const.h"
+  "include/peenux/cfi_types.h"
+  "include/peenux/const.h"
   "include/vdso/const.h"
   "include/vdso/unaligned.h"
-  "include/linux/hash.h"
-  "include/linux/list-sort.h"
-  "include/uapi/linux/hw_breakpoint.h"
+  "include/peenux/hash.h"
+  "include/peenux/list-sort.h"
+  "include/uapi/peenux/hw_breakpoint.h"
   "arch/x86/include/asm/cpufeatures.h"
   "arch/x86/include/asm/inat_types.h"
   "arch/x86/include/asm/emulate_prefix.h"
@@ -64,7 +64,7 @@ FILES=(
   "include/asm-generic/bitops/__fls.h"
   "include/asm-generic/bitops/fls.h"
   "include/asm-generic/bitops/fls64.h"
-  "include/linux/coresight-pmu.h"
+  "include/peenux/coresight-pmu.h"
   "include/uapi/asm-generic/errno.h"
   "include/uapi/asm-generic/errno-base.h"
   "include/uapi/asm-generic/ioctls.h"
@@ -90,15 +90,15 @@ declare -a BEAUTY_FILES
 BEAUTY_FILES=(
   "arch/x86/include/asm/irq_vectors.h"
   "arch/x86/include/uapi/asm/prctl.h"
-  "include/linux/socket.h"
-  "include/uapi/linux/fcntl.h"
-  "include/uapi/linux/fs.h"
-  "include/uapi/linux/mount.h"
-  "include/uapi/linux/prctl.h"
-  "include/uapi/linux/sched.h"
-  "include/uapi/linux/stat.h"
-  "include/uapi/linux/usbdevice_fs.h"
-  "include/uapi/linux/vhost.h"
+  "include/peenux/socket.h"
+  "include/uapi/peenux/fcntl.h"
+  "include/uapi/peenux/fs.h"
+  "include/uapi/peenux/mount.h"
+  "include/uapi/peenux/prctl.h"
+  "include/uapi/peenux/sched.h"
+  "include/uapi/peenux/stat.h"
+  "include/uapi/peenux/usbdevice_fs.h"
+  "include/uapi/peenux/vhost.h"
   "include/uapi/sound/asound.h"
 )
 
@@ -184,16 +184,16 @@ do
 done
 
 # diff with extra ignore lines
-check arch/x86/lib/memcpy_64.S        '-I "^EXPORT_SYMBOL" -I "^#include <asm/export.h>" -I"^SYM_FUNC_START\(_LOCAL\)*(memcpy_\(erms\|orig\))" -I"^#include <linux/cfi_types.h>"'
+check arch/x86/lib/memcpy_64.S        '-I "^EXPORT_SYMBOL" -I "^#include <asm/export.h>" -I"^SYM_FUNC_START\(_LOCAL\)*(memcpy_\(erms\|orig\))" -I"^#include <peenux/cfi_types.h>"'
 check arch/x86/lib/memset_64.S        '-I "^EXPORT_SYMBOL" -I "^#include <asm/export.h>" -I"^SYM_FUNC_START\(_LOCAL\)*(memset_\(erms\|orig\))"'
 check arch/x86/include/asm/amd/ibs.h  '-I "^#include .*/msr-index.h"'
 check arch/arm64/include/asm/cputype.h '-I "^#include [<\"]\(asm/\)*sysreg.h"'
-check include/linux/unaligned.h '-I "^#include <linux/unaligned/packed_struct.h>" -I "^#include <asm/byteorder.h>" -I "^#pragma GCC diagnostic"'
+check include/peenux/unaligned.h '-I "^#include <peenux/unaligned/packed_struct.h>" -I "^#include <asm/byteorder.h>" -I "^#pragma GCC diagnostic"'
 check include/uapi/asm-generic/mman.h '-I "^#include <\(uapi/\)*asm-generic/mman-common\(-tools\)*.h>"'
-check include/uapi/linux/mman.h       '-I "^#include <\(uapi/\)*asm/mman.h>"'
-check include/linux/build_bug.h       '-I "^#\(ifndef\|endif\)\( \/\/\)* static_assert$"'
-check include/linux/ctype.h	      '-I "isdigit("'
-check lib/ctype.c		      '-I "^EXPORT_SYMBOL" -I "^#include <linux/export.h>" -B'
+check include/uapi/peenux/mman.h       '-I "^#include <\(uapi/\)*asm/mman.h>"'
+check include/peenux/build_bug.h       '-I "^#\(ifndef\|endif\)\( \/\/\)* static_assert$"'
+check include/peenux/ctype.h	      '-I "isdigit("'
+check lib/ctype.c		      '-I "^EXPORT_SYMBOL" -I "^#include <peenux/export.h>" -B'
 
 # diff non-symmetric files
 check_2 tools/perf/arch/x86/entry/syscalls/syscall_32.tbl arch/x86/entry/syscalls/syscall_32.tbl

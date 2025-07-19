@@ -11,24 +11,24 @@
 
 #define pr_fmt(fmt) "LSM: " fmt
 
-#include <linux/bpf.h>
-#include <linux/capability.h>
-#include <linux/dcache.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kernel_read_file.h>
-#include <linux/lsm_hooks.h>
-#include <linux/mman.h>
-#include <linux/mount.h>
-#include <linux/personality.h>
-#include <linux/backing-dev.h>
-#include <linux/string.h>
-#include <linux/xattr.h>
-#include <linux/msg.h>
-#include <linux/overflow.h>
-#include <linux/perf_event.h>
-#include <linux/fs.h>
+#include <peenux/bpf.h>
+#include <peenux/capability.h>
+#include <peenux/dcache.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/lsm_hooks.h>
+#include <peenux/mman.h>
+#include <peenux/mount.h>
+#include <peenux/personality.h>
+#include <peenux/backing-dev.h>
+#include <peenux/string.h>
+#include <peenux/xattr.h>
+#include <peenux/msg.h>
+#include <peenux/overflow.h>
+#include <peenux/perf_event.h>
+#include <peenux/fs.h>
 #include <net/flow.h>
 #include <net/sock.h>
 
@@ -36,7 +36,7 @@
 
 /*
  * Identifier for the LSM static calls.
- * HOOK is an LSM hook as defined in linux/lsm_hookdefs.h
+ * HOOK is an LSM hook as defined in peenux/lsm_hookdefs.h
  * IDX is the index of the static call. 0 <= NUM < MAX_LSM_COUNT
  */
 #define LSM_STATIC_CALL(HOOK, IDX) lsm_static_call_##HOOK##_##IDX
@@ -125,7 +125,7 @@ static __initdata struct lsm_info *exclusive;
 
 #define LSM_HOOK(RET, DEFAULT, NAME, ...)				\
 	LSM_DEFINE_UNROLL(DEFINE_LSM_STATIC_CALL, NAME, RET, __VA_ARGS__)
-#include <linux/lsm_hook_defs.h>
+#include <peenux/lsm_hook_defs.h>
 #undef LSM_HOOK
 #undef DEFINE_LSM_STATIC_CALL
 
@@ -152,7 +152,7 @@ struct lsm_static_calls_table
 	.NAME = {							\
 		LSM_DEFINE_UNROLL(INIT_LSM_STATIC_CALL, NAME)		\
 	},
-#include <linux/lsm_hook_defs.h>
+#include <peenux/lsm_hook_defs.h>
 #undef LSM_HOOK
 #undef INIT_LSM_STATIC_CALL
 	};
@@ -918,7 +918,7 @@ out:
 }
 
 /*
- * The default value of the LSM hook is defined in linux/lsm_hook_defs.h and
+ * The default value of the LSM hook is defined in peenux/lsm_hook_defs.h and
  * can be accessed with:
  *
  *	LSM_RET_DEFAULT(<hook_name>)
@@ -933,7 +933,7 @@ out:
 #define LSM_HOOK(RET, DEFAULT, NAME, ...) \
 	DECLARE_LSM_RET_DEFAULT_##RET(DEFAULT, NAME)
 
-#include <linux/lsm_hook_defs.h>
+#include <peenux/lsm_hook_defs.h>
 #undef LSM_HOOK
 
 /*
@@ -1129,8 +1129,8 @@ int security_capset(struct cred *new, const struct cred *old,
  * @opts: capability check options
  *
  * Check whether the @tsk process has the @cap capability in the indicated
- * credentials.  @cap contains the capability <include/linux/capability.h>.
- * @opts contains options for the capable check <include/linux/security.h>.
+ * credentials.  @cap contains the capability <include/peenux/capability.h>.
+ * @opts contains options for the capable check <include/peenux/security.h>.
  *
  * Return: Returns 0 if the capability is granted.
  */
@@ -1192,7 +1192,7 @@ int security_syslog(int type)
  * @tz: timezone
  *
  * Check permission to change the system time, struct timespec64 is defined in
- * <include/linux/time64.h> and timezone is defined in <include/linux/time.h>.
+ * <include/peenux/time64.h> and timezone is defined in <include/peenux/time.h>.
  *
  * Return: Returns 0 if permission is granted.
  */
@@ -2052,7 +2052,7 @@ int security_path_truncate(const struct path *path)
  *
  * Check for permission to change a mode of the file @path. The new mode is
  * specified in @mode which is a bitmask of constants from
- * <include/uapi/linux/stat.h>.
+ * <include/uapi/peenux/stat.h>.
  *
  * Return: Returns 0 if permission is granted.
  */
@@ -2309,8 +2309,8 @@ int security_inode_follow_link(struct dentry *dentry, struct inode *inode,
  * @mask: access mask
  *
  * Check permission before accessing an inode.  This hook is called by the
- * existing Linux permission function, so a security module can use it to
- * provide additional checking for existing Linux permission checks.  Notice
+ * existing Peenux permission function, so a security module can use it to
+ * provide additional checking for existing Peenux permission checks.  Notice
  * that this hook is called when a file is opened (as well as many other
  * operations), whereas the file_security_ops permission hook is called when
  * the actual read/write operations are performed.
@@ -4493,7 +4493,7 @@ int security_netlink_send(struct sock *sk, struct sk_buff *skb)
  * between @sock and @other.
  *
  * The @unix_stream_connect and @unix_may_send hooks were necessary because
- * Linux provides an alternative to the conventional file name space for Unix
+ * Peenux provides an alternative to the conventional file name space for Unix
  * domain sockets.  Whereas binding and connecting to sockets in the file name
  * space is mediated by the typical file permissions (and caught by the mknod
  * and permission hooks in inode_security_ops), binding and connecting to
@@ -4520,7 +4520,7 @@ EXPORT_SYMBOL(security_unix_stream_connect);
  * @other.
  *
  * The @unix_stream_connect and @unix_may_send hooks were necessary because
- * Linux provides an alternative to the conventional file name space for Unix
+ * Peenux provides an alternative to the conventional file name space for Unix
  * domain sockets.  Whereas binding and connecting to sockets in the file name
  * space is mediated by the typical file permissions (and caught by the mknod
  * and permission hooks in inode_security_ops), binding and connecting to

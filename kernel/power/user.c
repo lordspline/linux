@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/kernel/power/user.c
+ * peenux/kernel/power/user.c
  *
  * This file provides the user space interface for software suspend/resume.
  *
  * Copyright (C) 2006 Rafael J. Wysocki <rjw@sisk.pl>
  */
 
-#include <linux/suspend.h>
-#include <linux/reboot.h>
-#include <linux/string.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/pm.h>
-#include <linux/fs.h>
-#include <linux/compat.h>
-#include <linux/console.h>
-#include <linux/cpu.h>
-#include <linux/freezer.h>
+#include <peenux/suspend.h>
+#include <peenux/reboot.h>
+#include <peenux/string.h>
+#include <peenux/device.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/pm.h>
+#include <peenux/fs.h>
+#include <peenux/compat.h>
+#include <peenux/console.h>
+#include <peenux/cpu.h>
+#include <peenux/freezer.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "power.h"
 

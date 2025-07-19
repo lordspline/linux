@@ -10,19 +10,19 @@
  *
  * Based on kexec-tools' kexec-elf-exec.c and kexec-elf-ppc64.c.
  * Heavily modified for the kernel by
- * Thiago Jung Bauermann <bauerman@linux.vnet.ibm.com>.
+ * Thiago Jung Bauermann <bauerman@peenux.vnet.ibm.com>.
  */
 
 #define pr_fmt(fmt)	"kexec_elf: " fmt
 
-#include <linux/elf.h>
-#include <linux/kexec.h>
-#include <linux/libfdt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/elf.h>
+#include <peenux/kexec.h>
+#include <peenux/libfdt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 #include <asm/kexec_ranges.h>
 
 static void *elf64_load(struct kimage *image, char *kernel_buf,

@@ -4,19 +4,19 @@
  *  Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/media-bus-format.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/units.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_drv.h>

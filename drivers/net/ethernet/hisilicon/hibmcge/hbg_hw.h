@@ -4,8 +4,8 @@
 #ifndef __HBG_HW_H
 #define __HBG_HW_H
 
-#include <linux/bitfield.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/bitfield.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 
 static inline u32 hbg_reg_read(struct hbg_priv *priv, u32 addr)
 {

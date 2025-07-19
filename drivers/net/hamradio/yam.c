@@ -27,36 +27,36 @@
 
 /*****************************************************************************/
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/net.h>
-#include <linux/in.h>
-#include <linux/if.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/bitops.h>
-#include <linux/random.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/net.h>
+#include <peenux/in.h>
+#include <peenux/if.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/bitops.h>
+#include <peenux/random.h>
 #include <asm/io.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/firmware.h>
-#include <linux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/firmware.h>
+#include <peenux/platform_device.h>
 
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
 #include <net/ax25.h>
 
-#include <linux/kernel.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/kernel.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include <net/net_namespace.h>
 
-#include <linux/uaccess.h>
-#include <linux/init.h>
+#include <peenux/uaccess.h>
+#include <peenux/init.h>
 
-#include <linux/yam.h>
+#include <peenux/yam.h>
 
 /* --------------------------------------------------------------------- */
 

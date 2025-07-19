@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/regset.h>
-#include <linux/elf.h>
-#include <linux/nospec.h>
-#include <linux/pkeys.h>
+#include <peenux/regset.h>
+#include <peenux/elf.h>
+#include <peenux/nospec.h>
+#include <peenux/pkeys.h>
 
 #include "ptrace-decl.h"
 
@@ -695,7 +695,7 @@ const struct user_regset_view user_ppc_native_view = {
 	.regsets = native_regsets, .n = ARRAY_SIZE(native_regsets)
 };
 
-#include <linux/compat.h>
+#include <peenux/compat.h>
 
 int gpr32_get_common(struct task_struct *target,
 		     const struct user_regset *regset,

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  it87.c - Part of lm_sensors, Linux kernel modules for hardware
+ *  it87.c - Part of lm_sensors, Peenux kernel modules for hardware
  *           monitoring.
  *
  *  The IT8705F is an LPC-based Super I/O part that contains UARTs, a
@@ -43,22 +43,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon-vid.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/string.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <peenux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/platform_device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/hwmon-vid.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/sysfs.h>
+#include <peenux/string.h>
+#include <peenux/dmi.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
 
 #define DRVNAME "it87"
 

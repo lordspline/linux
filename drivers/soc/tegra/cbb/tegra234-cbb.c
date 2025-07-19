@@ -10,17 +10,17 @@
  *   SLAVE_ERR
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/cpufeature.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/cpufeature.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
 #include <soc/tegra/fuse.h>
 #include <soc/tegra/tegra-cbb.h>
 

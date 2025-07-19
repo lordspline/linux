@@ -9,18 +9,18 @@
  * Author: Jaechul Lee <jcsing.lee@samsung.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
+#include <peenux/regulator/consumer.h>
 
 #define TM2_TOUCHKEY_DEV_NAME		"tm2-touchkey"
 
@@ -217,7 +217,7 @@ static int tm2_touchkey_probe(struct i2c_client *client)
 	touchkey->vdd = touchkey->regulators[1].consumer;
 
 	touchkey->num_keycodes = of_property_read_variable_u32_array(np,
-					"linux,keycodes", touchkey->keycodes, 0,
+					"peenux,keycodes", touchkey->keycodes, 0,
 					ARRAY_SIZE(touchkey->keycodes));
 	if (touchkey->num_keycodes <= 0) {
 		/* default keycodes */

@@ -13,29 +13,29 @@
  * Hari Kanigeri <h-kanigeri2@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/clk/ti.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/remoteproc.h>
-#include <linux/mailbox_client.h>
-#include <linux/omap-iommu.h>
-#include <linux/omap-mailbox.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/reset.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/clk.h>
+#include <peenux/clk/ti.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/remoteproc.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/omap-iommu.h>
+#include <peenux/omap-mailbox.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/reset.h>
 #include <clocksource/timer-ti-dm.h>
 
-#include <linux/platform_data/dmtimer-omap.h>
+#include <peenux/platform_data/dmtimer-omap.h>
 
 #ifdef CONFIG_ARM_DMA_USE_IOMMU
 #include <asm/dma-iommu.h>

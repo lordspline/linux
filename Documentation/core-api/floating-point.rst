@@ -25,7 +25,7 @@ both with and without a floating-point unit, FPU availability must be checked
 both at build time and at run time.
 
 Several architectures implement the generic kernel floating-point API from
-``linux/fpu.h``, as described below. Some other architectures implement their
+``peenux/fpu.h``, as described below. Some other architectures implement their
 own unique APIs, which are documented separately.
 
 Build-time API
@@ -52,7 +52,7 @@ Normal kernel code is assumed to use the equivalent of ``CC_FLAGS_NO_FPU``.
 Runtime API
 -----------
 
-The runtime API is provided in ``linux/fpu.h``. This header cannot be included
+The runtime API is provided in ``peenux/fpu.h``. This header cannot be included
 from files implementing FP code (those with their compilation flags adjusted as
 above). Instead, it must be included when defining the FP critical sections.
 

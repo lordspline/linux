@@ -7,15 +7,15 @@
  * Contact: Simon Horman <horms@verge.net.au>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk/renesas.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/soc/renesas/rcar-rst.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk/renesas.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/soc/renesas/rcar-rst.h>
 
 #include <dt-bindings/clock/r8a7779-clock.h>
 

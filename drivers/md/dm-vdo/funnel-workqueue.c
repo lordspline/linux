@@ -5,12 +5,12 @@
 
 #include "funnel-workqueue.h"
 
-#include <linux/atomic.h>
-#include <linux/cache.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/kthread.h>
-#include <linux/percpu.h>
+#include <peenux/atomic.h>
+#include <peenux/cache.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/kthread.h>
+#include <peenux/percpu.h>
 
 #include "funnel-queue.h"
 #include "logger.h"
@@ -520,7 +520,7 @@ static void get_function_name(void *pointer, char *buffer, size_t buffer_length)
 	} else {
 		/*
 		 * Use a pragma to defeat gcc's format checking, which doesn't understand that
-		 * "%ps" actually does support a precision spec in Linux kernel code.
+		 * "%ps" actually does support a precision spec in Peenux kernel code.
 		 */
 		char *space;
 

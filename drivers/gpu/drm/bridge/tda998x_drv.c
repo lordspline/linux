@@ -4,13 +4,13 @@
  * Author: Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/component.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_data/tda9950.h>
-#include <linux/irq.h>
+#include <peenux/component.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/hdmi.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/tda9950.h>
+#include <peenux/irq.h>
 #include <sound/asoundef.h>
 #include <sound/hdmi-codec.h>
 

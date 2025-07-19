@@ -8,28 +8,28 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/of_clk.h>
-#include <linux/clocksource.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/cpu.h>
-#include <linux/initrd.h>
-#include <linux/console.h>
-#include <linux/debugfs.h>
-#include <linux/of_fdt.h>
-#include <linux/pgtable.h>
+#include <peenux/init.h>
+#include <peenux/of_clk.h>
+#include <peenux/clocksource.h>
+#include <peenux/string.h>
+#include <peenux/seq_file.h>
+#include <peenux/cpu.h>
+#include <peenux/initrd.h>
+#include <peenux/console.h>
+#include <peenux/debugfs.h>
+#include <peenux/of_fdt.h>
+#include <peenux/pgtable.h>
 
 #include <asm/setup.h>
 #include <asm/sections.h>
 #include <asm/page.h>
-#include <linux/io.h>
-#include <linux/bug.h>
-#include <linux/param.h>
-#include <linux/pci.h>
-#include <linux/cache.h>
-#include <linux/of.h>
-#include <linux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/bug.h>
+#include <peenux/param.h>
+#include <peenux/pci.h>
+#include <peenux/cache.h>
+#include <peenux/of.h>
+#include <peenux/dma-mapping.h>
 #include <asm/cacheflush.h>
 #include <asm/entry.h>
 #include <asm/cpuinfo.h>

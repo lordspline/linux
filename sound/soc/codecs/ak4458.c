@@ -5,15 +5,15 @@
 // Copyright (C) 2016 Asahi Kasei Microdevices Corporation
 // Copyright 2018 NXP
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 #include <sound/initval.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

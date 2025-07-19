@@ -14,13 +14,13 @@
 		button-vol-down {
 			gpios = <&gpio2 RK_PA1 GPIO_ACTIVE_LOW>;
 			label = "VOLUMEDOWN";
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 		};
 
 		button-vol-up {
 			gpios = <&gpio2 RK_PA0 GPIO_ACTIVE_LOW>;
 			label = "VOLUMEUP";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 		};
 	};
 };

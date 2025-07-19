@@ -4,22 +4,22 @@
  * Copyright (C) 2020-2021 NVIDIA CORPORATION & AFFILIATES
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/resource.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/resource.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 /*
  * There are 3 YU GPIO blocks:

@@ -12,14 +12,14 @@
  * polling mode.
  */
 
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/libata.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/libata.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 #include <scsi/scsi_host.h>
 
 #define DRV_NAME	"pata_ixp4xx_cf"

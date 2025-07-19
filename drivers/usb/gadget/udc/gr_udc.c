@@ -21,23 +21,23 @@
  * only supports cores in DMA mode.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/usb.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/usb.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/of.h>
 
 #include <asm/byteorder.h>
 

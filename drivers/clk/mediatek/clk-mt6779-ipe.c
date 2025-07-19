@@ -4,9 +4,9 @@
  * Author: Wendell Lin <wendell.lin@mediatek.com>
  */
 
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/clk-provider.h>
+#include <peenux/platform_device.h>
 #include <dt-bindings/clock/mt6779-clk.h>
 
 #include "clk-mtk.h"

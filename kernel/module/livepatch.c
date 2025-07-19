@@ -5,9 +5,9 @@
  * Copyright (C) 2016 Jessica Yu <jeyu@redhat.com>
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
 #include "internal.h"
 
 /*

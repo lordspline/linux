@@ -14,9 +14,9 @@
  * For further information, see "Documentation/block/cmdline-partition.rst"
  *
  */
-#include <linux/blkdev.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
 #include "check.h"
 
 

@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
 #include "amdgpu.h"
 #include "soc15_common.h"
 #include "soc21.h"

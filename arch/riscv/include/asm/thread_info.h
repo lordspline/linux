@@ -9,8 +9,8 @@
 #define _ASM_RISCV_THREAD_INFO_H
 
 #include <asm/page.h>
-#include <linux/const.h>
-#include <linux/sizes.h>
+#include <peenux/const.h>
+#include <peenux/sizes.h>
 
 /* thread information allocation */
 #ifdef CONFIG_KASAN

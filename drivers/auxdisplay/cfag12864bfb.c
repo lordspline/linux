@@ -9,14 +9,14 @@
  *        Date: 2006-10-31
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/mm.h>
-#include <linux/platform_device.h>
-#include <linux/cfag12864b.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/fb.h>
+#include <peenux/mm.h>
+#include <peenux/platform_device.h>
+#include <peenux/cfag12864b.h>
 
 #define CFAG12864BFB_NAME "cfag12864bfb"
 

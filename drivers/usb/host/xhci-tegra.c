@@ -6,30 +6,30 @@
  * Copyright (C) 2014 Google, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/tegra/xusb.h>
-#include <linux/platform_device.h>
-#include <linux/usb/ch9.h>
-#include <linux/pm.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/phy.h>
-#include <linux/usb/role.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/phy/phy.h>
+#include <peenux/phy/tegra/xusb.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/pm.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/phy.h>
+#include <peenux/usb/role.h>
 #include <soc/tegra/pmc.h>
 
 #include "xhci.h"

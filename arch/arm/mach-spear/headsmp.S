@@ -4,11 +4,11 @@
  *
  * Picked from realview
  * Copyright (c) 2012 ST Microelectronics Limited
- * Shiraz Hashim <shiraz.linux.kernel@gmail.com>
+ * Shiraz Hashim <shiraz.peenux.kernel@gmail.com>
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
 
 	__INIT
 

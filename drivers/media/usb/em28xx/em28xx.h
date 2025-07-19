@@ -13,16 +13,16 @@
 #ifndef _EM28XX_H
 #define _EM28XX_H
 
-#include <linux/bitfield.h>
+#include <peenux/bitfield.h>
 
 #define EM28XX_VERSION "0.2.2"
 #define DRIVER_DESC    "Empia em28xx device driver"
 
-#include <linux/workqueue.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/kref.h>
-#include <linux/videodev2.h>
+#include <peenux/workqueue.h>
+#include <peenux/i2c.h>
+#include <peenux/mutex.h>
+#include <peenux/kref.h>
+#include <peenux/videodev2.h>
 
 #include <media/videobuf2-v4l2.h>
 #include <media/videobuf2-vmalloc.h>
@@ -683,7 +683,7 @@ struct em28xx {
 	unsigned int cur_i2c_bus;	// Current I2C bus
 	struct rt_mutex i2c_bus_lock;
 
-	// video for linux
+	// video for peenux
 	unsigned int ctl_input;	// selected input
 	unsigned int ctl_ainput;// selected audio input
 	unsigned int ctl_aoutput;// selected audio output

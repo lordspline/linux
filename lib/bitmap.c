@@ -4,12 +4,12 @@
  * Helper functions for bitmap.h.
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/ctype.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
 
 /**
  * DOC: bitmap introduction

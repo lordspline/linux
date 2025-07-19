@@ -8,13 +8,13 @@
  * level 2 interrupt for this must be explicitly acked.
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define CHGRIRQ_REG					0x0a
 #define MCHGRIRQ_REG					0x17

@@ -34,9 +34,9 @@
 #ifndef _UAPI_LINUX_VIRTIO_VSOCK_H
 #define _UAPI_LINUX_VIRTIO_VSOCK_H
 
-#include <linux/types.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio_config.h>
+#include <peenux/types.h>
+#include <peenux/virtio_ids.h>
+#include <peenux/virtio_config.h>
 
 /* The feature bitmap for virtio vsock */
 #define VIRTIO_VSOCK_F_SEQPACKET	1	/* SOCK_SEQPACKET supported */

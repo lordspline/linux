@@ -6,10 +6,10 @@
  *
  * DTPM hierarchy description
  */
-#include <linux/dtpm.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/dtpm.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 static struct dtpm_node __initdata rk3399_hierarchy[] = {
 	[0] = { .name = "rk3399",

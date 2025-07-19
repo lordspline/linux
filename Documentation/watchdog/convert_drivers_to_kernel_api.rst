@@ -105,9 +105,9 @@ Remove obsolete includes and defines
 Because of the simplifications, a few defines are probably unused now. Remove
 them. Includes can be removed, too. For example::
 
-  - #include <linux/fs.h>
-  - #include <linux/miscdevice.h> (if MODULE_ALIAS_MISCDEV is not used)
-  - #include <linux/uaccess.h> (if no custom IOCTLs are used)
+  - #include <peenux/fs.h>
+  - #include <peenux/miscdevice.h> (if MODULE_ALIAS_MISCDEV is not used)
+  - #include <peenux/uaccess.h> (if no custom IOCTLs are used)
 
 
 Add the watchdog operations
@@ -215,4 +215,4 @@ Create a patch and send it to upstream
 --------------------------------------
 
 Make sure you understood Documentation/process/submitting-patches.rst and send your patch to
-linux-watchdog@vger.kernel.org. We are looking forward to it :)
+peenux-watchdog@vger.kernel.org. We are looking forward to it :)

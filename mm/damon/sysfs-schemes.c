@@ -5,8 +5,8 @@
  * Copyright (c) 2022 SeongJae Park <sj@kernel.org>
  */
 
-#include <linux/slab.h>
-#include <linux/numa.h>
+#include <peenux/slab.h>
+#include <peenux/numa.h>
 
 #include "sysfs-common.h"
 

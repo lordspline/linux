@@ -3,18 +3,18 @@
  *
  * Copyright (C) 2004, 05, 06 MIPS Technologies, Inc.
  *    Elizabeth Clarke (beth@mips.com)
- *    Ralf Baechle (ralf@linux-mips.org)
- * Copyright (C) 2006 Ralf Baechle (ralf@linux-mips.org)
+ *    Ralf Baechle (ralf@peenux-mips.org)
+ * Copyright (C) 2006 Ralf Baechle (ralf@peenux-mips.org)
  */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/cpumask.h>
-#include <linux/interrupt.h>
-#include <linux/compiler.h>
-#include <linux/sched/task_stack.h>
-#include <linux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/cpumask.h>
+#include <peenux/interrupt.h>
+#include <peenux/compiler.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/smp.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/cacheflush.h>
 #include <asm/cpu.h>
 #include <asm/processor.h>

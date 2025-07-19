@@ -2,10 +2,10 @@
 #ifndef __MACH_MMP_CLK_H
 #define __MACH_MMP_CLK_H
 
-#include <linux/clk-provider.h>
-#include <linux/math.h>
-#include <linux/pm_domain.h>
-#include <linux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/math.h>
+#include <peenux/pm_domain.h>
+#include <peenux/clkdev.h>
 
 #define APBC_NO_BUS_CTRL	BIT(0)
 #define APBC_POWER_CTRL		BIT(1)

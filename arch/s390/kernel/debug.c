@@ -13,20 +13,20 @@
 #define KMSG_COMPONENT "s390dbf"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/sysctl.h>
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/debugfs.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/sysctl.h>
+#include <peenux/uaccess.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/debugfs.h>
 
 #include <asm/debug.h>
 

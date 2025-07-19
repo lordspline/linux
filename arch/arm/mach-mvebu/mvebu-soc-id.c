@@ -14,14 +14,14 @@
 
 #define pr_fmt(fmt) "mvebu-soc-id: " fmt
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <peenux/clk.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
 #include "common.h"
 #include "mvebu-soc-id.h"
 

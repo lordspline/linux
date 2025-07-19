@@ -19,12 +19,12 @@
  * version 4.0, section 17.3.1
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/cper.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
+#include <peenux/cper.h>
+#include <peenux/io.h>
 
 #include "apei-internal.h"
 

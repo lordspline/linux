@@ -10,23 +10,23 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/mfd/core.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/mfd/core.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/da9063/core.h>
-#include <linux/mfd/da9063/registers.h>
+#include <peenux/mfd/da9063/core.h>
+#include <peenux/mfd/da9063/registers.h>
 
-#include <linux/proc_fs.h>
-#include <linux/kthread.h>
-#include <linux/uaccess.h>
+#include <peenux/proc_fs.h>
+#include <peenux/kthread.h>
+#include <peenux/uaccess.h>
 
 
 static const struct resource da9063_regulators_resources[] = {

@@ -8,14 +8,14 @@
 #ifndef _LINUX_ACPI_H
 #define _LINUX_ACPI_H
 
-#include <linux/errno.h>
-#include <linux/ioport.h>	/* for struct resource */
-#include <linux/resource_ext.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/uuid.h>
-#include <linux/node.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>	/* for struct resource */
+#include <peenux/resource_ext.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/uuid.h>
+#include <peenux/node.h>
 
 struct irq_domain;
 struct irq_domain_ops;
@@ -28,11 +28,11 @@ struct irq_domain_ops;
 
 #ifdef	CONFIG_ACPI
 
-#include <linux/list.h>
-#include <linux/dynamic_debug.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/fw_table.h>
+#include <peenux/list.h>
+#include <peenux/dynamic_debug.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/fw_table.h>
 
 #include <acpi/acpi_bus.h>
 #include <acpi/acpi_drivers.h>

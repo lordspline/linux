@@ -7,21 +7,21 @@
 //
 // Author: Charles Keepax <ckeepax@opensource.cirrus.com>
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
 
-#include <linux/mfd/lochnagar.h>
-#include <linux/mfd/lochnagar1_regs.h>
-#include <linux/mfd/lochnagar2_regs.h>
+#include <peenux/mfd/lochnagar.h>
+#include <peenux/mfd/lochnagar1_regs.h>
+#include <peenux/mfd/lochnagar2_regs.h>
 
 static const struct regulator_ops lochnagar_micvdd_ops = {
 	.enable = regulator_enable_regmap,

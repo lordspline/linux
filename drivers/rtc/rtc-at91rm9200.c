@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *	Real Time Clock interface for Linux on Atmel AT91RM9200
+ *	Real Time Clock interface for Peenux on Atmel AT91RM9200
  *
  *	Copyright (C) 2002 Rick Bronson
  *
  *	Converted to RTC class model by Andrew Victor
  *
- *	Ported to Linux 2.6 by Steven Scholz
+ *	Ported to Peenux 2.6 by Steven Scholz
  *	Based on s3c2410-rtc.c Simtec Electronics
  *
  *	Based on sa1100-rtc.c by Nils Faerber
  *	Based on rtc.c by Paul Gortmaker
  */
 
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/spinlock.h>
-#include <linux/suspend.h>
-#include <linux/time.h>
-#include <linux/uaccess.h>
+#include <peenux/bcd.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioctl.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/spinlock.h>
+#include <peenux/suspend.h>
+#include <peenux/time.h>
+#include <peenux/uaccess.h>
 
 #define	AT91_RTC_CR		0x00			/* Control Register */
 #define		AT91_RTC_UPDTIM		BIT(0)		/* Update Request Time Register */

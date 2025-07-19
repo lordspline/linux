@@ -30,11 +30,11 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/hardirq.h>
-#include <linux/mlx5/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/hardirq.h>
+#include <peenux/mlx5/driver.h>
 #include <rdma/ib_verbs.h>
-#include <linux/mlx5/cq.h>
+#include <peenux/mlx5/cq.h>
 #include "mlx5_core.h"
 #include "lib/eq.h"
 

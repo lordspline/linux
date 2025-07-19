@@ -4,14 +4,14 @@
  * Author: Benjamin Gaignard <benjamin.gaignard@st.com> for STMicroelectronics.
  */
 
-#include <linux/component.h>
-#include <linux/debugfs.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/component.h>
+#include <peenux/debugfs.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

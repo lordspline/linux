@@ -8,14 +8,14 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/keyctl.h>
-#include <linux/key-type.h>
-#include <uapi/linux/posix_acl.h>
-#include <linux/posix_acl.h>
-#include <linux/posix_acl_xattr.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/keyctl.h>
+#include <peenux/key-type.h>
+#include <uapi/peenux/posix_acl.h>
+#include <peenux/posix_acl.h>
+#include <peenux/posix_acl_xattr.h>
 #include <keys/user-type.h>
 #include "cifspdu.h"
 #include "cifsglob.h"

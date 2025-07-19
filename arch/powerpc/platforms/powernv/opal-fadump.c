@@ -7,13 +7,13 @@
 
 #define pr_fmt(fmt) "opal fadump: " fmt
 
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
-#include <linux/mm.h>
-#include <linux/crash_dump.h>
+#include <peenux/string.h>
+#include <peenux/seq_file.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/libfdt.h>
+#include <peenux/mm.h>
+#include <peenux/crash_dump.h>
 
 #include <asm/page.h>
 #include <asm/opal.h>

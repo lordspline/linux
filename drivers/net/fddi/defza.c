@@ -27,27 +27,27 @@
 /* End of FZA configurable parameters.  No need to change anything below.    */
 /* ------------------------------------------------------------------------- */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/fddidevice.h>
-#include <linux/sched.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/stat.h>
-#include <linux/tc.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/fddidevice.h>
+#include <peenux/sched.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/stat.h>
+#include <peenux/tc.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
 #include <asm/barrier.h>
 

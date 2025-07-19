@@ -5,9 +5,9 @@
  * Derived from dw_hdmi-imx.c with i.MX portions removed.
  */
 
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <drm/bridge/dw_hdmi.h>
 #include <drm/drm_of.h>

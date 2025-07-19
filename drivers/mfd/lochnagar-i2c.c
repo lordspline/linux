@@ -8,21 +8,21 @@
  * Author: Charles Keepax <ckeepax@opensource.cirrus.com>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/lockdep.h>
-#include <linux/mfd/core.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/lockdep.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/of_platform.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/lochnagar.h>
-#include <linux/mfd/lochnagar1_regs.h>
-#include <linux/mfd/lochnagar2_regs.h>
+#include <peenux/mfd/lochnagar.h>
+#include <peenux/mfd/lochnagar1_regs.h>
+#include <peenux/mfd/lochnagar2_regs.h>
 
 #define LOCHNAGAR_BOOT_RETRIES		10
 #define LOCHNAGAR_BOOT_DELAY_MS		350

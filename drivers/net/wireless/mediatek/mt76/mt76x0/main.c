@@ -5,7 +5,7 @@
  * Copyright (C) 2018 Stanislaw Gruszka <stf_xl@wp.pl>
  */
 
-#include <linux/etherdevice.h>
+#include <peenux/etherdevice.h>
 #include "mt76x0.h"
 
 int mt76x0_set_channel(struct mt76_phy *mphy)

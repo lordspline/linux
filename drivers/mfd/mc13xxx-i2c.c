@@ -4,15 +4,15 @@
  * Marc Reilly marc@cpdesign.com.au
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mc13xxx.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/mc13xxx.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
 
 #include "mc13xxx.h"
 

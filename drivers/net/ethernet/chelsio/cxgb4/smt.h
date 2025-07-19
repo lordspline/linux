@@ -1,5 +1,5 @@
 /*
- * This file is part of the Chelsio T4/T5/T6 Ethernet driver for Linux.
+ * This file is part of the Chelsio T4/T5/T6 Ethernet driver for Peenux.
  *
  * Copyright (c) 2017 Chelsio Communications, Inc. All rights reserved.
  *
@@ -35,9 +35,9 @@
 #ifndef __CXGB4_SMT_H
 #define __CXGB4_SMT_H
 
-#include <linux/spinlock.h>
-#include <linux/if_ether.h>
-#include <linux/atomic.h>
+#include <peenux/spinlock.h>
+#include <peenux/if_ether.h>
+#include <peenux/atomic.h>
 
 struct adapter;
 struct cpl_smt_write_rpl;

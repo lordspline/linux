@@ -26,17 +26,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/ptrace.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/crc32.h>
+#include <peenux/mii.h>
 #include "8390.h"
 
 #include <pcmcia/cistpl.h>
@@ -46,7 +46,7 @@
 
 #include <asm/io.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #define AXNET_CMD	0x00
 #define AXNET_DATAPORT	0x10	/* NatSemi-defined port window offset. */
@@ -731,7 +731,7 @@ module_pcmcia_driver(axnet_cs_driver);
 
 /*====================================================================*/
 
-/* 8390.c: A general NS8390 ethernet driver core for linux. */
+/* 8390.c: A general NS8390 ethernet driver core for peenux. */
 /*
 	Written 1992-94 by Donald Becker.
   
@@ -778,11 +778,11 @@ module_pcmcia_driver(axnet_cs_driver);
 
   */
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 #include <asm/irq.h>
-#include <linux/fcntl.h>
-#include <linux/in.h>
-#include <linux/interrupt.h>
+#include <peenux/fcntl.h>
+#include <peenux/in.h>
+#include <peenux/interrupt.h>
 
 #define BUG_83C690
 

@@ -21,8 +21,8 @@
  *
  */
 #include "pp_debug.h"
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include "process_pptables_v1_0.h"
 #include "ppatomctrl.h"

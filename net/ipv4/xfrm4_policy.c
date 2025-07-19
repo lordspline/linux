@@ -9,9 +9,9 @@
  *
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/inetdevice.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/inetdevice.h>
 #include <net/dst.h>
 #include <net/xfrm.h>
 #include <net/inet_dscp.h>

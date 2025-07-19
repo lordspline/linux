@@ -2,7 +2,7 @@
 /*
  * ibmvfc.h -- driver for IBM Power Virtual Fibre Channel Adapter
  *
- * Written By: Brian King <brking@linux.vnet.ibm.com>, IBM Corporation
+ * Written By: Brian King <brking@peenux.vnet.ibm.com>, IBM Corporation
  *
  * Copyright (C) IBM Corporation, 2008
  */
@@ -10,8 +10,8 @@
 #ifndef _IBMVFC_H
 #define _IBMVFC_H
 
-#include <linux/list.h>
-#include <linux/types.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
 #include <scsi/viosrp.h>
 
 #define IBMVFC_NAME	"ibmvfc"

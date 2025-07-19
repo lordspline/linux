@@ -13,10 +13,10 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/cpufreq.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <peenux/cpufreq.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
 
 /* for mips_hpt_frequency */
 #include <asm/time.h>

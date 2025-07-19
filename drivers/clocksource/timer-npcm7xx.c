@@ -6,16 +6,16 @@
  * Copyright 2017 Google, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/clockchips.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/clockchips.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
 #include "timer-of.h"
 
 /* Timers registers */

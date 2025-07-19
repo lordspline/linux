@@ -8,11 +8,11 @@
  * Date:	2016-8-24
  */
 
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/iopoll.h>
-#include <linux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/ktime.h>
+#include <peenux/iopoll.h>
+#include <peenux/of_address.h>
 
 #include "sdhci-pltfm.h"
 #include "sdhci-xenon.h"

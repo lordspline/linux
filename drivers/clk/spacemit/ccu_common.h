@@ -7,7 +7,7 @@
 #ifndef _CCU_COMMON_H_
 #define _CCU_COMMON_H_
 
-#include <linux/regmap.h>
+#include <peenux/regmap.h>
 
 struct ccu_common {
 	struct regmap *regmap;

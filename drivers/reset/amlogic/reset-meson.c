@@ -7,13 +7,13 @@
  *          Jerome Brunet <jbrunet@baylibre.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
 
 #include "reset-meson.h"
 

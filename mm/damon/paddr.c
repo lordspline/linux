@@ -7,14 +7,14 @@
 
 #define pr_fmt(fmt) "damon-pa: " fmt
 
-#include <linux/mmu_notifier.h>
-#include <linux/page_idle.h>
-#include <linux/pagemap.h>
-#include <linux/rmap.h>
-#include <linux/swap.h>
-#include <linux/memory-tiers.h>
-#include <linux/migrate.h>
-#include <linux/mm_inline.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/page_idle.h>
+#include <peenux/pagemap.h>
+#include <peenux/rmap.h>
+#include <peenux/swap.h>
+#include <peenux/memory-tiers.h>
+#include <peenux/migrate.h>
+#include <peenux/mm_inline.h>
 
 #include "../internal.h"
 #include "ops-common.h"

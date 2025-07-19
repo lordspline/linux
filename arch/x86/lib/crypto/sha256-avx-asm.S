@@ -6,7 +6,7 @@
 # Authors:
 #     James Guilford <james.guilford@intel.com>
 #     Kirk Yap <kirk.s.yap@intel.com>
-#     Tim Chen <tim.c.chen@linux.intel.com>
+#     Tim Chen <tim.c.chen@peenux.intel.com>
 #
 # This software is available to you under a choice of one of two
 # licenses.  You may choose to be licensed under the terms of the GNU
@@ -47,8 +47,8 @@
 # This code schedules 1 block at a time, with 4 lanes per block
 ########################################################################
 
-#include <linux/linkage.h>
-#include <linux/objtool.h>
+#include <peenux/linkage.h>
+#include <peenux/objtool.h>
 
 ## assume buffers not aligned
 #define    VMOVDQ vmovdqu

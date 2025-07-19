@@ -3,10 +3,10 @@
  * Copyright(c) 2023, Intel Corporation. All rights reserved.
  */
 
-#include <linux/irq.h>
-#include <linux/mei_aux.h>
-#include <linux/pci.h>
-#include <linux/sizes.h>
+#include <peenux/irq.h>
+#include <peenux/mei_aux.h>
+#include <peenux/pci.h>
+#include <peenux/sizes.h>
 
 #include "xe_device_types.h"
 #include "xe_drv.h"

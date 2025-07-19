@@ -5,20 +5,20 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/net_tstamp.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/ptp_classify.h>
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/ptp_clock_kernel.h>
 
 #include "am65-cpts.h"
 

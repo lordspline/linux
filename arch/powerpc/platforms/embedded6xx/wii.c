@@ -3,18 +3,18 @@
  * arch/powerpc/platforms/embedded6xx/wii.c
  *
  * Nintendo Wii board-specific support
- * Copyright (C) 2008-2009 The GameCube Linux Team
+ * Copyright (C) 2008-2009 The GameCube Peenux Team
  * Copyright (C) 2008,2009 Albert Herranz
  */
 #define DRV_MODULE_NAME "wii"
 #define pr_fmt(fmt) DRV_MODULE_NAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/seq_file.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/seq_file.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
 
 #include <asm/io.h>
 #include <asm/machdep.h>

@@ -6,7 +6,7 @@
 #ifndef __I915_GEM_PM_H__
 #define __I915_GEM_PM_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct drm_i915_private;
 struct work_struct;

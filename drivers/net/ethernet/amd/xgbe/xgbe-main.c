@@ -5,13 +5,13 @@
  * All rights reserved
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/io.h>
-#include <linux/notifier.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/spinlock.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/io.h>
+#include <peenux/notifier.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

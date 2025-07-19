@@ -3,10 +3,10 @@
  * Copyright 2012 Red Hat Inc
  */
 
-#include <linux/dma-buf.h>
-#include <linux/highmem.h>
-#include <linux/dma-resv.h>
-#include <linux/module.h>
+#include <peenux/dma-buf.h>
+#include <peenux/highmem.h>
+#include <peenux/dma-resv.h>
+#include <peenux/module.h>
 
 #include <asm/smp.h>
 

@@ -26,27 +26,27 @@
 #define dev_fmt(fmt) "ipmi_ssif: " fmt
 
 #if defined(MODVERSIONS)
-#include <linux/modversions.h>
+#include <peenux/modversions.h>
 #endif
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/i2c.h>
-#include <linux/ipmi_smi.h>
-#include <linux/init.h>
-#include <linux/dmi.h>
-#include <linux/kthread.h>
-#include <linux/acpi.h>
-#include <linux/ctype.h>
-#include <linux/time64.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/i2c.h>
+#include <peenux/ipmi_smi.h>
+#include <peenux/init.h>
+#include <peenux/dmi.h>
+#include <peenux/kthread.h>
+#include <peenux/acpi.h>
+#include <peenux/ctype.h>
+#include <peenux/time64.h>
 #include "ipmi_dmi.h"
 
 #define DEVICE_NAME "ipmi_ssif"

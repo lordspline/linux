@@ -7,20 +7,20 @@
  *  Author(s): Stefan Weinhuber <wein@de.ibm.com>
  */
 
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/poll.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/device.h>
+#include <peenux/poll.h>
+#include <peenux/mutex.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
 
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
+#include <peenux/uaccess.h>
+#include <peenux/atomic.h>
 #include <asm/ebcdic.h>
 
 #include "dasd_int.h"

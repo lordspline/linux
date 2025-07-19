@@ -9,16 +9,16 @@
  */
 
 #include <crypto/internal/rng.h>
-#include <linux/atomic.h>
-#include <linux/cryptouser.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/random.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/atomic.h>
+#include <peenux/cryptouser.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/random.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include <net/netlink.h>
 
 #include "internal.h"

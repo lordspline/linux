@@ -8,10 +8,10 @@
 
 #include <dt-bindings/firmware/imx/rsrc.h>
 
-#include <linux/arm-smccc.h>
-#include <linux/firmware/imx/svc/misc.h>
-#include <linux/mfd/syscon.h>
-#include <linux/reset.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/firmware/imx/svc/misc.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/reset.h>
 
 #include "imx-common.h"
 

@@ -13,11 +13,11 @@
 #include <drm/drm_panel.h>
 #include <drm/drm_print.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
 
 struct jadard;
 

@@ -9,7 +9,7 @@
 #ifndef _SKX_COMM_EDAC_H
 #define _SKX_COMM_EDAC_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 #include <asm/mce.h>
 
 #define MSG_SIZE		1024
@@ -160,7 +160,7 @@ struct skx_dev {
 			struct pci_dev	*edev;
 			/*
 			 * Two groups of RRL control registers per channel to save default RRL
-			 * settings of two {sub-,pseudo-}channels in Linux RRL control mode.
+			 * settings of two {sub-,pseudo-}channels in Peenux RRL control mode.
 			 */
 			u32 rrl_ctl[2][NUM_RRL_SET];
 			struct skx_dimm {

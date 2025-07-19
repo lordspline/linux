@@ -13,7 +13,7 @@
 #include "../sys.h"
 #include "../time.h"
 
-#include <linux/timerfd.h>
+#include <peenux/timerfd.h>
 
 
 static __attribute__((unused))

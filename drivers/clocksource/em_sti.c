@@ -5,20 +5,20 @@
  *  Copyright (C) 2012 Magnus Damm
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/irq.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 enum { USER_CLOCKSOURCE, USER_CLOCKEVENT, USER_NR };
 

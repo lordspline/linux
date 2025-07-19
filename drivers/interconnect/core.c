@@ -6,17 +6,17 @@
  * Author: Georgi Djakov <georgi.djakov@linaro.org>
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/interconnect.h>
-#include <linux/interconnect-provider.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/overflow.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/init.h>
+#include <peenux/interconnect.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/overflow.h>
 
 #include "internal.h"
 

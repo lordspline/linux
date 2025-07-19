@@ -1,5 +1,5 @@
 /*
- * linux/arch/arm/mach-omap1/pm.c
+ * peenux/arch/arm/mach-omap1/pm.c
  *
  * OMAP Power Management Routines
  *
@@ -35,16 +35,16 @@
  * 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/suspend.h>
-#include <linux/sched.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/sysfs.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/atomic.h>
-#include <linux/cpu.h>
+#include <peenux/suspend.h>
+#include <peenux/sched.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/interrupt.h>
+#include <peenux/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/atomic.h>
+#include <peenux/cpu.h>
 
 #include <asm/fncpy.h>
 #include <asm/system_misc.h>
@@ -52,9 +52,9 @@
 #include <asm/mach/time.h>
 #include <asm/mach/irq.h>
 
-#include <linux/soc/ti/omap1-io.h>
+#include <peenux/soc/ti/omap1-io.h>
 #include "tc.h"
-#include <linux/omap-dma.h>
+#include <peenux/omap-dma.h>
 #include <clocksource/timer-ti-dm.h>
 
 #include "hardware.h"

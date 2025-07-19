@@ -21,14 +21,14 @@
  *     also clear mm->cpu_vm_mask bits when processes are migrated
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/memblock.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/memblock.h>
+#include <peenux/notifier.h>
+#include <peenux/cpu.h>
+#include <peenux/slab.h>
 
 #include <asm/mmu_context.h>
 #include <asm/tlbflush.h>

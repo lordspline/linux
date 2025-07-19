@@ -4,10 +4,10 @@
 IIO Interfacing Tools
 =====================
 
-1. Linux Kernel Tools
+1. Peenux Kernel Tools
 =====================
 
-Linux Kernel provides some userspace tools that can be used to retrieve data
+Peenux Kernel provides some userspace tools that can be used to retrieve data
 from IIO sysfs:
 
 * lsiio: example application that provides a list of IIO devices and triggers

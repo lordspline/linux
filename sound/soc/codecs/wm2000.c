@@ -18,19 +18,19 @@
  *                 < file  > wm2000_anc.bin
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/firmware.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/debugfs.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/firmware.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/debugfs.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

@@ -9,14 +9,14 @@
  * For non-devicetree platforms. Once pxa is fully converted to devicetree, this
  * should go away.
  */
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/of.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/soc/pxa/smemc.h>
-#include <linux/clk/pxa.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
+#include <peenux/of.h>
+#include <peenux/soc/pxa/cpu.h>
+#include <peenux/soc/pxa/smemc.h>
+#include <peenux/clk/pxa.h>
 
 #include <dt-bindings/clock/pxa-clock.h>
 #include "clk-pxa.h"

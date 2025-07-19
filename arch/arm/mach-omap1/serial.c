@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap1/serial.c
+ * peenux/arch/arm/mach-omap1/serial.c
  *
  * OMAP1 serial support.
  */
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/serial.h>
-#include <linux/tty.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_reg.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/delay.h>
+#include <peenux/serial.h>
+#include <peenux/tty.h>
+#include <peenux/serial_8250.h>
+#include <peenux/serial_reg.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
 
 #include <asm/mach-types.h>
 

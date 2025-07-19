@@ -8,13 +8,13 @@
 
 #define DRV_NAME	"intel_oc_wdt"
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/watchdog.h>
 
 #define INTEL_OC_WDT_TOV		GENMASK(9, 0)
 #define INTEL_OC_WDT_MIN_TOV		1

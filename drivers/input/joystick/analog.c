@@ -4,21 +4,21 @@
  */
 
 /*
- * Analog joystick and gamepad driver for Linux
+ * Analog joystick and gamepad driver for Peenux
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/gameport.h>
-#include <linux/jiffies.h>
-#include <linux/seq_buf.h>
-#include <linux/timex.h>
-#include <linux/timekeeping.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/gameport.h>
+#include <peenux/jiffies.h>
+#include <peenux/seq_buf.h>
+#include <peenux/timex.h>
+#include <peenux/timekeeping.h>
 
 #define DRIVER_DESC	"Analog joystick and gamepad driver"
 

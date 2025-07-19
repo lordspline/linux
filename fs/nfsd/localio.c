@@ -8,15 +8,15 @@
  * Copyright (C) 2024 NeilBrown <neilb@suse.de>
  */
 
-#include <linux/exportfs.h>
-#include <linux/sunrpc/svcauth.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/nfs.h>
-#include <linux/nfs_common.h>
-#include <linux/nfslocalio.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_xdr.h>
-#include <linux/string.h>
+#include <peenux/exportfs.h>
+#include <peenux/sunrpc/svcauth.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs_common.h>
+#include <peenux/nfslocalio.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_xdr.h>
+#include <peenux/string.h>
 
 #include "nfsd.h"
 #include "vfs.h"

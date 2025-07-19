@@ -7,7 +7,7 @@
 #define DRIVERS_NET_ETHERNET_TI_CPSW_PRIV_H_
 
 #include <net/xdp.h>
-#include <uapi/linux/bpf.h>
+#include <uapi/peenux/bpf.h>
 
 #include "davinci_cpdma.h"
 

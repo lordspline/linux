@@ -5,16 +5,16 @@
  *
  *  Copyright (C) 2016 Jens Axboe <axboe@kernel.dk>
  */
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/blkdev.h>
-#include <linux/bio.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/compiler.h>
-#include <linux/rbtree.h>
-#include <linux/sbitmap.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/blkdev.h>
+#include <peenux/bio.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/compiler.h>
+#include <peenux/rbtree.h>
+#include <peenux/sbitmap.h>
 
 #include <trace/events/block.h>
 

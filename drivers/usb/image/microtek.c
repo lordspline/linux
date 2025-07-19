@@ -120,18 +120,18 @@
  *	20011003 Fix multiple requests
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/random.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/usb.h>
-#include <linux/proc_fs.h>
-#include <linux/atomic.h>
-#include <linux/blkdev.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/errno.h>
+#include <peenux/random.h>
+#include <peenux/poll.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/usb.h>
+#include <peenux/proc_fs.h>
+#include <peenux/atomic.h>
+#include <peenux/blkdev.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

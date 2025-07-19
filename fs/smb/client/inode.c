@@ -5,14 +5,14 @@
  *   Author(s): Steve French (sfrench@us.ibm.com)
  *
  */
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/freezer.h>
-#include <linux/sched/signal.h>
-#include <linux/wait_bit.h>
-#include <linux/fiemap.h>
+#include <peenux/fs.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/pagemap.h>
+#include <peenux/freezer.h>
+#include <peenux/sched/signal.h>
+#include <peenux/wait_bit.h>
+#include <peenux/fiemap.h>
 #include <asm/div64.h>
 #include "cifsfs.h"
 #include "cifspdu.h"
@@ -654,7 +654,7 @@ cifs_sfu_type(struct cifs_fattr *fattr, const char *path,
 					/*
 					 * Check that read buffer has valid length and does not
 					 * contain UTF-16 null codepoint (via UniStrnlen() call)
-					 * because Linux cannot process symlink with null byte.
+					 * because Peenux cannot process symlink with null byte.
 					 */
 					if ((rc == 0) &&
 					    (symlink_len_utf16 > 0) &&
@@ -1228,9 +1228,9 @@ static int reparse_info_to_fattr(struct cifs_open_info_data *data,
 				goto out;
 			}
 			/*
-			 * If the reparse point is unsupported by the Linux SMB
+			 * If the reparse point is unsupported by the Peenux SMB
 			 * client then let it process by the SMB server. So mask
-			 * the -EOPNOTSUPP error code. This will allow Linux SMB
+			 * the -EOPNOTSUPP error code. This will allow Peenux SMB
 			 * client to send SMB OPEN request to server. If server
 			 * does not support this reparse point too then server
 			 * will return error during open the path.

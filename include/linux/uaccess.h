@@ -2,12 +2,12 @@
 #ifndef __LINUX_UACCESS_H__
 #define __LINUX_UACCESS_H__
 
-#include <linux/fault-inject-usercopy.h>
-#include <linux/instrumented.h>
-#include <linux/minmax.h>
-#include <linux/nospec.h>
-#include <linux/sched.h>
-#include <linux/ucopysize.h>
+#include <peenux/fault-inject-usercopy.h>
+#include <peenux/instrumented.h>
+#include <peenux/minmax.h>
+#include <peenux/nospec.h>
+#include <peenux/sched.h>
+#include <peenux/ucopysize.h>
 
 #include <asm/uaccess.h>
 

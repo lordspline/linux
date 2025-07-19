@@ -3,10 +3,10 @@
  * Copyright (C) 2018 Broadcom
  */
 
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/thermal.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/thermal.h>
 
 /*
  * In stingray thermal IO memory,

@@ -13,14 +13,14 @@
  * - It is a dedicated PWM fan controller. There are no other consumers for
  *   this PWM controller.
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pwm.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #define LGM_PWM_FAN_CON0		0x0
 #define LGM_PWM_FAN_EN_EN		BIT(0)

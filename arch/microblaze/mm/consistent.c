@@ -6,12 +6,12 @@
  * Copyright (C) 2005 John Williams <jwilliams@itee.uq.edu.au>
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/dma-map-ops.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/dma-map-ops.h>
 #include <asm/cpuinfo.h>
 #include <asm/cacheflush.h>
 

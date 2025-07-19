@@ -4,24 +4,24 @@
  *
  * Copyright (C) 2019 Western Digital Corporation or its affiliates.
  */
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/magic.h>
-#include <linux/iomap.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/statfs.h>
-#include <linux/writeback.h>
-#include <linux/quotaops.h>
-#include <linux/seq_file.h>
-#include <linux/uio.h>
-#include <linux/mman.h>
-#include <linux/sched/mm.h>
-#include <linux/crc32.h>
-#include <linux/task_io_accounting_ops.h>
-#include <linux/fs_parser.h>
-#include <linux/fs_context.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/magic.h>
+#include <peenux/iomap.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/statfs.h>
+#include <peenux/writeback.h>
+#include <peenux/quotaops.h>
+#include <peenux/seq_file.h>
+#include <peenux/uio.h>
+#include <peenux/mman.h>
+#include <peenux/sched/mm.h>
+#include <peenux/crc32.h>
+#include <peenux/task_io_accounting_ops.h>
+#include <peenux/fs_parser.h>
+#include <peenux/fs_context.h>
 
 #include "zonefs.h"
 

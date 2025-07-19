@@ -6,19 +6,19 @@
 
 #define pr_fmt(fmt) "clk-gemini: " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
-#include <linux/reset-controller.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
+#include <peenux/reset-controller.h>
 #include <dt-bindings/reset/cortina,gemini-reset.h>
 #include <dt-bindings/clock/cortina,gemini-clock.h>
 

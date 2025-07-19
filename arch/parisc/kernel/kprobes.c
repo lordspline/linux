@@ -8,9 +8,9 @@
  * Copyright (c) 2022 Helge Deller <deller@gmx.de>
  */
 
-#include <linux/types.h>
-#include <linux/kprobes.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kprobes.h>
+#include <peenux/slab.h>
 #include <asm/cacheflush.h>
 #include <asm/text-patching.h>
 

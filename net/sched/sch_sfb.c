@@ -12,13 +12,13 @@
  * http://www.thefengs.com/wuchang/blue/CSE-TR-387-99.pdf
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/random.h>
-#include <linux/siphash.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/random.h>
+#include <peenux/siphash.h>
 #include <net/ip.h>
 #include <net/pkt_sched.h>
 #include <net/pkt_cls.h>

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2020 Facebook
 
-#include <linux/debugfs.h>
-#include <linux/random.h>
+#include <peenux/debugfs.h>
+#include <peenux/random.h>
 #include <net/netdev_queues.h>
 
 #include "netdevsim.h"

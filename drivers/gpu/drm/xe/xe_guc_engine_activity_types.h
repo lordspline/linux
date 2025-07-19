@@ -6,7 +6,7 @@
 #ifndef _XE_GUC_ENGINE_ACTIVITY_TYPES_H_
 #define _XE_GUC_ENGINE_ACTIVITY_TYPES_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "xe_guc_fwif.h"
 /**

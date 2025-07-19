@@ -10,17 +10,17 @@
 #ifndef	__LINUX_BDC_H__
 #define	__LINUX_BDC_H__
 
-#include <linux/kernel.h>
-#include <linux/usb.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/dma-mapping.h>
-#include <linux/mm.h>
-#include <linux/debugfs.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/usb.h>
+#include <peenux/device.h>
+#include <peenux/spinlock.h>
+#include <peenux/list.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mm.h>
+#include <peenux/debugfs.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/unaligned.h>
 
 #define BRCM_BDC_NAME "bdc"
 #define BRCM_BDC_DESC "Broadcom USB Device Controller driver"

@@ -7,29 +7,29 @@
  *		Juha Yrjola <juha.yrjola@nokia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/gcd.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/gcd.h>
 
-#include <linux/spi/spi.h>
+#include <peenux/spi/spi.h>
 
 #include "internals.h"
 
-#include <linux/platform_data/spi-omap2-mcspi.h>
+#include <peenux/platform_data/spi-omap2-mcspi.h>
 
 #define OMAP2_MCSPI_MAX_FREQ		48000000
 #define OMAP2_MCSPI_MAX_DIVIDER		4096

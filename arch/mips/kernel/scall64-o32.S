@@ -13,7 +13,7 @@
  * to ABI64 calling convention.	 64-bit syscalls are also processed
  * here for now.
  */
-#include <linux/errno.h>
+#include <peenux/errno.h>
 #include <asm/asm.h>
 #include <asm/asmmacro.h>
 #include <asm/irqflags.h>

@@ -4,14 +4,14 @@
  *
  * Copyright IBM Corp. 2018
  *
- * Author(s): Tony Krowiak <akrowiak@linux.ibm.com>
- *	      Pierre Morel <pmorel@linux.ibm.com>
+ * Author(s): Tony Krowiak <akrowiak@peenux.ibm.com>
+ *	      Pierre Morel <pmorel@peenux.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include <asm/facility.h>
 #include "vfio_ap_private.h"
 #include "vfio_ap_debug.h"

@@ -3,14 +3,14 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/module.h>
-#include <linux/moduleloader.h>
-#include <linux/kernel.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/moduleloader.h>
+#include <peenux/kernel.h>
+#include <peenux/elf.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
 #include <asm/unwind.h>
 
 static inline void arc_write_me(unsigned short *addr, unsigned long value)

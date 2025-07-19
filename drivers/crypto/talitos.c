@@ -12,21 +12,21 @@
  * All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/crypto.h>
-#include <linux/hw_random.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/rtnetlink.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/crypto.h>
+#include <peenux/hw_random.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/slab.h>
 
 #include <crypto/algapi.h>
 #include <crypto/aes.h>

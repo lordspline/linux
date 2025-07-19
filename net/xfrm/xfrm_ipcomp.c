@@ -12,10 +12,10 @@
  */
 
 #include <crypto/acompress.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/skbuff_ref.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/skbuff_ref.h>
+#include <peenux/slab.h>
 #include <net/ipcomp.h>
 #include <net/xfrm.h>
 

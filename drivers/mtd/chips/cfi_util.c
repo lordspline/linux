@@ -7,20 +7,20 @@
  * Copyright (C) 2003 STMicroelectronics Limited
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>
 
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/mtd/xip.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/cfi.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/mtd/xip.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/cfi.h>
 
 void cfi_udelay(int us)
 {

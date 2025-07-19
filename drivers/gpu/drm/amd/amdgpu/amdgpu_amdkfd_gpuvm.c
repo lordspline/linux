@@ -20,11 +20,11 @@
  * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  */
-#include <linux/dma-buf.h>
-#include <linux/list.h>
-#include <linux/pagemap.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
+#include <peenux/dma-buf.h>
+#include <peenux/list.h>
+#include <peenux/pagemap.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task.h>
 #include <drm/ttm/ttm_tt.h>
 
 #include <drm/drm_exec.h>
@@ -35,7 +35,7 @@
 #include "amdgpu_hmm.h"
 #include "amdgpu_amdkfd.h"
 #include "amdgpu_dma_buf.h"
-#include <uapi/linux/kfd_ioctl.h>
+#include <uapi/peenux/kfd_ioctl.h>
 #include "amdgpu_xgmi.h"
 #include "kfd_priv.h"
 #include "kfd_smi_events.h"

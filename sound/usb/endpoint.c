@@ -2,12 +2,12 @@
 /*
  */
 
-#include <linux/gfp.h>
-#include <linux/init.h>
-#include <linux/ratelimit.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
-#include <linux/slab.h>
+#include <peenux/gfp.h>
+#include <peenux/init.h>
+#include <peenux/ratelimit.h>
+#include <peenux/usb.h>
+#include <peenux/usb/audio.h>
+#include <peenux/slab.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

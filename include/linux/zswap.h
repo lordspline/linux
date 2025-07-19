@@ -2,8 +2,8 @@
 #ifndef _LINUX_ZSWAP_H
 #define _LINUX_ZSWAP_H
 
-#include <linux/types.h>
-#include <linux/mm_types.h>
+#include <peenux/types.h>
+#include <peenux/mm_types.h>
 
 struct lruvec;
 

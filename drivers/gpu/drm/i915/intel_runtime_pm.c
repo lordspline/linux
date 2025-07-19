@@ -26,7 +26,7 @@
  *
  */
 
-#include <linux/pm_runtime.h>
+#include <peenux/pm_runtime.h>
 
 #include <drm/drm_print.h>
 

@@ -3,23 +3,23 @@
  * Copyright (C) 2021-2022 Intel Corporation
  */
 
-#include <uapi/linux/if_ether.h>
-#include <uapi/linux/if_arp.h>
-#include <uapi/linux/icmp.h>
+#include <uapi/peenux/if_ether.h>
+#include <uapi/peenux/if_arp.h>
+#include <uapi/peenux/icmp.h>
 
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/ieee80211.h>
+#include <peenux/etherdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/ieee80211.h>
 
 #include <net/cfg80211.h>
 #include <net/ip.h>
 
-#include <linux/if_arp.h>
-#include <linux/icmp.h>
-#include <linux/udp.h>
-#include <linux/ip.h>
-#include <linux/mm.h>
+#include <peenux/if_arp.h>
+#include <peenux/icmp.h>
+#include <peenux/udp.h>
+#include <peenux/ip.h>
+#include <peenux/mm.h>
 
 #include "internal.h"
 #include "sap.h"

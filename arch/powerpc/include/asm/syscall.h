@@ -10,9 +10,9 @@
 #ifndef _ASM_SYSCALL_H
 #define _ASM_SYSCALL_H	1
 
-#include <uapi/linux/audit.h>
-#include <linux/sched.h>
-#include <linux/thread_info.h>
+#include <uapi/peenux/audit.h>
+#include <peenux/sched.h>
+#include <peenux/thread_info.h>
 
 #ifdef CONFIG_ARCH_HAS_SYSCALL_WRAPPER
 typedef long (*syscall_fn)(const struct pt_regs *);

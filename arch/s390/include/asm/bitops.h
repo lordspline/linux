@@ -30,12 +30,12 @@
 #define _S390_BITOPS_H
 
 #ifndef _LINUX_BITOPS_H
-#error only <linux/bitops.h> can be included directly
+#error only <peenux/bitops.h> can be included directly
 #endif
 
-#include <linux/typecheck.h>
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/typecheck.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 #include <asm/asm.h>
 
 #define arch___set_bit			generic___set_bit

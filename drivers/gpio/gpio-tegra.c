@@ -9,21 +9,21 @@
  *	Erik Gilling <konkers@google.com>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/seq_file.h>
 
 #define GPIO_BANK(x)		((x) >> 5)
 #define GPIO_PORT(x)		(((x) >> 3) & 0x3)
@@ -636,7 +636,7 @@ static const struct irq_chip tegra210_gpio_irq_chip = {
 
 #ifdef	CONFIG_DEBUG_FS
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 static int tegra_dbg_gpio_show(struct seq_file *s, void *unused)
 {

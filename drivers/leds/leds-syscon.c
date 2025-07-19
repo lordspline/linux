@@ -5,15 +5,15 @@
  * Copyright (c) 2014, Linaro Limited
  * Author: Linus Walleij <linus.walleij@linaro.org>
  */
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/leds.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/leds.h>
 
 /**
  * struct syscon_led - state container for syscon based LEDs

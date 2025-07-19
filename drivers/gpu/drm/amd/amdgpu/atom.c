@@ -22,12 +22,12 @@
  * Author: Stanislaw Skowronek
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <drm/drm_util.h>
 

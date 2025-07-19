@@ -21,17 +21,17 @@
 #define KMSG_COMPONENT "diag288_wdt"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/watchdog.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/watchdog.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>
 #include <asm/diag288.h>
 #include <asm/diag.h>
-#include <linux/io.h>
+#include <peenux/io.h>
 
 #define MAX_CMDLEN 240
 #define DEFAULT_CMD "SYSTEM RESTART"

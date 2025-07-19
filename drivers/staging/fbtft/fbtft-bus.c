@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/export.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/spi/spi.h>
 #include "fbtft.h"
 
 /*****************************************************************************

@@ -7,16 +7,16 @@
  * Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqreturn.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/clocksource.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqreturn.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
 
 #define TIMER_IRQ_EN_REG		0x00
 #define TIMER_IRQ_EN(val)			BIT(val)

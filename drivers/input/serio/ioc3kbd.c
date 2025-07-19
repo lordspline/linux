@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * SGI IOC3 PS/2 controller driver for linux
+ * SGI IOC3 PS/2 controller driver for peenux
  *
  * Copyright (C) 2019 Thomas Bogendoerfer <tbogendoerfer@suse.de>
  *
@@ -8,12 +8,12 @@
  *               Copyright (C) 2009 Johannes Dickgreber <tanzy@gmx.de>
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/serio.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/serio.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include <asm/sn/ioc3.h>
 

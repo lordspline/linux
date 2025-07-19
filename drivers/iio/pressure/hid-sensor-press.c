@@ -3,14 +3,14 @@
  * HID Sensors Driver
  * Copyright (c) 2014, Intel Corporation.
  */
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/hid-sensor-hub.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/slab.h>
+#include <peenux/hid-sensor-hub.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
 #include "../common/hid-sensors/hid-sensor-trigger.h"
 
 enum {

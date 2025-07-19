@@ -15,28 +15,28 @@
  * and many others.
  */
 
-#include <linux/blkdev.h>
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/stringify.h>
-#include <linux/workqueue.h>
+#include <peenux/blkdev.h>
+#include <peenux/bug.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/stringify.h>
+#include <peenux/workqueue.h>
 
 #include <asm/byteorder.h>
 

@@ -5,8 +5,8 @@
  * Copyright (C) 2017 Cogent Embedded Inc.
  */
 
-#include <linux/bits.h>
-#include <linux/kernel.h>
+#include <peenux/bits.h>
+#include <peenux/kernel.h>
 
 #include <dt-bindings/power/r8a77970-sysc.h>
 

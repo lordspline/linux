@@ -3,12 +3,12 @@
 
 #define pr_fmt(fmt) "clk-aspeed: " fmt
 
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/clock/aspeed-clock.h>
 
@@ -432,7 +432,7 @@ static int aspeed_clk_probe(struct platform_device *pdev)
 
 	/*
 	 * Memory controller (M-PLL) PLL. This clock is configured by the
-	 * bootloader, and is exposed to Linux as a read-only clock rate.
+	 * bootloader, and is exposed to Peenux as a read-only clock rate.
 	 */
 	regmap_read(map, ASPEED_MPLL_PARAM, &val);
 	hw = soc_data->calc_pll("mpll", val);

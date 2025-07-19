@@ -8,18 +8,18 @@
  * Author: Dong Aisheng <dong.aisheng@linaro.org>
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/hwspinlock.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/mfd/syscon.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/hwspinlock.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/slab.h>
 
 static DEFINE_MUTEX(syscon_list_lock);
 static LIST_HEAD(syscon_list);

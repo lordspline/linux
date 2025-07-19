@@ -5,14 +5,14 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+// Author: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
 //
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/workqueue.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/firmware.h>
+#include <peenux/workqueue.h>
 #include <sound/tlv.h>
 #include <uapi/sound/sof/tokens.h>
 #include "sof-priv.h"

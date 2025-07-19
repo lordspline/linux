@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/vmcore_info.h>
-#include <linux/mm.h>
+#include <peenux/vmcore_info.h>
+#include <peenux/mm.h>
 
 void arch_crash_save_vmcoreinfo(void)
 {

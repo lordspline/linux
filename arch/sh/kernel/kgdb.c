@@ -6,12 +6,12 @@
  *
  * Single stepping taken from the old stub by Henry Bell and Jeremy Siegel.
  */
-#include <linux/kgdb.h>
-#include <linux/kdebug.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/kgdb.h>
+#include <peenux/kdebug.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/cacheflush.h>
 #include <asm/traps.h>

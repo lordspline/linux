@@ -16,10 +16,10 @@
  * Copyright 1999-2001 Jeff Garzik <jgarzik@pobox.com>
  */
 
-#include <linux/aperture.h>
-#include <linux/iosys-map.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/aperture.h>
+#include <peenux/iosys-map.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include <video/cirrus.h>
 #include <video/vga.h>

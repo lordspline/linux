@@ -31,19 +31,19 @@
  */
 
 #include <rdma/ib_umem_odp.h>
-#include <linux/kernel.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-resv.h>
-#include <linux/hmm.h>
-#include <linux/hmm-dma.h>
-#include <linux/pci-p2pdma.h>
+#include <peenux/kernel.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-resv.h>
+#include <peenux/hmm.h>
+#include <peenux/hmm-dma.h>
+#include <peenux/pci-p2pdma.h>
 
 #include "mlx5_ib.h"
 #include "cmd.h"
 #include "umr.h"
 #include "qp.h"
 
-#include <linux/mlx5/eq.h>
+#include <peenux/mlx5/eq.h>
 
 /* Contains the details of a pagefault. */
 struct mlx5_pagefault {
@@ -1762,7 +1762,7 @@ static int mlx5_ib_eq_pf_int(struct notifier_block *nb, unsigned long type,
 }
 
 /* mempool_refill() was proposed but unfortunately wasn't accepted
- * http://lkml.iu.edu/hypermail/linux/kernel/1512.1/05073.html
+ * http://lkml.iu.edu/hypermail/peenux/kernel/1512.1/05073.html
  * Cheap workaround.
  */
 static void mempool_refill(mempool_t *pool)

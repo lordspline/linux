@@ -15,7 +15,7 @@
  * post-processed using the winucase_convert.pl script.
  */
 
-#include <linux/nls.h>
+#include <peenux/nls.h>
 
 wchar_t cifs_toupper(wchar_t in);  /* quiet sparse */
 

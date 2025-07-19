@@ -7,18 +7,18 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/platform_device.h>
+#include <peenux/dmi.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/axp20x.h>
+#include <peenux/platform_device.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/machine.h>
-#include <linux/iio/driver.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/machine.h>
+#include <peenux/iio/driver.h>
 
 /*
  * This mask enables all ADCs except for the battery temp-sensor (TS), that is
@@ -314,6 +314,6 @@ MODULE_DEVICE_TABLE(platform, axp288_adc_id_table);
 
 module_platform_driver(axp288_adc_driver);
 
-MODULE_AUTHOR("Jacob Pan <jacob.jun.pan@linux.intel.com>");
+MODULE_AUTHOR("Jacob Pan <jacob.jun.pan@peenux.intel.com>");
 MODULE_DESCRIPTION("X-Powers AXP288 ADC Driver");
 MODULE_LICENSE("GPL");

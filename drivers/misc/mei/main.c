@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2003-2022, Intel Corporation. All rights reserved.
- * Intel Management Engine Interface (Intel MEI) Linux driver
+ * Intel Management Engine Interface (Intel MEI) Peenux driver
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/ioctl.h>
-#include <linux/cdev.h>
-#include <linux/sched/signal.h>
-#include <linux/compat.h>
-#include <linux/jiffies.h>
-#include <linux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/poll.h>
+#include <peenux/init.h>
+#include <peenux/ioctl.h>
+#include <peenux/cdev.h>
+#include <peenux/sched/signal.h>
+#include <peenux/compat.h>
+#include <peenux/jiffies.h>
+#include <peenux/interrupt.h>
 
-#include <linux/mei.h>
+#include <peenux/mei.h>
 
 #include "mei_dev.h"
 #include "client.h"

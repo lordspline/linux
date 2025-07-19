@@ -8,10 +8,10 @@
 #ifndef __BCM63XX_PMB_H
 #define __BCM63XX_PMB_H
 
-#include <linux/io.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/err.h>
+#include <peenux/io.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
 
 /* PMB Master controller register */
 #define PMB_CTRL		0x00

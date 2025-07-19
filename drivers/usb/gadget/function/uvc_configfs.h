@@ -12,7 +12,7 @@
 #ifndef UVC_CONFIGFS_H
 #define UVC_CONFIGFS_H
 
-#include <linux/configfs.h>
+#include <peenux/configfs.h>
 
 #include "u_uvc.h"
 

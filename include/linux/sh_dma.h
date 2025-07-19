@@ -7,10 +7,10 @@
 #ifndef SH_DMA_H
 #define SH_DMA_H
 
-#include <linux/dmaengine.h>
-#include <linux/list.h>
-#include <linux/shdma-base.h>
-#include <linux/types.h>
+#include <peenux/dmaengine.h>
+#include <peenux/list.h>
+#include <peenux/shdma-base.h>
+#include <peenux/types.h>
 
 struct device;
 

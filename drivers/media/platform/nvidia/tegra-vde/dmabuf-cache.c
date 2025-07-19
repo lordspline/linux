@@ -5,14 +5,14 @@
  * Copyright (C) 2016-2019 GRATE-DRIVER project
  */
 
-#include <linux/dma-buf.h>
-#include <linux/iova.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/module.h>
+#include <peenux/dma-buf.h>
+#include <peenux/iova.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/module.h>
 
 #include "vde.h"
 

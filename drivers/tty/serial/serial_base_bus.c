@@ -8,14 +8,14 @@
  * The serial core bus manages the serial core controller instances.
  */
 
-#include <linux/cleanup.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/cleanup.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/module.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #include "serial_base.h"
 

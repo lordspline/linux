@@ -7,11 +7,11 @@
  * Copyright (C) 2013, 2014 Linaro Ltd.
  */
 
-#include <linux/efi.h>
-#include <linux/init.h>
-#include <linux/kmemleak.h>
-#include <linux/screen_info.h>
-#include <linux/vmalloc.h>
+#include <peenux/efi.h>
+#include <peenux/init.h>
+#include <peenux/kmemleak.h>
+#include <peenux/screen_info.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/efi.h>
 #include <asm/stacktrace.h>

@@ -14,13 +14,13 @@
  *  Copyright (c) 1999 Martin Mares <mj@ucw.cz>
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/pnp.h>
-#include <linux/io.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/pnp.h>
+#include <peenux/io.h>
 #include "base.h"
 
 static void quirk_awe32_add_ports(struct pnp_dev *dev,

@@ -29,8 +29,8 @@
 			/* The rear SW3 button */
 			label = "Rear Button";
 			gpios = <&cp0_gpio2 0 GPIO_ACTIVE_LOW>;
-			linux,can-disable;
-			linux,code = <BTN_0>;
+			peenux,can-disable;
+			peenux,code = <BTN_0>;
 		};
 	};
 };

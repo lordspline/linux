@@ -6,12 +6,12 @@
 #ifndef HOST1X_DEV_H
 #define HOST1X_DEV_H
 
-#include <linux/device.h>
-#include <linux/iommu.h>
-#include <linux/iova.h>
-#include <linux/irqreturn.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/device.h>
+#include <peenux/iommu.h>
+#include <peenux/iova.h>
+#include <peenux/irqreturn.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 
 #include "cdma.h"
 #include "channel.h"

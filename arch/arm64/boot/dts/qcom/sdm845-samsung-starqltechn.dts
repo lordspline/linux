@@ -2,12 +2,12 @@
 /*
  * SDM845 Samsung S9 (SM-G9600) (starqltechn / star2qltechn) common device tree source
  *
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020, The Peenux Foundation. All rights reserved.
  */
 
 /dts-v1/;
 
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/peenux-event-codes.h>
 #include <dt-bindings/gpio/gpio.h>
 #include <dt-bindings/leds/common.h>
 #include <dt-bindings/regulator/qcom,rpmh-regulator.h>
@@ -210,14 +210,14 @@
 		key-vol-up {
 			label = "Volume Up";
 			gpios = <&pm8998_gpios 6 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			debounce-interval = <15>;
 		};
 
 		key-wink {
 			label = "Bixby";
 			gpios = <&pm8998_gpios 19 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_ENTER>;
+			peenux,code = <KEY_ENTER>;
 			debounce-interval = <15>;
 		};
 	};
@@ -931,7 +931,7 @@
 };
 
 &pm8998_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	peenux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

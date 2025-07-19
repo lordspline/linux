@@ -2,19 +2,19 @@
 // TI LP50XX LED chip family driver
 // Copyright (C) 2018-20 Texas Instruments Incorporated - https://www.ti.com/
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <uapi/linux/uleds.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/leds.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <uapi/peenux/uleds.h>
 
-#include <linux/led-class-multicolor.h>
+#include <peenux/led-class-multicolor.h>
 
 #define LP50XX_DEV_CFG0		0x00
 #define LP50XX_DEV_CFG1		0x01

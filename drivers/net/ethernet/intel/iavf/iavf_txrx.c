@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2013 - 2018 Intel Corporation. */
 
-#include <linux/bitfield.h>
-#include <linux/net/intel/libie/rx.h>
-#include <linux/prefetch.h>
+#include <peenux/bitfield.h>
+#include <peenux/net/intel/libie/rx.h>
+#include <peenux/prefetch.h>
 
 #include "iavf.h"
 #include "iavf_trace.h"

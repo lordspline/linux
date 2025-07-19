@@ -7,18 +7,18 @@
  * for more details.
  */
 
-#include <linux/dma-map-ops.h>
-#include <linux/memblock.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h> /* mem_init */
-#include <linux/initrd.h>
-#include <linux/of_fdt.h>
-#include <linux/pagemap.h>
-#include <linux/pfn.h>
-#include <linux/slab.h>
-#include <linux/swap.h>
-#include <linux/export.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/memblock.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h> /* mem_init */
+#include <peenux/initrd.h>
+#include <peenux/of_fdt.h>
+#include <peenux/pagemap.h>
+#include <peenux/pfn.h>
+#include <peenux/slab.h>
+#include <peenux/swap.h>
+#include <peenux/export.h>
 
 #include <asm/page.h>
 #include <asm/mmu_context.h>

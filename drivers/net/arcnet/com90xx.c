@@ -1,5 +1,5 @@
 /*
- * Linux ARCnet driver - COM90xx chipset (memory-mapped buffers)
+ * Peenux ARCnet driver - COM90xx chipset (memory-mapped buffers)
  *
  * Written 1994-1999 by Avery Pennarun.
  * Written 1999 by Martin Mares <mj@ucw.cz>.
@@ -27,15 +27,15 @@
 
 #define pr_fmt(fmt) "arcnet:" KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
 #include "arcdevice.h"
 #include "com9026.h"

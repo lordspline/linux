@@ -6,7 +6,7 @@
 #ifndef _XE_GT_SRIOV_PF_POLICY_TYPES_H_
 #define _XE_GT_SRIOV_PF_POLICY_TYPES_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /**
  * struct xe_gt_sriov_guc_policies - GuC SR-IOV policies.

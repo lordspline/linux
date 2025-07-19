@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/io.h>
+#include <peenux/io.h>
 
 void __iomem *rust_helper_ioremap(phys_addr_t offset, size_t size)
 {

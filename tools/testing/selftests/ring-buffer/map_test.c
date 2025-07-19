@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#include <linux/trace_mmap.h>
+#include <peenux/trace_mmap.h>
 
 #include <sys/mman.h>
 #include <sys/ioctl.h>

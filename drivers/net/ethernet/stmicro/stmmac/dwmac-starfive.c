@@ -7,11 +7,11 @@
  *
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
 
 #include "stmmac_platform.h"
 

@@ -16,9 +16,9 @@
 #include "main.h"
 #include "xmit.h"
 
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
 
 static u16 generate_cookie(struct b43_pio_txqueue *q,

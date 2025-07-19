@@ -7,21 +7,21 @@
  *   Wei WANG <wei_wang@realsil.com.cn>
  */
 
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/highmem.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/rtsx_pci.h>
-#include <linux/mmc/card.h>
-#include <linux/unaligned.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/highmem.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/idr.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/core.h>
+#include <peenux/rtsx_pci.h>
+#include <peenux/mmc/card.h>
+#include <peenux/unaligned.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
 
 #include "rtsx_pcr.h"
 #include "rts5261.h"

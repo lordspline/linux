@@ -5,8 +5,8 @@
  *  Copyright (c) 2019 Alex Henrie <alexhenrie24@gmail.com>
  */
 
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
 
 #include "hid-ids.h"
 

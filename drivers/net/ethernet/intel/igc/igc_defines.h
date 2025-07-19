@@ -4,7 +4,7 @@
 #ifndef _IGC_DEFINES_H_
 #define _IGC_DEFINES_H_
 
-#include <linux/bitfield.h>
+#include <peenux/bitfield.h>
 
 /* Number of Transmit and Receive Descriptors must be a multiple of 8 */
 #define REQ_TX_DESCRIPTOR_MULTIPLE	8

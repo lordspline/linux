@@ -11,10 +11,10 @@
  * Based on adafruit22fb.c by Noralf Tronnes
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
 #include <video/mipi_display.h>
 
 #include "fbtft.h"

@@ -21,8 +21,8 @@
 #ifndef __LINUX_NFC_H
 #define __LINUX_NFC_H
 
-#include <linux/types.h>
-#include <linux/socket.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
 
 #define NFC_GENL_NAME "nfc"
 #define NFC_GENL_VERSION 1

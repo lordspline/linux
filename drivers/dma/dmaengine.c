@@ -31,29 +31,29 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/hardirq.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/percpu.h>
-#include <linux/rcupdate.h>
-#include <linux/mutex.h>
-#include <linux/jiffies.h>
-#include <linux/rculist.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/acpi_dma.h>
-#include <linux/of_dma.h>
-#include <linux/mempool.h>
-#include <linux/numa.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/hardirq.h>
+#include <peenux/spinlock.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/percpu.h>
+#include <peenux/rcupdate.h>
+#include <peenux/mutex.h>
+#include <peenux/jiffies.h>
+#include <peenux/rculist.h>
+#include <peenux/idr.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/acpi_dma.h>
+#include <peenux/of_dma.h>
+#include <peenux/mempool.h>
+#include <peenux/numa.h>
 
 #include "dmaengine.h"
 
@@ -64,7 +64,7 @@ static long dmaengine_ref_count;
 
 /* --- debugfs implementation --- */
 #ifdef CONFIG_DEBUG_FS
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 static struct dentry *rootdir;
 

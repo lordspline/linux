@@ -14,11 +14,11 @@
  * Vitaly Bordug <vbordug@ru.mvista.com>
  */
 
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/export.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 
 #include <asm/udbg.h>
 #include <asm/io.h>
@@ -29,7 +29,7 @@
 #include <mm/mmu_decl.h>
 
 #if defined(CONFIG_CPM2) || defined(CONFIG_8xx_GPIO)
-#include <linux/gpio/legacy-of-mm-gpiochip.h>
+#include <peenux/gpio/legacy-of-mm-gpiochip.h>
 #endif
 
 static int __init cpm_init(void)

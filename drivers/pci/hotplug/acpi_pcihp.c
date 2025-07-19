@@ -9,15 +9,15 @@
  * Send feedback to <kristen.c.accardi@intel.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/acpi.h>
-#include <linux/pci-acpi.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/pci_hotplug.h>
+#include <peenux/acpi.h>
+#include <peenux/pci-acpi.h>
+#include <peenux/slab.h>
 
 #define MY_NAME	"acpi_pcihp"
 

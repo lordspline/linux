@@ -22,7 +22,7 @@
  */
 
 #undef DEBUG
-#include <linux/of.h>
+#include <peenux/of.h>
 #include <asm/time.h>
 #include <asm/machdep.h>
 #include <asm/mpc52xx.h>

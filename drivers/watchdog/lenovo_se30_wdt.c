@@ -5,15 +5,15 @@
 
 #define dev_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/io.h>
-#include <linux/dmi.h>
-#include <linux/delay.h>
-#include <linux/iommu.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <peenux/io.h>
+#include <peenux/dmi.h>
+#include <peenux/delay.h>
+#include <peenux/iommu.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/watchdog.h>
 
 #define IOREGION_OFFSET	4 /* Use EC port 1 */
 #define IOREGION_LENGTH	4

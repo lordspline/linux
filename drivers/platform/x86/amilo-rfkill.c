@@ -9,13 +9,13 @@
  * Copyright 2006 Martin Večeřa.
  */
 
-#include <linux/module.h>
-#include <linux/dmi.h>
-#include <linux/i8042.h>
-#include <linux/io.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/rfkill.h>
+#include <peenux/module.h>
+#include <peenux/dmi.h>
+#include <peenux/i8042.h>
+#include <peenux/io.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/rfkill.h>
 
 /*
  * These values were obtained from disassembling and debugging the

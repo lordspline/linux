@@ -4,12 +4,12 @@
  * Copyright (C) 2022 Renesas Electronics Corporation
  */
 
-#include <linux/err.h>
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/etherdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "rcar_gen4_ptp.h"
 #define ptp_to_priv(ptp)	container_of(ptp, struct rcar_gen4_ptp_private, info)

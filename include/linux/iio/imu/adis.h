@@ -9,11 +9,11 @@
 #ifndef __IIO_ADIS_H__
 #define __IIO_ADIS_H__
 
-#include <linux/cleanup.h>
-#include <linux/spi/spi.h>
-#include <linux/interrupt.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
+#include <peenux/cleanup.h>
+#include <peenux/spi/spi.h>
+#include <peenux/interrupt.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/types.h>
 
 #define ADIS_WRITE_REG(reg) ((0x80 | (reg)))
 #define ADIS_READ_REG(reg) ((reg) & 0x7f)

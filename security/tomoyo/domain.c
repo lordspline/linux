@@ -7,9 +7,9 @@
 
 #include "common.h"
 
-#include <linux/binfmts.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
+#include <peenux/binfmts.h>
+#include <peenux/slab.h>
+#include <peenux/rculist.h>
 
 /* Variables definitions.*/
 

@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/file.c
+ *  peenux/fs/file.c
  *
  *  Copyright (C) 1998-1999, Stephen Tweedie and Bill Hawes
  *
  *  Manage the dynamic fd arrays in the process files_struct.
  */
 
-#include <linux/syscalls.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/bitops.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/close_range.h>
-#include <linux/file_ref.h>
+#include <peenux/syscalls.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/fdtable.h>
+#include <peenux/bitops.h>
+#include <peenux/spinlock.h>
+#include <peenux/rcupdate.h>
+#include <peenux/close_range.h>
+#include <peenux/file_ref.h>
 #include <net/sock.h>
-#include <linux/init_task.h>
+#include <peenux/init_task.h>
 
 #include "internal.h"
 
@@ -155,7 +155,7 @@ static void copy_fdtable(struct fdtable *nfdt, struct fdtable *ofdt)
 /*
  * Note how the fdtable bitmap allocations very much have to be a multiple of
  * BITS_PER_LONG. This is not only because we walk those things in chunks of
- * 'unsigned long' in some places, but simply because that is how the Linux
+ * 'unsigned long' in some places, but simply because that is how the Peenux
  * kernel bitmaps are defined to work: they are not "bits in an array of bytes",
  * they are very much "bits in an array of unsigned long".
  */

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * eCryptfs: Linux filesystem encryption layer
+ * eCryptfs: Peenux filesystem encryption layer
  *
  * Copyright (C) 1997-2003 Erez Zadok
  * Copyright (C) 2001-2003 Stony Brook University
@@ -9,14 +9,14 @@
  *              Michael C. Thompson <mcthomps@us.ibm.com>
  */
 
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/key.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/file.h>
-#include <linux/statfs.h>
-#include <linux/magic.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
+#include <peenux/key.h>
+#include <peenux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/file.h>
+#include <peenux/statfs.h>
+#include <peenux/magic.h>
 #include "ecryptfs_kernel.h"
 
 struct kmem_cache *ecryptfs_inode_info_cache;

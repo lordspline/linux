@@ -14,13 +14,13 @@
 #include <crypto/md5.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
-#include <linux/bottom_half.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/bottom_half.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include "sun8i-ce.h"
 
 static void sun8i_ce_hash_stat_fb_inc(struct crypto_ahash *tfm)

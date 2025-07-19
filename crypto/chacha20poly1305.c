@@ -11,11 +11,11 @@
 #include <crypto/scatterwalk.h>
 #include <crypto/chacha.h>
 #include <crypto/poly1305.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 
 struct chachapoly_instance_ctx {
 	struct crypto_skcipher_spawn chacha;

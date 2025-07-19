@@ -9,22 +9,22 @@
  * space can use to issue these commands.
  */
 
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/hw_random.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
-#include <linux/virtio_config.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio.h>
-#include <linux/wait.h>
-#include <uapi/linux/nsm.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/hw_random.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
+#include <peenux/uio.h>
+#include <peenux/virtio_config.h>
+#include <peenux/virtio_ids.h>
+#include <peenux/virtio.h>
+#include <peenux/wait.h>
+#include <uapi/peenux/nsm.h>
 
 /* Timeout for NSM virtqueue respose in milliseconds. */
 #define NSM_DEFAULT_TIMEOUT_MSECS (120000) /* 2 minutes */

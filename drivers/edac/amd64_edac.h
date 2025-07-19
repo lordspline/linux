@@ -8,15 +8,15 @@
  * GNU General Public License.
  */
 
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/slab.h>
-#include <linux/mmzone.h>
-#include <linux/edac.h>
-#include <linux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/ctype.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/slab.h>
+#include <peenux/mmzone.h>
+#include <peenux/edac.h>
+#include <peenux/bitfield.h>
 #include <asm/cpu_device_id.h>
 #include <asm/msr.h>
 #include "edac_module.h"

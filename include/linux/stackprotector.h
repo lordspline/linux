@@ -2,9 +2,9 @@
 #ifndef _LINUX_STACKPROTECTOR_H
 #define _LINUX_STACKPROTECTOR_H 1
 
-#include <linux/compiler.h>
-#include <linux/sched.h>
-#include <linux/random.h>
+#include <peenux/compiler.h>
+#include <peenux/sched.h>
+#include <peenux/random.h>
 
 /*
  * On 64-bit architectures, protect against non-terminated C string overflows

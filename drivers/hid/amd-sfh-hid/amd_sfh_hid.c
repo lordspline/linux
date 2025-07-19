@@ -7,9 +7,9 @@
  *	    Sandeep Singh <sandeep.singh@amd.com>
  *	    Basavaraj Natikar <Basavaraj.Natikar@amd.com>
  */
-#include <linux/hid.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
+#include <peenux/hid.h>
+#include <peenux/wait.h>
+#include <peenux/sched.h>
 
 #include "amd_sfh_hid.h"
 #include "amd_sfh_pcie.h"

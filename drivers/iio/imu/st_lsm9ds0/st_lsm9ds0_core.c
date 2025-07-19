@@ -4,17 +4,17 @@
  *
  * Copyright (C) 2021, Intel Corporation
  *
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/array_size.h>
+#include <peenux/dev_printk.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/iio/common/st_sensors.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/common/st_sensors.h>
+#include <peenux/iio/iio.h>
 
 #include "st_lsm9ds0.h"
 
@@ -90,7 +90,7 @@ int st_lsm9ds0_probe(struct st_lsm9ds0 *lsm9ds0, struct regmap *regmap)
 }
 EXPORT_SYMBOL_NS_GPL(st_lsm9ds0_probe, "IIO_ST_SENSORS");
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@peenux.intel.com>");
 MODULE_DESCRIPTION("STMicroelectronics LSM9DS0 IMU core driver");
 MODULE_LICENSE("GPL v2");
 MODULE_IMPORT_NS("IIO_ST_SENSORS");

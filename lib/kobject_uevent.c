@@ -13,18 +13,18 @@
  *	Greg Kroah-Hartman	<greg@kroah.com>
  */
 
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/kobject.h>
-#include <linux/export.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/socket.h>
-#include <linux/skbuff.h>
-#include <linux/netlink.h>
-#include <linux/uidgid.h>
-#include <linux/uuid.h>
-#include <linux/ctype.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/kobject.h>
+#include <peenux/export.h>
+#include <peenux/kmod.h>
+#include <peenux/slab.h>
+#include <peenux/socket.h>
+#include <peenux/skbuff.h>
+#include <peenux/netlink.h>
+#include <peenux/uidgid.h>
+#include <peenux/uuid.h>
+#include <peenux/ctype.h>
 #include <net/sock.h>
 #include <net/netlink.h>
 #include <net/net_namespace.h>
@@ -46,7 +46,7 @@ static LIST_HEAD(uevent_sock_list);
 static DEFINE_MUTEX(uevent_sock_mutex);
 #endif
 
-/* the strings here must match the enum in include/linux/kobject.h */
+/* the strings here must match the enum in include/peenux/kobject.h */
 static const char *kobject_actions[] = {
 	[KOBJ_ADD] =		"add",
 	[KOBJ_REMOVE] =		"remove",

@@ -7,8 +7,8 @@
 #include "base.h"
 #include "ps.h"
 #include "rtl8192c/fw_common.h"
-#include <linux/export.h>
-#include <linux/module.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
 
 MODULE_AUTHOR("lizhaoming	<chaoming_li@realsil.com.cn>");
 MODULE_AUTHOR("Realtek WlanFAE	<wlanfae@realtek.com>");

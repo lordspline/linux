@@ -5,16 +5,16 @@
  * Copyright (c) 2019 Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pci_regs.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iopoll.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pci_regs.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/reset.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

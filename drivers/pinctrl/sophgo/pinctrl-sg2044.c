@@ -5,12 +5,12 @@
  * Copyright (C) 2024 Inochi Amaoto <inochiama@outlook.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
 
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include <dt-bindings/pinctrl/pinctrl-sg2044.h>
 

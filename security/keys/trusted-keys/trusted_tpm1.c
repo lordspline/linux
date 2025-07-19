@@ -7,18 +7,18 @@
  */
 
 #include <crypto/hash_info.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/parser.h>
-#include <linux/string.h>
-#include <linux/err.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/parser.h>
+#include <peenux/string.h>
+#include <peenux/err.h>
 #include <keys/trusted-type.h>
-#include <linux/key-type.h>
-#include <linux/crypto.h>
+#include <peenux/key-type.h>
+#include <peenux/crypto.h>
 #include <crypto/hash.h>
 #include <crypto/sha1.h>
-#include <linux/tpm.h>
-#include <linux/tpm_command.h>
+#include <peenux/tpm.h>
+#include <peenux/tpm_command.h>
 
 #include <keys/trusted_tpm.h>
 

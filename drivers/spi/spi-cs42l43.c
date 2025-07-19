@@ -5,27 +5,27 @@
 // Copyright (C) 2022-2023 Cirrus Logic, Inc. and
 //                         Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/property.h>
-#include <linux/mfd/cs42l43.h>
-#include <linux/mfd/cs42l43-regs.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/property.h>
+#include <peenux/mfd/cs42l43.h>
+#include <peenux/mfd/cs42l43-regs.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/units.h>
 
 #define CS42L43_FIFO_SIZE		16
 #define CS42L43_SPI_ROOT_HZ		49152000

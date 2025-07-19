@@ -6,18 +6,18 @@
  * Allwinner Technology Co., Ltd. <www.allwinnertech.com>
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #define RT_SYSC_REG_SYSCFG1		0x014
 #define RT_SYSC_REG_CLKCFG1		0x030

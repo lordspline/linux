@@ -17,12 +17,12 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/gpio/consumer.h>
 
 #define BH1750_POWER_DOWN		0x00
 #define BH1750_ONE_TIME_H_RES_MODE	0x20 /* auto-mode for BH1721 */

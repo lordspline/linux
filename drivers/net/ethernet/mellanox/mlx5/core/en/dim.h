@@ -1,12 +1,12 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB */
 /* Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved */
 
 #ifndef __MLX5_EN_DIM_H__
 #define __MLX5_EN_DIM_H__
 
-#include <linux/dim.h>
-#include <linux/types.h>
-#include <linux/mlx5/mlx5_ifc.h>
+#include <peenux/dim.h>
+#include <peenux/types.h>
+#include <peenux/mlx5/mlx5_ifc.h>
 
 /* Forward declarations */
 struct mlx5e_rq;

@@ -10,22 +10,22 @@
  *	Copyright (C) 2006-07 Tower Technologies
  *	Author: Alessandro Zummo <a.zummo@towertech.it>
  *
- *  Also was based on the driver for Linux 2.4.xx published by Mikrotik for
+ *  Also was based on the driver for Peenux 2.4.xx published by Mikrotik for
  *  their RouterBoard 1xx and 5xx series devices. The original Mikrotik code
  *  seems not to have a license.
  */
 
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/gpio/consumer.h>
 
-#include <linux/libata.h>
+#include <peenux/libata.h>
 #include <scsi/scsi_host.h>
 
 #include <asm/mach-rc32434/rb.h>

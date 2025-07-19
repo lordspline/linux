@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/dma-map-ops.h>
-#include <linux/dma-direct.h>
-#include <linux/iommu.h>
-#include <linux/dmar.h>
-#include <linux/export.h>
-#include <linux/memblock.h>
-#include <linux/gfp.h>
-#include <linux/pci.h>
-#include <linux/amd-iommu.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/dma-direct.h>
+#include <peenux/iommu.h>
+#include <peenux/dmar.h>
+#include <peenux/export.h>
+#include <peenux/memblock.h>
+#include <peenux/gfp.h>
+#include <peenux/pci.h>
+#include <peenux/amd-iommu.h>
 
 #include <asm/proto.h>
 #include <asm/dma.h>

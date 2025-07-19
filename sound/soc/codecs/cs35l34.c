@@ -7,26 +7,26 @@
  * Author: Paul Handrigan <Paul.Handrigan@cirrus.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/machine.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/gpio/consumer.h>
 #include <sound/initval.h>
 #include <sound/tlv.h>
 #include <sound/cs35l34.h>

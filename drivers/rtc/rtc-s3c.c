@@ -11,20 +11,20 @@
  * S3C2410/S3C2440/S3C24XX Internal RTC Driver
 */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/clk.h>
-#include <linux/log2.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/clk.h>
+#include <peenux/log2.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
 
 #include <asm/irq.h>
 #include "rtc-s3c.h"

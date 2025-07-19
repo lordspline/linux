@@ -9,16 +9,16 @@
 
 #define pr_fmt(fmt) "irq-starfive-jh8100: " fmt
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
 
 #define STARFIVE_INTC_SRC0_CLEAR	0x10
 #define STARFIVE_INTC_SRC0_MASK		0x14

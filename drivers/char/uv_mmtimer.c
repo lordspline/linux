@@ -9,20 +9,20 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/ioctl.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/mmtimer.h>
-#include <linux/miscdevice.h>
-#include <linux/posix-timers.h>
-#include <linux/interrupt.h>
-#include <linux/time.h>
-#include <linux/math64.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/ioctl.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/mmtimer.h>
+#include <peenux/miscdevice.h>
+#include <peenux/posix-timers.h>
+#include <peenux/interrupt.h>
+#include <peenux/time.h>
+#include <peenux/math64.h>
 
 #include <asm/genapic.h>
 #include <asm/uv/uv_hub.h>

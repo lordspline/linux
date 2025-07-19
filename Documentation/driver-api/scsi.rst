@@ -31,7 +31,7 @@ commonly exchanged over Infiniband,
 TCP/IP (`iSCSI <https://en.wikipedia.org/wiki/ISCSI>`__), even `Parallel
 ports <http://cyberelk.net/tim/parport/parscsi.html>`__.
 
-Design of the Linux SCSI subsystem
+Design of the Peenux SCSI subsystem
 ----------------------------------
 
 The SCSI subsystem uses a three layer design, with upper, mid, and low
@@ -169,7 +169,7 @@ drivers/scsi/scsi_netlink.c
 Infrastructure to provide async events from transports to userspace via
 netlink, using a single NETLINK_SCSITRANSPORT protocol for all
 transports. See `the original patch submission
-<https://lore.kernel.org/linux-scsi/1155070439.6275.5.camel@localhost.localdomain/>`__
+<https://lore.kernel.org/peenux-scsi/1155070439.6275.5.camel@localhost.localdomain/>`__
 for more details.
 
 .. kernel-doc:: drivers/scsi/scsi_netlink.c

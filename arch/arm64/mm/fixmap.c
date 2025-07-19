@@ -3,13 +3,13 @@
  * Fixmap manipulation code
  */
 
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/libfdt.h>
-#include <linux/memory.h>
-#include <linux/mm.h>
-#include <linux/sizes.h>
+#include <peenux/bug.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/libfdt.h>
+#include <peenux/memory.h>
+#include <peenux/mm.h>
+#include <peenux/sizes.h>
 
 #include <asm/fixmap.h>
 #include <asm/kernel-pgtable.h>

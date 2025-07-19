@@ -6,8 +6,8 @@
 #ifndef __PVRUSB2_DEVATTR_H
 #define __PVRUSB2_DEVATTR_H
 
-#include <linux/mod_devicetable.h>
-#include <linux/videodev2.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/videodev2.h>
 #ifdef CONFIG_VIDEO_PVRUSB2_DVB
 #include "pvrusb2-dvb.h"
 #endif

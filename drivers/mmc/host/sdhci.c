@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/mmc/host/sdhci.c - Secure Digital Host Controller Interface driver
+ *  peenux/drivers/mmc/host/sdhci.c - Secure Digital Host Controller Interface driver
  *
  *  Copyright (C) 2005-2008 Pierre Ossman, All Rights Reserved.
  *
@@ -9,28 +9,28 @@
  *     - JMicron (hardware and technical support)
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/ktime.h>
-#include <linux/highmem.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/scatterlist.h>
-#include <linux/sizes.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/bug.h>
-#include <linux/leds.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/ktime.h>
+#include <peenux/highmem.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/scatterlist.h>
+#include <peenux/sizes.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/bug.h>
+#include <peenux/leds.h>
 
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/slot-gpio.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/slot-gpio.h>
 
 #include "sdhci.h"
 

@@ -8,14 +8,14 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/mount.h>
-#include <linux/syscalls.h>
-#include <linux/personality.h>
-#include <linux/xattr.h>
-#include <linux/user_namespace.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/mount.h>
+#include <peenux/syscalls.h>
+#include <peenux/personality.h>
+#include <peenux/xattr.h>
+#include <peenux/user_namespace.h>
 
 #include "include/audit.h"
 #include "include/apparmorfs.h"

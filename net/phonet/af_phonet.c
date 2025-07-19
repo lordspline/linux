@@ -10,14 +10,14 @@
  *          Rémi Denis-Courmont
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 #include <net/sock.h>
 
-#include <linux/if_phonet.h>
-#include <linux/phonet.h>
+#include <peenux/if_phonet.h>
+#include <peenux/phonet.h>
 #include <net/phonet/phonet.h>
 #include <net/phonet/pn_dev.h>
 
@@ -535,6 +535,6 @@ static void __exit phonet_exit(void)
 
 module_init(phonet_init);
 module_exit(phonet_exit);
-MODULE_DESCRIPTION("Phonet protocol stack for Linux");
+MODULE_DESCRIPTION("Phonet protocol stack for Peenux");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS_NETPROTO(PF_PHONET);

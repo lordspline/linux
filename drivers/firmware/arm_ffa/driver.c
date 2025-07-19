@@ -22,25 +22,25 @@
 #define DRIVER_NAME "ARM FF-A"
 #define pr_fmt(fmt) DRIVER_NAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/arm_ffa.h>
-#include <linux/bitfield.h>
-#include <linux/cpuhotplug.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/hashtable.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/of_irq.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/uuid.h>
-#include <linux/xarray.h>
+#include <peenux/acpi.h>
+#include <peenux/arm_ffa.h>
+#include <peenux/bitfield.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/hashtable.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/of_irq.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/uuid.h>
+#include <peenux/xarray.h>
 
 #include "common.h"
 

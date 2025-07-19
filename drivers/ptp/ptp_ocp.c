@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2020 Facebook */
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/serial_8250.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/i2c-xiic.h>
-#include <linux/platform_data/i2c-ocores.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/xilinx_spi.h>
-#include <linux/spi/altera.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/serial_8250.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/i2c-xiic.h>
+#include <peenux/platform_data/i2c-ocores.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/xilinx_spi.h>
+#include <peenux/spi/altera.h>
 #include <net/devlink.h>
-#include <linux/i2c.h>
-#include <linux/mtd/mtd.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/crc16.h>
-#include <linux/dpll.h>
+#include <peenux/i2c.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/crc16.h>
+#include <peenux/dpll.h>
 
 #define PCI_VENDOR_ID_FACEBOOK			0x1d9b
 #define PCI_DEVICE_ID_FACEBOOK_TIMECARD		0x0400

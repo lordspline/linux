@@ -13,15 +13,15 @@
 #include "cx88.h"
 #include "cx88-reg.h"
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/vmalloc.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/vmalloc.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

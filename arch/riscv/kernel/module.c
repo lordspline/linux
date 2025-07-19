@@ -4,15 +4,15 @@
  *  Copyright (C) 2017 Zihao Yu
  */
 
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/hashtable.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/moduleloader.h>
-#include <linux/sizes.h>
-#include <linux/pgtable.h>
+#include <peenux/elf.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/hashtable.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/moduleloader.h>
+#include <peenux/sizes.h>
+#include <peenux/pgtable.h>
 #include <asm/alternative.h>
 #include <asm/sections.h>
 

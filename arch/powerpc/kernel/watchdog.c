@@ -9,23 +9,23 @@
 
 #define pr_fmt(fmt) "watchdog: " fmt
 
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/init.h>
-#include <linux/percpu.h>
-#include <linux/cpu.h>
-#include <linux/nmi.h>
-#include <linux/module.h>
-#include <linux/export.h>
-#include <linux/kprobes.h>
-#include <linux/hardirq.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/kdebug.h>
-#include <linux/sched/debug.h>
-#include <linux/delay.h>
-#include <linux/processor.h>
-#include <linux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/init.h>
+#include <peenux/percpu.h>
+#include <peenux/cpu.h>
+#include <peenux/nmi.h>
+#include <peenux/module.h>
+#include <peenux/export.h>
+#include <peenux/kprobes.h>
+#include <peenux/hardirq.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/kdebug.h>
+#include <peenux/sched/debug.h>
+#include <peenux/delay.h>
+#include <peenux/processor.h>
+#include <peenux/smp.h>
 
 #include <asm/interrupt.h>
 #include <asm/paca.h>
@@ -44,7 +44,7 @@
  * are disabled with local_irq_disable(), platforms that use soft-masking
  * can leave hardware interrupts enabled and handle them with a masked
  * interrupt handler. The masked handler can send the timer interrupt to the
- * watchdog's soft_nmi_interrupt(), which appears to Linux as an NMI
+ * watchdog's soft_nmi_interrupt(), which appears to Peenux as an NMI
  * interrupt, and can be used to detect CPUs stuck with IRQs disabled.
  *
  * The soft-NMI checker will compare the heartbeat timestamp for this CPU

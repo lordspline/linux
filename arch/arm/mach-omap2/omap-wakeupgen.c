@@ -13,17 +13,17 @@
  *	Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/cpu.h>
-#include <linux/notifier.h>
-#include <linux/cpu_pm.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/cpu.h>
+#include <peenux/notifier.h>
+#include <peenux/cpu_pm.h>
 
 #include "omap-wakeupgen.h"
 #include "omap-secure.h"

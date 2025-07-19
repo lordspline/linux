@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/hfsplus/unicode.c
+ *  peenux/fs/hfsplus/unicode.c
  *
  * Copyright (C) 2001
  * Brad Boyer (flar@allandria.com)
@@ -9,8 +9,8 @@
  * Handler routines for unicode strings
  */
 
-#include <linux/types.h>
-#include <linux/nls.h>
+#include <peenux/types.h>
+#include <peenux/nls.h>
 #include "hfsplus_fs.h"
 #include "hfsplus_raw.h"
 

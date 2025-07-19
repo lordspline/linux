@@ -5,14 +5,14 @@
  * Copyright (C) 2007, Intel Corp.
  *	Huang Ying <ying.huang@intel.com>
  */
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/stat.h>
-#include <linux/io.h>
-#include <linux/mm.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/stat.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
 
 #include <asm/setup.h>
 

@@ -5,12 +5,12 @@
  * Copyright (C) 2018-2020 Intel Corporation. All rights reserved.
  *
  */
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/mfd/intel-m10-bmc.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/hwmon.h>
+#include <peenux/mfd/intel-m10-bmc.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 
 struct m10bmc_sdata {
 	unsigned int reg_input;

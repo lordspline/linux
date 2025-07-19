@@ -9,10 +9,10 @@
  *
  */
 
-#include <linux/spi/spi.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 
 #include "tlv320aic3x.h"

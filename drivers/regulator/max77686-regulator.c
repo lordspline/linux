@@ -8,17 +8,17 @@
 //
 // This driver is based on max8997.c
 
-#include <linux/kernel.h>
-#include <linux/bug.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/max77686.h>
-#include <linux/mfd/max77686-private.h>
+#include <peenux/kernel.h>
+#include <peenux/bug.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/mfd/max77686.h>
+#include <peenux/mfd/max77686-private.h>
 
 #define MAX77686_LDO_MINUV	800000
 #define MAX77686_LDO_UVSTEP	50000

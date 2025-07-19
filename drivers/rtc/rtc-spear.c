@@ -6,18 +6,18 @@
  * Rajeev Kumar<rajeev-dlh.kumar@st.com>
  */
 
-#include <linux/bcd.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/bcd.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 /* RTC registers */
 #define TIME_REG		0x00

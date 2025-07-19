@@ -7,12 +7,12 @@
  * marketed by Arista currently use this adapter.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 #include <asm/io.h>
 #include "pata_parport.h"
 

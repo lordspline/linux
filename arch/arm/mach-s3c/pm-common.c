@@ -9,8 +9,8 @@
 //
 // Samsung common power management helper functions.
 
-#include <linux/io.h>
-#include <linux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
 
 #include "pm-common.h"
 

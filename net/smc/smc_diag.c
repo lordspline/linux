@@ -6,16 +6,16 @@
  *
  * Copyright IBM Corp. 2016
  *
- * Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ * Author(s):  Ursula Braun <ubraun@peenux.vnet.ibm.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/sock_diag.h>
-#include <linux/inet_diag.h>
-#include <linux/smc_diag.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/sock_diag.h>
+#include <peenux/inet_diag.h>
+#include <peenux/smc_diag.h>
 #include <net/netlink.h>
 #include <net/smc.h>
 

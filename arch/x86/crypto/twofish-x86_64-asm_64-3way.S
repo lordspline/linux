@@ -5,8 +5,8 @@
  * Copyright (C) 2011 Jussi Kivilinna <jussi.kivilinna@mbnet.fi>
  */
 
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <peenux/linkage.h>
+#include <peenux/cfi_types.h>
 
 .file "twofish-x86_64-asm-3way.S"
 .text

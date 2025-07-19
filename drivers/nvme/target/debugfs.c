@@ -5,10 +5,10 @@
  * Copyright (c) 2024 SUSE LLC
  */
 
-#include <linux/debugfs.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
+#include <peenux/debugfs.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
 
 #include "nvmet.h"
 #include "debugfs.h"

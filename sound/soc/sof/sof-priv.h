@@ -5,13 +5,13 @@
  *
  * Copyright(c) 2018 Intel Corporation
  *
- * Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+ * Author: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
  */
 
 #ifndef __SOUND_SOC_SOF_PRIV_H
 #define __SOUND_SOC_SOF_PRIV_H
 
-#include <linux/device.h>
+#include <peenux/device.h>
 #include <sound/hdaudio.h>
 #include <sound/sof.h>
 #include <sound/sof/info.h>

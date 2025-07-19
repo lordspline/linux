@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/netpoll.h>
-#include <linux/export.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/netpoll.h>
+#include <peenux/export.h>
 #include <net/gro.h>
 #include "vlan.h"
 

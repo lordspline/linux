@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/xattr.h>
-#include <linux/fsverity.h>
+#include <peenux/fsverity.h>
 #include <unistd.h>
 #include <test_progs.h>
 #include "test_get_xattr.skel.h"

@@ -6,17 +6,17 @@
  *
  * Copyright (C) 2009 - 2010  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/perf_event.h>
-#include <linux/sched/signal.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/percpu.h>
-#include <linux/kallsyms.h>
-#include <linux/notifier.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/io.h>
-#include <linux/clk.h>
+#include <peenux/init.h>
+#include <peenux/perf_event.h>
+#include <peenux/sched/signal.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/percpu.h>
+#include <peenux/kallsyms.h>
+#include <peenux/notifier.h>
+#include <peenux/kprobes.h>
+#include <peenux/kdebug.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
 #include <asm/hw_breakpoint.h>
 #include <asm/mmu_context.h>
 #include <asm/ptrace.h>

@@ -36,8 +36,8 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include "agent.h"
 #include "smi.h"

@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Author: Dan Scally <djrscally@gmail.com> */
 
-#include <linux/acpi.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps68470.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/tps68470.h>
-#include <linux/platform_data/x86/int3472.h>
-#include <linux/regmap.h>
-#include <linux/string.h>
+#include <peenux/acpi.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/tps68470.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/tps68470.h>
+#include <peenux/platform_data/x86/int3472.h>
+#include <peenux/regmap.h>
+#include <peenux/string.h>
 
 #include "tps68470.h"
 

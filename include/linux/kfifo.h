@@ -36,10 +36,10 @@
  * to lock the reader.
  */
 
-#include <linux/array_size.h>
-#include <linux/spinlock.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/spinlock.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 #include <asm/barrier.h>
 #include <asm/errno.h>

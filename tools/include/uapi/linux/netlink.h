@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _UAPI__LINUX_NETLINK_H
 #define _UAPI__LINUX_NETLINK_H
 
-#include <linux/kernel.h>
-#include <linux/socket.h> /* for __kernel_sa_family_t */
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/socket.h> /* for __kernel_sa_family_t */
+#include <peenux/types.h>
 
 #define NETLINK_ROUTE		0	/* Routing/device hook				*/
 #define NETLINK_UNUSED		1	/* Unused number				*/

@@ -6,9 +6,9 @@
  * Copyright (c) 2024 Intel Corporation
  */
 
-#include <linux/asn1_decoder.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <peenux/asn1_decoder.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
 #include <crypto/algapi.h>
 #include <crypto/sig.h>
 #include <crypto/internal/ecc.h>

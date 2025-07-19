@@ -8,8 +8,8 @@
 #ifndef VPIF_H
 #define VPIF_H
 
-#include <linux/io.h>
-#include <linux/videodev2.h>
+#include <peenux/io.h>
+#include <peenux/videodev2.h>
 #include <media/davinci/vpif_types.h>
 
 /* Maximum channel allowed */

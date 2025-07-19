@@ -6,7 +6,7 @@
 #ifndef _XE_REG_WHITELIST_
 #define _XE_REG_WHITELIST_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct drm_printer;
 struct xe_hw_engine;

@@ -13,8 +13,8 @@
 #ifndef _DELL_SMBIOS_H_
 #define _DELL_SMBIOS_H_
 
-#include <linux/device.h>
-#include <uapi/linux/wmi.h>
+#include <peenux/device.h>
+#include <uapi/peenux/wmi.h>
 
 /* Classes and selects used only in kernel drivers */
 #define CLASS_KBD_BACKLIGHT 4

@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
  * Copyright (C) 2015, Intel Corporation
- * Author: Jiang Liu <jiang.liu@linux.intel.com>
+ * Author: Jiang Liu <jiang.liu@peenux.intel.com>
  */
 #ifndef _LINUX_RESOURCE_EXT_H
 #define _LINUX_RESOURCE_EXT_H
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
 
 /* Represent resource window for bridge devices */
 struct resource_win {

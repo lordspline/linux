@@ -6,8 +6,8 @@
 #ifndef __QCOM_ICE_H__
 #define __QCOM_ICE_H__
 
-#include <linux/blk-crypto.h>
-#include <linux/types.h>
+#include <peenux/blk-crypto.h>
+#include <peenux/types.h>
 
 struct qcom_ice;
 

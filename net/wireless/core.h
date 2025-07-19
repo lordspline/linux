@@ -7,13 +7,13 @@
  */
 #ifndef __NET_WIRELESS_CORE_H
 #define __NET_WIRELESS_CORE_H
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/rbtree.h>
-#include <linux/debugfs.h>
-#include <linux/rfkill.h>
-#include <linux/workqueue.h>
-#include <linux/rtnetlink.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/rbtree.h>
+#include <peenux/debugfs.h>
+#include <peenux/rfkill.h>
+#include <peenux/workqueue.h>
+#include <peenux/rtnetlink.h>
 #include <net/genetlink.h>
 #include <net/cfg80211.h>
 #include "reg.h"

@@ -5,18 +5,18 @@
  * Copyright (c) 2003-2007 Cavium Networks
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ip.h>
-#include <linux/string.h>
-#include <linux/ethtool.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ip.h>
+#include <peenux/string.h>
+#include <peenux/ethtool.h>
+#include <peenux/seq_file.h>
+#include <peenux/proc_fs.h>
 #include <net/dst.h>
 #ifdef CONFIG_XFRM
-#include <linux/xfrm.h>
+#include <peenux/xfrm.h>
 #include <net/xfrm.h>
 #endif /* CONFIG_XFRM */
 

@@ -24,10 +24,10 @@
  *		seconds  microseconds
  */
 
-#include <linux/completion.h>
-#include <linux/module.h>
-#include <linux/sched/clock.h>
-#include <linux/spi/spi.h>
+#include <peenux/completion.h>
+#include <peenux/module.h>
+#include <peenux/sched/clock.h>
+#include <peenux/spi/spi.h>
 
 
 struct spi_slave_time_priv {

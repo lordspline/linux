@@ -8,8 +8,8 @@
 #ifndef EFX_IO_H
 #define EFX_IO_H
 
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
 
 /**************************************************************************
  *

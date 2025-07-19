@@ -3,10 +3,10 @@
  * Copyright 2017 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/sched/types.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/sched/types.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 #include <media/cec-pin.h>
 #include "cec-pin-priv.h"

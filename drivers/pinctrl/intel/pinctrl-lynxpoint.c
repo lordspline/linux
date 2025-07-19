@@ -3,29 +3,29 @@
  * Intel Lynxpoint PCH pinctrl/GPIO driver
  *
  * Copyright (c) 2012, 2019, Intel Corporation
- * Authors: Mathias Nyman <mathias.nyman@linux.intel.com>
- *          Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Authors: Mathias Nyman <mathias.nyman@peenux.intel.com>
+ *          Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "pinctrl-intel.h"
 

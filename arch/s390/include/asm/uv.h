@@ -5,16 +5,16 @@
  * Copyright IBM Corp. 2019, 2024
  *
  * Author(s):
- *	Vasily Gorbik <gor@linux.ibm.com>
- *	Janosch Frank <frankja@linux.ibm.com>
+ *	Vasily Gorbik <gor@peenux.ibm.com>
+ *	Janosch Frank <frankja@peenux.ibm.com>
  */
 #ifndef _ASM_S390_UV_H
 #define _ASM_S390_UV_H
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/bug.h>
-#include <linux/sched.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/bug.h>
+#include <peenux/sched.h>
 #include <asm/page.h>
 #include <asm/asm.h>
 

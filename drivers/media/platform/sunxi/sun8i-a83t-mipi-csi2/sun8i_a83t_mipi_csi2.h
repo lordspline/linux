@@ -8,9 +8,9 @@
 #ifndef _SUN8I_A83T_MIPI_CSI2_H_
 #define _SUN8I_A83T_MIPI_CSI2_H_
 
-#include <linux/phy/phy.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/phy/phy.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-fwnode.h>
 

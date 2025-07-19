@@ -15,20 +15,20 @@
  *   Resets the system according to RST_MODE
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reboot.h>
-#include <linux/watchdog.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/reboot.h>
+#include <peenux/watchdog.h>
 
 #define OTTO_WDT_REG_CNTR		0x0
 #define OTTO_WDT_CNTR_PING		BIT(31)

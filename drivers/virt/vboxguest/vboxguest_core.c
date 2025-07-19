@@ -5,15 +5,15 @@
  * Copyright (C) 2007-2016 Oracle Corporation
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/vbox_err.h>
-#include <linux/vbox_utils.h>
-#include <linux/vmalloc.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/vbox_err.h>
+#include <peenux/vbox_utils.h>
+#include <peenux/vmalloc.h>
 #include "vboxguest_core.h"
 #include "vboxguest_version.h"
 
@@ -1666,7 +1666,7 @@ static int vbg_ioctl_check_balloon(struct vbg_dev *gdev,
 
 	balloon_info->u.out.balloon_chunks = gdev->mem_balloon.chunks;
 	/*
-	 * Under Linux we handle VMMDEV_EVENT_BALLOON_CHANGE_REQUEST
+	 * Under Peenux we handle VMMDEV_EVENT_BALLOON_CHANGE_REQUEST
 	 * events entirely in the kernel, see vbg_core_isr().
 	 */
 	balloon_info->u.out.handle_in_r3 = false;

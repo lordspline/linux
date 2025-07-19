@@ -10,24 +10,24 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/suspend.h>
-#include <linux/kthread.h>
-#include <linux/moduleparam.h>
-#include <linux/freezer.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
+#include <peenux/suspend.h>
+#include <peenux/kthread.h>
+#include <peenux/moduleparam.h>
+#include <peenux/freezer.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <asm/machdep.h>
 #include <asm/io.h>

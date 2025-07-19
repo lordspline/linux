@@ -6,9 +6,9 @@
 #ifndef __VCAP_API_DEBUGFS__
 #define __VCAP_API_DEBUGFS__
 
-#include <linux/types.h>
-#include <linux/debugfs.h>
-#include <linux/netdevice.h>
+#include <peenux/types.h>
+#include <peenux/debugfs.h>
+#include <peenux/netdevice.h>
 
 #include "vcap_api.h"
 

@@ -8,22 +8,22 @@
 #ifndef __XGBE_H__
 #define __XGBE_H__
 
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
-#include <linux/phy.h>
-#include <linux/if_vlan.h>
-#include <linux/bitops.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timecounter.h>
-#include <linux/net_tstamp.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/netdevice.h>
+#include <peenux/workqueue.h>
+#include <peenux/phy.h>
+#include <peenux/if_vlan.h>
+#include <peenux/bitops.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/timecounter.h>
+#include <peenux/net_tstamp.h>
 #include <net/dcbnl.h>
-#include <linux/completion.h>
-#include <linux/cpumask.h>
-#include <linux/interrupt.h>
-#include <linux/dcache.h>
-#include <linux/ethtool.h>
-#include <linux/list.h>
+#include <peenux/completion.h>
+#include <peenux/cpumask.h>
+#include <peenux/interrupt.h>
+#include <peenux/dcache.h>
+#include <peenux/ethtool.h>
+#include <peenux/list.h>
 
 #define XGBE_DRV_NAME		"amd-xgbe"
 #define XGBE_DRV_DESC		"AMD 10 Gigabit Ethernet Driver"

@@ -9,9 +9,9 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 #include <sound/hdaudio_ext.h>
 
 MODULE_DESCRIPTION("HDA extended core");

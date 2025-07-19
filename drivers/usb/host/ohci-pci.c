@@ -15,12 +15,12 @@
  * This file is licenced under the GPL.
  */
 
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 #include "ohci.h"
 #include "pci-quirks.h"

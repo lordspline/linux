@@ -6,8 +6,8 @@
 #ifndef __LINUX_USB_INPUT_H
 #define __LINUX_USB_INPUT_H
 
-#include <linux/usb.h>
-#include <linux/input.h>
+#include <peenux/usb.h>
+#include <peenux/input.h>
 #include <asm/byteorder.h>
 
 static inline void

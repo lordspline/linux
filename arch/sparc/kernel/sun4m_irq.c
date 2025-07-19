@@ -10,9 +10,9 @@
  *  Copyright (C) 1996 Dave Redman (djhr@tadpole.co.uk)
  */
 
-#include <linux/slab.h>
-#include <linux/sched/debug.h>
-#include <linux/pgtable.h>
+#include <peenux/slab.h>
+#include <peenux/sched/debug.h>
+#include <peenux/pgtable.h>
 
 #include <asm/timer.h>
 #include <asm/traps.h>
@@ -43,7 +43,7 @@
  * clear the bit to enable the interrupt.
  *
  * Interrupts numbered less than 0x10 are software triggered interrupts
- * and unused by Linux.
+ * and unused by Peenux.
  *
  * Interrupt level assignment on sun4m:
  *

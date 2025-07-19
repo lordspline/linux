@@ -2,12 +2,12 @@
 /*
  *  Registration of Cobalt LED platform device.
  *
- *  Copyright (C) 2007	Yoichi Yuasa <yuasa@linux-mips.org>
+ *  Copyright (C) 2007	Yoichi Yuasa <yuasa@peenux-mips.org>
  */
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
 
 #include <cobalt.h>
 

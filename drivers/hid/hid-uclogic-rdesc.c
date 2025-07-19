@@ -15,8 +15,8 @@
  */
 
 #include "hid-uclogic-rdesc.h"
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 #include <kunit/visibility.h>
 
 /* Fixed WP4030U report descriptor */

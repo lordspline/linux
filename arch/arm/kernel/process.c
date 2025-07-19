@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/process.c
+ *  peenux/arch/arm/kernel/process.c
  *
  *  Copyright (C) 1996-2000 Russell King - Converted to ARM.
  *  Original Copyright (C) 1995  Linus Torvalds
  */
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/user.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/elfcore.h>
-#include <linux/pm.h>
-#include <linux/tick.h>
-#include <linux/utsname.h>
-#include <linux/uaccess.h>
-#include <linux/random.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/leds.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/user.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/elfcore.h>
+#include <peenux/pm.h>
+#include <peenux/tick.h>
+#include <peenux/utsname.h>
+#include <peenux/uaccess.h>
+#include <peenux/random.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/leds.h>
 
 #include <asm/processor.h>
 #include <asm/thread_notify.h>
@@ -41,7 +41,7 @@ DEFINE_PER_CPU(struct task_struct *, __entry_task);
 #endif
 
 #if defined(CONFIG_STACKPROTECTOR) && !defined(CONFIG_STACKPROTECTOR_PER_TASK)
-#include <linux/stackprotector.h>
+#include <peenux/stackprotector.h>
 unsigned long __stack_chk_guard __read_mostly;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

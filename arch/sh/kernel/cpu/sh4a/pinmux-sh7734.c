@@ -5,10 +5,10 @@
  * Copyright (C) 2012  Renesas Solutions Corp.
  * Copyright (C) 2012  Nobuhiro Iwamatsu <nobuhiro.iwamatsu.yj@renesas.com>
  */
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
+#include <peenux/bug.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/ioport.h>
 #include <cpu/pfc.h>
 
 static struct resource sh7734_pfc_resources[] = {

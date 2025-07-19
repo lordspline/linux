@@ -5,12 +5,12 @@
 
  */
 
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/via-core.h>
-#include <linux/via_i2c.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/via-core.h>
+#include <peenux/via_i2c.h>
 
 /*
  * There can only be one set of these, so there's no point in having

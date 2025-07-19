@@ -5,22 +5,22 @@
  * Copyright 2009 Johannes Berg <johannes@sipsolutions.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/workqueue.h>
-#include <linux/capability.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/rfkill.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/wait.h>
-#include <linux/poll.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/workqueue.h>
+#include <peenux/capability.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/rfkill.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/miscdevice.h>
+#include <peenux/wait.h>
+#include <peenux/poll.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
 
 #include "rfkill.h"
 

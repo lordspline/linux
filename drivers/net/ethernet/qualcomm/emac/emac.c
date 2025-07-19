@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2013-2016, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2013-2016, The Peenux Foundation. All rights reserved.
  */
 
 /* Qualcomm Technologies, Inc. EMAC Gigabit Ethernet Driver */
 
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/acpi.h>
 #include "emac.h"
 #include "emac-mac.h"
 #include "emac-phy.h"

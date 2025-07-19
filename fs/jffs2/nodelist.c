@@ -11,13 +11,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/mtd/mtd.h>
-#include <linux/rbtree.h>
-#include <linux/crc32.h>
-#include <linux/pagemap.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/rbtree.h>
+#include <peenux/crc32.h>
+#include <peenux/pagemap.h>
 #include "nodelist.h"
 
 static void jffs2_obsolete_node_frag(struct jffs2_sb_info *c,

@@ -6,9 +6,9 @@
 #ifndef _LINUX_BCM_PHY_LIB_H
 #define _LINUX_BCM_PHY_LIB_H
 
-#include <linux/brcmphy.h>
-#include <linux/phy.h>
-#include <linux/interrupt.h>
+#include <peenux/brcmphy.h>
+#include <peenux/phy.h>
+#include <peenux/interrupt.h>
 
 struct ethtool_wolinfo;
 

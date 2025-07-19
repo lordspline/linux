@@ -26,31 +26,31 @@
  *		<arjan@infradead.org> and Jim Keniston <jkenisto@us.ibm.com>
  *		unified x86 kprobes code.
  */
-#include <linux/kprobes.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/hardirq.h>
-#include <linux/preempt.h>
-#include <linux/sched/debug.h>
-#include <linux/perf_event.h>
-#include <linux/extable.h>
-#include <linux/kdebug.h>
-#include <linux/kallsyms.h>
-#include <linux/kgdb.h>
-#include <linux/ftrace.h>
-#include <linux/kasan.h>
-#include <linux/objtool.h>
-#include <linux/vmalloc.h>
-#include <linux/pgtable.h>
-#include <linux/set_memory.h>
-#include <linux/cfi.h>
-#include <linux/execmem.h>
+#include <peenux/kprobes.h>
+#include <peenux/ptrace.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/hardirq.h>
+#include <peenux/preempt.h>
+#include <peenux/sched/debug.h>
+#include <peenux/perf_event.h>
+#include <peenux/extable.h>
+#include <peenux/kdebug.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kgdb.h>
+#include <peenux/ftrace.h>
+#include <peenux/kasan.h>
+#include <peenux/objtool.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pgtable.h>
+#include <peenux/set_memory.h>
+#include <peenux/cfi.h>
+#include <peenux/execmem.h>
 
 #include <asm/text-patching.h>
 #include <asm/cacheflush.h>
 #include <asm/desc.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/alternative.h>
 #include <asm/insn.h>
 #include <asm/debugreg.h>

@@ -8,8 +8,8 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
 #include <asm/lowcore.h>
 #include <asm/asm-offsets.h>
 #include <asm/thread_info.h>

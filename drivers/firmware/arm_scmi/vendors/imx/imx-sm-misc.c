@@ -7,13 +7,13 @@
 
 #define pr_fmt(fmt) "SCMI Notifications MISC - " fmt
 
-#include <linux/bits.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/scmi_protocol.h>
-#include <linux/scmi_imx_protocol.h>
+#include <peenux/bits.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/scmi_imx_protocol.h>
 
 #include "../../protocols.h"
 #include "../../notify.h"

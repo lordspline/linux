@@ -9,19 +9,19 @@
  * Authors: Tobias Schramm <t.schramm@manjaro.org>
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/gfp.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/time.h>
-#include <linux/workqueue.h>
-#include <linux/devm-helpers.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/gfp.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/power_supply.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/time.h>
+#include <peenux/workqueue.h>
+#include <peenux/devm-helpers.h>
 
 #define CW2015_SIZE_BATINFO		64
 

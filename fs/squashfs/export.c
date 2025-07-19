@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Squashfs - a compressed read only filesystem for Linux
+ * Squashfs - a compressed read only filesystem for Peenux
  *
  * Copyright (c) 2002, 2003, 2004, 2005, 2006, 2007, 2008
  * Phillip Lougher <phillip@squashfs.org.uk>
@@ -22,11 +22,11 @@
  * without an intermediate lookup for all operations except the export ops.
  */
 
-#include <linux/fs.h>
-#include <linux/vfs.h>
-#include <linux/dcache.h>
-#include <linux/exportfs.h>
-#include <linux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/vfs.h>
+#include <peenux/dcache.h>
+#include <peenux/exportfs.h>
+#include <peenux/slab.h>
 
 #include "squashfs_fs.h"
 #include "squashfs_fs_sb.h"

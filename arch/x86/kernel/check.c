@@ -2,11 +2,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
-#include <linux/workqueue.h>
-#include <linux/memblock.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/kthread.h>
+#include <peenux/workqueue.h>
+#include <peenux/memblock.h>
 
 #include <asm/proto.h>
 #include <asm/setup.h>

@@ -25,22 +25,22 @@
 
 /*****************************************************************************/
 
-#include <linux/crc-ccitt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
-#include <linux/fs.h>
-#include <linux/parport.h>
-#include <linux/if_arp.h>
-#include <linux/hdlcdrv.h>
-#include <linux/baycom.h>
-#include <linux/jiffies.h>
-#include <linux/random.h>
+#include <peenux/crc-ccitt.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
+#include <peenux/fs.h>
+#include <peenux/parport.h>
+#include <peenux/if_arp.h>
+#include <peenux/hdlcdrv.h>
+#include <peenux/baycom.h>
+#include <peenux/jiffies.h>
+#include <peenux/random.h>
 #include <net/ax25.h> 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /* --------------------------------------------------------------------- */
 
@@ -286,7 +286,7 @@ static inline void baycom_int_freq(struct baycom_state *bc)
 
 static char const eppconfig_path[] = "/usr/sbin/eppfpga";
 
-static char *envp[] = { "HOME=/", "TERM=linux", "PATH=/usr/bin:/bin", NULL };
+static char *envp[] = { "HOME=/", "TERM=peenux", "PATH=/usr/bin:/bin", NULL };
 
 /* eppconfig: called during ifconfig up to configure the modem */
 static int eppconfig(struct baycom_state *bc)

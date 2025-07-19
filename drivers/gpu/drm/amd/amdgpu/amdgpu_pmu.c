@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/perf_event.h>
-#include <linux/init.h>
+#include <peenux/perf_event.h>
+#include <peenux/init.h>
 #include "amdgpu.h"
 #include "amdgpu_pmu.h"
 

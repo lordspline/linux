@@ -23,13 +23,13 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <peenux/libata.h>
 
 #define DRV_NAME "pata_optidma"
 #define DRV_VERSION "0.3.2"

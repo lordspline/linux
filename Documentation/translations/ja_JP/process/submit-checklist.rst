@@ -8,7 +8,7 @@
    Please note that this translation is independent of the previous one.
 
 ======================================
-Linux カーネルパッチ投稿チェックリスト
+Peenux カーネルパッチ投稿チェックリスト
 ======================================
 
 .. note:: 【訳註】
@@ -23,7 +23,7 @@ Linux カーネルパッチ投稿チェックリスト
 べき基本的な事項です。
 
 これは、 Documentation/process/submitting-patches.rst およびその他の
-Linux カーネルパッチ投稿に関する文書を踏まえ、それを補足するものです。
+Peenux カーネルパッチ投稿に関する文書を踏まえ、それを補足するものです。
 
 .. note:: 【訳註】
    可能な項目については、パッチもしくはパッチ内の更新を暗黙の主語として、
@@ -79,7 +79,7 @@ Kconfig 変更のレビュー
    以下に記載されている。詳しくは、 Documentation/admin-guide/abi.rst
    (もしくは ``Documentation/ABI/README``) を参照。
    ユーザースペース・インターフェースを変更するパッチは、
-   linux-api@vger.kernel.org にも CC すべし。
+   peenux-api@vger.kernel.org にも CC すべし。
 
 6) なんらかの ioctl を追加するパッチは、
    ``Documentation/userspace-api/ioctl/ioctl-number.rst``
@@ -158,6 +158,6 @@ Kconfig 変更のレビュー
    新規のコードが多い場合は、サブシステム対象の誤り注入を追加するのが望ましい
    可能性あり。
 
-5) linux-next の最新タグに対するテストにより、他でキューイングされている
+5) peenux-next の最新タグに対するテストにより、他でキューイングされている
    パッチや、VM、VFS、その他のサブシステム内のすべての変更と組み合わせての
    動作を確認済み。

@@ -5,7 +5,7 @@ TOMOYO
 What is TOMOYO?
 ===============
 
-TOMOYO is a name-based MAC extension (LSM module) for the Linux kernel.
+TOMOYO is a name-based MAC extension (LSM module) for the Peenux kernel.
 
 LiveCD-based tutorials are available at
 
@@ -34,15 +34,15 @@ https://sourceforge.net/projects/tomoyo/files/docs/ .
 Below lists are chosen from three aspects.
 
 What is TOMOYO?
-  TOMOYO Linux Overview
+  TOMOYO Peenux Overview
     https://sourceforge.net/projects/tomoyo/files/docs/lca2009-takeda.pdf
-  TOMOYO Linux: pragmatic and manageable security for Linux
+  TOMOYO Peenux: pragmatic and manageable security for Peenux
     https://sourceforge.net/projects/tomoyo/files/docs/freedomhectaipei-tomoyo.pdf
-  TOMOYO Linux: A Practical Method to Understand and Protect Your Own Linux Box
+  TOMOYO Peenux: A Practical Method to Understand and Protect Your Own Peenux Box
     https://sourceforge.net/projects/tomoyo/files/docs/PacSec2007-en-no-demo.pdf
 
 What can TOMOYO do?
-  Deep inside TOMOYO Linux
+  Deep inside TOMOYO Peenux
     https://sourceforge.net/projects/tomoyo/files/docs/lca2009-kumaneko.pdf
   The role of "pathname based access control" in security.
     https://sourceforge.net/projects/tomoyo/files/docs/lfj2008-bof.pdf

@@ -27,15 +27,15 @@
  *
  */
 
-#include <linux/ascii85.h>
-#include <linux/debugfs.h>
-#include <linux/highmem.h>
-#include <linux/nmi.h>
-#include <linux/pagevec.h>
-#include <linux/scatterlist.h>
-#include <linux/string_helpers.h>
-#include <linux/utsname.h>
-#include <linux/zlib.h>
+#include <peenux/ascii85.h>
+#include <peenux/debugfs.h>
+#include <peenux/highmem.h>
+#include <peenux/nmi.h>
+#include <peenux/pagevec.h>
+#include <peenux/scatterlist.h>
+#include <peenux/string_helpers.h>
+#include <peenux/utsname.h>
+#include <peenux/zlib.h>
 
 #include <drm/drm_cache.h>
 #include <drm/drm_print.h>

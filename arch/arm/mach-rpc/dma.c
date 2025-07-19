@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-rpc/dma.c
+ *  peenux/arch/arm/mach-rpc/dma.c
  *
  *  Copyright (C) 1998 Russell King
  *
  *  DMA functions specific to RiscPC architecture
  */
-#include <linux/mman.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
+#include <peenux/mman.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
 
 #include <asm/page.h>
 #include <asm/dma.h>
 #include <asm/fiq.h>
 #include <asm/irq.h>
 #include <mach/hardware.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <asm/mach/dma.h>
 #include <asm/hardware/iomd.h>

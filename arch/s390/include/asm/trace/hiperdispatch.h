@@ -11,7 +11,7 @@
 #if !defined(_TRACE_S390_HIPERDISPATCH_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_S390_HIPERDISPATCH_H
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 
 #undef TRACE_INCLUDE_PATH
 #undef TRACE_INCLUDE_FILE

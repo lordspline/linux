@@ -9,12 +9,12 @@
  * Archit Taneja, <archit@ti.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-common.h>
 
 #include "csc.h"

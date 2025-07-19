@@ -7,14 +7,14 @@
  * Use "bpftool cgroup attach $cg sock_ops $prog" to load this BPF program.
  */
 
-#include <uapi/linux/bpf.h>
-#include <uapi/linux/tcp.h>
-#include <uapi/linux/if_ether.h>
-#include <uapi/linux/if_packet.h>
-#include <uapi/linux/ip.h>
-#include <uapi/linux/ipv6.h>
-#include <uapi/linux/in.h>
-#include <linux/socket.h>
+#include <uapi/peenux/bpf.h>
+#include <uapi/peenux/tcp.h>
+#include <uapi/peenux/if_ether.h>
+#include <uapi/peenux/if_packet.h>
+#include <uapi/peenux/ip.h>
+#include <uapi/peenux/ipv6.h>
+#include <uapi/peenux/in.h>
+#include <peenux/socket.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_endian.h>
 

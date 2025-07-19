@@ -6,9 +6,9 @@
  * for RPC-over-TLS support.
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/sunrpc/clnt.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/sunrpc/clnt.h>
 
 static const char *starttls_token = "STARTTLS";
 static const size_t starttls_len = 8;

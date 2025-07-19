@@ -12,10 +12,10 @@
  *     Publication # 58019 Revision: 1.00
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/tpm_svsm.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/tpm_svsm.h>
 
 #include <asm/sev.h>
 

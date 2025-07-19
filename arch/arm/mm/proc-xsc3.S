@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/arch/arm/mm/proc-xsc3.S
+ * peenux/arch/arm/mm/proc-xsc3.S
  *
  * Original Author: Matthew Gilbert
  * Current Maintainer: Lennert Buytenhek <buytenh@wantstofly.org>
@@ -21,10 +21,10 @@
  * Based on original XScale code by Nicolas Pitre.
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/cfi_types.h>
-#include <linux/pgtable.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/cfi_types.h>
+#include <peenux/pgtable.h>
 #include <asm/assembler.h>
 #include <asm/hwcap.h>
 #include <asm/pgtable-hwdef.h>

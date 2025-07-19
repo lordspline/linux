@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * Linux host-side vring helpers; for when the kernel needs to access
+ * Peenux host-side vring helpers; for when the kernel needs to access
  * someone else's vring.
  *
  * Copyright IBM Corporation, 2013.
@@ -10,14 +10,14 @@
  */
 #ifndef _LINUX_VRINGH_H
 #define _LINUX_VRINGH_H
-#include <uapi/linux/virtio_ring.h>
-#include <linux/virtio_byteorder.h>
-#include <linux/uio.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <uapi/peenux/virtio_ring.h>
+#include <peenux/virtio_byteorder.h>
+#include <peenux/uio.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 #if IS_REACHABLE(CONFIG_VHOST_IOTLB)
-#include <linux/dma-direction.h>
-#include <linux/vhost_iotlb.h>
+#include <peenux/dma-direction.h>
+#include <peenux/vhost_iotlb.h>
 #endif
 #include <asm/barrier.h>
 

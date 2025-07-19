@@ -25,8 +25,8 @@
  *
  */
 
-#include <linux/debugfs.h>
-#include <linux/firmware.h>
+#include <peenux/debugfs.h>
+#include <peenux/firmware.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/display/drm_dsc_helper.h>

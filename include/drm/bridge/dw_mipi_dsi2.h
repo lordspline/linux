@@ -9,8 +9,8 @@
 #ifndef __DW_MIPI_DSI2__
 #define __DW_MIPI_DSI2__
 
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_bridge.h>

@@ -6,16 +6,16 @@
  * Copyright: wuqiang.matt@bytedance.com
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/completion.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/hrtimer.h>
-#include <linux/objpool.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/completion.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/hrtimer.h>
+#include <peenux/objpool.h>
 
 #define OT_NR_MAX_BULK (16)
 

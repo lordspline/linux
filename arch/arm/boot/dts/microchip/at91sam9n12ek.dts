@@ -210,19 +210,19 @@
 		led-d8 {
 			label = "d8";
 			gpios = <&pioB 4 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "mmc0";
+			peenux,default-trigger = "mmc0";
 		};
 
 		led-d9 {
 			label = "d9";
 			gpios = <&pioB 5 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "nand-disk";
+			peenux,default-trigger = "nand-disk";
 		};
 
 		led-d10 {
 			label = "d10";
 			gpios = <&pioB 6 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 
@@ -232,7 +232,7 @@
 		button-enter {
 			label = "Enter";
 			gpios = <&pioB 3 GPIO_ACTIVE_LOW>;
-			linux,code = <28>;
+			peenux,code = <28>;
 			wakeup-source;
 		};
 	};

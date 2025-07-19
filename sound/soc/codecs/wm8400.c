@@ -6,18 +6,18 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mfd/wm8400-audio.h>
-#include <linux/mfd/wm8400-private.h>
-#include <linux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/mfd/wm8400-audio.h>
+#include <peenux/mfd/wm8400-private.h>
+#include <peenux/mfd/core.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

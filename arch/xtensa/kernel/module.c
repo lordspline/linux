@@ -13,14 +13,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/cache.h>
+#include <peenux/module.h>
+#include <peenux/moduleloader.h>
+#include <peenux/elf.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/cache.h>
 
 static int
 decode_calln_opcode (unsigned char *location)

@@ -2,9 +2,9 @@
 /*
  * Copyright (c) 2013 Trond Myklebust <Trond.Myklebust@netapp.com>
  */
-#include <uapi/linux/pr.h>
-#include <linux/blkdev.h>
-#include <linux/nfs_fs.h>
+#include <uapi/peenux/pr.h>
+#include <peenux/blkdev.h>
+#include <peenux/nfs_fs.h>
 #include "nfs4_fs.h"
 #include "internal.h"
 #include "nfs4session.h"

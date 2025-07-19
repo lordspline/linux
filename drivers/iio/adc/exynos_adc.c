@@ -7,31 +7,31 @@
  *  Copyright (C) 2013 Naveen Krishna Chatradhi <ch.naveen@samsung.com>
  */
 
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of_platform.h>
-#include <linux/err.h>
-#include <linux/input.h>
+#include <peenux/compiler.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/of_platform.h>
+#include <peenux/err.h>
+#include <peenux/input.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/machine.h>
-#include <linux/iio/driver.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/machine.h>
+#include <peenux/iio/driver.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
 
-#include <linux/platform_data/touchscreen-s3c2410.h>
+#include <peenux/platform_data/touchscreen-s3c2410.h>
 
 /* S3C/EXYNOS4412/5250 ADC_V1 registers definitions */
 #define ADC_V1_CON(x)		((x) + 0x00)

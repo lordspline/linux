@@ -6,24 +6,24 @@
  * Author: Bartosz Golaszewski <bgolaszewski@baylibre.com>
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/compiler.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/compiler.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
 
 #define MTK_STAR_DRVNAME			"mtk_star_emac"
 

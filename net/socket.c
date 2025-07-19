@@ -52,45 +52,45 @@
  *	Based upon Swansea University Computer Society NET3.039
  */
 
-#include <linux/bpf-cgroup.h>
-#include <linux/ethtool.h>
-#include <linux/mm.h>
-#include <linux/socket.h>
-#include <linux/file.h>
-#include <linux/splice.h>
-#include <linux/net.h>
-#include <linux/interrupt.h>
-#include <linux/thread_info.h>
-#include <linux/rcupdate.h>
-#include <linux/netdevice.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/mutex.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/ptp_classify.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/cache.h>
-#include <linux/module.h>
-#include <linux/highmem.h>
-#include <linux/mount.h>
-#include <linux/pseudo_fs.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/compat.h>
-#include <linux/kmod.h>
-#include <linux/audit.h>
-#include <linux/wireless.h>
-#include <linux/nsproxy.h>
-#include <linux/magic.h>
-#include <linux/slab.h>
-#include <linux/xattr.h>
-#include <linux/nospec.h>
-#include <linux/indirect_call_wrapper.h>
-#include <linux/io_uring/net.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/ethtool.h>
+#include <peenux/mm.h>
+#include <peenux/socket.h>
+#include <peenux/file.h>
+#include <peenux/splice.h>
+#include <peenux/net.h>
+#include <peenux/interrupt.h>
+#include <peenux/thread_info.h>
+#include <peenux/rcupdate.h>
+#include <peenux/netdevice.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/mutex.h>
+#include <peenux/if_bridge.h>
+#include <peenux/if_vlan.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/init.h>
+#include <peenux/poll.h>
+#include <peenux/cache.h>
+#include <peenux/module.h>
+#include <peenux/highmem.h>
+#include <peenux/mount.h>
+#include <peenux/pseudo_fs.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/compat.h>
+#include <peenux/kmod.h>
+#include <peenux/audit.h>
+#include <peenux/wireless.h>
+#include <peenux/nsproxy.h>
+#include <peenux/magic.h>
+#include <peenux/slab.h>
+#include <peenux/xattr.h>
+#include <peenux/nospec.h>
+#include <peenux/indirect_call_wrapper.h>
+#include <peenux/io_uring/net.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/unistd.h>
 
 #include <net/compat.h>
@@ -98,16 +98,16 @@
 #include <net/cls_cgroup.h>
 
 #include <net/sock.h>
-#include <linux/netfilter.h>
+#include <peenux/netfilter.h>
 
-#include <linux/if_tun.h>
-#include <linux/ipv6_route.h>
-#include <linux/route.h>
-#include <linux/termios.h>
-#include <linux/sockios.h>
+#include <peenux/if_tun.h>
+#include <peenux/ipv6_route.h>
+#include <peenux/route.h>
+#include <peenux/termios.h>
+#include <peenux/sockios.h>
 #include <net/busy_poll.h>
-#include <linux/errqueue.h>
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/errqueue.h>
+#include <peenux/ptp_clock_kernel.h>
 #include <trace/events/sock.h>
 
 #include "core/dev.h"
@@ -2658,7 +2658,7 @@ SYSCALL_DEFINE3(sendmsg, int, fd, struct user_msghdr __user *, msg, unsigned int
 }
 
 /*
- *	Linux sendmmsg interface
+ *	Peenux sendmmsg interface
  */
 
 int __sys_sendmmsg(int fd, struct mmsghdr __user *mmsg, unsigned int vlen,
@@ -2868,7 +2868,7 @@ SYSCALL_DEFINE3(recvmsg, int, fd, struct user_msghdr __user *, msg,
 }
 
 /*
- *     Linux recvmmsg interface
+ *     Peenux recvmmsg interface
  */
 
 static int do_recvmmsg(int fd, struct mmsghdr __user *mmsg,

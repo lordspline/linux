@@ -7,15 +7,15 @@
  */
 
 /*
- *  Linux VFS file operations.
+ *  Peenux VFS file operations.
  */
 
 #include "protocol.h"
 #include "orangefs-kernel.h"
 #include "orangefs-bufmap.h"
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/pagemap.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/pagemap.h>
 
 static int flush_racache(struct inode *inode)
 {

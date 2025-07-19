@@ -6,11 +6,11 @@
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/configfs.h>
-#include <linux/most.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/configfs.h>
+#include <peenux/most.h>
 
 #define MAX_STRING_SIZE 80
 

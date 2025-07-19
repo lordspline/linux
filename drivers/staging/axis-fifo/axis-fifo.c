@@ -14,25 +14,25 @@
  * ----------------------------
  */
 
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/moduleparam.h>
-#include <linux/interrupt.h>
-#include <linux/param.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/jiffies.h>
-#include <linux/miscdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/wait.h>
+#include <peenux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/cdev.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/moduleparam.h>
+#include <peenux/interrupt.h>
+#include <peenux/param.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/jiffies.h>
+#include <peenux/miscdevice.h>
 
 /* ----------------------------
  *       driver parameters

@@ -4,12 +4,12 @@
 #include "bcachefs.h"
 #include "thread_with_file.h"
 
-#include <linux/anon_inodes.h>
-#include <linux/file.h>
-#include <linux/kthread.h>
-#include <linux/pagemap.h>
-#include <linux/poll.h>
-#include <linux/sched/sysctl.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/file.h>
+#include <peenux/kthread.h>
+#include <peenux/pagemap.h>
+#include <peenux/poll.h>
+#include <peenux/sched/sysctl.h>
 
 void bch2_thread_with_file_exit(struct thread_with_file *thr)
 {

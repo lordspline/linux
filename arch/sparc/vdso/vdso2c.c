@@ -52,9 +52,9 @@
 #include <sys/types.h>
 #include <tools/be_byteshift.h>
 
-#include <linux/elf.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <peenux/elf.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
 
 const char *outfilename;
 

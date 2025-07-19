@@ -11,18 +11,18 @@
  * Based on origin by Carlo Caione <carlo@endlessm.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/rtc.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/rtc.h>
 
 /* registers accessed from cpu bus */
 #define RTC_ADDR0				0x00

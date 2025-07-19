@@ -7,13 +7,13 @@
  * Contact: Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/v4l2-mediabus.h>
-#include <linux/videodev2.h>
-#include <linux/wait.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/v4l2-mediabus.h>
+#include <peenux/videodev2.h>
+#include <peenux/wait.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-dev.h>

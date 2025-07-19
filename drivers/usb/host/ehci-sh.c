@@ -6,8 +6,8 @@
  *
  * Based on ohci-sh.c and ehci-atmel.c.
  */
-#include <linux/platform_device.h>
-#include <linux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
 
 struct ehci_sh_priv {
 	struct clk *iclk, *fclk;

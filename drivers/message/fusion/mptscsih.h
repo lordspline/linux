@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptscsih.h
+ *  peenux/drivers/message/fusion/mptscsih.h
  *      High performance SCSI / Fibre Channel SCSI Host device driver.
  *      For use with PCI chip/adapter(s):
  *          LSIFC9xx/LSI409xx Fibre Channel

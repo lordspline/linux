@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptsas.h
+ *  peenux/drivers/message/fusion/mptsas.h
  *      High performance SCSI + LAN / Fibre Channel device drivers.
  *      For use with PCI chip/adapter(s):
  *          LSIFC9xx/LSI409xx Fibre Channel

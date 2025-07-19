@@ -5,10 +5,10 @@
  * Copyright (C) 2020 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
 
 #include "meson-mx-sdhc.h"
 

@@ -6,16 +6,16 @@
  * Copyright 2024 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/backend.h>
-#include <linux/iio/buffer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/units.h>
 
 #include "ad3552r.h"
 #include "ad3552r-hs.h"

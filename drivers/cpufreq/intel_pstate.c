@@ -8,27 +8,27 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/kernel_stat.h>
-#include <linux/module.h>
-#include <linux/ktime.h>
-#include <linux/hrtimer.h>
-#include <linux/tick.h>
-#include <linux/slab.h>
-#include <linux/sched/cpufreq.h>
-#include <linux/sched/smt.h>
-#include <linux/list.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/acpi.h>
-#include <linux/vmalloc.h>
-#include <linux/pm_qos.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/module.h>
+#include <peenux/ktime.h>
+#include <peenux/hrtimer.h>
+#include <peenux/tick.h>
+#include <peenux/slab.h>
+#include <peenux/sched/cpufreq.h>
+#include <peenux/sched/smt.h>
+#include <peenux/list.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/fs.h>
+#include <peenux/acpi.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pm_qos.h>
+#include <peenux/bitfield.h>
 #include <trace/events/power.h>
-#include <linux/units.h>
+#include <peenux/units.h>
 
 #include <asm/cpu.h>
 #include <asm/div64.h>

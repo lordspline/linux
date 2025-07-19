@@ -6,23 +6,23 @@
 // Author: Argus Lin <argus.lin@mediatek.com>
 //
 
-#include <linux/of.h>
-#include <linux/input.h>
-#include <linux/kthread.h>
-#include <linux/io.h>
-#include <linux/sched/clock.h>
-#include <linux/workqueue.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/regmap.h>
+#include <peenux/of.h>
+#include <peenux/input.h>
+#include <peenux/kthread.h>
+#include <peenux/io.h>
+#include <peenux/sched/clock.h>
+#include <peenux/workqueue.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irq.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include <sound/jack.h>
-#include <linux/mfd/mt6397/core.h>
+#include <peenux/mfd/mt6397/core.h>
 
 #include "mt6359-accdet.h"
 #include "mt6359.h"

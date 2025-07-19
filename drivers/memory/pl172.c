@@ -9,17 +9,17 @@
  * TI AEMIF driver, Copyright (C) 2010 - 2013 Texas Instruments Inc.
  */
 
-#include <linux/amba/bus.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/time.h>
+#include <peenux/amba/bus.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/time.h>
 
 #define MPMC_STATIC_CFG(n)		(0x200 + 0x20 * (n))
 #define  MPMC_STATIC_CFG_MW_8BIT	0x0

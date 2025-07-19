@@ -5,8 +5,8 @@
 // Copyright (C) 2015 Renesas Electronics Corp.
 // Copyright (c) 2015 Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
 
-#include <linux/delay.h>
-#include <linux/of_dma.h>
+#include <peenux/delay.h>
+#include <peenux/of_dma.h>
 #include <sound/dmaengine_pcm.h>
 #include "rsnd.h"
 

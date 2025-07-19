@@ -4,12 +4,12 @@
 // CX2072X codec
 //
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/jack.h>

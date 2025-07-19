@@ -16,8 +16,8 @@
 
 #include "hw.h"
 #include "hw-ops.h"
-#include <linux/sort.h>
-#include <linux/export.h>
+#include <peenux/sort.h>
+#include <peenux/export.h>
 
 /* Common calibration code */
 

@@ -5,17 +5,17 @@
  * Copyright (C) 2014 - 2023, Intel Corporation
  * All rights reserved.
  *
- * Authors: Mika Westerberg <mika.westerberg@linux.intel.com>
- *          Darren Hart <dvhart@linux.intel.com>
+ * Authors: Mika Westerberg <mika.westerberg@peenux.intel.com>
+ *          Darren Hart <dvhart@peenux.intel.com>
  *          Rafael J. Wysocki <rafael.j.wysocki@intel.com>
- *          Sakari Ailus <sakari.ailus@linux.intel.com>
+ *          Sakari Ailus <sakari.ailus@peenux.intel.com>
  */
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/export.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
 
 #include "internal.h"
 

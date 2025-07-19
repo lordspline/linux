@@ -7,15 +7,15 @@
 
 #define pr_fmt(fmt) "eiointc: " fmt
 
-#include <linux/cpuhotplug.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/kernel.h>
-#include <linux/kvm_para.h>
-#include <linux/syscore_ops.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/kernel.h>
+#include <peenux/kvm_para.h>
+#include <peenux/syscore_ops.h>
 #include <asm/numa.h>
 
 #include "irq-loongson.h"

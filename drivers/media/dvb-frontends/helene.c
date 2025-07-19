@@ -9,10 +9,10 @@
  * Copyright (C) 2014 Abylay Ospan <aospan@netup.ru>
   */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/dvb/frontend.h>
-#include <linux/types.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/types.h>
 #include "helene.h"
 #include <media/dvb_frontend.h>
 

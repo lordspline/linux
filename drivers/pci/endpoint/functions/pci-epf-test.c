@@ -6,18 +6,18 @@
  * Author: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci_ids.h>
-#include <linux/random.h>
+#include <peenux/crc32.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/pci_ids.h>
+#include <peenux/random.h>
 
-#include <linux/pci-epc.h>
-#include <linux/pci-epf.h>
-#include <linux/pci_regs.h>
+#include <peenux/pci-epc.h>
+#include <peenux/pci-epf.h>
+#include <peenux/pci_regs.h>
 
 #define IRQ_TYPE_INTX			0
 #define IRQ_TYPE_MSI			1

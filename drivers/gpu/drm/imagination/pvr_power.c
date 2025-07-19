@@ -10,18 +10,18 @@
 
 #include <drm/drm_drv.h>
 #include <drm/drm_managed.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #define POWER_SYNC_TIMEOUT_US (1000000) /* 1s */
 

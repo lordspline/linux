@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netfilter.h>
-#include <linux/rhashtable.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/netdevice.h>
-#include <linux/if_ether.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/netfilter.h>
+#include <peenux/rhashtable.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_ether.h>
 #include <net/gso.h>
 #include <net/ip.h>
 #include <net/ipv6.h>
@@ -16,8 +16,8 @@
 #include <net/netfilter/nf_flow_table.h>
 #include <net/netfilter/nf_conntrack_acct.h>
 /* For layer 4 checksum field offset. */
-#include <linux/tcp.h>
-#include <linux/udp.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
 
 static int nf_flow_state_check(struct flow_offload *flow, int proto,
 			       struct sk_buff *skb, unsigned int thoff)

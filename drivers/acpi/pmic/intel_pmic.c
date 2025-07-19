@@ -5,10 +5,10 @@
  * Copyright (C) 2014 Intel Corporation. All rights reserved.
  */
 
-#include <linux/export.h>
-#include <linux/acpi.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/regmap.h>
+#include <peenux/export.h>
+#include <peenux/acpi.h>
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/regmap.h>
 #include <acpi/acpi_lpat.h>
 #include "intel_pmic.h"
 

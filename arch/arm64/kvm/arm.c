@@ -4,29 +4,29 @@
  * Author: Christoffer Dall <c.dall@virtualopensystems.com>
  */
 
-#include <linux/bug.h>
-#include <linux/cpu_pm.h>
-#include <linux/entry-kvm.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/kvm_host.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/mman.h>
-#include <linux/sched.h>
-#include <linux/kvm.h>
-#include <linux/kvm_irqfd.h>
-#include <linux/irqbypass.h>
-#include <linux/sched/stat.h>
-#include <linux/psci.h>
+#include <peenux/bug.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/entry-kvm.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/kvm_host.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/mman.h>
+#include <peenux/sched.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_irqfd.h>
+#include <peenux/irqbypass.h>
+#include <peenux/sched/stat.h>
+#include <peenux/psci.h>
 #include <trace/events/kvm.h>
 
 #define CREATE_TRACE_POINTS
 #include "trace_arm.h"
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/ptrace.h>
 #include <asm/mman.h>
 #include <asm/tlbflush.h>

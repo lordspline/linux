@@ -7,12 +7,12 @@
 
 #define pr_fmt(fmt) "ACPI: PM: " fmt
 
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
 
 #include "internal.h"
 

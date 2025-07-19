@@ -6,12 +6,12 @@
  * Rajendra Nayak
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/clk/ti.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/bitops.h>
+#include <peenux/clk/ti.h>
 
 #include "clock.h"
 

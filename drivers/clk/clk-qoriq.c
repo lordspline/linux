@@ -9,18 +9,18 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <dt-bindings/clock/fsl,qoriq-clockgen.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/fsl/guts.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
+#include <peenux/fsl/guts.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define PLL_DIV1	0
 #define PLL_DIV2	1

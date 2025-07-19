@@ -2,8 +2,8 @@
 #ifndef __ASM_IDLE_H
 #define __ASM_IDLE_H
 
-#include <linux/cpuidle.h>
-#include <linux/linkage.h>
+#include <peenux/cpuidle.h>
+#include <peenux/linkage.h>
 
 extern void (*cpu_wait)(void);
 extern asmlinkage void r4k_wait(void);

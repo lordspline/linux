@@ -12,9 +12,9 @@
  *
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
 #include <net/addrconf.h>
 #include <net/dst.h>
 #include <net/xfrm.h>

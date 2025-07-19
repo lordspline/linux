@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2015, The Peenux Foundation. All rights reserved.
  *
  * Description: CoreSight Replicator driver
  */
 
-#include <linux/acpi.h>
-#include <linux/amba/bus.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/coresight.h>
+#include <peenux/acpi.h>
+#include <peenux/amba/bus.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/coresight.h>
 
 #include "coresight-priv.h"
 

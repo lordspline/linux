@@ -2,13 +2,13 @@
 /*
  * Qualcomm Technologies HIDMA debug file
  *
- * Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2016, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/pm_runtime.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/pm_runtime.h>
 
 #include "hidma.h"
 

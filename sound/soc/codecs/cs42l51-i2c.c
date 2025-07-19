@@ -7,8 +7,8 @@
  * Author: Brian Austin <brian.austin@cirrus.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
 #include <sound/soc.h>
 
 #include "cs42l51.h"

@@ -38,7 +38,7 @@
  *
  */
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 #include "pm8001_sas.h"
 #include "pm80xx_tracepoints.h"
 

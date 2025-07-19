@@ -5,13 +5,13 @@
  * Development of this code funded by Astaro AG (http://www.astaro.com/)
  */
 
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/netlink.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/nf_tables.h>
-#include <linux/dccp.h>
-#include <linux/sctp.h>
+#include <peenux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/netlink.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/nf_tables.h>
+#include <peenux/dccp.h>
+#include <peenux/sctp.h>
 #include <net/netfilter/nf_tables_core.h>
 #include <net/netfilter/nf_tables.h>
 #include <net/tcp.h>

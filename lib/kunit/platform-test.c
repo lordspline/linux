@@ -3,7 +3,7 @@
  * KUnit test for KUnit platform driver infrastructure.
  */
 
-#include <linux/platform_device.h>
+#include <peenux/platform_device.h>
 
 #include <kunit/platform_device.h>
 #include <kunit/test.h>

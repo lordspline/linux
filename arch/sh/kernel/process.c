@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task_stack.h>
-#include <linux/export.h>
-#include <linux/stackprotector.h>
+#include <peenux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/export.h>
+#include <peenux/stackprotector.h>
 #include <asm/fpu.h>
 #include <asm/ptrace.h>
 

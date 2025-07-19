@@ -7,15 +7,15 @@
  * Copyright (C) 2010 NXP Semiconductors
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/serial_8250.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/soc/nxp/lpc32xx-misc.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_reg.h>
+#include <peenux/serial_8250.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/soc/nxp/lpc32xx-misc.h>
 
 #include "lpc32xx.h"
 #include "common.h"

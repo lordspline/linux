@@ -11,13 +11,13 @@
  *  Adapted for sparc64 by David S. Miller davem@davemloft.net
  */
 
-#include <linux/memblock.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/cpu.h>
-#include <linux/mm.h>
-#include <linux/of.h>
+#include <peenux/memblock.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/cpu.h>
+#include <peenux/mm.h>
+#include <peenux/of.h>
 
 #include <asm/prom.h>
 #include <asm/oplib.h>

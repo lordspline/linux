@@ -8,13 +8,13 @@
  *  Parts of this file are based on Ralink's 2.6.21 BSP
  */
 
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 
 #include <asm/mach-ralink/rt288x.h>
 

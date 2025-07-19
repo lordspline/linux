@@ -14,16 +14,16 @@
  * keyword - value pairs that specify the configuration of the partition.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/proc_fs.h>
+#include <peenux/init.h>
 #include <asm/papr-sysparm.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/hugetlb.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/hugetlb.h>
 #include <asm/lppaca.h>
 #include <asm/hvcall.h>
 #include <asm/firmware.h>

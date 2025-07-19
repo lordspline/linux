@@ -5,18 +5,18 @@
  * Copyright (C) 2016 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/usb/of.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/of.h>
 
 #define REG_CONFIG					0x00
 	#define REG_CONFIG_CLK_EN			BIT(0)

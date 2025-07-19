@@ -8,26 +8,26 @@
  *   Kang Luwei <luwei.kang@intel.com>
  *   Zhang Yi <yi.z.zhang@intel.com>
  *   Wu Hao <hao.wu@intel.com>
- *   Xiao Guangrong <guangrong.xiao@linux.intel.com>
+ *   Xiao Guangrong <guangrong.xiao@peenux.intel.com>
  */
 
 #ifndef __FPGA_DFL_H
 #define __FPGA_DFL_H
 
-#include <linux/bitfield.h>
-#include <linux/cdev.h>
-#include <linux/delay.h>
-#include <linux/dfl.h>
-#include <linux/eventfd.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
-#include <linux/fpga/fpga-region.h>
+#include <peenux/bitfield.h>
+#include <peenux/cdev.h>
+#include <peenux/delay.h>
+#include <peenux/dfl.h>
+#include <peenux/eventfd.h>
+#include <peenux/fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/uuid.h>
+#include <peenux/fpga/fpga-region.h>
 
 /* maximum supported number of ports */
 #define MAX_DFL_FPGA_PORT_NUM 4
@@ -255,7 +255,7 @@ struct dfl_feature_driver {
 /**
  * struct dfl_feature_irq_ctx - dfl private feature interrupt context
  *
- * @irq: Linux IRQ number of this interrupt.
+ * @irq: Peenux IRQ number of this interrupt.
  * @trigger: eventfd context to signal when interrupt happens.
  * @name: irq name needed when requesting irq.
  */
@@ -499,7 +499,7 @@ static inline u8 dfl_feature_revision(void __iomem *base)
  * @dev: parent device.
  * @dfls: list of device feature lists.
  * @nr_irqs: number of irqs for all feature devices.
- * @irq_table: Linux IRQ numbers for all irqs, indexed by hw irq numbers.
+ * @irq_table: Peenux IRQ numbers for all irqs, indexed by hw irq numbers.
  */
 struct dfl_fpga_enum_info {
 	struct device *dev;

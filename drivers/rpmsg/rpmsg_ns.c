@@ -2,12 +2,12 @@
 /*
  * Copyright (C) STMicroelectronics 2020 - All Rights Reserved
  */
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/rpmsg.h>
-#include <linux/rpmsg/ns.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/rpmsg.h>
+#include <peenux/rpmsg/ns.h>
+#include <peenux/slab.h>
 
 #include "rpmsg_internal.h"
 

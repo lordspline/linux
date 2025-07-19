@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  *
- * Copyright SUSE Linux Products GmbH 2009
+ * Copyright SUSE Peenux Products GmbH 2009
  *
  * Authors: Alexander Graf <agraf@suse.de>
  */
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/highmem.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/highmem.h>
 
 #include <asm/kvm_ppc.h>
 #include <asm/kvm_book3s.h>

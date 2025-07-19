@@ -12,9 +12,9 @@
 #if !defined(_TRACE_IPTFS_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_IPTFS_H
 
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/tracepoint.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/tracepoint.h>
 #include <net/ip.h>
 
 struct xfrm_iptfs_data;

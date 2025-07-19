@@ -8,19 +8,19 @@
  * ethernet-ports property.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bits.h>
-#include <linux/find.h>
-#include <linux/mdio.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/bits.h>
+#include <peenux/find.h>
+#include <peenux/mdio.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
 #define SMI_GLB_CTRL			0xca00
 #define   GLB_CTRL_INTF_SEL(intf)	BIT(16 + (intf))

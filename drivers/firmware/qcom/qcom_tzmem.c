@@ -5,20 +5,20 @@
  * Copyright (C) 2023-2024 Linaro Ltd.
  */
 
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware/qcom/qcom_tzmem.h>
-#include <linux/genalloc.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/radix-tree.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bug.h>
+#include <peenux/cleanup.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/firmware/qcom/qcom_tzmem.h>
+#include <peenux/genalloc.h>
+#include <peenux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/radix-tree.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include "qcom_tzmem.h"
 
@@ -67,8 +67,8 @@ static void qcom_tzmem_cleanup_area(struct qcom_tzmem_area *area)
 
 #elif IS_ENABLED(CONFIG_QCOM_TZMEM_MODE_SHMBRIDGE)
 
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/of.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/of.h>
 
 #define QCOM_SHM_BRIDGE_NUM_VM_SHIFT 9
 

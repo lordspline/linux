@@ -7,18 +7,18 @@
  */
 
 /*
- * IBM PC110 touchpad driver for Linux
+ * IBM PC110 touchpad driver for Peenux
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/input.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/input.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>

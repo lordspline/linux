@@ -11,10 +11,10 @@
 #ifndef __POLICY_INTERFACE_H
 #define __POLICY_INTERFACE_H
 
-#include <linux/list.h>
-#include <linux/kref.h>
-#include <linux/dcache.h>
-#include <linux/workqueue.h>
+#include <peenux/list.h>
+#include <peenux/kref.h>
+#include <peenux/dcache.h>
+#include <peenux/workqueue.h>
 
 
 struct aa_load_ent {

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
 
-#include <linux/ceph/types.h>
-#include <linux/ceph/decode.h>
-#include <linux/ceph/libceph.h>
-#include <linux/ceph/messenger.h>
+#include <peenux/ceph/types.h>
+#include <peenux/ceph/decode.h>
+#include <peenux/ceph/libceph.h>
+#include <peenux/ceph/messenger.h>
 #include "auth_none.h"
 #include "auth_x.h"
 

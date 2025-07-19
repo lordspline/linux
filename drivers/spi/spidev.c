@@ -7,24 +7,24 @@
  * Copyright (C) 2007 David Brownell (simplification, cleanup)
  */
 
-#include <linux/init.h>
-#include <linux/ioctl.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/compat.h>
+#include <peenux/init.h>
+#include <peenux/ioctl.h>
+#include <peenux/fs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
+#include <peenux/errno.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/compat.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/spidev.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spidev.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 
 /*
@@ -723,7 +723,7 @@ MODULE_DEVICE_TABLE(spi, spidev_spi_ids);
 
 /*
  * spidev should never be referenced in DT without a specific compatible string,
- * it is a Linux implementation thing rather than a description of the hardware.
+ * it is a Peenux implementation thing rather than a description of the hardware.
  */
 static int spidev_of_check(struct device *dev)
 {

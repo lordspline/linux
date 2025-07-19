@@ -9,7 +9,7 @@
 #if !defined(_TRACE_NFS_COMMON_LOCALIO_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_NFS_COMMON_LOCALIO_H
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 
 #include <trace/misc/fs.h>
 #include <trace/misc/nfs.h>

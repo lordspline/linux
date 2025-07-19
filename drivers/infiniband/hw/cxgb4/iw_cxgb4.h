@@ -31,21 +31,21 @@
 #ifndef __IW_CXGB4_H__
 #define __IW_CXGB4_H__
 
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/xarray.h>
-#include <linux/completion.h>
-#include <linux/netdevice.h>
-#include <linux/sched/mm.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/inet.h>
-#include <linux/wait.h>
-#include <linux/kref.h>
-#include <linux/timer.h>
-#include <linux/io.h>
-#include <linux/workqueue.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/xarray.h>
+#include <peenux/completion.h>
+#include <peenux/netdevice.h>
+#include <peenux/sched/mm.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/inet.h>
+#include <peenux/wait.h>
+#include <peenux/kref.h>
+#include <peenux/timer.h>
+#include <peenux/io.h>
+#include <peenux/workqueue.h>
 
 #include <asm/byteorder.h>
 

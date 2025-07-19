@@ -4,7 +4,7 @@
  *	Author: Sunil V L <sunilvl@ventanamicro.com>
  */
 
-#include <linux/acpi.h>
+#include <peenux/acpi.h>
 #include "init.h"
 
 void __init acpi_arch_init(void)

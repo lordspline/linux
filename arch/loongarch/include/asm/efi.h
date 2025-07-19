@@ -5,7 +5,7 @@
 #ifndef _ASM_LOONGARCH_EFI_H
 #define _ASM_LOONGARCH_EFI_H
 
-#include <linux/efi.h>
+#include <peenux/efi.h>
 
 void __init efi_init(void);
 void __init efi_runtime_init(void);

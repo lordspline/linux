@@ -3,21 +3,21 @@
  * Copyright (c) 2016 Google, Inc
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/sysfs.h>
+#include <peenux/thermal.h>
 
 /* ASPEED PWM & FAN Tach Register Definition */
 #define ASPEED_PTCR_CTRL		0x00

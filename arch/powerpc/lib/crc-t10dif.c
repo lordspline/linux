@@ -8,13 +8,13 @@
 
 #include <asm/switch_to.h>
 #include <crypto/internal/simd.h>
-#include <linux/cpufeature.h>
-#include <linux/crc-t10dif.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/preempt.h>
-#include <linux/uaccess.h>
+#include <peenux/cpufeature.h>
+#include <peenux/crc-t10dif.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/preempt.h>
+#include <peenux/uaccess.h>
 
 #define VMX_ALIGN		16
 #define VMX_ALIGN_MASK		(VMX_ALIGN-1)

@@ -6,17 +6,17 @@
  *		Jorge Ramirez-Ortiz	<jorge.ramirez-ortiz@linaro.org>
  */
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/mtd.h>
-#include <linux/module.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/mtd/nand-ecc-mtk.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/module.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
+#include <peenux/mtd/nand-ecc-mtk.h>
 
 /* NAND controller register definition */
 #define NFI_CNFG		(0x00)

@@ -10,16 +10,16 @@
  *
  ******************************************************************************/
 
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/configfs.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/fcntl.h>
-#include <linux/file.h>
-#include <linux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/configfs.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/fcntl.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
 #include <scsi/scsi_proto.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <target/target_core_base.h>
 #include <target/target_core_backend.h>

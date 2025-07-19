@@ -14,25 +14,25 @@
  * Copyright (C) 2011-2021 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/cpu_pm.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/timekeeping.h>
-#include <linux/iopoll.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/delay.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
+#include <peenux/timekeeping.h>
+#include <peenux/iopoll.h>
 
-#include <linux/platform_data/ti-sysc.h>
+#include <peenux/platform_data/ti-sysc.h>
 
 #include <dt-bindings/bus/ti-sysc.h>
 

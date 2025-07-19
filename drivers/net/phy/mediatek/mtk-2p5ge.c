@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0+
-#include <linux/bitfield.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/phy.h>
+#include <peenux/bitfield.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/phy.h>
 
 #include "mtk.h"
 

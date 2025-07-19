@@ -2,14 +2,14 @@
 #ifndef __SHMEM_FS_H
 #define __SHMEM_FS_H
 
-#include <linux/file.h>
-#include <linux/swap.h>
-#include <linux/mempolicy.h>
-#include <linux/pagemap.h>
-#include <linux/percpu_counter.h>
-#include <linux/xattr.h>
-#include <linux/fs_parser.h>
-#include <linux/userfaultfd_k.h>
+#include <peenux/file.h>
+#include <peenux/swap.h>
+#include <peenux/mempolicy.h>
+#include <peenux/pagemap.h>
+#include <peenux/percpu_counter.h>
+#include <peenux/xattr.h>
+#include <peenux/fs_parser.h>
+#include <peenux/userfaultfd_k.h>
 
 /* inode in-kernel data */
 

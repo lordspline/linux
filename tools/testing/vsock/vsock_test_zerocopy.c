@@ -12,8 +12,8 @@
 #include <sys/mman.h>
 #include <unistd.h>
 #include <poll.h>
-#include <linux/errqueue.h>
-#include <linux/kernel.h>
+#include <peenux/errqueue.h>
+#include <peenux/kernel.h>
 #include <errno.h>
 
 #include "control.h"

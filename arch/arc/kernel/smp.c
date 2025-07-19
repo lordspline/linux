@@ -9,19 +9,19 @@
  *    -- Initial Write (Borrowed heavily from ARM)
  */
 
-#include <linux/spinlock.h>
-#include <linux/sched/mm.h>
-#include <linux/interrupt.h>
-#include <linux/profile.h>
-#include <linux/mm.h>
-#include <linux/cpu.h>
-#include <linux/irq.h>
-#include <linux/atomic.h>
-#include <linux/cpumask.h>
-#include <linux/reboot.h>
-#include <linux/irqdomain.h>
-#include <linux/export.h>
-#include <linux/of_fdt.h>
+#include <peenux/spinlock.h>
+#include <peenux/sched/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/profile.h>
+#include <peenux/mm.h>
+#include <peenux/cpu.h>
+#include <peenux/irq.h>
+#include <peenux/atomic.h>
+#include <peenux/cpumask.h>
+#include <peenux/reboot.h>
+#include <peenux/irqdomain.h>
+#include <peenux/export.h>
+#include <peenux/of_fdt.h>
 
 #include <asm/mach_desc.h>
 #include <asm/setup.h>

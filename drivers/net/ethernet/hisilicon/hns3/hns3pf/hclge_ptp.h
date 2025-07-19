@@ -4,9 +4,9 @@
 #ifndef __HCLGE_PTP_H
 #define __HCLGE_PTP_H
 
-#include <linux/ptp_clock_kernel.h>
-#include <linux/net_tstamp.h>
-#include <linux/types.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/types.h>
 
 struct hclge_dev;
 struct ifreq;

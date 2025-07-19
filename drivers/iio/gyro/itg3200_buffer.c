@@ -8,16 +8,16 @@
  * Copyright (c) 2012 Thorsten Nowak <thorsten.nowak@iis.fraunhofer.de>
  */
 
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/gyro/itg3200.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/gyro/itg3200.h>
 
 
 static int itg3200_read_all_channels(struct i2c_client *i2c, __be16 *buf)

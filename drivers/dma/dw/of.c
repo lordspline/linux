@@ -7,9 +7,9 @@
  * Copyright (C) 2013 Intel Corporation
  */
 
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
 
 #include "internal.h"
 

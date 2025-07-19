@@ -11,38 +11,38 @@
  * Copyright (C) 2006 Craig W. Nadler
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/idr.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/moduleparam.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/types.h>
-#include <linux/ctype.h>
-#include <linux/cdev.h>
-#include <linux/kref.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/idr.h>
+#include <peenux/timer.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/moduleparam.h>
+#include <peenux/fs.h>
+#include <peenux/poll.h>
+#include <peenux/types.h>
+#include <peenux/ctype.h>
+#include <peenux/cdev.h>
+#include <peenux/kref.h>
 
 #include <asm/byteorder.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/uaccess.h>
+#include <peenux/unaligned.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/g_printer.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/composite.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/g_printer.h>
 
 #include "u_printer.h"
 

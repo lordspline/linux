@@ -7,8 +7,8 @@
 #ifndef _NFSD_STATS_H
 #define _NFSD_STATS_H
 
-#include <uapi/linux/nfsd/stats.h>
-#include <linux/percpu_counter.h>
+#include <uapi/peenux/nfsd/stats.h>
+#include <peenux/percpu_counter.h>
 
 struct proc_dir_entry *nfsd_proc_stat_init(struct net *net);
 void nfsd_proc_stat_shutdown(struct net *net);

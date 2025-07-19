@@ -10,10 +10,10 @@
  * any kind, whether express or implied.
  */
 
-#include <linux/kernel.h>
-#include <linux/initrd.h>
-#include <linux/of_platform.h>
-#include <linux/seq_file.h>
+#include <peenux/kernel.h>
+#include <peenux/initrd.h>
+#include <peenux/of_platform.h>
+#include <peenux/seq_file.h>
 
 #include <asm/time.h>
 #include <asm/mpic.h>

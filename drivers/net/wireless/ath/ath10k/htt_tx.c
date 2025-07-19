@@ -5,7 +5,7 @@
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/etherdevice.h>
+#include <peenux/etherdevice.h>
 #include "htt.h"
 #include "mac.h"
 #include "hif.h"

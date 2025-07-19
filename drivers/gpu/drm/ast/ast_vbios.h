@@ -25,7 +25,7 @@
 #ifndef AST_VBIOS_H
 #define AST_VBIOS_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct ast_device;
 struct drm_display_mode;

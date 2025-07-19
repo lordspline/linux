@@ -2,11 +2,11 @@
 /* Copyright (C) 2021 MediaTek Inc.
  *
  */
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/usb.h>
-#include <linux/iopoll.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/usb.h>
+#include <peenux/iopoll.h>
+#include <peenux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

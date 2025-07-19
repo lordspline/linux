@@ -3,10 +3,10 @@
  * VGICv2 MMIO handling functions
  */
 
-#include <linux/irqchip/arm-gic.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/nospec.h>
+#include <peenux/irqchip/arm-gic.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/nospec.h>
 
 #include <kvm/iodev.h>
 #include <kvm/arm_vgic.h>

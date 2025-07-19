@@ -5,11 +5,11 @@
  * Copyright (C) 2019, Google LLC.
  * Author: Brendan Higgins <brendanhiggins@google.com>
  */
-#include "linux/gfp_types.h"
+#include "peenux/gfp_types.h"
 #include <kunit/test.h>
 #include <kunit/test-bug.h>
 
-#include <linux/device.h>
+#include <peenux/device.h>
 #include <kunit/device.h>
 
 #include "string-stream.h"

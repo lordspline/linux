@@ -3,19 +3,19 @@
  *  Copyright 2007-2008 Pierre Ossman
  */
 
-#include <linux/mmc/core.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/slab.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/slab.h>
 
-#include <linux/scatterlist.h>
-#include <linux/list.h>
+#include <peenux/scatterlist.h>
+#include <peenux/list.h>
 
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/seq_file.h>
-#include <linux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/seq_file.h>
+#include <peenux/module.h>
 
 #include "core.h"
 #include "card.h"

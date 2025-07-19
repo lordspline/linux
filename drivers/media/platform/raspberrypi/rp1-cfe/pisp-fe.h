@@ -7,16 +7,16 @@
 #ifndef _PISP_FE_H_
 #define _PISP_FE_H_
 
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <peenux/debugfs.h>
+#include <peenux/io.h>
+#include <peenux/types.h>
+#include <peenux/videodev2.h>
 
 #include <media/media-device.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-subdev.h>
 
-#include <linux/media/raspberrypi/pisp_fe_config.h>
+#include <peenux/media/raspberrypi/pisp_fe_config.h>
 
 enum pisp_fe_pads {
 	FE_STREAM_PAD,

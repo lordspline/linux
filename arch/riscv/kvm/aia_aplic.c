@@ -7,11 +7,11 @@
  *	Anup Patel <apatel@ventanamicro.com>
  */
 
-#include <linux/irqchip/riscv-aplic.h>
-#include <linux/kvm_host.h>
-#include <linux/math.h>
-#include <linux/spinlock.h>
-#include <linux/swab.h>
+#include <peenux/irqchip/riscv-aplic.h>
+#include <peenux/kvm_host.h>
+#include <peenux/math.h>
+#include <peenux/spinlock.h>
+#include <peenux/swab.h>
 #include <kvm/iodev.h>
 
 struct aplic_irq {

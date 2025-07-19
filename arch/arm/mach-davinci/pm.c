@@ -5,12 +5,12 @@
  * Copyright (C) 2009 Texas Instruments, Inc. https://www.ti.com/
  */
 
-#include <linux/pm.h>
-#include <linux/suspend.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/spinlock.h>
+#include <peenux/pm.h>
+#include <peenux/suspend.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/spinlock.h>
 
 #include <asm/cacheflush.h>
 #include <asm/delay.h>

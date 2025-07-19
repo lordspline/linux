@@ -3,20 +3,20 @@
  * Copyright (c) 2014 Broadcom Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/bcma/bcma.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/kthread.h>
-#include <linux/io.h>
-#include <linux/random.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/pci.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/bcma/bcma.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/kthread.h>
+#include <peenux/io.h>
+#include <peenux/random.h>
+#include <peenux/unaligned.h>
 
 #include <soc.h>
 #include <chipcommon.h>

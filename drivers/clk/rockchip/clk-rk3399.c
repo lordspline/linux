@@ -4,14 +4,14 @@
  * Author: Xing Zheng <zhengxing@rock-chips.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 #include <dt-bindings/clock/rk3399-cru.h>
 #include "clk.h"
 

@@ -1,5 +1,5 @@
 /*
- *  include/linux/ktime.h
+ *  include/peenux/ktime.h
  *
  *  ktime_t - nanosecond-resolution time format.
  *
@@ -22,9 +22,9 @@
 #define _LINUX_KTIME_H
 
 #include <asm/bug.h>
-#include <linux/jiffies.h>
-#include <linux/time.h>
-#include <linux/types.h>
+#include <peenux/jiffies.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
 
 /**
  * ktime_set - Set a ktime_t variable from a seconds/nanoseconds value
@@ -232,6 +232,6 @@ static inline ktime_t ms_to_ktime(u64 ms)
 	return ms * NSEC_PER_MSEC;
 }
 
-# include <linux/timekeeping.h>
+# include <peenux/timekeeping.h>
 
 #endif

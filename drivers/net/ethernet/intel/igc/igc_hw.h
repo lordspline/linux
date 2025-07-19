@@ -4,9 +4,9 @@
 #ifndef _IGC_HW_H_
 #define _IGC_HW_H_
 
-#include <linux/types.h>
-#include <linux/if_ether.h>
-#include <linux/netdevice.h>
+#include <peenux/types.h>
+#include <peenux/if_ether.h>
+#include <peenux/netdevice.h>
 
 #include "igc_regs.h"
 #include "igc_defines.h"

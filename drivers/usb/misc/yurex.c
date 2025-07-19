@@ -5,15 +5,15 @@
  * Copyright (C) 2010 Tomoki Sekiyama (tomoki.sekiyama@gmail.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/hid.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kref.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
+#include <peenux/hid.h>
 
 #define DRIVER_AUTHOR "Tomoki Sekiyama"
 #define DRIVER_DESC "Driver for Meywa-Denki & KAYAC YUREX"

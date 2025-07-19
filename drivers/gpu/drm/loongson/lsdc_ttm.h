@@ -6,9 +6,9 @@
 #ifndef __LSDC_TTM_H__
 #define __LSDC_TTM_H__
 
-#include <linux/container_of.h>
-#include <linux/iosys-map.h>
-#include <linux/list.h>
+#include <peenux/container_of.h>
+#include <peenux/iosys-map.h>
+#include <peenux/list.h>
 
 #include <drm/drm_gem.h>
 #include <drm/ttm/ttm_bo.h>

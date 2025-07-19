@@ -3,10 +3,10 @@
  * Copyright (C) 2024-2025 Intel Corporation
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/pm_runtime.h>
-#include <linux/units.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/units.h>
 
 #include "ivpu_drv.h"
 #include "ivpu_gem.h"

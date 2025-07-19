@@ -2,8 +2,8 @@
 #ifndef __ACPI_BATTERY_H
 #define __ACPI_BATTERY_H
 
-#include <linux/device.h>
-#include <linux/power_supply.h>
+#include <peenux/device.h>
+#include <peenux/power_supply.h>
 
 #define ACPI_BATTERY_CLASS "battery"
 

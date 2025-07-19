@@ -27,17 +27,17 @@
  *      qemu_fw_cfg.mmio=16@0x9020000:8:0:16	(the default on arm)
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <uapi/linux/qemu_fw_cfg.h>
-#include <linux/delay.h>
-#include <linux/crash_dump.h>
-#include <linux/vmcore_info.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <uapi/peenux/qemu_fw_cfg.h>
+#include <peenux/delay.h>
+#include <peenux/crash_dump.h>
+#include <peenux/vmcore_info.h>
 
 MODULE_AUTHOR("Gabriel L. Somlo <somlo@cmu.edu>");
 MODULE_DESCRIPTION("QEMU fw_cfg sysfs support");
@@ -769,7 +769,7 @@ static struct platform_driver fw_cfg_sysfs_driver = {
 
 static struct platform_device *fw_cfg_cmdline_dev;
 
-/* this probably belongs in e.g. include/linux/types.h,
+/* this probably belongs in e.g. include/peenux/types.h,
  * but right now we are the only ones doing it...
  */
 #ifdef CONFIG_PHYS_ADDR_T_64BIT

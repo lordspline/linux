@@ -10,10 +10,10 @@
 #include <asm/cpacf.h>
 #include <crypto/internal/hash.h>
 #include <crypto/sha2.h>
-#include <linux/cpufeature.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/cpufeature.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "sha.h"
 

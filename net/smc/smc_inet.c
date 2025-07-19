@@ -7,7 +7,7 @@
  *  Copyright IBM Corp. 2016, 2018
  *  Copyright (c) 2024, Alibaba Inc.
  *
- *  Author: D. Wythe <alibuda@linux.alibaba.com>
+ *  Author: D. Wythe <alibuda@peenux.alibaba.com>
  */
 
 #include <net/protocol.h>

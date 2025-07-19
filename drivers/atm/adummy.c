@@ -3,25 +3,25 @@
  * adummy.c: a dummy ATM driver
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
-#include <linux/atmdev.h>
-#include <linux/atm.h>
-#include <linux/sonet.h>
+#include <peenux/atmdev.h>
+#include <peenux/atm.h>
+#include <peenux/sonet.h>
 
 /* version definition */
 

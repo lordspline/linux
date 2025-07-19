@@ -5,26 +5,26 @@
  * Copyright (C) IBM Corporation, 2002, 2004
  * Copyright (C) Hitachi Ltd., 2012
  */
-#include <linux/kprobes.h>
-#include <linux/perf_event.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/hardirq.h>
-#include <linux/preempt.h>
-#include <linux/extable.h>
-#include <linux/kdebug.h>
-#include <linux/kallsyms.h>
-#include <linux/kgdb.h>
-#include <linux/ftrace.h>
-#include <linux/objtool.h>
-#include <linux/pgtable.h>
-#include <linux/static_call.h>
+#include <peenux/kprobes.h>
+#include <peenux/perf_event.h>
+#include <peenux/ptrace.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/hardirq.h>
+#include <peenux/preempt.h>
+#include <peenux/extable.h>
+#include <peenux/kdebug.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kgdb.h>
+#include <peenux/ftrace.h>
+#include <peenux/objtool.h>
+#include <peenux/pgtable.h>
+#include <peenux/static_call.h>
 
 #include <asm/text-patching.h>
 #include <asm/cacheflush.h>
 #include <asm/desc.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/alternative.h>
 #include <asm/insn.h>
 #include <asm/debugreg.h>

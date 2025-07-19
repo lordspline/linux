@@ -8,15 +8,15 @@
  * This code is licenced under the GPL.
  */
 
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/idle.h>
-#include <linux/cpuidle.h>
-#include <linux/cpumask.h>
-#include <linux/tick.h>
-#include <linux/cpu.h>
-#include <linux/math64.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/sched/idle.h>
+#include <peenux/cpuidle.h>
+#include <peenux/cpumask.h>
+#include <peenux/tick.h>
+#include <peenux/cpu.h>
+#include <peenux/math64.h>
 
 #include "cpuidle.h"
 

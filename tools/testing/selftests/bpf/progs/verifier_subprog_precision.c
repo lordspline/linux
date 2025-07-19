@@ -3,10 +3,10 @@
 
 #include <errno.h>
 #include <string.h>
-#include <linux/bpf.h>
+#include <peenux/bpf.h>
 #include <bpf/bpf_helpers.h>
 #include "bpf_misc.h"
-#include <../../../tools/include/linux/filter.h>
+#include <../../../tools/include/peenux/filter.h>
 
 int vals[] SEC(".data.vals") = {1, 2, 3, 4};
 

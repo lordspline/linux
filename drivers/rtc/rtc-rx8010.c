@@ -6,13 +6,13 @@
  * Copyright(C) General Electric Company 2015
  */
 
-#include <linux/bcd.h>
-#include <linux/bitops.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/bitops.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
 
 #define RX8010_SEC		0x10
 #define RX8010_MIN		0x11

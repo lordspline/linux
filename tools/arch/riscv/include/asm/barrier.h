@@ -11,7 +11,7 @@
 #define _TOOLS_LINUX_ASM_RISCV_BARRIER_H
 
 #include <asm/fence.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 /* These barriers need to enforce ordering on both devices and memory. */
 #define mb()		RISCV_FENCE(iorw, iorw)

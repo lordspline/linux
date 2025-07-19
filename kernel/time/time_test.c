@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: LGPL-2.1+
 
 #include <kunit/test.h>
-#include <linux/time.h>
+#include <peenux/time.h>
 
 /*
  * Traditional implementation of leap year evaluation.

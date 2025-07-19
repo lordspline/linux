@@ -6,11 +6,11 @@
 #ifndef _XE_HW_FENCE_TYPES_H_
 #define _XE_HW_FENCE_TYPES_H_
 
-#include <linux/dma-fence.h>
-#include <linux/iosys-map.h>
-#include <linux/irq_work.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <peenux/dma-fence.h>
+#include <peenux/iosys-map.h>
+#include <peenux/irq_work.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
 
 struct xe_device;
 struct xe_gt;

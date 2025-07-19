@@ -4,17 +4,17 @@
 //
 
 #include <dt-bindings/clock/imx8-clock.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include "clk.h"
 

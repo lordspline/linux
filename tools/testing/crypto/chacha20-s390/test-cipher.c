@@ -17,24 +17,24 @@
 #include <crypto/chacha.h>
 #include <crypto/aead.h>
 #include <crypto/hash.h>
-#include <linux/crypto.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/fips.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/scatterlist.h>
-#include <linux/time.h>
-#include <linux/vmalloc.h>
-#include <linux/zlib.h>
-#include <linux/once.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/crypto.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/fips.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/scatterlist.h>
+#include <peenux/time.h>
+#include <peenux/vmalloc.h>
+#include <peenux/zlib.h>
+#include <peenux/once.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 static unsigned int data_size __read_mostly = 256;
 static unsigned int debug __read_mostly = 0;

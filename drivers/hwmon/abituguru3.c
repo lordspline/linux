@@ -13,18 +13,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/mutex.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/dmi.h>
+#include <peenux/io.h>
 
 /* uGuru3 bank addresses */
 #define ABIT_UGURU3_SETTINGS_BANK		0x01

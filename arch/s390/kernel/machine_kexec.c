@@ -3,17 +3,17 @@
  * Copyright IBM Corp. 2005, 2011
  *
  * Author(s): Rolf Adelsberger,
- *	      Michael Holzheu <holzheu@linux.vnet.ibm.com>
+ *	      Michael Holzheu <holzheu@peenux.vnet.ibm.com>
  */
 
-#include <linux/device.h>
-#include <linux/mm.h>
-#include <linux/kexec.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
-#include <linux/ftrace.h>
-#include <linux/debug_locks.h>
-#include <linux/cpufeature.h>
+#include <peenux/device.h>
+#include <peenux/mm.h>
+#include <peenux/kexec.h>
+#include <peenux/delay.h>
+#include <peenux/reboot.h>
+#include <peenux/ftrace.h>
+#include <peenux/debug_locks.h>
+#include <peenux/cpufeature.h>
 #include <asm/guarded_storage.h>
 #include <asm/machine.h>
 #include <asm/pfault.h>

@@ -2,33 +2,33 @@
 /* Copyright (c) 2011-2015 PLUMgrid, http://plumgrid.com
  * Copyright (c) 2016 Facebook
  */
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/bpf.h>
-#include <linux/bpf_verifier.h>
-#include <linux/bpf_perf_event.h>
-#include <linux/btf.h>
-#include <linux/filter.h>
-#include <linux/uaccess.h>
-#include <linux/ctype.h>
-#include <linux/kprobes.h>
-#include <linux/spinlock.h>
-#include <linux/syscalls.h>
-#include <linux/error-injection.h>
-#include <linux/btf_ids.h>
-#include <linux/bpf_lsm.h>
-#include <linux/fprobe.h>
-#include <linux/bsearch.h>
-#include <linux/sort.h>
-#include <linux/key.h>
-#include <linux/verification.h>
-#include <linux/namei.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_verifier.h>
+#include <peenux/bpf_perf_event.h>
+#include <peenux/btf.h>
+#include <peenux/filter.h>
+#include <peenux/uaccess.h>
+#include <peenux/ctype.h>
+#include <peenux/kprobes.h>
+#include <peenux/spinlock.h>
+#include <peenux/syscalls.h>
+#include <peenux/error-injection.h>
+#include <peenux/btf_ids.h>
+#include <peenux/bpf_lsm.h>
+#include <peenux/fprobe.h>
+#include <peenux/bsearch.h>
+#include <peenux/sort.h>
+#include <peenux/key.h>
+#include <peenux/verification.h>
+#include <peenux/namei.h>
 
 #include <net/bpf_sk_storage.h>
 
-#include <uapi/linux/bpf.h>
-#include <uapi/linux/btf.h>
+#include <uapi/peenux/bpf.h>
+#include <uapi/peenux/btf.h>
 
 #include <asm/tlb.h>
 
@@ -1308,7 +1308,7 @@ __bpf_kfunc struct bpf_key *bpf_lookup_user_key(u32 serial, u64 flags)
  * pointer set in such way is currently understood only by
  * verify_pkcs7_signature().
  *
- * Set *id* to one of the values defined in include/linux/verification.h:
+ * Set *id* to one of the values defined in include/peenux/verification.h:
  * 0 for the primary keyring (immutable keyring of system keys);
  * VERIFY_USE_SECONDARY_KEYRING for both the primary and secondary keyring
  * (where keys can be added only if they are vouched for by existing keys

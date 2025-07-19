@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /**
- * eCryptfs: Linux filesystem encryption layer
+ * eCryptfs: Peenux filesystem encryption layer
  * Kernel declarations.
  *
  * Copyright (C) 1997-2003 Erez Zadok
@@ -17,15 +17,15 @@
 #include <crypto/skcipher.h>
 #include <keys/user-type.h>
 #include <keys/encrypted-type.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/fs_stack.h>
-#include <linux/namei.h>
-#include <linux/scatterlist.h>
-#include <linux/hash.h>
-#include <linux/nsproxy.h>
-#include <linux/backing-dev.h>
-#include <linux/ecryptfs.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/fs_stack.h>
+#include <peenux/namei.h>
+#include <peenux/scatterlist.h>
+#include <peenux/hash.h>
+#include <peenux/nsproxy.h>
+#include <peenux/backing-dev.h>
+#include <peenux/ecryptfs.h>
 
 #define ECRYPTFS_DEFAULT_IV_BYTES 16
 #define ECRYPTFS_DEFAULT_EXTENT_SIZE 4096

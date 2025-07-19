@@ -8,12 +8,12 @@
  * Copyright (C) 2010 Google, Inc.
  */
 
-#include <linux/err.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/property.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/property.h>
+#include <peenux/err.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/property.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
+#include <peenux/property.h>
 
 #include "board.h"
 

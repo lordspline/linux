@@ -4,16 +4,16 @@
  * Copyright (C) 2014 ARM Limited
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/of_platform.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/vexpress.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/of_platform.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/vexpress.h>
 
 #define SYS_MISC		0x0
 #define SYS_MISC_MASTERSITE	(1 << 14)

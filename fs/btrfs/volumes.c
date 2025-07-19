@@ -3,15 +3,15 @@
  * Copyright (C) 2007 Oracle.  All rights reserved.
  */
 
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/slab.h>
-#include <linux/ratelimit.h>
-#include <linux/kthread.h>
-#include <linux/semaphore.h>
-#include <linux/uuid.h>
-#include <linux/list_sort.h>
-#include <linux/namei.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/slab.h>
+#include <peenux/ratelimit.h>
+#include <peenux/kthread.h>
+#include <peenux/semaphore.h>
+#include <peenux/uuid.h>
+#include <peenux/list_sort.h>
+#include <peenux/namei.h>
 #include "misc.h"
 #include "disk-io.h"
 #include "extent-tree.h"

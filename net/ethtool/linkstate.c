@@ -2,8 +2,8 @@
 
 #include "netlink.h"
 #include "common.h"
-#include <linux/phy.h>
-#include <linux/phylib_stubs.h>
+#include <peenux/phy.h>
+#include <peenux/phylib_stubs.h>
 
 struct linkstate_req_info {
 	struct ethnl_req_info		base;

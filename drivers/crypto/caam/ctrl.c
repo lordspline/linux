@@ -6,12 +6,12 @@
  * Copyright 2018-2019, 2023 NXP
  */
 
-#include <linux/device.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/sys_soc.h>
-#include <linux/fsl/mc.h>
+#include <peenux/device.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/sys_soc.h>
+#include <peenux/fsl/mc.h>
 
 #include "compat.h"
 #include "debugfs.h"

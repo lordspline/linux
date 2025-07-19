@@ -2,18 +2,18 @@
 //
 // Copyright(c) 2022 Intel Corporation
 //
-// Author: Peter Ujfalusi <peter.ujfalusi@linux.intel.com>
+// Author: Peter Ujfalusi <peter.ujfalusi@peenux.intel.com>
 //
 
-#include <linux/auxiliary_bus.h>
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/ktime.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/completion.h>
+#include <peenux/debugfs.h>
+#include <peenux/ktime.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 #include <sound/sof/header.h>
 #include <sound/sof/ipc4/header.h>
 

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /* ALSA sequencer binding for UMP device */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/mutex.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
 #include <asm/byteorder.h>
 #include <sound/core.h>
 #include <sound/ump.h>

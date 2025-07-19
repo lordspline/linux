@@ -24,9 +24,9 @@
 #ifndef _BCACHEFS_TIME_STATS_H
 #define _BCACHEFS_TIME_STATS_H
 
-#include <linux/sched/clock.h>
-#include <linux/spinlock_types.h>
-#include <linux/string.h>
+#include <peenux/sched/clock.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/string.h>
 
 #include "mean_and_variance.h"
 

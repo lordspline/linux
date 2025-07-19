@@ -7,13 +7,13 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <asm/ioctls.h>
-#include <linux/icmp.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/random.h>
-#include <linux/socket.h>
-#include <linux/l2tp.h>
-#include <linux/in.h>
+#include <peenux/icmp.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/random.h>
+#include <peenux/socket.h>
+#include <peenux/l2tp.h>
+#include <peenux/in.h>
 #include <net/sock.h>
 #include <net/ip.h>
 #include <net/icmp.h>

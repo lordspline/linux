@@ -9,18 +9,18 @@
  * Vitaly Bordug <vbordug@ru.mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/mii.h>
-#include <linux/platform_device.h>
-#include <linux/mdio-bitbang.h>
-#include <linux/of_address.h>
-#include <linux/of_mdio.h>
-#include <linux/of_platform.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/mii.h>
+#include <peenux/platform_device.h>
+#include <peenux/mdio-bitbang.h>
+#include <peenux/of_address.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_platform.h>
 
 #include "fs_enet.h"
 

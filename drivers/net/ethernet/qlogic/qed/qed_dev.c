@@ -4,21 +4,21 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
-#include <linux/etherdevice.h>
-#include <linux/qed/qed_chain.h>
-#include <linux/qed/qed_if.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/vmalloc.h>
+#include <peenux/etherdevice.h>
+#include <peenux/qed/qed_chain.h>
+#include <peenux/qed/qed_if.h>
 #include "qed.h"
 #include "qed_cxt.h"
 #include "qed_dcbx.h"

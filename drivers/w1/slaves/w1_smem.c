@@ -7,13 +7,13 @@
 
 #include <asm/types.h>
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 
 #define W1_FAMILY_SMEM_01	0x01
 #define W1_FAMILY_SMEM_81	0x81

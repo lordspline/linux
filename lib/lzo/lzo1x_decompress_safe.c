@@ -7,17 +7,17 @@
  *  The full LZO package can be found at:
  *  http://www.oberhumer.com/opensource/lzo/
  *
- *  Changed for Linux kernel use by:
+ *  Changed for Peenux kernel use by:
  *  Nitin Gupta <nitingupta910@gmail.com>
  *  Richard Purdie <rpurdie@openedhand.com>
  */
 
 #ifndef STATIC
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
 #endif
-#include <linux/unaligned.h>
-#include <linux/lzo.h>
+#include <peenux/unaligned.h>
+#include <peenux/lzo.h>
 #include "lzodefs.h"
 
 #define HAVE_IP(x)      ((size_t)(ip_end - ip) >= (size_t)(x))

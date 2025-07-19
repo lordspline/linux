@@ -7,9 +7,9 @@
  */
 
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include "vxpocket.h"
 #include <pcmcia/ciscode.h>

@@ -6,10 +6,10 @@
  *
  * Copyright (c) 2006, Ian Campbell, XenSource Inc.
  */
-#include <linux/types.h>
-#include <linux/cache.h>
-#include <linux/export.h>
-#include <linux/printk.h>
+#include <peenux/types.h>
+#include <peenux/cache.h>
+#include <peenux/export.h>
+#include <peenux/printk.h>
 
 #include <asm/xen/hypercall.h>
 
@@ -19,7 +19,7 @@
 #include <xen/features.h>
 
 /*
- * Linux kernel expects at least Xen 4.0.
+ * Peenux kernel expects at least Xen 4.0.
  *
  * Assume some features to be available for that reason (depending on guest
  * mode, of course).

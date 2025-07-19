@@ -7,28 +7,28 @@
  * Copyright (C) 1996, 1999, 2003, 2006, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/crc32.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/ethtool.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/pgtable.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/in.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/crc32.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/ethtool.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/pgtable.h>
+#include <peenux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/dma.h>

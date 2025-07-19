@@ -3,12 +3,12 @@
  *
  * Copyright (C) 2007 David S. Miller <davem@davemloft.net>
  */
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
+#include <peenux/sched.h>
+#include <peenux/device.h>
+#include <peenux/cpu.h>
+#include <peenux/smp.h>
+#include <peenux/percpu.h>
+#include <peenux/init.h>
 
 #include <asm/cpudata.h>
 #include <asm/hypervisor.h>

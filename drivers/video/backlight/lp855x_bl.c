@@ -5,17 +5,17 @@
  *			Copyright (C) 2011 Texas Instruments
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/platform_data/lp855x.h>
-#include <linux/pwm.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/platform_data/lp855x.h>
+#include <peenux/pwm.h>
+#include <peenux/regulator/consumer.h>
 
 /* LP8550/1/2/3/6 Registers */
 #define LP855X_BRIGHTNESS_CTRL		0x00

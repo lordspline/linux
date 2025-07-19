@@ -8,9 +8,9 @@
  * ... and again Southern-Winter 2001 to support export_operations
  */
 
-#include <linux/exportfs.h>
+#include <peenux/exportfs.h>
 
-#include <linux/sunrpc/svcauth_gss.h>
+#include <peenux/sunrpc/svcauth_gss.h>
 #include "nfsd.h"
 #include "vfs.h"
 #include "auth.h"
@@ -436,7 +436,7 @@ fh_verify_local(struct net *net, struct svc_cred *cred,
  * the current task's credentials.
  *
  * @type specifies the type of object expected using one of the S_IF*
- * constants defined in include/linux/stat.h.  The caller may use zero
+ * constants defined in include/peenux/stat.h.  The caller may use zero
  * to indicate that it doesn't care, or a negative integer to indicate
  * that it expects something not of the given type.
  *

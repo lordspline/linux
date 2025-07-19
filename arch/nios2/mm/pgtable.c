@@ -7,8 +7,8 @@
  * for more details.
  */
 
-#include <linux/mm.h>
-#include <linux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
 
 #include <asm/cpuinfo.h>
 #include <asm/pgalloc.h>

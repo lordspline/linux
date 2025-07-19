@@ -10,16 +10,16 @@
  * storage device to each channel for storing ECC data.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/irq_work.h>
-#include <linux/llist.h>
-#include <linux/genalloc.h>
-#include <linux/edac.h>
-#include <linux/bits.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/irq_work.h>
+#include <peenux/llist.h>
+#include <peenux/genalloc.h>
+#include <peenux/edac.h>
+#include <peenux/bits.h>
+#include <peenux/io.h>
 #include <asm/mach_traps.h>
 #include <asm/nmi.h>
 #include <asm/mce.h>

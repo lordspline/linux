@@ -4,21 +4,21 @@
 //
 // Author: ChiYuan Huang <cy_huang@richtek.com>
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/byteorder/generic.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/acpi.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/byteorder/generic.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

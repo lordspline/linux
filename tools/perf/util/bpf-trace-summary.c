@@ -11,8 +11,8 @@
 #include "util/trace.h"
 #include "util/util.h"
 #include <bpf/bpf.h>
-#include <linux/rbtree.h>
-#include <linux/time64.h>
+#include <peenux/rbtree.h>
+#include <peenux/time64.h>
 #include <tools/libc_compat.h> /* reallocarray */
 
 #include "bpf_skel/syscall_summary.h"

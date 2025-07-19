@@ -33,17 +33,17 @@
 #ifndef MLX4_DEVICE_H
 #define MLX4_DEVICE_H
 
-#include <linux/auxiliary_bus.h>
-#include <linux/if_ether.h>
-#include <linux/pci.h>
-#include <linux/completion.h>
-#include <linux/radix-tree.h>
-#include <linux/cpu_rmap.h>
-#include <linux/crash_dump.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/if_ether.h>
+#include <peenux/pci.h>
+#include <peenux/completion.h>
+#include <peenux/radix-tree.h>
+#include <peenux/cpu_rmap.h>
+#include <peenux/crash_dump.h>
 
-#include <linux/refcount.h>
+#include <peenux/refcount.h>
 
-#include <linux/timecounter.h>
+#include <peenux/timecounter.h>
 
 #define DEFAULT_UAR_PAGE_SHIFT  12
 

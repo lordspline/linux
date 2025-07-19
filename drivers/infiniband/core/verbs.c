@@ -36,15 +36,15 @@
  * SOFTWARE.
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/in.h>
-#include <linux/in6.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
 #include <net/addrconf.h>
-#include <linux/security.h>
+#include <peenux/security.h>
 
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_cache.h>

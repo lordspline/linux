@@ -8,12 +8,12 @@
  * Viresh Kumar <vireshk@kernel.org>
  */
 
-#include <linux/amba/pl08x.h>
-#include <linux/amba/bus.h>
-#include <linux/bug.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/spinlock_types.h>
+#include <peenux/amba/pl08x.h>
+#include <peenux/amba/bus.h>
+#include <peenux/bug.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/spinlock_types.h>
 #include "spear.h"
 #include "misc_regs.h"
 #include "pl080.h"

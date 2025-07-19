@@ -6,7 +6,7 @@
 #ifndef __INTEL_VDSC_H__
 #define __INTEL_VDSC_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct drm_printer;
 

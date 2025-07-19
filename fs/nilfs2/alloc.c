@@ -8,11 +8,11 @@
  * Two allocators were unified by Ryusuke Konishi and Amagai Yoshiji.
  */
 
-#include <linux/types.h>
-#include <linux/buffer_head.h>
-#include <linux/fs.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/buffer_head.h>
+#include <peenux/fs.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
 #include "mdt.h"
 #include "alloc.h"
 

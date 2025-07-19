@@ -33,10 +33,10 @@
 #include <rdma/ib_addr.h>
 #include <rdma/ib_cache.h>
 
-#include <linux/slab.h>
-#include <linux/inet.h>
-#include <linux/string.h>
-#include <linux/mlx4/driver.h>
+#include <peenux/slab.h>
+#include <peenux/inet.h>
+#include <peenux/string.h>
+#include <peenux/mlx4/driver.h>
 
 #include "mlx4_ib.h"
 

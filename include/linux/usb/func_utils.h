@@ -13,8 +13,8 @@
 #ifndef _FUNC_UTILS_H_
 #define _FUNC_UTILS_H_
 
-#include <linux/usb/gadget.h>
-#include <linux/overflow.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/overflow.h>
 
 /* Variable Length Array Macros **********************************************/
 #define vla_group(groupname) size_t groupname##__next = 0

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
-#include <linux/err.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
+#include <peenux/err.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <errno.h>

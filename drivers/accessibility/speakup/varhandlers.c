@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ctype.h>
+#include <peenux/ctype.h>
 #include "spk_types.h"
 #include "spk_priv.h"
 #include "speakup.h"

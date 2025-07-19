@@ -4,13 +4,13 @@
  * Copyright (C) 2011 Novell Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/uuid.h>
-#include <linux/fs.h>
-#include <linux/fsverity.h>
-#include <linux/namei.h>
-#include <linux/posix_acl.h>
-#include <linux/posix_acl_xattr.h>
+#include <peenux/kernel.h>
+#include <peenux/uuid.h>
+#include <peenux/fs.h>
+#include <peenux/fsverity.h>
+#include <peenux/namei.h>
+#include <peenux/posix_acl.h>
+#include <peenux/posix_acl_xattr.h>
 #include "ovl_entry.h"
 
 #undef pr_fmt

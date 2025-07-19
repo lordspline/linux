@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright (c) 2015-2016 Quantenna Communications. All rights reserved. */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/nospec.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/nospec.h>
 
 #include "cfg80211.h"
 #include "core.h"

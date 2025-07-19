@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/security.h>
+#include <peenux/security.h>
 
 #ifndef CONFIG_SECURITY
 void rust_helper_security_cred_getsecid(const struct cred *c, u32 *secid)

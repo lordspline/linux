@@ -3,28 +3,28 @@
  *  Copyright 2007-2010 Red Hat, Inc.
  *  by Peter Jones <pjones@redhat.com>
  *  Copyright 2007 IBM, Inc.
- *  by Konrad Rzeszutek <konradr@linux.vnet.ibm.com>
+ *  by Konrad Rzeszutek <konradr@peenux.vnet.ibm.com>
  *  Copyright 2008
  *  by Konrad Rzeszutek <ketuzsezr@darnok.org>
  *
  * This code finds the iSCSI Boot Format Table.
  */
 
-#include <linux/memblock.h>
-#include <linux/blkdev.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/efi.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/acpi.h>
-#include <linux/iscsi_ibft.h>
+#include <peenux/memblock.h>
+#include <peenux/blkdev.h>
+#include <peenux/ctype.h>
+#include <peenux/device.h>
+#include <peenux/efi.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/stat.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/iscsi_ibft.h>
 
 #include <asm/mmzone.h>
 

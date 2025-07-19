@@ -6,10 +6,10 @@
  * Author(s): Harald Freudenberger
  */
 
-#include <linux/kernel.h>
-#include <linux/atomic.h>
-#include <linux/random.h>
-#include <linux/static_key.h>
+#include <peenux/kernel.h>
+#include <peenux/atomic.h>
+#include <peenux/random.h>
+#include <peenux/static_key.h>
 #include <asm/archrandom.h>
 #include <asm/cpacf.h>
 

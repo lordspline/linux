@@ -8,25 +8,25 @@
 // Copyright 2010 Sascha Hauer, Pengutronix <s.hauer@pengutronix.de>
 // Copyright 2012 Javier Martin, Vista Silicon <javier.martin@vista-silicon.com>
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/dmaengine.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
 
 #include <asm/irq.h>
-#include <linux/dma/imx-dma.h>
+#include <peenux/dma/imx-dma.h>
 
 #include "dmaengine.h"
 #define IMXDMA_MAX_CHAN_DESCRIPTORS	16

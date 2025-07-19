@@ -10,17 +10,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/serdev.h>
-#include <linux/string.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/serdev.h>
+#include <peenux/string.h>
 
 #include "x86-android-tablets.h"
 #include "../serdev_helpers.h"

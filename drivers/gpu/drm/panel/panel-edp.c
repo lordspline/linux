@@ -21,15 +21,15 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
 
 #include <video/display_timing.h>
 #include <video/of_display_timing.h>

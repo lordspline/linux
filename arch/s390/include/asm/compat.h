@@ -4,10 +4,10 @@
 /*
  * Architecture specific compatibility types
  */
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/thread_info.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/thread_info.h>
 #include <asm/ptrace.h>
 
 #define compat_mode_t	compat_mode_t

@@ -6,8 +6,8 @@
 #ifndef __LINUX_PCS_LYNX_H
 #define __LINUX_PCS_LYNX_H
 
-#include <linux/mdio.h>
-#include <linux/phylink.h>
+#include <peenux/mdio.h>
+#include <peenux/phylink.h>
 
 struct phylink_pcs *lynx_pcs_create_mdiodev(struct mii_bus *bus, int addr);
 struct phylink_pcs *lynx_pcs_create_fwnode(struct fwnode_handle *node);

@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <linux/objtool_types.h>
+#include <peenux/objtool_types.h>
 #include <asm/orc_types.h>
 
 #include <objtool/check.h>

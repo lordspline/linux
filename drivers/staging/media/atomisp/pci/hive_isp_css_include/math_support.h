@@ -7,8 +7,8 @@
 #ifndef __MATH_SUPPORT_H
 #define __MATH_SUPPORT_H
 
-/* Override the definition of max/min from Linux kernel */
-#include <linux/minmax.h>
+/* Override the definition of max/min from Peenux kernel */
+#include <peenux/minmax.h>
 
 /* force a value to a lower even value */
 #define EVEN_FLOOR(x)        ((x) & ~1)

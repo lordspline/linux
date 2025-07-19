@@ -28,15 +28,15 @@
 
 #include "bcm47xx_private.h"
 
-#include <linux/bcm47xx_sprom.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_embedded.h>
-#include <linux/bcma/bcma_soc.h>
+#include <peenux/bcm47xx_sprom.h>
+#include <peenux/export.h>
+#include <peenux/types.h>
+#include <peenux/ethtool.h>
+#include <peenux/phy.h>
+#include <peenux/phy_fixed.h>
+#include <peenux/ssb/ssb.h>
+#include <peenux/ssb/ssb_embedded.h>
+#include <peenux/bcma/bcma_soc.h>
 #include <asm/bmips.h>
 #include <asm/bootinfo.h>
 #include <asm/idle.h>

@@ -5,7 +5,7 @@
  *
  */
 
-#include <linux/pci.h>
+#include <peenux/pci.h>
 #include "rvu.h"
 
 /* SDP PF device id */

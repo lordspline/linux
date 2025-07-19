@@ -9,13 +9,13 @@
 
 #define pr_fmt(fmt) "energy_model: " fmt
 
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpumask.h>
-#include <linux/debugfs.h>
-#include <linux/energy_model.h>
-#include <linux/sched/topology.h>
-#include <linux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/cpumask.h>
+#include <peenux/debugfs.h>
+#include <peenux/energy_model.h>
+#include <peenux/sched/topology.h>
+#include <peenux/slab.h>
 
 /*
  * Mutex serializing the registrations of performance domains and letting

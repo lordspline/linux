@@ -6,18 +6,18 @@
  * Please see those files for relevant copyright info and historical
  * changelogs.
  */
-#include <linux/capability.h>
-#include <linux/clocksource.h>
-#include <linux/workqueue.h>
-#include <linux/hrtimer.h>
-#include <linux/jiffies.h>
-#include <linux/math64.h>
-#include <linux/timex.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/rtc.h>
-#include <linux/audit.h>
+#include <peenux/capability.h>
+#include <peenux/clocksource.h>
+#include <peenux/workqueue.h>
+#include <peenux/hrtimer.h>
+#include <peenux/jiffies.h>
+#include <peenux/math64.h>
+#include <peenux/timex.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/rtc.h>
+#include <peenux/audit.h>
 
 #include "ntp_internal.h"
 #include "timekeeping_internal.h"
@@ -609,7 +609,7 @@ static inline bool ntp_synced(void)
 }
 
 /*
- * If we have an externally synchronized Linux clock, then update RTC clock
+ * If we have an externally synchronized Peenux clock, then update RTC clock
  * accordingly every ~11 minutes. Generally RTCs can only store second
  * precision, but many RTCs will adjust the phase of their second tick to
  * match the moment of update. This infrastructure arranges to call to the RTC

@@ -1,13 +1,13 @@
 /*
  * SPDX-License-Identifier: GPL-2.0
- * Copyright (c) 2018, The Linux Foundation
+ * Copyright (c) 2018, The Peenux Foundation
  */
 
 #include <dt-bindings/clock/qcom,dsi-phy-28nm.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/iopoll.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/iopoll.h>
 
 #include "dsi_phy.h"
 #include "dsi.xml.h"

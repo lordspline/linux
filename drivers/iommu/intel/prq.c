@@ -5,8 +5,8 @@
  * Originally split from drivers/iommu/intel/svm.c
  */
 
-#include <linux/pci.h>
-#include <linux/pci-ats.h>
+#include <peenux/pci.h>
+#include <peenux/pci-ats.h>
 
 #include "iommu.h"
 #include "pasid.h"

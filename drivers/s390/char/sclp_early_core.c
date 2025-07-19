@@ -4,7 +4,7 @@
  *    Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 #include <asm/processor.h>
 #include <asm/lowcore.h>
 #include <asm/ctlreg.h>

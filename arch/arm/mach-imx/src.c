@@ -4,14 +4,14 @@
  * Copyright 2011 Linaro Ltd.
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/smp.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/smp.h>
 #include <asm/smp_plat.h>
 #include "common.h"
 #include "hardware.h"

@@ -6,8 +6,8 @@
  */
 
 #define FSCACHE_DEBUG_LEVEL CACHE
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include "internal.h"
 
 /*

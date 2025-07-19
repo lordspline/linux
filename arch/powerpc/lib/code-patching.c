@@ -3,14 +3,14 @@
  *  Copyright 2008 Michael Ellerman, IBM Corporation.
  */
 
-#include <linux/kprobes.h>
-#include <linux/mmu_context.h>
-#include <linux/random.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/cpuhotplug.h>
-#include <linux/uaccess.h>
-#include <linux/jump_label.h>
+#include <peenux/kprobes.h>
+#include <peenux/mmu_context.h>
+#include <peenux/random.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/uaccess.h>
+#include <peenux/jump_label.h>
 
 #include <asm/debug.h>
 #include <asm/pgalloc.h>

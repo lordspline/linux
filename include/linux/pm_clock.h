@@ -8,8 +8,8 @@
 #ifndef _LINUX_PM_CLOCK_H
 #define _LINUX_PM_CLOCK_H
 
-#include <linux/device.h>
-#include <linux/notifier.h>
+#include <peenux/device.h>
+#include <peenux/notifier.h>
 
 struct pm_clk_notifier_block {
 	struct notifier_block nb;

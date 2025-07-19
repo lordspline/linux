@@ -33,19 +33,19 @@
  *
  */
 
-#include <linux/hp_sdc.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/time.h>
-#include <linux/miscdevice.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/poll.h>
-#include <linux/rtc.h>
-#include <linux/mutex.h>
-#include <linux/semaphore.h>
+#include <peenux/hp_sdc.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/time.h>
+#include <peenux/miscdevice.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/poll.h>
+#include <peenux/rtc.h>
+#include <peenux/mutex.h>
+#include <peenux/semaphore.h>
 
 MODULE_AUTHOR("Brian S. Julin <bri@calyx.com>");
 MODULE_DESCRIPTION("HP i8042 SDC + MSM-58321 RTC Driver");

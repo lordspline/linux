@@ -9,32 +9,32 @@
  * Copyright (C) Frederic Rible F1OAT (frible@teaser.fr)
  */
 
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/timer.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/slab.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/timer.h>
+#include <peenux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/slab.h>
 #include <net/ax25.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
 #include <net/sock.h>
-#include <linux/uaccess.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/export.h>
+#include <peenux/uaccess.h>
+#include <peenux/fcntl.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/seq_file.h>
+#include <peenux/export.h>
 
 static ax25_route *ax25_route_list;
 DEFINE_RWLOCK(ax25_route_lock);

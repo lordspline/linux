@@ -5,14 +5,14 @@
  * Clément Léger <clement.leger@bootlin.com>
  */
 
-#include <linux/clk.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/if_ether.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
+#include <peenux/clk.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/if_ether.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
 #include <net/dsa.h>
 
 #include "rzn1_a5psw.h"

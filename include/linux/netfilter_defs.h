@@ -2,7 +2,7 @@
 #ifndef __LINUX_NETFILTER_CORE_H_
 #define __LINUX_NETFILTER_CORE_H_
 
-#include <uapi/linux/netfilter.h>
+#include <uapi/peenux/netfilter.h>
 
 /* in/out/forward only */
 #define NF_ARP_NUMHOOKS 3

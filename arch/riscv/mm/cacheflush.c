@@ -3,9 +3,9 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/prctl.h>
+#include <peenux/acpi.h>
+#include <peenux/of.h>
+#include <peenux/prctl.h>
 #include <asm/acpi.h>
 #include <asm/cacheflush.h>
 

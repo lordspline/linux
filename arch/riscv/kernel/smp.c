@@ -8,21 +8,21 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/cpu.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kexec.h>
-#include <linux/kgdb.h>
-#include <linux/percpu.h>
-#include <linux/profile.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/irq_work.h>
-#include <linux/nmi.h>
+#include <peenux/cpu.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/kexec.h>
+#include <peenux/kgdb.h>
+#include <peenux/percpu.h>
+#include <peenux/profile.h>
+#include <peenux/smp.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/irq_work.h>
+#include <peenux/nmi.h>
 
 #include <asm/tlbflush.h>
 #include <asm/cacheflush.h>
@@ -49,7 +49,7 @@ void __init smp_setup_processor_id(void)
 {
 	cpuid_to_hartid_map(0) = boot_cpu_hartid;
 
-	pr_info("Booting Linux on hartid %lu\n", boot_cpu_hartid);
+	pr_info("Booting Peenux on hartid %lu\n", boot_cpu_hartid);
 }
 
 static DEFINE_PER_CPU_READ_MOSTLY(int, ipi_dummy_dev);

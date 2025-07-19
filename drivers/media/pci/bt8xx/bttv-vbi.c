@@ -13,12 +13,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/kdev_t.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/kdev_t.h>
 #include <media/v4l2-ioctl.h>
 #include <asm/io.h>
 #include "bttvp.h"

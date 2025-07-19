@@ -7,7 +7,7 @@
  * Authors: Dipankar Sarma <dipankar@in.ibm.com>
  *	    Manfred Spraul <manfred@colorfullife.com>
  *
- * Based on the original work by Paul McKenney <paulmck@linux.ibm.com>
+ * Based on the original work by Paul McKenney <paulmck@peenux.ibm.com>
  * and inputs from Rusty Russell, Andrea Arcangeli and Andi Kleen.
  * Papers:
  * http://www.rdrop.com/users/paulmck/paper/rclockpdcsproof.pdf
@@ -17,33 +17,33 @@
  *		http://lse.sourceforge.net/locking/rcupdate.html
  *
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/torture.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/percpu.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/mutex.h>
-#include <linux/export.h>
-#include <linux/hardirq.h>
-#include <linux/delay.h>
-#include <linux/moduleparam.h>
-#include <linux/kthread.h>
-#include <linux/tick.h>
-#include <linux/rcupdate_wait.h>
-#include <linux/sched/isolation.h>
-#include <linux/kprobes.h>
-#include <linux/slab.h>
-#include <linux/irq_work.h>
-#include <linux/rcupdate_trace.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/debug.h>
+#include <peenux/torture.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/percpu.h>
+#include <peenux/notifier.h>
+#include <peenux/cpu.h>
+#include <peenux/mutex.h>
+#include <peenux/export.h>
+#include <peenux/hardirq.h>
+#include <peenux/delay.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kthread.h>
+#include <peenux/tick.h>
+#include <peenux/rcupdate_wait.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/kprobes.h>
+#include <peenux/slab.h>
+#include <peenux/irq_work.h>
+#include <peenux/rcupdate_trace.h>
 
 #define CREATE_TRACE_POINTS
 

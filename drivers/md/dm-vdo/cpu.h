@@ -6,7 +6,7 @@
 #ifndef UDS_CPU_H
 #define UDS_CPU_H
 
-#include <linux/cache.h>
+#include <peenux/cache.h>
 
 /**
  * uds_prefetch_address() - Minimize cache-miss latency by attempting to move data into a CPU cache

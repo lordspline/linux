@@ -4,12 +4,12 @@
  * Author: Allen-KH Cheng <allen-kh.cheng@mediatek.com>
  */
 
-#include <linux/firmware/mediatek/mtk-adsp-ipc.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/firmware/mediatek/mtk-adsp-ipc.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 static const char * const adsp_mbox_ch_names[MTK_ADSP_MBOX_NUM] = { "rx", "tx" };
 

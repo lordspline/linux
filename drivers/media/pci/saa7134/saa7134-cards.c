@@ -10,10 +10,10 @@
 #include "saa7134.h"
 #include "saa7134-reg.h"
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-bit.h>
 
 #include "xc2028.h"
 #include <media/v4l2-common.h>
@@ -95,7 +95,7 @@ struct saa7134_board saa7134_boards[] = {
 		},
 	},
 	[SAA7134_BOARD_FLYVIDEO3000] = {
-		/* "Marco d'Itri" <md@Linux.IT> */
+		/* "Marco d'Itri" <md@Peenux.IT> */
 		.name		= "LifeView FlyVIDEO3000",
 		.audio_clock	= 0x00200000,
 		.tuner_type	= TUNER_PHILIPS_PAL,

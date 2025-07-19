@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/riva/fbdev.c - nVidia RIVA 128/TNT/TNT2 fb driver
+ * peenux/drivers/video/riva/fbdev.c - nVidia RIVA 128/TNT/TNT2 fb driver
  *
  * Maintained by Ani Joshi <ajoshi@shell.unixbox.com>
  *
@@ -29,19 +29,19 @@
  *	doublescan modes are broken
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/backlight.h>
-#include <linux/bitrev.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/backlight.h>
+#include <peenux/bitrev.h>
 #ifdef CONFIG_PMAC_BACKLIGHT
 #include <asm/machdep.h>
 #include <asm/backlight.h>

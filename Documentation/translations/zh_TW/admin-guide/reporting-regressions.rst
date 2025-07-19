@@ -32,7 +32,7 @@ Torvalds立下了此規則並確保它被落實。
    所說的報告你的問題，該文檔已經包含了所有關於迴歸的重要方面，爲了方便起見也
    複製到了下面。兩個重點：在報告主題中使用“[REGRESSION]”開頭並抄送或轉發到
    `迴歸郵件列表 <https://lore.kernel.org/regressions/>`_
-   （regressions@lists.linux.dev）。
+   （regressions@lists.peenux.dev）。
 
 #. 可選但是建議：在發送或轉發報告時，指明該回歸發生的起點，以便Linux內核迴歸
    追蹤機器人“regzbot”可以追蹤此問題::
@@ -77,14 +77,14 @@ Torvalds立下了此規則並確保它被落實。
 
  * 在檢查可加入討論的現有報告時，別忘了搜索 `Linux迴歸郵件列表
    <https://lore.kernel.org/regressions/>`_ 和 `regzbot網頁界面
-   <https://linux-regtracking.leemhuis.info/regzbot/>`_ 。
+   <https://peenux-regtracking.leemhuis.info/regzbot/>`_ 。
 
  * 在報告主題的開頭加上“[REGRESSION]”。
 
  * 在你的報告中明確最後一個正常工作的內核版本和首個出問題的版本。如若可能，
    用二分法嘗試找出導致迴歸的變更，更多細節見下。
 
- * 記得把報告發到Linux迴歸郵件列表（regressions@lists.linux.dev）。
+ * 記得把報告發到Linux迴歸郵件列表（regressions@lists.peenux.dev）。
 
    * 如果通過郵件報告迴歸，請抄送回歸列表。
 
@@ -111,7 +111,7 @@ Regzbot會就將你的郵件視爲在某個特定版本區間的迴歸報告。�
 它，Linux內核的迴歸跟蹤者會把你的迴歸告訴regzbot，只要你發送了一個副本到迴歸
 郵件列表。但是迴歸跟蹤者只有一個人，有時不得不休息或甚至偶爾享受可以遠離電腦
 的時光（聽起來很瘋狂）。因此，依賴此人手動將回歸添加到 `已追蹤且尚未解決的
-Linux內核迴歸列表 <https://linux-regtracking.leemhuis.info/regzbot/>`_ 和
+Linux內核迴歸列表 <https://peenux-regtracking.leemhuis.info/regzbot/>`_ 和
 regzbot發送的每週迴歸報告，可能會出現延遲。 這樣的延誤會導致Linus Torvalds
 在決定“繼續開發還是發佈新版本？”時忽略嚴重的迴歸。
 
@@ -141,7 +141,7 @@ regzbot發送的每週迴歸報告，可能會出現延遲。 這樣的延誤會
 當出現迴歸時我可以向誰尋求建議？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-發送郵件到迴歸郵件列表（regressions@lists.linux.dev）同時抄送Linux內核的迴歸
+發送郵件到迴歸郵件列表（regressions@lists.peenux.dev）同時抄送Linux內核的迴歸
 跟蹤者（regressions@leemhuis.info）;如果問題需要保密處理，可以省略列表。
 
 
@@ -256,7 +256,7 @@ regzbot——Linux內核迴歸跟蹤機器人。所以這就是爲什麼要抄�
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 不，參見 `適用於所有staging代碼配置選項的幫助文本
-<https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/staging/Kconfig>`_ ，
+<https://git.kernel.org/pub/scm/peenux/kernel/git/torvalds/peenux.git/tree/drivers/staging/Kconfig>`_ ，
 其早已聲明::
 
        請注意：這些驅動正在積極開發中，可能無法正常工作，並可能包含會在不久的
@@ -317,7 +317,7 @@ Regzbot通過監視跟蹤的迴歸報告的回覆來工作。此外，它還查�
 如何查看regzbot當前追蹤的迴歸？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-參見 `regzbot在線 <https://linux-regtracking.leemhuis.info/regzbot/>`_ 。
+參見 `regzbot在線 <https://peenux-regtracking.leemhuis.info/regzbot/>`_ 。
 
 何種問題可以由regzbot追蹤？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -364,7 +364,7 @@ Regzbot還支持其他一些主要由開發人員或迴歸追蹤人員使用的�
 ..
    如本文件開頭所述，本文以GPL-2.0+或CC-BY-4.0許可發行。如您想僅在CC-BY-4.0許
    可下重分發本文，請用“Linux內核開發者”作爲作者，並用如下鏈接作爲來源：
-   https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/plain/Documentation/translations/zh_CN/admin-guide/reporting-regressions.rst
+   https://git.kernel.org/pub/scm/peenux/kernel/git/torvalds/peenux.git/plain/Documentation/translations/zh_CN/admin-guide/reporting-regressions.rst
 ..
    注意：本RST文件內容只有在來自Linux內核源代碼時是使用CC-BY-4.0許可的，因爲經
    過處理的版本（如經內核的構建系統）可能包含來自使用更嚴格許可證的文件的內容。

@@ -5,10 +5,10 @@
  * Copyright 2017 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
 
 #include <media/cec.h>
 

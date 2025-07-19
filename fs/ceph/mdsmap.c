@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/bug.h>
-#include <linux/err.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bug.h>
+#include <peenux/err.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
-#include <linux/ceph/messenger.h>
-#include <linux/ceph/decode.h>
+#include <peenux/ceph/messenger.h>
+#include <peenux/ceph/decode.h>
 
 #include "mdsmap.h"
 #include "mds_client.h"

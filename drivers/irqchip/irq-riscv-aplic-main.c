@@ -4,15 +4,15 @@
  * Copyright (C) 2022 Ventana Micro Systems Inc.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/irqchip/riscv-aplic.h>
-#include <linux/irqchip/riscv-imsic.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
+#include <peenux/acpi.h>
+#include <peenux/bitfield.h>
+#include <peenux/irqchip/riscv-aplic.h>
+#include <peenux/irqchip/riscv-imsic.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
 
 #include "irq-riscv-aplic-main.h"
 

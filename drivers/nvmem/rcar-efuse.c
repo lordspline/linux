@@ -5,14 +5,14 @@
  * Copyright (C) 2024 Glider bv
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/nvmem-provider.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
 
 struct rcar_fuse {
 	struct nvmem_keepout keepouts[2];

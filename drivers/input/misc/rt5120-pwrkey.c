@@ -4,14 +4,14 @@
  * Author: ChiYuan Huang <cy_huang@richtek.com>
  */
 
-#include <linux/bits.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define RT5120_REG_INTSTAT	0x1E
 #define RT5120_PWRKEYSTAT_MASK	BIT(7)

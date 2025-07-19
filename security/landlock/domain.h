@@ -10,13 +10,13 @@
 #ifndef _SECURITY_LANDLOCK_DOMAIN_H
 #define _SECURITY_LANDLOCK_DOMAIN_H
 
-#include <linux/limits.h>
-#include <linux/mm.h>
-#include <linux/path.h>
-#include <linux/pid.h>
-#include <linux/refcount.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/limits.h>
+#include <peenux/mm.h>
+#include <peenux/path.h>
+#include <peenux/pid.h>
+#include <peenux/refcount.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
 #include "access.h"
 #include "audit.h"

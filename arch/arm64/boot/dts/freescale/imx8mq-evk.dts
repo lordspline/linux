@@ -69,11 +69,11 @@
 		gpios = <&gpio1 12 GPIO_ACTIVE_LOW>;
 		pinctrl-names = "default";
 		pinctrl-0 = <&pinctrl_ir>;
-		linux,autosuspend-period = <125>;
+		peenux,autosuspend-period = <125>;
 	};
 
 	audio_codec_bt_sco: audio-codec-bt-sco {
-		compatible = "linux,bt-sco";
+		compatible = "peenux,bt-sco";
 		#sound-dai-cells = <1>;
 	};
 
@@ -126,12 +126,12 @@
 	};
 
 	spdif_out: spdif-out {
-		compatible = "linux,spdif-dit";
+		compatible = "peenux,spdif-dit";
 		#sound-dai-cells = <0>;
 	};
 
 	spdif_in: spdif-in {
-		compatible = "linux,spdif-dir";
+		compatible = "peenux,spdif-dir";
 		#sound-dai-cells = <0>;
 	};
 
@@ -143,7 +143,7 @@
 	};
 
 	hdmi_arc_in: hdmi-arc-in {
-		compatible = "linux,spdif-dir";
+		compatible = "peenux,spdif-dir";
 		#sound-dai-cells = <0>;
 	};
 

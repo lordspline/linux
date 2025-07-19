@@ -7,9 +7,9 @@
  * Description:
  * QE TDM API Set - TDM specific routines implementations.
  */
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
 #include <soc/fsl/qe/qe_tdm.h>
 
 static int set_tdm_framer(const char *tdm_framer_type)

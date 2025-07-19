@@ -10,14 +10,14 @@
 
 #undef DEBUG
 
-#include <linux/fs.h>
-#include <linux/fsnotify.h>
-#include <linux/mount.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
+#include <peenux/fs.h>
+#include <peenux/fsnotify.h>
+#include <peenux/mount.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
 
-#include <linux/configfs.h>
+#include <peenux/configfs.h>
 #include "configfs_internal.h"
 
 /*

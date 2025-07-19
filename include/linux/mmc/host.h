@@ -1,23 +1,23 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/include/linux/mmc/host.h
+ *  peenux/include/peenux/mmc/host.h
  *
  *  Host driver specific definitions.
  */
 #ifndef LINUX_MMC_HOST_H
 #define LINUX_MMC_HOST_H
 
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/fault-inject.h>
-#include <linux/debugfs.h>
+#include <peenux/sched.h>
+#include <peenux/device.h>
+#include <peenux/fault-inject.h>
+#include <peenux/debugfs.h>
 
-#include <linux/mmc/core.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/pm.h>
-#include <linux/dma-direction.h>
-#include <linux/blk-crypto-profile.h>
-#include <linux/mmc/sd_uhs2.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/pm.h>
+#include <peenux/dma-direction.h>
+#include <peenux/blk-crypto-profile.h>
+#include <peenux/mmc/sd_uhs2.h>
 
 struct mmc_ios {
 	unsigned int	clock;			/* clock rate */

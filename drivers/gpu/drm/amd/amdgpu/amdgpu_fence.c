@@ -28,13 +28,13 @@
  *    Jerome Glisse <glisse@freedesktop.org>
  *    Dave Airlie
  */
-#include <linux/seq_file.h>
-#include <linux/atomic.h>
-#include <linux/wait.h>
-#include <linux/kref.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/pm_runtime.h>
+#include <peenux/seq_file.h>
+#include <peenux/atomic.h>
+#include <peenux/wait.h>
+#include <peenux/kref.h>
+#include <peenux/slab.h>
+#include <peenux/firmware.h>
+#include <peenux/pm_runtime.h>
 
 #include <drm/drm_drv.h>
 #include "amdgpu.h"

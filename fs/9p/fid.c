@@ -6,11 +6,11 @@
  *  Copyright (C) 2005, 2006 by Eric Van Hensbergen <ericvh@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 

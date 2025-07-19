@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* linux/drivers/media/platform/samsung/s5p-jpeg/jpeg-core.c
+/* peenux/drivers/media/platform/samsung/s5p-jpeg/jpeg-core.c
  *
  * Copyright (c) 2011-2014 Samsung Electronics Co., Ltd.
  *		http://www.samsung.com
@@ -8,19 +8,19 @@
  * Author: Jacek Anaszewski <j.anaszewski@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-mem2mem.h>
 #include <media/v4l2-ioctl.h>

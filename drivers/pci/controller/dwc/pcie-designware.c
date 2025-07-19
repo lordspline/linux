@@ -8,19 +8,19 @@
  * Author: Jingoo Han <jg1.han@samsung.com>
  */
 
-#include <linux/align.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma/edma.h>
-#include <linux/gpio/consumer.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pcie-dwc.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <peenux/align.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma/edma.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/ioport.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/pcie-dwc.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

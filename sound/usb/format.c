@@ -2,12 +2,12 @@
 /*
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/audio-v2.h>
-#include <linux/usb/audio-v3.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/usb/audio.h>
+#include <peenux/usb/audio-v2.h>
+#include <peenux/usb/audio-v3.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

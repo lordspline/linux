@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	IPv6 over IPv4 tunnel device - Simple Internet Transition (SIT)
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
@@ -15,22 +15,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/icmp.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/init.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/if_ether.h>
+#include <peenux/module.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/in6.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/icmp.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/init.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/if_ether.h>
 
 #include <net/sock.h>
 #include <net/snmp.h>

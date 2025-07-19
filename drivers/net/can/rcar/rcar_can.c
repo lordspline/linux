@@ -5,17 +5,17 @@
  * Copyright (C) 2013 Renesas Solutions Corp.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/can/dev.h>
-#include <linux/clk.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/errno.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/can/dev.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
 
 #define RCAR_CAN_DRV_NAME	"rcar_can"
 

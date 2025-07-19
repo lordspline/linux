@@ -5,12 +5,12 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/hrtimer.h>
-#include <linux/ktime.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/hrtimer.h>
+#include <peenux/ktime.h>
 
 #include "mbox.h"
 #include "ptp.h"

@@ -11,9 +11,9 @@
 #include <drm/drm_bridge.h>
 #include <drm/drm_mipi_dsi.h>
 
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/phy/phy.h>
+#include <peenux/bits.h>
+#include <peenux/completion.h>
+#include <peenux/phy/phy.h>
 
 struct clk;
 struct reset_control;

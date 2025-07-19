@@ -15,11 +15,11 @@
  * TGC status/locality/etc functions seen in the LPC implementation do not
  * seem to be present.
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
 #include "tpm.h"
 
 #define I2C_DRIVER_NAME "tpm_i2c_atmel"

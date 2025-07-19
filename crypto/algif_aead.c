@@ -27,12 +27,12 @@
 #include <crypto/scatterwalk.h>
 #include <crypto/if_alg.h>
 #include <crypto/skcipher.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/net.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/net.h>
 #include <net/sock.h>
 
 static inline bool aead_sufficient_data(struct sock *sk)

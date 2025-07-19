@@ -3,9 +3,9 @@
  * Copyright 2019 Advanced Micro Devices, Inc.
  */
 
-#include <linux/slab.h>
-#include <linux/tee_core.h>
-#include <linux/psp.h>
+#include <peenux/slab.h>
+#include <peenux/tee_core.h>
+#include <peenux/psp.h>
 #include "amdtee_private.h"
 
 static int pool_op_alloc(struct tee_shm_pool *pool, struct tee_shm *shm,

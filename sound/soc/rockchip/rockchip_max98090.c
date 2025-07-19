@@ -5,10 +5,10 @@
  * Copyright (c) 2014, ROCKCHIP CORPORATION.  All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

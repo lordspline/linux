@@ -114,7 +114,7 @@
 
 		reset-key {
 			label = "reset";
-			linux,code = <KEY_RESTART>;
+			peenux,code = <KEY_RESTART>;
 			gpios = <&pio 7 GPIO_ACTIVE_LOW>;
 		};
 	};

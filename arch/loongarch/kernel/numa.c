@@ -5,20 +5,20 @@
  *
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/export.h>
-#include <linux/nodemask.h>
-#include <linux/numa_memblks.h>
-#include <linux/swap.h>
-#include <linux/memblock.h>
-#include <linux/pfn.h>
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/irq.h>
-#include <linux/pci.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/mmzone.h>
+#include <peenux/export.h>
+#include <peenux/nodemask.h>
+#include <peenux/numa_memblks.h>
+#include <peenux/swap.h>
+#include <peenux/memblock.h>
+#include <peenux/pfn.h>
+#include <peenux/acpi.h>
+#include <peenux/efi.h>
+#include <peenux/irq.h>
+#include <peenux/pci.h>
 #include <asm/bootinfo.h>
 #include <asm/loongson.h>
 #include <asm/numa.h>

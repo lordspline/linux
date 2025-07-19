@@ -121,13 +121,13 @@
  *  This code was initially based on code from ALSA's emu10k1x.c which is:
  *  Copyright (c) by Francisco Moraes <fmoraes@nc.rr.com>
  */
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/dma-mapping.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

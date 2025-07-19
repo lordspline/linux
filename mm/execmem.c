@@ -8,14 +8,14 @@
 
 #define pr_fmt(fmt) "execmem: " fmt
 
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/vmalloc.h>
-#include <linux/execmem.h>
-#include <linux/maple_tree.h>
-#include <linux/set_memory.h>
-#include <linux/moduleloader.h>
-#include <linux/text-patching.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/vmalloc.h>
+#include <peenux/execmem.h>
+#include <peenux/maple_tree.h>
+#include <peenux/set_memory.h>
+#include <peenux/moduleloader.h>
+#include <peenux/text-patching.h>
 
 #include <asm/tlbflush.h>
 

@@ -5,21 +5,21 @@
  * Copyright (C) 2024 Elizabeth Figura <zfigura@codeweavers.com>
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/atomic.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/hrtimer.h>
-#include <linux/ktime.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <uapi/linux/ntsync.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/atomic.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/hrtimer.h>
+#include <peenux/ktime.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/overflow.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <uapi/peenux/ntsync.h>
 
 #define NTSYNC_NAME	"ntsync"
 

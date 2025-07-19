@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2015, Sony Mobile Communications AB.
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/soc/qcom/smem_state.h>
-#include <linux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/regmap.h>
+#include <peenux/seq_file.h>
+#include <peenux/soc/qcom/smem.h>
+#include <peenux/soc/qcom/smem_state.h>
+#include <peenux/spinlock.h>
 
 /*
  * The Shared Memory Point to Point (SMP2P) protocol facilitates communication
@@ -33,7 +33,7 @@
  * processor.  By using two separate SMEM items that are single-reader and
  * single-writer, SMP2P does not require any remote locking mechanisms.
  *
- * The driver uses the Linux GPIO and interrupt framework to expose a virtual
+ * The driver uses the Peenux GPIO and interrupt framework to expose a virtual
  * GPIO for each outbound entry and a virtual interrupt controller for each
  * inbound entry.
  */

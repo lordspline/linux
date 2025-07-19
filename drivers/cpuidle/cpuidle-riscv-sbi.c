@@ -8,19 +8,19 @@
 
 #define pr_fmt(fmt) "cpuidle-riscv-sbi: " fmt
 
-#include <linux/cleanup.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpuidle.h>
-#include <linux/cpumask.h>
-#include <linux/cpu_pm.h>
-#include <linux/cpu_cooling.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
+#include <peenux/cleanup.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/cpuidle.h>
+#include <peenux/cpumask.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/cpu_cooling.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
 #include <asm/cpuidle.h>
 #include <asm/sbi.h>
 #include <asm/smp.h>

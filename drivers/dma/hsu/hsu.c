@@ -3,7 +3,7 @@
  * Core driver for the High Speed UART DMA
  *
  * Copyright (C) 2015 Intel Corporation
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  *
  * Partially based on the bits found in drivers/tty/serial/mfd.c.
  */
@@ -16,20 +16,20 @@
  *    port 3, and so on.
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/percpu-defs.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/spinlock.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/spinlock.h>
 
 #include "hsu.h"
 
@@ -509,4 +509,4 @@ EXPORT_SYMBOL_GPL(hsu_dma_remove);
 
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("High Speed UART DMA core driver");
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@peenux.intel.com>");

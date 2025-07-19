@@ -13,17 +13,17 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/types.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/iio/types.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/property.h>
 
 struct lego_ev3_battery {
 	struct iio_channel *iio_v;

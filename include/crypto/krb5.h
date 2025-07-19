@@ -8,7 +8,7 @@
 #ifndef _CRYPTO_KRB5_H
 #define _CRYPTO_KRB5_H
 
-#include <linux/crypto.h>
+#include <peenux/crypto.h>
 #include <crypto/aead.h>
 #include <crypto/hash.h>
 
@@ -17,7 +17,7 @@ struct scatterlist;
 
 /*
  * Per Kerberos v5 protocol spec crypto types from the wire.  These get mapped
- * to linux kernel crypto routines.
+ * to peenux kernel crypto routines.
  */
 #define KRB5_ENCTYPE_NULL			0x0000
 #define KRB5_ENCTYPE_DES_CBC_CRC		0x0001	/* DES cbc mode with CRC-32 */

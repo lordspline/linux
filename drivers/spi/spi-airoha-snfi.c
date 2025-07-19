@@ -5,25 +5,25 @@
  * Author: Ray Liu <ray.liu@airoha.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/limits.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/limits.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/sizes.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 /* SPI */
 #define REG_SPI_CTRL_BASE			0x1FA10000

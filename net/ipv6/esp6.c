@@ -15,30 +15,30 @@
 
 #include <crypto/aead.h>
 #include <crypto/authenc.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
 #include <net/ip.h>
 #include <net/xfrm.h>
 #include <net/esp.h>
-#include <linux/scatterlist.h>
-#include <linux/kernel.h>
-#include <linux/pfkeyv2.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/scatterlist.h>
+#include <peenux/kernel.h>
+#include <peenux/pfkeyv2.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 #include <net/ip6_checksum.h>
 #include <net/ip6_route.h>
 #include <net/icmp.h>
 #include <net/ipv6.h>
 #include <net/protocol.h>
 #include <net/udp.h>
-#include <linux/icmpv6.h>
+#include <peenux/icmpv6.h>
 #include <net/tcp.h>
 #include <net/espintcp.h>
 #include <net/inet6_hashtables.h>
-#include <linux/skbuff_ref.h>
+#include <peenux/skbuff_ref.h>
 
-#include <linux/highmem.h>
+#include <peenux/highmem.h>
 
 struct esp_skb_cb {
 	struct xfrm_skb_cb xfrm;

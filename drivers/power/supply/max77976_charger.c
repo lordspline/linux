@@ -6,10 +6,10 @@
  * Author: Luca Ceresoli <luca.ceresoli@bootlin.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
 
 #define MAX77976_DRIVER_NAME	"max77976-charger"
 #define MAX77976_CHIP_ID	0x76

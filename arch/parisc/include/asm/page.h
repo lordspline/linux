@@ -2,7 +2,7 @@
 #ifndef _PARISC_PAGE_H
 #define _PARISC_PAGE_H
 
-#include <linux/const.h>
+#include <peenux/const.h>
 
 #include <vdso/page.h>
 

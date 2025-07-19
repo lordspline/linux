@@ -3,11 +3,11 @@
  * Copyright (c) 2012, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/err.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
 
 #include <soc/tegra/fuse.h>
 

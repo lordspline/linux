@@ -5,20 +5,20 @@
 // Copyright (C) 2017, STMicroelectronics - All Rights Reserved
 // Author(s): Amelie Delaunay <amelie.delaunay@st.com> for STMicroelectronics.
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/debugfs.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/spi/spi.h>
 
 #define DRIVER_NAME "spi_stm32"
 

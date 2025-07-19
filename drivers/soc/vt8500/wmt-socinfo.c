@@ -4,12 +4,12 @@
  * Based on aspeed-socinfo.c
  */
 
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/sys_soc.h>
+#include <peenux/dev_printk.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/sys_soc.h>
 
 static const struct {
 	const char *name;

@@ -5,15 +5,15 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/gfp.h>
-#include <linux/fs_context.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/gfp.h>
+#include <peenux/fs_context.h>
 #include "internal.h"
 
 

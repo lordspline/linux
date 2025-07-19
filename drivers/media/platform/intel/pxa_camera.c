@@ -7,28 +7,28 @@
  * Copyright (C) 2016, Robert Jarzmik <robert.jarzmik@free.fr>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/time.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/dmaengine.h>
-#include <linux/dma/pxa-dma.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/time.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma/pxa-dma.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-common.h>
@@ -40,10 +40,10 @@
 
 #include <media/videobuf2-dma-sg.h>
 
-#include <linux/videodev2.h>
+#include <peenux/videodev2.h>
 
-#include <linux/platform_data/media/camera-pxa.h>
-#include <linux/workqueue.h>
+#include <peenux/platform_data/media/camera-pxa.h>
+#include <peenux/workqueue.h>
 
 #define PXA_CAM_VERSION "0.0.6"
 #define PXA_CAM_DRV_NAME "pxa27x-camera"

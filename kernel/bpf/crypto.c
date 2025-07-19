@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2024 Meta, Inc */
-#include <linux/bpf.h>
-#include <linux/bpf_crypto.h>
-#include <linux/bpf_mem_alloc.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
-#include <linux/filter.h>
-#include <linux/scatterlist.h>
-#include <linux/skbuff.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_crypto.h>
+#include <peenux/bpf_mem_alloc.h>
+#include <peenux/btf.h>
+#include <peenux/btf_ids.h>
+#include <peenux/filter.h>
+#include <peenux/scatterlist.h>
+#include <peenux/skbuff.h>
 #include <crypto/skcipher.h>
 
 struct bpf_crypto_type_list {

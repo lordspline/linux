@@ -6,17 +6,17 @@
 * Author: Jingoo Han <jg1.han@samsung.com>
 */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
 
 #include <drm/bridge/analogix_dp.h>
 #include <drm/drm_atomic.h>

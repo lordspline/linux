@@ -45,24 +45,24 @@
  *      Erez Zilber
  */
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/hardirq.h>
-#include <linux/kfifo.h>
-#include <linux/blkdev.h>
-#include <linux/init.h>
-#include <linux/ioctl.h>
-#include <linux/cdev.h>
-#include <linux/in.h>
-#include <linux/net.h>
-#include <linux/scatterlist.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/hardirq.h>
+#include <peenux/kfifo.h>
+#include <peenux/blkdev.h>
+#include <peenux/init.h>
+#include <peenux/ioctl.h>
+#include <peenux/cdev.h>
+#include <peenux/in.h>
+#include <peenux/net.h>
+#include <peenux/scatterlist.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 #include <net/sock.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>

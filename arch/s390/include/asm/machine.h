@@ -6,7 +6,7 @@
 #ifndef __ASM_S390_MACHINE_H
 #define __ASM_S390_MACHINE_H
 
-#include <linux/const.h>
+#include <peenux/const.h>
 
 #define MFEATURE_LOWCORE	0
 #define MFEATURE_PCI_MIO	1
@@ -22,7 +22,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 #include <asm/alternative.h>
 
 extern unsigned long machine_features[1];

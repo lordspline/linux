@@ -9,18 +9,18 @@
  * Copyright (C) 2007-2008 Finn Thain
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/scatterlist.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/nubus.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/scatterlist.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/nubus.h>
+#include <peenux/slab.h>
 
 #include <asm/irq.h>
 #include <asm/dma.h>

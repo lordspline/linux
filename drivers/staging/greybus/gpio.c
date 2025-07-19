@@ -6,14 +6,14 @@
  * Copyright 2014 Linaro Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/gpio/driver.h>
-#include <linux/mutex.h>
-#include <linux/greybus.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mutex.h>
+#include <peenux/greybus.h>
 
 #include "gbphy.h"
 

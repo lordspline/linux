@@ -2,15 +2,15 @@
 // Copyright (C) STMicroelectronics 2018
 // Author: Pascal Paillet <p.paillet@st.com> for STMicroelectronics.
 
-#include <linux/interrupt.h>
-#include <linux/mfd/stpmic1.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/stpmic1.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
 
 #include <dt-bindings/mfd/st,stpmic1.h>
 

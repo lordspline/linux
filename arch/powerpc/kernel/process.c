@@ -10,34 +10,34 @@
  *    Copyright (C) 1995-1996 Gary Thomas (gdt@linuxppc.org)
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/user.h>
-#include <linux/elf.h>
-#include <linux/prctl.h>
-#include <linux/init_task.h>
-#include <linux/export.h>
-#include <linux/kallsyms.h>
-#include <linux/mqueue.h>
-#include <linux/hardirq.h>
-#include <linux/utsname.h>
-#include <linux/ftrace.h>
-#include <linux/kernel_stat.h>
-#include <linux/personality.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/uaccess.h>
-#include <linux/pkeys.h>
-#include <linux/seq_buf.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/user.h>
+#include <peenux/elf.h>
+#include <peenux/prctl.h>
+#include <peenux/init_task.h>
+#include <peenux/export.h>
+#include <peenux/kallsyms.h>
+#include <peenux/mqueue.h>
+#include <peenux/hardirq.h>
+#include <peenux/utsname.h>
+#include <peenux/ftrace.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/personality.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/uaccess.h>
+#include <peenux/pkeys.h>
+#include <peenux/seq_buf.h>
 
 #include <asm/interrupt.h>
 #include <asm/io.h>
@@ -62,8 +62,8 @@
 #include <asm/stacktrace.h>
 #include <asm/hw_breakpoint.h>
 
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
+#include <peenux/kprobes.h>
+#include <peenux/kdebug.h>
 
 /* Transactional Memory debug */
 #ifdef TM_DEBUG_SW

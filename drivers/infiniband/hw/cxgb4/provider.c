@@ -29,20 +29,20 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/rtnetlink.h>
-#include <linux/inetdevice.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/device.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/ethtool.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/inetdevice.h>
 #include <net/addrconf.h>
-#include <linux/io.h>
+#include <peenux/io.h>
 
 #include <asm/irq.h>
 #include <asm/byteorder.h>

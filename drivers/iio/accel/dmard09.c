@@ -5,10 +5,10 @@
  * Copyright (c) 2016, Jelle van der Waa <jelle@vdwaa.nl>
  */
 
-#include <linux/unaligned.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
+#include <peenux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
 
 #define DMARD09_DRV_NAME	"dmard09"
 

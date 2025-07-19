@@ -11,19 +11,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/x86/simatic-ipc-base.h>
-#include <linux/sizes.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/x86/simatic-ipc-base.h>
+#include <peenux/sizes.h>
 
 #include "simatic-ipc-batt.h"
 

@@ -7,27 +7,27 @@
  * Author: Andrey Konovalov <andreyknvl@gmail.com>
  */
 
-#include <linux/compiler.h>
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/kref.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/semaphore.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
+#include <peenux/compiler.h>
+#include <peenux/ctype.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/idr.h>
+#include <peenux/kref.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/semaphore.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/wait.h>
 
-#include <linux/usb.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/ch11.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/composite.h>
+#include <peenux/usb.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/ch11.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/composite.h>
 
-#include <uapi/linux/usb/raw_gadget.h>
+#include <uapi/peenux/usb/raw_gadget.h>
 
 #define	DRIVER_DESC "USB Raw Gadget"
 #define DRIVER_NAME "raw-gadget"

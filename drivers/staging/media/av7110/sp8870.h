@@ -8,8 +8,8 @@
 #ifndef SP8870_H
 #define SP8870_H
 
-#include <linux/dvb/frontend.h>
-#include <linux/firmware.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/firmware.h>
 
 struct sp8870_config {
 	/* the demodulator's i2c address */

@@ -5,18 +5,18 @@
  * All rights reserved.
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/err.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
 #include <crypto/hash.h>
-#include <linux/crc32.h>
-#include <linux/base64.h>
-#include <linux/ctype.h>
-#include <linux/random.h>
-#include <linux/nvme-auth.h>
-#include <linux/nvme-keyring.h>
-#include <linux/unaligned.h>
+#include <peenux/crc32.h>
+#include <peenux/base64.h>
+#include <peenux/ctype.h>
+#include <peenux/random.h>
+#include <peenux/nvme-auth.h>
+#include <peenux/nvme-keyring.h>
+#include <peenux/unaligned.h>
 
 #include "nvmet.h"
 

@@ -19,13 +19,13 @@
 #include "fmh_gpib.h"
 
 #include "gpibP.h"
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("GPIB Driver for fmh_gpib_core");

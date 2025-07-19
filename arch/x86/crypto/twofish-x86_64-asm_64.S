@@ -7,8 +7,8 @@
 .file "twofish-x86_64-asm.S"
 .text
 
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <peenux/linkage.h>
+#include <peenux/cfi_types.h>
 #include <asm/asm-offsets.h>
 
 #define a_offset	0

@@ -6,17 +6,17 @@
  * Copyright (c) 2004 Dmitry Torokhov
  */
 
-#include <linux/kref.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/major.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
+#include <peenux/kref.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/poll.h>
+#include <peenux/module.h>
+#include <peenux/serio.h>
+#include <peenux/major.h>
+#include <peenux/device.h>
+#include <peenux/miscdevice.h>
+#include <peenux/wait.h>
+#include <peenux/mutex.h>
 
 #define DRIVER_DESC	"Raw serio driver"
 

@@ -10,13 +10,13 @@
 #ifndef HSMP_H
 #define HSMP_H
 
-#include <linux/compiler_types.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/miscdevice.h>
-#include <linux/pci.h>
-#include <linux/semaphore.h>
-#include <linux/sysfs.h>
+#include <peenux/compiler_types.h>
+#include <peenux/device.h>
+#include <peenux/hwmon.h>
+#include <peenux/miscdevice.h>
+#include <peenux/pci.h>
+#include <peenux/semaphore.h>
+#include <peenux/sysfs.h>
 
 #define HSMP_METRICS_TABLE_NAME	"metrics_bin"
 

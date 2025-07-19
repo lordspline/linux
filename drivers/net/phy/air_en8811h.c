@@ -11,12 +11,12 @@
  * Copyright (C) 2023 Airoha Technology Corp.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/phy.h>
-#include <linux/firmware.h>
-#include <linux/property.h>
-#include <linux/wordpart.h>
-#include <linux/unaligned.h>
+#include <peenux/clk-provider.h>
+#include <peenux/phy.h>
+#include <peenux/firmware.h>
+#include <peenux/property.h>
+#include <peenux/wordpart.h>
+#include <peenux/unaligned.h>
 
 #define EN8811H_PHY_ID		0x03a2a411
 

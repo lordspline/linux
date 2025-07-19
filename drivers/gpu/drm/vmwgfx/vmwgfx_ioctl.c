@@ -30,8 +30,8 @@
 #include "vmwgfx_kms.h"
 
 #include <drm/vmwgfx_drm.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
+#include <peenux/pci.h>
+#include <peenux/vmalloc.h>
 
 int vmw_getparam_ioctl(struct drm_device *dev, void *data,
 		       struct drm_file *file_priv)

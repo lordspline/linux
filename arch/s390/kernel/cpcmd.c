@@ -9,14 +9,14 @@
 #define KMSG_COMPONENT "cpcmd"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
 #include <asm/diag.h>
 #include <asm/ebcdic.h>
 #include <asm/cpcmd.h>

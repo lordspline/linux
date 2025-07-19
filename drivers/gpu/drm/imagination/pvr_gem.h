@@ -13,16 +13,16 @@
 #include <drm/drm_gem_shmem_helper.h>
 #include <drm/drm_mm.h>
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/const.h>
-#include <linux/compiler_attributes.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/refcount.h>
-#include <linux/scatterlist.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/const.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/refcount.h>
+#include <peenux/scatterlist.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
 
 /* Forward declaration from "pvr_device.h". */
 struct pvr_device;

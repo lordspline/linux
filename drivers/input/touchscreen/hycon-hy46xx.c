@@ -4,18 +4,18 @@
  * Author(s): Giulio Benetti <giulio.benetti@benettiengineering.com>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/irq.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/irq.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regmap.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define HY46XX_CHKSUM_CODE		0x1
 #define HY46XX_FINGER_NUM		0x2

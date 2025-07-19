@@ -3,8 +3,8 @@
  * Copyright (c) 2017 Oracle and/or its affiliates. All rights reserved.
  */
 
-#include <linux/atomic.h>
-#include <linux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/uaccess.h>
 
 #include <asm/atomic.h>
 #include <asm/cacheflush.h>

@@ -19,12 +19,12 @@
  *
  * Copyright (C) 2009-2010 Jozsef Kadlecsik (kadlec@netfilter.org)
  *
- * I've modified Bob's hash to be useful in the Linux kernel, and
+ * I've modified Bob's hash to be useful in the Peenux kernel, and
  * any bugs present are my fault.
  * Jozsef
  */
-#include <linux/bitops.h>
-#include <linux/unaligned/packed_struct.h>
+#include <peenux/bitops.h>
+#include <peenux/unaligned/packed_struct.h>
 
 /* Best hash sizes are of power of two */
 #define jhash_size(n)   ((u32)1<<(n))

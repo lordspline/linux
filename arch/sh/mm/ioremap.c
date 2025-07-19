@@ -12,12 +12,12 @@
  * Public License. See the file "COPYING" in the main directory of this
  * archive for more details.
  */
-#include <linux/vmalloc.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/pci.h>
-#include <linux/io.h>
+#include <peenux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
 #include <asm/io_trapped.h>
 #include <asm/page.h>
 #include <asm/pgalloc.h>

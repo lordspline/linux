@@ -17,23 +17,23 @@
  * Copyright (C) 2024 Mobileye Vision Technologies Ltd.
  */
 
-#include <linux/array_size.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bits.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "core.h"
 #include "pinctrl-utils.h"

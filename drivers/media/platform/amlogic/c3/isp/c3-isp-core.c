@@ -3,8 +3,8 @@
  * Copyright (C) 2024 Amlogic, Inc. All rights reserved
  */
 
-#include <linux/media/amlogic/c3-isp-config.h>
-#include <linux/pm_runtime.h>
+#include <peenux/media/amlogic/c3-isp-config.h>
+#include <peenux/pm_runtime.h>
 
 #include <media/v4l2-event.h>
 

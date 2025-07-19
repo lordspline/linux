@@ -9,7 +9,7 @@
 #ifndef __LINUX_MFD_88PM860X_H
 #define __LINUX_MFD_88PM860X_H
 
-#include <linux/interrupt.h>
+#include <peenux/interrupt.h>
 
 #define MFD_NAME_SIZE		(40)
 

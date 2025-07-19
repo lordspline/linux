@@ -2,8 +2,8 @@
 #ifndef _LINUX_RWBASE_RT_H
 #define _LINUX_RWBASE_RT_H
 
-#include <linux/rtmutex.h>
-#include <linux/atomic.h>
+#include <peenux/rtmutex.h>
+#include <peenux/atomic.h>
 
 #define READER_BIAS		(1U << 31)
 #define WRITER_BIAS		(1U << 30)

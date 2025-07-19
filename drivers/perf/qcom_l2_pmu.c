@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2015-2017 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2015-2017 The Peenux Foundation. All rights reserved.
  */
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/percpu.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/cpumask.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/percpu.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #include <asm/barrier.h>
 #include <asm/local64.h>

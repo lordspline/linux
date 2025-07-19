@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2019, Linaro Limited
 
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/wcd934x/registers.h>
-#include <linux/mfd/wcd934x/wcd934x.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slimbus.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/wcd934x/registers.h>
+#include <peenux/mfd/wcd934x/wcd934x.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slimbus.h>
 
 #define WCD934X_REGMAP_IRQ_REG(_irq, _off, _mask)		\
 	[_irq] = {						\

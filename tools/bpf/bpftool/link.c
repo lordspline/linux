@@ -2,10 +2,10 @@
 /* Copyright (C) 2020 Facebook */
 
 #include <errno.h>
-#include <linux/err.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_arp.h>
-#include <linux/perf_event.h>
+#include <peenux/err.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_arp.h>
+#include <peenux/perf_event.h>
 #include <net/if.h>
 #include <stdio.h>
 #include <unistd.h>

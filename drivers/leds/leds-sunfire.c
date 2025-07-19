@@ -6,13 +6,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/leds.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/leds.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <asm/fhc.h>
 #include <asm/upa.h>

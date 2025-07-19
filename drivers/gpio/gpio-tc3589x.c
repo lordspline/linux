@@ -6,14 +6,14 @@
  * Author: Rabin Vincent <rabin.vincent@stericsson.com> for ST-Ericsson
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/tc3589x.h>
-#include <linux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/of.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/tc3589x.h>
+#include <peenux/bitops.h>
 
 /*
  * These registers are modified under the irq bus lock and cached to avoid

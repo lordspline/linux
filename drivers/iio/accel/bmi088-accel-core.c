@@ -8,17 +8,17 @@
  * Copyright (c) 2018-2021, Topic Embedded Products
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #include "bmi088-accel.h"
 

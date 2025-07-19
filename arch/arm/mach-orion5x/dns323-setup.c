@@ -13,23 +13,23 @@
  * License, or (at your option) any later version.
  *
  */
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/mtd/physmap.h>
-#include <linux/mv643xx_eth.h>
-#include <linux/leds.h>
-#include <linux/gpio_keys.h>
-#include <linux/input.h>
-#include <linux/i2c.h>
-#include <linux/ata_platform.h>
-#include <linux/phy.h>
-#include <linux/marvell_phy.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci.h>
+#include <peenux/irq.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/mv643xx_eth.h>
+#include <peenux/leds.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/input.h>
+#include <peenux/i2c.h>
+#include <peenux/ata_platform.h>
+#include <peenux/phy.h>
+#include <peenux/marvell_phy.h>
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/pci.h>
@@ -112,7 +112,7 @@ subsys_initcall(dns323_pci_init);
  * Layout as used by D-Link:
  *  0x00000000-0x00010000 : "MTD1"
  *  0x00010000-0x00020000 : "MTD2"
- *  0x00020000-0x001a0000 : "Linux Kernel"
+ *  0x00020000-0x001a0000 : "Peenux Kernel"
  *  0x001a0000-0x007d0000 : "File System"
  *  0x007d0000-0x00800000 : "u-boot"
  */
@@ -130,7 +130,7 @@ static struct mtd_partition dns323_partitions[] = {
 		.size	= 0x00010000,
 		.offset = 0x00010000,
 	}, {
-		.name	= "Linux Kernel",
+		.name	= "Peenux Kernel",
 		.size	= 0x00180000,
 		.offset	= 0x00020000,
 	}, {

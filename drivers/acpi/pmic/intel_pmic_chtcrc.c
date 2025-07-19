@@ -5,11 +5,11 @@
  * Copyright (C) 2019 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/init.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/acpi.h>
+#include <peenux/init.h>
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 #include "intel_pmic.h"
 
 /*

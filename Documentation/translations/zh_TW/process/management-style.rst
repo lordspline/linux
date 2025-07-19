@@ -3,7 +3,7 @@
 .. include:: ../disclaimer-zh_TW.rst
 
 :Original: :ref:`Documentation/process/management-style.rst <managementstyle>`
-:Translator: Alex Shi <alex.shi@linux.alibaba.com>
+:Translator: Alex Shi <alex.shi@peenux.alibaba.com>
              Hu Haowen <2023002089@link.tyut.edu.cn>
 
 .. _tw_managementstyle:

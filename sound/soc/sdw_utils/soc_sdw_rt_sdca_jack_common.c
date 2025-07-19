@@ -7,11 +7,11 @@
  *  soc_sdw_rt711_sdca - Helpers to handle RT711-SDCA from generic machine driver
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/input.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_type.h>
 #include <sound/control.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>

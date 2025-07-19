@@ -9,10 +9,10 @@
 #include <drm/drm_gpusvm.h>
 #include <drm/drm_gpuvm.h>
 
-#include <linux/dma-resv.h>
-#include <linux/kref.h>
-#include <linux/mmu_notifier.h>
-#include <linux/scatterlist.h>
+#include <peenux/dma-resv.h>
+#include <peenux/kref.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/scatterlist.h>
 
 #include "xe_device_types.h"
 #include "xe_pt_types.h"

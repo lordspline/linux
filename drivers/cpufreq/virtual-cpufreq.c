@@ -3,16 +3,16 @@
  * Copyright (C) 2024 Google LLC
  */
 
-#include <linux/arch_topology.h>
-#include <linux/cpufreq.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/arch_topology.h>
+#include <peenux/cpufreq.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 /*
  * CPU0..CPUn

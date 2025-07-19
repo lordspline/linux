@@ -5,15 +5,15 @@
  * Copyright (C) 2013 by John Crispin <john@phrozen.org>
  */
 
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/interrupt.h>
-#include <linux/reset.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
+#include <peenux/clockchips.h>
+#include <peenux/clocksource.h>
+#include <peenux/interrupt.h>
+#include <peenux/reset.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
 
 #define SYSTICK_FREQ		(50 * 1000)
 

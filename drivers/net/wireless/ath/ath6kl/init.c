@@ -18,12 +18,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/moduleparam.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/of.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/vmalloc.h>
+#include <peenux/moduleparam.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/of.h>
+#include <peenux/mmc/sdio_func.h>
+#include <peenux/vmalloc.h>
 
 #include "core.h"
 #include "cfg80211.h"

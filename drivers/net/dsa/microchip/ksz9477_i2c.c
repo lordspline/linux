@@ -5,10 +5,10 @@
  * Copyright (C) 2018-2024 Microchip Technology Inc.
  */
 
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #include "ksz_common.h"
 

@@ -9,16 +9,16 @@
  * (originally switch class is supported)
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/extcon-provider.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 /**
  * struct gpio_extcon_data - A simple GPIO-controlled extcon device state container.

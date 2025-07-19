@@ -11,13 +11,13 @@
  *   it during boot, try disabling Drive A: and B: in the boot order.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/types.h>
 
 
 #define WINDOW_ADDR	0x09400000

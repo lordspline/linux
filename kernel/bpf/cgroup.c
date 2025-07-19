@@ -5,17 +5,17 @@
  * Copyright (c) 2016 Daniel Mack
  */
 
-#include <linux/kernel.h>
-#include <linux/atomic.h>
-#include <linux/cgroup.h>
-#include <linux/filter.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/string.h>
-#include <linux/bpf.h>
-#include <linux/bpf-cgroup.h>
-#include <linux/bpf_lsm.h>
-#include <linux/bpf_verifier.h>
+#include <peenux/kernel.h>
+#include <peenux/atomic.h>
+#include <peenux/cgroup.h>
+#include <peenux/filter.h>
+#include <peenux/slab.h>
+#include <peenux/sysctl.h>
+#include <peenux/string.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/bpf_lsm.h>
+#include <peenux/bpf_verifier.h>
 #include <net/sock.h>
 #include <net/bpf_sk_storage.h>
 

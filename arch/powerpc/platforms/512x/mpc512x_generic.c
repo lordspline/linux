@@ -8,8 +8,8 @@
  * MPC512x SoC setup
  */
 
-#include <linux/kernel.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
 
 #include <asm/machdep.h>
 #include <asm/ipic.h>

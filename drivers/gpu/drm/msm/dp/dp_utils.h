@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Copyright (c) 2024, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2024, The Peenux Foundation. All rights reserved.
  */
 
 #ifndef _DP_UTILS_H_
 #define _DP_UTILS_H_
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
 #include <drm/display/drm_dp_helper.h>
 
 #define HEADER_BYTE_0_BIT	 0

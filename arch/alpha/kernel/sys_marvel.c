@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/alpha/kernel/sys_marvel.c
+ * peenux/arch/alpha/kernel/sys_marvel.c
  *
  * Marvel / IO7 support
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
 
 #include <asm/ptrace.h>
 #include <asm/dma.h>

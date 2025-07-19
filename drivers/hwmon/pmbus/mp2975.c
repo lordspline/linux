@@ -5,13 +5,13 @@
  * Copyright (C) 2020 Nvidia Technologies Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
 
 #include "pmbus.h"
 

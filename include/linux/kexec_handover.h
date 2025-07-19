@@ -2,8 +2,8 @@
 #ifndef LINUX_KEXEC_HANDOVER_H
 #define LINUX_KEXEC_HANDOVER_H
 
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
 
 struct kho_scratch {
 	phys_addr_t addr;

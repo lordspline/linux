@@ -3,27 +3,27 @@
  * ACPI support for Intel Lynxpoint LPSS.
  *
  * Copyright (C) 2013, Intel Corporation
- * Authors: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Mika Westerberg <mika.westerberg@peenux.intel.com>
  *          Rafael J. Wysocki <rafael.j.wysocki@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/x86/clk-lpss.h>
-#include <linux/platform_data/x86/pmc_atom.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
-#include <linux/pxa2xx_ssp.h>
-#include <linux/suspend.h>
-#include <linux/delay.h>
+#include <peenux/acpi.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/dmi.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/x86/clk-lpss.h>
+#include <peenux/platform_data/x86/pmc_atom.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pwm.h>
+#include <peenux/pxa2xx_ssp.h>
+#include <peenux/suspend.h>
+#include <peenux/delay.h>
 
 #include "../internal.h"
 

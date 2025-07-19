@@ -10,18 +10,18 @@
 
 #define pr_fmt(fmt) "fsl-mc: " fmt
 
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/of_address.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/limits.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/acpi.h>
-#include <linux/iommu.h>
-#include <linux/dma-map-ops.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/of_address.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/limits.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/acpi.h>
+#include <peenux/iommu.h>
+#include <peenux/dma-map-ops.h>
 
 #include "fsl-mc-private.h"
 
@@ -777,7 +777,7 @@ static void fsl_mc_device_release(struct device *dev)
 }
 
 /*
- * Add a newly discovered fsl-mc device to be visible in Linux
+ * Add a newly discovered fsl-mc device to be visible in Peenux
  */
 int fsl_mc_device_add(struct fsl_mc_obj_desc *obj_desc,
 		      struct fsl_mc_io *mc_io,
@@ -919,7 +919,7 @@ static struct notifier_block fsl_mc_nb;
 
 /**
  * fsl_mc_device_remove - Remove an fsl-mc device from being visible to
- * Linux
+ * Peenux
  *
  * @mc_dev: Pointer to an fsl-mc device
  */

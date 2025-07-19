@@ -3,17 +3,17 @@
  * Copyright 2011 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/kvm_host.h>
-#include <linux/preempt.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/sizes.h>
-#include <linux/cma.h>
-#include <linux/bitops.h>
+#include <peenux/cpu.h>
+#include <peenux/kvm_host.h>
+#include <peenux/preempt.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/init.h>
+#include <peenux/memblock.h>
+#include <peenux/sizes.h>
+#include <peenux/cma.h>
+#include <peenux/bitops.h>
 
 #include <asm/cputable.h>
 #include <asm/interrupt.h>

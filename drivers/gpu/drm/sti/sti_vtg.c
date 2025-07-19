@@ -7,11 +7,11 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/notifier.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/notifier.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <drm/drm_modes.h>
 #include <drm/drm_print.h>

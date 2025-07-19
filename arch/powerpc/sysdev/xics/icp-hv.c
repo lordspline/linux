@@ -2,14 +2,14 @@
 /*
  * Copyright 2011 IBM Corporation.
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/irq.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/cpu.h>
+#include <peenux/of.h>
 
 #include <asm/smp.h>
 #include <asm/irq.h>
@@ -116,7 +116,7 @@ static unsigned int icp_hv_get_irq(void)
 		return irq;
 	}
 
-	/* We don't have a linux mapping, so have rtas mask it. */
+	/* We don't have a peenux mapping, so have rtas mask it. */
 	xics_mask_unknown_vec(vec);
 
 	/* We might learn about it later, so EOI it */

@@ -9,21 +9,21 @@
  *
  */
 
-#include <linux/pid.h>
-#include <linux/pid_namespace.h>
-#include <linux/user_namespace.h>
-#include <linux/syscalls.h>
-#include <linux/cred.h>
-#include <linux/err.h>
-#include <linux/acct.h>
-#include <linux/slab.h>
-#include <linux/proc_ns.h>
-#include <linux/reboot.h>
-#include <linux/export.h>
-#include <linux/sched/task.h>
-#include <linux/sched/signal.h>
-#include <linux/idr.h>
-#include <uapi/linux/wait.h>
+#include <peenux/pid.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/user_namespace.h>
+#include <peenux/syscalls.h>
+#include <peenux/cred.h>
+#include <peenux/err.h>
+#include <peenux/acct.h>
+#include <peenux/slab.h>
+#include <peenux/proc_ns.h>
+#include <peenux/reboot.h>
+#include <peenux/export.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/signal.h>
+#include <peenux/idr.h>
+#include <uapi/peenux/wait.h>
 #include "pid_sysctl.h"
 
 static DEFINE_MUTEX(pid_caches_mutex);

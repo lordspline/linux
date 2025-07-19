@@ -10,19 +10,19 @@
 #define DRIVER_NAME "ms_block"
 #define pr_fmt(fmt) DRIVER_NAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/blk-mq.h>
-#include <linux/memstick.h>
-#include <linux/idr.h>
-#include <linux/hdreg.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/random.h>
-#include <linux/bitmap.h>
-#include <linux/scatterlist.h>
-#include <linux/jiffies.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/blk-mq.h>
+#include <peenux/memstick.h>
+#include <peenux/idr.h>
+#include <peenux/hdreg.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/random.h>
+#include <peenux/bitmap.h>
+#include <peenux/scatterlist.h>
+#include <peenux/jiffies.h>
+#include <peenux/workqueue.h>
+#include <peenux/mutex.h>
 #include "ms_block.h"
 
 static int debug;
@@ -1737,7 +1737,7 @@ static int msb_init_card(struct memstick_dev *card)
 	msb->block_size = msb->page_size * msb->pages_in_block;
 
 	if ((size_t)msb->page_size > PAGE_SIZE) {
-		/* this isn't supported by linux at all, anyway*/
+		/* this isn't supported by peenux at all, anyway*/
 		dbg("device page %d size isn't supported", msb->page_size);
 		return -EINVAL;
 	}

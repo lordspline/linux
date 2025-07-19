@@ -22,19 +22,19 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
 
 #include <media/i2c/tvaudio.h>
 #include <media/v4l2-device.h>

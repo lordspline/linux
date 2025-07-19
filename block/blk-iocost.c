@@ -172,12 +172,12 @@
  * - usages	: Usage history
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/time64.h>
-#include <linux/parser.h>
-#include <linux/sched/signal.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/timer.h>
+#include <peenux/time64.h>
+#include <peenux/parser.h>
+#include <peenux/sched/signal.h>
 #include <asm/local.h>
 #include <asm/local64.h>
 #include "blk-rq-qos.h"

@@ -2,8 +2,8 @@
 /*
  * Copyright (C) 2015 Freescale Semiconductor, Inc.
  */
-#include <linux/irqchip.h>
-#include <linux/of_platform.h>
+#include <peenux/irqchip.h>
+#include <peenux/of_platform.h>
 #include <asm/mach/arch.h>
 
 #include "common.h"

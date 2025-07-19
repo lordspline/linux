@@ -7,17 +7,17 @@
  *
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 /* PWM registers and bits definitions */
 #define PWMCON			0x00

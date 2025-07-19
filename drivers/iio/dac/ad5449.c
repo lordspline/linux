@@ -7,18 +7,18 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/regulator/consumer.h>
-#include <linux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/spi/spi.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/unaligned.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define AD5449_MAX_CHANNELS		2
 #define AD5449_MAX_VREFS		2

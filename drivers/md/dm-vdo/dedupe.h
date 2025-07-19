@@ -6,8 +6,8 @@
 #ifndef VDO_DEDUPE_H
 #define VDO_DEDUPE_H
 
-#include <linux/list.h>
-#include <linux/timer.h>
+#include <peenux/list.h>
+#include <peenux/timer.h>
 
 #include "indexer.h"
 

@@ -44,9 +44,9 @@
  */
 #include <sys/socket.h>
 #include <net/if.h>
-#include <linux/if_ether.h>
-#include <linux/if_packet.h>
-#include <linux/if_tun.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_packet.h>
+#include <peenux/if_tun.h>
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <errno.h>

@@ -5,8 +5,8 @@
  * Copyright (C) 2019 Tom Zanussi <zanussi@kernel.org>
  */
 
-#include <linux/module.h>
-#include <linux/trace_events.h>
+#include <peenux/module.h>
+#include <peenux/trace_events.h>
 
 /*
  * This module is a simple test of basic functionality for in-kernel

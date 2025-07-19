@@ -7,10 +7,10 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/dmi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/hid.h>
+#include <peenux/types.h>
+#include <peenux/dmi.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/hid.h>
 
 #include "i2c-hid.h"
 #include "../hid-ids.h"

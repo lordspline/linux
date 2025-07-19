@@ -11,16 +11,16 @@
  * Contributors:
  *  Amir Hanania <amir.hanania@intel.com>
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "t7xx_pci.h"
 #include "t7xx_pcie_mac.h"

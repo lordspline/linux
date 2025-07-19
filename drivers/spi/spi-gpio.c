@@ -5,16 +5,16 @@
  * Copyright (C) 2006,2008 David Brownell
  * Copyright (C) 2017 Linus Walleij
  */
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
-#include <linux/spi/spi_gpio.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi_bitbang.h>
+#include <peenux/spi/spi_gpio.h>
 
 /*
  * This bitbanging SPI host driver should help make systems usable

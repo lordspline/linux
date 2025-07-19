@@ -21,22 +21,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/proc_fs.h>
-#include <linux/backlight.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/rfkill.h>
-#include <linux/slab.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
+#include <peenux/proc_fs.h>
+#include <peenux/backlight.h>
+#include <peenux/leds.h>
+#include <peenux/platform_device.h>
+#include <peenux/uaccess.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/rfkill.h>
+#include <peenux/slab.h>
+#include <peenux/dmi.h>
+#include <peenux/acpi.h>
 #include <acpi/video.h>
 
 #define ASUS_LAPTOP_VERSION	"0.42"

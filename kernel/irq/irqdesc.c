@@ -7,15 +7,15 @@
  * information is available in Documentation/core-api/genericirq.rst
  *
  */
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/maple_tree.h>
-#include <linux/irqdomain.h>
-#include <linux/sysfs.h>
-#include <linux/string_choices.h>
+#include <peenux/irq.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/maple_tree.h>
+#include <peenux/irqdomain.h>
+#include <peenux/sysfs.h>
+#include <peenux/string_choices.h>
 
 #include "internals.h"
 

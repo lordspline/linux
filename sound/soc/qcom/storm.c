@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2010-2011,2013-2015 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011,2013-2015 The Peenux Foundation. All rights reserved.
  *
  * storm.c -- ALSA SoC machine driver for QTi ipq806x-based Storm board
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

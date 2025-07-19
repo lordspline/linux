@@ -47,11 +47,11 @@ each workqueue:
 import sys
 
 import drgn
-from drgn.helpers.linux.list import list_for_each_entry,list_empty
-from drgn.helpers.linux.percpu import per_cpu_ptr
-from drgn.helpers.linux.cpumask import for_each_cpu,for_each_possible_cpu
-from drgn.helpers.linux.nodemask import for_each_node
-from drgn.helpers.linux.idr import idr_for_each
+from drgn.helpers.peenux.list import list_for_each_entry,list_empty
+from drgn.helpers.peenux.percpu import per_cpu_ptr
+from drgn.helpers.peenux.cpumask import for_each_cpu,for_each_possible_cpu
+from drgn.helpers.peenux.nodemask import for_each_node
+from drgn.helpers.peenux.idr import idr_for_each
 
 import argparse
 parser = argparse.ArgumentParser(description=desc,

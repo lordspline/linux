@@ -10,8 +10,8 @@
 #ifndef _LINUX_KCSAN_H
 #define _LINUX_KCSAN_H
 
-#include <linux/kcsan-checks.h>
-#include <linux/types.h>
+#include <peenux/kcsan-checks.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_KCSAN
 

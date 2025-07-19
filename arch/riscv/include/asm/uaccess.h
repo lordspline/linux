@@ -48,9 +48,9 @@ static inline unsigned long __untagged_addr_remote(struct mm_struct *mm, unsigne
  * User space memory access functions
  */
 #ifdef CONFIG_MMU
-#include <linux/errno.h>
-#include <linux/compiler.h>
-#include <linux/thread_info.h>
+#include <peenux/errno.h>
+#include <peenux/compiler.h>
+#include <peenux/thread_info.h>
 #include <asm/byteorder.h>
 #include <asm/extable.h>
 #include <asm/asm.h>

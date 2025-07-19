@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Anycast support for IPv6
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	David L Stevens (dlstevens@us.ibm.com)
@@ -9,23 +9,23 @@
  *	based heavily on net/ipv6/mcast.c
  */
 
-#include <linux/capability.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/random.h>
-#include <linux/string.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/route.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/capability.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/random.h>
+#include <peenux/string.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/in6.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/route.h>
+#include <peenux/init.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 #include <net/net_namespace.h>
 #include <net/sock.h>

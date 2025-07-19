@@ -4,13 +4,13 @@
  * Copyright (c)  2003-2014 QLogic Corporation
  */
 #include "qla_def.h"
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/pci.h>
-#include <linux/ratelimit.h>
-#include <linux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/ktime.h>
+#include <peenux/pci.h>
+#include <peenux/ratelimit.h>
+#include <peenux/vmalloc.h>
 #include <scsi/scsi_tcq.h>
-#include <linux/utsname.h>
+#include <peenux/utsname.h>
 
 
 /* QLAFX00 specific Mailbox implementation functions */
@@ -2335,7 +2335,7 @@ qlafx00_status_entry(scsi_qla_host_t *vha, struct rsp_que *rsp, void *pkt)
 		comp_status = cpu_to_le16((uint16_t)CS_DATA_OVERRUN);
 
 	/*
-	 * Based on Host and scsi status generate status code for Linux
+	 * Based on Host and scsi status generate status code for Peenux
 	 */
 	switch (le16_to_cpu(comp_status)) {
 	case CS_COMPLETE:

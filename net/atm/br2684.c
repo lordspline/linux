@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Ethernet netdevice using ATM AAL5 as underlying carrier
- * (RFC1483 obsoleted by RFC2684) for Linux
+ * (RFC1483 obsoleted by RFC2684) for Peenux
  *
  * Authors: Marcell GAL, 2000, XDSL Ltd, Hungary
  *          Eric Kinzie, 2006-2007, US Naval Research Laboratory
@@ -9,24 +9,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ":%s: " fmt, __func__
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/ip.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/etherdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/ip.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
 #include <net/arp.h>
-#include <linux/atm.h>
-#include <linux/atmdev.h>
-#include <linux/capability.h>
-#include <linux/seq_file.h>
+#include <peenux/atm.h>
+#include <peenux/atmdev.h>
+#include <peenux/capability.h>
+#include <peenux/seq_file.h>
 
-#include <linux/atmbr2684.h>
+#include <peenux/atmbr2684.h>
 
 #include "common.h"
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <uapi/linux/unistd.h>
-#include <linux/kbuild.h>
+#include <uapi/peenux/unistd.h>
+#include <peenux/kbuild.h>
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wmissing-prototypes"
@@ -9,7 +9,7 @@
 
 void syscall_defines(void)
 {
-	COMMENT("Linux system call numbers.");
+	COMMENT("Peenux system call numbers.");
 	SYSNR(__NR_write);
 	SYSNR(__NR_read);
 #ifdef __NR_mmap2

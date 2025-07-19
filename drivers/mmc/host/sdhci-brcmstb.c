@@ -5,13 +5,13 @@
  * Copyright (C) 2015 Broadcom Corporation
  */
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mmc/host.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mmc/host.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
 
 #include "sdhci-cqhci.h"
 #include "sdhci-pltfm.h"

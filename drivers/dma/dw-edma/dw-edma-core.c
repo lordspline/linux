@@ -6,16 +6,16 @@
  * Author: Gustavo Pimentel <gustavo.pimentel@synopsys.com>
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/dma/edma.h>
-#include <linux/dma-mapping.h>
-#include <linux/string_choices.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/dmaengine.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/dma/edma.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/string_choices.h>
 
 #include "dw-edma-core.h"
 #include "dw-edma-v0-core.h"

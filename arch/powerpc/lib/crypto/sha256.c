@@ -10,9 +10,9 @@
 
 #include <asm/switch_to.h>
 #include <crypto/internal/sha2.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/preempt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/preempt.h>
 
 /*
  * MAX_BYTES defines the number of bytes that are allowed to be processed

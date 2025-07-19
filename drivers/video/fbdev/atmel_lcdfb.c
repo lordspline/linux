@@ -8,23 +8,23 @@
  * more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/backlight.h>
-#include <linux/gfp.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/backlight.h>
+#include <peenux/gfp.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
 #include <video/of_videomode.h>
 #include <video/of_display_timing.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/regulator/consumer.h>
 #include <video/videomode.h>
 
 #include <video/atmel_lcdc.h>

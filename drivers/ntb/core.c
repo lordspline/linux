@@ -47,18 +47,18 @@
  *   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * PCIe NTB Linux driver
+ * PCIe NTB Peenux driver
  *
  * Contact Information:
  * Allen Hubbe <Allen.Hubbe@emc.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
-#include <linux/ntb.h>
-#include <linux/pci.h>
+#include <peenux/ntb.h>
+#include <peenux/pci.h>
 
 #define DRIVER_NAME			"ntb"
 #define DRIVER_DESCRIPTION		"PCIe NTB Driver Framework"

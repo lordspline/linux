@@ -64,8 +64,8 @@ distribution), with this content::
 Changes / Fixes
 ---------------
 
-Please mail to linux-media AT vger.kernel.org unified diffs against
-the linux media git tree:
+Please mail to peenux-media AT vger.kernel.org unified diffs against
+the peenux media git tree:
 
     https://git.linuxtv.org/media.git/
 

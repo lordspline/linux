@@ -4,12 +4,12 @@
 #ifndef _I40E_H_
 #define _I40E_H_
 
-#include <linux/linkmode.h>
-#include <linux/pci.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/types.h>
-#include <linux/avf/virtchnl.h>
-#include <linux/net/intel/i40e_client.h>
+#include <peenux/linkmode.h>
+#include <peenux/pci.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/types.h>
+#include <peenux/avf/virtchnl.h>
+#include <peenux/net/intel/i40e_client.h>
 #include <net/devlink.h>
 #include <net/pkt_cls.h>
 #include <net/udp_tunnel.h>

@@ -4,16 +4,16 @@
  * Copyright 2020 NXP
  */
 
-#include <linux/firmware/imx/svc/misc.h>
-#include <linux/media-bus-format.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/firmware/imx/svc/misc.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #include <drm/drm_atomic_state_helper.h>
 #include <drm/drm_bridge.h>

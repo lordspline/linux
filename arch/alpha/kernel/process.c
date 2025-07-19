@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/process.c
+ *  peenux/arch/alpha/kernel/process.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  */
@@ -9,34 +9,34 @@
  * This file handles the architecture-dependent parts of process handling.
  */
 
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/time.h>
-#include <linux/major.h>
-#include <linux/stat.h>
-#include <linux/vt.h>
-#include <linux/mman.h>
-#include <linux/elfcore.h>
-#include <linux/reboot.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/slab.h>
-#include <linux/rcupdate.h>
+#include <peenux/cpu.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/time.h>
+#include <peenux/major.h>
+#include <peenux/stat.h>
+#include <peenux/vt.h>
+#include <peenux/mman.h>
+#include <peenux/elfcore.h>
+#include <peenux/reboot.h>
+#include <peenux/tty.h>
+#include <peenux/console.h>
+#include <peenux/slab.h>
+#include <peenux/rcupdate.h>
 
 #include <asm/reg.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 #include <asm/hwrpb.h>
 #include <asm/fpu.h>

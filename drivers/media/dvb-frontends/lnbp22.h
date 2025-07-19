@@ -18,7 +18,7 @@
 /* Plus 1 Volt Bit */
 #define LNBP22_LLC	0x01
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 
 #if IS_REACHABLE(CONFIG_DVB_LNBP22)
 /*

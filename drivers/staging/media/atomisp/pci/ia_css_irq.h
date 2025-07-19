@@ -14,7 +14,7 @@
 #include "ia_css_err.h"
 #include "ia_css_pipe_public.h"
 #include "ia_css_input_port.h"
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 /* Interrupt types, these enumerate all supported interrupt types.
  */

@@ -6,13 +6,13 @@
 
 #define COMMAND_LINE_SIZE 2048
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 #include <asm/page_types.h>
 #include <asm/ibt.h>
 
 #ifdef __i386__
 
-#include <linux/pfn.h>
+#include <peenux/pfn.h>
 /*
  * Reserved space for vmalloc and iomap - defined in asm/page.h
  */
@@ -28,7 +28,7 @@
 #define NEW_CL_POINTER		0x228	/* Relative to real mode data */
 
 #ifndef __ASSEMBLER__
-#include <linux/cache.h>
+#include <peenux/cache.h>
 
 #include <asm/bootparam.h>
 #include <asm/x86_init.h>
@@ -68,12 +68,12 @@ extern void x86_ce4100_early_setup(void);
 static inline void x86_ce4100_early_setup(void) { }
 #endif
 
-#include <linux/kexec_handover.h>
+#include <peenux/kexec_handover.h>
 
 #ifndef _SETUP
 
 #include <asm/espfix.h>
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 /*
  * This is set up by the setup-routine at boot-time

@@ -9,12 +9,12 @@
 #ifndef LINUX_RIO_DRV_H
 #define LINUX_RIO_DRV_H
 
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/rio.h>
+#include <peenux/types.h>
+#include <peenux/ioport.h>
+#include <peenux/list.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/rio.h>
 
 extern int __rio_local_read_config_32(struct rio_mport *port, u32 offset,
 				      u32 * data);

@@ -14,8 +14,8 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/nl80211.h>
-#include <linux/delay.h>
+#include <peenux/nl80211.h>
+#include <peenux/delay.h>
 #include "ath9k.h"
 #include "btcoex.h"
 

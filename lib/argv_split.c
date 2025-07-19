@@ -3,11 +3,11 @@
  * Helper function for splitting a string into an argv-like array.
  */
 
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 
 static int count_argc(const char *str)
 {

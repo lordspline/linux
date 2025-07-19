@@ -12,13 +12,13 @@
  * is licensed "as is" without any warranty of any kind, whether express
  * or implied.
  */
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
 
 #include <asm/rheap.h>
 

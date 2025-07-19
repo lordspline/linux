@@ -5,9 +5,9 @@
 
 #include <kunit/test-bug.h>
 
-#include <linux/kmemleak.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
+#include <peenux/kmemleak.h>
+#include <peenux/module.h>
+#include <peenux/sizes.h>
 
 #include <drm/drm_buddy.h>
 

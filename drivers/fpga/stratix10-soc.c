@@ -4,13 +4,13 @@
  *
  *  Copyright (C) 2018 Intel Corporation
  */
-#include <linux/completion.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/firmware/intel/stratix10-svc-client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/completion.h>
+#include <peenux/fpga/fpga-mgr.h>
+#include <peenux/firmware/intel/stratix10-svc-client.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 /*
  * FPGA programming requires a higher level of privilege (EL3), per the SoC

@@ -12,13 +12,13 @@
  * Copyright (C) 2021 Emmanuel Gil Peyrot <linkmauve@linkmauve.fr>
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
 
 #define HW_OTPCMD  0
 #define HW_OTPDATA 4

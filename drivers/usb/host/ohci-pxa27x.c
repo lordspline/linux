@@ -20,22 +20,22 @@
  * This file is licenced under the GPL.
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_data/usb-ohci-pxa27x.h>
-#include <linux/platform_data/pxa2xx_udc.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/signal.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/otg.h>
-#include <linux/soc/pxa/cpu.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_data/usb-ohci-pxa27x.h>
+#include <peenux/platform_data/pxa2xx_udc.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/signal.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/otg.h>
+#include <peenux/soc/pxa/cpu.h>
 
 #include "ohci.h"
 

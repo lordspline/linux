@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/arm/mach-footbridge/netwinder-hw.c
+ * peenux/arch/arm/mach-footbridge/netwinder-hw.c
  *
  * Netwinder machine fixup
  *
  * Copyright (C) 1998, 1999 Russell King, Phil Blundell
  */
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/leds.h>
 
 #include <asm/hardware/dec21285.h>
 #include <asm/mach-types.h>

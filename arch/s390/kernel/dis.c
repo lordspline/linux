@@ -6,25 +6,25 @@
  * Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com),
  */
 
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/timer.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/kallsyms.h>
-#include <linux/reboot.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
-#include <linux/io.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/timer.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/kallsyms.h>
+#include <peenux/reboot.h>
+#include <peenux/kprobes.h>
+#include <peenux/kdebug.h>
+#include <peenux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/io.h>
 #include <asm/dis.h>
 #include <asm/cpcmd.h>
 #include <asm/lowcore.h>

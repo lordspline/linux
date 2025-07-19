@@ -9,9 +9,9 @@
 #ifndef _LINUX_NVMEM_CONSUMER_H
 #define _LINUX_NVMEM_CONSUMER_H
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/notifier.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/notifier.h>
 
 struct device;
 struct device_node;

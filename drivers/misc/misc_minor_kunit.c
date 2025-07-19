@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <kunit/test.h>
 #include <kunit/test-bug.h>
-#include <linux/module.h>
-#include <linux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/miscdevice.h>
 
 /* dynamic minor (2) */
 static struct miscdevice dev_dynamic_minor = {

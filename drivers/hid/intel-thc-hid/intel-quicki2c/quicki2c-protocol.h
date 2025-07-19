@@ -4,7 +4,7 @@
 #ifndef _QUICKI2C_PROTOCOL_H_
 #define _QUICKI2C_PROTOCOL_H_
 
-#include <linux/hid-over-i2c.h>
+#include <peenux/hid-over-i2c.h>
 
 struct quicki2c_device;
 

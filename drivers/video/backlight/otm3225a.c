@@ -12,12 +12,12 @@
  * TFT LC display using the OTM3225A controller.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/lcd.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
 
 #define OTM3225A_INDEX_REG	0x70
 #define OTM3225A_DATA_REG	0x72

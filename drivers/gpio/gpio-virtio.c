@@ -9,17 +9,17 @@
  * Viresh Kumar <viresh.kumar@linaro.org>
  */
 
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/virtio_config.h>
-#include <uapi/linux/virtio_gpio.h>
-#include <uapi/linux/virtio_ids.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/virtio_config.h>
+#include <uapi/peenux/virtio_gpio.h>
+#include <uapi/peenux/virtio_ids.h>
 
 struct virtio_gpio_line {
 	struct mutex lock; /* Protects line operation */
@@ -68,7 +68,7 @@ static int _virtio_gpio_req(struct virtio_gpio *vgpio, u16 type, u16 gpio,
 	/*
 	 * Prevent concurrent requests for the same line since we have
 	 * pre-allocated request/response buffers for each GPIO line. Moreover
-	 * Linux always accesses a GPIO line sequentially, so this locking shall
+	 * Peenux always accesses a GPIO line sequentially, so this locking shall
 	 * always go through without any delays.
 	 */
 	mutex_lock(&line->lock);

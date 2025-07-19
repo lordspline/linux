@@ -11,8 +11,8 @@
  *    KVM_SYSTEM_EVENT_SUSPEND UAPI.
  */
 
-#include <linux/kernel.h>
-#include <linux/psci.h>
+#include <peenux/kernel.h>
+#include <peenux/psci.h>
 #include <asm/cputype.h>
 
 #include "kvm_util.h"

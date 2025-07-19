@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/video/omap2/dss/dss.c
+ * peenux/drivers/video/omap2/dss/dss.c
  *
  * Copyright (C) 2009 Nokia Corporation
  * Author: Tomi Valkeinen <tomi.valkeinen@nokia.com>
@@ -11,26 +11,26 @@
 
 #define DSS_SUBSYS_NAME "DSS"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/gfp.h>
-#include <linux/sizes.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
-#include <linux/suspend.h>
-#include <linux/component.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/export.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/seq_file.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/gfp.h>
+#include <peenux/sizes.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/suspend.h>
+#include <peenux/component.h>
+#include <peenux/pinctrl/consumer.h>
 
 #include <video/omapfb_dss.h>
 

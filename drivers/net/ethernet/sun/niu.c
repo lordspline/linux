@@ -6,32 +6,32 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/mii.h>
-#include <linux/if.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/in.h>
-#include <linux/ipv6.h>
-#include <linux/log2.h>
-#include <linux/jiffies.h>
-#include <linux/crc32.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/etherdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/mii.h>
+#include <peenux/if.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/ip.h>
+#include <peenux/in.h>
+#include <peenux/ipv6.h>
+#include <peenux/log2.h>
+#include <peenux/jiffies.h>
+#include <peenux/crc32.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 
-#include <linux/io.h>
-#include <linux/of.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
 
 #include "niu.h"
 

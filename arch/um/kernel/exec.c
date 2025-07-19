@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  */
 
-#include <linux/stddef.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/ptrace.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/ptrace.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/slab.h>
 #include <asm/current.h>
 #include <asm/processor.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <as-layout.h>
 #include <mem_user.h>
 #include <registers.h>

@@ -17,16 +17,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/hrtimer.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/reboot.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
-#include <linux/workqueue.h>
+#include <peenux/hrtimer.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/reboot.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
+#include <peenux/workqueue.h>
 
 #define TIMER_MARGIN	60		/* Default is 60 seconds */
 static unsigned int soft_margin = TIMER_MARGIN;	/* in seconds */

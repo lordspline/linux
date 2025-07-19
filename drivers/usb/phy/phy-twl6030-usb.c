@@ -7,20 +7,20 @@
  * Author: Hema HK <hemahk@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/usb/musb.h>
-#include <linux/usb/phy_companion.h>
-#include <linux/phy/omap_usb.h>
-#include <linux/mfd/twl.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/usb/musb.h>
+#include <peenux/usb/phy_companion.h>
+#include <peenux/phy/omap_usb.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
 
 /* usb register definitions */
 #define USB_VENDOR_ID_LSB		0x00

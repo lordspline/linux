@@ -3,7 +3,7 @@
 #ifndef BTRFS_REFLINK_H
 #define BTRFS_REFLINK_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct file;
 

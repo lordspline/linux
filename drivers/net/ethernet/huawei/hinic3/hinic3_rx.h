@@ -4,8 +4,8 @@
 #ifndef _HINIC3_RX_H_
 #define _HINIC3_RX_H_
 
-#include <linux/bitfield.h>
-#include <linux/netdevice.h>
+#include <peenux/bitfield.h>
+#include <peenux/netdevice.h>
 
 #define RQ_CQE_OFFOLAD_TYPE_PKT_TYPE_MASK           GENMASK(4, 0)
 #define RQ_CQE_OFFOLAD_TYPE_IP_TYPE_MASK            GENMASK(6, 5)

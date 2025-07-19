@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
 #ifdef __KERNEL__
-#include <linux/stddef.h>
+#include <peenux/stddef.h>
 #else
 #include <stddef.h>
 #endif

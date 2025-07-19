@@ -11,12 +11,12 @@
  *
  */
 
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>

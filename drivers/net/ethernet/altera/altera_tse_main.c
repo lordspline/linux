@@ -17,27 +17,27 @@
  * Major updates contributed by GlobalLogic
  */
 
-#include <linux/atomic.h>
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/mdio/mdio-regmap.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/pcs-lynx.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/skbuff.h>
+#include <peenux/atomic.h>
+#include <peenux/delay.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mii.h>
+#include <peenux/mdio/mdio-regmap.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/pcs-lynx.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/skbuff.h>
 #include <asm/cacheflush.h>
 
 #include "altera_utils.h"

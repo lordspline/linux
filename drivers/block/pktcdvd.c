@@ -4,7 +4,7 @@
  * Copyright (C) 2006 Thomas Maier <balagi@justmail.de>
  *
  * May be copied or modified under the terms of the GNU General Public
- * License.  See linux/COPYING for more information.
+ * License.  See peenux/COPYING for more information.
  *
  * Packet writing layer for ATAPI and SCSI CD-RW, DVD+RW, DVD-RW and
  * DVD-RAM devices.
@@ -46,32 +46,32 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/backing-dev.h>
-#include <linux/compat.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/file.h>
-#include <linux/freezer.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nospec.h>
-#include <linux/pktcdvd.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/backing-dev.h>
+#include <peenux/compat.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/file.h>
+#include <peenux/freezer.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nospec.h>
+#include <peenux/pktcdvd.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_ioctl.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define DRIVER_NAME	"pktcdvd"
 

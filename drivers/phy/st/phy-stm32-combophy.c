@@ -6,14 +6,14 @@
  * Author: Christian Bruel <christian.bruel@foss.st.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy/phy.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 #include <dt-bindings/phy/phy.h>
 
 #define SYSCFG_COMBOPHY_CR1 0x4c00

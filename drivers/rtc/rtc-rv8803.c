@@ -7,17 +7,17 @@
  *
  */
 
-#include <linux/bcd.h>
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/log2.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
-#include <linux/pm_wakeirq.h>
+#include <peenux/bcd.h>
+#include <peenux/bitops.h>
+#include <peenux/bitfield.h>
+#include <peenux/log2.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/rtc.h>
+#include <peenux/pm_wakeirq.h>
 
 #define RV8803_I2C_TRY_COUNT		4
 

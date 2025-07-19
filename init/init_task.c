@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init_task.h>
-#include <linux/export.h>
-#include <linux/mqueue.h>
-#include <linux/sched.h>
-#include <linux/sched/sysctl.h>
-#include <linux/sched/rt.h>
-#include <linux/sched/task.h>
-#include <linux/sched/ext.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/audit.h>
-#include <linux/numa.h>
-#include <linux/scs.h>
-#include <linux/plist.h>
+#include <peenux/init_task.h>
+#include <peenux/export.h>
+#include <peenux/mqueue.h>
+#include <peenux/sched.h>
+#include <peenux/sched/sysctl.h>
+#include <peenux/sched/rt.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/ext.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/audit.h>
+#include <peenux/numa.h>
+#include <peenux/scs.h>
+#include <peenux/plist.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 static struct signal_struct init_signals = {
 	.nr_threads	= 1,

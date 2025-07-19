@@ -15,26 +15,26 @@
 
 #define pr_fmt(fmt) "dvb_frontend: " fmt
 
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/semaphore.h>
-#include <linux/module.h>
-#include <linux/nospec.h>
-#include <linux/list.h>
-#include <linux/freezer.h>
-#include <linux/jiffies.h>
-#include <linux/kthread.h>
-#include <linux/ktime.h>
-#include <linux/compat.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/wait.h>
+#include <peenux/slab.h>
+#include <peenux/poll.h>
+#include <peenux/semaphore.h>
+#include <peenux/module.h>
+#include <peenux/nospec.h>
+#include <peenux/list.h>
+#include <peenux/freezer.h>
+#include <peenux/jiffies.h>
+#include <peenux/kthread.h>
+#include <peenux/ktime.h>
+#include <peenux/compat.h>
 #include <asm/processor.h>
 
 #include <media/dvb_frontend.h>
 #include <media/dvbdev.h>
-#include <linux/dvb/version.h>
+#include <peenux/dvb/version.h>
 
 static int dvb_frontend_debug;
 static int dvb_shutdown_timeout;

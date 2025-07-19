@@ -7,11 +7,11 @@
 
 #include "dm-core.h"
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/bio.h>
-#include <linux/dax.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kmod.h>
+#include <peenux/bio.h>
+#include <peenux/dax.h>
 
 #define DM_MSG_PREFIX "target"
 

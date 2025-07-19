@@ -5,17 +5,17 @@
  * Author: Rabin Vincent <rabin.vincent@stericsson.com> for ST-Ericsson
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/stmpe.h>
-#include <linux/property.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/stmpe.h>
+#include <peenux/property.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
 
 /*
  * These registers are modified under the irq bus lock and cached to avoid

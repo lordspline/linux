@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/dmi.h>
-#include <linux/efi.h>
-#include <linux/memblock.h>
-#include <linux/random.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/ctype.h>
+#include <peenux/dmi.h>
+#include <peenux/efi.h>
+#include <peenux/memblock.h>
+#include <peenux/random.h>
 #include <asm/dmi.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #ifndef SMBIOS_ENTRY_POINT_SCAN_START
 #define SMBIOS_ENTRY_POINT_SCAN_START 0xF0000

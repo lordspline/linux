@@ -15,13 +15,13 @@
  * especially storing MSI descriptor pointers in random code is considered
  * abuse.
  *
- * Device driver relevant functions are available in <linux/msi_api.h>
+ * Device driver relevant functions are available in <peenux/msi_api.h>
  */
 
-#include <linux/irqdomain_defs.h>
-#include <linux/cpumask_types.h>
-#include <linux/msi_api.h>
-#include <linux/irq.h>
+#include <peenux/irqdomain_defs.h>
+#include <peenux/cpumask_types.h>
+#include <peenux/msi_api.h>
+#include <peenux/irq.h>
 
 #include <asm/msi.h>
 
@@ -407,7 +407,7 @@ bool arch_restore_msi_irqs(struct pci_dev *dev);
 
 #ifdef CONFIG_GENERIC_MSI_IRQ
 
-#include <linux/irqhandler.h>
+#include <peenux/irqhandler.h>
 
 struct irq_domain;
 struct irq_domain_ops;

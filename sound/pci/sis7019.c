@@ -9,13 +9,13 @@
  *  All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/time.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/time.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
 #include <sound/core.h>
 #include <sound/ac97_codec.h>
 #include <sound/initval.h>

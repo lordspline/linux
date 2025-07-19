@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/kernel/acct.c
+ *  peenux/kernel/acct.c
  *
- *  BSD Process Accounting for Linux
+ *  BSD Process Accounting for Peenux
  *
  *  Author: Marco van Wieringen <mvw@planets.elm.net>
  *
@@ -44,24 +44,24 @@
  * a struct file opened for write. Fixed. 2/6/2000, AV.
  */
 
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/acct.h>
-#include <linux/capability.h>
-#include <linux/file.h>
-#include <linux/tty.h>
-#include <linux/security.h>
-#include <linux/vfs.h>
-#include <linux/jiffies.h>
-#include <linux/times.h>
-#include <linux/syscalls.h>
-#include <linux/mount.h>
-#include <linux/uaccess.h>
-#include <linux/sched/cputime.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/acct.h>
+#include <peenux/capability.h>
+#include <peenux/file.h>
+#include <peenux/tty.h>
+#include <peenux/security.h>
+#include <peenux/vfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/times.h>
+#include <peenux/syscalls.h>
+#include <peenux/mount.h>
+#include <peenux/uaccess.h>
+#include <peenux/sched/cputime.h>
 
 #include <asm/div64.h>
-#include <linux/pid_namespace.h>
-#include <linux/fs_pin.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/fs_pin.h>
 
 /*
  * These constants control the amount of freespace that suspend and

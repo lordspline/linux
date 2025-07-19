@@ -32,11 +32,11 @@
  * SOFTWARE.
  */
 
-#include <linux/err.h>
-#include <linux/vmalloc.h>
+#include <peenux/err.h>
+#include <peenux/vmalloc.h>
 #include <rdma/rdma_vt.h>
 #ifdef CONFIG_DEBUG_FS
-#include <linux/seq_file.h>
+#include <peenux/seq_file.h>
 #endif
 
 #include "qib.h"

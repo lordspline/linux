@@ -3,15 +3,15 @@
  * Copyright(c) 2007 - 2009 Intel Corporation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/kdev_t.h>
-#include <linux/err.h>
-#include <linux/dca.h>
-#include <linux/gfp.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/kdev_t.h>
+#include <peenux/err.h>
+#include <peenux/dca.h>
+#include <peenux/gfp.h>
+#include <peenux/export.h>
 
 static const struct class dca_class = {
 	.name = "dca",

@@ -3,28 +3,28 @@
  * Copyright (c) 2020 Rockchip Electronics Co., Ltd.
  * Author: Andy Yan <andy.yan@rock-chips.com>
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/media-bus-format.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/swab.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/delay.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/swab.h>
 
 #include <drm/drm.h>
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_uapi.h>
 #include <drm/drm_blend.h>
 #include <drm/drm_crtc.h>
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 #include <drm/drm_debugfs.h>
 #include <drm/drm_flip_work.h>
 #include <drm/drm_framebuffer.h>
@@ -32,7 +32,7 @@
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_vblank.h>
 
-#include <uapi/linux/videodev2.h>
+#include <uapi/peenux/videodev2.h>
 
 #include "rockchip_drm_gem.h"
 #include "rockchip_drm_vop2.h"

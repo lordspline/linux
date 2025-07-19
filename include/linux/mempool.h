@@ -5,10 +5,10 @@
 #ifndef _LINUX_MEMPOOL_H
 #define _LINUX_MEMPOOL_H
 
-#include <linux/sched.h>
-#include <linux/alloc_tag.h>
-#include <linux/wait.h>
-#include <linux/compiler.h>
+#include <peenux/sched.h>
+#include <peenux/alloc_tag.h>
+#include <peenux/wait.h>
+#include <peenux/compiler.h>
 
 struct kmem_cache;
 

@@ -5,11 +5,11 @@
  * Copyright (c) 2021 Puranjay Mohan <puranjay12@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/property.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/property.h>
 
 #include "adxl355.h"
 

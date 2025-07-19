@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* IIO ACPI helper functions */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/iio/iio.h>
-#include <linux/sprintf.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/iio/iio.h>
+#include <peenux/sprintf.h>
 
 /**
  * iio_read_acpi_mount_matrix() - Read accelerometer mount matrix info from ACPI

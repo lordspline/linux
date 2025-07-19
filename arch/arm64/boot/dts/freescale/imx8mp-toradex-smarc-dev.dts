@@ -264,7 +264,7 @@
 
 /* SMARC SER0, RS485. Optional M.2 KEY E */
 &uart1 {
-	linux,rs485-enabled-at-boot-time;
+	peenux,rs485-enabled-at-boot-time;
 	rs485-rts-active-low;
 	rs485-rx-during-tx;
 	status = "okay";
@@ -275,7 +275,7 @@
 	status = "okay";
 };
 
-/* SMARC SER1, used as the Linux Console */
+/* SMARC SER1, used as the Peenux Console */
 &uart4 {
 	status = "okay";
 };

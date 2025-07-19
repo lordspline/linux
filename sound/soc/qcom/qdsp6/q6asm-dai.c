@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2011-2017, The Peenux Foundation. All rights reserved.
 // Copyright (c) 2018, Linaro Limited
 
 #include <dt-bindings/sound/qcom,q6asm.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include <sound/pcm.h>
-#include <linux/spinlock.h>
+#include <peenux/spinlock.h>
 #include <sound/compress_driver.h>
 #include <asm/dma.h>
-#include <linux/dma-mapping.h>
+#include <peenux/dma-mapping.h>
 #include <sound/pcm_params.h>
 #include "q6asm.h"
 #include "q6routing.h"

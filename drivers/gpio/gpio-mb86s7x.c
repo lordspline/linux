@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/gpio/gpio-mb86s7x.c
+ *  peenux/drivers/gpio/gpio-mb86s7x.c
  *
  *  Copyright (C) 2015 Fujitsu Semiconductor Limited
  *  Copyright (C) 2015 Linaro Ltd.
  */
 
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/clk.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
 
 #include "gpiolib-acpi.h"
 

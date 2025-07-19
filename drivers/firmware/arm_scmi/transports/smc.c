@@ -6,19 +6,19 @@
  * Copyright 2020 NXP
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/atomic.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/limits.h>
-#include <linux/platform_device.h>
-#include <linux/processor.h>
-#include <linux/slab.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/atomic.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/limits.h>
+#include <peenux/platform_device.h>
+#include <peenux/processor.h>
+#include <peenux/slab.h>
 
 #include "../common.h"
 

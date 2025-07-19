@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/mm/memory.c
+ *  peenux/mm/memory.c
  *
  *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
@@ -39,50 +39,50 @@
  * Aug/Sep 2004 Changed to four level page tables (Andi Kleen)
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/mm.h>
-#include <linux/mm_inline.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/numa_balancing.h>
-#include <linux/sched/task.h>
-#include <linux/hugetlb.h>
-#include <linux/mman.h>
-#include <linux/swap.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/memremap.h>
-#include <linux/kmsan.h>
-#include <linux/ksm.h>
-#include <linux/rmap.h>
-#include <linux/export.h>
-#include <linux/delayacct.h>
-#include <linux/init.h>
-#include <linux/pfn_t.h>
-#include <linux/writeback.h>
-#include <linux/memcontrol.h>
-#include <linux/mmu_notifier.h>
-#include <linux/swapops.h>
-#include <linux/elf.h>
-#include <linux/gfp.h>
-#include <linux/migrate.h>
-#include <linux/string.h>
-#include <linux/memory-tiers.h>
-#include <linux/debugfs.h>
-#include <linux/userfaultfd_k.h>
-#include <linux/dax.h>
-#include <linux/oom.h>
-#include <linux/numa.h>
-#include <linux/perf_event.h>
-#include <linux/ptrace.h>
-#include <linux/vmalloc.h>
-#include <linux/sched/sysctl.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/mm.h>
+#include <peenux/mm_inline.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/numa_balancing.h>
+#include <peenux/sched/task.h>
+#include <peenux/hugetlb.h>
+#include <peenux/mman.h>
+#include <peenux/swap.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/memremap.h>
+#include <peenux/kmsan.h>
+#include <peenux/ksm.h>
+#include <peenux/rmap.h>
+#include <peenux/export.h>
+#include <peenux/delayacct.h>
+#include <peenux/init.h>
+#include <peenux/pfn_t.h>
+#include <peenux/writeback.h>
+#include <peenux/memcontrol.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/swapops.h>
+#include <peenux/elf.h>
+#include <peenux/gfp.h>
+#include <peenux/migrate.h>
+#include <peenux/string.h>
+#include <peenux/memory-tiers.h>
+#include <peenux/debugfs.h>
+#include <peenux/userfaultfd_k.h>
+#include <peenux/dax.h>
+#include <peenux/oom.h>
+#include <peenux/numa.h>
+#include <peenux/perf_event.h>
+#include <peenux/ptrace.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sched/sysctl.h>
 
 #include <trace/events/kmem.h>
 
 #include <asm/io.h>
 #include <asm/mmu_context.h>
 #include <asm/pgalloc.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/tlb.h>
 #include <asm/tlbflush.h>
 

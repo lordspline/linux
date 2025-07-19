@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/net_tstamp.h>
-#include <linux/phy.h>
-#include <linux/phy_link_topology.h>
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/phy.h>
+#include <peenux/phy_link_topology.h>
+#include <peenux/ptp_clock_kernel.h>
 #include <net/netdev_lock.h>
 
 #include "netlink.h"

@@ -5,17 +5,17 @@
 // Copyright (C) 2016 Renesas Solutions Corp.
 // Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
 //
-// based on ${LINUX}/sound/soc/generic/simple-card.c
+// based on ${PEENUX}/sound/soc/generic/simple-card.c
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
 #include <sound/graph_card.h>
 
 #define DPCM_SELECTABLE 1

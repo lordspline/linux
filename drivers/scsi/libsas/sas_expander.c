@@ -8,10 +8,10 @@
  * This file is licensed under GPLv2.
  */
 
-#include <linux/scatterlist.h>
-#include <linux/blkdev.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/scatterlist.h>
+#include <peenux/blkdev.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #include "sas_internal.h"
 

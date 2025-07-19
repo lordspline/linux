@@ -8,14 +8,14 @@
  * Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
 #define ICN8318_REG_POWER		4
 #define ICN8318_REG_TOUCHDATA		16

@@ -9,11 +9,11 @@
 
 #include <asm/amd/hsmp.h>
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/semaphore.h>
-#include <linux/sysfs.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/semaphore.h>
+#include <peenux/sysfs.h>
 
 #include "hsmp.h"
 

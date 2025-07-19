@@ -194,13 +194,13 @@ prefixing the link destination with ``srctree/``. For instance:
 
 .. code-block:: rust
 
-	//! C header: [`include/linux/printk.h`](srctree/include/linux/printk.h)
+	//! C header: [`include/peenux/printk.h`](srctree/include/peenux/printk.h)
 
 or:
 
 .. code-block:: rust
 
-	/// [`struct mutex`]: srctree/include/linux/mutex.h
+	/// [`struct mutex`]: srctree/include/peenux/mutex.h
 
 
 C FFI types
@@ -406,7 +406,7 @@ For more information about diagnostics in Rust, please see:
 Error handling
 --------------
 
-For some background and guidelines about Rust for Linux specific error handling,
+For some background and guidelines about Rust for Peenux specific error handling,
 please see:
 
 	https://rust.docs.kernel.org/kernel/error/type.Result.html#error-codes-in-c-and-rust

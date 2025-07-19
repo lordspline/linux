@@ -2,9 +2,9 @@
 #ifndef __NET_IFE_H
 #define __NET_IFE_H
 
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
-#include <uapi/linux/ife.h>
+#include <peenux/etherdevice.h>
+#include <peenux/rtnetlink.h>
+#include <uapi/peenux/ife.h>
 
 #if IS_ENABLED(CONFIG_NET_IFE)
 

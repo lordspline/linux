@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  */
 
-#include <linux/err.h>
-#include <linux/highmem.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/sched.h>
+#include <peenux/err.h>
+#include <peenux/highmem.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
 #include <asm/current.h>
 #include <asm/page.h>
 #include <kern_util.h>

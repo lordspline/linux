@@ -7,19 +7,19 @@
 #ifndef _QEDI_DBG_H_
 #define _QEDI_DBG_H_
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/compiler.h>
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/compiler.h>
+#include <peenux/string.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
 #include <scsi/scsi_transport.h>
 #include <scsi/scsi_transport_iscsi.h>
-#include <linux/fs.h>
+#include <peenux/fs.h>
 
 #define __PREVENT_QED_HSI__
-#include <linux/qed/common_hsi.h>
-#include <linux/qed/qed_if.h>
+#include <peenux/qed/common_hsi.h>
+#include <peenux/qed/qed_if.h>
 
 extern uint qedi_dbg_log;
 

@@ -5,14 +5,14 @@
 // Copyright (C) 2012 Renesas Solutions Corp.
 // Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
 #include <sound/simple_card.h>
 #include <sound/soc-dai.h>
 #include <sound/soc.h>

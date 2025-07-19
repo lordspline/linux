@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/console/bitblit.c -- BitBlitting Operation
+ *  peenux/drivers/video/console/bitblit.c -- BitBlitting Operation
  *
  *  Originally from the 'accel_*' routines in drivers/video/console/fbcon.c
  *
@@ -10,12 +10,12 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/fb.h>
-#include <linux/vt_kern.h>
-#include <linux/console.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/fb.h>
+#include <peenux/vt_kern.h>
+#include <peenux/console.h>
 #include <asm/types.h>
 #include "fbcon.h"
 

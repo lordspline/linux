@@ -10,15 +10,15 @@
  *      registered, the devfreq cooling won't react to it.
  */
 
-#include <linux/devfreq.h>
-#include <linux/devfreq_cooling.h>
-#include <linux/energy_model.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_qos.h>
-#include <linux/thermal.h>
-#include <linux/units.h>
+#include <peenux/devfreq.h>
+#include <peenux/devfreq_cooling.h>
+#include <peenux/energy_model.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_qos.h>
+#include <peenux/thermal.h>
+#include <peenux/units.h>
 
 #include "thermal_trace.h"
 

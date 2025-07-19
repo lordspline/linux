@@ -6,21 +6,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/cache.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/string_choices.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/cache.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/string_choices.h>
 
-#include <linux/spi/spi.h>
-#include <linux/of_net.h>
+#include <peenux/spi/spi.h>
+#include <peenux/of_net.h>
 
 #define MSG_DEFAULT	(NETIF_MSG_DRV | NETIF_MSG_PROBE | NETIF_MSG_LINK | \
 			 NETIF_MSG_TIMER)

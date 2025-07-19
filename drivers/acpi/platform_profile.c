@@ -4,13 +4,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/platform_profile.h>
-#include <linux/sysfs.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_profile.h>
+#include <peenux/sysfs.h>
 
 #define to_pprof_handler(d)	(container_of(d, struct platform_profile_handler, dev))
 

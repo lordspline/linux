@@ -7,13 +7,13 @@
  * Copyright (c) 2003 by Digigram <alsa@digigram.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/firmware.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
 #include <sound/core.h>
 #include "mixart.h"
 #include "mixart_mixer.h"

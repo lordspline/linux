@@ -13,20 +13,20 @@
  *   actually do.
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/ctype.h>
-#include <linux/time.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/bitops.h>
-#include <linux/rtc.h>
-#include <linux/of.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/ctype.h>
+#include <peenux/time.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/seq_file.h>
+#include <peenux/bitops.h>
+#include <peenux/rtc.h>
+#include <peenux/of.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/processor.h>
 #include <asm/io.h>
 #include <asm/rtas.h>

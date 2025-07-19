@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/savagefb.c -- S3 Savage Framebuffer Driver
+ * peenux/drivers/video/savagefb.c -- S3 Savage Framebuffer Driver
  *
  * Copyright (c) 2001-2002  Denis Oliver Kropp <dok@directfb.org>
  *                          Sven Neumann <neo@directfb.org>
@@ -41,18 +41,18 @@
  *
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/console.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>

@@ -5,16 +5,16 @@
  * Author:	Jamal Hadi Salim
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/kmod.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
 #include <net/net_namespace.h>
 #include <net/sock.h>
 #include <net/sch_generic.h>

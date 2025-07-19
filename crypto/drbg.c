@@ -99,9 +99,9 @@
 
 #include <crypto/drbg.h>
 #include <crypto/internal/cipher.h>
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/string_choices.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/string_choices.h>
 
 /***************************************************************
  * Backend cipher definitions available to DRBG

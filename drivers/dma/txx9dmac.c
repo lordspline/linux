@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2009 Atsushi Nemoto
  */
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/scatterlist.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/scatterlist.h>
 
 #include "dmaengine.h"
 #include "txx9dmac.h"

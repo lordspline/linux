@@ -3,29 +3,29 @@
  * Copyright (C) 2010 Google, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/ktime.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/iommu.h>
+#include <peenux/iopoll.h>
+#include <peenux/ktime.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
 
 #include <soc/tegra/common.h>
 

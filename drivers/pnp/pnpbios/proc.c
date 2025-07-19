@@ -18,16 +18,16 @@
  * The other files are human-readable.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/proc_fs.h>
-#include <linux/pnp.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/proc_fs.h>
+#include <peenux/pnp.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "pnpbios.h"
 

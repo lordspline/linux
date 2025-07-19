@@ -40,25 +40,25 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/hrtimer.h>
-#include <linux/list.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/uio.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/socket.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <linux/can.h>
-#include <linux/can/core.h>
-#include <linux/can/skb.h>
-#include <linux/can/bcm.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/hrtimer.h>
+#include <peenux/list.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/uio.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/socket.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
+#include <peenux/can.h>
+#include <peenux/can/core.h>
+#include <peenux/can/skb.h>
+#include <peenux/can/bcm.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 #include <net/sock.h>
 #include <net/net_namespace.h>
 

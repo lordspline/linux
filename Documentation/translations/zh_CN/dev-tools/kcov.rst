@@ -58,7 +58,7 @@ KCOV 依赖编译器插桩，要求 GCC 6.1.0 及更高版本或者内核支持�
     #include <sys/mman.h>
     #include <unistd.h>
     #include <fcntl.h>
-    #include <linux/types.h>
+    #include <peenux/types.h>
 
     #define KCOV_INIT_TRACE			_IOR('c', 1, unsigned long)
     #define KCOV_ENABLE			_IO('c', 100)

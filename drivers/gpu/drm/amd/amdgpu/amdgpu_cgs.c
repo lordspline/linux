@@ -21,11 +21,11 @@
  *
  *
  */
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/list.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 #include <drm/amdgpu_drm.h>
 #include "amdgpu.h"
 #include "atom.h"

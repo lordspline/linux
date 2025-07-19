@@ -8,15 +8,15 @@
  * Copyright 2015-2017 Pengutronix, Lucas Stach <kernel@pengutronix.de>
  */
 
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/sizes.h>
 #include <dt-bindings/power/imx7-power.h>
 #include <dt-bindings/power/imx8mq-power.h>
 #include <dt-bindings/power/imx8mm-power.h>

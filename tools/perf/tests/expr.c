@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <string2.h>
-#include <linux/zalloc.h>
+#include <peenux/zalloc.h>
 
 static int test_ids_union(void)
 {

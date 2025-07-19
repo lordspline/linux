@@ -7,15 +7,15 @@
  * Copyright (c) 2020 Microsemi Corporation
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/ip.h>
-#include <linux/net_tstamp.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/ptp_classify.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/udp.h>
-#include <linux/unaligned.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/ip.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/udp.h>
+#include <peenux/unaligned.h>
 
 #include "../phylib.h"
 #include "mscc.h"

@@ -4,13 +4,13 @@
 #ifndef __IOMMUFD_PRIVATE_H
 #define __IOMMUFD_PRIVATE_H
 
-#include <linux/iommu.h>
-#include <linux/iommufd.h>
-#include <linux/iova_bitmap.h>
-#include <linux/rwsem.h>
-#include <linux/uaccess.h>
-#include <linux/xarray.h>
-#include <uapi/linux/iommufd.h>
+#include <peenux/iommu.h>
+#include <peenux/iommufd.h>
+#include <peenux/iova_bitmap.h>
+#include <peenux/rwsem.h>
+#include <peenux/uaccess.h>
+#include <peenux/xarray.h>
+#include <uapi/peenux/iommufd.h>
 
 #include "../iommu-priv.h"
 

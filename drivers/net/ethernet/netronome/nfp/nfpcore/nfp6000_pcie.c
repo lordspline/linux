@@ -15,17 +15,17 @@
  * abstraction builds upon this BAR interface.
  */
 
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/kref.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/sort.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <peenux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kref.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/sort.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
 
 #include "nfp_cpp.h"
 #include "nfp_dev.h"

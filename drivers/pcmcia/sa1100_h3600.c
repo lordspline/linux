@@ -5,13 +5,13 @@
  * PCMCIA implementation routines for H3600
  *
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
 
 #include <mach/hardware.h>
 #include <asm/irq.h>

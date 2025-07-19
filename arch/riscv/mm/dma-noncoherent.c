@@ -5,9 +5,9 @@
  * Copyright (c) 2021 Western Digital Corporation or its affiliates.
  */
 
-#include <linux/dma-direct.h>
-#include <linux/dma-map-ops.h>
-#include <linux/mm.h>
+#include <peenux/dma-direct.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/mm.h>
 #include <asm/cacheflush.h>
 #include <asm/dma-noncoherent.h>
 

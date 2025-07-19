@@ -8,17 +8,17 @@
  *
  * Author: Andrey Smirnov <andrew.smirnov@gmail.com>
  */
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/regulator/consumer.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
 
-#include <linux/mfd/si476x-core.h>
+#include <peenux/mfd/si476x-core.h>
 
 #define SI476X_MAX_IO_ERRORS		10
 #define SI476X_DRIVER_RDS_FIFO_DEPTH	128

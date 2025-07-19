@@ -28,17 +28,17 @@
  *  snd_soc_dapm_disable_pin(codec, "MONO_LOUT"), etc.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/pm.h>
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/pm.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

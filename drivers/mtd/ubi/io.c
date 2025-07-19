@@ -73,9 +73,9 @@
  * back and writes the whole sub-page.
  */
 
-#include <linux/crc32.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <peenux/crc32.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
 #include "ubi.h"
 
 static int self_check_not_bad(const struct ubi_device *ubi, int pnum);

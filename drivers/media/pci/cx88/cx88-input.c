@@ -11,11 +11,11 @@
 
 #include "cx88.h"
 
-#include <linux/init.h>
-#include <linux/hrtimer.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/hrtimer.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 #include <media/rc-core.h>
 

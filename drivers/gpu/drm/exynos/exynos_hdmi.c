@@ -10,25 +10,25 @@
  */
 
 #include <drm/exynos_drm.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/wait.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/hdmi.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/wait.h>
 
 #include <sound/hdmi-codec.h>
 #include <media/cec-notifier.h>

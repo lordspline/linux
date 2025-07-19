@@ -3,19 +3,19 @@
  * Copyright (c) 2007-2014 Nicira, Inc.
  */
 
-#include <linux/etherdevice.h>
-#include <linux/if.h>
-#include <linux/if_vlan.h>
-#include <linux/jhash.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/percpu.h>
-#include <linux/rcupdate.h>
-#include <linux/rtnetlink.h>
-#include <linux/compat.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if.h>
+#include <peenux/if_vlan.h>
+#include <peenux/jhash.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/percpu.h>
+#include <peenux/rcupdate.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/compat.h>
 #include <net/net_namespace.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 
 #include "datapath.h"
 #include "vport.h"

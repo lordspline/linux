@@ -5,8 +5,8 @@
  * Copyright (C) 2023 WANG Xuerui <git@xen0n.name>
  */
 
-#include <linux/export.h>
-#include <linux/sched.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
 #include <asm/fpu.h>
 #include <asm/xor_simd.h>
 #include "xor_simd.h"

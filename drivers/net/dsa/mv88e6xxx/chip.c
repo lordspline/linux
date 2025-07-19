@@ -6,31 +6,31 @@
  *
  * Copyright (c) 2016 Andrew Lunn <andrew@lunn.ch>
  *
- * Copyright (c) 2016-2017 Savoir-faire Linux Inc.
+ * Copyright (c) 2016-2017 Savoir-faire Peenux Inc.
  *	Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/dsa/mv88e6xxx.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_bridge.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/jiffies.h>
-#include <linux/list.h>
-#include <linux/mdio.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_mdio.h>
-#include <linux/platform_data/mv88e6xxx.h>
-#include <linux/property.h>
-#include <linux/netdevice.h>
-#include <linux/gpio/consumer.h>
-#include <linux/phylink.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/dsa/mv88e6xxx.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_bridge.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/jiffies.h>
+#include <peenux/list.h>
+#include <peenux/mdio.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_mdio.h>
+#include <peenux/platform_data/mv88e6xxx.h>
+#include <peenux/property.h>
+#include <peenux/netdevice.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/phylink.h>
 #include <net/dsa.h>
 
 #include "chip.h"

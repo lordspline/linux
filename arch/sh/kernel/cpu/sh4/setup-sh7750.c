@@ -5,13 +5,13 @@
  *  Copyright (C) 2006  Paul Mundt
  *  Copyright (C) 2006  Jamie Lenehan
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/io.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_intc.h>
-#include <linux/serial_sci.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/io.h>
+#include <peenux/sh_timer.h>
+#include <peenux/sh_intc.h>
+#include <peenux/serial_sci.h>
 #include <generated/machtypes.h>
 #include <asm/platform_early.h>
 

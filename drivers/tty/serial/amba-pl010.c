@@ -15,21 +15,21 @@
  * and hooked into this driver.
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/amba/bus.h>
-#include <linux/amba/serial.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/device.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/amba/bus.h>
+#include <peenux/amba/serial.h>
+#include <peenux/clk.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
 #define UART_NR		8
 

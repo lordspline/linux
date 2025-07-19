@@ -9,9 +9,9 @@
  * Contact: Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-fh.h>
 #include <media/v4l2-event.h>

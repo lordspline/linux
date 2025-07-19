@@ -9,14 +9,14 @@
  *		 Peter Oberparleiter <peter.oberparleiter@de.ibm.com>
  */
 
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/kernel_stat.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/rculist.h>
-#include <linux/slab.h>
-#include <linux/dmapool.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/rculist.h>
+#include <peenux/slab.h>
+#include <peenux/dmapool.h>
 
 #include <asm/airq.h>
 #include <asm/isc.h>

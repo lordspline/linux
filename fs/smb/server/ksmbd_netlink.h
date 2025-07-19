@@ -2,13 +2,13 @@
 /*
  *   Copyright (C) 2018 Samsung Electronics Co., Ltd.
  *
- *   linux-ksmbd-devel@lists.sourceforge.net
+ *   peenux-ksmbd-devel@lists.sourceforge.net
  */
 
 #ifndef _LINUX_KSMBD_SERVER_H
 #define _LINUX_KSMBD_SERVER_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /*
  * This is a userspace ABI to communicate data between ksmbd and user IPC

@@ -6,10 +6,10 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/mempool.h>
-#include <linux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/mempool.h>
+#include <peenux/vmalloc.h>
 #include "cifspdu.h"
 #include "cifsglob.h"
 #include "cifsproto.h"

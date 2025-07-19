@@ -8,26 +8,26 @@
  *
  * Copyright (c) 2004 Freescale Semiconductor, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/unistd.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/phy.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /* ------------------------------------------------------------------------- */
 /* The Quality Semiconductor QS6612 is used on the RPX CLLF                  */

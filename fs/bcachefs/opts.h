@@ -2,10 +2,10 @@
 #ifndef _BCACHEFS_OPTS_H
 #define _BCACHEFS_OPTS_H
 
-#include <linux/bug.h>
-#include <linux/log2.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
+#include <peenux/bug.h>
+#include <peenux/log2.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
 #include "bcachefs_format.h"
 
 struct bch_fs;

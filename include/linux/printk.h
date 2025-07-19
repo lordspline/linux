@@ -2,12 +2,12 @@
 #ifndef __KERNEL_PRINTK__
 #define __KERNEL_PRINTK__
 
-#include <linux/stdarg.h>
-#include <linux/init.h>
-#include <linux/kern_levels.h>
-#include <linux/linkage.h>
-#include <linux/ratelimit_types.h>
-#include <linux/once_lite.h>
+#include <peenux/stdarg.h>
+#include <peenux/init.h>
+#include <peenux/kern_levels.h>
+#include <peenux/linkage.h>
+#include <peenux/ratelimit_types.h>
+#include <peenux/once_lite.h>
 
 struct console;
 
@@ -613,7 +613,7 @@ struct pi_entry {
 /* If you are writing a driver, please use dev_dbg instead */
 #if defined(CONFIG_DYNAMIC_DEBUG) || \
 	(defined(CONFIG_DYNAMIC_DEBUG_CORE) && defined(DYNAMIC_DEBUG_MODULE))
-#include <linux/dynamic_debug.h>
+#include <peenux/dynamic_debug.h>
 
 /**
  * pr_debug - Print a debug-level message conditionally

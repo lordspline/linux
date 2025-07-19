@@ -20,7 +20,7 @@
  *
  * Code from fib_hash has been reused which includes the following header:
  *
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -35,32 +35,32 @@
  *		Paul E. McKenney <paulmck@us.ibm.com>
  *		Patrick McHardy <kaber@trash.net>
  */
-#include <linux/cache.h>
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/inetdevice.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/proc_fs.h>
-#include <linux/rcupdate.h>
-#include <linux/rcupdate_wait.h>
-#include <linux/skbuff.h>
-#include <linux/netlink.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/vmalloc.h>
-#include <linux/notifier.h>
+#include <peenux/cache.h>
+#include <peenux/uaccess.h>
+#include <peenux/bitops.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/errno.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/inetdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/proc_fs.h>
+#include <peenux/rcupdate.h>
+#include <peenux/rcupdate_wait.h>
+#include <peenux/skbuff.h>
+#include <peenux/netlink.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/vmalloc.h>
+#include <peenux/notifier.h>
 #include <net/net_namespace.h>
 #include <net/inet_dscp.h>
 #include <net/ip.h>

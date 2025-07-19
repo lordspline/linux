@@ -66,8 +66,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/context_tracking.h>
-#include <linux/hardirq.h>
+#include <peenux/context_tracking.h>
+#include <peenux/hardirq.h>
 #include <asm/cputime.h>
 #include <asm/firmware.h>
 #include <asm/ftrace.h>

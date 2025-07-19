@@ -15,15 +15,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/pci.h>
-#include <linux/acpi.h>
-#include <linux/atomic.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/backlight.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/pci.h>
+#include <peenux/acpi.h>
+#include <peenux/atomic.h>
 #include <acpi/video.h>
 
 static struct backlight_device *apple_backlight_device;

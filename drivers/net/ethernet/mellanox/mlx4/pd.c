@@ -31,9 +31,9 @@
  * SOFTWARE.
  */
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/io-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/io-mapping.h>
 
 #include <asm/page.h>
 

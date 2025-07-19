@@ -27,8 +27,8 @@
 #ifndef _TTM_TT_H_
 #define _TTM_TT_H_
 
-#include <linux/pagemap.h>
-#include <linux/types.h>
+#include <peenux/pagemap.h>
+#include <peenux/types.h>
 #include <drm/ttm/ttm_caching.h>
 #include <drm/ttm/ttm_kmap_iter.h>
 
@@ -301,7 +301,7 @@ int ttm_tt_restore(struct ttm_device *bdev, struct ttm_tt *tt,
 int ttm_tt_setup_backup(struct ttm_tt *tt);
 
 #if IS_ENABLED(CONFIG_AGP)
-#include <linux/agp_backend.h>
+#include <peenux/agp_backend.h>
 
 /**
  * ttm_agp_tt_create
@@ -312,7 +312,7 @@ int ttm_tt_setup_backup(struct ttm_tt *tt);
  *
  *
  * Create a TTM backend that uses the indicated AGP bridge as an aperture
- * for TT memory. This function uses the linux agpgart interface to
+ * for TT memory. This function uses the peenux agpgart interface to
  * bind and unbind memory backing a ttm_tt.
  */
 struct ttm_tt *ttm_agp_tt_create(struct ttm_buffer_object *bo,

@@ -5,19 +5,19 @@
  * This software has been sponsored by Sophos Astaro <http://www.sophos.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netlink.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/nfnetlink.h>
-#include <linux/netfilter/nf_tables.h>
-#include <linux/netfilter/nf_tables_compat.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_ipv4/ip_tables.h>
-#include <linux/netfilter_ipv6/ip6_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_arp/arp_tables.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/netlink.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/nfnetlink.h>
+#include <peenux/netfilter/nf_tables.h>
+#include <peenux/netfilter/nf_tables_compat.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter_ipv4/ip_tables.h>
+#include <peenux/netfilter_ipv6/ip6_tables.h>
+#include <peenux/netfilter_bridge/ebtables.h>
+#include <peenux/netfilter_arp/arp_tables.h>
 #include <net/netfilter/nf_tables.h>
 #include <net/netfilter/nf_log.h>
 

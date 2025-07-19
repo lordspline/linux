@@ -3,15 +3,15 @@
  * Copyright (c) 2016-2022, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/regulator/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/slab.h>
 
 #include <soc/tegra/fuse.h>
 

@@ -2,23 +2,23 @@
 /*
  * Driver for the ADB controller in the Mac I/O (Hydra) chip.
  */
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/pgtable.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/adb.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/pgtable.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/adb.h>
 
 #include <asm/io.h>
 #include <asm/hydra.h>
 #include <asm/irq.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
 
 struct preg {
 	unsigned char r;

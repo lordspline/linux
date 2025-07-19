@@ -11,16 +11,16 @@
  *               Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 #include <soc/fsl/qe/qe.h>
 #include <asm/fsl_gtm.h>
 #include "fhci.h"

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2012-2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2016, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2017 Linaro Ltd.
  */
-#include <linux/overflow.h>
-#include <linux/errno.h>
-#include <linux/hash.h>
+#include <peenux/overflow.h>
+#include <peenux/errno.h>
+#include <peenux/hash.h>
 
 #include "hfi_cmds.h"
 

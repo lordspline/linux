@@ -46,18 +46,18 @@
  *
  ************************************************************************
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/delay.h>
-#include <linux/ctype.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/list.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/delay.h>
+#include <peenux/ctype.h>
+#include <peenux/blkdev.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/pci.h>
+#include <peenux/list.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
 #include <asm/io.h>
 
 #include <scsi/scsi.h>

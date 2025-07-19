@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* Copyright (c) 2024 Intel Corporation */
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
+#include <peenux/acpi.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
 
 #include "intel-thc-dev.h"
 #include "intel-thc-hw.h"

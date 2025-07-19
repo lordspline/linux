@@ -3,9 +3,9 @@
  * Copyright (C) 2020-2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/kvm_host.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/kvm_host.h>
 #include <asm/cacheflush.h>
 #include <asm/cpufeature.h>
 #include <asm/kvm_csr.h>

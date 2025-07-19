@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  Security-Enhanced Linux (SELinux) security module
+ *  Security-Enhanced Peenux (SELinux) security module
  *
  *  This file contains the SELinux XFRM hook function implementations.
  *
@@ -28,19 +28,19 @@
  *   2. Emulating a reasonable SO_PEERSEC across machines
  *   3. Testing addition of sk_policy's with security context via setsockopt
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/security.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/skbuff.h>
-#include <linux/xfrm.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/security.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/skbuff.h>
+#include <peenux/xfrm.h>
 #include <net/xfrm.h>
 #include <net/checksum.h>
 #include <net/udp.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include "avc.h"
 #include "objsec.h"

@@ -4,13 +4,13 @@
  *
  * Authors: Gayatri Kammela <gayatri.kammela@intel.com>
  *	    Sohil Mehta <sohil.mehta@intel.com>
- *	    Jacob Pan <jacob.jun.pan@linux.intel.com>
- *	    Lu Baolu <baolu.lu@linux.intel.com>
+ *	    Jacob Pan <jacob.jun.pan@peenux.intel.com>
+ *	    Lu Baolu <baolu.lu@peenux.intel.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/dmar.h>
-#include <linux/pci.h>
+#include <peenux/debugfs.h>
+#include <peenux/dmar.h>
+#include <peenux/pci.h>
 
 #include <asm/irq_remapping.h>
 

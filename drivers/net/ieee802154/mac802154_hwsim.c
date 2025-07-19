@@ -11,13 +11,13 @@
  * Alexander Smirnov <alex.bluesman.smirnov@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/platform_device.h>
-#include <linux/rtnetlink.h>
-#include <linux/netdevice.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/timer.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/netdevice.h>
+#include <peenux/device.h>
+#include <peenux/spinlock.h>
 #include <net/ieee802154_netdev.h>
 #include <net/mac802154.h>
 #include <net/cfg802154.h>

@@ -8,8 +8,8 @@
  * Copyright (C) 2001 Peter Bergner, IBM Corp.
  */
 
-#include <linux/init.h>
-#include <linux/mm.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
 #include <asm/dma.h>
 
 extern unsigned long max_low_pfn;

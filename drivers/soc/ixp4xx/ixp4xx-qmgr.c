@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Intel IXP4xx Queue Manager driver for Linux
+ * Intel IXP4xx Queue Manager driver for Peenux
  *
  * Copyright (C) 2007 Krzysztof Halasa <khc@pm.waw.pl>
  */
 
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ixp4xx/qmgr.h>
-#include <linux/soc/ixp4xx/cpu.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/ixp4xx/qmgr.h>
+#include <peenux/soc/ixp4xx/cpu.h>
 
 static struct qmgr_regs __iomem *qmgr_regs;
 static int qmgr_irq_1;

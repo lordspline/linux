@@ -12,43 +12,43 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
 
-#include <linux/stringify.h>
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/dma-mapping.h>
-#include <linux/bitops.h>
+#include <peenux/stringify.h>
+#include <peenux/kernel.h>
+#include <peenux/timer.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/bitops.h>
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/delay.h>
+#include <peenux/delay.h>
 #include <asm/byteorder.h>
 #include <asm/page.h>
-#include <linux/time.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/if.h>
-#include <linux/if_vlan.h>
+#include <peenux/time.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/if.h>
+#include <peenux/if_vlan.h>
 #include <net/ip.h>
 #include <net/tcp.h>
 #include <net/checksum.h>
-#include <linux/workqueue.h>
-#include <linux/crc32.h>
-#include <linux/prefetch.h>
-#include <linux/cache.h>
-#include <linux/firmware.h>
-#include <linux/log2.h>
-#include <linux/crash_dump.h>
+#include <peenux/workqueue.h>
+#include <peenux/crc32.h>
+#include <peenux/prefetch.h>
+#include <peenux/cache.h>
+#include <peenux/firmware.h>
+#include <peenux/log2.h>
+#include <peenux/crash_dump.h>
 
 #if IS_ENABLED(CONFIG_CNIC)
 #define BCM_CNIC 1

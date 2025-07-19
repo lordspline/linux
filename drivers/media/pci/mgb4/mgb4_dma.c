@@ -7,8 +7,8 @@
  * by the XDMA module is used.
  */
 
-#include <linux/pci.h>
-#include <linux/dma-direction.h>
+#include <peenux/pci.h>
+#include <peenux/dma-direction.h>
 #include "mgb4_core.h"
 #include "mgb4_dma.h"
 

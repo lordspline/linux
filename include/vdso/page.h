@@ -2,7 +2,7 @@
 #ifndef __VDSO_PAGE_H
 #define __VDSO_PAGE_H
 
-#include <uapi/linux/const.h>
+#include <uapi/peenux/const.h>
 
 /*
  * PAGE_SHIFT determines the page size.

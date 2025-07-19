@@ -6,15 +6,15 @@
  * Author: Moritz Fischer <moritz.fischer@ettus.com>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/notifier.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/notifier.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
 
 struct syscon_poweroff_data {
 	struct regmap *map;

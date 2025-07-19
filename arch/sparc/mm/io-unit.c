@@ -5,16 +5,16 @@
  * Copyright (C) 1997,1998 Jakub Jelinek    (jj@sunsite.mff.cuni.cz)
  */
  
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/bitops.h>
-#include <linux/dma-map-ops.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/io-unit.h>

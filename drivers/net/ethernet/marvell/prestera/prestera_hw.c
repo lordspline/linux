@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2019-2020 Marvell International Ltd. All rights reserved */
 
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/ethtool.h>
-#include <linux/list.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/ethtool.h>
+#include <peenux/list.h>
 
 #include "prestera.h"
 #include "prestera_hw.h"

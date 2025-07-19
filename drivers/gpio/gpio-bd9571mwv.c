@@ -9,12 +9,12 @@
  * NOTE: Interrupts are not supported yet.
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/mfd/rohm-generic.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mfd/rohm-generic.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
-#include <linux/mfd/bd9571mwv.h>
+#include <peenux/mfd/bd9571mwv.h>
 
 struct bd9571mwv_gpio {
 	struct regmap *regmap;

@@ -22,15 +22,15 @@
 #ifndef __AMDGPU_SMU_H__
 #define __AMDGPU_SMU_H__
 
-#include <linux/acpi_amd_wbrf.h>
-#include <linux/units.h>
+#include <peenux/acpi_amd_wbrf.h>
+#include <peenux/units.h>
 
 #include "amdgpu.h"
 #include "kgd_pp_interface.h"
 #include "dm_pp_interface.h"
 #include "dm_pp_smu.h"
 #include "smu_types.h"
-#include "linux/firmware.h"
+#include "peenux/firmware.h"
 
 #define SMU_THERMAL_MINIMUM_ALERT_TEMP		0
 #define SMU_THERMAL_MAXIMUM_ALERT_TEMP		255

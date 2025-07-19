@@ -9,10 +9,10 @@
  * Copyright (C) 2014 Abylay Ospan <aospan@netup.ru>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
 #include "netup_unidvb.h"
 
 #define NETUP_I2C_BUS0_ADDR		0x4800

@@ -7,21 +7,21 @@
  * Copyright (C) 2002, 2004 Oracle.  All rights reserved.
  */
 
-#include <linux/capability.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/uio.h>
-#include <linux/sched.h>
-#include <linux/splice.h>
-#include <linux/mount.h>
-#include <linux/writeback.h>
-#include <linux/falloc.h>
-#include <linux/quotaops.h>
-#include <linux/blkdev.h>
-#include <linux/backing-dev.h>
+#include <peenux/capability.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/uio.h>
+#include <peenux/sched.h>
+#include <peenux/splice.h>
+#include <peenux/mount.h>
+#include <peenux/writeback.h>
+#include <peenux/falloc.h>
+#include <peenux/quotaops.h>
+#include <peenux/blkdev.h>
+#include <peenux/backing-dev.h>
 
 #include <cluster/masklog.h>
 

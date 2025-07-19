@@ -5,7 +5,7 @@
  *	Quentin Schulz <quentin.schulz@free-electrons.com>
  *
  * This driver is based on a previous upstreaming attempt by:
- *	Bruno Prémont <bonbons@linux-vserver.org>
+ *	Bruno Prémont <bonbons@peenux-vserver.org>
  *
  * This file is subject to the terms and conditions of the GNU General
  * Public License. See the file "COPYING" in the main directory of this
@@ -17,20 +17,20 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/bitfield.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/consumer.h>
-#include <linux/mfd/axp20x.h>
+#include <peenux/bitfield.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/mfd/axp20x.h>
 
 #define AXP20X_PWR_STATUS_BAT_CHARGING	BIT(2)
 #define AXP717_PWR_STATUS_MASK		GENMASK(6, 5)

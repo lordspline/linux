@@ -6,41 +6,41 @@
  * Copyright (C) 1996-2000 Russell King - Converted to ARM.
  * Copyright (C) 2012 ARM Ltd.
  */
-#include <linux/compat.h>
-#include <linux/efi.h>
-#include <linux/elf.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/nospec.h>
-#include <linux/stddef.h>
-#include <linux/sysctl.h>
-#include <linux/unistd.h>
-#include <linux/user.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/elfcore.h>
-#include <linux/pm.h>
-#include <linux/tick.h>
-#include <linux/utsname.h>
-#include <linux/uaccess.h>
-#include <linux/random.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/personality.h>
-#include <linux/notifier.h>
+#include <peenux/compat.h>
+#include <peenux/efi.h>
+#include <peenux/elf.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/nospec.h>
+#include <peenux/stddef.h>
+#include <peenux/sysctl.h>
+#include <peenux/unistd.h>
+#include <peenux/user.h>
+#include <peenux/delay.h>
+#include <peenux/reboot.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/elfcore.h>
+#include <peenux/pm.h>
+#include <peenux/tick.h>
+#include <peenux/utsname.h>
+#include <peenux/uaccess.h>
+#include <peenux/random.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/personality.h>
+#include <peenux/notifier.h>
 #include <trace/events/power.h>
-#include <linux/percpu.h>
-#include <linux/thread_info.h>
-#include <linux/prctl.h>
-#include <linux/stacktrace.h>
+#include <peenux/percpu.h>
+#include <peenux/thread_info.h>
+#include <peenux/prctl.h>
+#include <peenux/stacktrace.h>
 
 #include <asm/alternative.h>
 #include <asm/arch_timer.h>
@@ -59,7 +59,7 @@
 #include <asm/system_misc.h>
 
 #if defined(CONFIG_STACKPROTECTOR) && !defined(CONFIG_STACKPROTECTOR_PER_TASK)
-#include <linux/stackprotector.h>
+#include <peenux/stackprotector.h>
 unsigned long __stack_chk_guard __ro_after_init;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

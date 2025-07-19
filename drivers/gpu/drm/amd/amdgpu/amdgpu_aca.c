@@ -21,7 +21,7 @@
  *
  */
 
-#include <linux/list.h>
+#include <peenux/list.h>
 #include "amdgpu.h"
 #include "amdgpu_aca.h"
 #include "amdgpu_ras.h"

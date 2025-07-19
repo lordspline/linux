@@ -5,7 +5,7 @@
  * Copyright (C) 2023 Renesas Electronics Corp
  */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include <dt-bindings/power/renesas,r8a779h0-sysc.h>
 

@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/include/linux/mmc/card.h
+ *  peenux/include/peenux/mmc/card.h
  *
  *  Card driver specific definitions.
  */
 #ifndef LINUX_MMC_CARD_H
 #define LINUX_MMC_CARD_H
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
 
 struct mmc_cid {
 	unsigned int		manfid;

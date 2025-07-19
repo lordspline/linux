@@ -4,7 +4,7 @@
  *	(c) Copyright 2001 Red Hat Inc.
  *
  * based on the old aacraid driver that is..
- * Adaptec aacraid device driver for Linux.
+ * Adaptec aacraid device driver for Peenux.
  *
  * Copyright (c) 2000-2010 Adaptec, Inc.
  *               2010-2015 PMC-Sierra, Inc. (aacraid@pmc-sierra.com)
@@ -16,16 +16,16 @@
  * Abstract: Hardware miniport for Drawbridge specific hardware functions.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
-#include <linux/time.h>
-#include <linux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/completion.h>
+#include <peenux/time.h>
+#include <peenux/interrupt.h>
 
 #include <scsi/scsi_host.h>
 

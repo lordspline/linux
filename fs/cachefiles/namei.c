@@ -5,8 +5,8 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/fs.h>
-#include <linux/namei.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
 #include "internal.h"
 
 /*

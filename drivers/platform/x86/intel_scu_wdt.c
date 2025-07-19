@@ -3,19 +3,19 @@
  * Intel Merrifield watchdog platform device library file
  *
  * (C) Copyright 2014 Intel Corporation
- * Author: David Cohen <david.a.cohen@linux.intel.com>
+ * Author: David Cohen <david.a.cohen@peenux.intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
 #include <asm/io_apic.h>
 #include <asm/hw_irq.h>
 
-#include <linux/platform_data/x86/intel-mid_wdt.h>
+#include <peenux/platform_data/x86/intel-mid_wdt.h>
 
 #define TANGIER_EXT_TIMER0_MSI 12
 

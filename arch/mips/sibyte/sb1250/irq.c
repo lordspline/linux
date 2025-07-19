@@ -2,14 +2,14 @@
 /*
  * Copyright (C) 2000, 2001, 2002, 2003 Broadcom Corporation
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/kernel_stat.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/smp.h>
+#include <peenux/mm.h>
+#include <peenux/kernel_stat.h>
 
 #include <asm/errno.h>
 #include <asm/signal.h>

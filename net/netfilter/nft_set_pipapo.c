@@ -328,16 +328,16 @@
  *      https://www.sigcomm.org/sites/default/files/ccr/papers/2014/August/2619239-2626294.pdf
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netlink.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/nf_tables.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/netlink.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/nf_tables.h>
 #include <net/netfilter/nf_tables_core.h>
-#include <uapi/linux/netfilter/nf_tables.h>
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
+#include <uapi/peenux/netfilter/nf_tables.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
 
 #include "nft_set_pipapo_avx2.h"
 #include "nft_set_pipapo.h"

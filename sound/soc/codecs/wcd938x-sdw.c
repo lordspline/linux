@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2021, Linaro Limited
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/component.h>
-#include <linux/pm_runtime.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/component.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_type.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include "wcd938x.h"

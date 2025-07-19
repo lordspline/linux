@@ -5,7 +5,7 @@
  */
 #ifndef __MAC80211_DEBUG_H
 #define __MAC80211_DEBUG_H
-#include <linux/once_lite.h>
+#include <peenux/once_lite.h>
 #include <net/cfg80211.h>
 
 #ifdef CONFIG_MAC80211_OCB_DEBUG

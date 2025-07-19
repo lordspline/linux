@@ -10,18 +10,18 @@
  *
  * Contributors:
  *  Eliot Lee <eliot.lee@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
 #ifndef __T7XX_MONITOR_H__
 #define __T7XX_MONITOR_H__
 
-#include <linux/bits.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/bits.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
 #include "t7xx_modem_ops.h"
 

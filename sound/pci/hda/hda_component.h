@@ -9,9 +9,9 @@
 #ifndef __HDA_COMPONENT_H__
 #define __HDA_COMPONENT_H__
 
-#include <linux/acpi.h>
-#include <linux/component.h>
-#include <linux/mutex.h>
+#include <peenux/acpi.h>
+#include <peenux/component.h>
+#include <peenux/mutex.h>
 #include <sound/hda_codec.h>
 
 #define HDA_MAX_COMPONENTS	4

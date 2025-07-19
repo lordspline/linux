@@ -12,26 +12,26 @@
  * Author: Sylwester Nawrocki <s.nawrocki@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/extcon-provider.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/phy-sun4i-usb.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
-#include <linux/usb/of.h>
-#include <linux/workqueue.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/phy/phy-sun4i-usb.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
+#include <peenux/usb/of.h>
+#include <peenux/workqueue.h>
 
 #define REG_ISCR			0x00
 #define REG_PHYCTL_A10			0x04

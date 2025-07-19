@@ -10,17 +10,17 @@
  * Author: Andre Werner <andre.werner@systec-electronic.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 /* Measurement times */
 #define HS3001_WAKEUP_TIME	100	/* us */

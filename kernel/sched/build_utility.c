@@ -9,43 +9,43 @@
  *   coalescing source files to amortize header inclusion
  *   cost. )
  */
-#include <linux/sched/clock.h>
-#include <linux/sched/cputime.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/isolation.h>
-#include <linux/sched/loadavg.h>
-#include <linux/sched/nohz.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/rseq_api.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/sched/loadavg.h>
+#include <peenux/sched/nohz.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/rseq_api.h>
+#include <peenux/sched/task_stack.h>
 
-#include <linux/cpufreq.h>
-#include <linux/cpumask_api.h>
-#include <linux/cpuset.h>
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/energy_model.h>
-#include <linux/hashtable_api.h>
-#include <linux/irq.h>
-#include <linux/kobject_api.h>
-#include <linux/membarrier.h>
-#include <linux/mempolicy.h>
-#include <linux/nmi.h>
-#include <linux/nospec.h>
-#include <linux/proc_fs.h>
-#include <linux/psi.h>
-#include <linux/ptrace_api.h>
-#include <linux/sched_clock.h>
-#include <linux/security.h>
-#include <linux/spinlock_api.h>
-#include <linux/swait_api.h>
-#include <linux/timex.h>
-#include <linux/utsname.h>
-#include <linux/wait_api.h>
-#include <linux/workqueue_api.h>
+#include <peenux/cpufreq.h>
+#include <peenux/cpumask_api.h>
+#include <peenux/cpuset.h>
+#include <peenux/ctype.h>
+#include <peenux/debugfs.h>
+#include <peenux/energy_model.h>
+#include <peenux/hashtable_api.h>
+#include <peenux/irq.h>
+#include <peenux/kobject_api.h>
+#include <peenux/membarrier.h>
+#include <peenux/mempolicy.h>
+#include <peenux/nmi.h>
+#include <peenux/nospec.h>
+#include <peenux/proc_fs.h>
+#include <peenux/psi.h>
+#include <peenux/ptrace_api.h>
+#include <peenux/sched_clock.h>
+#include <peenux/security.h>
+#include <peenux/spinlock_api.h>
+#include <peenux/swait_api.h>
+#include <peenux/timex.h>
+#include <peenux/utsname.h>
+#include <peenux/wait_api.h>
+#include <peenux/workqueue_api.h>
 
-#include <uapi/linux/prctl.h>
-#include <uapi/linux/sched/types.h>
+#include <uapi/peenux/prctl.h>
+#include <uapi/peenux/sched/types.h>
 
 #include <asm/switch_to.h>
 

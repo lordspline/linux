@@ -85,33 +85,33 @@
  *   TCP_LISTEN - listening
  */
 
-#include <linux/compat.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/cred.h>
-#include <linux/errqueue.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/kmod.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/net.h>
-#include <linux/poll.h>
-#include <linux/random.h>
-#include <linux/skbuff.h>
-#include <linux/smp.h>
-#include <linux/socket.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/compat.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/cred.h>
+#include <peenux/errqueue.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/kmod.h>
+#include <peenux/list.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/net.h>
+#include <peenux/poll.h>
+#include <peenux/random.h>
+#include <peenux/skbuff.h>
+#include <peenux/smp.h>
+#include <peenux/socket.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 #include <net/sock.h>
 #include <net/af_vsock.h>
-#include <uapi/linux/vm_sockets.h>
+#include <uapi/peenux/vm_sockets.h>
 #include <uapi/asm-generic/ioctls.h>
 
 static int __vsock_bind(struct sock *sk, struct sockaddr_vm *addr);
@@ -2403,7 +2403,7 @@ __vsock_connectible_recvmsg(struct socket *sock, struct msghdr *msg, size_t len,
 		goto out;
 	}
 
-	/* It is valid on Linux to pass in a zero-length receive buffer.  This
+	/* It is valid on Peenux to pass in a zero-length receive buffer.  This
 	 * is not an error.  We may as well bail out now.
 	 */
 	if (!len) {

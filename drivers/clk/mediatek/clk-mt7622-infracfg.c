@@ -6,8 +6,8 @@
  */
 
 #include <dt-bindings/clock/mt7622-clk.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "clk-cpumux.h"
 #include "clk-gate.h"

@@ -1,5 +1,5 @@
 /*
- * This file is part of the Chelsio FCoE driver for Linux.
+ * This file is part of the Chelsio FCoE driver for Peenux.
  *
  * Copyright (c) 2008-2012 Chelsio Communications, Inc. All rights reserved.
  *
@@ -32,13 +32,13 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/utsname.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/utsname.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_transport_fc.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <scsi/fc/fc_els.h>
 #include <scsi/fc/fc_fs.h>
 #include <scsi/fc/fc_gs.h>

@@ -6,21 +6,21 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/dmaengine.h>
-#include <linux/fpga/adi-axi-common.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/spi/offload/provider.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/dmaengine.h>
+#include <peenux/fpga/adi-axi-common.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/offload/provider.h>
+#include <peenux/spi/spi.h>
 #include <trace/events/spi.h>
 
 #define SPI_ENGINE_REG_OFFLOAD_MEM_ADDR_WIDTH	0x10

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2018 The Linux Foundation. All rights reserved.
+ * Copyright (C) 2018 The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
 #include <dt-bindings/reset/qcom,sdm845-aoss.h>
 
 struct qcom_aoss_reset_map {

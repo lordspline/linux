@@ -10,7 +10,7 @@
 #include <asm/cpu_device_id.h>
 #include <asm/processor.h>
 
-#include <linux/i2c.h>
+#include <peenux/i2c.h>
 #include <media/v4l2-subdev.h>
 #include "atomisp.h"
 

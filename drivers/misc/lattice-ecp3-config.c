@@ -3,15 +3,15 @@
  * Copyright (C) 2012 Stefan Roese <sr@denx.de>
  */
 
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/spi/spi.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/unaligned.h>
 
 #define FIRMWARE_NAME	"lattice-ecp3.bit"
 

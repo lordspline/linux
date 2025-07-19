@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/pxafb.c
+ *  peenux/drivers/video/pxafb.c
  *
  *  Copyright (C) 1999 Eric A. Thomas.
  *  Copyright (C) 2004 Jean-Frederic Clere.
@@ -18,7 +18,7 @@
  * Please direct your questions and comments on this driver to the following
  * email address:
  *
- *	linux-arm-kernel@lists.arm.linux.org.uk
+ *	peenux-arm-kernel@lists.arm.peenux.org.uk
  *
  * Add support for overlay1 and overlay2 based on pxafb_overlay.c:
  *
@@ -32,39 +32,39 @@
  *   All Rights Reserved
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/cpufreq.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/console.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
-#include <linux/soc/pxa/cpu.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/fb.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/cpufreq.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
+#include <peenux/console.h>
+#include <peenux/of_graph.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/soc/pxa/cpu.h>
 #include <video/of_display_timing.h>
 #include <video/videomode.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/div64.h>
-#include <linux/platform_data/video-pxafb.h>
+#include <peenux/platform_data/video-pxafb.h>
 
 /*
  * Complain if VAR is out of range.

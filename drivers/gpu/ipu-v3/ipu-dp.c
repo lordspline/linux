@@ -3,12 +3,12 @@
  * Copyright (c) 2010 Sascha Hauer <s.hauer@pengutronix.de>
  * Copyright (C) 2005-2009 Freescale Semiconductor, Inc.
  */
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/err.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
 
 #include <drm/drm_color_mgmt.h>
 #include <video/imx-ipu-v3.h>

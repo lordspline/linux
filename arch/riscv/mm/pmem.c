@@ -3,8 +3,8 @@
  * Copyright (C) 2022 Ventana Micro Systems Inc.
  */
 
-#include <linux/export.h>
-#include <linux/libnvdimm.h>
+#include <peenux/export.h>
+#include <peenux/libnvdimm.h>
 
 #include <asm/cacheflush.h>
 #include <asm/dma-noncoherent.h>

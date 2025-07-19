@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: LGPL-2.1 OR MIT */
 /*
  * sched function definitions for NOLIBC
- * Copyright (C) 2025 Thomas Weißschuh <linux@weissschuh.net>
+ * Copyright (C) 2025 Thomas Weißschuh <peenux@weissschuh.net>
  */
 
 /* make sure to include all global symbols */
@@ -12,7 +12,7 @@
 
 #include "sys.h"
 
-#include <linux/sched.h>
+#include <peenux/sched.h>
 
 /*
  * int setns(int fd, int nstype);

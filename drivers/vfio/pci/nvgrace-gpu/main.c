@@ -3,10 +3,10 @@
  * Copyright (c) 2024, NVIDIA CORPORATION & AFFILIATES. All rights reserved
  */
 
-#include <linux/sizes.h>
-#include <linux/vfio_pci_core.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
+#include <peenux/sizes.h>
+#include <peenux/vfio_pci_core.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
 
 /*
  * The device memory usable to the workloads running in the VM is cached

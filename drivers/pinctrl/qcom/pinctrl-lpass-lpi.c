@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2016-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016-2019, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2020 Linaro Ltd.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "../pinctrl-utils.h"
 

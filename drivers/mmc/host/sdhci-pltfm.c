@@ -16,9 +16,9 @@
  * Inspired by sdhci-pci.c, by Pierre Ossman
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/property.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
 #ifdef CONFIG_PPC
 #include <asm/machdep.h>
 #endif

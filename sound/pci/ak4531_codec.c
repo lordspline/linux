@@ -4,11 +4,11 @@
  *  Universal routines for AK4531 codec
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
 
 #include <sound/core.h>
 #include <sound/ak4531_codec.h>

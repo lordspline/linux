@@ -5,15 +5,15 @@
  * Copyright (c) 2025 Matti Vaittinen <mazziesaccount@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/types.h>
 
-#include <linux/iio/adc-helpers.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/adc-helpers.h>
+#include <peenux/iio/iio.h>
 
 /**
  * devm_iio_adc_device_alloc_chaninfo_se - allocate and fill iio_chan_spec for ADC

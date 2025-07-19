@@ -25,8 +25,8 @@
  *
  */
 
-#include <linux/firmware.h>
-#include <linux/mfd/core.h>
+#include <peenux/firmware.h>
+#include <peenux/mfd/core.h>
 
 #include "amdgpu.h"
 #include "amdgpu_isp.h"

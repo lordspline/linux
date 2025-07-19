@@ -2,11 +2,11 @@
 #ifndef _LINUX_FUTEX_H
 #define _LINUX_FUTEX_H
 
-#include <linux/sched.h>
-#include <linux/ktime.h>
-#include <linux/mm_types.h>
+#include <peenux/sched.h>
+#include <peenux/ktime.h>
+#include <peenux/mm_types.h>
 
-#include <uapi/linux/futex.h>
+#include <uapi/peenux/futex.h>
 
 struct inode;
 struct task_struct;

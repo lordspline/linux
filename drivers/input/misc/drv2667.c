@@ -7,14 +7,14 @@
  * Copyright: (C) 2014 Texas Instruments, Inc.
  */
 
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/regulator/consumer.h>
 
 /* Control registers */
 #define DRV2667_STATUS	0x00

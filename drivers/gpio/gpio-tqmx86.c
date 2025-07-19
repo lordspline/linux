@@ -6,18 +6,18 @@
  *   Vadim V.Vlasov <vvlasov@dev.rtsoft.ru>
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 #define TQMX86_NGPIO	8
 #define TQMX86_NGPO	4	/* 0-3 - output */

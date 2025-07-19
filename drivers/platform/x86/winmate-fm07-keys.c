@@ -4,13 +4,13 @@
 //
 // Author: Daniel Beer <daniel.beer@tirotech.co.nz>
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/dmi.h>
+#include <peenux/io.h>
 
 #define DRV_NAME	"winmate-fm07keys"
 

@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/seq_file.h>
+#include <peenux/pci.h>
+#include <peenux/seq_file.h>
 
 #include "r600_dpm.h"
 #include "radeon.h"

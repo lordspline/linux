@@ -4,25 +4,25 @@
  * Implementation of primary ALSA driver code base for NVIDIA Tegra HDA.
  */
 
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/string.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/clocksource.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/string.h>
+#include <peenux/pm_runtime.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>

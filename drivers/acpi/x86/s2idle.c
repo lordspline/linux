@@ -3,7 +3,7 @@
  * Architecture-specific ACPI-based support for suspend-to-idle.
  *
  * Author: Rafael J. Wysocki <rafael.j.wysocki@intel.com>
- * Author: Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>
+ * Author: Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>
  * Author: Shyam Sundar S K <Shyam-sundar.S-k@amd.com>
  *
  * On platforms supporting the Low Power S0 Idle interface there is an ACPI
@@ -15,10 +15,10 @@
  * mode accordingly.
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/suspend.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/suspend.h>
 
 #include "../sleep.h"
 

@@ -4,13 +4,13 @@
 #ifndef _ICE_VF_LIB_H_
 #define _ICE_VF_LIB_H_
 
-#include <linux/types.h>
-#include <linux/hashtable.h>
-#include <linux/bitmap.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
+#include <peenux/types.h>
+#include <peenux/hashtable.h>
+#include <peenux/bitmap.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
 #include <net/devlink.h>
-#include <linux/avf/virtchnl.h>
+#include <peenux/avf/virtchnl.h>
 #include "ice_type.h"
 #include "ice_flow.h"
 #include "ice_virtchnl_fdir.h"

@@ -31,10 +31,10 @@
  */
 #ifndef _UAPI_LINUX_VIRTIO_CONSOLE_H
 #define _UAPI_LINUX_VIRTIO_CONSOLE_H
-#include <linux/types.h>
-#include <linux/virtio_types.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio_config.h>
+#include <peenux/types.h>
+#include <peenux/virtio_types.h>
+#include <peenux/virtio_ids.h>
+#include <peenux/virtio_config.h>
 
 /* Feature bits */
 #define VIRTIO_CONSOLE_F_SIZE	0	/* Does host provide console size? */

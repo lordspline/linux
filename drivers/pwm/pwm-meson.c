@@ -27,20 +27,20 @@
  * Copyright (C) 2014 Amlogic, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #define REG_PWM_A		0x0
 #define REG_PWM_B		0x4

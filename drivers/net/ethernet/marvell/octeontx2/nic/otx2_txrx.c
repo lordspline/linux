@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/etherdevice.h>
+#include <peenux/etherdevice.h>
 #include <net/ip.h>
 #include <net/tso.h>
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_trace.h>
 #include <net/ip6_checksum.h>
 #include <net/xfrm.h>
 #include <net/xdp.h>

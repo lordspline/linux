@@ -4,25 +4,25 @@
  * Copyright (c) 2017 Yotam Gigi <yotamg@mellanox.com>
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/gfp.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/gfp.h>
 #include <net/net_namespace.h>
 #include <net/netlink.h>
 #include <net/pkt_sched.h>
-#include <linux/tc_act/tc_sample.h>
+#include <peenux/tc_act/tc_sample.h>
 #include <net/tc_act/tc_sample.h>
 #include <net/psample.h>
 #include <net/pkt_cls.h>
 #include <net/tc_wrapper.h>
 
-#include <linux/if_arp.h>
+#include <peenux/if_arp.h>
 
 static struct tc_action_ops act_sample_ops;
 

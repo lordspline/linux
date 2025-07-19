@@ -3,8 +3,8 @@
 #ifndef _ASM_KVM_HOST_TYPES_H
 #define _ASM_KVM_HOST_TYPES_H
 
-#include <linux/atomic.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/types.h>
 
 #define KVM_S390_BSCA_CPU_SLOTS 64
 #define KVM_S390_ESCA_CPU_SLOTS 248

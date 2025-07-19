@@ -8,10 +8,10 @@
  * Author: Mario Limonciello <mario.limonciello@amd.com>
  */
 
-#include <linux/dmi.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/platform_data/x86/amd-fch.h>
+#include <peenux/dmi.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_data/x86/amd-fch.h>
 
 #include "pmc.h"
 

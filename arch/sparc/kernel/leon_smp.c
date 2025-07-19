@@ -9,29 +9,29 @@
 
 #include <asm/head.h>
 
-#include <linux/kernel.h>
-#include <linux/sched/mm.h>
-#include <linux/threads.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/of.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/profile.h>
-#include <linux/pm.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/cpu.h>
-#include <linux/clockchips.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/mm.h>
+#include <peenux/threads.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/of.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/profile.h>
+#include <peenux/pm.h>
+#include <peenux/delay.h>
+#include <peenux/gfp.h>
+#include <peenux/cpu.h>
+#include <peenux/clockchips.h>
 
 #include <asm/cacheflush.h>
 #include <asm/tlbflush.h>
 
 #include <asm/ptrace.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/irq_regs.h>
 #include <asm/traps.h>
 

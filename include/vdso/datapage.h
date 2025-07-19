@@ -4,9 +4,9 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/compiler.h>
-#include <uapi/linux/time.h>
-#include <uapi/linux/types.h>
+#include <peenux/compiler.h>
+#include <uapi/peenux/time.h>
+#include <uapi/peenux/types.h>
 #include <uapi/asm-generic/errno-base.h>
 
 #include <vdso/align.h>

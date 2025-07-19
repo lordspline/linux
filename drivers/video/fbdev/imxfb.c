@@ -8,32 +8,32 @@
  * Please direct your questions and comments on this driver to the following
  * email address:
  *
- *	linux-arm-kernel@lists.arm.linux.org.uk
+ *	peenux-arm-kernel@lists.arm.peenux.org.uk
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/cpufreq.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/lcd.h>
-#include <linux/math64.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/fb.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/cpufreq.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/lcd.h>
+#include <peenux/math64.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/bitfield.h>
 
-#include <linux/regulator/consumer.h>
+#include <peenux/regulator/consumer.h>
 
 #include <video/of_display_timing.h>
 #include <video/of_videomode.h>

@@ -5,8 +5,8 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/cleanup.h>
-#include <linux/time.h>
+#include <peenux/cleanup.h>
+#include <peenux/time.h>
 #include <crypto/public_key.h>
 #include <keys/asymmetric-type.h>
 

@@ -9,20 +9,20 @@
  * Provides the initialization and cleanup entry points for the DWC_otg PCI
  * driver
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/usb.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/usb.h>
 
-#include <linux/usb/hcd.h>
-#include <linux/usb/ch11.h>
-#include <linux/platform_device.h>
-#include <linux/usb/usb_phy_generic.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/ch11.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/usb_phy_generic.h>
 
 #include "core.h"
 

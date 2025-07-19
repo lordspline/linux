@@ -2,7 +2,7 @@
 #ifndef _ASM_RISCV_VENDOR_EXTENSIONS_SIFIVE_HWPROBE_H
 #define _ASM_RISCV_VENDOR_EXTENSIONS_SIFIVE_HWPROBE_H
 
-#include <linux/cpumask.h>
+#include <peenux/cpumask.h>
 
 #include <uapi/asm/hwprobe.h>
 

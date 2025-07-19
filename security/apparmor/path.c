@@ -8,14 +8,14 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/magic.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/nsproxy.h>
-#include <linux/path.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/fs_struct.h>
+#include <peenux/magic.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/nsproxy.h>
+#include <peenux/path.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/fs_struct.h>
 
 #include "include/apparmor.h"
 #include "include/path.h"

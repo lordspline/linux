@@ -6,9 +6,9 @@
  *
  * Authors: Dipankar Sarma <dipankar@in.ibm.com>
  *	    Manfred Spraul <manfred@colorfullife.com>
- *	    Paul E. McKenney <paulmck@linux.ibm.com>
+ *	    Paul E. McKenney <paulmck@peenux.ibm.com>
  *
- * Based on the original work by Paul McKenney <paulmck@linux.ibm.com>
+ * Based on the original work by Paul McKenney <paulmck@peenux.ibm.com>
  * and inputs from Rusty Russell, Andrea Arcangeli and Andi Kleen.
  *
  * For detailed explanation of Read-Copy Update mechanism see -
@@ -17,53 +17,53 @@
 
 #define pr_fmt(fmt) "rcu: " fmt
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/rcupdate_wait.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/nmi.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/export.h>
-#include <linux/completion.h>
-#include <linux/kmemleak.h>
-#include <linux/moduleparam.h>
-#include <linux/panic.h>
-#include <linux/panic_notifier.h>
-#include <linux/percpu.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/mutex.h>
-#include <linux/time.h>
-#include <linux/kernel_stat.h>
-#include <linux/wait.h>
-#include <linux/kthread.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/prefetch.h>
-#include <linux/delay.h>
-#include <linux/random.h>
-#include <linux/trace_events.h>
-#include <linux/suspend.h>
-#include <linux/ftrace.h>
-#include <linux/tick.h>
-#include <linux/sysrq.h>
-#include <linux/kprobes.h>
-#include <linux/gfp.h>
-#include <linux/oom.h>
-#include <linux/smpboot.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/sched/isolation.h>
-#include <linux/sched/clock.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/kasan.h>
-#include <linux/context_tracking.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/smp.h>
+#include <peenux/rcupdate_wait.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/nmi.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/export.h>
+#include <peenux/completion.h>
+#include <peenux/kmemleak.h>
+#include <peenux/moduleparam.h>
+#include <peenux/panic.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/percpu.h>
+#include <peenux/notifier.h>
+#include <peenux/cpu.h>
+#include <peenux/mutex.h>
+#include <peenux/time.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/wait.h>
+#include <peenux/kthread.h>
+#include <uapi/peenux/sched/types.h>
+#include <peenux/prefetch.h>
+#include <peenux/delay.h>
+#include <peenux/random.h>
+#include <peenux/trace_events.h>
+#include <peenux/suspend.h>
+#include <peenux/ftrace.h>
+#include <peenux/tick.h>
+#include <peenux/sysrq.h>
+#include <peenux/kprobes.h>
+#include <peenux/gfp.h>
+#include <peenux/oom.h>
+#include <peenux/smpboot.h>
+#include <peenux/jiffies.h>
+#include <peenux/slab.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/sched/clock.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mm.h>
+#include <peenux/kasan.h>
+#include <peenux/context_tracking.h>
 #include "../time/tick-internal.h"
 
 #include "tree.h"

@@ -7,17 +7,17 @@
  *	- initialize default measure policy rules
  */
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/kernel_read_file.h>
-#include <linux/fs.h>
-#include <linux/security.h>
-#include <linux/magic.h>
-#include <linux/parser.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
-#include <linux/seq_file.h>
-#include <linux/ima.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/fs.h>
+#include <peenux/security.h>
+#include <peenux/magic.h>
+#include <peenux/parser.h>
+#include <peenux/slab.h>
+#include <peenux/rculist.h>
+#include <peenux/seq_file.h>
+#include <peenux/ima.h>
 
 #include "ima.h"
 

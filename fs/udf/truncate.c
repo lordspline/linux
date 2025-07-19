@@ -16,8 +16,8 @@
  */
 
 #include "udfdecl.h"
-#include <linux/fs.h>
-#include <linux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
 
 #include "udf_i.h"
 #include "udf_sb.h"

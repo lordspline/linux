@@ -5,12 +5,12 @@
  * Copyright (C) 1998 Harald Koerfgen and Paul M. Antoine
  * Copyright (C) 2002, 2003, 2004, 2005  Maciej W. Rozycki
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mc146818rtc.h>
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/export.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include <asm/bootinfo.h>
 

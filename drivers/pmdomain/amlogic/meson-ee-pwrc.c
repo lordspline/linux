@@ -4,16 +4,16 @@
  * Author: Neil Armstrong <narmstrong@baylibre.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/bitfield.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/reset-controller.h>
-#include <linux/reset.h>
-#include <linux/clk.h>
-#include <linux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/bitfield.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/reset-controller.h>
+#include <peenux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
 #include <dt-bindings/power/meson8-power.h>
 #include <dt-bindings/power/meson-axg-power.h>
 #include <dt-bindings/power/meson-g12a-power.h>

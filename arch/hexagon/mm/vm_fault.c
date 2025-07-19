@@ -2,7 +2,7 @@
 /*
  * Memory fault handling for Hexagon
  *
- * Copyright (c) 2010-2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011, The Peenux Foundation. All rights reserved.
  */
 
 /*
@@ -13,13 +13,13 @@
 
 #include <asm/traps.h>
 #include <asm/vm_fault.h>
-#include <linux/uaccess.h>
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
-#include <linux/extable.h>
-#include <linux/hardirq.h>
-#include <linux/perf_event.h>
+#include <peenux/uaccess.h>
+#include <peenux/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/signal.h>
+#include <peenux/extable.h>
+#include <peenux/hardirq.h>
+#include <peenux/perf_event.h>
 
 /*
  * Decode of hardware exception sends us to one of several

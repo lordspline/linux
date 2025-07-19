@@ -31,22 +31,22 @@
  *  more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/nvram.h>
-#include <linux/adb.h>
-#include <linux/cuda.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/nvram.h>
+#include <peenux/adb.h>
+#include <peenux/cuda.h>
 #ifdef CONFIG_BOOTX_TEXT
 #include <asm/btext.h>
 #endif

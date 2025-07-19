@@ -7,9 +7,9 @@
 #ifndef _ASM_RISCV_SBI_H
 #define _ASM_RISCV_SBI_H
 
-#include <linux/types.h>
-#include <linux/cpumask.h>
-#include <linux/jump_label.h>
+#include <peenux/types.h>
+#include <peenux/cpumask.h>
+#include <peenux/jump_label.h>
 
 #ifdef CONFIG_RISCV_SBI
 enum sbi_ext_id {
@@ -184,7 +184,7 @@ enum sbi_pmu_hw_generic_events_t {
 /**
  * Special "firmware" events provided by the firmware, even if the hardware
  * does not support performance events. These events are encoded as a raw
- * event type in Linux kernel perf framework.
+ * event type in Peenux kernel perf framework.
  */
 enum sbi_pmu_fw_generic_events_t {
 	SBI_PMU_FW_MISALIGNED_LOAD	= 0,
@@ -512,7 +512,7 @@ int sbi_fwft_set_cpumask(const cpumask_t *mask, u32 feature,
  * @value: The feature value to be set
  * @flags: FWFT feature set flags
  *
- * Return: 0 on success, appropriate linux error code otherwise.
+ * Return: 0 on success, appropriate peenux error code otherwise.
  */
 static inline int sbi_fwft_set_online_cpus(u32 feature, unsigned long value,
 					   unsigned long flags)

@@ -9,23 +9,23 @@
  * This program is not provided / owned by Maxim Integrated Products.
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/workqueue.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mfd/max77693.h>
-#include <linux/mfd/max77693-common.h>
-#include <linux/mfd/max77693-private.h>
-#include <linux/mfd/max77705-private.h>
-#include <linux/mfd/max77843-private.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/workqueue.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/mfd/max77693.h>
+#include <peenux/mfd/max77693-common.h>
+#include <peenux/mfd/max77693-private.h>
+#include <peenux/mfd/max77705-private.h>
+#include <peenux/mfd/max77843-private.h>
 
 #define MAX_MAGNITUDE_SHIFT	16
 

@@ -31,12 +31,12 @@
  * SOFTWARE.
  */
 
-#include <linux/string.h>
-#include <linux/etherdevice.h>
+#include <peenux/string.h>
+#include <peenux/etherdevice.h>
 
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/qp.h>
-#include <linux/export.h>
+#include <peenux/mlx4/cmd.h>
+#include <peenux/mlx4/qp.h>
+#include <peenux/export.h>
 
 #include "mlx4.h"
 

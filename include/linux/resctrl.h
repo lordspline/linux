@@ -2,11 +2,11 @@
 #ifndef _RESCTRL_H
 #define _RESCTRL_H
 
-#include <linux/cacheinfo.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/pid.h>
-#include <linux/resctrl_types.h>
+#include <peenux/cacheinfo.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/pid.h>
+#include <peenux/resctrl_types.h>
 
 #ifdef CONFIG_ARCH_HAS_CPU_RESCTRL
 #include <asm/resctrl.h>

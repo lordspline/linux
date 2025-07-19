@@ -2,13 +2,13 @@
 /*
  * Copyright © 2023 Intel Corporation
  */
-#include <linux/dma-resv.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/ww_mutex.h>
+#include <peenux/dma-resv.h>
+#include <peenux/kthread.h>
+#include <peenux/delay.h>
+#include <peenux/timer.h>
+#include <peenux/jiffies.h>
+#include <peenux/mutex.h>
+#include <peenux/ww_mutex.h>
 
 #include <drm/ttm/ttm_resource.h>
 #include <drm/ttm/ttm_placement.h>

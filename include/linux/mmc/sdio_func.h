@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- *  include/linux/mmc/sdio_func.h
+ *  include/peenux/mmc/sdio_func.h
  *
  *  Copyright 2007-2008 Pierre Ossman
  */
@@ -8,10 +8,10 @@
 #ifndef LINUX_MMC_SDIO_FUNC_H
 #define LINUX_MMC_SDIO_FUNC_H
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
 
-#include <linux/mmc/pm.h>
+#include <peenux/mmc/pm.h>
 
 struct mmc_card;
 struct sdio_func;

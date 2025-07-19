@@ -5,17 +5,17 @@
  * Author: Kunihiko Hayashi <hayashi.kunihiko@socionext.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/bitops.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 
 #include "pcie-designware.h"
 

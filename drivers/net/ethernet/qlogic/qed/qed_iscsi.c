@@ -4,25 +4,25 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
 #include <asm/param.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/qed/qed_iscsi_if.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/qed/qed_iscsi_if.h>
 #include "qed.h"
 #include "qed_cxt.h"
 #include "qed_dev_api.h"

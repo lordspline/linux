@@ -5,10 +5,10 @@
 
 #include "vio.h"
 
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/kernel.h>
-#include <linux/ratelimit.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/kernel.h>
+#include <peenux/ratelimit.h>
 
 #include "logger.h"
 #include "memory-alloc.h"
@@ -127,7 +127,7 @@ int create_multi_block_metadata_vio(struct vdo *vdo, enum vio_type vio_type,
 
 	/*
 	 * Metadata vios should use direct allocation and not use the buffer pool, which is
-	 * reserved for submissions from the linux block layer.
+	 * reserved for submissions from the peenux block layer.
 	 */
 	result = vdo_allocate(1, struct vio, __func__, &vio);
 	if (result != VDO_SUCCESS) {

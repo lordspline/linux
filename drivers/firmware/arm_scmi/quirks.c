@@ -70,17 +70,17 @@
  *
  */
 
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/hashtable.h>
-#include <linux/kstrtox.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/static_key.h>
-#include <linux/string.h>
-#include <linux/stringhash.h>
-#include <linux/types.h>
+#include <peenux/ctype.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/hashtable.h>
+#include <peenux/kstrtox.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/static_key.h>
+#include <peenux/string.h>
+#include <peenux/stringhash.h>
+#include <peenux/types.h>
 
 #include "quirks.h"
 

@@ -48,11 +48,11 @@
 #include <crypto/internal/hash.h>
 #include <crypto/polyval.h>
 #include <crypto/utils.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/unaligned.h>
 
 struct polyval_tfm_ctx {
 	struct gf128mul_4k *gf128;

@@ -10,11 +10,11 @@
 
 #include <crypto/internal/hash.h>
 #include <crypto/sha2.h>
-#include <linux/compiler.h>
-#include <linux/math.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/compiler.h>
+#include <peenux/math.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 typedef void (sha512_block_fn)(struct sha512_state *sst, u8 const *src,
 			       int blocks);

@@ -9,23 +9,23 @@
  *
  * These are all the functions necessary to implement POSIX clocks & timers
  */
-#include <linux/compat.h>
-#include <linux/compiler.h>
-#include <linux/init.h>
-#include <linux/jhash.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/memblock.h>
-#include <linux/nospec.h>
-#include <linux/posix-clock.h>
-#include <linux/posix-timers.h>
-#include <linux/prctl.h>
-#include <linux/sched/task.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/time.h>
-#include <linux/time_namespace.h>
-#include <linux/uaccess.h>
+#include <peenux/compat.h>
+#include <peenux/compiler.h>
+#include <peenux/init.h>
+#include <peenux/jhash.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/memblock.h>
+#include <peenux/nospec.h>
+#include <peenux/posix-clock.h>
+#include <peenux/posix-timers.h>
+#include <peenux/prctl.h>
+#include <peenux/sched/task.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
+#include <peenux/time.h>
+#include <peenux/time_namespace.h>
+#include <peenux/uaccess.h>
 
 #include "timekeeping.h"
 #include "posix-timers.h"

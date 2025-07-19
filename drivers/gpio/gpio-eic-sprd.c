@@ -4,15 +4,15 @@
  * Copyright (C) 2018 Linaro Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/spinlock.h>
 
 /* EIC registers definition */
 #define SPRD_EIC_DBNC_DATA		0x0

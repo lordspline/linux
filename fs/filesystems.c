@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/filesystems.c
+ *  peenux/fs/filesystems.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
  *  table of configured filesystems
  */
 
-#include <linux/syscalls.h>
-#include <linux/fs.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/kmod.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/fs_parser.h>
+#include <peenux/syscalls.h>
+#include <peenux/fs.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/kmod.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/fs_parser.h>
 
 /*
  * Handling of filesystem drivers list.

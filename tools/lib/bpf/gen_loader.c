@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
-#include <linux/filter.h>
+#include <peenux/filter.h>
 #include <sys/param.h>
 #include "btf.h"
 #include "bpf.h"

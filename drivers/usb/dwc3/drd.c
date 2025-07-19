@@ -7,10 +7,10 @@
  * Authors: Roger Quadros <rogerq@ti.com>
  */
 
-#include <linux/extcon.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/extcon.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #include "debug.h"
 #include "core.h"

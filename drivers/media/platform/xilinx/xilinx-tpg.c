@@ -9,13 +9,13 @@
  *           Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/xilinx-v4l2-controls.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/xilinx-v4l2-controls.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-ctrls.h>

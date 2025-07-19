@@ -55,7 +55,7 @@ examples:
             offset = <0x08>;
             mask = <0x01>;
             label = "vexpress:0";
-            linux,default-trigger = "heartbeat";
+            peenux,default-trigger = "heartbeat";
             default-state = "on";
         };
     };

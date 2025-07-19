@@ -31,20 +31,20 @@
  *  "The futexes are also cursed."
  *  "But they come in a choice of three flavours!"
  */
-#include <linux/compat.h>
-#include <linux/jhash.h>
-#include <linux/pagemap.h>
-#include <linux/debugfs.h>
-#include <linux/plist.h>
-#include <linux/gfp.h>
-#include <linux/vmalloc.h>
-#include <linux/memblock.h>
-#include <linux/fault-inject.h>
-#include <linux/slab.h>
-#include <linux/prctl.h>
-#include <linux/rcuref.h>
-#include <linux/mempolicy.h>
-#include <linux/mmap_lock.h>
+#include <peenux/compat.h>
+#include <peenux/jhash.h>
+#include <peenux/pagemap.h>
+#include <peenux/debugfs.h>
+#include <peenux/plist.h>
+#include <peenux/gfp.h>
+#include <peenux/vmalloc.h>
+#include <peenux/memblock.h>
+#include <peenux/fault-inject.h>
+#include <peenux/slab.h>
+#include <peenux/prctl.h>
+#include <peenux/rcuref.h>
+#include <peenux/mempolicy.h>
+#include <peenux/mmap_lock.h>
 
 #include "futex.h"
 #include "../locking/rtmutex_common.h"

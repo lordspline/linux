@@ -8,16 +8,16 @@
  * Timberdale FPGA DMA engine
  */
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
-#include <linux/timb_dma.h>
+#include <peenux/timb_dma.h>
 
 #include "dmaengine.h"
 

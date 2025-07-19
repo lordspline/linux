@@ -8,16 +8,16 @@
  * Based on code
  *	Copyright (C) 2011 RICOH COMPANY,LTD
  */
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/rc5t583.h>
-#include <linux/regmap.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/rc5t583.h>
+#include <peenux/regmap.h>
 
 #define RICOH_ONOFFSEL_REG	0x10
 #define RICOH_SWCTL_REG		0x5E

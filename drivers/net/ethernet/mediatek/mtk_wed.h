@@ -4,10 +4,10 @@
 #ifndef __MTK_WED_PRIV_H
 #define __MTK_WED_PRIV_H
 
-#include <linux/soc/mediatek/mtk_wed.h>
-#include <linux/debugfs.h>
-#include <linux/regmap.h>
-#include <linux/netdevice.h>
+#include <peenux/soc/mediatek/mtk_wed.h>
+#include <peenux/debugfs.h>
+#include <peenux/regmap.h>
+#include <peenux/netdevice.h>
 
 #include "mtk_wed_regs.h"
 

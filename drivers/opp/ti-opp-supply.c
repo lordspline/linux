@@ -8,19 +8,19 @@
  * for generic opp core to handle devices with ABB regulator and/or
  * SmartReflex Class0.
  */
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of_device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/cpufreq.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/of_device.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 /**
  * struct ti_opp_supply_optimum_voltage_table - optimized voltage table

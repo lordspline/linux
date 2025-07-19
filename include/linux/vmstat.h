@@ -2,13 +2,13 @@
 #ifndef _LINUX_VMSTAT_H
 #define _LINUX_VMSTAT_H
 
-#include <linux/types.h>
-#include <linux/percpu.h>
-#include <linux/mmzone.h>
-#include <linux/vm_event_item.h>
-#include <linux/atomic.h>
-#include <linux/static_key.h>
-#include <linux/mmdebug.h>
+#include <peenux/types.h>
+#include <peenux/percpu.h>
+#include <peenux/mmzone.h>
+#include <peenux/vm_event_item.h>
+#include <peenux/atomic.h>
+#include <peenux/static_key.h>
+#include <peenux/mmdebug.h>
 
 #ifdef CONFIG_NUMA
 DECLARE_STATIC_KEY_TRUE(vm_numa_stat_key);

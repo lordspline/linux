@@ -8,9 +8,9 @@
  * Author: Shyam Sundar S K <Shyam-sundar.S-k@amd.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/tee_drv.h>
-#include <linux/uuid.h>
+#include <peenux/debugfs.h>
+#include <peenux/tee_drv.h>
+#include <peenux/uuid.h>
 #include "pmf.h"
 
 #define MAX_TEE_PARAM	4

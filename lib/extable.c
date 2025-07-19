@@ -5,12 +5,12 @@
  * Copyright (C) 2004 Paul Mackerras, IBM Corp.
  */
 
-#include <linux/bsearch.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sort.h>
-#include <linux/uaccess.h>
-#include <linux/extable.h>
+#include <peenux/bsearch.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sort.h>
+#include <peenux/uaccess.h>
+#include <peenux/extable.h>
 
 #ifndef ARCH_HAS_RELATIVE_EXTABLE
 #define ex_to_insn(x)	((x)->insn)

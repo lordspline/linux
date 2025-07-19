@@ -5,17 +5,17 @@
  * Copyright (C) 2007-2009, Florian Fainelli <florian@openwrt.org>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/leds.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio_keys.h>
-#include <linux/input.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/physmap.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/leds.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/input.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/physmap.h>
 #include <mtd/mtd-abi.h>
 #include <asm/bootinfo.h>
 #include <asm/reboot.h>

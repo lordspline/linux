@@ -16,16 +16,16 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/io.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
 
 /*
  * Bit counts are derived from Nokia implementation. These should be checked

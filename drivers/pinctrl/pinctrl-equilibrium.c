@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2019 Intel Corporation */
 
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #include "core.h"
 #include "pinconf.h"

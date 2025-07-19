@@ -3,19 +3,19 @@
  * Copyright (c) 2023, Arm Limited
  */
 
-#include <linux/arm_ffa.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
-#include <linux/xarray.h>
+#include <peenux/arm_ffa.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/limits.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/tee_core.h>
+#include <peenux/types.h>
+#include <peenux/uuid.h>
+#include <peenux/xarray.h>
 #include "tstee_private.h"
 
 #define FFA_DIRECT_REQ_ARG_NUM 5

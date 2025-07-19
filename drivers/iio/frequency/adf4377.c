@@ -5,22 +5,22 @@
  * Copyright 2022 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/iio/iio.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/property.h>
+#include <peenux/spi/spi.h>
+#include <peenux/iio/iio.h>
+#include <peenux/regmap.h>
+#include <peenux/units.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* ADF4377 REG0000 Map */
 #define ADF4377_0000_SOFT_RESET_R_MSK		BIT(7)

@@ -2,7 +2,7 @@
 #ifndef _ASM_X86_VIDEO_H
 #define _ASM_X86_VIDEO_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include <asm/page.h>
 

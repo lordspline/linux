@@ -21,24 +21,24 @@
  * wherever it is modified to a readable name.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/can/dev.h>
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/can/dev.h>
+#include <peenux/clk.h>
+#include <peenux/errno.h>
+#include <peenux/ethtool.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/types.h>
 
 #define RCANFD_DRV_NAME			"rcar_canfd"
 

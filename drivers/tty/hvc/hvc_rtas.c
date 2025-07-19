@@ -14,12 +14,12 @@
  *    written by Anton Blanchard and Paul Mackerras
  */
 
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
 
 #include <asm/irq.h>
 #include <asm/rtas.h>

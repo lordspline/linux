@@ -8,16 +8,16 @@
 
 #define pr_fmt(fmt) "KHO: " fmt
 
-#include <linux/cma.h>
-#include <linux/count_zeros.h>
-#include <linux/debugfs.h>
-#include <linux/kexec.h>
-#include <linux/kexec_handover.h>
-#include <linux/libfdt.h>
-#include <linux/list.h>
-#include <linux/memblock.h>
-#include <linux/notifier.h>
-#include <linux/page-isolation.h>
+#include <peenux/cma.h>
+#include <peenux/count_zeros.h>
+#include <peenux/debugfs.h>
+#include <peenux/kexec.h>
+#include <peenux/kexec_handover.h>
+#include <peenux/libfdt.h>
+#include <peenux/list.h>
+#include <peenux/memblock.h>
+#include <peenux/notifier.h>
+#include <peenux/page-isolation.h>
 
 #include <asm/early_ioremap.h>
 

@@ -2,30 +2,30 @@
 /*
  * File operations for Coda.
  * Original version: (C) 1996 Peter Braam 
- * Rewritten for Linux 2.1: (C) 1997 Carnegie Mellon University
+ * Rewritten for Peenux 2.1: (C) 1997 Carnegie Mellon University
  *
  * Carnegie Mellon encourages users of this code to contribute improvements
  * to the Coda project. Contact Peter Braam <coda@cs.cmu.edu>.
  */
 
-#include <linux/refcount.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/stat.h>
-#include <linux/cred.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
-#include <linux/splice.h>
+#include <peenux/refcount.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/time.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/stat.h>
+#include <peenux/cred.h>
+#include <peenux/errno.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/uio.h>
+#include <peenux/splice.h>
 
-#include <linux/coda.h>
+#include <peenux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 #include "coda_int.h"

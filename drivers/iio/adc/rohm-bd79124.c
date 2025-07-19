@@ -6,28 +6,28 @@
  * Copyright (c) 2025, ROHM Semiconductor.
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/devm-helpers.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 #include <asm/byteorder.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/adc-helpers.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/adc-helpers.h>
 
 #define BD79124_I2C_MULTI_READ		0x30
 #define BD79124_I2C_MULTI_WRITE		0x28

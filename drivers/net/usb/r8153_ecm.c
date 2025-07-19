@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/usbnet.h>
-#include <linux/usb/r8152.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/mii.h>
+#include <peenux/usb.h>
+#include <peenux/usb/cdc.h>
+#include <peenux/usb/usbnet.h>
+#include <peenux/usb/r8152.h>
 
 #define OCP_BASE		0xe86c
 

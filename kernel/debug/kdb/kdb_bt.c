@@ -9,13 +9,13 @@
  * Copyright (c) 2009 Wind River Systems, Inc.  All Rights Reserved.
  */
 
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/kdb.h>
-#include <linux/nmi.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/debug.h>
+#include <peenux/kdb.h>
+#include <peenux/nmi.h>
 #include "kdb_private.h"
 
 

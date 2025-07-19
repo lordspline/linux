@@ -6,23 +6,23 @@
  */
 
 /*
- * This file contains the core HCD code, and implements the Linux hc_driver
+ * This file contains the core HCD code, and implements the Peenux hc_driver
  * API
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
 
-#include <linux/usb/hcd.h>
-#include <linux/usb/ch11.h>
-#include <linux/usb/of.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/ch11.h>
+#include <peenux/usb/of.h>
 
 #include "core.h"
 #include "hcd.h"
@@ -4235,7 +4235,7 @@ static void dwc2_hcd_phy_reset_func(struct work_struct *work)
 
 /*
  * =========================================================================
- *  Linux HC Driver Functions
+ *  Peenux HC Driver Functions
  * =========================================================================
  */
 

@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/ktime.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define MT6360_REG_PMUCHGCTRL3	0x313
 #define MT6360_REG_PMUADCCFG	0x356

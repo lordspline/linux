@@ -15,12 +15,12 @@
  * various local functions of those subsystems.
  */
 
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/math64.h>
-#include <linux/uaccess.h>
-#include <linux/random.h>
-#include <linux/ctype.h>
+#include <peenux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/math64.h>
+#include <peenux/uaccess.h>
+#include <peenux/random.h>
+#include <peenux/ctype.h>
 #include "ubifs.h"
 
 static DEFINE_SPINLOCK(dbg_lock);

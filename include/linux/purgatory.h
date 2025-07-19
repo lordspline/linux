@@ -2,9 +2,9 @@
 #ifndef _LINUX_PURGATORY_H
 #define _LINUX_PURGATORY_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <crypto/sha2.h>
-#include <uapi/linux/kexec.h>
+#include <uapi/peenux/kexec.h>
 
 struct kexec_sha_region {
 	unsigned long start;

@@ -6,13 +6,13 @@
  *	Ben Dooks, <ben@simtec.co.uk>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/tle62x0.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/tle62x0.h>
 
 
 #define CMD_READ	0x00

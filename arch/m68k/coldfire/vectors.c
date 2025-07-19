@@ -9,10 +9,10 @@
 
 /***************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/cpu.h>
 #include <asm/traps.h>
 #include <asm/machdep.h>
 #include <asm/coldfire.h>

@@ -19,10 +19,10 @@
 #include <errno.h>
 #include <inttypes.h>
 #include <limits.h>
-#include <linux/falloc.h>
+#include <peenux/falloc.h>
 #include <fcntl.h>
-#include <linux/memfd.h>
-#include <linux/types.h>
+#include <peenux/memfd.h>
+#include <peenux/types.h>
 #include <sched.h>
 #include <stdio.h>
 #include <stdlib.h>

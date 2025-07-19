@@ -5,11 +5,11 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/mfd/syscon.h>
 
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>

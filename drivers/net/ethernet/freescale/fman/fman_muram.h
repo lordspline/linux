@@ -6,7 +6,7 @@
 #ifndef __FM_MURAM_EXT
 #define __FM_MURAM_EXT
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define FM_MURAM_INVALID_ALLOCATION	-1
 

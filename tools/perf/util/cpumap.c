@@ -7,11 +7,11 @@
 #include <dirent.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <linux/bitmap.h>
+#include <peenux/bitmap.h>
 #include "asm/bug.h"
 
-#include <linux/ctype.h>
-#include <linux/zalloc.h>
+#include <peenux/ctype.h>
+#include <peenux/zalloc.h>
 #include <internal/cpumap.h>
 
 static struct perf_cpu max_cpu_num;

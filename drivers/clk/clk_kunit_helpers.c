@@ -2,11 +2,11 @@
 /*
  * KUnit helpers for clk providers and consumers
  */
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
 
 #include <kunit/clk.h>
 #include <kunit/resource.h>

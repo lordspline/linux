@@ -22,11 +22,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/cpufeature.h>
-#include <linux/bug.h>
-#include <linux/build_bug.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/cpufeature.h>
+#include <peenux/bug.h>
+#include <peenux/build_bug.h>
 #include <asm/fpu/api.h>
 
 #include "i915_memcpy.h"

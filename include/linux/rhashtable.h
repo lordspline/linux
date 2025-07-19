@@ -18,15 +18,15 @@
 #ifndef _LINUX_RHASHTABLE_H
 #define _LINUX_RHASHTABLE_H
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/jhash.h>
-#include <linux/list_nulls.h>
-#include <linux/workqueue.h>
-#include <linux/rculist.h>
-#include <linux/bit_spinlock.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/jhash.h>
+#include <peenux/list_nulls.h>
+#include <peenux/workqueue.h>
+#include <peenux/rculist.h>
+#include <peenux/bit_spinlock.h>
 
-#include <linux/rhashtable-types.h>
+#include <peenux/rhashtable-types.h>
 /*
  * Objects in an rhashtable have an embedded struct rhash_head
  * which is linked into as hash chain from the hash table - or one

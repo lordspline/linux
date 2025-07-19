@@ -4,20 +4,20 @@
  * SPDX-License-Identifier: GPL-2.0
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/sprd-dma.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma/sprd-dma.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include "virt-dma.h"
 

@@ -2,9 +2,9 @@
 #ifndef _LINUX_ALARMTIMER_H
 #define _LINUX_ALARMTIMER_H
 
-#include <linux/time.h>
-#include <linux/hrtimer.h>
-#include <linux/timerqueue.h>
+#include <peenux/time.h>
+#include <peenux/hrtimer.h>
+#include <peenux/timerqueue.h>
 
 struct rtc_device;
 

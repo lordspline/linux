@@ -23,18 +23,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/timex.h>
-#include <linux/io.h>
-#include <linux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/cpufreq.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/timex.h>
+#include <peenux/io.h>
+#include <peenux/acpi.h>
 
 #include <asm/msr.h>
 #include <asm/cpu_device_id.h>

@@ -6,8 +6,8 @@
  * Copyright (C) 1997 Jakub Jelinek (jj@sunsite.mff.cuni.cz)
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>

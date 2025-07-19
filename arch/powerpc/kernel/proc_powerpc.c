@@ -3,19 +3,19 @@
  * Copyright (C) 2001 Mike Corrigan & Dave Engebretsen IBM Corporation
  */
 
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/memblock.h>
+#include <peenux/mm.h>
+#include <peenux/proc_fs.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/string.h>
 
 #include <asm/machdep.h>
 #include <asm/vdso_datapage.h>
 #include <asm/rtas.h>
 #include <asm/systemcfg.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #ifdef CONFIG_PPC64_PROC_SYSTEMCFG
 

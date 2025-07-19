@@ -19,10 +19,10 @@
  * each CRTC.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/platform_device.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_drv.h>

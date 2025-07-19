@@ -8,14 +8,14 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
 /* PDC interrupt register numbers */
 

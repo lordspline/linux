@@ -4,13 +4,13 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/isapnp.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/isa.h>
+#include <peenux/isapnp.h>
+#include <peenux/time.h>
+#include <peenux/wait.h>
+#include <peenux/module.h>
 #include <asm/dma.h>
 #include <sound/core.h>
 #include <sound/es1688.h>

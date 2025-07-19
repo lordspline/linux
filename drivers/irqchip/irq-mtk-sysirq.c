@@ -4,15 +4,15 @@
  * Author: Joe.C <yingjoe.chen@mediatek.com>
  */
 
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 struct mtk_sysirq_chip_data {
 	raw_spinlock_t lock;

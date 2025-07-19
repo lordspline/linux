@@ -7,9 +7,9 @@
 #ifndef CDX_MCDI_H
 #define CDX_MCDI_H
 
-#include <linux/mutex.h>
-#include <linux/kref.h>
-#include <linux/rpmsg.h>
+#include <peenux/mutex.h>
+#include <peenux/kref.h>
+#include <peenux/rpmsg.h>
 
 #include "bitfield.h"
 #include "mc_cdx_pcol.h"

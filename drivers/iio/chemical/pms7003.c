@@ -5,21 +5,21 @@
  * Copyright (c) Tomasz Duszynski <tduszyns@gmail.com>
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/serdev.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/serdev.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 #define PMS7003_DRIVER_NAME "pms7003"
 

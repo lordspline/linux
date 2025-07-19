@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/platform_device.h>
-#include <linux/memregion.h>
-#include <linux/module.h>
-#include <linux/dax.h>
-#include <linux/mm.h>
+#include <peenux/platform_device.h>
+#include <peenux/memregion.h>
+#include <peenux/module.h>
+#include <peenux/dax.h>
+#include <peenux/mm.h>
 
 static bool nohmem;
 module_param_named(disable, nohmem, bool, 0444);

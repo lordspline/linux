@@ -5,15 +5,15 @@
  * Copyright (C) 2017 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
 
 /* bits [31:27] are read-only */
 #define U2P_R0							0x0

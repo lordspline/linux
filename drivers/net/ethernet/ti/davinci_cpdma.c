@@ -5,16 +5,16 @@
  * Copyright (C) 2010 Texas Instruments
  *
  */
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/genalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/genalloc.h>
 #include "davinci_cpdma.h"
 
 /* DMA Registers */

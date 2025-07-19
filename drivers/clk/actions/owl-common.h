@@ -11,8 +11,8 @@
 #ifndef _OWL_COMMON_H_
 #define _OWL_COMMON_H_
 
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
 
 struct device_node;
 struct platform_device;

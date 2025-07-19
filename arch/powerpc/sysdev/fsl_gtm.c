@@ -9,18 +9,18 @@
  *               Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/spinlock.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 #include <asm/fsl_gtm.h>
 
 #define GTCFR_STP(x)		((x) & 1 ? 1 << 5 : 1 << 1)

@@ -8,20 +8,20 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/serial_8250.h>
-#include <linux/ata_platform.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/mv643xx_eth.h>
-#include <linux/mv643xx_i2c.h>
-#include <linux/platform_data/dma-mv_xor.h>
-#include <linux/platform_data/usb-ehci-orion.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/serial_8250.h>
+#include <peenux/ata_platform.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/mv643xx_eth.h>
+#include <peenux/mv643xx_i2c.h>
+#include <peenux/platform_data/dma-mv_xor.h>
+#include <peenux/platform_data/usb-ehci-orion.h>
 #include <plat/common.h>
-#include <linux/phy.h>
+#include <peenux/phy.h>
 
 /* Create a clkdev entry for a given device/clk */
 void __init orion_clkdev_add(const char *con_id, const char *dev_id,
@@ -538,7 +538,7 @@ static struct platform_device orion_spi_1 = {
 };
 
 /* Note: The SPI silicon core does have interrupts. However the
- * current Linux software driver does not use interrupts. */
+ * current Peenux software driver does not use interrupts. */
 
 void __init orion_spi_init(unsigned long mapbase)
 {

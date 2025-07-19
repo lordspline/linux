@@ -6,9 +6,9 @@
 #ifndef _ASM_RISCV_BUG_H
 #define _ASM_RISCV_BUG_H
 
-#include <linux/compiler.h>
-#include <linux/const.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/const.h>
+#include <peenux/types.h>
 
 #include <asm/asm.h>
 

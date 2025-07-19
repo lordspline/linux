@@ -2,19 +2,19 @@
 /*
  * sparse memory mappings.
  */
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/mmzone.h>
-#include <linux/memblock.h>
-#include <linux/compiler.h>
-#include <linux/highmem.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/vmalloc.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/bootmem_info.h>
-#include <linux/vmstat.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/mmzone.h>
+#include <peenux/memblock.h>
+#include <peenux/compiler.h>
+#include <peenux/highmem.h>
+#include <peenux/export.h>
+#include <peenux/spinlock.h>
+#include <peenux/vmalloc.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/bootmem_info.h>
+#include <peenux/vmstat.h>
 #include "internal.h"
 #include <asm/dma.h>
 
@@ -597,7 +597,7 @@ void __init sparse_init(void)
 	unsigned long pnum_end, pnum_begin, map_count = 1;
 	int nid_begin;
 
-	/* see include/linux/mmzone.h 'struct mem_section' definition */
+	/* see include/peenux/mmzone.h 'struct mem_section' definition */
 	BUILD_BUG_ON(!is_power_of_2(sizeof(struct mem_section)));
 	memblocks_present();
 

@@ -9,20 +9,20 @@
  * Copyright (C) 2020-2022 Gabriel Somlo <gsomlo@gmail.com>
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/litex.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/litex.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
 
 #define LITEX_PHY_CARDDETECT  0x00
 #define LITEX_PHY_CLOCKERDIV  0x04

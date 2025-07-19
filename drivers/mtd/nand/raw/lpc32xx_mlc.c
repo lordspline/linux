@@ -13,24 +13,24 @@
  * - Tested Page Sizes: 2048, 4096
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mtd/lpc32xx_mlc.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mtd/lpc32xx_mlc.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
 
 #define DRV_NAME "lpc32xx_mlc"
 

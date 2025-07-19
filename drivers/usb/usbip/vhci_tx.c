@@ -3,9 +3,9 @@
  * Copyright (C) 2003-2008 Takahiro Hirofuchi
  */
 
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/scatterlist.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
+#include <peenux/scatterlist.h>
 
 #include "usbip_common.h"
 #include "vhci.h"

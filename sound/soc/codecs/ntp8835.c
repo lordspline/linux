@@ -7,13 +7,13 @@
  * Author: Igor Prusov <ivprusov@salutedevices.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/bits.h>
-#include <linux/reset.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/clk.h>
+#include <peenux/bits.h>
+#include <peenux/reset.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 
 #include <sound/initval.h>
 #include <sound/core.h>

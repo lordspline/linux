@@ -4,7 +4,7 @@
 #ifndef _IDPF_LAN_TXRX_H_
 #define _IDPF_LAN_TXRX_H_
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 enum idpf_rss_hash {
 	IDPF_HASH_INVALID			= 0,

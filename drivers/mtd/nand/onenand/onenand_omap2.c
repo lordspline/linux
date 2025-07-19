@@ -8,21 +8,21 @@
  *  IRQ and DMA support written by Timo Teras
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/onenand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/of.h>
-#include <linux/omap-gpmc.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/onenand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/of.h>
+#include <peenux/omap-gpmc.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/gpio/consumer.h>
 
 #include <asm/mach/flash.h>
 

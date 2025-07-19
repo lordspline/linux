@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/adfs/map.c
+ *  peenux/fs/adfs/map.c
  *
  *  Copyright (C) 1997-2002 Russell King
  */
-#include <linux/slab.h>
-#include <linux/statfs.h>
-#include <linux/unaligned.h>
+#include <peenux/slab.h>
+#include <peenux/statfs.h>
+#include <peenux/unaligned.h>
 #include "adfs.h"
 
 /*

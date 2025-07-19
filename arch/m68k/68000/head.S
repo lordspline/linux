@@ -11,8 +11,8 @@
  *
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
 #include <asm/asm-offsets.h>
 #include <asm/thread_info.h>
 
@@ -236,6 +236,6 @@ _clear_bss:
  *****************************************************************************/
 	lea	init_thread_union,%a0
 	lea	THREAD_SIZE(%a0),%sp
-	jsr	start_kernel			/* start Linux kernel */
+	jsr	start_kernel			/* start Peenux kernel */
 _exit:
 	jmp	_exit				/* should never get here */

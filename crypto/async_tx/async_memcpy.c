@@ -10,12 +10,12 @@
  *      Neil Brown <neilb@suse.de>
  *      Jeff Garzik <jeff@garzik.org>
  */
-#include <linux/kernel.h>
-#include <linux/highmem.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/async_tx.h>
+#include <peenux/kernel.h>
+#include <peenux/highmem.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/async_tx.h>
 
 /**
  * async_memcpy - attempt to copy memory with a dma engine.

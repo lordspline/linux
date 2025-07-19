@@ -8,15 +8,15 @@
  * Copyright (C) 2017 Rockchip Electronics Co., Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
 #include <media/v4l2-fwnode.h>
 #include <media/v4l2-mc.h>
 

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/qcom,videocc-sc7180.h>
 

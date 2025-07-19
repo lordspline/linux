@@ -6,12 +6,12 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <sound/soc.h>
 

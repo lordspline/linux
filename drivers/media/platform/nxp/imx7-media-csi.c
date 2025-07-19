@@ -5,30 +5,30 @@
  * Copyright (c) 2019 Linaro Ltd
  */
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/timekeeping.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/container_of.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/timekeeping.h>
+#include <peenux/types.h>
 
 #include <media/media-device.h>
 #include <media/media-entity.h>

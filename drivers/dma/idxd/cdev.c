@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2019 Intel Corporation. All rights rsvd. */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/sched/task.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/iommu.h>
-#include <linux/highmem.h>
-#include <uapi/linux/idxd.h>
-#include <linux/xarray.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/device.h>
+#include <peenux/sched/task.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/cdev.h>
+#include <peenux/fs.h>
+#include <peenux/poll.h>
+#include <peenux/iommu.h>
+#include <peenux/highmem.h>
+#include <uapi/peenux/idxd.h>
+#include <peenux/xarray.h>
 #include "registers.h"
 #include "idxd.h"
 

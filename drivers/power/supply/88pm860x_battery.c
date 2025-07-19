@@ -7,16 +7,16 @@
  *		Haojian Zhuang <haojian.zhuang@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/power_supply.h>
-#include <linux/string_choices.h>
-#include <linux/mfd/88pm860x.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/string.h>
+#include <peenux/power_supply.h>
+#include <peenux/string_choices.h>
+#include <peenux/mfd/88pm860x.h>
+#include <peenux/delay.h>
 
 /* bit definitions of Status Query Interface 2 */
 #define STATUS2_CHG			(1 << 2)

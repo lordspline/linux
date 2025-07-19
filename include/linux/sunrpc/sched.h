@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/linux/sunrpc/sched.h
+ * peenux/include/peenux/sunrpc/sched.h
  *
  * Scheduling primitives for kernel Sun RPC.
  *
@@ -10,13 +10,13 @@
 #ifndef _LINUX_SUNRPC_SCHED_H_
 #define _LINUX_SUNRPC_SCHED_H_
 
-#include <linux/timer.h>
-#include <linux/ktime.h>
-#include <linux/sunrpc/types.h>
-#include <linux/spinlock.h>
-#include <linux/wait_bit.h>
-#include <linux/workqueue.h>
-#include <linux/sunrpc/xdr.h>
+#include <peenux/timer.h>
+#include <peenux/ktime.h>
+#include <peenux/sunrpc/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait_bit.h>
+#include <peenux/workqueue.h>
+#include <peenux/sunrpc/xdr.h>
 
 /*
  * This is the actual RPC procedure call info.

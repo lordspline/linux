@@ -5,16 +5,16 @@
  * Copyright 2020 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/hwmon.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
 #define LTC2992_CTRLB			0x01
 #define LTC2992_FAULT1			0x03

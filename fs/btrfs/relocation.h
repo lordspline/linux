@@ -3,7 +3,7 @@
 #ifndef BTRFS_RELOCATION_H
 #define BTRFS_RELOCATION_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct extent_buffer;
 struct btrfs_fs_info;

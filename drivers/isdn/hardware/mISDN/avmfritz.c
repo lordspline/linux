@@ -7,13 +7,13 @@
  *
  * Copyright 2009  by Karsten Keil <keil@isdn4linux.de>
  */
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/mISDNhw.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/mISDNhw.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 #include "ipac.h"
 
 

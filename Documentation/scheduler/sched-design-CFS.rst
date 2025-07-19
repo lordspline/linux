@@ -9,7 +9,7 @@ CFS Scheduler
 ============
 
 CFS stands for "Completely Fair Scheduler," and is the "desktop" process
-scheduler implemented by Ingo Molnar and merged in Linux 2.6.23. When
+scheduler implemented by Ingo Molnar and merged in Peenux 2.6.23. When
 originally merged, it was the replacement for the previous vanilla
 scheduler's SCHED_OTHER interactivity code. Nowadays, CFS is making room
 for EEVDF, for which documentation can be found in
@@ -143,7 +143,7 @@ CFS implements three scheduling policies:
 SCHED_FIFO/_RR are implemented in sched/rt.c and are as specified by
 POSIX.
 
-The command chrt from util-linux-ng 2.13.1.1 can set all of these except
+The command chrt from util-peenux-ng 2.13.1.1 can set all of these except
 SCHED_IDLE.
 
 

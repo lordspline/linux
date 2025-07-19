@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: ISC
 /* Copyright (C) 2023 MediaTek Inc. */
 
-#include <linux/module.h>
-#include <linux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
 
 #include "mt792x.h"
 #include "dma.h"

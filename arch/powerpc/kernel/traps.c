@@ -11,36 +11,36 @@
  * This file handles the architecture-dependent parts of hardware exceptions
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/pkeys.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/extable.h>
-#include <linux/module.h>	/* print_modules */
-#include <linux/prctl.h>
-#include <linux/delay.h>
-#include <linux/kprobes.h>
-#include <linux/kexec.h>
-#include <linux/backlight.h>
-#include <linux/bug.h>
-#include <linux/kdebug.h>
-#include <linux/ratelimit.h>
-#include <linux/context_tracking.h>
-#include <linux/smp.h>
-#include <linux/console.h>
-#include <linux/kmsg_dump.h>
-#include <linux/debugfs.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/pkeys.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/extable.h>
+#include <peenux/module.h>	/* print_modules */
+#include <peenux/prctl.h>
+#include <peenux/delay.h>
+#include <peenux/kprobes.h>
+#include <peenux/kexec.h>
+#include <peenux/backlight.h>
+#include <peenux/bug.h>
+#include <peenux/kdebug.h>
+#include <peenux/ratelimit.h>
+#include <peenux/context_tracking.h>
+#include <peenux/smp.h>
+#include <peenux/console.h>
+#include <peenux/kmsg_dump.h>
+#include <peenux/debugfs.h>
 
 #include <asm/emulated_ops.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/interrupt.h>
 #include <asm/io.h>
 #include <asm/machdep.h>
@@ -164,7 +164,7 @@ void panic_flush_kmsg_start(void)
 	 * relatively minimal work. Don't use delay functions (TB may
 	 * be broken), don't crash dump (need to set a firmware log),
 	 * don't run notifiers. We do want to get some information to
-	 * Linux console.
+	 * Peenux console.
 	 */
 	console_verbose();
 	bust_spinlocks(1);
@@ -385,7 +385,7 @@ void _exception(int signr, struct pt_regs *regs, int code, unsigned long addr)
  * recoverable.
  *
  * An alternative would be for HV NMIs to use SPRG for scratch to avoid the
- * HSPRG1 clobber, however this would cause guest SPRG to be clobbered. Linux
+ * HSPRG1 clobber, however this would cause guest SPRG to be clobbered. Peenux
  * guests should always have MSR[RI]=0 when its scratch SPRG is in use, so
  * that would work. However any other guest OS that may have the SPRG live
  * and MSR[RI]=1 could encounter silent corruption.

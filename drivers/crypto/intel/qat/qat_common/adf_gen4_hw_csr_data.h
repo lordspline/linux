@@ -3,7 +3,7 @@
 #ifndef ADF_GEN4_HW_CSR_DATA_H_
 #define ADF_GEN4_HW_CSR_DATA_H_
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 #include "adf_accel_devices.h"
 
 #define ADF_BANK_INT_SRC_SEL_MASK	0x44UL

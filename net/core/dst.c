@@ -6,21 +6,21 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/workqueue.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/workqueue.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 #include <net/net_namespace.h>
-#include <linux/sched.h>
-#include <linux/prefetch.h>
+#include <peenux/sched.h>
+#include <peenux/prefetch.h>
 #include <net/lwtunnel.h>
 #include <net/xfrm.h>
 

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Linux driver for RPC-IF HyperFlash
+ * Peenux driver for RPC-IF HyperFlash
  *
  * Copyright (C) 2019-2020 Cogent Embedded, Inc.
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mtd/hyperbus.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mux/consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mtd/hyperbus.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mux/consumer.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 #include <memory/renesas-rpc-if.h>
 

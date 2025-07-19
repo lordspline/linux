@@ -6,7 +6,7 @@
 #define _NET_DSA_8021Q_H
 
 #include <net/dsa.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* VBID is limited to three bits only and zero is reserved.
  * Only 7 bridges can be enumerated.

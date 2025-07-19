@@ -2,9 +2,9 @@
 #include "bcachefs.h"
 #include "clock.h"
 
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/preempt.h>
+#include <peenux/freezer.h>
+#include <peenux/kthread.h>
+#include <peenux/preempt.h>
 
 static inline bool io_timer_cmp(const void *l, const void *r, void __always_unused *args)
 {

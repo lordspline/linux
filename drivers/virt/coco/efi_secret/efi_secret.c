@@ -3,7 +3,7 @@
  * efi_secret module
  *
  * Copyright (C) 2022 IBM Corporation
- * Author: Dov Murik <dovmurik@linux.ibm.com>
+ * Author: Dov Murik <dovmurik@peenux.ibm.com>
  */
 
 /**
@@ -16,16 +16,16 @@
  * is the GUID of the secret entry, and its content is the secret data.
  */
 
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/security.h>
-#include <linux/efi.h>
-#include <linux/cacheflush.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/security.h>
+#include <peenux/efi.h>
+#include <peenux/cacheflush.h>
 
 #define EFI_SECRET_NUM_FILES 64
 

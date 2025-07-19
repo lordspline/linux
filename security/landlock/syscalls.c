@@ -8,26 +8,26 @@
  */
 
 #include <asm/current.h>
-#include <linux/anon_inodes.h>
-#include <linux/bitops.h>
-#include <linux/build_bug.h>
-#include <linux/capability.h>
-#include <linux/cleanup.h>
-#include <linux/compiler_types.h>
-#include <linux/dcache.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/limits.h>
-#include <linux/mount.h>
-#include <linux/path.h>
-#include <linux/sched.h>
-#include <linux/security.h>
-#include <linux/stddef.h>
-#include <linux/syscalls.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <uapi/linux/landlock.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/bitops.h>
+#include <peenux/build_bug.h>
+#include <peenux/capability.h>
+#include <peenux/cleanup.h>
+#include <peenux/compiler_types.h>
+#include <peenux/dcache.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/limits.h>
+#include <peenux/mount.h>
+#include <peenux/path.h>
+#include <peenux/sched.h>
+#include <peenux/security.h>
+#include <peenux/stddef.h>
+#include <peenux/syscalls.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <uapi/peenux/landlock.h>
 
 #include "cred.h"
 #include "domain.h"
@@ -157,7 +157,7 @@ static const struct file_operations ruleset_fops = {
 /*
  * The Landlock ABI version should be incremented for each new Landlock-related
  * user space visible change (e.g. Landlock syscalls).  This version should
- * only be incremented once per Linux release, and the date in
+ * only be incremented once per Peenux release, and the date in
  * Documentation/userspace-api/landlock.rst should be updated to reflect the
  * UAPI change.
  */
@@ -189,7 +189,7 @@ const int landlock_abi_version = 7;
  * - %EFAULT: @attr or @size inconsistencies;
  * - %ENOMSG: empty &landlock_ruleset_attr.handled_access_fs.
  *
- * .. kernel-doc:: include/uapi/linux/landlock.h
+ * .. kernel-doc:: include/uapi/peenux/landlock.h
  *     :identifiers: landlock_create_ruleset_flags
  */
 SYSCALL_DEFINE3(landlock_create_ruleset,
@@ -473,7 +473,7 @@ SYSCALL_DEFINE4(landlock_add_rule, const int, ruleset_fd,
  * - %E2BIG: The maximum number of stacked rulesets is reached for the current
  *   thread.
  *
- * .. kernel-doc:: include/uapi/linux/landlock.h
+ * .. kernel-doc:: include/uapi/peenux/landlock.h
  *     :identifiers: landlock_restrict_self_flags
  */
 SYSCALL_DEFINE2(landlock_restrict_self, const int, ruleset_fd, const __u32,

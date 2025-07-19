@@ -4,7 +4,7 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/math.h>
+#include <peenux/math.h>
 
 #include <math_support.h>
 #include <gdc_device.h>	/* HR_GDC_N */

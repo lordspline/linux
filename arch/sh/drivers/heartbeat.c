@@ -15,13 +15,13 @@
  * handled by this driver, rather than giving each LED bit position its
  * own struct device.
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/sched/loadavg.h>
-#include <linux/timer.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/sched/loadavg.h>
+#include <peenux/timer.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 #include <asm/heartbeat.h>
 
 #define DRV_NAME "heartbeat"

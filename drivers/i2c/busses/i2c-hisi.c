@@ -5,18 +5,18 @@
  * Copyright (c) 2021 HiSilicon Technologies Co., Ltd.
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/units.h>
 
 #define HISI_I2C_FRAME_CTRL		0x0000
 #define   HISI_I2C_FRAME_CTRL_SPEED_MODE	GENMASK(1, 0)

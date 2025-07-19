@@ -32,18 +32,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon-vid.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/platform_device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/hwmon-vid.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
 #include "lm75.h"
 
 enum kinds {

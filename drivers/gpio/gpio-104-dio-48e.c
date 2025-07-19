@@ -6,19 +6,19 @@
  * This driver supports the following ACCES devices: 104-DIO-48E and
  * 104-DIO-24E.
  */
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i8254.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/isa.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i8254.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/isa.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include "gpio-i8255.h"
 

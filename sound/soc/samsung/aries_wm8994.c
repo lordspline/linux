@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0+
-#include <linux/extcon.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/consumer.h>
-#include <linux/input-event-codes.h>
-#include <linux/mfd/wm8994/registers.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/extcon.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/input-event-codes.h>
+#include <peenux/mfd/wm8994/registers.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

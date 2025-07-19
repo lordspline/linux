@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2018-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2021 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/remoteproc.h>
-#include <linux/firmware.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/remoteproc.h>
+#include <peenux/firmware.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
 #include "ahb.h"
 #include "core.h"
 #include "dp_tx.h"

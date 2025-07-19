@@ -8,15 +8,15 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
-#include <linux/moduleparam.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/watchdog.h>
+#include <peenux/moduleparam.h>
 
 #define REG_COUNT			0x4
 #define REG_MODE			0x8

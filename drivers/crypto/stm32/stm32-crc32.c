@@ -4,20 +4,20 @@
  * Author: Fabien Dessenne <fabien.dessenne@st.com>
  */
 
-#include <linux/bitrev.h>
-#include <linux/clk.h>
-#include <linux/crc32.h>
-#include <linux/crc32poly.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/bitrev.h>
+#include <peenux/clk.h>
+#include <peenux/crc32.h>
+#include <peenux/crc32poly.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include <crypto/internal/hash.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define DRIVER_NAME             "stm32-crc32"
 #define CHKSUM_DIGEST_SIZE      4

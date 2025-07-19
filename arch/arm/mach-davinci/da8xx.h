@@ -9,11 +9,11 @@
 #ifndef __ASM_ARCH_DAVINCI_DA8XX_H
 #define __ASM_ARCH_DAVINCI_DA8XX_H
 
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/videodev2.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/videodev2.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
 
 #include "hardware.h"
 #include "pm.h"

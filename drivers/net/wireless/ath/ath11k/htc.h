@@ -1,17 +1,17 @@
 /* SPDX-License-Identifier: BSD-3-Clause-Clear */
 /*
- * Copyright (c) 2018-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #ifndef ATH11K_HTC_H
 #define ATH11K_HTC_H
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/bug.h>
-#include <linux/skbuff.h>
-#include <linux/timer.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/bug.h>
+#include <peenux/skbuff.h>
+#include <peenux/timer.h>
 
 struct ath11k_base;
 

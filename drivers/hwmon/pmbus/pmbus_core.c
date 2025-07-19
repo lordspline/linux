@@ -6,23 +6,23 @@
  * Copyright (c) 2012 Guenter Roeck
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dcache.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/pmbus.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/of.h>
-#include <linux/thermal.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/dcache.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/pmbus.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/of.h>
+#include <peenux/thermal.h>
 #include "pmbus.h"
 
 /*

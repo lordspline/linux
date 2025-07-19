@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef __ASM_SECCOMP_H
 
-#include <linux/unistd.h>
+#include <peenux/unistd.h>
 
 #ifdef CONFIG_COMPAT
 static inline const int *get_compat_mode1_syscalls(void)

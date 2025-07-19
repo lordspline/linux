@@ -4,14 +4,14 @@
 //
 // Copyright (c) 2018, Fuzhou Rockchip Electronics Co., Ltd All rights reserved.
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/mfd/rk808.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/mfd/rk808.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 #include <sound/core.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

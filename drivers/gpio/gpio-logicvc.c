@@ -4,14 +4,14 @@
  * Author: Paul Kocialkowski <paul.kocialkowski@bootlin.com>
  */
 
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 
 #define LOGICVC_CTRL_REG		0x40
 #define LOGICVC_CTRL_GPIO_SHIFT		11

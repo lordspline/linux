@@ -5,12 +5,12 @@
  * Copyright (C) 2014 ololoshka2871
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 
 #include "fbtft.h"
 

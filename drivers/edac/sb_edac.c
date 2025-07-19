@@ -8,18 +8,18 @@
  *	 Mauro Carvalho Chehab
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/edac.h>
-#include <linux/mmzone.h>
-#include <linux/smp.h>
-#include <linux/bitmap.h>
-#include <linux/math64.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/edac.h>
+#include <peenux/mmzone.h>
+#include <peenux/smp.h>
+#include <peenux/bitmap.h>
+#include <peenux/math64.h>
+#include <peenux/mod_devicetable.h>
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
 #include <asm/processor.h>

@@ -6,9 +6,9 @@
  * Copyright (C) Google, 2024
  * Author: Sebastian Ene <sebastianene@google.com>
  */
-#include <linux/debugfs.h>
-#include <linux/kvm_host.h>
-#include <linux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/kvm_host.h>
+#include <peenux/seq_file.h>
 
 #include <asm/kvm_mmu.h>
 #include <asm/kvm_pgtable.h>

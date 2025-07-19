@@ -15,24 +15,24 @@
  * devices.
  *
  * In the medium- to long-term, this code should be implemented as a
- * proper omap_bus/omap_device in Linux, no more platform_data func
+ * proper omap_bus/omap_device in Peenux, no more platform_data func
  * pointers
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/notifier.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/notifier.h>
 
 #include "common.h"
 #include "soc.h"

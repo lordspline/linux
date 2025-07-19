@@ -6,11 +6,11 @@
  * Inspired by Benjamin Gaignard's stm32-timers driver
  */
 
-#include <linux/bitfield.h>
-#include <linux/mfd/stm32-lptimer.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/mfd/stm32-lptimer.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #define STM32_LPTIM_MAX_REGISTER	0x3fc
 

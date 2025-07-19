@@ -19,24 +19,24 @@
 #include <crypto/scatterwalk.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #define MD5_DIGEST_SIZE			16
 

@@ -16,8 +16,8 @@
  *    Author: Mathias Krause <minipli@googlemail.com>
  */
 
-#include <linux/linkage.h>
-#include <linux/objtool.h>
+#include <peenux/linkage.h>
+#include <peenux/objtool.h>
 #include <asm/frame.h>
 
 #define STATE1	%xmm0

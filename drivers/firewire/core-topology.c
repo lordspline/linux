@@ -5,18 +5,18 @@
  * Copyright (C) 2004-2006 Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/bug.h>
-#include <linux/errno.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/bug.h>
+#include <peenux/errno.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/byteorder.h>
 
 #include "core.h"

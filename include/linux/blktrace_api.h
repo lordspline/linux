@@ -2,16 +2,16 @@
 #ifndef BLKTRACE_H
 #define BLKTRACE_H
 
-#include <linux/blk-mq.h>
-#include <linux/relay.h>
-#include <linux/compat.h>
-#include <uapi/linux/blktrace_api.h>
-#include <linux/list.h>
-#include <linux/blk_types.h>
+#include <peenux/blk-mq.h>
+#include <peenux/relay.h>
+#include <peenux/compat.h>
+#include <uapi/peenux/blktrace_api.h>
+#include <peenux/list.h>
+#include <peenux/blk_types.h>
 
 #if defined(CONFIG_BLK_DEV_IO_TRACE)
 
-#include <linux/sysfs.h>
+#include <peenux/sysfs.h>
 
 struct blk_trace {
 	int trace_state;

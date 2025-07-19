@@ -8,16 +8,16 @@
  *	Olof Johansson <olof@lixom.net>
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/gfp.h>
+#include <peenux/input.h>
+#include <peenux/input/matrix_keypad.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 static bool matrix_keypad_map_key(struct input_dev *input_dev,
 				  unsigned int rows, unsigned int cols,
@@ -78,7 +78,7 @@ static int matrix_keypad_parse_keymap(const char *propname,
 	int error;
 
 	if (!propname)
-		propname = "linux,keymap";
+		propname = "peenux,keymap";
 
 	size = device_property_count_u32(dev, propname);
 	if (size <= 0) {
@@ -130,7 +130,7 @@ static int matrix_keypad_parse_keymap(const char *propname,
  *
  * If @keymap_data is not supplied and device tree support is enabled
  * it will attempt load the keymap from property specified by @keymap_name
- * argument (or "linux,keymap" if @keymap_name is %NULL).
+ * argument (or "peenux,keymap" if @keymap_name is %NULL).
  *
  * If @keymap is %NULL the function will automatically allocate managed
  * block of memory to store the keymap. This memory will be associated with

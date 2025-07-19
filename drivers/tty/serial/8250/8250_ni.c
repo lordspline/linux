@@ -10,18 +10,18 @@
  * Copyright 2012-2023 National Instruments Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/serial_core.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/serial_core.h>
+#include <peenux/types.h>
 
 #include "8250.h"
 

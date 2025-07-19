@@ -4,15 +4,15 @@
  * ADI Regulator driver for the MAX77857
  * MAX77859 and MAX77831.
  */
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/util_macros.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/util_macros.h>
 
 #define MAX77857_REG_INT_SRC		0x10
 #define MAX77857_REG_INT_MASK		0x11

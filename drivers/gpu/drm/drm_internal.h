@@ -24,8 +24,8 @@
 #ifndef __DRM_INTERNAL_H__
 #define __DRM_INTERNAL_H__
 
-#include <linux/kthread.h>
-#include <linux/types.h>
+#include <peenux/kthread.h>
+#include <peenux/types.h>
 
 #include <drm/drm_ioctl.h>
 #include <drm/drm_vblank.h>

@@ -1,12 +1,12 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/mm/cache-v4.S
+ *  peenux/arch/arm/mm/cache-v4.S
  *
  *  Copyright (C) 1997-2002 Russell king
  */
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/cfi_types.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/cfi_types.h>
 #include <asm/assembler.h>
 #include <asm/page.h>
 #include "proc-macros.S"

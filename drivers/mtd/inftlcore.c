@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * inftlcore.c -- Linux driver for Inverse Flash Translation Layer (INFTL)
+ * inftlcore.c -- Peenux driver for Inverse Flash Translation Layer (INFTL)
  *
  * Copyright © 2002, Greg Ungerer (gerg@snapgear.com)
  *
@@ -9,19 +9,19 @@
  * Copyright © 1999 David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/hdreg.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nftl.h>
-#include <linux/mtd/inftl.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/kmod.h>
+#include <peenux/hdreg.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/nftl.h>
+#include <peenux/mtd/inftl.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/uaccess.h>
 #include <asm/errno.h>
 #include <asm/io.h>
 

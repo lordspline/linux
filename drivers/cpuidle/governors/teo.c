@@ -97,11 +97,11 @@
  *    candidate state needs to be found, so look for it.
  */
 
-#include <linux/cpuidle.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/sched/clock.h>
-#include <linux/tick.h>
+#include <peenux/cpuidle.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/clock.h>
+#include <peenux/tick.h>
 
 #include "gov.h"
 

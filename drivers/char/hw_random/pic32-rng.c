@@ -6,16 +6,16 @@
  * Copyright (C) 2016 Microchip Technology Inc.  All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/err.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define RNGCON		0x04
 #define TRNGEN		BIT(8)

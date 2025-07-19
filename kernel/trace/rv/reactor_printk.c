@@ -5,12 +5,12 @@
  * Printk RV reactor:
  *   Prints the exception msg to the kernel message log.
  */
-#include <linux/ftrace.h>
-#include <linux/tracepoint.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/rv.h>
+#include <peenux/ftrace.h>
+#include <peenux/tracepoint.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/rv.h>
 
 static void rv_printk_reaction(char *msg)
 {

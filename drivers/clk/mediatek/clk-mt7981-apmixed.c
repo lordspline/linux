@@ -7,9 +7,9 @@
  * Author: Daniel Golle <daniel@makrotopia.org>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 
 #include "clk-gate.h"
 #include "clk-mtk.h"
@@ -17,7 +17,7 @@
 #include "clk-pll.h"
 
 #include <dt-bindings/clock/mediatek,mt7981-clk.h>
-#include <linux/clk.h>
+#include <peenux/clk.h>
 
 #define MT7981_PLL_FMAX (2500UL * MHZ)
 #define CON0_MT7981_RST_BAR BIT(27)

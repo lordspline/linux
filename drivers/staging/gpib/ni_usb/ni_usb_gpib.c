@@ -9,9 +9,9 @@
 #define dev_fmt pr_fmt
 #define DRV_NAME KBUILD_MODNAME
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include "ni_usb_gpib.h"
 #include "gpibP.h"
 #include "nec7210.h"

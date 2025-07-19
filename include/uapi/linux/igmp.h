@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
- *	Linux NET3:	Internet Group Management Protocol  [IGMP]
+ *	Peenux NET3:	Internet Group Management Protocol  [IGMP]
  *
  *	Authors:
  *		Alan Cox <alan@lxorguk.ukuu.org.uk>
@@ -17,7 +17,7 @@
 #ifndef _UAPI_LINUX_IGMP_H
 #define _UAPI_LINUX_IGMP_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
 
 /*

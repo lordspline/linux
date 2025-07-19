@@ -2,20 +2,20 @@
 /*
  * Copyright (c) 2023 MediaTek Inc.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/device.h>
-#include <linux/device/bus.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/sys_soc.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/device.h>
+#include <peenux/device/bus.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/sys_soc.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
 
 #define MTK_SOCINFO_ENTRY(_soc_name, _segment_name, _marketing_name, _cell_data1, _cell_data2) {\
 	.soc_name = _soc_name,									\

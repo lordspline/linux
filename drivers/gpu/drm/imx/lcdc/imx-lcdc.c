@@ -17,12 +17,12 @@
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_simple_kms_helper.h>
 #include <drm/drm_vblank.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #define IMX21LCDC_LSSAR         0x0000 /* LCDC Screen Start Address Register */
 #define IMX21LCDC_LSR           0x0004 /* LCDC Size Register */

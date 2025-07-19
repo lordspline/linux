@@ -2,8 +2,8 @@
 /*
  * Common corrected MCE threshold handler code:
  */
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
 
 #include <asm/irq_vectors.h>
 #include <asm/traps.h>

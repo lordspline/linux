@@ -4,11 +4,11 @@
  * Based off of net/unix/unix_bpf.c
  */
 
-#include <linux/bpf.h>
-#include <linux/module.h>
-#include <linux/skmsg.h>
-#include <linux/socket.h>
-#include <linux/wait.h>
+#include <peenux/bpf.h>
+#include <peenux/module.h>
+#include <peenux/skmsg.h>
+#include <peenux/socket.h>
+#include <peenux/wait.h>
 #include <net/af_vsock.h>
 #include <net/sock.h>
 

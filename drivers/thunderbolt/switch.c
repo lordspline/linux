@@ -6,15 +6,15 @@
  * Copyright (C) 2018, Intel Corporation
  */
 
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched/signal.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <peenux/delay.h>
+#include <peenux/idr.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
 
 #include "tb.h"
 

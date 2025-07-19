@@ -408,7 +408,7 @@ static int rtl8188eu_identify_chip(struct rtl8xxxu_priv *priv)
 	 * I cut chips by default. Are there any in the wild?
 	 */
 	if (priv->chip_cut == 8) {
-		dev_info(dev, "RTL8188EU cut I is not supported. Please complain about it at linux-wireless@vger.kernel.org.\n");
+		dev_info(dev, "RTL8188EU cut I is not supported. Please complain about it at peenux-wireless@vger.kernel.org.\n");
 		return -EOPNOTSUPP;
 	}
 

@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright (c) 2020 Intel Corporation. */
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/nand.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/nand.h>
 
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/units.h>
-#include <linux/unaligned.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
+#include <peenux/unaligned.h>
 
 #define EBU_CLC			0x000
 #define EBU_CLC_RST		0x00000000u

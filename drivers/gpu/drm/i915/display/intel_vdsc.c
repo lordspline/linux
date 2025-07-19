@@ -5,7 +5,7 @@
  * Author: Gaurav K Singh <gaurav.k.singh@intel.com>
  *         Manasi Navare <manasi.d.navare@intel.com>
  */
-#include <linux/limits.h>
+#include <peenux/limits.h>
 
 #include <drm/display/drm_dsc_helper.h>
 #include <drm/drm_fixed.h>

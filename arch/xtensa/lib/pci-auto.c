@@ -11,10 +11,10 @@
  * Based on work from Matt Porter <mporter@mvista.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <peenux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
 
 #include <asm/pci-bridge.h>
 

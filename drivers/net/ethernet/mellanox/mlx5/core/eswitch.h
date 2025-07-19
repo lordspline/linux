@@ -33,15 +33,15 @@
 #ifndef __MLX5_ESWITCH_H__
 #define __MLX5_ESWITCH_H__
 
-#include <linux/if_ether.h>
-#include <linux/if_link.h>
-#include <linux/atomic.h>
-#include <linux/xarray.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_link.h>
+#include <peenux/atomic.h>
+#include <peenux/xarray.h>
 #include <net/devlink.h>
-#include <linux/mlx5/device.h>
-#include <linux/mlx5/eswitch.h>
-#include <linux/mlx5/vport.h>
-#include <linux/mlx5/fs.h>
+#include <peenux/mlx5/device.h>
+#include <peenux/mlx5/eswitch.h>
+#include <peenux/mlx5/vport.h>
+#include <peenux/mlx5/fs.h>
 #include "lib/mpfs.h"
 #include "lib/fs_chains.h"
 #include "sf/sf.h"

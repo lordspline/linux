@@ -24,13 +24,13 @@
  * Copyright (C) 2015 Texas Instruments Incorporated - https://www.ti.com
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/sched_clock.h>
-#include <linux/clocksource.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/clk.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
+#include <peenux/sched_clock.h>
+#include <peenux/clocksource.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 /*
  * 32KHz clocksource ... always available, on pretty most chips except

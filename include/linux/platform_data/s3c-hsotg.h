@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
-/* include/linux/platform_data/s3c-hsotg.h
+/* include/peenux/platform_data/s3c-hsotg.h
  *
  * Copyright 2008 Openmoko, Inc.
  * Copyright 2008 Simtec Electronics

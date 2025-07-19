@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/pci_iommu.c
+ *	peenux/arch/alpha/kernel/pci_iommu.c
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/pci.h>
-#include <linux/gfp.h>
-#include <linux/memblock.h>
-#include <linux/export.h>
-#include <linux/scatterlist.h>
-#include <linux/log2.h>
-#include <linux/dma-map-ops.h>
-#include <linux/iommu-helper.h>
-#include <linux/string_choices.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/pci.h>
+#include <peenux/gfp.h>
+#include <peenux/memblock.h>
+#include <peenux/export.h>
+#include <peenux/scatterlist.h>
+#include <peenux/log2.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/iommu-helper.h>
+#include <peenux/string_choices.h>
 
 #include <asm/io.h>
 #include <asm/hwrpb.h>

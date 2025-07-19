@@ -3,7 +3,7 @@
 #ifndef BTRFS_DELALLOC_SPACE_H
 #define BTRFS_DELALLOC_SPACE_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct extent_changeset;
 struct btrfs_inode;

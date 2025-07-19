@@ -2,14 +2,14 @@
 #ifndef __LINUX_GFP_TYPES_H
 #define __LINUX_GFP_TYPES_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 /* The typedef is in types.h but we want the documentation here */
 #if 0
 /**
  * typedef gfp_t - Memory allocation flags.
  *
- * GFP flags are commonly used throughout Linux to indicate how memory
+ * GFP flags are commonly used throughout Peenux to indicate how memory
  * should be allocated.  The GFP acronym stands for get_free_pages(),
  * the underlying memory allocation function.  Not every GFP flag is
  * supported by every function which may allocate memory.  Most users
@@ -105,7 +105,7 @@ enum {
 #endif
 
 /*
- * Physical address zone modifiers (see linux/mmzone.h - low four bits)
+ * Physical address zone modifiers (see peenux/mmzone.h - low four bits)
  *
  * Do not put any conditional on these. If necessary modify the definitions
  * without the underscores and use them consistently. The definitions here may

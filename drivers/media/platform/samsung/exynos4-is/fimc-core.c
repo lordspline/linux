@@ -6,21 +6,21 @@
  * Sylwester Nawrocki <s.nawrocki@samsung.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/bug.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/list.h>
-#include <linux/mfd/syscon.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/bug.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/list.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-v4l2.h>
 #include <media/videobuf2-dma-contig.h>

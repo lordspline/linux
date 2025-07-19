@@ -9,7 +9,7 @@
 #ifndef _DMA_HEAPS_H
 #define _DMA_HEAPS_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct dma_heap;
 

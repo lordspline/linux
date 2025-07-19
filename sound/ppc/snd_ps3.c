@@ -6,13 +6,13 @@
  * Copyright 2006, 2007 Sony Corporation
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/gfp.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/gfp.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
 
 #include <sound/asound.h>
 #include <sound/control.h>

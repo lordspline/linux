@@ -15,12 +15,12 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
-#include <linux/delay.h>
-#include <linux/log2.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/unaligned.h>
+#include <peenux/delay.h>
+#include <peenux/log2.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #define NFP_SUBSYS "nfp_hwinfo"
 

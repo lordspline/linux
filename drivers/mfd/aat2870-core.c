@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/mfd/aat2870-core.c
+ * peenux/drivers/mfd/aat2870-core.c
  *
  * Copyright (c) 2011, NVIDIA Corporation.
  * Author: Jin Park <jinyoungp@nvidia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/aat2870.h>
-#include <linux/regulator/machine.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/debugfs.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/aat2870.h>
+#include <peenux/regulator/machine.h>
 
 static struct aat2870_register aat2870_regs[AAT2870_REG_NUM] = {
 	/* readable, writeable, value */

@@ -4,22 +4,22 @@
  *
  * Author: Srinidhi KASAGAR <srinidhi.kasagar@stericsson.com>
  */
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/amba/bus.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/arm-gic.h>
-#include <linux/mfd/dbx500-prcmu.h>
-#include <linux/platform_data/arm-ux500-pm.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/regulator/machine.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/amba/bus.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/arm-gic.h>
+#include <peenux/mfd/dbx500-prcmu.h>
+#include <peenux/platform_data/arm-ux500-pm.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/regulator/machine.h>
 
 #include <asm/outercache.h>
 #include <asm/hardware/cache-l2x0.h>

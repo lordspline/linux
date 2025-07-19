@@ -14,28 +14,28 @@
  * - RX filtering based on filter configuration (data->rx_filter)
  */
 
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 #include <net/dst.h>
 #include <net/xfrm.h>
 #include <net/mac80211.h>
 #include <net/ieee80211_radiotap.h>
-#include <linux/if_arp.h>
-#include <linux/rtnetlink.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/ktime.h>
+#include <peenux/if_arp.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/etherdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/ktime.h>
 #include <net/genetlink.h>
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
-#include <linux/rhashtable.h>
-#include <linux/nospec.h>
-#include <linux/virtio.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio_config.h>
+#include <peenux/rhashtable.h>
+#include <peenux/nospec.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_ids.h>
+#include <peenux/virtio_config.h>
 #include "mac80211_hwsim.h"
 
 #define WARN_QUEUE 100

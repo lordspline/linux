@@ -7,17 +7,17 @@
  *  Copyright (C) 2011, 2012 Roland Stigge <stigge@antcom.de>
  */
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/iio/iio.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/iio/iio.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
 
 /*
  * LPC32XX registers definitions

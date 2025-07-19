@@ -5,16 +5,16 @@
  * Copyright (c) 2002 Vojtech Pavlik
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/ioport.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/acpi.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/stddef.h>
+#include <peenux/ioport.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/acpi.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR ("Vojtech Pavlik <vojtech@suse.cz>");

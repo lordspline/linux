@@ -7,16 +7,16 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
 
 #include "stm32-dac-core.h"
 

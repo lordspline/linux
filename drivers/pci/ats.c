@@ -9,11 +9,11 @@
  * Copyright (C) 2011 Advanced Micro Devices,
  */
 
-#include <linux/bitfield.h>
-#include <linux/export.h>
-#include <linux/pci-ats.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/export.h>
+#include <peenux/pci-ats.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
 #include "pci.h"
 

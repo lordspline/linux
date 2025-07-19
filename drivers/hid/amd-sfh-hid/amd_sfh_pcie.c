@@ -8,17 +8,17 @@
  *	    Basavaraj Natikar <Basavaraj.Natikar@amd.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/devm-helpers.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmi.h>
-#include <linux/interrupt.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmi.h>
+#include <peenux/interrupt.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
 
 #include "amd_sfh_pcie.h"
 #include "sfh1_1/amd_sfh_init.h"

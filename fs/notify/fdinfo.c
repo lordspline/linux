@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/fsnotify_backend.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/inotify.h>
-#include <linux/fanotify.h>
-#include <linux/kernel.h>
-#include <linux/namei.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/seq_file.h>
-#include <linux/exportfs.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/fsnotify_backend.h>
+#include <peenux/idr.h>
+#include <peenux/init.h>
+#include <peenux/inotify.h>
+#include <peenux/fanotify.h>
+#include <peenux/kernel.h>
+#include <peenux/namei.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/seq_file.h>
+#include <peenux/exportfs.h>
 
 #include "inotify/inotify.h"
 #include "fanotify/fanotify.h"

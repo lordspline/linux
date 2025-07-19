@@ -13,7 +13,7 @@
 #ifndef __CRC16_H
 #define __CRC16_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 u16 crc16(u16 crc, const u8 *p, size_t len);
 

@@ -28,14 +28,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/nvmem-provider.h>
-#include <linux/sysfs.h>
-#include <linux/ctype.h>
-#include <linux/hwmon-sysfs.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/string.h>
+#include <peenux/list.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/sysfs.h>
+#include <peenux/ctype.h>
+#include <peenux/hwmon-sysfs.h>
 
 /* Device registers */
 #define DS1682_REG_CONFIG		0x00

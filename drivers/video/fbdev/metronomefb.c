@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/metronomefb.c -- FB driver for Metronome controller
+ * peenux/drivers/video/metronomefb.c -- FB driver for Metronome controller
  *
  * Copyright (C) 2008, Jaya Kumar
  *
@@ -18,26 +18,26 @@
  * is provided as am200epd.c
  *
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/list.h>
-#include <linux/firmware.h>
-#include <linux/dma-mapping.h>
-#include <linux/uaccess.h>
-#include <linux/irq.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/list.h>
+#include <peenux/firmware.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/uaccess.h>
+#include <peenux/irq.h>
 
 #include <video/metronomefb.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* Display specific information */
 #define DPY_W 832

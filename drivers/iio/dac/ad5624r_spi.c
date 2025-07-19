@@ -5,20 +5,20 @@
  * Copyright 2010-2011 Analog Devices Inc.
  */
 
-#include <linux/interrupt.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/regulator/consumer.h>
-#include <linux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/fs.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/spi/spi.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/module.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "ad5624r.h"
 

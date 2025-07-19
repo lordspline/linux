@@ -7,19 +7,19 @@
  * Chen-Zhi (Roger Chen)  <roger.chen@rock-chips.com>
  */
 
-#include <linux/stmmac.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/phy.h>
-#include <linux/of_net.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/pm_runtime.h>
+#include <peenux/stmmac.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/phy.h>
+#include <peenux/of_net.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/pm_runtime.h>
 
 #include "stmmac_platform.h"
 

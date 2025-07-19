@@ -7,8 +7,8 @@
  *
  * This code is based on the ARM OProfile backtrace code.
  */
-#include <linux/perf_event.h>
-#include <linux/uaccess.h>
+#include <peenux/perf_event.h>
+#include <peenux/uaccess.h>
 
 #include <asm/stacktrace.h>
 

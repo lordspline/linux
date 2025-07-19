@@ -4,23 +4,23 @@
  *   Portions Copyright (C) Christoph Hellwig, 2001-2002
  */
 
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/completion.h>
-#include <linux/vfs.h>
-#include <linux/quotaops.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/moduleparam.h>
-#include <linux/kthread.h>
-#include <linux/posix_acl.h>
-#include <linux/buffer_head.h>
-#include <linux/exportfs.h>
-#include <linux/crc32.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/seq_file.h>
-#include <linux/blkdev.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/completion.h>
+#include <peenux/vfs.h>
+#include <peenux/quotaops.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kthread.h>
+#include <peenux/posix_acl.h>
+#include <peenux/buffer_head.h>
+#include <peenux/exportfs.h>
+#include <peenux/crc32.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/seq_file.h>
+#include <peenux/blkdev.h>
 
 #include "jfs_incore.h"
 #include "jfs_filsys.h"

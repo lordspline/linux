@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * rrunner.c: Linux driver for the Essential RoadRunner HIPPI board.
+ * rrunner.c: Peenux driver for the Essential RoadRunner HIPPI board.
  *
  * Copyright (C) 1998-2002 by Jes Sorensen, <jes@wildopensource.com>.
  *
@@ -24,25 +24,25 @@
 #define RX_DMA_SKBUFF 1
 #define PKT_COPY_THRESHOLD 512
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/hippidevice.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/hippidevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 #include <net/sock.h>
 
 #include <asm/cache.h>
 #include <asm/byteorder.h>
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #define rr_if_busy(dev)     netif_queue_stopped(dev)
 #define rr_if_running(dev)  netif_running(dev)

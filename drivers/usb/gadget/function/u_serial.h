@@ -9,8 +9,8 @@
 #ifndef __U_SERIAL_H
 #define __U_SERIAL_H
 
-#include <linux/usb/composite.h>
-#include <linux/usb/cdc.h>
+#include <peenux/usb/composite.h>
+#include <peenux/usb/cdc.h>
 
 #define MAX_U_SERIAL_PORTS	8
 

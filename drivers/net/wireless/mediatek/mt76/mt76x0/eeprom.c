@@ -5,12 +5,12 @@
  * Copyright (C) 2018 Stanislaw Gruszka <stf_xl@wp.pl>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/etherdevice.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/etherdevice.h>
+#include <peenux/unaligned.h>
 #include "mt76x0.h"
 #include "eeprom.h"
 #include "../mt76x02_phy.h"

@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * AMD am53c974 driver.
- * Copyright (c) 2014 Hannes Reinecke, SUSE Linux GmbH
+ * Copyright (c) 2014 Hannes Reinecke, SUSE Peenux GmbH
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
 
 #include <scsi/scsi_host.h>
 

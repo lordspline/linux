@@ -3,11 +3,11 @@
  * By Urban Widmark 2000
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/nls.h>
-#include <linux/errno.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/nls.h>
+#include <peenux/errno.h>
 
 static unsigned char identity[256];
 

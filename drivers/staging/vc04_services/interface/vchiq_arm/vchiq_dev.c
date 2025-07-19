@@ -4,12 +4,12 @@
  * Copyright (c) 2010-2012 Broadcom. All rights reserved.
  */
 
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/compat.h>
-#include <linux/miscdevice.h>
+#include <peenux/cdev.h>
+#include <peenux/fs.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/compat.h>
+#include <peenux/miscdevice.h>
 
 #include "vchiq_core.h"
 #include "vchiq_ioctl.h"

@@ -3,12 +3,12 @@
 #ifndef _LINUX_TRACE_EVENT_H
 #define _LINUX_TRACE_EVENT_H
 
-#include <linux/ring_buffer.h>
-#include <linux/trace_seq.h>
-#include <linux/percpu.h>
-#include <linux/hardirq.h>
-#include <linux/perf_event.h>
-#include <linux/tracepoint.h>
+#include <peenux/ring_buffer.h>
+#include <peenux/trace_seq.h>
+#include <peenux/percpu.h>
+#include <peenux/hardirq.h>
+#include <peenux/perf_event.h>
+#include <peenux/tracepoint.h>
 
 struct trace_array;
 struct array_buffer;

@@ -7,14 +7,14 @@
 
 */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 #include <media/dvb_frontend.h>
 
 #include "stv6110x.h" /* for demodulator internal modes */

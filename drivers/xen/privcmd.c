@@ -9,28 +9,28 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/eventfd.h>
-#include <linux/file.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/srcu.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/uaccess.h>
-#include <linux/swap.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/seq_file.h>
-#include <linux/miscdevice.h>
-#include <linux/moduleparam.h>
-#include <linux/virtio_mmio.h>
+#include <peenux/eventfd.h>
+#include <peenux/file.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/srcu.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/uaccess.h>
+#include <peenux/swap.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/seq_file.h>
+#include <peenux/miscdevice.h>
+#include <peenux/moduleparam.h>
+#include <peenux/virtio_mmio.h>
 
 #include <asm/xen/hypervisor.h>
 #include <asm/xen/hypercall.h>

@@ -7,9 +7,9 @@
 //
 // Base S3C64XX setup information for 24bpp LCD framebuffer
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/gpio.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/gpio.h>
 
 #include "fb.h"
 #include "gpio-cfg.h"

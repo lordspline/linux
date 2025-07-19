@@ -6,16 +6,16 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
 
 #include <asm/natfeat.h>
 

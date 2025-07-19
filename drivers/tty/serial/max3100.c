@@ -16,24 +16,24 @@
 /* 4 MAX3100s should be enough for everyone */
 #define MAX_MAX3100 4
 
-#include <linux/bitops.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/freezer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/tty_flip.h>
-#include <linux/tty.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/container_of.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/freezer.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/tty_flip.h>
+#include <peenux/tty.h>
+#include <peenux/types.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define MAX3100_C    (1<<14)
 #define MAX3100_D    (0<<14)

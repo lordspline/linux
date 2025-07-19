@@ -5,7 +5,7 @@
  *                    AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include "pinctrl-mtk-mt6893.h"
 #include "pinctrl-paris.h"
 

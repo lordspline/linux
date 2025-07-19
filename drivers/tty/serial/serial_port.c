@@ -6,15 +6,15 @@
  * Author: Tony Lindgren <tony@atomide.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pnp.h>
-#include <linux/property.h>
-#include <linux/serial_core.h>
-#include <linux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pnp.h>
+#include <peenux/property.h>
+#include <peenux/serial_core.h>
+#include <peenux/spinlock.h>
 
 #include "serial_base.h"
 

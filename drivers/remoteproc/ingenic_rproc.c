@@ -4,14 +4,14 @@
  * Copyright 2019, Paul Cercueil <paul@crapouillou.net>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/remoteproc.h>
 
 #include "remoteproc_internal.h"
 

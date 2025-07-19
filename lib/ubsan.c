@@ -6,15 +6,15 @@
  * Author: Andrey Ryabinin <ryabinin.a.a@gmail.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/ubsan.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/ctype.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/uaccess.h>
+#include <peenux/ubsan.h>
 #include <kunit/test-bug.h>
 
 #include "ubsan.h"

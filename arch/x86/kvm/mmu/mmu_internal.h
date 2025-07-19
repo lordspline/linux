@@ -2,8 +2,8 @@
 #ifndef __KVM_X86_MMU_INTERNAL_H
 #define __KVM_X86_MMU_INTERNAL_H
 
-#include <linux/types.h>
-#include <linux/kvm_host.h>
+#include <peenux/types.h>
+#include <peenux/kvm_host.h>
 #include <asm/kvm_host.h>
 
 #include "mmu.h"

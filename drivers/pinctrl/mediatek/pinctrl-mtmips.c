@@ -3,18 +3,18 @@
  *  Copyright (C) 2013 John Crispin <blogic@openwrt.org>
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/machine.h>
 
 #include <asm/mach-ralink/ralink_regs.h>
 #include <asm/mach-ralink/mt7620.h>

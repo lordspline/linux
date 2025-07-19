@@ -8,20 +8,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/cache.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/cache.h>
+#include <peenux/crc32.h>
+#include <peenux/mii.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
 
 #include "ks8851.h"
 

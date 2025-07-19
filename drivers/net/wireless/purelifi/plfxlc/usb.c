@@ -3,21 +3,21 @@
  * Copyright (c) 2021 pureLiFi
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
-#include <linux/proc_fs.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/usb.h>
+#include <peenux/workqueue.h>
+#include <peenux/proc_fs.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
 #include <net/mac80211.h>
-#include <linux/unaligned.h>
-#include <linux/sysfs.h>
+#include <peenux/unaligned.h>
+#include <peenux/sysfs.h>
 
 #include "mac.h"
 #include "usb.h"

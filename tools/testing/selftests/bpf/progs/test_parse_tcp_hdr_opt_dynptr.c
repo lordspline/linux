@@ -7,12 +7,12 @@
  * original code (parsing without dynptrs) can be found in test_parse_tcp_hdr_opt.c
  */
 
-#include <linux/bpf.h>
+#include <peenux/bpf.h>
 #include <bpf/bpf_helpers.h>
-#include <linux/tcp.h>
+#include <peenux/tcp.h>
 #include <stdbool.h>
-#include <linux/ipv6.h>
-#include <linux/if_ether.h>
+#include <peenux/ipv6.h>
+#include <peenux/if_ether.h>
 #include "test_tcp_hdr_options.h"
 #include "bpf_kfuncs.h"
 

@@ -2,8 +2,8 @@
 /*
  * Powerpc userspace implementations of gettimeofday() and similar.
  */
-#include <linux/time.h>
-#include <linux/types.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
 
 #ifdef __powerpc64__
 int __c_kernel_clock_gettime(clockid_t clock, struct __kernel_timespec *ts,

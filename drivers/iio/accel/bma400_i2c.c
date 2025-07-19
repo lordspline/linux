@@ -6,10 +6,10 @@
  *
  * I2C address is either 0x14 or 0x15 depending on SDO
  */
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #include "bma400.h"
 

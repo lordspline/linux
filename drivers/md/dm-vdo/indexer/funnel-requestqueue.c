@@ -5,9 +5,9 @@
 
 #include "funnel-requestqueue.h"
 
-#include <linux/atomic.h>
-#include <linux/compiler.h>
-#include <linux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/compiler.h>
+#include <peenux/wait.h>
 
 #include "funnel-queue.h"
 #include "logger.h"

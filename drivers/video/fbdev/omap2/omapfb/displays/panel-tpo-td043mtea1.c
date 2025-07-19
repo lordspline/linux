@@ -6,13 +6,13 @@
  * Converted to new DSS device model: Tomi Valkeinen <tomi.valkeinen@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
 
 #include <video/omapfb_dss.h>
 

@@ -25,7 +25,7 @@
 
 /* QXL cmd/ring handling */
 
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 #include <drm/drm_util.h>
 

@@ -17,15 +17,15 @@
 #include <drm/drm_modes.h>
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_rect.h>
-#include <linux/bitrev.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kthread.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pwm.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitrev.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kthread.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pwm.h>
+#include <peenux/spi/spi.h>
 
 #define SHARP_MODE_PERIOD 8
 #define SHARP_ADDR_PERIOD 8

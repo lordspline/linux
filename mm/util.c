@@ -1,32 +1,32 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/compiler.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task_stack.h>
-#include <linux/security.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/sysctl.h>
-#include <linux/mman.h>
-#include <linux/hugetlb.h>
-#include <linux/vmalloc.h>
-#include <linux/userfaultfd_k.h>
-#include <linux/elf.h>
-#include <linux/elf-randomize.h>
-#include <linux/personality.h>
-#include <linux/random.h>
-#include <linux/processor.h>
-#include <linux/sizes.h>
-#include <linux/compat.h>
-#include <linux/fsnotify.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/compiler.h>
+#include <peenux/export.h>
+#include <peenux/err.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/security.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/sysctl.h>
+#include <peenux/mman.h>
+#include <peenux/hugetlb.h>
+#include <peenux/vmalloc.h>
+#include <peenux/userfaultfd_k.h>
+#include <peenux/elf.h>
+#include <peenux/elf-randomize.h>
+#include <peenux/personality.h>
+#include <peenux/random.h>
+#include <peenux/processor.h>
+#include <peenux/sizes.h>
+#include <peenux/compat.h>
+#include <peenux/fsnotify.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <kunit/visibility.h>
 
@@ -892,7 +892,7 @@ struct percpu_counter vm_committed_as ____cacheline_aligned_in_smp;
 
 /*
  * The global memory commitment made in the system can be a metric
- * that can be used to drive ballooning decisions when Linux is hosted
+ * that can be used to drive ballooning decisions when Peenux is hosted
  * as a guest. On Hyper-V, the host implements a policy engine for dynamically
  * balancing memory across competing virtual machines that are hosted.
  * Several metrics drive this policy engine including the guest reported

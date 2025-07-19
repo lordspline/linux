@@ -14,11 +14,11 @@
 #ifndef _CPQPHP_H
 #define _CPQPHP_H
 
-#include <linux/interrupt.h>
-#include <linux/io.h>		/* for read? and write? functions */
-#include <linux/delay.h>	/* for delays */
-#include <linux/mutex.h>
-#include <linux/sched/signal.h>	/* for signal_pending() */
+#include <peenux/interrupt.h>
+#include <peenux/io.h>		/* for read? and write? functions */
+#include <peenux/delay.h>	/* for delays */
+#include <peenux/mutex.h>
+#include <peenux/sched/signal.h>	/* for signal_pending() */
 
 #define MY_NAME	"cpqphp"
 

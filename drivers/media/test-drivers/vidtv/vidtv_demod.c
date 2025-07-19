@@ -8,17 +8,17 @@
  * Based on the example driver written by Emard <emard@softhome.net>
  */
 
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/random.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/random.h>
+#include <peenux/ratelimit.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
 
 #include <media/dvb_frontend.h>
 

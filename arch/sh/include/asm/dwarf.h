@@ -191,10 +191,10 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/compiler.h>
-#include <linux/bug.h>
-#include <linux/list.h>
-#include <linux/module.h>
+#include <peenux/compiler.h>
+#include <peenux/bug.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
 
 /*
  * Read either the frame pointer (r14) or the stack pointer (r15).

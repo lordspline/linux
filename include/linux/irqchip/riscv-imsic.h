@@ -6,10 +6,10 @@
 #ifndef __LINUX_IRQCHIP_RISCV_IMSIC_H
 #define __LINUX_IRQCHIP_RISCV_IMSIC_H
 
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/fwnode.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/fwnode.h>
 #include <asm/csr.h>
 
 #define IMSIC_MMIO_PAGE_SHIFT		12

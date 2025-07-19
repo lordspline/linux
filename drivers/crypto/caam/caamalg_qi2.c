@@ -16,14 +16,14 @@
 #include "caamalg_desc.h"
 #include "caamhash_desc.h"
 #include "dpseci-debugfs.h"
-#include <linux/dma-mapping.h>
-#include <linux/fsl/mc.h>
-#include <linux/kernel.h>
-#include <linux/string_choices.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/fsl/mc.h>
+#include <peenux/kernel.h>
+#include <peenux/string_choices.h>
 #include <soc/fsl/dpaa2-io.h>
 #include <soc/fsl/dpaa2-fd.h>
 #include <crypto/xts.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define CAAM_CRA_PRIORITY	2000
 

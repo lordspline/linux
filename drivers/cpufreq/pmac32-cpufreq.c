@@ -11,20 +11,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/cpufreq.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/hardirq.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/adb.h>
+#include <peenux/pmu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/hardirq.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #include <asm/machdep.h>
 #include <asm/irq.h>

@@ -5,23 +5,23 @@
  * Copyright (c) 2014-2025 Broadcom
  */
 
-#include <linux/acpi.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/wait.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/bitops.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/brcmphy.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/platform_data/bcmgenet.h>
-#include <linux/platform_data/mdio-bcm-unimac.h>
+#include <peenux/acpi.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/wait.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/bitops.h>
+#include <peenux/netdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy.h>
+#include <peenux/phy_fixed.h>
+#include <peenux/brcmphy.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/of_mdio.h>
+#include <peenux/platform_data/bcmgenet.h>
+#include <peenux/platform_data/mdio-bcm-unimac.h>
 
 #include "bcmgenet.h"
 

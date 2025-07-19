@@ -18,8 +18,8 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/string.h>
-#include <linux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
 
 #include <asm/asm.h>
 #include <asm/page.h>

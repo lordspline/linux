@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/cfi_types.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/cfi_types.h>
 #include <asm/assembler.h>
 
 #include "proc-macros.S"

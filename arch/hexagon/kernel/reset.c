@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2010-2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/reboot.h>
-#include <linux/smp.h>
+#include <peenux/reboot.h>
+#include <peenux/smp.h>
 #include <asm/hexagon_vm.h>
 
 void machine_power_off(void)

@@ -9,11 +9,11 @@
 
 /***************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>
 #include <asm/nettel.h>

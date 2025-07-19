@@ -8,13 +8,13 @@
 #include <kunit/device.h>
 #include <kunit/resource.h>
 #include <kunit/test.h>
-#include <linux/build_bug.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/cs_dsp_test_utils.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
+#include <peenux/build_bug.h>
+#include <peenux/firmware/cirrus/cs_dsp.h>
+#include <peenux/firmware/cirrus/cs_dsp_test_utils.h>
+#include <peenux/firmware/cirrus/wmfw.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
 
 KUNIT_DEFINE_ACTION_WRAPPER(_put_device_wrapper, put_device, struct device *);
 KUNIT_DEFINE_ACTION_WRAPPER(_cs_dsp_remove_wrapper, cs_dsp_remove, struct cs_dsp *);

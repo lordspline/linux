@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-#include <linux/err.h>
+#include <peenux/err.h>
 
 #include <bpf/bpf.h>
 #include <bpf/btf.h>

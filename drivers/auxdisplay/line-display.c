@@ -12,20 +12,20 @@
 #include <generated/utsrelease.h>
 #endif
 
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/jiffies.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/timer.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/idr.h>
+#include <peenux/jiffies.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/timer.h>
 
-#include <linux/map_to_7segment.h>
-#include <linux/map_to_14segment.h>
+#include <peenux/map_to_7segment.h>
+#include <peenux/map_to_14segment.h>
 
 #include "line-display.h"
 
@@ -317,7 +317,7 @@ static int linedisp_init_map(struct linedisp *linedisp)
 #ifdef CONFIG_PANEL_BOOT_MESSAGE
 #define LINEDISP_INIT_TEXT CONFIG_PANEL_BOOT_MESSAGE
 #else
-#define LINEDISP_INIT_TEXT "Linux " UTS_RELEASE "       "
+#define LINEDISP_INIT_TEXT "Peenux " UTS_RELEASE "       "
 #endif
 
 /**

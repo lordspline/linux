@@ -7,13 +7,13 @@
  * Copyright (c) 2001 Patrick Mochel <mochel@osdl.org>
  */
 
-#include <linux/suspend.h>
-#include <linux/export.h>
-#include <linux/smp.h>
-#include <linux/perf_event.h>
-#include <linux/tboot.h>
-#include <linux/dmi.h>
-#include <linux/pgtable.h>
+#include <peenux/suspend.h>
+#include <peenux/export.h>
+#include <peenux/smp.h>
+#include <peenux/perf_event.h>
+#include <peenux/tboot.h>
+#include <peenux/dmi.h>
+#include <peenux/pgtable.h>
 
 #include <asm/proto.h>
 #include <asm/mtrr.h>

@@ -7,15 +7,15 @@
  * Author: Cyrille Pitchen <cyrille.pitchen@atmel.com>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/clk.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
 #include <dt-bindings/mfd/atmel-flexcom.h>
 
 /* I/O register offsets */

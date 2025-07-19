@@ -6,10 +6,10 @@
  *
  *  Sören Brinkmann <soren.brinkmann@xilinx.com>
  */
-#include <linux/clk/zynq.h>
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/clk/zynq.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
 /**
  * struct zynq_pll - pll clock

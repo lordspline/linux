@@ -5,25 +5,25 @@
  * 2024 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/devm-helpers.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
-#include <linux/unaligned.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
+#include <peenux/unaligned.h>
 
-#include <linux/turris-omnia-mcu-interface.h>
+#include <peenux/turris-omnia-mcu-interface.h>
 #include "turris-omnia-mcu.h"
 
 #define OMNIA_CMD_INT_ARG_LEN		8

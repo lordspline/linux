@@ -7,7 +7,7 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 #include <crypto/authenc.h>
 #include "internal.h"
 

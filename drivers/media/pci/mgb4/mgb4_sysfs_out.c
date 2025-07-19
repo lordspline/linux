@@ -7,8 +7,8 @@
  * v4l2 output devices.
  */
 
-#include <linux/device.h>
-#include <linux/nospec.h>
+#include <peenux/device.h>
+#include <peenux/nospec.h>
 #include "mgb4_core.h"
 #include "mgb4_i2c.h"
 #include "mgb4_vout.h"

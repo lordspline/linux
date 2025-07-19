@@ -7,48 +7,48 @@
 #include "multicast.h"
 #include "main.h"
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/byteorder/generic.h>
-#include <linux/container_of.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/gfp.h>
-#include <linux/icmpv6.h>
-#include <linux/if_bridge.h>
-#include <linux/if_ether.h>
-#include <linux/igmp.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/inetdevice.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/jiffies.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/netdevice.h>
-#include <linux/netlink.h>
-#include <linux/printk.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/sprintf.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/byteorder/generic.h>
+#include <peenux/container_of.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/etherdevice.h>
+#include <peenux/gfp.h>
+#include <peenux/icmpv6.h>
+#include <peenux/if_bridge.h>
+#include <peenux/if_ether.h>
+#include <peenux/igmp.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/inetdevice.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/jiffies.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/netdevice.h>
+#include <peenux/netlink.h>
+#include <peenux/printk.h>
+#include <peenux/rculist.h>
+#include <peenux/rcupdate.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/sprintf.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 #include <net/addrconf.h>
 #include <net/genetlink.h>
 #include <net/if_inet6.h>
 #include <net/ip.h>
 #include <net/ipv6.h>
 #include <net/netlink.h>
-#include <uapi/linux/batadv_packet.h>
-#include <uapi/linux/batman_adv.h>
+#include <uapi/peenux/batadv_packet.h>
+#include <uapi/peenux/batman_adv.h>
 
 #include "bridge_loop_avoidance.h"
 #include "hard-interface.h"
@@ -594,7 +594,7 @@ static int batadv_mcast_mla_bridge_get(struct net_device *dev,
 	int ret;
 
 	/* we don't need to detect these devices/listeners, the IGMP/MLD
-	 * snooping code of the Linux bridge already does that for us
+	 * snooping code of the Peenux bridge already does that for us
 	 */
 	ret = br_multicast_list_adjacent(dev, &bridge_mcast_list);
 	if (ret < 0)

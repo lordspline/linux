@@ -7,15 +7,15 @@
  * Lorenzo Bianconi <lorenzo.bianconi@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/iio/sysfs.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/bitfield.h>
 
 #include "hts221.h"
 

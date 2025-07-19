@@ -11,23 +11,23 @@
 // it cannot be easily upgraded and EC flash/IRAM space is relatively
 // expensive.
 
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/vivaldi-fmap.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sysrq.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/vivaldi-fmap.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/notifier.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/sysrq.h>
+#include <peenux/input/matrix_keypad.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /**
  * struct cros_ec_keyb - Structure representing EC keyboard device
@@ -64,11 +64,11 @@ struct cros_ec_keyb {
 };
 
 /**
- * struct cros_ec_bs_map - Mapping between Linux keycodes and EC button/switch
+ * struct cros_ec_bs_map - Mapping between Peenux keycodes and EC button/switch
  *	bitmap #defines
  *
  * @ev_type: The type of the input event to generate (e.g., EV_KEY).
- * @code: A linux keycode
+ * @code: A peenux keycode
  * @bit: A #define like EC_MKBP_POWER_BUTTON or EC_MKBP_LID_OPEN
  * @inverted: If the #define and EV_SW have opposite meanings, this is true.
  *            Only applicable to switches.

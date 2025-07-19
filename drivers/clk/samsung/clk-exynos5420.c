@@ -8,12 +8,12 @@
  */
 
 #include <dt-bindings/clock/exynos5420.h>
-#include <linux/slab.h>
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/clk.h>
+#include <peenux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/clk.h>
 
 #include "clk.h"
 #include "clk-cpu.h"

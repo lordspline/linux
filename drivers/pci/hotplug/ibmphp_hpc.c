@@ -13,16 +13,16 @@
  *
  */
 
-#include <linux/wait.h>
-#include <linux/time.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
+#include <peenux/wait.h>
+#include <peenux/time.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/sched.h>
+#include <peenux/kthread.h>
 #include "ibmphp.h"
 
 static int to_debug = 0;

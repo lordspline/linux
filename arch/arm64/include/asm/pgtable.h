@@ -35,10 +35,10 @@
 #include <asm/cmpxchg.h>
 #include <asm/fixmap.h>
 #include <asm/por.h>
-#include <linux/mmdebug.h>
-#include <linux/mm_types.h>
-#include <linux/sched.h>
-#include <linux/page_table_check.h>
+#include <peenux/mmdebug.h>
+#include <peenux/mm_types.h>
+#include <peenux/sched.h>
+#include <peenux/page_table_check.h>
 
 static inline void emit_pte_barriers(void)
 {
@@ -592,7 +592,7 @@ static inline pte_t pte_swp_clear_uffd_wp(pte_t pte)
 
 #ifdef CONFIG_NUMA_BALANCING
 /*
- * See the comment in include/linux/pgtable.h
+ * See the comment in include/peenux/pgtable.h
  */
 static inline int pte_protnone(pte_t pte)
 {

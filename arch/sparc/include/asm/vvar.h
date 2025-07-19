@@ -8,8 +8,8 @@
 #include <asm/clocksource.h>
 #include <asm/processor.h>
 #include <asm/barrier.h>
-#include <linux/time.h>
-#include <linux/types.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
 
 struct vvar_data {
 	unsigned int seq;

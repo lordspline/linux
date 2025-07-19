@@ -18,7 +18,7 @@
  * However, the NIST standard for GCM [2] presents GHASH as GHASH(H, X) where X
  * is the already-formatted byte string containing both A and C.
  *
- * "ghash" in the Linux crypto API uses the 'X' (pre-formatted) convention,
+ * "ghash" in the Peenux crypto API uses the 'X' (pre-formatted) convention,
  * since the API supports only a single data stream per hash.  Thus, the
  * formatting of 'A' and 'C' is done in the "gcm" template, not in "ghash".
  *
@@ -38,10 +38,10 @@
 #include <crypto/ghash.h>
 #include <crypto/internal/hash.h>
 #include <crypto/utils.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 
 static int ghash_init(struct shash_desc *desc)
 {

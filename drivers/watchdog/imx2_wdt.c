@@ -18,18 +18,18 @@
  * Halt on suspend:	Manual		Can be automatic
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/watchdog.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/watchdog.h>
 
 #define DRIVER_NAME "imx2-wdt"
 

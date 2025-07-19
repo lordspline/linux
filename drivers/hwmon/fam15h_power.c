@@ -6,18 +6,18 @@
  * Author: Andreas Herrmann <herrmann.der.user@googlemail.com>
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/bitops.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/time.h>
-#include <linux/sched.h>
-#include <linux/topology.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/bitops.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/time.h>
+#include <peenux/sched.h>
+#include <peenux/topology.h>
 #include <asm/processor.h>
 #include <asm/msr.h>
 

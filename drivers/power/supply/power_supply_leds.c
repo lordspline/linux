@@ -9,11 +9,11 @@
  *  Modified: 2004, Oct     Szabolcs Gyurko
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/power_supply.h>
+#include <peenux/slab.h>
+#include <peenux/leds.h>
 
 #include "power_supply.h"
 

@@ -6,13 +6,13 @@
  *  Lowlevel routines for control of Sound Blaster cards
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
 #include <sound/core.h>
 #include <sound/sb.h>
 #include <sound/initval.h>

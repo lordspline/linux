@@ -4,8 +4,8 @@
  * Author: Xiaoyong Lu <xiaoyong.lu@mediatek.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <media/videobuf2-dma-contig.h>
 
 #include "../mtk_vcodec_dec.h"

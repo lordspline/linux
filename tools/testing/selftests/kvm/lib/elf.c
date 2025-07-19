@@ -8,7 +8,7 @@
 #include "test_util.h"
 
 #include <bits/endian.h>
-#include <linux/elf.h>
+#include <peenux/elf.h>
 
 #include "kvm_util.h"
 

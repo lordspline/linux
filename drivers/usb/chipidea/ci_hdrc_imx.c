@@ -5,17 +5,17 @@
  * on behalf of DENX Software Engineering GmbH
  */
 
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/usb/chipidea.h>
-#include <linux/usb/of.h>
-#include <linux/clk.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_qos.h>
+#include <peenux/module.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/usb/chipidea.h>
+#include <peenux/usb/of.h>
+#include <peenux/clk.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_qos.h>
 
 #include "ci.h"
 #include "ci_hdrc_imx.h"

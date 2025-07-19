@@ -6,7 +6,7 @@
 #ifndef _AMDXDNA_CTX_H_
 #define _AMDXDNA_CTX_H_
 
-#include <linux/bitfield.h>
+#include <peenux/bitfield.h>
 
 #include "amdxdna_gem.h"
 

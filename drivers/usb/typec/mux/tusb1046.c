@@ -5,17 +5,17 @@
  * Copyright (C) 2024 Bootlin
  */
 
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_altmode.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/err.h>
-#include <linux/of_device.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <peenux/bits.h>
+#include <peenux/i2c.h>
+#include <peenux/usb/typec_mux.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_altmode.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/err.h>
+#include <peenux/of_device.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
 
 #define TUSB1046_REG_GENERAL 0xa
 

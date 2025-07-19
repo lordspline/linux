@@ -51,7 +51,7 @@
 			debounce-interval = <10>;
 			gpios = <&gpio1 4 GPIO_ACTIVE_LOW>;
 			label = "Wake-Up";
-			linux,code = <KEY_WAKEUP>;
+			peenux,code = <KEY_WAKEUP>;
 			wakeup-source;
 		};
 	};
@@ -202,12 +202,12 @@
 	};
 
 	spdif_out: spdif-out {
-		compatible = "linux,spdif-dit";
+		compatible = "peenux,spdif-dit";
 		#sound-dai-cells = <0>;
 	};
 
 	spdif_in: spdif-in {
-		compatible = "linux,spdif-dir";
+		compatible = "peenux,spdif-dir";
 		#sound-dai-cells = <0>;
 	};
 

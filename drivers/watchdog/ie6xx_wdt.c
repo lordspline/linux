@@ -6,17 +6,17 @@
  *                <alexander.stein@systec-electronic.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
+#include <peenux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/spinlock.h>
 
 #define DRIVER_NAME "ie6xx_wdt"
 

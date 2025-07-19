@@ -6,8 +6,8 @@
  * Copyright (C) 2008 Nokia Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "u_ether.h"
 #include "u_serial.h"

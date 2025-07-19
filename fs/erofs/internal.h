@@ -7,17 +7,17 @@
 #ifndef __EROFS_INTERNAL_H
 #define __EROFS_INTERNAL_H
 
-#include <linux/fs.h>
-#include <linux/dax.h>
-#include <linux/dcache.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/bio.h>
-#include <linux/magic.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/iomap.h>
+#include <peenux/fs.h>
+#include <peenux/dax.h>
+#include <peenux/dcache.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/bio.h>
+#include <peenux/magic.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/iomap.h>
 #include "erofs_fs.h"
 
 __printf(2, 3) void _erofs_printk(struct super_block *sb, const char *fmt, ...);

@@ -13,14 +13,14 @@
  * Rewritten to use 53c700.c by James.Bottomley@SteelEye.com
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
-#include <linux/blkdev.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/eisa.h>
-#include <linux/interrupt.h>
+#include <peenux/blkdev.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/eisa.h>
+#include <peenux/interrupt.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_transport.h>

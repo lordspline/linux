@@ -14,10 +14,10 @@
  * Vitaly Bordug <vbordug@ru.mvista.com>
  */
 
-#include <linux/delay.h>
-#include <linux/mdio-bitbang.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/mdio-bitbang.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 #define MDIO_READ 2
 #define MDIO_WRITE 1

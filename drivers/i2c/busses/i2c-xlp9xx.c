@@ -6,18 +6,18 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-smbus.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
 
 #define XLP9XX_I2C_DIV			0x0
 #define XLP9XX_I2C_CTRL			0x1

@@ -1,5 +1,5 @@
 /*
- * Compressed rom filesystem for Linux.
+ * Compressed rom filesystem for Peenux.
  *
  * Copyright (C) 1999 Linus Torvalds.
  *
@@ -13,23 +13,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/pagemap.h>
-#include <linux/pfn_t.h>
-#include <linux/ramfs.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/blkdev.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/super.h>
-#include <linux/fs_context.h>
-#include <linux/slab.h>
-#include <linux/vfs.h>
-#include <linux/mutex.h>
-#include <uapi/linux/cramfs_fs.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/pagemap.h>
+#include <peenux/pfn_t.h>
+#include <peenux/ramfs.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/blkdev.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/super.h>
+#include <peenux/fs_context.h>
+#include <peenux/slab.h>
+#include <peenux/vfs.h>
+#include <peenux/mutex.h>
+#include <uapi/peenux/cramfs_fs.h>
+#include <peenux/uaccess.h>
 
 #include "internal.h"
 

@@ -5,14 +5,14 @@
  * Copyright (C) 2015 Dennis Menschel
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/completion.h>
+#include <peenux/module.h>
 
 #include <video/mipi_display.h>
 
@@ -74,7 +74,7 @@ enum st7789v_command {
 #define PANEL_TE_TIMEOUT_MS  33
 
 static struct completion panel_te; /* completion for panel TE line */
-static int irq_te; /* Linux IRQ for LCD TE line */
+static int irq_te; /* Peenux IRQ for LCD TE line */
 
 static irqreturn_t panel_te_handler(int irq, void *data)
 {

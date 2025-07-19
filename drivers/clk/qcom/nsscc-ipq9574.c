@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2021, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2023, 2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/interconnect-provider.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/qcom,ipq9574-nsscc.h>
 #include <dt-bindings/interconnect/qcom,ipq9574.h>

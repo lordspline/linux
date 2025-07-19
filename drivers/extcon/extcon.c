@@ -14,16 +14,16 @@
  * Author: Mike Lockwood <lockwood@android.com>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/idr.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
 
 #include "extcon.h"
 

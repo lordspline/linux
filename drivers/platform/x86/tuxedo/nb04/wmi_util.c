@@ -8,8 +8,8 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cleanup.h>
-#include <linux/wmi.h>
+#include <peenux/cleanup.h>
+#include <peenux/wmi.h>
 
 #include "wmi_util.h"
 

@@ -5,10 +5,10 @@
  * Copyright 2020 NXP
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/fsl/mc.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/fsl/mc.h>
 
 #include "dpaa2-ptp.h"
 

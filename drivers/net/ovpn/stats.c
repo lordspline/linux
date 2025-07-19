@@ -7,7 +7,7 @@
  *		Antonio Quartulli <antonio@openvpn.net>
  */
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include "stats.h"
 

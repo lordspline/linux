@@ -7,12 +7,12 @@
 /*
  *  soc_sdw_cs42l43 - Helpers to handle CS42L43 from generic machine driver
  */
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/input.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/input.h>
 #include <sound/jack.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_type.h>
 #include <sound/cs42l43.h>
 #include <sound/control.h>
 #include <sound/soc.h>

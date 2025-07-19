@@ -3,11 +3,11 @@
 #ifndef __DSA_USER_H
 #define __DSA_USER_H
 
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/list.h>
-#include <linux/netpoll.h>
-#include <linux/types.h>
+#include <peenux/if_bridge.h>
+#include <peenux/if_vlan.h>
+#include <peenux/list.h>
+#include <peenux/netpoll.h>
+#include <peenux/types.h>
 #include <net/dsa.h>
 #include <net/gro_cells.h>
 

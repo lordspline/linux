@@ -5,15 +5,15 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/reboot.h>
-#include <linux/sysrq.h>
-#include <linux/stop_machine.h>
-#include <linux/freezer.h>
-#include <linux/syscore_ops.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/reboot.h>
+#include <peenux/sysrq.h>
+#include <peenux/stop_machine.h>
+#include <peenux/freezer.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/export.h>
 
 #include <xen/xen.h>
 #include <xen/xenbus.h>

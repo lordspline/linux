@@ -4,10 +4,10 @@
  * Derived from i2c-designware-pcidrv.c and i2c-nvidia-gpu.c.
  */
 
-#include <linux/i2c.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/i2c.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 
 #include "i2c-ccgx-ucsi.h"
 

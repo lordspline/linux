@@ -5,8 +5,8 @@ Copyright (c) 2010 - 2015, Intel Corporation.
 
 */
 
-#include <linux/bitops.h>
-#include <linux/math.h>
+#include <peenux/bitops.h>
+#include <peenux/math.h>
 
 #include "ia_css_yuv444_io.host.h"
 #include "dma.h"

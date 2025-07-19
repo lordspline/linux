@@ -3,12 +3,12 @@
  * Copyright (C) 2021 Rafał Miłecki <rafal@milecki.pl>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/mtd/mtd.h>
-#include <linux/slab.h>
-#include <linux/mtd/partitions.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/partitions.h>
 
 #include "ofpart_bcm4908.h"
 

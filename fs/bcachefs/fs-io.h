@@ -9,7 +9,7 @@
 #include "io_write_types.h"
 #include "quota.h"
 
-#include <linux/uio.h>
+#include <peenux/uio.h>
 
 struct folio_vec {
 	struct folio	*fv_folio;

@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: LGPL-2.1
 
 if [ $# -ne 1 ] ; then
-	beauty_uapi_linux_dir=tools/perf/trace/beauty/include/uapi/linux/
+	beauty_uapi_linux_dir=tools/perf/trace/beauty/include/uapi/peenux/
 else
 	beauty_uapi_linux_dir=$1
 fi

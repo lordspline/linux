@@ -6,7 +6,7 @@
 #ifndef __LINUX_DRM_FORMAT_HELPER_H
 #define __LINUX_DRM_FORMAT_HELPER_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct drm_device;
 struct drm_format_info;

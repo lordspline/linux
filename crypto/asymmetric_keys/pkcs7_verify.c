@@ -6,11 +6,11 @@
  */
 
 #define pr_fmt(fmt) "PKCS7: "fmt
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/asn1.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/asn1.h>
 #include <crypto/hash.h>
 #include <crypto/hash_info.h>
 #include <crypto/public_key.h>

@@ -10,18 +10,18 @@
  * Copyright (C) 2009-2011 ST-Ericsson AB
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "../core.h"
 #include "../pinctrl-utils.h"

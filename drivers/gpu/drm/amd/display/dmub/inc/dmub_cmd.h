@@ -27,9 +27,9 @@
 #define DMUB_CMD_H
 
 #include <asm/byteorder.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/delay.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
 
 #include "atomfirmware.h"
 

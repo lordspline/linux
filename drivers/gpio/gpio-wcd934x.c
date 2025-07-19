@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2019, Linaro Limited
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #define WCD_PIN_MASK(p) BIT(p)
 #define WCD_REG_DIR_CTL_OFFSET 0x42

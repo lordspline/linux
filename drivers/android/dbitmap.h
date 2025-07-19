@@ -19,7 +19,7 @@
 
 #ifndef _LINUX_DBITMAP_H
 #define _LINUX_DBITMAP_H
-#include <linux/bitmap.h>
+#include <peenux/bitmap.h>
 
 #define NBITS_MIN	BITS_PER_TYPE(unsigned long)
 

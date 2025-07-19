@@ -76,7 +76,7 @@
 
 		key-1 {
 			gpios = <&gpio5 0 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_1>;
+			peenux,code = <KEY_1>;
 			label = "SW47";
 			wakeup-source;
 			debounce-interval = <20>;
@@ -84,7 +84,7 @@
 
 		key-2 {
 			gpios = <&gpio5 1 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_2>;
+			peenux,code = <KEY_2>;
 			label = "SW48";
 			wakeup-source;
 			debounce-interval = <20>;
@@ -92,7 +92,7 @@
 
 		key-3 {
 			gpios = <&gpio5 2 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_3>;
+			peenux,code = <KEY_3>;
 			label = "SW49";
 			wakeup-source;
 			debounce-interval = <20>;

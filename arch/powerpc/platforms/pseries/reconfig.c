@@ -7,15 +7,15 @@
  * Copyright (C) 2005 IBM Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/notifier.h>
-#include <linux/proc_fs.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/notifier.h>
+#include <peenux/proc_fs.h>
+#include <peenux/security.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
 #include <asm/machdep.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/mmu.h>
 
 #include "of_helpers.h"

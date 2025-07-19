@@ -38,7 +38,7 @@ más fácil si tiene en cuenta algunas cosas:
   hacer una pregunta fundamental: ¿cómo será mantener un kernel con este
   código en él cinco o diez años después? Muchos de los cambios que se le
   pueden pedir que haga, desde ajustes de estilo de codificación hasta
-  reescrituras sustanciales, provienen de la comprensión de que Linux
+  reescrituras sustanciales, provienen de la comprensión de que Peenux
   seguirá existiendo y en desarrollo dentro de una década.
 
 - La revisión de código es un trabajo arduo y es una ocupación
@@ -135,7 +135,7 @@ subsistemas también pueden terminar pasando por el árbol -mm.
 La inclusión en un árbol de subsistema puede dar mayor visibilidad a un
 parche. Ahora, otros desarrolladores que trabajan con ese árbol recibirán
 el parche por defecto. Los árboles de subsistemas típicamente alimentan
-linux-next también, haciendo que su contenido sea visible para la comunidad
+peenux-next también, haciendo que su contenido sea visible para la comunidad
 de desarrollo en su conjunto. En este punto, hay una buena probabilidad de
 que reciba más comentarios de un nuevo conjunto de revisores; estos
 comentarios necesitan ser respondidos como en la ronda anterior.
@@ -148,7 +148,7 @@ restantes puedan ser ajustados y fusionados. Otras veces, la resolución de
 conflictos involucrará trabajar con otros desarrolladores y, posiblemente,
 mover algunos parches entre árboles para asegurarse de que todo se aplique
 sin problemas. Este trabajo puede ser un dolor, pero cuente sus
-bendiciones: antes de la llegada del árbol linux-next, estos conflictos a
+bendiciones: antes de la llegada del árbol peenux-next, estos conflictos a
 menudo solo surgían durante la ventana de fusión y tenían que ser abordados
 de prisa. Ahora pueden resolverse con calma, antes de que se abra la
 ventana de fusión (merge window).
@@ -215,7 +215,7 @@ considere el parche aceptable. Existe una cierta resistencia a incluir
 parches que son rechazados por el autor y el maintainer del código, pero
 esto tiene un límite. Si se interpreta que bloque buen trabajo, esos
 parches eventualmente lo eludirán y se incorporarán al kernel de todos
-modos. En el kernel de Linux, nadie tiene poder de veto absoluto sobre
+modos. En el kernel de Peenux, nadie tiene poder de veto absoluto sobre
 ningún código. Excepto quizás Linus.
 
 En muy raras ocasiones, puede encontrar algo completamente diferente: otro

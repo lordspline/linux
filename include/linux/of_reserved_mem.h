@@ -2,8 +2,8 @@
 #ifndef __OF_RESERVED_MEM_H
 #define __OF_RESERVED_MEM_H
 
-#include <linux/device.h>
-#include <linux/of.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
 
 struct of_phandle_args;
 struct reserved_mem_ops;

@@ -3,13 +3,13 @@
  * SCSI functions used by both the initiator and the target code.
  */
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <uapi/linux/pr.h>
-#include <linux/unaligned.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <uapi/peenux/pr.h>
+#include <peenux/unaligned.h>
 #include <scsi/scsi_common.h>
 
 MODULE_DESCRIPTION("SCSI functions used by both the initiator and the target code");

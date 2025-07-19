@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #include "fncache.h"
 #include "hashmap.h"
 

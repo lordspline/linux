@@ -4,13 +4,13 @@
  * Copyright (C) 2003 David S. Miller (davem@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/mpls.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/mpls.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
 #include <net/icmp.h>
 #include <net/ip.h>
 #include <net/protocol.h>

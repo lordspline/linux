@@ -6,11 +6,11 @@
  *  Author:	Antonio Quartulli <antonio@openvpn.net>
  */
 
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/udp.h>
+#include <peenux/netdevice.h>
+#include <peenux/inetdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/socket.h>
+#include <peenux/udp.h>
 #include <net/addrconf.h>
 #include <net/dst_cache.h>
 #include <net/route.h>

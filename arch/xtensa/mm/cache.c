@@ -13,18 +13,18 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/memblock.h>
-#include <linux/swap.h>
-#include <linux/pagemap.h>
-#include <linux/pgtable.h>
+#include <peenux/init.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/memblock.h>
+#include <peenux/swap.h>
+#include <peenux/pagemap.h>
+#include <peenux/pgtable.h>
 
 #include <asm/bootparam.h>
 #include <asm/mmu_context.h>

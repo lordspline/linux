@@ -4,7 +4,7 @@
  * Author: Daniel Golle <daniel@makrotopia.org>
  */
 
-#include <linux/phy.h>
+#include <peenux/phy.h>
 
 #include "aquantia.h"
 

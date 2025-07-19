@@ -10,17 +10,17 @@
  * based on TSC2301 driver by Klaus K. Pedersen <klaus.k.pedersen@nokia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/gpio/consumer.h>
 #include "tsc200x-core.h"
 
 /*

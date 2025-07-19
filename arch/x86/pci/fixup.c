@@ -3,12 +3,12 @@
  * Exceptions for specific devices. Usually work-arounds for fatal design flaws.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/pci.h>
-#include <linux/suspend.h>
-#include <linux/vgaarb.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/pci.h>
+#include <peenux/suspend.h>
+#include <peenux/vgaarb.h>
 #include <asm/amd/node.h>
 #include <asm/hpet.h>
 #include <asm/pci_x86.h>

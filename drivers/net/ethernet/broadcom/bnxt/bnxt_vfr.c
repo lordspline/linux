@@ -6,11 +6,11 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation.
  */
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/jhash.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/jhash.h>
 #include <net/pkt_cls.h>
 
 #include "bnxt_hsi.h"

@@ -71,9 +71,9 @@
 		event-hall-sensor {
 			gpios = <&tlmm 75 GPIO_ACTIVE_LOW>;
 			label = "hall effect sensor";
-			linux,input-type = <EV_SW>;
-			linux,code = <SW_LID>;
-			linux,can-disable;
+			peenux,input-type = <EV_SW>;
+			peenux,code = <SW_LID>;
+			peenux,can-disable;
 			wakeup-source;
 		};
 	};
@@ -84,7 +84,7 @@
 		key-vol-up {
 			label = "volume up";
 			gpios = <&pm8994_gpios 3 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			wakeup-source;
 			debounce-interval = <15>;
 		};
@@ -122,7 +122,7 @@
 };
 
 &pm8994_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	peenux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

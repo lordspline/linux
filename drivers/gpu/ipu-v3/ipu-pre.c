@@ -4,13 +4,13 @@
  */
 
 #include <drm/drm_fourcc.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/genalloc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/genalloc.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 #include <video/imx-ipu-v3.h>
 
 #include "ipu-prv.h"

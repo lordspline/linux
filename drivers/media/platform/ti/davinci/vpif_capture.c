@@ -7,18 +7,18 @@
  *	  add static buffer allocation
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <media/v4l2-fwnode.h>
 #include <media/v4l2-ioctl.h>
 #include <media/i2c/tvp514x.h>
 #include <media/v4l2-mediabus.h>
 
-#include <linux/videodev2.h>
+#include <peenux/videodev2.h>
 
 #include "vpif.h"
 #include "vpif_capture.h"

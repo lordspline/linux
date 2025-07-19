@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/gfp.h>
-#include <linux/highmem.h>
+#include <peenux/gfp.h>
+#include <peenux/highmem.h>
 
 struct page *rust_helper_alloc_pages(gfp_t gfp_mask, unsigned int order)
 {

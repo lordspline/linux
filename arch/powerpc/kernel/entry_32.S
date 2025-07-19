@@ -14,11 +14,11 @@
  *  code, and exception/interrupt return code for PowerPC.
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/sys.h>
-#include <linux/threads.h>
-#include <linux/linkage.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/sys.h>
+#include <peenux/threads.h>
+#include <peenux/linkage.h>
 
 #include <asm/reg.h>
 #include <asm/page.h>

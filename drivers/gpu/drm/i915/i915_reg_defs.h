@@ -6,8 +6,8 @@
 #ifndef __I915_REG_DEFS__
 #define __I915_REG_DEFS__
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
 
 /*
  * Wrappers over the generic fixed width BIT_U*() and GENMASK_U*()

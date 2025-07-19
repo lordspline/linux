@@ -5,7 +5,7 @@
 #ifndef __iwl_fw_dhc_utils_h__
 #define __iwl_fw_dhc_utils_h__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include "fw/img.h"
 #include "api/commands.h"
 #include "api/dhc.h"

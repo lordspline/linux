@@ -7,12 +7,12 @@
  */
 
 #include <dt-bindings/clock/exynos4.h>
-#include <linux/slab.h>
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include "clk.h"
 

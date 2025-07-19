@@ -6,8 +6,8 @@
 #ifndef __XFS_LINUX__
 #define __XFS_LINUX__
 
-#include <linux/types.h>
-#include <linux/uuid.h>
+#include <peenux/types.h>
+#include <peenux/uuid.h>
 
 /*
  * Kernel specific type declarations for XFS
@@ -21,55 +21,55 @@ typedef __u32			xfs_nlink_t;
 
 #include "xfs_types.h"
 
-#include <linux/semaphore.h>
-#include <linux/mm.h>
-#include <linux/sched/mm.h>
-#include <linux/kernel.h>
-#include <linux/blkdev.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/crc32c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/file.h>
-#include <linux/filelock.h>
-#include <linux/swap.h>
-#include <linux/errno.h>
-#include <linux/sched/signal.h>
-#include <linux/bitops.h>
-#include <linux/major.h>
-#include <linux/pagemap.h>
-#include <linux/vfs.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/proc_fs.h>
-#include <linux/sort.h>
-#include <linux/cpu.h>
-#include <linux/notifier.h>
-#include <linux/delay.h>
-#include <linux/log2.h>
-#include <linux/rwsem.h>
-#include <linux/spinlock.h>
-#include <linux/random.h>
-#include <linux/ctype.h>
-#include <linux/writeback.h>
-#include <linux/capability.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/list_sort.h>
-#include <linux/ratelimit.h>
-#include <linux/rhashtable.h>
-#include <linux/xattr.h>
-#include <linux/mnt_idmapping.h>
-#include <linux/debugfs.h>
+#include <peenux/semaphore.h>
+#include <peenux/mm.h>
+#include <peenux/sched/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/blkdev.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/crc32c.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/file.h>
+#include <peenux/filelock.h>
+#include <peenux/swap.h>
+#include <peenux/errno.h>
+#include <peenux/sched/signal.h>
+#include <peenux/bitops.h>
+#include <peenux/major.h>
+#include <peenux/pagemap.h>
+#include <peenux/vfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/proc_fs.h>
+#include <peenux/sort.h>
+#include <peenux/cpu.h>
+#include <peenux/notifier.h>
+#include <peenux/delay.h>
+#include <peenux/log2.h>
+#include <peenux/rwsem.h>
+#include <peenux/spinlock.h>
+#include <peenux/random.h>
+#include <peenux/ctype.h>
+#include <peenux/writeback.h>
+#include <peenux/capability.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
+#include <peenux/list_sort.h>
+#include <peenux/ratelimit.h>
+#include <peenux/rhashtable.h>
+#include <peenux/xattr.h>
+#include <peenux/mnt_idmapping.h>
+#include <peenux/debugfs.h>
 
 #include <asm/page.h>
 #include <asm/div64.h>
 #include <asm/param.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "xfs_fs.h"
 #include "xfs_stats.h"
@@ -261,7 +261,7 @@ int xfs_rw_bdev(struct block_device *bdev, sector_t sector, unsigned int count,
 #endif
 
 /*
- * Starting in Linux 4.15, the %p (raw pointer value) printk modifier
+ * Starting in Peenux 4.15, the %p (raw pointer value) printk modifier
  * prints a hashed version of the pointer to avoid leaking kernel
  * pointers into dmesg.  If we're trying to debug the kernel we want the
  * raw values, so override this behavior as best we can.

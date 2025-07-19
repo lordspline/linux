@@ -4,17 +4,17 @@
  *
  * Copyright (c) 2017 Microsemi Corporation
  */
-#include <linux/dsa/ocelot.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of_net.h>
-#include <linux/netdevice.h>
-#include <linux/phylink.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/skbuff.h>
+#include <peenux/dsa/ocelot.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of_net.h>
+#include <peenux/netdevice.h>
+#include <peenux/phylink.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/skbuff.h>
 #include <net/switchdev.h>
 
 #include <soc/mscc/ocelot.h>

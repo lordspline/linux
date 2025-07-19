@@ -3,12 +3,12 @@
  * Copyright (C) 2005-2006 Micronas USA Inc.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
-#include <linux/ioctl.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/videodev2.h>
+#include <peenux/ioctl.h>
+#include <peenux/slab.h>
 #include <media/v4l2-subdev.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>

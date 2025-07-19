@@ -3,9 +3,9 @@
 #ifndef _FPGA_REGION_H
 #define _FPGA_REGION_H
 
-#include <linux/device.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/fpga/fpga-bridge.h>
+#include <peenux/device.h>
+#include <peenux/fpga/fpga-mgr.h>
+#include <peenux/fpga/fpga-bridge.h>
 
 struct fpga_region;
 

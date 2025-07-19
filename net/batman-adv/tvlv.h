@@ -9,9 +9,9 @@
 
 #include "main.h"
 
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <uapi/linux/batadv_packet.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
+#include <uapi/peenux/batadv_packet.h>
 
 void batadv_tvlv_container_register(struct batadv_priv *bat_priv,
 				    u8 type, u8 version,

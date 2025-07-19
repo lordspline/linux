@@ -44,12 +44,12 @@
 		ranges;
 
 		/* global cma region */
-		linux,cma {
+		peenux,cma {
 			compatible = "shared-dma-pool";
 			reusable;
 			size = <0x00 0x24000000>;
 			alloc-ranges = <0x00 0xc0000000 0x00 0x24000000>;
-			linux,cma-default;
+			peenux,cma-default;
 		};
 
 		c7x_0_dma_memory_region: c7x-dma-memory@99800000 {
@@ -186,7 +186,7 @@
 		led-0 {
 			label = "am62a-sk:green:heartbeat";
 			gpios = <&main_gpio1 49 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 			function = LED_FUNCTION_HEARTBEAT;
 			default-state = "off";
 		};

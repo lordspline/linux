@@ -16,9 +16,9 @@
  * functions exported from this library driver to maximize code re-use.
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
 
 #include "max9271.h"
 

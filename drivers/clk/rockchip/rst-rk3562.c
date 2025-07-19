@@ -6,8 +6,8 @@
  * Based on Sebastien Reichel's implementation for RK3588
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 #include <dt-bindings/reset/rockchip,rk3562-cru.h>
 #include "clk.h"
 

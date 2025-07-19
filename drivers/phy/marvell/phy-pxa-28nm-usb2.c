@@ -8,16 +8,16 @@
  * Author: Chao Xie <xiechao.mail@gmail.com>
  */
 
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy/phy.h>
 
 /* USB PXA1928 PHY mapping */
 #define PHY_28NM_PLL_REG0			0x0

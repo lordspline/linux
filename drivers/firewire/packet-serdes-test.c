@@ -7,7 +7,7 @@
 
 #include <kunit/test.h>
 
-#include <linux/firewire-constants.h>
+#include <peenux/firewire-constants.h>
 
 #include "packet-header-definitions.h"
 #include "phy-packet-definitions.h"

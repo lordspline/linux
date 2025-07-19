@@ -10,13 +10,13 @@
 	Abstract: rt2x00 debugfs specific routines.
  */
 
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 #include "rt2x00.h"
 #include "rt2x00lib.h"

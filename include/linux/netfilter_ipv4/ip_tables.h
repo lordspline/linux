@@ -15,12 +15,12 @@
 #ifndef _IPTABLES_H
 #define _IPTABLES_H
 
-#include <linux/if.h>
-#include <linux/in.h>
-#include <linux/init.h>
-#include <linux/ip.h>
-#include <linux/skbuff.h>
-#include <uapi/linux/netfilter_ipv4/ip_tables.h>
+#include <peenux/if.h>
+#include <peenux/in.h>
+#include <peenux/init.h>
+#include <peenux/ip.h>
+#include <peenux/skbuff.h>
+#include <uapi/peenux/netfilter_ipv4/ip_tables.h>
 
 int ipt_register_table(struct net *net, const struct xt_table *table,
 		       const struct ipt_replace *repl,

@@ -5,14 +5,14 @@
  * Copyright (C) 2018 David Lechner <david@lechnology.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/reset-controller.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/types.h>
+#include <peenux/clk-provider.h>
+#include <peenux/reset-controller.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/types.h>
 
 #include "psc.h"
 

@@ -5,28 +5,28 @@
  * Authors: Jérôme Glisse <jglisse@redhat.com>
  */
 /*
- * Refer to include/linux/hmm.h for information about heterogeneous memory
+ * Refer to include/peenux/hmm.h for information about heterogeneous memory
  * management or HMM for short.
  */
-#include <linux/pagewalk.h>
-#include <linux/hmm.h>
-#include <linux/hmm-dma.h>
-#include <linux/init.h>
-#include <linux/rmap.h>
-#include <linux/swap.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/mmzone.h>
-#include <linux/pagemap.h>
-#include <linux/swapops.h>
-#include <linux/hugetlb.h>
-#include <linux/memremap.h>
-#include <linux/sched/mm.h>
-#include <linux/jump_label.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci-p2pdma.h>
-#include <linux/mmu_notifier.h>
-#include <linux/memory_hotplug.h>
+#include <peenux/pagewalk.h>
+#include <peenux/hmm.h>
+#include <peenux/hmm-dma.h>
+#include <peenux/init.h>
+#include <peenux/rmap.h>
+#include <peenux/swap.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/mmzone.h>
+#include <peenux/pagemap.h>
+#include <peenux/swapops.h>
+#include <peenux/hugetlb.h>
+#include <peenux/memremap.h>
+#include <peenux/sched/mm.h>
+#include <peenux/jump_label.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pci-p2pdma.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/memory_hotplug.h>
 
 #include "internal.h"
 

@@ -38,7 +38,7 @@ import time
 import json
 
 import drgn
-from drgn.helpers.linux.list import list_for_each_entry
+from drgn.helpers.peenux.list import list_for_each_entry
 
 import argparse
 parser = argparse.ArgumentParser(description=desc,

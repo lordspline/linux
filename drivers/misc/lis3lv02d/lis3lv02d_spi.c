@@ -5,17 +5,17 @@
  * Copyright (c) 2009 Daniel Mack <daniel@caiaq.de>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/spi/spi.h>
-#include <linux/pm.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/spi/spi.h>
+#include <peenux/pm.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_device.h>
 
 #include "lis3lv02d.h"
 

@@ -3,14 +3,14 @@
  * Copyright (c) 2015, Fuzhou Rockchip Electronics Co., Ltd
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #define MAILBOX_A2B_INTEN		0x00
 #define MAILBOX_A2B_STATUS		0x04

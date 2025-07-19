@@ -5,16 +5,16 @@
 // Copyright (C) 2022 Laurent Pinchart <laurent.pinchart@idesonboard.com>
 // Copyright (C) 2018 Avnet, Inc.
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/slab.h>
 
 /* Register Offset */
 #define MAX20086_REG_MASK		0x00

@@ -8,10 +8,10 @@
 #ifndef __IIO_SW_DEVICE
 #define __IIO_SW_DEVICE
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/iio/iio.h>
-#include <linux/configfs.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/iio/iio.h>
+#include <peenux/configfs.h>
 
 #define module_iio_sw_device_driver(__iio_sw_device_type) \
 	module_driver(__iio_sw_device_type, iio_register_sw_device_type, \

@@ -35,23 +35,23 @@
 
 #define pr_fmt(fmt) "user_mad: " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/cdev.h>
-#include <linux/dma-mapping.h>
-#include <linux/poll.h>
-#include <linux/mutex.h>
-#include <linux/kref.h>
-#include <linux/compat.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
-#include <linux/slab.h>
-#include <linux/nospec.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/cdev.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/poll.h>
+#include <peenux/mutex.h>
+#include <peenux/kref.h>
+#include <peenux/compat.h>
+#include <peenux/sched.h>
+#include <peenux/semaphore.h>
+#include <peenux/slab.h>
+#include <peenux/nospec.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <rdma/ib_mad.h>
 #include <rdma/ib_user_mad.h>

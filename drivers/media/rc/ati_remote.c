@@ -72,15 +72,15 @@
  * parameter are unused.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/usb/input.h>
-#include <linux/wait.h>
-#include <linux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/usb/input.h>
+#include <peenux/wait.h>
+#include <peenux/jiffies.h>
 #include <media/rc-core.h>
 
 /*

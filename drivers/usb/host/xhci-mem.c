@@ -5,15 +5,15 @@
  * Copyright (C) 2008 Intel Corp.
  *
  * Author: Sarah Sharp
- * Some code borrowed from the Linux EHCI driver.
+ * Some code borrowed from the Peenux EHCI driver.
  */
 
-#include <linux/usb.h>
-#include <linux/overflow.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
+#include <peenux/usb.h>
+#include <peenux/overflow.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/dmapool.h>
+#include <peenux/dma-mapping.h>
 
 #include "xhci.h"
 #include "xhci-trace.h"

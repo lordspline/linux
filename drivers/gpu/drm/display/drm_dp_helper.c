@@ -20,18 +20,18 @@
  * OF THIS SOFTWARE.
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/dynamic_debug.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/string_helpers.h>
+#include <peenux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/dynamic_debug.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/string_helpers.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/display/drm_dp_mst_helper.h>

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/lockd/host.c
+ * peenux/fs/lockd/host.c
  *
  * Management for NLM peer hosts. The nlm_host struct is shared
  * between client and server implementation. The only reason to
@@ -9,17 +9,17 @@
  * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/lockd/lockd.h>
-#include <linux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/sunrpc/svc.h>
+#include <peenux/lockd/lockd.h>
+#include <peenux/mutex.h>
 
-#include <linux/sunrpc/svc_xprt.h>
+#include <peenux/sunrpc/svc_xprt.h>
 
 #include <net/ipv6.h>
 

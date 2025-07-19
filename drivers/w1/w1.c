@@ -3,23 +3,23 @@
  * Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/hwmon.h>
-#include <linux/of.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
+#include <peenux/hwmon.h>
+#include <peenux/of.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include "w1_internal.h"
 #include "w1_netlink.h"

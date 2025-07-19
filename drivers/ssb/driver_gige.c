@@ -8,12 +8,12 @@
  * Licensed under the GNU/GPL. See COPYING for details.
  */
 
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_driver_gige.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/slab.h>
+#include <peenux/ssb/ssb.h>
+#include <peenux/ssb/ssb_driver_gige.h>
+#include <peenux/export.h>
+#include <peenux/pci.h>
+#include <peenux/pci_regs.h>
+#include <peenux/slab.h>
 
 
 /*

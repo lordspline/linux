@@ -5,25 +5,25 @@
  * Copyright (C) 2009 Neil Horman <nhorman@tuxdriver.com>
  */
 
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/string.h>
-#include <linux/if_arp.h>
-#include <linux/inetdevice.h>
-#include <linux/inet.h>
-#include <linux/interrupt.h>
-#include <linux/export.h>
-#include <linux/netpoll.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/rcupdate.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
-#include <linux/netlink.h>
-#include <linux/net_dropmon.h>
-#include <linux/slab.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/string.h>
+#include <peenux/if_arp.h>
+#include <peenux/inetdevice.h>
+#include <peenux/inet.h>
+#include <peenux/interrupt.h>
+#include <peenux/export.h>
+#include <peenux/netpoll.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/rcupdate.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
+#include <peenux/netlink.h>
+#include <peenux/net_dropmon.h>
+#include <peenux/slab.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/bitops.h>
 
 #define CREATE_TRACE_POINTS

@@ -5,20 +5,20 @@
  *
  * Copyright (C) 2015 Russell King
  */
-#include <linux/acpi.h>
-#include <linux/ethtool.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/phylink.h>
-#include <linux/rtnetlink.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/ethtool.h>
+#include <peenux/export.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/phy_fixed.h>
+#include <peenux/phylink.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
 
 #include "phy-caps.h"
 #include "sfp.h"

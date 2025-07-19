@@ -33,13 +33,13 @@
 		key-copy {
 			label = "copy";
 			gpios = <&gpio0 RK_PB6 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_COPY>;
+			peenux,code = <KEY_COPY>;
 		};
 
 		key-reset {
 			label = "reset";
 			gpios = <&gpio0 RK_PB5 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_RESTART>;
+			peenux,code = <KEY_RESTART>;
 		};
 	};
 
@@ -51,7 +51,7 @@
 			function = LED_FUNCTION_DISK;
 			gpios = <&gpio1 RK_PD5 GPIO_ACTIVE_LOW>;
 			label = "hdd1:green:disk";
-			linux,default-trigger = "disk-activity";
+			peenux,default-trigger = "disk-activity";
 			pinctrl-names = "default";
 			pinctrl-0 = <&hdd1_led_pin>;
 		};
@@ -61,7 +61,7 @@
 			function = LED_FUNCTION_DISK;
 			gpios = <&gpio1 RK_PD6 GPIO_ACTIVE_LOW>;
 			label = "hdd2:green:disk";
-			linux,default-trigger = "disk-activity";
+			peenux,default-trigger = "disk-activity";
 			pinctrl-names = "default";
 			pinctrl-0 = <&hdd2_led_pin>;
 		};
@@ -71,7 +71,7 @@
 			function = LED_FUNCTION_DISK;
 			gpios = <&gpio1 RK_PD7 GPIO_ACTIVE_LOW>;
 			label = "hdd3:green:disk";
-			linux,default-trigger = "disk-activity";
+			peenux,default-trigger = "disk-activity";
 			pinctrl-names = "default";
 			pinctrl-0 = <&hdd3_led_pin>;
 		};
@@ -81,7 +81,7 @@
 			function = LED_FUNCTION_DISK;
 			gpios = <&gpio2 RK_PA0 GPIO_ACTIVE_LOW>;
 			label = "hdd4:green:disk";
-			linux,default-trigger = "disk-activity";
+			peenux,default-trigger = "disk-activity";
 			pinctrl-names = "default";
 			pinctrl-0 = <&hdd4_led_pin>;
 		};

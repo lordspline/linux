@@ -13,13 +13,13 @@
  * messages, proper stop/repstart signaling during receive, added detect code
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-pcf.h>
-#include <linux/string_choices.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-pcf.h>
+#include <peenux/string_choices.h>
 #include "i2c-algo-pcf.h"
 
 

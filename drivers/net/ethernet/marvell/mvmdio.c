@@ -17,21 +17,21 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/acpi.h>
-#include <linux/acpi_mdio.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
+#include <peenux/acpi.h>
+#include <peenux/acpi_mdio.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
 
 #define MVMDIO_SMI_DATA_SHIFT		0
 #define MVMDIO_SMI_PHY_ADDR_SHIFT	16

@@ -4,9 +4,9 @@
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/bitfield.h>
 #include "core.h"
 #include "hw.h"
 #include "hif.h"

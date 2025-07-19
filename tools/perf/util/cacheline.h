@@ -2,7 +2,7 @@
 #ifndef PERF_CACHELINE_H
 #define PERF_CACHELINE_H
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 int __pure cacheline_size(void);
 

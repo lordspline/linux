@@ -9,16 +9,16 @@
  *	Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
 
 #include <media/media-device.h>
 #include <media/v4l2-async.h>

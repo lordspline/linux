@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright 2025 NXP */
 
-#include <linux/device.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/string_choices.h>
+#include <peenux/device.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/string_choices.h>
 
 #include "enetc_pf.h"
 #include "enetc4_debugfs.h"

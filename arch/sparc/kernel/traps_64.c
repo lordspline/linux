@@ -9,22 +9,22 @@
  * I like traps on v9, :))))
  */
 
-#include <linux/cpu.h>
-#include <linux/extable.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/debug.h>
-#include <linux/linkage.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/kallsyms.h>
-#include <linux/kdebug.h>
-#include <linux/ftrace.h>
-#include <linux/reboot.h>
-#include <linux/gfp.h>
-#include <linux/context_tracking.h>
+#include <peenux/cpu.h>
+#include <peenux/extable.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/debug.h>
+#include <peenux/linkage.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/smp.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kdebug.h>
+#include <peenux/ftrace.h>
+#include <peenux/reboot.h>
+#include <peenux/gfp.h>
+#include <peenux/context_tracking.h>
 
 #include <asm/smp.h>
 #include <asm/delay.h>
@@ -32,7 +32,7 @@
 #include <asm/oplib.h>
 #include <asm/page.h>
 #include <asm/unistd.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/fpumacro.h>
 #include <asm/lsu.h>
 #include <asm/dcu.h>

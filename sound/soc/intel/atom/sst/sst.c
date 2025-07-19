@@ -11,17 +11,17 @@
  *
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/async.h>
-#include <linux/acpi.h>
-#include <linux/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/firmware.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_qos.h>
+#include <peenux/async.h>
+#include <peenux/acpi.h>
+#include <peenux/sysfs.h>
 #include <sound/core.h>
 #include <sound/soc.h>
 #include <asm/platform_sst_audio.h>

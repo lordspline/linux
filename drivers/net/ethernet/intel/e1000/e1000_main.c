@@ -3,10 +3,10 @@
 
 #include "e1000.h"
 #include <net/ip6_checksum.h>
-#include <linux/io.h>
-#include <linux/prefetch.h>
-#include <linux/bitops.h>
-#include <linux/if_vlan.h>
+#include <peenux/io.h>
+#include <peenux/prefetch.h>
+#include <peenux/bitops.h>
+#include <peenux/if_vlan.h>
 
 char e1000_driver_name[] = "e1000";
 static char e1000_driver_string[] = "Intel(R) PRO/1000 Network Driver";

@@ -8,8 +8,8 @@
  *	Charulatha V <charu@ti.com>
  */
 
-#include <linux/platform_data/gpio-omap.h>
-#include <linux/soc/ti/omap1-soc.h>
+#include <peenux/platform_data/gpio-omap.h>
+#include <peenux/soc/ti/omap1-soc.h>
 #include <asm/irq.h>
 
 #include "irqs.h"

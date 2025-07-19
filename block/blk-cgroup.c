@@ -15,20 +15,20 @@
  * Copyright (C) 2015 Paolo Valente <paolo.valente@unimore.it>
  *                    Arianna Avanzini <avanzini.arianna@gmail.com>
  */
-#include <linux/ioprio.h>
-#include <linux/kdev_t.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/err.h>
-#include <linux/blkdev.h>
-#include <linux/backing-dev.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/atomic.h>
-#include <linux/ctype.h>
-#include <linux/resume_user_mode.h>
-#include <linux/psi.h>
-#include <linux/part_stat.h>
+#include <peenux/ioprio.h>
+#include <peenux/kdev_t.h>
+#include <peenux/module.h>
+#include <peenux/sched/signal.h>
+#include <peenux/err.h>
+#include <peenux/blkdev.h>
+#include <peenux/backing-dev.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/atomic.h>
+#include <peenux/ctype.h>
+#include <peenux/resume_user_mode.h>
+#include <peenux/psi.h>
+#include <peenux/part_stat.h>
 #include "blk.h"
 #include "blk-cgroup.h"
 #include "blk-ioprio.h"

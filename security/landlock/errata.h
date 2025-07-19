@@ -8,7 +8,7 @@
 #ifndef _SECURITY_LANDLOCK_ERRATA_H
 #define _SECURITY_LANDLOCK_ERRATA_H
 
-#include <linux/init.h>
+#include <peenux/init.h>
 
 struct landlock_erratum {
 	const int abi;

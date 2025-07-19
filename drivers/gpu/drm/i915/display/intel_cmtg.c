@@ -3,8 +3,8 @@
  * Copyright (C) 2025 Intel Corporation
  */
 
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_print.h>

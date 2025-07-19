@@ -5,11 +5,11 @@
 #ifndef _IPE_HOOKS_H
 #define _IPE_HOOKS_H
 
-#include <linux/fs.h>
-#include <linux/binfmts.h>
-#include <linux/security.h>
-#include <linux/blk_types.h>
-#include <linux/fsverity.h>
+#include <peenux/fs.h>
+#include <peenux/binfmts.h>
+#include <peenux/security.h>
+#include <peenux/blk_types.h>
+#include <peenux/fsverity.h>
 
 enum ipe_hook_type {
 	IPE_HOOK_BPRM_CHECK = 0,

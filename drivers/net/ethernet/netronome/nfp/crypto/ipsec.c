@@ -2,12 +2,12 @@
 /* Copyright (C) 2018 Netronome Systems, Inc */
 /* Copyright (C) 2021 Corigine, Inc */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/unaligned.h>
-#include <linux/ktime.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/unaligned.h>
+#include <peenux/ktime.h>
 #include <net/xfrm.h>
 
 #include "../nfpcore/nfp_dev.h"

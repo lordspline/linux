@@ -3,11 +3,11 @@
  * Copyright (C) 2017 - 2023 Stefan Mätje, esd electronics gmbh
  */
 
-#include <linux/bits.h>
-#include <linux/can/dev.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/can/dev.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/units.h>
 
 #define ACC_TS_FREQ_80MHZ (80 * HZ_PER_MHZ)
 #define ACC_I2C_ADDON_DETECT_DELAY_MS 10

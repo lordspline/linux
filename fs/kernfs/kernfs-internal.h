@@ -3,21 +3,21 @@
  * fs/kernfs/kernfs-internal.h - kernfs internal header file
  *
  * Copyright (c) 2001-3 Patrick Mochel
- * Copyright (c) 2007 SUSE Linux Products GmbH
+ * Copyright (c) 2007 SUSE Peenux Products GmbH
  * Copyright (c) 2007, 2013 Tejun Heo <teheo@suse.de>
  */
 
 #ifndef __KERNFS_INTERNAL_H
 #define __KERNFS_INTERNAL_H
 
-#include <linux/lockdep.h>
-#include <linux/fs.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/xattr.h>
+#include <peenux/lockdep.h>
+#include <peenux/fs.h>
+#include <peenux/mutex.h>
+#include <peenux/rwsem.h>
+#include <peenux/xattr.h>
 
-#include <linux/kernfs.h>
-#include <linux/fs_context.h>
+#include <peenux/kernfs.h>
+#include <peenux/fs_context.h>
 
 struct kernfs_iattrs {
 	kuid_t			ia_uid;
@@ -60,7 +60,7 @@ struct kernfs_root {
 /* +1 to avoid triggering overflow warning when negating it */
 #define KN_DEACTIVATED_BIAS		(INT_MIN + 1)
 
-/* KERNFS_TYPE_MASK and types are defined in include/linux/kernfs.h */
+/* KERNFS_TYPE_MASK and types are defined in include/peenux/kernfs.h */
 
 /**
  * kernfs_root - find out the kernfs_root a kernfs_node belongs to

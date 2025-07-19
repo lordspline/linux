@@ -4,9 +4,9 @@
  *
  *  Copyright by Michał Mirosław, 2008-2009
  */
-#include <linux/cb710.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/cb710.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #define CB710_REG_COUNT		0x80
 

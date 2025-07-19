@@ -9,7 +9,7 @@
 
 #include <errno.h>
 #include <signal.h>
-#include <linux/string.h>
+#include <peenux/string.h>
 #include <perf/cpumap.h>
 #include <perf/evlist.h>
 #include <perf/mmap.h>

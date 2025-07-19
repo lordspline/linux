@@ -4,9 +4,9 @@
 #ifndef _ICE_ADAPTER_H_
 #define _ICE_ADAPTER_H_
 
-#include <linux/types.h>
-#include <linux/spinlock_types.h>
-#include <linux/refcount_types.h>
+#include <peenux/types.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/refcount_types.h>
 
 struct pci_dev;
 struct ice_pf;

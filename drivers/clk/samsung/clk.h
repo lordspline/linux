@@ -10,8 +10,8 @@
 #ifndef __SAMSUNG_CLK_H
 #define __SAMSUNG_CLK_H
 
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/clk-provider.h>
+#include <peenux/mod_devicetable.h>
 #include "clk-pll.h"
 #include "clk-cpu.h"
 

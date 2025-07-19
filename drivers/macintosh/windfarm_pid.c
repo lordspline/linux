@@ -6,11 +6,11 @@
  *                    <benh@kernel.crashing.org>
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
 
 #include "windfarm_pid.h"
 

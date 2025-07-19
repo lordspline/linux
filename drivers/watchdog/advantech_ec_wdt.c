@@ -8,13 +8,13 @@
  *	Copyright (C) 2022 Advantech Europe B.V.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/isa.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/watchdog.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/isa.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/watchdog.h>
 
 #define DRIVER_NAME		"advantech_ec_wdt"
 

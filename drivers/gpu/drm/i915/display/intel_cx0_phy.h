@@ -6,7 +6,7 @@
 #ifndef __INTEL_CX0_PHY_H__
 #define __INTEL_CX0_PHY_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 enum icl_port_dpll_id;
 struct intel_atomic_state;

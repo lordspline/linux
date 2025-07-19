@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _LINUX_QRTR_H
 #define _LINUX_QRTR_H
 
-#include <linux/socket.h>
-#include <linux/types.h>
+#include <peenux/socket.h>
+#include <peenux/types.h>
 
 #define QRTR_NODE_BCAST	0xffffffffu
 #define QRTR_PORT_CTRL	0xfffffffeu

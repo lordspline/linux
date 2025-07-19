@@ -5,24 +5,24 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/crc8.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
 
 /* Registers */
 

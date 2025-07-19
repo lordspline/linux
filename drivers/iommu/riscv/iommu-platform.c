@@ -10,11 +10,11 @@
  *	Tomasz Jeznach <tjeznach@rivosinc.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/msi.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/msi.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include "iommu-bits.h"
 #include "iommu.h"

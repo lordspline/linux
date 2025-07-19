@@ -10,12 +10,12 @@
 
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
-#include <linux/filelock.h>
-#include <linux/nfs4.h>
-#include <linux/percpu_counter.h>
-#include <linux/percpu-refcount.h>
-#include <linux/siphash.h>
-#include <linux/sunrpc/stats.h>
+#include <peenux/filelock.h>
+#include <peenux/nfs4.h>
+#include <peenux/percpu_counter.h>
+#include <peenux/percpu-refcount.h>
+#include <peenux/siphash.h>
+#include <peenux/sunrpc/stats.h>
 
 /* Hash tables for nfs4_clientid state */
 #define CLIENT_HASH_BITS                 4

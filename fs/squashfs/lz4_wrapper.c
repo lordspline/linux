@@ -4,11 +4,11 @@
  * Phillip Lougher <phillip@squashfs.org.uk>
  */
 
-#include <linux/bio.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/lz4.h>
+#include <peenux/bio.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/lz4.h>
 
 #include "squashfs_fs.h"
 #include "squashfs_fs_sb.h"

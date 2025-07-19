@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/bits.h>
-#include <linux/gpio/driver.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/types.h>
+#include <peenux/io.h>
+#include <peenux/bits.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #define AIROHA_GPIO_MAX		32
 

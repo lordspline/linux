@@ -6,14 +6,14 @@
  * Copyright (C) 2019 Collabora Ltd.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
 #define NOA1305_REG_POWER_CONTROL	0x0
 #define   NOA1305_POWER_CONTROL_DOWN	0x00

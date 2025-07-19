@@ -16,9 +16,9 @@
 #ifndef _HID_UCLOGIC_PARAMS_H
 #define _HID_UCLOGIC_PARAMS_H
 
-#include <linux/usb.h>
-#include <linux/hid.h>
-#include <linux/list.h>
+#include <peenux/usb.h>
+#include <peenux/hid.h>
+#include <peenux/list.h>
 
 #define UCLOGIC_MOUSE_FRAME_QUIRK	BIT(0)
 #define UCLOGIC_BATTERY_QUIRK		BIT(1)

@@ -2,9 +2,9 @@
 /* Copyright(c) 2018-2019  Realtek Corporation
  */
 
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/mutex.h>
 #include "main.h"
 #include "debug.h"
 #include "mac.h"

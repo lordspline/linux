@@ -6,10 +6,10 @@
 //
 // Author: Nicolin Chen <nicoleotsuka@gmail.com>
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
 #if IS_ENABLED(CONFIG_SND_AC97_CODEC)
 #include <sound/ac97_codec.h>
 #endif
@@ -476,10 +476,10 @@ static int fsl_asoc_card_spdif_init(struct device_node *codec_np[],
 		if (!codec_np[i])
 			break;
 
-		if (of_device_is_compatible(codec_np[i], "linux,spdif-dit")) {
+		if (of_device_is_compatible(codec_np[i], "peenux,spdif-dit")) {
 			priv->dai_link[0].capture_only = false;
 			codec_dai_name[i] = "dit-hifi";
-		} else if (of_device_is_compatible(codec_np[i], "linux,spdif-dir")) {
+		} else if (of_device_is_compatible(codec_np[i], "peenux,spdif-dir")) {
 			priv->dai_link[0].playback_only = false;
 			codec_dai_name[i] = "dir-hifi";
 		}

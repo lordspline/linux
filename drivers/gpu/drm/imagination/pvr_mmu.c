@@ -12,13 +12,13 @@
 #include "pvr_rogue_mmu_defs.h"
 
 #include <drm/drm_drv.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/kmemleak.h>
-#include <linux/minmax.h>
-#include <linux/property.h>
-#include <linux/sizes.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kmemleak.h>
+#include <peenux/minmax.h>
+#include <peenux/property.h>
+#include <peenux/sizes.h>
 
 #define PVR_SHIFT_FROM_SIZE(size_) (__builtin_ctzll(size_))
 #define PVR_MASK_FROM_SIZE(size_) (~((size_) - U64_C(1)))

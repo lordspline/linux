@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2023 Intel Corporation */
 
-#include <linux/array_size.h>
-#include <linux/bitops.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/string.h>
+#include <peenux/array_size.h>
+#include <peenux/bitops.h>
+#include <peenux/export.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
 #include "adf_cfg.h"
 #include "adf_cfg_services.h"
 #include "adf_cfg_strings.h"

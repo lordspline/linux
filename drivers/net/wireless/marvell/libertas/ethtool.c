@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/hardirq.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/delay.h>
+#include <peenux/hardirq.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/delay.h>
 
 #include "decl.h"
 #include "cmd.h"

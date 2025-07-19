@@ -8,15 +8,15 @@
  * Copyright (C) 2012-2014 Philipp Zabel, Pengutronix
  */
 
-#include <linux/clk.h>
-#include <linux/irqreturn.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/platform_device.h>
-#include <linux/ratelimit.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <peenux/clk.h>
+#include <peenux/irqreturn.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/platform_device.h>
+#include <peenux/ratelimit.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>

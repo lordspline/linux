@@ -6,16 +6,16 @@
  * Author : Gyungoh Yoo <jack.yoo@skyworksinc.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/backlight.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 /* registers */
 #define SKY81452_REG0	0x00

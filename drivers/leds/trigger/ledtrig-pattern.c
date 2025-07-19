@@ -7,13 +7,13 @@
  * the first version, Baolin Wang simplified and improved the approach.
  */
 
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/hrtimer.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
+#include <peenux/hrtimer.h>
 
 #define MAX_PATTERNS		1024
 /*

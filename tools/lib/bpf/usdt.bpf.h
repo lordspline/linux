@@ -3,7 +3,7 @@
 #ifndef __USDT_BPF_H__
 #define __USDT_BPF_H__
 
-#include <linux/errno.h>
+#include <peenux/errno.h>
 #include "bpf_helpers.h"
 #include "bpf_tracing.h"
 

@@ -18,23 +18,23 @@
  * Copyright 1999 Linus Torvalds
  * Copyright 1999 Gregory P. Smith
  */
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/hrtimer.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/sys_soc.h>
-#include <linux/timer.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/ehci_pdriver.h>
-#include <linux/usb/of.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/hrtimer.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/sys_soc.h>
+#include <peenux/timer.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/ehci_pdriver.h>
+#include <peenux/usb/of.h>
 
 #include "ehci.h"
 

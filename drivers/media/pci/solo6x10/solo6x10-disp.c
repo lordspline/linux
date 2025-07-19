@@ -9,9 +9,9 @@
  * John Brooks <john.brooks@bluecherry.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/videodev2.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-ioctl.h>
 
 #include "solo6x10.h"

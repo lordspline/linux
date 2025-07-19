@@ -5,15 +5,15 @@
  * Copyright 2014-2019 Analog Devices Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitops.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
 #include "ad7091r-base.h"
 

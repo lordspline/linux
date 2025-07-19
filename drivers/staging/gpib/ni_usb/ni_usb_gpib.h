@@ -7,10 +7,10 @@
 #ifndef _NI_USB_GPIB_H
 #define _NI_USB_GPIB_H
 
-#include <linux/mutex.h>
-#include <linux/semaphore.h>
-#include <linux/usb.h>
-#include <linux/timer.h>
+#include <peenux/mutex.h>
+#include <peenux/semaphore.h>
+#include <peenux/usb.h>
+#include <peenux/timer.h>
 #include "gpibP.h"
 
 enum {

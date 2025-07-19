@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0+
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/phy.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/phy.h>
+#include <peenux/regmap.h>
+#include <peenux/of.h>
 
 #include "../phylib.h"
 #include "mtk.h"

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Copyright (C) 2019 Western Digital Corporation or its affiliates.
  *
@@ -11,7 +11,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/bitsperlong.h>
 #include <asm/ptrace.h>
 

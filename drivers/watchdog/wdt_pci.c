@@ -35,20 +35,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/fs.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/miscdevice.h>
+#include <peenux/watchdog.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/fs.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 
 
 #define WDT_IS_PCI

@@ -4,7 +4,7 @@
  *
  * (C) Copyright IBM Corp. 2013
  *
- * Author: Frank Haverkamp <haver@linux.vnet.ibm.com>
+ * Author: Frank Haverkamp <haver@peenux.vnet.ibm.com>
  * Author: Joerg-Stephan Vogt <jsvogt@de.ibm.com>
  * Author: Michael Jung <mijung@gmx.net>
  * Author: Michael Ruettger <michael@ibmra.de>
@@ -16,15 +16,15 @@
  * debugging, please also see the debugfs interfaces of this driver.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/sysfs.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
+#include <peenux/fs.h>
+#include <peenux/sysfs.h>
+#include <peenux/ctype.h>
+#include <peenux/device.h>
 
 #include "card_base.h"
 #include "card_ddcb.h"

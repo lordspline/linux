@@ -3,8 +3,8 @@
 #define _LINUX_MODULELOADER_H
 /* The stuff needed for archs to support modules. */
 
-#include <linux/module.h>
-#include <linux/elf.h>
+#include <peenux/module.h>
+#include <peenux/elf.h>
 
 /* These may be implemented by architectures that need to hook into the
  * module loader code.  Architectures that don't need to do anything special

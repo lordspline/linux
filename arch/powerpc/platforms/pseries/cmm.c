@@ -3,28 +3,28 @@
  * Collaborative memory management interface.
  *
  * Copyright (C) 2008 IBM Corporation
- * Author(s): Brian King (brking@linux.vnet.ibm.com),
+ * Author(s): Brian King (brking@peenux.vnet.ibm.com),
  */
 
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/oom.h>
-#include <linux/reboot.h>
-#include <linux/sched.h>
-#include <linux/stringify.h>
-#include <linux/swap.h>
-#include <linux/device.h>
-#include <linux/balloon_compaction.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/gfp.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/oom.h>
+#include <peenux/reboot.h>
+#include <peenux/sched.h>
+#include <peenux/stringify.h>
+#include <peenux/swap.h>
+#include <peenux/device.h>
+#include <peenux/balloon_compaction.h>
 #include <asm/firmware.h>
 #include <asm/hvcall.h>
 #include <asm/mmu.h>
-#include <linux/uaccess.h>
-#include <linux/memory.h>
+#include <peenux/uaccess.h>
+#include <peenux/memory.h>
 #include <asm/plpar_wrappers.h>
 
 #include "pseries.h"
@@ -51,7 +51,7 @@ static bool __read_mostly simulate;
 static unsigned long simulate_loan_target_kb;
 static struct device cmm_dev;
 
-MODULE_AUTHOR("Brian King <brking@linux.vnet.ibm.com>");
+MODULE_AUTHOR("Brian King <brking@peenux.vnet.ibm.com>");
 MODULE_DESCRIPTION("IBM System p Collaborative Memory Manager");
 MODULE_LICENSE("GPL");
 MODULE_VERSION(CMM_DRIVER_VERSION);

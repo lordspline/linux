@@ -17,8 +17,8 @@
 #include <math.h>
 #include <poll.h>
 #include <ctype.h>
-#include <linux/capability.h>
-#include <linux/string.h>
+#include <peenux/capability.h>
+#include <peenux/string.h>
 #include <sys/stat.h>
 
 #include "debug.h"

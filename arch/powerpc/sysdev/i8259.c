@@ -4,11 +4,11 @@
  */
 #undef DEBUG
 
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
 #include <asm/io.h>
 #include <asm/i8259.h>
 

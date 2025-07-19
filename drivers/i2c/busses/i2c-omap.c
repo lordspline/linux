@@ -15,22 +15,22 @@
  *	Nishant Menon <nm@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/mux/consumer.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/platform_data/i2c-omap.h>
-#include <linux/pm_runtime.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/property.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/completion.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/mux/consumer.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/platform_data/i2c-omap.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/property.h>
 
 /* I2C controller revisions */
 #define OMAP_I2C_OMAP1_REV_2		0x20

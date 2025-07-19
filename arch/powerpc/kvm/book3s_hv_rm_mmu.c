@@ -4,14 +4,14 @@
  * Copyright 2010-2011 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
  */
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/hugetlb.h>
-#include <linux/module.h>
-#include <linux/log2.h>
-#include <linux/sizes.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/hugetlb.h>
+#include <peenux/module.h>
+#include <peenux/log2.h>
+#include <peenux/sizes.h>
 
 #include <asm/trace.h>
 #include <asm/kvm_ppc.h>

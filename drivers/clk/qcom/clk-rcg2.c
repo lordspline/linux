@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2013, 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013, 2018, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/bug.h>
-#include <linux/export.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/rational.h>
-#include <linux/regmap.h>
-#include <linux/math64.h>
-#include <linux/gcd.h>
-#include <linux/minmax.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/bug.h>
+#include <peenux/export.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/rational.h>
+#include <peenux/regmap.h>
+#include <peenux/math64.h>
+#include <peenux/gcd.h>
+#include <peenux/minmax.h>
+#include <peenux/slab.h>
 
 #include <asm/div64.h>
 

@@ -3,13 +3,13 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/list.h>
-#include <linux/refcount.h>
-#include <linux/time64.h>
+#include <peenux/bits.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/iopoll.h>
+#include <peenux/list.h>
+#include <peenux/refcount.h>
+#include <peenux/time64.h>
 
 #include <media/v4l2-async.h>
 

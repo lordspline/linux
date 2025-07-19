@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/lib/zlib_deflate/deflate_syms.c
+ * peenux/lib/zlib_deflate/deflate_syms.c
  *
  * Exported symbols for the deflate functionality.
  *
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 
-#include <linux/zlib.h>
+#include <peenux/zlib.h>
 
 EXPORT_SYMBOL(zlib_deflate_workspacesize);
 EXPORT_SYMBOL(zlib_deflate_dfltcc_enabled);

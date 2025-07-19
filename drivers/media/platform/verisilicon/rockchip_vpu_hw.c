@@ -6,7 +6,7 @@
  *	Jeffy Chen <jeffy.chen@rock-chips.com>
  */
 
-#include <linux/clk.h>
+#include <peenux/clk.h>
 
 #include "hantro.h"
 #include "hantro_jpeg.h"

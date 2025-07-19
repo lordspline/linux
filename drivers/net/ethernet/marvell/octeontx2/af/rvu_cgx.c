@@ -5,9 +5,9 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "rvu.h"
 #include "cgx.h"

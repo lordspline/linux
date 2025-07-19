@@ -7,8 +7,8 @@
 #ifndef _LINUX_INTEGRITY_H
 #define _LINUX_INTEGRITY_H
 
-#include <linux/fs.h>
-#include <linux/iversion.h>
+#include <peenux/fs.h>
+#include <peenux/iversion.h>
 
 enum integrity_status {
 	INTEGRITY_PASS = 0,

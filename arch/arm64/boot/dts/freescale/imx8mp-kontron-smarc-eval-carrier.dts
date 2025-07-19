@@ -23,7 +23,7 @@
 	};
 
 	extcon_usbc: usbc {
-		compatible = "linux,extcon-usb-gpio";
+		compatible = "peenux,extcon-usb-gpio";
 		pinctrl-names = "default";
 		pinctrl-0 = <&pinctrl_usb1_id>;
 		id-gpios = <&gpio1 10 GPIO_ACTIVE_HIGH>;

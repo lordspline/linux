@@ -14,18 +14,18 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mount.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/fs_parser.h>
-#include <linux/statfs.h>
-#include <linux/sched.h>
-#include <linux/nsproxy.h>
-#include <linux/magic.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mount.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/fs_parser.h>
+#include <peenux/statfs.h>
+#include <peenux/sched.h>
+#include <peenux/nsproxy.h>
+#include <peenux/magic.h>
 #include <net/net_namespace.h>
 #include "internal.h"
 

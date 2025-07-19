@@ -11,10 +11,10 @@
 #include "habanalabs.h"
 #include "../include/hw_ip/pci/pci_general.h"
 
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/version.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
+#include <peenux/version.h>
 
 #include <drm/drm_accel.h>
 #include <drm/drm_drv.h>

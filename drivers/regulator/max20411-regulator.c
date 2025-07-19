@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2021, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022, Linaro Ltd.
  */
 
-#include <linux/bitfield.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/bitfield.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
 
 #define MAX20411_UV_STEP		6250
 #define MAX20411_BASE_UV		243750

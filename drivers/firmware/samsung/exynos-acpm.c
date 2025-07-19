@@ -5,28 +5,28 @@
  * Copyright 2024 Linaro Ltd.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/firmware/samsung/exynos-acpm-protocol.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/ktime.h>
-#include <linux/mailbox/exynos-message.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/math.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/container_of.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/firmware/samsung/exynos-acpm-protocol.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/ktime.h>
+#include <peenux/mailbox/exynos-message.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/math.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "exynos-acpm.h"
 #include "exynos-acpm-pmic.h"

@@ -2,9 +2,9 @@
 #ifndef _LINUX_FILE_REF_H
 #define _LINUX_FILE_REF_H
 
-#include <linux/atomic.h>
-#include <linux/preempt.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/preempt.h>
+#include <peenux/types.h>
 
 /*
  * file_ref is a reference count implementation specifically for use by

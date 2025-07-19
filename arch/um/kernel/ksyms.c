@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* 
- * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <os.h>
 
 EXPORT_SYMBOL(um_set_signals);

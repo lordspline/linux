@@ -5,20 +5,20 @@
  * Maintained at www.Open-FCoE.org
  */
 
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/crc32.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/fs.h>
-#include <linux/sysfs.h>
-#include <linux/ctype.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/crc32.h>
+#include <peenux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/fs.h>
+#include <peenux/sysfs.h>
+#include <peenux/ctype.h>
+#include <peenux/workqueue.h>
 #include <net/dcbnl.h>
 #include <net/dcbevent.h>
 #include <scsi/scsi_tcq.h>

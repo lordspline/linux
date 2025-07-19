@@ -8,11 +8,11 @@
  * Author : Michael Kelley <mikelley@microsoft.com>
  */
 
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/arm-smccc.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/module.h>
 #include <asm-generic/bug.h>
 #include <hyperv/hvhdk.h>
 #include <asm/mshyperv.h>

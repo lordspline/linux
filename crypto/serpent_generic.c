@@ -8,11 +8,11 @@
  */
 
 #include <crypto/algapi.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/unaligned.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/unaligned.h>
+#include <peenux/types.h>
 #include <crypto/serpent.h>
 
 /* Key is padded to the maximum of 256 bits before round key generation.

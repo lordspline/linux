@@ -5,11 +5,11 @@
  * Copyright (C) 2024 Intel Corporation
  */
 
-#include <linux/aer.h>
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/pci.h>
-#include <linux/string.h>
+#include <peenux/aer.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
 
 #include "../pci.h"
 

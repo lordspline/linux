@@ -6,16 +6,16 @@
  *   Derived in part from arch/arm/mach-sa1100/dma.c,
  *   Copyright (C) 2000, 2001 by Nicolas Pitre
  */
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/sched.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #include "virt-dma.h"
 

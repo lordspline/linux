@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _XT_SECMARK_H_target
 #define _XT_SECMARK_H_target
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /*
  * This is intended for use by various security subsystems (but not

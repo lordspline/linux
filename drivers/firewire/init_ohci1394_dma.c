@@ -19,16 +19,16 @@
  * which may be caused by the firewire stack initialization.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>		/* for PCI defines */
-#include <linux/string.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>		/* for PCI defines */
+#include <peenux/string.h>
 
 #include <asm/pci-direct.h>	/* for direct PCI config space access */
 #include <asm/fixmap.h>
 
-#include <linux/init_ohci1394_dma.h>
+#include <peenux/init_ohci1394_dma.h>
 #include "ohci.h"
 
 int __initdata init_ohci1394_dma_early;

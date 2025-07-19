@@ -17,11 +17,11 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/clk.h>
-#include <linux/clk/ti.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/clk.h>
+#include <peenux/clk/ti.h>
+#include <peenux/io.h>
 
 #include "clock.h"
 #include "clock2xxx.h"

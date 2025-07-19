@@ -71,14 +71,14 @@
  * not recognised when matching.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/gpio/driver.h>
-#include <linux/property.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/leds.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/property.h>
+#include <peenux/workqueue.h>
 
 /* LED select registers determine the source that drives LED outputs */
 #define TCA6507_LS_LED_OFF	0x0	/* Output HI-Z (off) */
@@ -679,7 +679,7 @@ tca6507_led_dt_init(struct device *dev)
 		if (fwnode_property_read_string(child, "label", &led.name))
 			led.name = fwnode_get_name(child);
 
-		if (fwnode_property_read_string(child, "linux,default-trigger",
+		if (fwnode_property_read_string(child, "peenux,default-trigger",
 						&led.default_trigger))
 			led.default_trigger = NULL;
 

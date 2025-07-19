@@ -16,16 +16,16 @@
  * Copyright 2011 Google, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kobject.h>
-#include <linux/dmi.h>
-#include <linux/capability.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kobject.h>
+#include <peenux/dmi.h>
+#include <peenux/capability.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
 #include <asm/dmi.h>
 
 #define MAX_ENTRY_TYPE 255 /* Most of these aren't used, but we consider

@@ -7,9 +7,9 @@
 #ifndef _LINUX_IRQ_SIM_H
 #define _LINUX_IRQ_SIM_H
 
-#include <linux/device.h>
-#include <linux/fwnode.h>
-#include <linux/irqdomain.h>
+#include <peenux/device.h>
+#include <peenux/fwnode.h>
+#include <peenux/irqdomain.h>
 
 /*
  * Provides a framework for allocating simulated interrupts which can be

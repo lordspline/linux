@@ -7,7 +7,7 @@
  * Author: Eric Biggers <ebiggers@google.com>
  */
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 	.text
 	.fpu		neon

@@ -6,8 +6,8 @@
 #include "xe_gt_topology.h"
 
 #include <generated/xe_wa_oob.h>
-#include <linux/bitmap.h>
-#include <linux/compiler.h>
+#include <peenux/bitmap.h>
+#include <peenux/compiler.h>
 
 #include "regs/xe_gt_regs.h"
 #include "xe_assert.h"

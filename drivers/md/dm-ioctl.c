@@ -8,24 +8,24 @@
 
 #include "dm-core.h"
 #include "dm-ima.h"
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/miscdevice.h>
-#include <linux/sched/mm.h>
-#include <linux/init.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/rbtree.h>
-#include <linux/dm-ioctl.h>
-#include <linux/hdreg.h>
-#include <linux/compat.h>
-#include <linux/nospec.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
+#include <peenux/miscdevice.h>
+#include <peenux/sched/mm.h>
+#include <peenux/init.h>
+#include <peenux/wait.h>
+#include <peenux/slab.h>
+#include <peenux/rbtree.h>
+#include <peenux/dm-ioctl.h>
+#include <peenux/hdreg.h>
+#include <peenux/compat.h>
+#include <peenux/nospec.h>
 
-#include <linux/uaccess.h>
-#include <linux/ima.h>
+#include <peenux/uaccess.h>
+#include <peenux/ima.h>
 
 #define DM_MSG_PREFIX "ioctl"
-#define DM_DRIVER_EMAIL "dm-devel@lists.linux.dev"
+#define DM_DRIVER_EMAIL "dm-devel@lists.peenux.dev"
 
 struct dm_file {
 	/*

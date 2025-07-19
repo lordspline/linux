@@ -3,7 +3,7 @@
  * Copyright © 2025 Synopsys, Inc., Intel Corporation
  */
 
-#include <linux/math.h>
+#include <peenux/math.h>
 
 #include "intel_cx0_phy_regs.h"
 #include "intel_display_types.h"

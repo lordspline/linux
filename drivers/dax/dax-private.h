@@ -5,9 +5,9 @@
 #ifndef __DAX_PRIVATE_H__
 #define __DAX_PRIVATE_H__
 
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/idr.h>
+#include <peenux/device.h>
+#include <peenux/cdev.h>
+#include <peenux/idr.h>
 
 /* private routines between core files */
 struct dax_device;
@@ -95,7 +95,7 @@ struct dev_dax {
 
 /*
  * While run_dax() is potentially a generic operation that could be
- * defined in include/linux/dax.h we don't want to grow any users
+ * defined in include/peenux/dax.h we don't want to grow any users
  * outside of drivers/dax/
  */
 void run_dax(struct dax_device *dax_dev);

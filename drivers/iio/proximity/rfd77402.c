@@ -10,11 +10,11 @@
  * https://media.digikey.com/pdf/Data%20Sheets/RF%20Digital%20PDFs/RFD77402.pdf
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #define RFD77402_DRV_NAME "rfd77402"
 

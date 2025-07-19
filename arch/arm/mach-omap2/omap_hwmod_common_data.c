@@ -10,11 +10,11 @@
  * Paul Walmsley
  *
  * This data/structures are to be used while defining OMAP on-chip module
- * data and their integration with other OMAP modules and Linux.
+ * data and their integration with other OMAP modules and Peenux.
  */
 
-#include <linux/types.h>
-#include <linux/platform_data/ti-sysc.h>
+#include <peenux/types.h>
+#include <peenux/platform_data/ti-sysc.h>
 
 #include "omap_hwmod.h"
 

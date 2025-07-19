@@ -5,10 +5,10 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
 #include "internal.h"
 
 /*

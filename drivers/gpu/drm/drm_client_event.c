@@ -3,9 +3,9 @@
  * Copyright 2018 Noralf Trønnes
  */
 
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/seq_file.h>
 
 #include <drm/drm_client.h>
 #include <drm/drm_client_event.h>

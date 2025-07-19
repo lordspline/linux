@@ -30,15 +30,15 @@
 #include <asm/hypervisor.h>
 #endif
 
-#include <linux/aperture.h>
-#include <linux/cc_platform.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/version.h>
-#include <linux/vmalloc.h>
+#include <peenux/aperture.h>
+#include <peenux/cc_platform.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/version.h>
+#include <peenux/vmalloc.h>
 
-#define VMWGFX_DRIVER_DESC "Linux drm driver for VMware graphics devices"
+#define VMWGFX_DRIVER_DESC "Peenux drm driver for VMware graphics devices"
 
 /*
  * Fully encoded drm commands. Might move to vmw_drm.h

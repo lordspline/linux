@@ -4,8 +4,8 @@
 #define _GNU_SOURCE
 #include <limits.h>
 #include <test_progs.h>
-#include <linux/filter.h>
-#include <linux/bpf.h>
+#include <peenux/filter.h>
+#include <peenux/bpf.h>
 
 /* =================================
  * SHORT AND CONSISTENT NUMBER TYPES

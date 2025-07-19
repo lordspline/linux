@@ -5,13 +5,13 @@
  * Bugs this currently does not work under linuxBIOS.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
 #include <asm/io.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/map.h>
 
 #define PIIXE_IOBASE_RESOURCE	11
 

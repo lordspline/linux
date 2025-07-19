@@ -30,8 +30,8 @@
  * different sets of cpus trace into different independent sinks.
  */
 
-#include <linux/bitops.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/types.h>
 
 /* ID 0 is reserved */
 #define CORESIGHT_TRACE_ID_RES_0 0

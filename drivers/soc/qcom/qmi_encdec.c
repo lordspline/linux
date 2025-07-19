@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2012-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2015, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2017 Linaro Ltd.
  */
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/soc/qcom/qmi.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/soc/qcom/qmi.h>
 
 #define QMI_ENCDEC_ENCODE_TLV(type, length, p_dst) do { \
 	*p_dst++ = type; \

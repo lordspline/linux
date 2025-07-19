@@ -3,12 +3,12 @@
  * Copyright 2024 NXP
  */
 
-#include <linux/firmware/imx/sm.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/scmi_protocol.h>
-#include <linux/scmi_imx_protocol.h>
+#include <peenux/firmware/imx/sm.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/scmi_imx_protocol.h>
 
 static const struct scmi_imx_misc_proto_ops *imx_misc_ctrl_ops;
 static struct scmi_protocol_handle *ph;

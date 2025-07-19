@@ -6,8 +6,8 @@
 #ifndef VDO_THREAD_REGISTRY_H
 #define VDO_THREAD_REGISTRY_H
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
 
 struct thread_registry {
 	struct list_head links;

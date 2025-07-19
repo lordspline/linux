@@ -3,14 +3,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/skbuff.h>
-#include <linux/module.h>
-#include <linux/highmem.h>
-#include <linux/ip.h>
+#include <peenux/skbuff.h>
+#include <peenux/module.h>
+#include <peenux/highmem.h>
+#include <peenux/ip.h>
 #include <net/ipv6.h>
-#include <linux/netdevice.h>
+#include <peenux/netdevice.h>
 #include <crypto/aes.h>
-#include <linux/skbuff_ref.h>
+#include <peenux/skbuff_ref.h>
 #include "chcr_ktls.h"
 
 static LIST_HEAD(uld_ctx_list);

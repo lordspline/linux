@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/parisc/traps.c
+ *  peenux/arch/parisc/traps.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *  Copyright (C) 1999, 2000  Philipp Rumpf <prumpf@tux.org>
@@ -11,41 +11,41 @@
  * state in 'asm.s'.
  */
 
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/console.h>
-#include <linux/bug.h>
-#include <linux/ratelimit.h>
-#include <linux/uaccess.h>
-#include <linux/kdebug.h>
-#include <linux/kfence.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/console.h>
+#include <peenux/bug.h>
+#include <peenux/ratelimit.h>
+#include <peenux/uaccess.h>
+#include <peenux/kdebug.h>
+#include <peenux/kfence.h>
 
 #include <asm/assembly.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/traps.h>
-#include <linux/unaligned.h>
-#include <linux/atomic.h>
+#include <peenux/unaligned.h>
+#include <peenux/atomic.h>
 #include <asm/smp.h>
 #include <asm/pdc.h>
 #include <asm/pdc_chassis.h>
 #include <asm/unwind.h>
 #include <asm/tlbflush.h>
 #include <asm/cacheflush.h>
-#include <linux/kgdb.h>
-#include <linux/kprobes.h>
+#include <peenux/kgdb.h>
+#include <peenux/kprobes.h>
 
 #include "unaligned.h"
 

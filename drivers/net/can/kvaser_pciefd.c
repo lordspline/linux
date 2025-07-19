@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0 OR BSD-2-Clause
 /* Copyright (C) 2018 KVASER AB, Sweden. All rights reserved.
  * Parts of this driver are based on the following:
- *  - Kvaser linux pciefd driver (version 5.42)
- *  - PEAK linux canfd driver
+ *  - Kvaser peenux pciefd driver (version 5.42)
+ *  - PEAK peenux canfd driver
  */
 
-#include <linux/bitfield.h>
-#include <linux/can/dev.h>
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/timer.h>
+#include <peenux/bitfield.h>
+#include <peenux/can/dev.h>
+#include <peenux/device.h>
+#include <peenux/ethtool.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/timer.h>
 #include <net/netdev_queues.h>
 
 MODULE_LICENSE("Dual BSD/GPL");

@@ -6,8 +6,8 @@
 #ifndef _STMMAC_FPE_H_
 #define _STMMAC_FPE_H_
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
+#include <peenux/types.h>
+#include <peenux/netdevice.h>
 
 struct stmmac_priv;
 

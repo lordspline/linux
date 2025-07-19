@@ -8,9 +8,9 @@
  * Author: Devarsh Thakkar <devarsht@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/dev_printk.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/dev_printk.h>
 #include "e5010-jpeg-enc-hw.h"
 
 static void write_reg_field(void __iomem *base, unsigned int offset, u32 mask,

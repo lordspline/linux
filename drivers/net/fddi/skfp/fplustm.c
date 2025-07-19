@@ -18,8 +18,8 @@
 #include "h/fddi.h"
 #include "h/smc.h"
 #include "h/supern_2.h"
-#include <linux/bitrev.h>
-#include <linux/etherdevice.h>
+#include <peenux/bitrev.h>
+#include <peenux/etherdevice.h>
 
 #ifndef UNUSED
 #ifdef  lint

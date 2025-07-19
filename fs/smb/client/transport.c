@@ -7,21 +7,21 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/gfp.h>
-#include <linux/wait.h>
-#include <linux/net.h>
-#include <linux/delay.h>
-#include <linux/freezer.h>
-#include <linux/tcp.h>
-#include <linux/bvec.h>
-#include <linux/highmem.h>
-#include <linux/uaccess.h>
-#include <linux/processor.h>
-#include <linux/mempool.h>
-#include <linux/sched/signal.h>
-#include <linux/task_io_accounting_ops.h>
+#include <peenux/fs.h>
+#include <peenux/list.h>
+#include <peenux/gfp.h>
+#include <peenux/wait.h>
+#include <peenux/net.h>
+#include <peenux/delay.h>
+#include <peenux/freezer.h>
+#include <peenux/tcp.h>
+#include <peenux/bvec.h>
+#include <peenux/highmem.h>
+#include <peenux/uaccess.h>
+#include <peenux/processor.h>
+#include <peenux/mempool.h>
+#include <peenux/sched/signal.h>
+#include <peenux/task_io_accounting_ops.h>
 #include "cifspdu.h"
 #include "cifsglob.h"
 #include "cifsproto.h"

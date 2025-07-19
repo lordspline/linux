@@ -5,10 +5,10 @@
  *
  * Copyright (C) 2007 by Ralf Baechle
  */
-#include <linux/clocksource.h>
-#include <linux/cpufreq.h>
-#include <linux/init.h>
-#include <linux/sched_clock.h>
+#include <peenux/clocksource.h>
+#include <peenux/cpufreq.h>
+#include <peenux/init.h>
+#include <peenux/sched_clock.h>
 
 #include <asm/time.h>
 

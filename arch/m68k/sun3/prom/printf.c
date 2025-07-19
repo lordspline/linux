@@ -9,7 +9,7 @@
  * about or use it!  It's simple and smelly anyway....
  */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>

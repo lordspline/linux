@@ -5,7 +5,7 @@
  * Maintained by: Olof Johansson <olof@lixom.net>
  */
 
-#include <linux/time.h>
+#include <peenux/time.h>
 
 #include <asm/time.h>
 

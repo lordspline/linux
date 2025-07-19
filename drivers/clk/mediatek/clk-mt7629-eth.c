@@ -5,9 +5,9 @@
  *	   Ryder Lee <ryder.lee@mediatek.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include "clk-mtk.h"
 #include "clk-gate.h"

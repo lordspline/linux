@@ -3,7 +3,7 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/sort.h>
+#include <peenux/sort.h>
 
 #include "intel_engine_regs.h"
 #include "intel_gt_clock_utils.h"

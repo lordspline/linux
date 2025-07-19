@@ -4,11 +4,11 @@
  * Author: Sebastian Reichel <sebastian.reichel@collabora.com>
  */
 
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
 #include "clk.h"
 
 static int rk_clk_gate_link_register(struct device *dev,

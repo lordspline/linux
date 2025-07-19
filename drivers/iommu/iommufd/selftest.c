@@ -3,15 +3,15 @@
  *
  * Kernel side components to support tools/testing/selftests/iommu
  */
-#include <linux/anon_inodes.h>
-#include <linux/debugfs.h>
-#include <linux/fault-inject.h>
-#include <linux/file.h>
-#include <linux/iommu.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
-#include <uapi/linux/iommufd.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/debugfs.h>
+#include <peenux/fault-inject.h>
+#include <peenux/file.h>
+#include <peenux/iommu.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/xarray.h>
+#include <uapi/peenux/iommufd.h>
 
 #include "../iommu-priv.h"
 #include "io_pagetable.h"

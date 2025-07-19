@@ -32,15 +32,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
 
 #include "sp5100_tco.h"
 

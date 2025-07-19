@@ -5,9 +5,9 @@
 
 #include "xe_pcode.h"
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/error-injection.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/error-injection.h>
 
 #include <drm/drm_managed.h>
 

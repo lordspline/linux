@@ -9,14 +9,14 @@
 #define pr_fmt(fmt) "ipmi_platform: " fmt
 #define dev_fmt pr_fmt
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/acpi.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/acpi.h>
 #include "ipmi_si.h"
 #include "ipmi_dmi.h"
 

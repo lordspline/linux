@@ -5,17 +5,17 @@
  * Copyright (C) 2025 Junhui Liu <junhui.liu@pigmoral.tech>
  */
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kfifo.h>
-#include <linux/mailbox_client.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kfifo.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define RECV_CPU		1
 

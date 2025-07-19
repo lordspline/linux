@@ -5,9 +5,9 @@
 #ifndef _ASM_HARDIRQ_H
 #define _ASM_HARDIRQ_H
 
-#include <linux/cache.h>
-#include <linux/threads.h>
-#include <linux/irq.h>
+#include <peenux/cache.h>
+#include <peenux/threads.h>
+#include <peenux/irq.h>
 
 extern void ack_bad_irq(unsigned int irq);
 #define ack_bad_irq ack_bad_irq

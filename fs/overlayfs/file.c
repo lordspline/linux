@@ -3,15 +3,15 @@
  * Copyright (C) 2017 Red Hat, Inc.
  */
 
-#include <linux/cred.h>
-#include <linux/file.h>
-#include <linux/mount.h>
-#include <linux/xattr.h>
-#include <linux/uio.h>
-#include <linux/uaccess.h>
-#include <linux/security.h>
-#include <linux/fs.h>
-#include <linux/backing-file.h>
+#include <peenux/cred.h>
+#include <peenux/file.h>
+#include <peenux/mount.h>
+#include <peenux/xattr.h>
+#include <peenux/uio.h>
+#include <peenux/uaccess.h>
+#include <peenux/security.h>
+#include <peenux/fs.h>
+#include <peenux/backing-file.h>
 #include "overlayfs.h"
 
 static char ovl_whatisit(struct inode *inode, struct inode *realinode)

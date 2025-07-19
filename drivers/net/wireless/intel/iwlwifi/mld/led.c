@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2024 Intel Corporation
  */
-#include <linux/leds.h>
+#include <peenux/leds.h>
 #include <net/mac80211.h>
 
 #include "fw/api/led.h"

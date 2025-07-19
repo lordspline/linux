@@ -7,11 +7,11 @@
  * Copyright (C) 2008-2011 Florian Fainelli <florian@openwrt.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/platform_device.h>
+#include <peenux/gpio/driver.h>
 
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_gpio.h>

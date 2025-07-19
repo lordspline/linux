@@ -4,10 +4,10 @@
  * Copyright (c) 2020, Intel Corporation.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 #include "processor_thermal_device.h"
 
 #define MBOX_OFFSET_DATA		0x5810

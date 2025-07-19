@@ -2,7 +2,7 @@
 #ifndef __UM_VIRT_PCI_H
 #define __UM_VIRT_PCI_H
 
-#include <linux/pci.h>
+#include <peenux/pci.h>
 
 struct um_pci_device {
 	const struct um_pci_ops *ops;

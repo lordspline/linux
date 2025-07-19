@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *    Hypervisor filesystem for Linux on s390.
+ *    Hypervisor filesystem for Peenux on s390.
  *    Set Partition-Resource Parameter interface.
  *
  *    Copyright IBM Corp. 2013
  *    Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/compat.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/compat.h>
+#include <peenux/errno.h>
+#include <peenux/gfp.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 #include <asm/diag.h>
 #include <asm/sclp.h>
 #include "hypfs.h"

@@ -5,10 +5,10 @@
  * Copyright 2005 Mentor Graphics Corporation
  * Copyright (C) 2005-2007 by Texas Instruments
  */
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include "musb_core.h"
 #include "musb_dma.h"
 

@@ -9,17 +9,17 @@
  * Copyright (C) 2018, Intel Corporation
  */
 
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/property.h>
-#include <linux/string_helpers.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/property.h>
+#include <peenux/string_helpers.h>
 
 #include "nhi.h"
 #include "nhi_regs.h"

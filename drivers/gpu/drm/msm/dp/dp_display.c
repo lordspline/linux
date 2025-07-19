@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2017-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017-2020, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/debugfs.h>
-#include <linux/component.h>
-#include <linux/of_irq.h>
-#include <linux/phy/phy.h>
-#include <linux/delay.h>
-#include <linux/string_choices.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/debugfs.h>
+#include <peenux/component.h>
+#include <peenux/of_irq.h>
+#include <peenux/phy/phy.h>
+#include <peenux/delay.h>
+#include <peenux/string_choices.h>
 #include <drm/display/drm_dp_aux_bus.h>
 #include <drm/display/drm_hdmi_audio_helper.h>
 #include <drm/drm_edid.h>

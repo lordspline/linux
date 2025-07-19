@@ -12,25 +12,25 @@
  */
 #define pr_fmt(fmt) "pinctrl core: " fmt
 
-#include <linux/array_size.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/array_size.h>
+#include <peenux/cleanup.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
-#include <linux/gpio.h>
-#include <linux/gpio/driver.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/driver.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/devinfo.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/devinfo.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/pinctrl/pinctrl.h>
 
 #include "core.h"
 #include "devicetree.h"

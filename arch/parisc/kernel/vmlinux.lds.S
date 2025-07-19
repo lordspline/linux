@@ -1,12 +1,12 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*    Kernel link layout for various "sections"
  *
- *    Copyright (C) 1999-2003 Matthew Wilcox <willy at parisc-linux.org>
- *    Copyright (C) 2000-2003 Paul Bame <bame at parisc-linux.org>
- *    Copyright (C) 2000 John Marvin <jsm at parisc-linux.org>
+ *    Copyright (C) 1999-2003 Matthew Wilcox <willy at parisc-peenux.org>
+ *    Copyright (C) 2000-2003 Paul Bame <bame at parisc-peenux.org>
+ *    Copyright (C) 2000 John Marvin <jsm at parisc-peenux.org>
  *    Copyright (C) 2000 Michael Ang <mang with subcarrier.org>
- *    Copyright (C) 2002 Randolph Chung <tausq with parisc-linux.org>
- *    Copyright (C) 2003 James Bottomley <jejb with parisc-linux.org>
+ *    Copyright (C) 2002 Randolph Chung <tausq with parisc-peenux.org>
+ *    Copyright (C) 2003 James Bottomley <jejb with parisc-peenux.org>
  *    Copyright (C) 2006-2013 Helge Deller <deller@gmx.de>
  */
 
@@ -29,12 +29,12 @@
 #include <asm/asm-offsets.h>
 #include <asm/thread_info.h>
 	
-/* ld script to make hppa Linux kernel */
+/* ld script to make hppa Peenux kernel */
 #ifndef CONFIG_64BIT
-OUTPUT_FORMAT("elf32-hppa-linux")
+OUTPUT_FORMAT("elf32-hppa-peenux")
 OUTPUT_ARCH(hppa)
 #else
-OUTPUT_FORMAT("elf64-hppa-linux")
+OUTPUT_FORMAT("elf64-hppa-peenux")
 OUTPUT_ARCH(hppa:hppa2.0w)
 #endif
 

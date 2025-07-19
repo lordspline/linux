@@ -4,13 +4,13 @@
  *
  * Copyright (C) 2010 OMICRON electronics GmbH
  */
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/file.h>
-#include <linux/posix-clock.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/file.h>
+#include <peenux/posix-clock.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
+#include <peenux/uaccess.h>
 
 #include "posix-timers.h"
 

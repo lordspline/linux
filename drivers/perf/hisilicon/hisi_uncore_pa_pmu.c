@@ -7,12 +7,12 @@
  *
  * This code is based on the uncore PMUs like arm-cci and arm-ccn.
  */
-#include <linux/acpi.h>
-#include <linux/cpuhotplug.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/list.h>
-#include <linux/smp.h>
+#include <peenux/acpi.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/list.h>
+#include <peenux/smp.h>
 
 #include "hisi_uncore_pmu.h"
 

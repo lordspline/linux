@@ -7,14 +7,14 @@
  * Initializes and creates SDW devices based on ACPI and Hardware values
  */
 
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/pm_runtime.h>
-#include <linux/soundwire/sdw_intel.h>
+#include <peenux/acpi.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/soundwire/sdw_intel.h>
 #include "cadence_master.h"
 #include "bus.h"
 #include "intel.h"

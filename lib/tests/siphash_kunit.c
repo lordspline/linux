@@ -14,11 +14,11 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <kunit/test.h>
-#include <linux/siphash.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/module.h>
+#include <peenux/siphash.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
 
 /* Test vectors taken from reference source available at:
  *     https://github.com/veorq/SipHash

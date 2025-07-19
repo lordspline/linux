@@ -52,14 +52,14 @@
 			gpios = <&gpio3 1 GPIO_ACTIVE_LOW>;
 			label = "SMARC_SLEEP#";
 			wakeup-source;
-			linux,code = <KEY_SLEEP>;
+			peenux,code = <KEY_SLEEP>;
 		};
 
 		smarc_switch_lid: switch-lid {
 			gpios = <&som_ec_gpio_expander 2 GPIO_ACTIVE_LOW>;
 			label = "SMARC_LID#";
-			linux,code = <SW_LID>;
-			linux,input-type = <EV_SW>;
+			peenux,code = <SW_LID>;
+			peenux,input-type = <EV_SW>;
 		};
 	};
 
@@ -120,7 +120,7 @@
 	};
 
 	reserved-memory {
-		linux,cma {
+		peenux,cma {
 			size = <0 0x20000000>;
 			alloc-ranges = <0 0x40000000 0 0x80000000>;
 		};
@@ -724,7 +724,7 @@
 	};
 };
 
-/* SMARC SER1, used as the Linux Console */
+/* SMARC SER1, used as the Peenux Console */
 &uart4 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_uart4>;

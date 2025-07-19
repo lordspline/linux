@@ -6,15 +6,15 @@
  * Copyright (C) 2002, 2003  Paul Mundt
  */
 
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
 #include <mach/pci.h>
 
 /*

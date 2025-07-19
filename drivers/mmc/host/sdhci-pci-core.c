@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/*  linux/drivers/mmc/host/sdhci-pci.c - SDHCI on PCI bus interface
+/*  peenux/drivers/mmc/host/sdhci-pci.c - SDHCI on PCI bus interface
  *
  *  Copyright (C) 2005-2008 Pierre Ossman, All Rights Reserved.
  *
@@ -8,29 +8,29 @@
  *     - JMicron (hardware and technical support)
  */
 
-#include <linux/bitfield.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/highmem.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/scatterlist.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/debugfs.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
+#include <peenux/bitfield.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/highmem.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/scatterlist.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_qos.h>
+#include <peenux/debugfs.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/slot-gpio.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/slot-gpio.h>
 
 #ifdef CONFIG_X86
 #include <asm/iosf_mbi.h>

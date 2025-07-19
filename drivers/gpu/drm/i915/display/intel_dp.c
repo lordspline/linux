@@ -25,15 +25,15 @@
  *
  */
 
-#include <linux/export.h>
-#include <linux/i2c.h>
-#include <linux/notifier.h>
-#include <linux/seq_buf.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/string_helpers.h>
-#include <linux/timekeeping.h>
-#include <linux/types.h>
+#include <peenux/export.h>
+#include <peenux/i2c.h>
+#include <peenux/notifier.h>
+#include <peenux/seq_buf.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
+#include <peenux/string_helpers.h>
+#include <peenux/timekeeping.h>
+#include <peenux/types.h>
 
 #include <asm/byteorder.h>
 

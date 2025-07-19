@@ -6,17 +6,17 @@
  * Copyright 2006-2008, 2011-2012, 2015 Freescale Semiconductor Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/sched/hotplug.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/kexec.h>
-#include <linux/highmem.h>
-#include <linux/cpu.h>
-#include <linux/fsl/guts.h>
-#include <linux/pgtable.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/kexec.h>
+#include <peenux/highmem.h>
+#include <peenux/cpu.h>
+#include <peenux/fsl/guts.h>
+#include <peenux/pgtable.h>
 
 #include <asm/machdep.h>
 #include <asm/page.h>

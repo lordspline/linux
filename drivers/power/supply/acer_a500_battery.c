@@ -10,14 +10,14 @@
  * Copyright (c) 2010, NVIDIA Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/property.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/property.h>
 
 enum {
 	REG_CAPACITY,

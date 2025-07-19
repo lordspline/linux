@@ -7,8 +7,8 @@
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/string.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
 
 void *memmove(void *d, const void *s, size_t count)
 {

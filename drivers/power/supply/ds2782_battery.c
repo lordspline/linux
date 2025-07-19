@@ -11,18 +11,18 @@
  * UEvent sending added by Evgeny Romanov <romanov@neurosoft.ru>
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/swab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/ds2782_battery.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/swab.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/idr.h>
+#include <peenux/power_supply.h>
+#include <peenux/slab.h>
+#include <peenux/ds2782_battery.h>
 
 #define DS2782_REG_RARC		0x06	/* Remaining active relative capacity */
 

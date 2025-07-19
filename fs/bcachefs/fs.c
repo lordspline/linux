@@ -29,21 +29,21 @@
 #include "xattr.h"
 #include "trace.h"
 
-#include <linux/aio.h>
-#include <linux/backing-dev.h>
-#include <linux/exportfs.h>
-#include <linux/fiemap.h>
-#include <linux/fileattr.h>
-#include <linux/fs_context.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/posix_acl.h>
-#include <linux/random.h>
-#include <linux/seq_file.h>
-#include <linux/siphash.h>
-#include <linux/statfs.h>
-#include <linux/string.h>
-#include <linux/xattr.h>
+#include <peenux/aio.h>
+#include <peenux/backing-dev.h>
+#include <peenux/exportfs.h>
+#include <peenux/fiemap.h>
+#include <peenux/fileattr.h>
+#include <peenux/fs_context.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/posix_acl.h>
+#include <peenux/random.h>
+#include <peenux/seq_file.h>
+#include <peenux/siphash.h>
+#include <peenux/statfs.h>
+#include <peenux/string.h>
+#include <peenux/xattr.h>
 
 static struct kmem_cache *bch2_inode_cache;
 
@@ -2593,7 +2593,7 @@ err:
 	/*
 	 * On an inconsistency error in recovery we might see an -EROFS derived
 	 * errorcode (from the journal), but we don't want to return that to
-	 * userspace as that causes util-linux to retry the mount RO - which is
+	 * userspace as that causes util-peenux to retry the mount RO - which is
 	 * confusing:
 	 */
 	if (bch2_err_matches(ret, EROFS) && ret != -EROFS)

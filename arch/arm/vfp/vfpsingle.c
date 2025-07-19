@@ -1,5 +1,5 @@
 /*
- *  linux/arch/arm/vfp/vfpsingle.c
+ *  peenux/arch/arm/vfp/vfpsingle.c
  *
  * This code is derived in part from John R. Housers softfloat library, which
  * carries the following notice:
@@ -30,8 +30,8 @@
  * this code that are retained.
  * ===========================================================================
  */
-#include <linux/kernel.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
 
 #include <asm/div64.h>
 #include <asm/vfp.h>

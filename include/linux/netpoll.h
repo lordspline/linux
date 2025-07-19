@@ -8,11 +8,11 @@
 #ifndef _LINUX_NETPOLL_H
 #define _LINUX_NETPOLL_H
 
-#include <linux/netdevice.h>
-#include <linux/interrupt.h>
-#include <linux/rcupdate.h>
-#include <linux/list.h>
-#include <linux/refcount.h>
+#include <peenux/netdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/rcupdate.h>
+#include <peenux/list.h>
+#include <peenux/refcount.h>
 
 union inet_addr {
 	__u32		all[4];

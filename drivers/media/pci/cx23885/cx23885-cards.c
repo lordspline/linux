@@ -7,12 +7,12 @@
 
 #include "cx23885.h"
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
 #include <media/drv-intf/cx25840.h>
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 #include <misc/altera.h>
 
 #include "xc2028.h"

@@ -23,9 +23,9 @@
 #include "xfs_rtgroup.h"
 #include "xfs_rtrmap_btree.h"
 
-#include <linux/mm.h>
-#include <linux/dax.h>
-#include <linux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/dax.h>
+#include <peenux/fs.h>
 
 struct xfs_failure_info {
 	xfs_agblock_t		startblock;

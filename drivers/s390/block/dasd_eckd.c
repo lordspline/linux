@@ -10,17 +10,17 @@
  * Author.........: Nigel Hislop <hislop_nigel@emc.com>
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/hdreg.h>	/* HDIO_GETGEO			    */
-#include <linux/bio.h>
-#include <linux/module.h>
-#include <linux/compat.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/hdreg.h>	/* HDIO_GETGEO			    */
+#include <peenux/bio.h>
+#include <peenux/module.h>
+#include <peenux/compat.h>
+#include <peenux/init.h>
+#include <peenux/seq_file.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
 
 #include <asm/css_chars.h>
 #include <asm/machine.h>
@@ -2434,7 +2434,7 @@ raw:
 		   blk_per_trk * (block->bp_block >> 9)) >> 1),
 		 ((blk_per_trk * block->bp_block) >> 10),
 		 private->uses_cdl ?
-		 "compatible disk layout" : "linux disk layout");
+		 "compatible disk layout" : "peenux disk layout");
 
 	return 0;
 }

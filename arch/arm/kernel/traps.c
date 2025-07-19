@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/traps.c
+ *  peenux/arch/arm/kernel/traps.c
  *
  *  Copyright (C) 1995-2009 Russell King
- *  Fragments that appear the same as linux/arch/i386/kernel/traps.c (C) Linus Torvalds
+ *  Fragments that appear the same as peenux/arch/i386/kernel/traps.c (C) Linus Torvalds
  *
  *  'traps.c' handles hardware exceptions after we have saved some state in
- *  'linux/arch/arm/lib/traps.S'.  Mostly a debugging aid, but will probably
+ *  'peenux/arch/arm/lib/traps.S'.  Mostly a debugging aid, but will probably
  *  kill the offending process.
  */
-#include <linux/signal.h>
-#include <linux/personality.h>
-#include <linux/kallsyms.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/hardirq.h>
-#include <linux/kdebug.h>
-#include <linux/kprobes.h>
-#include <linux/module.h>
-#include <linux/kexec.h>
-#include <linux/bug.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/irq.h>
-#include <linux/vmalloc.h>
+#include <peenux/signal.h>
+#include <peenux/personality.h>
+#include <peenux/kallsyms.h>
+#include <peenux/spinlock.h>
+#include <peenux/uaccess.h>
+#include <peenux/hardirq.h>
+#include <peenux/kdebug.h>
+#include <peenux/kprobes.h>
+#include <peenux/module.h>
+#include <peenux/kexec.h>
+#include <peenux/bug.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/irq.h>
+#include <peenux/vmalloc.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/cacheflush.h>
 #include <asm/exception.h>
 #include <asm/spectre.h>

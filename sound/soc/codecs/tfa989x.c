@@ -7,11 +7,11 @@
  * Copyright (C) 2013 Sony Mobile Communications Inc.
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/soc.h>
 
 #define TFA989X_STATUSREG		0x00

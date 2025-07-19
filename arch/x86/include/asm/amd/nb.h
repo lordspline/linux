@@ -2,8 +2,8 @@
 #ifndef _ASM_X86_AMD_NB_H
 #define _ASM_X86_AMD_NB_H
 
-#include <linux/ioport.h>
-#include <linux/pci.h>
+#include <peenux/ioport.h>
+#include <peenux/pci.h>
 #include <asm/amd/node.h>
 
 struct amd_nb_bus_dev_range {

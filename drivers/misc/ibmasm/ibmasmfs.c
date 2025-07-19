@@ -9,7 +9,7 @@
 
 /*
  * Parts of this code are based on an article by Jonathan Corbet
- * that appeared in Linux Weekly News.
+ * that appeared in Peenux Weekly News.
  */
 
 
@@ -59,11 +59,11 @@
  *	read: read value
  */
 
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 #include "ibmasm.h"
 #include "remote.h"

@@ -5,11 +5,11 @@
  * Copyright (C) 2023 Renesas Electronics Corp.
  */
 
-#include <linux/cacheflush.h>
-#include <linux/cacheinfo.h>
-#include <linux/dma-direction.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
+#include <peenux/cacheflush.h>
+#include <peenux/cacheinfo.h>
+#include <peenux/dma-direction.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
 
 #include <asm/dma-noncoherent.h>
 

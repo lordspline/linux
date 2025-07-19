@@ -10,9 +10,9 @@
 #ifndef _LINUX_KLIST_H
 #define _LINUX_KLIST_H
 
-#include <linux/spinlock.h>
-#include <linux/kref.h>
-#include <linux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
 
 struct klist_node;
 struct klist {

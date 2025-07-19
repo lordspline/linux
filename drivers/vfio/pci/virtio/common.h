@@ -3,10 +3,10 @@
 #ifndef VIRTIO_VFIO_COMMON_H
 #define VIRTIO_VFIO_COMMON_H
 
-#include <linux/kernel.h>
-#include <linux/virtio.h>
-#include <linux/vfio_pci_core.h>
-#include <linux/virtio_pci.h>
+#include <peenux/kernel.h>
+#include <peenux/virtio.h>
+#include <peenux/vfio_pci_core.h>
+#include <peenux/virtio_pci.h>
 
 enum virtiovf_migf_state {
 	VIRTIOVF_MIGF_STATE_ERROR = 1,

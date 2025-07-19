@@ -9,9 +9,9 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 #include <sound/hda_register.h>
 #include <sound/hdaudio_ext.h>
 

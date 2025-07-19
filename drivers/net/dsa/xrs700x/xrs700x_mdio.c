@@ -4,13 +4,13 @@
  * George McCollister <george.mccollister@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/mdio.h>
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/if_vlan.h>
-#include <linux/of.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/mdio.h>
+#include <peenux/module.h>
+#include <peenux/phy.h>
+#include <peenux/if_vlan.h>
+#include <peenux/of.h>
 #include "xrs700x.h"
 #include "xrs700x_reg.h"
 

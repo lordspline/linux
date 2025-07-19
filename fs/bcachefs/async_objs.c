@@ -11,7 +11,7 @@
 #include "io_read.h"
 #include "io_write.h"
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 static void promote_obj_to_text(struct printbuf *out, void *obj)
 {

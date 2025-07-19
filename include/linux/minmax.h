@@ -2,10 +2,10 @@
 #ifndef _LINUX_MINMAX_H
 #define _LINUX_MINMAX_H
 
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/const.h>
-#include <linux/types.h>
+#include <peenux/build_bug.h>
+#include <peenux/compiler.h>
+#include <peenux/const.h>
+#include <peenux/types.h>
 
 /*
  * min()/max()/clamp() macros must accomplish several things:

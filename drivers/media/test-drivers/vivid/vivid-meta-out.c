@@ -3,11 +3,11 @@
  * vivid-meta-out.c - meta output support functions.
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/videodev2.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-common.h>
-#include <linux/usb/video.h>
+#include <peenux/usb/video.h>
 
 #include "vivid-core.h"
 #include "vivid-kthread-out.h"

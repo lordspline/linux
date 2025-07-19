@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/drivers/thermal/cpufreq_cooling.c
+ *  peenux/drivers/thermal/cpufreq_cooling.c
  *
  *  Copyright (C) 2012	Samsung Electronics Co., Ltd(http://www.samsung.com)
  *
@@ -10,18 +10,18 @@
  *		Viresh Kumar <viresh.kumar@linaro.org>
  *
  */
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpu_cooling.h>
-#include <linux/device.h>
-#include <linux/energy_model.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
-#include <linux/units.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/cpu_cooling.h>
+#include <peenux/device.h>
+#include <peenux/energy_model.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_qos.h>
+#include <peenux/slab.h>
+#include <peenux/thermal.h>
+#include <peenux/units.h>
 
 #include "thermal_trace.h"
 

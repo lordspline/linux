@@ -2,8 +2,8 @@
 #ifndef __ARCH_M68K_CMPXCHG__
 #define __ARCH_M68K_CMPXCHG__
 
-#include <linux/irqflags.h>
-#include <linux/minmax.h>
+#include <peenux/irqflags.h>
+#include <peenux/minmax.h>
 
 #define __xg(type, x) ((volatile type *)(x))
 

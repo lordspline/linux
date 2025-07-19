@@ -6,16 +6,16 @@
  * Copyright (C) 2023 RACOM s.r.o.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 /*
  * USB Control Register
@@ -529,6 +529,6 @@ static struct platform_driver dwc3_octeon_driver = {
 module_platform_driver(dwc3_octeon_driver);
 
 MODULE_ALIAS("platform:dwc3-octeon");
-MODULE_AUTHOR("Ladislav Michl <ladis@linux-mips.org>");
+MODULE_AUTHOR("Ladislav Michl <ladis@peenux-mips.org>");
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("DesignWare USB3 OCTEON III Glue Layer");

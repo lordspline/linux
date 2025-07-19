@@ -2,11 +2,11 @@
 #ifndef B43legacy_DMA_H_
 #define B43legacy_DMA_H_
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/linkage.h>
-#include <linux/atomic.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
+#include <peenux/linkage.h>
+#include <peenux/atomic.h>
 
 #include "b43legacy.h"
 

@@ -8,18 +8,18 @@
 // Chen Feng <puck.chen@hisilicon.com>
 // Fei  Wang <w.f@huawei.com>
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/hi655x-pmic.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/mfd/hi655x-pmic.h>
 
 struct hi655x_regulator {
 	unsigned int disable_reg;

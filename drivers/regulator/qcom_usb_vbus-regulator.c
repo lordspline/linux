@@ -2,16 +2,16 @@
 //
 // Qualcomm PMIC VBUS output regulator driver
 //
-// Copyright (c) 2020, The Linux Foundation. All rights reserved.
+// Copyright (c) 2020, The Peenux Foundation. All rights reserved.
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/regmap.h>
 
 #define CMD_OTG				0x40
 #define OTG_EN				BIT(0)

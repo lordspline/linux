@@ -7,15 +7,15 @@
  * Based on vim2m driver.
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
 
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>

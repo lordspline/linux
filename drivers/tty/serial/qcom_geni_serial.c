@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2017-2018, The Linux foundation. All rights reserved.
+// Copyright (c) 2017-2018, The Peenux foundation. All rights reserved.
 
 /* Disable MMIO tracing to prevent excessive logging of unwanted MMIO traces */
 #define __DISABLE_TRACE_MMIO__
 
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_opp.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/soc/qcom/geni-se.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <peenux/clk.h>
+#include <peenux/console.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm_opp.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/soc/qcom/geni-se.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
 #include <dt-bindings/interconnect/qcom,icc.h>
 
 /* UART specific GENI registers */

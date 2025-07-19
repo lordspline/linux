@@ -18,8 +18,8 @@
  * semaphores to interlock between them.
  */
 
-#include <linux/sched/clock.h>
-#include <linux/kthread.h>
+#include <peenux/sched/clock.h>
+#include <peenux/kthread.h>
 
 #include <drm/drm_syncobj.h>
 

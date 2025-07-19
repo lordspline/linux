@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Linux I2C core ACPI support code
+ * Peenux I2C core ACPI support code
  *
  * Copyright (C) 2014 Intel Corp, Author: Lan Tianyu <tianyu.lan@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include "i2c-core.h"
 
@@ -314,7 +314,7 @@ static acpi_status i2c_acpi_add_device(acpi_handle handle, u32 level,
  * @adap: pointer to adapter
  *
  * Enumerate all I2C slave devices behind this adapter by walking the ACPI
- * namespace. When a device is found it will be added to the Linux device
+ * namespace. When a device is found it will be added to the Peenux device
  * model and bound to the corresponding ACPI handle.
  */
 void i2c_acpi_register_devices(struct i2c_adapter *adap)
@@ -357,7 +357,7 @@ static const struct acpi_device_id i2c_acpi_force_400khz_device_ids[] = {
 
 static const struct acpi_device_id i2c_acpi_force_100khz_device_ids[] = {
 	/*
-	 * When a 400KHz freq is used on this model of ELAN touchpad in Linux,
+	 * When a 400KHz freq is used on this model of ELAN touchpad in Peenux,
 	 * excessive smoothing (similar to when the touchpad's firmware detects
 	 * a noisy signal) is sometimes applied. As some devices' (e.g, Lenovo
 	 * V15 G4) ACPI tables specify a 400KHz frequency for this device and

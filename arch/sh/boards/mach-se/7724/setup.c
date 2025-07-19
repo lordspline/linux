@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/boards/se/7724/setup.c
+ * peenux/arch/sh/boards/se/7724/setup.c
  *
  * Copyright (C) 2009 Renesas Solutions Corp.
  *
@@ -13,26 +13,26 @@
 
 #include <cpu/sh7724.h>
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sh_keysc.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/mmc/host.h>
-#include <linux/mtd/physmap.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/sh_eth.h>
-#include <linux/sh_intc.h>
-#include <linux/smc91x.h>
-#include <linux/usb/r8a66597.h>
-#include <linux/videodev2.h>
-#include <linux/dma-map-ops.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/input/sh_keysc.h>
+#include <peenux/interrupt.h>
+#include <peenux/memblock.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/platform_data/tmio.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/fixed.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/sh_eth.h>
+#include <peenux/sh_intc.h>
+#include <peenux/smc91x.h>
+#include <peenux/usb/r8a66597.h>
+#include <peenux/videodev2.h>
+#include <peenux/dma-map-ops.h>
 
 #include <mach-se/mach/se7724.h>
 #include <media/drv-intf/renesas-ceu.h>

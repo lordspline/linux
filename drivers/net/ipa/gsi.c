@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 
-/* Copyright (c) 2015-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2015-2018, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2018-2024 Linaro Ltd.
  */
 
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/bug.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 #include "gsi.h"
 #include "gsi_private.h"

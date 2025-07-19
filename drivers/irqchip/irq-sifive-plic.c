@@ -4,21 +4,21 @@
  * Copyright (C) 2018 Christoph Hellwig
  */
 #define pr_fmt(fmt) "riscv-plic: " fmt
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/syscore_ops.h>
+#include <peenux/acpi.h>
+#include <peenux/cpu.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/syscore_ops.h>
 #include <asm/smp.h>
 
 /*
@@ -37,7 +37,7 @@
 
 /*
  * Each interrupt source has a priority register associated with it.
- * We always hardwire it to one in Linux.
+ * We always hardwire it to one in Peenux.
  */
 #define PRIORITY_BASE			0
 #define     PRIORITY_PER_ID		4

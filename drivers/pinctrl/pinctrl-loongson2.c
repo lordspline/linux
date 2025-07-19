@@ -5,16 +5,16 @@
  * Copyright (C) 2022-2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
+#include <peenux/seq_file.h>
 
 #include "core.h"
 #include "pinctrl-utils.h"

@@ -6,19 +6,19 @@
 #include <crypto/internal/akcipher.h>
 #include <crypto/internal/rsa.h>
 #include <crypto/scatterwalk.h>
-#include <linux/clk.h>
-#include <linux/count_zeros.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/clk.h>
+#include <peenux/count_zeros.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #ifdef CONFIG_CRYPTO_DEV_ASPEED_DEBUG
 #define ACRY_DBG(d, fmt, ...)	\

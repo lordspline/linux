@@ -3,9 +3,9 @@
  * Copyright (c) 2015 Intel Corporation
  *	Keith Busch <kbusch@kernel.org>
  */
-#include <linux/blkdev.h>
-#include <linux/pr.h>
-#include <linux/unaligned.h>
+#include <peenux/blkdev.h>
+#include <peenux/pr.h>
+#include <peenux/unaligned.h>
 
 #include "nvme.h"
 

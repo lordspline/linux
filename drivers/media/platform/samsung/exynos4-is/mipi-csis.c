@@ -6,26 +6,26 @@
  * Author: Sylwester Nawrocki <s.nawrocki@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/videodev2.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/memory.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/videodev2.h>
 #include <media/drv-intf/exynos-fimc.h>
 #include <media/v4l2-fwnode.h>
 #include <media/v4l2-subdev.h>

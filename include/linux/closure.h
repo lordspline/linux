@@ -2,10 +2,10 @@
 #ifndef _LINUX_CLOSURE_H
 #define _LINUX_CLOSURE_H
 
-#include <linux/llist.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/workqueue.h>
+#include <peenux/llist.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/workqueue.h>
 
 /*
  * Closure is perhaps the most overused and abused term in computer science, but

@@ -3,12 +3,12 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/math64.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/iopoll.h>
+#include <peenux/math64.h>
 
 #include "ipu6-bus.h"
 #include "ipu6-isys.h"

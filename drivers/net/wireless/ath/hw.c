@@ -14,8 +14,8 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/export.h>
-#include <linux/unaligned.h>
+#include <peenux/export.h>
+#include <peenux/unaligned.h>
 
 #include "ath.h"
 #include "reg.h"

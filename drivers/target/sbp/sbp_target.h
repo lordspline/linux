@@ -2,10 +2,10 @@
 #ifndef _SBP_BASE_H
 #define _SBP_BASE_H
 
-#include <linux/firewire.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/firewire.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 #include <target/target_core_base.h>
 
 #define SBP_VERSION  "v0.1"

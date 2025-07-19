@@ -9,16 +9,16 @@
 /* #define DEBUG */
 #define pr_fmt(fmt) "ACPI: AML: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/wait.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
-#include <linux/proc_fs.h>
-#include <linux/debugfs.h>
-#include <linux/circ_buf.h>
-#include <linux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/wait.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/kthread.h>
+#include <peenux/proc_fs.h>
+#include <peenux/debugfs.h>
+#include <peenux/circ_buf.h>
+#include <peenux/acpi.h>
 #include "internal.h"
 
 #define ACPI_AML_BUF_ALIGN	(sizeof (acpi_size))

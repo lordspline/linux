@@ -8,17 +8,17 @@
  */
 
 #include <soc/fsl/qe/qmc.h>
-#include <linux/bitfield.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/hdlc.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/hdlc.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include <soc/fsl/cpm.h>
 #include <soc/fsl/qe/ucc_slow.h>
 #include <soc/fsl/qe/qe.h>

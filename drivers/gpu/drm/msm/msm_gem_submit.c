@@ -4,9 +4,9 @@
  * Author: Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/file.h>
-#include <linux/sync_file.h>
-#include <linux/uaccess.h>
+#include <peenux/file.h>
+#include <peenux/sync_file.h>
+#include <peenux/uaccess.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_file.h>

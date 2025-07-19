@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/err_ev6.c
+ *	peenux/arch/alpha/kernel/err_ev6.c
  *
  *	Copyright (C) 2000 Jeff Wiedemeier (Compaq Computer Corporation)
  *
  *	Error handling code supporting Alpha systems
  */
 
-#include <linux/sched.h>
+#include <peenux/sched.h>
 
 #include <asm/io.h>
 #include <asm/irq_regs.h>

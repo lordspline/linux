@@ -5,14 +5,14 @@
  * Copyright (C) 2021-2024 Marvell.
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/perf_event.h>
-#include <linux/hrtimer.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/perf_event.h>
+#include <peenux/hrtimer.h>
+#include <peenux/acpi.h>
+#include <peenux/platform_device.h>
 
 /* Performance Counters Operating Mode Control Registers */
 #define CN10K_DDRC_PERF_CNT_OP_MODE_CTRL	0x8020

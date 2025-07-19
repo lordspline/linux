@@ -46,8 +46,8 @@
 #include <sys/stat.h>
 
 #include <bpf/bpf.h>
-#include <linux/err.h>
-#include <linux/list.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
 #include <api/fs/fs.h>
 #include <internal/xyarray.h>
 #include <perf/threadmap.h>

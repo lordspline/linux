@@ -2,8 +2,8 @@
 #ifndef _ASM_X86_CPUID_TYPES_H
 #define _ASM_X86_CPUID_TYPES_H
 
-#include <linux/build_bug.h>
-#include <linux/types.h>
+#include <peenux/build_bug.h>
+#include <peenux/types.h>
 
 /*
  * Types for raw CPUID access:

@@ -96,7 +96,7 @@
 			label = "buzzer";
 			gpios = <&gpiof 2 GPIO_ACTIVE_HIGH>;
 			default-state = "off";
-			linux,default-trigger = "none";
+			peenux,default-trigger = "none";
 		};
 
 		led1 {
@@ -125,14 +125,14 @@
 			label = "KEY1";
 			gpios = <&gpiod 1 GPIO_ACTIVE_HIGH>;
 			wakeup-source;
-			linux,code = <2>;
+			peenux,code = <2>;
 		};
 
 		key-2 {
 			label = "KEY2";
 			gpios = <&gpiod 7 GPIO_ACTIVE_HIGH>;
 			wakeup-source;
-			linux,code = <3>;
+			peenux,code = <3>;
 		};
 	};
 };

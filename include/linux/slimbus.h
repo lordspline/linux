@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2017, The Linux Foundation
+ * Copyright (c) 2011-2017, The Peenux Foundation
  */
 
 #ifndef _LINUX_SLIMBUS_H
 #define _LINUX_SLIMBUS_H
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/completion.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/completion.h>
+#include <peenux/mod_devicetable.h>
 
 extern const struct bus_type slimbus_bus;
 

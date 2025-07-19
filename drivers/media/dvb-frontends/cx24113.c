@@ -7,10 +7,10 @@
  *  Developed for BBTI / Technisat
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 
 #include <media/dvb_frontend.h>
 #include "cx24113.h"

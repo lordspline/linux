@@ -12,22 +12,22 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/highmem.h>
-#include <linux/initrd.h>
-#include <linux/pagemap.h>
-#include <linux/memblock.h>
-#include <linux/gfp.h>
-#include <linux/slab.h>
-#include <linux/hugetlb.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/stddef.h>
+#include <peenux/init.h>
+#include <peenux/highmem.h>
+#include <peenux/initrd.h>
+#include <peenux/pagemap.h>
+#include <peenux/memblock.h>
+#include <peenux/gfp.h>
+#include <peenux/slab.h>
+#include <peenux/hugetlb.h>
 
 #include <asm/io.h>
 #include <asm/mmu.h>

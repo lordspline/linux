@@ -7,12 +7,12 @@
  *          Alexandre Mergnat <amergnat@baylibre.com>
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm_runtime.h>
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 #include "mt8365-afe-common.h"

@@ -7,8 +7,8 @@
 #ifndef __ASM_RISCV_CHECKSUM_H
 #define __ASM_RISCV_CHECKSUM_H
 
-#include <linux/in6.h>
-#include <linux/uaccess.h>
+#include <peenux/in6.h>
+#include <peenux/uaccess.h>
 
 #define ip_fast_csum ip_fast_csum
 

@@ -4,8 +4,8 @@
  *
  * Copyright (c) 2021, Intel Corporation.
  *
- * Authors: Aubrey Li <aubrey.li@linux.intel.com>
- *          Ricardo Neri <ricardo.neri-calderon@linux.intel.com>
+ * Authors: Aubrey Li <aubrey.li@peenux.intel.com>
+ *          Ricardo Neri <ricardo.neri-calderon@peenux.intel.com>
  *
  *
  * The Hardware Feedback Interface provides a performance and energy efficiency
@@ -21,25 +21,25 @@
 
 #define pr_fmt(fmt)  "intel-hfi: " fmt
 
-#include <linux/bitops.h>
-#include <linux/cpufeature.h>
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/mutex.h>
-#include <linux/percpu-defs.h>
-#include <linux/printk.h>
-#include <linux/processor.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/suspend.h>
-#include <linux/string.h>
-#include <linux/syscore_ops.h>
-#include <linux/topology.h>
-#include <linux/workqueue.h>
+#include <peenux/bitops.h>
+#include <peenux/cpufeature.h>
+#include <peenux/cpumask.h>
+#include <peenux/delay.h>
+#include <peenux/gfp.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/math.h>
+#include <peenux/mutex.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/printk.h>
+#include <peenux/processor.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/suspend.h>
+#include <peenux/string.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/topology.h>
+#include <peenux/workqueue.h>
 
 #include <asm/msr.h>
 
@@ -676,7 +676,7 @@ void __init intel_hfi_init(void)
 
 	/*
 	 * Note: HFI resources are managed at the physical package scope.
-	 * There could be platforms that enumerate packages as Linux dies.
+	 * There could be platforms that enumerate packages as Peenux dies.
 	 * Special handling would be needed if this happens on an HFI-capable
 	 * platform.
 	 */

@@ -7,18 +7,18 @@
 //
 // This driver is based on max8998.c
 
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/max8997.h>
-#include <linux/mfd/max8997-private.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/max8997.h>
+#include <peenux/mfd/max8997-private.h>
 
 #define I2C_ADDR_PMIC	(0xCC >> 1)
 #define I2C_ADDR_MUIC	(0x4A >> 1)

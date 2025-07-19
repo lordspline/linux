@@ -5,14 +5,14 @@
  *                    Czech Technical University in Prague
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/uio_driver.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/uio_driver.h>
 
 #define PCI_VENDOR_ID_HUMUSOFT		0x186c
 #define PCI_DEVICE_ID_MF624		0x0624

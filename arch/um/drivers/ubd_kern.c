@@ -21,21 +21,21 @@
 
 #define UBD_SHIFT 4
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/blk-mq.h>
-#include <linux/ata.h>
-#include <linux/hdreg.h>
-#include <linux/major.h>
-#include <linux/cdrom.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/platform_device.h>
-#include <linux/scatterlist.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-mq.h>
+#include <peenux/ata.h>
+#include <peenux/hdreg.h>
+#include <peenux/major.h>
+#include <peenux/cdrom.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/platform_device.h>
+#include <peenux/scatterlist.h>
 #include <kern_util.h>
 #include "mconsole_kern.h"
 #include <init.h>

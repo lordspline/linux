@@ -10,14 +10,14 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/slab.h>
 
 #define BERLIN_PWM_EN			0x0
 #define  BERLIN_PWM_ENABLE		BIT(0)

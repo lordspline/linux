@@ -9,19 +9,19 @@
  * Some code borrowed from drivers/extcon/extcon-usb-gpio.c
  */
 
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regulator/consumer.h>
-#include <linux/string_choices.h>
-#include <linux/usb/role.h>
-#include <linux/idr.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/string_choices.h>
+#include <peenux/usb/role.h>
+#include <peenux/idr.h>
 
 static DEFINE_IDA(usb_conn_ida);
 

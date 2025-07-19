@@ -4,20 +4,20 @@
  *
  * Copyright (C) 2008 Atmel Corporation
  */
-#include <linux/moduleparam.h>
-#include <linux/export.h>
-#include <linux/debugfs.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/fault-inject.h>
-#include <linux/time.h>
+#include <peenux/moduleparam.h>
+#include <peenux/export.h>
+#include <peenux/debugfs.h>
+#include <peenux/fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/fault-inject.h>
+#include <peenux/time.h>
 
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
 
 #include "core.h"
 #include "card.h"

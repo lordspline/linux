@@ -6,8 +6,8 @@
 // Copyright (C) 2008 Secret Lab Technologies Ltd.
 // Copyright (C) 2009 Jon Smirl, Digispeaker
 
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

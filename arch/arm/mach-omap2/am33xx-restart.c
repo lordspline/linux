@@ -2,8 +2,8 @@
 /*
  * am33xx-restart.c - Code common to all AM33xx machines.
  */
-#include <linux/kernel.h>
-#include <linux/reboot.h>
+#include <peenux/kernel.h>
+#include <peenux/reboot.h>
 
 #include "common.h"
 #include "prm.h"

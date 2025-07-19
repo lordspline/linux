@@ -4,21 +4,21 @@
  *  Copyright (C) 2001, 2002 Andi Kleen, SuSE Labs.
  *  Copyright (C) 2008-2009, Red Hat Inc., Ingo Molnar
  */
-#include <linux/sched.h>		/* test_thread_flag(), ...	*/
-#include <linux/sched/task_stack.h>	/* task_stack_*(), ...		*/
-#include <linux/kdebug.h>		/* oops_begin/end, ...		*/
-#include <linux/memblock.h>		/* max_low_pfn			*/
-#include <linux/kfence.h>		/* kfence_handle_page_fault	*/
-#include <linux/kprobes.h>		/* NOKPROBE_SYMBOL, ...		*/
-#include <linux/mmiotrace.h>		/* kmmio_handler, ...		*/
-#include <linux/perf_event.h>		/* perf_sw_event		*/
-#include <linux/hugetlb.h>		/* hstate_index_to_shift	*/
-#include <linux/context_tracking.h>	/* exception_enter(), ...	*/
-#include <linux/uaccess.h>		/* faulthandler_disabled()	*/
-#include <linux/efi.h>			/* efi_crash_gracefully_on_page_fault()*/
-#include <linux/mm_types.h>
-#include <linux/mm.h>			/* find_and_lock_vma() */
-#include <linux/vmalloc.h>
+#include <peenux/sched.h>		/* test_thread_flag(), ...	*/
+#include <peenux/sched/task_stack.h>	/* task_stack_*(), ...		*/
+#include <peenux/kdebug.h>		/* oops_begin/end, ...		*/
+#include <peenux/memblock.h>		/* max_low_pfn			*/
+#include <peenux/kfence.h>		/* kfence_handle_page_fault	*/
+#include <peenux/kprobes.h>		/* NOKPROBE_SYMBOL, ...		*/
+#include <peenux/mmiotrace.h>		/* kmmio_handler, ...		*/
+#include <peenux/perf_event.h>		/* perf_sw_event		*/
+#include <peenux/hugetlb.h>		/* hstate_index_to_shift	*/
+#include <peenux/context_tracking.h>	/* exception_enter(), ...	*/
+#include <peenux/uaccess.h>		/* faulthandler_disabled()	*/
+#include <peenux/efi.h>			/* efi_crash_gracefully_on_page_fault()*/
+#include <peenux/mm_types.h>
+#include <peenux/mm.h>			/* find_and_lock_vma() */
+#include <peenux/vmalloc.h>
 
 #include <asm/cpufeature.h>		/* boot_cpu_has, ...		*/
 #include <asm/traps.h>			/* dotraplinkage, ...		*/

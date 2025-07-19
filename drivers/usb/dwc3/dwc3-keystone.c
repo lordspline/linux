@@ -7,16 +7,16 @@
  * Author: WingMan Kwok <w-kwok2@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/phy/phy.h>
+#include <peenux/pm_runtime.h>
 
 /* USBSS register offsets */
 #define USBSS_REVISION		0x0000

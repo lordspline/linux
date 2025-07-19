@@ -12,14 +12,14 @@
  * Copyright (C) 2022 Marek Vasut <marex@denx.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitrev.h>
-#include <linux/clk-provider.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitrev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 /* OE1 and OE2 register */
 #define SI521XX_REG_OE(n)			(((n) & 0x1) + 1)

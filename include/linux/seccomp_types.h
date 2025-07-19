@@ -2,7 +2,7 @@
 #ifndef _LINUX_SECCOMP_TYPES_H
 #define _LINUX_SECCOMP_TYPES_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_SECCOMP
 

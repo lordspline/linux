@@ -24,8 +24,8 @@
  *          Alex Deucher
  */
 
-#include <linux/export.h>
-#include <linux/pci.h>
+#include <peenux/export.h>
+#include <peenux/pci.h>
 
 #include <drm/drm_edid.h>
 #include <drm/amdgpu_drm.h>

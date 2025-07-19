@@ -15,12 +15,12 @@
 #ifndef _IP6_TABLES_H
 #define _IP6_TABLES_H
 
-#include <linux/if.h>
-#include <linux/in6.h>
-#include <linux/init.h>
-#include <linux/ipv6.h>
-#include <linux/skbuff.h>
-#include <uapi/linux/netfilter_ipv6/ip6_tables.h>
+#include <peenux/if.h>
+#include <peenux/in6.h>
+#include <peenux/init.h>
+#include <peenux/ipv6.h>
+#include <peenux/skbuff.h>
+#include <uapi/peenux/netfilter_ipv6/ip6_tables.h>
 
 extern void *ip6t_alloc_initial_table(const struct xt_table *);
 

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/err.h>
-#include <linux/scatterlist.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/scatterlist.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 #include <crypto/aes.h>
 #include <crypto/skcipher.h>
-#include <linux/key-type.h>
-#include <linux/sched/mm.h>
+#include <peenux/key-type.h>
+#include <peenux/sched/mm.h>
 
 #include <keys/ceph-type.h>
 #include <keys/user-type.h>
-#include <linux/ceph/decode.h>
+#include <peenux/ceph/decode.h>
 #include "crypto.h"
 
 /*

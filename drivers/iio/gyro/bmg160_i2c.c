@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
 
 #include "bmg160.h"
 
@@ -77,6 +77,6 @@ static struct i2c_driver bmg160_i2c_driver = {
 };
 module_i2c_driver(bmg160_i2c_driver);
 
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>");
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("BMG160 I2C Gyro driver");

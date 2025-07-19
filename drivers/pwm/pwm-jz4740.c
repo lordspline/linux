@@ -8,17 +8,17 @@
  *   reconfiguring the hardware.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/gpio.h>
-#include <linux/kernel.h>
-#include <linux/mfd/ingenic-tcu.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/gpio.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/ingenic-tcu.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/regmap.h>
 
 struct soc_info {
 	unsigned int num_pwms;

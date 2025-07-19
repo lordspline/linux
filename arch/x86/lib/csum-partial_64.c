@@ -6,8 +6,8 @@
  * in an architecture-specific manner due to speed.
  */
 
-#include <linux/compiler.h>
-#include <linux/export.h>
+#include <peenux/compiler.h>
+#include <peenux/export.h>
 #include <asm/checksum.h>
 #include <asm/word-at-a-time.h>
 

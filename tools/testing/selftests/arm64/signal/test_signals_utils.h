@@ -9,7 +9,7 @@
 #include <stdint.h>
 #include <string.h>
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 #include "test_signals.h"
 

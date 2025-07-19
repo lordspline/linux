@@ -6,8 +6,8 @@
 #ifndef LINUX_NFSD_VFS_H
 #define LINUX_NFSD_VFS_H
 
-#include <linux/fs.h>
-#include <linux/posix_acl.h>
+#include <peenux/fs.h>
+#include <peenux/posix_acl.h>
 #include "nfsfh.h"
 #include "nfsd.h"
 

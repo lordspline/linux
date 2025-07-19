@@ -5,13 +5,13 @@
  * Copyright (C) 2022 Renesas Electronics Corporation
  */
 
-#include <linux/clk.h>
-#include <linux/counter.h>
-#include <linux/mfd/rz-mtu3.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/counter.h>
+#include <peenux/mfd/rz-mtu3.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/types.h>
 
 /*
  * Register descriptions

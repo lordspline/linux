@@ -9,11 +9,11 @@
 
 #include "main.h"
 
-#include <linux/compiler.h>
-#include <linux/list.h>
-#include <linux/skbuff.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/list.h>
+#include <peenux/skbuff.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 void batadv_frag_purge_orig(struct batadv_orig_node *orig,
 			    bool (*check_cb)(struct batadv_frag_table_entry *));

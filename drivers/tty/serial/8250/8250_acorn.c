@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/drivers/serial/acorn.c
+ *  peenux/drivers/serial/acorn.c
  *
  *  Copyright (C) 1996-2003 Russell King.
  */
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/tty.h>
-#include <linux/serial_core.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/tty.h>
+#include <peenux/serial_core.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
 
 #include <asm/io.h>
 #include <asm/ecard.h>

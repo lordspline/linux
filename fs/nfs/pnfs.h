@@ -30,10 +30,10 @@
 #ifndef FS_NFS_PNFS_H
 #define FS_NFS_PNFS_H
 
-#include <linux/refcount.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_page.h>
-#include <linux/workqueue.h>
+#include <peenux/refcount.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_page.h>
+#include <peenux/workqueue.h>
 
 struct nfs4_exception;
 struct nfs4_opendata;

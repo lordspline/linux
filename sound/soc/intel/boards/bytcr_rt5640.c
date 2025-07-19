@@ -9,20 +9,20 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/device/bus.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/input.h>
-#include <linux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/device/bus.h>
+#include <peenux/dmi.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

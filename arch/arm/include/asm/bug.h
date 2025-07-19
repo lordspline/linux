@@ -2,8 +2,8 @@
 #ifndef _ASMARM_BUG_H
 #define _ASMARM_BUG_H
 
-#include <linux/linkage.h>
-#include <linux/types.h>
+#include <peenux/linkage.h>
+#include <peenux/types.h>
 #include <asm/opcodes.h>
 
 /*

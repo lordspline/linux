@@ -5,13 +5,13 @@
  * Copyright 2008 Ian Molton <spyro@f2s.com>
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/mfd/wm97xx.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/mfd/wm97xx.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/regmap.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/ac97_codec.h>

@@ -30,7 +30,7 @@
 #include "vmwgfx_resource_priv.h"
 #include "vmwgfx_validation.h"
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 
 /**
  * struct vmw_validation_bo_node - Buffer object validation metadata.

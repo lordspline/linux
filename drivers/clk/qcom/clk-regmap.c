@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
-#include <linux/export.h>
+#include <peenux/device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
+#include <peenux/export.h>
 
 #include "clk-regmap.h"
 

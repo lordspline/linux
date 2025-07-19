@@ -7,9 +7,9 @@
  *  All Rights Reserved
  */
 
-#include <linux/bitfield.h>
-#include <linux/cacheinfo.h>
-#include <linux/of.h>
+#include <peenux/bitfield.h>
+#include <peenux/cacheinfo.h>
+#include <peenux/of.h>
 
 #include <asm/cachetype.h>
 #include <asm/cputype.h>

@@ -1,7 +1,7 @@
-#include <linux/notifier.h>
-#include <linux/socket.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
+#include <peenux/notifier.h>
+#include <peenux/socket.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
 #include <net/net_namespace.h>
 #include <net/fib_notifier.h>
 #include <net/netns/ipv6.h>

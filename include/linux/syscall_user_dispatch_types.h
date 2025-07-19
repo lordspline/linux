@@ -2,7 +2,7 @@
 #ifndef _SYSCALL_USER_DISPATCH_TYPES_H
 #define _SYSCALL_USER_DISPATCH_TYPES_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_GENERIC_ENTRY
 

@@ -9,23 +9,23 @@
 #include "fuse_i.h"
 #include "dev_uring_i.h"
 
-#include <linux/dax.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/statfs.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/exportfs.h>
-#include <linux/posix_acl.h>
-#include <linux/pid_namespace.h>
-#include <uapi/linux/magic.h>
+#include <peenux/dax.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/statfs.h>
+#include <peenux/random.h>
+#include <peenux/sched.h>
+#include <peenux/exportfs.h>
+#include <peenux/posix_acl.h>
+#include <peenux/pid_namespace.h>
+#include <uapi/peenux/magic.h>
 
 MODULE_AUTHOR("Miklos Szeredi <miklos@szeredi.hu>");
 MODULE_DESCRIPTION("Filesystem in Userspace");

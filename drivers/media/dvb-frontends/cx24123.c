@@ -9,10 +9,10 @@
  *   Support for CX24123/CX24113-NIM by Patrick Boettcher <pb@linuxtv.org>
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 #include <asm/div64.h>
 
 #include <media/dvb_frontend.h>

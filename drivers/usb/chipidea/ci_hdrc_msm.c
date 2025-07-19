@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2010, Code Aurora Forum. All rights reserved. */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/usb/chipidea.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/io.h>
-#include <linux/reset-controller.h>
-#include <linux/extcon.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/usb/chipidea.h>
+#include <peenux/clk.h>
+#include <peenux/reset.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/io.h>
+#include <peenux/reset-controller.h>
+#include <peenux/extcon.h>
+#include <peenux/of.h>
 
 #include "ci.h"
 

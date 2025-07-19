@@ -5,20 +5,20 @@
  * Copyright 2021 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/notifier.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/notifier.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/units.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* ADMV1013 Register Map */
 #define ADMV1013_REG_SPI_CONTROL		0x00

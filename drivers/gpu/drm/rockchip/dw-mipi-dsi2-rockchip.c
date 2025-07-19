@@ -6,26 +6,26 @@
  *      Heiko Stuebner <heiko.stuebner@cherry.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/media-bus-format.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/mfd/syscon.h>
-#include <linux/phy/phy.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/phy/phy.h>
 
 #include <drm/bridge/dw_mipi_dsi2.h>
 #include <drm/drm_mipi_dsi.h>
 #include <drm/drm_of.h>
 #include <drm/drm_simple_kms_helper.h>
 
-#include <uapi/linux/videodev2.h>
+#include <uapi/peenux/videodev2.h>
 
 #include "rockchip_drm_drv.h"
 

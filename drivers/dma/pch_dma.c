@@ -5,14 +5,14 @@
  * Copyright (C) 2011 LAPIS Semiconductor Co., Ltd.
  */
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pch_dma.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pch_dma.h>
 
 #include "dmaengine.h"
 

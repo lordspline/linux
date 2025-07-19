@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2024 Meta Platforms, Inc. and affiliates. */
-#include <linux/interval_tree_generic.h>
-#include <linux/slab.h>
-#include <linux/bpf_mem_alloc.h>
-#include <linux/bpf.h>
+#include <peenux/interval_tree_generic.h>
+#include <peenux/slab.h>
+#include <peenux/bpf_mem_alloc.h>
+#include <peenux/bpf.h>
 #include "range_tree.h"
 
 /*

@@ -10,23 +10,23 @@
  *  Ksenija Stanojevic <ksenija.stanojevic@gmail.com>
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mxs-lradc.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/mxs-lradc.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/sysfs.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/sysfs.h>
 
 /*
  * Make this runtime configurable if necessary. Currently, if the buffered mode

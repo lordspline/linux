@@ -14,14 +14,14 @@
  * Author: Wadim Egorov <w.egorov@phytec.de>
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/mfd/rk808.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/mfd/rk808.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/gpio/consumer.h>
 
 /* Field definitions */
 #define RK808_BUCK_VSEL_MASK	0x3f

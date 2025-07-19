@@ -3,7 +3,7 @@
 #include <structmember.h>
 #include <inttypes.h>
 #include <poll.h>
-#include <linux/err.h>
+#include <peenux/err.h>
 #include <perf/cpumap.h>
 #ifdef HAVE_LIBTRACEEVENT
 #include <event-parse.h>

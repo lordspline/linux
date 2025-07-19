@@ -6,9 +6,9 @@
 #ifndef STM32_FIREWALL_DEVICE_H
 #define STM32_FIREWALL_DEVICE_H
 
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 #define STM32_FIREWALL_MAX_EXTRA_ARGS		5
 

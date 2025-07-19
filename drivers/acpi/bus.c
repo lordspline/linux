@@ -7,30 +7,30 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/sched.h>
-#include <linux/pm.h>
-#include <linux/device.h>
-#include <linux/proc_fs.h>
-#include <linux/acpi.h>
-#include <linux/slab.h>
-#include <linux/regulator/machine.h>
-#include <linux/workqueue.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/sched.h>
+#include <peenux/pm.h>
+#include <peenux/device.h>
+#include <peenux/proc_fs.h>
+#include <peenux/acpi.h>
+#include <peenux/slab.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/workqueue.h>
+#include <peenux/reboot.h>
+#include <peenux/delay.h>
 #ifdef CONFIG_X86
 #include <asm/mpspec.h>
-#include <linux/dmi.h>
+#include <peenux/dmi.h>
 #endif
-#include <linux/acpi_viot.h>
-#include <linux/pci.h>
+#include <peenux/acpi_viot.h>
+#include <peenux/pci.h>
 #include <acpi/apei.h>
-#include <linux/suspend.h>
-#include <linux/prmt.h>
+#include <peenux/suspend.h>
+#include <peenux/prmt.h>
 
 #include "internal.h"
 

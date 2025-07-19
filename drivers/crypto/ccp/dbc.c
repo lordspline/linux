@@ -7,7 +7,7 @@
  * Author: Mario Limonciello <mario.limonciello@amd.com>
  */
 
-#include <linux/mutex.h>
+#include <peenux/mutex.h>
 
 #include "dbc.h"
 

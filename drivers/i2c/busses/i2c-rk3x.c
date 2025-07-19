@@ -6,23 +6,23 @@
  * based on the patches by Rockchip Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/spinlock.h>
-#include <linux/clk.h>
-#include <linux/wait.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/math64.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/wait.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/math64.h>
 
 
 /* Register Map */

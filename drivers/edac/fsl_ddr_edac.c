@@ -12,18 +12,18 @@
  *
  * 2006-2007 (c) MontaVista Software, Inc.
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ctype.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/edac.h>
-#include <linux/smp.h>
-#include <linux/gfp.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ctype.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/edac.h>
+#include <peenux/smp.h>
+#include <peenux/gfp.h>
 
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 #include "edac_module.h"
 #include "fsl_ddr_edac.h"
 

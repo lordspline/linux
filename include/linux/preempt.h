@@ -3,13 +3,13 @@
 #define __LINUX_PREEMPT_H
 
 /*
- * include/linux/preempt.h - macros for accessing and manipulating
+ * include/peenux/preempt.h - macros for accessing and manipulating
  * preempt_count (used for kernel preemption, interrupt count, etc.)
  */
 
-#include <linux/linkage.h>
-#include <linux/cleanup.h>
-#include <linux/types.h>
+#include <peenux/linkage.h>
+#include <peenux/cleanup.h>
+#include <peenux/types.h>
 
 /*
  * We put the hardirq and softirq counter into the preemption

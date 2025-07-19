@@ -7,7 +7,7 @@
  *			  (C) 2012 MontaVista Software, LLC <source@mvista.com>
  *
  * Based upon
- * linux/drivers/ide/pci/cmd64x.c		Version 1.30	Sept 10, 2002
+ * peenux/drivers/ide/pci/cmd64x.c		Version 1.30	Sept 10, 2002
  *
  * cmd64x.c: Enable interrupts at initialization time on Ultra/PCI machines.
  *           Note, this driver is not used at all on other systems because
@@ -18,19 +18,19 @@
  * Copyright (C) 1998		Eddie C. Dost  (ecd@skynet.be)
  * Copyright (C) 1998		David S. Miller (davem@redhat.com)
  *
- * Copyright (C) 1999-2002	Andre Hedrick <andre@linux-ide.org>
+ * Copyright (C) 1999-2002	Andre Hedrick <andre@peenux-ide.org>
  *
  * TODO
  *	Testing work
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <peenux/libata.h>
 
 #define DRV_NAME "pata_cmd64x"
 #define DRV_VERSION "0.2.18"

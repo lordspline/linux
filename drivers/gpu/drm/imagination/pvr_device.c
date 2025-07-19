@@ -14,22 +14,22 @@
 
 #include <drm/drm_print.h>
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/compiler_attributes.h>
-#include <linux/compiler_types.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/gfp.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/compiler_types.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/firmware.h>
+#include <peenux/gfp.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 /* Major number for the supported version of the firmware. */
 #define PVR_FW_VERSION_MAJOR 1

@@ -7,9 +7,9 @@
  *  lan8650/1 Rev.B0/B1 Internal PHYs
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/phy.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/phy.h>
 
 #define PHY_ID_LAN867X_REVB1 0x0007C162
 #define PHY_ID_LAN867X_REVC1 0x0007C164

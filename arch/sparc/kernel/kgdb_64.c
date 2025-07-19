@@ -4,10 +4,10 @@
  * Copyright (C) 2008 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/kgdb.h>
-#include <linux/kdebug.h>
-#include <linux/ftrace.h>
-#include <linux/context_tracking.h>
+#include <peenux/kgdb.h>
+#include <peenux/kdebug.h>
+#include <peenux/ftrace.h>
+#include <peenux/context_tracking.h>
 
 #include <asm/cacheflush.h>
 #include <asm/kdebug.h>

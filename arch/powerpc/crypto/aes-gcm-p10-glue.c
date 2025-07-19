@@ -5,7 +5,7 @@
  * Copyright 2022- IBM Inc. All rights reserved
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/simd.h>
 #include <asm/switch_to.h>
 #include <crypto/gcm.h>
@@ -18,17 +18,17 @@
 #include <crypto/internal/hash.h>
 #include <crypto/internal/skcipher.h>
 #include <crypto/scatterwalk.h>
-#include <linux/cpufeature.h>
-#include <linux/crypto.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/cpufeature.h>
+#include <peenux/crypto.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 #define	PPC_ALIGN		16
 #define GCM_IV_SIZE		12
 #define RFC4106_NONCE_SIZE	4
 
 MODULE_DESCRIPTION("PPC64le AES-GCM with Stitched implementation");
-MODULE_AUTHOR("Danny Tsen <dtsen@linux.ibm.com");
+MODULE_AUTHOR("Danny Tsen <dtsen@peenux.ibm.com");
 MODULE_LICENSE("GPL v2");
 MODULE_ALIAS_CRYPTO("aes");
 

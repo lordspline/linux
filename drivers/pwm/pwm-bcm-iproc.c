@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2016 Broadcom
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
 
 #define IPROC_PWM_CTRL_OFFSET			0x00
 #define IPROC_PWM_CTRL_TYPE_SHIFT(ch)		(15 + (ch))

@@ -9,8 +9,8 @@
 #ifndef __DRM_MIPI_DSI_H__
 #define __DRM_MIPI_DSI_H__
 
-#include <linux/device.h>
-#include <linux/delay.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
 
 struct mipi_dsi_host;
 struct mipi_dsi_device;

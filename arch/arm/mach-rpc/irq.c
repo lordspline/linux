@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
 
 #include <asm/mach/irq.h>
 #include <asm/hardware/iomd.h>

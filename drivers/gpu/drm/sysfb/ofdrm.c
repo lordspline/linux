@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/aperture.h>
-#include <linux/of_address.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <peenux/aperture.h>
+#include <peenux/of_address.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

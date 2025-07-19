@@ -30,13 +30,13 @@
  * SOFTWARE.
  */
 
-#include <linux/etherdevice.h>
-#include <linux/debugfs.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/mlx5_ifc.h>
-#include <linux/mlx5/vport.h>
-#include <linux/mlx5/fs.h>
-#include <linux/mlx5/mpfs.h>
+#include <peenux/etherdevice.h>
+#include <peenux/debugfs.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/mlx5/mlx5_ifc.h>
+#include <peenux/mlx5/vport.h>
+#include <peenux/mlx5/fs.h>
+#include <peenux/mlx5/mpfs.h>
 #include "esw/acl/lgcy.h"
 #include "esw/legacy.h"
 #include "esw/qos.h"

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2014-2015 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014-2015 The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/string_choices.h>
+#include <peenux/string_choices.h>
 #include "mdp5_kms.h"
 #include "mdp5_ctl.h"
 

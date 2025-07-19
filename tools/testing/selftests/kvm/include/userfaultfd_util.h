@@ -8,7 +8,7 @@
 #include <inttypes.h>
 #include <time.h>
 #include <pthread.h>
-#include <linux/userfaultfd.h>
+#include <peenux/userfaultfd.h>
 
 #include "test_util.h"
 

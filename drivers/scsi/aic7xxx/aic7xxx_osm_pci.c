@@ -1,5 +1,5 @@
 /*
- * Linux driver attachment glue for PCI based controllers.
+ * Peenux driver attachment glue for PCI based controllers.
  *
  * Copyright (c) 2000-2001 Adaptec Inc.
  * All rights reserved.
@@ -36,7 +36,7 @@
  * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGES.
  *
- * $Id: //depot/aic7xxx/linux/drivers/scsi/aic7xxx/aic7xxx_osm_pci.c#47 $
+ * $Id: //depot/aic7xxx/peenux/drivers/scsi/aic7xxx/aic7xxx_osm_pci.c#47 $
  */
 
 #include "aic7xxx_osm.h"

@@ -4,8 +4,8 @@
  *
  * Copyright (C) 2016 Jens Axboe
  */
-#include <linux/kernel.h>
-#include <linux/rculist.h>
+#include <peenux/kernel.h>
+#include <peenux/rculist.h>
 
 #include "blk-stat.h"
 #include "blk-mq.h"

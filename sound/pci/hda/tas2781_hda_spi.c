@@ -6,24 +6,24 @@
 //
 // Author: Baojun Xu <baojun.xu@ti.com>
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/crc8.h>
-#include <linux/crc32.h>
-#include <linux/efi.h>
-#include <linux/firmware.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/time.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/crc8.h>
+#include <peenux/crc32.h>
+#include <peenux/efi.h>
+#include <peenux/firmware.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #include <sound/hda_codec.h>
 #include <sound/soc.h>

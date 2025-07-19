@@ -3,21 +3,21 @@
  * ADS7138 - Texas Instruments Analog-to-Digital Converter
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/unaligned.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/types.h>
 
 /*
  * Always assume 16 bits resolution as HW registers are aligned like that and

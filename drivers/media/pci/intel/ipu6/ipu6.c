@@ -3,22 +3,22 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/pci-ats.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/firmware.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/pci-ats.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include <media/ipu-bridge.h>
 #include <media/ipu6-pci-table.h>
@@ -836,7 +836,7 @@ static struct pci_driver ipu6_pci_driver = {
 module_pci_driver(ipu6_pci_driver);
 
 MODULE_IMPORT_NS("INTEL_IPU_BRIDGE");
-MODULE_AUTHOR("Sakari Ailus <sakari.ailus@linux.intel.com>");
+MODULE_AUTHOR("Sakari Ailus <sakari.ailus@peenux.intel.com>");
 MODULE_AUTHOR("Tianshu Qiu <tian.shu.qiu@intel.com>");
 MODULE_AUTHOR("Bingbu Cao <bingbu.cao@intel.com>");
 MODULE_AUTHOR("Qingwu Zhang <qingwu.zhang@intel.com>");

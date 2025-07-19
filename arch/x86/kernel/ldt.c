@@ -12,16 +12,16 @@
  *	    context.lock
  */
 
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/syscalls.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/gfp.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/syscalls.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/uaccess.h>
 
 #include <asm/ldt.h>
 #include <asm/tlb.h>

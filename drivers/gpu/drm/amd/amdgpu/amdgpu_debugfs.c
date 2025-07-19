@@ -23,10 +23,10 @@
  *
  */
 
-#include <linux/kthread.h>
-#include <linux/pci.h>
-#include <linux/uaccess.h>
-#include <linux/pm_runtime.h>
+#include <peenux/kthread.h>
+#include <peenux/pci.h>
+#include <peenux/uaccess.h>
+#include <peenux/pm_runtime.h>
 
 #include "amdgpu.h"
 #include "amdgpu_pm.h"

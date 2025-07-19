@@ -6,9 +6,9 @@
 #ifndef __VCAP_API_CLIENT__
 #define __VCAP_API_CLIENT__
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
 #include <net/flow_offload.h>
 
 #include "vcap_api.h"

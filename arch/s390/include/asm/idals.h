@@ -13,11 +13,11 @@
 #ifndef _S390_IDALS_H
 #define _S390_IDALS_H
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 #include <asm/dma-types.h>
 #include <asm/cio.h>
 

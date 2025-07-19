@@ -5,25 +5,25 @@
  * Copyright (C) 2012 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/iio/iio.h>
-#include <linux/of.h>
-#include <linux/iio/machine.h>
-#include <linux/iio/driver.h>
-#include <linux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/iio/iio.h>
+#include <peenux/of.h>
+#include <peenux/iio/machine.h>
+#include <peenux/iio/driver.h>
+#include <peenux/iopoll.h>
 
-#include <linux/mfd/ti_am335x_tscadc.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/kfifo_buf.h>
+#include <peenux/mfd/ti_am335x_tscadc.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/kfifo_buf.h>
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
 
 #define DMA_BUFFER_SIZE		SZ_2K
 

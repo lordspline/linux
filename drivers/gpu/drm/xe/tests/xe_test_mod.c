@@ -2,7 +2,7 @@
 /*
  * Copyright © 2023 Intel Corporation
  */
-#include <linux/module.h>
+#include <peenux/module.h>
 
 MODULE_AUTHOR("Intel Corporation");
 MODULE_LICENSE("GPL");

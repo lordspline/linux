@@ -47,7 +47,7 @@
  *   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * PCIe NTB Pingpong Linux driver
+ * PCIe NTB Pingpong Peenux driver
  */
 
 /*
@@ -67,18 +67,18 @@
  * root@self# cat $DBG_DIR/count
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/bitops.h>
 
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/hrtimer.h>
-#include <linux/debugfs.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/hrtimer.h>
+#include <peenux/debugfs.h>
 
-#include <linux/ntb.h>
+#include <peenux/ntb.h>
 
 #define DRIVER_NAME		"ntb_pingpong"
 #define DRIVER_VERSION		"2.0"

@@ -8,8 +8,8 @@
 #ifndef __V4L2_DV_TIMINGS_H
 #define __V4L2_DV_TIMINGS_H
 
-#include <linux/debugfs.h>
-#include <linux/videodev2.h>
+#include <peenux/debugfs.h>
+#include <peenux/videodev2.h>
 
 /**
  * v4l2_calc_timeperframe - helper function to calculate timeperframe based

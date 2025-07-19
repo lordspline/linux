@@ -4,8 +4,8 @@
 #ifndef __LINUX_IOMMU_PRIV_H
 #define __LINUX_IOMMU_PRIV_H
 
-#include <linux/iommu.h>
-#include <linux/msi.h>
+#include <peenux/iommu.h>
+#include <peenux/msi.h>
 
 static inline const struct iommu_ops *dev_iommu_ops(struct device *dev)
 {

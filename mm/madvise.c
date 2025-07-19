@@ -1,36 +1,36 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/mm/madvise.c
+ *	peenux/mm/madvise.c
  *
  * Copyright (C) 1999  Linus Torvalds
  * Copyright (C) 2002  Christoph Hellwig
  */
 
-#include <linux/mman.h>
-#include <linux/pagemap.h>
-#include <linux/syscalls.h>
-#include <linux/mempolicy.h>
-#include <linux/page-isolation.h>
-#include <linux/page_idle.h>
-#include <linux/userfaultfd_k.h>
-#include <linux/hugetlb.h>
-#include <linux/falloc.h>
-#include <linux/fadvise.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/mm_inline.h>
-#include <linux/string.h>
-#include <linux/uio.h>
-#include <linux/ksm.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/blkdev.h>
-#include <linux/backing-dev.h>
-#include <linux/pagewalk.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/shmem_fs.h>
-#include <linux/mmu_notifier.h>
+#include <peenux/mman.h>
+#include <peenux/pagemap.h>
+#include <peenux/syscalls.h>
+#include <peenux/mempolicy.h>
+#include <peenux/page-isolation.h>
+#include <peenux/page_idle.h>
+#include <peenux/userfaultfd_k.h>
+#include <peenux/hugetlb.h>
+#include <peenux/falloc.h>
+#include <peenux/fadvise.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/mm_inline.h>
+#include <peenux/string.h>
+#include <peenux/uio.h>
+#include <peenux/ksm.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/blkdev.h>
+#include <peenux/backing-dev.h>
+#include <peenux/pagewalk.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/mmu_notifier.h>
 
 #include <asm/tlb.h>
 

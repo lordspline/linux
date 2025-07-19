@@ -14,23 +14,23 @@
  * kind, whether express or implied.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gfp.h>
-#include <linux/delay.h>
-#include <linux/libata.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gfp.h>
+#include <peenux/delay.h>
+#include <peenux/libata.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 #include <asm/cacheflush.h>
 #include <asm/mpc52xx.h>
 
-#include <linux/fsl/bestcomm/bestcomm.h>
-#include <linux/fsl/bestcomm/bestcomm_priv.h>
-#include <linux/fsl/bestcomm/ata.h>
+#include <peenux/fsl/bestcomm/bestcomm.h>
+#include <peenux/fsl/bestcomm/bestcomm_priv.h>
+#include <peenux/fsl/bestcomm/ata.h>
 
 #define DRV_NAME	"mpc52xx_ata"
 

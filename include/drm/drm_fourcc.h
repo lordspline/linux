@@ -22,8 +22,8 @@
 #ifndef __DRM_FOURCC_H__
 #define __DRM_FOURCC_H__
 
-#include <linux/math.h>
-#include <linux/types.h>
+#include <peenux/math.h>
+#include <peenux/types.h>
 #include <uapi/drm/drm_fourcc.h>
 
 /**

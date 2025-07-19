@@ -5,7 +5,7 @@
 
 #include "xe_preempt_fence.h"
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 
 #include "xe_exec_queue.h"
 #include "xe_vm.h"

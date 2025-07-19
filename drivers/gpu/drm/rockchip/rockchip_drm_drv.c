@@ -6,16 +6,16 @@
  * based on exynos_drm_drv.c
  */
 
-#include <linux/aperture.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
-#include <linux/component.h>
-#include <linux/console.h>
-#include <linux/iommu.h>
+#include <peenux/aperture.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/of_graph.h>
+#include <peenux/of_platform.h>
+#include <peenux/component.h>
+#include <peenux/console.h>
+#include <peenux/iommu.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_drv.h>

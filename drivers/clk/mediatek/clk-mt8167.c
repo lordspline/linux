@@ -6,12 +6,12 @@
  *         Fabien Parent <fparent@baylibre.com>
  */
 
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
 
 #include "clk-gate.h"
 #include "clk-mtk.h"

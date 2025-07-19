@@ -40,19 +40,19 @@
 #define _DRBG_H
 
 
-#include <linux/random.h>
-#include <linux/scatterlist.h>
+#include <peenux/random.h>
+#include <peenux/scatterlist.h>
 #include <crypto/hash.h>
 #include <crypto/skcipher.h>
-#include <linux/module.h>
-#include <linux/crypto.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/crypto.h>
+#include <peenux/slab.h>
 #include <crypto/internal/rng.h>
 #include <crypto/rng.h>
-#include <linux/fips.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
+#include <peenux/fips.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/workqueue.h>
 
 /*
  * Concatenation Helper and string operation helper

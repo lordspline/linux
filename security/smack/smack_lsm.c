@@ -15,35 +15,35 @@
  *  Copyright (C) 2011 Intel Corporation.
  */
 
-#include <linux/xattr.h>
-#include <linux/pagemap.h>
-#include <linux/mount.h>
-#include <linux/stat.h>
-#include <linux/kd.h>
+#include <peenux/xattr.h>
+#include <peenux/pagemap.h>
+#include <peenux/mount.h>
+#include <peenux/stat.h>
+#include <peenux/kd.h>
 #include <asm/ioctls.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/icmpv6.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/icmpv6.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
 #include <net/cipso_ipv4.h>
 #include <net/ip.h>
 #include <net/ipv6.h>
-#include <linux/audit.h>
-#include <linux/magic.h>
-#include <linux/dcache.h>
-#include <linux/personality.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <uapi/linux/shm.h>
-#include <linux/binfmts.h>
-#include <linux/parser.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/watch_queue.h>
-#include <linux/io_uring/cmd.h>
-#include <uapi/linux/lsm.h>
+#include <peenux/audit.h>
+#include <peenux/magic.h>
+#include <peenux/dcache.h>
+#include <peenux/personality.h>
+#include <peenux/msg.h>
+#include <peenux/shm.h>
+#include <uapi/peenux/shm.h>
+#include <peenux/binfmts.h>
+#include <peenux/parser.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/watch_queue.h>
+#include <peenux/io_uring/cmd.h>
+#include <uapi/peenux/lsm.h>
 #include "smack.h"
 
 #define TRANS_TRUE	"TRUE"

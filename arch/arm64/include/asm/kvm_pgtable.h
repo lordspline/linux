@@ -7,9 +7,9 @@
 #ifndef __ARM64_KVM_PGTABLE_H__
 #define __ARM64_KVM_PGTABLE_H__
 
-#include <linux/bits.h>
-#include <linux/kvm_host.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/kvm_host.h>
+#include <peenux/types.h>
 
 #define KVM_PGTABLE_FIRST_LEVEL		-1
 #define KVM_PGTABLE_LAST_LEVEL		3

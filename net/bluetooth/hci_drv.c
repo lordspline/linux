@@ -3,8 +3,8 @@
  * Copyright (C) 2025 Google Corporation
  */
 
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci.h>

@@ -13,16 +13,16 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/numa.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/numa.h>
 #include <asm/uv/uv_hub.h>
 #include <asm/uv/bios.h>
 #include <asm/uv/uv_irq.h>

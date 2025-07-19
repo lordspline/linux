@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/setup.c
+ *  peenux/arch/arm/kernel/setup.c
  *
  *  Copyright (C) 1995-2001 Russell King
  */
-#include <linux/efi.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/utsname.h>
-#include <linux/initrd.h>
-#include <linux/console.h>
-#include <linux/seq_file.h>
-#include <linux/screen_info.h>
-#include <linux/init.h>
-#include <linux/kexec.h>
-#include <linux/libfdt.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/smp.h>
-#include <linux/proc_fs.h>
-#include <linux/memblock.h>
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/sort.h>
-#include <linux/psci.h>
+#include <peenux/efi.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/stddef.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/utsname.h>
+#include <peenux/initrd.h>
+#include <peenux/console.h>
+#include <peenux/seq_file.h>
+#include <peenux/screen_info.h>
+#include <peenux/init.h>
+#include <peenux/kexec.h>
+#include <peenux/libfdt.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/cpu.h>
+#include <peenux/interrupt.h>
+#include <peenux/smp.h>
+#include <peenux/proc_fs.h>
+#include <peenux/memblock.h>
+#include <peenux/bug.h>
+#include <peenux/compiler.h>
+#include <peenux/sort.h>
+#include <peenux/psci.h>
 
 #include <asm/unified.h>
 #include <asm/cp15.h>
@@ -610,7 +610,7 @@ void __init smp_setup_processor_id(void)
 	 */
 	set_my_cpu_offset(0);
 
-	pr_info("Booting Linux on physical CPU 0x%x\n", mpidr);
+	pr_info("Booting Peenux on physical CPU 0x%x\n", mpidr);
 }
 
 struct mpidr_hash mpidr_hash;

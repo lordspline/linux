@@ -6,7 +6,7 @@
 #define TRACE_SYMBOL(a) {a, #a}
 
 // Generate the list using the following script:
-// sed -n 's/^.*\(MOTIONSENSE_CMD.*\) = .*,$/\tTRACE_SYMBOL(\1), \\/p' include/linux/platform_data/cros_ec_commands.h
+// sed -n 's/^.*\(MOTIONSENSE_CMD.*\) = .*,$/\tTRACE_SYMBOL(\1), \\/p' include/peenux/platform_data/cros_ec_commands.h
 #define MOTIONSENSE_CMDS \
 	TRACE_SYMBOL(MOTIONSENSE_CMD_DUMP), \
 	TRACE_SYMBOL(MOTIONSENSE_CMD_INFO), \

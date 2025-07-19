@@ -3,9 +3,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/tsm_mr.h>

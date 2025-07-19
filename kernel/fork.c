@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/kernel/fork.c
+ *  peenux/kernel/fork.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
@@ -12,102 +12,102 @@
  * management can be a bitch. See 'mm/memory.c': 'copy_page_range()'
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/slab.h>
-#include <linux/sched/autogroup.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/user.h>
-#include <linux/sched/numa_balancing.h>
-#include <linux/sched/stat.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/cputime.h>
-#include <linux/sched/ext.h>
-#include <linux/seq_file.h>
-#include <linux/rtmutex.h>
-#include <linux/init.h>
-#include <linux/unistd.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/completion.h>
-#include <linux/personality.h>
-#include <linux/mempolicy.h>
-#include <linux/sem.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/iocontext.h>
-#include <linux/key.h>
-#include <linux/kmsan.h>
-#include <linux/binfmts.h>
-#include <linux/mman.h>
-#include <linux/mmu_notifier.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/mm_inline.h>
-#include <linux/memblock.h>
-#include <linux/nsproxy.h>
-#include <linux/capability.h>
-#include <linux/cpu.h>
-#include <linux/cgroup.h>
-#include <linux/security.h>
-#include <linux/hugetlb.h>
-#include <linux/seccomp.h>
-#include <linux/swap.h>
-#include <linux/syscalls.h>
-#include <linux/syscall_user_dispatch.h>
-#include <linux/jiffies.h>
-#include <linux/futex.h>
-#include <linux/compat.h>
-#include <linux/kthread.h>
-#include <linux/task_io_accounting_ops.h>
-#include <linux/rcupdate.h>
-#include <linux/ptrace.h>
-#include <linux/mount.h>
-#include <linux/audit.h>
-#include <linux/memcontrol.h>
-#include <linux/ftrace.h>
-#include <linux/proc_fs.h>
-#include <linux/profile.h>
-#include <linux/rmap.h>
-#include <linux/ksm.h>
-#include <linux/acct.h>
-#include <linux/userfaultfd_k.h>
-#include <linux/tsacct_kern.h>
-#include <linux/cn_proc.h>
-#include <linux/freezer.h>
-#include <linux/delayacct.h>
-#include <linux/taskstats_kern.h>
-#include <linux/tty.h>
-#include <linux/fs_struct.h>
-#include <linux/magic.h>
-#include <linux/perf_event.h>
-#include <linux/posix-timers.h>
-#include <linux/user-return-notifier.h>
-#include <linux/oom.h>
-#include <linux/khugepaged.h>
-#include <linux/signalfd.h>
-#include <linux/uprobes.h>
-#include <linux/aio.h>
-#include <linux/compiler.h>
-#include <linux/sysctl.h>
-#include <linux/kcov.h>
-#include <linux/livepatch.h>
-#include <linux/thread_info.h>
-#include <linux/stackleak.h>
-#include <linux/kasan.h>
-#include <linux/scs.h>
-#include <linux/io_uring.h>
-#include <linux/bpf.h>
-#include <linux/stackprotector.h>
-#include <linux/user_events.h>
-#include <linux/iommu.h>
-#include <linux/rseq.h>
-#include <uapi/linux/pidfd.h>
-#include <linux/pidfs.h>
-#include <linux/tick.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/slab.h>
+#include <peenux/sched/autogroup.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/user.h>
+#include <peenux/sched/numa_balancing.h>
+#include <peenux/sched/stat.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/sched/ext.h>
+#include <peenux/seq_file.h>
+#include <peenux/rtmutex.h>
+#include <peenux/init.h>
+#include <peenux/unistd.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
+#include <peenux/completion.h>
+#include <peenux/personality.h>
+#include <peenux/mempolicy.h>
+#include <peenux/sem.h>
+#include <peenux/file.h>
+#include <peenux/fdtable.h>
+#include <peenux/iocontext.h>
+#include <peenux/key.h>
+#include <peenux/kmsan.h>
+#include <peenux/binfmts.h>
+#include <peenux/mman.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/mm_inline.h>
+#include <peenux/memblock.h>
+#include <peenux/nsproxy.h>
+#include <peenux/capability.h>
+#include <peenux/cpu.h>
+#include <peenux/cgroup.h>
+#include <peenux/security.h>
+#include <peenux/hugetlb.h>
+#include <peenux/seccomp.h>
+#include <peenux/swap.h>
+#include <peenux/syscalls.h>
+#include <peenux/syscall_user_dispatch.h>
+#include <peenux/jiffies.h>
+#include <peenux/futex.h>
+#include <peenux/compat.h>
+#include <peenux/kthread.h>
+#include <peenux/task_io_accounting_ops.h>
+#include <peenux/rcupdate.h>
+#include <peenux/ptrace.h>
+#include <peenux/mount.h>
+#include <peenux/audit.h>
+#include <peenux/memcontrol.h>
+#include <peenux/ftrace.h>
+#include <peenux/proc_fs.h>
+#include <peenux/profile.h>
+#include <peenux/rmap.h>
+#include <peenux/ksm.h>
+#include <peenux/acct.h>
+#include <peenux/userfaultfd_k.h>
+#include <peenux/tsacct_kern.h>
+#include <peenux/cn_proc.h>
+#include <peenux/freezer.h>
+#include <peenux/delayacct.h>
+#include <peenux/taskstats_kern.h>
+#include <peenux/tty.h>
+#include <peenux/fs_struct.h>
+#include <peenux/magic.h>
+#include <peenux/perf_event.h>
+#include <peenux/posix-timers.h>
+#include <peenux/user-return-notifier.h>
+#include <peenux/oom.h>
+#include <peenux/khugepaged.h>
+#include <peenux/signalfd.h>
+#include <peenux/uprobes.h>
+#include <peenux/aio.h>
+#include <peenux/compiler.h>
+#include <peenux/sysctl.h>
+#include <peenux/kcov.h>
+#include <peenux/livepatch.h>
+#include <peenux/thread_info.h>
+#include <peenux/stackleak.h>
+#include <peenux/kasan.h>
+#include <peenux/scs.h>
+#include <peenux/io_uring.h>
+#include <peenux/bpf.h>
+#include <peenux/stackprotector.h>
+#include <peenux/user_events.h>
+#include <peenux/iommu.h>
+#include <peenux/rseq.h>
+#include <uapi/peenux/pidfd.h>
+#include <peenux/pidfs.h>
+#include <peenux/tick.h>
 
 #include <asm/pgalloc.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/cacheflush.h>
 #include <asm/tlbflush.h>
@@ -135,7 +135,7 @@
 /*
  * Protected counters by write_lock_irq(&tasklist_lock)
  */
-unsigned long total_forks;	/* Handle normal Linux uptimes. */
+unsigned long total_forks;	/* Handle normal Peenux uptimes. */
 int nr_threads;			/* The idle threads do not count.. */
 
 static int max_threads;		/* tunable limit on nr_threads */
@@ -980,7 +980,7 @@ static int __init coredump_filter_setup(char *s)
 
 __setup("coredump_filter=", coredump_filter_setup);
 
-#include <linux/init_task.h>
+#include <peenux/init_task.h>
 
 static void mm_init_aio(struct mm_struct *mm)
 {

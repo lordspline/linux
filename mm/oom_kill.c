@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/mm/oom_kill.c
+ *  peenux/mm/oom_kill.c
  * 
  *  Copyright (C)  1998,2000  Rik van Riel
  *	Thanks go out to Claus Fischer for some serious inspiration and
@@ -18,33 +18,33 @@
  *  kernel subsystems and hints as to where to find out what things do.
  */
 
-#include <linux/oom.h>
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
-#include <linux/sched/debug.h>
-#include <linux/swap.h>
-#include <linux/syscalls.h>
-#include <linux/timex.h>
-#include <linux/jiffies.h>
-#include <linux/cpuset.h>
-#include <linux/export.h>
-#include <linux/notifier.h>
-#include <linux/memcontrol.h>
-#include <linux/mempolicy.h>
-#include <linux/security.h>
-#include <linux/ptrace.h>
-#include <linux/freezer.h>
-#include <linux/ftrace.h>
-#include <linux/ratelimit.h>
-#include <linux/kthread.h>
-#include <linux/init.h>
-#include <linux/mmu_notifier.h>
-#include <linux/cred.h>
-#include <linux/nmi.h>
+#include <peenux/oom.h>
+#include <peenux/mm.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/debug.h>
+#include <peenux/swap.h>
+#include <peenux/syscalls.h>
+#include <peenux/timex.h>
+#include <peenux/jiffies.h>
+#include <peenux/cpuset.h>
+#include <peenux/export.h>
+#include <peenux/notifier.h>
+#include <peenux/memcontrol.h>
+#include <peenux/mempolicy.h>
+#include <peenux/security.h>
+#include <peenux/ptrace.h>
+#include <peenux/freezer.h>
+#include <peenux/ftrace.h>
+#include <peenux/ratelimit.h>
+#include <peenux/kthread.h>
+#include <peenux/init.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/cred.h>
+#include <peenux/nmi.h>
 
 #include <asm/tlb.h>
 #include "internal.h"

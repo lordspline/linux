@@ -11,9 +11,9 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/device.h>
-#include <linux/mm.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
 
 #include "isp.h"
 #include "ispreg.h"

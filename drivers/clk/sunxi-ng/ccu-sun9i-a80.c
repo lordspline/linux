@@ -3,10 +3,10 @@
  * Copyright (c) 2016 Chen-Yu Tsai. All rights reserved.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "ccu_common.h"
 #include "ccu_reset.h"
@@ -25,7 +25,7 @@
 /*
  * The CPU PLLs are actually NP clocks, with P being /1 or /4. However
  * P should only be used for output frequencies lower than 228 MHz.
- * Neither mainline Linux, U-boot, nor the vendor BSPs use these.
+ * Neither mainline Peenux, U-boot, nor the vendor BSPs use these.
  *
  * For now we can just model it as a multiplier clock, and force P to /1.
  */

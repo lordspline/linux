@@ -8,39 +8,39 @@
   *
   * Based on code from serial.c
   */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/tty.h>
-#include <linux/termios.h>
-#include <linux/fs.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/kref.h>
-#include <linux/firmware.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/signal.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/tty.h>
+#include <peenux/termios.h>
+#include <peenux/fs.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_reg.h>
+#include <peenux/major.h>
+#include <peenux/string.h>
+#include <peenux/fcntl.h>
+#include <peenux/ptrace.h>
+#include <peenux/ioport.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/vmalloc.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/kref.h>
+#include <peenux/firmware.h>
+#include <peenux/bitops.h>
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /*#define ICOM_TRACE		 enable port trace capabilities */
 

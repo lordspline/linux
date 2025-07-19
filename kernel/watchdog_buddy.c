@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/kernel.h>
-#include <linux/nmi.h>
-#include <linux/percpu-defs.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/kernel.h>
+#include <peenux/nmi.h>
+#include <peenux/percpu-defs.h>
 
 static cpumask_t __read_mostly watchdog_cpus;
 

@@ -5,11 +5,11 @@
  * Copyright (C) 1999  David S. Miller (davem@redhat.com)
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
 
 #include <asm/ebus_dma.h>
 #include <asm/io.h>

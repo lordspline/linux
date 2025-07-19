@@ -10,10 +10,10 @@
  * package it's not a general device driver.
  * This driver is for the RC Systems DoubleTalk PC internal synthesizer.
  */
-#include <linux/jiffies.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/kthread.h>
+#include <peenux/jiffies.h>
+#include <peenux/sched.h>
+#include <peenux/timer.h>
+#include <peenux/kthread.h>
 
 #include "spk_priv.h"
 #include "serialio.h"

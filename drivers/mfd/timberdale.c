@@ -8,30 +8,30 @@
  * Timberdale FPGA
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/mfd/core.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/mfd/core.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
-#include <linux/timb_gpio.h>
+#include <peenux/timb_gpio.h>
 
-#include <linux/i2c.h>
-#include <linux/platform_data/i2c-ocores.h>
-#include <linux/platform_data/i2c-xiic.h>
+#include <peenux/i2c.h>
+#include <peenux/platform_data/i2c-ocores.h>
+#include <peenux/platform_data/i2c-xiic.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/xilinx_spi.h>
-#include <linux/spi/max7301.h>
-#include <linux/spi/mc33880.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/xilinx_spi.h>
+#include <peenux/spi/max7301.h>
+#include <peenux/spi/mc33880.h>
 
-#include <linux/platform_data/media/timb_radio.h>
-#include <linux/platform_data/media/timb_video.h>
+#include <peenux/platform_data/media/timb_radio.h>
+#include <peenux/platform_data/media/timb_video.h>
 
-#include <linux/timb_dma.h>
+#include <peenux/timb_dma.h>
 
-#include <linux/ks8842.h>
+#include <peenux/ks8842.h>
 
 #include "timberdale.h"
 

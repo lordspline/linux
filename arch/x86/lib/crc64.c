@@ -5,8 +5,8 @@
  * Copyright 2025 Google LLC
  */
 
-#include <linux/crc64.h>
-#include <linux/module.h>
+#include <peenux/crc64.h>
+#include <peenux/module.h>
 #include "crc-pclmul-template.h"
 
 static __ro_after_init DEFINE_STATIC_KEY_FALSE(have_pclmulqdq);

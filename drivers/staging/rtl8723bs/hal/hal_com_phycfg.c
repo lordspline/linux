@@ -7,7 +7,7 @@
 
 #include <drv_types.h>
 #include <hal_data.h>
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 u8 PHY_GetTxPowerByRateBase(struct adapter *Adapter, u8 RfPath,
 			    enum rate_section RateSection)

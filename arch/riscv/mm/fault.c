@@ -7,15 +7,15 @@
  */
 
 
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/perf_event.h>
-#include <linux/signal.h>
-#include <linux/uaccess.h>
-#include <linux/kprobes.h>
-#include <linux/kfence.h>
-#include <linux/entry-common.h>
+#include <peenux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/perf_event.h>
+#include <peenux/signal.h>
+#include <peenux/uaccess.h>
+#include <peenux/kprobes.h>
+#include <peenux/kfence.h>
+#include <peenux/entry-common.h>
 
 #include <asm/ptrace.h>
 #include <asm/tlbflush.h>

@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mm/fault.c
+ *  peenux/arch/arm/mm/fault.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  *  Modifications for ARM processor (c) 1995-2004 Russell King
  */
-#include <linux/extable.h>
-#include <linux/signal.h>
-#include <linux/mm.h>
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/kprobes.h>
-#include <linux/uaccess.h>
-#include <linux/page-flags.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/highmem.h>
-#include <linux/perf_event.h>
-#include <linux/kfence.h>
+#include <peenux/extable.h>
+#include <peenux/signal.h>
+#include <peenux/mm.h>
+#include <peenux/hardirq.h>
+#include <peenux/init.h>
+#include <peenux/kprobes.h>
+#include <peenux/uaccess.h>
+#include <peenux/page-flags.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/debug.h>
+#include <peenux/highmem.h>
+#include <peenux/perf_event.h>
+#include <peenux/kfence.h>
 
 #include <asm/system_misc.h>
 #include <asm/system_info.h>
@@ -508,7 +508,7 @@ do_translation_fault(unsigned long addr, unsigned int fsr,
 	index = 0;
 #else
 	/*
-	 * On ARM one Linux PGD entry contains two hardware entries (see page
+	 * On ARM one Peenux PGD entry contains two hardware entries (see page
 	 * tables layout in pgtable.h). We normally guarantee that we always
 	 * fill both L1 entries. But create_mapping() doesn't follow the rule.
 	 * It can create inidividual L1 entries, so here we have to call

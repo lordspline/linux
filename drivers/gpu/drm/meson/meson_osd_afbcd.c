@@ -4,7 +4,7 @@
  * Author: Neil Armstrong <narmstrong@baylibre.com>
  */
 
-#include <linux/bitfield.h>
+#include <peenux/bitfield.h>
 
 #include <drm/drm_print.h>
 #include <drm/drm_fourcc.h>

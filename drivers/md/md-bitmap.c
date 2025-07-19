@@ -16,18 +16,18 @@
  * flush after percent set rather than just time based. (maybe both).
  */
 
-#include <linux/blkdev.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/timer.h>
-#include <linux/sched.h>
-#include <linux/list.h>
-#include <linux/file.h>
-#include <linux/mount.h>
-#include <linux/buffer_head.h>
-#include <linux/seq_file.h>
+#include <peenux/blkdev.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/timer.h>
+#include <peenux/sched.h>
+#include <peenux/list.h>
+#include <peenux/file.h>
+#include <peenux/mount.h>
+#include <peenux/buffer_head.h>
+#include <peenux/seq_file.h>
 #include <trace/events/block.h>
 
 #include "md.h"

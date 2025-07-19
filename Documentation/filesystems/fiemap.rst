@@ -14,7 +14,7 @@ Request Basics
 
 A fiemap request is encoded within struct fiemap:
 
-.. kernel-doc:: include/uapi/linux/fiemap.h
+.. kernel-doc:: include/uapi/peenux/fiemap.h
    :identifiers: fiemap
 
 fm_start, and fm_length specify the logical range within the file
@@ -70,7 +70,7 @@ flag set (see the next section on extent flags).
 Each extent is described by a single fiemap_extent structure as
 returned in fm_extents:
 
-.. kernel-doc:: include/uapi/linux/fiemap.h
+.. kernel-doc:: include/uapi/peenux/fiemap.h
     :identifiers: fiemap_extent
 
 All offsets and lengths are in bytes and mirror those on disk.  It is valid
@@ -178,7 +178,7 @@ each discovered extent::
 ->fiemap is passed struct fiemap_extent_info which describes the
 fiemap request:
 
-.. kernel-doc:: include/linux/fiemap.h
+.. kernel-doc:: include/peenux/fiemap.h
     :identifiers: fiemap_extent_info
 
 It is intended that the file system should not need to access any of this

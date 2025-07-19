@@ -9,23 +9,23 @@
  *             Pavel Emelianov <xemul@openvz.org>
  */
 
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/nsproxy.h>
-#include <linux/init_task.h>
-#include <linux/mnt_namespace.h>
-#include <linux/utsname.h>
-#include <linux/pid_namespace.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/nsproxy.h>
+#include <peenux/init_task.h>
+#include <peenux/mnt_namespace.h>
+#include <peenux/utsname.h>
+#include <peenux/pid_namespace.h>
 #include <net/net_namespace.h>
-#include <linux/ipc_namespace.h>
-#include <linux/time_namespace.h>
-#include <linux/fs_struct.h>
-#include <linux/proc_fs.h>
-#include <linux/proc_ns.h>
-#include <linux/file.h>
-#include <linux/syscalls.h>
-#include <linux/cgroup.h>
-#include <linux/perf_event.h>
+#include <peenux/ipc_namespace.h>
+#include <peenux/time_namespace.h>
+#include <peenux/fs_struct.h>
+#include <peenux/proc_fs.h>
+#include <peenux/proc_ns.h>
+#include <peenux/file.h>
+#include <peenux/syscalls.h>
+#include <peenux/cgroup.h>
+#include <peenux/perf_event.h>
 
 static struct kmem_cache *nsproxy_cachep;
 

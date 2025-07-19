@@ -4,8 +4,8 @@
  * All rights reserved.
  */
 
-#include <linux/if_ether.h>
-#include <linux/ip.h>
+#include <peenux/if_ether.h>
+#include <peenux/ip.h>
 #include <net/dsfield.h>
 #include "cfg80211.h"
 #include "wlan_cfg.h"

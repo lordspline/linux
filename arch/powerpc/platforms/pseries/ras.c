@@ -3,13 +3,13 @@
  * Copyright (C) 2001 Dave Engebretsen IBM Corporation
  */
 
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/fs.h>
-#include <linux/reboot.h>
-#include <linux/irq_work.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/fs.h>
+#include <peenux/reboot.h>
+#include <peenux/irq_work.h>
 
 #include <asm/machdep.h>
 #include <asm/rtas.h>

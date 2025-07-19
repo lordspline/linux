@@ -2,7 +2,7 @@
 #ifndef _LINUX_PKEYS_H
 #define _LINUX_PKEYS_H
 
-#include <linux/mm.h>
+#include <peenux/mm.h>
 
 #define ARCH_DEFAULT_PKEY	0
 

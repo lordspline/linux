@@ -29,19 +29,19 @@
 
 			usart1: serial@fffb4000 {
 				status = "okay";
-				linux,rs485-enabled-at-boot-time;
+				peenux,rs485-enabled-at-boot-time;
 				rs485-rts-delay = <0 0>;
 				};
 
 			usart2: serial@fffb8000 {
 				status = "okay";
-				linux,rs485-enabled-at-boot-time;
+				peenux,rs485-enabled-at-boot-time;
 				rs485-rts-delay = <0 0>;
 			};
 
 			usart3: serial@fffd0000 {
 				status = "okay";
-				linux,rs485-enabled-at-boot-time;
+				peenux,rs485-enabled-at-boot-time;
 				rs485-rts-delay = <0 0>;
 			};
 
@@ -101,26 +101,26 @@
 		led-red {
 			label = "red";
 			gpios = <&pioC 10 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "none";
+			peenux,default-trigger = "none";
 		};
 
 		led-green {
 			label = "green";
 			gpios = <&pioA 5 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "none";
+			peenux,default-trigger = "none";
 			default-state = "on";
 		};
 
 		led-yellow {
 			label = "yellow";
 			gpios = <&pioB 20 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "none";
+			peenux,default-trigger = "none";
 		};
 
 		led-blue {
 			label = "blue";
 			gpios = <&pioB 21 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "none";
+			peenux,default-trigger = "none";
 		};
 	};
 };

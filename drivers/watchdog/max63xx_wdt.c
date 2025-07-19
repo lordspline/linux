@@ -11,19 +11,19 @@
  * another interface, some abstraction will have to be introduced.
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mod_devicetable.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/watchdog.h>
-#include <linux/bitops.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/property.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/watchdog.h>
+#include <peenux/bitops.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/property.h>
 
 #define DEFAULT_HEARTBEAT 60
 #define MAX_HEARTBEAT     60

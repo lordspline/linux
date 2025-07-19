@@ -5,12 +5,12 @@
  *
  */
 
-#include <linux/interrupt.h>
-#include <linux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
 #include <net/page_pool/helpers.h>
 #include <net/tso.h>
-#include <linux/bitfield.h>
-#include <linux/dcbnl.h>
+#include <peenux/bitfield.h>
+#include <peenux/dcbnl.h>
 #include <net/xfrm.h>
 
 #include "otx2_reg.h"

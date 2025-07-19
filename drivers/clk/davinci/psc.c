@@ -13,20 +13,20 @@
  * Copyright (C) 2006 Texas Instruments.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/clk/davinci.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_domain.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk.h>
+#include <peenux/clk/davinci.h>
+#include <peenux/clkdev.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_domain.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "psc.h"
 

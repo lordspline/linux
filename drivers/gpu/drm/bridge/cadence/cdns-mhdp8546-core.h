@@ -11,9 +11,9 @@
 #ifndef CDNS_MHDP8546_CORE_H
 #define CDNS_MHDP8546_CORE_H
 
-#include <linux/bits.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
+#include <peenux/bits.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/drm_bridge.h>

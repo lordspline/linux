@@ -6,16 +6,16 @@
 
 #define pr_fmt(fmt)	"vas-api: " fmt
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/kthread.h>
-#include <linux/sched/signal.h>
-#include <linux/mmu_context.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/cdev.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/kthread.h>
+#include <peenux/sched/signal.h>
+#include <peenux/mmu_context.h>
+#include <peenux/io.h>
 #include <asm/vas.h>
 #include <uapi/asm/vas-api.h>
 

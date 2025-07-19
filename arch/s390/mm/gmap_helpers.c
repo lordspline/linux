@@ -4,14 +4,14 @@
  *
  *    Copyright IBM Corp. 2007, 2025
  */
-#include <linux/mm_types.h>
-#include <linux/mmap_lock.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/pagewalk.h>
-#include <linux/ksm.h>
+#include <peenux/mm_types.h>
+#include <peenux/mmap_lock.h>
+#include <peenux/mm.h>
+#include <peenux/hugetlb.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/pagewalk.h>
+#include <peenux/ksm.h>
 #include <asm/gmap_helpers.h>
 
 /**

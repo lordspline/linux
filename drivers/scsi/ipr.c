@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * ipr.c -- driver for IBM Power Linux RAID adapters
+ * ipr.c -- driver for IBM Power Peenux RAID adapters
  *
  * Written By: Brian King <brking@us.ibm.com>, IBM Corporation
  *
@@ -40,27 +40,27 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/wait.h>
-#include <linux/spinlock.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/blkdev.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/hdreg.h>
-#include <linux/reboot.h>
-#include <linux/stringify.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/wait.h>
+#include <peenux/spinlock.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/blkdev.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/hdreg.h>
+#include <peenux/reboot.h>
+#include <peenux/stringify.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/processor.h>

@@ -2,7 +2,7 @@
 /* Copyright(c) 2023  Realtek Corporation
  */
 
-#include <linux/pci.h>
+#include <peenux/pci.h>
 
 #include "mac.h"
 #include "pci.h"

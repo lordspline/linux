@@ -5,14 +5,14 @@
  * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
 
 #include <asm/cacheflush.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "kernel.h"
 

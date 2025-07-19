@@ -2,8 +2,8 @@
 #ifndef __ARM64_KVM_NESTED_H
 #define __ARM64_KVM_NESTED_H
 
-#include <linux/bitfield.h>
-#include <linux/kvm_host.h>
+#include <peenux/bitfield.h>
+#include <peenux/kvm_host.h>
 #include <asm/kvm_emulate.h>
 #include <asm/kvm_pgtable.h>
 

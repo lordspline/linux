@@ -6,11 +6,11 @@
  *   Copyright (C) 2007, 2014-2016 Joshua Kinard <kumba@gentoo.org>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/sgi-w1.h>
-#include <linux/platform_data/xtalk-bridge.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/sgi-w1.h>
+#include <peenux/platform_data/xtalk-bridge.h>
 
 #include <asm/xtalk/xwidget.h>
 #include <asm/pci/bridge.h>

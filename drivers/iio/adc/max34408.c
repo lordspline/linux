@@ -7,17 +7,17 @@
  * TODO: ALERT interrupt, Overcurrent delay, Shutdown delay
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/types.h>
 
 #define MAX34408_STATUS_REG		0x0
 #define MAX34408_CONTROL_REG		0x1

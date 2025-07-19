@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/cpumask.h>
+#include <peenux/cpumask.h>
 
 void rust_helper_cpumask_set_cpu(unsigned int cpu, struct cpumask *dstp)
 {

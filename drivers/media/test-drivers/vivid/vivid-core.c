@@ -6,18 +6,18 @@
  * Copyright 2014 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/font.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/videodev2.h>
-#include <linux/v4l2-dv-timings.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/font.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/videodev2.h>
+#include <peenux/v4l2-dv-timings.h>
 #include <media/videobuf2-vmalloc.h>
 #include <media/videobuf2-dma-contig.h>
 #include <media/v4l2-dv-timings.h>

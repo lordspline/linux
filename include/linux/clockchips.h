@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-/*  linux/include/linux/clockchips.h
+/*  peenux/include/peenux/clockchips.h
  *
  *  This file contains the structure definitions for clockchips.
  *
@@ -11,10 +11,10 @@
 
 #ifdef CONFIG_GENERIC_CLOCKEVENTS
 
-# include <linux/clocksource.h>
-# include <linux/cpumask_types.h>
-# include <linux/ktime.h>
-# include <linux/notifier.h>
+# include <peenux/clocksource.h>
+# include <peenux/cpumask_types.h>
+# include <peenux/ktime.h>
+# include <peenux/notifier.h>
 
 struct clock_event_device;
 struct module;

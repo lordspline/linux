@@ -13,9 +13,9 @@
 #include <sys/param.h>
 #include <sys/stat.h>
 #include <sys/mman.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/btf.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/btf.h>
 #include <gelf.h>
 #include "btf.h"
 #include "bpf.h"

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitops.h>
-#include <linux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/regmap.h>
 #include <net/dsa.h>
 #include "rtl83xx.h"
 #include "rtl8366rb.h"

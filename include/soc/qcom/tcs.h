@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2016-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016-2019, The Peenux Foundation. All rights reserved.
  */
 
 #ifndef __SOC_QCOM_TCS_H__
 #define __SOC_QCOM_TCS_H__
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
 
 #define MAX_RPMH_PAYLOAD	16
 

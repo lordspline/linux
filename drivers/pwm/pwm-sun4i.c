@@ -9,20 +9,20 @@
  *   and the currently running period is not guaranteed to be completed
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/time.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/time.h>
 
 #define PWM_CTRL_REG		0x0
 

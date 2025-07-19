@@ -4,22 +4,22 @@
  *
  * Copyright (c) 2016 Andreas Klinger <ak@it-klinger.de>
  */
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
 
 /* gain to pulse and scale conversion */
 #define HX711_GAIN_MAX		3

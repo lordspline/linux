@@ -7,13 +7,13 @@
  * Author: Chunfeng Yun <chunfeng.yun@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/regmap.h>
 
 #include "mtu3.h"
 #include "mtu3_dr.h"

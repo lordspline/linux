@@ -7,20 +7,20 @@
  * Author: Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/framer/pef2256.h>
-#include <linux/clk.h>
-#include <linux/framer/framer-provider.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/framer/pef2256.h>
+#include <peenux/clk.h>
+#include <peenux/framer/framer-provider.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include "pef2256-regs.h"
 
 enum pef2256_frame_type {

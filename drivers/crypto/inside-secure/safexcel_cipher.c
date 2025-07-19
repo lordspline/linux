@@ -5,10 +5,10 @@
  * Antoine Tenart <antoine.tenart@free-electrons.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
+#include <peenux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
 #include <crypto/aead.h>
 #include <crypto/aes.h>
 #include <crypto/authenc.h>

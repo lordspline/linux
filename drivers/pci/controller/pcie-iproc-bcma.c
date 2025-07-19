@@ -4,13 +4,13 @@
  * Copyright (C) 2015 Hauke Mehrtens <hauke@hauke-m.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/phy/phy.h>
-#include <linux/bcma/bcma.h>
-#include <linux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/phy/phy.h>
+#include <peenux/bcma/bcma.h>
+#include <peenux/ioport.h>
 
 #include "pcie-iproc.h"
 

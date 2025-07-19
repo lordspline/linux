@@ -7,17 +7,17 @@
  * Author: Alim Akhtar <alim.akhtar@samsung.com>
  *
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include "phy-samsung-ufs.h"
 

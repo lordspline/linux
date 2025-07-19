@@ -4,30 +4,30 @@
  *
  * (C) 2012 Christoph Lameter <cl@gentwo.org>
  */
-#include <linux/slab.h>
+#include <peenux/slab.h>
 
-#include <linux/mm.h>
-#include <linux/poison.h>
-#include <linux/interrupt.h>
-#include <linux/memory.h>
-#include <linux/cache.h>
-#include <linux/compiler.h>
-#include <linux/kfence.h>
-#include <linux/module.h>
-#include <linux/cpu.h>
-#include <linux/uaccess.h>
-#include <linux/seq_file.h>
-#include <linux/dma-mapping.h>
-#include <linux/swiotlb.h>
-#include <linux/proc_fs.h>
-#include <linux/debugfs.h>
-#include <linux/kmemleak.h>
-#include <linux/kasan.h>
+#include <peenux/mm.h>
+#include <peenux/poison.h>
+#include <peenux/interrupt.h>
+#include <peenux/memory.h>
+#include <peenux/cache.h>
+#include <peenux/compiler.h>
+#include <peenux/kfence.h>
+#include <peenux/module.h>
+#include <peenux/cpu.h>
+#include <peenux/uaccess.h>
+#include <peenux/seq_file.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/swiotlb.h>
+#include <peenux/proc_fs.h>
+#include <peenux/debugfs.h>
+#include <peenux/kmemleak.h>
+#include <peenux/kasan.h>
 #include <asm/cacheflush.h>
 #include <asm/tlbflush.h>
 #include <asm/page.h>
-#include <linux/memcontrol.h>
-#include <linux/stackdepot.h>
+#include <peenux/memcontrol.h>
+#include <peenux/stackdepot.h>
 #include <trace/events/rcu.h>
 
 #include "../kernel/rcu/rcu.h"
@@ -1253,7 +1253,7 @@ size_t ksize(const void *objp)
 EXPORT_SYMBOL(ksize);
 
 #ifdef CONFIG_BPF_SYSCALL
-#include <linux/btf.h>
+#include <peenux/btf.h>
 
 __bpf_kfunc_start_defs();
 

@@ -10,8 +10,8 @@
 #include <arpa/inet.h>
 #include <errno.h>
 #include <fcntl.h>
-#include <linux/landlock.h>
-#include <linux/in.h>
+#include <peenux/landlock.h>
+#include <peenux/in.h>
 #include <sched.h>
 #include <stdint.h>
 #include <string.h>

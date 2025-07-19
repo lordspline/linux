@@ -11,7 +11,7 @@
 #define S3C64XX_AC97_GPD  0
 #define S3C64XX_AC97_GPE  1
 
-#include <linux/dmaengine.h>
+#include <peenux/dmaengine.h>
 
 struct samsung_i2s_type {
 /* If the Primary DAI has 5.1 Channels */

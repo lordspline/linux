@@ -4,9 +4,9 @@
 
 #ifdef CONFIG_CGROUP_BPF
 
-#include <linux/list.h>
-#include <linux/percpu-refcount.h>
-#include <linux/workqueue.h>
+#include <peenux/list.h>
+#include <peenux/percpu-refcount.h>
+#include <peenux/workqueue.h>
 
 struct bpf_prog_array;
 

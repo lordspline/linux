@@ -20,9 +20,9 @@
 #include <sys/syscall.h>
 #include <dirent.h>
 
-#include <linux/err.h>
-#include <linux/perf_event.h>
-#include <linux/sizes.h>
+#include <peenux/err.h>
+#include <peenux/perf_event.h>
+#include <peenux/sizes.h>
 
 #include <bpf/bpf.h>
 #include <bpf/btf.h>

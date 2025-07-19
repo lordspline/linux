@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/init.h>
-#include <linux/log2.h>
+#include <peenux/init.h>
+#include <peenux/log2.h>
 #include <kunit/test.h>
 
 #include <asm/guest-state-buffer.h>

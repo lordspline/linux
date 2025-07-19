@@ -13,8 +13,8 @@
 #include "led.h"
 #include "table.h"
 
-#include <linux/vmalloc.h>
-#include <linux/module.h>
+#include <peenux/vmalloc.h>
+#include <peenux/module.h>
 
 static void rtl88e_init_aspm_vars(struct ieee80211_hw *hw)
 {

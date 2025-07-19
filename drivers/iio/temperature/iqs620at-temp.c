@@ -5,13 +5,13 @@
  * Copyright (C) 2019 Jeff LaBundy <jeff@labundy.com>
  */
 
-#include <linux/device.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/mfd/iqs62x.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/iio/iio.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/iqs62x.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define IQS620_TEMP_UI_OUT			0x1A
 

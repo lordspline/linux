@@ -6,7 +6,7 @@
 #ifndef VDO_BLOCK_MAP_H
 #define VDO_BLOCK_MAP_H
 
-#include <linux/list.h>
+#include <peenux/list.h>
 
 #include "numeric.h"
 

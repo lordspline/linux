@@ -8,19 +8,19 @@
 #define pr_fmt(fmt) "hw perfevents: " fmt
 #define dev_fmt pr_fmt
 
-#include <linux/bug.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/irq.h>
-#include <linux/irqdesc.h>
-#include <linux/kconfig.h>
-#include <linux/of.h>
-#include <linux/percpu.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/smp.h>
+#include <peenux/bug.h>
+#include <peenux/cpumask.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/irq.h>
+#include <peenux/irqdesc.h>
+#include <peenux/kconfig.h>
+#include <peenux/of.h>
+#include <peenux/percpu.h>
+#include <peenux/perf/arm_pmu.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
+#include <peenux/smp.h>
 
 static int probe_current_pmu(struct arm_pmu *pmu,
 			     const struct pmu_probe_info *info)

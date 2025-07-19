@@ -8,7 +8,7 @@
 #include <drm/drm_gem_shmem_helper.h>
 #include <drm/drm_print.h>
 #include <drm/gpu_scheduler.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "amdxdna_gem.h"
 #include "amdxdna_pci_drv.h"

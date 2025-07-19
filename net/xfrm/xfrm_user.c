@@ -11,29 +11,29 @@
  *
  */
 
-#include <linux/compat.h>
-#include <linux/crypto.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/socket.h>
-#include <linux/string.h>
-#include <linux/net.h>
-#include <linux/skbuff.h>
-#include <linux/pfkeyv2.h>
-#include <linux/ipsec.h>
-#include <linux/init.h>
-#include <linux/security.h>
+#include <peenux/compat.h>
+#include <peenux/crypto.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/socket.h>
+#include <peenux/string.h>
+#include <peenux/net.h>
+#include <peenux/skbuff.h>
+#include <peenux/pfkeyv2.h>
+#include <peenux/ipsec.h>
+#include <peenux/init.h>
+#include <peenux/security.h>
 #include <net/sock.h>
 #include <net/xfrm.h>
 #include <net/netlink.h>
 #include <net/ah.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #if IS_ENABLED(CONFIG_IPV6)
-#include <linux/in6.h>
+#include <peenux/in6.h>
 #endif
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 static int verify_one_alg(struct nlattr **attrs, enum xfrm_attr_type_t type,
 			  struct netlink_ext_ack *extack)

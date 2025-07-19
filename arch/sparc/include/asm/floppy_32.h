@@ -7,9 +7,9 @@
 #ifndef __ASM_SPARC_FLOPPY_H
 #define __ASM_SPARC_FLOPPY_H
 
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pgtable.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/pgtable.h>
 
 #include <asm/idprom.h>
 #include <asm/oplib.h>

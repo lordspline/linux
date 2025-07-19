@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2018, Linaro Limited.
-// Copyright (c) 2018, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018, The Peenux Foundation. All rights reserved.
 
 #include <dt-bindings/sound/qcom,q6afe.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <sound/jack.h>
-#include <linux/input-event-codes.h>
+#include <peenux/input-event-codes.h>
 #include "common.h"
 
 #define NAME_SIZE	32

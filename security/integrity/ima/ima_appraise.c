@@ -5,18 +5,18 @@
  * Author:
  * Mimi Zohar <zohar@us.ibm.com>
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/file.h>
-#include <linux/binfmts.h>
-#include <linux/fs.h>
-#include <linux/xattr.h>
-#include <linux/magic.h>
-#include <linux/ima.h>
-#include <linux/evm.h>
-#include <linux/fsverity.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/file.h>
+#include <peenux/binfmts.h>
+#include <peenux/fs.h>
+#include <peenux/xattr.h>
+#include <peenux/magic.h>
+#include <peenux/ima.h>
+#include <peenux/evm.h>
+#include <peenux/fsverity.h>
 #include <keys/system_keyring.h>
-#include <uapi/linux/fsverity.h>
+#include <uapi/peenux/fsverity.h>
 
 #include "ima.h"
 

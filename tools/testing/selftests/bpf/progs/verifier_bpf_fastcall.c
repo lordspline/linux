@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bpf.h>
+#include <peenux/bpf.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_core_read.h>
-#include "../../../include/linux/filter.h"
+#include "../../../include/peenux/filter.h"
 #include "bpf_misc.h"
 #include <stdbool.h>
 #include "bpf_kfuncs.h"

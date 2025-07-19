@@ -5,19 +5,19 @@
  * Copyright (c) 2008 Philipp Zabel <philipp.zabel@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/usb.h>
+#include <peenux/workqueue.h>
 
-#include <linux/regulator/consumer.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/otg.h>
 
 
 /*

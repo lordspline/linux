@@ -8,19 +8,19 @@
 
 #include <dt-bindings/phy/phy.h>
 #include <dt-bindings/phy/phy-cadence.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/regmap.h>
 
 #define REF_CLK_19_2MHZ		19200000
 #define REF_CLK_25MHZ		25000000

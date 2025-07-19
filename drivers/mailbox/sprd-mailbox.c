@@ -5,15 +5,15 @@
  * Copyright (c) 2020 Spreadtrum Communications Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
 
 #define SPRD_MBOX_ID		0x0
 #define SPRD_MBOX_MSG_LOW	0x4

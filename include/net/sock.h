@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -35,40 +35,40 @@
 #ifndef _SOCK_H
 #define _SOCK_H
 
-#include <linux/hardirq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/list_nulls.h>
-#include <linux/timer.h>
-#include <linux/cache.h>
-#include <linux/bitops.h>
-#include <linux/lockdep.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>	/* struct sk_buff */
-#include <linux/mm.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/page_counter.h>
-#include <linux/memcontrol.h>
-#include <linux/static_key.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/cgroup-defs.h>
-#include <linux/rbtree.h>
-#include <linux/rculist_nulls.h>
-#include <linux/poll.h>
-#include <linux/sockptr.h>
-#include <linux/indirect_call_wrapper.h>
-#include <linux/atomic.h>
-#include <linux/refcount.h>
-#include <linux/llist.h>
+#include <peenux/hardirq.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/list_nulls.h>
+#include <peenux/timer.h>
+#include <peenux/cache.h>
+#include <peenux/bitops.h>
+#include <peenux/lockdep.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>	/* struct sk_buff */
+#include <peenux/mm.h>
+#include <peenux/security.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/page_counter.h>
+#include <peenux/memcontrol.h>
+#include <peenux/static_key.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/cgroup-defs.h>
+#include <peenux/rbtree.h>
+#include <peenux/rculist_nulls.h>
+#include <peenux/poll.h>
+#include <peenux/sockptr.h>
+#include <peenux/indirect_call_wrapper.h>
+#include <peenux/atomic.h>
+#include <peenux/refcount.h>
+#include <peenux/llist.h>
 #include <net/dst.h>
 #include <net/checksum.h>
 #include <net/tcp_states.h>
-#include <linux/net_tstamp.h>
+#include <peenux/net_tstamp.h>
 #include <net/l3mdev.h>
-#include <uapi/linux/socket.h>
+#include <uapi/peenux/socket.h>
 
 /*
  * This structure really needs to be cleaned up.

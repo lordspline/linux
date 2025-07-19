@@ -12,25 +12,25 @@
  * Now that /dev/vcs exists, most of this can disappear again.
  */
 
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/module.h>
+#include <peenux/tty.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
-#include <linux/kbd_kern.h>
-#include <linux/vt_kern.h>
-#include <linux/consolemap.h>
-#include <linux/selection.h>
-#include <linux/tiocl.h>
-#include <linux/console.h>
-#include <linux/tty_flip.h>
+#include <peenux/kbd_kern.h>
+#include <peenux/vt_kern.h>
+#include <peenux/consolemap.h>
+#include <peenux/selection.h>
+#include <peenux/tiocl.h>
+#include <peenux/console.h>
+#include <peenux/tty_flip.h>
 
-#include <linux/sched/signal.h>
+#include <peenux/sched/signal.h>
 
 /* Don't take this from <ctype.h>: 011-015 on the screen aren't spaces */
 #define is_space_on_vt(c)	((c) == ' ')

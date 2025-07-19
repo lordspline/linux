@@ -24,14 +24,14 @@
  *
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
-#include <linux/unaligned.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
+#include <peenux/unaligned.h>
 
 #include <drm/drm_crtc.h>
 #include <drm/drm_edid.h>

@@ -5,23 +5,23 @@
  * Copyright (c) 2020-2023 Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  * Copyright (c) 2012 Analog Devices Inc.
  *
- * Almost complete rewrite of work by Scott Jiang <Scott.Jiang.Linux@gmail.com>
+ * Almost complete rewrite of work by Scott Jiang <Scott.Jiang.Peenux@gmail.com>
  * itself based on work from Andrew Chew <achew@nvidia.com>.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-cci.h>

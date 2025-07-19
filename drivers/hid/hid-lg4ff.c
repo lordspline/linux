@@ -12,9 +12,9 @@
  */
 
 
-#include <linux/input.h>
-#include <linux/usb.h>
-#include <linux/hid.h>
+#include <peenux/input.h>
+#include <peenux/usb.h>
+#include <peenux/hid.h>
 
 #include "usbhid/usbhid.h"
 #include "hid-lg.h"

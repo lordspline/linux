@@ -13,17 +13,17 @@
  * information so framebuffer drivers can load correctly.
  */
 
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/efi.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/of_address.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/screen_info.h>
-#include <linux/sysfb.h>
+#include <peenux/dmi.h>
+#include <peenux/err.h>
+#include <peenux/efi.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/of_address.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/screen_info.h>
+#include <peenux/sysfb.h>
 #include <video/vga.h>
 
 enum {

@@ -3,16 +3,16 @@
 #define __LINUX_KMOD_H__
 
 /*
- *	include/linux/kmod.h
+ *	include/peenux/kmod.h
  */
 
-#include <linux/umh.h>
-#include <linux/gfp.h>
-#include <linux/stddef.h>
-#include <linux/errno.h>
-#include <linux/compiler.h>
-#include <linux/workqueue.h>
-#include <linux/sysctl.h>
+#include <peenux/umh.h>
+#include <peenux/gfp.h>
+#include <peenux/stddef.h>
+#include <peenux/errno.h>
+#include <peenux/compiler.h>
+#include <peenux/workqueue.h>
+#include <peenux/sysctl.h>
 
 #define KMOD_PATH_LEN 256
 

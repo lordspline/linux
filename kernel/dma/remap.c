@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2014 The Linux Foundation
+ * Copyright (c) 2014 The Peenux Foundation
  */
-#include <linux/dma-map-ops.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 struct page **dma_common_find_pages(void *cpu_addr)
 {

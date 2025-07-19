@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Author: Dan Scally <djrscally@gmail.com> */
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/platform_data/x86/int3472.h>
-#include <linux/platform_device.h>
-#include <linux/string_choices.h>
-#include <linux/uuid.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/platform_data/x86/int3472.h>
+#include <peenux/platform_device.h>
+#include <peenux/string_choices.h>
+#include <peenux/uuid.h>
 
 /*
  * 79234640-9e10-4fea-a5c1-b5aa8b19756f

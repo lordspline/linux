@@ -30,11 +30,11 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/sched/clock.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/clock.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
 #include <rdma/rdma_cm.h>
 
 #include "rds_single_path.h"

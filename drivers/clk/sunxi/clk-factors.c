@@ -5,13 +5,13 @@
  * Adjustable factor-based clock implementation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include "clk-factors.h"
 

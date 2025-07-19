@@ -7,20 +7,20 @@
  * Author: Jisheng Zhang <jszhang@kernel.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
+#include <peenux/acpi.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/sizes.h>
 
 #include "sdhci-pltfm.h"
 #include "cqhci.h"

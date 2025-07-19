@@ -8,9 +8,9 @@
  * Paul Walmsley, Jouni Högander
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/bug.h>
 
 #include "soc.h"
 #include "powerdomain.h"

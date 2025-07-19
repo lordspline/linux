@@ -12,12 +12,12 @@
  * size and improve performance, 2015.
  */
 
-#include <linux/bitops.h>
-#include <linux/bitmap.h>
-#include <linux/export.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/swab.h>
+#include <peenux/bitops.h>
+#include <peenux/bitmap.h>
+#include <peenux/export.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/swab.h>
 
 /*
  * Common helper for find_bit() function family

@@ -6,14 +6,14 @@
  * Copyright 2007-2009 HV Sistemas S.L.
  */
 
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 struct opencores_kbd {
 	struct input_dev *input;

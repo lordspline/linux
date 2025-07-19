@@ -6,14 +6,14 @@
  *
  * Copyright (C) 2004 Red Hat, Inc., James Morris <jmorris@redhat.com>
  */
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/skbuff.h>
-#include <linux/selinux_netlink.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/skbuff.h>
+#include <peenux/selinux_netlink.h>
 #include <net/net_namespace.h>
 #include <net/netlink.h>
 

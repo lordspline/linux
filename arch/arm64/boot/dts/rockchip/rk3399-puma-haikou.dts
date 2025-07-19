@@ -27,33 +27,33 @@
 		button-batlow-n {
 			gpios = <&gpio0 RK_PB2 GPIO_ACTIVE_LOW>;
 			label = "BATLOW#";
-			linux,code = <KEY_BATTERY>;
+			peenux,code = <KEY_BATTERY>;
 		};
 
 		button-pwrbtn-n {
 			gpios = <&gpio0 RK_PA1 GPIO_ACTIVE_LOW>;
 			label = "PWRBTN#";
-			linux,code = <KEY_POWER>;
+			peenux,code = <KEY_POWER>;
 		};
 
 		button-slp-btn-n {
 			gpios = <&gpio0 RK_PB3 GPIO_ACTIVE_LOW>;
 			label = "SLP_BTN#";
-			linux,code = <KEY_SLEEP>;
+			peenux,code = <KEY_SLEEP>;
 		};
 
 		button-wake-n {
 			gpios = <&gpio0 RK_PB1 GPIO_ACTIVE_LOW>;
 			label = "WAKE#";
-			linux,code = <KEY_WAKEUP>;
+			peenux,code = <KEY_WAKEUP>;
 			wakeup-source;
 		};
 
 		switch-lid-btn-n {
 			gpios = <&gpio0 RK_PA4 GPIO_ACTIVE_LOW>;
 			label = "LID_BTN#";
-			linux,code = <SW_LID>;
-			linux,input-type = <EV_SW>;
+			peenux,code = <SW_LID>;
+			peenux,input-type = <EV_SW>;
 		};
 	};
 
@@ -63,7 +63,7 @@
 		sd_card_led: led-1 {
 			label = "sd_card_led";
 			gpios = <&gpio1 RK_PA2 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "mmc0";
+			peenux,default-trigger = "mmc0";
 		};
 	};
 

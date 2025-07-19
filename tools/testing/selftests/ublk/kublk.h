@@ -21,13 +21,13 @@
 #include <sys/eventfd.h>
 #include <sys/ipc.h>
 #include <sys/shm.h>
-#include <linux/io_uring.h>
+#include <peenux/io_uring.h>
 #include <liburing.h>
 #include <semaphore.h>
 
 /* allow ublk_dep.h to override ublk_cmd.h */
 #include "ublk_dep.h"
-#include <linux/ublk_cmd.h>
+#include <peenux/ublk_cmd.h>
 
 #define __maybe_unused __attribute__((unused))
 #define MAX_BACK_FILES   4

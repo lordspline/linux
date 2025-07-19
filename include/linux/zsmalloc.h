@@ -14,7 +14,7 @@
 #ifndef _ZS_MALLOC_H_
 #define _ZS_MALLOC_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct zs_pool_stats {
 	/* How many pages were migrated (freed) */

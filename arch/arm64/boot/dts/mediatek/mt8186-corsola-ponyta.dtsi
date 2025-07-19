@@ -22,7 +22,7 @@
 		MATRIX_KEY(0x01, 0x05, 0)	/* T12 */
 	>;
 
-	linux,keymap = <
+	peenux,keymap = <
 		CROS_STD_MAIN_KEYMAP
 		MATRIX_KEY(0x00, 0x02, KEY_BACK)
 		MATRIX_KEY(0x03, 0x02, KEY_REFRESH)

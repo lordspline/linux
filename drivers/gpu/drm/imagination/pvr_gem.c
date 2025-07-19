@@ -8,20 +8,20 @@
 #include <drm/drm_gem.h>
 #include <drm/drm_prime.h>
 
-#include <linux/compiler.h>
-#include <linux/compiler_attributes.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/iosys-map.h>
-#include <linux/log2.h>
-#include <linux/mutex.h>
-#include <linux/pagemap.h>
-#include <linux/property.h>
-#include <linux/refcount.h>
-#include <linux/scatterlist.h>
+#include <peenux/compiler.h>
+#include <peenux/compiler_attributes.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/iosys-map.h>
+#include <peenux/log2.h>
+#include <peenux/mutex.h>
+#include <peenux/pagemap.h>
+#include <peenux/property.h>
+#include <peenux/refcount.h>
+#include <peenux/scatterlist.h>
 
 static void pvr_gem_object_free(struct drm_gem_object *obj)
 {

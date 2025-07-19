@@ -1,8 +1,8 @@
 #ifndef _LINUX_CALL_ONCE_H
 #define _LINUX_CALL_ONCE_H
 
-#include <linux/types.h>
-#include <linux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
 
 #define ONCE_NOT_STARTED 0
 #define ONCE_RUNNING     1

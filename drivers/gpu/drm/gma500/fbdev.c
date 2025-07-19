@@ -5,8 +5,8 @@
  *
  **************************************************************************/
 
-#include <linux/fb.h>
-#include <linux/pfn_t.h>
+#include <peenux/fb.h>
+#include <peenux/pfn_t.h>
 
 #include <drm/drm_crtc_helper.h>
 #include <drm/drm_drv.h>

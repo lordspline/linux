@@ -4,14 +4,14 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
 
 #define SPRD_RTC_SEC_CNT_VALUE		0x0
 #define SPRD_RTC_MIN_CNT_VALUE		0x4

@@ -22,51 +22,51 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/stringify.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/in.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/ethtool.h>
-#include <linux/mdio.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/brcmphy.h>
-#include <linux/if.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/workqueue.h>
-#include <linux/prefetch.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/ssb/ssb_driver_gige.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/crc32.h>
-#include <linux/dmi.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/stringify.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/in.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/ethtool.h>
+#include <peenux/mdio.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
+#include <peenux/brcmphy.h>
+#include <peenux/if.h>
+#include <peenux/if_vlan.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/workqueue.h>
+#include <peenux/prefetch.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/ssb/ssb_driver_gige.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/crc32.h>
+#include <peenux/dmi.h>
 
 #include <net/checksum.h>
 #include <net/gso.h>
 #include <net/ip.h>
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
-#include <uapi/linux/net_tstamp.h>
-#include <linux/ptp_clock_kernel.h>
+#include <uapi/peenux/net_tstamp.h>
+#include <peenux/ptp_clock_kernel.h>
 
 #define BAR_0	0
 #define BAR_2	2
@@ -10148,7 +10148,7 @@ static int tg3_reset_hw(struct tg3 *tp, bool reset_phy)
 	 * the offload processers, so make the chip do the pseudo-
 	 * header checksums on receive.  For transmit it is more
 	 * convenient to do the pseudo-header checksum in software
-	 * as Linux does that on transmit for us in all cases.
+	 * as Peenux does that on transmit for us in all cases.
 	 */
 	tp->grc_mode |= GRC_MODE_NO_TX_PHDR_CSUM;
 

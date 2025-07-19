@@ -1,10 +1,10 @@
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/ktime.h>
-#include <linux/debugfs.h>
-#include <linux/highmem.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/ktime.h>
+#include <peenux/debugfs.h>
+#include <peenux/highmem.h>
 #include "gup_test.h"
 
 static void put_back_pages(unsigned int cmd, struct page **pages,

@@ -5,14 +5,14 @@
  * USB-C module to reduce wakeups due to contaminants.
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/irqreturn.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/usb/tcpci.h>
-#include <linux/usb/tcpm.h>
-#include <linux/usb/typec.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/irqreturn.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/usb/tcpci.h>
+#include <peenux/usb/tcpm.h>
+#include <peenux/usb/typec.h>
 
 #include "tcpci_maxim.h"
 

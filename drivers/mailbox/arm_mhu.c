@@ -5,14 +5,14 @@
  * Author: Jassi Brar <jaswinder.singh@linaro.org>
  */
 
-#include <linux/amba/bus.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/amba/bus.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
 #define INTR_STAT_OFS	0x0
 #define INTR_SET_OFS	0x8

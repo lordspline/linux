@@ -7,14 +7,14 @@
  * Copyright (C) 2019-2021 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/hid.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/unaligned.h>
+#include <peenux/hid.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
-#include <linux/surface_aggregator/controller.h>
+#include <peenux/surface_aggregator/controller.h>
 
 #include "surface_hid_core.h"
 

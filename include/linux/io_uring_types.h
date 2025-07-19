@@ -1,12 +1,12 @@
 #ifndef IO_URING_TYPES_H
 #define IO_URING_TYPES_H
 
-#include <linux/blkdev.h>
-#include <linux/hashtable.h>
-#include <linux/task_work.h>
-#include <linux/bitmap.h>
-#include <linux/llist.h>
-#include <uapi/linux/io_uring.h>
+#include <peenux/blkdev.h>
+#include <peenux/hashtable.h>
+#include <peenux/task_work.h>
+#include <peenux/bitmap.h>
+#include <peenux/llist.h>
+#include <uapi/peenux/io_uring.h>
 
 enum {
 	/*

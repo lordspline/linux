@@ -3,10 +3,10 @@
  * Test managed platform driver
  */
 
-#include <linux/completion.h>
-#include <linux/device/bus.h>
-#include <linux/device/driver.h>
-#include <linux/platform_device.h>
+#include <peenux/completion.h>
+#include <peenux/device/bus.h>
+#include <peenux/device/driver.h>
+#include <peenux/platform_device.h>
 
 #include <kunit/platform_device.h>
 #include <kunit/resource.h>

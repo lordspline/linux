@@ -7,34 +7,34 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/array_size.h>
-#include <linux/bitmap.h>
-#include <linux/cleanup.h>
-#include <linux/configfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irq_sim.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/string_helpers.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bitmap.h>
+#include <peenux/cleanup.h>
+#include <peenux/configfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irq_sim.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/minmax.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/string_helpers.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #include "dev-sync-probe.h"
 

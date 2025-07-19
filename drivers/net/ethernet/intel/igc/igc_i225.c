@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c)  2018 Intel Corporation */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
 
 #include "igc_hw.h"
 

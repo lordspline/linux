@@ -5,14 +5,14 @@
  * Copyright (C) 2008 Adam Nielsen <a.nielsen@shikadi.net>
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/slab.h>
+#include <peenux/leds.h>
+#include <peenux/mutex.h>
 
-#include <linux/netfilter/xt_LED.h>
+#include <peenux/netfilter/xt_LED.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Adam Nielsen <a.nielsen@shikadi.net>");

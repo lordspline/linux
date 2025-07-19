@@ -6,19 +6,19 @@
  * Copyright (c) 2021, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/intel-ish-client-if.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
-#include <linux/uaccess.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/intel-ish-client-if.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
+#include <peenux/types.h>
+#include <peenux/uuid.h>
+#include <peenux/uaccess.h>
 
 #define ECLITE_DATA_OPREGION_ID	0x9E
 #define ECLITE_CMD_OPREGION_ID	0x9F

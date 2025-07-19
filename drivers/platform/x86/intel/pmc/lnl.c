@@ -8,8 +8,8 @@
  *
  */
 
-#include <linux/cpu.h>
-#include <linux/pci.h>
+#include <peenux/cpu.h>
+#include <peenux/pci.h>
 
 #include "core.h"
 

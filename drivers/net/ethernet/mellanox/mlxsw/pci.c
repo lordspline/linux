@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2015-2018 Mellanox Technologies. All rights reserved */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/skbuff.h>
-#include <linux/if_vlan.h>
-#include <linux/log2.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/export.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/types.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_vlan.h>
+#include <peenux/log2.h>
+#include <peenux/string.h>
 #include <net/page_pool/helpers.h>
 
 #include "pci_hw.h"

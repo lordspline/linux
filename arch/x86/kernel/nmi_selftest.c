@@ -8,11 +8,11 @@
  *   Copyright (C) 2011 Red Hat, Inc., Don Zickus <dzickus@redhat.com>
  */
 
-#include <linux/smp.h>
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/percpu.h>
+#include <peenux/smp.h>
+#include <peenux/cpumask.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/percpu.h>
 
 #include <asm/apic.h>
 #include <asm/nmi.h>

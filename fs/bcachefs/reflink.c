@@ -14,7 +14,7 @@
 #include "subvolume.h"
 #include "super-io.h"
 
-#include <linux/sched/signal.h>
+#include <peenux/sched/signal.h>
 
 static inline bool bkey_extent_is_reflink_data(const struct bkey *k)
 {

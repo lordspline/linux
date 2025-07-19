@@ -391,7 +391,7 @@ class BpfHeaderExtractor(FileExtractor):
     """
     An extractor for the UAPI BPF header.
     """
-    filename = os.path.join(INCLUDE_DIR, 'uapi/linux/bpf.h')
+    filename = os.path.join(INCLUDE_DIR, 'uapi/peenux/bpf.h')
 
     def __init__(self):
         super().__init__()

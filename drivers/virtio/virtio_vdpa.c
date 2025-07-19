@@ -7,17 +7,17 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
-#include <linux/group_cpus.h>
-#include <linux/virtio.h>
-#include <linux/vdpa.h>
-#include <linux/virtio_config.h>
-#include <linux/virtio_ring.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/uuid.h>
+#include <peenux/group_cpus.h>
+#include <peenux/virtio.h>
+#include <peenux/vdpa.h>
+#include <peenux/virtio_config.h>
+#include <peenux/virtio_ring.h>
 
 #define MOD_VERSION  "0.1"
 #define MOD_AUTHOR   "Jason Wang <jasowang@redhat.com>"

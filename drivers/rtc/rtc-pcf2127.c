@@ -17,18 +17,18 @@
  *             https://www.nxp.com/docs/en/data-sheet/PCF2131DS.pdf
  */
 
-#include <linux/i2c.h>
-#include <linux/spi/spi.h>
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_device.h>
-#include <linux/regmap.h>
-#include <linux/watchdog.h>
+#include <peenux/i2c.h>
+#include <peenux/spi/spi.h>
+#include <peenux/bcd.h>
+#include <peenux/bitfield.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_device.h>
+#include <peenux/regmap.h>
+#include <peenux/watchdog.h>
 
 /* Control register 1 */
 #define PCF2127_REG_CTRL1		0x00

@@ -4,14 +4,14 @@
  */
 #define pr_fmt(fmt) "fprobe: " fmt
 
-#include <linux/err.h>
-#include <linux/fprobe.h>
-#include <linux/kallsyms.h>
-#include <linux/kprobes.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
+#include <peenux/err.h>
+#include <peenux/fprobe.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kprobes.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
 
 #include <asm/fprobe.h>
 

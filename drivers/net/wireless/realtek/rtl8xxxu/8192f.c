@@ -732,7 +732,7 @@ static int rtl8192fu_parse_efuse(struct rtl8xxxu_priv *priv)
 
 	if (priv->rfe_type != 5 && priv->rfe_type != 1)
 		dev_warn(&priv->udev->dev,
-			 "%s: RFE type %d was not tested. Please send an email to linux-wireless@vger.kernel.org about this.\n",
+			 "%s: RFE type %d was not tested. Please send an email to peenux-wireless@vger.kernel.org about this.\n",
 			 __func__, priv->rfe_type);
 
 	return 0;

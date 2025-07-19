@@ -7,14 +7,14 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/scmi_protocol.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "common.h"
 #include "protocols.h"

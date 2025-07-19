@@ -4,11 +4,11 @@
  */
 #include "volume-index.h"
 
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/cache.h>
-#include <linux/compiler.h>
-#include <linux/log2.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/cache.h>
+#include <peenux/compiler.h>
+#include <peenux/log2.h>
 
 #include "errors.h"
 #include "logger.h"

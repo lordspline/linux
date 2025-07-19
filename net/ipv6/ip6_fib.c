@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *	Forwarding Information Database
  *
  *	Authors:
@@ -15,16 +15,16 @@
 
 #define pr_fmt(fmt) "IPv6: " fmt
 
-#include <linux/bpf.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/net.h>
-#include <linux/route.h>
-#include <linux/netdevice.h>
-#include <linux/in6.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/bpf.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/net.h>
+#include <peenux/route.h>
+#include <peenux/netdevice.h>
+#include <peenux/in6.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 
 #include <net/ip.h>
 #include <net/ipv6.h>

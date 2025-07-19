@@ -6,12 +6,12 @@
  * Copyright (C) 2017 Christoph Hellwig.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
 
 #include "pci.h"
 

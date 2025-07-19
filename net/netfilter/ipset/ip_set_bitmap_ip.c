@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (C) 2000-2002 Joakim Axelsson <gozem@linux.nu>
+/* Copyright (C) 2000-2002 Joakim Axelsson <gozem@peenux.nu>
  *                         Patrick Schaaf <bof@bof.de>
  * Copyright (C) 2003-2013 Jozsef Kadlecsik <kadlec@netfilter.org>
  */
 
 /* Kernel module implementing an IP set type: the bitmap:ip type */
 
-#include <linux/module.h>
-#include <linux/ip.h>
-#include <linux/skbuff.h>
-#include <linux/errno.h>
-#include <linux/bitops.h>
-#include <linux/spinlock.h>
-#include <linux/netlink.h>
-#include <linux/jiffies.h>
-#include <linux/timer.h>
+#include <peenux/module.h>
+#include <peenux/ip.h>
+#include <peenux/skbuff.h>
+#include <peenux/errno.h>
+#include <peenux/bitops.h>
+#include <peenux/spinlock.h>
+#include <peenux/netlink.h>
+#include <peenux/jiffies.h>
+#include <peenux/timer.h>
 #include <net/netlink.h>
 #include <net/tcp.h>
 
-#include <linux/netfilter/ipset/pfxlen.h>
-#include <linux/netfilter/ipset/ip_set.h>
-#include <linux/netfilter/ipset/ip_set_bitmap.h>
+#include <peenux/netfilter/ipset/pfxlen.h>
+#include <peenux/netfilter/ipset/ip_set.h>
+#include <peenux/netfilter/ipset/ip_set_bitmap.h>
 
 #define IPSET_TYPE_REV_MIN	0
 /*				1	   Counter support added */

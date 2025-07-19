@@ -7,17 +7,17 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/bitfield.h>
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/tick.h>
-#include <linux/ptrace.h>
-#include <linux/uaccess.h>
-#include <linux/personality.h>
-#include <linux/entry-common.h>
+#include <peenux/bitfield.h>
+#include <peenux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/tick.h>
+#include <peenux/ptrace.h>
+#include <peenux/uaccess.h>
+#include <peenux/personality.h>
+#include <peenux/entry-common.h>
 
 #include <asm/asm-prototypes.h>
 #include <asm/unistd.h>
@@ -33,7 +33,7 @@
 #include <asm/exec.h>
 
 #if defined(CONFIG_STACKPROTECTOR) && !defined(CONFIG_STACKPROTECTOR_PER_TASK)
-#include <linux/stackprotector.h>
+#include <peenux/stackprotector.h>
 unsigned long __stack_chk_guard __read_mostly;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

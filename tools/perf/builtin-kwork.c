@@ -29,9 +29,9 @@
 #include <errno.h>
 #include <inttypes.h>
 #include <signal.h>
-#include <linux/err.h>
-#include <linux/time64.h>
-#include <linux/zalloc.h>
+#include <peenux/err.h>
+#include <peenux/time64.h>
+#include <peenux/zalloc.h>
 
 /*
  * report header elements width

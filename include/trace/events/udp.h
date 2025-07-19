@@ -5,8 +5,8 @@
 #if !defined(_TRACE_UDP_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_UDP_H
 
-#include <linux/udp.h>
-#include <linux/tracepoint.h>
+#include <peenux/udp.h>
+#include <peenux/tracepoint.h>
 #include <trace/events/net_probe_common.h>
 
 TRACE_EVENT(udp_fail_queue_rcv_skb,

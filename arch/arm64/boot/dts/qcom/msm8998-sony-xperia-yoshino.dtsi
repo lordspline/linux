@@ -88,7 +88,7 @@
 	};
 
 	extcon_usb: extcon-usb {
-		compatible = "linux,extcon-usb-gpio";
+		compatible = "peenux,extcon-usb-gpio";
 		id-gpios = <&tlmm 38 GPIO_ACTIVE_HIGH>;
 		vbus-gpios = <&tlmm 128 GPIO_ACTIVE_HIGH>;
 		pinctrl-names = "default";
@@ -103,21 +103,21 @@
 		button-camera-focus {
 			label = "Camera Focus";
 			gpios = <&pm8998_gpios 8 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_CAMERA_FOCUS>;
+			peenux,code = <KEY_CAMERA_FOCUS>;
 			debounce-interval = <15>;
 		};
 
 		button-camera-snapshot {
 			label = "Camera Snapshot";
 			gpios = <&pm8998_gpios 7 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_CAMERA>;
+			peenux,code = <KEY_CAMERA>;
 			debounce-interval = <15>;
 		};
 
 		button-vol-down {
 			label = "Volume Down";
 			gpios = <&pm8998_gpios 5 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 			wakeup-source;
 			debounce-interval = <15>;
 		};
@@ -125,7 +125,7 @@
 		button-vol-up {
 			label = "Volume Up";
 			gpios = <&pm8998_gpios 6 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			wakeup-source;
 			debounce-interval = <15>;
 		};
@@ -140,8 +140,8 @@
 		event-hall-sensor0 {
 			label = "Cover Hall Sensor";
 			gpios = <&tlmm 124 GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_SW>;
-			linux,code = <SW_LID>;
+			peenux,input-type = <EV_SW>;
+			peenux,code = <SW_LID>;
 			wakeup-source;
 			debounce-interval = <30>;
 		};

@@ -12,11 +12,11 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
 #include "isp.h"
 #include "ispreg.h"

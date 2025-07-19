@@ -7,11 +7,11 @@
  *	   Garlic Tseng <garlic.tseng@mediatek.com>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <sound/soc.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/pinctrl/consumer.h>
 
 #include "mt2701-afe-common.h"
 

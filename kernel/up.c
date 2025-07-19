@@ -3,11 +3,11 @@
  * Uniprocessor-only support functions.  The counterpart to kernel/smp.c
  */
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/smp.h>
-#include <linux/hypervisor.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/smp.h>
+#include <peenux/hypervisor.h>
 
 int smp_call_function_single(int cpu, void (*func) (void *info), void *info,
 				int wait)

@@ -4,7 +4,7 @@
 #ifndef __INTEL_BO__
 #define __INTEL_BO__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct drm_gem_object;
 struct seq_file;

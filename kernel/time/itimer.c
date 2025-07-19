@@ -5,18 +5,18 @@
 
 /* These are all the functions necessary to implement itimers */
 
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/syscalls.h>
-#include <linux/time.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/cputime.h>
-#include <linux/posix-timers.h>
-#include <linux/hrtimer.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/syscalls.h>
+#include <peenux/time.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/posix-timers.h>
+#include <peenux/hrtimer.h>
 #include <trace/events/timer.h>
-#include <linux/compat.h>
+#include <peenux/compat.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /**
  * itimer_get_remtime - get remaining time for the timer

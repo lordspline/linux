@@ -4,21 +4,21 @@
  *    Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/cpufeature.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
-#include <linux/swapops.h>
-#include <linux/sysctl.h>
-#include <linux/ksm.h>
-#include <linux/mman.h>
+#include <peenux/cpufeature.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/gfp.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/rcupdate.h>
+#include <peenux/slab.h>
+#include <peenux/swapops.h>
+#include <peenux/sysctl.h>
+#include <peenux/ksm.h>
+#include <peenux/mman.h>
 
 #include <asm/tlbflush.h>
 #include <asm/mmu_context.h>

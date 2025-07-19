@@ -10,10 +10,10 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/of_platform.h>
+#include <peenux/module.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/of_platform.h>
 
 #include <asm/octeon/octeon.h>
 

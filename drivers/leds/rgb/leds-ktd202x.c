@@ -7,14 +7,14 @@
  * Datasheet: https://www.kinet-ic.com/uploads/KTD2026-7-04h.pdf
  */
 
-#include <linux/i2c.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/led-class-multicolor.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
 #define KTD2026_NUM_LEDS 3
 #define KTD2027_NUM_LEDS 4

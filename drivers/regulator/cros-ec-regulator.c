@@ -2,14 +2,14 @@
 //
 // Copyright 2020 Google LLC.
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/slab.h>
 
 struct cros_ec_regulator_data {
 	struct regulator_desc desc;

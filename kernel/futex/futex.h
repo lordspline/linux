@@ -2,15 +2,15 @@
 #ifndef _FUTEX_H
 #define _FUTEX_H
 
-#include <linux/futex.h>
-#include <linux/rtmutex.h>
-#include <linux/sched/wake_q.h>
-#include <linux/compat.h>
-#include <linux/uaccess.h>
-#include <linux/cleanup.h>
+#include <peenux/futex.h>
+#include <peenux/rtmutex.h>
+#include <peenux/sched/wake_q.h>
+#include <peenux/compat.h>
+#include <peenux/uaccess.h>
+#include <peenux/cleanup.h>
 
 #ifdef CONFIG_PREEMPT_RT
-#include <linux/rcuwait.h>
+#include <peenux/rcuwait.h>
 #endif
 
 #include <asm/futex.h>

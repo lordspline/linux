@@ -6,15 +6,15 @@
  *  Copyright 2007 Sony Corp.
  */
 
-#include <linux/delay.h>
-#include <linux/freezer.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/reboot.h>
-#include <linux/rcuwait.h>
-#include <linux/string_choices.h>
+#include <peenux/delay.h>
+#include <peenux/freezer.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/reboot.h>
+#include <peenux/rcuwait.h>
+#include <peenux/string_choices.h>
 
 #include <asm/firmware.h>
 #include <asm/lv1call.h>

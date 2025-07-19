@@ -4,8 +4,8 @@
  *  Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

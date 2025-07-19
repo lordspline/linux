@@ -11,12 +11,12 @@
  * Generic PCI interface for ACP device
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
 
 #include "amd.h"
 #include "../mach-config.h"

@@ -9,8 +9,8 @@
 
 #include "i915_reg_defs.h"
 
-#include <linux/types.h>
-#include <linux/tracepoint.h>
+#include <peenux/types.h>
+#include <peenux/tracepoint.h>
 
 TRACE_EVENT_CONDITION(i915_reg_rw,
 	TP_PROTO(bool write, i915_reg_t reg, u64 val, int len, bool trace),

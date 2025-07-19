@@ -12,17 +12,17 @@
  *  possible.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/unaligned.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/unaligned.h>
 
 /* Per chip data */
 struct hynitron_ts_chip_data {

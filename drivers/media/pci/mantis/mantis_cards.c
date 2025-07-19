@@ -6,12 +6,12 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 #include <asm/irq.h>
-#include <linux/interrupt.h>
+#include <peenux/interrupt.h>
 #include <media/rc-map.h>
 
 #include <media/dmxdev.h>

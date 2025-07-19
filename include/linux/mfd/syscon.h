@@ -11,8 +11,8 @@
 #ifndef __LINUX_MFD_SYSCON_H__
 #define __LINUX_MFD_SYSCON_H__
 
-#include <linux/err.h>
-#include <linux/errno.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
 
 struct device_node;
 

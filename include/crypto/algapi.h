@@ -8,12 +8,12 @@
 #define _CRYPTO_ALGAPI_H
 
 #include <crypto/utils.h>
-#include <linux/align.h>
-#include <linux/cache.h>
-#include <linux/crypto.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/align.h>
+#include <peenux/cache.h>
+#include <peenux/crypto.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 /*
  * Maximum values for blocksize and alignmask, used to allocate

@@ -16,14 +16,14 @@
 #include <crypto/scatterwalk.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
-#include <linux/bottom_half.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/bottom_half.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include "sun8i-ss.h"
 
 static int sun8i_ss_hashkey(struct sun8i_ss_hash_tfm_ctx *tfmctx, const u8 *key,

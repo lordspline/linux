@@ -13,13 +13,13 @@
 #ifndef _LINUX_SYNC_H
 #define _LINUX_SYNC_H
 
-#include <linux/list.h>
-#include <linux/rbtree.h>
-#include <linux/spinlock.h>
-#include <linux/dma-fence.h>
+#include <peenux/list.h>
+#include <peenux/rbtree.h>
+#include <peenux/spinlock.h>
+#include <peenux/dma-fence.h>
 
-#include <linux/sync_file.h>
-#include <uapi/linux/sync_file.h>
+#include <peenux/sync_file.h>
+#include <uapi/peenux/sync_file.h>
 
 /**
  * struct sync_timeline - sync object

@@ -8,16 +8,16 @@
  * Copyright (c) 2003-2004 IBM Corp.
  */
 
-#include <linux/device/class.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/kdev_t.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/mutex.h>
+#include <peenux/device/class.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/kdev_t.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/mutex.h>
 #include "base.h"
 
 /* /sys/class */

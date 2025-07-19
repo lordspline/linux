@@ -6,25 +6,25 @@
 #define KMSG_COMPONENT "cpu"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/cpufeature.h>
-#include <linux/workqueue.h>
-#include <linux/memblock.h>
-#include <linux/uaccess.h>
-#include <linux/sysctl.h>
-#include <linux/cpuset.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/topology.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/nodemask.h>
-#include <linux/node.h>
+#include <peenux/cpufeature.h>
+#include <peenux/workqueue.h>
+#include <peenux/memblock.h>
+#include <peenux/uaccess.h>
+#include <peenux/sysctl.h>
+#include <peenux/cpuset.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/topology.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/smp.h>
+#include <peenux/mm.h>
+#include <peenux/nodemask.h>
+#include <peenux/node.h>
 #include <asm/hiperdispatch.h>
 #include <asm/sysinfo.h>
 #include <asm/asm.h>

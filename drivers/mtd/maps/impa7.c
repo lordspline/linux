@@ -5,14 +5,14 @@
  * Copyright 2002 SYSGO Real-Time Solutions GmbH
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
 #include <asm/io.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/partitions.h>
 
 #define WINDOW_ADDR0 0x00000000      /* physical properties of flash */
 #define WINDOW_SIZE0 0x00800000

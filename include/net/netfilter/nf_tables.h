@@ -2,14 +2,14 @@
 #ifndef _NET_NF_TABLES_H
 #define _NET_NF_TABLES_H
 
-#include <linux/unaligned.h>
-#include <linux/list.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/nfnetlink.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/nf_tables.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/rhashtable.h>
+#include <peenux/unaligned.h>
+#include <peenux/list.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/nfnetlink.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/nf_tables.h>
+#include <peenux/u64_stats_sync.h>
+#include <peenux/rhashtable.h>
 #include <net/netfilter/nf_flow_table.h>
 #include <net/netlink.h>
 #include <net/flow_offload.h>

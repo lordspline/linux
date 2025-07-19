@@ -8,8 +8,8 @@
 
 #include "fuse_i.h"
 
-#include <linux/posix_acl.h>
-#include <linux/posix_acl_xattr.h>
+#include <peenux/posix_acl.h>
+#include <peenux/posix_acl_xattr.h>
 
 static struct posix_acl *__fuse_get_acl(struct fuse_conn *fc,
 					struct inode *inode, int type, bool rcu)

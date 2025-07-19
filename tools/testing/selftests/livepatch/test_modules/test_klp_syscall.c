@@ -6,11 +6,11 @@
  *          Marcos Paulo de Souza <mpdesouza@suse.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/livepatch.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/livepatch.h>
 
 #if defined(__x86_64__)
 #define FN_PREFIX __x64_

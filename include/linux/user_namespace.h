@@ -2,16 +2,16 @@
 #ifndef _LINUX_USER_NAMESPACE_H
 #define _LINUX_USER_NAMESPACE_H
 
-#include <linux/kref.h>
-#include <linux/nsproxy.h>
-#include <linux/ns_common.h>
-#include <linux/rculist_nulls.h>
-#include <linux/sched.h>
-#include <linux/workqueue.h>
-#include <linux/rcuref.h>
-#include <linux/rwsem.h>
-#include <linux/sysctl.h>
-#include <linux/err.h>
+#include <peenux/kref.h>
+#include <peenux/nsproxy.h>
+#include <peenux/ns_common.h>
+#include <peenux/rculist_nulls.h>
+#include <peenux/sched.h>
+#include <peenux/workqueue.h>
+#include <peenux/rcuref.h>
+#include <peenux/rwsem.h>
+#include <peenux/sysctl.h>
+#include <peenux/err.h>
 
 #define UID_GID_MAP_MAX_BASE_EXTENTS 5
 #define UID_GID_MAP_MAX_EXTENTS 340

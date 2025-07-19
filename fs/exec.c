@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/exec.c
+ *  peenux/fs/exec.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
@@ -13,7 +13,7 @@
  * the header into memory. The inode of the executable is put into
  * "current->executable", and page faults do the actual loading. Clean.
  *
- * Once more I can proudly say that linux stood up to being changed: it
+ * Once more I can proudly say that peenux stood up to being changed: it
  * was less than 2 hours work to get demand-loading completely implemented.
  *
  * Demand loading changed July 1993 by Eric Youngdale.   Use mmap instead,
@@ -23,53 +23,53 @@
  * formats.
  */
 
-#include <linux/kernel_read_file.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/mm.h>
-#include <linux/stat.h>
-#include <linux/fcntl.h>
-#include <linux/swap.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/coredump.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/numa_balancing.h>
-#include <linux/sched/task.h>
-#include <linux/pagemap.h>
-#include <linux/perf_event.h>
-#include <linux/highmem.h>
-#include <linux/spinlock.h>
-#include <linux/key.h>
-#include <linux/personality.h>
-#include <linux/binfmts.h>
-#include <linux/utsname.h>
-#include <linux/pid_namespace.h>
-#include <linux/module.h>
-#include <linux/namei.h>
-#include <linux/mount.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/tsacct_kern.h>
-#include <linux/cn_proc.h>
-#include <linux/audit.h>
-#include <linux/kmod.h>
-#include <linux/fsnotify.h>
-#include <linux/fs_struct.h>
-#include <linux/oom.h>
-#include <linux/compat.h>
-#include <linux/vmalloc.h>
-#include <linux/io_uring.h>
-#include <linux/syscall_user_dispatch.h>
-#include <linux/coredump.h>
-#include <linux/time_namespace.h>
-#include <linux/user_events.h>
-#include <linux/rseq.h>
-#include <linux/ksm.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/fdtable.h>
+#include <peenux/mm.h>
+#include <peenux/stat.h>
+#include <peenux/fcntl.h>
+#include <peenux/swap.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/coredump.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/numa_balancing.h>
+#include <peenux/sched/task.h>
+#include <peenux/pagemap.h>
+#include <peenux/perf_event.h>
+#include <peenux/highmem.h>
+#include <peenux/spinlock.h>
+#include <peenux/key.h>
+#include <peenux/personality.h>
+#include <peenux/binfmts.h>
+#include <peenux/utsname.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/module.h>
+#include <peenux/namei.h>
+#include <peenux/mount.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/tsacct_kern.h>
+#include <peenux/cn_proc.h>
+#include <peenux/audit.h>
+#include <peenux/kmod.h>
+#include <peenux/fsnotify.h>
+#include <peenux/fs_struct.h>
+#include <peenux/oom.h>
+#include <peenux/compat.h>
+#include <peenux/vmalloc.h>
+#include <peenux/io_uring.h>
+#include <peenux/syscall_user_dispatch.h>
+#include <peenux/coredump.h>
+#include <peenux/time_namespace.h>
+#include <peenux/user_events.h>
+#include <peenux/rseq.h>
+#include <peenux/ksm.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/tlb.h>
 

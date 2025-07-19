@@ -10,23 +10,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/serio.h>
-#include <linux/suspend.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/serio.h>
+#include <peenux/suspend.h>
+#include <peenux/seq_file.h>
+#include <peenux/uaccess.h>
 
 #include <asm/amd/node.h>
 

@@ -7,7 +7,7 @@
 #ifndef __MGB4_SYSFS_H__
 #define __MGB4_SYSFS_H__
 
-#include <linux/sysfs.h>
+#include <peenux/sysfs.h>
 
 extern struct attribute *mgb4_pci_attrs[];
 extern struct attribute *mgb4_fpdl3_in_attrs[];

@@ -2,10 +2,10 @@
 /*
  * Generic MMIO clocksource support
  */
-#include <linux/clocksource.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/clocksource.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 
 struct clocksource_mmio {
 	void __iomem *reg;

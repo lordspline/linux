@@ -32,7 +32,7 @@
  * APM screenblank bug fixed Takashi Manabe <manabe@roy.dsl.tutics.tut.jp>
  *
  * Merge with the abstract console driver by Geert Uytterhoeven
- * <geert@linux-m68k.org>, Jan 1997.
+ * <geert@peenux-m68k.org>, Jan 1997.
  *
  *   Original m68k console driver modifications by
  *
@@ -46,7 +46,7 @@
  *
  *   The interface to the hardware is specified using a special structure
  *   (struct consw) which contains function pointers to console operations
- *   (see <linux/console.h> for more information).
+ *   (see <peenux/console.h> for more information).
  *
  * Support for changeable cursor shape
  * by Pavel Machek <pavel@atrey.karlin.mff.cuni.cz>, August 1997
@@ -71,40 +71,40 @@
  * by Adam Tla/lka <atlka@pg.gda.pl>, Aug 2006
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/sched/signal.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/kd.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/major.h>
-#include <linux/mm.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/vt_kern.h>
-#include <linux/selection.h>
-#include <linux/tiocl.h>
-#include <linux/kbd_kern.h>
-#include <linux/consolemap.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/pm.h>
-#include <linux/font.h>
-#include <linux/bitops.h>
-#include <linux/notifier.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/kdb.h>
-#include <linux/ctype.h>
-#include <linux/gcd.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/sched/signal.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/kd.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/major.h>
+#include <peenux/mm.h>
+#include <peenux/console.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/vt_kern.h>
+#include <peenux/selection.h>
+#include <peenux/tiocl.h>
+#include <peenux/kbd_kern.h>
+#include <peenux/consolemap.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/pm.h>
+#include <peenux/font.h>
+#include <peenux/bitops.h>
+#include <peenux/notifier.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/kdb.h>
+#include <peenux/ctype.h>
+#include <peenux/gcd.h>
 
 #define MAX_NR_CON_DRIVER 16
 
@@ -1992,7 +1992,7 @@ enum CSI_right_square_bracket {
 /*
  * csi_RSB - csi+] (Right Square Bracket) handler
  *
- * These are linux console private sequences.
+ * These are peenux console private sequences.
  *
  * console_lock is held
  */
@@ -3396,7 +3396,7 @@ static struct console vt_console_driver = {
 #endif
 
 /*
- *	Handling of Linux-specific VC ioctls
+ *	Handling of Peenux-specific VC ioctls
  */
 
 /*

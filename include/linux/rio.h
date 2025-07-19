@@ -10,15 +10,15 @@
 #ifndef LINUX_RIO_H
 #define LINUX_RIO_H
 
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/rio_regs.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/types.h>
+#include <peenux/ioport.h>
+#include <peenux/list.h>
+#include <peenux/errno.h>
+#include <peenux/device.h>
+#include <peenux/rio_regs.h>
+#include <peenux/mod_devicetable.h>
 #ifdef CONFIG_RAPIDIO_DMA_ENGINE
-#include <linux/dmaengine.h>
+#include <peenux/dmaengine.h>
 #endif
 
 #define RIO_NO_HOPCOUNT		-1

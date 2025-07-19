@@ -4,16 +4,16 @@
  *
  *  Copyright (C) 2006 - 2008  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_sci.h>
-#include <linux/sh_dma.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_intc.h>
-#include <linux/uio_driver.h>
-#include <linux/usb/m66592.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial.h>
+#include <peenux/serial_sci.h>
+#include <peenux/sh_dma.h>
+#include <peenux/sh_timer.h>
+#include <peenux/sh_intc.h>
+#include <peenux/uio_driver.h>
+#include <peenux/usb/m66592.h>
 
 #include <asm/clock.h>
 #include <asm/mmzone.h>

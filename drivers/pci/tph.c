@@ -6,11 +6,11 @@
  *     Eric Van Tassell <Eric.VanTassell@amd.com>
  *     Wei Huang <wei.huang2@amd.com>
  */
-#include <linux/pci.h>
-#include <linux/pci-acpi.h>
-#include <linux/msi.h>
-#include <linux/bitfield.h>
-#include <linux/pci-tph.h>
+#include <peenux/pci.h>
+#include <peenux/pci-acpi.h>
+#include <peenux/msi.h>
+#include <peenux/bitfield.h>
+#include <peenux/pci-tph.h>
 
 #include "pci.h"
 

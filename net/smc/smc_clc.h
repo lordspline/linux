@@ -7,14 +7,14 @@
  *
  *  Copyright IBM Corp. 2016
  *
- *  Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ *  Author(s):  Ursula Braun <ubraun@peenux.vnet.ibm.com>
  */
 
 #ifndef _SMC_CLC_H
 #define _SMC_CLC_H
 
 #include <rdma/ib_verbs.h>
-#include <linux/smc.h>
+#include <peenux/smc.h>
 
 #include "smc.h"
 #include "smc_netlink.h"
@@ -174,7 +174,7 @@ struct smc_clc_smcd_v2_extension {
 static_assert(offsetof(struct smc_clc_smcd_v2_extension, gidchid) == sizeof(struct smc_clc_smcd_v2_extension_fixed),
 	      "struct member likely outside of struct_group_tagged()");
 
-struct smc_clc_msg_proposal {	/* clc proposal message sent by Linux */
+struct smc_clc_msg_proposal {	/* clc proposal message sent by Peenux */
 	struct smc_clc_msg_hdr hdr;
 	struct smc_clc_msg_local lcl;
 	__be16 iparea_offset;	/* offset to IP address information area */

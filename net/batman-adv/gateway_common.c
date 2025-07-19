@@ -7,12 +7,12 @@
 #include "gateway_common.h"
 #include "main.h"
 
-#include <linux/atomic.h>
-#include <linux/byteorder/generic.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <uapi/linux/batadv_packet.h>
-#include <uapi/linux/batman_adv.h>
+#include <peenux/atomic.h>
+#include <peenux/byteorder/generic.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
+#include <uapi/peenux/batadv_packet.h>
+#include <uapi/peenux/batman_adv.h>
 
 #include "gateway_client.h"
 #include "tvlv.h"

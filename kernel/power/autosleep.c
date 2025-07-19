@@ -7,8 +7,8 @@
  * Copyright (C) 2012 Rafael J. Wysocki <rjw@sisk.pl>
  */
 
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
 
 #include "power.h"
 

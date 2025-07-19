@@ -5,22 +5,22 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/mman.h>
-#include <linux/proc_fs.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/seq_file.h>
-#include <linux/hugetlb.h>
-#include <linux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/mman.h>
+#include <peenux/proc_fs.h>
+#include <peenux/mm.h>
+#include <peenux/mmzone.h>
+#include <peenux/pagemap.h>
+#include <peenux/swap.h>
+#include <peenux/smp.h>
+#include <peenux/seq_file.h>
+#include <peenux/hugetlb.h>
+#include <peenux/vmalloc.h>
 #include <asm/tlb.h>
 #include <asm/div64.h>
 #include "internal.h"

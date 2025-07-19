@@ -3,17 +3,17 @@
  * Copyright (C) 2008 Steven Rostedt <srostedt@redhat.com>
  *
  */
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
-#include <linux/security.h>
-#include <linux/kallsyms.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/ftrace.h>
-#include <linux/module.h>
-#include <linux/sysctl.h>
-#include <linux/init.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/stacktrace.h>
+#include <peenux/security.h>
+#include <peenux/kallsyms.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/uaccess.h>
+#include <peenux/ftrace.h>
+#include <peenux/module.h>
+#include <peenux/sysctl.h>
+#include <peenux/init.h>
 
 #include <asm/setup.h>
 

@@ -5,15 +5,15 @@
 #define DRVNAME "vexpress-regulator"
 #define pr_fmt(fmt) DRVNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/vexpress.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/vexpress.h>
 
 static int vexpress_regulator_get_voltage(struct regulator_dev *regdev)
 {

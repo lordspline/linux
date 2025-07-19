@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-sa1100/generic.c
+ * peenux/arch/arm/mach-sa1100/generic.c
  *
  * Author: Nicolas Pitre
  *
  * Code common to all SA11x0 machines.
  */
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm.h>
-#include <linux/cpufreq.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/irqchip/irq-sa11x0.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm.h>
+#include <peenux/cpufreq.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/regulator/fixed.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/irqchip/irq-sa11x0.h>
 
 #include <video/sa1100fb.h>
 

@@ -7,9 +7,9 @@
 #ifndef S390_CHP_H
 #define S390_CHP_H
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
 #include <asm/chpid.h>
 #include "chsc.h"
 #include "css.h"

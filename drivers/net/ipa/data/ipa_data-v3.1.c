@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 
-/* Copyright (c) 2012-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012-2018, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2019-2024 Linaro Ltd.
  */
 
-#include <linux/array_size.h>
-#include <linux/log2.h>
+#include <peenux/array_size.h>
+#include <peenux/log2.h>
 
 #include "../ipa_data.h"
 #include "../ipa_endpoint.h"

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/errno.h>
-#include <linux/linkage.h>
+#include <peenux/errno.h>
+#include <peenux/linkage.h>
 #include <asm/asm-offsets.h>
 #include <asm/assembler.h>
 #include <asm/smp.h>

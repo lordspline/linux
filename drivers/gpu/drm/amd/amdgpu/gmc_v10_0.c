@@ -20,8 +20,8 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#include <linux/firmware.h>
-#include <linux/pci.h>
+#include <peenux/firmware.h>
+#include <peenux/pci.h>
 
 #include <drm/drm_cache.h>
 

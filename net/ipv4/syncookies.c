@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  Syncookies implementation for the Linux kernel
+ *  Syncookies implementation for the Peenux kernel
  *
  *  Copyright (C) 1997 Andi Kleen
  *  Based on ideas by D.J.Bernstein and Eric Schenk.
  */
 
-#include <linux/tcp.h>
-#include <linux/siphash.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
+#include <peenux/tcp.h>
+#include <peenux/siphash.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
 #include <net/secure_seq.h>
 #include <net/tcp.h>
 #include <net/route.h>

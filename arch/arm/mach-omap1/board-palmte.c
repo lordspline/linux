@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap1/board-palmte.c
+ * peenux/arch/arm/mach-omap1/board-palmte.c
  *
  * Modified from board-generic.c
  *
@@ -13,22 +13,22 @@
  *
  * Copyright (c) 2006 Andrzej Zaborowski  <balrog@zabor.org>
  */
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/physmap.h>
-#include <linux/spi/spi.h>
-#include <linux/interrupt.h>
-#include <linux/apm-emulation.h>
-#include <linux/omapfb.h>
-#include <linux/omap-dma.h>
-#include <linux/platform_data/keypad-omap.h>
-#include <linux/platform_data/omap1_bl.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/platform_device.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/interrupt.h>
+#include <peenux/apm-emulation.h>
+#include <peenux/omapfb.h>
+#include <peenux/omap-dma.h>
+#include <peenux/platform_data/keypad-omap.h>
+#include <peenux/platform_data/omap1_bl.h>
 
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>

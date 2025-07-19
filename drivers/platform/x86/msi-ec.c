@@ -19,13 +19,13 @@
 #include "msi-ec.h"
 
 #include <acpi/battery.h>
-#include <linux/acpi.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
+#include <peenux/acpi.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
 
 #define SM_ECO_NAME		"eco"
 #define SM_COMFORT_NAME		"comfort"

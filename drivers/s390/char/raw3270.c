@@ -8,14 +8,14 @@
  *     Copyright IBM Corp. 2003, 2009
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
 #include <asm/machine.h>
 #include <asm/ccwdev.h>
@@ -25,10 +25,10 @@
 
 #include "raw3270.h"
 
-#include <linux/major.h>
-#include <linux/kdev_t.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <peenux/major.h>
+#include <peenux/kdev_t.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
 
 const struct class class3270 = {
 	.name = "3270",

@@ -8,9 +8,9 @@
 #include "ivpu_hw_btrs.h"
 #include "ivpu_hw_ip.h"
 
-#include <linux/dmi.h>
-#include <linux/fault-inject.h>
-#include <linux/pm_runtime.h>
+#include <peenux/dmi.h>
+#include <peenux/fault-inject.h>
+#include <peenux/pm_runtime.h>
 
 #ifdef CONFIG_FAULT_INJECTION
 DECLARE_FAULT_ATTR(ivpu_hw_failure);

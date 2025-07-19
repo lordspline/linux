@@ -4,7 +4,7 @@
  * The term "Broadcom" refers to Broadcom Limited and/or its subsidiaries.
  *
  * Contact Information:
- * linux-drivers@broadcom.com
+ * peenux-drivers@broadcom.com
  */
 
 #ifndef _BEISCSI_MGMT_

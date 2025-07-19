@@ -3,8 +3,8 @@
  * Copyright (c) 2013 MundoReader S.L.
  * Author: Heiko Stuebner <heiko@sntech.de>
  */
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
 
 ENTRY(rockchip_secondary_trampoline)
 	ldr	pc, 1f

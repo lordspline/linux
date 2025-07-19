@@ -21,17 +21,17 @@
  *  -check if sysreq works
  */
 
-#include <linux/module.h>
-#include <linux/serial.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/platform_device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/io.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
+#include <peenux/module.h>
+#include <peenux/serial.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/platform_device.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_core.h>
+#include <peenux/io.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
 
 /*************************************
  * ARC UART Hardware Specs

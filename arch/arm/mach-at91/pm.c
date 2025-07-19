@@ -6,19 +6,19 @@
  * Copyright (C) 2005 David Brownell
  */
 
-#include <linux/genalloc.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/parser.h>
-#include <linux/suspend.h>
+#include <peenux/genalloc.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/parser.h>
+#include <peenux/suspend.h>
 
-#include <linux/clk.h>
-#include <linux/clk/at91_pmc.h>
-#include <linux/platform_data/atmel.h>
+#include <peenux/clk.h>
+#include <peenux/clk/at91_pmc.h>
+#include <peenux/platform_data/atmel.h>
 
 #include <asm/cacheflush.h>
 #include <asm/fncpy.h>

@@ -17,17 +17,17 @@
  * kind, whether express or implied.
  */
 
-#include <linux/init.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/device.h>
-#include <linux/delay.h>
+#include <peenux/init.h>
+#include <peenux/param.h>
+#include <peenux/string.h>
+#include <peenux/ioport.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
 
-#include <linux/fsl_devices.h>
-#include <linux/mii.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
+#include <peenux/fsl_devices.h>
+#include <peenux/mii.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_platform.h>
 
 #include <asm/delay.h>
 #include <asm/io.h>

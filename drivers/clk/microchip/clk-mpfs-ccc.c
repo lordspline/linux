@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2022 Microchip Technology Inc. and its subsidiaries
  */
-#include <linux/clk-provider.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 #include <dt-bindings/clock/microchip,mpfs-clock.h>
 
 /* address offset of control registers */

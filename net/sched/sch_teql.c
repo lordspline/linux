@@ -4,17 +4,17 @@
  * Authors:	Alexey Kuznetsov, <kuznet@ms2.inr.ac.ru>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/if_arp.h>
-#include <linux/netdevice.h>
-#include <linux/init.h>
-#include <linux/skbuff.h>
-#include <linux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/if_arp.h>
+#include <peenux/netdevice.h>
+#include <peenux/init.h>
+#include <peenux/skbuff.h>
+#include <peenux/moduleparam.h>
 #include <net/dst.h>
 #include <net/neighbour.h>
 #include <net/pkt_sched.h>

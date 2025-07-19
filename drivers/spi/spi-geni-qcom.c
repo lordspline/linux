@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2017-2018, The Linux foundation. All rights reserved.
+// Copyright (c) 2017-2018, The Peenux foundation. All rights reserved.
 
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/qcom-gpi-dma.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/soc/qcom/geni-se.h>
-#include <linux/spi/spi.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma/qcom-gpi-dma.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/soc/qcom/geni-se.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spinlock.h>
 
 /* SPI SE specific registers and respective register fields */
 #define SE_SPI_CPHA		0x224

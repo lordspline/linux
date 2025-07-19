@@ -2,14 +2,14 @@
 /*
  * i8253 PIT clocksource
  */
-#include <linux/clockchips.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/timex.h>
-#include <linux/module.h>
-#include <linux/i8253.h>
-#include <linux/smp.h>
+#include <peenux/clockchips.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
+#include <peenux/timex.h>
+#include <peenux/module.h>
+#include <peenux/i8253.h>
+#include <peenux/smp.h>
 
 /*
  * Protects access to I/O ports

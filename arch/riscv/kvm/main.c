@@ -6,10 +6,10 @@
  *     Anup Patel <anup.patel@wdc.com>
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/kvm_host.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/kvm_host.h>
 #include <asm/cpufeature.h>
 #include <asm/kvm_nacl.h>
 #include <asm/sbi.h>

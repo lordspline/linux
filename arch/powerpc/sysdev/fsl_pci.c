@@ -13,22 +13,22 @@
  * 	Tony Li <tony.li@freescale.com>
  * 	Anton Vorontsov <avorontsov@ru.mvista.com>
  */
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/fsl/edac.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/log2.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/fsl/edac.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/memblock.h>
+#include <peenux/log2.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/uaccess.h>
 
 #include <asm/io.h>
 #include <asm/pci-bridge.h>
@@ -189,7 +189,7 @@ static bool is_kdump(void)
 		return false;
 	}
 
-	ret = of_property_read_bool(node, "linux,usable-memory");
+	ret = of_property_read_bool(node, "peenux,usable-memory");
 	of_node_put(node);
 
 	return ret;

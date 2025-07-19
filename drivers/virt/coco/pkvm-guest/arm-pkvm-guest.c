@@ -7,12 +7,12 @@
  * Copyright (C) 2024 Google LLC
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/array_size.h>
-#include <linux/io.h>
-#include <linux/mem_encrypt.h>
-#include <linux/mm.h>
-#include <linux/pgtable.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/array_size.h>
+#include <peenux/io.h>
+#include <peenux/mem_encrypt.h>
+#include <peenux/mm.h>
+#include <peenux/pgtable.h>
 
 #include <asm/hypervisor.h>
 

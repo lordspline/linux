@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/88pm886.h>
+#include <peenux/mfd/88pm886.h>
 
 static const struct regmap_config pm886_regmap_config = {
 	.reg_bits = 8,

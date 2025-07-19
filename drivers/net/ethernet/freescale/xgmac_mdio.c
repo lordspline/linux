@@ -12,18 +12,18 @@
  * kind, whether express or implied.
  */
 
-#include <linux/acpi.h>
-#include <linux/acpi_mdio.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mdio.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/acpi_mdio.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mdio.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 /* Number of microseconds to wait for a register to respond */
 #define TIMEOUT	1000

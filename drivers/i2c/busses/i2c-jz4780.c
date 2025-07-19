@@ -7,22 +7,22 @@
  * Copyright (C) 2019 周琰杰 (Zhou Yanjie) <zhouyanjie@wanyeetech.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/time.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
 
 #define JZ4780_I2C_CTRL		0x00
 #define JZ4780_I2C_TAR		0x04

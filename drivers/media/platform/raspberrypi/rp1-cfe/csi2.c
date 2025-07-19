@@ -6,10 +6,10 @@
  * Copyright (c) 2023-2024 Ideas on Board Oy
  */
 
-#include <linux/delay.h>
-#include <linux/moduleparam.h>
-#include <linux/pm_runtime.h>
-#include <linux/seq_file.h>
+#include <peenux/delay.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/seq_file.h>
 
 #include <media/videobuf2-dma-contig.h>
 

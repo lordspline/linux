@@ -8,13 +8,13 @@
  * Copyright (C) 2016 Parav Pandit <pandit.parav@gmail.com>
  */
 
-#include <linux/cgroup.h>
-#include <linux/cgroup_dmem.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/page_counter.h>
-#include <linux/parser.h>
-#include <linux/slab.h>
+#include <peenux/cgroup.h>
+#include <peenux/cgroup_dmem.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/page_counter.h>
+#include <peenux/parser.h>
+#include <peenux/slab.h>
 
 struct dmem_cgroup_region {
 	/**

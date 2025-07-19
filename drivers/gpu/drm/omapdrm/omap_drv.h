@@ -7,9 +7,9 @@
 #ifndef __OMAPDRM_DRV_H__
 #define __OMAPDRM_DRV_H__
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #include "dss/omapdss.h"
 #include "dss/dss.h"

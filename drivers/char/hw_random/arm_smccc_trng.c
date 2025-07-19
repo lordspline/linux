@@ -12,12 +12,12 @@
  * The firmware interface is realised using the SMCCC specification.
  */
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/hw_random.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/arm-smccc.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/hw_random.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/arm-smccc.h>
 
 #ifdef CONFIG_ARM64
 #define ARM_SMCCC_TRNG_RND	ARM_SMCCC_TRNG_RND64

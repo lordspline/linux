@@ -10,15 +10,15 @@
  *          Brad Petrus <brad.petrus@netronome.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/ethtool.h>
-#include <linux/firmware.h>
-#include <linux/sfp.h>
+#include <peenux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/ethtool.h>
+#include <peenux/firmware.h>
+#include <peenux/sfp.h>
 
 #include "nfpcore/nfp.h"
 #include "nfpcore/nfp_dev.h"

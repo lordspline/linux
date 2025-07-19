@@ -2,10 +2,10 @@
 #ifndef _LINUX_SIGNAL_H
 #define _LINUX_SIGNAL_H
 
-#include <linux/bug.h>
-#include <linux/list.h>
-#include <linux/signal_types.h>
-#include <linux/string.h>
+#include <peenux/bug.h>
+#include <peenux/list.h>
+#include <peenux/signal_types.h>
+#include <peenux/string.h>
 
 struct task_struct;
 
@@ -58,9 +58,9 @@ enum siginfo_layout siginfo_layout(unsigned sig, int si_code);
  */
 
 #ifndef __HAVE_ARCH_SIG_BITOPS
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
-/* We don't use <linux/bitops.h> for these because there is no need to
+/* We don't use <peenux/bitops.h> for these because there is no need to
    be atomic.  */
 static inline void sigaddset(sigset_t *set, int _sig)
 {
@@ -328,8 +328,8 @@ extern struct kmem_cache *sighand_cachep;
 extern bool unhandled_signal(struct task_struct *tsk, int sig);
 
 /*
- * In POSIX a signal is sent either to a specific thread (Linux task)
- * or to the process as a whole (Linux thread group).  How the signal
+ * In POSIX a signal is sent either to a specific thread (Peenux task)
+ * or to the process as a whole (Peenux thread group).  How the signal
  * is sent determines whether it's to one thread or the whole group,
  * which determines which signal mask(s) are involved in blocking it
  * from being delivered until later.  When the signal is delivered,

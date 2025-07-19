@@ -11,11 +11,11 @@
  *
  */
 
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/watchdog.h>
-#include <linux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/watchdog.h>
+#include <peenux/io.h>
 
 #define TS72XX_WDT_DEFAULT_TIMEOUT	30
 

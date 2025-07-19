@@ -10,7 +10,7 @@
 #include <assert.h>
 #include <unistd.h>
 #include <stdarg.h>
-#include <linux/kallsyms.h>
+#include <peenux/kallsyms.h>
 
 #include <asm/insn.h>
 #include <inat.c>

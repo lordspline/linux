@@ -10,14 +10,14 @@
  * Link to data sheet: https://www.onsemi.com/pub/Collateral/LV0104CS-D.PDF
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define LV0104CS_REGVAL_MEASURE		0xE0
 #define LV0104CS_REGVAL_SLEEP		0x00

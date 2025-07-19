@@ -14,18 +14,18 @@
  * General Public License for more details.
  */
 
-#include <linux/circ_buf.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/serio.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/sched.h>
-#include <linux/poll.h>
-#include <uapi/linux/userio.h>
+#include <peenux/circ_buf.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/serio.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/sched.h>
+#include <peenux/poll.h>
+#include <uapi/peenux/userio.h>
 
 #define USERIO_NAME		"userio"
 #define USERIO_BUFSIZE		16

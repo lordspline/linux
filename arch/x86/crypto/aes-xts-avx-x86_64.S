@@ -86,8 +86,8 @@
  * power-of-2 length inputs that are processed in a single part (disk sectors).
  */
 
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <peenux/linkage.h>
+#include <peenux/cfi_types.h>
 
 .section .rodata
 .p2align 4

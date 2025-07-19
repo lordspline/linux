@@ -4,19 +4,19 @@
  * Copyright (C) 2015-2017  Dialog Semiconductor
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/irq.h>
-#include <linux/mfd/core.h>
-#include <linux/i2c.h>
-#include <linux/mfd/da9062/core.h>
-#include <linux/mfd/da9062/registers.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/irq.h>
+#include <peenux/mfd/core.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/da9062/core.h>
+#include <peenux/mfd/da9062/registers.h>
+#include <peenux/regulator/of_regulator.h>
 
 #define	DA9062_REG_EVENT_A_OFFSET	0
 #define	DA9062_REG_EVENT_B_OFFSET	1

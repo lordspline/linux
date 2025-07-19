@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: BSD-3-Clause-Clear */
 /*
- * Copyright (c) 2018-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2021 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
@@ -32,7 +32,7 @@ struct ath12k_reg_tpc_power_info;
  * up with our own version. The idea is from fs/ntfs/endian.h.
  *
  * Use a_ prefix so that it doesn't conflict if we get proper support to
- * linux/types.h.
+ * peenux/types.h.
  */
 typedef __s32 __bitwise a_sle32;
 

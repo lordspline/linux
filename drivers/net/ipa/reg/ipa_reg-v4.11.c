@@ -2,9 +2,9 @@
 
 /* Copyright (C) 2022-2024 Linaro Ltd. */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/types.h>
 
 #include "../ipa_reg.h"
 #include "../ipa_version.h"

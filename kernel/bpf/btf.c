@@ -1,32 +1,32 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2018 Facebook */
 
-#include <uapi/linux/btf.h>
-#include <uapi/linux/bpf.h>
-#include <uapi/linux/bpf_perf_event.h>
-#include <uapi/linux/types.h>
-#include <linux/seq_file.h>
-#include <linux/compiler.h>
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/anon_inodes.h>
-#include <linux/file.h>
-#include <linux/uaccess.h>
-#include <linux/kernel.h>
-#include <linux/idr.h>
-#include <linux/sort.h>
-#include <linux/bpf_verifier.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
-#include <linux/bpf.h>
-#include <linux/bpf_lsm.h>
-#include <linux/skmsg.h>
-#include <linux/perf_event.h>
-#include <linux/bsearch.h>
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
-#include <linux/overflow.h>
+#include <uapi/peenux/btf.h>
+#include <uapi/peenux/bpf.h>
+#include <uapi/peenux/bpf_perf_event.h>
+#include <uapi/peenux/types.h>
+#include <peenux/seq_file.h>
+#include <peenux/compiler.h>
+#include <peenux/ctype.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/file.h>
+#include <peenux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/idr.h>
+#include <peenux/sort.h>
+#include <peenux/bpf_verifier.h>
+#include <peenux/btf.h>
+#include <peenux/btf_ids.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_lsm.h>
+#include <peenux/skmsg.h>
+#include <peenux/perf_event.h>
+#include <peenux/bsearch.h>
+#include <peenux/kobject.h>
+#include <peenux/sysfs.h>
+#include <peenux/overflow.h>
 
 #include <net/netfilter/nf_bpf_link.h>
 
@@ -5867,7 +5867,7 @@ static union {
 #define BPF_PROG_TYPE(_id, _name, prog_ctx_type, kern_ctx_type) \
 	prog_ctx_type _id##_prog; \
 	kern_ctx_type _id##_kern;
-#include <linux/bpf_types.h>
+#include <peenux/bpf_types.h>
 #undef BPF_PROG_TYPE
 	} *__t;
 	/* 't' is written once under lock. Read many times. */
@@ -5876,14 +5876,14 @@ static union {
 enum {
 #define BPF_PROG_TYPE(_id, _name, prog_ctx_type, kern_ctx_type) \
 	__ctx_convert##_id,
-#include <linux/bpf_types.h>
+#include <peenux/bpf_types.h>
 #undef BPF_PROG_TYPE
 	__ctx_convert_unused, /* to avoid empty enum in extreme .config */
 };
 static u8 bpf_ctx_convert_map[] = {
 #define BPF_PROG_TYPE(_id, _name, prog_ctx_type, kern_ctx_type) \
 	[_id] = __ctx_convert##_id,
-#include <linux/bpf_types.h>
+#include <peenux/bpf_types.h>
 #undef BPF_PROG_TYPE
 	0, /* avoid empty array */
 };
@@ -5980,7 +5980,7 @@ again:
 	ctx_tname = btf_name_by_offset(btf_vmlinux, ctx_type->name_off);
 	if (!ctx_tname) {
 		/* should not happen */
-		bpf_log(log, "Please fix kernel include/linux/bpf_types.h\n");
+		bpf_log(log, "Please fix kernel include/peenux/bpf_types.h\n");
 		return false;
 	}
 	/* program types without named context types work only with arg:ctx tag */
@@ -8793,7 +8793,7 @@ static int btf_check_dtor_kfuncs(struct btf *btf, const struct btf_id_dtor_kfunc
 			return -EINVAL;
 		args = btf_params(dtor_func_proto);
 		t = btf_type_by_id(btf, args[0].type);
-		/* Allow any pointer type, as width on targets Linux supports
+		/* Allow any pointer type, as width on targets Peenux supports
 		 * will be same for all pointer types (i.e. sizeof(void *))
 		 */
 		if (!t || !btf_type_is_ptr(t))

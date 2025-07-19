@@ -3,9 +3,9 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/fault-inject.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/fault-inject.h>
 
 #include <drm/drm_managed.h>
 

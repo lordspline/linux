@@ -5,9 +5,9 @@
  *
  */
 
-#include <linux/etherdevice.h>
-#include <linux/types.h>
-#include <linux/regmap.h>
+#include <peenux/etherdevice.h>
+#include <peenux/types.h>
+#include <peenux/regmap.h>
 
 #include "icssg_prueth.h"
 

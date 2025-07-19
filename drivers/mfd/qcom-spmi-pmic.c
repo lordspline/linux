@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/spmi.h>
-#include <linux/types.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_platform.h>
+#include <peenux/spmi.h>
+#include <peenux/types.h>
+#include <peenux/regmap.h>
 #include <soc/qcom/qcom-spmi-pmic.h>
 
 #define PMIC_REV2		0x101

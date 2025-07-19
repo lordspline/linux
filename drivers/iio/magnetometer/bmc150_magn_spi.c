@@ -7,10 +7,10 @@
  *
  * Copyright (c) 2016, Intel Corporation.
  */
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regmap.h>
 
 #include "bmc150_magn.h"
 

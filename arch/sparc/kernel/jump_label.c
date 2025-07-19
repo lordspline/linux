@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/cpu.h>
 
-#include <linux/jump_label.h>
-#include <linux/memory.h>
+#include <peenux/jump_label.h>
+#include <peenux/memory.h>
 
 #include <asm/cacheflush.h>
 

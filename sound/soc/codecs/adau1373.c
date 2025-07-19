@@ -6,14 +6,14 @@
  * Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

@@ -4,12 +4,12 @@
  * Copyright (c) 2017-2018, Arm Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/log2.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/log2.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
 #include <time.h>
 
 #include "../../../util/cpumap.h"

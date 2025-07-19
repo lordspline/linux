@@ -3,14 +3,14 @@
 
 #define pr_fmt(fmt)	"QAT: " fmt
 
-#include <linux/align.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/pci_ids.h>
-#include <linux/wordpart.h>
+#include <peenux/align.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/pci_ids.h>
+#include <peenux/wordpart.h>
 #include "adf_accel_devices.h"
 #include "adf_common_drv.h"
 #include "icp_qat_uclo.h"

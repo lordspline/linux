@@ -2,14 +2,14 @@
 /* Microchip LAN937X switch driver main logic
  * Copyright (C) 2019-2024 Microchip Technology Inc.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/iopoll.h>
-#include <linux/phy.h>
-#include <linux/of_net.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/math.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/iopoll.h>
+#include <peenux/phy.h>
+#include <peenux/of_net.h>
+#include <peenux/if_bridge.h>
+#include <peenux/if_vlan.h>
+#include <peenux/math.h>
 #include <net/dsa.h>
 #include <net/switchdev.h>
 

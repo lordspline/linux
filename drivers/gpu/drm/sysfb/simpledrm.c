@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/aperture.h>
-#include <linux/clk.h>
-#include <linux/of_clk.h>
-#include <linux/minmax.h>
-#include <linux/of_address.h>
-#include <linux/platform_data/simplefb.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/aperture.h>
+#include <peenux/clk.h>
+#include <peenux/of_clk.h>
+#include <peenux/minmax.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_data/simplefb.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/regulator/consumer.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

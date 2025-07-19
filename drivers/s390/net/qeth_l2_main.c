@@ -10,17 +10,17 @@
 #define KMSG_COMPONENT "qeth"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/list.h>
-#include <linux/hash.h>
-#include <linux/hashtable.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/list.h>
+#include <peenux/hash.h>
+#include <peenux/hashtable.h>
 #include <net/switchdev.h>
 #include <asm/machine.h>
 #include <asm/chsc.h>

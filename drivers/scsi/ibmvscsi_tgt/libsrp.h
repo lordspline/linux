@@ -2,8 +2,8 @@
 #ifndef __LIBSRP_H__
 #define __LIBSRP_H__
 
-#include <linux/list.h>
-#include <linux/kfifo.h>
+#include <peenux/list.h>
+#include <peenux/kfifo.h>
 #include <scsi/srp.h>
 
 enum srp_valid {
@@ -49,7 +49,7 @@ enum srp_mad_version {
 
 enum srp_os_type {
 	OS400 = 1,
-	LINUX = 2,
+	PEENUX = 2,
 	AIX = 3,
 	OFW = 4
 };

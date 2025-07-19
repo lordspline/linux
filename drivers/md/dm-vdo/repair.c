@@ -5,8 +5,8 @@
 
 #include "repair.h"
 
-#include <linux/min_heap.h>
-#include <linux/minmax.h>
+#include <peenux/min_heap.h>
+#include <peenux/minmax.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

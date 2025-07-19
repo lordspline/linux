@@ -8,17 +8,17 @@
  * Copyright (C) 2002, Rohit Seth <rohit.seth@intel.com>
  */
 
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/hugetlb.h>
-#include <linux/export.h>
-#include <linux/of_fdt.h>
-#include <linux/memblock.h>
-#include <linux/moduleparam.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/kmemleak.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/hugetlb.h>
+#include <peenux/export.h>
+#include <peenux/of_fdt.h>
+#include <peenux/memblock.h>
+#include <peenux/moduleparam.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/kmemleak.h>
 #include <asm/pgalloc.h>
 #include <asm/tlb.h>
 #include <asm/setup.h>

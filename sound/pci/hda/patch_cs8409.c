@@ -6,12 +6,12 @@
  *                    Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <sound/core.h>
-#include <linux/mutex.h>
-#include <linux/iopoll.h>
+#include <peenux/mutex.h>
+#include <peenux/iopoll.h>
 
 #include "patch_cs8409.h"
 

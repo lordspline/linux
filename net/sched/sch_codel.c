@@ -5,18 +5,18 @@
  *  Copyright (C) 2011-2012 Kathleen Nichols <nichols@pollere.com>
  *  Copyright (C) 2011-2012 Van Jacobson <van@pollere.net>
  *
- *  Implemented on linux by :
+ *  Implemented on peenux by :
  *  Copyright (C) 2012 Michael D. Taht <dave.taht@bufferbloat.net>
  *  Copyright (C) 2012,2015 Eric Dumazet <edumazet@google.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/prefetch.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/prefetch.h>
 #include <net/pkt_sched.h>
 #include <net/codel.h>
 #include <net/codel_impl.h>

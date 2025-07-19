@@ -8,14 +8,14 @@
  * Based on sh_keysc.c, copyright 2008 Magnus Damm
  */
 
-#include <linux/clk.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/input.h>
+#include <peenux/input/matrix_keypad.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #define ST_KEYSCAN_MAXKEYS 16
 

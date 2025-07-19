@@ -7,13 +7,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/most.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/err.h>
+#include <peenux/most.h>
 
 enum { CH_RX, CH_TX, NUM_CHANNELS };
 

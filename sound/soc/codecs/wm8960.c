@@ -7,15 +7,15 @@
  * Author: Liam Girdwood
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/acpi.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

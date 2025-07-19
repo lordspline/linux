@@ -2,8 +2,8 @@
 #ifndef LINUX_EXPORTFS_H
 #define LINUX_EXPORTFS_H 1
 
-#include <linux/types.h>
-#include <linux/path.h>
+#include <peenux/types.h>
+#include <peenux/path.h>
 
 struct dentry;
 struct iattr;

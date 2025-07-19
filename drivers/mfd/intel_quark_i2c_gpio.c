@@ -9,15 +9,15 @@
  * respective drivers.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/mfd/core.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/dmi.h>
-#include <linux/i2c.h>
-#include <linux/property.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/mfd/core.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/dmi.h>
+#include <peenux/i2c.h>
+#include <peenux/property.h>
 
 /* PCI BAR for register base address */
 #define MFD_I2C_BAR		0

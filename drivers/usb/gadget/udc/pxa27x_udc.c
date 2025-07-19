@@ -5,31 +5,31 @@
  * Inspired by original driver by Frank Becker, David Brownell, and others.
  * Copyright (C) 2008 Robert Jarzmik
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/prefetch.h>
-#include <linux/byteorder/generic.h>
-#include <linux/platform_data/pxa2xx_udc.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/proc_fs.h>
+#include <peenux/clk.h>
+#include <peenux/irq.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/prefetch.h>
+#include <peenux/byteorder/generic.h>
+#include <peenux/platform_data/pxa2xx_udc.h>
+#include <peenux/of.h>
 
-#include <linux/usb.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/phy.h>
+#include <peenux/usb.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/phy.h>
 
 #include "pxa27x_udc.h"
 
@@ -83,9 +83,9 @@ static void handle_ep(struct pxa_ep *ep);
  */
 #ifdef CONFIG_USB_GADGET_DEBUG_FS
 
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/seq_file.h>
 
 static int state_dbg_show(struct seq_file *s, void *p)
 {

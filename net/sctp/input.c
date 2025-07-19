@@ -13,7 +13,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <peenux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    La Monte H.P. Yarroll <piggy@acm.org>
@@ -26,12 +26,12 @@
  *    Ardelle Fan <ardelle.fan@intel.com>
  */
 
-#include <linux/types.h>
-#include <linux/list.h> /* For struct list_head */
-#include <linux/socket.h>
-#include <linux/ip.h>
-#include <linux/time.h> /* For struct timeval */
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/list.h> /* For struct list_head */
+#include <peenux/socket.h>
+#include <peenux/ip.h>
+#include <peenux/time.h> /* For struct timeval */
+#include <peenux/slab.h>
 #include <net/ip.h>
 #include <net/icmp.h>
 #include <net/snmp.h>
@@ -41,7 +41,7 @@
 #include <net/sctp/sm.h>
 #include <net/sctp/checksum.h>
 #include <net/net_namespace.h>
-#include <linux/rhashtable.h>
+#include <peenux/rhashtable.h>
 #include <net/sock_reuseport.h>
 
 /* Forward declarations for internal helpers. */

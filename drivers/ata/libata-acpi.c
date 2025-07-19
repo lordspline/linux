@@ -7,17 +7,17 @@
  * Copyright (C) 2006 Randy Dunlap
  */
 
-#include <linux/module.h>
-#include <linux/ata.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/acpi.h>
-#include <linux/libata.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/ata.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/acpi.h>
+#include <peenux/libata.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
 #include <scsi/scsi_device.h>
 #include "libata.h"
 

@@ -6,8 +6,8 @@
 #undef pr_fmt
 #define pr_fmt(fmt)	"hisi_zip: " fmt
 
-#include <linux/list.h>
-#include <linux/hisi_acc_qm.h>
+#include <peenux/list.h>
+#include <peenux/hisi_acc_qm.h>
 
 enum hisi_zip_error_type {
 	/* negative compression */

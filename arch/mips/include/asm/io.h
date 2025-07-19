@@ -12,9 +12,9 @@
 #ifndef _ASM_IO_H
 #define _ASM_IO_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/irqflags.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
+#include <peenux/irqflags.h>
 
 #include <asm/addrspace.h>
 #include <asm/barrier.h>

@@ -6,8 +6,8 @@
  * Copyright (c) 2018 Bootlin
  */
 
-#include <linux/delay.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
 
 #include <media/videobuf2-dma-contig.h>
 

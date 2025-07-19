@@ -6,15 +6,15 @@
  * Copyright (C) 2009 Wolfson Microelectronics plc
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
 
-#include <linux/mfd/wm8350/core.h>
-#include <linux/mfd/wm8350/comparator.h>
+#include <peenux/mfd/wm8350/core.h>
+#include <peenux/mfd/wm8350/comparator.h>
 
 static const char * const input_names[] = {
 	[WM8350_AUXADC_USB]  = "USB",

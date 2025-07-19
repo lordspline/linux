@@ -43,22 +43,22 @@
  * USA.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/time.h>
-#include <linux/ktime.h>
-#include <linux/kthread.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/kdev_t.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/time.h>
+#include <peenux/ktime.h>
+#include <peenux/kthread.h>
 #include <asm/page.h>        /* To get host page size per arch */
 
 

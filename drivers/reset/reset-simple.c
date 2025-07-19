@@ -11,15 +11,15 @@
  * Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/reset/reset-simple.h>
-#include <linux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/reset/reset-simple.h>
+#include <peenux/spinlock.h>
 
 static inline struct reset_simple_data *
 to_reset_simple_data(struct reset_controller_dev *rcdev)

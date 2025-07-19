@@ -16,17 +16,17 @@
  * Kevin Chea
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/memblock.h>
-#include <linux/gfp.h>
-#include <linux/highmem.h>
-#include <linux/swap.h>
-#include <linux/mman.h>
-#include <linux/nodemask.h>
-#include <linux/mm.h>
-#include <linux/of_fdt.h>
-#include <linux/dma-map-ops.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/memblock.h>
+#include <peenux/gfp.h>
+#include <peenux/highmem.h>
+#include <peenux/swap.h>
+#include <peenux/mman.h>
+#include <peenux/nodemask.h>
+#include <peenux/mm.h>
+#include <peenux/of_fdt.h>
+#include <peenux/dma-map-ops.h>
 
 #include <asm/bootparam.h>
 #include <asm/page.h>

@@ -2,7 +2,7 @@
 
 /***************************************************************************
  *  This code has been developed at the Department of Physics (University  *
- *  of Florence, Italy) to support in linux-gpib the open usb-gpib adapter *
+ *  of Florence, Italy) to support in peenux-gpib the open usb-gpib adapter *
  *  implemented at the University of Ljubljana (lpvo.fe.uni-lj.si/gpib)	   *
  *									   *
  *  copyright		 : (C) 2011 Marcello Carla'			   *
@@ -14,21 +14,21 @@
 
 /* base module includes */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/spinlock.h>
-#include <linux/file.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/sched/signal.h>
-#include <linux/usb.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/spinlock.h>
+#include <peenux/file.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/sched/signal.h>
+#include <peenux/usb.h>
 
 #include "gpibP.h"
 
@@ -1224,10 +1224,10 @@ static int write_latency_timer(struct usb_device *udev)
  * but has been rewritten to be easier to read and use.
  */
 
-#include <linux/errno.h>
-#include <linux/kref.h>
-#include <linux/uaccess.h>
-#include <linux/mutex.h>
+#include <peenux/errno.h>
+#include <peenux/kref.h>
+#include <peenux/uaccess.h>
+#include <peenux/mutex.h>
 
 /* Get a minor range for your devices from the usb maintainer */
 #define USB_SKEL_MINOR_BASE	   192

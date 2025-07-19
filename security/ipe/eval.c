@@ -3,14 +3,14 @@
  * Copyright (C) 2020-2024 Microsoft Corporation. All rights reserved.
  */
 
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/sched.h>
-#include <linux/rcupdate.h>
-#include <linux/moduleparam.h>
-#include <linux/fsverity.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/sched.h>
+#include <peenux/rcupdate.h>
+#include <peenux/moduleparam.h>
+#include <peenux/fsverity.h>
 
 #include "ipe.h"
 #include "eval.h"

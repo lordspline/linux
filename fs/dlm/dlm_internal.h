@@ -16,31 +16,31 @@
  * This is the main header file to be included in each DLM source file.
  */
 
-#include <uapi/linux/dlm_device.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/ctype.h>
-#include <linux/spinlock.h>
-#include <linux/vmalloc.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/random.h>
-#include <linux/delay.h>
-#include <linux/socket.h>
-#include <linux/kthread.h>
-#include <linux/kobject.h>
-#include <linux/kref.h>
-#include <linux/kernel.h>
-#include <linux/jhash.h>
-#include <linux/miscdevice.h>
-#include <linux/rhashtable.h>
-#include <linux/mutex.h>
-#include <linux/xarray.h>
-#include <linux/ratelimit.h>
-#include <linux/uaccess.h>
+#include <uapi/peenux/dlm_device.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/ctype.h>
+#include <peenux/spinlock.h>
+#include <peenux/vmalloc.h>
+#include <peenux/list.h>
+#include <peenux/errno.h>
+#include <peenux/random.h>
+#include <peenux/delay.h>
+#include <peenux/socket.h>
+#include <peenux/kthread.h>
+#include <peenux/kobject.h>
+#include <peenux/kref.h>
+#include <peenux/kernel.h>
+#include <peenux/jhash.h>
+#include <peenux/miscdevice.h>
+#include <peenux/rhashtable.h>
+#include <peenux/mutex.h>
+#include <peenux/xarray.h>
+#include <peenux/ratelimit.h>
+#include <peenux/uaccess.h>
 
-#include <linux/dlm.h>
+#include <peenux/dlm.h>
 #include "config.h"
 
 struct dlm_ls;

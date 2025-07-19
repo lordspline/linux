@@ -1,35 +1,35 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mmc/core/core.c
+ *  peenux/drivers/mmc/core/core.c
  *
  *  Copyright (C) 2003-2004 Russell King, All Rights Reserved.
  *  SD support Copyright (C) 2004 Ian Molton, All Rights Reserved.
  *  Copyright (C) 2005-2008 Pierre Ossman, All Rights Reserved.
  *  MMCv4 support Copyright (C) 2006 Philip Langdale, All Rights Reserved.
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/pagemap.h>
-#include <linux/err.h>
-#include <linux/leds.h>
-#include <linux/scatterlist.h>
-#include <linux/log2.h>
-#include <linux/pm_runtime.h>
-#include <linux/suspend.h>
-#include <linux/fault-inject.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/pagemap.h>
+#include <peenux/err.h>
+#include <peenux/leds.h>
+#include <peenux/scatterlist.h>
+#include <peenux/log2.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/suspend.h>
+#include <peenux/fault-inject.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/slot-gpio.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
+#include <peenux/mmc/slot-gpio.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/mmc.h>

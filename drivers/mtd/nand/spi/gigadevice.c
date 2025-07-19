@@ -4,9 +4,9 @@
  *	Chuanhong Guo <gch981213@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mtd/spinand.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/mtd/spinand.h>
 
 #define SPINAND_MFR_GIGADEVICE			0xC8
 

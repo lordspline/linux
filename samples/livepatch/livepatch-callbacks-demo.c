@@ -80,9 +80,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/livepatch.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/livepatch.h>
 
 static int pre_patch_ret;
 module_param(pre_patch_ret, int, 0644);

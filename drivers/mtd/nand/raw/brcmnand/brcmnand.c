@@ -3,32 +3,32 @@
  * Copyright © 2010-2015 Broadcom Corporation
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/brcmnand.h>
-#include <linux/err.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/dma-mapping.h>
-#include <linux/ioport.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/mm.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/slab.h>
-#include <linux/static_key.h>
-#include <linux/list.h>
-#include <linux/log2.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/brcmnand.h>
+#include <peenux/err.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/ioport.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/mm.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/slab.h>
+#include <peenux/static_key.h>
+#include <peenux/list.h>
+#include <peenux/log2.h>
 
 #include "brcmnand.h"
 

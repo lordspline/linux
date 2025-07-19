@@ -4,9 +4,9 @@
  * Author: Lorenzo Bianconi <lorenzo@kernel.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
 
 #include "mt792x.h"
 #include "mt76_connac2_mac.h"

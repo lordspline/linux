@@ -6,20 +6,20 @@
  *
  * Authors:
  *   Ananda Ravuri <ananda.ravuri@intel.com>
- *   Matthew Gerlach <matthew.gerlach@linux.intel.com>
+ *   Matthew Gerlach <matthew.gerlach@peenux.intel.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/dfl.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/dfl.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/types.h>
 
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
+#include <peenux/serial.h>
+#include <peenux/serial_8250.h>
 
 #define DFHv1_PARAM_ID_CLK_FRQ    0x2
 #define DFHv1_PARAM_ID_FIFO_LEN   0x3

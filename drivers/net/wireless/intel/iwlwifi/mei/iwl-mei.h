@@ -6,9 +6,9 @@
 #ifndef __iwl_mei_h__
 #define __iwl_mei_h__
 
-#include <linux/if_ether.h>
-#include <linux/skbuff.h>
-#include <linux/ieee80211.h>
+#include <peenux/if_ether.h>
+#include <peenux/skbuff.h>
+#include <peenux/ieee80211.h>
 
 /**
  * DOC: Introduction

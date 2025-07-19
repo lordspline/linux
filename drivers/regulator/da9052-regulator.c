@@ -6,19 +6,19 @@
 //
 // Author: David Dajun Chen <dchen@diasemi.com>
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/of.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/of.h>
+#include <peenux/regulator/of_regulator.h>
 
-#include <linux/mfd/da9052/da9052.h>
-#include <linux/mfd/da9052/reg.h>
-#include <linux/mfd/da9052/pdata.h>
+#include <peenux/mfd/da9052/da9052.h>
+#include <peenux/mfd/da9052/reg.h>
+#include <peenux/mfd/da9052/pdata.h>
 
 /* Buck step size */
 #define DA9052_BUCK_PERI_3uV_STEP		100000

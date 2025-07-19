@@ -11,17 +11,17 @@
  *
  * Copyright (C) 2019 Pengutronix, Marco Felsch <kernel@pengutronix.de>
  */
-#include <linux/bits.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
 
-#include <linux/mfd/da9062/core.h>
-#include <linux/mfd/da9062/registers.h>
+#include <peenux/mfd/da9062/core.h>
+#include <peenux/mfd/da9062/registers.h>
 
 #define DA9062_TYPE(offset)		(4 * (offset % 2))
 #define DA9062_PIN_SHIFT(offset)	(4 * (offset % 2))

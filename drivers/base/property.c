@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2014, Intel Corporation
  * Authors: Rafael J. Wysocki <rafael.j.wysocki@intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ *          Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/kconfig.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/phy.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/kconfig.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/phy.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 struct fwnode_handle *__dev_fwnode(struct device *dev)
 {
@@ -1047,7 +1047,7 @@ EXPORT_SYMBOL(fwnode_iomap);
  * @fwnode:	Pointer to the firmware node
  * @index:	Zero-based index of the IRQ
  *
- * Return: Linux IRQ number on success. Negative errno on failure.
+ * Return: Peenux IRQ number on success. Negative errno on failure.
  */
 int fwnode_irq_get(const struct fwnode_handle *fwnode, unsigned int index)
 {
@@ -1069,11 +1069,11 @@ EXPORT_SYMBOL(fwnode_irq_get);
  *
  * Description:
  * Find a match to the string @name in the 'interrupt-names' string array
- * in _DSD for ACPI, or of_node for Device Tree. Then get the Linux IRQ
+ * in _DSD for ACPI, or of_node for Device Tree. Then get the Peenux IRQ
  * number of the IRQ resource corresponding to the index of the matched
  * string.
  *
- * Return: Linux IRQ number on success, or negative errno otherwise.
+ * Return: Peenux IRQ number on success, or negative errno otherwise.
  */
 int fwnode_irq_get_byname(const struct fwnode_handle *fwnode, const char *name)
 {

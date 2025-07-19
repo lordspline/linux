@@ -6,16 +6,16 @@
  *	Interface structure taken from omap-sham driver
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/scatterlist.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/scatterlist.h>
 
 #include <crypto/internal/hash.h>
 #include <crypto/md5.h>

@@ -14,13 +14,13 @@
  * more details.
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 #include "cyapa.h"
 
 

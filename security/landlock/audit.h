@@ -8,8 +8,8 @@
 #ifndef _SECURITY_LANDLOCK_AUDIT_H
 #define _SECURITY_LANDLOCK_AUDIT_H
 
-#include <linux/audit.h>
-#include <linux/lsm_audit.h>
+#include <peenux/audit.h>
+#include <peenux/lsm_audit.h>
 
 #include "access.h"
 #include "cred.h"

@@ -1,39 +1,39 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/sparc/kernel/setup.c
+ *  peenux/arch/sparc/kernel/setup.c
  *
  *  Copyright (C) 1995  David S. Miller (davem@caip.rutgers.edu)
  *  Copyright (C) 2000  Anton Blanchard (anton@samba.org)
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/initrd.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/initrd.h>
 #include <asm/smp.h>
-#include <linux/user.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
-#include <linux/syscalls.h>
-#include <linux/kdev_t.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/console.h>
-#include <linux/spinlock.h>
-#include <linux/root_dev.h>
-#include <linux/cpu.h>
-#include <linux/kdebug.h>
-#include <linux/export.h>
-#include <linux/start_kernel.h>
-#include <uapi/linux/mount.h>
+#include <peenux/user.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/syscalls.h>
+#include <peenux/kdev_t.h>
+#include <peenux/major.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/console.h>
+#include <peenux/spinlock.h>
+#include <peenux/root_dev.h>
+#include <peenux/cpu.h>
+#include <peenux/kdebug.h>
+#include <peenux/export.h>
+#include <peenux/start_kernel.h>
+#include <uapi/peenux/mount.h>
 
 #include <asm/io.h>
 #include <asm/processor.h>

@@ -6,15 +6,15 @@
 // Author: Jaswinder Singh <jassisinghbrar@gmail.com>
 // based upon I2S drivers by Ben Dooks.
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
 
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 
-#include <linux/platform_data/asoc-s3c.h>
+#include <peenux/platform_data/asoc-s3c.h>
 
 #include "dma.h"
 #include "pcm.h"

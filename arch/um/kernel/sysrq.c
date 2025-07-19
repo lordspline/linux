@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  * Copyright (C) 2013 Richard Weinberger <richrd@nod.at>
  */
 
-#include <linux/kallsyms.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/stacktrace.h>
 #include <os.h>

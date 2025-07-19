@@ -6,9 +6,9 @@
 #include "qla_def.h"
 #include "qla_gbl.h"
 
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #include "qla_devtbl.h"
 

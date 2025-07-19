@@ -26,9 +26,9 @@
  *          Jerome Glisse
  */
 
-#include <linux/debugfs.h>
-#include <linux/iosys-map.h>
-#include <linux/pci.h>
+#include <peenux/debugfs.h>
+#include <peenux/iosys-map.h>
+#include <peenux/pci.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>

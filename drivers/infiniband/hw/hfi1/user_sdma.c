@@ -4,23 +4,23 @@
  * Copyright(c) 2015 - 2018 Intel Corporation.
  */
 
-#include <linux/mm.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/dmapool.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/highmem.h>
-#include <linux/io.h>
-#include <linux/uio.h>
-#include <linux/rbtree.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/mmu_context.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/string.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/dmapool.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/highmem.h>
+#include <peenux/io.h>
+#include <peenux/uio.h>
+#include <peenux/rbtree.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/mmu_context.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
+#include <peenux/string.h>
 
 #include "hfi.h"
 #include "sdma.h"

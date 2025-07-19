@@ -4,16 +4,16 @@
 
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
 #include "dmaengine.h"
 
@@ -149,7 +149,7 @@ struct mv_xor_v2_descriptor {
  * @desc_size: HW descriptor size
  * @npendings: number of pending descriptors (for which tx_submit has
  * @hw_queue_idx: HW queue index
- * @irq: The Linux interrupt number
+ * @irq: The Peenux interrupt number
  * been called, but not yet issue_pending)
  */
 struct mv_xor_v2_device {

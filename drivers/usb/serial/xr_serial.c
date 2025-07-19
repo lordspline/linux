@@ -12,13 +12,13 @@
  *   Copyright (c) 2018 Patong Yang <patong.mxl@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/usb.h>
+#include <peenux/usb/cdc.h>
+#include <peenux/usb/serial.h>
 
 struct xr_txrx_clk_mask {
 	u16 tx;

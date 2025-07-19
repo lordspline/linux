@@ -11,8 +11,8 @@
 #ifndef _LINUX_SURFACE_ACPI_NOTIFY_H
 #define _LINUX_SURFACE_ACPI_NOTIFY_H
 
-#include <linux/notifier.h>
-#include <linux/types.h>
+#include <peenux/notifier.h>
+#include <peenux/types.h>
 
 /**
  * struct san_dgpu_event - Discrete GPU ACPI event.

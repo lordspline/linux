@@ -11,13 +11,13 @@
  * Reference: AMD Geode(TM) CS5536 Companion Device Data Book
  */
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/jiffies.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/clockchips.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/jiffies.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/clockchips.h>
 
 #include <asm/time.h>
 

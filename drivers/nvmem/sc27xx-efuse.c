@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Spreadtrum Communications Inc.
 
-#include <linux/hwspinlock.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/nvmem-provider.h>
+#include <peenux/hwspinlock.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/nvmem-provider.h>
 
 /* PMIC global registers definition */
 #define SC27XX_MODULE_EN		0xc08

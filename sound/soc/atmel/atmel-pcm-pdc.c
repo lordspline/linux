@@ -18,13 +18,13 @@
  * Copyright:	(C) 2004 MontaVista Software, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/atmel_pdc.h>
-#include <linux/atmel-ssc.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/atmel_pdc.h>
+#include <peenux/atmel-ssc.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

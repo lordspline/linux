@@ -5,15 +5,15 @@
  * Copyright (C) 2002, Rohit Seth <rohit.seth@intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/sched/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/pagemap.h>
-#include <linux/err.h>
-#include <linux/sysctl.h>
-#include <linux/compat.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/sched/mm.h>
+#include <peenux/hugetlb.h>
+#include <peenux/pagemap.h>
+#include <peenux/err.h>
+#include <peenux/sysctl.h>
+#include <peenux/compat.h>
 #include <asm/mman.h>
 #include <asm/tlb.h>
 #include <asm/tlbflush.h>

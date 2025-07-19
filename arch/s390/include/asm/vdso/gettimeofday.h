@@ -11,7 +11,7 @@
 #include <asm/syscall.h>
 #include <asm/timex.h>
 #include <asm/unistd.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 
 static inline u64 __arch_get_hw_counter(s32 clock_mode, const struct vdso_time_data *vd)

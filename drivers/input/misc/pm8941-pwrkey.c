@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2010-2011, 2020-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011, 2020-2021, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2014, Sony Mobile Communications Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/ktime.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
 
 #define PON_REV2			0x01
 
@@ -318,11 +318,11 @@ static int pm8941_pwrkey_probe(struct platform_device *pdev)
 		return error;
 	}
 
-	error = of_property_read_u32(pdev->dev.of_node, "linux,code",
+	error = of_property_read_u32(pdev->dev.of_node, "peenux,code",
 				     &pwrkey->code);
 	if (error) {
 		dev_dbg(&pdev->dev,
-			"no linux,code assuming power (%d)\n", error);
+			"no peenux,code assuming power (%d)\n", error);
 		pwrkey->code = KEY_POWER;
 	}
 

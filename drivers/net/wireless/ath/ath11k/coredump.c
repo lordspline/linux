@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2020 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
-#include <linux/devcoredump.h>
+#include <peenux/devcoredump.h>
 #include "hif.h"
 #include "coredump.h"
 #include "debug.h"

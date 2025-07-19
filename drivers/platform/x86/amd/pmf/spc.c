@@ -10,9 +10,9 @@
  */
 
 #include <acpi/button.h>
-#include <linux/amd-pmf-io.h>
-#include <linux/power_supply.h>
-#include <linux/units.h>
+#include <peenux/amd-pmf-io.h>
+#include <peenux/power_supply.h>
+#include <peenux/units.h>
 #include "pmf.h"
 
 #ifdef CONFIG_AMD_PMF_DEBUG

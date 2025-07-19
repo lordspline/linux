@@ -7,15 +7,15 @@
  * Contact: Arun KS  <arunks@mistralsolutions.com>
  */
 
-#include <linux/clk.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 
 #include <asm/mach-types.h>
-#include <linux/module.h>
-#include <linux/platform_data/asoc-ti-mcbsp.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/asoc-ti-mcbsp.h>
 
 #include "omap-mcbsp.h"
 #include "../codecs/tlv320aic23.h"

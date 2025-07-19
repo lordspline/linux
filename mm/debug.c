@@ -6,14 +6,14 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/trace_events.h>
-#include <linux/memcontrol.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/trace_events.h>
+#include <peenux/memcontrol.h>
 #include <trace/events/mmflags.h>
-#include <linux/migrate.h>
-#include <linux/page_owner.h>
-#include <linux/ctype.h>
+#include <peenux/migrate.h>
+#include <peenux/page_owner.h>
+#include <peenux/ctype.h>
 
 #include "internal.h"
 #include <trace/events/migrate.h>

@@ -24,13 +24,13 @@
  *      - ported from alsa 0.5 to 1.0
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/parport.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/parport.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/rawmidi.h>

@@ -17,14 +17,14 @@
 #ifndef ATH9K_H
 #define ATH9K_H
 
-#include <linux/etherdevice.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/kstrtox.h>
-#include <linux/leds.h>
-#include <linux/completion.h>
-#include <linux/time.h>
-#include <linux/hw_random.h>
+#include <peenux/etherdevice.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/kstrtox.h>
+#include <peenux/leds.h>
+#include <peenux/completion.h>
+#include <peenux/time.h>
+#include <peenux/hw_random.h>
 
 #include "common.h"
 #include "debug.h"

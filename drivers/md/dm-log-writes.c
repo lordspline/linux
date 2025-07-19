@@ -5,17 +5,17 @@
  * This file is released under the GPL.
  */
 
-#include <linux/device-mapper.h>
+#include <peenux/device-mapper.h>
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/bio.h>
-#include <linux/dax.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/uio.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/bio.h>
+#include <peenux/dax.h>
+#include <peenux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
+#include <peenux/uio.h>
 
 #define DM_MSG_PREFIX "log-writes"
 

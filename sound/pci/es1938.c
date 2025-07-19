@@ -32,15 +32,15 @@
 */
 
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/gameport.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/gameport.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/pcm.h>

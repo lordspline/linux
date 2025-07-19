@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (C) 2023 Intel Corporation. All rights reserved.
- * Intel Visual Sensing Controller ACE Linux driver
+ * Intel Visual Sensing Controller ACE Peenux driver
  */
 
 /*
@@ -18,17 +18,17 @@
  * already powered up by firmware.
  */
 
-#include <linux/acpi.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/mei_cl_bus.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
-#include <linux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/mei_cl_bus.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/uuid.h>
+#include <peenux/workqueue.h>
 
 /* indicating driver message */
 #define	ACE_DRV_MSG		1

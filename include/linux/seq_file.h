@@ -2,14 +2,14 @@
 #ifndef _LINUX_SEQ_FILE_H
 #define _LINUX_SEQ_FILE_H
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/string_helpers.h>
-#include <linux/bug.h>
-#include <linux/mutex.h>
-#include <linux/nodemask.h>
-#include <linux/fs.h>
-#include <linux/cred.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/string_helpers.h>
+#include <peenux/bug.h>
+#include <peenux/mutex.h>
+#include <peenux/nodemask.h>
+#include <peenux/fs.h>
+#include <peenux/cred.h>
 
 struct seq_operations;
 

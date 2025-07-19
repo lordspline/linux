@@ -9,24 +9,24 @@
  * Author: Laxman Dewangan <ldewangan@nvidia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/max8973-regulator.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/max8973-regulator.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/regmap.h>
+#include <peenux/thermal.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
 
 /* Register definitions */
 #define MAX8973_VOUT					0x0

@@ -8,8 +8,8 @@
  *
  */
 
-#include <linux/export.h>
-#include <linux/sys.h>
+#include <peenux/export.h>
+#include <peenux/sys.h>
 #include <asm/unistd.h>
 #include <asm/errno.h>
 #include <asm/reg.h>

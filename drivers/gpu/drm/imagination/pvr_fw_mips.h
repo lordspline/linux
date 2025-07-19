@@ -7,8 +7,8 @@
 #include "pvr_rogue_mips.h"
 
 #include <asm/page.h>
-#include <linux/math.h>
-#include <linux/types.h>
+#include <peenux/math.h>
+#include <peenux/types.h>
 
 /* Forward declaration from pvr_gem.h. */
 struct pvr_gem_object;

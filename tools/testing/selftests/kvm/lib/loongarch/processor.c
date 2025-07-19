@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
 #include <assert.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 #include "kvm_util.h"
 #include "processor.h"

@@ -3,16 +3,16 @@
  * Copyright (c) 2023 Nuvoton Technology corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #define NCT7363_REG_FUNC_CFG_BASE(x)	(0x20 + (x))
 #define NCT7363_REG_LSRS(x)		(0x34 + ((x) / 8))

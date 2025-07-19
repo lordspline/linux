@@ -3,17 +3,17 @@
  * gpio_backlight.c - Simple GPIO-controlled backlight
  */
 
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/gpio_backlight.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/backlight.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_data/gpio_backlight.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 struct gpio_backlight {
 	struct device *dev;

@@ -2,9 +2,9 @@
 #ifndef _LINUX_MIN_HEAP_H
 #define _LINUX_MIN_HEAP_H
 
-#include <linux/bug.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bug.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 /*
  * The Min Heap API provides utilities for managing min-heaps, a binary tree

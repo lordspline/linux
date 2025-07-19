@@ -30,11 +30,11 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/in.h>
-#include <linux/device.h>
-#include <linux/dmapool.h>
-#include <linux/ratelimit.h>
+#include <peenux/kernel.h>
+#include <peenux/in.h>
+#include <peenux/device.h>
+#include <peenux/dmapool.h>
+#include <peenux/ratelimit.h>
 
 #include "rds_single_path.h"
 #include "rds.h"

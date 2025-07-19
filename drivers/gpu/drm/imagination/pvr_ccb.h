@@ -6,8 +6,8 @@
 
 #include "pvr_rogue_fwif.h"
 
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 /* Forward declaration from pvr_device.h. */
 struct pvr_device;

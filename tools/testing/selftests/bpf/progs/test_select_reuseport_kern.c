@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2018 Facebook */
 
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/bpf.h>
-#include <linux/types.h>
-#include <linux/if_ether.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/bpf.h>
+#include <peenux/types.h>
+#include <peenux/if_ether.h>
 
 #include <bpf/bpf_endian.h>
 #include <bpf/bpf_helpers.h>

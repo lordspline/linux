@@ -4,14 +4,14 @@
  *
  *  Copyright (C) 2007 - 2010  Paul Mundt
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/serial_sci.h>
-#include <linux/io.h>
-#include <linux/gpio.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_intc.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/serial_sci.h>
+#include <peenux/io.h>
+#include <peenux/gpio.h>
+#include <peenux/sh_timer.h>
+#include <peenux/sh_intc.h>
 #include <cpu/shx3.h>
 #include <asm/mmzone.h>
 #include <asm/platform_early.h>

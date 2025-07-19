@@ -3,28 +3,28 @@
 /*
  *    PARISC specific syscalls
  *
- *    Copyright (C) 1999-2003 Matthew Wilcox <willy at parisc-linux.org>
- *    Copyright (C) 2000-2003 Paul Bame <bame at parisc-linux.org>
- *    Copyright (C) 2001 Thomas Bogendoerfer <tsbogend at parisc-linux.org>
+ *    Copyright (C) 1999-2003 Matthew Wilcox <willy at parisc-peenux.org>
+ *    Copyright (C) 2000-2003 Paul Bame <bame at parisc-peenux.org>
+ *    Copyright (C) 2001 Thomas Bogendoerfer <tsbogend at parisc-peenux.org>
  *    Copyright (C) 1999-2020 Helge Deller <deller@gmx.de>
  */
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/elf.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/linkage.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/shm.h>
-#include <linux/syscalls.h>
-#include <linux/utsname.h>
-#include <linux/personality.h>
-#include <linux/random.h>
-#include <linux/compat.h>
-#include <linux/elf-randomize.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/linkage.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/mm.h>
+#include <peenux/shm.h>
+#include <peenux/syscalls.h>
+#include <peenux/utsname.h>
+#include <peenux/personality.h>
+#include <peenux/random.h>
+#include <peenux/compat.h>
+#include <peenux/elf-randomize.h>
 
 /*
  * Construct an artificial page offset for the mapping based on the physical

@@ -22,7 +22,7 @@
  */
 #include "amdgpu.h"
 #include "amdgpu_ras.h"
-#include <uapi/linux/kfd_ioctl.h>
+#include <uapi/peenux/kfd_ioctl.h>
 
 int amdgpu_hdp_ras_sw_init(struct amdgpu_device *adev)
 {

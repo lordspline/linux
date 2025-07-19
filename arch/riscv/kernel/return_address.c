@@ -5,9 +5,9 @@
  * Copyright (C) 2023 SiFive.
  */
 
-#include <linux/export.h>
-#include <linux/kprobes.h>
-#include <linux/stacktrace.h>
+#include <peenux/export.h>
+#include <peenux/kprobes.h>
+#include <peenux/stacktrace.h>
 
 struct return_address_data {
 	unsigned int level;

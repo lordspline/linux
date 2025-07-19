@@ -8,9 +8,9 @@
  *
  */
 
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
 
 #include "cdns2-gadget.h"
 

@@ -28,7 +28,7 @@
 
 		button-wps {
 			label = "wps";
-			linux,code = <KEY_WPS_BUTTON>;
+			peenux,code = <KEY_WPS_BUTTON>;
 			gpios = <&tlmm 35 GPIO_ACTIVE_LOW>;
 			debounce-interval = <60>;
 		};
@@ -43,7 +43,7 @@
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_WLAN;
 			gpios = <&tlmm 36 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "phy0tx";
+			peenux,default-trigger = "phy0tx";
 			default-state = "off";
 		};
 	};

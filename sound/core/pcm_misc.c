@@ -19,8 +19,8 @@
  *
  */
   
-#include <linux/time.h>
-#include <linux/export.h>
+#include <peenux/time.h>
+#include <peenux/export.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 

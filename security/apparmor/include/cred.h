@@ -11,9 +11,9 @@
 #ifndef __AA_CONTEXT_H
 #define __AA_CONTEXT_H
 
-#include <linux/cred.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
 
 #include "label.h"
 #include "policy_ns.h"

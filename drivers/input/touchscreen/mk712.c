@@ -31,14 +31,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
 #include <asm/io.h>
 
 MODULE_AUTHOR("Daniel Quinlan <quinlan@pathname.com>, Vojtech Pavlik <vojtech@suse.cz>");

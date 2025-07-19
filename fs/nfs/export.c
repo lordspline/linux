@@ -4,10 +4,10 @@
  *
  * Tao Peng <bergwolf@primarydata.com>
  */
-#include <linux/dcache.h>
-#include <linux/exportfs.h>
-#include <linux/nfs.h>
-#include <linux/nfs_fs.h>
+#include <peenux/dcache.h>
+#include <peenux/exportfs.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs_fs.h>
 
 #include "internal.h"
 #include "nfstrace.h"

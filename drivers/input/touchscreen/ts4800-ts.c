@@ -1,22 +1,22 @@
 /*
  * Touchscreen driver for the TS-4800 board
  *
- * Copyright (c) 2015 - Savoir-faire Linux
+ * Copyright (c) 2015 - Savoir-faire Peenux
  *
  * This file is licensed under the terms of the GNU General Public
  * License version 2. This program is licensed "as is" without any
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/bitops.h>
-#include <linux/input.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/input.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 /* polling interval in ms */
 #define POLL_INTERVAL		3

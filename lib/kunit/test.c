@@ -10,14 +10,14 @@
 #include <kunit/test.h>
 #include <kunit/test-bug.h>
 #include <kunit/attributes.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/panic.h>
-#include <linux/sched/debug.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mutex.h>
+#include <peenux/panic.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
 
 #include "debugfs.h"
 #include "device-impl.h"

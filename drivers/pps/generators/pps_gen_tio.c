@@ -5,19 +5,19 @@
  * Copyright (C) 2024 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/hrtimer.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pps_gen_kernel.h>
-#include <linux/timekeeping.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/hrtimer.h>
+#include <peenux/io-64-nonatomic-hi-lo.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pps_gen_kernel.h>
+#include <peenux/timekeeping.h>
+#include <peenux/types.h>
 
 #include <asm/cpu_device_id.h>
 

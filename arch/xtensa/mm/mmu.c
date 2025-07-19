@@ -4,12 +4,12 @@
  *
  * Extracted from init.c
  */
-#include <linux/memblock.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/cache.h>
+#include <peenux/memblock.h>
+#include <peenux/percpu.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/cache.h>
 
 #include <asm/tlb.h>
 #include <asm/tlbflush.h>

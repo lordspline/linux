@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
- * Copyright (c) 2014-2023, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014-2023, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #define USB2PHY_PORT_UTMI_CTRL1		0x40
 

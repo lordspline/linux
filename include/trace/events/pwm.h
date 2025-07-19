@@ -5,8 +5,8 @@
 #if !defined(_TRACE_PWM_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_PWM_H
 
-#include <linux/pwm.h>
-#include <linux/tracepoint.h>
+#include <peenux/pwm.h>
+#include <peenux/tracepoint.h>
 
 #define TP_PROTO_pwm(args...)							\
 	TP_PROTO(struct pwm_device *pwm, args)

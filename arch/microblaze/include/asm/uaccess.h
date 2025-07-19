@@ -8,13 +8,13 @@
 #ifndef _ASM_MICROBLAZE_UACCESS_H
 #define _ASM_MICROBLAZE_UACCESS_H
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include <asm/mmu.h>
 #include <asm/page.h>
-#include <linux/pgtable.h>
+#include <peenux/pgtable.h>
 #include <asm/extable.h>
-#include <linux/string.h>
+#include <peenux/string.h>
 #include <asm-generic/access_ok.h>
 
 # define __FIXUP_SECTION	".section .fixup,\"ax\"\n"

@@ -7,20 +7,20 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/of.h>
-#include <uapi/linux/input-event-codes.h>
+#include <peenux/acpi.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/of.h>
+#include <uapi/peenux/input-event-codes.h>
 
-#include <linux/mfd/arizona/core.h>
+#include <peenux/mfd/arizona/core.h>
 
 #include "arizona.h"
 

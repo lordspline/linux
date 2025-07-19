@@ -8,24 +8,24 @@
  */
 
 #define pr_fmt(fmt) "watchq: " fmt
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/printk.h>
-#include <linux/miscdevice.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/poll.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/file.h>
-#include <linux/security.h>
-#include <linux/cred.h>
-#include <linux/sched/signal.h>
-#include <linux/watch_queue.h>
-#include <linux/pipe_fs_i.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/printk.h>
+#include <peenux/miscdevice.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/poll.h>
+#include <peenux/uaccess.h>
+#include <peenux/vmalloc.h>
+#include <peenux/file.h>
+#include <peenux/security.h>
+#include <peenux/cred.h>
+#include <peenux/sched/signal.h>
+#include <peenux/watch_queue.h>
+#include <peenux/pipe_fs_i.h>
 
 MODULE_DESCRIPTION("Watch queue");
 MODULE_AUTHOR("Red Hat, Inc.");

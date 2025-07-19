@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Linux Security Module infrastructure tests
+ * Peenux Security Module infrastructure tests
  *
  * Copyright © 2023 Casey Schaufler <casey@schaufler-ca.com>
  */
 
 #define _GNU_SOURCE
-#include <linux/lsm.h>
+#include <peenux/lsm.h>
 #include <fcntl.h>
 #include <string.h>
 #include <stdio.h>

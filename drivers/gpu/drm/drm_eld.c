@@ -3,7 +3,7 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/export.h>
+#include <peenux/export.h>
 
 #include <drm/drm_edid.h>
 #include <drm/drm_eld.h>

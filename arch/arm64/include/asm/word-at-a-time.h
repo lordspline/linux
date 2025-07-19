@@ -5,12 +5,12 @@
 #ifndef __ASM_WORD_AT_A_TIME_H
 #define __ASM_WORD_AT_A_TIME_H
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #ifndef __AARCH64EB__
 
-#include <linux/bitops.h>
-#include <linux/wordpart.h>
+#include <peenux/bitops.h>
+#include <peenux/wordpart.h>
 
 struct word_at_a_time {
 	const unsigned long one_bits, high_bits;

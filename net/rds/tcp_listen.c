@@ -30,9 +30,9 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/in.h>
 #include <net/tcp.h>
 #include <trace/events/sock.h>
 

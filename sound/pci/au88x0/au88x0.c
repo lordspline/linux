@@ -16,12 +16,12 @@
  */
 
 #include "au88x0.h"
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/dma-mapping.h>
 #include <sound/initval.h>
 
 // module parameters (see "Module Parameters")

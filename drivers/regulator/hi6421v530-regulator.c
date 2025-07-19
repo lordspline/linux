@@ -10,12 +10,12 @@
 // Author: Wang Xiaoyin <hw.wangxiaoyin@hisilicon.com>
 //         Guodong Xu <guodong.xu@linaro.org>
 
-#include <linux/mfd/hi6421-pmic.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
+#include <peenux/mfd/hi6421-pmic.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
 
 /*
  * struct hi6421v530_regulator_info - hi6421v530 regulator information

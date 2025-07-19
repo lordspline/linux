@@ -8,22 +8,22 @@
  * Copyright (C) 2007 Herbert Valerio Riedel <hvr@gnu.org>
  *
  * Thanks go to Michael Burian and Ray Lehtiniemi for their key
- * role in the ep93xx Linux community.
+ * role in the ep93xx Peenux community.
  */
 
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/init.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/sys_soc.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/init.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/sys_soc.h>
 
-#include <linux/soc/cirrus/ep93xx.h>
+#include <peenux/soc/cirrus/ep93xx.h>
 
 #define EP93XX_SYSCON_DEVCFG		0x80
 

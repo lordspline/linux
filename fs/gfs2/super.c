@@ -6,24 +6,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bio.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/buffer_head.h>
-#include <linux/statfs.h>
-#include <linux/seq_file.h>
-#include <linux/mount.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
-#include <linux/gfs2_ondisk.h>
-#include <linux/crc32.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/writeback.h>
-#include <linux/backing-dev.h>
-#include <linux/kernel.h>
+#include <peenux/bio.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/buffer_head.h>
+#include <peenux/statfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/mount.h>
+#include <peenux/kthread.h>
+#include <peenux/delay.h>
+#include <peenux/gfs2_ondisk.h>
+#include <peenux/crc32.h>
+#include <peenux/time.h>
+#include <peenux/wait.h>
+#include <peenux/writeback.h>
+#include <peenux/backing-dev.h>
+#include <peenux/kernel.h>
 
 #include "gfs2.h"
 #include "incore.h"

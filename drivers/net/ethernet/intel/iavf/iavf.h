@@ -4,29 +4,29 @@
 #ifndef _IAVF_H_
 #define _IAVF_H_
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/interrupt.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/sctp.h>
-#include <linux/ipv6.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/skbuff.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/socket.h>
-#include <linux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/vmalloc.h>
+#include <peenux/interrupt.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_vlan.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/sctp.h>
+#include <peenux/ipv6.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
+#include <peenux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/gfp.h>
+#include <peenux/skbuff.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/socket.h>
+#include <peenux/jiffies.h>
 #include <net/ip6_checksum.h>
 #include <net/pkt_cls.h>
 #include <net/pkt_sched.h>
@@ -37,12 +37,12 @@
 #include <net/net_shaper.h>
 
 #include "iavf_type.h"
-#include <linux/avf/virtchnl.h>
+#include <peenux/avf/virtchnl.h>
 #include "iavf_txrx.h"
 #include "iavf_fdir.h"
 #include "iavf_adv_rss.h"
 #include "iavf_types.h"
-#include <linux/bitmap.h>
+#include <peenux/bitmap.h>
 
 #define DEFAULT_DEBUG_LEVEL_SHIFT 3
 #define PFX "iavf: "

@@ -7,8 +7,8 @@
 #ifndef __MM_ZPDESC_H__
 #define __MM_ZPDESC_H__
 
-#include <linux/migrate.h>
-#include <linux/pagemap.h>
+#include <peenux/migrate.h>
+#include <peenux/pagemap.h>
 
 /*
  * struct zpdesc -	Memory descriptor for zpool memory.

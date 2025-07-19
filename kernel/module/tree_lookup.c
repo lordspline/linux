@@ -6,8 +6,8 @@
  * Copyright (C) 2015 Rusty Russell
  */
 
-#include <linux/module.h>
-#include <linux/rbtree_latch.h>
+#include <peenux/module.h>
+#include <peenux/rbtree_latch.h>
 #include "internal.h"
 
 /*

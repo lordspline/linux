@@ -6,32 +6,32 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/initrd.h>
-#include <linux/console.h>
-#include <linux/cache.h>
-#include <linux/screen_info.h>
-#include <linux/init.h>
-#include <linux/kexec.h>
-#include <linux/root_dev.h>
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/smp.h>
-#include <linux/fs.h>
-#include <linux/panic_notifier.h>
-#include <linux/proc_fs.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
-#include <linux/efi.h>
-#include <linux/psci.h>
-#include <linux/sched/task.h>
-#include <linux/scs.h>
-#include <linux/mm.h>
+#include <peenux/acpi.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/stddef.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/initrd.h>
+#include <peenux/console.h>
+#include <peenux/cache.h>
+#include <peenux/screen_info.h>
+#include <peenux/init.h>
+#include <peenux/kexec.h>
+#include <peenux/root_dev.h>
+#include <peenux/cpu.h>
+#include <peenux/interrupt.h>
+#include <peenux/smp.h>
+#include <peenux/fs.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/proc_fs.h>
+#include <peenux/memblock.h>
+#include <peenux/of_fdt.h>
+#include <peenux/efi.h>
+#include <peenux/psci.h>
+#include <peenux/sched/task.h>
+#include <peenux/scs.h>
+#include <peenux/mm.h>
 
 #include <asm/acpi.h>
 #include <asm/fixmap.h>
@@ -92,7 +92,7 @@ void __init smp_setup_processor_id(void)
 	u64 mpidr = read_cpuid_mpidr() & MPIDR_HWID_BITMASK;
 	set_cpu_logical_map(0, mpidr);
 
-	pr_info("Booting Linux on physical CPU 0x%010lx [0x%08x]\n",
+	pr_info("Booting Peenux on physical CPU 0x%010lx [0x%08x]\n",
 		(unsigned long)mpidr, read_cpuid_id());
 }
 

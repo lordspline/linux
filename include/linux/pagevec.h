@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/linux/pagevec.h
+ * include/peenux/pagevec.h
  *
  * In many places it is efficient to batch an operation up against multiple
  * folios.  A folio_batch is a container which is used for that.
@@ -9,7 +9,7 @@
 #ifndef _LINUX_PAGEVEC_H
 #define _LINUX_PAGEVEC_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* 31 pointers + header align the folio_batch structure to a power of two */
 #define PAGEVEC_SIZE	31

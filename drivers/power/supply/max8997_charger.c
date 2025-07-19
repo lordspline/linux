@@ -5,16 +5,16 @@
 //  Copyright (C) 2011 Samsung Electronics
 //  MyungJoo Ham <myungjoo.ham@samsung.com>
 
-#include <linux/err.h>
-#include <linux/extcon.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/mfd/max8997.h>
-#include <linux/mfd/max8997-private.h>
-#include <linux/regulator/consumer.h>
-#include <linux/devm-helpers.h>
+#include <peenux/err.h>
+#include <peenux/extcon.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/mfd/max8997.h>
+#include <peenux/mfd/max8997-private.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/devm-helpers.h>
 
 /* MAX8997_REG_STATUS4 */
 #define DCINOK_SHIFT		1

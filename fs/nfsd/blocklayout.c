@@ -2,12 +2,12 @@
 /*
  * Copyright (c) 2014-2016 Christoph Hellwig.
  */
-#include <linux/exportfs.h>
-#include <linux/iomap.h>
-#include <linux/slab.h>
-#include <linux/pr.h>
+#include <peenux/exportfs.h>
+#include <peenux/iomap.h>
+#include <peenux/slab.h>
+#include <peenux/pr.h>
 
-#include <linux/nfsd/debug.h>
+#include <peenux/nfsd/debug.h>
 
 #include "blocklayoutxdr.h"
 #include "pnfs.h"
@@ -190,11 +190,11 @@ nfsd4_block_proc_layoutcommit(struct inode *inode,
 const struct nfsd4_layout_ops bl_layout_ops = {
 	/*
 	 * Pretend that we send notification to the client.  This is a blatant
-	 * lie to force recent Linux clients to cache our device IDs.
+	 * lie to force recent Peenux clients to cache our device IDs.
 	 * We rarely ever change the device ID, so the harm of leaking deviceids
 	 * for a while isn't too bad.  Unfortunately RFC5661 is a complete mess
 	 * in this regard, but I filed errata 4119 for this a while ago, and
-	 * hopefully the Linux client will eventually start caching deviceids
+	 * hopefully the Peenux client will eventually start caching deviceids
 	 * without this again.
 	 */
 	.notify_types		=
@@ -338,11 +338,11 @@ nfsd4_scsi_fence_client(struct nfs4_layout_stateid *ls, struct nfsd_file *file)
 const struct nfsd4_layout_ops scsi_layout_ops = {
 	/*
 	 * Pretend that we send notification to the client.  This is a blatant
-	 * lie to force recent Linux clients to cache our device IDs.
+	 * lie to force recent Peenux clients to cache our device IDs.
 	 * We rarely ever change the device ID, so the harm of leaking deviceids
 	 * for a while isn't too bad.  Unfortunately RFC5661 is a complete mess
 	 * in this regard, but I filed errata 4119 for this a while ago, and
-	 * hopefully the Linux client will eventually start caching deviceids
+	 * hopefully the Peenux client will eventually start caching deviceids
 	 * without this again.
 	 */
 	.notify_types		=

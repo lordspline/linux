@@ -9,19 +9,19 @@
 /* #define DEBUG */
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/irq.h>
-#include <linux/errno.h>
-#include <linux/acpi.h>
-#include <linux/memblock.h>
-#include <linux/earlycpio.h>
-#include <linux/initrd.h>
-#include <linux/security.h>
-#include <linux/kmemleak.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/smp.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/irq.h>
+#include <peenux/errno.h>
+#include <peenux/acpi.h>
+#include <peenux/memblock.h>
+#include <peenux/earlycpio.h>
+#include <peenux/initrd.h>
+#include <peenux/security.h>
+#include <peenux/kmemleak.h>
 #include "internal.h"
 
 #ifdef CONFIG_ACPI_CUSTOM_DSDT
@@ -363,7 +363,7 @@ static void __init check_multiple_madt(void)
 		pr_warn("BIOS bug: multiple APIC/MADT found, using %d\n",
 			acpi_apic_instance);
 		pr_warn("If \"acpi_apic_instance=%d\" works better, "
-			"notify linux-acpi@vger.kernel.org\n",
+			"notify peenux-acpi@vger.kernel.org\n",
 			acpi_apic_instance ? 0 : 2);
 		acpi_put_table(table);
 

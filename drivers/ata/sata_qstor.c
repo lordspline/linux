@@ -11,16 +11,16 @@
  *  as Documentation/driver-api/libata.rst
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gfp.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gfp.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <peenux/libata.h>
 
 #define DRV_NAME	"sata_qstor"
 #define DRV_VERSION	"0.09"

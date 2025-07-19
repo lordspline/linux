@@ -21,11 +21,11 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 #include <drm/amdgpu_drm.h>
 #include "smumgr.h"
 

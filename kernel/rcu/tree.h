@@ -6,18 +6,18 @@
  * Copyright IBM Corporation, 2008
  *
  * Author: Ingo Molnar <mingo@elte.hu>
- *	   Paul E. McKenney <paulmck@linux.ibm.com>
+ *	   Paul E. McKenney <paulmck@peenux.ibm.com>
  */
 
-#include <linux/cache.h>
-#include <linux/kthread.h>
-#include <linux/spinlock.h>
-#include <linux/rtmutex.h>
-#include <linux/threads.h>
-#include <linux/cpumask.h>
-#include <linux/seqlock.h>
-#include <linux/swait.h>
-#include <linux/rcu_node_tree.h>
+#include <peenux/cache.h>
+#include <peenux/kthread.h>
+#include <peenux/spinlock.h>
+#include <peenux/rtmutex.h>
+#include <peenux/threads.h>
+#include <peenux/cpumask.h>
+#include <peenux/seqlock.h>
+#include <peenux/swait.h>
+#include <peenux/rcu_node_tree.h>
 
 #include "rcu_segcblist.h"
 

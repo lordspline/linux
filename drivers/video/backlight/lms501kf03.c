@@ -6,11 +6,11 @@
  * Author: Jingoo Han  <jg1.han@samsung.com>
  */
 
-#include <linux/delay.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/lcd.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/wait.h>
 
 #define COMMAND_ONLY		0x00
 #define DATA_ONLY		0x01

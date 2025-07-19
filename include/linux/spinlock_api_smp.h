@@ -6,7 +6,7 @@
 #endif
 
 /*
- * include/linux/spinlock_api_smp.h
+ * include/peenux/spinlock_api_smp.h
  *
  * spinlock API declarations on SMP (and debug)
  * (implemented in kernel/spinlock.c)
@@ -180,7 +180,7 @@ static inline int __raw_spin_trylock_bh(raw_spinlock_t *lock)
 
 /* PREEMPT_RT has its own rwlock implementation */
 #ifndef CONFIG_PREEMPT_RT
-#include <linux/rwlock_api_smp.h>
+#include <peenux/rwlock_api_smp.h>
 #endif
 
 #endif /* __LINUX_SPINLOCK_API_SMP_H */

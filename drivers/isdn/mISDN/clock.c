@@ -24,13 +24,13 @@
  * counts the number of samples since. Time since last clock event is added.
  */
 
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/spinlock.h>
-#include <linux/ktime.h>
-#include <linux/mISDNif.h>
-#include <linux/export.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/spinlock.h>
+#include <peenux/ktime.h>
+#include <peenux/mISDNif.h>
+#include <peenux/export.h>
 #include "core.h"
 
 static u_int *debug;

@@ -4,10 +4,10 @@
  * By Richard Hirst (rhirst@linuxcare.com)
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 #include <asm/hardware.h>
 #include <asm/io.h>
 

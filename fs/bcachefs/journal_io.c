@@ -17,9 +17,9 @@
 #include "sb-clean.h"
 #include "trace.h"
 
-#include <linux/ioprio.h>
-#include <linux/string_choices.h>
-#include <linux/sched/sysctl.h>
+#include <peenux/ioprio.h>
+#include <peenux/string_choices.h>
+#include <peenux/sched/sysctl.h>
 
 void bch2_journal_pos_from_member_info_set(struct bch_fs *c)
 {

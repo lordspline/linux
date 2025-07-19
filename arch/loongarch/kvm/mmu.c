@@ -3,11 +3,11 @@
  * Copyright (C) 2020-2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/highmem.h>
-#include <linux/hugetlb.h>
-#include <linux/kvm_host.h>
-#include <linux/page-flags.h>
-#include <linux/uaccess.h>
+#include <peenux/highmem.h>
+#include <peenux/hugetlb.h>
+#include <peenux/kvm_host.h>
+#include <peenux/page-flags.h>
+#include <peenux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/pgalloc.h>
 #include <asm/tlb.h>

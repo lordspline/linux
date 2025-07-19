@@ -9,22 +9,22 @@
  *  Based on max3107.c, by Aavamobile
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/spi/spi.h>
-#include <linux/uaccess.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/spi/spi.h>
+#include <peenux/uaccess.h>
 
 #define MAX310X_NAME			"max310x"
 #define MAX310X_MAJOR			204

@@ -2,7 +2,7 @@
 /* Copyright (C) 2023. Huawei Technologies Co., Ltd */
 #include <test_progs.h>
 
-#include "linux/filter.h"
+#include "peenux/filter.h"
 #include "kptr_xchg_inline.skel.h"
 
 void test_kptr_xchg_inline(void)

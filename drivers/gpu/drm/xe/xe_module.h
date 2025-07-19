@@ -6,7 +6,7 @@
 #ifndef _XE_MODULE_H_
 #define _XE_MODULE_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* Module modprobe variables */
 struct xe_modparam {

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/io_uring.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/io_uring.h>
 
-#include <uapi/linux/io_uring.h>
+#include <uapi/peenux/io_uring.h>
 
 #include "../kernel/futex/futex.h"
 #include "io_uring.h"

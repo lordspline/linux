@@ -13,21 +13,21 @@
 // the Samsung pinctrl/gpiolib driver. It also includes the implementation of
 // external gpio and wakeup interrupt support.
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
-#include <linux/regmap.h>
-#include <linux/err.h>
-#include <linux/soc/samsung/exynos-pmu.h>
-#include <linux/soc/samsung/exynos-regs-pmu.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string_choices.h>
+#include <peenux/regmap.h>
+#include <peenux/err.h>
+#include <peenux/soc/samsung/exynos-pmu.h>
+#include <peenux/soc/samsung/exynos-regs-pmu.h>
 
 #include "pinctrl-samsung.h"
 #include "pinctrl-exynos.h"

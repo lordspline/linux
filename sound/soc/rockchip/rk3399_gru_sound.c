@@ -5,13 +5,13 @@
  * Copyright (c) 2016, ROCKCHIP CORPORATION.  All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/spi/spi.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/spi/spi.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

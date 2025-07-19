@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0-only
-// Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018-2020, The Peenux Foundation. All rights reserved.
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/pm_runtime.h>
-#include <linux/component.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/component.h>
 #include <sound/tlv.h>
-#include <linux/of.h>
+#include <peenux/of.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
-#include <linux/regmap.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
-#include <linux/mux/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/mux/consumer.h>
+#include <peenux/regulator/consumer.h>
 
 #include "wcd-clsh-v2.h"
 #include "wcd-mbhc-v2.h"

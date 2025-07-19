@@ -24,9 +24,9 @@ static const char *const big_c_string =
 /* offset=81 */ "user_time\000tool\000User (non-kernel) time in nanoseconds\000config=2\000\00000\000\000\000\000\000"
 /* offset=151 */ "system_time\000tool\000System/kernel time in nanoseconds\000config=3\000\00000\000\000\000\000\000"
 /* offset=219 */ "has_pmem\000tool\0001 if persistent memory installed otherwise 0\000config=4\000\00000\000\000\000\000\000"
-/* offset=295 */ "num_cores\000tool\000Number of cores. A core consists of 1 or more thread, with each thread being associated with a logical Linux CPU\000config=5\000\00000\000\000\000\000\000"
-/* offset=440 */ "num_cpus\000tool\000Number of logical Linux CPUs. There may be multiple such CPUs on a core\000config=6\000\00000\000\000\000\000\000"
-/* offset=543 */ "num_cpus_online\000tool\000Number of online logical Linux CPUs. There may be multiple such CPUs on a core\000config=7\000\00000\000\000\000\000\000"
+/* offset=295 */ "num_cores\000tool\000Number of cores. A core consists of 1 or more thread, with each thread being associated with a logical Peenux CPU\000config=5\000\00000\000\000\000\000\000"
+/* offset=440 */ "num_cpus\000tool\000Number of logical Peenux CPUs. There may be multiple such CPUs on a core\000config=6\000\00000\000\000\000\000\000"
+/* offset=543 */ "num_cpus_online\000tool\000Number of online logical Peenux CPUs. There may be multiple such CPUs on a core\000config=7\000\00000\000\000\000\000\000"
 /* offset=660 */ "num_dies\000tool\000Number of dies. Each die has 1 or more cores\000config=8\000\00000\000\000\000\000\000"
 /* offset=736 */ "num_packages\000tool\000Number of packages. Each package has 1 or more die\000config=9\000\00000\000\000\000\000\000"
 /* offset=822 */ "slots\000tool\000Number of functional units that in parallel can execute parts of an instruction\000config=0xa\000\00000\000\000\000\000\000"
@@ -77,9 +77,9 @@ static const char *const big_c_string =
 static const struct compact_pmu_event pmu_events__common_tool[] = {
 { 5 }, /* duration_time\000tool\000Wall clock interval time in nanoseconds\000config=1\000\00000\000\000\000\000\000 */
 { 219 }, /* has_pmem\000tool\0001 if persistent memory installed otherwise 0\000config=4\000\00000\000\000\000\000\000 */
-{ 295 }, /* num_cores\000tool\000Number of cores. A core consists of 1 or more thread, with each thread being associated with a logical Linux CPU\000config=5\000\00000\000\000\000\000\000 */
-{ 440 }, /* num_cpus\000tool\000Number of logical Linux CPUs. There may be multiple such CPUs on a core\000config=6\000\00000\000\000\000\000\000 */
-{ 543 }, /* num_cpus_online\000tool\000Number of online logical Linux CPUs. There may be multiple such CPUs on a core\000config=7\000\00000\000\000\000\000\000 */
+{ 295 }, /* num_cores\000tool\000Number of cores. A core consists of 1 or more thread, with each thread being associated with a logical Peenux CPU\000config=5\000\00000\000\000\000\000\000 */
+{ 440 }, /* num_cpus\000tool\000Number of logical Peenux CPUs. There may be multiple such CPUs on a core\000config=6\000\00000\000\000\000\000\000 */
+{ 543 }, /* num_cpus_online\000tool\000Number of online logical Peenux CPUs. There may be multiple such CPUs on a core\000config=7\000\00000\000\000\000\000\000 */
 { 660 }, /* num_dies\000tool\000Number of dies. Each die has 1 or more cores\000config=8\000\00000\000\000\000\000\000 */
 { 736 }, /* num_packages\000tool\000Number of packages. Each package has 1 or more die\000config=9\000\00000\000\000\000\000\000 */
 { 822 }, /* slots\000tool\000Number of functional units that in parallel can execute parts of an instruction\000config=0xa\000\00000\000\000\000\000\000 */

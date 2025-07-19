@@ -20,22 +20,22 @@
  * Vojtech Pavlik, Simunkova 1594, Prague 8, 182 00 Czech Republic
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/crc32.h>
-#include <linux/bitops.h>
-#include <linux/gfp.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/ethtool.h>
+#include <peenux/crc32.h>
+#include <peenux/bitops.h>
+#include <peenux/gfp.h>
+#include <peenux/uaccess.h>
 
 #undef DEBUG
 
-#include <linux/usb.h>
+#include <peenux/usb.h>
 
 /*
  * Version information.

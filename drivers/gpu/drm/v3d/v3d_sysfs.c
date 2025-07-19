@@ -3,8 +3,8 @@
  * Copyright © 2023 Igalia S.L.
  */
 
-#include <linux/sched/clock.h>
-#include <linux/sysfs.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sysfs.h>
 
 #include "v3d_drv.h"
 

@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/mman.h>
-#include <linux/mmzone.h>
-#include <linux/memblock.h>
-#include <linux/proc_fs.h>
-#include <linux/percpu.h>
-#include <linux/seq_file.h>
-#include <linux/swap.h>
-#include <linux/vmstat.h>
-#include <linux/atomic.h>
-#include <linux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/hugetlb.h>
+#include <peenux/mman.h>
+#include <peenux/mmzone.h>
+#include <peenux/memblock.h>
+#include <peenux/proc_fs.h>
+#include <peenux/percpu.h>
+#include <peenux/seq_file.h>
+#include <peenux/swap.h>
+#include <peenux/vmstat.h>
+#include <peenux/atomic.h>
+#include <peenux/vmalloc.h>
 #ifdef CONFIG_CMA
-#include <linux/cma.h>
+#include <peenux/cma.h>
 #endif
-#include <linux/zswap.h>
+#include <peenux/zswap.h>
 #include <asm/page.h>
 #include "internal.h"
 

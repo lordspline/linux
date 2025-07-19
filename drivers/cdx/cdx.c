@@ -22,7 +22,7 @@
  *          |    Application CPUs (APU)            |
  *          |                                      |
  *          |                    CDX device drivers|
- *          |     Linux OS                |        |
+ *          |     Peenux OS                |        |
  *          |                        CDX bus       |
  *          |                             |        |
  *          |                     CDX controller   |
@@ -55,20 +55,20 @@
  * done using memory mapped interface provided by the RPU to APU.
  */
 
-#include <linux/init.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/idr.h>
-#include <linux/cdx/cdx_bus.h>
-#include <linux/iommu.h>
-#include <linux/dma-map-ops.h>
-#include <linux/debugfs.h>
+#include <peenux/init.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/idr.h>
+#include <peenux/cdx/cdx_bus.h>
+#include <peenux/iommu.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/debugfs.h>
 #include "cdx.h"
 
 /* Default DMA mask for devices on a CDX bus */

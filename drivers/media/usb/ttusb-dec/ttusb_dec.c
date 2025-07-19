@@ -2,24 +2,24 @@
 /*
  * TTUSB DEC Driver
  *
- * Copyright (C) 2003-2004 Alex Woods <linux-dvb@giblets.org>
+ * Copyright (C) 2003-2004 Alex Woods <peenux-dvb@giblets.org>
  * IR support by Peter Beutner <p.beutner@gmx.net>
  */
 
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/usb.h>
-#include <linux/interrupt.h>
-#include <linux/firmware.h>
-#include <linux/crc32.h>
-#include <linux/init.h>
-#include <linux/input.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/usb.h>
+#include <peenux/interrupt.h>
+#include <peenux/firmware.h>
+#include <peenux/crc32.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
 
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
 
 #include <media/dmxdev.h>
 #include <media/dvb_demux.h>
@@ -1781,7 +1781,7 @@ static struct usb_driver ttusb_dec_driver = {
 
 module_usb_driver(ttusb_dec_driver);
 
-MODULE_AUTHOR("Alex Woods <linux-dvb@giblets.org>");
+MODULE_AUTHOR("Alex Woods <peenux-dvb@giblets.org>");
 MODULE_DESCRIPTION(DRIVER_NAME);
 MODULE_LICENSE("GPL");
 MODULE_DEVICE_TABLE(usb, ttusb_dec_table);

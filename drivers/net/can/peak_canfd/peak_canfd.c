@@ -5,9 +5,9 @@
  * Copyright (C) 2016  PEAK System-Technik GmbH
  */
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/ethtool.h>
+#include <peenux/can.h>
+#include <peenux/can/dev.h>
+#include <peenux/ethtool.h>
 
 #include "peak_canfd_user.h"
 

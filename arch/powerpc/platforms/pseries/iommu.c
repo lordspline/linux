@@ -10,22 +10,22 @@
  * Dynamic DMA mapping support, pSeries-specific parts, both SMP and LPAR.
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/crash_dump.h>
-#include <linux/memory.h>
-#include <linux/vmalloc.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/iommu.h>
-#include <linux/rculist.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/crash_dump.h>
+#include <peenux/memory.h>
+#include <peenux/vmalloc.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/iommu.h>
+#include <peenux/rculist.h>
 #include <asm/io.h>
 #include <asm/prom.h>
 #include <asm/rtas.h>
@@ -593,8 +593,8 @@ static void iommu_table_setparms(struct pci_controller *phb,
 	}
 
 	node = phb->dn;
-	basep = of_get_property(node, "linux,tce-base", NULL);
-	sizep = of_get_property(node, "linux,tce-size", NULL);
+	basep = of_get_property(node, "peenux,tce-base", NULL);
+	sizep = of_get_property(node, "peenux,tce-size", NULL);
 	if (basep == NULL || sizep == NULL) {
 		printk(KERN_ERR "PCI_DMA: iommu_table_setparms: %pOF has "
 				"missing tce entries !\n", dn);
@@ -2515,7 +2515,7 @@ static struct notifier_block iommu_reconfig_nb = {
 /* These are called very early. */
 void __init iommu_init_early_pSeries(void)
 {
-	if (of_chosen && of_get_property(of_chosen, "linux,iommu-off", NULL))
+	if (of_chosen && of_get_property(of_chosen, "peenux,iommu-off", NULL))
 		return;
 
 	if (firmware_has_feature(FW_FEATURE_LPAR)) {

@@ -2,17 +2,17 @@
 // Copyright (c) 2012 Intel Corporation
 
 /*
- * Based on linux/modules/camera/drivers/media/i2c/imx/dw9719.c from:
+ * Based on peenux/modules/camera/drivers/media/i2c/imx/dw9719.c from:
  * https://github.com/ZenfoneArea/android_kernel_asus_zenfone5 and
  * latte-l-oss/drivers/external_drivers/camera/drivers/media/i2c/micam/dw9761.c
  * from: https://github.com/MiCode/Xiaomi_Kernel_OpenSource/
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
 
 #include <media/v4l2-cci.h>
 #include <media/v4l2-common.h>

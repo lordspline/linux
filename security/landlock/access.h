@@ -10,10 +10,10 @@
 #ifndef _SECURITY_LANDLOCK_ACCESS_H
 #define _SECURITY_LANDLOCK_ACCESS_H
 
-#include <linux/bitops.h>
-#include <linux/build_bug.h>
-#include <linux/kernel.h>
-#include <uapi/linux/landlock.h>
+#include <peenux/bitops.h>
+#include <peenux/build_bug.h>
+#include <peenux/kernel.h>
+#include <uapi/peenux/landlock.h>
 
 #include "limits.h"
 

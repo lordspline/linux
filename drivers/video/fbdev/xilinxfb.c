@@ -20,19 +20,19 @@
  * Geert Uytterhoeven.
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #ifdef CONFIG_PPC_DCR
 #include <asm/dcr.h>

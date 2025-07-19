@@ -6,8 +6,8 @@
 #ifndef _AMDXDNA_PCI_DRV_H_
 #define _AMDXDNA_PCI_DRV_H_
 
-#include <linux/workqueue.h>
-#include <linux/xarray.h>
+#include <peenux/workqueue.h>
+#include <peenux/xarray.h>
 
 #define XDNA_INFO(xdna, fmt, args...)	drm_info(&(xdna)->ddev, fmt, ##args)
 #define XDNA_WARN(xdna, fmt, args...)	drm_warn(&(xdna)->ddev, "%s: "fmt, __func__, ##args)

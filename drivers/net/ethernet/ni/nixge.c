@@ -4,19 +4,19 @@
  * Author: Moritz Fischer <mdf@kernel.org>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/skbuff.h>
-#include <linux/phy.h>
-#include <linux/mii.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/ethtool.h>
-#include <linux/iopoll.h>
+#include <peenux/etherdevice.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/platform_device.h>
+#include <peenux/skbuff.h>
+#include <peenux/phy.h>
+#include <peenux/mii.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/ethtool.h>
+#include <peenux/iopoll.h>
 
 #define TX_BD_NUM		64
 #define RX_BD_NUM		128

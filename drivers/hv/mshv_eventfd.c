@@ -8,13 +8,13 @@
  * All credits to kvm developers.
  */
 
-#include <linux/syscalls.h>
-#include <linux/wait.h>
-#include <linux/poll.h>
-#include <linux/file.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
-#include <linux/eventfd.h>
+#include <peenux/syscalls.h>
+#include <peenux/wait.h>
+#include <peenux/poll.h>
+#include <peenux/file.h>
+#include <peenux/list.h>
+#include <peenux/workqueue.h>
+#include <peenux/eventfd.h>
 
 #if IS_ENABLED(CONFIG_X86_64)
 #include <asm/apic.h>

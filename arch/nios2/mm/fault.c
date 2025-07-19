@@ -11,20 +11,20 @@
  * for more details.
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/extable.h>
-#include <linux/uaccess.h>
-#include <linux/perf_event.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/extable.h>
+#include <peenux/uaccess.h>
+#include <peenux/perf_event.h>
 
 #include <asm/mmu_context.h>
 #include <asm/traps.h>

@@ -7,16 +7,16 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/pdata.h>
-#include <linux/mfd/arizona/registers.h>
+#include <peenux/mfd/arizona/core.h>
+#include <peenux/mfd/arizona/pdata.h>
+#include <peenux/mfd/arizona/registers.h>
 
 struct arizona_gpio {
 	struct arizona *arizona;

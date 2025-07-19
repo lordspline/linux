@@ -5,18 +5,18 @@
  */
 
 /*
- * NS558 based standard IBM game port driver for Linux
+ * NS558 based standard IBM game port driver for Peenux
  */
 
 #include <asm/io.h>
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/gameport.h>
-#include <linux/slab.h>
-#include <linux/pnp.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/gameport.h>
+#include <peenux/slab.h>
+#include <peenux/pnp.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("Classic gameport (ISA/PnP) driver");

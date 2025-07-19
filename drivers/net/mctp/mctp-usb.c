@@ -8,16 +8,16 @@
  * Copyright (C) 2024-2025 Code Construct Pty Ltd
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/usb.h>
-#include <linux/usb/mctp-usb.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/usb.h>
+#include <peenux/usb/mctp-usb.h>
 
 #include <net/mctp.h>
 #include <net/mctpdevice.h>
 #include <net/pkt_sched.h>
 
-#include <uapi/linux/if_arp.h>
+#include <uapi/peenux/if_arp.h>
 
 struct mctp_usb {
 	struct usb_device *usbdev;

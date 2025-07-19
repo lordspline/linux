@@ -9,11 +9,11 @@
 #include "fman.h"
 #include "mac.h"
 
-#include <linux/slab.h>
-#include <linux/bitrev.h>
-#include <linux/io.h>
-#include <linux/crc32.h>
-#include <linux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/bitrev.h>
+#include <peenux/io.h>
+#include <peenux/crc32.h>
+#include <peenux/netdevice.h>
 
 /* Transmit Inter-Packet Gap Length Register (TX_IPG_LENGTH) */
 #define TGEC_TX_IPG_LENGTH_MASK	0x000003ff

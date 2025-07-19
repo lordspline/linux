@@ -11,22 +11,22 @@
  * S3C USB2.0 High-speed / OtG driver
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mutex.h>
+#include <peenux/seq_file.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/phy.h>
-#include <linux/usb/composite.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/phy.h>
+#include <peenux/usb/composite.h>
 
 
 #include "core.h"

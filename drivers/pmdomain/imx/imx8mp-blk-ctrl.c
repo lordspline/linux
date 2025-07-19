@@ -4,17 +4,17 @@
  * Copyright 2022 Pengutronix, Lucas Stach <kernel@pengutronix.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/interconnect.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/power/imx8mp-power.h>
 

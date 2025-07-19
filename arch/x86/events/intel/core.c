@@ -8,13 +8,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/nmi.h>
-#include <linux/kvm_host.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/nmi.h>
+#include <peenux/kvm_host.h>
 
 #include <asm/cpufeature.h>
 #include <asm/debugreg.h>

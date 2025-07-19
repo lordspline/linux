@@ -7,18 +7,18 @@
  * Author: Maxime Coquelin <maxime.coquelin@st.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
 
 /* SSC registers */
 #define SSC_BRG				0x000

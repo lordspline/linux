@@ -7,13 +7,13 @@
  * Copyright (c) 2023, Oracle and/or its affiliates.
  */
 
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/inet.h>
-#include <linux/rhashtable.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/inet.h>
+#include <peenux/rhashtable.h>
 
 #include <net/sock.h>
 #include <net/genetlink.h>
@@ -21,7 +21,7 @@
 
 #include <kunit/visibility.h>
 
-#include <uapi/linux/handshake.h>
+#include <uapi/peenux/handshake.h>
 #include "handshake.h"
 
 #include <trace/events/handshake.h>

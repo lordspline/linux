@@ -10,15 +10,15 @@
  * Tomasz Figa <t.figa@samsung.com>
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/media-bus-format.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
 
 #include <video/mipi_display.h>
 

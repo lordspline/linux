@@ -5,34 +5,34 @@
  * USB Power Delivery protocol stack.
  */
 
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/hrtimer.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/power_supply.h>
-#include <linux/proc_fs.h>
-#include <linux/property.h>
-#include <linux/sched/clock.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
-#include <linux/usb.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/pd_ado.h>
-#include <linux/usb/pd_bdo.h>
-#include <linux/usb/pd_ext_sdb.h>
-#include <linux/usb/pd_vdo.h>
-#include <linux/usb/role.h>
-#include <linux/usb/tcpm.h>
-#include <linux/usb/typec_altmode.h>
+#include <peenux/completion.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/hrtimer.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/power_supply.h>
+#include <peenux/proc_fs.h>
+#include <peenux/property.h>
+#include <peenux/sched/clock.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string_choices.h>
+#include <peenux/usb.h>
+#include <peenux/usb/pd.h>
+#include <peenux/usb/pd_ado.h>
+#include <peenux/usb/pd_bdo.h>
+#include <peenux/usb/pd_ext_sdb.h>
+#include <peenux/usb/pd_vdo.h>
+#include <peenux/usb/role.h>
+#include <peenux/usb/tcpm.h>
+#include <peenux/usb/typec_altmode.h>
 
-#include <uapi/linux/sched/types.h>
+#include <uapi/peenux/sched/types.h>
 
 #define FOREACH_STATE(S)			\
 	S(INVALID_STATE),			\

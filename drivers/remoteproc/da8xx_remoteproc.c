@@ -5,18 +5,18 @@
  * Copyright (C) 2013 Texas Instruments, Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/reset.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/remoteproc.h>
 
 #include "remoteproc_internal.h"
 

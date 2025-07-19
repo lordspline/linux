@@ -7,15 +7,15 @@
  * Author: Dimitris Papastamos <dp@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

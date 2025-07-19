@@ -7,11 +7,11 @@
 #include "pvr_fw_trace.h"
 #include "pvr_params.h"
 
-#include <linux/dcache.h>
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <peenux/dcache.h>
+#include <peenux/debugfs.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>

@@ -1,5 +1,5 @@
 /*
- * tc35815.c: A TOSHIBA TC35815CF PCI 10/100Mbps ethernet driver for linux.
+ * tc35815.c: A TOSHIBA TC35815CF PCI 10/100Mbps ethernet driver for peenux.
  *
  * Based on skelton.c by Donald Becker.
  *
@@ -26,27 +26,27 @@
 static const char version[] = "tc35815.c:v" DRV_VERSION "\n";
 #define MODNAME			"tc35815"
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/if_vlan.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/phy.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
-#include <linux/prefetch.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/in.h>
+#include <peenux/if_vlan.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/phy.h>
+#include <peenux/workqueue.h>
+#include <peenux/platform_device.h>
+#include <peenux/prefetch.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>
 

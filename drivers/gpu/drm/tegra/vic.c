@@ -3,16 +3,16 @@
  * Copyright (c) 2015, NVIDIA Corporation.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/host1x.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/host1x.h>
+#include <peenux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
 
 #include <soc/tegra/pmc.h>
 

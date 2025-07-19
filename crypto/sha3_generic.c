@@ -10,10 +10,10 @@
  */
 #include <crypto/internal/hash.h>
 #include <crypto/sha3.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/unaligned.h>
 
 /*
  * On some 32-bit architectures (h8300), GCC ends up using

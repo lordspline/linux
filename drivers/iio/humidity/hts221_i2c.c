@@ -7,12 +7,12 @@
  * Lorenzo Bianconi <lorenzo.bianconi@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/regmap.h>
 
 #include "hts221.h"
 

@@ -8,10 +8,10 @@
 #ifndef _LINUX_SCMI_PROTOCOL_H
 #define _LINUX_SCMI_PROTOCOL_H
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/notifier.h>
+#include <peenux/types.h>
 
 #define SCMI_MAX_STR_SIZE		64
 #define SCMI_SHORT_NAME_MAX_SIZE	16

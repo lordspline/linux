@@ -4,15 +4,15 @@
  *
  * Copyright (C) Daniel Lezcano <daniel.lezcano@linaro.org>
  */
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/sched_clock.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched_clock.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
 #define TIMER_NAME "rk_timer"
 

@@ -3,14 +3,14 @@
  * Implement the manual drop-all-pagecache function
  */
 
-#include <linux/pagemap.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/writeback.h>
-#include <linux/sysctl.h>
-#include <linux/gfp.h>
-#include <linux/swap.h>
+#include <peenux/pagemap.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/writeback.h>
+#include <peenux/sysctl.h>
+#include <peenux/gfp.h>
+#include <peenux/swap.h>
 #include "internal.h"
 
 /* A global variable is a bit ugly, but it keeps the code simple */

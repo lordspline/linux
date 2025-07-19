@@ -6,18 +6,18 @@
  * Copyright (C) 2024 Chen Wang <unicorn_wang@outlook.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <peenux/irqchip/irq-msi-lib.h>
 
 struct sg204x_msi_chip_info {
 	const struct irq_chip		*irqchip;

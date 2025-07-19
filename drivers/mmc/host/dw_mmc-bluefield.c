@@ -3,15 +3,15 @@
  * Copyright (C) 2018 Mellanox Technologies.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include "dw_mmc.h"
 #include "dw_mmc-pltfm.h"

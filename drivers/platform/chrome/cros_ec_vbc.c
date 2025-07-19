@@ -4,13 +4,13 @@
 // Copyright (C) 2012 Google, Inc.
 // Copyright (C) 2015 Collabora Ltd.
 
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/slab.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/slab.h>
 
 #define DRV_NAME "cros-ec-vbc"
 

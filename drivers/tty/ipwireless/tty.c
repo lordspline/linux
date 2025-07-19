@@ -16,19 +16,19 @@
  *   Copyright (C) 2007 David Sterba
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/ppp_defs.h>
-#include <linux/if.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/sched.h>
-#include <linux/serial.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/ppp_defs.h>
+#include <peenux/if.h>
+#include <peenux/ppp-ioctl.h>
+#include <peenux/sched.h>
+#include <peenux/serial.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/uaccess.h>
 
 #include "tty.h"
 #include "network.h"

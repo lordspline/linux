@@ -6,20 +6,20 @@
  * Copyright (C) 2014 Google, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spinlock.h>
 
 #define SPFI_DEVICE_PARAMETER(x)		(0x00 + 0x4 * (x))
 #define SPFI_DEVICE_PARAMETER_BITCLK_SHIFT	24

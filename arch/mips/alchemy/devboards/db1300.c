@@ -5,23 +5,23 @@
  * (c) 2009 Manuel Lauss <manuel.lauss@googlemail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/gpio.h>
-#include <linux/gpio_keys.h>
-#include <linux/init.h>
-#include <linux/input.h>	/* KEY_* codes */
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/leds.h>
-#include <linux/interrupt.h>
-#include <linux/ata_platform.h>
-#include <linux/mmc/host.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/platnand.h>
-#include <linux/platform_device.h>
-#include <linux/smsc911x.h>
-#include <linux/wm97xx.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/init.h>
+#include <peenux/input.h>	/* KEY_* codes */
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/leds.h>
+#include <peenux/interrupt.h>
+#include <peenux/ata_platform.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/platnand.h>
+#include <peenux/platform_device.h>
+#include <peenux/smsc911x.h>
+#include <peenux/wm97xx.h>
 
 #include <asm/mach-au1x00/au1000.h>
 #include <asm/mach-au1x00/gpio-au1300.h>

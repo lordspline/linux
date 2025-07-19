@@ -3,13 +3,13 @@
  * Copyright (C) 2003-2015 Broadcom Corporation
  * All Rights Reserved
  */
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/interrupt.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/interrupt.h>
 
 /* SPI Configuration Register */
 #define XLP_SPI_CONFIG			0x00

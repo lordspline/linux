@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *	Video for Linux Two
+ *	Video for Peenux Two
  *
- *	A generic video device interface for the LINUX operating system
+ *	A generic video device interface for the PEENUX operating system
  *	using a set of device structures/vectors for low level operations.
  *
  *	This file replaces the videodev.c file that comes with the
@@ -13,9 +13,9 @@
  */
 
 /*
- * Video capture interface for Linux
+ * Video capture interface for Peenux
  *
- *	A generic video device interface for the LINUX operating system
+ *	A generic video device interface for the PEENUX operating system
  *	using a set of device structures/vectors for low level operations.
  *
  * Author:	Alan Cox, <alan@lxorguk.ukuu.org.uk>
@@ -34,20 +34,20 @@
  * Added Gerd Knorrs v4l1 enhancements (Justin Schoeman)
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 #include <asm/div64.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>
 
-#include <linux/videodev2.h>
+#include <peenux/videodev2.h>
 
 /*
  *

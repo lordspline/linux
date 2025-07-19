@@ -3,13 +3,13 @@
  * Secure VM platform
  *
  * Copyright 2018 IBM Corporation
- * Author: Anshuman Khandual <khandual@linux.vnet.ibm.com>
+ * Author: Anshuman Khandual <khandual@peenux.vnet.ibm.com>
  */
 
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/mem_encrypt.h>
-#include <linux/cc_platform.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/mem_encrypt.h>
+#include <peenux/cc_platform.h>
 #include <asm/machdep.h>
 #include <asm/svm.h>
 #include <asm/swiotlb.h>

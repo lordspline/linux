@@ -7,16 +7,16 @@
  * Author: Patrick Rudolph <patrick.rudolph@9elements.com>
  */
 
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/leds.h>
-#include <linux/mfd/max5970.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/leds.h>
+#include <peenux/mfd/max5970.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
 #define ldev_to_maxled(c)       container_of(c, struct max5970_led, cdev)
 

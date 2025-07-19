@@ -8,30 +8,30 @@
  * Copyright (C) 2004 Pengutronix
  */
 
-#include <linux/circ_buf.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/platform_device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/rational.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/dma-mapping.h>
+#include <peenux/circ_buf.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/platform_device.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/ktime.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/rational.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/dma-mapping.h>
 
 #include <asm/irq.h>
-#include <linux/dma/imx-dma.h>
+#include <peenux/dma/imx-dma.h>
 
 #include "serial_mctrl_gpio.h"
 

@@ -6,9 +6,9 @@
  * TODO: try to use extents tree (instead of array)
  */
 
-#include <linux/blkdev.h>
-#include <linux/fs.h>
-#include <linux/log2.h>
+#include <peenux/blkdev.h>
+#include <peenux/fs.h>
+#include <peenux/log2.h>
 
 #include "debug.h"
 #include "ntfs.h"

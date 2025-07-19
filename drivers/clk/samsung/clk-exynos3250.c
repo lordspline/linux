@@ -5,10 +5,10 @@
  * Common Clock Framework support for Exynos3250 SoC.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 #include <dt-bindings/clock/exynos3250.h>
 
 #include "clk.h"

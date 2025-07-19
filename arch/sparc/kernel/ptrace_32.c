@@ -6,23 +6,23 @@
  * Based upon code written by Ross Biro, Linus Torvalds, Bob Manson,
  * and David Mosberger.
  *
- * Added Linux support -miguel (weird, eh?, the original code was meant
+ * Added Peenux support -miguel (weird, eh?, the original code was meant
  * to emulate SunOS).
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/smp.h>
-#include <linux/security.h>
-#include <linux/signal.h>
-#include <linux/regset.h>
-#include <linux/elf.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/smp.h>
+#include <peenux/security.h>
+#include <peenux/signal.h>
+#include <peenux/regset.h>
+#include <peenux/elf.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/cacheflush.h>
 
 #include "kernel.h"

@@ -6,19 +6,19 @@
 //
 // Author: Radu Pirea <radu.pirea@microchip.com>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-direction.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-direction.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
-#include <linux/spi/spi.h>
+#include <peenux/spi/spi.h>
 
 #define US_CR			0x00
 #define US_MR			0x04

@@ -5,25 +5,25 @@
 // Copyright (C) 2023 Cirrus Logic, Inc. and
 //                    Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/completion.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 #include <sound/cs-amp-lib.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

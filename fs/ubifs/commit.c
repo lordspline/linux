@@ -31,9 +31,9 @@
  * cache.
  */
 
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
+#include <peenux/freezer.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
 #include "ubifs.h"
 
 /*

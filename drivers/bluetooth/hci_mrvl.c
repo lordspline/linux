@@ -7,14 +7,14 @@
  *  Copyright (C) 2016  Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/of.h>
-#include <linux/serdev.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/tty.h>
+#include <peenux/of.h>
+#include <peenux/serdev.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

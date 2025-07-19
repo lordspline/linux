@@ -8,16 +8,16 @@
  * auxiliary devices for every device within the FPGA.
  */
 
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/misc/keba.h>
-#include <linux/module.h>
-#include <linux/mtd/partitions.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/pci.h>
-#include <linux/spi/flash.h>
-#include <linux/spi/spi.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/misc/keba.h>
+#include <peenux/module.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/pci.h>
+#include <peenux/spi/flash.h>
+#include <peenux/spi/spi.h>
 
 #define CP500 "cp500"
 

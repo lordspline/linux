@@ -2,7 +2,7 @@
 #ifndef __ASM_TOPOLOGY_H
 #define __ASM_TOPOLOGY_H
 
-#include <linux/cpumask.h>
+#include <peenux/cpumask.h>
 
 #ifdef CONFIG_NUMA
 #include <asm/numa.h>
@@ -15,7 +15,7 @@ int pcibus_to_node(struct pci_bus *bus);
 
 #endif /* CONFIG_NUMA */
 
-#include <linux/arch_topology.h>
+#include <peenux/arch_topology.h>
 
 void update_freq_counters_refs(void);
 

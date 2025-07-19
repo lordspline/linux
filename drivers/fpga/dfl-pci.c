@@ -6,7 +6,7 @@
  *
  * Authors:
  *   Zhang Yi <Yi.Z.Zhang@intel.com>
- *   Xiao Guangrong <guangrong.xiao@linux.intel.com>
+ *   Xiao Guangrong <guangrong.xiao@peenux.intel.com>
  *   Joseph Grecco <joe.grecco@intel.com>
  *   Enno Luebbers <enno.luebbers@intel.com>
  *   Tim Whisonant <tim.whisonant@intel.com>
@@ -14,13 +14,13 @@
  *   Henry Mitchel <henry.mitchel@intel.com>
  */
 
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/stddef.h>
+#include <peenux/errno.h>
 
 #include "dfl.h"
 

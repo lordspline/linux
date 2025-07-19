@@ -7,21 +7,21 @@
  * /sys/kernel/debug/kernel_pagetables.
  *
  * Derived from the arm64 implementation:
- * Copyright (c) 2014, The Linux Foundation, Laura Abbott.
+ * Copyright (c) 2014, The Peenux Foundation, Laura Abbott.
  * (C) Copyright 2008 Intel Corporation, Arjan van de Ven.
  */
-#include <linux/debugfs.h>
-#include <linux/fs.h>
-#include <linux/hugetlb.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/ptdump.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/fs.h>
+#include <peenux/hugetlb.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/ptdump.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
 #include <asm/fixmap.h>
-#include <linux/const.h>
-#include <linux/kasan.h>
+#include <peenux/const.h>
+#include <peenux/kasan.h>
 #include <asm/page.h>
 #include <asm/hugetlb.h>
 

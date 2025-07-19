@@ -3,10 +3,10 @@
  * Copyright © 2025 Intel Corporation
  */
 
-#include <linux/configfs.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/configfs.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "xe_configfs.h"
 #include "xe_module.h"

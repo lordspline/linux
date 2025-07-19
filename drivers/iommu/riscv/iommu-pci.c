@@ -11,11 +11,11 @@
  *	Nick Kossifidis <mick@ics.forth.gr>
  */
 
-#include <linux/compiler.h>
-#include <linux/init.h>
-#include <linux/iommu.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
+#include <peenux/compiler.h>
+#include <peenux/init.h>
+#include <peenux/iommu.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
 
 #include "iommu-bits.h"
 #include "iommu.h"

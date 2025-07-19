@@ -8,33 +8,33 @@
  * the swap device and, in the case where decompressing from RAM is faster
  * than reading from the swap device, can also improve workload performance.
  *
- * Copyright (C) 2012  Seth Jennings <sjenning@linux.vnet.ibm.com>
+ * Copyright (C) 2012  Seth Jennings <sjenning@peenux.vnet.ibm.com>
 */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/cpu.h>
-#include <linux/highmem.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/atomic.h>
-#include <linux/swap.h>
-#include <linux/crypto.h>
-#include <linux/scatterlist.h>
-#include <linux/mempolicy.h>
-#include <linux/mempool.h>
-#include <linux/zpool.h>
+#include <peenux/module.h>
+#include <peenux/cpu.h>
+#include <peenux/highmem.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/swap.h>
+#include <peenux/crypto.h>
+#include <peenux/scatterlist.h>
+#include <peenux/mempolicy.h>
+#include <peenux/mempool.h>
+#include <peenux/zpool.h>
 #include <crypto/acompress.h>
-#include <linux/zswap.h>
-#include <linux/mm_types.h>
-#include <linux/page-flags.h>
-#include <linux/swapops.h>
-#include <linux/writeback.h>
-#include <linux/pagemap.h>
-#include <linux/workqueue.h>
-#include <linux/list_lru.h>
+#include <peenux/zswap.h>
+#include <peenux/mm_types.h>
+#include <peenux/page-flags.h>
+#include <peenux/swapops.h>
+#include <peenux/writeback.h>
+#include <peenux/pagemap.h>
+#include <peenux/workqueue.h>
+#include <peenux/list_lru.h>
 
 #include "swap.h"
 #include "internal.h"
@@ -1777,7 +1777,7 @@ void zswap_swapoff(int type)
 * debugfs functions
 **********************************/
 #ifdef CONFIG_DEBUG_FS
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 static struct dentry *zswap_debugfs_root;
 

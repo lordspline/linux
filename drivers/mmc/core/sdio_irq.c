@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/drivers/mmc/core/sdio_irq.c
+ * peenux/drivers/mmc/core/sdio_irq.c
  *
  * Author:      Nicolas Pitre
  * Created:     June 18, 2007
@@ -9,19 +9,19 @@
  * Copyright 2008 Pierre Ossman
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/kthread.h>
-#include <linux/export.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <uapi/peenux/sched/types.h>
+#include <peenux/kthread.h>
+#include <peenux/export.h>
+#include <peenux/wait.h>
+#include <peenux/delay.h>
 
-#include <linux/mmc/core.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/sdio_func.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/sdio_func.h>
 
 #include "sdio_ops.h"
 #include "core.h"

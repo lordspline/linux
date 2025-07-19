@@ -1,5 +1,5 @@
 /*
-   HIDP implementation for Linux Bluetooth stack (BlueZ).
+   HIDP implementation for Peenux Bluetooth stack (BlueZ).
    Copyright (C) 2003-2004 Marcel Holtmann <marcel@holtmann.org>
    Copyright (C) 2013 David Herrmann <dh.herrmann@gmail.com>
 
@@ -21,11 +21,11 @@
    SOFTWARE IS DISCLAIMED.
 */
 
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/file.h>
-#include <linux/kthread.h>
-#include <linux/hidraw.h>
+#include <peenux/kref.h>
+#include <peenux/module.h>
+#include <peenux/file.h>
+#include <peenux/kthread.h>
+#include <peenux/hidraw.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

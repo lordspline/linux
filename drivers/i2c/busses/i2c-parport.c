@@ -14,17 +14,17 @@
 
 #define pr_fmt(fmt) "i2c-parport: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/parport.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/i2c-smbus.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/parport.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-bit.h>
+#include <peenux/i2c-smbus.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
 
 #define PORT_DATA	0
 #define PORT_STAT	1

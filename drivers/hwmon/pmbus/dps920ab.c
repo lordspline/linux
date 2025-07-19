@@ -6,10 +6,10 @@
  * Copyright (C) 2021 Sartura Ltd.
  */
 
-#include <linux/debugfs.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/debugfs.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 #include "pmbus.h"
 
 struct dps920ab_data {

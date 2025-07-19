@@ -7,12 +7,12 @@
  * Copyright (C) 2006 kogiidena
  * Copyright (C) 2010 Nobuhiro Iwamatsu
  */
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/sh_intc.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/sh_intc.h>
 #include "pci-sh4.h"
 
 #define PCIMCR_MRSET_OFF	0xBFFFFFFF

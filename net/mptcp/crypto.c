@@ -20,9 +20,9 @@
  *       Brandon Heller <brandonh@stanford.edu>
  */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 #include <crypto/sha2.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "protocol.h"
 

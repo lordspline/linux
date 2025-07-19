@@ -224,25 +224,25 @@
 
  **************************************************************************/
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <asm/irq.h>
-#include <linux/io.h>
-#include <linux/blkdev.h>
-#include <linux/completion.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/wait.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/proc_fs.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/isapnp.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/io.h>
+#include <peenux/blkdev.h>
+#include <peenux/completion.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/wait.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/proc_fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/isapnp.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

@@ -5,13 +5,13 @@
  * Author: Vitaly Wool <vitalywool@gmail.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/platnand.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/platnand.h>
 
 struct plat_nand_data {
 	struct nand_controller	controller;

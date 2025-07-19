@@ -31,7 +31,7 @@
  * SOFTWARE.
  */
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 
 #include "ipoib.h"
 

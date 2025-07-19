@@ -31,9 +31,9 @@
  * SOFTWARE.
  */
 
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/device.h>
+#include <peenux/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/device.h>
 
 #include "qib.h"
 

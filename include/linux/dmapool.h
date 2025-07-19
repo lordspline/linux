@@ -1,5 +1,5 @@
 /*
- * include/linux/dmapool.h
+ * include/peenux/dmapool.h
  *
  * Allocation pools for DMAable (coherent) memory.
  *
@@ -11,8 +11,8 @@
 #ifndef LINUX_DMAPOOL_H
 #define	LINUX_DMAPOOL_H
 
-#include <linux/nodemask_types.h>
-#include <linux/scatterlist.h>
+#include <peenux/nodemask_types.h>
+#include <peenux/scatterlist.h>
 #include <asm/io.h>
 
 struct device;

@@ -7,11 +7,11 @@
  *	Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
 
 #include <sound/core.h>
 #include <sound/info.h>

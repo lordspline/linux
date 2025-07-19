@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright 2015 IBM Corp.
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/io.h>
 
 struct aspeed_rtc {
 	void __iomem *base;

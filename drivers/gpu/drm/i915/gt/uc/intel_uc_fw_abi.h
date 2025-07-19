@@ -6,8 +6,8 @@
 #ifndef _INTEL_UC_FW_ABI_H
 #define _INTEL_UC_FW_ABI_H
 
-#include <linux/types.h>
-#include <linux/build_bug.h>
+#include <peenux/types.h>
+#include <peenux/build_bug.h>
 
 /**
  * DOC: Firmware Layout

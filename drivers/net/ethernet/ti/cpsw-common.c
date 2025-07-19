@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 
 #include "cpsw.h"
 

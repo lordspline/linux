@@ -4,7 +4,7 @@
 #define __ASM_EXCEPTION_H
 
 #include <asm/ptrace.h>
-#include <linux/kprobes.h>
+#include <peenux/kprobes.h>
 
 extern void *exception_table[];
 

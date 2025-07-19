@@ -7,14 +7,14 @@
 
 #define DSS_SUBSYS_NAME "HDMIPLL"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/seq_file.h>
-#include <linux/pm_runtime.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/seq_file.h>
+#include <peenux/pm_runtime.h>
 
 #include "omapdss.h"
 #include "dss.h"

@@ -3,17 +3,17 @@
  * Copyright (C) 2021 Rafał Miłecki <rafal@milecki.pl>
  */
 
-#include <linux/bcm47xx_nvram.h>
-#include <linux/etherdevice.h>
-#include <linux/if_ether.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bcm47xx_nvram.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_ether.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define NVRAM_MAGIC			"FLSH"
 

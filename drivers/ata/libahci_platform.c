@@ -8,21 +8,21 @@
  *   Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/libata.h>
-#include <linux/ahci_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/libata.h>
+#include <peenux/ahci_platform.h>
+#include <peenux/phy/phy.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/reset.h>
 #include "ahci.h"
 
 static void ahci_host_stop(struct ata_host *host);

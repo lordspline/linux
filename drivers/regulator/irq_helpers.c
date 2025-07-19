@@ -7,15 +7,15 @@
 //
 // Author: Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/regulator/driver.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/regulator/driver.h>
 
 #include "internal.h"
 

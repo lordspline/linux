@@ -1,4 +1,4 @@
-/* yellowfin.c: A Packet Engines G-NIC ethernet driver for linux. */
+/* yellowfin.c: A Packet Engines G-NIC ethernet driver for peenux. */
 /*
 	Written 1997-2001 by Donald Becker.
 
@@ -84,25 +84,25 @@ static int gx_fix;
 
 #define yellowfin_debug debug
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/mii.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/ethtool.h>
-#include <linux/crc32.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/mii.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/ethtool.h>
+#include <peenux/crc32.h>
+#include <peenux/bitops.h>
+#include <peenux/uaccess.h>
 #include <asm/processor.h>		/* Processor type for cache alignment. */
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/io.h>
 
 /* These identify the driver base version and may not be removed. */
@@ -198,8 +198,8 @@ IVb. References
 Yellowfin Engineering Design Specification, 4/23/97 Preliminary/Confidential
 Symbios SYM53C885 PCI-SCSI/Fast Ethernet Multifunction Controller Preliminary
    Data Manual v3.0
-http://cesdis.gsfc.nasa.gov/linux/misc/NWay.html
-http://cesdis.gsfc.nasa.gov/linux/misc/100mbps.html
+http://cesdis.gsfc.nasa.gov/peenux/misc/NWay.html
+http://cesdis.gsfc.nasa.gov/peenux/misc/100mbps.html
 
 IVc. Errata
 

@@ -7,12 +7,12 @@
  *
  * Highly modified by Steven Rostedt (VMware).
  */
-#include <linux/bits.h>
-#include <linux/jump_label.h>
-#include <linux/suspend.h>
-#include <linux/ftrace.h>
-#include <linux/static_call.h>
-#include <linux/slab.h>
+#include <peenux/bits.h>
+#include <peenux/jump_label.h>
+#include <peenux/suspend.h>
+#include <peenux/ftrace.h>
+#include <peenux/static_call.h>
+#include <peenux/slab.h>
 
 #include <trace/events/sched.h>
 
@@ -1018,7 +1018,7 @@ void ftrace_graph_sleep_time_control(bool enable)
 
 /*
  * Simply points to ftrace_stub, but with the proper protocol.
- * Defined by the linker script in linux/vmlinux.lds.h
+ * Defined by the linker script in peenux/vmlinux.lds.h
  */
 void ftrace_stub_graph(struct ftrace_graph_ret *trace, struct fgraph_ops *gops,
 		       struct ftrace_regs *fregs);

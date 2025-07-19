@@ -1,5 +1,5 @@
 /*
- *      linux/drivers/video/maxinefb.c
+ *      peenux/drivers/video/maxinefb.c
  *
  *	DECstation 5000/xx onboard framebuffer support ... derived from:
  *	"HP300 Topcat framebuffer support (derived from macfb of all things)
@@ -23,14 +23,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/fb.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/fb.h>
 #include <video/maxinefb.h>
 
 /* bootinfo.h defines the machine type values, needed when checking */

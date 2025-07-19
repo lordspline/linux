@@ -6,7 +6,7 @@
 #include <asm/rwonce.h>
 #include <asm/irq_vectors.h>
 
-#include <linux/bitmap.h>
+#include <peenux/bitmap.h>
 
 #define POSTED_INTR_ON  0
 #define POSTED_INTR_SN  1

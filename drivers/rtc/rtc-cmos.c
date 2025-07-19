@@ -27,24 +27,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/log2.h>
-#include <linux/pm.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/platform_device.h>
+#include <peenux/log2.h>
+#include <peenux/pm.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
 #ifdef CONFIG_X86
 #include <asm/i8259.h>
 #include <asm/processor.h>
-#include <linux/dmi.h>
+#include <peenux/dmi.h>
 #endif
 
 /* this is for "generic access to PC-style RTC" using CMOS_READ/CMOS_WRITE */
-#include <linux/mc146818rtc.h>
+#include <peenux/mc146818rtc.h>
 
 #ifdef CONFIG_ACPI
 /*
@@ -719,7 +719,7 @@ static irqreturn_t cmos_interrupt(int irq, void *p)
 	else
 		irqstat &= (cmos_rtc.suspend_ctrl & RTC_IRQMASK) | RTC_IRQF;
 
-	/* All Linux RTC alarms should be treated as if they were oneshot.
+	/* All Peenux RTC alarms should be treated as if they were oneshot.
 	 * Similar code may be needed in system wakeup paths, in case the
 	 * alarm woke the system.
 	 */
@@ -742,7 +742,7 @@ static irqreturn_t cmos_interrupt(int irq, void *p)
 
 #ifdef	CONFIG_ACPI
 
-#include <linux/acpi.h>
+#include <peenux/acpi.h>
 
 static u32 rtc_handler(void *context)
 {
@@ -1381,7 +1381,7 @@ static SIMPLE_DEV_PM_OPS(cmos_pm_ops, cmos_suspend, cmos_resume);
 
 #ifdef	CONFIG_PNP
 
-#include <linux/pnp.h>
+#include <peenux/pnp.h>
 
 static int cmos_pnp_probe(struct pnp_dev *pnp, const struct pnp_device_id *id)
 {

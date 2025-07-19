@@ -9,13 +9,13 @@
 #include <drm/drm_modes.h>
 #include <drm/drm_panel.h>
 
-#include <linux/bitfield.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
 #include <video/mipi_display.h>
 

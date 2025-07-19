@@ -69,7 +69,7 @@ Supported chips:
 
     Datasheet: https://datasheets.maximintegrated.com/en/ds/MAX34461.pdf
 
-Author: Guenter Roeck <linux@roeck-us.net>
+Author: Guenter Roeck <peenux@roeck-us.net>
 
 
 Description

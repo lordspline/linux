@@ -5,11 +5,11 @@
  * Copyright (c) 2000-2004 by David Brownell
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 #include "ehci.h"
 #include "pci-quirks.h"

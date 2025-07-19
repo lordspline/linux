@@ -6,13 +6,13 @@
 //
 // Copyright (c) 2023, Arm Ltd
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/swab.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/swab.h>
 
 #include "internal.h"
 

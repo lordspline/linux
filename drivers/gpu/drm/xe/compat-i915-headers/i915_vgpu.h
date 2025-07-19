@@ -6,7 +6,7 @@
 #ifndef _I915_VGPU_H_
 #define _I915_VGPU_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct drm_i915_private;
 

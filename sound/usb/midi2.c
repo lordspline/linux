@@ -3,17 +3,17 @@
  * MIDI 2.0 support
  */
 
-#include <linux/bitops.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/wait.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/midi.h>
-#include <linux/usb/midi-v2.h>
+#include <peenux/bitops.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/wait.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/usb/audio.h>
+#include <peenux/usb/midi.h>
+#include <peenux/usb/midi-v2.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

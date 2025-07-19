@@ -5,11 +5,11 @@
  * and format the required data.
  */
 
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/kbuild.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/sched.h>
+#include <peenux/ptrace.h>
+#include <peenux/kbuild.h>
 #include <asm/machvec.h>
 
 static void __used foo(void)

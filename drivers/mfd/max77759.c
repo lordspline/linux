@@ -6,27 +6,27 @@
  * Core driver for Maxim MAX77759 companion PMIC for USB Type-C
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/completion.h>
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/jiffies.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/max77759.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/overflow.h>
-#include <linux/regmap.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/completion.h>
+#include <peenux/dev_printk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/jiffies.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/max77759.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/overflow.h>
+#include <peenux/regmap.h>
 
 /* Chip ID as per MAX77759_PMIC_REG_PMIC_ID */
 enum {

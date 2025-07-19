@@ -2,19 +2,19 @@
 /*
  * Copyright (C)2003,2004 USAGI/WIDE Project
  *
- * Authors	Mitsuru KANDA  <mk@linux-ipv6.org>
- *		YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
+ * Authors	Mitsuru KANDA  <mk@peenux-ipv6.org>
+ *		YOSHIFUJI Hideaki <yoshfuji@peenux-ipv6.org>
  */
 
 #define pr_fmt(fmt) "IPv6: " fmt
 
-#include <linux/icmpv6.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
+#include <peenux/icmpv6.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
 #include <net/ipv6.h>
 #include <net/protocol.h>
 #include <net/xfrm.h>

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2011-2017, The Peenux Foundation. All rights reserved.
 // Copyright (c) 2018, Linaro Limited
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/of_device.h>
-#include <linux/soc/qcom/apr.h>
-#include <linux/soc/qcom/pdr.h>
-#include <linux/rpmsg.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/spinlock.h>
+#include <peenux/idr.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/of_device.h>
+#include <peenux/soc/qcom/apr.h>
+#include <peenux/soc/qcom/pdr.h>
+#include <peenux/rpmsg.h>
+#include <peenux/of.h>
 
 enum {
 	PR_TYPE_APR = 0,

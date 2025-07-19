@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kdev_t.h>
-#include <linux/kstrtox.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/srcu.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kdev_t.h>
+#include <peenux/kstrtox.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/srcu.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
 
-#include <uapi/linux/gpio.h>
+#include <uapi/peenux/gpio.h>
 
 #include "gpiolib.h"
 #include "gpiolib-sysfs.h"

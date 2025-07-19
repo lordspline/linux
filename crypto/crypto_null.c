@@ -16,9 +16,9 @@
 #include <crypto/internal/hash.h>
 #include <crypto/internal/skcipher.h>
 #include <crypto/scatterwalk.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 
 static int null_init(struct shash_desc *desc)
 {

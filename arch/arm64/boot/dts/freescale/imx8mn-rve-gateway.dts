@@ -26,13 +26,13 @@
 		key-enter {
 			label = "enter";
 			gpios = <&gpio1 1 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_ENTER>;
+			peenux,code = <KEY_ENTER>;
 		};
 
 		key-exit {
 			label = "exit";
 			gpios = <&gpio3 23 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_ESC>;
+			peenux,code = <KEY_ESC>;
 		};
 	};
 
@@ -70,7 +70,7 @@
 		pinctrl-0 = <&pinctrl_rotary>;
 		gpios = <&gpio1  5 GPIO_ACTIVE_LOW>, /* A */
 			<&gpio3 21 GPIO_ACTIVE_LOW>; /* B */
-		linux,axis = <0>; /* REL_X */
+		peenux,axis = <0>; /* REL_X */
 		rotary-encoder,encoding = "gray";
 		rotary-encoder,relative-axis;
 	};
@@ -92,7 +92,7 @@
 		#gpio-cells = <2>;
 		gpio-line-names = "RADIO0", "RADIO1", "RADIO2", "RADIO3",
 				  "RADIO4", "RADIO_RESET", "TP12", "TP11";
-		linux,rs485-enabled-at-boot-time;
+		peenux,rs485-enabled-at-boot-time;
 		rs485-rts-active-low;
 	};
 
@@ -121,7 +121,7 @@
 		gpio-line-names = "LED_B_USER", "LED_R_USER", "LED_G_USER",
 				  "GPIO_EXT3", "GPIO_EXT2", "GPIO_EXT1",
 				  "GPIO_EXT0", "TP13";
-		linux,rs485-enabled-at-boot-time;
+		peenux,rs485-enabled-at-boot-time;
 		rs485-rts-active-low;
 	};
 };

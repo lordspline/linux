@@ -17,11 +17,11 @@
 
 #undef DEBUG
 
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 #include <asm/time.h>
 #include <asm/machdep.h>
 #include <asm/mpc52xx.h>

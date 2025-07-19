@@ -2,10 +2,10 @@
 #ifndef __PERF_EVLIST_H
 #define __PERF_EVLIST_H 1
 
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/refcount.h>
-#include <linux/list.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/refcount.h>
+#include <peenux/list.h>
 #include <api/fd/array.h>
 #include <internal/evlist.h>
 #include <internal/evsel.h>

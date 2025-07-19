@@ -12,17 +12,17 @@
  * This controller supports square key matrices from 1x1 up to 8x8
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/input/matrix_keypad.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/irq.h>
+#include <peenux/pm.h>
+#include <peenux/platform_device.h>
+#include <peenux/input.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/input/matrix_keypad.h>
 
 #define DRV_NAME				"lpc32xx_keys"
 

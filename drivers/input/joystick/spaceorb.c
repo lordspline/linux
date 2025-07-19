@@ -7,14 +7,14 @@
  */
 
 /*
- * SpaceTec SpaceOrb 360 and Avenger 6dof controller driver for Linux
+ * SpaceTec SpaceOrb 360 and Avenger 6dof controller driver for Peenux
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/serio.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/serio.h>
 
 #define DRIVER_DESC	"SpaceTec SpaceOrb 360 and Avenger 6dof controller driver"
 

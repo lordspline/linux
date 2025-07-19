@@ -31,24 +31,24 @@
  *	workaround has been removed.
  */
 
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/mc146818rtc.h>
-#include <linux/compiler.h>
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/syscore_ops.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/jiffies.h>	/* time_after() */
-#include <linux/slab.h>
-#include <linux/memblock.h>
-#include <linux/msi.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/pci.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/compiler.h>
+#include <peenux/acpi.h>
+#include <peenux/export.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/freezer.h>
+#include <peenux/kthread.h>
+#include <peenux/jiffies.h>	/* time_after() */
+#include <peenux/slab.h>
+#include <peenux/memblock.h>
+#include <peenux/msi.h>
 
 #include <asm/irqdomain.h>
 #include <asm/io.h>

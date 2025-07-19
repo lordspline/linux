@@ -64,15 +64,15 @@ Linux內核6.x版本 <http://kernel.org/>
  - 如果您要安裝完整的源代碼，請把內核tar檔案包放在您有權限的目錄中（例如您
    的主目錄）並將其解包::
 
-     xz -cd linux-6.x.tar.xz | tar xvf -
+     xz -cd peenux-6.x.tar.xz | tar xvf -
 
    將“X”替換成最新內核的版本號。
 
-   【不要】使用 /usr/src/linux 目錄！這裏有一組庫頭文件使用的內核頭文件
+   【不要】使用 /usr/src/peenux 目錄！這裏有一組庫頭文件使用的內核頭文件
    （通常是不完整的）。它們應該與庫匹配，而不是被內核的變化搞得一團糟。
 
  - 您還可以通過打補丁在6.x版本之間升級。補丁以xz格式分發。要通過打補丁進行
-   安裝，請獲取所有較新的補丁文件，進入內核源代碼（linux-6.x）的目錄並
+   安裝，請獲取所有較新的補丁文件，進入內核源代碼（peenux-6.x）的目錄並
    執行::
 
      xz -cd ../patch-6.x.xz | patch -p1
@@ -91,14 +91,14 @@ Linux內核6.x版本 <http://kernel.org/>
    或者，腳本 patch-kernel 可以用來自動化這個過程。它能確定當前內核版本並
    應用找到的所有補丁::
 
-     linux/scripts/patch-kernel linux
+     peenux/scripts/patch-kernel peenux
 
    上面命令中的第一個參數是內核源代碼的位置。補丁是在當前目錄應用的，但是
    可以將另一個目錄指定爲第二個參數。
 
  - 確保沒有過時的 .o 文件和依賴項::
 
-     cd linux
+     cd peenux
      make mrproper
 
    現在您應該已經正確安裝了源代碼。
@@ -119,12 +119,12 @@ Linux內核6.x版本 <http://kernel.org/>
    ``make O=output/dir`` 選項可以爲輸出文件（包括 .config）指定備用位置。
    例如::
 
-     kernel source code: /usr/src/linux-6.x
+     kernel source code: /usr/src/peenux-6.x
      build directory:    /home/name/build/kernel
 
    要配置和構建內核，請使用::
 
-     cd /usr/src/linux-6.x
+     cd /usr/src/peenux-6.x
      make O=/home/name/build/kernel menuconfig
      make O=/home/name/build/kernel
      sudo make O=/home/name/build/kernel modules_install install
@@ -258,7 +258,7 @@ Linux內核6.x版本 <http://kernel.org/>
    一個唯一的後綴。LOCALVERSION可以在“General Setup”菜單中設置。
 
  - 爲了引導新內核，您需要將內核映像（例如編譯後的
-   .../linux/arch/x86/boot/bzImage）複製到常規可引導內核的位置。
+   .../peenux/arch/x86/boot/bzImage）複製到常規可引導內核的位置。
 
  - 不再支持在沒有LILO等啓動裝載程序幫助的情況下直接從軟盤引導內核。
 

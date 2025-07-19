@@ -3,11 +3,11 @@
  * Copyright (C) 2017 Pengutronix, Jan Luebbe <kernel@pengutronix.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/edac.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/edac.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
 
 #include <asm/hardware/cache-l2x0.h>
 #include <asm/hardware/cache-aurora-l2.h>

@@ -11,7 +11,7 @@
  */
 #define _GNU_SOURCE
 #define __SANE_USERSPACE_TYPES__
-#include <linux/mman.h>
+#include <peenux/mman.h>
 #include <errno.h>
 #include <sys/syscall.h>
 #include <string.h>

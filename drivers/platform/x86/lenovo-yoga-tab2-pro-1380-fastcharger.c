@@ -7,20 +7,20 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/extcon.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/platform_device.h>
-#include <linux/serdev.h>
-#include <linux/time.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/extcon.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/platform_device.h>
+#include <peenux/serdev.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 #include "serdev_helpers.h"
 
 #define YT2_1380_FC_PDEV_NAME		"lenovo-yoga-tab2-pro-1380-fastcharger"

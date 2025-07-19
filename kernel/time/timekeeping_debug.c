@@ -5,13 +5,13 @@
  * Copyright (c) 2011, Google, Inc.
  */
 
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
-#include <linux/suspend.h>
-#include <linux/time.h>
+#include <peenux/debugfs.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/seq_file.h>
+#include <peenux/suspend.h>
+#include <peenux/time.h>
 
 #include "timekeeping_internal.h"
 

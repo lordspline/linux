@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/locks.c
+ *  peenux/fs/locks.c
  *
  * We implement four types of file locks: BSD locks, posix locks, open
  * file description locks, and leases.  For details about BSD locks,
@@ -48,26 +48,26 @@
  * children.
  *
  */
-#include <linux/capability.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/filelock.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/time.h>
-#include <linux/rcupdate.h>
-#include <linux/pid_namespace.h>
-#include <linux/hashtable.h>
-#include <linux/percpu.h>
-#include <linux/sysctl.h>
+#include <peenux/capability.h>
+#include <peenux/file.h>
+#include <peenux/fdtable.h>
+#include <peenux/filelock.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/security.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
+#include <peenux/time.h>
+#include <peenux/rcupdate.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/hashtable.h>
+#include <peenux/percpu.h>
+#include <peenux/sysctl.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/filelock.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 static struct file_lock *file_lock(struct file_lock_core *flc)
 {
@@ -2746,8 +2746,8 @@ bool vfs_inode_has_locks(struct inode *inode)
 EXPORT_SYMBOL_GPL(vfs_inode_has_locks);
 
 #ifdef CONFIG_PROC_FS
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 
 struct locks_iterator {
 	int	li_cpu;

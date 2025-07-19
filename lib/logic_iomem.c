@@ -3,9 +3,9 @@
  * Copyright (C) 2021 Intel Corporation
  * Author: Johannes Berg <johannes@sipsolutions.net>
  */
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/logic_iomem.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/logic_iomem.h>
 #include <asm/io.h>
 
 struct logic_iomem_region {

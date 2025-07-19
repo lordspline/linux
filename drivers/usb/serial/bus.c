@@ -5,13 +5,13 @@
  * Copyright (C) 2002 Greg Kroah-Hartman (greg@kroah.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/tty.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/tty.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 
 static int usb_serial_device_match(struct device *dev,
 				   const struct device_driver *drv)

@@ -2,17 +2,17 @@
 /* Distributed Switch Architecture VSC9953 driver
  * Copyright (C) 2020, Maxim Kochetkov <fido_max@inbox.ru>
  */
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 #include <soc/mscc/ocelot_vcap.h>
 #include <soc/mscc/ocelot_sys.h>
 #include <soc/mscc/ocelot.h>
-#include <linux/mdio/mdio-mscc-miim.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_mdio.h>
-#include <linux/pcs-lynx.h>
-#include <linux/dsa/ocelot.h>
-#include <linux/iopoll.h>
+#include <peenux/mdio/mdio-mscc-miim.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_mdio.h>
+#include <peenux/pcs-lynx.h>
+#include <peenux/dsa/ocelot.h>
+#include <peenux/iopoll.h>
 #include "felix.h"
 
 #define VSC9953_NUM_PORTS			10

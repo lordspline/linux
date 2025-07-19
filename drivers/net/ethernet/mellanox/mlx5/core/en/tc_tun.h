@@ -1,13 +1,13 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB */
 /* Copyright (c) 2018 Mellanox Technologies. */
 
 #ifndef __MLX5_EN_TC_TUNNEL_H__
 #define __MLX5_EN_TC_TUNNEL_H__
 
-#include <linux/netdevice.h>
-#include <linux/mlx5/fs.h>
+#include <peenux/netdevice.h>
+#include <peenux/mlx5/fs.h>
 #include <net/pkt_cls.h>
-#include <linux/netlink.h>
+#include <peenux/netlink.h>
 #include "en.h"
 #include "en_rep.h"
 

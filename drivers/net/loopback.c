@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -16,7 +16,7 @@
  *		Alan Cox	:	Rejig for NET3.029 snap #3
  *		Alan Cox	:	Fixed NET3.029 bugs and sped up
  *		Larry McVoy	:	Tiny tweak to double performance
- *		Alan Cox	:	Backed out LMV's tweak - the linux mm
+ *		Alan Cox	:	Backed out LMV's tweak - the peenux mm
  *					can't take it...
  *              Michael Griffith:       Don't bother computing the checksums
  *                                      on packets received on the loopback
@@ -24,38 +24,38 @@
  *		Alexey Kuznetsov:	Potential hang under some extreme
  *					cases removed.
  */
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/socket.h>
-#include <linux/errno.h>
-#include <linux/fcntl.h>
-#include <linux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/socket.h>
+#include <peenux/errno.h>
+#include <peenux/fcntl.h>
+#include <peenux/in.h>
 
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
 
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/ethtool.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/ethtool.h>
 #include <net/sch_generic.h>
 #include <net/sock.h>
 #include <net/checksum.h>
-#include <linux/if_ether.h>	/* For the statistics structure. */
-#include <linux/if_arp.h>	/* For ARPHRD_ETHER */
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/percpu.h>
-#include <linux/net_tstamp.h>
+#include <peenux/if_ether.h>	/* For the statistics structure. */
+#include <peenux/if_arp.h>	/* For ARPHRD_ETHER */
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/percpu.h>
+#include <peenux/net_tstamp.h>
 #include <net/net_namespace.h>
 #include <net/netdev_lock.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/u64_stats_sync.h>
 
 /* blackhole_netdev - a device used for dsts that are marked expired!
  * This is global device (instead of per-net-ns) since it's not needed

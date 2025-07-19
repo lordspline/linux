@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	IPV6 GSO/GRO offload support
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  */
 
-#include <linux/kernel.h>
-#include <linux/socket.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/printk.h>
+#include <peenux/kernel.h>
+#include <peenux/socket.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/printk.h>
 
 #include <net/protocol.h>
 #include <net/ipv6.h>

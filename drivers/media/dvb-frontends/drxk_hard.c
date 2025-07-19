@@ -7,20 +7,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/hardirq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/hardirq.h>
 #include <asm/div64.h>
 
 #include <media/dvb_frontend.h>
 #include "drxk.h"
 #include "drxk_hard.h"
-#include <linux/int_log.h>
+#include <peenux/int_log.h>
 
 static int power_down_dvbt(struct drxk_state *state, bool set_power_mode);
 static int power_down_qam(struct drxk_state *state);

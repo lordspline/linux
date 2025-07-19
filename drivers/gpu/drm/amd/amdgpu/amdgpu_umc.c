@@ -21,7 +21,7 @@
  *
  */
 
-#include <linux/sort.h>
+#include <peenux/sort.h>
 #include "amdgpu.h"
 #include "umc_v6_7.h"
 #define MAX_UMC_POISON_POLLING_TIME_SYNC   20  //ms

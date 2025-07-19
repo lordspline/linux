@@ -3,14 +3,14 @@
 #ifndef __NX_842_H__
 #define __NX_842_H__
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/ratelimit.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/ratelimit.h>
 
 /* Restrictions on Data Descriptor List (DDL) and Entry (DDE) buffers
  *

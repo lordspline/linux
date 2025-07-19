@@ -6,9 +6,9 @@
  * Written by Martin K. Petersen <martin.petersen@oracle.com>
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/crc-t10dif.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/crc-t10dif.h>
 
 /*
  * Table generated using the following polynomial:

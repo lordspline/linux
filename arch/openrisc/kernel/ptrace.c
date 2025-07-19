@@ -2,7 +2,7 @@
 /*
  * OpenRISC ptrace.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Peenux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -12,17 +12,17 @@
  * Copyright (C) 2010-2011 Jonas Bonn <jonas@southpole.se>
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/string.h>
 
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/audit.h>
-#include <linux/regset.h>
-#include <linux/elf.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/audit.h>
+#include <peenux/regset.h>
+#include <peenux/elf.h>
 
 #include <asm/thread_info.h>
 #include <asm/page.h>
@@ -113,7 +113,7 @@ static int fpregs_set(struct task_struct *target,
 #endif
 
 /*
- * Define the register sets available on OpenRISC under Linux
+ * Define the register sets available on OpenRISC under Peenux
  */
 enum or1k_regset {
 	REGSET_GENERAL,

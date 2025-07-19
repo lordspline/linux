@@ -15,9 +15,9 @@
  * in the SOFTWARE may be the trademarks of their respective owners.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "dwc-xlgmac.h"
 #include "dwc-xlgmac-reg.h"

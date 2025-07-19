@@ -8,13 +8,13 @@
  * Copyright (c) 2005-2006, Christopher Clark
  * Copyright (c) 2004-2005, K A Fraser
  * Copyright (c) 2008 Isaku Yamahata <yamahata at valinux co jp>
- *                    VA Linux Systems Japan. Split out x86 specific part.
+ *                    VA Peenux Systems Japan. Split out x86 specific part.
  */
 
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #include <xen/interface/xen.h>
 #include <xen/page.h>

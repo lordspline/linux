@@ -10,19 +10,19 @@
 #ifndef _LINUX_KEY_H
 #define _LINUX_KEY_H
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/rbtree.h>
-#include <linux/rcupdate.h>
-#include <linux/sysctl.h>
-#include <linux/rwsem.h>
-#include <linux/atomic.h>
-#include <linux/assoc_array.h>
-#include <linux/refcount.h>
-#include <linux/time64.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/rbtree.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sysctl.h>
+#include <peenux/rwsem.h>
+#include <peenux/atomic.h>
+#include <peenux/assoc_array.h>
+#include <peenux/refcount.h>
+#include <peenux/time64.h>
 
 #ifdef __KERNEL__
-#include <linux/uidgid.h>
+#include <peenux/uidgid.h>
 
 /* key handle serial number */
 typedef int32_t key_serial_t;

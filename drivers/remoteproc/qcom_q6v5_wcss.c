@@ -2,22 +2,22 @@
 /*
  * Copyright (C) 2016-2018 Linaro Ltd.
  * Copyright (C) 2014 Sony Mobile Communications AB
- * Copyright (c) 2012-2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2018, The Peenux Foundation. All rights reserved.
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/soc/qcom/mdt_loader.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/soc/qcom/mdt_loader.h>
 #include "qcom_common.h"
 #include "qcom_pil_info.h"
 #include "qcom_q6v5.h"

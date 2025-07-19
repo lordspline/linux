@@ -3,15 +3,15 @@
  * VFIO ZPCI devices support
  *
  * Copyright (C) IBM Corp. 2020.  All rights reserved.
- *	Author(s): Pierre Morel <pmorel@linux.ibm.com>
- *                 Matthew Rosato <mjrosato@linux.ibm.com>
+ *	Author(s): Pierre Morel <pmorel@peenux.ibm.com>
+ *                 Matthew Rosato <mjrosato@peenux.ibm.com>
  */
-#include <linux/io.h>
-#include <linux/pci.h>
-#include <linux/uaccess.h>
-#include <linux/vfio.h>
-#include <linux/vfio_zdev.h>
-#include <linux/kvm_host.h>
+#include <peenux/io.h>
+#include <peenux/pci.h>
+#include <peenux/uaccess.h>
+#include <peenux/vfio.h>
+#include <peenux/vfio_zdev.h>
+#include <peenux/kvm_host.h>
 #include <asm/pci_clp.h>
 #include <asm/pci_io.h>
 

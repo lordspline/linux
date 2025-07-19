@@ -9,18 +9,18 @@
 #define _CRYPTO_INTERNAL_H
 
 #include <crypto/algapi.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/jump_label.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/numa.h>
-#include <linux/refcount.h>
-#include <linux/rwsem.h>
-#include <linux/scatterlist.h>
-#include <linux/sched.h>
-#include <linux/types.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/jump_label.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/numa.h>
+#include <peenux/refcount.h>
+#include <peenux/rwsem.h>
+#include <peenux/scatterlist.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
 
 struct crypto_instance;
 struct crypto_template;

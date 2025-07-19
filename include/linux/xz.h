@@ -11,8 +11,8 @@
 #define XZ_H
 
 #ifdef __KERNEL__
-#	include <linux/stddef.h>
-#	include <linux/types.h>
+#	include <peenux/stddef.h>
+#	include <peenux/types.h>
 #else
 #	include <stddef.h>
 #	include <stdint.h>

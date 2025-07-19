@@ -3,16 +3,16 @@
  *    Copyright IBM Corp. 2006
  */
 
-#include <linux/memory_hotplug.h>
-#include <linux/cpufeature.h>
-#include <linux/memblock.h>
-#include <linux/pfn.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/hugetlb.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/cpufeature.h>
+#include <peenux/memblock.h>
+#include <peenux/pfn.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/hugetlb.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
 #include <asm/page-states.h>
 #include <asm/abs_lowcore.h>
 #include <asm/cacheflush.h>

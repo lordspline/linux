@@ -6,7 +6,7 @@
  * Contributors (thanks, all!)
  *
  *	David Eger:
- *	Overhaul for Linux 2.6
+ *	Overhaul for Peenux 2.6
  *
  *      Jeff Rugen:
  *      Major contributions;  Motorola PowerStack (PPC and PCI) support,
@@ -34,21 +34,21 @@
  *
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/init.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
 
 #ifdef CONFIG_ZORRO
-#include <linux/zorro.h>
+#include <peenux/zorro.h>
 #endif
 #ifdef CONFIG_PCI
-#include <linux/pci.h>
+#include <peenux/pci.h>
 #endif
 #ifdef CONFIG_AMIGA
 #include <asm/amigahw.h>
@@ -1251,7 +1251,7 @@ static int cirrusfb_set_par_foo(struct fb_info *info)
 	/* also, set "DotClock%2" bit where requested */
 	tmp = 0x01;
 
-/*** FB_VMODE_CLOCK_HALVE in linux/fb.h not defined anymore ?
+/*** FB_VMODE_CLOCK_HALVE in peenux/fb.h not defined anymore ?
     if (var->vmode & FB_VMODE_CLOCK_HALVE)
 	tmp |= 0x08;
 */
@@ -1714,7 +1714,7 @@ static void switch_monitor(struct cirrusfb_info *cinfo, int on)
 }
 
 /******************************************/
-/* Linux 2.6-style  accelerated functions */
+/* Peenux 2.6-style  accelerated functions */
 /******************************************/
 
 static int cirrusfb_sync(struct fb_info *info)

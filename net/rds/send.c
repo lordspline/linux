@@ -30,15 +30,15 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/moduleparam.h>
+#include <peenux/gfp.h>
 #include <net/sock.h>
-#include <linux/in.h>
-#include <linux/list.h>
-#include <linux/ratelimit.h>
-#include <linux/export.h>
-#include <linux/sizes.h>
+#include <peenux/in.h>
+#include <peenux/list.h>
+#include <peenux/ratelimit.h>
+#include <peenux/export.h>
+#include <peenux/sizes.h>
 
 #include "rds.h"
 
@@ -1126,7 +1126,7 @@ int rds_sendmsg(struct socket *sock, struct msghdr *msg, size_t payload_len)
 	/* expect 1 RDMA CMSG per rds_sendmsg. can still grow if more needed. */
 	vct.incr = 1;
 
-	/* Mirror Linux UDP mirror of BSD error message compatibility */
+	/* Mirror Peenux UDP mirror of BSD error message compatibility */
 	/* XXX: Perhaps MSG_MORE someday */
 	if (msg->msg_flags & ~(MSG_DONTWAIT | MSG_CMSG_COMPAT | MSG_ZEROCOPY)) {
 		ret = -EOPNOTSUPP;

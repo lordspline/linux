@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  pvrusb2-dvb.c - linux-dvb api interface to the pvrusb2 driver.
+ *  pvrusb2-dvb.c - peenux-dvb api interface to the pvrusb2 driver.
  *
  *  Copyright (C) 2007, 2008 Michael Krufky <mkrufky@linuxtv.org>
  */
 
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
 #include <media/dvbdev.h>
 #include "pvrusb2-debug.h"
 #include "pvrusb2-hdw-internal.h"

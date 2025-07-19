@@ -8,14 +8,14 @@
  * Authors: Hongbo Zhang, Linus Walleij
  */
 
-#include <linux/cpu_cooling.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/dbx500-prcmu.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
+#include <peenux/cpu_cooling.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/dbx500-prcmu.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/thermal.h>
 
 #define PRCMU_DEFAULT_MEASURE_TIME	0xFFF
 #define PRCMU_DEFAULT_LOW_TEMP		0

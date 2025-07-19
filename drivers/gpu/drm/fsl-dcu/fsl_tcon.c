@@ -7,12 +7,12 @@
  * Freescale TCON device driver
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include "fsl_tcon.h"
 

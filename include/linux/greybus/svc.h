@@ -9,8 +9,8 @@
 #ifndef __SVC_H
 #define __SVC_H
 
-#include <linux/types.h>
-#include <linux/device.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
 
 struct gb_svc_l2_timer_cfg;
 

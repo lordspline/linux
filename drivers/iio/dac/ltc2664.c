@@ -6,20 +6,20 @@
  * Copyright 2024 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
 #define LTC2664_CMD_WRITE_N(n)		(0x00 + (n))
 #define LTC2664_CMD_UPDATE_N(n)		(0x10 + (n))

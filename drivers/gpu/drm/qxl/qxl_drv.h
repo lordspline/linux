@@ -30,11 +30,11 @@
  * Definitions taken from spice-protocol, plus kernel driver specific bits.
  */
 
-#include <linux/iosys-map.h>
-#include <linux/dma-fence.h>
-#include <linux/firmware.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
+#include <peenux/iosys-map.h>
+#include <peenux/dma-fence.h>
+#include <peenux/firmware.h>
+#include <peenux/platform_device.h>
+#include <peenux/workqueue.h>
 
 #include <drm/drm_crtc.h>
 #include <drm/drm_encoder.h>

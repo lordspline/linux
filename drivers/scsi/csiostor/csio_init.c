@@ -1,5 +1,5 @@
 /*
- * This file is part of the Chelsio FCoE driver for Linux.
+ * This file is part of the Chelsio FCoE driver for Peenux.
  *
  * Copyright (c) 2008-2012 Chelsio Communications, Inc. All rights reserved.
  *
@@ -34,17 +34,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/mm.h>
-#include <linux/notifier.h>
-#include <linux/kdebug.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/string.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/mm.h>
+#include <peenux/notifier.h>
+#include <peenux/kdebug.h>
+#include <peenux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/string.h>
+#include <peenux/export.h>
 
 #include "csio_init.h"
 #include "csio_defs.h"

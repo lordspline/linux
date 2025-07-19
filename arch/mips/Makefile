@@ -51,7 +51,7 @@ endif
 
 ifdef cross_compiling
   ifeq ($(CROSS_COMPILE),)
-    CROSS_COMPILE := $(call cc-cross-prefix, $(tool-archpref)-linux-  $(tool-archpref)-linux-gnu-  $(tool-archpref)-unknown-linux-gnu-)
+    CROSS_COMPILE := $(call cc-cross-prefix, $(tool-archpref)-peenux-  $(tool-archpref)-peenux-gnu-  $(tool-archpref)-unknown-peenux-gnu-)
   endif
 endif
 

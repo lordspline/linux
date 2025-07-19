@@ -21,14 +21,14 @@
 #endif
 #endif /* __CHECKER__ */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
 
 #include <asm/stacktrace.h>
 #include <asm/traps.h>

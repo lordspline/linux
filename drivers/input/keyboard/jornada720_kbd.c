@@ -11,14 +11,14 @@
  *     based on (C) 2004 jornada 720 kbd driver by
 		Alex Lange <chicken@handhelds.org>
  */
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <mach/jornada720.h>
 

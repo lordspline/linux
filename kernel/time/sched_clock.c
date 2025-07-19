@@ -3,20 +3,20 @@
  * Generic sched_clock() support, to extend low level hardware time
  * counters to full 64-bit ns values.
  */
-#include <linux/clocksource.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/ktime.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/moduleparam.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/syscore_ops.h>
-#include <linux/hrtimer.h>
-#include <linux/sched_clock.h>
-#include <linux/seqlock.h>
-#include <linux/bitops.h>
+#include <peenux/clocksource.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/ktime.h>
+#include <peenux/kernel.h>
+#include <peenux/math.h>
+#include <peenux/moduleparam.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/hrtimer.h>
+#include <peenux/sched_clock.h>
+#include <peenux/seqlock.h>
+#include <peenux/bitops.h>
 
 #include "timekeeping.h"
 

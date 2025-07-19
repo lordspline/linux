@@ -6,11 +6,11 @@
 #ifndef _XE_GSC_TYPES_H_
 #define _XE_GSC_TYPES_H_
 
-#include <linux/iosys-map.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/iosys-map.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #include "xe_uc_fw_types.h"
 #include "xe_device_types.h"

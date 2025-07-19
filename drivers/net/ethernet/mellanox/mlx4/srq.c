@@ -32,10 +32,10 @@
  */
 
 
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/srq.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
+#include <peenux/mlx4/cmd.h>
+#include <peenux/mlx4/srq.h>
+#include <peenux/export.h>
+#include <peenux/gfp.h>
 
 #include "mlx4.h"
 #include "icm.h"

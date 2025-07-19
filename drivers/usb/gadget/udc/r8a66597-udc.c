@@ -7,18 +7,18 @@
  * Author : Yoshihiro Shimoda <yoshihiro.shimoda.uh@renesas.com>
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/dma-mapping.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
 
 #include "r8a66597-udc.h"
 

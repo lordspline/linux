@@ -3,11 +3,11 @@
  * Copyright (c) 2019 Broadcom
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/math.h>
-#include <linux/string.h>
-#include <linux/bug.h>
+#include <peenux/math.h>
+#include <peenux/string.h>
+#include <peenux/bug.h>
 
 #include "xtlv.h"
 

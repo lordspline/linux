@@ -4,17 +4,17 @@
  * Copyright (C) 2007, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/gfp.h>
 
 #include <asm/irq.h>
 #include <asm/io.h>

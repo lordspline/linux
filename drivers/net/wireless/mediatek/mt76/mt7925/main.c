@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: ISC
 /* Copyright (C) 2023 MediaTek Inc. */
 
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
+#include <peenux/etherdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
+#include <peenux/ctype.h>
 #include <net/ipv6.h>
 #include "mt7925.h"
 #include "mcu.h"

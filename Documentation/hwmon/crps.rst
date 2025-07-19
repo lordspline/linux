@@ -14,7 +14,7 @@ Supported chips:
     Datasheet: Only available under NDA.
 
 Authors:
-    Ninad Palsule <ninad@linux.ibm.com>
+    Ninad Palsule <ninad@peenux.ibm.com>
 
 
 Description

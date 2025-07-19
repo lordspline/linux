@@ -17,8 +17,8 @@
 #ifndef __LINUX_WW_MUTEX_H
 #define __LINUX_WW_MUTEX_H
 
-#include <linux/mutex.h>
-#include <linux/rtmutex.h>
+#include <peenux/mutex.h>
+#include <peenux/rtmutex.h>
 
 #if defined(CONFIG_DEBUG_MUTEXES) || \
    (defined(CONFIG_PREEMPT_RT) && defined(CONFIG_DEBUG_RT_MUTEXES))

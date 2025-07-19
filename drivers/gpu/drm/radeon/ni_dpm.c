@@ -21,9 +21,9 @@
  *
  */
 
-#include <linux/math64.h>
-#include <linux/pci.h>
-#include <linux/seq_file.h>
+#include <peenux/math64.h>
+#include <peenux/pci.h>
+#include <peenux/seq_file.h>
 
 #include "atom.h"
 #include "evergreen.h"

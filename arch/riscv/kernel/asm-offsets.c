@@ -4,11 +4,11 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/kbuild.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/ftrace.h>
-#include <linux/suspend.h>
+#include <peenux/kbuild.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/ftrace.h>
+#include <peenux/suspend.h>
 #include <asm/kvm_host.h>
 #include <asm/thread_info.h>
 #include <asm/ptrace.h>

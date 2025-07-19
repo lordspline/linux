@@ -15,15 +15,15 @@
 #ifndef _NETLABEL_H
 #define _NETLABEL_H
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/net.h>
-#include <linux/skbuff.h>
-#include <linux/in.h>
-#include <linux/in6.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/net.h>
+#include <peenux/skbuff.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
 #include <net/netlink.h>
 #include <net/request_sock.h>
-#include <linux/refcount.h>
+#include <peenux/refcount.h>
 
 struct cipso_v4_doi;
 struct calipso_doi;
@@ -34,7 +34,7 @@ struct calipso_doi;
  *
  * Network protocols such as CIPSO and RIPSO require a label translation layer
  * to convert the label on the packet into something meaningful on the host
- * machine.  In the current Linux implementation these mapping tables live
+ * machine.  In the current Peenux implementation these mapping tables live
  * inside the kernel; NetLabel provides a mechanism for user space applications
  * to manage these mapping tables.
  *

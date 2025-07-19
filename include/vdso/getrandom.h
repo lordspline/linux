@@ -6,7 +6,7 @@
 #ifndef _VDSO_GETRANDOM_H
 #define _VDSO_GETRANDOM_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define CHACHA_KEY_SIZE         32
 #define CHACHA_BLOCK_SIZE       64

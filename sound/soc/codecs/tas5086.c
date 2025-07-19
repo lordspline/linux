@@ -21,16 +21,16 @@
  * routines have to be open-coded.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

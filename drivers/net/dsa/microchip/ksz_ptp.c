@@ -5,12 +5,12 @@
  * Copyright (C) 2022 Microchip Technology Inc.
  */
 
-#include <linux/dsa/ksz_common.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/ptp_classify.h>
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/dsa/ksz_common.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/ptp_clock_kernel.h>
 
 #include "ksz_common.h"
 #include "ksz_ptp.h"

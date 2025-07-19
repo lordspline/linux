@@ -7,21 +7,21 @@
 // Author: Shenghao Ding <shenghao-ding@ti.com>
 // Author: Baojun Xu <baojun.xu@ti.com>
 
-#include <linux/crc8.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/crc8.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
 #include <sound/tas2781.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define ERROR_PRAM_CRCCHK			0x0000000
 #define ERROR_YRAM_CRCCHK			0x0000001

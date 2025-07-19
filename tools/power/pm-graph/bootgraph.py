@@ -14,11 +14,11 @@
 # more details.
 #
 # Authors:
-#	 Todd Brandt <todd.e.brandt@linux.intel.com>
+#	 Todd Brandt <todd.e.brandt@peenux.intel.com>
 #
 # Description:
 #	 This tool is designed to assist kernel and OS developers in optimizing
-#	 their linux stack's boot time. It creates an html representation of
+#	 their peenux stack's boot time. It creates an html representation of
 #	 the kernel boot timeline up to the start of the init process.
 #
 
@@ -332,7 +332,7 @@ def parseKernelLog():
 			break
 		msg = m.group('msg')
 		data.dmesgtext.append(line)
-		if(ktime == 0.0 and re.match(r'^Linux version .*', msg)):
+		if(ktime == 0.0 and re.match(r'^Peenux version .*', msg)):
 			if(not sysvals.stamp['kernel']):
 				sysvals.stamp['kernel'] = sysvals.kernelVersion(msg)
 			continue
@@ -840,7 +840,7 @@ def printHelp():
 	'Usage: bootgraph <options> <command>\n'\
 	'\n'\
 	'Description:\n'\
-	'  This tool reads in a dmesg log of linux kernel boot and\n'\
+	'  This tool reads in a dmesg log of peenux kernel boot and\n'\
 	'  creates an html representation of the boot timeline up to\n'\
 	'  the start of the init process.\n'\
 	'\n'\

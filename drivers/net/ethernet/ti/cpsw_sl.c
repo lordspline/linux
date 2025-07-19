@@ -7,9 +7,9 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
 
 #include "cpsw_sl.h"
 

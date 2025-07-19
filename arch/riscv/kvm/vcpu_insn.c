@@ -4,8 +4,8 @@
  * Copyright (c) 2022 Ventana Micro Systems Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/kvm_host.h>
+#include <peenux/bitops.h>
+#include <peenux/kvm_host.h>
 
 #include <asm/cpufeature.h>
 

@@ -5,14 +5,14 @@
  * Copyright 2006-2008 Johannes Berg <johannes@sipsolutions.net>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
 #include <sound/core.h>
 

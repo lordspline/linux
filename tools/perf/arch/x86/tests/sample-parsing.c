@@ -3,9 +3,9 @@
 #include <inttypes.h>
 #include <stdlib.h>
 #include <string.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
 
 #include "event.h"
 #include "evsel.h"

@@ -5,27 +5,27 @@
  * Copyright (C) 2016 Fuzhou Rockchip Electronics Co., Ltd
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/extcon-provider.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/gpio/consumer.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/mfd/syscon.h>
-#include <linux/usb/of.h>
-#include <linux/usb/otg.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/usb/of.h>
+#include <peenux/usb/otg.h>
 
 #define BIT_WRITEABLE_SHIFT	16
 #define SCHEDULE_DELAY		(60 * HZ)

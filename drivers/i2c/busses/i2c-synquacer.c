@@ -3,21 +3,21 @@
  * Copyright (C) 2012 FUJITSU SEMICONDUCTOR LIMITED
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #define WAIT_PCLK(n, rate)	\
 	ndelay(DIV_ROUND_UP(DIV_ROUND_UP(1000000000, rate), n) + 10)

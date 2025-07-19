@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/mm/nommu.c
+ *  peenux/mm/nommu.c
  *
  *  Replacement code for mm functions to support CPU's that don't
  *  have any form of memory management unit (thus no virtual memory).
@@ -11,32 +11,32 @@
  *  Copyright (c) 2000-2003 David McCullough <davidm@snapgear.com>
  *  Copyright (c) 2000-2001 D Jeff Dionne <jeff@uClinux.org>
  *  Copyright (c) 2002      Greg Ungerer <gerg@snapgear.com>
- *  Copyright (c) 2007-2010 Paul Mundt <lethal@linux-sh.org>
+ *  Copyright (c) 2007-2010 Paul Mundt <lethal@peenux-sh.org>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/sched/mm.h>
-#include <linux/mman.h>
-#include <linux/swap.h>
-#include <linux/file.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/backing-dev.h>
-#include <linux/compiler.h>
-#include <linux/mount.h>
-#include <linux/personality.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/audit.h>
-#include <linux/printk.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/sched/mm.h>
+#include <peenux/mman.h>
+#include <peenux/swap.h>
+#include <peenux/file.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/backing-dev.h>
+#include <peenux/compiler.h>
+#include <peenux/mount.h>
+#include <peenux/personality.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/audit.h>
+#include <peenux/printk.h>
 
-#include <linux/uaccess.h>
-#include <linux/uio.h>
+#include <peenux/uaccess.h>
+#include <peenux/uio.h>
 #include <asm/tlb.h>
 #include <asm/tlbflush.h>
 #include <asm/mmu_context.h>

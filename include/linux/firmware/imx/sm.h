@@ -6,10 +6,10 @@
 #ifndef _SCMI_IMX_H
 #define _SCMI_IMX_H
 
-#include <linux/bitfield.h>
-#include <linux/errno.h>
-#include <linux/scmi_imx_protocol.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/errno.h>
+#include <peenux/scmi_imx_protocol.h>
+#include <peenux/types.h>
 
 #define SCMI_IMX_CTRL_PDM_CLK_SEL	0	/* AON PDM clock sel */
 #define SCMI_IMX_CTRL_MQS1_SETTINGS	1	/* AON MQS settings */

@@ -11,16 +11,16 @@
  * by Subbaraya Sundeep Bhatta <subbaraya.sundeep.bhatta@xilinx.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
 
 struct dwc3_of_simple {
 	struct device		*dev;

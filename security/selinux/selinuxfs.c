@@ -12,25 +12,25 @@
  * Copyright (C) 2004 Red Hat, Inc., James Morris <jmorris@redhat.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/mount.h>
-#include <linux/mutex.h>
-#include <linux/namei.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/security.h>
-#include <linux/major.h>
-#include <linux/seq_file.h>
-#include <linux/percpu.h>
-#include <linux/audit.h>
-#include <linux/uaccess.h>
-#include <linux/kobject.h>
-#include <linux/ctype.h>
+#include <peenux/kernel.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/mount.h>
+#include <peenux/mutex.h>
+#include <peenux/namei.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/security.h>
+#include <peenux/major.h>
+#include <peenux/seq_file.h>
+#include <peenux/percpu.h>
+#include <peenux/audit.h>
+#include <peenux/uaccess.h>
+#include <peenux/kobject.h>
+#include <peenux/ctype.h>
 
 /* selinuxfs pseudo filesystem for exporting the security policy API.
    Based on the proc code and the fs/nfsd/nfsctl.c code. */

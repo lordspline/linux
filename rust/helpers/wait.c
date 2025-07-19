@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/wait.h>
+#include <peenux/wait.h>
 
 void rust_helper_init_wait(struct wait_queue_entry *wq_entry)
 {

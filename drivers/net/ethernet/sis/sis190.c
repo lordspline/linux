@@ -21,19 +21,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/pci.h>
-#include <linux/mii.h>
-#include <linux/delay.h>
-#include <linux/crc32.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/pci.h>
+#include <peenux/mii.h>
+#include <peenux/delay.h>
+#include <peenux/crc32.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
 #include <asm/irq.h>
 
 #define PHY_MAX_ADDR		32
@@ -233,7 +233,7 @@ enum _DescStatusBit {
 	RxSizeMask	= 0x0000ffff
 	/*
 	 * The asic could apparently do vlan, TSO, jumbo (sis191 only) and
-	 * provide two (unused with Linux) Tx queues. No publicly
+	 * provide two (unused with Peenux) Tx queues. No publicly
 	 * available documentation alas.
 	 */
 };

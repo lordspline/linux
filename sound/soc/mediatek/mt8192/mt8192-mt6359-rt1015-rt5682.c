@@ -7,10 +7,10 @@
 // Author: Jiaxin Yu <jiaxin.yu@mediatek.com>
 //
 
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/rt5682.h>

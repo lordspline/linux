@@ -14,14 +14,14 @@
  * Copyright 1995, Russell King
  */
 
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
 
 #include <asm/hwtest.h>
 #include <asm/io.h>
@@ -99,7 +99,7 @@ __setup("mac5380=", mac_scsi_setup);
  * specify the number of bytes between the delays expected from a SCSI target.
  * This allows the operating system to "prevent bus errors when a target fails
  * to deliver the next byte within the processor bus error timeout period."
- * Linux SCSI drivers lack knowledge of the timing behaviour of SCSI targets
+ * Peenux SCSI drivers lack knowledge of the timing behaviour of SCSI targets
  * so bus errors are unavoidable.
  *
  * If a MOVE.B instruction faults during a receive operation, we assume the

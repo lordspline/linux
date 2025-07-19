@@ -5,17 +5,17 @@
  * ROHM BD9576MUF and BD9573MUF PMIC driver
  */
 
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/rohm-bd957x.h>
-#include <linux/mfd/rohm-generic.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/rohm-bd957x.h>
+#include <peenux/mfd/rohm-generic.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 enum {
 	BD957X_REGULATOR_CELL,

@@ -27,17 +27,17 @@
  * than the one in the A10 User Manual v.1.5)
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/thermal.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/thermal.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define TP_CTRL0		0x00
 #define TP_CTRL1		0x04

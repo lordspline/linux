@@ -7,9 +7,9 @@
 #include <stdlib.h>
 #include "bench.h"
 #include "../util/stat.h"
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/time64.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/time64.h>
 #include <subcmd/parse-options.h>
 
 static unsigned int outer_iterations = 5;

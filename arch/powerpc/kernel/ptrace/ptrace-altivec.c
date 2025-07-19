@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/regset.h>
-#include <linux/elf.h>
+#include <peenux/regset.h>
+#include <peenux/elf.h>
 
 #include <asm/switch_to.h>
 

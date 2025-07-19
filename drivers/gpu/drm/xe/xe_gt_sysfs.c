@@ -5,8 +5,8 @@
 
 #include "xe_gt_sysfs.h"
 
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
+#include <peenux/kobject.h>
+#include <peenux/sysfs.h>
 
 #include <drm/drm_managed.h>
 

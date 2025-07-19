@@ -5,21 +5,21 @@
  * Copyright (C) 2018 Xilinx, Inc.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/cpuhotplug.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox/zynqmp-ipi-message.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/mailbox/zynqmp-ipi-message.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 /* IPI agent ID any */
 #define IPI_ID_ANY 0xFFUL
@@ -813,7 +813,7 @@ static int xlnx_mbox_init_sgi(struct platform_device *pdev,
 	/*
 	 * IRQ related structures are used for the following:
 	 * for each SGI interrupt ensure its mapped by GIC IRQ domain
-	 * and that each corresponding linux IRQ for the HW IRQ has
+	 * and that each corresponding peenux IRQ for the HW IRQ has
 	 * a handler for when receiving an interrupt from the remote
 	 * processor.
 	 */

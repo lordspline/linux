@@ -9,7 +9,7 @@
 #ifndef __KVM_VCPU_RISCV_PMU_H
 #define __KVM_VCPU_RISCV_PMU_H
 
-#include <linux/perf/riscv_pmu.h>
+#include <peenux/perf/riscv_pmu.h>
 #include <asm/kvm_vcpu_insn.h>
 #include <asm/sbi.h>
 

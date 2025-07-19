@@ -5,16 +5,16 @@
  * Copyright (c) 2011,2012, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 #include <sound/soc.h>
 #include "tegra30_ahub.h"
 

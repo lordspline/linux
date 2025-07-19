@@ -7,15 +7,15 @@
  * Copyright 2022 Google LLC
  */
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/kobject.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
 
 #include "coreboot_table.h"
 

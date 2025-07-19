@@ -2,7 +2,7 @@
 #include "tests.h"
 #include "util/debug.h"
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #include <stdlib.h>
 #include <string2.h>
 

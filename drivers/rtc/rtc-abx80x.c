@@ -10,14 +10,14 @@
  *
  */
 
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
-#include <linux/watchdog.h>
+#include <peenux/bcd.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/rtc.h>
+#include <peenux/watchdog.h>
 
 #define ABX8XX_REG_HTH		0x00
 #define ABX8XX_REG_SC		0x01

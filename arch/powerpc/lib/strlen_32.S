@@ -6,7 +6,7 @@
  *
  * Inspired from glibc implementation
  */
-#include <linux/export.h>
+#include <peenux/export.h>
 #include <asm/ppc_asm.h>
 #include <asm/cache.h>
 

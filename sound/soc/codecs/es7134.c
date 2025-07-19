@@ -4,8 +4,8 @@
  * Author: Jerome Brunet <jbrunet@baylibre.com>
  */
 
-#include <linux/of_platform.h>
-#include <linux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/module.h>
 #include <sound/soc.h>
 
 /*

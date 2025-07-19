@@ -5,12 +5,12 @@
  * Copyright 2005 (c) Andriy Skulysh <askulysh@gmail.com>
  * Copyright 2008 (c) Kristoffer Ericson <kristoffer.ericson@gmail.com>
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/apm-emulation.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/apm-emulation.h>
+#include <peenux/io.h>
 #include <asm/adc.h>
 #include <mach/hp6xx.h>
 

@@ -3,18 +3,18 @@
 
 /* ethtool support for igb */
 
-#include <linux/vmalloc.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/if_ether.h>
-#include <linux/ethtool.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/highmem.h>
-#include <linux/mdio.h>
+#include <peenux/vmalloc.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/if_ether.h>
+#include <peenux/ethtool.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/highmem.h>
+#include <peenux/mdio.h>
 
 #include "igb.h"
 

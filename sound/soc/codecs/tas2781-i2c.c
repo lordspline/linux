@@ -13,21 +13,21 @@
 // Author: Kevin Lu <kevin-lu@ti.com>
 //
 
-#include <linux/crc8.h>
+#include <peenux/crc8.h>
 #ifdef CONFIG_SND_SOC_TAS2781_ACOUST_I2C
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 #endif
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/tas2781.h>
@@ -35,7 +35,7 @@
 #include <sound/tlv.h>
 #include <sound/tas2563-tlv.h>
 #include <sound/tas2781-tlv.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define X2563_CL_STT_VAL(xreg, xval) \
 {	.reg = xreg, \

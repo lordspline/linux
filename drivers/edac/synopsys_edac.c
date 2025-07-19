@@ -6,13 +6,13 @@
  * Copyright (C) 2012 - 2014 Xilinx, Inc.
  */
 
-#include <linux/edac.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/sizes.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
+#include <peenux/edac.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/sizes.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
 
 #include "edac_module.h"
 

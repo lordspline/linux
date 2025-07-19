@@ -8,11 +8,11 @@
  * Copyright (C) 2020-2021, 2023-2024 Intel Corporation
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/nl80211.h>
-#include <linux/rtnetlink.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/nl80211.h>
+#include <peenux/rtnetlink.h>
 #include <net/cfg80211.h>
 #include "sysfs.h"
 #include "core.h"

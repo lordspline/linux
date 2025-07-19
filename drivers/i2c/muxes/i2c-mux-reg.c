@@ -6,15 +6,15 @@
  * York Sun  <yorksun@freescale.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_data/i2c-mux-reg.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_data/i2c-mux-reg.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 struct regmux {
 	struct i2c_mux_reg_platform_data data;

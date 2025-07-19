@@ -13,17 +13,17 @@
  *	The LEDs can be configured at runtime in /sys/class/leds/
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/utsname.h>
-#include <linux/capability.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
-#include <linux/uaccess.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/ioport.h>
+#include <peenux/utsname.h>
+#include <peenux/capability.h>
+#include <peenux/delay.h>
+#include <peenux/reboot.h>
+#include <peenux/uaccess.h>
+#include <peenux/leds.h>
+#include <peenux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/processor.h>
@@ -456,7 +456,7 @@ static int __init early_led_init(void)
 	int ret;
 
 	scnprintf(lcd_text, sizeof(lcd_text),
-		"Linux %s", init_utsname()->release);
+		"Peenux %s", init_utsname()->release);
 	lcd_new_text = 1;
 
 	/* Work around the buggy PDC of KittyHawk-machines */

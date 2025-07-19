@@ -20,28 +20,28 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/stddef.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/highmem.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/stddef.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/highmem.h>
+#include <peenux/memblock.h>
+#include <peenux/of_fdt.h>
 
 #include <asm/io.h>
 #include <asm/mmu_context.h>
 #include <asm/mmu.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/smp.h>
 #include <asm/machdep.h>
 #include <asm/setup.h>

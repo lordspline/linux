@@ -6,15 +6,15 @@
  *    Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/jiffies.h>
-#include <linux/sysctl.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/percpu.h>
-#include <linux/io.h>
+#include <peenux/types.h>
+#include <peenux/export.h>
+#include <peenux/spinlock.h>
+#include <peenux/jiffies.h>
+#include <peenux/sysctl.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/percpu.h>
+#include <peenux/io.h>
 #include <asm/alternative.h>
 #include <asm/machine.h>
 #include <asm/asm.h>

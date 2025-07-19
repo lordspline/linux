@@ -11,18 +11,18 @@
  * - Pin pad configuration (pull up/down, strength)
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "pinctrl-utils.h"
 

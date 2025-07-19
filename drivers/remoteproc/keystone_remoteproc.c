@@ -5,20 +5,20 @@
  * Copyright (C) 2015-2017 Texas Instruments Incorporated - http://www.ti.com/
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/workqueue.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/workqueue.h>
+#include <peenux/of_address.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/remoteproc.h>
+#include <peenux/reset.h>
 
 #include "remoteproc_internal.h"
 

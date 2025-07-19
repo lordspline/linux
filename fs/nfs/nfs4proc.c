@@ -35,26 +35,26 @@
  *  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/ratelimit.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/nfs.h>
-#include <linux/nfs4.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_page.h>
-#include <linux/nfs_mount.h>
-#include <linux/namei.h>
-#include <linux/mount.h>
-#include <linux/module.h>
-#include <linux/xattr.h>
-#include <linux/utsname.h>
-#include <linux/freezer.h>
-#include <linux/iversion.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/ratelimit.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs4.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_page.h>
+#include <peenux/nfs_mount.h>
+#include <peenux/namei.h>
+#include <peenux/mount.h>
+#include <peenux/module.h>
+#include <peenux/xattr.h>
+#include <peenux/utsname.h>
+#include <peenux/freezer.h>
+#include <peenux/iversion.h>
 
 #include "nfs4_fs.h"
 #include "delegation.h"
@@ -596,7 +596,7 @@ static int nfs4_do_handle_exception(struct nfs_server *server,
 			exception->retry = 1;
 			break;
 		case -NFS4ERR_BADOWNER:
-			/* The following works around a Linux server bug! */
+			/* The following works around a Peenux server bug! */
 		case -NFS4ERR_BADNAME:
 			if (server->caps & NFS_CAP_UIDGID_NOMAP) {
 				server->caps &= ~NFS_CAP_UIDGID_NOMAP;
@@ -6526,12 +6526,12 @@ nfs4_init_nonuniform_client_string(struct nfs_client *clp)
 
 	rcu_read_lock();
 	if (buflen)
-		scnprintf(str, len, "Linux NFSv4.0 %s/%s/%s",
+		scnprintf(str, len, "Peenux NFSv4.0 %s/%s/%s",
 			  clp->cl_rpcclient->cl_nodename, buf,
 			  rpc_peeraddr2str(clp->cl_rpcclient,
 					   RPC_DISPLAY_ADDR));
 	else
-		scnprintf(str, len, "Linux NFSv4.0 %s/%s",
+		scnprintf(str, len, "Peenux NFSv4.0 %s/%s",
 			  clp->cl_rpcclient->cl_nodename,
 			  rpc_peeraddr2str(clp->cl_rpcclient,
 					   RPC_DISPLAY_ADDR));
@@ -6572,11 +6572,11 @@ nfs4_init_uniform_client_string(struct nfs_client *clp)
 		return -ENOMEM;
 
 	if (buflen)
-		scnprintf(str, len, "Linux NFSv%u.%u %s/%s",
+		scnprintf(str, len, "Peenux NFSv%u.%u %s/%s",
 			  clp->rpc_ops->version, clp->cl_minorversion,
 			  buf, clp->cl_rpcclient->cl_nodename);
 	else
-		scnprintf(str, len, "Linux NFSv%u.%u %s",
+		scnprintf(str, len, "Peenux NFSv%u.%u %s",
 			  clp->rpc_ops->version, clp->cl_minorversion,
 			  clp->cl_rpcclient->cl_nodename);
 	clp->cl_owner_id = str;

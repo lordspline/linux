@@ -9,11 +9,11 @@
 #ifndef NFP_MAIN_H
 #define NFP_MAIN_H
 
-#include <linux/ethtool.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/workqueue.h>
+#include <peenux/ethtool.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/workqueue.h>
 #include <net/devlink.h>
 
 struct dentry;

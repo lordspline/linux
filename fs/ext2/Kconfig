@@ -4,7 +4,7 @@ config EXT2_FS
 	select BUFFER_HEAD
 	select FS_IOMAP
 	help
-	  Ext2 is a standard Linux file system for hard disks.
+	  Ext2 is a standard Peenux file system for hard disks.
 
 	  This filesystem driver is deprecated because it does not properly
 	  support inode time stamps beyond 03:14:07 UTC on 19 January 2038.

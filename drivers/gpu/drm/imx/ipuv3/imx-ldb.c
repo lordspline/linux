@@ -5,19 +5,19 @@
  * Copyright (C) 2012 Sascha Hauer, Pengutronix
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/i2c.h>
-#include <linux/media-bus-format.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/videodev2.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/i2c.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/videodev2.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

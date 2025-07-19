@@ -1,24 +1,24 @@
 /*
  * Driver for the Axis ARTPEC-6 pin controller
  *
- * Author: Chris Paterson <chris.paterson@linux.pieboy.co.uk>
+ * Author: Chris Paterson <chris.paterson@peenux.pieboy.co.uk>
  *
  * This file is licensed under the terms of the GNU General Public
  * License version 2. This program is licensed "as is" without any
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/slab.h>
 #include "core.h"
 #include "pinconf.h"
 #include "pinctrl-utils.h"

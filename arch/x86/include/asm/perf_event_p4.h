@@ -6,8 +6,8 @@
 #ifndef PERF_EVENT_P4_H
 #define PERF_EVENT_P4_H
 
-#include <linux/cpu.h>
-#include <linux/bitops.h>
+#include <peenux/cpu.h>
+#include <peenux/bitops.h>
 
 /*
  * NetBurst has performance MSRs shared between

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Roccat Lua driver for Linux
+ * Roccat Lua driver for Peenux
  *
  * Copyright (c) 2012 Stefan Achatz <erazor_de@users.sourceforge.net>
  */
@@ -13,12 +13,12 @@
  * configured.
  */
 
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/hid-roccat.h>
+#include <peenux/device.h>
+#include <peenux/input.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/hid-roccat.h>
 #include "hid-ids.h"
 #include "hid-roccat-common.h"
 #include "hid-roccat-lua.h"

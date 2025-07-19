@@ -1,14 +1,14 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
- * Linux Socket Filter Data Structures
+ * Peenux Socket Filter Data Structures
  */
 
 #ifndef __LINUX_FILTER_H__
 #define __LINUX_FILTER_H__
 
 
-#include <linux/types.h>
-#include <linux/bpf_common.h>
+#include <peenux/types.h>
+#include <peenux/bpf_common.h>
 
 /*
  * Current version of the filter code architecture.

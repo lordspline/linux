@@ -2,8 +2,8 @@
 #ifndef MFD_TMIO_H
 #define MFD_TMIO_H
 
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 /* TMIO MMC platform flags */
 

@@ -9,14 +9,14 @@
  *
  * Contributors:
  *  Amir Hanania <amir.hanania@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/dev_printk.h>
-#include <linux/io.h>
-#include <linux/irqreturn.h>
+#include <peenux/bits.h>
+#include <peenux/completion.h>
+#include <peenux/dev_printk.h>
+#include <peenux/io.h>
+#include <peenux/irqreturn.h>
 
 #include "t7xx_mhccif.h"
 #include "t7xx_modem_ops.h"

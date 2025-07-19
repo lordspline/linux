@@ -17,20 +17,20 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 /* Includes */
-#include <linux/module.h>		/* For module specific items */
-#include <linux/moduleparam.h>		/* For new moduleparam's */
-#include <linux/types.h>		/* For standard types (like size_t) */
-#include <linux/errno.h>		/* For the -ENODEV/... values */
-#include <linux/kernel.h>		/* For printk/... */
-#include <linux/miscdevice.h>		/* For struct miscdevice */
-#include <linux/watchdog.h>		/* For the watchdog specific items */
-#include <linux/init.h>			/* For __init/__exit/... */
-#include <linux/fs.h>			/* For file operations */
-#include <linux/platform_device.h>	/* For platform_driver framework */
-#include <linux/ioport.h>		/* For io-port access */
-#include <linux/spinlock.h>		/* For spin_lock/spin_unlock/... */
-#include <linux/uaccess.h>		/* For copy_to_user/put_user/... */
-#include <linux/io.h>			/* For inb/outb/... */
+#include <peenux/module.h>		/* For module specific items */
+#include <peenux/moduleparam.h>		/* For new moduleparam's */
+#include <peenux/types.h>		/* For standard types (like size_t) */
+#include <peenux/errno.h>		/* For the -ENODEV/... values */
+#include <peenux/kernel.h>		/* For printk/... */
+#include <peenux/miscdevice.h>		/* For struct miscdevice */
+#include <peenux/watchdog.h>		/* For the watchdog specific items */
+#include <peenux/init.h>			/* For __init/__exit/... */
+#include <peenux/fs.h>			/* For file operations */
+#include <peenux/platform_device.h>	/* For platform_driver framework */
+#include <peenux/ioport.h>		/* For io-port access */
+#include <peenux/spinlock.h>		/* For spin_lock/spin_unlock/... */
+#include <peenux/uaccess.h>		/* For copy_to_user/put_user/... */
+#include <peenux/io.h>			/* For inb/outb/... */
 
 /* Module and version information */
 #define DRV_NAME	"sch311x_wdt"

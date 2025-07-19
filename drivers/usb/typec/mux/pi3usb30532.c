@@ -5,12 +5,12 @@
  * Copyright (c) 2017-2018 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_mux.h>
 
 #define PI3USB30532_CONF			0x00
 

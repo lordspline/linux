@@ -7,13 +7,13 @@
 
 #include <asm/byteorder.h>
 #include <kunit/static_stub.h>
-#include <linux/dev_printk.h>
-#include <linux/efi.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/dev_printk.h>
+#include <peenux/efi.h>
+#include <peenux/firmware/cirrus/cs_dsp.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 #include <sound/cs-amp-lib.h>
 
 #define CS_AMP_CAL_GUID \

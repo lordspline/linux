@@ -3,7 +3,7 @@
 #include "util/mem-events.h"
 #include "util/mem-info.h"
 #include "util/symbol.h"
-#include "linux/perf_event.h"
+#include "peenux/perf_event.h"
 #include "util/debug.h"
 #include "tests.h"
 #include <string.h>

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{linux.intel,addtoit}.com)
+ * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{peenux.intel,addtoit}.com)
  */
 
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 #include <asm/atomic.h>
 #include <init.h>
 #include <irq_kern.h>

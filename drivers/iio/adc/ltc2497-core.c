@@ -6,12 +6,12 @@
  * Copyright (C) 2017 Analog Devices Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/driver.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regulator/consumer.h>
 
 #include "ltc2497.h"
 

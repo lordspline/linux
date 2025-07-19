@@ -8,10 +8,10 @@
  *                                        (at) -> @
  */      
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/tlv.h>
 

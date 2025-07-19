@@ -4,7 +4,7 @@
  *
  * Zero an entire page.
  */
-#include <linux/export.h>
+#include <peenux/export.h>
 	.text
 	.align 4
 	.global clear_page

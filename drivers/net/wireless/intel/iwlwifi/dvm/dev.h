@@ -12,12 +12,12 @@
 #ifndef __iwl_dev_h__
 #define __iwl_dev_h__
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/wait.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/wait.h>
+#include <peenux/leds.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
 
 #include "fw/img.h"
 #include "iwl-nvm-utils.h"

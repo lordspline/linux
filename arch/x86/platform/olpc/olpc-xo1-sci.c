@@ -7,17 +7,17 @@
  * Copyright (C) 2006 Advanced Micro Devices, Inc.
  */
 
-#include <linux/cs5535.h>
-#include <linux/device.h>
-#include <linux/gpio.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/power_supply.h>
-#include <linux/suspend.h>
-#include <linux/workqueue.h>
-#include <linux/olpc-ec.h>
+#include <peenux/cs5535.h>
+#include <peenux/device.h>
+#include <peenux/gpio.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/power_supply.h>
+#include <peenux/suspend.h>
+#include <peenux/workqueue.h>
+#include <peenux/olpc-ec.h>
 
 #include <asm/io.h>
 #include <asm/msr.h>

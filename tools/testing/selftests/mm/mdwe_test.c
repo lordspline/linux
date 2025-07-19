@@ -4,8 +4,8 @@
 #include <asm/hwcap.h>
 #endif
 
-#include <linux/mman.h>
-#include <linux/prctl.h>
+#include <peenux/mman.h>
+#include <peenux/prctl.h>
 
 #include <stdio.h>
 #include <stdlib.h>

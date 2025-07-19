@@ -7,12 +7,12 @@
  * Adapted from the downstream Pixel C driver written by Sean Paul
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

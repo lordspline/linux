@@ -10,12 +10,12 @@
  * to not introduce bugs.
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/bcd.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/rtc.h>
+#include <peenux/platform_device.h>
+#include <peenux/bcd.h>
+#include <peenux/io.h>
 
 #define M48T86_SEC		0x00
 #define M48T86_SECALRM		0x01

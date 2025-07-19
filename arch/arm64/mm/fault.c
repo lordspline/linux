@@ -7,25 +7,25 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/extable.h>
-#include <linux/kfence.h>
-#include <linux/signal.h>
-#include <linux/mm.h>
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/kasan.h>
-#include <linux/kprobes.h>
-#include <linux/uaccess.h>
-#include <linux/page-flags.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/highmem.h>
-#include <linux/perf_event.h>
-#include <linux/pkeys.h>
-#include <linux/preempt.h>
-#include <linux/hugetlb.h>
+#include <peenux/acpi.h>
+#include <peenux/bitfield.h>
+#include <peenux/extable.h>
+#include <peenux/kfence.h>
+#include <peenux/signal.h>
+#include <peenux/mm.h>
+#include <peenux/hardirq.h>
+#include <peenux/init.h>
+#include <peenux/kasan.h>
+#include <peenux/kprobes.h>
+#include <peenux/uaccess.h>
+#include <peenux/page-flags.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/debug.h>
+#include <peenux/highmem.h>
+#include <peenux/perf_event.h>
+#include <peenux/pkeys.h>
+#include <peenux/preempt.h>
+#include <peenux/hugetlb.h>
 
 #include <asm/acpi.h>
 #include <asm/bug.h>

@@ -3,15 +3,15 @@
 #ifndef BTRFS_EXTENT_IO_H
 #define BTRFS_EXTENT_IO_H
 
-#include <linux/rbtree.h>
-#include <linux/refcount.h>
-#include <linux/fiemap.h>
-#include <linux/btrfs_tree.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
-#include <linux/rwsem.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/rbtree.h>
+#include <peenux/refcount.h>
+#include <peenux/fiemap.h>
+#include <peenux/btrfs_tree.h>
+#include <peenux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/rwsem.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 #include "compression.h"
 #include "messages.h"
 #include "ulist.h"

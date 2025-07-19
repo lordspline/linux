@@ -3,14 +3,14 @@
 #define _RDS_RDS_H
 
 #include <net/sock.h>
-#include <linux/scatterlist.h>
-#include <linux/highmem.h>
+#include <peenux/scatterlist.h>
+#include <peenux/highmem.h>
 #include <rdma/rdma_cm.h>
-#include <linux/mutex.h>
-#include <linux/rds.h>
-#include <linux/rhashtable.h>
-#include <linux/refcount.h>
-#include <linux/in6.h>
+#include <peenux/mutex.h>
+#include <peenux/rds.h>
+#include <peenux/rhashtable.h>
+#include <peenux/refcount.h>
+#include <peenux/in6.h>
 
 #include "info.h"
 

@@ -6,16 +6,16 @@
  *  Copyright 2006 Sony Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/workqueue.h>
-#include <linux/fs.h>
-#include <linux/syscalls.h>
-#include <linux/export.h>
-#include <linux/ctype.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/workqueue.h>
+#include <peenux/fs.h>
+#include <peenux/syscalls.h>
+#include <peenux/export.h>
+#include <peenux/ctype.h>
+#include <peenux/memblock.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 
 #include "platform.h"
 
@@ -198,13 +198,13 @@ static struct saved_params {
 } saved_params;
 
 static struct property property_rtc_diff = {
-	.name = "linux,rtc_diff",
+	.name = "peenux,rtc_diff",
 	.length = sizeof(saved_params.rtc_diff),
 	.value = &saved_params.rtc_diff,
 };
 
 static struct property property_av_multi_out = {
-	.name = "linux,av_multi_out",
+	.name = "peenux,av_multi_out",
 	.length = sizeof(saved_params.av_multi_out),
 	.value = &saved_params.av_multi_out,
 };

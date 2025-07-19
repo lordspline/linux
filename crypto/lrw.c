@@ -15,12 +15,12 @@
 
 #include <crypto/internal/skcipher.h>
 #include <crypto/scatterwalk.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
 
 #include <crypto/b128ops.h>
 #include <crypto/gf128mul.h>

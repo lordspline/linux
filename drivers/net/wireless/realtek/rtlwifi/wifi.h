@@ -6,14 +6,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/sched.h>
-#include <linux/firmware.h>
-#include <linux/etherdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/usb.h>
+#include <peenux/sched.h>
+#include <peenux/firmware.h>
+#include <peenux/etherdevice.h>
+#include <peenux/vmalloc.h>
+#include <peenux/usb.h>
 #include <net/mac80211.h>
-#include <linux/completion.h>
-#include <linux/bitfield.h>
+#include <peenux/completion.h>
+#include <peenux/bitfield.h>
 #include "debug.h"
 
 #define	MASKBYTE0				0xff
@@ -1891,7 +1891,7 @@ struct rtl_efuse {
 	 * 8192CE\8192SE\8192DE\8723AE use the following 4 arrays,
 	 * other ICs (8188EE\8723BE\8192EE\8812AE...)
 	 * define new arrays in Windows code.
-	 * BUT, in linux code, we use the same array for all ICs.
+	 * BUT, in peenux code, we use the same array for all ICs.
 	 *
 	 * The Correspondance relation between two arrays is:
 	 * txpwr_cckdiff[][] == CCK_24G_Diff[][]

@@ -8,7 +8,7 @@
  *
  ******************************************************************************/
 
-#include	<linux/types.h>
+#include	<peenux/types.h>
 /*
 	----------------------
 	Basic SMT system types

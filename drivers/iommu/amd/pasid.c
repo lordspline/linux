@@ -6,8 +6,8 @@
 #define pr_fmt(fmt)     "AMD-Vi: " fmt
 #define dev_fmt(fmt)    pr_fmt(fmt)
 
-#include <linux/iommu.h>
-#include <linux/mm_types.h>
+#include <peenux/iommu.h>
+#include <peenux/mm_types.h>
 
 #include "amd_iommu.h"
 

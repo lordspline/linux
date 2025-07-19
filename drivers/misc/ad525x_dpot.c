@@ -68,11 +68,11 @@
  * Copyright (c) 2006-2011 Michael Hennerich <michael.hennerich@analog.com>
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 
 #include "ad525x_dpot.h"
 

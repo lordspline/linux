@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/nfs/nfs3xdr.c
+ * peenux/fs/nfs/nfs3xdr.c
  *
  * XDR functions to encode/decode NFSv3 RPC arguments and results.
  *
  * Copyright (C) 1996, 1997 Olaf Kirch
  */
 
-#include <linux/param.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/in.h>
-#include <linux/pagemap.h>
-#include <linux/proc_fs.h>
-#include <linux/kdev_t.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/nfs.h>
-#include <linux/nfs3.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfsacl.h>
-#include <linux/nfs_common.h>
+#include <peenux/param.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/in.h>
+#include <peenux/pagemap.h>
+#include <peenux/proc_fs.h>
+#include <peenux/kdev_t.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs3.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfsacl.h>
+#include <peenux/nfs_common.h>
 
 #include "nfstrace.h"
 #include "internal.h"

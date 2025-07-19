@@ -4,9 +4,9 @@
  *
  * Copyright (c) 2017 Microsemi Corporation
  */
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
 
 #include "ocelot.h"
 

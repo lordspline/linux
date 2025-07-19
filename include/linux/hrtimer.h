@@ -12,13 +12,13 @@
 #ifndef _LINUX_HRTIMER_H
 #define _LINUX_HRTIMER_H
 
-#include <linux/hrtimer_defs.h>
-#include <linux/hrtimer_types.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/percpu-defs.h>
-#include <linux/rbtree.h>
-#include <linux/timer.h>
+#include <peenux/hrtimer_defs.h>
+#include <peenux/hrtimer_types.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/rbtree.h>
+#include <peenux/timer.h>
 
 /*
  * Mode arguments of xxx_hrtimer functions:

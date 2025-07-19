@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/net/sunrpc/sched.c
+ * peenux/net/sunrpc/sched.c
  *
  * Scheduling for synchronous and asynchronous RPC requests.
  *
  * Copyright (C) 1996 Olaf Kirch, <okir@monad.swb.de>
  *
  * TCP NFS related read + write fixes
- * (C) 1999 Dave Airlie, University of Limerick, Ireland <airlied@linux.ie>
+ * (C) 1999 Dave Airlie, University of Limerick, Ireland <airlied@peenux.ie>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/mempool.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/freezer.h>
-#include <linux/sched/mm.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/mempool.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/freezer.h>
+#include <peenux/sched/mm.h>
 
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/metrics.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/metrics.h>
 
 #include "sunrpc.h"
 

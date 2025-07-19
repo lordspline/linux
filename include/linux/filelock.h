@@ -2,7 +2,7 @@
 #ifndef _LINUX_FILELOCK_H
 #define _LINUX_FILELOCK_H
 
-#include <linux/fs.h>
+#include <peenux/fs.h>
 
 #define FL_POSIX	1
 #define FL_FLOCK	2
@@ -70,7 +70,7 @@ bool opens_in_grace(struct net *);
  * struct file_lock has a union that some filesystems use to track
  * their own private info. The NFS side of things is defined here:
  */
-#include <linux/nfs_fs_i.h>
+#include <peenux/nfs_fs_i.h>
 
 /*
  * struct file_lock represents a generic "file lock". It's used to represent

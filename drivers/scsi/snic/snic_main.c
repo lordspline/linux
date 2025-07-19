@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright 2014 Cisco Systems, Inc.  All rights reserved.
 
-#include <linux/module.h>
-#include <linux/mempool.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/skbuff.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/mempool.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/skbuff.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_tcq.h>
 

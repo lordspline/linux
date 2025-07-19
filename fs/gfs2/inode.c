@@ -4,21 +4,21 @@
  * Copyright (C) 2004-2011 Red Hat, Inc.  All rights reserved.
  */
 
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/buffer_head.h>
-#include <linux/namei.h>
-#include <linux/mm.h>
-#include <linux/cred.h>
-#include <linux/xattr.h>
-#include <linux/posix_acl.h>
-#include <linux/gfs2_ondisk.h>
-#include <linux/crc32.h>
-#include <linux/iomap.h>
-#include <linux/security.h>
-#include <linux/fiemap.h>
-#include <linux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/buffer_head.h>
+#include <peenux/namei.h>
+#include <peenux/mm.h>
+#include <peenux/cred.h>
+#include <peenux/xattr.h>
+#include <peenux/posix_acl.h>
+#include <peenux/gfs2_ondisk.h>
+#include <peenux/crc32.h>
+#include <peenux/iomap.h>
+#include <peenux/security.h>
+#include <peenux/fiemap.h>
+#include <peenux/uaccess.h>
 
 #include "gfs2.h"
 #include "incore.h"

@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Spreadtrum Communications Inc.
 
-#include <linux/hwspinlock.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/hwspinlock.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 /* PMIC global registers definition */
 #define SC2730_MODULE_EN		0x1808

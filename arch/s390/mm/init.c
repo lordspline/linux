@@ -8,33 +8,33 @@
  *    Copyright (C) 1995  Linus Torvalds
  */
 
-#include <linux/cpufeature.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/swiotlb.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/pagemap.h>
-#include <linux/memblock.h>
-#include <linux/memory.h>
-#include <linux/pfn.h>
-#include <linux/poison.h>
-#include <linux/initrd.h>
-#include <linux/export.h>
-#include <linux/cma.h>
-#include <linux/gfp.h>
-#include <linux/dma-direct.h>
-#include <linux/percpu.h>
+#include <peenux/cpufeature.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/swiotlb.h>
+#include <peenux/smp.h>
+#include <peenux/init.h>
+#include <peenux/pagemap.h>
+#include <peenux/memblock.h>
+#include <peenux/memory.h>
+#include <peenux/pfn.h>
+#include <peenux/poison.h>
+#include <peenux/initrd.h>
+#include <peenux/export.h>
+#include <peenux/cma.h>
+#include <peenux/gfp.h>
+#include <peenux/dma-direct.h>
+#include <peenux/percpu.h>
 #include <asm/processor.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/pgalloc.h>
 #include <asm/ctlreg.h>
 #include <asm/kfence.h>
@@ -47,9 +47,9 @@
 #include <asm/kasan.h>
 #include <asm/dma-mapping.h>
 #include <asm/uv.h>
-#include <linux/virtio_anchor.h>
-#include <linux/virtio_config.h>
-#include <linux/execmem.h>
+#include <peenux/virtio_anchor.h>
+#include <peenux/virtio_config.h>
+#include <peenux/execmem.h>
 
 pgd_t swapper_pg_dir[PTRS_PER_PGD] __section(".bss..swapper_pg_dir");
 pgd_t invalid_pg_dir[PTRS_PER_PGD] __section(".bss..invalid_pg_dir");

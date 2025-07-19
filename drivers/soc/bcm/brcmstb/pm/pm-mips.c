@@ -5,13 +5,13 @@
  * Copyright (C) 2016-2017 Broadcom
  */
 
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
-#include <linux/suspend.h>
+#include <peenux/kernel.h>
+#include <peenux/printk.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/delay.h>
+#include <peenux/suspend.h>
 #include <asm/bmips.h>
 #include <asm/tlbflush.h>
 

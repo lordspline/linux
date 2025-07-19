@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/kernel/compat.c
+ *  peenux/kernel/compat.c
  *
  *  Kernel compatibililty routines for e.g. 32 bit syscall support
  *  on 64 bit kernels.
@@ -8,23 +8,23 @@
  *  Copyright (C) 2002-2003 Stephen Rothwell, IBM Corporation
  */
 
-#include <linux/linkage.h>
-#include <linux/compat.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/signal.h>
-#include <linux/sched.h>	/* for MAX_SCHEDULE_TIMEOUT */
-#include <linux/syscalls.h>
-#include <linux/unistd.h>
-#include <linux/security.h>
-#include <linux/export.h>
-#include <linux/migrate.h>
-#include <linux/posix-timers.h>
-#include <linux/times.h>
-#include <linux/ptrace.h>
-#include <linux/gfp.h>
+#include <peenux/linkage.h>
+#include <peenux/compat.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>	/* for MAX_SCHEDULE_TIMEOUT */
+#include <peenux/syscalls.h>
+#include <peenux/unistd.h>
+#include <peenux/security.h>
+#include <peenux/export.h>
+#include <peenux/migrate.h>
+#include <peenux/posix-timers.h>
+#include <peenux/times.h>
+#include <peenux/ptrace.h>
+#include <peenux/gfp.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #ifdef __ARCH_WANT_SYS_SIGPROCMASK
 

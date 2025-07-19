@@ -32,19 +32,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/parser.h>
-#include <linux/random.h>
-#include <linux/jiffies.h>
-#include <linux/lockdep.h>
-#include <linux/inet.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/parser.h>
+#include <peenux/random.h>
+#include <peenux/jiffies.h>
+#include <peenux/lockdep.h>
+#include <peenux/inet.h>
 #include <rdma/ib_cache.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_device.h>

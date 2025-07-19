@@ -10,9 +10,9 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/mpage.h>
-#include <linux/buffer_head.h>
+#include <peenux/fs.h>
+#include <peenux/mpage.h>
+#include <peenux/buffer_head.h>
 #include "bfs.h"
 
 #undef DEBUG

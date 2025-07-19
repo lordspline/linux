@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/refcount.h>
-#include <linux/mlx5/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/refcount.h>
+#include <peenux/mlx5/driver.h>
 #include <net/vxlan.h>
 #include "mlx5_core.h"
 #include "vxlan.h"

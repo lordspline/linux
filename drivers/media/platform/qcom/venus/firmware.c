@@ -3,19 +3,19 @@
  * Copyright (C) 2017 Linaro Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/iommu.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/of_device.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/sizes.h>
-#include <linux/soc/qcom/mdt_loader.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/kernel.h>
+#include <peenux/iommu.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/of_device.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/sizes.h>
+#include <peenux/soc/qcom/mdt_loader.h>
 
 #include "core.h"
 #include "firmware.h"

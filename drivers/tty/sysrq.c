@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	Linux Magic System Request Key Hacks
+ *	Peenux Magic System Request Key Hacks
  *
  *	(c) 1997 Martin Mares <mj@atrey.karlin.mff.cuni.cz>
  *	based on ideas by Pavel Machek <pavel@atrey.karlin.mff.cuni.cz>
@@ -15,42 +15,42 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/sched/signal.h>
-#include <linux/sched/rt.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/ctype.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/kdev_t.h>
-#include <linux/major.h>
-#include <linux/reboot.h>
-#include <linux/sysrq.h>
-#include <linux/kbd_kern.h>
-#include <linux/proc_fs.h>
-#include <linux/nmi.h>
-#include <linux/quotaops.h>
-#include <linux/perf_event.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/suspend.h>
-#include <linux/writeback.h>
-#include <linux/swap.h>
-#include <linux/spinlock.h>
-#include <linux/vt_kern.h>
-#include <linux/workqueue.h>
-#include <linux/hrtimer.h>
-#include <linux/oom.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/uaccess.h>
-#include <linux/moduleparam.h>
-#include <linux/jiffies.h>
-#include <linux/syscalls.h>
-#include <linux/of.h>
-#include <linux/rcupdate.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/rt.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/ctype.h>
+#include <peenux/interrupt.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
+#include <peenux/kdev_t.h>
+#include <peenux/major.h>
+#include <peenux/reboot.h>
+#include <peenux/sysrq.h>
+#include <peenux/kbd_kern.h>
+#include <peenux/proc_fs.h>
+#include <peenux/nmi.h>
+#include <peenux/quotaops.h>
+#include <peenux/perf_event.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/suspend.h>
+#include <peenux/writeback.h>
+#include <peenux/swap.h>
+#include <peenux/spinlock.h>
+#include <peenux/vt_kern.h>
+#include <peenux/workqueue.h>
+#include <peenux/hrtimer.h>
+#include <peenux/oom.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/uaccess.h>
+#include <peenux/moduleparam.h>
+#include <peenux/jiffies.h>
+#include <peenux/syscalls.h>
+#include <peenux/of.h>
+#include <peenux/rcupdate.h>
 
 #include <asm/ptrace.h>
 #include <asm/irq_regs.h>
@@ -324,7 +324,7 @@ static const struct sysrq_key_op sysrq_showstate_blocked_op = {
 };
 
 #ifdef CONFIG_TRACING
-#include <linux/ftrace.h>
+#include <peenux/ftrace.h>
 
 static void sysrq_ftrace_dump(u8 key)
 {
@@ -771,7 +771,7 @@ static void sysrq_of_get_keyreset_config(void)
 	u32 key;
 	struct device_node *np;
 
-	np = of_find_node_by_path("/chosen/linux,sysrq-reset-seq");
+	np = of_find_node_by_path("/chosen/peenux,sysrq-reset-seq");
 	if (!np) {
 		pr_debug("No sysrq node found");
 		return;

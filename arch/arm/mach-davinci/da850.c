@@ -9,13 +9,13 @@
  * 2009 (c) MontaVista Software, Inc.
  */
 
-#include <linux/gpio.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mfd/da8xx-cfgchip.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/gpio.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mfd/da8xx-cfgchip.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 #include <clocksource/timer-davinci.h>
 
 #include <asm/mach/map.h>

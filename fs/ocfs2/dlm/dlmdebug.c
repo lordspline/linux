@@ -7,14 +7,14 @@
  * Copyright (C) 2004, 2008 Oracle.  All rights reserved.
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/sysctl.h>
-#include <linux/spinlock.h>
-#include <linux/debugfs.h>
-#include <linux/export.h>
-#include <linux/string_choices.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/sysctl.h>
+#include <peenux/spinlock.h>
+#include <peenux/debugfs.h>
+#include <peenux/export.h>
+#include <peenux/string_choices.h>
 
 #include "../cluster/heartbeat.h"
 #include "../cluster/nodemanager.h"

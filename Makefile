@@ -288,7 +288,7 @@ endif
 # Detect when mixed targets is specified, and make a second invocation
 # of make so .config is not included in this case either (for *config).
 
-version_h := include/generated/uapi/linux/version.h
+version_h := include/generated/uapi/peenux/version.h
 
 clean-targets := %clean mrproper cleandocs
 no-dot-config-targets := $(clean-targets) \
@@ -396,7 +396,7 @@ include $(srctree)/scripts/subarch.include
 # during compilation. Only gcc and related bin-utils executables
 # are prefixed with $(CROSS_COMPILE).
 # CROSS_COMPILE can be set on the command line
-# make CROSS_COMPILE=aarch64-linux-gnu-
+# make CROSS_COMPILE=aarch64-peenux-gnu-
 # Alternatively CROSS_COMPILE can be set in the environment.
 # Default value for CROSS_COMPILE is not to prefix executables
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
@@ -562,8 +562,8 @@ USERINCLUDE    := \
 		-I$(objtree)/arch/$(SRCARCH)/include/generated/uapi \
 		-I$(srctree)/include/uapi \
 		-I$(objtree)/include/generated/uapi \
-                -include $(srctree)/include/linux/compiler-version.h \
-                -include $(srctree)/include/linux/kconfig.h
+                -include $(srctree)/include/peenux/compiler-version.h \
+                -include $(srctree)/include/peenux/kconfig.h
 
 # Use LINUXINCLUDE when you must reference the include/ directory.
 # Needed to be compatible with the O= option
@@ -963,7 +963,7 @@ ifdef CONFIG_FTRACE_MCOUNT_USE_RECORDMCOUNT
   endif
 endif
 ifdef CONFIG_HAVE_FENTRY
-  # s390-linux-gnu-gcc did not support -mfentry until gcc-9.
+  # s390-peenux-gnu-gcc did not support -mfentry until gcc-9.
   ifeq ($(call cc-option-yn, -mfentry),y)
     CC_FLAGS_FTRACE	+= -mfentry
     CC_FLAGS_USING	+= -DCC_USING_FENTRY

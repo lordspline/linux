@@ -4,7 +4,7 @@
 #ifndef __KVM_X86_TDX_ARCH_H
 #define __KVM_X86_TDX_ARCH_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* TDX control structure (TDR/TDCS/TDVPS) field access codes */
 #define TDX_NON_ARCH			BIT_ULL(63)

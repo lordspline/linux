@@ -8,16 +8,16 @@
  * Author: Peter Rosin <peda@axentia.se>
  */
 
-#include <linux/err.h>
-#include <linux/gcd.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/err.h>
+#include <peenux/gcd.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
-#include <linux/iio/afe/rescale.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/afe/rescale.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/iio/iio.h>
 
 int rescale_process_scale(struct rescale *rescale, int scale_type,
 			  int *val, int *val2)

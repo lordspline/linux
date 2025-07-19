@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2016-2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016-2018, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
 #include <soc/qcom/rpmh.h>
 

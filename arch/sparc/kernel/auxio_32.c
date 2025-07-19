@@ -4,16 +4,16 @@
  * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/export.h>
+#include <peenux/stddef.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/of.h>
+#include <peenux/export.h>
 
 #include <asm/oplib.h>
 #include <asm/io.h>
 #include <asm/auxio.h>
-#include <asm/string.h>		/* memset(), Linux has no bzero() */
+#include <asm/string.h>		/* memset(), Peenux has no bzero() */
 #include <asm/cpu_type.h>
 
 #include "kernel.h"

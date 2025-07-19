@@ -6,25 +6,25 @@
  *         ChiaEn Wu <chiaen_wu@richtek.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/linear_range.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/units.h>
-#include <linux/sysfs.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/kstrtox.h>
+#include <peenux/linear_range.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/units.h>
+#include <peenux/sysfs.h>
 
 #define RT9467_REG_CORE_CTRL0		0x00
 #define RT9467_REG_CHG_CTRL1		0x01

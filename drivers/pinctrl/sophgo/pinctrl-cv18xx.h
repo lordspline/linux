@@ -6,13 +6,13 @@
 #ifndef _PINCTRL_SOPHGO_CV18XX_H
 #define _PINCTRL_SOPHGO_CV18XX_H
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/platform_device.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinconf.h>
 
 #include "pinctrl-sophgo.h"
 

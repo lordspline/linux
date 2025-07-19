@@ -3,16 +3,16 @@
  * Copyright (C) 2024 Amlogic, Inc. All rights reserved
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/property.h>
-#include <linux/of.h>
-#include <linux/serdev.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/property.h>
+#include <peenux/of.h>
+#include <peenux/serdev.h>
+#include <peenux/clk.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>
 #include <net/bluetooth/hci.h>

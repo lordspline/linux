@@ -2,7 +2,7 @@
 //
 // Copyright(c) 2023 Intel Corporation
 
-#include <linux/device.h>
+#include <peenux/device.h>
 #include <sound/soc-acpi.h>
 #include <sound/soc-acpi-intel-ssp-common.h>
 

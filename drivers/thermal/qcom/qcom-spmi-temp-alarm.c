@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2011-2015, 2017, 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2015, 2017, 2020, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/iio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/thermal.h>
 
 #include "../thermal_hwmon.h"
 

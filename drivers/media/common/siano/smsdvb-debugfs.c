@@ -4,12 +4,12 @@
 
 #include "smscoreapi.h"
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/spinlock.h>
-#include <linux/usb.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/debugfs.h>
+#include <peenux/spinlock.h>
+#include <peenux/usb.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

@@ -30,10 +30,10 @@
  * SOFTWARE.
  */
 
-#include <linux/mutex.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/vport.h>
-#include <linux/mlx5/eswitch.h>
+#include <peenux/mutex.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/mlx5/vport.h>
+#include <peenux/mlx5/eswitch.h>
 #include <net/devlink.h>
 
 #include "mlx5_core.h"

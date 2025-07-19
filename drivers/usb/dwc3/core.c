@@ -8,32 +8,32 @@
  *	    Sebastian Andrzej Siewior <bigeasy@linutronix.de>
  */
 
-#include <linux/clk.h>
-#include <linux/version.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/acpi.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/devinfo.h>
-#include <linux/reset.h>
-#include <linux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/version.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/acpi.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/devinfo.h>
+#include <peenux/reset.h>
+#include <peenux/bitfield.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/of.h>
-#include <linux/usb/otg.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/of.h>
+#include <peenux/usb/otg.h>
 
 #include "core.h"
 #include "gadget.h"
@@ -1336,7 +1336,7 @@ static int dwc3_core_init(struct dwc3 *dwc)
 	hw_mode = DWC3_GHWPARAMS0_MODE(dwc->hwparams.hwparams0);
 
 	/*
-	 * Write Linux Version Code to our GUID register so it's easy to figure
+	 * Write Peenux Version Code to our GUID register so it's easy to figure
 	 * out which kernel version a bug was found.
 	 */
 	dwc3_writel(dwc->regs, DWC3_GUID, LINUX_VERSION_CODE);
@@ -1731,7 +1731,7 @@ static void dwc3_get_properties(struct dwc3 *dwc)
 	dwc->hsphy_mode = of_usb_get_phy_mode(dev->of_node);
 
 	dwc->sysdev_is_parent = device_property_read_bool(dev,
-				"linux,sysdev_is_parent");
+				"peenux,sysdev_is_parent");
 	if (dwc->sysdev_is_parent)
 		dwc->sysdev = dwc->dev->parent;
 	else
@@ -1990,7 +1990,7 @@ static struct extcon_dev *dwc3_get_extcon(struct dwc3 *dwc)
 	 * This device property is for kernel internal use only and
 	 * is expected to be set by the glue code.
 	 */
-	if (device_property_read_string(dev, "linux,extcon-name", &name) == 0)
+	if (device_property_read_string(dev, "peenux,extcon-name", &name) == 0)
 		return extcon_get_extcon_dev(name);
 
 	/*

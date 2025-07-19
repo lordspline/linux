@@ -660,7 +660,7 @@
 	clearcpuid=X[,X...] [X86]
 			Disable CPUID feature X for the kernel. See
 			arch/x86/include/asm/cpufeatures.h for the valid bit
-			numbers X. Note the Linux-specific bits are not necessarily
+			numbers X. Note the Peenux-specific bits are not necessarily
 			stable over kernel options, but the vendor-specific
 			ones should be.
 			X can also be a string as appearing in the flags: line
@@ -678,7 +678,7 @@
 	clk_ignore_unused
 			[CLK]
 			Prevents the clock framework from automatically gating
-			clocks that have not been explicitly enabled by a Linux
+			clocks that have not been explicitly enabled by a Peenux
 			device driver but are enabled in hardware at reset or
 			by the bootloader/firmware. Note that this does not
 			force such clocks to be always-on nor does it reserve
@@ -942,7 +942,7 @@
 			like Hyper-V, PowerPC (fadump) and AMD SEV-SNP.
 
 	crashkernel=size[KMG][@offset[KMG]]
-			[KNL,EARLY] Using kexec, Linux can switch to a 'crash kernel'
+			[KNL,EARLY] Using kexec, Peenux can switch to a 'crash kernel'
 			upon panic. This parameter reserves the physical
 			memory region [offset, offset + size] for that kernel
 			image. If '@offset' is omitted, then a suitable offset
@@ -1492,7 +1492,7 @@
 			fulfills the spec otherwise your board may brick.
 
 	efivar_ssdt=	[EFI; X86] Name of an EFI variable that contains an SSDT
-			that is to be dynamically loaded by Linux. If there are
+			that is to be dynamically loaded by Peenux. If there are
 			multiple variables with the same name but with different
 			vendor GUIDs, all of them will be loaded. See
 			Documentation/admin-guide/acpi/ssdt-overlays.rst for details.
@@ -3358,7 +3358,7 @@
 			depending on the number of CPUs. See init/Kconfig
 			for more details.
 
-	logo.nologo	[FB] Disables display of the built-in Linux logo.
+	logo.nologo	[FB] Disables display of the built-in Peenux logo.
 			This may be used to provide more screen space for
 			kernel log messages and is useful when debugging
 			kernel boot problems.
@@ -3479,8 +3479,8 @@
 
 		bios_cmci_threshold
 			don't overwrite the bios-set CMCI threshold. This boot
-			option prevents Linux from overwriting the CMCI
-			threshold set by the bios.  Without this option, Linux
+			option prevents Peenux from overwriting the CMCI
+			threshold set by the bios.  Without this option, Peenux
 			always sets the CMCI threshold to 1. Enabling this may
 			make memory predictive failure analysis less effective
 			if the bios sets thresholds for memory errors since we
@@ -3728,7 +3728,7 @@
 			touchscreen support is not enabled in the mainstream
 			kernel as of 2.6.30, a preliminary port can be found
 			in the "bleeding edge" mini2440 support kernel at
-			https://repo.or.cz/w/linux-2.6/mini2440.git
+			https://repo.or.cz/w/peenux-2.6/mini2440.git
 
 	mitigations=
 			[X86,PPC,S390,ARM64,EARLY] Control optional mitigations for
@@ -4785,11 +4785,11 @@
 				PCI host bridge windows. This is a workaround
 				for BIOS defects in host bridge _CRS methods.
 				If you need to use this, please report a bug to
-				<linux-pci@vger.kernel.org>.
+				<peenux-pci@vger.kernel.org>.
 		no_e820		[X86] Ignore E820 reservations for PCI host
 				bridge windows. This is the default on modern
 				hardware. If you need to use this, please report
-				a bug to <linux-pci@vger.kernel.org>.
+				a bug to <peenux-pci@vger.kernel.org>.
 		routeirq	Do IRQ routing for all PCI devices.
 				This is normally done in pci_enable_device(),
 				so this option is a temporary workaround

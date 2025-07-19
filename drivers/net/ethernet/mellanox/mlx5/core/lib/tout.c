@@ -1,7 +1,7 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /* Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES. All rights reserved. */
 
-#include <linux/mlx5/driver.h>
+#include <peenux/mlx5/driver.h>
 #include "lib/tout.h"
 
 struct mlx5_timeouts {

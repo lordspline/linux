@@ -9,13 +9,13 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/spinlock.h>
-#include <linux/export.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/gfp.h>
-#include <linux/acpi.h>
+#include <peenux/spinlock.h>
+#include <peenux/export.h>
+#include <peenux/proc_fs.h>
+#include <peenux/init.h>
+#include <peenux/poll.h>
+#include <peenux/gfp.h>
+#include <peenux/acpi.h>
 #include <net/netlink.h>
 #include <net/genetlink.h>
 

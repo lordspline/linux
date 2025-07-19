@@ -27,10 +27,10 @@
 #ifndef _OS_TYPES_H_
 #define _OS_TYPES_H_
 
-#include <linux/slab.h>
-#include <linux/kgdb.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/kgdb.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
 
 #include <asm/byteorder.h>
 

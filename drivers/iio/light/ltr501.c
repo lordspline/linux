@@ -9,20 +9,20 @@
  * TODO: IR LED characteristics
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/events.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #define LTR501_DRV_NAME "ltr501"
 

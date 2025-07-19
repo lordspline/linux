@@ -6,8 +6,8 @@
 #ifndef _XE_GUC_ENGINE_TYPES_H_
 #define _XE_GUC_ENGINE_TYPES_H_
 
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 #include "xe_gpu_scheduler_types.h"
 

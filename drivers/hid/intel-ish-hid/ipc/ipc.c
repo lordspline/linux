@@ -5,11 +5,11 @@
  * Copyright (c) 2014-2016, Intel Corporation.
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
 #include "client.h"
 #include "hw-ish.h"
 #include "hbm.h"

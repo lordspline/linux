@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
-/* Copyright (C) 2000-2002 Joakim Axelsson <gozem@linux.nu>
+/* Copyright (C) 2000-2002 Joakim Axelsson <gozem@peenux.nu>
  *                         Patrick Schaaf <bof@bof.de>
  *                         Martin Josefsson <gandalf@wlug.westbo.se>
  * Copyright (C) 2003-2013 Jozsef Kadlecsik <kadlec@netfilter.org>
@@ -7,15 +7,15 @@
 #ifndef _IP_SET_H
 #define _IP_SET_H
 
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/netlink.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/stringify.h>
-#include <linux/vmalloc.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/netlink.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/stringify.h>
+#include <peenux/vmalloc.h>
 #include <net/netlink.h>
-#include <uapi/linux/netfilter/ipset/ip_set.h>
+#include <uapi/peenux/netfilter/ipset/ip_set.h>
 
 #define _IP_SET_MODULE_DESC(a, b, c)		\
 	MODULE_DESCRIPTION(a " type of IP sets, revisions " b "-" c)

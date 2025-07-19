@@ -30,11 +30,11 @@
  * SOFTWARE.
  *
  */
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/rbtree.h>
-#include <linux/bitops.h>
-#include <linux/export.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/rbtree.h>
+#include <peenux/bitops.h>
+#include <peenux/export.h>
 
 #include "rds.h"
 

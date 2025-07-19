@@ -4,18 +4,18 @@
  * Copyright (C) 2001, 2002, 2003, 2007, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/numa.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/numa.h>
 
 #include <asm/iommu.h>
 #include <asm/irq.h>

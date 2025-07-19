@@ -5,23 +5,23 @@
  * CONFIG_DEBUG_INFO_REDUCED. Please do not add actual code. However,
  * adding appropriate #includes is fine.
  */
-#include <linux/cred.h>
-#include <linux/crypto.h>
-#include <linux/dcache.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/fscache-cache.h>
-#include <linux/io.h>
-#include <linux/kallsyms.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/net.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/stdarg.h>
-#include <linux/types.h>
+#include <peenux/cred.h>
+#include <peenux/crypto.h>
+#include <peenux/dcache.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/fscache-cache.h>
+#include <peenux/io.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kernel.h>
+#include <peenux/kobject.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/net.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/stdarg.h>
+#include <peenux/types.h>
 #include <net/addrconf.h>
 #include <net/sock.h>
 #include <net/tcp.h>

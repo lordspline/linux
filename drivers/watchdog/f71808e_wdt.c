@@ -8,13 +8,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/watchdog.h>
 
 #define DRVNAME "f71808e_wdt"
 

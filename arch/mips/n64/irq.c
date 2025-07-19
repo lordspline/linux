@@ -4,9 +4,9 @@
  *
  *  Copyright (C) 2021 Lauri Kasanen
  */
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
 
 #include <asm/irq_cpu.h>
 

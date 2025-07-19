@@ -9,9 +9,9 @@
  *	- 0x53 if ADDR pin HIGH
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #include "ens160.h"
 

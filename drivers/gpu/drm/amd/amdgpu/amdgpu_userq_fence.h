@@ -25,7 +25,7 @@
 #ifndef __AMDGPU_USERQ_FENCE_H__
 #define __AMDGPU_USERQ_FENCE_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "amdgpu_userq.h"
 

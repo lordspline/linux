@@ -7,22 +7,22 @@
  * Copyright (C) 2011 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps65217.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/tps65217.h>
 
 static const struct resource charger_resources[] = {
 	DEFINE_RES_IRQ_NAMED(TPS65217_IRQ_AC, "AC"),

@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/key.h>
-#include <linux/keyctl.h>
-#include <linux/parser.h>
-#include <linux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/key.h>
+#include <peenux/keyctl.h>
+#include <peenux/parser.h>
+#include <peenux/uaccess.h>
 #include <keys/user-type.h>
 #include "internal.h"
 

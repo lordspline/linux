@@ -14,9 +14,9 @@
 
 #ifdef CONFIG_KPROBES
 
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/notifier.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/notifier.h>
 
 #define PARISC_KPROBES_BREAK_INSN	0x3ff801f
 #define PARISC_KPROBES_BREAK_INSN2	0x3ff801e

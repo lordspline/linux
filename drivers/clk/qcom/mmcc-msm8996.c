@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*x
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/qcom,mmcc-msm8996.h>
 

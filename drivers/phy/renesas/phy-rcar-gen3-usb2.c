@@ -9,21 +9,21 @@
  * Copyright (C) 2014 Cogent Embedded, Inc.
  */
 
-#include <linux/cleanup.h>
-#include <linux/extcon-provider.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/string.h>
-#include <linux/usb/of.h>
-#include <linux/workqueue.h>
+#include <peenux/cleanup.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/string.h>
+#include <peenux/usb/of.h>
+#include <peenux/workqueue.h>
 
 /******* USB2.0 Host registers (original offset is +0x200) *******/
 #define USB2_INT_ENABLE		0x000

@@ -8,10 +8,10 @@
 #ifndef IIO_SX_COMMON_H
 #define IIO_SX_COMMON_H
 
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/types.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
 
 struct device;
 struct i2c_client;

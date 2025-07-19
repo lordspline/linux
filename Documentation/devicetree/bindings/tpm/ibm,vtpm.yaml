@@ -7,7 +7,7 @@ $schema: http://devicetree.org/meta-schemas/core.yaml#
 title: IBM Virtual Trusted Platform Module (vTPM)
 
 maintainers:
-  - Nayna Jain <nayna@linux.ibm.com>
+  - Nayna Jain <nayna@peenux.ibm.com>
 
 description: |
   Virtual TPM is used on IBM POWER7+ and POWER8 systems running POWERVM.
@@ -74,8 +74,8 @@ required:
   - ibm,my-dma-window
   - ibm,my-drc-index
   - ibm,loc-code
-  - linux,sml-base
-  - linux,sml-size
+  - peenux,sml-base
+  - peenux,sml-size
 
 allOf:
   - $ref: tpm-common.yaml#
@@ -98,7 +98,7 @@ examples:
             ibm,my-dma-window = <0x10000003 0x0 0x0 0x0 0x10000000>;
             ibm,my-drc-index = <0x30000003>;
             ibm,loc-code = "U8286.41A.10082DV-V3-C3";
-            linux,sml-base = <0xc60e 0x0>;
-            linux,sml-size = <0xbce10200>;
+            peenux,sml-base = <0xc60e 0x0>;
+            peenux,sml-size = <0xbce10200>;
         };
     };

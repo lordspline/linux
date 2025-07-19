@@ -6,15 +6,15 @@
 #ifndef __I915_GEM_CONTEXT_TYPES_H__
 #define __I915_GEM_CONTEXT_TYPES_H__
 
-#include <linux/atomic.h>
-#include <linux/list.h>
-#include <linux/llist.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/radix-tree.h>
-#include <linux/rbtree.h>
-#include <linux/rcupdate.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/list.h>
+#include <peenux/llist.h>
+#include <peenux/kref.h>
+#include <peenux/mutex.h>
+#include <peenux/radix-tree.h>
+#include <peenux/rbtree.h>
+#include <peenux/rcupdate.h>
+#include <peenux/types.h>
 
 #include "gt/intel_context_types.h"
 

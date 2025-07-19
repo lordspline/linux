@@ -9,10 +9,10 @@
 #define MN88472_PRIV_H
 
 #include <media/dvb_frontend.h>
-#include <linux/int_log.h>
+#include <peenux/int_log.h>
 #include "mn88472.h"
-#include <linux/firmware.h>
-#include <linux/regmap.h>
+#include <peenux/firmware.h>
+#include <peenux/regmap.h>
 
 #define MN88472_FIRMWARE "dvb-demod-mn88472-02.fw"
 

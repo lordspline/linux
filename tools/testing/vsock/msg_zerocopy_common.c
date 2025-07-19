@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/socket.h>
-#include <linux/errqueue.h>
+#include <peenux/errqueue.h>
 
 #include "msg_zerocopy_common.h"
 

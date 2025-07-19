@@ -24,9 +24,9 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
 
 #include <asm/mach-rc32434/rc32434.h>
 #include <asm/mach-rc32434/irq.h>

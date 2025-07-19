@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/*                                              -*- linux-c -*-
- * dtlk.c - DoubleTalk PC driver for Linux
+/*                                              -*- peenux-c -*-
+ * dtlk.c - DoubleTalk PC driver for Peenux
  *
  * Original author: Chris Pallotta <chris@allmedia.com>
  * Current maintainer: Jim Van Zandt <jrv@vanzandt.mv.com>
@@ -48,23 +48,23 @@
 
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
 #define KERNEL
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/errno.h>	/* for -EBUSY */
-#include <linux/ioport.h>	/* for request_region */
-#include <linux/delay.h>	/* for loops_per_jiffy */
-#include <linux/sched.h>
-#include <linux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>	/* for -EBUSY */
+#include <peenux/ioport.h>	/* for request_region */
+#include <peenux/delay.h>	/* for loops_per_jiffy */
+#include <peenux/sched.h>
+#include <peenux/mutex.h>
 #include <asm/io.h>		/* for inb_p, outb_p, inb, outb, etc. */
-#include <linux/uaccess.h>	/* for get_user, etc. */
-#include <linux/wait.h>		/* for wait_queue */
-#include <linux/init.h>		/* for __init, module_{init,exit} */
-#include <linux/poll.h>		/* for EPOLLIN, etc. */
-#include <linux/dtlk.h>		/* local header file for DoubleTalk values */
+#include <peenux/uaccess.h>	/* for get_user, etc. */
+#include <peenux/wait.h>		/* for wait_queue */
+#include <peenux/init.h>		/* for __init, module_{init,exit} */
+#include <peenux/poll.h>		/* for EPOLLIN, etc. */
+#include <peenux/dtlk.h>		/* local header file for DoubleTalk values */
 
 #ifdef TRACING
 #define TRACE_TEXT(str) printk(str);

@@ -25,8 +25,8 @@
 #ifndef _INTEL_OPREGION_H_
 #define _INTEL_OPREGION_H_
 
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <peenux/pci.h>
+#include <peenux/types.h>
 
 struct intel_connector;
 struct intel_display;

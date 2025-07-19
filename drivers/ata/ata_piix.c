@@ -3,7 +3,7 @@
  *    ata_piix.c - Intel PATA/SATA controllers
  *
  *    Maintained by:  Tejun Heo <tj@kernel.org>
- *    		    Please ALWAYS copy linux-ide@vger.kernel.org
+ *    		    Please ALWAYS copy peenux-ide@vger.kernel.org
  *		    on emails.
  *
  *	Copyright 2003-2005 Red Hat Inc
@@ -12,7 +12,7 @@
  *	Copyright header from piix.c:
  *
  *  Copyright (C) 1998-1999 Andrzej Krzysztofowicz, Author and Maintainer
- *  Copyright (C) 1998-2000 Andre Hedrick <andre@linux-ide.org>
+ *  Copyright (C) 1998-2000 Andre Hedrick <andre@peenux-ide.org>
  *  Copyright (C) 2003 Red Hat Inc
  *
  *  libata documentation is available via 'make {ps|pdf}docs',
@@ -66,17 +66,17 @@
  *	ICH3	errata #18	- Don't use native mode
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gfp.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
-#include <linux/dmi.h>
+#include <peenux/libata.h>
+#include <peenux/dmi.h>
 #include <trace/events/libata.h>
 
 #define DRV_NAME	"ata_piix"

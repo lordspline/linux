@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Extension Header handling for IPv6
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
@@ -17,16 +17,16 @@
  *				  handlers as inet6_protocol{}.
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/in6.h>
-#include <linux/icmpv6.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/in6.h>
+#include <peenux/icmpv6.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 
 #include <net/dst.h>
 #include <net/sock.h>
@@ -43,18 +43,18 @@
 #if IS_ENABLED(CONFIG_IPV6_MIP6)
 #include <net/xfrm.h>
 #endif
-#include <linux/seg6.h>
+#include <peenux/seg6.h>
 #include <net/seg6.h>
 #ifdef CONFIG_IPV6_SEG6_HMAC
 #include <net/seg6_hmac.h>
 #endif
 #include <net/rpl.h>
-#include <linux/ioam6.h>
-#include <linux/ioam6_genl.h>
+#include <peenux/ioam6.h>
+#include <peenux/ioam6_genl.h>
 #include <net/ioam6.h>
 #include <net/dst_metadata.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /*********************
   Generic functions

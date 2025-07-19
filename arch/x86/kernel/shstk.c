@@ -6,18 +6,18 @@
  * Yu-cheng Yu <yu-cheng.yu@intel.com>
  */
 
-#include <linux/sched.h>
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/sched/signal.h>
-#include <linux/compat.h>
-#include <linux/sizes.h>
-#include <linux/user.h>
-#include <linux/syscalls.h>
+#include <peenux/sched.h>
+#include <peenux/bitops.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/sched/signal.h>
+#include <peenux/compat.h>
+#include <peenux/sizes.h>
+#include <peenux/user.h>
+#include <peenux/syscalls.h>
 #include <asm/msr.h>
 #include <asm/fpu/xstate.h>
 #include <asm/fpu/types.h>

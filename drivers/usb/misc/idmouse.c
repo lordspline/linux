@@ -12,16 +12,16 @@
 
 */
 
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
 
 /* image constants */
 #define WIDTH 225

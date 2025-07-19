@@ -3,10 +3,10 @@
  * Copyright (C) 2022 Loongson Technology Corporation Limited
  */
 
-#include <linux/init.h>
-#include <linux/ftrace.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
+#include <peenux/init.h>
+#include <peenux/ftrace.h>
+#include <peenux/syscalls.h>
+#include <peenux/uaccess.h>
 
 #include <asm/asm.h>
 #include <asm/asm-offsets.h>

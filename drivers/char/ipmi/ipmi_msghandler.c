@@ -14,27 +14,27 @@
 #define pr_fmt(fmt) "IPMI message handler: " fmt
 #define dev_fmt(fmt) pr_fmt(fmt)
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/panic_notifier.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/ipmi.h>
-#include <linux/ipmi_smi.h>
-#include <linux/notifier.h>
-#include <linux/init.h>
-#include <linux/rcupdate.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/workqueue.h>
-#include <linux/uuid.h>
-#include <linux/nospec.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/ipmi.h>
+#include <peenux/ipmi_smi.h>
+#include <peenux/notifier.h>
+#include <peenux/init.h>
+#include <peenux/rcupdate.h>
+#include <peenux/interrupt.h>
+#include <peenux/moduleparam.h>
+#include <peenux/workqueue.h>
+#include <peenux/uuid.h>
+#include <peenux/nospec.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
 
 #define IPMI_DRIVER_VERSION "39.2"
 

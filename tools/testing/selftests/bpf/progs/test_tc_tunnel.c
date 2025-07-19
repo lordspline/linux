@@ -5,17 +5,17 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include <linux/stddef.h>
-#include <linux/bpf.h>
-#include <linux/if_ether.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/mpls.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/pkt_cls.h>
-#include <linux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/bpf.h>
+#include <peenux/if_ether.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/mpls.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/pkt_cls.h>
+#include <peenux/types.h>
 
 #include <bpf/bpf_endian.h>
 #include <bpf/bpf_helpers.h>

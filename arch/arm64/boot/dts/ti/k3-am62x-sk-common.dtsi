@@ -51,11 +51,11 @@
 		};
 
 		/* global cma region */
-		linux,cma {
+		peenux,cma {
 			compatible = "shared-dma-pool";
 			reusable;
 			size = <0x00 0x8000000>;
-			linux,cma-default;
+			peenux,cma-default;
 		};
 
 		mcu_m4fss_dma_memory_region: m4f-dma-memory@9cb00000 {
@@ -104,7 +104,7 @@
 		led-0 {
 			label = "am62-sk:green:heartbeat";
 			gpios = <&main_gpio1 49 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 			function = LED_FUNCTION_HEARTBEAT;
 			default-state = "off";
 		};

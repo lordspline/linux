@@ -5,16 +5,16 @@
  * Author: Gene Chen <gene_chen@richtek.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/crc8.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/crc8.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 enum {
 	MT6360_SLAVE_TCPC = 0,

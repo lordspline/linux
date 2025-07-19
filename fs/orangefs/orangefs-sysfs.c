@@ -136,12 +136,12 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/fs.h>
+#include <peenux/kobject.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 
 #include "protocol.h"
 #include "orangefs-kernel.h"

@@ -8,10 +8,10 @@
  * Copyright 2020-2021 NXP
  */
 
-#include <linux/dsa/ocelot.h>
-#include <linux/if_bridge.h>
-#include <linux/of_net.h>
-#include <linux/phy/phy.h>
+#include <peenux/dsa/ocelot.h>
+#include <peenux/if_bridge.h>
+#include <peenux/of_net.h>
+#include <peenux/phy/phy.h>
 #include <net/pkt_cls.h>
 #include "ocelot.h"
 #include "ocelot_police.h"

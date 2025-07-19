@@ -10,13 +10,13 @@
  * Copyright (C) 2008  Byron Bradley <byron.bbradley@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/serial_reg.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial_reg.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
 
 #define UART1_REG(x)	(base + ((UART_##x) << 2))
 

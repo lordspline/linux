@@ -9,14 +9,14 @@
  *  Copyright (c) 2010 Istvan Varga <istvan_v@mailbox.hu>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/videodev2.h>
-#include <linux/delay.h>
-#include <linux/dvb/frontend.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/videodev2.h>
+#include <peenux/delay.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/i2c.h>
+#include <peenux/mutex.h>
+#include <peenux/unaligned.h>
 
 #include <media/dvb_frontend.h>
 

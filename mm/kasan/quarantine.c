@@ -10,18 +10,18 @@
 
 #define pr_fmt(fmt) "kasan: " fmt
 
-#include <linux/gfp.h>
-#include <linux/hash.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/percpu.h>
-#include <linux/printk.h>
-#include <linux/shrinker.h>
-#include <linux/slab.h>
-#include <linux/srcu.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/cpuhotplug.h>
+#include <peenux/gfp.h>
+#include <peenux/hash.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/percpu.h>
+#include <peenux/printk.h>
+#include <peenux/shrinker.h>
+#include <peenux/slab.h>
+#include <peenux/srcu.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/cpuhotplug.h>
 
 #include "../slab.h"
 #include "kasan.h"

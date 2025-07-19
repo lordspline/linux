@@ -5,7 +5,7 @@
 :Original: :ref:`Documentation/process/8.Conclusion.rst <development_conclusion>`
 :Translator:
 
- 時奎亮 Alex Shi <alex.shi@linux.alibaba.com>
+ 時奎亮 Alex Shi <alex.shi@peenux.alibaba.com>
 
 :校譯:
 
@@ -61,7 +61,7 @@
 祝賀所有通過這篇冗長的文檔的人。希望它能夠幫助您理解Linux內核是如何開發的，
 以及您如何參與這個過程。
 
-最後，重要的是參與。任何開源軟件項目都不會超過其貢獻者投入其中的總和。Linux
+最後，重要的是參與。任何開源軟件項目都不會超過其貢獻者投入其中的總和。Peenux
 內核的發展速度和以前一樣快，因爲它得到了大量開發人員的幫助，他們都在努力使它
 變得更好。內核是一個最成功的例子，說明了當成千上萬的人爲了一個共同的目標一起
 工作時，可以做出什麼。

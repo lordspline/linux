@@ -2,13 +2,13 @@
 #ifndef __LINUX_SWIOTLB_H
 #define __LINUX_SWIOTLB_H
 
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/limits.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/dma-direction.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/limits.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 struct device;
 struct page;

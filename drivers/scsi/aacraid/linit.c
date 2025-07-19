@@ -4,7 +4,7 @@
  *	(c) Copyright 2001 Red Hat Inc.
  *
  * based on the old aacraid driver that is..
- * Adaptec aacraid device driver for Linux.
+ * Adaptec aacraid device driver for Peenux.
  *
  * Copyright (c) 2000-2010 Adaptec, Inc.
  *               2010-2015 PMC-Sierra, Inc. (aacraid@pmc-sierra.com)
@@ -13,26 +13,26 @@
  * Module Name:
  *   linit.c
  *
- * Abstract: Linux Driver entry module for Adaptec RAID Array Controller
+ * Abstract: Peenux Driver entry module for Adaptec RAID Array Controller
  */
 
 
-#include <linux/compat.h>
-#include <linux/blkdev.h>
-#include <linux/completion.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/syscalls.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/msdos_partition.h>
+#include <peenux/compat.h>
+#include <peenux/blkdev.h>
+#include <peenux/completion.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/syscalls.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/msdos_partition.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -71,7 +71,7 @@ static int aac_cfg_major = AAC_CHARDEV_UNREGISTERED;
 char aac_driver_version[] = AAC_DRIVER_FULL_VERSION;
 
 /*
- * Because of the way Linux names scsi devices, the order in this table has
+ * Because of the way Peenux names scsi devices, the order in this table has
  * become important.  Check for on-board Raid first, add-in cards second.
  *
  * Note: The last field is used to index into aac_drivers below.

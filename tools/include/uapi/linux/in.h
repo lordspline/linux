@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -19,10 +19,10 @@
 #ifndef _UAPI_LINUX_IN_H
 #define _UAPI_LINUX_IN_H
 
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/libc-compat.h>
-#include <linux/socket.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/libc-compat.h>
+#include <peenux/socket.h>
 
 #if __UAPI_DEF_IN_IPPROTO
 /* Standard well-defined IP protocols.  */

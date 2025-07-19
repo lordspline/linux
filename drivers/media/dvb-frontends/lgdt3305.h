@@ -8,7 +8,7 @@
 #ifndef _LGDT3305_H_
 #define _LGDT3305_H_
 
-#include <linux/i2c.h>
+#include <peenux/i2c.h>
 #include <media/dvb_frontend.h>
 
 

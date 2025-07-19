@@ -6,21 +6,21 @@
  * Copyright 2016 Alexey Kardashevskiy, IBM Corporation <aik@au1.ibm.com>
  */
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/highmem.h>
-#include <linux/gfp.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/hugetlb.h>
-#include <linux/list.h>
-#include <linux/anon_inodes.h>
-#include <linux/iommu.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/rcupdate_wait.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/highmem.h>
+#include <peenux/gfp.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
+#include <peenux/hugetlb.h>
+#include <peenux/list.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/iommu.h>
+#include <peenux/file.h>
+#include <peenux/mm.h>
+#include <peenux/rcupdate_wait.h>
 
 #include <asm/kvm_ppc.h>
 #include <asm/kvm_book3s.h>

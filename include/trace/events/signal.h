@@ -5,9 +5,9 @@
 #if !defined(_TRACE_SIGNAL_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_SIGNAL_H
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/tracepoint.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/tracepoint.h>
 
 #define TP_STORE_SIGINFO(__entry, info)				\
 	do {							\

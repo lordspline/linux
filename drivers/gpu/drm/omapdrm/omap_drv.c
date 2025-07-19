@@ -4,11 +4,11 @@
  * Author: Rob Clark <rob@ti.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/sort.h>
-#include <linux/sys_soc.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/sort.h>
+#include <peenux/sys_soc.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

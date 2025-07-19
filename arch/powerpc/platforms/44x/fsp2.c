@@ -13,10 +13,10 @@
  *    Copyright 2007 David Gibson <dwg@au1.ibm.com>, IBM Corporation.
  */
 
-#include <linux/init.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
-#include <linux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_platform.h>
+#include <peenux/rtc.h>
 
 #include <asm/machdep.h>
 #include <asm/udbg.h>
@@ -24,8 +24,8 @@
 #include <asm/uic.h>
 #include <asm/ppc4xx.h>
 #include <asm/dcr.h>
-#include <linux/interrupt.h>
-#include <linux/of_irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_irq.h>
 #include "fsp2.h"
 
 #define FSP2_BUS_ERR	"ibm,bus-error-irq"

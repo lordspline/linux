@@ -4,8 +4,8 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/linkage.h>
-#include <linux/mmzone.h>
+#include <peenux/linkage.h>
+#include <peenux/mmzone.h>
 #include <asm/addrspace.h>
 #include <asm/io.h>
 #include <asm/pgtable.h>

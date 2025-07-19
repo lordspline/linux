@@ -10,15 +10,15 @@
 
 #include "ssb_private.h"
 
-#include <linux/ssb/ssb.h>
+#include <peenux/ssb/ssb.h>
 
-#include <linux/mtd/physmap.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/time.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_reg.h>
+#include <peenux/time.h>
 #ifdef CONFIG_BCM47XX
-#include <linux/bcm47xx_nvram.h>
+#include <peenux/bcm47xx_nvram.h>
 #endif
 
 static const char * const part_probes[] = { "bcm47xxpart", NULL };

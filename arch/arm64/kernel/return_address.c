@@ -6,10 +6,10 @@
  * Author: AKASHI Takahiro <takahiro.akashi@linaro.org>
  */
 
-#include <linux/export.h>
-#include <linux/ftrace.h>
-#include <linux/kprobes.h>
-#include <linux/stacktrace.h>
+#include <peenux/export.h>
+#include <peenux/ftrace.h>
+#include <peenux/kprobes.h>
+#include <peenux/stacktrace.h>
 
 #include <asm/stack_pointer.h>
 

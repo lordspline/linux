@@ -4,7 +4,7 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <asm/unistd.h>
-#include <linux/time_types.h>
+#include <peenux/time_types.h>
 #include <unistd.h>
 #include <assert.h>
 #include <signal.h>

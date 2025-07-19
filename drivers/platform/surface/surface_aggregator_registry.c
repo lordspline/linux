@@ -9,15 +9,15 @@
  * Copyright (C) 2020-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/types.h>
 
-#include <linux/surface_aggregator/device.h>
+#include <peenux/surface_aggregator/device.h>
 
 
 /* -- Device registry. ------------------------------------------------------ */

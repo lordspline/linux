@@ -2,10 +2,10 @@
 #ifndef __ASM_ARM_CMPXCHG_H
 #define __ASM_ARM_CMPXCHG_H
 
-#include <linux/irqflags.h>
-#include <linux/prefetch.h>
+#include <peenux/irqflags.h>
+#include <peenux/prefetch.h>
 #include <asm/barrier.h>
-#include <linux/cmpxchg-emu.h>
+#include <peenux/cmpxchg-emu.h>
 
 #if defined(CONFIG_CPU_SA1100) || defined(CONFIG_CPU_SA110)
 /*

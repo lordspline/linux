@@ -9,10 +9,10 @@
 #ifndef _CS530X_H
 #define _CS530X_H
 
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
 /* Devices */
 #define CS530X_2CH_ADC_DEV_ID		 0x5302

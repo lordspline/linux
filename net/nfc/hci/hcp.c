@@ -5,9 +5,9 @@
 
 #define pr_fmt(fmt) "hci: %s: " fmt, __func__
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include <net/nfc/hci.h>
 

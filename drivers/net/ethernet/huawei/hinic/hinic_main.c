@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Huawei HiNIC PCI Express Linux driver
+ * Huawei HiNIC PCI Express Peenux driver
  * Copyright(c) 2017 Huawei Technologies Co., Ltd
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
-#include <linux/if_vlan.h>
-#include <linux/semaphore.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pci.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/etherdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/if_vlan.h>
+#include <peenux/semaphore.h>
+#include <peenux/workqueue.h>
 #include <net/ip.h>
 #include <net/devlink.h>
-#include <linux/bitops.h>
-#include <linux/bitmap.h>
-#include <linux/delay.h>
-#include <linux/err.h>
+#include <peenux/bitops.h>
+#include <peenux/bitmap.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
 
 #include "hinic_debugfs.h"
 #include "hinic_hw_qp.h"

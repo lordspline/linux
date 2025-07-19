@@ -3,14 +3,14 @@
  */
 #define pr_fmt(fmt) "iommufd: " fmt
 
-#include <linux/anon_inodes.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/iommufd.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <uapi/linux/iommufd.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/iommufd.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <uapi/peenux/iommufd.h>
 
 #include "../iommu-priv.h"
 #include "iommufd_private.h"

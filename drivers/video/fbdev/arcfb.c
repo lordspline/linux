@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/arcfb.c -- FB driver for Arc monochrome LCD board
+ * peenux/drivers/video/arcfb.c -- FB driver for Arc monochrome LCD board
  *
  * Copyright (C) 2005, Jaya Kumar <jayalk@intworks.biz>
  *
@@ -33,21 +33,21 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/arcfb.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/arcfb.h>
+#include <peenux/platform_device.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #define floor8(a) (a&(~0x07))
 #define floorXres(a,xres) (a&(~(xres - 1)))

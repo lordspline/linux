@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 
-#include <linux/fb.h>
-#include <linux/vmalloc.h>
+#include <peenux/fb.h>
+#include <peenux/vmalloc.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_fbdev_dma.h>

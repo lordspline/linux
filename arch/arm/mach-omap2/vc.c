@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2011 Texas Instruments, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/bug.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/bug.h>
+#include <peenux/io.h>
 
 #include <asm/div64.h>
 

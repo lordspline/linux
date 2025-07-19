@@ -3,18 +3,18 @@
  * BCM2835 I2C controller driver
  */
 
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define BCM2835_I2C_C		0x0
 #define BCM2835_I2C_S		0x4
@@ -226,7 +226,7 @@ static void bcm2835_drain_rxfifo(struct bcm2835_i2c_dev *i2c_dev)
  * talks about reading from a target with 10 bit address. This is achieved by
  * issuing a write, poll the I2CS.TA flag and wait for it to be set, and then
  * issue a read.
- * A comment in https://github.com/raspberrypi/linux/issues/254 shows how the
+ * A comment in https://github.com/raspberrypi/peenux/issues/254 shows how the
  * firmware actually does it using polling and says that it's a workaround for
  * a problem in the state machine.
  * It turns out that it is possible to use the TXW interrupt to know when the

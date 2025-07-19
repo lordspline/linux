@@ -11,12 +11,12 @@
 #ifndef __SOC_TI_KNAV_QMSS_H__
 #define __SOC_TI_KNAV_QMSS_H__
 
-#include <linux/err.h>
-#include <linux/time.h>
-#include <linux/atomic.h>
-#include <linux/device.h>
-#include <linux/fcntl.h>
-#include <linux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/time.h>
+#include <peenux/atomic.h>
+#include <peenux/device.h>
+#include <peenux/fcntl.h>
+#include <peenux/dma-mapping.h>
 
 /* queue types */
 #define KNAV_QUEUE_QPEND	((unsigned)-2) /* interruptible qpend queue */

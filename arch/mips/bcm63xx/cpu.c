@@ -7,9 +7,9 @@
  * Copyright (C) 2009 Florian Fainelli <florian@openwrt.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/cpu.h>
 #include <asm/cpu.h>
 #include <asm/cpu-info.h>
 #include <asm/mipsregs.h>

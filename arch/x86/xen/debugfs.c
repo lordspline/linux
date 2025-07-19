@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/debugfs.h>
+#include <peenux/slab.h>
 
 #include "xen-ops.h"
 

@@ -12,20 +12,20 @@
 #include <kunit/assert.h>
 #include <kunit/try-catch.h>
 
-#include <linux/args.h>
-#include <linux/compiler.h>
-#include <linux/container_of.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/jump_label.h>
-#include <linux/kconfig.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/args.h>
+#include <peenux/compiler.h>
+#include <peenux/container_of.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/jump_label.h>
+#include <peenux/kconfig.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include <asm/rwonce.h>
 #include <asm/sections.h>

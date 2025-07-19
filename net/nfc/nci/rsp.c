@@ -14,10 +14,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": %s: " fmt, __func__
 
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
-#include <linux/skbuff.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/bitops.h>
+#include <peenux/skbuff.h>
 
 #include "../nfc.h"
 #include <net/nfc/nci.h>

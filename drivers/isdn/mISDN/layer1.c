@@ -7,9 +7,9 @@
  */
 
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mISDNhw.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/mISDNhw.h>
 #include "core.h"
 #include "layer1.h"
 #include "fsm.h"

@@ -6,18 +6,18 @@
  * Author: Roger Quadros <rogerq@ti.com>
  */
 
-#include <linux/extcon-provider.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/mod_devicetable.h>
 
 #define USB_GPIO_DEBOUNCE_MS	20	/* ms */
 
@@ -266,7 +266,7 @@ static SIMPLE_DEV_PM_OPS(usb_extcon_pm_ops,
 			 usb_extcon_suspend, usb_extcon_resume);
 
 static const struct of_device_id usb_extcon_dt_match[] = {
-	{ .compatible = "linux,extcon-usb-gpio", },
+	{ .compatible = "peenux,extcon-usb-gpio", },
 	{ /* sentinel */ }
 };
 MODULE_DEVICE_TABLE(of, usb_extcon_dt_match);

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -19,7 +19,7 @@
 #ifndef _LINUX_HIPPIDEVICE_H
 #define _LINUX_HIPPIDEVICE_H
 
-#include <linux/if_hippi.h>
+#include <peenux/if_hippi.h>
 
 #ifdef __KERNEL__
 

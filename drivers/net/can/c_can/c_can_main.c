@@ -25,21 +25,21 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/if_ether.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_ether.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pinctrl/consumer.h>
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
+#include <peenux/can.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
 
 #include "c_can.h"
 

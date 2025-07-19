@@ -8,14 +8,14 @@
  * Copyright (C) 2011,2012 Renesas Solutions Corp.
  */
 
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/serial_sci.h>
-#include <linux/sh_timer.h>
-#include <linux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/mm.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/serial_sci.h>
+#include <peenux/sh_timer.h>
+#include <peenux/io.h>
 #include <asm/clock.h>
 #include <asm/irq.h>
 #include <asm/platform_early.h>

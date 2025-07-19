@@ -10,13 +10,13 @@
  *
  ******************************************************************************/
 
-#include <linux/net.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/in.h>
-#include <linux/export.h>
+#include <peenux/net.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/in.h>
+#include <peenux/export.h>
 #include <net/sock.h>
 #include <net/tcp.h>
 #include <scsi/scsi_proto.h>

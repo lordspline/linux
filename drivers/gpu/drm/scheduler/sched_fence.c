@@ -21,11 +21,11 @@
  *
  */
 
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
 
 #include <drm/gpu_scheduler.h>
 

@@ -8,17 +8,17 @@
  * based on previously existing rtc class drivers
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/spi/spi.h>
-#include <linux/bcd.h>
-#include <linux/rtc.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/kstrtox.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/spi/spi.h>
+#include <peenux/bcd.h>
+#include <peenux/rtc.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/kstrtox.h>
+#include <peenux/regmap.h>
 
 /* Register map */
 /* control section */

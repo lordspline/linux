@@ -26,9 +26,9 @@
  * as they get called from within inline assembly.
  */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
-#include <linux/objtool.h>
+#include <peenux/export.h>
+#include <peenux/linkage.h>
+#include <peenux/objtool.h>
 #include <asm/page_types.h>
 #include <asm/errno.h>
 #include <asm/asm-offsets.h>

@@ -5,12 +5,12 @@
  * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/pm_runtime.h>
-#include <linux/of_platform.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of_platform.h>
 
 static const struct of_device_id pwmss_of_match[] = {
 	{ .compatible	= "ti,am33xx-pwmss" },

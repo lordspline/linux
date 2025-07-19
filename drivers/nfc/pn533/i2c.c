@@ -7,14 +7,14 @@
  * Copyright (C) 2016 HALE electronic
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/nfc.h>
-#include <linux/netdevice.h>
-#include <linux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/nfc.h>
+#include <peenux/netdevice.h>
+#include <peenux/interrupt.h>
 #include <net/nfc/nfc.h>
 #include "pn533.h"
 

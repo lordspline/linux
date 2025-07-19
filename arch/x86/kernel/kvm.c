@@ -9,26 +9,26 @@
 
 #define pr_fmt(fmt) "kvm-guest: " fmt
 
-#include <linux/context_tracking.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/kvm_para.h>
-#include <linux/cpu.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/hardirq.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/hash.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/kprobes.h>
-#include <linux/nmi.h>
-#include <linux/swait.h>
-#include <linux/syscore_ops.h>
-#include <linux/cc_platform.h>
-#include <linux/efi.h>
+#include <peenux/context_tracking.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/kvm_para.h>
+#include <peenux/cpu.h>
+#include <peenux/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/hardirq.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/hash.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/kprobes.h>
+#include <peenux/nmi.h>
+#include <peenux/swait.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/cc_platform.h>
+#include <peenux/efi.h>
 #include <asm/timer.h>
 #include <asm/cpu.h>
 #include <asm/traps.h>

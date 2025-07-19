@@ -8,27 +8,27 @@
  *  Copyright (C) 2012 Bertrand Achard (nvram access fixes)
  */
 
-#include <linux/bcd.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kstrtox.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/rtc/ds1307.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
-#include <linux/watchdog.h>
+#include <peenux/bcd.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kstrtox.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/rtc/ds1307.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
+#include <peenux/watchdog.h>
 
 /*
- * We can't determine type by probing, but if we expect pre-Linux code
+ * We can't determine type by probing, but if we expect pre-Peenux code
  * to have set the chip up as a clock (turning on the oscillator and
- * setting the date and time), Linux can ignore the non-clock features.
+ * setting the date and time), Peenux can ignore the non-clock features.
  * That's a natural job for a factory or repair bench.
  */
 enum ds_type {

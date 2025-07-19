@@ -12,14 +12,14 @@
 // Copyright (c) 2019 Martin Sperl <kernel@martin.sperl.org>
 //
 
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <peenux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
 
 #include "mcp251xfd.h"
 

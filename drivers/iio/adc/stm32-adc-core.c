@@ -9,23 +9,23 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdesc.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdesc.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/units.h>
 
 #include "stm32-adc-core.h"
 

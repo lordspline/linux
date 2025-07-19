@@ -7,19 +7,19 @@
  * based on Blackfin On-Chip SPI Driver (spi_bfin5xx.c)
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/spi/spi.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/spi/spi.h>
 
 /* Name of this driver */
 #define CDNS_SPI_NAME		"cdns-spi"

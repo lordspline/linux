@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2019 Nuvoton Technology corporation.
 
-#include <linux/bits.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/vmalloc.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/bits.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/vmalloc.h>
+#include <peenux/regmap.h>
+#include <peenux/of.h>
+#include <peenux/spi/spi-mem.h>
+#include <peenux/mfd/syscon.h>
 
 /* NPCM7xx GCR module */
 #define NPCM7XX_INTCR3_OFFSET		0x9C

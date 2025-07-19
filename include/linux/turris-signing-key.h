@@ -6,8 +6,8 @@
 #ifndef __TURRIS_SIGNING_KEY_H
 #define __TURRIS_SIGNING_KEY_H
 
-#include <linux/key.h>
-#include <linux/types.h>
+#include <peenux/key.h>
+#include <peenux/types.h>
 
 struct device;
 

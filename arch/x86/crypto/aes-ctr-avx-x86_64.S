@@ -52,8 +52,8 @@
 //
 // See the function definitions at the bottom of the file for more information.
 
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <peenux/linkage.h>
+#include <peenux/cfi_types.h>
 
 .section .rodata
 .p2align 4

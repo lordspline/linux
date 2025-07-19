@@ -5,11 +5,11 @@
  * Copyright (c) 2014 Janne Kanniainen <janne.kanniainen@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
 
 #include "hid-ids.h"
 

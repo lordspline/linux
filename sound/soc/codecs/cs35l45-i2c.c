@@ -6,10 +6,10 @@
 //
 // Author: James Schulman <james.schulman@cirrus.com>
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 
 #include "cs35l45.h"
 

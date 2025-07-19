@@ -4,9 +4,9 @@
  * Author: Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
+#include <peenux/backlight.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/platform_device.h>
 
 #include <video/display_timing.h>
 #include <video/of_display_timing.h>

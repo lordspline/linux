@@ -3,12 +3,12 @@
  * Copyright (C) 2020 Invensense, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/iio/iio.h>
 
 #include "inv_icm42600.h"
 #include "inv_icm42600_temp.h"

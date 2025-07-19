@@ -7,15 +7,15 @@
  * AB8500 Power-On Key handler
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/abx500/ab8500.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 
 /**
  * struct ab8500_ponkey - ab8500 ponkey information

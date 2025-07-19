@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2020, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  * Copyright (c) 2024 Linaro Limited
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/device.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
 
 #include <asm/byteorder.h>
 

@@ -5,16 +5,16 @@
  */
 
 /*
- * Acorn RiscPC PS/2 keyboard controller driver for Linux/ARM
+ * Acorn RiscPC PS/2 keyboard controller driver for Peenux/ARM
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/serio.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/serio.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #include <mach/hardware.h>
 #include <asm/hardware/iomd.h>

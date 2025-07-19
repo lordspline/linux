@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/scatterlist.h>
+#include <peenux/scatterlist.h>
 #include <crypto/acompress.h>
 #include "compress.h"
 

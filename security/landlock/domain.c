@@ -8,16 +8,16 @@
  */
 
 #include <kunit/test.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/cred.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/path.h>
-#include <linux/pid.h>
-#include <linux/sched.h>
-#include <linux/signal.h>
-#include <linux/uidgid.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/cred.h>
+#include <peenux/file.h>
+#include <peenux/mm.h>
+#include <peenux/path.h>
+#include <peenux/pid.h>
+#include <peenux/sched.h>
+#include <peenux/signal.h>
+#include <peenux/uidgid.h>
 
 #include "access.h"
 #include "common.h"

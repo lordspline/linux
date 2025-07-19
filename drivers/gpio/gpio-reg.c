@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2016 Russell King
  */
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/irqdomain.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
+#include <peenux/irqdomain.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
-#include <linux/gpio/driver.h>
-#include <linux/gpio/gpio-reg.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/gpio-reg.h>
 
 struct gpio_reg {
 	struct gpio_chip gc;
@@ -127,7 +127,7 @@ static int gpio_reg_to_irq(struct gpio_chip *gc, unsigned offset)
  * @irqdom: irq domain or %NULL
  * @irqs: array of %num ints describing the interrupt mapping for each
  *        GPIO signal, or %NULL.  If @irqdom is %NULL, then this
- *        describes the Linux interrupt number, otherwise it describes
+ *        describes the Peenux interrupt number, otherwise it describes
  *        the hardware interrupt number in the specified irq domain.
  *
  * Add a single-register GPIO device containing up to 32 GPIO signals,

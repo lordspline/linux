@@ -4,12 +4,12 @@
  * Author: Jocelyn Falempe <jfalempe@redhat.com>
  */
 
-#include <linux/console.h>
-#include <linux/font.h>
-#include <linux/init.h>
-#include <linux/iosys-map.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/console.h>
+#include <peenux/font.h>
+#include <peenux/init.h>
+#include <peenux/iosys-map.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 #include <drm/drm_client.h>
 #include <drm/drm_drv.h>

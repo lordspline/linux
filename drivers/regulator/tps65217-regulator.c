@@ -7,17 +7,17 @@
  * Copyright (C) 2011 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
 
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/mfd/tps65217.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/mfd/tps65217.h>
 
 #define TPS65217_REGULATOR(_name, _id, _of_match, _ops, _n, _vr, _vm, _em, \
 			   _t, _lr, _nlr,  _sr, _sm)	\

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/namespace.c
+ *  peenux/fs/namespace.c
  *
  * (C) Copyright Al Viro 2000, 2001
  *
@@ -8,31 +8,31 @@
  * Heavily rewritten.
  */
 
-#include <linux/syscalls.h>
-#include <linux/export.h>
-#include <linux/capability.h>
-#include <linux/mnt_namespace.h>
-#include <linux/user_namespace.h>
-#include <linux/namei.h>
-#include <linux/security.h>
-#include <linux/cred.h>
-#include <linux/idr.h>
-#include <linux/init.h>		/* init_rootfs */
-#include <linux/fs_struct.h>	/* get_fs_root et.al. */
-#include <linux/fsnotify.h>	/* fsnotify_vfsmount_delete */
-#include <linux/file.h>
-#include <linux/uaccess.h>
-#include <linux/proc_ns.h>
-#include <linux/magic.h>
-#include <linux/memblock.h>
-#include <linux/proc_fs.h>
-#include <linux/task_work.h>
-#include <linux/sched/task.h>
-#include <uapi/linux/mount.h>
-#include <linux/fs_context.h>
-#include <linux/shmem_fs.h>
-#include <linux/mnt_idmapping.h>
-#include <linux/pidfs.h>
+#include <peenux/syscalls.h>
+#include <peenux/export.h>
+#include <peenux/capability.h>
+#include <peenux/mnt_namespace.h>
+#include <peenux/user_namespace.h>
+#include <peenux/namei.h>
+#include <peenux/security.h>
+#include <peenux/cred.h>
+#include <peenux/idr.h>
+#include <peenux/init.h>		/* init_rootfs */
+#include <peenux/fs_struct.h>	/* get_fs_root et.al. */
+#include <peenux/fsnotify.h>	/* fsnotify_vfsmount_delete */
+#include <peenux/file.h>
+#include <peenux/uaccess.h>
+#include <peenux/proc_ns.h>
+#include <peenux/magic.h>
+#include <peenux/memblock.h>
+#include <peenux/proc_fs.h>
+#include <peenux/task_work.h>
+#include <peenux/sched/task.h>
+#include <uapi/peenux/mount.h>
+#include <peenux/fs_context.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/mnt_idmapping.h>
+#include <peenux/pidfs.h>
 
 #include "pnode.h"
 #include "internal.h"

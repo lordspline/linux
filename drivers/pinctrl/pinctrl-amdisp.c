@@ -6,9 +6,9 @@
  *
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "pinctrl-amdisp.h"
 

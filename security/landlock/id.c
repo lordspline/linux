@@ -6,10 +6,10 @@
  */
 
 #include <kunit/test.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/random.h>
-#include <linux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/random.h>
+#include <peenux/spinlock.h>
 
 #include "common.h"
 #include "id.h"

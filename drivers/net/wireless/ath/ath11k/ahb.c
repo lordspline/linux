@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2018-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/of_device.h>
-#include <linux/of.h>
-#include <linux/dma-mapping.h>
-#include <linux/of_address.h>
-#include <linux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/of_device.h>
+#include <peenux/of.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of_address.h>
+#include <peenux/iommu.h>
 #include "ahb.h"
 #include "debug.h"
 #include "hif.h"
 #include "qmi.h"
-#include <linux/remoteproc.h>
+#include <peenux/remoteproc.h>
 #include "pcic.h"
-#include <linux/soc/qcom/smem.h>
-#include <linux/soc/qcom/smem_state.h>
+#include <peenux/soc/qcom/smem.h>
+#include <peenux/soc/qcom/smem_state.h>
 
 static const struct of_device_id ath11k_ahb_of_match[] = {
 	/* TODO: Should we change the compatible string to something similar

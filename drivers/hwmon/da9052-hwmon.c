@@ -7,19 +7,19 @@
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
-#include <linux/mfd/da9052/da9052.h>
-#include <linux/mfd/da9052/reg.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/mfd/da9052/da9052.h>
+#include <peenux/mfd/da9052/reg.h>
+#include <peenux/regulator/consumer.h>
 
 struct da9052_hwmon {
 	struct da9052		*da9052;

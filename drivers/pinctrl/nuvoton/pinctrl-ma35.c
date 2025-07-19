@@ -6,19 +6,19 @@
  * *       Jacky Huang <ychuang3@nuvoton.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
 #include "../core.h"
 #include "../pinconf.h"
 #include "pinctrl-ma35.h"

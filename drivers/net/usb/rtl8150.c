@@ -3,15 +3,15 @@
  *  Copyright (c) 2002 Petko Manolov (petkan@users.sourceforge.net)
  */
 
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/usb.h>
-#include <linux/uaccess.h>
+#include <peenux/signal.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/usb.h>
+#include <peenux/uaccess.h>
 
 /* Version Information */
 #define DRIVER_VERSION "v0.6.2 (2004/08/27)"

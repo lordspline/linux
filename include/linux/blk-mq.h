@@ -2,14 +2,14 @@
 #ifndef BLK_MQ_H
 #define BLK_MQ_H
 
-#include <linux/blkdev.h>
-#include <linux/sbitmap.h>
-#include <linux/lockdep.h>
-#include <linux/scatterlist.h>
-#include <linux/prefetch.h>
-#include <linux/srcu.h>
-#include <linux/rw_hint.h>
-#include <linux/rwsem.h>
+#include <peenux/blkdev.h>
+#include <peenux/sbitmap.h>
+#include <peenux/lockdep.h>
+#include <peenux/scatterlist.h>
+#include <peenux/prefetch.h>
+#include <peenux/srcu.h>
+#include <peenux/rw_hint.h>
+#include <peenux/rwsem.h>
 
 struct blk_mq_tags;
 struct blk_flush_queue;

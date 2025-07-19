@@ -4,7 +4,7 @@
 #include "enumerated_ref.h"
 #include "util.h"
 
-#include <linux/completion.h>
+#include <peenux/completion.h>
 
 #ifdef ENUMERATED_REF_DEBUG
 void enumerated_ref_get(struct enumerated_ref *ref, unsigned idx)

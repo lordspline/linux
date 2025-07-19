@@ -7,16 +7,16 @@
  * sebastien requiem <sebastien@requiem.fr>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/ata_platform.h>
-#include <linux/mv643xx_eth.h>
-#include <linux/ethtool.h>
-#include <linux/i2c.h>
-#include <linux/gpio.h>
-#include <linux/gpio_keys.h>
-#include <linux/input.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/ata_platform.h>
+#include <peenux/mv643xx_eth.h>
+#include <peenux/ethtool.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/input.h>
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>
 #include "mv78xx0.h"

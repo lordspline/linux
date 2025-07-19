@@ -7,12 +7,12 @@
  * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/profile.h>
-#include <linux/delay.h>
-#include <linux/sched/mm.h>
-#include <linux/cpu.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/profile.h>
+#include <peenux/delay.h>
+#include <peenux/sched/mm.h>
+#include <peenux/cpu.h>
 
 #include <asm/cacheflush.h>
 #include <asm/switch_to.h>

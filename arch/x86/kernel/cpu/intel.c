@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/minmax.h>
-#include <linux/smp.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/minmax.h>
+#include <peenux/smp.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_X86_64
-#include <linux/topology.h>
+#include <peenux/topology.h>
 #endif
 
 #include <asm/bugs.h>
@@ -297,7 +297,7 @@ static void early_init_intel(struct cpuinfo_x86 *c)
 	 * implementation. However, BIOSes typically have a knob to tweak
 	 * the architectural MISC_ENABLE.FAST_STRING enable bit.
 	 *
-	 * Adhere to the preference and program the Linux-defined fast
+	 * Adhere to the preference and program the Peenux-defined fast
 	 * string flag and enhanced fast string capabilities accordingly.
 	 */
 	if (c->x86_vfm >= INTEL_PENTIUM_M_DOTHAN) {

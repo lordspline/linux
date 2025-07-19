@@ -10,10 +10,10 @@
 #ifndef _FSL_MC_H_
 #define _FSL_MC_H_
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/interrupt.h>
-#include <uapi/linux/fsl_mc.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/interrupt.h>
+#include <uapi/peenux/fsl_mc.h>
 
 #define FSL_MC_VENDOR_FREESCALE	0x1957
 
@@ -99,7 +99,7 @@ struct fsl_mc_resource {
 
 /**
  * struct fsl_mc_device_irq - MC object device message-based interrupt
- * @virq: Linux virtual interrupt number
+ * @virq: Peenux virtual interrupt number
  * @mc_dev: MC object device that owns this interrupt
  * @dev_irq_index: device-relative IRQ index
  * @resource: MC generic resource associated with the interrupt
@@ -167,7 +167,7 @@ struct fsl_mc_obj_desc {
 
 /**
  * struct fsl_mc_device - MC object device object
- * @dev: Linux driver model device object
+ * @dev: Peenux driver model device object
  * @dma_mask: Default DMA mask
  * @flags: MC object device flags
  * @icid: Isolation context ID for the device

@@ -8,15 +8,15 @@
 
 #define pr_fmt(fmt) "CCACHE: " fmt
 
-#include <linux/align.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/device.h>
-#include <linux/bitfield.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/align.h>
+#include <peenux/debugfs.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/device.h>
+#include <peenux/bitfield.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 #include <asm/cacheflush.h>
 #include <asm/cacheinfo.h>
 #include <asm/dma-noncoherent.h>

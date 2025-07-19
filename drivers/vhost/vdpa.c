@@ -11,17 +11,17 @@
  * their supports.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/iommu.h>
-#include <linux/uuid.h>
-#include <linux/vdpa.h>
-#include <linux/nospec.h>
-#include <linux/vhost.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/iommu.h>
+#include <peenux/uuid.h>
+#include <peenux/vdpa.h>
+#include <peenux/nospec.h>
+#include <peenux/vhost.h>
 
 #include "vhost.h"
 

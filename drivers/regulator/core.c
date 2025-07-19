@@ -7,26 +7,26 @@
 //
 // Author: Liam Girdwood <lrg@slimlogic.co.uk>
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/async.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/suspend.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/coupler.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/async.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/suspend.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regulator/coupler.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/module.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/regulator.h>

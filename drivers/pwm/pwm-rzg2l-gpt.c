@@ -21,17 +21,17 @@
  *   must be same (for now).
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/reset.h>
-#include <linux/time.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/reset.h>
+#include <peenux/time.h>
+#include <peenux/units.h>
 
 #define RZG2L_GET_CH(hwpwm)	((hwpwm) / 2)
 #define RZG2L_GET_CH_OFFS(ch)	(0x100 * (ch))

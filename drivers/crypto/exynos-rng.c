@@ -9,14 +9,14 @@
  * Jonghwa Lee <jonghwa3.lee@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/crypto.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/crypto.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <crypto/internal/rng.h>
 

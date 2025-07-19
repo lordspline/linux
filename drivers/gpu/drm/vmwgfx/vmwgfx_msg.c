@@ -24,11 +24,11 @@
  *
  */
 
-#include <linux/objtool.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/cc_platform.h>
+#include <peenux/objtool.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/cc_platform.h>
 
 #include <asm/hypervisor.h>
 #include <drm/drm_ioctl.h>

@@ -3,22 +3,22 @@
  * Copyright (c) 2022-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/ctype.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-map-ops.h>
-#include <linux/init.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/soc/qcom/qmi.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/audio-v2.h>
-#include <linux/usb/audio-v3.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/quirks.h>
-#include <linux/usb/xhci-sideband.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/ctype.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/init.h>
+#include <peenux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/soc/qcom/qmi.h>
+#include <peenux/usb.h>
+#include <peenux/usb/audio.h>
+#include <peenux/usb/audio-v2.h>
+#include <peenux/usb/audio-v3.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/quirks.h>
+#include <peenux/usb/xhci-sideband.h>
 
 #include <sound/control.h>
 #include <sound/core.h>

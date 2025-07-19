@@ -9,12 +9,12 @@
 
 #define pr_fmt(fmt) "TCP: " fmt
 
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/gfp.h>
-#include <linux/jhash.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/gfp.h>
+#include <peenux/jhash.h>
 #include <net/tcp.h>
 #include <trace/events/tcp.h>
 

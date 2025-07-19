@@ -8,15 +8,15 @@
  * Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include "clkc.h"
 

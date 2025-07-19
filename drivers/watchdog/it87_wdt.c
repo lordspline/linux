@@ -20,15 +20,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bits.h>
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <peenux/bits.h>
+#include <peenux/dmi.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
 
 #define WATCHDOG_NAME		"IT87 WDT"
 

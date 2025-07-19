@@ -20,11 +20,11 @@
  *      Copyright 2002 MontaVista Softare Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 #include "core.h"
 #include <asm/dcr-regs.h>

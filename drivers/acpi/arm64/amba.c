@@ -7,15 +7,15 @@
  * Author: Graeme Gregory <graeme.gregory@linaro.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/amba/bus.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/amba/bus.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "init.h"
 

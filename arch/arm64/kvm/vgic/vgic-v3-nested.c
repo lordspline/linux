@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/cpu.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/cpu.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 
 #include <kvm/arm_vgic.h>
 

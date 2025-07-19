@@ -7,13 +7,13 @@
  *	        original idea by Michel Machado, Cody Doucette, and Qiaobin Fu
  */
 
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
 #include <net/pkt_sched.h>
 #include <net/sch_generic.h>
 #include <net/inet_ecn.h>

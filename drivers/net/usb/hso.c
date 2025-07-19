@@ -38,26 +38,26 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/module.h>
-#include <linux/ethtool.h>
-#include <linux/usb.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/kmod.h>
-#include <linux/rfkill.h>
-#include <linux/ip.h>
-#include <linux/uaccess.h>
-#include <linux/usb/cdc.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/module.h>
+#include <peenux/ethtool.h>
+#include <peenux/usb.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/kmod.h>
+#include <peenux/rfkill.h>
+#include <peenux/ip.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb/cdc.h>
 #include <net/arp.h>
 #include <asm/byteorder.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
 
 
 #define MOD_AUTHOR			"Option Wireless"

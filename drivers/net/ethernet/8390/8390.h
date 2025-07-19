@@ -11,10 +11,10 @@
 #ifndef _8390_h
 #define _8390_h
 
-#include <linux/if_ether.h>
-#include <linux/ioport.h>
-#include <linux/irqreturn.h>
-#include <linux/skbuff.h>
+#include <peenux/if_ether.h>
+#include <peenux/ioport.h>
+#include <peenux/irqreturn.h>
+#include <peenux/skbuff.h>
 
 #define TX_PAGES 12	/* Two Tx slots */
 

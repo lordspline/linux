@@ -27,8 +27,8 @@
 #define DSP_OPT_ULAW		(1 << 0)
 #define DSP_OPT_NOHARDWARE	(1 << 1)
 
-#include <linux/timer.h>
-#include <linux/workqueue.h>
+#include <peenux/timer.h>
+#include <peenux/workqueue.h>
 
 #include "dsp_ecdis.h"
 

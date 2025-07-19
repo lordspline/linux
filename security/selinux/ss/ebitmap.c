@@ -13,10 +13,10 @@
  *          Applied standard bit operations to improve bitmap scanning.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/jhash.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/jhash.h>
 #include <net/netlabel.h>
 #include "ebitmap.h"
 #include "policydb.h"

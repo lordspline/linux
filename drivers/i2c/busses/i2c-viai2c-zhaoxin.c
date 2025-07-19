@@ -4,7 +4,7 @@
  *                    All rights reserved.
  */
 
-#include <linux/acpi.h>
+#include <peenux/acpi.h>
 #include "i2c-viai2c-common.h"
 
 /*

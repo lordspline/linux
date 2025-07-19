@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 /****************************************************************************/
 /*
- *  linux/fs/binfmt_flat.c
+ *  peenux/fs/binfmt_flat.c
  *
  *	Copyright (C) 2000-2003 David McCullough <davidm@snapgear.com>
  *	Copyright (C) 2002 Greg Ungerer <gerg@snapgear.com>
@@ -9,37 +9,37 @@
  *	Copyright (C) 2000, 2001 Lineo, by David McCullough <davidm@lineo.com>
  *  based heavily on:
  *
- *  linux/fs/binfmt_aout.c:
+ *  peenux/fs/binfmt_aout.c:
  *      Copyright (C) 1991, 1992, 1996  Linus Torvalds
- *  linux/fs/binfmt_flat.c for 2.0 kernel
+ *  peenux/fs/binfmt_flat.c for 2.0 kernel
  *	    Copyright (C) 1998  Kenneth Albanowski <kjahds@kjahds.com>
  *	JAN/99 -- coded full program relocation (gerg@snapgear.com)
  */
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/slab.h>
-#include <linux/binfmts.h>
-#include <linux/personality.h>
-#include <linux/init.h>
-#include <linux/flat.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/errno.h>
+#include <peenux/signal.h>
+#include <peenux/string.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/slab.h>
+#include <peenux/binfmts.h>
+#include <peenux/personality.h>
+#include <peenux/init.h>
+#include <peenux/flat.h>
+#include <peenux/uaccess.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/cacheflush.h>
 #include <asm/page.h>
 #include <asm/flat.h>
@@ -166,7 +166,7 @@ static int create_flat_tables(struct linux_binprm *bprm, unsigned long arg_start
 
 #ifdef CONFIG_BINFMT_ZFLAT
 
-#include <linux/zlib.h>
+#include <peenux/zlib.h>
 
 #define LBUFSIZE	4000
 

@@ -7,15 +7,15 @@
  *  soc_sdw_rt_amp - Helpers to handle RT1308/RT1316/RT1318 from generic machine driver
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
 #include <sound/control.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>
 #include <sound/soc-dapm.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
-#include <linux/dmi.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_type.h>
+#include <peenux/dmi.h>
 #include <sound/soc_sdw_utils.h>
 #include "soc_sdw_rt_amp_coeff_tables.h"
 #include "../codecs/rt1308.h"

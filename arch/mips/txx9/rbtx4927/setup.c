@@ -6,7 +6,7 @@
  *
  * Copyright 2001-2002 MontaVista Software Inc.
  *
- * Copyright (C) 1996, 97, 2001, 04  Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 1996, 97, 2001, 04  Ralf Baechle (ralf@peenux-mips.org)
  * Copyright (C) 2000 RidgeRun, Inc.
  * Author: RidgeRun, Inc.
  *   glonnon@ridgerun.com, skranz@ridgerun.com, stevej@ridgerun.com
@@ -42,14 +42,14 @@
  *  with this program; if not, write to the Free Software Foundation, Inc.,
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/leds.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/leds.h>
 #include <asm/io.h>
 #include <asm/reboot.h>
 #include <asm/txx9pio.h>

@@ -7,21 +7,21 @@
  * Author: Ludovic Barre <ludovic.barre@st.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/remoteproc.h>
+#include <peenux/reset.h>
 
 #include "remoteproc_internal.h"
 

@@ -5,16 +5,16 @@
 
 #define pr_fmt(fmt) "xive-kvm: " fmt
 
-#include <linux/kernel.h>
-#include <linux/kvm_host.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/percpu.h>
-#include <linux/cpumask.h>
-#include <linux/uaccess.h>
-#include <linux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/kvm_host.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/percpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/uaccess.h>
+#include <peenux/irqdomain.h>
 #include <asm/kvm_book3s.h>
 #include <asm/kvm_ppc.h>
 #include <asm/hvcall.h>
@@ -25,8 +25,8 @@
 #include <asm/time.h>
 #include <asm/opal.h>
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
 
 #include "book3s_xive.h"
 

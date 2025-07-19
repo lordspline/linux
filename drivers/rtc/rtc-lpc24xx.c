@@ -6,13 +6,13 @@
  * Copyright (C) 2015 Joachim Eastwood <manabian@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
 
 /* LPC24xx RTC register offsets and bits */
 #define LPC24XX_ILR		0x00

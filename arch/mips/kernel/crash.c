@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/reboot.h>
-#include <linux/kexec.h>
-#include <linux/memblock.h>
-#include <linux/crash_dump.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/smp.h>
+#include <peenux/reboot.h>
+#include <peenux/kexec.h>
+#include <peenux/memblock.h>
+#include <peenux/crash_dump.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
 
 /* This keeps a track of which one is crashing cpu. */
 static int crashing_cpu = -1;

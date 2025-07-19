@@ -37,9 +37,9 @@
 		event-hall-sensor {
 			label = "Hall Effect Sensor";
 			gpios = <&tlmm 20 GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_SW>;
-			linux,code = <SW_LID>;
-			linux,can-disable;
+			peenux,input-type = <EV_SW>;
+			peenux,code = <SW_LID>;
+			peenux,can-disable;
 		};
 	};
 
@@ -54,7 +54,7 @@
 		button-volume-up {
 			label = "Volume Up";
 			gpios = <&tlmm 107 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 		};
 	};
 
@@ -113,7 +113,7 @@
 	};
 
 	usb_id: usb-id {
-		compatible = "linux,extcon-usb-gpio";
+		compatible = "peenux,extcon-usb-gpio";
 		id-gpios = <&tlmm 110 GPIO_ACTIVE_HIGH>;
 		pinctrl-0 = <&usb_id_default &usb_id_switch_default>;
 		pinctrl-names = "default";
@@ -238,7 +238,7 @@
 		pinctrl-names = "default";
 
 		/* Keys listed from right to left */
-		linux,keycodes = <KEY_APPSELECT KEY_HOMEPAGE KEY_BACK>;
+		peenux,keycodes = <KEY_APPSELECT KEY_HOMEPAGE KEY_BACK>;
 	};
 };
 
@@ -276,7 +276,7 @@
 };
 
 &pm8916_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	peenux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

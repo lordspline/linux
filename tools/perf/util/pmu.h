@@ -2,10 +2,10 @@
 #ifndef __PMU_H
 #define __PMU_H
 
-#include <linux/bitmap.h>
-#include <linux/compiler.h>
-#include <linux/perf_event.h>
-#include <linux/list.h>
+#include <peenux/bitmap.h>
+#include <peenux/compiler.h>
+#include <peenux/perf_event.h>
+#include <peenux/list.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include "parse-events.h"

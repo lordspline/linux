@@ -12,7 +12,7 @@
 
 #include "../sys.h"
 
-#include <linux/mount.h>
+#include <peenux/mount.h>
 
 /*
  * int mount(const char *source, const char *target,

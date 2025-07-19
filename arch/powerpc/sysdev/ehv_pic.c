@@ -10,17 +10,17 @@
  * kind, whether express or implied.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
@@ -39,7 +39,7 @@ static u32 __iomem *mpic_percpu_base_vaddr;
 #define MPIC_EOI  0x00B0
 
 /*
- * Linux descriptor level callbacks
+ * Peenux descriptor level callbacks
  */
 
 static void ehv_pic_unmask_irq(struct irq_data *d)
@@ -224,7 +224,7 @@ static int ehv_pic_host_xlate(struct irq_domain *h, struct device_node *ct,
 	 * interrupt sense values coming from the guest device tree
 	 * interrupt specifiers can have four possible sense and
 	 * level encoding information and they need to
-	 * be translated between firmware type & linux type.
+	 * be translated between firmware type & peenux type.
 	 */
 
 	static unsigned char map_of_senses_to_linux_irqtype[4] = {

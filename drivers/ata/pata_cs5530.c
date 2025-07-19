@@ -11,14 +11,14 @@
  *	Available from AMD web site.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
-#include <linux/dmi.h>
+#include <peenux/libata.h>
+#include <peenux/dmi.h>
 
 #define DRV_NAME	"pata_cs5530"
 #define DRV_VERSION	"0.7.4"

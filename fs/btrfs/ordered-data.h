@@ -6,12 +6,12 @@
 #ifndef BTRFS_ORDERED_DATA_H
 #define BTRFS_ORDERED_DATA_H
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/refcount.h>
-#include <linux/completion.h>
-#include <linux/rbtree.h>
-#include <linux/wait.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/refcount.h>
+#include <peenux/completion.h>
+#include <peenux/rbtree.h>
+#include <peenux/wait.h>
 #include "async-thread.h"
 
 struct inode;

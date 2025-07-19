@@ -26,29 +26,29 @@
  *	 - making it shorter - scr_readw are macros which expand in PRETTY long code
  */
 
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/tty.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/vt_kern.h>
-#include <linux/selection.h>
-#include <linux/kbd_kern.h>
-#include <linux/console.h>
-#include <linux/device.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/notifier.h>
+#include <peenux/kernel.h>
+#include <peenux/major.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/tty.h>
+#include <peenux/interrupt.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/vt_kern.h>
+#include <peenux/selection.h>
+#include <peenux/kbd_kern.h>
+#include <peenux/console.h>
+#include <peenux/device.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/poll.h>
+#include <peenux/signal.h>
+#include <peenux/slab.h>
+#include <peenux/notifier.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define HEADER_SIZE	4u
 #define CON_BUF_SIZE (IS_ENABLED(CONFIG_BASE_SMALL) ? 256 : PAGE_SIZE)

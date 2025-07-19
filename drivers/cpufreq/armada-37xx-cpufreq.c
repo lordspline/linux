@@ -7,19 +7,19 @@
  * Gregory CLEMENT <gregory.clement@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include "cpufreq-dt.h"
 

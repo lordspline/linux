@@ -5,9 +5,9 @@
  *  Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include "lola.h"

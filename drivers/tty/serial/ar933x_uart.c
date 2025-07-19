@@ -7,24 +7,24 @@
  *  Based on drivers/char/serial.c, by Linus Torvalds, Theodore Ts'o.
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/clk.h>
 
 #include <asm/div64.h>
 

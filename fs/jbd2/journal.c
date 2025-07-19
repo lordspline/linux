@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
- * linux/fs/jbd2/journal.c
+ * peenux/fs/jbd2/journal.c
  *
  * Written by Stephen C. Tweedie <sct@redhat.com>, 1998
  *
@@ -19,33 +19,33 @@
  * journaling (ext2 can use a reserved inode for storing the log).
  */
 
-#include <linux/module.h>
-#include <linux/time.h>
-#include <linux/fs.h>
-#include <linux/jbd2.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/freezer.h>
-#include <linux/pagemap.h>
-#include <linux/kthread.h>
-#include <linux/poison.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/math64.h>
-#include <linux/hash.h>
-#include <linux/log2.h>
-#include <linux/vmalloc.h>
-#include <linux/backing-dev.h>
-#include <linux/bitops.h>
-#include <linux/ratelimit.h>
-#include <linux/sched/mm.h>
+#include <peenux/module.h>
+#include <peenux/time.h>
+#include <peenux/fs.h>
+#include <peenux/jbd2.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/freezer.h>
+#include <peenux/pagemap.h>
+#include <peenux/kthread.h>
+#include <peenux/poison.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/math64.h>
+#include <peenux/hash.h>
+#include <peenux/log2.h>
+#include <peenux/vmalloc.h>
+#include <peenux/backing-dev.h>
+#include <peenux/bitops.h>
+#include <peenux/ratelimit.h>
+#include <peenux/sched/mm.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/jbd2.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/page.h>
 
 #ifdef CONFIG_JBD2_DEBUG

@@ -9,19 +9,19 @@
  * Alexander Smirnov <alex.bluesman.smirnov@gmail.com>
  * Alexander Aring <aar@pengutronix.de>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hrtimer.h>
-#include <linux/jiffies.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
-#include <linux/skbuff.h>
-#include <linux/ieee802154.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/hrtimer.h>
+#include <peenux/jiffies.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/delay.h>
+#include <peenux/property.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regmap.h>
+#include <peenux/skbuff.h>
+#include <peenux/ieee802154.h>
 
 #include <net/mac802154.h>
 #include <net/cfg802154.h>

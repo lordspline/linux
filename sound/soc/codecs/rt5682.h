@@ -10,13 +10,13 @@
 #define __RT5682_H__
 
 #include <sound/rt5682.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_type.h>
 
 #define DEVICE_ID 0x6530
 

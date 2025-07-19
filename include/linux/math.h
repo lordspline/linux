@@ -2,9 +2,9 @@
 #ifndef _LINUX_MATH_H
 #define _LINUX_MATH_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/div64.h>
-#include <uapi/linux/kernel.h>
+#include <uapi/peenux/kernel.h>
 
 /*
  * This looks more complex than it should be. But we need to

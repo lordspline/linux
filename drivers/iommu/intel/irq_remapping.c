@@ -2,17 +2,17 @@
 
 #define pr_fmt(fmt)     "DMAR-IR: " fmt
 
-#include <linux/interrupt.h>
-#include <linux/dmar.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/hpet.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/acpi.h>
-#include <linux/irqdomain.h>
-#include <linux/crash_dump.h>
+#include <peenux/interrupt.h>
+#include <peenux/dmar.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/hpet.h>
+#include <peenux/pci.h>
+#include <peenux/irq.h>
+#include <peenux/acpi.h>
+#include <peenux/irqdomain.h>
+#include <peenux/crash_dump.h>
 #include <asm/io_apic.h>
 #include <asm/apic.h>
 #include <asm/smp.h>

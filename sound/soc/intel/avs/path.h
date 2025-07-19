@@ -3,13 +3,13 @@
  * Copyright(c) 2021 Intel Corporation
  *
  * Authors: Cezary Rojewski <cezary.rojewski@intel.com>
- *          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ *          Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
  */
 
 #ifndef __SOUND_SOC_INTEL_AVS_PATH_H
 #define __SOUND_SOC_INTEL_AVS_PATH_H
 
-#include <linux/list.h>
+#include <peenux/list.h>
 #include "avs.h"
 #include "topology.h"
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  AMD CPU Microcode Update Driver for Linux
+ *  AMD CPU Microcode Update Driver for Peenux
  *
  *  This driver allows to upgrade microcode on F10h AMD
  *  CPUs and later.
@@ -21,14 +21,14 @@
  */
 #define pr_fmt(fmt) "microcode: " fmt
 
-#include <linux/earlycpio.h>
-#include <linux/firmware.h>
-#include <linux/bsearch.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/initrd.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
+#include <peenux/earlycpio.h>
+#include <peenux/firmware.h>
+#include <peenux/bsearch.h>
+#include <peenux/uaccess.h>
+#include <peenux/vmalloc.h>
+#include <peenux/initrd.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
 
 #include <crypto/sha2.h>
 

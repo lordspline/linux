@@ -11,20 +11,20 @@
 #define KMSG_COMPONENT "cio"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/kernel_stat.h>
-#include <linux/sched/signal.h>
-#include <linux/dma-mapping.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/device.h>
+#include <peenux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/timer.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/sched/signal.h>
+#include <peenux/dma-mapping.h>
 
 #include <asm/ccwdev.h>
 #include <asm/cio.h>
@@ -53,7 +53,7 @@ static const struct bus_type ccw_bus_type;
 
 /******************* bus type handling ***********************/
 
-/* The Linux driver model distinguishes between a bus type and
+/* The Peenux driver model distinguishes between a bus type and
  * the bus itself. Of course we only have one channel
  * subsystem driver and one channel system per machine, but
  * we still use the abstraction. T.R. says it's a good idea. */

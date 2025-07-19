@@ -5,20 +5,20 @@
  * Amit Bhor, Kanika Nema: Codito Technologies 2004
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
 
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/elf.h>
-#include <linux/tick.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
+#include <peenux/elf.h>
+#include <peenux/tick.h>
 
 #include <asm/fpu.h>
 

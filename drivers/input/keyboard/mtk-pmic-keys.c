@@ -5,20 +5,20 @@
  * Author: Chen Zhong <chen.zhong@mediatek.com>
  */
 
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/mt6323/registers.h>
-#include <linux/mfd/mt6331/registers.h>
-#include <linux/mfd/mt6357/registers.h>
-#include <linux/mfd/mt6358/registers.h>
-#include <linux/mfd/mt6397/core.h>
-#include <linux/mfd/mt6397/registers.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/mt6323/registers.h>
+#include <peenux/mfd/mt6331/registers.h>
+#include <peenux/mfd/mt6357/registers.h>
+#include <peenux/mfd/mt6358/registers.h>
+#include <peenux/mfd/mt6397/core.h>
+#include <peenux/mfd/mt6397/registers.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define MTK_PMIC_RST_DU_MASK	GENMASK(9, 8)
 #define MTK_PMIC_PWRKEY_RST	BIT(6)
@@ -360,10 +360,10 @@ static int mtk_pmic_keys_probe(struct platform_device *pdev)
 		}
 
 		error = of_property_read_u32(child,
-			"linux,keycodes", &keys->keys[index].keycode);
+			"peenux,keycodes", &keys->keys[index].keycode);
 		if (error) {
 			dev_err(keys->dev,
-				"failed to read key:%d linux,keycode property: %d\n",
+				"failed to read key:%d peenux,keycode property: %d\n",
 				index, error);
 			return error;
 		}

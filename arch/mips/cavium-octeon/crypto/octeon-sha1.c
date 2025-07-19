@@ -17,9 +17,9 @@
 #include <crypto/internal/hash.h>
 #include <crypto/sha1.h>
 #include <crypto/sha1_base.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "octeon-crypto.h"
 

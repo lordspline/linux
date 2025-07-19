@@ -10,8 +10,8 @@
  * @remark Copyright 2007 OProfile authors
  * @author Philippe Elie
  */
-#include <linux/compiler.h>
-#include <linux/zalloc.h>
+#include <peenux/compiler.h>
+#include <peenux/zalloc.h>
 #include <sys/types.h>
 #include <stdio.h>
 #include <getopt.h>

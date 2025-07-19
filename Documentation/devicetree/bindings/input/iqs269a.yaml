@@ -220,7 +220,7 @@ properties:
       'azoteq,gpio3-select' must be held in a state of touch in order for an
       approximately 60-ms pulse to be asserted on the GPIO4 pin.
 
-  linux,keycodes:
+  peenux,keycodes:
     minItems: 1
     maxItems: 8
     description: |
@@ -272,10 +272,10 @@ properties:
       in order to be interpreted as a flick or swipe.
 
 dependencies:
-  azoteq,gesture-swipe: ["linux,keycodes"]
-  azoteq,timeout-tap-ms: ["linux,keycodes"]
-  azoteq,timeout-swipe-ms: ["linux,keycodes"]
-  azoteq,thresh-swipe: ["linux,keycodes"]
+  azoteq,gesture-swipe: ["peenux,keycodes"]
+  azoteq,timeout-tap-ms: ["peenux,keycodes"]
+  azoteq,timeout-swipe-ms: ["peenux,keycodes"]
+  azoteq,thresh-swipe: ["peenux,keycodes"]
 
 patternProperties:
   "^channel@[0-7]$":
@@ -470,7 +470,7 @@ patternProperties:
             default: 10
             description: Specifies the threshold for the event.
 
-          linux,code: true
+          peenux,code: true
 
         additionalProperties: false
 
@@ -494,7 +494,7 @@ patternProperties:
             default: 4
             description: Specifies the hysteresis for the event.
 
-          linux,code: true
+          peenux,code: true
 
         additionalProperties: false
 
@@ -518,7 +518,7 @@ patternProperties:
             default: 0
             description: Specifies the hysteresis for the event.
 
-          linux,code: true
+          peenux,code: true
 
         additionalProperties: false
 
@@ -572,7 +572,7 @@ examples:
                     azoteq,hall-enable;
                     azoteq,suspend-mode = <2>;
 
-                    linux,keycodes = <KEY_PLAYPAUSE>,
+                    peenux,keycodes = <KEY_PLAYPAUSE>,
                                      <KEY_STOPCD>,
                                      <KEY_NEXTSONG>,
                                      <KEY_PREVIOUSSONG>;
@@ -584,7 +584,7 @@ examples:
                             reg = <0x0>;
 
                             event-prox {
-                                    linux,code = <KEY_POWER>;
+                                    peenux,code = <KEY_POWER>;
                             };
                     };
 
@@ -639,7 +639,7 @@ examples:
                             azoteq,ati-target = <320>;
 
                             event-touch {
-                                    linux,code = <SW_LID>;
+                                    peenux,code = <SW_LID>;
                             };
                     };
             };

@@ -5,10 +5,10 @@
  *
  */
 
-#include <linux/blkdev.h>
-#include <linux/fs.h>
-#include <linux/random.h>
-#include <linux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/fs.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
 
 #include "debug.h"
 #include "ntfs.h"

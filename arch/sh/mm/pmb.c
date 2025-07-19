@@ -10,23 +10,23 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/syscore_ops.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/vmalloc.h>
-#include <linux/pgtable.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/debugfs.h>
+#include <peenux/fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pgtable.h>
 #include <asm/cacheflush.h>
-#include <linux/sizes.h>
-#include <linux/uaccess.h>
+#include <peenux/sizes.h>
+#include <peenux/uaccess.h>
 #include <asm/page.h>
 #include <asm/mmu.h>
 #include <asm/mmu_context.h>

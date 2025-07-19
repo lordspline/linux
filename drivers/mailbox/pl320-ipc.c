@@ -2,20 +2,20 @@
 /*
  * Copyright 2012 Calxeda, Inc.
  */
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/amba/bus.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/amba/bus.h>
 
-#include <linux/pl320-ipc.h>
+#include <peenux/pl320-ipc.h>
 
 #define IPCMxSOURCE(m)		((m) * 0x40)
 #define IPCMxDSET(m)		(((m) * 0x40) + 0x004)

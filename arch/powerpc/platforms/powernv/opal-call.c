@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/percpu.h>
-#include <linux/jump_label.h>
+#include <peenux/percpu.h>
+#include <peenux/jump_label.h>
 #include <asm/interrupt.h>
 #include <asm/opal-api.h>
 #include <asm/trace.h>

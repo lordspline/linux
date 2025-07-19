@@ -15,10 +15,10 @@
 #include "../include/gaudi2/gaudi2_async_ids_map_extended.h"
 #include "../include/gaudi2/arc/gaudi2_arc_common_packets.h"
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/hwmon.h>
-#include <linux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/hwmon.h>
+#include <peenux/iommu.h>
 
 #define GAUDI2_DMA_POOL_BLK_SIZE		SZ_256		/* 256 bytes */
 
@@ -6147,7 +6147,7 @@ static int gaudi2_hw_init(struct hl_device *hdev)
 		gaudi2->dram_bar_cur_addr = DRAM_PHYS_BASE;
 
 	/*
-	 * Before pushing u-boot/linux to device, need to set the hbm bar to
+	 * Before pushing u-boot/peenux to device, need to set the hbm bar to
 	 * base address of dram
 	 */
 	if (gaudi2_set_hbm_bar_base(hdev, DRAM_PHYS_BASE) == U64_MAX) {
@@ -6250,7 +6250,7 @@ static void gaudi2_send_hard_reset_cmd(struct hl_device *hdev)
 		cpu_initialized = true;
 
 	/*
-	 * when Linux/Bootfit exist this write to the SP can be interpreted in 2 ways:
+	 * when Peenux/Bootfit exist this write to the SP can be interpreted in 2 ways:
 	 * 1. FW reset: FW initiate the reset sequence
 	 * 2. driver reset: FW will start HALT sequence (the preparations for the
 	 *                  reset but not the reset itself as it is not implemented
@@ -6265,14 +6265,14 @@ static void gaudi2_send_hard_reset_cmd(struct hl_device *hdev)
 	}
 
 	/*
-	 * When working with preboot (without Linux/Boot fit) we can
+	 * When working with preboot (without Peenux/Boot fit) we can
 	 * communicate only using the COMMS commands to issue halt/reset.
 	 *
-	 * For the case in which we are working with Linux/Bootfit this is a hail-mary
+	 * For the case in which we are working with Peenux/Bootfit this is a hail-mary
 	 * attempt to revive the card in the small chance that the f/w has
 	 * experienced a watchdog event, which caused it to return back to preboot.
 	 * In that case, triggering reset through GIC won't help. We need to
-	 * trigger the reset as if Linux wasn't loaded.
+	 * trigger the reset as if Peenux wasn't loaded.
 	 *
 	 * We do it only if the reset cause was HB, because that would be the
 	 * indication of such an event.

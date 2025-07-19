@@ -5,11 +5,11 @@
  * inspired by the driver for the Palmas device
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mfd/twl.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define VREG_STATE		2
 #define VREG_GRP		0

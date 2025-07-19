@@ -17,8 +17,8 @@
  *		 2	 numerator
  */
 
-#include <linux/clk-provider.h>
-#include <linux/rational.h>
+#include <peenux/clk-provider.h>
+#include <peenux/rational.h>
 
 #include "ccu_ddn.h"
 

@@ -7,14 +7,14 @@
  *  Sören Brinkmann <soren.brinkmann@xilinx.com>
  */
 
-#include <linux/clk/zynq.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/io.h>
+#include <peenux/clk/zynq.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/io.h>
 
 static void __iomem *zynq_clkc_base;
 

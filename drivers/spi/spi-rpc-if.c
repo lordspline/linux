@@ -7,14 +7,14 @@
 // Copyright (C) 2019 - 2020 Cogent Embedded, Inc.
 //
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
 
 #include <memory/renesas-rpc-if.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 static void rpcif_spi_mem_prepare(struct spi_device *spi_dev,
 				  const struct spi_mem_op *spi_op,

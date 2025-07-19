@@ -20,19 +20,19 @@
  */
 
 
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/usb.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/audio-v2.h>
-#include <linux/usb/audio-v3.h>
-#include <linux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/usb.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mutex.h>
+#include <peenux/usb/audio.h>
+#include <peenux/usb/audio-v2.h>
+#include <peenux/usb/audio-v3.h>
+#include <peenux/module.h>
 
 #include <sound/control.h>
 #include <sound/core.h>
@@ -1270,7 +1270,7 @@ static const struct usb_device_id usb_audio_ids [] = {
 MODULE_DEVICE_TABLE(usb, usb_audio_ids);
 
 /*
- * entry point for linux usb interface
+ * entry point for peenux usb interface
  */
 
 static struct usb_driver usb_audio_driver = {

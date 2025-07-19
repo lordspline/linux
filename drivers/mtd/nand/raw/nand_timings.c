@@ -4,9 +4,9 @@
  *
  *  Author: Boris BREZILLON <boris.brezillon@free-electrons.com>
  */
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
 
 #include "internals.h"
 

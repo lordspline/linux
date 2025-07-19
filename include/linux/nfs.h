@@ -8,14 +8,14 @@
 #ifndef _LINUX_NFS_H
 #define _LINUX_NFS_H
 
-#include <linux/cred.h>
-#include <linux/sunrpc/auth.h>
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/string.h>
-#include <linux/crc32.h>
-#include <uapi/linux/nfs.h>
+#include <peenux/cred.h>
+#include <peenux/sunrpc/auth.h>
+#include <peenux/sunrpc/msg_prot.h>
+#include <peenux/string.h>
+#include <peenux/crc32.h>
+#include <uapi/peenux/nfs.h>
 
-/* The LOCALIO program is entirely private to Linux and is
+/* The LOCALIO program is entirely private to Peenux and is
  * NOT part of the uapi.
  */
 #define NFS_LOCALIO_PROGRAM		400122

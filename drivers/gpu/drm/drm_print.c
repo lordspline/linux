@@ -23,13 +23,13 @@
  * Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/dynamic_debug.h>
-#include <linux/io.h>
-#include <linux/moduleparam.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/stdarg.h>
+#include <peenux/debugfs.h>
+#include <peenux/dynamic_debug.h>
+#include <peenux/io.h>
+#include <peenux/moduleparam.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/stdarg.h>
 
 #include <drm/drm.h>
 #include <drm/drm_drv.h>

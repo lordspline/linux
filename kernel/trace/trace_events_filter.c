@@ -5,12 +5,12 @@
  * Copyright (C) 2009 Tom Zanussi <tzanussi@gmail.com>
  */
 
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/mutex.h>
-#include <linux/perf_event.h>
-#include <linux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/ctype.h>
+#include <peenux/mutex.h>
+#include <peenux/perf_event.h>
+#include <peenux/slab.h>
 
 #include "trace.h"
 #include "trace_output.h"
@@ -2728,8 +2728,8 @@ free_filter:
 
 #ifdef CONFIG_FTRACE_STARTUP_TEST
 
-#include <linux/types.h>
-#include <linux/tracepoint.h>
+#include <peenux/types.h>
+#include <peenux/tracepoint.h>
 
 #define CREATE_TRACE_POINTS
 #include "trace_events_filter_test.h"

@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 /*
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020, The Peenux Foundation. All rights reserved.
  */
-#include <linux/bits.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/extcon.h>
-#include <linux/fs.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/extcon.h>
+#include <peenux/fs.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include <peenux/bitfield.h>
 
 #include <crypto/hash.h>
 

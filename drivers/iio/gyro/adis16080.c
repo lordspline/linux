@@ -4,17 +4,17 @@
  *
  * Copyright 2010 Analog Devices Inc.
  */
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/spi/spi.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/module.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define ADIS16080_DIN_GYRO   (0 << 10) /* Gyroscope output */
 #define ADIS16080_DIN_TEMP   (1 << 10) /* Temperature output */

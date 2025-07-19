@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/linux/backing-dev.h
+ * include/peenux/backing-dev.h
  *
  * low-level device information and state which is propagated up through
  * to high-level code.
@@ -9,13 +9,13 @@
 #ifndef _LINUX_BACKING_DEV_H
 #define _LINUX_BACKING_DEV_H
 
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/writeback.h>
-#include <linux/backing-dev-defs.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/sched.h>
+#include <peenux/device.h>
+#include <peenux/writeback.h>
+#include <peenux/backing-dev-defs.h>
+#include <peenux/slab.h>
 
 static inline struct backing_dev_info *bdi_get(struct backing_dev_info *bdi)
 {

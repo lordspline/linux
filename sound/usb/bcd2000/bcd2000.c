@@ -5,14 +5,14 @@
  *   Copyright (C) 2014 Mario Kicherer (dev@kicherer.org)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/bitmap.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/bitmap.h>
+#include <peenux/usb.h>
+#include <peenux/usb/audio.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/rawmidi.h>

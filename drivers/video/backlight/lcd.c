@@ -8,14 +8,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/lcd.h>
-#include <linux/notifier.h>
-#include <linux/ctype.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/lcd.h>
+#include <peenux/notifier.h>
+#include <peenux/ctype.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
 
 static DEFINE_MUTEX(lcd_dev_list_mutex);
 static LIST_HEAD(lcd_dev_list);

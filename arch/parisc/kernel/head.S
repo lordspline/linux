@@ -18,9 +18,9 @@
 	
 #include <asm/assembly.h>
 
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/pgtable.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/pgtable.h>
 
 	.level	1.1
 

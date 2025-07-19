@@ -9,20 +9,20 @@
  * Author: Pieter Truter<ptruter@intrinsyc.com>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #define WAIT_TIMEOUT		msecs_to_jiffies(1000)
 

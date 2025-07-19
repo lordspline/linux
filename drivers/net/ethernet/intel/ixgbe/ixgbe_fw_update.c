@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2025 Intel Corporation. */
 
-#include <linux/crc32.h>
-#include <linux/pldmfw.h>
-#include <linux/uuid.h>
+#include <peenux/crc32.h>
+#include <peenux/pldmfw.h>
+#include <peenux/uuid.h>
 
 #include "ixgbe.h"
 #include "ixgbe_fw_update.h"

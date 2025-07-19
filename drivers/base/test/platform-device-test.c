@@ -3,10 +3,10 @@
 #include <kunit/platform_device.h>
 #include <kunit/resource.h>
 
-#include <linux/device.h>
-#include <linux/device/bus.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/device/bus.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #define DEVICE_NAME "test"
 

@@ -4,16 +4,16 @@
  * Author: Owen Chen <owen.chen@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/compiler_types.h>
-#include <linux/container_of.h>
-#include <linux/err.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/compiler_types.h>
+#include <peenux/container_of.h>
+#include <peenux/err.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
 
 #include "clk-mux.h"
 

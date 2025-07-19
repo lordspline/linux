@@ -2,7 +2,7 @@
 
 #include <test_progs.h>
 
-#include <linux/btf.h>
+#include <peenux/btf.h>
 #include <bpf/bpf.h>
 
 #include "../test_btf.h"

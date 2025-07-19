@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Spanning tree protocol; interface code
- *	Linux ethernet bridge
+ *	Peenux ethernet bridge
  *
  *	Authors:
  *	Lennert Buytenhek		<buytenh@gnu.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
+#include <peenux/kernel.h>
+#include <peenux/kmod.h>
+#include <peenux/etherdevice.h>
+#include <peenux/rtnetlink.h>
 #include <net/switchdev.h>
 
 #include "br_private.h"

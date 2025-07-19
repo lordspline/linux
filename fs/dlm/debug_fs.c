@@ -8,12 +8,12 @@
 *******************************************************************************
 ******************************************************************************/
 
-#include <linux/pagemap.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/slab.h>
+#include <peenux/pagemap.h>
+#include <peenux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/ctype.h>
+#include <peenux/debugfs.h>
+#include <peenux/slab.h>
 
 #include "dlm_internal.h"
 #include "midcomms.h"

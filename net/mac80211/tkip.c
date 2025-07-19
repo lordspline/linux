@@ -4,12 +4,12 @@
  * Copyright 2005, Devicescape Software, Inc.
  * Copyright (C) 2016 Intel Deutschland GmbH
  */
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/export.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/types.h>
+#include <peenux/netdevice.h>
+#include <peenux/export.h>
+#include <peenux/unaligned.h>
 
 #include <net/mac80211.h>
 #include "driver-ops.h"

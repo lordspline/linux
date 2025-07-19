@@ -28,8 +28,8 @@
  *    Tina Zhang <tina.zhang@intel.com>
  */
 
-#include <linux/dma-buf.h>
-#include <linux/mdev.h>
+#include <peenux/dma-buf.h>
+#include <peenux/mdev.h>
 
 #include <drm/drm_fourcc.h>
 #include <drm/drm_plane.h>

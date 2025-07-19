@@ -18,22 +18,22 @@
 #define pr_fmt(fmt) "PM: " fmt
 #define dev_fmt pr_fmt
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm-trace.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/async.h>
-#include <linux/suspend.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/mutex.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm-trace.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/async.h>
+#include <peenux/suspend.h>
 #include <trace/events/power.h>
-#include <linux/cpufreq.h>
-#include <linux/devfreq.h>
-#include <linux/timer.h>
+#include <peenux/cpufreq.h>
+#include <peenux/devfreq.h>
+#include <peenux/timer.h>
 
 #include "../base.h"
 #include "power.h"

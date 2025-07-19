@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2016 Broadcom
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 /*
  * # of tries for OTP Status. The time to execute a command varies. The slowest

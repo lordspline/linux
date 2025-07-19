@@ -19,21 +19,21 @@
  * netstack, and assigning dedicated CPUs for this stage.  This
  * basically allows for 10G wirespeed pre-filtering via bpf.
  */
-#include <linux/bitops.h>
-#include <linux/bpf.h>
-#include <linux/filter.h>
-#include <linux/ptr_ring.h>
+#include <peenux/bitops.h>
+#include <peenux/bpf.h>
+#include <peenux/filter.h>
+#include <peenux/ptr_ring.h>
 #include <net/xdp.h>
 #include <net/hotdata.h>
 
-#include <linux/sched.h>
-#include <linux/workqueue.h>
-#include <linux/kthread.h>
-#include <linux/completion.h>
+#include <peenux/sched.h>
+#include <peenux/workqueue.h>
+#include <peenux/kthread.h>
+#include <peenux/completion.h>
 #include <trace/events/xdp.h>
-#include <linux/btf_ids.h>
+#include <peenux/btf_ids.h>
 
-#include <linux/netdevice.h>
+#include <peenux/netdevice.h>
 #include <net/gro.h>
 
 /* General idea: XDP packets getting XDP redirected to another CPU,

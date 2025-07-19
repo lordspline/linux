@@ -4,7 +4,7 @@
  *	(c) Copyright 2001 Red Hat Inc.
  *
  * based on the old aacraid driver that is..
- * Adaptec aacraid device driver for Linux.
+ * Adaptec aacraid device driver for Peenux.
  *
  * Copyright (c) 2000-2010 Adaptec, Inc.
  *               2010-2015 PMC-Sierra, Inc. (aacraid@pmc-sierra.com)
@@ -16,18 +16,18 @@
  * Abstract: Contains Interfaces to manage IOs.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/blkdev.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/completion.h>
+#include <peenux/blkdev.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

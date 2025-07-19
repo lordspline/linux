@@ -3,7 +3,7 @@
  * Copyright © 2024 Intel Corporation
  */
 
-#include <linux/bitfield.h>
+#include <peenux/bitfield.h>
 #include <drm/drm_print.h>
 
 #include "abi/guc_klvs_abi.h"

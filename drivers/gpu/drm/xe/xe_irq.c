@@ -5,7 +5,7 @@
 
 #include "xe_irq.h"
 
-#include <linux/sched/clock.h>
+#include <peenux/sched/clock.h>
 
 #include <drm/drm_managed.h>
 

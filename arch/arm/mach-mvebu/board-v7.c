@@ -9,17 +9,17 @@
  * Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/io.h>
-#include <linux/clocksource.h>
-#include <linux/dma-mapping.h>
-#include <linux/memblock.h>
-#include <linux/mbus.h>
-#include <linux/slab.h>
-#include <linux/irqchip.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/of_address.h>
+#include <peenux/of_fdt.h>
+#include <peenux/io.h>
+#include <peenux/clocksource.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/memblock.h>
+#include <peenux/mbus.h>
+#include <peenux/slab.h>
+#include <peenux/irqchip.h>
 #include <asm/hardware/cache-l2x0.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
@@ -73,7 +73,7 @@ static int __init mvebu_scan_mem(unsigned long node, const char *uname,
 	if (type == NULL || strcmp(type, "memory"))
 		return 0;
 
-	reg = of_get_flat_dt_prop(node, "linux,usable-memory", &l);
+	reg = of_get_flat_dt_prop(node, "peenux,usable-memory", &l);
 	if (reg == NULL)
 		reg = of_get_flat_dt_prop(node, "reg", &l);
 	if (reg == NULL)

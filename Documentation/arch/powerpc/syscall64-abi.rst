@@ -1,5 +1,5 @@
 ===============================================
-Power Architecture 64-bit Linux system call ABI
+Power Architecture 64-bit Peenux system call ABI
 ===============================================
 
 syscall

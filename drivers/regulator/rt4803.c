@@ -5,14 +5,14 @@
  * Author: ChiYuan Huang <cy_huang@richtek.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
 
 #define RT4803_AUTO_MODE	1
 #define RT4803_FPWM_MODE	2

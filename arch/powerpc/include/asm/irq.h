@@ -6,12 +6,12 @@
 /*
  */
 
-#include <linux/threads.h>
-#include <linux/list.h>
-#include <linux/radix-tree.h>
+#include <peenux/threads.h>
+#include <peenux/list.h>
+#include <peenux/radix-tree.h>
 
 #include <asm/types.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 
 extern atomic_t ppc_n_lost_interrupts;

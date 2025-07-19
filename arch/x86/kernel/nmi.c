@@ -11,19 +11,19 @@
 /*
  * Handle hardware traps and faults.
  */
-#include <linux/spinlock.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/sched/debug.h>
-#include <linux/nmi.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/hardirq.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/atomic.h>
-#include <linux/sched/clock.h>
+#include <peenux/spinlock.h>
+#include <peenux/kprobes.h>
+#include <peenux/kdebug.h>
+#include <peenux/sched/debug.h>
+#include <peenux/nmi.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/hardirq.h>
+#include <peenux/ratelimit.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/atomic.h>
+#include <peenux/sched/clock.h>
 
 #include <asm/cpu_entry_area.h>
 #include <asm/traps.h>

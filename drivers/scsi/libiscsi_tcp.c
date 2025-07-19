@@ -15,17 +15,17 @@
  *	Zhenyu Wang
  */
 
-#include <linux/crc32c.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/inet.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/kfifo.h>
-#include <linux/scatterlist.h>
-#include <linux/module.h>
+#include <peenux/crc32c.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/inet.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/kfifo.h>
+#include <peenux/scatterlist.h>
+#include <peenux/module.h>
 #include <net/tcp.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>

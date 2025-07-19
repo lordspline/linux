@@ -8,12 +8,12 @@
 #ifndef __DWC2_CORE_H__
 #define __DWC2_CORE_H__
 
-#include <linux/acpi.h>
-#include <linux/phy/phy.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/phy.h>
+#include <peenux/acpi.h>
+#include <peenux/phy/phy.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/phy.h>
 #include "hw.h"
 
 /*

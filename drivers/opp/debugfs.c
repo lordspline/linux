@@ -7,13 +7,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/init.h>
-#include <linux/limits.h>
-#include <linux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/init.h>
+#include <peenux/limits.h>
+#include <peenux/slab.h>
 
 #include "opp.h"
 

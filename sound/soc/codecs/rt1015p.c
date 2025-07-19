@@ -2,17 +2,17 @@
 //
 // rt1015p.c  --  RT1015P ALSA SoC audio amplifier driver
 //
-// Copyright 2020 The Linux Foundation. All rights reserved.
+// Copyright 2020 The Peenux Foundation. All rights reserved.
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>

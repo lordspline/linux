@@ -24,10 +24,10 @@
  *     David Airlie
  */
 
-#include <linux/fb.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/vga_switcheroo.h>
+#include <peenux/fb.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/vga_switcheroo.h>
 
 #include <drm/drm_crtc_helper.h>
 #include <drm/drm_drv.h>

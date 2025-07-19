@@ -8,11 +8,11 @@
  * Author: Noboru Iwamatsu <n_iwamatsu@jp.fujitsu.com>
  */
 
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/list.h>
-#include <linux/usb/hcd.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/list.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/io.h>
 
 #include <xen/xen.h>
 #include <xen/xenbus.h>

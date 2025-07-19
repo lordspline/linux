@@ -5,14 +5,14 @@
  * Copyright (c) 2012 Florian Westphal <fw@strlen.de>
  */
 
-#include <linux/gfp.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/skbuff.h>
-#include <linux/netfilter/xt_set.h>
-#include <linux/ipv6.h>
+#include <peenux/gfp.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/skbuff.h>
+#include <peenux/netfilter/xt_set.h>
+#include <peenux/ipv6.h>
 #include <net/ip.h>
 #include <net/pkt_cls.h>
 

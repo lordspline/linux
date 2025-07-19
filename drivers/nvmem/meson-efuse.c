@@ -6,13 +6,13 @@
  * Author: Carlo Caione <carlo@endlessm.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
-#include <linux/firmware/meson/meson_sm.h>
+#include <peenux/firmware/meson/meson_sm.h>
 
 static int meson_efuse_read(void *context, unsigned int offset,
 			    void *val, size_t bytes)

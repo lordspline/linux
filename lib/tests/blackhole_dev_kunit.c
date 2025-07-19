@@ -10,11 +10,11 @@
  */
 
 #include <kunit/test.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/udp.h>
-#include <linux/ipv6.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/udp.h>
+#include <peenux/ipv6.h>
 
 #include <net/dst.h>
 

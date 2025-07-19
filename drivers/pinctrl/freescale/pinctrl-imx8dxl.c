@@ -4,14 +4,14 @@
  */
 
 #include <dt-bindings/pinctrl/pads-imx8dxl.h>
-#include <linux/err.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/firmware/imx/sci.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/platform_device.h>
 
 #include "pinctrl-imx.h"
 

@@ -6,10 +6,10 @@
  * Copyright (C) 2008 Florian Fainelli <florian@openwrt.org>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/bcm7038_wdt.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/bcm7038_wdt.h>
 #include <bcm63xx_cpu.h>
 
 static struct resource wdt_resources[] = {

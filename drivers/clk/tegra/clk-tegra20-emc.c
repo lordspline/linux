@@ -9,14 +9,14 @@
 
 #define pr_fmt(fmt)	"tegra-emc-clk: " fmt
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/tegra.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <peenux/bits.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk/tegra.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
 
 #include "clk.h"
 

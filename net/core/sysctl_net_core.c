@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
-/* -*- linux-c -*-
+/* -*- peenux-c -*-
  * sysctl_net_core.c: sysctl interface to net core subsystem.
  *
  * Begun April 1, 1996, Mike Shaver.
  * Added /proc/sys/net/core directory entry (empty =) ). [MS]
  */
 
-#include <linux/filter.h>
-#include <linux/mm.h>
-#include <linux/sysctl.h>
-#include <linux/module.h>
-#include <linux/socket.h>
-#include <linux/netdevice.h>
-#include <linux/ratelimit.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/sched/isolation.h>
+#include <peenux/filter.h>
+#include <peenux/mm.h>
+#include <peenux/sysctl.h>
+#include <peenux/module.h>
+#include <peenux/socket.h>
+#include <peenux/netdevice.h>
+#include <peenux/ratelimit.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/sched/isolation.h>
 
 #include <net/ip.h>
 #include <net/sock.h>

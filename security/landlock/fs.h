@@ -10,10 +10,10 @@
 #ifndef _SECURITY_LANDLOCK_FS_H
 #define _SECURITY_LANDLOCK_FS_H
 
-#include <linux/build_bug.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/rcupdate.h>
+#include <peenux/build_bug.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/rcupdate.h>
 
 #include "access.h"
 #include "cred.h"

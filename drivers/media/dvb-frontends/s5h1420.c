@@ -8,16 +8,16 @@
  * Copyright (C) 2005-8 Patrick Boettcher <pb@linuxtv.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
 #include <asm/div64.h>
 
-#include <linux/i2c.h>
+#include <peenux/i2c.h>
 
 
 #include <media/dvb_frontend.h>

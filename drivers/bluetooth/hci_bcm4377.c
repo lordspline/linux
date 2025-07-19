@@ -2,22 +2,22 @@
 /*
  * Bluetooth HCI driver for Broadcom 4377/4378/4387/4388 devices attached via PCIe
  *
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Peenux Contributors
  */
 
-#include <linux/async.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmi.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/printk.h>
+#include <peenux/async.h>
+#include <peenux/bitfield.h>
+#include <peenux/completion.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmi.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/printk.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

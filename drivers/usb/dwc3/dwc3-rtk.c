@@ -6,17 +6,17 @@
  *
  */
 
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/suspend.h>
-#include <linux/sys_soc.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/of.h>
-#include <linux/usb/role.h>
+#include <peenux/cleanup.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/suspend.h>
+#include <peenux/sys_soc.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/of.h>
+#include <peenux/usb/role.h>
 
 #include "core.h"
 

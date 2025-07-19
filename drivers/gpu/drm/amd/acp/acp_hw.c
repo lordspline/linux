@@ -21,11 +21,11 @@
  *
  */
 
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
 
 #include "acp_gfx_if.h"
 

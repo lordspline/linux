@@ -7,22 +7,22 @@
  * Samsung SxM I2C driver
  */
 
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mfd/samsung/core.h>
-#include <linux/mfd/samsung/s2mpa01.h>
-#include <linux/mfd/samsung/s2mps11.h>
-#include <linux/mfd/samsung/s2mps13.h>
-#include <linux/mfd/samsung/s2mps14.h>
-#include <linux/mfd/samsung/s2mps15.h>
-#include <linux/mfd/samsung/s2mpu02.h>
-#include <linux/mfd/samsung/s5m8767.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/dev_printk.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/samsung/core.h>
+#include <peenux/mfd/samsung/s2mpa01.h>
+#include <peenux/mfd/samsung/s2mps11.h>
+#include <peenux/mfd/samsung/s2mps13.h>
+#include <peenux/mfd/samsung/s2mps14.h>
+#include <peenux/mfd/samsung/s2mps15.h>
+#include <peenux/mfd/samsung/s2mpu02.h>
+#include <peenux/mfd/samsung/s5m8767.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 #include "sec-core.h"
 
 struct sec_pmic_i2c_platform_data {

@@ -2,10 +2,10 @@
 // Copyright (C) ASPEED Technology Inc.
 // Copyright IBM Corp.
 
-#include <linux/of_address.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/smp.h>
+#include <peenux/of_address.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/smp.h>
 
 #define BOOT_ADDR	0x00
 #define BOOT_SIG	0x04

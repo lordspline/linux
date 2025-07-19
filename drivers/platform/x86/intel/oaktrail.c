@@ -10,7 +10,7 @@
  * Copyright (C) 2006 Lennart Poettering <mzxreary (at) 0pointer (dot) de>
  *
  * This driver does below things:
- * 1. registers itself in the Linux backlight control in
+ * 1. registers itself in the Peenux backlight control in
  *    /sys/class/backlight/intel_oaktrail/
  *
  * 2. registers in the rfkill subsystem here: /sys/class/rfkill/rfkillX/
@@ -24,16 +24,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/rfkill.h>
+#include <peenux/acpi.h>
+#include <peenux/backlight.h>
+#include <peenux/dmi.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/rfkill.h>
 
 #include <acpi/video.h>
 

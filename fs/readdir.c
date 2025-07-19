@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/readdir.c
+ *  peenux/fs/readdir.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/stat.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/fsnotify.h>
-#include <linux/dirent.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/unistd.h>
-#include <linux/compat.h>
-#include <linux/uaccess.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/stat.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/fsnotify.h>
+#include <peenux/dirent.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/unistd.h>
+#include <peenux/compat.h>
+#include <peenux/uaccess.h>
 
 /*
  * Some filesystems were never converted to '->iterate_shared()'
@@ -155,7 +155,7 @@ static int verify_dirent_name(const char *name, int len)
 }
 
 /*
- * Traditional linux readdir() handling..
+ * Traditional peenux readdir() handling..
  *
  * "count=1" is a special case, meaning that the buffer is one
  * dirent-structure in size and that the code can't handle more

@@ -2,30 +2,30 @@
 /* cpu_feature_enabled() cannot be used this early */
 #define USE_EARLY_PGTABLE_L5
 
-#include <linux/memblock.h>
-#include <linux/linkage.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/percpu.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/task.h>
-#include <linux/sched/smt.h>
-#include <linux/init.h>
-#include <linux/kprobes.h>
-#include <linux/kgdb.h>
-#include <linux/mem_encrypt.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/io.h>
-#include <linux/syscore_ops.h>
-#include <linux/pgtable.h>
-#include <linux/stackprotector.h>
-#include <linux/utsname.h>
+#include <peenux/memblock.h>
+#include <peenux/linkage.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/percpu.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/smt.h>
+#include <peenux/init.h>
+#include <peenux/kprobes.h>
+#include <peenux/kgdb.h>
+#include <peenux/mem_encrypt.h>
+#include <peenux/smp.h>
+#include <peenux/cpu.h>
+#include <peenux/io.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/pgtable.h>
+#include <peenux/stackprotector.h>
+#include <peenux/utsname.h>
 
 #include <asm/alternative.h>
 #include <asm/cmdline.h>
@@ -40,9 +40,9 @@
 #include <asm/debugreg.h>
 #include <asm/sections.h>
 #include <asm/vsyscall.h>
-#include <linux/topology.h>
-#include <linux/cpumask.h>
-#include <linux/atomic.h>
+#include <peenux/topology.h>
+#include <peenux/cpumask.h>
+#include <peenux/atomic.h>
 #include <asm/proto.h>
 #include <asm/setup.h>
 #include <asm/apic.h>
@@ -50,7 +50,7 @@
 #include <asm/fpu/api.h>
 #include <asm/mtrr.h>
 #include <asm/hwcap2.h>
-#include <linux/numa.h>
+#include <peenux/numa.h>
 #include <asm/numa.h>
 #include <asm/asm.h>
 #include <asm/bugs.h>
@@ -1906,7 +1906,7 @@ static void generic_identify(struct cpuinfo_x86 *c)
 
 	/*
 	 * ESPFIX is a strange bug.  All real CPUs have it.  Paravirt
-	 * systems that run Linux at CPL > 0 may or may not have the
+	 * systems that run Peenux at CPL > 0 may or may not have the
 	 * issue, but, even if they have the issue, there's absolutely
 	 * nothing we can do about it because we can't use the real IRET
 	 * instruction.

@@ -2,8 +2,8 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <string.h>
-#include <linux/perf_event.h>
-#include <linux/kernel.h>
+#include <peenux/perf_event.h>
+#include <peenux/kernel.h>
 #include <perf/cpumap.h>
 #include <perf/threadmap.h>
 #include <perf/evsel.h>

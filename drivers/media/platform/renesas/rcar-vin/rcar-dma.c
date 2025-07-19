@@ -10,9 +10,9 @@
  * Based on the soc-camera rcar_vin driver
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
 
 #include <media/videobuf2-dma-contig.h>
 

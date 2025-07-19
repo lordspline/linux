@@ -3,15 +3,15 @@
  * Copyright (C) 2019 Mellanox Technologies. All rights reserved
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/refcount.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
 
 #include "netdevsim.h"
 

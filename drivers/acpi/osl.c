@@ -6,34 +6,34 @@
  *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
  *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
  *  Copyright (c) 2008 Intel Corporation
- *   Author: Matthew Wilcox <willy@linux.intel.com>
+ *   Author: Matthew Wilcox <willy@peenux.intel.com>
  */
 
 #define pr_fmt(fmt) "ACPI: OSL: " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/lockdep.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/kmod.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/nmi.h>
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/ioport.h>
-#include <linux/list.h>
-#include <linux/jiffies.h>
-#include <linux/semaphore.h>
-#include <linux/security.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/lockdep.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/kmod.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/nmi.h>
+#include <peenux/acpi.h>
+#include <peenux/efi.h>
+#include <peenux/ioport.h>
+#include <peenux/list.h>
+#include <peenux/jiffies.h>
+#include <peenux/semaphore.h>
+#include <peenux/security.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/uaccess.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 
 #include "acpica/accommon.h"
 #include "internal.h"
@@ -49,7 +49,7 @@ struct acpi_os_dpc {
 };
 
 #ifdef ENABLE_DEBUGGER
-#include <linux/kdb.h>
+#include <peenux/kdb.h>
 
 /* stuff for debugger support */
 int acpi_in_debugger;
@@ -1242,7 +1242,7 @@ acpi_os_create_semaphore(u32 max_units, u32 initial_units, acpi_handle *handle)
 }
 
 /*
- * TODO: A better way to delete semaphores?  Linux doesn't have a
+ * TODO: A better way to delete semaphores?  Peenux doesn't have a
  * 'delete_semaphore()' function -- may result in an invalid
  * pointer dereference for non-synchronized consumers.	Should
  * we at least check for blocked threads and signal/cancel them?

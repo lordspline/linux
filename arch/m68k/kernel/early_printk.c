@@ -6,10 +6,10 @@
  * Copyright (c) 2014 Finn Thain
  */
 
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/console.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
 #include <asm/setup.h>
 
 

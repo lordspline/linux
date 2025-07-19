@@ -6,16 +6,16 @@
  *	Suman Anna <s-anna@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/omap-mailbox.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/omap-mailbox.h>
+#include <peenux/platform_device.h>
+#include <peenux/remoteproc.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #include "omap_remoteproc.h"
 #include "remoteproc_internal.h"

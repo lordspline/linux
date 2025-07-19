@@ -9,25 +9,25 @@
  *  1997-11-28  Modified for POSIX.1b signals by Richard Henderson
  */
 
-#include <linux/compat.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/tty.h>
-#include <linux/personality.h>
-#include <linux/binfmts.h>
+#include <peenux/compat.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/errno.h>
+#include <peenux/wait.h>
+#include <peenux/ptrace.h>
+#include <peenux/unistd.h>
+#include <peenux/stddef.h>
+#include <peenux/tty.h>
+#include <peenux/personality.h>
+#include <peenux/binfmts.h>
 #include <asm/vdso-symbols.h>
 #include <asm/access-regs.h>
 #include <asm/ucontext.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/lowcore.h>
 #include <asm/fpu.h>
 #include "compat_linux.h"

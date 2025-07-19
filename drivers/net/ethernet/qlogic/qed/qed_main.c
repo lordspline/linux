@@ -4,26 +4,26 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/stddef.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <peenux/stddef.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
 #include <asm/byteorder.h>
-#include <linux/dma-mapping.h>
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/ethtool.h>
-#include <linux/etherdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/crash_dump.h>
-#include <linux/crc32.h>
-#include <linux/qed/qed_if.h>
-#include <linux/qed/qed_ll2_if.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/ethtool.h>
+#include <peenux/etherdevice.h>
+#include <peenux/vmalloc.h>
+#include <peenux/crash_dump.h>
+#include <peenux/crc32.h>
+#include <peenux/qed/qed_if.h>
+#include <peenux/qed/qed_ll2_if.h>
 #include <net/devlink.h>
-#include <linux/phylink.h>
+#include <peenux/phylink.h>
 
 #include "qed.h"
 #include "qed_sriov.h"

@@ -5,8 +5,8 @@
  */
 
 #include <kunit/test.h>
-#include <linux/kernel.h>
-#include <linux/time64.h>
+#include <peenux/kernel.h>
+#include <peenux/time64.h>
 
 #include "ext4.h"
 

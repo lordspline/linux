@@ -5,14 +5,14 @@
  * Copyright 2014-2015 Google Inc.
  * Copyright 2014-2015 Linaro Ltd.
  */
-#include <linux/kthread.h>
-#include <linux/sizes.h>
-#include <linux/usb.h>
-#include <linux/kfifo.h>
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/greybus.h>
-#include <linux/unaligned.h>
+#include <peenux/kthread.h>
+#include <peenux/sizes.h>
+#include <peenux/usb.h>
+#include <peenux/kfifo.h>
+#include <peenux/debugfs.h>
+#include <peenux/list.h>
+#include <peenux/greybus.h>
+#include <peenux/unaligned.h>
 
 #include "arpc.h"
 #include "greybus_trace.h"

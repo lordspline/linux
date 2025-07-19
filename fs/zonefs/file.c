@@ -4,21 +4,21 @@
  *
  * Copyright (C) 2022 Western Digital Corporation or its affiliates.
  */
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/iomap.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/statfs.h>
-#include <linux/writeback.h>
-#include <linux/quotaops.h>
-#include <linux/seq_file.h>
-#include <linux/parser.h>
-#include <linux/uio.h>
-#include <linux/mman.h>
-#include <linux/sched/mm.h>
-#include <linux/task_io_accounting_ops.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/iomap.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/statfs.h>
+#include <peenux/writeback.h>
+#include <peenux/quotaops.h>
+#include <peenux/seq_file.h>
+#include <peenux/parser.h>
+#include <peenux/uio.h>
+#include <peenux/mman.h>
+#include <peenux/sched/mm.h>
+#include <peenux/task_io_accounting_ops.h>
 
 #include "zonefs.h"
 

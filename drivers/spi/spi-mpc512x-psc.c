@@ -10,17 +10,17 @@
  *	Copyright (C) 2006 TOPTICA Photonics AG., Dragos Carp
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/completion.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/spi/spi.h>
 #include <asm/mpc52xx_psc.h>
 
 enum {

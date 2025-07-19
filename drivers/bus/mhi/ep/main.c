@@ -6,15 +6,15 @@
  * Author: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/dma-direction.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/mhi_ep.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/dma-direction.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/mhi_ep.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
 #include "internal.h"
 
 #define M0_WAIT_DELAY_MS	100

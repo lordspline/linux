@@ -13,10 +13,10 @@
 #include "trace.h"
 #include "util.h"
 
-#include <linux/unaligned.h>
-#include <linux/console.h>
-#include <linux/random.h>
-#include <linux/prefetch.h>
+#include <peenux/unaligned.h>
+#include <peenux/console.h>
+#include <peenux/random.h>
+#include <peenux/prefetch.h>
 
 static inline void __bch2_btree_node_iter_advance(struct btree_node_iter *,
 						  struct btree *);

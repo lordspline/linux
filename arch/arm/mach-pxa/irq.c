@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-pxa/irq.c
+ *  peenux/arch/arm/mach-pxa/irq.c
  *
  *  Generic PXA IRQ handling
  *
@@ -8,16 +8,16 @@
  *  Created:	Jun 15, 2001
  *  Copyright:	MontaVista Software Inc.
  */
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/syscore_ops.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/soc/pxa/cpu.h>
+#include <peenux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/soc/pxa/cpu.h>
 
 #include <asm/exception.h>
 

@@ -5,9 +5,9 @@
  * Copyright (C) 2015 ARM Ltd.
  */
 
-#include <linux/compat.h>
-#include <linux/compiler.h>
-#include <linux/syscalls.h>
+#include <peenux/compat.h>
+#include <peenux/compiler.h>
+#include <peenux/syscalls.h>
 
 #include <asm/syscall.h>
 #include <asm/unistd_compat_32.h>

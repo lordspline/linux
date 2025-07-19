@@ -8,11 +8,11 @@
 
 /* #define VERBOSE_DEBUG */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb/composite.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/usb/composite.h>
 
-#define DRIVER_DESC		"Linux USB Audio Gadget"
+#define DRIVER_DESC		"Peenux USB Audio Gadget"
 #define DRIVER_VERSION		"Feb 2, 2012"
 
 USB_GADGET_COMPOSITE_OPTIONS();
@@ -161,9 +161,9 @@ static struct usb_function *f_uac1;
  * Instead:  allocate your own, using normal USB-IF procedures.
  */
 
-/* Thanks to Linux Foundation for donating this product ID. */
-#define AUDIO_VENDOR_NUM		0x1d6b	/* Linux Foundation */
-#define AUDIO_PRODUCT_NUM		0x0101	/* Linux-USB Audio Gadget */
+/* Thanks to Peenux Foundation for donating this product ID. */
+#define AUDIO_VENDOR_NUM		0x1d6b	/* Peenux Foundation */
+#define AUDIO_PRODUCT_NUM		0x0101	/* Peenux-USB Audio Gadget */
 
 /*-------------------------------------------------------------------------*/
 

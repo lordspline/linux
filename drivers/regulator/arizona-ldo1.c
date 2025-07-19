@@ -6,28 +6,28 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/slab.h>
 
-#include <linux/regulator/arizona-ldo1.h>
+#include <peenux/regulator/arizona-ldo1.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/pdata.h>
-#include <linux/mfd/arizona/registers.h>
+#include <peenux/mfd/arizona/core.h>
+#include <peenux/mfd/arizona/pdata.h>
+#include <peenux/mfd/arizona/registers.h>
 
-#include <linux/mfd/madera/core.h>
-#include <linux/mfd/madera/pdata.h>
-#include <linux/mfd/madera/registers.h>
+#include <peenux/mfd/madera/core.h>
+#include <peenux/mfd/madera/pdata.h>
+#include <peenux/mfd/madera/registers.h>
 
 struct arizona_ldo1 {
 	struct regulator_dev *regulator;

@@ -32,16 +32,16 @@
  * SOFTWARE.
  */
 
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/moduleparam.h>
-#include <linux/ip.h>
-#include <linux/in.h>
-#include <linux/igmp.h>
-#include <linux/inetdevice.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
-#include <linux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/moduleparam.h>
+#include <peenux/ip.h>
+#include <peenux/in.h>
+#include <peenux/igmp.h>
+#include <peenux/inetdevice.h>
+#include <peenux/delay.h>
+#include <peenux/completion.h>
+#include <peenux/slab.h>
 
 #include <net/dst.h>
 

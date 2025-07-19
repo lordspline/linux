@@ -12,22 +12,22 @@
  * BMA250: 7-bit I2C slave address 0x18 or 0x19
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #define BMA180_DRV_NAME "bma180"
 #define BMA180_IRQ_NAME "bma180_event"

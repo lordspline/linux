@@ -1,33 +1,33 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Linux Socket Filter Data Structures
+ * Peenux Socket Filter Data Structures
  */
 #ifndef __LINUX_FILTER_H__
 #define __LINUX_FILTER_H__
 
-#include <linux/atomic.h>
-#include <linux/bpf.h>
-#include <linux/refcount.h>
-#include <linux/compat.h>
-#include <linux/skbuff.h>
-#include <linux/linkage.h>
-#include <linux/printk.h>
-#include <linux/workqueue.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/capability.h>
-#include <linux/set_memory.h>
-#include <linux/kallsyms.h>
-#include <linux/if_vlan.h>
-#include <linux/vmalloc.h>
-#include <linux/sockptr.h>
+#include <peenux/atomic.h>
+#include <peenux/bpf.h>
+#include <peenux/refcount.h>
+#include <peenux/compat.h>
+#include <peenux/skbuff.h>
+#include <peenux/linkage.h>
+#include <peenux/printk.h>
+#include <peenux/workqueue.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/capability.h>
+#include <peenux/set_memory.h>
+#include <peenux/kallsyms.h>
+#include <peenux/if_vlan.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sockptr.h>
 #include <crypto/sha1.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/u64_stats_sync.h>
 
 #include <net/sch_generic.h>
 
 #include <asm/byteorder.h>
-#include <uapi/linux/filter.h>
+#include <uapi/peenux/filter.h>
 
 struct sk_buff;
 struct sock;

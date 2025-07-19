@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2024 Christian Marangi */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/hw_random.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/hw_random.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/platform_device.h>
 
 #define TRNG_IP_RDY			0x800
 #define   CNT_TRANS			GENMASK(15, 8)

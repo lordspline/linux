@@ -20,15 +20,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/twl.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/twl.h>
 
 #define PWR_PWRON_IRQ (1 << 0)
 

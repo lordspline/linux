@@ -5,11 +5,11 @@
  *  (C) Copyright 2020 Advantech Corporation, Inc
  *
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/acpi.h>
+#include <peenux/platform_device.h>
 
 #define ACPI_BUTTON_HID_SWBTN               "AHC0310"
 

@@ -10,17 +10,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/device/faux.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_profile.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/device/faux.h>
+#include <peenux/dmi.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_profile.h>
+#include <peenux/slab.h>
 
 #include "dell-smbios.h"
 

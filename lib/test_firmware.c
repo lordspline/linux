@@ -10,22 +10,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/completion.h>
-#include <linux/firmware.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/kstrtox.h>
-#include <linux/kthread.h>
-#include <linux/vmalloc.h>
-#include <linux/efi_embedded_fw.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/completion.h>
+#include <peenux/firmware.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/delay.h>
+#include <peenux/kstrtox.h>
+#include <peenux/kthread.h>
+#include <peenux/vmalloc.h>
+#include <peenux/efi_embedded_fw.h>
 
 MODULE_IMPORT_NS("TEST_FIRMWARE");
 

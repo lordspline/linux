@@ -5,8 +5,8 @@
 
 #include "recovery-journal.h"
 
-#include <linux/atomic.h>
-#include <linux/bio.h>
+#include <peenux/atomic.h>
+#include <peenux/bio.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

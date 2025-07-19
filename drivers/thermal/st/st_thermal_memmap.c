@@ -6,8 +6,8 @@
  * Copyright (C) 2003-2014 STMicroelectronics (R&D) Limited
  */
 
-#include <linux/of.h>
-#include <linux/module.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
 
 #include "st_thermal.h"
 

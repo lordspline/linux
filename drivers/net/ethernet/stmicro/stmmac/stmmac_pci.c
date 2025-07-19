@@ -9,9 +9,9 @@
   Author: Giuseppe Cavallaro <peppe.cavallaro@st.com>
 *******************************************************************************/
 
-#include <linux/clk-provider.h>
-#include <linux/pci.h>
-#include <linux/dmi.h>
+#include <peenux/clk-provider.h>
+#include <peenux/pci.h>
+#include <peenux/dmi.h>
 
 #include "stmmac.h"
 

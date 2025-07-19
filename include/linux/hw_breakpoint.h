@@ -2,8 +2,8 @@
 #ifndef _LINUX_HW_BREAKPOINT_H
 #define _LINUX_HW_BREAKPOINT_H
 
-#include <linux/perf_event.h>
-#include <uapi/linux/hw_breakpoint.h>
+#include <peenux/perf_event.h>
+#include <uapi/peenux/hw_breakpoint.h>
 
 #ifdef CONFIG_HAVE_HW_BREAKPOINT
 

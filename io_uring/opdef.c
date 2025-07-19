@@ -2,12 +2,12 @@
 /*
  * io_uring opcode handling table
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/io_uring.h>
-#include <linux/io_uring/cmd.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/io_uring.h>
+#include <peenux/io_uring/cmd.h>
 
 #include "io_uring.h"
 #include "opdef.h"

@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/devfreq/governor_userspace.c
+ *  peenux/drivers/devfreq/governor_userspace.c
  *
  *  Copyright (C) 2011 Samsung Electronics
  *	MyungJoo Ham <myungjoo.ham@samsung.com>
  */
 
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/devfreq.h>
-#include <linux/pm.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/devfreq.h>
+#include <peenux/pm.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
 #include "governor.h"
 
 struct userspace_data {

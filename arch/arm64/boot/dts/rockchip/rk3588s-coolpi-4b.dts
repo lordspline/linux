@@ -59,7 +59,7 @@
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_STATUS;
 			gpios = <&gpio0 RK_PD0 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 
 		led1: led-red {
@@ -67,7 +67,7 @@
 			default-state = "off";
 			function = LED_FUNCTION_WLAN;
 			gpios = <&gpio0 RK_PC4 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "phy0tx";
+			peenux,default-trigger = "phy0tx";
 		};
 	};
 

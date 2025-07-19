@@ -7,13 +7,13 @@
  * Copyright (C) 2019-2020, 2022-2025 Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
-#include <linux/nl80211.h>
-#include <linux/slab.h>
-#include <linux/wireless.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/etherdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/nl80211.h>
+#include <peenux/slab.h>
+#include <peenux/wireless.h>
 #include <net/cfg80211.h>
 #include <net/iw_handler.h>
 #include "core.h"

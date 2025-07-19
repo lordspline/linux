@@ -4,11 +4,11 @@
  * Author: James.Qian.Wang <james.qian.wang@arm.com>
  *
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_module.h>
 #include <drm/drm_of.h>

@@ -40,15 +40,15 @@
  * is half of that in the single stage mode.
  */
 
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
-#include <linux/watchdog.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/uaccess.h>
+#include <peenux/watchdog.h>
 #include <asm/arch_timer.h>
 
 #define DRV_NAME		"sbsa-gwdt"

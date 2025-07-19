@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
 
-#include <linux/if_vlan.h>
-#include <linux/iopoll.h>
+#include <peenux/if_vlan.h>
+#include <peenux/iopoll.h>
 #include <net/ip6_checksum.h>
 #include <net/ipv6.h>
 #include <net/netdev_queues.h>

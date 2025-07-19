@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) Meta Platforms, Inc. and affiliates. */
 
-#include <linux/bitfield.h>
+#include <peenux/bitfield.h>
 #include <net/tcp.h>
 
 #include "fbnic.h"

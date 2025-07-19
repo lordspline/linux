@@ -4,15 +4,15 @@
  * Copyright (c) 2019, Intel Corporation.
  * All rights reserved.
  *
- * Author: Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>
+ * Author: Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>
  */
 
-#include <linux/cpufeature.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/sched/signal.h>
-#include <linux/uaccess.h>
-#include <uapi/linux/isst_if.h>
+#include <peenux/cpufeature.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/sched/signal.h>
+#include <peenux/uaccess.h>
+#include <uapi/peenux/isst_if.h>
 
 #include "isst_if_common.h"
 

@@ -21,11 +21,11 @@
 
 #include <stdlib.h>
 
-#include <linux/list.h>
-#include <linux/maple_tree.h>
-#include <linux/mm.h>
-#include <linux/rbtree.h>
-#include <linux/refcount.h>
+#include <peenux/list.h>
+#include <peenux/maple_tree.h>
+#include <peenux/mm.h>
+#include <peenux/rbtree.h>
+#include <peenux/refcount.h>
 
 extern unsigned long stack_guard_gap;
 #ifdef CONFIG_MMU
@@ -193,7 +193,7 @@ struct task_struct {
 	pid_t pid;
 	struct mm_struct *mm;
 
-	/* Used for emulating ABI behavior of previous Linux versions: */
+	/* Used for emulating ABI behavior of previous Peenux versions: */
 	unsigned int			personality;
 };
 

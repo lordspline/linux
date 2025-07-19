@@ -6,12 +6,12 @@
  * Copyright (C) 2018, Intel Corporation
  */
 
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/dmapool.h>
-#include <linux/workqueue.h>
+#include <peenux/crc32.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/dmapool.h>
+#include <peenux/workqueue.h>
 
 #include "ctl.h"
 

@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2015-2018 Mellanox Technologies. All rights reserved */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/if_link.h>
-#include <linux/netdevice.h>
-#include <linux/completion.h>
-#include <linux/skbuff.h>
-#include <linux/etherdevice.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/gfp.h>
-#include <linux/random.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/firmware.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/err.h>
+#include <peenux/if_link.h>
+#include <peenux/netdevice.h>
+#include <peenux/completion.h>
+#include <peenux/skbuff.h>
+#include <peenux/etherdevice.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/gfp.h>
+#include <peenux/random.h>
+#include <peenux/jiffies.h>
+#include <peenux/mutex.h>
+#include <peenux/rcupdate.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/firmware.h>
 #include <asm/byteorder.h>
 #include <net/devlink.h>
 #include <trace/events/devlink.h>

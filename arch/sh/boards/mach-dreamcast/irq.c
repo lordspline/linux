@@ -8,10 +8,10 @@
  *
  * This file is part of the LinuxDC project (www.linuxdc.org)
  */
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/export.h>
-#include <linux/err.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/export.h>
+#include <peenux/err.h>
 #include <mach/sysasic.h>
 
 /*

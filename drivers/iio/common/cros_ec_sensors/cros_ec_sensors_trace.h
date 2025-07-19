@@ -11,12 +11,12 @@
 #if !defined(_CROS_EC_SENSORS_TRACE_H_) || defined(TRACE_HEADER_MULTI_READ)
 #define _CROS_EC_SENSORS_TRACE_H_
 
-#include <linux/bits.h>
-#include <linux/types.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
+#include <peenux/bits.h>
+#include <peenux/types.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 
 TRACE_EVENT(cros_ec_motion_host_cmd,
 	    TP_PROTO(struct ec_params_motion_sense *param,

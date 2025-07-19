@@ -5,9 +5,9 @@
 #ifndef __ASM_HARDIRQ_H
 #define __ASM_HARDIRQ_H
 
-#include <linux/cache.h>
-#include <linux/percpu.h>
-#include <linux/threads.h>
+#include <peenux/cache.h>
+#include <peenux/percpu.h>
+#include <peenux/threads.h>
 #include <asm/barrier.h>
 #include <asm/irq.h>
 #include <asm/kvm_arm.h>

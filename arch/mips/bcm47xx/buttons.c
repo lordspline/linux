@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 #include "bcm47xx_private.h"
 
-#include <linux/input.h>
-#include <linux/gpio_keys.h>
-#include <linux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/interrupt.h>
 #include <bcm47xx_board.h>
 #include <bcm47xx.h>
 

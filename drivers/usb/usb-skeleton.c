@@ -8,14 +8,14 @@
  * but has been rewritten to be easier to read and use.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kref.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kref.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
+#include <peenux/mutex.h>
 
 
 /* Define these values to match your devices */

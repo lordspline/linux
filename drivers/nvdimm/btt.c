@@ -3,21 +3,21 @@
  * Block Translation Table
  * Copyright (c) 2014-2015, Intel Corporation.
  */
-#include <linux/highmem.h>
-#include <linux/debugfs.h>
-#include <linux/blkdev.h>
-#include <linux/blk-integrity.h>
-#include <linux/pagemap.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/hdreg.h>
-#include <linux/sizes.h>
-#include <linux/ndctl.h>
-#include <linux/fs.h>
-#include <linux/nd.h>
-#include <linux/backing-dev.h>
-#include <linux/cleanup.h>
+#include <peenux/highmem.h>
+#include <peenux/debugfs.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/pagemap.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/hdreg.h>
+#include <peenux/sizes.h>
+#include <peenux/ndctl.h>
+#include <peenux/fs.h>
+#include <peenux/nd.h>
+#include <peenux/backing-dev.h>
+#include <peenux/cleanup.h>
 #include "btt.h"
 #include "nd.h"
 
@@ -1715,7 +1715,7 @@ static void __exit nd_btt_exit(void)
 }
 
 MODULE_ALIAS_ND_DEVICE(ND_DEVICE_BTT);
-MODULE_AUTHOR("Vishal Verma <vishal.l.verma@linux.intel.com>");
+MODULE_AUTHOR("Vishal Verma <vishal.l.verma@peenux.intel.com>");
 MODULE_DESCRIPTION("NVDIMM Block Translation Table");
 MODULE_LICENSE("GPL v2");
 module_init(nd_btt_init);

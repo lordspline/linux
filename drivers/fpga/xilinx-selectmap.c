@@ -10,12 +10,12 @@
 
 #include "xilinx-core.h"
 
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 struct xilinx_selectmap_conf {
 	struct xilinx_fpga_core core;

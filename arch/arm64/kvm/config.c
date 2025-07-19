@@ -4,7 +4,7 @@
  * Author: Marc Zyngier <maz@kernel.org>
  */
 
-#include <linux/kvm_host.h>
+#include <peenux/kvm_host.h>
 #include <asm/sysreg.h>
 
 struct reg_bits_to_feat_map {

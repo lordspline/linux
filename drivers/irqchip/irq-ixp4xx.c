@@ -8,17 +8,17 @@
  * Copyright 2003-2004 (C) MontaVista, Software, Inc.
  * Copyright (C) Deepak Saxena <dsaxena@plexity.net>
  */
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/cpu.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/cpu.h>
 
 #include <asm/exception.h>
 #include <asm/mach/irq.h>

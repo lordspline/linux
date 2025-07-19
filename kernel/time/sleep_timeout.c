@@ -3,11 +3,11 @@
  *  Kernel internal schedule timeout and sleeping functions
  */
 
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/timer.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/timer.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/debug.h>
 
 #include "tick-internal.h"
 

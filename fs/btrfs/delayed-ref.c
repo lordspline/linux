@@ -3,9 +3,9 @@
  * Copyright (C) 2009 Oracle.  All rights reserved.
  */
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
 #include "messages.h"
 #include "ctree.h"
 #include "delayed-ref.h"

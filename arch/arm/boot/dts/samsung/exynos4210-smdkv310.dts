@@ -88,7 +88,7 @@
 &keypad {
 	samsung,keypad-num-rows = <2>;
 	samsung,keypad-num-columns = <8>;
-	linux,input-no-autorepeat;
+	peenux,input-no-autorepeat;
 	wakeup-source;
 	pinctrl-names = "default";
 	pinctrl-0 = <&keypad_rows &keypad_cols>;
@@ -97,61 +97,61 @@
 	key-1 {
 		keypad,row = <0>;
 		keypad,column = <3>;
-		linux,code = <2>;
+		peenux,code = <2>;
 	};
 
 	key-2 {
 		keypad,row = <0>;
 		keypad,column = <4>;
-		linux,code = <3>;
+		peenux,code = <3>;
 	};
 
 	key-3 {
 		keypad,row = <0>;
 		keypad,column = <5>;
-		linux,code = <4>;
+		peenux,code = <4>;
 	};
 
 	key-4 {
 		keypad,row = <0>;
 		keypad,column = <6>;
-		linux,code = <5>;
+		peenux,code = <5>;
 	};
 
 	key-5 {
 		keypad,row = <0>;
 		keypad,column = <7>;
-		linux,code = <6>;
+		peenux,code = <6>;
 	};
 
 	key-a {
 		keypad,row = <1>;
 		keypad,column = <3>;
-		linux,code = <30>;
+		peenux,code = <30>;
 	};
 
 	key-b {
 		keypad,row = <1>;
 		keypad,column = <4>;
-		linux,code = <48>;
+		peenux,code = <48>;
 	};
 
 	key-c {
 		keypad,row = <1>;
 		keypad,column = <5>;
-		linux,code = <46>;
+		peenux,code = <46>;
 	};
 
 	key-d {
 		keypad,row = <1>;
 		keypad,column = <6>;
-		linux,code = <32>;
+		peenux,code = <32>;
 	};
 
 	key-e {
 		keypad,row = <1>;
 		keypad,column = <7>;
-		linux,code = <18>;
+		peenux,code = <18>;
 	};
 };
 

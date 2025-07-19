@@ -4,17 +4,17 @@
  * Copyright (C) 2004-2006 Red Hat, Inc.  All rights reserved.
  */
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/buffer_head.h>
-#include <linux/mempool.h>
-#include <linux/gfs2_ondisk.h>
-#include <linux/bio.h>
-#include <linux/fs.h>
-#include <linux/list_sort.h>
-#include <linux/blkdev.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/buffer_head.h>
+#include <peenux/mempool.h>
+#include <peenux/gfs2_ondisk.h>
+#include <peenux/bio.h>
+#include <peenux/fs.h>
+#include <peenux/list_sort.h>
+#include <peenux/blkdev.h>
 
 #include "bmap.h"
 #include "dir.h"

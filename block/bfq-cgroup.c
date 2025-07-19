@@ -2,15 +2,15 @@
 /*
  * cgroups support for the BFQ I/O scheduler.
  */
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/cgroup.h>
-#include <linux/ktime.h>
-#include <linux/rbtree.h>
-#include <linux/ioprio.h>
-#include <linux/sbitmap.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/cgroup.h>
+#include <peenux/ktime.h>
+#include <peenux/rbtree.h>
+#include <peenux/ioprio.h>
+#include <peenux/sbitmap.h>
+#include <peenux/delay.h>
 
 #include "elevator.h"
 #include "bfq-iosched.h"

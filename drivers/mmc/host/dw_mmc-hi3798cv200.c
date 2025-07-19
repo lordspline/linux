@@ -3,15 +3,15 @@
  * Copyright (c) 2018 HiSilicon Technologies Co., Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mmc/host.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mmc/host.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
 #include "dw_mmc.h"
 #include "dw_mmc-pltfm.h"

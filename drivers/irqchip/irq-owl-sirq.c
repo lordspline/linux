@@ -10,11 +10,11 @@
  * Author: Cristian Ciocaltea <cristian.ciocaltea@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/bitfield.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
 #include <dt-bindings/interrupt-controller/arm-gic.h>
 

@@ -20,21 +20,21 @@
  * OF THIS SOFTWARE.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/random.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
 
 #if IS_ENABLED(CONFIG_DRM_DEBUG_DP_MST_TOPOLOGY_REFS)
-#include <linux/stacktrace.h>
-#include <linux/sort.h>
-#include <linux/timekeeping.h>
-#include <linux/math64.h>
+#include <peenux/stacktrace.h>
+#include <peenux/sort.h>
+#include <peenux/timekeeping.h>
+#include <peenux/math64.h>
 #endif
 
 #include <drm/display/drm_dp_mst_helper.h>

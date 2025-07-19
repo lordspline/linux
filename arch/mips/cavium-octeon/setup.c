@@ -5,30 +5,30 @@
  *
  * Copyright (C) 2004-2007 Cavium Networks
  * Copyright (C) 2008, 2009 Wind River Systems
- *   written by Ralf Baechle <ralf@linux-mips.org>
+ *   written by Ralf Baechle <ralf@peenux-mips.org>
  */
-#include <linux/compiler.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/serial.h>
-#include <linux/smp.h>
-#include <linux/types.h>
-#include <linux/string.h>	/* for memset */
-#include <linux/tty.h>
-#include <linux/time.h>
-#include <linux/platform_device.h>
-#include <linux/serial_core.h>
-#include <linux/serial_8250.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
-#include <linux/kexec.h>
+#include <peenux/compiler.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/memblock.h>
+#include <peenux/serial.h>
+#include <peenux/smp.h>
+#include <peenux/types.h>
+#include <peenux/string.h>	/* for memset */
+#include <peenux/tty.h>
+#include <peenux/time.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_8250.h>
+#include <peenux/of_fdt.h>
+#include <peenux/libfdt.h>
+#include <peenux/kexec.h>
 
 #include <asm/processor.h>
 #include <asm/reboot.h>
@@ -311,7 +311,7 @@ EXPORT_SYMBOL(octeon_is_simulation);
 
 /**
  * octeon_is_pci_host - Return true if Octeon is in PCI Host mode. This means
- * Linux can control the PCI bus.
+ * Peenux can control the PCI bus.
  *
  * Return: Non-zero if Octeon is in host mode.
  */
@@ -382,7 +382,7 @@ static int octeon_get_boot_uart(void)
 }
 
 /**
- * octeon_get_boot_coremask - Get the coremask Linux was booted on.
+ * octeon_get_boot_coremask - Get the coremask Peenux was booted on.
  *
  * Return: Core mask
  */
@@ -834,7 +834,7 @@ void __init prom_init(void)
 #ifdef CONFIG_SMP
 	octeon_write_lcd("LinuxSMP");
 #else
-	octeon_write_lcd("Linux");
+	octeon_write_lcd("Peenux");
 #endif
 
 	octeon_setup_delays();

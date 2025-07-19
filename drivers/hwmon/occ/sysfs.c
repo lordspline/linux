@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright IBM Corp 2019
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/sysfs.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/kernel.h>
+#include <peenux/kstrtox.h>
+#include <peenux/sysfs.h>
 
 #include "common.h"
 

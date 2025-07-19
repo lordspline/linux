@@ -9,13 +9,13 @@
  * Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/sunrpc/svc_xprt.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/highmem.h>
-#include <linux/log2.h>
-#include <linux/hash.h>
+#include <peenux/sunrpc/svc_xprt.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/highmem.h>
+#include <peenux/log2.h>
+#include <peenux/hash.h>
 #include <net/checksum.h>
 
 #include "nfsd.h"

@@ -6,10 +6,10 @@
  * Author: Tomi Valkeinen <tomi.valkeinen@ti.com>
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
 
 #include <video/omapfb_dss.h>
 

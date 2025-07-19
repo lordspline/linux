@@ -12,9 +12,9 @@
  * Paul Walmsley
  */
 
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/init.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
 
 #include "common.h"
 

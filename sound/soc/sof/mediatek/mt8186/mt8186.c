@@ -9,14 +9,14 @@
  * Hardware interface for audio DSP on mt8186
  */
 
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/module.h>
 
 #include <sound/sof.h>
 #include <sound/sof/xtensa.h>

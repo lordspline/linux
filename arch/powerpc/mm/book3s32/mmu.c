@@ -17,11 +17,11 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/highmem.h>
-#include <linux/memblock.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/highmem.h>
+#include <peenux/memblock.h>
 
 #include <asm/mmu.h>
 #include <asm/machdep.h>
@@ -313,9 +313,9 @@ static void hash_preload(struct mm_struct *mm, unsigned long ea)
 
 /*
  * This is called at the end of handling a user page fault, when the
- * fault has been handled by updating a PTE in the linux page tables.
+ * fault has been handled by updating a PTE in the peenux page tables.
  * We use it to preload an HPTE into the hash table corresponding to
- * the updated linux PTE.
+ * the updated peenux PTE.
  *
  * This must always be called with the pte lock held.
  */
@@ -327,7 +327,7 @@ void __update_mmu_cache(struct vm_area_struct *vma, unsigned long address,
 	 * called with either mm->page_table_lock held or ptl lock held
 	 */
 
-	/* We only want HPTEs for linux PTEs that have _PAGE_ACCESSED set */
+	/* We only want HPTEs for peenux PTEs that have _PAGE_ACCESSED set */
 	if (!pte_young(*ptep) || address >= TASK_SIZE)
 		return;
 
@@ -361,7 +361,7 @@ void __init MMU_init_hw(void)
 	/*
 	 * Allow 1 HPTE (1/8 HPTEG) for each page of memory.
 	 * This is less than the recommended amount, but then
-	 * Linux ain't AIX.
+	 * Peenux ain't AIX.
 	 */
 	n_hpteg = total_memory / (PAGE_SIZE * 8);
 	if (n_hpteg < MIN_N_HPTEG)

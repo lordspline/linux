@@ -8,17 +8,17 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_clock.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/sh_clk.h>
-#include <linux/bitmap.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_clock.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/sh_clk.h>
+#include <peenux/bitmap.h>
+#include <peenux/slab.h>
 
 static struct dev_pm_domain default_pm_domain = {
 	.ops = {

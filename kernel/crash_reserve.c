@@ -4,16 +4,16 @@
  * Copyright (C) 2002-2004 Eric Biederman  <ebiederm@xmission.com>
  */
 
-#include <linux/buildid.h>
-#include <linux/init.h>
-#include <linux/utsname.h>
-#include <linux/vmalloc.h>
-#include <linux/sizes.h>
-#include <linux/kexec.h>
-#include <linux/memory.h>
-#include <linux/cpuhotplug.h>
-#include <linux/memblock.h>
-#include <linux/kmemleak.h>
+#include <peenux/buildid.h>
+#include <peenux/init.h>
+#include <peenux/utsname.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sizes.h>
+#include <peenux/kexec.h>
+#include <peenux/memory.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/memblock.h>
+#include <peenux/kmemleak.h>
 
 #include <asm/page.h>
 #include <asm/sections.h>

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/net/sunrpc/svcsock.c
+ * peenux/net/sunrpc/svcsock.c
  *
  * These are the RPC server socket internals.
  *
@@ -20,23 +20,23 @@
  * Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fcntl.h>
-#include <linux/net.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/udp.h>
-#include <linux/tcp.h>
-#include <linux/unistd.h>
-#include <linux/slab.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/file.h>
-#include <linux/freezer.h>
-#include <linux/bvec.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/fcntl.h>
+#include <peenux/net.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/udp.h>
+#include <peenux/tcp.h>
+#include <peenux/unistd.h>
+#include <peenux/slab.h>
+#include <peenux/netdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/file.h>
+#include <peenux/freezer.h>
+#include <peenux/bvec.h>
 
 #include <net/sock.h>
 #include <net/checksum.h>
@@ -47,18 +47,18 @@
 #include <net/tcp_states.h>
 #include <net/tls_prot.h>
 #include <net/handshake.h>
-#include <linux/uaccess.h>
-#include <linux/highmem.h>
+#include <peenux/uaccess.h>
+#include <peenux/highmem.h>
 #include <asm/ioctls.h>
-#include <linux/key.h>
+#include <peenux/key.h>
 
-#include <linux/sunrpc/types.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/stats.h>
-#include <linux/sunrpc/xprt.h>
+#include <peenux/sunrpc/types.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/xdr.h>
+#include <peenux/sunrpc/msg_prot.h>
+#include <peenux/sunrpc/svcsock.h>
+#include <peenux/sunrpc/stats.h>
+#include <peenux/sunrpc/xprt.h>
 
 #include <trace/events/sock.h>
 #include <trace/events/sunrpc.h>

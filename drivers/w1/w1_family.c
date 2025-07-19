@@ -3,11 +3,11 @@
  * Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
  */
 
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/sched/signal.h>
-#include <linux/delay.h>
-#include <linux/export.h>
+#include <peenux/spinlock.h>
+#include <peenux/list.h>
+#include <peenux/sched/signal.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
 
 #include "w1_internal.h"
 

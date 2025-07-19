@@ -8,17 +8,17 @@
  * 2001-05-06	Complete rewrite,  Christoph Hellwig (hch@infradead.org)
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/module.h>
-#include <linux/personality.h>
-#include <linux/proc_fs.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/syscalls.h>
-#include <linux/sysctl.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/kmod.h>
+#include <peenux/module.h>
+#include <peenux/personality.h>
+#include <peenux/proc_fs.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/syscalls.h>
+#include <peenux/sysctl.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_PROC_FS
 static int execdomains_proc_show(struct seq_file *m, void *v)

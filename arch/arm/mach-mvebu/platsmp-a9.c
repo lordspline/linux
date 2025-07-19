@@ -9,11 +9,11 @@
  * Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/smp.h>
-#include <linux/mbus.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/smp.h>
+#include <peenux/mbus.h>
 #include <asm/smp_scu.h>
 #include <asm/smp_plat.h>
 #include "common.h"

@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2018-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
-#include <linux/soc/qcom/mdt_loader.h>
-#include <linux/soc/qcom/smem_state.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/remoteproc.h>
+#include <peenux/soc/qcom/mdt_loader.h>
+#include <peenux/soc/qcom/smem_state.h>
 #include "ahb.h"
 #include "debug.h"
 #include "hif.h"

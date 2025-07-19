@@ -7,16 +7,16 @@
  * Based on LP8860 driver by Dan Murphy <dmurphy@ti.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 #define LP8864_BRT_CONTROL		0x00
 #define LP8864_USER_CONFIG1		0x04

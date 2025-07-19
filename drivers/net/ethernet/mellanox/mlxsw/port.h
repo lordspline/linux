@@ -4,7 +4,7 @@
 #ifndef _MLXSW_PORT_H
 #define _MLXSW_PORT_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define MLXSW_PORT_MAX_MTU		(10 * 1024)
 #define MLXSW_PORT_ETH_FRAME_HDR	(ETH_HLEN + VLAN_HLEN + ETH_FCS_LEN)

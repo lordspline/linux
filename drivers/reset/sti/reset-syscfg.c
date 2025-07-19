@@ -5,15 +5,15 @@
  *
  * Inspired by mach-imx/src.c
  */
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/types.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/types.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 
 #include "reset-syscfg.h"
 

@@ -5,25 +5,25 @@
  * Copyright (C) 2004-2006 Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/rculist.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/bug.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/rculist.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #include <asm/byteorder.h>
 

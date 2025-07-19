@@ -8,13 +8,13 @@
  *  Copyright (C) 2008 Imre Kaloz <kaloz@openwrt.org>
  */
 
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #define AR71XX_GPIO_REG_OE		0x00
 #define AR71XX_GPIO_REG_IN		0x04

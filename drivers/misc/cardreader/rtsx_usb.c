@@ -6,13 +6,13 @@
  * Author:
  *   Roger Tseng <rogerable@realtek.com>
  */
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/usb.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/rtsx_usb.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/usb.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/core.h>
+#include <peenux/rtsx_usb.h>
 
 static int polling_pipe = 1;
 module_param(polling_pipe, int, S_IRUGO | S_IWUSR);

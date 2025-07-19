@@ -5,10 +5,10 @@
  *
  */
 
-#include <linux/blkdev.h>
-#include <linux/buffer_head.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
+#include <peenux/blkdev.h>
+#include <peenux/buffer_head.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
 
 #include "debug.h"
 #include "ntfs.h"

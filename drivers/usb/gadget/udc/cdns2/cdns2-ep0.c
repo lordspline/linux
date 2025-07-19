@@ -7,8 +7,8 @@
  * Authors: Pawel Laszczak <pawell@cadence.com>
  */
 
-#include <linux/usb/composite.h>
-#include <linux/unaligned.h>
+#include <peenux/usb/composite.h>
+#include <peenux/unaligned.h>
 
 #include "cdns2-gadget.h"
 #include "cdns2-trace.h"

@@ -10,14 +10,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/arm-smccc.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/slab.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/slab.h>
 
 #define NVMEM_MASK	0x7
 #define NVMEM_SHIFT	5

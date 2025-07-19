@@ -9,8 +9,8 @@
 #ifndef __SDCA_H__
 #define __SDCA_H__
 
-#include <linux/types.h>
-#include <linux/kconfig.h>
+#include <peenux/types.h>
+#include <peenux/kconfig.h>
 
 struct sdw_slave;
 

@@ -5,7 +5,7 @@
  * Copyright (C) 2018-2020 Intel Corporation
  *
  * Author: Felipe Balbi (Intel)
- * Author: Jarkko Nikula <jarkko.nikula@linux.intel.com>
+ * Author: Jarkko Nikula <jarkko.nikula@peenux.intel.com>
  * Author: Raymond Tan <raymond.tan@intel.com>
  *
  * Limitations:
@@ -15,13 +15,13 @@
 
 #define DEFAULT_MOUDLE_NAMESPACE dwc_pwm
 
-#include <linux/bitops.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
+#include <peenux/bitops.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pwm.h>
 
 #include "pwm-dwc.h"
 
@@ -164,7 +164,7 @@ static struct pci_driver dwc_pwm_driver = {
 module_pci_driver(dwc_pwm_driver);
 
 MODULE_AUTHOR("Felipe Balbi (Intel)");
-MODULE_AUTHOR("Jarkko Nikula <jarkko.nikula@linux.intel.com>");
+MODULE_AUTHOR("Jarkko Nikula <jarkko.nikula@peenux.intel.com>");
 MODULE_AUTHOR("Raymond Tan <raymond.tan@intel.com>");
 MODULE_DESCRIPTION("DesignWare PWM Controller");
 MODULE_LICENSE("GPL");

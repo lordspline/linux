@@ -4,12 +4,12 @@
 #ifndef _LINUX_MFD_OCELOT_H
 #define _LINUX_MFD_OCELOT_H
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 struct resource;
 

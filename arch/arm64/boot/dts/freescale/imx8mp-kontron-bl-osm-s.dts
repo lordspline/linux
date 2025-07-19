@@ -17,7 +17,7 @@
 	};
 
 	extcon_usbc: usbc {
-		compatible = "linux,extcon-usb-gpio";
+		compatible = "peenux,extcon-usb-gpio";
 		pinctrl-names = "default";
 		pinctrl-0 = <&pinctrl_usb1_id>;
 		id-gpios = <&gpio1 10 GPIO_ACTIVE_HIGH>;
@@ -29,7 +29,7 @@
 		led1 {
 			label = "led1";
 			gpios = <&gpio1 5 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 
@@ -220,7 +220,7 @@
 };
 
 &uart4 {
-	linux,rs485-enabled-at-boot-time;
+	peenux,rs485-enabled-at-boot-time;
 	uart-has-rtscts;
 	status = "okay";
 };

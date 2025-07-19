@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/static_call.h>
-#include <linux/bug.h>
-#include <linux/smp.h>
-#include <linux/sort.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/cpu.h>
-#include <linux/processor.h>
+#include <peenux/init.h>
+#include <peenux/static_call.h>
+#include <peenux/bug.h>
+#include <peenux/smp.h>
+#include <peenux/sort.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/cpu.h>
+#include <peenux/processor.h>
 #include <asm/sections.h>
 
 extern struct static_call_site __start_static_call_sites[],

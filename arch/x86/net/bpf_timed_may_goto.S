@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2025 Meta Platforms, Inc. and affiliates. */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
+#include <peenux/export.h>
+#include <peenux/linkage.h>
 #include <asm/nospec-branch.h>
 
 	.code64

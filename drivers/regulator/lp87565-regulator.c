@@ -5,12 +5,12 @@
  * Copyright (C) 2017 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/lp87565.h>
+#include <peenux/mfd/lp87565.h>
 
 enum LP87565_regulator_id {
 	/* BUCK's */

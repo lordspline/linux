@@ -4,13 +4,13 @@
 #ifndef __CXL_H__
 #define __CXL_H__
 
-#include <linux/libnvdimm.h>
-#include <linux/bitfield.h>
-#include <linux/notifier.h>
-#include <linux/bitops.h>
-#include <linux/log2.h>
-#include <linux/node.h>
-#include <linux/io.h>
+#include <peenux/libnvdimm.h>
+#include <peenux/bitfield.h>
+#include <peenux/notifier.h>
+#include <peenux/bitops.h>
+#include <peenux/log2.h>
+#include <peenux/node.h>
+#include <peenux/io.h>
 
 extern const struct nvdimm_security_ops *cxl_security_ops;
 

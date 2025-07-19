@@ -4,13 +4,13 @@
  * Copyright (C) 2014 Regents of the University of California
  */
 
-#include <linux/export.h>
-#include <linux/kallsyms.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
-#include <linux/ftrace.h>
+#include <peenux/export.h>
+#include <peenux/kallsyms.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/stacktrace.h>
+#include <peenux/ftrace.h>
 
 #include <asm/stacktrace.h>
 

@@ -12,20 +12,20 @@
  *  Copyright (C) 2000  Philipp Rumpf <prumpf@tux.org>
  *  Copyright (C) 1999  Tetsuya Okada & Niibe Yutaka
  */
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/kernel.h>
-#include <linux/bcd.h>
-#include <linux/rtc.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/kernel.h>
+#include <peenux/bcd.h>
+#include <peenux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/log2.h>
+#include <peenux/clk.h>
+#include <peenux/slab.h>
 #ifdef CONFIG_SUPERH
 #include <asm/rtc.h>
 #else
@@ -501,7 +501,7 @@ static struct platform_driver sh_rtc_platform_driver __refdata = {
 module_platform_driver_probe(sh_rtc_platform_driver, sh_rtc_probe);
 
 MODULE_DESCRIPTION("SuperH on-chip RTC driver");
-MODULE_AUTHOR("Paul Mundt <lethal@linux-sh.org>");
+MODULE_AUTHOR("Paul Mundt <lethal@peenux-sh.org>");
 MODULE_AUTHOR("Jamie Lenehan <lenehan@twibble.org>");
 MODULE_AUTHOR("Angelo Castello <angelo.castello@st.com>");
 MODULE_LICENSE("GPL v2");

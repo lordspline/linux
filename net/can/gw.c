@@ -39,22 +39,22 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/rculist.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <linux/can.h>
-#include <linux/can/core.h>
-#include <linux/can/skb.h>
-#include <linux/can/gw.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/rcupdate.h>
+#include <peenux/rculist.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
+#include <peenux/can.h>
+#include <peenux/can/core.h>
+#include <peenux/can/skb.h>
+#include <peenux/can/gw.h>
 #include <net/rtnetlink.h>
 #include <net/net_namespace.h>
 #include <net/sock.h>

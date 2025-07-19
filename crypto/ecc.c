@@ -25,16 +25,16 @@
  */
 
 #include <crypto/ecc_curve.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/swab.h>
-#include <linux/fips.h>
+#include <peenux/module.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/swab.h>
+#include <peenux/fips.h>
 #include <crypto/ecdh.h>
 #include <crypto/rng.h>
 #include <crypto/internal/ecc.h>
-#include <linux/unaligned.h>
-#include <linux/ratelimit.h>
+#include <peenux/unaligned.h>
+#include <peenux/ratelimit.h>
 
 #include "ecc_curve_defs.h"
 

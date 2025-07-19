@@ -3,13 +3,13 @@
  * Copyright (c) 2023 Hannes Reinecke, SUSE Labs
  */
 
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/key-type.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
+#include <peenux/key-type.h>
 #include <keys/user-type.h>
-#include <linux/nvme.h>
-#include <linux/nvme-tcp.h>
-#include <linux/nvme-keyring.h>
+#include <peenux/nvme.h>
+#include <peenux/nvme-tcp.h>
+#include <peenux/nvme-keyring.h>
 
 static struct key *nvme_keyring;
 

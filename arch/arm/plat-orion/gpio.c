@@ -10,20 +10,20 @@
 
 #define DEBUG
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
-#include <linux/leds.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/leds.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
 #include <plat/orion-gpio.h>
 
 /*
@@ -438,7 +438,7 @@ static void gpio_irq_handler(struct irq_desc *desc)
 }
 
 #ifdef CONFIG_DEBUG_FS
-#include <linux/seq_file.h>
+#include <peenux/seq_file.h>
 
 static void orion_gpio_dbg_show(struct seq_file *s, struct gpio_chip *chip)
 {

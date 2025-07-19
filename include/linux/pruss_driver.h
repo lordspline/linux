@@ -9,10 +9,10 @@
 #ifndef _PRUSS_DRIVER_H_
 #define _PRUSS_DRIVER_H_
 
-#include <linux/mutex.h>
-#include <linux/remoteproc/pruss.h>
-#include <linux/types.h>
-#include <linux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/remoteproc/pruss.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
 
 /*
  * enum pruss_gp_mux_sel - PRUSS GPI/O Mux modes for the

@@ -4,19 +4,19 @@
  * Copyright 2022,2023 NXP
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/math.h>
-#include <linux/media-bus-format.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/phy-mipi-dphy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/math.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/phy/phy-mipi-dphy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <drm/bridge/dw_mipi_dsi.h>
 #include <drm/drm_bridge.h>

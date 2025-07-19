@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/slab.h>
 #include <net/switchdev.h>
 
 #include "br_private.h"

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2015-2018 Mellanox Technologies. All rights reserved */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/dcbnl.h>
-#include <linux/if_ether.h>
-#include <linux/list.h>
-#include <linux/netlink.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/dcbnl.h>
+#include <peenux/if_ether.h>
+#include <peenux/list.h>
+#include <peenux/netlink.h>
 
 #include "spectrum.h"
 #include "core.h"

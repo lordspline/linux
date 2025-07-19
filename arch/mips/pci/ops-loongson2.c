@@ -8,10 +8,10 @@
  * Copyright (C) 2009 Lemote Inc.
  * Author: Wu Zhangjin <wuzhangjin@gmail.com>
  */
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
 
 #include <loongson.h>
 

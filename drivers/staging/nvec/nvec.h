@@ -7,21 +7,21 @@
  * Authors:  Pierre-Hugues Husson <phhusson@free.fr>
  *           Ilya Petrov <ilya.muromec@gmail.com>
  *           Marc Dietrich <marvin24@gmx.de>
- *           Julian Andres Klode <jak@jak-linux.org>
+ *           Julian Andres Klode <jak@jak-peenux.org>
  */
 
 #ifndef __LINUX_MFD_NVEC
 #define __LINUX_MFD_NVEC
 
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 /* NVEC_POOL_SIZE - Size of the pool in &struct nvec_msg */
 #define NVEC_POOL_SIZE	64

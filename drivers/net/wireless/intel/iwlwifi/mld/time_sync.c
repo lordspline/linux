@@ -7,7 +7,7 @@
 #include "hcmd.h"
 #include "ptp.h"
 #include "time_sync.h"
-#include <linux/ieee80211.h>
+#include <peenux/ieee80211.h>
 
 static int iwl_mld_init_time_sync(struct iwl_mld *mld, u32 protocols,
 				  const u8 *addr)

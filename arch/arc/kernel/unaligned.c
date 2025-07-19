@@ -7,10 +7,10 @@
  *  -original contribution by Tim.yao@amlogic.com
  */
 
-#include <linux/types.h>
-#include <linux/perf_event.h>
-#include <linux/ptrace.h>
-#include <linux/uaccess.h>
+#include <peenux/types.h>
+#include <peenux/perf_event.h>
+#include <peenux/ptrace.h>
+#include <peenux/uaccess.h>
 #include <asm/disasm.h>
 #include "unaligned.h"
 

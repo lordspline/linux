@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2009-2013, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2009-2013, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2010, Google Inc.
  *
  * Original authors: Code Aurora Forum
@@ -10,16 +10,16 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/ssbi.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/ssbi.h>
 
 /* SSBI 2.0 controller registers */
 #define SSBI2_CMD			0x0008

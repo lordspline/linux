@@ -7,24 +7,24 @@
  *    Author(s): Cornelia Huck <cornelia.huck@de.ibm.com>
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/err.h>
-#include <linux/virtio.h>
-#include <linux/virtio_config.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/virtio_ring.h>
-#include <linux/pfn.h>
-#include <linux/async.h>
-#include <linux/wait.h>
-#include <linux/list.h>
-#include <linux/bitops.h>
-#include <linux/moduleparam.h>
-#include <linux/io.h>
-#include <linux/kvm_para.h>
-#include <linux/notifier.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/init.h>
+#include <peenux/memblock.h>
+#include <peenux/err.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_config.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/virtio_ring.h>
+#include <peenux/pfn.h>
+#include <peenux/async.h>
+#include <peenux/wait.h>
+#include <peenux/list.h>
+#include <peenux/bitops.h>
+#include <peenux/moduleparam.h>
+#include <peenux/io.h>
+#include <peenux/kvm_para.h>
+#include <peenux/notifier.h>
 #include <asm/diag.h>
 #include <asm/setup.h>
 #include <asm/irq.h>

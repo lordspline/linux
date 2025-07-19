@@ -16,24 +16,24 @@
  *    Dec 2004: Added support for PXA27x and slave device probing [Liam Girdwood]
  *    Feb 2005: Rework slave mode handling [RMK]
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/i2c-pxa.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/i2c-pxa.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 /* I2C register field definitions */
 #define IBMR_SDAS	(1 << 0)

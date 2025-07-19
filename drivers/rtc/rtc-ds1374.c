@@ -17,21 +17,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/workqueue.h>
+#include <peenux/slab.h>
+#include <peenux/pm.h>
 #ifdef CONFIG_RTC_DRV_DS1374_WDT
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <linux/miscdevice.h>
-#include <linux/reboot.h>
-#include <linux/watchdog.h>
+#include <peenux/fs.h>
+#include <peenux/ioctl.h>
+#include <peenux/miscdevice.h>
+#include <peenux/reboot.h>
+#include <peenux/watchdog.h>
 #endif
 
 #define DS1374_REG_TOD0		0x00 /* Time of Day */

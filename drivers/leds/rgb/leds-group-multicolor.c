@@ -11,14 +11,14 @@
  * Copyright 2023 Jean-Jacques Hiblot <jjhiblot@traphandler.com>
  */
 
-#include <linux/err.h>
-#include <linux/leds.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/err.h>
+#include <peenux/leds.h>
+#include <peenux/led-class-multicolor.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 struct leds_multicolor {
 	struct led_classdev_mc mc_cdev;

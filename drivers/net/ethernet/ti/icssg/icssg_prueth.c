@@ -6,29 +6,29 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/ti-cppi5.h>
-#include <linux/etherdevice.h>
-#include <linux/genalloc.h>
-#include <linux/if_hsr.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
-#include <linux/property.h>
-#include <linux/remoteproc/pruss.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma/ti-cppi5.h>
+#include <peenux/etherdevice.h>
+#include <peenux/genalloc.h>
+#include <peenux/if_hsr.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/io-64-nonatomic-hi-lo.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy.h>
+#include <peenux/property.h>
+#include <peenux/remoteproc/pruss.h>
+#include <peenux/regmap.h>
+#include <peenux/remoteproc.h>
 #include <net/switchdev.h>
 
 #include "icssg_prueth.h"

@@ -5,22 +5,22 @@
  * Copyright 2025 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
-#include <linux/iio/adc/ad_sigma_delta.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/adc/ad_sigma_delta.h>
+#include <peenux/iio/iio.h>
 
 #define ad_sigma_delta_to_ad7191(sigmad)	\
 	container_of((sigmad), struct ad7191_state, sd)

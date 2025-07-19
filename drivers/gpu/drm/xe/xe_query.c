@@ -5,8 +5,8 @@
 
 #include "xe_query.h"
 
-#include <linux/nospec.h>
-#include <linux/sched/clock.h>
+#include <peenux/nospec.h>
+#include <peenux/sched/clock.h>
 
 #include <drm/ttm/ttm_placement.h>
 #include <generated/xe_wa_oob.h>

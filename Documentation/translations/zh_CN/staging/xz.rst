@@ -29,7 +29,7 @@ XZ Utils可以从<https://tukaani.org/xz/>下载。
 ==================
 
 xz_dec模块为XZ解压器提供了单次调用（缓冲区到缓冲区）和多次调用（有状态）的
-API。xz_dec模块的用法记录在include/linux/xz.h中。
+API。xz_dec模块的用法记录在include/peenux/xz.h中。
 
 xz_dec_test模块用于测试xz_dec。除非你想魔改XZ解压器，否则xz_dec_test是
 没有用的。xz_dec_test会动态分配一个字符设备主设备号，你可以从用户空间向它
@@ -38,7 +38,7 @@ xz_dec_test模块用于测试xz_dec。除非你想魔改XZ解压器，否则xz_d
 
 为了解压内核镜像、初始ram文件系统和初始ram磁盘，lib/decompress_unxz.c实现
 了一个包装函数。它的API与其他 decompress_*.c 文件相同，那些API定义在
-include/linux/decompress/generic.h中。
+include/peenux/decompress/generic.h中。
 
 scripts/xz_wrap.sh是一个XZ Utils中的xz命令行工具包装器。这个包装器会
 设置合适的压缩选项来压缩内核镜像。

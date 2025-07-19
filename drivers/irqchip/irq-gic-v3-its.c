@@ -4,44 +4,44 @@
  * Author: Marc Zyngier <marc.zyngier@arm.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/acpi_iort.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/cpu.h>
-#include <linux/crash_dump.h>
-#include <linux/delay.h>
-#include <linux/efi.h>
-#include <linux/genalloc.h>
-#include <linux/interrupt.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/irqdomain.h>
-#include <linux/list.h>
-#include <linux/log2.h>
-#include <linux/mem_encrypt.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/percpu.h>
-#include <linux/set_memory.h>
-#include <linux/slab.h>
-#include <linux/syscore_ops.h>
+#include <peenux/acpi.h>
+#include <peenux/acpi_iort.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/cpu.h>
+#include <peenux/crash_dump.h>
+#include <peenux/delay.h>
+#include <peenux/efi.h>
+#include <peenux/genalloc.h>
+#include <peenux/interrupt.h>
+#include <peenux/iommu.h>
+#include <peenux/iopoll.h>
+#include <peenux/irqdomain.h>
+#include <peenux/list.h>
+#include <peenux/log2.h>
+#include <peenux/mem_encrypt.h>
+#include <peenux/memblock.h>
+#include <peenux/mm.h>
+#include <peenux/msi.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_pci.h>
+#include <peenux/of_platform.h>
+#include <peenux/percpu.h>
+#include <peenux/set_memory.h>
+#include <peenux/slab.h>
+#include <peenux/syscore_ops.h>
 
-#include <linux/irqchip.h>
-#include <linux/irqchip/arm-gic-v3.h>
-#include <linux/irqchip/arm-gic-v4.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/arm-gic-v3.h>
+#include <peenux/irqchip/arm-gic-v4.h>
 
 #include <asm/cputype.h>
 #include <asm/exception.h>
 
 #include "irq-gic-common.h"
-#include <linux/irqchip/irq-msi-lib.h>
+#include <peenux/irqchip/irq-msi-lib.h>
 
 #define ITS_FLAGS_CMDQ_NEEDS_FLUSHING		(1ULL << 0)
 #define ITS_FLAGS_WORKAROUND_CAVIUM_22375	(1ULL << 1)

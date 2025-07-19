@@ -9,16 +9,16 @@
 #define dev_fmt pr_fmt
 #define DRV_NAME KBUILD_MODNAME
 
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/isapnp.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/isapnp.h>
 
 #include "nec7210.h"
 #include "gpibP.h"
@@ -1518,12 +1518,12 @@ static void __exit tnt4882_exit_module(void)
 
 #ifdef CONFIG_GPIB_PCMCIA
 
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/ptrace.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/moduleparam.h>
+#include <peenux/ptrace.h>
+#include <peenux/timer.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/cisreg.h>

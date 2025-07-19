@@ -9,16 +9,16 @@
  *          Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #include "omap-mcbsp.h"
 #include "omap-mcbsp-priv.h"

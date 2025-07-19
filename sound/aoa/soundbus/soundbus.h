@@ -7,9 +7,9 @@
 #ifndef __SOUNDBUS_H
 #define __SOUNDBUS_H
 
-#include <linux/platform_device.h>
+#include <peenux/platform_device.h>
 #include <sound/pcm.h>
-#include <linux/list.h>
+#include <peenux/list.h>
 
 
 /* When switching from master to slave or the other way around,

@@ -1,11 +1,11 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef __LINUX_MATROXFB_H__
 #define __LINUX_MATROXFB_H__
 
 #include <asm/ioctl.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
-#include <linux/fb.h>
+#include <peenux/types.h>
+#include <peenux/videodev2.h>
+#include <peenux/fb.h>
 
 struct matroxioc_output_mode {
 	__u32	output;		/* which output */

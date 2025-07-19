@@ -6,8 +6,8 @@
 #ifndef VDO_MEMORY_ALLOC_H
 #define VDO_MEMORY_ALLOC_H
 
-#include <linux/cache.h>
-#include <linux/io.h> /* for PAGE_SIZE */
+#include <peenux/cache.h>
+#include <peenux/io.h> /* for PAGE_SIZE */
 
 #include "permassert.h"
 #include "thread-registry.h"

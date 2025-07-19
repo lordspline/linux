@@ -20,16 +20,16 @@
  * user interrupt wires that generate interrupts to the host.
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/bitfield.h>
-#include <linux/dmapool.h>
-#include <linux/regmap.h>
-#include <linux/dmaengine.h>
-#include <linux/dma/amd_xdma.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/amd_xdma.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/bitfield.h>
+#include <peenux/dmapool.h>
+#include <peenux/regmap.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma/amd_xdma.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/amd_xdma.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pci.h>
 #include "../virt-dma.h"
 #include "xdma-regs.h"
 

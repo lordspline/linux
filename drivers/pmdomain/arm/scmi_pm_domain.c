@@ -5,11 +5,11 @@
  * Copyright (C) 2018-2021 ARM Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pm_domain.h>
-#include <linux/scmi_protocol.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/pm_domain.h>
+#include <peenux/scmi_protocol.h>
 
 static const struct scmi_power_proto_ops *power_ops;
 

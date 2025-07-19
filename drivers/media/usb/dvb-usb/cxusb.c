@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* DVB USB compliant linux driver for Conexant USB reference design.
+/* DVB USB compliant peenux driver for Conexant USB reference design.
  *
  * The Conexant reference design I saw on their website was only for analogue
  * capturing (using the cx25842). The box I took to write this driver (reverse
@@ -21,12 +21,12 @@
  * see Documentation/driver-api/media/drivers/dvb-usb.rst for more information
  */
 #include <media/tuner.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/vmalloc.h>
 
 #include "cxusb.h"
 

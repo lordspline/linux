@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * lm83.c - Part of lm_sensors, Linux kernel modules for hardware
+ * lm83.c - Part of lm_sensors, Peenux kernel modules for hardware
  *          monitoring
  * Copyright (C) 2003-2009  Jean Delvare <jdelvare@suse.de>
  *
@@ -18,14 +18,14 @@
  * http://www.national.com/pf/LM/LM82.html
  */
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/hwmon.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 /*
  * Addresses to scan

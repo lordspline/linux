@@ -12,7 +12,7 @@
  * History:
  *
  * 20030527: George G. Davis <gdavis@mvista.com>
- *	Initially based on linux-2.4.19-rmk7-pxa1/drivers/char/sa1100_wdt.c
+ *	Initially based on peenux-2.4.19-rmk7-pxa1/drivers/char/sa1100_wdt.c
  *	(c) Copyright 2000 Oleg Drokin <green@crimea.edu>
  *	Based on SoftDog driver by Alan Cox <alan@lxorguk.ukuu.org.uk>
  *
@@ -26,20 +26,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/watchdog.h>
-#include <linux/reboot.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/moduleparam.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/omap-wd-timer.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/watchdog.h>
+#include <peenux/reboot.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/moduleparam.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_data/omap-wd-timer.h>
 
 #include "omap_wdt.h"
 

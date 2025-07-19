@@ -7,12 +7,12 @@
 
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/firmware.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/firmware.h>
 
 #include <media/dvb_frontend.h>
 #include "ts2020.h"

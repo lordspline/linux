@@ -5,16 +5,16 @@
  *  Author: Eric Biederman <ebiederm@xmision.com>
  */
 
-#include <linux/module.h>
-#include <linux/ipc.h>
-#include <linux/nsproxy.h>
-#include <linux/sysctl.h>
-#include <linux/uaccess.h>
-#include <linux/capability.h>
-#include <linux/ipc_namespace.h>
-#include <linux/msg.h>
-#include <linux/slab.h>
-#include <linux/cred.h>
+#include <peenux/module.h>
+#include <peenux/ipc.h>
+#include <peenux/nsproxy.h>
+#include <peenux/sysctl.h>
+#include <peenux/uaccess.h>
+#include <peenux/capability.h>
+#include <peenux/ipc_namespace.h>
+#include <peenux/msg.h>
+#include <peenux/slab.h>
+#include <peenux/cred.h>
 #include "util.h"
 
 static int proc_ipc_dointvec_minmax_orphans(const struct ctl_table *table, int write,

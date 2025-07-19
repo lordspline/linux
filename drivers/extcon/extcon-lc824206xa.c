@@ -16,17 +16,17 @@
  * yoga_tab_2_osc_android_to_lollipop_201505.rar.
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/extcon-provider.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/workqueue.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/power_supply.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/workqueue.h>
 
 /*
  * Register defines as mentioned above there is no datasheet with register

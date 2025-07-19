@@ -3,13 +3,13 @@
  * Copyright (C) 2020 Intel Corporation
  * Author: Johannes Berg <johannes@sipsolutions.net>
  */
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/logic_iomem.h>
-#include <linux/of_platform.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/logic_iomem.h>
+#include <peenux/of_platform.h>
+#include <peenux/irqdomain.h>
+#include <peenux/msi.h>
+#include <peenux/unaligned.h>
 #include <irq_kern.h>
 
 #include "virt-pci.h"

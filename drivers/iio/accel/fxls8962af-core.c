@@ -12,24 +12,24 @@
  * https://www.nxp.com/docs/en/errata/ES_FXLS8962AF.pdf
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/kfifo_buf.h>
+#include <peenux/iio/sysfs.h>
 
 #include "fxls8962af.h"
 

@@ -6,16 +6,16 @@
  * Author: Liam Girdwood <lrg@slimlogic.co.uk>
  * Parts Copyright : Ian Molton <spyro@f2s.com>
  *                   Andrew Zabolotny <zap@homelink.ru>
- *                   Russell King <rmk@arm.linux.org.uk>
+ *                   Russell King <rmk@arm.peenux.org.uk>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/wm97xx.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/input.h>
+#include <peenux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/wm97xx.h>
 
 #define TS_NAME			"wm97xx"
 #define WM9713_VERSION		"1.00"

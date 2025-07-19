@@ -7,15 +7,15 @@
  *		James Yonan <james@openvpn.net>
  */
 
-#include <linux/ethtool.h>
-#include <linux/genetlink.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/genetlink.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/inetdevice.h>
 #include <net/gro_cells.h>
 #include <net/ip.h>
 #include <net/rtnetlink.h>
-#include <uapi/linux/if_arp.h>
+#include <uapi/peenux/if_arp.h>
 
 #include "ovpnpriv.h"
 #include "main.h"
@@ -43,7 +43,7 @@ static int ovpn_mp_alloc(struct ovpn_priv *ovpn)
 
 	dev_v4 = __in_dev_get_rtnl(ovpn->dev);
 	if (dev_v4) {
-		/* disable redirects as Linux gets confused by ovpn
+		/* disable redirects as Peenux gets confused by ovpn
 		 * handling same-LAN routing.
 		 * This happens because a multipeer interface is used as
 		 * relay point between hosts in the same subnet, while

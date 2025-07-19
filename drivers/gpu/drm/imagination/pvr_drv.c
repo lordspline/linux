@@ -24,19 +24,19 @@
 #include <drm/drm_gem.h>
 #include <drm/drm_ioctl.h>
 
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/xarray.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of_device.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/xarray.h>
 
 /**
  * DOC: PowerVR (Series 6 and later) and IMG Graphics Driver

@@ -9,10 +9,10 @@
 #include <crypto/aead.h>
 #include <crypto/hash.h>
 #include <crypto/skcipher.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pfkeyv2.h>
-#include <linux/scatterlist.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/pfkeyv2.h>
+#include <peenux/scatterlist.h>
 #include <net/xfrm.h>
 #if IS_ENABLED(CONFIG_INET_ESP) || IS_ENABLED(CONFIG_INET6_ESP)
 #include <net/esp.h>

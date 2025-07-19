@@ -5,14 +5,14 @@
  * All rights reserved
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
-#include <linux/of.h>
-#include <linux/bitops.h>
-#include <linux/jiffies.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/kmod.h>
+#include <peenux/mdio.h>
+#include <peenux/phy.h>
+#include <peenux/of.h>
+#include <peenux/bitops.h>
+#include <peenux/jiffies.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

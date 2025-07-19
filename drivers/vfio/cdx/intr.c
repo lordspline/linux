@@ -3,14 +3,14 @@
  * Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
  */
 
-#include <linux/vfio.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/eventfd.h>
-#include <linux/msi.h>
-#include <linux/interrupt.h>
+#include <peenux/vfio.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/eventfd.h>
+#include <peenux/msi.h>
+#include <peenux/interrupt.h>
 
-#include "linux/cdx/cdx_bus.h"
+#include "peenux/cdx/cdx_bus.h"
 #include "private.h"
 
 static irqreturn_t vfio_cdx_msihandler(int irq_no, void *arg)

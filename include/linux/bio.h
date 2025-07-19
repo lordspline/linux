@@ -5,10 +5,10 @@
 #ifndef __LINUX_BIO_H
 #define __LINUX_BIO_H
 
-#include <linux/mempool.h>
+#include <peenux/mempool.h>
 /* struct bio, bio_vec and BIO_* flags are defined in blk_types.h */
-#include <linux/blk_types.h>
-#include <linux/uio.h>
+#include <peenux/blk_types.h>
+#include <peenux/uio.h>
 
 #define BIO_MAX_VECS		256U
 #define BIO_MAX_INLINE_VECS	UIO_MAXIOV

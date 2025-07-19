@@ -7,17 +7,17 @@
  *	    Fabrice Gasnier <fabrice.gasnier@st.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/string_choices.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/iio/iio.h>
+#include <peenux/kernel.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/string_choices.h>
 
 #include "stm32-dac-core.h"
 

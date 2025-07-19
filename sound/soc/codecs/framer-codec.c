@@ -6,12 +6,12 @@
 //
 // Author: Herve Codina <herve.codina@bootlin.com>
 
-#include <linux/clk.h>
-#include <linux/framer/framer.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/framer/framer.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

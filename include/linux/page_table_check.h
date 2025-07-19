@@ -8,7 +8,7 @@
 #define __LINUX_PAGE_TABLE_CHECK_H
 
 #ifdef CONFIG_PAGE_TABLE_CHECK
-#include <linux/jump_label.h>
+#include <peenux/jump_label.h>
 
 extern struct static_key_true page_table_check_disabled;
 extern struct page_ext_operations page_table_check_ops;

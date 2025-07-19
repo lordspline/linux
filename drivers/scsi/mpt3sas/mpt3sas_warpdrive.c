@@ -38,11 +38,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 #include "mpt3sas_base.h"
 

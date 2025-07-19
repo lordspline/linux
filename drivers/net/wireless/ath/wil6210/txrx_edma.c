@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: ISC
 /*
- * Copyright (c) 2012-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2019 The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/etherdevice.h>
-#include <linux/moduleparam.h>
-#include <linux/prefetch.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <peenux/etherdevice.h>
+#include <peenux/moduleparam.h>
+#include <peenux/prefetch.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
 #include "wil6210.h"
 #include "txrx_edma.h"
 #include "txrx.h"

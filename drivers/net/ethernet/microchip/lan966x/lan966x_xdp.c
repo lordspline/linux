@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
-#include <linux/filter.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_trace.h>
+#include <peenux/filter.h>
 
 #include "lan966x_main.h"
 

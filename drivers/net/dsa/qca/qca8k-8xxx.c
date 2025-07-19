@@ -2,24 +2,24 @@
 /*
  * Copyright (C) 2009 Felix Fietkau <nbd@nbd.name>
  * Copyright (C) 2011-2012 Gabor Juhos <juhosg@openwrt.org>
- * Copyright (c) 2015, 2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, 2019, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2016 John Crispin <john@phrozen.org>
  */
 
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/netdevice.h>
-#include <linux/bitfield.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/phy.h>
+#include <peenux/netdevice.h>
+#include <peenux/bitfield.h>
+#include <peenux/regmap.h>
 #include <net/dsa.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/of_platform.h>
-#include <linux/mdio.h>
-#include <linux/phylink.h>
-#include <linux/gpio/consumer.h>
-#include <linux/etherdevice.h>
-#include <linux/dsa/tag_qca.h>
+#include <peenux/of_net.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_platform.h>
+#include <peenux/mdio.h>
+#include <peenux/phylink.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/etherdevice.h>
+#include <peenux/dsa/tag_qca.h>
 
 #include "qca8k.h"
 #include "qca8k_leds.h"
@@ -1912,7 +1912,7 @@ qca8k_setup(struct dsa_switch *ds)
 		}
 	}
 
-	/* Forward all unknown frames to CPU port for Linux processing
+	/* Forward all unknown frames to CPU port for Peenux processing
 	 * Notice that in multi-cpu config only one port should be set
 	 * for igmp, unknown, multicast and broadcast packet
 	 */

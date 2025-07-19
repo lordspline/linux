@@ -3,20 +3,20 @@
  * Core driver for the Intel integrated DMA 64-bit
  *
  * Copyright (C) 2015 Intel Corporation
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
-#include <linux/dma/idma64.h>
+#include <peenux/dma/idma64.h>
 
 #include "idma64.h"
 
@@ -704,5 +704,5 @@ module_platform_driver(idma64_platform_driver);
 
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("iDMA64 core driver");
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@peenux.intel.com>");
 MODULE_ALIAS("platform:" LPSS_IDMA64_DRIVER_NAME);

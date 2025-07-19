@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mmc/host/mxcmmc.c - Freescale i.MX MMCI driver
+ *  peenux/drivers/mmc/host/mxcmmc.c - Freescale i.MX MMCI driver
  *
  *  This is a driver for the SDHC controller found in Freescale MX2/MX3
  *  SoCs. It is basically the same hardware as found on MX1 (imxmmc.c).
@@ -13,32 +13,32 @@
  *  derived from pxamci.c by Russell King
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/highmem.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/blkdev.h>
-#include <linux/dma-mapping.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/regulator/consumer.h>
-#include <linux/dmaengine.h>
-#include <linux/types.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/mmc/slot-gpio.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/highmem.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/blkdev.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/dmaengine.h>
+#include <peenux/types.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/mmc/slot-gpio.h>
 
 #include <asm/dma.h>
 #include <asm/irq.h>
-#include <linux/platform_data/mmc-mxcmmc.h>
+#include <peenux/platform_data/mmc-mxcmmc.h>
 
-#include <linux/dma/imx-dma.h>
+#include <peenux/dma/imx-dma.h>
 
 #define DRIVER_NAME "mxc-mmc"
 #define MXCMCI_TIMEOUT_MS 10000

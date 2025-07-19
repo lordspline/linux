@@ -5,9 +5,9 @@
  * interface they are exposed through to BPF programs is explicitly unstable.
  */
 
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/btf_ids.h>
 #include <net/xdp.h>
 #include <net/xfrm.h>
 

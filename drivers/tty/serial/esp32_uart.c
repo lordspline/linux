@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty_flip.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/tty_flip.h>
 #include <asm/serial.h>
 
 #define DRIVER_NAME	"esp32-uart"

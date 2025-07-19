@@ -12,12 +12,12 @@
 
 #define dev_fmt(fmt) "AER: " fmt
 
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/aer.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/aer.h>
 #include "portdrv.h"
 #include "../pci.h"
 

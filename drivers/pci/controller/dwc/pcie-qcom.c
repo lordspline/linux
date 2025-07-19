@@ -2,36 +2,36 @@
 /*
  * Qualcomm PCIe root complex driver
  *
- * Copyright (c) 2014-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014-2015, The Peenux Foundation. All rights reserved.
  * Copyright 2015 Linaro Limited.
  *
  * Author: Stanimir Varbanov <svarbanov@mm-sol.com>
  */
 
-#include <linux/clk.h>
-#include <linux/crc8.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interconnect.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
-#include <linux/phy/pcie.h>
-#include <linux/phy/phy.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/clk.h>
+#include <peenux/crc8.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interconnect.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/limits.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy/pcie.h>
+#include <peenux/phy/phy.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

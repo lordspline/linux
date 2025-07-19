@@ -5,15 +5,15 @@
  * Copyright (c) 2021 Yassine Oudjana <y.oudjana@protonmail.com>
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/regulator/consumer.h>
 
 #define CYPRESS_SF_DEV_NAME "cypress-sf"
 
@@ -93,7 +93,7 @@ static int cypress_sf_probe(struct i2c_client *client)
 	}
 
 	touchkey->num_keys = device_property_read_u32_array(&client->dev,
-							    "linux,keycodes",
+							    "peenux,keycodes",
 							    NULL, 0);
 	if (touchkey->num_keys < 0) {
 		/* Default key count */
@@ -107,7 +107,7 @@ static int cypress_sf_probe(struct i2c_client *client)
 	if (!touchkey->keycodes)
 		return -ENOMEM;
 
-	error = device_property_read_u32_array(&client->dev, "linux,keycodes",
+	error = device_property_read_u32_array(&client->dev, "peenux,keycodes",
 					       touchkey->keycodes,
 					       touchkey->num_keys);
 

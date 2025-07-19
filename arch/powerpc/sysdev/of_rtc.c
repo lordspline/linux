@@ -4,12 +4,12 @@
  *
  * Copyright 2007 David Gibson <dwg@au1.ibm.com>, IBM Corporation.
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <asm/prom.h>
 

@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2015 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015 The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/jack.h>
 #include <sound/soc.h>
-#include <uapi/linux/input-event-codes.h>
+#include <uapi/peenux/input-event-codes.h>
 #include <dt-bindings/sound/apq8016-lpass.h>
 #include <dt-bindings/sound/qcom,q6afe.h>
 #include "common.h"

@@ -8,8 +8,8 @@
 #ifndef _CRYPTO_PKCS7_H
 #define _CRYPTO_PKCS7_H
 
-#include <linux/verification.h>
-#include <linux/hash_info.h>
+#include <peenux/verification.h>
+#include <peenux/hash_info.h>
 #include <crypto/public_key.h>
 
 struct key;

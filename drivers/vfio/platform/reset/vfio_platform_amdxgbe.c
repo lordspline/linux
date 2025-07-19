@@ -7,12 +7,12 @@
  *              www.linaro.org
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <uapi/linux/mdio.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <uapi/peenux/mdio.h>
+#include <peenux/delay.h>
 
 #include "../vfio_platform_private.h"
 

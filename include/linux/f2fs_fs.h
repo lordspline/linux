@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /**
- * include/linux/f2fs_fs.h
+ * include/peenux/f2fs_fs.h
  *
  * Copyright (c) 2012 Samsung Electronics Co., Ltd.
  *             http://www.samsung.com/
@@ -8,8 +8,8 @@
 #ifndef _LINUX_F2FS_FS_H
 #define _LINUX_F2FS_FS_H
 
-#include <linux/pagemap.h>
-#include <linux/types.h>
+#include <peenux/pagemap.h>
+#include <peenux/types.h>
 
 #define F2FS_SUPER_OFFSET		1024	/* byte-size offset */
 #define F2FS_MIN_LOG_SECTOR_SIZE	9	/* 9 bits for 512 bytes */

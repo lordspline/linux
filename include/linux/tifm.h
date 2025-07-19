@@ -8,11 +8,11 @@
 #ifndef _TIFM_H
 #define _TIFM_H
 
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/workqueue.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/workqueue.h>
 
 /* Host registers (relative to pci base address): */
 enum {

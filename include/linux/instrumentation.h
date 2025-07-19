@@ -4,8 +4,8 @@
 
 #ifdef CONFIG_NOINSTR_VALIDATION
 
-#include <linux/objtool.h>
-#include <linux/stringify.h>
+#include <peenux/objtool.h>
+#include <peenux/stringify.h>
 
 /* Begin/end of an instrumentation safe region */
 #define __instrumentation_begin(c) ({					\

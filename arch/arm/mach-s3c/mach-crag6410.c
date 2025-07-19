@@ -6,38 +6,38 @@
 // Copyright 2011 Simtec Electronics
 //	Ben Dooks <ben@simtec.co.uk>
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/serial_core.h>
-#include <linux/serial_s3c.h>
-#include <linux/platform_device.h>
-#include <linux/fb.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/input-event-codes.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/leds.h>
-#include <linux/delay.h>
-#include <linux/mmc/host.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/fixed.h>
-#include <linux/pwm.h>
-#include <linux/pwm_backlight.h>
-#include <linux/dm9000.h>
-#include <linux/gpio_keys.h>
-#include <linux/gpio/driver.h>
-#include <linux/spi/spi.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_s3c.h>
+#include <peenux/platform_device.h>
+#include <peenux/fb.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/input-event-codes.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/leds.h>
+#include <peenux/delay.h>
+#include <peenux/mmc/host.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/fixed.h>
+#include <peenux/pwm.h>
+#include <peenux/pwm_backlight.h>
+#include <peenux/dm9000.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/platform_data/pca953x.h>
-#include <linux/platform_data/s3c-hsotg.h>
+#include <peenux/platform_data/pca953x.h>
+#include <peenux/platform_data/s3c-hsotg.h>
 
 #include <video/platform_lcd.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/pdata.h>
-#include <linux/mfd/wm831x/irq.h>
-#include <linux/mfd/wm831x/gpio.h>
+#include <peenux/mfd/wm831x/core.h>
+#include <peenux/mfd/wm831x/pdata.h>
+#include <peenux/mfd/wm831x/irq.h>
+#include <peenux/mfd/wm831x/gpio.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach-types.h>
@@ -51,12 +51,12 @@
 #include "fb.h"
 #include "sdhci.h"
 #include "gpio-cfg.h"
-#include <linux/platform_data/spi-s3c64xx.h>
+#include <peenux/platform_data/spi-s3c64xx.h>
 
 #include "keypad.h"
 #include "devs.h"
 #include "cpu.h"
-#include <linux/platform_data/i2c-s3c2410.h>
+#include <peenux/platform_data/i2c-s3c2410.h>
 #include "pm.h"
 
 #include "s3c64xx.h"

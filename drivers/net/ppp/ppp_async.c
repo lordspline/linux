@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * PPP async serial channel driver for Linux.
+ * PPP async serial channel driver for Peenux.
  *
  * Copyright 1999 Paul Mackerras.
  *
@@ -14,23 +14,23 @@
  * subsequently hacked by Paul Mackerras.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/tty.h>
-#include <linux/netdevice.h>
-#include <linux/poll.h>
-#include <linux/crc-ccitt.h>
-#include <linux/ppp_defs.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/ppp_channel.h>
-#include <linux/spinlock.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/tty.h>
+#include <peenux/netdevice.h>
+#include <peenux/poll.h>
+#include <peenux/crc-ccitt.h>
+#include <peenux/ppp_defs.h>
+#include <peenux/ppp-ioctl.h>
+#include <peenux/ppp_channel.h>
+#include <peenux/spinlock.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
+#include <peenux/uaccess.h>
 #include <asm/string.h>
 
 #define PPP_VERSION	"2.4.2"

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *
- * Copyright (C) 2003, 04, 11 Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2003, 04, 11 Ralf Baechle (ralf@peenux-mips.org)
  * Copyright (C) 2011 Wind River Systems,
- *   written by Ralf Baechle (ralf@linux-mips.org)
+ *   written by Ralf Baechle (ralf@peenux-mips.org)
  */
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/of_address.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/of_address.h>
 
 #include <asm/cpu-info.h>
 

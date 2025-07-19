@@ -9,7 +9,7 @@
 #ifndef _SECURITY_LANDLOCK_SETUP_H
 #define _SECURITY_LANDLOCK_SETUP_H
 
-#include <linux/lsm_hooks.h>
+#include <peenux/lsm_hooks.h>
 
 extern const int landlock_abi_version;
 

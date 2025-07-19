@@ -10,27 +10,27 @@
  *	Safe accesses to vmalloc/direct-mapped discontiguous areas, Kanoj Sarcar <kanoj@sgi.com>
  */
 
-#include <linux/vmcore_info.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/kcore.h>
-#include <linux/user.h>
-#include <linux/capability.h>
-#include <linux/elf.h>
-#include <linux/elfcore.h>
-#include <linux/vmalloc.h>
-#include <linux/highmem.h>
-#include <linux/printk.h>
-#include <linux/memblock.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/uio.h>
+#include <peenux/vmcore_info.h>
+#include <peenux/mm.h>
+#include <peenux/proc_fs.h>
+#include <peenux/kcore.h>
+#include <peenux/user.h>
+#include <peenux/capability.h>
+#include <peenux/elf.h>
+#include <peenux/elfcore.h>
+#include <peenux/vmalloc.h>
+#include <peenux/highmem.h>
+#include <peenux/printk.h>
+#include <peenux/memblock.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/uio.h>
 #include <asm/io.h>
-#include <linux/list.h>
-#include <linux/ioport.h>
-#include <linux/memory.h>
-#include <linux/sched/task.h>
-#include <linux/security.h>
+#include <peenux/list.h>
+#include <peenux/ioport.h>
+#include <peenux/memory.h>
+#include <peenux/sched/task.h>
+#include <peenux/security.h>
 #include <asm/sections.h>
 #include "internal.h"
 

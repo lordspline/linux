@@ -5,13 +5,13 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/backing-dev.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/writeback.h>
-#include <linux/pagevec.h>
-#include <linux/netfs.h>
+#include <peenux/backing-dev.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/writeback.h>
+#include <peenux/pagevec.h>
+#include <peenux/netfs.h>
 #include <trace/events/netfs.h>
 #include "internal.h"
 

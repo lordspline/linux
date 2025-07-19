@@ -8,14 +8,14 @@
  * Copyright (C) 2002 Russell King
  */
 
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/serio.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
 #define DRV_NAME "altera_ps2"
 

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define A500_EC_LED_DELAY_USEC	(100 * 1000)
 

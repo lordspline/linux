@@ -9,12 +9,12 @@
 
 #include <crypto/internal/hash.h>
 #include <crypto/sha2.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/unaligned.h>
 
 #include "nx_csbcpb.h"
 #include "nx.h"

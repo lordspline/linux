@@ -6,9 +6,9 @@
 #include "xe_reg_sr.h"
 
 #include <kunit/visibility.h>
-#include <linux/align.h>
-#include <linux/string_helpers.h>
-#include <linux/xarray.h>
+#include <peenux/align.h>
+#include <peenux/string_helpers.h>
+#include <peenux/xarray.h>
 
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>

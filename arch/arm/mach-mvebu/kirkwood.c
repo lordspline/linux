@@ -7,16 +7,16 @@
  * Flattened Device Tree board initialization
  */
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mbus.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/mbus.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_net.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include <asm/hardware/cache-feroceon-l2.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

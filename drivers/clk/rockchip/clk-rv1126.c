@@ -4,12 +4,12 @@
  * Author: Finley Xiao <finley.xiao@rock-chips.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/syscore_ops.h>
+#include <peenux/clk-provider.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/syscore_ops.h>
 #include <dt-bindings/clock/rockchip,rv1126-cru.h>
 #include "clk.h"
 

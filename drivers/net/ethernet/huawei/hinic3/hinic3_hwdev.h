@@ -4,8 +4,8 @@
 #ifndef _HINIC3_HWDEV_H_
 #define _HINIC3_HWDEV_H_
 
-#include <linux/auxiliary_bus.h>
-#include <linux/pci.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/pci.h>
 
 #include "hinic3_hw_intf.h"
 

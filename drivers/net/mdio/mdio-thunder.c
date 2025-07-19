@@ -3,14 +3,14 @@
  * Copyright (C) 2009-2016 Cavium, Inc.
  */
 
-#include <linux/acpi.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_mdio.h>
-#include <linux/pci.h>
-#include <linux/phy.h>
+#include <peenux/acpi.h>
+#include <peenux/gfp.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_mdio.h>
+#include <peenux/pci.h>
+#include <peenux/phy.h>
 
 #include "mdio-cavium.h"
 

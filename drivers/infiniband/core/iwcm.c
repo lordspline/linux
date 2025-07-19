@@ -35,18 +35,18 @@
  * SOFTWARE.
  *
  */
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/rbtree.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/completion.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/sysctl.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/rbtree.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/sysctl.h>
 
 #include <rdma/iw_cm.h>
 #include <rdma/ib_addr.h>

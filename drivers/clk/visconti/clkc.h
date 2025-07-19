@@ -11,16 +11,16 @@
 #ifndef _VISCONTI_CLKC_H_
 #define _VISCONTI_CLKC_H_
 
-#include <linux/mfd/syscon.h>
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/delay.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
 
 #include "reset.h"
 

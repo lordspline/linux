@@ -4,21 +4,21 @@
 //
 // Copyright (C) 2020 Chuanhong Guo <gch981213@gmail.com>
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/string.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
+#include <peenux/string.h>
 
 #define DRIVER_NAME "mtk-spi-nor"
 

@@ -5,16 +5,16 @@
  * Copyright (c) 2014 Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/dln2.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/dln2.h>
 
 #define DLN2_GPIO_ID			0x01
 

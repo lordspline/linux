@@ -6,10 +6,10 @@
  */
 
 #include <kunit/test.h>
-#include <linux/cpumask.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/kthread.h>
-#include <linux/perf_event.h>
+#include <peenux/cpumask.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/kthread.h>
+#include <peenux/perf_event.h>
 #include <asm/hw_breakpoint.h>
 
 #define TEST_REQUIRES_BP_SLOTS(test, slots)						\

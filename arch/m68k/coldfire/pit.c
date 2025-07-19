@@ -13,13 +13,13 @@
 
 /***************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/param.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/clockchips.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/param.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/clockchips.h>
 #include <asm/machdep.h>
 #include <asm/io.h>
 #include <asm/coldfire.h>

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Driver for the Solos PCI ADSL2+ card, designed to support Linux by
+ * Driver for the Solos PCI ADSL2+ card, designed to support Peenux by
  *  Traverse Technologies -- https://www.traverse.com.au/
  *  Xrio Limited          -- http://www.xrio.com/
  *
@@ -15,23 +15,23 @@
 #define DEBUG
 #define VERBOSE_DEBUG
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/atm.h>
-#include <linux/atmdev.h>
-#include <linux/skbuff.h>
-#include <linux/sysfs.h>
-#include <linux/device.h>
-#include <linux/kobject.h>
-#include <linux/firmware.h>
-#include <linux/ctype.h>
-#include <linux/swab.h>
-#include <linux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/atm.h>
+#include <peenux/atmdev.h>
+#include <peenux/skbuff.h>
+#include <peenux/sysfs.h>
+#include <peenux/device.h>
+#include <peenux/kobject.h>
+#include <peenux/firmware.h>
+#include <peenux/ctype.h>
+#include <peenux/swab.h>
+#include <peenux/slab.h>
 
 #define VERSION "1.04"
 #define DRIVER_VERSION 0x01

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/net.h>
-#include <linux/proc_fs.h>
-#include <linux/rculist.h>
-#include <linux/seq_file.h>
-#include <linux/socket.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/net.h>
+#include <peenux/proc_fs.h>
+#include <peenux/rculist.h>
+#include <peenux/seq_file.h>
+#include <peenux/socket.h>
 #include <net/inet_sock.h>
 #include <net/kcm.h>
 #include <net/net_namespace.h>

@@ -6,17 +6,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/fsl/guts.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/clk.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/interrupt.h>
-#include <linux/libfdt_env.h>
+#include <peenux/fsl/guts.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/clk.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/libfdt_env.h>
 
 #include "fman.h"
 #include "fman_muram.h"

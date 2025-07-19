@@ -4,21 +4,21 @@
 /* Written 1999 by Greg Banks, NEC Australia <gnb@linuxfan.com>. Based on suni.c */
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/atmdev.h>
-#include <linux/sonet.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/init.h>
-#include <linux/capability.h>
-#include <linux/atm_idt77105.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/atmdev.h>
+#include <peenux/sonet.h>
+#include <peenux/delay.h>
+#include <peenux/timer.h>
+#include <peenux/init.h>
+#include <peenux/capability.h>
+#include <peenux/atm_idt77105.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
 #include <asm/param.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "idt77105.h"
 

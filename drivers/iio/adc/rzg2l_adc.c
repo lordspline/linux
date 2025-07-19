@@ -7,21 +7,21 @@
  * Author: Lad Prabhakar <prabhakar.mahadev-lad.rj@bp.renesas.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/iio/adc-helpers.h>
-#include <linux/iio/iio.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/iio/adc-helpers.h>
+#include <peenux/iio/iio.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/reset.h>
 
 #define DRIVER_NAME		"rzg2l-adc"
 

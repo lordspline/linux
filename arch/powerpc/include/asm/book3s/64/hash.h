@@ -7,7 +7,7 @@
 #include <asm/book3s/64/slice.h>
 
 /*
- * Common bits between 4K and 64K pages in a linux-style PTE.
+ * Common bits between 4K and 64K pages in a peenux-style PTE.
  * Additional bits may be defined in pgtable-hash64-*.h
  *
  */
@@ -219,7 +219,7 @@ static inline unsigned long hash__pte_update(struct mm_struct *mm,
 	return old;
 }
 
-/* Set the dirty and/or accessed bits atomically in a linux PTE, this
+/* Set the dirty and/or accessed bits atomically in a peenux PTE, this
  * function doesn't need to flush the hash entry
  */
 static inline void hash__ptep_set_access_flags(pte_t *ptep, pte_t entry)

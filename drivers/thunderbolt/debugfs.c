@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2020, Intel Corporation
  * Authors: Gil Fine <gil.fine@intel.com>
- *	    Mika Westerberg <mika.westerberg@linux.intel.com>
+ *	    Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/uaccess.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/uaccess.h>
 
 #include "tb.h"
 #include "sb_regs.h"

@@ -3,15 +3,15 @@
  * Copyright (c) 2014-2015 Hisilicon Limited.
  */
 
-#include <linux/cdev.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <peenux/cdev.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
 #include <asm/cacheflush.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
 #include "hns_dsaf_main.h"
 #include "hns_dsaf_ppe.h"

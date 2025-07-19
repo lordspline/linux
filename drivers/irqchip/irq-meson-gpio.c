@@ -8,13 +8,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqchip.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #define MAX_NUM_CHANNEL 64
 #define MAX_INPUT_MUX 256

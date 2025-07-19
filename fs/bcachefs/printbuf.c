@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: LGPL-2.1+
 /* Copyright (C) 2022 Kent Overstreet */
 
-#include <linux/bitmap.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <peenux/bitmap.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
 
 #include "printbuf.h"
 

@@ -7,9 +7,9 @@
  * resource counting etc..
  */
 
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/cmpxchg-emu.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
+#include <peenux/cmpxchg-emu.h>
 
 #if defined(CONFIG_GUSA_RB)
 #include <asm/cmpxchg-grb.h>

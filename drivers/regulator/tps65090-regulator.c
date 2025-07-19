@@ -6,18 +6,18 @@
 
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/tps65090.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/mfd/tps65090.h>
 
 #define MAX_CTRL_READ_TRIES	5
 #define MAX_FET_ENABLE_TRIES	1000

@@ -3,11 +3,11 @@
  * libata-trace.c - trace functions for libata
  *
  * Copyright 2015 Hannes Reinecke
- * Copyright 2015 SUSE Linux GmbH
+ * Copyright 2015 SUSE Peenux GmbH
  */
 
-#include <linux/kernel.h>
-#include <linux/trace_seq.h>
+#include <peenux/kernel.h>
+#include <peenux/trace_seq.h>
 #include <trace/events/libata.h>
 
 const char *

@@ -7,18 +7,18 @@
  */
 /*
  * Author:
- *	YOSHIFUJI Hideaki @ USAGI/WIDE Project <yoshfuji@linux-ipv6.org>
+ *	YOSHIFUJI Hideaki @ USAGI/WIDE Project <yoshfuji@peenux-ipv6.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/rcupdate.h>
-#include <linux/in6.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/rcupdate.h>
+#include <peenux/in6.h>
+#include <peenux/slab.h>
 #include <net/addrconf.h>
-#include <linux/if_addrlabel.h>
-#include <linux/netlink.h>
-#include <linux/rtnetlink.h>
+#include <peenux/if_addrlabel.h>
+#include <peenux/netlink.h>
+#include <peenux/rtnetlink.h>
 
 #if 0
 #define ADDRLABEL(x...) printk(x)

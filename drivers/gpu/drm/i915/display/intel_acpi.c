@@ -5,8 +5,8 @@
  * _DSM related code stolen from nouveau_acpi.c.
  */
 
-#include <linux/pci.h>
-#include <linux/acpi.h>
+#include <peenux/pci.h>
+#include <peenux/acpi.h>
 #include <acpi/video.h>
 
 #include <drm/drm_print.h>

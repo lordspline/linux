@@ -2,13 +2,13 @@
 #ifndef _FAT_H
 #define _FAT_H
 
-#include <linux/buffer_head.h>
-#include <linux/nls.h>
-#include <linux/hash.h>
-#include <linux/ratelimit.h>
-#include <linux/msdos_fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
+#include <peenux/buffer_head.h>
+#include <peenux/nls.h>
+#include <peenux/hash.h>
+#include <peenux/ratelimit.h>
+#include <peenux/msdos_fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
 
 /*
  * vfat shortname flags

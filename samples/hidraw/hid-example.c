@@ -10,10 +10,10 @@
  * applications using hidraw.
  */
 
-/* Linux */
-#include <linux/types.h>
-#include <linux/input.h>
-#include <linux/hidraw.h>
+/* Peenux */
+#include <peenux/types.h>
+#include <peenux/input.h>
+#include <peenux/hidraw.h>
 
 /*
  * Ugly hack to work around failing compilation on systems that don't

@@ -3,15 +3,15 @@
 // Copyright (c) 2021 Samuel Holland <samuel@sholland.org>
 //
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
 
-#include <linux/clk/sunxi-ng.h>
+#include <peenux/clk/sunxi-ng.h>
 
 #include "ccu_common.h"
 

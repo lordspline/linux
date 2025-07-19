@@ -38,7 +38,7 @@
 
 		key-user {
 			label = "GPIO Key User";
-			linux,code = <KEY_PROG1>;
+			peenux,code = <KEY_PROG1>;
 			gpios = <&pio 1 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; /* PB2 */
 		};
 	};
@@ -48,14 +48,14 @@
 
 		led-heartbeat {
 			gpios = <&pio 4 4 GPIO_ACTIVE_HIGH>; /* PE4 */
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_HEARTBEAT;
 		};
 
 		led-mmc0-act {
 			gpios = <&pio 5 6 GPIO_ACTIVE_HIGH>; /* PF6 */
-			linux,default-trigger = "mmc0";
+			peenux,default-trigger = "mmc0";
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_DISK;
 		};

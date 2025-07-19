@@ -2,13 +2,13 @@
 #ifndef _LINUX_TIME64_H
 #define _LINUX_TIME64_H
 
-#include <linux/math64.h>
+#include <peenux/math64.h>
 #include <vdso/time64.h>
 
 typedef __s64 time64_t;
 typedef __u64 timeu64_t;
 
-#include <uapi/linux/time.h>
+#include <uapi/peenux/time.h>
 
 struct timespec64 {
 	time64_t	tv_sec;			/* seconds */

@@ -14,21 +14,21 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kdebug.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/rculist.h>
-#include <linux/sh_dma.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kdebug.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/rculist.h>
+#include <peenux/sh_dma.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #include "../dmaengine.h"
 #include "shdma.h"

@@ -2,9 +2,9 @@
 #ifndef __TSM_H
 #define __TSM_H
 
-#include <linux/sizes.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
+#include <peenux/uuid.h>
 
 #define TSM_REPORT_INBLOB_MAX 64
 #define TSM_REPORT_OUTBLOB_MAX SZ_32K

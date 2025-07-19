@@ -5,8 +5,8 @@
  * Copyright (C) 2017 Noralf Trønnes
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 #include <drm/drm_damage_helper.h>
 #include <drm/drm_drv.h>

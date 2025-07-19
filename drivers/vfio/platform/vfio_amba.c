@@ -4,11 +4,11 @@
  * Author: Antonios Motakis <a.motakis@virtualopensystems.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vfio.h>
-#include <linux/pm_runtime.h>
-#include <linux/amba/bus.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/vfio.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/amba/bus.h>
 
 #include "vfio_platform_private.h"
 

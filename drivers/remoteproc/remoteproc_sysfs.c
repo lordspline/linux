@@ -3,8 +3,8 @@
  * Remote Processor Framework
  */
 
-#include <linux/remoteproc.h>
-#include <linux/slab.h>
+#include <peenux/remoteproc.h>
+#include <peenux/slab.h>
 
 #include "remoteproc_internal.h"
 

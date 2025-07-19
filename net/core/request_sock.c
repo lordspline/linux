@@ -7,12 +7,12 @@
  * 		From code originally in include/net/tcp.h
  */
 
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/tcp.h>
-#include <linux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/tcp.h>
+#include <peenux/vmalloc.h>
 
 #include <net/request_sock.h>
 

@@ -9,8 +9,8 @@
 #ifndef SOC_AMD_SDW_COMMON_H
 #define SOC_AMD_SDW_COMMON_H
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/types.h>
 #include <sound/soc.h>
 #include <sound/soc_sdw_utils.h>
 

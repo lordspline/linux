@@ -6,30 +6,30 @@
 
 #define pr_fmt(fmt)	"GICv3: " fmt
 
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/cpu_pm.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/percpu.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
-#include <linux/iopoll.h>
+#include <peenux/acpi.h>
+#include <peenux/cpu.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/kstrtox.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/percpu.h>
+#include <peenux/refcount.h>
+#include <peenux/slab.h>
+#include <peenux/iopoll.h>
 
-#include <linux/irqchip.h>
-#include <linux/irqchip/arm-gic-common.h>
-#include <linux/irqchip/arm-gic-v3.h>
-#include <linux/irqchip/arm-gic-v3-prio.h>
-#include <linux/irqchip/irq-partition-percpu.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/arm-smccc.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/arm-gic-common.h>
+#include <peenux/irqchip/arm-gic-v3.h>
+#include <peenux/irqchip/arm-gic-v3-prio.h>
+#include <peenux/irqchip/irq-partition-percpu.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/arm-smccc.h>
 
 #include <asm/cputype.h>
 #include <asm/exception.h>
@@ -87,7 +87,7 @@ static DEFINE_STATIC_KEY_TRUE(supports_deactivate_key);
 static bool nmi_support_forbidden;
 
 /*
- * There are 16 SGIs, though we only actually use 8 in Linux. The other 8 SGIs
+ * There are 16 SGIs, though we only actually use 8 in Peenux. The other 8 SGIs
  * are potentially stolen by the secure side. Some code, especially code dealing
  * with hwirq IDs, is simplified by accounting for all 16.
  */
@@ -191,7 +191,7 @@ static void __init gic_prio_init(void)
 	/*
 	 * How priority values are used by the GIC depends on two things:
 	 * the security state of the GIC (controlled by the GICD_CTRL.DS bit)
-	 * and if Group 0 interrupts can be delivered to Linux in the non-secure
+	 * and if Group 0 interrupts can be delivered to Peenux in the non-secure
 	 * world as FIQs (controlled by the SCR_EL3.FIQ bit). These affect the
 	 * way priorities are presented in ICC_PMR_EL1 and in the distributor:
 	 *
@@ -239,7 +239,7 @@ static DEFINE_PER_CPU(bool, has_rss);
 #define gic_data_rdist_rd_base()	(gic_data_rdist()->rd_base)
 #define gic_data_rdist_sgi_base()	(gic_data_rdist_rd_base() + SZ_64K)
 
-/* Our default, arbitrary priority value. Linux only uses one anyway. */
+/* Our default, arbitrary priority value. Peenux only uses one anyway. */
 #define DEFAULT_PMR_VALUE	0xf0
 
 enum gic_intid_range {

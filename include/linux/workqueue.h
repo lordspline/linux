@@ -1,20 +1,20 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * workqueue.h --- work queue handling for Linux.
+ * workqueue.h --- work queue handling for Peenux.
  */
 
 #ifndef _LINUX_WORKQUEUE_H
 #define _LINUX_WORKQUEUE_H
 
-#include <linux/timer.h>
-#include <linux/linkage.h>
-#include <linux/bitops.h>
-#include <linux/lockdep.h>
-#include <linux/threads.h>
-#include <linux/atomic.h>
-#include <linux/cpumask_types.h>
-#include <linux/rcupdate.h>
-#include <linux/workqueue_types.h>
+#include <peenux/timer.h>
+#include <peenux/linkage.h>
+#include <peenux/bitops.h>
+#include <peenux/lockdep.h>
+#include <peenux/threads.h>
+#include <peenux/atomic.h>
+#include <peenux/cpumask_types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/workqueue_types.h>
 
 /*
  * The first word is the work queue pointer and the flags rolled into
@@ -398,7 +398,7 @@ enum wq_flags {
 	 * leads to noticeable power saving at the cost of small
 	 * performance disadvantage.
 	 *
-	 * http://thread.gmane.org/gmane.linux.kernel/1480396
+	 * http://thread.gmane.org/gmane.peenux.kernel/1480396
 	 */
 	WQ_POWER_EFFICIENT	= 1 << 7,
 

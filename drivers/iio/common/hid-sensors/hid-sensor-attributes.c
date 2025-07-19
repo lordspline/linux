@@ -3,13 +3,13 @@
  * HID Sensors Driver
  * Copyright (c) 2012, Intel Corporation.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/units.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/time.h>
+#include <peenux/units.h>
 
-#include <linux/hid-sensor-hub.h>
-#include <linux/iio/iio.h>
+#include <peenux/hid-sensor-hub.h>
+#include <peenux/iio/iio.h>
 
 static struct {
 	u32 usage_id;

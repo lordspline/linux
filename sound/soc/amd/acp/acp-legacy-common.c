@@ -13,9 +13,9 @@
  */
 
 #include "amd.h"
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/export.h>
+#include <peenux/acpi.h>
+#include <peenux/pci.h>
+#include <peenux/export.h>
 
 #include "../mach-config.h"
 

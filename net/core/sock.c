@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -85,58 +85,58 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/unaligned.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/errqueue.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/poll.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/init.h>
-#include <linux/highmem.h>
-#include <linux/user_namespace.h>
-#include <linux/static_key.h>
-#include <linux/memcontrol.h>
-#include <linux/prefetch.h>
-#include <linux/compat.h>
-#include <linux/mroute.h>
-#include <linux/mroute6.h>
-#include <linux/icmpv6.h>
+#include <peenux/unaligned.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/errqueue.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/timer.h>
+#include <peenux/string.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/poll.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/init.h>
+#include <peenux/highmem.h>
+#include <peenux/user_namespace.h>
+#include <peenux/static_key.h>
+#include <peenux/memcontrol.h>
+#include <peenux/prefetch.h>
+#include <peenux/compat.h>
+#include <peenux/mroute.h>
+#include <peenux/mroute6.h>
+#include <peenux/icmpv6.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
-#include <linux/netdevice.h>
+#include <peenux/netdevice.h>
 #include <net/protocol.h>
-#include <linux/skbuff.h>
-#include <linux/skbuff_ref.h>
+#include <peenux/skbuff.h>
+#include <peenux/skbuff_ref.h>
 #include <net/net_namespace.h>
 #include <net/request_sock.h>
 #include <net/sock.h>
 #include <net/proto_memory.h>
-#include <linux/net_tstamp.h>
+#include <peenux/net_tstamp.h>
 #include <net/xfrm.h>
-#include <linux/ipsec.h>
+#include <peenux/ipsec.h>
 #include <net/cls_cgroup.h>
 #include <net/netprio_cgroup.h>
-#include <linux/sock_diag.h>
+#include <peenux/sock_diag.h>
 
-#include <linux/filter.h>
+#include <peenux/filter.h>
 #include <net/sock_reuseport.h>
 #include <net/bpf_sk_storage.h>
 
@@ -146,9 +146,9 @@
 #include <net/busy_poll.h>
 #include <net/phonet/phonet.h>
 
-#include <linux/ethtool.h>
+#include <peenux/ethtool.h>
 
-#include <uapi/linux/pidfd.h>
+#include <uapi/peenux/pidfd.h>
 
 #include "dev.h"
 

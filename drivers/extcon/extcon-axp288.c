@@ -7,20 +7,20 @@
  * Author: Ramakrishna Pallala <ramakrishna.pallala@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/notifier.h>
-#include <linux/extcon-provider.h>
-#include <linux/regmap.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/usb/role.h>
-#include <linux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/notifier.h>
+#include <peenux/extcon-provider.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/axp20x.h>
+#include <peenux/usb/role.h>
+#include <peenux/workqueue.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>

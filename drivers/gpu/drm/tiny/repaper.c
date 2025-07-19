@@ -13,13 +13,13 @@
  * https://github.com/repaper/gratis
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/sched/clock.h>
-#include <linux/spi/spi.h>
-#include <linux/thermal.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/sched/clock.h>
+#include <peenux/spi/spi.h>
+#include <peenux/thermal.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

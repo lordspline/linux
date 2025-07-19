@@ -7,12 +7,12 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_net.h>
+#include <peenux/platform_device.h>
 
 #include "stmmac_platform.h"
 

@@ -3,8 +3,8 @@
 #ifndef ADF_GEN4_TL_H
 #define ADF_GEN4_TL_H
 
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 struct adf_tl_hw_data;
 

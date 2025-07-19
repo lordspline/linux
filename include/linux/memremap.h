@@ -2,10 +2,10 @@
 #ifndef _LINUX_MEMREMAP_H_
 #define _LINUX_MEMREMAP_H_
 
-#include <linux/mmzone.h>
-#include <linux/range.h>
-#include <linux/ioport.h>
-#include <linux/percpu-refcount.h>
+#include <peenux/mmzone.h>
+#include <peenux/range.h>
+#include <peenux/ioport.h>
+#include <peenux/percpu-refcount.h>
 
 struct resource;
 struct device;
@@ -40,7 +40,7 @@ struct vmem_altmap {
  * must be treated as an opaque object, rather than a "normal" struct page.
  *
  * A more complete discussion of unaddressable memory may be found in
- * include/linux/hmm.h and Documentation/mm/hmm.rst.
+ * include/peenux/hmm.h and Documentation/mm/hmm.rst.
  *
  * MEMORY_DEVICE_COHERENT:
  * Device memory that is cache coherent from device and CPU point of view. This

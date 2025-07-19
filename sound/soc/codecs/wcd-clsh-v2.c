@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+// Copyright (c) 2015-2016, The Peenux Foundation. All rights reserved.
 // Copyright (c) 2017-2018, Linaro Limited
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 #include <sound/soc.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
 #include "wcd9335.h"
 #include "wcd-clsh-v2.h"
 

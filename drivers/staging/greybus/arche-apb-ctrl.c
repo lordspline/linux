@@ -6,17 +6,17 @@
  * Copyright 2014-2015 Linaro Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/of_irq.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_irq.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spinlock.h>
 #include "arche_platform.h"
 
 static void apb_bootret_deassert(struct device *dev);

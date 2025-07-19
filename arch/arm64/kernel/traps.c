@@ -6,29 +6,29 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/bug.h>
-#include <linux/context_tracking.h>
-#include <linux/signal.h>
-#include <linux/kallsyms.h>
-#include <linux/kprobes.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/hardirq.h>
-#include <linux/kdebug.h>
-#include <linux/module.h>
-#include <linux/kexec.h>
-#include <linux/delay.h>
-#include <linux/efi.h>
-#include <linux/init.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sizes.h>
-#include <linux/syscalls.h>
-#include <linux/mm_types.h>
-#include <linux/kasan.h>
-#include <linux/ubsan.h>
-#include <linux/cfi.h>
+#include <peenux/bug.h>
+#include <peenux/context_tracking.h>
+#include <peenux/signal.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kprobes.h>
+#include <peenux/spinlock.h>
+#include <peenux/uaccess.h>
+#include <peenux/hardirq.h>
+#include <peenux/kdebug.h>
+#include <peenux/module.h>
+#include <peenux/kexec.h>
+#include <peenux/delay.h>
+#include <peenux/efi.h>
+#include <peenux/init.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/sizes.h>
+#include <peenux/syscalls.h>
+#include <peenux/mm_types.h>
+#include <peenux/kasan.h>
+#include <peenux/ubsan.h>
+#include <peenux/cfi.h>
 
 #include <asm/atomic.h>
 #include <asm/bug.h>

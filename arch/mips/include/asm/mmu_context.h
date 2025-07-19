@@ -11,11 +11,11 @@
 #ifndef _ASM_MMU_CONTEXT_H
 #define _ASM_MMU_CONTEXT_H
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/mm_types.h>
-#include <linux/smp.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/mm_types.h>
+#include <peenux/smp.h>
+#include <peenux/slab.h>
 
 #include <asm/barrier.h>
 #include <asm/cacheflush.h>

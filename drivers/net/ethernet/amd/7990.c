@@ -13,26 +13,26 @@
  * most of a2025 and sunlance with the aim of merging them, so the
  * common code was pretty obvious.
  */
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/route.h>
-#include <linux/string.h>
-#include <linux/skbuff.h>
-#include <linux/pgtable.h>
+#include <peenux/crc32.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/in.h>
+#include <peenux/route.h>
+#include <peenux/string.h>
+#include <peenux/skbuff.h>
+#include <peenux/pgtable.h>
 #include <asm/irq.h>
 /* Used for the temporal inet entries and routing */
-#include <linux/socket.h>
-#include <linux/bitops.h>
+#include <peenux/socket.h>
+#include <peenux/bitops.h>
 
 #include <asm/io.h>
 #include <asm/dma.h>

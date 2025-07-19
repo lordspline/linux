@@ -4,27 +4,27 @@
  *
  * Copyright 2024 Analog Devices Inc.
  */
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/byteorder/generic.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
-#include <linux/util_macros.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/byteorder/generic.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/offload/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/units.h>
+#include <peenux/util_macros.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/buffer-dmaengine.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
 
 #define AD4000_READ_COMMAND	0x54
 #define AD4000_WRITE_COMMAND	0x14

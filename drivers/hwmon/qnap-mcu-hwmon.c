@@ -6,12 +6,12 @@
  * Copyright (C) 2024 Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/hwmon.h>
-#include <linux/mfd/qnap-mcu.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/thermal.h>
+#include <peenux/hwmon.h>
+#include <peenux/mfd/qnap-mcu.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/thermal.h>
 
 struct qnap_mcu_hwmon {
 	struct qnap_mcu *mcu;

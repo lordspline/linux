@@ -5,7 +5,7 @@
 #ifndef _ASM_INST_H
 #define _ASM_INST_H
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 #define LOONGARCH_INSN_NOP		0x03400000
 

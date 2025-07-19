@@ -3,8 +3,8 @@
  * PHY package support
  */
 
-#include <linux/of.h>
-#include <linux/phy.h>
+#include <peenux/of.h>
+#include <peenux/phy.h>
 
 #include "phylib.h"
 #include "phylib-internal.h"

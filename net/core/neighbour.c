@@ -13,17 +13,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/socket.h>
-#include <linux/netdevice.h>
-#include <linux/proc_fs.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/socket.h>
+#include <peenux/netdevice.h>
+#include <peenux/proc_fs.h>
 #ifdef CONFIG_SYSCTL
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 #endif
-#include <linux/times.h>
+#include <peenux/times.h>
 #include <net/net_namespace.h>
 #include <net/neighbour.h>
 #include <net/arp.h>
@@ -31,11 +31,11 @@
 #include <net/sock.h>
 #include <net/netevent.h>
 #include <net/netlink.h>
-#include <linux/rtnetlink.h>
-#include <linux/random.h>
-#include <linux/string.h>
-#include <linux/log2.h>
-#include <linux/inetdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/random.h>
+#include <peenux/string.h>
+#include <peenux/log2.h>
+#include <peenux/inetdevice.h>
 #include <net/addrconf.h>
 
 #include <trace/events/neigh.h>

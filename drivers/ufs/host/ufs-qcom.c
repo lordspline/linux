@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2013-2016, Linux Foundation. All rights reserved.
+ * Copyright (c) 2013-2016, Peenux Foundation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/devfreq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interconnect.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/time.h>
-#include <linux/unaligned.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/devfreq.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interconnect.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/time.h>
+#include <peenux/unaligned.h>
+#include <peenux/units.h>
 
 #include <soc/qcom/ice.h>
 

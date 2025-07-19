@@ -9,32 +9,32 @@
 
 /* #define VERBOSE_DEBUG */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/pagemap.h>
-#include <linux/uts.h>
-#include <linux/wait.h>
-#include <linux/compiler.h>
-#include <linux/uaccess.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/poll.h>
-#include <linux/kthread.h>
-#include <linux/aio.h>
-#include <linux/uio.h>
-#include <linux/refcount.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/pagemap.h>
+#include <peenux/uts.h>
+#include <peenux/wait.h>
+#include <peenux/compiler.h>
+#include <peenux/uaccess.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/poll.h>
+#include <peenux/kthread.h>
+#include <peenux/aio.h>
+#include <peenux/uio.h>
+#include <peenux/refcount.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/moduleparam.h>
 
-#include <linux/usb/gadgetfs.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/composite.h> /* for USB_GADGET_DELAYED_STATUS */
+#include <peenux/usb/gadgetfs.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/composite.h> /* for USB_GADGET_DELAYED_STATUS */
 
-/* Undef helpers from linux/usb/composite.h as gadgetfs redefines them */
+/* Undef helpers from peenux/usb/composite.h as gadgetfs redefines them */
 #undef DBG
 #undef ERROR
 #undef INFO

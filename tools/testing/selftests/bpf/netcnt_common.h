@@ -2,7 +2,7 @@
 #ifndef __NETCNT_COMMON_H
 #define __NETCNT_COMMON_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define MAX_PERCPU_PACKETS 32
 

@@ -10,11 +10,11 @@
 #ifndef __PDX86_X86_ANDROID_TABLETS_H
 #define __PDX86_X86_ANDROID_TABLETS_H
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio_keys.h>
-#include <linux/i2c.h>
-#include <linux/irqdomain_defs.h>
-#include <linux/spi/spi.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/i2c.h>
+#include <peenux/irqdomain_defs.h>
+#include <peenux/spi/spi.h>
 
 struct gpio_desc;
 struct gpiod_lookup_table;
@@ -22,7 +22,7 @@ struct platform_device_info;
 struct software_node;
 
 /*
- * Helpers to get Linux IRQ numbers given a description of the IRQ source
+ * Helpers to get Peenux IRQ numbers given a description of the IRQ source
  * (either IOAPIC index, or GPIO chip name + pin-number).
  */
 enum x86_acpi_irq_type {

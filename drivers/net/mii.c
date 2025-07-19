@@ -27,11 +27,11 @@
 
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
 
 static u32 mii_get_an(struct mii_if_info *mii, u16 addr)
 {

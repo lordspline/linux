@@ -10,23 +10,23 @@
  *  Based on the ia64, i386, and alpha versions.
  */
 
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/resume_user_mode.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/compat.h>
-#include <linux/elf.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/errno.h>
+#include <peenux/wait.h>
+#include <peenux/ptrace.h>
+#include <peenux/resume_user_mode.h>
+#include <peenux/unistd.h>
+#include <peenux/stddef.h>
+#include <peenux/compat.h>
+#include <peenux/elf.h>
 #include <asm/ucontext.h>
 #include <asm/rt_sigframe.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/cacheflush.h>
 #include <asm/asm-offsets.h>
 #include <asm/vdso.h>

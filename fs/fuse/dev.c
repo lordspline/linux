@@ -10,20 +10,20 @@
 #include "fuse_i.h"
 #include "fuse_dev_i.h"
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/sched/signal.h>
-#include <linux/uio.h>
-#include <linux/miscdevice.h>
-#include <linux/pagemap.h>
-#include <linux/file.h>
-#include <linux/slab.h>
-#include <linux/pipe_fs_i.h>
-#include <linux/swap.h>
-#include <linux/splice.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/poll.h>
+#include <peenux/sched/signal.h>
+#include <peenux/uio.h>
+#include <peenux/miscdevice.h>
+#include <peenux/pagemap.h>
+#include <peenux/file.h>
+#include <peenux/slab.h>
+#include <peenux/pipe_fs_i.h>
+#include <peenux/swap.h>
+#include <peenux/splice.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
 
 #define CREATE_TRACE_POINTS
 #include "fuse_trace.h"

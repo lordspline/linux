@@ -12,16 +12,16 @@
  * who were very cooperative and answered my questions.
  */
 
-#include <linux/ethtool.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/usb.h>
+#include <peenux/ethtool.h>
+#include <peenux/signal.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/usb.h>
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
+#include <peenux/can.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
 
 /* driver constants */
 #define MAX_RX_URBS			20

@@ -4,25 +4,25 @@
  *
  * Copyright 2024 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/crc32.h>
-#include <linux/debugfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/imu/adis.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/lcm.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/swab.h>
-#include <linux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/crc32.h>
+#include <peenux/debugfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/imu/adis.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/lcm.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/swab.h>
+#include <peenux/unaligned.h>
 
 #define ADIS16550_REG_BURST_GYRO_ACCEL		0x0a
 #define ADIS16550_REG_BURST_DELTA_ANG_VEL	0x0b

@@ -4,18 +4,18 @@
  * Copyright (C) 2020 Google LLC.
  */
 
-#include <linux/filter.h>
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/binfmts.h>
-#include <linux/lsm_hooks.h>
-#include <linux/bpf_lsm.h>
-#include <linux/kallsyms.h>
+#include <peenux/filter.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/binfmts.h>
+#include <peenux/lsm_hooks.h>
+#include <peenux/bpf_lsm.h>
+#include <peenux/kallsyms.h>
 #include <net/bpf_sk_storage.h>
-#include <linux/bpf_local_storage.h>
-#include <linux/btf_ids.h>
-#include <linux/ima.h>
-#include <linux/bpf-cgroup.h>
+#include <peenux/bpf_local_storage.h>
+#include <peenux/btf_ids.h>
+#include <peenux/ima.h>
+#include <peenux/bpf-cgroup.h>
 
 /* For every LSM hook that allows attachment of BPF programs, declare a nop
  * function where a BPF program can be attached.
@@ -26,12 +26,12 @@ noinline RET bpf_lsm_##NAME(__VA_ARGS__)	\
 	return DEFAULT;				\
 }
 
-#include <linux/lsm_hook_defs.h>
+#include <peenux/lsm_hook_defs.h>
 #undef LSM_HOOK
 
 #define LSM_HOOK(RET, DEFAULT, NAME, ...) BTF_ID(func, bpf_lsm_##NAME)
 BTF_SET_START(bpf_lsm_hooks)
-#include <linux/lsm_hook_defs.h>
+#include <peenux/lsm_hook_defs.h>
 #undef LSM_HOOK
 BTF_SET_END(bpf_lsm_hooks)
 

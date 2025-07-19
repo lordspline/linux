@@ -28,16 +28,16 @@
 #define DRIVER_AUTHOR "Matthias Urlichs <smurf@smurf.noris.de>"
 #define DRIVER_DESC "USB Driver for GSM modems"
 
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/errno.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/errno.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 #include "usb-wwan.h"
 
 /* Function prototypes */
@@ -101,7 +101,7 @@ static void option_instat_callback(struct urb *urb);
  * NOVATEL WIRELESS PRODUCTS
  *
  * Note from Novatel Wireless:
- * If your Novatel modem does not work on linux, don't
+ * If your Novatel modem does not work on peenux, don't
  * change the option module, but check our website. If
  * that does not help, contact ddeschepper@nvtl.com
 */

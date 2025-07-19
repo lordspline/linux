@@ -3,12 +3,12 @@
 
 #include <string.h>
 
-#include <linux/stddef.h>
-#include <linux/bpf.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/tcp.h>
-#include <linux/if.h>
+#include <peenux/stddef.h>
+#include <peenux/bpf.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/tcp.h>
+#include <peenux/if.h>
 #include <errno.h>
 
 #include <bpf/bpf_helpers.h>

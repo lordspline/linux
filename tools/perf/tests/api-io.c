@@ -11,8 +11,8 @@
 #include "debug.h"
 #include "tests.h"
 #include <api/io.h>
-#include <linux/kernel.h>
-#include <linux/zalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/zalloc.h>
 
 #define TEMPL "/tmp/perf-test-XXXXXX"
 

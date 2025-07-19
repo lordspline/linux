@@ -3,16 +3,16 @@
  * Copyright (C) 2017 Broadcom
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
 
 #define IPROC_CCA_INT_F_GPIOINT		BIT(0)
 #define IPROC_CCA_INT_STS		0x20

@@ -44,27 +44,27 @@
  * complicated and prevents the use of some automatic modes of operation.
  */
 
-#include <linux/bug.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/irqflags.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/major.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/spinlock.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/types.h>
+#include <peenux/bug.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/irqflags.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/major.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/spinlock.h>
+#include <peenux/sysrq.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/types.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include <asm/dec/interrupts.h>
 #include <asm/dec/ioasic_addrs.h>
@@ -73,7 +73,7 @@
 #include "zs.h"
 
 
-MODULE_AUTHOR("Maciej W. Rozycki <macro@linux-mips.org>");
+MODULE_AUTHOR("Maciej W. Rozycki <macro@peenux-mips.org>");
 MODULE_DESCRIPTION("DECstation Z85C30 serial driver");
 MODULE_LICENSE("GPL");
 

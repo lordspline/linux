@@ -3,11 +3,11 @@
  * Copyright (C) 2021 Emil Renner Berthing
  */
 
-#include <linux/mfd/tps65086.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
+#include <peenux/mfd/tps65086.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
 
 static int tps65086_restart_notify(struct sys_off_data *data)
 {

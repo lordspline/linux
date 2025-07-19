@@ -14,17 +14,17 @@
  * This driver is based on dw_dmac and amba-pl08x drivers.
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_dma.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_dma.h>
+#include <peenux/overflow.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "dmaengine.h"
 

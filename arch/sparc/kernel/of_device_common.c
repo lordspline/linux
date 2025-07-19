@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/mod_devicetable.h>
-#include <linux/errno.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/errno.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 #include "of_device_common.h"
 

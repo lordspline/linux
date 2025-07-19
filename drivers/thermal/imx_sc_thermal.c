@@ -4,13 +4,13 @@
  */
 
 #include <dt-bindings/firmware/imx/rsrc.h>
-#include <linux/err.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
+#include <peenux/err.h>
+#include <peenux/firmware/imx/sci.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/thermal.h>
 
 #include "thermal_hwmon.h"
 

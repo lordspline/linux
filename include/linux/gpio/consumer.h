@@ -2,9 +2,9 @@
 #ifndef __LINUX_GPIO_CONSUMER_H
 #define __LINUX_GPIO_CONSUMER_H
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/types.h>
 
 struct acpi_device;
 struct device;
@@ -185,8 +185,8 @@ bool gpiod_is_equal(struct gpio_desc *desc, struct gpio_desc *other);
 
 #else /* CONFIG_GPIOLIB */
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
 
 static inline int gpiod_count(struct device *dev, const char *con_id)
 {
@@ -564,7 +564,7 @@ int gpiod_enable_hw_timestamp_ns(struct gpio_desc *desc, unsigned long flags);
 int gpiod_disable_hw_timestamp_ns(struct gpio_desc *desc, unsigned long flags);
 #else
 
-#include <linux/bug.h>
+#include <peenux/bug.h>
 
 static inline int gpiod_enable_hw_timestamp_ns(struct gpio_desc *desc,
 					       unsigned long flags)

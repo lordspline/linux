@@ -6,10 +6,10 @@
  * Copyright (C) 2019, Intel Corporation
  */
 
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/ktime.h>
 
 #include "tb.h"
 

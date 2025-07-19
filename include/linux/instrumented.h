@@ -7,11 +7,11 @@
 #ifndef _LINUX_INSTRUMENTED_H
 #define _LINUX_INSTRUMENTED_H
 
-#include <linux/compiler.h>
-#include <linux/kasan-checks.h>
-#include <linux/kcsan-checks.h>
-#include <linux/kmsan-checks.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/kasan-checks.h>
+#include <peenux/kcsan-checks.h>
+#include <peenux/kmsan-checks.h>
+#include <peenux/types.h>
 
 /**
  * instrument_read - instrument regular read access

@@ -63,10 +63,10 @@ CC32FLAGSREMOVE += -fno-stack-clash-protection
 # parsing, even when -fno-stack-protector is passed afterwards.
 CC32FLAGSREMOVE += -mstack-protector-guard%
 endif
-LD32FLAGS := -Wl,-soname=linux-vdso32.so.1
+LD32FLAGS := -Wl,-soname=peenux-vdso32.so.1
 AS32FLAGS := -D__VDSO32__
 
-LD64FLAGS := -Wl,-soname=linux-vdso64.so.1
+LD64FLAGS := -Wl,-soname=peenux-vdso64.so.1
 AS64FLAGS := -D__VDSO64__
 
 targets += vdso32.lds

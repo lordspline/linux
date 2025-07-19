@@ -6,8 +6,8 @@
 #ifndef _XE_DEVCOREDUMP_TYPES_H_
 #define _XE_DEVCOREDUMP_TYPES_H_
 
-#include <linux/ktime.h>
-#include <linux/mutex.h>
+#include <peenux/ktime.h>
+#include <peenux/mutex.h>
 
 #include "xe_hw_engine_types.h"
 

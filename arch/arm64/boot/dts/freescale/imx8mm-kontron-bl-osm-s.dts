@@ -29,7 +29,7 @@
 		led1 {
 			label = "led1";
 			gpios = <&gpio1 5 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 
 		led2 {
@@ -202,7 +202,7 @@
 };
 
 &uart2 {
-	linux,rs485-enabled-at-boot-time;
+	peenux,rs485-enabled-at-boot-time;
 	uart-has-rtscts;
 	status = "okay";
 };

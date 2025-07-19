@@ -9,10 +9,10 @@
  *  Copyright (C) 2007 IBM Corporation.
  */
 
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/init.h>
+#include <peenux/kobject.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
 #include <asm/machdep.h>
 
 #include "pseries.h"

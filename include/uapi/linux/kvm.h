@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef __LINUX_KVM_H
 #define __LINUX_KVM_H
 
@@ -8,10 +8,10 @@
  * Note: you must update KVM_API_VERSION if you change this interface.
  */
 
-#include <linux/const.h>
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/ioctl.h>
+#include <peenux/const.h>
+#include <peenux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/ioctl.h>
 #include <asm/kvm.h>
 
 #define KVM_API_VERSION 12
@@ -46,7 +46,7 @@ struct kvm_userspace_memory_region2 {
 /*
  * The bit 0 ~ bit 15 of kvm_userspace_memory_region::flags are visible for
  * userspace, other bits are reserved for kvm internal use which are defined
- * in include/linux/kvm_host.h.
+ * in include/peenux/kvm_host.h.
  */
 #define KVM_MEM_LOG_DIRTY_PAGES	(1UL << 0)
 #define KVM_MEM_READONLY	(1UL << 1)

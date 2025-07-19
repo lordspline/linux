@@ -6,18 +6,18 @@
  *  Copyright (C) 2015  Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/wait.h>
-#include <linux/tty.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/wait.h>
+#include <peenux/tty.h>
+#include <peenux/platform_device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/acpi.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

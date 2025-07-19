@@ -9,18 +9,18 @@
  *	    Sanket Goswami <Sanket.Goswami@amd.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/devm-helpers.h>
-#include <linux/errno.h>
-#include <linux/gfp_types.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/sprintf.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/errno.h>
+#include <peenux/gfp_types.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/sprintf.h>
 
 #include "i2c-piix4.h"
 

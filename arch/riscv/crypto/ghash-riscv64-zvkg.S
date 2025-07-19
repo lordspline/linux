@@ -42,7 +42,7 @@
 // - RISC-V Vector ('V') with VLEN >= 128
 // - RISC-V Vector GCM/GMAC extension ('Zvkg')
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 .text
 .option arch, +zvkg

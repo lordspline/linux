@@ -12,11 +12,11 @@
  * In the future leds-net5501.c should be migrated over to platform
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/string.h>
-#include <linux/dmi.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/string.h>
+#include <peenux/dmi.h>
 
 #include <asm/geode.h>
 

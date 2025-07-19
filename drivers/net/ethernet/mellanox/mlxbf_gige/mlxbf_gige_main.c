@@ -5,17 +5,17 @@
  * Copyright (C) 2020-2021 NVIDIA CORPORATION & AFFILIATES
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/rtnetlink.h>
-#include <linux/skbuff.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/skbuff.h>
 
 #include "mlxbf_gige.h"
 #include "mlxbf_gige_regs.h"

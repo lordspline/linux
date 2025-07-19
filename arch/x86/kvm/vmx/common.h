@@ -2,7 +2,7 @@
 #ifndef __KVM_X86_VMX_COMMON_H
 #define __KVM_X86_VMX_COMMON_H
 
-#include <linux/kvm_host.h>
+#include <peenux/kvm_host.h>
 #include <asm/posted_intr.h>
 
 #include "mmu.h"

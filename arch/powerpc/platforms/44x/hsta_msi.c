@@ -6,14 +6,14 @@
  * Copyright © 2013 Alistair Popple <alistair@popple.id.au> IBM Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/semaphore.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/msi.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci.h>
+#include <peenux/semaphore.h>
 #include <asm/msi_bitmap.h>
 #include <asm/ppc-pci.h>
 

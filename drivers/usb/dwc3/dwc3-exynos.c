@@ -8,14 +8,14 @@
  * Author: Anton Tikhomirov <av.tikhomirov@samsung.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/regulator/consumer.h>
 
 #define DWC3_EXYNOS_MAX_CLOCKS	4
 

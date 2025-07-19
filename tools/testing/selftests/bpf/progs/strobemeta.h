@@ -4,10 +4,10 @@
 #include <stdint.h>
 #include <stddef.h>
 #include <stdbool.h>
-#include <linux/bpf.h>
-#include <linux/ptrace.h>
-#include <linux/sched.h>
-#include <linux/types.h>
+#include <peenux/bpf.h>
+#include <peenux/ptrace.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
 #include <bpf/bpf_helpers.h>
 
 #include "bpf_compiler.h"

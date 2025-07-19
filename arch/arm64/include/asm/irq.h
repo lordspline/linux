@@ -4,7 +4,7 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/cpumask.h>
+#include <peenux/cpumask.h>
 
 #include <asm-generic/irq.h>
 

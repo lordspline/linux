@@ -9,12 +9,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/types.h>
-#include <linux/acpi.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/uaccess.h>
 
 #define ACPI_ATLAS_NAME		"Atlas ACPI"
 #define ACPI_ATLAS_CLASS	"Atlas"

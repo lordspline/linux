@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
-  File: linux/xattr.h
+  File: peenux/xattr.h
 
   Extended attributes handling.
 
@@ -12,12 +12,12 @@
 #define _LINUX_XATTR_H
 
 
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/user_namespace.h>
-#include <uapi/linux/xattr.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/user_namespace.h>
+#include <uapi/peenux/xattr.h>
 
 /* List of all open_how "versions". */
 #define XATTR_ARGS_SIZE_VER0	16 /* sizeof first published struct */

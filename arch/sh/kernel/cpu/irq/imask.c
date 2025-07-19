@@ -8,18 +8,18 @@
  *
  */
 /* NOTE: Will not work on level 15 */
-#include <linux/ptrace.h>
-#include <linux/errno.h>
-#include <linux/kernel_stat.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/spinlock.h>
-#include <linux/cache.h>
-#include <linux/irq.h>
-#include <linux/bitmap.h>
+#include <peenux/ptrace.h>
+#include <peenux/errno.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/spinlock.h>
+#include <peenux/cache.h>
+#include <peenux/irq.h>
+#include <peenux/bitmap.h>
 #include <asm/irq.h>
 
 /* Bitmap of IRQ masked */

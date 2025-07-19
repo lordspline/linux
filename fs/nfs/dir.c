@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/nfs/dir.c
+ *  peenux/fs/nfs/dir.c
  *
  *  Copyright (C) 1992  Rick Sladkey
  *
@@ -18,28 +18,28 @@
  *  6 Jun 1999	Cache readdir lookups in the page cache. -DaveM
  */
 
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/time.h>
-#include <linux/errno.h>
-#include <linux/stat.h>
-#include <linux/fcntl.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_mount.h>
-#include <linux/pagemap.h>
-#include <linux/pagevec.h>
-#include <linux/namei.h>
-#include <linux/mount.h>
-#include <linux/swap.h>
-#include <linux/sched.h>
-#include <linux/kmemleak.h>
-#include <linux/xattr.h>
-#include <linux/hash.h>
+#include <peenux/compat.h>
+#include <peenux/module.h>
+#include <peenux/time.h>
+#include <peenux/errno.h>
+#include <peenux/stat.h>
+#include <peenux/fcntl.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_mount.h>
+#include <peenux/pagemap.h>
+#include <peenux/pagevec.h>
+#include <peenux/namei.h>
+#include <peenux/mount.h>
+#include <peenux/swap.h>
+#include <peenux/sched.h>
+#include <peenux/kmemleak.h>
+#include <peenux/xattr.h>
+#include <peenux/hash.h>
 
 #include "delegation.h"
 #include "iostat.h"
@@ -2690,7 +2690,7 @@ static bool nfs_rename_is_unsafe_cross_dir(struct dentry *old_dentry,
 
 /*
  * RENAME
- * FIXME: Some nfsds, like the Linux user space nfsd, may generate a
+ * FIXME: Some nfsds, like the Peenux user space nfsd, may generate a
  * different file handle for the same inode after a rename (e.g. when
  * moving to a different directory). A fail-safe method to do so would
  * be to look up old_dir/old_name, create a link to new_dir/new_name and

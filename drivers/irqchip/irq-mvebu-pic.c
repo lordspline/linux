@@ -9,16 +9,16 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
 
 #define PIC_CAUSE	       0x0
 #define PIC_MASK	       0x4

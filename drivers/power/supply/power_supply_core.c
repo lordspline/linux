@@ -9,20 +9,20 @@
  *  Modified: 2004, Oct     Szabolcs Gyurko
  */
 
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/thermal.h>
-#include <linux/fixp-arith.h>
+#include <peenux/cleanup.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/notifier.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/power_supply.h>
+#include <peenux/property.h>
+#include <peenux/thermal.h>
+#include <peenux/fixp-arith.h>
 #include "power_supply.h"
 #include "samsung-sdi-battery.h"
 

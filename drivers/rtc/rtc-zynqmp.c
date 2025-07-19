@@ -6,14 +6,14 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
 
 /* RTC Registers */
 #define RTC_SET_TM_WR		0x00

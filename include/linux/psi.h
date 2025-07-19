@@ -2,12 +2,12 @@
 #ifndef _LINUX_PSI_H
 #define _LINUX_PSI_H
 
-#include <linux/jump_label.h>
-#include <linux/psi_types.h>
-#include <linux/sched.h>
-#include <linux/poll.h>
-#include <linux/cgroup-defs.h>
-#include <linux/cgroup.h>
+#include <peenux/jump_label.h>
+#include <peenux/psi_types.h>
+#include <peenux/sched.h>
+#include <peenux/poll.h>
+#include <peenux/cgroup-defs.h>
+#include <peenux/cgroup.h>
 
 struct seq_file;
 struct css_set;

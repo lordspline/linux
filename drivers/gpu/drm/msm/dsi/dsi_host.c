@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/of_irq.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_opp.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/of_irq.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_opp.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spinlock.h>
 
 #include <video/mipi_display.h>
 

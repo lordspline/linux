@@ -10,9 +10,9 @@
 #ifndef LINUX_OPAL_H
 #define LINUX_OPAL_H
 
-#include <uapi/linux/sed-opal.h>
-#include <linux/compiler_types.h>
-#include <linux/types.h>
+#include <uapi/peenux/sed-opal.h>
+#include <peenux/compiler_types.h>
+#include <peenux/types.h>
 
 struct opal_dev;
 

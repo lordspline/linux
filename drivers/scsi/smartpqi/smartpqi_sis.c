@@ -9,12 +9,12 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
 #include <scsi/scsi_device.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include "smartpqi.h"
 #include "smartpqi_sis.h"
 

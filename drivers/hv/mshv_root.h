@@ -6,16 +6,16 @@
 #ifndef _MSHV_ROOT_H_
 #define _MSHV_ROOT_H_
 
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/semaphore.h>
-#include <linux/sched.h>
-#include <linux/srcu.h>
-#include <linux/wait.h>
-#include <linux/hashtable.h>
-#include <linux/dev_printk.h>
-#include <linux/build_bug.h>
-#include <uapi/linux/mshv.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/semaphore.h>
+#include <peenux/sched.h>
+#include <peenux/srcu.h>
+#include <peenux/wait.h>
+#include <peenux/hashtable.h>
+#include <peenux/dev_printk.h>
+#include <peenux/build_bug.h>
+#include <uapi/peenux/mshv.h>
 
 /*
  * Hypervisor must be between these version numbers (inclusive)

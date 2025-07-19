@@ -2,12 +2,12 @@
 #ifndef __GOODIX_H__
 #define __GOODIX_H__
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/regulator/consumer.h>
 
 /* Register defines */
 #define GOODIX_REG_MISCTL_DSP_CTL		0x4010

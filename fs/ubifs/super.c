@@ -14,16 +14,16 @@
  * corresponding subsystems, but most of it is here.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/kthread.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/seq_file.h>
-#include <linux/math64.h>
-#include <linux/writeback.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/ctype.h>
+#include <peenux/kthread.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/seq_file.h>
+#include <peenux/math64.h>
+#include <peenux/writeback.h>
 #include "ubifs.h"
 
 static int ubifs_default_version_set(const char *val, const struct kernel_param *kp)
@@ -287,7 +287,7 @@ static void ubifs_free_inode(struct inode *inode)
 }
 
 /*
- * Note, Linux write-back code calls this without 'i_mutex'.
+ * Note, Peenux write-back code calls this without 'i_mutex'.
  */
 static int ubifs_write_inode(struct inode *inode, struct writeback_control *wbc)
 {

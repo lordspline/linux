@@ -6,8 +6,8 @@
 #ifndef __KSMBD_IDA_MANAGEMENT_H__
 #define __KSMBD_IDA_MANAGEMENT_H__
 
-#include <linux/slab.h>
-#include <linux/idr.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
 
 /*
  * 2.2.1.6.7 TID Generation

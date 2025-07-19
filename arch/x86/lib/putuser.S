@@ -11,9 +11,9 @@
  * return an error value in addition to the "real"
  * return value.
  */
-#include <linux/export.h>
-#include <linux/linkage.h>
-#include <linux/objtool.h>
+#include <peenux/export.h>
+#include <peenux/linkage.h>
+#include <peenux/objtool.h>
 #include <asm/thread_info.h>
 #include <asm/errno.h>
 #include <asm/asm.h>

@@ -7,17 +7,17 @@
  * maximum 255 bytes at a time. If a larger transfer is attempted, error code
  * (-EINVAL) is returned.
  */
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
 
 #define SCL_WAIT_TIMEOUT_NS 25000000
 #define I2C_XFER_TIMEOUT    (msecs_to_jiffies(250))

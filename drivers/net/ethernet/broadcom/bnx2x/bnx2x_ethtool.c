@@ -19,11 +19,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/crc32.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/crc32.h>
 #include "bnx2x.h"
 #include "bnx2x_cmn.h"
 #include "bnx2x_dump.h"

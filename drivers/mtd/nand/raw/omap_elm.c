@@ -7,14 +7,14 @@
 
 #define DRIVER_NAME	"omap-elm"
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/sched.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/elm.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/sched.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_data/elm.h>
 
 #define ELM_SYSCONFIG			0x010
 #define ELM_IRQSTATUS			0x018

@@ -18,9 +18,9 @@
  |    other processes using the emulator while swapping is in progress.      |
  +---------------------------------------------------------------------------*/
 
-#include <linux/stddef.h>
+#include <peenux/stddef.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/vm86.h>
 
 #include "fpu_system.h"

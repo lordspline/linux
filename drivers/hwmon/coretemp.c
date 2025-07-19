@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * coretemp.c - Linux kernel module for hardware monitoring
+ * coretemp.c - Peenux kernel module for hardware monitoring
  *
  * Copyright (C) 2007 Rudolf Marek <r.marek@assembler.cz>
  *
@@ -9,25 +9,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/hwmon.h>
-#include <linux/sysfs.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/platform_device.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/hwmon.h>
+#include <peenux/sysfs.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/platform_device.h>
+#include <peenux/cpu.h>
+#include <peenux/smp.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pci.h>
 #include <asm/msr.h>
 #include <asm/processor.h>
 #include <asm/cpu_device_id.h>
-#include <linux/sched/isolation.h>
+#include <peenux/sched/isolation.h>
 
 #define DRVNAME	"coretemp"
 

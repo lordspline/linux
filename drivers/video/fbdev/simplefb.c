@@ -5,28 +5,28 @@
  * Copyright (c) 2013, Stephen Warren
  *
  * Based on q40fb.c, which was:
- * Copyright (C) 2001 Richard Zidlicky <rz@linux-m68k.org>
+ * Copyright (C) 2001 Richard Zidlicky <rz@peenux-m68k.org>
  *
  * Also based on offb.c, which was:
  * Copyright (C) 1997 Geert Uytterhoeven
  * Copyright (C) 1996 Paul Mackerras
  */
 
-#include <linux/aperture.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_data/simplefb.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_clk.h>
-#include <linux/of_platform.h>
-#include <linux/parser.h>
-#include <linux/pm_domain.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/aperture.h>
+#include <peenux/errno.h>
+#include <peenux/fb.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/simplefb.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_clk.h>
+#include <peenux/of_platform.h>
+#include <peenux/parser.h>
+#include <peenux/pm_domain.h>
+#include <peenux/regulator/consumer.h>
 
 static const struct fb_fix_screeninfo simplefb_fix = {
 	.id		= "simple",

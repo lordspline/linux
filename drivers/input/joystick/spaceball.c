@@ -8,15 +8,15 @@
  */
 
 /*
- * SpaceTec SpaceBall 2003/3003/4000 FLX driver for Linux
+ * SpaceTec SpaceBall 2003/3003/4000 FLX driver for Peenux
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/serio.h>
+#include <peenux/unaligned.h>
 
 #define DRIVER_DESC	"SpaceTec SpaceBall 2003/3003/4000 FLX driver"
 

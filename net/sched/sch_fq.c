@@ -30,20 +30,20 @@
  *  or SLAB cache will reuse socket for another flow)
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/string.h>
-#include <linux/in.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/rbtree.h>
-#include <linux/hash.h>
-#include <linux/prefetch.h>
-#include <linux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/string.h>
+#include <peenux/in.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/rbtree.h>
+#include <peenux/hash.h>
+#include <peenux/prefetch.h>
+#include <peenux/vmalloc.h>
 #include <net/netlink.h>
 #include <net/pkt_sched.h>
 #include <net/sock.h>

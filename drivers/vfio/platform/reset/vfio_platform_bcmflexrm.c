@@ -8,12 +8,12 @@
  * to VFIO platform.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "../vfio_platform_private.h"
 

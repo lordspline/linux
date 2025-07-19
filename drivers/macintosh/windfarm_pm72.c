@@ -5,12 +5,12 @@
  *
  * Copyright (C) 2012 Benjamin Herrenschmidt, IBM Corp.
  */
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
 
 #include <asm/smu.h>
 

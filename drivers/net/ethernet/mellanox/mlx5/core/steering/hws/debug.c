@@ -1,10 +1,10 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /* Copyright (c) 2024 NVIDIA Corporation & Affiliates */
 
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
-#include <linux/version.h>
+#include <peenux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/seq_file.h>
+#include <peenux/version.h>
 #include "internal.h"
 
 static int

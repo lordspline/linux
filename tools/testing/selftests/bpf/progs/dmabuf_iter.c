@@ -4,7 +4,7 @@
 #include <bpf/bpf_core_read.h>
 #include <bpf/bpf_helpers.h>
 
-/* From uapi/linux/dma-buf.h */
+/* From uapi/peenux/dma-buf.h */
 #define DMA_BUF_NAME_LEN 32
 
 char _license[] SEC("license") = "GPL";

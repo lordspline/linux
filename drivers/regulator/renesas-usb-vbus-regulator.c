@@ -5,14 +5,14 @@
 // Copyright (C) 2024 Renesas Electronics Corporation
 //
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
 
 static const struct regulator_ops rzg2l_usb_vbus_reg_ops = {
 	.enable     = regulator_enable_regmap,

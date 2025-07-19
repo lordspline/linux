@@ -10,11 +10,11 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/bitfield.h>
-#include <linux/kasan-enabled.h>
-#include <linux/page-flags.h>
-#include <linux/sched.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/kasan-enabled.h>
+#include <peenux/page-flags.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
 
 #include <asm/pgtable-types.h>
 

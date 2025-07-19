@@ -2,10 +2,10 @@
 #ifndef _LINUX_TTY_BUFFER_H
 #define _LINUX_TTY_BUFFER_H
 
-#include <linux/atomic.h>
-#include <linux/llist.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/llist.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
 
 struct tty_buffer {
 	union {

@@ -9,17 +9,17 @@
  * Author: Luca Ceresoli <luca.ceresoli@bootlin.com>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mfd/max77620.h>
-#include <linux/mfd/max77714.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/watchdog.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mfd/max77620.h>
+#include <peenux/mfd/max77714.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/watchdog.h>
 
 static bool nowayout = WATCHDOG_NOWAYOUT;
 

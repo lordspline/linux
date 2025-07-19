@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/bitmap.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
+#include <peenux/bitmap.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
 
 /*
  * Common helper for find_next_bit() function family

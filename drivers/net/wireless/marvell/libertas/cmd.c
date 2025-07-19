@@ -4,12 +4,12 @@
  * It prepares command and sends it to firmware when it is ready.
  */
 
-#include <linux/hardirq.h>
-#include <linux/kfifo.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/if_arp.h>
-#include <linux/export.h>
+#include <peenux/hardirq.h>
+#include <peenux/kfifo.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/if_arp.h>
+#include <peenux/export.h>
 
 #include "decl.h"
 #include "cfg.h"

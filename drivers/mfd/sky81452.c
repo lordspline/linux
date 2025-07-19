@@ -6,15 +6,15 @@
  * Author : Gyungoh Yoo <jack.yoo@skyworksinc.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/sky81452.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/sky81452.h>
 
 static const struct regmap_config sky81452_config = {
 	.reg_bits = 8,

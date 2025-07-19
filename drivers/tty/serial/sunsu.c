@@ -16,36 +16,36 @@
  *   David S. Miller (davem@davemloft.net), 2002-Jul-29
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/circ_buf.h>
-#include <linux/serial.h>
-#include <linux/sysrq.h>
-#include <linux/console.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/major.h>
+#include <peenux/string.h>
+#include <peenux/ptrace.h>
+#include <peenux/ioport.h>
+#include <peenux/circ_buf.h>
+#include <peenux/serial.h>
+#include <peenux/sysrq.h>
+#include <peenux/console.h>
+#include <peenux/slab.h>
 #ifdef CONFIG_SERIO
-#include <linux/serio.h>
+#include <peenux/serio.h>
 #endif
-#include <linux/serial_reg.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/serial_reg.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/irq.h>
 #include <asm/setup.h>
 
-#include <linux/serial_core.h>
-#include <linux/sunserialcore.h>
+#include <peenux/serial_core.h>
+#include <peenux/sunserialcore.h>
 
 /* We are on a NS PC87303 clocked with 24.0 MHz, which results
  * in a UART clock of 1.8462 MHz.

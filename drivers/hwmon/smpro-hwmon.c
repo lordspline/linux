@@ -4,16 +4,16 @@
  *
  * Copyright (c) 2022, Ampere Computing LLC
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
 /* Logical Power Sensor Registers */
 #define SOC_TEMP		0x10

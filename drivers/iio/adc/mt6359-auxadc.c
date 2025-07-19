@@ -7,19 +7,19 @@
  * Author: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
  */
 
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
-#include <linux/mfd/mt6397/core.h>
+#include <peenux/mfd/mt6397/core.h>
 
 #include <dt-bindings/iio/adc/mediatek,mt6357-auxadc.h>
 #include <dt-bindings/iio/adc/mediatek,mt6358-auxadc.h>

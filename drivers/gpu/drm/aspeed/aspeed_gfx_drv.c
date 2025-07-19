@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright 2018 IBM Corporation
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/irq.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/irq.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

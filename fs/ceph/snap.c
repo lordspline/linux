@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/fs.h>
-#include <linux/sort.h>
-#include <linux/slab.h>
-#include <linux/iversion.h>
+#include <peenux/fs.h>
+#include <peenux/sort.h>
+#include <peenux/slab.h>
+#include <peenux/iversion.h>
 #include "super.h"
 #include "mds_client.h"
-#include <linux/ceph/decode.h>
+#include <peenux/ceph/decode.h>
 
 /* unused map expires after 5 minutes */
 #define CEPH_SNAPID_MAP_TIMEOUT	(5 * 60 * HZ)

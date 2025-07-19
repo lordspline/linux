@@ -7,22 +7,22 @@
  * Copyright (C) Shaohua Li (shaohua.li@intel.com)
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/build_bug.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/errno.h>
-#include <linux/pm.h>
-#include <linux/init.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/time.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/build_bug.h>
+#include <peenux/kernel.h>
+#include <peenux/limits.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pci.h>
+#include <peenux/pci_regs.h>
+#include <peenux/errno.h>
+#include <peenux/pm.h>
+#include <peenux/init.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
 
 #include "../pci.h"
 

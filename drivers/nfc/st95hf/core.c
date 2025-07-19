@@ -6,18 +6,18 @@
  * Copyright (C) 2015 STMicroelectronics Pvt. Ltd. All rights reserved.
  */
 
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/nfc.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/wait.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/nfc.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/wait.h>
 #include <net/nfc/digital.h>
 #include <net/nfc/nfc.h>
 

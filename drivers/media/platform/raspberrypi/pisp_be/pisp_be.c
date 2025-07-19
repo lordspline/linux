@@ -4,20 +4,20 @@
  * Copyright (c) 2021-2024 Raspberry Pi Limited.
  *
  */
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/lockdep.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-dma-contig.h>
 #include <media/videobuf2-vmalloc.h>
 
-#include <uapi/linux/media/raspberrypi/pisp_be_config.h>
+#include <uapi/peenux/media/raspberrypi/pisp_be_config.h>
 
 #include "pisp_be_formats.h"
 

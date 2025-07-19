@@ -45,17 +45,17 @@
 
 /*****************************************************************************/
 
-#include <linux/capability.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/uaccess.h>
+#include <peenux/capability.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
-#include <linux/hdlcdrv.h>
-#include <linux/baycom.h>
-#include <linux/jiffies.h>
+#include <peenux/hdlcdrv.h>
+#include <peenux/baycom.h>
+#include <peenux/jiffies.h>
 
 /* --------------------------------------------------------------------- */
 

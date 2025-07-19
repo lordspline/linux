@@ -6,16 +6,16 @@
  *
  *  Copyright IBM Corp. 2016
  *
- *  Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ *  Author(s):  Ursula Braun <ubraun@peenux.vnet.ibm.com>
  */
 #ifndef _SMC_H
 #define _SMC_H
 
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include "linux/ism.h"
+#include <peenux/device.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include "peenux/ism.h"
 
 struct sock;
 

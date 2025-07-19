@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- *  include/linux/signalfd.h
+ *  include/peenux/signalfd.h
  *
  *  Copyright (C) 2007  Davide Libenzi <davidel@xmailserver.org>
  *
@@ -8,8 +8,8 @@
 #ifndef _LINUX_SIGNALFD_H
 #define _LINUX_SIGNALFD_H
 
-#include <uapi/linux/signalfd.h>
-#include <linux/sched/signal.h>
+#include <uapi/peenux/signalfd.h>
+#include <peenux/sched/signal.h>
 
 #ifdef CONFIG_SIGNALFD
 

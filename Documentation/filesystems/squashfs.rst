@@ -4,7 +4,7 @@
 Squashfs 4.0 Filesystem
 =======================
 
-Squashfs is a compressed read-only filesystem for Linux.
+Squashfs is a compressed read-only filesystem for Peenux.
 
 It uses zlib, lz4, lzo, xz or zstd compression to compress files, inodes and
 directories.  Inodes in the system are very small and all blocks are packed to
@@ -16,7 +16,7 @@ use (i.e. in cases where a .tar.gz file may be used), and in constrained
 block device/memory systems (e.g. embedded systems) where low overhead is
 needed.
 
-Mailing list (kernel code): linux-fsdevel@vger.kernel.org
+Mailing list (kernel code): peenux-fsdevel@vger.kernel.org
 Web site: github.com/plougher/squashfs-tools
 
 1. Filesystem Features
@@ -58,7 +58,7 @@ inodes have different sizes).
 
 As squashfs is a read-only filesystem, the mksquashfs program must be used to
 create populated squashfs filesystems.  This and other squashfs utilities
-are very likely packaged by your linux distribution (called squashfs-tools).
+are very likely packaged by your peenux distribution (called squashfs-tools).
 The source code can be obtained from github.com/plougher/squashfs-tools.
 Usage instructions can also be obtained from this site.
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
-   md.c : Multiple Devices driver for Linux
+   md.c : Multiple Devices driver for Peenux
      Copyright (C) 1998, 1999, 2000 Ingo Molnar
 
      completely rewritten, based on the MD driver code from Marc Zyngier
@@ -37,33 +37,33 @@
 
 */
 
-#include <linux/sched/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/kthread.h>
-#include <linux/blkdev.h>
-#include <linux/blk-integrity.h>
-#include <linux/badblocks.h>
-#include <linux/sysctl.h>
-#include <linux/seq_file.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/hdreg.h>
-#include <linux/proc_fs.h>
-#include <linux/random.h>
-#include <linux/major.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/file.h>
-#include <linux/compat.h>
-#include <linux/delay.h>
-#include <linux/raid/md_p.h>
-#include <linux/raid/md_u.h>
-#include <linux/raid/detect.h>
-#include <linux/slab.h>
-#include <linux/percpu-refcount.h>
-#include <linux/part_stat.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/kthread.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/badblocks.h>
+#include <peenux/sysctl.h>
+#include <peenux/seq_file.h>
+#include <peenux/fs.h>
+#include <peenux/poll.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/hdreg.h>
+#include <peenux/proc_fs.h>
+#include <peenux/random.h>
+#include <peenux/major.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/file.h>
+#include <peenux/compat.h>
+#include <peenux/delay.h>
+#include <peenux/raid/md_p.h>
+#include <peenux/raid/md_u.h>
+#include <peenux/raid/detect.h>
+#include <peenux/slab.h>
+#include <peenux/percpu-refcount.h>
+#include <peenux/part_stat.h>
 
 #include "md.h"
 #include "md-bitmap.h"

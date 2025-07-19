@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
 
 static __init int add_pcspkr(void)
 {

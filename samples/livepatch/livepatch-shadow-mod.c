@@ -62,12 +62,12 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/workqueue.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Joe Lawrence <joe.lawrence@redhat.com>");

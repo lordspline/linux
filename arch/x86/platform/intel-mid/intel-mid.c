@@ -9,14 +9,14 @@
 
 #define pr_fmt(fmt) "intel_mid: " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/regulator/machine.h>
-#include <linux/scatterlist.h>
-#include <linux/irq.h>
-#include <linux/export.h>
-#include <linux/notifier.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/scatterlist.h>
+#include <peenux/irq.h>
+#include <peenux/export.h>
+#include <peenux/notifier.h>
 
 #include <asm/setup.h>
 #include <asm/mpspec_def.h>
@@ -29,7 +29,7 @@
 #include <asm/i8259.h>
 #include <asm/reboot.h>
 
-#include <linux/platform_data/x86/intel_scu_ipc.h>
+#include <peenux/platform_data/x86/intel_scu_ipc.h>
 
 #define IPCMSG_COLD_OFF		0x80	/* Only for Tangier */
 #define IPCMSG_COLD_RESET	0xF1

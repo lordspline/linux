@@ -8,8 +8,8 @@
 #include <limits.h>
 #include <string.h>
 
-#include <linux/hash.h>
-#include <linux/zalloc.h>
+#include <peenux/hash.h>
+#include <peenux/zalloc.h>
 
 #define __lockhashfn(key)	hash_long((unsigned long)key, LOCKHASH_BITS)
 #define lockhashentry(key)	(lockhash_table + __lockhashfn((key)))

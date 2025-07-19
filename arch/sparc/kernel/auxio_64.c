@@ -6,12 +6,12 @@
  * Refactoring for unified NCR/PCIO support 2002 Eric Brower (ebrower@usa.net)
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <asm/prom.h>
 #include <asm/io.h>

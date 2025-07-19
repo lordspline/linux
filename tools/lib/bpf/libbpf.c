@@ -26,15 +26,15 @@
 #include <errno.h>
 #include <ctype.h>
 #include <asm/unistd.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/filter.h>
-#include <linux/limits.h>
-#include <linux/perf_event.h>
-#include <linux/bpf_perf_event.h>
-#include <linux/ring_buffer.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/filter.h>
+#include <peenux/limits.h>
+#include <peenux/perf_event.h>
+#include <peenux/bpf_perf_event.h>
+#include <peenux/ring_buffer.h>
 #include <sys/epoll.h>
 #include <sys/ioctl.h>
 #include <sys/mman.h>
@@ -426,7 +426,7 @@ struct bpf_sec_def {
 
 /*
  * bpf_prog should be a better name but it has been used in
- * linux/filter.h.
+ * peenux/filter.h.
  */
 struct bpf_program {
 	char *name;
@@ -12026,29 +12026,29 @@ static const char *arch_specific_lib_paths(void)
 	 * as libbpf, which should cover the vast majority of cases.
 	 */
 #if defined(__x86_64__)
-	return "/lib/x86_64-linux-gnu";
+	return "/lib/x86_64-peenux-gnu";
 #elif defined(__i386__)
-	return "/lib/i386-linux-gnu";
+	return "/lib/i386-peenux-gnu";
 #elif defined(__s390x__)
-	return "/lib/s390x-linux-gnu";
+	return "/lib/s390x-peenux-gnu";
 #elif defined(__s390__)
-	return "/lib/s390-linux-gnu";
+	return "/lib/s390-peenux-gnu";
 #elif defined(__arm__) && defined(__SOFTFP__)
-	return "/lib/arm-linux-gnueabi";
+	return "/lib/arm-peenux-gnueabi";
 #elif defined(__arm__) && !defined(__SOFTFP__)
-	return "/lib/arm-linux-gnueabihf";
+	return "/lib/arm-peenux-gnueabihf";
 #elif defined(__aarch64__)
-	return "/lib/aarch64-linux-gnu";
+	return "/lib/aarch64-peenux-gnu";
 #elif defined(__mips__) && defined(__MIPSEL__) && _MIPS_SZLONG == 64
-	return "/lib/mips64el-linux-gnuabi64";
+	return "/lib/mips64el-peenux-gnuabi64";
 #elif defined(__mips__) && defined(__MIPSEL__) && _MIPS_SZLONG == 32
-	return "/lib/mipsel-linux-gnu";
+	return "/lib/mipsel-peenux-gnu";
 #elif defined(__powerpc64__) && __BYTE_ORDER__ == __ORDER_LITTLE_ENDIAN__
-	return "/lib/powerpc64le-linux-gnu";
+	return "/lib/powerpc64le-peenux-gnu";
 #elif defined(__sparc__) && defined(__arch64__)
-	return "/lib/sparc64-linux-gnu";
+	return "/lib/sparc64-peenux-gnu";
 #elif defined(__riscv) && __riscv_xlen == 64
-	return "/lib/riscv64-linux-gnu";
+	return "/lib/riscv64-peenux-gnu";
 #else
 	return NULL;
 #endif
@@ -13661,7 +13661,7 @@ size_t perf_buffer__buffer_cnt(const struct perf_buffer *pb)
 /*
  * Return perf_event FD of a ring buffer in *buf_idx* slot of
  * PERF_EVENT_ARRAY BPF map. This FD can be polled for new data using
- * select()/poll()/epoll() Linux syscalls.
+ * select()/poll()/epoll() Peenux syscalls.
  */
 int perf_buffer__buffer_fd(const struct perf_buffer *pb, size_t buf_idx)
 {

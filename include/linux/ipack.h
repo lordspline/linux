@@ -6,9 +6,9 @@
  * Author: Samuel Iglesias Gonsalvez <siglesias@igalia.com>
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
 
 #define IPACK_IDPROM_OFFSET_I			0x01
 #define IPACK_IDPROM_OFFSET_P			0x03

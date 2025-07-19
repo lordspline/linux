@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Generic PPP layer for Linux.
+ * Generic PPP layer for Peenux.
  *
  * Copyright 1999-2002 Paul Mackerras.
  *
  * The generic PPP layer handles the PPP network interfaces, the
  * /dev/ppp device, packet and VJ compression, and multilink.
  * It talks to PPP `channels' via the interface defined in
- * include/linux/ppp_channel.h.  Channels provide the basic means for
+ * include/peenux/ppp_channel.h.  Channels provide the basic means for
  * sending and receiving PPP frames on some kind of communications
  * channel.
  *
@@ -18,39 +18,39 @@
  * ==FILEVERSION 20041108==
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/kmod.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/idr.h>
-#include <linux/netdevice.h>
-#include <linux/poll.h>
-#include <linux/ppp_defs.h>
-#include <linux/filter.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/ppp_channel.h>
-#include <linux/ppp-comp.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/if_arp.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/spinlock.h>
-#include <linux/rwsem.h>
-#include <linux/stddef.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/kmod.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/idr.h>
+#include <peenux/netdevice.h>
+#include <peenux/poll.h>
+#include <peenux/ppp_defs.h>
+#include <peenux/filter.h>
+#include <peenux/ppp-ioctl.h>
+#include <peenux/ppp_channel.h>
+#include <peenux/ppp-comp.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/if_arp.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/spinlock.h>
+#include <peenux/rwsem.h>
+#include <peenux/stddef.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/unaligned.h>
 #include <net/netdev_lock.h>
 #include <net/slhc_vj.h>
-#include <linux/atomic.h>
-#include <linux/refcount.h>
+#include <peenux/atomic.h>
+#include <peenux/refcount.h>
 
-#include <linux/nsproxy.h>
+#include <peenux/nsproxy.h>
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
 

@@ -16,14 +16,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/relay.h>
-#include <linux/dmi.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/relay.h>
+#include <peenux/dmi.h>
 #include <net/ieee80211_radiotap.h>
 
 #include "ath9k.h"

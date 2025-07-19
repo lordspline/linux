@@ -6,14 +6,14 @@
  * Author: Michael Brunner <michael.brunner@kontron.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/driver.h>
-#include <linux/mfd/kempld.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/platform_device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mfd/kempld.h>
 
 #define KEMPLD_GPIO_MAX_NUM		16
 #define KEMPLD_GPIO_MASK(x)		(BIT((x) % 8))

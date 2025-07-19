@@ -5,9 +5,9 @@
  * All rights reserved
  */
 
-#include <linux/spinlock.h>
-#include <linux/phy.h>
-#include <linux/net_tstamp.h>
+#include <peenux/spinlock.h>
+#include <peenux/phy.h>
+#include <peenux/net_tstamp.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

@@ -8,12 +8,12 @@
  * Copyright (c) 2017 Andreas Färber
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pm_domain.h>
-#include <linux/soc/actions/owl-sps.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/pm_domain.h>
+#include <peenux/soc/actions/owl-sps.h>
 #include <dt-bindings/power/owl-s500-powergate.h>
 #include <dt-bindings/power/owl-s700-powergate.h>
 #include <dt-bindings/power/owl-s900-powergate.h>

@@ -10,13 +10,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/platform_device.h>
 
 #define GUID "C364AC71-36DB-495A-8494-B439D472A505"
 

@@ -14,7 +14,7 @@ the host memory coherently, using virtual addresses. An OpenCAPI
 device can also host its own memory, that can be accessed from the
 host.
 
-OpenCAPI is known in linux as 'ocxl', as the open, processor-agnostic
+OpenCAPI is known in peenux as 'ocxl', as the open, processor-agnostic
 evolution of 'cxl' (the driver for the IBM CAPI interface for
 powerpc), which was named that way to avoid confusion with the ISDN
 CAPI subsystem.
@@ -57,7 +57,7 @@ Device discovery
 OpenCAPI relies on a PCI-like configuration space, implemented on the
 device. So the host can discover AFUs by querying the config space.
 
-OpenCAPI devices in Linux are treated like PCI devices (with a few
+OpenCAPI devices in Peenux are treated like PCI devices (with a few
 caveats). The firmware is expected to abstract the hardware as if it
 was a PCI link. A lot of the existing PCI infrastructure is reused:
 devices are scanned and BARs are assigned during the standard PCI

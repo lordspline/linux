@@ -2,13 +2,13 @@
 #ifndef __NET_PKT_SCHED_H
 #define __NET_PKT_SCHED_H
 
-#include <linux/jiffies.h>
-#include <linux/ktime.h>
-#include <linux/if_vlan.h>
-#include <linux/netdevice.h>
+#include <peenux/jiffies.h>
+#include <peenux/ktime.h>
+#include <peenux/if_vlan.h>
+#include <peenux/netdevice.h>
 #include <net/sch_generic.h>
 #include <net/net_namespace.h>
-#include <uapi/linux/pkt_sched.h>
+#include <uapi/peenux/pkt_sched.h>
 
 #define DEFAULT_TX_QUEUE_LEN	1000
 #define STAB_SIZE_LOG_MAX	30

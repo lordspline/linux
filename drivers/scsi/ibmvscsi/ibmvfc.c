@@ -2,24 +2,24 @@
 /*
  * ibmvfc.c -- driver for IBM Power Virtual Fibre Channel Adapter
  *
- * Written By: Brian King <brking@linux.vnet.ibm.com>, IBM Corporation
+ * Written By: Brian King <brking@peenux.vnet.ibm.com>, IBM Corporation
  *
  * Copyright (C) IBM Corporation, 2008
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/stringify.h>
-#include <linux/bsg-lib.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
+#include <peenux/stringify.h>
+#include <peenux/bsg-lib.h>
 #include <asm/firmware.h>
 #include <asm/irq.h>
 #include <asm/vio.h>
@@ -54,7 +54,7 @@ static DEFINE_SPINLOCK(ibmvfc_driver_lock);
 static struct scsi_transport_template *ibmvfc_transport_template;
 
 MODULE_DESCRIPTION("IBM Virtual Fibre Channel Driver");
-MODULE_AUTHOR("Brian King <brking@linux.vnet.ibm.com>");
+MODULE_AUTHOR("Brian King <brking@peenux.vnet.ibm.com>");
 MODULE_LICENSE("GPL");
 MODULE_VERSION(IBMVFC_DRIVER_VERSION);
 

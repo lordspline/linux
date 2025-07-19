@@ -10,19 +10,19 @@
  * Host AP crypto routines
  *
  * Copyright (c) 2002-2003, Jouni Malinen <j@w1.fi>
- * Portions Copyright (C) 2004, Intel Corporation <jketreno@linux.intel.com>
+ * Portions Copyright (C) 2004, Intel Corporation <jketreno@peenux.intel.com>
  *
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/ieee80211.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/ctype.h>
+#include <peenux/ieee80211.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include "libipw.h"
 
 struct libipw_crypto_alg {

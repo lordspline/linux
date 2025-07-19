@@ -303,7 +303,7 @@
 		interrupt-map-mask = <0 0 0 0>;
 		interrupt-map = <0 0 0 0 &gic GIC_SPI 186 IRQ_TYPE_LEVEL_HIGH>;
 
-		linux,pci-domain = <0>;
+		peenux,pci-domain = <0>;
 
 		bus-range = <0x00 0xff>;
 
@@ -339,7 +339,7 @@
 		interrupt-map-mask = <0 0 0 0>;
 		interrupt-map = <0 0 0 0 &gic GIC_SPI 192 IRQ_TYPE_LEVEL_HIGH>;
 
-		linux,pci-domain = <1>;
+		peenux,pci-domain = <1>;
 
 		bus-range = <0x00 0xff>;
 

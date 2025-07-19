@@ -10,10 +10,10 @@
 
 #include "au0828.h"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 #include <media/v4l2-mc.h>
 
 /* ------------------------------------------------------------------ */

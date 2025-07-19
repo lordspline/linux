@@ -4,14 +4,14 @@
  * (C) 2002 by Harald Welte <laforge@netfilter.org>
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
 #include <net/dsfield.h>
 
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_dscp.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_dscp.h>
 
 MODULE_AUTHOR("Harald Welte <laforge@netfilter.org>");
 MODULE_DESCRIPTION("Xtables: DSCP/TOS field match");

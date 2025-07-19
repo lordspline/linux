@@ -6,23 +6,23 @@
  * The Sparx5 Chip Register Model can be browsed at this location:
  * https://github.com/microchip-ung/sparx-5_reginfo
  */
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/netdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/of_mdio.h>
 #include <net/switchdev.h>
-#include <linux/etherdevice.h>
-#include <linux/io.h>
-#include <linux/printk.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
-#include <linux/reset.h>
+#include <peenux/etherdevice.h>
+#include <peenux/io.h>
+#include <peenux/printk.h>
+#include <peenux/iopoll.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
+#include <peenux/reset.h>
 
 #include "lan969x/lan969x.h" /* for lan969x match data */
 

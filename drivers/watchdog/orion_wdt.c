@@ -10,18 +10,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/watchdog.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
 
 /* RSTOUT mask register physical address for Orion5x, Kirkwood and Dove */
 #define ORION_RSTOUT_MASK_OFFSET	0x20108

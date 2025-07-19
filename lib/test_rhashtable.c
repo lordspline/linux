@@ -10,19 +10,19 @@
  * Self Test
  **************************************************************************/
 
-#include <linux/init.h>
-#include <linux/jhash.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/rcupdate.h>
-#include <linux/rcupdate_wait.h>
-#include <linux/rhashtable.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/random.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
+#include <peenux/init.h>
+#include <peenux/jhash.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/rcupdate.h>
+#include <peenux/rcupdate_wait.h>
+#include <peenux/rhashtable.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/random.h>
+#include <peenux/vmalloc.h>
+#include <peenux/wait.h>
 
 #define MAX_ENTRIES	1000000
 #define TEST_INSERT_FAIL INT_MAX

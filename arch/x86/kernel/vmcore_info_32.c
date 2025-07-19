@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/vmcore_info.h>
-#include <linux/pgtable.h>
+#include <peenux/vmcore_info.h>
+#include <peenux/pgtable.h>
 
 #include <asm/setup.h>
 

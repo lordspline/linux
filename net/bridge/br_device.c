@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Device handling code
- *	Linux ethernet bridge
+ *	Peenux ethernet bridge
  *
  *	Authors:
  *	Lennert Buytenhek		<buytenh@gnu.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/netpoll.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/list.h>
-#include <linux/netfilter_bridge.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/netpoll.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/list.h>
+#include <peenux/netfilter_bridge.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <net/netdev_lock.h>
 
 #include "br_private.h"

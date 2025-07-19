@@ -36,14 +36,14 @@
  *   per device, not per bus
  */
 
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/gfp.h>
-#include <linux/usb.h>
-#include <linux/usbdevice_fs.h>
-#include <linux/usb/hcd.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/gfp.h>
+#include <peenux/usb.h>
+#include <peenux/usbdevice_fs.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
 
 #include "usb.h"
 

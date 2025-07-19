@@ -3,28 +3,28 @@
  * fs/dax.c - Direct Access filesystem code
  * Copyright (c) 2013-2014 Intel Corporation
  * Author: Matthew Wilcox <matthew.r.wilcox@intel.com>
- * Author: Ross Zwisler <ross.zwisler@linux.intel.com>
+ * Author: Ross Zwisler <ross.zwisler@peenux.intel.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/blkdev.h>
-#include <linux/buffer_head.h>
-#include <linux/dax.h>
-#include <linux/fs.h>
-#include <linux/highmem.h>
-#include <linux/memcontrol.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/pagevec.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/uio.h>
-#include <linux/vmstat.h>
-#include <linux/pfn_t.h>
-#include <linux/sizes.h>
-#include <linux/mmu_notifier.h>
-#include <linux/iomap.h>
-#include <linux/rmap.h>
+#include <peenux/atomic.h>
+#include <peenux/blkdev.h>
+#include <peenux/buffer_head.h>
+#include <peenux/dax.h>
+#include <peenux/fs.h>
+#include <peenux/highmem.h>
+#include <peenux/memcontrol.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/pagevec.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/uio.h>
+#include <peenux/vmstat.h>
+#include <peenux/pfn_t.h>
+#include <peenux/sizes.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/iomap.h>
+#include <peenux/rmap.h>
 #include <asm/pgalloc.h>
 
 #define CREATE_TRACE_POINTS

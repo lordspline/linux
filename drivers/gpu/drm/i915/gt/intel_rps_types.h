@@ -6,11 +6,11 @@
 #ifndef INTEL_RPS_TYPES_H
 #define INTEL_RPS_TYPES_H
 
-#include <linux/atomic.h>
-#include <linux/ktime.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/ktime.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 struct intel_ips {
 	u64 last_count1;

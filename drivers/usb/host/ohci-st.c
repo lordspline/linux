@@ -9,19 +9,19 @@
  * Derived from ohci-platform.c
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/hrtimer.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/usb/ohci_pdriver.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/hrtimer.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/usb/ohci_pdriver.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 #include "ohci.h"
 

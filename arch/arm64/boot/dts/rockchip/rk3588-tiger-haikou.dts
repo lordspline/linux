@@ -37,27 +37,27 @@
 
 		button-batlow-n {
 			label = "BATLOW#";
-			linux,code = <KEY_BATTERY>;
+			peenux,code = <KEY_BATTERY>;
 			gpios = <&gpio3 RK_PB5 GPIO_ACTIVE_LOW>;
 		};
 
 		button-slp-btn-n {
 			label = "SLP_BTN#";
-			linux,code = <KEY_SLEEP>;
+			peenux,code = <KEY_SLEEP>;
 			gpios = <&gpio4 RK_PB3 GPIO_ACTIVE_LOW>;
 		};
 
 		button-wake-n {
 			label = "WAKE#";
-			linux,code = <KEY_WAKEUP>;
+			peenux,code = <KEY_WAKEUP>;
 			gpios = <&gpio3 RK_PC6 GPIO_ACTIVE_LOW>;
 			wakeup-source;
 		};
 
 		switch-lid-btn-n {
 			label = "LID_BTN#";
-			linux,code = <SW_LID>;
-			linux,input-type = <EV_SW>;
+			peenux,code = <SW_LID>;
+			peenux,input-type = <EV_SW>;
 			gpios = <&gpio3 RK_PD5 GPIO_ACTIVE_LOW>;
 		};
 	};

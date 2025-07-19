@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright IBM Corp. 2012
- * Author(s): Jan Glauber <jang@linux.vnet.ibm.com>
+ * Author(s): Jan Glauber <jang@peenux.vnet.ibm.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/syscalls.h>
-#include <linux/signal.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kernel_stat.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/syscalls.h>
+#include <peenux/signal.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/runtime_instr.h>
 #include <asm/cpu_mf.h>

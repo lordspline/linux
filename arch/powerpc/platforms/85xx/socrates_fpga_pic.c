@@ -3,10 +3,10 @@
  *  Copyright (C) 2008 Ilya Yanok, Emcraft Systems
  */
 
-#include <linux/irq.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/io.h>
+#include <peenux/irq.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/io.h>
 
 #include "socrates_fpga_pic.h"
 

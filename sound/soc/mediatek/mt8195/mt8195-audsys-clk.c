@@ -6,9 +6,9 @@
  * Author: Trevor Wu <trevor.wu@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
 #include "mt8195-afe-common.h"
 #include "mt8195-audsys-clk.h"
 #include "mt8195-audsys-clkid.h"

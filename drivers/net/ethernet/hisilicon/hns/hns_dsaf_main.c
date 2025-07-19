@@ -3,20 +3,20 @@
  * Copyright (c) 2014-2015 Hisilicon Limited.
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/vmalloc.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/vmalloc.h>
 
 #include "hns_dsaf_mac.h"
 #include "hns_dsaf_main.h"

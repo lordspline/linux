@@ -6,7 +6,7 @@
  * Copyright (C) 2025 Intel Corporation
  *****************************************************************************/
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include "iwl-io.h"
 #include "iwl-agn-hw.h"

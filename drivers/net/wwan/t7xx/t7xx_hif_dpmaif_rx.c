@@ -8,39 +8,39 @@
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Eliot Lee <eliot.lee@intel.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *
  * Contributors:
- *  Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ *  Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/gfp.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/list.h>
-#include <linux/minmax.h>
-#include <linux/mm.h>
-#include <linux/netdevice.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/gfp.h>
+#include <peenux/err.h>
+#include <peenux/iopoll.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/list.h>
+#include <peenux/minmax.h>
+#include <peenux/mm.h>
+#include <peenux/netdevice.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 #include <net/gro.h>
 
 #include "t7xx_dpmaif.h"

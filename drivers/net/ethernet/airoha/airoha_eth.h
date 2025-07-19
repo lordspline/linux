@@ -7,12 +7,12 @@
 #ifndef AIROHA_ETH_H
 #define AIROHA_ETH_H
 
-#include <linux/debugfs.h>
-#include <linux/etherdevice.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/reset.h>
+#include <peenux/debugfs.h>
+#include <peenux/etherdevice.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/reset.h>
 #include <net/dsa.h>
 
 #define AIROHA_MAX_NUM_GDM_PORTS	4

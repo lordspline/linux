@@ -5,15 +5,15 @@
  *          Fabien Dessenne <fabien.dessenne@st.com> for STMicroelectronics.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
 
 #define IPCC_XCR		0x000
 #define XCR_RXOIE		BIT(0)

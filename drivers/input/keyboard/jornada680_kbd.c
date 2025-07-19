@@ -13,14 +13,14 @@
  *  Copyright (C) 2000 Niibe Yutaka (HP620 Keyb translation table)
  */
 
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <asm/delay.h>
 #include <asm/io.h>

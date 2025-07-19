@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Kernel support for NT synchronization primitive emulation
  *
@@ -8,7 +8,7 @@
 #ifndef __LINUX_NTSYNC_H
 #define __LINUX_NTSYNC_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct ntsync_sem_args {
 	__u32 count;

@@ -3,12 +3,12 @@
  * Copyright (C) 2019 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <soc/tegra/bpmp.h>
 #include "mc.h"

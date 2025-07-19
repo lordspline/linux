@@ -7,15 +7,15 @@
  * Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
 

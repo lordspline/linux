@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/ext4/namei.c
+ *  peenux/fs/ext4/namei.c
  *
  * Copyright (C) 1992, 1993, 1994, 1995
  * Remy Card (card@masi.ibp.fr)
@@ -9,7 +9,7 @@
  *
  *  from
  *
- *  linux/fs/minix/namei.c
+ *  peenux/fs/minix/namei.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -25,17 +25,17 @@
  *	Theodore Ts'o, 2002
  */
 
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/time.h>
-#include <linux/fcntl.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/quotaops.h>
-#include <linux/buffer_head.h>
-#include <linux/bio.h>
-#include <linux/iversion.h>
-#include <linux/unicode.h>
+#include <peenux/fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/time.h>
+#include <peenux/fcntl.h>
+#include <peenux/stat.h>
+#include <peenux/string.h>
+#include <peenux/quotaops.h>
+#include <peenux/buffer_head.h>
+#include <peenux/bio.h>
+#include <peenux/iversion.h>
+#include <peenux/unicode.h>
 #include "ext4.h"
 #include "ext4_jbd2.h"
 

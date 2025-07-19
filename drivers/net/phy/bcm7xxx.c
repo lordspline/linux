@@ -5,14 +5,14 @@
  * Copyright (C) 2014-2017 Broadcom
  */
 
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/phy.h>
+#include <peenux/delay.h>
 #include "bcm-phy-lib.h"
-#include <linux/bitops.h>
-#include <linux/brcmphy.h>
-#include <linux/clk.h>
-#include <linux/mdio.h>
+#include <peenux/bitops.h>
+#include <peenux/brcmphy.h>
+#include <peenux/clk.h>
+#include <peenux/mdio.h>
 
 /* Broadcom BCM7xxx internal PHY registers */
 

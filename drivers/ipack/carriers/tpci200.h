@@ -10,12 +10,12 @@
 #ifndef _TPCI200_H_
 #define _TPCI200_H_
 
-#include <linux/limits.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/swab.h>
-#include <linux/io.h>
-#include <linux/ipack.h>
+#include <peenux/limits.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/swab.h>
+#include <peenux/io.h>
+#include <peenux/ipack.h>
 
 #define TPCI200_NB_SLOT               0x4
 #define TPCI200_NB_BAR                0x6

@@ -4,14 +4,14 @@
  * Author: James Liao <jamesjj.liao@mediatek.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/container_of.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
 
 #include "clk-pll.h"
 

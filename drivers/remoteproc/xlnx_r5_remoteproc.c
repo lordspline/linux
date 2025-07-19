@@ -5,17 +5,17 @@
  */
 
 #include <dt-bindings/power/xlnx-zynqmp-power.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/mailbox/zynqmp-ipi-message.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware/xlnx-zynqmp.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mailbox/zynqmp-ipi-message.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/remoteproc.h>
 
 #include "remoteproc_internal.h"
 

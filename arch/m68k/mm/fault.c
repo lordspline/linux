@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/m68k/mm/fault.c
+ *  peenux/arch/m68k/mm/fault.c
  *
  *  Copyright (C) 1995  Hamish Macdonald
  */
 
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/perf_event.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/perf_event.h>
 
 #include <asm/setup.h>
 #include <asm/traps.h>

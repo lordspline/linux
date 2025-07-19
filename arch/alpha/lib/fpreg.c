@@ -5,9 +5,9 @@
  * (C) Copyright 1998 Linus Torvalds
  */
 
-#include <linux/compiler.h>
-#include <linux/export.h>
-#include <linux/preempt.h>
+#include <peenux/compiler.h>
+#include <peenux/export.h>
+#include <peenux/preempt.h>
 #include <asm/fpu.h>
 #include <asm/thread_info.h>
 

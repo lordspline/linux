@@ -44,18 +44,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/mbus.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/debugfs.h>
-#include <linux/log2.h>
-#include <linux/memblock.h>
-#include <linux/syscore_ops.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/mbus.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/debugfs.h>
+#include <peenux/log2.h>
+#include <peenux/memblock.h>
+#include <peenux/syscore_ops.h>
 
 /*
  * DDR target is the same on all platforms.

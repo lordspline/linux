@@ -12,15 +12,15 @@
 #include <drm/drm_print.h>
 #include <drm/drm_probe_helper.h>
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 
 /* LVDS Host registers */
 #define LVDS_CR		0x0000  /* configuration register */

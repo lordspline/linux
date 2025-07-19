@@ -69,14 +69,14 @@
  */
 /* -------------------------------------------------------------------------- */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/power_supply.h>
+#include <peenux/usb.h>
+#include <peenux/workqueue.h>
 #include <asm/byteorder.h>
 
 #include "hid-ids.h"

@@ -9,9 +9,9 @@
  *  Implementation of a CRTC class for the HDLCD driver.
  */
 
-#include <linux/clk.h>
-#include <linux/of_graph.h>
-#include <linux/platform_data/simplefb.h>
+#include <peenux/clk.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_data/simplefb.h>
 
 #include <video/videomode.h>
 

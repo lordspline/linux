@@ -10,20 +10,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/usb.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/kfifo.h>
-#include <linux/input/mt.h>
-#include <linux/workqueue.h>
-#include <linux/atomic.h>
-#include <linux/fixp-arith.h>
-#include <linux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/input.h>
+#include <peenux/usb.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/kfifo.h>
+#include <peenux/input/mt.h>
+#include <peenux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/fixp-arith.h>
+#include <peenux/unaligned.h>
 #include "usbhid/usbhid.h"
 #include "hid-ids.h"
 

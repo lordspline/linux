@@ -22,28 +22,28 @@
  *
  * Author: Linus Walleij <linus.walleij@linaro.org>
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/random.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/random.h>
+#include <peenux/units.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* Commonly used registers */
 #define YAS5XX_DEVICE_ID		0x80

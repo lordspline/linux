@@ -7,15 +7,15 @@
  *
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/interrupt.h>
-#include <linux/kthread.h>
-#include <linux/workqueue.h>
-#include <linux/iommu.h>
+#include <peenux/interrupt.h>
+#include <peenux/kthread.h>
+#include <peenux/workqueue.h>
+#include <peenux/iommu.h>
 #include <net/pkt_cls.h>
 
-#include <linux/fsl/mc.h>
+#include <peenux/fsl/mc.h>
 
 #include "dpaa2-switch.h"
 

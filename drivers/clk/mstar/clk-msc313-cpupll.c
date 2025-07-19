@@ -3,11 +3,11 @@
  * Copyright (C) 2019 Daniel Palmer <daniel@thingy.jp>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 
 /*
  * This IP is not documented outside of the messy vendor driver.

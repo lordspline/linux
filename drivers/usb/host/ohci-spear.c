@@ -8,16 +8,16 @@
 * Based on various ohci-*.c drivers
 */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/signal.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/signal.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 #include "ohci.h"
 

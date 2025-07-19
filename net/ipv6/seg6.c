@@ -6,21 +6,21 @@
  *  David Lebrun <david.lebrun@uclouvain.be>
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/net.h>
-#include <linux/in6.h>
-#include <linux/slab.h>
-#include <linux/rhashtable.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/net.h>
+#include <peenux/in6.h>
+#include <peenux/slab.h>
+#include <peenux/rhashtable.h>
 
 #include <net/ipv6.h>
 #include <net/protocol.h>
 
 #include <net/seg6.h>
 #include <net/genetlink.h>
-#include <linux/seg6.h>
-#include <linux/seg6_genl.h>
+#include <peenux/seg6.h>
+#include <peenux/seg6_genl.h>
 #include <net/seg6_hmac.h>
 
 bool seg6_validate_srh(struct ipv6_sr_hdr *srh, int len, bool reduced)

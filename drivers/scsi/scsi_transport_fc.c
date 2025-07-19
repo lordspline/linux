@@ -8,12 +8,12 @@
  *    statistics, and service functions...
  *    Add vports, etc
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/bsg-lib.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/bsg-lib.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_transport.h>

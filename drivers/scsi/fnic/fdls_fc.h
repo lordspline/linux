@@ -24,10 +24,10 @@
 #include <uapi/scsi/fc/fc_fs.h>
 #include <uapi/scsi/fc/fc_ns.h>
 #include <uapi/scsi/fc/fc_gs.h>
-#include <uapi/linux/if_ether.h>
+#include <uapi/peenux/if_ether.h>
 #include <scsi/fc/fc_ms.h>
-#include <linux/minmax.h>
-#include <linux/if_ether.h>
+#include <peenux/minmax.h>
+#include <peenux/if_ether.h>
 #include <scsi/fc/fc_encaps.h>
 #include <scsi/fc/fc_fcoe.h>
 

@@ -4,13 +4,13 @@
  *
  * Copyright (C) 2004 Paul Mackerras <paulus@au.ibm.com>, IBM
  */
-#include <linux/kernel.h>
-#include <linux/kprobes.h>
-#include <linux/ptrace.h>
-#include <linux/prefetch.h>
+#include <peenux/kernel.h>
+#include <peenux/kprobes.h>
+#include <peenux/ptrace.h>
+#include <peenux/prefetch.h>
 #include <asm/sstep.h>
 #include <asm/processor.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/cpu_has_feature.h>
 #include <asm/cputable.h>
 #include <asm/disassemble.h>

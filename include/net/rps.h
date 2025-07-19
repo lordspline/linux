@@ -2,8 +2,8 @@
 #ifndef _NET_RPS_H
 #define _NET_RPS_H
 
-#include <linux/types.h>
-#include <linux/static_key.h>
+#include <peenux/types.h>
+#include <peenux/static_key.h>
 #include <net/sock.h>
 #include <net/hotdata.h>
 

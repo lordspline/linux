@@ -7,8 +7,8 @@
 #ifndef _ACCDET_H_
 #define _ACCDET_H_
 
-#include <linux/ctype.h>
-#include <linux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
 
 #define ACCDET_DEVNAME "accdet"
 

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/bitops.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
+#include <peenux/bitops.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
 
 enum {
 	RTQ2134_IDX_BUCK1 = 0,

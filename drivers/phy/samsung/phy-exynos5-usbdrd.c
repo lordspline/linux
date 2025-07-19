@@ -8,23 +8,23 @@
  * Author: Vivek Gautam <gautam.vivek@samsung.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/iopoll.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/soc/samsung/exynos-regs-pmu.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/typec_mux.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/iopoll.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/mutex.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/soc/samsung/exynos-regs-pmu.h>
+#include <peenux/usb/typec.h>
+#include <peenux/usb/typec_mux.h>
 
 /* Exynos USB PHY registers */
 #define EXYNOS5_FSEL_9MHZ6		0x0

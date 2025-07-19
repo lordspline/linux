@@ -10,16 +10,16 @@
  * Specifications at www.trustedcomputinggroup.org
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/slab.h>
 #include <asm/vio.h>
 #include <asm/irq.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/wait.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/wait.h>
 #include <asm/prom.h>
 
 #include "tpm.h"

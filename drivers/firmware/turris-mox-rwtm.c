@@ -6,28 +6,28 @@
  */
 
 #include <crypto/sha2.h>
-#include <linux/align.h>
-#include <linux/armada-37xx-rwtm-mailbox.h>
-#include <linux/cleanup.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/hw_random.h>
-#include <linux/if_ether.h>
-#include <linux/key.h>
-#include <linux/kobject.h>
-#include <linux/mailbox_client.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/sysfs.h>
-#include <linux/turris-signing-key.h>
-#include <linux/types.h>
+#include <peenux/align.h>
+#include <peenux/armada-37xx-rwtm-mailbox.h>
+#include <peenux/cleanup.h>
+#include <peenux/completion.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/hw_random.h>
+#include <peenux/if_ether.h>
+#include <peenux/key.h>
+#include <peenux/kobject.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
+#include <peenux/sysfs.h>
+#include <peenux/turris-signing-key.h>
+#include <peenux/types.h>
 
 #define DRIVER_NAME		"turris-mox-rwtm"
 

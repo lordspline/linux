@@ -5,16 +5,16 @@
  * Copyright (c) 2012 Samsung Electronics Co., Ltd.
  *             http://www.samsung.com/
  */
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/f2fs_fs.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
-#include <linux/freezer.h>
-#include <linux/sched/signal.h>
-#include <linux/random.h>
-#include <linux/sched/mm.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/f2fs_fs.h>
+#include <peenux/kthread.h>
+#include <peenux/delay.h>
+#include <peenux/freezer.h>
+#include <peenux/sched/signal.h>
+#include <peenux/random.h>
+#include <peenux/sched/mm.h>
 
 #include "f2fs.h"
 #include "node.h"

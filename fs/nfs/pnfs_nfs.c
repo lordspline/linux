@@ -8,10 +8,10 @@
  * Tom Haynes <loghyr@primarydata.com>
  */
 
-#include <linux/nfs_fs.h>
-#include <linux/nfs_page.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/module.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_page.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/module.h>
 
 #include "nfs4session.h"
 #include "internal.h"

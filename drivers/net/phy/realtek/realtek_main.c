@@ -7,14 +7,14 @@
  *
  * Copyright (c) 2004 Freescale Semiconductor, Inc.
  */
-#include <linux/bitops.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/netdevice.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/string_choices.h>
+#include <peenux/bitops.h>
+#include <peenux/of.h>
+#include <peenux/phy.h>
+#include <peenux/netdevice.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/string_choices.h>
 
 #include "realtek.h"
 

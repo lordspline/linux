@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/fuse/fuse_sysctl.c
+ * peenux/fs/fuse/fuse_sysctl.c
  *
  * Sysctl interface to fuse parameters
  */
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 
 #include "fuse_i.h"
 

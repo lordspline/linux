@@ -9,35 +9,35 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/thread_info.h>
+#include <peenux/thread_info.h>
 #include <asm/current.h>
-#include <linux/falloc.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/file.h>
-#include <linux/kernel.h>
-#include <linux/writeback.h>
-#include <linux/pagemap.h>
-#include <linux/highmem.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/capability.h>
-#include <linux/ctype.h>
-#include <linux/backing-dev.h>
-#include <linux/hugetlb.h>
-#include <linux/pagevec.h>
-#include <linux/fs_parser.h>
-#include <linux/mman.h>
-#include <linux/slab.h>
-#include <linux/dnotify.h>
-#include <linux/statfs.h>
-#include <linux/security.h>
-#include <linux/magic.h>
-#include <linux/migrate.h>
-#include <linux/uio.h>
+#include <peenux/falloc.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
+#include <peenux/file.h>
+#include <peenux/kernel.h>
+#include <peenux/writeback.h>
+#include <peenux/pagemap.h>
+#include <peenux/highmem.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/capability.h>
+#include <peenux/ctype.h>
+#include <peenux/backing-dev.h>
+#include <peenux/hugetlb.h>
+#include <peenux/pagevec.h>
+#include <peenux/fs_parser.h>
+#include <peenux/mman.h>
+#include <peenux/slab.h>
+#include <peenux/dnotify.h>
+#include <peenux/statfs.h>
+#include <peenux/security.h>
+#include <peenux/magic.h>
+#include <peenux/migrate.h>
+#include <peenux/uio.h>
 
-#include <linux/uaccess.h>
-#include <linux/sched/mm.h>
+#include <peenux/uaccess.h>
+#include <peenux/sched/mm.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/hugetlbfs.h>

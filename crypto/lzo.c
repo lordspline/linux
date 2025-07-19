@@ -4,10 +4,10 @@
  */
 
 #include <crypto/internal/scompress.h>
-#include <linux/init.h>
-#include <linux/lzo.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/lzo.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 static void *lzo_alloc_ctx(void)
 {

@@ -9,29 +9,29 @@
  * Author: Laxman Dewangan <ldewangan@nvidia.com>
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pagemap.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/termios.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pagemap.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/serial.h>
+#include <peenux/serial_8250.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_reg.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/termios.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
 
 #define TEGRA_UART_TYPE				"TEGRA_UART"
 #define TX_EMPTY_STATUS				(UART_LSR_TEMT | UART_LSR_THRE)
@@ -177,9 +177,9 @@ static unsigned int tegra_uart_get_mctrl(struct uart_port *u)
 	/*
 	 * RI - Ring detector is active
 	 * CD/DCD/CAR - Carrier detect is always active. For some reason
-	 *	linux has different names for carrier detect.
+	 *	peenux has different names for carrier detect.
 	 * DSR - Data Set ready is active as the hardware doesn't support it.
-	 *	Don't know if the linux support this yet?
+	 *	Don't know if the peenux support this yet?
 	 * CTS - Clear to send. Always set to active, as the hardware handles
 	 *	CTS automatically.
 	 */

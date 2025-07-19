@@ -3,13 +3,13 @@
  * Copyright (C) 2015-2018 Etnaviv Project
  */
 
-#include <linux/component.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
+#include <peenux/component.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/uaccess.h>
 
 #include <drm/drm_debugfs.h>
 #include <drm/drm_drv.h>

@@ -9,13 +9,13 @@
  * Author: Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/device.h>
-#include <linux/container_of.h>
-#include <linux/leds.h>
-#include <linux/mfd/upboard-fpga.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/container_of.h>
+#include <peenux/leds.h>
+#include <peenux/mfd/upboard-fpga.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define led_cdev_to_led_upboard(c)	container_of(c, struct upboard_led, cdev)
 

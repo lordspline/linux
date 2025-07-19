@@ -32,7 +32,7 @@
  *
  * Improvements and fixes by:
  *
- *   Arjan van de Ven <arjan@linux.intel.com>
+ *   Arjan van de Ven <arjan@peenux.intel.com>
  *   Yanmin Zhang <yanmin.zhang@intel.com>
  *   Wu Fengguang <fengguang.wu@intel.com>
  *   Mike Galbraith <efault@gmx.de>
@@ -74,8 +74,8 @@
 #include "util/intel-tpebs.h"
 #include "asm/bug.h"
 
-#include <linux/time64.h>
-#include <linux/zalloc.h>
+#include <peenux/time64.h>
+#include <peenux/zalloc.h>
 #include <api/fs/fs.h>
 #include <errno.h>
 #include <signal.h>
@@ -90,9 +90,9 @@
 #include <unistd.h>
 #include <sys/time.h>
 #include <sys/resource.h>
-#include <linux/err.h>
+#include <peenux/err.h>
 
-#include <linux/ctype.h>
+#include <peenux/ctype.h>
 #include <perf/evlist.h>
 #include <internal/threadmap.h>
 

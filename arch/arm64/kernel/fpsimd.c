@@ -6,31 +6,31 @@
  * Author: Catalin Marinas <catalin.marinas@arm.com>
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/bottom_half.h>
-#include <linux/bug.h>
-#include <linux/cache.h>
-#include <linux/compat.h>
-#include <linux/compiler.h>
-#include <linux/cpu.h>
-#include <linux/cpu_pm.h>
-#include <linux/ctype.h>
-#include <linux/kernel.h>
-#include <linux/linkage.h>
-#include <linux/irqflags.h>
-#include <linux/init.h>
-#include <linux/percpu.h>
-#include <linux/prctl.h>
-#include <linux/preempt.h>
-#include <linux/ptrace.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task_stack.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/sysctl.h>
-#include <linux/swab.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/bottom_half.h>
+#include <peenux/bug.h>
+#include <peenux/cache.h>
+#include <peenux/compat.h>
+#include <peenux/compiler.h>
+#include <peenux/cpu.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/ctype.h>
+#include <peenux/kernel.h>
+#include <peenux/linkage.h>
+#include <peenux/irqflags.h>
+#include <peenux/init.h>
+#include <peenux/percpu.h>
+#include <peenux/prctl.h>
+#include <peenux/preempt.h>
+#include <peenux/ptrace.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/signal.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/sysctl.h>
+#include <peenux/swab.h>
 
 #include <asm/esr.h>
 #include <asm/exception.h>

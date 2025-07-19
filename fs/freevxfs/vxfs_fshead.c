@@ -7,11 +7,11 @@
 /*
  * Veritas filesystem driver - fileset header routines.
  */
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/fs.h>
+#include <peenux/buffer_head.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include "vxfs.h"
 #include "vxfs_inode.h"

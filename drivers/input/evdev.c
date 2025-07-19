@@ -12,17 +12,17 @@
 #define EVDEV_MIN_BUFFER_SIZE	64U
 #define EVDEV_BUF_PACKETS	8
 
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input/mt.h>
-#include <linux/major.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/input/mt.h>
+#include <peenux/major.h>
+#include <peenux/device.h>
+#include <peenux/cdev.h>
 #include "input-compat.h"
 
 struct evdev {

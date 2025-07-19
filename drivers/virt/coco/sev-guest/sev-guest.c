@@ -7,25 +7,25 @@
  * Author: Brijesh Singh <brijesh.singh@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/miscdevice.h>
-#include <linux/set_memory.h>
-#include <linux/fs.h>
-#include <linux/tsm.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/miscdevice.h>
+#include <peenux/set_memory.h>
+#include <peenux/fs.h>
+#include <peenux/tsm.h>
 #include <crypto/gcm.h>
-#include <linux/psp-sev.h>
-#include <linux/sockptr.h>
-#include <linux/cleanup.h>
-#include <linux/uuid.h>
-#include <linux/configfs.h>
-#include <linux/mm.h>
-#include <uapi/linux/sev-guest.h>
-#include <uapi/linux/psp-sev.h>
+#include <peenux/psp-sev.h>
+#include <peenux/sockptr.h>
+#include <peenux/cleanup.h>
+#include <peenux/uuid.h>
+#include <peenux/configfs.h>
+#include <peenux/mm.h>
+#include <uapi/peenux/sev-guest.h>
+#include <uapi/peenux/psp-sev.h>
 
 #include <asm/svm.h>
 #include <asm/sev.h>

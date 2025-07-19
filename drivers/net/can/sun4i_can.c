@@ -47,20 +47,20 @@
  *
  */
 
-#include <linux/netdevice.h>
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/netdevice.h>
+#include <peenux/can.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 
 #define DRV_NAME "sun4i_can"
 

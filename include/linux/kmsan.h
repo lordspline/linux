@@ -9,10 +9,10 @@
 #ifndef _LINUX_KMSAN_H
 #define _LINUX_KMSAN_H
 
-#include <linux/dma-direction.h>
-#include <linux/gfp.h>
-#include <linux/kmsan-checks.h>
-#include <linux/types.h>
+#include <peenux/dma-direction.h>
+#include <peenux/gfp.h>
+#include <peenux/kmsan-checks.h>
+#include <peenux/types.h>
 
 struct page;
 struct kmem_cache;

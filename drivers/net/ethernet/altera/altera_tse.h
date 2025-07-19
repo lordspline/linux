@@ -22,12 +22,12 @@
 
 #define ALTERA_TSE_RESOURCE_NAME	"altera_tse"
 
-#include <linux/bitops.h>
-#include <linux/if_vlan.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
+#include <peenux/bitops.h>
+#include <peenux/if_vlan.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/phy.h>
+#include <peenux/phylink.h>
 
 #define ALTERA_TSE_SW_RESET_WATCHDOG_CNTR	10000
 #define ALTERA_TSE_MAC_FIFO_WIDTH		4	/* TX/RX FIFO width in

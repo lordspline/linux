@@ -2,7 +2,7 @@
 /*
  * OpenRISC irq.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Peenux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -10,13 +10,13 @@
  * Copyright (C) 2010-2011 Jonas Bonn <jonas@southpole.se>
  */
 
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/ftrace.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/export.h>
-#include <linux/irqflags.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/ftrace.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/export.h>
+#include <peenux/irqflags.h>
 
 /* read interrupt enabled status */
 unsigned long arch_local_save_flags(void)

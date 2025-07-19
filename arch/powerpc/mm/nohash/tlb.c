@@ -22,17 +22,17 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/preempt.h>
-#include <linux/spinlock.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
-#include <linux/hugetlb.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/preempt.h>
+#include <peenux/spinlock.h>
+#include <peenux/memblock.h>
+#include <peenux/of_fdt.h>
+#include <peenux/hugetlb.h>
 
 #include <asm/pgalloc.h>
 #include <asm/tlbflush.h>

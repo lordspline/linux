@@ -7,14 +7,14 @@
  * Copyright (C) 2010 Marek Vasut <marek.vasut@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
 
 #define	ISL6271A_VOLTAGE_MIN	850000
 #define	ISL6271A_VOLTAGE_MAX	1600000

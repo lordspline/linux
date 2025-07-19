@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0 */
 /******************************************************************************
  *
- * Name: aclinux.h - OS specific defines, etc. for Linux
+ * Name: aclinux.h - OS specific defines, etc. for Peenux
  *
  * Copyright (C) 2000 - 2025, Intel Corp.
  *
@@ -15,7 +15,7 @@
 /* ACPICA external files should not include ACPICA headers directly. */
 
 #if !defined(BUILDING_ACPICA) && !defined(_LINUX_ACPI_H)
-#error "Please do not include <acpi/acpi.h> directly, include <linux/acpi.h> instead."
+#error "Please do not include <acpi/acpi.h> directly, include <peenux/acpi.h> instead."
 #endif
 
 #endif
@@ -49,16 +49,16 @@
 #define ACPI_MUTEX_DEBUG
 #endif
 
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/sched.h>
-#include <linux/atomic.h>
-#include <linux/math64.h>
-#include <linux/slab.h>
-#include <linux/spinlock_types.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/sched.h>
+#include <peenux/atomic.h>
+#include <peenux/math64.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock_types.h>
 #ifdef EXPORT_ACPI_INTERFACES
-#include <linux/export.h>
+#include <peenux/export.h>
 #endif
 #ifdef CONFIG_ACPI
 #include <asm/acenv.h>
@@ -119,7 +119,7 @@
 #define ACPI_TO_INTEGER(p)                  ((uintptr_t)(p))
 #define ACPI_OFFSET(d, f)                   offsetof(d, f)
 
-/* Use native linux version of acpi_os_allocate_zeroed */
+/* Use native peenux version of acpi_os_allocate_zeroed */
 
 #define USE_NATIVE_ALLOCATE_ZEROED
 
@@ -171,7 +171,7 @@
 #define ACPI_MSG_BIOS_WARNING   KERN_WARNING "ACPI BIOS Warning (bug): "
 
 /*
- * Linux wants to use designated initializers for function pointer structs.
+ * Peenux wants to use designated initializers for function pointer structs.
  */
 #define ACPI_STRUCT_INIT(field, value)	.field = value
 

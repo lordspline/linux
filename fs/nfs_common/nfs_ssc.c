@@ -7,9 +7,9 @@
  * Copyright (c) 2020, Oracle and/or its affiliates.
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/nfs_ssc.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/nfs_ssc.h>
 #include "../nfs/nfs4_fs.h"
 
 

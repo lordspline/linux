@@ -9,8 +9,8 @@
  * Copyright 2018-2025	Intel Corporation
  */
 
-#include <linux/export.h>
-#include <linux/bitfield.h>
+#include <peenux/export.h>
+#include <peenux/bitfield.h>
 #include <net/cfg80211.h>
 #include "core.h"
 #include "rdev-ops.h"

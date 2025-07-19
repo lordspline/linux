@@ -6,29 +6,29 @@
  * Copyright (C) 2017 Red Hat
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/io-pgtable.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/kconfig.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-hi-lo.h>
+#include <peenux/io-pgtable.h>
+#include <peenux/iommu.h>
+#include <peenux/iopoll.h>
+#include <peenux/kconfig.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #include "arm-smmu.h"
 

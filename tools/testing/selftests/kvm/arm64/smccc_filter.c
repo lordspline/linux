@@ -10,8 +10,8 @@
  *  - Test that the filter actions (DENIED, FWD_TO_USER) work as intended.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/psci.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/psci.h>
 #include <stdint.h>
 
 #include "processor.h"

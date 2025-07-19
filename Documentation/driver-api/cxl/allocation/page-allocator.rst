@@ -10,12 +10,12 @@ allocator based on the selected `Memory Zone` and `NUMA node` the capacity is
 placed in.
 
 This section mostly focuses on how these configurations affect the page
-allocator (as of Linux v6.15) rather than the overall page allocator behavior.
+allocator (as of Peenux v6.15) rather than the overall page allocator behavior.
 
 NUMA nodes and mempolicy
 ========================
 Unless a task explicitly registers a mempolicy, the default memory policy
-of the linux kernel is to allocate memory from the `local NUMA node` first,
+of the peenux kernel is to allocate memory from the `local NUMA node` first,
 and fall back to other nodes only if the local node is pressured.
 
 Generally, we expect to see local DRAM and CXL memory on separate NUMA nodes,
@@ -50,7 +50,7 @@ CXL capacity has the opposite configuration - all onlined in
 
 Under the default allocation policy, the page allocator will completely skip
 :code:`ZONE_MOVABLE` as a valid allocation target.  This is because, as of
-Linux v6.15, the page allocator does (approximately) the following: ::
+Peenux v6.15, the page allocator does (approximately) the following: ::
 
   for (each zone in local_node):
 
@@ -66,9 +66,9 @@ This configuration also means that if the DRAM ndoe has :code:`ZONE_MOVABLE`
 capacity - when that capacity is depleted, the page allocator will actually
 prefer CXL :code:`ZONE_MOVABLE` pages over DRAM :code:`ZONE_NORMAL` pages.
 
-We may wish to invert this priority in future Linux versions.
+We may wish to invert this priority in future Peenux versions.
 
-If `demotion` and `swap` are disabled, Linux will begin to cause OOM crashes
+If `demotion` and `swap` are disabled, Peenux will begin to cause OOM crashes
 when the DRAM nodes are depleted. See the reclaim section for more details.
 
 

@@ -3,13 +3,13 @@
  * Copyright 2018 Noralf Trønnes
  */
 
-#include <linux/dma-buf.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/shmem_fs.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/dma-buf.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #ifdef CONFIG_X86
 #include <asm/set_memory.h>

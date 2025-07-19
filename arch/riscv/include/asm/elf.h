@@ -8,8 +8,8 @@
 #ifndef _ASM_RISCV_ELF_H
 #define _ASM_RISCV_ELF_H
 
-#include <uapi/linux/elf.h>
-#include <linux/compat.h>
+#include <uapi/peenux/elf.h>
+#include <peenux/compat.h>
 #include <uapi/asm/elf.h>
 #include <asm/auxvec.h>
 #include <asm/byteorder.h>

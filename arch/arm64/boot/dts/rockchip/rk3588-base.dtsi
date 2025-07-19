@@ -1814,7 +1814,7 @@
 				<0 0 0 2 &pcie2x1l1_intc 1>,
 				<0 0 0 3 &pcie2x1l1_intc 2>,
 				<0 0 0 4 &pcie2x1l1_intc 3>;
-		linux,pci-domain = <3>;
+		peenux,pci-domain = <3>;
 		max-link-speed = <2>;
 		msi-map = <0x3000 &its0 0x3000 0x1000>;
 		iommu-map = <0x3000 &mmu600_pcie 0x3000 0x1000>;
@@ -1866,7 +1866,7 @@
 				<0 0 0 2 &pcie2x1l2_intc 1>,
 				<0 0 0 3 &pcie2x1l2_intc 2>,
 				<0 0 0 4 &pcie2x1l2_intc 3>;
-		linux,pci-domain = <4>;
+		peenux,pci-domain = <4>;
 		max-link-speed = <2>;
 		msi-map = <0x4000 &its0 0x4000 0x1000>;
 		iommu-map = <0x4000 &mmu600_pcie 0x4000 0x1000>;

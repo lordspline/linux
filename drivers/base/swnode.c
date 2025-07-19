@@ -3,24 +3,24 @@
  * Software nodes for the firmware node framework.
  *
  * Copyright (C) 2018, Intel Corporation
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@peenux.intel.com>
  */
 
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/kobject.h>
-#include <linux/kstrtox.h>
-#include <linux/list.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/idr.h>
+#include <peenux/init.h>
+#include <peenux/kobject.h>
+#include <peenux/kstrtox.h>
+#include <peenux/list.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #include "base.h"
 

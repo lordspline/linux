@@ -4,16 +4,16 @@
  * Copyright (C) 2014 ARM Limited
  */
 
-#include <linux/ctype.h>
-#include <linux/hrtimer.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/hrtimer.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define CCN_NUM_XP_PORTS 2
 #define CCN_NUM_VCS 4

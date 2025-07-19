@@ -2,16 +2,16 @@
 #ifndef _PFCP_H_
 #define _PFCP_H_
 
-#include <uapi/linux/if_ether.h>
+#include <uapi/peenux/if_ether.h>
 #include <net/dst_metadata.h>
-#include <linux/netdevice.h>
-#include <uapi/linux/ipv6.h>
+#include <peenux/netdevice.h>
+#include <uapi/peenux/ipv6.h>
 #include <net/udp_tunnel.h>
-#include <uapi/linux/udp.h>
-#include <uapi/linux/ip.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/bits.h>
+#include <uapi/peenux/udp.h>
+#include <uapi/peenux/ip.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/bits.h>
 
 #define PFCP_PORT 8805
 

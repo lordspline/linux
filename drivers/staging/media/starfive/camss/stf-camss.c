@@ -10,12 +10,12 @@
  * Author: Changhuang Liang <changhuang.liang@starfivetech.com>
  *
  */
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/videodev2.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-fwnode.h>
 #include <media/v4l2-mc.h>
 

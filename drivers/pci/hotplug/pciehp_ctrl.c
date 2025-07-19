@@ -15,10 +15,10 @@
 
 #define dev_fmt(fmt) "pciehp: " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/pm_runtime.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pci.h>
 
 #include "../pci.h"
 #include "pciehp.h"

@@ -5,11 +5,11 @@
  * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
  */
 
-#include <linux/device.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/module.h>
-#include <linux/sched.h>
+#include <peenux/device.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
 #include "lib.h"
 #include "iso-resources.h"
 #include "cmp.h"

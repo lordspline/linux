@@ -10,12 +10,12 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 
 #include "privcmd.h"
 

@@ -6,22 +6,22 @@
  *  Author: Thomas Bonnefille <thomas.bonnefille@bootlin.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #define CV1800B_ADC_CTRL_REG				0x04
 #define	  CV1800B_ADC_EN				BIT(0)

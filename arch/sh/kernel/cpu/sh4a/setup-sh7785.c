@@ -4,15 +4,15 @@
  *
  *  Copyright (C) 2007  Paul Mundt
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/serial_sci.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/sh_dma.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_intc.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/serial_sci.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/sh_dma.h>
+#include <peenux/sh_timer.h>
+#include <peenux/sh_intc.h>
 #include <asm/mmzone.h>
 #include <asm/platform_early.h>
 #include <cpu/dma-register.h>

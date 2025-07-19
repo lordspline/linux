@@ -8,11 +8,11 @@
 
 #include "em28xx.h"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/usb.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/hardirq.h>
+#include <peenux/init.h>
+#include <peenux/usb.h>
 
 #include "em28xx-v4l.h"
 

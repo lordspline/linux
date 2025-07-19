@@ -7,8 +7,8 @@
  * Author: Parthiban Veerasooran <parthiban.veerasooran@microchip.com>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/spi/spi.h>
+#include <peenux/etherdevice.h>
+#include <peenux/spi/spi.h>
 
 struct oa_tc6;
 

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) Meta Platforms, Inc. and affiliates. */
 
-#include <linux/bitfield.h>
-#include <linux/jiffies.h>
-#include <linux/limits.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timer.h>
+#include <peenux/bitfield.h>
+#include <peenux/jiffies.h>
+#include <peenux/limits.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/timer.h>
 
 #include "fbnic.h"
 #include "fbnic_csr.h"

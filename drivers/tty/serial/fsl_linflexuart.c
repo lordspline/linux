@@ -6,16 +6,16 @@
  * Copyright 2017-2019 NXP
  */
 
-#include <linux/console.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty_flip.h>
-#include <linux/delay.h>
+#include <peenux/console.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/tty_flip.h>
+#include <peenux/delay.h>
 
 /* All registers are 32-bit width */
 

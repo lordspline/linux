@@ -4,24 +4,24 @@
  *
  * Copyright IBM Corporation, 2014
  *
- * Author: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Author: Paul E. McKenney <paulmck@peenux.ibm.com>
  */
 
 #ifndef __LINUX_TORTURE_H
 #define __LINUX_TORTURE_H
 
-#include <linux/types.h>
-#include <linux/cache.h>
-#include <linux/spinlock.h>
-#include <linux/threads.h>
-#include <linux/cpumask_types.h>
-#include <linux/seqlock.h>
-#include <linux/lockdep.h>
-#include <linux/completion.h>
-#include <linux/debugobjects.h>
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/hrtimer.h>
+#include <peenux/types.h>
+#include <peenux/cache.h>
+#include <peenux/spinlock.h>
+#include <peenux/threads.h>
+#include <peenux/cpumask_types.h>
+#include <peenux/seqlock.h>
+#include <peenux/lockdep.h>
+#include <peenux/completion.h>
+#include <peenux/debugobjects.h>
+#include <peenux/bug.h>
+#include <peenux/compiler.h>
+#include <peenux/hrtimer.h>
 
 /* Definitions for a non-string torture-test module parameter. */
 #define torture_param(type, name, init, msg) \

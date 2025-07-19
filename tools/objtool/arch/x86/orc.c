@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/objtool_types.h>
+#include <peenux/objtool_types.h>
 #include <asm/orc_types.h>
 
 #include <objtool/check.h>

@@ -12,9 +12,9 @@
  * Copyright (C) 2018 - 2024 Intel Corporation
  */
 
-#include <linux/ieee80211.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/ieee80211.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 #include <net/mac80211.h>
 #include "ieee80211_i.h"
 #include "driver-ops.h"

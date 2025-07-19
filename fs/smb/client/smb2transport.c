@@ -9,15 +9,15 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/wait.h>
-#include <linux/net.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/list.h>
+#include <peenux/wait.h>
+#include <peenux/net.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
 #include <asm/processor.h>
-#include <linux/mempool.h>
-#include <linux/highmem.h>
+#include <peenux/mempool.h>
+#include <peenux/highmem.h>
 #include <crypto/aead.h>
 #include "cifsglob.h"
 #include "cifsproto.h"

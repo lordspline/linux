@@ -6,10 +6,10 @@
 #ifndef TEGRA210_EMC_H
 #define TEGRA210_EMC_H
 
-#include <linux/clk.h>
-#include <linux/clk/tegra.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clk/tegra.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
 
 #define DVFS_FGCG_HIGH_SPEED_THRESHOLD				1000
 #define IOBRICK_DCC_THRESHOLD					2400

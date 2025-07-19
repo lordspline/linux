@@ -25,35 +25,35 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/utsname.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/slab.h>
-#include <linux/random.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/nodemask.h>
-#include <linux/spinlock.h>
-#include <linux/kthread.h>
-#include <linux/percpu.h>
-#include <linux/ptrace.h>
-#include <linux/workqueue.h>
-#include <linux/irq.h>
-#include <linux/ratelimit.h>
-#include <linux/syscalls.h>
-#include <linux/completion.h>
-#include <linux/uuid.h>
-#include <linux/uaccess.h>
-#include <linux/suspend.h>
-#include <linux/siphash.h>
-#include <linux/sched/isolation.h>
+#include <peenux/utsname.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/major.h>
+#include <peenux/string.h>
+#include <peenux/fcntl.h>
+#include <peenux/slab.h>
+#include <peenux/random.h>
+#include <peenux/poll.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/blkdev.h>
+#include <peenux/interrupt.h>
+#include <peenux/mm.h>
+#include <peenux/nodemask.h>
+#include <peenux/spinlock.h>
+#include <peenux/kthread.h>
+#include <peenux/percpu.h>
+#include <peenux/ptrace.h>
+#include <peenux/workqueue.h>
+#include <peenux/irq.h>
+#include <peenux/ratelimit.h>
+#include <peenux/syscalls.h>
+#include <peenux/completion.h>
+#include <peenux/uuid.h>
+#include <peenux/uaccess.h>
+#include <peenux/suspend.h>
+#include <peenux/siphash.h>
+#include <peenux/sched/isolation.h>
 #include <crypto/chacha.h>
 #include <crypto/blake2s.h>
 #ifdef CONFIG_VDSO_GETRANDOM
@@ -1618,7 +1618,7 @@ const struct file_operations urandom_fops = {
 
 #ifdef CONFIG_SYSCTL
 
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 
 static int sysctl_random_min_urandom_seed = CRNG_RESEED_INTERVAL / HZ;
 static int sysctl_random_write_wakeup_bits = POOL_READY_BITS;

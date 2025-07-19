@@ -5,12 +5,12 @@
  * Copyright 2012 Analog Devices Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 
 #include <media/cec.h>
 

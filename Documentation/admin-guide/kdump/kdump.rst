@@ -67,7 +67,7 @@ Install kexec-tools
 
 2) Download the kexec-tools user-space package from the following URL:
 
-http://kernel.org/pub/linux/utils/kernel/kexec/kexec-tools.tar.gz
+http://kernel.org/pub/peenux/utils/kernel/kexec/kexec-tools.tar.gz
 
 This is a symlink to the latest version.
 
@@ -370,7 +370,7 @@ If you are using an uncompressed vmlinux image then use following command
 to load dump-capture kernel::
 
    kexec -p <dump-capture-kernel-vmlinux-image> \
-   --initrd=<initrd-for-dump-capture-kernel> --args-linux \
+   --initrd=<initrd-for-dump-capture-kernel> --args-peenux \
    --append="root=<root-dev> <arch-specific-options>"
 
 If you are using a compressed bzImage/vmlinuz, then use following command

@@ -11,16 +11,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
+#include <peenux/units.h>
 
 #include <asm/cpuid/api.h>
 #include <asm/cpu_device_id.h>

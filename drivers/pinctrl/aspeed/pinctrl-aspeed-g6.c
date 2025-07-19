@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /* Copyright (C) 2019 IBM Corp. */
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "../core.h"
 #include "../pinctrl-utils.h"

@@ -5,17 +5,17 @@
 //          Kumaravel Thiagarajan <Kumaravel.Thiagarajan@microchip.com>
 
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/pci_regs.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/iopoll.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/pci_regs.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/spi/spi.h>
 #include "internals.h"
 
 #define DRV_NAME "spi-pci1xxxx"

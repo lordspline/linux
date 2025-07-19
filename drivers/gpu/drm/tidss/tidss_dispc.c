@@ -4,21 +4,21 @@
  * Author: Jyri Sarha <jsarha@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/sys_soc.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/sys_soc.h>
 
 #include <drm/drm_blend.h>
 #include <drm/drm_fourcc.h>

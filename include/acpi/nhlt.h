@@ -3,16 +3,16 @@
  * Copyright(c) 2023-2024 Intel Corporation
  *
  * Authors: Cezary Rojewski <cezary.rojewski@intel.com>
- *          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ *          Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
  */
 
 #ifndef __ACPI_NHLT_H__
 #define __ACPI_NHLT_H__
 
-#include <linux/acpi.h>
-#include <linux/kconfig.h>
-#include <linux/overflow.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/kconfig.h>
+#include <peenux/overflow.h>
+#include <peenux/types.h>
 
 #define __acpi_nhlt_endpoint_config(ep)		((void *)((ep) + 1))
 #define __acpi_nhlt_config_caps(cfg)		((void *)((cfg) + 1))

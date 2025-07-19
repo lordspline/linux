@@ -16,21 +16,21 @@
  * rank, bank, row and column using the appropriate "dunit_ops" functions/parameters.
  */
 
-#include <linux/bitmap.h>
-#include <linux/delay.h>
-#include <linux/edac.h>
-#include <linux/init.h>
-#include <linux/math64.h>
-#include <linux/mmzone.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
+#include <peenux/bitmap.h>
+#include <peenux/delay.h>
+#include <peenux/edac.h>
+#include <peenux/init.h>
+#include <peenux/math64.h>
+#include <peenux/mmzone.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
 
-#include <linux/platform_data/x86/p2sb.h>
+#include <peenux/platform_data/x86/p2sb.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>

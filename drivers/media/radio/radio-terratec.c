@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Terratec ActiveRadio ISA Standalone card driver for Linux radio support
+/* Terratec ActiveRadio ISA Standalone card driver for Peenux radio support
  * (c) 1999 R. Offermanns (rolf@offermanns.de)
  * based on the aimslab radio driver from M. Kirkwood
  * many thanks to Michael Becker and Friedhelm Birth (from TerraTec)
@@ -21,13 +21,13 @@
  * Converted to V4L2 API by Mauro Carvalho Chehab <mchehab@kernel.org>
  */
 
-#include <linux/module.h>	/* Modules			*/
-#include <linux/init.h>		/* Initdata			*/
-#include <linux/ioport.h>	/* request_region		*/
-#include <linux/videodev2.h>	/* kernel radio structs		*/
-#include <linux/mutex.h>
-#include <linux/io.h>		/* outb, outb_p			*/
-#include <linux/slab.h>
+#include <peenux/module.h>	/* Modules			*/
+#include <peenux/init.h>		/* Initdata			*/
+#include <peenux/ioport.h>	/* request_region		*/
+#include <peenux/videodev2.h>	/* kernel radio structs		*/
+#include <peenux/mutex.h>
+#include <peenux/io.h>		/* outb, outb_p			*/
+#include <peenux/slab.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
 #include "radio-isa.h"

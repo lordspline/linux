@@ -5,17 +5,17 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/user.h>
-#include <linux/keyctl.h>
-#include <linux/fs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/security.h>
-#include <linux/user_namespace.h>
-#include <linux/uaccess.h>
-#include <linux/init_task.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/sched/user.h>
+#include <peenux/keyctl.h>
+#include <peenux/fs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/security.h>
+#include <peenux/user_namespace.h>
+#include <peenux/uaccess.h>
+#include <peenux/init_task.h>
 #include <keys/request_key_auth-type.h>
 #include "internal.h"
 

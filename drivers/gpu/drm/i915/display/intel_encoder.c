@@ -3,7 +3,7 @@
  * Copyright © 2024 Intel Corporation
  */
 
-#include <linux/workqueue.h>
+#include <peenux/workqueue.h>
 
 #include "i915_drv.h"
 

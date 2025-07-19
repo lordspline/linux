@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/net/sunrpc/sunrpc_syms.c
+ * peenux/net/sunrpc/sunrpc_syms.c
  *
  * Symbols exported by the sunrpc module.
  *
  * Copyright (C) 1997 Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/types.h>
-#include <linux/uio.h>
-#include <linux/unistd.h>
-#include <linux/init.h>
+#include <peenux/types.h>
+#include <peenux/uio.h>
+#include <peenux/unistd.h>
+#include <peenux/init.h>
 
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/auth.h>
-#include <linux/workqueue.h>
-#include <linux/sunrpc/rpc_pipe_fs.h>
-#include <linux/sunrpc/xprtsock.h>
+#include <peenux/sunrpc/sched.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/svc.h>
+#include <peenux/sunrpc/svcsock.h>
+#include <peenux/sunrpc/auth.h>
+#include <peenux/workqueue.h>
+#include <peenux/sunrpc/rpc_pipe_fs.h>
+#include <peenux/sunrpc/xprtsock.h>
 
 #include "sunrpc.h"
 #include "sysfs.h"

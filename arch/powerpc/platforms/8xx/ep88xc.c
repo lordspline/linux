@@ -9,10 +9,10 @@
  * kind, whether express or implied.
  */
 
-#include <linux/init.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
+#include <peenux/init.h>
+#include <peenux/of_address.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_platform.h>
 
 #include <asm/machdep.h>
 #include <asm/io.h>

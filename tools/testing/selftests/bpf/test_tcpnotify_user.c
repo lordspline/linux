@@ -9,15 +9,15 @@
 #include <sys/syscall.h>
 #include <errno.h>
 #include <string.h>
-#include <linux/bpf.h>
+#include <peenux/bpf.h>
 #include <sys/socket.h>
 #include <bpf/bpf.h>
 #include <bpf/libbpf.h>
 #include <sys/ioctl.h>
-#include <linux/rtnetlink.h>
+#include <peenux/rtnetlink.h>
 #include <signal.h>
-#include <linux/perf_event.h>
-#include <linux/err.h>
+#include <peenux/perf_event.h>
+#include <peenux/err.h>
 
 #include "bpf_util.h"
 #include "cgroup_helpers.h"

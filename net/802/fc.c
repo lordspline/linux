@@ -6,23 +6,23 @@
  *		v 1.0 03/22/99
  */
 
-#include <linux/uaccess.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/fcdevice.h>
-#include <linux/skbuff.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/net.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
-#include <linux/export.h>
+#include <peenux/uaccess.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/fcdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/errno.h>
+#include <peenux/timer.h>
+#include <peenux/net.h>
+#include <peenux/proc_fs.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
 #include <net/arp.h>
 
 /*

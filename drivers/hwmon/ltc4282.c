@@ -4,26 +4,26 @@
  *
  * Copyright 2023 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/property.h>
-#include <linux/string.h>
-#include <linux/units.h>
-#include <linux/util_macros.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/i2c.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/property.h>
+#include <peenux/string.h>
+#include <peenux/units.h>
+#include <peenux/util_macros.h>
 
 #define LTC4282_CTRL_LSB			0x00
   #define LTC4282_CTRL_OV_RETRY_MASK		BIT(0)

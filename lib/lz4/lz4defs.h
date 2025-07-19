@@ -35,18 +35,18 @@
  *	Sven Schmidt <4sschmid@informatik.uni-hamburg.de>
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/bitops.h>
-#include <linux/string.h>	 /* memset, memcpy */
-#include <linux/lz4.h>
+#include <peenux/bitops.h>
+#include <peenux/string.h>	 /* memset, memcpy */
+#include <peenux/lz4.h>
 
 #define FORCE_INLINE __always_inline
 
 /*-************************************
  *	Basic Types
  **************************************/
-#include <linux/types.h>
+#include <peenux/types.h>
 
 typedef	uint8_t BYTE;
 typedef uint16_t U16;
@@ -145,7 +145,7 @@ static FORCE_INLINE void LZ4_writeLE16(void *memPtr, U16 value)
  * standard compliant, so apply its specialized memcpy() inlining logic. When
  * possible, use __builtin_memcpy() to tell the compiler to analyze memcpy()
  * as-if it were standard compliant, so it can inline it in freestanding
- * environments. This is needed when decompressing the Linux Kernel, for example.
+ * environments. This is needed when decompressing the Peenux Kernel, for example.
  */
 #define LZ4_memcpy(dst, src, size) __builtin_memcpy(dst, src, size)
 #define LZ4_memmove(dst, src, size) __builtin_memmove(dst, src, size)

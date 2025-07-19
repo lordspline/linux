@@ -6,10 +6,10 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/miscdevice.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/uaccess.h>
+#include <peenux/miscdevice.h>
 
 #include "fsl-mc-private.h"
 

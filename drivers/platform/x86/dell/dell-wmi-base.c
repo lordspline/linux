@@ -13,17 +13,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/acpi.h>
-#include <linux/string.h>
-#include <linux/dmi.h>
-#include <linux/wmi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/acpi.h>
+#include <peenux/string.h>
+#include <peenux/dmi.h>
+#include <peenux/wmi.h>
 #include <acpi/video.h>
 #include "dell-smbios.h"
 #include "dell-wmi-descriptor.h"

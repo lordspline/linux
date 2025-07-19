@@ -6,13 +6,13 @@
  * Copyright 2014-2015 Linaro Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/greybus.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
+#include <peenux/greybus.h>
 
 #include "greybus_trace.h"
 
@@ -400,7 +400,7 @@ static void gb_operation_message_free(struct gb_message *message)
 
 /*
  * Map an enum gb_operation_status value (which is represented in a
- * message as a single byte) to an appropriate Linux negative errno.
+ * message as a single byte) to an appropriate Peenux negative errno.
  */
 static int gb_operation_status_map(u8 status)
 {
@@ -432,7 +432,7 @@ static int gb_operation_status_map(u8 status)
 }
 
 /*
- * Map a Linux errno value (from operation->errno) into the value
+ * Map a Peenux errno value (from operation->errno) into the value
  * that should represent it in a response message status sent
  * over the wire.  Returns an enum gb_operation_status value (which
  * is represented in a message as a single byte).

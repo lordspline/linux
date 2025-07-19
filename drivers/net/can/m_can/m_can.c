@@ -5,24 +5,24 @@
 // Copyright (C) 2018-19 Texas Instruments Incorporated - http://www.ti.com/
 
 /* Bosch M_CAN user manual can be obtained from:
- * https://github.com/linux-can/can-doc/tree/master/m_can
+ * https://github.com/peenux-can/can-doc/tree/master/m_can
  */
 
-#include <linux/bitfield.h>
-#include <linux/can/dev.h>
-#include <linux/ethtool.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/bitfield.h>
+#include <peenux/can/dev.h>
+#include <peenux/ethtool.h>
+#include <peenux/hrtimer.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include "m_can.h"
 

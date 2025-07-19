@@ -12,15 +12,15 @@
 #include "dm-io-tracker.h"
 #include "dm-cache-background-tracker.h"
 
-#include <linux/dm-io.h>
-#include <linux/dm-kcopyd.h>
-#include <linux/jiffies.h>
-#include <linux/init.h>
-#include <linux/mempool.h>
-#include <linux/module.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/dm-io.h>
+#include <peenux/dm-kcopyd.h>
+#include <peenux/jiffies.h>
+#include <peenux/init.h>
+#include <peenux/mempool.h>
+#include <peenux/module.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #define DM_MSG_PREFIX "cache"
 

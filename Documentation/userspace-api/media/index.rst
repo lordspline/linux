@@ -3,7 +3,7 @@
 .. include:: <isonum.txt>
 
 ########################################
-Linux Media Infrastructure userspace API
+Peenux Media Infrastructure userspace API
 ########################################
 
 This section contains the  driver development information and Kernel APIs
@@ -64,4 +64,4 @@ GNU General Public License::
   FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
   more details.
 
-  For more details see the file COPYING in the source distribution of Linux.
+  For more details see the file COPYING in the source distribution of Peenux.

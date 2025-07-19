@@ -20,9 +20,9 @@
 #include <sys/ioctl.h>
 #include <sys/sysinfo.h>
 #include <asm/barrier.h>
-#include <linux/atomic.h>
-#include <linux/rseq.h>
-#include <linux/unistd.h>
+#include <peenux/atomic.h>
+#include <peenux/rseq.h>
+#include <peenux/unistd.h>
 
 #include "kvm_util.h"
 #include "processor.h"

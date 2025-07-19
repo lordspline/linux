@@ -12,11 +12,11 @@
 #include <string.h>
 #include <sys/ioctl.h>
 
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/kvm_para.h>
-#include <linux/memfd.h>
-#include <linux/sizes.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/kvm_para.h>
+#include <peenux/memfd.h>
+#include <peenux/sizes.h>
 
 #include <test_util.h>
 #include <kvm_util.h>

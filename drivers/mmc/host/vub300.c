@@ -32,23 +32,23 @@
  *             bits and driver data fields reflect that limit by using
  *             u8, u16, u32
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kref.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/workqueue.h>
-#include <linux/ctype.h>
-#include <linux/firmware.h>
-#include <linux/scatterlist.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kref.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
+#include <peenux/mutex.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/sdio_func.h>
+#include <peenux/mmc/sdio_ids.h>
+#include <peenux/workqueue.h>
+#include <peenux/ctype.h>
+#include <peenux/firmware.h>
+#include <peenux/scatterlist.h>
 
 struct host_controller_info {
 	u8 info_size;

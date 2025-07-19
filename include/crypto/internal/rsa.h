@@ -7,7 +7,7 @@
  */
 #ifndef _RSA_HELPER_
 #define _RSA_HELPER_
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <crypto/akcipher.h>
 
 /**

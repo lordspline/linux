@@ -30,16 +30,16 @@
  * SOFTWARE.
  */
 
-#include <linux/highmem.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/random.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/eq.h>
-#include <linux/debugfs.h>
+#include <peenux/highmem.h>
+#include <peenux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/random.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/mlx5/eq.h>
+#include <peenux/debugfs.h>
 
 #include "mlx5_core.h"
 #include "lib/eq.h"

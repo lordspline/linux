@@ -11,8 +11,8 @@
 #ifndef __MIPS_ASM_MIPS_CPC_H__
 #define __MIPS_ASM_MIPS_CPC_H__
 
-#include <linux/bitops.h>
-#include <linux/errno.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
 
 /* The base address of the CPC registers */
 extern void __iomem *mips_cpc_base;

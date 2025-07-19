@@ -11,18 +11,18 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/dmi.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/platform_data/x86/soc.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/dmi.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_data/x86/soc.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/of.h>
+#include <peenux/unaligned.h>
 #include "goodix.h"
 
 #define GOODIX_GPIO_INT_NAME		"irq"

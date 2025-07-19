@@ -5,9 +5,9 @@
 #if !defined(_TRACE_DMA_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_DMA_H
 
-#include <linux/tracepoint.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
+#include <peenux/tracepoint.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
 #include <trace/events/mmflags.h>
 
 TRACE_DEFINE_ENUM(DMA_BIDIRECTIONAL);

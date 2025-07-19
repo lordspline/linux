@@ -7,11 +7,11 @@
  * This file contains the needed initializations to support sysenter.
  */
 
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/mm_types.h>
-#include <linux/elf.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/mm_types.h>
+#include <peenux/elf.h>
 
 #include <asm/processor.h>
 #include <asm/vdso.h>
@@ -53,7 +53,7 @@ __setup_param("vdso=", vdso_setup, vdso32_setup, 0);
 
 
 #ifdef CONFIG_SYSCTL
-#include <linux/sysctl.h>
+#include <peenux/sysctl.h>
 
 static const struct ctl_table vdso_table[] = {
 	{

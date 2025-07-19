@@ -2,24 +2,24 @@
 /*
  *    Architecture-specific kernel symbols
  *
- *    Copyright (C) 2000-2001 Richard Hirst <rhirst with parisc-linux.org>
+ *    Copyright (C) 2000-2001 Richard Hirst <rhirst with parisc-peenux.org>
  *    Copyright (C) 2001 Dave Kennedy
- *    Copyright (C) 2001 Paul Bame <bame at parisc-linux.org>
- *    Copyright (C) 2001-2003 Grant Grundler <grundler with parisc-linux.org>
- *    Copyright (C) 2002-2003 Matthew Wilcox <willy at parisc-linux.org>
- *    Copyright (C) 2002 Randolph Chung <tausq at parisc-linux.org>
- *    Copyright (C) 2002-2007 Helge Deller <deller with parisc-linux.org>
+ *    Copyright (C) 2001 Paul Bame <bame at parisc-peenux.org>
+ *    Copyright (C) 2001-2003 Grant Grundler <grundler with parisc-peenux.org>
+ *    Copyright (C) 2002-2003 Matthew Wilcox <willy at parisc-peenux.org>
+ *    Copyright (C) 2002 Randolph Chung <tausq at parisc-peenux.org>
+ *    Copyright (C) 2002-2007 Helge Deller <deller with parisc-peenux.org>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/syscalls.h>
-#include <linux/libgcc.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/syscalls.h>
+#include <peenux/libgcc.h>
 
-#include <linux/string.h>
+#include <peenux/string.h>
 EXPORT_SYMBOL(memset);
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 EXPORT_SYMBOL(__xchg8);
 EXPORT_SYMBOL(__xchg32);
 EXPORT_SYMBOL(__cmpxchg_u8);
@@ -33,7 +33,7 @@ EXPORT_SYMBOL(__atomic_hash);
 EXPORT_SYMBOL(__xchg64);
 #endif
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 EXPORT_SYMBOL(lclear_user);
 
 #ifndef CONFIG_64BIT

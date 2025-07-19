@@ -3,8 +3,8 @@
  * Copyright (C) 2016 Noralf Trønnes
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

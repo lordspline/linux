@@ -26,7 +26,7 @@
 
 #include "dc_trace.h"
 
-#include <linux/fpu.h>
+#include <peenux/fpu.h>
 
 /**
  * DOC: DC FPU manipulation overview

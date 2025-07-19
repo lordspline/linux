@@ -7,12 +7,12 @@
  * https://datasheets.maximintegrated.com/en/ds/MAX5432-MAX5435.pdf
  */
 
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
 
 /* All chip variants have 32 wiper positions. */
 #define MAX5432_MAX_POS 31

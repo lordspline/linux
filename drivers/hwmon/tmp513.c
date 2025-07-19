@@ -19,20 +19,20 @@
  * the Free Software Foundation; version 2 of the License.
  */
 
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 // Common register definition
 #define TMP51X_SHUNT_CONFIG		0x00

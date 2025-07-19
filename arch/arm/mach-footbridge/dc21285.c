@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/dec21285.c: PCI functions for DC21285
+ *  peenux/arch/arm/kernel/dec21285.c: PCI functions for DC21285
  *
  *  Copyright (C) 1998-2001 Russell King
  *  Copyright (C) 1998-2000 Phil Blundell
  */
-#include <linux/dma-map-ops.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
 
 #include <asm/irq.h>
 #include <asm/mach/pci.h>

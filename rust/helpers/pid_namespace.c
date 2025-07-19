@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/pid_namespace.h>
-#include <linux/cleanup.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/cleanup.h>
 
 struct pid_namespace *rust_helper_get_pid_ns(struct pid_namespace *ns)
 {

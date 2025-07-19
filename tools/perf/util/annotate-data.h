@@ -3,9 +3,9 @@
 #define _PERF_ANNOTATE_DATA_H
 
 #include <errno.h>
-#include <linux/compiler.h>
-#include <linux/rbtree.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/rbtree.h>
+#include <peenux/types.h>
 #include "dwarf-regs.h"
 #include "annotate.h"
 

@@ -8,10 +8,10 @@
  * Copyright © 2011-2013 Jussi Kivilinna <jussi.kivilinna@iki.fi>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/crypto.h>
-#include <linux/err.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/crypto.h>
+#include <peenux/err.h>
 #include <crypto/algapi.h>
 #include <crypto/serpent.h>
 

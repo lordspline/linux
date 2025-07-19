@@ -2,7 +2,7 @@
 
 #include <drm/drm_exec.h>
 #include <drm/drm_gem.h>
-#include <linux/dma-resv.h>
+#include <peenux/dma-resv.h>
 
 /**
  * DOC: Overview

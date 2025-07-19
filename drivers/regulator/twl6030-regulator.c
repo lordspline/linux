@@ -6,18 +6,18 @@
  * Copyright (C) 2016 Nicolae Rosia <nicolae.rosia@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/twl.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/delay.h>
 
 struct twlreg_info {
 	/* start of regulator's PM_RECEIVER control register bank */
@@ -116,7 +116,7 @@ static int twlreg_grp(struct regulator_dev *rdev)
 /* definition for 6030 family */
 #define P3_GRP_6030	BIT(2)		/* secondary processor, modem, etc */
 #define P2_GRP_6030	BIT(1)		/* "peripherals" */
-#define P1_GRP_6030	BIT(0)		/* CPU/Linux */
+#define P1_GRP_6030	BIT(0)		/* CPU/Peenux */
 
 static int twl6030reg_is_enabled(struct regulator_dev *rdev)
 {

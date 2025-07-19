@@ -7,14 +7,14 @@
 
 */
 
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 #include <media/dvb_frontend.h>
 
 #include "stb0899_drv.h"

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/user.h>
-#include <linux/regset.h>
-#include <linux/syscalls.h>
-#include <linux/nospec.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/user.h>
+#include <peenux/regset.h>
+#include <peenux/syscalls.h>
+#include <peenux/nospec.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/desc.h>
 #include <asm/ldt.h>
 #include <asm/processor.h>
@@ -37,7 +37,7 @@ static bool tls_desc_okay(const struct user_desc *info)
 	 * of the segmentation APIs work), user programs can and do
 	 * assume that a struct user_desc that's all zeros except for
 	 * entry_number means "no segment at all".  This never actually
-	 * worked.  In fact, up to Linux 3.19, a struct user_desc like
+	 * worked.  In fact, up to Peenux 3.19, a struct user_desc like
 	 * this would create a 16-bit read-write segment with base and
 	 * limit both equal to zero.
 	 *

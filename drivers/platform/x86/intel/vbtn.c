@@ -6,16 +6,16 @@
  *  Copyright (C) 2016 Alex Hung <alex.hung@canonical.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/cleanup.h>
-#include <linux/dmi.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/suspend.h>
+#include <peenux/acpi.h>
+#include <peenux/cleanup.h>
+#include <peenux/dmi.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/suspend.h>
 #include "../dual_accel_detect.h"
 
 /* Returned when NOT in tablet mode on some HP Stream x360 11 models */

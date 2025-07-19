@@ -1,5 +1,5 @@
 /*
- * This file is part of the Chelsio FCoE driver for Linux.
+ * This file is part of the Chelsio FCoE driver for Peenux.
  *
  * Copyright (c) 2008-2012 Chelsio Communications, Inc. All rights reserved.
  *
@@ -32,11 +32,11 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/cpumask.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/cpumask.h>
+#include <peenux/string.h>
 
 #include "csio_init.h"
 #include "csio_hw.h"

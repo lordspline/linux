@@ -8,10 +8,10 @@
 #include <asm/cpu_device_id.h>
 #include <crypto/algapi.h>
 #include <crypto/twofish.h>
-#include <linux/crypto.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/crypto.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 #include "twofish.h"
 #include "ecb_cbc_helpers.h"

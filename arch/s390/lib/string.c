@@ -12,9 +12,9 @@
 # define __NO_FORTIFY
 #endif
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/export.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/export.h>
 #include <asm/asm.h>
 
 /*

@@ -5,8 +5,8 @@
  * Copyright 2001-2006 Ian Kent <raven@themaw.net>
  */
 
-#include <linux/capability.h>
-#include <linux/compat.h>
+#include <peenux/capability.h>
+#include <peenux/compat.h>
 
 #include "autofs_i.h"
 

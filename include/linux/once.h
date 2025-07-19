@@ -2,8 +2,8 @@
 #ifndef _LINUX_ONCE_H
 #define _LINUX_ONCE_H
 
-#include <linux/types.h>
-#include <linux/jump_label.h>
+#include <peenux/types.h>
+#include <peenux/jump_label.h>
 
 /* Helpers used from arbitrary contexts.
  * Hard irqs are blocked, be cautious.

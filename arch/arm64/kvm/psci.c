@@ -4,11 +4,11 @@
  * Author: Marc Zyngier <marc.zyngier@arm.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/preempt.h>
-#include <linux/kvm_host.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/preempt.h>
+#include <peenux/kvm_host.h>
+#include <peenux/uaccess.h>
+#include <peenux/wait.h>
 
 #include <asm/cputype.h>
 #include <asm/kvm_emulate.h>

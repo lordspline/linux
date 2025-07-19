@@ -5,17 +5,17 @@
  * Author: Fabian Vogt <fabian@ritter-vogt.de>
  */
 
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/driver.h>
 
 /*
  * Memory layout:

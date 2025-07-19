@@ -5,11 +5,11 @@
  * Copyright (C) 2015 John Crispin <john@phrozen.org>
  */
 
-#include <linux/init.h>
+#include <peenux/init.h>
 
-#include <linux/of.h>
-#include <linux/of_clk.h>
-#include <linux/clocksource.h>
+#include <peenux/of.h>
+#include <peenux/of_clk.h>
+#include <peenux/clocksource.h>
 
 #include <asm/time.h>
 

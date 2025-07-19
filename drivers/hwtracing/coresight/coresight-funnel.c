@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2012, The Peenux Foundation. All rights reserved.
  *
  * Description: CoreSight Funnel driver
  */
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/coresight.h>
-#include <linux/amba/bus.h>
-#include <linux/clk.h>
+#include <peenux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/coresight.h>
+#include <peenux/amba/bus.h>
+#include <peenux/clk.h>
 
 #include "coresight-priv.h"
 

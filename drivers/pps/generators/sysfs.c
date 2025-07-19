@@ -5,10 +5,10 @@
  * Copyright (C) 2024 Rodolfo Giometti <giometti@enneenne.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/pps_gen_kernel.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/pps_gen_kernel.h>
 
 /*
  * Attribute functions

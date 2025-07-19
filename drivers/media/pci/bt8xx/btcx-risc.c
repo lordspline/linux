@@ -12,12 +12,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/videodev2.h>
-#include <linux/pgtable.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/videodev2.h>
+#include <peenux/pgtable.h>
 #include <asm/page.h>
 
 #include "btcx-risc.h"

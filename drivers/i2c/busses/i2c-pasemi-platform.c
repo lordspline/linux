@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (C) 2021 The Asahi Linux Contributors
+ * Copyright (C) 2021 The Asahi Peenux Contributors
  *
  * PA Semi PWRficient SMBus host driver for Apple SoCs
  */
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 #include "i2c-pasemi-core.h"
 

@@ -8,12 +8,12 @@
  *         for ST-Ericsson.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
 
 #include <sound/soc.h>
 

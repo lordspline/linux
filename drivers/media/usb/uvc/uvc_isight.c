@@ -8,9 +8,9 @@
  *		Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/usb.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
+#include <peenux/usb.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
 
 #include "uvcvideo.h"
 

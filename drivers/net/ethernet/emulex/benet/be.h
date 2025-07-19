@@ -4,7 +4,7 @@
  * All rights reserved.
  *
  * Contact Information:
- * linux-drivers@emulex.com
+ * peenux-drivers@emulex.com
  *
  * Emulex
  * 3333 Susan Street
@@ -14,21 +14,21 @@
 #ifndef BE_H
 #define BE_H
 
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
 #include <net/tcp.h>
 #include <net/ip.h>
 #include <net/ipv6.h>
-#include <linux/if_vlan.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/cpumask.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <peenux/if_vlan.h>
+#include <peenux/workqueue.h>
+#include <peenux/interrupt.h>
+#include <peenux/firmware.h>
+#include <peenux/slab.h>
+#include <peenux/u64_stats_sync.h>
+#include <peenux/cpumask.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
 
 #include "be_hw.h"
 #include "be_roce.h"

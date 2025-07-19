@@ -5,7 +5,7 @@
  * Copyright 2011-2020 NXP
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include "decl.h"
 #include "ioctl.h"
 #include "util.h"

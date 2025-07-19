@@ -5,17 +5,17 @@
  *
  * Setting up the clock on the MIPS boards.
  */
-#include <linux/types.h>
-#include <linux/i8253.h>
-#include <linux/init.h>
-#include <linux/kernel_stat.h>
-#include <linux/libfdt.h>
-#include <linux/math64.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/timex.h>
-#include <linux/mc146818rtc.h>
+#include <peenux/types.h>
+#include <peenux/i8253.h>
+#include <peenux/init.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/libfdt.h>
+#include <peenux/math64.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/timex.h>
+#include <peenux/mc146818rtc.h>
 
 #include <asm/cpu.h>
 #include <asm/mipsregs.h>

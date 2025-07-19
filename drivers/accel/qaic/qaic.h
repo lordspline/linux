@@ -1,21 +1,21 @@
 /* SPDX-License-Identifier: GPL-2.0-only
  *
- * Copyright (c) 2019-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2021, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2023 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #ifndef _QAIC_H_
 #define _QAIC_H_
 
-#include <linux/interrupt.h>
-#include <linux/kref.h>
-#include <linux/mhi.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/srcu.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/interrupt.h>
+#include <peenux/kref.h>
+#include <peenux/mhi.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/srcu.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 #include <drm/drm_device.h>
 #include <drm/drm_gem.h>
 
@@ -29,7 +29,7 @@
 #define to_qaic_bo(obj) container_of(obj, struct qaic_bo, base)
 #define to_qaic_drm_device(dev) container_of(dev, struct qaic_drm_device, drm)
 #define to_drm(qddev) (&(qddev)->drm)
-#define to_accel_kdev(qddev) (to_drm(qddev)->accel->kdev) /* Return Linux device of accel node */
+#define to_accel_kdev(qddev) (to_drm(qddev)->accel->kdev) /* Return Peenux device of accel node */
 #define to_qaic_device(dev) (to_qaic_drm_device((dev))->qdev)
 
 enum aic_families {

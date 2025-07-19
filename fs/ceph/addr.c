@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/backing-dev.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/pagevec.h>
-#include <linux/task_io_accounting_ops.h>
-#include <linux/signal.h>
-#include <linux/iversion.h>
-#include <linux/ktime.h>
-#include <linux/netfs.h>
+#include <peenux/backing-dev.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/pagevec.h>
+#include <peenux/task_io_accounting_ops.h>
+#include <peenux/signal.h>
+#include <peenux/iversion.h>
+#include <peenux/ktime.h>
+#include <peenux/netfs.h>
 #include <trace/events/netfs.h>
 
 #include "super.h"
@@ -20,8 +20,8 @@
 #include "cache.h"
 #include "metric.h"
 #include "crypto.h"
-#include <linux/ceph/osd_client.h>
-#include <linux/ceph/striper.h>
+#include <peenux/ceph/osd_client.h>
+#include <peenux/ceph/striper.h>
 
 /*
  * Ceph address space ops.

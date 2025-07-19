@@ -5,17 +5,17 @@
  * Copyright (C) 2016 David Lechner <david@lechnology.com>
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/mfd/da8xx-cfgchip.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_data/phy-da8xx-usb.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/mfd/da8xx-cfgchip.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_data/phy-da8xx-usb.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #define PHY_INIT_BITS	(CFGCHIP2_SESENDEN | CFGCHIP2_VBDTCTEN)
 

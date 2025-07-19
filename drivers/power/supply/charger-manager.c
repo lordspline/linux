@@ -12,20 +12,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
-#include <linux/power/charger-manager.h>
-#include <linux/regulator/consumer.h>
-#include <linux/string_choices.h>
-#include <linux/sysfs.h>
-#include <linux/of.h>
-#include <linux/thermal.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/platform_device.h>
+#include <peenux/power/charger-manager.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/string_choices.h>
+#include <peenux/sysfs.h>
+#include <peenux/of.h>
+#include <peenux/thermal.h>
 
 static struct {
 	const char *name;

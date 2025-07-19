@@ -3,21 +3,21 @@
 // Driver for the IMX keypad port.
 // Copyright (C) 2009 Alberto Panizzo <maramaopercheseimorto@gmail.com>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/input.h>
+#include <peenux/input/matrix_keypad.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
 
 /*
  * Keypad Controller registers (halfword)

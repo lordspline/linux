@@ -11,7 +11,7 @@
 #include "subvolume.h"
 #include "super.h"
 
-#include <linux/crc32c.h>
+#include <peenux/crc32c.h>
 #include <crypto/sha2.h>
 
 static inline enum bch_str_hash_type

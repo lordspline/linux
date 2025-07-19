@@ -4,12 +4,12 @@
  * Copyright (C) 2018 Zoro Li
  */
 
-#include <linux/bcd.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
+#include <peenux/bcd.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
 
 #define SD3078_REG_SC			0x00
 #define SD3078_REG_MN			0x01

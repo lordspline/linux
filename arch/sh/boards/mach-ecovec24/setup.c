@@ -8,35 +8,35 @@
 #include <asm/heartbeat.h>
 #include <asm/suspend.h>
 #include <cpu/sh7724.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sh_keysc.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/mmc/host.h>
-#include <linux/platform_data/sh_mmcif.h>
-#include <linux/mtd/physmap.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/platform_data/gpio_backlight.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/platform_data/tsc2007.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/sh_eth.h>
-#include <linux/sh_intc.h>
-#include <linux/spi/mmc_spi.h>
-#include <linux/spi/sh_msiof.h>
-#include <linux/spi/spi.h>
-#include <linux/usb/r8a66597.h>
-#include <linux/usb/renesas_usbhs.h>
-#include <linux/videodev2.h>
-#include <linux/dma-map-ops.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/input/sh_keysc.h>
+#include <peenux/interrupt.h>
+#include <peenux/memblock.h>
+#include <peenux/mmc/host.h>
+#include <peenux/platform_data/sh_mmcif.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/platform_data/gpio_backlight.h>
+#include <peenux/platform_data/tmio.h>
+#include <peenux/platform_data/tsc2007.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/fixed.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/sh_eth.h>
+#include <peenux/sh_intc.h>
+#include <peenux/spi/mmc_spi.h>
+#include <peenux/spi/sh_msiof.h>
+#include <peenux/spi/spi.h>
+#include <peenux/usb/r8a66597.h>
+#include <peenux/usb/renesas_usbhs.h>
+#include <peenux/videodev2.h>
+#include <peenux/dma-map-ops.h>
 
 #include <media/drv-intf/renesas-ceu.h>
 #include <media/i2c/mt9t112.h>
@@ -51,8 +51,8 @@
  *  Address      Interface        BusWidth
  *-----------------------------------------
  *  0x0000_0000  uboot            16bit
- *  0x0004_0000  Linux romImage   16bit
- *  0x0014_0000  MTD for Linux    16bit
+ *  0x0004_0000  Peenux romImage   16bit
+ *  0x0014_0000  MTD for Peenux    16bit
  *  0x0400_0000  Internal I/O     16/32bit
  *  0x0800_0000  DRAM             32bit
  *  0x1800_0000  MFI              16bit

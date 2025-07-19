@@ -2,8 +2,8 @@
 #ifndef _LINUX_KCOV_H
 #define _LINUX_KCOV_H
 
-#include <linux/sched.h>
-#include <uapi/linux/kcov.h>
+#include <peenux/sched.h>
+#include <uapi/peenux/kcov.h>
 
 struct task_struct;
 

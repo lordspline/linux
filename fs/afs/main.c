@@ -5,13 +5,13 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/completion.h>
-#include <linux/sched.h>
-#include <linux/random.h>
-#include <linux/proc_fs.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/completion.h>
+#include <peenux/sched.h>
+#include <peenux/random.h>
+#include <peenux/proc_fs.h>
 #define CREATE_TRACE_POINTS
 #include "internal.h"
 

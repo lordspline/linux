@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-1.0+
 /* mac8390.c: New driver for 8390-based Nubus (or Nubus-alike)
-   Ethernet cards on Linux */
+   Ethernet cards on Peenux */
 /* Based on the former daynaport.c driver, by Alan Cox.  Some code
    taken from or inspired by skeleton.c by Donald Becker, acenic.c by
    Jes Sorensen, and ne2k-pci.c by Donald Becker and Paul Gortmaker. */
@@ -17,23 +17,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/nubus.h>
-#include <linux/in.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ptrace.h>
+#include <peenux/ioport.h>
+#include <peenux/nubus.h>
+#include <peenux/in.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
 
 #include <asm/dma.h>
 #include <asm/hwtest.h>

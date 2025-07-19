@@ -19,8 +19,8 @@
 #include <sys/socket.h>
 #include <sys/types.h>
 
-#include <linux/genetlink.h>
-#include <linux/netlink.h>
+#include <peenux/genetlink.h>
+#include <peenux/netlink.h>
 
 #include "netdev-user.h"
 
@@ -31,7 +31,7 @@
  *   sys/epoll.h does include the type definition for epoll_data, which is
  *   needed by the user program (e.g. epoll_event.data.fd)
  *
- * - linux/eventpoll.h does not define the epoll_data type, it is simply an
+ * - peenux/eventpoll.h does not define the epoll_data type, it is simply an
  *   opaque __u64. It does, however, include the ioctl definition.
  *
  * Including both headers is impossible (types would be redefined), so I've

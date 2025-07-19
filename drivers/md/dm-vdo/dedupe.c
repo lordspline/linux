@@ -117,13 +117,13 @@
 
 #include "dedupe.h"
 
-#include <linux/atomic.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/ratelimit.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
+#include <peenux/atomic.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/ratelimit.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

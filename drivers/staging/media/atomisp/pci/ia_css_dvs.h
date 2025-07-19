@@ -11,7 +11,7 @@
  * This file contains types for DVS statistics
  */
 
-#include <linux/build_bug.h>
+#include <peenux/build_bug.h>
 
 #include <type_support.h>
 #include "ia_css_types.h"

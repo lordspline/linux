@@ -4,18 +4,18 @@
  * Copyright (C) 2007, 2008 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/scatterlist.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/init.h>
-#include <linux/bitmap.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/scatterlist.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/init.h>
+#include <peenux/bitmap.h>
 #include <asm/iommu-common.h>
 
 #include <asm/hypervisor.h>

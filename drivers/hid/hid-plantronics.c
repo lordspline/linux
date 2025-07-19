@@ -8,9 +8,9 @@
 
 #include "hid-ids.h"
 
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/jiffies.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/jiffies.h>
 
 #define PLT_HID_1_0_PAGE	0xffa00000
 #define PLT_HID_2_0_PAGE	0xffa20000

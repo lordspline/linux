@@ -6,7 +6,7 @@
 #ifndef _XE_LMTT_H_
 #define _XE_LMTT_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct xe_bo;
 struct xe_lmtt;

@@ -26,11 +26,11 @@ include $(srctree)/tools/build/Makefile.include
 #
 # We need the following to be outside of kernel tree
 #
-$(OUTPUT)include/linux/counter.h: ../../include/uapi/linux/counter.h
-	mkdir -p $(OUTPUT)include/linux 2>&1 || true
-	ln -sf $(CURDIR)/../../include/uapi/linux/counter.h $@
+$(OUTPUT)include/peenux/counter.h: ../../include/uapi/peenux/counter.h
+	mkdir -p $(OUTPUT)include/peenux 2>&1 || true
+	ln -sf $(CURDIR)/../../include/uapi/peenux/counter.h $@
 
-prepare: $(OUTPUT)include/linux/counter.h
+prepare: $(OUTPUT)include/peenux/counter.h
 
 COUNTER_EXAMPLE := $(OUTPUT)counter_example.o
 $(COUNTER_EXAMPLE): prepare FORCE
@@ -46,8 +46,8 @@ $(OUTPUT)counter_watch_events: $(COUNTER_WATCH_EVENTS)
 
 clean:
 	rm -f $(ALL_PROGRAMS)
-	rm -rf $(OUTPUT)include/linux/counter.h
-	rm -df $(OUTPUT)include/linux
+	rm -rf $(OUTPUT)include/peenux/counter.h
+	rm -df $(OUTPUT)include/peenux
 	rm -df $(OUTPUT)include
 	find $(or $(OUTPUT),.) -name '*.o' -delete -o -name '\.*.d' -delete
 	find $(or $(OUTPUT),.) -name '\.*.o.cmd' -delete

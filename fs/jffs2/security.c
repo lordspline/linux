@@ -9,17 +9,17 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/time.h>
-#include <linux/pagemap.h>
-#include <linux/highmem.h>
-#include <linux/crc32.h>
-#include <linux/jffs2.h>
-#include <linux/xattr.h>
-#include <linux/mtd/mtd.h>
-#include <linux/security.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/time.h>
+#include <peenux/pagemap.h>
+#include <peenux/highmem.h>
+#include <peenux/crc32.h>
+#include <peenux/jffs2.h>
+#include <peenux/xattr.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/security.h>
 #include "nodelist.h"
 
 /* ---- Initial Security Label(s) Attachment callback --- */

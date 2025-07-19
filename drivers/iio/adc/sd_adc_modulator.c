@@ -6,14 +6,14 @@
  * Author: Arnaud Pouliquen <arnaud.pouliquen@st.com>.
  */
 
-#include <linux/iio/backend.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
 
 static const struct iio_info iio_sd_mod_iio_info;
 

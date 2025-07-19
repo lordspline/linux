@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/syscalls.h>
-#include <linux/types.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/syscalls.h>
+#include <peenux/types.h>
 
 #include <asm/cmpxchg.h>
 #include <asm/cpufeature.h>

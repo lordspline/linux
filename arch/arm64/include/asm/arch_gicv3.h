@@ -11,8 +11,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/irqchip/arm-gic-common.h>
-#include <linux/stringify.h>
+#include <peenux/irqchip/arm-gic-common.h>
+#include <peenux/stringify.h>
 #include <asm/barrier.h>
 #include <asm/cacheflush.h>
 

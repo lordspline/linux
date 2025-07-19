@@ -6,14 +6,14 @@
  * test source files.
  */
 #include "lkdtm.h"
-#include <linux/cpu.h>
-#include <linux/list.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task_stack.h>
-#include <linux/slab.h>
-#include <linux/stop_machine.h>
-#include <linux/uaccess.h>
+#include <peenux/cpu.h>
+#include <peenux/list.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/slab.h>
+#include <peenux/stop_machine.h>
+#include <peenux/uaccess.h>
 
 #if IS_ENABLED(CONFIG_X86_32) && !IS_ENABLED(CONFIG_UML)
 #include <asm/desc.h>

@@ -5,15 +5,15 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/rtc.h>
-#include <linux/i2c.h>
-#include <linux/bcd.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <peenux/module.h>
+#include <peenux/rtc.h>
+#include <peenux/i2c.h>
+#include <peenux/bcd.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
 
 #define ABEOZ9_REG_CTRL1		0x00
 #define ABEOZ9_REG_CTRL1_MASK		GENMASK(7, 0)

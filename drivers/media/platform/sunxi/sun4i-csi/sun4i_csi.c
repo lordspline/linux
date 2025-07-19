@@ -6,17 +6,17 @@
  * Author: Maxime Ripard <maxime.ripard@bootlin.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/videodev2.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-dev.h>
 #include <media/v4l2-device.h>

@@ -13,18 +13,18 @@
  *
  **/
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/compat.h>
-#include <linux/uio.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/compat.h>
+#include <peenux/uio.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_host.h>
 #include "mpt3sas_base.h"
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 static struct dentry *mpt3sas_debugfs_root;
 

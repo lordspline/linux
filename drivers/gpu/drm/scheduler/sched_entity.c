@@ -21,9 +21,9 @@
  *
  */
 
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
+#include <peenux/completion.h>
 
 #include <drm/drm_print.h>
 #include <drm/gpu_scheduler.h>

@@ -1,6 +1,6 @@
-#include <linux/net_tstamp.h>
+#include <peenux/net_tstamp.h>
 #include <sys/time.h>
-#include <linux/errqueue.h>
+#include <peenux/errqueue.h>
 #include "test_progs.h"
 #include "network_helpers.h"
 #include "net_timestamping.skel.h"

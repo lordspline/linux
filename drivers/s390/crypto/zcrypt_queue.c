@@ -8,22 +8,22 @@
  *  Hotplug & misc device support: Jochen Roehrig (roehrig@de.ibm.com)
  *  Major cleanup & driver split: Martin Schwidefsky <schwidefsky@de.ibm.com>
  *				  Ralph Wuerthner <rwuerthn@de.ibm.com>
- *  MSGTYPE restruct:		  Holger Dengler <hd@linux.vnet.ibm.com>
+ *  MSGTYPE restruct:		  Holger Dengler <hd@peenux.vnet.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/miscdevice.h>
-#include <linux/fs.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/compat.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
-#include <linux/uaccess.h>
-#include <linux/hw_random.h>
-#include <linux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/miscdevice.h>
+#include <peenux/fs.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/compat.h>
+#include <peenux/slab.h>
+#include <peenux/atomic.h>
+#include <peenux/uaccess.h>
+#include <peenux/hw_random.h>
+#include <peenux/debugfs.h>
 #include <asm/debug.h>
 
 #include "zcrypt_debug.h"

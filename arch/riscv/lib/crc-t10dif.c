@@ -7,8 +7,8 @@
 
 #include <asm/hwcap.h>
 #include <asm/alternative-macros.h>
-#include <linux/crc-t10dif.h>
-#include <linux/module.h>
+#include <peenux/crc-t10dif.h>
+#include <peenux/module.h>
 
 #include "crc-clmul.h"
 

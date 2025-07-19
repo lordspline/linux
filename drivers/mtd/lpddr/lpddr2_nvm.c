@@ -12,17 +12,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": %s: " fmt, __func__
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/ioport.h>
+#include <peenux/err.h>
 
 /* Parameters */
 #define ERASE_BLOCKSIZE			(0x00020000/2)	/* in Word */

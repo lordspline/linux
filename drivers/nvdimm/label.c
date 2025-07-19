@@ -2,12 +2,12 @@
 /*
  * Copyright(c) 2013-2015 Intel Corporation. All rights reserved.
  */
-#include <linux/device.h>
-#include <linux/ndctl.h>
-#include <linux/uuid.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/nd.h>
+#include <peenux/device.h>
+#include <peenux/ndctl.h>
+#include <peenux/uuid.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/nd.h>
 #include "nd-core.h"
 #include "label.h"
 #include "nd.h"

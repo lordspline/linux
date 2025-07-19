@@ -3,9 +3,9 @@
  * Host bridge related code
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
 
 #include "pci.h"
 

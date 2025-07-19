@@ -6,19 +6,19 @@
  * https://fscdn.rohm.com/en/products/databook/datasheet/ic/sensor/pressure/bm1390glv-z-e.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #define BM1390_REG_MANUFACT_ID		0x0f
 #define BM1390_REG_PART_ID		0x10

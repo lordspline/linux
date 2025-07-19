@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2018 Nuvoton Technology corporation.
 
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/reset.h>
+#include <peenux/kernel.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/reset.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 
 struct npcm_pspi {
 	struct completion xfer_done;

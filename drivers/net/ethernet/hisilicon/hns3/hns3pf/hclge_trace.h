@@ -8,7 +8,7 @@
 #if !defined(_HCLGE_TRACE_H_) || defined(TRACE_HEADER_MULTI_READ)
 #define _HCLGE_TRACE_H_
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 
 #define PF_DESC_LEN	(sizeof(struct hclge_desc) / sizeof(u32))
 #define PF_GET_MBX_LEN	(sizeof(struct hclge_mbx_vf_to_pf_cmd) / sizeof(u32))

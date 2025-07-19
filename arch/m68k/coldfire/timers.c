@@ -9,13 +9,13 @@
 
 /***************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/profile.h>
-#include <linux/clocksource.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/profile.h>
+#include <peenux/clocksource.h>
 #include <asm/io.h>
 #include <asm/traps.h>
 #include <asm/machdep.h>

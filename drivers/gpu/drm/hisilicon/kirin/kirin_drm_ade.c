@@ -11,12 +11,12 @@
  *	Xinwei Kong <kong.kongxinwei@hisilicon.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #include <video/display_timing.h>
 

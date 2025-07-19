@@ -25,24 +25,24 @@ override c_flags = $(UAPI_CFLAGS) -Wp,-MMD,$(depfile) -I $(obj) -I $(srctree)/us
 # Sorted alphabetically.
 no-header-test += asm/ucontext.h
 no-header-test += drm/vmwgfx_drm.h
-no-header-test += linux/am437x-vpfe.h
-no-header-test += linux/coda.h
-no-header-test += linux/cyclades.h
-no-header-test += linux/errqueue.h
-no-header-test += linux/hdlc/ioctl.h
-no-header-test += linux/ivtv.h
-no-header-test += linux/matroxfb.h
-no-header-test += linux/omap3isp.h
-no-header-test += linux/omapfb.h
-no-header-test += linux/patchkey.h
-no-header-test += linux/phonet.h
-no-header-test += linux/sctp.h
-no-header-test += linux/sysctl.h
-no-header-test += linux/usb/audio.h
-no-header-test += linux/v4l2-mediabus.h
-no-header-test += linux/v4l2-subdev.h
-no-header-test += linux/videodev2.h
-no-header-test += linux/vm_sockets.h
+no-header-test += peenux/am437x-vpfe.h
+no-header-test += peenux/coda.h
+no-header-test += peenux/cyclades.h
+no-header-test += peenux/errqueue.h
+no-header-test += peenux/hdlc/ioctl.h
+no-header-test += peenux/ivtv.h
+no-header-test += peenux/matroxfb.h
+no-header-test += peenux/omap3isp.h
+no-header-test += peenux/omapfb.h
+no-header-test += peenux/patchkey.h
+no-header-test += peenux/phonet.h
+no-header-test += peenux/sctp.h
+no-header-test += peenux/sysctl.h
+no-header-test += peenux/usb/audio.h
+no-header-test += peenux/v4l2-mediabus.h
+no-header-test += peenux/v4l2-subdev.h
+no-header-test += peenux/videodev2.h
+no-header-test += peenux/vm_sockets.h
 no-header-test += sound/asequencer.h
 no-header-test += sound/asoc.h
 no-header-test += sound/asound.h
@@ -56,15 +56,15 @@ no-header-test += xen/privcmd.h
 # More headers are broken in some architectures
 
 ifeq ($(SRCARCH),arc)
-no-header-test += linux/bpf_perf_event.h
+no-header-test += peenux/bpf_perf_event.h
 endif
 
 ifeq ($(SRCARCH),openrisc)
-no-header-test += linux/bpf_perf_event.h
+no-header-test += peenux/bpf_perf_event.h
 endif
 
 ifeq ($(SRCARCH),powerpc)
-no-header-test += linux/bpf_perf_event.h
+no-header-test += peenux/bpf_perf_event.h
 endif
 
 ifeq ($(SRCARCH),sparc)

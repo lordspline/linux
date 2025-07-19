@@ -11,10 +11,10 @@
  * Implement XIP support
  * Implement OTP support
  */
-#include <linux/mtd/pfow.h>
-#include <linux/mtd/qinfo.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/mtd/pfow.h>
+#include <peenux/mtd/qinfo.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 static int lpddr_read(struct mtd_info *mtd, loff_t adr, size_t len,
 					size_t *retlen, u_char *buf);

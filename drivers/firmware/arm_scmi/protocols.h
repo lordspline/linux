@@ -9,20 +9,20 @@
 #ifndef _SCMI_PROTOCOLS_H
 #define _SCMI_PROTOCOLS_H
 
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/hashtable.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/refcount.h>
-#include <linux/scmi_protocol.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/hashtable.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/refcount.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define PROTOCOL_REV_MINOR_MASK	GENMASK(15, 0)
 #define PROTOCOL_REV_MAJOR_MASK	GENMASK(31, 16)

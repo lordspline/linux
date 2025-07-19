@@ -6,7 +6,7 @@
 
 #include <errno.h>
 #include <stdlib.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 #include "intlist.h"
 

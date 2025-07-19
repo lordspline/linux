@@ -6,18 +6,18 @@
  * Copyright 2018 Maxime Roussin-Belanger <maxime.roussinbelanger@gmail.com>
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
-#include <linux/util_macros.h>
+#include <peenux/util_macros.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define SI1133_REG_PART_ID		0x00
 #define SI1133_REG_REV_ID		0x01

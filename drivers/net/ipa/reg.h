@@ -5,11 +5,11 @@
 #ifndef _REG_H_
 #define _REG_H_
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/log2.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/bug.h>
+#include <peenux/log2.h>
+#include <peenux/types.h>
 
 /**
  * struct reg - A register descriptor

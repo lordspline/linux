@@ -4,13 +4,13 @@
  * Rusty Russell (C) 2000 -- This code is GPL.
  * Patrick McHardy (C) 2006-2012
  */
-#include <linux/kernel.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/ip.h>
-#include <linux/skbuff.h>
-#include <linux/gfp.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/ip.h>
+#include <peenux/skbuff.h>
+#include <peenux/gfp.h>
+#include <peenux/export.h>
 #include <net/route.h>
 #include <net/xfrm.h>
 #include <net/ip.h>

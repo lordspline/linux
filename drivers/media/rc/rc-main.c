@@ -6,15 +6,15 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <media/rc-core.h>
-#include <linux/bsearch.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/device.h>
-#include <linux/module.h>
+#include <peenux/bsearch.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/input.h>
+#include <peenux/leds.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
 #include "rc-core-priv.h"
 
 /* Sizes are in bytes, 256 bytes allows for 32 entries on x64 */

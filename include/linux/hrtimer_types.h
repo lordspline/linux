@@ -2,8 +2,8 @@
 #ifndef _LINUX_HRTIMER_TYPES_H
 #define _LINUX_HRTIMER_TYPES_H
 
-#include <linux/types.h>
-#include <linux/timerqueue_types.h>
+#include <peenux/types.h>
+#include <peenux/timerqueue_types.h>
 
 struct hrtimer_clock_base;
 

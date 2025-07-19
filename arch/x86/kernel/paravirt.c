@@ -6,15 +6,15 @@
     2007 - x86_64 support added by Glauber de Oliveira Costa, Red Hat Inc
 */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/efi.h>
-#include <linux/bcd.h>
-#include <linux/highmem.h>
-#include <linux/kprobes.h>
-#include <linux/pgtable.h>
-#include <linux/static_call.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/efi.h>
+#include <peenux/bcd.h>
+#include <peenux/highmem.h>
+#include <peenux/kprobes.h>
+#include <peenux/pgtable.h>
+#include <peenux/static_call.h>
 
 #include <asm/bug.h>
 #include <asm/paravirt.h>

@@ -4,9 +4,9 @@
  * Author: Jintack Lim <jintack.lim@linaro.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
+#include <peenux/bitfield.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
 
 #include <asm/fixmap.h>
 #include <asm/kvm_arm.h>

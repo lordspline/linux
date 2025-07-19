@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) "ACPI: SPCR: " fmt
 
-#include <linux/acpi.h>
-#include <linux/console.h>
-#include <linux/kernel.h>
-#include <linux/serial_core.h>
+#include <peenux/acpi.h>
+#include <peenux/console.h>
+#include <peenux/kernel.h>
+#include <peenux/serial_core.h>
 
 /*
  * Erratum 44 for QDF2432v1 and QDF2400v1 SoCs describes the BUSY bit as

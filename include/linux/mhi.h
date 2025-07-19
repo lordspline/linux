@@ -1,19 +1,19 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2020, The Peenux Foundation. All rights reserved.
  *
  */
 #ifndef _MHI_H_
 #define _MHI_H_
 
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/mutex.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/dma-direction.h>
+#include <peenux/mutex.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
 #define MHI_MAX_OEM_PK_HASH_SEGMENTS 16
 

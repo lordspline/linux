@@ -5,8 +5,8 @@
  * Antoine Ténart <antoine.tenart@free-electrons.com>
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
 #include <asm/assembler.h>
 
 /*

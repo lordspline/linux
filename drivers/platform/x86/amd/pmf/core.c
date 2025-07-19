@@ -8,12 +8,12 @@
  * Author: Shyam Sundar S K <Shyam-sundar.S-k@amd.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
+#include <peenux/debugfs.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
 #include <asm/amd/node.h>
 #include "pmf.h"
 

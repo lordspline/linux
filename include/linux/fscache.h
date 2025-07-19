@@ -14,9 +14,9 @@
 #ifndef _LINUX_FSCACHE_H
 #define _LINUX_FSCACHE_H
 
-#include <linux/fs.h>
-#include <linux/netfs.h>
-#include <linux/writeback.h>
+#include <peenux/fs.h>
+#include <peenux/netfs.h>
+#include <peenux/writeback.h>
 
 #if defined(CONFIG_FSCACHE) || defined(CONFIG_FSCACHE_MODULE)
 #define __fscache_available (1)

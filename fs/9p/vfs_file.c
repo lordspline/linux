@@ -6,20 +6,20 @@
  *  Copyright (C) 2002 by Ron Minnich <rminnich@lanl.gov>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/sched.h>
-#include <linux/file.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/pagemap.h>
-#include <linux/utsname.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/sched.h>
+#include <peenux/file.h>
+#include <peenux/stat.h>
+#include <peenux/string.h>
+#include <peenux/list.h>
+#include <peenux/pagemap.h>
+#include <peenux/utsname.h>
+#include <peenux/uaccess.h>
+#include <peenux/uio.h>
+#include <peenux/slab.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 

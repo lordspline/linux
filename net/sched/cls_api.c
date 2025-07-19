@@ -9,20 +9,20 @@
  * Eduardo J. Blanco <ejbs@netlabs.com.uy> :990222: kmod support
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/jhash.h>
-#include <linux/rculist.h>
-#include <linux/rhashtable.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/kmod.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
+#include <peenux/jhash.h>
+#include <peenux/rculist.h>
+#include <peenux/rhashtable.h>
 #include <net/net_namespace.h>
 #include <net/sock.h>
 #include <net/netlink.h>

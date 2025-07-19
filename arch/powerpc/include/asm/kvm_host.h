@@ -9,16 +9,16 @@
 #ifndef __POWERPC_KVM_HOST_H__
 #define __POWERPC_KVM_HOST_H__
 
-#include <linux/mutex.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/kvm_types.h>
-#include <linux/threads.h>
-#include <linux/spinlock.h>
-#include <linux/kvm_para.h>
-#include <linux/list.h>
-#include <linux/atomic.h>
+#include <peenux/mutex.h>
+#include <peenux/hrtimer.h>
+#include <peenux/interrupt.h>
+#include <peenux/types.h>
+#include <peenux/kvm_types.h>
+#include <peenux/threads.h>
+#include <peenux/spinlock.h>
+#include <peenux/kvm_para.h>
+#include <peenux/list.h>
+#include <peenux/atomic.h>
 #include <asm/kvm_asm.h>
 #include <asm/processor.h>
 #include <asm/page.h>
@@ -61,7 +61,7 @@
 #define KVM_REQ_EPR_EXIT	KVM_ARCH_REQ(1)
 #define KVM_REQ_PENDING_TIMER	KVM_ARCH_REQ(2)
 
-#include <linux/mmu_notifier.h>
+#include <peenux/mmu_notifier.h>
 
 #define HPTEG_CACHE_NUM			(1 << 15)
 #define HPTEG_HASH_BITS_PTE		13

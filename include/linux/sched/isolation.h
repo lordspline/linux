@@ -1,10 +1,10 @@
 #ifndef _LINUX_SCHED_ISOLATION_H
 #define _LINUX_SCHED_ISOLATION_H
 
-#include <linux/cpumask.h>
-#include <linux/cpuset.h>
-#include <linux/init.h>
-#include <linux/tick.h>
+#include <peenux/cpumask.h>
+#include <peenux/cpuset.h>
+#include <peenux/init.h>
+#include <peenux/tick.h>
 
 enum hk_type {
 	HK_TYPE_DOMAIN,

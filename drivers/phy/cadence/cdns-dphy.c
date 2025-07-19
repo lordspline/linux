@@ -3,18 +3,18 @@
  * Copyright: 2017-2018 Cadence Design Systems, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 
-#include <linux/phy/phy.h>
-#include <linux/phy/phy-mipi-dphy.h>
+#include <peenux/phy/phy.h>
+#include <peenux/phy/phy-mipi-dphy.h>
 
 #define REG_WAKEUP_TIME_NS		800
 #define DPHY_PLL_RATE_HZ		108000000

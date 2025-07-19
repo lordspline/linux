@@ -42,9 +42,9 @@
 #include "super-io.h"
 #include "tests.h"
 
-#include <linux/blkdev.h>
-#include <linux/sort.h>
-#include <linux/sched/clock.h>
+#include <peenux/blkdev.h>
+#include <peenux/sort.h>
+#include <peenux/sched/clock.h>
 
 #include "util.h"
 

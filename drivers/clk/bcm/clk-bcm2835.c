@@ -24,17 +24,17 @@
  * generator).
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include <dt-bindings/clock/bcm2835.h>
 
 #define CM_PASSWORD		0x5a000000

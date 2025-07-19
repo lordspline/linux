@@ -15,7 +15,7 @@ The DVB OSD device controls the OnScreen-Display of the AV7110 based
 DVB-cards with hardware MPEG2 decoder. It can be accessed through
 ``/dev/dvb/adapter?/osd0``.
 Data types and ioctl definitions can be accessed by including
-``linux/dvb/osd.h`` in your application.
+``peenux/dvb/osd.h`` in your application.
 
 The OSD is not a frame-buffer like on many other cards.
 It is a kind of canvas one can draw on.

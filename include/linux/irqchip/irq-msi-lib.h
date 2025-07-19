@@ -5,9 +5,9 @@
 #ifndef _IRQCHIP_IRQ_MSI_LIB_H
 #define _IRQCHIP_IRQ_MSI_LIB_H
 
-#include <linux/bits.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
+#include <peenux/bits.h>
+#include <peenux/irqdomain.h>
+#include <peenux/msi.h>
 
 #ifdef CONFIG_PCI_MSI
 #define MATCH_PCI_MSI		BIT(DOMAIN_BUS_PCI_MSI)

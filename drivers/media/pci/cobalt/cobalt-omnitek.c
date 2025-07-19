@@ -6,10 +6,10 @@
  *  All rights reserved.
  */
 
-#include <linux/string.h>
-#include <linux/io.h>
-#include <linux/pci_regs.h>
-#include <linux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/io.h>
+#include <peenux/pci_regs.h>
+#include <peenux/spinlock.h>
 
 #include "cobalt-driver.h"
 #include "cobalt-omnitek.h"

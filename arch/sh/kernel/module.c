@@ -11,14 +11,14 @@
 	Based on the sh version, and on code from the sh64-specific parts of
 	modutils, originally written by Richard Curnow and Ben Gaster.
 */
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/bug.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/unaligned.h>
+#include <peenux/moduleloader.h>
+#include <peenux/elf.h>
+#include <peenux/vmalloc.h>
+#include <peenux/bug.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/unaligned.h>
 #include <asm/dwarf.h>
 
 int apply_relocate_add(Elf32_Shdr *sechdrs,

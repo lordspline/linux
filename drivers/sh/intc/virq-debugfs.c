@@ -9,11 +9,11 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/seq_file.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/debugfs.h>
 #include "internals.h"
 
 static int intc_irq_xlate_show(struct seq_file *m, void *priv)

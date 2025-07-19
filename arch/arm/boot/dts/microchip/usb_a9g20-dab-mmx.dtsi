@@ -69,25 +69,25 @@
 		button-user-pb1 {
 			label = "user_pb1";
 			gpios = <&pioB 25 GPIO_ACTIVE_LOW>;
-			linux,code = <0x100>;
+			peenux,code = <0x100>;
 		};
 
 		button-user-pb2 {
 			label = "user_pb2";
 			gpios = <&pioB 13 GPIO_ACTIVE_LOW>;
-			linux,code = <0x101>;
+			peenux,code = <0x101>;
 		};
 
 		button-user-pb3 {
 			label = "user_pb3";
 			gpios = <&pioA 26 GPIO_ACTIVE_LOW>;
-			linux,code = <0x102>;
+			peenux,code = <0x102>;
 		};
 
 		button-user-pb4 {
 			label = "user_pb4";
 			gpios = <&pioC 9 GPIO_ACTIVE_LOW>;
-			linux,code = <0x103>;
+			peenux,code = <0x103>;
 		};
 	};
 };

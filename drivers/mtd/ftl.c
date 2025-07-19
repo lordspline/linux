@@ -1,4 +1,4 @@
-/* This version ported to the Linux-MTD system by dwmw2@infradead.org
+/* This version ported to the Peenux-MTD system by dwmw2@infradead.org
  *
  * Fixes: Arnaldo Carvalho de Melo <acme@conectiva.com.br>
  * - fixes some leaks on failure in build_maps and ftl_notify_add, cleanups
@@ -54,25 +54,25 @@
     contact M-Systems directly. M-Systems since acquired by Sandisk. 
 
 ======================================================================*/
-#include <linux/mtd/blktrans.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
+#include <peenux/mtd/blktrans.h>
+#include <peenux/module.h>
+#include <peenux/mtd/mtd.h>
 /*#define PSYCHO_DEBUG */
 
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/major.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/hdreg.h>
-#include <linux/vmalloc.h>
-#include <linux/blkpg.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/major.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/hdreg.h>
+#include <peenux/vmalloc.h>
+#include <peenux/blkpg.h>
+#include <peenux/uaccess.h>
 
-#include <linux/mtd/ftl.h>
+#include <peenux/mtd/ftl.h>
 
 /*====================================================================*/
 

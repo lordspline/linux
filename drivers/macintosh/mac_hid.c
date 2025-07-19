@@ -9,12 +9,12 @@
  * This file will soon be removed in favor of an uinput userspace tool.
  */
 
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/sysctl.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/proc_fs.h>
+#include <peenux/sysctl.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 MODULE_DESCRIPTION("Mouse button 2+3 emulation");
 MODULE_LICENSE("GPL");

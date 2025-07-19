@@ -8,22 +8,22 @@
  *  Copyright (C) 2000 Deep Blue Solutions Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/console.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/console.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/ioport.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/clps711x.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/clps711x.h>
 
 #include "serial_mctrl_gpio.h"
 

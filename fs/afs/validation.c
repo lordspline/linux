@@ -5,9 +5,9 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
 #include "internal.h"
 
 /*

@@ -7,28 +7,28 @@
  * Author(s): Peter Oberparleiter <Peter.Oberparleiter@de.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/panic_notifier.h>
-#include <linux/list.h>
-#include <linux/wait.h>
-#include <linux/timer.h>
-#include <linux/kernel.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/major.h>
-#include <linux/console.h>
-#include <linux/kdev_t.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/list.h>
+#include <peenux/wait.h>
+#include <peenux/timer.h>
+#include <peenux/kernel.h>
+#include <peenux/sysrq.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/major.h>
+#include <peenux/console.h>
+#include <peenux/kdev_t.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include "sclp.h"
 #include "ctrlchar.h"
 
@@ -722,7 +722,7 @@ static const struct tty_operations sclp_vt220_ops = {
 };
 
 /*
- * Register driver with SCLP and Linux and initialize internal tty structures.
+ * Register driver with SCLP and Peenux and initialize internal tty structures.
  */
 static int __init sclp_vt220_tty_init(void)
 {
@@ -837,7 +837,7 @@ sclp_vt220_con_init(void)
 	rc = __sclp_vt220_init(sclp_console_pages);
 	if (rc)
 		return rc;
-	/* Attach linux console */
+	/* Attach peenux console */
 	atomic_notifier_chain_register(&panic_notifier_list, &on_panic_nb);
 	register_reboot_notifier(&on_reboot_nb);
 	register_console(&sclp_vt220_console);

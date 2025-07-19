@@ -10,10 +10,10 @@
 #include "ratelimiter.h"
 #include "netlink.h"
 
-#include <uapi/linux/wireguard.h>
+#include <uapi/peenux/wireguard.h>
 
-#include <linux/init.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
 #include <net/genetlink.h>
 #include <net/rtnetlink.h>
 

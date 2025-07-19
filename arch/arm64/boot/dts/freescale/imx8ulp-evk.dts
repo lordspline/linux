@@ -13,7 +13,7 @@
 
 	bt_sco_codec: bt-sco-codec {
 		#sound-dai-cells = <1>;
-		compatible = "linux,bt-sco";
+		compatible = "peenux,bt-sco";
 	};
 
 	chosen {
@@ -30,11 +30,11 @@
 		#size-cells = <2>;
 		ranges;
 
-		linux,cma {
+		peenux,cma {
 			compatible = "shared-dma-pool";
 			reusable;
 			size = <0 0x28000000>;
-			linux,cma-default;
+			peenux,cma-default;
 		};
 
 		m33_reserved: noncacheable-section@a8600000 {
@@ -116,7 +116,7 @@
 	};
 
 	spdif_out: spdif-out {
-		compatible = "linux,spdif-dit";
+		compatible = "peenux,spdif-dit";
 		#sound-dai-cells = <0>;
 	};
 };

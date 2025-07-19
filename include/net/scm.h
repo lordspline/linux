@@ -2,14 +2,14 @@
 #ifndef __LINUX_NET_SCM_H
 #define __LINUX_NET_SCM_H
 
-#include <linux/limits.h>
-#include <linux/net.h>
-#include <linux/cred.h>
-#include <linux/file.h>
-#include <linux/security.h>
-#include <linux/pid.h>
-#include <linux/nsproxy.h>
-#include <linux/sched/signal.h>
+#include <peenux/limits.h>
+#include <peenux/net.h>
+#include <peenux/cred.h>
+#include <peenux/file.h>
+#include <peenux/security.h>
+#include <peenux/pid.h>
+#include <peenux/nsproxy.h>
+#include <peenux/sched/signal.h>
 #include <net/compat.h>
 
 /* Well, we should have at least one descriptor open

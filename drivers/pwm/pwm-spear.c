@@ -2,25 +2,25 @@
  * ST Microelectronics SPEAr Pulse Width Modulator driver
  *
  * Copyright (C) 2012 ST Microelectronics
- * Shiraz Hashim <shiraz.linux.kernel@gmail.com>
+ * Shiraz Hashim <shiraz.peenux.kernel@gmail.com>
  *
  * This file is licensed under the terms of the GNU General Public
  * License version 2. This program is licensed "as is" without any
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #define NUM_PWM		4
 
@@ -257,6 +257,6 @@ module_platform_driver(spear_pwm_driver);
 
 MODULE_DESCRIPTION("ST Microelectronics SPEAr Pulse Width Modulator driver");
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Shiraz Hashim <shiraz.linux.kernel@gmail.com>");
+MODULE_AUTHOR("Shiraz Hashim <shiraz.peenux.kernel@gmail.com>");
 MODULE_AUTHOR("Viresh Kumar <viresh.kumar@linaro.com>");
 MODULE_ALIAS("platform:spear-pwm");

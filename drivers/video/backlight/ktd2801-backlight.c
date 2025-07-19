@@ -3,11 +3,11 @@
  * Datasheet:
  * https://www.kinet-ic.com/uploads/web/KTD2801/KTD2801-04b.pdf
  */
-#include <linux/backlight.h>
-#include <linux/gpio/consumer.h>
-#include <linux/leds-expresswire.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/backlight.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/leds-expresswire.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #define KTD2801_DEFAULT_BRIGHTNESS	100
 #define KTD2801_MAX_BRIGHTNESS		255

@@ -16,32 +16,32 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/rculist.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/list.h>
+#include <peenux/rculist.h>
+#include <peenux/uaccess.h>
 
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/kthread.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/jiffies.h>
 
-#include <linux/netdevice.h>
-#include <linux/net.h>
-#include <linux/inetdevice.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/udp.h>
-#include <linux/l2tp.h>
-#include <linux/sort.h>
-#include <linux/file.h>
-#include <linux/nsproxy.h>
+#include <peenux/netdevice.h>
+#include <peenux/net.h>
+#include <peenux/inetdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/udp.h>
+#include <peenux/l2tp.h>
+#include <peenux/sort.h>
+#include <peenux/file.h>
+#include <peenux/nsproxy.h>
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
 #include <net/dst.h>
@@ -57,7 +57,7 @@
 #include <net/ip6_checksum.h>
 
 #include <asm/byteorder.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include "l2tp_core.h"
 

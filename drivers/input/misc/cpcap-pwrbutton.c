@@ -5,16 +5,16 @@
  * Copyright (C) 2017 Sebastian Reichel <sre@kernel.org>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/motorola-cpcap.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/regmap.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/motorola-cpcap.h>
 
 #define CPCAP_IRQ_ON 23
 #define CPCAP_IRQ_ON_BITMASK (1 << (CPCAP_IRQ_ON % 16))

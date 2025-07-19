@@ -16,15 +16,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/poll.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/freezer.h>
+#include <peenux/kthread.h>
 
 #include <media/videobuf2-core.h>
 #include <media/v4l2-mc.h>
@@ -3259,7 +3259,7 @@ static int vb2_thread(void *data)
 			break;
 	}
 
-	/* Hmm, linux becomes *very* unhappy without this ... */
+	/* Hmm, peenux becomes *very* unhappy without this ... */
 	while (!kthread_should_stop()) {
 		set_current_state(TASK_INTERRUPTIBLE);
 		schedule();
@@ -3270,7 +3270,7 @@ static int vb2_thread(void *data)
 /*
  * This function should not be used for anything else but the videobuf2-dvb
  * support. If you think you have another good use-case for this, then please
- * contact the linux-media mailinglist first.
+ * contact the peenux-media mailinglist first.
  */
 int vb2_thread_start(struct vb2_queue *q, vb2_thread_fnc fnc, void *priv,
 		     const char *thread_name)

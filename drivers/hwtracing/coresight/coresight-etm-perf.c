@@ -4,20 +4,20 @@
  * Author: Mathieu Poirier <mathieu.poirier@linaro.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/coresight.h>
-#include <linux/coresight-pmu.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/perf_event.h>
-#include <linux/percpu-defs.h>
-#include <linux/slab.h>
-#include <linux/stringhash.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/bitfield.h>
+#include <peenux/coresight.h>
+#include <peenux/coresight-pmu.h>
+#include <peenux/cpumask.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/perf_event.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/slab.h>
+#include <peenux/stringhash.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #include "coresight-config.h"
 #include "coresight-etm-perf.h"

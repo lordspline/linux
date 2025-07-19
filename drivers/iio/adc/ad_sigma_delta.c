@@ -6,24 +6,24 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/align.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <peenux/align.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/adc/ad_sigma_delta.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/adc/ad_sigma_delta.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 
 #define AD_SD_COMM_CHAN_MASK	0x3

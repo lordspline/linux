@@ -4,13 +4,13 @@
  * Author: Quentin Perret <qperret@google.com>
  */
 
-#include <linux/init.h>
-#include <linux/interval_tree_generic.h>
-#include <linux/kmemleak.h>
-#include <linux/kvm_host.h>
+#include <peenux/init.h>
+#include <peenux/interval_tree_generic.h>
+#include <peenux/kmemleak.h>
+#include <peenux/kvm_host.h>
 #include <asm/kvm_mmu.h>
-#include <linux/memblock.h>
-#include <linux/mutex.h>
+#include <peenux/memblock.h>
+#include <peenux/mutex.h>
 
 #include <asm/kvm_pkvm.h>
 

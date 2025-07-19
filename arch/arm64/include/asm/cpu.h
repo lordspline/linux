@@ -5,9 +5,9 @@
 #ifndef __ASM_CPU_H
 #define __ASM_CPU_H
 
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/percpu.h>
+#include <peenux/cpu.h>
+#include <peenux/init.h>
+#include <peenux/percpu.h>
 
 /*
  * Records attributes of an individual CPU.

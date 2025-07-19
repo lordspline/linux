@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/stat.c
+ *  peenux/fs/stat.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/blkdev.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/file.h>
-#include <linux/highuid.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/security.h>
-#include <linux/cred.h>
-#include <linux/syscalls.h>
-#include <linux/pagemap.h>
-#include <linux/compat.h>
-#include <linux/iversion.h>
+#include <peenux/blkdev.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/file.h>
+#include <peenux/highuid.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/security.h>
+#include <peenux/cred.h>
+#include <peenux/syscalls.h>
+#include <peenux/pagemap.h>
+#include <peenux/compat.h>
+#include <peenux/iversion.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/unistd.h>
 
 #include <trace/events/timestamp.h>

@@ -6,11 +6,11 @@
 #include "logger.h"
 
 #include <asm/current.h>
-#include <linux/delay.h>
-#include <linux/hardirq.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/hardirq.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/sched.h>
 
 #include "errors.h"
 #include "thread-device.h"

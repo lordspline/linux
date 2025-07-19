@@ -3,10 +3,10 @@
 
 #define dev_fmt(fmt) "RateLimiting: " fmt
 
-#include <linux/dev_printk.h>
-#include <linux/pci.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/dev_printk.h>
+#include <peenux/pci.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #include "adf_common_drv.h"
 #include "adf_rl.h"

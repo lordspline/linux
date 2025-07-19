@@ -8,12 +8,12 @@
  * Author: Vijaya Kumar K <vijaya.kumar@caviumnetworks.com>
  */
 
-#include <linux/bug.h>
-#include <linux/irq.h>
-#include <linux/kdebug.h>
-#include <linux/kgdb.h>
-#include <linux/kprobes.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/bug.h>
+#include <peenux/irq.h>
+#include <peenux/kdebug.h>
+#include <peenux/kgdb.h>
+#include <peenux/kprobes.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/debug-monitors.h>
 #include <asm/insn.h>

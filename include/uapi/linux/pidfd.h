@@ -1,17 +1,17 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 
 #ifndef _UAPI_LINUX_PIDFD_H
 #define _UAPI_LINUX_PIDFD_H
 
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/ioctl.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/ioctl.h>
 
 /* Flags for pidfd_open().  */
 #define PIDFD_NONBLOCK	O_NONBLOCK
 #define PIDFD_THREAD	O_EXCL
 #ifdef __KERNEL__
-#include <linux/sched.h>
+#include <peenux/sched.h>
 #define PIDFD_STALE CLONE_PIDFD
 #endif
 

@@ -5,8 +5,8 @@
 
 #include <asm/set_memory.h>
 #include <asm/smp.h>
-#include <linux/types.h>
-#include <linux/stop_machine.h>
+#include <peenux/types.h>
+#include <peenux/stop_machine.h>
 
 #include <drm/drm_managed.h>
 #include <drm/intel/i915_drm.h>

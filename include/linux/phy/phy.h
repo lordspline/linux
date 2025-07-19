@@ -10,16 +10,16 @@
 #ifndef __DRIVERS_PHY_H
 #define __DRIVERS_PHY_H
 
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/phy/phy-dp.h>
-#include <linux/phy/phy-hdmi.h>
-#include <linux/phy/phy-lvds.h>
-#include <linux/phy/phy-mipi-dphy.h>
+#include <peenux/phy/phy-dp.h>
+#include <peenux/phy/phy-hdmi.h>
+#include <peenux/phy/phy-lvds.h>
+#include <peenux/phy/phy-mipi-dphy.h>
 
 struct phy;
 

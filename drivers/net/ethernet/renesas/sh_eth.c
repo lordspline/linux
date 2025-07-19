@@ -8,27 +8,27 @@
  *  Copyright (C) 2014 Codethink Limited
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/mdio-bitbang.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/phy.h>
-#include <linux/cache.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/sh_eth.h>
-#include <linux/of_mdio.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/mdio-bitbang.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/phy.h>
+#include <peenux/cache.h>
+#include <peenux/io.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_vlan.h>
+#include <peenux/sh_eth.h>
+#include <peenux/of_mdio.h>
 
 #include "sh_eth.h"
 

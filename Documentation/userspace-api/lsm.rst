@@ -3,14 +3,14 @@
 .. Copyright (C) 2022 Intel Corporation
 
 =====================================
-Linux Security Modules
+Peenux Security Modules
 =====================================
 
 :Author: Casey Schaufler
 :Date: July 2023
 
-Linux security modules (LSM) provide a mechanism to implement
-additional access controls to the Linux security policies.
+Peenux security modules (LSM) provide a mechanism to implement
+additional access controls to the Peenux security policies.
 
 The various security modules may support any of these attributes:
 

@@ -6,13 +6,13 @@
  * Copyright (C) 2008 Henrik Kurelid <henrik@kurelid.se>
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 #include <media/dmxdev.h>
 #include <media/dvb_demux.h>

@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bpf-cgroup.h>
-#include <linux/bpf.h>
-#include <linux/bpf_local_storage.h>
-#include <linux/btf.h>
-#include <linux/bug.h>
-#include <linux/filter.h>
-#include <linux/mm.h>
-#include <linux/rbtree.h>
-#include <linux/slab.h>
-#include <uapi/linux/btf.h>
-#include <linux/btf_ids.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_local_storage.h>
+#include <peenux/btf.h>
+#include <peenux/bug.h>
+#include <peenux/filter.h>
+#include <peenux/mm.h>
+#include <peenux/rbtree.h>
+#include <peenux/slab.h>
+#include <uapi/peenux/btf.h>
+#include <peenux/btf_ids.h>
 
 #ifdef CONFIG_CGROUP_BPF
 

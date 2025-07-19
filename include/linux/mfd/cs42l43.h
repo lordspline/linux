@@ -9,11 +9,11 @@
 #ifndef CS42L43_CORE_EXT_H
 #define CS42L43_CORE_EXT_H
 
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/workqueue.h>
 
 #define CS42L43_N_SUPPLIES		3
 

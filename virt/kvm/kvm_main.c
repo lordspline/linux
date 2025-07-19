@@ -12,47 +12,47 @@
 
 #include <kvm/iodev.h>
 
-#include <linux/kvm_host.h>
-#include <linux/kvm.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/percpu.h>
-#include <linux/mm.h>
-#include <linux/miscdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/reboot.h>
-#include <linux/debugfs.h>
-#include <linux/highmem.h>
-#include <linux/file.h>
-#include <linux/syscore_ops.h>
-#include <linux/cpu.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/stat.h>
-#include <linux/cpumask.h>
-#include <linux/smp.h>
-#include <linux/anon_inodes.h>
-#include <linux/profile.h>
-#include <linux/kvm_para.h>
-#include <linux/pagemap.h>
-#include <linux/mman.h>
-#include <linux/swap.h>
-#include <linux/bitops.h>
-#include <linux/spinlock.h>
-#include <linux/compat.h>
-#include <linux/srcu.h>
-#include <linux/hugetlb.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/bsearch.h>
-#include <linux/io.h>
-#include <linux/lockdep.h>
-#include <linux/kthread.h>
-#include <linux/suspend.h>
+#include <peenux/kvm_host.h>
+#include <peenux/kvm.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/percpu.h>
+#include <peenux/mm.h>
+#include <peenux/miscdevice.h>
+#include <peenux/vmalloc.h>
+#include <peenux/reboot.h>
+#include <peenux/debugfs.h>
+#include <peenux/highmem.h>
+#include <peenux/file.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/cpu.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/stat.h>
+#include <peenux/cpumask.h>
+#include <peenux/smp.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/profile.h>
+#include <peenux/kvm_para.h>
+#include <peenux/pagemap.h>
+#include <peenux/mman.h>
+#include <peenux/swap.h>
+#include <peenux/bitops.h>
+#include <peenux/spinlock.h>
+#include <peenux/compat.h>
+#include <peenux/srcu.h>
+#include <peenux/hugetlb.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
+#include <peenux/bsearch.h>
+#include <peenux/io.h>
+#include <peenux/lockdep.h>
+#include <peenux/kthread.h>
+#include <peenux/suspend.h>
 
 #include <asm/processor.h>
 #include <asm/ioctl.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "coalesced_mmio.h"
 #include "async_pf.h"
@@ -64,7 +64,7 @@
 #define CREATE_TRACE_POINTS
 #include <trace/events/kvm.h>
 
-#include <linux/kvm_dirty_ring.h>
+#include <peenux/kvm_dirty_ring.h>
 
 
 /* Worst case buffer size needed for holding an integer. */

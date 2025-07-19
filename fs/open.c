@@ -1,38 +1,38 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/open.c
+ *  peenux/fs/open.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/fsnotify.h>
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/namei.h>
-#include <linux/backing-dev.h>
-#include <linux/capability.h>
-#include <linux/securebits.h>
-#include <linux/security.h>
-#include <linux/mount.h>
-#include <linux/fcntl.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/fs.h>
-#include <linux/personality.h>
-#include <linux/pagemap.h>
-#include <linux/syscalls.h>
-#include <linux/rcupdate.h>
-#include <linux/audit.h>
-#include <linux/falloc.h>
-#include <linux/fs_struct.h>
-#include <linux/dnotify.h>
-#include <linux/compat.h>
-#include <linux/mnt_idmapping.h>
-#include <linux/filelock.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/file.h>
+#include <peenux/fdtable.h>
+#include <peenux/fsnotify.h>
+#include <peenux/module.h>
+#include <peenux/tty.h>
+#include <peenux/namei.h>
+#include <peenux/backing-dev.h>
+#include <peenux/capability.h>
+#include <peenux/securebits.h>
+#include <peenux/security.h>
+#include <peenux/mount.h>
+#include <peenux/fcntl.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/personality.h>
+#include <peenux/pagemap.h>
+#include <peenux/syscalls.h>
+#include <peenux/rcupdate.h>
+#include <peenux/audit.h>
+#include <peenux/falloc.h>
+#include <peenux/fs_struct.h>
+#include <peenux/dnotify.h>
+#include <peenux/compat.h>
+#include <peenux/mnt_idmapping.h>
+#include <peenux/filelock.h>
 
 #include "internal.h"
 

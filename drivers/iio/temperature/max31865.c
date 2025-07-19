@@ -8,17 +8,17 @@
  * Author: Navin Sankar Velliangiri <navin@linumiz.com>
  */
 
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/unaligned.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/property.h>
+#include <peenux/spi/spi.h>
+#include <peenux/unaligned.h>
 
 /*
  * The MSB of the register value determines whether the following byte will

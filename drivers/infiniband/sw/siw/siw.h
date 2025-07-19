@@ -8,11 +8,11 @@
 
 #include <rdma/ib_verbs.h>
 #include <rdma/restrack.h>
-#include <linux/socket.h>
-#include <linux/skbuff.h>
-#include <linux/crc32.h>
-#include <linux/crc32c.h>
-#include <linux/unaligned.h>
+#include <peenux/socket.h>
+#include <peenux/skbuff.h>
+#include <peenux/crc32.h>
+#include <peenux/crc32c.h>
+#include <peenux/unaligned.h>
 
 #include <rdma/siw-abi.h>
 #include "iwarp.h"

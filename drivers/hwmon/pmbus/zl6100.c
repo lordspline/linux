@@ -6,15 +6,15 @@
  * Copyright (c) 2012 Guenter Roeck
  */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/ktime.h>
-#include <linux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/ktime.h>
+#include <peenux/delay.h>
 #include "pmbus.h"
 
 enum chips { zl2004, zl2005, zl2006, zl2008, zl2105, zl2106, zl6100, zl6105,

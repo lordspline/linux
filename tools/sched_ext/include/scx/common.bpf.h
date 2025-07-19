@@ -595,7 +595,7 @@ static __always_inline void __write_once_size(volatile void *p, void *res, int s
  * Prefer C11 _Generic for better compile-times and simpler code. Note: 'char'
  * is not type-compatible with 'signed char', and we define a separate case.
  *
- * This is copied verbatim from kernel's include/linux/compiler_types.h, but
+ * This is copied verbatim from kernel's include/peenux/compiler_types.h, but
  * with default expression (for pointers) changed from (x) to (typeof(x)0).
  *
  * This is because LLVM has a bug where for lvalue (x), it does not get rid of

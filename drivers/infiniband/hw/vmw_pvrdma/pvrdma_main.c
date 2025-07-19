@@ -43,11 +43,11 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/errno.h>
-#include <linux/inetdevice.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/inetdevice.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <rdma/ib_addr.h>
 #include <rdma/ib_smi.h>
 #include <rdma/ib_user_verbs.h>

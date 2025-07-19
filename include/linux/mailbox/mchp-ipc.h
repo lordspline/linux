@@ -6,8 +6,8 @@
 #ifndef _LINUX_MCHP_IPC_H_
 #define _LINUX_MCHP_IPC_H_
 
-#include <linux/mailbox_controller.h>
-#include <linux/types.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/types.h>
 
 struct mchp_ipc_msg {
 	u32 *buf;

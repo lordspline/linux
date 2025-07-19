@@ -3,14 +3,14 @@
  * Copyright (C) Sunplus Technology Co., Ltd.
  *       All rights reserved.
  */
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/bitfield.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/bitfield.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
 
 #include <dt-bindings/clock/sunplus,sp7021-clkc.h>
 

@@ -21,10 +21,10 @@
  *
  * Authors: Alex Deucher
  */
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/firmware.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include <drm/amdgpu_drm.h>
 

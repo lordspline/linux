@@ -14,12 +14,12 @@
  * Instantiating the actual serdev-device to bind to is up to pdx86 code,
  * this header provides a helper for getting the serdev-controller device.
  */
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/printk.h>
-#include <linux/sprintf.h>
-#include <linux/string.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/printk.h>
+#include <peenux/sprintf.h>
+#include <peenux/string.h>
 
 static inline struct device *
 get_serdev_controller_from_parent(struct device *ctrl_dev,

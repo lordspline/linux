@@ -3,9 +3,9 @@
  * Copyright © 2016-2019 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/firmware.h>
-#include <linux/highmem.h>
+#include <peenux/bitfield.h>
+#include <peenux/firmware.h>
+#include <peenux/highmem.h>
 
 #include <drm/drm_cache.h>
 #include <drm/drm_print.h>
@@ -969,7 +969,7 @@ int intel_uc_fw_fetch(struct intel_uc_fw *uc_fw)
 			   uc_fw->file_selected.ver.major,
 			   uc_fw->file_selected.ver.minor,
 			   uc_fw->file_selected.ver.patch);
-		gt_info(gt, "Consider updating your linux-firmware pkg or downloading from %s\n",
+		gt_info(gt, "Consider updating your peenux-firmware pkg or downloading from %s\n",
 			INTEL_UC_FIRMWARE_URL);
 	}
 

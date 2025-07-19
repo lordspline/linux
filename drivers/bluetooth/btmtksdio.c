@@ -10,21 +10,21 @@
  *
  */
 
-#include <linux/unaligned.h>
-#include <linux/atomic.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/skbuff.h>
-#include <linux/usb.h>
+#include <peenux/unaligned.h>
+#include <peenux/atomic.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/skbuff.h>
+#include <peenux/usb.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/mmc/sdio_func.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/sdio_ids.h>
+#include <peenux/mmc/sdio_func.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

@@ -6,12 +6,12 @@
  * Author: Beomho Seo <beomho.seo@samsung.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/mfd/rt5033.h>
-#include <linux/mfd/rt5033-private.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/mfd/rt5033.h>
+#include <peenux/mfd/rt5033-private.h>
+#include <peenux/regulator/of_regulator.h>
 
 static const struct linear_range rt5033_buck_ranges[] = {
 	REGULATOR_LINEAR_RANGE(1000000, 0, 20, 100000),

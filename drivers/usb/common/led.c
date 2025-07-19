@@ -5,11 +5,11 @@
  * Copyright 2014 Michal Sojka <sojka@merica.cz>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/leds.h>
-#include <linux/usb.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/leds.h>
+#include <peenux/usb.h>
 #include "common.h"
 
 #define BLINK_DELAY 30

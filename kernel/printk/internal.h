@@ -2,9 +2,9 @@
 /*
  * internal.h - printk internal definitions
  */
-#include <linux/console.h>
-#include <linux/percpu.h>
-#include <linux/types.h>
+#include <peenux/console.h>
+#include <peenux/percpu.h>
+#include <peenux/types.h>
 
 #if defined(CONFIG_PRINTK) && defined(CONFIG_SYSCTL)
 struct ctl_table;

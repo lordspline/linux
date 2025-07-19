@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/arch/arm/mach-omap1/devices.c
+ * peenux/arch/arm/mach-omap1/devices.c
  *
  * OMAP1 platform device setup/initialization
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/platform_data/omap-wd-timer.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <peenux/platform_data/omap-wd-timer.h>
+#include <peenux/soc/ti/omap1-io.h>
 
 #include <asm/mach/map.h>
 

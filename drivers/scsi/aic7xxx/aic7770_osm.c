@@ -1,5 +1,5 @@
 /*
- * Linux driver attachment glue for aic7770 based controllers.
+ * Peenux driver attachment glue for aic7770 based controllers.
  *
  * Copyright (c) 2000-2003 Adaptec Inc.
  * All rights reserved.
@@ -36,13 +36,13 @@
  * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGES.
  *
- * $Id: //depot/aic7xxx/linux/drivers/scsi/aic7xxx/aic7770_osm.c#14 $
+ * $Id: //depot/aic7xxx/peenux/drivers/scsi/aic7xxx/aic7770_osm.c#14 $
  */
 
 #include "aic7xxx_osm.h"
 
-#include <linux/device.h>
-#include <linux/eisa.h>
+#include <peenux/device.h>
+#include <peenux/eisa.h>
 
 int
 aic7770_map_registers(struct ahc_softc *ahc, u_int port)

@@ -7,14 +7,14 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
@@ -23,9 +23,9 @@
 #include <sound/initval.h>
 #include <sound/tlv.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/registers.h>
-#include <linux/unaligned.h>
+#include <peenux/mfd/arizona/core.h>
+#include <peenux/mfd/arizona/registers.h>
+#include <peenux/unaligned.h>
 
 #include "arizona.h"
 #include "wm5102.h"

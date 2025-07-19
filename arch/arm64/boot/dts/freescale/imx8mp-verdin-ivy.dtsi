@@ -445,7 +445,7 @@
 
 /* Verdin UART_2 */
 &uart2 {
-	linux,rs485-enabled-at-boot-time;
+	peenux,rs485-enabled-at-boot-time;
 	rs485-rx-during-tx;
 	status = "okay";
 };

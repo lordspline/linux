@@ -6,7 +6,7 @@
  * Copyright (C) 2013  Magnus Damm
  */
 
-#include <linux/init.h>
+#include <peenux/init.h>
 
 #include <asm/mach/arch.h>
 

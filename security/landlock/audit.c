@@ -6,11 +6,11 @@
  */
 
 #include <kunit/test.h>
-#include <linux/audit.h>
-#include <linux/bitops.h>
-#include <linux/lsm_audit.h>
-#include <linux/pid.h>
-#include <uapi/linux/landlock.h>
+#include <peenux/audit.h>
+#include <peenux/bitops.h>
+#include <peenux/lsm_audit.h>
+#include <peenux/pid.h>
+#include <uapi/peenux/landlock.h>
 
 #include "access.h"
 #include "audit.h"

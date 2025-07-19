@@ -4,12 +4,12 @@
  * Copyright (c) 2011 Unixphere
  */
 
-#include <linux/kernel.h>
-#include <linux/rmi.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/of.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/rmi.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/of.h>
+#include <peenux/unaligned.h>
 #include "rmi_driver.h"
 
 #define RMI_PRODUCT_ID_LENGTH    10

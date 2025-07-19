@@ -5,14 +5,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
+#include <peenux/bitmap.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
 
 #include "../tools/testing/selftests/kselftest_module.h"
 

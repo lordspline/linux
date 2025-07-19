@@ -7,19 +7,19 @@
  *
  */
 
-#include <linux/etherdevice.h>
-#include <linux/genalloc.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/phy.h>
-#include <linux/remoteproc/pruss.h>
-#include <linux/pruss_driver.h>
+#include <peenux/etherdevice.h>
+#include <peenux/genalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/phy.h>
+#include <peenux/remoteproc/pruss.h>
+#include <peenux/pruss_driver.h>
 
 #include "icssg_prueth.h"
 #include "icssg_mii_rt.h"

@@ -8,10 +8,10 @@
  *		 Cornelia Huck <cornelia.huck@de.ibm.com>,
  */
 
-#include <linux/mutex.h>
-#include <linux/kthread.h>
-#include <linux/init.h>
-#include <linux/wait.h>
+#include <peenux/mutex.h>
+#include <peenux/kthread.h>
+#include <peenux/init.h>
+#include <peenux/wait.h>
 #include <asm/ctlreg.h>
 #include <asm/crw.h>
 #include "ioasm.h"

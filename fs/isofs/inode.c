@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/isofs/inode.c
+ *  peenux/fs/isofs/inode.c
  *
  *  (C) 1991  Linus Torvalds - minix filesystem
  *      1992, 1993, 1994  Eric Youngdale Modified for ISO 9660 filesystem.
@@ -12,21 +12,21 @@
  *	2004  Paul Serice - NFS Export Operations
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
 
-#include <linux/slab.h>
-#include <linux/cred.h>
-#include <linux/nls.h>
-#include <linux/ctype.h>
-#include <linux/statfs.h>
-#include <linux/cdrom.h>
-#include <linux/mpage.h>
-#include <linux/user_namespace.h>
-#include <linux/seq_file.h>
-#include <linux/blkdev.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
+#include <peenux/slab.h>
+#include <peenux/cred.h>
+#include <peenux/nls.h>
+#include <peenux/ctype.h>
+#include <peenux/statfs.h>
+#include <peenux/cdrom.h>
+#include <peenux/mpage.h>
+#include <peenux/user_namespace.h>
+#include <peenux/seq_file.h>
+#include <peenux/blkdev.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
 
 #include "isofs.h"
 #include "zisofs.h"
@@ -1483,7 +1483,7 @@ static int isofs_iget5_set(struct inode *ino, void *data)
 /* Store, in the inode's containing structure, the block and block
  * offset that point to the underlying meta-data for the inode.  The
  * code below is otherwise similar to the iget() code in
- * include/linux/fs.h */
+ * include/peenux/fs.h */
 struct inode *__isofs_iget(struct super_block *sb,
 			   unsigned long block,
 			   unsigned long offset,

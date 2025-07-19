@@ -2,13 +2,13 @@
 /*
  * Componentized device handling.
  */
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/debugfs.h>
+#include <peenux/component.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/debugfs.h>
 
 /**
  * DOC: overview

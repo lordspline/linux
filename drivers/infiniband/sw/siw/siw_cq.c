@@ -3,8 +3,8 @@
 /* Authors: Bernard Metzler <bmt@zurich.ibm.com> */
 /* Copyright (c) 2008-2019, IBM Corporation */
 
-#include <linux/errno.h>
-#include <linux/types.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
 
 #include <rdma/ib_verbs.h>
 

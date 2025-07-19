@@ -11,19 +11,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
 #ifdef CONFIG_HPWDT_NMI_DECODING
 #include <asm/nmi.h>
 #endif
-#include <linux/crash_dump.h>
+#include <peenux/crash_dump.h>
 
 #define HPWDT_VERSION			"2.0.4"
 #define SECS_TO_TICKS(secs)		((secs) * 1000 / 128)

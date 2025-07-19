@@ -7,17 +7,17 @@
  * Copyright (C) 2001 - 2006  Paul Mundt
  * Copyright (C) 2001, 2002  M. R. Brown
  */
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/bitmap.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/prefetch.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/bitmap.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
+#include <peenux/prefetch.h>
 #include <asm/page.h>
 #include <asm/cacheflush.h>
 #include <cpu/sq.h>
@@ -408,6 +408,6 @@ static void __exit sq_api_exit(void)
 module_init(sq_api_init);
 module_exit(sq_api_exit);
 
-MODULE_AUTHOR("Paul Mundt <lethal@linux-sh.org>, M. R. Brown <mrbrown@0xd6.org>");
+MODULE_AUTHOR("Paul Mundt <lethal@peenux-sh.org>, M. R. Brown <mrbrown@0xd6.org>");
 MODULE_DESCRIPTION("Simple API for SH-4 integrated Store Queues");
 MODULE_LICENSE("GPL");

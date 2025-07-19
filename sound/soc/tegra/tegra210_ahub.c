@@ -4,13 +4,13 @@
 //
 // Copyright (c) 2020-2025, NVIDIA CORPORATION.  All rights reserved.
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include "tegra210_ahub.h"
 

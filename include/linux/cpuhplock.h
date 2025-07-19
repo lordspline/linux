@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/linux/cpuhplock.h - CPU hotplug locking
+ * include/peenux/cpuhplock.h - CPU hotplug locking
  *
  * Locking functions for CPU hotplug.
  */
 #ifndef _LINUX_CPUHPLOCK_H_
 #define _LINUX_CPUHPLOCK_H_
 
-#include <linux/cleanup.h>
-#include <linux/errno.h>
+#include <peenux/cleanup.h>
+#include <peenux/errno.h>
 
 struct device;
 

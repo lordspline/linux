@@ -10,20 +10,20 @@
  * DT support
  * Copyright (c) 2016 Petr Kulhavy <petr@barix.com>
  *
- * This file is part of the Inventra Controller Driver for Linux.
+ * This file is part of the Inventra Controller Driver for Peenux.
  */
 
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/string_choices.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb/usb_phy_generic.h>
+#include <peenux/module.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/string_choices.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/usb/usb_phy_generic.h>
 
 #include "musb_core.h"
 

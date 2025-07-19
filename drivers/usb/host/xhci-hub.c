@@ -5,14 +5,14 @@
  * Copyright (C) 2008 Intel Corp.
  *
  * Author: Sarah Sharp
- * Some code borrowed from the Linux EHCI driver.
+ * Some code borrowed from the Peenux EHCI driver.
  */
 
 
-#include <linux/slab.h>
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/pci.h>
 
 #include "xhci.h"
 #include "xhci-trace.h"

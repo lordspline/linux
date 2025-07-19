@@ -2,8 +2,8 @@
 #ifndef PERF_STRING_H
 #define PERF_STRING_H
 
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 #include <sys/types.h> // pid_t
 #include <stddef.h>
 #include <string.h>

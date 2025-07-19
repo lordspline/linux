@@ -9,31 +9,31 @@
  *   ar933x_uart.c
  *     Copyright (C) 2011 Gabor Juhos <juhosg@openwrt.org>
  *
- *   rocketport_infinity_express-linux-1.20.tar.gz
+ *   rocketport_infinity_express-peenux-1.20.tar.gz
  *     Copyright (C) 2004-2011 Comtrol, Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/completion.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/compiler.h>
+#include <peenux/completion.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/sysrq.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/types.h>
 
 #define DRV_NAME			"rp2"
 

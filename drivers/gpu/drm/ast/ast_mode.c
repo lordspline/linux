@@ -28,8 +28,8 @@
  * Authors: Dave Airlie <airlied@redhat.com>
  */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

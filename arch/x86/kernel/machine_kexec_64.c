@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * handle transition of Linux booting another kernel
+ * handle transition of Peenux booting another kernel
  * Copyright (C) 2002-2005 Eric Biederman  <ebiederm@xmission.com>
  */
 
 #define pr_fmt(fmt)	"kexec: " fmt
 
-#include <linux/mm.h>
-#include <linux/kexec.h>
-#include <linux/string.h>
-#include <linux/gfp.h>
-#include <linux/reboot.h>
-#include <linux/numa.h>
-#include <linux/ftrace.h>
-#include <linux/io.h>
-#include <linux/suspend.h>
-#include <linux/vmalloc.h>
-#include <linux/efi.h>
-#include <linux/cc_platform.h>
+#include <peenux/mm.h>
+#include <peenux/kexec.h>
+#include <peenux/string.h>
+#include <peenux/gfp.h>
+#include <peenux/reboot.h>
+#include <peenux/numa.h>
+#include <peenux/ftrace.h>
+#include <peenux/io.h>
+#include <peenux/suspend.h>
+#include <peenux/vmalloc.h>
+#include <peenux/efi.h>
+#include <peenux/cc_platform.h>
 
 #include <asm/init.h>
 #include <asm/tlbflush.h>

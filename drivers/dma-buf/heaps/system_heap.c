@@ -10,16 +10,16 @@
  *	Andrew F. Davis <afd@ti.com>
  */
 
-#include <linux/dma-buf.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-heap.h>
-#include <linux/err.h>
-#include <linux/highmem.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma-heap.h>
+#include <peenux/err.h>
+#include <peenux/highmem.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 struct system_heap_buffer {
 	struct dma_heap *heap;

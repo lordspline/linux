@@ -14,15 +14,15 @@
 #include <asm/sections.h>
 #include <asm/setup.h>
 #include <asm/timex.h>
-#include <linux/elf.h>
-#include <linux/kernel.h>
-#include <linux/libfdt.h>
-#include <linux/of_fdt.h>
-#include <linux/panic_notifier.h>
-#include <linux/sched/task.h>
-#include <linux/start_kernel.h>
-#include <linux/string.h>
-#include <linux/printk.h>
+#include <peenux/elf.h>
+#include <peenux/kernel.h>
+#include <peenux/libfdt.h>
+#include <peenux/of_fdt.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/sched/task.h>
+#include <peenux/start_kernel.h>
+#include <peenux/string.h>
+#include <peenux/printk.h>
 
 #define RELOCATED(x) ((void *)((long)x + offset))
 

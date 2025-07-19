@@ -5,14 +5,14 @@
  * Copyright (c) 2022 Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/minmax.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/minmax.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-subdev.h>

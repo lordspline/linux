@@ -8,20 +8,20 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/bcd.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/hwmon.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
 
 #define RV3032_SEC			0x01
 #define RV3032_MIN			0x02

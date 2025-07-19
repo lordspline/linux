@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2021 Microsoft Corporation
  *
- * Author: Tushar Sugandhi <tusharsu@linux.microsoft.com>
+ * Author: Tushar Sugandhi <tusharsu@peenux.microsoft.com>
  *
  * Enables IMA measurements for DM targets
  */
@@ -10,10 +10,10 @@
 #include "dm-core.h"
 #include "dm-ima.h"
 
-#include <linux/ima.h>
-#include <linux/sched/mm.h>
+#include <peenux/ima.h>
+#include <peenux/sched/mm.h>
 #include <crypto/hash.h>
-#include <linux/crypto.h>
+#include <peenux/crypto.h>
 #include <crypto/hash_info.h>
 
 #define DM_MSG_PREFIX "ima"

@@ -6,7 +6,7 @@
 #ifndef _XE_GUC_LOG_TYPES_H_
 #define _XE_GUC_LOG_TYPES_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include "abi/guc_log_abi.h"
 
 #include "xe_uc_fw_types.h"

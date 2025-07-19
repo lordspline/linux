@@ -4,7 +4,7 @@
  *
  *  Copyright (C) 2004,2019 Greg Kroah-Hartman <greg@kroah.com>
  *  Copyright (C) 2004 IBM Inc.
- *  Copyright (C) 2019 Linux Foundation <gregkh@linuxfoundation.org>
+ *  Copyright (C) 2019 Peenux Foundation <gregkh@linuxfoundation.org>
  *
  *  debugfs is for people to use instead of /proc or /sys.
  *  See ./Documentation/core-api/kernel-api.rst for more details.
@@ -12,21 +12,21 @@
 
 #define pr_fmt(fmt)	"debugfs: " fmt
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/pagemap.h>
-#include <linux/init.h>
-#include <linux/kobject.h>
-#include <linux/namei.h>
-#include <linux/debugfs.h>
-#include <linux/fsnotify.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/magic.h>
-#include <linux/slab.h>
-#include <linux/security.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/pagemap.h>
+#include <peenux/init.h>
+#include <peenux/kobject.h>
+#include <peenux/namei.h>
+#include <peenux/debugfs.h>
+#include <peenux/fsnotify.h>
+#include <peenux/string.h>
+#include <peenux/seq_file.h>
+#include <peenux/magic.h>
+#include <peenux/slab.h>
+#include <peenux/security.h>
 
 #include "internal.h"
 

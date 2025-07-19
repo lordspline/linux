@@ -8,9 +8,9 @@
 #ifndef __LINUX_IHEX_H__
 #define __LINUX_IHEX_H__
 
-#include <linux/types.h>
-#include <linux/firmware.h>
-#include <linux/device.h>
+#include <peenux/types.h>
+#include <peenux/firmware.h>
+#include <peenux/device.h>
 
 /* Intel HEX files actually limit the length to 256 bytes, but we have
    drivers which would benefit from using separate records which are

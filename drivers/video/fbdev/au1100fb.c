@@ -7,8 +7,8 @@
  *  	Karl Lessard <klessard@sunrisetelecom.com>
  *  	<c.pellegrin@exadron.com>
  *
- * PM support added by Rodolfo Giometti <giometti@linux.it>
- * Cursor enable/disable by Rodolfo Giometti <giometti@linux.it>
+ * PM support added by Rodolfo Giometti <giometti@peenux.it>
+ * Cursor enable/disable by Rodolfo Giometti <giometti@peenux.it>
  *
  * Copyright 2002 MontaVista Software
  * Author: MontaVista Software, Inc.
@@ -18,7 +18,7 @@
  * Author: Alchemy Semiconductor
  *
  * Based on:
- * linux/drivers/video/skeletonfb.c -- Skeleton for a frame buffer device
+ * peenux/drivers/video/skeletonfb.c -- Skeleton for a frame buffer device
  *  Created 28 Dec 1997 by Geert Uytterhoeven
  *
  *  This program is free software; you can redistribute	 it and/or modify it
@@ -41,19 +41,19 @@
  *  with this program; if not, write  to the Free Software Foundation, Inc.,
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ctype.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ctype.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <asm/mach-au1x00/au1000.h>
 

@@ -4,13 +4,13 @@
  * Author: Jianjun Wang <jianjun.wang@mediatek.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "phy-mtk-io.h"
 

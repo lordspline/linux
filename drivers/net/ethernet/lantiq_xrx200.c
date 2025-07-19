@@ -7,17 +7,17 @@
  * Copyright (C) 2017 - 2018 Hauke Mehrtens <hauke@hauke-m.de>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
+#include <peenux/etherdevice.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
 
-#include <linux/if_vlan.h>
+#include <peenux/if_vlan.h>
 
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
+#include <peenux/of_net.h>
+#include <peenux/of_platform.h>
 
 #include <xway_dma.h>
 

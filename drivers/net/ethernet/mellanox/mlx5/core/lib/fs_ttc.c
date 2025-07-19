@@ -1,11 +1,11 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 // Copyright (c) 2021 NVIDIA CORPORATION & AFFILIATES.
 
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/mlx5/fs.h>
-#include <linux/mlx5/driver.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/tcp.h>
+#include <peenux/mlx5/fs.h>
+#include <peenux/mlx5/driver.h>
 #include "mlx5_core.h"
 #include "lib/fs_ttc.h"
 

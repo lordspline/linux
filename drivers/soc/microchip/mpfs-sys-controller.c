@@ -8,16 +8,16 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/mtd/mtd.h>
-#include <linux/spi/spi.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/mailbox_client.h>
-#include <linux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/kref.h>
+#include <peenux/module.h>
+#include <peenux/jiffies.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/spi/spi.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/platform_device.h>
 #include <soc/microchip/mpfs.h>
 
 /*

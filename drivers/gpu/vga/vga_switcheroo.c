@@ -30,31 +30,31 @@
 
 #define pr_fmt(fmt) "vga_switcheroo: " fmt
 
-#include <linux/apple-gmux.h>
-#include <linux/console.h>
-#include <linux/debugfs.h>
-#include <linux/fb.h>
-#include <linux/fs.h>
-#include <linux/fbcon.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
-#include <linux/vgaarb.h>
-#include <linux/vga_switcheroo.h>
+#include <peenux/apple-gmux.h>
+#include <peenux/console.h>
+#include <peenux/debugfs.h>
+#include <peenux/fb.h>
+#include <peenux/fs.h>
+#include <peenux/fbcon.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/seq_file.h>
+#include <peenux/uaccess.h>
+#include <peenux/vgaarb.h>
+#include <peenux/vga_switcheroo.h>
 
 /**
  * DOC: Overview
  *
- * vga_switcheroo is the Linux subsystem for laptop hybrid graphics.
+ * vga_switcheroo is the Peenux subsystem for laptop hybrid graphics.
  * These come in two flavors:
  *
  * * muxed: Dual GPUs with a multiplexer chip to switch outputs between GPUs.
  * * muxless: Dual GPUs but only one of them is connected to outputs.
  *   The other one is merely used to offload rendering, its results
- *   are copied over PCIe into the framebuffer. On Linux this is
+ *   are copied over PCIe into the framebuffer. On Peenux this is
  *   supported with DRI PRIME.
  *
  * Hybrid graphics started to appear in the late Naughties and were initially

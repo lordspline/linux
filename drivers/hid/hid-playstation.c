@@ -5,17 +5,17 @@
  *  Copyright (c) 2020-2022 Sony Interactive Entertainment
  */
 
-#include <linux/bits.h>
-#include <linux/crc32.h>
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/idr.h>
-#include <linux/input/mt.h>
-#include <linux/leds.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/module.h>
+#include <peenux/bits.h>
+#include <peenux/crc32.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/idr.h>
+#include <peenux/input/mt.h>
+#include <peenux/leds.h>
+#include <peenux/led-class-multicolor.h>
+#include <peenux/module.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "hid-ids.h"
 
@@ -2084,7 +2084,7 @@ static int dualshock4_led_set_brightness(struct led_classdev *led, enum led_brig
 	case 3:
 		ds4->lightbar_enabled = !!value;
 
-		/* brightness = 0 also cancels blinking in Linux. */
+		/* brightness = 0 also cancels blinking in Peenux. */
 		if (!ds4->lightbar_enabled) {
 			ds4->lightbar_blink_off = 0;
 			ds4->lightbar_blink_on = 0;

@@ -2,13 +2,13 @@
 #ifndef _MEMBLOCK_LINUX_KERNEL_H
 #define _MEMBLOCK_LINUX_KERNEL_H
 
-#include <../../include/linux/kernel.h>
-#include <linux/errno.h>
+#include <../../include/peenux/kernel.h>
+#include <peenux/errno.h>
 #include <string.h>
-#include <linux/printk.h>
-#include <linux/linkage.h>
-#include <linux/kconfig.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
+#include <peenux/printk.h>
+#include <peenux/linkage.h>
+#include <peenux/kconfig.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
 
 #endif

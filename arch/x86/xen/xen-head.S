@@ -4,9 +4,9 @@
 
 #ifdef CONFIG_XEN
 
-#include <linux/elfnote.h>
-#include <linux/init.h>
-#include <linux/instrumentation.h>
+#include <peenux/elfnote.h>
+#include <peenux/init.h>
+#include <peenux/instrumentation.h>
 
 #include <asm/boot.h>
 #include <asm/asm.h>
@@ -143,7 +143,7 @@ SYM_FUNC_START(xen_hypercall_intel)
 SYM_FUNC_END(xen_hypercall_intel)
 	.popsection
 
-	ELFNOTE(Xen, XEN_ELFNOTE_GUEST_OS,       .asciz "linux")
+	ELFNOTE(Xen, XEN_ELFNOTE_GUEST_OS,       .asciz "peenux")
 	ELFNOTE(Xen, XEN_ELFNOTE_GUEST_VERSION,  .asciz "2.6")
 	ELFNOTE(Xen, XEN_ELFNOTE_XEN_VERSION,    .asciz "xen-3.0")
 #ifdef CONFIG_XEN_PV

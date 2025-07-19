@@ -7,17 +7,17 @@
  * Copyright Altera Corporation (C) 2013-2015. All rights reserved
  */
 
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/of_address.h>
+#include <peenux/of_pci.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define MSI_STATUS		0x0
 #define MSI_ERROR		0x4

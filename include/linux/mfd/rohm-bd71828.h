@@ -4,9 +4,9 @@
 #ifndef __LINUX_MFD_BD71828_H__
 #define __LINUX_MFD_BD71828_H__
 
-#include <linux/bits.h>
-#include <linux/mfd/rohm-generic.h>
-#include <linux/mfd/rohm-shared.h>
+#include <peenux/bits.h>
+#include <peenux/mfd/rohm-generic.h>
+#include <peenux/mfd/rohm-shared.h>
 
 /* Regulator IDs */
 enum {

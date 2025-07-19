@@ -10,9 +10,9 @@
 #ifndef __ASM_SPARC64_FLOPPY_H
 #define __ASM_SPARC64_FLOPPY_H
 
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/dma-mapping.h>
 
 #include <asm/auxio.h>
 

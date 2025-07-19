@@ -5,16 +5,16 @@
  * Joshua Henderson <joshua.henderson@microchip.com>
  * Copyright (c) 2016, Microchip Technology Inc.
  */
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/watchdog.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/watchdog.h>
 
 #include <asm/mach-pic32/pic32.h>
 

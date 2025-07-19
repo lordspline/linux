@@ -81,8 +81,8 @@
 
 #define pr_fmt(fmt) "thermal-testing: " fmt
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/module.h>
 
 #include "thermal_testing.h"
 

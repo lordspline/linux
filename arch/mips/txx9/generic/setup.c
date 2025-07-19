@@ -1,5 +1,5 @@
 /*
- * Based on linux/arch/mips/txx9/rbtx4938/setup.c,
+ * Based on peenux/arch/mips/txx9/rbtx4938/setup.c,
  *	    and RBTX49xx patch from CELF patch archive.
  *
  * 2003-2005 (c) MontaVista Software, Inc.
@@ -9,25 +9,25 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/txx9/ndfmc.h>
-#include <linux/serial_core.h>
-#include <linux/mtd/physmap.h>
-#include <linux/leds.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/irq.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/string.h>
+#include <peenux/export.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/txx9/ndfmc.h>
+#include <peenux/serial_core.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/leds.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
 #include <asm/bootinfo.h>
 #include <asm/idle.h>
 #include <asm/time.h>

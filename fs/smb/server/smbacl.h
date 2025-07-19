@@ -9,10 +9,10 @@
 #define _SMBACL_H
 
 #include "../common/smbacl.h"
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/posix_acl.h>
-#include <linux/mnt_idmapping.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/posix_acl.h>
+#include <peenux/mnt_idmapping.h>
 
 #include "mgmt/tree_connect.h"
 

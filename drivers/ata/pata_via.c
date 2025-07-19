@@ -38,7 +38,7 @@
  *
  * Version 3.38
  *
- * VIA IDE driver for Linux. Supported southbridges:
+ * VIA IDE driver for Peenux. Supported southbridges:
  *
  *   vt82c576, vt82c586, vt82c586a, vt82c586b, vt82c596a, vt82c596b,
  *   vt82c686, vt82c686a, vt82c686b, vt8231, vt8233, vt8233c, vt8233a,
@@ -53,15 +53,15 @@
 
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/gfp.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
-#include <linux/dmi.h>
+#include <peenux/libata.h>
+#include <peenux/dmi.h>
 
 #define DRV_NAME "pata_via"
 #define DRV_VERSION "0.3.4"

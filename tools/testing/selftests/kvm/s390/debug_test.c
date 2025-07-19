@@ -4,7 +4,7 @@
 #include "test_util.h"
 #include "sie.h"
 
-#include <linux/kvm.h>
+#include <peenux/kvm.h>
 
 #define __LC_SVC_NEW_PSW 0x1c0
 #define __LC_PGM_NEW_PSW 0x1d0

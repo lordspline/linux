@@ -3,9 +3,9 @@
  * Copyright © 2020 Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include <uapi/drm/i915_drm.h>
 

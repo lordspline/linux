@@ -7,9 +7,9 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/reboot.h>
 
 void machine_shutdown(void)
 {

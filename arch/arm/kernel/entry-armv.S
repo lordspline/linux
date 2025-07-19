@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/kernel/entry-armv.S
+ *  peenux/arch/arm/kernel/entry-armv.S
  *
  *  Copyright (C) 1996,1997,1998 Russell King.
- *  ARM700 fix by Matthew Godbolt (linux-user@willothewisp.demon.co.uk)
+ *  ARM700 fix by Matthew Godbolt (peenux-user@willothewisp.demon.co.uk)
  *  nommu support by Hyok S. Choi (hyok.choi@samsung.com)
  *
  *  Low-level vector interface routines
@@ -12,7 +12,7 @@
  *  that causes it to save wrong values...  Be aware!
  */
 
-#include <linux/init.h>
+#include <peenux/init.h>
 
 #include <asm/assembler.h>
 #include <asm/page.h>

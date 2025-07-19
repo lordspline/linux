@@ -8,13 +8,13 @@
  * Author: Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/radix-tree.h>
-#include <linux/types.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/radix-tree.h>
+#include <peenux/types.h>
 
-#include <linux/pinctrl/machine.h>
+#include <peenux/pinctrl/machine.h>
 
 struct dentry;
 struct device;
@@ -195,7 +195,7 @@ struct pinctrl_maps {
 
 #ifdef CONFIG_GENERIC_PINCTRL_GROUPS
 
-#include <linux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinctrl.h>
 
 /**
  * struct group_desc - generic pin group descriptor

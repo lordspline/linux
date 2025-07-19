@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  *   Focusrite Scarlett 2 Protocol Driver for ALSA
  *   (including Scarlett 2nd Gen, 3rd Gen, 4th Gen, Clarett USB, and
@@ -9,8 +9,8 @@
 #ifndef __UAPI_SOUND_SCARLETT2_H
 #define __UAPI_SOUND_SCARLETT2_H
 
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <peenux/types.h>
+#include <peenux/ioctl.h>
 
 #define SCARLETT2_HWDEP_MAJOR 1
 #define SCARLETT2_HWDEP_MINOR 0

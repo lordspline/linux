@@ -5,17 +5,17 @@
 
 #define pr_fmt(fmt) "riscv-pv: " fmt
 
-#include <linux/cpuhotplug.h>
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/jump_label.h>
-#include <linux/kconfig.h>
-#include <linux/kernel.h>
-#include <linux/percpu-defs.h>
-#include <linux/printk.h>
-#include <linux/static_call.h>
-#include <linux/types.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/compiler.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/jump_label.h>
+#include <peenux/kconfig.h>
+#include <peenux/kernel.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/printk.h>
+#include <peenux/static_call.h>
+#include <peenux/types.h>
 
 #include <asm/barrier.h>
 #include <asm/page.h>

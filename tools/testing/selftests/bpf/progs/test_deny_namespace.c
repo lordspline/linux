@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bpf.h>
+#include <peenux/bpf.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
 #include <errno.h>
-#include <linux/capability.h>
+#include <peenux/capability.h>
 
 typedef struct { unsigned long long val; } kernel_cap_t;
 

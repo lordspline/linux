@@ -6,22 +6,22 @@
  *  Nick Kossifidis <mick@ics.forth.gr>
  */
 
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/initrd.h>
-#include <linux/swap.h>
-#include <linux/swiotlb.h>
-#include <linux/sizes.h>
-#include <linux/of_fdt.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/libfdt.h>
-#include <linux/set_memory.h>
-#include <linux/dma-map-ops.h>
-#include <linux/crash_dump.h>
-#include <linux/hugetlb.h>
-#include <linux/kfence.h>
-#include <linux/execmem.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/memblock.h>
+#include <peenux/initrd.h>
+#include <peenux/swap.h>
+#include <peenux/swiotlb.h>
+#include <peenux/sizes.h>
+#include <peenux/of_fdt.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/libfdt.h>
+#include <peenux/set_memory.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/crash_dump.h>
+#include <peenux/hugetlb.h>
+#include <peenux/kfence.h>
+#include <peenux/execmem.h>
 
 #include <asm/fixmap.h>
 #include <asm/io.h>

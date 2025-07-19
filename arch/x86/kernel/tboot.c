@@ -6,18 +6,18 @@
  * Copyright (c) 2006-2009, Intel Corporation
  */
 
-#include <linux/init_task.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/dmar.h>
-#include <linux/cpu.h>
-#include <linux/pfn.h>
-#include <linux/mm.h>
-#include <linux/tboot.h>
-#include <linux/debugfs.h>
+#include <peenux/init_task.h>
+#include <peenux/spinlock.h>
+#include <peenux/export.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/dmar.h>
+#include <peenux/cpu.h>
+#include <peenux/pfn.h>
+#include <peenux/mm.h>
+#include <peenux/tboot.h>
+#include <peenux/debugfs.h>
 
 #include <asm/realmode.h>
 #include <asm/processor.h>

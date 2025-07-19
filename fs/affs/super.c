@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/affs/inode.c
+ *  peenux/fs/affs/inode.c
  *
  *  (c) 1996  Hans-Joachim Widmaier - Rewritten
  *
@@ -11,19 +11,19 @@
  *  (C) 1991  Linus Torvalds - minix filesystem
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/statfs.h>
-#include <linux/fs_parser.h>
-#include <linux/fs_context.h>
-#include <linux/magic.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/slab.h>
-#include <linux/writeback.h>
-#include <linux/blkdev.h>
-#include <linux/seq_file.h>
-#include <linux/iversion.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/statfs.h>
+#include <peenux/fs_parser.h>
+#include <peenux/fs_context.h>
+#include <peenux/magic.h>
+#include <peenux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/slab.h>
+#include <peenux/writeback.h>
+#include <peenux/blkdev.h>
+#include <peenux/seq_file.h>
+#include <peenux/iversion.h>
 #include "affs.h"
 
 static int affs_statfs(struct dentry *dentry, struct kstatfs *buf);
@@ -675,7 +675,7 @@ static void __exit exit_affs_fs(void)
 	destroy_inodecache();
 }
 
-MODULE_DESCRIPTION("Amiga filesystem support for Linux");
+MODULE_DESCRIPTION("Amiga filesystem support for Peenux");
 MODULE_LICENSE("GPL");
 
 module_init(init_affs_fs)

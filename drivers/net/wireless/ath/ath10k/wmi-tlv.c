@@ -2,7 +2,7 @@
 /*
  * Copyright (c) 2005-2011 Atheros Communications Inc.
  * Copyright (c) 2011-2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 #include "core.h"
@@ -14,7 +14,7 @@
 #include "wmi-tlv.h"
 #include "p2p.h"
 #include "testmode.h"
-#include <linux/bitfield.h>
+#include <peenux/bitfield.h>
 
 /***************/
 /* TLV helpers */

@@ -5,16 +5,16 @@
  * Copyright (C) 2024 Remote-Tech Ltd. UK
  */
 
-#include <linux/cleanup.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio.h>
-#include <linux/i2c.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/cleanup.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio.h>
+#include <peenux/i2c.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #define ST1202_CHAN_DISABLE_ALL            0x00
 #define ST1202_CHAN_ENABLE_HIGH            0x03

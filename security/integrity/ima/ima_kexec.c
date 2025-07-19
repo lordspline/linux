@@ -3,16 +3,16 @@
  * Copyright (C) 2016 IBM Corporation
  *
  * Authors:
- * Thiago Jung Bauermann <bauerman@linux.vnet.ibm.com>
- * Mimi Zohar <zohar@linux.vnet.ibm.com>
+ * Thiago Jung Bauermann <bauerman@peenux.vnet.ibm.com>
+ * Mimi Zohar <zohar@peenux.vnet.ibm.com>
  */
 
-#include <linux/seq_file.h>
-#include <linux/vmalloc.h>
-#include <linux/kexec.h>
-#include <linux/of.h>
-#include <linux/ima.h>
-#include <linux/reboot.h>
+#include <peenux/seq_file.h>
+#include <peenux/vmalloc.h>
+#include <peenux/kexec.h>
+#include <peenux/of.h>
+#include <peenux/ima.h>
+#include <peenux/reboot.h>
 #include <asm/page.h>
 #include "ima.h"
 

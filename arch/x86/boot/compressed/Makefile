@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 #
-# linux/arch/x86/boot/compressed/Makefile
+# peenux/arch/x86/boot/compressed/Makefile
 #
 # create a compressed vmlinux image from the original vmlinux
 #
@@ -42,7 +42,7 @@ KBUILD_CFLAGS += -fno-asynchronous-unwind-tables
 KBUILD_CFLAGS += -D__DISABLE_EXPORTS
 # Disable relocation relaxation in case the link is not PIE.
 KBUILD_CFLAGS += $(call cc-option,-Wa$(comma)-mrelax-relocations=no)
-KBUILD_CFLAGS += -include $(srctree)/include/linux/hidden.h
+KBUILD_CFLAGS += -include $(srctree)/include/peenux/hidden.h
 
 # sev-decode-insn.c indirectly includes inat-table.c which is generated during
 # compilation and stored in $(objtree). Add the directory to the includes so

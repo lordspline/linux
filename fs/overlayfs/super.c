@@ -4,20 +4,20 @@
  * Copyright (C) 2011 Novell Inc.
  */
 
-#include <uapi/linux/magic.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/xattr.h>
-#include <linux/mount.h>
-#include <linux/parser.h>
-#include <linux/module.h>
-#include <linux/statfs.h>
-#include <linux/seq_file.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/exportfs.h>
-#include <linux/file.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
+#include <uapi/peenux/magic.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/xattr.h>
+#include <peenux/mount.h>
+#include <peenux/parser.h>
+#include <peenux/module.h>
+#include <peenux/statfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/posix_acl_xattr.h>
+#include <peenux/exportfs.h>
+#include <peenux/file.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
 #include "overlayfs.h"
 #include "params.h"
 

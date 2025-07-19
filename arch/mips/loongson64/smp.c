@@ -5,14 +5,14 @@
  */
 
 #include <irq.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/sched.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/smp.h>
-#include <linux/cpufreq.h>
-#include <linux/kexec.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/sched.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/smp.h>
+#include <peenux/cpufreq.h>
+#include <peenux/kexec.h>
 #include <asm/processor.h>
 #include <asm/smp.h>
 #include <asm/time.h>

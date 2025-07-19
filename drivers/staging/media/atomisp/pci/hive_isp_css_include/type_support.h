@@ -24,9 +24,9 @@
 
 #define CHAR_BIT (8)
 
-#include <linux/errno.h>
-#include <linux/limits.h>
-#include <linux/types.h>
+#include <peenux/errno.h>
+#include <peenux/limits.h>
+#include <peenux/types.h>
 
 #define HOST_ADDRESS(x) (unsigned long)(x)
 

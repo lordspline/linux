@@ -5,7 +5,7 @@
  * Copyright (C) 2001-2002 Thomas Bogendoerfer <tsbogend@alpha.franken.de>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
 #include <video/sticore.h>
 

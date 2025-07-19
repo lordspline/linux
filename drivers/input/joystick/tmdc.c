@@ -7,16 +7,16 @@
  */
 
 /*
- * ThrustMaster DirectConnect (BSP) joystick family driver for Linux
+ * ThrustMaster DirectConnect (BSP) joystick family driver for Peenux
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/gameport.h>
-#include <linux/input.h>
-#include <linux/jiffies.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/gameport.h>
+#include <peenux/input.h>
+#include <peenux/jiffies.h>
 
 #define DRIVER_DESC	"ThrustMaster DirectConnect joystick driver"
 

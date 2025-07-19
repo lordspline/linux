@@ -3,16 +3,16 @@
  * Copyright (C) 2013 NVIDIA Corporation
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/debugfs.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
 
 #include <soc/tegra/pmc.h>
 

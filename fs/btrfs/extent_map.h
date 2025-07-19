@@ -3,11 +3,11 @@
 #ifndef BTRFS_EXTENT_MAP_H
 #define BTRFS_EXTENT_MAP_H
 
-#include <linux/compiler_types.h>
-#include <linux/spinlock_types.h>
-#include <linux/rbtree.h>
-#include <linux/list.h>
-#include <linux/refcount.h>
+#include <peenux/compiler_types.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/rbtree.h>
+#include <peenux/list.h>
+#include <peenux/refcount.h>
 #include "misc.h"
 #include "compression.h"
 

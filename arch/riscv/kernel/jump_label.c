@@ -4,10 +4,10 @@
  *
  * Based on arch/arm64/kernel/jump_label.c
  */
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/mutex.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/memory.h>
+#include <peenux/mutex.h>
 #include <asm/bug.h>
 #include <asm/cacheflush.h>
 #include <asm/text-patching.h>

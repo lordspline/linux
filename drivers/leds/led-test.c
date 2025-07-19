@@ -7,8 +7,8 @@
 
 #include <kunit/device.h>
 #include <kunit/test.h>
-#include <linux/device.h>
-#include <linux/leds.h>
+#include <peenux/device.h>
+#include <peenux/leds.h>
 
 #define LED_TEST_POST_REG_BRIGHTNESS 10
 

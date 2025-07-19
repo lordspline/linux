@@ -3,9 +3,9 @@
  *  Copyright (C) 2014  Steven Rostedt, Red Hat Inc
  */
 
-#include <linux/export.h>
-#include <linux/cfi_types.h>
-#include <linux/linkage.h>
+#include <peenux/export.h>
+#include <peenux/cfi_types.h>
+#include <peenux/linkage.h>
 #include <asm/asm-offsets.h>
 #include <asm/ptrace.h>
 #include <asm/ftrace.h>
@@ -334,7 +334,7 @@ trace:
 
 	/*
 	 * When DYNAMIC_FTRACE is not defined, ARCH_SUPPORTS_FTRACE_OPS is not
-	 * set (see include/asm/ftrace.h and include/linux/ftrace.h).  Only the
+	 * set (see include/asm/ftrace.h and include/peenux/ftrace.h).  Only the
 	 * ip and parent ip are used and the list function is called when
 	 * function tracing is enabled.
 	 */

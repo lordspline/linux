@@ -6,11 +6,11 @@
 
 #define pr_fmt(fmt) "MPTCP: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/rculist.h>
-#include <linux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/rculist.h>
+#include <peenux/spinlock.h>
 #include "protocol.h"
 
 static DEFINE_SPINLOCK(mptcp_sched_list_lock);

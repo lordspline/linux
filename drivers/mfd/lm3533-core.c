@@ -7,19 +7,19 @@
  * Author: Johan Hovold <jhovold@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/core.h>
+#include <peenux/regmap.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 
-#include <linux/mfd/lm3533.h>
+#include <peenux/mfd/lm3533.h>
 
 
 #define LM3533_BOOST_OVP_MASK		0x06

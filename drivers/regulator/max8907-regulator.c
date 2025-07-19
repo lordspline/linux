@@ -11,18 +11,18 @@
  *     Author: Jorge Eduardo Candelaria <jedu@slimlogic.co.uk>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/max8907.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/max8907.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #define MAX8907_II2RR_VERSION_MASK	0xF0
 #define MAX8907_II2RR_VERSION_REV_A	0x00

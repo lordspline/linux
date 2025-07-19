@@ -6,7 +6,7 @@
 #ifndef VDO_PACKER_H
 #define VDO_PACKER_H
 
-#include <linux/list.h>
+#include <peenux/list.h>
 
 #include "admin-state.h"
 #include "constants.h"

@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/arch/arm/common/vic.c
+ *  peenux/arch/arm/common/vic.c
  *
  *  Copyright (C) 1999 - 2003 ARM Limited
  *  Copyright (C) 2000 Deep Blue Solutions Ltd
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/syscore_ops.h>
-#include <linux/device.h>
-#include <linux/amba/bus.h>
-#include <linux/irqchip/arm-vic.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/device.h>
+#include <peenux/amba/bus.h>
+#include <peenux/irqchip/arm-vic.h>
 
 #include <asm/exception.h>
 #include <asm/irq.h>

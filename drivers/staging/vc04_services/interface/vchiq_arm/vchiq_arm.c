@@ -4,30 +4,30 @@
  * Copyright (c) 2010-2012 Broadcom. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/device/bus.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/compat.h>
-#include <linux/dma-mapping.h>
-#include <linux/rcupdate.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched/signal.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/cdev.h>
+#include <peenux/fs.h>
+#include <peenux/device.h>
+#include <peenux/device/bus.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/bug.h>
+#include <peenux/completion.h>
+#include <peenux/list.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/compat.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/rcupdate.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 #include <soc/bcm2835/raspberrypi-firmware.h>
 
 #include "vchiq_core.h"

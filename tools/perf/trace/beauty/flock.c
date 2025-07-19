@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: LGPL-2.1
 
 #include "trace/beauty/beauty.h"
-#include <linux/kernel.h>
-#include <linux/fcntl.h>
+#include <peenux/kernel.h>
+#include <peenux/fcntl.h>
 
 #ifndef LOCK_MAND
 #define LOCK_MAND	 32

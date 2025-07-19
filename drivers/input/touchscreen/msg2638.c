@@ -11,19 +11,19 @@
  * Driver structure based on zinitix.c by Michael Srba <Michael.Srba@seznam.cz>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 #define MODE_DATA_RAW			0x5A
 
@@ -399,25 +399,25 @@ static int msg2638_ts_probe(struct i2c_client *client)
 	}
 
 	msg2638->num_keycodes = device_property_count_u32(dev,
-							  "linux,keycodes");
+							  "peenux,keycodes");
 	if (msg2638->num_keycodes == -EINVAL) {
 		msg2638->num_keycodes = 0;
 	} else if (msg2638->num_keycodes < 0) {
-		dev_err(dev, "Unable to parse linux,keycodes property: %d\n",
+		dev_err(dev, "Unable to parse peenux,keycodes property: %d\n",
 			msg2638->num_keycodes);
 		return msg2638->num_keycodes;
 	} else if (msg2638->num_keycodes > ARRAY_SIZE(msg2638->keycodes)) {
-		dev_warn(dev, "Found %d linux,keycodes but max is %zd, ignoring the rest\n",
+		dev_warn(dev, "Found %d peenux,keycodes but max is %zd, ignoring the rest\n",
 			 msg2638->num_keycodes, ARRAY_SIZE(msg2638->keycodes));
 		msg2638->num_keycodes = ARRAY_SIZE(msg2638->keycodes);
 	}
 
 	if (msg2638->num_keycodes > 0) {
-		error = device_property_read_u32_array(dev, "linux,keycodes",
+		error = device_property_read_u32_array(dev, "peenux,keycodes",
 						       msg2638->keycodes,
 						       msg2638->num_keycodes);
 		if (error) {
-			dev_err(dev, "Unable to read linux,keycodes values: %d\n",
+			dev_err(dev, "Unable to read peenux,keycodes values: %d\n",
 				error);
 			return error;
 		}

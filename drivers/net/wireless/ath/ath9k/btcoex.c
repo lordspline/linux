@@ -14,8 +14,8 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/export.h>
-#include <linux/types.h>
+#include <peenux/export.h>
+#include <peenux/types.h>
 #include "hw.h"
 
 enum ath_bt_mode {

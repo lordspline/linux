@@ -9,10 +9,10 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 #include "pinctrl-spear.h"
 
 #define DRIVER_NAME "spear1340-pinmux"

@@ -6,22 +6,22 @@
  * Copyright 2012 Google, Inc.
  */
 
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/console.h>
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/log2.h>
-#include <linux/math64.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/random.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/sched/clock.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/console.h>
+#include <peenux/ctype.h>
+#include <peenux/debugfs.h>
+#include <peenux/freezer.h>
+#include <peenux/kthread.h>
+#include <peenux/log2.h>
+#include <peenux/math64.h>
+#include <peenux/percpu.h>
+#include <peenux/preempt.h>
+#include <peenux/random.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/sched/clock.h>
 
 #include "eytzinger.h"
 #include "mean_and_variance.h"

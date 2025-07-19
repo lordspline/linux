@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  Implementation of various system calls for Linux/PowerPC
+ *  Implementation of various system calls for Peenux/PowerPC
  *
  *    Copyright (C) 1995-1996 Gary Thomas (gdt@linuxppc.org)
  *
@@ -10,28 +10,28 @@
  * and Paul Mackerras (paulus@cs.anu.edu.au).
  *
  * This file contains various random system calls that
- * have a non-standard calling sequence on the Linux/PPC
+ * have a non-standard calling sequence on the Peenux/PPC
  * platform.
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/syscalls.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/smp.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/mman.h>
-#include <linux/sys.h>
-#include <linux/ipc.h>
-#include <linux/utsname.h>
-#include <linux/file.h>
-#include <linux/personality.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/syscalls.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/smp.h>
+#include <peenux/sem.h>
+#include <peenux/msg.h>
+#include <peenux/shm.h>
+#include <peenux/stat.h>
+#include <peenux/mman.h>
+#include <peenux/sys.h>
+#include <peenux/ipc.h>
+#include <peenux/utsname.h>
+#include <peenux/file.h>
+#include <peenux/personality.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/syscalls.h>
 #include <asm/time.h>
 #include <asm/unistd.h>

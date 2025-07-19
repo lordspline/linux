@@ -7,40 +7,40 @@
  *  Amir Hanania <amir.hanania@intel.com>
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  *
  * Contributors:
- *  Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ *  Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
  *  Eliot Lee <eliot.lee@intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-direction.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/iopoll.h>
-#include <linux/irqreturn.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/bits.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dmapool.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma-direction.h>
+#include <peenux/gfp.h>
+#include <peenux/io.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/iopoll.h>
+#include <peenux/irqreturn.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
 #include "t7xx_cldma.h"
 #include "t7xx_hif_cldma.h"

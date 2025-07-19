@@ -10,17 +10,17 @@
 // Copyright (c) 2020 Rockchip Electronics Co. Ltd.
 //
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/string.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/string.h>
 
 #include "rockchip_canfd.h"
 

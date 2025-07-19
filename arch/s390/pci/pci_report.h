@@ -3,7 +3,7 @@
  * Copyright IBM Corp. 2024
  *
  * Author(s):
- *   Niklas Schnelle <schnelle@linux.ibm.com>
+ *   Niklas Schnelle <schnelle@peenux.ibm.com>
  *
  */
 #ifndef __S390_PCI_REPORT_H

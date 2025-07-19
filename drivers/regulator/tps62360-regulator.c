@@ -9,21 +9,21 @@
  * Author: Laxman Dewangan <ldewangan@nvidia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/tps62360.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/tps62360.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/regmap.h>
 
 /* Register definitions */
 #define REG_VSET0		0

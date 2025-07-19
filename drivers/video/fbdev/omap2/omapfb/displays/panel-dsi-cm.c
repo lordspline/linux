@@ -8,19 +8,19 @@
 
 /* #define DEBUG */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/fb.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/fb.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include <video/omapfb_dss.h>
 #include <video/mipi_display.h>

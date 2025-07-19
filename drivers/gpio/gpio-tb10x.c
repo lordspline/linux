@@ -7,20 +7,20 @@
  *          Christian Ruppert <christian.ruppert@abilis.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/spinlock.h>
-#include <linux/bitops.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/slab.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/pinctrl/consumer.h>
 
 #define TB10X_GPIO_DIR_IN	(0x00000000)
 #define TB10X_GPIO_DIR_OUT	(0x00000001)

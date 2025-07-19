@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/capability.h>
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/prctl.h>
-#include <linux/sched.h>
+#include <peenux/capability.h>
+#include <peenux/cpu.h>
+#include <peenux/init.h>
+#include <peenux/prctl.h>
+#include <peenux/sched.h>
 
 #include <asm/cpu_has_feature.h>
 #include <asm/cputable.h>

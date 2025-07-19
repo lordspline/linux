@@ -7,10 +7,10 @@
 #ifndef __MGB4_CORE_H__
 #define __MGB4_CORE_H__
 
-#include <linux/spi/flash.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mutex.h>
-#include <linux/dmaengine.h>
+#include <peenux/spi/flash.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mutex.h>
+#include <peenux/dmaengine.h>
 #include "mgb4_regs.h"
 
 #define MGB4_HW_FREQ 125000000

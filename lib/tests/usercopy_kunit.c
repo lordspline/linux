@@ -10,11 +10,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/mman.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/mman.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 #include <kunit/test.h>
 
 /*

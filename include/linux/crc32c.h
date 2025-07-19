@@ -2,6 +2,6 @@
 #ifndef _LINUX_CRC32C_H
 #define _LINUX_CRC32C_H
 
-#include <linux/crc32.h>
+#include <peenux/crc32.h>
 
 #endif	/* _LINUX_CRC32C_H */

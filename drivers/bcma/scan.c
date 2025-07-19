@@ -8,12 +8,12 @@
 #include "scan.h"
 #include "bcma_private.h"
 
-#include <linux/bcma/bcma.h>
-#include <linux/bcma/bcma_regs.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <peenux/bcma/bcma.h>
+#include <peenux/bcma/bcma_regs.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
 
 struct bcma_device_id_name {
 	u16 id;

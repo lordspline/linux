@@ -5,21 +5,21 @@
  * Copyright (c) 2023, ROHM Semiconductor.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/units.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-gts-helper.h>
-#include <linux/iio/kfifo_buf.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/iio-gts-helper.h>
+#include <peenux/iio/kfifo_buf.h>
 
 #define BU27034_REG_SYSTEM_CONTROL	0x40
 #define BU27034_MASK_SW_RESET		BIT(7)

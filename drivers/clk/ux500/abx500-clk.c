@@ -6,15 +6,15 @@
  * Author: Ulf Hansson <ulf.hansson@linaro.org>
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/mfd/abx500/ab8500-sysctrl.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/abx500/ab8500.h>
+#include <peenux/mfd/abx500/ab8500-sysctrl.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk-provider.h>
 #include <dt-bindings/clock/ste-ab8500.h>
 #include "clk.h"
 

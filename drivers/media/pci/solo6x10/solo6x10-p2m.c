@@ -9,9 +9,9 @@
  * John Brooks <john.brooks@bluecherry.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include "solo6x10.h"
 

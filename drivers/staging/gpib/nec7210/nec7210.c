@@ -7,18 +7,18 @@
 #define dev_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include "board.h"
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <asm/dma.h>
-#include <linux/bitops.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/delay.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("GPIB library code for NEC uPD7210");

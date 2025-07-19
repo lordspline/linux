@@ -5,9 +5,9 @@
  *  Copyright (C) 2016-2018 Xilinx
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
 #include "clk-zynqmp.h"
 
 /**

@@ -5,20 +5,20 @@
  * Copyright (C) 2021 BAIKAL ELECTRONICS, JSC
  */
 
-#include <linux/ahci_platform.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/libata.h>
-#include <linux/log2.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
+#include <peenux/ahci_platform.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/libata.h>
+#include <peenux/log2.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
 
 #include "ahci.h"
 

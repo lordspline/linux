@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/module.c
+ *  peenux/arch/arm/kernel/module.c
  *
  *  Copyright (C) 2002 Russell King.
  *  Modified for nommu by Hyok S. Choi
  *
  * Module allocation method suggested by Andi Kleen.
  */
-#include <linux/module.h>
-#include <linux/moduleloader.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/elf.h>
-#include <linux/fs.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/moduleloader.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/elf.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
 
 #include <asm/sections.h>
 #include <asm/smp_plat.h>

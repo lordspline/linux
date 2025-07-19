@@ -3,8 +3,8 @@
  * Copyright 2019 NXP.
  */
 
-#include <linux/device.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
 
 #include "dcss-dev.h"
 

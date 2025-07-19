@@ -5,18 +5,18 @@
  * Copyright (C) 1999 David S. Miller (davem@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/numa.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/numa.h>
 
 #include <asm/page.h>
 #include <asm/io.h>

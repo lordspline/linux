@@ -7,12 +7,12 @@
  * Contact: Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_data/lv5207lp.h>
-#include <linux/slab.h>
+#include <peenux/backlight.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/lv5207lp.h>
+#include <peenux/slab.h>
 
 #define LV5207LP_CTRL1			0x00
 #define LV5207LP_CPSW			(1 << 7)

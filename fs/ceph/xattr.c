@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
-#include <linux/ceph/pagelist.h>
+#include <peenux/ceph/ceph_debug.h>
+#include <peenux/ceph/pagelist.h>
 
 #include "super.h"
 #include "mds_client.h"
 
-#include <linux/ceph/decode.h>
+#include <peenux/ceph/decode.h>
 
-#include <linux/xattr.h>
-#include <linux/security.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/slab.h>
+#include <peenux/xattr.h>
+#include <peenux/security.h>
+#include <peenux/posix_acl_xattr.h>
+#include <peenux/slab.h>
 
 #define XATTR_CEPH_PREFIX "ceph."
 #define XATTR_CEPH_PREFIX_LEN (sizeof (XATTR_CEPH_PREFIX) - 1)

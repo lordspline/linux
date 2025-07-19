@@ -2,12 +2,12 @@
 /*
  * (C) 2007 Patrick McHardy <kaber@trash.net>
  */
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/gen_stats.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/gen_stats.h>
 
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_rateest.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_rateest.h>
 #include <net/netfilter/xt_rateest.h>
 
 

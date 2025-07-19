@@ -12,16 +12,16 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/proc_fs.h>
-#include <linux/workqueue.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/mutex.h>
-#include <linux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/proc_fs.h>
+#include <peenux/workqueue.h>
+#include <peenux/pci.h>
+#include <peenux/pci_hotplug.h>
+#include <peenux/mutex.h>
+#include <peenux/debugfs.h>
 #include "cpqphp.h"
 
 static DEFINE_MUTEX(cpqphp_mutex);

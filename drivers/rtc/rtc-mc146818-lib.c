@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/bcd.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/mc146818rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/mc146818rtc.h>
 
 #ifdef CONFIG_ACPI
-#include <linux/acpi.h>
+#include <peenux/acpi.h>
 #endif
 
 #define UIP_RECHECK_DELAY		100	/* usec */

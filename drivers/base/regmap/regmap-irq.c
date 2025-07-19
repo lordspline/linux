@@ -6,16 +6,16 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/overflow.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/array_size.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/overflow.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include "internal.h"
 

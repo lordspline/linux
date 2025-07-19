@@ -8,21 +8,21 @@
 //
 // This driver is based on max17040_battery.c
 
-#include <linux/acpi.h>
-#include <linux/devm-helpers.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/mod_devicetable.h>
-#include <linux/power_supply.h>
-#include <linux/power/max17042_battery.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/acpi.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/power_supply.h>
+#include <peenux/power/max17042_battery.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 /* Status register bits */
 #define STATUS_POR_BIT         (1 << 1)

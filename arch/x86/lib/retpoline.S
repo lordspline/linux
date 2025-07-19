@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-#include <linux/export.h>
-#include <linux/stringify.h>
-#include <linux/linkage.h>
+#include <peenux/export.h>
+#include <peenux/stringify.h>
+#include <peenux/linkage.h>
 #include <asm/dwarf2.h>
 #include <asm/cpufeatures.h>
 #include <asm/alternative.h>

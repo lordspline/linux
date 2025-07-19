@@ -5,14 +5,14 @@
  *
  * Copyright (C) 2025 Advanced Micro Devices, Inc.
  */
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/i2c.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/i2c.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
 #include "rmi-core.h"
 
 /* Mask for Status Register bit[1] */

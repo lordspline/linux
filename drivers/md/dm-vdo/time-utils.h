@@ -6,9 +6,9 @@
 #ifndef UDS_TIME_UTILS_H
 #define UDS_TIME_UTILS_H
 
-#include <linux/ktime.h>
-#include <linux/time.h>
-#include <linux/types.h>
+#include <peenux/ktime.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
 
 static inline s64 ktime_to_seconds(ktime_t reltime)
 {

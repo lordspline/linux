@@ -16,11 +16,11 @@
  *   Cleaned up and rewrote lowlevel routines.
  */
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/dma.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
+#include <peenux/module.h>
 #include <sound/core.h>
 #include <sound/sb.h>
 

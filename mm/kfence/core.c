@@ -7,30 +7,30 @@
 
 #define pr_fmt(fmt) "kfence: " fmt
 
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/debugfs.h>
-#include <linux/hash.h>
-#include <linux/irq_work.h>
-#include <linux/jhash.h>
-#include <linux/kcsan-checks.h>
-#include <linux/kfence.h>
-#include <linux/kmemleak.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/log2.h>
-#include <linux/memblock.h>
-#include <linux/moduleparam.h>
-#include <linux/nodemask.h>
-#include <linux/notifier.h>
-#include <linux/panic_notifier.h>
-#include <linux/random.h>
-#include <linux/rcupdate.h>
-#include <linux/sched/clock.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/debugfs.h>
+#include <peenux/hash.h>
+#include <peenux/irq_work.h>
+#include <peenux/jhash.h>
+#include <peenux/kcsan-checks.h>
+#include <peenux/kfence.h>
+#include <peenux/kmemleak.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/log2.h>
+#include <peenux/memblock.h>
+#include <peenux/moduleparam.h>
+#include <peenux/nodemask.h>
+#include <peenux/notifier.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/random.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched/clock.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
 
 #include <asm/kfence.h>
 

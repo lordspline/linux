@@ -4,9 +4,9 @@
 #ifndef __NFP_ASM_H__
 #define __NFP_ASM_H__ 1
 
-#include <linux/bitfield.h>
-#include <linux/bug.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bug.h>
+#include <peenux/types.h>
 
 #define REG_NONE	0
 #define REG_WIDTH	4

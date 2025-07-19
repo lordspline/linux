@@ -5,12 +5,12 @@
  *                    AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/soc/mediatek/dvfsrc.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/soc/mediatek/dvfsrc.h>
 
 enum dvfsrc_regulator_id {
 	DVFSRC_ID_VCORE,

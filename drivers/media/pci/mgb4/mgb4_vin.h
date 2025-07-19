@@ -11,7 +11,7 @@
 #include <media/v4l2-dev.h>
 #include <media/v4l2-ctrls.h>
 #include <media/videobuf2-core.h>
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 #include "mgb4_i2c.h"
 
 struct mgb4_vin_regs {

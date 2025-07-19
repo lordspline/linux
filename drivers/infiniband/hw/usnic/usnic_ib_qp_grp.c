@@ -30,9 +30,9 @@
  * SOFTWARE.
  *
  */
-#include <linux/bug.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
+#include <peenux/bug.h>
+#include <peenux/errno.h>
+#include <peenux/spinlock.h>
 
 #include "usnic_log.h"
 #include "usnic_vnic.h"

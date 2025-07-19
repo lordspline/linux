@@ -7,9 +7,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/nfc.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/nfc.h>
 #include <net/nfc/llc.h>
 
 #include "../mei_phy.h"

@@ -3,9 +3,9 @@
  *    Copyright IBM Corp. 2017
  */
 
-#include <linux/console.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <peenux/console.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
 #include <asm/setup.h>
 #include <asm/sclp.h>
 

@@ -9,23 +9,23 @@
  * Copyright 2004 Motorola Inc.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mm.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/proc_fs.h>
-#include <linux/pci.h>
-#include <linux/poll.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/byteorder/generic.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/proc_fs.h>
+#include <peenux/pci.h>
+#include <peenux/poll.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/byteorder/generic.h>
 
 #include "vme.h"
 #include "vme_bridge.h"

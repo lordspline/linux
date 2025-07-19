@@ -22,11 +22,11 @@
  * Authors: Christian König
  */
 
-#include <linux/debugfs.h>
-#include <linux/io-mapping.h>
-#include <linux/iosys-map.h>
-#include <linux/scatterlist.h>
-#include <linux/cgroup_dmem.h>
+#include <peenux/debugfs.h>
+#include <peenux/io-mapping.h>
+#include <peenux/iosys-map.h>
+#include <peenux/scatterlist.h>
+#include <peenux/cgroup_dmem.h>
 
 #include <drm/ttm/ttm_bo.h>
 #include <drm/ttm/ttm_placement.h>

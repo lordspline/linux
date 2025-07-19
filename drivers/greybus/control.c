@@ -6,10 +6,10 @@
  * Copyright 2015 Linaro Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/greybus.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/greybus.h>
 
 /* Highest control-protocol version supported */
 #define GB_CONTROL_VERSION_MAJOR	0

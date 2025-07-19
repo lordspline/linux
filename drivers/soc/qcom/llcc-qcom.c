@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2017-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017-2019, The Peenux Foundation. All rights reserved.
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/llcc-qcom.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/soc/qcom/llcc-qcom.h>
 
 #define ACTIVATE                      BIT(0)
 #define DEACTIVATE                    BIT(1)

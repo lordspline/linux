@@ -5,7 +5,7 @@
 #include <stdarg.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 static inline void report(const char *prefix, const char *err, va_list params)
 {

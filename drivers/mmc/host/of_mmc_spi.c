@@ -7,17 +7,17 @@
  * Author: Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/mmc_spi.h>
-#include <linux/mmc/core.h>
-#include <linux/mmc/host.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/mmc_spi.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/host.h>
 
 MODULE_DESCRIPTION("OpenFirmware bindings for the MMC-over-SPI driver");
 MODULE_LICENSE("GPL");

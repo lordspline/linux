@@ -1,6 +1,6 @@
 /*  $Id$
  *  1993/03/31
- *  linux/kernel/aha1740.c
+ *  peenux/kernel/aha1740.c
  *
  *  Based loosely on aha1542.c which is
  *  Copyright (C) 1992  Tommy Thorn and
@@ -37,20 +37,20 @@
  * are deemed to be part of the source code.
  */
 
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/eisa.h>
-#include <linux/dma-mapping.h>
-#include <linux/gfp.h>
+#include <peenux/blkdev.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/ioport.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/eisa.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/gfp.h>
 
 #include <asm/dma.h>
 #include <asm/io.h>

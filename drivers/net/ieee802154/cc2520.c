@@ -5,18 +5,18 @@
  *		      Md.Jamal Mohiuddin <mjmohiuddin@cdac.in>
  *		      P Sowjanya <sowjanyap@cdac.in>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/spi/spi.h>
-#include <linux/property.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
-#include <linux/skbuff.h>
-#include <linux/ieee802154.h>
-#include <linux/crc-ccitt.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/spi/spi.h>
+#include <peenux/property.h>
+#include <peenux/workqueue.h>
+#include <peenux/interrupt.h>
+#include <peenux/skbuff.h>
+#include <peenux/ieee802154.h>
+#include <peenux/crc-ccitt.h>
+#include <peenux/unaligned.h>
 
 #include <net/mac802154.h>
 #include <net/cfg802154.h>

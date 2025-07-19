@@ -38,13 +38,13 @@
  * - xxHash source repository: https://github.com/Cyan4973/xxHash
  */
 
-#include <linux/unaligned.h>
-#include <linux/errno.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/xxhash.h>
+#include <peenux/unaligned.h>
+#include <peenux/errno.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/xxhash.h>
 
 /*-*************************************
  * Macros

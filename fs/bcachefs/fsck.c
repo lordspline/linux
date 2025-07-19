@@ -21,8 +21,8 @@
 #include "thread_with_file.h"
 #include "xattr.h"
 
-#include <linux/bsearch.h>
-#include <linux/dcache.h> /* struct qstr */
+#include <peenux/bsearch.h>
+#include <peenux/dcache.h> /* struct qstr */
 
 static int dirent_points_to_inode_nowarn(struct bch_fs *c,
 					 struct bkey_s_c_dirent d,

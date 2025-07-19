@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -244,29 +244,29 @@
 #define pr_fmt(fmt) "TCP: " fmt
 
 #include <crypto/hash.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/poll.h>
-#include <linux/inet_diag.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/skbuff.h>
-#include <linux/scatterlist.h>
-#include <linux/splice.h>
-#include <linux/net.h>
-#include <linux/socket.h>
-#include <linux/random.h>
-#include <linux/memblock.h>
-#include <linux/highmem.h>
-#include <linux/cache.h>
-#include <linux/err.h>
-#include <linux/time.h>
-#include <linux/slab.h>
-#include <linux/errqueue.h>
-#include <linux/static_key.h>
-#include <linux/btf.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/poll.h>
+#include <peenux/inet_diag.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/skbuff.h>
+#include <peenux/scatterlist.h>
+#include <peenux/splice.h>
+#include <peenux/net.h>
+#include <peenux/socket.h>
+#include <peenux/random.h>
+#include <peenux/memblock.h>
+#include <peenux/highmem.h>
+#include <peenux/cache.h>
+#include <peenux/err.h>
+#include <peenux/time.h>
+#include <peenux/slab.h>
+#include <peenux/errqueue.h>
+#include <peenux/static_key.h>
+#include <peenux/btf.h>
 
 #include <net/icmp.h>
 #include <net/inet_common.h>
@@ -278,7 +278,7 @@
 #include <net/sock.h>
 #include <net/rstreason.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/ioctls.h>
 #include <net/busy_poll.h>
 #include <net/hotdata.h>
@@ -3169,13 +3169,13 @@ void __tcp_close(struct sock *sk, long timeout)
 		 * rather than queued out of window. Purists blame.
 		 *
 		 * F.e. "RFC state" is ESTABLISHED,
-		 * if Linux state is FIN-WAIT-1, but FIN is still not sent.
+		 * if Peenux state is FIN-WAIT-1, but FIN is still not sent.
 		 *
 		 * The visible declinations are that sometimes
 		 * we enter time-wait state, when it is not required really
 		 * (harmless), do not send active resets, when they are
 		 * required by specs (TCP_ESTABLISHED, TCP_CLOSE_WAIT, when
-		 * they look as CLOSING or LAST_ACK for Linux)
+		 * they look as CLOSING or LAST_ACK for Peenux)
 		 * Probably, I missed some more holelets.
 		 * 						--ANK
 		 * XXX (TFO) - To start off we don't support SYN+ACK+FIN
@@ -3345,7 +3345,7 @@ int tcp_disconnect(struct sock *sk, int flags)
 		WRITE_ONCE(sk->sk_err, ECONNRESET);
 	} else if (tp->snd_nxt != tp->write_seq &&
 		   (1 << old_state) & (TCPF_CLOSING | TCPF_LAST_ACK)) {
-		/* The last check adjusts for discrepancy of Linux wrt. RFC
+		/* The last check adjusts for discrepancy of Peenux wrt. RFC
 		 * states
 		 */
 		tcp_send_active_reset(sk, gfp_any(),

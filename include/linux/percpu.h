@@ -2,14 +2,14 @@
 #ifndef __LINUX_PERCPU_H
 #define __LINUX_PERCPU_H
 
-#include <linux/alloc_tag.h>
-#include <linux/mmdebug.h>
-#include <linux/preempt.h>
-#include <linux/smp.h>
-#include <linux/pfn.h>
-#include <linux/init.h>
-#include <linux/cleanup.h>
-#include <linux/sched.h>
+#include <peenux/alloc_tag.h>
+#include <peenux/mmdebug.h>
+#include <peenux/preempt.h>
+#include <peenux/smp.h>
+#include <peenux/pfn.h>
+#include <peenux/init.h>
+#include <peenux/cleanup.h>
+#include <peenux/sched.h>
 
 #include <asm/percpu.h>
 

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright 2014 Cisco Systems, Inc.  All rights reserved.
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 #include "vnic_dev.h"
 #include "vnic_wq.h"
 

@@ -8,13 +8,13 @@
  */
 
 #include <asm/div64.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/clk-provider.h>
-#include <linux/iopoll.h>
-#include <linux/regmap.h>
-#include <linux/clk.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/clk-provider.h>
+#include <peenux/iopoll.h>
+#include <peenux/regmap.h>
+#include <peenux/clk.h>
 #include "clk.h"
 
 #define PLL_MODE_MASK		0x3

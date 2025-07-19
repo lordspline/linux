@@ -11,18 +11,18 @@
  * You could find the datasheet in Documentation/arch/arm/sunxi.rst
  */
 
-#include <linux/clk.h>
-#include <linux/crypto.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/crypto.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
 #include <crypto/scatterwalk.h>
-#include <linux/scatterlist.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
+#include <peenux/scatterlist.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
 #include <crypto/md5.h>
 #include <crypto/skcipher.h>
 #include <crypto/sha1.h>

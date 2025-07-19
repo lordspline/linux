@@ -8,20 +8,20 @@
  * Copyright (C) 2009 Wolfram Sang, Pengutronix <kernel@pengutronix.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/netdevice.h>
-#include <linux/can/dev.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/netdevice.h>
+#include <peenux/can/dev.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
 #include <sysdev/fsl_soc.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
 #include <asm/mpc52xx.h>
 
 #include "mscan.h"

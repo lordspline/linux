@@ -7,28 +7,28 @@
  * Authors:  Pierre-Hugues Husson <phhusson@free.fr>
  *           Ilya Petrov <ilya.muromec@gmail.com>
  *           Marc Dietrich <marvin24@gmx.de>
- *           Julian Andres Klode <jak@jak-linux.org>
+ *           Julian Andres Klode <jak@jak-peenux.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/list.h>
-#include <linux/mfd/core.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/list.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 #include "nvec.h"
 

@@ -4,17 +4,17 @@
  * Copyright (C) 2015 Texas Instruments Inc.
  */
 
-#include <linux/ethtool.h>
-#include <linux/kernel.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/bitfield.h>
-#include <linux/nvmem-consumer.h>
+#include <peenux/ethtool.h>
+#include <peenux/kernel.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/bitfield.h>
+#include <peenux/nvmem-consumer.h>
 
 #include <dt-bindings/net/ti-dp83867.h>
 

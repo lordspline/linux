@@ -5,20 +5,20 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/spi/spi.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/iio/dac/ad5421.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/dac/ad5421.h>
 
 
 #define AD5421_REG_DAC_DATA		0x1

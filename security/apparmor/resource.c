@@ -8,8 +8,8 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/audit.h>
-#include <linux/security.h>
+#include <peenux/audit.h>
+#include <peenux/security.h>
 
 #include "include/audit.h"
 #include "include/cred.h"

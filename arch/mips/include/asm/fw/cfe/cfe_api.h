@@ -14,8 +14,8 @@
 #ifndef CFE_API_H
 #define CFE_API_H
 
-#include <linux/types.h>
-#include <linux/string.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
 
 /*
  * Constants

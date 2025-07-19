@@ -10,12 +10,12 @@
  * Some parts are based on David Boucher's viafb (http://davesdomain.org.uk/viafb/)
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/fb.h>
-#include <linux/math.h>
-#include <linux/svga.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/fb.h>
+#include <peenux/math.h>
+#include <peenux/svga.h>
 #include <asm/types.h>
 #include <asm/io.h>
 

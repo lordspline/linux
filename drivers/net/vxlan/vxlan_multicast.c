@@ -3,10 +3,10 @@
  *	Vxlan multicast group handling
  *
  */
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 #include <net/net_namespace.h>
 #include <net/sock.h>
-#include <linux/igmp.h>
+#include <peenux/igmp.h>
 #include <net/vxlan.h>
 
 #include "vxlan_private.h"

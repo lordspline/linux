@@ -11,24 +11,24 @@
  * Copyright (C) 2019-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/fs.h>
-#include <linux/input.h>
-#include <linux/ioctl.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/kref.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/poll.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/fs.h>
+#include <peenux/input.h>
+#include <peenux/ioctl.h>
+#include <peenux/kernel.h>
+#include <peenux/kfifo.h>
+#include <peenux/kref.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/poll.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_aggregator/device.h>
-#include <linux/surface_aggregator/dtx.h>
+#include <peenux/surface_aggregator/controller.h>
+#include <peenux/surface_aggregator/device.h>
+#include <peenux/surface_aggregator/dtx.h>
 
 
 /* -- SSAM interface. ------------------------------------------------------- */

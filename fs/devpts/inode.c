@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* -*- linux-c -*- --------------------------------------------------------- *
+/* -*- peenux-c -*- --------------------------------------------------------- *
  *
- * linux/fs/devpts/inode.c
+ * peenux/fs/devpts/inode.c
  *
  *  Copyright 1998-2004 H. Peter Anvin -- All Rights Reserved
  *
@@ -9,22 +9,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/sched.h>
-#include <linux/namei.h>
-#include <linux/slab.h>
-#include <linux/mount.h>
-#include <linux/tty.h>
-#include <linux/mutex.h>
-#include <linux/magic.h>
-#include <linux/idr.h>
-#include <linux/devpts_fs.h>
-#include <linux/fsnotify.h>
-#include <linux/seq_file.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/sched.h>
+#include <peenux/namei.h>
+#include <peenux/slab.h>
+#include <peenux/mount.h>
+#include <peenux/tty.h>
+#include <peenux/mutex.h>
+#include <peenux/magic.h>
+#include <peenux/idr.h>
+#include <peenux/devpts_fs.h>
+#include <peenux/fsnotify.h>
+#include <peenux/seq_file.h>
 
 #define DEVPTS_DEFAULT_MODE 0600
 /*

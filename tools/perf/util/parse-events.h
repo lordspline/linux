@@ -5,10 +5,10 @@
  * Parse symbolic events/counts passed in as options:
  */
 
-#include <linux/list.h>
+#include <peenux/list.h>
 #include <stdbool.h>
-#include <linux/types.h>
-#include <linux/perf_event.h>
+#include <peenux/types.h>
+#include <peenux/perf_event.h>
 #include <stdio.h>
 #include <string.h>
 

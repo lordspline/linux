@@ -11,22 +11,22 @@
  * Thank you to the authors!
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/i8042.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/platform_profile.h>
-#include <linux/serio.h>
-#include <linux/sysfs.h>
-#include <linux/uuid.h>
-#include <linux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/i8042.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_profile.h>
+#include <peenux/serio.h>
+#include <peenux/sysfs.h>
+#include <peenux/uuid.h>
+#include <peenux/workqueue.h>
 #include <acpi/battery.h>
 #include "firmware_attributes_class.h"
 

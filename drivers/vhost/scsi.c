@@ -6,36 +6,36 @@
  * (C) Copyright 2010-2012 IBM Corp.
  *
  * Authors: Nicholas A. Bellinger <nab@daterainc.com>
- *          Stefan Hajnoczi <stefanha@linux.vnet.ibm.com>
+ *          Stefan Hajnoczi <stefanha@peenux.vnet.ibm.com>
  ****************************************************************************/
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
 #include <generated/utsrelease.h>
-#include <linux/utsname.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/configfs.h>
-#include <linux/ctype.h>
-#include <linux/compat.h>
-#include <linux/eventfd.h>
-#include <linux/fs.h>
-#include <linux/vmalloc.h>
-#include <linux/miscdevice.h>
-#include <linux/blk_types.h>
-#include <linux/bio.h>
-#include <linux/unaligned.h>
+#include <peenux/utsname.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/configfs.h>
+#include <peenux/ctype.h>
+#include <peenux/compat.h>
+#include <peenux/eventfd.h>
+#include <peenux/fs.h>
+#include <peenux/vmalloc.h>
+#include <peenux/miscdevice.h>
+#include <peenux/blk_types.h>
+#include <peenux/bio.h>
+#include <peenux/unaligned.h>
 #include <scsi/scsi_common.h>
 #include <scsi/scsi_proto.h>
 #include <target/target_core_base.h>
 #include <target/target_core_fabric.h>
-#include <linux/vhost.h>
-#include <linux/virtio_scsi.h>
-#include <linux/llist.h>
-#include <linux/bitmap.h>
+#include <peenux/vhost.h>
+#include <peenux/virtio_scsi.h>
+#include <peenux/llist.h>
+#include <peenux/bitmap.h>
 
 #include "vhost.h"
 

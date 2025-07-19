@@ -9,20 +9,20 @@
  *    Copyright (C) 1991, 1992 Linus Torvalds
  */
 
-#include <linux/cpufeature.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/randomize_kstack.h>
-#include <linux/extable.h>
-#include <linux/ptrace.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/cpu.h>
-#include <linux/entry-common.h>
-#include <linux/kmsan.h>
+#include <peenux/cpufeature.h>
+#include <peenux/kprobes.h>
+#include <peenux/kdebug.h>
+#include <peenux/randomize_kstack.h>
+#include <peenux/extable.h>
+#include <peenux/ptrace.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/cpu.h>
+#include <peenux/entry-common.h>
+#include <peenux/kmsan.h>
 #include <asm/asm-extable.h>
 #include <asm/irqflags.h>
 #include <asm/ptrace.h>

@@ -4,8 +4,8 @@
  *
  * HEST describes error sources in detail; communicates operational
  * parameters (i.e. severity levels, masking bits, and threshold
- * values) to Linux as necessary. It also allows the BIOS to report
- * non-standard error sources to Linux (for example, chipset-specific
+ * values) to Peenux as necessary. It also allows the BIOS to report
+ * non-standard error sources to Peenux (for example, chipset-specific
  * error registers).
  *
  * For more information about HEST, please refer to ACPI Specification
@@ -15,14 +15,14 @@
  *   Author: Huang Ying <ying.huang@intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/kdebug.h>
-#include <linux/highmem.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
+#include <peenux/kdebug.h>
+#include <peenux/highmem.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
 #include <acpi/apei.h>
 #include <acpi/ghes.h>
 

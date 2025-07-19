@@ -3,18 +3,18 @@
  * Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/vfio.h>
-#include <linux/vfio_pci_core.h>
-#include <linux/virtio_pci.h>
-#include <linux/virtio_net.h>
-#include <linux/virtio_pci_admin.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/vfio.h>
+#include <peenux/vfio_pci_core.h>
+#include <peenux/virtio_pci.h>
+#include <peenux/virtio_net.h>
+#include <peenux/virtio_pci_admin.h>
 
 #include "common.h"
 

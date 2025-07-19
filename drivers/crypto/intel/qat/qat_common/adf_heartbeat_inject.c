@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2023 Intel Corporation */
-#include <linux/random.h>
+#include <peenux/random.h>
 
 #include "adf_admin.h"
 #include "adf_common_drv.h"

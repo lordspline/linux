@@ -3,18 +3,18 @@
    Copyright (C) 2001 Rusty Russell, 2002 Rusty Russell IBM.
 
 */
-#include <linux/elf.h>
-#include <linux/ftrace.h>
-#include <linux/memory.h>
-#include <linux/extable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/init.h>
-#include <linux/kprobes.h>
-#include <linux/filter.h>
+#include <peenux/elf.h>
+#include <peenux/ftrace.h>
+#include <peenux/memory.h>
+#include <peenux/extable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/init.h>
+#include <peenux/kprobes.h>
+#include <peenux/filter.h>
 
 #include <asm/sections.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /*
  * mutex protecting text section modification (dynamic code patching).

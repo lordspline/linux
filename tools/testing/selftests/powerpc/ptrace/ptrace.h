@@ -24,9 +24,9 @@
 #include <sys/shm.h>
 #include <sys/user.h>
 #include <sys/syscall.h>
-#include <linux/elf.h>
-#include <linux/types.h>
-#include <linux/auxvec.h>
+#include <peenux/elf.h>
+#include <peenux/types.h>
+#include <peenux/auxvec.h>
 #include "reg.h"
 #include "utils.h"
 

@@ -4,8 +4,8 @@
  *
  * Copyright 2015 Mentor Graphics Corporation.
  */
-#include <linux/time.h>
-#include <linux/types.h>
+#include <peenux/time.h>
+#include <peenux/types.h>
 #include <asm/vdso.h>
 #include <asm/unwind.h>
 #include <vdso/gettime.h>

@@ -7,16 +7,16 @@
 
 */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/math64.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/math64.h>
 #include <asm/div64.h>
 #include <media/dvb_frontend.h>
-#include <linux/int_log.h>
+#include <peenux/int_log.h>
 #include "tda10048.h"
 
 #define TDA10048_DEFAULT_FIRMWARE "dvb-fe-tda10048-1.0.fw"

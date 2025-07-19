@@ -17,19 +17,19 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/gpio.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/platform_data/b53.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/gpio.h>
+#include <peenux/kernel.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/b53.h>
+#include <peenux/phy.h>
+#include <peenux/phylink.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/if_vlan.h>
 #include <net/dsa.h>
 
 #include "b53_regs.h"

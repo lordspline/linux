@@ -4,7 +4,7 @@
  *
  * Converted to the radio-isa framework by Hans Verkuil <hverkuil@xs4all.nl>
  * Converted to V4L2 API by Mauro Carvalho Chehab <mchehab@kernel.org>
- * Adapted to support the Video for Linux API by
+ * Adapted to support the Video for Peenux API by
  * Russell Kroll <rkroll@exploits.org>.  Based on original tuner code by:
  *
  * Quay Ly
@@ -16,13 +16,13 @@
  * Fully tested with the Keene USB FM Transmitter and the v4l2-compliance tool.
 */
 
-#include <linux/module.h>	/* Modules			*/
-#include <linux/init.h>		/* Initdata			*/
-#include <linux/ioport.h>	/* request_region		*/
-#include <linux/delay.h>	/* udelay			*/
-#include <linux/videodev2.h>	/* kernel radio structs		*/
-#include <linux/io.h>		/* outb, outb_p			*/
-#include <linux/slab.h>
+#include <peenux/module.h>	/* Modules			*/
+#include <peenux/init.h>		/* Initdata			*/
+#include <peenux/ioport.h>	/* request_region		*/
+#include <peenux/delay.h>	/* udelay			*/
+#include <peenux/videodev2.h>	/* kernel radio structs		*/
+#include <peenux/io.h>		/* outb, outb_p			*/
+#include <peenux/slab.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-ctrls.h>

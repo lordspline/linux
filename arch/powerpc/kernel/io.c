@@ -12,10 +12,10 @@
  *
  * Rewritten in C by Stephen Rothwell.
  */
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/export.h>
 
 #include <asm/io.h>
 #include <asm/firmware.h>

@@ -7,11 +7,11 @@
  * Interspersed Express Traffic (IET - P802.3br/D2.0)
  */
 
-#include <linux/pm_runtime.h>
-#include <linux/math.h>
-#include <linux/math64.h>
-#include <linux/time.h>
-#include <linux/units.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/math.h>
+#include <peenux/math64.h>
+#include <peenux/time.h>
+#include <peenux/units.h>
 #include <net/pkt_cls.h>
 
 #include "am65-cpsw-nuss.h"
@@ -231,7 +231,7 @@ static int am65_cpsw_setup_mqprio(struct net_device *ndev, void *type_data)
 
 	netdev_set_num_tc(ndev, num_tc);
 
-	/* Multiple Linux priorities can map to a Traffic Class
+	/* Multiple Peenux priorities can map to a Traffic Class
 	 * A Traffic Class can have multiple contiguous Queues,
 	 * Queues get mapped to Channels (thread_id),
 	 *	if not VLAN tagged, thread_id is used as packet_priority

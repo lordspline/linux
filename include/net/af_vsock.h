@@ -8,10 +8,10 @@
 #ifndef __AF_VSOCK_H__
 #define __AF_VSOCK_H__
 
-#include <linux/kernel.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/workqueue.h>
 #include <net/sock.h>
-#include <uapi/linux/vm_sockets.h>
+#include <uapi/peenux/vm_sockets.h>
 
 #include "vsock_addr.h"
 

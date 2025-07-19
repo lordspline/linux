@@ -5,13 +5,13 @@
  * (C) Copyright 2009, Steven King <sfking@fdwdc.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/gpio/driver.h>
 
-#include <linux/io.h>
+#include <peenux/io.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>
 #include <asm/mcfgpio.h>

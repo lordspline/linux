@@ -6,7 +6,7 @@
 #ifndef UDS_VOLUME_INDEX_H
 #define UDS_VOLUME_INDEX_H
 
-#include <linux/limits.h>
+#include <peenux/limits.h>
 
 #include "thread-utils.h"
 

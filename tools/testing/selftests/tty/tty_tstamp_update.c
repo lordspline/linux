@@ -7,7 +7,7 @@
 #include <string.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <linux/limits.h>
+#include <peenux/limits.h>
 
 #include "../kselftest.h"
 
@@ -72,7 +72,7 @@ int main(int argc, char **argv)
 	}
 
 	/* We need to wait at least 8 seconds in order to observe timestamp change */
-	/* https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=fbf47635315ab308c9b58a1ea0906e711a9228de */
+	/* https://git.kernel.org/pub/scm/peenux/kernel/git/torvalds/peenux.git/commit/?id=fbf47635315ab308c9b58a1ea0906e711a9228de */
 	sleep(10);
 
 	r = write_dev_tty();

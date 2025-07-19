@@ -9,20 +9,20 @@
  * Author: Fabrizio Castro <fabrizio.castro.jz@renesas.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/irq-renesas-rzv2h.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
-#include <linux/syscore_ops.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/irq-renesas-rzv2h.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
+#include <peenux/syscore_ops.h>
 
 /* DT "interrupts" indexes */
 #define ICU_IRQ_START				1

@@ -2,15 +2,15 @@
 /* Copyright(c) 2014 - 2020 Intel Corporation */
 #ifndef ADF_ACCEL_DEVICES_H_
 #define ADF_ACCEL_DEVICES_H_
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/pci.h>
-#include <linux/ratelimit.h>
-#include <linux/types.h>
-#include <linux/qat/qat_mig_dev.h>
-#include <linux/wordpart.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
+#include <peenux/pci.h>
+#include <peenux/ratelimit.h>
+#include <peenux/types.h>
+#include <peenux/qat/qat_mig_dev.h>
+#include <peenux/wordpart.h>
 #include "adf_cfg_common.h"
 #include "adf_dc.h"
 #include "adf_rl.h"

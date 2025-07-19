@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/build_bug.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/stringhash.h>
-#include <linux/mutex.h>
-#include <linux/clk.h>
-#include <linux/coresight.h>
-#include <linux/property.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/panic_notifier.h>
+#include <peenux/build_bug.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/stringhash.h>
+#include <peenux/mutex.h>
+#include <peenux/clk.h>
+#include <peenux/coresight.h>
+#include <peenux/property.h>
+#include <peenux/delay.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/panic_notifier.h>
 
 #include "coresight-etm-perf.h"
 #include "coresight-priv.h"

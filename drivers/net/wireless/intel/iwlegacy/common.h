@@ -4,19 +4,19 @@
  * Copyright(c) 2003 - 2011 Intel Corporation. All rights reserved.
  *
  * Contact Information:
- *  Intel Linux Wireless <ilw@linux.intel.com>
+ *  Intel Peenux Wireless <ilw@peenux.intel.com>
  * Intel Corporation, 5200 N.E. Elam Young Parkway, Hillsboro, OR 97124-6497
  *
  *****************************************************************************/
 #ifndef __il_core_h__
 #define __il_core_h__
 
-#include <linux/interrupt.h>
-#include <linux/pci.h>		/* for struct pci_device_id */
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/wait.h>
-#include <linux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>		/* for struct pci_device_id */
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/wait.h>
+#include <peenux/io.h>
 #include <net/mac80211.h>
 #include <net/ieee80211_radiotap.h>
 
@@ -1505,7 +1505,7 @@ il_free_pages(struct il_priv *il, unsigned long page)
 
 #define IWLWIFI_VERSION "in-tree:"
 #define DRV_COPYRIGHT	"Copyright(c) 2003-2011 Intel Corporation"
-#define DRV_AUTHOR     "<ilw@linux.intel.com>"
+#define DRV_AUTHOR     "<ilw@peenux.intel.com>"
 
 #define IL_PCI_DEVICE(dev, subdev, cfg) \
 	.vendor = PCI_VENDOR_ID_INTEL,  .device = (dev), \

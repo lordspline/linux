@@ -8,18 +8,18 @@
  * Suman Anna <s-anna@ti.com>
  */
 
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/remoteproc.h>
+#include <peenux/reset.h>
 
-#include <linux/platform_data/wkup_m3.h>
+#include <peenux/platform_data/wkup_m3.h>
 
 #include "remoteproc_internal.h"
 

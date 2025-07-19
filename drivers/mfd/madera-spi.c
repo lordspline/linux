@@ -5,14 +5,14 @@
  * Copyright (C) 2015-2018 Cirrus Logic
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/mfd/madera/core.h>
+#include <peenux/mfd/madera/core.h>
 
 #include "madera.h"
 

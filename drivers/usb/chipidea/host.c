@@ -7,14 +7,14 @@
  * Author: Alexander Shishkin
  */
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/chipidea.h>
-#include <linux/regulator/consumer.h>
-#include <linux/string_choices.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/chipidea.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/string_choices.h>
+#include <peenux/pinctrl/consumer.h>
 
 #include "../host/ehci.h"
 

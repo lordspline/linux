@@ -5,10 +5,10 @@
  * Copyright (C) 2024 Renesas Electronics Corp.
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/sys_soc.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/sys_soc.h>
 
 #include "rz-sysc.h"
 

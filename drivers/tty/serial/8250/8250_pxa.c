@@ -10,18 +10,18 @@
  *  Based on drivers/serial/8250.c by Russell King.
  */
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/serial_8250.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_reg.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
 
 #include "8250.h"
 

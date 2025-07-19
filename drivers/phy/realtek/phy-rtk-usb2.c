@@ -6,18 +6,18 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
-#include <linux/debugfs.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/regmap.h>
-#include <linux/sys_soc.h>
-#include <linux/mfd/syscon.h>
-#include <linux/phy/phy.h>
-#include <linux/usb.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/uaccess.h>
+#include <peenux/debugfs.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/sys_soc.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/phy/phy.h>
+#include <peenux/usb.h>
 
 /* GUSB2PHYACCn register */
 #define PHY_NEW_REG_REQ BIT(25)

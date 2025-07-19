@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 
-#include <uapi/linux/ethtool.h>
+#include <uapi/peenux/ethtool.h>
 #include "netlink.h"
 
 /**

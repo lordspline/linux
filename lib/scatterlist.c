@@ -4,14 +4,14 @@
  *
  * Scatterlist handling helpers.
  */
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/scatterlist.h>
-#include <linux/highmem.h>
-#include <linux/kmemleak.h>
-#include <linux/bvec.h>
-#include <linux/uio.h>
-#include <linux/folio_queue.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/scatterlist.h>
+#include <peenux/highmem.h>
+#include <peenux/kmemleak.h>
+#include <peenux/bvec.h>
+#include <peenux/uio.h>
+#include <peenux/folio_queue.h>
 
 /**
  * sg_nents - return total count of entries in scatterlist

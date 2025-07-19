@@ -15,24 +15,24 @@
  * Copyright (C) 2011-2012 Jean-Christophe PLAGNIOL-VILLARD <plagnioj@jcrosoft.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/string_helpers.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/clk.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/string_helpers.h>
 
 #include <dt-bindings/pinctrl/rockchip.h>
 

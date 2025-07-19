@@ -10,10 +10,10 @@
  *	David Mosberger-Tang, Martin Mares
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/zorro.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/zorro.h>
 
 #include "zorro.h"
 

@@ -5,7 +5,7 @@
 
 #include <time.h>
 #include <net/if.h>
-#include <linux/icmp.h>
+#include <peenux/icmp.h>
 
 #include "test_progs.h"
 
@@ -75,7 +75,7 @@ static int wait_for_packet(int fd, filter_t filter, struct timeval *timeout)
 
 	FD_ZERO(&fds);
 	while (max_retry--) {
-		/* Linux modifies timeout arg... So make a copy */
+		/* Peenux modifies timeout arg... So make a copy */
 		struct timeval copied_timeout = *timeout;
 		ssize_t ret = -1;
 

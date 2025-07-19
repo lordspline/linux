@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *	linux/mm/filemap.c
+ *	peenux/mm/filemap.c
  *
  * Copyright (C) 1994-1999  Linus Torvalds
  */
@@ -10,44 +10,44 @@
  * most "normal" filesystems (but you don't /have/ to use this:
  * the NFS filesystem used to do this differently, for example)
  */
-#include <linux/export.h>
-#include <linux/compiler.h>
-#include <linux/dax.h>
-#include <linux/fs.h>
-#include <linux/sched/signal.h>
-#include <linux/uaccess.h>
-#include <linux/capability.h>
-#include <linux/kernel_stat.h>
-#include <linux/gfp.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/syscalls.h>
-#include <linux/mman.h>
-#include <linux/pagemap.h>
-#include <linux/file.h>
-#include <linux/uio.h>
-#include <linux/error-injection.h>
-#include <linux/hash.h>
-#include <linux/writeback.h>
-#include <linux/backing-dev.h>
-#include <linux/pagevec.h>
-#include <linux/security.h>
-#include <linux/cpuset.h>
-#include <linux/hugetlb.h>
-#include <linux/memcontrol.h>
-#include <linux/shmem_fs.h>
-#include <linux/rmap.h>
-#include <linux/delayacct.h>
-#include <linux/psi.h>
-#include <linux/ramfs.h>
-#include <linux/page_idle.h>
-#include <linux/migrate.h>
-#include <linux/pipe_fs_i.h>
-#include <linux/splice.h>
-#include <linux/rcupdate_wait.h>
-#include <linux/sched/mm.h>
-#include <linux/sysctl.h>
+#include <peenux/export.h>
+#include <peenux/compiler.h>
+#include <peenux/dax.h>
+#include <peenux/fs.h>
+#include <peenux/sched/signal.h>
+#include <peenux/uaccess.h>
+#include <peenux/capability.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/gfp.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/syscalls.h>
+#include <peenux/mman.h>
+#include <peenux/pagemap.h>
+#include <peenux/file.h>
+#include <peenux/uio.h>
+#include <peenux/error-injection.h>
+#include <peenux/hash.h>
+#include <peenux/writeback.h>
+#include <peenux/backing-dev.h>
+#include <peenux/pagevec.h>
+#include <peenux/security.h>
+#include <peenux/cpuset.h>
+#include <peenux/hugetlb.h>
+#include <peenux/memcontrol.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/rmap.h>
+#include <peenux/delayacct.h>
+#include <peenux/psi.h>
+#include <peenux/ramfs.h>
+#include <peenux/page_idle.h>
+#include <peenux/migrate.h>
+#include <peenux/pipe_fs_i.h>
+#include <peenux/splice.h>
+#include <peenux/rcupdate_wait.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sysctl.h>
 #include <asm/pgalloc.h>
 #include <asm/tlbflush.h>
 #include "internal.h"
@@ -58,7 +58,7 @@
 /*
  * FIXME: remove all knowledge of the buffer layer from the core VM
  */
-#include <linux/buffer_head.h> /* for try_to_free_buffers */
+#include <peenux/buffer_head.h> /* for try_to_free_buffers */
 
 #include <asm/mman.h>
 

@@ -14,24 +14,24 @@
 #define vgaarb_info(dev, fmt, arg...)	dev_info(dev, "vgaarb: " fmt, ##arg)
 #define vgaarb_err(dev, fmt, arg...)	dev_err(dev, "vgaarb: " fmt, ##arg)
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/sched/signal.h>
-#include <linux/wait.h>
-#include <linux/spinlock.h>
-#include <linux/poll.h>
-#include <linux/miscdevice.h>
-#include <linux/slab.h>
-#include <linux/screen_info.h>
-#include <linux/vt.h>
-#include <linux/console.h>
-#include <linux/acpi.h>
-#include <linux/uaccess.h>
-#include <linux/vgaarb.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/sched/signal.h>
+#include <peenux/wait.h>
+#include <peenux/spinlock.h>
+#include <peenux/poll.h>
+#include <peenux/miscdevice.h>
+#include <peenux/slab.h>
+#include <peenux/screen_info.h>
+#include <peenux/vt.h>
+#include <peenux/console.h>
+#include <peenux/acpi.h>
+#include <peenux/uaccess.h>
+#include <peenux/vgaarb.h>
 
 static void vga_arbiter_notify_clients(void);
 

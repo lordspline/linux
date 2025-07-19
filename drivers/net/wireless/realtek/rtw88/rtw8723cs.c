@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
 /* Copyright Fiona Klute <fiona.klute@gmx.de> */
 
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/module.h>
+#include <peenux/mmc/sdio_func.h>
+#include <peenux/mmc/sdio_ids.h>
+#include <peenux/module.h>
 #include "main.h"
 #include "rtw8703b.h"
 #include "sdio.h"

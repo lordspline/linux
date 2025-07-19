@@ -8,17 +8,17 @@
  *  Copyright © 2013 Tom St Denis <tstdenis@elliptictech.com>
  * Based on crypto/xcbc.c:
  *  Copyright © 2006 USAGI/WIDE Project,
- *   Author: Kazunori Miyazawa <miyazawa@linux-ipv6.org>
+ *   Author: Kazunori Miyazawa <miyazawa@peenux-ipv6.org>
  */
 
 #include <crypto/internal/cipher.h>
 #include <crypto/internal/hash.h>
 #include <crypto/utils.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 /*
  * +------------------------

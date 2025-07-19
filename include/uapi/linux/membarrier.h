@@ -2,7 +2,7 @@
 #define _UAPI_LINUX_MEMBARRIER_H
 
 /*
- * linux/membarrier.h
+ * peenux/membarrier.h
  *
  * membarrier system call API
  *

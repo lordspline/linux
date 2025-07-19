@@ -3,22 +3,22 @@
  * Copyright (c) 2020 Linaro Limited
  *
  * Based on original driver:
- * Copyright (c) 2012-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2020, The Peenux Foundation. All rights reserved.
  *
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/bitfield.h>
-#include <linux/iio/adc/qcom-vadc-common.h>
-#include <linux/iio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
+#include <peenux/bitfield.h>
+#include <peenux/iio/adc/qcom-vadc-common.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/thermal.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "../thermal_hwmon.h"
 

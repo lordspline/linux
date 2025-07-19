@@ -9,17 +9,17 @@
 
 #define DSS_SUBSYS_NAME "HDMICORE"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/sys_soc.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
+#include <peenux/seq_file.h>
+#include <peenux/sys_soc.h>
 #include <sound/asound.h>
 #include <sound/asoundef.h>
 

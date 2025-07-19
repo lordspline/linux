@@ -1,5 +1,5 @@
 /*
- *	linux/drivers/video/pmagb-b-fb.c
+ *	peenux/drivers/video/pmagb-b-fb.c
  *
  *	PMAGB-B TURBOchannel Smart Frame Buffer (SFB) card support,
  *	derived from:
@@ -18,15 +18,15 @@
  *	archive for more details.
  */
 
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/tc.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/tc.h>
+#include <peenux/types.h>
 
 #include <asm/io.h>
 

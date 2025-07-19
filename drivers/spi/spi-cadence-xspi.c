@@ -2,25 +2,25 @@
 // Cadence XSPI flash controller driver
 // Copyright (C) 2020-21 Cadence
 
-#include <linux/acpi.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/bitfield.h>
-#include <linux/limits.h>
-#include <linux/log2.h>
-#include <linux/bitrev.h>
+#include <peenux/acpi.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
+#include <peenux/bitfield.h>
+#include <peenux/limits.h>
+#include <peenux/log2.h>
+#include <peenux/bitrev.h>
 
 #define CDNS_XSPI_MAGIC_NUM_VALUE	0x6522
 #define CDNS_XSPI_MAX_BANKS		8

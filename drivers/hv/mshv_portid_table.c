@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
 #include <asm/mshyperv.h>
 
 #include "mshv.h"

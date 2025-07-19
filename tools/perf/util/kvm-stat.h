@@ -11,7 +11,7 @@
 #include "record.h"
 
 #include <stdlib.h>
-#include <linux/zalloc.h>
+#include <peenux/zalloc.h>
 
 #define KVM_EVENT_NAME_LEN	40
 

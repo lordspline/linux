@@ -5,8 +5,8 @@
 
  */
 
-#include <linux/via-core.h>
-#include <linux/via_i2c.h>
+#include <peenux/via-core.h>
+#include <peenux/via_i2c.h>
 #include "global.h"
 
 static const struct IODATA common_init_data[] = {

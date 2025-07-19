@@ -2,13 +2,13 @@
  * Serverworks AGPGART routines.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/agp_backend.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/agp_backend.h>
 #include <asm/set_memory.h>
 #include "agp.h"
 

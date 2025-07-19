@@ -4,12 +4,12 @@
  * Copyright 2019,2020,2022 NXP
  */
 
-#include <linux/export.h>
-#include <linux/media-bus-format.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/export.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 #include <drm/drm_bridge.h>
 #include <drm/drm_of.h>

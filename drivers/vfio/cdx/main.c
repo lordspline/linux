@@ -3,8 +3,8 @@
  * Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
  */
 
-#include <linux/vfio.h>
-#include <linux/cdx/cdx_bus.h>
+#include <peenux/vfio.h>
+#include <peenux/cdx/cdx_bus.h>
 
 #include "private.h"
 

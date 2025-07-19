@@ -5,7 +5,7 @@
 #ifndef _ASM_POWERPC_ELF_H
 #define _ASM_POWERPC_ELF_H
 
-#include <linux/sched.h>	/* for task_struct */
+#include <peenux/sched.h>	/* for task_struct */
 #include <asm/page.h>
 #include <asm/string.h>
 #include <uapi/asm/elf.h>

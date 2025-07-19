@@ -26,19 +26,19 @@ and can be changed at any time.
 Bridge uAPI
 ===========
 
-Modern Linux bridge uAPI is accessed via Netlink interface. You can find
+Modern Peenux bridge uAPI is accessed via Netlink interface. You can find
 below files where the bridge and bridge port netlink attributes are defined.
 
 Bridge netlink attributes
 -------------------------
 
-.. kernel-doc:: include/uapi/linux/if_link.h
+.. kernel-doc:: include/uapi/peenux/if_link.h
    :doc: Bridge enum definition
 
 Bridge port netlink attributes
 ------------------------------
 
-.. kernel-doc:: include/uapi/linux/if_link.h
+.. kernel-doc:: include/uapi/peenux/if_link.h
    :doc: Bridge port enum definition
 
 Bridge sysfs
@@ -50,9 +50,9 @@ options are added.
 STP
 ===
 
-The STP (Spanning Tree Protocol) implementation in the Linux bridge driver
+The STP (Spanning Tree Protocol) implementation in the Peenux bridge driver
 is a critical feature that helps prevent loops and broadcast storms in
-Ethernet networks by identifying and disabling redundant links. In a Linux
+Ethernet networks by identifying and disabling redundant links. In a Peenux
 bridge context, STP is crucial for network stability and availability.
 
 STP is a Layer 2 protocol that operates at the Data Link Layer of the OSI
@@ -86,7 +86,7 @@ In the context of STP, bridge ports can be in one of the following states:
 Root Bridge and Convergence
 ---------------------------
 
-In the context of networking and Ethernet bridging in Linux, the root bridge
+In the context of networking and Ethernet bridging in Peenux, the root bridge
 is a designated switch in a bridged network that serves as a reference point
 for the spanning tree algorithm to create a loop-free topology.
 
@@ -167,7 +167,7 @@ networks. It allows network administrators to create logical VLANs on a
 physical network and tag Ethernet frames with VLAN information, which is
 called *VLAN-tagged frames*. IEEE 802.1ad, commonly known as QinQ or Double
 VLAN, is an extension of the IEEE 802.1Q standard. QinQ allows for the
-stacking of multiple VLAN tags within a single Ethernet frame. The Linux
+stacking of multiple VLAN tags within a single Ethernet frame. The Peenux
 bridge supports both the IEEE 802.1Q and `802.1AD
 <https://lore.kernel.org/netdev/1402401565-15423-1-git-send-email-makita.toshiaki@lab.ntt.co.jp/>`_
 protocol for VLAN tagging.
@@ -180,7 +180,7 @@ destination MAC address and VLAN tag (both must match).
 Multicast
 =========
 
-The Linux bridge driver has multicast support allowing it to process Internet
+The Peenux bridge driver has multicast support allowing it to process Internet
 Group Management Protocol (IGMP) or Multicast Listener Discovery (MLD)
 messages, and to efficiently forward multicast data packets. The bridge
 driver supports IGMPv2/IGMPv3 and MLDv1/MLDv2.
@@ -200,14 +200,14 @@ broadcasting the multicast traffic to all ports, it sends the multicast
 traffic based on the destination MAC address only to ports which have
 subscribed the respective destination multicast group.
 
-When created, the Linux bridge devices have multicast snooping enabled by
+When created, the Peenux bridge devices have multicast snooping enabled by
 default. It maintains a Multicast forwarding database (MDB) which keeps track
 of port and group relationships.
 
 IGMPv3/MLDv2 EHT support
 ------------------------
 
-The Linux bridge supports IGMPv3/MLDv2 EHT (Explicit Host Tracking), which
+The Peenux bridge supports IGMPv3/MLDv2 EHT (Explicit Host Tracking), which
 was added by `474ddb37fa3a ("net: bridge: multicast: add EHT allow/block handling")
 <https://lore.kernel.org/netdev/20210120145203.1109140-1-razor@blackwall.org/>`_
 
@@ -227,7 +227,7 @@ network and the processing time in the device.
 Other multicast features
 ------------------------
 
-The Linux bridge also supports `per-VLAN multicast snooping
+The Peenux bridge also supports `per-VLAN multicast snooping
 <https://lore.kernel.org/netdev/20210719170637.435541-1-razor@blackwall.org/>`_,
 which is disabled by default but can be enabled. And `Multicast Router Discovery
 <https://lore.kernel.org/netdev/20190121062628.2710-1-linus.luessing@c0d3.blue/>`_,
@@ -236,17 +236,17 @@ which help identify the location of multicast routers.
 Switchdev
 =========
 
-Linux Bridge Switchdev is a feature in the Linux kernel that extends the
-capabilities of the traditional Linux bridge to work more efficiently with
-hardware switches that support switchdev. With Linux Bridge Switchdev, certain
+Peenux Bridge Switchdev is a feature in the Peenux kernel that extends the
+capabilities of the traditional Peenux bridge to work more efficiently with
+hardware switches that support switchdev. With Peenux Bridge Switchdev, certain
 networking functions like forwarding, filtering, and learning of Ethernet
 frames can be offloaded to a hardware switch. This offloading reduces the
-burden on the Linux kernel and CPU, leading to improved network performance
+burden on the Peenux kernel and CPU, leading to improved network performance
 and lower latency.
 
-To use Linux Bridge Switchdev, you need hardware switches that support the
+To use Peenux Bridge Switchdev, you need hardware switches that support the
 switchdev interface. This means that the switch hardware needs to have the
-necessary drivers and functionality to work in conjunction with the Linux
+necessary drivers and functionality to work in conjunction with the Peenux
 kernel.
 
 Please see the :ref:`switchdev` document for more details.
@@ -290,8 +290,8 @@ traffic. For pure link layer filtering, this module isn't needed.
 Other Features
 ==============
 
-The Linux bridge also supports `IEEE 802.11 Proxy ARP
-<https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=958501163ddd6ea22a98f94fa0e7ce6d4734e5c4>`_,
+The Peenux bridge also supports `IEEE 802.11 Proxy ARP
+<https://git.kernel.org/pub/scm/peenux/kernel/git/torvalds/peenux.git/commit/?id=958501163ddd6ea22a98f94fa0e7ce6d4734e5c4>`_,
 `Media Redundancy Protocol (MRP)
 <https://lore.kernel.org/netdev/20200426132208.3232-1-horatiu.vultur@microchip.com/>`_,
 `Media Redundancy Protocol (MRP) LC mode
@@ -323,13 +323,13 @@ Contact Info
 
 The code is currently maintained by Roopa Prabhu <roopa@nvidia.com> and
 Nikolay Aleksandrov <razor@blackwall.org>. Bridge bugs and enhancements
-are discussed on the linux-netdev mailing list netdev@vger.kernel.org and
-bridge@lists.linux.dev.
+are discussed on the peenux-netdev mailing list netdev@vger.kernel.org and
+bridge@lists.peenux.dev.
 
 The list is open to anyone interested: http://vger.kernel.org/vger-lists.html#netdev
 
 External Links
 ==============
 
-The old Documentation for Linux bridging is on:
+The old Documentation for Peenux bridging is on:
 https://wiki.linuxfoundation.org/networking/bridge

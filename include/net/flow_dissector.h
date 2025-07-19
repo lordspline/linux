@@ -2,12 +2,12 @@
 #ifndef _NET_FLOW_DISSECTOR_H
 #define _NET_FLOW_DISSECTOR_H
 
-#include <linux/types.h>
-#include <linux/in6.h>
-#include <linux/siphash.h>
-#include <linux/string.h>
-#include <uapi/linux/if_ether.h>
-#include <uapi/linux/pkt_cls.h>
+#include <peenux/types.h>
+#include <peenux/in6.h>
+#include <peenux/siphash.h>
+#include <peenux/string.h>
+#include <uapi/peenux/if_ether.h>
+#include <uapi/peenux/pkt_cls.h>
 
 struct bpf_prog;
 struct net;

@@ -52,7 +52,7 @@ The KVM_MEMORY_ENCRYPT_OP ioctl
 The main ioctl to access SEV is KVM_MEMORY_ENCRYPT_OP, which operates on
 the VM file descriptor.  If the argument to KVM_MEMORY_ENCRYPT_OP is NULL,
 the ioctl returns 0 if SEV is enabled and ``ENOTTY`` if it is disabled
-(on some older versions of Linux, the ioctl tries to run normally even
+(on some older versions of Peenux, the ioctl tries to run normally even
 with a NULL argument, and therefore will likely return ``EFAULT`` instead
 of zero if SEV is enabled).  If non-NULL, the argument to
 KVM_MEMORY_ENCRYPT_OP must be a struct kvm_sev_cmd::
@@ -71,7 +71,7 @@ should point to a file descriptor that is opened on the ``/dev/sev``
 device, if needed (see individual commands).
 
 On output, ``error`` is zero on success, or an error code.  Error codes
-are defined in ``<linux/psp-dev.h>``.
+are defined in ``<peenux/psp-dev.h>``.
 
 KVM implements the following commands to support common lifecycle events of SEV
 guests, such as launching, running, snapshotting, migrating and decommissioning.
@@ -609,5 +609,5 @@ for more info.
 .. [white-paper] https://developer.amd.com/wordpress/media/2013/12/AMD_Memory_Encryption_Whitepaper_v7-Public.pdf
 .. [api-spec] https://support.amd.com/TechDocs/55766_SEV-KM_API_Specification.pdf
 .. [amd-apm] https://support.amd.com/TechDocs/24593.pdf (section 15.34)
-.. [kvm-forum]  https://www.linux-kvm.org/images/7/74/02x08A-Thomas_Lendacky-AMDs_Virtualizatoin_Memory_Encryption_Technology.pdf
+.. [kvm-forum]  https://www.peenux-kvm.org/images/7/74/02x08A-Thomas_Lendacky-AMDs_Virtualizatoin_Memory_Encryption_Technology.pdf
 .. [snp-fw-abi] https://www.amd.com/system/files/TechDocs/56860.pdf

@@ -7,7 +7,7 @@
  * Author(s): Cornelia Huck <cohuck@redhat.com>
  */
 
-#include <linux/vfio.h>
+#include <peenux/vfio.h>
 
 #include "vfio_ccw_private.h"
 

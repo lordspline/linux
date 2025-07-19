@@ -6,15 +6,15 @@
 // based on previous work and know-how from:
 // Deepak Saxena <dsaxena@plexity.net>
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqchip.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #define IXP4XX_REG_GPOUT	0x00
 #define IXP4XX_REG_GPOE		0x04

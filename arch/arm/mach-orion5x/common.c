@@ -7,25 +7,25 @@
  * Maintainer: Tzachi Perelstein <tzachi@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/serial_8250.h>
-#include <linux/mv643xx_i2c.h>
-#include <linux/ata_platform.h>
-#include <linux/delay.h>
-#include <linux/clk-provider.h>
-#include <linux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/serial_8250.h>
+#include <peenux/mv643xx_i2c.h>
+#include <peenux/ata_platform.h>
+#include <peenux/delay.h>
+#include <peenux/clk-provider.h>
+#include <peenux/cpu.h>
 #include <asm/page.h>
 #include <asm/setup.h>
 #include <asm/system_misc.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
 #include <asm/mach/time.h>
-#include <linux/platform_data/mtd-orion_nand.h>
-#include <linux/platform_data/usb-ehci-orion.h>
+#include <peenux/platform_data/mtd-orion_nand.h>
+#include <peenux/platform_data/usb-ehci-orion.h>
 #include <plat/time.h>
 #include <plat/common.h>
 

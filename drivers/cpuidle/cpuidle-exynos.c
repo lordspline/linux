@@ -8,13 +8,13 @@
  *	Daniel Lezcano <daniel.lezcano@linaro.org>
 */
 
-#include <linux/cpuidle.h>
-#include <linux/cpu_pm.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/platform_data/cpuidle-exynos.h>
+#include <peenux/cpuidle.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/platform_data/cpuidle-exynos.h>
 
 #include <asm/suspend.h>
 #include <asm/cpuidle.h>

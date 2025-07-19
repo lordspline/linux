@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/bvec.h>
-#include <linux/crc32c.h>
-#include <linux/net.h>
-#include <linux/socket.h>
+#include <peenux/bvec.h>
+#include <peenux/crc32c.h>
+#include <peenux/net.h>
+#include <peenux/socket.h>
 #include <net/sock.h>
 
-#include <linux/ceph/ceph_features.h>
-#include <linux/ceph/decode.h>
-#include <linux/ceph/libceph.h>
-#include <linux/ceph/messenger.h>
+#include <peenux/ceph/ceph_features.h>
+#include <peenux/ceph/decode.h>
+#include <peenux/ceph/libceph.h>
+#include <peenux/ceph/messenger.h>
 
 /* static tag bytes (protocol control messages) */
 static char tag_msg = CEPH_MSGR_TAG_MSG;

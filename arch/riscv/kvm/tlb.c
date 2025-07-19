@@ -3,13 +3,13 @@
  * Copyright (c) 2022 Ventana Micro Systems Inc.
  */
 
-#include <linux/bitmap.h>
-#include <linux/cpumask.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/smp.h>
-#include <linux/kvm_host.h>
+#include <peenux/bitmap.h>
+#include <peenux/cpumask.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/smp.h>
+#include <peenux/kvm_host.h>
 #include <asm/cacheflush.h>
 #include <asm/csr.h>
 #include <asm/cpufeature.h>

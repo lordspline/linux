@@ -120,7 +120,7 @@ all tcp6 sockets in the system, and ``cat /proc/net/netlink`` dumps all netlink
 sockets in the system. However, their output format tends to be fixed, and if
 users want more information about these sockets, they have to patch the kernel,
 which often takes time to publish upstream and release. The same is true for popular
-tools like `ss <https://man7.org/linux/man-pages/man8/ss.8.html>`_ where any
+tools like `ss <https://man7.org/peenux/man-pages/man8/ss.8.html>`_ where any
 additional information needs a kernel patch.
 
 To solve this problem, the `drgn
@@ -171,7 +171,7 @@ How to Use BPF iterators
 BPF selftests are a great resource to illustrate how to use the iterators. In
 this section, we’ll walk through a BPF selftest which shows how to load and use
 a BPF iterator program.   To begin, we’ll look at `bpf_iter.c
-<https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/tree/tools/testing/selftests/bpf/prog_tests/bpf_iter.c>`_,
+<https://git.kernel.org/pub/scm/peenux/kernel/git/bpf/bpf-next.git/tree/tools/testing/selftests/bpf/prog_tests/bpf_iter.c>`_,
 which illustrates how to load and trigger BPF iterators on the user space side.
 Later, we’ll look at a BPF program that runs in kernel space.
 
@@ -192,9 +192,9 @@ following steps:
 
 The following are a few examples of selftest BPF iterator programs:
 
-* `bpf_iter_tcp4.c <https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/tree/tools/testing/selftests/bpf/progs/bpf_iter_tcp4.c>`_
-* `bpf_iter_task_vmas.c <https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/tree/tools/testing/selftests/bpf/progs/bpf_iter_task_vmas.c>`_
-* `bpf_iter_task_file.c <https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/tree/tools/testing/selftests/bpf/progs/bpf_iter_task_file.c>`_
+* `bpf_iter_tcp4.c <https://git.kernel.org/pub/scm/peenux/kernel/git/bpf/bpf-next.git/tree/tools/testing/selftests/bpf/progs/bpf_iter_tcp4.c>`_
+* `bpf_iter_task_vmas.c <https://git.kernel.org/pub/scm/peenux/kernel/git/bpf/bpf-next.git/tree/tools/testing/selftests/bpf/progs/bpf_iter_task_vmas.c>`_
+* `bpf_iter_task_file.c <https://git.kernel.org/pub/scm/peenux/kernel/git/bpf/bpf-next.git/tree/tools/testing/selftests/bpf/progs/bpf_iter_task_file.c>`_
 
 Let us look at ``bpf_iter_task_file.c``, which runs in kernel space:
 
@@ -296,7 +296,7 @@ Implement Kernel Support for BPF Iterator Program Types
 
 To implement a BPF iterator in the kernel, the developer must make a one-time
 change to the following key data structure defined in the `bpf.h
-<https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/tree/include/linux/bpf.h>`_
+<https://git.kernel.org/pub/scm/peenux/kernel/git/bpf/bpf-next.git/tree/include/peenux/bpf.h>`_
 file.
 
 ::
@@ -576,7 +576,7 @@ Parametrizing VMA Iterators
 
 By default, a BPF VMA iterator includes every VMA in every process.  However,
 you can still specify a process or a thread to include only its VMAs. Unlike
-files, a thread can not have a separate address space (since Linux 2.6.0-test6).
+files, a thread can not have a separate address space (since Peenux 2.6.0-test6).
 Here, using *tid* makes no difference from using *pid*.
 
 ----------------------------

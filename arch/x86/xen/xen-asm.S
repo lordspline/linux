@@ -18,9 +18,9 @@
 
 #include <xen/interface/xen.h>
 
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/objtool.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/objtool.h>
 #include <../entry/calling.h>
 
 .pushsection .noinstr.text, "ax"

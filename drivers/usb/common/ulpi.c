@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2015 Intel Corporation
  *
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@peenux.intel.com>
  */
 
-#include <linux/ulpi/interface.h>
-#include <linux/ulpi/driver.h>
-#include <linux/ulpi/regs.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/clk/clk-conf.h>
+#include <peenux/ulpi/interface.h>
+#include <peenux/ulpi/driver.h>
+#include <peenux/ulpi/regs.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/debugfs.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/clk/clk-conf.h>
 
 /* -------------------------------------------------------------------------- */
 

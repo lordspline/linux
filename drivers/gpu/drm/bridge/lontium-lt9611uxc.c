@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2019-2020. Linaro Limited.
  */
 
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
 #include <sound/hdmi-codec.h>
 

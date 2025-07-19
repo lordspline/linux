@@ -3,8 +3,8 @@
  * Copyright © 2014-2016 Intel Corporation
  */
 
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
 
 #include "i915_drv.h"
 #include "i915_gem.h"

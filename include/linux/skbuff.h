@@ -10,31 +10,31 @@
 #ifndef _LINUX_SKBUFF_H
 #define _LINUX_SKBUFF_H
 
-#include <linux/kernel.h>
-#include <linux/compiler.h>
-#include <linux/time.h>
-#include <linux/bug.h>
-#include <linux/bvec.h>
-#include <linux/cache.h>
-#include <linux/rbtree.h>
-#include <linux/socket.h>
-#include <linux/refcount.h>
+#include <peenux/kernel.h>
+#include <peenux/compiler.h>
+#include <peenux/time.h>
+#include <peenux/bug.h>
+#include <peenux/bvec.h>
+#include <peenux/cache.h>
+#include <peenux/rbtree.h>
+#include <peenux/socket.h>
+#include <peenux/refcount.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/types.h>
-#include <linux/spinlock.h>
+#include <peenux/spinlock.h>
 #include <net/checksum.h>
-#include <linux/rcupdate.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdev_features.h>
+#include <peenux/rcupdate.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/netdev_features.h>
 #include <net/flow_dissector.h>
-#include <linux/in6.h>
-#include <linux/if_packet.h>
-#include <linux/llist.h>
-#include <linux/page_frag_cache.h>
+#include <peenux/in6.h>
+#include <peenux/if_packet.h>
+#include <peenux/llist.h>
+#include <peenux/page_frag_cache.h>
 #include <net/flow.h>
 #if IS_ENABLED(CONFIG_NF_CONNTRACK)
-#include <linux/netfilter/nf_conntrack_common.h>
+#include <peenux/netfilter/nf_conntrack_common.h>
 #endif
 #include <net/net_debug.h>
 #include <net/dropreason-core.h>
@@ -149,7 +149,7 @@
  *
  *   A checksum is set up to be offloaded to a device as described in the
  *   output description for CHECKSUM_PARTIAL. This may occur on a packet
- *   received directly from another Linux OS, e.g., a virtualized Linux kernel
+ *   received directly from another Peenux OS, e.g., a virtualized Peenux kernel
  *   on the same host, or it may be set in the input path in GRO or remote
  *   checksum offload. For the purposes of checksum verification, the checksum
  *   referred to by skb->csum_start + skb->csum_offset and any preceding

@@ -48,8 +48,8 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/zutil.h>
+#include <peenux/module.h>
+#include <peenux/zutil.h>
 #include "defutil.h"
 
 /* architecture-specific bits */

@@ -4,9 +4,9 @@
  * Copyright (C) 2008 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/kgdb.h>
-#include <linux/kdebug.h>
-#include <linux/sched.h>
+#include <peenux/kgdb.h>
+#include <peenux/kdebug.h>
+#include <peenux/sched.h>
 
 #include <asm/kdebug.h>
 #include <asm/ptrace.h>

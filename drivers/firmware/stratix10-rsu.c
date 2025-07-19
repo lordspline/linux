@@ -3,17 +3,17 @@
  * Copyright (C) 2018-2019, Intel Corporation
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/kobject.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/firmware/intel/stratix10-svc-client.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/bitfield.h>
+#include <peenux/completion.h>
+#include <peenux/kobject.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/firmware/intel/stratix10-svc-client.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
 
 #define RSU_STATE_MASK			GENMASK_ULL(31, 0)
 #define RSU_VERSION_MASK		GENMASK_ULL(63, 32)

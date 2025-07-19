@@ -11,16 +11,16 @@
  *	by Eric Miao <eric.miao@marvell.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/lcd.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/corgi_lcd.h>
-#include <linux/slab.h>
+#include <peenux/backlight.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/lcd.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/corgi_lcd.h>
+#include <peenux/slab.h>
 #include <asm/mach/sharpsl_param.h>
 
 #define POWER_IS_ON(pwr)	((pwr) <= LCD_POWER_REDUCED)

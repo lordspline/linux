@@ -9,11 +9,11 @@
 #ifndef _ARPTABLES_H
 #define _ARPTABLES_H
 
-#include <linux/if.h>
-#include <linux/in.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <uapi/linux/netfilter_arp/arp_tables.h>
+#include <peenux/if.h>
+#include <peenux/in.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
+#include <uapi/peenux/netfilter_arp/arp_tables.h>
 
 /* Standard entry. */
 struct arpt_standard {

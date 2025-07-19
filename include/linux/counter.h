@@ -6,16 +6,16 @@
 #ifndef _COUNTER_H_
 #define _COUNTER_H_
 
-#include <linux/array_size.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/kfifo.h>
-#include <linux/mutex.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/array_size.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/kfifo.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
-#include <uapi/linux/counter.h>
+#include <uapi/peenux/counter.h>
 
 struct counter_device;
 struct counter_count;

@@ -2,23 +2,23 @@
 // Copyright (C) 2022 Linutronix GmbH, John Ogness
 // Copyright (C) 2022 Intel, Thomas Gleixner
 
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/irqflags.h>
-#include <linux/kthread.h>
-#include <linux/minmax.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/irqflags.h>
+#include <peenux/kthread.h>
+#include <peenux/minmax.h>
+#include <peenux/percpu.h>
+#include <peenux/preempt.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 #include "internal.h"
 #include "printk_ringbuffer.h"
 /*

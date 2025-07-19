@@ -2,9 +2,9 @@
 #ifndef _FS_CEPH_AUTH_X_H
 #define _FS_CEPH_AUTH_X_H
 
-#include <linux/rbtree.h>
+#include <peenux/rbtree.h>
 
-#include <linux/ceph/auth.h>
+#include <peenux/ceph/auth.h>
 
 #include "crypto.h"
 #include "auth_x_protocol.h"

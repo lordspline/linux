@@ -4,17 +4,17 @@
  *  Copyright (c) 2022 NVIDIA CORPORATION & AFFILIATES.
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/devm-helpers.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/reboot.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/reboot.h>
+#include <peenux/types.h>
 
 struct pwr_mlxbf {
 	struct work_struct reboot_work;

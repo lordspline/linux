@@ -5,11 +5,11 @@
  * Copyright (C) IBM Corporation 2017.
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 #include "pmbus.h"
 
 #define IR35221_MFR_VIN_PEAK		0xc5

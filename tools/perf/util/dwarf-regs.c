@@ -11,7 +11,7 @@
 #include <dwarf-regs.h>
 #include <elf.h>
 #include <errno.h>
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 /* Define const char * {arch}_register_tbl[] */
 #define DEFINE_DWARF_REGSTR_TABLE

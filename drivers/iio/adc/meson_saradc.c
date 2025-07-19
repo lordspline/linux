@@ -5,22 +5,22 @@
  * Copyright (C) 2017 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/mfd/syscon.h>
 
 #define MESON_SAR_ADC_REG0					0x00
 	#define MESON_SAR_ADC_REG0_PANEL_DETECT			BIT(31)
@@ -149,7 +149,7 @@
 	#define MESON_SAR_ADC_DELTA_10_CHAN0_DELTA_VALUE_MASK	GENMASK(9, 0)
 
 /*
- * NOTE: registers from here are undocumented (the vendor Linux kernel driver
+ * NOTE: registers from here are undocumented (the vendor Peenux kernel driver
  * and u-boot source served as reference). These only seem to be relevant on
  * GXBB and newer.
  */

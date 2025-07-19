@@ -5,13 +5,13 @@
  * Copyright (C) 2021 Johan Hovold <johan@kernel.org>
  */
 
-#include <linux/errno.h>
-#include <linux/gnss.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <peenux/errno.h>
+#include <peenux/gnss.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
 
 #define GNSS_USB_READ_BUF_LEN	512
 #define GNSS_USB_WRITE_TIMEOUT	1000

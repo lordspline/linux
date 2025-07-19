@@ -5,8 +5,8 @@
 #ifndef __LINUX_RESTART_BLOCK_H
 #define __LINUX_RESTART_BLOCK_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 
 struct __kernel_timespec;
 struct timespec;

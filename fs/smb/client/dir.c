@@ -7,12 +7,12 @@
  *   Author(s): Steve French (sfrench@us.ibm.com)
  *
  */
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/namei.h>
-#include <linux/mount.h>
-#include <linux/file.h>
+#include <peenux/fs.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/namei.h>
+#include <peenux/mount.h>
+#include <peenux/file.h>
 #include "cifsfs.h"
 #include "cifspdu.h"
 #include "cifsglob.h"
@@ -173,7 +173,7 @@ check_name(struct dentry *direntry, struct cifs_tcon *tcon)
 }
 
 
-/* Inode operations in similar order to how they appear in Linux file fs.h */
+/* Inode operations in similar order to how they appear in Peenux file fs.h */
 
 static int cifs_do_create(struct inode *inode, struct dentry *direntry, unsigned int xid,
 			  struct tcon_link *tlink, unsigned int oflags, umode_t mode, __u32 *oplock,

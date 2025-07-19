@@ -8,12 +8,12 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/anon_inodes.h>
-#include <linux/highmem.h>
-#include <linux/vmalloc.h>
-#include <linux/vdpa.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/highmem.h>
+#include <peenux/vmalloc.h>
+#include <peenux/vdpa.h>
 
 #include "iova_domain.h"
 

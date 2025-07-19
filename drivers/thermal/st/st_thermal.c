@@ -6,10 +6,10 @@
  * Copyright (C) 2003-2014 STMicroelectronics (R&D) Limited
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
 
 #include "st_thermal.h"
 #include "../thermal_hwmon.h"

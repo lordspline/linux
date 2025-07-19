@@ -9,20 +9,20 @@
  * (C) Copyright 2010, Tobias Klauser <tklauser@distanz.ch>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/console.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/altera_uart.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/console.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
+#include <peenux/altera_uart.h>
 
 #define SERIAL_ALTERA_MAJOR 204
 #define SERIAL_ALTERA_MINOR 213

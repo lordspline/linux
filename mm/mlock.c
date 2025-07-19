@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/mm/mlock.c
+ *	peenux/mm/mlock.c
  *
  *  (C) Copyright 1995 Linus Torvalds
  *  (C) Copyright 2002 Christoph Hellwig
  */
 
-#include <linux/capability.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/sched/user.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/pagemap.h>
-#include <linux/pagevec.h>
-#include <linux/pagewalk.h>
-#include <linux/mempolicy.h>
-#include <linux/syscalls.h>
-#include <linux/sched.h>
-#include <linux/export.h>
-#include <linux/rmap.h>
-#include <linux/mmzone.h>
-#include <linux/hugetlb.h>
-#include <linux/memcontrol.h>
-#include <linux/mm_inline.h>
-#include <linux/secretmem.h>
+#include <peenux/capability.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/sched/user.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/pagemap.h>
+#include <peenux/pagevec.h>
+#include <peenux/pagewalk.h>
+#include <peenux/mempolicy.h>
+#include <peenux/syscalls.h>
+#include <peenux/sched.h>
+#include <peenux/export.h>
+#include <peenux/rmap.h>
+#include <peenux/mmzone.h>
+#include <peenux/hugetlb.h>
+#include <peenux/memcontrol.h>
+#include <peenux/mm_inline.h>
+#include <peenux/secretmem.h>
 
 #include "internal.h"
 

@@ -6,13 +6,13 @@
 //
 // Author: Shenghao Ding <shenghao-ding@ti.com>
 
-#include <linux/component.h>
-#include <linux/crc8.h>
-#include <linux/crc32.h>
-#include <linux/efi.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/pm_runtime.h>
+#include <peenux/component.h>
+#include <peenux/crc8.h>
+#include <peenux/crc32.h>
+#include <peenux/efi.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/pm_runtime.h>
 #include <sound/soc.h>
 #include <sound/tas2781.h>
 

@@ -3,13 +3,13 @@
  * Intel PCH/PCU SPI flash driver.
  *
  * Copyright (C) 2016 - 2022, Intel Corporation
- * Author: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Author: Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
 #ifndef SPI_INTEL_H
 #define SPI_INTEL_H
 
-#include <linux/platform_data/x86/spi-intel.h>
+#include <peenux/platform_data/x86/spi-intel.h>
 
 extern const struct attribute_group *intel_spi_groups[];
 

@@ -6,13 +6,13 @@
  * Author: Tomi Valkeinen <tomi.valkeinen@ti.com>
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/gpio/consumer.h>
 
 #include <video/omapfb_dss.h>
 

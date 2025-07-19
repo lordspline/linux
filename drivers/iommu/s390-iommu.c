@@ -6,12 +6,12 @@
  * Author(s): Gerald Schaefer <gerald.schaefer@de.ibm.com>
  */
 
-#include <linux/pci.h>
-#include <linux/iommu.h>
-#include <linux/iommu-helper.h>
-#include <linux/sizes.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
+#include <peenux/pci.h>
+#include <peenux/iommu.h>
+#include <peenux/iommu-helper.h>
+#include <peenux/sizes.h>
+#include <peenux/rculist.h>
+#include <peenux/rcupdate.h>
 #include <asm/pci_dma.h>
 
 #include "dma-iommu.h"

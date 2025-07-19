@@ -11,12 +11,12 @@
  * published by the Free Software Foundation.
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

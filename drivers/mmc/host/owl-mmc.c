@@ -8,19 +8,19 @@
  * TODO: SDIO support
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
 
 /*
  * SDC registers

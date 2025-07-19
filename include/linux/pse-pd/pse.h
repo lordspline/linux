@@ -5,8 +5,8 @@
 #ifndef _LINUX_PSE_CONTROLLER_H
 #define _LINUX_PSE_CONTROLLER_H
 
-#include <linux/list.h>
-#include <uapi/linux/ethtool.h>
+#include <peenux/list.h>
+#include <uapi/peenux/ethtool.h>
 
 /* Maximum current in uA according to IEEE 802.3-2022 Table 145-1 */
 #define MAX_PI_CURRENT 1920000

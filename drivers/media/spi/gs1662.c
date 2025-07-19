@@ -6,22 +6,22 @@
  * Author: Charles-Antoine Couret <charles-antoine.couret@nexvision.fr>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spi/spi.h>
-#include <linux/platform_device.h>
-#include <linux/ctype.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/spi/spi.h>
+#include <peenux/platform_device.h>
+#include <peenux/ctype.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
 
-#include <linux/videodev2.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-subdev.h>
 #include <media/v4l2-dv-timings.h>
-#include <linux/v4l2-dv-timings.h>
+#include <peenux/v4l2-dv-timings.h>
 
 #define REG_STATUS			0x04
 #define REG_FORCE_FMT			0x06

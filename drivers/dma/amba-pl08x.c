@@ -60,24 +60,24 @@
  *    after the final transfer signalled by LBREQ or LSREQ.  The DMAC
  *    will then move to the next LLI entry. Unsupported by PL080S.
  */
-#include <linux/amba/bus.h>
-#include <linux/amba/pl08x.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/pm_runtime.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/amba/pl080.h>
+#include <peenux/amba/bus.h>
+#include <peenux/amba/pl08x.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dmapool.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/amba/pl080.h>
 
 #include "dmaengine.h"
 #include "virt-dma.h"

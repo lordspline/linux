@@ -6,19 +6,19 @@
  * Copyright (c) 2011 H Hartley Sweeten <hsweeten@visionengravers.com>
  *
  * Based on code originally from:
- *  linux/arch/arm/mach-ep93xx/core.c
+ *  peenux/arch/arm/mach-ep93xx/core.c
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/gpio/driver.h>
-#include <linux/bitops.h>
-#include <linux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/slab.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/bitops.h>
+#include <peenux/seq_file.h>
 
 struct ep93xx_gpio_irq_chip {
 	void __iomem *base;

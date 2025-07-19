@@ -11,9 +11,9 @@
 #ifndef _ASM_GENERIC__TLB_H
 #define _ASM_GENERIC__TLB_H
 
-#include <linux/mmu_notifier.h>
-#include <linux/swap.h>
-#include <linux/hugetlb_inline.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/swap.h>
+#include <peenux/hugetlb_inline.h>
 #include <asm/tlbflush.h>
 #include <asm/cacheflush.h>
 
@@ -241,7 +241,7 @@ static inline void tlb_remove_table(struct mmu_gather *tlb, void *table)
 
 #ifdef CONFIG_MMU_GATHER_RCU_TABLE_FREE
 /*
- * This allows an architecture that does not use the linux page-tables for
+ * This allows an architecture that does not use the peenux page-tables for
  * hardware to skip the TLBI when freeing page tables.
  */
 #ifndef tlb_needs_table_invalidate

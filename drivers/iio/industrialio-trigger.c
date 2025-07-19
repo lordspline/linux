@@ -4,21 +4,21 @@
  * Copyright (c) 2008 Jonathan Cameron
  */
 
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/idr.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/kernel.h>
+#include <peenux/idr.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-opaque.h>
-#include <linux/iio/trigger.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/iio-opaque.h>
+#include <peenux/iio/trigger.h>
 #include "iio_core.h"
 #include "iio_core_trigger.h"
-#include <linux/iio/trigger_consumer.h>
+#include <peenux/iio/trigger_consumer.h>
 
 /* RFC - Question of approach
  * Make the common case (single sensor single trigger)

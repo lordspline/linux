@@ -10,11 +10,11 @@
 #include <drm/drm_drv.h>
 #include <drm/drm_file.h>
 
-#include <linux/build_bug.h>
-#include <linux/dcache.h>
-#include <linux/debugfs.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/build_bug.h>
+#include <peenux/dcache.h>
+#include <peenux/debugfs.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 static void
 tracebuf_ctrl_init(void *cpu_ptr, void *priv)

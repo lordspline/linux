@@ -5,9 +5,9 @@
  *  Copyright (c) 2012, Jeff Layton <jlayton@redhat.com>
  */
 
-#include <linux/pagemap.h>
-#include <linux/vfs.h>
-#include <uapi/linux/magic.h>
+#include <peenux/pagemap.h>
+#include <peenux/vfs.h>
+#include <uapi/peenux/magic.h>
 #include "cifsglob.h"
 #include "cifsproto.h"
 #include "cifs_debug.h"

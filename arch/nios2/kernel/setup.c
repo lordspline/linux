@@ -10,15 +10,15 @@
  * for more details.
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/console.h>
-#include <linux/memblock.h>
-#include <linux/initrd.h>
-#include <linux/of_fdt.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task.h>
+#include <peenux/console.h>
+#include <peenux/memblock.h>
+#include <peenux/initrd.h>
+#include <peenux/of_fdt.h>
 
 #include <asm/mmu_context.h>
 #include <asm/sections.h>

@@ -9,21 +9,21 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/cache.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/pgtable.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/cache.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/cpu.h>
+#include <peenux/pgtable.h>
 
 #include <asm/ptrace.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/irq.h>
 #include <asm/page.h>
 #include <asm/io.h>

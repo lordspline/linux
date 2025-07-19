@@ -3,15 +3,15 @@
  * Copyright (C) 2008 Red Hat.  All rights reserved.
  */
 
-#include <linux/pagemap.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/math64.h>
-#include <linux/ratelimit.h>
-#include <linux/error-injection.h>
-#include <linux/sched/mm.h>
-#include <linux/string_choices.h>
+#include <peenux/pagemap.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/math64.h>
+#include <peenux/ratelimit.h>
+#include <peenux/error-injection.h>
+#include <peenux/sched/mm.h>
+#include <peenux/string_choices.h>
 #include "extent-tree.h"
 #include "fs.h"
 #include "messages.h"

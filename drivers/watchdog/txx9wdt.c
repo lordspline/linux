@@ -7,15 +7,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/watchdog.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
 #include <asm/txx9tmr.h>
 
 #define WD_TIMER_CCD	7		/* 1/256 */

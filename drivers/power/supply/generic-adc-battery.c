@@ -4,21 +4,21 @@
  * Copyright (C) 2012, Anish Kumar <yesanishhere@gmail.com>
  * Copyright (c) 2023, Sebastian Reichel <sre@kernel.org>
  */
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/gpio/consumer.h>
-#include <linux/err.h>
-#include <linux/timer.h>
-#include <linux/jiffies.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/types.h>
-#include <linux/of.h>
-#include <linux/devm-helpers.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/err.h>
+#include <peenux/timer.h>
+#include <peenux/jiffies.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/iio/types.h>
+#include <peenux/of.h>
+#include <peenux/devm-helpers.h>
 
 #define JITTER_DEFAULT 10 /* hope 10ms is enough */
 

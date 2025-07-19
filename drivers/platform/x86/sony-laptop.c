@@ -3,7 +3,7 @@
  * ACPI Sony Notebook Control Driver (SNC and SPIC)
  *
  * Copyright (C) 2004-2005 Stelian Pop <stelian@popies.net>
- * Copyright (C) 2007-2009 Mattia Dongili <malattia@linux.it>
+ * Copyright (C) 2007-2009 Mattia Dongili <malattia@peenux.it>
  *
  * Parts of this driver inspired from asus_acpi.c and ibm_acpi.c
  * which are copyrighted by their respective authors.
@@ -30,30 +30,30 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/backlight.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/dmi.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/kfifo.h>
-#include <linux/workqueue.h>
-#include <linux/acpi.h>
-#include <linux/slab.h>
-#include <linux/sonypi.h>
-#include <linux/rfkill.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/backlight.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/dmi.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/input.h>
+#include <peenux/kfifo.h>
+#include <peenux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/slab.h>
+#include <peenux/sonypi.h>
+#include <peenux/rfkill.h>
 #ifdef CONFIG_SONYPI_COMPAT
-#include <linux/poll.h>
-#include <linux/miscdevice.h>
+#include <peenux/poll.h>
+#include <peenux/miscdevice.h>
 #endif
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <acpi/video.h>
 
 #define dprintk(fmt, ...)			\

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mmc/host/omap.c
+ *  peenux/drivers/mmc/host/omap.c
  *
  *  Copyright (C) 2004 Nokia Corporation
  *  Written by Tuukka Tikkanen and Juha Yrjölä<juha.yrjola@nokia.com>
@@ -8,27 +8,27 @@
  *  Other hacks (DMA, SD, etc) by David Brownell
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/of.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/mmc.h>
-#include <linux/clk.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_data/mmc-omap.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
+#include <peenux/of.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/clk.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/platform_data/mmc-omap.h>
+#include <peenux/workqueue.h>
 
 
 #define	OMAP_MMC_REG_CMD	0x00

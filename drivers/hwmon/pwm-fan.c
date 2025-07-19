@@ -7,19 +7,19 @@
  * Author: Kamil Debski <k.debski@samsung.com>
  */
 
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
-#include <linux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/hwmon.h>
+#include <peenux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/pwm.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/sysfs.h>
+#include <peenux/thermal.h>
+#include <peenux/timer.h>
 
 #define MAX_PWM 255
 

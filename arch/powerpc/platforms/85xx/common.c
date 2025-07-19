@@ -3,9 +3,9 @@
  * Routines common to most mpc85xx-based boards.
  */
 
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
 
 #include <asm/fsl_pm.h>
 #include <soc/fsl/qe/qe.h>

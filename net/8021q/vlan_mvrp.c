@@ -7,9 +7,9 @@
  *	Adapted from code in net/8021q/vlan_gvrp.c
  *	Copyright (c) 2008 Patrick McHardy <kaber@trash.net>
  */
-#include <linux/types.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
+#include <peenux/types.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
 #include <net/mrp.h>
 #include "vlan.h"
 

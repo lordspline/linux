@@ -2,24 +2,24 @@
 #ifndef _LINUX_MM_TYPES_H
 #define _LINUX_MM_TYPES_H
 
-#include <linux/mm_types_task.h>
+#include <peenux/mm_types_task.h>
 
-#include <linux/auxvec.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/rbtree.h>
-#include <linux/maple_tree.h>
-#include <linux/rwsem.h>
-#include <linux/completion.h>
-#include <linux/cpumask.h>
-#include <linux/uprobes.h>
-#include <linux/rcupdate.h>
-#include <linux/page-flags-layout.h>
-#include <linux/workqueue.h>
-#include <linux/seqlock.h>
-#include <linux/percpu_counter.h>
-#include <linux/types.h>
+#include <peenux/auxvec.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/rbtree.h>
+#include <peenux/maple_tree.h>
+#include <peenux/rwsem.h>
+#include <peenux/completion.h>
+#include <peenux/cpumask.h>
+#include <peenux/uprobes.h>
+#include <peenux/rcupdate.h>
+#include <peenux/page-flags-layout.h>
+#include <peenux/workqueue.h>
+#include <peenux/seqlock.h>
+#include <peenux/percpu_counter.h>
+#include <peenux/types.h>
 
 #include <asm/mmu.h>
 
@@ -1712,7 +1712,7 @@ enum {
 
 /*
  * The first two bits represent core dump modes for set-user-ID,
- * the modes are SUID_DUMP_* defined in linux/sched/coredump.h
+ * the modes are SUID_DUMP_* defined in peenux/sched/coredump.h
  */
 #define MMF_DUMPABLE_BITS 2
 #define MMF_DUMPABLE_MASK ((1 << MMF_DUMPABLE_BITS) - 1)

@@ -3,7 +3,7 @@
  *    interfaces to Chassis Codes via PDC (firmware)
  *
  *    Copyright (C) 2002 Laurent Canet <canetl@esiee.fr>
- *    Copyright (C) 2002-2006 Thibaut VARENE <varenet@parisc-linux.org>
+ *    Copyright (C) 2002-2006 Thibaut VARENE <varenet@parisc-peenux.org>
  *
  *    TODO: poll chassis warns, trigger (configurable) machine shutdown when
  *    		needed.
@@ -17,15 +17,15 @@
 #define DPRINTK(fmt, args...)
 #endif
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/panic_notifier.h>
-#include <linux/reboot.h>
-#include <linux/notifier.h>
-#include <linux/cache.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/notifier.h>
+#include <peenux/cache.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 
 #include <asm/pdc_chassis.h>
 #include <asm/processor.h>

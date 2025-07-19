@@ -3,14 +3,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/tsm.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/rwsem.h>
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/cleanup.h>
-#include <linux/configfs.h>
+#include <peenux/tsm.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/rwsem.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/cleanup.h>
+#include <peenux/configfs.h>
 
 static struct tsm_provider {
 	const struct tsm_report_ops *ops;

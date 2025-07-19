@@ -7,12 +7,12 @@
  * Copyright (C) 2015 Henri Chain
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/delay.h>
 
 #include "fbtft.h"
 

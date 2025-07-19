@@ -8,7 +8,7 @@
  */
 
 #include "mpi3mr.h"
-#include <linux/bsg-lib.h>
+#include <peenux/bsg-lib.h>
 #include <uapi/scsi/scsi_bsg_mpi3mr.h>
 
 /**

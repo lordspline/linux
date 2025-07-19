@@ -7,7 +7,7 @@
 #include "pvr_stream.h"
 #include "pvr_stream_defs.h"
 
-#include <linux/stddef.h>
+#include <peenux/stddef.h>
 #include <uapi/drm/pvr_drm.h>
 
 #define PVR_STREAM_DEF_SET(owner, member, _size, _array_size, _feature) \

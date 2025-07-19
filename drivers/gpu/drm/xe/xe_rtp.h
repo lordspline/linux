@@ -6,8 +6,8 @@
 #ifndef _XE_RTP_
 #define _XE_RTP_
 
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <peenux/types.h>
+#include <peenux/xarray.h>
 
 #define _XE_RTP_INCLUDE_PRIVATE_HELPERS
 

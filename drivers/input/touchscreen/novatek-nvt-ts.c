@@ -6,16 +6,16 @@
  * Copyright (c) 2023 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/module.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define NVT_TS_TOUCH_START		0x00
 #define NVT_TS_TOUCH_SIZE		6

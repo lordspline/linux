@@ -7,12 +7,12 @@
  * Author : Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/ipaq-micro.h>
-#include <linux/power_supply.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/ipaq-micro.h>
+#include <peenux/power_supply.h>
+#include <peenux/workqueue.h>
 
 #define BATT_PERIOD 100000 /* 100 seconds in milliseconds */
 

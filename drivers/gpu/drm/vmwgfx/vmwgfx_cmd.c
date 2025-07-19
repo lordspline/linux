@@ -30,8 +30,8 @@
 
 #include <drm/ttm/ttm_placement.h>
 
-#include <linux/sched/signal.h>
-#include <linux/vmalloc.h>
+#include <peenux/sched/signal.h>
+#include <peenux/vmalloc.h>
 
 bool vmw_supports_3d(struct vmw_private *dev_priv)
 {

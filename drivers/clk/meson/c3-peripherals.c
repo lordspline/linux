@@ -6,8 +6,8 @@
  * Author: Chuan Liu <chuan.liu@amlogic.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/platform_device.h>
 #include "clk-regmap.h"
 #include "clk-dualdiv.h"
 #include "meson-clkc-utils.h"
@@ -203,7 +203,7 @@ static C3_SYS_GATE(sys_dev_arb,		SYS_CLK_EN0_REG0, 7, 0);
 
 /*
  * FIXME: sys_mmc_pclk provides the clock for the DDR PHY, DDR will only be
- * initialized in bl2, and this clock should not be touched in linux.
+ * initialized in bl2, and this clock should not be touched in peenux.
  */
 static C3_SYS_GATE_RO(sys_mmc_pclk,	SYS_CLK_EN0_REG0, 8);
 

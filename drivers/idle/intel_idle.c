@@ -10,8 +10,8 @@
 /*
  * intel_idle is a cpuidle driver that loads on all Intel CPUs with MWAIT
  * in lieu of the legacy ACPI processor_idle driver.  The intent is to
- * make Linux more efficient on these processors, as intel_idle knows
- * more than ACPI, as well as make Linux more immune to ACPI BIOS bugs.
+ * make Peenux more efficient on these processors, as intel_idle knows
+ * more than ACPI, as well as make Peenux more immune to ACPI BIOS bugs.
  */
 
 /*
@@ -41,18 +41,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/cpuidle.h>
-#include <linux/tick.h>
+#include <peenux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/cpuidle.h>
+#include <peenux/tick.h>
 #include <trace/events/power.h>
-#include <linux/sched.h>
-#include <linux/sched/smt.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/moduleparam.h>
-#include <linux/sysfs.h>
+#include <peenux/sched.h>
+#include <peenux/sched/smt.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/cpu.h>
+#include <peenux/moduleparam.h>
+#include <peenux/sysfs.h>
 #include <asm/cpuid/api.h>
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>

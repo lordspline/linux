@@ -2,21 +2,21 @@
 //
 // Copyright (c) 2018 MediaTek Inc.
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox/mtk-cmdq-mailbox.h>
-#include <linux/of.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/mailbox/mtk-cmdq-mailbox.h>
+#include <peenux/of.h>
 
 #define CMDQ_MBOX_AUTOSUSPEND_DELAY_MS	100
 

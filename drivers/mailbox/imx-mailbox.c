@@ -4,24 +4,24 @@
  * Copyright 2022 NXP, Peng Fan <peng.fan@nxp.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/firmware/imx/ipc.h>
-#include <linux/firmware/imx/s4.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/suspend.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/firmware/imx/ipc.h>
+#include <peenux/firmware/imx/s4.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/suspend.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include "mailbox.h"
 

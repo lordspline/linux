@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2020, Red Hat, Inc.
  */
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 #include <sys/syscall.h>
 #include <asm/kvm.h>
 #include <asm/kvm_para.h>

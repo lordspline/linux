@@ -9,11 +9,11 @@
  * based on previously existing rtc class drivers
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/bcd.h>
-#include <linux/rtc.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/bcd.h>
+#include <peenux/rtc.h>
+#include <peenux/delay.h>
 
 /*
  * register indices

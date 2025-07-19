@@ -3,11 +3,11 @@
  * VGICv3 MMIO handling functions
  */
 
-#include <linux/bitfield.h>
-#include <linux/irqchip/arm-gic-v3.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/interrupt.h>
+#include <peenux/bitfield.h>
+#include <peenux/irqchip/arm-gic-v3.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/interrupt.h>
 #include <kvm/iodev.h>
 #include <kvm/arm_vgic.h>
 

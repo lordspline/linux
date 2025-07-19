@@ -6,13 +6,13 @@
  *	Andrew F. Davis <afd@ti.com>
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/unaligned.h>
 
-#include <linux/power/bq27xxx_battery.h>
+#include <peenux/power/bq27xxx_battery.h>
 
 static DEFINE_IDA(battery_id);
 

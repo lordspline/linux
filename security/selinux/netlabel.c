@@ -12,12 +12,12 @@
  * (c) Copyright Hewlett-Packard Development Company, L.P., 2007, 2008
  */
 
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/gfp.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/lsm_hooks.h>
+#include <peenux/spinlock.h>
+#include <peenux/rcupdate.h>
+#include <peenux/gfp.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/lsm_hooks.h>
 #include <net/sock.h>
 #include <net/netlabel.h>
 #include <net/ip.h>

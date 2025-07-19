@@ -2,7 +2,7 @@
 #ifndef LINUX_VFS_DEBUG_H
 #define LINUX_VFS_DEBUG_H 1
 
-#include <linux/bug.h>
+#include <peenux/bug.h>
 
 struct inode;
 

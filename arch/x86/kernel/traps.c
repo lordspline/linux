@@ -12,37 +12,37 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/context_tracking.h>
-#include <linux/interrupt.h>
-#include <linux/kallsyms.h>
-#include <linux/kmsan.h>
-#include <linux/spinlock.h>
-#include <linux/kprobes.h>
-#include <linux/uaccess.h>
-#include <linux/kdebug.h>
-#include <linux/kgdb.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/ptrace.h>
-#include <linux/uprobes.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/kexec.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/timer.h>
-#include <linux/init.h>
-#include <linux/bug.h>
-#include <linux/nmi.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/io.h>
-#include <linux/hardirq.h>
-#include <linux/atomic.h>
-#include <linux/iommu.h>
-#include <linux/ubsan.h>
+#include <peenux/context_tracking.h>
+#include <peenux/interrupt.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kmsan.h>
+#include <peenux/spinlock.h>
+#include <peenux/kprobes.h>
+#include <peenux/uaccess.h>
+#include <peenux/kdebug.h>
+#include <peenux/kgdb.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/ptrace.h>
+#include <peenux/uprobes.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/kexec.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/timer.h>
+#include <peenux/init.h>
+#include <peenux/bug.h>
+#include <peenux/nmi.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/cpu.h>
+#include <peenux/io.h>
+#include <peenux/hardirq.h>
+#include <peenux/atomic.h>
+#include <peenux/iommu.h>
+#include <peenux/ubsan.h>
 
 #include <asm/stacktrace.h>
 #include <asm/processor.h>
@@ -1487,7 +1487,7 @@ static void ve_raise_fault(struct pt_regs *regs, long error_code,
  *  * Specific CPUID leaf accesses
  *  * Access to specific guest physical addresses
  *
- * In the settings that Linux will run in, virtualization exceptions are
+ * In the settings that Peenux will run in, virtualization exceptions are
  * never generated on accesses to normal, TD-private memory that has been
  * accepted (by BIOS or with tdx_enc_status_changed()).
  *

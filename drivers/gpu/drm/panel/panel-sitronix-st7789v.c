@@ -3,14 +3,14 @@
  * Copyright (C) 2017 Free Electrons
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
 #include <video/mipi_display.h>
-#include <linux/media-bus-format.h>
+#include <peenux/media-bus-format.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_modes.h>

@@ -11,13 +11,13 @@
 #include <crypto/internal/akcipher.h>
 #include <crypto/internal/rsa.h>
 #include <crypto/scatterwalk.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/mpi.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <uapi/linux/virtio_crypto.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/mpi.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <uapi/peenux/virtio_crypto.h>
 #include "virtio_crypto_common.h"
 
 struct virtio_crypto_rsa_ctx {

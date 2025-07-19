@@ -5,7 +5,7 @@
  */
 
 #include <media/rc-map.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 
 static struct rc_map_table siemens_gigaset_rc20[] = {
 	{ 0x1501, KEY_POWER },

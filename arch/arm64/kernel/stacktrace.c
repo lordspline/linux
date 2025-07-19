@@ -4,16 +4,16 @@
  *
  * Copyright (C) 2012 ARM Ltd.
  */
-#include <linux/kernel.h>
-#include <linux/efi.h>
-#include <linux/export.h>
-#include <linux/filter.h>
-#include <linux/ftrace.h>
-#include <linux/kprobes.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
+#include <peenux/kernel.h>
+#include <peenux/efi.h>
+#include <peenux/export.h>
+#include <peenux/filter.h>
+#include <peenux/ftrace.h>
+#include <peenux/kprobes.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/stacktrace.h>
 
 #include <asm/efi.h>
 #include <asm/irq.h>

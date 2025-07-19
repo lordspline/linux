@@ -6,13 +6,13 @@
  * Author: Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/psci.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/of.h>
+#include <peenux/delay.h>
+#include <peenux/psci.h>
 
-#include <uapi/linux/psci.h>
+#include <uapi/peenux/psci.h>
 
 #include <asm/psci.h>
 #include <asm/smp_plat.h>

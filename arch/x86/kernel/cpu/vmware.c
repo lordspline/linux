@@ -21,14 +21,14 @@
  *
  */
 
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/clocksource.h>
-#include <linux/cpu.h>
-#include <linux/efi.h>
-#include <linux/reboot.h>
-#include <linux/static_call.h>
+#include <peenux/dmi.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/clocksource.h>
+#include <peenux/cpu.h>
+#include <peenux/efi.h>
+#include <peenux/reboot.h>
+#include <peenux/static_call.h>
 #include <asm/div64.h>
 #include <asm/x86_init.h>
 #include <asm/hypervisor.h>

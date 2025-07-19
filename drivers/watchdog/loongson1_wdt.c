@@ -3,12 +3,12 @@
  * Copyright (c) 2016 Yang Ling <gnaygnil@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/watchdog.h>
 
 /* Loongson 1 Watchdog Register Definitions */
 #define WDT_EN			0x0

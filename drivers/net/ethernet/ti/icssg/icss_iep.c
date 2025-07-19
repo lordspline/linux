@@ -6,18 +6,18 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/timekeeping.h>
-#include <linux/interrupt.h>
-#include <linux/of_irq.h>
-#include <linux/workqueue.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/timekeeping.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_irq.h>
+#include <peenux/workqueue.h>
 
 #include "icss_iep.h"
 

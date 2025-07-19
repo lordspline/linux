@@ -6,11 +6,11 @@
 
 #define pr_fmt(fmt) "efibc: " fmt
 
-#include <linux/efi.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/ucs2_string.h>
+#include <peenux/efi.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/ucs2_string.h>
 
 #define MAX_DATA_LEN	512
 

@@ -7,8 +7,8 @@
  * Contact: Luciano Coelho <luciano.coelho@nokia.com>
  */
 
-#include <linux/ieee80211.h>
-#include <linux/pm_runtime.h>
+#include <peenux/ieee80211.h>
+#include <peenux/pm_runtime.h>
 
 #include "wlcore.h"
 #include "debug.h"

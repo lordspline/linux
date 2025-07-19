@@ -6,23 +6,23 @@
  *
  * originally based on:
  *
- *  linux/bvme/config.c
+ *  peenux/bvme/config.c
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/major.h>
-#include <linux/serial_reg.h>
-#include <linux/rtc.h>
-#include <linux/vt_kern.h>
-#include <linux/bcd.h>
-#include <linux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/tty.h>
+#include <peenux/console.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/major.h>
+#include <peenux/serial_reg.h>
+#include <peenux/rtc.h>
+#include <peenux/vt_kern.h>
+#include <peenux/bcd.h>
+#include <peenux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/bootinfo.h>

@@ -3,15 +3,15 @@
 
 #include <crypto/hash.h>
 #include <crypto/utils.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <net/ip.h>
 #include <net/xfrm.h>
 #include <net/ah.h>
-#include <linux/crypto.h>
-#include <linux/pfkeyv2.h>
-#include <linux/scatterlist.h>
+#include <peenux/crypto.h>
+#include <peenux/pfkeyv2.h>
+#include <peenux/scatterlist.h>
 #include <net/icmp.h>
 #include <net/protocol.h>
 

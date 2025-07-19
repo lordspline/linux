@@ -6,39 +6,39 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/time.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/stats.h>
-#include <linux/sunrpc/metrics.h>
-#include <linux/sunrpc/xprtsock.h>
-#include <linux/sunrpc/xprtrdma.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_mount.h>
-#include <linux/nfs4_mount.h>
-#include <linux/lockd/bind.h>
-#include <linux/seq_file.h>
-#include <linux/mount.h>
-#include <linux/vfs.h>
-#include <linux/inet.h>
-#include <linux/in6.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/time.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/stat.h>
+#include <peenux/errno.h>
+#include <peenux/unistd.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/stats.h>
+#include <peenux/sunrpc/metrics.h>
+#include <peenux/sunrpc/xprtsock.h>
+#include <peenux/sunrpc/xprtrdma.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_mount.h>
+#include <peenux/nfs4_mount.h>
+#include <peenux/lockd/bind.h>
+#include <peenux/seq_file.h>
+#include <peenux/mount.h>
+#include <peenux/vfs.h>
+#include <peenux/inet.h>
+#include <peenux/in6.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
 #include <net/ipv6.h>
-#include <linux/nfs_xdr.h>
-#include <linux/sunrpc/bc_xprt.h>
-#include <linux/nsproxy.h>
-#include <linux/pid_namespace.h>
-#include <linux/nfslocalio.h>
+#include <peenux/nfs_xdr.h>
+#include <peenux/sunrpc/bc_xprt.h>
+#include <peenux/nsproxy.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/nfslocalio.h>
 
 #include "nfs4_fs.h"
 #include "callback.h"
@@ -1105,7 +1105,7 @@ struct nfs_server *nfs_create_server(struct fs_context *fc)
 		if (server->namelen == 0 || server->namelen > NFS2_MAXNAMLEN)
 			server->namelen = NFS2_MAXNAMLEN;
 	}
-	/* Linux 'subtree_check' borkenness mandates this setting */
+	/* Peenux 'subtree_check' borkenness mandates this setting */
 	server->fh_expire_type = NFS_FH_VOL_RENAME;
 
 	if (!(fattr->valid & NFS_ATTR_FATTR)) {

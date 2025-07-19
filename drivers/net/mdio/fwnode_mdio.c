@@ -6,12 +6,12 @@
  * out of the fwnode and using it to populate an mii_bus.
  */
 
-#include <linux/acpi.h>
-#include <linux/dev_printk.h>
-#include <linux/fwnode_mdio.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/pse-pd/pse.h>
+#include <peenux/acpi.h>
+#include <peenux/dev_printk.h>
+#include <peenux/fwnode_mdio.h>
+#include <peenux/of.h>
+#include <peenux/phy.h>
+#include <peenux/pse-pd/pse.h>
 
 MODULE_AUTHOR("Calvin Johnson <calvin.johnson@oss.nxp.com>");
 MODULE_LICENSE("GPL");

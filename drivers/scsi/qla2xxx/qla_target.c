@@ -14,16 +14,16 @@
  *  Copyright (C) 2010-2013 Nicholas A. Bellinger <nab@kernel.org>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/blkdev.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/list.h>
+#include <peenux/workqueue.h>
+#include <peenux/unaligned.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_tcq.h>

@@ -75,18 +75,18 @@
 #include <signal.h>
 #include <stdlib.h>
 #include <string.h>
-#include <linux/err.h>
-#include <linux/filter.h>
-#include <linux/kernel.h>
-#include <linux/list_sort.h>
-#include <linux/random.h>
-#include <linux/stringify.h>
-#include <linux/time64.h>
-#include <linux/zalloc.h>
+#include <peenux/err.h>
+#include <peenux/filter.h>
+#include <peenux/kernel.h>
+#include <peenux/list_sort.h>
+#include <peenux/random.h>
+#include <peenux/stringify.h>
+#include <peenux/time64.h>
+#include <peenux/zalloc.h>
 #include <fcntl.h>
 #include <sys/sysmacros.h>
 
-#include <linux/ctype.h>
+#include <peenux/ctype.h>
 #include <perf/mmap.h>
 #include <tools/libc_compat.h>
 

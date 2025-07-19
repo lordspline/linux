@@ -6,9 +6,9 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/kernel.h>
 
 #include "xilinx-xadc.h"
 

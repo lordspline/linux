@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/kernel.h>
 
 /*
  * These functions are used early on before PCI scanning is done

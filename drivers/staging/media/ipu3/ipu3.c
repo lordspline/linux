@@ -7,10 +7,10 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
 
 #include "ipu3.h"
 #include "ipu3-css-fw.h"

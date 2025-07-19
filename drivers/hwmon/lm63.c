@@ -24,18 +24,18 @@
  * in width.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 /*
  * Addresses to scan

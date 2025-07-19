@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2021 Renesas Electronics Corporation
  */
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/units.h>
-#include <linux/watchdog.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/units.h>
+#include <peenux/watchdog.h>
 
 #define WDTCNT		0x00
 #define WDTSET		0x04

@@ -7,12 +7,12 @@
  */
 
 #include <crypto/internal/kpp.h>
-#include <linux/cryptouser.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
+#include <peenux/cryptouser.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
 #include <net/netlink.h>
 
 #include "internal.h"

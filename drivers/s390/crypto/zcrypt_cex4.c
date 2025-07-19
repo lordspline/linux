@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  *  Copyright IBM Corp. 2012, 2022
- *  Author(s): Holger Dengler <hd@linux.vnet.ibm.com>
+ *  Author(s): Holger Dengler <hd@peenux.vnet.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/atomic.h>
-#include <linux/uaccess.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/atomic.h>
+#include <peenux/uaccess.h>
+#include <peenux/mod_devicetable.h>
 
 #include "ap_bus.h"
 #include "zcrypt_api.h"

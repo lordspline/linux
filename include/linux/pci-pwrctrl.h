@@ -6,8 +6,8 @@
 #ifndef __PCI_PWRCTRL_H__
 #define __PCI_PWRCTRL_H__
 
-#include <linux/notifier.h>
-#include <linux/workqueue.h>
+#include <peenux/notifier.h>
+#include <peenux/workqueue.h>
 
 struct device;
 struct device_link;

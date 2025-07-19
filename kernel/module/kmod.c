@@ -4,29 +4,29 @@
  * Copyright (C) 2023 Luis Chamberlain <mcgrof@kernel.org>
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/binfmts.h>
-#include <linux/syscalls.h>
-#include <linux/unistd.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/cred.h>
-#include <linux/file.h>
-#include <linux/workqueue.h>
-#include <linux/security.h>
-#include <linux/mount.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/resource.h>
-#include <linux/notifier.h>
-#include <linux/suspend.h>
-#include <linux/rwsem.h>
-#include <linux/ptrace.h>
-#include <linux/async.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task.h>
+#include <peenux/binfmts.h>
+#include <peenux/syscalls.h>
+#include <peenux/unistd.h>
+#include <peenux/kmod.h>
+#include <peenux/slab.h>
+#include <peenux/completion.h>
+#include <peenux/cred.h>
+#include <peenux/file.h>
+#include <peenux/workqueue.h>
+#include <peenux/security.h>
+#include <peenux/mount.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/resource.h>
+#include <peenux/notifier.h>
+#include <peenux/suspend.h>
+#include <peenux/rwsem.h>
+#include <peenux/ptrace.h>
+#include <peenux/async.h>
+#include <peenux/uaccess.h>
 
 #include <trace/events/module.h>
 #include "internal.h"
@@ -73,7 +73,7 @@ static int call_modprobe(char *orig_module_name, int wait)
 	struct subprocess_info *info;
 	static char *envp[] = {
 		"HOME=/",
-		"TERM=linux",
+		"TERM=peenux",
 		"PATH=/sbin:/usr/sbin:/bin:/usr/bin",
 		NULL
 	};

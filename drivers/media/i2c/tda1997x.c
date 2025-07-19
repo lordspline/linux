@@ -2,19 +2,19 @@
 /*
  * Copyright (C) 2018 Gateworks Corporation
  */
-#include <linux/delay.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/v4l2-dv-timings.h>
-#include <linux/videodev2.h>
+#include <peenux/delay.h>
+#include <peenux/hdmi.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
+#include <peenux/v4l2-dv-timings.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

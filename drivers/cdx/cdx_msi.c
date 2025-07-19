@@ -5,14 +5,14 @@
  * Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
  */
 
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/cdx/cdx_bus.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/msi.h>
+#include <peenux/cdx/cdx_bus.h>
 
 #include "cdx.h"
 

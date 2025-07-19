@@ -5,16 +5,16 @@
 // Copyright (c) 2005,2006 Mauro Carvalho Chehab <mchehab@kernel.org>
 
 #include <dt-bindings/media/tvp5150.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/videodev2.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of_graph.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 #include <media/v4l2-async.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>

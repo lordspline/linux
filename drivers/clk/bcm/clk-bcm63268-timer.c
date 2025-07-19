@@ -5,14 +5,14 @@
  * Copyright (C) 2023 Álvaro Fernández Rojas <noltari@gmail.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/spinlock.h>
+#include <peenux/clk-provider.h>
+#include <peenux/container_of.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/spinlock.h>
 
 #include <dt-bindings/clock/bcm63268-clock.h>
 

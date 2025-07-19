@@ -3,11 +3,11 @@
  * Copyright (c) 2022 Pengutronix, Oleksij Rempel <kernel@pengutronix.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/phy.h>
+#include <peenux/bitfield.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/phy.h>
 
 #define DP83TD510E_PHY_ID			0x20000181
 
@@ -149,7 +149,7 @@ struct dp83td510_priv {
 #define DP83TD510E_TDR_TX_TYPE_1V			0
 #define DP83TD510E_TDR_TX_TYPE_2_4V			1
 /* cfg_post_silence_time: Time after the TDR sequence. Since we force master mode
- * for the TDR will proceed with forced link state after this time. For Linux
+ * for the TDR will proceed with forced link state after this time. For Peenux
  * it is better to set max value to avoid false link state detection.
  */
 #define DP83TD510E_TDR_CFG1_POST_SILENCE_TIME		GENMASK(3, 2)

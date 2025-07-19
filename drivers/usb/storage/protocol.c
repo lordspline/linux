@@ -27,8 +27,8 @@
  * status of a command.
  */
 
-#include <linux/highmem.h>
-#include <linux/export.h>
+#include <peenux/highmem.h>
+#include <peenux/export.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 

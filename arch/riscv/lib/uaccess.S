@@ -1,5 +1,5 @@
-#include <linux/linkage.h>
-#include <linux/export.h>
+#include <peenux/linkage.h>
+#include <peenux/export.h>
 #include <asm/asm.h>
 #include <asm/asm-extable.h>
 #include <asm/csr.h>

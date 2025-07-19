@@ -5,19 +5,19 @@
  * Copyright (c) 2010-2011, Code Aurora Forum. All rights reserved.
  * Copyright (c) 2023, Linaro Limited
  */
-#include <linux/efi.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/init.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/unaligned.h>
+#include <peenux/efi.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/init.h>
+#include <peenux/rtc.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/unaligned.h>
 
 #include <asm/byteorder.h>
 

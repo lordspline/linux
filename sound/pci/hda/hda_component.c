@@ -6,10 +6,10 @@
  *			Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/acpi.h>
-#include <linux/component.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/component.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <sound/hda_codec.h>
 #include "hda_component.h"
 #include "hda_local.h"

@@ -2,21 +2,21 @@
 /*
  * kernel API
  *
- * Copyright (C) 2005-2009   Rodolfo Giometti <giometti@linux.it>
+ * Copyright (C) 2005-2009   Rodolfo Giometti <giometti@peenux.it>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/spinlock.h>
-#include <linux/fs.h>
-#include <linux/pps_kernel.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/time.h>
+#include <peenux/timex.h>
+#include <peenux/spinlock.h>
+#include <peenux/fs.h>
+#include <peenux/pps_kernel.h>
+#include <peenux/slab.h>
 
 #include "kc.h"
 

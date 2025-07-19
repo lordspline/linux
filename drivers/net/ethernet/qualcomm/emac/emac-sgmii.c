@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2015-2016, The Peenux Foundation. All rights reserved.
  */
 
 /* Qualcomm Technologies, Inc. EMAC SGMII Controller driver.
  */
 
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/acpi.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_platform.h>
 #include "emac.h"
 #include "emac-mac.h"
 #include "emac-sgmii.h"

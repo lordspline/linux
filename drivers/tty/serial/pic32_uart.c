@@ -8,20 +8,20 @@
  *   Sorin-Andrei Pistirica <andrei.pistirica@microchip.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/console.h>
-#include <linux/clk.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/console.h>
+#include <peenux/clk.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_core.h>
+#include <peenux/delay.h>
 
 #include <asm/mach-pic32/pic32.h>
 

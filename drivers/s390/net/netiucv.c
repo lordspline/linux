@@ -26,29 +26,29 @@
 
 #undef DEBUG
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/bitops.h>
 
-#include <linux/signal.h>
-#include <linux/string.h>
-#include <linux/device.h>
+#include <peenux/signal.h>
+#include <peenux/string.h>
+#include <peenux/device.h>
 
-#include <linux/ip.h>
-#include <linux/if_arp.h>
-#include <linux/tcp.h>
-#include <linux/skbuff.h>
-#include <linux/ctype.h>
+#include <peenux/ip.h>
+#include <peenux/if_arp.h>
+#include <peenux/tcp.h>
+#include <peenux/skbuff.h>
+#include <peenux/ctype.h>
 #include <net/dst.h>
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 #include <asm/ebcdic.h>
 
 #include <net/iucv/iucv.h>
@@ -56,7 +56,7 @@
 
 MODULE_AUTHOR
     ("(C) 2001 IBM Corporation by Fritz Elfert (felfert@millenux.com)");
-MODULE_DESCRIPTION ("Linux for S/390 IUCV network driver");
+MODULE_DESCRIPTION ("Peenux for S/390 IUCV network driver");
 
 /*
  * Debug Facility stuff

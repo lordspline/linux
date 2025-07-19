@@ -6,12 +6,12 @@
 #include <kunit/test.h>
 #include <kunit/visibility.h>
 
-#include <linux/iosys-map.h>
-#include <linux/math64.h>
-#include <linux/prandom.h>
-#include <linux/swap.h>
+#include <peenux/iosys-map.h>
+#include <peenux/math64.h>
+#include <peenux/prandom.h>
+#include <peenux/swap.h>
 
-#include <uapi/linux/sysinfo.h>
+#include <uapi/peenux/sysinfo.h>
 
 #include "tests/xe_kunit_helpers.h"
 #include "tests/xe_pci_test.h"

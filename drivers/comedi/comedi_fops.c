@@ -3,7 +3,7 @@
  * comedi/comedi_fops.c
  * comedi kernel module
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Peenux Control and Measurement Device Interface
  * Copyright (C) 1997-2007 David A. Schleef <ds@schleef.org>
  * compat ioctls:
  * Author: Ian Abbott, MEV Ltd. <abbotti@mev.co.uk>
@@ -12,23 +12,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/fcntl.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/cdev.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/fcntl.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/poll.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/comedi/comedidev.h>
+#include <peenux/cdev.h>
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/compat.h>
 
 #include "comedi_internal.h"
 

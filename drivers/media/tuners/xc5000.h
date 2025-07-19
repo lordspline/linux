@@ -8,7 +8,7 @@
 #ifndef __XC5000_H__
 #define __XC5000_H__
 
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 
 struct dvb_frontend;
 struct i2c_adapter;

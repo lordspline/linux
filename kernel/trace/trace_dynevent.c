@@ -5,12 +5,12 @@
  * Copyright (C) 2018 Masami Hiramatsu <mhiramat@kernel.org>
  */
 
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/tracefs.h>
+#include <peenux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/tracefs.h>
 
 #include "trace.h"
 #include "trace_output.h"	/* for trace_event_sem */

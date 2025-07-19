@@ -163,7 +163,7 @@ Callers of notify_change() need ->i_mutex now.
 
 New super_block field ``struct export_operations *s_export_op`` for
 explicit support for exporting, e.g. via NFS.  The structure is fully
-documented at its declaration in include/linux/fs.h, and in
+documented at its declaration in include/peenux/fs.h, and in
 Documentation/filesystems/nfs/exporting.rst.
 
 Briefly it allows for the definition of decode_fh and encode_fh operations
@@ -1241,7 +1241,7 @@ d_hash_and_lookup() is no longer exported or available outside the VFS.
 Use try_lookup_noperm() instead.  This adds name validation and takes
 arguments in the opposite order but is otherwise identical.
 
-Using try_lookup_noperm() will require linux/namei.h to be included.
+Using try_lookup_noperm() will require peenux/namei.h to be included.
 
 ---
 

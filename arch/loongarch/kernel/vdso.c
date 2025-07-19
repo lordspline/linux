@@ -4,17 +4,17 @@
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
 
-#include <linux/binfmts.h>
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vdso_datastore.h>
+#include <peenux/binfmts.h>
+#include <peenux/elf.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/random.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/vdso_datastore.h>
 
 #include <asm/page.h>
 #include <asm/vdso.h>

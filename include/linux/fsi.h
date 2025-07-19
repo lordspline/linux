@@ -7,7 +7,7 @@
 #ifndef LINUX_FSI_H
 #define LINUX_FSI_H
 
-#include <linux/device.h>
+#include <peenux/device.h>
 
 struct fsi_device {
 	struct device		dev;

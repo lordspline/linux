@@ -11,8 +11,8 @@
 #include <string.h>
 #include <sys/socket.h>
 #include <unistd.h>
-#include <linux/audit.h>
-#include <linux/netlink.h>
+#include <peenux/audit.h>
+#include <peenux/netlink.h>
 
 static int fd;
 

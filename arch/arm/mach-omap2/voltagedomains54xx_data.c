@@ -6,9 +6,9 @@
  *
  * Copyright (C) 2013 Texas Instruments Incorporated - https://www.ti.com
  */
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
 
 #include "common.h"
 

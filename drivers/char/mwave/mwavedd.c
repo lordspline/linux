@@ -46,20 +46,20 @@
 *	First release to the public
 */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/major.h>
-#include <linux/miscdevice.h>
-#include <linux/device.h>
-#include <linux/serial.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/serial_8250.h>
-#include <linux/nospec.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/major.h>
+#include <peenux/miscdevice.h>
+#include <peenux/device.h>
+#include <peenux/serial.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/serial_8250.h>
+#include <peenux/nospec.h>
 #include "smapi.h"
 #include "mwavedd.h"
 #include "3780i.h"

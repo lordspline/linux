@@ -17,7 +17,7 @@
 
 #include <drm/drm_exec.h>
 #include <drm/drm_gem.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <uapi/drm/pvr_drm.h>
 
 static void pvr_job_release(struct kref *kref)

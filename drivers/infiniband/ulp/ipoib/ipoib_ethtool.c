@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
 
 #include "ipoib.h"
 

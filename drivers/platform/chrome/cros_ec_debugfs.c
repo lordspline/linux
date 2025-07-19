@@ -3,20 +3,20 @@
 //
 // Copyright (C) 2015 Google, Inc.
 
-#include <linux/circ_buf.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <peenux/circ_buf.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_device.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
 
 #define DRV_NAME "cros-ec-debugfs"
 

@@ -8,12 +8,12 @@
  * Copyright 2016 Noralf Trønnes
  */
 
-#include <linux/delay.h>
-#include <linux/dma-buf.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
+#include <peenux/delay.h>
+#include <peenux/dma-buf.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/spi/spi.h>
 #include <video/mipi_display.h>
 
 #include <drm/clients/drm_client_setup.h>

@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/ceph/ceph_debug.h>
+#include <peenux/ceph/ceph_debug.h>
 
-#include <linux/crc32c.h>
-#include <linux/ctype.h>
-#include <linux/highmem.h>
-#include <linux/inet.h>
-#include <linux/kthread.h>
-#include <linux/net.h>
-#include <linux/nsproxy.h>
-#include <linux/sched/mm.h>
-#include <linux/slab.h>
-#include <linux/socket.h>
-#include <linux/string.h>
+#include <peenux/crc32c.h>
+#include <peenux/ctype.h>
+#include <peenux/highmem.h>
+#include <peenux/inet.h>
+#include <peenux/kthread.h>
+#include <peenux/net.h>
+#include <peenux/nsproxy.h>
+#include <peenux/sched/mm.h>
+#include <peenux/slab.h>
+#include <peenux/socket.h>
+#include <peenux/string.h>
 #ifdef	CONFIG_BLOCK
-#include <linux/bio.h>
+#include <peenux/bio.h>
 #endif	/* CONFIG_BLOCK */
-#include <linux/dns_resolver.h>
+#include <peenux/dns_resolver.h>
 #include <net/tcp.h>
 #include <trace/events/sock.h>
 
-#include <linux/ceph/ceph_features.h>
-#include <linux/ceph/libceph.h>
-#include <linux/ceph/messenger.h>
-#include <linux/ceph/decode.h>
-#include <linux/ceph/pagelist.h>
-#include <linux/export.h>
+#include <peenux/ceph/ceph_features.h>
+#include <peenux/ceph/libceph.h>
+#include <peenux/ceph/messenger.h>
+#include <peenux/ceph/decode.h>
+#include <peenux/ceph/pagelist.h>
+#include <peenux/export.h>
 
 /*
  * Ceph uses the messenger to exchange ceph_msg messages with other

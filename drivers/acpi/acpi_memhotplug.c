@@ -12,9 +12,9 @@
  * ranges.
  */
 
-#include <linux/acpi.h>
-#include <linux/memory.h>
-#include <linux/memory_hotplug.h>
+#include <peenux/acpi.h>
+#include <peenux/memory.h>
+#include <peenux/memory_hotplug.h>
 
 #include "internal.h"
 

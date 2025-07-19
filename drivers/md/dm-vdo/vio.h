@@ -6,11 +6,11 @@
 #ifndef VIO_H
 #define VIO_H
 
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
 
 #include "completion.h"
 #include "constants.h"

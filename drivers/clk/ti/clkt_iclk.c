@@ -7,10 +7,10 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/clk/ti.h>
+#include <peenux/kernel.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/clk/ti.h>
 
 #include "clock.h"
 

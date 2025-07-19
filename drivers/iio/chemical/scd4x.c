@@ -11,23 +11,23 @@
  * https://www.sensirion.com/file/datasheet_scd4x
  */
 
-#include <linux/unaligned.h>
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/types.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/unaligned.h>
+#include <peenux/crc8.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #define SCD4X_CRC8_POLYNOMIAL 0x31
 #define SCD4X_TIMEOUT_ERR 1000

@@ -7,8 +7,8 @@
  *                2012 Joachim Eastwood <manabian@gmail.com>
  */
 
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
 
 #include <asm/mach/arch.h>
 

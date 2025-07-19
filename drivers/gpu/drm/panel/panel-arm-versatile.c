@@ -26,14 +26,14 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <video/of_videomode.h>
 #include <video/videomode.h>

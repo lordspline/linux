@@ -2,18 +2,18 @@
 /*
  * Copyright (c) 2019, Linaro Ltd
  */
-#include <linux/clk-provider.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/thermal.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/soc/qcom/qcom_aoss.h>
+#include <peenux/clk-provider.h>
+#include <peenux/debugfs.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/thermal.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/soc/qcom/qcom_aoss.h>
 
 #define CREATE_TRACE_POINTS
 #include "trace-aoss.h"
@@ -30,7 +30,7 @@
 #define QMP_DESC_UCORE_MBOX_SIZE	0x1c
 #define QMP_DESC_UCORE_MBOX_OFFSET	0x20
 
-/* Linux-side offsets */
+/* Peenux-side offsets */
 #define QMP_DESC_MCORE_LINK_STATE	0x24
 #define QMP_DESC_MCORE_LINK_STATE_ACK	0x28
 #define QMP_DESC_MCORE_CH_STATE		0x2c

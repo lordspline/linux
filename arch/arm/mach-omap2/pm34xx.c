@@ -15,18 +15,18 @@
  * Based on pm.c for omap1
  */
 
-#include <linux/cpu_pm.h>
-#include <linux/pm.h>
-#include <linux/suspend.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/cpuidle.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/pm.h>
+#include <peenux/suspend.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/cpuidle.h>
 
 #include <trace/events/power.h>
 

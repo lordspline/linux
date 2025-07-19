@@ -4,8 +4,8 @@
  */
 
 #include <drm/drm_device.h>
-#include <linux/sysfs.h>
-#include <linux/printk.h>
+#include <peenux/sysfs.h>
+#include <peenux/printk.h>
 
 #include "i915_drv.h"
 #include "i915_reg.h"

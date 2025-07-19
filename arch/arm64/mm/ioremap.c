@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/mm.h>
-#include <linux/io.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
 
 static ioremap_prot_hook_t ioremap_prot_hook;
 

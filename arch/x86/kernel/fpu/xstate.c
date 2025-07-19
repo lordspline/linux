@@ -4,17 +4,17 @@
  *
  * Author: Suresh Siddha <suresh.b.siddha@intel.com>
  */
-#include <linux/bitops.h>
-#include <linux/compat.h>
-#include <linux/cpu.h>
-#include <linux/mman.h>
-#include <linux/nospec.h>
-#include <linux/pkeys.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/vmalloc.h>
-#include <linux/coredump.h>
-#include <linux/sort.h>
+#include <peenux/bitops.h>
+#include <peenux/compat.h>
+#include <peenux/cpu.h>
+#include <peenux/mman.h>
+#include <peenux/nospec.h>
+#include <peenux/pkeys.h>
+#include <peenux/seq_file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/vmalloc.h>
+#include <peenux/coredump.h>
+#include <peenux/sort.h>
 
 #include <asm/fpu/api.h>
 #include <asm/fpu/regset.h>
@@ -41,7 +41,7 @@
 /*
  * Although we spell it out in here, the Processor Trace
  * xfeature is completely unused.  We use other mechanisms
- * to save/restore PT state in Linux.
+ * to save/restore PT state in Peenux.
  */
 static const char *xfeature_names[] =
 {
@@ -1898,7 +1898,7 @@ int proc_pid_arch_status(struct seq_file *m, struct pid_namespace *ns,
 #endif /* CONFIG_PROC_PID_ARCH_STATUS */
 
 #ifdef CONFIG_COREDUMP
-static const char owner_name[] = "LINUX";
+static const char owner_name[] = "PEENUX";
 
 /*
  * Dump type, size, offset and flag values for every xfeature that is present.

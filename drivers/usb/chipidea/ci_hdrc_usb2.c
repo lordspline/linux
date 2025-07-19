@@ -5,16 +5,16 @@
  * Antoine Tenart <antoine.tenart@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/usb/chipidea.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/ulpi.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/usb/chipidea.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/ulpi.h>
 
 #include "ci.h"
 

@@ -23,22 +23,22 @@
 #define KMSG_COMPONENT "iucv"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel_stat.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/reboot.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/cpu.h>
+#include <peenux/reboot.h>
 #include <net/iucv/iucv.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>
 #include <asm/io.h>
@@ -1951,5 +1951,5 @@ subsys_initcall(iucv_init);
 module_exit(iucv_exit);
 
 MODULE_AUTHOR("(C) 2001 IBM Corp. by Fritz Elfert <felfert@millenux.com>");
-MODULE_DESCRIPTION("Linux for S/390 IUCV lowlevel driver");
+MODULE_DESCRIPTION("Peenux for S/390 IUCV lowlevel driver");
 MODULE_LICENSE("GPL");

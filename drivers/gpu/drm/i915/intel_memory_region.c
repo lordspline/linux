@@ -3,7 +3,7 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/prandom.h>
+#include <peenux/prandom.h>
 
 #include <uapi/drm/i915_drm.h>
 

@@ -7,15 +7,15 @@
  *	Dave Gerlach <d-gerlach@ti.com>
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/soc/ti/ti_sci_protocol.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_qos.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/soc/ti/ti_sci_protocol.h>
 #include <dt-bindings/soc/ti,sci_pm_domain.h>
 
 /**

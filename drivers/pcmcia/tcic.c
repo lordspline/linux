@@ -31,20 +31,20 @@
     
 ======================================================================*/
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/platform_device.h>
+#include <peenux/bitops.h>
 
 #include <asm/io.h>
 
@@ -285,7 +285,7 @@ static u_int __init irq_scan(u_int mask0)
 /*======================================================================
 
     See if a card is present, powered up, in IO mode, and already
-    bound to a (non-PCMCIA) Linux driver.
+    bound to a (non-PCMCIA) Peenux driver.
 
     We make an exception for cards that look like serial devices.
     

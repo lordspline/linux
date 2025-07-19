@@ -7,13 +7,13 @@
  *  Copyright 2006 Tejun Heo <htejun@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_eh.h>
-#include <linux/libata.h>
-#include <linux/unaligned.h>
+#include <peenux/libata.h>
+#include <peenux/unaligned.h>
 
 #include "libata.h"
 #include "libata-transport.h"

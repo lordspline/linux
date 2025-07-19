@@ -13,13 +13,13 @@
 */
 
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <crypto/algapi.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 #include <crypto/cast5.h>
 
 static const u32 s5[256] = {

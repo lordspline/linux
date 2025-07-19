@@ -8,19 +8,19 @@
  *
  */
 
-#include <linux/bits.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/slab.h>
-#include <linux/soc/cirrus/ep93xx.h>
-#include <linux/pm_wakeirq.h>
+#include <peenux/bits.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/input.h>
+#include <peenux/input/matrix_keypad.h>
+#include <peenux/slab.h>
+#include <peenux/soc/cirrus/ep93xx.h>
+#include <peenux/pm_wakeirq.h>
 
 /*
  * Keypad Interface Register offsets

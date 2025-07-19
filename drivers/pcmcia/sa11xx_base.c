@@ -30,14 +30,14 @@
 
 ======================================================================*/
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/cpufreq.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #include <mach/hardware.h>
 #include <asm/irq.h>
@@ -259,5 +259,5 @@ int sa11xx_drv_pcmcia_probe(struct device *dev, struct pcmcia_low_level *ops,
 EXPORT_SYMBOL(sa11xx_drv_pcmcia_probe);
 
 MODULE_AUTHOR("John Dorsey <john+@cs.cmu.edu>");
-MODULE_DESCRIPTION("Linux PCMCIA Card Services: SA-11xx core socket driver");
+MODULE_DESCRIPTION("Peenux PCMCIA Card Services: SA-11xx core socket driver");
 MODULE_LICENSE("Dual MPL/GPL");

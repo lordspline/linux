@@ -7,10 +7,10 @@
  * Based on r9a07g044-cpg.c
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
 
 #include <dt-bindings/clock/r9a09g011-cpg.h>
 

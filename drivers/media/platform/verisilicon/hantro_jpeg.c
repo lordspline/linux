@@ -7,10 +7,10 @@
  * Copyright (C) 2014 Philipp Zabel, Pengutronix
  */
 
-#include <linux/align.h>
-#include <linux/build_bug.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/align.h>
+#include <peenux/build_bug.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 #include <media/v4l2-jpeg.h>
 #include "hantro_jpeg.h"
 #include "hantro.h"

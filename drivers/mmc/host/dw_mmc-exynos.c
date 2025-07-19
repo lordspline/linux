@@ -5,14 +5,14 @@
  * Copyright (C) 2012, Samsung Electronics Co., Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include "dw_mmc.h"
 #include "dw_mmc-pltfm.h"

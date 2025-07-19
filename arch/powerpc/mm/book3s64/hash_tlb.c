@@ -17,10 +17,10 @@
  *      Rework for PPC64 port.
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/percpu.h>
-#include <linux/hardirq.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/percpu.h>
+#include <peenux/hardirq.h>
 #include <asm/tlbflush.h>
 #include <asm/tlb.h>
 #include <asm/bug.h>
@@ -32,7 +32,7 @@
 DEFINE_PER_CPU(struct ppc64_tlb_batch, ppc64_tlb_batch);
 
 /*
- * A linux PTE was changed and the corresponding hash table entry
+ * A peenux PTE was changed and the corresponding hash table entry
  * neesd to be flushed. This function will either perform the flush
  * immediately or will batch it up if the current CPU has an active
  * batch on it.
@@ -173,7 +173,7 @@ void hash__tlb_flush(struct mmu_gather *tlb)
 /**
  * __flush_hash_table_range - Flush all HPTEs for a given address range
  *                            from the hash table (and the TLB). But keeps
- *                            the linux PTEs intact.
+ *                            the peenux PTEs intact.
  *
  * @start	: starting address
  * @end         : ending address (not included in the flush)

@@ -8,13 +8,13 @@
  * (C) 2009 Valentin Sitdikov <v.sitdikov@gmail.com>
  * (C) 2009 Siemens AG
  */
-#include <linux/fb.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/fb.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
 #include "mb862xxfb.h"
 #include "mb862xx_reg.h"

@@ -7,13 +7,13 @@
  * based on btaudio.c by Gerd Knorr <kraxel@bytesex.org>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

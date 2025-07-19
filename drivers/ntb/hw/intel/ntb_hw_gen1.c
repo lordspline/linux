@@ -44,18 +44,18 @@
  *   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * Intel PCIe NTB Linux driver
+ * Intel PCIe NTB Peenux driver
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/ntb.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/ntb.h>
 
 #include "ntb_hw_intel.h"
 #include "ntb_hw_gen1.h"

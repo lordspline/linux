@@ -2,7 +2,7 @@
 /* memcontrol.h - Memory Controller
  *
  * Copyright IBM Corporation, 2007
- * Author Balbir Singh <balbir@linux.vnet.ibm.com>
+ * Author Balbir Singh <balbir@peenux.vnet.ibm.com>
  *
  * Copyright 2007 OpenVZ SWsoft Inc
  * Author: Pavel Emelianov <xemul@openvz.org>
@@ -10,19 +10,19 @@
 
 #ifndef _LINUX_MEMCONTROL_H
 #define _LINUX_MEMCONTROL_H
-#include <linux/cgroup.h>
-#include <linux/vm_event_item.h>
-#include <linux/hardirq.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/page_counter.h>
-#include <linux/vmpressure.h>
-#include <linux/eventfd.h>
-#include <linux/mm.h>
-#include <linux/vmstat.h>
-#include <linux/writeback.h>
-#include <linux/page-flags.h>
-#include <linux/shrinker.h>
+#include <peenux/cgroup.h>
+#include <peenux/vm_event_item.h>
+#include <peenux/hardirq.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/page_counter.h>
+#include <peenux/vmpressure.h>
+#include <peenux/eventfd.h>
+#include <peenux/mm.h>
+#include <peenux/vmstat.h>
+#include <peenux/writeback.h>
+#include <peenux/page-flags.h>
+#include <peenux/shrinker.h>
 
 struct mem_cgroup;
 struct obj_cgroup;

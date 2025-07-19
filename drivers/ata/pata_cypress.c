@@ -5,17 +5,17 @@
  *			  Alan Cox
  *
  * Based heavily on
- * linux/drivers/ide/pci/cy82c693.c		Version 0.40	Sep. 10, 2002
+ * peenux/drivers/ide/pci/cy82c693.c		Version 0.40	Sep. 10, 2002
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <peenux/libata.h>
 
 #define DRV_NAME "pata_cypress"
 #define DRV_VERSION "0.1.5"

@@ -6,8 +6,8 @@
 #ifndef __NETNS_MCTP_H__
 #define __NETNS_MCTP_H__
 
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 struct netns_mctp {
 	/* Only updated under RTNL, entries freed via RCU */

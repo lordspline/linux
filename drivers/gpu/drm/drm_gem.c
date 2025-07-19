@@ -25,21 +25,21 @@
  *
  */
 
-#include <linux/dma-buf.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/iosys-map.h>
-#include <linux/mem_encrypt.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/pagevec.h>
-#include <linux/shmem_fs.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <peenux/dma-buf.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/iosys-map.h>
+#include <peenux/mem_encrypt.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/pagevec.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
 
 #include <drm/drm.h>
 #include <drm/drm_device.h>

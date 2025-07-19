@@ -12,10 +12,10 @@
 #ifndef ARCH_S390_KVM_S390_H
 #define ARCH_S390_KVM_S390_H
 
-#include <linux/hrtimer.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/lockdep.h>
+#include <peenux/hrtimer.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_host.h>
+#include <peenux/lockdep.h>
 #include <asm/facility.h>
 #include <asm/processor.h>
 #include <asm/sclp.h>

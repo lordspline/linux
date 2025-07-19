@@ -5,10 +5,10 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Authors: Liam Girdwood <liam.r.girdwood@linux.intel.com>
-//	    Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
+// Authors: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
+//	    Ranjani Sridharan <ranjani.sridharan@peenux.intel.com>
 //	    Rander Wang <rander.wang@intel.com>
-//          Keyon Jie <yang.jie@linux.intel.com>
+//          Keyon Jie <yang.jie@peenux.intel.com>
 //
 
 /*

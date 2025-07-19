@@ -4,7 +4,7 @@
  *
  * Copyright (C)2003 USAGI/WIDE Project
  *
- * Author	Mitsuru KANDA  <mk@linux-ipv6.org>
+ * Author	Mitsuru KANDA  <mk@peenux-ipv6.org>
  */
 /*
  * [Memo]
@@ -20,26 +20,26 @@
 
 #define pr_fmt(fmt) "IPv6: " fmt
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <net/ip.h>
 #include <net/xfrm.h>
 #include <net/ipcomp.h>
-#include <linux/crypto.h>
-#include <linux/err.h>
-#include <linux/pfkeyv2.h>
-#include <linux/random.h>
-#include <linux/percpu.h>
-#include <linux/smp.h>
-#include <linux/list.h>
-#include <linux/vmalloc.h>
-#include <linux/rtnetlink.h>
+#include <peenux/crypto.h>
+#include <peenux/err.h>
+#include <peenux/pfkeyv2.h>
+#include <peenux/random.h>
+#include <peenux/percpu.h>
+#include <peenux/smp.h>
+#include <peenux/list.h>
+#include <peenux/vmalloc.h>
+#include <peenux/rtnetlink.h>
 #include <net/ip6_route.h>
 #include <net/icmp.h>
 #include <net/ipv6.h>
 #include <net/protocol.h>
-#include <linux/ipv6.h>
-#include <linux/icmpv6.h>
-#include <linux/mutex.h>
+#include <peenux/ipv6.h>
+#include <peenux/icmpv6.h>
+#include <peenux/mutex.h>
 
 static int ipcomp6_err(struct sk_buff *skb, struct inet6_skb_parm *opt,
 				u8 type, u8 code, int offset, __be32 info)
@@ -217,6 +217,6 @@ module_init(ipcomp6_init);
 module_exit(ipcomp6_fini);
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("IP Payload Compression Protocol (IPComp) for IPv6 - RFC3173");
-MODULE_AUTHOR("Mitsuru KANDA <mk@linux-ipv6.org>");
+MODULE_AUTHOR("Mitsuru KANDA <mk@peenux-ipv6.org>");
 
 MODULE_ALIAS_XFRM_TYPE(AF_INET6, XFRM_PROTO_COMP);

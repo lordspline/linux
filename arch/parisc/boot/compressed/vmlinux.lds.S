@@ -3,10 +3,10 @@
 #include "sizes.h"
 
 #ifndef CONFIG_64BIT
-OUTPUT_FORMAT("elf32-hppa-linux")
+OUTPUT_FORMAT("elf32-hppa-peenux")
 OUTPUT_ARCH(hppa)
 #else
-OUTPUT_FORMAT("elf64-hppa-linux")
+OUTPUT_FORMAT("elf64-hppa-peenux")
 OUTPUT_ARCH(hppa:hppa2.0w)
 #endif
 

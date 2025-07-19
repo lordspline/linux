@@ -10,26 +10,26 @@
  * Ben Dooks <ben.dooks@codethink.co.uk>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/cpu.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_pci.h>
-#include <linux/irqdomain.h>
-#include <linux/slab.h>
-#include <linux/syscore_ops.h>
-#include <linux/msi.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/cpu.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_pci.h>
+#include <peenux/irqdomain.h>
+#include <peenux/slab.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/msi.h>
+#include <peenux/types.h>
 #include <asm/mach/arch.h>
 #include <asm/exception.h>
 #include <asm/smp_plat.h>

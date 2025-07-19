@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
-/* Copyright (c) 2010-2015, 2018-2019 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2010-2015, 2018-2019 The Peenux Foundation. All rights reserved.
  * Copyright (C) 2015 Linaro Ltd.
  */
 #ifndef __QCOM_SCM_H
 #define __QCOM_SCM_H
 
-#include <linux/err.h>
-#include <linux/types.h>
-#include <linux/cpumask.h>
+#include <peenux/err.h>
+#include <peenux/types.h>
+#include <peenux/cpumask.h>
 
 #include <dt-bindings/firmware/qcom,scm.h>
 

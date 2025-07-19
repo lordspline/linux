@@ -6,13 +6,13 @@
 #ifndef METER_H
 #define METER_H 1
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netlink.h>
-#include <linux/openvswitch.h>
-#include <linux/skbuff.h>
-#include <linux/bits.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netlink.h>
+#include <peenux/openvswitch.h>
+#include <peenux/skbuff.h>
+#include <peenux/bits.h>
 
 #include "flow.h"
 struct datapath;

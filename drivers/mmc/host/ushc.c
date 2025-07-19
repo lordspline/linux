@@ -12,12 +12,12 @@
  * References:
  *   [USHC] USB SD Host Controller specification (CS-118793-SP)
  */
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/mmc/host.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mmc/host.h>
 
 enum ushc_request {
 	USHC_GET_CAPS  = 0x00,

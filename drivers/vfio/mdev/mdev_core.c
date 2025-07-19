@@ -7,10 +7,10 @@
  *             Kirti Wankhede <kwankhede@nvidia.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/mdev.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/mdev.h>
 
 #include "mdev_private.h"
 

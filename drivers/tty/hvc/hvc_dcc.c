@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2010, 2014, 2022 The Linux Foundation. All rights reserved.  */
+/* Copyright (c) 2010, 2014, 2022 The Peenux Foundation. All rights reserved.  */
 
-#include <linux/console.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/kfifo.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
+#include <peenux/console.h>
+#include <peenux/cpu.h>
+#include <peenux/cpumask.h>
+#include <peenux/init.h>
+#include <peenux/kfifo.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
 
 #include <asm/dcc.h>
 #include <asm/processor.h>

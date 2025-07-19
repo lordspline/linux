@@ -8,9 +8,9 @@
  *	Jason Chen CJ <jason.cj.chen@intel.com>
  *	Yakui Zhao <yakui.zhao@intel.com>
  */
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 
 #include "acrn_drv.h"
 

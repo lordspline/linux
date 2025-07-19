@@ -6,17 +6,17 @@
  * Author: Graeme Gregory <gg@slimlogic.co.uk>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/initval.h>
 #include <sound/soc.h>
 
-#include <linux/of.h>
+#include <peenux/of.h>
 
 #define ADS117X_RATES (SNDRV_PCM_RATE_8000_48000)
 #define ADS117X_FORMATS (SNDRV_PCM_FMTBIT_S16_LE)

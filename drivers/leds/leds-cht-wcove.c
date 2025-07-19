@@ -10,14 +10,14 @@
  * YB1_source_code/kernel/cht/drivers/misc/charger_gp_led.c
  */
 
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/suspend.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/suspend.h>
 
 #define CHT_WC_LED1_CTRL		0x5e1f
 #define CHT_WC_LED1_FSM			0x5e20

@@ -3,10 +3,10 @@
 #define _TOOLS_LINUX_FIND_H_
 
 #ifndef _TOOLS_LINUX_BITMAP_H
-#error tools: only <linux/bitmap.h> can be included directly
+#error tools: only <peenux/bitmap.h> can be included directly
 #endif
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 unsigned long _find_next_bit(const unsigned long *addr1, unsigned long nbits,
 				unsigned long start);

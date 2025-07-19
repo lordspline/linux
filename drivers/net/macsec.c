@@ -5,26 +5,26 @@
  * Copyright (c) 2015 Sabrina Dubroca <sd@queasysnail.net>
  */
 
-#include <linux/types.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/module.h>
+#include <peenux/types.h>
+#include <peenux/skbuff.h>
+#include <peenux/socket.h>
+#include <peenux/module.h>
 #include <crypto/aead.h>
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/refcount.h>
+#include <peenux/etherdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/refcount.h>
 #include <net/genetlink.h>
 #include <net/sock.h>
 #include <net/gro_cells.h>
 #include <net/macsec.h>
 #include <net/dst_metadata.h>
 #include <net/netdev_lock.h>
-#include <linux/phy.h>
-#include <linux/byteorder/generic.h>
-#include <linux/if_arp.h>
+#include <peenux/phy.h>
+#include <peenux/byteorder/generic.h>
+#include <peenux/if_arp.h>
 
-#include <uapi/linux/if_macsec.h>
+#include <uapi/peenux/if_macsec.h>
 
 /* SecTAG length = macsec_eth_header without the optional SCI */
 #define MACSEC_TAG_LEN 6

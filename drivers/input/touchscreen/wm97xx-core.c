@@ -7,7 +7,7 @@
  * Author: Liam Girdwood <lrg@slimlogic.co.uk>
  * Parts Copyright : Ian Molton <spyro@f2s.com>
  *                   Andrew Zabolotny <zap@homelink.ru>
- *                   Russell King <rmk@arm.linux.org.uk>
+ *                   Russell King <rmk@arm.peenux.org.uk>
  *
  * Notes:
  *
@@ -29,22 +29,22 @@
  *       - Support for async sampling control for noisy LCDs.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/proc_fs.h>
-#include <linux/pm.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
-#include <linux/mfd/wm97xx.h>
-#include <linux/workqueue.h>
-#include <linux/wm97xx.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/proc_fs.h>
+#include <peenux/pm.h>
+#include <peenux/interrupt.h>
+#include <peenux/bitops.h>
+#include <peenux/mfd/wm97xx.h>
+#include <peenux/workqueue.h>
+#include <peenux/wm97xx.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #define TS_NAME			"wm97xx"
 #define WM_CORE_VERSION		"1.00"

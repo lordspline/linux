@@ -7,14 +7,14 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/iio/iio.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/common/st_sensors_spi.h>
+#include <peenux/iio/common/st_sensors_spi.h>
 
 #define ST_SENSORS_SPI_MULTIREAD	0xc0
 

@@ -9,7 +9,7 @@
 
 #include <endian.h>
 #include <asm/types.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,12 +22,12 @@
 #include <limits.h>
 #include <assert.h>
 
-#include <linux/unistd.h>
-#include <linux/filter.h>
-#include <linux/bpf_perf_event.h>
-#include <linux/bpf.h>
-#include <linux/if_ether.h>
-#include <linux/btf.h>
+#include <peenux/unistd.h>
+#include <peenux/filter.h>
+#include <peenux/bpf_perf_event.h>
+#include <peenux/bpf.h>
+#include <peenux/if_ether.h>
+#include <peenux/btf.h>
 
 #include <bpf/btf.h>
 #include <bpf/bpf.h>
@@ -39,7 +39,7 @@
 #include "bpf_rand.h"
 #include "bpf_util.h"
 #include "test_btf.h"
-#include "../../../include/linux/filter.h"
+#include "../../../include/peenux/filter.h"
 #include "testing_helpers.h"
 
 #define MAX_INSNS	BPF_MAXINSNS

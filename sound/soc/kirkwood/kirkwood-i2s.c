@@ -6,19 +6,19 @@
  * (c) 2010 Arnaud Patard <arnaud.patard@rtp-net.org>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/mbus.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/mbus.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
-#include <linux/platform_data/asoc-kirkwood.h>
-#include <linux/of.h>
+#include <peenux/platform_data/asoc-kirkwood.h>
+#include <peenux/of.h>
 
 #include "kirkwood.h"
 

@@ -5,14 +5,14 @@
  * Copyright (C) 2023 BayLibre Incorporated - https://www.baylibre.com/
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps6594.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/tps6594.h>
 
 #define TPS6594_CRC_SYNC_TIMEOUT_MS 150
 

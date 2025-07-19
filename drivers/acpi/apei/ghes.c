@@ -5,10 +5,10 @@
  * Generic Hardware Error Source provides a way to report platform
  * hardware errors (such as that from chipset). It works in so called
  * "Firmware First" mode, that is, hardware errors are reported to
- * firmware firstly, then reported to Linux by firmware. This way,
+ * firmware firstly, then reported to Peenux by firmware. This way,
  * some non-standard hardware error registers or non-standard hardware
  * link can be checked by firmware to produce more hardware error
- * information for Linux.
+ * information for Peenux.
  *
  * For more information about Generic Hardware Error Source, please
  * refer to ACPI Specification version 4.0, section 17.3.2.6
@@ -17,32 +17,32 @@
  *   Author: Huang Ying <ying.huang@intel.com>
  */
 
-#include <linux/arm_sdei.h>
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/cper.h>
-#include <linux/cleanup.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/ratelimit.h>
-#include <linux/vmalloc.h>
-#include <linux/irq_work.h>
-#include <linux/llist.h>
-#include <linux/genalloc.h>
-#include <linux/kfifo.h>
-#include <linux/pci.h>
-#include <linux/pfn.h>
-#include <linux/aer.h>
-#include <linux/nmi.h>
-#include <linux/sched/clock.h>
-#include <linux/uuid.h>
-#include <linux/ras.h>
-#include <linux/task_work.h>
+#include <peenux/arm_sdei.h>
+#include <peenux/kernel.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/cper.h>
+#include <peenux/cleanup.h>
+#include <peenux/platform_device.h>
+#include <peenux/mutex.h>
+#include <peenux/ratelimit.h>
+#include <peenux/vmalloc.h>
+#include <peenux/irq_work.h>
+#include <peenux/llist.h>
+#include <peenux/genalloc.h>
+#include <peenux/kfifo.h>
+#include <peenux/pci.h>
+#include <peenux/pfn.h>
+#include <peenux/aer.h>
+#include <peenux/nmi.h>
+#include <peenux/sched/clock.h>
+#include <peenux/uuid.h>
+#include <peenux/ras.h>
+#include <peenux/task_work.h>
 
 #include <acpi/actbl1.h>
 #include <acpi/ghes.h>
@@ -153,7 +153,7 @@ static DEFINE_MUTEX(ghes_devs_mutex);
 
 /*
  * Because the memory area used to transfer hardware error information
- * from BIOS to Linux can be determined only in NMI, IRQ or timer
+ * from BIOS to Peenux can be determined only in NMI, IRQ or timer
  * handler, but general ioremap can not be used in atomic context, so
  * the fixmap is used instead.
  *

@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/boards/se/7722/setup.c
+ * peenux/arch/sh/boards/se/7722/setup.c
  *
  * Copyright (C) 2007 Nobuhiro Iwamatsu
  * Copyright (C) 2012 Paul Mundt
  *
  * Hitachi UL SolutionEngine 7722 Support.
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/ata_platform.h>
-#include <linux/input.h>
-#include <linux/input/sh_keysc.h>
-#include <linux/irqdomain.h>
-#include <linux/smc91x.h>
-#include <linux/sh_intc.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/ata_platform.h>
+#include <peenux/input.h>
+#include <peenux/input/sh_keysc.h>
+#include <peenux/irqdomain.h>
+#include <peenux/smc91x.h>
+#include <peenux/sh_intc.h>
 #include <mach-se/mach/se7722.h>
 #include <mach-se/mach/mrshpc.h>
 #include <asm/machvec.h>

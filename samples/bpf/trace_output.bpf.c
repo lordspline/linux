@@ -1,5 +1,5 @@
 #include "vmlinux.h"
-#include <linux/version.h>
+#include <peenux/version.h>
 #include <bpf/bpf_helpers.h>
 
 struct {

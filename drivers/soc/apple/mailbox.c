@@ -2,7 +2,7 @@
 /*
  * Apple mailbox driver
  *
- * Copyright The Asahi Linux Contributors
+ * Copyright The Asahi Peenux Contributors
  *
  * This driver adds support for two mailbox variants (called ASC and M3 by
  * Apple) found in Apple SoCs such as the M1. It consists of two FIFOs used to
@@ -16,20 +16,20 @@
  * other direction.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 #include "mailbox.h"
 
 #define APPLE_ASC_MBOX_CONTROL_FULL BIT(16)

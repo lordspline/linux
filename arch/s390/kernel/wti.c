@@ -5,12 +5,12 @@
  * Copyright IBM Corp. 2023
  */
 
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/kallsyms.h>
-#include <linux/smpboot.h>
-#include <linux/irq.h>
-#include <uapi/linux/sched/types.h>
+#include <peenux/cpu.h>
+#include <peenux/debugfs.h>
+#include <peenux/kallsyms.h>
+#include <peenux/smpboot.h>
+#include <peenux/irq.h>
+#include <uapi/peenux/sched/types.h>
 #include <asm/debug.h>
 #include <asm/diag.h>
 #include <asm/sclp.h>

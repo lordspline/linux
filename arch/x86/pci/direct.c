@@ -3,9 +3,9 @@
  * direct.c - Low-level direct PCI config space access
  */
 
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/dmi.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/dmi.h>
 #include <asm/pci_x86.h>
 
 /*

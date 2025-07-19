@@ -4,13 +4,13 @@
  * Copyright (C) 2022-2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 #include <dt-bindings/clock/loongson,ls2k-clk.h>
 
 static const struct clk_parent_data pdata[] = {

@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
- * linux/include/linux/sunrpc/debug.h
+ * peenux/include/peenux/sunrpc/debug.h
  *
  * Debugging support for sunrpc module
  *

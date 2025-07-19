@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
- * Copyright (C) 2014 Oleksij Rempel <linux@rempel-privat.de>
+ * Copyright (C) 2014 Oleksij Rempel <peenux@rempel-privat.de>
  *	Add Alphascale ASM9260 support.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/stmp_device.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/stmp_device.h>
 #include <asm/exception.h>
 
 #include "alphascale_asm9260-icoll.h"

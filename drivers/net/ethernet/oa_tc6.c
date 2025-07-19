@@ -5,11 +5,11 @@
  * Author: Parthiban Veerasooran <parthiban.veerasooran@microchip.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/iopoll.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
-#include <linux/oa_tc6.h>
+#include <peenux/bitfield.h>
+#include <peenux/iopoll.h>
+#include <peenux/mdio.h>
+#include <peenux/phy.h>
+#include <peenux/oa_tc6.h>
 
 /* OPEN Alliance TC6 registers */
 /* Standard Capabilities Register */

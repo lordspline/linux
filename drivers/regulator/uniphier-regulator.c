@@ -4,15 +4,15 @@
 // Copyright 2018 Socionext Inc.
 // Author: Kunihiko Hayashi <hayashi.kunihiko@socionext.com>
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/reset.h>
 
 #define MAX_CLKS	2
 #define MAX_RSTS	2

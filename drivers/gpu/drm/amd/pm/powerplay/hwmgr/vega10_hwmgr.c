@@ -21,10 +21,10 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
 #include "hwmgr.h"
 #include "amd_powerplay.h"

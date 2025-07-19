@@ -4,11 +4,11 @@
  * Copyright (C) 2022 Marvell.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "mcs.h"
 #include "mcs_reg.h"

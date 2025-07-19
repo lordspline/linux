@@ -6,8 +6,8 @@
 #ifndef __IRIS_CORE_H__
 #define __IRIS_CORE_H__
 
-#include <linux/types.h>
-#include <linux/pm_domain.h>
+#include <peenux/types.h>
+#include <peenux/pm_domain.h>
 #include <media/v4l2-device.h>
 
 #include "iris_hfi_common.h"

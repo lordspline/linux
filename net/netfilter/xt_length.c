@@ -3,13 +3,13 @@
 /* (C) 1999-2001 James Morris <jmorros@intercode.com.au>
  */
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/ipv6.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/ipv6.h>
 #include <net/ip.h>
 
-#include <linux/netfilter/xt_length.h>
-#include <linux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_length.h>
+#include <peenux/netfilter/x_tables.h>
 
 MODULE_AUTHOR("James Morris <jmorris@intercode.com.au>");
 MODULE_DESCRIPTION("Xtables: Packet length (Layer3,4,5) match");

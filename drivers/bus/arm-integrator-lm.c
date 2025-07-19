@@ -8,18 +8,18 @@
  * hardware.
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/bitops.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
 
 /* All information about the connected logic modules are in here */
 #define INTEGRATOR_SC_DEC_OFFSET	0x10

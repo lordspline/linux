@@ -4,10 +4,10 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/kthread.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/scatterlist.h>
+#include <peenux/kthread.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/scatterlist.h>
 
 #include "usbip_common.h"
 #include "stub.h"

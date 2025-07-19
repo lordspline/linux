@@ -2,14 +2,14 @@
 #ifndef _LINUX_SWAPOPS_H
 #define _LINUX_SWAPOPS_H
 
-#include <linux/radix-tree.h>
-#include <linux/bug.h>
-#include <linux/mm_types.h>
+#include <peenux/radix-tree.h>
+#include <peenux/bug.h>
+#include <peenux/mm_types.h>
 
 #ifdef CONFIG_MMU
 
 #ifdef CONFIG_SWAP
-#include <linux/swapfile.h>
+#include <peenux/swapfile.h>
 #endif	/* CONFIG_SWAP */
 
 /*

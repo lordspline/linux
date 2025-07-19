@@ -16,16 +16,16 @@
 
 #define pr_fmt(fmt) "dvb_ca_en50221: " fmt
 
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/nospec.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/sched/signal.h>
-#include <linux/kthread.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/nospec.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/sched/signal.h>
+#include <peenux/kthread.h>
 
 #include <media/dvb_ca_en50221.h>
 #include <media/dvb_ringbuffer.h>

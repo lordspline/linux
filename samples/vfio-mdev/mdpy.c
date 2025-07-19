@@ -15,17 +15,17 @@
  * it under the terms of the GNU General Public License version 2 as
  * published by the Free Software Foundation.
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/cdev.h>
-#include <linux/vfio.h>
-#include <linux/iommu.h>
-#include <linux/sysfs.h>
-#include <linux/mdev.h>
-#include <linux/pci.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/cdev.h>
+#include <peenux/vfio.h>
+#include <peenux/iommu.h>
+#include <peenux/sysfs.h>
+#include <peenux/mdev.h>
+#include <peenux/pci.h>
 #include <drm/drm_fourcc.h>
 #include "mdpy-defs.h"
 

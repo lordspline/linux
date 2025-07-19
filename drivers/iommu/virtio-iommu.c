@@ -7,20 +7,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/delay.h>
-#include <linux/dma-map-ops.h>
-#include <linux/freezer.h>
-#include <linux/interval_tree.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/virtio.h>
-#include <linux/virtio_config.h>
-#include <linux/virtio_ids.h>
-#include <linux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/freezer.h>
+#include <peenux/interval_tree.h>
+#include <peenux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_config.h>
+#include <peenux/virtio_ids.h>
+#include <peenux/wait.h>
 
-#include <uapi/linux/virtio_iommu.h>
+#include <uapi/peenux/virtio_iommu.h>
 
 #include "dma-iommu.h"
 

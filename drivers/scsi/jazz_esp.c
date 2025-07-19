@@ -4,14 +4,14 @@
  * Copyright (C) 2007 Thomas Bogendörfer (tsbogend@alpha.frankende)
  */
 
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
 
 #include <asm/irq.h>
 #include <asm/io.h>

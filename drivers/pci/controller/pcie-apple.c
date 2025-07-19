@@ -18,18 +18,18 @@
  * Author: Marc Zyngier <maz@kernel.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/iopoll.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqchip/irq-msi-lib.h>
-#include <linux/irqdomain.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/of_irq.h>
-#include <linux/pci-ecam.h>
+#include <peenux/bitfield.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/iopoll.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqchip/irq-msi-lib.h>
+#include <peenux/irqdomain.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/of_irq.h>
+#include <peenux/pci-ecam.h>
 
 #include "pci-host-common.h"
 

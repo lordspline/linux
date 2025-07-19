@@ -19,18 +19,18 @@
  *              Daniele Bellucci <bellucda@tiscali.it>
  */
 
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/miscdevice.h>
-#include <linux/kmod.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kthread.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/miscdevice.h>
+#include <peenux/kmod.h>
+#include <peenux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/envctrl.h>
 #include <asm/io.h>
 

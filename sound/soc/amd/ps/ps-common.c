@@ -7,14 +7,14 @@
  * Authors: Vijendar Mukunda <Vijendar.Mukunda@amd.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 #include <sound/pcm_params.h>
 
 #include "acp63.h"

@@ -3,10 +3,10 @@
  * Copyright © 2008,2010 Intel Corporation
  */
 
-#include <linux/dma-resv.h>
-#include <linux/highmem.h>
-#include <linux/sync_file.h>
-#include <linux/uaccess.h>
+#include <peenux/dma-resv.h>
+#include <peenux/highmem.h>
+#include <peenux/sync_file.h>
+#include <peenux/uaccess.h>
 
 #include <drm/drm_auth.h>
 #include <drm/drm_syncobj.h>

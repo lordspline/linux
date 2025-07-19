@@ -6,7 +6,7 @@
  ******************************************************************************/
 #include <drv_types.h>
 #include <hal_data.h>
-#include <linux/jiffies.h>
+#include <peenux/jiffies.h>
 
 
 /* Define global variables */

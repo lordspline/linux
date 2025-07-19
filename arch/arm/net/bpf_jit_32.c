@@ -7,16 +7,16 @@
  * Copyright (c) 2011 Mircea Gherzan <mgherzan@gmail.com>
  */
 
-#include <linux/bpf.h>
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/filter.h>
-#include <linux/netdevice.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/if_vlan.h>
-#include <linux/math64.h>
+#include <peenux/bpf.h>
+#include <peenux/bitops.h>
+#include <peenux/compiler.h>
+#include <peenux/errno.h>
+#include <peenux/filter.h>
+#include <peenux/netdevice.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/if_vlan.h>
+#include <peenux/math64.h>
 
 #include <asm/cacheflush.h>
 #include <asm/hwcap.h>

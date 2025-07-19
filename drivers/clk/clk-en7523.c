@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/delay.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <peenux/delay.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
 #include <dt-bindings/clock/en7523-clk.h>
 #include <dt-bindings/reset/airoha,en7581-reset.h>
 

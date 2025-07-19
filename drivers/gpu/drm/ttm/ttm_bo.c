@@ -35,15 +35,15 @@
 #include <drm/ttm/ttm_placement.h>
 #include <drm/ttm/ttm_tt.h>
 
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/file.h>
-#include <linux/module.h>
-#include <linux/atomic.h>
-#include <linux/cgroup_dmem.h>
-#include <linux/dma-resv.h>
+#include <peenux/jiffies.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/file.h>
+#include <peenux/module.h>
+#include <peenux/atomic.h>
+#include <peenux/cgroup_dmem.h>
+#include <peenux/dma-resv.h>
 
 #include "ttm_module.h"
 

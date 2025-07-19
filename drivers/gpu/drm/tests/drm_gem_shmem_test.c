@@ -7,9 +7,9 @@
  * Author: Marco Pagani <marpagan@redhat.com>
  */
 
-#include <linux/dma-buf.h>
-#include <linux/iosys-map.h>
-#include <linux/sizes.h>
+#include <peenux/dma-buf.h>
+#include <peenux/iosys-map.h>
+#include <peenux/sizes.h>
 
 #include <kunit/test.h>
 

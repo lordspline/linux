@@ -13,7 +13,7 @@
  *	Based on source code of the following authors:
  *	  Matt Domsch <Matt_Domsch@dell.com>,
  *	  Rob Radez <rob@osinvestor.com>,
- *	  Rusty Lynch <rusty@linux.co.intel.com>
+ *	  Rusty Lynch <rusty@peenux.co.intel.com>
  *	  Satyam Sharma <satyam@infradead.org>
  *	  Randy Dunlap <randy.dunlap@oracle.com>
  *
@@ -24,18 +24,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>	/* For EXPORT_SYMBOL/module stuff/... */
-#include <linux/types.h>	/* For standard types */
-#include <linux/errno.h>	/* For the -ENODEV/... values */
-#include <linux/kernel.h>	/* For printk/panic/... */
-#include <linux/reboot.h>	/* For restart handler */
-#include <linux/watchdog.h>	/* For watchdog specific items */
-#include <linux/init.h>		/* For __init/__exit/... */
-#include <linux/idr.h>		/* For ida_* macros */
-#include <linux/err.h>		/* For IS_ERR macros */
-#include <linux/of.h>		/* For of_alias_get_id */
-#include <linux/property.h>	/* For device_property_read_u32 */
-#include <linux/suspend.h>
+#include <peenux/module.h>	/* For EXPORT_SYMBOL/module stuff/... */
+#include <peenux/types.h>	/* For standard types */
+#include <peenux/errno.h>	/* For the -ENODEV/... values */
+#include <peenux/kernel.h>	/* For printk/panic/... */
+#include <peenux/reboot.h>	/* For restart handler */
+#include <peenux/watchdog.h>	/* For watchdog specific items */
+#include <peenux/init.h>		/* For __init/__exit/... */
+#include <peenux/idr.h>		/* For ida_* macros */
+#include <peenux/err.h>		/* For IS_ERR macros */
+#include <peenux/of.h>		/* For of_alias_get_id */
+#include <peenux/property.h>	/* For device_property_read_u32 */
+#include <peenux/suspend.h>
 
 #include "watchdog_core.h"	/* For watchdog_dev_register/... */
 

@@ -6,14 +6,14 @@
  * (C) 2023 Romain Perier
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/regmap.h>
-#include <linux/pm.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/regmap.h>
+#include <peenux/pm.h>
 
 #define REG_CTRL	0x0
 #define REG_CTRL1	0x4

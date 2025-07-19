@@ -8,15 +8,15 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/mm.h>
 #include <asm/ptrace.h>
 #include <asm/processor.h>
-#include <linux/uaccess.h>
-#include <linux/smp.h>
-#include <linux/perf_event.h>
-#include <linux/extable.h>
+#include <peenux/uaccess.h>
+#include <peenux/smp.h>
+#include <peenux/perf_event.h>
+#include <peenux/extable.h>
 
 #include <asm/setup.h>
 

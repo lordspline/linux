@@ -8,11 +8,11 @@
  * Author: Jai Luthra <j-luthra@ti.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/dmaengine.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 #include <media/mipi-csi2.h>
 #include <media/v4l2-device.h>

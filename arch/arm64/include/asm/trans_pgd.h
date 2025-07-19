@@ -8,8 +8,8 @@
 #ifndef _ASM_TRANS_TABLE_H
 #define _ASM_TRANS_TABLE_H
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/types.h>
 #include <asm/pgtable-types.h>
 
 /*

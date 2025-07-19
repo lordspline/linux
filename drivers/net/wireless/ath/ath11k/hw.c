@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2018-2020 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2020 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2023 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/bitfield.h>
 
 #include "core.h"
 #include "ce.h"

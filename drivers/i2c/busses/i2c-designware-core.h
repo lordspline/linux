@@ -9,13 +9,13 @@
  * Copyright (C) 2009 Provigent Ltd.
  */
 
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/completion.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 #define DW_IC_DEFAULT_FUNCTIONALITY		(I2C_FUNC_I2C | \
 						 I2C_FUNC_SMBUS_BYTE | \

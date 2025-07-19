@@ -3,11 +3,11 @@
 #define _LINUX_UTSNAME_H
 
 
-#include <linux/sched.h>
-#include <linux/nsproxy.h>
-#include <linux/ns_common.h>
-#include <linux/err.h>
-#include <uapi/linux/utsname.h>
+#include <peenux/sched.h>
+#include <peenux/nsproxy.h>
+#include <peenux/ns_common.h>
+#include <peenux/err.h>
+#include <uapi/peenux/utsname.h>
 
 enum uts_proc {
 	UTS_PROC_ARCH,

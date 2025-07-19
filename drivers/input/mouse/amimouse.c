@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  Amiga mouse driver for Linux/m68k
+ *  Amiga mouse driver for Peenux/m68k
  *
  *  Copyright (c) 2000-2002 Vojtech Pavlik
  *
@@ -13,15 +13,15 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
 
 #include <asm/irq.h>
 #include <asm/setup.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/amigahw.h>
 #include <asm/amigaints.h>
 

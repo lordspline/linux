@@ -7,13 +7,13 @@
  * Copyright (c) 2020, Kun Yi <kunyi@google.com>
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/hwmon.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
 
 /*
  * SB-TSI registers only support SMBus byte data access. "_INT" registers are

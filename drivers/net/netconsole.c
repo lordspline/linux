@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/net/netconsole.c
+ *  peenux/drivers/net/netconsole.c
  *
  *  Copyright (C) 2001  Ingo Molnar <mingo@redhat.com>
  *
@@ -24,21 +24,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/console.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/netpoll.h>
-#include <linux/inet.h>
-#include <linux/configfs.h>
-#include <linux/etherdevice.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/utsname.h>
-#include <linux/rtnetlink.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/console.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/netpoll.h>
+#include <peenux/inet.h>
+#include <peenux/configfs.h>
+#include <peenux/etherdevice.h>
+#include <peenux/u64_stats_sync.h>
+#include <peenux/utsname.h>
+#include <peenux/rtnetlink.h>
 
 MODULE_AUTHOR("Matt Mackall <mpm@selenic.com>");
 MODULE_DESCRIPTION("Console driver for network interfaces");

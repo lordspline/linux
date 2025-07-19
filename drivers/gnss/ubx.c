@@ -5,15 +5,15 @@
  * Copyright (C) 2018 Johan Hovold <johan@kernel.org>
  */
 
-#include <linux/errno.h>
-#include <linux/gnss.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/serdev.h>
+#include <peenux/errno.h>
+#include <peenux/gnss.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/serdev.h>
 
 #include "serial.h"
 

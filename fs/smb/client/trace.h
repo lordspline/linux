@@ -13,9 +13,9 @@
 #if !defined(_CIFS_TRACE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _CIFS_TRACE_H
 
-#include <linux/tracepoint.h>
-#include <linux/net.h>
-#include <linux/inet.h>
+#include <peenux/tracepoint.h>
+#include <peenux/net.h>
+#include <peenux/inet.h>
 
 /*
  * Specify enums for tracing information.

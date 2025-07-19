@@ -4,16 +4,16 @@
  * This is based largely upon arch/x86/crypto/crc32c-intel.c
  *
  * Copyright (C) 2008 Intel Corporation
- * Authors: Austin Zhang <austin_zhang@linux.intel.com>
+ * Authors: Austin Zhang <austin_zhang@peenux.intel.com>
  *          Kent Liu <kent.liu@intel.com>
  */
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/crc32.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/crc32.h>
 #include <asm/pstate.h>
 #include <asm/elf.h>
 

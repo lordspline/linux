@@ -5,21 +5,21 @@
  * Copyright (C) 2018 Johan Hovold <johan@kernel.org>
  */
 
-#include <linux/errno.h>
-#include <linux/gnss.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched.h>
-#include <linux/serdev.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <peenux/errno.h>
+#include <peenux/gnss.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/sched.h>
+#include <peenux/serdev.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
 
 #define SIRF_BOOT_DELAY			500
 #define SIRF_ON_OFF_PULSE_TIME		100

@@ -4,21 +4,21 @@
  *  JZ4740 Watchdog driver
  */
 
-#include <linux/mfd/ingenic-tcu.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/watchdog.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/device.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/mfd/ingenic-tcu.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/watchdog.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/device.h>
+#include <peenux/clk.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
 #define DEFAULT_HEARTBEAT 5
 #define MAX_HEARTBEAT     2048

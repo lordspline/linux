@@ -19,21 +19,21 @@
  *     - Add DRM helper function for cdns_mhdp_lower_link_rate
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/phy-dp.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/firmware.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/irq.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/phy/phy-dp.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/display/drm_hdcp_helper.h>
@@ -47,7 +47,7 @@
 #include <drm/drm_print.h>
 #include <drm/drm_probe_helper.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "cdns-mhdp8546-core.h"
 #include "cdns-mhdp8546-hdcp.h"

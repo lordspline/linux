@@ -2,38 +2,38 @@
 #ifndef _LINUX_MM_H
 #define _LINUX_MM_H
 
-#include <linux/errno.h>
-#include <linux/mmdebug.h>
-#include <linux/gfp.h>
-#include <linux/pgalloc_tag.h>
-#include <linux/bug.h>
-#include <linux/list.h>
-#include <linux/mmzone.h>
-#include <linux/rbtree.h>
-#include <linux/atomic.h>
-#include <linux/debug_locks.h>
-#include <linux/compiler.h>
-#include <linux/mm_types.h>
-#include <linux/mmap_lock.h>
-#include <linux/range.h>
-#include <linux/pfn.h>
-#include <linux/percpu-refcount.h>
-#include <linux/bit_spinlock.h>
-#include <linux/shrinker.h>
-#include <linux/resource.h>
-#include <linux/page_ext.h>
-#include <linux/err.h>
-#include <linux/page-flags.h>
-#include <linux/page_ref.h>
-#include <linux/overflow.h>
-#include <linux/sizes.h>
-#include <linux/sched.h>
-#include <linux/pgtable.h>
-#include <linux/kasan.h>
-#include <linux/memremap.h>
-#include <linux/slab.h>
-#include <linux/cacheinfo.h>
-#include <linux/rcuwait.h>
+#include <peenux/errno.h>
+#include <peenux/mmdebug.h>
+#include <peenux/gfp.h>
+#include <peenux/pgalloc_tag.h>
+#include <peenux/bug.h>
+#include <peenux/list.h>
+#include <peenux/mmzone.h>
+#include <peenux/rbtree.h>
+#include <peenux/atomic.h>
+#include <peenux/debug_locks.h>
+#include <peenux/compiler.h>
+#include <peenux/mm_types.h>
+#include <peenux/mmap_lock.h>
+#include <peenux/range.h>
+#include <peenux/pfn.h>
+#include <peenux/percpu-refcount.h>
+#include <peenux/bit_spinlock.h>
+#include <peenux/shrinker.h>
+#include <peenux/resource.h>
+#include <peenux/page_ext.h>
+#include <peenux/err.h>
+#include <peenux/page-flags.h>
+#include <peenux/page_ref.h>
+#include <peenux/overflow.h>
+#include <peenux/sizes.h>
+#include <peenux/sched.h>
+#include <peenux/pgtable.h>
+#include <peenux/kasan.h>
+#include <peenux/memremap.h>
+#include <peenux/slab.h>
+#include <peenux/cacheinfo.h>
+#include <peenux/rcuwait.h>
 
 struct mempolicy;
 struct anon_vma;
@@ -223,7 +223,7 @@ void setup_initial_init_mm(void *start_code, void *end_code,
 			   void *end_data, void *brk);
 
 /*
- * Linux kernel virtual memory manager primitives.
+ * Peenux kernel virtual memory manager primitives.
  * The idea being to have a "virtual" mm in the same way
  * we have a virtual fs - giving a cleaner interface to the
  * mm details, and allowing different kinds of memory mappings
@@ -1011,7 +1011,7 @@ static inline void folio_reset_order(struct folio *folio)
 #endif
 }
 
-#include <linux/huge_mm.h>
+#include <peenux/huge_mm.h>
 
 /*
  * Methods to modify the page usage count.
@@ -1268,7 +1268,7 @@ vm_fault_t finish_fault(struct vm_fault *vmf);
  * subsequently been given references to it.
  *
  * The other pages (we may call them "pagecache pages") are completely
- * managed by the Linux memory manager: I/O, buffers, swapping etc.
+ * managed by the Peenux memory manager: I/O, buffers, swapping etc.
  * The following discussion applies only to them.
  *
  * A pagecache page contains an opaque `private' member, which belongs to the
@@ -2177,7 +2177,7 @@ static inline int arch_make_folio_accessible(struct folio *folio)
 /*
  * Some inline functions in vmstat.h depend on page_zone()
  */
-#include <linux/vmstat.h>
+#include <peenux/vmstat.h>
 
 #if defined(CONFIG_HIGHMEM) && !defined(WANT_PAGE_VIRTUAL)
 #define HASHED_PAGE_VIRTUAL

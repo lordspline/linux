@@ -43,40 +43,40 @@
 /*#define DBGRBUF(info) dump_rbufs(info)*/
 
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/ioctl.h>
-#include <linux/termios.h>
-#include <linux/bitops.h>
-#include <linux/workqueue.h>
-#include <linux/hdlc.h>
-#include <linux/synclink.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial.h>
+#include <peenux/major.h>
+#include <peenux/string.h>
+#include <peenux/fcntl.h>
+#include <peenux/ptrace.h>
+#include <peenux/ioport.h>
+#include <peenux/mm.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/netdevice.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/ioctl.h>
+#include <peenux/termios.h>
+#include <peenux/bitops.h>
+#include <peenux/workqueue.h>
+#include <peenux/hdlc.h>
+#include <peenux/synclink.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/dma.h>
 #include <asm/types.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #if defined(CONFIG_HDLC) || (defined(CONFIG_HDLC_MODULE) && defined(CONFIG_SYNCLINK_GT_MODULE))
 #define SYNCLINK_GENERIC_HDLC 1

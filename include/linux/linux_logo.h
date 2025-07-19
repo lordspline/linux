@@ -3,16 +3,16 @@
 #define _LINUX_LINUX_LOGO_H
 
 /*
- *  Linux logo to be displayed on boot
+ *  Peenux logo to be displayed on boot
  *
  *  Copyright (C) 1996 Larry Ewing (lewing@isc.tamu.edu)
  *  Copyright (C) 1996,1998 Jakub Jelinek (jj@sunsite.mff.cuni.cz)
  *  Copyright (C) 2001 Greg Banks <gnb@alphalink.com.au>
  *  Copyright (C) 2001 Jan-Benedict Glaw <jbglaw@lug-owl.de>
- *  Copyright (C) 2003 Geert Uytterhoeven <geert@linux-m68k.org>
+ *  Copyright (C) 2003 Geert Uytterhoeven <geert@peenux-m68k.org>
  */
 
-#include <linux/init.h>
+#include <peenux/init.h>
 
 
 #define LINUX_LOGO_MONO		1	/* monochrome black/white */

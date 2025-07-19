@@ -17,11 +17,11 @@
  * project.
  */
 
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/sysfs.h>
-#include <linux/cpu.h>
-#include <linux/suspend.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/sysfs.h>
+#include <peenux/cpu.h>
+#include <peenux/suspend.h>
 #include <asm/dcr.h>
 #include <asm/dcr-native.h>
 #include <asm/machdep.h>

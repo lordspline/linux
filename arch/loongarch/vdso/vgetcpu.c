@@ -4,7 +4,7 @@
  */
 
 #include <asm/vdso.h>
-#include <linux/getcpu.h>
+#include <peenux/getcpu.h>
 
 static __always_inline int read_cpu_id(void)
 {

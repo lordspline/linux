@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- *  linux/drivers/mmc/host/sdhci.h - Secure Digital Host Controller Interface driver
+ *  peenux/drivers/mmc/host/sdhci.h - Secure Digital Host Controller Interface driver
  *
  * Header file for Host Controller registers and I/O accessors.
  *
@@ -9,15 +9,15 @@
 #ifndef __SDHCI_HW_H
 #define __SDHCI_HW_H
 
-#include <linux/bits.h>
-#include <linux/scatterlist.h>
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/leds.h>
-#include <linux/interrupt.h>
+#include <peenux/bits.h>
+#include <peenux/scatterlist.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
+#include <peenux/io.h>
+#include <peenux/leds.h>
+#include <peenux/interrupt.h>
 
-#include <linux/mmc/host.h>
+#include <peenux/mmc/host.h>
 
 /*
  * Controller registers

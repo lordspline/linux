@@ -6,37 +6,37 @@
  *
  * Author: dmitry pervushin <dimka@embeddedalley.com>
  *
- * Copyright 2014 Oleksij Rempel <linux@rempel-privat.de>
+ * Copyright 2014 Oleksij Rempel <peenux@rempel-privat.de>
  *	Provide Alphascale ASM9260 support.
  * Copyright 2008-2010 Freescale Semiconductor, Inc.
  * Copyright 2008 Embedded Alley Solutions, Inc All Rights Reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/err.h>
-#include <linux/irq.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/err.h>
+#include <peenux/irq.h>
 #include "serial_mctrl_gpio.h"
 
 #define MXS_AUART_PORTS 5

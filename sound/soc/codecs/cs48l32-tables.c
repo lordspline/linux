@@ -5,12 +5,12 @@
 // Copyright (C) 2018, 2020, 2022, 2025 Cirrus Logic, Inc. and
 //               Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/array_size.h>
-#include <linux/build_bug.h>
-#include <linux/device.h>
-#include <linux/linear_range.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/array_size.h>
+#include <peenux/build_bug.h>
+#include <peenux/device.h>
+#include <peenux/linear_range.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/cs48l32.h>
 #include <sound/cs48l32_registers.h>
 

@@ -25,12 +25,12 @@
  * - The driver doesn't implement .get_state().
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/mfd/twl.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/slab.h>
 
 /*
  * This driver handles the PWM driven LED terminals of TWL4030 and TWL6030.

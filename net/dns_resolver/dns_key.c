@@ -21,15 +21,15 @@
  *   You should have received a copy of the GNU Lesser General Public License
  *   along with this library; if not, see <http://www.gnu.org/licenses/>.
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/keyctl.h>
-#include <linux/err.h>
-#include <linux/seq_file.h>
-#include <linux/dns_resolver.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/keyctl.h>
+#include <peenux/err.h>
+#include <peenux/seq_file.h>
+#include <peenux/dns_resolver.h>
 #include <keys/dns_resolver-type.h>
 #include <keys/user-type.h>
 #include "internal.h"

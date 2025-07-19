@@ -10,19 +10,19 @@
  * information.
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/backend.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/units.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/iio.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/units.h>
 
 #define AD7625_INTERNAL_REF_MV 4096
 #define AD7960_MAX_NBW_FREQ (2 * MEGA)

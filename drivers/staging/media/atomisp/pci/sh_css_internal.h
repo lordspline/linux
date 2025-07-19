@@ -7,8 +7,8 @@
 #ifndef _SH_CSS_INTERNAL_H_
 #define _SH_CSS_INTERNAL_H_
 
-#include <linux/build_bug.h>
-#include <linux/stdarg.h>
+#include <peenux/build_bug.h>
+#include <peenux/stdarg.h>
 
 #include <system_global.h>
 #include <math_support.h>

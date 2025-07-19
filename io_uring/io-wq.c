@@ -5,19 +5,19 @@
  * Copyright (C) 2019 Jens Axboe
  *
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/sched/signal.h>
-#include <linux/percpu.h>
-#include <linux/slab.h>
-#include <linux/rculist_nulls.h>
-#include <linux/cpu.h>
-#include <linux/cpuset.h>
-#include <linux/task_work.h>
-#include <linux/audit.h>
-#include <linux/mmu_context.h>
-#include <uapi/linux/io_uring.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/sched/signal.h>
+#include <peenux/percpu.h>
+#include <peenux/slab.h>
+#include <peenux/rculist_nulls.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuset.h>
+#include <peenux/task_work.h>
+#include <peenux/audit.h>
+#include <peenux/mmu_context.h>
+#include <uapi/peenux/io_uring.h>
 
 #include "io-wq.h"
 #include "slist.h"

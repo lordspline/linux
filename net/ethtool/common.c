@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/ethtool_netlink.h>
-#include <linux/net_tstamp.h>
-#include <linux/phy.h>
-#include <linux/rtnetlink.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/phy_link_topology.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/phy.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/phy_link_topology.h>
 #include <net/netdev_queues.h>
 
 #include "netlink.h"

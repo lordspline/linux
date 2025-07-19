@@ -12,11 +12,11 @@
  */
 #include <errno.h>
 #include <inttypes.h>
-#include <linux/compiler.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/stringify.h>
-#include <linux/zalloc.h>
+#include <peenux/compiler.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/stringify.h>
+#include <peenux/zalloc.h>
 #include <asm/bug.h>
 #include <sys/param.h>
 #include "debug.h"

@@ -12,27 +12,27 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/fsi.h>
-#include <linux/fsi-sbefifo.h>
-#include <linux/kernel.h>
-#include <linux/cdev.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/uio.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/fsi.h>
+#include <peenux/fsi-sbefifo.h>
+#include <peenux/kernel.h>
+#include <peenux/cdev.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/delay.h>
+#include <peenux/uio.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mm.h>
 
-#include <uapi/linux/fsi.h>
+#include <uapi/peenux/fsi.h>
 
 /*
  * The SBEFIFO is a pipe-like FSI device for communicating with
@@ -255,7 +255,7 @@ int sbefifo_parse_status(struct device *dev, u16 cmd, __be32 *response,
 
 	/*
 	 * Primary status don't have the top bit set, so can't be confused with
-	 * Linux negative error codes, so return the status word whole.
+	 * Peenux negative error codes, so return the status word whole.
 	 */
 	return s1;
 }
@@ -1153,7 +1153,7 @@ module_init(sbefifo_init);
 module_exit(sbefifo_exit);
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Brad Bishop <bradleyb@fuzziesquirrel.com>");
-MODULE_AUTHOR("Eddie James <eajames@linux.vnet.ibm.com>");
+MODULE_AUTHOR("Eddie James <eajames@peenux.vnet.ibm.com>");
 MODULE_AUTHOR("Andrew Jeffery <andrew@aj.id.au>");
 MODULE_AUTHOR("Benjamin Herrenschmidt <benh@kernel.crashing.org>");
-MODULE_DESCRIPTION("Linux device interface to the POWER Self Boot Engine");
+MODULE_DESCRIPTION("Peenux device interface to the POWER Self Boot Engine");

@@ -27,9 +27,9 @@
 #include "subvolume.h"
 #include "trace.h"
 
-#include <linux/moduleparam.h>
-#include <linux/random.h>
-#include <linux/sched/mm.h>
+#include <peenux/moduleparam.h>
+#include <peenux/random.h>
+#include <peenux/sched/mm.h>
 
 #ifdef CONFIG_BCACHEFS_DEBUG
 static unsigned bch2_read_corrupt_ratio;

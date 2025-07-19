@@ -10,14 +10,14 @@
  *   https://www.analog.com/en/products/ds2482-100.html
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 
 /*
  * Allow the active pullup to be disabled, default is enabled.

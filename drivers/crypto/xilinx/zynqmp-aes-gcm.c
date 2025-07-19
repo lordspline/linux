@@ -9,14 +9,14 @@
 #include <crypto/gcm.h>
 #include <crypto/internal/aead.h>
 #include <crypto/scatterwalk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/firmware/xlnx-zynqmp.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
 
 #define ZYNQMP_DMA_BIT_MASK	32U
 

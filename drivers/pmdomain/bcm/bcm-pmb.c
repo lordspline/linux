@@ -5,12 +5,12 @@
  */
 
 #include <dt-bindings/soc/bcm-pmb.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/reset/bcm63xx_pmb.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/reset/bcm63xx_pmb.h>
 
 #define BPCM_ID_REG					0x00
 #define BPCM_CAPABILITIES				0x04

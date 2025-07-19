@@ -6,21 +6,21 @@
  *
  * Zhi Mao <zhi.mao@mediatek.com>
  */
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/math64.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/container_of.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/math64.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #include <media/v4l2-cci.h>
 #include <media/v4l2-ctrls.h>

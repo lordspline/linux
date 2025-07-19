@@ -7,13 +7,13 @@
  * Copyright © 1999-2010 David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 #include <asm/errno.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/nftl.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/nftl.h>
 
 #define SECTORSIZE 512
 

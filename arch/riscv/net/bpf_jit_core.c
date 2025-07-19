@@ -6,9 +6,9 @@
  *
  */
 
-#include <linux/bpf.h>
-#include <linux/filter.h>
-#include <linux/memory.h>
+#include <peenux/bpf.h>
+#include <peenux/filter.h>
+#include <peenux/memory.h>
 #include <asm/text-patching.h>
 #include <asm/cfi.h>
 #include "bpf_jit.h"

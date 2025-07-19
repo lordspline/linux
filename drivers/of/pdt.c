@@ -11,13 +11,13 @@
  *  Adapted for multiple architectures by Andres Salomon <dilinger@queued.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_pdt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_pdt.h>
 
 #include "of_private.h"
 

@@ -5,13 +5,13 @@
  *  Copyright (c) 2011 Frederick van der Wyck <fvanderwyck@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/backlight.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/backlight.h>
+#include <peenux/dmi.h>
+#include <peenux/acpi.h>
 
 #define SAMSUNGQ10_BL_MAX_INTENSITY 7
 

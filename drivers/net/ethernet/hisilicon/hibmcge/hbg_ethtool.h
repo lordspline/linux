@@ -4,7 +4,7 @@
 #ifndef __HBG_ETHTOOL_H
 #define __HBG_ETHTOOL_H
 
-#include <linux/netdevice.h>
+#include <peenux/netdevice.h>
 
 #define HBG_STATS_FIELD_OFF(f) (offsetof(struct hbg_stats, f))
 #define HBG_STATS_R(p, offset) (*(u64 *)((u8 *)(p) + (offset)))

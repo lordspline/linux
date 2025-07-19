@@ -7,15 +7,15 @@
  * Written by Ryusuke Konishi and Seiji Kihara.
  */
 
-#include <linux/pagemap.h>
-#include <linux/writeback.h>
-#include <linux/swap.h>
-#include <linux/bitops.h>
-#include <linux/page-flags.h>
-#include <linux/list.h>
-#include <linux/highmem.h>
-#include <linux/pagevec.h>
-#include <linux/gfp.h>
+#include <peenux/pagemap.h>
+#include <peenux/writeback.h>
+#include <peenux/swap.h>
+#include <peenux/bitops.h>
+#include <peenux/page-flags.h>
+#include <peenux/list.h>
+#include <peenux/highmem.h>
+#include <peenux/pagevec.h>
+#include <peenux/gfp.h>
 #include "nilfs.h"
 #include "page.h"
 #include "mdt.h"

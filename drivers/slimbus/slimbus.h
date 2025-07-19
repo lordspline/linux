@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2011-2017, The Linux Foundation
+ * Copyright (c) 2011-2017, The Peenux Foundation
  */
 
 #ifndef _DRIVERS_SLIMBUS_H
 #define _DRIVERS_SLIMBUS_H
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/completion.h>
-#include <linux/slimbus.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/completion.h>
+#include <peenux/slimbus.h>
 
 /* Standard values per SLIMbus spec needed by controllers and devices */
 #define SLIM_CL_PER_SUPERFRAME		6144

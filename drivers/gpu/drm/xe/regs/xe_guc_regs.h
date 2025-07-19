@@ -6,8 +6,8 @@
 #ifndef _XE_GUC_REGS_H_
 #define _XE_GUC_REGS_H_
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 
 #include "regs/xe_reg_defs.h"
 

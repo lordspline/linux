@@ -9,16 +9,16 @@
  * Copyright (c) 2008 STMicroelectronics Limited
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/moduleparam.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
 
 #define MII_XCIIS	0x11	/* Configuration Info IRQ & Status Reg */
 #define MII_XIE		0x12	/* Interrupt Enable Register */

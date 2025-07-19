@@ -9,16 +9,16 @@
  * Copyright (C) 2008 Wind River Systems
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/libata.h>
-#include <linux/hrtimer.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/libata.h>
+#include <peenux/hrtimer.h>
+#include <peenux/slab.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 #include <scsi/scsi_host.h>
 #include <trace/events/libata.h>
 #include <asm/byteorder.h>

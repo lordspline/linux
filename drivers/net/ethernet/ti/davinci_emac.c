@@ -10,47 +10,47 @@
  * History:
  * 0-5 A number of folks worked on this driver in bits and pieces but the major
  *     contribution came from Suraj Iyer and Anant Gole
- * 6.0 Anant Gole - rewrote the driver as per Linux conventions
+ * 6.0 Anant Gole - rewrote the driver as per Peenux conventions
  * 6.1 Chaithrika U S - added support for Gigabit and RMII features,
  *     PHY layer usage
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/ethtool.h>
-#include <linux/highmem.h>
-#include <linux/proc_fs.h>
-#include <linux/ctype.h>
-#include <linux/spinlock.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/semaphore.h>
-#include <linux/phy.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/pm_runtime.h>
-#include <linux/davinci_emac.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/errno.h>
+#include <peenux/in.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/ethtool.h>
+#include <peenux/highmem.h>
+#include <peenux/proc_fs.h>
+#include <peenux/ctype.h>
+#include <peenux/spinlock.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/semaphore.h>
+#include <peenux/phy.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/davinci_emac.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/mfd/syscon.h>
 
 #include <asm/irq.h>
 #include <asm/page.h>
@@ -84,7 +84,7 @@ MODULE_PARM_DESC(debug_level, "DaVinci EMAC debug level (NETIF_MSG bits)");
 #define EMAC_MINOR_VERSION	1
 #define EMAC_MODULE_VERSION	"6.1"
 MODULE_VERSION(EMAC_MODULE_VERSION);
-static const char emac_version_string[] = "TI DaVinci EMAC Linux v6.1";
+static const char emac_version_string[] = "TI DaVinci EMAC Peenux v6.1";
 
 /* Configuration items */
 #define EMAC_DEF_PASS_CRC		(0) /* Do not pass CRC up to frames */
@@ -1363,7 +1363,7 @@ static void emac_adjust_link(struct net_device *ndev)
 }
 
 /*************************************************************************
- *  Linux Driver Model
+ *  Peenux Driver Model
  *************************************************************************/
 
 /**

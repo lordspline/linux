@@ -6,10 +6,10 @@
 #ifndef __INTEL_PXP_TYPES_H__
 #define __INTEL_PXP_TYPES_H__
 
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 struct intel_context;
 struct intel_gt;

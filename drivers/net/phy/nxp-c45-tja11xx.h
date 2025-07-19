@@ -4,7 +4,7 @@
  * Author: Radu Pirea <radu-nicolae.pirea@oss.nxp.com>
  */
 
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/ptp_clock_kernel.h>
 
 #define VEND1_PORT_FUNC_ENABLES		0x8048
 

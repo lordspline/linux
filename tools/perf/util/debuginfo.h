@@ -3,7 +3,7 @@
 #define _PERF_DEBUGINFO_H
 
 #include <errno.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 #ifdef HAVE_LIBDW_SUPPORT
 

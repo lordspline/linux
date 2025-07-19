@@ -4,12 +4,12 @@
  * Copyright (C) 2019 Samsung Electronics Co., Ltd.
  */
 
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
 
 #include "glob.h"
 #include "vfs_cache.h"

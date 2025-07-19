@@ -6,21 +6,21 @@
  * Copyright © 2018-2020 ANSSI
  */
 
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/compiler_types.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/lockdep.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/rbtree.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/bits.h>
+#include <peenux/bug.h>
+#include <peenux/cleanup.h>
+#include <peenux/compiler_types.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/lockdep.h>
+#include <peenux/mutex.h>
+#include <peenux/overflow.h>
+#include <peenux/rbtree.h>
+#include <peenux/refcount.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 #include "access.h"
 #include "audit.h"

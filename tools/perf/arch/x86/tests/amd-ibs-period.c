@@ -7,8 +7,8 @@
 #include <string.h>
 
 #include "arch-tests.h"
-#include "linux/perf_event.h"
-#include "linux/zalloc.h"
+#include "peenux/perf_event.h"
+#include "peenux/zalloc.h"
 #include "tests/tests.h"
 #include "../perf-sys.h"
 #include "pmu.h"

@@ -3,10 +3,10 @@
 #include "debug.h"
 #include "env.h"
 #include "util/header.h"
-#include "linux/compiler.h"
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include "peenux/compiler.h"
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
 #include "cgroup.h"
 #include <errno.h>
 #include <sys/utsname.h>

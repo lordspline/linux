@@ -4,20 +4,20 @@
  * Author: Guennadi Liakhovetski <g.liakhovetski@gmx.de>
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/dma/nbpfaxi.h>
 

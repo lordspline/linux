@@ -6,8 +6,8 @@
  * ARM Mali DP plane manipulation routines.
  */
 
-#include <linux/iommu.h>
-#include <linux/platform_device.h>
+#include <peenux/iommu.h>
+#include <peenux/platform_device.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

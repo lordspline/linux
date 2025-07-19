@@ -9,16 +9,16 @@
  */
 #define pr_fmt(fmt) "%s:%d " fmt, __func__, __LINE__
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 #include <media/v4l2-device.h>
 
 #include "media-dev.h"

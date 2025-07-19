@@ -38,15 +38,15 @@
  * in the corresponding device tree properties.
  */
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/delay.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/delay.h>
 
 #include "gpiolib.h"
 

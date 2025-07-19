@@ -2,18 +2,18 @@
 //
 // Copyright (C) 2021-2022 Samuel Holland <samuel@sholland.org>
 
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
+#include <peenux/crc8.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/matrix_keypad.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
 
 #define DRV_NAME			"pinephone-keyboard"
 

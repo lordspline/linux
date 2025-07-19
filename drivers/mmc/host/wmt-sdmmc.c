@@ -6,25 +6,25 @@
  *  Copyright (C) 2008 WonderMedia Technologies, Inc.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/errno.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/ioport.h>
+#include <peenux/errno.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
 
 #include <asm/byteorder.h>
 

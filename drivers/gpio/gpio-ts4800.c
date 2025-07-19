@@ -2,13 +2,13 @@
 /*
  * GPIO driver for the TS-4800 board
  *
- * Copyright (c) 2016 - Savoir-faire Linux
+ * Copyright (c) 2016 - Savoir-faire Peenux
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #define DEFAULT_PIN_NUMBER      16
 #define INPUT_REG_OFFSET        0x00

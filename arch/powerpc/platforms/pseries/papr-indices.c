@@ -2,18 +2,18 @@
 
 #define pr_fmt(fmt) "papr-indices: " fmt
 
-#include <linux/build_bug.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/lockdep.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/string_helpers.h>
-#include <linux/uaccess.h>
+#include <peenux/build_bug.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/lockdep.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/signal.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/string_helpers.h>
+#include <peenux/uaccess.h>
 #include <asm/machdep.h>
 #include <asm/rtas-work-area.h>
 #include <asm/rtas.h>

@@ -4,18 +4,18 @@
  * for more details.
  *
  * Copyright (C) 2011 Wind River Systems,
- *   written by Ralf Baechle <ralf@linux-mips.org>
+ *   written by Ralf Baechle <ralf@peenux-mips.org>
  */
-#include <linux/compiler.h>
-#include <linux/elf-randomize.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/export.h>
-#include <linux/personality.h>
-#include <linux/random.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
+#include <peenux/compiler.h>
+#include <peenux/elf-randomize.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/export.h>
+#include <peenux/personality.h>
+#include <peenux/random.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/mm.h>
 
 unsigned long shm_align_mask = PAGE_SIZE - 1;	/* Sane caches */
 EXPORT_SYMBOL(shm_align_mask);

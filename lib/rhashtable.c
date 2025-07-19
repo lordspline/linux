@@ -11,20 +11,20 @@
  * pointer as suggested by Josh Triplett
  */
 
-#include <linux/atomic.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/log2.h>
-#include <linux/sched.h>
-#include <linux/rculist.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/jhash.h>
-#include <linux/random.h>
-#include <linux/rhashtable.h>
-#include <linux/err.h>
-#include <linux/export.h>
+#include <peenux/atomic.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/log2.h>
+#include <peenux/sched.h>
+#include <peenux/rculist.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mm.h>
+#include <peenux/jhash.h>
+#include <peenux/random.h>
+#include <peenux/rhashtable.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
 
 #define HASH_DEFAULT_SIZE	64UL
 #define HASH_MIN_SIZE		4U

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/mm/mempool.c
+ *  peenux/mm/mempool.c
  *
  *  memory buffer pool support. Such pools are mostly used
  *  for guaranteed, deadlock-free memory allocations during
@@ -10,14 +10,14 @@
  *  debugging by David Rientjes, Copyright (C) 2015
  */
 
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/kasan.h>
-#include <linux/kmemleak.h>
-#include <linux/export.h>
-#include <linux/mempool.h>
-#include <linux/writeback.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/kasan.h>
+#include <peenux/kmemleak.h>
+#include <peenux/export.h>
+#include <peenux/mempool.h>
+#include <peenux/writeback.h>
 #include "slab.h"
 
 #ifdef CONFIG_SLUB_DEBUG_ON

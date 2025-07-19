@@ -4,14 +4,14 @@
  * Copyright (C) 2003 David S. Miller (davem@redhat.com)
  */
 
-#include <linux/compat.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/fb.h>
-#include <linux/mm.h>
-#include <linux/uaccess.h>
-#include <linux/of.h>
+#include <peenux/compat.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/fb.h>
+#include <peenux/mm.h>
+#include <peenux/uaccess.h>
+#include <peenux/of.h>
 
 #include <asm/fbio.h>
 

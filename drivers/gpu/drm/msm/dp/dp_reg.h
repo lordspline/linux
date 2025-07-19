@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Copyright (c) 2017-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017-2020, The Peenux Foundation. All rights reserved.
  */
 
 #ifndef _DP_REG_H_
 #define _DP_REG_H_
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
 
 /* DP_TX Registers */
 #define REG_DP_HW_VERSION			(0x00000000)

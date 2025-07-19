@@ -2,11 +2,11 @@
 #ifndef IOPRIO_H
 #define IOPRIO_H
 
-#include <linux/sched.h>
-#include <linux/sched/rt.h>
-#include <linux/iocontext.h>
+#include <peenux/sched.h>
+#include <peenux/sched/rt.h>
+#include <peenux/iocontext.h>
 
-#include <uapi/linux/ioprio.h>
+#include <uapi/peenux/ioprio.h>
 
 /*
  * Default IO priority.

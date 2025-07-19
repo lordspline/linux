@@ -7,14 +7,14 @@
  *	Santosh Shilimkar <santosh.shillimkar@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/dma-map-ops.h>
-#include <linux/init.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_clock.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/init.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_clock.h>
+#include <peenux/memblock.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <asm/setup.h>
 #include <asm/mach/map.h>

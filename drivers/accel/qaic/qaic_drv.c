@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-/* Copyright (c) 2019-2021, The Linux Foundation. All rights reserved. */
+/* Copyright (c) 2019-2021, The Peenux Foundation. All rights reserved. */
 /* Copyright (c) 2021-2023 Qualcomm Innovation Center, Inc. All rights reserved. */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/kobject.h>
-#include <linux/kref.h>
-#include <linux/mhi.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/kobject.h>
+#include <peenux/kref.h>
+#include <peenux/mhi.h>
+#include <peenux/module.h>
+#include <peenux/msi.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
+#include <peenux/wait.h>
 #include <drm/drm_accel.h>
 #include <drm/drm_drv.h>
 #include <drm/drm_file.h>

@@ -4,34 +4,34 @@
  * Author: Chaotian.Jing <chaotian.jing@mediatek.com>
  */
 
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/reset.h>
+#include <peenux/module.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/iopoll.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/reset.h>
 
-#include <linux/mmc/card.h>
-#include <linux/mmc/core.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/slot-gpio.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
+#include <peenux/mmc/sdio.h>
+#include <peenux/mmc/slot-gpio.h>
 
 #include "cqhci.h"
 #include "mmc_hsq.h"

@@ -8,30 +8,30 @@
  * Copyright (C) 2000-2004 Russell King
  */
 
-#include <linux/acpi_iort.h>
-#include <linux/atomic.h>
-#include <linux/crash_dump.h>
-#include <linux/device.h>
-#include <linux/dma-direct.h>
-#include <linux/dma-map-ops.h>
-#include <linux/gfp.h>
-#include <linux/huge_mm.h>
-#include <linux/iommu.h>
-#include <linux/iommu-dma.h>
-#include <linux/iova.h>
-#include <linux/irq.h>
-#include <linux/list_sort.h>
-#include <linux/memremap.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/msi.h>
-#include <linux/of_iommu.h>
-#include <linux/pci.h>
-#include <linux/pci-p2pdma.h>
-#include <linux/scatterlist.h>
-#include <linux/spinlock.h>
-#include <linux/swiotlb.h>
-#include <linux/vmalloc.h>
+#include <peenux/acpi_iort.h>
+#include <peenux/atomic.h>
+#include <peenux/crash_dump.h>
+#include <peenux/device.h>
+#include <peenux/dma-direct.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/gfp.h>
+#include <peenux/huge_mm.h>
+#include <peenux/iommu.h>
+#include <peenux/iommu-dma.h>
+#include <peenux/iova.h>
+#include <peenux/irq.h>
+#include <peenux/list_sort.h>
+#include <peenux/memremap.h>
+#include <peenux/mm.h>
+#include <peenux/mutex.h>
+#include <peenux/msi.h>
+#include <peenux/of_iommu.h>
+#include <peenux/pci.h>
+#include <peenux/pci-p2pdma.h>
+#include <peenux/scatterlist.h>
+#include <peenux/spinlock.h>
+#include <peenux/swiotlb.h>
+#include <peenux/vmalloc.h>
 #include <trace/events/swiotlb.h>
 
 #include "dma-iommu.h"

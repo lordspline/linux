@@ -7,15 +7,15 @@
  * Author: Jorge Eduardo Candelaria <jedu@slimlogic.co.uk>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/debugfs.h>
-#include <linux/gpio.h>
-#include <linux/mfd/tps65910.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/debugfs.h>
+#include <peenux/gpio.h>
+#include <peenux/mfd/tps65910.h>
 
 #define COMP1					0
 #define COMP2					1

@@ -6,12 +6,12 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
+#include <peenux/bitfield.h>
+#include <peenux/etherdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy.h>
 
 /* PHY ID */
 #define PHY_ID_MXL86110		0xc1335580

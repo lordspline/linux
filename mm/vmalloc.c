@@ -8,41 +8,41 @@
  *  Improving global KVA allocator, Uladzislau Rezki, Sony, May 2019
  */
 
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/highmem.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/set_memory.h>
-#include <linux/debugobjects.h>
-#include <linux/kallsyms.h>
-#include <linux/list.h>
-#include <linux/notifier.h>
-#include <linux/rbtree.h>
-#include <linux/xarray.h>
-#include <linux/io.h>
-#include <linux/rcupdate.h>
-#include <linux/pfn.h>
-#include <linux/kmemleak.h>
-#include <linux/atomic.h>
-#include <linux/compiler.h>
-#include <linux/memcontrol.h>
-#include <linux/llist.h>
-#include <linux/uio.h>
-#include <linux/bitops.h>
-#include <linux/rbtree_augmented.h>
-#include <linux/overflow.h>
-#include <linux/pgtable.h>
-#include <linux/hugetlb.h>
-#include <linux/sched/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/highmem.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/set_memory.h>
+#include <peenux/debugobjects.h>
+#include <peenux/kallsyms.h>
+#include <peenux/list.h>
+#include <peenux/notifier.h>
+#include <peenux/rbtree.h>
+#include <peenux/xarray.h>
+#include <peenux/io.h>
+#include <peenux/rcupdate.h>
+#include <peenux/pfn.h>
+#include <peenux/kmemleak.h>
+#include <peenux/atomic.h>
+#include <peenux/compiler.h>
+#include <peenux/memcontrol.h>
+#include <peenux/llist.h>
+#include <peenux/uio.h>
+#include <peenux/bitops.h>
+#include <peenux/rbtree_augmented.h>
+#include <peenux/overflow.h>
+#include <peenux/pgtable.h>
+#include <peenux/hugetlb.h>
+#include <peenux/sched/mm.h>
 #include <asm/tlbflush.h>
 #include <asm/shmparam.h>
-#include <linux/page_owner.h>
+#include <peenux/page_owner.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/vmalloc.h>
@@ -1611,7 +1611,7 @@ find_vmap_lowest_match(struct rb_root *root, unsigned long size,
 }
 
 #if DEBUG_AUGMENT_LOWEST_MATCH_CHECK
-#include <linux/random.h>
+#include <peenux/random.h>
 
 static struct vmap_area *
 find_vmap_lowest_linear_match(struct list_head *head, unsigned long size,

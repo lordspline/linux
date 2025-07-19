@@ -9,10 +9,10 @@
   Author: Giuseppe Cavallaro <peppe.cavallaro@st.com>
 *******************************************************************************/
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/delay.h>
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/delay.h>
+#include <peenux/ptp_clock_kernel.h>
 #include "common.h"
 #include "stmmac_ptp.h"
 #include "dwmac4.h"

@@ -12,15 +12,15 @@
  */
 
 #include <net/mac80211.h>
-#include <linux/netdevice.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
-#include <linux/bitmap.h>
-#include <linux/crc32.h>
+#include <peenux/netdevice.h>
+#include <peenux/export.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/skbuff.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/bitmap.h>
+#include <peenux/crc32.h>
 #include <net/net_namespace.h>
 #include <net/cfg80211.h>
 #include <net/rtnetlink.h>

@@ -13,9 +13,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/export.h>
-#include <linux/kernel_stat.h>
-#include <linux/slab.h>
+#include <peenux/export.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/slab.h>
 
 #include "cpufreq_governor.h"
 

@@ -3,29 +3,29 @@
  * Pinctrl GPIO driver for Intel Baytrail
  *
  * Copyright (c) 2012-2013, Intel Corporation
- * Author: Mathias Nyman <mathias.nyman@linux.intel.com>
+ * Author: Mathias Nyman <mathias.nyman@peenux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/string_helpers.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/seq_file.h>
+#include <peenux/string_helpers.h>
 
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
 
 #include "pinctrl-intel.h"
 

@@ -16,7 +16,7 @@
 		led1 {
 			label = "led1";
 			gpios = <&gpio4 3 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 	};
 };

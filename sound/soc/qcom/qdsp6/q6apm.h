@@ -1,19 +1,19 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef __Q6APM_H__
 #define __Q6APM_H__
-#include <linux/types.h>
-#include <linux/atomic.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/of.h>
-#include <linux/delay.h>
+#include <peenux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/of.h>
+#include <peenux/delay.h>
 #include <sound/soc.h>
-#include <linux/of_platform.h>
-#include <linux/jiffies.h>
-#include <linux/soc/qcom/apr.h>
+#include <peenux/of_platform.h>
+#include <peenux/jiffies.h>
+#include <peenux/soc/qcom/apr.h>
 #include "audioreach.h"
 
 #define APM_PORT_MAX		127

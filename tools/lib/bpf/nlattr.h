@@ -12,9 +12,9 @@
 #include <stdint.h>
 #include <string.h>
 #include <errno.h>
-#include <linux/netlink.h>
-#include <linux/rtnetlink.h>
-#include <linux/genetlink.h>
+#include <peenux/netlink.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/genetlink.h>
 
 /* avoid multiple definition of netlink features */
 #define __LINUX_NETLINK_H

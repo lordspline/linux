@@ -5,14 +5,14 @@
 //
 // Copyright(c) 2018-2022 Intel Corporation
 //
-// Author: Keyon Jie <yang.jie@linux.intel.com>
+// Author: Keyon Jie <yang.jie@peenux.intel.com>
 //
 
-#include <linux/unaligned.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/device.h>
+#include <peenux/unaligned.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
+#include <peenux/device.h>
 #include <sound/memalloc.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 #include "sof-utils.h"
 
 /*

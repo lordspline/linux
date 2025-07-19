@@ -6,21 +6,21 @@
 //  Kyungmin Park <kyungmin.park@samsung.com>
 //  Marek Szyprowski <m.szyprowski@samsung.com>
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/bits.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/max8998.h>
-#include <linux/mfd/max8998-private.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/bits.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/mfd/max8998.h>
+#include <peenux/mfd/max8998-private.h>
 
 struct max8998_data {
 	struct device		*dev;

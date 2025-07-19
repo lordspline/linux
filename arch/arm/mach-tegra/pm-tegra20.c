@@ -3,7 +3,7 @@
  * Copyright (c) 2013, NVIDIA Corporation. All rights reserved.
  */
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include "pm.h"
 

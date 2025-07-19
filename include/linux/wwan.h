@@ -4,9 +4,9 @@
 #ifndef __WWAN_H
 #define __WWAN_H
 
-#include <linux/poll.h>
-#include <linux/netdevice.h>
-#include <linux/types.h>
+#include <peenux/poll.h>
+#include <peenux/netdevice.h>
+#include <peenux/types.h>
 
 /**
  * enum wwan_port_type - WWAN port types

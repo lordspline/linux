@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef __LINUX_BRIDGE_EBT_NFLOG_H
 #define __LINUX_BRIDGE_EBT_NFLOG_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define EBT_NFLOG_MASK 0x0
 

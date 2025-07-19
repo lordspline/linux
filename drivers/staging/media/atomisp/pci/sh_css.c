@@ -5,9 +5,9 @@
  */
 
 /*! \file */
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #include "hmm.h"
 

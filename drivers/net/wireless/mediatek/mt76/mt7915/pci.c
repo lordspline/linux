@@ -4,9 +4,9 @@
  * Author: Ryder Lee <ryder.lee@mediatek.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "mt7915.h"
 #include "mac.h"

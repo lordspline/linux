@@ -8,16 +8,16 @@
 //	Boris Brezillon <boris.brezillon@bootlin.com>
 //
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mtd/nand.h>
-#include <linux/mtd/nand-ecc-mxic.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/mtd/nand.h>
+#include <peenux/mtd/nand-ecc-mxic.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
 
 #define HC_CFG			0x0
 #define HC_CFG_IF_CFG(x)	((x) << 27)

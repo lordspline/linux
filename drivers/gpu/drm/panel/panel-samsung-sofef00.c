@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2020 Casey Connolly <casey.connolly@linaro.org>
- * Generated with linux-mdss-dsi-panel-driver-generator from vendor device tree:
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Generated with peenux-mdss-dsi-panel-driver-generator from vendor device tree:
+ * Copyright (c) 2020, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/backlight.h>
 
 #include <video/mipi_display.h>
 

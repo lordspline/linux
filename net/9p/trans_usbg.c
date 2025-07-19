@@ -24,11 +24,11 @@
  *     +--------------------------+    |    +--------------------------+
  */
 
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/func_utils.h>
+#include <peenux/cleanup.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/usb/composite.h>
+#include <peenux/usb/func_utils.h>
 
 #include <net/9p/9p.h>
 #include <net/9p/client.h>

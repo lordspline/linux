@@ -12,10 +12,10 @@
 #include <crypto/acompress.h>
 #include <crypto/algapi.h>
 #include <crypto/scatterwalk.h>
-#include <linux/compiler_types.h>
-#include <linux/cpumask_types.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue_types.h>
+#include <peenux/compiler_types.h>
+#include <peenux/cpumask_types.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue_types.h>
 
 #define ACOMP_FBREQ_ON_STACK(name, req) \
         char __##name##_req[sizeof(struct acomp_req) + \

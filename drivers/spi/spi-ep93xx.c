@@ -13,22 +13,22 @@
  *     https://www.cirrus.com/en/pubs/manual/EP93xx_Users_Guide_UM1.pdf
  */
 
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/scatterlist.h>
-#include <linux/spi/spi.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/scatterlist.h>
+#include <peenux/spi/spi.h>
 
 #define SSPCR0			0x0000
 #define SSPCR0_SPO		BIT(6)

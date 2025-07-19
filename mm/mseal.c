@@ -7,13 +7,13 @@
  *  Author: Jeff Xu <jeffxu@chromium.org>
  */
 
-#include <linux/mempolicy.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/mm_inline.h>
-#include <linux/mmu_context.h>
-#include <linux/syscalls.h>
-#include <linux/sched.h>
+#include <peenux/mempolicy.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/mm_inline.h>
+#include <peenux/mmu_context.h>
+#include <peenux/syscalls.h>
+#include <peenux/sched.h>
 #include "internal.h"
 
 static inline void set_vma_sealed(struct vm_area_struct *vma)

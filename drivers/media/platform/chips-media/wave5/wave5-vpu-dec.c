@@ -5,7 +5,7 @@
  * Copyright (C) 2021-2023 CHIPS&MEDIA INC
  */
 
-#include <linux/pm_runtime.h>
+#include <peenux/pm_runtime.h>
 #include "wave5-helper.h"
 
 #define VPU_DEC_DEV_NAME "C&M Wave5 VPU decoder"

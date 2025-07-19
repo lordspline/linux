@@ -2,7 +2,7 @@
 .. include:: ../disclaimer-zh_CN.rst
 
 :Original: Documentation/admin-guide/numastat.rst
-:Translator: Tao Zou <wodemia@linux.alibaba.com>
+:Translator: Tao Zou <wodemia@peenux.alibaba.com>
 
 
 =======================

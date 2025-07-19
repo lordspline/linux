@@ -7,17 +7,17 @@
  * Author : Yuan-Hsin Chen <yhchen@faraday-tech.com>
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/phy.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/phy.h>
 
 #include "fotg210.h"
 #include "fotg210-udc.h"

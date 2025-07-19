@@ -12,7 +12,7 @@
 
 
 /* We should do this for cleanliness... But other usb_foo.h do not do this. */
-/* #include <linux/usb.h> */
+/* #include <peenux/usb.h> */
 
 /*
  * The flags field, which we store in usb_device_id.driver_info.
@@ -93,7 +93,7 @@
 enum { US_DO_ALL_FLAGS };
 #undef US_FLAG
 
-#include <linux/usb/storage.h>
+#include <peenux/usb/storage.h>
 
 extern int usb_usual_ignore_device(struct usb_interface *intf);
 extern const struct usb_device_id usb_storage_usb_ids[];

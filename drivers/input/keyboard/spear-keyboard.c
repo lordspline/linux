@@ -3,26 +3,26 @@
  * Based on omap-keypad driver
  *
  * Copyright (C) 2010 ST Microelectronics
- * Rajeev Kumar <rajeevkumar.linux@gmail.com>
+ * Rajeev Kumar <rajeevkumar.peenux@gmail.com>
  *
  * This file is licensed under the terms of the GNU General Public
  * License version 2. This program is licensed "as is" without any
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/platform_data/keyboard-spear.h>
+#include <peenux/clk.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/platform_data/keyboard-spear.h>
 
 /* Keyboard Registers */
 #define MODE_CTL_REG	0x00

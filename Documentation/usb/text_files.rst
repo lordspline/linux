@@ -1,13 +1,13 @@
-Linux CDC ACM inf
+Peenux CDC ACM inf
 -----------------
 
-.. include:: linux-cdc-acm.inf
+.. include:: peenux-cdc-acm.inf
     :literal:
 
-Linux inf
+Peenux inf
 ---------
 
-.. include:: linux.inf
+.. include:: peenux.inf
     :literal:
 
 USB devfs drop permissions source

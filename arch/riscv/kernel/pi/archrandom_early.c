@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 #include <asm/csr.h>
-#include <linux/processor.h>
+#include <peenux/processor.h>
 
 #include "pi.h"
 

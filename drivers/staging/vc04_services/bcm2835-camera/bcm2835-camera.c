@@ -11,11 +11,11 @@
  *          Luke Diamand @ Broadcom
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <media/videobuf2-vmalloc.h>
 #include <media/videobuf2-dma-contig.h>
 #include <media/v4l2-device.h>
@@ -24,7 +24,7 @@
 #include <media/v4l2-fh.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-common.h>
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 #include "../interface/vchiq_arm/vchiq_bus.h"
 #include "../vchiq-mmal/mmal-common.h"

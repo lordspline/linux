@@ -6,8 +6,8 @@
 #ifndef __I915_MM_H__
 #define __I915_MM_H__
 
-#include <linux/bug.h>
-#include <linux/types.h>
+#include <peenux/bug.h>
+#include <peenux/types.h>
 
 struct vm_area_struct;
 struct io_mapping;

@@ -11,10 +11,10 @@
 #include "journal_io.h"
 #include "recovery_passes.h"
 
-#include <linux/kthread.h>
-#include <linux/min_heap.h>
-#include <linux/sched/sysctl.h>
-#include <linux/sort.h>
+#include <peenux/kthread.h>
+#include <peenux/min_heap.h>
+#include <peenux/sched/sysctl.h>
+#include <peenux/sort.h>
 
 struct find_btree_nodes_worker {
 	struct closure		*cl;

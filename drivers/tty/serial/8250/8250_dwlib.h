@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0+ */
 /* Synopsys DesignWare 8250 library header file. */
 
-#include <linux/io.h>
-#include <linux/types.h>
+#include <peenux/io.h>
+#include <peenux/types.h>
 
 #include "8250.h"
 

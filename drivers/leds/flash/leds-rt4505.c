@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/bitops.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/led-class-flash.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/led-class-flash.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 #include <media/v4l2-flash-led-class.h>
 
 #define RT4505_REG_RESET	0x0

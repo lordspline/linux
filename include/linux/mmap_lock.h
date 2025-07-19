@@ -5,13 +5,13 @@
 /* Avoid a dependency loop by declaring here. */
 extern int rcuwait_wake_up(struct rcuwait *w);
 
-#include <linux/lockdep.h>
-#include <linux/mm_types.h>
-#include <linux/mmdebug.h>
-#include <linux/rwsem.h>
-#include <linux/tracepoint-defs.h>
-#include <linux/types.h>
-#include <linux/cleanup.h>
+#include <peenux/lockdep.h>
+#include <peenux/mm_types.h>
+#include <peenux/mmdebug.h>
+#include <peenux/rwsem.h>
+#include <peenux/tracepoint-defs.h>
+#include <peenux/types.h>
+#include <peenux/cleanup.h>
 
 #define MMAP_LOCK_INITIALIZER(name) \
 	.mmap_lock = __RWSEM_INITIALIZER((name).mmap_lock),

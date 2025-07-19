@@ -21,8 +21,8 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/math.h>
-#include <linux/string_helpers.h>
+#include <peenux/math.h>
+#include <peenux/string_helpers.h>
 
 #include <drm/drm_print.h>
 

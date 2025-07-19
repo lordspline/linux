@@ -5,16 +5,16 @@
  * Copyright (C) 2019 STMicroelectronics
  * Author(s): Amelie Delaunay <amelie.delaunay@st.com>.
  */
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/stmfx.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/string_choices.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/stmfx.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/string_choices.h>
 
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "core.h"
 #include "pinctrl-utils.h"

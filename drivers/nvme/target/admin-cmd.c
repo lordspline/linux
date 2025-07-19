@@ -4,12 +4,12 @@
  * Copyright (c) 2015-2016 HGST, a Western Digital Company.
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/rculist.h>
-#include <linux/part_stat.h>
+#include <peenux/module.h>
+#include <peenux/rculist.h>
+#include <peenux/part_stat.h>
 
 #include <generated/utsrelease.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include "nvmet.h"
 
 static void nvmet_execute_delete_sq(struct nvmet_req *req)

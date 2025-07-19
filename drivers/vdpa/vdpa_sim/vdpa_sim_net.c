@@ -7,16 +7,16 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/etherdevice.h>
-#include <linux/vringh.h>
-#include <linux/vdpa.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/etherdevice.h>
+#include <peenux/vringh.h>
+#include <peenux/vdpa.h>
 #include <net/netlink.h>
-#include <uapi/linux/virtio_net.h>
-#include <uapi/linux/vdpa.h>
+#include <uapi/peenux/virtio_net.h>
+#include <uapi/peenux/vdpa.h>
 
 #include "vdpa_sim.h"
 

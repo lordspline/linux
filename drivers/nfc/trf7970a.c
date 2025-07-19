@@ -9,18 +9,18 @@
  * Author: Mark A. Greer <mgreer@animalcreek.com>
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/nfc.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/netdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/nfc.h>
+#include <peenux/skbuff.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regulator/consumer.h>
 
 #include <net/nfc/nfc.h>
 #include <net/nfc/digital.h>

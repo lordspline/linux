@@ -2,32 +2,32 @@
 /*
  * Copyright (C) 2015 Microchip Technology
  */
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/usb.h>
-#include <linux/crc32.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/if_vlan.h>
-#include <linux/uaccess.h>
-#include <linux/linkmode.h>
-#include <linux/list.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/usb.h>
+#include <peenux/crc32.h>
+#include <peenux/signal.h>
+#include <peenux/slab.h>
+#include <peenux/if_vlan.h>
+#include <peenux/uaccess.h>
+#include <peenux/linkmode.h>
+#include <peenux/list.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/mdio.h>
+#include <peenux/phy.h>
 #include <net/ip6_checksum.h>
 #include <net/vxlan.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/microchipphy.h>
-#include <linux/phy_fixed.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/microchipphy.h>
+#include <peenux/phy_fixed.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
 #include "lan78xx.h"
 
 #define DRIVER_AUTHOR	"WOOJUNG HUH <woojung.huh@microchip.com>"

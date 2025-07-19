@@ -8,14 +8,14 @@
 
 /*#define DEBUG*/
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/bitops.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
 
 #include <video/omapvrfb.h>
 

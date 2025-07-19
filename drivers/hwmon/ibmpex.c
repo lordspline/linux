@@ -6,14 +6,14 @@
  * Author: Darrick J. Wong <darrick.wong@oracle.com>
  */
 
-#include <linux/ipmi.h>
-#include <linux/module.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/err.h>
+#include <peenux/ipmi.h>
+#include <peenux/module.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
 
 #define REFRESH_INTERVAL	(2 * HZ)
 #define DRVNAME			"ibmpex"

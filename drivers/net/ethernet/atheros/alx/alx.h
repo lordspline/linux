@@ -35,10 +35,10 @@
 #ifndef _ALX_H_
 #define _ALX_H_
 
-#include <linux/types.h>
-#include <linux/etherdevice.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/etherdevice.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/spinlock.h>
 #include "hw.h"
 
 #define ALX_WATCHDOG_TIME   (5 * HZ)

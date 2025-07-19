@@ -2,11 +2,11 @@
 #ifndef __LINUX_MUTEX_TYPES_H
 #define __LINUX_MUTEX_TYPES_H
 
-#include <linux/atomic.h>
-#include <linux/lockdep_types.h>
-#include <linux/osq_lock.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/lockdep_types.h>
+#include <peenux/osq_lock.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/types.h>
 
 #ifndef CONFIG_PREEMPT_RT
 
@@ -57,7 +57,7 @@ struct mutex {
 /*
  * Preempt-RT variant based on rtmutexes.
  */
-#include <linux/rtmutex.h>
+#include <peenux/rtmutex.h>
 
 struct mutex {
 	struct rt_mutex_base	rtmutex;

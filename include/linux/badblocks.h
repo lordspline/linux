@@ -2,11 +2,11 @@
 #ifndef _LINUX_BADBLOCKS_H
 #define _LINUX_BADBLOCKS_H
 
-#include <linux/seqlock.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/seqlock.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 #define BB_LEN_MASK	(0x00000000000001FFULL)
 #define BB_OFFSET_MASK	(0x7FFFFFFFFFFFFE00ULL)

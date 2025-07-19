@@ -7,12 +7,12 @@
  * Author: Mike Looijmans <mike.looijmans@topic.nl>
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 enum ltc2471_chips {
 	ltc2471,

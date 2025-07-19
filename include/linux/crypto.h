@@ -12,11 +12,11 @@
 #ifndef _LINUX_CRYPTO_H
 #define _LINUX_CRYPTO_H
 
-#include <linux/completion.h>
-#include <linux/errno.h>
-#include <linux/refcount_types.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/completion.h>
+#include <peenux/errno.h>
+#include <peenux/refcount_types.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 /*
  * Algorithm masks and types.
@@ -258,7 +258,7 @@ struct cipher_alg {
 
 /**
  * struct crypto_alg - definition of a cryptograpic cipher algorithm
- * @cra_flags: Flags describing this transformation. See include/linux/crypto.h
+ * @cra_flags: Flags describing this transformation. See include/peenux/crypto.h
  *	       CRYPTO_ALG_* flags for the flags which go in here. Those are
  *	       used for fine-tuning the description of the transformation
  *	       algorithm.

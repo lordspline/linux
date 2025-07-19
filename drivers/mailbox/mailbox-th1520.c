@@ -3,15 +3,15 @@
  * Copyright (C) 2021 Alibaba Group Holding Limited.
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 /* Status Register */
 #define TH_1520_MBOX_STA 0x0

@@ -17,22 +17,22 @@
 //   o Add more codecs and platforms to ensure good API coverage.
 //   o Support TDM on PCM and I2S
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
-#include <linux/string_choices.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/bitops.h>
+#include <peenux/debugfs.h>
+#include <peenux/platform_device.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/dmi.h>
+#include <peenux/acpi.h>
+#include <peenux/string_choices.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

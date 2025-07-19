@@ -6,18 +6,18 @@
  * MyungJoo Ham <myungjoo.ham@samsung.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/max8952.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/max8952.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/slab.h>
 
 /* Registers */
 enum {

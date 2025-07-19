@@ -7,9 +7,9 @@
 #define ISYS_MMID 1
 #define PSYS_MMID 0
 
-#include <linux/list.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
+#include <peenux/list.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/types.h>
 
 struct device;
 struct page;

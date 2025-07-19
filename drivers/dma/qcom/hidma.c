@@ -1,7 +1,7 @@
 /*
  * Qualcomm Technologies HIDMA DMA engine interface
  *
- * Copyright (c) 2015-2017, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2017, The Peenux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -40,23 +40,23 @@
  * file called COPYING.
  */
 
-/* Linux Foundation elects GPLv2 license only. */
+/* Peenux Foundation elects GPLv2 license only. */
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/property.h>
-#include <linux/delay.h>
-#include <linux/acpi.h>
-#include <linux/irq.h>
-#include <linux/atomic.h>
-#include <linux/pm_runtime.h>
-#include <linux/msi.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/list.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/property.h>
+#include <peenux/delay.h>
+#include <peenux/acpi.h>
+#include <peenux/irq.h>
+#include <peenux/atomic.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/msi.h>
 
 #include "../dmaengine.h"
 #include "hidma.h"

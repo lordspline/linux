@@ -11,20 +11,20 @@
  * SPARSEMEM should be contained here, or in mm/memory_hotplug.c.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/topology.h>
-#include <linux/capability.h>
-#include <linux/device.h>
-#include <linux/memory.h>
-#include <linux/memory_hotplug.h>
-#include <linux/mm.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/topology.h>
+#include <peenux/capability.h>
+#include <peenux/device.h>
+#include <peenux/memory.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/mm.h>
+#include <peenux/stat.h>
+#include <peenux/slab.h>
+#include <peenux/xarray.h>
 
-#include <linux/atomic.h>
-#include <linux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/uaccess.h>
 
 #define MEMORY_CLASS_NAME	"memory"
 
@@ -578,7 +578,7 @@ static ssize_t auto_online_blocks_store(struct device *dev,
 static DEVICE_ATTR_RW(auto_online_blocks);
 
 #ifdef CONFIG_CRASH_HOTPLUG
-#include <linux/kexec.h>
+#include <peenux/kexec.h>
 static ssize_t crash_hotplug_show(struct device *dev,
 				       struct device_attribute *attr, char *buf)
 {

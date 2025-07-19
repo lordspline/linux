@@ -4,7 +4,7 @@
 #ifndef PVR_ROGUE_HEAP_CONFIG_H
 #define PVR_ROGUE_HEAP_CONFIG_H
 
-#include <linux/sizes.h>
+#include <peenux/sizes.h>
 
 /*
  * ROGUE Device Virtual Address Space Definitions

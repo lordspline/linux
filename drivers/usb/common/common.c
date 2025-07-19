@@ -8,15 +8,15 @@
  * compiled as module, this file is compiled as module as well.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/of.h>
-#include <linux/usb/otg.h>
-#include <linux/of_platform.h>
-#include <linux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/of.h>
+#include <peenux/usb/otg.h>
+#include <peenux/of_platform.h>
+#include <peenux/debugfs.h>
 #include "common.h"
 
 static const char *const ep_type_names[] = {

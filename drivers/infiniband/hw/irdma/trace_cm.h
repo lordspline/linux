@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB */
 /* Copyright (c) 2019 - 2021 Intel Corporation */
 #if !defined(__TRACE_CM_H) || defined(TRACE_HEADER_MULTI_READ)
 #define __TRACE_CM_H
 
-#include <linux/tracepoint.h>
-#include <linux/trace_seq.h>
+#include <peenux/tracepoint.h>
+#include <peenux/trace_seq.h>
 
 #include "main.h"
 

@@ -6,11 +6,11 @@
  * Copyright 2010 Analog Devices Inc.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
 
 #include "adt7316.h"
 

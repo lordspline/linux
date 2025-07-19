@@ -15,7 +15,7 @@
 
 #define _GNU_SOURCE
 #include <sys/mman.h>
-#include <linux/mman.h>
+#include <peenux/mman.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <sys/ipc.h>

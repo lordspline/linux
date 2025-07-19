@@ -6,7 +6,7 @@
 #ifndef __INTEL_DMC_H__
 #define __INTEL_DMC_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 enum pipe;
 struct drm_printer;

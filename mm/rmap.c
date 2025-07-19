@@ -52,29 +52,29 @@
  *         folio_lock
  */
 
-#include <linux/mm.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/ksm.h>
-#include <linux/rmap.h>
-#include <linux/rcupdate.h>
-#include <linux/export.h>
-#include <linux/memcontrol.h>
-#include <linux/mmu_notifier.h>
-#include <linux/migrate.h>
-#include <linux/hugetlb.h>
-#include <linux/huge_mm.h>
-#include <linux/backing-dev.h>
-#include <linux/page_idle.h>
-#include <linux/memremap.h>
-#include <linux/userfaultfd_k.h>
-#include <linux/mm_inline.h>
-#include <linux/oom.h>
+#include <peenux/mm.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task.h>
+#include <peenux/pagemap.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/ksm.h>
+#include <peenux/rmap.h>
+#include <peenux/rcupdate.h>
+#include <peenux/export.h>
+#include <peenux/memcontrol.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/migrate.h>
+#include <peenux/hugetlb.h>
+#include <peenux/huge_mm.h>
+#include <peenux/backing-dev.h>
+#include <peenux/page_idle.h>
+#include <peenux/memremap.h>
+#include <peenux/userfaultfd_k.h>
+#include <peenux/mm_inline.h>
+#include <peenux/oom.h>
 
 #include <asm/tlbflush.h>
 

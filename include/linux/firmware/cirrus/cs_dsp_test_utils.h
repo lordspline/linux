@@ -6,8 +6,8 @@
  *                    Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/regmap.h>
-#include <linux/firmware/cirrus/wmfw.h>
+#include <peenux/regmap.h>
+#include <peenux/firmware/cirrus/wmfw.h>
 
 struct kunit;
 struct cs_dsp_test;

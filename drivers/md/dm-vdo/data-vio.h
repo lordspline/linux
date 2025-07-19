@@ -6,9 +6,9 @@
 #ifndef DATA_VIO_H
 #define DATA_VIO_H
 
-#include <linux/atomic.h>
-#include <linux/bio.h>
-#include <linux/list.h>
+#include <peenux/atomic.h>
+#include <peenux/bio.h>
+#include <peenux/list.h>
 
 #include "permassert.h"
 

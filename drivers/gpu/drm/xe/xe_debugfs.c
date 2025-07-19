@@ -5,9 +5,9 @@
 
 #include "xe_debugfs.h"
 
-#include <linux/debugfs.h>
-#include <linux/fault-inject.h>
-#include <linux/string_helpers.h>
+#include <peenux/debugfs.h>
+#include <peenux/fault-inject.h>
+#include <peenux/string_helpers.h>
 
 #include <drm/drm_debugfs.h>
 

@@ -4,12 +4,12 @@
 
 #define pr_fmt(fmt) "clk-ast2600: " fmt
 
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/clock/ast2600-clock.h>
 

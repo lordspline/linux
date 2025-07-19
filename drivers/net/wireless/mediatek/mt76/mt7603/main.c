@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: ISC
 
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/module.h>
+#include <peenux/etherdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
 #include "mt7603.h"
 #include "mac.h"
 #include "eeprom.h"

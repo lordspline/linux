@@ -9,17 +9,17 @@
  *  Author: Subhransu S. Prusty <subhransu.s.prusty@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_data/x86/soc.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <peenux/acpi.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_data/x86/soc.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

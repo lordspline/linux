@@ -12,25 +12,25 @@
  *      Changed the compression method from stem compression to "table lookup"
  *      compression (see scripts/kallsyms.c for a more complete description)
  */
-#include <linux/kallsyms.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/fs.h>
-#include <linux/kdb.h>
-#include <linux/err.h>
-#include <linux/proc_fs.h>
-#include <linux/sched.h>	/* for cond_resched */
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/filter.h>
-#include <linux/ftrace.h>
-#include <linux/kprobes.h>
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/bsearch.h>
-#include <linux/btf_ids.h>
+#include <peenux/kallsyms.h>
+#include <peenux/init.h>
+#include <peenux/seq_file.h>
+#include <peenux/fs.h>
+#include <peenux/kdb.h>
+#include <peenux/err.h>
+#include <peenux/proc_fs.h>
+#include <peenux/sched.h>	/* for cond_resched */
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
+#include <peenux/filter.h>
+#include <peenux/ftrace.h>
+#include <peenux/kprobes.h>
+#include <peenux/build_bug.h>
+#include <peenux/compiler.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/bsearch.h>
+#include <peenux/btf_ids.h>
 
 #include "kallsyms_internal.h"
 

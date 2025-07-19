@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2008 Steven Rostedt <srostedt@redhat.com>
  */
-#include <linux/kallsyms.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/irqflags.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/ftrace.h>
-#include <linux/hash.h>
-#include <linux/fs.h>
+#include <peenux/kallsyms.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/irqflags.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/ftrace.h>
+#include <peenux/hash.h>
+#include <peenux/fs.h>
 #include <asm/local.h>
 
 #include "trace.h"

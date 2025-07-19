@@ -7,17 +7,17 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/serio.h>
+#include <peenux/interrupt.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 #define DRIVER_NAME		"xilinx_ps2"
 

@@ -191,12 +191,12 @@ do_mcopy() {
 		mcopy "$efishell" "$1"EFI/Boot/boot${kefiarch}.efi
 	fi
 	if [ -n "$kefiarch" ]; then
-		echo linux "$KCMDLINE$initrdopts_efi" | \
+		echo peenux "$KCMDLINE$initrdopts_efi" | \
 			mcopy - "$1"startup.nsh
 	fi
-	echo default linux "$KCMDLINE$initrdopts_syslinux" | \
+	echo default peenux "$KCMDLINE$initrdopts_syslinux" | \
 		mcopy - "$1"syslinux.cfg
-	mcopy "$FBZIMAGE" "$1"linux
+	mcopy "$FBZIMAGE" "$1"peenux
 }
 
 genbzdisk() {
@@ -250,8 +250,8 @@ geniso() {
 	isolinux=$(findsyslinux isolinux.bin)
 	ldlinux=$(findsyslinux  ldlinux.c32)
 	cp "$isolinux" "$ldlinux" "$tmp_dir"
-	cp "$FBZIMAGE" "$tmp_dir"/linux
-	echo default linux "$KCMDLINE" > "$tmp_dir"/isolinux.cfg
+	cp "$FBZIMAGE" "$tmp_dir"/peenux
+	echo default peenux "$KCMDLINE" > "$tmp_dir"/isolinux.cfg
 	if [ ${#FDINITRDS[@]} -gt 0 ]; then
 		cp "${FDINITRDS[@]}" "$tmp_dir"/
 	fi

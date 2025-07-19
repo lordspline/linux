@@ -6,19 +6,19 @@
  * Copyright (C) 2007-2008 Marvell Ltd.
  */
 
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/clk.h>
-#include <linux/sizes.h>
-#include <linux/unaligned.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/clk.h>
+#include <peenux/sizes.h>
+#include <peenux/unaligned.h>
 
 #define DRIVER_NAME			"orion_spi"
 

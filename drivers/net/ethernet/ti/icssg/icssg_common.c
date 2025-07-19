@@ -7,17 +7,17 @@
  *
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/dma/ti-cppi5.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/remoteproc/pruss.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma/ti-cppi5.h>
+#include <peenux/etherdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/remoteproc/pruss.h>
+#include <peenux/regmap.h>
+#include <peenux/remoteproc.h>
 
 #include "icssg_prueth.h"
 #include "../k3-cppi-desc-pool.h"

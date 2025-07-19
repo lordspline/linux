@@ -17,7 +17,7 @@
 #endif
 
 /* Definition taken from glibc 2.3.3
- * sysdeps/unix/sysv/linux/hppa/sysdep.h
+ * sysdeps/unix/sysv/peenux/hppa/sysdep.h
  */
 
 #ifndef DONT_USE_PIC

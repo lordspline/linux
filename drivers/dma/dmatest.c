@@ -7,19 +7,19 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/freezer.h>
-#include <linux/init.h>
-#include <linux/kthread.h>
-#include <linux/sched/task.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/freezer.h>
+#include <peenux/init.h>
+#include <peenux/kthread.h>
+#include <peenux/sched/task.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
 
 static bool nobounce;
 module_param(nobounce, bool, 0644);

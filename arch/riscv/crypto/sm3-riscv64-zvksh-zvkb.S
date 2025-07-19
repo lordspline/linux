@@ -43,7 +43,7 @@
 // - RISC-V Vector SM3 Secure Hash extension ('Zvksh')
 // - RISC-V Vector Cryptography Bit-manipulation extension ('Zvkb')
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 .text
 .option arch, +zvksh, +zvkb

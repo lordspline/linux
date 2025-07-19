@@ -7,19 +7,19 @@
  * Copyright (c) 2007,2008 Dmitry Baryshkov
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
-#include <linux/list.h>
-#include <linux/property.h>
-#include <linux/mfd/core.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/list.h>
+#include <peenux/property.h>
+#include <peenux/mfd/core.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/regulator/consumer.h>
 
 static LIST_HEAD(mfd_of_node_list);
 

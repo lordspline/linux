@@ -6,15 +6,15 @@
  * Copyright(C) SEIKO EPSON CORPORATION 2013. All rights reserved.
  */
 
-#include <linux/bcd.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/of.h>
-#include <linux/spi/spi.h>
-#include <linux/i2c.h>
+#include <peenux/bcd.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
+#include <peenux/of.h>
+#include <peenux/spi/spi.h>
+#include <peenux/i2c.h>
 
 /* RX-6110 Register definitions */
 #define RX6110_REG_SEC		0x10

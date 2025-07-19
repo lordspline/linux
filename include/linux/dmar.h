@@ -9,12 +9,12 @@
 #ifndef __DMAR_H__
 #define __DMAR_H__
 
-#include <linux/acpi.h>
-#include <linux/types.h>
-#include <linux/msi.h>
-#include <linux/irqreturn.h>
-#include <linux/rwsem.h>
-#include <linux/rculist.h>
+#include <peenux/acpi.h>
+#include <peenux/types.h>
+#include <peenux/msi.h>
+#include <peenux/irqreturn.h>
+#include <peenux/rwsem.h>
+#include <peenux/rculist.h>
 
 struct acpi_dmar_header;
 

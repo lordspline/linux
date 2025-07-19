@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB */
 /*
  * Copyright 2015-2021 Amazon.com, Inc. or its affiliates. All rights reserved.
  */
@@ -7,7 +7,7 @@
 #define ENA_XDP_H
 
 #include "ena_netdev.h"
-#include <linux/bpf_trace.h>
+#include <peenux/bpf_trace.h>
 
 /* The max MTU size is configured to be the ethernet frame size without
  * the overhead of the ethernet header, which can have a VLAN header, and

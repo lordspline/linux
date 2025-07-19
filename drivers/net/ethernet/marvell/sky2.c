@@ -12,29 +12,29 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/crc32.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/ip.h>
-#include <linux/slab.h>
+#include <peenux/crc32.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/ip.h>
+#include <peenux/slab.h>
 #include <net/ip.h>
-#include <linux/tcp.h>
-#include <linux/in.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/if_vlan.h>
-#include <linux/prefetch.h>
-#include <linux/debugfs.h>
-#include <linux/mii.h>
-#include <linux/of_net.h>
-#include <linux/dmi.h>
-#include <linux/skbuff_ref.h>
+#include <peenux/tcp.h>
+#include <peenux/in.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/if_vlan.h>
+#include <peenux/prefetch.h>
+#include <peenux/debugfs.h>
+#include <peenux/mii.h>
+#include <peenux/of_net.h>
+#include <peenux/dmi.h>
+#include <peenux/skbuff_ref.h>
 
 #include <asm/irq.h>
 
@@ -5157,6 +5157,6 @@ module_init(sky2_init_module);
 module_exit(sky2_cleanup_module);
 
 MODULE_DESCRIPTION("Marvell Yukon 2 Gigabit Ethernet driver");
-MODULE_AUTHOR("Stephen Hemminger <shemminger@linux-foundation.org>");
+MODULE_AUTHOR("Stephen Hemminger <shemminger@peenux-foundation.org>");
 MODULE_LICENSE("GPL");
 MODULE_VERSION(DRV_VERSION);

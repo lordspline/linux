@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2021-2023 CHIPS&MEDIA INC
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
 #include "wave5-vpu.h"
 #include "wave5-regdefine.h"
 #include "wave5-vpuconfig.h"

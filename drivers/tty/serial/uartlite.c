@@ -6,22 +6,22 @@
  * Copyright (C) 2007 Secret Lab Technologies Ltd.
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/console.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/pm_runtime.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/bitfield.h>
+#include <peenux/console.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/pm_runtime.h>
 
 #define ULITE_NAME		"ttyUL"
 #if CONFIG_SERIAL_UARTLITE_NR_UARTS > 4

@@ -7,7 +7,7 @@
 #ifndef INCLUDE__INTEL_PT_LOG_H__
 #define INCLUDE__INTEL_PT_LOG_H__
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #include <stdint.h>
 #include <inttypes.h>
 

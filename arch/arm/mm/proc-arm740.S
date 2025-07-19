@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/mm/arm740.S: utility functions for ARM740
+ *  peenux/arch/arm/mm/arm740.S: utility functions for ARM740
  *
  *  Copyright (C) 2004-2006 Hyok S. Choi (hyok.choi@samsung.com)
  */
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/cfi_types.h>
-#include <linux/pgtable.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/cfi_types.h>
+#include <peenux/pgtable.h>
 #include <asm/assembler.h>
 #include <asm/asm-offsets.h>
 #include <asm/hwcap.h>

@@ -14,9 +14,9 @@
  * Copyright (c) 2018, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/adxl.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/adxl.h>
 #include <acpi/nfit.h>
 #include <asm/mce.h>
 #include <asm/uv/uv.h>

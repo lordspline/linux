@@ -10,22 +10,22 @@
  * Copyright (C) 2003-2005 Benjamin Herrenschmidt.
  *
  */
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/pmu.h>
-#include <linux/interrupt.h>
-#include <linux/hardirq.h>
-#include <linux/rtc.h>
-#include <linux/of_address.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
+#include <peenux/adb.h>
+#include <peenux/cuda.h>
+#include <peenux/pmu.h>
+#include <peenux/interrupt.h>
+#include <peenux/hardirq.h>
+#include <peenux/rtc.h>
+#include <peenux/of_address.h>
 
 #include <asm/early_ioremap.h>
 #include <asm/sections.h>

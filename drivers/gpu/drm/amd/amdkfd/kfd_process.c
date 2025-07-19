@@ -21,18 +21,18 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/mutex.h>
-#include <linux/log2.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
-#include <linux/mmu_context.h>
-#include <linux/slab.h>
-#include <linux/notifier.h>
-#include <linux/compat.h>
-#include <linux/mman.h>
-#include <linux/file.h>
-#include <linux/pm_runtime.h>
+#include <peenux/mutex.h>
+#include <peenux/log2.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task.h>
+#include <peenux/mmu_context.h>
+#include <peenux/slab.h>
+#include <peenux/notifier.h>
+#include <peenux/compat.h>
+#include <peenux/mman.h>
+#include <peenux/file.h>
+#include <peenux/pm_runtime.h>
 #include "amdgpu_amdkfd.h"
 #include "amdgpu.h"
 #include "amdgpu_reset.h"

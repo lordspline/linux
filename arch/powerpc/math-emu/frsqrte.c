@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/uaccess.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/uaccess.h>
 
 int
 frsqrte(void *frD, void *frB)

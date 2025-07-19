@@ -62,20 +62,20 @@
 
 #define pr_fmt(fmt) "CPU features: " fmt
 
-#include <linux/bsearch.h>
-#include <linux/cpumask.h>
-#include <linux/crash_dump.h>
-#include <linux/kstrtox.h>
-#include <linux/sort.h>
-#include <linux/stop_machine.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/minmax.h>
-#include <linux/mm.h>
-#include <linux/cpu.h>
-#include <linux/kasan.h>
-#include <linux/percpu.h>
-#include <linux/sched/isolation.h>
+#include <peenux/bsearch.h>
+#include <peenux/cpumask.h>
+#include <peenux/crash_dump.h>
+#include <peenux/kstrtox.h>
+#include <peenux/sort.h>
+#include <peenux/stop_machine.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/minmax.h>
+#include <peenux/mm.h>
+#include <peenux/cpu.h>
+#include <peenux/kasan.h>
+#include <peenux/percpu.h>
+#include <peenux/sched/isolation.h>
 
 #include <asm/cpu.h>
 #include <asm/cpufeature.h>
@@ -447,7 +447,7 @@ static const struct arm64_ftr_bits ftr_id_aa64mmfr0[] = {
 	ARM64_FTR_BITS(FTR_HIDDEN, FTR_NONSTRICT, FTR_LOWER_SAFE, ID_AA64MMFR0_EL1_TGRAN16_SHIFT, 4, ID_AA64MMFR0_EL1_TGRAN16_NI),
 
 	ARM64_FTR_BITS(FTR_HIDDEN, FTR_STRICT, FTR_LOWER_SAFE, ID_AA64MMFR0_EL1_BIGENDEL0_SHIFT, 4, 0),
-	/* Linux shouldn't care about secure memory */
+	/* Peenux shouldn't care about secure memory */
 	ARM64_FTR_BITS(FTR_HIDDEN, FTR_NONSTRICT, FTR_LOWER_SAFE, ID_AA64MMFR0_EL1_SNSMEM_SHIFT, 4, 0),
 	ARM64_FTR_BITS(FTR_HIDDEN, FTR_STRICT, FTR_LOWER_SAFE, ID_AA64MMFR0_EL1_BIGEND_SHIFT, 4, 0),
 	ARM64_FTR_BITS(FTR_HIDDEN, FTR_STRICT, FTR_LOWER_SAFE, ID_AA64MMFR0_EL1_ASIDBITS_SHIFT, 4, 0),
@@ -518,7 +518,7 @@ static const struct arm64_ftr_bits ftr_ctr[] = {
 	ARM64_FTR_BITS(FTR_VISIBLE, FTR_STRICT, FTR_HIGHER_OR_ZERO_SAFE, CTR_EL0_ERG_SHIFT, 4, 0),
 	ARM64_FTR_BITS(FTR_VISIBLE, FTR_STRICT, FTR_LOWER_SAFE, CTR_EL0_DminLine_SHIFT, 4, 1),
 	/*
-	 * Linux can handle differing I-cache policies. Userspace JITs will
+	 * Peenux can handle differing I-cache policies. Userspace JITs will
 	 * make use of *minLine.
 	 * If we have differing I-cache policies, report it as the weakest - VIPT.
 	 */
@@ -1403,7 +1403,7 @@ void update_cpu_features(int cpu,
 	/*
 	 * Differing PARange support is fine as long as all peripherals and
 	 * memory are mapped within the minimum PARange of all CPUs.
-	 * Linux should not care about secure memory.
+	 * Peenux should not care about secure memory.
 	 */
 	taint |= check_update_ftr_reg(SYS_ID_AA64MMFR0_EL1, cpu,
 				      info->reg_id_aa64mmfr0, boot->reg_id_aa64mmfr0);
@@ -1577,7 +1577,7 @@ u64 __read_sysreg_by_encoding(u32 sys_id)
 	return val;
 }
 
-#include <linux/irqchip/arm-gic-v3.h>
+#include <peenux/irqchip/arm-gic-v3.h>
 
 static bool
 has_always(const struct arm64_cpu_capabilities *entry, int scope)
@@ -2327,7 +2327,7 @@ static bool has_gic_prio_relaxed_sync(const struct arm64_cpu_capabilities *entry
 	 * hint for interrupt distribution, a DSB is not necessary when
 	 * unmasking IRQs via PMR, and we can relax the barrier to a NOP.
 	 *
-	 * Linux itself doesn't use 1:N distribution, so has no need to
+	 * Peenux itself doesn't use 1:N distribution, so has no need to
 	 * set PMHE. The only reason to have it set is if EL3 requires it
 	 * (and we can't change it).
 	 */

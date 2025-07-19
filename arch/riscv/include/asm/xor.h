@@ -3,7 +3,7 @@
  * Copyright (C) 2021 SiFive
  */
 
-#include <linux/hardirq.h>
+#include <peenux/hardirq.h>
 #include <asm-generic/xor.h>
 #ifdef CONFIG_RISCV_ISA_V
 #include <asm/vector.h>

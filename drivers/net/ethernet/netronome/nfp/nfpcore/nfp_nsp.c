@@ -7,15 +7,15 @@
  *         Jason McMullan <jason.mcmullan@netronome.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/overflow.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
+#include <peenux/unaligned.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/overflow.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
 
 #define NFP_SUBSYS "nfp_nsp"
 

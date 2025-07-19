@@ -4,11 +4,11 @@
  * Copyright (C) 2008 Pierrick Hascoet <pierrick.hascoet@abilis.com>
  * Copyright (C) 2010 Devin Heitmueller <dheitmueller@kernellabs.com>
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
 
 #include "as102_drv.h"
 #include "as102_fw.h"

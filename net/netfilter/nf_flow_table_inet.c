@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netfilter.h>
-#include <linux/rhashtable.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/netfilter.h>
+#include <peenux/rhashtable.h>
 #include <net/netfilter/nf_flow_table.h>
 #include <net/netfilter/nf_tables.h>
-#include <linux/if_vlan.h>
+#include <peenux/if_vlan.h>
 
 static unsigned int
 nf_flow_offload_inet_hook(void *priv, struct sk_buff *skb,

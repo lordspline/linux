@@ -5,7 +5,7 @@
 
 #include "xe_hw_engine.h"
 
-#include <linux/nospec.h>
+#include <peenux/nospec.h>
 
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>

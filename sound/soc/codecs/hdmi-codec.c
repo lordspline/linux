@@ -4,8 +4,8 @@
  * Copyright (C) 2015 Texas Instruments Incorporated - https://www.ti.com/
  * Author: Jyri Sarha <jsarha@ti.com>
  */
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>
@@ -732,7 +732,7 @@ static int hdmi_codec_mute(struct snd_soc_dai *dai, int mute, int direction)
  * but need to be selected from Sound Card, not be auto selected.
  * Because it might be used from other driver.
  * For example,
- *	${LINUX}/drivers/gpu/drm/bridge/synopsys/dw-hdmi-i2s-audio.c
+ *	${PEENUX}/drivers/gpu/drm/bridge/synopsys/dw-hdmi-i2s-audio.c
  */
 static const u64 hdmi_codec_formats =
 	SND_SOC_POSSIBLE_DAIFMT_NB_NF	|

@@ -3,7 +3,7 @@
  * Copyright (C) 2022-2024 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
  */
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 #include <asm/frame.h>
 
 .section	.rodata, "a"

@@ -1,47 +1,47 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* Copyright(c) 1999 - 2006 Intel Corporation. */
 
-/* Linux PRO/1000 Ethernet Driver main header file */
+/* Peenux PRO/1000 Ethernet Driver main header file */
 
 #ifndef _E1000_H_
 #define _E1000_H_
 
-#include <linux/stddef.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/pagemap.h>
-#include <linux/dma-mapping.h>
-#include <linux/bitops.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/delay.h>
+#include <peenux/timer.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/interrupt.h>
+#include <peenux/string.h>
+#include <peenux/pagemap.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/bitops.h>
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/capability.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
+#include <peenux/capability.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
 #include <net/pkt_sched.h>
-#include <linux/list.h>
-#include <linux/reboot.h>
+#include <peenux/list.h>
+#include <peenux/reboot.h>
 #include <net/checksum.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_vlan.h>
 
 #define BAR_0		0
 #define BAR_1		1

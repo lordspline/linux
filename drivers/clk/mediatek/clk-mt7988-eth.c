@@ -5,11 +5,11 @@
  * Author: Xiufeng Li <Xiufeng.Li@mediatek.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
 #include "clk-mtk.h"
 #include "clk-gate.h"
 #include "reset.h"

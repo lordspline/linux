@@ -10,11 +10,11 @@
  * Copyright (C) 2004-2010   Dominik Brodowski
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
 
 #include <pcmcia/cisreg.h>
 #include <pcmcia/cistpl.h>

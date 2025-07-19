@@ -5,14 +5,14 @@
 // Copyright (C) 2006-2008 Marvell International Ltd.
 // Copyright (C) 2008 Compulab Ltd.
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/mfd/da903x.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/mfd/da903x.h>
 
 /* DA9030 Registers */
 #define DA9030_INVAL		(-1)

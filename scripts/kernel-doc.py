@@ -12,7 +12,7 @@
 #    Alexander A. Klimov <grandmaster@al2klimov.de>
 #    Alexander Lobakin <aleksander.lobakin@intel.com>
 #    André Almeida <andrealmeid@igalia.com>
-#    Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+#    Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
 #    Anna-Maria Behnsen <anna-maria@linutronix.de>
 #    Armin Kuster <akuster@mvista.com>
 #    Bart Van Assche <bart.vanassche@sandisk.com>
@@ -44,7 +44,7 @@
 #    Kees Cook <kees@kernel.org>
 #    Laurent Pinchart <laurent.pinchart@ideasonboard.com>
 #    Levin, Alexander (Sasha Levin) <alexander.levin@verizon.com>
-#    Linus Torvalds <torvalds@linux-foundation.org>
+#    Linus Torvalds <torvalds@peenux-foundation.org>
 #    Lucas De Marchi <lucas.demarchi@profusion.mobi>
 #    Mark Rutland <mark.rutland@arm.com>
 #    Markus Heiser <markus.heiser@darmarit.de>
@@ -54,19 +54,19 @@
 #    Mauro Carvalho Chehab <mchehab+huawei@kernel.org>
 #    Michal Wajdeczko <michal.wajdeczko@intel.com>
 #    Michael Zucchi
-#    Mike Rapoport <rppt@linux.ibm.com>
+#    Mike Rapoport <rppt@peenux.ibm.com>
 #    Niklas Söderlund <niklas.soderlund@corigine.com>
 #    Nishanth Menon <nm@ti.com>
 #    Paolo Bonzini <pbonzini@redhat.com>
 #    Pavan Kumar Linga <pavan.kumar.linga@intel.com>
 #    Pavel Pisa <pisa@cmp.felk.cvut.cz>
 #    Peter Maydell <peter.maydell@linaro.org>
-#    Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>
+#    Pierre-Louis Bossart <pierre-louis.bossart@peenux.intel.com>
 #    Randy Dunlap <rdunlap@infradead.org>
 #    Richard Kennedy <richard@rsk.demon.co.uk>
 #    Rich Walker <rw@shadow.org.uk>
 #    Rolf Eike Beer <eike-kernel@sf-tec.de>
-#    Sakari Ailus <sakari.ailus@linux.intel.com>
+#    Sakari Ailus <sakari.ailus@peenux.intel.com>
 #    Silvio Fricke <silvio.fricke@gmail.com>
 #    Simon Huggins
 #    Tim Waugh <twaugh@redhat.com>

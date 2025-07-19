@@ -14,7 +14,7 @@
 #ifndef _FLEXCAN_H
 #define _FLEXCAN_H
 
-#include <linux/can/rx-offload.h>
+#include <peenux/can/rx-offload.h>
 
 /* FLEXCAN hardware feature flags
  *

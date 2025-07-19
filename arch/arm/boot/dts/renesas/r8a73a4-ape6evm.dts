@@ -105,38 +105,38 @@
 
 		zero-key {
 			gpios = <&pfc 324 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_0>;
+			peenux,code = <KEY_0>;
 			label = "S16";
 			wakeup-source;
 		};
 
 		menu-key {
 			gpios = <&pfc 325 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_MENU>;
+			peenux,code = <KEY_MENU>;
 			label = "S17";
 		};
 
 		home-key {
 			gpios = <&pfc 326 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_HOME>;
+			peenux,code = <KEY_HOME>;
 			label = "S18";
 		};
 
 		back-key {
 			gpios = <&pfc 327 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_BACK>;
+			peenux,code = <KEY_BACK>;
 			label = "S19";
 		};
 
 		volup-key {
 			gpios = <&pfc 328 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			label = "S20";
 		};
 
 		voldown-key {
 			gpios = <&pfc 329 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 			label = "S21";
 		};
 	};

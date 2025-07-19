@@ -3,13 +3,13 @@
  * Copyright (c) 2013 Broadcom Corporation
  */
 
-#include <linux/efi.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/bcm47xx_nvram.h>
+#include <peenux/efi.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/bcm47xx_nvram.h>
 
 #include "debug.h"
 #include "firmware.h"

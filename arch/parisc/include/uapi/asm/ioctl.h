@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
- *    Linux/PA-RISC Project (http://www.parisc-linux.org/)
+ *    Peenux/PA-RISC Project (http://www.parisc-peenux.org/)
  *    Copyright (C) 1999,2003 Matthew Wilcox < willy at debian . org >
- *    portions from "linux/ioctl.h for Linux" by H.H. Bergman.
+ *    portions from "peenux/ioctl.h for Peenux" by H.H. Bergman.
  *
  *    This program is free software; you can redistribute it and/or modify
  *    it under the terms of the GNU General Public License as published by

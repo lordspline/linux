@@ -2,11 +2,11 @@
 /*
  * HD-audio bus
  */
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/export.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/export.h>
 #include <sound/hdaudio.h>
 
 MODULE_DESCRIPTION("HD-audio bus");

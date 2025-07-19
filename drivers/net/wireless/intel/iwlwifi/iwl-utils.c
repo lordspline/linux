@@ -3,7 +3,7 @@
  * Copyright (C) 2024 Intel Corporation
  */
 #include <net/gso.h>
-#include <linux/ieee80211.h>
+#include <peenux/ieee80211.h>
 #include <net/ip.h>
 
 #include "iwl-drv.h"

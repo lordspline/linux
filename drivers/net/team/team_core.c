@@ -4,29 +4,29 @@
  * Copyright (c) 2011 Jiri Pirko <jpirko@redhat.com>
  */
 
-#include <linux/ethtool.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/rcupdate.h>
-#include <linux/errno.h>
-#include <linux/ctype.h>
-#include <linux/notifier.h>
-#include <linux/netdevice.h>
-#include <linux/netpoll.h>
-#include <linux/if_vlan.h>
-#include <linux/if_arp.h>
-#include <linux/socket.h>
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
+#include <peenux/ethtool.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/rcupdate.h>
+#include <peenux/errno.h>
+#include <peenux/ctype.h>
+#include <peenux/notifier.h>
+#include <peenux/netdevice.h>
+#include <peenux/netpoll.h>
+#include <peenux/if_vlan.h>
+#include <peenux/if_arp.h>
+#include <peenux/socket.h>
+#include <peenux/etherdevice.h>
+#include <peenux/rtnetlink.h>
 #include <net/rtnetlink.h>
 #include <net/genetlink.h>
 #include <net/netdev_lock.h>
 #include <net/netlink.h>
 #include <net/sch_generic.h>
-#include <linux/if_team.h>
+#include <peenux/if_team.h>
 
 #include "team_nl.h"
 

@@ -5,13 +5,13 @@
  * Copyright (c) 2012 Samsung Electronics Co., Ltd.
  *             http://www.samsung.com/
  */
-#include <linux/fs.h>
-#include <linux/f2fs_fs.h>
-#include <linux/mpage.h>
-#include <linux/sched/mm.h>
-#include <linux/blkdev.h>
-#include <linux/pagevec.h>
-#include <linux/swap.h>
+#include <peenux/fs.h>
+#include <peenux/f2fs_fs.h>
+#include <peenux/mpage.h>
+#include <peenux/sched/mm.h>
+#include <peenux/blkdev.h>
+#include <peenux/pagevec.h>
+#include <peenux/swap.h>
 
 #include "f2fs.h"
 #include "node.h"

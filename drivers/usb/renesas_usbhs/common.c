@@ -6,16 +6,16 @@
  * Copyright (C) 2019 Renesas Electronics Corporation
  * Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
  */
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
 #include "common.h"
 #include "rcar2.h"
 #include "rcar3.h"

@@ -9,13 +9,13 @@
  * Copyright (C) 2009  Matt Fleming
  */
 
-#include <linux/vmalloc.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/proc_fs.h>
+#include <peenux/vmalloc.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
+#include <peenux/memblock.h>
+#include <peenux/proc_fs.h>
 #include <asm/fixmap.h>
 #include <asm/page.h>
 #include <asm/addrspace.h>

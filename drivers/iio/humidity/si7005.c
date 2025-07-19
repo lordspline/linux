@@ -9,14 +9,14 @@
  * TODO: heater, fast mode, processed mode (temp. / linearity compensation)
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pm.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define SI7005_STATUS 0x00
 #define SI7005_DATA 0x01 /* 16-bit, MSB */

@@ -58,8 +58,8 @@
  * they are read from the flash media.
  */
 
-#include <linux/crc32.h>
-#include <linux/slab.h>
+#include <peenux/crc32.h>
+#include <peenux/slab.h>
 #include "ubifs.h"
 
 /**

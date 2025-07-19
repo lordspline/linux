@@ -5,14 +5,14 @@
  * Copyright (C) 2021 Renesas Electronics Corporation
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/reset-controller.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/reset-controller.h>
 
 #define RESET			0x000
 #define VBENCTL			0x03c

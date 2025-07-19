@@ -7,11 +7,11 @@
  * Copyright (c) 2016 Linaro Ltd.
  */
 
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/gpio/consumer.h>
 
 enum usb4604_mode {
 	USB4604_MODE_UNKNOWN,

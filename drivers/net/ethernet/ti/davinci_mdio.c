@@ -9,24 +9,24 @@
  * Copyright (C) 2009 Texas Instruments.
  *
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/phy.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/pm_runtime.h>
-#include <linux/davinci_emac.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/mdio-bitbang.h>
-#include <linux/sys_soc.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/phy.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/davinci_emac.h>
+#include <peenux/of.h>
+#include <peenux/of_mdio.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/mdio-bitbang.h>
+#include <peenux/sys_soc.h>
 
 /*
  * This timeout definition is a worst-case ultra defensive measure against

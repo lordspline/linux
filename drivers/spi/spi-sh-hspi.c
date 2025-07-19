@@ -10,18 +10,18 @@
  * Copyright (C) 2005 Stephen Street / StreetFire Sound Labs
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/io.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/sh_hspi.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/io.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/sh_hspi.h>
 
 #define SPCR	0x00
 #define SPSR	0x04

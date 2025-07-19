@@ -8,19 +8,19 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/highmem.h>
-#include <linux/init.h>
-#include <linux/sysctl.h>
-#include <linux/random.h>
-#include <linux/blkdev.h>
-#include <linux/socket.h>
-#include <linux/inet.h>
-#include <linux/timer.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/highmem.h>
+#include <peenux/init.h>
+#include <peenux/sysctl.h>
+#include <peenux/random.h>
+#include <peenux/blkdev.h>
+#include <peenux/socket.h>
+#include <peenux/inet.h>
+#include <peenux/timer.h>
+#include <peenux/kthread.h>
+#include <peenux/delay.h>
 
 
 #include "../cluster/heartbeat.h"

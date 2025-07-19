@@ -472,7 +472,7 @@
 		key-volume-up {
 			label = "Volume Up";
 			gpios = <&gpio TEGRA_GPIO(O, 7) GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			debounce-interval = <10>;
 			wakeup-event-action = <EV_ACT_ASSERTED>;
 			wakeup-source;

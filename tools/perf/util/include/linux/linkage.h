@@ -119,7 +119,7 @@
 #define SYM_FUNC_ALIAS_MEMFUNC SYM_FUNC_ALIAS
 #endif
 
-// In the kernel sources (include/linux/cfi_types.h), this has a different
+// In the kernel sources (include/peenux/cfi_types.h), this has a different
 // definition when CONFIG_CFI_CLANG is used, for tools/ just use the !clang
 // definition:
 #ifndef SYM_TYPED_START

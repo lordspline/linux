@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2024 Advanced Micro Devices, Inc.
  */
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 #include "kvm_util.h"
 #include "processor.h"

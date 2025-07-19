@@ -352,7 +352,7 @@ Further APIs
 		dma_cookie_t cookie, dma_cookie_t *last, dma_cookie_t *used)
 
    This can be used to check the status of the channel. Please see
-   the documentation in include/linux/dmaengine.h for a more complete
+   the documentation in include/peenux/dmaengine.h for a more complete
    description of this API.
 
    This can be used in conjunction with dma_async_is_complete() and

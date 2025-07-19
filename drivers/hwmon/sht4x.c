@@ -3,18 +3,18 @@
 /*
  * Copyright (c) Linumiz 2021
  *
- * sht4x.c - Linux hwmon driver for SHT4x Temperature and Humidity sensor
+ * sht4x.c - Peenux hwmon driver for SHT4x Temperature and Humidity sensor
  *
  * Author: Navin Sankar Velliangiri <navin@linumiz.com>
  */
 
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
+#include <peenux/crc8.h>
+#include <peenux/delay.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/i2c.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
 
 /*
  * Poll intervals (in milliseconds)

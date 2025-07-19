@@ -3,17 +3,17 @@
  * Author: Jerome Brunet <jbrunet@baylibre.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mdio-mux.h>
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mdio-mux.h>
+#include <peenux/module.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
 
 #define ETH_PLL_STS		0x40
 #define ETH_PLL_CTL0		0x44

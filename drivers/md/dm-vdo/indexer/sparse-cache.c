@@ -5,9 +5,9 @@
 
 #include "sparse-cache.h"
 
-#include <linux/cache.h>
-#include <linux/delay.h>
-#include <linux/dm-bufio.h>
+#include <peenux/cache.h>
+#include <peenux/delay.h>
+#include <peenux/dm-bufio.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

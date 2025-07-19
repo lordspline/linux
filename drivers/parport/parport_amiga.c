@@ -14,12 +14,12 @@
  * software.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/parport.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/parport.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
 
 #include <asm/setup.h>
 #include <asm/amigahw.h>

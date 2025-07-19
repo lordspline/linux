@@ -38,17 +38,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/align.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/lpc_ich.h>
-#include <linux/platform_data/itco_wdt.h>
-#include <linux/platform_data/x86/p2sb.h>
+#include <peenux/align.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/acpi.h>
+#include <peenux/pci.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/lpc_ich.h>
+#include <peenux/platform_data/itco_wdt.h>
+#include <peenux/platform_data/x86/p2sb.h>
 
 #define ACPIBASE		0x40
 #define ACPIBASE_GPE_OFF	0x28

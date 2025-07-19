@@ -3,15 +3,15 @@
  * Thunderbolt bus support
  *
  * Copyright (C) 2017, Intel Corporation
- * Author: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Author: Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/random.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/random.h>
 #include <crypto/hash.h>
 
 #include "tb.h"

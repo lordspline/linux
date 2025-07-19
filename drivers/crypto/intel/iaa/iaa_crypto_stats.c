@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2021 Intel Corporation. All rights rsvd. */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/highmem.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/smp.h>
-#include <uapi/linux/idxd.h>
-#include <linux/idxd.h>
-#include <linux/dmaengine.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/highmem.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/smp.h>
+#include <uapi/peenux/idxd.h>
+#include <peenux/idxd.h>
+#include <peenux/dmaengine.h>
 #include "../../dma/idxd/idxd.h"
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 #include <crypto/internal/acompress.h>
 #include "iaa_crypto.h"
 #include "iaa_crypto_stats.h"

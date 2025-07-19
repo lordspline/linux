@@ -71,7 +71,7 @@
 		key-volume-up {
 			label = "Volume up";
 			gpios = <&pm7325_gpios 6 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 		};
 	};
 
@@ -1210,7 +1210,7 @@
 };
 
 &pon_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	peenux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

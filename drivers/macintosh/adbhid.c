@@ -35,15 +35,15 @@
  * Move to syfs
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/notifier.h>
-#include <linux/input.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/notifier.h>
+#include <peenux/input.h>
 
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/pmu.h>
+#include <peenux/adb.h>
+#include <peenux/cuda.h>
+#include <peenux/pmu.h>
 
 #include <asm/machdep.h>
 #ifdef CONFIG_PPC_PMAC

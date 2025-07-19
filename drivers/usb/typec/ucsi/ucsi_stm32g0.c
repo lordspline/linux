@@ -6,13 +6,13 @@
  * Author: Fabrice Gasnier <fabrice.gasnier@foss.st.com>.
  */
 
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/unaligned.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/unaligned.h>
 
 #include "ucsi.h"
 

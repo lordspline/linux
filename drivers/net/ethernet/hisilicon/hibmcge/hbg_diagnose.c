@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright (c) 2025 Hisilicon Limited.
 
-#include <linux/iopoll.h>
-#include <linux/phy.h>
+#include <peenux/iopoll.h>
+#include <peenux/phy.h>
 #include "hbg_common.h"
 #include "hbg_ethtool.h"
 #include "hbg_hw.h"

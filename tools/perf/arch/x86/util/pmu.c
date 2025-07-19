@@ -4,9 +4,9 @@
 #include <sys/types.h>
 #include <dirent.h>
 #include <fcntl.h>
-#include <linux/stddef.h>
-#include <linux/perf_event.h>
-#include <linux/zalloc.h>
+#include <peenux/stddef.h>
+#include <peenux/perf_event.h>
+#include <peenux/zalloc.h>
 #include <api/fs/fs.h>
 #include <api/io_dir.h>
 #include <internal/cpumap.h>

@@ -5,28 +5,28 @@
  * Copyright 2021 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cache.h>
-#include <linux/crc8.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/gpio/consumer.h>
-#include <linux/if_bridge.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/regulator/consumer.h>
-#include <linux/phy.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cache.h>
+#include <peenux/crc8.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/if_bridge.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/phy.h>
+#include <peenux/property.h>
+#include <peenux/spi/spi.h>
 
 #include <net/switchdev.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define ADIN1110_PHY_ID				0x1
 

@@ -5,11 +5,11 @@
  * Copyright (C) 2010 Stefani Seibold <stefani@seibold.net>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/mutex.h>
-#include <linux/kfifo.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/mutex.h>
+#include <peenux/kfifo.h>
 
 /*
  * This module shows how to create a int type fifo.

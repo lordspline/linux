@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
 #include <test_progs.h>
-#include <linux/nbd.h>
+#include <peenux/nbd.h>
 #include "bpf_util.h"
 
 /* NOTE: conflict with other tests. */

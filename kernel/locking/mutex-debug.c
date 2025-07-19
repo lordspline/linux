@@ -10,16 +10,16 @@
  *  Copyright (C) 2004, LynuxWorks, Inc., Igor Manyilov, Bill Huey
  *  Released under the General Public License (GPL).
  */
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/poison.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/kallsyms.h>
-#include <linux/interrupt.h>
-#include <linux/debug_locks.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/poison.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/kallsyms.h>
+#include <peenux/interrupt.h>
+#include <peenux/debug_locks.h>
 
 #include "mutex.h"
 

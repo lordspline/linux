@@ -9,13 +9,13 @@
  * Herve Codina <herve.codina@bootlin.com>
  */
 #include <dt-bindings/iio/adc/gehc,pmc-adc.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 struct pmc_adc {
 	struct i2c_client *client;

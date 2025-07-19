@@ -29,11 +29,11 @@
  * down in order to keep the output clock rate within the previous OPP limits.
  */
 
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
 #include "clk.h"
 
 /**

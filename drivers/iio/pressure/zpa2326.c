@@ -51,20 +51,20 @@
  *   hardware samples averaging.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/unaligned.h>
 #include "zpa2326.h"
 
 /* 200 ms should be enough for the longest conversion time in one-shot mode. */

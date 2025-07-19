@@ -8,11 +8,11 @@
 
 #define pr_fmt(fmt) "acpiphp_ampere_altra: " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pci_hotplug.h>
+#include <peenux/platform_device.h>
 
 #include "acpiphp.h"
 

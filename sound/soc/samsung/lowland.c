@@ -7,7 +7,7 @@
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include <sound/jack.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 
 #include "../codecs/wm5100.h"
 #include "../codecs/wm9081.h"

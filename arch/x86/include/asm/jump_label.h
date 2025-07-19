@@ -9,8 +9,8 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/stringify.h>
-#include <linux/types.h>
+#include <peenux/stringify.h>
+#include <peenux/types.h>
 
 #define JUMP_TABLE_ENTRY(key, label)			\
 	".pushsection __jump_table,  \"aw\" \n\t"	\

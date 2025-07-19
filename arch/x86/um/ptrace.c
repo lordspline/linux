@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/sched.h>
-#include <linux/elf.h>
-#include <linux/regset.h>
+#include <peenux/sched.h>
+#include <peenux/elf.h>
+#include <peenux/regset.h>
 #include <asm/user32.h>
 #include <asm/sigcontext.h>
 

@@ -2,12 +2,12 @@
 #define KMSG_COMPONENT "IPVS"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
 
 #include <net/ip_vs.h>
 #include <net/netfilter/nf_conntrack.h>
-#include <linux/netfilter/nf_conntrack_sip.h>
+#include <peenux/netfilter/nf_conntrack_sip.h>
 
 #ifdef CONFIG_IP_VS_DEBUG
 static const char *ip_vs_dbg_callid(char *buf, size_t buf_len,

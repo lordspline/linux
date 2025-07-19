@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-1.0+
-/* 82596.c: A generic 82596 ethernet driver for linux. */
+/* 82596.c: A generic 82596 ethernet driver for peenux. */
 /*
    Based on Apricot.c
    Written 1994 by Mark Evans.
@@ -39,20 +39,20 @@
 
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/gfp.h>
-#include <linux/pgtable.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/gfp.h>
+#include <peenux/pgtable.h>
 
 #include <asm/io.h>
 #include <asm/dma.h>

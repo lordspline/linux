@@ -6,17 +6,17 @@
  *	Haojian Zhuang <haojian.zhuang@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/machine.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/max8925.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/max8925.h>
+#include <peenux/of.h>
 
 static const struct resource bk_resources[] = {
 	{ 0x84, 0x84, "mode control", IORESOURCE_REG, },

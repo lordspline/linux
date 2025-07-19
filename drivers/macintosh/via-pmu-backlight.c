@@ -4,14 +4,14 @@
  *
  * Copyright (C) 1998 Paul Mackerras and Fabio Riccardi.
  * Copyright (C) 2001-2002 Benjamin Herrenschmidt
- * Copyright (C) 2006      Michael Hanselmann <linux-kernel@hansmi.ch>
+ * Copyright (C) 2006      Michael Hanselmann <peenux-kernel@hansmi.ch>
  *
  */
 
 #include <asm/ptrace.h>
-#include <linux/adb.h>
-#include <linux/backlight.h>
-#include <linux/pmu.h>
+#include <peenux/adb.h>
+#include <peenux/backlight.h>
+#include <peenux/pmu.h>
 #include <asm/backlight.h>
 
 #define MAX_PMU_LEVEL 0xFF

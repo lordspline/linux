@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/mmc/host/sdhci_f_sdh30.c
+ * peenux/drivers/mmc/host/sdhci_f_sdh30.c
  *
  * Copyright (C) 2013 - 2015 Fujitsu Semiconductor, Ltd
  *              Vincent Yang <vincent.yang@tw.fujitsu.com>
@@ -8,14 +8,14 @@
  * Copyright (C) 2019 Socionext Inc.
  */
 
-#include <linux/acpi.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
+#include <peenux/acpi.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/clk.h>
+#include <peenux/reset.h>
 
 #include "sdhci-pltfm.h"
 #include "sdhci_f_sdh30.h"

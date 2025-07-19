@@ -15,11 +15,11 @@
 #define _ASM_FIXMAP_H
 
 #ifndef __ASSEMBLY__
-#include <linux/sizes.h>
-#include <linux/pgtable.h>
+#include <peenux/sizes.h>
+#include <peenux/pgtable.h>
 #include <asm/page.h>
 #ifdef CONFIG_HIGHMEM
-#include <linux/threads.h>
+#include <peenux/threads.h>
 #include <asm/kmap_size.h>
 #endif
 

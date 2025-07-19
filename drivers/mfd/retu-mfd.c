@@ -16,17 +16,17 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/retu.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/irq.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/retu.h>
+#include <peenux/interrupt.h>
+#include <peenux/moduleparam.h>
 
 /* Registers */
 #define RETU_REG_ASICR		0x00		/* ASIC ID and revision */

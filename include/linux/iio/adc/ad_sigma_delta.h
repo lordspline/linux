@@ -8,7 +8,7 @@
 #ifndef __AD_SIGMA_DELTA_H__
 #define __AD_SIGMA_DELTA_H__
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 enum ad_sigma_delta_mode {
 	AD_SD_MODE_CONTINUOUS = 0,

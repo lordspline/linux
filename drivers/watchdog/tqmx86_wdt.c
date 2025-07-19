@@ -9,12 +9,12 @@
  * <vvlasov@dev.rtsoft.ru>
  */
 
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/timer.h>
-#include <linux/watchdog.h>
+#include <peenux/io.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/timer.h>
+#include <peenux/watchdog.h>
 
 /* default timeout (secs) */
 #define WDT_TIMEOUT 32

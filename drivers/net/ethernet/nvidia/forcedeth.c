@@ -32,27 +32,27 @@
 #define FORCEDETH_VERSION		"0.64"
 #define DRV_NAME			"forcedeth"
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/timer.h>
-#include <linux/skbuff.h>
-#include <linux/mii.h>
-#include <linux/random.h>
-#include <linux/if_vlan.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/prefetch.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/ethtool.h>
+#include <peenux/timer.h>
+#include <peenux/skbuff.h>
+#include <peenux/mii.h>
+#include <peenux/random.h>
+#include <peenux/if_vlan.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/prefetch.h>
+#include <peenux/u64_stats_sync.h>
+#include <peenux/io.h>
 
 #include <asm/irq.h>
 
@@ -927,7 +927,7 @@ static int phy_cross = NV_CROSSOVER_DETECTION_DISABLED;
 
 /*
  * Power down phy when interface is down (persists through reboot;
- * older Linux and other OSes may not power it up again)
+ * older Peenux and other OSes may not power it up again)
  */
 static int phy_power_down;
 

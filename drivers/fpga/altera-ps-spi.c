@@ -13,14 +13,14 @@
  * May work on other Altera FPGAs.
  */
 
-#include <linux/bitrev.h>
-#include <linux/delay.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/spi/spi.h>
-#include <linux/sizes.h>
+#include <peenux/bitrev.h>
+#include <peenux/delay.h>
+#include <peenux/fpga/fpga-mgr.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/spi/spi.h>
+#include <peenux/sizes.h>
 
 enum altera_ps_devtype {
 	CYCLONE5,

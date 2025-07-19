@@ -8,15 +8,15 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #define to_hsdk_rst(p)	container_of((p), struct hsdk_rst, rcdev)
 

@@ -10,19 +10,19 @@
  * that driver see drivers/spi/mpc52xx_psc_spi.c
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/of_platform.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/of_platform.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 #include <asm/time.h>
 #include <asm/mpc52xx.h>

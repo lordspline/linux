@@ -4,13 +4,13 @@
  * Author: Lorenzo Bianconi <lorenzo@kernel.org>
  */
 
-#include <linux/devcoredump.h>
-#include <linux/firmware.h>
-#include <linux/platform_device.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/regmap.h>
+#include <peenux/devcoredump.h>
+#include <peenux/firmware.h>
+#include <peenux/platform_device.h>
+#include <peenux/of_net.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/regmap.h>
 
 #include "airoha_eth.h"
 #include "airoha_npu.h"

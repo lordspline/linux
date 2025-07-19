@@ -6,7 +6,7 @@
 #ifndef __XE_PXP_SUBMIT_H__
 #define __XE_PXP_SUBMIT_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct xe_pxp;
 struct xe_pxp_gsc_client_resources;

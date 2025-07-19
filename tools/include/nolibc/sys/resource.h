@@ -12,7 +12,7 @@
 
 #include "../sys.h"
 
-#include <linux/resource.h>
+#include <peenux/resource.h>
 
 /*
  * int getrlimit(int resource, struct rlimit *rlim);

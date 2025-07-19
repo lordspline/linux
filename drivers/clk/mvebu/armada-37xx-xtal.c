@@ -8,10 +8,10 @@
  *
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define NB_GPIO1_LATCH	0x8
 #define XTAL_MODE	    BIT(9)

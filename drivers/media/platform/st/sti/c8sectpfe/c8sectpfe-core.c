@@ -8,30 +8,30 @@
  *	    Peter Griffin <peter.griffin@linaro.org>
  *
  */
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dvb/dmx.h>
-#include <linux/dvb/frontend.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/usb.h>
-#include <linux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dvb/dmx.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/usb.h>
+#include <peenux/wait.h>
 
 #include "c8sectpfe-common.h"
 #include "c8sectpfe-core.h"

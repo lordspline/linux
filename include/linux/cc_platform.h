@@ -10,8 +10,8 @@
 #ifndef _LINUX_CC_PLATFORM_H
 #define _LINUX_CC_PLATFORM_H
 
-#include <linux/types.h>
-#include <linux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
 
 /**
  * enum cc_attr - Confidential computing attributes

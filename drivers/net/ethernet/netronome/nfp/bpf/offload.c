@@ -8,14 +8,14 @@
 
 #define pr_fmt(fmt)	"NFP net bpf: " fmt
 
-#include <linux/bpf.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/jiffies.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/mm.h>
+#include <peenux/bpf.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/jiffies.h>
+#include <peenux/timer.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
 
 #include <net/pkt_cls.h>
 #include <net/tc_act/tc_gact.h>

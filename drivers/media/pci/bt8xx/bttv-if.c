@@ -14,9 +14,9 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
 #include <asm/io.h>
 
 #include "bttvp.h"

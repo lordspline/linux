@@ -22,19 +22,19 @@
  *  September 04, 2002 Mike Anderson (andmike@us.ibm.com)
  */
 
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/completion.h>
-#include <linux/transport_class.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/idr.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/completion.h>
+#include <peenux/transport_class.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/idr.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_transport.h>

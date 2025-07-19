@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0+
-// Copyright (C) 2008-2009 The GameCube Linux Team
+// Copyright (C) 2008-2009 The GameCube Peenux Team
 // Copyright (C) 2008,2009 Albert Herranz
 // Copyright (C) 2017-2018 Jonathan Neuschäfer
 //
 // Nintendo Wii (Hollywood) GPIO driver
 
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
 /*
  * Register names and offsets courtesy of WiiBrew:

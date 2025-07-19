@@ -4,18 +4,18 @@
  *
  * Copyright (c) 2020 Tomasz Duszynski <tomasz.duszynski@octakon.com>
  */
-#include <linux/crc16.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/iio/iio.h>
-#include <linux/jiffies.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/serdev.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/crc16.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/iio/iio.h>
+#include <peenux/jiffies.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/serdev.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 #include "scd30.h"
 

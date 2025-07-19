@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Simple NUMA memory policy for the Linux kernel.
+ * Simple NUMA memory policy for the Peenux kernel.
  *
  * Copyright 2003,2004 Andi Kleen, SuSE Labs.
  * (C) Copyright 2005 Christoph Lameter, Silicon Graphics, Inc.
@@ -42,7 +42,7 @@
  *                similar to preferred without the special case.
  *
  * default        Allocate on the local node first, or when on a VMA
- *                use the process policy. This is what Linux always did
+ *                use the process policy. This is what Peenux always did
  *		  in a NUMA aware kernel and still does by, ahem, default.
  *
  * The process policy is applied for most non interrupt memory allocations
@@ -77,44 +77,44 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/mempolicy.h>
-#include <linux/pagewalk.h>
-#include <linux/highmem.h>
-#include <linux/hugetlb.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/numa_balancing.h>
-#include <linux/sched/task.h>
-#include <linux/nodemask.h>
-#include <linux/cpuset.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/nsproxy.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/compat.h>
-#include <linux/ptrace.h>
-#include <linux/swap.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/migrate.h>
-#include <linux/ksm.h>
-#include <linux/rmap.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/ctype.h>
-#include <linux/mm_inline.h>
-#include <linux/mmu_notifier.h>
-#include <linux/printk.h>
-#include <linux/swapops.h>
-#include <linux/gcd.h>
+#include <peenux/mempolicy.h>
+#include <peenux/pagewalk.h>
+#include <peenux/highmem.h>
+#include <peenux/hugetlb.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/numa_balancing.h>
+#include <peenux/sched/task.h>
+#include <peenux/nodemask.h>
+#include <peenux/cpuset.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/export.h>
+#include <peenux/nsproxy.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/compat.h>
+#include <peenux/ptrace.h>
+#include <peenux/swap.h>
+#include <peenux/seq_file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/migrate.h>
+#include <peenux/ksm.h>
+#include <peenux/rmap.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/ctype.h>
+#include <peenux/mm_inline.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/printk.h>
+#include <peenux/swapops.h>
+#include <peenux/gcd.h>
 
 #include <asm/tlbflush.h>
 #include <asm/tlb.h>
-#include <linux/uaccess.h>
-#include <linux/memory.h>
+#include <peenux/uaccess.h>
+#include <peenux/memory.h>
 
 #include "internal.h"
 

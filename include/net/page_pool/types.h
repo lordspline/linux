@@ -3,10 +3,10 @@
 #ifndef _NET_PAGE_POOL_TYPES_H
 #define _NET_PAGE_POOL_TYPES_H
 
-#include <linux/dma-direction.h>
-#include <linux/ptr_ring.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <peenux/dma-direction.h>
+#include <peenux/ptr_ring.h>
+#include <peenux/types.h>
+#include <peenux/xarray.h>
 #include <net/netmem.h>
 
 #define PP_FLAG_DMA_MAP		BIT(0) /* Should page_pool do the DMA

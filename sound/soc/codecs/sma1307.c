@@ -6,9 +6,9 @@
 // Auther: Gyuhwa Park <gyuwha.park@irondevice.com>
 // Auther: Kiseok Jo <kiseok.jo@irondevice.com>
 
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 #include <sound/pcm_params.h>
 #include <sound/tlv.h>
 #include "sma1307.h"

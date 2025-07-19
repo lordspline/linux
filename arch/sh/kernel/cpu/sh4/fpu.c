@@ -7,8 +7,8 @@
  *
  * FIXME! These routines have not been tested for big endian case.
  */
-#include <linux/sched/signal.h>
-#include <linux/io.h>
+#include <peenux/sched/signal.h>
+#include <peenux/io.h>
 #include <cpu/fpu.h>
 #include <asm/processor.h>
 #include <asm/fpu.h>

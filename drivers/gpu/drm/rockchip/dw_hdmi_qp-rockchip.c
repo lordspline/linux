@@ -7,14 +7,14 @@
  * Author: Cristian Ciocaltea <cristian.ciocaltea@collabora.com>
  */
 
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/regmap.h>
-#include <linux/workqueue.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy/phy.h>
+#include <peenux/regmap.h>
+#include <peenux/workqueue.h>
 
 #include <drm/bridge/dw_hdmi_qp.h>
 #include <drm/display/drm_hdmi_helper.h>

@@ -7,13 +7,13 @@
  * Author: MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/gpio.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/gpio.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
 #include <asm/bootinfo.h>
 #include <asm/reboot.h>
 #include <asm/setup.h>

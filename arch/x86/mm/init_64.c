@@ -1,43 +1,43 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/x86_64/mm/init.c
+ *  peenux/arch/x86_64/mm/init.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  *  Copyright (C) 2000  Pavel Machek <pavel@ucw.cz>
  *  Copyright (C) 2002,2003 Andi Kleen <ak@suse.de>
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/initrd.h>
-#include <linux/pagemap.h>
-#include <linux/memblock.h>
-#include <linux/proc_fs.h>
-#include <linux/pci.h>
-#include <linux/pfn.h>
-#include <linux/poison.h>
-#include <linux/dma-mapping.h>
-#include <linux/memory.h>
-#include <linux/memory_hotplug.h>
-#include <linux/memremap.h>
-#include <linux/nmi.h>
-#include <linux/gfp.h>
-#include <linux/kcore.h>
-#include <linux/bootmem_info.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/smp.h>
+#include <peenux/init.h>
+#include <peenux/initrd.h>
+#include <peenux/pagemap.h>
+#include <peenux/memblock.h>
+#include <peenux/proc_fs.h>
+#include <peenux/pci.h>
+#include <peenux/pfn.h>
+#include <peenux/poison.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/memory.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/memremap.h>
+#include <peenux/nmi.h>
+#include <peenux/gfp.h>
+#include <peenux/kcore.h>
+#include <peenux/bootmem_info.h>
 
 #include <asm/processor.h>
 #include <asm/bios_ebda.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/pgalloc.h>
 #include <asm/dma.h>
 #include <asm/fixmap.h>

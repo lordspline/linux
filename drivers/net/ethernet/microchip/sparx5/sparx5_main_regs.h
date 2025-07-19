@@ -11,9 +11,9 @@
 #ifndef _SPARX5_MAIN_REGS_H_
 #define _SPARX5_MAIN_REGS_H_
 
-#include <linux/bitfield.h>
-#include <linux/types.h>
-#include <linux/bug.h>
+#include <peenux/bitfield.h>
+#include <peenux/types.h>
+#include <peenux/bug.h>
 
 #include "sparx5_regs.h"
 

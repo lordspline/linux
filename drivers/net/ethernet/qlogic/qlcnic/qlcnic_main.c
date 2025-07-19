@@ -4,16 +4,16 @@
  * Copyright (c) 2009-2013 QLogic Corporation
  */
 
-#include <linux/vmalloc.h>
-#include <linux/interrupt.h>
-#include <linux/swab.h>
-#include <linux/dma-mapping.h>
-#include <linux/if_vlan.h>
+#include <peenux/vmalloc.h>
+#include <peenux/interrupt.h>
+#include <peenux/swab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/if_vlan.h>
 #include <net/ip.h>
-#include <linux/ipv6.h>
-#include <linux/inetdevice.h>
-#include <linux/log2.h>
-#include <linux/pci.h>
+#include <peenux/ipv6.h>
+#include <peenux/inetdevice.h>
+#include <peenux/log2.h>
+#include <peenux/pci.h>
 #include <net/vxlan.h>
 
 #include "qlcnic.h"

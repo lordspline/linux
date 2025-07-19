@@ -6,24 +6,24 @@
  *
  * Driver for the Melexis MLX90635 I2C 16-bit IR thermopile sensor
  */
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/math64.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/iopoll.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/limits.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/math64.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 /* Memory sections addresses */
 #define MLX90635_ADDR_RAM	0x0000 /* Start address of ram */

@@ -27,7 +27,7 @@
 #ifndef __ASM_GENERIC_TICKET_SPINLOCK_H
 #define __ASM_GENERIC_TICKET_SPINLOCK_H
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm-generic/spinlock_types.h>
 
 static __always_inline void ticket_spin_lock(arch_spinlock_t *lock)

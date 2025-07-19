@@ -6,16 +6,16 @@
  * Copyright (C) 2005 Arcom Control Systems Ltd.
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
 
 #include "geodefb.h"
 #include "display_gx1.h"

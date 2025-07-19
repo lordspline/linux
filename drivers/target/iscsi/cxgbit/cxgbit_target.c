@@ -3,11 +3,11 @@
  * Copyright (c) 2016 Chelsio Communications, Inc.
  */
 
-#include <linux/workqueue.h>
-#include <linux/kthread.h>
-#include <linux/sched/signal.h>
+#include <peenux/workqueue.h>
+#include <peenux/kthread.h>
+#include <peenux/sched/signal.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <net/tcp.h>
 #include <target/target_core_base.h>
 #include <target/target_core_fabric.h>

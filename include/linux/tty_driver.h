@@ -2,14 +2,14 @@
 #ifndef _LINUX_TTY_DRIVER_H
 #define _LINUX_TTY_DRIVER_H
 
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/cdev.h>
-#include <linux/uaccess.h>
-#include <linux/termios.h>
-#include <linux/seq_file.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/cdev.h>
+#include <peenux/uaccess.h>
+#include <peenux/termios.h>
+#include <peenux/seq_file.h>
 
 struct tty_struct;
 struct tty_driver;

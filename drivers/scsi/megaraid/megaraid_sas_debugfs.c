@@ -1,5 +1,5 @@
 /*
- *  Linux MegaRAID driver for SAS based RAID controllers
+ *  Peenux MegaRAID driver for SAS based RAID controllers
  *
  *  Copyright (c) 2003-2018  LSI Corporation.
  *  Copyright (c) 2003-2018  Avago Technologies.
@@ -25,12 +25,12 @@
  *
  *  Send feedback to: megaraidlinux.pdl@broadcom.com
  */
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/compat.h>
-#include <linux/irq_poll.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/compat.h>
+#include <peenux/irq_poll.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_device.h>
@@ -40,7 +40,7 @@
 #include "megaraid_sas.h"
 
 #ifdef CONFIG_DEBUG_FS
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 struct dentry *megasas_debugfs_root;
 

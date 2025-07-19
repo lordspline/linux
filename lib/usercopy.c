@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/fault-inject-usercopy.h>
-#include <linux/instrumented.h>
-#include <linux/kernel.h>
-#include <linux/nospec.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/wordpart.h>
+#include <peenux/compiler.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/fault-inject-usercopy.h>
+#include <peenux/instrumented.h>
+#include <peenux/kernel.h>
+#include <peenux/nospec.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
+#include <peenux/wordpart.h>
 
 /* out-of-line parts */
 

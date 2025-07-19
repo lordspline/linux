@@ -4,17 +4,17 @@
  * SPDX-License-Identifier: GPL-2.0
  */
 
-#include <linux/delay.h>
-#include <linux/hwspinlock.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/spi/spi.h>
-#include <linux/sizes.h>
+#include <peenux/delay.h>
+#include <peenux/hwspinlock.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/spi/spi.h>
+#include <peenux/sizes.h>
 
 /* Registers definitions for ADI controller */
 #define REG_ADI_CTRL0			0x4

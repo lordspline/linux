@@ -7,13 +7,13 @@
  * Author: Ramona Bolboaca <ramona.bolboaca@analog.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/adc/ad_sigma_delta.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/adc/ad_sigma_delta.h>
 
 #define MAX11205_BIT_SCALE	15
 #define MAX11205A_OUT_DATA_RATE	116

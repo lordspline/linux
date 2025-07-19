@@ -12,30 +12,30 @@
  * the project's page is at https://linuxtv.org
  */
 
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/timer.h>
-#include <linux/poll.h>
+#include <peenux/module.h>
+#include <peenux/kmod.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/timer.h>
+#include <peenux/poll.h>
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/firmware.h>
-#include <linux/crc32.h>
-#include <linux/i2c.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/string.h>
+#include <peenux/pci.h>
+#include <peenux/vmalloc.h>
+#include <peenux/firmware.h>
+#include <peenux/crc32.h>
+#include <peenux/i2c.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 #include <asm/byteorder.h>
 
-#include <linux/dvb/frontend.h>
+#include <peenux/dvb/frontend.h>
 
 #include <media/dvb_frontend.h>
 

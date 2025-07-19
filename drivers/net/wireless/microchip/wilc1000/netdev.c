@@ -4,11 +4,11 @@
  * All rights reserved.
  */
 
-#include <linux/irq.h>
-#include <linux/kthread.h>
-#include <linux/firmware.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
+#include <peenux/irq.h>
+#include <peenux/kthread.h>
+#include <peenux/firmware.h>
+#include <peenux/netdevice.h>
+#include <peenux/inetdevice.h>
 
 #include "cfg80211.h"
 #include "wlan_cfg.h"

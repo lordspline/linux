@@ -5,7 +5,7 @@
     Copyright (C) 1997-2011  AudioScience Inc. <support@audioscience.com>
 
 
-HPI Operating System Specific macros for Linux Kernel driver
+HPI Operating System Specific macros for Peenux Kernel driver
 
 (C) Copyright AudioScience Inc. 1997-2003
 ******************************************************************************/
@@ -18,15 +18,15 @@ HPI Operating System Specific macros for Linux Kernel driver
 #define HPI_OS_DEFINED
 #define HPI_BUILD_KERNEL_MODE
 
-#include <linux/io.h>
-#include <linux/ioctl.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/mutex.h>
+#include <peenux/io.h>
+#include <peenux/ioctl.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/mutex.h>
 
 #define HPI_NO_OS_FILE_OPS
 
@@ -78,7 +78,7 @@ struct hpi_ioctl_linux {
 #define HPI_DEBUG_FLAG_DEBUG   KERN_DEBUG
 #define HPI_DEBUG_FLAG_VERBOSE KERN_DEBUG	/* kernel has no verbose */
 
-#include <linux/spinlock.h>
+#include <peenux/spinlock.h>
 
 #define HPI_LOCKING
 

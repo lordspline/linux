@@ -2,20 +2,20 @@
 /*
  * Marvell Dove PMU support
  */
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/reset.h>
-#include <linux/reset-controller.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/soc/dove/pmu.h>
-#include <linux/spinlock.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/reset.h>
+#include <peenux/reset-controller.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/soc/dove/pmu.h>
+#include <peenux/spinlock.h>
 
 #define NR_PMU_IRQS		7
 

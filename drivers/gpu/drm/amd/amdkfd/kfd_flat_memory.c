@@ -22,20 +22,20 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
-#include <uapi/linux/kfd_ioctl.h>
-#include <linux/time.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/compat.h>
+#include <uapi/peenux/kfd_ioctl.h>
+#include <peenux/time.h>
 #include "kfd_priv.h"
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/processor.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/processor.h>
 #include "amdgpu_vm.h"
 
 /*

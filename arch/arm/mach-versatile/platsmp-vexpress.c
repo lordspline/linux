@@ -3,12 +3,12 @@
  *  Copyright (C) 2002 ARM Ltd.
  *  All Rights Reserved
  */
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/smp.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/vexpress.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/smp.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/vexpress.h>
 
 #include <asm/mcpm.h>
 #include <asm/smp_scu.h>

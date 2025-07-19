@@ -8,7 +8,7 @@
 #ifndef __LINUX_VIDEOMODE_H
 #define __LINUX_VIDEOMODE_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <video/display_timing.h>
 
 /*

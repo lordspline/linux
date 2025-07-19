@@ -6,8 +6,8 @@
 #ifndef _VCHIQ_DEVICE_H
 #define _VCHIQ_DEVICE_H
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
 
 struct vchiq_drv_mgmt;
 

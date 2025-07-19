@@ -7,26 +7,26 @@
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  * Copyright (C) 2001 MIPS Technologies, Inc.
  */
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/linkage.h>
-#include <linux/fs.h>
-#include <linux/smp.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/syscalls.h>
-#include <linux/file.h>
-#include <linux/utsname.h>
-#include <linux/unistd.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/compiler.h>
-#include <linux/ipc.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/elf.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/linkage.h>
+#include <peenux/fs.h>
+#include <peenux/smp.h>
+#include <peenux/ptrace.h>
+#include <peenux/string.h>
+#include <peenux/syscalls.h>
+#include <peenux/file.h>
+#include <peenux/utsname.h>
+#include <peenux/unistd.h>
+#include <peenux/sem.h>
+#include <peenux/msg.h>
+#include <peenux/shm.h>
+#include <peenux/compiler.h>
+#include <peenux/ipc.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/elf.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/asm.h>
 #include <asm/asm-eva.h>
@@ -46,7 +46,7 @@
  * For historic reasons the pipe(2) syscall on MIPS has an unusual calling
  * convention.	It returns results in registers $v0 / $v1 which means there
  * is no need for it to do verify the validity of a userspace pointer
- * argument.  Historically that used to be expensive in Linux.	These days
+ * argument.  Historically that used to be expensive in Peenux.	These days
  * the performance advantage is negligible.
  */
 asmlinkage int sysm_pipe(void)

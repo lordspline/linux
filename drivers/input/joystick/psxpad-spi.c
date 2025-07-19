@@ -19,14 +19,14 @@
  * 9: ACK -> N.C.
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/types.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
 
 #define REVERSE_BIT(x) ((((x) & 0x80) >> 7) | (((x) & 0x40) >> 5) | \
 	(((x) & 0x20) >> 3) | (((x) & 0x10) >> 1) | (((x) & 0x08) << 1) | \

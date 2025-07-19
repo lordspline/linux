@@ -12,14 +12,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/gpio/driver.h>
 
 /* Chip Id numbers */
 #define NO_DEV_ID	0xffff

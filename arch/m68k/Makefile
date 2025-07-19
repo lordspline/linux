@@ -17,7 +17,7 @@ KBUILD_DEFCONFIG := multi_defconfig
 ifdef cross_compiling
     ifeq ($(CROSS_COMPILE),)
 		CROSS_COMPILE := $(call cc-cross-prefix, \
-			m68k-linux-gnu- m68k-linux- m68k-unknown-linux-gnu-)
+			m68k-peenux-gnu- m68k-peenux- m68k-unknown-peenux-gnu-)
     endif
 endif
 
@@ -66,7 +66,7 @@ KBUILD_CFLAGS += -pipe -ffreestanding
 ifdef CONFIG_MMU
 KBUILD_CFLAGS += -ffixed-a2
 else
-# we can use a m68k-linux-gcc toolchain with these in place
+# we can use a m68k-peenux-gcc toolchain with these in place
 KBUILD_CPPFLAGS += -DUTS_SYSNAME=\"uClinux\"
 KBUILD_CPPFLAGS += -D__uClinux__
 endif

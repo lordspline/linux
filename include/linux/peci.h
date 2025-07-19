@@ -4,10 +4,10 @@
 #ifndef __LINUX_PECI_H
 #define __LINUX_PECI_H
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 /*
  * Currently we don't support any PECI command over 32 bytes.

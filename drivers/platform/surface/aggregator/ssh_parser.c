@@ -5,12 +5,12 @@
  * Copyright (C) 2019-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/compiler.h>
-#include <linux/device.h>
-#include <linux/types.h>
+#include <peenux/unaligned.h>
+#include <peenux/compiler.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
 
-#include <linux/surface_aggregator/serial_hub.h>
+#include <peenux/surface_aggregator/serial_hub.h>
 #include "ssh_parser.h"
 
 /**

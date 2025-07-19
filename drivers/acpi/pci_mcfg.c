@@ -8,10 +8,10 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci-acpi.h>
-#include <linux/pci-ecam.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/pci-acpi.h>
+#include <peenux/pci-ecam.h>
 
 /* Structure to hold entries from the MCFG table */
 struct mcfg_entry {

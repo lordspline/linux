@@ -2,9 +2,9 @@
 #ifndef _SCREEN_INFO_H
 #define _SCREEN_INFO_H
 
-#include <uapi/linux/screen_info.h>
+#include <uapi/peenux/screen_info.h>
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 /**
  * SCREEN_INFO_MAX_RESOURCES - maximum number of resources per screen_info

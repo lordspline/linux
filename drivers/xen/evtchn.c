@@ -9,7 +9,7 @@
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License version 2
  * as published by the Free Software Foundation; or, when distributed
- * separately from the Linux kernel or incorporated into other
+ * separately from the Peenux kernel or incorporated into other
  * software packages, subject to the following license:
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -33,24 +33,24 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/major.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/poll.h>
-#include <linux/irq.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/cpu.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/major.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/poll.h>
+#include <peenux/irq.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/cpu.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
 
 #include <xen/xen.h>
 #include <xen/events.h>

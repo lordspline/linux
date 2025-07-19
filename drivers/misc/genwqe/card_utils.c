@@ -4,7 +4,7 @@
  *
  * (C) Copyright IBM Corp. 2013
  *
- * Author: Frank Haverkamp <haver@linux.vnet.ibm.com>
+ * Author: Frank Haverkamp <haver@peenux.vnet.ibm.com>
  * Author: Joerg-Stephan Vogt <jsvogt@de.ibm.com>
  * Author: Michael Jung <mijung@gmx.net>
  * Author: Michael Ruettger <michael@ibmra.de>
@@ -14,20 +14,20 @@
  * Miscelanous functionality used in the other GenWQE driver parts.
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/vmalloc.h>
-#include <linux/page-flags.h>
-#include <linux/scatterlist.h>
-#include <linux/hugetlb.h>
-#include <linux/iommu.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/ctype.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/pgtable.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/vmalloc.h>
+#include <peenux/page-flags.h>
+#include <peenux/scatterlist.h>
+#include <peenux/hugetlb.h>
+#include <peenux/iommu.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/ctype.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/pgtable.h>
 
 #include "genwqe_driver.h"
 #include "card_base.h"

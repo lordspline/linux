@@ -5,19 +5,19 @@
  * All rights reserved.
  */
 
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/interrupt.h>
 #include "netxen_nic_hw.h"
 
 #include "netxen_nic.h"
 
-#include <linux/dma-mapping.h>
-#include <linux/if_vlan.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/if_vlan.h>
 #include <net/ip.h>
-#include <linux/ipv6.h>
-#include <linux/inetdevice.h>
-#include <linux/sysfs.h>
+#include <peenux/ipv6.h>
+#include <peenux/inetdevice.h>
+#include <peenux/sysfs.h>
 
 MODULE_DESCRIPTION("QLogic/NetXen (1/10) GbE Intelligent Ethernet Driver");
 MODULE_LICENSE("GPL");

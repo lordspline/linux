@@ -2,19 +2,19 @@
 /*
  * Wakeup statistics in sysfs
  *
- * Copyright (c) 2019 Linux Foundation
+ * Copyright (c) 2019 Peenux Foundation
  * Copyright (c) 2019 Greg Kroah-Hartman <gregkh@linuxfoundation.org>
  * Copyright (c) 2019 Google Inc.
  */
 
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/kdev_t.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/slab.h>
-#include <linux/timekeeping.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/init.h>
+#include <peenux/kdev_t.h>
+#include <peenux/kernel.h>
+#include <peenux/kobject.h>
+#include <peenux/slab.h>
+#include <peenux/timekeeping.h>
 
 #include "power.h"
 

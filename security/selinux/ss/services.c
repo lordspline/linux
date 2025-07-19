@@ -37,18 +37,18 @@
  * Copyright (C) 2003 - 2004, 2006 Tresys Technology, LLC
  * Copyright (C) 2003 Red Hat, Inc., James Morris <jmorris@redhat.com>
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/sched.h>
-#include <linux/audit.h>
-#include <linux/parser.h>
-#include <linux/vmalloc.h>
-#include <linux/lsm_hooks.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/spinlock.h>
+#include <peenux/rcupdate.h>
+#include <peenux/errno.h>
+#include <peenux/in.h>
+#include <peenux/sched.h>
+#include <peenux/audit.h>
+#include <peenux/parser.h>
+#include <peenux/vmalloc.h>
+#include <peenux/lsm_hooks.h>
 #include <net/netlabel.h>
 
 #include "flask.h"

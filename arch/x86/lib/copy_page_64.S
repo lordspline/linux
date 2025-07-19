@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* Written 2003 by Andi Kleen, based on a kernel by Evandro Menezes */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <peenux/export.h>
+#include <peenux/linkage.h>
+#include <peenux/cfi_types.h>
 #include <asm/cpufeatures.h>
 #include <asm/alternative.h>
 

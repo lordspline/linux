@@ -1,22 +1,22 @@
 /*
  * Copyright (C) 2003 PathScale, Inc.
- * Copyright (C) 2003 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2003 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  * Licensed under the GPL
  */
 
 
-#include <linux/personality.h>
-#include <linux/ptrace.h>
-#include <linux/kernel.h>
-#include <linux/syscalls.h>
+#include <peenux/personality.h>
+#include <peenux/ptrace.h>
+#include <peenux/kernel.h>
+#include <peenux/syscalls.h>
 #include <asm/unistd.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/ucontext.h>
 #include <frame_kern.h>
 #include <registers.h>
 #include <skas.h>
 
-#include <linux/regset.h>
+#include <peenux/regset.h>
 #include <asm/sigframe.h>
 
 #ifdef CONFIG_X86_32

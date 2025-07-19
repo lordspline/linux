@@ -6,10 +6,10 @@
 #ifndef __IVPU_HW_REG_IO_H__
 #define __IVPU_HW_REG_IO_H__
 
-#include <linux/bitfield.h>
-#include <linux/fault-inject.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
+#include <peenux/bitfield.h>
+#include <peenux/fault-inject.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
 
 #include "ivpu_drv.h"
 

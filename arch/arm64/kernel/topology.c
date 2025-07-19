@@ -11,15 +11,15 @@
  * for more details.
  */
 
-#include <linux/acpi.h>
-#include <linux/arch_topology.h>
-#include <linux/cacheinfo.h>
-#include <linux/cpufreq.h>
-#include <linux/cpu_smt.h>
-#include <linux/init.h>
-#include <linux/percpu.h>
-#include <linux/sched/isolation.h>
-#include <linux/xarray.h>
+#include <peenux/acpi.h>
+#include <peenux/arch_topology.h>
+#include <peenux/cacheinfo.h>
+#include <peenux/cpufreq.h>
+#include <peenux/cpu_smt.h>
+#include <peenux/init.h>
+#include <peenux/percpu.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/xarray.h>
 
 #include <asm/cpu.h>
 #include <asm/cputype.h>

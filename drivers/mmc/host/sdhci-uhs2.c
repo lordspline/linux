@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/mmc/host/sdhci_uhs2.c - Secure Digital Host Controller
+ *  peenux/drivers/mmc/host/sdhci_uhs2.c - Secure Digital Host Controller
  *  Interface driver
  *
  *  Copyright (C) 2014 Intel Corp, All Rights Reserved.
@@ -10,13 +10,13 @@
  *  Author: AKASHI Takahiro <takahiro.akashi@linaro.org>
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/iopoll.h>
-#include <linux/bitfield.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/host.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/iopoll.h>
+#include <peenux/bitfield.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/host.h>
 
 #include "sdhci.h"
 #include "sdhci-uhs2.h"

@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/miscdevice.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/miscdevice.h>
 
 #include <asm/opal.h>
 

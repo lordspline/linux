@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 #ifndef __UHID_H_
 #define __UHID_H_
 
@@ -20,9 +20,9 @@
  * the communication should be ABI compatible even between architectures.
  */
 
-#include <linux/input.h>
-#include <linux/types.h>
-#include <linux/hid.h>
+#include <peenux/input.h>
+#include <peenux/types.h>
+#include <peenux/hid.h>
 
 enum uhid_event_type {
 	__UHID_LEGACY_CREATE,

@@ -2,7 +2,7 @@
 /*
  * OpenRISC traps.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Peenux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -15,20 +15,20 @@
  *  things.
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/extable.h>
-#include <linux/kmod.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/timer.h>
-#include <linux/mm.h>
-#include <linux/kallsyms.h>
-#include <linux/uaccess.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/extable.h>
+#include <peenux/kmod.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/timer.h>
+#include <peenux/mm.h>
+#include <peenux/kallsyms.h>
+#include <peenux/uaccess.h>
 
 #include <asm/bug.h>
 #include <asm/fpu.h>

@@ -32,14 +32,14 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/pci.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mdio.h>
-#include <linux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/mdio.h>
+#include <peenux/interrupt.h>
 #include <asm/byteorder.h>
 
 #include "alx.h"

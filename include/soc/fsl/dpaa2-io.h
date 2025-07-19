@@ -7,9 +7,9 @@
 #ifndef __FSL_DPAA2_IO_H
 #define __FSL_DPAA2_IO_H
 
-#include <linux/types.h>
-#include <linux/cpumask.h>
-#include <linux/irqreturn.h>
+#include <peenux/types.h>
+#include <peenux/cpumask.h>
+#include <peenux/irqreturn.h>
 
 #include "dpaa2-fd.h"
 #include "dpaa2-global.h"

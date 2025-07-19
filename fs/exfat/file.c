@@ -3,15 +3,15 @@
  * Copyright (C) 2012-2013 Samsung Electronics Co., Ltd.
  */
 
-#include <linux/slab.h>
-#include <linux/compat.h>
-#include <linux/cred.h>
-#include <linux/buffer_head.h>
-#include <linux/blkdev.h>
-#include <linux/fsnotify.h>
-#include <linux/security.h>
-#include <linux/msdos_fs.h>
-#include <linux/writeback.h>
+#include <peenux/slab.h>
+#include <peenux/compat.h>
+#include <peenux/cred.h>
+#include <peenux/buffer_head.h>
+#include <peenux/blkdev.h>
+#include <peenux/fsnotify.h>
+#include <peenux/security.h>
+#include <peenux/msdos_fs.h>
+#include <peenux/writeback.h>
 
 #include "exfat_raw.h"
 #include "exfat_fs.h"

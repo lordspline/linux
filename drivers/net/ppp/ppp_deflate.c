@@ -6,17 +6,17 @@
  * Copyright 1994-1998 Paul Mackerras.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
 
-#include <linux/ppp_defs.h>
-#include <linux/ppp-comp.h>
+#include <peenux/ppp_defs.h>
+#include <peenux/ppp-comp.h>
 
-#include <linux/zlib.h>
-#include <linux/unaligned.h>
+#include <peenux/zlib.h>
+#include <peenux/unaligned.h>
 
 /*
  * State for a Deflate (de)compressor.

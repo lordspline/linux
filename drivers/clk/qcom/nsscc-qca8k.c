@@ -3,15 +3,15 @@
  * Copyright (c) 2023, Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/phy.h>
-#include <linux/mdio.h>
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/clk-provider.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/phy.h>
+#include <peenux/mdio.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/consumer.h>
 
 #include <dt-bindings/clock/qcom,qca8k-nsscc.h>
 #include <dt-bindings/reset/qcom,qca8k-nsscc.h>

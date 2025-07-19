@@ -5,18 +5,18 @@
  * Copyright (C) 2012 Richard Cochran <richardcochran@gmail.com>
  *
  */
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/if.h>
-#include <linux/hrtimer.h>
-#include <linux/module.h>
-#include <linux/net_tstamp.h>
-#include <linux/ptp_classify.h>
-#include <linux/time.h>
-#include <linux/uaccess.h>
-#include <linux/workqueue.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/if.h>
+#include <peenux/hrtimer.h>
+#include <peenux/module.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/time.h>
+#include <peenux/uaccess.h>
+#include <peenux/workqueue.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
 
 #include "cpts.h"
 

@@ -8,10 +8,10 @@
  * Copyright 2021-2024  Intel Corporation
  */
 
-#include <linux/export.h>
-#include <linux/etherdevice.h>
+#include <peenux/export.h>
+#include <peenux/etherdevice.h>
 #include <net/mac80211.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include "ieee80211_i.h"
 #include "rate.h"
 #include "mesh.h"

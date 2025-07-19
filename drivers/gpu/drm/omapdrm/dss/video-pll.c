@@ -3,13 +3,13 @@
  * Copyright (C) 2014 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
 
 #include "omapdss.h"
 #include "dss.h"

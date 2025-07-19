@@ -6,11 +6,11 @@
  * Copyright (C) 2019, Intel Corporation
  */
 
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/ktime.h>
-#include <linux/string_helpers.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/ktime.h>
+#include <peenux/string_helpers.h>
 
 #include "tunnel.h"
 #include "tb.h"

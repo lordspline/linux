@@ -6,16 +6,16 @@
  * Copyright (C) 2016 Nextfour Group
  */
 
-#include <linux/crc-itu-t.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/crc-itu-t.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/interrupt.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #define SIS_I2C_NAME		"sis_i2c_ts"
 

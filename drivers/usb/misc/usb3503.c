@@ -5,15 +5,15 @@
  * Copyright (c) 2012-2013 Dongjin Kim (tobetter@gmail.com)
  */
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/usb3503.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/usb3503.h>
+#include <peenux/regmap.h>
 
 #define USB3503_VIDL		0x00
 #define USB3503_VIDM		0x01

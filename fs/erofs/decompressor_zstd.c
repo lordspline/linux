@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/zstd.h>
+#include <peenux/zstd.h>
 #include "compress.h"
 
 struct z_erofs_zstd {

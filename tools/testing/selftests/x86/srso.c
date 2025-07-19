@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/perf_event.h>
+#include <peenux/perf_event.h>
 #include <cpuid.h>
 #include <errno.h>
 #include <stdio.h>

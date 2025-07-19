@@ -6,15 +6,15 @@
  *
  * Copyright (c) 2010 Silicon Hive www.siliconhive.com.
  */
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/pm_runtime.h>
-#include <linux/timer.h>
+#include <peenux/errno.h>
+#include <peenux/firmware.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/kfifo.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/timer.h>
 
 #include <asm/iosf_mbi.h>
 

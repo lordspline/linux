@@ -17,20 +17,20 @@
  * Czech Technical University        (http://www.cvut.cz/)
  ******************************************************************************/
 
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/can/error.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/errno.h>
+#include <peenux/ethtool.h>
+#include <peenux/init.h>
+#include <peenux/bitfield.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/can/error.h>
+#include <peenux/pm_runtime.h>
 
 #include "ctucanfd.h"
 #include "ctucanfd_kregs.h"

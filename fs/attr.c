@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/attr.c
+ *  peenux/fs/attr.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *  changes by Thomas Schoebel-Theuer
  */
 
-#include <linux/export.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/sched/signal.h>
-#include <linux/capability.h>
-#include <linux/fsnotify.h>
-#include <linux/fcntl.h>
-#include <linux/filelock.h>
-#include <linux/security.h>
+#include <peenux/export.h>
+#include <peenux/time.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/sched/signal.h>
+#include <peenux/capability.h>
+#include <peenux/fsnotify.h>
+#include <peenux/fcntl.h>
+#include <peenux/filelock.h>
+#include <peenux/security.h>
 
 /**
  * setattr_should_drop_sgid - determine whether the setgid bit needs to be

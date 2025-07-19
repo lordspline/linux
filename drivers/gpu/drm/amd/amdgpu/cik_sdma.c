@@ -22,8 +22,8 @@
  * Authors: Alex Deucher
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
 
 #include "amdgpu.h"
 #include "amdgpu_ucode.h"

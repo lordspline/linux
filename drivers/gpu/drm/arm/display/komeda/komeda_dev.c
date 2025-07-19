@@ -4,16 +4,16 @@
  * Author: James.Qian.Wang <james.qian.wang@arm.com>
  *
  */
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <peenux/io.h>
+#include <peenux/iommu.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
 
 #include <drm/drm_print.h>
 

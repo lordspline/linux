@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regmap.h>
 
 #include "bmi270.h"
 

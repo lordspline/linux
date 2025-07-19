@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Kernel-based Virtual Machine driver for Linux
+ * Kernel-based Virtual Machine driver for Peenux
  *
  * This module enables machines with Intel VT-x extensions to run virtual
  * machines without emulation or binary translation.
@@ -14,21 +14,21 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/highmem.h>
-#include <linux/hrtimer.h>
-#include <linux/kernel.h>
-#include <linux/kvm_host.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mm.h>
-#include <linux/objtool.h>
-#include <linux/sched.h>
-#include <linux/sched/smt.h>
-#include <linux/slab.h>
-#include <linux/tboot.h>
-#include <linux/trace_events.h>
-#include <linux/entry-kvm.h>
+#include <peenux/highmem.h>
+#include <peenux/hrtimer.h>
+#include <peenux/kernel.h>
+#include <peenux/kvm_host.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mm.h>
+#include <peenux/objtool.h>
+#include <peenux/sched.h>
+#include <peenux/sched/smt.h>
+#include <peenux/slab.h>
+#include <peenux/tboot.h>
+#include <peenux/trace_events.h>
+#include <peenux/entry-kvm.h>
 
 #include <asm/apic.h>
 #include <asm/asm.h>
@@ -1489,7 +1489,7 @@ void vmx_vcpu_load_vmcs(struct kvm_vcpu *vcpu, int cpu)
 		kvm_make_request(KVM_REQ_TLB_FLUSH, vcpu);
 
 		/*
-		 * Linux uses per-cpu TSS and GDT, so set these when switching
+		 * Peenux uses per-cpu TSS and GDT, so set these when switching
 		 * processors.  See 22.2.4.
 		 */
 		vmcs_writel(HOST_TR_BASE,

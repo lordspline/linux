@@ -14,13 +14,13 @@
  *	    Przemek Rudy (prudy1@o2.pl)
  */
 
-#include <linux/bitfield.h>
-#include <linux/hid.h>
-#include <linux/init.h>
-#include <linux/math64.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
+#include <peenux/bitfield.h>
+#include <peenux/hid.h>
+#include <peenux/init.h>
+#include <peenux/math64.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/usb/audio.h>
 
 #include <sound/asoundef.h>
 #include <sound/core.h>

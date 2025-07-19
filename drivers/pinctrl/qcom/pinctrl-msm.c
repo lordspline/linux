@@ -1,32 +1,32 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2013, Sony Mobile Communications AB.
- * Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/reboot.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/reboot.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string_choices.h>
 
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinmux.h>
 
-#include <linux/soc/qcom/irq.h>
+#include <peenux/soc/qcom/irq.h>
 
 #include "../core.h"
 #include "../pinconf.h"

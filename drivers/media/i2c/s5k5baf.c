@@ -10,16 +10,16 @@
  * Copyright (C) 2013, Samsung Electronics Co., Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/media.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/media.h>
+#include <peenux/module.h>
+#include <peenux/of_graph.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-ctrls.h>

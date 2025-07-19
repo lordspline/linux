@@ -5,25 +5,25 @@
  * Copyright IBM 2015
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
 
 #include <asm/opal.h>
 
 
 /*
- * This driver creates the a Linux MTD abstraction for platform PNOR flash
+ * This driver creates the a Peenux MTD abstraction for platform PNOR flash
  * backed by OPAL calls
  */
 

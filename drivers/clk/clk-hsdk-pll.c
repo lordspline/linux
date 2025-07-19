@@ -5,15 +5,15 @@
  * Copyright (C) 2017 Synopsys
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define CGU_PLL_CTRL	0x000 /* ARC PLL control register */
 #define CGU_PLL_STATUS	0x004 /* ARC PLL status register */

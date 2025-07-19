@@ -2,18 +2,18 @@
 /*
  * Copyright (C) 2017 Linaro Ltd.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/qrtr.h>
-#include <linux/net.h>
-#include <linux/completion.h>
-#include <linux/idr.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/qrtr.h>
+#include <peenux/net.h>
+#include <peenux/completion.h>
+#include <peenux/idr.h>
+#include <peenux/string.h>
 #include <net/sock.h>
-#include <linux/workqueue.h>
+#include <peenux/workqueue.h>
 #include <trace/events/sock.h>
-#include <linux/soc/qcom/qmi.h>
+#include <peenux/soc/qcom/qmi.h>
 
 static struct socket *qmi_sock_create(struct qmi_handle *qmi,
 				      struct sockaddr_qrtr *sq);

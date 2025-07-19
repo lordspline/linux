@@ -5,7 +5,7 @@
  * Copyright (C) 2022 Google LLC
  */
 
-#include <linux/cfi.h>
+#include <peenux/cfi.h>
 
 bool cfi_warn __ro_after_init = IS_ENABLED(CONFIG_CFI_PERMISSIVE);
 

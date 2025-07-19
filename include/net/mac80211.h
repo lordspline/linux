@@ -13,21 +13,21 @@
 #ifndef MAC80211_H
 #define MAC80211_H
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/if_ether.h>
-#include <linux/skbuff.h>
-#include <linux/ieee80211.h>
-#include <linux/lockdep.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/if_ether.h>
+#include <peenux/skbuff.h>
+#include <peenux/ieee80211.h>
+#include <peenux/lockdep.h>
 #include <net/cfg80211.h>
 #include <net/codel.h>
 #include <net/ieee80211_radiotap.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /**
  * DOC: Introduction
  *
- * mac80211 is the Linux stack for 802.11 hardware that implements
+ * mac80211 is the Peenux stack for 802.11 hardware that implements
  * only partial functionality in hard- or firmware. This document
  * defines the interface between mac80211 and low-level hardware
  * drivers.

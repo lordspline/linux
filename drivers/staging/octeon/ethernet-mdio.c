@@ -5,11 +5,11 @@
  * Copyright (c) 2003-2007 Cavium Networks
  */
 
-#include <linux/kernel.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
-#include <linux/ratelimit.h>
-#include <linux/of_mdio.h>
+#include <peenux/kernel.h>
+#include <peenux/ethtool.h>
+#include <peenux/phy.h>
+#include <peenux/ratelimit.h>
+#include <peenux/of_mdio.h>
 #include <net/dst.h>
 
 #include "octeon-ethernet.h"

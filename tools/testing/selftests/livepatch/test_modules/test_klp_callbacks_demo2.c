@@ -3,9 +3,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/livepatch.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/livepatch.h>
 
 static int replace;
 module_param(replace, int, 0644);

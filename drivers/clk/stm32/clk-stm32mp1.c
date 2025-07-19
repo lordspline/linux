@@ -5,18 +5,18 @@
  * Author: Gabriel Fernandez <gabriel.fernandez@st.com> for STMicroelectronics.
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #include <dt-bindings/clock/stm32mp1-clks.h>
 

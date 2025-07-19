@@ -6,9 +6,9 @@
 
 #include "pvrusb2-ctrl.h"
 #include "pvrusb2-hdw-internal.h"
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mutex.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mutex.h>
 
 
 static int pvr2_ctrl_range_check(struct pvr2_ctrl *cptr,int val)

@@ -3,12 +3,12 @@
  *
  *  For licencing details see kernel-base/COPYING
  */
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/export.h>
+#include <peenux/pci.h>
+#include <peenux/acpi.h>
 
 #include <asm/acpi.h>
 #include <asm/bios_ebda.h>

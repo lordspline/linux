@@ -7,27 +7,27 @@
  *               Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/cpufeature.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/security.h>
-#include <linux/audit.h>
-#include <linux/signal.h>
-#include <linux/elf.h>
-#include <linux/regset.h>
-#include <linux/seccomp.h>
-#include <linux/compat.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/cpufeature.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/security.h>
+#include <peenux/audit.h>
+#include <peenux/signal.h>
+#include <peenux/elf.h>
+#include <peenux/regset.h>
+#include <peenux/seccomp.h>
+#include <peenux/compat.h>
 #include <trace/syscall.h>
 #include <asm/guarded_storage.h>
 #include <asm/access-regs.h>
 #include <asm/page.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/unistd.h>
 #include <asm/runtime_instr.h>
 #include <asm/facility.h>

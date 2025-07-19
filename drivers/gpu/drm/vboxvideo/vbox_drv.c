@@ -8,10 +8,10 @@
  *          Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/vt_kern.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/vt_kern.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

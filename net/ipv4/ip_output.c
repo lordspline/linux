@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -9,7 +9,7 @@
  * Authors:	Ross Biro
  *		Fred N. van Kempen, <waltje@uWalt.NL.Mugnet.ORG>
  *		Donald Becker, <becker@super.org>
- *		Alan Cox, <Alan.Cox@linux.org>
+ *		Alan Cox, <Alan.Cox@peenux.org>
  *		Richard Underwood
  *		Stefan Becker, <stefanb@yello.ping.de>
  *		Jorge Cwik, <jorge@laser.satlink.net>
@@ -43,32 +43,32 @@
  *		Hirokazu Takahashi:	sendfile() on UDP works now.
  */
 
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/highmem.h>
-#include <linux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/highmem.h>
+#include <peenux/slab.h>
 
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/init.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/init.h>
 
 #include <net/snmp.h>
 #include <net/ip.h>
 #include <net/protocol.h>
 #include <net/route.h>
 #include <net/xfrm.h>
-#include <linux/skbuff.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
 #include <net/arp.h>
 #include <net/icmp.h>
@@ -77,12 +77,12 @@
 #include <net/inetpeer.h>
 #include <net/lwtunnel.h>
 #include <net/inet_dscp.h>
-#include <linux/bpf-cgroup.h>
-#include <linux/igmp.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/netfilter_bridge.h>
-#include <linux/netlink.h>
-#include <linux/tcp.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/igmp.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/netfilter_bridge.h>
+#include <peenux/netlink.h>
+#include <peenux/tcp.h>
 
 static int
 ip_fragment(struct net *net, struct sock *sk, struct sk_buff *skb,

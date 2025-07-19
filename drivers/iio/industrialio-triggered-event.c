@@ -3,12 +3,12 @@
  * Copyright (C) 2015 Cogent Embedded, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/triggered_event.h>
-#include <linux/iio/trigger_consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/triggered_event.h>
+#include <peenux/iio/trigger_consumer.h>
 
 /**
  * iio_triggered_event_setup() - Setup pollfunc_event for triggered event

@@ -5,16 +5,16 @@
  * Copyright 2007 IBM Corp
  */
 
-#include <linux/bpf-cgroup.h>
-#include <linux/device_cgroup.h>
-#include <linux/cgroup.h>
-#include <linux/ctype.h>
-#include <linux/list.h>
-#include <linux/uaccess.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/rcupdate.h>
-#include <linux/mutex.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/device_cgroup.h>
+#include <peenux/cgroup.h>
+#include <peenux/ctype.h>
+#include <peenux/list.h>
+#include <peenux/uaccess.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/rcupdate.h>
+#include <peenux/mutex.h>
 
 #ifdef CONFIG_CGROUP_DEVICE
 

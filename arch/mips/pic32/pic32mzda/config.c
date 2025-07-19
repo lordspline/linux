@@ -3,9 +3,9 @@
  * Purna Chandra Mandal, purna.mandal@microchip.com
  * Copyright (C) 2015 Microchip Technology Inc.  All rights reserved.
  */
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
 
 #include <asm/mach-pic32/pic32.h>
 

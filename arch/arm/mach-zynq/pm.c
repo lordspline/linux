@@ -7,9 +7,9 @@
  *  Sören Brinkmann <soren.brinkmann@xilinx.com>
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 #include "common.h"
 
 /* register offsets */

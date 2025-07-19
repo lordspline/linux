@@ -5,12 +5,12 @@
  * Copyright 2016 Integrated Device Technology, Inc.
  */
 
-#include <linux/stat.h>
-#include <linux/module.h>
-#include <linux/rio.h>
-#include <linux/rio_drv.h>
-#include <linux/rio_ids.h>
-#include <linux/delay.h>
+#include <peenux/stat.h>
+#include <peenux/module.h>
+#include <peenux/rio.h>
+#include <peenux/rio_drv.h>
+#include <peenux/rio_ids.h>
+#include <peenux/delay.h>
 
 #include <asm/page.h>
 #include "../rio.h"

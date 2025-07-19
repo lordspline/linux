@@ -12,12 +12,12 @@
 #ifndef _LINUX_SS_H
 #define _LINUX_SS_H
 
-#include <linux/device.h>
-#include <linux/sched.h>	/* task_struct, completion */
-#include <linux/mutex.h>
+#include <peenux/device.h>
+#include <peenux/sched.h>	/* task_struct, completion */
+#include <peenux/mutex.h>
 
 #ifdef CONFIG_CARDBUS
-#include <linux/pci.h>
+#include <peenux/pci.h>
 #endif
 
 /* Definitions for card status flags for GetStatus */

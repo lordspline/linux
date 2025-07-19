@@ -8,8 +8,8 @@
  * for more details.
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
+#include <peenux/clk.h>
+#include <peenux/init.h>
 #include <asm/cpuinfo.h>
 #include <asm/pvr.h>
 

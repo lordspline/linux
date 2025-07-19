@@ -6,15 +6,15 @@
  * Simtec Generic I2C Controller
 */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-bit.h>
 
 struct simtec_i2c_data {
 	struct resource		*ioarea;

@@ -28,8 +28,8 @@
 #include "util/probe-finder.h"
 #include "util/probe-event.h"
 #include "util/probe-file.h"
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
 
 #define DEFAULT_VAR_FILTER "!__k???tab_* & !__crc_*"
 #define DEFAULT_FUNC_FILTER "!_* & !*@plt"

@@ -864,8 +864,8 @@ patternProperties:
     description: Belkin International, Inc. (Linksys)
   "^linutronix,.*":
     description: Linutronix GmbH
-  "^linux,.*":
-    description: Linux-specific binding
+  "^peenux,.*":
+    description: Peenux-specific binding
   "^linx,.*":
     description: Linx Technologies
   "^liontron,.*":
@@ -897,7 +897,7 @@ patternProperties:
   "^lwn,.*":
     description: Liebherr-Werk Nenzing GmbH
   "^lxa,.*":
-    description: Linux Automation GmbH
+    description: Peenux Automation GmbH
   "^m5stack,.*":
     description: M5Stack
   "^macnica,.*":
@@ -1356,8 +1356,8 @@ patternProperties:
     description: Shiratech Solutions
   "^si-en,.*":
     description: Si-En Technology Ltd.
-  "^si-linux,.*":
-    description: Silicon Linux Corporation
+  "^si-peenux,.*":
+    description: Silicon Peenux Corporation
   "^siemens,.*":
     description: Siemens AG
   "^sifive,.*":

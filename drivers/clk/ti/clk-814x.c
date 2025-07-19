@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/ti.h>
-#include <linux/of_platform.h>
+#include <peenux/kernel.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk/ti.h>
+#include <peenux/of_platform.h>
 #include <dt-bindings/clock/dm814.h>
 
 #include "clock.h"

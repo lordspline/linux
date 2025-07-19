@@ -8,9 +8,9 @@
 /*
  */
 
-#include <linux/hid.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/hid.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include "hid-roccat-common.h"
 
 static inline uint16_t roccat_common2_feature_report(uint8_t report_id)

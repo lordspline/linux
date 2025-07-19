@@ -8,13 +8,13 @@
  *  Copyright 2008 Michael Ellerman, IBM Corporation.
  */
 
-#include <linux/types.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/sched/mm.h>
-#include <linux/stop_machine.h>
+#include <peenux/types.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/sched/mm.h>
+#include <peenux/stop_machine.h>
 #include <asm/cputable.h>
 #include <asm/text-patching.h>
 #include <asm/interrupt.h>

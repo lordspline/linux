@@ -6,17 +6,17 @@
  * Copyright (c) 2009 Dmitry Artamonow <mad_soft@inbox.ru>
  */
 
-#include <linux/kernel.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio.h>
-#include <linux/gpio_keys.h>
-#include <linux/input.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/platform_data/gpio-htc-egpio.h>
-#include <linux/platform_data/sa11x0-serial.h>
-#include <linux/platform_device.h>
-#include <linux/serial_core.h>
+#include <peenux/kernel.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/input.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/platform_data/gpio-htc-egpio.h>
+#include <peenux/platform_data/sa11x0-serial.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial_core.h>
 
 #include <asm/mach/flash.h>
 #include <asm/mach/map.h>

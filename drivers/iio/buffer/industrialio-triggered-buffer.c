@@ -4,15 +4,15 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/buffer_impl.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/buffer_impl.h>
+#include <peenux/iio/kfifo_buf.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
 
 /**
  * iio_triggered_buffer_setup_ext() - Setup triggered buffer and pollfunc

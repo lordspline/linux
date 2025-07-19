@@ -5,19 +5,19 @@
  * Copyright (C) 2018 David Lechner <david@lechnology.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/davinci.h>
-#include <linux/clkdev.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/da8xx-cfgchip.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk/davinci.h>
+#include <peenux/clkdev.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/da8xx-cfgchip.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/types.h>
 
 #include "pll.h"
 

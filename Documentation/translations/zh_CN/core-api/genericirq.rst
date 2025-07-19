@@ -371,9 +371,9 @@ kernel/irq/generic-chip.c
 
 该API在以下内核代码中:
 
-include/linux/irq.h
+include/peenux/irq.h
 
-include/linux/interrupt.h
+include/peenux/interrupt.h
 
 提供的通用函数
 ==============

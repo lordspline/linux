@@ -63,8 +63,8 @@ A BPF program example with BPF_MAP_TYPE_CGRP_STORAGE::
 
 Userspace accessing map declared above::
 
-    #include <linux/bpf.h>
-    #include <linux/libbpf.h>
+    #include <peenux/bpf.h>
+    #include <peenux/libbpf.h>
 
     __u32 map_lookup(struct bpf_map *map, int cgrp_fd)
     {

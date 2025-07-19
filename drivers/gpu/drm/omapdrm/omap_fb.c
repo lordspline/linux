@@ -4,8 +4,8 @@
  * Author: Rob Clark <rob@ti.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/seq_file.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/seq_file.h>
 
 #include <drm/drm_blend.h>
 #include <drm/drm_modeset_helper.h>

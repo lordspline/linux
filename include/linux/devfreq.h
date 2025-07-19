@@ -10,10 +10,10 @@
 #ifndef __LINUX_DEVFREQ_H__
 #define __LINUX_DEVFREQ_H__
 
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_qos.h>
+#include <peenux/device.h>
+#include <peenux/notifier.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_qos.h>
 
 /* DEVFREQ governor name */
 #define DEVFREQ_GOV_SIMPLE_ONDEMAND	"simple_ondemand"

@@ -12,13 +12,13 @@
  * simultaneously to rs485.
  */
 
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/clk.h>
+#include <peenux/console.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #include "8250.h"
 

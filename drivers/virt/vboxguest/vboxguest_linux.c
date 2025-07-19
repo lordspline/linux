@@ -1,18 +1,18 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * vboxguest linux pci driver, char-dev and input-device code,
+ * vboxguest peenux pci driver, char-dev and input-device code,
  *
  * Copyright (C) 2006-2016 Oracle Corporation
  */
 
-#include <linux/cred.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/poll.h>
-#include <linux/vbox_utils.h>
+#include <peenux/cred.h>
+#include <peenux/input.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/poll.h>
+#include <peenux/vbox_utils.h>
 #include "vboxguest_core.h"
 
 /** The device name. */
@@ -498,5 +498,5 @@ static struct pci_driver vbg_pci_driver = {
 module_pci_driver(vbg_pci_driver);
 
 MODULE_AUTHOR("Oracle Corporation");
-MODULE_DESCRIPTION("Oracle VM VirtualBox Guest Additions for Linux Module");
+MODULE_DESCRIPTION("Oracle VM VirtualBox Guest Additions for Peenux Module");
 MODULE_LICENSE("GPL");

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2024 Intel Corporation */
 
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 #include "adf_mstate_mgr.h"
 
 #define ADF_MSTATE_MAGIC	0xADF5CAEA

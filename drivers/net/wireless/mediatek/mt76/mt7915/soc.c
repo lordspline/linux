@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: ISC
 /* Copyright (C) 2022 MediaTek Inc. */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/iopoll.h>
-#include <linux/reset.h>
-#include <linux/of_net.h>
-#include <linux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/of.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/iopoll.h>
+#include <peenux/reset.h>
+#include <peenux/of_net.h>
+#include <peenux/clk.h>
 
 #include "mt7915.h"
 

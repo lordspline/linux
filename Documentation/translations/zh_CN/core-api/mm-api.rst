@@ -37,7 +37,7 @@ mm/gup.c
 
 该API在以下内核代码中:
 
-include/linux/gfp_types.h
+include/peenux/gfp_types.h
 
 Slab缓存
 ========
@@ -46,7 +46,7 @@ Slab缓存
 
 该API在以下内核代码中:
 
-include/linux/slab.h
+include/peenux/slab.h
 
 mm/slab.c
 
@@ -87,7 +87,7 @@ mm/page-writeback.c
 
 mm/truncate.c
 
-include/linux/pagemap.h
+include/peenux/pagemap.h
 
 内存池
 ======
@@ -116,16 +116,16 @@ mm/page_alloc.c
 
 mm/mempolicy.c
 
-include/linux/mm_types.h
+include/peenux/mm_types.h
 
-include/linux/mm_inline.h
+include/peenux/mm_inline.h
 
-include/linux/page-flags.h
+include/peenux/page-flags.h
 
-include/linux/mm.h
+include/peenux/mm.h
 
-include/linux/page_ref.h
+include/peenux/page_ref.h
 
-include/linux/mmzone.h
+include/peenux/mmzone.h
 
 mm/util.c

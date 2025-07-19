@@ -6,7 +6,7 @@
 #ifndef _INTEL_FDI_H_
 #define _INTEL_FDI_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 enum pipe;
 struct intel_atomic_state;

@@ -7,9 +7,9 @@
  * Copyright (C) 2007 Oracle.  All rights reserved.
  */
 
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/fcntl.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/fcntl.h>
 
 #include <cluster/masklog.h>
 

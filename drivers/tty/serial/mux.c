@@ -12,21 +12,21 @@
 **
 */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/console.h>
-#include <linux/delay.h> /* for udelay */
-#include <linux/device.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/console.h>
+#include <peenux/delay.h> /* for udelay */
+#include <peenux/device.h>
+#include <peenux/io.h>
 #include <asm/irq.h>
 #include <asm/parisc-device.h>
 
-#include <linux/sysrq.h>
-#include <linux/serial_core.h>
+#include <peenux/sysrq.h>
+#include <peenux/serial_core.h>
 
 #define MUX_OFFSET 0x800
 #define MUX_LINE_OFFSET 0x80

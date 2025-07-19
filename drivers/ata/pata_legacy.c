@@ -44,17 +44,17 @@
  *  change.
  */
 
-#include <linux/async.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <peenux/async.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/ata.h>
-#include <linux/libata.h>
-#include <linux/platform_device.h>
+#include <peenux/ata.h>
+#include <peenux/libata.h>
+#include <peenux/platform_device.h>
 
 #define DRV_NAME "pata_legacy"
 #define DRV_VERSION "0.6.5"

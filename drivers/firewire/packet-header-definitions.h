@@ -7,7 +7,7 @@
 #ifndef _FIREWIRE_PACKET_HEADER_DEFINITIONS_H
 #define _FIREWIRE_PACKET_HEADER_DEFINITIONS_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #define ASYNC_HEADER_QUADLET_COUNT		4
 

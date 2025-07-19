@@ -4,19 +4,19 @@
  * Copyright (c) 2023 Maksim Kiselev <bigunclemax@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/reset.h>
 
-#include <linux/iio/adc-helpers.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/adc-helpers.h>
+#include <peenux/iio/iio.h>
 
 #define SUN20I_GPADC_DRIVER_NAME	"sun20i-gpadc"
 

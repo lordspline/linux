@@ -5,8 +5,8 @@
 // Author: Cezary Rojewski <cezary.rojewski@intel.com>
 //
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

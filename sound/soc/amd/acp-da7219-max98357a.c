@@ -10,14 +10,14 @@
 #include <sound/pcm_params.h>
 #include <sound/soc-dapm.h>
 #include <sound/jack.h>
-#include <linux/clk.h>
-#include <linux/gpio.h>
-#include <linux/module.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/driver.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/gpio.h>
+#include <peenux/module.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/acpi.h>
 
 #include "acp.h"
 #include "../codecs/da7219.h"

@@ -8,17 +8,17 @@
  *
  */
 
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/of_device.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/mailbox/mchp-ipc.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/smp.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/of_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/mailbox/mchp-ipc.h>
 #include <asm/sbi.h>
 #include <asm/vendorid_list.h>
 

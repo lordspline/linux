@@ -7,19 +7,19 @@
  * Author: Matus Ujhelyi <ujhelyi.m@gmail.com>
  */
 
-#include <linux/phy.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/bitfield.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
-#include <linux/phylink.h>
-#include <linux/sfp.h>
+#include <peenux/phy.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/bitfield.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/of.h>
+#include <peenux/phylink.h>
+#include <peenux/sfp.h>
 #include <dt-bindings/net/qca-ar803x.h>
 
 #include "qcom.h"

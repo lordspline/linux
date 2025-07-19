@@ -6,18 +6,18 @@
  * Copyright (C) 2016-2018 Vadim Pasternak <vadimp@mellanox.com>
  */
 
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/i2c-mux-reg.h>
-#include <linux/platform_data/mlxreg.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/i2c-mux-reg.h>
+#include <peenux/platform_data/mlxreg.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
 
 #define MLX_PLAT_DEVICE_NAME		"mlxplat"
 

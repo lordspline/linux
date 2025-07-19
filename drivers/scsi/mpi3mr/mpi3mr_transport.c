@@ -7,7 +7,7 @@
  *
  */
 
-#include <linux/vmalloc.h>
+#include <peenux/vmalloc.h>
 
 #include "mpi3mr.h"
 

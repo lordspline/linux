@@ -14,13 +14,13 @@
  * (c) Copyright Hewlett-Packard Development Company, L.P., 2006, 2008
  */
 
-#include <linux/types.h>
-#include <linux/rculist.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/audit.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/rculist.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/audit.h>
+#include <peenux/slab.h>
 #include <net/netlabel.h>
 #include <net/cipso_ipv4.h>
 #include <net/calipso.h>

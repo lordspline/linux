@@ -5,16 +5,16 @@
  * Copyright 2022 Sven Schwermer <sven.schwermer@disruptive-technologies.com>
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/led-class-multicolor.h>
+#include <peenux/leds.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/pwm.h>
 
 struct pwm_led {
 	struct pwm_device *pwm;

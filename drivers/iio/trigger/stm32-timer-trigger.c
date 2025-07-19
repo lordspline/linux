@@ -6,15 +6,15 @@
  *
  */
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/timer/stm32-timer-trigger.h>
-#include <linux/iio/trigger.h>
-#include <linux/mfd/stm32-timers.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/timer/stm32-timer-trigger.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/mfd/stm32-timers.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #define MAX_TRIGGERS 7
 #define MAX_VALIDS 5

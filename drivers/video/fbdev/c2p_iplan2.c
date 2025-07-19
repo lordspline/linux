@@ -8,10 +8,10 @@
  *  for more details.
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "c2p.h"
 #include "c2p_core.h"

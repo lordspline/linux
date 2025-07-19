@@ -1,10 +1,10 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef __OF_ADDRESS_H
 #define __OF_ADDRESS_H
-#include <linux/ioport.h>
-#include <linux/errno.h>
-#include <linux/of.h>
-#include <linux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/errno.h>
+#include <peenux/of.h>
+#include <peenux/io.h>
 
 struct of_bus;
 

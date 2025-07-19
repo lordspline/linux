@@ -4,13 +4,13 @@
  * Copyright (c) 2009-2013 QLogic Corporation
  */
 
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_vlan.h>
 #include <net/ip.h>
-#include <linux/ipv6.h>
+#include <peenux/ipv6.h>
 #include <net/checksum.h>
-#include <linux/printk.h>
-#include <linux/jiffies.h>
+#include <peenux/printk.h>
+#include <peenux/jiffies.h>
 
 #include "qlcnic.h"
 

@@ -4,29 +4,29 @@
  * Copyright (C) 1997, 1998, 1999, 2003, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/module.h>
-#include <linux/pgtable.h>
+#include <peenux/module.h>
+#include <peenux/pgtable.h>
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/crc32.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/in.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/crc32.h>
+#include <peenux/errno.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/bitops.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/gfp.h>
 
 #include <asm/auxio.h>
 #include <asm/byteorder.h>

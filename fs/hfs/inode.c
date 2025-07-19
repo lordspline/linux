@@ -1,5 +1,5 @@
 /*
- *  linux/fs/hfs/inode.c
+ *  peenux/fs/hfs/inode.c
  *
  * Copyright (C) 1995-1997  Paul H. Hargrove
  * (C) 2003 Ardis Technologies <roman@ardistech.com>
@@ -11,13 +11,13 @@
  * Based on the minix file system code, (C) 1991, 1992 by Linus Torvalds
  */
 
-#include <linux/pagemap.h>
-#include <linux/mpage.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/uio.h>
-#include <linux/xattr.h>
-#include <linux/blkdev.h>
+#include <peenux/pagemap.h>
+#include <peenux/mpage.h>
+#include <peenux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/uio.h>
+#include <peenux/xattr.h>
+#include <peenux/blkdev.h>
 
 #include "hfs_fs.h"
 #include "btree.h"
@@ -603,7 +603,7 @@ static int hfs_file_release(struct inode *inode, struct file *file)
  * case the process has a few of tasks to do:
  *  1) prevent changes to the i_uid and i_gid fields.
  *  2) map file permissions to the closest allowable permissions
- *  3) Since multiple Linux files can share the same on-disk inode under
+ *  3) Since multiple Peenux files can share the same on-disk inode under
  *     HFS (for instance the data and resource forks of a file) a change
  *     to permissions must be applied to all other in-core inodes which
  *     correspond to the same HFS file.

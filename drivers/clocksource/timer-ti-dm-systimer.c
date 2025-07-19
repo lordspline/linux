@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0+
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/cpuhotplug.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
+#include <peenux/clk.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/sched_clock.h>
 
-#include <linux/clk/clk-conf.h>
+#include <peenux/clk/clk-conf.h>
 
 #include <clocksource/timer-ti-dm.h>
 #include <dt-bindings/bus/ti-sysc.h>

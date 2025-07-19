@@ -2,14 +2,14 @@
 #ifndef __I2C_VIAI2C_COMMON_H_
 #define __I2C_VIAI2C_COMMON_H_
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 /* REG_CR Bit fields */
 #define VIAI2C_REG_CR		0x00

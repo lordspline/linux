@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/kyro/fbdev.c
+ *  peenux/drivers/video/kyro/fbdev.c
  *
  *  Copyright (C) 2002 STMicroelectronics
  *  Copyright (C) 2003, 2004 Paul Mundt
@@ -9,20 +9,20 @@
  * for more details.
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/ioctl.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/ioctl.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <video/kyro.h>
 
@@ -810,6 +810,6 @@ module_init(kyrofb_init);
 module_exit(kyrofb_exit);
 #endif
 
-MODULE_AUTHOR("STMicroelectronics; Paul Mundt <lethal@linux-sh.org>");
+MODULE_AUTHOR("STMicroelectronics; Paul Mundt <lethal@peenux-sh.org>");
 MODULE_DESCRIPTION("STG4000/Kyro/PowerVR 3 driver");
 MODULE_LICENSE("GPL");

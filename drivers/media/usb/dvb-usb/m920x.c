@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* DVB USB compliant linux driver for MSI Mega Sky 580 DVB-T USB2.0 receiver
+/* DVB USB compliant peenux driver for MSI Mega Sky 580 DVB-T USB2.0 receiver
  *
  * Copyright (C) 2006 Aapo Tahkola (aet@rasterburn.org)
  *
@@ -17,7 +17,7 @@
 
 #include <media/tuner.h>
 #include "tuner-simple.h"
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* debug */
 static int dvb_usb_m920x_debug;

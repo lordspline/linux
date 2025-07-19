@@ -5,15 +5,15 @@
  * 2024 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/units.h>
-#include <linux/watchdog.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
+#include <peenux/watchdog.h>
 
-#include <linux/turris-omnia-mcu-interface.h>
+#include <peenux/turris-omnia-mcu-interface.h>
 #include "turris-omnia-mcu.h"
 
 #define WATCHDOG_TIMEOUT		120

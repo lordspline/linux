@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/acpi.h>
-#include <linux/acpi_iort.h>
-#include <linux/device.h>
-#include <linux/dma-direct.h>
+#include <peenux/acpi.h>
+#include <peenux/acpi_iort.h>
+#include <peenux/device.h>
+#include <peenux/dma-direct.h>
 
 void acpi_arch_dma_setup(struct device *dev)
 {

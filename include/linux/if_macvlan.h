@@ -2,13 +2,13 @@
 #ifndef _LINUX_IF_MACVLAN_H
 #define _LINUX_IF_MACVLAN_H
 
-#include <linux/if_link.h>
-#include <linux/if_vlan.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/netlink.h>
+#include <peenux/if_link.h>
+#include <peenux/if_vlan.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/netlink.h>
 #include <net/netlink.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/u64_stats_sync.h>
 
 struct macvlan_port;
 

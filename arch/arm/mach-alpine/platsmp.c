@@ -5,10 +5,10 @@
  * Copyright (C) 2015 Annapurna Labs Ltd.
  */
 
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
 
 #include <asm/smp_plat.h>
 

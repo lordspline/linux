@@ -51,13 +51,13 @@
 #include <sys/timerfd.h>
 #include <sys/wait.h>
 
-#include <linux/bitops.h>
-#include <linux/hash.h>
-#include <linux/log2.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/time64.h>
-#include <linux/zalloc.h>
+#include <peenux/bitops.h>
+#include <peenux/hash.h>
+#include <peenux/log2.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/time64.h>
+#include <peenux/zalloc.h>
 #include <perf/evlist.h>
 #include <perf/evsel.h>
 #include <perf/cpumap.h>

@@ -5,19 +5,19 @@
  * Copyright (C) 2021 Renesas Electronics Corp.
  */
 
-#include <linux/bits.h>
-#include <linux/clk/renesas.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/of_address.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/clk/renesas.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/of_address.h>
+#include <peenux/pm_domain.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include "rcar-gen4-sysc.h"
 

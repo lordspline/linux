@@ -5,13 +5,13 @@
  *  Copyright (C) 2014 Alexander Shiyan <shc_work@mail.ru>
  */
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #define MMIO_74XX_DIR_IN	BIT(8)
 #define MMIO_74XX_DIR_OUT	BIT(9)

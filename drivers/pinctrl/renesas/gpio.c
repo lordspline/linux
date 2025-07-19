@@ -6,12 +6,12 @@
  * Copyright (C) 2009 - 2012 Paul Mundt
  */
 
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #include "core.h"
 

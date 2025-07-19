@@ -7,19 +7,19 @@
  *
  * (c) Copyright 2006-2013 Datera, Inc.
  *
- * Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Nicholas A. Bellinger <nab@peenux-iscsi.org>
  *
  ******************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/utsname.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/configfs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/timer.h>
+#include <peenux/string.h>
+#include <peenux/utsname.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/configfs.h>
 
 #include <target/target_core_base.h>
 #include <target/target_core_backend.h>

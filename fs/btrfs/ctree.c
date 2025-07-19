@@ -3,11 +3,11 @@
  * Copyright (C) 2007,2008 Oracle.  All rights reserved.
  */
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/rbtree.h>
-#include <linux/mm.h>
-#include <linux/error-injection.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/rbtree.h>
+#include <peenux/mm.h>
+#include <peenux/error-injection.h>
 #include "messages.h"
 #include "ctree.h"
 #include "disk-io.h"

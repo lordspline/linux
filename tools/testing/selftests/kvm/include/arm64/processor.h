@@ -10,8 +10,8 @@
 #include "kvm_util.h"
 #include "ucall_common.h"
 
-#include <linux/stringify.h>
-#include <linux/types.h>
+#include <peenux/stringify.h>
+#include <peenux/types.h>
 #include <asm/brk-imm.h>
 #include <asm/esr.h>
 #include <asm/sysreg.h>
@@ -43,7 +43,7 @@
  * NORMAL_WT          5     1011:1011
  */
 
-/* Linux doesn't use these memory types, so let's define them. */
+/* Peenux doesn't use these memory types, so let's define them. */
 #define MAIR_ATTR_DEVICE_GRE	UL(0x0c)
 #define MAIR_ATTR_NORMAL_WT	UL(0xbb)
 

@@ -1,38 +1,38 @@
 // SPDX-License-Identifier: GPL-2.0
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/prctl.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/sched/idle.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/pm.h>
-#include <linux/tick.h>
-#include <linux/random.h>
-#include <linux/user-return-notifier.h>
-#include <linux/dmi.h>
-#include <linux/utsname.h>
-#include <linux/stackprotector.h>
-#include <linux/cpuidle.h>
-#include <linux/acpi.h>
-#include <linux/elf-randomize.h>
-#include <linux/static_call.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/cpu.h>
+#include <peenux/prctl.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/sched/idle.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/pm.h>
+#include <peenux/tick.h>
+#include <peenux/random.h>
+#include <peenux/user-return-notifier.h>
+#include <peenux/dmi.h>
+#include <peenux/utsname.h>
+#include <peenux/stackprotector.h>
+#include <peenux/cpuidle.h>
+#include <peenux/acpi.h>
+#include <peenux/elf-randomize.h>
+#include <peenux/static_call.h>
 #include <trace/events/power.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/entry-common.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/entry-common.h>
 #include <asm/cpu.h>
 #include <asm/cpuid/api.h>
 #include <asm/apic.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/mwait.h>
 #include <asm/fpu/api.h>
 #include <asm/fpu/sched.h>
@@ -58,7 +58,7 @@
 #include "process.h"
 
 /*
- * per-CPU TSS segments. Threads are completely 'soft' on Linux,
+ * per-CPU TSS segments. Threads are completely 'soft' on Peenux,
  * no more per-task TSS's. The TSS size is kept cacheline-aligned
  * so they are allowed to end up in the .data..cacheline_aligned
  * section. Since TSS's are completely CPU-local, we want them

@@ -9,12 +9,12 @@
 
 #include <crypto/aes.h>
 #include <crypto/internal/hash.h>
-#include <linux/atomic.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <peenux/atomic.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
 
 #include "nx_csbcpb.h"
 #include "nx.h"

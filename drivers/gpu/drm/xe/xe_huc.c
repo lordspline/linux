@@ -5,7 +5,7 @@
 
 #include "xe_huc.h"
 
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 #include <drm/drm_managed.h>
 

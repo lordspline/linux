@@ -8,16 +8,16 @@
  * Author: Lucas Tanure <tanureal@opensource.cirrus.com>
  */
 
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/math64.h>
-#include <linux/mfd/lochnagar.h>
-#include <linux/mfd/lochnagar2_regs.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/math64.h>
+#include <peenux/mfd/lochnagar.h>
+#include <peenux/mfd/lochnagar2_regs.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define LN2_MAX_NSAMPLE 1023
 #define LN2_SAMPLE_US   1670

@@ -7,7 +7,7 @@
  * Authors: Eric Knopp
  */
 
-#include <linux/backlight.h>
+#include <peenux/backlight.h>
 
 #include <acpi/video.h>
 

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/wait.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/pm_qos.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/wait.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
 
 #include "windfarm.h"
 

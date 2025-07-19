@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct primes {
 	struct rcu_head rcu;

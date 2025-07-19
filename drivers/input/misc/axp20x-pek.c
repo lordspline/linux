@@ -13,19 +13,19 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/acpi.h>
-#include <linux/errno.h>
-#include <linux/irq.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/module.h>
-#include <linux/platform_data/x86/soc.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/errno.h>
+#include <peenux/irq.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/axp20x.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/x86/soc.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #define AXP20X_PEK_STARTUP_MASK		(0xc0)
 #define AXP20X_PEK_SHUTDOWN_MASK	(0x03)

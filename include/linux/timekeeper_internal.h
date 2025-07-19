@@ -7,9 +7,9 @@
 #ifndef _LINUX_TIMEKEEPER_INTERNAL_H
 #define _LINUX_TIMEKEEPER_INTERNAL_H
 
-#include <linux/clocksource.h>
-#include <linux/jiffies.h>
-#include <linux/time.h>
+#include <peenux/clocksource.h>
+#include <peenux/jiffies.h>
+#include <peenux/time.h>
 
 /**
  * struct tk_read_base - base structure for timekeeping readout

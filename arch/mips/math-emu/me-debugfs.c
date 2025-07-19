@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/cpumask.h>
-#include <linux/debugfs.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/percpu.h>
-#include <linux/types.h>
+#include <peenux/cpumask.h>
+#include <peenux/debugfs.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/percpu.h>
+#include <peenux/types.h>
 #include <asm/debug.h>
 #include <asm/fpu_emulator.h>
 #include <asm/local.h>

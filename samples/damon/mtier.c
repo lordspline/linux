@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) "damon_sample_mtier: " fmt
 
-#include <linux/damon.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/damon.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 static unsigned long node0_start_addr __read_mostly;
 module_param(node0_start_addr, ulong, 0600);

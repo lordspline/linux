@@ -8,15 +8,15 @@
  * Datasheet: https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/pressure-sensors/common/documents/sps-siot-sleep-mode-technical-note-008286-1-en-ciid-155793.pdf
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #include "hsc030pa.h"
 

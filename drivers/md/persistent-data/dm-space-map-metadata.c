@@ -9,10 +9,10 @@
 #include "dm-space-map-common.h"
 #include "dm-space-map-metadata.h"
 
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/device-mapper.h>
-#include <linux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/device-mapper.h>
+#include <peenux/kernel.h>
 
 #define DM_MSG_PREFIX "space map metadata"
 

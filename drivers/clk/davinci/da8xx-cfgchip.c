@@ -5,18 +5,18 @@
  * Copyright (C) 2018 David Lechner <david@lechnology.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/init.h>
-#include <linux/mfd/da8xx-cfgchip.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_data/clk-da8xx-cfgchip.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/init.h>
+#include <peenux/mfd/da8xx-cfgchip.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_data/clk-da8xx-cfgchip.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 /* --- Gate clocks --- */
 

@@ -10,10 +10,10 @@
 
 #include <crypto/internal/hash.h>
 #include <crypto/sha1.h>
-#include <linux/math.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/math.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 typedef void (sha1_block_fn)(struct sha1_state *sst, u8 const *src, int blocks);
 

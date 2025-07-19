@@ -8,18 +8,18 @@
  * Copyright (C) 2003 Guido Guenther <agx@sigxcpu.org>
  */
 
-#include <linux/compiler.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/panic_notifier.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/notifier.h>
-#include <linux/delay.h>
-#include <linux/rtc/ds1685.h>
-#include <linux/interrupt.h>
-#include <linux/pm.h>
+#include <peenux/compiler.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/sched.h>
+#include <peenux/sched/signal.h>
+#include <peenux/notifier.h>
+#include <peenux/delay.h>
+#include <peenux/rtc/ds1685.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm.h>
 
 #include <asm/addrspace.h>
 #include <asm/irq.h>

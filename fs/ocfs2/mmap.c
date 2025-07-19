@@ -7,13 +7,13 @@
  * Copyright (C) 2002, 2004 Oracle.  All rights reserved.
  */
 
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/uio.h>
-#include <linux/signal.h>
-#include <linux/rbtree.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/uio.h>
+#include <peenux/signal.h>
+#include <peenux/rbtree.h>
 
 #include <cluster/masklog.h>
 

@@ -6,20 +6,20 @@
  * Copyright (C) 2005-2007 Richard Purdie <rpurdie@openedhand.com>
  */
 
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <uapi/linux/uleds.h>
-#include <linux/of.h>
+#include <peenux/ctype.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
+#include <uapi/peenux/uleds.h>
+#include <peenux/of.h>
 #include "leds.h"
 
 static DEFINE_MUTEX(leds_lookup_lock);
@@ -489,7 +489,7 @@ int led_classdev_register_ext(struct device *parent,
 
 		if (init_data->fwnode) {
 			fwnode_property_read_string(init_data->fwnode,
-				"linux,default-trigger",
+				"peenux,default-trigger",
 				&led_cdev->default_trigger);
 
 			if (fwnode_property_present(init_data->fwnode,

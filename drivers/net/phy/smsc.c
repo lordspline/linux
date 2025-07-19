@@ -12,17 +12,17 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/netdevice.h>
-#include <linux/crc16.h>
-#include <linux/etherdevice.h>
-#include <linux/smscphy.h>
+#include <peenux/clk.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/of.h>
+#include <peenux/phy.h>
+#include <peenux/netdevice.h>
+#include <peenux/crc16.h>
+#include <peenux/etherdevice.h>
+#include <peenux/smscphy.h>
 
 /* Vendor-specific PHY Definitions */
 /* EDPD NLP / crossover time configuration */

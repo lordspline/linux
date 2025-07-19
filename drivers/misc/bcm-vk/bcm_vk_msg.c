@@ -3,16 +3,16 @@
  * Copyright 2018-2020 Broadcom.
  */
 
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/hash.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/sizes.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/hash.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/poll.h>
+#include <peenux/sizes.h>
+#include <peenux/spinlock.h>
+#include <peenux/timer.h>
 
 #include "bcm_vk.h"
 #include "bcm_vk_msg.h"

@@ -11,7 +11,7 @@
  * Common helpers for the audio DSP on MediaTek platforms
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <sound/asound.h>
 #include <sound/sof/xtensa.h>
 #include "../ops.h"

@@ -11,13 +11,13 @@
 #define FIMC_IS_H_
 
 #include <asm/barrier.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 #include <media/videobuf2-v4l2.h>
 #include <media/v4l2-ctrls.h>
 

@@ -11,29 +11,29 @@
  *	net/ipv6/ip6_tunnel.c
  */
 
-#include <linux/module.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/sockios.h>
-#include <linux/icmp.h>
-#include <linux/if.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/net.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/icmpv6.h>
-#include <linux/init.h>
-#include <linux/route.h>
-#include <linux/rtnetlink.h>
-#include <linux/netfilter_ipv6.h>
-#include <linux/slab.h>
-#include <linux/hash.h>
+#include <peenux/module.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/sockios.h>
+#include <peenux/icmp.h>
+#include <peenux/if.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/net.h>
+#include <peenux/in6.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/icmpv6.h>
+#include <peenux/init.h>
+#include <peenux/route.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/netfilter_ipv6.h>
+#include <peenux/slab.h>
+#include <peenux/hash.h>
 
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
+#include <peenux/uaccess.h>
+#include <peenux/atomic.h>
 
 #include <net/icmp.h>
 #include <net/ip.h>
@@ -46,7 +46,7 @@
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
 #include <net/netdev_lock.h>
-#include <linux/etherdevice.h>
+#include <peenux/etherdevice.h>
 
 #define IP6_VTI_HASH_SIZE_SHIFT  5
 #define IP6_VTI_HASH_SIZE (1 << IP6_VTI_HASH_SIZE_SHIFT)

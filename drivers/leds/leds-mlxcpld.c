@@ -32,16 +32,16 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/io.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/io.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define MLXPLAT_CPLD_LPC_REG_BASE_ADRR     0x2500 /* LPC bus access */
 

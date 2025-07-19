@@ -8,16 +8,16 @@
  * CONFIG_HEARTBEAT code.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/panic_notifier.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/sched.h>
-#include <linux/sched/loadavg.h>
-#include <linux/leds.h>
-#include <linux/reboot.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
+#include <peenux/sched.h>
+#include <peenux/sched/loadavg.h>
+#include <peenux/leds.h>
+#include <peenux/reboot.h>
 #include "../leds.h"
 
 static int panic_heartbeats;

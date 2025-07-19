@@ -5,10 +5,10 @@
  * Maintainer: Kumar Gala <galak@kernel.crashing.org>
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/of_platform.h>
+#include <peenux/pci.h>
 
 #include <asm/debug.h>
 #include <asm/io.h>

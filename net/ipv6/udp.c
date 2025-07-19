@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	UDP over IPv6
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
  *
- *	Based on linux/ipv4/udp.c
+ *	Based on peenux/ipv4/udp.c
  *
  *	Fixes:
  *	Hideaki YOSHIFUJI	:	sin6_scope_id support
@@ -17,23 +17,23 @@
  *      YOSHIFUJI Hideaki @USAGI:	convert /proc/net/udp6 to seq_file.
  */
 
-#include <linux/bpf-cgroup.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/ipv6.h>
-#include <linux/icmpv6.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/indirect_call_wrapper.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/in6.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/ipv6.h>
+#include <peenux/icmpv6.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/indirect_call_wrapper.h>
 #include <trace/events/udp.h>
 
 #include <net/addrconf.h>
@@ -54,8 +54,8 @@
 #include <net/sock_reuseport.h>
 #include <net/gro.h>
 
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include <trace/events/skb.h>
 #include "udp_impl.h"
 

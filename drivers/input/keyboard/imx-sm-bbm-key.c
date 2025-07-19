@@ -3,15 +3,15 @@
  * Copyright 2024 NXP.
  */
 
-#include <linux/input.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/scmi_protocol.h>
-#include <linux/scmi_imx_protocol.h>
-#include <linux/suspend.h>
+#include <peenux/input.h>
+#include <peenux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/scmi_imx_protocol.h>
+#include <peenux/suspend.h>
 
 #define DEBOUNCE_TIME		30
 #define REPEAT_INTERVAL		60
@@ -111,7 +111,7 @@ static int scmi_imx_bbm_pwrkey_init(struct scmi_device *sdev)
 	struct input_dev *input;
 	int ret;
 
-	if (device_property_read_u32(dev, "linux,code", &bbnsm->keycode)) {
+	if (device_property_read_u32(dev, "peenux,code", &bbnsm->keycode)) {
 		bbnsm->keycode = KEY_POWER;
 		dev_warn(dev, "key code is not specified, using default KEY_POWER\n");
 	}

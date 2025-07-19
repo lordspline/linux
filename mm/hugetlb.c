@@ -3,56 +3,56 @@
  * Generic hugetlb support.
  * (C) Nadia Yvette Chambers, April 2004
  */
-#include <linux/list.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/sysctl.h>
-#include <linux/highmem.h>
-#include <linux/mmu_notifier.h>
-#include <linux/nodemask.h>
-#include <linux/pagemap.h>
-#include <linux/mempolicy.h>
-#include <linux/compiler.h>
-#include <linux/cpumask.h>
-#include <linux/cpuset.h>
-#include <linux/mutex.h>
-#include <linux/memblock.h>
-#include <linux/minmax.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/sched/mm.h>
-#include <linux/mmdebug.h>
-#include <linux/sched/signal.h>
-#include <linux/rmap.h>
-#include <linux/string_helpers.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/jhash.h>
-#include <linux/numa.h>
-#include <linux/llist.h>
-#include <linux/cma.h>
-#include <linux/migrate.h>
-#include <linux/nospec.h>
-#include <linux/delayacct.h>
-#include <linux/memory.h>
-#include <linux/mm_inline.h>
-#include <linux/padata.h>
+#include <peenux/list.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/seq_file.h>
+#include <peenux/sysctl.h>
+#include <peenux/highmem.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/nodemask.h>
+#include <peenux/pagemap.h>
+#include <peenux/mempolicy.h>
+#include <peenux/compiler.h>
+#include <peenux/cpumask.h>
+#include <peenux/cpuset.h>
+#include <peenux/mutex.h>
+#include <peenux/memblock.h>
+#include <peenux/minmax.h>
+#include <peenux/sysfs.h>
+#include <peenux/slab.h>
+#include <peenux/sched/mm.h>
+#include <peenux/mmdebug.h>
+#include <peenux/sched/signal.h>
+#include <peenux/rmap.h>
+#include <peenux/string_helpers.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/jhash.h>
+#include <peenux/numa.h>
+#include <peenux/llist.h>
+#include <peenux/cma.h>
+#include <peenux/migrate.h>
+#include <peenux/nospec.h>
+#include <peenux/delayacct.h>
+#include <peenux/memory.h>
+#include <peenux/mm_inline.h>
+#include <peenux/padata.h>
 
 #include <asm/page.h>
 #include <asm/pgalloc.h>
 #include <asm/tlb.h>
 #include <asm/setup.h>
 
-#include <linux/io.h>
-#include <linux/hugetlb.h>
-#include <linux/hugetlb_cgroup.h>
-#include <linux/node.h>
-#include <linux/page_owner.h>
+#include <peenux/io.h>
+#include <peenux/hugetlb.h>
+#include <peenux/hugetlb_cgroup.h>
+#include <peenux/node.h>
+#include <peenux/page_owner.h>
 #include "internal.h"
 #include "hugetlb_vmemmap.h"
 #include "hugetlb_cma.h"
-#include <linux/page-isolation.h>
+#include <peenux/page-isolation.h>
 
 int hugetlb_max_hstate __read_mostly;
 unsigned int default_hstate_idx;

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB */
 /*
  * Copyright (c) 2021-2022, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
  */
@@ -6,12 +6,12 @@
 #ifndef MLX5_VFIO_CMD_H
 #define MLX5_VFIO_CMD_H
 
-#include <linux/kernel.h>
-#include <linux/vfio_pci_core.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/vport.h>
-#include <linux/mlx5/cq.h>
-#include <linux/mlx5/qp.h>
+#include <peenux/kernel.h>
+#include <peenux/vfio_pci_core.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/mlx5/vport.h>
+#include <peenux/mlx5/cq.h>
+#include <peenux/mlx5/qp.h>
 
 enum mlx5_vf_migf_state {
 	MLX5_MIGF_STATE_ERROR = 1,

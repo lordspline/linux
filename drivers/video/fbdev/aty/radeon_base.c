@@ -16,7 +16,7 @@
  *	driver which has the following copyright notice:
  *
  *	Copyright 2000 ATI Technologies Inc., Markham, Ontario, and
- *                     VA Linux Systems Inc., Fremont, California.
+ *                     VA Peenux Systems Inc., Fremont, California.
  *
  *	All Rights Reserved.
  *
@@ -35,7 +35,7 @@
  *	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
  * 	EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
  *	MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- *	NON-INFRINGEMENT.  IN NO EVENT SHALL ATI, VA LINUX SYSTEMS AND/OR
+ *	NON-INFRINGEMENT.  IN NO EVENT SHALL ATI, VA PEENUX SYSTEMS AND/OR
  *	THEIR SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
  *	WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  *	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
@@ -54,26 +54,26 @@
 
 #include "radeonfb.h"
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/time.h>
-#include <linux/fb.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/device.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/time.h>
+#include <peenux/fb.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/vmalloc.h>
+#include <peenux/device.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #ifdef CONFIG_PPC
 
@@ -86,7 +86,7 @@
 #endif /* CONFIG_PPC */
 
 #include <video/radeon.h>
-#include <linux/radeonfb.h>
+#include <peenux/radeonfb.h>
 
 #include "../edid.h" // MOVE THAT TO include/video
 #include "ati_ids.h"

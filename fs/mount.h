@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/mount.h>
-#include <linux/seq_file.h>
-#include <linux/poll.h>
-#include <linux/ns_common.h>
-#include <linux/fs_pin.h>
+#include <peenux/mount.h>
+#include <peenux/seq_file.h>
+#include <peenux/poll.h>
+#include <peenux/ns_common.h>
+#include <peenux/fs_pin.h>
 
 extern struct list_head notify_list;
 

@@ -14,9 +14,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
 
 struct configfs_fragment {
 	atomic_t frag_count;

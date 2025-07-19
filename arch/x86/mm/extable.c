@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/extable.h>
-#include <linux/uaccess.h>
-#include <linux/sched/debug.h>
-#include <linux/bitfield.h>
+#include <peenux/extable.h>
+#include <peenux/uaccess.h>
+#include <peenux/sched/debug.h>
+#include <peenux/bitfield.h>
 #include <xen/xen.h>
 
 #include <asm/fpu/api.h>

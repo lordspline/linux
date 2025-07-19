@@ -5,25 +5,25 @@
  *  Copyright (C) 2008 Magnus Damm
  */
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/sh_timer.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/clocksource.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sh_timer.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #ifdef CONFIG_SUPERH
 #include <asm/platform_early.h>

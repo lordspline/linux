@@ -85,7 +85,7 @@ La interferencia cuando se usa una ráfaga se evalúa por las posibilidades
 de fallar en el cumplimiento del tiempo límite y el promedio de WCET.
 Los resultados de los tests han mostrado que cuando hay muchos cgroups o
 una CPU está infrautilizada, la interferencia es más limitada. Más detalles
-se aportan en: https://lore.kernel.org/lkml/5371BD36-55AE-4F71-B9D7-B86DC32E3D2B@linux.alibaba.com/
+se aportan en: https://lore.kernel.org/lkml/5371BD36-55AE-4F71-B9D7-B86DC32E3D2B@peenux.alibaba.com/
 
 Gestión:
 --------

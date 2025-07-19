@@ -3,12 +3,12 @@
  * rsparser.c - parses and encodes pnpbios resource data streams
  */
 
-#include <linux/ctype.h>
-#include <linux/pnp.h>
-#include <linux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/pnp.h>
+#include <peenux/string.h>
 
 #ifdef CONFIG_PCI
-#include <linux/pci.h>
+#include <peenux/pci.h>
 #else
 inline void pcibios_penalize_isa_irq(int irq, int active)
 {

@@ -10,12 +10,12 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/compiler.h>
-#include <linux/sched.h>
-#include <linux/sched/hotplug.h>
-#include <linux/mm_types.h>
-#include <linux/pgtable.h>
-#include <linux/pkeys.h>
+#include <peenux/compiler.h>
+#include <peenux/sched.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/mm_types.h>
+#include <peenux/pgtable.h>
+#include <peenux/pkeys.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cpufeature.h>

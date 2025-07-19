@@ -2,7 +2,7 @@
 #include "tests.h"
 #include "debug.h"
 #include "symbol.h"
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 #include <stdlib.h>
 #include <string.h>
 

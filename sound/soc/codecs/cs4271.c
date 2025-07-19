@@ -10,12 +10,12 @@
  * DAPM support not implemented.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>

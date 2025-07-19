@@ -6,15 +6,15 @@
  * This SoC has an elaborate flash control register, so we need to
  * detect and set it up when booting on this platform.
  */
-#include <linux/export.h>
-#include <linux/of.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/xip.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/bitops.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/export.h>
+#include <peenux/of.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/xip.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/pinctrl/consumer.h>
 #include "physmap-gemini.h"
 
 /*

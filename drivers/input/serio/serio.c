@@ -9,14 +9,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/stddef.h>
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
+#include <peenux/stddef.h>
+#include <peenux/module.h>
+#include <peenux/serio.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/mutex.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("Serio abstraction core");

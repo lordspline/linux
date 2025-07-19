@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-footbridge/common.c
+ *  peenux/arch/arm/mach-footbridge/common.c
  *
  *  Copyright (C) 1998-2000 Russell King, Dave Gilbert.
  */
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/ioport.h>
-#include <linux/list.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/dma-direct.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/ioport.h>
+#include <peenux/list.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
+#include <peenux/dma-direct.h>
 #include <video/vga.h>
 
 #include <asm/page.h>

@@ -2,7 +2,7 @@
 #ifndef _LINUX_REFCOUNT_TYPES_H
 #define _LINUX_REFCOUNT_TYPES_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /**
  * typedef refcount_t - variant of atomic_t specialized for reference counts

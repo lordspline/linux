@@ -2,13 +2,13 @@
 /*
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/export.h>
-#include <linux/hugetlb.h>
-#include <linux/io.h>
-#include <linux/kfence.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
+#include <peenux/export.h>
+#include <peenux/hugetlb.h>
+#include <peenux/io.h>
+#include <peenux/kfence.h>
+#include <peenux/memblock.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
 
 #define SHM_ALIGN_MASK	(SHMLBA - 1)
 

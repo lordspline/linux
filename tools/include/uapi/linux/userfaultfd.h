@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
- *  include/linux/userfaultfd.h
+ *  include/peenux/userfaultfd.h
  *
  *  Copyright (C) 2007  Davide Libenzi <davidel@xmailserver.org>
  *  Copyright (C) 2015  Red Hat, Inc.
@@ -10,7 +10,7 @@
 #ifndef _LINUX_USERFAULTFD_H
 #define _LINUX_USERFAULTFD_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* ioctls for /dev/userfaultfd */
 #define USERFAULTFD_IOC 0xAA

@@ -6,13 +6,13 @@
  * Copyright (c) 2017 Vadim Pasternak <vadimp@mellanox.com>
  */
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 #include "pmbus.h"
 
 enum chips {

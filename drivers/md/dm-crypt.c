@@ -8,41 +8,41 @@
  * This file is released under the GPL.
  */
 
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/key.h>
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/blk-integrity.h>
-#include <linux/crc32.h>
-#include <linux/mempool.h>
-#include <linux/slab.h>
-#include <linux/crypto.h>
-#include <linux/workqueue.h>
-#include <linux/kthread.h>
-#include <linux/backing-dev.h>
-#include <linux/atomic.h>
-#include <linux/scatterlist.h>
-#include <linux/rbtree.h>
-#include <linux/ctype.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/key.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/crc32.h>
+#include <peenux/mempool.h>
+#include <peenux/slab.h>
+#include <peenux/crypto.h>
+#include <peenux/workqueue.h>
+#include <peenux/kthread.h>
+#include <peenux/backing-dev.h>
+#include <peenux/atomic.h>
+#include <peenux/scatterlist.h>
+#include <peenux/rbtree.h>
+#include <peenux/ctype.h>
 #include <asm/page.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <crypto/hash.h>
 #include <crypto/md5.h>
 #include <crypto/skcipher.h>
 #include <crypto/aead.h>
 #include <crypto/authenc.h>
 #include <crypto/utils.h>
-#include <linux/rtnetlink.h> /* for struct rtattr and RTA macros only */
-#include <linux/key-type.h>
+#include <peenux/rtnetlink.h> /* for struct rtattr and RTA macros only */
+#include <peenux/key-type.h>
 #include <keys/user-type.h>
 #include <keys/encrypted-type.h>
 #include <keys/trusted-type.h>
 
-#include <linux/device-mapper.h>
+#include <peenux/device-mapper.h>
 
 #include "dm-audit.h"
 

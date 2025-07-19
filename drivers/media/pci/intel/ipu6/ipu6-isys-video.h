@@ -4,11 +4,11 @@
 #ifndef IPU6_ISYS_VIDEO_H
 #define IPU6_ISYS_VIDEO_H
 
-#include <linux/atomic.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
+#include <peenux/atomic.h>
+#include <peenux/completion.h>
+#include <peenux/container_of.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-dev.h>

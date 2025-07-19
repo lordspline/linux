@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/driver.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regulator/driver.h>
 
 enum {
 	DSV_OUT_VLCM = 0,

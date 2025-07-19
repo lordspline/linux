@@ -8,11 +8,11 @@
 
 */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
 #include <media/dvb_frontend.h>
 #include "cx22700.h"
 

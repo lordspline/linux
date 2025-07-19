@@ -6,12 +6,12 @@
 
 /* LCDC DRM driver, based on da8xx-fb */
 
-#include <linux/component.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/component.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

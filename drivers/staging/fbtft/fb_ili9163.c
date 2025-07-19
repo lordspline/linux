@@ -8,10 +8,10 @@
  * .S.U.M.O.T.O.Y. by Max MC Costa (https://github.com/sumotoy/TFT_ILI9163C).
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
 #include <video/mipi_display.h>
 
 #include "fbtft.h"

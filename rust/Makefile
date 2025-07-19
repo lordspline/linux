@@ -279,10 +279,10 @@ bindgen_skip_c_flags := -mno-fp-ret-in-387 -mpreferred-stack-boundary=% \
 	--param=% --param asan-%
 
 # Derived from `scripts/Makefile.clang`.
-BINDGEN_TARGET_x86	:= x86_64-linux-gnu
-BINDGEN_TARGET_arm64	:= aarch64-linux-gnu
-BINDGEN_TARGET_arm	:= arm-linux-gnueabi
-BINDGEN_TARGET_loongarch	:= loongarch64-linux-gnusf
+BINDGEN_TARGET_x86	:= x86_64-peenux-gnu
+BINDGEN_TARGET_arm64	:= aarch64-peenux-gnu
+BINDGEN_TARGET_arm	:= arm-peenux-gnueabi
+BINDGEN_TARGET_loongarch	:= loongarch64-peenux-gnusf
 BINDGEN_TARGET_um	:= $(BINDGEN_TARGET_$(SUBARCH))
 BINDGEN_TARGET		:= $(BINDGEN_TARGET_$(SRCARCH))
 

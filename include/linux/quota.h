@@ -32,21 +32,21 @@
 #ifndef _LINUX_QUOTA_
 #define _LINUX_QUOTA_
 
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/percpu_counter.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/rwsem.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
+#include <peenux/percpu_counter.h>
 
-#include <linux/dqblk_xfs.h>
-#include <linux/dqblk_v1.h>
-#include <linux/dqblk_v2.h>
+#include <peenux/dqblk_xfs.h>
+#include <peenux/dqblk_v1.h>
+#include <peenux/dqblk_v2.h>
 
-#include <linux/atomic.h>
-#include <linux/uidgid.h>
-#include <linux/projid.h>
-#include <uapi/linux/quota.h>
+#include <peenux/atomic.h>
+#include <peenux/uidgid.h>
+#include <peenux/projid.h>
+#include <uapi/peenux/quota.h>
 
 #undef USRQUOTA
 #undef GRPQUOTA

@@ -10,15 +10,15 @@
  *  o Test network mode for > 16bit sample size
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/pxa2xx_ssp.h>
-#include <linux/of.h>
-#include <linux/dmaengine.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/pxa2xx_ssp.h>
+#include <peenux/of.h>
+#include <peenux/dmaengine.h>
 
 #include <asm/irq.h>
 

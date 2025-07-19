@@ -3,14 +3,14 @@
  * Copyright 2020-2021 NXP
  */
 
-#include <linux/init.h>
-#include <linux/interconnect.h>
-#include <linux/ioctl.h>
-#include <linux/list.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/videodev2.h>
+#include <peenux/init.h>
+#include <peenux/interconnect.h>
+#include <peenux/ioctl.h>
+#include <peenux/list.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-mem2mem.h>

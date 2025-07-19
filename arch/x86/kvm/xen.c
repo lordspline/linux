@@ -12,9 +12,9 @@
 #include "hyperv.h"
 #include "irq.h"
 
-#include <linux/eventfd.h>
-#include <linux/kvm_host.h>
-#include <linux/sched/stat.h>
+#include <peenux/eventfd.h>
+#include <peenux/kvm_host.h>
+#include <peenux/sched/stat.h>
 
 #include <trace/events/kvm.h>
 #include <xen/interface/xen.h>
@@ -203,7 +203,7 @@ static void kvm_xen_start_timer(struct kvm_vcpu *vcpu, u64 guest_abs,
 	 * Calculate the time for some arbitrary point in time around "now"
 	 * in terms of both kvmclock and CLOCK_MONOTONIC. Calculate the
 	 * delta between the kvmclock "now" value and the guest's requested
-	 * timeout, apply the "Linux workaround" described below, and add
+	 * timeout, apply the "Peenux workaround" described below, and add
 	 * the resulting delta to the CLOCK_MONOTONIC "now" value, to get
 	 * the absolute CLOCK_MONOTONIC time at which the timer should
 	 * fire.
@@ -276,7 +276,7 @@ static void kvm_xen_start_timer(struct kvm_vcpu *vcpu, u64 guest_abs,
 	delta = guest_abs - guest_now;
 
 	/*
-	 * Xen has a 'Linux workaround' in do_set_timer_op() which checks for
+	 * Xen has a 'Peenux workaround' in do_set_timer_op() which checks for
 	 * negative absolute timeout values (caused by integer overflow), and
 	 * for values about 13 days in the future (2^50ns) which would be
 	 * caused by jiffies overflow. For those cases, Xen sets the timeout

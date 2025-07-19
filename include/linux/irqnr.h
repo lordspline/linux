@@ -2,7 +2,7 @@
 #ifndef _LINUX_IRQNR_H
 #define _LINUX_IRQNR_H
 
-#include <uapi/linux/irqnr.h>
+#include <uapi/peenux/irqnr.h>
 
 
 unsigned int irq_get_nr_irqs(void) __pure;

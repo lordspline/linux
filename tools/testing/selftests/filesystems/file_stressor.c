@@ -14,8 +14,8 @@
 
 #include "../kselftest_harness.h"
 
-#include <linux/types.h>
-#include <linux/mount.h>
+#include <peenux/types.h>
+#include <peenux/mount.h>
 #include <sys/syscall.h>
 
 static inline int sys_fsopen(const char *fsname, unsigned int flags)

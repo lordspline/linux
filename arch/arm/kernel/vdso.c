@@ -6,16 +6,16 @@
  * Copyright (C) 2015 Mentor Graphics Corporation.
  */
 
-#include <linux/cache.h>
-#include <linux/vdso_datastore.h>
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/of.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/cache.h>
+#include <peenux/vdso_datastore.h>
+#include <peenux/elf.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/of.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 #include <asm/arch_timer.h>
 #include <asm/barrier.h>
 #include <asm/cacheflush.h>

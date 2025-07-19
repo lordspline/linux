@@ -12,8 +12,8 @@
 #ifndef _LEDS_LP55XX_H
 #define _LEDS_LP55XX_H
 
-#include <linux/gpio/consumer.h>
-#include <linux/led-class-multicolor.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/led-class-multicolor.h>
 
 /* Clock configuration */
 #define LP55XX_CLOCK_AUTO	0

@@ -4,7 +4,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #include <asm/module.h>
 
 /*

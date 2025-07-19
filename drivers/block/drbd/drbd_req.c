@@ -11,10 +11,10 @@
 
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/slab.h>
-#include <linux/drbd.h>
+#include <peenux/slab.h>
+#include <peenux/drbd.h>
 #include "drbd_int.h"
 #include "drbd_req.h"
 

@@ -8,14 +8,14 @@
  * Author: Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
 
 struct x9250_cfg {
 	const char *name;

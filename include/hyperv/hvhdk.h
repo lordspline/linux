@@ -5,7 +5,7 @@
 #ifndef _HV_HVHDK_H
 #define _HV_HVHDK_H
 
-#include <linux/build_bug.h>
+#include <peenux/build_bug.h>
 
 #include "hvhdk_mini.h"
 #include "hvgdk.h"
@@ -480,14 +480,14 @@ struct hv_connection_info {
 #define HV_EVENT_FLAGS_BYTE_COUNT	(256)
 #define HV_EVENT_FLAGS32_COUNT		(256 / sizeof(u32))
 
-/* linux side we create long version of flags to use long bit ops on flags */
+/* peenux side we create long version of flags to use long bit ops on flags */
 #define HV_EVENT_FLAGS_UL_COUNT		(256 / sizeof(ulong))
 
 /* Define the synthetic interrupt controller event flags format. */
 union hv_synic_event_flags {
 	unsigned char flags8[HV_EVENT_FLAGS_BYTE_COUNT];
 	u32 flags32[HV_EVENT_FLAGS32_COUNT];
-	ulong flags[HV_EVENT_FLAGS_UL_COUNT];  /* linux only */
+	ulong flags[HV_EVENT_FLAGS_UL_COUNT];  /* peenux only */
 };
 
 struct hv_synic_event_flags_page {

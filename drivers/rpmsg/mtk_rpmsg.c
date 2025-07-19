@@ -2,14 +2,14 @@
 //
 // Copyright 2019 Google LLC.
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
-#include <linux/rpmsg/mtk_rpmsg.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/remoteproc.h>
+#include <peenux/rpmsg/mtk_rpmsg.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include "rpmsg_internal.h"
 

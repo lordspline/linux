@@ -7,13 +7,13 @@
 #ifndef _CLK_KONA_H
 #define _CLK_KONA_H
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/clk-provider.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/clk-provider.h>
 
 #define	BILLION		1000000000
 

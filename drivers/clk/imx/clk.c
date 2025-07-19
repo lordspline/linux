@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 #include "clk.h"
 
 #define CCM_CCDR			0x4

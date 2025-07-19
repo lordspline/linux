@@ -6,11 +6,11 @@
 /*       Combined with the alphanumeric       */
 /*       portion of Greg Harp's old PEARL     */
 /*       font (from earlier versions of       */
-/*       linux-m86k) by John Shifflett        */
+/*       peenux-m86k) by John Shifflett        */
 /*                                            */
 /**********************************************/
 
-#include <linux/font.h>
+#include <peenux/font.h>
 
 #define FONTDATAMAX 2048
 

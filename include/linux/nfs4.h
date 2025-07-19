@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- *  include/linux/nfs4.h
+ *  include/peenux/nfs4.h
  *
  *  NFSv4 protocol definitions.
  *
@@ -13,11 +13,11 @@
 #ifndef _LINUX_NFS4_H
 #define _LINUX_NFS4_H
 
-#include <linux/list.h>
-#include <linux/uidgid.h>
-#include <uapi/linux/nfs4.h>
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/sunrpc/xdrgen/nfs4_1.h>
+#include <peenux/list.h>
+#include <peenux/uidgid.h>
+#include <uapi/peenux/nfs4.h>
+#include <peenux/sunrpc/msg_prot.h>
+#include <peenux/sunrpc/xdrgen/nfs4_1.h>
 
 enum nfs4_acl_whotype {
 	NFS4_ACL_WHO_NAMED = 0,
@@ -613,7 +613,7 @@ enum {
 #define NFS4_DEBUG 1
 
 /*
- * Index of predefined Linux client operations
+ * Index of predefined Peenux client operations
  *
  * To ensure that /proc/net/rpc/nfs remains correctly ordered, please
  * append only to this enum when adding new client operations.

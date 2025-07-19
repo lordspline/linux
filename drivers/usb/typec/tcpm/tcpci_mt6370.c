@@ -5,17 +5,17 @@
  * Author: ChiYuan Huang <cy_huang@richtek.com>
  */
 
-#include <linux/bits.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/tcpci.h>
-#include <linux/usb/tcpm.h>
+#include <peenux/bits.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/usb/tcpci.h>
+#include <peenux/usb/tcpm.h>
 
 #define MT6370_REG_SYSCTRL8	0x9B
 

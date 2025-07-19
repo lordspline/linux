@@ -23,7 +23,7 @@
  * contributors:
  * 	Daris A Nevil <dnevil@snmc.com>
  *      Nicolas Pitre <nico@fluxnic.net>
- *	Russell King <rmk@arm.linux.org.uk>
+ *	Russell King <rmk@arm.peenux.org.uk>
  *
  * History:
  *   08/20/00  Arnaldo Melo       fix kfree(skb) in smc_hardware_send_packet
@@ -53,27 +53,27 @@ static const char version[] =
 #endif
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/crc32.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/workqueue.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/crc32.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/workqueue.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
 
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
 
 #include <asm/io.h>
 

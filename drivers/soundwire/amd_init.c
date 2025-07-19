@@ -7,12 +7,12 @@
  * Copyright 2024 Advanced Micro Devices, Inc.
  */
 
-#include <linux/acpi.h>
-#include <linux/cleanup.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/cleanup.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "amd_init.h"
 

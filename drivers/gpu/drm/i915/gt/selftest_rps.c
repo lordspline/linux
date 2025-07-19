@@ -3,8 +3,8 @@
  * Copyright © 2020 Intel Corporation
  */
 
-#include <linux/pm_qos.h>
-#include <linux/sort.h>
+#include <peenux/pm_qos.h>
+#include <peenux/sort.h>
 
 #include "gem/i915_gem_internal.h"
 

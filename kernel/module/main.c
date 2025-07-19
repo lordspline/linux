@@ -7,59 +7,59 @@
 
 #define INCLUDE_VERMAGIC
 
-#include <linux/export.h>
-#include <linux/extable.h>
-#include <linux/moduleloader.h>
-#include <linux/module_signature.h>
-#include <linux/trace_events.h>
-#include <linux/init.h>
-#include <linux/kallsyms.h>
-#include <linux/buildid.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/kernel_read_file.h>
-#include <linux/kstrtox.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/elf.h>
-#include <linux/seq_file.h>
-#include <linux/syscalls.h>
-#include <linux/fcntl.h>
-#include <linux/rcupdate.h>
-#include <linux/capability.h>
-#include <linux/cpu.h>
-#include <linux/moduleparam.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/vermagic.h>
-#include <linux/notifier.h>
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/string.h>
-#include <linux/mutex.h>
-#include <linux/rculist.h>
-#include <linux/uaccess.h>
+#include <peenux/export.h>
+#include <peenux/extable.h>
+#include <peenux/moduleloader.h>
+#include <peenux/module_signature.h>
+#include <peenux/trace_events.h>
+#include <peenux/init.h>
+#include <peenux/kallsyms.h>
+#include <peenux/buildid.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/kstrtox.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/elf.h>
+#include <peenux/seq_file.h>
+#include <peenux/syscalls.h>
+#include <peenux/fcntl.h>
+#include <peenux/rcupdate.h>
+#include <peenux/capability.h>
+#include <peenux/cpu.h>
+#include <peenux/moduleparam.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/vermagic.h>
+#include <peenux/notifier.h>
+#include <peenux/sched.h>
+#include <peenux/device.h>
+#include <peenux/string.h>
+#include <peenux/mutex.h>
+#include <peenux/rculist.h>
+#include <peenux/uaccess.h>
 #include <asm/cacheflush.h>
-#include <linux/set_memory.h>
+#include <peenux/set_memory.h>
 #include <asm/mmu_context.h>
-#include <linux/license.h>
+#include <peenux/license.h>
 #include <asm/sections.h>
-#include <linux/tracepoint.h>
-#include <linux/ftrace.h>
-#include <linux/livepatch.h>
-#include <linux/async.h>
-#include <linux/percpu.h>
-#include <linux/kmemleak.h>
-#include <linux/jump_label.h>
-#include <linux/pfn.h>
-#include <linux/bsearch.h>
-#include <linux/dynamic_debug.h>
-#include <linux/audit.h>
-#include <linux/cfi.h>
-#include <linux/codetag.h>
-#include <linux/debugfs.h>
-#include <linux/execmem.h>
-#include <uapi/linux/module.h>
+#include <peenux/tracepoint.h>
+#include <peenux/ftrace.h>
+#include <peenux/livepatch.h>
+#include <peenux/async.h>
+#include <peenux/percpu.h>
+#include <peenux/kmemleak.h>
+#include <peenux/jump_label.h>
+#include <peenux/pfn.h>
+#include <peenux/bsearch.h>
+#include <peenux/dynamic_debug.h>
+#include <peenux/audit.h>
+#include <peenux/cfi.h>
+#include <peenux/codetag.h>
+#include <peenux/debugfs.h>
+#include <peenux/execmem.h>
+#include <uapi/peenux/module.h>
 #include "internal.h"
 
 #define CREATE_TRACE_POINTS
@@ -2146,7 +2146,7 @@ static int elf_validity_cache_index_str(struct load_info *info)
  * @info:  Load info to cache version indices in.
  *         Must have &load_info->sechdrs and &load_info->secstrings populated.
  * @flags: Load flags, relevant to suppress version loading, see
- *         uapi/linux/module.h
+ *         uapi/peenux/module.h
  *
  * If we're ignoring modversions based on @flags, zero all version indices
  * and return validity. Othewrise check:
@@ -2222,7 +2222,7 @@ static int elf_validity_cache_index_versions(struct load_info *info, int flags)
  * @info:  Load info to read from and update.
  *         &load_info->sechdrs and &load_info->secstrings must be populated.
  * @flags: Load flags, relevant to suppress version loading, see
- *         uapi/linux/module.h
+ *         uapi/peenux/module.h
  *
  * Populates &load_info->index, validating as it goes.
  * See child functions for per-field validation:

@@ -5,30 +5,30 @@
  * Copyright (C) 1996 Peter J. Braam <braam@maths.ox.ac.uk> and 
  * Michael Callahan <callahan@maths.ox.ac.uk> 
  * 
- * Rewritten for Linux 2.1.  Peter Braam <braam@cs.cmu.edu>
+ * Rewritten for Peenux 2.1.  Peter Braam <braam@cs.cmu.edu>
  * Copyright (C) Carnegie Mellon University
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/file.h>
-#include <linux/vfs.h>
-#include <linux/slab.h>
-#include <linux/pid_namespace.h>
-#include <linux/uaccess.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/stat.h>
+#include <peenux/errno.h>
+#include <peenux/unistd.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/file.h>
+#include <peenux/vfs.h>
+#include <peenux/slab.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/vmalloc.h>
 
-#include <linux/coda.h>
+#include <peenux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 #include "coda_cache.h"

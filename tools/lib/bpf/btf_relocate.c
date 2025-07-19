@@ -6,12 +6,12 @@
 #endif
 
 #ifdef __KERNEL__
-#include <linux/bpf.h>
-#include <linux/bsearch.h>
-#include <linux/btf.h>
-#include <linux/sort.h>
-#include <linux/string.h>
-#include <linux/bpf_verifier.h>
+#include <peenux/bpf.h>
+#include <peenux/bsearch.h>
+#include <peenux/btf.h>
+#include <peenux/sort.h>
+#include <peenux/string.h>
+#include <peenux/bpf_verifier.h>
 
 #define btf_type_by_id				(struct btf_type *)btf_type_by_id
 #define btf__type_cnt				btf_nr_types

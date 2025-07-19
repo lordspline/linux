@@ -5,7 +5,7 @@
 #include "util/env.h"
 #include "util/pmu.h"
 #include "util/pmus.h"
-#include "linux/string.h"
+#include "peenux/string.h"
 #include "topdown.h"
 #include "evsel.h"
 #include "util/debug.h"

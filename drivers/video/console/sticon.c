@@ -1,10 +1,10 @@
 /*
- *  linux/drivers/video/console/sticon.c - console driver using HP's STI firmware
+ *  peenux/drivers/video/console/sticon.c - console driver using HP's STI firmware
  *
  *	Copyright (C) 2000 Philipp Rumpf <prumpf@tux.org>
  *	Copyright (C) 2002-2020 Helge Deller <deller@gmx.de>
  *
- *  Based on linux/drivers/video/vgacon.c and linux/drivers/video/fbcon.c,
+ *  Based on peenux/drivers/video/vgacon.c and peenux/drivers/video/fbcon.c,
  *  which were
  *
  *	Created 28 Sep 1997 by Geert Uytterhoeven
@@ -26,7 +26,7 @@
  *			   Martin Schaller
  *			   Andreas Schwab
  *			   Emmanuel Marty (core@ggi-project.org)
- *			   Jakub Jelinek (jj@ultra.linux.cz)
+ *			   Jakub Jelinek (jj@ultra.peenux.cz)
  *			   Martin Mares <mj@ucw.cz>
  *
  *  This file is subject to the terms and conditions of the GNU General Public
@@ -35,18 +35,18 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/errno.h>
-#include <linux/vt_kern.h>
-#include <linux/kd.h>
-#include <linux/selection.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/font.h>
-#include <linux/crc32.h>
-#include <linux/fb.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/console.h>
+#include <peenux/errno.h>
+#include <peenux/vt_kern.h>
+#include <peenux/kd.h>
+#include <peenux/selection.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/font.h>
+#include <peenux/crc32.h>
+#include <peenux/fb.h>
 
 #include <asm/io.h>
 

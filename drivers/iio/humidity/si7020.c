@@ -17,16 +17,16 @@
  *   Si7021: http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7021.pdf
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/stat.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/stat.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 /* Measure Relative Humidity, Hold Master Mode */
 #define SI7020CMD_RH_HOLD	0xE5

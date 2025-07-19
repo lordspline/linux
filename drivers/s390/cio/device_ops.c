@@ -5,14 +5,14 @@
  * Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com)
  *	      Cornelia Huck (cornelia.huck@de.ibm.com)
  */
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/completion.h>
 
 #include <asm/ccwdev.h>
 #include <asm/idals.h>

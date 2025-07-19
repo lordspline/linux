@@ -3,10 +3,10 @@
  * Copyright 2020 Noralf Trønnes
  */
 
-#include <linux/lz4.h>
-#include <linux/usb.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
+#include <peenux/lz4.h>
+#include <peenux/usb.h>
+#include <peenux/vmalloc.h>
+#include <peenux/workqueue.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_connector.h>

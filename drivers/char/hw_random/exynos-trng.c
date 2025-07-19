@@ -10,20 +10,20 @@
  * Krzysztof Kozłowski <krzk@kernel.org>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/clk.h>
-#include <linux/crypto.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/clk.h>
+#include <peenux/crypto.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
 
 #define EXYNOS_TRNG_CLKDIV		0x0
 

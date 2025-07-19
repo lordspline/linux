@@ -5,13 +5,13 @@
  *	Copyright (C) 2013 Andrew Lunn <andrew@lunn.ch>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/phy/phy.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/clk.h>
+#include <peenux/phy/phy.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 
 struct priv {
 	struct clk	*clk;

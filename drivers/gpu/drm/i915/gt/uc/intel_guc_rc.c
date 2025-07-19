@@ -3,7 +3,7 @@
  * Copyright © 2021 Intel Corporation
  */
 
-#include <linux/string_helpers.h>
+#include <peenux/string_helpers.h>
 
 #include "intel_guc_rc.h"
 #include "intel_guc_print.h"

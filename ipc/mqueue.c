@@ -1,5 +1,5 @@
 /*
- * POSIX message queues filesystem for Linux.
+ * POSIX message queues filesystem for Peenux.
  *
  * Copyright (C) 2003,2004  Krzysztof Benedyczak    (golbi@mat.uni.torun.pl)
  *                          Michal Wronski          (michal.wronski@gmail.com)
@@ -13,32 +13,32 @@
  * This file is released under the GPL.
  */
 
-#include <linux/capability.h>
-#include <linux/init.h>
-#include <linux/pagemap.h>
-#include <linux/file.h>
-#include <linux/mount.h>
-#include <linux/fs_context.h>
-#include <linux/namei.h>
-#include <linux/sysctl.h>
-#include <linux/poll.h>
-#include <linux/mqueue.h>
-#include <linux/msg.h>
-#include <linux/skbuff.h>
-#include <linux/vmalloc.h>
-#include <linux/netlink.h>
-#include <linux/syscalls.h>
-#include <linux/audit.h>
-#include <linux/signal.h>
-#include <linux/mutex.h>
-#include <linux/nsproxy.h>
-#include <linux/pid.h>
-#include <linux/ipc_namespace.h>
-#include <linux/user_namespace.h>
-#include <linux/slab.h>
-#include <linux/sched/wake_q.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/user.h>
+#include <peenux/capability.h>
+#include <peenux/init.h>
+#include <peenux/pagemap.h>
+#include <peenux/file.h>
+#include <peenux/mount.h>
+#include <peenux/fs_context.h>
+#include <peenux/namei.h>
+#include <peenux/sysctl.h>
+#include <peenux/poll.h>
+#include <peenux/mqueue.h>
+#include <peenux/msg.h>
+#include <peenux/skbuff.h>
+#include <peenux/vmalloc.h>
+#include <peenux/netlink.h>
+#include <peenux/syscalls.h>
+#include <peenux/audit.h>
+#include <peenux/signal.h>
+#include <peenux/mutex.h>
+#include <peenux/nsproxy.h>
+#include <peenux/pid.h>
+#include <peenux/ipc_namespace.h>
+#include <peenux/user_namespace.h>
+#include <peenux/slab.h>
+#include <peenux/sched/wake_q.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/user.h>
 
 #include <net/sock.h>
 #include "util.h"

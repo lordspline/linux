@@ -5,22 +5,22 @@
  * Copyright (c) 2016 Tom Herbert <tom@herbertland.com>
  */
 
-#include <linux/bpf.h>
-#include <linux/errno.h>
-#include <linux/errqueue.h>
-#include <linux/file.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/poll.h>
-#include <linux/rculist.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/uaccess.h>
-#include <linux/workqueue.h>
+#include <peenux/bpf.h>
+#include <peenux/errno.h>
+#include <peenux/errqueue.h>
+#include <peenux/file.h>
+#include <peenux/in.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/net.h>
+#include <peenux/netdevice.h>
+#include <peenux/poll.h>
+#include <peenux/rculist.h>
+#include <peenux/skbuff.h>
+#include <peenux/socket.h>
+#include <peenux/uaccess.h>
+#include <peenux/workqueue.h>
 #include <net/strparser.h>
 #include <net/netns/generic.h>
 #include <net/sock.h>

@@ -9,13 +9,13 @@
  * Copyright 2006  David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/mfd/wm8350/supply.h>
-#include <linux/mfd/wm8350/core.h>
-#include <linux/mfd/wm8350/comparator.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/mfd/wm8350/supply.h>
+#include <peenux/mfd/wm8350/core.h>
+#include <peenux/mfd/wm8350/comparator.h>
 
 static int wm8350_read_battery_uvolts(struct wm8350 *wm8350)
 {

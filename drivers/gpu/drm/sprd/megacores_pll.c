@@ -4,11 +4,11 @@
  */
 
 #include <asm/div64.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/regmap.h>
-#include <linux/string.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/regmap.h>
+#include <peenux/string.h>
 
 #include "sprd_dsi.h"
 

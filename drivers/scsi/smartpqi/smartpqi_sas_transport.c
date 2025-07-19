@@ -9,12 +9,12 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/bsg-lib.h>
+#include <peenux/kernel.h>
+#include <peenux/bsg-lib.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_transport_sas.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include "smartpqi.h"
 
 static struct pqi_sas_phy *pqi_alloc_sas_phy(struct pqi_sas_port *pqi_sas_port)

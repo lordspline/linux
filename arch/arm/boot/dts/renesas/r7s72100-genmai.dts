@@ -63,7 +63,7 @@
 		key-1 {
 			/* JP3 must be set to 1-2 (default) */
 			interrupts-extended = <&irqc 6 IRQ_TYPE_EDGE_BOTH>;
-			linux,code = <KEY_1>;
+			peenux,code = <KEY_1>;
 			label = "SW6,SW7";
 			wakeup-source;
 		};

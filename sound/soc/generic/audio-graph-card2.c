@@ -5,15 +5,15 @@
 // Copyright (C) 2020 Renesas Electronics Corp.
 // Copyright (C) 2020 Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
 //
-// based on ${LINUX}/sound/soc/generic/audio-graph-card.c
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
+// based on ${PEENUX}/sound/soc/generic/audio-graph-card.c
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
 #include <sound/graph_card.h>
 
 /************************************
@@ -50,11 +50,11 @@
 	snd_soc_runtime_get_dai_fmt()
 
 	sample driver
-		linux/sound/soc/renesas/rcar/core.c
-		linux/sound/soc/codecs/ak4613.c
-		linux/sound/soc/codecs/pcm3168a.c
-		linux/sound/soc/soc-utils.c
-		linux/sound/soc/generic/test-component.c
+		peenux/sound/soc/renesas/rcar/core.c
+		peenux/sound/soc/codecs/ak4613.c
+		peenux/sound/soc/codecs/pcm3168a.c
+		peenux/sound/soc/soc-utils.c
+		peenux/sound/soc/generic/test-component.c
 
  ************************************
 	Normal Audio-Graph

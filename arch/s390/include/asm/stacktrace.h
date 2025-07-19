@@ -2,9 +2,9 @@
 #ifndef _ASM_S390_STACKTRACE_H
 #define _ASM_S390_STACKTRACE_H
 
-#include <linux/stacktrace.h>
-#include <linux/uaccess.h>
-#include <linux/ptrace.h>
+#include <peenux/stacktrace.h>
+#include <peenux/uaccess.h>
+#include <peenux/ptrace.h>
 
 struct stack_frame_user {
 	unsigned long back_chain;

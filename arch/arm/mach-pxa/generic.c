@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-pxa/generic.c
+ *  peenux/arch/arm/mach-pxa/generic.c
  *
  *  Author:	Nicolas Pitre
  *  Created:	Jun 15, 2001
@@ -13,13 +13,13 @@
  * initialization stuff for PXA machines which can be overridden later if
  * need be.
  */
-#include <linux/gpio.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/soc/pxa/smemc.h>
-#include <linux/clk/pxa.h>
+#include <peenux/gpio.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/soc/pxa/cpu.h>
+#include <peenux/soc/pxa/smemc.h>
+#include <peenux/clk/pxa.h>
 
 #include <asm/mach/map.h>
 #include <asm/mach-types.h>

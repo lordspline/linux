@@ -6,13 +6,13 @@
  * Copyright (c) 2022, MediaTek Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define PHY_OFFSET			0x1000
 

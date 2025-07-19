@@ -4,29 +4,29 @@
  *
  * Copyright (C) 2016, 2023 Intel Corporation
  *
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  *          Raag Jadav <raag.jadav@intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/overflow.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "../core.h"
 #include "pinctrl-intel.h"
@@ -580,7 +580,7 @@ int devm_tng_pinctrl_probe(struct platform_device *pdev)
 }
 EXPORT_SYMBOL_NS_GPL(devm_tng_pinctrl_probe, "PINCTRL_TANGIER");
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@peenux.intel.com>");
 MODULE_AUTHOR("Raag Jadav <raag.jadav@intel.com>");
 MODULE_DESCRIPTION("Intel Tangier pinctrl driver");
 MODULE_LICENSE("GPL");

@@ -4,12 +4,12 @@
  * hardening.
  */
 #include "lkdtm.h"
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/vmalloc.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mman.h>
-#include <linux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mman.h>
+#include <peenux/uaccess.h>
 #include <asm/cacheflush.h>
 
 /*

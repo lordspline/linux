@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/sys_arm.c
+ *  peenux/arch/arm/kernel/sys_arm.c
  *
- *  Copyright (C) People who wrote linux/arch/i386/kernel/sys_i386.c
+ *  Copyright (C) People who wrote peenux/arch/i386/kernel/sys_i386.c
  *  Copyright (C) 1995, 1996 Russell King.
  *
  *  This file contains various random system calls that
- *  have a non-standard calling sequence on the Linux/arm
+ *  have a non-standard calling sequence on the Peenux/arm
  *  platform.
  */
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/syscalls.h>
-#include <linux/mman.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/ipc.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
+#include <peenux/export.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/sem.h>
+#include <peenux/msg.h>
+#include <peenux/shm.h>
+#include <peenux/stat.h>
+#include <peenux/syscalls.h>
+#include <peenux/mman.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/ipc.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
 #include <asm/syscalls.h>
 
 /*

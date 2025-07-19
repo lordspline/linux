@@ -6,12 +6,12 @@
  * Copyright (C) 2012 Jonas Gorski <jonas.gorski@gmail.com>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/mutex.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_io.h>
 #include <bcm63xx_regs.h>

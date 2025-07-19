@@ -10,16 +10,16 @@
  * Hardware interface for ACP6.3 block
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pci.h>
 
 #include <asm/amd/node.h>
 

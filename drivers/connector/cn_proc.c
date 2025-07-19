@@ -8,17 +8,17 @@
  * Copyright (C) 2005 BULL SA.
  */
 
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/init.h>
-#include <linux/connector.h>
-#include <linux/gfp.h>
-#include <linux/ptrace.h>
-#include <linux/atomic.h>
-#include <linux/pid_namespace.h>
+#include <peenux/kernel.h>
+#include <peenux/ktime.h>
+#include <peenux/init.h>
+#include <peenux/connector.h>
+#include <peenux/gfp.h>
+#include <peenux/ptrace.h>
+#include <peenux/atomic.h>
+#include <peenux/pid_namespace.h>
 
-#include <linux/cn_proc.h>
-#include <linux/local_lock.h>
+#include <peenux/cn_proc.h>
+#include <peenux/local_lock.h>
 
 /*
  * Size of a cn_msg followed by a proc_event structure.  Since the

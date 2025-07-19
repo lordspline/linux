@@ -4,14 +4,14 @@
  * Copyright (c) 2012, Intel Corporation.
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/mfd/core.h>
-#include <linux/list.h>
-#include <linux/hid-sensor-ids.h>
-#include <linux/hid-sensor-hub.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/mfd/core.h>
+#include <peenux/list.h>
+#include <peenux/hid-sensor-ids.h>
+#include <peenux/hid-sensor-hub.h>
 #include "hid-ids.h"
 
 #define HID_SENSOR_HUB_ENUM_QUIRK	0x01

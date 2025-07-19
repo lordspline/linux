@@ -7,11 +7,11 @@
 
 #define pr_fmt(fmt) "efi: " fmt
 
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/highmem.h>
-#include <linux/efi.h>
-#include <linux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/highmem.h>
+#include <peenux/efi.h>
+#include <peenux/vmalloc.h>
 #include <asm/efi.h>
 #include <asm/io.h>
 

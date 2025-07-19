@@ -19,19 +19,19 @@
 #define DRIVER_AUTHOR "Matthias Urlichs <smurf@smurf.noris.de>"
 #define DRIVER_DESC "USB Driver for GSM modems"
 
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/serial.h>
-#include <linux/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
+#include <peenux/usb/cdc.h>
+#include <peenux/usb/serial.h>
+#include <peenux/serial.h>
 #include "usb-wwan.h"
 
 /*

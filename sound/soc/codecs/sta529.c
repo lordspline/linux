@@ -4,22 +4,22 @@
  * sound/soc/codecs/sta529.c -- spear ALSA Soc codec driver
  *
  * Copyright (C) 2012 ST Microelectronics
- * Rajeev Kumar <rajeevkumar.linux@gmail.com>
+ * Rajeev Kumar <rajeevkumar.peenux@gmail.com>
  *
  * This file is licensed under the terms of the GNU General Public
  * License version 2. This program is licensed "as is" without any
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>
@@ -386,5 +386,5 @@ static struct i2c_driver sta529_i2c_driver = {
 module_i2c_driver(sta529_i2c_driver);
 
 MODULE_DESCRIPTION("ASoC STA529 codec driver");
-MODULE_AUTHOR("Rajeev Kumar <rajeevkumar.linux@gmail.com>");
+MODULE_AUTHOR("Rajeev Kumar <rajeevkumar.peenux@gmail.com>");
 MODULE_LICENSE("GPL");

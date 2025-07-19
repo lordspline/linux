@@ -2,16 +2,16 @@
 /*
  * Copyright (C) 2021 Rafał Miłecki <rafal@milecki.pl>
  */
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
 #define BCM63138_MAX_LEDS				32
 #define BCM63138_MAX_BRIGHTNESS				9

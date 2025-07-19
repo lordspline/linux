@@ -5,10 +5,10 @@
  * Copyright 2006 Johannes Berg <johannes@sipsolutions.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
 #include <asm/macio.h>
 #include <asm/pmac_feature.h>

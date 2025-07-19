@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2014, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2014, The Peenux Foundation. All rights reserved.
  */
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/watchdog.h>
 
 enum wdt_reg {
 	WDT_RST,

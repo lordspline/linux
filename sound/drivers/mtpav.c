@@ -34,18 +34,18 @@
  *        always after h/w and remote ports.
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/moduleparam.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/rawmidi.h>
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 /*
  *      globals

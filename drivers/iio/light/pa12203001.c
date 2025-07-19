@@ -7,17 +7,17 @@
  * To do: Interrupt support.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/mutex.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #define PA12203001_DRIVER_NAME	"pa12203001"
 

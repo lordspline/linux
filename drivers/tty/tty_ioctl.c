@@ -7,26 +7,26 @@
  * discipline handling modules (like SLIP).
  */
 
-#include <linux/bits.h>
-#include <linux/types.h>
-#include <linux/termios.h>
-#include <linux/errno.h>
-#include <linux/sched/signal.h>
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/tty.h>
-#include <linux/fcntl.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/mutex.h>
-#include <linux/compat.h>
-#include <linux/termios_internal.h>
+#include <peenux/bits.h>
+#include <peenux/types.h>
+#include <peenux/termios.h>
+#include <peenux/errno.h>
+#include <peenux/sched/signal.h>
+#include <peenux/kernel.h>
+#include <peenux/major.h>
+#include <peenux/tty.h>
+#include <peenux/fcntl.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/mutex.h>
+#include <peenux/compat.h>
+#include <peenux/termios_internal.h>
 #include "tty.h"
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #undef	DEBUG
 

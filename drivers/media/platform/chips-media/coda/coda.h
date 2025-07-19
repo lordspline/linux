@@ -11,13 +11,13 @@
 #ifndef __CODA_H__
 #define __CODA_H__
 
-#include <linux/debugfs.h>
-#include <linux/idr.h>
-#include <linux/irqreturn.h>
-#include <linux/mutex.h>
-#include <linux/kfifo.h>
-#include <linux/videodev2.h>
-#include <linux/ratelimit.h>
+#include <peenux/debugfs.h>
+#include <peenux/idr.h>
+#include <peenux/irqreturn.h>
+#include <peenux/mutex.h>
+#include <peenux/kfifo.h>
+#include <peenux/videodev2.h>
+#include <peenux/ratelimit.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

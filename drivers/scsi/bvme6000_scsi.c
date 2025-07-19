@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Detection routine for the NCR53c710 based BVME6000 SCSI Controllers for Linux.
+ * Detection routine for the NCR53c710 based BVME6000 SCSI Controllers for Peenux.
  *
  * Based on work by Alan Hourihane and Kars de Jong
  *
  * Rewritten to use 53c700.c by Richard Hirst <richard@sleepie.demon.co.uk>
  */
 
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
 #include <asm/bvme6000hw.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>

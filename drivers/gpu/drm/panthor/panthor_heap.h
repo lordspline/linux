@@ -4,7 +4,7 @@
 #ifndef __PANTHOR_HEAP_H__
 #define __PANTHOR_HEAP_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct panthor_device;
 struct panthor_heap_pool;

@@ -32,7 +32,7 @@
  * SOFTWARE.
  */
 
-#include <linux/errno.h>
+#include <peenux/errno.h>
 
 #include "mthca_dev.h"
 

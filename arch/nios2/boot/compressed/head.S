@@ -14,7 +14,7 @@
  *  as long as output does not overlap it.
  */
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 #include <asm/cache.h>
 
 	.text

@@ -2,8 +2,8 @@
 #ifndef NDTEST_H
 #define NDTEST_H
 
-#include <linux/platform_device.h>
-#include <linux/libnvdimm.h>
+#include <peenux/platform_device.h>
+#include <peenux/libnvdimm.h>
 
 struct ndtest_config;
 

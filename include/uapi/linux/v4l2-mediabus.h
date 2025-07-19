@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Media Bus API header
  *
@@ -8,9 +8,9 @@
 #ifndef __LINUX_V4L2_MEDIABUS_H
 #define __LINUX_V4L2_MEDIABUS_H
 
-#include <linux/media-bus-format.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/types.h>
+#include <peenux/videodev2.h>
 
 #define V4L2_MBUS_FRAMEFMT_SET_CSC	0x0001
 

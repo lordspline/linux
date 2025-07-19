@@ -11,12 +11,12 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
 
 #include "virt-dma.h"
 #include "fsldma.h"

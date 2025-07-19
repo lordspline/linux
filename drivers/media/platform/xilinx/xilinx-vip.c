@@ -9,11 +9,11 @@
  *           Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/clk.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <dt-bindings/media/xilinx-vip.h>
 

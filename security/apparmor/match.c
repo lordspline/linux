@@ -8,13 +8,13 @@
  * Copyright 2009-2012 Canonical Ltd.
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/err.h>
-#include <linux/kref.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/err.h>
+#include <peenux/kref.h>
 
 #include "include/lib.h"
 #include "include/match.h"

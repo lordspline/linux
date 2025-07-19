@@ -5,12 +5,12 @@
  * Copyright (c) 2021 AngeloGioacchino Del Regno
  *                    <angelogioacchino.delregno@somainline.org>
  */
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/regulator/consumer.h>
 
 #include <drm/drm_connector.h>
 #include <drm/drm_crtc.h>

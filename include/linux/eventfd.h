@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- *  include/linux/eventfd.h
+ *  include/peenux/eventfd.h
  *
  *  Copyright (C) 2007  Davide Libenzi <davidel@xmailserver.org>
  *
@@ -9,12 +9,12 @@
 #ifndef _LINUX_EVENTFD_H
 #define _LINUX_EVENTFD_H
 
-#include <linux/wait.h>
-#include <linux/err.h>
-#include <linux/percpu-defs.h>
-#include <linux/percpu.h>
-#include <linux/sched.h>
-#include <uapi/linux/eventfd.h>
+#include <peenux/wait.h>
+#include <peenux/err.h>
+#include <peenux/percpu-defs.h>
+#include <peenux/percpu.h>
+#include <peenux/sched.h>
+#include <uapi/peenux/eventfd.h>
 
 /*
  * CAREFUL: Check include/uapi/asm-generic/fcntl.h when defining

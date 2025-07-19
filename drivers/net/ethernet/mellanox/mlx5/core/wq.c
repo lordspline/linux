@@ -30,7 +30,7 @@
  * SOFTWARE.
  */
 
-#include <linux/mlx5/driver.h>
+#include <peenux/mlx5/driver.h>
 #include "wq.h"
 #include "mlx5_core.h"
 

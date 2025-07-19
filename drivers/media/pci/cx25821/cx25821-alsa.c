@@ -9,16 +9,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/vmalloc.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/vmalloc.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
-#include <linux/delay.h>
+#include <peenux/delay.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
@@ -769,7 +769,7 @@ error:
 }
 
 /****************************************************************************
-				LINUX MODULE INIT
+				PEENUX MODULE INIT
  ****************************************************************************/
 
 static int cx25821_alsa_exit_callback(struct device *dev, void *data)

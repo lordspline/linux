@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
-#include <linux/rtnetlink.h>
+#include <peenux/etherdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/phy.h>
+#include <peenux/rtnetlink.h>
 #include "hbg_common.h"
 #include "hbg_err.h"
 #include "hbg_hw.h"

@@ -6,13 +6,13 @@
  * Copyright (c) 2011 John Crispin <john@phrozen.org>
  */
 
-#include <linux/device/devres.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
-#include <linux/types.h>
+#include <peenux/device/devres.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/gfp.h>
+#include <peenux/types.h>
 
-#include <linux/gpio/consumer.h>
+#include <peenux/gpio/consumer.h>
 
 #include "gpiolib.h"
 

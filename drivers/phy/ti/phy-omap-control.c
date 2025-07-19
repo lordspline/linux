@@ -6,15 +6,15 @@
  * Author: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/phy/omap_control_phy.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/phy/omap_control_phy.h>
 
 /**
  * omap_control_pcie_pcs - set the PCS delay count

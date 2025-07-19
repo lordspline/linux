@@ -71,16 +71,16 @@
 
 #include "ivsrcid/ivsrcid_vislands30.h"
 
-#include <linux/backlight.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/pm_runtime.h>
-#include <linux/pci.h>
-#include <linux/power_supply.h>
-#include <linux/firmware.h>
-#include <linux/component.h>
-#include <linux/sort.h>
+#include <peenux/backlight.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pci.h>
+#include <peenux/power_supply.h>
+#include <peenux/firmware.h>
+#include <peenux/component.h>
+#include <peenux/sort.h>
 
 #include <drm/display/drm_dp_mst_helper.h>
 #include <drm/display/drm_hdmi_helper.h>
@@ -1873,8 +1873,8 @@ static int amdgpu_dm_init(struct amdgpu_device *adev)
 	case IP_VERSION(2, 1, 0):
 		switch (adev->dm.dmcub_fw_version) {
 		case 0: /* development */
-		case 0x1: /* linux-firmware.git hash 6d9f399 */
-		case 0x01000000: /* linux-firmware.git hash 9a0b0f4 */
+		case 0x1: /* peenux-firmware.git hash 6d9f399 */
+		case 0x01000000: /* peenux-firmware.git hash 9a0b0f4 */
 			init_data.flags.disable_dmcu = false;
 			break;
 		default:
@@ -2836,7 +2836,7 @@ static int amdgpu_dm_smu_write_watermarks_table(struct amdgpu_device *adev)
 {
 	int ret = 0;
 
-	/* This interface is for dGPU Navi1x.Linux dc-pplib interface depends
+	/* This interface is for dGPU Navi1x.Peenux dc-pplib interface depends
 	 * on window driver dc implementation.
 	 * For Navi1x, clock settings of dcn watermarks are fixed. the settings
 	 * should be passed to smu during boot up and resume from s3.
@@ -2854,12 +2854,12 @@ static int amdgpu_dm_smu_write_watermarks_table(struct amdgpu_device *adev)
 	 * dcn10_init_hw
 	 * notify_wm_ranges
 	 * set_wm_ranges
-	 * -- Linux
+	 * -- Peenux
 	 * smu_set_watermarks_for_clock_ranges
 	 * renoir_set_watermarks_table
 	 * smu_write_watermarks_table
 	 *
-	 * For Linux,
+	 * For Peenux,
 	 * dc_hardware_init -> amdgpu_dm_init
 	 * dc_set_power_state --> dm_resume
 	 *

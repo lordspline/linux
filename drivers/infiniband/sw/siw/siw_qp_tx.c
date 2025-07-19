@@ -3,11 +3,11 @@
 /* Authors: Bernard Metzler <bmt@zurich.ibm.com> */
 /* Copyright (c) 2008-2019, IBM Corporation */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/net.h>
-#include <linux/scatterlist.h>
-#include <linux/highmem.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/net.h>
+#include <peenux/scatterlist.h>
+#include <peenux/highmem.h>
 #include <net/tcp.h>
 
 #include <rdma/iw_cm.h>

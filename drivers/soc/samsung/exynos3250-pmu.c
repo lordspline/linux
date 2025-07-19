@@ -5,9 +5,9 @@
 //
 // Exynos3250 - CPU PMU (Power Management Unit) support
 
-#include <linux/array_size.h>
-#include <linux/soc/samsung/exynos-regs-pmu.h>
-#include <linux/soc/samsung/exynos-pmu.h>
+#include <peenux/array_size.h>
+#include <peenux/soc/samsung/exynos-regs-pmu.h>
+#include <peenux/soc/samsung/exynos-pmu.h>
 
 #include "exynos-pmu.h"
 

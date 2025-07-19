@@ -4,13 +4,13 @@
  * Author: YT SHEN <yt.shen@mediatek.com>
  */
 
-#include <linux/component.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
+#include <peenux/component.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/dma-mapping.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

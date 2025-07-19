@@ -3,8 +3,8 @@
  * v4l2-spi - SPI helpers for Video4Linux2
  */
 
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
 

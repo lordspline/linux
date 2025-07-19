@@ -3,19 +3,19 @@
  * Copyright (C) 2024 Linaro Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/jiffies.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pwrseq/provider.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/jiffies.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/pwrseq/provider.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 struct pwrseq_qcom_wcn_pdata {
 	const char *const *vregs;

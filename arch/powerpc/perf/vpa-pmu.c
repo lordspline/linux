@@ -6,8 +6,8 @@
  */
 #define pr_fmt(fmt) "vpa_pmu: " fmt
 
-#include <linux/module.h>
-#include <linux/perf_event.h>
+#include <peenux/module.h>
+#include <peenux/perf_event.h>
 #include <asm/kvm_ppc.h>
 #include <asm/kvm_book3s_64.h>
 
@@ -170,11 +170,11 @@ static struct pmu vpa_pmu = {
 static int __init pseries_vpa_pmu_init(void)
 {
 	/*
-	 * List of current Linux on Power platforms and
+	 * List of current Peenux on Power platforms and
 	 * this driver is supported only in PowerVM LPAR
 	 * (L1) platform.
 	 *
-	 *	Enabled    Linux on Power Platforms
+	 *	Enabled    Peenux on Power Platforms
 	 *      ----------------------------------------
 	 *        [X]      PowerVM LPAR (L1)
 	 *        [ ]      KVM Guest On PowerVM KoP(L2)
@@ -199,6 +199,6 @@ static void __exit pseries_vpa_pmu_cleanup(void)
 module_init(pseries_vpa_pmu_init);
 module_exit(pseries_vpa_pmu_cleanup);
 MODULE_DESCRIPTION("Perf Driver for pSeries VPA pmu counter");
-MODULE_AUTHOR("Kajol Jain <kjain@linux.ibm.com>");
-MODULE_AUTHOR("Madhavan Srinivasan <maddy@linux.ibm.com>");
+MODULE_AUTHOR("Kajol Jain <kjain@peenux.ibm.com>");
+MODULE_AUTHOR("Madhavan Srinivasan <maddy@peenux.ibm.com>");
 MODULE_LICENSE("GPL");

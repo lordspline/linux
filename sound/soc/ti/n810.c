@@ -7,17 +7,17 @@
  * Contact: Jarkko Nikula <jarkko.nikula@bitmer.com>
  */
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/i2c.h>
+#include <peenux/platform_device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 
 #include <asm/mach-types.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/platform_data/asoc-ti-mcbsp.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/asoc-ti-mcbsp.h>
 
 #include "omap-mcbsp.h"
 

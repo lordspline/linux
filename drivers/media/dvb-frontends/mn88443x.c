@@ -4,13 +4,13 @@
 //
 // Copyright (c) 2018 Socionext Inc.
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/int_log.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/int_log.h>
 
 #include "mn88443x.h"
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/init/main.c
+ *  peenux/init/main.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -12,98 +12,98 @@
 
 #define DEBUG		/* Enable initcall_debug */
 
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/extable.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/binfmts.h>
-#include <linux/kernel.h>
-#include <linux/syscalls.h>
-#include <linux/stackprotector.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/initrd.h>
-#include <linux/memblock.h>
-#include <linux/acpi.h>
-#include <linux/bootconfig.h>
-#include <linux/console.h>
-#include <linux/nmi.h>
-#include <linux/percpu.h>
-#include <linux/kmod.h>
-#include <linux/kprobes.h>
-#include <linux/kmsan.h>
-#include <linux/vmalloc.h>
-#include <linux/kernel_stat.h>
-#include <linux/start_kernel.h>
-#include <linux/security.h>
-#include <linux/smp.h>
-#include <linux/profile.h>
-#include <linux/kfence.h>
-#include <linux/rcupdate.h>
-#include <linux/srcu.h>
-#include <linux/moduleparam.h>
-#include <linux/kallsyms.h>
-#include <linux/buildid.h>
-#include <linux/writeback.h>
-#include <linux/cpu.h>
-#include <linux/cpuset.h>
-#include <linux/memcontrol.h>
-#include <linux/cgroup.h>
-#include <linux/efi.h>
-#include <linux/tick.h>
-#include <linux/sched/isolation.h>
-#include <linux/interrupt.h>
-#include <linux/taskstats_kern.h>
-#include <linux/delayacct.h>
-#include <linux/unistd.h>
-#include <linux/utsname.h>
-#include <linux/rmap.h>
-#include <linux/mempolicy.h>
-#include <linux/key.h>
-#include <linux/debug_locks.h>
-#include <linux/debugobjects.h>
-#include <linux/lockdep.h>
-#include <linux/kmemleak.h>
-#include <linux/padata.h>
-#include <linux/pid_namespace.h>
-#include <linux/device/driver.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/sched/init.h>
-#include <linux/signal.h>
-#include <linux/idr.h>
-#include <linux/kgdb.h>
-#include <linux/ftrace.h>
-#include <linux/async.h>
-#include <linux/shmem_fs.h>
-#include <linux/slab.h>
-#include <linux/perf_event.h>
-#include <linux/ptrace.h>
-#include <linux/pti.h>
-#include <linux/blkdev.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/context_tracking.h>
-#include <linux/random.h>
-#include <linux/moduleloader.h>
-#include <linux/list.h>
-#include <linux/integrity.h>
-#include <linux/proc_ns.h>
-#include <linux/io.h>
-#include <linux/cache.h>
-#include <linux/rodata_test.h>
-#include <linux/jump_label.h>
-#include <linux/kcsan.h>
-#include <linux/init_syscalls.h>
-#include <linux/stackdepot.h>
-#include <linux/randomize_kstack.h>
-#include <linux/pidfs.h>
-#include <linux/ptdump.h>
+#include <peenux/types.h>
+#include <peenux/export.h>
+#include <peenux/extable.h>
+#include <peenux/module.h>
+#include <peenux/proc_fs.h>
+#include <peenux/binfmts.h>
+#include <peenux/kernel.h>
+#include <peenux/syscalls.h>
+#include <peenux/stackprotector.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/initrd.h>
+#include <peenux/memblock.h>
+#include <peenux/acpi.h>
+#include <peenux/bootconfig.h>
+#include <peenux/console.h>
+#include <peenux/nmi.h>
+#include <peenux/percpu.h>
+#include <peenux/kmod.h>
+#include <peenux/kprobes.h>
+#include <peenux/kmsan.h>
+#include <peenux/vmalloc.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/start_kernel.h>
+#include <peenux/security.h>
+#include <peenux/smp.h>
+#include <peenux/profile.h>
+#include <peenux/kfence.h>
+#include <peenux/rcupdate.h>
+#include <peenux/srcu.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kallsyms.h>
+#include <peenux/buildid.h>
+#include <peenux/writeback.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuset.h>
+#include <peenux/memcontrol.h>
+#include <peenux/cgroup.h>
+#include <peenux/efi.h>
+#include <peenux/tick.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/interrupt.h>
+#include <peenux/taskstats_kern.h>
+#include <peenux/delayacct.h>
+#include <peenux/unistd.h>
+#include <peenux/utsname.h>
+#include <peenux/rmap.h>
+#include <peenux/mempolicy.h>
+#include <peenux/key.h>
+#include <peenux/debug_locks.h>
+#include <peenux/debugobjects.h>
+#include <peenux/lockdep.h>
+#include <peenux/kmemleak.h>
+#include <peenux/padata.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/device/driver.h>
+#include <peenux/kthread.h>
+#include <peenux/sched.h>
+#include <peenux/sched/init.h>
+#include <peenux/signal.h>
+#include <peenux/idr.h>
+#include <peenux/kgdb.h>
+#include <peenux/ftrace.h>
+#include <peenux/async.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/slab.h>
+#include <peenux/perf_event.h>
+#include <peenux/ptrace.h>
+#include <peenux/pti.h>
+#include <peenux/blkdev.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/context_tracking.h>
+#include <peenux/random.h>
+#include <peenux/moduleloader.h>
+#include <peenux/list.h>
+#include <peenux/integrity.h>
+#include <peenux/proc_ns.h>
+#include <peenux/io.h>
+#include <peenux/cache.h>
+#include <peenux/rodata_test.h>
+#include <peenux/jump_label.h>
+#include <peenux/kcsan.h>
+#include <peenux/init_syscalls.h>
+#include <peenux/stackdepot.h>
+#include <peenux/randomize_kstack.h>
+#include <peenux/pidfs.h>
+#include <peenux/ptdump.h>
 #include <net/net_namespace.h>
 
 #include <asm/io.h>
@@ -191,7 +191,7 @@ static int __init set_reset_devices(char *str)
 __setup("reset_devices", set_reset_devices);
 
 static const char *argv_init[MAX_INIT_ARGS+2] = { "init", NULL, };
-const char *envp_init[MAX_INIT_ENVS+2] = { "HOME=/", "TERM=linux", NULL, };
+const char *envp_init[MAX_INIT_ENVS+2] = { "HOME=/", "TERM=peenux", NULL, };
 static const char *panic_later, *panic_param;
 
 static bool __init obsolete_checksetup(char *line)
@@ -1303,7 +1303,7 @@ static initcall_entry_t *initcall_levels[] __initdata = {
 	__initcall_end,
 };
 
-/* Keep these in sync with initcalls in include/linux/init.h */
+/* Keep these in sync with initcalls in include/peenux/init.h */
 static const char *initcall_level_names[] __initdata = {
 	"pure",
 	"core",
@@ -1534,7 +1534,7 @@ static int __ref kernel_init(void *unused)
 		return 0;
 
 	panic("No working init found.  Try passing init= option to kernel. "
-	      "See Linux Documentation/admin-guide/init.rst for guidance.");
+	      "See Peenux Documentation/admin-guide/init.rst for guidance.");
 }
 
 /* Open /dev/console, for stdin/stdout/stderr, this should never fail */

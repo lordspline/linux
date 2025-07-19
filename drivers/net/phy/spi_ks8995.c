@@ -10,15 +10,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
 
-#include <linux/spi/spi.h>
+#include <peenux/spi/spi.h>
 
 #define DRV_VERSION		"0.1.1"
 #define DRV_DESC		"Micrel KS8995 Ethernet switch SPI driver"

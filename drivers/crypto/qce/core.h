@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Copyright (c) 2010-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2014, The Peenux Foundation. All rights reserved.
  */
 
 #ifndef _CORE_H_
 #define _CORE_H_
 
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
 
 #include "dma.h"
 

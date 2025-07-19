@@ -16,14 +16,14 @@
 
 #define pr_fmt(fmt)     "pseries-hotplug-cpu: " fmt
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/sched.h>	/* for idle_task_exit */
-#include <linux/sched/hotplug.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>	/* for idle_task_exit */
+#include <peenux/sched/hotplug.h>
+#include <peenux/cpu.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 #include <asm/prom.h>
 #include <asm/rtas.h>
 #include <asm/firmware.h>

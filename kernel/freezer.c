@@ -5,12 +5,12 @@
  * Originally from kernel/power/process.c
  */
 
-#include <linux/interrupt.h>
-#include <linux/suspend.h>
-#include <linux/export.h>
-#include <linux/syscalls.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
+#include <peenux/interrupt.h>
+#include <peenux/suspend.h>
+#include <peenux/export.h>
+#include <peenux/syscalls.h>
+#include <peenux/freezer.h>
+#include <peenux/kthread.h>
 
 /* total number of freezing conditions in effect */
 DEFINE_STATIC_KEY_FALSE(freezer_active);

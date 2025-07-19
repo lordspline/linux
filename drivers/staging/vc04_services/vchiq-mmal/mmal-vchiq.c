@@ -15,17 +15,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/vmalloc.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/completion.h>
+#include <peenux/vmalloc.h>
 #include <media/videobuf2-vmalloc.h>
 
-#include "../include/linux/raspberrypi/vchiq.h"
+#include "../include/peenux/raspberrypi/vchiq.h"
 #include "../interface/vchiq_arm/vchiq_arm.h"
 #include "mmal-common.h"
 #include "mmal-vchiq.h"

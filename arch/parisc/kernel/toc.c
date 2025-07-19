@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/kernel.h>
-#include <linux/kgdb.h>
-#include <linux/printk.h>
-#include <linux/sched/debug.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
+#include <peenux/kernel.h>
+#include <peenux/kgdb.h>
+#include <peenux/printk.h>
+#include <peenux/sched/debug.h>
+#include <peenux/delay.h>
+#include <peenux/reboot.h>
 
 #include <asm/pdc.h>
 #include <asm/pdc_chassis.h>

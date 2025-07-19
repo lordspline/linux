@@ -7,14 +7,14 @@
 
 #include <kunit/resource.h>
 #include <kunit/test.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/cs_dsp_test_utils.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/firmware.h>
-#include <linux/math.h>
-#include <linux/overflow.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
+#include <peenux/firmware/cirrus/cs_dsp.h>
+#include <peenux/firmware/cirrus/cs_dsp_test_utils.h>
+#include <peenux/firmware/cirrus/wmfw.h>
+#include <peenux/firmware.h>
+#include <peenux/math.h>
+#include <peenux/overflow.h>
+#include <peenux/string.h>
+#include <peenux/vmalloc.h>
 
 /* Buffer large enough for bin file content */
 #define CS_DSP_MOCK_WMFW_BUF_SIZE	131072

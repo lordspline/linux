@@ -9,11 +9,11 @@
 /*
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/leds.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/leds.h>
 
 #include "hid-ids.h"
 

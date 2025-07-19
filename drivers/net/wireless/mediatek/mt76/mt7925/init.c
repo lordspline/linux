@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: ISC
 /* Copyright (C) 2023 MediaTek Inc. */
 
-#include <linux/etherdevice.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/thermal.h>
-#include <linux/firmware.h>
+#include <peenux/etherdevice.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/thermal.h>
+#include <peenux/firmware.h>
 #include "mt7925.h"
 #include "mac.h"
 #include "mcu.h"

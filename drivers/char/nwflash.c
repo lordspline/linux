@@ -15,24 +15,24 @@
  * power to convert these machines into doorstops...
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/proc_fs.h>
-#include <linux/miscdevice.h>
-#include <linux/spinlock.h>
-#include <linux/rwsem.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/fs.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/proc_fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/spinlock.h>
+#include <peenux/rwsem.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/jiffies.h>
 
 #include <asm/hardware/dec21285.h>
 #include <asm/io.h>
 #include <asm/mach-types.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /*****************************************************************************/
 #include <asm/nwflash.h>

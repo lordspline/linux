@@ -2,16 +2,16 @@
 
 #define pr_fmt(fmt)	"papr-sysparm: " fmt
 
-#include <linux/anon_inodes.h>
-#include <linux/bug.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/bug.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
 #include <asm/machdep.h>
 #include <asm/papr-sysparm.h>
 #include <asm/rtas-work-area.h>

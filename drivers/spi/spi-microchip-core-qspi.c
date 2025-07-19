@@ -8,18 +8,18 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
 
 /*
  * QSPI Control register mask defines

@@ -61,15 +61,15 @@
  * sure it doesn't freeze up and to allow for bad reads to time out.
  */
 
-#include <linux/hp_sdc.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/time.h>
-#include <linux/semaphore.h>
-#include <linux/slab.h>
-#include <linux/hil.h>
+#include <peenux/hp_sdc.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/time.h>
+#include <peenux/semaphore.h>
+#include <peenux/slab.h>
+#include <peenux/hil.h>
 #include <asm/io.h>
 
 /* Machine-specific abstraction */
@@ -79,7 +79,7 @@
 # define sdc_readb(p)		gsc_readb(p)
 # define sdc_writeb(v,p)	gsc_writeb((v),(p))
 #elif defined(__mc68000__)
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 # define sdc_readb(p)		in_8(p)
 # define sdc_writeb(v,p)	out_8((p),(v))
 #else

@@ -2,13 +2,13 @@
 /*
  *  Copyright IBM Corp. 2008, 2009
  *
- *  Author: Jan Glauber (jang@linux.vnet.ibm.com)
+ *  Author: Jan Glauber (jang@peenux.vnet.ibm.com)
  */
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/uaccess.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
 #include <asm/debug.h>
 #include "qdio_debug.h"
 #include "qdio.h"

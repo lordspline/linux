@@ -60,20 +60,20 @@
  * any (or all) other directions.
  */
 
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/srcu.h>
-#include <linux/ratelimit.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/srcu.h>
+#include <peenux/ratelimit.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
-#include <linux/fsnotify_backend.h>
+#include <peenux/fsnotify_backend.h>
 #include "fsnotify.h"
 
 #define FSNOTIFY_REAPER_DELAY	(1)	/* 1 jiffy */

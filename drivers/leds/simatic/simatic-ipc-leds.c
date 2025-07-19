@@ -10,15 +10,15 @@
  *  Gerd Haeussler <gerd.haeussler.ext@siemens.com>
  */
 
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_data/x86/simatic-ipc-base.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/spinlock.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/platform_data/x86/simatic-ipc-base.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
+#include <peenux/spinlock.h>
 
 #define SIMATIC_IPC_LED_PORT_BASE	0x404E
 

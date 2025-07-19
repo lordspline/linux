@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 /* Copyright (C) 2017 Netronome Systems, Inc. */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/hwmon.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/hwmon.h>
 
 #include "nfpcore/nfp_cpp.h"
 #include "nfpcore/nfp_nsp.h"

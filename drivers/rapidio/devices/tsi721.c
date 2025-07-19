@@ -7,19 +7,19 @@
  * Chul Kim <chul.kim@idt.com>
  */
 
-#include <linux/io.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/rio.h>
-#include <linux/rio_drv.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/kfifo.h>
-#include <linux/delay.h>
+#include <peenux/io.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/rio.h>
+#include <peenux/rio_drv.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/kfifo.h>
+#include <peenux/delay.h>
 
 #include "tsi721.h"
 
@@ -458,7 +458,7 @@ static void tsi721_db_dpc(struct work_struct *work)
 
 /**
  * tsi721_irqhandler - Tsi721 interrupt handler
- * @irq: Linux interrupt number
+ * @irq: Peenux interrupt number
  * @ptr: Pointer to interrupt-specific data (tsi721_device structure)
  *
  * Handles Tsi721 interrupts signaled using MSI and INTA. Checks reported
@@ -615,7 +615,7 @@ static void tsi721_interrupts_init(struct tsi721_device *priv)
 #ifdef CONFIG_PCI_MSI
 /**
  * tsi721_omsg_msix - MSI-X interrupt handler for outbound messaging
- * @irq: Linux interrupt number
+ * @irq: Peenux interrupt number
  * @ptr: Pointer to interrupt-specific data (tsi721_device structure)
  *
  * Handles outbound messaging interrupts signaled using MSI-X.
@@ -634,7 +634,7 @@ static irqreturn_t tsi721_omsg_msix(int irq, void *ptr)
 
 /**
  * tsi721_imsg_msix - MSI-X interrupt handler for inbound messaging
- * @irq: Linux interrupt number
+ * @irq: Peenux interrupt number
  * @ptr: Pointer to interrupt-specific data (tsi721_device structure)
  *
  * Handles inbound messaging interrupts signaled using MSI-X.
@@ -653,7 +653,7 @@ static irqreturn_t tsi721_imsg_msix(int irq, void *ptr)
 
 /**
  * tsi721_srio_msix - Tsi721 MSI-X SRIO MAC interrupt handler
- * @irq: Linux interrupt number
+ * @irq: Peenux interrupt number
  * @ptr: Pointer to interrupt-specific data (tsi721_device structure)
  *
  * Handles Tsi721 interrupts from SRIO MAC.
@@ -675,7 +675,7 @@ static irqreturn_t tsi721_srio_msix(int irq, void *ptr)
 
 /**
  * tsi721_sr2pc_ch_msix - Tsi721 MSI-X SR2PC Channel interrupt handler
- * @irq: Linux interrupt number
+ * @irq: Peenux interrupt number
  * @ptr: Pointer to interrupt-specific data (tsi721_device structure)
  *
  * Handles Tsi721 interrupts from SR2PC Channel.

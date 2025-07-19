@@ -6,14 +6,14 @@
  * Copyright (C) 2012 Scott Lin <scott.lin@tw.synaptics.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/rmi.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/unaligned.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/rmi.h>
+#include <peenux/firmware.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/unaligned.h>
 
 #include "rmi_driver.h"
 #include "rmi_f34.h"

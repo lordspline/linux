@@ -2,8 +2,8 @@
 #ifndef _ASM_X86_ATOMIC_H
 #define _ASM_X86_ATOMIC_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 #include <asm/alternative.h>
 #include <asm/cmpxchg.h>
 #include <asm/rmwcc.h>

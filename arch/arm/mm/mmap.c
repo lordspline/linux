@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/arm/mm/mmap.c
+ *  peenux/arch/arm/mm/mmap.c
  */
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/shm.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/io.h>
-#include <linux/personality.h>
-#include <linux/random.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/shm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/mm.h>
+#include <peenux/io.h>
+#include <peenux/personality.h>
+#include <peenux/random.h>
 #include <asm/cachetype.h>
 
 #define COLOUR_ALIGN(addr,pgoff)		\

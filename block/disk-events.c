@@ -2,9 +2,9 @@
 /*
  * Disk events - monitor disk events like media change and eject request.
  */
-#include <linux/export.h>
-#include <linux/moduleparam.h>
-#include <linux/blkdev.h>
+#include <peenux/export.h>
+#include <peenux/moduleparam.h>
+#include <peenux/blkdev.h>
 #include "blk.h"
 
 struct disk_events {

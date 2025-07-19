@@ -5,18 +5,18 @@
  * Copyright (C) 2024-2025, Advanced Micro Devices, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of_device.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/resource.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/of_device.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/resource.h>
+#include <peenux/types.h>
 
 #include "pcie-designware.h"
 

@@ -7,12 +7,12 @@
  * Author: Emanuele Ghidoli <emanuele.ghidoli@toradex.com>
  */
 
-#include <linux/err.h>
-#include <linux/gpio/regmap.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/err.h>
+#include <peenux/gpio/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #define FXL6408_REG_DEVICE_ID		0x01
 #define FXL6408_MF_FAIRCHILD		0b101

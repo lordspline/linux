@@ -6,21 +6,21 @@
 //
 //
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 #include <sound/core.h>
-#include <linux/delay.h>
-#include <linux/init.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
 #include <sound/initval.h>
 #include <sound/jack.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pm_runtime.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/pm_runtime.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/sdca.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/slab.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/slab.h>
 #include <sound/soc-dapm.h>
 #include <sound/tlv.h>
 #include "rt712-sdca.h"

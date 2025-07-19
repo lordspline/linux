@@ -4,16 +4,16 @@
  * Author: Paul Burton <paul.burton@mips.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/hotplug.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/types.h>
-#include <linux/irq.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/memblock.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/sched/hotplug.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/types.h>
+#include <peenux/irq.h>
 
 #include <asm/bcache.h>
 #include <asm/mips-cps.h>

@@ -10,16 +10,16 @@
  *   Greg Kroah-Hartman (greg@kroah.com)
  * Changes for 2.6.20 by Harald Klein <hari@vt100.at>
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 
 #define DRIVER_DESC	"SPCP8x5 USB to serial adaptor driver"
 

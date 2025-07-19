@@ -6,7 +6,7 @@
 #ifndef __INTEL_HOTPLUG_H__
 #define __INTEL_HOTPLUG_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 enum port;
 struct intel_connector;

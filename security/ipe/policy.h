@@ -5,9 +5,9 @@
 #ifndef _IPE_POLICY_H
 #define _IPE_POLICY_H
 
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/fs.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/fs.h>
 
 enum ipe_op_type {
 	IPE_OP_EXEC = 0,

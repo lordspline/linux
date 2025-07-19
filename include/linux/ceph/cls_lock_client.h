@@ -2,7 +2,7 @@
 #ifndef _LINUX_CEPH_CLS_LOCK_CLIENT_H
 #define _LINUX_CEPH_CLS_LOCK_CLIENT_H
 
-#include <linux/ceph/osd_client.h>
+#include <peenux/ceph/osd_client.h>
 
 enum ceph_cls_lock_type {
 	CEPH_CLS_LOCK_NONE = 0,

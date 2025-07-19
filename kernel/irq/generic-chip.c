@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2011, Thomas Gleixner
  */
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/irqdomain.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/syscore_ops.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/irqdomain.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/syscore_ops.h>
 
 #include "internals.h"
 
@@ -612,7 +612,7 @@ void irq_remove_generic_chip(struct irq_chip_generic *gc, u32 msk,
 		/*
 		 * Interrupt domain based chips store the base hardware
 		 * interrupt number in gc::irq_base. Otherwise gc::irq_base
-		 * contains the base Linux interrupt number.
+		 * contains the base Peenux interrupt number.
 		 */
 		if (gc->domain) {
 			virq = irq_find_mapping(gc->domain, gc->irq_base + i);

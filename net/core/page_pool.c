@@ -5,11 +5,11 @@
  *	Copyright (C) 2016 Red Hat, Inc.
  */
 
-#include <linux/error-injection.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/device.h>
+#include <peenux/error-injection.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
 
 #include <net/netdev_lock.h>
 #include <net/netdev_rx_queue.h>
@@ -17,13 +17,13 @@
 #include <net/page_pool/memory_provider.h>
 #include <net/xdp.h>
 
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/page-flags.h>
-#include <linux/mm.h> /* for put_page() */
-#include <linux/poison.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/page-flags.h>
+#include <peenux/mm.h> /* for put_page() */
+#include <peenux/poison.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
 
 #include <trace/events/page_pool.h>
 

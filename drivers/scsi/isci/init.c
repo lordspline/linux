@@ -53,11 +53,11 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/efi.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/efi.h>
 #include <asm/string.h>
 #include <scsi/scsi_host.h>
 #include "host.h"
@@ -89,7 +89,7 @@ static const struct pci_device_id isci_id_table[] = {
 
 MODULE_DEVICE_TABLE(pci, isci_id_table);
 
-/* linux isci specific settings */
+/* peenux isci specific settings */
 
 static unsigned char no_outbound_task_to = 2;
 module_param(no_outbound_task_to, byte, 0);

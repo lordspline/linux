@@ -4,11 +4,11 @@
  * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/usb/audio.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

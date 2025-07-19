@@ -10,8 +10,8 @@
  * kind, whether express or implied.
  */
 
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
 
 #include <asm/unwinder.h>
 

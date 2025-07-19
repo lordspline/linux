@@ -9,21 +9,21 @@
  *   serial converter;
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
-#include <linux/if_ether.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/sched.h>
-#include <linux/serdev.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_ether.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/sched.h>
+#include <peenux/serdev.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
 
 #include "qca_7k_common.h"
 

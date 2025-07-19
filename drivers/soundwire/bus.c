@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: (GPL-2.0 OR BSD-3-Clause)
 // Copyright(c) 2015-17 Intel Corporation.
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pm_runtime.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
-#include <linux/string_choices.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_type.h>
+#include <peenux/string_choices.h>
 #include "bus.h"
 #include "irq.h"
 #include "sysfs_local.h"

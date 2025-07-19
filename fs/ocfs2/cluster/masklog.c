@@ -3,12 +3,12 @@
  * Copyright (C) 2004, 2005 Oracle.  All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
 
 #include "masklog.h"
 

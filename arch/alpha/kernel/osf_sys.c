@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/osf_sys.c
+ *  peenux/arch/alpha/kernel/osf_sys.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  */
@@ -11,47 +11,47 @@
  * special parameter blocks..
  */
 
-#include <linux/errno.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/cputime.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/syscalls.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/utsname.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/major.h>
-#include <linux/stat.h>
-#include <linux/mman.h>
-#include <linux/shm.h>
-#include <linux/poll.h>
-#include <linux/file.h>
-#include <linux/types.h>
-#include <linux/ipc.h>
-#include <linux/namei.h>
-#include <linux/mount.h>
-#include <linux/uio.h>
-#include <linux/vfs.h>
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
+#include <peenux/syscalls.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/utsname.h>
+#include <peenux/time.h>
+#include <peenux/timex.h>
+#include <peenux/major.h>
+#include <peenux/stat.h>
+#include <peenux/mman.h>
+#include <peenux/shm.h>
+#include <peenux/poll.h>
+#include <peenux/file.h>
+#include <peenux/types.h>
+#include <peenux/ipc.h>
+#include <peenux/namei.h>
+#include <peenux/mount.h>
+#include <peenux/uio.h>
+#include <peenux/vfs.h>
+#include <peenux/rcupdate.h>
+#include <peenux/slab.h>
 
 #include <asm/fpu.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/sysinfo.h>
 #include <asm/thread_info.h>
 #include <asm/hwrpb.h>
 #include <asm/processor.h>
 
 /*
- * Brk needs to return an error.  Still support Linux's brk(0) query idiom,
+ * Brk needs to return an error.  Still support Peenux's brk(0) query idiom,
  * which OSF programs just shouldn't be doing.  We're still not quite
  * identical to OSF as we don't return 0 on success, but doing otherwise
  * would require changes to libc.  Hopefully this is good enough.
@@ -419,7 +419,7 @@ SYSCALL_DEFINE3(osf_fstatfs64, unsigned long, fd,
 /*
  * Uhh.. OSF/1 mount parameters aren't exactly obvious..
  *
- * Although to be frank, neither are the native Linux/i386 ones..
+ * Although to be frank, neither are the native Peenux/i386 ones..
  */
 struct ufs_args {
 	char __user *devname;
@@ -432,7 +432,7 @@ struct cdfs_args {
 	int flags;
 	uid_t exroot;
 
-	/* This has lots more here, which Linux handles with the option block
+	/* This has lots more here, which Peenux handles with the option block
 	   but I'm too lazy to do the translation into ASCII.  */
 };
 

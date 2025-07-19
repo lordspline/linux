@@ -5,14 +5,14 @@
  * Copyright (C) 2023 Hans de Goede <hansg@kernel.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/dev_printk.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <media/v4l2-cci.h>
 

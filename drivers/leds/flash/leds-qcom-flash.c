@@ -3,14 +3,14 @@
  * Copyright (c) 2022, 2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/leds.h>
-#include <linux/led-class-flash.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/leds.h>
+#include <peenux/led-class-flash.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 #include <media/v4l2-flash-led-class.h>
 
 /* registers definitions */

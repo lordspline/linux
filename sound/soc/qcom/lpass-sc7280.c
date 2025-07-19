@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2020-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021, The Peenux Foundation. All rights reserved.
  *
  * lpass-sc7180.c -- ALSA SoC platform-machine driver for QTi LPASS
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
-#include <linux/pm.h>
+#include <peenux/pm.h>
 
 #include <dt-bindings/sound/sc7180-lpass.h>
 

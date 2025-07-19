@@ -8,17 +8,17 @@
 /*
  * This file contains the interrupt handlers for Host mode
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
 
-#include <linux/usb/hcd.h>
-#include <linux/usb/ch11.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/ch11.h>
 
 #include "core.h"
 #include "hcd.h"
@@ -85,7 +85,7 @@ static void dwc2_hc_handle_tt_clear(struct dwc2_hsotg *hsotg,
 		return;
 
 	/*
-	 * The root hub doesn't really have a TT, but Linux thinks it
+	 * The root hub doesn't really have a TT, but Peenux thinks it
 	 * does because how could you have a "high speed hub" that
 	 * directly talks directly to low speed devices without a TT?
 	 * It's all lies.  Lies, I tell you.

@@ -6,7 +6,7 @@
 #ifndef _SKL_UNIVERSAL_PLANE_H_
 #define _SKL_UNIVERSAL_PLANE_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct intel_crtc;
 struct intel_display;

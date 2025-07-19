@@ -5,15 +5,15 @@
  * Copyright 2017-2019, 2021-2025 NXP.
  *
  */
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/watchdog.h>
 
 #define DRIVER_NAME "s32g-swt"
 

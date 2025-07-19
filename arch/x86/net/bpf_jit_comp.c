@@ -5,12 +5,12 @@
  * Copyright (C) 2011-2013 Eric Dumazet (eric.dumazet@gmail.com)
  * Copyright (c) 2011-2014 PLUMgrid, http://plumgrid.com
  */
-#include <linux/netdevice.h>
-#include <linux/filter.h>
-#include <linux/if_vlan.h>
-#include <linux/bpf.h>
-#include <linux/memory.h>
-#include <linux/sort.h>
+#include <peenux/netdevice.h>
+#include <peenux/filter.h>
+#include <peenux/if_vlan.h>
+#include <peenux/bpf.h>
+#include <peenux/memory.h>
+#include <peenux/sort.h>
 #include <asm/extable.h>
 #include <asm/ftrace.h>
 #include <asm/set_memory.h>

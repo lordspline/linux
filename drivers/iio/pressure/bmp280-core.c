@@ -30,31 +30,31 @@
 
 #define pr_fmt(fmt) "bmp280: " fmt
 
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h> /* For irq_get_irq_data() */
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/random.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h> /* For irq_get_irq_data() */
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/random.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "bmp280.h"
 

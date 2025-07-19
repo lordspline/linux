@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2012-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2015, The Peenux Foundation. All rights reserved.
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/spmi.h>
-#include <linux/pm_runtime.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/idr.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/spmi.h>
+#include <peenux/pm_runtime.h>
 
 #include <dt-bindings/spmi/spmi.h>
 #define CREATE_TRACE_POINTS

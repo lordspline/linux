@@ -13,13 +13,13 @@
 /*
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/usb.h>
-#include <linux/wait.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/random.h>
+#include <peenux/sched.h>
+#include <peenux/usb.h>
+#include <peenux/wait.h>
 
 #include "usbhid/usbhid.h"
 #include "hid-ids.h"

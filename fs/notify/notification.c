@@ -18,21 +18,21 @@
  * allocated and used.
  */
 
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mount.h>
-#include <linux/mutex.h>
-#include <linux/namei.h>
-#include <linux/path.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mount.h>
+#include <peenux/mutex.h>
+#include <peenux/namei.h>
+#include <peenux/path.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
-#include <linux/fsnotify_backend.h>
+#include <peenux/fsnotify_backend.h>
 #include "fsnotify.h"
 
 static atomic_t fsnotify_sync_cookie = ATOMIC_INIT(0);

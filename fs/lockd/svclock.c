@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/lockd/svclock.c
+ * peenux/fs/lockd/svclock.c
  *
  * Handling of server-side locks, mostly of the blocked variety.
  * This is the ugliest part of lockd because we tread on very thin ice.
@@ -21,15 +21,15 @@
  * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/svc_xprt.h>
-#include <linux/lockd/nlm.h>
-#include <linux/lockd/lockd.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/svc_xprt.h>
+#include <peenux/lockd/nlm.h>
+#include <peenux/lockd/lockd.h>
 
 #define NLMDBG_FACILITY		NLMDBG_SVCLOCK
 

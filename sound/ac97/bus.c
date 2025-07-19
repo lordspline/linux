@@ -3,18 +3,18 @@
  * Copyright (C) 2016 Robert Jarzmik <robert.jarzmik@free.fr>
  */
 
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/idr.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
 #include <sound/ac97_codec.h>
 #include <sound/ac97/codec.h>
 #include <sound/ac97/controller.h>

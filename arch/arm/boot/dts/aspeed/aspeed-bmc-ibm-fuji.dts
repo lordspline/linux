@@ -216,25 +216,25 @@
 		event-fan0-presence {
 			gpios = <&pca0 15 GPIO_ACTIVE_LOW>;
 			label = "fan0-presence";
-			linux,code = <15>;
+			peenux,code = <15>;
 		};
 
 		event-fan1-presence {
 			gpios = <&pca0 14 GPIO_ACTIVE_LOW>;
 			label = "fan1-presence";
-			linux,code = <14>;
+			peenux,code = <14>;
 		};
 
 		event-fan2-presence {
 			gpios = <&pca0 13 GPIO_ACTIVE_LOW>;
 			label = "fan2-presence";
-			linux,code = <13>;
+			peenux,code = <13>;
 		};
 
 		event-fan3-presence {
 			gpios = <&pca0 12 GPIO_ACTIVE_LOW>;
 			label = "fan3-presence";
-			linux,code = <12>;
+			peenux,code = <12>;
 		};
 	};
 

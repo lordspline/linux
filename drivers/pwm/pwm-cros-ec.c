@@ -5,13 +5,13 @@
  * Copyright (C) 2016 Google, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/mfd/cros_ec.h>
 

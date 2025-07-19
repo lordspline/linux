@@ -28,12 +28,12 @@
  * Copyright (C) 2015 Aleksa Sarai <cyphar@cyphar.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/threads.h>
-#include <linux/atomic.h>
-#include <linux/cgroup.h>
-#include <linux/slab.h>
-#include <linux/sched/task.h>
+#include <peenux/kernel.h>
+#include <peenux/threads.h>
+#include <peenux/atomic.h>
+#include <peenux/cgroup.h>
+#include <peenux/slab.h>
+#include <peenux/sched/task.h>
 
 #define PIDS_MAX (PID_MAX_LIMIT + 1ULL)
 #define PIDS_MAX_STR "max"

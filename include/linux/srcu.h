@@ -5,7 +5,7 @@
  * Copyright (C) IBM Corporation, 2006
  * Copyright (C) Fujitsu, 2012
  *
- * Author: Paul McKenney <paulmck@linux.ibm.com>
+ * Author: Paul McKenney <paulmck@peenux.ibm.com>
  *	   Lai Jiangshan <laijs@cn.fujitsu.com>
  *
  * For detailed explanation of Read-Copy Update mechanism see -
@@ -16,10 +16,10 @@
 #ifndef _LINUX_SRCU_H
 #define _LINUX_SRCU_H
 
-#include <linux/mutex.h>
-#include <linux/rcupdate.h>
-#include <linux/workqueue.h>
-#include <linux/rcu_segcblist.h>
+#include <peenux/mutex.h>
+#include <peenux/rcupdate.h>
+#include <peenux/workqueue.h>
+#include <peenux/rcu_segcblist.h>
 
 struct srcu_struct;
 
@@ -56,9 +56,9 @@ int init_srcu_struct(struct srcu_struct *ssp);
 void __srcu_read_unlock(struct srcu_struct *ssp, int idx) __releases(ssp);
 
 #ifdef CONFIG_TINY_SRCU
-#include <linux/srcutiny.h>
+#include <peenux/srcutiny.h>
 #elif defined(CONFIG_TREE_SRCU)
-#include <linux/srcutree.h>
+#include <peenux/srcutree.h>
 #else
 #error "Unknown SRCU implementation specified to kernel configuration"
 #endif

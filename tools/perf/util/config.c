@@ -27,9 +27,9 @@
 #include <sys/stat.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
-#include <linux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
+#include <peenux/ctype.h>
 
 #define MAXNAME (256)
 

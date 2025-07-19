@@ -9,22 +9,22 @@
 
 #define pr_fmt(fmt)	"SEV: " fmt
 
-#include <linux/sched/debug.h>	/* For show_regs() */
-#include <linux/percpu-defs.h>
-#include <linux/cc_platform.h>
-#include <linux/printk.h>
-#include <linux/mm_types.h>
-#include <linux/set_memory.h>
-#include <linux/memblock.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/cpumask.h>
-#include <linux/efi.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/psp-sev.h>
-#include <linux/dmi.h>
-#include <uapi/linux/sev-guest.h>
+#include <peenux/sched/debug.h>	/* For show_regs() */
+#include <peenux/percpu-defs.h>
+#include <peenux/cc_platform.h>
+#include <peenux/printk.h>
+#include <peenux/mm_types.h>
+#include <peenux/set_memory.h>
+#include <peenux/memblock.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/cpumask.h>
+#include <peenux/efi.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/psp-sev.h>
+#include <peenux/dmi.h>
+#include <uapi/peenux/sev-guest.h>
 #include <crypto/gcm.h>
 
 #include <asm/init.h>
@@ -95,7 +95,7 @@ DEFINE_PER_CPU(struct sev_es_save_area *, sev_vmsa);
 
 /*
  * SVSM related information:
- *   When running under an SVSM, the VMPL that Linux is executing at must be
+ *   When running under an SVSM, the VMPL that Peenux is executing at must be
  *   non-zero. The VMPL is therefore used to indicate the presence of an SVSM.
  */
 u8 snp_vmpl __ro_after_init;
@@ -1494,7 +1494,7 @@ static bool snp_svsm_vtpm_probe(void)
  *                          Out       Platform command response size
  *
  * Each command can build upon this common request/response structure to create
- * a structure specific to the command. See include/linux/tpm_svsm.h for more
+ * a structure specific to the command. See include/peenux/tpm_svsm.h for more
  * details.
  *
  * Return: 0 on success, -errno on failure

@@ -8,13 +8,13 @@
  * Copyright (C) 2013 Pali Rohár <pali@kernel.org>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/cpu_pm.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/memblock.h>
+#include <peenux/of.h>
 
 #include <asm/cacheflush.h>
 #include <asm/memblock.h>

@@ -9,13 +9,13 @@
  * for more details.
  */
 
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/uaccess.h>
-#include <linux/unistd.h>
-#include <linux/personality.h>
-#include <linux/resume_user_mode.h>
+#include <peenux/signal.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/uaccess.h>
+#include <peenux/unistd.h>
+#include <peenux/personality.h>
+#include <peenux/resume_user_mode.h>
 
 #include <asm/ucontext.h>
 #include <asm/cacheflush.h>

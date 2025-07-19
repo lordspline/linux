@@ -5,10 +5,10 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/rfkill.h>
-#include <linux/input.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/rfkill.h>
+#include <peenux/input.h>
 
 #include "dell-rbtn.h"
 

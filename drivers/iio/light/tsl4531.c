@@ -11,13 +11,13 @@
  * TODO: single cycle measurement
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define TSL4531_DRV_NAME "tsl4531"
 

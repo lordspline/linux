@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * Copyright (C) 2008 Google, Inc.
  *
@@ -21,8 +21,8 @@
 #ifndef _UAPI_LINUX_BINDER_H
 #define _UAPI_LINUX_BINDER_H
 
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <peenux/types.h>
+#include <peenux/ioctl.h>
 
 #define B_PACK_CHARS(c1, c2, c3, c4) \
 	((((c1)<<24)) | (((c2)<<16)) | (((c3)<<8)) | (c4))

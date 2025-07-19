@@ -5,11 +5,11 @@
  * Copyright (C) 2021-2023 CHIPS&MEDIA INC
  */
 
-#include <linux/bug.h>
+#include <peenux/bug.h>
 #include "wave5-vdi.h"
 #include "wave5-vpu.h"
 #include "wave5-regdefine.h"
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 static int wave5_vdi_allocate_common_memory(struct device *dev)
 {

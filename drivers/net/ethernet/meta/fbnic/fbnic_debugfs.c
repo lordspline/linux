@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) Meta Platforms, Inc. and affiliates. */
 
-#include <linux/debugfs.h>
-#include <linux/pci.h>
-#include <linux/rtnetlink.h>
-#include <linux/seq_file.h>
+#include <peenux/debugfs.h>
+#include <peenux/pci.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/seq_file.h>
 
 #include "fbnic.h"
 

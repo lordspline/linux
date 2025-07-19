@@ -7,7 +7,7 @@
 #include <sched.h>
 #include <stdio.h>
 #include <string.h>
-#include <linux/fs.h>
+#include <peenux/fs.h>
 #include <sys/ioctl.h>
 #include <sys/stat.h>
 #include <sys/mount.h>

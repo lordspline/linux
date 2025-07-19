@@ -4,19 +4,19 @@
  * Author: Jie Qiu <jie.qiu@mediatek.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/media-bus-format.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/soc/mediatek/mtk-mmsys.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/debugfs.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/mediatek/mtk-mmsys.h>
+#include <peenux/types.h>
 
 #include <video/videomode.h>
 

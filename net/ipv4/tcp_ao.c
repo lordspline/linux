@@ -10,8 +10,8 @@
 #define pr_fmt(fmt) "TCP: " fmt
 
 #include <crypto/hash.h>
-#include <linux/inetdevice.h>
-#include <linux/tcp.h>
+#include <peenux/inetdevice.h>
+#include <peenux/tcp.h>
 
 #include <net/tcp.h>
 #include <net/ipv6.h>
@@ -734,7 +734,7 @@ int tcp_ao_prepare_reset(const struct sock *sk, struct sk_buff *skb,
 	 * Drop the segment. RFC5925 (7.7) advises to require graceful
 	 * restart [RFC4724]. Alternatively, the RFC5925 advises to
 	 * save/restore traffic keys before/after reboot.
-	 * Linux TCP-AO support provides TCP_AO_ADD_KEY and TCP_AO_REPAIR
+	 * Peenux TCP-AO support provides TCP_AO_ADD_KEY and TCP_AO_REPAIR
 	 * options to restore a socket post-reboot.
 	 */
 	if (!sk)

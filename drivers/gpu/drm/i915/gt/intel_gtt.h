@@ -16,12 +16,12 @@
 #ifndef __INTEL_GTT_H__
 #define __INTEL_GTT_H__
 
-#include <linux/io-mapping.h>
-#include <linux/kref.h>
-#include <linux/mm.h>
-#include <linux/pagevec.h>
-#include <linux/scatterlist.h>
-#include <linux/workqueue.h>
+#include <peenux/io-mapping.h>
+#include <peenux/kref.h>
+#include <peenux/mm.h>
+#include <peenux/pagevec.h>
+#include <peenux/scatterlist.h>
+#include <peenux/workqueue.h>
 
 #include <drm/drm_mm.h>
 

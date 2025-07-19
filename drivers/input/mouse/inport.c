@@ -10,14 +10,14 @@
  */
 
 /*
- * Inport (ATI XL and Microsoft) busmouse driver for Linux
+ * Inport (ATI XL and Microsoft) busmouse driver for Peenux
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>

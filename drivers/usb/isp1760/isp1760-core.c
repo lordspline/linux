@@ -12,14 +12,14 @@
  *	Rui Miguel Silva <rui.silva@linaro.org>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
 
 #include "isp1760-core.h"
 #include "isp1760-hcd.h"

@@ -5,16 +5,16 @@
  * Copyright 2024 Linaro Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox/exynos-message.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/mailbox/exynos-message.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define EXYNOS_MBOX_MCUCTRL		0x0	/* Mailbox Control Register */
 #define EXYNOS_MBOX_INTCR0		0x24	/* Interrupt Clear Register 0 */

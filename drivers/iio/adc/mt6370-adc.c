@@ -5,17 +5,17 @@
  * Author: ChiaEn Wu <chiaen_wu@richtek.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/units.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/iio/iio.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/sysfs.h>
+#include <peenux/units.h>
 
 #include <dt-bindings/iio/adc/mediatek,mt6370_adc.h>
 

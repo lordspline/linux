@@ -6,12 +6,12 @@
  * Copyright (C) 2024 Yunsheng Lin <linyunsheng@huawei.com>
  */
 
-#include <linux/module.h>
-#include <linux/cpumask.h>
-#include <linux/completion.h>
-#include <linux/ptr_ring.h>
-#include <linux/kthread.h>
-#include <linux/page_frag_cache.h>
+#include <peenux/module.h>
+#include <peenux/cpumask.h>
+#include <peenux/completion.h>
+#include <peenux/ptr_ring.h>
+#include <peenux/kthread.h>
+#include <peenux/page_frag_cache.h>
 
 #define TEST_FAILED_PREFIX	"page_frag_test failed: "
 

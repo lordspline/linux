@@ -22,14 +22,14 @@
  * irq levels 10 and 11.
  */
 
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/eisa.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/eisa.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>

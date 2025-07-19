@@ -6,18 +6,18 @@
 #ifndef __ILA_H
 #define __ILA_H
 
-#include <linux/errno.h>
-#include <linux/ip.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/socket.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <peenux/errno.h>
+#include <peenux/ip.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/socket.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
 #include <net/checksum.h>
 #include <net/genetlink.h>
 #include <net/ip.h>
 #include <net/protocol.h>
-#include <uapi/linux/ila.h>
+#include <uapi/peenux/ila.h>
 
 struct ila_locator {
 	union {

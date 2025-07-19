@@ -5,18 +5,18 @@
  */
 
 #define pr_fmt(fmt) "riscv-imsic: " fmt
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqchip/riscv-imsic.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
+#include <peenux/acpi.h>
+#include <peenux/cpu.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqchip/riscv-imsic.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/smp.h>
 
 #include "irq-riscv-imsic-state.h"
 
@@ -68,7 +68,7 @@ static int __init imsic_ipi_domain_init(void) { return 0; }
 /*
  * To handle an interrupt, we read the TOPEI CSR and write zero in one
  * instruction. If TOPEI CSR is non-zero then we translate TOPEI.ID to
- * Linux interrupt number and let Linux IRQ subsystem handle it.
+ * Peenux interrupt number and let Peenux IRQ subsystem handle it.
  */
 static void imsic_handle_irq(struct irq_desc *desc)
 {

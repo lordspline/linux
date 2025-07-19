@@ -6,12 +6,12 @@
 
 #define pr_fmt(fmt)		"uniphier: " fmt
 
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/log2.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
 #include <asm/hardware/cache-uniphier.h>
 #include <asm/outercache.h>
 

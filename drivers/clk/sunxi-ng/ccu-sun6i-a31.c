@@ -7,10 +7,10 @@
  * Based on ccu-sun8i-h3.c by Maxime Ripard.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include "ccu_common.h"
 #include "ccu_reset.h"

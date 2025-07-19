@@ -20,7 +20,7 @@
  * status of a command.
  */
 
-#include <linux/errno.h>
+#include <peenux/errno.h>
 
 #include "usb.h"
 #include "initializers.h"

@@ -16,20 +16,20 @@
  */
 #define MTD_DEFAULT_TIMEOUT	3
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/blkdev.h>
-#include <linux/backing-dev.h>
-#include <linux/bio.h>
-#include <linux/pagemap.h>
-#include <linux/list.h>
-#include <linux/init.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mutex.h>
-#include <linux/mount.h>
-#include <linux/slab.h>
-#include <linux/major.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/blkdev.h>
+#include <peenux/backing-dev.h>
+#include <peenux/bio.h>
+#include <peenux/pagemap.h>
+#include <peenux/list.h>
+#include <peenux/init.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mutex.h>
+#include <peenux/mount.h>
+#include <peenux/slab.h>
+#include <peenux/major.h>
 
 /* Maximum number of comma-separated items in the 'block2mtd=' parameter */
 #define BLOCK2MTD_PARAM_MAX_COUNT 3

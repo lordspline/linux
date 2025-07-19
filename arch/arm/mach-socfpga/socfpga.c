@@ -2,11 +2,11 @@
 /*
  *  Copyright (C) 2012-2015 Altera Corporation
  */
-#include <linux/irqchip.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/reboot.h>
-#include <linux/reset/socfpga.h>
+#include <peenux/irqchip.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/reboot.h>
+#include <peenux/reset/socfpga.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

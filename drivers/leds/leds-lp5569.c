@@ -3,18 +3,18 @@
  * Copyright (C) 2024 Christian Marangi <ansuelsmth@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_data/leds-lp55xx.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/iopoll.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_data/leds-lp55xx.h>
+#include <peenux/slab.h>
 #include <dt-bindings/leds/leds-lp55xx.h>
 
 #include "leds-lp55xx-common.h"

@@ -5,13 +5,13 @@
  * Copyright (C) 2024 Theobroma Systems Design und Consulting GmbH
  */
 
-#include <linux/i2c-mux.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
 #define MULE_I2C_MUX_CONFIG_REG  0xff
 #define MULE_I2C_MUX_DEFAULT_DEV 0x0

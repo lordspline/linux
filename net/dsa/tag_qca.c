@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/etherdevice.h>
-#include <linux/bitfield.h>
+#include <peenux/etherdevice.h>
+#include <peenux/bitfield.h>
 #include <net/dsa.h>
-#include <linux/dsa/tag_qca.h>
+#include <peenux/dsa/tag_qca.h>
 
 #include "tag.h"
 

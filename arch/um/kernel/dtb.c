@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/init.h>
-#include <linux/of_fdt.h>
-#include <linux/printk.h>
-#include <linux/memblock.h>
+#include <peenux/init.h>
+#include <peenux/of_fdt.h>
+#include <peenux/printk.h>
+#include <peenux/memblock.h>
 #include <init.h>
 
 #include "um_arch.h"

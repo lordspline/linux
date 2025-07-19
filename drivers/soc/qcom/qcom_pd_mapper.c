@@ -5,14 +5,14 @@
  * Copyright (c) 2023 Linaro Ltd.
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/qmi.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/refcount.h>
+#include <peenux/slab.h>
+#include <peenux/soc/qcom/qmi.h>
 
 #include "pdr_internal.h"
 

@@ -8,8 +8,8 @@
  * Paul Walmsley, Jouni Högander
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
 
 #include "soc.h"
 #include "powerdomain.h"

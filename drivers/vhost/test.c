@@ -5,15 +5,15 @@
  * test virtio server in host kernel.
  */
 
-#include <linux/compat.h>
-#include <linux/eventfd.h>
-#include <linux/vhost.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/file.h>
-#include <linux/slab.h>
+#include <peenux/compat.h>
+#include <peenux/eventfd.h>
+#include <peenux/vhost.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
+#include <peenux/file.h>
+#include <peenux/slab.h>
 
 #include "test.h"
 #include "vhost.h"

@@ -30,10 +30,10 @@
  * may be glued together into single vectored write RPCs.
  */
 
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
 #include "internal.h"
 
 /*

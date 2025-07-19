@@ -16,9 +16,9 @@
 #include <media/dmxdev.h>
 #include <media/dvb_net.h>
 
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
 
 #include <media/drv-intf/saa7146.h>
 

@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <linux/zalloc.h>
+#include <peenux/zalloc.h>
 
 #include "build-id.h"
 #include "dso.h"

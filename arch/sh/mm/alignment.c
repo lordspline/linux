@@ -8,12 +8,12 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/uaccess.h>
-#include <linux/ratelimit.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/seq_file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/uaccess.h>
+#include <peenux/ratelimit.h>
 #include <asm/alignment.h>
 #include <asm/processor.h>
 

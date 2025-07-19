@@ -5,11 +5,11 @@
  * Copyright (C) 2018 Andes Technology Corporation <zong@andestech.com>
  */
 
-#include <linux/elf.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleloader.h>
-#include <linux/sort.h>
+#include <peenux/elf.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleloader.h>
+#include <peenux/sort.h>
 
 unsigned long module_emit_got_entry(struct module *mod, unsigned long val)
 {

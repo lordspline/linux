@@ -245,12 +245,12 @@
 			power-off-time-sec = <0>;
 
 			power {
-				linux,keycodes = <116>;
+				peenux,keycodes = <116>;
 				wakeup-source;
 			};
 
 			home {
-				linux,keycodes = <114>;
+				peenux,keycodes = <114>;
 			};
 		};
 

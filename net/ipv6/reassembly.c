@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	IPv6 fragment reassembly
- *	Linux INET6 implementation
+ *	Peenux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
@@ -14,7 +14,7 @@
  *	Andi Kleen	Make it work with multiple hosts.
  *			More RFC compliance.
  *
- *      Horst von Brand Add missing #include <linux/string.h>
+ *      Horst von Brand Add missing #include <peenux/string.h>
  *	Alexey Kuznetsov	SMP races, threading, cleanup.
  *	Patrick McHardy		LRU queue of frag heads for evictor.
  *	Mitsuru KANDA @USAGI	Register inet6_protocol{}.
@@ -25,25 +25,25 @@
 
 #define pr_fmt(fmt) "IPv6: " fmt
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/jiffies.h>
-#include <linux/net.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/in6.h>
-#include <linux/ipv6.h>
-#include <linux/icmpv6.h>
-#include <linux/random.h>
-#include <linux/jhash.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/jiffies.h>
+#include <peenux/net.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/in6.h>
+#include <peenux/ipv6.h>
+#include <peenux/icmpv6.h>
+#include <peenux/random.h>
+#include <peenux/jhash.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
 
 #include <net/sock.h>
 #include <net/snmp.h>

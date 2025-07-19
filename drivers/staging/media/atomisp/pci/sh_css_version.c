@@ -4,8 +4,8 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include "../../include/linux/atomisp.h"
-#include "../../include/linux/atomisp_platform.h"
+#include "../../include/peenux/atomisp.h"
+#include "../../include/peenux/atomisp_platform.h"
 #include "ia_css_version.h"
 #include "ia_css_version_data.h"
 #include "ia_css_err.h"

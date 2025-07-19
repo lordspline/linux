@@ -9,14 +9,14 @@
  * Authors: Sanjay Lal <sanjayl@kymasys.com>
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/ktime.h>
-#include <linux/kvm_host.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/memblock.h>
-#include <linux/random.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/ktime.h>
+#include <peenux/kvm_host.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/memblock.h>
+#include <peenux/random.h>
 #include <asm/page.h>
 #include <asm/cacheflush.h>
 #include <asm/cacheops.h>

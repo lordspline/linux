@@ -17,9 +17,9 @@
 #include <netinet/in.h>
 #include <time.h>
 
-#include <linux/ovpn.h>
-#include <linux/types.h>
-#include <linux/netlink.h>
+#include <peenux/ovpn.h>
+#include <peenux/types.h>
+#include <peenux/netlink.h>
 
 #include <netlink/socket.h>
 #include <netlink/netlink.h>

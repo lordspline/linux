@@ -9,7 +9,7 @@
 #ifndef TUXEDO_NB04_WMI_UTIL_H
 #define TUXEDO_NB04_WMI_UTIL_H
 
-#include <linux/wmi.h>
+#include <peenux/wmi.h>
 
 #define TUX_GET_DEVICE_STATUS_DEVICE_ID_TOUCHPAD	1
 #define TUX_GET_DEVICE_STATUS_DEVICE_ID_KEYBOARD	2

@@ -5,13 +5,13 @@
 
  */
 
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/via-core.h>
-#include <linux/via_i2c.h>
+#include <peenux/compiler.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/via-core.h>
+#include <peenux/via_i2c.h>
 
 #define _MASTER_FILE
 #include "global.h"

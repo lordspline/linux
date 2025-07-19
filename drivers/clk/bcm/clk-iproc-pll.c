@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2014 Broadcom Corporation
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/clkdev.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/clkdev.h>
+#include <peenux/of_address.h>
+#include <peenux/delay.h>
 
 #include "clk-iproc.h"
 

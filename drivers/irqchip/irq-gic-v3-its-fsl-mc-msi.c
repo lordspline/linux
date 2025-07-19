@@ -7,13 +7,13 @@
  *
  */
 
-#include <linux/acpi.h>
-#include <linux/acpi_iort.h>
-#include <linux/irq.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/fsl/mc.h>
+#include <peenux/acpi.h>
+#include <peenux/acpi_iort.h>
+#include <peenux/irq.h>
+#include <peenux/msi.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/fsl/mc.h>
 
 static struct irq_chip its_msi_irq_chip = {
 	.name = "ITS-fMSI",

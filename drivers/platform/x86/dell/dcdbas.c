@@ -12,26 +12,26 @@
  *  Copyright (C) 1995-2006 Dell Inc.
  */
 
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmi.h>
-#include <linux/errno.h>
-#include <linux/cpu.h>
-#include <linux/gfp.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mc146818rtc.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmi.h>
+#include <peenux/errno.h>
+#include <peenux/cpu.h>
+#include <peenux/gfp.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
 
 #include "dcdbas.h"
 

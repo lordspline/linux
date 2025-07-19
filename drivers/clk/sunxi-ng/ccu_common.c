@@ -5,12 +5,12 @@
  * Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include "ccu_common.h"
 #include "ccu_gate.h"

@@ -10,16 +10,16 @@
  * I hate traps on the sparc, grrr...
  */
 
-#include <linux/cpu.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/debug.h>
-#include <linux/mm_types.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/smp.h>
-#include <linux/kdebug.h>
-#include <linux/export.h>
-#include <linux/pgtable.h>
+#include <peenux/cpu.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/debug.h>
+#include <peenux/mm_types.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/smp.h>
+#include <peenux/kdebug.h>
+#include <peenux/export.h>
+#include <peenux/pgtable.h>
 
 #include <asm/delay.h>
 #include <asm/ptrace.h>
@@ -93,7 +93,7 @@ void __noreturn die_if_kernel(char *str, struct pt_regs *regs)
 void do_hw_interrupt(struct pt_regs *regs, unsigned long type)
 {
 	if(type < 0x80) {
-		/* Sun OS's puke from bad traps, Linux survives! */
+		/* Sun OS's puke from bad traps, Peenux survives! */
 		printk("Unimplemented Sparc TRAP, type = %02lx\n", type);
 		die_if_kernel("Whee... Hello Mr. Penguin", regs);
 	}	

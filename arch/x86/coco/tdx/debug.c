@@ -3,8 +3,8 @@
 #undef pr_fmt
 #define pr_fmt(fmt)     "tdx: " fmt
 
-#include <linux/array_size.h>
-#include <linux/printk.h>
+#include <peenux/array_size.h>
+#include <peenux/printk.h>
 #include <asm/tdx.h>
 
 #define DEF_TDX_ATTR_NAME(_name) [TDX_ATTR_##_name##_BIT] = __stringify(_name)

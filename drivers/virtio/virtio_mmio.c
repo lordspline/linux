@@ -54,22 +54,22 @@
 
 #define pr_fmt(fmt) "virtio-mmio: " fmt
 
-#include <linux/acpi.h>
-#include <linux/dma-mapping.h>
-#include <linux/highmem.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/virtio.h>
-#include <linux/virtio_config.h>
-#include <uapi/linux/virtio_mmio.h>
-#include <linux/virtio_ring.h>
+#include <peenux/acpi.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/highmem.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_config.h>
+#include <uapi/peenux/virtio_mmio.h>
+#include <peenux/virtio_ring.h>
 
 
 

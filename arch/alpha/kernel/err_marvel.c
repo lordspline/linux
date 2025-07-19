@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/err_marvel.c
+ *	peenux/arch/alpha/kernel/err_marvel.c
  *
  *	Copyright (C) 2001 Jeff Wiedemeier (Compaq Computer Corporation)
  *
  */
 
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/sched.h>
 
 #include <asm/io.h>
 #include <asm/console.h>

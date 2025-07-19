@@ -13,7 +13,7 @@
 #define __BP_HARDEN_HYP_VECS_SZ	((BP_HARDEN_EL2_SLOTS - 1) * SZ_2K)
 
 #ifndef __ASSEMBLY__
-#include <linux/smp.h>
+#include <peenux/smp.h>
 #include <asm/percpu.h>
 
 #include <asm/cpufeature.h>

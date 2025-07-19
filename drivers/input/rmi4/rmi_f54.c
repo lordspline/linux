@@ -4,12 +4,12 @@
  * Copyright (C) 2016 Zodiac Inflight Innovations
  */
 
-#include <linux/kernel.h>
-#include <linux/rmi.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/rmi.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-v4l2.h>

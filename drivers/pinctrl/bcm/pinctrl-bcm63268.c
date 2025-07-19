@@ -6,13 +6,13 @@
  * Copyright (C) 2016 Jonas Gorski <jonas.gorski@gmail.com>
  */
 
-#include <linux/bits.h>
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include "../pinctrl-utils.h"
 

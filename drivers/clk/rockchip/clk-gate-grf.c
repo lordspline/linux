@@ -8,10 +8,10 @@
  * implements a clock driver for these types of gates, based on regmaps.
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include "clk.h"
 
 struct rockchip_gate_grf {

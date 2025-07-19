@@ -11,17 +11,17 @@
  * Author: Daniel Jordan <daniel.m.jordan@oracle.com>
  */
 
-#include <linux/completion.h>
-#include <linux/export.h>
-#include <linux/cpumask.h>
-#include <linux/err.h>
-#include <linux/cpu.h>
-#include <linux/padata.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/rcupdate.h>
+#include <peenux/completion.h>
+#include <peenux/export.h>
+#include <peenux/cpumask.h>
+#include <peenux/err.h>
+#include <peenux/cpu.h>
+#include <peenux/padata.h>
+#include <peenux/mutex.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/rcupdate.h>
 
 #define	PADATA_WORK_ONSTACK	1	/* Work's memory is on stack */
 

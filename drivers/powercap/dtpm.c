@@ -17,13 +17,13 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/dtpm.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/powercap.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
+#include <peenux/dtpm.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/powercap.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
 
 #include "dtpm_subsys.h"
 

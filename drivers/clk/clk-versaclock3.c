@@ -5,11 +5,11 @@
  * Copyright (C) 2023 Renesas Electronics Corp.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/i2c.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/clk-provider.h>
+#include <peenux/i2c.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 
 #define NUM_CONFIG_REGISTERS		37
 

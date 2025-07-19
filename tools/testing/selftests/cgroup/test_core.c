@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
 #define _GNU_SOURCE
-#include <linux/limits.h>
-#include <linux/sched.h>
+#include <peenux/limits.h>
+#include <peenux/sched.h>
 #include <sys/types.h>
 #include <sys/mman.h>
 #include <sys/wait.h>

@@ -6,13 +6,13 @@
  *
  * TODO: Buffer, trigger, and IRQ support
  */
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/bitfield.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #include "fxos8700.h"
 

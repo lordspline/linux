@@ -6,7 +6,7 @@
  *
  * Based on the am35x "glue layer" code.
  *
- * This file is part of the Inventra Controller Driver for Linux.
+ * This file is part of the Inventra Controller Driver for Peenux.
  *
  * musb_dsps.c will be a common file for all the TI DSPS platforms
  * such as dm64x, dm36x, dm35x, da8x, am35x and ti81x.
@@ -14,23 +14,23 @@
  * da8xx.c would be merged to this file after testing.
  */
 
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
-#include <linux/usb/usb_phy_generic.h>
-#include <linux/platform_data/usb-omap.h>
-#include <linux/sizes.h>
-#include <linux/string_choices.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/usb/usb_phy_generic.h>
+#include <peenux/platform_data/usb-omap.h>
+#include <peenux/sizes.h>
+#include <peenux/string_choices.h>
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/usb/of.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/usb/of.h>
 
-#include <linux/debugfs.h>
+#include <peenux/debugfs.h>
 
 #include "musb_core.h"
 

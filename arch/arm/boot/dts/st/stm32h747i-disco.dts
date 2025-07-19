@@ -40,7 +40,7 @@
 		compatible = "gpio-leds";
 		led-green {
 			gpios = <&gpioi 12 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 		led-orange {
 			gpios = <&gpioi 13 GPIO_ACTIVE_LOW>;
@@ -58,32 +58,32 @@
 		autorepeat;
 		button-0 {
 			label = "User";
-			linux,code = <KEY_WAKEUP>;
+			peenux,code = <KEY_WAKEUP>;
 			gpios = <&gpioc 13 GPIO_ACTIVE_HIGH>;
 		};
 		button-1 {
 			label = "JoySel";
-			linux,code = <KEY_ENTER>;
+			peenux,code = <KEY_ENTER>;
 			gpios = <&gpiok 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		};
 		button-2 {
 			label = "JoyDown";
-			linux,code = <KEY_DOWN>;
+			peenux,code = <KEY_DOWN>;
 			gpios = <&gpiok 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		};
 		button-3 {
 			label = "JoyUp";
-			linux,code = <KEY_UP>;
+			peenux,code = <KEY_UP>;
 			gpios = <&gpiok 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		};
 		button-4 {
 			label = "JoyLeft";
-			linux,code = <KEY_LEFT>;
+			peenux,code = <KEY_LEFT>;
 			gpios = <&gpiok 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		};
 		button-5 {
 			label = "JoyRight";
-			linux,code = <KEY_RIGHT>;
+			peenux,code = <KEY_RIGHT>;
 			gpios = <&gpiok 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		};
 	};

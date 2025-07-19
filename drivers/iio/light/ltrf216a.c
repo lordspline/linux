@@ -11,22 +11,22 @@
  * IIO driver for LTRF216A (7-bit I2C slave address 0x53).
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/iopoll.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define LTRF216A_ALS_RESET_MASK		BIT(4)
 #define LTRF216A_ALS_DATA_STATUS	BIT(3)

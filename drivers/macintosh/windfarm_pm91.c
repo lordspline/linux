@@ -26,18 +26,18 @@
  * basic PCI slot control loop
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/kmod.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
+#include <peenux/kmod.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
 
 #include <asm/machdep.h>
 #include <asm/io.h>

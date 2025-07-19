@@ -4,7 +4,7 @@
  *   AMD & Fujitsu Standard Vendor Command Set (ID 0x0002)
  *
  * Copyright (C) 2000 Crossnet Co. <info@crossnet.co.jp>
- * Copyright (C) 2004 Arcom Control Systems Ltd <linux@arcom.com>
+ * Copyright (C) 2004 Arcom Control Systems Ltd <peenux@arcom.com>
  * Copyright (C) 2005 MontaVista Software Inc. <source@mvista.com>
  *
  * 2_by_8 routines added by Simon Munton
@@ -19,23 +19,23 @@
  * Occasionally maintained by Thayne Harbaugh tharbaugh at lnxi dot com
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>
 
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/reboot.h>
-#include <linux/of.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/cfi.h>
-#include <linux/mtd/xip.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/reboot.h>
+#include <peenux/of.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/cfi.h>
+#include <peenux/mtd/xip.h>
 
 #define AMD_BOOTLOC_BUG
 #define FORCE_WORD_WRITE 0
@@ -545,7 +545,7 @@ static int is_m29ew(struct cfi_private *cfi)
 }
 
 /*
- * From TN-13-07: Patching the Linux Kernel and U-Boot for M29 Flash, page 20:
+ * From TN-13-07: Patching the Peenux Kernel and U-Boot for M29 Flash, page 20:
  * Some revisions of the M29EW suffer from erase suspend hang ups. In
  * particular, it can occur when the sequence
  * Erase Confirm -> Suspend -> Program -> Resume
@@ -564,7 +564,7 @@ static void cfi_fixup_m29ew_erase_suspend(struct map_info *map,
 }
 
 /*
- * From TN-13-07: Patching the Linux Kernel and U-Boot for M29 Flash, page 22:
+ * From TN-13-07: Patching the Peenux Kernel and U-Boot for M29 Flash, page 22:
  *
  * Some revisions of the M29EW (for example, A1 and A2 step revisions)
  * are affected by a problem that could cause a hang up when an ERASE SUSPEND
@@ -580,7 +580,7 @@ static void cfi_fixup_m29ew_erase_suspend(struct map_info *map,
  * calls to the garbage routine to free Flash space (also by erasing physical
  * Flash blocks) and as a result, many consecutive SUSPEND and RESUME
  * commands can occur.  The problem disappears when a delay is inserted after
- * the RESUME command by using the udelay() function available in Linux.
+ * the RESUME command by using the udelay() function available in Peenux.
  * The DELAY value must be tuned based on the customer's platform.
  * The maximum value that fixes the problem in all cases is 500us.
  * But, in our experience, a delay of 30 µs to 50 µs is sufficient

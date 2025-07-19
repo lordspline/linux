@@ -7,10 +7,10 @@
 #ifndef _LINUX_IMA_H
 #define _LINUX_IMA_H
 
-#include <linux/kernel_read_file.h>
-#include <linux/fs.h>
-#include <linux/security.h>
-#include <linux/kexec.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/fs.h>
+#include <peenux/security.h>
+#include <peenux/kexec.h>
 #include <crypto/hash_info.h>
 struct linux_binprm;
 

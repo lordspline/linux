@@ -7,11 +7,11 @@
  * Copyright (C) 2016 Intel Corporation
  */
 
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/dmaengine.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/dmaengine.h>
 
-#include <linux/io-64-nonatomic-hi-lo.h>
+#include <peenux/io-64-nonatomic-hi-lo.h>
 
 #include "internal.h"
 

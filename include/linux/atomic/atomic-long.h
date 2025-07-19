@@ -6,7 +6,7 @@
 #ifndef _LINUX_ATOMIC_LONG_H
 #define _LINUX_ATOMIC_LONG_H
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #include <asm/types.h>
 
 #ifdef CONFIG_64BIT

@@ -9,7 +9,7 @@
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License version 2
  * as published by the Free Software Foundation; or, when distributed
- * separately from the Linux kernel or incorporated into other
+ * separately from the Peenux kernel or incorporated into other
  * software packages, subject to the following license:
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -37,15 +37,15 @@
 	pr_debug("(%s:%d) " fmt "\n",			\
 		 __func__, __LINE__, ##__VA_ARGS__)
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/notifier.h>
-#include <linux/export.h>
-#include <linux/semaphore.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/fcntl.h>
+#include <peenux/mm.h>
+#include <peenux/notifier.h>
+#include <peenux/export.h>
+#include <peenux/semaphore.h>
 
 #include <asm/page.h>
 #include <asm/xen/hypervisor.h>

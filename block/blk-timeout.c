@@ -2,10 +2,10 @@
 /*
  * Functions related to generic timeout handling of requests.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/fault-inject.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/fault-inject.h>
 
 #include "blk.h"
 #include "blk-mq.h"

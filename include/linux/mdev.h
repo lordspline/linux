@@ -10,8 +10,8 @@
 #ifndef MDEV_H
 #define MDEV_H
 
-#include <linux/device.h>
-#include <linux/uuid.h>
+#include <peenux/device.h>
+#include <peenux/uuid.h>
 
 struct mdev_type;
 

@@ -10,8 +10,8 @@
 #include "opts.h"
 #include "super_types.h"
 
-#include <linux/llist.h>
-#include <linux/workqueue.h>
+#include <peenux/llist.h>
+#include <peenux/workqueue.h>
 
 #define BCH_WRITE_FLAGS()		\
 	x(alloc_nowait)			\

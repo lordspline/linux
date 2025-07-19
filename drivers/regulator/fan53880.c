@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0+
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
 
 enum fan53880_regulator_ids {
 	FAN53880_LDO1,

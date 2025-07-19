@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Intel Management Engine Interface (Intel MEI) Linux driver
+ * Intel Management Engine Interface (Intel MEI) Peenux driver
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/debugfs.h>
-#include <linux/completion.h>
-#include <linux/watchdog.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/debugfs.h>
+#include <peenux/completion.h>
+#include <peenux/watchdog.h>
 
-#include <linux/uuid.h>
-#include <linux/mei_cl_bus.h>
+#include <peenux/uuid.h>
+#include <peenux/mei_cl_bus.h>
 
 /*
  * iAMT Watchdog Device

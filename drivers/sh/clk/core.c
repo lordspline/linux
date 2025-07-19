@@ -16,18 +16,18 @@
  */
 #define pr_fmt(fmt) "clock: " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/syscore_ops.h>
-#include <linux/seq_file.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/cpufreq.h>
-#include <linux/clk.h>
-#include <linux/sh_clk.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/seq_file.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/cpufreq.h>
+#include <peenux/clk.h>
+#include <peenux/sh_clk.h>
 
 static LIST_HEAD(clock_list);
 static DEFINE_SPINLOCK(clock_lock);

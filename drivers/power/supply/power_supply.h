@@ -9,7 +9,7 @@
  *  Modified: 2004, Oct     Szabolcs Gyurko
  */
 
-#include <linux/lockdep.h>
+#include <peenux/lockdep.h>
 
 struct device;
 struct device_type;

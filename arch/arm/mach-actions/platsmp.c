@@ -10,12 +10,12 @@
  * Copyright (c) 2017 Andreas Färber
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/smp.h>
-#include <linux/soc/actions/owl-sps.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/smp.h>
+#include <peenux/soc/actions/owl-sps.h>
 #include <asm/cacheflush.h>
 #include <asm/smp_plat.h>
 #include <asm/smp_scu.h>

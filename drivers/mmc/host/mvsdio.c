@@ -6,23 +6,23 @@
  * Copyright (C) 2008-2009 Marvell Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/mbus.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/scatterlist.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
-#include <linux/of_irq.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/slot-gpio.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/mbus.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/scatterlist.h>
+#include <peenux/irq.h>
+#include <peenux/clk.h>
+#include <peenux/of_irq.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/slot-gpio.h>
 
-#include <linux/sizes.h>
-#include <linux/unaligned.h>
+#include <peenux/sizes.h>
+#include <peenux/unaligned.h>
 
 #include "mvsdio.h"
 

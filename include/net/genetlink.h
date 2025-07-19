@@ -2,10 +2,10 @@
 #ifndef __NET_GENERIC_NETLINK_H
 #define __NET_GENERIC_NETLINK_H
 
-#include <linux/net.h>
+#include <peenux/net.h>
 #include <net/netlink.h>
 #include <net/net_namespace.h>
-#include <uapi/linux/genetlink.h>
+#include <uapi/peenux/genetlink.h>
 
 #define GENLMSG_DEFAULT_SIZE (NLMSG_DEFAULT_SIZE - GENL_HDRLEN)
 

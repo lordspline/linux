@@ -8,28 +8,28 @@
 #define pr_fmt(fmt)     "AMD-Vi: " fmt
 #define dev_fmt(fmt)    pr_fmt(fmt)
 
-#include <linux/ratelimit.h>
-#include <linux/pci.h>
-#include <linux/acpi.h>
-#include <linux/pci-ats.h>
-#include <linux/bitmap.h>
-#include <linux/slab.h>
-#include <linux/debugfs.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-map-ops.h>
-#include <linux/dma-direct.h>
-#include <linux/idr.h>
-#include <linux/iommu-helper.h>
-#include <linux/delay.h>
-#include <linux/amd-iommu.h>
-#include <linux/notifier.h>
-#include <linux/export.h>
-#include <linux/irq.h>
-#include <linux/msi.h>
-#include <linux/irqdomain.h>
-#include <linux/percpu.h>
-#include <linux/io-pgtable.h>
-#include <linux/cc_platform.h>
+#include <peenux/ratelimit.h>
+#include <peenux/pci.h>
+#include <peenux/acpi.h>
+#include <peenux/pci-ats.h>
+#include <peenux/bitmap.h>
+#include <peenux/slab.h>
+#include <peenux/debugfs.h>
+#include <peenux/scatterlist.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/dma-direct.h>
+#include <peenux/idr.h>
+#include <peenux/iommu-helper.h>
+#include <peenux/delay.h>
+#include <peenux/amd-iommu.h>
+#include <peenux/notifier.h>
+#include <peenux/export.h>
+#include <peenux/irq.h>
+#include <peenux/msi.h>
+#include <peenux/irqdomain.h>
+#include <peenux/percpu.h>
+#include <peenux/io-pgtable.h>
+#include <peenux/cc_platform.h>
 #include <asm/irq_remapping.h>
 #include <asm/io_apic.h>
 #include <asm/apic.h>
@@ -38,7 +38,7 @@
 #include <asm/iommu.h>
 #include <asm/gart.h>
 #include <asm/dma.h>
-#include <uapi/linux/iommufd.h>
+#include <uapi/peenux/iommufd.h>
 
 #include "amd_iommu.h"
 #include "../dma-iommu.h"

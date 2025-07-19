@@ -9,11 +9,11 @@
 #ifndef _LINUX_NVMEM_PROVIDER_H
 #define _LINUX_NVMEM_PROVIDER_H
 
-#include <linux/device.h>
-#include <linux/device/driver.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/device.h>
+#include <peenux/device/driver.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
 
 struct nvmem_device;
 typedef int (*nvmem_reg_read_t)(void *priv, unsigned int offset,

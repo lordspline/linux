@@ -3,15 +3,15 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/ptrace.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/kdev_t.h>
-#include <linux/proc_fs.h>
-#include <linux/file.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/debug.h>
+#include <peenux/ptrace.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/kdev_t.h>
+#include <peenux/proc_fs.h>
+#include <peenux/file.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/debug.h>
 
 #include <asm/arcregs.h>
 #include <asm/irqflags.h>

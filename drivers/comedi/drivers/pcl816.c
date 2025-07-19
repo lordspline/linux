@@ -30,14 +30,14 @@
  *	       1= 1MHz clock for 8254
  */
 
-#include <linux/module.h>
-#include <linux/gfp.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedi_8254.h>
-#include <linux/comedi/comedi_isadma.h>
+#include <peenux/module.h>
+#include <peenux/gfp.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/comedi/comedidev.h>
+#include <peenux/comedi/comedi_8254.h>
+#include <peenux/comedi/comedi_isadma.h>
 
 /*
  * Register I/O map

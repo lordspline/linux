@@ -9,11 +9,11 @@
  * Alexander Smirnov <alex.bluesman.smirnov@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/crc-ccitt.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/crc-ccitt.h>
+#include <peenux/unaligned.h>
 
 #include <net/mac802154.h>
 #include <net/ieee802154_netdev.h>

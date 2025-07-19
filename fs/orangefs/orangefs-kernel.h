@@ -6,56 +6,56 @@
  */
 
 /*
- *  The ORANGEFS Linux kernel support allows ORANGEFS volumes to be mounted and
- *  accessed through the Linux VFS (i.e. using standard I/O system calls).
+ *  The ORANGEFS Peenux kernel support allows ORANGEFS volumes to be mounted and
+ *  accessed through the Peenux VFS (i.e. using standard I/O system calls).
  *  This support is only needed on clients that wish to mount the file system.
  *
  */
 
 /*
- *  Declarations and macros for the ORANGEFS Linux kernel support.
+ *  Declarations and macros for the ORANGEFS Peenux kernel support.
  */
 
 #ifndef __ORANGEFSKERNEL_H
 #define __ORANGEFSKERNEL_H
 
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/statfs.h>
-#include <linux/backing-dev.h>
-#include <linux/device.h>
-#include <linux/mpage.h>
-#include <linux/namei.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/moduleparam.h>
+#include <peenux/statfs.h>
+#include <peenux/backing-dev.h>
+#include <peenux/device.h>
+#include <peenux/mpage.h>
+#include <peenux/namei.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/vmalloc.h>
 
-#include <linux/aio.h>
-#include <linux/posix_acl.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/compat.h>
-#include <linux/mount.h>
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
-#include <linux/uio.h>
-#include <linux/sched/signal.h>
-#include <linux/mm.h>
-#include <linux/wait.h>
-#include <linux/dcache.h>
-#include <linux/pagemap.h>
-#include <linux/poll.h>
-#include <linux/rwsem.h>
-#include <linux/xattr.h>
-#include <linux/exportfs.h>
-#include <linux/hashtable.h>
+#include <peenux/aio.h>
+#include <peenux/posix_acl.h>
+#include <peenux/posix_acl_xattr.h>
+#include <peenux/compat.h>
+#include <peenux/mount.h>
+#include <peenux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/uio.h>
+#include <peenux/sched/signal.h>
+#include <peenux/mm.h>
+#include <peenux/wait.h>
+#include <peenux/dcache.h>
+#include <peenux/pagemap.h>
+#include <peenux/poll.h>
+#include <peenux/rwsem.h>
+#include <peenux/xattr.h>
+#include <peenux/exportfs.h>
+#include <peenux/hashtable.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "orangefs-dev-proto.h"
 

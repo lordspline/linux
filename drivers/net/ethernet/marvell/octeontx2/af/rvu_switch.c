@@ -5,7 +5,7 @@
  *
  */
 
-#include <linux/bitfield.h>
+#include <peenux/bitfield.h>
 #include "rvu.h"
 
 void rvu_switch_enable_lbk_link(struct rvu *rvu, u16 pcifunc, bool enable)

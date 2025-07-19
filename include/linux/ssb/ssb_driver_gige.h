@@ -2,10 +2,10 @@
 #ifndef LINUX_SSB_DRIVER_GIGE_H_
 #define LINUX_SSB_DRIVER_GIGE_H_
 
-#include <linux/ssb/ssb.h>
-#include <linux/bug.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
+#include <peenux/ssb/ssb.h>
+#include <peenux/bug.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
 
 
 #ifdef CONFIG_SSB_DRIVER_GIGE

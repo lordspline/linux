@@ -15,7 +15,7 @@
  * example).
  */
 
-#include <linux/spinlock.h>
+#include <peenux/spinlock.h>
 #include <generated/bounds.h>
 
 #define USE_CMPXCHG_LOCKREF \

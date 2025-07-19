@@ -4,11 +4,11 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/dlm.h>
-#include <linux/sched.h>
-#include <linux/raid/md_p.h>
+#include <peenux/module.h>
+#include <peenux/kthread.h>
+#include <peenux/dlm.h>
+#include <peenux/sched.h>
+#include <peenux/raid/md_p.h>
 #include "md.h"
 #include "md-bitmap.h"
 #include "md-cluster.h"

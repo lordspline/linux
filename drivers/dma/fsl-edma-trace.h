@@ -9,8 +9,8 @@
 #if !defined(__LINUX_FSL_EDMA_TRACE) || defined(TRACE_HEADER_MULTI_READ)
 #define __LINUX_FSL_EDMA_TRACE
 
-#include <linux/types.h>
-#include <linux/tracepoint.h>
+#include <peenux/types.h>
+#include <peenux/tracepoint.h>
 
 DECLARE_EVENT_CLASS(edma_log_io,
 	TP_PROTO(struct fsl_edma_engine *edma, void __iomem *addr, u32 value),

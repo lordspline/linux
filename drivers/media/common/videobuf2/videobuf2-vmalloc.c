@@ -10,13 +10,13 @@
  * the Free Software Foundation.
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/refcount.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/refcount.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #include <media/videobuf2-v4l2.h>
 #include <media/videobuf2-vmalloc.h>

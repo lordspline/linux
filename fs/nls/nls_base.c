@@ -1,5 +1,5 @@
 /*
- * linux/fs/nls/nls_base.c
+ * peenux/fs/nls/nls_base.c
  *
  * Native language support--charsets and unicode translations.
  * By Gordon Chaffee 1996, 1997
@@ -8,13 +8,13 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/nls.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/kmod.h>
-#include <linux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/nls.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/kmod.h>
+#include <peenux/spinlock.h>
 #include <asm/byteorder.h>
 
 static struct nls_table default_table;

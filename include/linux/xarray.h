@@ -9,18 +9,18 @@
  * See Documentation/core-api/xarray.rst for how to use the XArray.
  */
 
-#include <linux/bitmap.h>
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/kconfig.h>
-#include <linux/limits.h>
-#include <linux/lockdep.h>
-#include <linux/rcupdate.h>
-#include <linux/sched/mm.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bitmap.h>
+#include <peenux/bug.h>
+#include <peenux/compiler.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/kconfig.h>
+#include <peenux/limits.h>
+#include <peenux/lockdep.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched/mm.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 struct list_lru;
 

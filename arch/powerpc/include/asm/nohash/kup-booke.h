@@ -14,7 +14,7 @@
 
 #else
 
-#include <linux/sched.h>
+#include <peenux/sched.h>
 
 #include <asm/reg.h>
 

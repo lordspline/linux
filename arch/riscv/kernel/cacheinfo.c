@@ -3,9 +3,9 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
+#include <peenux/acpi.h>
+#include <peenux/cpu.h>
+#include <peenux/of.h>
 #include <asm/cacheinfo.h>
 
 static struct riscv_cacheinfo_ops *rv_cache_ops;

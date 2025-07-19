@@ -2,19 +2,19 @@
 /* Copyright 2014-2016 Freescale Semiconductor Inc.
  * Copyright 2016-2022 NXP
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/etherdevice.h>
-#include <linux/of_net.h>
-#include <linux/interrupt.h>
-#include <linux/kthread.h>
-#include <linux/iommu.h>
-#include <linux/fsl/mc.h>
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
-#include <linux/fsl/ptp_qoriq.h>
-#include <linux/ptp_classify.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/etherdevice.h>
+#include <peenux/of_net.h>
+#include <peenux/interrupt.h>
+#include <peenux/kthread.h>
+#include <peenux/iommu.h>
+#include <peenux/fsl/mc.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_trace.h>
+#include <peenux/fsl/ptp_qoriq.h>
+#include <peenux/ptp_classify.h>
 #include <net/pkt_cls.h>
 #include <net/sock.h>
 #include <net/tso.h>

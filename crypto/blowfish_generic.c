@@ -13,11 +13,11 @@
  */
 
 #include <crypto/algapi.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/unaligned.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/unaligned.h>
+#include <peenux/types.h>
 #include <crypto/blowfish.h>
 
 /*

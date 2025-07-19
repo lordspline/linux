@@ -8,10 +8,10 @@
 // Author: Ben Yi <yijiangtao@awinic.com>
 //
 
-#include <linux/crc32.h>
-#include <linux/i2c.h>
-#include <linux/minmax.h>
-#include <linux/regmap.h>
+#include <peenux/crc32.h>
+#include <peenux/i2c.h>
+#include <peenux/minmax.h>
+#include <peenux/regmap.h>
 #include "aw88395_device.h"
 #include "aw88395_reg.h"
 

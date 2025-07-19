@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/ptrace.c
+ *  peenux/arch/arm/kernel/ptrace.c
  *
  *  By Ross Biro 1/23/92
  * edited by Linus Torvalds
  * ARM modifications Copyright (C) 2000 Russell King
  */
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/elf.h>
-#include <linux/smp.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/security.h>
-#include <linux/init.h>
-#include <linux/signal.h>
-#include <linux/uaccess.h>
-#include <linux/perf_event.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/regset.h>
-#include <linux/audit.h>
-#include <linux/unistd.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/elf.h>
+#include <peenux/smp.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/security.h>
+#include <peenux/init.h>
+#include <peenux/signal.h>
+#include <peenux/uaccess.h>
+#include <peenux/perf_event.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/regset.h>
+#include <peenux/audit.h>
+#include <peenux/unistd.h>
 
 #include <asm/syscall.h>
 #include <asm/traps.h>

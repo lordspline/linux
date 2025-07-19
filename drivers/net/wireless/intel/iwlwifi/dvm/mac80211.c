@@ -7,16 +7,16 @@
  * Portions of this file are derived from the ipw3945 project, as well
  * as portions of the ieee80211 subsystem header files.
  *****************************************************************************/
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_arp.h>
 
 #include <net/ieee80211_radiotap.h>
 #include <net/mac80211.h>

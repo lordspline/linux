@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _LINUX_HDREG_H
 #define _LINUX_HDREG_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /*
  * Command Header sizes for IOCTL commands

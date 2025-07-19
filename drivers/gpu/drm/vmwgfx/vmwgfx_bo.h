@@ -34,9 +34,9 @@
 #include <drm/ttm/ttm_bo.h>
 #include <drm/ttm/ttm_placement.h>
 
-#include <linux/rbtree_types.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <peenux/rbtree_types.h>
+#include <peenux/types.h>
+#include <peenux/xarray.h>
 
 struct vmw_bo_dirty;
 struct vmw_fence_obj;

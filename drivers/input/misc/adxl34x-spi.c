@@ -7,11 +7,11 @@
  * Copyright (C) 2009 Michael Hennerich, Analog Devices Inc.
  */
 
-#include <linux/input.h>	/* BUS_SPI */
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/pm.h>
-#include <linux/types.h>
+#include <peenux/input.h>	/* BUS_SPI */
+#include <peenux/module.h>
+#include <peenux/spi/spi.h>
+#include <peenux/pm.h>
+#include <peenux/types.h>
 #include "adxl34x.h"
 
 #define MAX_SPI_FREQ_HZ		5000000

@@ -6,7 +6,7 @@
 #ifndef __I9XX_WM_H__
 #define __I9XX_WM_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct intel_crtc_state;
 struct intel_display;

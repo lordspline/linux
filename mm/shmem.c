@@ -1,5 +1,5 @@
 /*
- * Resizable virtual memory filesystem for Linux.
+ * Resizable virtual memory filesystem for Peenux.
  *
  * Copyright (C) 2000 Linus Torvalds.
  *		 2000 Transmeta Corp.
@@ -21,26 +21,26 @@
  * This file is released under the GPL.
  */
 
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/vfs.h>
-#include <linux/mount.h>
-#include <linux/ramfs.h>
-#include <linux/pagemap.h>
-#include <linux/file.h>
-#include <linux/fileattr.h>
-#include <linux/mm.h>
-#include <linux/random.h>
-#include <linux/sched/signal.h>
-#include <linux/export.h>
-#include <linux/shmem_fs.h>
-#include <linux/swap.h>
-#include <linux/uio.h>
-#include <linux/hugetlb.h>
-#include <linux/fs_parser.h>
-#include <linux/swapfile.h>
-#include <linux/iversion.h>
-#include <linux/unicode.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/vfs.h>
+#include <peenux/mount.h>
+#include <peenux/ramfs.h>
+#include <peenux/pagemap.h>
+#include <peenux/file.h>
+#include <peenux/fileattr.h>
+#include <peenux/mm.h>
+#include <peenux/random.h>
+#include <peenux/sched/signal.h>
+#include <peenux/export.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/swap.h>
+#include <peenux/uio.h>
+#include <peenux/hugetlb.h>
+#include <peenux/fs_parser.h>
+#include <peenux/swapfile.h>
+#include <peenux/iversion.h>
+#include <peenux/unicode.h>
 #include "swap.h"
 
 static struct vfsmount *shm_mnt __ro_after_init;
@@ -52,37 +52,37 @@ static struct vfsmount *shm_mnt __ro_after_init;
  * which makes it a completely usable filesystem.
  */
 
-#include <linux/xattr.h>
-#include <linux/exportfs.h>
-#include <linux/posix_acl.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/mman.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/backing-dev.h>
-#include <linux/writeback.h>
-#include <linux/pagevec.h>
-#include <linux/percpu_counter.h>
-#include <linux/falloc.h>
-#include <linux/splice.h>
-#include <linux/security.h>
-#include <linux/swapops.h>
-#include <linux/mempolicy.h>
-#include <linux/namei.h>
-#include <linux/ctype.h>
-#include <linux/migrate.h>
-#include <linux/highmem.h>
-#include <linux/seq_file.h>
-#include <linux/magic.h>
-#include <linux/syscalls.h>
-#include <linux/fcntl.h>
-#include <uapi/linux/memfd.h>
-#include <linux/rmap.h>
-#include <linux/uuid.h>
-#include <linux/quotaops.h>
-#include <linux/rcupdate_wait.h>
+#include <peenux/xattr.h>
+#include <peenux/exportfs.h>
+#include <peenux/posix_acl.h>
+#include <peenux/posix_acl_xattr.h>
+#include <peenux/mman.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/backing-dev.h>
+#include <peenux/writeback.h>
+#include <peenux/pagevec.h>
+#include <peenux/percpu_counter.h>
+#include <peenux/falloc.h>
+#include <peenux/splice.h>
+#include <peenux/security.h>
+#include <peenux/swapops.h>
+#include <peenux/mempolicy.h>
+#include <peenux/namei.h>
+#include <peenux/ctype.h>
+#include <peenux/migrate.h>
+#include <peenux/highmem.h>
+#include <peenux/seq_file.h>
+#include <peenux/magic.h>
+#include <peenux/syscalls.h>
+#include <peenux/fcntl.h>
+#include <uapi/peenux/memfd.h>
+#include <peenux/rmap.h>
+#include <peenux/uuid.h>
+#include <peenux/quotaops.h>
+#include <peenux/rcupdate_wait.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "internal.h"
 

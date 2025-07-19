@@ -8,8 +8,8 @@
  *  All rights reserved.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
 #include <media/i2c/adv7604.h>
 #include <media/i2c/adv7842.h>
 #include <media/i2c/adv7511.h>

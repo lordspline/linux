@@ -6,11 +6,11 @@
 
 #ifdef CONFIG_ACPI
 
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
-#include <linux/wordpart.h>
+#include <peenux/kernel.h>
+#include <peenux/i2c.h>
+#include <peenux/dmi.h>
+#include <peenux/acpi.h>
+#include <peenux/wordpart.h>
 
 #include "inv_mpu_iio.h"
 

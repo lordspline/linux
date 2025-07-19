@@ -9,13 +9,13 @@
 #define VFIO_H
 
 
-#include <linux/iommu.h>
-#include <linux/mm.h>
-#include <linux/workqueue.h>
-#include <linux/poll.h>
-#include <linux/cdev.h>
-#include <uapi/linux/vfio.h>
-#include <linux/iova_bitmap.h>
+#include <peenux/iommu.h>
+#include <peenux/mm.h>
+#include <peenux/workqueue.h>
+#include <peenux/poll.h>
+#include <peenux/cdev.h>
+#include <uapi/peenux/vfio.h>
+#include <peenux/iova_bitmap.h>
 
 struct kvm;
 struct iommufd_ctx;

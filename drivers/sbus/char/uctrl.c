@@ -5,17 +5,17 @@
  * Copyright 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/ioport.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/ioport.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mm.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2012-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2014, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/dmaengine.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
 #include <crypto/scatterwalk.h>
 
 #include "dma.h"

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/context_tracking.h>
-#include <linux/err.h>
-#include <linux/compat.h>
-#include <linux/rseq.h>
-#include <linux/sched/debug.h> /* for show_regs */
+#include <peenux/context_tracking.h>
+#include <peenux/err.h>
+#include <peenux/compat.h>
+#include <peenux/rseq.h>
+#include <peenux/sched/debug.h> /* for show_regs */
 
 #include <asm/kup.h>
 #include <asm/cputime.h>

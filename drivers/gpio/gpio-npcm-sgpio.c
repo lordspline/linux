@@ -5,17 +5,17 @@
  * Copyright (C) 2021 Nuvoton Technologies
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/hashtable.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/hashtable.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/units.h>
 
 #define MAX_NR_HW_SGPIO		64
 

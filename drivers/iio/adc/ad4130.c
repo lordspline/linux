@@ -4,32 +4,32 @@
  * Author: Cosmin Tanislav <cosmin.tanislav@analog.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/units.h>
 
 #include <asm/div64.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/kfifo_buf.h>
+#include <peenux/iio/sysfs.h>
 
 #define AD4130_NAME				"ad4130"
 

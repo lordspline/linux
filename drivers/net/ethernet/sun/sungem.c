@@ -15,36 +15,36 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/crc32.h>
-#include <linux/random.h>
-#include <linux/workqueue.h>
-#include <linux/if_vlan.h>
-#include <linux/bitops.h>
-#include <linux/mm.h>
-#include <linux/gfp.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/in.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/crc32.h>
+#include <peenux/random.h>
+#include <peenux/workqueue.h>
+#include <peenux/if_vlan.h>
+#include <peenux/bitops.h>
+#include <peenux/mm.h>
+#include <peenux/gfp.h>
+#include <peenux/of.h>
 
 #include <asm/io.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/irq.h>
 
 #ifdef CONFIG_SPARC
@@ -57,7 +57,7 @@
 #include <asm/pmac_feature.h>
 #endif
 
-#include <linux/sungem_phy.h>
+#include <peenux/sungem_phy.h>
 #include "sungem.h"
 
 #define STRIP_FCS

@@ -29,17 +29,17 @@
  *   will only change the period if no other PWM output is enabled.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/ktime.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/ktime.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
 
 #define MCHPCOREPWM_PRESCALE_MAX	0xff
 #define MCHPCOREPWM_PERIOD_STEPS_MAX	0xfe

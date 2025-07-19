@@ -9,16 +9,16 @@
  * published by the Free Software Foundation.
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/timer.h>
 
 /*
  * HW_ID1 Register (PAGE=0, ADDR=0x0E, Reset value=0x02, Read only)

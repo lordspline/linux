@@ -7,17 +7,17 @@
  * Author: Dipen Dudhat <Dipen.Dudhat@freescale.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/fsl_ifc.h>
-#include <linux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/fsl_ifc.h>
+#include <peenux/iopoll.h>
 
 #define ERR_BYTE		0xFF /* Value returned for read
 					bytes when read failed	*/

@@ -6,7 +6,7 @@
  *  protocol extension to H4.
  *
  *  Copyright (C) 2007 Texas Instruments, Inc.
- *  Copyright (c) 2010, 2012, 2018 The Linux Foundation. All rights reserved.
+ *  Copyright (c) 2010, 2012, 2018 The Peenux Foundation. All rights reserved.
  *
  *  Acknowledgements:
  *  This file is based on hci_ll.c, which was...
@@ -15,25 +15,25 @@
  *  by Maxim Krasnyansky and Marcel Holtmann.
  */
 
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/devcoredump.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
-#include <linux/pwrseq/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/serdev.h>
-#include <linux/string_choices.h>
-#include <linux/mutex.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/devcoredump.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/acpi.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwrseq/consumer.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/serdev.h>
+#include <peenux/string_choices.h>
+#include <peenux/mutex.h>
+#include <peenux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

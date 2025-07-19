@@ -30,21 +30,21 @@
 ======================================================================*/
 
 
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/major.h>
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/major.h>
+#include <peenux/fs.h>
+#include <peenux/ioctl.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 
-#include <linux/mtd/mtd.h>
+#include <peenux/mtd/mtd.h>
 
 #define SLRAM_MAX_DEVICES_PARAMS 6		/* 3 parameters / device */
 #define SLRAM_BLK_SZ 0x4000

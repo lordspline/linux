@@ -6,16 +6,16 @@
  * Copyright 2019 Google LLC
  */
 
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_data/cros_ec_sensorhub.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_data/cros_ec_sensorhub.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #define DRV_NAME		"cros-ec-sensorhub"
 

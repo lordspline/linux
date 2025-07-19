@@ -5,14 +5,14 @@
  * Copyright (C) 2022-2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/platform_device.h>
+#include <peenux/bitops.h>
 #include <asm/types.h>
 
 enum loongson_gpio_mode {

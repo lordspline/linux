@@ -3,11 +3,11 @@
  * Copyright (C) 2021 Western Digital Corporation or its affiliates.
  */
 
-#include <linux/blkdev.h>
-#include <linux/mm.h>
-#include <linux/sched/mm.h>
-#include <linux/slab.h>
-#include <linux/bitmap.h>
+#include <peenux/blkdev.h>
+#include <peenux/mm.h>
+#include <peenux/sched/mm.h>
+#include <peenux/slab.h>
+#include <peenux/bitmap.h>
 
 #include "dm-core.h"
 

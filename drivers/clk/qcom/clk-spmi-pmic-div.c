@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2017, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2017, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #define REG_DIV_CTL1			0x43
 #define DIV_CTL1_DIV_FACTOR_MASK	GENMASK(2, 0)

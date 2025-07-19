@@ -19,15 +19,15 @@
  * - Fix more bugs.
  */
 
-#include <linux/eisa.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/kernel_stat.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
+#include <peenux/eisa.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/mipsregs.h>

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: (GPL-2.0+ OR BSD-3-Clause)
 /* Copyright 2017-2019 NXP */
 
-#include <linux/unaligned.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_net.h>
-#include <linux/pcs-lynx.h>
+#include <peenux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_net.h>
+#include <peenux/pcs-lynx.h>
 #include "enetc_ierb.h"
 #include "enetc_pf_common.h"
 

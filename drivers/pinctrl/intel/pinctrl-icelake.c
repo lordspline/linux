@@ -3,16 +3,16 @@
  * Intel Ice Lake PCH pinctrl/GPIO driver
  *
  * Copyright (C) 2018, 2022 Intel Corporation
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
- *	    Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
+ *	    Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
+#include <peenux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
 
-#include <linux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinctrl.h>
 
 #include "pinctrl-intel.h"
 
@@ -686,8 +686,8 @@ static struct platform_driver icl_pinctrl_driver = {
 };
 module_platform_driver(icl_pinctrl_driver);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
-MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@peenux.intel.com>");
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@peenux.intel.com>");
 MODULE_DESCRIPTION("Intel Ice Lake PCH pinctrl/GPIO driver");
 MODULE_LICENSE("GPL v2");
 MODULE_IMPORT_NS("PINCTRL_INTEL");

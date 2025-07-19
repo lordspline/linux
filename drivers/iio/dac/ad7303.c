@@ -5,17 +5,17 @@
  * Copyright 2013 Analog Devices Inc.
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/kernel.h>
+#include <peenux/spi/spi.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define AD7303_CFG_EXTERNAL_VREF BIT(15)
 #define AD7303_CFG_POWER_DOWN(ch) BIT(11 + (ch))

@@ -23,13 +23,13 @@
  *	console=uart8250,mmio32,0xff5e0000,115200n8
  */
 
-#include <linux/tty.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/of.h>
-#include <linux/serial_reg.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
+#include <peenux/tty.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/of.h>
+#include <peenux/serial_reg.h>
+#include <peenux/serial.h>
+#include <peenux/serial_8250.h>
 #include <asm/io.h>
 #include <asm/serial.h>
 

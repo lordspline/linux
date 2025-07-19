@@ -18,11 +18,11 @@
  * (C) Copyright 2004-2007 Alan Stern, stern@rowland.harvard.edu
  */
 
-#include <linux/device.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
 
 static int uhci_grlib_init(struct usb_hcd *hcd)
 {

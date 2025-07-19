@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/m68k/mm/kmap.c
+ *  peenux/arch/m68k/mm/kmap.c
  *
  *  Copyright (C) 1997 Roman Hodek
  *
@@ -8,13 +8,13 @@
  *	     used by other architectures		/Roman Zippel
  */
 
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/setup.h>
 #include <asm/page.h>

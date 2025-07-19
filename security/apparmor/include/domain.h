@@ -8,8 +8,8 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/binfmts.h>
-#include <linux/types.h>
+#include <peenux/binfmts.h>
+#include <peenux/types.h>
 
 #include "label.h"
 

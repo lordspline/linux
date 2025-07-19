@@ -3,8 +3,8 @@
  * Copyright (c) 2023 Ventana Micro Systems Inc.
  */
 
-#include <linux/linkage.h>
-#include <linux/export.h>
+#include <peenux/linkage.h>
+#include <peenux/export.h>
 #include <asm/asm.h>
 #include <asm/alternative-macros.h>
 #include <asm/hwcap.h>

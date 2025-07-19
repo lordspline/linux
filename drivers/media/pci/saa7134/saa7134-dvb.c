@@ -10,13 +10,13 @@
 #include "saa7134.h"
 #include "saa7134-reg.h"
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/suspend.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/suspend.h>
 
 #include <media/v4l2-common.h>
 #include "dvb-pll.h"

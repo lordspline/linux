@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) "gpiolib: swnode: " fmt
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/property.h>
-#include <linux/string.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/printk.h>
+#include <peenux/property.h>
+#include <peenux/string.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
 
 #include "gpiolib.h"
 #include "gpiolib-swnode.h"

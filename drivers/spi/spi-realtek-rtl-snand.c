@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <peenux/completion.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi-mem.h>
 
 #define SNAFCFR 0x00
 #define   SNAFCFR_DMA_IE BIT(20)

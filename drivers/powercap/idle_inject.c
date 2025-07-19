@@ -37,15 +37,15 @@
  */
 #define pr_fmt(fmt) "ii_dev: " fmt
 
-#include <linux/cpu.h>
-#include <linux/hrtimer.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/smpboot.h>
-#include <linux/idle_inject.h>
+#include <peenux/cpu.h>
+#include <peenux/hrtimer.h>
+#include <peenux/kthread.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/smpboot.h>
+#include <peenux/idle_inject.h>
 
-#include <uapi/linux/sched/types.h>
+#include <uapi/peenux/sched/types.h>
 
 /**
  * struct idle_inject_thread - task on/off switch structure

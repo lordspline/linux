@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2016-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016-2019 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2023, Linaro Ltd.
  * Author: Casey Connolly <casey.connolly@linaro.org>
  *
@@ -8,20 +8,20 @@
  * hardware found in pmi8998 and related PMICs.
  */
 
-#include <linux/bits.h>
-#include <linux/devm-helpers.h>
-#include <linux/iio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/of.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/bits.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/of.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 /* clang-format off */
 #define BATTERY_CHARGER_STATUS_1			0x06

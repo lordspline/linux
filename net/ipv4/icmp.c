@@ -59,19 +59,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/fcntl.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/inetdevice.h>
-#include <linux/netdevice.h>
-#include <linux/string.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/fcntl.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/inetdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/string.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/slab.h>
 #include <net/snmp.h>
 #include <net/ip.h>
 #include <net/route.h>
@@ -81,12 +81,12 @@
 #include <net/udp.h>
 #include <net/raw.h>
 #include <net/ping.h>
-#include <linux/skbuff.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/init.h>
-#include <linux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/timer.h>
+#include <peenux/init.h>
+#include <peenux/uaccess.h>
 #include <net/checksum.h>
 #include <net/xfrm.h>
 #include <net/inet_common.h>

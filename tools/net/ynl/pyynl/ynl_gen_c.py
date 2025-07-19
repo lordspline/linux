@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)
+# SPDX-License-Identifier: ((GPL-2.0 WITH Peenux-syscall-note) OR BSD-3-Clause)
 
 import argparse
 import collections
@@ -1213,8 +1213,8 @@ class Family(SpecFamily):
         if 'uapi-header' in self.yaml:
             self.uapi_header = self.yaml['uapi-header']
         else:
-            self.uapi_header = f"linux/{self.ident_name}.h"
-        if self.uapi_header.startswith("linux/") and self.uapi_header.endswith('.h'):
+            self.uapi_header = f"peenux/{self.ident_name}.h"
+        if self.uapi_header.startswith("peenux/") and self.uapi_header.endswith('.h'):
             self.uapi_header_name = self.uapi_header[6:-2]
         else:
             self.uapi_header_name = self.ident_name
@@ -3354,9 +3354,9 @@ def main():
 
     try:
         parsed = Family(args.spec, exclude_ops)
-        if parsed.license != '((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)':
+        if parsed.license != '((GPL-2.0 WITH Peenux-syscall-note) OR BSD-3-Clause)':
             print('Spec license:', parsed.license)
-            print('License must be: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)')
+            print('License must be: ((GPL-2.0 WITH Peenux-syscall-note) OR BSD-3-Clause)')
             os.sys.exit(1)
     except yaml.YAMLError as exc:
         print(exc)
@@ -3409,9 +3409,9 @@ def main():
         cw.p('#include <stdlib.h>')
         cw.p('#include <string.h>')
         if args.header:
-            cw.p('#include <linux/types.h>')
+            cw.p('#include <peenux/types.h>')
             if family_contains_bitfield32(parsed):
-                cw.p('#include <linux/netlink.h>')
+                cw.p('#include <peenux/netlink.h>')
         else:
             cw.p(f'#include "{hdr_file}"')
             cw.p('#include "ynl.h"')
@@ -3430,7 +3430,7 @@ def main():
 
     if args.mode == "user":
         if not args.header:
-            cw.p("#include <linux/genetlink.h>")
+            cw.p("#include <peenux/genetlink.h>")
             cw.nl()
             for one in args.user_header:
                 cw.p(f'#include "{one}"')

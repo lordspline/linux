@@ -3,11 +3,11 @@
 // Copyright (c) 2010-2024 Analog Devices Inc.
 // Copyright (c) 2024 Baylibre, SAS
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
 
 #include "ad3552r.h"
 

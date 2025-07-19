@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/fixp-arith.h>
-#include <linux/iio/adc/qcom-vadc-common.h>
-#include <linux/math64.h>
-#include <linux/log2.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/units.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/fixp-arith.h>
+#include <peenux/iio/adc/qcom-vadc-common.h>
+#include <peenux/math64.h>
+#include <peenux/log2.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/units.h>
 
 /**
  * struct vadc_map_pt - Map the graph representation for ADC channel

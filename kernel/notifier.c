@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kdebug.h>
-#include <linux/kprobes.h>
-#include <linux/export.h>
-#include <linux/notifier.h>
-#include <linux/rcupdate.h>
-#include <linux/vmalloc.h>
+#include <peenux/kdebug.h>
+#include <peenux/kprobes.h>
+#include <peenux/export.h>
+#include <peenux/notifier.h>
+#include <peenux/rcupdate.h>
+#include <peenux/vmalloc.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/notifier.h>

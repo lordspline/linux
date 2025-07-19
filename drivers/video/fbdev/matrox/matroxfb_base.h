@@ -26,25 +26,25 @@
 /* Guard accelerator accesses with spin_lock_irqsave... */
 #undef MATROXFB_USE_SPINLOCKS
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/console.h>
-#include <linux/selection.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/timer.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/kd.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/console.h>
+#include <peenux/selection.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/timer.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/kd.h>
 
 #include <asm/io.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #if defined(CONFIG_PPC_PMAC)
 #include "../macmodes.h"

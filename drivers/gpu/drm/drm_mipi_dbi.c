@@ -5,13 +5,13 @@
  * Copyright 2016 Noralf Trønnes
  */
 
-#include <linux/backlight.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/backlight.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
 #include <drm/drm_connector.h>
 #include <drm/drm_damage_helper.h>

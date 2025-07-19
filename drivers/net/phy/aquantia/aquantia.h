@@ -9,8 +9,8 @@
 #ifndef AQUANTIA_H
 #define AQUANTIA_H
 
-#include <linux/device.h>
-#include <linux/phy.h>
+#include <peenux/device.h>
+#include <peenux/phy.h>
 
 /* Vendor specific 1, MDIO_MMD_VEND1 */
 #define VEND1_GLOBAL_SC				0x0

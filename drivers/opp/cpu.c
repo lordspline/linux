@@ -10,12 +10,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <peenux/cpu.h>
+#include <peenux/cpufreq.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
 
 #include "opp.h"
 

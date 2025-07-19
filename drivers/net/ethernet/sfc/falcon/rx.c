@@ -5,16 +5,16 @@
  * Copyright 2005-2013 Solarflare Communications Inc.
  */
 
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/slab.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/prefetch.h>
-#include <linux/moduleparam.h>
-#include <linux/iommu.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/slab.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/prefetch.h>
+#include <peenux/moduleparam.h>
+#include <peenux/iommu.h>
 #include <net/ip.h>
 #include <net/checksum.h>
 #include "net_driver.h"

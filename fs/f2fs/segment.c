@@ -5,18 +5,18 @@
  * Copyright (c) 2012 Samsung Electronics Co., Ltd.
  *             http://www.samsung.com/
  */
-#include <linux/fs.h>
-#include <linux/f2fs_fs.h>
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/sched/mm.h>
-#include <linux/prefetch.h>
-#include <linux/kthread.h>
-#include <linux/swap.h>
-#include <linux/timer.h>
-#include <linux/freezer.h>
-#include <linux/sched/signal.h>
-#include <linux/random.h>
+#include <peenux/fs.h>
+#include <peenux/f2fs_fs.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/sched/mm.h>
+#include <peenux/prefetch.h>
+#include <peenux/kthread.h>
+#include <peenux/swap.h>
+#include <peenux/timer.h>
+#include <peenux/freezer.h>
+#include <peenux/sched/signal.h>
+#include <peenux/random.h>
 
 #include "f2fs.h"
 #include "segment.h"

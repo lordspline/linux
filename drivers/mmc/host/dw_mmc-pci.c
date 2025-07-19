@@ -5,15 +5,15 @@
  * Copyright (C) 2012 Vayavya Labs Pvt. Ltd.
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
 #include "dw_mmc.h"
 
 #define PCI_BAR_NO 2

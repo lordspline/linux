@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/net/ethernet/ibm/ehea/ehea_main.c
+ *  peenux/drivers/net/ethernet/ibm/ehea/ehea_main.c
  *
  *  eHEA ethernet device driver for IBM eServer System p
  *
@@ -14,24 +14,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/if.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/if_ether.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/memory.h>
+#include <peenux/device.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/if.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/if_ether.h>
+#include <peenux/notifier.h>
+#include <peenux/reboot.h>
+#include <peenux/memory.h>
 #include <asm/kexec.h>
-#include <linux/mutex.h>
-#include <linux/prefetch.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
+#include <peenux/mutex.h>
+#include <peenux/prefetch.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
 
 #include <net/ip.h>
 

@@ -7,15 +7,15 @@
  * Based on rtc-pxa.c
  */
 
-#include <linux/module.h>
-#include <linux/rtc.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/bcd.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/bcd.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
 /*
  * Register definitions

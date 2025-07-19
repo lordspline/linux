@@ -16,12 +16,12 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
+#include <peenux/init.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task.h>
 
 #include <asm/processor.h>
 #include <asm/mmu_context.h>

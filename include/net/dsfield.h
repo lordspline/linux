@@ -7,9 +7,9 @@
 #ifndef __NET_DSFIELD_H
 #define __NET_DSFIELD_H
 
-#include <linux/types.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <peenux/types.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
 #include <asm/byteorder.h>
 
 

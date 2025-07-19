@@ -5,19 +5,19 @@
  * Copyright (C) 2024 Serge Semin
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mdio.h>
-#include <linux/module.h>
-#include <linux/pcs/pcs-xpcs.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/sizes.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/mdio.h>
+#include <peenux/module.h>
+#include <peenux/pcs/pcs-xpcs.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/sizes.h>
 
 #include "pcs-xpcs.h"
 

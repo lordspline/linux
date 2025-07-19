@@ -15,19 +15,19 @@
 
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/if_arp.h>
-#include <linux/etherdevice.h>
-#include <linux/firmware.h>
-#include <linux/workqueue.h>
-#include <linux/sched/signal.h>
-#include <linux/skbuff.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/if_arp.h>
+#include <peenux/etherdevice.h>
+#include <peenux/firmware.h>
+#include <peenux/workqueue.h>
+#include <peenux/sched/signal.h>
+#include <peenux/skbuff.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
 #include <net/dst.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "b43legacy.h"
 #include "main.h"

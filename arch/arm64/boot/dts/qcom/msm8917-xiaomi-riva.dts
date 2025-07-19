@@ -73,7 +73,7 @@
 
 		key-volup {
 			label = "Volume Up";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			gpios = <&tlmm 91 GPIO_ACTIVE_LOW>;
 			debounce-interval = <15>;
 		};
@@ -157,7 +157,7 @@
 };
 
 &pm8937_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	peenux,code = <KEY_VOLUMEDOWN>;
 
 	status = "okay";
 };

@@ -7,15 +7,15 @@
  * Author: Darrick J. Wong <darrick.wong@oracle.com>
  */
 
-#include <linux/module.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/log2.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/log2.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define DRVNAME "i5k_amb"
 

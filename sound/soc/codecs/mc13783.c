@@ -7,18 +7,18 @@
  * Initial development of this code was funded by
  * Phytec Messtechnik GmbH, https://www.phytec.de
  */
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/mfd/mc13xxx.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/mfd/mc13xxx.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 #include <sound/initval.h>
 #include <sound/soc-dapm.h>
-#include <linux/regmap.h>
+#include <peenux/regmap.h>
 
 #include "mc13783.h"
 

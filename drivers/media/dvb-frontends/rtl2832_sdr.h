@@ -11,7 +11,7 @@
 #ifndef RTL2832_SDR_H
 #define RTL2832_SDR_H
 
-#include <linux/i2c.h>
+#include <peenux/i2c.h>
 #include <media/v4l2-subdev.h>
 #include <media/dvb_frontend.h>
 

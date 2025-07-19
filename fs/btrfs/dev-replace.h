@@ -6,8 +6,8 @@
 #ifndef BTRFS_DEV_REPLACE_H
 #define BTRFS_DEV_REPLACE_H
 
-#include <linux/types.h>
-#include <linux/compiler_types.h>
+#include <peenux/types.h>
+#include <peenux/compiler_types.h>
 
 struct btrfs_ioctl_dev_replace_args;
 struct btrfs_fs_info;

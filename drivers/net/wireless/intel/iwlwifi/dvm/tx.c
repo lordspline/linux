@@ -6,10 +6,10 @@
  * Copyright (C) 2023, 2025 Intel Corporation
  *****************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/ieee80211.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/ieee80211.h>
 #include "iwl-io.h"
 #include "iwl-trans.h"
 #include "iwl-agn-hw.h"

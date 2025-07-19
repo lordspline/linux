@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2013, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2013, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/pm.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/pm.h>
 
 static void __iomem *msm_ps_hold;
 

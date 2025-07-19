@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/export.h>
-#include <linux/limits.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
+#include <peenux/export.h>
+#include <peenux/limits.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
 
 #include <drm/drm_print.h>
 

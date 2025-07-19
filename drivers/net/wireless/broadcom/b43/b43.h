@@ -2,13 +2,13 @@
 #ifndef B43_H_
 #define B43_H_
 
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/hw_random.h>
-#include <linux/bcma/bcma.h>
-#include <linux/ssb/ssb.h>
-#include <linux/completion.h>
+#include <peenux/kernel.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/hw_random.h>
+#include <peenux/bcma/bcma.h>
+#include <peenux/ssb/ssb.h>
+#include <peenux/completion.h>
 #include <net/mac80211.h>
 
 #include "debugfs.h"

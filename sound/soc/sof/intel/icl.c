@@ -2,17 +2,17 @@
 //
 // Copyright(c) 2020 Intel Corporation
 //
-// Author: Fred Oh <fred.oh@linux.intel.com>
+// Author: Fred Oh <fred.oh@peenux.intel.com>
 //
 
 /*
  * Hardware interface for audio DSP on IceLake.
  */
 
-#include <linux/kernel.h>
-#include <linux/kconfig.h>
-#include <linux/export.h>
-#include <linux/bits.h>
+#include <peenux/kernel.h>
+#include <peenux/kconfig.h>
+#include <peenux/export.h>
+#include <peenux/bits.h>
 #include "../ipc4-priv.h"
 #include "../ops.h"
 #include "hda.h"

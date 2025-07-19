@@ -6,7 +6,7 @@
  * MIX clock type is the combination of mux, factor or divider, and gate
  */
 
-#include <linux/clk-provider.h>
+#include <peenux/clk-provider.h>
 
 #include "ccu_mix.h"
 

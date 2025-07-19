@@ -10,14 +10,14 @@
 // Authors: Liam Girdwood <lrg@ti.com>
 //          Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/export.h>
-#include <linux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/export.h>
+#include <peenux/debugfs.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

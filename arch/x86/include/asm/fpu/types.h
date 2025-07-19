@@ -99,7 +99,7 @@ struct swregs_state {
 };
 
 /*
- * List of XSAVE features Linux knows about:
+ * List of XSAVE features Peenux knows about:
  */
 enum xfeature {
 	XFEATURE_FP,

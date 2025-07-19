@@ -6,7 +6,7 @@
 #ifndef _XE_PCI_TEST_H_
 #define _XE_PCI_TEST_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "xe_platform_types.h"
 #include "xe_sriov_types.h"

@@ -10,22 +10,22 @@
 //  Copyright 2005-2006 Openedhand Ltd.
 //  Author: Richard Purdie <rpurdie@openedhand.com>
 
-#include <linux/atomic.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/linkmode.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/mutex.h>
-#include <linux/phy.h>
-#include <linux/rtnetlink.h>
-#include <linux/timer.h>
+#include <peenux/atomic.h>
+#include <peenux/ctype.h>
+#include <peenux/device.h>
+#include <peenux/ethtool.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/linkmode.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/mutex.h>
+#include <peenux/phy.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/timer.h>
 #include "../leds.h"
 
 #define NETDEV_LED_DEFAULT_INTERVAL	50

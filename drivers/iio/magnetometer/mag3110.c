@@ -9,16 +9,16 @@
  * TODO: irq, user offset, oversampling, continuous mode
  */
 
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/cleanup.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/delay.h>
+#include <peenux/regulator/consumer.h>
 
 #define MAG3110_STATUS 0x00
 #define MAG3110_OUT_X 0x01 /* MSB first */

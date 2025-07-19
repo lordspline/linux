@@ -63,9 +63,9 @@
  *
  */
 
-#include <linux/highmem.h>
-#include <linux/log2.h>
-#include <linux/nospec.h>
+#include <peenux/highmem.h>
+#include <peenux/log2.h>
+#include <peenux/nospec.h>
 
 #include <drm/drm_cache.h>
 #include <drm/drm_syncobj.h>

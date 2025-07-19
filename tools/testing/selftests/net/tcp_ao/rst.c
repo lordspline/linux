@@ -23,7 +23,7 @@
  * Author: Dmitry Safonov <dima@arista.com>
  */
 #include <inttypes.h>
-#include "../../../../include/linux/kernel.h"
+#include "../../../../include/peenux/kernel.h"
 #include "aolib.h"
 
 const size_t quota = 1000;

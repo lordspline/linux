@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/fsnotify.h>
-#include <linux/namei.h>
-#include <linux/pipe_fs_i.h>
-#include <linux/watch_queue.h>
-#include <linux/io_uring.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/fdtable.h>
+#include <peenux/fsnotify.h>
+#include <peenux/namei.h>
+#include <peenux/pipe_fs_i.h>
+#include <peenux/watch_queue.h>
+#include <peenux/io_uring.h>
 
-#include <uapi/linux/io_uring.h>
+#include <uapi/peenux/io_uring.h>
 
 #include "../fs/internal.h"
 

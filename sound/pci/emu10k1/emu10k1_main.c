@@ -8,21 +8,21 @@
  *  Routines for control of EMU10K1 chips
  */
 
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/iommu.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mutex.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/iommu.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mutex.h>
 
 
 #include <sound/core.h>
 #include <sound/emu10k1.h>
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 #include "p16v.h"
 #include "tina2.h"
 #include "p17v.h"

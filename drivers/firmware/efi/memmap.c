@@ -5,12 +5,12 @@
 
 #define pr_fmt(fmt) "efi: " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/efi.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/efi.h>
+#include <peenux/io.h>
+#include <peenux/memblock.h>
+#include <peenux/slab.h>
 
 #include <asm/early_ioremap.h>
 #include <asm/efi.h>

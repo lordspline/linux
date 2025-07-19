@@ -13,19 +13,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/mutex.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/sysfs.h>
+#include <peenux/hwmon.h>
+#include <peenux/mutex.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/spi/spi.h>
+#include <peenux/slab.h>
 
 #define DRVNAME		"lm70"
 
@@ -214,5 +214,5 @@ static struct spi_driver lm70_driver = {
 module_spi_driver(lm70_driver);
 
 MODULE_AUTHOR("Kaiwan N Billimoria");
-MODULE_DESCRIPTION("NS LM70 and compatibles Linux driver");
+MODULE_DESCRIPTION("NS LM70 and compatibles Peenux driver");
 MODULE_LICENSE("GPL");

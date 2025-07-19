@@ -9,12 +9,12 @@
  * by Yu Liu <yu.liu@freescale.com>.
  */
 
-#include <linux/kvm_host.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
+#include <peenux/kvm_host.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
 
 #include <asm/reg.h>
 #include <asm/cputable.h>
@@ -95,7 +95,7 @@ void kvmppc_e500_tlbil_all(struct kvmppc_vcpu_e500 *vcpu_e500)
 	mtspr(SPRN_MAS5, MAS5_SGS | get_lpid(&vcpu_e500->vcpu));
 	/*
 	 * clang-17 and older could not assemble tlbilxlpid.
-	 * https://github.com/ClangBuiltLinux/linux/issues/1891
+	 * https://github.com/ClangBuiltLinux/peenux/issues/1891
 	 */
 	asm volatile (PPC_TLBILX_LPID);
 	mtspr(SPRN_MAS5, 0);

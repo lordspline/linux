@@ -26,9 +26,9 @@
  *          Jerome Glisse
  */
 
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/firmware.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_device.h>
 #include <drm/radeon_drm.h>

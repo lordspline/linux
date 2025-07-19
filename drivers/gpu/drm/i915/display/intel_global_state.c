@@ -3,8 +3,8 @@
  * Copyright © 2020 Intel Corporation
  */
 
-#include <linux/pci.h>
-#include <linux/string.h>
+#include <peenux/pci.h>
+#include <peenux/string.h>
 
 #include <drm/drm_print.h>
 

@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/pinctrl/pinmux-xway.c
- *  based on linux/drivers/pinctrl/pinmux-pxa910.c
+ *  peenux/drivers/pinctrl/pinmux-xway.c
+ *  based on peenux/drivers/pinctrl/pinmux-pxa910.c
  *
  *  Copyright (C) 2012 John Crispin <john@phrozen.org>
  *  Copyright (C) 2015 Martin Schiller <mschiller@tdt.de>
  */
 
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #include "pinctrl-lantiq.h"
 

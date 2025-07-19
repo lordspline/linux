@@ -6,9 +6,9 @@
 #define KMSG_COMPONENT "cpacf"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/cpu.h>
-#include <linux/device.h>
-#include <linux/sysfs.h>
+#include <peenux/cpu.h>
+#include <peenux/device.h>
+#include <peenux/sysfs.h>
 #include <asm/cpacf.h>
 
 #define CPACF_QUERY(name, instruction)						\

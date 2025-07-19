@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/sound/pxa2xx-ac97.c -- AC97 support for the Intel PXA2xx chip.
+ * peenux/sound/pxa2xx-ac97.c -- AC97 support for the Intel PXA2xx chip.
  *
  * Author:	Nicolas Pitre
  * Created:	Dec 02, 2004
  * Copyright:	MontaVista Software Inc.
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>
@@ -21,7 +21,7 @@
 #include <sound/pxa2xx-lib.h>
 #include <sound/dmaengine_pcm.h>
 
-#include <linux/platform_data/asoc-pxa.h>
+#include <peenux/platform_data/asoc-pxa.h>
 
 static void pxa2xx_ac97_legacy_reset(struct snd_ac97 *ac97)
 {

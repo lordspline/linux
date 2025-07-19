@@ -8,13 +8,13 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/mbus.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/mbus.h>
 #include <asm/mach/pci.h>
 #include <plat/pcie.h>
 #include <plat/addr-map.h>
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 /*
  * PCIe unit register offsets.

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/namei.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/seq_file.h>
-#include <linux/xattr.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/namei.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/posix_acl_xattr.h>
+#include <peenux/seq_file.h>
+#include <peenux/xattr.h>
 #include "overlayfs.h"
 #include "params.h"
 

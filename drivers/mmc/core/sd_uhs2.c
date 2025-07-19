@@ -20,14 +20,14 @@
  *
  * Support for SD UHS-II cards
  */
-#include <linux/err.h>
-#include <linux/pm_runtime.h>
+#include <peenux/err.h>
+#include <peenux/pm_runtime.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/sd_uhs2.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
+#include <peenux/mmc/sd_uhs2.h>
 
 #include "card.h"
 #include "core.h"

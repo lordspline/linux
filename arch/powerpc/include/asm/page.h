@@ -7,9 +7,9 @@
  */
 
 #ifndef __ASSEMBLY__
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/bug.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/bug.h>
 #else
 #include <asm/types.h>
 #endif

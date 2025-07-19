@@ -7,21 +7,21 @@
 #ifndef _QED_IF_H
 #define _QED_IF_H
 
-#include <linux/ethtool.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/skbuff.h>
+#include <peenux/ethtool.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/skbuff.h>
 #include <asm/byteorder.h>
-#include <linux/io.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/qed/common_hsi.h>
-#include <linux/qed/qed_chain.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/io.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/qed/common_hsi.h>
+#include <peenux/qed/qed_chain.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 #include <net/devlink.h>
 
 #define QED_TX_SWS_TIMER_DFLT  500

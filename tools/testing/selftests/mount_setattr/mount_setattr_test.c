@@ -18,7 +18,7 @@
 #include <grp.h>
 #include <stdbool.h>
 #include <stdarg.h>
-#include <linux/mount.h>
+#include <peenux/mount.h>
 
 #include "../filesystems/wrappers.h"
 #include "../kselftest_harness.h"

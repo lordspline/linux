@@ -48,24 +48,24 @@
  * the output mode.  This driver does not change the output mode setting.
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/watchdog.h>
-#include <linux/miscdevice.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/watchdog.h>
+#include <peenux/miscdevice.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
 #include <asm/div64.h>
 #include <asm/mpc52xx.h>
 

@@ -5,11 +5,11 @@
  * Author: Christian Marangi <ansuelsmth@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
+#include <peenux/bitfield.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy.h>
 
 #define VEND1_GLB_REG_CPU_RESET_ADDR_LO_BASEADDR 0x3
 #define VEND1_GLB_REG_CPU_RESET_ADDR_HI_BASEADDR 0x4

@@ -5,10 +5,10 @@
  * Copyright (C) 2023, Jagath Jog J <jagathjog1996@gmail.com>
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
 
 #include "bmi323.h"
 

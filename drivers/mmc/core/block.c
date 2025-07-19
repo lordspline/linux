@@ -18,39 +18,39 @@
  * Author:  Andrew Christian
  *          28 May 2002
  */
-#include <linux/moduleparam.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/hdreg.h>
-#include <linux/kdev_t.h>
-#include <linux/kref.h>
-#include <linux/blkdev.h>
-#include <linux/cdev.h>
-#include <linux/mutex.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
-#include <linux/string_helpers.h>
-#include <linux/delay.h>
-#include <linux/capability.h>
-#include <linux/compat.h>
-#include <linux/pm_runtime.h>
-#include <linux/idr.h>
-#include <linux/debugfs.h>
-#include <linux/rpmb.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/hdreg.h>
+#include <peenux/kdev_t.h>
+#include <peenux/kref.h>
+#include <peenux/blkdev.h>
+#include <peenux/cdev.h>
+#include <peenux/mutex.h>
+#include <peenux/scatterlist.h>
+#include <peenux/string.h>
+#include <peenux/string_helpers.h>
+#include <peenux/delay.h>
+#include <peenux/capability.h>
+#include <peenux/compat.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/idr.h>
+#include <peenux/debugfs.h>
+#include <peenux/rpmb.h>
 
-#include <linux/mmc/ioctl.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
+#include <peenux/mmc/ioctl.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
 
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
+#include <peenux/uaccess.h>
+#include <peenux/unaligned.h>
 
 #include "queue.h"
 #include "block.h"
@@ -1035,7 +1035,7 @@ static int mmc_sd_num_wr_blocks(struct mmc_card *card, u32 *written_blocks)
 		 * Normally, ACMD22 returns the number of written sectors as
 		 * u32. SDUC, however, returns it as u64.  This is not a
 		 * superfluous requirement, because SDUC writes may exceed 2TB.
-		 * For Linux mmc however, the previously write operation could
+		 * For Peenux mmc however, the previously write operation could
 		 * not be more than the block layer limits, thus just make room
 		 * for a u64 and cast the response back to u32.
 		 */

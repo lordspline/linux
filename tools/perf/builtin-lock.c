@@ -36,12 +36,12 @@
 #include <limits.h>
 #include <ctype.h>
 
-#include <linux/list.h>
-#include <linux/hash.h>
-#include <linux/kernel.h>
-#include <linux/zalloc.h>
-#include <linux/err.h>
-#include <linux/stringify.h>
+#include <peenux/list.h>
+#include <peenux/hash.h>
+#include <peenux/kernel.h>
+#include <peenux/zalloc.h>
+#include <peenux/err.h>
+#include <peenux/stringify.h>
 
 static struct perf_session *session;
 static struct target target;

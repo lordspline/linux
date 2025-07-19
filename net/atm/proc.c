@@ -9,26 +9,26 @@
  * the reader.
  */
 
-#include <linux/module.h> /* for EXPORT_SYMBOL */
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/errno.h>
-#include <linux/atm.h>
-#include <linux/atmdev.h>
-#include <linux/netdevice.h>
-#include <linux/atmclip.h>
-#include <linux/init.h> /* for __init */
-#include <linux/slab.h>
+#include <peenux/module.h> /* for EXPORT_SYMBOL */
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/stat.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/errno.h>
+#include <peenux/atm.h>
+#include <peenux/atmdev.h>
+#include <peenux/netdevice.h>
+#include <peenux/atmclip.h>
+#include <peenux/init.h> /* for __init */
+#include <peenux/slab.h>
 #include <net/net_namespace.h>
 #include <net/atmclip.h>
-#include <linux/uaccess.h>
-#include <linux/param.h> /* for HZ */
-#include <linux/atomic.h>
+#include <peenux/uaccess.h>
+#include <peenux/param.h> /* for HZ */
+#include <peenux/atomic.h>
 #include "resources.h"
 #include "common.h" /* atm_proc_init prototype */
 #include "signaling.h" /* to get sigd - ugly too */

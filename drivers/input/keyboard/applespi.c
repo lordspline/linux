@@ -41,23 +41,23 @@
  * consecutive packets.
  */
 
-#include <linux/acpi.h>
-#include <linux/crc16.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/efi.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/ktime.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/spi/spi.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/crc16.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/efi.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/ktime.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/spi/spi.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
 #include <asm/barrier.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define CREATE_TRACE_POINTS
 #include "applespi.h"

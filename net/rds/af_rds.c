@@ -30,13 +30,13 @@
  * SOFTWARE.
  *
  */
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/in.h>
-#include <linux/ipv6.h>
-#include <linux/poll.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/in.h>
+#include <peenux/ipv6.h>
+#include <peenux/poll.h>
 #include <net/sock.h>
 
 #include "rds.h"

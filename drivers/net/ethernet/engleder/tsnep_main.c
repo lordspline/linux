@@ -18,16 +18,16 @@
 #include "tsnep.h"
 #include "tsnep_hw.h"
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/interrupt.h>
-#include <linux/etherdevice.h>
-#include <linux/phy.h>
-#include <linux/iopoll.h>
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/of_mdio.h>
+#include <peenux/interrupt.h>
+#include <peenux/etherdevice.h>
+#include <peenux/phy.h>
+#include <peenux/iopoll.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_trace.h>
 #include <net/page_pool/helpers.h>
 #include <net/xdp_sock_drv.h>
 

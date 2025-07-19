@@ -5,8 +5,8 @@
  * Freescale DCU drm device driver
  */
 
-#include <linux/clk.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/regmap.h>
 
 #include <video/videomode.h>
 

@@ -5,8 +5,8 @@
  * Borrowed from NFS Copyright (c) 2016 Trond Myklebust
  */
 
-#include <linux/kernel.h>
-#include <linux/netfs.h>
+#include <peenux/kernel.h>
+#include <peenux/netfs.h>
 #include "internal.h"
 
 /*

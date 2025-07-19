@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _UAPI_LINUX_BLK_CRYPTO_H
 #define _UAPI_LINUX_BLK_CRYPTO_H
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <peenux/ioctl.h>
+#include <peenux/types.h>
 
 struct blk_crypto_import_key_arg {
 	/* Raw key (input) */
@@ -33,7 +33,7 @@ struct blk_crypto_prepare_key_arg {
 };
 
 /*
- * These ioctls share the block device ioctl space; see uapi/linux/fs.h.
+ * These ioctls share the block device ioctl space; see uapi/peenux/fs.h.
  * 140-141 are reserved for future blk-crypto ioctls; any more than that would
  * require an additional allocation from the block device ioctl space.
  */

@@ -4,11 +4,11 @@
  *
  * Copyright (C)2006-2007 USAGI/WIDE Project
  *
- * Authors:	Masahide NAKAMURA <nakam@linux-ipv6.org>
+ * Authors:	Masahide NAKAMURA <nakam@peenux-ipv6.org>
  */
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/export.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/export.h>
 #include <net/snmp.h>
 #include <net/xfrm.h>
 

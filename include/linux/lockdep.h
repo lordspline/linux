@@ -10,18 +10,18 @@
 #ifndef __LINUX_LOCKDEP_H
 #define __LINUX_LOCKDEP_H
 
-#include <linux/lockdep_types.h>
-#include <linux/smp.h>
+#include <peenux/lockdep_types.h>
+#include <peenux/smp.h>
 #include <asm/percpu.h>
 
 struct task_struct;
 
 #ifdef CONFIG_LOCKDEP
 
-#include <linux/linkage.h>
-#include <linux/list.h>
-#include <linux/debug_locks.h>
-#include <linux/stacktrace.h>
+#include <peenux/linkage.h>
+#include <peenux/list.h>
+#include <peenux/debug_locks.h>
+#include <peenux/stacktrace.h>
 
 static inline void lockdep_copy_map(struct lockdep_map *to,
 				    struct lockdep_map *from)

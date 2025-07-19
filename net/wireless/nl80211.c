@@ -8,19 +8,19 @@
  * Copyright (C) 2018-2025 Intel Corporation
  */
 
-#include <linux/if.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/if_ether.h>
-#include <linux/ieee80211.h>
-#include <linux/nl80211.h>
-#include <linux/rtnetlink.h>
-#include <linux/netlink.h>
-#include <linux/nospec.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
+#include <peenux/if.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/if_ether.h>
+#include <peenux/ieee80211.h>
+#include <peenux/nl80211.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/netlink.h>
+#include <peenux/nospec.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
 #include <net/net_namespace.h>
 #include <net/genetlink.h>
 #include <net/cfg80211.h>

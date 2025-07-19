@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/nvidia/nvidia-i2c.c - nVidia i2c
+ * peenux/drivers/video/nvidia/nvidia-i2c.c - nVidia i2c
  *
  * Copyright 2004 Antonino A. Daplas <adaplas @pol.net>
  *
@@ -10,12 +10,12 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/pci.h>
-#include <linux/fb.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/gfp.h>
+#include <peenux/pci.h>
+#include <peenux/fb.h>
 
 #include <asm/io.h>
 

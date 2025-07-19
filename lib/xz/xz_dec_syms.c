@@ -6,8 +6,8 @@
  * Author: Lasse Collin <lasse.collin@tukaani.org>
  */
 
-#include <linux/module.h>
-#include <linux/xz.h>
+#include <peenux/module.h>
+#include <peenux/xz.h>
 
 EXPORT_SYMBOL(xz_dec_init);
 EXPORT_SYMBOL(xz_dec_reset);

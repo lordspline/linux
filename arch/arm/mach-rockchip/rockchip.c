@@ -6,12 +6,12 @@
  * Author: Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_clk.h>
-#include <linux/clocksource.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_clk.h>
+#include <peenux/clocksource.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
 #include "core.h"

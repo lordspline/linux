@@ -2,8 +2,8 @@
 #ifndef _ASM_X86_SMP_H
 #define _ASM_X86_SMP_H
 #ifndef __ASSEMBLER__
-#include <linux/cpumask.h>
-#include <linux/thread_info.h>
+#include <peenux/cpumask.h>
+#include <peenux/thread_info.h>
 
 #include <asm/cpumask.h>
 

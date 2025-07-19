@@ -19,13 +19,13 @@
  * Copyright 2011 - 2012 Bryan Wu <bryan.wu@canonical.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/percpu.h>
-#include <linux/syscore_ops.h>
-#include <linux/rwsem.h>
-#include <linux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/percpu.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/rwsem.h>
+#include <peenux/cpu.h>
 #include "../leds.h"
 
 #define MAX_NAME_LEN	8

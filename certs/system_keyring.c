@@ -5,14 +5,14 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/uidgid.h>
-#include <linux/verification.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/uidgid.h>
+#include <peenux/verification.h>
 #include <keys/asymmetric-type.h>
 #include <keys/system_keyring.h>
 #include <crypto/pkcs7.h>

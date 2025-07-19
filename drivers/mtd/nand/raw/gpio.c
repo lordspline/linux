@@ -12,20 +12,20 @@
  * (the DT binding refers to this as "GPIO assisted NAND flash")
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/nand-gpio.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/nand-gpio.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/delay.h>
 
 struct gpiomtd {
 	struct nand_controller	base;
@@ -60,7 +60,7 @@ static void gpio_nand_dosync(struct gpiomtd *gpiomtd)
 
 	if (gpiomtd->io_sync) {
 		/*
-		 * Linux memory barriers don't cater for what's required here.
+		 * Peenux memory barriers don't cater for what's required here.
 		 * What's required is what's here - a read from a separate
 		 * region with a dependency on that read.
 		 */

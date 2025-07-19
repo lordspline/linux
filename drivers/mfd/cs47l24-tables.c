@@ -7,11 +7,11 @@
  * Author: Richard Fitzgerald <rf@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/registers.h>
-#include <linux/device.h>
+#include <peenux/mfd/arizona/core.h>
+#include <peenux/mfd/arizona/registers.h>
+#include <peenux/device.h>
 
 #include "arizona.h"
 

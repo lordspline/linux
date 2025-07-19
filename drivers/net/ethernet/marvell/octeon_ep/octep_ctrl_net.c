@@ -4,11 +4,11 @@
  * Copyright (C) 2020 Marvell.
  *
  */
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/etherdevice.h>
-#include <linux/pci.h>
-#include <linux/wait.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/etherdevice.h>
+#include <peenux/pci.h>
+#include <peenux/wait.h>
 
 #include "octep_config.h"
 #include "octep_main.h"

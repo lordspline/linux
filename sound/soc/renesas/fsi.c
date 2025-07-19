@@ -8,16 +8,16 @@
 // Based on ssi.c
 // Copyright (c) 2007 Manuel Lauss <mano@roarinelk.homelinux.net>
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/scatterlist.h>
-#include <linux/sh_dma.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/scatterlist.h>
+#include <peenux/sh_dma.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/workqueue.h>
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 #include <sound/sh_fsi.h>

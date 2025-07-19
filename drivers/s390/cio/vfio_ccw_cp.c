@@ -4,16 +4,16 @@
  *
  * Copyright IBM Corp. 2017
  *
- * Author(s): Dong Jia Shi <bjsdjshi@linux.vnet.ibm.com>
- *            Xiao Feng Ren <renxiaof@linux.vnet.ibm.com>
+ * Author(s): Dong Jia Shi <bjsdjshi@peenux.vnet.ibm.com>
+ *            Xiao Feng Ren <renxiaof@peenux.vnet.ibm.com>
  */
 
-#include <linux/ratelimit.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/iommu.h>
-#include <linux/vfio.h>
+#include <peenux/ratelimit.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/iommu.h>
+#include <peenux/vfio.h>
 #include <asm/idals.h>
 
 #include "vfio_ccw_cp.h"

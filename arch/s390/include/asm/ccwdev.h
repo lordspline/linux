@@ -9,13 +9,13 @@
 #ifndef _S390_CCWDEV_H_
 #define _S390_CCWDEV_H_
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
 #include <asm/chsc.h>
 #include <asm/fcx.h>
 #include <asm/irq.h>
 #include <asm/schid.h>
-#include <linux/mutex.h>
+#include <peenux/mutex.h>
 
 /* structs from asm/cio.h */
 struct irb;

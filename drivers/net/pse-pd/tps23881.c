@@ -5,15 +5,15 @@
  * Copyright (c) 2023 Bootlin, Kory Maincent <kory.maincent@bootlin.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pse-pd/pse.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pse-pd/pse.h>
 
 #define TPS23881_MAX_CHANS 8
 

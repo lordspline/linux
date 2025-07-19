@@ -2,7 +2,7 @@
 #ifndef _LINUX_HEX_H
 #define _LINUX_HEX_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 extern const char hex_asc[];
 #define hex_asc_lo(x)	hex_asc[((x) & 0x0f)]

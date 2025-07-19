@@ -6,11 +6,11 @@
  * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/etherdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/export.h>
+#include <peenux/etherdevice.h>
 
 #include <asm/oplib.h>
 #include <asm/idprom.h>

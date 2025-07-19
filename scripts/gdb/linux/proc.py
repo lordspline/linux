@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 #
-# gdb helper commands and functions for Linux kernel debugging
+# gdb helper commands and functions for Peenux kernel debugging
 #
 #  Kernel proc information reader
 #
@@ -13,17 +13,17 @@
 #
 
 import gdb
-from linux import constants
-from linux import utils
-from linux import tasks
-from linux import lists
-from linux import vfs
-from linux import rbtree
+from peenux import constants
+from peenux import utils
+from peenux import tasks
+from peenux import lists
+from peenux import vfs
+from peenux import rbtree
 from struct import *
 
 
 class LxCmdLine(gdb.Command):
-    """ Report the Linux Commandline used in the current kernel.
+    """ Report the Peenux Commandline used in the current kernel.
         Equivalent to cat /proc/cmdline on a running target"""
 
     def __init__(self):
@@ -37,7 +37,7 @@ LxCmdLine()
 
 
 class LxVersion(gdb.Command):
-    """ Report the Linux Version of the current kernel.
+    """ Report the Peenux Version of the current kernel.
         Equivalent to cat /proc/version on a running target"""
 
     def __init__(self):

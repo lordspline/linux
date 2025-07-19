@@ -9,9 +9,9 @@
 #ifndef __LINUX_MFD_BCM590XX_H
 #define __LINUX_MFD_BCM590XX_H
 
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
 
 /* PMU ID register values; also used as device type */
 #define BCM590XX_PMUID_BCM59054		0x54

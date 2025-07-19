@@ -5,13 +5,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ":%s: " fmt, __func__
 
-#include <linux/module.h>
-#include <linux/atmdev.h>
-#include <linux/capability.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/atmdev.h>
+#include <peenux/capability.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
 
 #include "common.h"
 #include "protocols.h"

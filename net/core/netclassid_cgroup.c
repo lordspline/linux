@@ -5,10 +5,10 @@
  * Authors:	Thomas Graf <tgraf@suug.ch>
  */
 
-#include <linux/slab.h>
-#include <linux/cgroup.h>
-#include <linux/fdtable.h>
-#include <linux/sched/task.h>
+#include <peenux/slab.h>
+#include <peenux/cgroup.h>
+#include <peenux/fdtable.h>
+#include <peenux/sched/task.h>
 
 #include <net/cls_cgroup.h>
 #include <net/sock.h>

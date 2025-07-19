@@ -3,7 +3,7 @@
  * Copyright © 2021-2024 Intel Corporation
  */
 
-#include <linux/pci.h>
+#include <peenux/pci.h>
 
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>

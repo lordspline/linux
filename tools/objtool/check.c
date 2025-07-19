@@ -16,11 +16,11 @@
 #include <objtool/warn.h>
 #include <objtool/endianness.h>
 
-#include <linux/objtool_types.h>
-#include <linux/hashtable.h>
-#include <linux/kernel.h>
-#include <linux/static_call_types.h>
-#include <linux/string.h>
+#include <peenux/objtool_types.h>
+#include <peenux/hashtable.h>
+#include <peenux/kernel.h>
+#include <peenux/static_call_types.h>
+#include <peenux/string.h>
 
 struct alternative {
 	struct alternative *next;

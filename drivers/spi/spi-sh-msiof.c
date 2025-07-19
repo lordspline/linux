@@ -7,28 +7,28 @@
  * Copyright (C) 2014-2017 Glider bvba
  */
 
-#include <linux/bitmap.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/sh_dma.h>
+#include <peenux/bitmap.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sh_dma.h>
 
-#include <linux/spi/sh_msiof.h>
-#include <linux/spi/spi.h>
+#include <peenux/spi/sh_msiof.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define SH_MSIOF_FLAG_FIXED_DTDL_200	BIT(0)
 

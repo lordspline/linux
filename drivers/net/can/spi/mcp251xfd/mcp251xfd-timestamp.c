@@ -6,8 +6,8 @@
 //               Marc Kleine-Budde <kernel@pengutronix.de>
 //
 
-#include <linux/clocksource.h>
-#include <linux/workqueue.h>
+#include <peenux/clocksource.h>
+#include <peenux/workqueue.h>
 
 #include "mcp251xfd.h"
 

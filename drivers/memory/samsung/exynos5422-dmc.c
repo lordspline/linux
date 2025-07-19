@@ -4,22 +4,22 @@
  * Author: Lukasz Luba <l.luba@partner.samsung.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/devfreq.h>
-#include <linux/devfreq-event.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/pm_opp.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/devfreq.h>
+#include <peenux/devfreq-event.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of.h>
+#include <peenux/pm_opp.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 #include "../jedec_ddr.h"
 #include "../of_memory.h"
 

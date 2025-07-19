@@ -6,19 +6,19 @@
  * Authors:
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *
  * Contributors:
  *  Amir Hanania <amir.hanania@intel.com>
- *  Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ *  Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
 #ifndef __T7XX_CLDMA_H__
 #define __T7XX_CLDMA_H__
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/types.h>
 
 #define CLDMA_TXQ_NUM			8
 #define CLDMA_RXQ_NUM			8

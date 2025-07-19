@@ -7,18 +7,18 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/mfd/core.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/mfd/core.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/pdata.h>
+#include <peenux/mfd/wm831x/core.h>
+#include <peenux/mfd/wm831x/pdata.h>
 
 static int wm831x_i2c_probe(struct i2c_client *i2c)
 {

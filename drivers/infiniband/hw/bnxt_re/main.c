@@ -36,25 +36,25 @@
  * Description: Main component of the bnxt_re driver
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/rculist.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/rculist.h>
+#include <peenux/spinlock.h>
+#include <peenux/pci.h>
 #include <net/dcbnl.h>
 #include <net/ipv6.h>
 #include <net/addrconf.h>
-#include <linux/if_ether.h>
-#include <linux/auxiliary_bus.h>
+#include <peenux/if_ether.h>
+#include <peenux/auxiliary_bus.h>
 
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_user_verbs.h>
 #include <rdma/ib_umem.h>
 #include <rdma/ib_addr.h>
-#include <linux/hashtable.h>
+#include <peenux/hashtable.h>
 
 #include "bnxt_ulp.h"
 #include "roce_hsi.h"

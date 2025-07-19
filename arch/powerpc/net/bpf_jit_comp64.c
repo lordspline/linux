@@ -2,19 +2,19 @@
 /*
  * bpf_jit_comp64.c: eBPF JIT compiler
  *
- * Copyright 2016 Naveen N. Rao <naveen.n.rao@linux.vnet.ibm.com>
+ * Copyright 2016 Naveen N. Rao <naveen.n.rao@peenux.vnet.ibm.com>
  *		  IBM Corporation
  *
  * Based on the powerpc classic BPF JIT compiler by Matt Evans
  */
-#include <linux/moduleloader.h>
+#include <peenux/moduleloader.h>
 #include <asm/cacheflush.h>
 #include <asm/asm-compat.h>
-#include <linux/netdevice.h>
-#include <linux/filter.h>
-#include <linux/if_vlan.h>
+#include <peenux/netdevice.h>
+#include <peenux/filter.h>
+#include <peenux/if_vlan.h>
 #include <asm/kprobes.h>
-#include <linux/bpf.h>
+#include <peenux/bpf.h>
 #include <asm/security_features.h>
 
 #include "bpf_jit.h"
@@ -870,7 +870,7 @@ emit_clear:
 			 * Enforce full ordering for operations with BPF_FETCH by emitting a 'sync'
 			 * before and after the operation.
 			 *
-			 * This is a requirement in the Linux Kernel Memory Model.
+			 * This is a requirement in the Peenux Kernel Memory Model.
 			 * See __cmpxchg_u64() in asm/cmpxchg.h as an example.
 			 */
 			if ((imm & BPF_FETCH) && IS_ENABLED(CONFIG_SMP))

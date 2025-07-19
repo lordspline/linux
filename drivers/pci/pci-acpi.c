@@ -7,18 +7,18 @@
  * Copyright (C) 2004 Intel Corp.
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/irqdomain.h>
-#include <linux/pci.h>
-#include <linux/msi.h>
-#include <linux/pci_hotplug.h>
-#include <linux/module.h>
-#include <linux/pci-acpi.h>
-#include <linux/pci-ecam.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/rwsem.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/irqdomain.h>
+#include <peenux/pci.h>
+#include <peenux/msi.h>
+#include <peenux/pci_hotplug.h>
+#include <peenux/module.h>
+#include <peenux/pci-acpi.h>
+#include <peenux/pci-ecam.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_qos.h>
+#include <peenux/rwsem.h>
 #include "pci.h"
 
 /*

@@ -1,5 +1,5 @@
 /*
- *  linux/zorro.h -- Amiga AutoConfig (Zorro) Bus Definitions
+ *  peenux/zorro.h -- Amiga AutoConfig (Zorro) Bus Definitions
  *
  *  Copyright (C) 1995--2003 Geert Uytterhoeven
  *
@@ -12,12 +12,12 @@
 #define _LINUX_ZORRO_H
 
 
-#include <uapi/linux/zorro.h>
+#include <uapi/peenux/zorro.h>
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/mod_devicetable.h>
 
 #include <asm/zorro.h>
 

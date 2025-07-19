@@ -5,10 +5,10 @@
  * All rights reserved
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/log2.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/pci.h>
+#include <peenux/log2.h>
 #include "xgbe-smn.h"
 
 #include "xgbe.h"

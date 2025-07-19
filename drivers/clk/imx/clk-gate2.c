@@ -6,13 +6,13 @@
  * Gated clock implementation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/string.h>
+#include <peenux/clk-provider.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
 #include "clk.h"
 
 /**

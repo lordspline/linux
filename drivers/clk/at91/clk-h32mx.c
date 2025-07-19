@@ -7,12 +7,12 @@
  * Alexandre Belloni <alexandre.belloni@free-electrons.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/clk/at91_pmc.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk/at91_pmc.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 
 #include "pmc.h"
 

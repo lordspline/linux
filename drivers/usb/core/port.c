@@ -7,13 +7,13 @@
  * Author: Lan Tianyu <tianyu.lan@intel.com>
  */
 
-#include <linux/kstrtox.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/sysfs.h>
-#include <linux/pm_qos.h>
-#include <linux/component.h>
-#include <linux/usb/of.h>
+#include <peenux/kstrtox.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/sysfs.h>
+#include <peenux/pm_qos.h>
+#include <peenux/component.h>
+#include <peenux/usb/of.h>
 
 #include "hub.h"
 

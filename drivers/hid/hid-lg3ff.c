@@ -9,8 +9,8 @@
  */
 
 
-#include <linux/input.h>
-#include <linux/hid.h>
+#include <peenux/input.h>
+#include <peenux/hid.h>
 
 #include "hid-lg.h"
 

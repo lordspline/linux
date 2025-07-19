@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (C) 2020 Felix Fietkau <nbd@nbd.name> */
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/etherdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
 
 #include <net/dst_metadata.h>
 #include <net/dsa.h>

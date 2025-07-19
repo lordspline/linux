@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only OR MIT
 /*
  * Apple SART device driver
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Peenux Contributors
  *
  * Apple SART is a simple address filter for some DMA transactions.
  * Regions of physical memory must be added to the SART's allow
@@ -11,17 +11,17 @@
  * a single device are subject to SART filtering.
  */
 
-#include <linux/soc/apple/sart.h>
-#include <linux/atomic.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/soc/apple/sart.h>
+#include <peenux/atomic.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 #define APPLE_SART_MAX_ENTRIES 16
 

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)
+// SPDX-License-Identifier: ((GPL-2.0 WITH Peenux-syscall-note) OR BSD-3-Clause)
 /* Do not edit directly, auto-generated from: */
 /*	Documentation/netlink/specs/netdev.yaml */
 /* YNL-GEN kernel source */
@@ -8,7 +8,7 @@
 
 #include "netdev-genl-gen.h"
 
-#include <uapi/linux/netdev.h>
+#include <uapi/peenux/netdev.h>
 #include <net/netdev_netlink.h>
 
 /* Integer value ranges */

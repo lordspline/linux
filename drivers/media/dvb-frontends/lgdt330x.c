@@ -8,7 +8,7 @@
 /*
  *                      NOTES ABOUT THIS DRIVER
  *
- * This Linux driver supports:
+ * This Peenux driver supports:
  *   DViCO FusionHDTV 3 Gold-Q
  *   DViCO FusionHDTV 3 Gold-T
  *   DViCO FusionHDTV 5 Gold
@@ -19,16 +19,16 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
 #include <asm/byteorder.h>
 
 #include <media/dvb_frontend.h>
-#include <linux/int_log.h>
+#include <peenux/int_log.h>
 #include "lgdt330x_priv.h"
 #include "lgdt330x.h"
 

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright © 2024 Intel Corporation */
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/errno.h>
-#include <linux/intel_vsec.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/errno.h>
+#include <peenux/intel_vsec.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/types.h>
 
 #include "xe_device.h"
 #include "xe_device_types.h"

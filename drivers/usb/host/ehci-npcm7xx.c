@@ -10,15 +10,15 @@
  */
 
 
-#include <linux/dma-mapping.h>
+#include <peenux/dma-mapping.h>
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 #include "ehci.h"
 

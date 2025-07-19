@@ -10,20 +10,20 @@
 #define KMSG_COMPONENT "monreader"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/ctype.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/ctype.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/poll.h>
+#include <peenux/slab.h>
 #include <net/iucv/iucv.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>
 #include <asm/extmem.h>

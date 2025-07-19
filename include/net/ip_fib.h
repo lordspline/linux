@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET  is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -13,17 +13,17 @@
 #define _NET_IP_FIB_H
 
 #include <net/flow.h>
-#include <linux/seq_file.h>
-#include <linux/rcupdate.h>
+#include <peenux/seq_file.h>
+#include <peenux/rcupdate.h>
 #include <net/fib_notifier.h>
 #include <net/fib_rules.h>
 #include <net/inet_dscp.h>
 #include <net/inetpeer.h>
-#include <linux/percpu.h>
-#include <linux/notifier.h>
-#include <linux/refcount.h>
-#include <linux/ip.h>
-#include <linux/in_route.h>
+#include <peenux/percpu.h>
+#include <peenux/notifier.h>
+#include <peenux/refcount.h>
+#include <peenux/ip.h>
+#include <peenux/in_route.h>
 
 struct fib_config {
 	u8			fc_dst_len;

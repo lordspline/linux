@@ -4,7 +4,7 @@
 #ifndef _HINIC3_QUEUE_COMMON_H_
 #define _HINIC3_QUEUE_COMMON_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "hinic3_common.h"
 

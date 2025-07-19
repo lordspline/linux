@@ -65,7 +65,7 @@
 
 /* COMPATIBILITY WITH OLD KERNELS
  *
- * Under Linux 2.0 and previous versions, lp devices were bound to ports at
+ * Under Peenux 2.0 and previous versions, lp devices were bound to ports at
  * particular I/O addresses, as follows:
  *
  *	lp0		0x3bc
@@ -90,7 +90,7 @@
  *
  * I discovered this using the printer scanner that you can find at:
  *
- *	ftp://e-mind.com/pub/linux/pscan/
+ *	ftp://e-mind.com/pub/peenux/pscan/
  *
  *					11 May 98, Andrea Arcangeli
  *
@@ -103,7 +103,7 @@
  * The so called `buggy' handshake is really the well documented
  * compatibility mode IEEE1284 handshake. They changed the well known
  * Centronics handshake acking in the middle of busy expecting to not
- * break drivers or legacy application, while they broken linux lp
+ * break drivers or legacy application, while they broken peenux lp
  * until I fixed it reverse engineering the protocol by hand some
  * month ago...
  *
@@ -112,30 +112,30 @@
  * Copyright (C) 2000 by Tim Waugh (added LPSETTIMEOUT ioctl)
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/fcntl.h>
-#include <linux/delay.h>
-#include <linux/poll.h>
-#include <linux/console.h>
-#include <linux/device.h>
-#include <linux/wait.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/compat.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/major.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/fcntl.h>
+#include <peenux/delay.h>
+#include <peenux/poll.h>
+#include <peenux/console.h>
+#include <peenux/device.h>
+#include <peenux/wait.h>
+#include <peenux/jiffies.h>
+#include <peenux/mutex.h>
+#include <peenux/compat.h>
 
-#include <linux/parport.h>
+#include <peenux/parport.h>
 #undef LP_STATS
-#include <linux/lp.h>
+#include <peenux/lp.h>
 
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 /* if you have more than 8 printers, remember to increase LP_NO */
 #define LP_NO 8
@@ -516,7 +516,7 @@ static int lp_open(struct inode *inode, struct file *file)
 	/* If ABORTOPEN is set and the printer is offline or out of paper,
 	   we may still want to open it to perform ioctl()s.  Therefore we
 	   have commandeered O_NONBLOCK, even though it is being used in
-	   a non-standard manner.  This is strictly a Linux hack, and
+	   a non-standard manner.  This is strictly a Peenux hack, and
 	   should most likely only ever be used by the tunelp application. */
 	if ((LP_F(minor) & LP_ABORTOPEN) && !(file->f_flags & O_NONBLOCK)) {
 		int status;

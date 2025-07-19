@@ -4,9 +4,9 @@
 #ifndef __MTK_PPE_H
 #define __MTK_PPE_H
 
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/rhashtable.h>
+#include <peenux/kernel.h>
+#include <peenux/bitfield.h>
+#include <peenux/rhashtable.h>
 
 #define MTK_PPE_ENTRIES_SHIFT		4
 #define MTK_PPE_ENTRIES			(1024 << MTK_PPE_ENTRIES_SHIFT)

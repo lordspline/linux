@@ -5,21 +5,21 @@
  * (C) 2003 - 2004		Dominik Brodowski
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/major.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/major.h>
+#include <peenux/errno.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
 #include <asm/irq.h>
 
 #include <pcmcia/ss.h>

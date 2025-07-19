@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* linux/drivers/media/platform/exynos3250-jpeg/jpeg-hw.h
+/* peenux/drivers/media/platform/exynos3250-jpeg/jpeg-hw.h
  *
  * Copyright (c) 2014 Samsung Electronics Co., Ltd.
  *		http://www.samsung.com
@@ -7,9 +7,9 @@
  * Author: Jacek Anaszewski <j.anaszewski@samsung.com>
  */
 
-#include <linux/io.h>
-#include <linux/videodev2.h>
-#include <linux/delay.h>
+#include <peenux/io.h>
+#include <peenux/videodev2.h>
+#include <peenux/delay.h>
 
 #include "jpeg-core.h"
 #include "jpeg-regs.h"

@@ -22,9 +22,9 @@
  *
  */
 
-#include <linux/kref.h>
-#include <linux/slab.h>
-#include <linux/dma-fence-unwrap.h>
+#include <peenux/kref.h>
+#include <peenux/slab.h>
+#include <peenux/dma-fence-unwrap.h>
 
 #include <drm/drm_exec.h>
 #include <drm/drm_syncobj.h>

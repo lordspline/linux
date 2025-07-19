@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/shm.h>
-#include <linux/sched.h>
-#include <linux/random.h>
-#include <linux/io.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/shm.h>
+#include <peenux/sched.h>
+#include <peenux/random.h>
+#include <peenux/io.h>
 
 #define COLOUR_ALIGN(addr,pgoff)		\
 	((((addr)+SHMLBA-1)&~(SHMLBA-1)) +	\

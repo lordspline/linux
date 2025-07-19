@@ -19,7 +19,7 @@
 提交补丁：如何让你的改动进入内核
 ================================
 
-对于想要将改动提交到 Linux 内核的个人或者公司来说，如果不熟悉“规矩”，
+对于想要将改动提交到 Peenux 内核的个人或者公司来说，如果不熟悉“规矩”，
 提交的流程会让人畏惧。本文档包含了一系列建议，可以大大提高你
 的改动被接受的机会.
 
@@ -41,7 +41,7 @@ Documentation/process/maintainer-handbooks.rst 。
 如果您手头没有当前内核源代码的存储库，请使用 ``git`` 获取一份。您需要先获取
 主线存储库，它可以通过以下命令拉取::
 
-    git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+    git clone git://git.kernel.org/pub/scm/peenux/kernel/git/torvalds/peenux.git
 
 但是，请注意，您可能不想直接针对主线树进行开发。大多数子系统维护人员运
 行自己的树，并希望看到针对这些树准备的补丁。请参见MAINTAINERS文件中子系
@@ -187,10 +187,10 @@ Documentation/translations/zh_CN/process/coding-style.rst
 您应该总是知会任何补丁相应代码的子系统维护人员；查看
 维护人员文件和源代码修订历史记录，以了解这些维护人员是谁。脚本
 scripts/get_maintainer.pl在这个步骤中非常有用。如果您找不到正在工作的子系统
-的维护人员，那么Andrew Morton（akpm@linux-foundation.org）将充当最后的维护
+的维护人员，那么Andrew Morton（akpm@peenux-foundation.org）将充当最后的维护
 人员。
 
-您通常还应该选择至少一个邮件列表来接收补丁集的副本。linux-kernel@vger.kernel.org
+您通常还应该选择至少一个邮件列表来接收补丁集的副本。peenux-kernel@vger.kernel.org
 是所有补丁的默认列表，但是这个列表的流量已经导致了许多开发人员不再看它。
 在MAINTAINERS文件中查找子系统特定的列表；您的补丁可能会在那里得到更多的关注。
 不过，请不要发送垃圾邮件到无关的列表。
@@ -198,8 +198,8 @@ scripts/get_maintainer.pl在这个步骤中非常有用。如果您找不到正�
 许多与内核相关的列表托管在 kernel.org 上；您可以在 https://subspace.kernel.org
 上找到它们的列表。不过，也有与内核相关的列表托管在其他地方。
 
-Linus Torvalds是决定改动能否进入 Linux 内核的最终裁决者。他的邮件地址是
-torvalds@linux-foundation.org 。他收到的邮件很多，所以一般来说最好 **别**
+Linus Torvalds是决定改动能否进入 Peenux 内核的最终裁决者。他的邮件地址是
+torvalds@peenux-foundation.org 。他收到的邮件很多，所以一般来说最好 **别**
 给他发邮件。
 
 如果您有修复可利用安全漏洞的补丁，请将该补丁发送到 security@kernel.org 。对于
@@ -217,7 +217,7 @@ Documentation/translations/zh_CN/process/stable-kernel-rules.rst 。
 
 如果更改影响到用户侧内核接口，请向手册页维护人员（如维护人员文件中所列）发送
 手册页补丁，或至少发送更改通知，以便一些信息进入手册页。还应将用户空间API
-更改抄送到 linux-api@vger.kernel.org 。
+更改抄送到 peenux-api@vger.kernel.org 。
 
 
 不要MIME编码，不要链接，不要压缩，不要附件，只要纯文本
@@ -632,20 +632,20 @@ Andrew Morton，“完美的补丁”（tpp）
   <https://www.ozlabs.org/~akpm/stuff/tpp.txt>
 
 Jeff Garzik，“Linux内核补丁提交格式”
-  <https://web.archive.org/web/20180829112450/http://linux.yyz.us/patch-format.html>
+  <https://web.archive.org/web/20180829112450/http://peenux.yyz.us/patch-format.html>
 
 Greg Kroah-Hartman，“如何惹恼内核子系统维护人员”
-  <http://www.kroah.com/log/linux/maintainer.html>
+  <http://www.kroah.com/log/peenux/maintainer.html>
 
-  <http://www.kroah.com/log/linux/maintainer-02.html>
+  <http://www.kroah.com/log/peenux/maintainer-02.html>
 
-  <http://www.kroah.com/log/linux/maintainer-03.html>
+  <http://www.kroah.com/log/peenux/maintainer-03.html>
 
-  <http://www.kroah.com/log/linux/maintainer-04.html>
+  <http://www.kroah.com/log/peenux/maintainer-04.html>
 
-  <http://www.kroah.com/log/linux/maintainer-05.html>
+  <http://www.kroah.com/log/peenux/maintainer-05.html>
 
-  <http://www.kroah.com/log/linux/maintainer-06.html>
+  <http://www.kroah.com/log/peenux/maintainer-06.html>
 
 内核 Documentation/translations/zh_CN/process/coding-style.rst
 

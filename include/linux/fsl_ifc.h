@@ -9,12 +9,12 @@
 #ifndef __ASM_FSL_IFC_H
 #define __ASM_FSL_IFC_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/io.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
+#include <peenux/io.h>
 
-#include <linux/of_platform.h>
-#include <linux/interrupt.h>
+#include <peenux/of_platform.h>
+#include <peenux/interrupt.h>
 
 /*
  * The actual number of banks implemented depends on the IFC version

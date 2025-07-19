@@ -9,11 +9,11 @@
  * Copyright (C) 2005-2006 Thomas Bogendoerfer (tsbogend@alpha.franken.de)
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/string.h>
-#include <linux/console.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/memblock.h>
+#include <peenux/string.h>
+#include <peenux/console.h>
 
 #include <asm/addrspace.h>
 #include <asm/sni.h>

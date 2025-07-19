@@ -15,12 +15,12 @@
  * 32-bit and 64-bit versions merged by Paul Mackerras <paulus@samba.org>
  */
 
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/sysctl.h>
-#include <linux/tick.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/smp.h>
+#include <peenux/cpu.h>
+#include <peenux/sysctl.h>
+#include <peenux/tick.h>
 
 #include <asm/processor.h>
 #include <asm/cputable.h>

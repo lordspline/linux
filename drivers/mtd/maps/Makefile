@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 #
-# linux/drivers/maps/Makefile
+# peenux/drivers/maps/Makefile
 #
 
 ifeq ($(CONFIG_MTD_COMPLEX_MAPPINGS),y)

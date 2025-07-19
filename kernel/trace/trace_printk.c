@@ -5,17 +5,17 @@
  * Copyright (C) 2008 Lai Jiangshan <laijs@cn.fujitsu.com>
  *
  */
-#include <linux/seq_file.h>
-#include <linux/security.h>
-#include <linux/uaccess.h>
-#include <linux/kernel.h>
-#include <linux/ftrace.h>
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/ctype.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/security.h>
+#include <peenux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/ftrace.h>
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/ctype.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
 
 #include "trace.h"
 

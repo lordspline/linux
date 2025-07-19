@@ -9,15 +9,15 @@
  *  Copyright (C) 2014 MEN Mikro Elektronik Nuernberg GmbH
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
 
 #define DRV_NAME  "menf21bmc_hwmon"
 

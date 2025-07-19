@@ -8,9 +8,9 @@
 #include <string.h>
 #include <endian.h>
 #include <byteswap.h>
-#include <linux/kernel.h>
-#include <linux/compiler.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/compiler.h>
+#include <peenux/unaligned.h>
 
 #include "intel-pt-pkt-decoder.h"
 

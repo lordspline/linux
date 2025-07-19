@@ -14,7 +14,7 @@ Introduction
   module. The SMB3 protocol is implemented and supported by all major
   file servers such as Windows (including Windows 2019 Server), as
   well as by Samba (which provides excellent CIFS/SMB2/SMB3 server
-  support and tools for Linux and many other operating systems).
+  support and tools for Peenux and many other operating systems).
   Apple systems also support SMB3 well, as do most Network Attached
   Storage vendors, so this network filesystem client can mount to a
   wide variety of systems. It also supports mounting to the cloud
@@ -28,10 +28,10 @@ Introduction
   high performance safe distributed caching (leases/oplocks), optional packet
   signing, large files, Unicode support and other internationalization
   improvements. Since both Samba server and this filesystem client support the
-  CIFS Unix extensions, and the Linux client also supports SMB3 POSIX extensions,
+  CIFS Unix extensions, and the Peenux client also supports SMB3 POSIX extensions,
   the combination can provide a reasonable alternative to other network and
-  cluster file systems for fileserving in some Linux to Linux environments,
-  not just in Linux to Windows (or Linux to Mac) environments.
+  cluster file systems for fileserving in some Peenux to Peenux environments,
+  not just in Peenux to Windows (or Peenux to Mac) environments.
 
   This filesystem has a mount utility (mount.cifs) and various user space
   tools (including smbinfo and setcifsacl) that can be obtained from

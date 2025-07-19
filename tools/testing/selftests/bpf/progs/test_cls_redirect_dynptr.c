@@ -6,15 +6,15 @@
 #include <stdint.h>
 #include <string.h>
 
-#include <linux/bpf.h>
-#include <linux/icmp.h>
-#include <linux/icmpv6.h>
-#include <linux/if_ether.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/pkt_cls.h>
-#include <linux/tcp.h>
+#include <peenux/bpf.h>
+#include <peenux/icmp.h>
+#include <peenux/icmpv6.h>
+#include <peenux/if_ether.h>
+#include <peenux/in.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/pkt_cls.h>
+#include <peenux/tcp.h>
 #include <netinet/udp.h>
 
 #include <bpf/bpf_helpers.h>

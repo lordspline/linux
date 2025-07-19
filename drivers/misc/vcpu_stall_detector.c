@@ -3,20 +3,20 @@
 // VCPU stall detector.
 //  Copyright (C) Google, 2022
 
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
+#include <peenux/cpu.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/nmi.h>
-#include <linux/of.h>
-#include <linux/param.h>
-#include <linux/percpu.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/nmi.h>
+#include <peenux/of.h>
+#include <peenux/param.h>
+#include <peenux/percpu.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #define VCPU_STALL_REG_STATUS		(0x00)
 #define VCPU_STALL_REG_LOAD_CNT		(0x04)

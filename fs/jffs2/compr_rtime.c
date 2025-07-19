@@ -21,11 +21,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/jffs2.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/jffs2.h>
 #include "compr.h"
 
 /* _compress returns the compressed size, -1 if bigger */

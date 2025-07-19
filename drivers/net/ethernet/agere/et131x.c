@@ -53,31 +53,31 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
 
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
+#include <peenux/sched.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/in.h>
+#include <peenux/delay.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
 
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_arp.h>
-#include <linux/ioport.h>
-#include <linux/crc32.h>
-#include <linux/random.h>
-#include <linux/phy.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_arp.h>
+#include <peenux/ioport.h>
+#include <peenux/crc32.h>
+#include <peenux/random.h>
+#include <peenux/phy.h>
 
 #include "et131x.h"
 
@@ -3098,7 +3098,7 @@ static void et131x_error_timer_handler(struct timer_list *t)
 		if (!phydev->link) {
 			if (!et1310_in_phy_coma(adapter)) {
 				/* NOTE - This was originally a 'sync with
-				 *  interrupt'. How to do that under Linux?
+				 *  interrupt'. How to do that under Peenux?
 				 */
 				et131x_enable_interrupts(adapter);
 				et1310_enable_phy_coma(adapter);

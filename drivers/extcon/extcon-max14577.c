@@ -6,15 +6,15 @@
 // Chanwoo Choi <cw00.choi@samsung.com>
 // Krzysztof Kozlowski <krzk@kernel.org>
 
-#include <linux/devm-helpers.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/max14577.h>
-#include <linux/mfd/max14577-private.h>
-#include <linux/extcon-provider.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/max14577.h>
+#include <peenux/mfd/max14577-private.h>
+#include <peenux/extcon-provider.h>
 
 #define	DELAY_MS_DEFAULT		17000		/* unit: millisecond */
 

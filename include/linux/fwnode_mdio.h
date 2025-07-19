@@ -6,7 +6,7 @@
 #ifndef __LINUX_FWNODE_MDIO_H
 #define __LINUX_FWNODE_MDIO_H
 
-#include <linux/phy.h>
+#include <peenux/phy.h>
 
 #if IS_ENABLED(CONFIG_FWNODE_MDIO)
 int fwnode_mdiobus_phy_device_register(struct mii_bus *mdio,

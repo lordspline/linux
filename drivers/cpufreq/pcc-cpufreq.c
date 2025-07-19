@@ -23,20 +23,20 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/cpufreq.h>
-#include <linux/compiler.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/sched.h>
+#include <peenux/cpufreq.h>
+#include <peenux/compiler.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
 
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
+#include <peenux/uaccess.h>
 
 #include <acpi/processor.h>
 

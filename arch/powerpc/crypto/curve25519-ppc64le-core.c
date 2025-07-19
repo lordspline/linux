@@ -10,14 +10,14 @@
 #include <crypto/curve25519.h>
 #include <crypto/internal/kpp.h>
 
-#include <linux/types.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
+#include <peenux/types.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
 
-#include <linux/cpufeature.h>
-#include <linux/processor.h>
+#include <peenux/cpufeature.h>
+#include <peenux/processor.h>
 
 typedef uint64_t fe51[5];
 

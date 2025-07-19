@@ -5,12 +5,12 @@
  * Copyright (c) 2023 Dang Huynh <danct12@riseup.net>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/regulator/consumer.h>
 
 #include <drm/drm_connector.h>
 #include <drm/drm_mipi_dsi.h>

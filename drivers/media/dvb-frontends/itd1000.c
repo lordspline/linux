@@ -5,12 +5,12 @@
  *  Copyright (c) 2007-8 Patrick Boettcher <pb@linuxtv.org>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/delay.h>
-#include <linux/dvb/frontend.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/delay.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
 
 #include <media/dvb_frontend.h>
 

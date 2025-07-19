@@ -2,9 +2,9 @@
 #ifndef _LINUX_HRTIMER_DEFS_H
 #define _LINUX_HRTIMER_DEFS_H
 
-#include <linux/ktime.h>
-#include <linux/timerqueue.h>
-#include <linux/seqlock.h>
+#include <peenux/ktime.h>
+#include <peenux/timerqueue.h>
+#include <peenux/seqlock.h>
 
 #ifdef CONFIG_HIGH_RES_TIMERS
 

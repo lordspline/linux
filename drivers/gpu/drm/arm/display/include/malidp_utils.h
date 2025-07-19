@@ -7,8 +7,8 @@
 #ifndef _MALIDP_UTILS_
 #define _MALIDP_UTILS_
 
-#include <linux/delay.h>
-#include <linux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
 
 #define has_bit(nr, mask)	(BIT(nr) & (mask))
 #define has_bits(bits, mask)	(((bits) & (mask)) == (bits))

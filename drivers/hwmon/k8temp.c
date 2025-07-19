@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * k8temp.c - Linux kernel module for hardware monitoring
+ * k8temp.c - Peenux kernel module for hardware monitoring
  *
  * Copyright (C) 2006 Rudolf Marek <r.marek@assembler.cz>
  *
  * Inspired from the w83785 and amd756 drivers.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/hwmon.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/hwmon.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
 #include <asm/processor.h>
 
 #define TEMP_FROM_REG(val)	(((((val) >> 16) & 0xff) - 49) * 1000)

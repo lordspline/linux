@@ -9,7 +9,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/asm.h>
 
 #define HAVE_JUMP_LABEL_BATCH

@@ -4,9 +4,9 @@
 #ifndef PVR_FW_INFO_H
 #define PVR_FW_INFO_H
 
-#include <linux/bits.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
 
 /*
  * Firmware binary block unit in bytes.

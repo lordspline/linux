@@ -3,16 +3,16 @@
  * comedi/drivers/das08.c
  * comedi module for common DAS08 support (used by ISA/PCI/PCMCIA drivers)
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Peenux Control and Measurement Device Interface
  * Copyright (C) 2000 David A. Schleef <ds@schleef.org>
  * Copyright (C) 2001,2002,2003 Frank Mori Hess <fmhess@users.sourceforge.net>
  * Copyright (C) 2004 Salvador E. Tropea <set@users.sf.net> <set@ieee.org>
  */
 
-#include <linux/module.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedi_8255.h>
-#include <linux/comedi/comedi_8254.h>
+#include <peenux/module.h>
+#include <peenux/comedi/comedidev.h>
+#include <peenux/comedi/comedi_8255.h>
+#include <peenux/comedi/comedi_8254.h>
 
 #include "das08.h"
 

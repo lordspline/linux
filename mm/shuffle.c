@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright(c) 2018 Intel Corporation. All rights reserved.
 
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/mmzone.h>
-#include <linux/random.h>
-#include <linux/moduleparam.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/mmzone.h>
+#include <peenux/random.h>
+#include <peenux/moduleparam.h>
 #include "internal.h"
 #include "shuffle.h"
 

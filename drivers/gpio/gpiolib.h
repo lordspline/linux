@@ -3,22 +3,22 @@
  * Internal GPIO functions.
  *
  * Copyright (C) 2013, Intel Corporation
- * Author: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Author: Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
 #ifndef GPIOLIB_H
 #define GPIOLIB_H
 
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h> /* for enum gpiod_flags */
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/spinlock.h>
-#include <linux/srcu.h>
-#include <linux/workqueue.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h> /* for enum gpiod_flags */
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/spinlock.h>
+#include <peenux/srcu.h>
+#include <peenux/workqueue.h>
 
 #define GPIOCHIP_NAME	"gpiochip"
 
@@ -40,7 +40,7 @@
  * of the @descs array.
  * @can_sleep: indicate whether the GPIO chip driver's callbacks can sleep
  * implying that they cannot be used from atomic context
- * @base: GPIO base in the DEPRECATED global Linux GPIO numberspace, assigned
+ * @base: GPIO base in the DEPRECATED global Peenux GPIO numberspace, assigned
  * at device creation time.
  * @label: a descriptive name for the GPIO device, such as the part number
  * or name of the IP component in a System on Chip.

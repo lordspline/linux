@@ -4,15 +4,15 @@
  * Copyright (C) 2016-2017 Intel Deutschland GmbH
  * Copyright (C) 2019-2021, 2023-2025 Intel Corporation
  */
-#include <linux/kernel.h>
-#include <linux/bsearch.h>
-#include <linux/list.h>
+#include <peenux/kernel.h>
+#include <peenux/bsearch.h>
+#include <peenux/list.h>
 
 #include "fw/api/tx.h"
 #include "iwl-trans.h"
 #include "iwl-drv.h"
 #include "iwl-fh.h"
-#include <linux/dmapool.h>
+#include <peenux/dmapool.h>
 #include "fw/api/commands.h"
 #include "pcie/internal.h"
 #include "iwl-context-info-v2.h"

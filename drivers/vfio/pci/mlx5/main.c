@@ -3,21 +3,21 @@
  * Copyright (c) 2021-2022, NVIDIA CORPORATION & AFFILIATES. All rights reserved
  */
 
-#include <linux/device.h>
-#include <linux/eventfd.h>
-#include <linux/file.h>
-#include <linux/interrupt.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/vfio.h>
-#include <linux/sched/mm.h>
-#include <linux/anon_inodes.h>
+#include <peenux/device.h>
+#include <peenux/eventfd.h>
+#include <peenux/file.h>
+#include <peenux/interrupt.h>
+#include <peenux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/types.h>
+#include <peenux/uaccess.h>
+#include <peenux/vfio.h>
+#include <peenux/sched/mm.h>
+#include <peenux/anon_inodes.h>
 
 #include "cmd.h"
 

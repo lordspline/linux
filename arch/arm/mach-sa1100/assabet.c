@@ -1,32 +1,32 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-sa1100/assabet.c
+ * peenux/arch/arm/mach-sa1100/assabet.c
  *
  * Author: Nicolas Pitre
  *
  * This file contains all Assabet-specific tweaks.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/gpio-reg.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio_keys.h>
-#include <linux/ioport.h>
-#include <linux/platform_data/sa11x0-serial.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/serial_core.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/ucb1x00.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/gpio-reg.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio_keys.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_data/sa11x0-serial.h>
+#include <peenux/regulator/fixed.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/serial_core.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/ucb1x00.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/leds.h>
+#include <peenux/slab.h>
 
 #include <video/sa1100fb.h>
 
@@ -41,7 +41,7 @@
 #include <asm/mach/flash.h>
 #include <asm/mach/map.h>
 #include <mach/assabet.h>
-#include <linux/platform_data/mfd-mcp-sa11x0.h>
+#include <peenux/platform_data/mfd-mcp-sa11x0.h>
 #include <mach/irqs.h>
 
 #include "generic.h"

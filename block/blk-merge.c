@@ -2,13 +2,13 @@
 /*
  * Functions related to segment and merge handling
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/blk-integrity.h>
-#include <linux/part_stat.h>
-#include <linux/blk-cgroup.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/bio.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/part_stat.h>
+#include <peenux/blk-cgroup.h>
 
 #include <trace/events/block.h>
 

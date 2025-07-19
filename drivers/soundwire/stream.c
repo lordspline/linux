@@ -5,16 +5,16 @@
  *  stream.c - SoundWire Bus stream operations.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
-#include <linux/string_choices.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/slab.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_type.h>
+#include <peenux/string_choices.h>
 #include <sound/soc.h>
 #include "bus.h"
 

@@ -17,26 +17,26 @@
 
 #define pr_fmt(fmt) "arm-smmu: " fmt
 
-#include <linux/acpi.h>
-#include <linux/acpi_iort.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <peenux/acpi.h>
+#include <peenux/acpi_iort.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/ratelimit.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
 
-#include <linux/fsl/mc.h>
+#include <peenux/fsl/mc.h>
 
 #include "arm-smmu.h"
 #include "../../dma-iommu.h"

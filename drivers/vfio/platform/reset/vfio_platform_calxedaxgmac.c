@@ -8,10 +8,10 @@
  *              www.linaro.org
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 
 #include "../vfio_platform_private.h"
 

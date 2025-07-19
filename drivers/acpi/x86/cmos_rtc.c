@@ -8,12 +8,12 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mc146818rtc.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mc146818rtc.h>
 
 #include "../internal.h"
 

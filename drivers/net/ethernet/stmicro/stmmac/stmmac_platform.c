@@ -8,14 +8,14 @@
   Author: Giuseppe Cavallaro <peppe.cavallaro@st.com>
 *******************************************************************************/
 
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/of_mdio.h>
 
 #include "stmmac.h"
 #include "stmmac_platform.h"

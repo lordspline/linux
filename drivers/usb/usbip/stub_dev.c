@@ -3,10 +3,10 @@
  * Copyright (C) 2003-2008 Takahiro Hirofuchi
  */
 
-#include <linux/device.h>
-#include <linux/file.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/file.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
 
 #include "usbip_common.h"
 #include "stub.h"

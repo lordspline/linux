@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/xarray.h>
+#include <peenux/xarray.h>
 
 int rust_helper_xa_err(void *entry)
 {

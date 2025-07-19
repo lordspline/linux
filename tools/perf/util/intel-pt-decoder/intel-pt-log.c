@@ -12,8 +12,8 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include <linux/zalloc.h>
-#include <linux/kernel.h>
+#include <peenux/zalloc.h>
+#include <peenux/kernel.h>
 
 #include "intel-pt-log.h"
 #include "intel-pt-insn-decoder.h"

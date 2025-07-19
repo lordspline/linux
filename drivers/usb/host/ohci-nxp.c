@@ -16,16 +16,16 @@
  *
  * 2005-2006 (c) MontaVista Software, Inc.
  */
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/usb/isp1301.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb/isp1301.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 #include "ohci.h"
 

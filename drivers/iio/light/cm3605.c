@@ -9,22 +9,22 @@
  * and an early endavour into mobile light and proximity sensors.
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/iio/consumer.h> /* To get our ADC channel */
-#include <linux/iio/types.h> /* To deal with our ADC channel */
-#include <linux/init.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/math64.h>
-#include <linux/pm.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/consumer.h> /* To get our ADC channel */
+#include <peenux/iio/types.h> /* To deal with our ADC channel */
+#include <peenux/init.h>
+#include <peenux/leds.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/math64.h>
+#include <peenux/pm.h>
 
 #define CM3605_PROX_CHANNEL 0
 #define CM3605_ALS_CHANNEL 1

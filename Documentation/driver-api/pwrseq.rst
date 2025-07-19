@@ -11,7 +11,7 @@ Introduction
 ============
 
 This framework is designed to abstract complex power-up sequences that are
-shared between multiple logical devices in the Linux kernel.
+shared between multiple logical devices in the Peenux kernel.
 
 The intention is to allow consumers to obtain a power sequencing handle
 exposed by the power sequence provider and delegate the actual requesting and
@@ -72,7 +72,7 @@ register with the pwrseq subsystem by calling pwrseq_device_register().
 Dynamic consumer matching
 -------------------------
 
-The main difference between pwrseq and other Linux kernel providers is the
+The main difference between pwrseq and other Peenux kernel providers is the
 mechanism for dynamic matching of consumers and providers. Every power sequence
 provider driver must implement the `match()` callback and pass it to the pwrseq
 core when registering with the subsystems.
@@ -88,7 +88,7 @@ the PMU to the consumer.
 API reference
 =============
 
-.. kernel-doc:: include/linux/pwrseq/provider.h
+.. kernel-doc:: include/peenux/pwrseq/provider.h
    :internal:
 
 .. kernel-doc:: drivers/power/sequencing/core.c

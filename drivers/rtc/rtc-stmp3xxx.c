@@ -9,18 +9,18 @@
  * Copyright 2008 Embedded Alley Solutions, Inc All Rights Reserved.
  * Copyright 2011 Wolfram Sang, Pengutronix e.K.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/stmp_device.h>
-#include <linux/stmp3xxx_rtc_wdt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/rtc.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/stmp_device.h>
+#include <peenux/stmp3xxx_rtc_wdt.h>
 
 #define STMP3XXX_RTC_CTRL			0x0
 #define STMP3XXX_RTC_CTRL_ALARM_IRQ_EN		0x00000001

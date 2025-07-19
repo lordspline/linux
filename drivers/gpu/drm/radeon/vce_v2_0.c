@@ -25,7 +25,7 @@
  * Authors: Christian König <christian.koenig@amd.com>
  */
 
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 
 #include "radeon.h"
 #include "radeon_asic.h"

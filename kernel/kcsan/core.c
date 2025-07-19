@@ -7,20 +7,20 @@
 
 #define pr_fmt(fmt) "kcsan: " fmt
 
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/minmax.h>
-#include <linux/moduleparam.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/minmax.h>
+#include <peenux/moduleparam.h>
+#include <peenux/percpu.h>
+#include <peenux/preempt.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
 
 #include "encoding.h"
 #include "kcsan.h"
@@ -855,7 +855,7 @@ void kcsan_nestable_atomic_begin(void)
 	/*
 	 * Do *not* check and warn if we are in a flat atomic region: nestable
 	 * and flat atomic regions are independent from each other.
-	 * See include/linux/kcsan.h: struct kcsan_ctx comments for more
+	 * See include/peenux/kcsan.h: struct kcsan_ctx comments for more
 	 * comments.
 	 */
 

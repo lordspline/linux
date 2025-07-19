@@ -8,20 +8,20 @@
  * Copyright (c) 2006-2007 MontaVista Software, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device/faux.h>
-#include <linux/list.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/idr.h>
-#include <linux/netdevice.h>
-#include <linux/linkmode.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device/faux.h>
+#include <peenux/list.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
+#include <peenux/phy_fixed.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/idr.h>
+#include <peenux/netdevice.h>
+#include <peenux/linkmode.h>
 
 #include "swphy.h"
 
@@ -200,7 +200,7 @@ static struct gpio_desc *fixed_phy_get_gpiod(struct device_node *np)
 
 	/*
 	 * As the fixed link is just a device tree node without any
-	 * Linux device associated with it, we simply have obtain
+	 * Peenux device associated with it, we simply have obtain
 	 * the GPIO descriptor from the device tree like this.
 	 */
 	gpiod = fwnode_gpiod_get_index(of_fwnode_handle(fixed_link_node),

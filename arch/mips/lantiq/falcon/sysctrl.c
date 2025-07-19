@@ -5,10 +5,10 @@
  * Copyright (C) 2011 John Crispin <john@phrozen.org>
  */
 
-#include <linux/ioport.h>
-#include <linux/export.h>
-#include <linux/clkdev.h>
-#include <linux/of_address.h>
+#include <peenux/ioport.h>
+#include <peenux/export.h>
+#include <peenux/clkdev.h>
+#include <peenux/of_address.h>
 #include <asm/delay.h>
 
 #include <lantiq_soc.h>

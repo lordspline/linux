@@ -12,9 +12,9 @@
 /* debug control */
 /* #define UDC_VERBOSE */
 
-#include <linux/extcon.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
+#include <peenux/extcon.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
 
 /* various constants */
 #define UDC_RDE_TIMER_SECONDS		1

@@ -8,7 +8,7 @@
 #ifndef __ASM_PAGE_DEF_H
 #define __ASM_PAGE_DEF_H
 
-#include <linux/const.h>
+#include <peenux/const.h>
 
 #include <vdso/page.h>
 

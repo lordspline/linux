@@ -11,13 +11,13 @@
  *  Author: Lars Pöschel <poeschel@lemonage.de>
  *  All rights reserved.
  */
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
 
 #include "charlcd.h"
 

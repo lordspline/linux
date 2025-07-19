@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * thmc50.c - Part of lm_sensors, Linux kernel modules for hardware
+ * thmc50.c - Part of lm_sensors, Peenux kernel modules for hardware
  *	      monitoring
  * Copyright (C) 2007 Krzysztof Helt <krzysztof.h1@wp.pl>
  * Based on 2.4 driver by Frodo Looijaard <frodol@dds.nl> and
  * Philip Edelbrock <phil@netroedge.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/jiffies.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/jiffies.h>
 
 MODULE_LICENSE("GPL");
 

@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2008 Robert Jarzmik
  */
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/slab.h>
-#include <linux/regulator/max1586.h>
-#include <linux/of.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/slab.h>
+#include <peenux/regulator/max1586.h>
+#include <peenux/of.h>
+#include <peenux/regulator/of_regulator.h>
 
 #define MAX1586_V3_MAX_VSEL 31
 #define MAX1586_V6_MAX_VSEL 3

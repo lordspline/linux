@@ -8,10 +8,10 @@
  * Copyright (c) 2004 by Digigram <alsa@digigram.com>
  */
 
-#include <linux/time.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
+#include <peenux/time.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
 #include <sound/core.h>
 #include "pcxhr.h"
 #include "pcxhr_hwdep.h"

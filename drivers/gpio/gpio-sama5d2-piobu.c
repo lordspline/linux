@@ -7,15 +7,15 @@
  * Author: Andrei Stefanescu <andrei.stefanescu@microchip.com>
  *
  */
-#include <linux/bits.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bits.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #define PIOBU_NUM 8
 #define PIOBU_REG_SIZE 4

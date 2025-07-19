@@ -6,16 +6,16 @@
  * Copyright (C) 2013 John Crispin <john@phrozen.org>
  */
 
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/sizes.h>
-#include <linux/of_fdt.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/sizes.h>
+#include <peenux/of_fdt.h>
+#include <peenux/kernel.h>
+#include <peenux/memblock.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #include <asm/reboot.h>
 #include <asm/bootinfo.h>

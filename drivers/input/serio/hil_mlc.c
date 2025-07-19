@@ -52,15 +52,15 @@
  *	and to initiate probes of the loop for new devices.
  */
 
-#include <linux/hil_mlc.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/list.h>
+#include <peenux/hil_mlc.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
+#include <peenux/list.h>
 
 MODULE_AUTHOR("Brian S. Julin <bri@calyx.com>");
 MODULE_DESCRIPTION("HIL MLC serio");

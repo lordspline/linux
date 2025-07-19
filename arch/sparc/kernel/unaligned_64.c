@@ -8,21 +8,21 @@
  */
 
 
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/extable.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/extable.h>
 #include <asm/asi.h>
 #include <asm/ptrace.h>
 #include <asm/pstate.h>
 #include <asm/processor.h>
-#include <linux/uaccess.h>
-#include <linux/smp.h>
-#include <linux/bitops.h>
-#include <linux/perf_event.h>
-#include <linux/ratelimit.h>
-#include <linux/context_tracking.h>
+#include <peenux/uaccess.h>
+#include <peenux/smp.h>
+#include <peenux/bitops.h>
+#include <peenux/perf_event.h>
+#include <peenux/ratelimit.h>
+#include <peenux/context_tracking.h>
 #include <asm/fpumacro.h>
 #include <asm/cacheflush.h>
 #include <asm/setup.h>

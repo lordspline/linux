@@ -2,8 +2,8 @@
 #ifndef _LINUX_SCHED_STAT_H
 #define _LINUX_SCHED_STAT_H
 
-#include <linux/percpu.h>
-#include <linux/kconfig.h>
+#include <peenux/percpu.h>
+#include <peenux/kconfig.h>
 
 /*
  * Various counters maintained by the scheduler and fork(),

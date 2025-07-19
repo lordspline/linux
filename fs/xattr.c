@@ -5,25 +5,25 @@
   Extended attribute handling.
 
   Copyright (C) 2001 by Andreas Gruenbacher <a.gruenbacher@computer.org>
-  Copyright (C) 2001 SGI - Silicon Graphics, Inc <linux-xfs@oss.sgi.com>
+  Copyright (C) 2001 SGI - Silicon Graphics, Inc <peenux-xfs@oss.sgi.com>
   Copyright (c) 2004 Red Hat, Inc., James Morris <jmorris@redhat.com>
  */
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/xattr.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/export.h>
-#include <linux/fsnotify.h>
-#include <linux/audit.h>
-#include <linux/vmalloc.h>
-#include <linux/posix_acl_xattr.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/slab.h>
+#include <peenux/file.h>
+#include <peenux/xattr.h>
+#include <peenux/mount.h>
+#include <peenux/namei.h>
+#include <peenux/security.h>
+#include <peenux/syscalls.h>
+#include <peenux/export.h>
+#include <peenux/fsnotify.h>
+#include <peenux/audit.h>
+#include <peenux/vmalloc.h>
+#include <peenux/posix_acl_xattr.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "internal.h"
 

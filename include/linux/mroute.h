@@ -2,13 +2,13 @@
 #ifndef __LINUX_MROUTE_H
 #define __LINUX_MROUTE_H
 
-#include <linux/in.h>
-#include <linux/pim.h>
+#include <peenux/in.h>
+#include <peenux/pim.h>
 #include <net/fib_rules.h>
 #include <net/fib_notifier.h>
-#include <uapi/linux/mroute.h>
-#include <linux/mroute_base.h>
-#include <linux/sockptr.h>
+#include <uapi/peenux/mroute.h>
+#include <peenux/mroute_base.h>
+#include <peenux/sockptr.h>
 
 #ifdef CONFIG_IP_MROUTE
 static inline int ip_mroute_opt(int opt)

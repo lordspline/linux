@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/arkfb.c -- Frame buffer device driver for ARK 2000PV
+ *  peenux/drivers/video/arkfb.c -- Frame buffer device driver for ARK 2000PV
  *  with ICS 5342 dac (it is easy to add support for different dacs).
  *
  *  Copyright (c) 2007 Ondrej Zajicek <santiago@crfreenet.org>
@@ -11,20 +11,20 @@
  *  Code is based on s3fb
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/svga.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/console.h> /* Why should fb driver call console functions? because console_lock() */
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/tty.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/svga.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/console.h> /* Why should fb driver call console functions? because console_lock() */
 #include <video/vga.h>
 
 struct arkfb_info {

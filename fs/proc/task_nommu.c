@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/mm.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/fs_struct.h>
-#include <linux/mount.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/sched/mm.h>
+#include <peenux/mm.h>
+#include <peenux/file.h>
+#include <peenux/fdtable.h>
+#include <peenux/fs_struct.h>
+#include <peenux/mount.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/seq_file.h>
+#include <peenux/sched/mm.h>
 
 #include "internal.h"
 

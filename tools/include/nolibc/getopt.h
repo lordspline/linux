@@ -2,7 +2,7 @@
 /*
  * getopt function definitions for NOLIBC, adapted from musl libc
  * Copyright (C) 2005-2020 Rich Felker, et al.
- * Copyright (C) 2025 Thomas Weißschuh <linux@weissschuh.net>
+ * Copyright (C) 2025 Thomas Weißschuh <peenux@weissschuh.net>
  */
 
 /* make sure to include all global symbols */

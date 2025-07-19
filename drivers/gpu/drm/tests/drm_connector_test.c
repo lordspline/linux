@@ -3,7 +3,7 @@
  * Kunit test for drm_modes functions
  */
 
-#include <linux/i2c.h>
+#include <peenux/i2c.h>
 
 #include <drm/drm_atomic_state_helper.h>
 #include <drm/drm_connector.h>

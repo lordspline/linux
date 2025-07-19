@@ -10,15 +10,15 @@
  *	Kieran Bingham <kieran.bingham@ideasonboard.com>
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/v4l2-dv-timings.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_graph.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/v4l2-dv-timings.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

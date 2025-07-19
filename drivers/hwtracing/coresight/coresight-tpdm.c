@@ -3,18 +3,18 @@
  * Copyright (c) 2023-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/amba/bus.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/coresight.h>
-#include <linux/coresight-pmu.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/amba/bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/coresight.h>
+#include <peenux/coresight-pmu.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 
 #include "coresight-priv.h"
 #include "coresight-tpdm.h"

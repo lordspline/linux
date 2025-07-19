@@ -4,9 +4,9 @@
  *  For licencing details see kernel-base/COPYING
  */
 
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/instrumented.h>
+#include <peenux/uaccess.h>
+#include <peenux/export.h>
+#include <peenux/instrumented.h>
 
 #include <asm/tlbflush.h>
 

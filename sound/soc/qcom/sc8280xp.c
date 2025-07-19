@@ -2,14 +2,14 @@
 // Copyright (c) 2022, Linaro Limited
 
 #include <dt-bindings/sound/qcom,q6afe.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include <sound/pcm.h>
-#include <linux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw.h>
 #include <sound/jack.h>
-#include <linux/input-event-codes.h>
+#include <peenux/input-event-codes.h>
 #include "qdsp6/q6afe.h"
 #include "common.h"
 #include "sdw.h"

@@ -9,13 +9,13 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/edac.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/edac.h>
 
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 #include "edac_module.h"
 
 #define EDAC_MOD_STR		"x38_edac"

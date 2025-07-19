@@ -3,11 +3,11 @@
  * Copyright © 2020 Intel Corporation
  */
 
-#include <linux/iosys-map.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/shmem_fs.h>
-#include <linux/vmalloc.h>
+#include <peenux/iosys-map.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/vmalloc.h>
 
 #include "i915_drv.h"
 #include "gem/i915_gem_object.h"

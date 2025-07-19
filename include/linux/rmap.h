@@ -5,15 +5,15 @@
  * Declarations for Reverse Mapping functions in mm/rmap.c
  */
 
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/rwsem.h>
-#include <linux/memcontrol.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/memremap.h>
-#include <linux/bit_spinlock.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/rwsem.h>
+#include <peenux/memcontrol.h>
+#include <peenux/highmem.h>
+#include <peenux/pagemap.h>
+#include <peenux/memremap.h>
+#include <peenux/bit_spinlock.h>
 
 /*
  * The anon_vma heads a list of private "related" vmas, to scan if

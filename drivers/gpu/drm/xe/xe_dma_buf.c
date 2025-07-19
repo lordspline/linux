@@ -6,8 +6,8 @@
 #include "xe_dma_buf.h"
 
 #include <kunit/test.h>
-#include <linux/dma-buf.h>
-#include <linux/pci-p2pdma.h>
+#include <peenux/dma-buf.h>
+#include <peenux/pci-p2pdma.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_prime.h>

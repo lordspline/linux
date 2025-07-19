@@ -3,10 +3,10 @@
  * Copyright (C) 2016 Intel Corporation
  *
  * Author: Gayatri Kammela <gayatri.kammela@intel.com>
- * Author: Megha Dey <megha.dey@linux.intel.com>
+ * Author: Megha Dey <megha.dey@peenux.intel.com>
  */
 
-#include <linux/raid/pq.h>
+#include <peenux/raid/pq.h>
 #include "x86.h"
 
 static int raid6_has_avx512(void)

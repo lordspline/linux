@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/array_size.h>
-#include <linux/delay.h>
-#include <linux/devm-helpers.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
+#include <peenux/array_size.h>
+#include <peenux/delay.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/leds.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
 
 #define CHAGALL_REG_LED_AMBER				0x60
 #define CHAGALL_REG_LED_WHITE				0x70

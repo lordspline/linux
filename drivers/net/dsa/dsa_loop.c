@@ -5,16 +5,16 @@
  * Copyright (C) 2016, Florian Fainelli <f.fainelli@gmail.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/export.h>
-#include <linux/ethtool.h>
-#include <linux/workqueue.h>
-#include <linux/module.h>
-#include <linux/if_bridge.h>
-#include <linux/dsa/loop.h>
+#include <peenux/platform_device.h>
+#include <peenux/netdevice.h>
+#include <peenux/phy.h>
+#include <peenux/phy_fixed.h>
+#include <peenux/export.h>
+#include <peenux/ethtool.h>
+#include <peenux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/if_bridge.h>
+#include <peenux/dsa/loop.h>
 #include <net/dsa.h>
 
 #include "dsa_loop.h"

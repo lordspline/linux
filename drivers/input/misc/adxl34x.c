@@ -7,15 +7,15 @@
  * Copyright (C) 2009 Michael Hennerich, Analog Devices Inc.
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/input/adxl34x.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
+#include <peenux/input/adxl34x.h>
+#include <peenux/module.h>
 
 #include "adxl34x.h"
 

@@ -2,10 +2,10 @@
 /*
  * Copyright (C) 2022 Loongson Technology Corporation Limited
  */
-#include <linux/cpumask.h>
-#include <linux/export.h>
-#include <linux/ftrace.h>
-#include <linux/kallsyms.h>
+#include <peenux/cpumask.h>
+#include <peenux/export.h>
+#include <peenux/ftrace.h>
+#include <peenux/kallsyms.h>
 
 #include <asm/inst.h>
 #include <asm/loongson.h>

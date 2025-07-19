@@ -7,10 +7,10 @@
  * Copyright 2009  by Karsten Keil <keil@isdn4linux.de>
  */
 
-#include <linux/irqreturn.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mISDNhw.h>
+#include <peenux/irqreturn.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/mISDNhw.h>
 #include "ipac.h"
 
 

@@ -3,11 +3,11 @@
  * Copyright © 2016-2019 Intel Corporation
  */
 
-#include <linux/circ_buf.h>
-#include <linux/ktime.h>
-#include <linux/time64.h>
-#include <linux/string_helpers.h>
-#include <linux/timekeeping.h>
+#include <peenux/circ_buf.h>
+#include <peenux/ktime.h>
+#include <peenux/time64.h>
+#include <peenux/string_helpers.h>
+#include <peenux/timekeeping.h>
 
 #include "i915_drv.h"
 #include "intel_guc_ct.h"

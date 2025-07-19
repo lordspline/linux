@@ -12,21 +12,21 @@
  * for more details.
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/pagemap.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/binfmts.h>
-#include <linux/execmem.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/pagemap.h>
+#include <peenux/memblock.h>
+#include <peenux/slab.h>
+#include <peenux/binfmts.h>
+#include <peenux/execmem.h>
 
 #include <asm/setup.h>
 #include <asm/page.h>

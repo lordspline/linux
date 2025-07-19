@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -108,38 +108,38 @@
 
 #define pr_fmt(fmt) "IPv4: " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
 
-#include <linux/net.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/inetdevice.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/indirect_call_wrapper.h>
+#include <peenux/net.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/in.h>
+#include <peenux/inet.h>
+#include <peenux/inetdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/indirect_call_wrapper.h>
 
 #include <net/snmp.h>
 #include <net/ip.h>
 #include <net/protocol.h>
 #include <net/route.h>
-#include <linux/skbuff.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
 #include <net/arp.h>
 #include <net/icmp.h>
 #include <net/raw.h>
 #include <net/checksum.h>
 #include <net/inet_ecn.h>
-#include <linux/netfilter_ipv4.h>
+#include <peenux/netfilter_ipv4.h>
 #include <net/xfrm.h>
-#include <linux/mroute.h>
-#include <linux/netlink.h>
+#include <peenux/mroute.h>
+#include <peenux/netlink.h>
 #include <net/dst_metadata.h>
 
 /*
@@ -359,7 +359,7 @@ static int ip_rcv_finish_core(struct net *net,
 
 	/*
 	 *	Initialise the virtual path cache for the packet. It describes
-	 *	how the packet travels inside Linux networking.
+	 *	how the packet travels inside Peenux networking.
 	 */
 	if (!skb_valid_dst(skb)) {
 		drop_reason = ip_route_input_noref(skb, iph->daddr, iph->saddr,

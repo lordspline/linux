@@ -12,7 +12,7 @@
 #include <sound/timer.h>
 #include <sound/seq_midi_emul.h>
 #include <sound/seq_device.h>
-#include <linux/io.h>
+#include <peenux/io.h>
 
 /* IO ports */
 

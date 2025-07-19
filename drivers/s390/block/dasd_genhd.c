@@ -11,12 +11,12 @@
  *
  */
 
-#include <linux/interrupt.h>
-#include <linux/major.h>
-#include <linux/fs.h>
-#include <linux/blkpg.h>
+#include <peenux/interrupt.h>
+#include <peenux/major.h>
+#include <peenux/fs.h>
+#include <peenux/blkpg.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "dasd_int.h"
 

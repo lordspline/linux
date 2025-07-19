@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/mm/process_vm_access.c
+ * peenux/mm/process_vm_access.c
  *
  * Copyright (C) 2010-2011 Christopher Yeoh <cyeoh@au1.ibm.com>, IBM Corp.
  */
 
-#include <linux/compat.h>
-#include <linux/mm.h>
-#include <linux/uio.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/highmem.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
+#include <peenux/compat.h>
+#include <peenux/mm.h>
+#include <peenux/uio.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/highmem.h>
+#include <peenux/ptrace.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
 
 /**
  * process_vm_rw_pages - read/write pages from task specified

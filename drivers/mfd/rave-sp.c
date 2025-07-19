@@ -8,20 +8,20 @@
  * Copyright (C) 2017 Zodiac Inflight Innovations
  */
 
-#include <linux/atomic.h>
-#include <linux/crc-itu-t.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/mfd/rave-sp.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/sched.h>
-#include <linux/serdev.h>
-#include <linux/unaligned.h>
+#include <peenux/atomic.h>
+#include <peenux/crc-itu-t.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/rave-sp.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/sched.h>
+#include <peenux/serdev.h>
+#include <peenux/unaligned.h>
 
 /*
  * UART protocol using following entities:

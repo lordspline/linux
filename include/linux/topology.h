@@ -1,5 +1,5 @@
 /*
- * include/linux/topology.h
+ * include/peenux/topology.h
  *
  * Written by: Matthew Dobson, IBM Corporation
  *
@@ -27,13 +27,13 @@
 #ifndef _LINUX_TOPOLOGY_H
 #define _LINUX_TOPOLOGY_H
 
-#include <linux/arch_topology.h>
-#include <linux/cpumask.h>
-#include <linux/nodemask.h>
-#include <linux/bitops.h>
-#include <linux/mmzone.h>
-#include <linux/smp.h>
-#include <linux/percpu.h>
+#include <peenux/arch_topology.h>
+#include <peenux/cpumask.h>
+#include <peenux/nodemask.h>
+#include <peenux/bitops.h>
+#include <peenux/mmzone.h>
+#include <peenux/smp.h>
+#include <peenux/percpu.h>
 #include <asm/topology.h>
 
 #ifndef nr_cpus_node

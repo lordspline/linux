@@ -10,12 +10,12 @@
  * Based on the soc-camera rcar_vin driver
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-fwnode.h>

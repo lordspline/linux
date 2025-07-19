@@ -3,11 +3,11 @@
  * FB driver for the SSD1325 OLED Controller
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
 
 #include "fbtft.h"
 

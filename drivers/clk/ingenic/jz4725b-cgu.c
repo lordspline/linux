@@ -6,9 +6,9 @@
  * Author: Paul Cercueil <paul@crapouillou.net>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/of.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
 
 #include <dt-bindings/clock/ingenic,jz4725b-cgu.h>
 

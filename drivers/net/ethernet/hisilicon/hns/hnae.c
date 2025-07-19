@@ -3,11 +3,11 @@
  * Copyright (c) 2014-2015 Hisilicon Limited.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/of.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
 #include "hnae.h"
 
 #define cls_to_ae_dev(dev) container_of(dev, struct hnae_ae_dev, cls_dev)

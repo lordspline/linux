@@ -9,12 +9,12 @@
 #ifndef __ASM_LOONGARCH_SYSCALL_H
 #define __ASM_LOONGARCH_SYSCALL_H
 
-#include <linux/compiler.h>
-#include <uapi/linux/audit.h>
-#include <linux/elf-em.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
+#include <peenux/compiler.h>
+#include <uapi/peenux/audit.h>
+#include <peenux/elf-em.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/uaccess.h>
 #include <asm/ptrace.h>
 #include <asm/unistd.h>
 

@@ -7,18 +7,18 @@
 
 //#define DEBUG
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/spinlock.h>
-#include <linux/msi.h>
-#include <linux/list.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/irq.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/spinlock.h>
+#include <peenux/msi.h>
+#include <peenux/list.h>
 
 #include <asm/smp.h>
 #include <asm/machdep.h>

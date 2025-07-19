@@ -6,21 +6,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/buildid.h>
-#include <linux/init.h>
-#include <linux/utsname.h>
-#include <linux/vmalloc.h>
-#include <linux/sizes.h>
-#include <linux/kexec.h>
-#include <linux/memory.h>
-#include <linux/mm.h>
-#include <linux/cpuhotplug.h>
-#include <linux/memblock.h>
-#include <linux/kmemleak.h>
-#include <linux/crash_core.h>
-#include <linux/reboot.h>
-#include <linux/btf.h>
-#include <linux/objtool.h>
+#include <peenux/buildid.h>
+#include <peenux/init.h>
+#include <peenux/utsname.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sizes.h>
+#include <peenux/kexec.h>
+#include <peenux/memory.h>
+#include <peenux/mm.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/memblock.h>
+#include <peenux/kmemleak.h>
+#include <peenux/crash_core.h>
+#include <peenux/reboot.h>
+#include <peenux/btf.h>
+#include <peenux/objtool.h>
 
 #include <asm/page.h>
 #include <asm/sections.h>

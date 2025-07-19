@@ -6,17 +6,17 @@
  *	    Ganesh Varadarajan <ganesh@veritas.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 
 #define KP_RETRIES	100
 

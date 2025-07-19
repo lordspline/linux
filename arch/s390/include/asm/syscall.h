@@ -9,9 +9,9 @@
 #ifndef _ASM_SYSCALL_H
 #define _ASM_SYSCALL_H	1
 
-#include <uapi/linux/audit.h>
-#include <linux/sched.h>
-#include <linux/err.h>
+#include <uapi/peenux/audit.h>
+#include <peenux/sched.h>
+#include <peenux/err.h>
 #include <asm/ptrace.h>
 
 extern const sys_call_ptr_t sys_call_table[];

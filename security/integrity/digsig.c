@@ -6,14 +6,14 @@
  * Dmitry Kasatkin <dmitry.kasatkin@intel.com>
  */
 
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/cred.h>
-#include <linux/kernel_read_file.h>
-#include <linux/key-type.h>
-#include <linux/digsig.h>
-#include <linux/vmalloc.h>
+#include <peenux/err.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/cred.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/key-type.h>
+#include <peenux/digsig.h>
+#include <peenux/vmalloc.h>
 #include <crypto/public_key.h>
 #include <keys/system_keyring.h>
 

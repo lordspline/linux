@@ -6,11 +6,11 @@
  *  Made endianness-clean by Andrew Stribblehill <ads@wompom.org> 2005
  */
 
-#include <linux/time.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/sched.h>
+#include <peenux/time.h>
+#include <peenux/string.h>
+#include <peenux/fs.h>
+#include <peenux/buffer_head.h>
+#include <peenux/sched.h>
 #include "bfs.h"
 
 #undef DEBUG

@@ -7,8 +7,8 @@
  */
 #include <kunit/test.h>
 
-#include <linux/list.h>
-#include <linux/klist.h>
+#include <peenux/list.h>
+#include <peenux/klist.h>
 
 struct list_test_struct {
 	int data;

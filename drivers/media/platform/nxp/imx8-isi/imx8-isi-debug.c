@@ -3,13 +3,13 @@
  * Copyright 2019-2020 NXP
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/pm_runtime.h>
-#include <linux/seq_file.h>
-#include <linux/types.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/seq_file.h>
+#include <peenux/types.h>
 
 #include "imx8-isi-core.h"
 #include "imx8-isi-regs.h"

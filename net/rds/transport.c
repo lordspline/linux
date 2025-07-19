@@ -30,10 +30,10 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/in.h>
-#include <linux/ipv6.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/in.h>
+#include <peenux/ipv6.h>
 
 #include "rds.h"
 #include "loop.h"

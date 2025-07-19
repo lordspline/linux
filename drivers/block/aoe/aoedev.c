@@ -4,15 +4,15 @@
  * AoE device utility functions; maintains device list.
  */
 
-#include <linux/hdreg.h>
-#include <linux/blk-mq.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/bitmap.h>
-#include <linux/kdev_t.h>
-#include <linux/moduleparam.h>
-#include <linux/string.h>
+#include <peenux/hdreg.h>
+#include <peenux/blk-mq.h>
+#include <peenux/netdevice.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/bitmap.h>
+#include <peenux/kdev_t.h>
+#include <peenux/moduleparam.h>
+#include <peenux/string.h>
 #include "aoe.h"
 
 static void freetgt(struct aoedev *d, struct aoetgt *t);

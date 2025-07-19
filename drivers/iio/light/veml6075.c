@@ -7,16 +7,16 @@
  * 7-bit I2C slave, address 0x10
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/units.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #define VEML6075_CMD_CONF	0x00 /* configuration register */
 #define VEML6075_CMD_UVA	0x07 /* UVA channel */

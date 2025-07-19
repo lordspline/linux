@@ -4,15 +4,15 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/capability.h>
-#include <linux/vmalloc.h>
-#include <linux/phylink.h>
+#include <peenux/types.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/string.h>
+#include <peenux/pci.h>
+#include <peenux/capability.h>
+#include <peenux/vmalloc.h>
+#include <peenux/phylink.h>
 
 #include "qede.h"
 #include "qede_ptp.h"

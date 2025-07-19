@@ -151,12 +151,12 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/mISDNif.h>
-#include <linux/mISDNdsp.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/gfp.h>
+#include <peenux/mISDNif.h>
+#include <peenux/mISDNdsp.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
 #include "core.h"
 #include "dsp.h"
 

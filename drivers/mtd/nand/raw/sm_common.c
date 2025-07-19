@@ -3,10 +3,10 @@
  * Copyright © 2009 - Maxim Levitsky
  * Common routines & support for xD format
  */
-#include <linux/kernel.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
+#include <peenux/kernel.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/module.h>
+#include <peenux/sizes.h>
 #include "sm_common.h"
 
 static int oob_sm_ooblayout_ecc(struct mtd_info *mtd, int section,

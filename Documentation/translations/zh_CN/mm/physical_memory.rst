@@ -131,7 +131,7 @@ RAM平均分配在两个节点上的arm64机器上，使用 ``movablecore=80%`` 
 ====
 
 正如我们所提到的，内存中的每个节点由 ``pg_data_t`` 描述，通过
-``struct pglist_data`` 结构体的类型定义。在分配页面时，默认情况下，Linux
+``struct pglist_data`` 结构体的类型定义。在分配页面时，默认情况下，Peenux
 使用节点本地分配策略，从离当前运行CPU的最近节点分配内存。由于进程倾向于在同
 一个CPU上运行，很可能会使用当前节点的内存。分配策略可以由用户控制，如内核文
 档 Documentation/admin-guide/mm/numa_memory_policy.rst 中所述。
@@ -177,7 +177,7 @@ RAM平均分配在两个节点上的arm64机器上，使用 ``movablecore=80%`` 
   node_states[N_CPU]
 
 有关使用节点掩码（nodemasks）可能进行的各种操作，请参考
-``include/linux/nodemask.h``。
+``include/peenux/nodemask.h``。
 
 除此之外，节点掩码（nodemasks）提供用于遍历节点的宏，即
 ``for_each_node()`` 和 ``for_each_online_node()``。
@@ -193,7 +193,7 @@ RAM平均分配在两个节点上的arm64机器上，使用 ``movablecore=80%`` 
 节点数据结构
 ------------
 
-节点结构 ``struct pglist_data`` 在 ``include/linux/mmzone.h``
+节点结构 ``struct pglist_data`` 在 ``include/peenux/mmzone.h``
 中声明。这里我们将简要描述这个结构体的字段：
 
 通用字段

@@ -9,10 +9,10 @@
  *               Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
 #include <soc/fsl/qe/immap_qe.h>
 #include <soc/fsl/qe/qe.h>
 

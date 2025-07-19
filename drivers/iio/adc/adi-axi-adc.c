@@ -6,26 +6,26 @@
  * Copyright 2012-2020 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
-#include <linux/fpga/adi-axi-common.h>
+#include <peenux/fpga/adi-axi-common.h>
 
-#include <linux/iio/backend.h>
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/buffer-dmaengine.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
 
 #include "ad7606_bus_iface.h"
 /*

@@ -13,15 +13,15 @@
 
 #define pr_fmt(fmt) "PCI: " fmt
 
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/bitmap.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/rculist.h>
+#include <peenux/acpi.h>
+#include <peenux/efi.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/bitmap.h>
+#include <peenux/dmi.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/rculist.h>
 #include <asm/acpi.h>
 #include <asm/e820/api.h>
 #include <asm/msr.h>

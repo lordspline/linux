@@ -5,27 +5,27 @@
  * Copyright 2007 IBM Corporation
  *
  * Stephen Winiecki <stevewin@us.ibm.com>
- * Josh Boyer <jwboyer@linux.vnet.ibm.com>
+ * Josh Boyer <jwboyer@peenux.vnet.ibm.com>
  *
  * Based on code from mpc7448_hpc2.c
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/seq_file.h>
-#include <linux/root_dev.h>
-#include <linux/serial.h>
-#include <linux/tty.h>
-#include <linux/serial_core.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/extable.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/kdev_t.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/seq_file.h>
+#include <peenux/root_dev.h>
+#include <peenux/serial.h>
+#include <peenux/tty.h>
+#include <peenux/serial_core.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/extable.h>
 
 #include <asm/time.h>
 #include <asm/machdep.h>

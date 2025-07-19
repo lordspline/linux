@@ -7,16 +7,16 @@
 // Co-author: Seven Lee <wtli@nuvoton.com>
 //
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/math64.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/math64.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/jack.h>

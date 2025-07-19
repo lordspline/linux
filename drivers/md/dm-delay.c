@@ -8,15 +8,15 @@
  * This file is released under the GPL.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/bio.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/bio.h>
+#include <peenux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/delay.h>
 
-#include <linux/device-mapper.h>
+#include <peenux/device-mapper.h>
 
 #define DM_MSG_PREFIX "delay"
 

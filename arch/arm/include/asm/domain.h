@@ -8,7 +8,7 @@
 #define __ASM_PROC_DOMAIN_H
 
 #ifndef __ASSEMBLY__
-#include <linux/thread_info.h>
+#include <peenux/thread_info.h>
 #include <asm/barrier.h>
 #endif
 

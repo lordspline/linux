@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2017-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017-2020, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2020, Linaro Limited
  */
 
 #include <dt-bindings/dma/qcom-gpi.h>
-#include <linux/bitfield.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/dma/qcom-gpi-dma.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/module.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma/qcom-gpi-dma.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
 #include "../dmaengine.h"
 #include "../virt-dma.h"
 

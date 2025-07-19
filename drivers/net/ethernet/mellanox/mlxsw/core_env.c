@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2018 Mellanox Technologies. All rights reserved */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/ethtool.h>
-#include <linux/sfp.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/ethtool.h>
+#include <peenux/sfp.h>
+#include <peenux/mutex.h>
 
 #include "core.h"
 #include "core_env.h"

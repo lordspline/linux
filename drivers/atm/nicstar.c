@@ -33,27 +33,27 @@
 
 /* Header files */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/atmdev.h>
-#include <linux/atm.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/skbuff.h>
+#include <peenux/atmdev.h>
+#include <peenux/atm.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/timer.h>
+#include <peenux/interrupt.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/idr.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
-#include <linux/etherdevice.h>
+#include <peenux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/etherdevice.h>
 #include "nicstar.h"
 #ifdef CONFIG_ATM_NICSTAR_USE_SUNI
 #include "suni.h"

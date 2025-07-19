@@ -5,19 +5,19 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/interrupt.h>
-#include <linux/time.h>
-#include <linux/timer.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/interrupt.h>
+#include <peenux/time.h>
+#include <peenux/timer.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/irq.h>
 #include <asm/mach-types.h>
 

@@ -8,12 +8,12 @@
  * Copyright (C) 2008 Embedded Alley Solutions, Inc All Rights Reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/media-bus-format.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spinlock.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

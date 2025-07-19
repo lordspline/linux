@@ -5,17 +5,17 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Authors: Liam Girdwood <liam.r.girdwood@linux.intel.com>
-//	    Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
+// Authors: Liam Girdwood <liam.r.girdwood@peenux.intel.com>
+//	    Ranjani Sridharan <ranjani.sridharan@peenux.intel.com>
 //	    Rander Wang <rander.wang@intel.com>
-//          Keyon Jie <yang.jie@linux.intel.com>
+//          Keyon Jie <yang.jie@peenux.intel.com>
 //
 
 /*
  * Hardware interface for generic Intel audio DSP HDA IP
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <sound/hdaudio_ext.h>
 #include <sound/hda_register.h>
 #include <sound/hda_component.h>

@@ -6,11 +6,11 @@
  *          Guennadi Liakhovetski (guennadi.liakhovetski@intel.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/videodev2.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-v4l2.h>

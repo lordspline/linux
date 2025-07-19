@@ -10,13 +10,13 @@
 
 #include "em28xx.h"
 
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/vmalloc.h>
 #include <sound/ac97_codec.h>
 #include <media/v4l2-common.h>
 

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (C) 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  */
 
 #ifndef __START_H__
@@ -9,7 +9,7 @@
 #include <generated/asm-offsets.h>
 
 /*
- * Stolen from linux/const.h, which can't be directly included since
+ * Stolen from peenux/const.h, which can't be directly included since
  * this is used in userspace code, which has no access to the kernel
  * headers.  Changed to be suitable for adding casts to the start,
  * rather than "UL" to the end.

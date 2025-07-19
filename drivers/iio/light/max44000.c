@@ -9,17 +9,17 @@
  * 7-bit I2C slave address 0x4a
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/util_macros.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/util_macros.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #define MAX44000_DRV_NAME		"max44000"
 

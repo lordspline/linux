@@ -1,5 +1,5 @@
 /*
- *	linux/include/video/pmag-ba-fb.h
+ *	peenux/include/video/pmag-ba-fb.h
  *
  *	TURBOchannel PMAG-BA Color Frame Buffer (CFB) card support,
  *	Copyright (C) 1999, 2000, 2001 by

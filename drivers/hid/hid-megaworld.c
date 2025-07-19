@@ -8,10 +8,10 @@
  *   Copyright (c) 2005, 2006 Anssi Hannula <anssi.hannula@gmail.com>
  */
 
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/hid.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include "hid-ids.h"
 

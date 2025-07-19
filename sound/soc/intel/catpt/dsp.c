@@ -5,11 +5,11 @@
 // Author: Cezary Rojewski <cezary.rojewski@intel.com>
 //
 
-#include <linux/devcoredump.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/pxa2xx_ssp.h>
+#include <peenux/devcoredump.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/pci.h>
+#include <peenux/pxa2xx_ssp.h>
 #include "core.h"
 #include "messages.h"
 #include "registers.h"

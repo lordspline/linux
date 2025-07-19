@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Interface to Linux block layer for MTD 'translation layers'.
+ * Interface to Peenux block layer for MTD 'translation layers'.
  *
  * Copyright © 2003-2010 David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/fs.h>
-#include <linux/mtd/blktrans.h>
-#include <linux/mtd/mtd.h>
-#include <linux/blkdev.h>
-#include <linux/blk-mq.h>
-#include <linux/blkpg.h>
-#include <linux/spinlock.h>
-#include <linux/hdreg.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/fs.h>
+#include <peenux/mtd/blktrans.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-mq.h>
+#include <peenux/blkpg.h>
+#include <peenux/spinlock.h>
+#include <peenux/hdreg.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
 
 #include "mtdcore.h"
 

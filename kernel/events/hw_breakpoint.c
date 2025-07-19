@@ -7,7 +7,7 @@
  * Thanks to Ingo Molnar for his many suggestions.
  *
  * Authors: Alan Stern <stern@rowland.harvard.edu>
- *          K.Prasad <prasad@linux.vnet.ibm.com>
+ *          K.Prasad <prasad@peenux.vnet.ibm.com>
  *          Frederic Weisbecker <fweisbec@gmail.com>
  */
 
@@ -17,23 +17,23 @@
  * This file contains the arch-independent routines.
  */
 
-#include <linux/hw_breakpoint.h>
+#include <peenux/hw_breakpoint.h>
 
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/cpu.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/irqflags.h>
-#include <linux/kdebug.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/percpu-rwsem.h>
-#include <linux/percpu.h>
-#include <linux/rhashtable.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/cpu.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/irqflags.h>
+#include <peenux/kdebug.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/notifier.h>
+#include <peenux/percpu-rwsem.h>
+#include <peenux/percpu.h>
+#include <peenux/rhashtable.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
 /*
  * Datastructure to track the total uses of N slots across tasks or CPUs;

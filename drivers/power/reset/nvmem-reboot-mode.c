@@ -3,13 +3,13 @@
  * Copyright (c) Vaisala Oyj. All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/platform_device.h>
-#include <linux/reboot-mode.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot-mode.h>
 
 struct nvmem_reboot_mode {
 	struct reboot_mode_driver reboot;

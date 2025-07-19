@@ -8,20 +8,20 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/iopoll.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/refcount.h>
+#include <peenux/slab.h>
 
 #include "../virt-dma.h"
 

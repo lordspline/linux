@@ -4,20 +4,20 @@
  * Copyright (C) 2016 John Muir <john@jmuir.com>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/i2c.h>
-#include <linux/i3c/device.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/hwmon.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/i2c.h>
+#include <peenux/i3c/device.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 #define	DRIVER_NAME "tmp108"
 

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/gfp.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
 
-#include <linux/gpio.h>
+#include <peenux/gpio.h>
 
 #include "gpiolib.h"
 

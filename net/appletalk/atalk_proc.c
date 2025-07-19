@@ -5,13 +5,13 @@
  * 	Copyright(c) Arnaldo Carvalho de Melo <acme@conectiva.com.br>
  */
 
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/init.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include <net/net_namespace.h>
 #include <net/sock.h>
-#include <linux/atalk.h>
-#include <linux/export.h>
+#include <peenux/atalk.h>
+#include <peenux/export.h>
 
 
 static __inline__ struct atalk_iface *atalk_get_interface_idx(loff_t pos)

@@ -11,11 +11,11 @@
  *         Maciej W. Rozycki <macro@mips.com>
  *          Steven J. Hill <sjhill@mips.com>
  */
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/pci_regs.h>
-#include <linux/serial_core.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/pci_regs.h>
+#include <peenux/serial_core.h>
 
 #include <asm/cacheflush.h>
 #include <asm/smp-ops.h>

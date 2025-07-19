@@ -1,9 +1,9 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /*
  * Copyright (c) 2019, Mellanox Technologies inc.  All rights reserved.
  */
 
-#include <linux/dim.h>
+#include <peenux/dim.h>
 
 static int rdma_dim_step(struct dim *dim)
 {

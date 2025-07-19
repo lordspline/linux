@@ -4,14 +4,14 @@
  *
  * Copyright (c) 2012-2017 Mentor Graphics Inc.
  */
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-fwnode.h>

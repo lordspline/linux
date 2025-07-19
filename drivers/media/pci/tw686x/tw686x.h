@@ -7,10 +7,10 @@
  * Written by Krzysztof Ha?asa
  */
 
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/timer.h>
-#include <linux/videodev2.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/timer.h>
+#include <peenux/videodev2.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

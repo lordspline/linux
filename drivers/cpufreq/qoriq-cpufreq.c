@@ -7,18 +7,18 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/cpufreq.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/cpufreq.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/smp.h>
+#include <peenux/platform_device.h>
 
 /**
  * struct cpu_data

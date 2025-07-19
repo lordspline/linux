@@ -12,27 +12,27 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/refcount.h>
-#include <linux/cdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/ioctl.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/pci.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/syscalls.h>
-#include <linux/types.h>
+#include <peenux/refcount.h>
+#include <peenux/cdev.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/ioctl.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/pagemap.h>
+#include <peenux/pci.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/syscalls.h>
+#include <peenux/types.h>
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 
 #include "vme.h"
 #include "vme_user.h"

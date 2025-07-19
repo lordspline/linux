@@ -8,10 +8,10 @@
  * Author: Haojian Zhuang <haojian.zhuang@linaro.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/clock/hip04-clock.h>
 

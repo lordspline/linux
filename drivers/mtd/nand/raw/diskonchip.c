@@ -16,21 +16,21 @@
  * Interface to generic NAND code for M-Systems DiskOnChip devices
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/rslib.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/rslib.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/doc2000.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/inftl.h>
-#include <linux/module.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/doc2000.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/inftl.h>
+#include <peenux/module.h>
 
 /* Where to look for the devices? */
 #ifndef CONFIG_MTD_NAND_DISKONCHIP_PROBE_ADDRESS

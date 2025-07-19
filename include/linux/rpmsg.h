@@ -10,15 +10,15 @@
 #ifndef _LINUX_RPMSG_H
 #define _LINUX_RPMSG_H
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/rpmsg/byteorder.h>
-#include <uapi/linux/rpmsg.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/kref.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <peenux/rpmsg/byteorder.h>
+#include <uapi/peenux/rpmsg.h>
 
 struct rpmsg_device;
 struct rpmsg_endpoint;

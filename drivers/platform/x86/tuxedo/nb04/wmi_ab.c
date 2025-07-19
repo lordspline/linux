@@ -6,11 +6,11 @@
  * Copyright (C) 2024-2025 Werner Sembach <wse@tuxedocomputers.com>
  */
 
-#include <linux/dmi.h>
-#include <linux/hid.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/wmi.h>
+#include <peenux/dmi.h>
+#include <peenux/hid.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/wmi.h>
 
 #include "wmi_util.h"
 

@@ -60,12 +60,12 @@
 	key-camera-snapshot {
 		label = "Camera Snapshot";
 		gpios = <&tlmm 107 GPIO_ACTIVE_LOW>;
-		linux,code = <KEY_CAMERA>;
+		peenux,code = <KEY_CAMERA>;
 	};
 
 	key-camera-focus {
 		label = "Camera Focus";
 		gpios = <&tlmm 108 GPIO_ACTIVE_LOW>;
-		linux,code = <KEY_CAMERA_FOCUS>;
+		peenux,code = <KEY_CAMERA_FOCUS>;
 	};
 };

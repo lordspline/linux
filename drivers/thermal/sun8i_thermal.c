@@ -8,20 +8,20 @@
  * Based on the work of Josef Gajdusek <atx@atx.name>
  */
 
-#include <linux/bitmap.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
+#include <peenux/bitmap.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/thermal.h>
 
 #include "thermal_hwmon.h"
 

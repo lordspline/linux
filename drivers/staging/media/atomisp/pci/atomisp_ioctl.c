@@ -7,8 +7,8 @@
  * Copyright (c) 2010 Silicon Hive www.siliconhive.com.
  */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
 
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-event.h>

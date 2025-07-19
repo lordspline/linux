@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/sched/clock.h>
+#include <peenux/bitops.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/sched/clock.h>
 
 #include <asm/cpu_entry_area.h>
 #include <asm/debugreg.h>

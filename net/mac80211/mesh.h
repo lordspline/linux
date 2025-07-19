@@ -9,8 +9,8 @@
 #ifndef IEEE80211S_H
 #define IEEE80211S_H
 
-#include <linux/types.h>
-#include <linux/jhash.h>
+#include <peenux/types.h>
+#include <peenux/jhash.h>
 #include "ieee80211_i.h"
 
 

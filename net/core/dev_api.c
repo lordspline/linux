@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/netdevice.h>
+#include <peenux/netdevice.h>
 #include <net/netdev_lock.h>
 
 #include "dev.h"

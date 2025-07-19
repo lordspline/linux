@@ -14,11 +14,11 @@
 
 
 /* ======   Dependencies   ======*/
-#include <linux/types.h>   /* size_t */
+#include <peenux/types.h>   /* size_t */
 
-#include <linux/zstd_errors.h> /* list of errors */
+#include <peenux/zstd_errors.h> /* list of errors */
 #if !defined(ZSTD_H_ZSTD_STATIC_LINKING_ONLY)
-#include <linux/limits.h>   /* INT_MAX */
+#include <peenux/limits.h>   /* INT_MAX */
 #endif /* ZSTD_STATIC_LINKING_ONLY */
 
 

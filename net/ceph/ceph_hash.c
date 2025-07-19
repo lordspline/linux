@@ -1,6 +1,6 @@
 
-#include <linux/ceph/types.h>
-#include <linux/module.h>
+#include <peenux/ceph/types.h>
+#include <peenux/module.h>
 
 /*
  * Robert Jenkin's hash function.
@@ -89,7 +89,7 @@ unsigned int ceph_str_hash_rjenkins(const char *str, unsigned int length)
 }
 
 /*
- * linux dcache hash
+ * peenux dcache hash
  */
 unsigned int ceph_str_hash_linux(const char *str, unsigned int length)
 {
@@ -121,7 +121,7 @@ const char *ceph_str_hash_name(int type)
 {
 	switch (type) {
 	case CEPH_STR_HASH_LINUX:
-		return "linux";
+		return "peenux";
 	case CEPH_STR_HASH_RJENKINS:
 		return "rjenkins";
 	default:

@@ -10,7 +10,7 @@
 #define _TRACE_AMDXDNA_H
 
 #include <drm/gpu_scheduler.h>
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 
 TRACE_EVENT(amdxdna_debug_point,
 	    TP_PROTO(const char *name, u64 number, const char *str),

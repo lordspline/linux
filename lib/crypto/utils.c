@@ -5,9 +5,9 @@
  * Copyright (c) 2006 Herbert Xu <herbert@gondor.apana.org.au>
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <crypto/utils.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 
 /*
  * XOR @len bytes from @src1 and @src2 together, writing the result to @dst

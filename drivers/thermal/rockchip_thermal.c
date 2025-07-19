@@ -4,20 +4,20 @@
  * Caesar Wang <wxt@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/thermal.h>
-#include <linux/mfd/syscon.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/thermal.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/pinctrl/consumer.h>
 
 /*
  * If the temperature over a period of time High,

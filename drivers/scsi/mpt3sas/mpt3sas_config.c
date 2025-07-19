@@ -42,15 +42,15 @@
  * USA.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/blkdev.h>
-#include <linux/sched.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/blkdev.h>
+#include <peenux/sched.h>
+#include <peenux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
 
 #include "mpt3sas_base.h"
 

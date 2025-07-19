@@ -12,12 +12,12 @@
  *
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/spinlock.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_bridge/ebt_limit.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/spinlock.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter_bridge/ebtables.h>
+#include <peenux/netfilter_bridge/ebt_limit.h>
 
 static DEFINE_SPINLOCK(limit_lock);
 

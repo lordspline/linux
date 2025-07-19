@@ -9,11 +9,11 @@
  *	Jan Kotas <jank@cadence.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 
 static struct clk_hw *fixed_mmio_clk_setup(struct device_node *node)
 {

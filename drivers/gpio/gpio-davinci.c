@@ -6,21 +6,21 @@
  * Copyright (c) 2007, MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/spinlock.h>
-#include <linux/pm_runtime.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/spinlock.h>
+#include <peenux/pm_runtime.h>
 
 #define MAX_REGS_BANKS 5
 #define MAX_INT_PER_BANK 32

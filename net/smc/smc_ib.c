@@ -9,17 +9,17 @@
  *
  *  Copyright IBM Corp. 2016
  *
- *  Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ *  Author(s):  Ursula Braun <ubraun@peenux.vnet.ibm.com>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/random.h>
-#include <linux/workqueue.h>
-#include <linux/scatterlist.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
-#include <linux/inetdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/random.h>
+#include <peenux/workqueue.h>
+#include <peenux/scatterlist.h>
+#include <peenux/wait.h>
+#include <peenux/mutex.h>
+#include <peenux/inetdevice.h>
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_cache.h>
 

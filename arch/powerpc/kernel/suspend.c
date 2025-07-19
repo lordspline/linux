@@ -6,8 +6,8 @@
  * Copyright (c) 2001 Patrick Mochel <mochel@osdl.org>
  */
 
-#include <linux/mm.h>
-#include <linux/suspend.h>
+#include <peenux/mm.h>
+#include <peenux/suspend.h>
 #include <asm/page.h>
 #include <asm/sections.h>
 

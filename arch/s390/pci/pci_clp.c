@@ -3,20 +3,20 @@
  * Copyright IBM Corp. 2012
  *
  * Author(s):
- *   Jan Glauber <jang@linux.vnet.ibm.com>
+ *   Jan Glauber <jang@peenux.vnet.ibm.com>
  */
 
 #define KMSG_COMPONENT "zpci"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/compat.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/uaccess.h>
+#include <peenux/compat.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/uaccess.h>
 #include <asm/asm-extable.h>
 #include <asm/pci_debug.h>
 #include <asm/pci_clp.h>
@@ -233,7 +233,7 @@ out:
  * @nr_dma_as: DMA address space number
  * @command: The command code to execute
  *
- * Returns: 0 on success, < 0 for Linux errors (e.g. -ENOMEM), and
+ * Returns: 0 on success, < 0 for Peenux errors (e.g. -ENOMEM), and
  * > 0 for non-success platform responses
  */
 static int clp_set_pci_fn(struct zpci_dev *zdev, u32 *fh, u8 nr_dma_as, u8 command)

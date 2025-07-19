@@ -6,14 +6,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/syscalls.h>
-#include <linux/skbuff.h>
-#include <linux/filter.h>
-#include <linux/bpf.h>
+#include <peenux/module.h>
+#include <peenux/syscalls.h>
+#include <peenux/skbuff.h>
+#include <peenux/filter.h>
+#include <peenux/bpf.h>
 
-#include <linux/netfilter/xt_bpf.h>
-#include <linux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_bpf.h>
+#include <peenux/netfilter/x_tables.h>
 
 MODULE_AUTHOR("Willem de Bruijn <willemb@google.com>");
 MODULE_DESCRIPTION("Xtables: BPF filter match");

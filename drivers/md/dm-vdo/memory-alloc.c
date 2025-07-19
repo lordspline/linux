@@ -3,11 +3,11 @@
  * Copyright 2023 Red Hat
  */
 
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/sched/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/sched/mm.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #include "logger.h"
 #include "memory-alloc.h"
@@ -168,7 +168,7 @@ static void remove_vmalloc_block(void *ptr)
  *
  * The advantages of kmalloc do not help out UDS or VDO, because we allocate all our memory up
  * front and do not free and reallocate it. Sometimes we have problems using kmalloc, because the
- * Linux memory page map can become so fragmented that kmalloc will not give us a 32KB chunk. We
+ * Peenux memory page map can become so fragmented that kmalloc will not give us a 32KB chunk. We
  * have used vmalloc as a backup to kmalloc in the past, and a follow-up vmalloc of 32KB will work.
  * But there is no strong case to be made for using kmalloc over vmalloc for these size chunks.
  *

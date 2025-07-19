@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
  *
- *			Linux MegaRAID device driver
+ *			Peenux MegaRAID device driver
  *
  * Copyright (c) 2003-2004  LSI Logic Corporation.
  *
@@ -13,17 +13,17 @@
 #ifndef _MEGA_COMMON_H_
 #define _MEGA_COMMON_H_
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/blkdev.h>
-#include <linux/list.h>
-#include <linux/moduleparam.h>
-#include <linux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/blkdev.h>
+#include <peenux/list.h>
+#include <peenux/moduleparam.h>
+#include <peenux/dma-mapping.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>

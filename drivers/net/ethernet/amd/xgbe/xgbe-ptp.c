@@ -5,10 +5,10 @@
  * All rights reserved
  */
 
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/net_tstamp.h>
+#include <peenux/clk.h>
+#include <peenux/clocksource.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/net_tstamp.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

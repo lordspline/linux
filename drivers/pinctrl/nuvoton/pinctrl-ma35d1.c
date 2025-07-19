@@ -5,14 +5,14 @@
  * Author: Shan-Chun Hung <schung@nuvoton.com>
  * *       Jacky Huang <ychuang3@nuvoton.com>
  */
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
 
-#include <linux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinctrl.h>
 
 #include "pinctrl-ma35.h"
 

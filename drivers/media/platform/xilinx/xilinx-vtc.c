@@ -9,11 +9,11 @@
  *           Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "xilinx-vip.h"
 #include "xilinx-vtc.h"

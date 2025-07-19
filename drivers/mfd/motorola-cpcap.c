@@ -5,19 +5,19 @@
  * Copyright (C) 2016 Tony Lindgren <tony@atomide.com>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regmap.h>
+#include <peenux/sysfs.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/motorola-cpcap.h>
-#include <linux/spi/spi.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/motorola-cpcap.h>
+#include <peenux/spi/spi.h>
 
 #define CPCAP_NR_IRQ_REG_BANKS	6
 #define CPCAP_NR_IRQ_CHIPS	3

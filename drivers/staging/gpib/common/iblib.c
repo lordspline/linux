@@ -7,9 +7,9 @@
 #define dev_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include "ibsys.h"
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/vmalloc.h>
 
 /*
  * IBCAC

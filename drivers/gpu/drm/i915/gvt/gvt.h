@@ -33,9 +33,9 @@
 #ifndef _GVT_H_
 #define _GVT_H_
 
-#include <uapi/linux/pci_regs.h>
-#include <linux/vfio.h>
-#include <linux/mdev.h>
+#include <uapi/peenux/pci_regs.h>
+#include <peenux/vfio.h>
+#include <peenux/mdev.h>
 
 #include <asm/kvm_page_track.h>
 

@@ -5,27 +5,27 @@
  * Copyright (c) Harald Geyer <harald@ccbib.org>
  */
 
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/sysfs.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/wait.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/timekeeping.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/sysfs.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/wait.h>
+#include <peenux/bitops.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/timekeeping.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #define DRIVER_NAME	"dht11"
 

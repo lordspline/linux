@@ -4,7 +4,7 @@
 #ifndef _INTEL_THC_HW_H_
 #define _INTEL_THC_HW_H_
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 /* THC registers offset */
 /* Touch Host Controller Control Register */

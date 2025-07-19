@@ -8,11 +8,11 @@
  * Reference taken from OMAP4 cminst44xx.c
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
 
 #include "clockdomain.h"
 #include "cm.h"
@@ -21,7 +21,7 @@
 #include "cm-regbits-33xx.h"
 #include "prm33xx.h"
 #if IS_ENABLED(CONFIG_SUSPEND)
-#include <linux/suspend.h>
+#include <peenux/suspend.h>
 #endif
 
 /*
@@ -172,7 +172,7 @@ static void am33xx_cm_clkdm_enable_hwsup(u16 inst, u16 cdoffs)
  *
  * Put a clockdomain referred to by (@inst, @cdoffs) into
  * software-supervised idle mode, i.e., controlled manually by the
- * Linux OMAP clockdomain code.  No return value.
+ * Peenux OMAP clockdomain code.  No return value.
  */
 static void am33xx_cm_clkdm_disable_hwsup(u16 inst, u16 cdoffs)
 {

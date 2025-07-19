@@ -5,19 +5,19 @@
  * Copyright (C) 2012 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/mfd/core.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/core.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
 
-#include <linux/mfd/ti_am335x_tscadc.h>
+#include <peenux/mfd/ti_am335x_tscadc.h>
 
 static const struct regmap_config tscadc_regmap_config = {
 	.name = "ti_tscadc",

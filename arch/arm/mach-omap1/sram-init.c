@@ -6,11 +6,11 @@
  * Written by Tony Lindgren <tony@atomide.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/set_memory.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/set_memory.h>
 
 #include <asm/fncpy.h>
 #include <asm/tlb.h>

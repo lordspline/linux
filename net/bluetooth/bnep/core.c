@@ -1,5 +1,5 @@
 /*
-   BNEP implementation for Linux Bluetooth stack (BlueZ).
+   BNEP implementation for Peenux Bluetooth stack (BlueZ).
    Copyright (C) 2001-2002 Inventel Systemes
    Written 2001-2002 by
 	Clément Moreau <clement.moreau@inventel.fr>
@@ -25,11 +25,11 @@
    SOFTWARE IS DISCLAIMED.
 */
 
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/file.h>
-#include <linux/etherdevice.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/kthread.h>
+#include <peenux/file.h>
+#include <peenux/etherdevice.h>
+#include <peenux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/l2cap.h>

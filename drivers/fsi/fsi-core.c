@@ -10,19 +10,19 @@
  *  - s/cfam/chip (cfam_id -> chip_id etc...)
  */
 
-#include <linux/crc4.h>
-#include <linux/device.h>
-#include <linux/fsi.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
+#include <peenux/crc4.h>
+#include <peenux/device.h>
+#include <peenux/fsi.h>
+#include <peenux/idr.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_device.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/cdev.h>
+#include <peenux/fs.h>
+#include <peenux/uaccess.h>
 
 #include "fsi-master.h"
 #include "fsi-slave.h"
@@ -1359,7 +1359,7 @@ void fsi_master_unregister(struct fsi_master *master)
 }
 EXPORT_SYMBOL_GPL(fsi_master_unregister);
 
-/* FSI core & Linux bus type definitions */
+/* FSI core & Peenux bus type definitions */
 
 static int fsi_bus_match(struct device *dev, const struct device_driver *drv)
 {

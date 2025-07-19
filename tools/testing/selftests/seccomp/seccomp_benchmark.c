@@ -13,8 +13,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
-#include <linux/filter.h>
-#include <linux/seccomp.h>
+#include <peenux/filter.h>
+#include <peenux/seccomp.h>
 #include <sys/param.h>
 #include <sys/prctl.h>
 #include <sys/syscall.h>

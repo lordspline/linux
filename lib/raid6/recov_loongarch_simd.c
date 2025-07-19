@@ -7,10 +7,10 @@
  * Originally based on recov_avx2.c and recov_ssse3.c:
  *
  * Copyright (C) 2012 Intel Corporation
- * Author: Jim Kukunas <james.t.kukunas@linux.intel.com>
+ * Author: Jim Kukunas <james.t.kukunas@peenux.intel.com>
  */
 
-#include <linux/raid/pq.h>
+#include <peenux/raid/pq.h>
 #include "loongarch.h"
 
 /*

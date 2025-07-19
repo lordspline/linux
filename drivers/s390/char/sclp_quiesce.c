@@ -7,12 +7,12 @@
  *             Peter Oberparleiter <peter.oberparleiter@de.ibm.com>
  */
 
-#include <linux/types.h>
-#include <linux/cpumask.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/reboot.h>
-#include <linux/atomic.h>
+#include <peenux/types.h>
+#include <peenux/cpumask.h>
+#include <peenux/smp.h>
+#include <peenux/init.h>
+#include <peenux/reboot.h>
+#include <peenux/atomic.h>
 #include <asm/ptrace.h>
 #include <asm/smp.h>
 

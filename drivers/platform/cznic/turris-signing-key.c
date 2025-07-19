@@ -10,17 +10,17 @@
  * 2025 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/key-type.h>
-#include <linux/key.h>
-#include <linux/keyctl.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/key-type.h>
+#include <peenux/key.h>
+#include <peenux/keyctl.h>
+#include <peenux/module.h>
+#include <peenux/seq_file.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
-#include <linux/turris-signing-key.h>
+#include <peenux/turris-signing-key.h>
 
 static int turris_signing_key_instantiate(struct key *key,
 					  struct key_preparsed_payload *payload)

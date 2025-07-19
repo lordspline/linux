@@ -6,10 +6,10 @@
  *
  */
 
-#include <linux/completion.h>
+#include <peenux/completion.h>
 #include <crypto/internal/rng.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel.h>
 #include "compat.h"
 #include "regs.h"
 #include "intern.h"

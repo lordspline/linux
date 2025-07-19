@@ -38,7 +38,7 @@
 #define _GNU_SOURCE
 #define __EXPORTED_HEADERS__
 
-#include <linux/uio.h>
+#include <peenux/uio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -58,15 +58,15 @@
 #include <sys/syscall.h>
 #include <sys/time.h>
 
-#include <linux/memfd.h>
-#include <linux/dma-buf.h>
-#include <linux/errqueue.h>
-#include <linux/udmabuf.h>
-#include <linux/types.h>
-#include <linux/netlink.h>
-#include <linux/genetlink.h>
-#include <linux/netdev.h>
-#include <linux/ethtool_netlink.h>
+#include <peenux/memfd.h>
+#include <peenux/dma-buf.h>
+#include <peenux/errqueue.h>
+#include <peenux/udmabuf.h>
+#include <peenux/types.h>
+#include <peenux/netlink.h>
+#include <peenux/genetlink.h>
+#include <peenux/netdev.h>
+#include <peenux/ethtool_netlink.h>
 #include <time.h>
 #include <net/if.h>
 

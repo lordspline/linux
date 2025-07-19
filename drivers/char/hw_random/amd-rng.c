@@ -24,12 +24,12 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/delay.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #define DRV_NAME "AMD768-HWRNG"
 
@@ -217,6 +217,6 @@ static void __exit amd_rng_mod_exit(void)
 module_init(amd_rng_mod_init);
 module_exit(amd_rng_mod_exit);
 
-MODULE_AUTHOR("The Linux Kernel team");
+MODULE_AUTHOR("The Peenux Kernel team");
 MODULE_DESCRIPTION("H/W RNG driver for AMD chipsets");
 MODULE_LICENSE("GPL");

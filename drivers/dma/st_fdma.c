@@ -8,15 +8,15 @@
  *	   Peter Griffin <peter.griffin@linaro.org>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/interrupt.h>
-#include <linux/remoteproc.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/interrupt.h>
+#include <peenux/remoteproc.h>
+#include <peenux/slab.h>
 
 #include "st_fdma.h"
 

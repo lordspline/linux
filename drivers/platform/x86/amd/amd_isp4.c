@@ -5,16 +5,16 @@
  * Copyright 2025 Advanced Micro Devices, Inc.
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/soc/amd/isp4_misc.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/soc/amd/isp4_misc.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #define AMDISP_OV05C10_I2C_ADDR		0x10
 #define AMDISP_OV05C10_HID		"OMNI5C10"

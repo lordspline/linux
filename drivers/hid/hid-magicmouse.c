@@ -11,12 +11,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/input/mt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/input/mt.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 #include "hid-ids.h"
 

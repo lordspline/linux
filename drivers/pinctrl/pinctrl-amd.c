@@ -8,30 +8,30 @@
  *
  */
 
-#include <linux/err.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/log2.h>
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/acpi.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/bitops.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/string_choices.h>
-#include <linux/suspend.h>
+#include <peenux/err.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/log2.h>
+#include <peenux/io.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/mutex.h>
+#include <peenux/acpi.h>
+#include <peenux/seq_file.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/bitops.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/string_choices.h>
+#include <peenux/suspend.h>
 
 #include "core.h"
 #include "pinctrl-utils.h"

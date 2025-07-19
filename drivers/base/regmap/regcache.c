@@ -6,11 +6,11 @@
 //
 // Author: Dimitris Papastamos <dp@opensource.wolfsonmicro.com>
 
-#include <linux/bsearch.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
+#include <peenux/bsearch.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
 
 #include "trace.h"
 #include "internal.h"

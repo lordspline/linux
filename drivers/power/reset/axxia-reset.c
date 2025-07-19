@@ -4,17 +4,17 @@
  *
  * Copyright (C) 2014 LSI
  */
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/regmap.h>
 
 #define SC_CRIT_WRITE_KEY	0x1000
 #define SC_LATCH_ON_RESET	0x1004

@@ -8,8 +8,8 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
 
 #include "dcmipp-common.h"
 

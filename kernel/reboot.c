@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/kernel/reboot.c
+ *  peenux/kernel/reboot.c
  *
  *  Copyright (C) 2013  Linus Torvalds
  */
 
 #define pr_fmt(fmt)	"reboot: " fmt
 
-#include <linux/atomic.h>
-#include <linux/ctype.h>
-#include <linux/export.h>
-#include <linux/kexec.h>
-#include <linux/kmod.h>
-#include <linux/kmsg_dump.h>
-#include <linux/reboot.h>
-#include <linux/suspend.h>
-#include <linux/syscalls.h>
-#include <linux/syscore_ops.h>
-#include <linux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/ctype.h>
+#include <peenux/export.h>
+#include <peenux/kexec.h>
+#include <peenux/kmod.h>
+#include <peenux/kmsg_dump.h>
+#include <peenux/reboot.h>
+#include <peenux/suspend.h>
+#include <peenux/syscalls.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/uaccess.h>
 
 /*
  * this indicates whether you can reboot with ctrl-alt-del: the default is yes

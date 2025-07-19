@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Qualcomm Technology Inc. ADSP Peripheral Image Loader for SDM845.
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/soc/qcom/mdt_loader.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/soc/qcom/smem_state.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iommu.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_reserved_mem.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/remoteproc.h>
+#include <peenux/reset.h>
+#include <peenux/soc/qcom/mdt_loader.h>
+#include <peenux/soc/qcom/smem.h>
+#include <peenux/soc/qcom/smem_state.h>
 
 #include "qcom_common.h"
 #include "qcom_pil_info.h"

@@ -1,5 +1,5 @@
 /*
-   BlueZ - Bluetooth protocol stack for Linux
+   BlueZ - Bluetooth protocol stack for Peenux
    Copyright (C) 2000-2001 Qualcomm Incorporated
 
    Written 2000,2001 by Maxim Krasnyansky <maxk@qualcomm.com>
@@ -24,18 +24,18 @@
 
 /* Bluetooth address family and sockets. */
 
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/stringify.h>
-#include <linux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/debugfs.h>
+#include <peenux/stringify.h>
+#include <peenux/sched/signal.h>
 
 #include <asm/ioctls.h>
 
 #include <net/bluetooth/bluetooth.h>
-#include <linux/proc_fs.h>
+#include <peenux/proc_fs.h>
 
-#include <linux/ethtool.h>
-#include <linux/sockios.h>
+#include <peenux/ethtool.h>
+#include <peenux/sockios.h>
 
 #include "leds.h"
 #include "selftest.h"

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/netlink.h>
-#include <linux/nospec.h>
-#include <linux/rtnetlink.h>
-#include <linux/types.h>
+#include <peenux/netlink.h>
+#include <peenux/nospec.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/types.h>
 #include <net/ip.h>
 #include <net/net_namespace.h>
 #include <net/tcp.h>

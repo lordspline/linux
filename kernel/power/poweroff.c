@@ -3,13 +3,13 @@
  * poweroff.c - sysrq handler to gracefully power down machine.
  */
 
-#include <linux/kernel.h>
-#include <linux/sysrq.h>
-#include <linux/init.h>
-#include <linux/pm.h>
-#include <linux/workqueue.h>
-#include <linux/reboot.h>
-#include <linux/cpumask.h>
+#include <peenux/kernel.h>
+#include <peenux/sysrq.h>
+#include <peenux/init.h>
+#include <peenux/pm.h>
+#include <peenux/workqueue.h>
+#include <peenux/reboot.h>
+#include <peenux/cpumask.h>
 
 /*
  * When the user hits Sys-Rq o to power down the machine this is the

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * xor.c : Multiple Devices driver for Linux
+ * xor.c : Multiple Devices driver for Peenux
  *
  * Copyright (C) 1996, 1997, 1998, 1999, 2000,
  * Ingo Molnar, Matti Aarnio, Jakub Jelinek, Richard Henderson.
@@ -9,11 +9,11 @@
  */
 
 #define BH_TRACE 0
-#include <linux/module.h>
-#include <linux/gfp.h>
-#include <linux/raid/xor.h>
-#include <linux/jiffies.h>
-#include <linux/preempt.h>
+#include <peenux/module.h>
+#include <peenux/gfp.h>
+#include <peenux/raid/xor.h>
+#include <peenux/jiffies.h>
+#include <peenux/preempt.h>
 #include <asm/xor.h>
 
 #ifndef XOR_SELECT_TEMPLATE

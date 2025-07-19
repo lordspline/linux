@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -23,19 +23,19 @@
 
 #define pr_fmt(fmt) "IPv4: " fmt
 
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/jiffies.h>
-#include <linux/skbuff.h>
-#include <linux/list.h>
-#include <linux/ip.h>
-#include <linux/icmp.h>
-#include <linux/netdevice.h>
-#include <linux/jhash.h>
-#include <linux/random.h>
-#include <linux/slab.h>
+#include <peenux/compiler.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/mm.h>
+#include <peenux/jiffies.h>
+#include <peenux/skbuff.h>
+#include <peenux/list.h>
+#include <peenux/ip.h>
+#include <peenux/icmp.h>
+#include <peenux/netdevice.h>
+#include <peenux/jhash.h>
+#include <peenux/random.h>
+#include <peenux/slab.h>
 #include <net/route.h>
 #include <net/dst.h>
 #include <net/sock.h>
@@ -44,10 +44,10 @@
 #include <net/checksum.h>
 #include <net/inetpeer.h>
 #include <net/inet_frag.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/inet.h>
-#include <linux/netfilter_ipv4.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/inet.h>
+#include <peenux/netfilter_ipv4.h>
 #include <net/inet_ecn.h>
 #include <net/l3mdev.h>
 

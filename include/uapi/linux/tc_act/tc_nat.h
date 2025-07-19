@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef __LINUX_TC_NAT_H
 #define __LINUX_TC_NAT_H
 
-#include <linux/pkt_cls.h>
-#include <linux/types.h>
+#include <peenux/pkt_cls.h>
+#include <peenux/types.h>
 
 enum {
 	TCA_NAT_UNSPEC,

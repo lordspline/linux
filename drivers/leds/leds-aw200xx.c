@@ -7,18 +7,18 @@
  * Author: Martin Kurbanov <mmkurbanov@sberdevices.ru>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/time.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/container_of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/leds.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/time.h>
+#include <peenux/units.h>
 
 #define AW200XX_DIM_MAX                  (BIT(6) - 1)
 #define AW200XX_FADE_MAX                 (BIT(8) - 1)

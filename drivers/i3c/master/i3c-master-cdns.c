@@ -5,23 +5,23 @@
  * Author: Boris Brezillon <boris.brezillon@bootlin.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/i3c/master.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/i3c/master.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 #define DEV_ID				0x0
 #define DEV_ID_I3C_MASTER		0x5034

@@ -2,14 +2,14 @@
 /*
  * Copyright (C) 2013--2024 Intel Corporation
  */
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-subdev.h>

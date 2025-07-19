@@ -3,10 +3,10 @@
 #include <inttypes.h>
 #include <string.h>
 
-#include <linux/compiler.h>
-#include <linux/perf_event.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/perf_event.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
 #include <asm/barrier.h>
 

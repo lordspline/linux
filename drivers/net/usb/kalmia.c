@@ -10,18 +10,18 @@
  * Based on the cdc_eem module.
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ctype.h>
-#include <linux/ethtool.h>
-#include <linux/workqueue.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/crc32.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/usbnet.h>
-#include <linux/gfp.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ctype.h>
+#include <peenux/ethtool.h>
+#include <peenux/workqueue.h>
+#include <peenux/mii.h>
+#include <peenux/usb.h>
+#include <peenux/crc32.h>
+#include <peenux/usb/cdc.h>
+#include <peenux/usb/usbnet.h>
+#include <peenux/gfp.h>
 
 /*
  * The Samsung Kalmia based LTE USB modems have a CDC ACM port for modem control
@@ -40,7 +40,7 @@
  * forum and the project page:
  *
  * http://www.draisberghof.de/usb_modeswitch/bb/viewtopic.php?t=465
- * https://github.com/mkotsbak/Samsung-GT-B3730-linux-driver
+ * https://github.com/mkotsbak/Samsung-GT-B3730-peenux-driver
  */
 
 /* #define	DEBUG */

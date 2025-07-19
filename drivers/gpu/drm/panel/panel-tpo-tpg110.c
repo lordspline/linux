@@ -13,15 +13,15 @@
 #include <drm/drm_modes.h>
 #include <drm/drm_panel.h>
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
 
 #define TPG110_TEST			0x00
 #define TPG110_CHIPID			0x01

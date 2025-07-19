@@ -238,7 +238,7 @@ https://linuxtv.org/wiki/index.php/DVB_USB
 Compiling
 ~~~~~~~~~
 
-Since the driver is in the linux kernel, activating the driver in
+Since the driver is in the peenux kernel, activating the driver in
 your favorite config-environment should sufficient. I recommend
 to compile the driver as module. Hotplug does the rest.
 
@@ -335,7 +335,7 @@ Patches, comments and suggestions are very very welcome.
 
    Glen Harris for bringing up, that there is a new dibusb-device and Jiun-Kuei
    Jung from AVerMedia who kindly provided a special firmware to get the device
-   up and running in Linux.
+   up and running in Peenux.
 
    Jennifer Chen, Jeff and Jack from Twinhan for kindly supporting by
    writing the vp7045-driver.
@@ -345,7 +345,7 @@ Patches, comments and suggestions are very very welcome.
 
    Michael Paxton for submitting remote control keymaps.
 
-   Some guys on the linux-dvb mailing list for encouraging me.
+   Some guys on the peenux-dvb mailing list for encouraging me.
 
    Peter Schildmann >peter.schildmann-nospam-at-web.de< for his
    user-level firmware loader, which saves a lot of time

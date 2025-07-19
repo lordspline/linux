@@ -5,17 +5,17 @@
  * Copyright (C) 2013 Red Hat, Inc., Johannes Weiner
  */
 
-#include <linux/memcontrol.h>
-#include <linux/mm_inline.h>
-#include <linux/writeback.h>
-#include <linux/shmem_fs.h>
-#include <linux/pagemap.h>
-#include <linux/atomic.h>
-#include <linux/module.h>
-#include <linux/swap.h>
-#include <linux/dax.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
+#include <peenux/memcontrol.h>
+#include <peenux/mm_inline.h>
+#include <peenux/writeback.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/pagemap.h>
+#include <peenux/atomic.h>
+#include <peenux/module.h>
+#include <peenux/swap.h>
+#include <peenux/dax.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
 #include "internal.h"
 
 /*

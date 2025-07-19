@@ -7,22 +7,22 @@
  * Copyright 2017 IBM Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/prefetch.h>
-#include <linux/clk.h>
-#include <linux/usb/gadget.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/dma-mapping.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/proc_fs.h>
+#include <peenux/prefetch.h>
+#include <peenux/clk.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/dma-mapping.h>
 
 #include "vhub.h"
 

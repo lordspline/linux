@@ -7,11 +7,11 @@
  * Author: Huacai Chen <chenhuacai@loongson.cn>
  * Copyright (C) 2024 Loongson Technology Corporation Limited
  */
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/units.h>
+#include <peenux/cpufreq.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/units.h>
 
 #include <asm/idle.h>
 #include <asm/loongarch.h>

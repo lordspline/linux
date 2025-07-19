@@ -6,9 +6,9 @@
 
 /* Support for NVIDIA specific attributes. */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/topology.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/topology.h>
 
 #include "arm_cspmu.h"
 

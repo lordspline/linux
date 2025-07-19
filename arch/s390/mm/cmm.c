@@ -7,19 +7,19 @@
  *
  */
 
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/gfp.h>
-#include <linux/sched.h>
-#include <linux/string_helpers.h>
-#include <linux/sysctl.h>
-#include <linux/swap.h>
-#include <linux/kthread.h>
-#include <linux/oom.h>
-#include <linux/uaccess.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/gfp.h>
+#include <peenux/sched.h>
+#include <peenux/string_helpers.h>
+#include <peenux/sysctl.h>
+#include <peenux/swap.h>
+#include <peenux/kthread.h>
+#include <peenux/oom.h>
+#include <peenux/uaccess.h>
 
 #include <asm/diag.h>
 

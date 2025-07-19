@@ -4,15 +4,15 @@
  * Copyright (C) 2010 Thomas Langer <thomas.langer@lantiq.com>
  * Copyright (C) 2010 John Crispin <john@phrozen.org>
  */
-#include <linux/io.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/list.h>
+#include <peenux/io.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
 
 #include <asm/time.h>
 #include <asm/irq.h>

@@ -5,16 +5,16 @@
  *
  * This code is GPL
  */
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/partitions.h>
 
 #include <asm/io.h>
 #include <asm/hardware/dec21285.h>

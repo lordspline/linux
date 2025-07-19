@@ -7,9 +7,9 @@
 
 #include "cx23885.h"
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
 #include <asm/io.h>
 
 #include <media/v4l2-common.h>

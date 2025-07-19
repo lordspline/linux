@@ -1,4 +1,4 @@
-/* starfire.c: Linux device driver for the Adaptec Starfire network adapter. */
+/* starfire.c: Peenux device driver for the Adaptec Starfire network adapter. */
 /*
 	Written 1998-2000 by Donald Becker.
 
@@ -28,22 +28,22 @@
 
 #define DRV_NAME	"starfire"
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/crc32.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/if_vlan.h>
-#include <linux/mm.h>
-#include <linux/firmware.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/crc32.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/if_vlan.h>
+#include <peenux/mm.h>
+#include <peenux/firmware.h>
 #include <asm/processor.h>		/* Processor type for cache alignment. */
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 
 /*

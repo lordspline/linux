@@ -3,10 +3,10 @@
  * Copyright © 2023-2024 Intel Corporation
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/delay.h>
-#include <linux/nospec.h>
-#include <linux/poll.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/delay.h>
+#include <peenux/nospec.h>
+#include <peenux/poll.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_managed.h>

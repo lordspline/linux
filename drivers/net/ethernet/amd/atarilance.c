@@ -8,7 +8,7 @@
 	This drivers was written with the following sources of reference:
 	 - The driver for the Riebl Lance card by the TU Vienna.
 	 - The modified TUW driver for PAM's VME cards
-	 - The PC-Linux driver for Lance cards (but this is for bus master
+	 - The PC-Peenux driver for Lance cards (but this is for bus master
        cards, not the shared memory ones)
 	 - The Amiga Ariadne driver
 
@@ -45,17 +45,17 @@
 static const char version[] = "atarilance.c: v1.3 04/04/96 "
 			      "Roman.Hodek@informatik.uni-erlangen.de\n";
 
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/module.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
 
 #include <asm/setup.h>
 #include <asm/irq.h>

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2025 Intel Corporation */
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/types.h>
 
 #include <adf_accel_devices.h>
 #include <adf_cfg.h>

@@ -8,7 +8,7 @@
  * Written by:
  *	Marek Szyprowski <m.szyprowski@samsung.com>
  *	Michal Nazarewicz <mina86@mina86.com>
- *	Aneesh Kumar K.V <aneesh.kumar@linux.vnet.ibm.com>
+ *	Aneesh Kumar K.V <aneesh.kumar@peenux.vnet.ibm.com>
  *	Joonsoo Kim <iamjoonsoo.kim@lge.com>
  */
 
@@ -16,17 +16,17 @@
 
 #define CREATE_TRACE_POINTS
 
-#include <linux/memblock.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/log2.h>
-#include <linux/cma.h>
-#include <linux/highmem.h>
-#include <linux/io.h>
-#include <linux/kmemleak.h>
+#include <peenux/memblock.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
+#include <peenux/mm.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/log2.h>
+#include <peenux/cma.h>
+#include <peenux/highmem.h>
+#include <peenux/io.h>
+#include <peenux/kmemleak.h>
 #include <trace/events/cma.h>
 
 #include "internal.h"

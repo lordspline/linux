@@ -13,15 +13,15 @@
  *  Copyright (C) 2000 Philip Edelbrock <phil@stimpy.netroedge.com>
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pinctrl/consumer.h>
 
 #include "i2c-at91.h"
 

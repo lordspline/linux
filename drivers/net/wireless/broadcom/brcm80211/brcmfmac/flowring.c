@@ -4,9 +4,9 @@
  */
 
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <peenux/types.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
 #include <brcmu_utils.h>
 
 #include "core.h"

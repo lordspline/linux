@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: (GPL-2.0 OR Linux-OpenIB) OR BSD-2-Clause */
+/* SPDX-License-Identifier: (GPL-2.0 OR Peenux-OpenIB) OR BSD-2-Clause */
 /* Copyright(c) 2023 Advanced Micro Devices, Inc. */
 
 #ifndef _PDS_COMMON_H_
 #define _PDS_COMMON_H_
 
-#include <linux/notifier.h>
+#include <peenux/notifier.h>
 
 #define PDS_CORE_DRV_NAME			"pds_core"
 

@@ -6,14 +6,14 @@
  * Author: Mathieu Poirier <mathieu.poirier@linaro.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/coresight-pmu.h>
-#include <linux/err.h>
-#include <linux/log2.h>
-#include <linux/types.h>
-#include <linux/zalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/coresight-pmu.h>
+#include <peenux/err.h>
+#include <peenux/log2.h>
+#include <peenux/types.h>
+#include <peenux/zalloc.h>
 
 #include <stdlib.h>
 

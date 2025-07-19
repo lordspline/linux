@@ -13,31 +13,31 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/platform_data/x86/asus-wmi.h>
-#include <linux/platform_device.h>
-#include <linux/platform_profile.h>
-#include <linux/power_supply.h>
-#include <linux/rfkill.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/acpi.h>
+#include <peenux/backlight.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/dmi.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pci_hotplug.h>
+#include <peenux/platform_data/x86/asus-wmi.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_profile.h>
+#include <peenux/power_supply.h>
+#include <peenux/rfkill.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #include <acpi/battery.h>
 #include <acpi/video.h>

@@ -5,24 +5,24 @@
  * Copyright (c) 2008 Applied Micro Circuits Corporation.
  * All rights reserved. James Hsiao <jhsiao@amcc.com>
  *
- * This file implements AMCC crypto offload Linux device driver for use with
- * Linux CryptoAPI.
+ * This file implements AMCC crypto offload Peenux device driver for use with
+ * Peenux CryptoAPI.
  */
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock_types.h>
-#include <linux/random.h>
-#include <linux/scatterlist.h>
-#include <linux/crypto.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/random.h>
+#include <peenux/scatterlist.h>
+#include <peenux/crypto.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/slab.h>
 #include <asm/dcr.h>
 #include <asm/dcr-regs.h>
 #include <asm/cacheflush.h>
@@ -1394,7 +1394,7 @@ static int crypto4xx_probe(struct platform_device *ofdev)
 	/* need to setup pdr, rdr, gdr and sdr before this */
 	crypto4xx_hw_init(core_dev->dev);
 
-	/* Register security algorithms with Linux CryptoAPI */
+	/* Register security algorithms with Peenux CryptoAPI */
 	rc = crypto4xx_register_alg(core_dev->dev, crypto4xx_alg,
 			       ARRAY_SIZE(crypto4xx_alg));
 	if (rc)
@@ -1420,7 +1420,7 @@ static void crypto4xx_remove(struct platform_device *ofdev)
 	ppc4xx_trng_remove(core_dev);
 
 	tasklet_kill(&core_dev->tasklet);
-	/* Un-register with Linux CryptoAPI */
+	/* Un-register with Peenux CryptoAPI */
 	crypto4xx_unregister_alg(core_dev->dev);
 	/* Free all allocated memory */
 	crypto4xx_stop_all(core_dev);

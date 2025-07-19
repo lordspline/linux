@@ -7,15 +7,15 @@
  *   Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/hardirq.h>
-#include <linux/uaccess.h>
-#include <linux/ftrace.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/kmsan-checks.h>
-#include <linux/cpufeature.h>
-#include <linux/kprobes.h>
-#include <linux/execmem.h>
+#include <peenux/hardirq.h>
+#include <peenux/uaccess.h>
+#include <peenux/ftrace.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/kmsan-checks.h>
+#include <peenux/cpufeature.h>
+#include <peenux/kprobes.h>
+#include <peenux/execmem.h>
 #include <trace/syscall.h>
 #include <asm/asm-offsets.h>
 #include <asm/text-patching.h>

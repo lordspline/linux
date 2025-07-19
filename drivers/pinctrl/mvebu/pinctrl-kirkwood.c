@@ -5,14 +5,14 @@
  * Author: Sebastian Hesselbarth <sebastian.hesselbarth@gmail.com>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/property.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/property.h>
 
 #include "pinctrl-mvebu.h"
 

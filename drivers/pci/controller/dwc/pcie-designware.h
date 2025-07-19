@@ -11,19 +11,19 @@
 #ifndef _PCIE_DESIGNWARE_H
 #define _PCIE_DESIGNWARE_H
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/edma.h>
-#include <linux/gpio/consumer.h>
-#include <linux/irq.h>
-#include <linux/msi.h>
-#include <linux/pci.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma/edma.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/irq.h>
+#include <peenux/msi.h>
+#include <peenux/pci.h>
+#include <peenux/reset.h>
 
-#include <linux/pci-epc.h>
-#include <linux/pci-epf.h>
+#include <peenux/pci-epc.h>
+#include <peenux/pci-epf.h>
 
 #include "../../pci.h"
 

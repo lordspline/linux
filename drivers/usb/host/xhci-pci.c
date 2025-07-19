@@ -5,15 +5,15 @@
  * Copyright (C) 2008 Intel Corp.
  *
  * Author: Sarah Sharp
- * Some code borrowed from the Linux EHCI driver.
+ * Some code borrowed from the Peenux EHCI driver.
  */
 
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/reset.h>
-#include <linux/suspend.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/acpi.h>
+#include <peenux/reset.h>
+#include <peenux/suspend.h>
 
 #include "xhci.h"
 #include "xhci-trace.h"

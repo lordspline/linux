@@ -5,20 +5,20 @@
  * Copyright (c) 2009, Intel Corporation.
  */
 
-#include <linux/kernel.h>
-#include <linux/cpumask.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/kthread.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/freezer.h>
-#include <linux/cpu.h>
-#include <linux/tick.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/cpumask.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/kthread.h>
+#include <uapi/peenux/sched/types.h>
+#include <peenux/freezer.h>
+#include <peenux/cpu.h>
+#include <peenux/tick.h>
+#include <peenux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
 #include <asm/cpuid/api.h>
 #include <asm/mwait.h>
 #include <xen/xen.h>

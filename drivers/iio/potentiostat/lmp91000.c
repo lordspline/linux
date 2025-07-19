@@ -8,17 +8,17 @@
  * TODO: bias voltage + polarity control, and multiple chip support
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/regmap.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #define LMP91000_REG_LOCK		0x01
 #define LMP91000_REG_TIACN		0x10

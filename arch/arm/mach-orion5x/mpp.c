@@ -5,9 +5,9 @@
  * MPP functions for Marvell Orion 5x SoCs
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 #include <plat/mpp.h>
 #include "orion5x.h"
 #include "mpp.h"

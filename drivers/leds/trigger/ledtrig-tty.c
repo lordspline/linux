@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <uapi/linux/serial.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <uapi/peenux/serial.h>
 
 #define LEDTRIG_TTY_INTERVAL	50
 

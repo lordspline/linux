@@ -5,19 +5,19 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/bitmap.h>
-#include <linux/err.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/pwm.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/offload/provider.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/bitmap.h>
+#include <peenux/err.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/pwm.h>
+#include <peenux/spi/offload/consumer.h>
+#include <peenux/spi/offload/provider.h>
+#include <peenux/spi/spi.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/buffer-dmaengine.h>
+#include <peenux/iio/iio.h>
 
 #include <dt-bindings/iio/adc/adi,ad7606.h>
 

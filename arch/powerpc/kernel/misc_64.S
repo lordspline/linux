@@ -9,9 +9,9 @@
  * PPC64 updates by Dave Engebretsen (engebret@us.ibm.com)
  */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
-#include <linux/sys.h>
+#include <peenux/export.h>
+#include <peenux/linkage.h>
+#include <peenux/sys.h>
 #include <asm/unistd.h>
 #include <asm/errno.h>
 #include <asm/processor.h>

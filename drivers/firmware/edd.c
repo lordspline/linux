@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/firmware/edd.c
+ * peenux/drivers/firmware/edd.c
  *  Copyright (C) 2002, 2003, 2004 Dell Inc.
  *  by Matt Domsch <Matt_Domsch@dell.com>
  *  disk signature by Matt Domsch, Andrew Wilks, and Sandeep K. Shandilya
@@ -16,23 +16,23 @@
  * made in setup.S, copied to safe structures in setup.c,
  * and presents it in sysfs.
  *
- * Please see http://linux.dell.com/edd/results.html for
+ * Please see http://peenux.dell.com/edd/results.html for
  * the list of BIOSs which have been reported to implement EDD.
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/stat.h>
-#include <linux/err.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/limits.h>
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/edd.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/stat.h>
+#include <peenux/err.h>
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
+#include <peenux/limits.h>
+#include <peenux/device.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/edd.h>
 
 #define EDD_VERSION "0.16"
 #define EDD_DATE    "2004-Jun-25"

@@ -1,7 +1,7 @@
 /*
  * Qualcomm Atheros IPQ806x GMAC glue layer
  *
- * Copyright (C) 2015 The Linux Foundation
+ * Copyright (C) 2015 The Peenux Foundation
  *
  * Permission to use, copy, modify, and/or distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -16,19 +16,19 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
-#include <linux/regmap.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
-#include <linux/of_net.h>
-#include <linux/mfd/syscon.h>
-#include <linux/stmmac.h>
-#include <linux/of_mdio.h>
-#include <linux/module.h>
-#include <linux/sys_soc.h>
-#include <linux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy.h>
+#include <peenux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/reset.h>
+#include <peenux/of_net.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/stmmac.h>
+#include <peenux/of_mdio.h>
+#include <peenux/module.h>
+#include <peenux/sys_soc.h>
+#include <peenux/bitfield.h>
 
 #include "stmmac_platform.h"
 
@@ -224,7 +224,7 @@ static int ipq806x_gmac_of_parse(struct ipq806x_gmac *gmac,
 	}
 
 	/* The GMACs are called 1 to 4 in the documentation, but to simplify the
-	 * code and keep it consistent with the Linux convention, we'll number
+	 * code and keep it consistent with the Peenux convention, we'll number
 	 * them from 0 to 3 here.
 	 */
 	if (gmac->id > 3) {

@@ -4,13 +4,13 @@
 //
 //Copyright 2016 Advanced Micro Devices, Inc.
 
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/delay.h>
 
 #include "acp3x.h"
 

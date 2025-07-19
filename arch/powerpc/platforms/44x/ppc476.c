@@ -17,11 +17,11 @@
  *    Copyright © 2011 David Kliekamp IBM Corporation
  */
 
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/rtc.h>
 
 #include <asm/machdep.h>
 #include <asm/udbg.h>
@@ -32,8 +32,8 @@
 #include <asm/mmu.h>
 #include <asm/swiotlb.h>
 
-#include <linux/pci.h>
-#include <linux/i2c.h>
+#include <peenux/pci.h>
+#include <peenux/i2c.h>
 
 static const struct of_device_id ppc47x_of_bus[] __initconst = {
 	{ .compatible = "ibm,plb4", },

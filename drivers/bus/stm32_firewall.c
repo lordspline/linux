@@ -3,20 +3,20 @@
  * Copyright (C) 2023, STMicroelectronics - All Rights Reserved
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/bus/stm32_firewall_device.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/bus/stm32_firewall_device.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
 
 #include "stm32_firewall.h"
 

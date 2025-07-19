@@ -10,8 +10,8 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/slab.h>
-#include <linux/thermal.h>
+#include <peenux/slab.h>
+#include <peenux/thermal.h>
 
 #include "thermal_core.h"
 

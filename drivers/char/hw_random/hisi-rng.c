@@ -3,14 +3,14 @@
  * Copyright (C) 2016 HiSilicon Co., Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/random.h>
 
 #define RNG_SEED	0x0
 #define RNG_CTRL	0x4

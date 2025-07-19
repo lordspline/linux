@@ -12,21 +12,21 @@
  *
  * Author: John Stultz <john.stultz@linaro.org>
  */
-#include <linux/time.h>
-#include <linux/hrtimer.h>
-#include <linux/timerqueue.h>
-#include <linux/rtc.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/alarmtimer.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/posix-timers.h>
-#include <linux/workqueue.h>
-#include <linux/freezer.h>
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/time_namespace.h>
+#include <peenux/time.h>
+#include <peenux/hrtimer.h>
+#include <peenux/timerqueue.h>
+#include <peenux/rtc.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/debug.h>
+#include <peenux/alarmtimer.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/posix-timers.h>
+#include <peenux/workqueue.h>
+#include <peenux/freezer.h>
+#include <peenux/compat.h>
+#include <peenux/module.h>
+#include <peenux/time_namespace.h>
 
 #include "posix-timers.h"
 

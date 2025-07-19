@@ -5,12 +5,12 @@
  *         Felix Fietkau <nbd@nbd.name>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
 #include "mt7615.h"
 
 int mt7622_wmac_init(struct mt7615_dev *dev)

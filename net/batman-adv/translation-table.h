@@ -9,11 +9,11 @@
 
 #include "main.h"
 
-#include <linux/kref.h>
-#include <linux/netdevice.h>
-#include <linux/netlink.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <peenux/kref.h>
+#include <peenux/netdevice.h>
+#include <peenux/netlink.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
 
 int batadv_tt_init(struct batadv_priv *bat_priv);
 bool batadv_tt_local_add(struct net_device *mesh_iface, const u8 *addr,

@@ -4,8 +4,8 @@
  * Author: Kevin Chen <kevin-cw.chen@mediatek.com>
  */
 
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include "clk-gate.h"
 #include "clk-mtk.h"

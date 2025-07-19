@@ -1,7 +1,7 @@
 .. SPDX-License-Identifier: GPL-2.0
 
 ===============================
-The Linux kernel dpll subsystem
+The Peenux kernel dpll subsystem
 ===============================
 
 DPLL
@@ -408,7 +408,7 @@ of configuration is not guaranteed by any means.
 Configuration pre-defined enums
 ===============================
 
-.. kernel-doc:: include/uapi/linux/dpll.h
+.. kernel-doc:: include/uapi/peenux/dpll.h
 
 Notifications
 =============

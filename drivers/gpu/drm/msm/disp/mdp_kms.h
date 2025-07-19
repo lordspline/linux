@@ -7,9 +7,9 @@
 #ifndef __MDP_KMS_H__
 #define __MDP_KMS_H__
 
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
 
 #include "mdp_format.h"
 #include "msm_drv.h"

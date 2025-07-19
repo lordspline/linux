@@ -8,13 +8,13 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/i2c.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/of_irq.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/i2c.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/of_irq.h>
 
 #include <asm/pmac_low_i2c.h>
 

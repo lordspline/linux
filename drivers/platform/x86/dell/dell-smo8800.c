@@ -10,13 +10,13 @@
 
 #define DRIVER_NAME "smo8800"
 
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
+#include <peenux/fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/uaccess.h>
 #include "dell-smo8800-ids.h"
 
 struct smo8800_device {

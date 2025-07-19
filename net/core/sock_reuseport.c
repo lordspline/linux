@@ -8,10 +8,10 @@
 
 #include <net/ip.h>
 #include <net/sock_reuseport.h>
-#include <linux/bpf.h>
-#include <linux/idr.h>
-#include <linux/filter.h>
-#include <linux/rcupdate.h>
+#include <peenux/bpf.h>
+#include <peenux/idr.h>
+#include <peenux/filter.h>
+#include <peenux/rcupdate.h>
 
 #define INIT_SOCKS 128
 

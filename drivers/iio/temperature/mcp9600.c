@@ -6,21 +6,21 @@
  * Author: <andrew.hepp@ahepp.dev>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
 
 /* MCP9600 registers */
 #define MCP9600_HOT_JUNCTION 0x0

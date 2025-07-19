@@ -5,18 +5,18 @@
  * Copyright (c) 2010 Ira W. Snyder <iws@ovro.caltech.edu>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
 
-#include <linux/mfd/janz.h>
+#include <peenux/mfd/janz.h>
 
 #define DRV_NAME "janz-ttl"
 

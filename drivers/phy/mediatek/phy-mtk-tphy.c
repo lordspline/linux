@@ -6,18 +6,18 @@
  */
 
 #include <dt-bindings/phy/phy.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/iopoll.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include "phy-mtk-io.h"
 

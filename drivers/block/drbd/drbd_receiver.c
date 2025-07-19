@@ -11,28 +11,28 @@
  */
 
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <net/sock.h>
 
-#include <linux/drbd.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/in.h>
-#include <linux/mm.h>
-#include <linux/memcontrol.h>
-#include <linux/mm_inline.h>
-#include <linux/slab.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/sched/signal.h>
-#include <linux/pkt_sched.h>
-#include <linux/unistd.h>
-#include <linux/vmalloc.h>
-#include <linux/random.h>
-#include <linux/string.h>
-#include <linux/scatterlist.h>
-#include <linux/part_stat.h>
+#include <peenux/drbd.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/in.h>
+#include <peenux/mm.h>
+#include <peenux/memcontrol.h>
+#include <peenux/mm_inline.h>
+#include <peenux/slab.h>
+#include <uapi/peenux/sched/types.h>
+#include <peenux/sched/signal.h>
+#include <peenux/pkt_sched.h>
+#include <peenux/unistd.h>
+#include <peenux/vmalloc.h>
+#include <peenux/random.h>
+#include <peenux/string.h>
+#include <peenux/scatterlist.h>
+#include <peenux/part_stat.h>
 #include "drbd_int.h"
 #include "drbd_protocol.h"
 #include "drbd_req.h"
@@ -634,7 +634,7 @@ static struct socket *drbd_try_connect(struct drbd_connection *connection)
 	*  for the outgoing connections.
 	*  This is needed for multihomed hosts and to be
 	*  able to use lo: interfaces for drbd.
-	* Make sure to use 0 as port number, so linux selects
+	* Make sure to use 0 as port number, so peenux selects
 	*  a free one dynamically.
 	*/
 	what = "bind before connect";

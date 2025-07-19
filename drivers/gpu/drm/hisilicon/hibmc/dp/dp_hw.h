@@ -4,8 +4,8 @@
 #ifndef DP_KAPI_H
 #define DP_KAPI_H
 
-#include <linux/types.h>
-#include <linux/delay.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
 #include <drm/drm_device.h>
 #include <drm/drm_encoder.h>
 #include <drm/drm_connector.h>

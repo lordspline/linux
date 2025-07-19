@@ -6,10 +6,10 @@
  * Copyright (C) 2003 Benjamin Herrenschmuidt (benh@kernel.crashing.org)
  * Copyright (C) 1997 Paul Mackerras (paulus@samba.org)
  */
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
 
 #include <asm/io.h>
 #include <asm/pci-bridge.h>

@@ -2,7 +2,7 @@
 /* Copyright 2017 Microsemi Corporation
  * Copyright 2018-2019 NXP
  */
-#include <linux/fsl/enetc_mdio.h>
+#include <peenux/fsl/enetc_mdio.h>
 #include <soc/mscc/ocelot_qsys.h>
 #include <soc/mscc/ocelot_vcap.h>
 #include <soc/mscc/ocelot_ana.h>
@@ -11,14 +11,14 @@
 #include <soc/mscc/ocelot_sys.h>
 #include <net/tc_act/tc_gate.h>
 #include <soc/mscc/ocelot.h>
-#include <linux/dsa/ocelot.h>
-#include <linux/pcs-lynx.h>
+#include <peenux/dsa/ocelot.h>
+#include <peenux/pcs-lynx.h>
 #include <net/pkt_sched.h>
-#include <linux/iopoll.h>
-#include <linux/mdio.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/time.h>
+#include <peenux/iopoll.h>
+#include <peenux/mdio.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/time.h>
 #include "felix.h"
 
 #define VSC9959_NUM_PORTS		6

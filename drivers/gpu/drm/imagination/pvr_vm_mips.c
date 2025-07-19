@@ -10,11 +10,11 @@
 #include "pvr_vm_mips.h"
 
 #include <drm/drm_managed.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/vmalloc.h>
 
 /**
  * pvr_vm_mips_init() - Initialise MIPS FW pagetable

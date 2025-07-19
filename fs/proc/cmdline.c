@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include "internal.h"
 
 static int cmdline_proc_show(struct seq_file *m, void *v)

@@ -9,15 +9,15 @@
 
 /***************************************************************************/
 
-#include <linux/clkdev.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/clk.h>
-#include <linux/memblock.h>
+#include <peenux/clkdev.h>
+#include <peenux/kernel.h>
+#include <peenux/param.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/clk.h>
+#include <peenux/memblock.h>
 #include <asm/pgalloc.h>
 #include <asm/machdep.h>
 #include <asm/coldfire.h>

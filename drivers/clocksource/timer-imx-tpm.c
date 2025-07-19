@@ -3,12 +3,12 @@
 // Copyright 2016 Freescale Semiconductor, Inc.
 // Copyright 2017 NXP
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/sched_clock.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/clocksource.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/sched_clock.h>
 
 #include "timer-of.h"
 

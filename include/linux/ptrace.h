@@ -2,14 +2,14 @@
 #ifndef _LINUX_PTRACE_H
 #define _LINUX_PTRACE_H
 
-#include <linux/compiler.h>		/* For unlikely.  */
-#include <linux/sched.h>		/* For struct task_struct.  */
-#include <linux/sched/signal.h>		/* For send_sig(), same_thread_group(), etc. */
-#include <linux/err.h>			/* for IS_ERR_VALUE */
-#include <linux/bug.h>			/* For BUG_ON.  */
-#include <linux/pid_namespace.h>	/* For task_active_pid_ns.  */
-#include <uapi/linux/ptrace.h>
-#include <linux/seccomp.h>
+#include <peenux/compiler.h>		/* For unlikely.  */
+#include <peenux/sched.h>		/* For struct task_struct.  */
+#include <peenux/sched/signal.h>		/* For send_sig(), same_thread_group(), etc. */
+#include <peenux/err.h>			/* for IS_ERR_VALUE */
+#include <peenux/bug.h>			/* For BUG_ON.  */
+#include <peenux/pid_namespace.h>	/* For task_active_pid_ns.  */
+#include <uapi/peenux/ptrace.h>
+#include <peenux/seccomp.h>
 
 /* Add sp to seccomp_data, as seccomp is user API, we don't want to modify it */
 struct syscall_info {

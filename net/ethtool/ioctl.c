@@ -7,32 +7,32 @@
  * the information ethtool needs.
  */
 
-#include <linux/compat.h>
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/net_tstamp.h>
-#include <linux/phy.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/sfp.h>
-#include <linux/slab.h>
-#include <linux/rtnetlink.h>
-#include <linux/sched/signal.h>
-#include <linux/net.h>
-#include <linux/pm_runtime.h>
-#include <linux/utsname.h>
+#include <peenux/compat.h>
+#include <peenux/etherdevice.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/ethtool.h>
+#include <peenux/netdevice.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/phy.h>
+#include <peenux/bitops.h>
+#include <peenux/uaccess.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sfp.h>
+#include <peenux/slab.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/sched/signal.h>
+#include <peenux/net.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/utsname.h>
 #include <net/devlink.h>
 #include <net/ipv6.h>
 #include <net/xdp_sock_drv.h>
 #include <net/flow_offload.h>
 #include <net/netdev_lock.h>
-#include <linux/ethtool_netlink.h>
+#include <peenux/ethtool_netlink.h>
 #include "common.h"
 
 /* State held across locks and calls for commands which have devlink fallback */

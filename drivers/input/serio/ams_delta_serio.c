@@ -17,13 +17,13 @@
  * However, when used with the E3 mailboard that producecs non-standard
  * scancodes, a custom key table must be prepared and loaded from userspace.
  */
-#include <linux/irq.h>
-#include <linux/platform_data/ams-delta-fiq.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/serio.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/irq.h>
+#include <peenux/platform_data/ams-delta-fiq.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/serio.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 #define DRIVER_NAME	"ams-delta-serio"
 

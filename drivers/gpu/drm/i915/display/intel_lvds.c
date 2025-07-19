@@ -1,6 +1,6 @@
 /*
  * Copyright © 2006-2007 Intel Corporation
- * Copyright (c) 2006 Dave Airlie <airlied@linux.ie>
+ * Copyright (c) 2006 Dave Airlie <airlied@peenux.ie>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -23,16 +23,16 @@
  *
  * Authors:
  *	Eric Anholt <eric@anholt.net>
- *      Dave Airlie <airlied@linux.ie>
+ *      Dave Airlie <airlied@peenux.ie>
  *      Jesse Barnes <jesse.barnes@intel.com>
  */
 
 #include <acpi/button.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/vga_switcheroo.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/vga_switcheroo.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_crtc.h>

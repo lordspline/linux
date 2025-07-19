@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2019, Linaro Limited
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/wcd934x/registers.h>
-#include <linux/mfd/wcd934x/wcd934x.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_clk.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/slimbus.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/wcd934x/registers.h>
+#include <peenux/mfd/wcd934x/wcd934x.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_clk.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/slimbus.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>

@@ -4,7 +4,7 @@
 
 #ifdef CONFIG_IA32_EMULATION
 
-#include <linux/compat.h>
+#include <peenux/compat.h>
 
 /*
  * 32 bit structures for IA32 support.

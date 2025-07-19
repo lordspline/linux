@@ -2,24 +2,24 @@
 /*
  * Copyright IBM Corporation, 2021
  *
- * Author: Mike Rapoport <rppt@linux.ibm.com>
+ * Author: Mike Rapoport <rppt@peenux.ibm.com>
  */
 
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/swap.h>
-#include <linux/mount.h>
-#include <linux/memfd.h>
-#include <linux/bitops.h>
-#include <linux/printk.h>
-#include <linux/pagemap.h>
-#include <linux/syscalls.h>
-#include <linux/pseudo_fs.h>
-#include <linux/secretmem.h>
-#include <linux/set_memory.h>
-#include <linux/sched/signal.h>
+#include <peenux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/swap.h>
+#include <peenux/mount.h>
+#include <peenux/memfd.h>
+#include <peenux/bitops.h>
+#include <peenux/printk.h>
+#include <peenux/pagemap.h>
+#include <peenux/syscalls.h>
+#include <peenux/pseudo_fs.h>
+#include <peenux/secretmem.h>
+#include <peenux/set_memory.h>
+#include <peenux/sched/signal.h>
 
-#include <uapi/linux/magic.h>
+#include <uapi/peenux/magic.h>
 
 #include <asm/tlbflush.h>
 

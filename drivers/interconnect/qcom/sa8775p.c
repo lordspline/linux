@@ -4,12 +4,12 @@
  * Copyright (c) 2023, Linaro Limited
  */
 
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/interconnect-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/interconnect.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 #include <dt-bindings/interconnect/qcom,sa8775p-rpmh.h>
 
 #include "bcm-voter.h"

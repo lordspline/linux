@@ -6,17 +6,17 @@
 
 #include "main.h"
 
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/moduleparam.h>
-#include <linux/netlink.h>
-#include <linux/printk.h>
-#include <linux/skbuff.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/moduleparam.h>
+#include <peenux/netlink.h>
+#include <peenux/printk.h>
+#include <peenux/skbuff.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
 #include <net/genetlink.h>
 #include <net/netlink.h>
-#include <uapi/linux/batman_adv.h>
+#include <uapi/peenux/batman_adv.h>
 
 #include "bat_algo.h"
 #include "netlink.h"

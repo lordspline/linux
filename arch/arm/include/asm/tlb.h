@@ -18,7 +18,7 @@
 
 #ifndef CONFIG_MMU
 
-#include <linux/pagemap.h>
+#include <peenux/pagemap.h>
 
 #define tlb_flush(tlb)	((void) tlb)
 

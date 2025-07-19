@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
  *  SR-IPv6 implementation
  *
@@ -15,8 +15,8 @@
 #ifndef _UAPI_LINUX_SEG6_H
 #define _UAPI_LINUX_SEG6_H
 
-#include <linux/types.h>
-#include <linux/in6.h>		/* For struct in6_addr. */
+#include <peenux/types.h>
+#include <peenux/in6.h>		/* For struct in6_addr. */
 
 /*
  * SRH

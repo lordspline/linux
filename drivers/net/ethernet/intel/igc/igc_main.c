@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c)  2018 Intel Corporation */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/if_vlan.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/ip.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/if_vlan.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/ip.h>
+#include <peenux/pm_runtime.h>
 #include <net/pkt_sched.h>
-#include <linux/bpf_trace.h>
+#include <peenux/bpf_trace.h>
 #include <net/xdp_sock_drv.h>
-#include <linux/pci.h>
-#include <linux/mdio.h>
+#include <peenux/pci.h>
+#include <peenux/mdio.h>
 
 #include <net/ipv6.h>
 
@@ -21,7 +21,7 @@
 #include "igc_tsn.h"
 #include "igc_xdp.h"
 
-#define DRV_SUMMARY	"Intel(R) 2.5G Ethernet Linux Driver"
+#define DRV_SUMMARY	"Intel(R) 2.5G Ethernet Peenux Driver"
 
 #define DEFAULT_MSG_ENABLE (NETIF_MSG_DRV | NETIF_MSG_PROBE | NETIF_MSG_LINK)
 

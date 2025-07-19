@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2023 Intel Corporation */
 
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/export.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/time64.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/delay.h>
+#include <peenux/dev_printk.h>
+#include <peenux/export.h>
+#include <peenux/math.h>
+#include <peenux/minmax.h>
+#include <peenux/time64.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 #include <asm/errno.h>
 #include "adf_admin.h"
 #include "adf_accel_devices.h"

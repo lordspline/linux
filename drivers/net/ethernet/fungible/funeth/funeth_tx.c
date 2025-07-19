@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
 
-#include <linux/dma-mapping.h>
-#include <linux/ip.h>
-#include <linux/pci.h>
-#include <linux/skbuff.h>
-#include <linux/tcp.h>
-#include <uapi/linux/udp.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/ip.h>
+#include <peenux/pci.h>
+#include <peenux/skbuff.h>
+#include <peenux/tcp.h>
+#include <uapi/peenux/udp.h>
 #include "funeth.h"
 #include "funeth_ktls.h"
 #include "funeth_txrx.h"

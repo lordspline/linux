@@ -5,12 +5,12 @@
  * Copyright (C) 2020 Jiaxun Yang <jiaxun.yang@flygoat.com>
  */
 
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/pci-acpi.h>
-#include <linux/pci-ecam.h>
+#include <peenux/of.h>
+#include <peenux/of_pci.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/pci-acpi.h>
+#include <peenux/pci-ecam.h>
 
 #include "../pci.h"
 

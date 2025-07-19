@@ -5,15 +5,15 @@
  * Copyright (C) 2012 VMware, Inc. All rights reserved.
  */
 
-#include <linux/vmw_vmci_defs.h>
-#include <linux/vmw_vmci_api.h>
-#include <linux/completion.h>
-#include <linux/hash.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/vmw_vmci_defs.h>
+#include <peenux/vmw_vmci_api.h>
+#include <peenux/completion.h>
+#include <peenux/hash.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 
 #include "vmci_datagram.h"
 #include "vmci_doorbell.h"

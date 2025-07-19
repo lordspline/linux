@@ -2,13 +2,13 @@
 #ifndef LINUX_MM_INLINE_H
 #define LINUX_MM_INLINE_H
 
-#include <linux/atomic.h>
-#include <linux/huge_mm.h>
-#include <linux/mm_types.h>
-#include <linux/swap.h>
-#include <linux/string.h>
-#include <linux/userfaultfd_k.h>
-#include <linux/swapops.h>
+#include <peenux/atomic.h>
+#include <peenux/huge_mm.h>
+#include <peenux/mm_types.h>
+#include <peenux/swap.h>
+#include <peenux/string.h>
+#include <peenux/userfaultfd_k.h>
+#include <peenux/swapops.h>
 
 /**
  * folio_is_file_lru - Should the folio be on a file LRU or anon LRU?

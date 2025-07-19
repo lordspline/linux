@@ -4,8 +4,8 @@
 * Author: Tiffany Lin <tiffany.lin@mediatek.com>
 */
 
-#include <linux/errno.h>
-#include <linux/wait.h>
+#include <peenux/errno.h>
+#include <peenux/wait.h>
 
 #include "../decoder/mtk_vcodec_dec_drv.h"
 #include "../encoder/mtk_vcodec_enc_drv.h"

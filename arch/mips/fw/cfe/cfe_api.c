@@ -13,9 +13,9 @@
  *
  * Authors:  Mitch Lichtenberg, Chris Demetriou
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/printk.h>
 #include <asm/mipsregs.h>
 #include <asm/fw/cfe/cfe_api.h>
 #include "cfe_api_int.h"

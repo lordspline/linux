@@ -5,9 +5,9 @@
  * Copyright 2018 Arm Limited
  * Author: Dave Martin <Dave.Martin@arm.com>
  */
-#include <linux/irqflags.h>
-#include <linux/sched.h>
-#include <linux/kvm_host.h>
+#include <peenux/irqflags.h>
+#include <peenux/sched.h>
+#include <peenux/kvm_host.h>
 #include <asm/fpsimd.h>
 #include <asm/kvm_asm.h>
 #include <asm/kvm_hyp.h>

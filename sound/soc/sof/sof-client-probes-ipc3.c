@@ -8,7 +8,7 @@
 //  Jyri Sarha <jyri.sarha@intel.com>
 //
 
-#include <linux/stddef.h>
+#include <peenux/stddef.h>
 #include <sound/soc.h>
 #include <sound/sof/header.h>
 #include "sof-client.h"

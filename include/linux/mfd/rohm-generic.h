@@ -4,8 +4,8 @@
 #ifndef __LINUX_MFD_ROHM_H__
 #define __LINUX_MFD_ROHM_H__
 
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
 
 enum rohm_chip_type {
 	ROHM_CHIP_TYPE_BD9571,

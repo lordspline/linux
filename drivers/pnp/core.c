@@ -5,17 +5,17 @@
  * Copyright 2002 Adam Belay <ambx1@neo.rr.com>
  */
 
-#include <linux/pnp.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/dma-mapping.h>
+#include <peenux/pnp.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/dma-mapping.h>
 
 #include "base.h"
 

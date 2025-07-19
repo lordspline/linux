@@ -12,13 +12,13 @@
 
 #define pr_fmt(fmt) "NMI watchdog: " fmt
 
-#include <linux/nmi.h>
-#include <linux/atomic.h>
-#include <linux/module.h>
-#include <linux/sched/debug.h>
+#include <peenux/nmi.h>
+#include <peenux/atomic.h>
+#include <peenux/module.h>
+#include <peenux/sched/debug.h>
 
 #include <asm/irq_regs.h>
-#include <linux/perf_event.h>
+#include <peenux/perf_event.h>
 
 static DEFINE_PER_CPU(struct perf_event *, watchdog_ev);
 

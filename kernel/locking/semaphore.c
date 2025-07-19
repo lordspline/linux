@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2008 Intel Corporation
- * Author: Matthew Wilcox <willy@linux.intel.com>
+ * Author: Matthew Wilcox <willy@peenux.intel.com>
  *
  * This file implements counting semaphores.
  * A counting semaphore may be acquired 'n' times before sleeping.
@@ -24,17 +24,17 @@
  * semaphore.  If it's zero, there may be tasks waiting on the wait_list.
  */
 
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/wake_q.h>
-#include <linux/semaphore.h>
-#include <linux/spinlock.h>
-#include <linux/ftrace.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/wake_q.h>
+#include <peenux/semaphore.h>
+#include <peenux/spinlock.h>
+#include <peenux/ftrace.h>
 #include <trace/events/lock.h>
-#include <linux/hung_task.h>
+#include <peenux/hung_task.h>
 
 static noinline void __down(struct semaphore *sem);
 static noinline int __down_interruptible(struct semaphore *sem);

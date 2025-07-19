@@ -3,13 +3,13 @@
  * Copyright (C) 2020 InvenSense, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
-#include <linux/property.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regmap.h>
+#include <peenux/property.h>
 
 #include "inv_icm42600.h"
 

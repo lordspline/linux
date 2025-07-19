@@ -6,13 +6,13 @@
  * This was based on the git SHA1 implementation.
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/string.h>
 #include <crypto/sha1.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /*
  * If you have 32 registers or more, the compiler can (and should)

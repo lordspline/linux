@@ -4,21 +4,21 @@
  * Copyright (c) 2014, Intel Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/events.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 #include "bmg160.h"
 
 #define BMG160_IRQ_NAME		"bmg160_event"
@@ -1266,6 +1266,6 @@ const struct dev_pm_ops bmg160_pm_ops = {
 };
 EXPORT_SYMBOL_GPL(bmg160_pm_ops);
 
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>");
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("BMG160 Gyro driver");

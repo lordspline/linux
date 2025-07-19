@@ -6,13 +6,13 @@
  * Copyright (C) 2005 Luben Tuikov <luben_tuikov@adaptec.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/slab.h>
 
 #include <scsi/sas_ata.h>
 #include <scsi/scsi_host.h>

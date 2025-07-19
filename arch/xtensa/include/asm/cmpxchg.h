@@ -13,9 +13,9 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/bits.h>
-#include <linux/stringify.h>
-#include <linux/cmpxchg-emu.h>
+#include <peenux/bits.h>
+#include <peenux/stringify.h>
+#include <peenux/cmpxchg-emu.h>
 
 /*
  * cmpxchg

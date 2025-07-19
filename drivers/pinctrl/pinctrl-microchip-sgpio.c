@@ -7,22 +7,22 @@
  * Copyright (c) 2020 Microchip Technology Inc. and its subsidiaries.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/mfd/ocelot.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/mfd/ocelot.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
 
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "core.h"
 #include "pinconf.h"

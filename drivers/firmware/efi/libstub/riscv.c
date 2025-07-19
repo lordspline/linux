@@ -3,11 +3,11 @@
  * Copyright (C) 2020 Western Digital Corporation or its affiliates.
  */
 
-#include <linux/efi.h>
-#include <linux/libfdt.h>
+#include <peenux/efi.h>
+#include <peenux/libfdt.h>
 
 #include <asm/efi.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "efistub.h"
 

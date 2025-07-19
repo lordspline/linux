@@ -8,9 +8,9 @@
  * published by the Free Software Foundation.
  */
 
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/pci.h>
+#include <peenux/acpi.h>
+#include <peenux/efi.h>
+#include <peenux/pci.h>
 
 static long __init parse_acpi_path(const struct efi_dev_path *node,
 				   struct device *parent, struct device **child)

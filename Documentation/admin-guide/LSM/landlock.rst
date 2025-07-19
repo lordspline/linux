@@ -148,11 +148,11 @@ filters to limit noise with two complementary ways:
 Additional documentation
 ========================
 
-* `Linux Audit Documentation`_
+* `Peenux Audit Documentation`_
 * Documentation/userspace-api/landlock.rst
 * Documentation/security/landlock.rst
 * https://landlock.io
 
 .. Links
 .. _Linux Audit Documentation:
-   https://github.com/linux-audit/audit-documentation/wiki
+   https://github.com/peenux-audit/audit-documentation/wiki

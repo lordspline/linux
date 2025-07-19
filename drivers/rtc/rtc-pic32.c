@@ -6,15 +6,15 @@
  * Copyright (C) 2016 Microchip Technology Inc.  All rights reserved.
  *
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/rtc.h>
+#include <peenux/bcd.h>
 
 #include <asm/mach-pic32/pic32.h>
 

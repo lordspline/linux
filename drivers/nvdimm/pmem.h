@@ -1,12 +1,12 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef __NVDIMM_PMEM_H__
 #define __NVDIMM_PMEM_H__
-#include <linux/page-flags.h>
-#include <linux/badblocks.h>
-#include <linux/memremap.h>
-#include <linux/types.h>
-#include <linux/pfn_t.h>
-#include <linux/fs.h>
+#include <peenux/page-flags.h>
+#include <peenux/badblocks.h>
+#include <peenux/memremap.h>
+#include <peenux/types.h>
+#include <peenux/pfn_t.h>
+#include <peenux/fs.h>
 
 enum dax_access_mode;
 

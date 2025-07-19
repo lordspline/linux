@@ -1,5 +1,5 @@
 ==================
-Linux Firmware API
+Peenux Firmware API
 ==================
 
 .. toctree::

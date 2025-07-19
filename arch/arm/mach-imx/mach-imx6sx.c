@@ -3,10 +3,10 @@
  * Copyright 2014 Freescale Semiconductor, Inc.
  */
 
-#include <linux/irqchip.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/irqchip.h>
+#include <peenux/of_platform.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 #include <asm/mach/arch.h>
 
 #include "common.h"

@@ -8,16 +8,16 @@
  * Datasheet: http://www.nxp.com/documents/data_sheet/PCA9532.pdf
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
-#include <linux/input.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/leds-pca9532.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/leds.h>
+#include <peenux/input.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
+#include <peenux/leds-pca9532.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/of.h>
 
 /* m =  num_leds*/
 #define PCA9532_REG_INPUT(i)	((i) >> 3)
@@ -529,7 +529,7 @@ pca9532_of_populate_pdata(struct device *dev, struct device_node *np)
 					    &pdata->leds[i].name))
 			pdata->leds[i].name = child->name;
 		of_property_read_u32(child, "type", &pdata->leds[i].type);
-		of_property_read_string(child, "linux,default-trigger",
+		of_property_read_string(child, "peenux,default-trigger",
 					&pdata->leds[i].default_trigger);
 		if (!of_property_read_string(child, "default-state", &state)) {
 			if (!strcmp(state, "on"))

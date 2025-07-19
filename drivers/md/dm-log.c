@@ -6,14 +6,14 @@
  * This file is released under the LGPL.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/dm-io.h>
-#include <linux/dm-dirty-log.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/vmalloc.h>
+#include <peenux/dm-io.h>
+#include <peenux/dm-dirty-log.h>
 
-#include <linux/device-mapper.h>
+#include <peenux/device-mapper.h>
 
 #define DM_MSG_PREFIX "dirty region log"
 
@@ -908,5 +908,5 @@ module_init(dm_dirty_log_init);
 module_exit(dm_dirty_log_exit);
 
 MODULE_DESCRIPTION(DM_NAME " dirty region log");
-MODULE_AUTHOR("Joe Thornber, Heinz Mauelshagen <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Joe Thornber, Heinz Mauelshagen <dm-devel@lists.peenux.dev>");
 MODULE_LICENSE("GPL");

@@ -7,27 +7,27 @@
  * Copyright 2017 IBM Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/prefetch.h>
-#include <linux/clk.h>
-#include <linux/usb/gadget.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
-#include <linux/dma-mapping.h>
-#include <linux/bcd.h>
-#include <linux/version.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/proc_fs.h>
+#include <peenux/prefetch.h>
+#include <peenux/clk.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/of.h>
+#include <peenux/regmap.h>
+#include <peenux/string_choices.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/bcd.h>
+#include <peenux/version.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 #include "vhub.h"
 
@@ -86,7 +86,7 @@ static const struct usb_qualifier_descriptor ast_vhub_qual_desc = {
  */
 
 /*
- * We don't use sizeof() as Linux definition of
+ * We don't use sizeof() as Peenux definition of
  * struct usb_endpoint_descriptor contains 2
  * extra bytes
  */

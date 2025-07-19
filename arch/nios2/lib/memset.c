@@ -7,8 +7,8 @@
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/string.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
 
 void *memset(void *s, int c, size_t count)
 {

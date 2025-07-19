@@ -3,11 +3,11 @@
  * Copyright (C) 2020-2025 Intel Corporation
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/workqueue.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/workqueue.h>
 #include <generated/utsrelease.h>
 
 #include <drm/drm_accel.h>

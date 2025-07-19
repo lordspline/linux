@@ -157,7 +157,7 @@ config DVB_USB_DIBUSB_MB
 	  DiBcom (<http://www.dibcom.fr>) equipped with a DiB3000M-B demodulator.
 
 	  For an up-to-date list of devices supported by this driver, have a look
-	  on the Linux-DVB Wiki at www.linuxtv.org.
+	  on the Peenux-DVB Wiki at www.linuxtv.org.
 
 	  Say Y if you own such a device and want to use it. You should build it as
 	  a module.
@@ -178,7 +178,7 @@ config DVB_USB_DIBUSB_MC
 	  DiBcom (<http://www.dibcom.fr>) equipped with a DiB3000M-C/P demodulator.
 
 	  For an up-to-date list of devices supported by this driver, have a look
-	  on the Linux-DVB Wiki at www.linuxtv.org.
+	  on the Peenux-DVB Wiki at www.linuxtv.org.
 
 	  Say Y if you own such a device and want to use it. You should build it as
 	  a module.

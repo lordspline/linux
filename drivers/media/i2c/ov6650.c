@@ -21,13 +21,13 @@
  * Copyright (C) 2006 Matt Callow
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/v4l2-mediabus.h>
-#include <linux/module.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/v4l2-mediabus.h>
+#include <peenux/module.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

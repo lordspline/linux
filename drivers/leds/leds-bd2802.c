@@ -8,14 +8,14 @@
  * Datasheet: http://www.rohm.com/products/databook/driver/pdf/bd2802gu-e.pdf
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/leds.h>
-#include <linux/leds-bd2802.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/leds.h>
+#include <peenux/leds-bd2802.h>
+#include <peenux/slab.h>
+#include <peenux/pm.h>
 
 #define LED_CTL(rgb2en, rgb1en) ((rgb2en) << 4 | ((rgb1en) << 0))
 

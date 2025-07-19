@@ -2,8 +2,8 @@
 #ifndef _GTP_H_
 #define _GTP_H_
 
-#include <linux/netdevice.h>
-#include <linux/types.h>
+#include <peenux/netdevice.h>
+#include <peenux/types.h>
 #include <net/rtnetlink.h>
 
 /* General GTP protocol related definitions. */

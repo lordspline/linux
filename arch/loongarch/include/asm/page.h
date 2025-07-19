@@ -5,7 +5,7 @@
 #ifndef _ASM_PAGE_H
 #define _ASM_PAGE_H
 
-#include <linux/const.h>
+#include <peenux/const.h>
 #include <asm/addrspace.h>
 
 #include <vdso/page.h>
@@ -17,8 +17,8 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/kernel.h>
-#include <linux/pfn.h>
+#include <peenux/kernel.h>
+#include <peenux/pfn.h>
 
 /*
  * It's normally defined only for FLATMEM config but it's

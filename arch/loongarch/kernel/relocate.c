@@ -5,11 +5,11 @@
  * Copyright (C) 2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/elf.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/panic_notifier.h>
-#include <linux/start_kernel.h>
+#include <peenux/elf.h>
+#include <peenux/kernel.h>
+#include <peenux/printk.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/start_kernel.h>
 #include <asm/bootinfo.h>
 #include <asm/early_ioremap.h>
 #include <asm/inst.h>

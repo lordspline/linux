@@ -20,13 +20,13 @@
  * details.
  */
 
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/list.h>
+#include <peenux/timer.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/list.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <scsi/fc/fc_gs.h>
 

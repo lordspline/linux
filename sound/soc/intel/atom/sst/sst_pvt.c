@@ -11,13 +11,13 @@
  *
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-#include <linux/kobject.h>
-#include <linux/pci.h>
-#include <linux/fs.h>
-#include <linux/firmware.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
+#include <peenux/kobject.h>
+#include <peenux/pci.h>
+#include <peenux/fs.h>
+#include <peenux/firmware.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
 #include <sound/asound.h>
 #include <sound/core.h>
 #include <sound/pcm.h>

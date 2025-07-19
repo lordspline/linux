@@ -6,8 +6,8 @@
 #ifndef __MP2629_H__
 #define __MP2629_H__
 
-#include <linux/device.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/regmap.h>
 
 struct mp2629_data {
 	struct device *dev;

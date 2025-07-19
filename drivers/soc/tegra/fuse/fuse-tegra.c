@@ -3,22 +3,22 @@
  * Copyright (c) 2013-2023, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/kobject.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/kobject.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/nvmem-consumer.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
 
 #include <soc/tegra/common.h>
 #include <soc/tegra/fuse.h>

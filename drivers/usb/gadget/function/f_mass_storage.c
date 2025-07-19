@@ -168,33 +168,33 @@
 /* #define VERBOSE_DEBUG */
 /* #define DUMP_MSGS */
 
-#include <linux/blkdev.h>
-#include <linux/completion.h>
-#include <linux/dcache.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fcntl.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/kstrtox.h>
-#include <linux/kthread.h>
-#include <linux/sched/signal.h>
-#include <linux/limits.h>
-#include <linux/pagemap.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/freezer.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
+#include <peenux/blkdev.h>
+#include <peenux/completion.h>
+#include <peenux/dcache.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/fcntl.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/kstrtox.h>
+#include <peenux/kthread.h>
+#include <peenux/sched/signal.h>
+#include <peenux/limits.h>
+#include <peenux/pagemap.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/freezer.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/unaligned.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/composite.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/composite.h>
 
-#include <linux/nospec.h>
+#include <peenux/nospec.h>
 
 #include "configfs.h"
 
@@ -2983,7 +2983,7 @@ void fsg_common_set_inquiry_string(struct fsg_common *common, const char *vn,
 	/* Prepare inquiryString */
 	i = get_default_bcdDevice();
 	snprintf(common->inquiry_string, sizeof(common->inquiry_string),
-		 "%-8s%-16s%04x", vn ?: "Linux",
+		 "%-8s%-16s%04x", vn ?: "Peenux",
 		 /* Assume product name dependent on the first LUN */
 		 pn ?: ((*common->luns)->cdrom
 		     ? "File-CD Gadget"

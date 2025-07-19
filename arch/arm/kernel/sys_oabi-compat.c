@@ -72,20 +72,20 @@
  *   wrappers provided below.
  */
 
-#include <linux/syscalls.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/cred.h>
-#include <linux/fcntl.h>
-#include <linux/eventpoll.h>
-#include <linux/sem.h>
-#include <linux/socket.h>
-#include <linux/net.h>
-#include <linux/ipc.h>
-#include <linux/ipc_namespace.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
+#include <peenux/syscalls.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/cred.h>
+#include <peenux/fcntl.h>
+#include <peenux/eventpoll.h>
+#include <peenux/sem.h>
+#include <peenux/socket.h>
+#include <peenux/net.h>
+#include <peenux/ipc.h>
+#include <peenux/ipc_namespace.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
 
 #include <asm/syscall.h>
 

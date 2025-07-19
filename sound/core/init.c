@@ -4,18 +4,18 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/file.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/ctype.h>
-#include <linux/pm.h>
-#include <linux/debugfs.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/file.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/ctype.h>
+#include <peenux/pm.h>
+#include <peenux/debugfs.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

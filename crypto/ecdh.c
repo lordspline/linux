@@ -5,12 +5,12 @@
  * Authors: Salvator Benedetto <salvatore.benedetto@intel.com>
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <crypto/internal/ecc.h>
 #include <crypto/internal/kpp.h>
 #include <crypto/kpp.h>
 #include <crypto/ecdh.h>
-#include <linux/scatterlist.h>
+#include <peenux/scatterlist.h>
 
 struct ecdh_ctx {
 	unsigned int curve_id;

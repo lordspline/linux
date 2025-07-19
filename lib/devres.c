@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/gfp_types.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/of_address.h>
-#include <linux/types.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/gfp_types.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/of_address.h>
+#include <peenux/types.h>
 
 enum devm_ioremap_type {
 	DEVM_IOREMAP = 0,

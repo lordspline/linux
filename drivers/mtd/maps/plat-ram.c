@@ -8,19 +8,19 @@
  * Generic platform device based RAM map
 */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/ioport.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/plat-ram.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/plat-ram.h>
 
 #include <asm/io.h>
 

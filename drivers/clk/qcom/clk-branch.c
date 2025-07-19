@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2023, Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
 
 #include "clk-branch.h"
 

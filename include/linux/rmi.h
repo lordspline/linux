@@ -6,14 +6,14 @@
 
 #ifndef _RMI_H
 #define _RMI_H
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/kfifo.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/kfifo.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 #define NAME_BUFFER_SIZE 256
 

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitfield.h>
-#include <linux/cpufreq.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/cpufreq.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include "cpufreq-dt.h"
 

@@ -2,23 +2,23 @@
 // Copyright (C) 2020 ROHM Semiconductors
 // ROHM BD9576MUF/BD9573MUF regulator driver
 
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mfd/rohm-bd957x.h>
-#include <linux/mfd/rohm-generic.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/rohm-bd957x.h>
+#include <peenux/mfd/rohm-generic.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 #define BD957X_VOUTS1_VOLT	3300000
 #define BD957X_VOUTS4_BASE_VOLT	1030000

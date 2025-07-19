@@ -5,23 +5,23 @@
  * Authors:	Jamal Hadi Salim (2002-4)
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/slab.h>
 #include <net/ipv6.h>
 #include <net/netlink.h>
 #include <net/pkt_sched.h>
-#include <linux/tc_act/tc_pedit.h>
+#include <peenux/tc_act/tc_pedit.h>
 #include <net/tc_act/tc_pedit.h>
-#include <uapi/linux/tc_act/tc_pedit.h>
+#include <uapi/peenux/tc_act/tc_pedit.h>
 #include <net/pkt_cls.h>
 #include <net/tc_wrapper.h>
 

@@ -10,13 +10,13 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/dmi.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/irq.h>
+#include <peenux/dmi.h>
 
 #ifdef CONFIG_X86
 #define valid_IRQ(i) (((i) != 0) && ((i) != 2))

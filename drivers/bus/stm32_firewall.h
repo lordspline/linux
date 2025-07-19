@@ -6,11 +6,11 @@
 #ifndef _STM32_FIREWALL_H
 #define _STM32_FIREWALL_H
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/types.h>
 
 /**
  * STM32_PERIPHERAL_FIREWALL:		This type of firewall protects peripherals

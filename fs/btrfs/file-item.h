@@ -3,9 +3,9 @@
 #ifndef BTRFS_FILE_ITEM_H
 #define BTRFS_FILE_ITEM_H
 
-#include <linux/blk_types.h>
-#include <linux/list.h>
-#include <uapi/linux/btrfs_tree.h>
+#include <peenux/blk_types.h>
+#include <peenux/list.h>
+#include <uapi/peenux/btrfs_tree.h>
 #include "ctree.h"
 #include "accessors.h"
 

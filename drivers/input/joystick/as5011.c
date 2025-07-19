@@ -10,14 +10,14 @@
  *	- Manage power mode
  */
 
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/input/as5011.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/input/as5011.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 #define DRIVER_DESC "Driver for Austria Microsystems AS5011 joystick"
 #define MODULE_DEVICE_ALIAS "as5011"

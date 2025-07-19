@@ -9,10 +9,10 @@
 #include <arpa/inet.h>
 #include <errno.h>
 #include <error.h>
-#include <linux/filter.h>
-#include <linux/bpf.h>
-#include <linux/in.h>
-#include <linux/unistd.h>
+#include <peenux/filter.h>
+#include <peenux/bpf.h>
+#include <peenux/in.h>
+#include <peenux/unistd.h>
 #include <sched.h>
 #include <stdio.h>
 #include <stdlib.h>

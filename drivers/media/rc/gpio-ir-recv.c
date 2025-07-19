@@ -2,17 +2,17 @@
 /* Copyright (c) 2012, Code Aurora Forum. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_qos.h>
+#include <peenux/irq.h>
 #include <media/rc-core.h>
 
 #define GPIO_IR_DEVICE_NAME	"gpio_ir_recv"
@@ -97,7 +97,7 @@ static int gpio_ir_recv_probe(struct platform_device *pdev)
 	rcdev->timeout = IR_DEFAULT_TIMEOUT;
 	rcdev->max_timeout = 10 * IR_DEFAULT_TIMEOUT;
 	rcdev->allowed_protocols = RC_PROTO_BIT_ALL_IR_DECODER;
-	rcdev->map_name = of_get_property(np, "linux,rc-map-name", NULL);
+	rcdev->map_name = of_get_property(np, "peenux,rc-map-name", NULL);
 	if (!rcdev->map_name)
 		rcdev->map_name = RC_MAP_EMPTY;
 
@@ -111,7 +111,7 @@ static int gpio_ir_recv_probe(struct platform_device *pdev)
 		return rc;
 	}
 
-	of_property_read_u32(np, "linux,autosuspend-period", &period);
+	of_property_read_u32(np, "peenux,autosuspend-period", &period);
 	if (period) {
 		gpio_dev->pmdev = dev;
 		pm_runtime_set_autosuspend_delay(dev, period);

@@ -11,10 +11,10 @@
 #include <crypto/hmac.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/scatterlist.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/scatterlist.h>
 
 #include "eip93-cipher.h"
 #include "eip93-hash.h"

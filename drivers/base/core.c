@@ -8,30 +8,30 @@
  * Copyright (c) 2006 Novell, Inc.
  */
 
-#include <linux/acpi.h>
-#include <linux/blkdev.h>
-#include <linux/cleanup.h>
-#include <linux/cpufreq.h>
-#include <linux/device.h>
-#include <linux/dma-map-ops.h> /* for dma_default_coherent */
-#include <linux/err.h>
-#include <linux/fwnode.h>
-#include <linux/init.h>
-#include <linux/kdev_t.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
-#include <linux/swiotlb.h>
-#include <linux/sysfs.h>
+#include <peenux/acpi.h>
+#include <peenux/blkdev.h>
+#include <peenux/cleanup.h>
+#include <peenux/cpufreq.h>
+#include <peenux/device.h>
+#include <peenux/dma-map-ops.h> /* for dma_default_coherent */
+#include <peenux/err.h>
+#include <peenux/fwnode.h>
+#include <peenux/init.h>
+#include <peenux/kdev_t.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/notifier.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
+#include <peenux/swiotlb.h>
+#include <peenux/sysfs.h>
 
 #include "base.h"
 #include "physical_location.h"

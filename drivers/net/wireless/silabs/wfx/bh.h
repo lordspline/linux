@@ -8,10 +8,10 @@
 #ifndef WFX_BH_H
 #define WFX_BH_H
 
-#include <linux/atomic.h>
-#include <linux/wait.h>
-#include <linux/completion.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/wait.h>
+#include <peenux/completion.h>
+#include <peenux/workqueue.h>
 
 struct wfx_dev;
 

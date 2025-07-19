@@ -6,13 +6,13 @@
  * Author: Asias He <asias@redhat.com>
  *         Stefan Hajnoczi <stefanha@redhat.com>
  */
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/ctype.h>
-#include <linux/list.h>
-#include <linux/virtio_vsock.h>
-#include <uapi/linux/vsockmon.h>
+#include <peenux/spinlock.h>
+#include <peenux/module.h>
+#include <peenux/sched/signal.h>
+#include <peenux/ctype.h>
+#include <peenux/list.h>
+#include <peenux/virtio_vsock.h>
+#include <uapi/peenux/vsockmon.h>
 
 #include <net/sock.h>
 #include <net/af_vsock.h>

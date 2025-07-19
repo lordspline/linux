@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 #include "cgroup-internal.h"
 
-#include <linux/sched/cputime.h>
+#include <peenux/sched/cputime.h>
 
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/btf_ids.h>
 
 #include <trace/events/cgroup.h>
 

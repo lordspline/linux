@@ -12,14 +12,14 @@
  * potential races with the interrupt handling.
  */
 
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/bitfield.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/mod_devicetable.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
 
 #define AL3320A_REG_CONFIG		0x00
 #define AL3320A_REG_STATUS		0x01

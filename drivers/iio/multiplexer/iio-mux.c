@@ -7,16 +7,16 @@
  * Author: Peter Rosin <peda@axentia.se>
  */
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/mux/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/cleanup.h>
+#include <peenux/err.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/mux/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 struct mux_ext_info_cache {
 	char *data;

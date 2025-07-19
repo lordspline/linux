@@ -3,24 +3,24 @@
  * PCI detection and setup code
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/msi.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pci_hotplug.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/cpumask.h>
-#include <linux/aer.h>
-#include <linux/acpi.h>
-#include <linux/hypervisor.h>
-#include <linux/irqdomain.h>
-#include <linux/pm_runtime.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/msi.h>
+#include <peenux/of_pci.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci_hotplug.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/cpumask.h>
+#include <peenux/aer.h>
+#include <peenux/acpi.h>
+#include <peenux/hypervisor.h>
+#include <peenux/irqdomain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/bitfield.h>
 #include "pci.h"
 
 #define CARDBUS_LATENCY_TIMER	176	/* secondary latency timer */

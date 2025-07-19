@@ -5,33 +5,33 @@
  *              Alignment and value checking mods by Craig Metz
  */
 
-#include <linux/module.h>
-#include <linux/signal.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/user.h>
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/stat.h>
-#include <linux/socket.h>
-#include <linux/file.h>
-#include <linux/fcntl.h>
-#include <linux/net.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/security.h>
-#include <linux/pid_namespace.h>
-#include <linux/pid.h>
-#include <linux/nsproxy.h>
-#include <linux/slab.h>
-#include <linux/errqueue.h>
-#include <linux/io_uring.h>
+#include <peenux/module.h>
+#include <peenux/signal.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/sched/user.h>
+#include <peenux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/stat.h>
+#include <peenux/socket.h>
+#include <peenux/file.h>
+#include <peenux/fcntl.h>
+#include <peenux/net.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/security.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/pid.h>
+#include <peenux/nsproxy.h>
+#include <peenux/slab.h>
+#include <peenux/errqueue.h>
+#include <peenux/io_uring.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <net/protocol.h>
-#include <linux/skbuff.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
 #include <net/compat.h>
 #include <net/scm.h>

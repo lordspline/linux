@@ -31,7 +31,7 @@
 	};
 
 	extcon_usbc_det: usbc-det {
-		compatible = "linux,extcon-usb-gpio";
+		compatible = "peenux,extcon-usb-gpio";
 		id-gpios = <&gpio7 12 GPIO_ACTIVE_HIGH>; /* SODIMM 137 / USBC_DET */
 		pinctrl-names = "default";
 		pinctrl-0 = <&pinctrl_usbc_det>;
@@ -46,7 +46,7 @@
 			debounce-interval = <10>;
 			gpios = <&gpio2 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; /* SODIMM 45 */
 			label = "Wake-Up";
-			linux,code = <KEY_WAKEUP>;
+			peenux,code = <KEY_WAKEUP>;
 			wakeup-source;
 		};
 	};
@@ -142,12 +142,12 @@
 	};
 
 	spdif_out: spdif-out {
-		compatible = "linux,spdif-dit";
+		compatible = "peenux,spdif-dit";
 		#sound-dai-cells = <0>;
 	};
 
 	spdif_in: spdif-in {
-		compatible = "linux,spdif-dir";
+		compatible = "peenux,spdif-dir";
 		#sound-dai-cells = <0>;
 	};
 

@@ -21,7 +21,7 @@
  *
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
 #ifdef CONFIG_X86
 #include <asm/hypervisor.h>

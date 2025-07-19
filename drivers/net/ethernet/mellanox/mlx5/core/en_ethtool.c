@@ -30,8 +30,8 @@
  * SOFTWARE.
  */
 
-#include <linux/dim.h>
-#include <linux/ethtool_netlink.h>
+#include <peenux/dim.h>
+#include <peenux/ethtool_netlink.h>
 
 #include "en.h"
 #include "en/channels.h"

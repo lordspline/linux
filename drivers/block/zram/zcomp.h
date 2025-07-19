@@ -3,7 +3,7 @@
 #ifndef _ZCOMP_H_
 #define _ZCOMP_H_
 
-#include <linux/mutex.h>
+#include <peenux/mutex.h>
 
 #define ZCOMP_PARAM_NOT_SET	INT_MIN
 

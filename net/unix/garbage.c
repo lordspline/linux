@@ -63,11 +63,11 @@
  *		wrt receive and holding up unrelated socket operations.
  */
 
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/workqueue.h>
+#include <peenux/fs.h>
+#include <peenux/list.h>
+#include <peenux/skbuff.h>
+#include <peenux/socket.h>
+#include <peenux/workqueue.h>
 #include <net/af_unix.h>
 #include <net/scm.h>
 #include <net/tcp_states.h>

@@ -5,20 +5,20 @@
  * Copyright (C) Matthijs Kooijman <matthijs@stdin.nl>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_data/s3c-hsotg.h>
-#include <linux/reset.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_data/s3c-hsotg.h>
+#include <peenux/reset.h>
 
-#include <linux/usb/of.h>
+#include <peenux/usb/of.h>
 
 #include "core.h"
 #include "hcd.h"

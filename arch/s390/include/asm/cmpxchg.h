@@ -8,9 +8,9 @@
 #ifndef __ASM_CMPXCHG_H
 #define __ASM_CMPXCHG_H
 
-#include <linux/mmdebug.h>
-#include <linux/types.h>
-#include <linux/bug.h>
+#include <peenux/mmdebug.h>
+#include <peenux/types.h>
+#include <peenux/bug.h>
 #include <asm/asm.h>
 
 void __cmpxchg_called_with_bad_pointer(void);

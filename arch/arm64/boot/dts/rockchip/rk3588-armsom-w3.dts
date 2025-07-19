@@ -64,14 +64,14 @@
 			function = LED_FUNCTION_STATUS;
 			color = <LED_COLOR_ID_BLUE>;
 			gpios = <&gpio0 RK_PB7 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 		};
 
 		led-rgb-r {
 			function = LED_FUNCTION_STATUS;
 			color = <LED_COLOR_ID_RED>;
 			gpios = <&gpio4 RK_PC5 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "none";
+			peenux,default-trigger = "none";
 		};
 	};
 

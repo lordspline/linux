@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include <asm/cpu.h>
 #include <asm/msr.h>

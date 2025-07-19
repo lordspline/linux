@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/plat-pxa/gpio.c
+ *  peenux/arch/arm/plat-pxa/gpio.c
  *
  *  Generic PXA GPIO handling
  *
@@ -8,22 +8,22 @@
  *  Created:	Jun 15, 2001
  *  Copyright:	MontaVista Software Inc.
  */
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio-pxa.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/syscore_ops.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio-pxa.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/slab.h>
 
 /*
  * We handle the GPIOs by banks, each bank covers up to 32 GPIOs with

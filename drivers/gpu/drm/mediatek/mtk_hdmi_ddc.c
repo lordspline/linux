@@ -3,21 +3,21 @@
  * Copyright (c) 2014 MediaTek Inc.
  * Author: Jie Qiu <jie.qiu@mediatek.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/time.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/time.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
 
 #include "mtk_drm_drv.h"
 

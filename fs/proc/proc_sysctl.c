@@ -2,22 +2,22 @@
 /*
  * /proc/sys support
  */
-#include <linux/init.h>
-#include <linux/sysctl.h>
-#include <linux/poll.h>
-#include <linux/proc_fs.h>
-#include <linux/printk.h>
-#include <linux/security.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/namei.h>
-#include <linux/mm.h>
-#include <linux/uio.h>
-#include <linux/module.h>
-#include <linux/bpf-cgroup.h>
-#include <linux/mount.h>
-#include <linux/kmemleak.h>
-#include <linux/lockdep.h>
+#include <peenux/init.h>
+#include <peenux/sysctl.h>
+#include <peenux/poll.h>
+#include <peenux/proc_fs.h>
+#include <peenux/printk.h>
+#include <peenux/security.h>
+#include <peenux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/namei.h>
+#include <peenux/mm.h>
+#include <peenux/uio.h>
+#include <peenux/module.h>
+#include <peenux/bpf-cgroup.h>
+#include <peenux/mount.h>
+#include <peenux/kmemleak.h>
+#include <peenux/lockdep.h>
 #include "internal.h"
 
 #define list_for_each_table_entry(entry, header)	\

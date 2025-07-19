@@ -3,23 +3,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/init.h>
-#include <linux/ipv6.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/pagemap.h>
-#include <linux/pci.h>
-#include <linux/prefetch.h>
-#include <linux/sctp.h>
-#include <linux/slab.h>
-#include <linux/tcp.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_vlan.h>
+#include <peenux/init.h>
+#include <peenux/ipv6.h>
+#include <peenux/mii.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/pagemap.h>
+#include <peenux/pci.h>
+#include <peenux/prefetch.h>
+#include <peenux/sctp.h>
+#include <peenux/slab.h>
+#include <peenux/tcp.h>
+#include <peenux/types.h>
+#include <peenux/vmalloc.h>
 #include <net/checksum.h>
 #include <net/ip6_checksum.h>
 #include "igbvf.h"

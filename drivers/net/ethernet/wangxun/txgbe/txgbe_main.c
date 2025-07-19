@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2015 - 2022 Beijing WangXun Technology Co., Ltd. */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/string.h>
-#include <linux/etherdevice.h>
-#include <linux/phylink.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/string.h>
+#include <peenux/etherdevice.h>
+#include <peenux/phylink.h>
 #include <net/udp_tunnel.h>
 #include <net/ip.h>
-#include <linux/if_vlan.h>
+#include <peenux/if_vlan.h>
 
 #include "../libwx/wx_type.h"
 #include "../libwx/wx_lib.h"

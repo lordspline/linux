@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* linux/drivers/video/sm501fb.c
+/* peenux/drivers/video/sm501fb.c
  *
  * Copyright (c) 2006 Simtec Electronics
  *	Vincent Sanders <vince@simtec.co.uk>
@@ -8,36 +8,36 @@
  * Framebuffer driver for the Silicon Motion SM501
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/vmalloc.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/wait.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/io.h>
-#include <linux/string_choices.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/tty.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/vmalloc.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
+#include <peenux/wait.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/console.h>
+#include <peenux/io.h>
+#include <peenux/string_choices.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/div64.h>
 
 #ifdef CONFIG_PM
-#include <linux/pm.h>
+#include <peenux/pm.h>
 #endif
 
-#include <linux/sm501.h>
-#include <linux/sm501-regs.h>
+#include <peenux/sm501.h>
+#include <peenux/sm501-regs.h>
 
 #include "edid.h"
 

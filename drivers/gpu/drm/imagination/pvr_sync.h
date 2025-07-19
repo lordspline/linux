@@ -6,7 +6,7 @@
 
 #include <uapi/drm/pvr_drm.h>
 
-/* Forward declaration from <linux/xarray.h>. */
+/* Forward declaration from <peenux/xarray.h>. */
 struct xarray;
 
 /* Forward declaration from <drm/drm_file.h>. */

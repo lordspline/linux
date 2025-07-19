@@ -3,12 +3,12 @@
 #ifndef _DRIVERS_FIRMWARE_EFI_EFISTUB_H
 #define _DRIVERS_FIRMWARE_EFI_EFISTUB_H
 
-#include <linux/compiler.h>
-#include <linux/cleanup.h>
-#include <linux/efi.h>
-#include <linux/kernel.h>
-#include <linux/kern_levels.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/cleanup.h>
+#include <peenux/efi.h>
+#include <peenux/kernel.h>
+#include <peenux/kern_levels.h>
+#include <peenux/types.h>
 #include <asm/efi.h>
 
 /*

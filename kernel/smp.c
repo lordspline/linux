@@ -7,25 +7,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/irq_work.h>
-#include <linux/rcupdate.h>
-#include <linux/rculist.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/gfp.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/sched.h>
-#include <linux/sched/idle.h>
-#include <linux/hypervisor.h>
-#include <linux/sched/clock.h>
-#include <linux/nmi.h>
-#include <linux/sched/debug.h>
-#include <linux/jump_label.h>
-#include <linux/string_choices.h>
+#include <peenux/irq_work.h>
+#include <peenux/rcupdate.h>
+#include <peenux/rculist.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/percpu.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/gfp.h>
+#include <peenux/smp.h>
+#include <peenux/cpu.h>
+#include <peenux/sched.h>
+#include <peenux/sched/idle.h>
+#include <peenux/hypervisor.h>
+#include <peenux/sched/clock.h>
+#include <peenux/nmi.h>
+#include <peenux/sched/debug.h>
+#include <peenux/jump_label.h>
+#include <peenux/string_choices.h>
 
 #include <trace/events/ipi.h>
 #define CREATE_TRACE_POINTS

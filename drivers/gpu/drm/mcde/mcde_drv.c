@@ -53,17 +53,17 @@
  *   the DSI bridge.
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/dma-buf.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/dma-buf.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

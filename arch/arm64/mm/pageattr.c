@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014, The Peenux Foundation. All rights reserved.
  */
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mem_encrypt.h>
-#include <linux/sched.h>
-#include <linux/vmalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mem_encrypt.h>
+#include <peenux/sched.h>
+#include <peenux/vmalloc.h>
 
 #include <asm/cacheflush.h>
 #include <asm/pgtable-prot.h>

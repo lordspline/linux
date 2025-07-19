@@ -7,12 +7,12 @@
  * Author: Tom Lendacky <thomas.lendacky@amd.com>
  */
 
-#include <linux/dma-direct.h>
-#include <linux/dma-mapping.h>
-#include <linux/swiotlb.h>
-#include <linux/cc_platform.h>
-#include <linux/mem_encrypt.h>
-#include <linux/virtio_anchor.h>
+#include <peenux/dma-direct.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/swiotlb.h>
+#include <peenux/cc_platform.h>
+#include <peenux/mem_encrypt.h>
+#include <peenux/virtio_anchor.h>
 
 #include <asm/sev.h>
 

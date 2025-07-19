@@ -6,7 +6,7 @@
 #ifndef _XE_SCHED_JOB_TYPES_H_
 #define _XE_SCHED_JOB_TYPES_H_
 
-#include <linux/kref.h>
+#include <peenux/kref.h>
 
 #include <drm/gpu_scheduler.h>
 

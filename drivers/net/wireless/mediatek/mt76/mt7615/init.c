@@ -7,9 +7,9 @@
  *         Lorenzo Bianconi <lorenzo@kernel.org>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <peenux/etherdevice.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
 #include "mt7615.h"
 #include "mac.h"
 #include "mcu.h"

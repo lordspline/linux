@@ -7,26 +7,26 @@
  * Copyrignt (C) 2006 Michael Ellerman, IBM Corp
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/sched/signal.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
-#include <linux/kallsyms.h>
-#include <linux/kmsg_dump.h>
-#include <linux/cpumask.h>
-#include <linux/export.h>
-#include <linux/sysrq.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/bug.h>
-#include <linux/nmi.h>
-#include <linux/ctype.h>
-#include <linux/highmem.h>
-#include <linux/security.h>
-#include <linux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/sched/signal.h>
+#include <peenux/smp.h>
+#include <peenux/mm.h>
+#include <peenux/reboot.h>
+#include <peenux/delay.h>
+#include <peenux/kallsyms.h>
+#include <peenux/kmsg_dump.h>
+#include <peenux/cpumask.h>
+#include <peenux/export.h>
+#include <peenux/sysrq.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/bug.h>
+#include <peenux/nmi.h>
+#include <peenux/ctype.h>
+#include <peenux/highmem.h>
+#include <peenux/security.h>
+#include <peenux/debugfs.h>
 
 #include <asm/ptrace.h>
 #include <asm/smp.h>

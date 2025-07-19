@@ -5,13 +5,13 @@
  * Copyright (C) 2018-2024 ARM Ltd.
  */
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/scmi_protocol.h>
+#include <peenux/bits.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/scmi_protocol.h>
 #include <asm/div64.h>
 
 #define NOT_ATOMIC	false

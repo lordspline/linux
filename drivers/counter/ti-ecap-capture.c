@@ -5,18 +5,18 @@
  * Copyright (C) 2022 Julien Panis <jpanis@baylibre.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/counter.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/atomic.h>
+#include <peenux/clk.h>
+#include <peenux/counter.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #define ECAP_DRV_NAME "ecap"
 

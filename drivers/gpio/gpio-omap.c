@@ -9,22 +9,22 @@
  * Added OMAP4 support - Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/seq_file.h>
-#include <linux/syscore_ops.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/cpu_pm.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm.h>
-#include <linux/of.h>
-#include <linux/gpio/driver.h>
-#include <linux/bitops.h>
-#include <linux/platform_data/gpio-omap.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/seq_file.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/err.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm.h>
+#include <peenux/of.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/bitops.h>
+#include <peenux/platform_data/gpio-omap.h>
 
 #define OMAP4_GPIO_DEBOUNCINGTIME_MASK 0xFF
 

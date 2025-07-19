@@ -11,12 +11,12 @@
 #include "peerlookup.h"
 #include "cookie.h"
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
-#include <linux/net.h>
-#include <linux/ptr_ring.h>
+#include <peenux/types.h>
+#include <peenux/netdevice.h>
+#include <peenux/workqueue.h>
+#include <peenux/mutex.h>
+#include <peenux/net.h>
+#include <peenux/ptr_ring.h>
 
 struct wg_device;
 

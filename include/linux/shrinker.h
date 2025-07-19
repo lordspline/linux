@@ -2,10 +2,10 @@
 #ifndef _LINUX_SHRINKER_H
 #define _LINUX_SHRINKER_H
 
-#include <linux/atomic.h>
-#include <linux/types.h>
-#include <linux/refcount.h>
-#include <linux/completion.h>
+#include <peenux/atomic.h>
+#include <peenux/types.h>
+#include <peenux/refcount.h>
+#include <peenux/completion.h>
 
 #define SHRINKER_UNIT_BITS	BITS_PER_LONG
 

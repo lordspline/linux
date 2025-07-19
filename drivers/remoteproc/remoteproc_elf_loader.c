@@ -17,10 +17,10 @@
 
 #define pr_fmt(fmt)    "%s: " fmt, __func__
 
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/remoteproc.h>
-#include <linux/elf.h>
+#include <peenux/module.h>
+#include <peenux/firmware.h>
+#include <peenux/remoteproc.h>
+#include <peenux/elf.h>
 
 #include "remoteproc_internal.h"
 #include "remoteproc_elf_helpers.h"

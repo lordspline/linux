@@ -6,12 +6,12 @@
  *  Copyright (c) Justin Ernst
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/kobject.h>
-#include <linux/vmalloc.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/kobject.h>
+#include <peenux/vmalloc.h>
 #include <asm/uv/bios.h>
 #include <asm/uv/uv.h>
 #include <asm/uv/uv_hub.h>

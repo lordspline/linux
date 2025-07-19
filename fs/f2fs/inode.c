@@ -5,12 +5,12 @@
  * Copyright (c) 2012 Samsung Electronics Co., Ltd.
  *             http://www.samsung.com/
  */
-#include <linux/fs.h>
-#include <linux/f2fs_fs.h>
-#include <linux/writeback.h>
-#include <linux/sched/mm.h>
-#include <linux/lz4.h>
-#include <linux/zstd.h>
+#include <peenux/fs.h>
+#include <peenux/f2fs_fs.h>
+#include <peenux/writeback.h>
+#include <peenux/sched/mm.h>
+#include <peenux/lz4.h>
+#include <peenux/zstd.h>
 
 #include "f2fs.h"
 #include "node.h"

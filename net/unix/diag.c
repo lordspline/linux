@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/dcache.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/sock_diag.h>
-#include <linux/types.h>
-#include <linux/user_namespace.h>
+#include <peenux/dcache.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/sock_diag.h>
+#include <peenux/types.h>
+#include <peenux/user_namespace.h>
 #include <net/af_unix.h>
 #include <net/netlink.h>
 #include <net/tcp_states.h>
-#include <uapi/linux/unix_diag.h>
+#include <uapi/peenux/unix_diag.h>
 
 #include "af_unix.h"
 

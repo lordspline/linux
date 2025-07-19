@@ -101,21 +101,21 @@
  * */
 #define NCR_700_VERSION "2.8"
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/blkdev.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/pgtable.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/init.h>
+#include <peenux/proc_fs.h>
+#include <peenux/blkdev.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/pgtable.h>
 #include <asm/dma.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>

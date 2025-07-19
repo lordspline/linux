@@ -7,7 +7,7 @@
 #ifndef AIROHA_REGS_H
 #define AIROHA_REGS_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* FE */
 #define PSE_BASE			0x0100

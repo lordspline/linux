@@ -2,8 +2,8 @@
 #ifndef _ASMARM_TRAP_H
 #define _ASMARM_TRAP_H
 
-#include <linux/linkage.h>
-#include <linux/list.h>
+#include <peenux/linkage.h>
+#include <peenux/list.h>
 
 struct pt_regs;
 struct task_struct;

@@ -6,14 +6,14 @@
 #ifndef __MTD_CFI_H__
 #define __MTD_CFI_H__
 
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/bug.h>
-#include <linux/interrupt.h>
-#include <linux/mtd/flashchip.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/cfi_endian.h>
-#include <linux/mtd/xip.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
+#include <peenux/bug.h>
+#include <peenux/interrupt.h>
+#include <peenux/mtd/flashchip.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/cfi_endian.h>
+#include <peenux/mtd/xip.h>
 
 #ifdef CONFIG_MTD_CFI_I1
 #define cfi_interleave(cfi) 1

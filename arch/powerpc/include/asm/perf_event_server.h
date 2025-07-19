@@ -5,9 +5,9 @@
  * Copyright 2008-2009 Paul Mackerras, IBM Corporation.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/hw_irq.h>
-#include <linux/device.h>
+#include <peenux/device.h>
 #include <uapi/asm/perf_event.h>
 
 /* Update perf_event_print_debug() if this changes */
@@ -107,7 +107,7 @@ extern unsigned long perf_arch_instruction_pointer(struct pt_regs *regs);
 extern unsigned long int read_bhrb(int n);
 
 /*
- * Only override the default definitions in include/linux/perf_event.h
+ * Only override the default definitions in include/peenux/perf_event.h
  * if we have hardware PMU support.
  */
 #ifdef CONFIG_PPC_PERF_CTRS

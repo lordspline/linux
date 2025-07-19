@@ -8,17 +8,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
-#include <linux/pci.h>
-#include <linux/if_vlan.h>
-#include <linux/dma-mapping.h>
-#include <linux/crc32.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/phy.h>
+#include <peenux/pci.h>
+#include <peenux/if_vlan.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/crc32.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/unaligned.h>
 #include "smsc9420.h"
 
 #define DRV_NAME		"smsc9420"

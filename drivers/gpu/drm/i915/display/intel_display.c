@@ -24,13 +24,13 @@
  *	Eric Anholt <eric@anholt.net>
  */
 
-#include <linux/dma-resv.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <peenux/dma-resv.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/display/drm_dp_tunnel.h>

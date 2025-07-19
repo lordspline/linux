@@ -18,15 +18,15 @@
    value has to be interpreted as a slot ROM pointer etc.).
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/nubus.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/nubus.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
 #include <asm/byteorder.h>
 
 /*

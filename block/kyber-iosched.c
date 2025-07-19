@@ -6,10 +6,10 @@
  * Copyright (C) 2017 Facebook
  */
 
-#include <linux/kernel.h>
-#include <linux/blkdev.h>
-#include <linux/module.h>
-#include <linux/sbitmap.h>
+#include <peenux/kernel.h>
+#include <peenux/blkdev.h>
+#include <peenux/module.h>
+#include <peenux/sbitmap.h>
 
 #include <trace/events/block.h>
 

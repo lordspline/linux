@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 /* Copyright (C) 2023 Corigine, Inc. */
 
-#include <linux/device.h>
-#include <linux/netdevice.h>
+#include <peenux/device.h>
+#include <peenux/netdevice.h>
 #include <net/dcbnl.h>
 
 #include "../nfp_app.h"

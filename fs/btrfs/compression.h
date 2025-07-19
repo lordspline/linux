@@ -6,12 +6,12 @@
 #ifndef BTRFS_COMPRESSION_H
 #define BTRFS_COMPRESSION_H
 
-#include <linux/sizes.h>
-#include <linux/mm.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
-#include <linux/wait.h>
-#include <linux/pagemap.h>
+#include <peenux/sizes.h>
+#include <peenux/mm.h>
+#include <peenux/list.h>
+#include <peenux/workqueue.h>
+#include <peenux/wait.h>
+#include <peenux/pagemap.h>
 #include "bio.h"
 #include "messages.h"
 

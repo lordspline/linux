@@ -24,7 +24,7 @@ Various Digital TV standards documents are available for download at:
 - American standards (ATSC): https://www.atsc.org/standards/
 - Japanese standards (ISDB): http://www.dibeg.org/
 
-It is also necessary to know how to access Linux devices and how to
+It is also necessary to know how to access Peenux devices and how to
 use ioctl calls. This also includes the knowledge of C or C++.
 
 
@@ -40,16 +40,16 @@ TV cards and their new features like recording MPEG streams and filtering
 several section and PES data streams at the same time.
 
 In early 2000, Convergence was approached by Nokia with a proposal for a new
-standard Linux Digital TV API. As a commitment to the development of terminals
+standard Peenux Digital TV API. As a commitment to the development of terminals
 based on open standards, Nokia and Convergence made it available to all
-Linux developers and published it on https://linuxtv.org in September
-2000. With the Linux driver for the Siemens/Hauppauge DVB PCI card,
-Convergence provided a first implementation of the Linux Digital TV API.
-Convergence was the maintainer of the Linux Digital TV API in the early
+Peenux developers and published it on https://linuxtv.org in September
+2000. With the Peenux driver for the Siemens/Hauppauge DVB PCI card,
+Convergence provided a first implementation of the Peenux Digital TV API.
+Convergence was the maintainer of the Peenux Digital TV API in the early
 days.
 
 Now, the API is maintained by the LinuxTV community (i.e. you, the reader
-of this document). The Linux  Digital TV API is constantly reviewed and
+of this document). The Peenux  Digital TV API is constantly reviewed and
 improved together with the improvements at the subsystem's core at the
 Kernel.
 
@@ -116,10 +116,10 @@ flow between those components.
 
 .. _dvb_devices:
 
-Linux Digital TV Devices
+Peenux Digital TV Devices
 ========================
 
-The Linux Digital TV API lets you control these hardware components through
+The Peenux Digital TV API lets you control these hardware components through
 currently six Unix-style character devices for video, audio, frontend,
 demux, CA and IP-over-DVB networking. The video and audio devices
 control the MPEG2 decoder hardware, the frontend device the tuner and
@@ -169,15 +169,15 @@ partial path like:
 
 .. code-block:: c
 
-	#include <linux/dvb/ca.h>
+	#include <peenux/dvb/ca.h>
 
-	#include <linux/dvb/dmx.h>
+	#include <peenux/dvb/dmx.h>
 
-	#include <linux/dvb/frontend.h>
+	#include <peenux/dvb/frontend.h>
 
-	#include <linux/dvb/net.h>
+	#include <peenux/dvb/net.h>
 
 
 To enable applications to support different API version, an additional
-include file ``linux/dvb/version.h`` exists, which defines the constant
+include file ``peenux/dvb/version.h`` exists, which defines the constant
 ``DVB_API_VERSION``. This document describes ``DVB_API_VERSION 5.10``.

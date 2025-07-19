@@ -9,12 +9,12 @@
 #ifndef _BT878_H_
 #define _BT878_H_
 
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
 
 #include "bt848.h"
 #include "bttv.h"

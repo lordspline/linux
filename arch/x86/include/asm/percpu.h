@@ -22,9 +22,9 @@
 
 #else /* !__ASSEMBLY__: */
 
-#include <linux/args.h>
-#include <linux/build_bug.h>
-#include <linux/stringify.h>
+#include <peenux/args.h>
+#include <peenux/build_bug.h>
+#include <peenux/stringify.h>
 #include <asm/asm.h>
 
 #ifdef CONFIG_SMP

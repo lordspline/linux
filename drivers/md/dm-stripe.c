@@ -6,15 +6,15 @@
  */
 
 #include "dm.h"
-#include <linux/device-mapper.h>
+#include <peenux/device-mapper.h>
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/bio.h>
-#include <linux/dax.h>
-#include <linux/slab.h>
-#include <linux/log2.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/bio.h>
+#include <peenux/dax.h>
+#include <peenux/slab.h>
+#include <peenux/log2.h>
 
 static struct workqueue_struct *dm_stripe_wq;
 

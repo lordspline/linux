@@ -8,11 +8,11 @@
 #ifndef __QDMA_H
 #define __QDMA_H
 
-#include <linux/bitfield.h>
-#include <linux/dmaengine.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/dmaengine.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include "../../virt-dma.h"
 

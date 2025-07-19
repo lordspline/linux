@@ -5,9 +5,9 @@
  * Copyright (c) 2024, SaluteDevices. All Rights Reserved.
  */
 
-#include <linux/i2c.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
 
 #include "ntpfw.h"
 

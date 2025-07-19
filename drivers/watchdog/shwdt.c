@@ -4,7 +4,7 @@
  *
  * Watchdog driver for integrated watchdog in the SuperH processors.
  *
- * Copyright (C) 2001 - 2012  Paul Mundt <lethal@linux-sh.org>
+ * Copyright (C) 2001 - 2012  Paul Mundt <lethal@peenux-sh.org>
  *
  * 14-Dec-2001 Matt Domsch <Matt_Domsch@dell.com>
  *     Added nowayout module option to override CONFIG_WATCHDOG_NOWAYOUT
@@ -16,20 +16,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/watchdog.h>
-#include <linux/pm_runtime.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/err.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/spinlock.h>
+#include <peenux/watchdog.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
 #include <asm/watchdog.h>
 
 #define DRV_NAME "sh-wdt"
@@ -321,7 +321,7 @@ static void __exit sh_wdt_exit(void)
 module_init(sh_wdt_init);
 module_exit(sh_wdt_exit);
 
-MODULE_AUTHOR("Paul Mundt <lethal@linux-sh.org>");
+MODULE_AUTHOR("Paul Mundt <lethal@peenux-sh.org>");
 MODULE_DESCRIPTION("SuperH watchdog driver");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS("platform:" DRV_NAME);

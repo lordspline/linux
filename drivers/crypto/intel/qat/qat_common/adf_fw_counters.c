@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2023 Intel Corporation */
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/debugfs.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/seq_file.h>
+#include <peenux/types.h>
 
 #include "adf_accel_devices.h"
 #include "adf_admin.h"

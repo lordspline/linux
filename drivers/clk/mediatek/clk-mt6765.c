@@ -4,13 +4,13 @@
  * Author: Owen Chen <owen.chen@mediatek.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
 
 #include "clk-gate.h"
 #include "clk-mtk.h"

@@ -16,20 +16,20 @@
  * later using the "UBI control device".
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/stringify.h>
-#include <linux/namei.h>
-#include <linux/stat.h>
-#include <linux/miscdevice.h>
-#include <linux/mtd/partitions.h>
-#include <linux/log2.h>
-#include <linux/kthread.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/major.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/stringify.h>
+#include <peenux/namei.h>
+#include <peenux/stat.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/log2.h>
+#include <peenux/kthread.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/major.h>
 #include "ubi.h"
 
 /* Maximum length of the 'mtd=' parameter */
@@ -1234,7 +1234,7 @@ static void ubi_notify_add(struct mtd_info *mtd)
 	struct device_node *np = mtd_get_of_node(mtd);
 	int err;
 
-	if (!of_device_is_compatible(np, "linux,ubi"))
+	if (!of_device_is_compatible(np, "peenux,ubi"))
 		return;
 
 	/*

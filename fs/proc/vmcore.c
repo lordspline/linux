@@ -10,25 +10,25 @@
 
 #define pr_fmt(fmt) "vmcore: " fmt
 
-#include <linux/mm.h>
-#include <linux/kcore.h>
-#include <linux/user.h>
-#include <linux/elf.h>
-#include <linux/elfcore.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/printk.h>
-#include <linux/memblock.h>
-#include <linux/init.h>
-#include <linux/crash_dump.h>
-#include <linux/list.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/uio.h>
-#include <linux/cc_platform.h>
+#include <peenux/mm.h>
+#include <peenux/kcore.h>
+#include <peenux/user.h>
+#include <peenux/elf.h>
+#include <peenux/elfcore.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/printk.h>
+#include <peenux/memblock.h>
+#include <peenux/init.h>
+#include <peenux/crash_dump.h>
+#include <peenux/list.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mutex.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pagemap.h>
+#include <peenux/uio.h>
+#include <peenux/cc_platform.h>
 #include <asm/io.h>
 #include "internal.h"
 

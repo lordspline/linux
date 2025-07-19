@@ -9,19 +9,19 @@
  *          Scott Ling <sl@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/init.h>
-#include <linux/spi/spi.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/init.h>
+#include <peenux/spi/spi.h>
+#include <peenux/firmware.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
 
 #include <sound/soc.h>
 #include <sound/wm0010.h>

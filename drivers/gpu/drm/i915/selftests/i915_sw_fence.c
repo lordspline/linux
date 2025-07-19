@@ -22,9 +22,9 @@
  *
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/prime_numbers.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/prime_numbers.h>
 
 #include "../i915_selftest.h"
 

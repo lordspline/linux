@@ -3,40 +3,40 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/netdevice.h>
-#include <linux/ipv6.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/vmalloc.h>
+#include <peenux/pagemap.h>
+#include <peenux/netdevice.h>
+#include <peenux/ipv6.h>
+#include <peenux/slab.h>
 #include <net/checksum.h>
 #include <net/ip6_checksum.h>
 #include <net/pkt_sched.h>
 #include <net/pkt_cls.h>
-#include <linux/net_tstamp.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/if.h>
-#include <linux/if_vlan.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/sctp.h>
-#include <linux/if_ether.h>
-#include <linux/prefetch.h>
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
-#include <linux/pm_runtime.h>
-#include <linux/etherdevice.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/if.h>
+#include <peenux/if_vlan.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/sctp.h>
+#include <peenux/if_ether.h>
+#include <peenux/prefetch.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_trace.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/etherdevice.h>
 #ifdef CONFIG_IGB_DCA
-#include <linux/dca.h>
+#include <peenux/dca.h>
 #endif
-#include <linux/i2c.h>
+#include <peenux/i2c.h>
 #include "igb.h"
 
 enum queue_mode {

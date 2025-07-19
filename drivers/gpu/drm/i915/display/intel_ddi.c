@@ -25,8 +25,8 @@
  *
  */
 
-#include <linux/iopoll.h>
-#include <linux/string_helpers.h>
+#include <peenux/iopoll.h>
+#include <peenux/string_helpers.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/display/drm_scdc_helper.h>

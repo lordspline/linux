@@ -7,30 +7,30 @@
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Eliot Lee <eliot.lee@intel.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *
  * Contributors:
  *  Amir Hanania <amir.hanania@intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/iopoll.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/iopoll.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
 #include "t7xx_hif_cldma.h"
 #include "t7xx_mhccif.h"

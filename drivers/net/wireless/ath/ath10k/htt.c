@@ -5,8 +5,8 @@
  * Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/slab.h>
-#include <linux/if_ether.h>
+#include <peenux/slab.h>
+#include <peenux/if_ether.h>
 
 #include "htt.h"
 #include "core.h"

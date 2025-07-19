@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/role.h>
-#include <linux/usb/typec.h>
+#include <peenux/bitfield.h>
+#include <peenux/completion.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/usb/pd.h>
+#include <peenux/usb/role.h>
+#include <peenux/usb/typec.h>
 
 #define RT1719_REG_TXCTRL1	0x03
 #define RT1719_REG_TXCTRL2	0x04

@@ -7,17 +7,17 @@
  * Author: Milo Kim <milo.kim@ti.com>
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/ti-lmu.h>
-#include <linux/mfd/ti-lmu-register.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mfd/ti-lmu.h>
+#include <peenux/mfd/ti-lmu-register.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
 
 struct ti_lmu_data {
 	const struct mfd_cell *cells;

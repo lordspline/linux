@@ -7,18 +7,18 @@
  * J Keerthy <j-keerthy@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/log2.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/clk/ti.h>
-#include <linux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
+#include <peenux/log2.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/clk/ti.h>
+#include <peenux/delay.h>
 
 #include "clock.h"
 

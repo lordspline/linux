@@ -6,7 +6,7 @@
 #ifndef __INTEL_COMBO_PHY_H__
 #define __INTEL_COMBO_PHY_H__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 enum phy;
 struct intel_display;

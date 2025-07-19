@@ -3,13 +3,13 @@
  * Copyright (C) 2011 Google, Inc.
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/usb.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/ulpi.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/usb.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/ulpi.h>
 
 #define ULPI_VIEW_WAKEUP	(1 << 31)
 #define ULPI_VIEW_RUN		(1 << 30)

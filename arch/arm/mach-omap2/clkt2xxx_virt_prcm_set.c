@@ -23,12 +23,12 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/cpufreq.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/cpufreq.h>
+#include <peenux/slab.h>
 
 #include "soc.h"
 #include "clock.h"
@@ -209,8 +209,8 @@ static void omap2xxx_clkt_vps_late_init(void)
 }
 
 #ifdef CONFIG_OF
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clkdev.h>
 
 static const struct clk_ops virt_prcm_set_ops = {
 	.recalc_rate	= &omap2_table_mpu_recalc,

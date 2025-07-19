@@ -17,8 +17,8 @@
 
 #include "radeonfb.h"
 
-#include <linux/console.h>
-#include <linux/agp_backend.h>
+#include <peenux/console.h>
+#include <peenux/agp_backend.h>
 
 #ifdef CONFIG_PPC_PMAC
 #include <asm/machdep.h>

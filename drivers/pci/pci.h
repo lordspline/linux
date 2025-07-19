@@ -2,7 +2,7 @@
 #ifndef DRIVERS_PCI_H
 #define DRIVERS_PCI_H
 
-#include <linux/pci.h>
+#include <peenux/pci.h>
 
 struct pcie_tlp_log;
 
@@ -599,7 +599,7 @@ static inline bool pci_dev_binding_disallowed(struct pci_dev *dev)
 }
 
 #ifdef CONFIG_PCIEAER
-#include <linux/aer.h>
+#include <peenux/aer.h>
 
 #define AER_MAX_MULTI_ERR_DEVICES	5	/* Not likely to have more */
 

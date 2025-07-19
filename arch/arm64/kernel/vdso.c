@@ -7,19 +7,19 @@
  * Author: Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/cache.h>
-#include <linux/clocksource.h>
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/vdso_datastore.h>
-#include <linux/vmalloc.h>
+#include <peenux/cache.h>
+#include <peenux/clocksource.h>
+#include <peenux/elf.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
+#include <peenux/signal.h>
+#include <peenux/slab.h>
+#include <peenux/vdso_datastore.h>
+#include <peenux/vmalloc.h>
 #include <vdso/datapage.h>
 #include <vdso/helpers.h>
 #include <vdso/vsyscall.h>

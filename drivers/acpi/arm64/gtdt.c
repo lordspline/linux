@@ -8,11 +8,11 @@
  *         Hanjun Guo <hanjun.guo@linaro.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/init.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/init.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
 
 #include <clocksource/arm_arch_timer.h>
 

@@ -3,9 +3,9 @@
  * Copyright STMicroelectronics, 2007.
  */
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

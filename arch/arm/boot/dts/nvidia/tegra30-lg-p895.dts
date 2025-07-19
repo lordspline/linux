@@ -453,7 +453,7 @@
 		key-memo {
 			label = "Memo";
 			gpios = <&gpio TEGRA_GPIO(B, 6) GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_MEMO>;
+			peenux,code = <KEY_MEMO>;
 			debounce-interval = <10>;
 			wakeup-event-action = <EV_ACT_ASSERTED>;
 			wakeup-source;
@@ -462,7 +462,7 @@
 		key-volume-up {
 			label = "Volume Up";
 			gpios = <&gpio TEGRA_GPIO(I, 6) GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 			debounce-interval = <10>;
 			wakeup-event-action = <EV_ACT_ASSERTED>;
 			wakeup-source;
@@ -474,7 +474,7 @@
 			label = "power::white";
 			gpios = <&gpio TEGRA_GPIO(R, 3) GPIO_ACTIVE_HIGH>;
 
-			linux,default-trigger = "battery-charging";
+			peenux,default-trigger = "battery-charging";
 
 			color = <LED_COLOR_ID_WHITE>;
 			function = LED_FUNCTION_CHARGING;

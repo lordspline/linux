@@ -14,9 +14,9 @@
  * Maintainer: Michal Simek <michal.simek@xilinx.com>
  */
 
-#include <linux/init.h>
-#include <linux/cpuidle.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/cpuidle.h>
+#include <peenux/platform_device.h>
 #include <asm/cpuidle.h>
 
 #define ZYNQ_MAX_STATES		2

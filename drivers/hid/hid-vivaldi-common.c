@@ -5,12 +5,12 @@
  * Copyright (C) 2022 Google, Inc
  */
 
-#include <linux/export.h>
-#include <linux/hid.h>
-#include <linux/input/vivaldi-fmap.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/export.h>
+#include <peenux/hid.h>
+#include <peenux/input/vivaldi-fmap.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 #include "hid-vivaldi-common.h"
 

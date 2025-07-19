@@ -7,17 +7,17 @@
  * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/power_supply.h>
-#include <linux/notifier.h>
-#include <linux/usb/phy.h>
-#include <linux/iio/consumer.h>
-#include <linux/mfd/da9150/core.h>
-#include <linux/mfd/da9150/registers.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/power_supply.h>
+#include <peenux/notifier.h>
+#include <peenux/usb/phy.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/mfd/da9150/core.h>
+#include <peenux/mfd/da9150/registers.h>
 
 /* Private data */
 struct da9150_charger {

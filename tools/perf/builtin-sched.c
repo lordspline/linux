@@ -29,9 +29,9 @@
 #include "util/event.h"
 #include "util/util.h"
 
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/zalloc.h>
+#include <peenux/kernel.h>
+#include <peenux/log2.h>
+#include <peenux/zalloc.h>
 #include <sys/prctl.h>
 #include <sys/resource.h>
 #include <inttypes.h>
@@ -42,10 +42,10 @@
 #include <math.h>
 #include <api/fs/fs.h>
 #include <perf/cpumap.h>
-#include <linux/time64.h>
-#include <linux/err.h>
+#include <peenux/time64.h>
+#include <peenux/err.h>
 
-#include <linux/ctype.h>
+#include <peenux/ctype.h>
 
 #define PR_SET_NAME		15               /* Set process name */
 #define MAX_CPUS		4096

@@ -15,33 +15,33 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/net_tstamp.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/crc32.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/crc32.h>
 #include <asm/types.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/sort.h>
-#include <linux/if_vlan.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/fsl/ptp_qoriq.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
+#include <peenux/sort.h>
+#include <peenux/if_vlan.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/fsl/ptp_qoriq.h>
 
 #include "gianfar.h"
 

@@ -25,18 +25,18 @@
  * USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include <drm/display/drm_dsc.h>
 #include <drm/drm_mipi_dsi.h>
 #include <drm/drm_print.h>
 
-#include <linux/media-bus-format.h>
+#include <peenux/media-bus-format.h>
 
 #include <video/mipi_display.h>
 

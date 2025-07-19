@@ -12,7 +12,7 @@
 
 #include "../sys.h"
 
-#include <linux/ioctl.h>
+#include <peenux/ioctl.h>
 
 /*
  * int ioctl(int fd, unsigned long cmd, ... arg);

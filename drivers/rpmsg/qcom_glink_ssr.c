@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2014-2017, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014-2017, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2017, Linaro Ltd.
  */
 
-#include <linux/completion.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/rpmsg.h>
-#include <linux/rpmsg/qcom_glink.h>
-#include <linux/remoteproc/qcom_rproc.h>
+#include <peenux/completion.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/rpmsg.h>
+#include <peenux/rpmsg/qcom_glink.h>
+#include <peenux/remoteproc/qcom_rproc.h>
 
 /**
  * struct do_cleanup_msg - The data structure for an SSR do_cleanup message

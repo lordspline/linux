@@ -1,6 +1,6 @@
-/*	tulip_core.c: A DEC 21x4x-family ethernet driver for Linux.
+/*	tulip_core.c: A DEC 21x4x-family ethernet driver for Peenux.
 
-	Copyright 2000,2001  The Linux Kernel Team
+	Copyright 2000,2001  The Peenux Kernel Team
 	Written/copyright 1994-2001 by Donald Becker.
 
 	This software may be used and distributed according to the terms
@@ -13,18 +13,18 @@
 
 #define DRV_NAME	"tulip"
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
 #include "tulip.h"
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/mii.h>
-#include <linux/crc32.h>
-#include <linux/unaligned.h>
-#include <linux/uaccess.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
+#include <peenux/mii.h>
+#include <peenux/crc32.h>
+#include <peenux/unaligned.h>
+#include <peenux/uaccess.h>
 
 #ifdef CONFIG_SPARC
 #include <asm/prom.h>
@@ -96,7 +96,7 @@ static int csr0;
 #define TX_TIMEOUT  (4*HZ)
 
 
-MODULE_AUTHOR("The Linux Kernel Team");
+MODULE_AUTHOR("The Peenux Kernel Team");
 MODULE_DESCRIPTION("Digital 21*4* Tulip ethernet driver");
 MODULE_LICENSE("GPL");
 module_param(tulip_debug, int, 0);

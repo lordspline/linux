@@ -5,41 +5,41 @@
  * Copyright Alan Cox GW4PTS (alan@lxorguk.ukuu.org.uk)
  * Copyright Darryl Miles G7LED (dlm@g7led.demon.co.uk)
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/stat.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/capability.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/in.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/timer.h>
+#include <peenux/string.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/stat.h>
 #include <net/ax25.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/skbuff.h>
 #include <net/net_namespace.h>
 #include <net/sock.h>
-#include <linux/uaccess.h>
-#include <linux/fcntl.h>
-#include <linux/termios.h>	/* For TIOCINQ/OUTQ */
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
+#include <peenux/uaccess.h>
+#include <peenux/fcntl.h>
+#include <peenux/termios.h>	/* For TIOCINQ/OUTQ */
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/notifier.h>
 #include <net/netrom.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include <net/ip.h>
 #include <net/tcp_states.h>
 #include <net/arp.h>
-#include <linux/init.h>
+#include <peenux/init.h>
 
 static int nr_ndevs = 4;
 

@@ -7,16 +7,16 @@
  * Author: Liam Girdwood <lrg@slimlogic.co.uk>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/wm8350/audio.h>
-#include <linux/mfd/wm8350/core.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/wm8350/audio.h>
+#include <peenux/mfd/wm8350/core.h>
+#include <peenux/regulator/consumer.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

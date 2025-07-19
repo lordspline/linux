@@ -8,10 +8,10 @@
 
 #define pr_fmt(fmt) "clk-frac-synth: " fmt
 
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
 #include "clk.h"
 
 #define DIV_FACTOR_MASK		0x1FFFF

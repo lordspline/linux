@@ -4,8 +4,8 @@
 
 /* TLB flushing routines.... */
 
-#include <linux/mm.h>
-#include <linux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/sched.h>
 #include <asm/mmu_context.h>
 
 extern void flush_tlb_all(void);

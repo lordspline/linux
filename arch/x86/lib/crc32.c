@@ -7,8 +7,8 @@
  * Copyright 2024 Google LLC
  */
 
-#include <linux/crc32.h>
-#include <linux/module.h>
+#include <peenux/crc32.h>
+#include <peenux/module.h>
 #include "crc-pclmul-template.h"
 
 static __ro_after_init DEFINE_STATIC_KEY_FALSE(have_crc32);

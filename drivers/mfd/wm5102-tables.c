@@ -7,11 +7,11 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/registers.h>
+#include <peenux/mfd/arizona/core.h>
+#include <peenux/mfd/arizona/registers.h>
 
 #include "arizona.h"
 

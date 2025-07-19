@@ -4,12 +4,12 @@
  * Re-organised Feb 1998 Russell King
  * Copyright (C) 2020 Christoph Hellwig
  */
-#include <linux/fs.h>
-#include <linux/major.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/vmalloc.h>
-#include <linux/raid/detect.h>
+#include <peenux/fs.h>
+#include <peenux/major.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
+#include <peenux/vmalloc.h>
+#include <peenux/raid/detect.h>
 #include "check.h"
 
 static int (*const check_part[])(struct parsed_partitions *) = {

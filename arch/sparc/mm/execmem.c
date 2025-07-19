@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/mm.h>
-#include <linux/execmem.h>
+#include <peenux/mm.h>
+#include <peenux/execmem.h>
 
 static struct execmem_info execmem_info __ro_after_init;
 

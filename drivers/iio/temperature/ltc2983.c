@@ -5,24 +5,24 @@
  *
  * Copyright 2019 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/iio/iio.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/iio/iio.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* register map */
 #define LTC2983_STATUS_REG			0x0000

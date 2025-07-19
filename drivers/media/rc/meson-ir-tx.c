@@ -7,16 +7,16 @@
  * Author: Viktor Prutyanov <viktor.prutyanov@phystech.edu>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/of_irq.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/of_irq.h>
+#include <peenux/clk.h>
+#include <peenux/slab.h>
 #include <media/rc-core.h>
 
 #define DEVICE_NAME	"Meson IR TX"

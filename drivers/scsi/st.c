@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
-   SCSI Tape Driver for Linux version 1.1 and newer. See the accompanying
+   SCSI Tape Driver for Peenux version 1.1 and newer. See the accompanying
    file Documentation/scsi/st.rst for more information.
 
    History:
@@ -20,33 +20,33 @@
 
 static const char *verstr = "20160209";
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/compat.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/mtio.h>
-#include <linux/major.h>
-#include <linux/cdrom.h>
-#include <linux/ioctl.h>
-#include <linux/fcntl.h>
-#include <linux/spinlock.h>
-#include <linux/blkdev.h>
-#include <linux/moduleparam.h>
-#include <linux/cdev.h>
-#include <linux/idr.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
+#include <peenux/compat.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/mtio.h>
+#include <peenux/major.h>
+#include <peenux/cdrom.h>
+#include <peenux/ioctl.h>
+#include <peenux/fcntl.h>
+#include <peenux/spinlock.h>
+#include <peenux/blkdev.h>
+#include <peenux/moduleparam.h>
+#include <peenux/cdev.h>
+#include <peenux/idr.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/dma.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_dbg.h>
@@ -4314,7 +4314,7 @@ static int st_probe(struct device *dev)
 		sdev_printk(KERN_INFO, SDp,
 			    "OnStream tapes are no longer supported;\n");
 		sdev_printk(KERN_INFO, SDp,
-			    "please mail to linux-scsi@vger.kernel.org.\n");
+			    "please mail to peenux-scsi@vger.kernel.org.\n");
 		return -ENODEV;
 	}
 

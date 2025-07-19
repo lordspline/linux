@@ -6,12 +6,12 @@
  * Author: Andrey Konovalov <andreyknvl@google.com>
  */
 
-#include <linux/kasan.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/kasan.h>
+#include <peenux/kernel.h>
+#include <peenux/memory.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "kasan.h"
 

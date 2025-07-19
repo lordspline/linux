@@ -4,9 +4,9 @@
 #ifndef _HINIC3_MGMT_INTERFACE_H_
 #define _HINIC3_MGMT_INTERFACE_H_
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/if_ether.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/if_ether.h>
 
 #include "hinic3_hw_intf.h"
 

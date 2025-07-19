@@ -5,11 +5,11 @@
  * (c) 2007 Michael Krufky
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 #include <asm/types.h>
-#include <linux/dvb/frontend.h>
-#include <linux/videodev2.h>
+#include <peenux/dvb/frontend.h>
+#include <peenux/videodev2.h>
 
 #include "tda827x.h"
 

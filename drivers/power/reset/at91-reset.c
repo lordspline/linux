@@ -11,14 +11,14 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/reset-controller.h>
-#include <linux/power/power_on_reason.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/reset-controller.h>
+#include <peenux/power/power_on_reason.h>
 
 #include <soc/at91/at91sam9_ddrsdr.h>
 #include <soc/at91/at91sam9_sdramc.h>

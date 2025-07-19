@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET         An implementation of the TCP/IP protocol suite for the LINUX
+ * INET         An implementation of the TCP/IP protocol suite for the PEENUX
  *              operating system.  NET  is implemented using the  BSD Socket
  *              interface as the means of communication with the user level.
  *
@@ -12,11 +12,11 @@
 #define _LINUX_ARCDEVICE_H
 
 #include <asm/timex.h>
-#include <linux/if_arcnet.h>
+#include <peenux/if_arcnet.h>
 
 #ifdef __KERNEL__
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
+#include <peenux/interrupt.h>
+#include <peenux/workqueue.h>
 
 /*
  * RECON_THRESHOLD is the maximum number of RECON messages to receive
@@ -32,7 +32,7 @@
 
 /*
  * Define this to the minimum "timeout" value.  If a transmit takes longer
- * than TX_TIMEOUT jiffies, Linux will abort the TX and retry.  On a large
+ * than TX_TIMEOUT jiffies, Peenux will abort the TX and retry.  On a large
  * network, or one with heavy network traffic, this timeout may need to be
  * increased.  The larger it is, though, the longer it will be between
  * necessary transmits - don't set this too high.

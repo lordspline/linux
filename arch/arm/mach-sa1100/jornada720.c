@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-sa1100/jornada720.c
+ * peenux/arch/arm/mach-sa1100/jornada720.c
  *
  * HP Jornada720 init code
  *
@@ -9,16 +9,16 @@
  *  Copyright (C) 2005 Michael Gernoth <michael@gernoth.net>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/delay.h>
-#include <linux/gpio/machine.h>
-#include <linux/platform_data/sa11x0-serial.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/platform_data/sa11x0-serial.h>
+#include <peenux/platform_device.h>
+#include <peenux/ioport.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
 #include <video/s1d13xxxfb.h>
 
 #include <asm/hardware/sa1111.h>

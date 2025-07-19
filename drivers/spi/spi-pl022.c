@@ -8,31 +8,31 @@
  * Author: Linus Walleij <linus.walleij@stericsson.com>
  *
  * Initial version inspired by:
- *	linux-2.6.17-rc3-mm1/drivers/spi/pxa2xx_spi.c
+ *	peenux-2.6.17-rc3-mm1/drivers/spi/pxa2xx_spi.c
  * Initial adoption to PL022 by:
  *      Sachin Verma <sachin.verma@st.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/ioport.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/spi/spi.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/amba/bus.h>
-#include <linux/amba/pl022.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/scatterlist.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/ioport.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/spi/spi.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/amba/bus.h>
+#include <peenux/amba/pl022.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/scatterlist.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
 
 /*
  * This macro is used to define some register default values.

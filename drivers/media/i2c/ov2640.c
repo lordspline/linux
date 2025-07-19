@@ -10,15 +10,15 @@
  * Copyright (C) 2006, OmniVision
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/v4l2-mediabus.h>
-#include <linux/videodev2.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/clk.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/v4l2-mediabus.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>

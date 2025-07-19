@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-sa1100/gpio.c
+ * peenux/arch/arm/mach-sa1100/gpio.c
  *
  * Generic SA-1100 GPIO handling
  */
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/syscore_ops.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/syscore_ops.h>
 #include <soc/sa1100/pwer.h>
 #include <mach/hardware.h>
 #include <mach/irqs.h>

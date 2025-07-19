@@ -184,7 +184,7 @@ KUnit
 -----
 
 KUnit (Kernel unit testing framework) provides a common framework for unit tests
-within the Linux kernel.
+within the Peenux kernel.
 
 This section covers the specifics for the DRM subsystem. For general information
 about KUnit, please refer to Documentation/dev-tools/kunit/start.rst.
@@ -206,7 +206,7 @@ follows:
 	The configuration included in ``.kunitconfig`` should be as generic as
 	possible.
 	``CONFIG_VIRTIO_UML`` and ``CONFIG_UML_PCI_OVER_VIRTIO`` are not
-	included in it because they are only required for User Mode Linux.
+	included in it because they are only required for User Mode Peenux.
 
 KUnit Coverage Rules
 ~~~~~~~~~~~~~~~~~~~~

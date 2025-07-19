@@ -14,9 +14,9 @@
  * fixup so it is a special case ATM
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
 
 #include <asm/ce4100.h>
 #include <asm/pci_x86.h>

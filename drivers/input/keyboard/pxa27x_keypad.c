@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/input/keyboard/pxa27x_keypad.c
+ * peenux/drivers/input/keyboard/pxa27x_keypad.c
  *
  * Driver for the pxa27x matrix keyboard controller.
  *
  * Created:	Feb 22, 2007
- * Author:	Rodolfo Giometti <giometti@linux.it>
+ * Author:	Rodolfo Giometti <giometti@peenux.it>
  *
  * Based on a previous implementations by Kevin O'Connor
  * <kevin_at_koconnor.net> and Alex Osborne <bobofdoom@gmail.com> and
@@ -13,20 +13,20 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/io.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/input.h>
+#include <peenux/io.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/input/matrix_keypad.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
 
-#include <linux/platform_data/keypad-pxa27x.h>
+#include <peenux/platform_data/keypad-pxa27x.h>
 /*
  * Keypad Controller registers
  */

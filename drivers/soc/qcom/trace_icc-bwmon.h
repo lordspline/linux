@@ -8,7 +8,7 @@
 
 #if !defined(_TRACE_ICC_BWMON_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_ICC_BWMON_H
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 
 TRACE_EVENT(qcom_bwmon_update,
 	    TP_PROTO(const char *name,

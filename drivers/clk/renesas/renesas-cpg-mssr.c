@@ -10,24 +10,24 @@
  * Copyright (C) 2015 Renesas Electronics Corp.
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/renesas.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_domain.h>
-#include <linux/psci.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk/renesas.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_domain.h>
+#include <peenux/psci.h>
+#include <peenux/reset-controller.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
 
 #include <dt-bindings/clock/renesas-cpg-mssr.h>
 
@@ -460,7 +460,7 @@ static void __init cpg_mssr_register_mod_clk(const struct mssr_mod_clk *mod,
 	 */
 	for (i = 0; i < priv->num_reserved_ids; i++) {
 		if (id == priv->reserved_ids[i]) {
-			dev_info(dev, "Ignore Linux non-assigned mod (%s)\n", mod->name);
+			dev_info(dev, "Ignore Peenux non-assigned mod (%s)\n", mod->name);
 			init.flags |= CLK_IGNORE_UNUSED;
 			break;
 		}
@@ -983,10 +983,10 @@ static int __init cpg_mssr_reserved_init(struct cpg_mssr_priv *priv,
 
 	/*
 	 * Because clk_disable_unused() will disable all unused clocks, the device which is assigned
-	 * to a non-Linux system will be disabled when Linux is booted.
+	 * to a non-Peenux system will be disabled when Peenux is booted.
 	 *
 	 * To avoid such situation, renesas-cpg-mssr assumes the device which has
-	 * status = "reserved" is assigned to a non-Linux system, and adds CLK_IGNORE_UNUSED flag
+	 * status = "reserved" is assigned to a non-Peenux system, and adds CLK_IGNORE_UNUSED flag
 	 * to its CPG_MOD clocks.
 	 * see also
 	 *	cpg_mssr_register_mod_clk()

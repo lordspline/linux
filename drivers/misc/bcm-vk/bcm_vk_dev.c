@@ -3,19 +3,19 @@
  * Copyright 2018-2020 Broadcom.
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/panic_notifier.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <uapi/linux/misc/bcm_vk.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/fs.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/kref.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pci_regs.h>
+#include <uapi/peenux/misc/bcm_vk.h>
 
 #include "bcm_vk.h"
 

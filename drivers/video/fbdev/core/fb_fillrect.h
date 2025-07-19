@@ -6,7 +6,7 @@
  *	Copyright (C)  2025 Zsolt Kajtar (soci@c64.rulez.org)
  *
  *	Based on earlier work of:
- *	Copyright (C)  2000 James Simmons (jsimmons@linux-fbdev.org)
+ *	Copyright (C)  2000 James Simmons (jsimmons@peenux-fbdev.org)
  *	Michal Januszewski <spock@gentoo.org>
  *	Anton Vorontsov <avorontsov@ru.mvista.com>
  *	Pavel Pisa <pisa@cmp.felk.cvut.cz>

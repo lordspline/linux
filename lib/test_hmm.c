@@ -5,30 +5,30 @@
  * Userspace programs can register with the driver to mirror their own address
  * space and can use the device to read/write any valid virtual address.
  */
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/memremap.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/delay.h>
-#include <linux/pagemap.h>
-#include <linux/hmm.h>
-#include <linux/vmalloc.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/sched/mm.h>
-#include <linux/platform_device.h>
-#include <linux/rmap.h>
-#include <linux/mmu_notifier.h>
-#include <linux/migrate.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/cdev.h>
+#include <peenux/device.h>
+#include <peenux/memremap.h>
+#include <peenux/mutex.h>
+#include <peenux/rwsem.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/delay.h>
+#include <peenux/pagemap.h>
+#include <peenux/hmm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/sched/mm.h>
+#include <peenux/platform_device.h>
+#include <peenux/rmap.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/migrate.h>
 
 #include "test_hmm_uapi.h"
 

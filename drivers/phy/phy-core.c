@@ -7,18 +7,18 @@
  * Author: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/idr.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/idr.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
 
 static void phy_release(struct device *dev);
 static const struct class phy_class = {

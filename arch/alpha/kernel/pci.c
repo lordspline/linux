@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/pci.c
+ *	peenux/arch/alpha/kernel/pci.c
  *
  * Extruded from code written by
  *	Dave Rusling (david.rusling@reo.mts.dec.com)
@@ -13,16 +13,16 @@
  * Nov 2000, Ivan Kokshaysky <ink@jurassic.park.msu.ru>
  *	     PCI-PCI bridges cleanup
  */
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/module.h>
-#include <linux/cache.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
+#include <peenux/string.h>
+#include <peenux/pci.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/memblock.h>
+#include <peenux/module.h>
+#include <peenux/cache.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
 #include <asm/machvec.h>
 
 #include "proto.h"

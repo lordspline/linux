@@ -6,19 +6,19 @@
 #ifndef __LINUX_KERNFS_H
 #define __LINUX_KERNFS_H
 
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/idr.h>
-#include <linux/lockdep.h>
-#include <linux/rbtree.h>
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/types.h>
-#include <linux/uidgid.h>
-#include <linux/wait.h>
-#include <linux/rwsem.h>
-#include <linux/cache.h>
+#include <peenux/err.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/idr.h>
+#include <peenux/lockdep.h>
+#include <peenux/rbtree.h>
+#include <peenux/atomic.h>
+#include <peenux/bug.h>
+#include <peenux/types.h>
+#include <peenux/uidgid.h>
+#include <peenux/wait.h>
+#include <peenux/rwsem.h>
+#include <peenux/cache.h>
 
 struct file;
 struct dentry;

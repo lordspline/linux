@@ -4,12 +4,12 @@
  *
  * (C) Copyright 2010 Intel Corporation
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/reboot.h>
-#include <linux/serial_reg.h>
-#include <linux/serial_8250.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/irq.h>
+#include <peenux/reboot.h>
+#include <peenux/serial_reg.h>
+#include <peenux/serial_8250.h>
 
 #include <asm/ce4100.h>
 #include <asm/prom.h>

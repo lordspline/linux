@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * SuperTrak EX Series Storage Controller driver for Linux
+ * SuperTrak EX Series Storage Controller driver for Peenux
  *
  *	Copyright (C) 2005-2015 Promise Technology Inc.
  *
@@ -8,20 +8,20 @@
  *		Ed Lin <promise_linux@promise.com>
  */
 
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/ktime.h>
-#include <linux/reboot.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/interrupt.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/ktime.h>
+#include <peenux/reboot.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/byteorder.h>

@@ -7,8 +7,8 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
 #include <crypto/skcipher.h>
 #include <crypto/hash.h>
 #include "internal.h"

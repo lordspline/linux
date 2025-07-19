@@ -6,17 +6,17 @@
  * (C) Copyright TOSHIBA CORPORATION 2004-2007
  * All Rights Reserved.
  */
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/io.h>
-#include <linux/platform_data/txx9/ndfmc.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/io.h>
+#include <peenux/platform_data/txx9/ndfmc.h>
 
 /* TXX9 NDFMC Registers */
 #define TXX9_NDFDTR	0x00

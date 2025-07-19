@@ -10,13 +10,13 @@
 
 
 */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/jiffies.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/jiffies.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 
 #include <media/dvb_frontend.h>

@@ -5,11 +5,11 @@
 #ifndef _VC4_DRV_H_
 #define _VC4_DRV_H_
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/refcount.h>
-#include <linux/uaccess.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/refcount.h>
+#include <peenux/uaccess.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_debugfs.h>

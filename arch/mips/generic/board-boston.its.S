@@ -14,7 +14,7 @@
 
 	configurations {
 		conf-boston {
-			description = "Boston Linux kernel";
+			description = "Boston Peenux kernel";
 			kernel = "kernel";
 			fdt = "fdt-boston";
 		};

@@ -31,13 +31,13 @@
 
 		button-user-1 {
 			label = "User-1";
-			linux,code = <BTN_1>;
+			peenux,code = <BTN_1>;
 			gpios = <&gpioc 5 GPIO_ACTIVE_HIGH>;
 		};
 
 		button-user-2 {
 			label = "User-2";
-			linux,code = <BTN_2>;
+			peenux,code = <BTN_2>;
 			gpios = <&gpioc 11 GPIO_ACTIVE_HIGH>;
 		};
 	};
@@ -49,7 +49,7 @@
 			function = LED_FUNCTION_HEARTBEAT;
 			color = <LED_COLOR_ID_BLUE>;
 			gpios = <&gpioh 7 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 			default-state = "off";
 		};
 	};

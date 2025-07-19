@@ -64,16 +64,16 @@
  *
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
 #include <asm/io.h>
 
 #include <video/tdfx.h>

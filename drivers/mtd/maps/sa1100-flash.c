@@ -4,24 +4,24 @@
  *
  * (C) 2000 Nicolas Pitre <nico@fluxnic.net>
  */
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/concat.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/concat.h>
 
 #include <mach/hardware.h>
-#include <linux/sizes.h>
+#include <peenux/sizes.h>
 #include <asm/mach/flash.h>
 
 struct sa_subdev_info {

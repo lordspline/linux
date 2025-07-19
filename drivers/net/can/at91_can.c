@@ -6,27 +6,27 @@
  * (C) 2008, 2009, 2010, 2011, 2023 by Marc Kleine-Budde <kernel@pengutronix.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/if_arp.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/rtnetlink.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/errno.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_arp.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/can/rx-offload.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
+#include <peenux/can/rx-offload.h>
 
 #define AT91_MB_MASK(i) ((1 << (i)) - 1)
 

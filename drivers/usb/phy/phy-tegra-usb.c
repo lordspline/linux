@@ -9,25 +9,25 @@
  *	Venu Byravarasu <vbyravarasu@nvidia.com>
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/resource.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/resource.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
-#include <linux/regulator/consumer.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/usb/ehci_def.h>
-#include <linux/usb/of.h>
-#include <linux/usb/tegra_usb_phy.h>
-#include <linux/usb/ulpi.h>
+#include <peenux/usb/ehci_def.h>
+#include <peenux/usb/of.h>
+#include <peenux/usb/tegra_usb_phy.h>
+#include <peenux/usb/ulpi.h>
 
 #define ULPI_VIEWPORT				0x170
 

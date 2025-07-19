@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/codetag.h>
-#include <linux/idr.h>
-#include <linux/kallsyms.h>
-#include <linux/module.h>
-#include <linux/seq_buf.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/codetag.h>
+#include <peenux/idr.h>
+#include <peenux/kallsyms.h>
+#include <peenux/module.h>
+#include <peenux/seq_buf.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 struct codetag_type {
 	struct list_head link;

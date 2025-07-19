@@ -9,8 +9,8 @@
 #ifndef __ASM_CPU_TYPE_H
 #define __ASM_CPU_TYPE_H
 
-#include <linux/smp.h>
-#include <linux/compiler.h>
+#include <peenux/smp.h>
+#include <peenux/compiler.h>
 
 static inline int __pure __get_cpu_type(const int cpu_type)
 {

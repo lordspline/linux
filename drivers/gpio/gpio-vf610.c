@@ -6,18 +6,18 @@
  *
  * Author: Stefan Agner <stefan@agner.ch>.
  */
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #define VF610_GPIO_PER_PORT		32
 

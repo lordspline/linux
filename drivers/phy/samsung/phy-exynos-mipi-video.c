@@ -6,17 +6,17 @@
  * Author: Sylwester Nawrocki <s.nawrocki@samsung.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
-#include <linux/soc/samsung/exynos-regs-pmu.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
+#include <peenux/soc/samsung/exynos-regs-pmu.h>
+#include <peenux/mfd/syscon.h>
 
 enum exynos_mipi_phy_id {
 	EXYNOS_MIPI_PHY_ID_NONE = -1,

@@ -6,12 +6,12 @@
  *
  *  Copyright (c) 2022, Alibaba Inc.
  *
- *  Author: Tony Lu <tonylu@linux.alibaba.com>
+ *  Author: Tony Lu <tonylu@peenux.alibaba.com>
  *
  */
 
-#include <linux/init.h>
-#include <linux/sysctl.h>
+#include <peenux/init.h>
+#include <peenux/sysctl.h>
 #include <net/net_namespace.h>
 
 #include "smc.h"

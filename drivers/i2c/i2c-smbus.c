@@ -6,17 +6,17 @@
  * Copyright (C) 2010-2019 Jean Delvare <jdelvare@suse.de>
  */
 
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <peenux/device.h>
+#include <peenux/dmi.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-smbus.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/workqueue.h>
 
 struct i2c_smbus_alert {
 	struct work_struct	alert;

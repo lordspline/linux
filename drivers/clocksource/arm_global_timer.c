@@ -7,20 +7,20 @@
  * Author: Srinivas Kandagatla <srinivas.kandagatla@st.com>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/bitfield.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/cpu.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/sched_clock.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/bitfield.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/cpu.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/sched_clock.h>
 
 #include <asm/cputype.h>
 

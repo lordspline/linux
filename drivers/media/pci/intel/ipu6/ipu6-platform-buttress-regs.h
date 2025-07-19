@@ -4,7 +4,7 @@
 #ifndef IPU6_PLATFORM_BUTTRESS_REGS_H
 #define IPU6_PLATFORM_BUTTRESS_REGS_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 /* IS_WORKPOINT_REQ */
 #define IPU6_BUTTRESS_REG_IS_FREQ_CTL		0x34

@@ -3,9 +3,9 @@
 // Copyright (C) 2018 Bootlin
 // Mylène Josserand <mylene.josserand@bootlin.com>
 
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/workqueue.h>
 
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

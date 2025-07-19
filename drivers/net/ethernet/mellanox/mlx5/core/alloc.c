@@ -30,14 +30,14 @@
  * SOFTWARE.
  */
 
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/export.h>
-#include <linux/bitmap.h>
-#include <linux/dma-mapping.h>
-#include <linux/vmalloc.h>
-#include <linux/mlx5/driver.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/export.h>
+#include <peenux/bitmap.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mlx5/driver.h>
 
 #include "mlx5_core.h"
 

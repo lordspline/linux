@@ -5,19 +5,19 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/ssbi.h>
-#include <linux/regmap.h>
-#include <linux/of_platform.h>
-#include <linux/mfd/core.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/ssbi.h>
+#include <peenux/regmap.h>
+#include <peenux/of_platform.h>
+#include <peenux/mfd/core.h>
 
 #define	SSBI_REG_ADDR_IRQ_BASE		0x1BB
 

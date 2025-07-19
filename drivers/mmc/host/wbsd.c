@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/mmc/host/wbsd.c - Winbond W83L51xD SD/MMC driver
+ *  peenux/drivers/mmc/host/wbsd.c - Winbond W83L51xD SD/MMC driver
  *
  *  Copyright (C) 2004-2007 Pierre Ossman, All Rights Reserved.
  *
@@ -17,21 +17,21 @@
  * - On APIC systems the FIFO empty interrupt is sometimes lost.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/pnp.h>
-#include <linux/highmem.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/pnp.h>
+#include <peenux/highmem.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/sd.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
 
 #include <asm/io.h>
 #include <asm/dma.h>

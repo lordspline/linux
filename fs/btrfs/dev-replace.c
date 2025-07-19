@@ -3,12 +3,12 @@
  * Copyright (C) STRATO AG 2012.  All rights reserved.
  */
 
-#include <linux/sched.h>
-#include <linux/bio.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/kthread.h>
-#include <linux/math64.h>
+#include <peenux/sched.h>
+#include <peenux/bio.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/kthread.h>
+#include <peenux/math64.h>
 #include "misc.h"
 #include "ctree.h"
 #include "disk-io.h"

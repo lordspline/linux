@@ -6,11 +6,11 @@
  */
 
 
-#include <linux/init.h>
-#include <linux/reboot.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
+#include <peenux/init.h>
+#include <peenux/reboot.h>
+#include <peenux/memblock.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
 #include <asm/mach_desc.h>
 #include <asm/serial.h>
 

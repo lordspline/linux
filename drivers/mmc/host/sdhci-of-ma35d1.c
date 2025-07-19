@@ -5,29 +5,29 @@
  * Author: Shan-Chun Hung <shanchun1218@gmail.com>
  */
 
-#include <linux/align.h>
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/build_bug.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/math.h>
-#include <linux/mfd/syscon.h>
-#include <linux/minmax.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <peenux/align.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/build_bug.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dev_printk.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/math.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/minmax.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/sizes.h>
+#include <peenux/types.h>
 
 #include "sdhci-pltfm.h"
 #include "sdhci.h"

@@ -10,11 +10,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/lzo.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/vmalloc.h>
+#include <peenux/init.h>
+#include <peenux/lzo.h>
 #include "compr.h"
 
 static void *lzo_mem;

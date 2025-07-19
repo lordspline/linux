@@ -3,20 +3,20 @@
  * PXA2xx SPI DMA engine support.
  *
  * Copyright (C) 2013, 2021 Intel Corporation
- * Author: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Author: Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/dev_printk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/errno.h>
-#include <linux/irqreturn.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/dev_printk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/errno.h>
+#include <peenux/irqreturn.h>
+#include <peenux/scatterlist.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
-#include <linux/spi/spi.h>
+#include <peenux/spi/spi.h>
 
 #include "spi-pxa2xx.h"
 

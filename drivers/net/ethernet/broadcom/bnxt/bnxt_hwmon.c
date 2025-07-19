@@ -7,11 +7,11 @@
  * the Free Software Foundation.
  */
 
-#include <linux/dev_printk.h>
-#include <linux/errno.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/pci.h>
+#include <peenux/dev_printk.h>
+#include <peenux/errno.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/pci.h>
 
 #include "bnxt_hsi.h"
 #include "bnxt.h"

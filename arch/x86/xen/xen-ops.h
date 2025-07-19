@@ -2,10 +2,10 @@
 #ifndef XEN_OPS_H
 #define XEN_OPS_H
 
-#include <linux/init.h>
-#include <linux/clocksource.h>
-#include <linux/irqreturn.h>
-#include <linux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/clocksource.h>
+#include <peenux/irqreturn.h>
+#include <peenux/linkage.h>
 
 #include <xen/interface/xenpmu.h>
 #include <xen/xen-ops.h>

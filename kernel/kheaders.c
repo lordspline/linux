@@ -6,10 +6,10 @@
  * (Borrowed code from kernel/configs.c)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/kobject.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kobject.h>
+#include <peenux/init.h>
 
 /*
  * Define kernel_headers_data and kernel_headers_data_end, within which the

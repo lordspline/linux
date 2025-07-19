@@ -7,8 +7,8 @@
 #ifndef _LINUX_CFI_H
 #define _LINUX_CFI_H
 
-#include <linux/bug.h>
-#include <linux/module.h>
+#include <peenux/bug.h>
+#include <peenux/module.h>
 #include <asm/cfi.h>
 
 extern bool cfi_warn;

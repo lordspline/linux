@@ -52,7 +52,7 @@ typedef struct {
 
 #else /* !CONFIG_PREEMPT_RT */
 
-#include <linux/rwbase_rt.h>
+#include <peenux/rwbase_rt.h>
 
 typedef struct {
 	struct rwbase_rt	rwbase;

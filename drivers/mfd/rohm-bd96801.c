@@ -29,17 +29,17 @@
  * STBY configuration support or a proper fix in your downstream driver ;)
  */
 
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
-#include <linux/mfd/rohm-bd96801.h>
-#include <linux/mfd/rohm-bd96802.h>
-#include <linux/mfd/rohm-generic.h>
+#include <peenux/mfd/rohm-bd96801.h>
+#include <peenux/mfd/rohm-bd96802.h>
+#include <peenux/mfd/rohm-generic.h>
 
 struct bd968xx {
 	const struct resource *errb_irqs;

@@ -22,15 +22,15 @@
 #include "xsk.h"
 
 #include <error.h>
-#include <linux/kernel.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/errqueue.h>
-#include <linux/if_link.h>
-#include <linux/net_tstamp.h>
+#include <peenux/kernel.h>
+#include <peenux/bits.h>
+#include <peenux/bitfield.h>
+#include <peenux/errqueue.h>
+#include <peenux/if_link.h>
+#include <peenux/net_tstamp.h>
 #include <netinet/udp.h>
-#include <linux/sockios.h>
-#include <linux/if_xdp.h>
+#include <peenux/sockios.h>
+#include <peenux/if_xdp.h>
 #include <sys/mman.h>
 #include <net/if.h>
 #include <ctype.h>
@@ -42,9 +42,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/ioctl.h>
-#include <linux/pkt_sched.h>
-#include <linux/pkt_cls.h>
-#include <linux/ethtool.h>
+#include <peenux/pkt_sched.h>
+#include <peenux/pkt_cls.h>
+#include <peenux/ethtool.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
 

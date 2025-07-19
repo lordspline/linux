@@ -5,13 +5,13 @@
  * Copyright (C) 2015-2017 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
 
 #include "dss.h"
 #include "omapdss.h"

@@ -9,19 +9,19 @@
  *
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/screen_info.h>
-#include <linux/io.h>
+#include <peenux/aperture.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/fb.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/screen_info.h>
+#include <peenux/io.h>
 
 #include <video/vga.h>
 

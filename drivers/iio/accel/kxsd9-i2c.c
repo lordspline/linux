@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/regmap.h>
 
 #include "kxsd9.h"
 

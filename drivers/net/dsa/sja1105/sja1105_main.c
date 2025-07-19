@@ -5,22 +5,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/spi/spi.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/phylink.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/netdev_features.h>
-#include <linux/netdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/if_ether.h>
-#include <linux/dsa/8021q.h>
-#include <linux/units.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/spi/spi.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/phylink.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/of_mdio.h>
+#include <peenux/netdev_features.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/if_ether.h>
+#include <peenux/dsa/8021q.h>
+#include <peenux/units.h>
 
 #include "sja1105.h"
 #include "sja1105_tas.h"

@@ -6,7 +6,7 @@
 #ifndef UDS_DELTA_INDEX_H
 #define UDS_DELTA_INDEX_H
 
-#include <linux/cache.h>
+#include <peenux/cache.h>
 
 #include "numeric.h"
 #include "time-utils.h"

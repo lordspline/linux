@@ -2,9 +2,9 @@
 #ifndef _DRM_PAGEMAP_H_
 #define _DRM_PAGEMAP_H_
 
-#include <linux/dma-direction.h>
-#include <linux/hmm.h>
-#include <linux/types.h>
+#include <peenux/dma-direction.h>
+#include <peenux/hmm.h>
+#include <peenux/types.h>
 
 struct drm_pagemap;
 struct device;

@@ -35,27 +35,27 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/buffer_head.h>
-#include <linux/sort.h>
-#include <linux/fs.h>
-#include <linux/bio.h>
-#include <linux/gfs2_ondisk.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/quota.h>
-#include <linux/dqblk_xfs.h>
-#include <linux/lockref.h>
-#include <linux/list_lru.h>
-#include <linux/rcupdate.h>
-#include <linux/rculist_bl.h>
-#include <linux/bit_spinlock.h>
-#include <linux/jhash.h>
-#include <linux/vmalloc.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/buffer_head.h>
+#include <peenux/sort.h>
+#include <peenux/fs.h>
+#include <peenux/bio.h>
+#include <peenux/gfs2_ondisk.h>
+#include <peenux/kthread.h>
+#include <peenux/freezer.h>
+#include <peenux/quota.h>
+#include <peenux/dqblk_xfs.h>
+#include <peenux/lockref.h>
+#include <peenux/list_lru.h>
+#include <peenux/rcupdate.h>
+#include <peenux/rculist_bl.h>
+#include <peenux/bit_spinlock.h>
+#include <peenux/jhash.h>
+#include <peenux/vmalloc.h>
 
 #include "gfs2.h"
 #include "incore.h"

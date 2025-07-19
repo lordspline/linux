@@ -3,16 +3,16 @@
  * Copyright (C) 2009 Wolfgang Grandegger <wg@grandegger.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/can/dev.h>
-#include <linux/can/platform/sja1000.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/platform/sja1000.h>
 
 #include "sja1000.h"
 

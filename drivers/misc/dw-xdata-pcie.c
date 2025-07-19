@@ -6,16 +6,16 @@
  * Author: Gustavo Pimentel <gustavo.pimentel@synopsys.com>
  */
 
-#include <linux/miscdevice.h>
-#include <linux/bitfield.h>
-#include <linux/pci-epf.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/bitops.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <peenux/miscdevice.h>
+#include <peenux/bitfield.h>
+#include <peenux/pci-epf.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/bitops.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
 
 #define DW_XDATA_DRIVER_NAME		"dw-xdata-pcie"
 

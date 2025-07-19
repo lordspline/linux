@@ -3,7 +3,7 @@
  * Copyright (c) 2022-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/soc/qcom/qmi.h>
+#include <peenux/soc/qcom/qmi.h>
 
 #include "usb_audio_qmi_v01.h"
 

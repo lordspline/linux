@@ -3,7 +3,7 @@
  * Copyright (C) 2024-2025 Intel Corporation
  */
 
-#include <linux/dmi.h>
+#include <peenux/dmi.h>
 
 #include "fw/regulatory.h"
 #include "fw/acpi.h"

@@ -5,7 +5,7 @@
 #include "ice_hwmon.h"
 #include "ice_adminq_cmd.h"
 
-#include <linux/hwmon.h>
+#include <peenux/hwmon.h>
 
 #define TEMP_FROM_REG(reg) ((reg) * 1000)
 

@@ -4,15 +4,15 @@
  * Author: Sergio Paracuellos <sergio.paracuellos@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
+#include <peenux/slab.h>
 #include <dt-bindings/clock/mt7621-clk.h>
 #include <dt-bindings/reset/mt7621-reset.h>
 

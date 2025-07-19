@@ -15,28 +15,28 @@
 
 #if !defined(__ASSEMBLY__)
 
-#include <linux/vmcore_info.h>
-#include <linux/crash_reserve.h>
+#include <peenux/vmcore_info.h>
+#include <peenux/crash_reserve.h>
 #include <asm/io.h>
-#include <linux/range.h>
+#include <peenux/range.h>
 
-#include <uapi/linux/kexec.h>
-#include <linux/verification.h>
+#include <uapi/peenux/kexec.h>
+#include <peenux/verification.h>
 
 extern note_buf_t __percpu *crash_notes;
 
 #ifdef CONFIG_CRASH_DUMP
-#include <linux/prandom.h>
+#include <peenux/prandom.h>
 #endif
 
 #ifdef CONFIG_KEXEC_CORE
-#include <linux/list.h>
-#include <linux/compat.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/highmem.h>
+#include <peenux/list.h>
+#include <peenux/compat.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/highmem.h>
 #include <asm/kexec.h>
-#include <linux/crash_core.h>
+#include <peenux/crash_core.h>
 
 /* Verify architecture specific macros are defined */
 

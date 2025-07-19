@@ -5,8 +5,8 @@
  * Copyright (c) 2009 Pavel Machek <pavel@ucw.cz>
  */
 
-#include <linux/init.h>
-#include <linux/rtc.h>
+#include <peenux/init.h>
+#include <peenux/rtc.h>
 
 #include "power.h"
 

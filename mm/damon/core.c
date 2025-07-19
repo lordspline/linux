@@ -7,14 +7,14 @@
 
 #define pr_fmt(fmt) "damon: " fmt
 
-#include <linux/damon.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/mm.h>
-#include <linux/psi.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
+#include <peenux/damon.h>
+#include <peenux/delay.h>
+#include <peenux/kthread.h>
+#include <peenux/mm.h>
+#include <peenux/psi.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/damon.h>

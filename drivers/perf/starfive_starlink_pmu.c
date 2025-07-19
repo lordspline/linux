@@ -11,16 +11,16 @@
 #define STARLINK_PMU_PDEV_NAME	"starfive_starlink_pmu"
 #define pr_fmt(fmt)	STARLINK_PMU_PDEV_NAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/cpu_pm.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
+#include <peenux/bitmap.h>
+#include <peenux/cpu_pm.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
+#include <peenux/sysfs.h>
 
 #define STARLINK_PMU_MAX_COUNTERS			64
 #define STARLINK_PMU_NUM_COUNTERS			16

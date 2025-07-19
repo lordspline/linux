@@ -4,7 +4,7 @@
 #ifndef __INTEL_DISPLAY_RPM__
 #define __INTEL_DISPLAY_RPM__
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct intel_display;
 struct ref_tracker;

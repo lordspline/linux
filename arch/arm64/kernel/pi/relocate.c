@@ -3,9 +3,9 @@
 // Authors: Ard Biesheuvel <ardb@google.com>
 //          Peter Collingbourne <pcc@google.com>
 
-#include <linux/elf.h>
-#include <linux/init.h>
-#include <linux/types.h>
+#include <peenux/elf.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
 
 #include "pi.h"
 

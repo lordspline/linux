@@ -13,26 +13,26 @@
  * MPC85xx MDS board specific routines.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/reboot.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/major.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/initrd.h>
-#include <linux/fsl_devices.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/phy.h>
-#include <linux/memblock.h>
-#include <linux/fsl/guts.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/reboot.h>
+#include <peenux/pci.h>
+#include <peenux/kdev_t.h>
+#include <peenux/major.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/seq_file.h>
+#include <peenux/initrd.h>
+#include <peenux/fsl_devices.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/phy.h>
+#include <peenux/memblock.h>
+#include <peenux/fsl/guts.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/time.h>
 #include <asm/io.h>
 #include <asm/machdep.h>

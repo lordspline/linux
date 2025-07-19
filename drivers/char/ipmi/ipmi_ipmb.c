@@ -4,20 +4,20 @@
  * Driver to talk to a remote management controller on IPMB.
  */
 
-#include <linux/acpi.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/semaphore.h>
-#include <linux/kthread.h>
-#include <linux/wait.h>
-#include <linux/ipmi_msgdefs.h>
-#include <linux/ipmi_smi.h>
+#include <peenux/acpi.h>
+#include <peenux/errno.h>
+#include <peenux/i2c.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/semaphore.h>
+#include <peenux/kthread.h>
+#include <peenux/wait.h>
+#include <peenux/ipmi_msgdefs.h>
+#include <peenux/ipmi_smi.h>
 
 #define DEVICE_NAME "ipmi-ipmb"
 

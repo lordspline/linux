@@ -4,23 +4,23 @@
  * Fintek F81532A/534A/535/536 USB to 2/4/8/12 serial adaptor driver
  *
  * Copyright (C) 2012 Greg Kroah-Hartman (gregkh@linuxfoundation.org)
- * Copyright (C) 2012 Linux Foundation
+ * Copyright (C) 2012 Peenux Foundation
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/serial_reg.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
+#include <peenux/serial_reg.h>
 
 #define F81232_ID		\
 	{ USB_DEVICE(0x1934, 0x0706) }	/* 1 port UART device */

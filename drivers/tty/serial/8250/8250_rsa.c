@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
 
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
+#include <peenux/serial.h>
+#include <peenux/serial_8250.h>
 
 #include "8250.h"
 

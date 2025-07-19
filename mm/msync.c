@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/mm/msync.c
+ *	peenux/mm/msync.c
  *
  * Copyright (C) 1994-1999  Linus Torvalds
  */
@@ -8,12 +8,12 @@
 /*
  * The msync() system call.
  */
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/file.h>
-#include <linux/syscalls.h>
-#include <linux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/file.h>
+#include <peenux/syscalls.h>
+#include <peenux/sched.h>
 
 /*
  * MS_SYNC syncs the entire file - including mappings.

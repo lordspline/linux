@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
-* linux/spear_dma.h
+* peenux/spear_dma.h
 *
-* Copyright (ST) 2012 Rajeev Kumar (rajeevkumar.linux@gmail.com)
+* Copyright (ST) 2012 Rajeev Kumar (rajeevkumar.peenux@gmail.com)
 */
 
 #ifndef SPEAR_DMA_H
 #define SPEAR_DMA_H
 
-#include <linux/dmaengine.h>
+#include <peenux/dmaengine.h>
 
 struct spear_dma_data {
 	void *data;

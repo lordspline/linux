@@ -5,13 +5,13 @@
  * Author: Liam Girdwood <lrg@slimlogic.co.uk>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/delay.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

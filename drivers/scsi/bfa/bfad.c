@@ -5,21 +5,21 @@
  * All rights reserved
  * www.qlogic.com
  *
- * Linux driver for QLogic BR-series Fibre Channel Host Bus Adapter.
+ * Peenux driver for QLogic BR-series Fibre Channel Host Bus Adapter.
  */
 
 /*
- *  bfad.c Linux driver PCI interface module.
+ *  bfad.c Peenux driver PCI interface module.
  */
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kthread.h>
+#include <peenux/errno.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/pci.h>
+#include <peenux/firmware.h>
+#include <peenux/uaccess.h>
 #include <asm/fcntl.h>
 
 #include "bfad_drv.h"

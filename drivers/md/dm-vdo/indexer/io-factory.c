@@ -5,10 +5,10 @@
 
 #include "io-factory.h"
 
-#include <linux/atomic.h>
-#include <linux/blkdev.h>
-#include <linux/err.h>
-#include <linux/mount.h>
+#include <peenux/atomic.h>
+#include <peenux/blkdev.h>
+#include <peenux/err.h>
+#include <peenux/mount.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

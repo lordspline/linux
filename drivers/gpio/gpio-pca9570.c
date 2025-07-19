@@ -9,11 +9,11 @@
  *	Andrew F. Davis <afd@ti.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/property.h>
 
 #define SLG7XL45106_GPO_REG	0xDB
 

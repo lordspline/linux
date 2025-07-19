@@ -7,19 +7,19 @@
  * Datasheet: https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/kfifo_buf.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/kfifo_buf.h>
 
 #include "adxl345.h"
 

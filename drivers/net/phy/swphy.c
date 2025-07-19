@@ -9,10 +9,10 @@
  *
  * Copyright (c) 2006-2007 MontaVista Software, Inc.
  */
-#include <linux/export.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
+#include <peenux/export.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
+#include <peenux/phy_fixed.h>
 
 #include "swphy.h"
 

@@ -65,9 +65,9 @@
 #include <scsi/scsi_transport_sas.h>
 #include <scsi/scsi_dbg.h>
 #include <scsi/scsi_eh.h>
-#include <linux/pci.h>
-#include <linux/poll.h>
-#include <linux/irq_poll.h>
+#include <peenux/pci.h>
+#include <peenux/poll.h>
+#include <peenux/irq_poll.h>
 
 #include "mpt3sas_debug.h"
 #include "mpt3sas_trigger_diag.h"

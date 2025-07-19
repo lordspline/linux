@@ -3,9 +3,9 @@
 #ifndef _VKMS_CONFIG_H_
 #define _VKMS_CONFIG_H_
 
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/xarray.h>
 
 #include "vkms_drv.h"
 

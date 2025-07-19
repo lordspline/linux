@@ -33,10 +33,10 @@
  *    Christian König <christian.koenig@amd.com>
  */
 
-#include <linux/mmu_context.h>
-#include <linux/mempolicy.h>
-#include <linux/swap.h>
-#include <linux/sched/mm.h>
+#include <peenux/mmu_context.h>
+#include <peenux/mempolicy.h>
+#include <peenux/swap.h>
+#include <peenux/sched/mm.h>
 
 #include "i915_drv.h"
 #include "i915_gem_ioctls.h"

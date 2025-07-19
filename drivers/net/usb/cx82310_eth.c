@@ -5,14 +5,14 @@
  * some parts inspired by the cxacru driver
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/workqueue.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/usb/usbnet.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/workqueue.h>
+#include <peenux/mii.h>
+#include <peenux/usb.h>
+#include <peenux/usb/usbnet.h>
 
 enum cx82310_cmd {
 	CMD_START		= 0x84,	/* no effect? */

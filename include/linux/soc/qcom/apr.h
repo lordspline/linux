@@ -3,9 +3,9 @@
 #ifndef __QCOM_APR_H_
 #define __QCOM_APR_H_
 
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
 #include <dt-bindings/soc/qcom,apr.h>
 #include <dt-bindings/soc/qcom,gpr.h>
 

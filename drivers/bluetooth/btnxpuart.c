@@ -4,20 +4,20 @@
  *  Copyright 2023-2025 NXP
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
 
-#include <linux/serdev.h>
-#include <linux/of.h>
-#include <linux/skbuff.h>
-#include <linux/unaligned.h>
-#include <linux/firmware.h>
-#include <linux/string.h>
-#include <linux/crc8.h>
-#include <linux/crc32.h>
-#include <linux/string_helpers.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of_irq.h>
+#include <peenux/serdev.h>
+#include <peenux/of.h>
+#include <peenux/skbuff.h>
+#include <peenux/unaligned.h>
+#include <peenux/firmware.h>
+#include <peenux/string.h>
+#include <peenux/crc8.h>
+#include <peenux/crc32.h>
+#include <peenux/string_helpers.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of_irq.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

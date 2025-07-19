@@ -35,8 +35,8 @@
 #include <elf.h>
 #include <pthread.h>
 #include <sys/syscall.h>
-#include <linux/perf_event.h>
-#include <linux/hw_breakpoint.h>
+#include <peenux/perf_event.h>
+#include <peenux/hw_breakpoint.h>
 #include "utils.h"
 
 #ifndef PPC_DEBUG_FEATURE_DATA_BP_ARCH_31

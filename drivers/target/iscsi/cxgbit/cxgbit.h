@@ -6,20 +6,20 @@
 #ifndef __CXGBIT_H__
 #define __CXGBIT_H__
 
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/idr.h>
-#include <linux/completion.h>
-#include <linux/netdevice.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/inet.h>
-#include <linux/wait.h>
-#include <linux/kref.h>
-#include <linux/timer.h>
-#include <linux/io.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/idr.h>
+#include <peenux/completion.h>
+#include <peenux/netdevice.h>
+#include <peenux/sched.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/inet.h>
+#include <peenux/wait.h>
+#include <peenux/kref.h>
+#include <peenux/timer.h>
+#include <peenux/io.h>
 
 #include <asm/byteorder.h>
 

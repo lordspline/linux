@@ -4,8 +4,8 @@
 
 #include <asm/cpuid/types.h>
 
-#include <linux/build_bug.h>
-#include <linux/types.h>
+#include <peenux/build_bug.h>
+#include <peenux/types.h>
 
 #include <asm/string.h>
 

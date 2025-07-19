@@ -4,12 +4,12 @@
  * Author: Weiyi Lu <weiyi.lu@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include "clk-gate.h"
 #include "clk-mtk.h"

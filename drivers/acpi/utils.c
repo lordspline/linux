@@ -8,14 +8,14 @@
 
 #define pr_fmt(fmt) "ACPI: utils: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/hardirq.h>
-#include <linux/acpi.h>
-#include <linux/dynamic_debug.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/hardirq.h>
+#include <peenux/acpi.h>
+#include <peenux/dynamic_debug.h>
 
 #include "internal.h"
 #include "sleep.h"

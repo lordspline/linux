@@ -4,15 +4,15 @@
  * Copyright (C) 2004-2006 Red Hat, Inc.  All rights reserved.
  */
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/buffer_head.h>
-#include <linux/xattr.h>
-#include <linux/posix_acl.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/gfs2_ondisk.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/buffer_head.h>
+#include <peenux/xattr.h>
+#include <peenux/posix_acl.h>
+#include <peenux/posix_acl_xattr.h>
+#include <peenux/gfs2_ondisk.h>
 
 #include "gfs2.h"
 #include "incore.h"

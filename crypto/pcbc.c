@@ -12,10 +12,10 @@
 #include <crypto/algapi.h>
 #include <crypto/internal/cipher.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 static int crypto_pcbc_encrypt_segment(struct skcipher_request *req,
 				       struct skcipher_walk *walk,

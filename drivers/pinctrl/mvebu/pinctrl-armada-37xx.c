@@ -10,20 +10,20 @@
  * without any warranty of any kind, whether express or implied.
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
 
 #include "../pinctrl-utils.h"
 

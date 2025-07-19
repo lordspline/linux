@@ -4,16 +4,16 @@
  *
  * Copyright (C) 2010 OMICRON electronics GmbH
  */
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/posix-clock.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/timekeeping.h>
-#include <linux/debugfs.h>
+#include <peenux/compat.h>
+#include <peenux/module.h>
+#include <peenux/posix-clock.h>
+#include <peenux/poll.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/timekeeping.h>
+#include <peenux/debugfs.h>
 
-#include <linux/nospec.h>
+#include <peenux/nospec.h>
 
 #include "ptp_private.h"
 

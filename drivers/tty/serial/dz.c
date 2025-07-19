@@ -20,34 +20,34 @@
  Qua Jun 27 15:02:26 BRT 2001
  * [27-JUN-2001] Arnaldo Carvalho de Melo <acme@conectiva.com.br> - cleanups
  *
- * Parts (C) 1999 David Airlie, airlied@linux.ie
+ * Parts (C) 1999 David Airlie, airlied@peenux.ie
  * [07-SEP-99] Bugfixes
  *
- * [06-Jan-2002] Russell King <rmk@arm.linux.org.uk>
+ * [06-Jan-2002] Russell King <rmk@arm.peenux.org.uk>
  * Converted to new serial core
  */
 
 #undef DEBUG_DZ
 
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/module.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <peenux/bitops.h>
+#include <peenux/compiler.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/major.h>
+#include <peenux/module.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/sysrq.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
 
-#include <linux/atomic.h>
-#include <linux/io.h>
+#include <peenux/atomic.h>
+#include <peenux/io.h>
 #include <asm/bootinfo.h>
 
 #include <asm/dec/interrupts.h>

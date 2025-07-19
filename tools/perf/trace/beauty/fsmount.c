@@ -6,7 +6,7 @@
  */
 
 #include "trace/beauty/beauty.h"
-#include <linux/log2.h>
+#include <peenux/log2.h>
 #include <sys/mount.h>
 
 #ifndef MOUNT_ATTR__ATIME

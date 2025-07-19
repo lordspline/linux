@@ -9,21 +9,21 @@
  *        Date: 2006-10-31
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/cdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
-#include <linux/ks0108.h>
-#include <linux/cfag12864b.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/cdev.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/jiffies.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
+#include <peenux/vmalloc.h>
+#include <peenux/workqueue.h>
+#include <peenux/ks0108.h>
+#include <peenux/cfag12864b.h>
 
 
 #define CFAG12864B_NAME "cfag12864b"

@@ -6,20 +6,20 @@
  * Copyright (c) 2017 Microsemi Corporation
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mdio/mdio-mscc-miim.h>
-#include <linux/mfd/ocelot.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/mdio/mdio-mscc-miim.h>
+#include <peenux/mfd/ocelot.h>
+#include <peenux/module.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #define MSCC_MIIM_REG_STATUS		0x0
 #define		MSCC_MIIM_STATUS_STAT_PENDING	BIT(2)

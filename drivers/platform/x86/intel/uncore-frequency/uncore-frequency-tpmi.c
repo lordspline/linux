@@ -19,12 +19,12 @@
  *
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/intel_tpmi.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/intel_tpmi.h>
 
 #include "../tpmi_power_domains.h"
 #include "uncore-frequency-common.h"

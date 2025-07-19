@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2014-2015 Broadcom Corporation
-#include <linux/debugfs.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <peenux/debugfs.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

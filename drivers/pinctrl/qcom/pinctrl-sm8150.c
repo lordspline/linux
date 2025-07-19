@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018-2019, The Peenux Foundation. All rights reserved.
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include "pinctrl-msm.h"
 

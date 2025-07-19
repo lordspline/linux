@@ -8,22 +8,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bits.h>
-#include <linux/debugfs.h>
-#include <linux/dmi.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/kstrtox.h>
-#include <linux/minmax.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_profile.h>
-#include <linux/pm.h>
-#include <linux/seq_file.h>
-#include <linux/units.h>
-#include <linux/wmi.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitmap.h>
+#include <peenux/bits.h>
+#include <peenux/debugfs.h>
+#include <peenux/dmi.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/kstrtox.h>
+#include <peenux/minmax.h>
+#include <peenux/moduleparam.h>
+#include <peenux/platform_profile.h>
+#include <peenux/pm.h>
+#include <peenux/seq_file.h>
+#include <peenux/units.h>
+#include <peenux/wmi.h>
 #include "alienware-wmi.h"
 
 #define WMAX_METHOD_HDMI_SOURCE			0x1

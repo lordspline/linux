@@ -6,12 +6,12 @@
  *
  * Generic netlink for thermal management framework
  */
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/kernel.h>
 #include <net/sock.h>
 #include <net/genetlink.h>
-#include <uapi/linux/thermal.h>
+#include <uapi/peenux/thermal.h>
 
 #include "thermal_core.h"
 

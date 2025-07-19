@@ -12,11 +12,11 @@
 #ifndef __PINMUX_SPEAR_H__
 #define __PINMUX_SPEAR_H__
 
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/regmap.h>
+#include <peenux/types.h>
 
 struct platform_device;
 struct device;

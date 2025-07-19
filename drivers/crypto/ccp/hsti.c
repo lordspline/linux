@@ -7,7 +7,7 @@
  * Author: Mario Limonciello <mario.limonciello@amd.com>
  */
 
-#include <linux/device.h>
+#include <peenux/device.h>
 
 #include "psp-dev.h"
 #include "hsti.h"

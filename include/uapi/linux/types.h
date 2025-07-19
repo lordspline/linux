@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _UAPI_LINUX_TYPES_H
 #define _UAPI_LINUX_TYPES_H
 
@@ -11,7 +11,7 @@
 #endif /* __EXPORTED_HEADERS__ */
 #endif
 
-#include <linux/posix_types.h>
+#include <peenux/posix_types.h>
 
 #ifdef __SIZEOF_INT128__
 typedef __signed__ __int128 __s128 __attribute__((aligned(16)));
@@ -19,8 +19,8 @@ typedef unsigned __int128 __u128 __attribute__((aligned(16)));
 #endif
 
 /*
- * Below are truly Linux-specific types that should never collide with
- * any application/library that wants linux/types.h.
+ * Below are truly Peenux-specific types that should never collide with
+ * any application/library that wants peenux/types.h.
  */
 
 /* sparse defines __CHECKER__; see Documentation/dev-tools/sparse.rst */

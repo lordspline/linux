@@ -4,16 +4,16 @@
  * Copyright 2016-2017,2019-2020 NXP
  */
 
-#include <linux/device.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/vfio.h>
-#include <linux/fsl/mc.h>
-#include <linux/delay.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
+#include <peenux/device.h>
+#include <peenux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/vfio.h>
+#include <peenux/fsl/mc.h>
+#include <peenux/delay.h>
+#include <peenux/io-64-nonatomic-hi-lo.h>
 
 #include "vfio_fsl_mc_private.h"
 

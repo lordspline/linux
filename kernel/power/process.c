@@ -6,19 +6,19 @@
  * Originally from swsusp.
  */
 
-#include <linux/interrupt.h>
-#include <linux/oom.h>
-#include <linux/suspend.h>
-#include <linux/module.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/syscalls.h>
-#include <linux/freezer.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/kmod.h>
+#include <peenux/interrupt.h>
+#include <peenux/oom.h>
+#include <peenux/suspend.h>
+#include <peenux/module.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/syscalls.h>
+#include <peenux/freezer.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/kmod.h>
 #include <trace/events/power.h>
-#include <linux/cpuset.h>
+#include <peenux/cpuset.h>
 
 /*
  * Timeout for stopping processes

@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 #ifndef _LINUX_UN_H
 #define _LINUX_UN_H
 
-#include <linux/socket.h>
+#include <peenux/socket.h>
 
 #define UNIX_PATH_MAX	108
 

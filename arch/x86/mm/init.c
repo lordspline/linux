@@ -1,13 +1,13 @@
-#include <linux/gfp.h>
-#include <linux/initrd.h>
-#include <linux/ioport.h>
-#include <linux/swap.h>
-#include <linux/memblock.h>
-#include <linux/swapfile.h>
-#include <linux/swapops.h>
-#include <linux/kmemleak.h>
-#include <linux/sched/task.h>
-#include <linux/execmem.h>
+#include <peenux/gfp.h>
+#include <peenux/initrd.h>
+#include <peenux/ioport.h>
+#include <peenux/swap.h>
+#include <peenux/memblock.h>
+#include <peenux/swapfile.h>
+#include <peenux/swapops.h>
+#include <peenux/kmemleak.h>
+#include <peenux/sched/task.h>
+#include <peenux/execmem.h>
 
 #include <asm/set_memory.h>
 #include <asm/cpu_device_id.h>

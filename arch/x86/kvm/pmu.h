@@ -2,7 +2,7 @@
 #ifndef __KVM_X86_PMU_H
 #define __KVM_X86_PMU_H
 
-#include <linux/nospec.h>
+#include <peenux/nospec.h>
 
 #include <asm/kvm_host.h>
 

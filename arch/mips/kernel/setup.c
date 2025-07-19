@@ -10,26 +10,26 @@
  * Copyright (C) 1999 Silicon Graphics, Inc.
  * Copyright (C) 2000, 2001, 2002, 2007	 Maciej W. Rozycki
  */
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/export.h>
-#include <linux/memblock.h>
-#include <linux/initrd.h>
-#include <linux/root_dev.h>
-#include <linux/highmem.h>
-#include <linux/console.h>
-#include <linux/pfn.h>
-#include <linux/debugfs.h>
-#include <linux/kexec.h>
-#include <linux/sizes.h>
-#include <linux/device.h>
-#include <linux/dma-map-ops.h>
-#include <linux/decompress/generic.h>
-#include <linux/of_fdt.h>
-#include <linux/dmi.h>
-#include <linux/crash_dump.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/export.h>
+#include <peenux/memblock.h>
+#include <peenux/initrd.h>
+#include <peenux/root_dev.h>
+#include <peenux/highmem.h>
+#include <peenux/console.h>
+#include <peenux/pfn.h>
+#include <peenux/debugfs.h>
+#include <peenux/kexec.h>
+#include <peenux/sizes.h>
+#include <peenux/device.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/decompress/generic.h>
+#include <peenux/of_fdt.h>
+#include <peenux/dmi.h>
+#include <peenux/crash_dump.h>
 
 #include <asm/addrspace.h>
 #include <asm/bootinfo.h>

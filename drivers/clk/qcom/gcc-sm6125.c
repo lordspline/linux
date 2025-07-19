@@ -3,14 +3,14 @@
  * Copyright (c) 2021, Konrad Dybcio <konrad.dybcio@somainline.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
 
 #include <dt-bindings/clock/qcom,gcc-sm6125.h>
 

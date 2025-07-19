@@ -4,8 +4,8 @@
 #ifndef _FBNIC_RPC_H_
 #define _FBNIC_RPC_H_
 
-#include <uapi/linux/in6.h>
-#include <linux/bitfield.h>
+#include <uapi/peenux/in6.h>
+#include <peenux/bitfield.h>
 
 struct in_addr;
 

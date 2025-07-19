@@ -8,27 +8,27 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/audit.h>
-#include <linux/compat.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/nospec.h>
-#include <linux/smp.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/seccomp.h>
-#include <linux/security.h>
-#include <linux/init.h>
-#include <linux/signal.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/perf_event.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/regset.h>
-#include <linux/elf.h>
-#include <linux/rseq.h>
+#include <peenux/audit.h>
+#include <peenux/compat.h>
+#include <peenux/kernel.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/nospec.h>
+#include <peenux/smp.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/seccomp.h>
+#include <peenux/security.h>
+#include <peenux/init.h>
+#include <peenux/signal.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
+#include <peenux/perf_event.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/regset.h>
+#include <peenux/elf.h>
+#include <peenux/rseq.h>
 
 #include <asm/compat.h>
 #include <asm/cpufeature.h>

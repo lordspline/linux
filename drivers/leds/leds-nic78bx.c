@@ -3,19 +3,19 @@
  * Copyright (C) 2016 National Instruments Corp.
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/container_of.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/leds.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #define NIC78BX_USER1_LED_MASK		0x3
 #define NIC78BX_USER1_GREEN_LED		BIT(0)

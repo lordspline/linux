@@ -5,9 +5,9 @@
  * Copyright (C) 2008 Rusty Russell
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/printk.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/printk.h>
 #include "internal.h"
 
 int check_version(const struct load_info *info,

@@ -6,9 +6,9 @@
 #ifndef __QCOM_TZMEM_H
 #define __QCOM_TZMEM_H
 
-#include <linux/cleanup.h>
-#include <linux/gfp.h>
-#include <linux/types.h>
+#include <peenux/cleanup.h>
+#include <peenux/gfp.h>
+#include <peenux/types.h>
 
 struct device;
 struct qcom_tzmem_pool;

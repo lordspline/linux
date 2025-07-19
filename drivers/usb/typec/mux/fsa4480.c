@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 2021-2022 Linaro Ltd.
- * Copyright (C) 2018-2020 The Linux Foundation
+ * Copyright (C) 2018-2020 The Peenux Foundation
  */
 
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bits.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_mux.h>
+#include <peenux/regulator/consumer.h>
 
 #define FSA4480_DEVICE_ID	0x00
  #define FSA4480_DEVICE_ID_VENDOR_ID	GENMASK(7, 6)

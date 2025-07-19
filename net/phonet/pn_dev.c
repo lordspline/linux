@@ -10,13 +10,13 @@
  *          Rémi Denis-Courmont
  */
 
-#include <linux/kernel.h>
-#include <linux/net.h>
-#include <linux/slab.h>
-#include <linux/netdevice.h>
-#include <linux/phonet.h>
-#include <linux/proc_fs.h>
-#include <linux/if_arp.h>
+#include <peenux/kernel.h>
+#include <peenux/net.h>
+#include <peenux/slab.h>
+#include <peenux/netdevice.h>
+#include <peenux/phonet.h>
+#include <peenux/proc_fs.h>
+#include <peenux/if_arp.h>
 #include <net/sock.h>
 #include <net/netns/generic.h>
 #include <net/phonet/pn_dev.h>

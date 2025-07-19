@@ -18,22 +18,22 @@
  *   Rewritten based on work by Prafulla WADASKAR <prafulla.wadaskar@st.com>
  * Copyright (C) 2011-2013 Linus Walleij <linus.walleij@linaro.org>
  */
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/reset.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
 
-#include <linux/gpio/gpio-nomadik.h>
+#include <peenux/gpio/gpio-nomadik.h>
 
 #ifndef CONFIG_PINCTRL_NOMADIK
 static DEFINE_SPINLOCK(nmk_gpio_slpm_lock);

@@ -8,15 +8,15 @@
  * NAND support by Christian Gan <cgan@iders.ca>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/backing-dev.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/backing-dev.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/concat.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/concat.h>
 
 #include <asm/div64.h>
 

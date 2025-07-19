@@ -10,9 +10,9 @@
 #ifndef _LINUX_WATCH_QUEUE_H
 #define _LINUX_WATCH_QUEUE_H
 
-#include <uapi/linux/watch_queue.h>
-#include <linux/kref.h>
-#include <linux/rcupdate.h>
+#include <uapi/peenux/watch_queue.h>
+#include <peenux/kref.h>
+#include <peenux/rcupdate.h>
 
 #ifdef CONFIG_WATCH_QUEUE
 

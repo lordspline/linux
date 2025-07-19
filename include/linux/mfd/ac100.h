@@ -10,7 +10,7 @@
 #ifndef __LINUX_MFD_AC100_H
 #define __LINUX_MFD_AC100_H
 
-#include <linux/regmap.h>
+#include <peenux/regmap.h>
 
 struct ac100_dev {
 	struct device			*dev;

@@ -30,9 +30,9 @@
  * Register locations derived from NVClock by Roderick Colenbrander
  */
 
-#include <linux/apple-gmux.h>
-#include <linux/backlight.h>
-#include <linux/idr.h>
+#include <peenux/apple-gmux.h>
+#include <peenux/backlight.h>
+#include <peenux/idr.h>
 #include <drm/drm_probe_helper.h>
 
 #include "nouveau_drv.h"

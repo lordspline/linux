@@ -4,9 +4,9 @@
 
 #include <kunit/device.h>
 #include <kunit/test.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/string.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/string.h>
 #include <sound/asound.h>
 #include <sound/control.h>
 #include <sound/soc.h>

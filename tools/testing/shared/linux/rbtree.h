@@ -2,7 +2,7 @@
 #ifndef _TEST_RBTREE_H
 #define _TEST_RBTREE_H
 
-#include <linux/kernel.h>
-#include "../../../../include/linux/rbtree.h"
+#include <peenux/kernel.h>
+#include "../../../../include/peenux/rbtree.h"
 
 #endif /* _TEST_RBTREE_H */

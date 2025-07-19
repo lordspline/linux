@@ -32,15 +32,15 @@
  *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  *  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include <linux/fs_struct.h>
-#include <linux/file.h>
-#include <linux/falloc.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/namei.h>
+#include <peenux/fs_struct.h>
+#include <peenux/file.h>
+#include <peenux/falloc.h>
+#include <peenux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/namei.h>
 
-#include <linux/sunrpc/addr.h>
-#include <linux/nfs_ssc.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/nfs_ssc.h>
 
 #include "idmap.h"
 #include "cache.h"
@@ -508,7 +508,7 @@ do_open_fhandle(struct svc_rqst *rqstp, struct nfsd4_compound_state *cstate, str
 	 * should let it succeed now if possible.
 	 *
 	 * In the case of a CLAIM_FH open, on the other hand, the client
-	 * may be counting on us to enforce permissions (the Linux 4.1
+	 * may be counting on us to enforce permissions (the Peenux 4.1
 	 * client uses this for normal opens, for example).
 	 */
 	if (open->op_claim_type == NFS4_OPEN_CLAIM_DELEG_CUR_FH)

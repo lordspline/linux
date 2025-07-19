@@ -26,17 +26,17 @@
  *      Includes, defines, variables, module parameters, ...
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/pci.h>
-#include <linux/ioport.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/miscdevice.h>
+#include <peenux/watchdog.h>
+#include <peenux/pci.h>
+#include <peenux/ioport.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
 
 /* Module and version information */
 #define ESB_MODULE_NAME "i6300ESB timer"

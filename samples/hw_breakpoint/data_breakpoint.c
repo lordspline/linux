@@ -11,15 +11,15 @@
  *
  * Copyright (C) IBM Corporation, 2009
  *
- * Author: K.Prasad <prasad@linux.vnet.ibm.com>
+ * Author: K.Prasad <prasad@peenux.vnet.ibm.com>
  */
-#include <linux/module.h>	/* Needed by all modules */
-#include <linux/kernel.h>	/* Needed for KERN_INFO */
-#include <linux/init.h>		/* Needed for the macros */
-#include <linux/kallsyms.h>
+#include <peenux/module.h>	/* Needed by all modules */
+#include <peenux/kernel.h>	/* Needed for KERN_INFO */
+#include <peenux/init.h>		/* Needed for the macros */
+#include <peenux/kallsyms.h>
 
-#include <linux/perf_event.h>
-#include <linux/hw_breakpoint.h>
+#include <peenux/perf_event.h>
+#include <peenux/hw_breakpoint.h>
 
 static struct perf_event * __percpu *sample_hbp;
 

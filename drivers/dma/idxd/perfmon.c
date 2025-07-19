@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2020 Intel Corporation. All rights rsvd. */
 
-#include <linux/sched/task.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <peenux/sched/task.h>
+#include <peenux/io-64-nonatomic-lo-hi.h>
 #include "idxd.h"
 #include "perfmon.h"
 

@@ -21,10 +21,10 @@
 #include <errno.h>
 #include "strlist.h"
 #include <assert.h>
-#include <linux/ctype.h>
-#include <linux/list_sort.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <peenux/ctype.h>
+#include <peenux/list_sort.h>
+#include <peenux/string.h>
+#include <peenux/zalloc.h>
 #include <perf/cpumap.h>
 #include <subcmd/parse-options.h>
 #include <api/fs/fs.h>

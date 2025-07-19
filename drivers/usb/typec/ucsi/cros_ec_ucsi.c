@@ -5,17 +5,17 @@
  * Copyright 2024 Google LLC.
  */
 
-#include <linux/container_of.h>
-#include <linux/dev_printk.h>
-#include <linux/jiffies.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_usbpd_notify.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <peenux/container_of.h>
+#include <peenux/dev_printk.h>
+#include <peenux/jiffies.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_usbpd_notify.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/wait.h>
 
 #include "ucsi.h"
 

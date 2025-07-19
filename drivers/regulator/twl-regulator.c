@@ -5,18 +5,18 @@
  * Copyright (C) 2008 David Brownell
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/twl.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/delay.h>
 
 /*
  * The TWL4030/TW5030/TPS659x0 family chips include power management, a
@@ -107,11 +107,11 @@ static int twlreg_grp(struct regulator_dev *rdev)
 /* definition for 4030 family */
 #define P3_GRP_4030	BIT(7)		/* "peripherals" */
 #define P2_GRP_4030	BIT(6)		/* secondary processor, modem, etc */
-#define P1_GRP_4030	BIT(5)		/* CPU/Linux */
+#define P1_GRP_4030	BIT(5)		/* CPU/Peenux */
 /* definition for 6030 family */
 #define P3_GRP_6030	BIT(2)		/* secondary processor, modem, etc */
 #define P2_GRP_6030	BIT(1)		/* "peripherals" */
-#define P1_GRP_6030	BIT(0)		/* CPU/Linux */
+#define P1_GRP_6030	BIT(0)		/* CPU/Peenux */
 
 static int twl4030reg_is_enabled(struct regulator_dev *rdev)
 {

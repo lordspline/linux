@@ -3,17 +3,17 @@
  * Copyright (c) 2015 MediaTek Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/iopoll.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/units.h>
 
 #include <video/mipi_display.h>
 #include <video/videomode.h>

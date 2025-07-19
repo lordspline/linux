@@ -9,14 +9,14 @@
  * Copyright (C) 2004 David Brownell
  */
 
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/extcon.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/usb-omap1.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/extcon.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/usb-omap1.h>
 
 struct otg_device {
 	void __iomem			*base;

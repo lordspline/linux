@@ -6,11 +6,11 @@
  *	Dave Gerlach
  */
 
-#include <linux/device.h>
-#include <linux/genalloc.h>
-#include <linux/mm.h>
-#include <linux/sram.h>
-#include <linux/set_memory.h>
+#include <peenux/device.h>
+#include <peenux/genalloc.h>
+#include <peenux/mm.h>
+#include <peenux/sram.h>
+#include <peenux/set_memory.h>
 
 #include <asm/fncpy.h>
 

@@ -18,28 +18,28 @@
  *       by Max Krasnyansky
  *
  *  This file is subject to the terms and conditions of the GNU General Public
- *  License.  See the file COPYING in the main directory of the Linux
+ *  License.  See the file COPYING in the main directory of the Peenux
  *  distribution for more details.
  */
 #include "cpuset-internal.h"
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mempolicy.h>
-#include <linux/mm.h>
-#include <linux/memory.h>
-#include <linux/export.h>
-#include <linux/rcupdate.h>
-#include <linux/sched.h>
-#include <linux/sched/deadline.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
-#include <linux/security.h>
-#include <linux/oom.h>
-#include <linux/sched/isolation.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mempolicy.h>
+#include <peenux/mm.h>
+#include <peenux/memory.h>
+#include <peenux/export.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched.h>
+#include <peenux/sched/deadline.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task.h>
+#include <peenux/security.h>
+#include <peenux/oom.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
 DEFINE_STATIC_KEY_FALSE(cpusets_pre_enable_key);
 DEFINE_STATIC_KEY_FALSE(cpusets_enabled_key);

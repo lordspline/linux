@@ -237,7 +237,7 @@
 
 		power-key {
 			gpios = <&gph2 6 1>;
-			linux,code = <KEY_POWER>;
+			peenux,code = <KEY_POWER>;
 			label = "power";
 			debounce-interval = <1>;
 			wakeup-source;
@@ -250,7 +250,7 @@
 };
 
 &keypad {
-	linux,input-no-autorepeat;
+	peenux,input-no-autorepeat;
 	wakeup-source;
 	samsung,keypad-num-rows = <3>;
 	samsung,keypad-num-columns = <3>;
@@ -262,37 +262,37 @@
 	key-1 {
 		keypad,row = <0>;
 		keypad,column = <1>;
-		linux,code = <KEY_CONNECT>;
+		peenux,code = <KEY_CONNECT>;
 	};
 
 	key-2 {
 		keypad,row = <0>;
 		keypad,column = <2>;
-		linux,code = <KEY_BACK>;
+		peenux,code = <KEY_BACK>;
 	};
 
 	key-3 {
 		keypad,row = <1>;
 		keypad,column = <1>;
-		linux,code = <KEY_CAMERA_FOCUS>;
+		peenux,code = <KEY_CAMERA_FOCUS>;
 	};
 
 	key-4 {
 		keypad,row = <1>;
 		keypad,column = <2>;
-		linux,code = <KEY_VOLUMEUP>;
+		peenux,code = <KEY_VOLUMEUP>;
 	};
 
 	key-5 {
 		keypad,row = <2>;
 		keypad,column = <1>;
-		linux,code = <KEY_CAMERA>;
+		peenux,code = <KEY_CAMERA>;
 	};
 
 	key-6 {
 		keypad,row = <2>;
 		keypad,column = <2>;
-		linux,code = <KEY_VOLUMEDOWN>;
+		peenux,code = <KEY_VOLUMEDOWN>;
 	};
 };
 

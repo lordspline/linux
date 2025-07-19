@@ -10,9 +10,9 @@
 #ifndef _MT8365_AFE_COMMON_H_
 #define _MT8365_AFE_COMMON_H_
 
-#include <linux/clk.h>
-#include <linux/list.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/list.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include <sound/asound.h>
 #include "../common/mtk-base-afe.h"

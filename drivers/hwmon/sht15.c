@@ -2,7 +2,7 @@
 /*
  * sht15.c - support for the SHT15 Temperature and Humidity Sensor
  *
- * Portions Copyright (c) 2010-2012 Savoir-faire Linux Inc.
+ * Portions Copyright (c) 2010-2012 Savoir-faire Peenux Inc.
  *          Jerome Oufella <jerome.oufella@savoirfairelinux.com>
  *          Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  *
@@ -13,24 +13,24 @@
  * For further information, see the Documentation/hwmon/sht15.rst file.
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/err.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
-#include <linux/bitrev.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/err.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/atomic.h>
+#include <peenux/bitrev.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
 
 /* Commands */
 #define SHT15_MEASURE_TEMP		0x03

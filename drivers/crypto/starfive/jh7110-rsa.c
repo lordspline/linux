@@ -5,8 +5,8 @@
  * Copyright (c) 2022 StarFive Technology
  */
 
-#include <linux/crypto.h>
-#include <linux/iopoll.h>
+#include <peenux/crypto.h>
+#include <peenux/iopoll.h>
 #include <crypto/akcipher.h>
 #include <crypto/algapi.h>
 #include <crypto/internal/akcipher.h>

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Linux network driver for QLogic BR-series Converged Network Adapter.
+ * Peenux network driver for QLogic BR-series Converged Network Adapter.
  */
 /*
  * Copyright (c) 2005-2014 Brocade Communications Systems, Inc.
@@ -11,13 +11,13 @@
 #ifndef __BNAD_H__
 #define __BNAD_H__
 
-#include <linux/rtnetlink.h>
-#include <linux/workqueue.h>
-#include <linux/ipv6.h>
-#include <linux/etherdevice.h>
-#include <linux/mutex.h>
-#include <linux/firmware.h>
-#include <linux/if_vlan.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/workqueue.h>
+#include <peenux/ipv6.h>
+#include <peenux/etherdevice.h>
+#include <peenux/mutex.h>
+#include <peenux/firmware.h>
+#include <peenux/if_vlan.h>
 
 #include <asm/checksum.h>
 #include <net/ip6_checksum.h>

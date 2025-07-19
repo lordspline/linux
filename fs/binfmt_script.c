@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/binfmt_script.c
+ *  peenux/fs/binfmt_script.c
  *
  *  Copyright (C) 1996  Martin von Löwis
  *  original #!-checking implemented by tytso.
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/stat.h>
-#include <linux/binfmts.h>
-#include <linux/init.h>
-#include <linux/file.h>
-#include <linux/err.h>
-#include <linux/fs.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/stat.h>
+#include <peenux/binfmts.h>
+#include <peenux/init.h>
+#include <peenux/file.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
 
 static inline bool spacetab(char c) { return c == ' ' || c == '\t'; }
 static inline const char *next_non_spacetab(const char *first, const char *last)

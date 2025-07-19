@@ -13,14 +13,14 @@
  *          This new driver allows more than one USB-LCD to be connected     *
  *          and controlled, at once                                          *
  *****************************************************************************/
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/mutex.h>
+#include <peenux/rwsem.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
 
 #define DRIVER_VERSION "USBLCD Driver Version 1.05"
 

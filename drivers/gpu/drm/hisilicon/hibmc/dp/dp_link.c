@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/delay.h>
+#include <peenux/delay.h>
 #include <drm/drm_device.h>
 #include <drm/drm_print.h>
 #include "dp_comm.h"

@@ -5,7 +5,7 @@
 
 #include "wait-queue.h"
 
-#include <linux/device-mapper.h>
+#include <peenux/device-mapper.h>
 
 #include "permassert.h"
 

@@ -4,19 +4,19 @@
  *
  * Copyright 2019 Analog Devices Inc.
  */
-#include "linux/dev_printk.h"
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gcd.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
+#include "peenux/dev_printk.h"
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/gcd.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/sysfs.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 /* Registers address macro */
 #define ADF4371_REG(x)			(x)

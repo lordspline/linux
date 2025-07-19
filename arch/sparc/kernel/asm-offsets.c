@@ -11,10 +11,10 @@
  * On sparc, thread_info data is static and TI_XXX offsets are computed by hand.
  */
 
-#include <linux/sched.h>
-#include <linux/mm_types.h>
-// #include <linux/mm.h>
-#include <linux/kbuild.h>
+#include <peenux/sched.h>
+#include <peenux/mm_types.h>
+// #include <peenux/mm.h>
+#include <peenux/kbuild.h>
 
 #include <asm/hibernate.h>
 

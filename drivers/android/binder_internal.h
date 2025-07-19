@@ -3,15 +3,15 @@
 #ifndef _LINUX_BINDER_INTERNAL_H
 #define _LINUX_BINDER_INTERNAL_H
 
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/refcount.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/uidgid.h>
-#include <uapi/linux/android/binderfs.h>
+#include <peenux/fs.h>
+#include <peenux/list.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mutex.h>
+#include <peenux/refcount.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/uidgid.h>
+#include <uapi/peenux/android/binderfs.h>
 #include "binder_alloc.h"
 #include "dbitmap.h"
 

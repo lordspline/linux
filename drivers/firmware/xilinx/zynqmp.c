@@ -11,21 +11,21 @@
  *  Rajan Vaja <rajanv@xilinx.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/compiler.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/hashtable.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/compiler.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/hashtable.h>
 
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/firmware/xlnx-event-manager.h>
+#include <peenux/firmware/xlnx-zynqmp.h>
+#include <peenux/firmware/xlnx-event-manager.h>
 #include "zynqmp-debug.h"
 
 /* Max HashMap Order for PM API feature check (1<<7 = 128) */
@@ -78,10 +78,10 @@ static const struct mfd_cell firmware_devs[] = {
 };
 
 /**
- * zynqmp_pm_ret_code() - Convert PMU-FW error codes to Linux error codes
+ * zynqmp_pm_ret_code() - Convert PMU-FW error codes to Peenux error codes
  * @ret_status:		PMUFW return code
  *
- * Return: corresponding Linux error code
+ * Return: corresponding Peenux error code
  */
 static int zynqmp_pm_ret_code(u32 ret_status)
 {
@@ -1473,7 +1473,7 @@ EXPORT_SYMBOL_GPL(zynqmp_pm_set_requirement);
  * @src:	Source device where PDI is located
  * @address:	PDI src address
  *
- * This function provides support to load PDI from linux
+ * This function provides support to load PDI from peenux
  *
  * Return: Returns status, either success or error+reason
  */

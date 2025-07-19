@@ -6,11 +6,11 @@
  *
  */
 
-#include <linux/vmalloc.h>
-#include <linux/mm_types.h>
-#include <linux/err.h>
-#include <linux/pgtable.h>
-#include <linux/bitfield.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mm_types.h>
+#include <peenux/err.h>
+#include <peenux/pgtable.h>
+#include <peenux/bitfield.h>
 #include <asm/access-regs.h>
 #include <asm/fault.h>
 #include <asm/gmap.h>

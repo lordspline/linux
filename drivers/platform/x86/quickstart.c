@@ -10,22 +10,22 @@
  * <https://archive.org/details/microsoft-acpi-dirapplaunch>
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define DRIVER_NAME	"quickstart"
 

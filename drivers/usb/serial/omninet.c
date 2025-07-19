@@ -10,16 +10,16 @@
  * Please report both successes and troubles to the author at omninet@kroah.com
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/uaccess.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 
 #define DRIVER_AUTHOR "Alessandro Zummo"
 #define DRIVER_DESC "USB ZyXEL omni.net Driver"

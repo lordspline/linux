@@ -2,11 +2,11 @@
 #ifndef __LINUX_PWM_H
 #define __LINUX_PWM_H
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
 
 MODULE_IMPORT_NS("PWM");
 

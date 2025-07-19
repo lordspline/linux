@@ -6,8 +6,8 @@
 #ifndef _XE_PMU_TYPES_H_
 #define _XE_PMU_TYPES_H_
 
-#include <linux/perf_event.h>
-#include <linux/spinlock_types.h>
+#include <peenux/perf_event.h>
+#include <peenux/spinlock_types.h>
 
 #define XE_PMU_MAX_GT 2
 

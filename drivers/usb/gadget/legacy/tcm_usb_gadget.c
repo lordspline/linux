@@ -6,27 +6,27 @@
  *
  * Author: Sebastian Andrzej Siewior <bigeasy at linutronix dot de>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/configfs.h>
-#include <linux/ctype.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/storage.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/configfs.h>
+#include <peenux/ctype.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/composite.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/storage.h>
 #include <scsi/scsi_tcq.h>
 #include <target/target_core_base.h>
 #include <target/target_core_fabric.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "u_tcm.h"
 
 USB_GADGET_COMPOSITE_OPTIONS();
 
 #define UAS_VENDOR_ID	0x0525	/* NetChip */
-#define UAS_PRODUCT_ID	0xa4a5	/* Linux-USB File-backed Storage Gadget */
+#define UAS_PRODUCT_ID	0xa4a5	/* Peenux-USB File-backed Storage Gadget */
 
 static struct usb_device_descriptor usbg_device_desc = {
 	.bLength =		sizeof(usbg_device_desc),
@@ -87,7 +87,7 @@ static int tcm_do_config(struct usb_configuration *c)
 }
 
 static struct usb_configuration usbg_config_driver = {
-	.label                  = "Linux Target",
+	.label                  = "Peenux Target",
 	.bConfigurationValue    = 1,
 	.bmAttributes           = USB_CONFIG_ATT_SELFPOWER,
 };

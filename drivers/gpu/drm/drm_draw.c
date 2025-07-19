@@ -4,11 +4,11 @@
  * Author: Jocelyn Falempe <jfalempe@redhat.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/export.h>
-#include <linux/iosys-map.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/bug.h>
+#include <peenux/export.h>
+#include <peenux/iosys-map.h>
+#include <peenux/types.h>
 
 #include <drm/drm_fourcc.h>
 

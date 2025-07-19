@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2016-2018 Mellanox Technologies. All rights reserved */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/rhashtable.h>
-#include <linux/bitops.h>
-#include <linux/in6.h>
-#include <linux/notifier.h>
-#include <linux/inetdevice.h>
-#include <linux/netdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/socket.h>
-#include <linux/route.h>
-#include <linux/gcd.h>
-#include <linux/if_macvlan.h>
-#include <linux/refcount.h>
-#include <linux/jhash.h>
-#include <linux/net_namespace.h>
-#include <linux/mutex.h>
-#include <linux/genalloc.h>
-#include <linux/xarray.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/rhashtable.h>
+#include <peenux/bitops.h>
+#include <peenux/in6.h>
+#include <peenux/notifier.h>
+#include <peenux/inetdevice.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_bridge.h>
+#include <peenux/socket.h>
+#include <peenux/route.h>
+#include <peenux/gcd.h>
+#include <peenux/if_macvlan.h>
+#include <peenux/refcount.h>
+#include <peenux/jhash.h>
+#include <peenux/net_namespace.h>
+#include <peenux/mutex.h>
+#include <peenux/genalloc.h>
+#include <peenux/xarray.h>
 #include <net/netevent.h>
 #include <net/neighbour.h>
 #include <net/arp.h>

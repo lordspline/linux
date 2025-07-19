@@ -2,7 +2,7 @@
 #ifndef __PERF_STRLIST_H
 #define __PERF_STRLIST_H
 
-#include <linux/rbtree.h>
+#include <peenux/rbtree.h>
 #include <stdbool.h>
 
 #include "rblist.h"

@@ -2,9 +2,9 @@
 /*
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
 
 #include "usbaudio.h"
 #include "helper.h"

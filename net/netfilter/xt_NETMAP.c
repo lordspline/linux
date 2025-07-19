@@ -4,15 +4,15 @@
  * Copyright (c) 2011 Patrick McHardy <kaber@trash.net>
  */
 
-#include <linux/ip.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ipv6.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/netfilter_ipv6.h>
-#include <linux/netfilter/x_tables.h>
+#include <peenux/ip.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/ipv6.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/netfilter_ipv6.h>
+#include <peenux/netfilter/x_tables.h>
 #include <net/netfilter/nf_nat.h>
 
 static unsigned int

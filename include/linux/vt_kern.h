@@ -7,14 +7,14 @@
  * with information needed by the vt package
  */
 
-#include <linux/vt.h>
-#include <linux/kd.h>
-#include <linux/tty.h>
-#include <linux/mutex.h>
-#include <linux/console_struct.h>
-#include <linux/mm.h>
-#include <linux/consolemap.h>
-#include <linux/notifier.h>
+#include <peenux/vt.h>
+#include <peenux/kd.h>
+#include <peenux/tty.h>
+#include <peenux/mutex.h>
+#include <peenux/console_struct.h>
+#include <peenux/mm.h>
+#include <peenux/consolemap.h>
+#include <peenux/notifier.h>
 
 void kd_mksound(unsigned int hz, unsigned int ticks);
 int kbd_rate(struct kbd_repeat *rep);

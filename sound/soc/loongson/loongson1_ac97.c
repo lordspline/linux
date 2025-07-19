@@ -5,12 +5,12 @@
  * Copyright (C) 2025 Keguang Zhang <keguang.zhang@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm.h>

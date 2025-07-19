@@ -5,12 +5,12 @@
  * Copyright (C) 2012 Sascha Hauer, Pengutronix
  */
 
-#include <linux/component.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/videodev2.h>
+#include <peenux/component.h>
+#include <peenux/media-bus-format.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/videodev2.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

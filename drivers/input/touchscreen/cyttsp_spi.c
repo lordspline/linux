@@ -16,9 +16,9 @@
 
 #include "cyttsp_core.h"
 
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/spi/spi.h>
+#include <peenux/delay.h>
+#include <peenux/input.h>
+#include <peenux/spi/spi.h>
 
 #define CY_SPI_NAME		"cyttsp-spi"
 

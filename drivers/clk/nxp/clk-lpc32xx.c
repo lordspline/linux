@@ -3,11 +3,11 @@
  * Copyright 2015 Vladimir Zapolskiy <vz@mleia.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/lpc32xx-clock.h>
 

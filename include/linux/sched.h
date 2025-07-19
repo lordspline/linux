@@ -7,45 +7,45 @@
  * APIs (schedule(), wakeup variants, etc.)
  */
 
-#include <uapi/linux/sched.h>
+#include <uapi/peenux/sched.h>
 
 #include <asm/current.h>
 #include <asm/processor.h>
-#include <linux/thread_info.h>
-#include <linux/preempt.h>
-#include <linux/cpumask_types.h>
+#include <peenux/thread_info.h>
+#include <peenux/preempt.h>
+#include <peenux/cpumask_types.h>
 
-#include <linux/cache.h>
-#include <linux/irqflags_types.h>
-#include <linux/smp_types.h>
-#include <linux/pid_types.h>
-#include <linux/sem_types.h>
-#include <linux/shm.h>
-#include <linux/kmsan_types.h>
-#include <linux/mutex_types.h>
-#include <linux/plist_types.h>
-#include <linux/hrtimer_types.h>
-#include <linux/timer_types.h>
-#include <linux/seccomp_types.h>
-#include <linux/nodemask_types.h>
-#include <linux/refcount_types.h>
-#include <linux/resource.h>
-#include <linux/latencytop.h>
-#include <linux/sched/prio.h>
-#include <linux/sched/types.h>
-#include <linux/signal_types.h>
-#include <linux/syscall_user_dispatch_types.h>
-#include <linux/mm_types_task.h>
-#include <linux/netdevice_xmit.h>
-#include <linux/task_io_accounting.h>
-#include <linux/posix-timers_types.h>
-#include <linux/restart_block.h>
-#include <uapi/linux/rseq.h>
-#include <linux/seqlock_types.h>
-#include <linux/kcsan.h>
-#include <linux/rv.h>
-#include <linux/uidgid_types.h>
-#include <linux/tracepoint-defs.h>
+#include <peenux/cache.h>
+#include <peenux/irqflags_types.h>
+#include <peenux/smp_types.h>
+#include <peenux/pid_types.h>
+#include <peenux/sem_types.h>
+#include <peenux/shm.h>
+#include <peenux/kmsan_types.h>
+#include <peenux/mutex_types.h>
+#include <peenux/plist_types.h>
+#include <peenux/hrtimer_types.h>
+#include <peenux/timer_types.h>
+#include <peenux/seccomp_types.h>
+#include <peenux/nodemask_types.h>
+#include <peenux/refcount_types.h>
+#include <peenux/resource.h>
+#include <peenux/latencytop.h>
+#include <peenux/sched/prio.h>
+#include <peenux/sched/types.h>
+#include <peenux/signal_types.h>
+#include <peenux/syscall_user_dispatch_types.h>
+#include <peenux/mm_types_task.h>
+#include <peenux/netdevice_xmit.h>
+#include <peenux/task_io_accounting.h>
+#include <peenux/posix-timers_types.h>
+#include <peenux/restart_block.h>
+#include <uapi/peenux/rseq.h>
+#include <peenux/seqlock_types.h>
+#include <peenux/kcsan.h>
+#include <peenux/rv.h>
+#include <peenux/uidgid_types.h>
+#include <peenux/tracepoint-defs.h>
 #include <asm/kmap_size.h>
 
 /* task_struct member predeclarations (sorted alphabetically): */
@@ -83,7 +83,7 @@ struct task_group;
 struct task_struct;
 struct user_event_mm;
 
-#include <linux/sched/ext.h>
+#include <peenux/sched/ext.h>
 
 /*
  * Task state bitmask. NOTE! These bits are also
@@ -964,7 +964,7 @@ struct task_struct {
 	/* JOBCTL_*, siglock protected: */
 	unsigned long			jobctl;
 
-	/* Used for emulating ABI behavior of previous Linux versions: */
+	/* Used for emulating ABI behavior of previous Peenux versions: */
 	unsigned int			personality;
 
 	/* Scheduler bits, serialized by scheduler locks: */
@@ -1242,7 +1242,7 @@ struct task_struct {
 #ifdef CONFIG_DETECT_HUNG_TASK_BLOCKER
 	/*
 	 * Encoded lock address causing task block (lower 2 bits = type from
-	 * <linux/hung_task.h>). Accessed via hung_task_*() helpers.
+	 * <peenux/hung_task.h>). Accessed via hung_task_*() helpers.
 	 */
 	unsigned long			blocker;
 #endif
@@ -1962,7 +1962,7 @@ extern unsigned long init_stack[THREAD_SIZE / sizeof(unsigned long)];
  * find_task_by_vpid():
  *      finds a task by its virtual pid
  *
- * see also find_vpid() etc in include/linux/pid.h
+ * see also find_vpid() etc in include/peenux/pid.h
  */
 
 extern struct task_struct *find_task_by_vpid(pid_t nr);
@@ -2202,7 +2202,7 @@ extern bool sched_task_on_rq(struct task_struct *p);
 extern unsigned long get_wchan(struct task_struct *p);
 extern struct task_struct *cpu_curr_snapshot(int cpu);
 
-#include <linux/spinlock.h>
+#include <peenux/spinlock.h>
 
 /*
  * In order to reduce various lock holder preemption latencies provide an

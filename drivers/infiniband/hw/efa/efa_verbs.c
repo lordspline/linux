@@ -1,12 +1,12 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /*
  * Copyright 2018-2024 Amazon.com, Inc. or its affiliates. All rights reserved.
  */
 
-#include <linux/dma-buf.h>
-#include <linux/dma-resv.h>
-#include <linux/vmalloc.h>
-#include <linux/log2.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-resv.h>
+#include <peenux/vmalloc.h>
+#include <peenux/log2.h>
 
 #include <rdma/ib_addr.h>
 #include <rdma/ib_umem.h>

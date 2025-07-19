@@ -6,18 +6,18 @@
  * Copyright (c) 2020 Google, Inc.
  */
 
-#include <linux/atomic.h>
-#include <linux/init.h>
-#include <linux/kasan.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/memory.h>
-#include <linux/mm.h>
-#include <linux/sched/clock.h>
-#include <linux/stackdepot.h>
-#include <linux/static_key.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/init.h>
+#include <peenux/kasan.h>
+#include <peenux/kernel.h>
+#include <peenux/memblock.h>
+#include <peenux/memory.h>
+#include <peenux/mm.h>
+#include <peenux/sched/clock.h>
+#include <peenux/stackdepot.h>
+#include <peenux/static_key.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "kasan.h"
 #include "../slab.h"

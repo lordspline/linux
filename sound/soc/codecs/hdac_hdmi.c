@@ -10,11 +10,11 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/hdmi.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/hdmi.h>
 #include <drm/drm_edid.h>
 #include <drm/drm_eld.h>
 #include <sound/pcm_params.h>

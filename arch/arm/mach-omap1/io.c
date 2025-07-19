@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap1/io.c
+ * peenux/arch/arm/mach-omap1/io.c
  *
  * OMAP1 I/O mapping code
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/omap-dma.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/omap-dma.h>
 
 #include <asm/tlb.h>
 #include <asm/mach/map.h>

@@ -3,15 +3,15 @@
  * Copyright 2020-2021 NXP
  */
 
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/ioctl.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/ioctl.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
 #include <media/v4l2-device.h>
 #include "vpu.h"
 #include "vpu_helpers.h"

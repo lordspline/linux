@@ -10,21 +10,21 @@
  * Author : Yoshihiro Shimoda <yoshihiro.shimoda.uh@renesas.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/errno.h>
+#include <peenux/timer.h>
+#include <peenux/delay.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/irq.h>
+#include <peenux/slab.h>
 #include <asm/cacheflush.h>
 
 #include "r8a66597.h"

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/lzo.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/lzo.h>
 
 #include "backend_lzo.h"
 

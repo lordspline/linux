@@ -9,21 +9,21 @@
 
 #include "dm-bio-record.h"
 
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/device-mapper.h>
-#include <linux/dm-io.h>
-#include <linux/vmalloc.h>
-#include <linux/sort.h>
-#include <linux/rbtree.h>
-#include <linux/delay.h>
-#include <linux/random.h>
-#include <linux/reboot.h>
+#include <peenux/compiler.h>
+#include <peenux/module.h>
+#include <peenux/device-mapper.h>
+#include <peenux/dm-io.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sort.h>
+#include <peenux/rbtree.h>
+#include <peenux/delay.h>
+#include <peenux/random.h>
+#include <peenux/reboot.h>
 #include <crypto/hash.h>
 #include <crypto/skcipher.h>
 #include <crypto/utils.h>
-#include <linux/async_tx.h>
-#include <linux/dm-bufio.h>
+#include <peenux/async_tx.h>
+#include <peenux/dm-bufio.h>
 
 #include "dm-audit.h"
 

@@ -6,11 +6,11 @@
  * Chao Xie <chao.xie@marvell.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/delay.h>
+#include <peenux/clk-provider.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
 
 #include "clk.h"
 

@@ -1,16 +1,16 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 #ifndef _UAPI_LINUX_RSEQ_H
 #define _UAPI_LINUX_RSEQ_H
 
 /*
- * linux/rseq.h
+ * peenux/rseq.h
  *
  * Restartable sequences system call API
  *
  * Copyright (c) 2015-2018 Mathieu Desnoyers <mathieu.desnoyers@efficios.com>
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
 
 enum rseq_cpu_id_state {

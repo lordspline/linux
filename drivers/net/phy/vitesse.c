@@ -5,12 +5,12 @@
  * Author: Kriston Carson
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
-#include <linux/bitfield.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mii.h>
+#include <peenux/ethtool.h>
+#include <peenux/phy.h>
+#include <peenux/bitfield.h>
 
 /* Vitesse Extended Page Magic Register(s) */
 #define MII_VSC73XX_EXT_PAGE_1E		0x01

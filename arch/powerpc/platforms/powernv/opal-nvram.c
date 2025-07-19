@@ -7,10 +7,10 @@
 
 #define DEBUG
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
 
 #include <asm/opal.h>
 #include <asm/nvram.h>

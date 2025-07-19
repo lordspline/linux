@@ -14,8 +14,8 @@
 #include <asm/opcodes.h>
 #include <asm/pstate.h>
 #include <crypto/internal/sha2.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 static __ro_after_init DEFINE_STATIC_KEY_FALSE(have_sha256_opcodes);
 

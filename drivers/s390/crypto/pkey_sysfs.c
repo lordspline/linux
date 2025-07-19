@@ -8,7 +8,7 @@
 #define KMSG_COMPONENT "pkey"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/sysfs.h>
+#include <peenux/sysfs.h>
 
 #include "zcrypt_ccamisc.h"
 #include "zcrypt_ep11misc.h"

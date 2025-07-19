@@ -123,9 +123,9 @@
  *   be used as a cursor for lock graph traverse.
  */
 
-#include <linux/lockdep.h>
-#include <linux/sched.h>
-#include <linux/types.h>
+#include <peenux/lockdep.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
 
 enum six_lock_type {
 	SIX_LOCK_read,

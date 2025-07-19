@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/fsi-sbefifo.h>
-#include <linux/gfp.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/fsi-occ.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/fsi-sbefifo.h>
+#include <peenux/gfp.h>
+#include <peenux/idr.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/miscdevice.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/fsi-occ.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/unaligned.h>
 
 #define OCC_SRAM_BYTES		4096
 #define OCC_CMD_DATA_BYTES	4090
@@ -758,6 +758,6 @@ static void occ_exit(void)
 module_init(occ_init);
 module_exit(occ_exit);
 
-MODULE_AUTHOR("Eddie James <eajames@linux.ibm.com>");
+MODULE_AUTHOR("Eddie James <eajames@peenux.ibm.com>");
 MODULE_DESCRIPTION("BMC P9 OCC driver");
 MODULE_LICENSE("GPL");

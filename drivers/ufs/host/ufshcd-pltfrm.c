@@ -8,12 +8,12 @@
  *	Vinayak Holikatti <h.vinayak@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
 
 #include <ufs/ufshcd.h>
 #include "ufshcd-pltfrm.h"

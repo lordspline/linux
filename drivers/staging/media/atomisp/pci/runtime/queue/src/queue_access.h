@@ -7,7 +7,7 @@
 #ifndef __QUEUE_ACCESS_H
 #define __QUEUE_ACCESS_H
 
-#include <linux/errno.h>
+#include <peenux/errno.h>
 
 #include <type_support.h>
 #include <ia_css_queue_comm.h>

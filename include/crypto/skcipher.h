@@ -8,12 +8,12 @@
 #ifndef _CRYPTO_SKCIPHER_H
 #define _CRYPTO_SKCIPHER_H
 
-#include <linux/atomic.h>
-#include <linux/container_of.h>
-#include <linux/crypto.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/container_of.h>
+#include <peenux/crypto.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 /* Set this bit if the lskcipher operation is a continuation. */
 #define CRYPTO_LSKCIPHER_FLAG_CONT	0x00000001

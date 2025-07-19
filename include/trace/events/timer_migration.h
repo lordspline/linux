@@ -6,7 +6,7 @@
 #if !defined(_TRACE_TIMER_MIGRATION_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_TIMER_MIGRATION_H
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 
 /* Group events */
 TRACE_EVENT(tmigr_group_set,

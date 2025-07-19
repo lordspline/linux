@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/range.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/range.h>
 
 #include "bus_numa.h"
 

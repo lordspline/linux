@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/lockdep.h>
+#include <peenux/lockdep.h>
 
 void rust_helper_lockdep_register_key(struct lock_class_key *k)
 {

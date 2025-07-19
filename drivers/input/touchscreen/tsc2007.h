@@ -19,7 +19,7 @@
 #ifndef _TSC2007_H
 #define _TSC2007_H
 
-#include <linux/input/touchscreen.h>
+#include <peenux/input/touchscreen.h>
 struct gpio_desc;
 
 #define TSC2007_MEASURE_TEMP0		(0x0 << 4)

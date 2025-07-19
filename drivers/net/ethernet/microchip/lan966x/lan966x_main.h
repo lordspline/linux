@@ -3,13 +3,13 @@
 #ifndef __LAN966X_MAIN_H__
 #define __LAN966X_MAIN_H__
 
-#include <linux/debugfs.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/jiffies.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/debugfs.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/jiffies.h>
+#include <peenux/phy.h>
+#include <peenux/phylink.h>
+#include <peenux/ptp_clock_kernel.h>
 #include <net/page_pool/types.h>
 #include <net/pkt_cls.h>
 #include <net/pkt_sched.h>

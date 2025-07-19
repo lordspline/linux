@@ -8,19 +8,19 @@
 #define DEBUG
 #endif
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/interrupt.h>
-#include <linux/kmemleak.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/iommu.h>
+#include <peenux/interrupt.h>
+#include <peenux/kmemleak.h>
+#include <peenux/list.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include "iommu-pages.h"
 

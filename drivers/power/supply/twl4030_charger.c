@@ -8,18 +8,18 @@
  * Copyright (C) 2008 Texas Instruments, Inc.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/twl.h>
-#include <linux/power_supply.h>
-#include <linux/notifier.h>
-#include <linux/usb/otg.h>
-#include <linux/iio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/power_supply.h>
+#include <peenux/notifier.h>
+#include <peenux/usb/otg.h>
+#include <peenux/iio/consumer.h>
 
 #define TWL4030_BCIMDEN		0x00
 #define TWL4030_BCIMDKEY	0x01

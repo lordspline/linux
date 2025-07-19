@@ -5,15 +5,15 @@
  * Copyright (c) 2010 Jean-Francois Dagenais <dagenaisj@sonatest.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
 
-#include <linux/w1.h>
+#include <peenux/w1.h>
 
 #define W1_FAMILY_DS2408	0x29
 

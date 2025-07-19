@@ -6,14 +6,14 @@
  *  Copyright 2006 Sony Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/root_dev.h>
-#include <linux/console.h>
-#include <linux/export.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/fs.h>
+#include <peenux/root_dev.h>
+#include <peenux/console.h>
+#include <peenux/export.h>
+#include <peenux/memblock.h>
+#include <peenux/of.h>
 
 #include <asm/machdep.h>
 #include <asm/firmware.h>

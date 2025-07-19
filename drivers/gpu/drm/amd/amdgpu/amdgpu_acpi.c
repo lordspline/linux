@@ -22,14 +22,14 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
-#include <linux/power_supply.h>
-#include <linux/pm_runtime.h>
-#include <linux/suspend.h>
+#include <peenux/pci.h>
+#include <peenux/acpi.h>
+#include <peenux/backlight.h>
+#include <peenux/slab.h>
+#include <peenux/xarray.h>
+#include <peenux/power_supply.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/suspend.h>
 #include <acpi/video.h>
 #include <acpi/actbl.h>
 

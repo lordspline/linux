@@ -4,27 +4,27 @@
  * Copyright (C) 2013, 2021 Intel Corporation
  */
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/math64.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/math64.h>
+#include <peenux/minmax.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
-#include <linux/spi/spi.h>
+#include <peenux/spi/spi.h>
 
 #include "internals.h"
 #include "spi-pxa2xx.h"
@@ -1253,7 +1253,7 @@ static int pxa2xx_spi_fw_translate_cs(struct spi_controller *controller,
 	/*
 	 * For some of Intel Atoms the ACPI DeviceSelection used by the Windows
 	 * driver starts from 1 instead of 0 so translate it here to match what
-	 * Linux expects.
+	 * Peenux expects.
 	 */
 	case LPSS_BYT_SSP:
 	case LPSS_BSW_SSP:

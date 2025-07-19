@@ -6,7 +6,7 @@
 #ifndef INTEL_GT_DEBUGFS_H
 #define INTEL_GT_DEBUGFS_H
 
-#include <linux/file.h>
+#include <peenux/file.h>
 
 struct intel_gt;
 

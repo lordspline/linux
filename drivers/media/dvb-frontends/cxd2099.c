@@ -5,15 +5,15 @@
  * Copyright (C) 2010-2013 Digital Devices GmbH
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/wait.h>
+#include <peenux/delay.h>
+#include <peenux/mutex.h>
+#include <peenux/io.h>
 
 #include "cxd2099.h"
 

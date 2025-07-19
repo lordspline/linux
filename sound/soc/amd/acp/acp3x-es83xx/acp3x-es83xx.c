@@ -10,16 +10,16 @@
 #include <sound/soc-dapm.h>
 #include <sound/jack.h>
 #include <sound/soc-acpi.h>
-#include <linux/clk.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/io.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/string_choices.h>
+#include <peenux/clk.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/io.h>
+#include <peenux/acpi.h>
+#include <peenux/dmi.h>
+#include <peenux/string_choices.h>
 #include "../acp-mach.h"
 #include "acp3x-es83xx.h"
 

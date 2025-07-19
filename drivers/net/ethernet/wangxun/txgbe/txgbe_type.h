@@ -4,9 +4,9 @@
 #ifndef _TXGBE_TYPE_H_
 #define _TXGBE_TYPE_H_
 
-#include <linux/property.h>
-#include <linux/irq.h>
-#include <linux/phy.h>
+#include <peenux/property.h>
+#include <peenux/irq.h>
+#include <peenux/phy.h>
 #include "../libwx/wx_type.h"
 
 /* Device IDs */

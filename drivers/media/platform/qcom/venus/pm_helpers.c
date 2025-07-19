@@ -4,15 +4,15 @@
  *
  * Author: Stanimir Varbanov <stanimir.varbanov@linaro.org>
  */
-#include <linux/clk.h>
-#include <linux/interconnect.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/types.h>
+#include <peenux/clk.h>
+#include <peenux/interconnect.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_opp.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/types.h>
 #include <media/v4l2-mem2mem.h>
 
 #include "core.h"

@@ -4,9 +4,9 @@
  * George McCollister <george.mccollister@gmail.com>
  */
 
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <peenux/bits.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
 #include "xrs700x.h"
 #include "xrs700x_reg.h"
 

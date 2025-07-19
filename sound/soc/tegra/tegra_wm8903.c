@@ -11,13 +11,13 @@
  *
  * Copyright 2007 Wolfson Microelectronics PLC.
  * Author: Graeme Gregory
- *         graeme.gregory@wolfsonmicro.com or linux@wolfsonmicro.com
+ *         graeme.gregory@wolfsonmicro.com or peenux@wolfsonmicro.com
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
 
 #include <sound/core.h>
 #include <sound/jack.h>

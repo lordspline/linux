@@ -5,17 +5,17 @@
  * Author: Dipen Patel <dipenp@nvidia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/hte.h>
-#include <linux/delay.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/mutex.h>
+#include <peenux/uaccess.h>
+#include <peenux/hte.h>
+#include <peenux/delay.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
 
 /* Global list of the HTE devices */
 static DEFINE_SPINLOCK(hte_lock);

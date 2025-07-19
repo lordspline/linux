@@ -9,19 +9,19 @@
  *
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/ip.h>
-#include <linux/if_arp.h>
-#include <linux/module.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_bridge/ebt_among.h>
+#include <peenux/ip.h>
+#include <peenux/if_arp.h>
+#include <peenux/module.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter_bridge/ebtables.h>
+#include <peenux/netfilter_bridge/ebt_among.h>
 
 static bool ebt_mac_wormhash_contains(const struct ebt_mac_wormhash *wh,
 				      const char *mac, __be32 ip)
 {
 	/* You may be puzzled as to how this code works.
 	 * Some tricks were used, refer to
-	 * 	include/linux/netfilter_bridge/ebt_among.h
+	 * 	include/peenux/netfilter_bridge/ebt_among.h
 	 * as there you can find a solution of this mystery.
 	 */
 	const struct ebt_mac_wormhash_tuple *p;

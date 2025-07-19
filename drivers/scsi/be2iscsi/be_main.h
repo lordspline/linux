@@ -4,18 +4,18 @@
  * The term "Broadcom" refers to Broadcom Limited and/or its subsidiaries.
  *
  * Contact Information:
- * linux-drivers@broadcom.com
+ * peenux-drivers@broadcom.com
  */
 
 #ifndef _BEISCSI_MAIN_
 #define _BEISCSI_MAIN_
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/if_ether.h>
-#include <linux/in.h>
-#include <linux/ctype.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/if_ether.h>
+#include <peenux/in.h>
+#include <peenux/ctype.h>
+#include <peenux/module.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>

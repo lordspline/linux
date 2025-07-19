@@ -16,15 +16,15 @@
  *   trying to contact the Extron indefinitely?
  */
 
-#include <linux/completion.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/time.h>
+#include <peenux/completion.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
 
 #include "extron-da-hd-4k-plus.h"
 

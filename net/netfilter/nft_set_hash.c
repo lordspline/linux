@@ -5,17 +5,17 @@
  * Development of this code funded by Astaro AG (http://www.astaro.com/)
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/log2.h>
-#include <linux/jhash.h>
-#include <linux/netlink.h>
-#include <linux/workqueue.h>
-#include <linux/rhashtable.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/nf_tables.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/log2.h>
+#include <peenux/jhash.h>
+#include <peenux/netlink.h>
+#include <peenux/workqueue.h>
+#include <peenux/rhashtable.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/nf_tables.h>
 #include <net/netfilter/nf_tables_core.h>
 
 /* We target a hash table size of 4, element hint is 75% of final size */

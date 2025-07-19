@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/fs/lockd/clntlock.c
+ * peenux/fs/lockd/clntlock.c
  *
  * Lock handling for the client side NLM implementation
  *
  * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/nfs_fs.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/sunrpc/svc_xprt.h>
-#include <linux/lockd/lockd.h>
-#include <linux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/time.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/sunrpc/svc.h>
+#include <peenux/sunrpc/svc_xprt.h>
+#include <peenux/lockd/lockd.h>
+#include <peenux/kthread.h>
 
 #include "trace.h"
 

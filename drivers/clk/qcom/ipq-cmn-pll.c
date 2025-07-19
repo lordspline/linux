@@ -34,16 +34,16 @@
  *              GCC  PCS  NSS/PPE
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/qcom,ipq-cmn-pll.h>
 

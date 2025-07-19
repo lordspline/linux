@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/include/net/ethoc.h
+ * peenux/include/net/ethoc.h
  *
  * Copyright (C) 2008-2009 Avionic Design GmbH
  *
@@ -10,8 +10,8 @@
 #ifndef LINUX_NET_ETHOC_H
 #define LINUX_NET_ETHOC_H 1
 
-#include <linux/if.h>
-#include <linux/types.h>
+#include <peenux/if.h>
+#include <peenux/types.h>
 
 struct ethoc_platform_data {
 	u8 hwaddr[IFHWADDRLEN];

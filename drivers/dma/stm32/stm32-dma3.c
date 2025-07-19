@@ -6,20 +6,20 @@
  * Author(s): Amelie Delaunay <amelie.delaunay@foss.st.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dmapool.h>
+#include <peenux/init.h>
+#include <peenux/iopoll.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/of_dma.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #include "../virt-dma.h"
 

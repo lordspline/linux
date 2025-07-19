@@ -9,12 +9,12 @@
  * or implied.
  */
 
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mc146818rtc.h>
-#include <linux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mc146818rtc.h>
+#include <peenux/of_address.h>
 
 
 static int  __init add_rtc(void)

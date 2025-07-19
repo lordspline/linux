@@ -7,20 +7,20 @@
  * Copyright (C) 2023 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/efi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/ucs2_string.h>
+#include <peenux/efi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/ucs2_string.h>
 
-#include <linux/firmware/qcom/qcom_qseecom.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/firmware/qcom/qcom_tzmem.h>
+#include <peenux/firmware/qcom/qcom_qseecom.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/firmware/qcom/qcom_tzmem.h>
 
 /* -- Qualcomm "uefisecapp" interface definitions. -------------------------- */
 

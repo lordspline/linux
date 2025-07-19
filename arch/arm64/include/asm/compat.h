@@ -24,9 +24,9 @@ typedef u16		compat_ipc_pid_t;
 /*
  * Architecture specific compatibility types
  */
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
 
 #ifdef __AARCH64EB__
 #define COMPAT_UTS_MACHINE	"armv8b\0\0"

@@ -6,9 +6,9 @@
  * Copyright (C) 2024 Chen Wang <unicorn_wang@outlook.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
+#include <peenux/array_size.h>
+#include <peenux/clk-provider.h>
+#include <peenux/platform_device.h>
 
 #include <dt-bindings/clock/sophgo,sg2042-rpgate.h>
 

@@ -4,24 +4,24 @@
  *
  * Copyright 2018 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/kfifo.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/adc/ad_sigma_delta.h>
-#include <linux/iio/sysfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/adc/ad_sigma_delta.h>
+#include <peenux/iio/sysfs.h>
 
 /* AD7124 registers */
 #define AD7124_COMMS			0x00

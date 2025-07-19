@@ -6,8 +6,8 @@
 
 /***** The META HW register definitions in the file are updated manually *****/
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/types.h>
 
 /*
  ******************************************************************************

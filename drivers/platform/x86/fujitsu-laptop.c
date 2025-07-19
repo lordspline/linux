@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/*-*-linux-c-*-*/
+/*-*-peenux-c-*-*/
 
 /*
   Copyright (C) 2007,2008 Jonathan Woithe <jwoithe@just42.net>
@@ -36,19 +36,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/dmi.h>
-#include <linux/backlight.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/kfifo.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/dmi.h>
+#include <peenux/backlight.h>
+#include <peenux/input.h>
+#include <peenux/input/sparse-keymap.h>
+#include <peenux/kfifo.h>
+#include <peenux/leds.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
 #include <acpi/battery.h>
 #include <acpi/video.h>
 

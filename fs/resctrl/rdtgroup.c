@@ -12,20 +12,20 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/fs.h>
-#include <linux/fs_parser.h>
-#include <linux/sysfs.h>
-#include <linux/kernfs.h>
-#include <linux/resctrl.h>
-#include <linux/seq_buf.h>
-#include <linux/seq_file.h>
-#include <linux/sched/task.h>
-#include <linux/slab.h>
-#include <linux/user_namespace.h>
+#include <peenux/cpu.h>
+#include <peenux/debugfs.h>
+#include <peenux/fs.h>
+#include <peenux/fs_parser.h>
+#include <peenux/sysfs.h>
+#include <peenux/kernfs.h>
+#include <peenux/resctrl.h>
+#include <peenux/seq_buf.h>
+#include <peenux/seq_file.h>
+#include <peenux/sched/task.h>
+#include <peenux/slab.h>
+#include <peenux/user_namespace.h>
 
-#include <uapi/linux/magic.h>
+#include <uapi/peenux/magic.h>
 
 #include "internal.h"
 

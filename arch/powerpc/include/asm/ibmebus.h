@@ -40,11 +40,11 @@
 #define _ASM_EBUS_H
 #ifdef __KERNEL__
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_device.h>
+#include <peenux/of_platform.h>
 
 struct platform_driver;
 

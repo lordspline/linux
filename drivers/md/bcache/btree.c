@@ -26,17 +26,17 @@
 #include "debug.h"
 #include "extents.h"
 
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/hash.h>
-#include <linux/kthread.h>
-#include <linux/prefetch.h>
-#include <linux/random.h>
-#include <linux/rcupdate.h>
-#include <linux/sched/clock.h>
-#include <linux/rculist.h>
-#include <linux/delay.h>
-#include <linux/sort.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/hash.h>
+#include <peenux/kthread.h>
+#include <peenux/prefetch.h>
+#include <peenux/random.h>
+#include <peenux/rcupdate.h>
+#include <peenux/sched/clock.h>
+#include <peenux/rculist.h>
+#include <peenux/delay.h>
+#include <peenux/sort.h>
 #include <trace/events/bcache.h>
 
 /*

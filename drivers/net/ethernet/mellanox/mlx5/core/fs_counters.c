@@ -30,8 +30,8 @@
  * SOFTWARE.
  */
 
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/fs.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/mlx5/fs.h>
 #include "mlx5_core.h"
 #include "fs_core.h"
 #include "fs_pool.h"

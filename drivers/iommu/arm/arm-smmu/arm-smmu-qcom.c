@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/adreno-smmu-priv.h>
-#include <linux/delay.h>
-#include <linux/of_device.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/acpi.h>
+#include <peenux/adreno-smmu-priv.h>
+#include <peenux/delay.h>
+#include <peenux/of_device.h>
+#include <peenux/firmware/qcom/qcom_scm.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include "arm-smmu.h"
 #include "arm-smmu-qcom.h"
@@ -488,7 +488,7 @@ static int qcom_adreno_smmuv2_cfg_probe(struct arm_smmu_device *smmu)
 	/* Support for 16K pages is advertised on some SoCs, but it doesn't seem to work */
 	smmu->features &= ~ARM_SMMU_FEAT_FMT_AARCH64_16K;
 
-	/* TZ protects several last context banks, hide them from Linux */
+	/* TZ protects several last context banks, hide them from Peenux */
 	if (of_device_is_compatible(smmu->dev->of_node, "qcom,sdm630-smmu-v2") &&
 	    smmu->num_context_banks == 5)
 		smmu->num_context_banks = 2;

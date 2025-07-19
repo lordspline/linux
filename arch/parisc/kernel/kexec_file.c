@@ -5,13 +5,13 @@
  * Copyright (c) 2019 Sven Schnelle <svens@stackframe.org>
  *
  */
-#include <linux/elf.h>
-#include <linux/kexec.h>
-#include <linux/libfdt.h>
-#include <linux/module.h>
-#include <linux/of_fdt.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/elf.h>
+#include <peenux/kexec.h>
+#include <peenux/libfdt.h>
+#include <peenux/module.h>
+#include <peenux/of_fdt.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 static void *elf_load(struct kimage *image, char *kernel_buf,
 			unsigned long kernel_len, char *initrd,

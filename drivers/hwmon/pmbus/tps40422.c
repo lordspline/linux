@@ -5,11 +5,11 @@
  * Copyright (c) 2014 Nokia Solutions and Networks.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
 #include "pmbus.h"
 
 static struct pmbus_driver_info tps40422_info = {

@@ -6,38 +6,38 @@
  * Derived from binfmt_elf.c
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/sched.h>
-#include <linux/sched/coredump.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/cputime.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/binfmts.h>
-#include <linux/string.h>
-#include <linux/file.h>
-#include <linux/fcntl.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/security.h>
-#include <linux/highmem.h>
-#include <linux/highuid.h>
-#include <linux/personality.h>
-#include <linux/ptrace.h>
-#include <linux/init.h>
-#include <linux/elf.h>
-#include <linux/elf-fdpic.h>
-#include <linux/elfcore.h>
-#include <linux/coredump.h>
-#include <linux/dax.h>
-#include <linux/regset.h>
+#include <peenux/fs.h>
+#include <peenux/stat.h>
+#include <peenux/sched.h>
+#include <peenux/sched/coredump.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/sched/cputime.h>
+#include <peenux/mm.h>
+#include <peenux/mman.h>
+#include <peenux/errno.h>
+#include <peenux/signal.h>
+#include <peenux/binfmts.h>
+#include <peenux/string.h>
+#include <peenux/file.h>
+#include <peenux/fcntl.h>
+#include <peenux/slab.h>
+#include <peenux/pagemap.h>
+#include <peenux/security.h>
+#include <peenux/highmem.h>
+#include <peenux/highuid.h>
+#include <peenux/personality.h>
+#include <peenux/ptrace.h>
+#include <peenux/init.h>
+#include <peenux/elf.h>
+#include <peenux/elf-fdpic.h>
+#include <peenux/elfcore.h>
+#include <peenux/coredump.h>
+#include <peenux/dax.h>
+#include <peenux/regset.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/param.h>
 
 typedef char *elf_caddr_t;
@@ -865,7 +865,7 @@ static int elf_fdpic_map_file(struct elf_fdpic_params *params,
 		break;
 	}
 
-	/* now elide adjacent segments in the load map on MMU linux
+	/* now elide adjacent segments in the load map on MMU peenux
 	 * - on uClinux the holes between may actually be filled with system
 	 *   stuff or stuff from other processes
 	 */
@@ -1116,7 +1116,7 @@ static int elf_fdpic_map_file_by_direct_mmap(struct elf_fdpic_params *params,
 
 		/* clear any space allocated but not loaded
 		 * - on uClinux we can just clear the lot
-		 * - on MMU linux we'll get a SIGBUS beyond the last page
+		 * - on MMU peenux we'll get a SIGBUS beyond the last page
 		 *   extant in the file
 		 */
 		excess = phdr->p_memsz - phdr->p_filesz;
@@ -1518,7 +1518,7 @@ static int elf_fdpic_core_dump(struct coredump_params *cprm)
 
 	/* If segs > PN_XNUM(0xffff), then e_phnum overflows. To avoid
 	 * this, kernel supports extended numbering. Have a look at
-	 * include/linux/elf.h for further information. */
+	 * include/peenux/elf.h for further information. */
 	e_phnum = segs > PN_XNUM ? PN_XNUM : segs;
 
 	/* Set up header */

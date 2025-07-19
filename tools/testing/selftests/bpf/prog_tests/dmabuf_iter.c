@@ -15,9 +15,9 @@
 #include <sys/mman.h>
 #include <unistd.h>
 
-#include <linux/dma-buf.h>
-#include <linux/dma-heap.h>
-#include <linux/udmabuf.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-heap.h>
+#include <peenux/udmabuf.h>
 
 static int udmabuf = -1;
 static const char udmabuf_test_buffer_name[DMA_BUF_NAME_LEN] = "udmabuf_test_buffer_for_iter";

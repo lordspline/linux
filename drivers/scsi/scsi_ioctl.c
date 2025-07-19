@@ -5,16 +5,16 @@
  * - get rid of some verify_areas and use __copy*user and __get/put_user
  *   for the ones that remain
  */
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/cdrom.h>
+#include <peenux/module.h>
+#include <peenux/blkdev.h>
+#include <peenux/interrupt.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
+#include <peenux/cdrom.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

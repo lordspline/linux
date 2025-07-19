@@ -10,20 +10,20 @@
 
 #define DRV_NAME "sh-pfc"
 
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/of.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/platform_device.h>
-#include <linux/psci.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/math.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/machine.h>
+#include <peenux/platform_device.h>
+#include <peenux/psci.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
 
 #include "core.h"
 

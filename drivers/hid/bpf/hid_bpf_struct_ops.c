@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 /*
- *  HID-BPF support for Linux
+ *  HID-BPF support for Peenux
  *
  *  Copyright (c) 2024 Benjamin Tissoires
  */
 
-#include <linux/bitops.h>
-#include <linux/bpf_verifier.h>
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
-#include <linux/filter.h>
-#include <linux/hid.h>
-#include <linux/hid_bpf.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/workqueue.h>
+#include <peenux/bitops.h>
+#include <peenux/bpf_verifier.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/btf_ids.h>
+#include <peenux/filter.h>
+#include <peenux/hid.h>
+#include <peenux/hid_bpf.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/stddef.h>
+#include <peenux/workqueue.h>
 #include "hid_bpf_dispatch.h"
 
 static struct btf *hid_bpf_ops_btf;

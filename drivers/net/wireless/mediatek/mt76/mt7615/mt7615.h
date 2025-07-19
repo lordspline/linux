@@ -4,10 +4,10 @@
 #ifndef __MT7615_H
 #define __MT7615_H
 
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/ktime.h>
-#include <linux/regmap.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/ktime.h>
+#include <peenux/regmap.h>
 #include "../mt76_connac_mcu.h"
 #include "regs.h"
 

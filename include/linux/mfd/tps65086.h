@@ -9,8 +9,8 @@
 #ifndef __LINUX_MFD_TPS65086_H
 #define __LINUX_MFD_TPS65086_H
 
-#include <linux/device.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/regmap.h>
 
 /* List of registers for TPS65086 */
 #define TPS65086_DEVICEID1		0x00

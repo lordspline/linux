@@ -3,22 +3,22 @@
  * Machine check exception handling.
  *
  * Copyright 2013 IBM Corporation
- * Author: Mahesh Salgaonkar <mahesh@linux.vnet.ibm.com>
+ * Author: Mahesh Salgaonkar <mahesh@peenux.vnet.ibm.com>
  */
 
 #undef DEBUG
 #define pr_fmt(fmt) "mce: " fmt
 
-#include <linux/hardirq.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/percpu.h>
-#include <linux/export.h>
-#include <linux/irq_work.h>
-#include <linux/extable.h>
-#include <linux/ftrace.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
+#include <peenux/hardirq.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/percpu.h>
+#include <peenux/export.h>
+#include <peenux/irq_work.h>
+#include <peenux/extable.h>
+#include <peenux/ftrace.h>
+#include <peenux/memblock.h>
+#include <peenux/of.h>
 
 #include <asm/interrupt.h>
 #include <asm/machdep.h>

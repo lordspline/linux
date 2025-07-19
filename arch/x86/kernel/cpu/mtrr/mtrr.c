@@ -31,20 +31,20 @@
     System Programming Guide; Section 9.11. (1997 edition - PPro).
 */
 
-#include <linux/types.h> /* FIXME: kvm_para.h needs this */
+#include <peenux/types.h> /* FIXME: kvm_para.h needs this */
 
-#include <linux/stop_machine.h>
-#include <linux/kvm_para.h>
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/init.h>
-#include <linux/sort.h>
-#include <linux/cpu.h>
-#include <linux/pci.h>
-#include <linux/smp.h>
-#include <linux/syscore_ops.h>
-#include <linux/rcupdate.h>
+#include <peenux/stop_machine.h>
+#include <peenux/kvm_para.h>
+#include <peenux/uaccess.h>
+#include <peenux/export.h>
+#include <peenux/mutex.h>
+#include <peenux/init.h>
+#include <peenux/sort.h>
+#include <peenux/cpu.h>
+#include <peenux/pci.h>
+#include <peenux/smp.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/rcupdate.h>
 
 #include <asm/cacheinfo.h>
 #include <asm/cpufeature.h>

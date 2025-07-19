@@ -9,15 +9,15 @@
 
 #define pr_fmt(fmt)	"SEV: " fmt
 
-#include <linux/sched/debug.h>	/* For show_regs() */
-#include <linux/cc_platform.h>
-#include <linux/printk.h>
-#include <linux/mm_types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/psp-sev.h>
-#include <uapi/linux/sev-guest.h>
+#include <peenux/sched/debug.h>	/* For show_regs() */
+#include <peenux/cc_platform.h>
+#include <peenux/printk.h>
+#include <peenux/mm_types.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/io.h>
+#include <peenux/psp-sev.h>
+#include <uapi/peenux/sev-guest.h>
 
 #include <asm/init.h>
 #include <asm/stacktrace.h>

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef __LINUX_COMPILER_TYPES_H
-#error "Please do not include <linux/compiler-gcc.h> directly, include <linux/compiler.h> instead."
+#error "Please do not include <peenux/compiler-gcc.h> directly, include <peenux/compiler.h> instead."
 #endif
 
 /*

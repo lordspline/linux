@@ -9,29 +9,29 @@
  * This driver is developed for AXI CAN IP, AXI CANFD IP, CANPS and CANFD PS Controller.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/phy/phy.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/errno.h>
+#include <peenux/ethtool.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/can/dev.h>
+#include <peenux/can/error.h>
+#include <peenux/phy/phy.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/reset.h>
+#include <peenux/u64_stats_sync.h>
 
 #define DRIVER_NAME	"xilinx_can"
 

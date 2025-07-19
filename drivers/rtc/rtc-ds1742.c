@@ -9,16 +9,16 @@
  *  - this ds1742 driver now supports ds1743.
  */
 
-#include <linux/bcd.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/rtc.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <peenux/bcd.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/rtc.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
 
 #define RTC_SIZE		8
 

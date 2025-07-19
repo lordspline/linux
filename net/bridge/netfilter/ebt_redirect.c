@@ -8,13 +8,13 @@
  *  April, 2002
  *
  */
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <net/sock.h>
 #include "../br_private.h"
-#include <linux/netfilter.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_bridge/ebt_redirect.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter_bridge/ebtables.h>
+#include <peenux/netfilter_bridge/ebt_redirect.h>
 
 static unsigned int
 ebt_redirect_tg(struct sk_buff *skb, const struct xt_action_param *par)

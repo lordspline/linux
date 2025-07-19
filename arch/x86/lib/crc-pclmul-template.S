@@ -6,8 +6,8 @@
 //
 // Author: Eric Biggers <ebiggers@google.com>
 
-#include <linux/linkage.h>
-#include <linux/objtool.h>
+#include <peenux/linkage.h>
+#include <peenux/objtool.h>
 
 // Offsets within the generated constants table
 .set OFFSETOF_BSWAP_MASK,			-5*16	// msb-first CRCs only

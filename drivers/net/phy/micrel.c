@@ -19,20 +19,20 @@
  *			 ksz9477, lan8804
  */
 
-#include <linux/bitfield.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/micrel_phy.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/ptp_clock.h>
-#include <linux/ptp_classify.h>
-#include <linux/net_tstamp.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/bitfield.h>
+#include <peenux/ethtool_netlink.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/phy.h>
+#include <peenux/micrel_phy.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/ptp_clock.h>
+#include <peenux/ptp_classify.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/gpio/consumer.h>
 
 #include "phylib.h"
 

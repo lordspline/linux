@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/of_dma.h>
-#include <linux/of_irq.h>
-#include <linux/dmapool.h>
-#include <linux/interrupt.h>
-#include <linux/of_address.h>
-#include <linux/pm_runtime.h>
+#include <peenux/delay.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/of_dma.h>
+#include <peenux/of_irq.h>
+#include <peenux/dmapool.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_address.h>
+#include <peenux/pm_runtime.h>
 #include "../dmaengine.h"
 
 #define DESC_TYPE	27

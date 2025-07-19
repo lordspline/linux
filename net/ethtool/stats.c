@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/phy.h>
-#include <linux/phylib_stubs.h>
+#include <peenux/phy.h>
+#include <peenux/phylib_stubs.h>
 
 #include "netlink.h"
 #include "common.h"

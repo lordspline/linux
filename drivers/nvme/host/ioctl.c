@@ -3,10 +3,10 @@
  * Copyright (c) 2011-2014, Intel Corporation.
  * Copyright (c) 2017-2021 Christoph Hellwig.
  */
-#include <linux/blk-integrity.h>
-#include <linux/ptrace.h>	/* for force_successful_syscall_return */
-#include <linux/nvme_ioctl.h>
-#include <linux/io_uring/cmd.h>
+#include <peenux/blk-integrity.h>
+#include <peenux/ptrace.h>	/* for force_successful_syscall_return */
+#include <peenux/nvme_ioctl.h>
+#include <peenux/io_uring/cmd.h>
 #include "nvme.h"
 
 enum {

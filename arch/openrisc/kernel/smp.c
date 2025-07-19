@@ -11,12 +11,12 @@
  * kind, whether express or implied.
  */
 
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/irq.h>
-#include <linux/of.h>
+#include <peenux/smp.h>
+#include <peenux/cpu.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
 #include <asm/cpuinfo.h>
 #include <asm/mmu_context.h>
 #include <asm/tlbflush.h>

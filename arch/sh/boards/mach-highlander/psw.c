@@ -6,10 +6,10 @@
  *
  * Copyright (C) 2006  Paul Mundt
  */
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
 #include <mach/highlander.h>
 #include <asm/push-switch.h>
 

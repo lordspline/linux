@@ -22,8 +22,8 @@
 		volume_down {
 			label = "Volume Down";
 			gpios = <&gpio5 26 GPIO_ACTIVE_LOW>; /* gpio154 */
-			linux,code = <KEY_VOLUMEDOWN>;
-			linux,can-disable;
+			peenux,code = <KEY_VOLUMEDOWN>;
+			peenux,can-disable;
 			/* Value above 7.95ms for no GPIO hardware debounce */
 			debounce-interval = <10>;
 		};
@@ -36,9 +36,9 @@
 			label = "Keypad Slide";
 			interrupts-extended = <&omap4_pmx_core 0xd6>;
 			gpios = <&gpio4 26 GPIO_ACTIVE_HIGH>; /* gpio122 */
-			linux,input-type = <EV_SW>;
-			linux,code = <SW_KEYPAD_SLIDE>;
-			linux,can-disable;
+			peenux,input-type = <EV_SW>;
+			peenux,code = <SW_KEYPAD_SLIDE>;
+			peenux,can-disable;
 			/* Value above 7.95ms for no GPIO hardware debounce */
 			debounce-interval = <10>;
 		};
@@ -48,7 +48,7 @@
 &keypad {
 	keypad,num-rows = <8>;
 	keypad,num-columns = <8>;
-	linux,keymap = <
+	peenux,keymap = <
 
 	/* Row 1 */
 	MATRIX_KEY(0, 2, KEY_1)

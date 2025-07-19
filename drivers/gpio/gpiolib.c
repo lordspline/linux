@@ -1,38 +1,38 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bitmap.h>
-#include <linux/cleanup.h>
-#include <linux/compat.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdesc.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/nospec.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/srcu.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
+#include <peenux/acpi.h>
+#include <peenux/array_size.h>
+#include <peenux/bitmap.h>
+#include <peenux/cleanup.h>
+#include <peenux/compat.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irqdesc.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/module.h>
+#include <peenux/nospec.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/srcu.h>
+#include <peenux/string.h>
+#include <peenux/string_choices.h>
 
-#include <linux/gpio.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
+#include <peenux/gpio.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/machine.h>
 
-#include <uapi/linux/gpio.h>
+#include <uapi/peenux/gpio.h>
 
 #include "gpiolib-acpi.h"
 #include "gpiolib-cdev.h"
@@ -1084,7 +1084,7 @@ int gpiochip_add_data_with_key(struct gpio_chip *gc, void *data,
 
 	scoped_guard(mutex, &gpio_devices_lock) {
 		/*
-		 * TODO: this allocates a Linux GPIO number base in the global
+		 * TODO: this allocates a Peenux GPIO number base in the global
 		 * GPIO numberspace for this chip. In the long run we want to
 		 * get *rid* of this numberspace and use only descriptors, but
 		 * it may be a pipe dream. It will not happen before we get rid

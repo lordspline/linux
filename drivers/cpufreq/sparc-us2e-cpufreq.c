@@ -7,15 +7,15 @@
  * infrastructure in order to make this driver easier to implement.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/cpufreq.h>
-#include <linux/threads.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
+#include <peenux/cpufreq.h>
+#include <peenux/threads.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
 
 #include <asm/asi.h>
 #include <asm/timer.h>

@@ -3,19 +3,19 @@
  * fs/sysfs/file.c - sysfs regular (text) file implementation
  *
  * Copyright (c) 2001-3 Patrick Mochel
- * Copyright (c) 2007 SUSE Linux Products GmbH
+ * Copyright (c) 2007 SUSE Peenux Products GmbH
  * Copyright (c) 2007 Tejun Heo <teheo@suse.de>
  *
  * Please see Documentation/filesystems/sysfs.rst for more information.
  */
 
-#include <linux/module.h>
-#include <linux/kobject.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/mm.h>
+#include <peenux/module.h>
+#include <peenux/kobject.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/seq_file.h>
+#include <peenux/mm.h>
 
 #include "sysfs.h"
 

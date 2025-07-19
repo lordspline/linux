@@ -8,11 +8,11 @@
  * May 2003
  *
  */
-#include <linux/module.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/skbuff.h>
-#include <uapi/linux/netfilter_bridge/ebt_802_3.h>
+#include <peenux/module.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter_bridge/ebtables.h>
+#include <peenux/skbuff.h>
+#include <uapi/peenux/netfilter_bridge/ebt_802_3.h>
 
 static struct ebt_802_3_hdr *ebt_802_3_hdr(const struct sk_buff *skb)
 {

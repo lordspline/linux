@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
  *
- * Copyright SUSE Linux Products GmbH 2010
+ * Copyright SUSE Peenux Products GmbH 2010
  *
  * Authors: Alexander Graf <agraf@suse.de>
  */
@@ -9,7 +9,7 @@
 #ifndef __ASM_KVM_BOOK3S_64_H__
 #define __ASM_KVM_BOOK3S_64_H__
 
-#include <linux/string.h>
+#include <peenux/string.h>
 #include <asm/bitops.h>
 #include <asm/book3s/64/mmu-hash.h>
 #include <asm/cpu_has_feature.h>

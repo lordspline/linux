@@ -8,19 +8,19 @@
  *	Mikko Perttunen <mperttunen@nvidia.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk/tegra.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/sort.h>
-#include <linux/string.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk/tegra.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/sort.h>
+#include <peenux/string.h>
 
 #include <soc/tegra/fuse.h>
 

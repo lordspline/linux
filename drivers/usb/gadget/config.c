@@ -5,18 +5,18 @@
  * Copyright (C) 2003 David Brownell
  */
 
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/device.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/string.h>
+#include <peenux/device.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/otg.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/composite.h>
+#include <peenux/usb/otg.h>
 
 /**
  * usb_descriptor_fillbuf - fill buffer with descriptors

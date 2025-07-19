@@ -73,7 +73,7 @@ SYM_FUNC_END(cpu_v7_switch_mm)
  */
 SYM_TYPED_FUNC_START(cpu_v7_set_pte_ext)
 #ifdef CONFIG_MMU
-	str	r1, [r0]			@ linux version
+	str	r1, [r0]			@ peenux version
 
 	bic	r3, r1, #0x000003f0
 	bic	r3, r3, #PTE_TYPE_MASK

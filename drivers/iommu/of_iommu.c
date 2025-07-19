@@ -5,17 +5,17 @@
  * Copyright (c) 2012, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/export.h>
-#include <linux/iommu.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_iommu.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/fsl/mc.h>
+#include <peenux/export.h>
+#include <peenux/iommu.h>
+#include <peenux/limits.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_iommu.h>
+#include <peenux/of_pci.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/fsl/mc.h>
 
 #include "iommu-priv.h"
 

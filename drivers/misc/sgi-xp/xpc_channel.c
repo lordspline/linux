@@ -14,7 +14,7 @@
  *
  */
 
-#include <linux/device.h>
+#include <peenux/device.h>
 #include "xpc.h"
 
 /*

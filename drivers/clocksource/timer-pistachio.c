@@ -7,20 +7,20 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/sched_clock.h>
-#include <linux/time.h>
+#include <peenux/clk.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/sched_clock.h>
+#include <peenux/time.h>
 
 /* Top level reg */
 #define CR_TIMER_CTRL_CFG		0x00

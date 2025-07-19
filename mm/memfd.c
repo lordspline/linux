@@ -7,19 +7,19 @@
  * This file is released under the GPL.
  */
 
-#include <linux/fs.h>
-#include <linux/vfs.h>
-#include <linux/pagemap.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/khugepaged.h>
-#include <linux/syscalls.h>
-#include <linux/hugetlb.h>
-#include <linux/shmem_fs.h>
-#include <linux/memfd.h>
-#include <linux/pid_namespace.h>
-#include <uapi/linux/memfd.h>
+#include <peenux/fs.h>
+#include <peenux/vfs.h>
+#include <peenux/pagemap.h>
+#include <peenux/file.h>
+#include <peenux/mm.h>
+#include <peenux/sched/signal.h>
+#include <peenux/khugepaged.h>
+#include <peenux/syscalls.h>
+#include <peenux/hugetlb.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/memfd.h>
+#include <peenux/pid_namespace.h>
+#include <uapi/peenux/memfd.h>
 #include "swap.h"
 
 /*

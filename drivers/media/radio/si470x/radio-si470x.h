@@ -13,20 +13,20 @@
 
 
 /* kernel includes */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/videodev2.h>
-#include <linux/mutex.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/videodev2.h>
+#include <peenux/mutex.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-device.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 
 

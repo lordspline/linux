@@ -9,13 +9,13 @@
  * Based on leds-gpio.c by Raphael Assenat <raph@8d.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
 #include "leds.h"
 
 enum ns2_led_modes {

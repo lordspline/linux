@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-/* Copyright (c) 2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2018, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2018-2024 Linaro Ltd.
  */
 #ifndef _IPA_QMI_MSG_H_
@@ -8,9 +8,9 @@
 
 /* === Only "ipa_qmi" and "ipa_qmi_msg.c" should include this file === */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
-#include <linux/soc/qcom/qmi.h>
+#include <peenux/soc/qcom/qmi.h>
 
 /* Request/response/indication QMI message ids used for IPA.  Receiving
  * end issues a response for requests; indications require no response.

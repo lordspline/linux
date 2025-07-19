@@ -1,37 +1,37 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
- * Copyright (c) 2008 Rodolfo Giometti <giometti@linux.it>
+ * Copyright (c) 2008 Rodolfo Giometti <giometti@peenux.it>
  * Copyright (c) 2008 Eurotech S.p.A. <info@eurtech.it>
  *
  * This code is *strongly* based on EHCI-HCD code by David Brownell since
  * the chip is a quasi-EHCI compatible.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dmapool.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/moduleparam.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/dmapool.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/errno.h>
+#include <peenux/timer.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/moduleparam.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
 
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/irq.h>
-#include <linux/platform_device.h>
+#include <peenux/irq.h>
+#include <peenux/platform_device.h>
 
 #define DRIVER_VERSION "0.0.50"
 
@@ -4303,5 +4303,5 @@ static struct platform_driver oxu_driver = {
 module_platform_driver(oxu_driver);
 
 MODULE_DESCRIPTION("Oxford OXU210HP HCD driver - ver. " DRIVER_VERSION);
-MODULE_AUTHOR("Rodolfo Giometti <giometti@linux.it>");
+MODULE_AUTHOR("Rodolfo Giometti <giometti@peenux.it>");
 MODULE_LICENSE("GPL");

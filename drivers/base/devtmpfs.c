@@ -15,20 +15,20 @@
 
 #define pr_fmt(fmt) "devtmpfs: " fmt
 
-#include <linux/kernel.h>
-#include <linux/syscalls.h>
-#include <linux/mount.h>
-#include <linux/device.h>
-#include <linux/blkdev.h>
-#include <linux/namei.h>
-#include <linux/fs.h>
-#include <linux/shmem_fs.h>
-#include <linux/ramfs.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/init_syscalls.h>
-#include <uapi/linux/mount.h>
+#include <peenux/kernel.h>
+#include <peenux/syscalls.h>
+#include <peenux/mount.h>
+#include <peenux/device.h>
+#include <peenux/blkdev.h>
+#include <peenux/namei.h>
+#include <peenux/fs.h>
+#include <peenux/shmem_fs.h>
+#include <peenux/ramfs.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/init_syscalls.h>
+#include <uapi/peenux/mount.h>
 #include "base.h"
 
 #ifdef CONFIG_DEVTMPFS_SAFE

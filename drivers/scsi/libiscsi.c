@@ -8,14 +8,14 @@
  * Copyright (C) 2004 - 2005 Alex Aizman
  * maintained by open-iscsi@googlegroups.com
  */
-#include <linux/types.h>
-#include <linux/kfifo.h>
-#include <linux/delay.h>
-#include <linux/log2.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <peenux/types.h>
+#include <peenux/kfifo.h>
+#include <peenux/delay.h>
+#include <peenux/log2.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/unaligned.h>
 #include <net/tcp.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>

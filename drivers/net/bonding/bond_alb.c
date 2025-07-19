@@ -3,20 +3,20 @@
  * Copyright(c) 1999 - 2004 Intel Corporation. All rights reserved.
  */
 
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/pkt_sched.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/if_arp.h>
-#include <linux/if_ether.h>
-#include <linux/if_bonding.h>
-#include <linux/if_vlan.h>
-#include <linux/in.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/pkt_sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/timer.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/if_arp.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_bonding.h>
+#include <peenux/if_vlan.h>
+#include <peenux/in.h>
 #include <net/arp.h>
 #include <net/ipv6.h>
 #include <net/ndisc.h>

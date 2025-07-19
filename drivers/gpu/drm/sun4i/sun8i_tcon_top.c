@@ -2,14 +2,14 @@
 /* Copyright (c) 2018 Jernej Skrabec <jernej.skrabec@siol.net> */
 
 
-#include <linux/bitfield.h>
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/component.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
 
 #include <dt-bindings/clock/sun8i-tcon-top.h>
 

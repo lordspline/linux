@@ -9,12 +9,12 @@
  *          Elie Morisse <syniurge@gmail.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "i2c-amd-mp2.h"
 

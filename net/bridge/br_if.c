@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Userspace interface
- *	Linux ethernet bridge
+ *	Peenux ethernet bridge
  *
  *	Authors:
  *	Lennert Buytenhek		<buytenh@gnu.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/netpoll.h>
-#include <linux/ethtool.h>
-#include <linux/if_arp.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/rtnetlink.h>
-#include <linux/if_ether.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/netpoll.h>
+#include <peenux/ethtool.h>
+#include <peenux/if_arp.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/if_ether.h>
+#include <peenux/slab.h>
 #include <net/dsa.h>
 #include <net/sock.h>
-#include <linux/if_vlan.h>
+#include <peenux/if_vlan.h>
 #include <net/switchdev.h>
 #include <net/net_namespace.h>
 

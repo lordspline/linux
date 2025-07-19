@@ -4,22 +4,22 @@
  * Copyright (c) 2020, Stephan Gerhold <stephan@gerhold.net>
  */
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/if_arp.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/soc/qcom/smem_state.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/bitops.h>
+#include <peenux/completion.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/if_arp.h>
+#include <peenux/interrupt.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/soc/qcom/smem_state.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 #include <net/pkt_sched.h>
 
 #define BAM_DMUX_BUFFER_SIZE		SZ_2K

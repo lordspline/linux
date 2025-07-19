@@ -3,7 +3,7 @@
  *
  *  Contributed by HP Systems
  *
- *  Modified for Linux/MIPS (and MIPS in general) by Andreas Busse
+ *  Modified for Peenux/MIPS (and MIPS in general) by Andreas Busse
  *  Send complaints, suggestions etc. to <andy@waldorf-gmbh.de>
  *
  *  Copyright (C) 1995 Andreas Busse
@@ -22,11 +22,11 @@
  *  kind, whether express or implied.
  */
 
-#include <linux/ptrace.h>		/* for linux pt_regs struct */
-#include <linux/kgdb.h>
-#include <linux/kdebug.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
+#include <peenux/ptrace.h>		/* for peenux pt_regs struct */
+#include <peenux/kgdb.h>
+#include <peenux/kdebug.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
 #include <asm/inst.h>
 #include <asm/fpu.h>
 #include <asm/cacheflush.h>

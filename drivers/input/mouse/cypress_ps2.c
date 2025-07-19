@@ -12,15 +12,15 @@
  *   Kyle Fazzari <git@status.e4ward.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/serio.h>
-#include <linux/libps2.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/serio.h>
+#include <peenux/libps2.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/sched.h>
+#include <peenux/wait.h>
 
 #include "cypress_ps2.h"
 

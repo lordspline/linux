@@ -5,16 +5,16 @@
  * Copyright 2016 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/debugfs.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/debugfs.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/kmod.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include "cec-priv.h"
 
@@ -400,7 +400,7 @@ void cec_delete_adapter(struct cec_adapter *adap)
 EXPORT_SYMBOL_GPL(cec_delete_adapter);
 
 /*
- *	Initialise cec for linux
+ *	Initialise cec for peenux
  */
 static int __init cec_devnode_init(void)
 {

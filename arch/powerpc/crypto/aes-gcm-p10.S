@@ -39,7 +39,7 @@
 #
 
 #include <asm/ppc_asm.h>
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 .machine        "any"
 .text

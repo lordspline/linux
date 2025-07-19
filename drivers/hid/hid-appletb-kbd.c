@@ -9,16 +9,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/hid.h>
-#include <linux/usb.h>
-#include <linux/input.h>
-#include <linux/sysfs.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/backlight.h>
-#include <linux/timer.h>
-#include <linux/input/sparse-keymap.h>
+#include <peenux/hid.h>
+#include <peenux/usb.h>
+#include <peenux/input.h>
+#include <peenux/sysfs.h>
+#include <peenux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/backlight.h>
+#include <peenux/timer.h>
+#include <peenux/input/sparse-keymap.h>
 
 #include "hid-ids.h"
 

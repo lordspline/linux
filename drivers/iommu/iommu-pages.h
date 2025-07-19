@@ -7,7 +7,7 @@
 #ifndef __IOMMU_PAGES_H
 #define __IOMMU_PAGES_H
 
-#include <linux/iommu.h>
+#include <peenux/iommu.h>
 
 /**
  * struct ioptdesc - Memory descriptor for IOMMU page tables

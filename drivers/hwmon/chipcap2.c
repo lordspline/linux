@@ -11,17 +11,17 @@
  * https://www.amphenol-sensors.com/en/telaire/humidity/527-humidity-sensors/3095-chipcap-2
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/hwmon.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
 
 #define CC2_START_CM			0xA0
 #define CC2_START_NOM			0x80

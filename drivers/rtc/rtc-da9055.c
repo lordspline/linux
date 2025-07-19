@@ -7,13 +7,13 @@
  * Author: Dajun Dajun Chen <dajun.chen@diasemi.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtc.h>
 
-#include <linux/mfd/da9055/core.h>
-#include <linux/mfd/da9055/reg.h>
-#include <linux/mfd/da9055/pdata.h>
+#include <peenux/mfd/da9055/core.h>
+#include <peenux/mfd/da9055/reg.h>
+#include <peenux/mfd/da9055/pdata.h>
 
 struct da9055_rtc {
 	struct rtc_device *rtc;

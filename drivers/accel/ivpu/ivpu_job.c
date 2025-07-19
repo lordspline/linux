@@ -5,11 +5,11 @@
 
 #include <drm/drm_file.h>
 
-#include <linux/bitfield.h>
-#include <linux/highmem.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
+#include <peenux/bitfield.h>
+#include <peenux/highmem.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/module.h>
 #include <uapi/drm/ivpu_accel.h>
 
 #include "ivpu_drv.h"

@@ -7,7 +7,7 @@
 #ifndef __SDHCI_UHS2_H
 #define __SDHCI_UHS2_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 /* SDHCI Category C registers : UHS2 usage */
 

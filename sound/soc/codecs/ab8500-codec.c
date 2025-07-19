@@ -14,22 +14,22 @@
  *         for ST-Ericsson.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/mfd/abx500.h>
-#include <linux/mfd/abx500/ab8500-sysctrl.h>
-#include <linux/mfd/abx500/ab8500-codec.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/platform_device.h>
+#include <peenux/mutex.h>
+#include <peenux/mfd/abx500/ab8500.h>
+#include <peenux/mfd/abx500.h>
+#include <peenux/mfd/abx500/ab8500-sysctrl.h>
+#include <peenux/mfd/abx500/ab8500-codec.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/of.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

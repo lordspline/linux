@@ -11,7 +11,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <peenux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    Le Yanqun		    <yanqun.le@nokia.com>
@@ -22,28 +22,28 @@
  *    Ardelle Fan	    <ardelle.fan@intel.com>
  *
  * Based on:
- *	linux/net/ipv6/tcp_ipv6.c
+ *	peenux/net/ipv6/tcp_ipv6.c
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/init.h>
-#include <linux/ipsec.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/net.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/netdevice.h>
+#include <peenux/init.h>
+#include <peenux/ipsec.h>
+#include <peenux/slab.h>
 
-#include <linux/ipv6.h>
-#include <linux/icmpv6.h>
-#include <linux/random.h>
-#include <linux/seq_file.h>
+#include <peenux/ipv6.h>
+#include <peenux/icmpv6.h>
+#include <peenux/random.h>
+#include <peenux/seq_file.h>
 
 #include <net/protocol.h>
 #include <net/ndisc.h>
@@ -57,7 +57,7 @@
 #include <net/sctp/sctp.h>
 #include <net/udp_tunnel.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 static inline int sctp_v6_addr_match_len(union sctp_addr *s1,
 					 union sctp_addr *s2);

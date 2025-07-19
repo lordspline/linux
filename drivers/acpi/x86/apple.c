@@ -4,10 +4,10 @@
  * Copyright (C) 2017 Lukas Wunner <lukas@wunner.de>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/platform_data/x86/apple.h>
-#include <linux/uuid.h>
+#include <peenux/acpi.h>
+#include <peenux/bitmap.h>
+#include <peenux/platform_data/x86/apple.h>
+#include <peenux/uuid.h>
 #include "../internal.h"
 
 /* Apple _DSM device properties GUID */

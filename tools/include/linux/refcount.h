@@ -38,8 +38,8 @@
  *
  */
 
-#include <linux/atomic.h>
-#include <linux/kernel.h>
+#include <peenux/atomic.h>
+#include <peenux/kernel.h>
 
 #ifdef NDEBUG
 #define REFCOUNT_WARN(cond, str) (void)(cond)

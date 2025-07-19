@@ -4,15 +4,15 @@
  *
  * Written by: Atul Gupta (atul.gupta@chelsio.com)
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/hash.h>
-#include <linux/in.h>
-#include <linux/net.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/socket.h>
+#include <peenux/hash.h>
+#include <peenux/in.h>
+#include <peenux/net.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
 #include <net/ipv6.h>
 #include <net/transp_v6.h>
 #include <net/tcp.h>

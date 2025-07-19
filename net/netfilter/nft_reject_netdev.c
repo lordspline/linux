@@ -4,13 +4,13 @@
  * Copyright (c) 2020 Jose M. Guisado <guigom@riseup.net>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netlink.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/nf_tables.h>
+#include <peenux/etherdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/netlink.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/nf_tables.h>
 #include <net/netfilter/nf_tables.h>
 #include <net/netfilter/nft_reject.h>
 #include <net/netfilter/ipv4/nf_reject.h>

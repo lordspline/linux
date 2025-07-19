@@ -22,8 +22,8 @@
  *     - Addition of experimental sync support.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
 #include <sound/core.h>
 
 #include "seq_memory.h"

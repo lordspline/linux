@@ -24,7 +24,7 @@
  *
  */
 
-#include <linux/dmi.h>
+#include <peenux/dmi.h>
 
 #include "amdgpu.h"
 #include "amdgpu_dm.h"

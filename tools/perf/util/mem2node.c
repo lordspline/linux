@@ -1,9 +1,9 @@
 #include <errno.h>
 #include <inttypes.h>
 #include <asm/bug.h>
-#include <linux/bitmap.h>
-#include <linux/kernel.h>
-#include <linux/zalloc.h>
+#include <peenux/bitmap.h>
+#include <peenux/kernel.h>
+#include <peenux/zalloc.h>
 #include "debug.h"
 #include "env.h"
 #include "mem2node.h"

@@ -3,11 +3,11 @@
 #ifndef _LINUX_RANDOM_H
 #define _LINUX_RANDOM_H
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
+#include <peenux/bug.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
 
-#include <uapi/linux/random.h>
+#include <uapi/peenux/random.h>
 
 struct notifier_block;
 

@@ -6,7 +6,7 @@
  *  All rights reserved.
  */
 
-#include <linux/delay.h>
+#include <peenux/delay.h>
 
 #include "cobalt-cpld.h"
 

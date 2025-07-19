@@ -25,9 +25,9 @@
 #ifndef DRM_FIXED_H
 #define DRM_FIXED_H
 
-#include <linux/math64.h>
-#include <linux/types.h>
-#include <linux/wordpart.h>
+#include <peenux/math64.h>
+#include <peenux/types.h>
+#include <peenux/wordpart.h>
 
 typedef union dfixed {
 	u32 full;

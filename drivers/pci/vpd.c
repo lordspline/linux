@@ -5,11 +5,11 @@
  * Copyright (C) 2010 Broadcom Corporation.
  */
 
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/sched/signal.h>
-#include <linux/unaligned.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/sched/signal.h>
+#include <peenux/unaligned.h>
 #include "pci.h"
 
 #define PCI_VPD_LRDT_TAG_SIZE		3

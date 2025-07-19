@@ -3,8 +3,8 @@
  * Copyright © 2017 Intel Corporation
  */
 
-#include <linux/fs.h>
-#include <linux/mount.h>
+#include <peenux/fs.h>
+#include <peenux/mount.h>
 
 #include "i915_drv.h"
 #include "i915_gemfs.h"

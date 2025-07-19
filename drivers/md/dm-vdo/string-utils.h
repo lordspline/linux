@@ -6,8 +6,8 @@
 #ifndef VDO_STRING_UTILS_H
 #define VDO_STRING_UTILS_H
 
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
 
 /* Utilities related to string manipulation */
 

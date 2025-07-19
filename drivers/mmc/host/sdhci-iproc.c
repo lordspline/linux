@@ -5,12 +5,12 @@
  * iProc SDHCI platform driver
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mmc/host.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/mmc/host.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 #include "sdhci-pltfm.h"
 
 struct sdhci_iproc_data {

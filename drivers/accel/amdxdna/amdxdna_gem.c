@@ -9,11 +9,11 @@
 #include <drm/drm_gem.h>
 #include <drm/drm_gem_shmem_helper.h>
 #include <drm/gpu_scheduler.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-direct.h>
-#include <linux/iosys-map.h>
-#include <linux/pagemap.h>
-#include <linux/vmalloc.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-direct.h>
+#include <peenux/iosys-map.h>
+#include <peenux/pagemap.h>
+#include <peenux/vmalloc.h>
 
 #include "amdxdna_ctx.h"
 #include "amdxdna_gem.h"

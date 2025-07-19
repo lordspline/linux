@@ -5,15 +5,15 @@
 #define _SCHED_TESTS_H_
 
 #include <kunit/test.h>
-#include <linux/atomic.h>
-#include <linux/completion.h>
-#include <linux/dma-fence.h>
-#include <linux/hrtimer.h>
-#include <linux/ktime.h>
-#include <linux/list.h>
-#include <linux/atomic.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/atomic.h>
+#include <peenux/completion.h>
+#include <peenux/dma-fence.h>
+#include <peenux/hrtimer.h>
+#include <peenux/ktime.h>
+#include <peenux/list.h>
+#include <peenux/atomic.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 #include <drm/gpu_scheduler.h>
 

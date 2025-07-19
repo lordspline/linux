@@ -10,17 +10,17 @@
  * i/o controls for the dasd driver.
  */
 
-#include <linux/interrupt.h>
-#include <linux/compat.h>
-#include <linux/major.h>
-#include <linux/fs.h>
-#include <linux/blkpg.h>
-#include <linux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/compat.h>
+#include <peenux/major.h>
+#include <peenux/fs.h>
+#include <peenux/blkpg.h>
+#include <peenux/slab.h>
 #include <asm/ccwdev.h>
 #include <asm/schid.h>
 #include <asm/cmb.h>
-#include <linux/uaccess.h>
-#include <linux/dasd_mod.h>
+#include <peenux/uaccess.h>
+#include <peenux/dasd_mod.h>
 
 #include "dasd_int.h"
 

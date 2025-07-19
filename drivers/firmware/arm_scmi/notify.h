@@ -9,9 +9,9 @@
 #ifndef _SCMI_NOTIFY_H
 #define _SCMI_NOTIFY_H
 
-#include <linux/device.h>
-#include <linux/ktime.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/ktime.h>
+#include <peenux/types.h>
 
 #define SCMI_PROTO_QUEUE_SZ	4096
 

@@ -10,18 +10,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-vid.h>
-#include <linux/sysfs.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/platform_device.h>
-#include <linux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-vid.h>
+#include <peenux/sysfs.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/list.h>
+#include <peenux/platform_device.h>
+#include <peenux/cpu.h>
 #include <asm/msr.h>
 #include <asm/processor.h>
 #include <asm/cpu_device_id.h>

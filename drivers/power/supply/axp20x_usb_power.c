@@ -3,25 +3,25 @@
  * AXP20x PMIC USB power supply status driver
  *
  * Copyright (C) 2015 Hans de Goede <hdegoede@redhat.com>
- * Copyright (C) 2014 Bruno Prémont <bonbons@linux-vserver.org>
+ * Copyright (C) 2014 Bruno Prémont <bonbons@peenux-vserver.org>
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/devm-helpers.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/iio/consumer.h>
-#include <linux/workqueue.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/axp20x.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/workqueue.h>
 
 #define DRVNAME "axp20x-usb-power-supply"
 

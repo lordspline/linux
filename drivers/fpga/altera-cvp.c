@@ -10,12 +10,12 @@
  * Firmware must be in binary "rbf" format.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/sizes.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/fpga/fpga-mgr.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/sizes.h>
 
 #define CVP_BAR		0	/* BAR used for data transfer in memory mode */
 #define CVP_DUMMY_WR	244	/* dummy writes to clear CvP state machine */

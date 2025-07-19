@@ -5,10 +5,10 @@
  *
  */
 
-#include <linux/net_tstamp.h>
-#include <linux/phylink.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/phylink.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include "am65-cpsw-nuss.h"
 #include "am65-cpsw-qos.h"

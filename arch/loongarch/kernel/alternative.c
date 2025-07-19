@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/module.h>
+#include <peenux/export.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
 #include <asm/alternative.h>
 #include <asm/cacheflush.h>
 #include <asm/inst.h>

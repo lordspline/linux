@@ -8,9 +8,9 @@
 #ifndef __LINUX_UBI_H__
 #define __LINUX_UBI_H__
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
-#include <linux/scatterlist.h>
+#include <peenux/ioctl.h>
+#include <peenux/types.h>
+#include <peenux/scatterlist.h>
 #include <mtd/ubi-user.h>
 
 /* All voumes/LEBs */

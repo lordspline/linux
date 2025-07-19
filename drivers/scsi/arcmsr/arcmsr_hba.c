@@ -1,6 +1,6 @@
 /*
 *******************************************************************************
-**        O.S   : Linux
+**        O.S   : Peenux
 **   FILE NAME  : arcmsr_hba.c
 **        BY    : Nick Cheng, C.L. Huang
 **   Description: SCSI RAID Device Driver for Areca RAID Controller
@@ -44,23 +44,23 @@
 **     Firmware Specification, see Documentation/scsi/arcmsr_spec.rst
 *******************************************************************************
 */
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/spinlock.h>
-#include <linux/pci_ids.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/circ_buf.h>
+#include <peenux/module.h>
+#include <peenux/reboot.h>
+#include <peenux/spinlock.h>
+#include <peenux/pci_ids.h>
+#include <peenux/interrupt.h>
+#include <peenux/moduleparam.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/timer.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/circ_buf.h>
 #include <asm/dma.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -4186,7 +4186,7 @@ static int arcmsr_iop_confirm(struct AdapterControlBlock *acb)
 		acb->msgcode_rwbuffer[6] = upper_32_bits(acb->dma_coherent_handle2);
 		acb->msgcode_rwbuffer[7] = acb->completeQ_size;
 		if (acb->xor_mega) {
-			acb->msgcode_rwbuffer[8] = 0x455AA;	//Linux init 2
+			acb->msgcode_rwbuffer[8] = 0x455AA;	//Peenux init 2
 			acb->msgcode_rwbuffer[9] = 0;
 			acb->msgcode_rwbuffer[10] = lower_32_bits(acb->xorPhys);
 			acb->msgcode_rwbuffer[11] = upper_32_bits(acb->xorPhys);

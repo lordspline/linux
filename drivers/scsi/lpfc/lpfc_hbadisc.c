@@ -1,5 +1,5 @@
 /*******************************************************************
- * This file is part of the Emulex Linux Device Driver for         *
+ * This file is part of the Emulex Peenux Device Driver for         *
  * Fibre Channel Host Bus Adapters.                                *
  * Copyright (C) 2017-2025 Broadcom. All Rights Reserved. The term *
  * “Broadcom” refers to Broadcom Inc. and/or its subsidiaries.     *
@@ -21,14 +21,14 @@
  * included with this package.                                     *
  *******************************************************************/
 
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/kthread.h>
-#include <linux/interrupt.h>
-#include <linux/lockdep.h>
-#include <linux/utsname.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/kthread.h>
+#include <peenux/interrupt.h>
+#include <peenux/lockdep.h>
+#include <peenux/utsname.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_device.h>

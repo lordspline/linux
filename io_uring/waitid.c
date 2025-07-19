@@ -2,14 +2,14 @@
 /*
  * Support for async notification of waitid
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/compat.h>
-#include <linux/io_uring.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/compat.h>
+#include <peenux/io_uring.h>
 
-#include <uapi/linux/io_uring.h>
+#include <uapi/peenux/io_uring.h>
 
 #include "io_uring.h"
 #include "cancel.h"

@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Ioctl handler
- *	Linux ethernet bridge
+ *	Peenux ethernet bridge
  *
  *	Authors:
  *	Lennert Buytenhek		<buytenh@gnu.org>
  */
 
-#include <linux/capability.h>
-#include <linux/compat.h>
-#include <linux/kernel.h>
-#include <linux/if_bridge.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
-#include <linux/times.h>
+#include <peenux/capability.h>
+#include <peenux/compat.h>
+#include <peenux/kernel.h>
+#include <peenux/if_bridge.h>
+#include <peenux/netdevice.h>
+#include <peenux/slab.h>
+#include <peenux/times.h>
 #include <net/net_namespace.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include "br_private.h"
 
 static int get_bridge_ifindices(struct net *net, int *indices, int num)

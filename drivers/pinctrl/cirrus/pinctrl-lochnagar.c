@@ -8,24 +8,24 @@
  * Author: Charles Keepax <ckeepax@opensource.cirrus.com>
  */
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/string_choices.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
-#include <linux/mfd/lochnagar.h>
-#include <linux/mfd/lochnagar1_regs.h>
-#include <linux/mfd/lochnagar2_regs.h>
+#include <peenux/mfd/lochnagar.h>
+#include <peenux/mfd/lochnagar1_regs.h>
+#include <peenux/mfd/lochnagar2_regs.h>
 
 #include <dt-bindings/pinctrl/lochnagar.h>
 

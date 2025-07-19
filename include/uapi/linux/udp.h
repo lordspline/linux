@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -18,7 +18,7 @@
 #ifndef _UAPI_LINUX_UDP_H
 #define _UAPI_LINUX_UDP_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct udphdr {
 	__be16	source;

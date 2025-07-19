@@ -6,19 +6,19 @@
  * Copyright (C) 2022 StarFive Technology Co., Ltd.
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
 
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include <dt-bindings/pinctrl/starfive,jh7110-pinctrl.h>
 

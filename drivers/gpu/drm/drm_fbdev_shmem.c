@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-#include <linux/fb.h>
+#include <peenux/fb.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_fbdev_shmem.h>

@@ -9,21 +9,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/ipmi.h>
-#include <linux/module.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/kdev_t.h>
-#include <linux/spinlock.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/platform_device.h>
-#include <linux/math64.h>
-#include <linux/time.h>
-#include <linux/err.h>
+#include <peenux/ipmi.h>
+#include <peenux/module.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/mutex.h>
+#include <peenux/kdev_t.h>
+#include <peenux/spinlock.h>
+#include <peenux/idr.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/platform_device.h>
+#include <peenux/math64.h>
+#include <peenux/time.h>
+#include <peenux/err.h>
 
 #define REFRESH_INTERVAL	(HZ)
 #define IPMI_TIMEOUT		(30 * HZ)

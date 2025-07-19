@@ -5,9 +5,9 @@
  * - Kurt Van Dijck, EIA Electronics
  */
 
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
+#include <peenux/ethtool.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
 #include <asm/io.h>
 
 #include "softing.h"

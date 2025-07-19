@@ -10,13 +10,13 @@
 #include <crypto/aes.h>
 #include <crypto/ctr.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 #include "ccp-crypto.h"
 

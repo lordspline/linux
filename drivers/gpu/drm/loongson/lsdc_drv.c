@@ -3,9 +3,9 @@
  * Copyright (C) 2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/aperture.h>
-#include <linux/pci.h>
-#include <linux/vgaarb.h>
+#include <peenux/aperture.h>
+#include <peenux/pci.h>
+#include <peenux/vgaarb.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

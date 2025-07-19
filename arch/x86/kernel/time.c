@@ -10,13 +10,13 @@
  *
  */
 
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/i8253.h>
-#include <linux/time.h>
-#include <linux/export.h>
+#include <peenux/clocksource.h>
+#include <peenux/clockchips.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/i8253.h>
+#include <peenux/time.h>
+#include <peenux/export.h>
 
 #include <asm/vsyscall.h>
 #include <asm/x86_init.h>

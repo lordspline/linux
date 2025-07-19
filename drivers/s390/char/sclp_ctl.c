@@ -4,16 +4,16 @@
  *
  * Copyright IBM Corp. 2012
  *
- * Author: Michael Holzheu <holzheu@linux.vnet.ibm.com>
+ * Author: Michael Holzheu <holzheu@peenux.vnet.ibm.com>
  */
 
-#include <linux/compat.h>
-#include <linux/uaccess.h>
-#include <linux/miscdevice.h>
-#include <linux/gfp.h>
-#include <linux/init.h>
-#include <linux/ioctl.h>
-#include <linux/fs.h>
+#include <peenux/compat.h>
+#include <peenux/uaccess.h>
+#include <peenux/miscdevice.h>
+#include <peenux/gfp.h>
+#include <peenux/init.h>
+#include <peenux/ioctl.h>
+#include <peenux/fs.h>
 #include <asm/sclp_ctl.h>
 #include <asm/sclp.h>
 

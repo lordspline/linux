@@ -1,5 +1,5 @@
 /*
- *  linux/arch/nios2/kernel/misaligned.c
+ *  peenux/arch/nios2/kernel/misaligned.c
  *
  *  basic emulation for mis-aligned accesses on the NIOS II cpu
  *  modelled after the version for arm in arm/alignment.c
@@ -14,16 +14,16 @@
  * this archive for more details.
  */
 
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/seq_file.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/proc_fs.h>
+#include <peenux/init.h>
+#include <peenux/sched.h>
+#include <peenux/uaccess.h>
+#include <peenux/seq_file.h>
 
 #include <asm/traps.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* instructions we emulate */
 #define INST_LDHU	0x0b

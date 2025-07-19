@@ -5,12 +5,12 @@
  * Copyright (C) 2016 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
-#include <linux/mfd/lp873x.h>
+#include <peenux/mfd/lp873x.h>
 
 #define LP873X_REGULATOR(_name, _id, _of, _ops, _n, _vr, _vm, _er, _em, \
 			 _delay, _lr, _cr)				\

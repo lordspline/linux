@@ -6,17 +6,17 @@
  * Author: Srinivas Kandagatla <srinivas.kandagatla@linaro.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_runtime.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/err.h>
+#include <peenux/pm_clock.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 #include <dt-bindings/clock/qcom,sm8250-lpass-audiocc.h>
 #include <dt-bindings/clock/qcom,sm8250-lpass-aoncc.h>
 

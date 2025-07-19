@@ -7,18 +7,18 @@
  *  Copyright (C) 2000 Deep Blue Solutions Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/platform_data/sa11x0-serial.h>
-#include <linux/platform_device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/sysrq.h>
+#include <peenux/platform_data/sa11x0-serial.h>
+#include <peenux/platform_device.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/io.h>
 
 #include <asm/irq.h>
 #include <mach/hardware.h>

@@ -16,7 +16,7 @@
 #ifndef _SELINUX_NETPORT_H
 #define _SELINUX_NETPORT_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 void sel_netport_flush(void);
 

@@ -6,17 +6,17 @@
  * Copyright (C) 2019-2021 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/power_supply.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/unaligned.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/power_supply.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
-#include <linux/surface_aggregator/device.h>
+#include <peenux/surface_aggregator/device.h>
 
 
 /* -- SAM interface. -------------------------------------------------------- */

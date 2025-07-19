@@ -5,15 +5,15 @@
  * Copyright 2022 Noralf Trønnes
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/backlight.h>
+#include <peenux/delay.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

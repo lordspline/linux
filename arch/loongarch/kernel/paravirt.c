@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/irq_work.h>
-#include <linux/jump_label.h>
-#include <linux/kvm_para.h>
-#include <linux/reboot.h>
-#include <linux/static_call.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq_work.h>
+#include <peenux/jump_label.h>
+#include <peenux/kvm_para.h>
+#include <peenux/reboot.h>
+#include <peenux/static_call.h>
 #include <asm/paravirt.h>
 
 static int has_steal_clock;

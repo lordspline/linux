@@ -7,19 +7,19 @@
  * Copyright (C) 2003, 2004 Oracle.  All rights reserved.
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/mm.h>
-#include <linux/kthread.h>
-#include <linux/pagemap.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/time.h>
-#include <linux/delay.h>
-#include <linux/quotaops.h>
-#include <linux/sched/signal.h>
-#include <linux/string_choices.h>
+#include <peenux/types.h>
+#include <peenux/slab.h>
+#include <peenux/highmem.h>
+#include <peenux/mm.h>
+#include <peenux/kthread.h>
+#include <peenux/pagemap.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/time.h>
+#include <peenux/delay.h>
+#include <peenux/quotaops.h>
+#include <peenux/sched/signal.h>
+#include <peenux/string_choices.h>
 
 #define MLOG_MASK_PREFIX ML_DLM_GLUE
 #include <cluster/masklog.h>

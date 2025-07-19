@@ -10,10 +10,10 @@
 #ifndef __RZG2L_DU_CRTC_H__
 #define __RZG2L_DU_CRTC_H__
 
-#include <linux/container_of.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <peenux/container_of.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
 
 #include <drm/drm_crtc.h>
 #include <drm/drm_writeback.h>

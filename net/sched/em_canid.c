@@ -11,14 +11,14 @@
  * Funded by:  Volkswagen Group Research
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/skbuff.h>
 #include <net/pkt_cls.h>
-#include <linux/can.h>
+#include <peenux/can.h>
 
 #define EM_CAN_RULES_MAX 500
 

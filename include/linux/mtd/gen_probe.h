@@ -7,10 +7,10 @@
 #ifndef __LINUX_MTD_GEN_PROBE_H__
 #define __LINUX_MTD_GEN_PROBE_H__
 
-#include <linux/mtd/flashchip.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/cfi.h>
-#include <linux/bitops.h>
+#include <peenux/mtd/flashchip.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/cfi.h>
+#include <peenux/bitops.h>
 
 struct chip_probe {
 	char *name;

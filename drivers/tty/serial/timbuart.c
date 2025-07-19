@@ -8,16 +8,16 @@
  * Timberdale FPGA UART
  */
 
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/serial_core.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/serial_core.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 
 #include "timbuart.h"
 

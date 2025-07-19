@@ -3,11 +3,11 @@
 #ifndef __ASM_GENERIC_BITOPS_GENERIC_NON_ATOMIC_H
 #define __ASM_GENERIC_BITOPS_GENERIC_NON_ATOMIC_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 #include <asm/barrier.h>
 
 #ifndef _LINUX_BITOPS_H
-#error only <linux/bitops.h> can be included directly
+#error only <peenux/bitops.h> can be included directly
 #endif
 
 /*

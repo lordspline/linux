@@ -10,15 +10,15 @@
  *
  */
 
-#include <linux/mm.h>
-#include <linux/ptrace.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/interrupt.h>
-#include <linux/extable.h>
-#include <linux/uaccess.h>
-#include <linux/hugetlb.h>
-#include <linux/perf_event.h>
+#include <peenux/mm.h>
+#include <peenux/ptrace.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/interrupt.h>
+#include <peenux/extable.h>
+#include <peenux/uaccess.h>
+#include <peenux/hugetlb.h>
+#include <peenux/perf_event.h>
 
 #include <asm/traps.h>
 

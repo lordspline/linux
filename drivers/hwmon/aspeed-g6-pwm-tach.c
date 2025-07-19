@@ -43,21 +43,21 @@
  *   This improvement can disable/enable through PWM_ASPEED_CTRL_DUTY_SYNC_DISABLE.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/hwmon.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/reset.h>
-#include <linux/sysfs.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/hwmon.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/module.h>
+#include <peenux/of_device.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/reset.h>
+#include <peenux/sysfs.h>
 
 /* The channel number of Aspeed pwm controller */
 #define PWM_ASPEED_NR_PWMS			16

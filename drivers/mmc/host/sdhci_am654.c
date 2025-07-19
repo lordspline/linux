@@ -5,14 +5,14 @@
  * Copyright (C) 2018 Texas Instruments Incorporated - https://www.ti.com
  *
  */
-#include <linux/clk.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/sys_soc.h>
+#include <peenux/clk.h>
+#include <peenux/iopoll.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/sys_soc.h>
 
 #include "cqhci.h"
 #include "sdhci-cqhci.h"

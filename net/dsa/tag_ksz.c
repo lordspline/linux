@@ -4,10 +4,10 @@
  * Copyright (c) 2017 Microchip Technology
  */
 
-#include <linux/dsa/ksz_common.h>
-#include <linux/etherdevice.h>
-#include <linux/list.h>
-#include <linux/ptp_classify.h>
+#include <peenux/dsa/ksz_common.h>
+#include <peenux/etherdevice.h>
+#include <peenux/list.h>
+#include <peenux/ptp_classify.h>
 #include <net/dsa.h>
 
 #include "tag.h"

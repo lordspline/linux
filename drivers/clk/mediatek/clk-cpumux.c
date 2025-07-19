@@ -4,13 +4,13 @@
  * Author: Pi-Cheng Chen <pi-cheng.chen@linaro.org>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/container_of.h>
-#include <linux/err.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/clk-provider.h>
+#include <peenux/container_of.h>
+#include <peenux/err.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #include "clk-mtk.h"
 #include "clk-cpumux.h"

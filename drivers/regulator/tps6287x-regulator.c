@@ -6,16 +6,16 @@
  * Datasheet: https://www.ti.com/lit/ds/symlink/tps62873.pdf
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/driver.h>
-#include <linux/bitfield.h>
-#include <linux/linear_range.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/bitfield.h>
+#include <peenux/linear_range.h>
 
 #define TPS6287X_VSET		0x00
 #define TPS6287X_CTRL1		0x01

@@ -10,12 +10,12 @@
  *   Freescale Semiconductors
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/usb.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/ulpi.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/usb.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/ulpi.h>
 
 
 struct ulpi_info {

@@ -35,8 +35,8 @@
  * refuses to mount.
  */
 
-#include <linux/crc32.h>
-#include <linux/slab.h>
+#include <peenux/crc32.h>
+#include <peenux/slab.h>
 #include "ubifs.h"
 
 /**

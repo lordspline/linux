@@ -50,34 +50,34 @@
  *	driver code belonging close to PPP and SLIP
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
 #include <net/slhc_vj.h>
 
 #ifdef CONFIG_INET
 /* Entire module is for IP only */
-#include <linux/mm.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/termios.h>
-#include <linux/in.h>
-#include <linux/fcntl.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
+#include <peenux/mm.h>
+#include <peenux/socket.h>
+#include <peenux/sockios.h>
+#include <peenux/termios.h>
+#include <peenux/in.h>
+#include <peenux/fcntl.h>
+#include <peenux/inet.h>
+#include <peenux/netdevice.h>
 #include <net/ip.h>
 #include <net/protocol.h>
 #include <net/icmp.h>
 #include <net/tcp.h>
-#include <linux/skbuff.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
-#include <linux/timer.h>
-#include <linux/uaccess.h>
+#include <peenux/timer.h>
+#include <peenux/uaccess.h>
 #include <net/checksum.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 static unsigned char *encode(unsigned char *cp, unsigned short n);
 static long decode(unsigned char **cpp);

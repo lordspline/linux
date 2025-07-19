@@ -3,15 +3,15 @@
  *  Copyright (C) 2008 Red Hat, Inc., Eric Paris <eparis@redhat.com>
  */
 
-#include <linux/dcache.h>
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mount.h>
-#include <linux/srcu.h>
+#include <peenux/dcache.h>
+#include <peenux/fs.h>
+#include <peenux/gfp.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mount.h>
+#include <peenux/srcu.h>
 
-#include <linux/fsnotify_backend.h>
+#include <peenux/fsnotify_backend.h>
 #include "fsnotify.h"
 
 /*
@@ -521,7 +521,7 @@ static void fsnotify_iter_next(struct fsnotify_iter_info *iter_info)
 /*
  * fsnotify - This is the main call to fsnotify.
  *
- * The VFS calls into hook specific functions in linux/fsnotify.h.
+ * The VFS calls into hook specific functions in peenux/fsnotify.h.
  * Those functions then in turn call here.  Here will call out to all of the
  * registered fsnotify_group.  Those groups can then use the notification event
  * in whatever means they feel necessary.

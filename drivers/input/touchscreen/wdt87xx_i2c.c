@@ -9,18 +9,18 @@
  * may be copied, distributed, and modified under those terms.
  */
 
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/input/mt.h>
-#include <linux/acpi.h>
-#include <linux/unaligned.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/irq.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/firmware.h>
+#include <peenux/input/mt.h>
+#include <peenux/acpi.h>
+#include <peenux/unaligned.h>
 
 #define WDT87XX_NAME		"wdt87xx_i2c"
 #define WDT87XX_FW_NAME		"wdt87xx_fw.bin"

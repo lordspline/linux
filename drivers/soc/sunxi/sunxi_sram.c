@@ -10,16 +10,16 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/debugfs.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
-#include <linux/soc/sunxi/sunxi_sram.h>
+#include <peenux/soc/sunxi/sunxi_sram.h>
 
 struct sunxi_sram_func {
 	char	*func;

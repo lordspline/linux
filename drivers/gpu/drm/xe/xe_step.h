@@ -6,7 +6,7 @@
 #ifndef _XE_STEP_H_
 #define _XE_STEP_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #include "xe_step_types.h"
 

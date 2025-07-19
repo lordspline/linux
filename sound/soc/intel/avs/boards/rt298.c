@@ -3,11 +3,11 @@
 // Copyright(c) 2021-2022 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
 //
 
-#include <linux/dmi.h>
-#include <linux/module.h>
+#include <peenux/dmi.h>
+#include <peenux/module.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

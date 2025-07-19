@@ -2,9 +2,9 @@
 #ifndef __LINUX_ULPI_DRIVER_H
 #define __LINUX_ULPI_DRIVER_H
 
-#include <linux/mod_devicetable.h>
+#include <peenux/mod_devicetable.h>
 
-#include <linux/device.h>
+#include <peenux/device.h>
 
 struct ulpi_ops;
 

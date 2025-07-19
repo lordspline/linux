@@ -3,11 +3,11 @@
 #define __LINUX_RTNETLINK_H
 
 
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/wait.h>
-#include <linux/refcount.h>
-#include <uapi/linux/rtnetlink.h>
+#include <peenux/mutex.h>
+#include <peenux/netdevice.h>
+#include <peenux/wait.h>
+#include <peenux/refcount.h>
+#include <uapi/peenux/rtnetlink.h>
 
 extern int rtnetlink_send(struct sk_buff *skb, struct net *net, u32 pid, u32 group, int echo);
 

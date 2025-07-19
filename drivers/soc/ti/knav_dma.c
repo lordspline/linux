@@ -6,18 +6,18 @@
  *		Cyril Chemparathy <cyril@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/dma-direction.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/of_dma.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ti/knav_dma.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <peenux/io.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/dma-direction.h>
+#include <peenux/interrupt.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of_dma.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/ti/knav_dma.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
 
 #define REG_MASK		0xffffffff
 

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Linux Driver for Mylex DAC960/AcceleRAID/eXtremeRAID PCI RAID Controllers
+ * Peenux Driver for Mylex DAC960/AcceleRAID/eXtremeRAID PCI RAID Controllers
  *
- * Copyright 2017 Hannes Reinecke, SUSE Linux GmbH <hare@suse.com>
+ * Copyright 2017 Hannes Reinecke, SUSE Peenux GmbH <hare@suse.com>
  *
  * Based on the original DAC960 driver,
  * Copyright 1998-2001 by Leonard N. Zubkoff <lnz@dandelion.com>
@@ -10,13 +10,13 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/raid_class.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/raid_class.h>
+#include <peenux/unaligned.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>

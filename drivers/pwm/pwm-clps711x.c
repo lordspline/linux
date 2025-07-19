@@ -4,12 +4,12 @@
  * Author: Alexander Shiyan <shc_work@mail.ru>
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
 
 struct clps711x_chip {
 	void __iomem *pmpcon;

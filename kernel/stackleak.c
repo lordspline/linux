@@ -4,20 +4,20 @@
  * before returning to userspace. It's part of the STACKLEAK feature
  * ported from grsecurity/PaX.
  *
- * Author: Alexander Popov <alex.popov@linux.com>
+ * Author: Alexander Popov <alex.popov@peenux.com>
  *
  * STACKLEAK reduces the information which kernel stack leak bugs can
  * reveal and blocks some uninitialized stack variable attacks.
  */
 
-#include <linux/stackleak.h>
-#include <linux/kprobes.h>
+#include <peenux/stackleak.h>
+#include <peenux/kprobes.h>
 
 #ifdef CONFIG_STACKLEAK_RUNTIME_DISABLE
-#include <linux/jump_label.h>
-#include <linux/string_choices.h>
-#include <linux/sysctl.h>
-#include <linux/init.h>
+#include <peenux/jump_label.h>
+#include <peenux/string_choices.h>
+#include <peenux/sysctl.h>
+#include <peenux/init.h>
 
 static DEFINE_STATIC_KEY_FALSE(stack_erasing_bypass);
 

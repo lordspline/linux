@@ -7,18 +7,18 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/dma-map-ops.h>
-#include <linux/vringh.h>
-#include <linux/vdpa.h>
-#include <linux/vhost_iotlb.h>
-#include <uapi/linux/vdpa.h>
-#include <uapi/linux/vhost_types.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/slab.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/vringh.h>
+#include <peenux/vdpa.h>
+#include <peenux/vhost_iotlb.h>
+#include <uapi/peenux/vdpa.h>
+#include <uapi/peenux/vhost_types.h>
 
 #include "vdpa_sim.h"
 

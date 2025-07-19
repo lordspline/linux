@@ -4,7 +4,7 @@
 #ifndef _ICE_TC_LIB_H_
 #define _ICE_TC_LIB_H_
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 #include <net/pfcp.h>
 
 #define ICE_TC_FLWR_FIELD_DST_MAC		BIT(0)

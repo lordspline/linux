@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
  * Sony Programmable I/O Control Device driver for VAIO
  *
@@ -37,7 +37,7 @@
 #ifndef _UAPI_SONYPI_H_
 #define _UAPI_SONYPI_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 /* events the user application reading /dev/sonypi can use */
 

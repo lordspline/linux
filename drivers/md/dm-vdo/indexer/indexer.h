@@ -6,11 +6,11 @@
 #ifndef INDEXER_H
 #define INDEXER_H
 
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <peenux/mutex.h>
+#include <peenux/sched.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
 
 #include "funnel-queue.h"
 

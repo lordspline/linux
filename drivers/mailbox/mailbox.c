@@ -6,16 +6,16 @@
  * Author: Jassi Brar <jassisinghbrar@gmail.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/mailbox_client.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/spinlock.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/spinlock.h>
 
 #include "mailbox.h"
 

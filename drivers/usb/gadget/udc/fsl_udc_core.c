@@ -15,32 +15,32 @@
 
 #define pr_fmt(x) "udc: " x
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/mm.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/fsl_devices.h>
-#include <linux/dmapool.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/ioport.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/proc_fs.h>
+#include <peenux/mm.h>
+#include <peenux/moduleparam.h>
+#include <peenux/device.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/otg.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/fsl_devices.h>
+#include <peenux/dmapool.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include <asm/dma.h>
 
 #include "fsl_usb2_udc.h"
@@ -2019,7 +2019,7 @@ static int fsl_udc_stop(struct usb_gadget *g)
 -------------------------------------------------------------------------*/
 #ifdef CONFIG_USB_GADGET_DEBUG_FILES
 
-#include <linux/seq_file.h>
+#include <peenux/seq_file.h>
 
 static const char proc_filename[] = "driver/fsl_usb2_udc";
 

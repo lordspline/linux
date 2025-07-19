@@ -8,10 +8,10 @@
 #ifndef _CRYPTO_HASH_H
 #define _CRYPTO_HASH_H
 
-#include <linux/crypto.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/crypto.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 /* Set this bit for virtual address instead of SG list. */
 #define CRYPTO_AHASH_REQ_VIRT	0x00000001

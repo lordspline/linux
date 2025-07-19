@@ -6,17 +6,17 @@
  *	    Alexandre Torgue <alexandre.torgue@st.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/export.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/ahci_platform.h>
-#include <linux/libata.h>
-#include <linux/reset.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/export.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/ahci_platform.h>
+#include <peenux/libata.h>
+#include <peenux/reset.h>
+#include <peenux/io.h>
+#include <peenux/dma-mapping.h>
 
 #include "ahci.h"
 

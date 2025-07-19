@@ -3,12 +3,12 @@
  *	Copyright IBM Corp. 1999, 2023
  */
 
-#include <linux/irqflags.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/cache.h>
+#include <peenux/irqflags.h>
+#include <peenux/spinlock.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/cache.h>
 #include <asm/abs_lowcore.h>
 #include <asm/ctlreg.h>
 

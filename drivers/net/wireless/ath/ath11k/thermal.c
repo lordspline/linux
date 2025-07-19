@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2020 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <peenux/device.h>
+#include <peenux/sysfs.h>
+#include <peenux/thermal.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
 #include "core.h"
 #include "debug.h"
 

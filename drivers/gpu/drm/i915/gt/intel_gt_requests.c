@@ -3,7 +3,7 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/workqueue.h>
+#include <peenux/workqueue.h>
 
 #include "i915_drv.h" /* for_each_engine() */
 #include "i915_request.h"

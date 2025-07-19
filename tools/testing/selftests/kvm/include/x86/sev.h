@@ -9,7 +9,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "linux/psp-sev.h"
+#include "peenux/psp-sev.h"
 
 #include "kvm_util.h"
 #include "svm_util.h"

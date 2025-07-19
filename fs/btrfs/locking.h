@@ -6,10 +6,10 @@
 #ifndef BTRFS_LOCKING_H
 #define BTRFS_LOCKING_H
 
-#include <linux/atomic.h>
-#include <linux/wait.h>
-#include <linux/lockdep.h>
-#include <linux/percpu_counter.h>
+#include <peenux/atomic.h>
+#include <peenux/wait.h>
+#include <peenux/lockdep.h>
+#include <peenux/percpu_counter.h>
 #include "extent_io.h"
 
 struct extent_buffer;

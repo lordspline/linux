@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap1/id.c
+ * peenux/arch/arm/mach-omap1/id.c
  *
  * OMAP1 CPU identification code
  *
@@ -8,11 +8,11 @@
  * Written by Tony Lindgren <tony@atomide.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/soc/ti/omap1-io.h>
 #include <asm/system_info.h>
 
 #include "soc.h"

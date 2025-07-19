@@ -7,16 +7,16 @@
  *                          Thomas Charbonnel
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/math64.h>
-#include <linux/vmalloc.h>
-#include <linux/io.h>
-#include <linux/nospec.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/math64.h>
+#include <peenux/vmalloc.h>
+#include <peenux/io.h>
+#include <peenux/nospec.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

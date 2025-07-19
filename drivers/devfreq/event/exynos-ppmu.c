@@ -8,16 +8,16 @@
  * This driver is based on drivers/devfreq/exynos/exynos_ppmu.c
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/suspend.h>
-#include <linux/devfreq-event.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/suspend.h>
+#include <peenux/devfreq-event.h>
 
 #include "exynos-ppmu.h"
 

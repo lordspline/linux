@@ -45,23 +45,23 @@
  * - <soc>_nand_: all SoC specific structures/functions
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/genalloc.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/atmel-matrix.h>
-#include <linux/mfd/syscon/atmel-smc.h>
-#include <linux/module.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/iopoll.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/genalloc.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/mfd/syscon/atmel-matrix.h>
+#include <peenux/mfd/syscon/atmel-smc.h>
+#include <peenux/module.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/iopoll.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 #include <soc/at91/atmel-sfr.h>
 
 #include "pmecc.h"

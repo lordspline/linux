@@ -5,15 +5,15 @@
  * Author: Jingbao Qiu <qiujingbao.dlmu@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
+#include <peenux/clk.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
 
 #define SEC_PULSE_GEN          0x1004
 #define ALARM_TIME             0x1008

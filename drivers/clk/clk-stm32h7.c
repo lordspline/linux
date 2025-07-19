@@ -4,16 +4,16 @@
  * Author: Gabriel Fernandez <gabriel.fernandez@st.com> for STMicroelectronics.
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/stm32h7-clks.h>
 

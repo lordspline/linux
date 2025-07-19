@@ -28,7 +28,7 @@
 
 		button-maskrom {
 			label = "Maskrom";
-			linux,code = <KEY_VENDOR>;
+			peenux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <1800>;
 		};
 	};
@@ -40,7 +40,7 @@
 
 		button-user {
 			label = "User";
-			linux,code = <BTN_1>;
+			peenux,code = <BTN_1>;
 			gpios = <&gpio1 RK_PC0 GPIO_ACTIVE_LOW>;
 			debounce-interval = <50>;
 		};
@@ -63,7 +63,7 @@
 		sys_led: led-0 {
 			label = "sys_led";
 			gpios = <&gpio1 RK_PC1 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 			pinctrl-names = "default";
 			pinctrl-0 = <&sys_led_pin>;
 		};

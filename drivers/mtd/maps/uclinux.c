@@ -10,16 +10,16 @@
 
 /****************************************************************************/
 
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/major.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/major.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/map.h>
+#include <peenux/mtd/partitions.h>
 #include <asm/io.h>
 #include <asm/sections.h>
 

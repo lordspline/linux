@@ -5,14 +5,14 @@
  *
  * Copyright (C) 2017 ARM Limited or its affiliates.
  * Copyright (C) 2017 Gilad Ben-Yossef <gilad@benyossef.com>
- * Copyright (C) 2021 Tianjia Zhang <tianjia.zhang@linux.alibaba.com>
+ * Copyright (C) 2021 Tianjia Zhang <tianjia.zhang@peenux.alibaba.com>
  */
 
 #include <crypto/sm3.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/unaligned.h>
 
 static const u32 ____cacheline_aligned K[64] = {
 	0x79cc4519, 0xf3988a32, 0xe7311465, 0xce6228cb,

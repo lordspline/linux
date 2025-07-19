@@ -36,30 +36,30 @@
 
 #include "udfdecl.h"
 
-#include <linux/blkdev.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/stat.h>
-#include <linux/cdrom.h>
-#include <linux/nls.h>
-#include <linux/vfs.h>
-#include <linux/vmalloc.h>
-#include <linux/errno.h>
-#include <linux/seq_file.h>
-#include <linux/bitmap.h>
-#include <linux/crc-itu-t.h>
-#include <linux/log2.h>
+#include <peenux/blkdev.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/stat.h>
+#include <peenux/cdrom.h>
+#include <peenux/nls.h>
+#include <peenux/vfs.h>
+#include <peenux/vmalloc.h>
+#include <peenux/errno.h>
+#include <peenux/seq_file.h>
+#include <peenux/bitmap.h>
+#include <peenux/crc-itu-t.h>
+#include <peenux/log2.h>
 #include <asm/byteorder.h>
-#include <linux/iversion.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
+#include <peenux/iversion.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
 
 #include "udf_sb.h"
 #include "udf_i.h"
 
-#include <linux/init.h>
-#include <linux/uaccess.h>
+#include <peenux/init.h>
+#include <peenux/uaccess.h>
 
 enum {
 	VDS_POS_PRIMARY_VOL_DESC,

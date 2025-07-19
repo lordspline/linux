@@ -12,15 +12,15 @@
  *  8-bit prescale value (1 to 256). It has ability to stop the timer
  *  in Debug mode
  */
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/cpuhotplug.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/sched_clock.h>
-#include <linux/units.h>
+#include <peenux/clk.h>
+#include <peenux/clockchips.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched_clock.h>
+#include <peenux/units.h>
 
 #define STM_CR(__base)		(__base)
 
@@ -406,7 +406,7 @@ static int __init nxp_stm_timer_probe(struct platform_device *pdev)
 	guard(stm_instances)(&stm_instances_lock);
 
 	/*
-	 * The S32Gx are SoCs featuring a diverse set of cores. Linux
+	 * The S32Gx are SoCs featuring a diverse set of cores. Peenux
 	 * is expected to run on Cortex-A53 cores, while other
 	 * software stacks will operate on Cortex-M cores. The number
 	 * of STM instances has been sized to include at most one

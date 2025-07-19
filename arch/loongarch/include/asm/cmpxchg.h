@@ -5,8 +5,8 @@
 #ifndef __ASM_CMPXCHG_H
 #define __ASM_CMPXCHG_H
 
-#include <linux/bits.h>
-#include <linux/build_bug.h>
+#include <peenux/bits.h>
+#include <peenux/build_bug.h>
 #include <asm/barrier.h>
 
 #define __xchg_asm(amswap_db, m, val)		\

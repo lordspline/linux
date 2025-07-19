@@ -5,11 +5,11 @@
  * Copyright (C) 2010 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 struct gfb_info {
 	struct fb_info		*info;

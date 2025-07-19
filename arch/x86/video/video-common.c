@@ -7,9 +7,9 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/vgaarb.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/vgaarb.h>
 
 #include <asm/video.h>
 

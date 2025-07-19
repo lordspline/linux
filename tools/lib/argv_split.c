@@ -4,9 +4,9 @@
  */
 
 #include <stdlib.h>
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/ctype.h>
+#include <peenux/string.h>
 
 static const char *skip_arg(const char *cp)
 {

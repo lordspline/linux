@@ -9,12 +9,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": %s: " fmt, __func__
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/rfkill.h>
-#include <linux/nfc.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/rfkill.h>
+#include <peenux/nfc.h>
 
 #include <net/genetlink.h>
 

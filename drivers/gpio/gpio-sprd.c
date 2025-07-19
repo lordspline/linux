@@ -4,13 +4,13 @@
  * Copyright (C) 2018 Linaro Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
 /* GPIO registers definition */
 #define SPRD_GPIO_DATA		0x0

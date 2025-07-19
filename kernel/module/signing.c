@@ -5,15 +5,15 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/module_signature.h>
-#include <linux/string.h>
-#include <linux/verification.h>
-#include <linux/security.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/module_signature.h>
+#include <peenux/string.h>
+#include <peenux/verification.h>
+#include <peenux/security.h>
 #include <crypto/public_key.h>
-#include <uapi/linux/module.h>
+#include <uapi/peenux/module.h>
 #include "internal.h"
 
 #undef MODULE_PARAM_PREFIX

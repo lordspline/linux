@@ -8,16 +8,16 @@
  *  Author: Vitaly Wool <vitalywool@gmail.com>
  */
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/bits.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/platnand.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/platnand.h>
 
 #define TS72XX_NAND_CONTROL_ADDR_LINE	BIT(22)	/* 0xN0400000 */
 #define TS72XX_NAND_BUSY_ADDR_LINE	BIT(23)	/* 0xN0800000 */

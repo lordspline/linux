@@ -1,43 +1,43 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mmc/host/mmci.c - ARM PrimeCell MMCI PL180/1 driver
+ *  peenux/drivers/mmc/host/mmci.c - ARM PrimeCell MMCI PL180/1 driver
  *
  *  Copyright (C) 2003 Deep Blue Solutions, Ltd, All Rights Reserved.
  *  Copyright (C) 2010 ST-Ericsson SA
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/highmem.h>
-#include <linux/log2.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/pm.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/amba/bus.h>
-#include <linux/clk.h>
-#include <linux/scatterlist.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/amba/mmci.h>
-#include <linux/pm_runtime.h>
-#include <linux/types.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/reset.h>
-#include <linux/gpio/consumer.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/highmem.h>
+#include <peenux/log2.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/pm.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/sd.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/amba/bus.h>
+#include <peenux/clk.h>
+#include <peenux/scatterlist.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/amba/mmci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/types.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/reset.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/workqueue.h>
 
 #include <asm/div64.h>
 #include <asm/io.h>

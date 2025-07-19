@@ -7,13 +7,13 @@
 
 
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/kfifo.h>
-#include <linux/delay.h>
-#include <linux/usb.h> /* For to_usb_interface for kvm extra intf check */
-#include <linux/unaligned.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/module.h>
+#include <peenux/kfifo.h>
+#include <peenux/delay.h>
+#include <peenux/usb.h> /* For to_usb_interface for kvm extra intf check */
+#include <peenux/unaligned.h>
 #include "hid-ids.h"
 
 #define DJ_MAX_PAIRED_DEVICES			7

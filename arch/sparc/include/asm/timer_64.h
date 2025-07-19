@@ -8,8 +8,8 @@
 #define _SPARC64_TIMER_H
 
 #include <uapi/asm/asi.h>
-#include <linux/types.h>
-#include <linux/init.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
 
 /* The most frequently accessed fields should be first,
  * to fit into the same cacheline.

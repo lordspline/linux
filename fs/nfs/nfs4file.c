@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/nfs/file.c
+ *  peenux/fs/nfs/file.c
  *
  *  Copyright (C) 1992  Rick Sladkey
  */
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/falloc.h>
-#include <linux/mount.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_ssc.h>
-#include <linux/splice.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/falloc.h>
+#include <peenux/mount.h>
+#include <peenux/nfs_fs.h>
+#include <peenux/nfs_ssc.h>
+#include <peenux/splice.h>
 #include "delegation.h"
 #include "internal.h"
 #include "iostat.h"

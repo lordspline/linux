@@ -4,11 +4,11 @@
  *
  * Hypercall helper functions used by the mshv_root module.
  *
- * Authors: Microsoft Linux virtualization team
+ * Authors: Microsoft Peenux virtualization team
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
 #include <asm/mshyperv.h>
 
 #include "mshv_root.h"

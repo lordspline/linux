@@ -5,21 +5,21 @@
  * Copyright (C) 2009 - 2010  Renesas Solutions Corp.
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/gpio.h>
-#include <linux/irq.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/flash.h>
-#include <linux/io.h>
-#include <linux/mmc/host.h>
-#include <linux/platform_data/sh_mmcif.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/sh_eth.h>
-#include <linux/sh_intc.h>
-#include <linux/usb/renesas_usbhs.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/gpio.h>
+#include <peenux/irq.h>
+#include <peenux/regulator/fixed.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/flash.h>
+#include <peenux/io.h>
+#include <peenux/mmc/host.h>
+#include <peenux/platform_data/sh_mmcif.h>
+#include <peenux/platform_data/tmio.h>
+#include <peenux/sh_eth.h>
+#include <peenux/sh_intc.h>
+#include <peenux/usb/renesas_usbhs.h>
 #include <cpu/sh7757.h>
 #include <asm/heartbeat.h>
 

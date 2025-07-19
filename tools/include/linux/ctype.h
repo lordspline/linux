@@ -2,7 +2,7 @@
 #ifndef _LINUX_CTYPE_H
 #define _LINUX_CTYPE_H
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 /*
  * NOTE! This ctype does not handle EOF like the standard C

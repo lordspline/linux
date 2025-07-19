@@ -5,25 +5,25 @@
  *	Srinivas Kandagatla <srinivas.kandagatla@st.com>
  */
 
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "core.h"
 

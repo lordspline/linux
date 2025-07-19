@@ -6,15 +6,15 @@
  *                         Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/array_size.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mfd/cs42l43.h>
-#include <linux/mfd/cs42l43-regs.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
+#include <peenux/array_size.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/mfd/cs42l43.h>
+#include <peenux/mfd/cs42l43-regs.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
 
 #include "cs42l43.h"
 

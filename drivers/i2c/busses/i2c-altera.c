@@ -4,16 +4,16 @@
  *
  * Based on the i2c-axxia.c driver.
  */
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/clkdev.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/iopoll.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
 
 #define ALTR_I2C_TFR_CMD	0x00	/* Transfer Command register */
 #define     ALTR_I2C_TFR_CMD_STA	BIT(9)	/* send START before byte */
@@ -492,5 +492,5 @@ static struct platform_driver altr_i2c_driver = {
 module_platform_driver(altr_i2c_driver);
 
 MODULE_DESCRIPTION("Altera Soft IP I2C bus driver");
-MODULE_AUTHOR("Thor Thayer <thor.thayer@linux.intel.com>");
+MODULE_AUTHOR("Thor Thayer <thor.thayer@peenux.intel.com>");
 MODULE_LICENSE("GPL v2");

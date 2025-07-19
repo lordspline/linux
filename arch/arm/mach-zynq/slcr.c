@@ -5,11 +5,11 @@
  * Copyright (c) 2011-2013 Xilinx Inc.
  */
 
-#include <linux/io.h>
-#include <linux/reboot.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
+#include <peenux/io.h>
+#include <peenux/reboot.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of_address.h>
+#include <peenux/regmap.h>
 #include "common.h"
 
 /* register offsets */

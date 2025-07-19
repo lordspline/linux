@@ -38,24 +38,24 @@
  *  out_of_space hacks, D. Gilbert (dpg) 990608
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/completion.h>
-#include <linux/unistd.h>
-#include <linux/spinlock.h>
-#include <linux/kmod.h>
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/mutex.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/timer.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/completion.h>
+#include <peenux/unistd.h>
+#include <peenux/spinlock.h>
+#include <peenux/kmod.h>
+#include <peenux/interrupt.h>
+#include <peenux/notifier.h>
+#include <peenux/cpu.h>
+#include <peenux/mutex.h>
+#include <peenux/unaligned.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

@@ -10,13 +10,13 @@
 #include "pvr_power.h"
 
 #include <drm/drm_managed.h>
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/compiler.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #define RESERVE_SLOT_TIMEOUT (1 * HZ) /* 1s */
 #define RESERVE_SLOT_MIN_RETRIES 10

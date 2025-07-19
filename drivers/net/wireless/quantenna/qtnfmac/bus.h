@@ -4,8 +4,8 @@
 #ifndef QTNFMAC_BUS_H
 #define QTNFMAC_BUS_H
 
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
+#include <peenux/netdevice.h>
+#include <peenux/workqueue.h>
 
 #include "trans.h"
 #include "core.h"

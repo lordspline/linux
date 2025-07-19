@@ -6,20 +6,20 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/slab.h>
 
-#include <linux/mfd/wm8994/core.h>
-#include <linux/mfd/wm8994/registers.h>
-#include <linux/mfd/wm8994/pdata.h>
+#include <peenux/mfd/wm8994/core.h>
+#include <peenux/mfd/wm8994/registers.h>
+#include <peenux/mfd/wm8994/pdata.h>
 
 struct wm8994_ldo {
 	struct regulator_dev *regulator;

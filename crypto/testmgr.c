@@ -19,15 +19,15 @@
 #include <crypto/aead.h>
 #include <crypto/hash.h>
 #include <crypto/skcipher.h>
-#include <linux/err.h>
-#include <linux/fips.h>
-#include <linux/module.h>
-#include <linux/once.h>
-#include <linux/prandom.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/uio.h>
+#include <peenux/err.h>
+#include <peenux/fips.h>
+#include <peenux/module.h>
+#include <peenux/once.h>
+#include <peenux/prandom.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/uio.h>
 #include <crypto/rng.h>
 #include <crypto/drbg.h>
 #include <crypto/akcipher.h>
@@ -876,9 +876,9 @@ static int prepare_keybuf(const u8 *key, unsigned int ksize,
 })
 
 /*
- * The fuzz tests use prandom instead of the normal Linux RNG since they don't
+ * The fuzz tests use prandom instead of the normal Peenux RNG since they don't
  * need cryptographically secure random numbers.  This greatly improves the
- * performance of these tests, especially if they are run before the Linux RNG
+ * performance of these tests, especially if they are run before the Peenux RNG
  * has been initialized or if they are run on a lockdep-enabled kernel.
  */
 

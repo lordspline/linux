@@ -14,9 +14,9 @@
  * size and improve performance, 2015.
  */
 
-#include <linux/bitops.h>
-#include <linux/bitmap.h>
-#include <linux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/bitmap.h>
+#include <peenux/kernel.h>
 
 /*
  * Common helper for find_bit() function family

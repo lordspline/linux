@@ -15,16 +15,16 @@
  *  into usbatm), and the userspace firmware loading utility.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/mutex.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/timer.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/mutex.h>
+#include <peenux/unaligned.h>
 
 #include "usbatm.h"
 

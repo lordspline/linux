@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/sound/rt5668.h -- Platform data for RT5668
+ * peenux/sound/rt5668.h -- Platform data for RT5668
  *
  * Copyright 2018 Realtek Microelectronics
  */

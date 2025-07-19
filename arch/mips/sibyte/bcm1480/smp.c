@@ -3,12 +3,12 @@
  * Copyright (C) 2001,2002,2004 Broadcom Corporation
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/smp.h>
-#include <linux/kernel_stat.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/smp.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
 
 #include <asm/mmu_context.h>
 #include <asm/io.h>

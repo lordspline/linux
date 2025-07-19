@@ -6,7 +6,7 @@
 #ifndef _XE_MEMIRQ_TYPES_H_
 #define _XE_MEMIRQ_TYPES_H_
 
-#include <linux/iosys-map.h>
+#include <peenux/iosys-map.h>
 
 struct xe_bo;
 

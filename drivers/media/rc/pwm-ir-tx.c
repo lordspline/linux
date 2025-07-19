@@ -3,15 +3,15 @@
  * Copyright (C) 2017 Sean Young <sean@mess.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pwm.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/hrtimer.h>
-#include <linux/completion.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pwm.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/hrtimer.h>
+#include <peenux/completion.h>
 #include <media/rc-core.h>
 
 #define DRIVER_NAME	"pwm-ir-tx"

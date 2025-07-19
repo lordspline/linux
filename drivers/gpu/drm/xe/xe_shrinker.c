@@ -3,7 +3,7 @@
  * Copyright © 2024 Intel Corporation
  */
 
-#include <linux/shrinker.h>
+#include <peenux/shrinker.h>
 
 #include <drm/ttm/ttm_backup.h>
 #include <drm/ttm/ttm_bo.h>

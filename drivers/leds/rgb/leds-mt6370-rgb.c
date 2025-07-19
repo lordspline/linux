@@ -7,21 +7,21 @@
  *   Alice Chen <alice_chen@richtek.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/linear_range.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/util_macros.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/kernel.h>
+#include <peenux/leds.h>
+#include <peenux/led-class-multicolor.h>
+#include <peenux/linear_range.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/util_macros.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 enum {
 	MT6370_LED_ISNK1 = 0,

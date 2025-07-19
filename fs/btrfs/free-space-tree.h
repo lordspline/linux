@@ -6,7 +6,7 @@
 #ifndef BTRFS_FREE_SPACE_TREE_H
 #define BTRFS_FREE_SPACE_TREE_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 struct btrfs_caching_control;
 struct btrfs_fs_info;

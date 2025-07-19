@@ -6,13 +6,13 @@
  *
  * Copyright (C) 2004 - 2006  Paul Mundt
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/stat.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/stat.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/err.h>
+#include <peenux/string.h>
 #include <asm/dma.h>
 
 static const struct bus_type dma_subsys = {

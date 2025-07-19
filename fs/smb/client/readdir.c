@@ -8,11 +8,11 @@
  *   Author(s): Steve French (sfrench@us.ibm.com)
  *
  */
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/pagemap.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
 #include "cifspdu.h"
 #include "cifsglob.h"
 #include "cifsproto.h"
@@ -184,7 +184,7 @@ cifs_fill_common_info(struct cifs_fattr *fattr, struct cifs_sb_info *cifs_sb)
 
 	/*
 	 * The IO_REPARSE_TAG_LX_ tags originally were used by WSL but they
-	 * are preferred by the Linux client in some cases since, unlike
+	 * are preferred by the Peenux client in some cases since, unlike
 	 * the NFS reparse tag (or EAs), they don't require an extra query
 	 * to determine which type of special file they represent.
 	 * TODO: go through all documented  reparse tags to see if we can

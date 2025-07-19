@@ -6,12 +6,12 @@
  * (C) 2003 Marc Zyngier <maz@wild-wind.fr.eu.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/eisa.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/eisa.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
 
 #if defined(CONFIG_EISA_VLB_PRIMING)
 #define EISA_FORCE_PROBE_DEFAULT 1

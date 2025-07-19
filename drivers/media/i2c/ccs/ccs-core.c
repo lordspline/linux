@@ -6,29 +6,29 @@
  *
  * Copyright (C) 2020 Intel Corporation
  * Copyright (C) 2010--2012 Nokia Corporation
- * Contact: Sakari Ailus <sakari.ailus@linux.intel.com>
+ * Contact: Sakari Ailus <sakari.ailus@peenux.intel.com>
  *
  * Based on smiapp driver by Vimarsh Zutshi
  * Based on jt8ev1.c by Vimarsh Zutshi
  * Based on smia-sensor.c by Tuukka Toivonen <tuukkat76@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/smiapp.h>
-#include <linux/v4l2-mediabus.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/smiapp.h>
+#include <peenux/v4l2-mediabus.h>
 #include <media/v4l2-cci.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-fwnode.h>
-#include <uapi/linux/ccs.h>
+#include <uapi/peenux/ccs.h>
 
 #include "ccs.h"
 
@@ -1395,7 +1395,7 @@ static int ccs_setup_flash_strobe(struct ccs_sensor *sensor)
 	 * do not change, or if you do at least know what you're
 	 * doing. :-)
 	 *
-	 * Sakari Ailus <sakari.ailus@linux.intel.com> 2010-10-25
+	 * Sakari Ailus <sakari.ailus@peenux.intel.com> 2010-10-25
 	 *
 	 * flash_strobe_length [us] / 10^6 = (tFlash_strobe_width_ctrl
 	 *	/ EXTCLK freq [Hz]) * flash_strobe_adjustment
@@ -3673,7 +3673,7 @@ static void ccs_module_cleanup(void)
 module_init(ccs_module_init);
 module_exit(ccs_module_cleanup);
 
-MODULE_AUTHOR("Sakari Ailus <sakari.ailus@linux.intel.com>");
+MODULE_AUTHOR("Sakari Ailus <sakari.ailus@peenux.intel.com>");
 MODULE_DESCRIPTION("Generic MIPI CCS/SMIA/SMIA++ camera sensor driver");
 MODULE_LICENSE("GPL v2");
 MODULE_ALIAS("smiapp");

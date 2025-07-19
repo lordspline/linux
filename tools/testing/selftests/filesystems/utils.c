@@ -6,7 +6,7 @@
 #include <sys/types.h>
 #include <dirent.h>
 #include <grp.h>
-#include <linux/limits.h>
+#include <peenux/limits.h>
 #include <sched.h>
 #include <stdio.h>
 #include <stdlib.h>

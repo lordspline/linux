@@ -3,13 +3,13 @@
  * Copyright (c) 2016-2017 Linaro Ltd.
  * Copyright (c) 2016-2017 HiSilicon Technologies Co., Ltd.
  */
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
 
 struct hi3660_reset_controller {
 	struct reset_controller_dev rst;

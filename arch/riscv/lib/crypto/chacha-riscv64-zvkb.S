@@ -41,7 +41,7 @@
 // - RISC-V Vector ('V') with VLEN >= 128
 // - RISC-V Vector Cryptography Bit-manipulation extension ('Zvkb')
 
-#include <linux/linkage.h>
+#include <peenux/linkage.h>
 
 .text
 .option arch, +zvkb

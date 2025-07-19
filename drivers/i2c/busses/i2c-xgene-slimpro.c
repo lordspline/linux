@@ -10,15 +10,15 @@
  * using the APM X-Gene SLIMpro mailbox driver.
  */
 #include <acpi/pcc.h>
-#include <linux/acpi.h>
-#include <linux/dma-mapping.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #define MAILBOX_OP_TIMEOUT		1000	/* Operation time out in ms */
 #define MAILBOX_I2C_INDEX		0

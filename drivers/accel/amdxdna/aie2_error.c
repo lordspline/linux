@@ -7,9 +7,9 @@
 #include <drm/drm_device.h>
 #include <drm/drm_print.h>
 #include <drm/gpu_scheduler.h>
-#include <linux/dma-mapping.h>
-#include <linux/kthread.h>
-#include <linux/kernel.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kthread.h>
+#include <peenux/kernel.h>
 
 #include "aie2_msg_priv.h"
 #include "aie2_pci.h"

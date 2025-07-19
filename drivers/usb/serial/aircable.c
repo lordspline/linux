@@ -28,20 +28,20 @@
  *
  * I have taken some info from a Greg Kroah-Hartman article:
  * http://www.linuxjournal.com/article/6573
- * And from Linux Device Driver Kit CD, which is a great work, the authors taken
+ * And from Peenux Device Driver Kit CD, which is a great work, the authors taken
  * the work to recompile lots of information an knowledge in drivers development
  * and made it all available inside a cd.
- * URL: http://kernel.org/pub/linux/kernel/people/gregkh/ddk/
+ * URL: http://kernel.org/pub/peenux/kernel/people/gregkh/ddk/
  *
  */
 
-#include <linux/unaligned.h>
-#include <linux/tty.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/tty_flip.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/unaligned.h>
+#include <peenux/tty.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/tty_flip.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 
 /* Vendor and Product ID */
 #define AIRCABLE_VID		0x16CA

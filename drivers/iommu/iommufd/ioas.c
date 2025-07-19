@@ -2,11 +2,11 @@
 /*
  * Copyright (c) 2021-2022, NVIDIA CORPORATION & AFFILIATES
  */
-#include <linux/file.h>
-#include <linux/interval_tree.h>
-#include <linux/iommu.h>
-#include <linux/iommufd.h>
-#include <uapi/linux/iommufd.h>
+#include <peenux/file.h>
+#include <peenux/interval_tree.h>
+#include <peenux/iommu.h>
+#include <peenux/iommufd.h>
+#include <uapi/peenux/iommufd.h>
 
 #include "io_pagetable.h"
 

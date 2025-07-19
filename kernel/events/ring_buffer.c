@@ -8,12 +8,12 @@
  *  Copyright  ©  2009 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
  */
 
-#include <linux/perf_event.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/circ_buf.h>
-#include <linux/poll.h>
-#include <linux/nospec.h>
+#include <peenux/perf_event.h>
+#include <peenux/vmalloc.h>
+#include <peenux/slab.h>
+#include <peenux/circ_buf.h>
+#include <peenux/poll.h>
+#include <peenux/nospec.h>
 
 #include "internal.h"
 

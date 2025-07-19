@@ -8,14 +8,14 @@
  * Copyright (c) 2017 Oracle and/or its affiliates. All rights reserved.
  */
 
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/random.h>
-#include <linux/elf.h>
+#include <peenux/mm.h>
+#include <peenux/err.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/random.h>
+#include <peenux/elf.h>
 #include <asm/cacheflush.h>
 #include <asm/spitfire.h>
 #include <asm/vdso.h>

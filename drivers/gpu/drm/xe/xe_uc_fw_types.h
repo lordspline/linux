@@ -6,7 +6,7 @@
 #ifndef _XE_UC_FW_TYPES_H_
 #define _XE_UC_FW_TYPES_H_
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct xe_bo;
 

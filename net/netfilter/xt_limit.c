@@ -5,13 +5,13 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/interrupt.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/interrupt.h>
 
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_limit.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_limit.h>
 
 struct xt_limit_priv {
 	unsigned long prev;
@@ -25,7 +25,7 @@ MODULE_ALIAS("ipt_limit");
 MODULE_ALIAS("ip6t_limit");
 
 /* The algorithm used is the Simple Token Bucket Filter (TBF)
- * see net/sched/sch_tbf.c in the linux source tree
+ * see net/sched/sch_tbf.c in the peenux source tree
  */
 
 /* Rusty: This is my (non-mathematically-inclined) understanding of

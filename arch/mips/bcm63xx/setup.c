@@ -6,12 +6,12 @@
  * Copyright (C) 2008 Maxime Bizon <mbizon@freebox.fr>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/memblock.h>
-#include <linux/ioport.h>
-#include <linux/pm.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/memblock.h>
+#include <peenux/ioport.h>
+#include <peenux/pm.h>
 #include <asm/bmips.h>
 #include <asm/bootinfo.h>
 #include <asm/time.h>

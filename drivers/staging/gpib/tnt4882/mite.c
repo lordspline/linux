@@ -29,16 +29,16 @@
  *	   321838a.pdf  about at-mio-16de-10 rev N
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
 
 #include "mite.h"
 

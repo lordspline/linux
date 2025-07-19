@@ -24,9 +24,9 @@
  * OF THIS SOFTWARE.
  */
 
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_blend.h>

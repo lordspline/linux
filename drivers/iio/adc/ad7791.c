@@ -6,27 +6,27 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/sysfs.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/err.h>
+#include <peenux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/adc/ad_sigma_delta.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/adc/ad_sigma_delta.h>
 
-#include <linux/platform_data/ad7791.h>
+#include <peenux/platform_data/ad7791.h>
 
 #define AD7791_REG_COMM			0x0 /* For writes */
 #define AD7791_REG_STATUS		0x0 /* For reads */

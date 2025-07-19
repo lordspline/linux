@@ -6,8 +6,8 @@
 #ifndef _I915_PXP_TEE_INTERFACE_H_
 #define _I915_PXP_TEE_INTERFACE_H_
 
-#include <linux/mutex.h>
-#include <linux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/device.h>
 struct scatterlist;
 
 /**

@@ -2,10 +2,10 @@
 /*
  * Copyright (c) 2024-2025, NVIDIA CORPORATION & AFFILIATES
  */
-#include <linux/fwctl.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/mlx5/device.h>
-#include <linux/mlx5/driver.h>
+#include <peenux/fwctl.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/mlx5/device.h>
+#include <peenux/mlx5/driver.h>
 #include <uapi/fwctl/mlx5.h>
 
 #define mlx5ctl_err(mcdev, format, ...) \

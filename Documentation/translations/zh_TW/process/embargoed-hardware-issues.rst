@@ -3,7 +3,7 @@
 .. include:: ../disclaimer-zh_TW.rst
 
 :Original: :ref:`Documentation/process/embargoed-hardware-issues.rst <embargoed_hardware_issues>`
-:Translator: Alex Shi <alex.shi@linux.alibaba.com>
+:Translator: Alex Shi <alex.shi@peenux.alibaba.com>
              Hu Haowen <2023002089@link.tyut.edu.cn>
 
 被限制的硬件問題

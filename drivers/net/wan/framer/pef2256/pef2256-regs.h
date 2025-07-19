@@ -9,7 +9,7 @@
 #ifndef __PEF2256_REGS_H__
 #define __PEF2256_REGS_H__
 
-#include "linux/bitfield.h"
+#include "peenux/bitfield.h"
 
 /* Command Register */
 #define PEF2256_CMDR		0x02

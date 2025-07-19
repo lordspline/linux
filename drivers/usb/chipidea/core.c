@@ -14,28 +14,28 @@
  * - Low power mode
  * - USB wakeup
  */
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/extcon.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/chipidea.h>
-#include <linux/usb/of.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/ehci_def.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/extcon.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/usb/ch9.h>
+#include <peenux/usb/gadget.h>
+#include <peenux/usb/otg.h>
+#include <peenux/usb/chipidea.h>
+#include <peenux/usb/of.h>
+#include <peenux/of.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/usb/ehci_def.h>
 
 #include "ci.h"
 #include "udc.h"

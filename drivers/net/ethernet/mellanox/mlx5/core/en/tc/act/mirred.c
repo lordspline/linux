@@ -1,8 +1,8 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 // Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 
-#include <linux/if_macvlan.h>
-#include <linux/if_vlan.h>
+#include <peenux/if_macvlan.h>
+#include <peenux/if_vlan.h>
 #include <net/bareudp.h>
 #include <net/bonding.h>
 #include "act.h"

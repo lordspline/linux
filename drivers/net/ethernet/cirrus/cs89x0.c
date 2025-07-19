@@ -1,5 +1,5 @@
 /* cs89x0.c: A Crystal Semiconductor (Now Cirrus Logic) CS89[02]0
- *           driver for linux.
+ *           driver for peenux.
  * Written 1996 by Russell Nelson, with reference to skeleton.c
  * written 1993-1994 by Donald Becker.
  *
@@ -48,33 +48,33 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/jiffies.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/errno.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/in.h>
+#include <peenux/jiffies.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
+#include <peenux/init.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/gfp.h>
+#include <peenux/io.h>
 
 #include <net/Space.h>
 
 #include <asm/irq.h>
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #if ALLOW_DMA
 #include <asm/dma.h>
 #endif
@@ -1302,7 +1302,7 @@ static void __init reset_chip(struct net_device *dev)
 }
 
 /* This is the real probe routine.
- * Linux has a history of friendly device probes on the ISA bus.
+ * Peenux has a history of friendly device probes on the ISA bus.
  * A good device probes avoids doing writes, and
  * verifies that the correct device exists and functions.
  * Return 0 on success.

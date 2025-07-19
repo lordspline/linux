@@ -40,7 +40,7 @@
 
 #include "nvrm/disp.h"
 
-#include <linux/acpi.h>
+#include <peenux/acpi.h>
 
 static u64
 r535_chan_user(struct nvkm_disp_chan *chan, u64 *psize)

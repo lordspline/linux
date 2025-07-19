@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Linux Socket Filter - Kernel level socket filtering
+ * Peenux Socket Filter - Kernel level socket filtering
  *
  * Based on the design of the Berkeley Packet Filter. The new
  * internal format has been designed by PLUMgrid:
@@ -17,30 +17,30 @@
  * Kris Katterjohn - Added many additional checks in bpf_check_classic()
  */
 
-#include <uapi/linux/btf.h>
-#include <linux/filter.h>
-#include <linux/skbuff.h>
-#include <linux/vmalloc.h>
-#include <linux/prandom.h>
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/objtool.h>
-#include <linux/overflow.h>
-#include <linux/rbtree_latch.h>
-#include <linux/kallsyms.h>
-#include <linux/rcupdate.h>
-#include <linux/perf_event.h>
-#include <linux/extable.h>
-#include <linux/log2.h>
-#include <linux/bpf_verifier.h>
-#include <linux/nodemask.h>
-#include <linux/nospec.h>
-#include <linux/bpf_mem_alloc.h>
-#include <linux/memcontrol.h>
-#include <linux/execmem.h>
+#include <uapi/peenux/btf.h>
+#include <peenux/filter.h>
+#include <peenux/skbuff.h>
+#include <peenux/vmalloc.h>
+#include <peenux/prandom.h>
+#include <peenux/bpf.h>
+#include <peenux/btf.h>
+#include <peenux/objtool.h>
+#include <peenux/overflow.h>
+#include <peenux/rbtree_latch.h>
+#include <peenux/kallsyms.h>
+#include <peenux/rcupdate.h>
+#include <peenux/perf_event.h>
+#include <peenux/extable.h>
+#include <peenux/log2.h>
+#include <peenux/bpf_verifier.h>
+#include <peenux/nodemask.h>
+#include <peenux/nospec.h>
+#include <peenux/bpf_mem_alloc.h>
+#include <peenux/memcontrol.h>
+#include <peenux/execmem.h>
 
 #include <asm/barrier.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* Registers */
 #define BPF_R0	regs[BPF_REG_0]
@@ -3188,7 +3188,7 @@ EXPORT_SYMBOL(bpf_stats_enabled_key);
 
 /* All definitions of tracepoints related to BPF. */
 #define CREATE_TRACE_POINTS
-#include <linux/bpf_trace.h>
+#include <peenux/bpf_trace.h>
 
 EXPORT_TRACEPOINT_SYMBOL_GPL(xdp_exception);
 EXPORT_TRACEPOINT_SYMBOL_GPL(xdp_bulk_tx);

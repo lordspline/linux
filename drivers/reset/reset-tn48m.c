@@ -7,13 +7,13 @@
  * Author: Robert Marko <robert.marko@sartura.hr>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
 
 #include <dt-bindings/reset/delta,tn48m-reset.h>
 

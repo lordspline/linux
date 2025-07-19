@@ -33,8 +33,8 @@
 #include <asm/pdc.h>
 #include <asm/psw.h>
 
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
 
 	/*
 	 * stack for os_hpmc, the HPMC handler.

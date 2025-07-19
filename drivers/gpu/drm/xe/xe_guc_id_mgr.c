@@ -3,8 +3,8 @@
  * Copyright © 2024 Intel Corporation
  */
 
-#include <linux/bitmap.h>
-#include <linux/mutex.h>
+#include <peenux/bitmap.h>
+#include <peenux/mutex.h>
 
 #include <drm/drm_managed.h>
 

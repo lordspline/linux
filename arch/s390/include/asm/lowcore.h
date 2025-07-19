@@ -9,7 +9,7 @@
 #ifndef _ASM_S390_LOWCORE_H
 #define _ASM_S390_LOWCORE_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/machine.h>
 #include <asm/ptrace.h>
 #include <asm/ctlreg.h>

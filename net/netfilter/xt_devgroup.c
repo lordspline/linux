@@ -3,12 +3,12 @@
  * Copyright (c) 2011 Patrick McHardy <kaber@trash.net>
  */
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
 
-#include <linux/netfilter/xt_devgroup.h>
-#include <linux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_devgroup.h>
+#include <peenux/netfilter/x_tables.h>
 
 MODULE_AUTHOR("Patrick McHardy <kaber@trash.net>");
 MODULE_LICENSE("GPL");

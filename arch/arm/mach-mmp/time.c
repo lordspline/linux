@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-mmp/time.c
+ * peenux/arch/arm/mach-mmp/time.c
  *
  *   Support for clocksource and clockevents
  *
@@ -15,22 +15,22 @@
  * the clock source, and match comparator #1 used as clock event device.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/clockchips.h>
-#include <linux/clk.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/clockchips.h>
+#include <peenux/clk.h>
 
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/sched_clock.h>
 #include <asm/mach/time.h>
 
 #include "regs-timers.h"
-#include <linux/soc/mmp/cputype.h>
+#include <peenux/soc/mmp/cputype.h>
 
 #define MAX_DELTA		(0xfffffffe)
 #define MIN_DELTA		(16)

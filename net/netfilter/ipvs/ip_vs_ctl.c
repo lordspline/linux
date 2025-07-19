@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * IPVS         An implementation of the IP virtual server support for the
- *              LINUX operating system.  IPVS is now implemented as a module
+ *              PEENUX operating system.  IPVS is now implemented as a module
  *              over the NetFilter framework. IPVS can be used to build a
  *              high-performance and highly available server based on a
  *              cluster of servers.
@@ -16,23 +16,23 @@
 #define KMSG_COMPONENT "IPVS"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/capability.h>
-#include <linux/fs.h>
-#include <linux/sysctl.h>
-#include <linux/proc_fs.h>
-#include <linux/workqueue.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/capability.h>
+#include <peenux/fs.h>
+#include <peenux/sysctl.h>
+#include <peenux/proc_fs.h>
+#include <peenux/workqueue.h>
+#include <peenux/seq_file.h>
+#include <peenux/slab.h>
 
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/mutex.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv4.h>
+#include <peenux/mutex.h>
 
 #include <net/net_namespace.h>
-#include <linux/nsproxy.h>
+#include <peenux/nsproxy.h>
 #include <net/ip.h>
 #ifdef CONFIG_IP_VS_IPV6
 #include <net/ipv6.h>
@@ -43,7 +43,7 @@
 #include <net/sock.h>
 #include <net/genetlink.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <net/ip_vs.h>
 
@@ -101,7 +101,7 @@ static void update_defense_level(struct netns_ipvs *ipvs)
 	/* we only count free and buffered memory (in pages) */
 	si_meminfo(&i);
 	availmem = i.freeram + i.bufferram;
-	/* however in linux 2.5 the i.bufferram is total page cache size,
+	/* however in peenux 2.5 the i.bufferram is total page cache size,
 	   we need adjust it */
 	/* si_swapinfo(&i); */
 	/* availmem = availmem - (i.totalswap - i.freeswap); */

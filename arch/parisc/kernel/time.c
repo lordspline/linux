@@ -5,16 +5,16 @@
  *
  * Copyright (C) 2024 Helge Deller <deller@gmx.de>
  */
-#include <linux/clockchips.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/sched_clock.h>
-#include <linux/spinlock.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
+#include <peenux/clockchips.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/sched_clock.h>
+#include <peenux/spinlock.h>
+#include <peenux/rtc.h>
+#include <peenux/platform_device.h>
 #include <asm/processor.h>
 
 static u64 cr16_clock_freq;

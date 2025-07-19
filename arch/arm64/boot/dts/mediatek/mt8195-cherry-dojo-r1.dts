@@ -49,7 +49,7 @@
 };
 
 &keyboard_controller {
-	linux,keymap = <
+	peenux,keymap = <
 		CROS_STD_MAIN_KEYMAP
 
 		MATRIX_KEY(0x00, 0x02, KEY_BACK)

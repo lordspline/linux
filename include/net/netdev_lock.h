@@ -3,9 +3,9 @@
 #ifndef _NET_NETDEV_LOCK_H
 #define _NET_NETDEV_LOCK_H
 
-#include <linux/lockdep.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
+#include <peenux/lockdep.h>
+#include <peenux/netdevice.h>
+#include <peenux/rtnetlink.h>
 
 static inline bool netdev_trylock(struct net_device *dev)
 {

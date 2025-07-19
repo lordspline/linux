@@ -5,17 +5,17 @@
  * Copyright 2006-2012 Solarflare Communications Inc.
  */
 
-#include <linux/netdevice.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/kernel_stat.h>
-#include <linux/pci.h>
-#include <linux/ethtool.h>
-#include <linux/ip.h>
-#include <linux/in.h>
-#include <linux/udp.h>
-#include <linux/rtnetlink.h>
-#include <linux/slab.h>
+#include <peenux/netdevice.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/pci.h>
+#include <peenux/ethtool.h>
+#include <peenux/ip.h>
+#include <peenux/in.h>
+#include <peenux/udp.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/slab.h>
 #include "net_driver.h"
 #include "efx.h"
 #include "nic.h"

@@ -10,9 +10,9 @@
  * Author: Tom Lyon, pugs@cisco.com
  */
 
-#include <linux/vfio.h>
-#include <linux/iommufd.h>
-#include <linux/anon_inodes.h>
+#include <peenux/vfio.h>
+#include <peenux/iommufd.h>
+#include <peenux/anon_inodes.h>
 #include "vfio.h"
 
 static struct vfio {

@@ -8,15 +8,15 @@
  * Copyright Sarah Sharp for Intel Corp, 2010
  */
 
-#include <linux/blkdev.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb_usual.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/storage.h>
-#include <linux/usb/uas.h>
+#include <peenux/blkdev.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb_usual.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/storage.h>
+#include <peenux/usb/uas.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_eh.h>

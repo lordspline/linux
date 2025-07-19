@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/ext4/ialloc.c
+ *  peenux/fs/ext4/ialloc.c
  *
  * Copyright (C) 1992, 1993, 1994, 1995
  * Remy Card (card@masi.ibp.fr)
@@ -13,16 +13,16 @@
  *        David S. Miller (davem@caip.rutgers.edu), 1995
  */
 
-#include <linux/time.h>
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/quotaops.h>
-#include <linux/buffer_head.h>
-#include <linux/random.h>
-#include <linux/bitops.h>
-#include <linux/blkdev.h>
-#include <linux/cred.h>
+#include <peenux/time.h>
+#include <peenux/fs.h>
+#include <peenux/stat.h>
+#include <peenux/string.h>
+#include <peenux/quotaops.h>
+#include <peenux/buffer_head.h>
+#include <peenux/random.h>
+#include <peenux/bitops.h>
+#include <peenux/blkdev.h>
+#include <peenux/cred.h>
 
 #include <asm/byteorder.h>
 

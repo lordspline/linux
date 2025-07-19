@@ -17,10 +17,10 @@
 #ifndef ATH_H
 #define ATH_H
 
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_ether.h>
-#include <linux/spinlock.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_ether.h>
+#include <peenux/spinlock.h>
 #include <net/mac80211.h>
 
 /*

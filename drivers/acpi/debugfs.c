@@ -3,10 +3,10 @@
  * debugfs.c - ACPI debugfs interface to userspace.
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/acpi.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/debugfs.h>
+#include <peenux/acpi.h>
 
 #include "internal.h"
 

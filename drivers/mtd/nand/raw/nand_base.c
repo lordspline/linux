@@ -5,7 +5,7 @@
  *   capable of working with almost all NAND chips currently available.
  *
  *	Additional technical information is available on
- *	http://www.linux-mtd.infradead.org/doc/nand.html
+ *	http://www.peenux-mtd.infradead.org/doc/nand.html
  *
  *  Copyright (C) 2000 Steven J. Hill (sjhill@realitydiluted.com)
  *		  2002-2006 Thomas Gleixner (tglx@linutronix.de)
@@ -25,24 +25,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/types.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nand.h>
-#include <linux/mtd/nand-ecc-sw-hamming.h>
-#include <linux/mtd/nand-ecc-sw-bch.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/mtd/partitions.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/err.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/nand.h>
+#include <peenux/mtd/nand-ecc-sw-hamming.h>
+#include <peenux/mtd/nand-ecc-sw-bch.h>
+#include <peenux/interrupt.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/of.h>
+#include <peenux/gpio/consumer.h>
 
 #include "internals.h"
 

@@ -11,10 +11,10 @@
 #ifndef __MESON_AOCLK_H__
 #define __MESON_AOCLK_H__
 
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <peenux/clk-provider.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
 
 #include "clk-regmap.h"
 #include "meson-clkc-utils.h"

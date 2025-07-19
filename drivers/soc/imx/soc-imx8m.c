@@ -3,15 +3,15 @@
  * Copyright 2019 NXP.
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/platform_device.h>
-#include <linux/arm-smccc.h>
-#include <linux/of.h>
-#include <linux/clk.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/of_address.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
+#include <peenux/platform_device.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
 
 #define REV_B1				0x21
 

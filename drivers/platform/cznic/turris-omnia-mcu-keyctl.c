@@ -6,19 +6,19 @@
  */
 
 #include <crypto/sha2.h>
-#include <linux/cleanup.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/key.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/cleanup.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/key.h>
+#include <peenux/mutex.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
-#include <linux/turris-omnia-mcu-interface.h>
-#include <linux/turris-signing-key.h>
+#include <peenux/turris-omnia-mcu-interface.h>
+#include <peenux/turris-signing-key.h>
 #include "turris-omnia-mcu.h"
 
 static irqreturn_t omnia_msg_signed_irq_handler(int irq, void *dev_id)

@@ -4,8 +4,8 @@
  */
 
 #include <drm/drm_managed.h>
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
+#include <peenux/kobject.h>
+#include <peenux/sysfs.h>
 
 #include "xe_device.h"
 #include "xe_gt.h"

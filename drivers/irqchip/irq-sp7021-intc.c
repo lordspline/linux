@@ -3,13 +3,13 @@
  * Copyright (C) Sunplus Technology Co., Ltd.
  *       All rights reserved.
  */
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/io.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
 #define SP_INTC_HWIRQ_MIN	0
 #define SP_INTC_HWIRQ_MAX	223

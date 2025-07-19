@@ -16,15 +16,15 @@
  * http://www.fintek.com.tw/files/productfiles/F75387_V027P.pdf
  */
 
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/f75375s.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/jiffies.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/i2c.h>
+#include <peenux/err.h>
+#include <peenux/mutex.h>
+#include <peenux/f75375s.h>
+#include <peenux/slab.h>
 
 /* Addresses to scan */
 static const unsigned short normal_i2c[] = { 0x2d, 0x2e, I2C_CLIENT_END };

@@ -8,13 +8,13 @@
 #include <crypto/engine.h>
 #include <crypto/internal/des.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/string.h>
 
 #ifdef CONFIG_CRYPTO_DEV_ASPEED_HACE_CRYPTO_DEBUG
 #define CIPHER_DBG(h, fmt, ...)	\

@@ -8,11 +8,11 @@
 #ifndef _ASM_ELF_H
 #define _ASM_ELF_H
 
-#include <linux/auxvec.h>
-#include <linux/fs.h>
-#include <linux/mm_types.h>
+#include <peenux/auxvec.h>
+#include <peenux/fs.h>
+#include <peenux/mm_types.h>
 
-#include <uapi/linux/elf.h>
+#include <uapi/peenux/elf.h>
 
 #include <asm/current.h>
 

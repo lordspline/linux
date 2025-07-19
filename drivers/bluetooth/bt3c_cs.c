@@ -21,28 +21,28 @@
  *
  */
 
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/spinlock.h>
-#include <linux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/ptrace.h>
+#include <peenux/ioport.h>
+#include <peenux/spinlock.h>
+#include <peenux/moduleparam.h>
 
-#include <linux/skbuff.h>
-#include <linux/string.h>
-#include <linux/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/bitops.h>
+#include <peenux/skbuff.h>
+#include <peenux/string.h>
+#include <peenux/serial.h>
+#include <peenux/serial_reg.h>
+#include <peenux/bitops.h>
 #include <asm/io.h>
 
-#include <linux/device.h>
-#include <linux/firmware.h>
+#include <peenux/device.h>
+#include <peenux/firmware.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ciscode.h>

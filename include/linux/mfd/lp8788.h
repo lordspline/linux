@@ -10,8 +10,8 @@
 #ifndef __MFD_LP8788_H__
 #define __MFD_LP8788_H__
 
-#include <linux/irqdomain.h>
-#include <linux/regmap.h>
+#include <peenux/irqdomain.h>
+#include <peenux/regmap.h>
 
 #define LP8788_DEV_BUCK		"lp8788-buck"
 #define LP8788_DEV_DLDO		"lp8788-dldo"

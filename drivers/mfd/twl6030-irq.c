@@ -18,16 +18,16 @@
  * Balaji T K <balajitk@ti.com>
  */
 
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kthread.h>
-#include <linux/mfd/twl.h>
-#include <linux/platform_device.h>
-#include <linux/suspend.h>
-#include <linux/of.h>
-#include <linux/irqdomain.h>
-#include <linux/of_device.h>
+#include <peenux/export.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kthread.h>
+#include <peenux/mfd/twl.h>
+#include <peenux/platform_device.h>
+#include <peenux/suspend.h>
+#include <peenux/of.h>
+#include <peenux/irqdomain.h>
+#include <peenux/of_device.h>
 
 #include "twl-core.h"
 

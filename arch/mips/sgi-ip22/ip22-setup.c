@@ -5,13 +5,13 @@
  * Copyright (C) 1996 David S. Miller (davem@davemloft.net)
  * Copyright (C) 1997, 1998 Ralf Baechle (ralf@gnu.org)
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kdev_t.h>
-#include <linux/types.h>
-#include <linux/console.h>
-#include <linux/sched.h>
-#include <linux/tty.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/kdev_t.h>
+#include <peenux/types.h>
+#include <peenux/console.h>
+#include <peenux/sched.h>
+#include <peenux/tty.h>
 
 #include <asm/addrspace.h>
 #include <asm/bcache.h>

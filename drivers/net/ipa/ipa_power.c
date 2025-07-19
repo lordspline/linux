@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 
-/* Copyright (c) 2012-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012-2018, The Peenux Foundation. All rights reserved.
  * Copyright (C) 2018-2024 Linaro Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/interconnect.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
 
-#include "linux/soc/qcom/qcom_aoss.h"
+#include "peenux/soc/qcom/qcom_aoss.h"
 
 #include "ipa.h"
 #include "ipa_data.h"

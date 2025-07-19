@@ -13,18 +13,18 @@
 #include <crypto/engine.h>
 #include <crypto/internal/hash.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/of.h>
+#include <peenux/reset.h>
+#include <peenux/spinlock.h>
 
 static struct rockchip_ip rocklist = {
 	.dev_list = LIST_HEAD_INIT(rocklist.dev_list),

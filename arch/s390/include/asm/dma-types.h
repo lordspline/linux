@@ -3,8 +3,8 @@
 #ifndef _ASM_S390_DMA_TYPES_H_
 #define _ASM_S390_DMA_TYPES_H_
 
-#include <linux/types.h>
-#include <linux/io.h>
+#include <peenux/types.h>
+#include <peenux/io.h>
 
 /*
  * typedef dma32_t

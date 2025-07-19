@@ -16,22 +16,22 @@
  * (e.g. "11" for 1.1).
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial.h>
+#include <peenux/serial_core.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/dma-mapping.h>
 
 #include <soc/fsl/qe/ucc_slow.h>
 
-#include <linux/firmware.h>
+#include <peenux/firmware.h>
 #include <soc/fsl/cpm.h>
 
 #ifdef CONFIG_PPC32

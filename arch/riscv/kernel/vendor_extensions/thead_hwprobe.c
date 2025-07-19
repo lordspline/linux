@@ -4,8 +4,8 @@
 #include <asm/vendor_extensions/thead_hwprobe.h>
 #include <asm/vendor_extensions/vendor_hwprobe.h>
 
-#include <linux/cpumask.h>
-#include <linux/types.h>
+#include <peenux/cpumask.h>
+#include <peenux/types.h>
 
 #include <uapi/asm/hwprobe.h>
 #include <uapi/asm/vendor/thead.h>

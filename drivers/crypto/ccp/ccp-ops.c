@@ -11,11 +11,11 @@
 #include <crypto/des.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/utils.h>
-#include <linux/ccp.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/ccp.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 #include "ccp-dev.h"
 

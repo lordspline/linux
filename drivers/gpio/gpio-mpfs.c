@@ -5,16 +5,16 @@
  * Copyright (c) 2018-2024 Microchip Technology Inc. and its subsidiaries
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
 
 #define MPFS_GPIO_CTRL(i)		(0x4 * (i))
 #define MPFS_MAX_NUM_GPIO		32

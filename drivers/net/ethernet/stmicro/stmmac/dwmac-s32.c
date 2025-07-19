@@ -6,18 +6,18 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/of_address.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/platform_device.h>
-#include <linux/stmmac.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/ethtool.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_address.h>
+#include <peenux/phy.h>
+#include <peenux/phylink.h>
+#include <peenux/platform_device.h>
+#include <peenux/stmmac.h>
 
 #include "stmmac_platform.h"
 

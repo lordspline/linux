@@ -15,42 +15,42 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/fs.h> 
-#include <linux/mm.h> 
-#include <linux/file.h> 
-#include <linux/signal.h>
-#include <linux/resource.h>
-#include <linux/times.h>
-#include <linux/smp.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/uio.h>
-#include <linux/quota.h>
-#include <linux/poll.h>
-#include <linux/personality.h>
-#include <linux/stat.h>
-#include <linux/filter.h>
-#include <linux/highmem.h>
-#include <linux/mman.h>
-#include <linux/ipv6.h>
-#include <linux/in.h>
-#include <linux/icmpv6.h>
-#include <linux/syscalls.h>
-#include <linux/sysctl.h>
-#include <linux/binfmts.h>
-#include <linux/capability.h>
-#include <linux/compat.h>
-#include <linux/vfs.h>
-#include <linux/ptrace.h>
-#include <linux/fadvise.h>
-#include <linux/ipc.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/fs.h> 
+#include <peenux/mm.h> 
+#include <peenux/file.h> 
+#include <peenux/signal.h>
+#include <peenux/resource.h>
+#include <peenux/times.h>
+#include <peenux/smp.h>
+#include <peenux/sem.h>
+#include <peenux/msg.h>
+#include <peenux/shm.h>
+#include <peenux/uio.h>
+#include <peenux/quota.h>
+#include <peenux/poll.h>
+#include <peenux/personality.h>
+#include <peenux/stat.h>
+#include <peenux/filter.h>
+#include <peenux/highmem.h>
+#include <peenux/mman.h>
+#include <peenux/ipv6.h>
+#include <peenux/in.h>
+#include <peenux/icmpv6.h>
+#include <peenux/syscalls.h>
+#include <peenux/sysctl.h>
+#include <peenux/binfmts.h>
+#include <peenux/capability.h>
+#include <peenux/compat.h>
+#include <peenux/vfs.h>
+#include <peenux/ptrace.h>
+#include <peenux/fadvise.h>
+#include <peenux/ipc.h>
+#include <peenux/slab.h>
 
 #include <asm/types.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include <net/scm.h>
 #include <net/sock.h>
@@ -187,7 +187,7 @@ COMPAT_SYSCALL_DEFINE4(s390_fstatat64, unsigned int, dfd, const char __user *, f
 }
 
 /*
- * Linux/i386 didn't use to be able to handle more than
+ * Peenux/i386 didn't use to be able to handle more than
  * 4 system call parameters, so these system calls used a memory
  * block for parameter passing..
  */

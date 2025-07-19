@@ -2,8 +2,8 @@
 #ifndef _NET_GARP_H
 #define _NET_GARP_H
 
-#include <linux/if_ether.h>
-#include <linux/types.h>
+#include <peenux/if_ether.h>
+#include <peenux/types.h>
 #include <net/stp.h>
 
 #define GARP_PROTOCOL_ID	0x1

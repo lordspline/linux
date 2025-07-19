@@ -5,14 +5,14 @@
  * Copyright 2005,2006 Hebert Valerio Riedel <hvr@gnu.org>
  */
 
-#include <linux/bcd.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/rtc.h>
 
 /* Register map */
 /* rtc section */

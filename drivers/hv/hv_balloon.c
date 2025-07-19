@@ -8,26 +8,26 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/mman.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/completion.h>
-#include <linux/count_zeros.h>
-#include <linux/memory_hotplug.h>
-#include <linux/memory.h>
-#include <linux/notifier.h>
-#include <linux/percpu_counter.h>
-#include <linux/page_reporting.h>
-#include <linux/sizes.h>
+#include <peenux/cleanup.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/mman.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/kthread.h>
+#include <peenux/completion.h>
+#include <peenux/count_zeros.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/memory.h>
+#include <peenux/notifier.h>
+#include <peenux/percpu_counter.h>
+#include <peenux/page_reporting.h>
+#include <peenux/sizes.h>
 
-#include <linux/hyperv.h>
+#include <peenux/hyperv.h>
 #include <hyperv/hvhdk.h>
 
 #include <asm/mshyperv.h>
@@ -991,7 +991,7 @@ static void hot_add_req(struct work_struct *dummy)
 		 * Based on the hot-add page range being specified,
 		 * compute a hot-add region that can cover the pages
 		 * that need to be hot-added while ensuring the alignment
-		 * and size requirements of Linux as it relates to hot-add.
+		 * and size requirements of Peenux as it relates to hot-add.
 		 */
 		rg_start = ALIGN_DOWN(pg_start, ha_pages_in_chunk);
 		rg_sz = ALIGN(pfn_cnt, ha_pages_in_chunk);

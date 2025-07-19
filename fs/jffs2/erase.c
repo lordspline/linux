@@ -12,13 +12,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/compiler.h>
-#include <linux/crc32.h>
-#include <linux/sched.h>
-#include <linux/pagemap.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/compiler.h>
+#include <peenux/crc32.h>
+#include <peenux/sched.h>
+#include <peenux/pagemap.h>
 #include "nodelist.h"
 
 static void jffs2_erase_failed(struct jffs2_sb_info *c, struct jffs2_eraseblock *jeb, uint32_t bad_offset);
@@ -37,7 +37,7 @@ static void jffs2_erase_block(struct jffs2_sb_info *c,
 	       return;
        }
        bad_offset = jeb->offset;
-#else /* Linux */
+#else /* Peenux */
 	struct erase_info *instr;
 
 	jffs2_dbg(1, "%s(): erase block %#08x (range %#08x-%#08x)\n",

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * wanXL serial card driver for Linux
+ * wanXL serial card driver for Peenux
  * host part
  *
  * Copyright (C) 2003 Krzysztof Halasa <khc@pm.waw.pl>
@@ -12,22 +12,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/netdevice.h>
-#include <linux/hdlc.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/fcntl.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/netdevice.h>
+#include <peenux/hdlc.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
 #include <asm/io.h>
 
 #include "wanxl.h"

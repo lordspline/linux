@@ -6,11 +6,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/uaccess.h>
-#include <linux/syscalls.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/unistd.h>
+#include <peenux/uaccess.h>
+#include <peenux/syscalls.h>
 
 #include <asm/ucontext.h>
 #include <asm/fpu/signal.h>

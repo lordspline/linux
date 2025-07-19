@@ -8,18 +8,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/kallsyms.h>
-#include <linux/livepatch.h>
-#include <linux/elf.h>
-#include <linux/moduleloader.h>
-#include <linux/completion.h>
-#include <linux/memory.h>
-#include <linux/rcupdate.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/list.h>
+#include <peenux/kallsyms.h>
+#include <peenux/livepatch.h>
+#include <peenux/elf.h>
+#include <peenux/moduleloader.h>
+#include <peenux/completion.h>
+#include <peenux/memory.h>
+#include <peenux/rcupdate.h>
 #include <asm/cacheflush.h>
 #include "core.h"
 #include "patch.h"

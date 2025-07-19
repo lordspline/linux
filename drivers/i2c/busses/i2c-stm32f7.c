@@ -14,26 +14,26 @@
  * This driver is based on i2c-stm32f4.c
  *
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-smbus.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
 
 #include "i2c-stm32.h"
 

@@ -120,7 +120,7 @@
 };
 
 &ir {
-	linux,rc-map-name = "rc-x96max";
+	peenux,rc-map-name = "rc-x96max";
 };
 
 &tdmif_b {

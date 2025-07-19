@@ -12,9 +12,9 @@
 #ifndef PMC_CORE_H
 #define PMC_CORE_H
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/bits.h>
+#include <peenux/platform_device.h>
 
 struct telem_endpoint;
 

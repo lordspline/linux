@@ -6,15 +6,15 @@
  *	Lokesh Vutla <lokeshvutla@ti.com>
  */
 
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ti/ti_sci_inta_msi.h>
-#include <linux/soc/ti/ti_sci_protocol.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/msi.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/ti/ti_sci_inta_msi.h>
+#include <peenux/soc/ti/ti_sci_protocol.h>
 
 static void ti_sci_inta_msi_write_msg(struct irq_data *data,
 				      struct msi_msg *msg)

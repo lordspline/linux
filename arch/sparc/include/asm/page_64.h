@@ -2,7 +2,7 @@
 #ifndef _SPARC64_PAGE_H
 #define _SPARC64_PAGE_H
 
-#include <linux/const.h>
+#include <peenux/const.h>
 
 #include <vdso/page.h>
 

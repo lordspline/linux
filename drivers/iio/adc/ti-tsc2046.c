@@ -5,20 +5,20 @@
  * Copyright (c) 2021 Oleksij Rempel <kernel@pengutronix.de>, Pengutronix
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
+#include <peenux/units.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger.h>
 
 /*
  * The PENIRQ of TSC2046 controller is implemented as level shifter attached to

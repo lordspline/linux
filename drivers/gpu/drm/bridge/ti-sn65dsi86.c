@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Peenux Foundation. All rights reserved.
  * datasheet: https://www.ti.com/lit/ds/symlink/sn65dsi86.pdf
  */
 
-#include <linux/atomic.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/atomic.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/clk.h>
+#include <peenux/debugfs.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of_graph.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pwm.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <drm/display/drm_dp_aux_bus.h>
 #include <drm/display/drm_dp_helper.h>

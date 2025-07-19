@@ -33,13 +33,13 @@
  * SOFTWARE.
  */
 
-#include <linux/delay.h>
-#include <linux/moduleparam.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/moduleparam.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
 
-#include <linux/ip.h>
-#include <linux/tcp.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
 #include <net/netdev_lock.h>
 #include <rdma/ib_cache.h>
 

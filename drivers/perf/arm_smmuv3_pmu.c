@@ -34,25 +34,25 @@
  * are not supported.
  */
 
-#include <linux/acpi.h>
-#include <linux/acpi_iort.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/smp.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/acpi_iort.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/cpuhotplug.h>
+#include <peenux/cpumask.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/msi.h>
+#include <peenux/of.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
+#include <peenux/smp.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #define SMMU_PMCG_EVCNTR0               0x0
 #define SMMU_PMCG_EVCNTR(n, stride)     (SMMU_PMCG_EVCNTR0 + (n) * (stride))

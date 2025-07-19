@@ -9,9 +9,9 @@
 #define _VDI_H_
 
 #include "wave5-vpuconfig.h"
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/device.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
 
 /************************************************************************/
 /* COMMON REGISTERS */

@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/parport.h>
-#include <linux/sysfs.h>
-#include <linux/workqueue.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/parport.h>
+#include <peenux/sysfs.h>
+#include <peenux/workqueue.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi_bitbang.h>
 
 /*
  * The LM70 communicates with a host processor using a 3-wire variant of

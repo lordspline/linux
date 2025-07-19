@@ -5,16 +5,16 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/ctype.h>
-#include <linux/sched.h>
-#include <linux/iversion.h>
-#include <linux/iov_iter.h>
-#include <linux/task_io_accounting_ops.h>
+#include <peenux/kernel.h>
+#include <peenux/fs.h>
+#include <peenux/namei.h>
+#include <peenux/pagemap.h>
+#include <peenux/swap.h>
+#include <peenux/ctype.h>
+#include <peenux/sched.h>
+#include <peenux/iversion.h>
+#include <peenux/iov_iter.h>
+#include <peenux/task_io_accounting_ops.h>
 #include "internal.h"
 #include "afs_fs.h"
 #include "xdr_fs.h"

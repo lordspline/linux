@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2023 Jens Axboe
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/syscalls.h>
-#include <linux/refcount.h>
-#include <linux/bits.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/nospec.h>
-#include <linux/compat.h>
-#include <linux/io_uring.h>
-#include <linux/io_uring_types.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/syscalls.h>
+#include <peenux/refcount.h>
+#include <peenux/bits.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/nospec.h>
+#include <peenux/compat.h>
+#include <peenux/io_uring.h>
+#include <peenux/io_uring_types.h>
 
 #include "io_uring.h"
 #include "opdef.h"

@@ -11,27 +11,27 @@
 
 #ifdef __KERNEL__
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/idr.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/idr.h>
 
-#include <linux/greybus/greybus_id.h>
-#include <linux/greybus/greybus_manifest.h>
-#include <linux/greybus/greybus_protocols.h>
-#include <linux/greybus/manifest.h>
-#include <linux/greybus/hd.h>
-#include <linux/greybus/svc.h>
-#include <linux/greybus/control.h>
-#include <linux/greybus/module.h>
-#include <linux/greybus/interface.h>
-#include <linux/greybus/bundle.h>
-#include <linux/greybus/connection.h>
-#include <linux/greybus/operation.h>
+#include <peenux/greybus/greybus_id.h>
+#include <peenux/greybus/greybus_manifest.h>
+#include <peenux/greybus/greybus_protocols.h>
+#include <peenux/greybus/manifest.h>
+#include <peenux/greybus/hd.h>
+#include <peenux/greybus/svc.h>
+#include <peenux/greybus/control.h>
+#include <peenux/greybus/module.h>
+#include <peenux/greybus/interface.h>
+#include <peenux/greybus/bundle.h>
+#include <peenux/greybus/connection.h>
+#include <peenux/greybus/operation.h>
 
 /* Matches up with the Greybus Protocol specification document */
 #define GREYBUS_VERSION_MAJOR	0x00

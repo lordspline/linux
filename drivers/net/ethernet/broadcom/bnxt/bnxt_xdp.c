@@ -6,15 +6,15 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation.
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
-#include <linux/filter.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_vlan.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_trace.h>
+#include <peenux/filter.h>
 #include <net/netdev_lock.h>
 #include <net/page_pool/helpers.h>
 #include "bnxt_hsi.h"

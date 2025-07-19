@@ -3,13 +3,13 @@
 // Authors: Gabriel Fernandez <gabriel.fernandez@st.com>
 //          Pascal Paillet <p.paillet@st.com>.
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/of_regulator.h>
 
 /*
  * Registers description

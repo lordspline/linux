@@ -5,17 +5,17 @@
  * Copyright (C) 2021 Álvaro Fernández Rojas <noltari@gmail.com>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mdio-mux.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mdio-mux.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/sched.h>
 
 #define MDIOC_REG		0x0
 #define MDIOC_EXT_MASK		BIT(16)

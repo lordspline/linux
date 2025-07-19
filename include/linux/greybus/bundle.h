@@ -9,10 +9,10 @@
 #ifndef __BUNDLE_H
 #define __BUNDLE_H
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/pm_runtime.h>
-#include <linux/device.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/device.h>
 
 #define	BUNDLE_ID_NONE	U8_MAX
 

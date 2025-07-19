@@ -6,18 +6,18 @@
  * Joseph(Yossi) Hanin <yhanin@marvell.com>
  * Yi Zhang <yizhang@marvell.com>
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/mfd/88pm80x.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/err.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/mfd/88pm80x.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/regulator/of_regulator.h>
 
 /* LDO1 with DVC[0..3] */
 #define PM800_LDO1_VOUT		(0x08) /* VOUT1 */

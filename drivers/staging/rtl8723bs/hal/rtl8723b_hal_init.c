@@ -5,8 +5,8 @@
  *
  ******************************************************************************/
 
-#include <linux/firmware.h>
-#include <linux/slab.h>
+#include <peenux/firmware.h>
+#include <peenux/slab.h>
 #include <drv_types.h>
 #include <rtl8723b_hal.h>
 #include "hal_com_h2c.h"

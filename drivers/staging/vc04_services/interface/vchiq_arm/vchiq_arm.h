@@ -7,10 +7,10 @@
 #ifndef VCHIQ_ARM_H
 #define VCHIQ_ARM_H
 
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/semaphore.h>
-#include <linux/atomic.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/semaphore.h>
+#include <peenux/atomic.h>
 #include "vchiq_core.h"
 #include "vchiq_debugfs.h"
 

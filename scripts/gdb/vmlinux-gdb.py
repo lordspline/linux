@@ -1,5 +1,5 @@
 #
-# gdb helper commands and functions for Linux kernel debugging
+# gdb helper commands and functions for Peenux kernel debugging
 #
 #  loader module
 #
@@ -19,34 +19,34 @@ try:
     gdb.parse_and_eval("0")
     gdb.execute("", to_string=True)
 except:
-    gdb.write("NOTE: gdb 7.2 or later required for Linux helper scripts to "
+    gdb.write("NOTE: gdb 7.2 or later required for Peenux helper scripts to "
               "work.\n")
 else:
-    import linux.constants
-    if linux.constants.LX_CONFIG_DEBUG_INFO_REDUCED:
+    import peenux.constants
+    if peenux.constants.LX_CONFIG_DEBUG_INFO_REDUCED:
         raise gdb.GdbError("Reduced debug information will prevent GDB "
                            "from having complete types.\n")
-    import linux.utils
-    import linux.symbols
-    import linux.modules
-    import linux.dmesg
-    import linux.tasks
-    import linux.config
-    import linux.cpus
-    import linux.lists
-    import linux.rbtree
-    import linux.proc
-    import linux.timerlist
-    import linux.clk
-    import linux.genpd
-    import linux.device
-    import linux.vfs
-    import linux.pgtable
-    import linux.radixtree
-    import linux.interrupts
-    import linux.mm
-    import linux.stackdepot
-    import linux.page_owner
-    import linux.slab
-    import linux.vmalloc
-    import linux.kasan
+    import peenux.utils
+    import peenux.symbols
+    import peenux.modules
+    import peenux.dmesg
+    import peenux.tasks
+    import peenux.config
+    import peenux.cpus
+    import peenux.lists
+    import peenux.rbtree
+    import peenux.proc
+    import peenux.timerlist
+    import peenux.clk
+    import peenux.genpd
+    import peenux.device
+    import peenux.vfs
+    import peenux.pgtable
+    import peenux.radixtree
+    import peenux.interrupts
+    import peenux.mm
+    import peenux.stackdepot
+    import peenux.page_owner
+    import peenux.slab
+    import peenux.vmalloc
+    import peenux.kasan

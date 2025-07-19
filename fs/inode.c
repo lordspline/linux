@@ -3,26 +3,26 @@
  * (C) 1997 Linus Torvalds
  * (C) 1999 Andrea Arcangeli <andrea@suse.de> (dynamic inode allocation)
  */
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/mm.h>
-#include <linux/backing-dev.h>
-#include <linux/hash.h>
-#include <linux/swap.h>
-#include <linux/security.h>
-#include <linux/cdev.h>
-#include <linux/memblock.h>
-#include <linux/fsnotify.h>
-#include <linux/mount.h>
-#include <linux/posix_acl.h>
-#include <linux/buffer_head.h> /* for inode_has_buffers */
-#include <linux/ratelimit.h>
-#include <linux/list_lru.h>
-#include <linux/iversion.h>
-#include <linux/rw_hint.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
+#include <peenux/export.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/mm.h>
+#include <peenux/backing-dev.h>
+#include <peenux/hash.h>
+#include <peenux/swap.h>
+#include <peenux/security.h>
+#include <peenux/cdev.h>
+#include <peenux/memblock.h>
+#include <peenux/fsnotify.h>
+#include <peenux/mount.h>
+#include <peenux/posix_acl.h>
+#include <peenux/buffer_head.h> /* for inode_has_buffers */
+#include <peenux/ratelimit.h>
+#include <peenux/list_lru.h>
+#include <peenux/iversion.h>
+#include <peenux/rw_hint.h>
+#include <peenux/seq_file.h>
+#include <peenux/debugfs.h>
 #include <trace/events/writeback.h>
 #define CREATE_TRACE_POINTS
 #include <trace/events/timestamp.h>
@@ -2643,7 +2643,7 @@ EXPORT_SYMBOL(inode_dio_wait_interruptible);
  *
  * In the long run, i_mutex is overkill, and we should probably look
  * at using the i_lock spinlock to protect i_flags, and then make sure
- * it is so documented in include/linux/fs.h and that all code follows
+ * it is so documented in include/peenux/fs.h and that all code follows
  * the locking convention!!
  */
 void inode_set_flags(struct inode *inode, unsigned int flags,

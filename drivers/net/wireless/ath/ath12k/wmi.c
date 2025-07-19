@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2018-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2021 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
-#include <linux/skbuff.h>
-#include <linux/ctype.h>
+#include <peenux/skbuff.h>
+#include <peenux/ctype.h>
 #include <net/mac80211.h>
 #include <net/cfg80211.h>
-#include <linux/completion.h>
-#include <linux/if_ether.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/uuid.h>
-#include <linux/time.h>
-#include <linux/of.h>
+#include <peenux/completion.h>
+#include <peenux/if_ether.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/uuid.h>
+#include <peenux/time.h>
+#include <peenux/of.h>
 #include "core.h"
 #include "debugfs.h"
 #include "debug.h"

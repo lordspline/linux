@@ -2,7 +2,7 @@
 #define VERSION "0.23"
 /* ns83820.c by Benjamin LaHaise with contributions.
  *
- * Questions/comments/discussion to linux-ns83820@kvack.org.
+ * Questions/comments/discussion to peenux-ns83820@kvack.org.
  *
  * $Revision: 1.34.2.23 $
  *
@@ -81,31 +81,31 @@
 //#define dprintk		printk
 #define dprintk(x...)		do { } while (0)
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ip.h>	/* for iph */
-#include <linux/in.h>	/* for IPPROTO_... */
-#include <linux/compiler.h>
-#include <linux/prefetch.h>
-#include <linux/ethtool.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/if_vlan.h>
-#include <linux/rtnetlink.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/delay.h>
+#include <peenux/workqueue.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ip.h>	/* for iph */
+#include <peenux/in.h>	/* for IPPROTO_... */
+#include <peenux/compiler.h>
+#include <peenux/prefetch.h>
+#include <peenux/ethtool.h>
+#include <peenux/sched.h>
+#include <peenux/timer.h>
+#include <peenux/if_vlan.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/jiffies.h>
+#include <peenux/slab.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #define DRV_NAME "ns83820"
 

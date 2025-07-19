@@ -10,17 +10,17 @@
  *
  * See Documentation/admin-guide/perf/qcom_l3_pmu.rst for more details.
  *
- * Copyright (c) 2015-2017, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2017, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
+#include <peenux/acpi.h>
+#include <peenux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
 
 /*
  * General constants

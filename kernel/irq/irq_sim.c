@@ -4,12 +4,12 @@
  * Copyright (C) 2020 Bartosz Golaszewski <bgolaszewski@baylibre.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irq_sim.h>
-#include <linux/irq_work.h>
-#include <linux/slab.h>
+#include <peenux/cleanup.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/irq_sim.h>
+#include <peenux/irq_work.h>
+#include <peenux/slab.h>
 
 struct irq_sim_work_ctx {
 	struct irq_work		work;

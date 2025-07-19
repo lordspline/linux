@@ -21,17 +21,17 @@
  * "cb" means control block
  */
 
-#include <linux/acpi.h>
-#include <linux/dcbnl.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/pkt_sched.h>
-#include <linux/types.h>
-#include <linux/bitmap.h>
+#include <peenux/acpi.h>
+#include <peenux/dcbnl.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/ethtool.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/pci.h>
+#include <peenux/pkt_sched.h>
+#include <peenux/types.h>
+#include <peenux/bitmap.h>
 #include <net/pkt_cls.h>
 #include <net/pkt_sched.h>
 

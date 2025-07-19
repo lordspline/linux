@@ -13,16 +13,16 @@
  * any later version.
  */
 
-#include <linux/acpi.h>
-#include <linux/hid.h>
-#include <linux/input/vivaldi-fmap.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/unaligned.h>
+#include <peenux/acpi.h>
+#include <peenux/hid.h>
+#include <peenux/input/vivaldi-fmap.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_device.h>
+#include <peenux/unaligned.h>
 
 #include "hid-ids.h"
 #include "hid-vivaldi-common.h"

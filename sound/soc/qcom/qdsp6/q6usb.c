@@ -3,16 +3,16 @@
  * Copyright (c) 2022-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-map-ops.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma-map-ops.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/iommu.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <sound/asound.h>
 #include <sound/jack.h>

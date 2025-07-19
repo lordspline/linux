@@ -12,13 +12,13 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/string.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/quirks.h>
-#include <linux/of.h>
+#include <peenux/kernel.h>
+#include <peenux/kstrtox.h>
+#include <peenux/string.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/quirks.h>
+#include <peenux/of.h>
 #include "usb.h"
 
 /* Active configuration fields */

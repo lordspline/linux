@@ -4,7 +4,7 @@
 #ifndef _LINUX_MISC_KEBA_H
 #define _LINUX_MISC_KEBA_H
 
-#include <linux/auxiliary_bus.h>
+#include <peenux/auxiliary_bus.h>
 
 struct i2c_board_info;
 struct spi_board_info;

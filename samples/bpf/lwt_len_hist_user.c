@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/unistd.h>
-#include <linux/bpf.h>
+#include <peenux/unistd.h>
+#include <peenux/bpf.h>
 
 #include <stdlib.h>
 #include <stdio.h>

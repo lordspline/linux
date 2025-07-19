@@ -5,9 +5,9 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/delay.h>
 
 #include "uniperif.h"
 

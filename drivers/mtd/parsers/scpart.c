@@ -6,11 +6,11 @@
  *    Copyright (C) 2022 Mikhail Zhilkin
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/module.h>
 
 #define	MOD_NAME	"scpart"
 

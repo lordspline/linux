@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2023-2024, Advanced Micro Devices, Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/amd_qdma.h>
-#include <linux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/amd_qdma.h>
+#include <peenux/regmap.h>
 
 #include "qdma.h"
 

@@ -6,7 +6,7 @@
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License version 2
  * as published by the Free Software Foundation; or, when distributed
- * separately from the Linux kernel or incorporated into other
+ * separately from the Peenux kernel or incorporated into other
  * software packages, subject to the following license:
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -28,18 +28,18 @@
  * IN THE SOFTWARE.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/wait.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/sched.h>
-#include <linux/blkdev.h>
-#include <linux/pfn.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/device.h>
+#include <peenux/wait.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/sched.h>
+#include <peenux/blkdev.h>
+#include <peenux/pfn.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
 
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>

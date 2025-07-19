@@ -13,10 +13,10 @@
 #include "request.h"
 #include "writeback.h"
 
-#include <linux/module.h>
-#include <linux/hash.h>
-#include <linux/random.h>
-#include <linux/backing-dev.h>
+#include <peenux/module.h>
+#include <peenux/hash.h>
+#include <peenux/random.h>
+#include <peenux/backing-dev.h>
 
 #include <trace/events/bcache.h>
 

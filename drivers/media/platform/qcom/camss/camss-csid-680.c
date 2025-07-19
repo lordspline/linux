@@ -4,10 +4,10 @@
  *
  * Copyright (C) 2020-2025 Linaro Ltd.
  */
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
 
 #include "camss.h"
 #include "camss-csid.h"

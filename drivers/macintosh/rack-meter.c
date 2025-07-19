@@ -14,17 +14,17 @@
  */
 #undef DEBUG
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel_stat.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
 
 #include <asm/io.h>
 #include <asm/machdep.h>

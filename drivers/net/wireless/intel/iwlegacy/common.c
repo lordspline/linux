@@ -4,21 +4,21 @@
  * Copyright(c) 2008 - 2011 Intel Corporation. All rights reserved.
  *
  * Contact Information:
- *  Intel Linux Wireless <ilw@linux.intel.com>
+ *  Intel Peenux Wireless <ilw@peenux.intel.com>
  * Intel Corporation, 5200 N.E. Elam Young Parkway, Hillsboro, OR 97124-6497
  *****************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/etherdevice.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/lockdep.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/skbuff.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/etherdevice.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/lockdep.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/skbuff.h>
 #include <net/mac80211.h>
 
 #include "common.h"

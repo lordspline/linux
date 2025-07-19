@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2015-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2021, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/printk.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw_type.h>
+#include <peenux/bitops.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/hwmon.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/printk.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/soundwire/sdw.h>
+#include <peenux/soundwire/sdw_registers.h>
+#include <peenux/soundwire/sdw_type.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc-dapm.h>

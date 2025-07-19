@@ -7,9 +7,9 @@
  * Author: Huang Rui <ray.huang@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/perf_event.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/perf_event.h>
 #include <asm/cpu_device_id.h>
 #include <asm/msr.h>
 #include "../perf_event.h"

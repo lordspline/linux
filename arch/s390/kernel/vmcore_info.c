@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/vmcore_info.h>
-#include <linux/mm.h>
+#include <peenux/vmcore_info.h>
+#include <peenux/mm.h>
 #include <asm/abs_lowcore.h>
 #include <asm/sections.h>
 #include <asm/setup.h>

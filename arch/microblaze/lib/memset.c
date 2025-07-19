@@ -24,11 +24,11 @@
  * not any responsibility to update it.
  */
 
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/compiler.h>
-#include <linux/string.h>
+#include <peenux/export.h>
+#include <peenux/types.h>
+#include <peenux/stddef.h>
+#include <peenux/compiler.h>
+#include <peenux/string.h>
 
 #ifdef CONFIG_OPT_LIB_FUNCTION
 void *memset(void *v_src, int c, __kernel_size_t n)

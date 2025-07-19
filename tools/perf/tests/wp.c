@@ -4,9 +4,9 @@
 #include <unistd.h>
 #include <errno.h>
 #include <sys/ioctl.h>
-#include <linux/compiler.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/kernel.h>
+#include <peenux/compiler.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/kernel.h>
 #include "tests.h"
 #include "debug.h"
 #include "event.h"

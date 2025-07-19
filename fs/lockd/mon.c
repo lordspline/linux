@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/lockd/mon.c
+ * peenux/fs/lockd/mon.c
  *
  * The kernel statd client.
  *
  * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/slab.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/ktime.h>
+#include <peenux/slab.h>
 
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/xprtsock.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/lockd/lockd.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/addr.h>
+#include <peenux/sunrpc/xprtsock.h>
+#include <peenux/sunrpc/svc.h>
+#include <peenux/lockd/lockd.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "netns.h"
 

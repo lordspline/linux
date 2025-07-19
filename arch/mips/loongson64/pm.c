@@ -5,8 +5,8 @@
  *  Copyright (C) 2009 Lemote Inc.
  *  Author: Wu Zhangjin <wuzhangjin@gmail.com>
  */
-#include <linux/suspend.h>
-#include <linux/pm.h>
+#include <peenux/suspend.h>
+#include <peenux/pm.h>
 
 #include <asm/mipsregs.h>
 

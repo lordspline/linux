@@ -17,11 +17,11 @@
  * Czech Technical University        (http://www.cvut.cz/)
  ******************************************************************************/
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include "ctucanfd.h"
 

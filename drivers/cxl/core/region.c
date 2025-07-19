@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2022 Intel Corporation. All rights reserved. */
-#include <linux/memregion.h>
-#include <linux/genalloc.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/memory.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
-#include <linux/sort.h>
-#include <linux/idr.h>
-#include <linux/memory-tiers.h>
+#include <peenux/memregion.h>
+#include <peenux/genalloc.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/memory.h>
+#include <peenux/slab.h>
+#include <peenux/uuid.h>
+#include <peenux/sort.h>
+#include <peenux/idr.h>
+#include <peenux/memory-tiers.h>
 #include <cxlmem.h>
 #include <cxl.h>
 #include "core.h"

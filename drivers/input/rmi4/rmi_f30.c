@@ -3,10 +3,10 @@
  * Copyright (c) 2012-2016 Synaptics Incorporated
  */
 
-#include <linux/kernel.h>
-#include <linux/rmi.h>
-#include <linux/input.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/rmi.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
 #include "rmi_driver.h"
 
 #define RMI_F30_QUERY_SIZE			2

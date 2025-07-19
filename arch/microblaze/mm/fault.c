@@ -17,23 +17,23 @@
  *
  */
 
-#include <linux/extable.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/perf_event.h>
+#include <peenux/extable.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/interrupt.h>
+#include <peenux/perf_event.h>
 
 #include <asm/page.h>
 #include <asm/mmu.h>
-#include <linux/mmu_context.h>
-#include <linux/uaccess.h>
+#include <peenux/mmu_context.h>
+#include <peenux/uaccess.h>
 #include <asm/exceptions.h>
 
 static unsigned long pte_misses;	/* updated by do_page_fault() */

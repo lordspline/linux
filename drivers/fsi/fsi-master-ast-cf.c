@@ -4,23 +4,23 @@
  * A FSI master based on Aspeed ColdFire coprocessor
  */
 
-#include <linux/crc4.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fsi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/irqflags.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
-#include <linux/firmware.h>
-#include <linux/gpio/aspeed.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of_address.h>
-#include <linux/genalloc.h>
+#include <peenux/crc4.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/fsi.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/irqflags.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/regmap.h>
+#include <peenux/firmware.h>
+#include <peenux/gpio/aspeed.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of_address.h>
+#include <peenux/genalloc.h>
 
 #include "fsi-master.h"
 #include "cf-fsi-fw.h"

@@ -14,14 +14,14 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/reboot.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/input.h>
-#include <linux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/reboot.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of_irq.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
 
 /* the held interrupt will trigger after 4 seconds */
 #define MAX_HELD_TIME	(4 * MSEC_PER_SEC)

@@ -17,20 +17,20 @@
  *
  * atp885 support add by ACARD Hao Ping Lian 2005/01/05
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/proc_fs.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/ioport.h>
+#include <peenux/delay.h>
+#include <peenux/proc_fs.h>
+#include <peenux/spinlock.h>
+#include <peenux/pci.h>
+#include <peenux/blkdev.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
 #include <asm/io.h>
 
 #include <scsi/scsi.h>

@@ -50,21 +50,21 @@
  * granted us permission to leverage.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/string.h>
-#include <linux/in.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/skbuff.h>
-#include <linux/jhash.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/reciprocal_div.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/jiffies.h>
+#include <peenux/string.h>
+#include <peenux/in.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/skbuff.h>
+#include <peenux/jhash.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/reciprocal_div.h>
 #include <net/netlink.h>
-#include <linux/if_vlan.h>
+#include <peenux/if_vlan.h>
 #include <net/gso.h>
 #include <net/pkt_sched.h>
 #include <net/pkt_cls.h>

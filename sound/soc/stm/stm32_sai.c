@@ -6,13 +6,13 @@
  * Author(s): Olivier Moysan <olivier.moysan@st.com> for STMicroelectronics.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/reset.h>
 
 #include <sound/dmaengine_pcm.h>
 #include <sound/core.h>

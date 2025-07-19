@@ -4,15 +4,15 @@
 //
 // Copyright (c) 2017, Fuzhou Rockchip Electronics Co., Ltd All rights reserved.
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/mfd/syscon.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm_params.h>
 #include "rk3328_codec.h"

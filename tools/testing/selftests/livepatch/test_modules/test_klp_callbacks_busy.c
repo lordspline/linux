@@ -3,11 +3,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/workqueue.h>
+#include <peenux/delay.h>
 
 /* load/run-time control from sysfs writer  */
 static bool block_transition;

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/wait.h>
+#include <peenux/wait.h>
 
 #define THIS_PROGRAM "./vstate_exec_nolibc"
 

@@ -5,7 +5,7 @@
 
 #include "xe_sa.h"
 
-#include <linux/kernel.h>
+#include <peenux/kernel.h>
 
 #include <drm/drm_managed.h>
 

@@ -16,15 +16,15 @@
  *  u_efuse : fused calibration value, it's a signed 16 bits value
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/thermal.h>
 
 #include "thermal_hwmon.h"
 

@@ -8,12 +8,12 @@
  * Mathieu Desnoyers <mathieu.desnoyers@efficios.com>
  */
 
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/syscalls.h>
-#include <linux/rseq.h>
-#include <linux/types.h>
-#include <linux/ratelimit.h>
+#include <peenux/sched.h>
+#include <peenux/uaccess.h>
+#include <peenux/syscalls.h>
+#include <peenux/rseq.h>
+#include <peenux/types.h>
+#include <peenux/ratelimit.h>
 #include <asm/ptrace.h>
 
 #define CREATE_TRACE_POINTS

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/libfdt.h>
-#include <linux/ctype.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/libfdt.h>
+#include <peenux/ctype.h>
 
 #include "pi.h"
 

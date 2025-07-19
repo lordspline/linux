@@ -5,10 +5,10 @@
  * Copyright (C) 2015 John Crispin <john@phrozen.org>
  */
 
-#include <linux/init.h>
+#include <peenux/init.h>
 
-#include <linux/of.h>
-#include <linux/irqchip.h>
+#include <peenux/of.h>
+#include <peenux/irqchip.h>
 #include <asm/mips-cps.h>
 #include <asm/time.h>
 

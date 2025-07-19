@@ -3,13 +3,13 @@
  * Copyright (C) 2011 Tobias Klauser <tklauser@distanz.ch>
  */
 
-#include <linux/stddef.h>
-#include <linux/sched.h>
-#include <linux/kernel_stat.h>
-#include <linux/ptrace.h>
-#include <linux/hardirq.h>
-#include <linux/thread_info.h>
-#include <linux/kbuild.h>
+#include <peenux/stddef.h>
+#include <peenux/sched.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/ptrace.h>
+#include <peenux/hardirq.h>
+#include <peenux/thread_info.h>
+#include <peenux/kbuild.h>
 
 int main(void)
 {

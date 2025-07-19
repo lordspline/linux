@@ -4,20 +4,20 @@
  * Emilio López <emilio@elopez.com.ar>
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of_dma.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dmapool.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/of_dma.h>
+#include <peenux/of_device.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
 
 #include "virt-dma.h"
 

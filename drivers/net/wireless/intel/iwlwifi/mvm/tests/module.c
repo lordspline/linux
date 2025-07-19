@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2024 Intel Corporation
  */
-#include <linux/module.h>
+#include <peenux/module.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("kunit tests for iwlmvm");

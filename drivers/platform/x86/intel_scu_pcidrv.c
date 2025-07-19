@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2008-2010, 2015, 2020 Intel Corporation
  * Authors: Sreedhara DS (sreedhara.ds@intel.com)
- *	    Mika Westerberg <mika.westerberg@linux.intel.com>
+ *	    Mika Westerberg <mika.westerberg@peenux.intel.com>
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
 
-#include <linux/platform_data/x86/intel_scu_ipc.h>
+#include <peenux/platform_data/x86/intel_scu_ipc.h>
 
 static int intel_scu_pci_probe(struct pci_dev *pdev,
 			       const struct pci_device_id *id)

@@ -12,19 +12,19 @@
 #include <limits.h>
 #include <errno.h>
 
-#include <linux/kernel.h>
-#include <linux/perf_event.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/log2.h>
-#include <linux/string.h>
-#include <linux/time64.h>
+#include <peenux/kernel.h>
+#include <peenux/perf_event.h>
+#include <peenux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/log2.h>
+#include <peenux/string.h>
+#include <peenux/time64.h>
 
 #include <sys/param.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <linux/list.h>
-#include <linux/zalloc.h>
+#include <peenux/list.h>
+#include <peenux/zalloc.h>
 
 #include "config.h"
 #include "evlist.h"
@@ -40,7 +40,7 @@
 #include "asm/bug.h"
 #include "auxtrace.h"
 
-#include <linux/hash.h>
+#include <peenux/hash.h>
 
 #include "event.h"
 #include "record.h"
@@ -56,7 +56,7 @@
 #include "s390-cpumsf.h"
 #include "util/mmap.h"
 
-#include <linux/ctype.h>
+#include <peenux/ctype.h>
 #include "symbol/kallsyms.h"
 #include <internal/lib.h>
 #include "util/sample.h"

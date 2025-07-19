@@ -8,13 +8,13 @@
 //
 // Guodong Xu <guodong.xu@linaro.org>
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/spmi.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/spmi.h>
 
 struct hi6421_spmi_reg_priv {
 	/* Serialize regulator enable logic */

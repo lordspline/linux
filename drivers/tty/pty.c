@@ -7,28 +7,28 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/fcntl.h>
-#include <linux/sched/signal.h>
-#include <linux/string.h>
-#include <linux/major.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/devpts_fs.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/mount.h>
-#include <linux/file.h>
-#include <linux/ioctl.h>
-#include <linux/compat.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/interrupt.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/fcntl.h>
+#include <peenux/sched/signal.h>
+#include <peenux/string.h>
+#include <peenux/major.h>
+#include <peenux/mm.h>
+#include <peenux/init.h>
+#include <peenux/device.h>
+#include <peenux/uaccess.h>
+#include <peenux/bitops.h>
+#include <peenux/devpts_fs.h>
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/poll.h>
+#include <peenux/mount.h>
+#include <peenux/file.h>
+#include <peenux/ioctl.h>
+#include <peenux/compat.h>
 #include "tty.h"
 
 #undef TTY_DEBUG_HANGUP

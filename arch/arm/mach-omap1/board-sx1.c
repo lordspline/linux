@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
-* linux/arch/arm/mach-omap1/board-sx1.c
+* peenux/arch/arm/mach-omap1/board-sx1.c
 *
 * Modified from board-generic.c
 *
@@ -11,23 +11,23 @@
 * Maintainters : Vladimir Ananiev (aka Vovan888), Sergge
 *		oslik.ru
 */
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/notifier.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/physmap.h>
-#include <linux/types.h>
-#include <linux/i2c.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/omapfb.h>
-#include <linux/platform_data/keypad-omap.h>
-#include <linux/omap-dma.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/platform_device.h>
+#include <peenux/notifier.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/mtd/physmap.h>
+#include <peenux/types.h>
+#include <peenux/i2c.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/omapfb.h>
+#include <peenux/platform_data/keypad-omap.h>
+#include <peenux/omap-dma.h>
 #include "tc.h"
 
 #include <asm/mach-types.h>

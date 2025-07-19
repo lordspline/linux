@@ -6,10 +6,10 @@
  * Copyright (C) 2009, 2020-2023 Intel Corporation
  */
 
-#include <linux/export.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
-#include <linux/slab.h>
+#include <peenux/export.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/slab.h>
 #include <net/cfg80211.h>
 #include <net/cfg80211-wext.h>
 #include "wext-compat.h"

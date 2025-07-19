@@ -4,14 +4,14 @@
  * Copyright (c) 2013, Intel Corporation.
  */
 
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/hid-sensor-hub.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
+#include <peenux/device.h>
+#include <peenux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/slab.h>
+#include <peenux/hid-sensor-hub.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
 #include "../common/hid-sensors/hid-sensor-trigger.h"
 
 enum incl_3d_channel {
@@ -415,6 +415,6 @@ static struct platform_driver hid_incl_3d_platform_driver = {
 module_platform_driver(hid_incl_3d_platform_driver);
 
 MODULE_DESCRIPTION("HID Sensor Inclinometer 3D");
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@peenux.intel.com>");
 MODULE_LICENSE("GPL");
 MODULE_IMPORT_NS("IIO_HID");

@@ -7,28 +7,28 @@
 #define DRV_NAME       "gpio-aggregator"
 #define pr_fmt(fmt)	DRV_NAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/configfs.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
+#include <peenux/configfs.h>
+#include <peenux/ctype.h>
+#include <peenux/delay.h>
+#include <peenux/idr.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/lockdep.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/overflow.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/machine.h>
 
 #include "dev-sync-probe.h"
 

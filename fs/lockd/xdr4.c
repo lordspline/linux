@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/lockd/xdr4.c
+ * peenux/fs/lockd/xdr4.c
  *
  * XDR support for lockd and the lock client.
  *
@@ -8,15 +8,15 @@
  * Copyright (C) 1999, Trond Myklebust <trond.myklebust@fys.uio.no>
  */
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/nfs.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/nfs.h>
 
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/sunrpc/stats.h>
-#include <linux/lockd/lockd.h>
+#include <peenux/sunrpc/xdr.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/svc.h>
+#include <peenux/sunrpc/stats.h>
+#include <peenux/lockd/lockd.h>
 
 #include "svcxdr.h"
 

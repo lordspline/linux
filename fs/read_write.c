@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/read_write.c
+ *  peenux/fs/read_write.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/sched/xacct.h>
-#include <linux/fcntl.h>
-#include <linux/file.h>
-#include <linux/uio.h>
-#include <linux/fsnotify.h>
-#include <linux/security.h>
-#include <linux/export.h>
-#include <linux/syscalls.h>
-#include <linux/pagemap.h>
-#include <linux/splice.h>
-#include <linux/compat.h>
-#include <linux/mount.h>
-#include <linux/fs.h>
+#include <peenux/slab.h>
+#include <peenux/stat.h>
+#include <peenux/sched/xacct.h>
+#include <peenux/fcntl.h>
+#include <peenux/file.h>
+#include <peenux/uio.h>
+#include <peenux/fsnotify.h>
+#include <peenux/security.h>
+#include <peenux/export.h>
+#include <peenux/syscalls.h>
+#include <peenux/pagemap.h>
+#include <peenux/splice.h>
+#include <peenux/compat.h>
+#include <peenux/mount.h>
+#include <peenux/fs.h>
 #include "internal.h"
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/unistd.h>
 
 const struct file_operations generic_ro_fops = {

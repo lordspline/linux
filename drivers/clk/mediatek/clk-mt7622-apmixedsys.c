@@ -6,9 +6,9 @@
  */
 
 #include <dt-bindings/clock/mt7622-clk.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include "clk-gate.h"
 #include "clk-mtk.h"

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /* Copyright 2019 IBM Corp. */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
 
 static struct {
 	const char *name;

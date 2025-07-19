@@ -20,7 +20,7 @@
 #ifndef _CRYPTO_TESTMGR_H
 #define _CRYPTO_TESTMGR_H
 
-#include <linux/oid_registry.h>
+#include <peenux/oid_registry.h>
 #include <crypto/internal/ecc.h>
 
 #define MAX_IVLEN		32

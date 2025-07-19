@@ -9,13 +9,13 @@
  *			Florian Fainelli <florian@openwrt.org>
  */
 
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/console.h>
-#include <linux/memblock.h>
-#include <linux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/export.h>
+#include <peenux/string.h>
+#include <peenux/console.h>
+#include <peenux/memblock.h>
+#include <peenux/ioport.h>
 
 #include <asm/bootinfo.h>
 #include <asm/mach-rc32434/ddr.h>

@@ -8,8 +8,8 @@
  */
 
 #include <crypto/internal/poly1305.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 void poly1305_block_init_generic(struct poly1305_block_state *desc,
 				 const u8 raw_key[POLY1305_BLOCK_SIZE])

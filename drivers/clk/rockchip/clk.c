@@ -14,14 +14,14 @@
  * Author: Thomas Abraham <thomas.ab@samsung.com>
  */
 
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reboot.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/reboot.h>
 
 #include "../clk-fractional-divider.h"
 #include "clk.h"

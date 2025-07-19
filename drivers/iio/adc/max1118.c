@@ -17,14 +17,14 @@
  * ------  ---------  -----------
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/spi/spi.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/regulator/consumer.h>
 
 enum max1118_id {
 	max1117,

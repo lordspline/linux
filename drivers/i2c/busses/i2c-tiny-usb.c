@@ -6,18 +6,18 @@
  * Copyright (C) 2006-2007 Till Harbaum (Till@Harbaum.org)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
 
 /* include interfaces to usb layer */
-#include <linux/usb.h>
+#include <peenux/usb.h>
 
 /* include interface to i2c layer */
-#include <linux/i2c.h>
+#include <peenux/i2c.h>
 
 /* commands via USB, must match command ids in the firmware */
 #define CMD_ECHO		0

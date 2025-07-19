@@ -13,10 +13,10 @@
 #ifndef _LINUX_FSCRYPT_H
 #define _LINUX_FSCRYPT_H
 
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <uapi/linux/fscrypt.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <uapi/peenux/fscrypt.h>
 
 /*
  * The lengths of all file contents blocks must be divisible by this value.

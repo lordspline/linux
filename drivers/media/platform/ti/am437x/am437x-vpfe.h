@@ -9,13 +9,13 @@
 #ifndef AM437X_VPFE_H
 #define AM437X_VPFE_H
 
-#include <linux/am437x-vpfe.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
+#include <peenux/am437x-vpfe.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/i2c.h>
+#include <peenux/videodev2.h>
 
 #include <media/v4l2-dev.h>
 #include <media/v4l2-device.h>

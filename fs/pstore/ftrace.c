@@ -3,20 +3,20 @@
  * Copyright 2012  Google, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/compiler.h>
-#include <linux/irqflags.h>
-#include <linux/percpu.h>
-#include <linux/smp.h>
-#include <linux/atomic.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/ftrace.h>
-#include <linux/fs.h>
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/cache.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/compiler.h>
+#include <peenux/irqflags.h>
+#include <peenux/percpu.h>
+#include <peenux/smp.h>
+#include <peenux/atomic.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/ftrace.h>
+#include <peenux/fs.h>
+#include <peenux/debugfs.h>
+#include <peenux/err.h>
+#include <peenux/cache.h>
+#include <peenux/slab.h>
 #include <asm/barrier.h>
 #include "internal.h"
 

@@ -68,13 +68,13 @@
 		button-volume-up {
 			label = "Volume Up";
 			gpios = <&tlmm 107 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 		};
 
 		button-home {
 			label = "Home";
 			gpios = <&tlmm 109 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_HOMEPAGE>;
+			peenux,code = <KEY_HOMEPAGE>;
 		};
 	};
 
@@ -263,7 +263,7 @@
 		pinctrl-0 = <&tsp_int_default>;
 		pinctrl-names = "default";
 
-		linux,keycodes = <KEY_APPSELECT KEY_BACK>;
+		peenux,keycodes = <KEY_APPSELECT KEY_BACK>;
 	};
 };
 
@@ -315,7 +315,7 @@
 };
 
 &pm8916_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	peenux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

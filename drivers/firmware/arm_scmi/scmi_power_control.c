@@ -17,7 +17,7 @@
  * events.
  *
  * Direct forceful requests are not supported since are not meant to be sent
- * by the SCMI platform to an OSPM like Linux.
+ * by the SCMI platform to an OSPM like Peenux.
  *
  * Additionally, graceful request notifications can carry an optional timeout
  * field stating the maximum amount of time allowed by the platform for
@@ -43,21 +43,21 @@
  * possibly emitted by the platform will be ignored.
  */
 
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/reboot.h>
-#include <linux/scmi_protocol.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/time64.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/printk.h>
+#include <peenux/reboot.h>
+#include <peenux/scmi_protocol.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
+#include <peenux/time64.h>
+#include <peenux/timer.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 #ifndef MODULE
-#include <linux/fs.h>
+#include <peenux/fs.h>
 #endif
 
 enum scmi_syspower_state {

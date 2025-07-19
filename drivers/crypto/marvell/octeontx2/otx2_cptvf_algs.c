@@ -11,8 +11,8 @@
 #include <crypto/xts.h>
 #include <crypto/gcm.h>
 #include <crypto/scatterwalk.h>
-#include <linux/sort.h>
-#include <linux/module.h>
+#include <peenux/sort.h>
+#include <peenux/module.h>
 #include "otx2_cptvf.h"
 #include "otx2_cptvf_algs.h"
 #include "otx2_cpt_reqmgr.h"

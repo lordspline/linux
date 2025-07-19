@@ -124,29 +124,29 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/hardirq.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/mii.h>
-#include <linux/if_vlan.h>
-#include <linux/skbuff.h>
-#include <linux/ethtool.h>
-#include <linux/string.h>
-#include <linux/firmware.h>
-#include <linux/rtnetlink.h>
-#include <linux/unaligned.h>
+#include <peenux/hardirq.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmapool.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/mii.h>
+#include <peenux/if_vlan.h>
+#include <peenux/skbuff.h>
+#include <peenux/ethtool.h>
+#include <peenux/string.h>
+#include <peenux/firmware.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/unaligned.h>
 
 
 #define DRV_NAME		"e100"

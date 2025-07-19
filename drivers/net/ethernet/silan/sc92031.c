@@ -23,17 +23,17 @@
  * matching, so you need to enable IFF_PROMISC when using it.
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/crc32.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/crc32.h>
 
 #include <asm/irq.h>
 

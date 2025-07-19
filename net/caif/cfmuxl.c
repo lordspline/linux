@@ -6,10 +6,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ":%s(): " fmt, __func__
 
-#include <linux/stddef.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
+#include <peenux/stddef.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/rculist.h>
 #include <net/caif/cfpkt.h>
 #include <net/caif/cfmuxl.h>
 #include <net/caif/cfsrvl.h>

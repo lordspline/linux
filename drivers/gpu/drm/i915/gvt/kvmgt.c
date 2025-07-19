@@ -33,19 +33,19 @@
  *    Zhi Wang <zhi.a.wang@intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/kthread.h>
-#include <linux/sched/mm.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/rbtree.h>
-#include <linux/spinlock.h>
-#include <linux/eventfd.h>
-#include <linux/mdev.h>
-#include <linux/debugfs.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/kthread.h>
+#include <peenux/sched/mm.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/rbtree.h>
+#include <peenux/spinlock.h>
+#include <peenux/eventfd.h>
+#include <peenux/mdev.h>
+#include <peenux/debugfs.h>
 
-#include <linux/nospec.h>
+#include <peenux/nospec.h>
 
 #include <drm/drm_edid.h>
 

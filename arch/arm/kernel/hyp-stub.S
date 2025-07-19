@@ -3,9 +3,9 @@
  * Copyright (c) 2012 Linaro Limited.
  */
 
-#include <linux/init.h>
-#include <linux/irqchip/arm-gic-v3.h>
-#include <linux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/irqchip/arm-gic-v3.h>
+#include <peenux/linkage.h>
 #include <asm/assembler.h>
 #include <asm/virt.h>
 

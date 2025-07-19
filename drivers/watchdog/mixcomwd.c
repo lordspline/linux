@@ -39,19 +39,19 @@
 #define VERSION "0.6"
 #define WATCHDOG_NAME "mixcomwd"
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/miscdevice.h>
-#include <linux/ioport.h>
-#include <linux/watchdog.h>
-#include <linux/fs.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/timer.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/types.h>
+#include <peenux/miscdevice.h>
+#include <peenux/ioport.h>
+#include <peenux/watchdog.h>
+#include <peenux/fs.h>
+#include <peenux/reboot.h>
+#include <peenux/init.h>
+#include <peenux/jiffies.h>
+#include <peenux/timer.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
 
 /*
  * We have two types of cards that can be probed:

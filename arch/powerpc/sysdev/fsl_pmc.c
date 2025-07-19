@@ -7,15 +7,15 @@
  * Author: Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/suspend.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/export.h>
+#include <peenux/suspend.h>
+#include <peenux/delay.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 
 struct pmc_regs {
 	__be32 devdisr;

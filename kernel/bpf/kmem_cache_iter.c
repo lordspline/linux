@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2024 Google */
-#include <linux/bpf.h>
-#include <linux/btf_ids.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
+#include <peenux/bpf.h>
+#include <peenux/btf_ids.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/seq_file.h>
 
 #include "../../mm/slab.h" /* kmem_cache, slab_caches and slab_mutex */
 

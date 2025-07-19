@@ -28,25 +28,25 @@
 
 #undef DEBUG
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/sysrq.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/serial.h>
+#include <peenux/sysrq.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
 
 #include <asm/mpc52xx.h>
 #include <asm/mpc52xx_psc.h>
 
-#include <linux/serial_core.h>
+#include <peenux/serial_core.h>
 
 
 /* We've been assigned a range on the "Low-density serial ports" major */

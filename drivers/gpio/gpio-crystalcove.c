@@ -7,16 +7,16 @@
  * Author: Yang, Bin <bin.yang@intel.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/intel_soc_pmic.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/seq_file.h>
+#include <peenux/string_choices.h>
+#include <peenux/types.h>
 
 #define CRYSTALCOVE_GPIO_NUM	16
 #define CRYSTALCOVE_VGPIO_NUM	95

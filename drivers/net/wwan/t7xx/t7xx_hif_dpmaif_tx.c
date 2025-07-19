@@ -8,33 +8,33 @@
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Eliot Lee <eliot.lee@intel.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *
  * Contributors:
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/list.h>
-#include <linux/minmax.h>
-#include <linux/netdevice.h>
-#include <linux/pm_runtime.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <peenux/atomic.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/err.h>
+#include <peenux/gfp.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/list.h>
+#include <peenux/minmax.h>
+#include <peenux/netdevice.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
+#include <peenux/wait.h>
+#include <peenux/workqueue.h>
 
 #include "t7xx_dpmaif.h"
 #include "t7xx_hif_dpmaif.h"

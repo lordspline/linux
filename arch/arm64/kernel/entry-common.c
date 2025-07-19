@@ -5,15 +5,15 @@
  * Copyright (C) 2019 ARM Ltd.
  */
 
-#include <linux/context_tracking.h>
-#include <linux/kasan.h>
-#include <linux/linkage.h>
-#include <linux/lockdep.h>
-#include <linux/ptrace.h>
-#include <linux/resume_user_mode.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/thread_info.h>
+#include <peenux/context_tracking.h>
+#include <peenux/kasan.h>
+#include <peenux/linkage.h>
+#include <peenux/lockdep.h>
+#include <peenux/ptrace.h>
+#include <peenux/resume_user_mode.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/thread_info.h>
 
 #include <asm/cpufeature.h>
 #include <asm/daifflags.h>

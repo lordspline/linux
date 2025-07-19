@@ -21,33 +21,33 @@
 #define KMSG_COMPONENT "ctcm"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/sched.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/timer.h>
+#include <peenux/sched.h>
 
-#include <linux/signal.h>
-#include <linux/string.h>
-#include <linux/proc_fs.h>
+#include <peenux/signal.h>
+#include <peenux/string.h>
+#include <peenux/proc_fs.h>
 
-#include <linux/ip.h>
-#include <linux/if_arp.h>
-#include <linux/tcp.h>
-#include <linux/skbuff.h>
-#include <linux/ctype.h>
-#include <linux/netdevice.h>
+#include <peenux/ip.h>
+#include <peenux/if_arp.h>
+#include <peenux/tcp.h>
+#include <peenux/skbuff.h>
+#include <peenux/ctype.h>
+#include <peenux/netdevice.h>
 #include <net/dst.h>
 
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
-#include <linux/moduleparam.h>
+#include <peenux/io.h>
+#include <peenux/bitops.h>
+#include <peenux/uaccess.h>
+#include <peenux/wait.h>
+#include <peenux/moduleparam.h>
 #include <asm/ccwdev.h>
 #include <asm/ccwgroup.h>
 #include <asm/idals.h>

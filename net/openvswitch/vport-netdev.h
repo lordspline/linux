@@ -6,8 +6,8 @@
 #ifndef VPORT_NETDEV_H
 #define VPORT_NETDEV_H 1
 
-#include <linux/netdevice.h>
-#include <linux/rcupdate.h>
+#include <peenux/netdevice.h>
+#include <peenux/rcupdate.h>
 
 #include "vport.h"
 

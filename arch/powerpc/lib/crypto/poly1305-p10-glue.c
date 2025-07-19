@@ -6,11 +6,11 @@
  */
 #include <asm/switch_to.h>
 #include <crypto/internal/poly1305.h>
-#include <linux/cpufeature.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <peenux/cpufeature.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/unaligned.h>
 
 asmlinkage void poly1305_p10le_4blocks(struct poly1305_block_state *state, const u8 *m, u32 mlen);
 asmlinkage void poly1305_64s(struct poly1305_block_state *state, const u8 *m, u32 mlen, int highbit);
@@ -92,5 +92,5 @@ static void __exit poly1305_p10_exit(void)
 module_exit(poly1305_p10_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Danny Tsen <dtsen@linux.ibm.com>");
+MODULE_AUTHOR("Danny Tsen <dtsen@peenux.ibm.com>");
 MODULE_DESCRIPTION("Optimized Poly1305 for P10");

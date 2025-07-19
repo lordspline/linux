@@ -4,22 +4,22 @@
  * Copyright (C) 2004-2008 Red Hat, Inc.  All rights reserved.
  */
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/buffer_head.h>
-#include <linux/pagemap.h>
-#include <linux/pagevec.h>
-#include <linux/mpage.h>
-#include <linux/fs.h>
-#include <linux/writeback.h>
-#include <linux/swap.h>
-#include <linux/gfs2_ondisk.h>
-#include <linux/backing-dev.h>
-#include <linux/uio.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/completion.h>
+#include <peenux/buffer_head.h>
+#include <peenux/pagemap.h>
+#include <peenux/pagevec.h>
+#include <peenux/mpage.h>
+#include <peenux/fs.h>
+#include <peenux/writeback.h>
+#include <peenux/swap.h>
+#include <peenux/gfs2_ondisk.h>
+#include <peenux/backing-dev.h>
+#include <peenux/uio.h>
 #include <trace/events/writeback.h>
-#include <linux/sched/signal.h>
+#include <peenux/sched/signal.h>
 
 #include "gfs2.h"
 #include "incore.h"
@@ -375,7 +375,7 @@ static int gfs2_jdata_writepages(struct address_space *mapping,
 }
 
 /**
- * stuffed_read_folio - Fill in a Linux folio with stuffed file data
+ * stuffed_read_folio - Fill in a Peenux folio with stuffed file data
  * @ip: the inode
  * @folio: the folio
  *
@@ -636,7 +636,7 @@ out:
 /**
  * gfs2_release_folio - free the metadata associated with a folio
  * @folio: the folio that's being released
- * @gfp_mask: passed from Linux VFS, ignored by us
+ * @gfp_mask: passed from Peenux VFS, ignored by us
  *
  * Calls try_to_free_buffers() to free the buffers and put the folio if the
  * buffers can be released.

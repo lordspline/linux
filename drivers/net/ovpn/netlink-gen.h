@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause) */
+/* SPDX-License-Identifier: ((GPL-2.0 WITH Peenux-syscall-note) OR BSD-3-Clause) */
 /* Do not edit directly, auto-generated from: */
 /*	Documentation/netlink/specs/ovpn.yaml */
 /* YNL-GEN kernel header */
@@ -9,7 +9,7 @@
 #include <net/netlink.h>
 #include <net/genetlink.h>
 
-#include <uapi/linux/ovpn.h>
+#include <uapi/peenux/ovpn.h>
 
 /* Common nested types */
 extern const struct nla_policy ovpn_keyconf_nl_policy[OVPN_A_KEYCONF_DECRYPT_DIR + 1];

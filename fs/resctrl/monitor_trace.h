@@ -5,7 +5,7 @@
 #if !defined(_FS_RESCTRL_MONITOR_TRACE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _FS_RESCTRL_MONITOR_TRACE_H
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 
 TRACE_EVENT(mon_llc_occupancy_limbo,
 	    TP_PROTO(u32 ctrl_hw_id, u32 mon_hw_id, int domain_id, u64 llc_occupancy_bytes),

@@ -6,11 +6,11 @@
 #ifndef _PINCTRL_SOPHGO_H
 #define _PINCTRL_SOPHGO_H
 
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
 
 #include "../core.h"
 

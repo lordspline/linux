@@ -7,10 +7,10 @@
  * Author: Gregor Boirie <gregor.boirie@parrot.com>
  */
 
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/mod_devicetable.h>
 #include "zpa2326.h"
 
 /*

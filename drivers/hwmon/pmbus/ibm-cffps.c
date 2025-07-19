@@ -3,18 +3,18 @@
  * Copyright 2017 IBM Corp.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/i2c.h>
-#include <linux/jiffies.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pmbus.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/i2c.h>
+#include <peenux/jiffies.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/pmbus.h>
 
 #include "pmbus.h"
 
@@ -108,7 +108,7 @@ static ssize_t ibm_cffps_debugfs_read_input_history(struct file *file, char __us
 
 		/*
 		 * Use a raw i2c transfer, since we need more bytes
-		 * than Linux I2C supports through smbus xfr (only 32).
+		 * than Peenux I2C supports through smbus xfr (only 32).
 		 */
 		rc = i2c_transfer(psu->client->adapter, msg, 2);
 		pmbus_unlock(psu->client);

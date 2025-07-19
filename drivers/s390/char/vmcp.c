@@ -12,17 +12,17 @@
  * The idea of this driver is based on cpint from Neale Ferguson and #CP in CMS
  */
 
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/compat.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/cma.h>
-#include <linux/mm.h>
+#include <peenux/fs.h>
+#include <peenux/init.h>
+#include <peenux/compat.h>
+#include <peenux/kernel.h>
+#include <peenux/miscdevice.h>
+#include <peenux/slab.h>
+#include <peenux/uaccess.h>
+#include <peenux/export.h>
+#include <peenux/mutex.h>
+#include <peenux/cma.h>
+#include <peenux/mm.h>
 #include <asm/machine.h>
 #include <asm/cpcmd.h>
 #include <asm/debug.h>
@@ -188,7 +188,7 @@ vmcp_write(struct file *file, const char __user *buff, size_t count,
 
 /*
  * These ioctls are available, as the semantics of the diagnose 8 call
- * does not fit very well into a Linux call. Diagnose X'08' is described in
+ * does not fit very well into a Peenux call. Diagnose X'08' is described in
  * CP Programming Services SC24-6084-00
  *
  * VMCP_GETCODE: gives the CP return code back to user space

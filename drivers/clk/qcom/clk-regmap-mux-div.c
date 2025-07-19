@@ -4,10 +4,10 @@
  * Author: Georgi Djakov <georgi.djakov@linaro.org>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/regmap.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/regmap.h>
 
 #include "clk-regmap-mux-div.h"
 

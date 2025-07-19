@@ -4,12 +4,12 @@
  * Copyright (C) 1999, 2007 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/pci.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <asm/prom.h>
 #include <asm/oplib.h>

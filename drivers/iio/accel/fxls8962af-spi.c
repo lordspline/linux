@@ -5,12 +5,12 @@
  * Copyright 2021 Connected Cars A/S
  */
 
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
+#include <peenux/dev_printk.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/spi/spi.h>
+#include <peenux/regmap.h>
 
 #include "fxls8962af.h"
 

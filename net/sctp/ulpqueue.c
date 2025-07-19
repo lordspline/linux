@@ -11,7 +11,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <peenux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    Jon Grimm             <jgrimm@us.ibm.com>
@@ -19,9 +19,9 @@
  *    Sridhar Samudrala     <sri@us.ibm.com>
  */
 
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
+#include <peenux/skbuff.h>
 #include <net/sock.h>
 #include <net/busy_poll.h>
 #include <net/sctp/structs.h>

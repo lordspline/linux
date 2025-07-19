@@ -6,9 +6,9 @@
 #ifndef INTEL_GT_BUFFER_POOL_TYPES_H
 #define INTEL_GT_BUFFER_POOL_TYPES_H
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 
 #include "gem/i915_gem_object_types.h"
 #include "i915_active_types.h"

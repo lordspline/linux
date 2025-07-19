@@ -5,22 +5,22 @@
  * Released under the GPLv2 only.
  */
 
-#include <linux/acpi.h>
-#include <linux/pci.h>	/* for scatterlist macros */
-#include <linux/usb.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/timer.h>
-#include <linux/ctype.h>
-#include <linux/nls.h>
-#include <linux/device.h>
-#include <linux/scatterlist.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/quirks.h>
-#include <linux/usb/hcd.h>	/* for usbcore internals */
-#include <linux/usb/of.h>
+#include <peenux/acpi.h>
+#include <peenux/pci.h>	/* for scatterlist macros */
+#include <peenux/usb.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/timer.h>
+#include <peenux/ctype.h>
+#include <peenux/nls.h>
+#include <peenux/device.h>
+#include <peenux/scatterlist.h>
+#include <peenux/usb/cdc.h>
+#include <peenux/usb/quirks.h>
+#include <peenux/usb/hcd.h>	/* for usbcore internals */
+#include <peenux/usb/of.h>
 #include <asm/byteorder.h>
 
 #include "usb.h"
@@ -1505,7 +1505,7 @@ void usb_enable_interface(struct usb_device *dev,
  * interface's default setting.  To access such bandwidth, alternate
  * interface settings must be made current.
  *
- * Note that in the Linux USB subsystem, bandwidth associated with
+ * Note that in the Peenux USB subsystem, bandwidth associated with
  * an endpoint in a given alternate setting is not reserved until an URB
  * is submitted that needs that bandwidth.  Some other operating systems
  * allocate bandwidth early, when a configuration is chosen.
@@ -1966,7 +1966,7 @@ EXPORT_SYMBOL_GPL(usb_set_wireless_status);
  * accept @configuration = -1 as indicating the device should be put in
  * an unconfigured state.
  *
- * USB device configurations may affect Linux interoperability,
+ * USB device configurations may affect Peenux interoperability,
  * power consumption and the functionality available.  For example,
  * the default configuration is limited to using 100mA of bus power,
  * so that when certain device functionality requires more power,

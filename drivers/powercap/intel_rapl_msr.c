@@ -5,22 +5,22 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/log2.h>
-#include <linux/bitmap.h>
-#include <linux/delay.h>
-#include <linux/sysfs.h>
-#include <linux/cpu.h>
-#include <linux/powercap.h>
-#include <linux/suspend.h>
-#include <linux/intel_rapl.h>
-#include <linux/processor.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/list.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/log2.h>
+#include <peenux/bitmap.h>
+#include <peenux/delay.h>
+#include <peenux/sysfs.h>
+#include <peenux/cpu.h>
+#include <peenux/powercap.h>
+#include <peenux/suspend.h>
+#include <peenux/intel_rapl.h>
+#include <peenux/processor.h>
+#include <peenux/platform_device.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>

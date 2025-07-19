@@ -11,15 +11,15 @@
  *
  */
 
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/vmalloc.h>
-#include <linux/proc_fs.h>
+#include <peenux/ctype.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/seq_file.h>
+#include <peenux/vmalloc.h>
+#include <peenux/proc_fs.h>
 
 #include <asm/debug.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 
 #include "dasd_int.h"
 

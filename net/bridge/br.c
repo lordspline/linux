@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Generic parts
- *	Linux ethernet bridge
+ *	Peenux ethernet bridge
  *
  *	Authors:
  *	Lennert Buytenhek		<buytenh@gnu.org>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/init.h>
-#include <linux/llc.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/init.h>
+#include <peenux/llc.h>
 #include <net/llc.h>
 #include <net/stp.h>
 #include <net/switchdev.h>

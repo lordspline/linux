@@ -8,37 +8,37 @@
  * http://www.tianyihexin.com/ueditor/php/upload/file/20240614/1718336303992081.pdf
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/math64.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/array_size.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/firmware.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/math64.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pm.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/types.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/events.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/types.h>
 
 #define HX9023S_CHIP_ID 0x1D
 #define HX9023S_CH_NUM 5

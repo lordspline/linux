@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2021, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mfd/core.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
 
 #define I2C_INTR_STATUS_BASE		0x0550
 #define INT_RT_STS_OFFSET		0x10

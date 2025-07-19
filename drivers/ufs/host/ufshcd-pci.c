@@ -10,15 +10,15 @@
  */
 
 #include <ufs/ufshcd.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/debugfs.h>
-#include <linux/uuid.h>
-#include <linux/acpi.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_qos.h>
+#include <peenux/debugfs.h>
+#include <peenux/uuid.h>
+#include <peenux/acpi.h>
+#include <peenux/gpio/consumer.h>
 
 #define MAX_SUPP_MAC 64
 

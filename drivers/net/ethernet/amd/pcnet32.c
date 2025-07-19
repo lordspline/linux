@@ -1,4 +1,4 @@
-/* pcnet32.c: An AMD PCnet32 ethernet driver for linux. */
+/* pcnet32.c: An AMD PCnet32 ethernet driver for peenux. */
 /*
  *	Copyright 1996-1999 Thomas Bogendoerfer
  *
@@ -27,35 +27,35 @@
 #define DRV_RELDATE	"21.Apr.2008"
 #define PFX		DRV_NAME ": "
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/crc32.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_ether.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/moduleparam.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/ethtool.h>
+#include <peenux/mii.h>
+#include <peenux/crc32.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_ether.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
+#include <peenux/moduleparam.h>
+#include <peenux/bitops.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 
 #include <asm/dma.h>
 #include <asm/irq.h>
 
 /*
- * PCI device identifiers for "new style" Linux PCI Device Drivers
+ * PCI device identifiers for "new style" Peenux PCI Device Drivers
  */
 static const struct pci_device_id pcnet32_pci_tbl[] = {
 	{ PCI_DEVICE(PCI_VENDOR_ID_AMD, PCI_DEVICE_ID_AMD_LANCE_HOME), },

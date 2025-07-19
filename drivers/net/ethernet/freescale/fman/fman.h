@@ -7,9 +7,9 @@
 #ifndef __FM_H
 #define __FM_H
 
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/of_irq.h>
+#include <peenux/io.h>
+#include <peenux/interrupt.h>
+#include <peenux/of_irq.h>
 
 /* FM Frame descriptor macros  */
 /* Frame queue Context Override */

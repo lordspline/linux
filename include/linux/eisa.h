@@ -2,9 +2,9 @@
 #ifndef _LINUX_EISA_H
 #define _LINUX_EISA_H
 
-#include <linux/ioport.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <peenux/ioport.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
 
 #define EISA_MAX_SLOTS 8
 

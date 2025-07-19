@@ -11,18 +11,18 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/ethtool.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
-#include <linux/can/dev.h>
+#include <peenux/can/dev.h>
 
 #define IFI_CANFD_STCMD				0x0
 #define IFI_CANFD_STCMD_HARDRESET		0xDEADCAFD

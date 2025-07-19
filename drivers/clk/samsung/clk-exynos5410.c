@@ -8,8 +8,8 @@
 
 #include <dt-bindings/clock/exynos5410.h>
 
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/clk.h>
 
 #include "clk.h"
 

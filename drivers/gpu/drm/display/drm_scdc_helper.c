@@ -21,9 +21,9 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
 
 #include <drm/display/drm_scdc_helper.h>
 #include <drm/drm_connector.h>

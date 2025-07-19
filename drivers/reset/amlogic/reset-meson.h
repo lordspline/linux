@@ -7,9 +7,9 @@
 #ifndef __MESON_RESET_H
 #define __MESON_RESET_H
 
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/reset-controller.h>
 
 struct meson_reset_param {
 	const struct reset_control_ops *reset_ops;

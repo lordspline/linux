@@ -7,11 +7,11 @@
  * Authors: Felipe Balbi <balbi@ti.com>,
  */
 
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/irq.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 
 #include "../host/xhci-port.h"
 #include "../host/xhci-ext-caps.h"

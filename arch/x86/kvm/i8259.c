@@ -28,12 +28,12 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/bitops.h>
 #include "irq.h"
 
-#include <linux/kvm_host.h>
+#include <peenux/kvm_host.h>
 #include "trace.h"
 
 #define pr_pic_unimpl(fmt, ...)	\

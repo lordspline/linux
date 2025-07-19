@@ -8,8 +8,8 @@
 #ifndef _ROLLING_BUFFER_H
 #define _ROLLING_BUFFER_H
 
-#include <linux/folio_queue.h>
-#include <linux/uio.h>
+#include <peenux/folio_queue.h>
+#include <peenux/uio.h>
 
 /*
  * Rolling buffer.  Whilst the buffer is live and in use, folios and folio

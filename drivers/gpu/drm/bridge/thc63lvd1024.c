@@ -5,13 +5,13 @@
  * Copyright (C) 2018 Jacopo Mondi <jacopo+renesas@jmondi.org>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_bridge.h>
 #include <drm/drm_panel.h>

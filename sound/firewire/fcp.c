@@ -5,16 +5,16 @@
  * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
  */
 
-#include <linux/device.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
+#include <peenux/device.h>
+#include <peenux/firewire.h>
+#include <peenux/firewire-constants.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
+#include <peenux/wait.h>
+#include <peenux/delay.h>
 #include "fcp.h"
 #include "lib.h"
 #include "amdtp-stream.h"

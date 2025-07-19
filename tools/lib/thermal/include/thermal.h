@@ -3,7 +3,7 @@
 #ifndef __LIBTHERMAL_H
 #define __LIBTHERMAL_H
 
-#include <linux/thermal.h>
+#include <peenux/thermal.h>
 #include <sys/types.h>
 
 #ifndef LIBTHERMAL_API

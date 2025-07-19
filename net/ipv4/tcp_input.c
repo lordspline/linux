@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -64,21 +64,21 @@
 
 #define pr_fmt(fmt) "TCP: " fmt
 
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/sysctl.h>
-#include <linux/kernel.h>
-#include <linux/prefetch.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/sysctl.h>
+#include <peenux/kernel.h>
+#include <peenux/prefetch.h>
 #include <net/dst.h>
 #include <net/tcp.h>
 #include <net/proto_memory.h>
 #include <net/inet_common.h>
-#include <linux/ipsec.h>
-#include <linux/unaligned.h>
-#include <linux/errqueue.h>
+#include <peenux/ipsec.h>
+#include <peenux/unaligned.h>
+#include <peenux/errqueue.h>
 #include <trace/events/tcp.h>
-#include <linux/jump_label_ratelimit.h>
+#include <peenux/jump_label_ratelimit.h>
 #include <net/busy_poll.h>
 #include <net/mptcp.h>
 
@@ -995,7 +995,7 @@ static void tcp_set_rto(struct sock *sk)
 	 *    It cannot be less due to utterly erratic ACK generation made
 	 *    at least by solaris and freebsd. "Erratic ACKs" has _nothing_
 	 *    to do with delayed acks, because at cwnd>2 true delack timeout
-	 *    is invisible. Actually, Linux-2.4 also generates erratic
+	 *    is invisible. Actually, Peenux-2.4 also generates erratic
 	 *    ACKs in some circumstances.
 	 */
 	inet_csk(sk)->icsk_rto = __tcp_set_rto(tp);
@@ -2280,7 +2280,7 @@ static inline int tcp_dupack_heuristics(const struct tcp_sock *tp)
 	return tp->sacked_out + 1;
 }
 
-/* Linux NewReno/SACK/ECN state machine.
+/* Peenux NewReno/SACK/ECN state machine.
  * --------------------------------------
  *
  * "Open"	Normal state, no dubious events, fast path.
@@ -3702,7 +3702,7 @@ static void tcp_rcv_nxt_update(struct tcp_sock *tp, u32 seq)
 
 /* Update our send window.
  *
- * Window update algorithm, described in RFC793/RFC1122 (used in linux-2.2
+ * Window update algorithm, described in RFC793/RFC1122 (used in peenux-2.2
  * and in FreeBSD. NetBSD's one is even worse.) is wrong.
  */
 static int tcp_ack_update_window(struct sock *sk, const struct sk_buff *skb, u32 ack,
@@ -4477,7 +4477,7 @@ static u32 tcp_tsval_replay(const struct sock *sk)
 		return inet_csk(sk)->icsk_rto * (USEC_PER_SEC / HZ);
 
 	/* RFC 7323 recommends a TSval clock between 1ms and 1sec.
-	 * We know that some OS (including old linux) can use 1200 Hz.
+	 * We know that some OS (including old peenux) can use 1200 Hz.
 	 */
 	return inet_csk(sk)->icsk_rto * 1200 / HZ;
 }
@@ -7071,7 +7071,7 @@ static inline void pr_drop_req(struct request_sock *req, __u16 port, int family)
  * TCP ECN negotiation.
  *
  * Exception: tcp_ca wants ECN. This is required for DCTCP
- * congestion control: Linux DCTCP asserts ECT on all packets,
+ * congestion control: Peenux DCTCP asserts ECT on all packets,
  * including SYN, which is most optimal solution; however,
  * others, such as FreeBSD do not.
  *

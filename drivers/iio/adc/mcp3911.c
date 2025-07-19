@@ -5,27 +5,27 @@
  * Copyright (C) 2018 Marcus Folkesson <marcus.folkesson@gmail.com>
  * Copyright (C) 2018 Kent Gustavsson <kent@minoris.se>
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/dev_printk.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/trigger.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/trigger.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define MCP3911_REG_CHANNEL0		0x00
 #define MCP3911_REG_CHANNEL1		0x03

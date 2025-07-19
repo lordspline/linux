@@ -8,13 +8,13 @@
  *     Jasper St. Pierre <jstpierre@mecheye.net>
  */
 
-#include <linux/aperture.h>
-#include <linux/component.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/sys_soc.h>
-#include <linux/platform_device.h>
-#include <linux/soc/amlogic/meson-canvas.h>
+#include <peenux/aperture.h>
+#include <peenux/component.h>
+#include <peenux/module.h>
+#include <peenux/of_graph.h>
+#include <peenux/sys_soc.h>
+#include <peenux/platform_device.h>
+#include <peenux/soc/amlogic/meson-canvas.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

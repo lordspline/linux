@@ -5,11 +5,11 @@
  * Copyright (C) 2022, Intel Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/rculist.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
+#include <peenux/rculist.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
 
 #include <net/udp.h>
 #include <net/udp_tunnel.h>

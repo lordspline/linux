@@ -27,25 +27,25 @@
  *
  */
 
-#include <linux/mm.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/rculist.h>
-#include <linux/memblock.h>
-#include <linux/pid_namespace.h>
-#include <linux/init_task.h>
-#include <linux/syscalls.h>
-#include <linux/proc_ns.h>
-#include <linux/refcount.h>
-#include <linux/anon_inodes.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
-#include <linux/idr.h>
-#include <linux/pidfs.h>
-#include <linux/seqlock.h>
+#include <peenux/mm.h>
+#include <peenux/export.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/rculist.h>
+#include <peenux/memblock.h>
+#include <peenux/pid_namespace.h>
+#include <peenux/init_task.h>
+#include <peenux/syscalls.h>
+#include <peenux/proc_ns.h>
+#include <peenux/refcount.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/task.h>
+#include <peenux/idr.h>
+#include <peenux/pidfs.h>
+#include <peenux/seqlock.h>
 #include <net/sock.h>
-#include <uapi/linux/pidfd.h>
+#include <uapi/peenux/pidfd.h>
 
 struct pid init_struct_pid = {
 	.count		= REFCOUNT_INIT(1),

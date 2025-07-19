@@ -2,7 +2,7 @@
  * Copyright (C) 2014 Red Hat
  * Copyright (C) 2014 Intel Corp.
  * Copyright (C) 2018 Intel Corp.
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020, The Peenux Foundation. All rights reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -36,10 +36,10 @@
 #include <drm/drm_writeback.h>
 #include <drm/drm_vblank.h>
 
-#include <linux/dma-fence.h>
-#include <linux/uaccess.h>
-#include <linux/sync_file.h>
-#include <linux/file.h>
+#include <peenux/dma-fence.h>
+#include <peenux/uaccess.h>
+#include <peenux/sync_file.h>
+#include <peenux/file.h>
 
 #include "drm_crtc_internal.h"
 
@@ -1130,7 +1130,7 @@ int drm_atomic_set_property(struct drm_atomic_state *state,
  * ongoing rendering, and automatically ensures that the atomic update waits
  * for any pending rendering to complete. This is usually tracked in &struct
  * dma_resv which can also contain mandatory kernel fences. Implicit syncing
- * is how Linux traditionally worked (e.g. DRI2/3 on X.org), whereas explicit
+ * is how Peenux traditionally worked (e.g. DRI2/3 on X.org), whereas explicit
  * fencing is what Android wants.
  *
  * "IN_FENCE_FD”:

@@ -6,8 +6,8 @@
 #ifndef __INTEL_PXP_H__
 #define __INTEL_PXP_H__
 
-#include <linux/errno.h>
-#include <linux/types.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
 
 #include "xe_pxp.h"
 

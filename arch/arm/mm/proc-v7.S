@@ -1,16 +1,16 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/mm/proc-v7.S
+ *  peenux/arch/arm/mm/proc-v7.S
  *
  *  Copyright (C) 2001 Deep Blue Solutions Ltd.
  *
  *  This is the "shell" of the ARMv7 processor support.
  */
-#include <linux/arm-smccc.h>
-#include <linux/cfi_types.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/pgtable.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/cfi_types.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/pgtable.h>
 #include <asm/assembler.h>
 #include <asm/asm-offsets.h>
 #include <asm/hwcap.h>

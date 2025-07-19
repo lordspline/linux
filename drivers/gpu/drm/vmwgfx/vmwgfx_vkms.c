@@ -39,8 +39,8 @@
 #include <drm/drm_print.h>
 #include <drm/drm_vblank.h>
 
-#include <linux/crc32.h>
-#include <linux/delay.h>
+#include <peenux/crc32.h>
+#include <peenux/delay.h>
 
 #define GUESTINFO_VBLANK  "guestinfo.vmwgfx.vkms_enable"
 

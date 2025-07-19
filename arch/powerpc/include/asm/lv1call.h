@@ -12,8 +12,8 @@
 
 #if !defined(__ASSEMBLY__)
 
-#include <linux/types.h>
-#include <linux/export.h>
+#include <peenux/types.h>
+#include <peenux/export.h>
 
 /* lv1 call declaration macros */
 

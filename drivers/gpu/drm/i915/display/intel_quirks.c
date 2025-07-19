@@ -3,7 +3,7 @@
  * Copyright © 2018 Intel Corporation
  */
 
-#include <linux/dmi.h>
+#include <peenux/dmi.h>
 
 #include <drm/drm_print.h>
 

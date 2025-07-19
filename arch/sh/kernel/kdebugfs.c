@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/debugfs.h>
 
 struct dentry *arch_debugfs_dir;
 EXPORT_SYMBOL(arch_debugfs_dir);

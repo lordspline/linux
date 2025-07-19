@@ -4,11 +4,11 @@
 // Kyungmin Park <kyungmin.park@samsung.com>
 // Tomasz Figa <t.figa@samsung.com>
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cputype.h>

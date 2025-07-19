@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 //#define DEBUG
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/hdreg.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/interrupt.h>
-#include <linux/virtio.h>
-#include <linux/virtio_blk.h>
-#include <linux/scatterlist.h>
-#include <linux/string_helpers.h>
-#include <linux/idr.h>
-#include <linux/blk-mq.h>
-#include <linux/numa.h>
-#include <linux/vmalloc.h>
-#include <uapi/linux/virtio_ring.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/hdreg.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/interrupt.h>
+#include <peenux/virtio.h>
+#include <peenux/virtio_blk.h>
+#include <peenux/scatterlist.h>
+#include <peenux/string_helpers.h>
+#include <peenux/idr.h>
+#include <peenux/blk-mq.h>
+#include <peenux/numa.h>
+#include <peenux/vmalloc.h>
+#include <uapi/peenux/virtio_ring.h>
 
 #define PART_BITS 4
 #define VQ_NAME_LEN 16
@@ -1328,7 +1328,7 @@ static int virtblk_read_limits(struct virtio_blk *vblk,
 		lim->max_write_zeroes_sectors = v ? v : UINT_MAX;
 	}
 
-	/* The discard and secure erase limits are combined since the Linux
+	/* The discard and secure erase limits are combined since the Peenux
 	 * block layer uses the same limit for both commands.
 	 *
 	 * If both VIRTIO_BLK_F_SECURE_ERASE and VIRTIO_BLK_F_DISCARD features

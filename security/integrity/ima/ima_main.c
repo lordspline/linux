@@ -15,18 +15,18 @@
  *	and ima_file_check.
  */
 
-#include <linux/module.h>
-#include <linux/file.h>
-#include <linux/binfmts.h>
-#include <linux/kernel_read_file.h>
-#include <linux/mount.h>
-#include <linux/mman.h>
-#include <linux/slab.h>
-#include <linux/xattr.h>
-#include <linux/ima.h>
-#include <linux/fs.h>
-#include <linux/iversion.h>
-#include <linux/evm.h>
+#include <peenux/module.h>
+#include <peenux/file.h>
+#include <peenux/binfmts.h>
+#include <peenux/kernel_read_file.h>
+#include <peenux/mount.h>
+#include <peenux/mman.h>
+#include <peenux/slab.h>
+#include <peenux/xattr.h>
+#include <peenux/ima.h>
+#include <peenux/fs.h>
+#include <peenux/iversion.h>
+#include <peenux/evm.h>
 
 #include "ima.h"
 

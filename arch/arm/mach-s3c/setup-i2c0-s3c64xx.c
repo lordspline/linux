@@ -7,13 +7,13 @@
 //
 // Base S3C64XX I2C bus 0 gpio configuration
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/gpio.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/gpio.h>
 
 struct platform_device; /* don't need the contents */
 
-#include <linux/platform_data/i2c-s3c2410.h>
+#include <peenux/platform_data/i2c-s3c2410.h>
 #include "gpio-cfg.h"
 #include "gpio-samsung.h"
 

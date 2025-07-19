@@ -7,11 +7,11 @@
 //
 // Base S3C64XX UART resource and device definitions
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/platform_device.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/irq.h>

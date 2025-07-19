@@ -10,11 +10,11 @@
 
 #define DEBUG /* So dev_dbg() is always available. */
 
-#include <linux/kernel.h> /* For printk. */
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/ipmi_msgdefs.h>		/* for completion codes */
+#include <peenux/kernel.h> /* For printk. */
+#include <peenux/string.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/ipmi_msgdefs.h>		/* for completion codes */
 #include "ipmi_si_sm.h"
 
 #define BT_DEBUG_OFF	0	/* Used in production */

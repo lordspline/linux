@@ -12,17 +12,17 @@
 
 /*************************** INCLUDES *****************************************/
 
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/major.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/mempool.h>
-#include <linux/syscalls.h>
-#include <linux/scatterlist.h>
-#include <linux/ioctl.h>
+#include <peenux/init.h>
+#include <peenux/moduleparam.h>
+#include <peenux/major.h>
+#include <peenux/blkdev.h>
+#include <peenux/delay.h>
+#include <peenux/timer.h>
+#include <peenux/slab.h>
+#include <peenux/mempool.h>
+#include <peenux/syscalls.h>
+#include <peenux/scatterlist.h>
+#include <peenux/ioctl.h>
 #include <scsi/fc/fc_fs.h>
 #include <scsi/fc/fc_gs.h>
 #include <scsi/scsi.h>

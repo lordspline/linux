@@ -7,7 +7,7 @@
 
 #include "habanalabs.h"
 
-#include <linux/slab.h>
+#include <peenux/slab.h>
 
 int hl_asid_init(struct hl_device *hdev)
 {

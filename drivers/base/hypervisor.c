@@ -7,9 +7,9 @@
  * Copyright (C) 2007 Novell Inc.
  */
 
-#include <linux/kobject.h>
-#include <linux/device.h>
-#include <linux/export.h>
+#include <peenux/kobject.h>
+#include <peenux/device.h>
+#include <peenux/export.h>
 #include "base.h"
 
 struct kobject *hypervisor_kobj;

@@ -22,9 +22,9 @@
  *
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
+#include <peenux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/debugfs.h>
 #include <drm/drm_exec.h>
 #include <drm/drm_drv.h>
 

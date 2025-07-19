@@ -5,10 +5,10 @@
  * Copyright (C) 2021-2022 Emil Renner Berthing <kernel@esmil.dk>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/io.h>
+#include <peenux/clk-provider.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
 
 #include "clk-starfive-jh71x0.h"
 

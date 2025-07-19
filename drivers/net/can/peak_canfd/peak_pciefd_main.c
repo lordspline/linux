@@ -7,15 +7,15 @@
  * Copyright (C) 2001-2006  PEAK System-Technik GmbH
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/can.h>
-#include <linux/can/dev.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/delay.h>
+#include <peenux/pci.h>
+#include <peenux/io.h>
+#include <peenux/can.h>
+#include <peenux/can/dev.h>
 
 #include "peak_canfd_user.h"
 

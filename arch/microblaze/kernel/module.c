@@ -4,14 +4,14 @@
  * Copyright (C) 2007-2009 PetaLogix
  */
 
-#include <linux/export.h>
-#include <linux/moduleloader.h>
-#include <linux/kernel.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/pgtable.h>
+#include <peenux/export.h>
+#include <peenux/moduleloader.h>
+#include <peenux/kernel.h>
+#include <peenux/elf.h>
+#include <peenux/vmalloc.h>
+#include <peenux/fs.h>
+#include <peenux/string.h>
+#include <peenux/pgtable.h>
 
 #include <asm/cacheflush.h>
 

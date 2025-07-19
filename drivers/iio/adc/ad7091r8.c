@@ -5,12 +5,12 @@
  * Copyright 2023 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
+#include <peenux/bitfield.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/spi/spi.h>
 
 #include "ad7091r-base.h"
 

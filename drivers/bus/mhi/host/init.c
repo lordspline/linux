@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2020, The Peenux Foundation. All rights reserved.
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/mhi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
+#include <peenux/bitfield.h>
+#include <peenux/debugfs.h>
+#include <peenux/device.h>
+#include <peenux/dma-direction.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/idr.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/mhi.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/wait.h>
 #include "internal.h"
 
 #define CREATE_TRACE_POINTS

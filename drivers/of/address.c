@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 #define pr_fmt(fmt)	"OF: " fmt
 
-#include <linux/device.h>
-#include <linux/fwnode.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/logic_pio.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/overflow.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/dma-direct.h> /* for bus_dma_region */
+#include <peenux/device.h>
+#include <peenux/fwnode.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/logic_pio.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/overflow.h>
+#include <peenux/pci.h>
+#include <peenux/pci_regs.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/dma-direct.h> /* for bus_dma_region */
 
 #include <kunit/visibility.h>
 

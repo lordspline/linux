@@ -9,8 +9,8 @@
 #if !defined(_XE_TRACE_LRC_H_) || defined(TRACE_HEADER_MULTI_READ)
 #define _XE_TRACE_LRC_H_
 
-#include <linux/tracepoint.h>
-#include <linux/types.h>
+#include <peenux/tracepoint.h>
+#include <peenux/types.h>
 
 #include "xe_gt_types.h"
 #include "xe_lrc.h"

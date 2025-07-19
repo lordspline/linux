@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/quota.h>
-#include <linux/quotaops.h>
-#include <linux/dqblk_v1.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <peenux/errno.h>
+#include <peenux/fs.h>
+#include <peenux/quota.h>
+#include <peenux/quotaops.h>
+#include <peenux/dqblk_v1.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
 
 #include <asm/byteorder.h>
 

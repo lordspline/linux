@@ -10,13 +10,13 @@
  * Copyright 2022 Google LLC.
  */
 
-#include <linux/acpi.h>
-#include <linux/fs.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <peenux/acpi.h>
+#include <peenux/fs.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/i2c.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
 
 #define HPS_ACPI_ID		"GOOG0020"
 

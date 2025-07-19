@@ -4,13 +4,13 @@
 #ifndef _LM_H_
 #define _LM_H_
 
-#include <linux/fs.h>
-#include <linux/mutex.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
+#include <peenux/fs.h>
+#include <peenux/mutex.h>
+#include <peenux/scatterlist.h>
+#include <peenux/types.h>
 
-#include <linux/pds/pds_common.h>
-#include <linux/pds/pds_adminq.h>
+#include <peenux/pds/pds_common.h>
+#include <peenux/pds/pds_adminq.h>
 
 struct pds_vfio_lm_file {
 	struct file *filep;

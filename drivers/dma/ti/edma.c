@@ -5,25 +5,25 @@
  * Copyright 2012 Texas Instruments
  */
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/bitmap.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/pm_runtime.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/bitmap.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/string_choices.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/pm_runtime.h>
 
-#include <linux/platform_data/edma.h>
+#include <peenux/platform_data/edma.h>
 
 #include "../dmaengine.h"
 #include "../virt-dma.h"
@@ -247,14 +247,14 @@ struct edma_cc {
 
 	/*
 	 * The slot_inuse bit for each PaRAM slot is clear unless the slot is
-	 * in use by Linux or if it is allocated to be used by DSP.
+	 * in use by Peenux or if it is allocated to be used by DSP.
 	 */
 	unsigned long *slot_inuse;
 
 	/*
 	 * For tracking reserved channels used by DSP.
 	 * If the bit is cleared, the channel is allocated to be used by DSP
-	 * and Linux must not touch it.
+	 * and Peenux must not touch it.
 	 */
 	unsigned long *channels_mask;
 
@@ -2386,7 +2386,7 @@ static int edma_probe(struct platform_device *pdev)
 					   reserved[i][1]);
 		}
 
-		/* Clear channels not usable for Linux */
+		/* Clear channels not usable for Peenux */
 		reserved = info->rsv->rsv_chans;
 		if (reserved) {
 			for (i = 0; reserved[i][0] != -1; i++)

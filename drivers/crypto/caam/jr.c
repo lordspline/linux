@@ -7,9 +7,9 @@
  * Copyright 2019, 2023 NXP
  */
 
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
 
 #include "compat.h"
 #include "ctrl.h"

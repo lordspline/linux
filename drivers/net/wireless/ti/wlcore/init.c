@@ -7,9 +7,9 @@
  * Contact: Luciano Coelho <luciano.coelho@nokia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
 #include "debug.h"
 #include "init.h"

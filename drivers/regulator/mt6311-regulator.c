@@ -3,17 +3,17 @@
 // Copyright (c) 2015 MediaTek Inc.
 // Author: Henry Chen <henryc.chen@mediatek.com>
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/mt6311.h>
-#include <linux/slab.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/regulator/mt6311.h>
+#include <peenux/slab.h>
 #include "mt6311-regulator.h"
 
 static const struct regmap_config mt6311_regmap_config = {

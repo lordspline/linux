@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2021 Facebook */
-#include <linux/stddef.h>
-#include <linux/bpf.h>
+#include <peenux/stddef.h>
+#include <peenux/bpf.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
-#include <../../../tools/include/linux/filter.h>
-#include <linux/btf.h>
+#include <../../../tools/include/peenux/filter.h>
+#include <peenux/btf.h>
 #include <string.h>
 #include <errno.h>
 #include "bpf_misc.h"

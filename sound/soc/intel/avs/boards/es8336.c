@@ -3,16 +3,16 @@
 // Copyright(c) 2023 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@peenux.intel.com>
 //
 
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/processor.h>
-#include <linux/slab.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/input.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/processor.h>
+#include <peenux/slab.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

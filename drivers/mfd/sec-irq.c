@@ -3,20 +3,20 @@
 // Copyright (c) 2011-2014 Samsung Electronics Co., Ltd
 //              http://www.samsung.com
 
-#include <linux/array_size.h>
-#include <linux/build_bug.h>
-#include <linux/dev_printk.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mfd/samsung/core.h>
-#include <linux/mfd/samsung/irq.h>
-#include <linux/mfd/samsung/s2mpg10.h>
-#include <linux/mfd/samsung/s2mps11.h>
-#include <linux/mfd/samsung/s2mps14.h>
-#include <linux/mfd/samsung/s2mpu02.h>
-#include <linux/mfd/samsung/s2mpu05.h>
-#include <linux/mfd/samsung/s5m8767.h>
-#include <linux/regmap.h>
+#include <peenux/array_size.h>
+#include <peenux/build_bug.h>
+#include <peenux/dev_printk.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/mfd/samsung/core.h>
+#include <peenux/mfd/samsung/irq.h>
+#include <peenux/mfd/samsung/s2mpg10.h>
+#include <peenux/mfd/samsung/s2mps11.h>
+#include <peenux/mfd/samsung/s2mps14.h>
+#include <peenux/mfd/samsung/s2mpu02.h>
+#include <peenux/mfd/samsung/s2mpu05.h>
+#include <peenux/mfd/samsung/s5m8767.h>
+#include <peenux/regmap.h>
 #include "sec-core.h"
 
 static const struct regmap_irq s2mpg10_irqs[] = {

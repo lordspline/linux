@@ -3,11 +3,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/livepatch.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/livepatch.h>
 
-#include <linux/seq_file.h>
+#include <peenux/seq_file.h>
 static int livepatch_cmdline_proc_show(struct seq_file *m, void *v)
 {
 	seq_printf(m, "%s: %s\n", THIS_MODULE->name,

@@ -9,10 +9,10 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/firmware.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/firmware.h>
 #include "cypress_firmware.h"
 
 struct usb_cypress_controller {

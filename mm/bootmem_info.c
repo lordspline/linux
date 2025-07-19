@@ -7,12 +7,12 @@
  *     Author: Muchun Song <songmuchun@bytedance.com>
  *
  */
-#include <linux/mm.h>
-#include <linux/compiler.h>
-#include <linux/memblock.h>
-#include <linux/bootmem_info.h>
-#include <linux/memory_hotplug.h>
-#include <linux/kmemleak.h>
+#include <peenux/mm.h>
+#include <peenux/compiler.h>
+#include <peenux/memblock.h>
+#include <peenux/bootmem_info.h>
+#include <peenux/memory_hotplug.h>
+#include <peenux/kmemleak.h>
 
 void get_page_bootmem(unsigned long info, struct page *page,
 		enum bootmem_type type)

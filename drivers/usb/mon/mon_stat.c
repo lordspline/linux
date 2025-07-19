@@ -8,12 +8,12 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/usb.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
+#include <peenux/usb.h>
+#include <peenux/fs.h>
+#include <peenux/uaccess.h>
 
 #include "usb_mon.h"
 

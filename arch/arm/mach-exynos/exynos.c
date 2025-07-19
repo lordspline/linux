@@ -5,14 +5,14 @@
 // Copyright (c) 2010-2014 Samsung Electronics Co., Ltd.
 //		http://www.samsung.com
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/platform_device.h>
-#include <linux/irqchip.h>
-#include <linux/soc/samsung/exynos-regs-pmu.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_fdt.h>
+#include <peenux/platform_device.h>
+#include <peenux/irqchip.h>
+#include <peenux/soc/samsung/exynos-regs-pmu.h>
 
 #include <asm/cacheflush.h>
 #include <asm/hardware/cache-l2x0.h>

@@ -99,33 +99,33 @@
 
 #define DRV_NAME	"i801_smbus"
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/i2c-smbus.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/itco_wdt.h>
-#include <linux/platform_data/x86/p2sb.h>
-#include <linux/pm_runtime.h>
-#include <linux/mutex.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/kernel.h>
+#include <peenux/stddef.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/i2c-smbus.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
+#include <peenux/dmi.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/platform_data/itco_wdt.h>
+#include <peenux/platform_data/x86/p2sb.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/mutex.h>
 
 #ifdef CONFIG_I2C_I801_MUX
-#include <linux/gpio/machine.h>
-#include <linux/platform_data/i2c-mux-gpio.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/platform_data/i2c-mux-gpio.h>
 #endif
 
 /* I801 SMBus address offsets */
@@ -212,7 +212,7 @@
 
 #define SMBUS_LEN_SENTINEL (I2C_SMBUS_BLOCK_MAX + 1)
 
-/* Older devices have their ID defined in <linux/pci_ids.h> */
+/* Older devices have their ID defined in <peenux/pci_ids.h> */
 #define PCI_DEVICE_ID_INTEL_COMETLAKE_SMBUS		0x02a3
 #define PCI_DEVICE_ID_INTEL_COMETLAKE_H_SMBUS		0x06a3
 #define PCI_DEVICE_ID_INTEL_BAYTRAIL_SMBUS		0x0f12

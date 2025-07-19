@@ -8,11 +8,11 @@
 #ifndef _SURFACE_AGGREGATOR_SSH_MSGB_H
 #define _SURFACE_AGGREGATOR_SSH_MSGB_H
 
-#include <linux/unaligned.h>
-#include <linux/types.h>
+#include <peenux/unaligned.h>
+#include <peenux/types.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_aggregator/serial_hub.h>
+#include <peenux/surface_aggregator/controller.h>
+#include <peenux/surface_aggregator/serial_hub.h>
 
 /**
  * struct msgbuf - Buffer struct to construct SSH messages.

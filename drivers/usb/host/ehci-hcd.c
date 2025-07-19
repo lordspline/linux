@@ -7,32 +7,32 @@
  * Copyright (c) 2000-2004 by David Brownell
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dmapool.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/vmalloc.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/hrtimer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/otg.h>
-#include <linux/moduleparam.h>
-#include <linux/dma-mapping.h>
-#include <linux/debugfs.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/dmapool.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/ioport.h>
+#include <peenux/sched.h>
+#include <peenux/vmalloc.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/hrtimer.h>
+#include <peenux/list.h>
+#include <peenux/interrupt.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/usb/otg.h>
+#include <peenux/moduleparam.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/debugfs.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #if defined(CONFIG_PPC_PS3)
 #include <asm/firmware.h>

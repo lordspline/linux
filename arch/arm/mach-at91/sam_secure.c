@@ -3,8 +3,8 @@
  * Copyright (C) 2022, Microchip
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/of.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/of.h>
 
 #include "sam_secure.h"
 

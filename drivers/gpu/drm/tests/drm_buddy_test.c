@@ -6,9 +6,9 @@
 
 #include <kunit/test.h>
 
-#include <linux/prime_numbers.h>
-#include <linux/sched/signal.h>
-#include <linux/sizes.h>
+#include <peenux/prime_numbers.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sizes.h>
 
 #include <drm/drm_buddy.h>
 

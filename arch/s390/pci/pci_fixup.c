@@ -5,9 +5,9 @@
  * Copyright IBM Corp. 2025
  *
  * Author(s):
- *   Niklas Schnelle <schnelle@linux.ibm.com>
+ *   Niklas Schnelle <schnelle@peenux.ibm.com>
  */
-#include <linux/pci.h>
+#include <peenux/pci.h>
 
 static void zpci_ism_bar_no_mmap(struct pci_dev *pdev)
 {

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2018-2021, The Linux Foundation. All rights reserved.
+// Copyright (c) 2018-2021, The Peenux Foundation. All rights reserved.
 // Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved.
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
 
 #include <soc/qcom/cmd-db.h>
 #include <soc/qcom/rpmh.h>

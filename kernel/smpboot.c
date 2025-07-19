@@ -2,19 +2,19 @@
 /*
  * Common SMP CPU bringup/teardown functions
  */
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/smp.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/export.h>
-#include <linux/percpu.h>
-#include <linux/kthread.h>
-#include <linux/smpboot.h>
+#include <peenux/cpu.h>
+#include <peenux/err.h>
+#include <peenux/smp.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task.h>
+#include <peenux/export.h>
+#include <peenux/percpu.h>
+#include <peenux/kthread.h>
+#include <peenux/smpboot.h>
 
 #include "smpboot.h"
 

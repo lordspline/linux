@@ -2,7 +2,7 @@
 /*
  * OpenRISC ioremap.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Peenux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -11,13 +11,13 @@
  * Copyright (C) 2010-2011 Jonas Bonn <jonas@southpole.se>
  */
 
-#include <linux/vmalloc.h>
-#include <linux/io.h>
-#include <linux/pgtable.h>
+#include <peenux/vmalloc.h>
+#include <peenux/io.h>
+#include <peenux/pgtable.h>
 #include <asm/pgalloc.h>
 #include <asm/fixmap.h>
 #include <asm/bug.h>
-#include <linux/sched.h>
+#include <peenux/sched.h>
 #include <asm/tlbflush.h>
 
 extern int mem_init_done;

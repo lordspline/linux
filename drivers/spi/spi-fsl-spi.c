@@ -15,24 +15,24 @@
  * Copyright (c) 2012 Aeroflex Gaisler AB.
  * Author: Andreas Larsson <andreas@gaisler.com>
  */
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/fsl_devices.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/fsl_devices.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spi/spi_bitbang.h>
+#include <peenux/types.h>
 
 #ifdef CONFIG_FSL_SOC
 #include <sysdev/fsl_soc.h>

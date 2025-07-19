@@ -6,10 +6,10 @@
 #ifndef _FNIC_H_
 #define _FNIC_H_
 
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
-#include <linux/bitops.h>
+#include <peenux/interrupt.h>
+#include <peenux/netdevice.h>
+#include <peenux/workqueue.h>
+#include <peenux/bitops.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_transport.h>
 #include <scsi/scsi_transport_fc.h>

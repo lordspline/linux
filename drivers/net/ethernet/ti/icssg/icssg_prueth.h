@@ -8,31 +8,31 @@
 #ifndef __NET_TI_ICSSG_PRUETH_H
 #define __NET_TI_ICSSG_PRUETH_H
 
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
-#include <linux/etherdevice.h>
-#include <linux/genalloc.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/net_tstamp.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/phy.h>
-#include <linux/remoteproc/pruss.h>
-#include <linux/pruss_driver.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/remoteproc.h>
+#include <peenux/bpf.h>
+#include <peenux/bpf_trace.h>
+#include <peenux/etherdevice.h>
+#include <peenux/genalloc.h>
+#include <peenux/if_vlan.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/net_tstamp.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_mdio.h>
+#include <peenux/of_net.h>
+#include <peenux/of_platform.h>
+#include <peenux/phy.h>
+#include <peenux/remoteproc/pruss.h>
+#include <peenux/pruss_driver.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/remoteproc.h>
 
-#include <linux/dma-mapping.h>
-#include <linux/dma/ti-cppi5.h>
-#include <linux/dma/k3-udma-glue.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dma/ti-cppi5.h>
+#include <peenux/dma/k3-udma-glue.h>
 
 #include <net/devlink.h>
 #include <net/xdp.h>
@@ -94,10 +94,10 @@
 #define MAX_VLAN_ID		256
 
 /* In switch mode there are 3 real ports i.e. 3 mac addrs.
- * however Linux sees only the host side port. The other 2 ports
+ * however Peenux sees only the host side port. The other 2 ports
  * are the switch ports.
  * In emac mode there are 2 real ports i.e. 2 mac addrs.
- * Linux sees both the ports.
+ * Peenux sees both the ports.
  */
 enum prueth_port {
 	PRUETH_PORT_HOST = 0,	/* host side port */

@@ -3,10 +3,10 @@
 //
 // Copyright (C) 2016 Google, Inc
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/mutex.h>
+#include <peenux/types.h>
 
 #include "cros_ec_lpc_mec.h"
 

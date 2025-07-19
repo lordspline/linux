@@ -3,8 +3,8 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
+#include <peenux/kobject.h>
+#include <peenux/sysfs.h>
 
 #include "i915_drv.h"
 #include "intel_engine.h"

@@ -10,18 +10,18 @@
  *          Suman Anna <s-anna@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/hwspinlock.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/bitops.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/hwspinlock.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include "hwspinlock_internal.h"
 

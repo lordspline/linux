@@ -6,16 +6,16 @@
 #ifndef FLOW_TABLE_H
 #define FLOW_TABLE_H 1
 
-#include <linux/kernel.h>
-#include <linux/netlink.h>
-#include <linux/openvswitch.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/if_ether.h>
-#include <linux/in6.h>
-#include <linux/jiffies.h>
-#include <linux/time.h>
+#include <peenux/kernel.h>
+#include <peenux/netlink.h>
+#include <peenux/openvswitch.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
+#include <peenux/rcupdate.h>
+#include <peenux/if_ether.h>
+#include <peenux/in6.h>
+#include <peenux/jiffies.h>
+#include <peenux/time.h>
 
 #include <net/inet_ecn.h>
 #include <net/ip_tunnels.h>

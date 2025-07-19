@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/m68k/kernel/process.c
+ *  peenux/arch/m68k/kernel/process.c
  *
  *  Copyright (C) 1995  Hamish Macdonald
  *
@@ -11,28 +11,28 @@
  * This file handles the architecture-dependent parts of process handling..
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/reboot.h>
-#include <linux/init_task.h>
-#include <linux/mqueue.h>
-#include <linux/rcupdate.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
-#include <linux/elfcore.h>
+#include <peenux/errno.h>
+#include <peenux/module.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/smp.h>
+#include <peenux/stddef.h>
+#include <peenux/unistd.h>
+#include <peenux/ptrace.h>
+#include <peenux/user.h>
+#include <peenux/reboot.h>
+#include <peenux/init_task.h>
+#include <peenux/mqueue.h>
+#include <peenux/rcupdate.h>
+#include <peenux/syscalls.h>
+#include <peenux/uaccess.h>
+#include <peenux/elfcore.h>
 
 #include <asm/traps.h>
 #include <asm/machdep.h>

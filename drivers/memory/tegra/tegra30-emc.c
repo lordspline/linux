@@ -9,25 +9,25 @@
  * Copyright (C) 2019 GRATE-DRIVER project
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk/tegra.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interconnect-provider.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/clk/tegra.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_opp.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
+#include <peenux/types.h>
 
 #include <soc/tegra/common.h>
 #include <soc/tegra/fuse.h>

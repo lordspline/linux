@@ -31,24 +31,24 @@
  *
  */
 
-#include <linux/bpf.h>
-#include <linux/etherdevice.h>
-#include <linux/filter.h>
-#include <linux/tcp.h>
-#include <linux/if_vlan.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/hash.h>
+#include <peenux/bpf.h>
+#include <peenux/etherdevice.h>
+#include <peenux/filter.h>
+#include <peenux/tcp.h>
+#include <peenux/if_vlan.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/hash.h>
 #include <net/ip.h>
 #include <net/vxlan.h>
 #include <net/devlink.h>
 #include <net/rps.h>
 #include <net/netdev_queues.h>
 
-#include <linux/mlx4/driver.h>
-#include <linux/mlx4/device.h>
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/cq.h>
+#include <peenux/mlx4/driver.h>
+#include <peenux/mlx4/device.h>
+#include <peenux/mlx4/cmd.h>
+#include <peenux/mlx4/cq.h>
 
 #include "mlx4_en.h"
 #include "en_port.h"

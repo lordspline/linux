@@ -5,14 +5,14 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
-#include <linux/hw_random.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/random.h>
+#include <peenux/hw_random.h>
 
 #define HOST_REV_ID		0x00
 #define HOST_FIFO_DEPTH		0x04

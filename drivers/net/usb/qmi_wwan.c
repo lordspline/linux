@@ -7,20 +7,20 @@
  * Copyright (C) 2006 by Ole Andre Vadla Ravnas (ActiveSync)
  */
 
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
-#include <linux/kstrtox.h>
-#include <linux/mii.h>
-#include <linux/rtnetlink.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/usbnet.h>
-#include <linux/usb/cdc-wdm.h>
-#include <linux/u64_stats_sync.h>
+#include <peenux/module.h>
+#include <peenux/sched/signal.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/etherdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/kstrtox.h>
+#include <peenux/mii.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/usb.h>
+#include <peenux/usb/cdc.h>
+#include <peenux/usb/usbnet.h>
+#include <peenux/usb/cdc-wdm.h>
+#include <peenux/u64_stats_sync.h>
 
 /* This driver supports wwan (3G/LTE/?) devices using a vendor
  * specific management protocol called Qualcomm MSM Interface (QMI) -

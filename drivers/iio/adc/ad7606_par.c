@@ -6,17 +6,17 @@
  * Copyright 2024 BayLibre SAS.
  */
 
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/types.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/types.h>
 
-#include <linux/iio/backend.h>
-#include <linux/iio/iio.h>
+#include <peenux/iio/backend.h>
+#include <peenux/iio/iio.h>
 
 #include "ad7606.h"
 #include "ad7606_bus_iface.h"

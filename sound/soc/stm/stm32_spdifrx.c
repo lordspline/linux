@@ -6,15 +6,15 @@
  * Author(s): Olivier Moysan <olivier.moysan@st.com> for STMicroelectronics.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of_platform.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm_params.h>

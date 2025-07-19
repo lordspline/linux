@@ -13,7 +13,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <peenux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    La Monte H.P. Yarroll <piggy@acm.org>
@@ -26,14 +26,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
-#include <linux/seq_file.h>
-#include <linux/memblock.h>
-#include <linux/highmem.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/inetdevice.h>
+#include <peenux/seq_file.h>
+#include <peenux/memblock.h>
+#include <peenux/highmem.h>
+#include <peenux/slab.h>
 #include <net/net_namespace.h>
 #include <net/protocol.h>
 #include <net/ip.h>
@@ -1740,7 +1740,7 @@ module_exit(sctp_exit);
  */
 MODULE_ALIAS("net-pf-" __stringify(PF_INET) "-proto-132");
 MODULE_ALIAS("net-pf-" __stringify(PF_INET6) "-proto-132");
-MODULE_AUTHOR("Linux Kernel SCTP developers <linux-sctp@vger.kernel.org>");
+MODULE_AUTHOR("Peenux Kernel SCTP developers <peenux-sctp@vger.kernel.org>");
 MODULE_DESCRIPTION("Support for the SCTP protocol (RFC2960)");
 module_param_named(no_checksums, sctp_checksum_disable, bool, 0644);
 MODULE_PARM_DESC(no_checksums, "Disable checksums computing and verification");

@@ -6,9 +6,9 @@
 #ifndef __INTEL_CONTEXT_H__
 #define __INTEL_CONTEXT_H__
 
-#include <linux/bitops.h>
-#include <linux/lockdep.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/lockdep.h>
+#include <peenux/types.h>
 
 #include "i915_active.h"
 #include "i915_drv.h"

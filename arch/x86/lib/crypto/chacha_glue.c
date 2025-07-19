@@ -7,10 +7,10 @@
 
 #include <asm/simd.h>
 #include <crypto/chacha.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
+#include <peenux/jump_label.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sizes.h>
 
 asmlinkage void chacha_block_xor_ssse3(const struct chacha_state *state,
 				       u8 *dst, const u8 *src,

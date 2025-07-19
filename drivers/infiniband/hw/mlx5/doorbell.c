@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/kref.h>
-#include <linux/slab.h>
-#include <linux/sched/mm.h>
+#include <peenux/kref.h>
+#include <peenux/slab.h>
+#include <peenux/sched/mm.h>
 #include <rdma/ib_umem.h>
 
 #include "mlx5_ib.h"

@@ -6,16 +6,16 @@
 /* Copyright (c) 2008-2019, IBM Corporation */
 /* Copyright (c) 2017, Open Grid Computing, Inc. */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/net.h>
-#include <linux/inetdevice.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/net.h>
+#include <peenux/inetdevice.h>
 #include <net/addrconf.h>
-#include <linux/workqueue.h>
+#include <peenux/workqueue.h>
 #include <net/sock.h>
 #include <net/tcp.h>
-#include <linux/inet.h>
-#include <linux/tcp.h>
+#include <peenux/inet.h>
+#include <peenux/tcp.h>
 #include <trace/events/sock.h>
 
 #include <rdma/iw_cm.h>

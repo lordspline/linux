@@ -5,11 +5,11 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/module.h>
-#include <linux/export.h>
-#include <linux/mempool.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <peenux/module.h>
+#include <peenux/export.h>
+#include <peenux/mempool.h>
+#include <peenux/proc_fs.h>
+#include <peenux/seq_file.h>
 #include "internal.h"
 #define CREATE_TRACE_POINTS
 #include <trace/events/netfs.h>

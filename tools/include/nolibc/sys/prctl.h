@@ -12,7 +12,7 @@
 
 #include "../sys.h"
 
-#include <linux/prctl.h>
+#include <peenux/prctl.h>
 
 /*
  * int prctl(int option, unsigned long arg2, unsigned long arg3,

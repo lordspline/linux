@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Memory Migration functionality - linux/mm/migrate.c
+ * Memory Migration functionality - peenux/mm/migrate.c
  *
  * Copyright (C) 2006 Silicon Graphics, Inc., Christoph Lameter
  *
@@ -13,37 +13,37 @@
  * Christoph Lameter
  */
 
-#include <linux/migrate.h>
-#include <linux/export.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/pagemap.h>
-#include <linux/buffer_head.h>
-#include <linux/mm_inline.h>
-#include <linux/ksm.h>
-#include <linux/rmap.h>
-#include <linux/topology.h>
-#include <linux/cpu.h>
-#include <linux/cpuset.h>
-#include <linux/writeback.h>
-#include <linux/mempolicy.h>
-#include <linux/vmalloc.h>
-#include <linux/security.h>
-#include <linux/backing-dev.h>
-#include <linux/compaction.h>
-#include <linux/syscalls.h>
-#include <linux/compat.h>
-#include <linux/hugetlb.h>
-#include <linux/gfp.h>
-#include <linux/pfn_t.h>
-#include <linux/page_idle.h>
-#include <linux/page_owner.h>
-#include <linux/sched/mm.h>
-#include <linux/ptrace.h>
-#include <linux/memory.h>
-#include <linux/sched/sysctl.h>
-#include <linux/memory-tiers.h>
-#include <linux/pagewalk.h>
+#include <peenux/migrate.h>
+#include <peenux/export.h>
+#include <peenux/swap.h>
+#include <peenux/swapops.h>
+#include <peenux/pagemap.h>
+#include <peenux/buffer_head.h>
+#include <peenux/mm_inline.h>
+#include <peenux/ksm.h>
+#include <peenux/rmap.h>
+#include <peenux/topology.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuset.h>
+#include <peenux/writeback.h>
+#include <peenux/mempolicy.h>
+#include <peenux/vmalloc.h>
+#include <peenux/security.h>
+#include <peenux/backing-dev.h>
+#include <peenux/compaction.h>
+#include <peenux/syscalls.h>
+#include <peenux/compat.h>
+#include <peenux/hugetlb.h>
+#include <peenux/gfp.h>
+#include <peenux/pfn_t.h>
+#include <peenux/page_idle.h>
+#include <peenux/page_owner.h>
+#include <peenux/sched/mm.h>
+#include <peenux/ptrace.h>
+#include <peenux/memory.h>
+#include <peenux/sched/sysctl.h>
+#include <peenux/memory-tiers.h>
+#include <peenux/pagewalk.h>
 
 #include <asm/tlbflush.h>
 

@@ -5,16 +5,16 @@
  * Copyright (C) 2022 Marek Vasut <marex@denx.de>
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/slab.h>
 
 #include <dt-bindings/clock/imx8mp-clock.h>
 

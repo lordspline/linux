@@ -8,20 +8,20 @@
  *  Copyright (C) 1997,1998 Jakub Jelinek   (jj@sunsite.mff.cuni.cz)
  */
 
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/binfmts.h>
-#include <linux/compat.h>
-#include <linux/bitops.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/signal.h>
+#include <peenux/errno.h>
+#include <peenux/wait.h>
+#include <peenux/ptrace.h>
+#include <peenux/unistd.h>
+#include <peenux/mm.h>
+#include <peenux/tty.h>
+#include <peenux/binfmts.h>
+#include <peenux/compat.h>
+#include <peenux/bitops.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/ptrace.h>
 #include <asm/psrcompat.h>
 #include <asm/fpumacro.h>

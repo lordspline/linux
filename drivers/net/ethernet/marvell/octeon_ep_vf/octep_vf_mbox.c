@@ -4,10 +4,10 @@
  * Copyright (C) 2020 Marvell.
  *
  */
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/netdevice.h>
+#include <peenux/vmalloc.h>
 #include "octep_vf_config.h"
 #include "octep_vf_main.h"
 

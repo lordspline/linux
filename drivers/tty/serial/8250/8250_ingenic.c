@@ -6,17 +6,17 @@
  * Ingenic SoC UART support
  */
 
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/io.h>
-#include <linux/libfdt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/platform_device.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
+#include <peenux/clk.h>
+#include <peenux/console.h>
+#include <peenux/io.h>
+#include <peenux/libfdt.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_fdt.h>
+#include <peenux/platform_device.h>
+#include <peenux/serial_8250.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial_reg.h>
 
 #include "8250.h"
 

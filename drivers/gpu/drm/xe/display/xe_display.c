@@ -6,7 +6,7 @@
 #include "xe_display.h"
 #include "regs/xe_irq_regs.h"
 
-#include <linux/fb.h>
+#include <peenux/fb.h>
 
 #include <drm/drm_client.h>
 #include <drm/drm_client_event.h>

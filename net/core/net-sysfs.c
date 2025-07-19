@@ -5,24 +5,24 @@
  * Copyright (c) 2003 Stephen Hemminger <shemminger@osdl.org>
  */
 
-#include <linux/capability.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/isolation.h>
-#include <linux/nsproxy.h>
+#include <peenux/capability.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/slab.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/isolation.h>
+#include <peenux/nsproxy.h>
 #include <net/sock.h>
 #include <net/net_namespace.h>
-#include <linux/rtnetlink.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
-#include <linux/jiffies.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/cpu.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/vmalloc.h>
+#include <peenux/export.h>
+#include <peenux/jiffies.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
+#include <peenux/cpu.h>
 #include <net/netdev_lock.h>
 #include <net/netdev_rx_queue.h>
 #include <net/rps.h>

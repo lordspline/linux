@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  IPv6 Syncookies implementation for the Linux kernel
+ *  IPv6 Syncookies implementation for the Peenux kernel
  *
  *  Authors:
  *  Glenn Griffin	<ggriffin.kernel@gmail.com>
  *
  *  Based on IPv4 implementation by Andi Kleen
- *  linux/net/ipv4/syncookies.c
+ *  peenux/net/ipv4/syncookies.c
  */
 
-#include <linux/tcp.h>
-#include <linux/random.h>
-#include <linux/siphash.h>
-#include <linux/kernel.h>
+#include <peenux/tcp.h>
+#include <peenux/random.h>
+#include <peenux/siphash.h>
+#include <peenux/kernel.h>
 #include <net/secure_seq.h>
 #include <net/ipv6.h>
 #include <net/tcp.h>

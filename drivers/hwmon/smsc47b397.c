@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * smsc47b397.c - Part of lm_sensors, Linux kernel modules
+ * smsc47b397.c - Part of lm_sensors, Peenux kernel modules
  * for hardware monitoring
  *
  * Supports the SMSC LPC47B397-NC Super-I/O chip.
@@ -15,18 +15,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/jiffies.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/jiffies.h>
+#include <peenux/platform_device.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/mutex.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
 
 static unsigned short force_id;
 module_param(force_id, ushort, 0);

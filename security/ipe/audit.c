@@ -3,9 +3,9 @@
  * Copyright (C) 2020-2024 Microsoft Corporation. All rights reserved.
  */
 
-#include <linux/slab.h>
-#include <linux/audit.h>
-#include <linux/types.h>
+#include <peenux/slab.h>
+#include <peenux/audit.h>
+#include <peenux/types.h>
 #include <crypto/hash.h>
 
 #include "ipe.h"

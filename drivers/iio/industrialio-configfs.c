@@ -5,14 +5,14 @@
  * Copyright (c) 2015 Intel Corporation
  */
 
-#include <linux/configfs.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
+#include <peenux/configfs.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kmod.h>
+#include <peenux/slab.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/configfs.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/configfs.h>
 
 static const struct config_item_type iio_root_group_type = {
 	.ct_owner       = THIS_MODULE,

@@ -9,21 +9,21 @@
  * (C) 1999		David A. Hinds
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/major.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/pci.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/security.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/major.h>
+#include <peenux/errno.h>
+#include <peenux/timer.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/pci.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/security.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <pcmcia/ss.h>
 #include <pcmcia/cisreg.h>

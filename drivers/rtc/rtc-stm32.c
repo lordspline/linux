@@ -4,23 +4,23 @@
  * Author:  Amelie Delaunay <amelie.delaunay@st.com>
  */
 
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/errno.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
+#include <peenux/bcd.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/errno.h>
+#include <peenux/iopoll.h>
+#include <peenux/ioport.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinmux.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/regmap.h>
+#include <peenux/rtc.h>
 
 #define DRIVER_NAME "stm32_rtc"
 

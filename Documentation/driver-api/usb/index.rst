@@ -1,5 +1,5 @@
 =============
-Linux USB API
+Peenux USB API
 =============
 
 .. toctree::

@@ -3,12 +3,12 @@
  * Copyright (c) 2018 Google LLC
  * Copyright (c) 2021 Aspeed Technology Inc.
  */
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/platform_device.h>
 
 /* register offsets */
 #define HICR9	0x98

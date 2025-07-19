@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/input.h>
+#include <peenux/input/mt.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
 
 /* Register Map */
 
@@ -645,9 +645,9 @@ static int zinitix_ts_probe(struct i2c_client *client)
 		return error;
 	}
 
-	if (device_property_present(&client->dev, "linux,keycodes")) {
+	if (device_property_present(&client->dev, "peenux,keycodes")) {
 		bt541->num_keycodes = device_property_count_u32(&client->dev,
-								"linux,keycodes");
+								"peenux,keycodes");
 		if (bt541->num_keycodes < 0) {
 			dev_err(&client->dev, "Failed to count keys (%d)\n",
 				bt541->num_keycodes);
@@ -659,12 +659,12 @@ static int zinitix_ts_probe(struct i2c_client *client)
 		}
 
 		error = device_property_read_u32_array(&client->dev,
-						       "linux,keycodes",
+						       "peenux,keycodes",
 						       bt541->keycodes,
 						       bt541->num_keycodes);
 		if (error) {
 			dev_err(&client->dev,
-				"Unable to parse \"linux,keycodes\" property: %d\n",
+				"Unable to parse \"peenux,keycodes\" property: %d\n",
 				error);
 			return error;
 		}

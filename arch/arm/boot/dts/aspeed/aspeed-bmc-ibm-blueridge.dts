@@ -139,37 +139,37 @@
 		event-fan0-presence {
 			gpios = <&pca0 6 GPIO_ACTIVE_LOW>;
 			label = "fan0-presence";
-			linux,code = <6>;
+			peenux,code = <6>;
 		};
 
 		event-fan1-presence {
 			gpios = <&pca0 7 GPIO_ACTIVE_LOW>;
 			label = "fan1-presence";
-			linux,code = <7>;
+			peenux,code = <7>;
 		};
 
 		event-fan2-presence {
 			gpios = <&pca0 8 GPIO_ACTIVE_LOW>;
 			label = "fan2-presence";
-			linux,code = <8>;
+			peenux,code = <8>;
 		};
 
 		event-fan3-presence {
 			gpios = <&pca0 9 GPIO_ACTIVE_LOW>;
 			label = "fan3-presence";
-			linux,code = <9>;
+			peenux,code = <9>;
 		};
 
 		event-fan4-presence {
 			gpios = <&pca0 10 GPIO_ACTIVE_LOW>;
 			label = "fan4-presence";
-			linux,code = <10>;
+			peenux,code = <10>;
 		};
 
 		event-fan5-presence {
 			gpios = <&pca0 11 GPIO_ACTIVE_LOW>;
 			label = "fan5-presence";
-			linux,code = <11>;
+			peenux,code = <11>;
 		};
 	};
 

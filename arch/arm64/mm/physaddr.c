@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bug.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/mmdebug.h>
-#include <linux/mm.h>
+#include <peenux/bug.h>
+#include <peenux/export.h>
+#include <peenux/types.h>
+#include <peenux/mmdebug.h>
+#include <peenux/mm.h>
 
 #include <asm/memory.h>
 

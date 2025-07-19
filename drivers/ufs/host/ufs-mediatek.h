@@ -6,7 +6,7 @@
 #ifndef _UFS_MEDIATEK_H
 #define _UFS_MEDIATEK_H
 
-#include <linux/bitops.h>
+#include <peenux/bitops.h>
 
 /*
  * MCQ define and struct

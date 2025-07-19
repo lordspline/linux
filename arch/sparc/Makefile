@@ -6,7 +6,7 @@
 # Sparc and sparc64.
 #
 # Copyright (C) 1994,1996,1998 David S. Miller (davem@caip.rutgers.edu)
-# Copyright (C) 1998 Jakub Jelinek (jj@ultra.linux.cz)
+# Copyright (C) 1998 Jakub Jelinek (jj@ultra.peenux.cz)
 
 # We are not yet configured - so test on arch
 ifeq ($(ARCH),sparc64)

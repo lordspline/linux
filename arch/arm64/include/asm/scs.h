@@ -29,7 +29,7 @@
 
 #else
 
-#include <linux/scs.h>
+#include <peenux/scs.h>
 #include <asm/cpufeature.h>
 
 #ifdef CONFIG_UNWIND_PATCH_PAC_INTO_SCS

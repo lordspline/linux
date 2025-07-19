@@ -6,11 +6,11 @@
  *   Modified for the ALSA driver by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/errno.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
 #include <sound/core.h>
 #include <sound/i2c.h>
 

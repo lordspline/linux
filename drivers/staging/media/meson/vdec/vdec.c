@@ -4,15 +4,15 @@
  * Author: Maxime Jourdan <mjourdan@baylibre.com>
  */
 
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/kthread.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/kthread.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-ctrls.h>

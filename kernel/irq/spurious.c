@@ -5,12 +5,12 @@
  * This file contains spurious interrupt handling.
  */
 
-#include <linux/jiffies.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/timer.h>
+#include <peenux/jiffies.h>
+#include <peenux/irq.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/moduleparam.h>
+#include <peenux/timer.h>
 
 #include "internals.h"
 

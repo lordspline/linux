@@ -6,11 +6,11 @@
  *   Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/unaligned.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/regmap.h>
+#include <peenux/spi/spi.h>
+#include <peenux/unaligned.h>
 
 #include "adt7x10.h"
 

@@ -10,11 +10,11 @@
  * Losely based on work from sh and powerpc.
  */
 
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
+#include <peenux/export.h>
+#include <peenux/sched.h>
+#include <peenux/sched/debug.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/stacktrace.h>
 
 #include <asm/processor.h>
 #include <asm/unwinder.h>

@@ -6,16 +6,16 @@
  * Author: Paul Cercueil <paul.cercueil@analog.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/property.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/delay.h>
+#include <peenux/iio/iio.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/property.h>
 
 #include <dt-bindings/iio/adi,ad5592r.h>
 

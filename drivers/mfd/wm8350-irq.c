@@ -7,21 +7,21 @@
  * Author: Liam Girdwood, Mark Brown
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/bug.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
 
-#include <linux/mfd/wm8350/core.h>
-#include <linux/mfd/wm8350/audio.h>
-#include <linux/mfd/wm8350/comparator.h>
-#include <linux/mfd/wm8350/gpio.h>
-#include <linux/mfd/wm8350/pmic.h>
-#include <linux/mfd/wm8350/rtc.h>
-#include <linux/mfd/wm8350/supply.h>
-#include <linux/mfd/wm8350/wdt.h>
+#include <peenux/mfd/wm8350/core.h>
+#include <peenux/mfd/wm8350/audio.h>
+#include <peenux/mfd/wm8350/comparator.h>
+#include <peenux/mfd/wm8350/gpio.h>
+#include <peenux/mfd/wm8350/pmic.h>
+#include <peenux/mfd/wm8350/rtc.h>
+#include <peenux/mfd/wm8350/supply.h>
+#include <peenux/mfd/wm8350/wdt.h>
 
 #define WM8350_INT_OFFSET_1                     0
 #define WM8350_INT_OFFSET_2                     1

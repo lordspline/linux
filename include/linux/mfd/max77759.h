@@ -9,9 +9,9 @@
 #ifndef __LINUX_MFD_MAX77759_H
 #define __LINUX_MFD_MAX77759_H
 
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
+#include <peenux/completion.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
 
 #define MAX77759_PMIC_REG_PMIC_ID               0x00
 #define MAX77759_PMIC_REG_PMIC_REVISION         0x01

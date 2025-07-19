@@ -15,8 +15,8 @@
 #include <crypto/internal/hash.h>
 #include <crypto/sha1.h>
 #include <crypto/sha1_base.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 asmlinkage void powerpc_sha_transform(u32 *state, const u8 *src);
 

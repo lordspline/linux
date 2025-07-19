@@ -8,6 +8,6 @@
 #ifndef _LINUX_IOAM6_GENL_H
 #define _LINUX_IOAM6_GENL_H
 
-#include <uapi/linux/ioam6_genl.h>
+#include <uapi/peenux/ioam6_genl.h>
 
 #endif /* _LINUX_IOAM6_GENL_H */

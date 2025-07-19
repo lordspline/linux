@@ -10,13 +10,13 @@
  * Copyright (C) 2008 Magnus Damm
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include <media/v4l2-fwnode.h>
 #include <media/v4l2-mc.h>

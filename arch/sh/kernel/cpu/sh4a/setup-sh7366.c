@@ -4,16 +4,16 @@
  *
  *  Copyright (C) 2008 Renesas Solutions
  *
- * Based on linux/arch/sh/kernel/cpu/sh4a/setup-sh7722.c
+ * Based on peenux/arch/sh/kernel/cpu/sh4a/setup-sh7722.c
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/serial_sci.h>
-#include <linux/uio_driver.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_intc.h>
-#include <linux/usb/r8a66597.h>
+#include <peenux/platform_device.h>
+#include <peenux/init.h>
+#include <peenux/serial.h>
+#include <peenux/serial_sci.h>
+#include <peenux/uio_driver.h>
+#include <peenux/sh_timer.h>
+#include <peenux/sh_intc.h>
+#include <peenux/usb/r8a66597.h>
 #include <asm/clock.h>
 #include <asm/platform_early.h>
 

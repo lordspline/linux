@@ -3,7 +3,7 @@
 #ifndef BTRFS_ACL_H
 #define BTRFS_ACL_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct posix_acl;
 struct inode;
@@ -22,7 +22,7 @@ int __btrfs_set_acl(struct btrfs_trans_handle *trans, struct inode *inode,
 
 #else
 
-#include <linux/errno.h>
+#include <peenux/errno.h>
 
 struct btrfs_trans_handle;
 

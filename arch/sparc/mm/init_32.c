@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/sparc/mm/init.c
+ *  peenux/arch/sparc/mm/init.c
  *
  *  Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
  *  Copyright (C) 1995 Eddie C. Dost (ecd@skynet.be)
@@ -8,24 +8,24 @@
  *  Copyright (C) 2000 Anton Blanchard (anton@samba.org)
  */
 
-#include <linux/module.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/initrd.h>
-#include <linux/init.h>
-#include <linux/highmem.h>
-#include <linux/memblock.h>
-#include <linux/pagemap.h>
-#include <linux/poison.h>
-#include <linux/gfp.h>
+#include <peenux/module.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/ptrace.h>
+#include <peenux/mman.h>
+#include <peenux/mm.h>
+#include <peenux/swap.h>
+#include <peenux/initrd.h>
+#include <peenux/init.h>
+#include <peenux/highmem.h>
+#include <peenux/memblock.h>
+#include <peenux/pagemap.h>
+#include <peenux/poison.h>
+#include <peenux/gfp.h>
 
 #include <asm/sections.h>
 #include <asm/page.h>

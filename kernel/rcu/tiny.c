@@ -4,26 +4,26 @@
  *
  * Copyright IBM Corporation, 2008
  *
- * Author: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Author: Paul E. McKenney <paulmck@peenux.ibm.com>
  *
  * For detailed explanation of Read-Copy Update mechanism see -
  *		Documentation/RCU
  */
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/rcupdate_wait.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/cpu.h>
-#include <linux/prefetch.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <peenux/completion.h>
+#include <peenux/interrupt.h>
+#include <peenux/notifier.h>
+#include <peenux/rcupdate_wait.h>
+#include <peenux/kernel.h>
+#include <peenux/export.h>
+#include <peenux/mutex.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/time.h>
+#include <peenux/cpu.h>
+#include <peenux/prefetch.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
 
 #include "rcu.h"
 

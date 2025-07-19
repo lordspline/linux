@@ -4,28 +4,28 @@
  *
  *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
  *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
- *  Copyright (C) 2002 - 2004 Dominik Brodowski <linux@brodo.de>
+ *  Copyright (C) 2002 - 2004 Dominik Brodowski <peenux@brodo.de>
  *  Copyright (C) 2006       Denis Sadykov <denis.m.sadykov@intel.com>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/cpufreq.h>
-#include <linux/compiler.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/smp.h>
+#include <peenux/sched.h>
+#include <peenux/cpufreq.h>
+#include <peenux/compiler.h>
+#include <peenux/dmi.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
+#include <peenux/platform_device.h>
 
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
 
 #include <acpi/processor.h>
 #include <acpi/cppc_acpi.h>

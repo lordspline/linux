@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- *  linux/include/linux/nfs_fs.h
+ *  peenux/include/peenux/nfs_fs.h
  *
  *  Copyright (C) 1992  Rick Sladkey
  *
@@ -9,7 +9,7 @@
 #ifndef _LINUX_NFS_FS_H
 #define _LINUX_NFS_FS_H
 
-#include <uapi/linux/nfs_fs.h>
+#include <uapi/peenux/nfs_fs.h>
 
 
 /*
@@ -19,30 +19,30 @@
 # define NFS_DEBUG
 #endif
 
-#include <linux/in.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/rbtree.h>
-#include <linux/refcount.h>
-#include <linux/rwsem.h>
-#include <linux/wait.h>
+#include <peenux/in.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/rbtree.h>
+#include <peenux/refcount.h>
+#include <peenux/rwsem.h>
+#include <peenux/wait.h>
 
-#include <linux/sunrpc/debug.h>
-#include <linux/sunrpc/auth.h>
-#include <linux/sunrpc/clnt.h>
+#include <peenux/sunrpc/debug.h>
+#include <peenux/sunrpc/auth.h>
+#include <peenux/sunrpc/clnt.h>
 
 #ifdef CONFIG_NFS_FSCACHE
-#include <linux/netfs.h>
+#include <peenux/netfs.h>
 #endif
 
-#include <linux/nfs.h>
-#include <linux/nfs2.h>
-#include <linux/nfs3.h>
-#include <linux/nfs4.h>
-#include <linux/nfs_xdr.h>
-#include <linux/nfs_fs_sb.h>
+#include <peenux/nfs.h>
+#include <peenux/nfs2.h>
+#include <peenux/nfs3.h>
+#include <peenux/nfs4.h>
+#include <peenux/nfs_xdr.h>
+#include <peenux/nfs_fs_sb.h>
 
-#include <linux/mempool.h>
+#include <peenux/mempool.h>
 
 /*
  * These are the default for number of transports to different server IPs
@@ -424,7 +424,7 @@ static inline unsigned long nfs_save_change_attribute(struct inode *dir)
 }
 
 /*
- * linux/fs/nfs/inode.c
+ * peenux/fs/nfs/inode.c
  */
 extern int nfs_sync_mapping(struct address_space *mapping);
 extern void nfs_zap_mapping(struct inode *inode, struct address_space *mapping);
@@ -519,14 +519,14 @@ static inline void nfs_display_fhandle(const struct nfs_fh *fh,
 #endif
 
 /*
- * linux/fs/nfs/nfsroot.c
+ * peenux/fs/nfs/nfsroot.c
  */
 extern int  nfs_root_data(char **root_device, char **root_data); /*__init*/
-/* linux/net/ipv4/ipconfig.c: trims ip addr off front of name, too. */
+/* peenux/net/ipv4/ipconfig.c: trims ip addr off front of name, too. */
 extern __be32 root_nfs_parse_addr(char *name); /*__init*/
 
 /*
- * linux/fs/nfs/file.c
+ * peenux/fs/nfs/file.c
  */
 extern const struct file_operations nfs_file_operations;
 #if IS_ENABLED(CONFIG_NFS_V4)
@@ -552,7 +552,7 @@ static inline const struct cred *nfs_file_cred(struct file *file)
 }
 
 /*
- * linux/fs/nfs/direct.c
+ * peenux/fs/nfs/direct.c
  */
 int nfs_swap_rw(struct kiocb *iocb, struct iov_iter *iter);
 ssize_t nfs_file_direct_read(struct kiocb *iocb,
@@ -561,7 +561,7 @@ ssize_t nfs_file_direct_write(struct kiocb *iocb,
 			      struct iov_iter *iter, bool swap);
 
 /*
- * linux/fs/nfs/dir.c
+ * peenux/fs/nfs/dir.c
  */
 extern const struct file_operations nfs_dir_operations;
 extern const struct dentry_operations nfs_dentry_operations;
@@ -584,12 +584,12 @@ extern int nfs_atomic_open_v23(struct inode *dir, struct dentry *dentry,
 			       umode_t mode);
 
 /*
- * linux/fs/nfs/symlink.c
+ * peenux/fs/nfs/symlink.c
  */
 extern const struct inode_operations nfs_symlink_inode_operations;
 
 /*
- * linux/fs/nfs/sysctl.c
+ * peenux/fs/nfs/sysctl.c
  */
 #ifdef CONFIG_SYSCTL
 extern int nfs_register_sysctl(void);
@@ -600,7 +600,7 @@ extern void nfs_unregister_sysctl(void);
 #endif
 
 /*
- * linux/fs/nfs/namespace.c
+ * peenux/fs/nfs/namespace.c
  */
 extern const struct inode_operations nfs_mountpoint_inode_operations;
 extern const struct inode_operations nfs_referral_inode_operations;
@@ -608,12 +608,12 @@ extern int nfs_mountpoint_expiry_timeout;
 extern void nfs_release_automount_timer(void);
 
 /*
- * linux/fs/nfs/unlink.c
+ * peenux/fs/nfs/unlink.c
  */
 extern void nfs_complete_unlink(struct dentry *dentry, struct inode *);
 
 /*
- * linux/fs/nfs/write.c
+ * peenux/fs/nfs/write.c
  */
 extern int  nfs_congestion_kb;
 extern int  nfs_writepages(struct address_space *, struct writeback_control *);
@@ -643,7 +643,7 @@ static inline bool nfs_have_writebacks(const struct inode *inode)
 }
 
 /*
- * linux/fs/nfs/read.c
+ * peenux/fs/nfs/read.c
  */
 int  nfs_read_folio(struct file *, struct folio *);
 void nfs_readahead(struct readahead_control *);

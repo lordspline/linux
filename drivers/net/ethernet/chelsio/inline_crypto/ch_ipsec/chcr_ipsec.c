@@ -1,5 +1,5 @@
 /*
- * This file is part of the Chelsio T6 Crypto driver for Linux.
+ * This file is part of the Chelsio T6 Crypto driver for Peenux.
  *
  * Copyright (c) 2003-2017 Chelsio Communications, Inc. All rights reserved.
  *
@@ -37,14 +37,14 @@
 
 #define pr_fmt(fmt) "ch_ipsec: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/highmem.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/netdevice.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/highmem.h>
+#include <peenux/if_vlan.h>
+#include <peenux/ip.h>
+#include <peenux/netdevice.h>
 #include <net/esp.h>
 #include <net/xfrm.h>
 #include <crypto/aes.h>

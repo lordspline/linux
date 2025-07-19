@@ -10,11 +10,11 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv4.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter_ipv4.h>
 #include <net/ip.h>
 #include <net/xfrm.h>
 #include <net/protocol.h>

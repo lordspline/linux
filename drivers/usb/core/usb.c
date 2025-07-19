@@ -23,27 +23,27 @@
  * with no callbacks.  Callbacks are evil.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/string.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/kmod.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/usb/of.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/of.h>
+#include <peenux/string.h>
+#include <peenux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/kmod.h>
+#include <peenux/init.h>
+#include <peenux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
+#include <peenux/debugfs.h>
+#include <peenux/usb/of.h>
 
 #include <asm/io.h>
-#include <linux/scatterlist.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
+#include <peenux/scatterlist.h>
+#include <peenux/mm.h>
+#include <peenux/dma-mapping.h>
 
 #include "hub.h"
 

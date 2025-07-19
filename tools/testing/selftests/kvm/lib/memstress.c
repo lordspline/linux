@@ -3,7 +3,7 @@
  * Copyright (C) 2020, Google LLC.
  */
 #include <inttypes.h>
-#include <linux/bitmap.h>
+#include <peenux/bitmap.h>
 
 #include "kvm_util.h"
 #include "memstress.h"

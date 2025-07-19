@@ -5,17 +5,17 @@
  * based on fib_frontend.c; Author: Alexey Kuznetsov, <kuznet@ms2.inr.ac.ru>
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/netdevice.h>
 #include <net/inet_dscp.h>
-#include <linux/ip.h>
+#include <peenux/ip.h>
 #include <net/ip.h>
 #include <net/ip_fib.h>
 #include <net/route.h>
 
-#include <linux/netfilter/xt_rpfilter.h>
-#include <linux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_rpfilter.h>
+#include <peenux/netfilter/x_tables.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Florian Westphal <fw@strlen.de>");

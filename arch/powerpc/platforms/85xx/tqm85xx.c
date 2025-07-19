@@ -14,13 +14,13 @@
  *      Copyright 2004 Freescale Semiconductor Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/of.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
+#include <peenux/pci.h>
+#include <peenux/kdev_t.h>
+#include <peenux/delay.h>
+#include <peenux/seq_file.h>
+#include <peenux/of.h>
 
 #include <asm/time.h>
 #include <asm/machdep.h>

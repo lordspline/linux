@@ -5,7 +5,7 @@
  *
  *  adapted from:
  *      sd.c Copyright (C) 1992 Drew Eckhardt
- *      Linux scsi disk driver by
+ *      Peenux scsi disk driver by
  *              Drew Eckhardt <drew@colorado.edu>
  *
  *	Modified by Eric Youngdale ericy@andante.org to
@@ -33,26 +33,26 @@
  *	check resource allocation in sr_init and some cleanups
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/bio.h>
-#include <linux/compat.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/cdrom.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/major.h>
-#include <linux/blkdev.h>
-#include <linux/blk-pm.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/bio.h>
+#include <peenux/compat.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/cdrom.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/major.h>
+#include <peenux/blkdev.h>
+#include <peenux/blk-pm.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/uaccess.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_dbg.h>

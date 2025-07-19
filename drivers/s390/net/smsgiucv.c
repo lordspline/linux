@@ -7,11 +7,11 @@
  * Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
 #include <net/iucv/iucv.h>
 #include <asm/machine.h>
 #include <asm/cpcmd.h>
@@ -27,7 +27,7 @@ struct smsg_callback {
 
 MODULE_AUTHOR
    ("(C) 2003 IBM Corporation by Martin Schwidefsky (schwidefsky@de.ibm.com)");
-MODULE_DESCRIPTION ("Linux for S/390 IUCV special message driver");
+MODULE_DESCRIPTION ("Peenux for S/390 IUCV special message driver");
 
 static struct iucv_path *smsg_path;
 

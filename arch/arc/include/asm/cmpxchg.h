@@ -6,9 +6,9 @@
 #ifndef __ASM_ARC_CMPXCHG_H
 #define __ASM_ARC_CMPXCHG_H
 
-#include <linux/build_bug.h>
-#include <linux/types.h>
-#include <linux/cmpxchg-emu.h>
+#include <peenux/build_bug.h>
+#include <peenux/types.h>
+#include <peenux/cmpxchg-emu.h>
 
 #include <asm/barrier.h>
 #include <asm/smp.h>

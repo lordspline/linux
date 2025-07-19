@@ -4,13 +4,13 @@
  * Copyright (C) 2018 Linaro Ltd.
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 /* EIC registers definition */
 #define SPRD_PMIC_EIC_DATA		0x0

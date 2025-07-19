@@ -8,9 +8,9 @@
  *   kernel-based SPI device.
  */
 
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/spi/spi.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/spi/spi.h>
 
 #include "qca_7k.h"
 

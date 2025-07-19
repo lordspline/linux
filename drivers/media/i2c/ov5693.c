@@ -12,16 +12,16 @@
  * Jake Day
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include <media/v4l2-cci.h>
 #include <media/v4l2-ctrls.h>

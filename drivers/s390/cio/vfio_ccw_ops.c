@@ -5,14 +5,14 @@
  * Copyright IBM Corp. 2017
  * Copyright Red Hat, Inc. 2019
  *
- * Author(s): Dong Jia Shi <bjsdjshi@linux.vnet.ibm.com>
- *            Xiao Feng Ren <renxiaof@linux.vnet.ibm.com>
+ * Author(s): Dong Jia Shi <bjsdjshi@peenux.vnet.ibm.com>
+ *            Xiao Feng Ren <renxiaof@peenux.vnet.ibm.com>
  *            Cornelia Huck <cohuck@redhat.com>
  */
 
-#include <linux/vfio.h>
-#include <linux/nospec.h>
-#include <linux/slab.h>
+#include <peenux/vfio.h>
+#include <peenux/nospec.h>
+#include <peenux/slab.h>
 
 #include "vfio_ccw_private.h"
 

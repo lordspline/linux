@@ -14,8 +14,8 @@
  * Specifications at www.trustedcomputinggroup.org	 
  */
 
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 #include "tpm.h"
 
 /* National definitions */

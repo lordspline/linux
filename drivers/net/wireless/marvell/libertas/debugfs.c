@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/dcache.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/hardirq.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <peenux/dcache.h>
+#include <peenux/debugfs.h>
+#include <peenux/delay.h>
+#include <peenux/hardirq.h>
+#include <peenux/mm.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/export.h>
 
 #include "decl.h"
 #include "cmd.h"

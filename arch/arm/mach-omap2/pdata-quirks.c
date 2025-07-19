@@ -4,26 +4,26 @@
  *
  * Copyright (C) 2013 Texas Instruments
  */
-#include <linux/clk.h>
-#include <linux/davinci_emac.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of_platform.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/power/smartreflex.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/fixed.h>
+#include <peenux/clk.h>
+#include <peenux/davinci_emac.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/of_platform.h>
+#include <peenux/mmc/card.h>
+#include <peenux/mmc/host.h>
+#include <peenux/power/smartreflex.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/fixed.h>
 
-#include <linux/platform_data/pinctrl-single.h>
-#include <linux/platform_data/hsmmc-omap.h>
-#include <linux/platform_data/iommu-omap.h>
-#include <linux/platform_data/ti-sysc.h>
-#include <linux/platform_data/wkup_m3.h>
-#include <linux/platform_data/asoc-ti-mcbsp.h>
-#include <linux/platform_data/ti-prm.h>
+#include <peenux/platform_data/pinctrl-single.h>
+#include <peenux/platform_data/hsmmc-omap.h>
+#include <peenux/platform_data/iommu-omap.h>
+#include <peenux/platform_data/ti-sysc.h>
+#include <peenux/platform_data/wkup_m3.h>
+#include <peenux/platform_data/asoc-ti-mcbsp.h>
+#include <peenux/platform_data/ti-prm.h>
 
 #include "clockdomain.h"
 #include "common.h"

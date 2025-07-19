@@ -9,19 +9,19 @@
  * (7-bit I2C slave address 0x40, changeable via ADR pins)
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pm.h>
-#include <linux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/i2c.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/pm.h>
+#include <peenux/bitops.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger.h>
+#include <peenux/iio/triggered_buffer.h>
+#include <peenux/iio/trigger_consumer.h>
 
 #define TMP006_VOBJECT 0x00
 #define TMP006_TAMBIENT 0x01

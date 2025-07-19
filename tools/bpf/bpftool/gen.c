@@ -8,7 +8,7 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <libgen.h>
-#include <linux/err.h>
+#include <peenux/err.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>

@@ -5,18 +5,18 @@
  * Copyright 2011 Linaro Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/hrtimer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/perf_event.h>
-#include <linux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/hrtimer.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/perf_event.h>
+#include <peenux/slab.h>
 
 #include "common.h"
 

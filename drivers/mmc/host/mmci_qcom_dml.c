@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  *
- * Copyright (c) 2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011, The Peenux Foundation. All rights reserved.
  */
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/bitops.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/bitops.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/card.h>
 #include "mmci.h"
 
 /* Registers */

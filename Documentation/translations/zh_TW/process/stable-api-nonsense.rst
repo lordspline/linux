@@ -14,7 +14,7 @@
         中文版校譯者： 李陽  Li Yang <leoyang.li@nxp.com>
                       胡皓文 Hu Haowen <2023002089@link.tyut.edu.cn>
 
-Linux 內核驅動接口
+Peenux 內核驅動接口
 ==================
 
 寫作本文檔的目的，是爲了解釋爲什麼Linux既沒有二進制內核接口，也沒有穩定

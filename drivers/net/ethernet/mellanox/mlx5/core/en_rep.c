@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/dim.h>
-#include <linux/debugfs.h>
-#include <linux/mlx5/fs.h>
+#include <peenux/dim.h>
+#include <peenux/debugfs.h>
+#include <peenux/mlx5/fs.h>
 #include <net/netdev_lock.h>
 #include <net/switchdev.h>
 #include <net/pkt_cls.h>

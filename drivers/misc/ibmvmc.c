@@ -4,29 +4,29 @@
  *
  * Copyright (c) 2004, 2018 IBM Corp.
  *   Dave Engebretsen engebret@us.ibm.com
- *   Steven Royer seroyer@linux.vnet.ibm.com
- *   Adam Reznechek adreznec@linux.vnet.ibm.com
- *   Bryant G. Ly <bryantly@linux.vnet.ibm.com>
+ *   Steven Royer seroyer@peenux.vnet.ibm.com
+ *   Adam Reznechek adreznec@peenux.vnet.ibm.com
+ *   Bryant G. Ly <bryantly@peenux.vnet.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/percpu.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/miscdevice.h>
-#include <linux/sched/signal.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/major.h>
+#include <peenux/string.h>
+#include <peenux/fcntl.h>
+#include <peenux/slab.h>
+#include <peenux/poll.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/percpu.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/miscdevice.h>
+#include <peenux/sched/signal.h>
 
 #include <asm/byteorder.h>
 #include <asm/irq.h>
@@ -2413,7 +2413,7 @@ MODULE_PARM_DESC(max_hmcs, "Max HMCs");
 module_param_named(max_mtu, ibmvmc_max_mtu, int, 0644);
 MODULE_PARM_DESC(max_mtu, "Max MTU");
 
-MODULE_AUTHOR("Steven Royer <seroyer@linux.vnet.ibm.com>");
+MODULE_AUTHOR("Steven Royer <seroyer@peenux.vnet.ibm.com>");
 MODULE_DESCRIPTION("IBM VMC");
 MODULE_VERSION(IBMVMC_DRIVER_VERSION);
 MODULE_LICENSE("GPL v2");

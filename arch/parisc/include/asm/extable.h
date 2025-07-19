@@ -3,7 +3,7 @@
 #define __PARISC_EXTABLE_H
 
 #include <asm/ptrace.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 /*
  * The exception table consists of three addresses:

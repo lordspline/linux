@@ -3,15 +3,15 @@
  * Copyright 2022 NXP, Peng Fan <peng.fan@nxp.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/sizes.h>
 
 #include <dt-bindings/power/fsl,imx93-power.h>
 

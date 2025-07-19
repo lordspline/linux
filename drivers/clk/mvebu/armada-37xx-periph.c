@@ -17,14 +17,14 @@
  * xtal clock as parent.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
+#include <peenux/clk-provider.h>
+#include <peenux/io.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
 
 #define TBG_SEL		0x0
 #define DIV_SEL0	0x4

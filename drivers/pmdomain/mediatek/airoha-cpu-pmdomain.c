@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk-provider.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/slab.h>
 
 #define AIROHA_SIP_AVS_HANDLE			0x82000301
 #define AIROHA_AVS_OP_BASE			0xddddddd0

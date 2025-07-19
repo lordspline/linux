@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
 /* Copyright (c) 2021, Microsoft Corporation. */
 
-#include <uapi/linux/bpf.h>
+#include <uapi/peenux/bpf.h>
 
-#include <linux/debugfs.h>
-#include <linux/inetdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/filter.h>
-#include <linux/mm.h>
-#include <linux/pci.h>
+#include <peenux/debugfs.h>
+#include <peenux/inetdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/filter.h>
+#include <peenux/mm.h>
+#include <peenux/pci.h>
 
 #include <net/checksum.h>
 #include <net/ip6_checksum.h>

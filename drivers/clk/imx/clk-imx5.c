@@ -2,17 +2,17 @@
 /*
  * Copyright (C) 2011 Sascha Hauer, Pengutronix <s.hauer@pengutronix.de>
  */
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sizes.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/clk.h>
+#include <peenux/io.h>
+#include <peenux/clkdev.h>
+#include <peenux/clk-provider.h>
+#include <peenux/err.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/sizes.h>
 #include <soc/imx/revision.h>
 #include <dt-bindings/clock/imx5-clock.h>
 

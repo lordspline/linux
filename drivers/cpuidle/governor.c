@@ -8,11 +8,11 @@
  * This code is licenced under the GPL.
  */
 
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/pm_qos.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuidle.h>
+#include <peenux/mutex.h>
+#include <peenux/module.h>
+#include <peenux/pm_qos.h>
 
 #include "cpuidle.h"
 

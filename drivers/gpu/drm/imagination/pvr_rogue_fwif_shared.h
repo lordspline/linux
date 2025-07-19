@@ -4,8 +4,8 @@
 #ifndef PVR_ROGUE_FWIF_SHARED_H
 #define PVR_ROGUE_FWIF_SHARED_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 
 #define ROGUE_FWIF_NUM_RTDATAS 2U
 #define ROGUE_FWIF_NUM_GEOMDATAS 1U

@@ -11,17 +11,17 @@
 //
 // This driver is based on max8997.c
 
-#include <linux/kernel.h>
-#include <linux/bug.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/max77686.h>
-#include <linux/mfd/max77686-private.h>
+#include <peenux/kernel.h>
+#include <peenux/bug.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/regulator/of_regulator.h>
+#include <peenux/mfd/max77686.h>
+#include <peenux/mfd/max77686-private.h>
 #include <dt-bindings/regulator/maxim,max77802.h>
 
 /* Default ramp delay in case it is not manually set */

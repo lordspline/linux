@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
 
 #include "amdgpu.h"
 #include "amdgpu_pm.h"
@@ -36,9 +36,9 @@
 #include "sid.h"
 #include "si_dpm.h"
 #include "../include/pptable.h"
-#include <linux/math64.h>
-#include <linux/seq_file.h>
-#include <linux/firmware.h>
+#include <peenux/math64.h>
+#include <peenux/seq_file.h>
+#include <peenux/firmware.h>
 #include <legacy_dpm.h>
 
 #include "bif/bif_3_0_d.h"

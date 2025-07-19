@@ -12,9 +12,9 @@
  */
 
 #include <rv/automata.h>
-#include <linux/rv.h>
-#include <linux/bug.h>
-#include <linux/sched.h>
+#include <peenux/rv.h>
+#include <peenux/bug.h>
+#include <peenux/sched.h>
 
 #ifdef CONFIG_RV_REACTORS
 

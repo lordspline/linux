@@ -8,13 +8,13 @@
  * Author: Boris BREZILLON <boris.brezillon@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/mfd/atmel-hlcdc.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/mfd/atmel-hlcdc.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/platform_device.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

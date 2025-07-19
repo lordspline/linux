@@ -5,11 +5,11 @@
  * Copyright (C) 2007 Steven Rostedt <srostedt@redhat.com>
  *
  */
-#include <linux/module.h>
-#include <linux/kallsyms.h>
-#include <linux/uaccess.h>
-#include <linux/kmemleak.h>
-#include <linux/ftrace.h>
+#include <peenux/module.h>
+#include <peenux/kallsyms.h>
+#include <peenux/uaccess.h>
+#include <peenux/kmemleak.h>
+#include <peenux/ftrace.h>
 #include <trace/events/sched.h>
 
 #include "trace.h"

@@ -59,28 +59,28 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_vlan.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_mdio.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/in.h>
-#include <linux/net_tstamp.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/unistd.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_vlan.h>
+#include <peenux/spinlock.h>
+#include <peenux/mm.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_mdio.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
+#include <peenux/in.h>
+#include <peenux/net_tstamp.h>
 
 #include <asm/io.h>
 #ifdef CONFIG_PPC
@@ -88,15 +88,15 @@
 #include <asm/mpc85xx.h>
 #endif
 #include <asm/irq.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
+#include <peenux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/crc32.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
+#include <peenux/phy_fixed.h>
+#include <peenux/of.h>
+#include <peenux/of_net.h>
 
 #include "gianfar.h"
 

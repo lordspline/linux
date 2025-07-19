@@ -5,13 +5,13 @@
 // Copyright (C) 2021, Christophe Branchereau <cbranchereau@gmail.com>
 // Copyright (C) 2021, Paul Cercueil <paul@crapouillou.net>
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/time64.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/time64.h>
 
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

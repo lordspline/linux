@@ -18,14 +18,14 @@
  * - low power debouncer
  */
 
-#include <linux/clk.h>
-#include <linux/clk/at91_pmc.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
+#include <peenux/clk.h>
+#include <peenux/clk/at91_pmc.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
 
 #include <soc/at91/at91sam9_ddrsdr.h>
 

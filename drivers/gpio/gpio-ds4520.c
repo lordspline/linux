@@ -4,12 +4,12 @@
  * Driver for the DS4520 I/O Expander
  */
 
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/regmap.h>
-#include <linux/i2c.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <peenux/device.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/regmap.h>
+#include <peenux/i2c.h>
+#include <peenux/property.h>
+#include <peenux/regmap.h>
 
 #define DS4520_PULLUP0		0xF0
 #define DS4520_IO_CONTROL0	0xF2

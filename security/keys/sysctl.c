@@ -5,8 +5,8 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/key.h>
-#include <linux/sysctl.h>
+#include <peenux/key.h>
+#include <peenux/sysctl.h>
 #include "internal.h"
 
 static const struct ctl_table key_sysctls[] = {

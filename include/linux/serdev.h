@@ -5,12 +5,12 @@
 #ifndef _LINUX_SERDEV_H
 #define _LINUX_SERDEV_H
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/uaccess.h>
-#include <linux/termios.h>
-#include <linux/delay.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/iopoll.h>
+#include <peenux/uaccess.h>
+#include <peenux/termios.h>
+#include <peenux/delay.h>
 
 struct serdev_controller;
 struct serdev_device;

@@ -3,13 +3,13 @@
  * Copyright (c) 2024-2025, NVIDIA CORPORATION & AFFILIATES
  */
 #define pr_fmt(fmt) "fwctl: " fmt
-#include <linux/fwctl.h>
+#include <peenux/fwctl.h>
 
-#include <linux/container_of.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
+#include <peenux/container_of.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
 
 #include <uapi/fwctl/fwctl.h>
 

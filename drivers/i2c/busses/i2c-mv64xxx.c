@@ -9,23 +9,23 @@
  * is licensed "as is" without any warranty of any kind, whether express
  * or implied.
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mv643xx_i2c.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/i2c.h>
+#include <peenux/interrupt.h>
+#include <peenux/mv643xx_i2c.h>
+#include <peenux/platform_device.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/reset.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
 
 #define MV64XXX_I2C_BAUD_DIV_N(val)			(val & 0x7)
 #define MV64XXX_I2C_BAUD_DIV_M(val)			((val & 0xf) << 3)

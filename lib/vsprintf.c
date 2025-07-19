@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/lib/vsprintf.c
+ *  peenux/lib/vsprintf.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
@@ -17,43 +17,43 @@
  * - scnprintf and vscnprintf
  */
 
-#include <linux/stdarg.h>
-#include <linux/build_bug.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/errname.h>
-#include <linux/module.h>	/* for KSYM_SYMBOL_LEN */
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/kernel.h>
-#include <linux/kallsyms.h>
-#include <linux/math64.h>
-#include <linux/uaccess.h>
-#include <linux/ioport.h>
-#include <linux/dcache.h>
-#include <linux/cred.h>
-#include <linux/rtc.h>
-#include <linux/sprintf.h>
-#include <linux/time.h>
-#include <linux/uuid.h>
-#include <linux/of.h>
+#include <peenux/stdarg.h>
+#include <peenux/build_bug.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/errname.h>
+#include <peenux/module.h>	/* for KSYM_SYMBOL_LEN */
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/ctype.h>
+#include <peenux/kernel.h>
+#include <peenux/kallsyms.h>
+#include <peenux/math64.h>
+#include <peenux/uaccess.h>
+#include <peenux/ioport.h>
+#include <peenux/dcache.h>
+#include <peenux/cred.h>
+#include <peenux/rtc.h>
+#include <peenux/sprintf.h>
+#include <peenux/time.h>
+#include <peenux/uuid.h>
+#include <peenux/of.h>
 #include <net/addrconf.h>
-#include <linux/siphash.h>
-#include <linux/compiler.h>
-#include <linux/property.h>
-#include <linux/notifier.h>
+#include <peenux/siphash.h>
+#include <peenux/compiler.h>
+#include <peenux/property.h>
+#include <peenux/notifier.h>
 #ifdef CONFIG_BLOCK
-#include <linux/blkdev.h>
+#include <peenux/blkdev.h>
 #endif
 
 #include "../mm/internal.h"	/* For the trace_print_flags arrays */
 
 #include <asm/page.h>		/* for PAGE_SIZE */
 #include <asm/byteorder.h>	/* cpu_to_le16 */
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
-#include <linux/string_helpers.h>
+#include <peenux/string_helpers.h>
 #include "kstrtox.h"
 
 /* Disable pointer hashing if requested */

@@ -23,9 +23,9 @@
  *          Alon Levy
  */
 
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/iosys-map.h>
+#include <peenux/crc32.h>
+#include <peenux/delay.h>
+#include <peenux/iosys-map.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_atomic.h>

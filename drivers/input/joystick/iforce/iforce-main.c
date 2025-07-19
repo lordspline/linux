@@ -6,7 +6,7 @@
  *  USB/RS232 I-Force joysticks and wheels.
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 #include "iforce.h"
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>, Johann Deneux <johann.deneux@gmail.com>");

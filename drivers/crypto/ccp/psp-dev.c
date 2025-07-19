@@ -7,11 +7,11 @@
  * Author: Brijesh Singh <brijesh.singh@amd.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/irqreturn.h>
-#include <linux/mutex.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/irqreturn.h>
+#include <peenux/mutex.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
 
 #include "sp-dev.h"
 #include "psp-dev.h"

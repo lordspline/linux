@@ -5,25 +5,25 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/cleanup.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/intel_rapl.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/nospec.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/powercap.h>
-#include <linux/processor.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/bitmap.h>
+#include <peenux/cleanup.h>
+#include <peenux/cpu.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/intel_rapl.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/log2.h>
+#include <peenux/module.h>
+#include <peenux/nospec.h>
+#include <peenux/perf_event.h>
+#include <peenux/platform_device.h>
+#include <peenux/powercap.h>
+#include <peenux/processor.h>
+#include <peenux/slab.h>
+#include <peenux/suspend.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>

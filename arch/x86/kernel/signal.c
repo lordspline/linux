@@ -10,24 +10,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/personality.h>
-#include <linux/uaccess.h>
-#include <linux/user-return-notifier.h>
-#include <linux/uprobes.h>
-#include <linux/context_tracking.h>
-#include <linux/entry-common.h>
-#include <linux/syscalls.h>
-#include <linux/rseq.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/kernel.h>
+#include <peenux/kstrtox.h>
+#include <peenux/errno.h>
+#include <peenux/wait.h>
+#include <peenux/unistd.h>
+#include <peenux/stddef.h>
+#include <peenux/personality.h>
+#include <peenux/uaccess.h>
+#include <peenux/user-return-notifier.h>
+#include <peenux/uprobes.h>
+#include <peenux/context_tracking.h>
+#include <peenux/entry-common.h>
+#include <peenux/syscalls.h>
+#include <peenux/rseq.h>
 
 #include <asm/processor.h>
 #include <asm/ucontext.h>

@@ -11,15 +11,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/udp.h>
-#include <linux/rculist.h>
-#include <linux/jhash.h>
-#include <linux/if_tunnel.h>
-#include <linux/net.h>
-#include <linux/file.h>
-#include <linux/gtp.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
+#include <peenux/udp.h>
+#include <peenux/rculist.h>
+#include <peenux/jhash.h>
+#include <peenux/if_tunnel.h>
+#include <peenux/net.h>
+#include <peenux/file.h>
+#include <peenux/gtp.h>
 
 #include <net/net_namespace.h>
 #include <net/protocol.h>

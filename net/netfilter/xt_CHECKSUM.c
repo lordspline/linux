@@ -7,14 +7,14 @@
  * Author: Michael S. Tsirkin <mst@redhat.com>
 */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <peenux/module.h>
+#include <peenux/skbuff.h>
 
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_CHECKSUM.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter/xt_CHECKSUM.h>
 
-#include <linux/netfilter_ipv4/ip_tables.h>
-#include <linux/netfilter_ipv6/ip6_tables.h>
+#include <peenux/netfilter_ipv4/ip_tables.h>
+#include <peenux/netfilter_ipv6/ip6_tables.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Michael S. Tsirkin <mst@redhat.com>");

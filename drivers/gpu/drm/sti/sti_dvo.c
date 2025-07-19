@@ -4,13 +4,13 @@
  * Author: Vincent Abriou <vincent.abriou@st.com> for STMicroelectronics.
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/component.h>
+#include <peenux/debugfs.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

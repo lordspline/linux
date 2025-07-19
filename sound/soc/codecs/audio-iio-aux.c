@@ -6,13 +6,13 @@
 //
 // Author: Herve Codina <herve.codina@bootlin.com>
 
-#include <linux/cleanup.h>
-#include <linux/iio/consumer.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <peenux/cleanup.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/minmax.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
 
 #include <sound/soc.h>
 #include <sound/tlv.h>

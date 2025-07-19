@@ -145,8 +145,8 @@ struct rand_data {
  */
 #define JENT_ENTROPY_SAFETY_FACTOR	64
 
-#include <linux/fips.h>
-#include <linux/minmax.h>
+#include <peenux/fips.h>
+#include <peenux/minmax.h>
 #include "jitterentropy.h"
 
 /***************************************************************************

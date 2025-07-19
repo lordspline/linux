@@ -7,11 +7,11 @@
  * Copyright (C) 2005 Oracle.  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
-#include <linux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/kobject.h>
+#include <peenux/sysfs.h>
+#include <peenux/fs.h>
 
 #include "ocfs2_nodemanager.h"
 #include "masklog.h"

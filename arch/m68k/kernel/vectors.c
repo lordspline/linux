@@ -17,12 +17,12 @@
 /*
  * Sets up all exception vectors
  */
-#include <linux/cpu.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/kallsyms.h>
+#include <peenux/cpu.h>
+#include <peenux/sched.h>
+#include <peenux/kernel.h>
+#include <peenux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/kallsyms.h>
 
 #include <asm/setup.h>
 #include <asm/fpu.h>

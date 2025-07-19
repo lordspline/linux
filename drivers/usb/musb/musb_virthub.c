@@ -7,14 +7,14 @@
  * Copyright (C) 2006-2007 Nokia Corporation
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/timer.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/errno.h>
+#include <peenux/time.h>
+#include <peenux/timer.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "musb_core.h"
 

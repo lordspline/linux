@@ -10,13 +10,13 @@
  * Authors: Marcelo Tosatti <mtosatti@redhat.com>
  */
 
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/module.h>
-#include <linux/sched/idle.h>
-#include <linux/kvm_para.h>
-#include <linux/cpuidle_haltpoll.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/cpuidle.h>
+#include <peenux/module.h>
+#include <peenux/sched/idle.h>
+#include <peenux/kvm_para.h>
+#include <peenux/cpuidle_haltpoll.h>
 
 static bool force __read_mostly;
 module_param(force, bool, 0444);

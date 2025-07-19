@@ -2,12 +2,12 @@
 /*
  * Copyright (c) 2014 Christoph Hellwig.
  */
-#include <linux/blkdev.h>
-#include <linux/kmod.h>
-#include <linux/file.h>
-#include <linux/jhash.h>
-#include <linux/sched.h>
-#include <linux/sunrpc/addr.h>
+#include <peenux/blkdev.h>
+#include <peenux/kmod.h>
+#include <peenux/file.h>
+#include <peenux/jhash.h>
+#include <peenux/sched.h>
+#include <peenux/sunrpc/addr.h>
 
 #include "pnfs.h"
 #include "netns.h"
@@ -627,7 +627,7 @@ nfsd4_cb_layout_fail(struct nfs4_layout_stateid *ls, struct nfsd_file *file)
 	static char const nfsd_recall_failed[] = "/sbin/nfsd-recall-failed";
 	static char *envp[] = {
 		"HOME=/",
-		"TERM=linux",
+		"TERM=peenux",
 		"PATH=/sbin:/usr/sbin:/bin:/usr/bin",
 		NULL
 	};

@@ -6,8 +6,8 @@
  * Author:	Marc Zyngier <marc.zyngier@arm.com>
  */
 
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
 
 #include <asm/assembler.h>
 #include <asm/el2_setup.h>

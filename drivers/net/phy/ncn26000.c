@@ -4,13 +4,13 @@
  *
  * Copyright 2022 onsemi
  */
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
+#include <peenux/kernel.h>
+#include <peenux/bitfield.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/mii.h>
+#include <peenux/phy.h>
 
 #include "mdio-open-alliance.h"
 

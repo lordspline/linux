@@ -7,10 +7,10 @@
  * Author: Joshua Yeong <joshua.yeong@starfivetech.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/cacheflush.h>
-#include <linux/iopoll.h>
-#include <linux/of_address.h>
+#include <peenux/bitfield.h>
+#include <peenux/cacheflush.h>
+#include <peenux/iopoll.h>
+#include <peenux/of_address.h>
 
 #include <asm/dma-noncoherent.h>
 

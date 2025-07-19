@@ -5,24 +5,24 @@
  *  Copyright (C) 2012-2014 Wolfson Microelectronics plc
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio.h>
-#include <linux/input.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/err.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/gpio.h>
+#include <peenux/input.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/property.h>
+#include <peenux/regulator/consumer.h>
 
 #include <sound/jack.h>
 #include <sound/soc.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/pdata.h>
-#include <linux/mfd/arizona/registers.h>
+#include <peenux/mfd/arizona/core.h>
+#include <peenux/mfd/arizona/pdata.h>
+#include <peenux/mfd/arizona/registers.h>
 #include <dt-bindings/mfd/arizona.h>
 
 #include "arizona.h"

@@ -10,14 +10,14 @@
  *	Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqchip.h>
-#include <linux/irq.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irq.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 struct lan966x_oic_chip_regs {
 	int reg_off_ena_set;

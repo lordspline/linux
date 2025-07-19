@@ -8,17 +8,17 @@
 /* cpu_feature_enabled() cannot be used this early */
 #define USE_EARLY_PGTABLE_L5
 
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/percpu.h>
-#include <linux/start_kernel.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/cc_platform.h>
-#include <linux/pgtable.h>
+#include <peenux/init.h>
+#include <peenux/linkage.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/percpu.h>
+#include <peenux/start_kernel.h>
+#include <peenux/io.h>
+#include <peenux/memblock.h>
+#include <peenux/cc_platform.h>
+#include <peenux/pgtable.h>
 
 #include <asm/asm.h>
 #include <asm/page_64.h>

@@ -5,7 +5,7 @@
  * algorithm to the closely similar existing slicing-by-4 algorithm.
  *
  * Oct 15, 2000 Matt Domsch <Matt_Domsch@dell.com>
- * Nicer crc32 functions/docs submitted by linux@horizon.com.  Thanks!
+ * Nicer crc32 functions/docs submitted by peenux@horizon.com.  Thanks!
  * Code was from the public domain, copyright abandoned.  Code was
  * subsequently included in the kernel, thus was re-licensed under the
  * GNU GPL v2.
@@ -24,10 +24,10 @@
 
 /* see: Documentation/staging/crc32.rst for a description of algorithms */
 
-#include <linux/crc32.h>
-#include <linux/crc32poly.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <peenux/crc32.h>
+#include <peenux/crc32poly.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
 
 #include "crc32table.h"
 

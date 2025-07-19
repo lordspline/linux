@@ -8,14 +8,14 @@
  *	- Channing Corn (tests & fixes),
  *	- Andrew D. Balsa (code cleanup).
  */
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/nospec.h>
-#include <linux/prctl.h>
-#include <linux/sched/smt.h>
-#include <linux/pgtable.h>
-#include <linux/bpf.h>
+#include <peenux/init.h>
+#include <peenux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/nospec.h>
+#include <peenux/prctl.h>
+#include <peenux/sched/smt.h>
+#include <peenux/pgtable.h>
+#include <peenux/bpf.h>
 
 #include <asm/spec-ctrl.h>
 #include <asm/cmdline.h>

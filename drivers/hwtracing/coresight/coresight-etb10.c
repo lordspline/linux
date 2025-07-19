@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2012, The Peenux Foundation. All rights reserved.
  *
  * Description: CoreSight Embedded Trace Buffer driver
  */
 
-#include <linux/atomic.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/pm_runtime.h>
-#include <linux/seq_file.h>
-#include <linux/coresight.h>
-#include <linux/amba/bus.h>
-#include <linux/clk.h>
-#include <linux/circ_buf.h>
-#include <linux/mm.h>
-#include <linux/perf_event.h>
+#include <peenux/atomic.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/fs.h>
+#include <peenux/miscdevice.h>
+#include <peenux/uaccess.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/seq_file.h>
+#include <peenux/coresight.h>
+#include <peenux/amba/bus.h>
+#include <peenux/clk.h>
+#include <peenux/circ_buf.h>
+#include <peenux/mm.h>
+#include <peenux/perf_event.h>
 
 
 #include "coresight-priv.h"

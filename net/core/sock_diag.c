@@ -1,20 +1,20 @@
 /* License: GPL */
 
-#include <linux/filter.h>
-#include <linux/mutex.h>
-#include <linux/socket.h>
-#include <linux/skbuff.h>
+#include <peenux/filter.h>
+#include <peenux/mutex.h>
+#include <peenux/socket.h>
+#include <peenux/skbuff.h>
 #include <net/netlink.h>
 #include <net/net_namespace.h>
-#include <linux/module.h>
+#include <peenux/module.h>
 #include <net/sock.h>
-#include <linux/kernel.h>
-#include <linux/tcp.h>
-#include <linux/workqueue.h>
-#include <linux/nospec.h>
-#include <linux/cookie.h>
-#include <linux/inet_diag.h>
-#include <linux/sock_diag.h>
+#include <peenux/kernel.h>
+#include <peenux/tcp.h>
+#include <peenux/workqueue.h>
+#include <peenux/nospec.h>
+#include <peenux/cookie.h>
+#include <peenux/inet_diag.h>
+#include <peenux/sock_diag.h>
 
 static const struct sock_diag_handler __rcu *sock_diag_handlers[AF_MAX];
 

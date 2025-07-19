@@ -15,13 +15,13 @@
 
 /* Includes */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/idr.h>
-#include <linux/uio.h>
-#include <linux/skbuff.h>
-#include <linux/atmdev.h>
-#include <linux/atm_nicstar.h>
+#include <peenux/types.h>
+#include <peenux/pci.h>
+#include <peenux/idr.h>
+#include <peenux/uio.h>
+#include <peenux/skbuff.h>
+#include <peenux/atmdev.h>
+#include <peenux/atm_nicstar.h>
 
 /* Options */
 

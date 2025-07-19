@@ -3,10 +3,10 @@
 #define _DYNAMIC_DEBUG_H
 
 #if defined(CONFIG_JUMP_LABEL)
-#include <linux/jump_label.h>
+#include <peenux/jump_label.h>
 #endif
 
-#include <linux/build_bug.h>
+#include <peenux/build_bug.h>
 
 /*
  * An instance of this structure is created in a special
@@ -297,9 +297,9 @@ void __dynamic_ibdev_dbg(struct _ddebug *descriptor,
 
 #else /* !(CONFIG_DYNAMIC_DEBUG || (CONFIG_DYNAMIC_DEBUG_CORE && DYNAMIC_DEBUG_MODULE)) */
 
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/printk.h>
+#include <peenux/string.h>
+#include <peenux/errno.h>
+#include <peenux/printk.h>
 
 #define DEFINE_DYNAMIC_DEBUG_METADATA(name, fmt)
 #define DYNAMIC_DEBUG_BRANCH(descriptor) false

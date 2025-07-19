@@ -32,15 +32,15 @@
  * the default is can_queue == 1.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/nvram.h>
-#include <linux/bitops.h>
-#include <linux/wait.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/blkdev.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/nvram.h>
+#include <peenux/bitops.h>
+#include <peenux/wait.h>
+#include <peenux/platform_device.h>
 
 #include <asm/setup.h>
 #include <asm/atarihw.h>

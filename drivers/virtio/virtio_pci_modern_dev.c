@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/virtio_pci_modern.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <peenux/virtio_pci_modern.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/delay.h>
 
 /*
  * vp_modern_map_capability - map a part of virtio pci capability

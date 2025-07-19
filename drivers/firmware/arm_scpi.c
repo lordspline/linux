@@ -16,27 +16,27 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/property.h>
-#include <linux/pm_opp.h>
-#include <linux/scpi_protocol.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/spinlock.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/printk.h>
+#include <peenux/property.h>
+#include <peenux/pm_opp.h>
+#include <peenux/scpi_protocol.h>
+#include <peenux/slab.h>
+#include <peenux/sort.h>
+#include <peenux/spinlock.h>
 
 #define CMD_ID_MASK		GENMASK(6, 0)
 #define CMD_TOKEN_ID_MASK	GENMASK(15, 8)
@@ -522,7 +522,7 @@ out:
 		scpi_process_cmd(scpi_chan, msg->cmd);
 
 	put_scpi_xfer(msg, scpi_chan);
-	/* SCPI error codes > 0, translate them to Linux scale*/
+	/* SCPI error codes > 0, translate them to Peenux scale*/
 	return ret > 0 ? scpi_to_linux_errno(ret) : ret;
 }
 

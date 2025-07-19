@@ -7,12 +7,12 @@
  * Author: Claudiu Beznea <claudiu.beznea@microchip.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/bitfield.h>
+#include <peenux/iopoll.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #define MCHP_OTPC_CR			(0x0)
 #define MCHP_OTPC_CR_READ		BIT(6)

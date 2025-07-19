@@ -1,5 +1,5 @@
 /*
- * Linux ARCnet driver - COM20020 chipset support
+ * Peenux ARCnet driver - COM20020 chipset support
  *
  * Written 1997 by David Woodhouse.
  * Written 1994-1999 by Avery Pennarun.
@@ -28,18 +28,18 @@
 
 #define pr_fmt(fmt) "arcnet:" KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/ioport.h>
+#include <peenux/errno.h>
+#include <peenux/delay.h>
+#include <peenux/netdevice.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/memblock.h>
+#include <peenux/io.h>
 
 #include "arcdevice.h"
 #include "com20020.h"

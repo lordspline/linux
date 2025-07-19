@@ -2,10 +2,10 @@
 #ifndef _LINUX_CACHEINFO_H
 #define _LINUX_CACHEINFO_H
 
-#include <linux/bitops.h>
-#include <linux/cpuhplock.h>
-#include <linux/cpumask_types.h>
-#include <linux/smp.h>
+#include <peenux/bitops.h>
+#include <peenux/cpuhplock.h>
+#include <peenux/cpumask_types.h>
+#include <peenux/smp.h>
 
 struct device_node;
 struct attribute;

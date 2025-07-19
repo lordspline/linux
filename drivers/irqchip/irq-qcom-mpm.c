@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2021, Linaro Limited
- * Copyright (c) 2010-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2020, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/irq.h>
-#include <linux/spinlock.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqdomain.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_domain.h>
+#include <peenux/slab.h>
+#include <peenux/soc/qcom/irq.h>
+#include <peenux/spinlock.h>
 
 /*
  * This is the driver for Qualcomm MPM (MSM Power Manager) interrupt controller,

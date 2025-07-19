@@ -1,6 +1,6 @@
 /* file-mmu.c: ramfs MMU-based file operations
  *
- * Resizable simple ram filesystem for Linux.
+ * Resizable simple ram filesystem for Peenux.
  *
  * Copyright (C) 2000 Linus Torvalds.
  *               2000 Transmeta Corp.
@@ -24,10 +24,10 @@
  * caches is sufficient.
  */
 
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/ramfs.h>
-#include <linux/sched.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/ramfs.h>
+#include <peenux/sched.h>
 
 #include "internal.h"
 

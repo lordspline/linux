@@ -5,18 +5,18 @@
  * Copyright (c) 2016,2020 Intel Corporation.
  */
 
-#include <linux/bits.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/spi/spi.h>
+#include <peenux/bits.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/iio/trigger_consumer.h>
+#include <peenux/iio/triggered_buffer.h>
 
 #define BMA220_REG_ID				0x00
 #define BMA220_REG_ACCEL_X			0x02

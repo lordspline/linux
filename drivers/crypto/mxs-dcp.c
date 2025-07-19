@@ -5,16 +5,16 @@
  * Copyright (C) 2013 Marek Vasut <marex@denx.de>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/stmp_device.h>
-#include <linux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/stmp_device.h>
+#include <peenux/clk.h>
 #include <soc/fsl/dcp.h>
 
 #include <crypto/aes.h>
@@ -123,7 +123,7 @@ struct dcp_export_state {
 
 /*
  * There can even be only one instance of the MXS DCP due to the
- * design of Linux Crypto API.
+ * design of Peenux Crypto API.
  */
 static struct dcp *global_sdcp;
 

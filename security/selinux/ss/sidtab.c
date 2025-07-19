@@ -8,13 +8,13 @@
  * Copyright (C) 2018 Red Hat, Inc.
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/rcupdate.h>
+#include <peenux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/spinlock.h>
 #include <asm/barrier.h>
 #include "flask.h"
 #include "security.h"

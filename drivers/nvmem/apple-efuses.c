@@ -2,14 +2,14 @@
 /*
  * Apple SoC eFuse driver
  *
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Peenux Contributors
  */
 
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/nvmem-provider.h>
+#include <peenux/platform_device.h>
 
 struct apple_efuses_priv {
 	void __iomem *fuses;

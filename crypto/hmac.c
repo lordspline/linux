@@ -8,17 +8,17 @@
  * Copyright (c) 2006 Herbert Xu <herbert@gondor.apana.org.au>
  *
  * The HMAC implementation is derived from USAGI.
- * Copyright (c) 2002 Kazunori Miyazawa <miyazawa@linux-ipv6.org> / USAGI
+ * Copyright (c) 2002 Kazunori Miyazawa <miyazawa@peenux-ipv6.org> / USAGI
  */
 
 #include <crypto/hmac.h>
 #include <crypto/internal/hash.h>
-#include <linux/err.h>
-#include <linux/fips.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/err.h>
+#include <peenux/fips.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 
 struct hmac_ctx {
 	struct crypto_shash *hash;

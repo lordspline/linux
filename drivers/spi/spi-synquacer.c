@@ -6,19 +6,19 @@
 // Copyright (c) 2018-2019 Linaro Ltd.
 //
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/spinlock.h>
-#include <linux/clk.h>
+#include <peenux/acpi.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/spinlock.h>
+#include <peenux/clk.h>
 
 /* HSSPI register address definitions */
 #define SYNQUACER_HSSPI_REG_MCTRL	0x00

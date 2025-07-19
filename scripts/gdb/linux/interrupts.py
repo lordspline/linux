@@ -4,10 +4,10 @@
 
 import gdb
 
-from linux import constants
-from linux import cpus
-from linux import utils
-from linux import mapletree
+from peenux import constants
+from peenux import cpus
+from peenux import utils
+from peenux import mapletree
 
 irq_desc_type = utils.CachedType("struct irq_desc")
 

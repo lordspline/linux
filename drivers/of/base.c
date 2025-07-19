@@ -16,18 +16,18 @@
 
 #define pr_fmt(fmt)	"OF: " fmt
 
-#include <linux/cleanup.h>
-#include <linux/console.h>
-#include <linux/ctype.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_graph.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/proc_fs.h>
+#include <peenux/cleanup.h>
+#include <peenux/console.h>
+#include <peenux/ctype.h>
+#include <peenux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_device.h>
+#include <peenux/of_graph.h>
+#include <peenux/spinlock.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/proc_fs.h>
 
 #include "of_private.h"
 
@@ -1857,11 +1857,11 @@ void of_alias_scan(void * (*dt_alloc)(u64 size, u64 align))
 		of_chosen = of_find_node_by_path("/chosen@0");
 
 	if (of_chosen) {
-		/* linux,stdout-path and /aliases/stdout are for legacy compatibility */
+		/* peenux,stdout-path and /aliases/stdout are for legacy compatibility */
 		const char *name = NULL;
 
 		if (of_property_read_string(of_chosen, "stdout-path", &name))
-			of_property_read_string(of_chosen, "linux,stdout-path",
+			of_property_read_string(of_chosen, "peenux,stdout-path",
 						&name);
 		if (IS_ENABLED(CONFIG_PPC) && !name)
 			of_property_read_string(of_aliases, "stdout", &name);

@@ -7,16 +7,16 @@
  *  Author: Hans J. Koch <hjk@linutronix.de>
  */
 
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/of_irq.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/kernel.h>
+#include <peenux/of_irq.h>
+#include <peenux/pci.h>
+#include <peenux/platform_device.h>
 
 #define DRV_NAME		"sdv_gpio"
 #define SDV_NUM_PUB_GPIOS	12

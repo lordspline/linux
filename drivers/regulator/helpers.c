@@ -5,14 +5,14 @@
 // Copyright 2007, 2008 Wolfson Microelectronics PLC.
 // Copyright 2008 SlimLogic Ltd.
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/driver.h>
+#include <peenux/bitops.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regulator/driver.h>
 
 #include "internal.h"
 

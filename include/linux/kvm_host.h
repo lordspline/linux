@@ -3,47 +3,47 @@
 #define __KVM_HOST_H
 
 
-#include <linux/types.h>
-#include <linux/hardirq.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/sched/stat.h>
-#include <linux/bug.h>
-#include <linux/minmax.h>
-#include <linux/mm.h>
-#include <linux/mmu_notifier.h>
-#include <linux/preempt.h>
-#include <linux/msi.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/rcupdate.h>
-#include <linux/ratelimit.h>
-#include <linux/err.h>
-#include <linux/irqflags.h>
-#include <linux/context_tracking.h>
-#include <linux/irqbypass.h>
-#include <linux/rcuwait.h>
-#include <linux/refcount.h>
-#include <linux/nospec.h>
-#include <linux/notifier.h>
-#include <linux/ftrace.h>
-#include <linux/hashtable.h>
-#include <linux/instrumentation.h>
-#include <linux/interval_tree.h>
-#include <linux/rbtree.h>
-#include <linux/xarray.h>
+#include <peenux/types.h>
+#include <peenux/hardirq.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/spinlock.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/sched/stat.h>
+#include <peenux/bug.h>
+#include <peenux/minmax.h>
+#include <peenux/mm.h>
+#include <peenux/mmu_notifier.h>
+#include <peenux/preempt.h>
+#include <peenux/msi.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/rcupdate.h>
+#include <peenux/ratelimit.h>
+#include <peenux/err.h>
+#include <peenux/irqflags.h>
+#include <peenux/context_tracking.h>
+#include <peenux/irqbypass.h>
+#include <peenux/rcuwait.h>
+#include <peenux/refcount.h>
+#include <peenux/nospec.h>
+#include <peenux/notifier.h>
+#include <peenux/ftrace.h>
+#include <peenux/hashtable.h>
+#include <peenux/instrumentation.h>
+#include <peenux/interval_tree.h>
+#include <peenux/rbtree.h>
+#include <peenux/xarray.h>
 #include <asm/signal.h>
 
-#include <linux/kvm.h>
-#include <linux/kvm_para.h>
+#include <peenux/kvm.h>
+#include <peenux/kvm_para.h>
 
-#include <linux/kvm_types.h>
+#include <peenux/kvm_types.h>
 
 #include <asm/kvm_host.h>
-#include <linux/kvm_dirty_ring.h>
+#include <peenux/kvm_dirty_ring.h>
 
 #ifndef KVM_MAX_VCPU_IDS
 #define KVM_MAX_VCPU_IDS KVM_MAX_VCPUS
@@ -52,7 +52,7 @@
 /*
  * The bit 16 ~ bit 31 of kvm_userspace_memory_region::flags are internally
  * used in kvm, other bits are visible for userspace which are defined in
- * include/linux/kvm_h.
+ * include/peenux/kvm_h.
  */
 #define KVM_MEMSLOT_INVALID	(1UL << 16)
 

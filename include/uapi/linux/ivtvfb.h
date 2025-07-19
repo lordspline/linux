@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
     On Screen Display cx23415 Framebuffer driver
 
@@ -22,8 +22,8 @@
 #ifndef __LINUX_IVTVFB_H__
 #define __LINUX_IVTVFB_H__
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/types.h>
 
 /* Framebuffer external API */
 

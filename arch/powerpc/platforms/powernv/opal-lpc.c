@@ -5,18 +5,18 @@
  * Copyright 2013 IBM Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/bug.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/of.h>
+#include <peenux/bug.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/debugfs.h>
 
 #include <asm/machdep.h>
 #include <asm/firmware.h>
 #include <asm/opal.h>
 #include <asm/prom.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/isa-bridge.h>
 
 static int opal_lpc_chip_id = -1;

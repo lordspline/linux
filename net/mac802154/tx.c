@@ -9,10 +9,10 @@
  * Alexander Smirnov <alex.bluesman.smirnov@gmail.com>
  */
 
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/crc-ccitt.h>
-#include <linux/unaligned.h>
+#include <peenux/netdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/crc-ccitt.h>
+#include <peenux/unaligned.h>
 
 #include <net/rtnetlink.h>
 #include <net/ieee802154_netdev.h>

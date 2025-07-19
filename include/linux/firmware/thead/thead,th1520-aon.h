@@ -6,8 +6,8 @@
 #ifndef _THEAD_AON_H
 #define _THEAD_AON_H
 
-#include <linux/device.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/types.h>
 
 #define AON_RPC_MSG_MAGIC (0xef)
 #define TH1520_AON_RPC_VERSION 2

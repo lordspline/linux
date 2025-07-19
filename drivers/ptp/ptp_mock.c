@@ -8,9 +8,9 @@
  * using a timecounter/cyclecounter on top of CLOCK_MONOTONIC_RAW.
  */
 
-#include <linux/ptp_clock_kernel.h>
-#include <linux/ptp_mock.h>
-#include <linux/timecounter.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/ptp_mock.h>
+#include <peenux/timecounter.h>
 
 /* Clamp scaled_ppm between -2,097,152,000 and 2,097,152,000,
  * and thus "adj" between -68,719,476 and 68,719,476

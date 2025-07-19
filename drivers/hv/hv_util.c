@@ -8,15 +8,15 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/reboot.h>
-#include <linux/hyperv.h>
-#include <linux/clockchips.h>
-#include <linux/ptp_clock_kernel.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/sysctl.h>
+#include <peenux/reboot.h>
+#include <peenux/hyperv.h>
+#include <peenux/clockchips.h>
+#include <peenux/ptp_clock_kernel.h>
 #include <asm/mshyperv.h>
 
 #include "hyperv_vmbus.h"
@@ -228,7 +228,7 @@ static void shutdown_onchannelcallback(void *context)
 		/*
 		 * shutdown_msg->flags can be 0(shut down), 2(reboot),
 		 * or 4(hibernate). It may bitwise-OR 1, which means
-		 * performing the request by force. Linux always tries
+		 * performing the request by force. Peenux always tries
 		 * to perform the request by force.
 		 */
 		switch (shutdown_msg->flags) {

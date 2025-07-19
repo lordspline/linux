@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * handle transition of Linux booting another kernel
+ * handle transition of Peenux booting another kernel
  * Copyright (C) 2002-2005 Eric Biederman  <ebiederm@xmission.com>
  */
 
-#include <linux/mm.h>
-#include <linux/kexec.h>
-#include <linux/delay.h>
-#include <linux/numa.h>
-#include <linux/ftrace.h>
-#include <linux/suspend.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
+#include <peenux/mm.h>
+#include <peenux/kexec.h>
+#include <peenux/delay.h>
+#include <peenux/numa.h>
+#include <peenux/ftrace.h>
+#include <peenux/suspend.h>
+#include <peenux/gfp.h>
+#include <peenux/io.h>
 
 #include <asm/pgalloc.h>
 #include <asm/tlbflush.h>

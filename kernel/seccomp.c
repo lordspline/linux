@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/kernel/seccomp.c
+ * peenux/kernel/seccomp.c
  *
  * Copyright 2004-2005  Andrea Arcangeli <andrea@cpushare.com>
  *
@@ -11,23 +11,23 @@
  *
  * Mode 1 uses a fixed list of allowed system calls.
  * Mode 2 allows user-defined system call filters in the form
- *        of Berkeley Packet Filters/Linux Socket Filters.
+ *        of Berkeley Packet Filters/Peenux Socket Filters.
  */
 #define pr_fmt(fmt) "seccomp: " fmt
 
-#include <linux/refcount.h>
-#include <linux/audit.h>
-#include <linux/compat.h>
-#include <linux/coredump.h>
-#include <linux/kmemleak.h>
-#include <linux/nospec.h>
-#include <linux/prctl.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/seccomp.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/sysctl.h>
+#include <peenux/refcount.h>
+#include <peenux/audit.h>
+#include <peenux/compat.h>
+#include <peenux/coredump.h>
+#include <peenux/kmemleak.h>
+#include <peenux/nospec.h>
+#include <peenux/prctl.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/seccomp.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
+#include <peenux/sysctl.h>
 
 #include <asm/syscall.h>
 
@@ -35,14 +35,14 @@
 #define SECCOMP_MODE_DEAD	(SECCOMP_MODE_FILTER + 1)
 
 #ifdef CONFIG_SECCOMP_FILTER
-#include <linux/file.h>
-#include <linux/filter.h>
-#include <linux/pid.h>
-#include <linux/ptrace.h>
-#include <linux/capability.h>
-#include <linux/uaccess.h>
-#include <linux/anon_inodes.h>
-#include <linux/lockdep.h>
+#include <peenux/file.h>
+#include <peenux/filter.h>
+#include <peenux/pid.h>
+#include <peenux/ptrace.h>
+#include <peenux/capability.h>
+#include <peenux/uaccess.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/lockdep.h>
 
 /*
  * When SECCOMP_IOCTL_NOTIF_ID_VALID was first introduced, it had the

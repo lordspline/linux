@@ -7,16 +7,16 @@
  *          Rafael J. Wysocki <rafael.j.wysocki@intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/jiffies.h>
-#include <linux/stddef.h>
-#include <linux/acpi.h>
+#include <peenux/kernel.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/notifier.h>
+#include <peenux/platform_device.h>
+#include <peenux/jiffies.h>
+#include <peenux/stddef.h>
+#include <peenux/acpi.h>
 
 #include "internal.h"
 

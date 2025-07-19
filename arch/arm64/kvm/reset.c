@@ -8,14 +8,14 @@
  * Author: Christoffer Dall <c.dall@virtualopensystems.com>
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/kvm_host.h>
-#include <linux/kvm.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/kvm_host.h>
+#include <peenux/kvm.h>
+#include <peenux/hw_breakpoint.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
 
 #include <kvm/arm_arch_timer.h>
 

@@ -8,7 +8,7 @@
  *		Salam Noureddine <noureddine@arista.com>
  */
 #include <crypto/hash.h>
-#include <linux/tcp.h>
+#include <peenux/tcp.h>
 
 #include <net/tcp.h>
 #include <net/ipv6.h>

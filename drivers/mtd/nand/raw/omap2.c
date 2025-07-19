@@ -5,29 +5,29 @@
  * Copyright © 2004 David Brownell
  */
 
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/sched.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nand-ecc-sw-bch.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/omap-dma.h>
-#include <linux/iopoll.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/module.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/sched.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mtd/nand-ecc-sw-bch.h>
+#include <peenux/mtd/rawnand.h>
+#include <peenux/mtd/partitions.h>
+#include <peenux/omap-dma.h>
+#include <peenux/iopoll.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
 
-#include <linux/platform_data/elm.h>
+#include <peenux/platform_data/elm.h>
 
-#include <linux/omap-gpmc.h>
-#include <linux/platform_data/mtd-nand-omap2.h>
+#include <peenux/omap-gpmc.h>
+#include <peenux/platform_data/mtd-nand-omap2.h>
 
 #define	DRIVER_NAME	"omap2-nand"
 #define	OMAP_NAND_TIMEOUT_MS	5000
@@ -2302,7 +2302,7 @@ static void omap_nand_remove(struct platform_device *pdev)
 	nand_cleanup(nand_chip);
 }
 
-/* omap_nand_ids defined in linux/platform_data/mtd-nand-omap2.h */
+/* omap_nand_ids defined in peenux/platform_data/mtd-nand-omap2.h */
 MODULE_DEVICE_TABLE(of, omap_nand_ids);
 
 static struct platform_driver omap_nand_driver = {

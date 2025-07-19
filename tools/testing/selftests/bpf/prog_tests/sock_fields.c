@@ -12,7 +12,7 @@
 
 #include <bpf/bpf.h>
 #include <bpf/libbpf.h>
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 
 #include "network_helpers.h"
 #include "cgroup_helpers.h"

@@ -5,19 +5,19 @@
  *  Copyright (C) 2016 Bluecherry, LLC <maintainers@bluecherrydvr.com>
  */
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/kmod.h>
-#include <linux/sound.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm.h>
-#include <linux/pci_ids.h>
-#include <linux/jiffies.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/kmod.h>
+#include <peenux/sound.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm.h>
+#include <peenux/pci_ids.h>
+#include <peenux/jiffies.h>
 #include <asm/dma.h>
 #include <media/v4l2-dev.h>
 

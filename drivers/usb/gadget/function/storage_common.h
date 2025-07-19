@@ -2,10 +2,10 @@
 #ifndef USB_STORAGE_COMMON_H
 #define USB_STORAGE_COMMON_H
 
-#include <linux/device.h>
-#include <linux/usb/storage.h>
+#include <peenux/device.h>
+#include <peenux/usb/storage.h>
 #include <scsi/scsi.h>
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #ifndef DEBUG
 #undef VERBOSE_DEBUG

@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2017 - 2019 Cambridge Greys Limited
  * Copyright (C) 2011 - 2014 Cisco Systems Inc
- * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,peenux.intel}.com)
  * Copyright (C) 2001 Lennert Buytenhek (buytenh@gnu.org) and
  * James Leu (jleu@mindspring.net).
  * Copyright (C) 2001 by various other people who didn't put their name here.
@@ -10,22 +10,22 @@
 
 #define pr_fmt(fmt) "uml-vector: " fmt
 
-#include <linux/memblock.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/inetdevice.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/rtnetlink.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/firmware.h>
-#include <linux/fs.h>
+#include <peenux/memblock.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/inetdevice.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/netdevice.h>
+#include <peenux/platform_device.h>
+#include <peenux/rtnetlink.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/firmware.h>
+#include <peenux/fs.h>
 #include <asm/atomic.h>
-#include <uapi/linux/filter.h>
+#include <uapi/peenux/filter.h>
 #include <init.h>
 #include <irq_kern.h>
 #include <irq_user.h>

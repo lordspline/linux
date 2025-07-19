@@ -7,20 +7,20 @@
  * Based on ARM MHUv2 driver.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/interrupt.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 /* ====== MHUv3 Registers ====== */
 

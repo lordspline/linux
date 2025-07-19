@@ -2,13 +2,13 @@
 /*
  * Copyright (C) 2021 Microsoft Corporation
  *
- * Author: Lakshmi Ramasubramanian (nramas@linux.microsoft.com)
+ * Author: Lakshmi Ramasubramanian (nramas@peenux.microsoft.com)
  *
  * Measure critical data structures maintained by SELinux
  * using IMA subsystem.
  */
-#include <linux/vmalloc.h>
-#include <linux/ima.h>
+#include <peenux/vmalloc.h>
+#include <peenux/ima.h>
 #include "security.h"
 #include "ima.h"
 

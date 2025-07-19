@@ -10,12 +10,12 @@
  *	https://docs.embeddedts.com/TS-CAN1
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/isa.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/ioport.h>
+#include <peenux/isa.h>
+#include <peenux/module.h>
+#include <peenux/netdevice.h>
 #include "sja1000.h"
 
 MODULE_DESCRIPTION("Driver for Technologic Systems TS-CAN1 PC104 boards");

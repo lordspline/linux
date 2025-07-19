@@ -30,7 +30,7 @@ file: media/v4l/capture.c
     #include <sys/mman.h>
     #include <sys/ioctl.h>
 
-    #include <linux/videodev2.h>
+    #include <peenux/videodev2.h>
 
     #define CLEAR(x) memset(&(x), 0, sizeof(x))
 

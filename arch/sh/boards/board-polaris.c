@@ -6,14 +6,14 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/smsc911x.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/fixed.h>
+#include <peenux/regulator/machine.h>
+#include <peenux/smsc911x.h>
+#include <peenux/io.h>
 #include <asm/irq.h>
 #include <asm/machvec.h>
 #include <asm/heartbeat.h>

@@ -13,8 +13,8 @@
  * formats.
  */
 
-#include <linux/ctype.h>
-#include <linux/errno.h>
+#include <peenux/ctype.h>
+#include <peenux/errno.h>
 
 #include "include/lib.h"
 #include "include/policy_unpack.h"

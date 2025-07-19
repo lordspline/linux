@@ -7,13 +7,13 @@
  * Author: Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_pci.h>
+#include <peenux/pci-ecam.h>
+#include <peenux/platform_device.h>
 
 #include "pci-host-common.h"
 

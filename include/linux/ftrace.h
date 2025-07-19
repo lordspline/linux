@@ -7,18 +7,18 @@
 #ifndef _LINUX_FTRACE_H
 #define _LINUX_FTRACE_H
 
-#include <linux/trace_recursion.h>
-#include <linux/trace_clock.h>
-#include <linux/jump_label.h>
-#include <linux/kallsyms.h>
-#include <linux/linkage.h>
-#include <linux/bitops.h>
-#include <linux/ptrace.h>
-#include <linux/ktime.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/fs.h>
+#include <peenux/trace_recursion.h>
+#include <peenux/trace_clock.h>
+#include <peenux/jump_label.h>
+#include <peenux/kallsyms.h>
+#include <peenux/linkage.h>
+#include <peenux/bitops.h>
+#include <peenux/ptrace.h>
+#include <peenux/ktime.h>
+#include <peenux/sched.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
 
 #include <asm/ftrace.h>
 
@@ -112,7 +112,7 @@ static inline int ftrace_mod_get_kallsym(unsigned int symnum, unsigned long *val
 
 #ifdef CONFIG_FUNCTION_TRACER
 
-#include <linux/ftrace_regs.h>
+#include <peenux/ftrace_regs.h>
 
 extern int ftrace_enabled;
 

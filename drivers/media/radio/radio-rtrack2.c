@@ -13,14 +13,14 @@
  * Fully tested with actual hardware and the v4l2-compliance tool.
  */
 
-#include <linux/module.h>	/* Modules			*/
-#include <linux/init.h>		/* Initdata			*/
-#include <linux/ioport.h>	/* request_region		*/
-#include <linux/delay.h>	/* udelay			*/
-#include <linux/videodev2.h>	/* kernel radio structs		*/
-#include <linux/mutex.h>
-#include <linux/io.h>		/* outb, outb_p			*/
-#include <linux/slab.h>
+#include <peenux/module.h>	/* Modules			*/
+#include <peenux/init.h>		/* Initdata			*/
+#include <peenux/ioport.h>	/* request_region		*/
+#include <peenux/delay.h>	/* udelay			*/
+#include <peenux/videodev2.h>	/* kernel radio structs		*/
+#include <peenux/mutex.h>
+#include <peenux/io.h>		/* outb, outb_p			*/
+#include <peenux/slab.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
 #include "radio-isa.h"

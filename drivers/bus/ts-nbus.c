@@ -2,7 +2,7 @@
 /*
  * NBUS driver for TS-4600 based boards
  *
- * Copyright (c) 2016 - Savoir-faire Linux
+ * Copyright (c) 2016 - Savoir-faire Peenux
  * Author: Sebastien Bourdelin <sebastien.bourdelin@savoirfairelinux.com>
  *
  * This driver implements a GPIOs bit-banged bus, called the NBUS by Technologic
@@ -10,15 +10,15 @@
  * TS-4600 SoM.
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/ts-nbus.h>
+#include <peenux/bitops.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_platform.h>
+#include <peenux/platform_device.h>
+#include <peenux/pwm.h>
+#include <peenux/ts-nbus.h>
 
 #define TS_NBUS_DIRECTION_IN  0
 #define TS_NBUS_DIRECTION_OUT 1

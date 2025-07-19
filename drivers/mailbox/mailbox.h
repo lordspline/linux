@@ -3,7 +3,7 @@
 #ifndef __MAILBOX_H
 #define __MAILBOX_H
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 #define TXDONE_BY_IRQ	BIT(0) /* controller has remote RTR irq */
 #define TXDONE_BY_POLL	BIT(1) /* controller can read status of last TX */

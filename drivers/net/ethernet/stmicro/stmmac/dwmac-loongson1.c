@@ -5,12 +5,12 @@
  * Copyright (C) 2011-2023 Keguang Zhang <keguang.zhang@gmail.com>
  */
 
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 #include "stmmac.h"
 #include "stmmac_platform.h"

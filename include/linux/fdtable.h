@@ -6,16 +6,16 @@
 #ifndef __LINUX_FDTABLE_H
 #define __LINUX_FDTABLE_H
 
-#include <linux/posix_types.h>
-#include <linux/compiler.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/nospec.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/fs.h>
+#include <peenux/posix_types.h>
+#include <peenux/compiler.h>
+#include <peenux/spinlock.h>
+#include <peenux/rcupdate.h>
+#include <peenux/nospec.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 
 /*
  * The default fd array needs to be at least BITS_PER_LONG,

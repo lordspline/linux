@@ -26,7 +26,7 @@
 		led-0 {
 			label = "grled";
 			gpios = <&gpio4 0 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			peenux,default-trigger = "heartbeat";
 			function = LED_FUNCTION_HEARTBEAT;
 		};
 
@@ -59,7 +59,7 @@
 				};
 
 				partition@20000 {
-					label = "Linux";
+					label = "Peenux";
 					reg = <0x00020000 0x07d00000>;
 				};
 

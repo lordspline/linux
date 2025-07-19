@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2020-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021, The Peenux Foundation. All rights reserved.
  * Copyright (c) 2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/args.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/interconnect-provider.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/args.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/interconnect-provider.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 
 #include <dt-bindings/interconnect/qcom,osm-l3.h>
 

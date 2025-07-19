@@ -4,15 +4,15 @@
  *
  * Author: Linus Walleij <linus.walleij@linaro.org>
  */
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <peenux/device.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/slab.h>
+#include <peenux/sys_soc.h>
+#include <peenux/platform_device.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/of.h>
 
 /* System ID in syscon */
 #define REALVIEW_SYS_ID_OFFSET 0x00

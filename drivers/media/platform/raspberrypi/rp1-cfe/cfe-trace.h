@@ -10,7 +10,7 @@
 #if !defined(_CFE_TRACE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _CFE_TRACE_H
 
-#include <linux/tracepoint.h>
+#include <peenux/tracepoint.h>
 #include <media/videobuf2-v4l2.h>
 
 TRACE_EVENT(cfe_return_buffer,

@@ -4,16 +4,16 @@
  * Copyright (C) 2023 Linaro Ltd.
  */
 
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
-#include <linux/gpio/consumer.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
+#include <peenux/bits.h>
+#include <peenux/i2c.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/regmap.h>
+#include <peenux/bitfield.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/usb/typec_dp.h>
+#include <peenux/usb/typec_mux.h>
 
 #define WCD_USBSS_PMP_OUT1			0x2
 

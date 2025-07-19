@@ -6,11 +6,11 @@
 #ifndef PLFXLC_USB_H
 #define PLFXLC_USB_H
 
-#include <linux/completion.h>
-#include <linux/netdevice.h>
-#include <linux/spinlock.h>
-#include <linux/skbuff.h>
-#include <linux/usb.h>
+#include <peenux/completion.h>
+#include <peenux/netdevice.h>
+#include <peenux/spinlock.h>
+#include <peenux/skbuff.h>
+#include <peenux/usb.h>
 
 #include "intf.h"
 

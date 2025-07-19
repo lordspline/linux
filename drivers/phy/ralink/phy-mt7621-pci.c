@@ -5,15 +5,15 @@
  */
 
 #include <dt-bindings/phy/phy.h>
-#include <linux/clk.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/sys_soc.h>
+#include <peenux/clk.h>
+#include <peenux/bitfield.h>
+#include <peenux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/sys_soc.h>
 
 #define RG_PE1_PIPE_REG				0x02c
 #define RG_PE1_PIPE_RST				BIT(12)

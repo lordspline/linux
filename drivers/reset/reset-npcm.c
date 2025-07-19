@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2019 Nuvoton Technology corporation.
 
-#include <linux/auxiliary_bus.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reboot.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/of_address.h>
+#include <peenux/auxiliary_bus.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/reboot.h>
+#include <peenux/reset-controller.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/regmap.h>
+#include <peenux/of_address.h>
 
 #include <soc/nuvoton/clock-npcm8xx.h>
 

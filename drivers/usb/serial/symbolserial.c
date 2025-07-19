@@ -7,15 +7,15 @@
  * Copyright (C) 2009 Novell Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/slab.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/uaccess.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/slab.h>
+#include <peenux/tty_driver.h>
+#include <peenux/tty_flip.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
+#include <peenux/uaccess.h>
 
 static const struct usb_device_id id_table[] = {
 	{ USB_DEVICE(0x05e0, 0x0600) },

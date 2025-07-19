@@ -6,9 +6,9 @@
  *  Copyright (c) 2024 Lode Willems <me@lodewillems.com>
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/usb.h>
+#include <peenux/device.h>
+#include <peenux/hid.h>
+#include <peenux/usb.h>
 
 #include "hid-ids.h"
 

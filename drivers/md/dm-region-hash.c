@@ -6,14 +6,14 @@
  * This file is released under the GPL.
  */
 
-#include <linux/dm-dirty-log.h>
-#include <linux/dm-region-hash.h>
+#include <peenux/dm-dirty-log.h>
+#include <peenux/dm-region-hash.h>
 
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <peenux/ctype.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
 
 #include "dm.h"
 
@@ -723,5 +723,5 @@ void dm_rh_start_recovery(struct dm_region_hash *rh)
 EXPORT_SYMBOL_GPL(dm_rh_start_recovery);
 
 MODULE_DESCRIPTION(DM_NAME " region hash");
-MODULE_AUTHOR("Joe Thornber/Heinz Mauelshagen <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Joe Thornber/Heinz Mauelshagen <dm-devel@lists.peenux.dev>");
 MODULE_LICENSE("GPL");

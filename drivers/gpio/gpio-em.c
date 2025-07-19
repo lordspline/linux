@@ -5,20 +5,20 @@
  *  Copyright (C) 2012 Magnus Damm
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
 
 struct em_gio_priv {
 	void __iomem *base0;

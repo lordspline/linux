@@ -6,15 +6,15 @@
  * Copyright (C) 2010 Nokia Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/pm_opp.h>
-#include <linux/export.h>
-#include <linux/suspend.h>
-#include <linux/clk.h>
-#include <linux/cpu.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/pm_opp.h>
+#include <peenux/export.h>
+#include <peenux/suspend.h>
+#include <peenux/clk.h>
+#include <peenux/cpu.h>
 
 #include <asm/system_misc.h>
 

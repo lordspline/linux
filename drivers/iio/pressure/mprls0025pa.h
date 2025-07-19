@@ -11,14 +11,14 @@
 #ifndef _MPRLS0025PA_H
 #define _MPRLS0025PA_H
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <peenux/completion.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/mutex.h>
+#include <peenux/stddef.h>
+#include <peenux/types.h>
 
-#include <linux/iio/iio.h>
+#include <peenux/iio/iio.h>
 
 #define MPR_MEASUREMENT_RD_SIZE 4
 #define MPR_CMD_NOP      0xf0

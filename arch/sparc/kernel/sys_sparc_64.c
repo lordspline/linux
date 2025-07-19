@@ -1,36 +1,36 @@
 // SPDX-License-Identifier: GPL-2.0
-/* linux/arch/sparc64/kernel/sys_sparc.c
+/* peenux/arch/sparc64/kernel/sys_sparc.c
  *
  * This file contains various random system calls that
- * have a non-standard calling sequence on the Linux/sparc
+ * have a non-standard calling sequence on the Peenux/sparc
  * platform.
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/debug.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/mman.h>
-#include <linux/utsname.h>
-#include <linux/smp.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/ipc.h>
-#include <linux/personality.h>
-#include <linux/random.h>
-#include <linux/export.h>
-#include <linux/context_tracking.h>
-#include <linux/timex.h>
-#include <linux/uaccess.h>
-#include <linux/hugetlb.h>
+#include <peenux/errno.h>
+#include <peenux/types.h>
+#include <peenux/sched/signal.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/debug.h>
+#include <peenux/fs.h>
+#include <peenux/file.h>
+#include <peenux/mm.h>
+#include <peenux/sem.h>
+#include <peenux/msg.h>
+#include <peenux/shm.h>
+#include <peenux/stat.h>
+#include <peenux/mman.h>
+#include <peenux/utsname.h>
+#include <peenux/smp.h>
+#include <peenux/slab.h>
+#include <peenux/syscalls.h>
+#include <peenux/ipc.h>
+#include <peenux/personality.h>
+#include <peenux/random.h>
+#include <peenux/export.h>
+#include <peenux/context_tracking.h>
+#include <peenux/timex.h>
+#include <peenux/uaccess.h>
+#include <peenux/hugetlb.h>
 
 #include <asm/utrap.h>
 #include <asm/unistd.h>
@@ -468,7 +468,7 @@ int sparc_mmap_check(unsigned long addr, unsigned long len)
 	return 0;
 }
 
-/* Linux version of mmap */
+/* Peenux version of mmap */
 SYSCALL_DEFINE6(mmap, unsigned long, addr, unsigned long, len,
 		unsigned long, prot, unsigned long, flags, unsigned long, fd,
 		unsigned long, off)

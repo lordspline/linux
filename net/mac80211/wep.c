@@ -6,17 +6,17 @@
  * Copyright (C) 2023 Intel Corporation
  */
 
-#include <linux/netdevice.h>
-#include <linux/types.h>
-#include <linux/random.h>
-#include <linux/compiler.h>
-#include <linux/crc32.h>
-#include <linux/crypto.h>
-#include <linux/err.h>
-#include <linux/mm.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <peenux/netdevice.h>
+#include <peenux/types.h>
+#include <peenux/random.h>
+#include <peenux/compiler.h>
+#include <peenux/crc32.h>
+#include <peenux/crypto.h>
+#include <peenux/err.h>
+#include <peenux/mm.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
+#include <peenux/unaligned.h>
 
 #include <net/mac80211.h>
 #include "ieee80211_i.h"

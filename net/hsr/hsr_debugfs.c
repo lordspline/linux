@@ -6,9 +6,9 @@
  * Author(s):
  *	Murali Karicheri <m-karicheri2@ti.com>
  */
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/debugfs.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/debugfs.h>
 #include "hsr_main.h"
 #include "hsr_framereg.h"
 

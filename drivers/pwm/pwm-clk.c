@@ -18,14 +18,14 @@
  *   .get_state().
  */
 
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/pwm.h>
+#include <peenux/kernel.h>
+#include <peenux/math64.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/clk.h>
+#include <peenux/pwm.h>
 
 struct pwm_clk_chip {
 	struct clk *clk;

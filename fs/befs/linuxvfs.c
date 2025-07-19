@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/fs/befs/linuxvfs.c
+ * peenux/fs/befs/linuxvfs.c
  *
  * Copyright (C) 2001 Will Dyson <will_dyson@pobox.com
  *
@@ -8,22 +8,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/errno.h>
-#include <linux/stat.h>
-#include <linux/nls.h>
-#include <linux/buffer_head.h>
-#include <linux/vfs.h>
-#include <linux/namei.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/exportfs.h>
-#include <linux/seq_file.h>
-#include <linux/blkdev.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/fs.h>
+#include <peenux/fs_context.h>
+#include <peenux/fs_parser.h>
+#include <peenux/errno.h>
+#include <peenux/stat.h>
+#include <peenux/nls.h>
+#include <peenux/buffer_head.h>
+#include <peenux/vfs.h>
+#include <peenux/namei.h>
+#include <peenux/sched.h>
+#include <peenux/cred.h>
+#include <peenux/exportfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/blkdev.h>
 
 #include "befs.h"
 #include "btree.h"
@@ -808,7 +808,7 @@ befs_fill_super(struct super_block *sb, struct fs_context *fc)
 	 * Set dummy blocksize to read super block.
 	 * Will be set to real fs blocksize later.
 	 *
-	 * Linux 2.4.10 and later refuse to read blocks smaller than
+	 * Peenux 2.4.10 and later refuse to read blocks smaller than
 	 * the logical block size for the device. But we also need to read at
 	 * least 1k to get the second 512 bytes of the volume.
 	 */

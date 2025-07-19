@@ -5,7 +5,7 @@
 #include <errno.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
-#include <linux/limits.h>
+#include <peenux/limits.h>
 
 #include "bpf_misc.h"
 #include "bpf_experimental.h"

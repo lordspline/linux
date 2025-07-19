@@ -6,12 +6,12 @@
 #ifndef _NE_PCI_DEV_H_
 #define _NE_PCI_DEV_H_
 
-#include <linux/atomic.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/wait.h>
+#include <peenux/atomic.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pci_ids.h>
+#include <peenux/wait.h>
 
 /**
  * DOC: Nitro Enclaves (NE) PCI device

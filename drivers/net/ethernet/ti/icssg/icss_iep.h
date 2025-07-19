@@ -8,9 +8,9 @@
 #ifndef __NET_TI_ICSS_IEP_H
 #define __NET_TI_ICSS_IEP_H
 
-#include <linux/mutex.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/regmap.h>
+#include <peenux/mutex.h>
+#include <peenux/ptp_clock_kernel.h>
+#include <peenux/regmap.h>
 
 enum {
 	ICSS_IEP_GLOBAL_CFG_REG,

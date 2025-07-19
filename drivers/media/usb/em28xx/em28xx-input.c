@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0+
 //
-// handle em28xx IR remotes via linux kernel input layer.
+// handle em28xx IR remotes via peenux kernel input layer.
 //
 // Copyright (C) 2005 Ludovico Cavedon <cavedon@sssup.it>
 //		      Markus Rechberger <mrechberger@gmail.com>
@@ -9,14 +9,14 @@
 
 #include "em28xx.h"
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
-#include <linux/slab.h>
-#include <linux/bitrev.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/usb.h>
+#include <peenux/usb/input.h>
+#include <peenux/slab.h>
+#include <peenux/bitrev.h>
 
 #define EM28XX_SNAPSHOT_KEY				KEY_CAMERA
 #define EM28XX_BUTTONS_DEBOUNCED_QUERY_INTERVAL		500 /* [ms] */

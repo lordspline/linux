@@ -10,20 +10,20 @@
  * Contributors: Kristoffer Glembo <kristoffer@gaisler.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/tty.h>
+#include <peenux/mm.h>
+#include <peenux/fb.h>
+#include <peenux/io.h>
 
 struct grvga_regs {
 	u32 status; 		/* 0x00 */

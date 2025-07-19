@@ -9,11 +9,11 @@
 
 #define DSS_SUBSYS_NAME "DISPLAY"
 
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
+#include <peenux/kernel.h>
+#include <peenux/kstrtox.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/sysfs.h>
 
 #include <video/omapfb_dss.h>
 #include "dss.h"

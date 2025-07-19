@@ -7,18 +7,18 @@
  * Author: Stefano Brivio <sbrivio@redhat.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netlink.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/nf_tables.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/netlink.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/nf_tables.h>
 #include <net/netfilter/nf_tables_core.h>
-#include <uapi/linux/netfilter/nf_tables.h>
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
+#include <uapi/peenux/netfilter/nf_tables.h>
+#include <peenux/bitmap.h>
+#include <peenux/bitops.h>
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #include <asm/fpu/api.h>
 
 #include "nft_set_pipapo_avx2.h"

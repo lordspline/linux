@@ -6,7 +6,7 @@
 #ifndef __ASM_S390_ACCESS_REGS_H
 #define __ASM_S390_ACCESS_REGS_H
 
-#include <linux/instrumented.h>
+#include <peenux/instrumented.h>
 #include <asm/sigcontext.h>
 
 struct access_regs {

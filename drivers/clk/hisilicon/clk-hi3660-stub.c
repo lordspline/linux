@@ -10,15 +10,15 @@
  *	    Leo Yan <leo.yan@linaro.org>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <peenux/clk-provider.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
 #include <dt-bindings/clock/hi3660-clock.h>
 
 #define HI3660_STUB_CLOCK_DATA		(0x70)

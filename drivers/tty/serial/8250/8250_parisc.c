@@ -5,14 +5,14 @@
  *	(c) Copyright Matthew Wilcox <willy@debian.org> 2001-2002
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/serial_core.h>
-#include <linux/signal.h>
-#include <linux/types.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/serial_core.h>
+#include <peenux/signal.h>
+#include <peenux/types.h>
 
 #include <asm/hardware.h>
 #include <asm/parisc-device.h>

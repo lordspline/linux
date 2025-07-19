@@ -15,33 +15,33 @@
  * kind, whether express or implied.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/debugfs.h>
-#include <linux/dmaengine.h>
-#include <linux/seq_file.h>
-#include <linux/sizes.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/timer.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_device.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/core.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/platform_data/hsmmc-omap.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/kernel.h>
+#include <peenux/debugfs.h>
+#include <peenux/dmaengine.h>
+#include <peenux/seq_file.h>
+#include <peenux/sizes.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/platform_device.h>
+#include <peenux/timer.h>
+#include <peenux/clk.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_device.h>
+#include <peenux/mmc/host.h>
+#include <peenux/mmc/core.h>
+#include <peenux/mmc/mmc.h>
+#include <peenux/mmc/slot-gpio.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/pm_wakeirq.h>
+#include <peenux/platform_data/hsmmc-omap.h>
 
 /* OMAP HSMMC Host Controller Registers */
 #define OMAP_HSMMC_SYSSTATUS	0x0014

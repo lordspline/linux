@@ -8,23 +8,23 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/hw_random.h>
-#include <linux/cpu.h>
-#include <linux/atomic.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/kthread.h>
+#include <peenux/sched.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/spinlock_types.h>
+#include <peenux/types.h>
+#include <peenux/mutex.h>
+#include <peenux/delay.h>
+#include <peenux/hw_random.h>
+#include <peenux/cpu.h>
+#include <peenux/atomic.h>
 #ifdef CONFIG_X86
 #include <asm/cpu_device_id.h>
 #endif
-#include <linux/ccp.h>
+#include <peenux/ccp.h>
 
 #include "ccp-dev.h"
 

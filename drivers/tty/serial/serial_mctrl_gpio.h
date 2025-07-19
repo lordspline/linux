@@ -8,9 +8,9 @@
 #ifndef __SERIAL_MCTRL_GPIO__
 #define __SERIAL_MCTRL_GPIO__
 
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
 
 struct uart_port;
 

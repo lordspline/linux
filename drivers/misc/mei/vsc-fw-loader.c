@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2023, Intel Corporation.
- * Intel Visual Sensing Controller Transport Layer Linux driver
+ * Intel Visual Sensing Controller Transport Layer Peenux driver
  */
 
-#include <linux/acpi.h>
-#include <linux/align.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/firmware.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
-#include <linux/types.h>
+#include <peenux/acpi.h>
+#include <peenux/align.h>
+#include <peenux/bitfield.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/firmware.h>
+#include <peenux/sizes.h>
+#include <peenux/slab.h>
+#include <peenux/string_helpers.h>
+#include <peenux/types.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #include "vsc-tp.h"
 

@@ -12,17 +12,17 @@
  * Malta board. The interrupt controller is located in the South Bridge
  * a PIIX4 device with two internal 82C95 interrupt controllers.
  */
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of_irq.h>
-#include <linux/kernel_stat.h>
-#include <linux/kernel.h>
-#include <linux/random.h>
+#include <peenux/init.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/of_irq.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/kernel.h>
+#include <peenux/random.h>
 
 #include <asm/traps.h>
 #include <asm/i8259.h>

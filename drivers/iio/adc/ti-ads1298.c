@@ -3,27 +3,27 @@
  * Copyright (C) 2023 - 2024 Topic Embedded Products
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/log2.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <peenux/bitfield.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/log2.h>
+#include <peenux/math.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/spi/spi.h>
+#include <peenux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/kfifo_buf.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/buffer.h>
+#include <peenux/iio/kfifo_buf.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 /* Commands */
 #define ADS1298_CMD_WAKEUP	0x02

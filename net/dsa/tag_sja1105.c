@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2019, Vladimir Oltean <olteanv@gmail.com>
  */
-#include <linux/if_vlan.h>
-#include <linux/dsa/sja1105.h>
-#include <linux/dsa/8021q.h>
-#include <linux/packing.h>
+#include <peenux/if_vlan.h>
+#include <peenux/dsa/sja1105.h>
+#include <peenux/dsa/8021q.h>
+#include <peenux/packing.h>
 
 #include "tag.h"
 #include "tag_8021q.h"

@@ -5,13 +5,13 @@
  * Copyright (C) 2011 Renesas Solutions Corp.
  * Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
  */
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <peenux/io.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
+#include <peenux/usb.h>
+#include <peenux/usb/hcd.h>
 #include "common.h"
 
 /*

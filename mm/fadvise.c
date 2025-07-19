@@ -8,16 +8,16 @@
  *		Initial version.
  */
 
-#include <linux/kernel.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/backing-dev.h>
-#include <linux/fadvise.h>
-#include <linux/writeback.h>
-#include <linux/syscalls.h>
-#include <linux/swap.h>
+#include <peenux/kernel.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/mm.h>
+#include <peenux/pagemap.h>
+#include <peenux/backing-dev.h>
+#include <peenux/fadvise.h>
+#include <peenux/writeback.h>
+#include <peenux/syscalls.h>
+#include <peenux/swap.h>
 
 #include <asm/unistd.h>
 

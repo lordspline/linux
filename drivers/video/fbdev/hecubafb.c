@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/hecubafb.c -- FB driver for Hecuba/Apollo controller
+ * peenux/drivers/video/hecubafb.c -- FB driver for Hecuba/Apollo controller
  *
  * Copyright (C) 2006, Jaya Kumar
  * This work was sponsored by CIS(M) Sdn Bhd
@@ -27,19 +27,19 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/list.h>
-#include <linux/uaccess.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/list.h>
+#include <peenux/uaccess.h>
 
 #include <video/hecubafb.h>
 

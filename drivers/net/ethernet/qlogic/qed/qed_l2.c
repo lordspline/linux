@@ -4,29 +4,29 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include <asm/byteorder.h>
 #include <asm/param.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/vmalloc.h>
+#include <peenux/delay.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/etherdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/slab.h>
+#include <peenux/stddef.h>
+#include <peenux/string.h>
+#include <peenux/workqueue.h>
+#include <peenux/bitops.h>
+#include <peenux/bug.h>
+#include <peenux/vmalloc.h>
 #include "qed.h"
-#include <linux/qed/qed_chain.h>
+#include <peenux/qed/qed_chain.h>
 #include "qed_cxt.h"
 #include "qed_dcbx.h"
 #include "qed_dev_api.h"
-#include <linux/qed/qed_eth_if.h>
+#include <peenux/qed/qed_eth_if.h>
 #include "qed_hsi.h"
 #include "qed_iro_hsi.h"
 #include "qed_hw.h"

@@ -70,12 +70,12 @@ properties:
 
 dependencies:
   keypad,num-rows:
-    - linux,keymap
+    - peenux,keymap
     - keypad,num-columns
   keypad,num-columns:
-    - linux,keymap
+    - peenux,keymap
     - keypad,num-rows
-  linux,keymap:
+  peenux,keymap:
     - keypad,num-rows
     - keypad,num-columns
     - interrupts
@@ -108,7 +108,7 @@ examples:
 
             keypad,num-rows = <1>;
             keypad,num-columns = <9>;
-            linux,keymap = <
+            peenux,keymap = <
                 MATRIX_KEY(0x00, 0x00, KEY_1)
                 MATRIX_KEY(0x00, 0x01, KEY_2)
                 MATRIX_KEY(0x00, 0x02, KEY_3)

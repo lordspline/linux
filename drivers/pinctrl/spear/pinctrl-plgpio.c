@@ -9,19 +9,19 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <peenux/clk.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_platform.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm.h>
+#include <peenux/regmap.h>
+#include <peenux/spinlock.h>
 
 #define MAX_GPIO_PER_REG		32
 #define PIN_OFFSET(pin)			(pin % MAX_GPIO_PER_REG)

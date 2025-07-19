@@ -5,25 +5,25 @@
 // Copyright (c) 2023 Cirrus Logic, Inc. and
 //                    Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/build_bug.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/mfd/cs42l43.h>
-#include <linux/mfd/cs42l43-regs.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/build_bug.h>
+#include <peenux/err.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/mfd/cs42l43.h>
+#include <peenux/mfd/cs42l43-regs.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/string_choices.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "../pinctrl-utils.h"
 

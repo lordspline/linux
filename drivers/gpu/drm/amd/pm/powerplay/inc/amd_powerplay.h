@@ -23,9 +23,9 @@
 #ifndef _AMD_POWERPLAY_H_
 #define _AMD_POWERPLAY_H_
 
-#include <linux/seq_file.h>
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <peenux/seq_file.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
 #include "amd_shared.h"
 #include "cgs_common.h"
 #include "dm_pp_interface.h"

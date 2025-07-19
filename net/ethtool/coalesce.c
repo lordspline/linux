@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/dim.h>
+#include <peenux/dim.h>
 #include "netlink.h"
 #include "common.h"
 

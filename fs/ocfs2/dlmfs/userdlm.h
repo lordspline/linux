@@ -11,10 +11,10 @@
 #ifndef USERDLM_H
 #define USERDLM_H
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 
 /* user_lock_res->l_flags flags. */
 #define USER_LOCK_ATTACHED      (0x00000001) /* we have initialized

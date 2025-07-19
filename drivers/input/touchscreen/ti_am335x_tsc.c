@@ -14,21 +14,21 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/sort.h>
-#include <linux/pm_wakeirq.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/module.h>
+#include <peenux/input.h>
+#include <peenux/slab.h>
+#include <peenux/interrupt.h>
+#include <peenux/clk.h>
+#include <peenux/platform_device.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/of.h>
+#include <peenux/sort.h>
+#include <peenux/pm_wakeirq.h>
 
-#include <linux/mfd/ti_am335x_tscadc.h>
+#include <peenux/mfd/ti_am335x_tscadc.h>
 
 #define ADCFSM_STEPID		0x10
 #define SEQ_SETTLE		275

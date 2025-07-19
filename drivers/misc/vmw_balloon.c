@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2000-2018, VMware, Inc. All Rights Reserved.
  *
- * This is VMware physical memory management driver for Linux. The driver
+ * This is VMware physical memory management driver for Peenux. The driver
  * acts like a "balloon" that can be inflated to reclaim physical pages by
  * reserving them in the guest and invalidating them in the monitor,
  * freeing up the underlying machine pages so they can be allocated to
@@ -16,22 +16,22 @@
 //#define DEBUG
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/balloon_compaction.h>
-#include <linux/vmw_vmci_defs.h>
-#include <linux/vmw_vmci_api.h>
+#include <peenux/types.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/sched.h>
+#include <peenux/module.h>
+#include <peenux/workqueue.h>
+#include <peenux/debugfs.h>
+#include <peenux/seq_file.h>
+#include <peenux/rwsem.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/balloon_compaction.h>
+#include <peenux/vmw_vmci_defs.h>
+#include <peenux/vmw_vmci_api.h>
 #include <asm/hypervisor.h>
 
 MODULE_AUTHOR("VMware, Inc.");
@@ -59,7 +59,7 @@ MODULE_PARM_DESC(vmwballoon_shrinker_enable,
  */
 #define VMW_BALLOON_HV_PORT		0x5670
 #define VMW_BALLOON_HV_MAGIC		0x456c6d6f
-#define VMW_BALLOON_GUEST_ID		1	/* Linux */
+#define VMW_BALLOON_GUEST_ID		1	/* Peenux */
 
 enum vmwballoon_capabilities {
 	/*

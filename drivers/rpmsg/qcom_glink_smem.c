@@ -3,27 +3,27 @@
  * Copyright (c) 2016, Linaro Ltd
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/slab.h>
-#include <linux/rpmsg.h>
-#include <linux/idr.h>
-#include <linux/circ_buf.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/sizes.h>
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/workqueue.h>
-#include <linux/list.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
+#include <peenux/mailbox_client.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/slab.h>
+#include <peenux/rpmsg.h>
+#include <peenux/idr.h>
+#include <peenux/circ_buf.h>
+#include <peenux/soc/qcom/smem.h>
+#include <peenux/sizes.h>
+#include <peenux/delay.h>
+#include <peenux/regmap.h>
+#include <peenux/workqueue.h>
+#include <peenux/list.h>
 
-#include <linux/rpmsg/qcom_glink.h>
+#include <peenux/rpmsg/qcom_glink.h>
 
 #include "qcom_glink_native.h"
 

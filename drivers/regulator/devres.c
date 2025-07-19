@@ -5,12 +5,12 @@
  * Copyright 2013 Linaro Ltd
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/driver.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/err.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/regulator/driver.h>
+#include <peenux/module.h>
 
 #include "internal.h"
 

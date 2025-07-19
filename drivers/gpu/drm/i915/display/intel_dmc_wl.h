@@ -6,9 +6,9 @@
 #ifndef __INTEL_WAKELOCK_H__
 #define __INTEL_WAKELOCK_H__
 
-#include <linux/types.h>
-#include <linux/workqueue.h>
-#include <linux/refcount.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
+#include <peenux/refcount.h>
 
 #include "i915_reg_defs.h"
 

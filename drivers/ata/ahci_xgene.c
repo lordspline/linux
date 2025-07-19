@@ -9,12 +9,12 @@
  *
  * NOTE: PM support is not currently available.
  */
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/ahci_platform.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
+#include <peenux/acpi.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/ahci_platform.h>
+#include <peenux/of.h>
+#include <peenux/phy/phy.h>
 #include "ahci.h"
 
 #define DRV_NAME "xgene-ahci"

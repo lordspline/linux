@@ -5,14 +5,14 @@
 #include <asm/arch_timer.h>
 #endif
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/iopoll.h>
-#include <linux/iosys-map.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/firmware.h>
+#include <peenux/iopoll.h>
+#include <peenux/iosys-map.h>
+#include <peenux/mutex.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_managed.h>

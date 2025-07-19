@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Linux/arm64 port of the OpenSSL SHA512 implementation for AArch64
+ * Peenux/arm64 port of the OpenSSL SHA512 implementation for AArch64
  *
  * Copyright (c) 2016 Linaro Ltd. <ard.biesheuvel@linaro.org>
  */
@@ -8,8 +8,8 @@
 #include <crypto/internal/hash.h>
 #include <crypto/sha2.h>
 #include <crypto/sha512_base.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
 
 MODULE_DESCRIPTION("SHA-384/SHA-512 secure hash for arm64");
 MODULE_AUTHOR("Andy Polyakov <appro@openssl.org>");

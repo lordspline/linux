@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct io {
 	/* File descriptor being read/ */

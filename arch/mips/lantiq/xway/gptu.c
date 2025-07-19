@@ -5,12 +5,12 @@
  *  Copyright (C) 2012 Lantiq GmbH
  */
 
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/interrupt.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 
 #include <lantiq_soc.h>
 #include "../clk.h"

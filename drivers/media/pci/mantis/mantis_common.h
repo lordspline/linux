@@ -9,9 +9,9 @@
 #ifndef __MANTIS_COMMON_H
 #define __MANTIS_COMMON_H
 
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <peenux/interrupt.h>
+#include <peenux/mutex.h>
+#include <peenux/workqueue.h>
 
 #include "mantis_reg.h"
 #include "mantis_uart.h"

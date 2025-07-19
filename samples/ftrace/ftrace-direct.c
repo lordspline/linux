@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
+#include <peenux/module.h>
 
-#include <linux/sched.h> /* for wake_up_process() */
-#include <linux/ftrace.h>
+#include <peenux/sched.h> /* for wake_up_process() */
+#include <peenux/ftrace.h>
 #if !defined(CONFIG_ARM64) && !defined(CONFIG_PPC32)
 #include <asm/asm-offsets.h>
 #endif

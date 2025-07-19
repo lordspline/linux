@@ -24,21 +24,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include <linux/bpf.h>
-#include <linux/if.h>
-#include <linux/if_ether.h>
-#include <linux/if_packet.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/pkt_cls.h>
-#include <linux/swab.h>
+#include <peenux/bpf.h>
+#include <peenux/if.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_packet.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/pkt_cls.h>
+#include <peenux/swab.h>
 #include <stdbool.h>
 #include <stdint.h>
 
 
-#include <linux/udp.h>
+#include <peenux/udp.h>
 
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_endian.h>

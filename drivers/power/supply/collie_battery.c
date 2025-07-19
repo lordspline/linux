@@ -6,16 +6,16 @@
  *
  * based on tosa_battery.c
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mfd/ucb1x00.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/power_supply.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/gpio/machine.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/mfd/ucb1x00.h>
 
 #include <asm/mach/sharpsl_param.h>
 #include <asm/mach-types.h>

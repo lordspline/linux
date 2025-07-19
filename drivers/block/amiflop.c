@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/amiga/amiflop.c
+ *  peenux/amiga/amiflop.c
  *
  *  Copyright (C) 1993  Greg Harp
  *  Portions of this driver are based on code contributed by Brad Pepers
@@ -54,22 +54,22 @@
  * - fixed some race conditions (who finds the next may send it to me ;-)
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
-#include <linux/fd.h>
-#include <linux/hdreg.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/major.h>
-#include <linux/mutex.h>
-#include <linux/fs.h>
-#include <linux/blk-mq.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <peenux/fd.h>
+#include <peenux/hdreg.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/major.h>
+#include <peenux/mutex.h>
+#include <peenux/fs.h>
+#include <peenux/blk-mq.h>
+#include <peenux/interrupt.h>
+#include <peenux/platform_device.h>
 
 #include <asm/setup.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/amigahw.h>
 #include <asm/amigaints.h>
 #include <asm/irq.h>

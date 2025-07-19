@@ -3,8 +3,8 @@
 #ifndef _ASM_S390_KFENCE_H
 #define _ASM_S390_KFENCE_H
 
-#include <linux/mm.h>
-#include <linux/kfence.h>
+#include <peenux/mm.h>
+#include <peenux/kfence.h>
 #include <asm/set_memory.h>
 #include <asm/page.h>
 

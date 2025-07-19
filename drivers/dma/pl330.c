@@ -7,25 +7,25 @@
  *	Jaswinder Singh <jassi.brar@samsung.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/amba/bus.h>
-#include <linux/scatterlist.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/err.h>
-#include <linux/pm_runtime.h>
-#include <linux/bug.h>
-#include <linux/reset.h>
+#include <peenux/debugfs.h>
+#include <peenux/kernel.h>
+#include <peenux/io.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/dmaengine.h>
+#include <peenux/amba/bus.h>
+#include <peenux/scatterlist.h>
+#include <peenux/of.h>
+#include <peenux/of_dma.h>
+#include <peenux/err.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/bug.h>
+#include <peenux/reset.h>
 
 #include "dmaengine.h"
 #define PL330_MAX_CHAN		8

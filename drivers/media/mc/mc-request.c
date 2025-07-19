@@ -7,12 +7,12 @@
  * Copyright (C) 2018 Google, Inc.
  *
  * Author: Hans Verkuil <hansverk@cisco.com>
- * Author: Sakari Ailus <sakari.ailus@linux.intel.com>
+ * Author: Sakari Ailus <sakari.ailus@peenux.intel.com>
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/file.h>
-#include <linux/refcount.h>
+#include <peenux/anon_inodes.h>
+#include <peenux/file.h>
+#include <peenux/refcount.h>
 
 #include <media/media-device.h>
 #include <media/media-request.h>

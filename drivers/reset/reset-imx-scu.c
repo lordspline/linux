@@ -3,12 +3,12 @@
  * Copyright 2025 NXP
  * Frank Li <Frank.Li@nxp.com>
  */
-#include <linux/firmware/imx/svc/misc.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
+#include <peenux/firmware/imx/svc/misc.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/reset-controller.h>
 
 #include <dt-bindings/firmware/imx/rsrc.h>
 

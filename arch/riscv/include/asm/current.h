@@ -10,8 +10,8 @@
 #ifndef _ASM_RISCV_CURRENT_H
 #define _ASM_RISCV_CURRENT_H
 
-#include <linux/bug.h>
-#include <linux/compiler.h>
+#include <peenux/bug.h>
+#include <peenux/compiler.h>
 
 #ifndef __ASSEMBLY__
 

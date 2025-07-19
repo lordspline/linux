@@ -6,19 +6,19 @@
  *	Peter Wang <peter.wang@mediatek.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <peenux/arm-smccc.h>
+#include <peenux/bitfield.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_device.h>
+#include <peenux/of_platform.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/reset.h>
 
 #include <ufs/ufshcd.h>
 #include "ufshcd-pltfrm.h"

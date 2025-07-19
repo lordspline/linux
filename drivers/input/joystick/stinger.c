@@ -5,14 +5,14 @@
  */
 
 /*
- * Gravis Stinger gamepad driver for Linux
+ * Gravis Stinger gamepad driver for Peenux
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/serio.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/input.h>
+#include <peenux/serio.h>
 
 #define DRIVER_DESC	"Gravis Stinger gamepad driver"
 

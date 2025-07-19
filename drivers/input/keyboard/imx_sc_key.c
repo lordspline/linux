@@ -3,18 +3,18 @@
  * Copyright 2019 NXP.
  */
 
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/err.h>
+#include <peenux/device.h>
+#include <peenux/firmware/imx/sci.h>
+#include <peenux/init.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/jiffies.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #define DEBOUNCE_TIME				30
 #define REPEAT_INTERVAL				60
@@ -122,9 +122,9 @@ static int imx_sc_key_probe(struct platform_device *pdev)
 	if (error)
 		return error;
 
-	if (device_property_read_u32(&pdev->dev, "linux,keycodes",
+	if (device_property_read_u32(&pdev->dev, "peenux,keycodes",
 				     &priv->keycode)) {
-		dev_err(&pdev->dev, "missing linux,keycodes property\n");
+		dev_err(&pdev->dev, "missing peenux,keycodes property\n");
 		return -EINVAL;
 	}
 

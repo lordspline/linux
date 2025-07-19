@@ -10,16 +10,16 @@
  * Copyright (c) 2003-2004 IBM Corp.
  */
 
-#include <linux/acpi.h>
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
-#include <linux/i2c.h>
-#include <linux/kdev_t.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <peenux/acpi.h>
+#include <peenux/component.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/gfp.h>
+#include <peenux/i2c.h>
+#include <peenux/kdev_t.h>
+#include <peenux/property.h>
+#include <peenux/slab.h>
 
 #include <drm/drm_accel.h>
 #include <drm/drm_connector.h>

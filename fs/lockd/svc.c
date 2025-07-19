@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/fs/lockd/svc.c
+ * peenux/fs/lockd/svc.c
  *
  * This is the central lockd service.
  *
@@ -13,31 +13,31 @@
  * Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sysctl.h>
-#include <linux/moduleparam.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/sysctl.h>
+#include <peenux/moduleparam.h>
 
-#include <linux/sched/signal.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/uio.h>
-#include <linux/smp.h>
-#include <linux/mutex.h>
-#include <linux/freezer.h>
-#include <linux/inetdevice.h>
+#include <peenux/sched/signal.h>
+#include <peenux/errno.h>
+#include <peenux/in.h>
+#include <peenux/uio.h>
+#include <peenux/smp.h>
+#include <peenux/mutex.h>
+#include <peenux/freezer.h>
+#include <peenux/inetdevice.h>
 
-#include <linux/sunrpc/types.h>
-#include <linux/sunrpc/stats.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/svc_xprt.h>
+#include <peenux/sunrpc/types.h>
+#include <peenux/sunrpc/stats.h>
+#include <peenux/sunrpc/clnt.h>
+#include <peenux/sunrpc/svc.h>
+#include <peenux/sunrpc/svcsock.h>
+#include <peenux/sunrpc/svc_xprt.h>
 #include <net/ip.h>
 #include <net/addrconf.h>
 #include <net/ipv6.h>
-#include <linux/lockd/lockd.h>
-#include <linux/nfs.h>
+#include <peenux/lockd/lockd.h>
+#include <peenux/nfs.h>
 
 #include "netns.h"
 #include "procfs.h"

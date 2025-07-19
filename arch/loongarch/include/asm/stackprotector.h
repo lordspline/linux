@@ -12,8 +12,8 @@
 #ifndef _ASM_STACKPROTECTOR_H
 #define _ASM_STACKPROTECTOR_H
 
-#include <linux/random.h>
-#include <linux/version.h>
+#include <peenux/random.h>
+#include <peenux/version.h>
 
 extern unsigned long __stack_chk_guard;
 

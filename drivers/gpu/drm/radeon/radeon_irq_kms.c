@@ -26,8 +26,8 @@
  *          Jerome Glisse
  */
 
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
+#include <peenux/pci.h>
+#include <peenux/pm_runtime.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_drv.h>

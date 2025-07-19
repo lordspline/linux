@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB */
 /* Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES. All rights reserved. */
 
 #ifndef __PCI_IRQ_H__
 #define __PCI_IRQ_H__
 
-#include <linux/mlx5/driver.h>
+#include <peenux/mlx5/driver.h>
 
 #define MLX5_MAX_IRQ_NAME (32)
 #define MLX5_IRQ_NAME_FORMAT_STR ("%s@pci:%s")

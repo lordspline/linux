@@ -5,17 +5,17 @@
  * Copyright 2020 Google LLC.
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/stringify.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/notifier.h>
+#include <peenux/platform_data/cros_ec_commands.h>
+#include <peenux/platform_data/cros_ec_proto.h>
+#include <peenux/platform_device.h>
+#include <peenux/power_supply.h>
+#include <peenux/slab.h>
+#include <peenux/stringify.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 #define DRV_NAME		"cros-ec-pchg"
 #define PCHG_DIR_PREFIX		"peripheral"

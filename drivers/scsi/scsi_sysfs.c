@@ -7,13 +7,13 @@
  * Created to pull SCSI mid layer sysfs routines into one file.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/bsg.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/blkdev.h>
+#include <peenux/device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/bsg.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_device.h>

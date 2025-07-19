@@ -5,34 +5,34 @@
  *
  * Authors:
  *  Haijun Liu <haijun.liu@mediatek.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@peenux.intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  *
  * Contributors:
  *  Amir Hanania <amir.hanania@intel.com>
- *  Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ *  Andy Shevchenko <andriy.shevchenko@peenux.intel.com>
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
  *  Eliot Lee <eliot.lee@intel.com>
  *  Moises Veleta <moises.veleta@intel.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/gfp.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/jiffies.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/bits.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/gfp.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/iopoll.h>
+#include <peenux/jiffies.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/pci.h>
+#include <peenux/pm.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/spinlock.h>
 
 #include "t7xx_mhccif.h"
 #include "t7xx_modem_ops.h"

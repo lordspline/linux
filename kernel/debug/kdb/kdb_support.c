@@ -10,20 +10,20 @@
  * 03/02/13    added new 2.5 kallsyms <xavier.bru@bull.net>
  */
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/kallsyms.h>
-#include <linux/stddef.h>
-#include <linux/vmalloc.h>
-#include <linux/ptrace.h>
-#include <linux/highmem.h>
-#include <linux/hardirq.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/kdb.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
+#include <peenux/types.h>
+#include <peenux/sched.h>
+#include <peenux/mm.h>
+#include <peenux/kallsyms.h>
+#include <peenux/stddef.h>
+#include <peenux/vmalloc.h>
+#include <peenux/ptrace.h>
+#include <peenux/highmem.h>
+#include <peenux/hardirq.h>
+#include <peenux/delay.h>
+#include <peenux/uaccess.h>
+#include <peenux/kdb.h>
+#include <peenux/slab.h>
+#include <peenux/ctype.h>
 #include "kdb_private.h"
 
 /*

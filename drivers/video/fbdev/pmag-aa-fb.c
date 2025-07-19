@@ -1,5 +1,5 @@
 /*
- *	linux/drivers/video/pmag-aa-fb.c
+ *	peenux/drivers/video/pmag-aa-fb.c
  *	Copyright 2002 Karsten Merker <merker@debian.org>
  *
  *	PMAG-AA TurboChannel framebuffer card support ... derived from
@@ -23,19 +23,19 @@
  *	2003-09-21  Thiemo Seufer  <seufer@csv.ica.uni-stuttgart.de>
  *		Hardware cursor support.
  *
- *	2016-02-21  Maciej W. Rozycki  <macro@linux-mips.org>
+ *	2016-02-21  Maciej W. Rozycki  <macro@peenux-mips.org>
  *		Version 0.03: Rewritten for the new FB and TC APIs.
  */
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/tc.h>
-#include <linux/timer.h>
+#include <peenux/compiler.h>
+#include <peenux/errno.h>
+#include <peenux/fb.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/tc.h>
+#include <peenux/timer.h>
 
 #include "bt455.h"
 #include "bt431.h"

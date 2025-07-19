@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the PEENUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -15,8 +15,8 @@
 #define _LINUX_IN_H
 
 
-#include <linux/errno.h>
-#include <uapi/linux/in.h>
+#include <peenux/errno.h>
+#include <uapi/peenux/in.h>
 
 static inline int proto_ports_offset(int proto)
 {

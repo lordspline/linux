@@ -8,22 +8,22 @@
  * https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19b-co2-ver1_0.pdf
  */
 
-#include <linux/array_size.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/kstrtox.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/serdev.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <peenux/array_size.h>
+#include <peenux/completion.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/sysfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/kstrtox.h>
+#include <peenux/minmax.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/serdev.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/unaligned.h>
 
 /*
  * Commands have following format:

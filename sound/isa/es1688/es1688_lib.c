@@ -4,13 +4,13 @@
  *  Routines for control of ESS ES1688/688/488 chip
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/ioport.h>
+#include <peenux/module.h>
+#include <peenux/io.h>
 #include <sound/core.h>
 #include <sound/es1688.h>
 #include <sound/initval.h>

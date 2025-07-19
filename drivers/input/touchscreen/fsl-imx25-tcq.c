@@ -7,15 +7,15 @@
 // This is the driver for the imx25 TCQ (Touchscreen Conversion Queue)
 // connected to the imx25 ADC.
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/imx25-tsadc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/input.h>
+#include <peenux/interrupt.h>
+#include <peenux/mfd/imx25-tsadc.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
 
 static const char mx25_tcq_name[] = "mx25-tcq";
 

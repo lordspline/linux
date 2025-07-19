@@ -17,8 +17,8 @@
 
 #include "ctresource.h"
 #include "ctimap.h"
-#include <linux/spinlock.h>
-#include <linux/list.h>
+#include <peenux/spinlock.h>
+#include <peenux/list.h>
 #include <sound/core.h>
 
 /* Define the descriptor of a daio resource */

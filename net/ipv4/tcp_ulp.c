@@ -7,11 +7,11 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/gfp.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
+#include <peenux/gfp.h>
 #include <net/tcp.h>
 
 static DEFINE_SPINLOCK(tcp_ulp_list_lock);

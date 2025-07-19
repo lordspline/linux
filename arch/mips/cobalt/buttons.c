@@ -2,12 +2,12 @@
 /*
  *  Cobalt buttons platform device.
  *
- *  Copyright (C) 2007  Yoichi Yuasa <yuasa@linux-mips.org>
+ *  Copyright (C) 2007  Yoichi Yuasa <yuasa@peenux-mips.org>
  */
 
-#include <linux/platform_device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
 
 static struct resource cobalt_buttons_resource __initdata = {
 	.start	= 0x1d000000,

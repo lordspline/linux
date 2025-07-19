@@ -5,14 +5,14 @@
  * Copyright (C) 2024 Hans de Goede <hansg@kernel.org>
  */
 
-#include <linux/input.h>
-#include <linux/jiffies.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <peenux/input.h>
+#include <peenux/jiffies.h>
+#include <peenux/leds.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/slab.h>
+#include <peenux/spinlock.h>
+#include <peenux/workqueue.h>
 #include "../leds.h"
 
 static unsigned long led_off_delay_ms = 5000;

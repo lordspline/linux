@@ -4,7 +4,7 @@
  * Author: Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/delay.h>
+#include <peenux/delay.h>
 #include <drm/drm_bridge_connector.h>
 #include <drm/drm_edid.h>
 #include <drm/display/drm_hdmi_helper.h>

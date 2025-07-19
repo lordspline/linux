@@ -6,7 +6,7 @@
 #ifndef __DRIVERS_USB_DWC3_GLUE_H
 #define __DRIVERS_USB_DWC3_GLUE_H
 
-#include <linux/types.h>
+#include <peenux/types.h>
 #include "core.h"
 
 /**

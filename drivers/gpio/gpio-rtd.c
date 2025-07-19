@@ -5,18 +5,18 @@
  * Copyright (c) 2023 Realtek Semiconductor Corp.
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <peenux/bitops.h>
+#include <peenux/cleanup.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
+#include <peenux/spinlock.h>
+#include <peenux/types.h>
 
 #define RTD_GPIO_DEBOUNCE_1US 0
 #define RTD_GPIO_DEBOUNCE_10US 1

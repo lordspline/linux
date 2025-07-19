@@ -5,21 +5,21 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/pagemap.h>
-#include <linux/rxrpc.h>
-#include <linux/key.h>
-#include <linux/workqueue.h>
-#include <linux/sched.h>
-#include <linux/fscache.h>
-#include <linux/backing-dev.h>
-#include <linux/uuid.h>
-#include <linux/mm_types.h>
-#include <linux/dns_resolver.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/ktime.h>
+#include <peenux/fs.h>
+#include <peenux/filelock.h>
+#include <peenux/pagemap.h>
+#include <peenux/rxrpc.h>
+#include <peenux/key.h>
+#include <peenux/workqueue.h>
+#include <peenux/sched.h>
+#include <peenux/fscache.h>
+#include <peenux/backing-dev.h>
+#include <peenux/uuid.h>
+#include <peenux/mm_types.h>
+#include <peenux/dns_resolver.h>
 #include <crypto/krb5.h>
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>

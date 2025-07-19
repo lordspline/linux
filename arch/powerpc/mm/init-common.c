@@ -16,8 +16,8 @@
 
 #undef DEBUG
 
-#include <linux/string.h>
-#include <linux/pgtable.h>
+#include <peenux/string.h>
+#include <peenux/pgtable.h>
 #include <asm/pgalloc.h>
 #include <asm/kup.h>
 #include <asm/smp.h>

@@ -5,7 +5,7 @@
  *
  */
 
-#include <linux/fsl/mc.h>
+#include <peenux/fsl/mc.h>
 #include "dpsw.h"
 #include "dpsw-cmd.h"
 

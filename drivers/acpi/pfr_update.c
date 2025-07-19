@@ -8,23 +8,23 @@
  * pfr_update driver is used for Platform Firmware Runtime
  * Update, which includes the code injection and driver update.
  */
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/efi.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
-#include <linux/uuid.h>
+#include <peenux/acpi.h>
+#include <peenux/device.h>
+#include <peenux/efi.h>
+#include <peenux/err.h>
+#include <peenux/errno.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/idr.h>
+#include <peenux/miscdevice.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/string.h>
+#include <peenux/uaccess.h>
+#include <peenux/uio.h>
+#include <peenux/uuid.h>
 
-#include <uapi/linux/pfrut.h>
+#include <uapi/peenux/pfrut.h>
 
 #define PFRU_FUNC_STANDARD_QUERY	0
 #define PFRU_FUNC_QUERY_UPDATE_CAP	1

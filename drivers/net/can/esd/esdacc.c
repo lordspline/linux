@@ -5,10 +5,10 @@
 
 #include "esdacc.h"
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/ktime.h>
+#include <peenux/bitfield.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/ktime.h>
 
 /* esdACC ID register layout */
 #define ACC_ID_ID_MASK GENMASK(28, 0)

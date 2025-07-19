@@ -5,10 +5,10 @@
  * Copyright (c) 2010-2015, NVIDIA Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/dma-fence.h>
-#include <linux/slab.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/dma-fence.h>
+#include <peenux/slab.h>
 
 #include <trace/events/host1x.h>
 

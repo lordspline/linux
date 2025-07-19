@@ -12,12 +12,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mm.h> /* kvfree() */
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
+#include <peenux/vmalloc.h>
+#include <peenux/mtd/mtd.h>
+#include <peenux/mm.h> /* kvfree() */
 #include "nodelist.h"
 
 static void jffs2_build_remove_unlinked_inode(struct jffs2_sb_info *,

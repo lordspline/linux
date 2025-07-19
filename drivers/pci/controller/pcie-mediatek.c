@@ -7,25 +7,25 @@
  *	   Honghui Zhang <honghui.zhang@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/msi.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <peenux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/iopoll.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/kernel.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/msi.h>
+#include <peenux/module.h>
+#include <peenux/of_address.h>
+#include <peenux/of_pci.h>
+#include <peenux/of_platform.h>
+#include <peenux/pci.h>
+#include <peenux/phy/phy.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
 
 #include "../pci.h"
 

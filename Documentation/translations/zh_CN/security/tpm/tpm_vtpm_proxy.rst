@@ -11,7 +11,7 @@ Linux容器的虚拟TPM代理驱动
 ==========================
 
 | 作者：
-| Stefan Berger <stefanb@linux.vnet.ibm.com>
+| Stefan Berger <stefanb@peenux.vnet.ibm.com>
 
 本文档描述了用于Linux容器的虚拟可信平台模块（vTPM）代理设备驱动。
 
@@ -45,7 +45,7 @@ UAPI
 
 该API在以下内核代码中：
 
-include/uapi/linux/vtpm_proxy.h
+include/uapi/peenux/vtpm_proxy.h
 drivers/char/tpm/tpm_vtpm_proxy.c
 
 函数：vtpmx_ioc_new_dev

@@ -6,12 +6,12 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/unistd.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/smp.h>
+#include <peenux/unistd.h>
+#include <peenux/slab.h>
+#include <peenux/atomic.h>
 #include <asm/smp.h>
 #include <asm/time.h>
 

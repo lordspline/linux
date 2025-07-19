@@ -8,12 +8,12 @@
  * for more details.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/fb.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/fb.h>
+#include <peenux/i2c-algo-bit.h>
+#include <peenux/slab.h>
 
 #include "../edid.h"
 

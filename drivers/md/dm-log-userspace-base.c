@@ -5,14 +5,14 @@
  * This file is released under the LGPL.
  */
 
-#include <linux/bio.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/dm-dirty-log.h>
-#include <linux/device-mapper.h>
-#include <linux/dm-log-userspace.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
+#include <peenux/bio.h>
+#include <peenux/slab.h>
+#include <peenux/jiffies.h>
+#include <peenux/dm-dirty-log.h>
+#include <peenux/device-mapper.h>
+#include <peenux/dm-log-userspace.h>
+#include <peenux/module.h>
+#include <peenux/workqueue.h>
 
 #include "dm-log-userspace-transfer.h"
 
@@ -926,5 +926,5 @@ module_init(userspace_dirty_log_init);
 module_exit(userspace_dirty_log_exit);
 
 MODULE_DESCRIPTION(DM_NAME " userspace dirty log link");
-MODULE_AUTHOR("Jonathan Brassow <dm-devel@lists.linux.dev>");
+MODULE_AUTHOR("Jonathan Brassow <dm-devel@lists.peenux.dev>");
 MODULE_LICENSE("GPL");

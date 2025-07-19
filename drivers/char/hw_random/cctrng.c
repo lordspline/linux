@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2019-2020 ARM Limited or its affiliates. */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/workqueue.h>
-#include <linux/circ_buf.h>
-#include <linux/completion.h>
-#include <linux/of.h>
-#include <linux/bitfield.h>
-#include <linux/fips.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/clk.h>
+#include <peenux/hw_random.h>
+#include <peenux/io.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqreturn.h>
+#include <peenux/workqueue.h>
+#include <peenux/circ_buf.h>
+#include <peenux/completion.h>
+#include <peenux/of.h>
+#include <peenux/bitfield.h>
+#include <peenux/fips.h>
 
 #include "cctrng.h"
 

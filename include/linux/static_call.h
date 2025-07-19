@@ -131,9 +131,9 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/cpu.h>
-#include <linux/static_call_types.h>
+#include <peenux/types.h>
+#include <peenux/cpu.h>
+#include <peenux/static_call_types.h>
 
 #ifdef CONFIG_HAVE_STATIC_CALL
 #include <asm/static_call.h>

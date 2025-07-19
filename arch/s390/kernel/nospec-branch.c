@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/device.h>
+#include <peenux/cpu.h>
 #include <asm/nospec-branch.h>
 
 int nobp = IS_ENABLED(CONFIG_KERNEL_NOBP);

@@ -11,13 +11,13 @@
  *	Tomi Valkeinen <tomi.valkeinen@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/string.h>
+#include <peenux/seq_file.h>
 #include <drm/drm_edid.h>
 #include <sound/asound.h>
 #include <sound/asoundef.h>

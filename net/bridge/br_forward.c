@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	Forwarding decision
- *	Linux ethernet bridge
+ *	Peenux ethernet bridge
  *
  *	Authors:
  *	Lennert Buytenhek		<buytenh@gnu.org>
  */
 
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/netpoll.h>
-#include <linux/skbuff.h>
-#include <linux/if_vlan.h>
-#include <linux/netfilter_bridge.h>
+#include <peenux/err.h>
+#include <peenux/slab.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/netpoll.h>
+#include <peenux/skbuff.h>
+#include <peenux/if_vlan.h>
+#include <peenux/netfilter_bridge.h>
 #include "br_private.h"
 
 /* Don't forward packets to originating port or forwarding disabled */

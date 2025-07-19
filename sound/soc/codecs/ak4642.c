@@ -19,14 +19,14 @@
  * AK4648 is tested.
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <peenux/clk.h>
+#include <peenux/clk-provider.h>
+#include <peenux/delay.h>
+#include <peenux/i2c.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/module.h>
+#include <peenux/regmap.h>
 #include <sound/soc.h>
 #include <sound/initval.h>
 #include <sound/tlv.h>

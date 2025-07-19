@@ -81,8 +81,8 @@
  */
 
 
-#include <linux/ip.h>
-#include <linux/tcp.h>
+#include <peenux/ip.h>
+#include <peenux/tcp.h>
 
 /* SLIP compression masks for len/vers byte */
 #define SL_TYPE_IP 0x40

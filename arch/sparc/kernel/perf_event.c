@@ -13,18 +13,18 @@
  *  Copyright (C) 2008-2009 Red Hat, Inc., Peter Zijlstra
  */
 
-#include <linux/perf_event.h>
-#include <linux/kprobes.h>
-#include <linux/ftrace.h>
-#include <linux/kernel.h>
-#include <linux/kdebug.h>
-#include <linux/mutex.h>
+#include <peenux/perf_event.h>
+#include <peenux/kprobes.h>
+#include <peenux/ftrace.h>
+#include <peenux/kernel.h>
+#include <peenux/kdebug.h>
+#include <peenux/mutex.h>
 
 #include <asm/stacktrace.h>
 #include <asm/cpudata.h>
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
-#include <linux/sched/clock.h>
+#include <peenux/uaccess.h>
+#include <peenux/atomic.h>
+#include <peenux/sched/clock.h>
 #include <asm/nmi.h>
 #include <asm/pcr.h>
 #include <asm/cacheflush.h>

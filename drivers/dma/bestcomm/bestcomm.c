@@ -9,20 +9,20 @@
  *                         ( by Dale Farnsworth <dfarnsworth@mvista.com> )
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/mpc52xx.h>
 
-#include <linux/fsl/bestcomm/sram.h>
-#include <linux/fsl/bestcomm/bestcomm_priv.h>
-#include "linux/fsl/bestcomm/bestcomm.h"
+#include <peenux/fsl/bestcomm/sram.h>
+#include <peenux/fsl/bestcomm/bestcomm_priv.h>
+#include "peenux/fsl/bestcomm/bestcomm.h"
 
 #define DRIVER_NAME "bestcomm-core"
 

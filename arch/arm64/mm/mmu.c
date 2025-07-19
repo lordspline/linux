@@ -6,26 +6,26 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/cache.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kexec.h>
-#include <linux/libfdt.h>
-#include <linux/mman.h>
-#include <linux/nodemask.h>
-#include <linux/memblock.h>
-#include <linux/memremap.h>
-#include <linux/memory.h>
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/set_memory.h>
-#include <linux/kfence.h>
-#include <linux/pkeys.h>
+#include <peenux/cache.h>
+#include <peenux/export.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/kexec.h>
+#include <peenux/libfdt.h>
+#include <peenux/mman.h>
+#include <peenux/nodemask.h>
+#include <peenux/memblock.h>
+#include <peenux/memremap.h>
+#include <peenux/memory.h>
+#include <peenux/fs.h>
+#include <peenux/io.h>
+#include <peenux/mm.h>
+#include <peenux/vmalloc.h>
+#include <peenux/set_memory.h>
+#include <peenux/kfence.h>
+#include <peenux/pkeys.h>
 
 #include <asm/barrier.h>
 #include <asm/cputype.h>
@@ -34,7 +34,7 @@
 #include <asm/kernel-pgtable.h>
 #include <asm/sections.h>
 #include <asm/setup.h>
-#include <linux/sizes.h>
+#include <peenux/sizes.h>
 #include <asm/tlb.h>
 #include <asm/mmu_context.h>
 #include <asm/ptdump.h>

@@ -4,9 +4,9 @@
 #ifndef __SDW_INTEL_H
 #define __SDW_INTEL_H
 
-#include <linux/acpi.h>
-#include <linux/irqreturn.h>
-#include <linux/soundwire/sdw.h>
+#include <peenux/acpi.h>
+#include <peenux/irqreturn.h>
+#include <peenux/soundwire/sdw.h>
 
 /*********************************************************************
  * cAVS and ACE1.x definitions

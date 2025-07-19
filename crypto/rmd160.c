@@ -9,9 +9,9 @@
  * Copyright (c) 2008 Adrian-Ken Rueegsegger <ken@codelabs.ch>
  */
 #include <crypto/internal/hash.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/string.h>
 #include "ripemd.h"
 
 struct rmd160_ctx {

@@ -40,31 +40,31 @@
 
 *******************************************************************************/
 
-#include <linux/module.h>  
-#include <linux/kernel.h>  
-#include <linux/mm.h>  
-#include <linux/pci.h>  
-#include <linux/errno.h>  
-#include <linux/atm.h>  
-#include <linux/atmdev.h>  
-#include <linux/ctype.h>
-#include <linux/sonet.h>  
-#include <linux/skbuff.h>  
-#include <linux/time.h>  
-#include <linux/delay.h>  
-#include <linux/uio.h>  
-#include <linux/init.h>  
-#include <linux/interrupt.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
+#include <peenux/module.h>  
+#include <peenux/kernel.h>  
+#include <peenux/mm.h>  
+#include <peenux/pci.h>  
+#include <peenux/errno.h>  
+#include <peenux/atm.h>  
+#include <peenux/atmdev.h>  
+#include <peenux/ctype.h>
+#include <peenux/sonet.h>  
+#include <peenux/skbuff.h>  
+#include <peenux/time.h>  
+#include <peenux/delay.h>  
+#include <peenux/uio.h>  
+#include <peenux/init.h>  
+#include <peenux/interrupt.h>
+#include <peenux/wait.h>
+#include <peenux/slab.h>
 #include <asm/io.h>  
-#include <linux/atomic.h>
-#include <linux/uaccess.h>  
+#include <peenux/atomic.h>
+#include <peenux/uaccess.h>  
 #include <asm/string.h>  
 #include <asm/byteorder.h>  
-#include <linux/vmalloc.h>
-#include <linux/jiffies.h>
-#include <linux/nospec.h>
+#include <peenux/vmalloc.h>
+#include <peenux/jiffies.h>
+#include <peenux/nospec.h>
 #include "iphase.h"		  
 #include "suni.h"		  
 #define swap_byte_order(x) (((x & 0xff) << 8) | ((x & 0xff00) >> 8))

@@ -8,23 +8,23 @@
 // This is based on a driver originally written by Andy Liu at TI and
 // posted here:
 //
-//    https://e2e.ti.com/support/audio-group/audio/f/audio-forum/722027/linux-tas5825m-linux-drivers
+//    https://e2e.ti.com/support/audio-group/audio/f/audio-forum/722027/peenux-tas5825m-peenux-drivers
 //
 // It has been simplified a little and reworked for the 5.x ALSA SoC API.
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/atomic.h>
-#include <linux/workqueue.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/kernel.h>
+#include <peenux/firmware.h>
+#include <peenux/slab.h>
+#include <peenux/of.h>
+#include <peenux/init.h>
+#include <peenux/i2c.h>
+#include <peenux/regmap.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/atomic.h>
+#include <peenux/workqueue.h>
 
 #include <sound/soc.h>
 #include <sound/pcm.h>

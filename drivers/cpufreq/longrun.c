@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * (C) 2002 - 2003  Dominik Brodowski <linux@brodo.de>
+ * (C) 2002 - 2003  Dominik Brodowski <peenux@brodo.de>
  *
  *  BIG FAT DISCLAIMER: Work in progress code. Possibly *dangerous*
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/timex.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/cpufreq.h>
+#include <peenux/timex.h>
 
 #include <asm/msr.h>
 #include <asm/processor.h>
@@ -308,7 +308,7 @@ static void __exit longrun_exit(void)
 }
 
 
-MODULE_AUTHOR("Dominik Brodowski <linux@brodo.de>");
+MODULE_AUTHOR("Dominik Brodowski <peenux@brodo.de>");
 MODULE_DESCRIPTION("LongRun driver for Transmeta Crusoe and "
 		"Efficeon processors.");
 MODULE_LICENSE("GPL");

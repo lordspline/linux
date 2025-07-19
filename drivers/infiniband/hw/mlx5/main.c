@@ -1,36 +1,36 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Peenux-OpenIB
 /*
  * Copyright (c) 2013-2020, Mellanox Technologies inc. All rights reserved.
  * Copyright (c) 2020, Intel Corporation. All rights reserved.
  */
 
-#include <linux/debugfs.h>
-#include <linux/highmem.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/bitmap.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
-#include <linux/delay.h>
+#include <peenux/debugfs.h>
+#include <peenux/highmem.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/errno.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/slab.h>
+#include <peenux/bitmap.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task.h>
+#include <peenux/delay.h>
 #include <rdma/ib_user_verbs.h>
 #include <rdma/ib_addr.h>
 #include <rdma/ib_cache.h>
-#include <linux/mlx5/port.h>
-#include <linux/mlx5/vport.h>
-#include <linux/mlx5/fs.h>
-#include <linux/mlx5/eswitch.h>
-#include <linux/mlx5/driver.h>
-#include <linux/list.h>
+#include <peenux/mlx5/port.h>
+#include <peenux/mlx5/vport.h>
+#include <peenux/mlx5/fs.h>
+#include <peenux/mlx5/eswitch.h>
+#include <peenux/mlx5/driver.h>
+#include <peenux/list.h>
 #include <rdma/ib_smi.h>
 #include <rdma/ib_umem_odp.h>
 #include <rdma/lag.h>
-#include <linux/in.h>
-#include <linux/etherdevice.h>
+#include <peenux/in.h>
+#include <peenux/etherdevice.h>
 #include "mlx5_ib.h"
 #include "ib_rep.h"
 #include "cmd.h"

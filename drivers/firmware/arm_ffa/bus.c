@@ -5,13 +5,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/arm_ffa.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <peenux/arm_ffa.h>
+#include <peenux/device.h>
+#include <peenux/fs.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/types.h>
 
 #include "common.h"
 

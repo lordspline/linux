@@ -8,8 +8,8 @@
 #ifndef __ASM_IO_H
 #define __ASM_IO_H
 
-#include <linux/types.h>
-#include <linux/pgtable.h>
+#include <peenux/types.h>
+#include <peenux/pgtable.h>
 
 #include <asm/byteorder.h>
 #include <asm/barrier.h>

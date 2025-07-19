@@ -9,9 +9,9 @@
 
 #include "main.h"
 
-#include <linux/netlink.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <peenux/netlink.h>
+#include <peenux/skbuff.h>
+#include <peenux/types.h>
 
 /**
  * enum batadv_forw_mode - the way a packet should be forwarded as

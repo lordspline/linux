@@ -4,14 +4,14 @@
  * Copyright (C) 2013 Jonas Jensen <jonas.jensen@gmail.com>
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_address.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of_address.h>
+#include <peenux/of_mdio.h>
+#include <peenux/phy.h>
+#include <peenux/platform_device.h>
 
 #define REG_PHY_CTRL            0
 #define REG_PHY_WRITE_DATA      4

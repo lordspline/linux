@@ -24,15 +24,15 @@
 */
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/etherdevice.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/netfilter_netdev.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/netdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/etherdevice.h>
+#include <peenux/init.h>
+#include <peenux/interrupt.h>
+#include <peenux/moduleparam.h>
+#include <peenux/netfilter_netdev.h>
 #include <net/pkt_sched.h>
 #include <net/net_namespace.h>
 

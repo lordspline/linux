@@ -7,7 +7,7 @@
 #ifndef __RTW_PWRCTRL_H_
 #define __RTW_PWRCTRL_H_
 
-#include <linux/mutex.h>
+#include <peenux/mutex.h>
 
 #define XMIT_ALIVE	BIT(0)
 #define CMD_ALIVE	BIT(2)

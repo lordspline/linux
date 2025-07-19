@@ -3,16 +3,16 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  *
- * Copyright (C) 2007 Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2007 Ralf Baechle (ralf@peenux-mips.org)
  *
  * Copyright (C) 2009 Lemote, Inc.
  * Author: Yan hua (yanhua@lemote.com)
  * Author: Wu Zhangjin (wuzhangjin@gmail.com)
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/serial_8250.h>
+#include <peenux/io.h>
+#include <peenux/module.h>
+#include <peenux/serial_8250.h>
 
 #include <asm/bootinfo.h>
 

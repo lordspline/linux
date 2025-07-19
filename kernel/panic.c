@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/kernel/panic.c
+ *  peenux/kernel/panic.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
@@ -9,33 +9,33 @@
  * This function is used through-out the kernel (including mm and fs)
  * to indicate a major problem.
  */
-#include <linux/debug_locks.h>
-#include <linux/sched/debug.h>
-#include <linux/interrupt.h>
-#include <linux/kgdb.h>
-#include <linux/kmsg_dump.h>
-#include <linux/kallsyms.h>
-#include <linux/notifier.h>
-#include <linux/vt_kern.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/ftrace.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
-#include <linux/kexec.h>
-#include <linux/panic_notifier.h>
-#include <linux/sched.h>
-#include <linux/string_helpers.h>
-#include <linux/sysrq.h>
-#include <linux/init.h>
-#include <linux/nmi.h>
-#include <linux/console.h>
-#include <linux/bug.h>
-#include <linux/ratelimit.h>
-#include <linux/debugfs.h>
-#include <linux/sysfs.h>
-#include <linux/context_tracking.h>
-#include <linux/seq_buf.h>
+#include <peenux/debug_locks.h>
+#include <peenux/sched/debug.h>
+#include <peenux/interrupt.h>
+#include <peenux/kgdb.h>
+#include <peenux/kmsg_dump.h>
+#include <peenux/kallsyms.h>
+#include <peenux/notifier.h>
+#include <peenux/vt_kern.h>
+#include <peenux/module.h>
+#include <peenux/random.h>
+#include <peenux/ftrace.h>
+#include <peenux/reboot.h>
+#include <peenux/delay.h>
+#include <peenux/kexec.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/sched.h>
+#include <peenux/string_helpers.h>
+#include <peenux/sysrq.h>
+#include <peenux/init.h>
+#include <peenux/nmi.h>
+#include <peenux/console.h>
+#include <peenux/bug.h>
+#include <peenux/ratelimit.h>
+#include <peenux/debugfs.h>
+#include <peenux/sysfs.h>
+#include <peenux/context_tracking.h>
+#include <peenux/seq_buf.h>
 #include <trace/events/error_report.h>
 #include <asm/sections.h>
 

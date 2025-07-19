@@ -5,14 +5,14 @@
  * Copyright (C) 2012 Google, Inc
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-mux.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/slab.h>
 
 
 /**

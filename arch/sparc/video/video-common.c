@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/console.h>
-#include <linux/device.h>
-#include <linux/module.h>
+#include <peenux/console.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
 
 #include <asm/prom.h>
 #include <asm/video.h>

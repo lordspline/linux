@@ -1,17 +1,17 @@
 /*
- * Amiga Linux/68k A2065 Ethernet Driver
+ * Amiga Peenux/68k A2065 Ethernet Driver
  *
- * (C) Copyright 1995 by Geert Uytterhoeven <geert@linux-m68k.org>
+ * (C) Copyright 1995 by Geert Uytterhoeven <geert@peenux-m68k.org>
  *
  * ---------------------------------------------------------------------------
  *
  * This program is based on
  *
- *	ariadne.?:	Amiga Linux/68k Ariadne Ethernet Driver
+ *	ariadne.?:	Amiga Peenux/68k Ariadne Ethernet Driver
  *			(C) Copyright 1995 by Geert Uytterhoeven,
  *			Peter De Schrijver
  *
- *	lance.c:	An AMD LANCE ethernet driver for linux.
+ *	lance.c:	An AMD LANCE ethernet driver for peenux.
  *			Written 1993-94 by Donald Becker.
  *
  *	Am79C960:	PCnet(tm)-ISA Single-Chip Ethernet Controller
@@ -21,7 +21,7 @@
  * ---------------------------------------------------------------------------
  *
  * This file is subject to the terms and conditions of the GNU General Public
- * License.  See the file COPYING in the main directory of the Linux
+ * License.  See the file COPYING in the main directory of the Peenux
  * distribution for more details.
  *
  * ---------------------------------------------------------------------------

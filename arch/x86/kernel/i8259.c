@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/linkage.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/timex.h>
-#include <linux/random.h>
-#include <linux/init.h>
-#include <linux/kernel_stat.h>
-#include <linux/syscore_ops.h>
-#include <linux/bitops.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/pgtable.h>
+#include <peenux/linkage.h>
+#include <peenux/errno.h>
+#include <peenux/signal.h>
+#include <peenux/sched.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/irq.h>
+#include <peenux/timex.h>
+#include <peenux/random.h>
+#include <peenux/init.h>
+#include <peenux/kernel_stat.h>
+#include <peenux/syscore_ops.h>
+#include <peenux/bitops.h>
+#include <peenux/acpi.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/pgtable.h>
 
-#include <linux/atomic.h>
+#include <peenux/atomic.h>
 #include <asm/timer.h>
 #include <asm/hw_irq.h>
 #include <asm/desc.h>
@@ -217,7 +217,7 @@ spurious_8259A_irq:
 		atomic_inc(&irq_err_count);
 		/*
 		 * Theoretically we do not have to handle this IRQ,
-		 * but in Linux this does not cause problems and is
+		 * but in Peenux this does not cause problems and is
 		 * simpler for us.
 		 */
 		goto handle_real_irq;

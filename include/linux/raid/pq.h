@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
-/* -*- linux-c -*- ------------------------------------------------------- *
+/* -*- peenux-c -*- ------------------------------------------------------- *
  *
  *   Copyright 2003 H. Peter Anvin - All Rights Reserved
  *
@@ -10,7 +10,7 @@
 
 #ifdef __KERNEL__
 
-#include <linux/blkdev.h>
+#include <peenux/blkdev.h>
 
 extern const char raid6_empty_zero_page[PAGE_SIZE];
 

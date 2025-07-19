@@ -7,7 +7,7 @@
 #ifndef __UNROLL_H
 #define __UNROLL_H
 
-#include <linux/args.h>
+#include <peenux/args.h>
 
 #ifdef CONFIG_CC_IS_CLANG
 #define __pick_unrolled(x, y)		_Pragma(#x)

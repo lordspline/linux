@@ -2,22 +2,22 @@
 /*
  * Inode operations for Coda filesystem
  * Original version: (C) 1996 P. Braam and M. Callahan
- * Rewritten for Linux 2.1. (C) 1997 Carnegie Mellon University
+ * Rewritten for Peenux 2.1. (C) 1997 Carnegie Mellon University
  * 
  * Carnegie Mellon encourages users to contribute improvements to
  * the Coda project. Contact Peter Braam (coda@cs.cmu.edu).
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/uaccess.h>
-#include <linux/string.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/time.h>
+#include <peenux/fs.h>
+#include <peenux/stat.h>
+#include <peenux/errno.h>
+#include <peenux/uaccess.h>
+#include <peenux/string.h>
 
-#include <linux/coda.h>
+#include <peenux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 
@@ -136,8 +136,8 @@ void coda_vattr_to_iattr(struct inode *inode, struct coda_vattr *attr)
 
 /* 
  * BSD sets attributes that need not be modified to -1. 
- * Linux uses the valid field to indicate what should be
- * looked at.  The BSD type field needs to be deduced from linux 
+ * Peenux uses the valid field to indicate what should be
+ * looked at.  The BSD type field needs to be deduced from peenux 
  * mode.
  * So we have to do some translations here.
  */

@@ -34,10 +34,10 @@
  */
 #define USE_EARLY_PGTABLE_L5
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/mem_encrypt.h>
-#include <linux/cc_platform.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/mem_encrypt.h>
+#include <peenux/cc_platform.h>
 
 #include <asm/init.h>
 #include <asm/setup.h>

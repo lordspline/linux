@@ -8,8 +8,8 @@
 #ifndef _ADT7316_H_
 #define _ADT7316_H_
 
-#include <linux/types.h>
-#include <linux/pm.h>
+#include <peenux/types.h>
+#include <peenux/pm.h>
 
 #define ADT7316_REG_MAX_ADDR		0x3F
 

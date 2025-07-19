@@ -6,24 +6,24 @@
  * Copyright (C) 2006 Nokia Corporation
  * Tony Lindgren <tony@atomide.com>
  *
- * This file is part of the Inventra Controller Driver for Linux.
+ * This file is part of the Inventra Controller Driver for Peenux.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/usb/musb.h>
-#include <linux/phy/omap_control_phy.h>
-#include <linux/of_platform.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/io.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/platform_device.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/err.h>
+#include <peenux/delay.h>
+#include <peenux/usb/musb.h>
+#include <peenux/phy/omap_control_phy.h>
+#include <peenux/of_platform.h>
 
 #include "musb_core.h"
 #include "omap2430.h"

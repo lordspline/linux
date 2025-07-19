@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* 64-bit system call dispatch */
 
-#include <linux/linkage.h>
-#include <linux/sys.h>
-#include <linux/cache.h>
-#include <linux/syscalls.h>
-#include <linux/entry-common.h>
-#include <linux/nospec.h>
+#include <peenux/linkage.h>
+#include <peenux/sys.h>
+#include <peenux/cache.h>
+#include <peenux/syscalls.h>
+#include <peenux/entry-common.h>
+#include <peenux/nospec.h>
 #include <asm/syscall.h>
 
 #define __SYSCALL(nr, sym) extern long __x64_##sym(const struct pt_regs *);

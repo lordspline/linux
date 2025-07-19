@@ -5,8 +5,8 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <peenux/sched.h>
+#include <peenux/slab.h>
 #include "afs_fs.h"
 #include "internal.h"
 #include "protocol_afs.h"

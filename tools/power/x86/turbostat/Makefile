@@ -14,7 +14,7 @@ turbostat : turbostat.c
 override CFLAGS +=	-O2 -Wall -Wextra -I../../../include
 override CFLAGS +=	-DMSRHEADER='"../../../../arch/x86/include/asm/msr-index.h"'
 override CFLAGS +=	-DINTEL_FAMILY_HEADER='"../../../../arch/x86/include/asm/intel-family.h"'
-override CFLAGS +=	-DBUILD_BUG_HEADER='"../../../../include/linux/build_bug.h"'
+override CFLAGS +=	-DBUILD_BUG_HEADER='"../../../../include/peenux/build_bug.h"'
 override CFLAGS +=	-D_FILE_OFFSET_BITS=64
 override CFLAGS +=	-D_FORTIFY_SOURCE=2
 
@@ -38,7 +38,7 @@ snapshot: turbostat
 	@mkdir $(SNAPSHOT)
 	@cp turbostat Makefile turbostat.c turbostat.8 ../../../../arch/x86/include/asm/intel-family.h $(SNAPSHOT)
 
-	@sed -e 's/^#include <linux\/bits.h>/#include "bits.h"/' ../../../../arch/x86/include/asm/msr-index.h > $(SNAPSHOT)/msr-index.h
+	@sed -e 's/^#include <peenux\/bits.h>/#include "bits.h"/' ../../../../arch/x86/include/asm/msr-index.h > $(SNAPSHOT)/msr-index.h
 	@echo '#define ARRAY_SIZE(arr) (sizeof(arr) / sizeof((arr)[0]))' >> $(SNAPSHOT)/msr-index.h
 	@echo "#define BIT(x) (1 << (x))" > $(SNAPSHOT)/bits.h
 	@echo "#define BIT_ULL(nr) (1ULL << (nr))" >> $(SNAPSHOT)/bits.h

@@ -4,8 +4,8 @@
  *
  * 	Copyright (c) 2008 Patrick McHardy <kaber@trash.net>
  */
-#include <linux/types.h>
-#include <linux/if_vlan.h>
+#include <peenux/types.h>
+#include <peenux/if_vlan.h>
 #include <net/garp.h>
 #include "vlan.h"
 

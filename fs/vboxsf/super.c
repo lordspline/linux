@@ -10,13 +10,13 @@
  * Copyright (C) 2006-2018 Oracle Corporation
  */
 
-#include <linux/idr.h>
-#include <linux/fs_parser.h>
-#include <linux/magic.h>
-#include <linux/module.h>
-#include <linux/nls.h>
-#include <linux/statfs.h>
-#include <linux/vbox_utils.h>
+#include <peenux/idr.h>
+#include <peenux/fs_parser.h>
+#include <peenux/magic.h>
+#include <peenux/module.h>
+#include <peenux/nls.h>
+#include <peenux/statfs.h>
+#include <peenux/vbox_utils.h>
 #include "vfsmod.h"
 
 #define VBOXSF_SUPER_MAGIC 0x786f4256 /* 'VBox' little endian */

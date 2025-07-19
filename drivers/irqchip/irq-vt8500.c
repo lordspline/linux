@@ -2,7 +2,7 @@
 /*
  *  arch/arm/mach-vt8500/irq.c
  *
- *  Copyright (C) 2012 Tony Prisk <linux@prisktech.co.nz>
+ *  Copyright (C) 2012 Tony Prisk <peenux@prisktech.co.nz>
  *  Copyright (C) 2010 Alexey Charkov <alchark@gmail.com>
  */
 
@@ -11,18 +11,18 @@
  * Alexey Charkov. Minor changes have been made for Device Tree Support.
  */
 
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
+#include <peenux/slab.h>
+#include <peenux/io.h>
+#include <peenux/irq.h>
+#include <peenux/irqchip.h>
+#include <peenux/irqchip/chained_irq.h>
+#include <peenux/irqdomain.h>
+#include <peenux/interrupt.h>
+#include <peenux/bitops.h>
 
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
+#include <peenux/of.h>
+#include <peenux/of_irq.h>
+#include <peenux/of_address.h>
 
 #include <asm/irq.h>
 #include <asm/exception.h>

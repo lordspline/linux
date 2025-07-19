@@ -109,14 +109,14 @@
 					reg = <0>;
 					color = <LED_COLOR_ID_GREEN>;
 					function = LED_FUNCTION_WAN;
-					linux,default-trigger = "netdev";
+					peenux,default-trigger = "netdev";
 				};
 
 				led@1 {
 					reg = <1>;
 					color = <LED_COLOR_ID_YELLOW>;
 					function = LED_FUNCTION_WAN;
-					linux,default-trigger = "netdev";
+					peenux,default-trigger = "netdev";
 				};
 			};
 		};
@@ -158,14 +158,14 @@
 					reg = <0>;
 					color = <LED_COLOR_ID_GREEN>;
 					function = LED_FUNCTION_LAN;
-					linux,default-trigger = "netdev";
+					peenux,default-trigger = "netdev";
 				};
 
 				led@1 {
 					reg = <1>;
 					color = <LED_COLOR_ID_YELLOW>;
 					function = LED_FUNCTION_LAN;
-					linux,default-trigger = "netdev";
+					peenux,default-trigger = "netdev";
 				};
 			};
 		};

@@ -9,7 +9,7 @@
 /*
  */
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 struct kone_keystroke {
 	uint8_t key;

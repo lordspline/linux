@@ -30,13 +30,13 @@
  * SOFTWARE.
  */
 
-#include <linux/acpi.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <peenux/acpi.h>
+#include <peenux/etherdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/iopoll.h>
+#include <peenux/kernel.h>
+#include <peenux/types.h>
+#include <peenux/workqueue.h>
 #include <net/addrconf.h>
 #include <rdma/ib_addr.h>
 #include <rdma/ib_cache.h>

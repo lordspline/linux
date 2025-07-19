@@ -3,7 +3,7 @@
  * bpf_jit.h: BPF JIT compiler for PPC
  *
  * Copyright 2011 Matt Evans <matt@ozlabs.org>, IBM Corporation
- * 	     2016 Naveen N. Rao <naveen.n.rao@linux.vnet.ibm.com>
+ * 	     2016 Naveen N. Rao <naveen.n.rao@peenux.vnet.ibm.com>
  */
 #ifndef _BPF_JIT_H
 #define _BPF_JIT_H
@@ -12,7 +12,7 @@
 
 #include <asm/types.h>
 #include <asm/ppc-opcode.h>
-#include <linux/build_bug.h>
+#include <peenux/build_bug.h>
 
 #ifdef CONFIG_PPC64_ELF_ABI_V1
 #define FUNCTION_DESCR_SIZE	24

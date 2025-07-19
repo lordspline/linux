@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Peenux-syscall-note */
 /*
  * Copyright (C) 2001 PPC64 Team, IBM Corp
  *
@@ -25,7 +25,7 @@
 #define _UAPI_ASM_POWERPC_PTRACE_H
 
 
-#include <linux/types.h>
+#include <peenux/types.h>
 
 #ifndef __ASSEMBLY__
 

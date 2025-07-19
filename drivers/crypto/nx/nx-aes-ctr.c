@@ -10,11 +10,11 @@
 #include <crypto/aes.h>
 #include <crypto/ctr.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <peenux/err.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
 #include <asm/vio.h>
 
 #include "nx_csbcpb.h"

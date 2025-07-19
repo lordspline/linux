@@ -3,10 +3,10 @@
 #ifndef _LINUX_PAGE_FRAG_CACHE_H
 #define _LINUX_PAGE_FRAG_CACHE_H
 
-#include <linux/bits.h>
-#include <linux/log2.h>
-#include <linux/mm_types_task.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/log2.h>
+#include <peenux/mm_types_task.h>
+#include <peenux/types.h>
 
 #if (PAGE_SIZE < PAGE_FRAG_CACHE_MAX_SIZE)
 /* Use a full byte here to enable assembler optimization as the shift

@@ -11,11 +11,11 @@
 #define _NET_OVPN_OVPNBIND_H_
 
 #include <net/ip.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/rcupdate.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
+#include <peenux/in.h>
+#include <peenux/in6.h>
+#include <peenux/rcupdate.h>
+#include <peenux/skbuff.h>
+#include <peenux/spinlock.h>
 
 struct ovpn_peer;
 

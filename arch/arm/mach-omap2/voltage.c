@@ -16,13 +16,13 @@
  * Thara Gopinath <thara@ti.com>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/debugfs.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
+#include <peenux/delay.h>
+#include <peenux/io.h>
+#include <peenux/err.h>
+#include <peenux/export.h>
+#include <peenux/debugfs.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
 
 #include "common.h"
 

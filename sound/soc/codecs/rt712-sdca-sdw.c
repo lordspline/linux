@@ -6,12 +6,12 @@
 //
 //
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/soundwire/sdw_registers.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/soundwire/sdw_registers.h>
 #include "rt712-sdca.h"
 #include "rt712-sdca-sdw.h"
 

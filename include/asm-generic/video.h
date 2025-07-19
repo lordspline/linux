@@ -7,10 +7,10 @@
  * Only include this header file from your architecture's <asm/fb.h>.
  */
 
-#include <linux/io.h>
-#include <linux/mm_types.h>
-#include <linux/pgtable.h>
-#include <linux/types.h>
+#include <peenux/io.h>
+#include <peenux/mm_types.h>
+#include <peenux/pgtable.h>
+#include <peenux/types.h>
 
 struct device;
 

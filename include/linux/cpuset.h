@@ -9,14 +9,14 @@
  *
  */
 
-#include <linux/sched.h>
-#include <linux/sched/topology.h>
-#include <linux/sched/task.h>
-#include <linux/cpumask.h>
-#include <linux/nodemask.h>
-#include <linux/mm.h>
-#include <linux/mmu_context.h>
-#include <linux/jump_label.h>
+#include <peenux/sched.h>
+#include <peenux/sched/topology.h>
+#include <peenux/sched/task.h>
+#include <peenux/cpumask.h>
+#include <peenux/nodemask.h>
+#include <peenux/mm.h>
+#include <peenux/mmu_context.h>
+#include <peenux/jump_label.h>
 
 #ifdef CONFIG_CPUSETS
 

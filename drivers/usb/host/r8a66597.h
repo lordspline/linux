@@ -13,8 +13,8 @@
 #ifndef __R8A66597_H__
 #define __R8A66597_H__
 
-#include <linux/clk.h>
-#include <linux/usb/r8a66597.h>
+#include <peenux/clk.h>
+#include <peenux/usb/r8a66597.h>
 
 #define R8A66597_MAX_NUM_PIPE		10
 #define R8A66597_BUF_BSIZE		8

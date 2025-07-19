@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/devm-helpers.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/extcon.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_graph.h>
-#include <linux/property.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/devm-helpers.h>
+#include <peenux/delay.h>
+#include <peenux/device.h>
+#include <peenux/err.h>
+#include <peenux/extcon.h>
+#include <peenux/i2c.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/of_graph.h>
+#include <peenux/property.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pm.h>
+#include <peenux/power_supply.h>
+#include <peenux/regmap.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #define MAX8971_REG_CHGINT		0x0f
 #define   MAX8971_REG_CHG_RST		BIT(0)

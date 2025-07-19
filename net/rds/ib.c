@@ -30,15 +30,15 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/in.h>
-#include <linux/if.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
-#include <linux/if_arp.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/in.h>
+#include <peenux/if.h>
+#include <peenux/netdevice.h>
+#include <peenux/inetdevice.h>
+#include <peenux/if_arp.h>
+#include <peenux/delay.h>
+#include <peenux/slab.h>
+#include <peenux/module.h>
 #include <net/addrconf.h>
 
 #include "rds_single_path.h"

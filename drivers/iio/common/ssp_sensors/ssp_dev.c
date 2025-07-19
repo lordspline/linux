@@ -3,13 +3,13 @@
  *  Copyright (C) 2014, Samsung Electronics Co. Ltd. All Rights Reserved.
  */
 
-#include <linux/iio/iio.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/core.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
+#include <peenux/iio/iio.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
+#include <peenux/mfd/core.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/property.h>
 
 #include "ssp.h"
 

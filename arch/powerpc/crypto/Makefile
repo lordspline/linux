@@ -22,12 +22,12 @@ vmx-crypto-objs := vmx.o aesp8-ppc.o ghashp8-ppc.o aes.o aes_cbc.o aes_ctr.o aes
 curve25519-ppc64le-y := curve25519-ppc64le-core.o curve25519-ppc64le_asm.o
 
 ifeq ($(CONFIG_CPU_LITTLE_ENDIAN),y)
-override flavour := linux-ppc64le
+override flavour := peenux-ppc64le
 else
 ifdef CONFIG_PPC64_ELF_ABI_V2
-override flavour := linux-ppc64-elfv2
+override flavour := peenux-ppc64-elfv2
 else
-override flavour := linux-ppc64
+override flavour := peenux-ppc64
 endif
 endif
 

@@ -4,11 +4,11 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
+#include <peenux/compiler.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/sched/signal.h>
+#include <peenux/slab.h>
 
 #include "selftest.h"
 

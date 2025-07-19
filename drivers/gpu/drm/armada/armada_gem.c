@@ -3,10 +3,10 @@
  * Copyright (C) 2012 Russell King
  */
 
-#include <linux/dma-buf.h>
-#include <linux/dma-mapping.h>
-#include <linux/mman.h>
-#include <linux/shmem_fs.h>
+#include <peenux/dma-buf.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mman.h>
+#include <peenux/shmem_fs.h>
 
 #include <drm/armada_drm.h>
 #include <drm/drm_prime.h>

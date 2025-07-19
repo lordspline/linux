@@ -6,7 +6,7 @@
 #ifndef _XE_DEVICE_TYPES_H_
 #define _XE_DEVICE_TYPES_H_
 
-#include <linux/pci.h>
+#include <peenux/pci.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>

@@ -10,13 +10,13 @@
  */
 
 #include <crypto/scatterwalk.h>
-#include <linux/crypto.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <peenux/crypto.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/scatterlist.h>
+#include <peenux/slab.h>
 
 enum {
 	SKCIPHER_WALK_SLOW = 1 << 0,

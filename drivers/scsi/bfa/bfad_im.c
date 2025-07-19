@@ -5,14 +5,14 @@
  * All rights reserved
  * www.qlogic.com
  *
- * Linux driver for QLogic BR-series Fibre Channel Host Bus Adapter.
+ * Peenux driver for QLogic BR-series Fibre Channel Host Bus Adapter.
  */
 
 /*
- *  bfad_im.c Linux driver IM module.
+ *  bfad_im.c Peenux driver IM module.
  */
 
-#include <linux/export.h>
+#include <peenux/export.h>
 
 #include "bfad_drv.h"
 #include "bfad_im.h"

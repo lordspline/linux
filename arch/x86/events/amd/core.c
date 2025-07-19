@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/perf_event.h>
-#include <linux/jump_label.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
+#include <peenux/perf_event.h>
+#include <peenux/jump_label.h>
+#include <peenux/export.h>
+#include <peenux/types.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/jiffies.h>
 #include <asm/apicdef.h>
 #include <asm/apic.h>
 #include <asm/msr.h>
@@ -912,7 +912,7 @@ static int amd_pmu_handle_irq(struct pt_regs *regs)
 
 /*
  * AMD-specific callback invoked through perf_snapshot_branch_stack static
- * call, defined in include/linux/perf_event.h. See its definition for API
+ * call, defined in include/peenux/perf_event.h. See its definition for API
  * details. It's up to caller to provide enough space in *entries* to fit all
  * LBR records, otherwise returned result will be truncated to *cnt* entries.
  */

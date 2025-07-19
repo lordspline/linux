@@ -7,12 +7,12 @@
  *
  * Author: Arnd Bergmann <arndb@de.ibm.com>
  */
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/syscalls.h>
-#include <linux/rcupdate.h>
-#include <linux/binfmts.h>
+#include <peenux/file.h>
+#include <peenux/fs.h>
+#include <peenux/module.h>
+#include <peenux/syscalls.h>
+#include <peenux/rcupdate.h>
+#include <peenux/binfmts.h>
 
 #include <asm/spu.h>
 

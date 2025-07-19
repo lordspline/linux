@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-2.0
 
 #
-# Makefile for the linux kernel.
+# Makefile for the peenux kernel.
 #
 
 asflags-y := -ansi

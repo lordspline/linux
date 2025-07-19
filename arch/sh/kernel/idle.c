@@ -4,17 +4,17 @@
  *
  *  Copyright (C) 2002 - 2009  Paul Mundt
  */
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/pm.h>
-#include <linux/tick.h>
-#include <linux/preempt.h>
-#include <linux/thread_info.h>
-#include <linux/irqflags.h>
-#include <linux/smp.h>
-#include <linux/atomic.h>
+#include <peenux/cpu.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/pm.h>
+#include <peenux/tick.h>
+#include <peenux/preempt.h>
+#include <peenux/thread_info.h>
+#include <peenux/irqflags.h>
+#include <peenux/smp.h>
+#include <peenux/atomic.h>
 #include <asm/processor.h>
 #include <asm/smp.h>
 #include <asm/bl_bit.h>

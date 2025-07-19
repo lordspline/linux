@@ -12,19 +12,19 @@
  * Copyright Linas Vepstas 2005, 2006
  */
 
-#include <linux/atomic.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/proc_fs.h>
-#include <linux/rbtree.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/crash_dump.h>
+#include <peenux/atomic.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/list.h>
+#include <peenux/of.h>
+#include <peenux/pci.h>
+#include <peenux/proc_fs.h>
+#include <peenux/rbtree.h>
+#include <peenux/sched.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/crash_dump.h>
 
 #include <asm/eeh.h>
 #include <asm/eeh_event.h>

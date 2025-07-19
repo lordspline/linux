@@ -5,27 +5,27 @@
  * Copyright (C) 2023 Emil Renner Berthing <emil.renner.berthing@canonical.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
+#include <peenux/array_size.h>
+#include <peenux/bits.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/device.h>
+#include <peenux/io.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
 
-#include <linux/of_address.h>
-#include <linux/of_device.h>
+#include <peenux/of_address.h>
+#include <peenux/of_device.h>
 
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <peenux/pinctrl/pinconf.h>
+#include <peenux/pinctrl/pinconf-generic.h>
+#include <peenux/pinctrl/pinctrl.h>
+#include <peenux/pinctrl/pinmux.h>
 
 #include "core.h"
 #include "pinmux.h"

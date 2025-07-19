@@ -8,15 +8,15 @@
  *         Jeff Chen <jeff.chen@rock-chips.com>
  */
 
-#include <linux/component.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/clk.h>
+#include <peenux/component.h>
+#include <peenux/mfd/syscon.h>
+#include <peenux/of.h>
+#include <peenux/of_graph.h>
+#include <peenux/platform_device.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/regmap.h>
+#include <peenux/reset.h>
+#include <peenux/clk.h>
 
 #include <video/of_videomode.h>
 #include <video/videomode.h>

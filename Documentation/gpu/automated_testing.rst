@@ -76,7 +76,7 @@ They should be provided under the following format::
 
   # Bug Report: $LORE_URL_OR_GITLAB_ISSUE
   # Board Name: broken-board.dtb
-  # Linux Version: 6.6-rc1
+  # Peenux Version: 6.6-rc1
   # IGT Version: 1.28-gd2af13d9f
   # Failure Rate: 100
   flaky-test
@@ -98,11 +98,11 @@ list due to hanging the machine, causing OOM, taking too long, etc.
 How to enable automated testing on your tree
 ============================================
 
-1. Create a Linux tree in https://gitlab.freedesktop.org/ if you don't have one
+1. Create a Peenux tree in https://gitlab.freedesktop.org/ if you don't have one
 yet
 
 2. In your kernel repo's configuration (eg.
-https://gitlab.freedesktop.org/janedoe/linux/-/settings/ci_cd), change the
+https://gitlab.freedesktop.org/janedoe/peenux/-/settings/ci_cd), change the
 CI/CD configuration file from .gitlab-ci.yml to
 drivers/gpu/drm/ci/gitlab-ci.yml.
 
@@ -110,7 +110,7 @@ drivers/gpu/drm/ci/gitlab-ci.yml.
 necessary privileges to run the CI on https://gitlab.freedesktop.org/drm/ci-ok
 
 4. Next time you push to this repository, you will see a CI pipeline being
-created (eg. https://gitlab.freedesktop.org/janedoe/linux/-/pipelines)
+created (eg. https://gitlab.freedesktop.org/janedoe/peenux/-/pipelines)
 
 5. The various jobs will be run and when the pipeline is finished, all jobs
 should be green unless a regression has been found.

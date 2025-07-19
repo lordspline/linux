@@ -5,13 +5,13 @@
  *          Bart De Schuymer <bdschuym@pandora.be>
  */
 
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_bridge/ebt_vlan.h>
+#include <peenux/if_ether.h>
+#include <peenux/if_vlan.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/netfilter/x_tables.h>
+#include <peenux/netfilter_bridge/ebtables.h>
+#include <peenux/netfilter_bridge/ebt_vlan.h>
 
 #define MODULE_VERS "0.6"
 

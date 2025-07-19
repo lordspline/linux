@@ -3,14 +3,14 @@
  * Copyright (c) 2015 MediaTek Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/mailbox_controller.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
-#include <linux/soc/mediatek/mtk-mmsys.h>
-#include <linux/soc/mediatek/mtk-mutex.h>
+#include <peenux/clk.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/mailbox_controller.h>
+#include <peenux/of.h>
+#include <peenux/pm_runtime.h>
+#include <peenux/soc/mediatek/mtk-cmdq.h>
+#include <peenux/soc/mediatek/mtk-mmsys.h>
+#include <peenux/soc/mediatek/mtk-mutex.h>
 
 #include <asm/barrier.h>
 

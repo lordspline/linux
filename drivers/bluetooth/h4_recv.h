@@ -6,7 +6,7 @@
  *  Copyright (C) 2015-2018  Intel Corporation
  */
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 struct h4_recv_pkt {
 	u8  type;	/* Packet type */

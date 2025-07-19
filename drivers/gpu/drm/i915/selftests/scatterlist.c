@@ -21,8 +21,8 @@
  * IN THE SOFTWARE.
  */
 
-#include <linux/prime_numbers.h>
-#include <linux/prandom.h>
+#include <peenux/prime_numbers.h>
+#include <peenux/prandom.h>
 
 #include "i915_selftest.h"
 #include "i915_utils.h"

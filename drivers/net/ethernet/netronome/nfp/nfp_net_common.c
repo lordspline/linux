@@ -11,29 +11,29 @@
  *          Chris Telfer <chris.telfer@netronome.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bpf.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/mm.h>
-#include <linux/overflow.h>
-#include <linux/page_ref.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/ethtool.h>
-#include <linux/log2.h>
-#include <linux/if_vlan.h>
-#include <linux/if_bridge.h>
-#include <linux/random.h>
-#include <linux/vmalloc.h>
-#include <linux/ktime.h>
+#include <peenux/bitfield.h>
+#include <peenux/bpf.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/fs.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/interrupt.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
+#include <peenux/mm.h>
+#include <peenux/overflow.h>
+#include <peenux/page_ref.h>
+#include <peenux/pci.h>
+#include <peenux/pci_regs.h>
+#include <peenux/ethtool.h>
+#include <peenux/log2.h>
+#include <peenux/if_vlan.h>
+#include <peenux/if_bridge.h>
+#include <peenux/random.h>
+#include <peenux/vmalloc.h>
+#include <peenux/ktime.h>
 
 #include <net/tls.h>
 #include <net/vxlan.h>
@@ -1119,7 +1119,7 @@ static int nfp_net_netdev_close(struct net_device *netdev)
 {
 	struct nfp_net *nn = netdev_priv(netdev);
 
-	/* Step 1: Disable RX and TX rings from the Linux kernel perspective
+	/* Step 1: Disable RX and TX rings from the Peenux kernel perspective
 	 */
 	nfp_net_close_stack(nn);
 

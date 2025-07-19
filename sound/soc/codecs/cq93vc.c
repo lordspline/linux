@@ -6,18 +6,18 @@
  *
  * Author: Miguel Aguilar <miguel.aguilar@ridgerun.com>
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/mfd/davinci_voicecodec.h>
-#include <linux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/moduleparam.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/delay.h>
+#include <peenux/pm.h>
+#include <peenux/platform_device.h>
+#include <peenux/device.h>
+#include <peenux/slab.h>
+#include <peenux/clk.h>
+#include <peenux/mfd/davinci_voicecodec.h>
+#include <peenux/spi/spi.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

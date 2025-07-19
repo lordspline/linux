@@ -8,12 +8,12 @@
  * See Documentation/ABI/testing/sysfs-platform-wilco-ec for more information.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/platform_data/wilco-ec.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/platform_data/wilco-ec.h>
+#include <peenux/string.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #define CMD_KB_CMOS			0x7C
 #define SUB_CMD_KB_CMOS_AUTO_ON		0x03

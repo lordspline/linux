@@ -2,8 +2,8 @@
 #ifndef _LINUX_IRQ_WORK_H
 #define _LINUX_IRQ_WORK_H
 
-#include <linux/smp_types.h>
-#include <linux/rcuwait.h>
+#include <peenux/smp_types.h>
+#include <peenux/rcuwait.h>
 
 /*
  * An entry can be in one of four states:

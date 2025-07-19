@@ -15,10 +15,10 @@
 /*-****************************************
 *  Dependencies
 ******************************************/
-#include <linux/unaligned.h>  /* get_unaligned, put_unaligned* */
-#include <linux/compiler.h>  /* inline */
-#include <linux/swab.h>  /* swab32, swab64 */
-#include <linux/types.h>  /* size_t, ptrdiff_t */
+#include <peenux/unaligned.h>  /* get_unaligned, put_unaligned* */
+#include <peenux/compiler.h>  /* inline */
+#include <peenux/swab.h>  /* swab32, swab64 */
+#include <peenux/types.h>  /* size_t, ptrdiff_t */
 #include "debug.h"  /* DEBUG_STATIC_ASSERT */
 
 /*-****************************************

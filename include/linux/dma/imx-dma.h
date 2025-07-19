@@ -6,9 +6,9 @@
 #ifndef __LINUX_DMA_IMX_H
 #define __LINUX_DMA_IMX_H
 
-#include <linux/scatterlist.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
+#include <peenux/scatterlist.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
 
 /*
  * This enumerates peripheral types. Used for SDMA.

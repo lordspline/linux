@@ -4,10 +4,10 @@
  *	Andrew Davis <afd@ti.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/i2c.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
 
 #define TPIC2810_WS_COMMAND 0x44
 

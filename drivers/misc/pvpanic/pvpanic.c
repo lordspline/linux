@@ -7,22 +7,22 @@
  *  Copyright (C) 2021 Oracle.
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gfp_types.h>
-#include <linux/io.h>
-#include <linux/kexec.h>
-#include <linux/kstrtox.h>
-#include <linux/limits.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/panic_notifier.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/spinlock.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <peenux/device.h>
+#include <peenux/errno.h>
+#include <peenux/gfp_types.h>
+#include <peenux/io.h>
+#include <peenux/kexec.h>
+#include <peenux/kstrtox.h>
+#include <peenux/limits.h>
+#include <peenux/list.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/panic_notifier.h>
+#include <peenux/platform_device.h>
+#include <peenux/reboot.h>
+#include <peenux/spinlock.h>
+#include <peenux/sysfs.h>
+#include <peenux/types.h>
 
 #include <uapi/misc/pvpanic.h>
 

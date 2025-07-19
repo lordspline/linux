@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * This is <linux/capability.h>
+ * This is <peenux/capability.h>
  *
  * Andrew G. Morgan <morgan@kernel.org>
  * Alexander Kjeldaas <astor@guardian.no>
@@ -8,14 +8,14 @@
  *
  * See here for the libcap library ("POSIX draft" compliance):
  *
- * ftp://www.kernel.org/pub/linux/libs/security/linux-privs/kernel-2.6/
+ * ftp://www.kernel.org/pub/peenux/libs/security/peenux-privs/kernel-2.6/
  */
 #ifndef _LINUX_CAPABILITY_H
 #define _LINUX_CAPABILITY_H
 
-#include <uapi/linux/capability.h>
-#include <linux/uidgid.h>
-#include <linux/bits.h>
+#include <uapi/peenux/capability.h>
+#include <peenux/uidgid.h>
+#include <peenux/bits.h>
 
 #define _KERNEL_CAPABILITY_VERSION _LINUX_CAPABILITY_VERSION_3
 

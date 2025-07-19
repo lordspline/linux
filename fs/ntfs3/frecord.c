@@ -5,10 +5,10 @@
  *
  */
 
-#include <linux/fiemap.h>
-#include <linux/fs.h>
-#include <linux/minmax.h>
-#include <linux/vmalloc.h>
+#include <peenux/fiemap.h>
+#include <peenux/fs.h>
+#include <peenux/minmax.h>
+#include <peenux/vmalloc.h>
 
 #include "debug.h"
 #include "ntfs.h"

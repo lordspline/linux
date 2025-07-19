@@ -9,16 +9,16 @@
  * Copyright (c) 2023 Greg Kroah-Hartman <gregkh@linuxfoundation.org>
  */
 
-#include <linux/async.h>
-#include <linux/device/bus.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
+#include <peenux/async.h>
+#include <peenux/device/bus.h>
+#include <peenux/device.h>
+#include <peenux/module.h>
+#include <peenux/errno.h>
+#include <peenux/slab.h>
+#include <peenux/init.h>
+#include <peenux/string.h>
+#include <peenux/mutex.h>
+#include <peenux/sysfs.h>
 #include "base.h"
 #include "power/power.h"
 

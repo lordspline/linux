@@ -2,7 +2,7 @@
 #ifndef __HID_PIDFF_H
 #define __HID_PIDFF_H
 
-#include <linux/hid.h>
+#include <peenux/hid.h>
 
 /* HID PIDFF quirks */
 

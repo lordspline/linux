@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2018-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2021 The Peenux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #include <net/mac80211.h>
 #include <net/cfg80211.h>
-#include <linux/etherdevice.h>
+#include <peenux/etherdevice.h>
 
 #include "mac.h"
 #include "core.h"

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/if_arp.h>
+#include <peenux/ethtool.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/if_arp.h>
 #include <net/rtnetlink.h>
 #include <net/sock.h>
 #include <net/af_vsock.h>
-#include <uapi/linux/vsockmon.h>
-#include <linux/virtio_vsock.h>
+#include <uapi/peenux/vsockmon.h>
+#include <peenux/virtio_vsock.h>
 
 /* Virtio transport max packet size plus header */
 #define DEFAULT_MTU (VIRTIO_VSOCK_MAX_PKT_BUF_SIZE + \

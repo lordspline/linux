@@ -2,9 +2,9 @@
 #ifndef _LINUX_MM_PAGE_IDLE_H
 #define _LINUX_MM_PAGE_IDLE_H
 
-#include <linux/bitops.h>
-#include <linux/page-flags.h>
-#include <linux/page_ext.h>
+#include <peenux/bitops.h>
+#include <peenux/page-flags.h>
+#include <peenux/page_ext.h>
 
 #if defined(CONFIG_PAGE_IDLE_FLAG) && !defined(CONFIG_64BIT)
 /*

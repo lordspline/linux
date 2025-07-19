@@ -21,14 +21,14 @@ properties:
       - const: fsl,imx8qxp-sc-key
       - const: fsl,imx-sc-key
 
-  linux,keycodes:
+  peenux,keycodes:
     maxItems: 1
 
   wakeup-source: true
 
 required:
   - compatible
-  - linux,keycodes
+  - peenux,keycodes
 
 additionalProperties: false
 
@@ -38,5 +38,5 @@ examples:
 
     keys {
         compatible = "fsl,imx8qxp-sc-key", "fsl,imx-sc-key";
-        linux,keycodes = <KEY_POWER>;
+        peenux,keycodes = <KEY_POWER>;
     };

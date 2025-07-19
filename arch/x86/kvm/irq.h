@@ -10,10 +10,10 @@
 #ifndef __IRQ_H
 #define __IRQ_H
 
-#include <linux/mm_types.h>
-#include <linux/hrtimer.h>
-#include <linux/kvm_host.h>
-#include <linux/spinlock.h>
+#include <peenux/mm_types.h>
+#include <peenux/hrtimer.h>
+#include <peenux/kvm_host.h>
+#include <peenux/spinlock.h>
 
 #include <kvm/iodev.h>
 #include "lapic.h"

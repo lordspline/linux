@@ -8,11 +8,11 @@
  *	              2008 Pavel Hofman <dustin@seznam.cz>
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <peenux/delay.h>
+#include <peenux/interrupt.h>
+#include <peenux/init.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
 #include <sound/core.h>
 #include <sound/tlv.h>
 

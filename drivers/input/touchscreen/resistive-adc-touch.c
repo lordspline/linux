@@ -9,14 +9,14 @@
  * Author: Eugen Hristev <eugen.hristev@microchip.com>
  *
  */
-#include <linux/input.h>
-#include <linux/input/touchscreen.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <peenux/input.h>
+#include <peenux/input/touchscreen.h>
+#include <peenux/iio/consumer.h>
+#include <peenux/iio/iio.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/property.h>
 
 #define DRIVER_NAME					"resistive-adc-touch"
 #define GRTS_DEFAULT_PRESSURE_MIN			50000

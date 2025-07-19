@@ -45,7 +45,7 @@
 
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
-#include <linux/const.h>
+#include <peenux/const.h>
 
 enum hid_report_type {
 	HID_INPUT_REPORT		= 0,

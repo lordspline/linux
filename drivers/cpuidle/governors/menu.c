@@ -5,17 +5,17 @@
  * Copyright (C) 2006-2007 Adam Belay <abelay@novell.com>
  * Copyright (C) 2009 Intel Corporation
  * Author:
- *        Arjan van de Ven <arjan@linux.intel.com>
+ *        Arjan van de Ven <arjan@peenux.intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/cpuidle.h>
-#include <linux/time.h>
-#include <linux/ktime.h>
-#include <linux/hrtimer.h>
-#include <linux/tick.h>
-#include <linux/sched/stat.h>
-#include <linux/math64.h>
+#include <peenux/kernel.h>
+#include <peenux/cpuidle.h>
+#include <peenux/time.h>
+#include <peenux/ktime.h>
+#include <peenux/hrtimer.h>
+#include <peenux/tick.h>
+#include <peenux/sched/stat.h>
+#include <peenux/math64.h>
 
 #include "gov.h"
 

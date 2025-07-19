@@ -9,18 +9,18 @@
  *	General Public License.  See the file "COPYING" in the main
  *	directory of this archive for more details.
  */
-#include <linux/compiler.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/tc.h>
-#include <linux/types.h>
+#include <peenux/compiler.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/errno.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/kernel.h>
+#include <peenux/list.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/string.h>
+#include <peenux/tc.h>
+#include <peenux/types.h>
 
 #include <asm/io.h>
 

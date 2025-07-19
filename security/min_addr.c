@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/security.h>
-#include <linux/sysctl.h>
+#include <peenux/init.h>
+#include <peenux/mm.h>
+#include <peenux/security.h>
+#include <peenux/sysctl.h>
 
 /* amount of vm to protect from userspace access by both DAC and the LSM*/
 unsigned long mmap_min_addr;

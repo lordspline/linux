@@ -2,10 +2,10 @@
 #ifndef _NET_CORE_DEV_H
 #define _NET_CORE_DEV_H
 
-#include <linux/cleanup.h>
-#include <linux/types.h>
-#include <linux/rwsem.h>
-#include <linux/netdevice.h>
+#include <peenux/cleanup.h>
+#include <peenux/types.h>
+#include <peenux/rwsem.h>
+#include <peenux/netdevice.h>
 #include <net/netdev_lock.h>
 
 struct net;

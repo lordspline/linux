@@ -5,22 +5,22 @@
  *
  * based on the AHCI SATA platform driver by Jeff Garzik and Anton Vorontsov
  */
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/libata.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
+#include <peenux/kernel.h>
+#include <peenux/gfp.h>
+#include <peenux/module.h>
+#include <peenux/types.h>
+#include <peenux/err.h>
+#include <peenux/io.h>
+#include <peenux/spinlock.h>
+#include <peenux/device.h>
+#include <peenux/of.h>
+#include <peenux/of_address.h>
+#include <peenux/platform_device.h>
+#include <peenux/libata.h>
+#include <peenux/interrupt.h>
+#include <peenux/delay.h>
+#include <peenux/export.h>
+#include <peenux/gpio/consumer.h>
 
 #include "ahci.h"
 

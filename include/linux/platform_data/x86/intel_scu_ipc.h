@@ -2,9 +2,9 @@
 #ifndef __PLATFORM_X86_INTEL_SCU_IPC_H_
 #define __PLATFORM_X86_INTEL_SCU_IPC_H_
 
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/types.h>
+#include <peenux/init.h>
+#include <peenux/ioport.h>
+#include <peenux/types.h>
 
 struct device;
 struct module;

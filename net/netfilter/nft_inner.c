@@ -3,25 +3,25 @@
  * Copyright (c) 2022 Pablo Neira Ayuso <pablo@netfilter.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/if_vlan.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netlink.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/nf_tables.h>
+#include <peenux/kernel.h>
+#include <peenux/if_vlan.h>
+#include <peenux/init.h>
+#include <peenux/module.h>
+#include <peenux/netlink.h>
+#include <peenux/netfilter.h>
+#include <peenux/netfilter/nf_tables.h>
 #include <net/netfilter/nf_tables_core.h>
 #include <net/netfilter/nf_tables.h>
 #include <net/netfilter/nft_meta.h>
 #include <net/netfilter/nf_tables_offload.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
+#include <peenux/tcp.h>
+#include <peenux/udp.h>
 #include <net/gre.h>
 #include <net/geneve.h>
 #include <net/ip.h>
-#include <linux/icmpv6.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <peenux/icmpv6.h>
+#include <peenux/ip.h>
+#include <peenux/ipv6.h>
 
 struct nft_inner_tun_ctx_locked {
 	struct nft_inner_tun_ctx ctx;

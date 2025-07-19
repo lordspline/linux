@@ -14,7 +14,7 @@
 #include "snapshot.h"
 #include "trace.h"
 
-#include <linux/string_helpers.h>
+#include <peenux/string_helpers.h>
 
 static inline int btree_insert_entry_cmp(const struct btree_insert_entry *l,
 					 const struct btree_insert_entry *r)

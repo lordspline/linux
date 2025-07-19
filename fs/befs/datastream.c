@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/befs/datastream.c
+ * peenux/fs/befs/datastream.c
  *
  * Copyright (C) 2001 Will Dyson <will_dyson@pobox.com>
  *
@@ -11,9 +11,9 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/buffer_head.h>
-#include <linux/string.h>
+#include <peenux/kernel.h>
+#include <peenux/buffer_head.h>
+#include <peenux/string.h>
 
 #include "befs.h"
 #include "datastream.h"

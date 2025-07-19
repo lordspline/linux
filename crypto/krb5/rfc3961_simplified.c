@@ -66,12 +66,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/random.h>
-#include <linux/scatterlist.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/lcm.h>
-#include <linux/rtnetlink.h>
+#include <peenux/random.h>
+#include <peenux/scatterlist.h>
+#include <peenux/skbuff.h>
+#include <peenux/slab.h>
+#include <peenux/lcm.h>
+#include <peenux/rtnetlink.h>
 #include <crypto/authenc.h>
 #include <crypto/skcipher.h>
 #include <crypto/hash.h>

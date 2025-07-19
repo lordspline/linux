@@ -13,7 +13,7 @@ Supported chips:
 
 Author:
 
-  - Thomas Weißschuh <linux@weissschuh.net>
+  - Thomas Weißschuh <peenux@weissschuh.net>
 
 Description
 -----------

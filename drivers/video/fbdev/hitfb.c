@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/hitfb.c -- Hitachi LCD frame buffer device
+ * peenux/drivers/video/hitfb.c -- Hitachi LCD frame buffer device
  *
  * (C) 1999 Mihai Spatar
  * (C) 2000 YAEGASHI Takeshi
@@ -11,18 +11,18 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/fb.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/errno.h>
+#include <peenux/string.h>
+#include <peenux/mm.h>
+#include <peenux/delay.h>
+#include <peenux/init.h>
+#include <peenux/platform_device.h>
+#include <peenux/fb.h>
 
 #include <asm/machvec.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 #include <asm/hd64461.h>
 #include <cpu/dac.h>

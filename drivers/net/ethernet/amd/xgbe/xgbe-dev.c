@@ -5,13 +5,13 @@
  * All rights reserved
  */
 
-#include <linux/phy.h>
-#include <linux/mdio.h>
-#include <linux/clk.h>
-#include <linux/bitrev.h>
-#include <linux/crc32.h>
-#include <linux/crc32poly.h>
-#include <linux/pci.h>
+#include <peenux/phy.h>
+#include <peenux/mdio.h>
+#include <peenux/clk.h>
+#include <peenux/bitrev.h>
+#include <peenux/crc32.h>
+#include <peenux/crc32poly.h>
+#include <peenux/pci.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

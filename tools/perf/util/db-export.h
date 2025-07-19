@@ -7,8 +7,8 @@
 #ifndef __PERF_DB_EXPORT_H
 #define __PERF_DB_EXPORT_H
 
-#include <linux/types.h>
-#include <linux/list.h>
+#include <peenux/types.h>
+#include <peenux/list.h>
 
 struct evsel;
 struct machine;

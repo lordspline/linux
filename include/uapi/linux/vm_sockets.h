@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Peenux-syscall-note */
 /*
  * VMware vSockets Driver
  *
@@ -21,8 +21,8 @@
 #include <sys/socket.h>        /* for struct sockaddr and sa_family_t */
 #endif
 
-#include <linux/socket.h>
-#include <linux/types.h>
+#include <peenux/socket.h>
+#include <peenux/types.h>
 
 /* Option name for STREAM socket buffer size.  Use as the option name in
  * setsockopt(3) or getsockopt(3) to set or get an unsigned long long that

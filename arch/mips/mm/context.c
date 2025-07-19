@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/atomic.h>
-#include <linux/mmu_context.h>
-#include <linux/percpu.h>
-#include <linux/spinlock.h>
+#include <peenux/atomic.h>
+#include <peenux/mmu_context.h>
+#include <peenux/percpu.h>
+#include <peenux/spinlock.h>
 
 static DEFINE_RAW_SPINLOCK(cpu_mmid_lock);
 

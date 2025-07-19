@@ -5,9 +5,9 @@
 #ifndef __LINUX_SPI_LOONGSON_H
 #define __LINUX_SPI_LOONGSON_H
 
-#include <linux/bits.h>
-#include <linux/pm.h>
-#include <linux/types.h>
+#include <peenux/bits.h>
+#include <peenux/pm.h>
+#include <peenux/types.h>
 
 #define	LOONGSON_SPI_SPCR_REG	0x00
 #define	LOONGSON_SPI_SPSR_REG	0x01

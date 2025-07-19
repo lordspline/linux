@@ -7,10 +7,10 @@
  * Based on Richard Purdie's ledtrig-timer.c.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/leds.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/init.h>
+#include <peenux/leds.h>
 #include "../leds.h"
 
 static int defon_trig_activate(struct led_classdev *led_cdev)

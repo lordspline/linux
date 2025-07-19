@@ -6,12 +6,12 @@
 #ifndef _INTEL_GUC_CT_H_
 #define _INTEL_GUC_CT_H_
 
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/stackdepot.h>
-#include <linux/workqueue.h>
-#include <linux/ktime.h>
-#include <linux/wait.h>
+#include <peenux/interrupt.h>
+#include <peenux/spinlock.h>
+#include <peenux/stackdepot.h>
+#include <peenux/workqueue.h>
+#include <peenux/ktime.h>
+#include <peenux/wait.h>
 
 #include "intel_guc_fwif.h"
 

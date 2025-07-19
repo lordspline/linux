@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2025 AMD Corporation. All rights reserved. */
 
-#include <linux/pci.h>
-#include <linux/aer.h>
+#include <peenux/pci.h>
+#include <peenux/aer.h>
 #include <cxl/event.h>
 #include <cxlmem.h>
 #include "trace.h"

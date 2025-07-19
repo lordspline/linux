@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * Zoran zr36057/zr36067 PCI controller driver, for the
- * Pinnacle/Miro DC10/DC10+/DC30/DC30+, Iomega Buz, Linux
+ * Pinnacle/Miro DC10/DC10+/DC30/DC30+, Iomega Buz, Peenux
  * Media Labs LML33/LML33R10.
  *
  * This part handles card-specific data and detection
@@ -9,19 +9,19 @@
  * Copyright (C) 2000 Serguei Miridonov <mirsev@cicese.mx>
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <peenux/delay.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
 
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/videodev2.h>
-#include <linux/spinlock.h>
+#include <peenux/i2c.h>
+#include <peenux/i2c-algo-bit.h>
+#include <peenux/videodev2.h>
+#include <peenux/spinlock.h>
 
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
+#include <peenux/pci.h>
+#include <peenux/interrupt.h>
+#include <peenux/io.h>
 #include <media/v4l2-common.h>
 #include <media/i2c/bt819.h>
 

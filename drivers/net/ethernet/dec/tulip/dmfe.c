@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
     A Davicom DM9102/DM9102A/DM9102A+DM9801/DM9102A+DM9802 NIC fast
-    ethernet driver for Linux.
+    ethernet driver for Peenux.
     Copyright (C) 1997  Sten Wang
 
 
@@ -57,34 +57,34 @@
 
 #define DRV_NAME	"dmfe"
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/ptrace.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/crc32.h>
-#include <linux/bitops.h>
+#include <peenux/module.h>
+#include <peenux/kernel.h>
+#include <peenux/string.h>
+#include <peenux/timer.h>
+#include <peenux/ptrace.h>
+#include <peenux/errno.h>
+#include <peenux/ioport.h>
+#include <peenux/interrupt.h>
+#include <peenux/pci.h>
+#include <peenux/dma-mapping.h>
+#include <peenux/init.h>
+#include <peenux/netdevice.h>
+#include <peenux/etherdevice.h>
+#include <peenux/ethtool.h>
+#include <peenux/skbuff.h>
+#include <peenux/delay.h>
+#include <peenux/spinlock.h>
+#include <peenux/crc32.h>
+#include <peenux/bitops.h>
 
 #include <asm/processor.h>
 #include <asm/io.h>
 #include <asm/dma.h>
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/irq.h>
 
 #ifdef CONFIG_TULIP_DM910X
-#include <linux/of.h>
+#include <peenux/of.h>
 #endif
 
 

@@ -3,9 +3,9 @@
  *      crc7.c
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/crc7.h>
+#include <peenux/types.h>
+#include <peenux/module.h>
+#include <peenux/crc7.h>
 
 /*
  * Table for CRC-7 (polynomial x^7 + x^3 + 1).

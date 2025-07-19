@@ -4,10 +4,10 @@
  * Communication Processor Module.
  * Copyright (c) 1997 Dan error_act (dmalek@jlc.net)
  */
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/platform_device.h>
+#include <peenux/kernel.h>
+#include <peenux/interrupt.h>
+#include <peenux/irqdomain.h>
+#include <peenux/platform_device.h>
 #include <asm/cpm1.h>
 
 struct cpm_pic_data {

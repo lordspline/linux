@@ -7,16 +7,16 @@
 
 #define KMSG_COMPONENT "dasd-fba"
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
+#include <peenux/stddef.h>
+#include <peenux/kernel.h>
 #include <asm/debug.h>
 
-#include <linux/slab.h>
-#include <linux/hdreg.h>	/* HDIO_GETGEO			    */
-#include <linux/bio.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <peenux/slab.h>
+#include <peenux/hdreg.h>	/* HDIO_GETGEO			    */
+#include <peenux/bio.h>
+#include <peenux/module.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
 
 #include <asm/idals.h>
 #include <asm/ebcdic.h>

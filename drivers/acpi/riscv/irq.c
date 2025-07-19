@@ -4,9 +4,9 @@
  *	Author: Sunil V L <sunilvl@ventanamicro.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/sort.h>
-#include <linux/irq.h>
+#include <peenux/acpi.h>
+#include <peenux/sort.h>
+#include <peenux/irq.h>
 
 #include "init.h"
 

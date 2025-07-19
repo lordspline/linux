@@ -12,7 +12,7 @@ enum {
 	REGSET_XSTATE,
 };
 
-#include <linux/compiler.h>
+#include <peenux/compiler.h>
 #ifndef CONFIG_X86_32
 #define __FRAME_OFFSETS /* Needed to get the R* macros */
 #endif

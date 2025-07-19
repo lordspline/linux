@@ -7,27 +7,27 @@
  * even if we're invoked from userspace (think modprobe, hotplug cpu,
  * etc.).
  */
-#include <uapi/linux/sched/types.h>
-#include <linux/mm.h>
-#include <linux/mmu_context.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
-#include <linux/kthread.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/cgroup.h>
-#include <linux/cpuset.h>
-#include <linux/unistd.h>
-#include <linux/file.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/freezer.h>
-#include <linux/ptrace.h>
-#include <linux/uaccess.h>
-#include <linux/numa.h>
-#include <linux/sched/isolation.h>
+#include <uapi/peenux/sched/types.h>
+#include <peenux/mm.h>
+#include <peenux/mmu_context.h>
+#include <peenux/sched.h>
+#include <peenux/sched/mm.h>
+#include <peenux/sched/task.h>
+#include <peenux/kthread.h>
+#include <peenux/completion.h>
+#include <peenux/err.h>
+#include <peenux/cgroup.h>
+#include <peenux/cpuset.h>
+#include <peenux/unistd.h>
+#include <peenux/file.h>
+#include <peenux/export.h>
+#include <peenux/mutex.h>
+#include <peenux/slab.h>
+#include <peenux/freezer.h>
+#include <peenux/ptrace.h>
+#include <peenux/uaccess.h>
+#include <peenux/numa.h>
+#include <peenux/sched/isolation.h>
 #include <trace/events/sched.h>
 
 

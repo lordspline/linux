@@ -9,8 +9,8 @@
  * PDI.
  */
 
-#include <linux/spi/spi.h>
-#include <linux/mii.h>
+#include <peenux/spi/spi.h>
+#include <peenux/mii.h>
 
 /* SPI commands */
 #define LAN9252_SPI_READ	0x3

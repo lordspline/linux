@@ -2,7 +2,7 @@
 /*
  * Copyright © 2023 Intel Corporation
  */
-#include <linux/shmem_fs.h>
+#include <peenux/shmem_fs.h>
 #include <drm/ttm/ttm_tt.h>
 
 #include "ttm_kunit_helpers.h"

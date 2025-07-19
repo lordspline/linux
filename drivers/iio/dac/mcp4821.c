@@ -16,14 +16,14 @@
  *	- Regulator control
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
+#include <peenux/module.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/spi/spi.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
+#include <peenux/iio/iio.h>
+#include <peenux/iio/types.h>
 
-#include <linux/unaligned.h>
+#include <peenux/unaligned.h>
 
 #define MCP4821_ACTIVE_MODE BIT(12)
 #define MCP4802_SECOND_CHAN BIT(15)

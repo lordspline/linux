@@ -2,7 +2,7 @@
 /*
  * Derived from many drivers using generic_serial interface,
  * especially serial_tx3912.c by Steven J. Hill and r39xx_serial.c
- * (was in Linux/VR tree) by Jim Pick.
+ * (was in Peenux/VR tree) by Jim Pick.
  *
  *  Copyright (C) 1999 Harald Koerfgen
  *  Copyright (C) 2000 Jim Pick <jim@jimpick.com>
@@ -12,18 +12,18 @@
  *  Serial driver for TX3927/TX4927/TX4925/TX4938 internal SIO controller
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/io.h>
+#include <peenux/module.h>
+#include <peenux/ioport.h>
+#include <peenux/init.h>
+#include <peenux/console.h>
+#include <peenux/delay.h>
+#include <peenux/platform_device.h>
+#include <peenux/pci.h>
+#include <peenux/serial_core.h>
+#include <peenux/serial.h>
+#include <peenux/tty.h>
+#include <peenux/tty_flip.h>
+#include <peenux/io.h>
 
 #include <asm/txx9/generic.h>
 

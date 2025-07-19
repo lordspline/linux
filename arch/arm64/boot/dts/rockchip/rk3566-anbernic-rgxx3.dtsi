@@ -3,7 +3,7 @@
 /dts-v1/;
 
 #include <dt-bindings/gpio/gpio.h>
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/peenux-event-codes.h>
 #include <dt-bindings/leds/common.h>
 #include <dt-bindings/pinctrl/rockchip.h>
 #include <dt-bindings/soc/rockchip,vop2.h>
@@ -29,7 +29,7 @@
 		 */
 		button-mode {
 			label = "MODE";
-			linux,code = <BTN_MODE>;
+			peenux,code = <BTN_MODE>;
 			press-threshold-microvolt = <1750>;
 		};
 	};
@@ -42,49 +42,49 @@
 		button-b {
 			gpios = <&gpio3 RK_PC3 GPIO_ACTIVE_LOW>;
 			label = "SOUTH";
-			linux,code = <BTN_SOUTH>;
+			peenux,code = <BTN_SOUTH>;
 		};
 
 		button-down {
 			gpios = <&gpio3 RK_PA4 GPIO_ACTIVE_LOW>;
 			label = "DPAD-DOWN";
-			linux,code = <BTN_DPAD_DOWN>;
+			peenux,code = <BTN_DPAD_DOWN>;
 		};
 
 		button-l1 {
 			gpios = <&gpio3 RK_PB1 GPIO_ACTIVE_LOW>;
 			label = "TL";
-			linux,code = <BTN_TL>;
+			peenux,code = <BTN_TL>;
 		};
 
 		button-l2 {
 			gpios = <&gpio3 RK_PB2 GPIO_ACTIVE_LOW>;
 			label = "TL2";
-			linux,code = <BTN_TL2>;
+			peenux,code = <BTN_TL2>;
 		};
 
 		button-select {
 			gpios = <&gpio3 RK_PB6 GPIO_ACTIVE_LOW>;
 			label = "SELECT";
-			linux,code = <BTN_SELECT>;
+			peenux,code = <BTN_SELECT>;
 		};
 
 		button-start {
 			gpios = <&gpio3 RK_PB5 GPIO_ACTIVE_LOW>;
 			label = "START";
-			linux,code = <BTN_START>;
+			peenux,code = <BTN_START>;
 		};
 
 		button-up {
 			gpios = <&gpio3 RK_PA3 GPIO_ACTIVE_LOW>;
 			label = "DPAD-UP";
-			linux,code = <BTN_DPAD_UP>;
+			peenux,code = <BTN_DPAD_UP>;
 		};
 
 		button-x {
 			gpios = <&gpio3 RK_PC0 GPIO_ACTIVE_LOW>;
 			label = "NORTH";
-			linux,code = <BTN_NORTH>;
+			peenux,code = <BTN_NORTH>;
 		};
 	};
 
@@ -97,13 +97,13 @@
 		button-vol-down {
 			gpios = <&gpio3 RK_PB0 GPIO_ACTIVE_LOW>;
 			label = "VOLUMEDOWN";
-			linux,code = <KEY_VOLUMEDOWN>;
+			peenux,code = <KEY_VOLUMEDOWN>;
 		};
 
 		button-vol-up {
 			gpios = <&gpio3 RK_PA7 GPIO_ACTIVE_LOW>;
 			label = "VOLUMEUP";
-			linux,code = <KEY_VOLUMEUP>;
+			peenux,code = <KEY_VOLUMEUP>;
 		};
 	};
 

@@ -5,7 +5,7 @@
  *  Copyright (C) 2012 Simo Sorce <simo@redhat.com>
  */
 
-#include <linux/sunrpc/svcauth.h>
+#include <peenux/sunrpc/svcauth.h>
 #include "gss_rpc_xdr.h"
 
 static int gssx_enc_bool(struct xdr_stream *xdr, int v)
@@ -160,7 +160,7 @@ static int get_host_u32(struct xdr_stream *xdr, u32 *res)
 	p = xdr_inline_decode(xdr, 4);
 	if (!p)
 		return -EINVAL;
-	/* Contents of linux creds are all host-endian: */
+	/* Contents of peenux creds are all host-endian: */
 	memcpy(res, p, sizeof(u32));
 	return 0;
 }

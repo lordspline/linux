@@ -2,17 +2,17 @@
 
 #include "gpibP.h"
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/major.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/timer.h>
+#include <peenux/kernel.h>
+#include <peenux/sched.h>
+#include <peenux/errno.h>
+#include <peenux/major.h>
+#include <peenux/module.h>
+#include <peenux/slab.h>
+#include <peenux/mm.h>
+#include <peenux/timer.h>
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <peenux/io.h>
+#include <peenux/uaccess.h>
 #include <asm/irq.h>
 #include <asm/dma.h>
 

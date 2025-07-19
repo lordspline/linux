@@ -8,7 +8,7 @@
 #ifndef __RENESAS_XSPI_IF_REGS_H__
 #define __RENESAS_XSPI_IF_REGS_H__
 
-#include <linux/bits.h>
+#include <peenux/bits.h>
 
 /* xSPI Wrapper Configuration Register */
 #define XSPI_WRAPCFG		0x0000

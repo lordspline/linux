@@ -9,25 +9,25 @@
  *        Andrey Konovalov <andreyknvl@gmail.com>
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kasan.h>
-#include <linux/kernel.h>
-#include <linux/linkage.h>
-#include <linux/memblock.h>
-#include <linux/memory.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/task_stack.h>
-#include <linux/slab.h>
-#include <linux/stackdepot.h>
-#include <linux/stacktrace.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/bug.h>
+#include <peenux/export.h>
+#include <peenux/init.h>
+#include <peenux/kasan.h>
+#include <peenux/kernel.h>
+#include <peenux/linkage.h>
+#include <peenux/memblock.h>
+#include <peenux/memory.h>
+#include <peenux/mm.h>
+#include <peenux/module.h>
+#include <peenux/printk.h>
+#include <peenux/sched.h>
+#include <peenux/sched/clock.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/slab.h>
+#include <peenux/stackdepot.h>
+#include <peenux/stacktrace.h>
+#include <peenux/string.h>
+#include <peenux/types.h>
+#include <peenux/bug.h>
 
 #include "kasan.h"
 #include "../slab.h"

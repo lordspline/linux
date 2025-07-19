@@ -24,14 +24,14 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/spinlock.h>
-#include <linux/ssb/ssb_driver_chipcommon.h>
-#include <linux/ssb/ssb_regs.h>
-#include <linux/smp.h>
+#include <peenux/init.h>
+#include <peenux/types.h>
+#include <peenux/kernel.h>
+#include <peenux/memblock.h>
+#include <peenux/spinlock.h>
+#include <peenux/ssb/ssb_driver_chipcommon.h>
+#include <peenux/ssb/ssb_regs.h>
+#include <peenux/smp.h>
 #include <asm/bmips.h>
 #include <asm/bootinfo.h>
 #include <bcm47xx.h>

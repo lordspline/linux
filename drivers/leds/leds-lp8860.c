@@ -7,16 +7,16 @@
  * Author: Dan Murphy <dmurphy@ti.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/leds.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
+#include <peenux/i2c.h>
+#include <peenux/init.h>
+#include <peenux/leds.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/module.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/gpio/consumer.h>
+#include <peenux/slab.h>
 
 #define LP8860_DISP_CL1_BRT_MSB		0x00
 #define LP8860_DISP_CL1_BRT_LSB		0x01

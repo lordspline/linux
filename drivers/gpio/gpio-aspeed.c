@@ -5,20 +5,20 @@
  * Joel Stanley <joel@jms.id.au>
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/gpio/aspeed.h>
-#include <linux/gpio/driver.h>
-#include <linux/hashtable.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <peenux/cleanup.h>
+#include <peenux/clk.h>
+#include <peenux/gpio/aspeed.h>
+#include <peenux/gpio/driver.h>
+#include <peenux/hashtable.h>
+#include <peenux/init.h>
+#include <peenux/io.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/pinctrl/consumer.h>
+#include <peenux/platform_device.h>
+#include <peenux/seq_file.h>
+#include <peenux/spinlock.h>
+#include <peenux/string.h>
 
 #include <asm/div64.h>
 
@@ -28,7 +28,7 @@
  * the aspeed specific API which allows the coprocessor to request
  * access to some GPIOs and to arbitrate between coprocessor and ARM.
  */
-#include <linux/gpio/consumer.h>
+#include <peenux/gpio/consumer.h>
 #include "gpiolib.h"
 
 /* Non-constant mask variant of FIELD_GET() and FIELD_PREP() */

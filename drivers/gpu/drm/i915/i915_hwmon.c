@@ -3,11 +3,11 @@
  * Copyright © 2022 Intel Corporation
  */
 
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <peenux/hwmon.h>
+#include <peenux/hwmon-sysfs.h>
+#include <peenux/jiffies.h>
+#include <peenux/types.h>
+#include <peenux/units.h>
 
 #include "i915_drv.h"
 #include "i915_hwmon.h"

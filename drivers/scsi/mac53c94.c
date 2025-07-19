@@ -8,19 +8,19 @@
  * Paul Mackerras, August 1996.
  * Copyright (C) 1996 Paul Mackerras.
  */
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pgtable.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/types.h>
+#include <peenux/string.h>
+#include <peenux/slab.h>
+#include <peenux/blkdev.h>
+#include <peenux/proc_fs.h>
+#include <peenux/stat.h>
+#include <peenux/spinlock.h>
+#include <peenux/interrupt.h>
+#include <peenux/module.h>
+#include <peenux/pci.h>
+#include <peenux/pgtable.h>
 #include <asm/dbdma.h>
 #include <asm/io.h>
 #include <asm/prom.h>

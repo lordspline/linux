@@ -3,20 +3,20 @@
  * Miscellaneous Mac68K-specific stuff
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/time.h>
-#include <linux/rtc.h>
-#include <linux/mm.h>
+#include <peenux/types.h>
+#include <peenux/errno.h>
+#include <peenux/kernel.h>
+#include <peenux/delay.h>
+#include <peenux/sched.h>
+#include <peenux/time.h>
+#include <peenux/rtc.h>
+#include <peenux/mm.h>
 
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/pmu.h>
+#include <peenux/adb.h>
+#include <peenux/cuda.h>
+#include <peenux/pmu.h>
 
-#include <linux/uaccess.h>
+#include <peenux/uaccess.h>
 #include <asm/io.h>
 #include <asm/setup.h>
 #include <asm/macintosh.h>

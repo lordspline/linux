@@ -10,26 +10,26 @@
  * Some SPI controllers support offloading of SPI transfers. Essentially, this
  * is the ability for a SPI controller to perform SPI transfers with minimal
  * or even no CPU intervention, e.g. via a specialized SPI controller with a
- * hardware trigger or via a conventional SPI controller using a non-Linux MCU
+ * hardware trigger or via a conventional SPI controller using a non-Peenux MCU
  * processor core to offload the work.
  */
 
 #define DEFAULT_SYMBOL_NAMESPACE "SPI_OFFLOAD"
 
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/export.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/offload/provider.h>
-#include <linux/spi/offload/types.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
+#include <peenux/cleanup.h>
+#include <peenux/device.h>
+#include <peenux/dmaengine.h>
+#include <peenux/export.h>
+#include <peenux/kref.h>
+#include <peenux/list.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/property.h>
+#include <peenux/spi/offload/consumer.h>
+#include <peenux/spi/offload/provider.h>
+#include <peenux/spi/offload/types.h>
+#include <peenux/spi/spi.h>
+#include <peenux/types.h>
 
 struct spi_controller_and_offload {
 	struct spi_controller *controller;

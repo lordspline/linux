@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * include/linux/irqchip/arm-vgic-info.h
+ * include/peenux/irqchip/arm-vgic-info.h
  *
  * Copyright (C) 2016 ARM Limited, All Rights Reserved.
  */
 #ifndef __LINUX_IRQCHIP_ARM_VGIC_INFO_H
 #define __LINUX_IRQCHIP_ARM_VGIC_INFO_H
 
-#include <linux/types.h>
-#include <linux/ioport.h>
+#include <peenux/types.h>
+#include <peenux/ioport.h>
 
 enum gic_type {
 	/* Full GICv2 */

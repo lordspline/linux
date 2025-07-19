@@ -12,11 +12,11 @@
  * protocol.
  */
 
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <peenux/kernel.h>
+#include <peenux/tty.h>
+#include <peenux/module.h>
+#include <peenux/usb.h>
+#include <peenux/usb/serial.h>
 
 /* NOTE: for now, only use this driver for devices that provide a CDC-ACM port
  * for normal AT commands, but also provide secondary USB interfaces for the

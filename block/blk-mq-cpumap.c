@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2013-2014 Jens Axboe
  */
-#include <linux/kernel.h>
-#include <linux/threads.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/group_cpus.h>
-#include <linux/device/bus.h>
+#include <peenux/kernel.h>
+#include <peenux/threads.h>
+#include <peenux/module.h>
+#include <peenux/mm.h>
+#include <peenux/smp.h>
+#include <peenux/cpu.h>
+#include <peenux/group_cpus.h>
+#include <peenux/device/bus.h>
 
 #include "blk.h"
 #include "blk-mq.h"

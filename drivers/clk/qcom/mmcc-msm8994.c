@@ -3,15 +3,15 @@
  * Copyright (c) 2021, Konrad Dybcio <konrad.dybcio@somainline.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <peenux/kernel.h>
+#include <peenux/bitops.h>
+#include <peenux/err.h>
+#include <peenux/platform_device.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/of.h>
+#include <peenux/clk-provider.h>
+#include <peenux/regmap.h>
 
 #include <dt-bindings/clock/qcom,mmcc-msm8994.h>
 

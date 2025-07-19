@@ -5,20 +5,20 @@
  * Copyright (c) 2000 Eric Brower (ebrower@usa.net)
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/errno.h>
-#include <linux/major.h>
-#include <linux/miscdevice.h>
-#include <linux/ioport.h>		/* request_region */
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/atomic.h>
-#include <linux/uaccess.h>		/* put_/get_user			*/
+#include <peenux/device.h>
+#include <peenux/kernel.h>
+#include <peenux/module.h>
+#include <peenux/fs.h>
+#include <peenux/errno.h>
+#include <peenux/major.h>
+#include <peenux/miscdevice.h>
+#include <peenux/ioport.h>		/* request_region */
+#include <peenux/slab.h>
+#include <peenux/mutex.h>
+#include <peenux/of.h>
+#include <peenux/platform_device.h>
+#include <peenux/atomic.h>
+#include <peenux/uaccess.h>		/* put_/get_user			*/
 #include <asm/io.h>
 
 #include <asm/display7seg.h>

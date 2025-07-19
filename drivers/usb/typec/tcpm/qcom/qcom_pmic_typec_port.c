@@ -3,20 +3,20 @@
  * Copyright (c) 2023, Linaro Ltd. All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/usb/tcpm.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/workqueue.h>
+#include <peenux/delay.h>
+#include <peenux/err.h>
+#include <peenux/interrupt.h>
+#include <peenux/kernel.h>
+#include <peenux/mod_devicetable.h>
+#include <peenux/module.h>
+#include <peenux/platform_device.h>
+#include <peenux/regmap.h>
+#include <peenux/regulator/consumer.h>
+#include <peenux/slab.h>
+#include <peenux/string_choices.h>
+#include <peenux/usb/tcpm.h>
+#include <peenux/usb/typec_mux.h>
+#include <peenux/workqueue.h>
 
 #include "qcom_pmic_typec.h"
 #include "qcom_pmic_typec_port.h"

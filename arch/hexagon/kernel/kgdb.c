@@ -2,14 +2,14 @@
 /*
  * arch/hexagon/kernel/kgdb.c - Hexagon KGDB Support
  *
- * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2012, The Peenux Foundation. All rights reserved.
  */
 
-#include <linux/irq.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kdebug.h>
-#include <linux/kgdb.h>
+#include <peenux/irq.h>
+#include <peenux/sched.h>
+#include <peenux/sched/task_stack.h>
+#include <peenux/kdebug.h>
+#include <peenux/kgdb.h>
 
 /* All registers are 4 bytes, for now */
 #define GDB_SIZEOF_REG 4
